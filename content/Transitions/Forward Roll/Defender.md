@@ -154,13 +154,15 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
 
 As the defender (turtle top player), your goal when the bottom player attempts a forward roll is to either prevent the roll from initiating, follow through the roll to maintain back control, or capitalize on the rolling motion to advance to side control. The forward roll creates a brief window of vulnerability as the bottom player commits their weight forward and temporarily loses their defensive shell. Recognizing the setup cues early gives you the ability to either shut down the attempt before it begins or position yourself to follow the motion and maintain dominant control. The key defensive principle is maintaining chest-to-back connection throughout the opponent's rolling motion rather than letting them roll away from you. If you cannot prevent the roll, your secondary objective is to follow their hips and arrive in a controlling position as they complete the rotation, denying them the seated guard recovery they are seeking.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Forward Roll?</p>
 
 - Bottom player suddenly tucks their chin tightly to chest and rounds their upper back more than normal defensive turtle posture
 - You feel the bottom player's weight shift forward onto their hands as they prepare to post for the roll
@@ -175,6 +177,8 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Forward Roll?</p>
+
 - Maintain constant chest-to-back pressure to feel and respond to any forward weight shift indicating a roll attempt
 - Control the hips as the primary anchor point since the roll requires hip elevation and forward drive
 - Follow the direction of the roll rather than fighting against it, using their momentum to advance your position
@@ -188,6 +192,8 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Forward Roll?</p>
 
 ### 1. Drive hips heavy onto opponent's lower back and sprawl to flatten their turtle
 
@@ -225,6 +231,8 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Forward Roll?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the roll entirely by maintaining heavy hip pressure on opponent's lower back and sprawling when you detect the forward weight shift. Alternatively, follow through the rotation with seatbelt grip intact to arrive with opponent on their back with your control still established. Both approaches require early recognition of the roll attempt and committed reaction before opponent generates full momentum.
@@ -240,6 +248,8 @@ When opponent commits fully to the roll and you cannot maintain back control thr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Forward Roll?</p>
 
 ### 1. Releasing all grips and backing away when you feel the opponent begin to roll
 
@@ -269,6 +279,8 @@ When opponent commits fully to the roll and you cannot maintain back control thr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Forward Roll?</p>
+
 **Week 1-2: Recognition Drilling** - Identify forward roll setup cues from turtle top
 Partner in turtle announces when they will attempt a forward roll within a 10-second window. You practice identifying the specific moment they begin the setup by calling out when you feel the weight shift, chin tuck, or leg loading. No actual countering yet, pure recognition training. 15-20 repetitions per session to calibrate your tactile awareness.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring from turtle top. Partner uses all available 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent in turtle is about to attempt a forward roll?
-**A**: The earliest cues are a sudden tightening of chin tuck beyond normal turtle posture, weight shifting forward onto the hands as they begin to post for the roll, and legs coiling under the hips with feet going flat on the mat to load for explosive drive. You may also feel their upper back round more dramatically and detect hand fighting or grip stripping activity as they free their arms to post. Recognizing these cues before the roll initiates gives you the maximum window to prevent or counter the escape.
-
-**Q2**: Your opponent begins a forward roll and you have seatbelt control but no hooks. Should you follow the roll or release and circle to side control?
-**A**: With seatbelt control and no hooks, following the roll is generally the higher percentage option because the seatbelt provides sufficient connection to ride through the rotation. As opponent rolls, maintain your grip and keep your chest connected to their back. You will arrive with them on their back and your seatbelt intact, often in a better position for hook insertion than the original turtle. However, if you feel your seatbelt grip weakening during the roll, immediately release and circle to side control rather than arriving in a scramble with no control.
-
-**Q3**: What is the most effective way to prevent a forward roll before it initiates?
-**A**: The most effective prevention is maintaining heavy hip-to-hip connection with your weight driving forward and downward onto opponent's lower back and hips. This denies the space and elevation they need to load their legs for the forward drive. When you detect the early weight shift, immediately sprawl your hips back and down to flatten their turtle, collapsing their four-point base. Additionally, maintaining at least one grip on their waist or belt allows you to physically anchor their hips to the mat, making the explosive leg extension needed for the roll impossible.
-
-**Q4**: Your opponent rolls and you lose your grips mid-rotation. What is the correct immediate response?
-**A**: Immediately transition to a lateral pursuit rather than trying to catch up from behind. As their roll completes, they will be on their back facing upward briefly before sitting up to seated guard. This is your window to drive your shoulder into their chest and establish crossface for side control. Sprint your feet around to perpendicular position and drop your weight before they can sit up, post their hands, and establish feet on your hips. The worst response is chasing directly behind their roll, as this puts you in their guard.
-
-**Q5**: Why is maintaining chest-to-back connection more important than grip strength when countering forward rolls?
-**A**: Chest-to-back connection provides continuous tactile feedback about your opponent's weight distribution, breathing patterns, and micro-movements that telegraph the roll attempt before it initiates. Grip strength alone cannot prevent a roll if there is space between your bodies for the opponent to duck under and roll through. The chest connection eliminates that space and means any forward movement by the opponent directly moves you as well, making it physically harder for them to generate the separation needed to roll. Grips can break under explosive movement, but body-to-body pressure is harder to escape because it covers a larger surface area.
-
-
-
-</section>
 
 
 </main>

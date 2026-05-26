@@ -162,6 +162,8 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toreando from Inverted?</p>
+
 - Opponent grips both of your pant legs or ankles simultaneously while you are inverted, establishing bilateral control of your lower body
 - Opponent shifts to a wider lateral stance with weight distributed to one side, preparing for directional movement around your guard
 - You feel your legs being pushed to one side with increasing lateral force, breaking your centerline alignment and disrupting your rotational axis
@@ -173,6 +175,8 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toreando from Inverted?</p>
 
 - Track the passer's lateral movement with aggressive hip rotation, keeping your hips oriented toward them rather than allowing your legs to be redirected past centerline
 - Maintain at least one active grip connection (sleeve, collar, or pant) throughout the toreando attempt to anchor the passer and limit their circling range
@@ -187,6 +191,8 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toreando from Inverted?</p>
 
 ### 1. Aggressive hip rotation to track the passer's lateral movement, keeping legs oriented toward them throughout the circling attempt
 
@@ -224,6 +230,8 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toreando from Inverted?</p>
+
 ### → [[Positions/Inverted Guard]]
 
 Track the passer's lateral movement with aggressive hip rotation, maintaining your legs oriented toward them throughout the toreando attempt. Combine hip tracking with at least one anchor grip and foot-on-hip framing to prevent them from clearing your hip line and completing the pass.
@@ -239,6 +247,8 @@ Exploit the passer's forward weight commitment during the toreando by entering a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toreando from Inverted?</p>
 
 ### 1. Keeping legs straight and static while pant legs are gripped during the toreando
 
@@ -268,6 +278,8 @@ Exploit the passer's forward weight commitment during the toreando by entering a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Toreando from Inverted?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying toreando setups and developing immediate defensive responses
 Partner establishes bilateral leg grips from various positions against your inverted guard. Practice recognizing the toreando setup cues and immediately engaging hip rotation and grip fighting responses. Start at slow speed with cooperative partner, gradually increasing resistance and speed as recognition becomes automatic.
 
@@ -281,29 +293,6 @@ After developing consistent guard retention against the toreando, begin incorpor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a toreando pass is being set up against your inverted guard?
-**A**: The earliest cues are the opponent gripping both of your pant legs or ankles simultaneously while shifting to a wider lateral stance. You will feel bilateral pressure on your lower legs as they secure grips, and notice their weight shifting to one side preparing for directional movement. The key distinguisher from a stack pass is the lateral stance adjustment — stack passes show forward weight shift while toreando setups show lateral positioning. React to bilateral grip establishment immediately by engaging hip rotation and attempting to strip at least one grip.
-
-**Q2**: Your legs are being redirected to one side during a toreando attempt — what is your most critical immediate response?
-**A**: Your most critical response is aggressive hip rotation to follow the passer's direction, keeping your hips oriented toward them rather than allowing your legs to be pushed past your centerline. Use your shoulder-to-mat contact as a pivot point and rotate your entire lower body to track the passer's movement. Simultaneously fight to maintain or re-establish at least one grip on their sleeve, collar, or pant leg. Speed of hip rotation is more important than grip fighting in this immediate moment.
-
-**Q3**: When is it appropriate to attempt a berimbolo counter during a toreando, and when should you focus on guard retention instead?
-**A**: Attempt a berimbolo counter only when the passer over-commits their weight forward during the lateral movement and you have a secure grip on their far hip or belt. The berimbolo requires the opponent's center of gravity to be forward and within reaching distance for the rotation. If the passer maintains a low, wide base with weight back during the toreando, the berimbolo will fail — focus instead on hip rotation to track their movement and retain your guard. Attempting a berimbolo against a well-based toreando exposes you to being flattened with your back turned.
-
-**Q4**: How should you use your feet defensively when both pant legs are gripped during a toreando attempt?
-**A**: With both legs gripped, your primary defensive tool is bending your knees to shorten the lever arm the passer controls, making their lateral redirection less effective. Hook one foot behind their lead knee or place it on their hip to create an anchor point that prevents them from circling away. The foot-on-hip placement is particularly effective because it maintains distance and gives you a platform to re-engage your guard once you strip a grip. Avoid keeping your legs straight and extended, as this gives the passer maximum leverage for the lateral redirection.
-
-**Q5**: After successfully defending the toreando and retaining inverted guard, what follow-up actions should you prioritize?
-**A**: After defending the toreando, immediately transition to a more offensive inverted guard position rather than simply resettling. The passer has committed their grips and weight to the failed toreando, creating a brief window where their base is compromised. Enter a berimbolo sequence if their weight remains forward, transition to single leg X-guard if they step back to reset, or use the momentum of their failed lateral movement to enter a rolling back take. Remaining in static inverted guard after defending the toreando allows the passer to re-establish their stance and attempt again with adjusted timing.
-
-
-
-</section>
 
 
 </main>

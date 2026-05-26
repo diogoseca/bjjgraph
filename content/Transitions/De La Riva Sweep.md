@@ -213,9 +213,9 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 
 - [[Positions/X-Guard]] - Related position - connected guard system with similar off-balancing mechanics
 
-- [[Submissions/Omoplata from Guard]] - Alternative submission - attack available when opponent posts arm to defend sweep
+- [[Submissions/Omoplata]] - Alternative attack - submission setup available when opponent posts arm to defend sweep
 
-- [[Submissions/Triangle from De La Riva]] - Submission option - complementary attack from same guard when opponent postures
+- [[Transitions/Triangle Setup from De La Riva]] - Submission option - complementary attack from same guard when opponent postures
 
 - [[Positions/Side Control]] - Resulting position - primary ending position after successful sweep completion
 

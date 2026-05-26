@@ -162,6 +162,8 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ghost Escape from Side Control?</p>
+
 - Bottom player establishes a strong forearm frame against your hip rather than framing toward your shoulder or neck
 - Bottom player's far hand moves to the mat on their far side as a posting point, indicating preparation for rotational movement
 - Bottom player bridges and immediately angles their hips away from you rather than bridging straight up or toward you
@@ -173,6 +175,8 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ghost Escape from Side Control?</p>
 
 - Maintain heavy hip-to-hip contact to deny the rotational space needed for the knee thread
 - Recognize the turn initiation immediately by feeling for hip rotation away from you rather than toward you
@@ -187,6 +191,8 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ghost Escape from Side Control?</p>
 
 ### 1. Drive hips low and heavy against opponent's hips to prevent the initial rotation from starting
 
@@ -224,6 +230,8 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ghost Escape from Side Control?</p>
+
 ### → [[Positions/Side Control]]
 
 Prevent the turn entirely by maintaining heavy hip-to-hip contact and proactively collapsing the near-side frame when you feel it being established. Drive your hips low and forward the instant you recognize rotational hip movement, flattening the bottom player before the turn develops any momentum.
@@ -239,6 +247,8 @@ When the turn is already committed, follow it aggressively by driving your chest
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ghost Escape from Side Control?</p>
 
 ### 1. Maintaining only crossface pressure without hip-to-hip contact in side control
 
@@ -268,6 +278,8 @@ When the turn is already committed, follow it aggressively by driving your chest
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ghost Escape from Side Control?</p>
+
 **Phase 1: Recognition Training** - Learn to distinguish ghost escape to guard setups from standard escapes
 Partner alternates between standard hip escapes, standard ghost escapes to turtle, and ghost escapes to guard at slow speed. Focus on identifying the hip frame placement and rotation direction that signals each escape type. Call out the escape type verbally before the partner completes it.
 
@@ -284,29 +296,6 @@ Full-resistance side control maintenance rounds where partner uses their complet
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that the opponent is setting up the ghost escape to guard rather than a standard hip escape?
-**A**: The earliest cue is the opponent establishing a forearm frame against your hip rather than against your shoulder or neck. Traditional hip escapes use shoulder frames to create space to shrimp toward you, while the ghost escape to guard uses the hip frame to prevent you from following the turn away from you. The frame placement tells you which direction the escape will go.
-
-**Q2**: Why is hip-to-hip pressure more important than crossface for preventing this specific escape?
-**A**: This escape actually uses the crossface pressure to generate turning momentum by rotating in the direction the crossface pushes. More crossface pressure can inadvertently fuel the escape. Hip-to-hip pressure, however, directly prevents the hip rotation that initiates the turn and eliminates the space needed for knee insertion. Without hip freedom, the escape cannot begin regardless of how strong the bottom player's frames are.
-
-**Q3**: The opponent has already begun turning and you cannot stop the rotation. What is your best response?
-**A**: Follow the turn aggressively by driving your chest onto their back and closing the gap between your bodies so their knee cannot thread through. Your goal shifts from preventing the escape to preventing the guard recovery. If you close the gap successfully, they arrive in turtle rather than guard, giving you back attack opportunities from turtle top, which is a much better outcome than allowing direct guard recovery.
-
-**Q4**: How should you adjust your side control maintenance against an opponent known to use this escape?
-**A**: Prioritize maximum hip-to-hip contact with your weight distributed more toward their hips than their upper body. Proactively strip any near-side hip frames the moment they appear. Reduce reliance on heavy crossface pressure since it can fuel the turn. Stay alert for the bridge-to-rotation combination and be prepared to either drive hips low or immediately follow the turn within the first half-second of rotation.
-
-**Q5**: What makes defending this variant different from defending the standard ghost escape to turtle?
-**A**: The standard ghost escape simply requires stopping the rotation to prevent turtle. This variant adds the knee threading phase, meaning you have a secondary line of defense: even if you cannot stop the turn, you can still prevent the guard recovery by following closely enough to deny the knee insertion. This means following the turn to turtle top is a viable and favorable defensive outcome, whereas against the standard ghost escape, following to turtle is the expected result.
-
-
-
-</section>
 
 
 </main>

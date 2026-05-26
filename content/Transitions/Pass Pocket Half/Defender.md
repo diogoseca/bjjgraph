@@ -162,6 +162,8 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Pocket Half?</p>
+
 - Top player increases crossface driving pressure and drops chest weight heavier onto your torso, indicating they are beginning the flattening phase before extraction
 - Top player begins walking their free foot in small steps toward your hip, repositioning their base for the extraction angle
 - You feel your pocket hip frame losing effectiveness as the top player's hip pressure overcomes your bottom foot's ability to maintain space
@@ -173,6 +175,8 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Pocket Half?</p>
 
 - Maintain the pocket hip frame at all costs—your bottom foot pressing against the opponent's hip is the primary structural defense that prevents flattening and preserves sweep leverage
 - Fight the crossface before it establishes—once the crossface drives your head flat to the mat, the cascade toward being passed accelerates dramatically
@@ -187,6 +191,8 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Pocket Half?</p>
 
 ### 1. Reinforce pocket frame by driving bottom foot harder into opponent's hip while pulling with underhook to maintain angle
 
@@ -224,6 +230,8 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Pocket Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Execute a sweep during the opponent's extraction phase when their base is most compromised. The Old School sweep is highest percentage—pull their far shoulder down with your underhook while their trapped knee is partially extracted and their weight is transitioning forward. Time the sweep for the moment their free leg lifts or shifts to complete extraction.
@@ -239,6 +247,8 @@ Prevent the pass by maintaining active pocket frame pressure and threatening swe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Pocket Half?</p>
 
 ### 1. Accepting being flattened without actively fighting to maintain hip angle and pocket frame throughout the opponent's pressure sequence
 
@@ -268,6 +278,8 @@ Prevent the pass by maintaining active pocket frame pressure and threatening swe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Pocket Half?</p>
+
 **Phase 1: Recognition** - Identifying pass initiation cues under controlled conditions
 Partner slowly works through the pocket half guard pass sequence while you focus solely on identifying each phase: crossface intensification, pocket collapse, flattening, extraction. Call out each phase as you recognize it. No defensive responses yet—develop the ability to read what is happening before training responses.
 
@@ -284,29 +296,6 @@ Full resistance positional sparring from pocket half guard bottom. Combine defen
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the top player is beginning the Pocket Half Guard pass?
-**A**: The earliest cue is increased crossface driving pressure combined with the top player dropping their chest weight heavier onto your torso. This flattening intensification precedes the extraction phase and signals they are beginning to systematically break down your defensive structures. Recognizing this early allows you to reinforce your pocket frame or begin transitioning before the flattening is complete.
-
-**Q2**: Your opponent has driven their crossface deep and begun walking their foot toward your hip - what is your highest priority response?
-**A**: Your highest priority is preventing complete flattening by immediately increasing your pocket frame pressure and hip escaping to maintain your side angle. If your hip frame is already failing, transition to deep half guard by scooting your hips underneath them while their weight is shifted forward. The worst response is passively accepting the pressure—you must act before the extraction window opens.
-
-**Q3**: When is the optimal moment to attempt a sweep during the opponent's Pocket Half Guard pass attempt?
-**A**: The optimal moment is during the extraction phase when the opponent's trapped knee begins sliding across your thigh or their hips shift to free the leg. At this point their base is most compromised because their weight distribution is in transition between pocket half guard control and side control establishment. The Old School sweep is particularly effective here because their far shoulder is committed forward.
-
-**Q4**: What frame adjustments prevent the top player from collapsing your pocket space?
-**A**: Drive your bottom foot actively into the opponent's hip with your toes pointed outward, creating a structural wedge rather than passive contact. Reinforce by pulling with your underhook to maintain your body angle on your side. If the frame begins failing, supplement with your free arm framing against their shoulder or bicep to create secondary distance. The combination of hip frame and upper body frames creates redundant defensive structures.
-
-**Q5**: If you fail to prevent the pass and the top player clears your legs, what immediate action gives you the best recovery chance?
-**A**: The instant you feel their leg clear your guard, immediately hip escape away from them while establishing frames against their shoulder and hip with both forearms. Your goal shifts from guard retention to guard recovery—shrimp your hips to create space, then work to insert a knee or shin between your bodies to recover half guard or knee shield. Do not allow them to settle their weight into side control without contesting the transition.
-
-
-
-</section>
 
 
 </main>

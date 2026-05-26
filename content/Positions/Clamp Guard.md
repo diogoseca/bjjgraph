@@ -32,7 +32,7 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Shin-across-bicep positioning is the foundation — maintain active pressure on the trapped arm at all times to prevent extraction

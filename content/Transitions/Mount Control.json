@@ -45,12 +45,12 @@
       "relationship": "Advancement opportunity from controlled mount"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Submission option from stable control"
+      "name": "Americana",
+      "relationship": "Submission option from stable mount control"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Submission option from stable control"
+      "name": "Mount to Armbar",
+      "relationship": "Submission setup from stable mount control"
     },
     {
       "name": "Cross Collar Choke",
@@ -188,7 +188,7 @@
         "description": "Full resistance drilling where partner uses all escapes with competition intensity while you maintain mount and set up attacks"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary difference between Mount Control and Consolidate Mount?",
         "answer": "Consolidate Mount is the initial process of securing mount after achieving it - settling weight, inserting grapevines, and eliminating initial frames. Mount Control is the ongoing maintenance against active escape attempts throughout the position. Consolidation happens once; control is continuous. You consolidate first, then control."
@@ -220,6 +220,14 @@
       {
         "question": "Your opponent creates a frame on your hip with their forearm. They're not escaping yet, just maintaining the frame. What's the urgency?",
         "answer": "Maximum urgency. That frame will become their escape path the moment you shift weight to attack or they find additional leverage. Eliminate it immediately by swimming your elbow inside and pinning their arm. The frame's current ineffectiveness is irrelevant - its potential is what matters. Treat every frame as if escape is imminent."
+      },
+      {
+        "question": "What grip and hand positioning should you maintain during active Mount Control and why?",
+        "answer": "Hands should cycle between three active tasks: controlling opponent's wrists to deny frames, swimming elbows inside existing frames to collapse them, and posting close to their head for base when needed. Avoid gripping the mat or posting far from their body. Wrist control is particularly valuable because it prevents frame creation proactively rather than requiring reactive elimination, and it sets up submission entries when the opponent's arms are pinned."
+      },
+      {
+        "question": "In which direction should you drive your weight and pressure during Mount Control, and how does this change based on your opponent's escape attempts?",
+        "answer": "Default pressure direction is straight down through your hips into their solar plexus, using gravity as your primary tool. When they bridge, shift pressure backward by sprawling hips while posting forward. When they hip escape laterally, drive pressure into the direction of their escape to close space. When they frame upward, increase downward chest-to-chest pressure while swimming inside their arms. The key principle is that your pressure vector always opposes their movement direction, making every escape attempt feel like pushing into a wall."
       }
     ],
     "safety_considerations": "Mount Control is a low-risk technique when performed with awareness of your training partner's comfort. Avoid excessive chest pressure that prevents breathing - your partner should be uncomfortable, not unable to breathe. When using grapevines, control the extension to avoid hyperextending your partner's knees. During drilling, establish clear communication so partners can tap if pressure becomes excessive. Be especially careful with grapevine pressure against smaller or less flexible training partners."
@@ -309,7 +317,7 @@
         "correction": "Escape power comes from hip movement - bridges and shrimps generate force through your legs and core. Hands and arms serve only to create frames and traps that enable hip-driven escape mechanics."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct escape hierarchy when defending against active Mount Control?",
         "answer": "First, prevent further advancement to high mount or technical mount by keeping elbows tight and hands defensive. Second, establish structural frames using forearms on hips and elbow-knee connections to create a barrier against full weight settlement. Third, execute hip escapes timed to weight shifts, chaining small shrimps to insert a knee and recover half guard. Skipping steps - such as attempting an explosive escape without frames established - dramatically reduces success rate and wastes energy."
@@ -371,7 +379,7 @@
       "when_to_use": "When opponent relies heavily on frames; arm isolation removes their primary defensive tool"
     }
   ],
-  "position_integration": "Mount Control is the connective tissue of the entire mount attack system. Without reliable control maintenance, submissions become gambles rather than systematic attacks. This technique integrates directly with Consolidate Mount as its continuation - you consolidate once, then control continuously. It connects to all mount attacks (Americana from Mount, Armbar from Mount, Cross Collar Choke, Ezekiel from Mount) by providing the stable platform from which to launch them. It also connects to positional advancement toward High Mount, Technical Mount, and S Mount by maintaining the base position from which advancement occurs.",
+  "position_integration": "Mount Control is the connective tissue of the entire mount attack system. Without reliable control maintenance, submissions become gambles rather than systematic attacks. This technique integrates directly with Consolidate Mount as its continuation - you consolidate once, then control continuously. It connects to all mount attacks (Americana, Mount to Armbar, Cross Collar Choke, Ezekiel Choke) by providing the stable platform from which to launch them. It also connects to positional advancement toward High Mount, Technical Mount, and S Mount by maintaining the base position from which advancement occurs.",
   "conditions": [
     "Mount position already secured and initial consolidation completed",
     "Opponent is actively attempting escapes rather than passively defending",

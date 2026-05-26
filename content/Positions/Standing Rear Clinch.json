@@ -143,7 +143,7 @@
         "attempt_probability": 5
       },
       {
-        "transition": "Standing RNC from Rear Clinch",
+        "transition": "Rear Naked Choke from Standing Rear Clinch",
         "attempt_probability": 2
       }
     ],
@@ -258,7 +258,7 @@
     ],
     "training_drills": [
       {
-        "name": "Grip Fighting from Rear Clinch",
+        "name": "Grips from Rear Clinch",
         "description": "Partner starts in standing rear clinch position with light grips. Bottom person hand fights to break grips while top person maintains control and re-establishes grips when broken. Practice transitioning between bodylock, seatbelt, and collar ties as opponent defends. Emphasize grip hierarchy and timing.",
         "duration": "5 rounds of 2 minutes"
       },
@@ -335,7 +335,7 @@
       },
       "average_time": "30-90 seconds before transition to ground position or submission attempt"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins peeling your seatbelt grip by two-on-one fighting your choking arm - what adjustment do you make to maintain control?",
         "answer": "Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets."
@@ -541,7 +541,7 @@
     ],
     "training_drills": [
       {
-        "name": "Grip Fighting from Rear Clinch",
+        "name": "Grips from Rear Clinch",
         "description": "Partner starts in standing rear clinch position with light grips. Bottom person hand fights to break grips while top person maintains control and re-establishes grips when broken. Practice transitioning between bodylock, seatbelt, and collar ties as opponent defends. Emphasize grip hierarchy and timing.",
         "duration": "5 rounds of 2 minutes"
       },
@@ -618,7 +618,7 @@
       },
       "average_time": "30-90 seconds before transition to ground position or submission attempt"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins peeling your seatbelt grip by two-on-one fighting your choking arm - what adjustment do you make to maintain control?",
         "answer": "Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets."

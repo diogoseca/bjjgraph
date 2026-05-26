@@ -160,6 +160,8 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Through Escape?</p>
+
 - Opponent begins small hip wiggles or micro-shrimps directed away from the trapped leg, indicating they are working to create slack in the leg entanglement
 - Opponent positions forearms with elbows tight against their body creating frame barriers against your chest, establishing the push-off structure needed for rotation
 - Opponent's free leg begins searching for a posting angle on the mat behind them, typically planting at 45 degrees to generate rotational drive
@@ -171,6 +173,8 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Through Escape?</p>
 
 - Maintain deep leg entanglement at all times to prevent the slack creation that enables the roll
 - Stay heavy with chest-to-back pressure to limit the bottom player's ability to establish frames
@@ -186,6 +190,8 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Through Escape?</p>
 
 ### 1. Deepen leg control and increase rotational pressure when sensing slack creation in the trapped leg
 
@@ -216,6 +222,8 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Through Escape?</p>
+
 ### → [[Positions/Twister Control]]
 
 Recognize the preparatory hip movements and frame building early, then immediately deepen your leg entanglement and increase rotational pressure before the roll can be initiated. Focus on eliminating all slack in the trapped leg while maintaining heavy upper body pressure to deny the framing space they need.
@@ -231,6 +239,8 @@ When the roll has already been committed to and you cannot prevent it, follow th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Through Escape?</p>
 
 ### 1. Resisting the roll statically by bracing against the rotation rather than following it or preempting it
 
@@ -260,6 +270,8 @@ When the roll has already been committed to and you cannot prevent it, follow th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Through Escape?</p>
+
 **Week 1-2** - Recognition and control maintenance
 Partner attempts slow, telegraphed Roll Through Escapes while you practice recognizing preparatory movements and deepening leg control in response. Focus on feeling the hip wiggles and frame building that precede the roll, and tightening your entanglement before the escape can begin.
 
@@ -276,29 +288,6 @@ Full resistance positional sparring from Twister Control where bottom player use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a Roll Through Escape?
-**A**: The earliest cue is small hip wiggles and micro-shrimp movements directed away from the trapped leg. These subtle adjustments indicate the bottom player is working to create slack in the leg entanglement, which is the essential first step before they can establish frames and initiate the roll. Detecting this early allows you to deepen controls before the escape progresses.
-
-**Q2**: Your opponent has already committed to the roll with full momentum - what is the optimal defensive response?
-**A**: Follow the rotation maintaining chest-to-back connection and upper body control rather than resisting statically. As they complete the roll, immediately transition to back control by inserting hooks and establishing seatbelt grip before they can create distance. Static resistance against committed rotational momentum is ineffective and results in complete loss of position.
-
-**Q3**: Why is deepening leg control the single most effective prevention against Roll Through Escape?
-**A**: The Roll Through Escape requires overcoming the trapped leg configuration through rotational momentum. Without any slack in the leg entanglement, the bottom player cannot generate sufficient force to complete the roll regardless of their upper body frames or posting leg. Deep leg control is the root cause prevention that eliminates the escape at its mechanical foundation.
-
-**Q4**: How does the defender transition from following a roll to establishing back control?
-**A**: As you follow the rotation maintaining chest connection, your body naturally arrives behind the opponent in a back exposure configuration. The moment they complete their roll and begin reaching for guard structure, insert your hooks inside their thighs and lock a seatbelt grip over their shoulder and under their armpit. The key is maintaining chest contact throughout the transition so there is no gap for them to establish distance or frames.
-
-**Q5**: What vulnerability does the Roll Through Escape create that the defender can exploit for a guillotine?
-**A**: During the midpoint of the roll, the bottom player's chin and neck become temporarily exposed as their defensive frames are occupied generating and maintaining rotational momentum. Their tucked chin position naturally loosens as they focus on completing the rotation. This window allows the defender to catch a guillotine grip around the neck, converting the escape attempt into a submission opportunity from front headlock control.
-
-
-
-</section>
 
 
 </main>

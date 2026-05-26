@@ -182,6 +182,8 @@ The transition to mount from side control represents one of the most fundamental
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Side Control to Mount?</p>
+
 - Maintain heavy shoulder pressure throughout the transition to prevent opponent creating space
 - Control the near-side arm to eliminate framing opportunities during the step-over
 - Keep hips low and connected to opponent's body during the entire movement sequence
@@ -197,6 +199,8 @@ The transition to mount from side control represents one of the most fundamental
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Side Control to Mount?</p>
+
 - Solid side control established with chest-to-chest connection and shoulder pressure
 - Control of opponent's near-side arm through underhook, crossface, or grip control
 - Opponent's far-side arm neutralized or controlled to prevent framing
@@ -210,6 +214,8 @@ The transition to mount from side control represents one of the most fundamental
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Side Control to Mount step by step?</p>
 
 1. **Establish dominant side control**: Begin from a tight side control position with heavy chest pressure on opponent's sternum, crossface controlling the head, and near-side underhook securing the arm. Your hips should be tight to opponent's side with knees providing mobile base. Ensure opponent cannot create frames or space before initiating the transition.
 2. **Isolate near-side arm**: Secure opponent's near-side arm by either maintaining the underhook deep, trapping it with your knee, or using a grip on their wrist or gi material. This arm must be neutralized as it's the primary defensive frame that can block your leg from stepping over. Your crossface should maintain constant pressure on opponent's far cheek, turning their head away.
@@ -238,6 +244,8 @@ The transition to mount from side control represents one of the most fundamental
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Side Control to Mount?</p>
+
 - **Opponent turns away from you (turning to turtle) as you attempt to step over** (Effectiveness: Medium) - Your Response: Follow their turn and take the back instead of forcing mount. This is often a better outcome than mount. Alternatively, use gift wrap control to prevent the turn and force them back flat before completing mount transition. → Leads to [[Positions/Side Control]]
 - **Opponent bridges explosively just as you step your leg over, creating space** (Effectiveness: High) - Your Response: Base out wide with your stepping leg and maintain crossface pressure to ride out the bridge. Wait for them to come back down flat, then complete the mount transition. Never fight directly against a strong bridge - use timing instead. → Leads to [[Positions/Side Control]]
 - **Opponent uses far-side underhook and near-side frame to create distance and prevent step-over** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm through or switching to north-south control. Then return to side control with better arm isolation before attempting mount transition again. Do not force the transition against strong frames. → Leads to [[Positions/Side Control]]
@@ -250,6 +258,8 @@ The transition to mount from side control represents one of the most fundamental
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Side Control to Mount?</p>
 
 ### 1. Stepping over too early before isolating opponent's near-side arm and frames
 
@@ -294,6 +304,8 @@ The transition to mount from side control represents one of the most fundamental
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Side Control to Mount (Attacker)?</p>
+
 **Week 1-2: Fundamental Movement Pattern** - Basic step-over mechanics and maintaining pressure
 Practice the step-over motion from side control to mount with completely compliant partner offering zero resistance. Focus exclusively on maintaining chest pressure throughout the movement and proper knee positioning. Drill 20-30 repetitions per session, emphasizing smooth weight transfer and continuous connection. Partner should lie completely flat and relaxed.
 
@@ -314,54 +326,12 @@ Apply the transition in regular sparring against various body types and skill le
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary reason you must control opponent's near-side arm before attempting to step over to mount?
-**A**: The near-side arm represents opponent's strongest defensive frame that can directly block your leg from stepping over their body. If this arm is free and active, they can post it against your hip or chest, preventing the transition entirely and potentially creating space to recover guard. By controlling this arm through underhook, wrist control, or trapping, you eliminate their primary defensive barrier and create a clear path for your leg to step over.
-
-**Q2**: Why is maintaining constant shoulder pressure throughout the transition critically important, and what happens if you lift your chest during the step-over?
-**A**: Maintaining shoulder pressure serves multiple purposes: it prevents opponent from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and keeps their spine flat against the mat limiting explosive movement. If you lift your chest during the step-over, you create a gap that allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle). The constant pressure pins their shoulders and limits their movement options to only small bridging attempts rather than full escapes.
-
-**Q3**: When opponent bridges explosively just as you're stepping your leg over, what is the correct response and why should you never fight directly against their bridge?
-**A**: The correct response is to base out wide with your stepping leg, maintain crossface pressure, and ride out the bridge without fighting against it. Wait for gravity to bring them back down flat, then complete the transition. Fighting against a bridge is inefficient because their entire body structure (legs, hips, core) is generating force while you're in an awkward transitional position with compromised base. By timing your completion for when they come back down, you use minimal energy and maintain control. Additionally, people can only bridge for 1-2 seconds before they must return to the mat due to muscular fatigue.
-
-**Q4**: What is the technical reason for stepping your leg in a wide arc rather than straight across opponent's chest when transitioning to mount?
-**A**: A wide arc motion (stepping toward their far shoulder rather than straight across) allows your leg to clear over any potential frames, arm defenses, or body positioning they might use to block the transition. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate.
-
-**Q5**: Why must you bring your second leg over quickly after the first leg clears, and what specific risk exists if you pause in the partial mount position?
-**A**: The partial mount position (one leg over, one leg still on original side) creates a window where opponent can insert their knee shield or hook your leg with their bottom leg, capturing you in half guard instead of allowing full mount. Their defensive priority shifts from preventing the first leg to preventing the second leg, and they will use that brief moment to recover some guard retention. The quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount position compromises your base and weight distribution, making you more vulnerable to being swept or losing the position entirely if you pause there.
-
-**Q6**: When opponent has strong frames established on both sides and actively prevents your transition attempt, what should you do instead of forcing the mount transition?
-**A**: You should abandon the mount transition attempt and work to systematically collapse their frames first, or transition to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly where you can attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques.
-
-**Q7**: What are the key indicators that signal the optimal timing window for attempting the side control to mount transition?
-**A**: The optimal timing windows include: when opponent turns their body into you (trying to face you or recover guard), when their near-side arm becomes compromised or weakened from defending other attacks, when they're flat on their back without active frames, immediately after they finish bridging and return to the mat (moment of exhaustion), when they're focused on defending a submission threat and their positional defense lapses, or when you've just transitioned from another position and they haven't re-established frames yet. The common thread is catching opponent during moments when their defensive structure is compromised or their attention is divided.
-
-**Q8**: Your opponent posts their hand firmly against your hip as you initiate the step-over - how do you adjust your technique?
-**A**: When opponent posts their hand against your hip, you have several technical adjustments: First, use your crossface arm to swim under their posting arm and establish an underhook, which eliminates their frame. Second, you can trap their posting wrist with your near-side hand and pin it to their body before stepping over. Third, shift your angle slightly more toward their head to change the posting angle and reduce its effectiveness. Fourth, use a quick knee bump to dislodge their hand before completing the step-over. The key principle is never to force through a strong frame - always address the frame first, then complete the transition.
-
-**Q9**: What grip configurations maximize control during the step-over phase and why are they biomechanically superior?
-**A**: The most effective grip configurations during the step-over include: crossface with your forearm driving into opponent's jaw to control head position, combined with either a deep underhook on the near-side arm or wrist control pinning their arm to their hip. These grips are biomechanically superior because they control the two primary escape mechanisms - the head (which leads the body in any directional movement) and the near-side arm (which provides the strongest frame against your leg). An alternative configuration uses the gift wrap, threading under their near arm to grip the far shoulder, which controls both arms simultaneously. The key is that your grips should prevent both rotation and arm extension before you commit to the step-over.
-
-**Q10**: If your mount transition is blocked and opponent recovers half guard, what immediate chain attack should you pursue?
-**A**: When opponent catches half guard during your mount transition, immediately establish the strong passing base: underhook on the trapped-leg side, crossface pressure maintaining head control, and your free leg posted wide for base. From here, your primary chain options include: knee slice pass using the angle you already have, back step pass if they recover a strong knee shield, or leg weave pass if they're focused on the underhook battle. You can also threaten submissions like the darce choke if they over-commit to the underhook fight, or the kimura if they push against your chest. The key is to recognize the half guard recovery early and immediately transition to an established passing sequence rather than continuing to force the mount.
-
-**Q11**: What is the critical hip movement that initiates the step-over, and how does improper hip positioning cause the transition to fail?
-**A**: The critical hip movement is a slight shift toward opponent's head (approximately 6-12 inches) while maintaining hip-to-hip contact. This creates the angle necessary to clear your leg over their body without getting stuck on their torso. Improper hip positioning - specifically keeping your hips perpendicular or too far toward their feet - creates two failure points: your leg must travel a longer arc over the widest part of their body (their chest), and your base is compromised because your weight is centered rather than forward. The hip shift toward their head shortens the distance your leg must travel, keeps your weight forward to pin their shoulders, and positions your leg to step over the narrowest part of their body near the shoulders.
-
-**Q12**: How do you maintain control continuity when your opponent attempts the ghost escape (turning away) during your step-over?
-**A**: When opponent initiates the ghost escape by turning away during your step-over, you have two primary responses depending on timing. If you catch it early (before they create significant space), drive your crossface deeper and use your near-side hand to control their far hip, pulling them back flat before continuing the mount transition. If they've committed fully to the turn, abandon the mount goal and follow them to take the back - this is often a superior position anyway. Your leg that was stepping over becomes your first hook as you follow their rotation. The key is recognizing the escape early through the feeling of their shoulders turning and maintaining heavy shoulder pressure to limit their rotation speed. Never fight to complete a mount on someone who's already 45+ degrees turned - take the back instead.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Side Control to Mount?</p>
 
 The transition to mount is generally one of the safest fundamental transitions in BJJ with minimal injury risk when executed properly. The primary safety concern is maintaining control throughout the movement to avoid accidentally posting weight on opponent's face or neck with your knee during the step-over. Keep your stepping leg trajectory wide and high to clear over their head and chest area. Partners should communicate if they feel excessive pressure on ribs or sternum during the consolidation phase, especially with significant weight differences. When drilling, the bottom partner should not bridge at full explosive force during early learning stages as this can cause the top partner to lose balance and fall awkwardly. As resistance increases, both partners should maintain awareness of mat space to avoid transitioning near walls or other practitioners. For competitors with knee injuries, the torque on the stepping knee during the wide arc motion may require modification or temporary avoidance. Overall, this is considered a fundamental low-risk transition appropriate for all skill levels including beginners when taught with proper progression.
 

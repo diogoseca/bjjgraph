@@ -154,6 +154,8 @@ Defending against posture recovery from Williams Guard means maintaining the int
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture from Williams Guard?</p>
+
 - Opponent begins small circular elbow movements rather than static resistance, indicating systematic arm extraction attempt
 - Opponent widens their knee base and adjusts free arm positioning closer to their centerline, signaling preparation for weight redistribution
 - Opponent's weight begins shifting backward away from your hips, reducing chest-to-chest pressure and creating space between your bodies
@@ -166,6 +168,8 @@ Defending against posture recovery from Williams Guard means maintaining the int
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture from Williams Guard?</p>
 
 - Maintain constant shoulder lock tension throughout all defensive adjustments—any momentary grip relaxation gives the opponent an extraction window
 - Use your legs actively to create distance frames that prevent the opponent from generating the backward hip drive needed for posture recovery
@@ -180,6 +184,8 @@ Defending against posture recovery from Williams Guard means maintaining the int
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture from Williams Guard?</p>
 
 ### 1. Tighten shoulder lock and increase leg frame pressure
 
@@ -217,6 +223,8 @@ Defending against posture recovery from Williams Guard means maintaining the int
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture from Williams Guard?</p>
+
 ### → [[Positions/Williams Guard]]
 
 Maintain constant shoulder lock tension through active grip management and prevent the opponent's circular arm extraction from progressing. Use leg frames to block their backward hip drive and apply counter-pressure whenever they attempt weight redistribution. Tighten your shoulder lock incrementally during each failed extraction attempt to build cumulative control.
@@ -232,6 +240,8 @@ Time a hip bump sweep to coincide with the opponent's backward weight shift duri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture from Williams Guard?</p>
 
 ### 1. Relaxing shoulder lock pressure during transitions between defensive responses
 
@@ -261,6 +271,8 @@ Time a hip bump sweep to coincide with the opponent's backward weight shift duri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture from Williams Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying posture recovery cues
 Partner performs each phase of posture recovery in isolation (circular extraction, weight shift, chest drive) while you practice recognizing each cue and calling out the appropriate counter. Build pattern recognition speed without physical counter execution.
 
@@ -277,26 +289,6 @@ Start in Williams Guard Bottom with shoulder lock established. Partner uses any 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting systematic posture recovery rather than simply resisting the shoulder lock?
-**A**: The earliest and most reliable cue is small circular elbow movements rather than static resistance or linear pulling. Linear pulling indicates untrained escape attempts, while circular movement signals a systematic extraction sequence that will progress through defined phases. Additional confirming cues include widening their knee base, repositioning their free arm toward centerline, and controlled breathing—all indicating a practiced approach that must be countered proactively before it gains momentum.
-
-**Q2**: Why is the opponent's backward weight shift the optimal moment for hip bump sweep, and how do you time it correctly?
-**A**: During the backward weight shift, the opponent has deliberately reduced their forward base resistance and committed their center of gravity posteriorly. A hip bump sweep directed forward at this moment encounters minimal resistance because their weight is already moving in the opposite direction. Time the sweep by feeling for the pressure reduction on your hips—when their chest lifts away and hip pressure decreases, they have committed to the backward shift and your bridge will meet their weakest defensive angle.
-
-**Q3**: How should you adjust your defensive strategy if the opponent achieves partial arm extraction but has not yet recovered posture?
-**A**: Partial extraction without posture recovery represents a transitional moment where the opponent is between defensive phases. Immediately attempt to re-isolate the arm by swimming your grip back to figure-four position before they can complete extraction. If re-isolation fails, transition your strategy from Williams Guard maintenance to active closed guard attacks—pull them into broken posture using legs and collar control, establishing traditional closed guard offense where your sweep and submission chains remain viable even without the shoulder lock.
-
-**Q4**: What offensive transitions become available when your opponent attempts to posture from Williams Guard?
-**A**: Multiple offensive transitions open during posture attempts. The space created during arm extraction enables omoplata entry by swinging your leg over the exposed shoulder. Their backward weight shift opens hip bump sweeps and flower sweeps. If they post their free arm for base, triangle and kimura entries become available. If they stand, the angle change may enable back take entries or leg entanglements. Each phase of their escape corresponds to specific offensive windows—the skilled defender converts escape attempts into attacking opportunities.
-
-
-
-</section>
 
 
 </main>

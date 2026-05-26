@@ -32,14 +32,14 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Americana from Reverse Scarf Hold",
+      "text": "From this position, attempt Americana from Reverse Scarf Hold. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura from Reverse Scarf Hold",
+      "text": "From this position, attempt Kimura from Reverse Scarf Hold. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -169,6 +169,8 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Scarf Hold (Top)?</p>
+
 - Your chest and hips positioned heavily on opponent's upper torso and chest area, with your body orientation facing away from their head toward their legs, creating reverse pressure application compared to traditional scarf hold
 - Opponent's near arm trapped and controlled across their own body by your near arm, eliminating their primary defensive frame while you maintain tight grip on their far side, preventing arm extraction
 - Your legs configured in wide base with near leg posted and far leg extended for stability, weight distributed through hip bone onto opponent's sternum creating crushing chest pressure that restricts breathing and movement
@@ -180,6 +182,8 @@ This position is particularly effective against opponents unfamiliar with the co
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Reverse Scarf Hold (Top)?</p>
 
 - Successful transition from side control when opponent turns into you
 - Opponent flat on their back with upper body accessible
@@ -195,12 +199,14 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Reverse Scarf Hold?</p>
+
 - Reverse Orientation Control: Facing away from opponent's head creates unusual angles that disrupt their escape patterns and creates unique control mechanics
 - Hip Pressure Priority: Low, heavy hip placement on opponent's chest is critical for preventing bridging escapes and maintaining the pin
 - Arm Trapping Mechanics: Securing opponent's near arm across their body eliminates their primary defensive tool and creates submission opportunities
 - Base Width Configuration: Wide leg base with strategic knee placement resists bridging while allowing quick transitions when necessary
 - Transitional Flexibility: Recognizing when to maintain reverse scarf versus transitioning to more stable positions based on opponent's reactions
-- Weight Distribution Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability
+- Center of Gravity Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability
 
 
 </section>
@@ -209,9 +215,11 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Reverse Scarf Hold (Top)?</p>
+
 **If opponent remains flat and passive without bridging attempts:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent bridges explosively toward their head attempting to roll you:**
@@ -225,7 +233,7 @@ This position is particularly effective against opponents unfamiliar with the co
 
 
 **If opponent creates frames with free arm and begins hip escape:**
-- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
@@ -236,6 +244,8 @@ This position is particularly effective against opponents unfamiliar with the co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Reverse Scarf Hold?</p>
 
 ### 1. Lifting hips too high off opponent's chest while maintaining upper body control
 
@@ -275,6 +285,8 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Reverse Scarf Hold attacks?</p>
+
 ### Reverse Scarf Hold Pressure Maintenance Drill
 
 Partner A establishes reverse scarf hold on Partner B. Partner B remains passive while Partner A focuses on maintaining low hip pressure, arm control, and proper weight distribution for 2-minute rounds. Partner A should practice feeling the difference between muscular holding and proper weight distribution. Switch roles after each round.
@@ -308,38 +320,6 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the essential hip positioning for maintaining control in Reverse Scarf Hold Top?
-**A**: Your hip bone must make direct contact with the opponent's sternum area, driving heavy downward pressure through your body weight rather than muscular effort. The hip should be positioned low on their chest with your weight distributed through your hip and chest simultaneously. This creates crushing chest compression that restricts their breathing and severely limits their ability to generate bridging power for escapes.
-
-**Q2**: Your opponent starts turning their hips away from you while trapped in Reverse Scarf Hold - what adjustment do you make?
-**A**: When the opponent begins turning away, immediately recognize this as a back take opportunity rather than fighting to maintain the reverse scarf hold. Follow their rotation by walking your feet toward their back, transitioning to back control as they expose their back. Maintain the arm trap during the transition to prevent them from posting or recovering. Their escape attempt becomes your advancement opportunity.
-
-**Q3**: What are the essential grips for maintaining Reverse Scarf Hold Top?
-**A**: The primary grip is your near arm hugging their trapped arm tightly across their torso, pulling their near arm across their body toward their far side. Your far hand should control their far side (gripping their far hip, belt, or gi material) to prevent them from rotating or extracting their arm. The combination of these two grips creates a closed system that eliminates their primary defensive framing options while setting up submission attacks.
-
-**Q4**: How do you shut down the opponent's primary bridge escape attempt?
-**A**: The primary defense against bridging is maintaining low hip position with wide leg base. When you feel a bridge initiating, immediately widen your base by extending your far leg further while keeping your near leg posted. Drop your hip weight even lower onto their chest and turn your hips slightly toward the direction of their bridge. This distributes your weight across a wider base and makes their bridge ineffective. If the bridge is powerful, use their upward energy to transition to mount.
-
-**Q5**: What grip priority should you maintain when the opponent begins extracting their trapped arm?
-**A**: When the opponent attempts to extract their arm, your first priority is pulling their arm back across their body with your near arm while simultaneously attacking with a submission grip. If they extend the arm during extraction, immediately transition to kimura grip by releasing your far-side control and securing figure-four on the escaping arm. The arm extraction attempt should trigger an immediate submission attack rather than a pure control battle.
-
-**Q6**: Your opponent bridges explosively and nearly rolls you - what is the correct recovery?
-**A**: If the bridge nearly succeeds, ride their momentum by transitioning to mount rather than fighting back to reverse scarf hold. As they bridge upward, step your near leg over their body toward mount position and allow their energy to carry you into the mount transition. This converts their escape attempt into your positional advancement. Never fight directly against a powerful bridge when a transition opportunity exists.
-
-**Q7**: How do you manage energy expenditure while maintaining Reverse Scarf Hold?
-**A**: Energy management requires using skeletal structure and body weight rather than muscular effort. Your hip bone creates pressure through gravity, not pushing. Your arm trap maintains tension through grip positioning, not squeezing. Your base uses wide leg position for stability, not muscular engagement. When you feel yourself tensing muscles to maintain control, immediately adjust your positioning to restore structural pressure. The position should feel effortless when properly established.
-
-**Q8**: What is the recovery sequence after an opponent creates a frame and begins escaping?
-**A**: When frames become effective and space opens, immediately transition rather than fighting to recapture reverse scarf hold. First option is stepping to mount if their bridge created forward space. Second option is transitioning to north-south if they created lateral space. Third option is following to back control if they turn away. The key is recognizing that reverse scarf hold is transitional - when control deteriorates, advance rather than recover the same position.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -363,12 +343,12 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 - **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold with opposite orientation - similar control mechanics but facing opponent's head
 - **[[Positions/Side Control/Scarf Hold Position]]** - Standard variation - fundamental scarf hold position from which reverse version derives
 - **[[Positions/North-South]]** - Primary transition target - common advancement when opponent creates space or bridges
-- **[[Positions/Side Control/Side Control Consolidation]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
+- **[[Positions/Side Control]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
 - **[[Positions/Mount]]** - Transition target - available when opponent bridges forward giving you opportunity to step over
 - **[[Positions/Side Control/Modified Scarf Hold]]** - Variation - alternative scarf hold configuration with different pressure angles
 - **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Judo variation - broken scarf hold position with modified arm control
-- **[[Transitions/Americana]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
-- **[[Transitions/Kimura]]** - Alternative submission - available when opponent extends trapped arm
+- **[[Submissions/Americana]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
+- **[[Submissions/Kimura]]** - Alternative submission - available when opponent extends trapped arm
 - **[[Positions/Back Control]]** - Transition target - accessible when opponent turns away attempting to escape
 
 

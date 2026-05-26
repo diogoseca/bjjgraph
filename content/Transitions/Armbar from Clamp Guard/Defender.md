@@ -162,6 +162,8 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar from Clamp Guard?</p>
+
 - Attacker's hips angle sharply toward the trapped arm side, increasing from the standard 30-degree clamp angle to 45-60 degrees — this hip shift is the clearest pre-attack signal
 - Attacker establishes or tightens a C-clamp wrist grip on your trapped hand and begins pulling it firmly toward their hip rather than just maintaining passive control
 - Attacker's far hand moves from posture control to pulling your head down or gripping your collar more aggressively, attempting to break your posture before the swing
@@ -174,6 +176,8 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar from Clamp Guard?</p>
 
 - Posture is your primary defense — an upright spine prevents the attacker from swinging their leg over your head and limits their hip angle options
 - Address the wrist grip first — breaking or loosening wrist control eliminates the attacker's anchor and makes the entire armbar entry collapse
@@ -188,6 +192,8 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar from Clamp Guard?</p>
 
 ### 1. Explosive posture recovery and arm retraction during the leg swing
 
@@ -225,6 +231,8 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar from Clamp Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time your arm retraction to the exact moment the attacker's clamping leg loosens to allow the outside leg to swing. This transition gap lasts less than one second but provides a window where the clamp force drops significantly. Combine the retraction with an explosive upward posture recovery to create maximum extraction force. Breaking the wrist grip before or during this moment dramatically increases extraction success.
@@ -240,6 +248,8 @@ If full extraction is not possible, stack the attacker's hips by driving forward
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar from Clamp Guard?</p>
 
 ### 1. Waiting until the leg has fully crossed over the head before reacting defensively
 
@@ -269,6 +279,8 @@ If full extraction is not possible, stack the attacker's hips by driving forward
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar from Clamp Guard?</p>
+
 **Phase 1: Recognition** - Identifying armbar setup cues from inside the clamp
 Partner establishes clamp guard and alternates between maintaining passive clamp and setting up armbar entry cues (hip angle change, wrist grip tightening, posture break). Defender calls out when they recognize an armbar setup versus passive retention. Build pattern recognition speed until cue identification is immediate and automatic. No physical defense yet — purely visual and tactile recognition training.
 
@@ -285,29 +297,6 @@ Positional sparring starting from clamp guard with the attacker using full armba
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the clamp guard player is setting up an armbar?
-**A**: The earliest cue is a change in the attacker's hip angle — their hips shift from the standard 30-degree clamp position to a sharper 45-60 degree angle toward your trapped arm. This hip angle change precedes all other setup actions (wrist grip tightening, posture break, leg chambering) and gives you the maximum reaction window. A trained defender who reads the hip angle shift has roughly one full second to react before the leg swing begins, which is sufficient time to initiate posture recovery or arm extraction.
-
-**Q2**: Your arm is trapped in the clamp and you feel the attacker's hip angle change — what immediate action prevents the armbar entry?
-**A**: Immediately drive your posture upward by extending your spine and pressing your hips back while simultaneously fighting to break or loosen the wrist grip on your trapped hand. Use your free hand to push against the attacker's far knee or hip to create distance. The goal is to deny the three conditions the attacker needs: broken posture, wrist control, and hip angle. If you can restore even one of these defensive elements, the armbar entry becomes significantly harder to execute. Prioritize posture first because it physically prevents the leg from crossing over your head.
-
-**Q3**: During the leg swing transition, what specific timing window gives you the best chance to extract your arm?
-**A**: The optimal extraction window is the fraction of a second when the attacker's clamping leg must loosen to allow their outside leg to swing over your head. The clamp cannot maintain full bilateral pressure during the swing because one leg is in motion. This momentary reduction in clamping force — typically lasting less than one second — is when your retraction has the highest chance of success. Combine the retraction with an explosive posture drive to maximize the force pulling your arm free. If you miss this window, the knees will pinch together and the next escape opportunity requires significantly more effort.
-
-**Q4**: What posture adjustments reduce the likelihood of the armbar being successfully initiated from clamp guard?
-**A**: Maintain maximum spine extension with your head up and chest forward, keeping your center of gravity over your knees rather than shifted toward the attacker. Press your hips back and down to lower your center of gravity and increase base stability. Keep your chin elevated so the attacker's leg cannot clear over your head — a tucked chin paradoxically makes the leg swing easier because it reduces your head's profile. Use your free arm to post on the mat outside the attacker's hip, creating a structural frame that resists both the posture break and potential sweep attempts.
-
-**Q5**: If the attacker has already swung their leg over your head, what defensive priorities determine whether you escape or get submitted?
-**A**: Three priorities in order: First, bend your trapped elbow immediately and pull your fist toward your own shoulder to prevent arm extension — a bent arm cannot be hyperextended regardless of the attacker's hip position. Second, grip the leg across your face with your free hand and push it toward the attacker's body to prevent them from dropping their hips back for the finish. Third, drive your weight forward into a stacking position to compromise their perpendicular hip alignment. Address all three before attempting a full escape. If the attacker achieves full extension with hips tight and knees pinched despite your defense, tap rather than risk elbow injury.
-
-
-
-</section>
 
 
 </main>

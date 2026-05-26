@@ -184,6 +184,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Grip Break?</p>
+
 - Use two hands against one whenever possible to create mechanical advantage
 - Break grips in the direction that weakens the grip structure (push thumbs, pull fingers)
 - Establish your own grips immediately after breaking opponent's grips
@@ -199,6 +201,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Grip Break?</p>
+
 - Identify which grips pose the greatest positional threat
 - Establish base or frame to prevent immediate advancement while breaking
 - Create proper angle to access the grip with both hands
@@ -212,6 +216,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Grip Break step by step?</p>
 
 1. **Identify priority grip**: Assess which of your opponent's grips poses the greatest immediate threat to your position. Collar grips typically threaten posture control and chokes, sleeve grips limit your arm mobility and framing ability, and pant grips control your hip movement and leg positioning. Prioritize breaking grips that directly prevent your intended technique or allow opponent advancement.
 2. **Establish two-on-one control**: Bring both of your hands to control the single gripping hand of your opponent. Your first hand should grip their wrist while your second hand grips their sleeve or gi material near the elbow. This creates a fundamental mechanical advantage where you're using two limbs against their one, making the break significantly easier and more reliable.
@@ -240,6 +246,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Grip Break?</p>
+
 - **Opponent switches to alternative grip before break is complete** (Effectiveness: High) - Your Response: Track their switching hand and immediately address the new grip threat. Often you can continue breaking the original grip while using hip movement or frames to prevent the new grip from being established. Anticipate common switching patterns and pre-emptively block those gripping attempts. → Leads to [[Positions/Open Guard]]
 - **Opponent uses their other hand to reinforce the grip being broken** (Effectiveness: Medium) - Your Response: Recognize that a two-handed grip from your opponent is less mobile and limits their other options. Continue breaking while using leg frames or hip movement to create angles that make the double-handed grip untenable. Sometimes allowing a temporary double-handed grip actually limits their ability to advance or attack. → Leads to [[Positions/Open Guard]]
 - **Opponent advances position while you focus on grip breaking** (Effectiveness: High) - Your Response: Always maintain frames and hip position while breaking grips. If you must choose between breaking a grip and preventing positional advancement, preventing the pass takes priority. Sometimes creating distance to reset is better than winning a grip battle while being passed. → Leads to [[Positions/Open Guard]]
@@ -251,6 +259,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Grip Break?</p>
 
 ### 1. Using only one hand to break a grip while opponent has one hand gripping
 
@@ -290,6 +300,8 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Grip Break (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Learn basic grip breaking mechanics on stationary partner
 Practice breaking collar grips, sleeve grips, and pant grips with a cooperative partner who maintains the grip but doesn't resist the break. Focus on proper hand placement, two-on-one control, and breaking in the correct direction. Drill each type of grip break 20-30 repetitions per session until the movements become automatic.
 
@@ -307,48 +319,12 @@ Full-resistance positional sparring where successful grip fighting directly dete
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is two-on-one control essential for effective grip breaking?
-**A**: Two-on-one control creates a fundamental mechanical advantage by using two of your limbs against one of your opponent's limbs. This makes the grip break significantly easier and more reliable because you can apply force from multiple angles simultaneously while controlling their ability to adjust or reinforce their grip. It's exponentially more effective than trying to break a grip with equal numbers of limbs.
-
-**Q2**: What direction should you break a grip to maximize effectiveness?
-**A**: You should break grips toward the thumb side or finger side of the grip, never directly against the palm. The thumb is the weakest part of the grip structure, so pushing toward the thumb or pulling in the direction that opens the fingers is far more effective than pulling straight away from the grip. This principle applies whether breaking collar, sleeve, or pant grips.
-
-**Q3**: Why must you immediately establish your own grips or create distance after breaking an opponent's grip?
-**A**: Breaking a grip creates only a momentary window of advantage that lasts 1-2 seconds. If you don't capitalize on this window by establishing your own superior grips or creating distance with frames, your opponent will simply re-establish their grips and you've wasted energy without gaining any tactical advantage. The follow-up action is what transforms a grip break from a defensive reaction into an offensive opportunity.
-
-**Q4**: How should you prioritize which grips to break when an opponent has multiple grips established?
-**A**: Prioritize breaking grips based on three factors: which grips most directly threaten your position, which grips prevent your intended technique, and which grips enable your opponent's most dangerous attacks. Generally, collar grips that break your posture, sleeve grips that prevent your frames, and pant grips near your knees that enable passing take highest priority. The specific priority depends on your position and tactical goals.
-
-**Q5**: Your opponent has a deep cross-collar grip and is starting to pull your posture down - what is the optimal timing to initiate the break?
-**A**: The optimal timing is immediately, before the grip consolidates into full posture control. As soon as you feel the collar grip tighten and pressure begin on your neck, bring both hands to their gripping wrist and push their hand down toward your belt line while simultaneously extending your spine and framing with your legs. Waiting even 2-3 seconds allows them to establish head control and compound the grip with their other hand, making the break exponentially harder.
-
-**Q6**: Your opponent switches from a sleeve grip to a collar grip the instant you begin your two-on-one break - how do you adjust?
-**A**: Immediately redirect your two-on-one to address the new collar grip since collar grips are almost always higher priority than sleeve grips due to posture and choke threats. Use the hand closest to their switching hand to intercept and control their wrist before the collar grip consolidates. The key is tracking their hand during the switch rather than completing the now-irrelevant sleeve break. This read-and-react ability separates intermediate from advanced grip fighters.
-
-**Q7**: What grip configuration on your opponent's part signals they are about to attempt a toreando pass?
-**A**: Bilateral pant grips at or below your knees with their elbows tight to their body and weight shifting to their toes is the classic toreando setup. You may also feel them testing lateral movement by shifting your legs side to side. Address this by immediately breaking at least one pant grip with a two-on-one strip while simultaneously establishing a sleeve or collar grip on the same side. Keeping one foot on their hip prevents the lateral redirection even if they maintain one pant grip.
-
-**Q8**: How do advanced practitioners prevent opponents from re-gripping after successful breaks?
-**A**: Advanced practitioners chain multiple grip breaks together, immediately control the opponent's sleeve or wrist after breaking their grip, use constant hand fighting to intercept re-gripping attempts, and follow grip breaks with offensive actions that force the opponent into defensive mode. They also use feints and misdirection to draw opponent's grips to less threatening positions, then break those grips while preventing access to the dangerous gripping positions.
-
-**Q9**: What are the specific grip requirements for executing a successful collar grip break from open guard bottom?
-**A**: You need to establish a C-grip on their gripping wrist with your same-side hand, placing your thumb on the back of their wrist and fingers wrapping underneath. Your opposite hand then grips their sleeve material just above the wrist or on their forearm. Both grips must be secured before initiating the break. Your legs should maintain frames on their hips or shoulders throughout to prevent them from driving forward while you commit both hands to the break.
-
-**Q10**: Your grip break attempt fails and your opponent now has a deeper grip than before - what is the correct recovery sequence?
-**A**: First, immediately re-establish your defensive frames with your legs to prevent positional advancement. Do not attempt the same grip break again right away. Instead, create distance with a hip escape to give yourself space and time. Reassess the grip - if it deepened because your angle was wrong, adjust your body position before the next attempt. If it deepened because they reinforced with their second hand, address the reinforcing hand first to isolate the primary grip again. Sometimes the best response is to transition to an offensive technique that the deep grip actually enables, such as using a deep collar grip against them for a sweep entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Grip Break?</p>
 
 Grip breaking is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety consideration is controlling the force applied during training to avoid injuring your partner's fingers or thumb. When breaking grips, apply controlled progressive force rather than explosive jerking motions during cooperative drilling. Communicate with your partner about grip strength and breaking intensity, especially when drilling with partners who have previous finger or hand injuries. During live training, explosive grip breaks are appropriate, but be mindful not to intentionally target fingers with bending or twisting motions that could cause sprains or dislocations. Maintain awareness of your surroundings during grip fighting exchanges, as the dynamic hand fighting can sometimes cause practitioners to lose balance or move unexpectedly. Partners should tap or release grips if they feel any sharp pain in their fingers or wrists during drilling.
 

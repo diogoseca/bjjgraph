@@ -188,6 +188,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge from Technical Mount?</p>
+
 - Bridge toward the opponent's inside leg where their base is weakest—never toward the posted leg that acts as a stabilizing tripod
 - Protect the threatened arm throughout the entire bridge movement by keeping the elbow tight to the ribs and never extending
 - Time the bridge to the opponent's forward weight commitment during submission attempts when hip pressure is lightest
@@ -202,6 +204,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge from Technical Mount?</p>
+
 - Both elbows tucked tight to ribs with the threatened arm bent and pressed firmly against the chest to prevent isolation
 - At least one foot planted flat on the mat with knee bent at approximately 90 degrees to generate bridging power
 - Head turned away from the stepped leg to prevent triangle exposure and protect the neck from choke setups
@@ -214,6 +218,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge from Technical Mount step by step?</p>
 
 1. **Secure Arm Protection**: Tuck both elbows tight to your ribs with the threatened arm bent and pressed against your chest. Your absolute priority before any escape attempt is ensuring neither arm can be isolated or extended by the top player's controlling grips. Grab your own collar or opposite shoulder with the threatened hand to lock the arm in a protected position.
 2. **Establish Bridge Base**: Plant both feet flat on the mat with knees bent at approximately 90 degrees, positioning them as close to your hips as possible. Strong foot placement is essential for generating the explosive hip extension needed to displace the top player's weight. If only one foot can reach the mat, prioritize the foot on the inside leg side for directional bridging power.
@@ -244,6 +250,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge from Technical Mount?</p>
+
 - **Top player sprawls hips and widens posted leg base to absorb bridge force** (Effectiveness: High) - Your Response: Abandon the bridge attempt and immediately switch to elbow escape or hip escape while they are extended in the sprawl. Their sprawl creates distance between their hips and your body that can be exploited for alternative escapes. → Leads to [[Positions/Mount/Technical Mount]]
 - **Top player follows your turning motion during the bridge and transitions to back control** (Effectiveness: High) - Your Response: Prevent the back take by keeping your elbows tight and immediately recovering guard rather than continuing to turn. If they begin establishing hooks, address the seatbelt grip immediately and work standard back defense before they consolidate control. → Leads to [[Positions/Back Control]]
 - **Top player tightens arm control and accelerates armbar attempt using bridge momentum** (Effectiveness: Medium) - Your Response: If they catch the arm during the bridge, immediately commit to stacking defense by following their rotation and coming to your knees. The bridge momentum can be redirected into a stack that prevents them from completing the armbar extension. → Leads to [[Positions/Mount/Technical Mount]]
@@ -255,6 +263,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge from Technical Mount?</p>
 
 ### 1. Bridging toward the posted leg instead of the inside leg
 
@@ -294,6 +304,8 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge from Technical Mount (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Bridge mechanics and directional awareness
 Practice solo bridge-to-shrimp combinations on the mat, focusing on explosive hip extension followed by immediate lateral hip escape. Drill 20 repetitions per side, emphasizing the seamless connection between the vertical bridge and horizontal shrimp. Build the neural pathway for the combined movement before adding partner resistance.
 
@@ -314,42 +326,12 @@ Drill the bridge as part of a complete escape chain: bridge attempt blocked lead
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for executing the bridge from technical mount?
-**A**: The optimal timing window occurs when the top player shifts weight forward during a submission attempt—particularly the armbar setup. As they commit their hips and upper body forward to initiate the swing-over or adjust grips, their hip pressure on your torso lightens momentarily. This forward commitment creates a window of approximately one to two seconds where bridging effectiveness increases dramatically because you are displacing less settled weight.
-
-**Q2**: Why must you bridge toward the opponent's inside leg rather than their posted leg?
-**A**: The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force. Bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it lacks the structural angle and mat contact needed to absorb bridging force, making it the weak side of their asymmetric base.
-
-**Q3**: Your opponent has heavy settled pressure with no weight shifts occurring—should you attempt the bridge immediately?
-**A**: No. Bridging against fully settled heavy pressure produces minimal displacement at maximum energy cost. Instead, maintain defensive frames and protect your arms while waiting for the opponent to initiate a movement—any submission attempt, grip change, or position adjustment will create a weight shift. Patience preserves energy for the moment when bridging effectiveness is highest. Forced bridges against settled weight are the most common energy-wasting mistake from this position.
-
-**Q4**: What is the most critical arm position throughout the bridge movement and why?
-**A**: The threatened arm (the one under the stepped leg) must remain bent with the elbow glued tightly to the ribs throughout the entire bridge sequence. Any extension of this arm creates an immediate armbar opportunity that the top player can finish using the bridge momentum against you. Grab your own collar, opposite shoulder, or gable grip your hands together to mechanically prevent the arm from straightening during the explosive bridging motion.
-
-**Q5**: If your bridge creates space but the opponent blocks your knee insertion for guard recovery, what is your immediate follow-up?
-**A**: If knee insertion is blocked, immediately attempt a secondary hip escape in the same direction to create additional space, or switch to turning toward turtle as an emergency recovery position. Turtle from technical mount is a significant positional improvement. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately.
-
-**Q6**: Your opponent begins the armbar swing-over just as you bridge—how do you capitalize on their commitment?
-**A**: Their armbar swing-over commitment moves their weight dramatically forward and off your hips, creating the largest displacement window available. Use this momentum to bridge explosively and follow immediately with a hip escape toward the side they are swinging away from. Their commitment to the armbar means they cannot simultaneously maintain mount pressure. If the arm is already caught, redirect the bridge into a stacking defense by following their rotation and coming to your knees.
-
-**Q7**: What distinguishes a successful bridge from one that results in the opponent taking your back?
-**A**: A successful bridge is immediately followed by hip escape and knee insertion to recover guard, keeping your back oriented toward the mat throughout the escape. A bridge that leads to back exposure involves excessive turning without guard recovery—the bottom player continues rotating past the escape point without inserting a knee shield, presenting their back to the opponent. The key distinction is whether the bridge creates guard recovery or creates turning without positional improvement.
-
-**Q8**: How does the grip with your threatened hand affect the bridge mechanics?
-**A**: Gripping your own collar or opposite shoulder with the threatened hand serves two critical functions: it mechanically locks the elbow in a bent position preventing extension during the explosive bridge, and it creates a connection point that allows your arm to move as a unit with your torso rather than being left behind during displacement. Without this self-grip, the arm tends to extend under the forces of the bridge, creating the exact arm exposure the escape is designed to prevent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge from Technical Mount?</p>
 
 The bridge from technical mount involves explosive spinal extension and rotation under load, creating risk for lower back strain if performed without adequate warm-up. Always warm up the lumbar spine, hip flexors, and neck with progressive mobility work before drilling. When training with partners, communicate clearly about resistance levels—unexpected full resistance during bridge drills can cause neck injuries from the combined forces of the bridge and the top player's weight. Avoid forcing the bridge when the opponent has fully secured arm control, as explosive movement with a trapped arm risks shoulder injury. Always tap immediately if caught in a submission during escape attempts rather than risking injury to complete the escape.
 

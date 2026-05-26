@@ -188,6 +188,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Pocket Half Guard?</p>
+
 - Underhook depth determines everything: a shallow underhook that only reaches the near shoulder provides insufficient control and will be stripped, while a deep underhook gripping the far lat or belt creates dominant control
 - Chest-to-chest pressure must precede or accompany the underhook entry to prevent the bottom player from creating distance or establishing their own underhook as a counter
 - Head positioning on the crossface side creates a two-point control system with the underhook that eliminates the bottom player's ability to turn or create angles
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Pocket Half Guard?</p>
+
 - Top position in Half Guard with one leg trapped and one leg free, with sufficient base established through the free leg to resist sweep attempts during the transition
 - Bottom player's far arm must be accessible for the underhook entry, meaning any overhook, wrist control, or frame on that side needs to be cleared or bypassed first
 - Forward pressure established through chest or shoulder contact that prevents the bottom player from creating the distance needed to insert knee shield or establish defensive frames
@@ -213,6 +217,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Pocket Half Guard step by step?</p>
 
 1. **Establish forward pressure and base**: From Half Guard Top, drive your chest forward into the bottom player's upper torso while posting your free leg wide for base. Your weight should transfer through your sternum into their chest, not rest on your knees. This initial pressure prevents them from creating the space needed for frames or knee shield insertion. Keep your elbows tight and hands ready for grip fighting.
 2. **Clear the underhook lane**: Use your near-side hand to control the bottom player's far wrist or elbow, pinning it to their body or redirecting it away from the underhook path. Alternatively, use a crossface with your forearm to turn their head away, which naturally lifts their far shoulder and opens the underhook lane. This clearing action must be quick and decisive to prevent the bottom player from re-establishing defensive frames.
@@ -242,6 +248,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Pocket Half Guard?</p>
+
 - **Bottom player fights for their own underhook before you establish yours, creating a contested underhook battle** (Effectiveness: High) - Your Response: If opponent wins the underhook first, immediately apply whizzer control on their underhook arm while driving your shoulder into their face. Use the whizzer to break their underhook depth, then re-attempt your own underhook entry. If the underhook battle is lost, transition to a crossface-based passing approach instead. → Leads to [[Positions/Half Guard]]
 - **Bottom player inserts knee shield before you can flatten their guard, creating distance and blocking chest pressure** (Effectiveness: High) - Your Response: Address the knee shield before continuing the underhook entry. Use smash pass mechanics to collapse the knee shield by driving their bottom knee to the mat, or switch to a long step pass to circumvent the shield entirely. Only re-attempt the Pocket Half Guard transition after the knee shield is cleared. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Bottom player hip escapes and scoots underneath for deep half guard entry during your weight shift** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they are already entering deep half, abandon the Pocket Half Guard transition and address the deep half guard position with appropriate passing strategy before re-attempting. → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Pocket Half Guard?</p>
 
 ### 1. Threading only a shallow underhook that grips the opponent's near shoulder or tricep instead of reaching across their back
 
@@ -292,6 +302,8 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Pocket Half Guard (Attacker)?</p>
+
 **Phase 1: Underhook Mechanics** - Underhook depth and grip placement
 Practice threading the underhook against a cooperative partner from Half Guard Top. Focus exclusively on achieving maximum depth with proper grip placement on the far lat or belt. Partner allows the entry but provides static resistance to test grip security. Perform 30 repetitions per side, checking grip depth each time.
 
@@ -312,42 +324,12 @@ Start in Half Guard Top during positional sparring rounds. Attempt the transitio
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the minimum underhook depth required for a successful Transition to Pocket Half Guard, and why does a shallow underhook fail?
-**A**: The underhook must reach completely across the opponent's back to grip the far lat, far armpit, or belt line. A shallow underhook that only grips the near shoulder or tricep fails because it provides insufficient control over the opponent's rotation, allowing them to easily strip the grip by turning away or framing against the shoulder. The deep grip creates a mechanical connection that controls their entire upper body, making it physically difficult for them to escape the flattening pressure.
-
-**Q2**: Your opponent posts their far hand on the mat as you begin threading the underhook. How do you adjust your entry?
-**A**: When the opponent posts their far hand, they are actually creating the opening you need. Their posted arm lifts their far shoulder off the mat, widening the underhook lane. Drive your arm through this expanded space aggressively while simultaneously increasing your chest pressure to prevent them from pulling the arm back. Their posting arm cannot simultaneously frame against you and maintain the post, so capitalize on this commitment by threading deep before they can retract.
-
-**Q3**: What is the most critical hip movement during the flattening phase of this transition?
-**A**: The critical hip movement is driving your hips forward and downward into the opponent's body at a slight diagonal angle toward the underhook side. This hip drive eliminates the pocket space the bottom player's leg was using as a frame against your hip. Your hips should drop heavy into their midsection, not remain elevated above them. The diagonal angle of the drive pins their outside knee toward the mat, collapsing their last remaining defensive structure.
-
-**Q4**: What conditions must exist before you attempt the underhook entry, and what happens if you skip these prerequisites?
-**A**: Two conditions must exist: forward chest pressure that pins the bottom player in place, and clearance of the underhook lane by controlling or redirecting their far arm. Skipping the chest pressure allows them to hip escape or insert a knee shield during your entry attempt. Skipping the arm clearance means your underhook attempt gets blocked by their elbow, frame, or overhook. Both failures telegraph your intention and give the opponent time to establish stronger defensive positions.
-
-**Q5**: What grip do you use with your non-underhook hand during the transition, and why is this grip important?
-**A**: The non-underhook hand should control the opponent's near arm by pinning their wrist to their body, gripping their elbow, or establishing a crossface with the forearm across their jaw. This grip is critical because it eliminates the bottom player's primary framing tool. Without their near arm free, they cannot push your head away, frame against your shoulder, or create the distance needed for guard recovery. The near arm control completes the control system that makes Pocket Half Guard dominant.
-
-**Q6**: Your opponent begins a hip escape toward the underhook side during your transition attempt. What is the correct response?
-**A**: This is a deep half guard entry attempt. Immediately sprawl your hips back while maintaining your underhook grip to prevent them from scooting underneath you. Drive your trapped knee toward the mat to block their hip movement. If they have already created significant angle, release the underhook temporarily and address their deep half entry by re-centering your hips over their body. Only resume the Pocket Half Guard transition after you have re-established a neutral Half Guard Top position.
-
-**Q7**: How does the direction of force differ between the underhook pull and the crossface drive, and why is this opposition essential?
-**A**: The underhook pulls the opponent's far shoulder toward you and upward, while the crossface drives their head and near shoulder away from you and into the mat. These opposing forces create a rotational compression that flattens the bottom player's torso between the two pressure points. Without this opposition, the bottom player can rotate freely in the direction of either single force. The combined opposing forces pin both shoulders to the mat simultaneously, eliminating the angular freedom needed for sweeps and guard recovery.
-
-**Q8**: Your opponent successfully inserts a knee shield just as you begin establishing the underhook. Should you continue the transition or change strategy?
-**A**: Change strategy immediately. A fully established knee shield creates too much distance for the chest-to-chest pressure required by Pocket Half Guard. Attempting to force the transition through a knee shield wastes energy and exposes you to sweeps. Instead, address the knee shield first using smash pass mechanics to collapse it or a long step pass to circumvent it. Only re-attempt the Pocket Half Guard transition after the knee shield has been completely cleared and you have re-established forward pressure contact.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Pocket Half Guard?</p>
 
 The Transition to Pocket Half Guard involves significant forward pressure through the chest and crossface mechanics that require awareness of partner safety during training. Crossface pressure should be applied with the forearm across the jaw, never directly against the throat or trachea. Underhook control should use pulling force on the torso, never apply torquing pressure to the shoulder joint. During flattening sequences, be aware that driving excessive weight through the chest onto a partner whose ribs are compressed can cause discomfort or injury. Communicate with training partners about pressure levels and maintain control throughout the transition rather than dropping weight suddenly.
 

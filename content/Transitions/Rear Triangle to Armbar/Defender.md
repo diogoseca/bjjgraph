@@ -162,6 +162,8 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rear Triangle to Armbar?</p>
+
 - Attacker establishes two-on-one wrist control on your trapped arm while still in the rear triangle, shifting from neck attacks to arm control
 - Attacker's hips begin rotating from a posterior choking angle toward a perpendicular orientation relative to your shoulder
 - You feel the triangle leg pressure decrease across the back of your neck as the attacker prepares to unlock the figure-four
@@ -174,6 +176,8 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rear Triangle to Armbar?</p>
 
 - Recognize the transition early by feeling the attacker's hip rotation and grip changes on your trapped arm before the leg swings over your face
 - Immediately bend your trapped arm and pull your elbow tight to your ribcage the moment you sense the armbar transition beginning
@@ -188,6 +192,8 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rear Triangle to Armbar?</p>
 
 ### 1. Clasp hands together and bend trapped elbow immediately upon sensing the transition
 
@@ -225,6 +231,8 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rear Triangle to Armbar?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the transition window when the attacker releases the triangle lock by bridging explosively, turning toward the trapped arm side, and immediately working to insert your knee between your bodies. The attacker's loss of triangle control combined with their mid-pivot positioning creates the best escape opportunity. Use your free hand to frame against their hip and shrimp away to establish half guard retention.
@@ -240,6 +248,8 @@ Prevent the armbar transition by immediately clasping your hands together and pu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rear Triangle to Armbar?</p>
 
 ### 1. Failing to recognize the transition cues and continuing to defend only the choke while the attacker pivots to armbar
 
@@ -269,6 +279,8 @@ Prevent the armbar transition by immediately clasping your hands together and pu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rear Triangle to Armbar?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues under controlled conditions
 Partner alternates between maintaining the rear triangle choke and initiating the armbar transition at random intervals. Defender must verbally call out which attack is being attempted based on tactile cues (hip rotation, grip changes, leg movement). No physical defense yet - focus purely on building recognition speed and accuracy.
 
@@ -285,29 +297,6 @@ Start in rear triangle with attacker actively working the submission chain. Defe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable defensive window during the Rear Triangle to Armbar transition and why?
-**A**: The most reliable escape window occurs when the attacker releases the triangle figure-four lock but has not yet established armbar leg control across your face. During this brief transitional moment, neither the choke nor the armbar is fully functional, and the attacker's base is compromised by the hip pivot. This is when explosive defensive movement such as bridging, turning toward the trapped arm, or sitting up has the highest probability of success.
-
-**Q2**: Your attacker has secured wrist control and begins pivoting their hips - what are your immediate three defensive actions?
-**A**: First, bend your trapped elbow as hard as possible and pull it tight against your ribcage to resist arm extension. Second, use your free hand to either clasp your trapped wrist for reinforcement or block the attacker's incoming leg from crossing over your face. Third, turn your body toward the trapped arm side to collapse the perpendicular angle the attacker needs. These three actions address arm isolation, leg control, and hip angle simultaneously.
-
-**Q3**: Why is turning toward the trapped arm side preferable to turning away when defending this transition?
-**A**: Turning toward the trapped arm side shortens the distance between your elbow and your body, making it harder for the attacker to isolate and extend the arm. It also disrupts the perpendicular hip angle the attacker needs by collapsing the space between your bodies. Turning away would extend the trapped arm and create more space for the attacker's legs to establish control, essentially assisting their transition mechanics rather than disrupting them.
-
-**Q4**: How should you adjust your defensive priorities when the attacker alternates between choke and armbar threats?
-**A**: Maintain a layered defense that addresses both threats simultaneously rather than committing fully to either one. Keep your chin tucked and one hand protecting your neck while using your trapped arm position and free hand to prevent arm isolation. The key is to avoid overcommitting to choke defense (which exposes the arm) or arm defense (which exposes the neck). Read the attacker's hip angle and grip changes to determine which threat is currently primary and weight your defense accordingly.
-
-**Q5**: After the attacker has completed the transition and you are in armbar control, what is your highest-priority defensive action?
-**A**: Immediately rotate your trapped arm so the thumb points toward the ceiling and bend the elbow as deeply as possible, pulling your wrist toward your shoulder using your free hand for assistance. Simultaneously begin turning your body toward the trapped arm side and look to control the attacker's leg across your face with your free hand. The arm bend prevents the finish, the thumb rotation strengthens the elbow structure, and the body turn begins creating the angle needed for escape sequences like the hitchhiker.
-
-
-
-</section>
 
 
 </main>

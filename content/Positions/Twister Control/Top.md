@@ -20,39 +20,33 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Twister Finish",
-      "text": "From this position, attempt Twister Finish. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Twister from Twister Control",
+      "text": "From this position, attempt Twister from Twister Control. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Twister Control",
+      "text": "From this position, attempt Guillotine Choke from Twister Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer",
-      "text": "From this position, attempt Calf Slicer. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Neck Crank from Twister Control",
+      "text": "From this position, attempt Neck Crank from Twister Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Calf Slicer from Twister Control",
+      "text": "From this position, attempt Calf Slicer from Twister Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Twister",
-      "text": "From this position, attempt Twister. This technique is attempted in 9% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -175,6 +169,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Position Definition
 
+<p class="section-subtitle">What is Twister Control (Top)?</p>
+
 - You maintain control of at least one of the opponent's legs, preventing them from turning into you and escaping the rotational constraint
 - The opponent's spine is twisted with their shoulders and hips facing different directions, creating rotational torque through their spinal column
 - Your upper body controls the opponent through a position resembling the truck or modified back control
@@ -186,6 +182,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Twister Control (Top)?</p>
+
 - You have established truck position or similar back exposure control on opponent
 - You have captured at least one of opponent's legs with your leg control
 - Opponent's spine is twisted with shoulders and hips misaligned
@@ -196,6 +194,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Twister Control?</p>
 
 - Leg control is the foundation - maintain this at all costs to prevent escapes
 - Coordinate upper body and lower body control to maximize spinal rotation
@@ -212,8 +212,10 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Twister Control (Top)?</p>
+
 **Opponent is stationary and defending with minimal movement:**
-- Execute **[[Hunt Twister Finish/Attacker|Hunt Twister Finish]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Hunt Twister Finish/Attacker|Hunt Twister Finish]]** → [[game-over]] (Probability: 45%)
 - Execute **[[Transition to Guillotine/Attacker|Transition to Guillotine]]** → [[Positions/Guillotine Control]] (Probability: 55%)
 
 
@@ -228,7 +230,7 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 
 **Opponent turns into you sacrificing back to escape twist:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
@@ -239,6 +241,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Twister Control?</p>
 
 ### 1. Fixating exclusively on Twister finish and missing higher percentage submissions
 
@@ -272,6 +276,8 @@ One critical aspect that differentiates elite-level Twister Control from interme
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Twister Control attacks?</p>
 
 ### Twister Control Maintenance
 

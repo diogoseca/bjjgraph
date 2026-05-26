@@ -159,7 +159,7 @@ What makes this transition particularly effective is the combination of mechanic
 
 - **Sit through to guard by dropping your near hip to the mat and turning into the attacker before the seat belt is completed** - When: Early in the transition when the attacker has only one hook and has not yet secured the seat belt grip. Most effective when the attacker releases near arm control to establish the over-shoulder grip.
 
-- **Strip the hooking leg by cupping the ankle and driving it toward the mat while explosively shifting your hips away from the hook side** - When: When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinsetting the hook immediately.
+- **Strip the hooking leg by cupping the ankle and driving it toward the mat while explosively shifting your hips away from the hook side** - When: When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinserting the hook immediately.
 
 - **Granby roll away from the hook side, inverting underneath the attacker to recover guard position** - When: When the attacker commits weight forward for the seat belt or second hook insertion, creating the momentum needed for the inversion. Requires enough space to initiate the roll before the attacker can flatten you.
 
@@ -212,15 +212,15 @@ From a competition and training perspective, the Crab Ride to Back transition re
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Ending grip configuration - the harness control established during this transition
 
-- [[Transitions/Rear Naked Choke]] - Follow-up submission - primary finishing technique from achieved back control
+- [[Submissions/Rear Naked Choke]] - Follow-up submission - primary finishing technique from achieved back control
 
 - [[Positions/Twister Control/Truck]] - Alternative path - intermediate position when direct back take is defended via far leg control
 
-- [[Submissions/Kimura from Turtle]] - Complementary attack - submission threat that creates back take opportunities
+- [[Transitions/Kimura from Crab Ride]] - Complementary attack - submission threat from Crab Ride that creates back take opportunities through forced defensive reactions
 
-- [[Submissions/Armbar from Back]] - Follow-up submission - alternative finishing option from back control
+- [[Transitions/Armbar from Back Transition]] - Follow-up transition - arm attack option from back control when opponent over-defends the neck
 
-- [[Transitions/Bow and Arrow Choke]] - Follow-up submission - high-percentage finish from back control in gi
+- [[Submissions/Bow and Arrow Choke]] - Follow-up submission - high-percentage finish from back control in gi
 
 - [[Systems/Back Defense Protocol]] - Counter system - defensive framework opponents use to defend this transition
 

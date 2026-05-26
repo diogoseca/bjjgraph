@@ -55,7 +55,7 @@
       "relationship": "Scramble position related to truck escapes"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Transition state during truck entries and escapes"
     }
   ],
@@ -101,7 +101,7 @@
       "Multiple Threat System: Chain between twister, calf slicer, banana split, and back control",
       "Upper-Lower Body Connection: Coordinate leg control with arm attacks for maximum effectiveness",
       "Slow Methodical Attacks: Position rewards patience and systematic progression over rushing",
-      "Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities",
+      "Fork Attacks: Force opponent to choose which attack to defend, opening other opportunities",
       "Back Control Option: Always maintain ability to transition to traditional back control as fallback"
     ],
     "decision_tree": [
@@ -257,7 +257,7 @@
         "relationship": "Transition target - alternative control position"
       },
       {
-        "name": "Calf Slicer from Truck",
+        "name": "Calf Slicer",
         "relationship": "Secondary submission attacking trapped leg"
       },
       {
@@ -298,10 +298,6 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Calf Slicer",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Roll to Truck",
         "attempt_probability": 5
       },
@@ -310,7 +306,7 @@
         "attempt_probability": 21
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Truck",
         "attempt_probability": 8
       },
       {
@@ -343,14 +339,14 @@
       },
       {
         "transition": "Calf Slicer from Truck",
-        "attempt_probability": 2
+        "attempt_probability": 14
       },
       {
         "transition": "Spine Lock",
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary control mechanism that makes the truck position effective?",
         "answer": "The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks."
@@ -569,7 +565,7 @@
         "relationship": "Escape target - recovering guard from leg extraction"
       },
       {
-        "name": "Calf Slicer from Truck",
+        "name": "Calf Slicer",
         "relationship": "Secondary submission threat targeting trapped leg"
       },
       {
@@ -611,35 +607,39 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 42
+        "attempt_probability": 66
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Rolling Back Take Reversal",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Forward Roll",
         "attempt_probability": 10
       },
       {
-        "transition": "Back Door Escape",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Defensive Roll",
+        "transition": "Rolling Back Take Reversal",
         "attempt_probability": 4
       },
       {
+        "transition": "Forward Roll",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Door Escape",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Defensive Roll",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Escape from Truck",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Hip Escape from Truck",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Leg Extraction from Truck",
@@ -647,14 +647,10 @@
       },
       {
         "transition": "Roll to Guard from Truck",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Escape from Truck",
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your immediate priority upon finding yourself in truck bottom position?",
         "answer": "Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction."

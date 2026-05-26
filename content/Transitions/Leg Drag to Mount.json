@@ -61,7 +61,7 @@
       "relationship": "Variant target position when opponent is partially turned"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Primary submission follow-up from achieved mount"
     },
     {
@@ -203,7 +203,7 @@
         "description": "Incorporate into live passing sequences. Start from open guard and work through leg drag entry to mount. Practice reading whether opponent is giving mount or back take. Use in sparring with focus on transition efficiency."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the mount transition from leg drag control?",
         "answer": "The optimal window is when your opponent stays flat on their back and commits to fighting your upper body control rather than turning away. You should initiate within 2-3 seconds of establishing leg drag control, because the longer you wait the more time they have to build frames. The moment you feel them resist turning, begin the step-over immediately."
@@ -327,7 +327,7 @@
         "correction": "Always combine frames with hip escape. The frames create the momentary space that your hip escape exploits to insert a knee shield. Frames without hip movement is stalling, not escaping."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for defending the leg drag to mount transition?",
         "answer": "The most critical window is the moment the passer releases their grip on your crossed leg and begins stepping their far leg over your torso. During this brief phase, they must shift weight and temporarily lose their primary control point. This is when knee shield insertion or a well-timed hip escape has the highest success rate because the passer is mid-transition and cannot easily abort."

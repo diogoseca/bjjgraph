@@ -154,6 +154,8 @@ As the defender in this context, you are the top player in quarter guard attempt
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Shield from Quarter Guard?</p>
+
 - Bottom player's hips begin to turn away and create angle through hip escape movement, creating lateral space between your bodies
 - Bottom player's hands move to frame position against your chest, shoulder, or hip—forearm placement signals imminent recovery attempt
 - Bottom player's near-side knee begins lifting off the mat and angling toward your centerline, seeking the insertion path
@@ -166,6 +168,8 @@ As the defender in this context, you are the top player in quarter guard attempt
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Shield from Quarter Guard?</p>
 
 - Maintain constant forward and downward pressure to eliminate the space needed for knee insertion—settled pressure prevents recovery
 - Control the near-side knee proactively by pinning it with your hand, shin, or hip pressure before the bottom player can initiate the insertion
@@ -180,6 +184,8 @@ As the defender in this context, you are the top player in quarter guard attempt
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Shield from Quarter Guard?</p>
 
 ### 1. Drive heavy crossface pressure to flatten bottom player and prevent hip escape
 
@@ -217,6 +223,8 @@ As the defender in this context, you are the top player in quarter guard attempt
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Shield from Quarter Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 Complete your guard pass before the knee shield can be established by maintaining constant forward pressure, controlling the crossface, and driving your passing knee across their centerline faster than they can insert their shield knee. Prioritize immediate pass completion within five seconds of entering quarter guard.
@@ -232,6 +240,8 @@ If you cannot immediately complete the pass, prevent the knee shield insertion b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Shield from Quarter Guard?</p>
 
 ### 1. Allowing space to develop between your chest and opponent's torso by rising up to adjust grips or reposition
 
@@ -261,6 +271,8 @@ If you cannot immediately complete the pass, prevent the knee shield insertion b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Shield from Quarter Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying early recovery cues from quarter guard top
 Partner signals recovery attempts through frames and hip escapes at slow speed while you practice recognizing each cue. Call out what you see or feel before the knee begins moving. Develops the pattern recognition needed to counter recovery attempts in the first half-second.
 
@@ -277,26 +289,6 @@ Start every round in quarter guard with partner at full competitive resistance. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that your opponent is attempting knee shield recovery from quarter guard?
-**A**: The earliest cues are forearm frames appearing against your chest or shoulder and the beginning of hip rotation away from you. These precede the actual knee insertion by one to two seconds. By the time you see the knee lifting, the recovery sequence is already in progress. Experienced bottom players disguise the recovery by establishing frames gradually, so feel for pressure changes against your torso rather than watching for visual cues.
-
-**Q2**: How should you adjust your pressure when you feel the bottom player beginning to hip escape?
-**A**: Immediately increase crossface pressure by driving your shoulder harder against their face and follow their hip movement with your own hips, closing the gap they are creating. Do not let their hip escape create lateral distance—track their movement with your chest and hips as a connected unit. If you lose the race to close the gap, accelerate your pass completion by driving your knee across their centerline to beat their knee shield to the same space.
-
-**Q3**: What is the risk of trying to force past an established knee shield versus preventing its insertion?
-**A**: Forcing through an established knee shield requires three to five times more energy than preventing insertion, and success rate drops from approximately eighty percent prevention to thirty percent forced removal. An established shield with grips creates a structural frame that redirects your forward pressure upward rather than through the bottom player. Additionally, attempting to smash through an established shield often exposes you to sweeps as the bottom player uses your forward commitment against you. Prevention during the first two seconds is always superior to removal after establishment.
-
-**Q4**: When should you abandon trying to prevent knee shield recovery and instead accept the new position?
-**A**: Once the knee has crossed your centerline and the bottom player has secured upper body grips (collar, sleeve, or underhook), the knee shield is functionally established. At this point, continuing to fight the shield wastes energy and creates vulnerability. Accept that you are now in Knee Shield Half Guard top and immediately transition to the appropriate passing strategy for that position—typically smash pass, long step pass, or knee slice depending on their specific shield configuration. Acceptance and strategic adaptation is faster than futile resistance.
-
-
-
-</section>
 
 
 </main>

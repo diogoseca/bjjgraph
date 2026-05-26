@@ -188,6 +188,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Williams Guard Sweep?</p>
+
 - Maintain unbroken shoulder lock pressure throughout the entire sweep sequence to prevent the opponent from posting their controlled arm
 - Use the hip angle to load the sweep direction before initiating elevation with the butterfly hook
 - Time the sweep initiation to coincide with the opponent's defensive weight shift when they react to shoulder lock pressure
@@ -202,6 +204,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Williams Guard Sweep?</p>
+
 - Secure figure-four shoulder lock grip with bottom arm behind opponent's tricep and top hand gripping own wrist
 - Hip escaped toward controlled arm side creating approximately 45-degree angle from opponent's centerline
 - Butterfly hook inserted inside opponent's thigh on the controlled arm side with heel tight against inner thigh
@@ -214,6 +218,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Williams Guard Sweep step by step?</p>
 
 1. **Secure shoulder lock configuration**: From Williams Guard Bottom, verify that the figure-four shoulder lock grip is secure with your bottom arm threaded behind the opponent's tricep and your top hand gripping your own wrist. The grip must be tight with your elbow clamped against your body to maximize control and prevent the opponent from extracting their arm during the sweep sequence.
 2. **Establish hip angle toward sweep direction**: Hip escape toward the controlled arm side to create the sweeping angle. This positions your body approximately 45 degrees from the opponent's centerline and aligns your hips with the intended sweep direction. The angle is critical because it determines the rotational path the opponent will travel during the sweep and prevents them from simply driving forward to counter.
@@ -243,6 +249,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Williams Guard Sweep?</p>
+
 - **Opponent posts free hand on the mat to create a wide base preventing the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by releasing one side of shoulder lock and swinging your leg over the posted arm, or transition to omoplata by rotating hips into the posting arm → Leads to [[Positions/Williams Guard]]
 - **Opponent drops weight and sprawls their hips back to remove hook elevation leverage** (Effectiveness: High) - Your Response: Use the forward pressure to transition to omoplata rotation since their sprawl creates the hip angle needed, or switch to scissor leg variation that works against sprawled opponents → Leads to [[Positions/Williams Guard]]
 - **Opponent strips shoulder lock grip by circling their arm out during the sweep attempt** (Effectiveness: Medium) - Your Response: Immediately transition to butterfly sweep without shoulder lock control, or switch to arm drag as they extract and take the back → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Williams Guard Sweep?</p>
 
 ### 1. Releasing shoulder lock pressure during the sweep to reach for grips or adjust position
 
@@ -293,6 +303,8 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Williams Guard Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual component isolation
 Practice each sweep component separately: shoulder lock grip establishment, hip angle creation, butterfly hook insertion, and elevation mechanics. Use compliant partner at 0% resistance. Focus on body positioning and weight distribution at each phase. 10 repetitions each side per training session.
 
@@ -313,48 +325,12 @@ Apply the Williams Guard Sweep in live rolling against various body types and sk
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the Williams Guard Sweep relative to your opponent's defensive reactions?
-**A**: The optimal moment is during the opponent's weight shift caused by their defensive reaction to shoulder lock pressure. When they pull their arm back or shift weight backward to relieve shoulder lock pressure, their base narrows and their center of gravity transitions momentarily. This transitional window is when the butterfly hook elevation is most effective because they cannot simultaneously defend the submission and maintain maximum base stability.
-
-**Q2**: What grip configuration must be established before attempting the sweep and why is the figure-four essential?
-**A**: The figure-four shoulder lock grip must be secured with your bottom arm threaded behind the opponent's tricep and your top hand gripping your own wrist. The figure-four is essential because it creates a mechanical lock that prevents the opponent from posting their controlled arm during the sweep. A simpler grip like a wrist grab would allow them to pull free under the rotational forces of the sweep, eliminating the core advantage of sweeping from shoulder lock control.
-
-**Q3**: What is the specific role of the butterfly hook in generating sweep momentum and how does it differ from arm-based pulling?
-**A**: The butterfly hook provides the primary elevation force by lifting the opponent's thigh upward, shifting their center of gravity above their base. Unlike arm-based pulling which creates lateral force, the hook generates vertical displacement that fundamentally destabilizes the opponent's base. The hook leverages your leg strength—the strongest muscle group—against their balance, while the shoulder lock grip provides directional control rather than primary force generation.
-
-**Q4**: Why do most Williams Guard Sweep attempts fail at the elevation phase and how can this be corrected?
-**A**: Most failures at the elevation phase occur because the hook is too shallow, the hip angle is insufficient, or the timing is wrong. A shallow hook slips out during lift. Without proper hip angle, the elevation force is misaligned with the sweep direction. Poor timing means the opponent has already established a defensive base before elevation begins. Correction requires ensuring all three prerequisites—deep hook, 45-degree hip angle, opponent in weight transition—are met before committing to the elevation.
-
-**Q5**: How should force be directed during the sweep—what is the relationship between shoulder lock drive and hook elevation?
-**A**: Force must be applied as a coordinated rotational moment, not two separate actions. The shoulder lock drives forward and across the opponent's body while the butterfly hook lifts their near thigh simultaneously. These forces create a rotation around the axis of the opponent's far knee. The shoulder lock prevents posting on the near side while the hook removes ground contact on the near side, leaving only the far leg as a support point which cannot sustain the rotational load.
-
-**Q6**: Your opponent posts their free hand to stop the sweep—how do you adjust your attack?
-**A**: A free hand post signals that the opponent has committed their remaining defensive resource to base rather than grip fighting. This opens two immediate attacks: first, swing your free leg over the posted arm for a triangle setup since their arm is extended and committed to the mat. Second, rotate your hips into the posting arm for an omoplata transition. Both attacks exploit the fact that their posted hand cannot simultaneously maintain base and defend submissions.
-
-**Q7**: If the sweep is blocked by strong basing, what submission chain becomes available from the same position?
-**A**: When the opponent bases wide to block the sweep, the shoulder lock itself tightens because their widened base pulls their arm further into the lock. Increase shoulder lock pressure to force them to choose between defending the submission and maintaining the wide base. If they narrow their base to address the shoulder lock, reattempt the sweep. If they maintain base, progress the shoulder lock toward finish or transition to omoplata by rotating your hips underneath. The sweep and submission create a binary that always opens one attack.
-
-**Q8**: How does hip angle affect sweep effectiveness and what is the ideal angle relative to the opponent?
-**A**: Hip angle determines the direction of rotational force during the sweep. The ideal angle is approximately 45 degrees toward the controlled arm side, achieved through hip escaping before hook insertion. Too little angle means the sweep force pushes straight into the opponent's base rather than around it. Too much angle disconnects the butterfly hook from effective lifting position. The 45-degree angle creates a diagonal sweep path that bypasses the opponent's strongest base points.
-
-**Q9**: What distinguishes a successful sweep follow-through from one that stalls in a scramble position?
-**A**: Successful follow-through maintains continuous momentum and shoulder lock control through the entire rotation from guard to mount. Stalled sweeps occur when the attacker pauses mid-rotation, releases the shoulder lock prematurely, or fails to hip switch over the opponent quickly enough. The key distinction is commitment—once the elevation breaks their base, the attacker must follow through as a single continuous motion, transitioning grip from shoulder lock to mount control only after fully establishing top position.
-
-**Q10**: Your opponent sprawls their hips back when you attempt the sweep—what does this reaction open up?
-**A**: A hip sprawl creates the exact hip angle needed for omoplata transition. When the opponent sprawls back, their hips clear your legs and their shoulder drops closer to the mat. Maintain the shoulder lock grip and rotate your hips underneath their sprawled body to begin the omoplata sequence. Their sprawl momentum actually assists the omoplata rotation. Alternatively, if they sprawl unevenly, the scissor leg sweep variation can exploit the asymmetric base created by partial sprawling.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Williams Guard Sweep?</p>
 
 The Williams Guard Sweep involves shoulder lock mechanics throughout the sweeping motion that place rotational stress on the opponent's shoulder joint. Controlled execution is essential to prevent shoulder injuries. Partners should communicate regarding shoulder flexibility limitations before drilling. When practicing, allow the sweep to complete rather than posting on a compromised arm, which risks shoulder strain or dislocation. Release shoulder lock pressure immediately if your partner taps during any phase of the sweep. Avoid explosive force application against locked shoulder joints, and increase sweep speed gradually as both partners develop comfort with the mechanics.
 

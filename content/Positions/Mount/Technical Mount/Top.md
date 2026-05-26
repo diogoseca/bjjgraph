@@ -21,7 +21,7 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 52% of exchanges from this position.",
       "position": 1
     },
     {
@@ -169,6 +169,8 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Position Definition
 
+<p class="section-subtitle">What is Technical Mount (Top)?</p>
+
 - Outside leg posted with shin perpendicular to opponent's body and foot flat on mat, creating a stabilizing tripod structure that prevents opponent from rolling while maintaining mobility for the top player
 - Inside leg hooked underneath opponent's body with knee near armpit and foot typically tucked under back or hip, maintaining connection and control while allowing angular positioning
 - Opponent's arm extended and controlled with both hands—one hand gripping wrist and other controlling above elbow or at shoulder, preventing arm retraction while setting up armbar mechanics
@@ -181,6 +183,8 @@ This position represents a critical junction in mount offense where the practiti
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Technical Mount (Top)?</p>
 
 - Proficient regular mount maintenance with understanding of weight distribution and base mechanics
 - Understanding of armbar mechanics from mount including proper hip placement and leg swing-over technique
@@ -196,10 +200,12 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Technical Mount?</p>
+
 - Posted Leg Base: Outside leg creates stabilizing tripod structure that prevents rolling while maintaining offensive mobility
 - Arm Isolation: Control opponent's extended arm with both hands before posting leg to ensure submission setup
 - Hip Position: Elevated hips facilitate quick transitions to armbar or back take while maintaining enough pressure to prevent escapes
-- Weight Distribution: Balance weight across posted leg and inside knee to maintain control during dynamic transitions
+- Center of Gravity: Balance weight across posted leg and inside knee to maintain control during dynamic transitions
 - Transitional Mindset: Position entered with specific finishing intent—armbar or back take must follow within seconds
 - Angular Control: Body positioned at angle optimal for armbar swing-over with head on opposite side of attacked arm
 - Quick Execution: Minimize time in position to prevent defensive recovery—commit to finish immediately upon entry
@@ -210,6 +216,8 @@ This position represents a critical junction in mount offense where the practiti
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Technical Mount (Top)?</p>
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
 - Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
@@ -238,6 +246,8 @@ This position represents a critical junction in mount offense where the practiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Technical Mount?</p>
 
 ### 1. Staying in Technical Mount too long without attacking, allowing position to become static
 
@@ -272,6 +282,8 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Technical Mount attacks?</p>
+
 ### Technical Mount Entry Drill
 
 From regular mount, partner extends arm defensively (light resistance). Practice smooth transition to Technical Mount focusing on: securing wrist and elbow control first, posting outside leg with proper shin placement, shifting weight toward attacked arm, and maintaining connection with inside leg. Repeat 10 times per side.
@@ -305,38 +317,6 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution strategy for maintaining Technical Mount while setting up the armbar?
-**A**: Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar.
-
-**Q2**: Your opponent starts to bridge explosively while you have their arm controlled in Technical Mount—what adjustment do you make?
-**A**: Ride the bridge by staying heavy on your inside leg and posted leg, keeping your hips tight to their shoulder. As they bridge, their arm often extends further due to the momentum, creating an even better armbar angle. Use their upward momentum to begin your leg swing-over, converting their escape attempt into your finishing opportunity. Never fight the bridge directly—flow with it and capitalize on the space it creates.
-
-**Q3**: What are the essential grips for maintaining Technical Mount before committing to the armbar finish?
-**A**: Two-handed control of the opponent's arm is critical: one hand grips the wrist firmly while the other controls above the elbow or at the shoulder. This dual grip prevents arm retraction and maintains extension. The wrist grip controls rotation while the elbow grip prevents them from bending the arm. Never post the leg before securing both grips, as losing arm control while in the asymmetric position leaves you vulnerable to escape.
-
-**Q4**: How do you shut down the primary escape from Technical Mount where the opponent turns away to defend the armbar?
-**A**: Anticipate the turn and immediately transition to back control rather than forcing the armbar. Maintain wrist control as they turn, release the armbar grip, and establish seat belt control by threading your arm under their armpit. Your posted leg becomes your first hook as you follow their rotation. The key is reading their shoulder movement early—the moment they begin turning, abandon the armbar and take the back.
-
-**Q5**: What grip priorities should you maintain when the opponent begins hand-fighting to retract their arm?
-**A**: Prioritize the wrist grip above all else—if you lose the wrist, you lose the armbar. When they hand-fight, keep your wrist grip tight while using your elbow-controlling hand to fight their free hand away or pin it to their body. If they successfully begin retracting, immediately decide: either commit harder by sitting back to the armbar before they escape, or release and return to regular mount to reset. Never stay in half-committed Technical Mount with compromised grips.
-
-**Q6**: How do you apply effective pressure in Technical Mount without compromising your base or submission angle?
-**A**: Pressure in Technical Mount comes from hip proximity to the opponent's shoulder rather than chest-to-chest weight like standard mount. Keep your hips tight to their shoulder on the attacked arm side, using your inside knee to drive into their ribs for connection. Your upper body leans slightly toward their head, with your posted leg bearing enough weight to maintain base but not so much that your hips float away from their shoulder. The pressure pins their shoulder to the mat and prevents them from creating the rotation needed to escape.
-
-**Q7**: How do you manage energy in Technical Mount given its transitional nature?
-**A**: Technical Mount is a high-intensity, short-duration position—treat it as a 3-8 second window, not a resting position. Enter with immediate attacking intent and commit to finishing quickly. If the armbar isn't there within a few seconds, either transition to back take or return to regular mount to conserve energy. Staying in Technical Mount trying to force submissions burns energy rapidly due to the asymmetric base requiring constant adjustment. Make a decision and execute—hesitation costs energy.
-
-**Q8**: Your opponent creates frames with their free arm against your hip to prevent you from completing the armbar swing-over—how do you recover?
-**A**: Use the frame to your advantage by attacking the free arm instead. Their frame exposes that arm for gift wrap control—swim your hand under their framing arm and grab their far shoulder or collar. Once the gift wrap is secured, you can either return to the original armbar with superior control, attack the newly trapped arm, or use the gift wrap to take the back. Their defensive frame becomes your offensive opportunity.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -365,7 +345,7 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 - **[[Positions/Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
 - **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
 - **[[Transitions/Mount to Armbar]]** - Primary technique - main transition used from this position
-- **[[Submissions/Armbar from Technical Mount]]** - Primary submission - finish technique from this position
+- **[[Armbar from Armbar Control]]** - Primary submission finish - completion technique from armbar control
 
 
 </section>

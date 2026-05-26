@@ -188,6 +188,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Up from Ashi Garami?</p>
+
 - Commit fully to the stand-up once initiated—hesitation between maintaining ashi garami and standing creates maximum vulnerability in the transition
 - Clear opponent's connection points systematically before attempting to stand, starting with the most dangerous hooks first
 - Establish strong frames before releasing leg control to prevent opponent from following into a new entanglement or pulling you back down
@@ -202,6 +204,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Up from Ashi Garami?</p>
+
 - Established ashi garami position from bottom with at least basic leg control configuration
 - Recognition that current entanglement exchange has stalled or opponent's defensive positioning prevents hierarchy advancement
 - Sufficient space to initiate the standing motion without immediate counter-attack from opponent
@@ -214,6 +218,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Up from Ashi Garami step by step?</p>
 
 1. **Assess Position and Commit**: Evaluate the current leg entanglement exchange and confirm that standing up is the optimal tactical choice. Check that opponent's grips are manageable, their hooks are not deeply set, and you have sufficient arm freedom to frame. Mental commitment is critical—half-hearted stand-up attempts are more dangerous than staying in ashi garami because they expose you to attacks during the transition without gaining positional advantage.
 2. **Release Non-Essential Hooks**: Begin releasing your secondary leg hooks and grip connections that are maintaining the entanglement. Start with the outside hook or foot positioning that provides least control value. Maintain your primary inside hook as long as possible to prevent opponent from immediately re-establishing guard or scrambling to a better position during the disengagement sequence.
@@ -243,6 +249,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Up from Ashi Garami?</p>
+
 - **Opponent tightens leg hooks and pulls hips in to prevent standing** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and immediately re-establish ashi garami control rather than fighting a losing battle against tightened hooks that will compromise your position → Leads to [[Positions/Ashi Garami]]
 - **Opponent uses standing momentum to invert and enter a new leg entanglement** (Effectiveness: Medium) - Your Response: Maintain strong frames during the stand-up and step laterally to deny the inversion angle, then continue the disengagement sequence with adjusted positioning → Leads to [[Positions/Ashi Garami]]
 - **Opponent releases defense and immediately attacks exposed leg during transition** (Effectiveness: High) - Your Response: Accelerate the stand-up by posting explosively and clearing the leg before they can establish finishing control on the newly exposed limb → Leads to [[Positions/Standing Position]]
@@ -254,6 +262,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Up from Ashi Garami?</p>
 
 ### 1. Attempting to stand without first releasing secondary hooks
 
@@ -293,6 +303,8 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Up from Ashi Garami (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Standing motion fundamentals
 Practice the hip drive, frame placement, and leg extraction sequence without a partner. Focus on the explosive hip-backward motion and immediate base establishment. Drill 20 repetitions per side, emphasizing smooth, committed movement patterns that build muscle memory for the complete sequence.
 
@@ -313,42 +325,12 @@ Start from standing, pull guard into leg entries, work ashi garami attacks, and 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most common error when attempting to stand up from ashi garami, and why is it dangerous?
-**A**: The most common error is hesitating between maintaining ashi garami control and committing to the stand-up. This half-commitment is dangerous because it abandons the offensive leg entanglement positioning without gaining the benefits of a clean standing position, leaving the practitioner in a vulnerable transitional state where they can be swept, re-entangled, or have their exposed legs attacked. Full commitment to either option is always safer than lingering between positions.
-
-**Q2**: In what order should you release your hooks and connections when standing up from ashi garami?
-**A**: Release secondary hooks first—typically the outside hook or foot positioning that provides least control value. Maintain your primary inside hook and any controlling grips as long as possible during the standing motion. Frames should be established before any hooks are released, and the final leg connection should be cleared last, timed with the explosive hip drive to prevent the opponent from re-catching your leg during extraction.
-
-**Q3**: Your opponent tightens their hooks as you begin to stand—should you continue the stand-up or abort?
-**A**: Generally abort the stand-up and immediately re-establish your ashi garami control position. Fighting against tightened hooks during the standing phase creates an awkward half-position that is worse than either ashi garami bottom or standing. The exception is if you have already created significant distance with your hip drive and only one loose hook remains—in that case, a committed final extraction may succeed if executed explosively before they can re-secure the connection.
-
-**Q4**: Why is backward hip movement critical during the standing phase, and what happens without it?
-**A**: Backward hip movement creates distance between you and the opponent, which is essential for preventing them from re-establishing guard hooks, pulling you back into entanglement, or following your standing motion with their own attacks. Without backward hip movement, rising straight up keeps you within the opponent's reach and control range, allowing them to easily re-catch your legs, sit up into your base, or establish new grips that compromise your standing position.
-
-**Q5**: When is standing up from ashi garami the optimal tactical choice versus continuing the leg lock exchange?
-**A**: Standing up is optimal when the leg lock exchange has stalled with the opponent maintaining strong defensive positioning that prevents hierarchy advancement, when you recognize a bilateral threat where the opponent's counter-attacks are more dangerous than your offensive options, when you want to reset the engagement from a different entry angle, or when energy management considerations favor disengagement over continued ground exchange. It is not optimal when you have clear advancement pathways or finishing opportunities available.
-
-**Q6**: What frames should you establish before releasing your hooks, and where should they be placed?
-**A**: Primary frames should be placed against the opponent's near hip or knee to create a structural barrier preventing them from closing distance during the standing motion. Secondary frames can be posted on the mat behind you to support the hip drive. Frames must be established before any hooks are released because they replace the control that hooks provided—without frames in place, releasing hooks gives the opponent complete freedom to immediately attack or follow your movement.
-
-**Q7**: Your opponent pulls open guard as you complete the stand-up—how do you respond?
-**A**: Accept the open guard top position rather than trying to force complete disengagement. Immediately establish passing grips on their legs or pants, maintain proper posture with hips back and chest up, and begin a systematic passing sequence. The transition from ashi garami bottom to open guard passer is a legitimate tactical outcome—you have moved from a bilateral leg lock exchange to a position where you have clear top advantage and can work methodically to advance position.
-
-**Q8**: What role does the standing threat play in the broader ashi garami strategic framework?
-**A**: The standing threat prevents opponents from adopting purely defensive postures in ashi garami by forcing them to maintain active engagement. If an opponent knows you can simply stand up and re-engage from a different angle, they cannot rely on stalling or defensive positioning to neutralize the leg lock threat. This creates a strategic dilemma where defensive inactivity leads to positional reset on the attacker's terms, while active defense creates openings for leg lock advancement through the hierarchy.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Up from Ashi Garami?</p>
 
 Standing up from ashi garami carries moderate injury risk during the leg extraction phase. Avoid explosive ripping motions that could torque your own knee during extraction. If the opponent maintains a heel hook grip during your standing attempt, stop immediately and address the submission threat rather than trying to stand through it—standing with a heel hook engaged dramatically increases rotational force on the knee joint. Always tap early if you feel any heel exposure or rotational pressure during the transition. In training, communicate with your partner about the speed and intensity of standing attempts to prevent accidental knee injuries during the disengagement sequence.
 

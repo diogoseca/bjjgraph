@@ -55,7 +55,7 @@
       "relationship": "Alternative escape option when sweep unavailable"
     },
     {
-      "name": "Kneebar from 50-50",
+      "name": "Kneebar entry",
       "relationship": "Follow-up submission option after achieving top position"
     },
     {
@@ -67,7 +67,7 @@
       "relationship": "Counter position opponent may achieve if they disengage during sweep and re-entangle"
     },
     {
-      "name": "Calf Slicer from 50-50",
+      "name": "Calf Slicer",
       "relationship": "Alternative submission from top 50-50 after successful sweep"
     }
   ],
@@ -202,7 +202,7 @@
         "description": "Apply sweep in live rolling from bottom 50-50. Focus on recognizing real-time opportunities and executing under full resistance and time pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the position reversal sweep from 50-50 bottom?",
         "answer": "The primary goal is to escape the defensive bottom 50-50 position and achieve top control where you gain offensive advantages including heel hook opportunities, kneebar access, and back take options while removing yourself from submission danger."
@@ -330,7 +330,7 @@
         "correction": "If you must post to block rotation, keep your posted arm structurally strong with elbow tight and wrist aligned. Immediately retract the posting arm once rotation pressure stops rather than leaving it extended where opponent can isolate it."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?",
         "answer": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success."
@@ -399,5 +399,5 @@
     "Your hips are mobile enough to create angle for hip elevation—not fully pinned flat by opponent's pressure",
     "Opponent's weight is committed forward or their hands are occupied with heel attack rather than posting for base"
   ],
-  "position_integration": "The position reversal sweep is a cornerstone defensive technique within the bottom 50-50 system. It provides the primary offensive escape pathway when you find yourself on bottom of this symmetrical leg entanglement. The sweep integrates with the complete 50-50 defensive hierarchy: first priority is heel defense, second is inside position recovery, and third is either this reversal sweep or leg extraction to standing. Once on top, you inherit the full offensive toolkit of top 50-50 including Inside Heel Hook, Outside Heel Hook, Kneebar from 50-50, Calf Slicer from 50-50, and Back Take from 50-50. The sweep also chains with counter heel hook attacks—if opponent overcommits defending the sweep, their heel often becomes exposed."
+  "position_integration": "The position reversal sweep is a cornerstone defensive technique within the bottom 50-50 system. It provides the primary offensive escape pathway when you find yourself on bottom of this symmetrical leg entanglement. The sweep integrates with the complete 50-50 defensive hierarchy: first priority is heel defense, second is inside position recovery, and third is either this reversal sweep or leg extraction to standing. Once on top, you inherit the full offensive toolkit of top 50-50 including Inside Heel Hook, Outside Heel Hook, Kneebar entry, Calf Slicer, and Back Take from 50-50. The sweep also chains with counter heel hook attacks—if opponent overcommits defending the sweep, their heel often becomes exposed."
 }

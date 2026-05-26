@@ -30,7 +30,8 @@ CATEGORIES = {
     "Transitions": "content/Transitions",
     "Submissions": "content/Submissions",
     "Principles": "content/Principles",
-    "Systems": "content/Systems"
+    "Systems": "content/Systems",
+    "Learning": "content/Learning"
 }
 
 # Reference fields by category
@@ -71,6 +72,9 @@ REFERENCE_FIELDS = {
     },
     "Systems": {
         "related_content": ["name"]
+    },
+    "Learning": {
+        "related_content": ["name"]
     }
 }
 
@@ -78,7 +82,12 @@ REFERENCE_FIELDS = {
 # No need for separate LINK_COUNT_RANGES dict
 
 def build_content_index():
-    """Build index of all available content files."""
+    """Build index of all available content files.
+
+    For nested files (e.g., Submissions/Kimura/from Guard.json), indexes both
+    the path form ("Kimura/from Guard") and the reconstructed name form
+    ("Kimura from Guard") so references using either format resolve correctly.
+    """
     index = {}
 
     for category, path in CATEGORIES.items():
@@ -86,13 +95,16 @@ def build_content_index():
         if not category_path.exists():
             continue
 
-        # Find all .json files recursively
-        json_files = [
-            str(f.relative_to(category_path)).replace('.json', '')
-            for f in category_path.rglob("*.json")
-        ]
+        entries = set()
+        for f in category_path.rglob("*.json"):
+            rel = str(f.relative_to(category_path)).replace('.json', '')
+            entries.add(rel)
+            # For nested files, also index by space-joined path
+            # "Kimura/from Guard" → also add "Kimura from Guard"
+            if '/' in rel:
+                entries.add(rel.replace('/', ' '))
 
-        index[category] = set(json_files)
+        index[category] = entries
 
     return index
 
@@ -264,10 +276,12 @@ def detect_position_template_type(json_file):
     return 'SINGLE'
 
 def detect_transition_template_type(json_file):
-    """Detect if a Transition/Submission uses DUAL (attacker/defender) or SINGLE (legacy) structure."""
+    """Detect if a Transition/Submission uses FAMILY, DUAL, or SINGLE structure."""
     try:
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
+        if data.get('is_family') and 'variations' in data:
+            return 'FAMILY'
         if 'attacker' in data and 'defender' in data:
             return 'DUAL'
     except (json.JSONDecodeError, FileNotFoundError):
@@ -283,17 +297,11 @@ def load_schema(category_name, json_file=None):
             raise ValueError("Positions category requires json_file parameter for template detection")
 
         template_type = detect_position_template_type(json_file)
-        schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+        schema_path = Path(f"templates/Positions/TEMPLATE-{template_type}.json")
     elif category_name in ("Transitions", "Submissions"):
-        # Check if file uses new attacker/defender structure
-        if json_file:
-            template_type = detect_transition_template_type(json_file)
-        else:
-            template_type = 'SINGLE'
-
-        if template_type == 'DUAL':
-            schema_name = "TEMPLATE-TRANSITION.json" if category_name == "Transitions" else "TEMPLATE-SUBMISSION.json"
-            schema_path = Path(f"templates/{category_name}/{schema_name}")
+        template_type = detect_transition_template_type(json_file) if json_file else 'SINGLE'
+        if template_type in ('DUAL', 'FAMILY'):
+            schema_path = Path(f"templates/{category_name}/TEMPLATE-{template_type}.json")
         else:
             schema_path = Path("templates") / f"{category_name}.json"
     else:
@@ -509,6 +517,7 @@ def validate_transition_outcomes(data, category, content_index, path=""):
         return errors
 
     positions_index = content_index.get("Positions", set())
+    submissions_index = content_index.get("Submissions", set())
     valid_results = {'success', 'failure', 'counter'}
 
     # Validate probability sum
@@ -545,10 +554,11 @@ def validate_transition_outcomes(data, category, content_index, path=""):
             # Normalize: extract position name (first part before Role suffix)
             normalized = to_position.split('/')[0] if '/' in to_position else to_position
 
-            found = normalized in positions_index
+            # Check positions first, then submissions
+            found = normalized in positions_index or normalized in submissions_index
 
             if not found:
-                for existing in positions_index:
+                for existing in list(positions_index) + list(submissions_index):
                     existing_name = existing.split('/')[-1] if '/' in existing else existing
                     if existing_name.lower().replace('-', ' ').replace('_', ' ') == \
                        normalized.lower().replace('-', ' ').replace('_', ' '):
@@ -557,7 +567,7 @@ def validate_transition_outcomes(data, category, content_index, path=""):
 
             if not found:
                 errors.append(
-                    f"{path}outcomes[{i}].to: Position '{to_position}' not found in Positions/"
+                    f"{path}outcomes[{i}].to: '{to_position}' not found in Positions/ or Submissions/"
                 )
 
     return errors
@@ -671,12 +681,18 @@ def validate_name_matches_filename(data, json_file_path, category):
     errors = []
 
     # Get filename without extension
-    filename = Path(json_file_path).stem
+    json_path = Path(json_file_path)
+    filename = json_path.stem
 
     # For SINGLE template files (flat structure)
     if 'name' in data and 'bottom' not in data and 'top' not in data:
-        if data['name'] != filename:
-            errors.append(f"name ('{data['name']}') must match filename ('{filename}')")
+        name = data['name']
+        # For nested submission variants (e.g., Submissions/Americana/from 3-4 Mount.json),
+        # the name is the full form "Americana from 3-4 Mount" while filename is "from 3-4 Mount".
+        # Accept if name ends with filename (family prefix + filename = full name).
+        name_matches = (name == filename) or (name.endswith(f" {filename}") and filename.startswith("from "))
+        if not name_matches:
+            errors.append(f"name ('{name}') must match filename ('{filename}')")
 
     # For DUAL/FAMILY bottom section
     if 'bottom' in data and 'name' in data['bottom']:

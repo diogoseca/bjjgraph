@@ -169,6 +169,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Position Definition
 
+<p class="section-subtitle">What is Pocket Half Guard (Bottom)?</p>
+
 - Deep underhook secured on opponent's far side, with your arm reaching across their back to grip their far lat, armpit, or belt, creating significant control over their upper body rotation and preventing them from establishing dominant chest pressure
 - Bottom leg (same side as trapped leg) actively framing against opponent's near hip with foot pressure, creating the characteristic 'pocket' space that prevents them from advancing to mount while providing leverage for sweeps and maintaining optimal distance
 - Top leg (free leg) locked over opponent's trapped leg in standard half guard configuration, with knee shield option available or leg threaded beneath their thigh, securing the fundamental half guard lock that prevents them from extracting their leg
@@ -182,6 +184,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Pocket Half Guard (Bottom)?</p>
+
 - Opponent trapped in your half guard with one of their legs secured between both of your legs
 - Deep underhook secured on opponent's far side before they establish heavy chest pressure
 - Bottom leg able to create active frame against opponent's near hip
@@ -194,6 +198,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pocket Half Guard?</p>
 
 - Maintain underhook depth at all costs - shallow underhook compromises all offensive options and allows opponent to establish dominant pressure
 - Active bottom leg frame creates the 'pocket' space - passive leg allows opponent to flatten you and neutralize sweeping mechanics
@@ -210,6 +216,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Pocket Half Guard (Bottom)?</p>
+
 **If opponent maintains upright posture and attempts to strip underhook:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 65%)
 - Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 55%)
@@ -222,7 +230,7 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 **If opponent establishes crossface and compromises underhook depth:**
 - Execute **[[Knee Shield Recovery/Attacker|Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to extract trapped leg by extending it:**
@@ -237,6 +245,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pocket Half Guard?</p>
 
 ### 1. Allowing underhook to become shallow or losing underhook grip entirely
 
@@ -276,6 +286,8 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Pocket Half Guard defense?</p>
+
 ### Underhook Depth Maintenance Drill
 
 Partner applies progressive resistance attempting to strip your underhook while you fight to maintain depth. Start at 30% resistance and increase to 70%. Focus on using head pressure, hip movement, and grip adjustments to preserve underhook depth even against stripping attempts. Practice for 3-minute rounds, switching roles.
@@ -283,7 +295,7 @@ Partner applies progressive resistance attempting to strip your underhook while 
 **Duration**: 3 minutes per round, 4 rounds
 
 
-### Pocket Space Creation and Maintenance
+### Pocket Distance Control and Maintenance
 
 From Pocket Half Guard Bottom, partner attempts to flatten your hips and collapse pocket space using forward pressure. You maintain active bottom leg frame and hip mobility to preserve the pocket. Partner gradually increases pressure from 40% to 80%. Focus on hip angle adjustments and active foot pressure against opponent's hip.
 
@@ -315,38 +327,6 @@ Start in Pocket Half Guard Bottom with deep underhook and pocket space establish
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal underhook depth and grip placement for maintaining Pocket Half Guard Bottom?
-**A**: Your underhook must reach completely across the opponent's back, with your hand gripping their far lat, far armpit, or belt line. A grip on just their near shoulder or arm is too shallow and provides insufficient control. The deep grip controls their upper body rotation and prevents them from driving their chest into you. Think of your arm wrapping around their torso, not just reaching under their armpit.
-
-**Q2**: Your opponent starts driving forward pressure to flatten you - what immediate adjustment do you make?
-**A**: Immediately increase your bottom leg frame pressure against their hip while simultaneously pulling with your underhook to create counter-rotation. If the pressure is overwhelming, transition to deep half guard by scooting your hips under them. The key is using their forward pressure as energy for your transition rather than fighting directly against it. Never accept being flattened - always have an escape route in motion.
-
-**Q3**: What are the essential control points that must be maintained to prevent guard passing?
-**A**: Three critical control points: 1) Deep underhook with grip on far side of opponent's back, 2) Bottom leg actively framing against their near hip to maintain pocket space, and 3) Half guard leg lock trapping their leg between both of yours. Losing any one of these compromises the position - losing the underhook allows flattening, losing the pocket frame allows advancement, and losing the leg lock allows them to extract and pass.
-
-**Q4**: How do you shut down the opponent's primary crossface and pressure pass attempt?
-**A**: Prevention is critical - use your head positioned tight on the underhook side to create a barrier against the crossface. Your forehead should be against their ribs or chest, making it physically difficult for them to thread their arm across your face. If they begin establishing crossface, immediately create angle by turning into your underhook and threatening the Old School sweep, which forces them to abandon the crossface to defend.
-
-**Q5**: Your opponent begins stripping your underhook - what is the correct response?
-**A**: First, reinforce your underhook grip by pulling your elbow tighter to your body and re-gripping deeper on their back. If they're successfully stripping it despite resistance, do not accept a shallow underhook position. Instead, immediately transition to an alternative guard (knee shield, butterfly hooks, or deep half) where you have defensive options without relying on the underhook. Fighting to maintain a compromised underhook is worse than transitioning to a fresh position.
-
-**Q6**: What base fundamentals keep your hip mobile and prevent flattening in this position?
-**A**: Keep your bottom hip slightly elevated off the mat rather than completely pinned down. Your bottom leg frame against their hip creates the space for this elevation. Avoid having your shoulders flat and squared to the ceiling - maintain a slight angle toward your underhook side. Active hip movement is essential; if you feel yourself being flattened, immediately shrimp or hip escape to create angle before you're completely pinned.
-
-**Q7**: How do you manage energy expenditure while maintaining offensive threat from bottom?
-**A**: Use grip positioning and skeletal alignment rather than constant muscular effort. Your underhook should hang on their body using your grip, not continuous pulling force. Save explosive energy for actual sweep attempts rather than constant resistance. Threaten sweeps with positioning and angles rather than repetitive failed attempts. If you're breathing heavily in this position, you're working too hard - refine your structure.
-
-**Q8**: The opponent partially passes but you maintain half guard - how do you recover full Pocket Half Guard position?
-**A**: First priority is preventing further advancement by maintaining your half guard leg lock. Then work to recover your underhook by framing against their shoulder with your free arm to create space, then swimming your arm back to underhook position. Simultaneously use hip escapes to recreate angle and reestablish your bottom leg frame. The sequence is: stop advancement, create space, recover underhook, reestablish pocket frame.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

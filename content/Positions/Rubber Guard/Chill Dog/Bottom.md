@@ -173,6 +173,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Position Definition
 
+<p class="section-subtitle">What is Chill Dog (Bottom)?</p>
+
 - Bottom practitioner maintains hands and knees contact with mat, weight distributed evenly across four points creating stable base that resists rolling and flattening attempts
 - Elbows remain pressed tight against inside of knees throughout position, creating closed defensive frame that prevents opponent hook insertion and harness grip establishment
 - Back stays rounded with head tucked between shoulders, chin to chest, removing opponent's ability to use spine as lever for control or drive weight forward to flatten
@@ -185,6 +187,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Chill Dog (Bottom)?</p>
 
 - Guard has been passed or bottom player has been swept to top position
 - Bottom player has turned to turtle to prevent being flattened to back or side control
@@ -200,6 +204,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Chill Dog?</p>
+
 - Elbow-to-knee connection is non-negotiable - this closed frame prevents all primary turtle attacks
 - Rounded back with tucked head removes opponent's leverage points and protects neck from chokes
 - Forward weight distribution on hands prevents opponent from rolling or flipping you over
@@ -214,6 +220,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Chill Dog (Bottom)?</p>
 
 **If opponent establishes strong chest pressure and attempts to flatten turtle:**
 - Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
@@ -248,6 +256,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Chill Dog?</p>
 
 ### 1. Keeping hips too high and weight back on heels
 
@@ -292,6 +302,8 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Chill Dog defense?</p>
+
 ### Chill Dog Position Hold
 
 Partner applies varying levels of pressure and attack attempts while defender maintains proper Chill Dog posture. Focus on keeping elbows to knees, head tucked, and base solid for 2-minute rounds. Partner progresses from light pressure to aggressive back take attempts.
@@ -331,38 +343,6 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three critical elements that must be maintained simultaneously in Chill Dog Bottom?
-**A**: The three critical elements are: tight elbow-to-knee connection (creates closed defensive frame preventing hooks and harness), rounded back with tucked head (removes leverage points and protects neck), and forward weight distribution on hands (prevents rolling or flipping). When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls. All three must be maintained continuously until you execute your escape.
-
-**Q2**: Your opponent suddenly increases chest pressure and drives you toward the mat - what adjustment do you make?
-**A**: This increased forward pressure is actually the ideal trigger for a Granby roll. Their forward weight commitment means their base is compromised backward. Widen your knees slightly to absorb the initial pressure spike, then explosively tuck your inside shoulder and roll diagonally away from the pressure direction. Their committed weight helps accelerate your roll. If the Granby angle is blocked, hip escape laterally to prevent flattening while keeping your defensive frame intact, then immediately work to recover guard.
-
-**Q3**: Why is the elbow-to-knee connection considered non-negotiable in Chill Dog?
-**A**: The elbow-to-knee connection creates a closed defensive frame that prevents all primary turtle attacks. With elbows tight to knees, opponents cannot insert hooks for back control, cannot establish the harness grip needed for seatbelt control, cannot isolate your arms for crucifix, and cannot drive wedges to flatten you. The moment your elbow separates from your knee, you create a gap that skilled opponents will immediately exploit. This connection is the foundation of the entire defensive structure.
-
-**Q4**: You feel the opponent's weight shift to your left side as they begin circling - which escape do you prioritize?
-**A**: When the opponent shifts weight to one side, you have two primary options based on distance. If they are close and their weight is committed laterally, turn into them on the opposite side and sit through to butterfly guard, using their lateral commitment against them. If they are creating distance as they circle, execute a technical stand-up on the open side where their pressure is lightest. The key is escaping toward the side they have vacated - their weight commitment to one side necessarily weakens control on the other.
-
-**Q5**: How do you recover if the opponent begins to establish back control hooks?
-**A**: If one hook is inserted, immediately turn your hips toward that hook to prevent the second hook and begin escaping to half guard by framing against their choking arm and shrimping. If they're establishing the harness grip, grab the choking arm with both hands before the grip is locked and work to strip it while creating space. If both hooks are in, the Chill Dog position is lost - transition to back escape protocols by protecting your neck, creating frames, and working to remove hooks one at a time while turning into them.
-
-**Q6**: What determines which escape you should attempt from Chill Dog Bottom?
-**A**: The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them.
-
-**Q7**: How do you manage energy while maintaining the defensive frame under sustained pressure?
-**A**: Use selective tension - keep the defensive frame tight with elbows pressed to knees and back rounded, but keep non-essential muscles relaxed. Breathe rhythmically through your nose, exhaling during pressure spikes rather than holding your breath. Your arms and frame should be structurally strong through proper positioning rather than muscular effort. Avoid pushing back against the opponent's pressure, which wastes energy. Instead, let the compact shape distribute their weight while you wait for the right moment to escape. Sustained tension drains your gas tank in under a minute, while structural framing can last several minutes.
-
-**Q8**: Your opponent grabs your far wrist and starts pulling it across your body - what is happening and how do you respond?
-**A**: This is the setup for a crucifix or arm isolation attack. Immediately pull the threatened arm back toward your body and press the elbow tight to your ribs. If the grip is already established, roll your body toward the trapped arm (not away from it) to prevent them from completing the arm isolation. Simultaneously, use your free hand to fight their grip on your wrist. If you cannot strip the grip, commit to a forward roll toward the trapped arm side to scramble out before they establish full crucifix control. Never let them extend your arm away from your centerline.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

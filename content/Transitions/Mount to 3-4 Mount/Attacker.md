@@ -188,6 +188,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mount to 3-4 Mount?</p>
+
 - Load weight onto the mounted side before extracting the opposite leg—the opponent must feel increased pressure, not decreased, during transition
 - Establish a controlling grip or underhook before changing your base to prevent opponent from exploiting the transition window
 - Extract the leg in a smooth arc close to the opponent's body rather than lifting high, which creates space and telegraphs your intention
@@ -202,6 +204,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mount to 3-4 Mount?</p>
+
 - Stable mount position with hips heavy on opponent's torso and no active escape in progress
 - At least one controlling grip established—collar, crossface, wrist, or underhook—to anchor pressure during leg extraction
 - Opponent's bridge has been neutralized or their hips are controlled, preventing explosive escape during the transition window
@@ -213,6 +217,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mount to 3-4 Mount step by step?</p>
 
 1. **Assess defensive posture**: From settled mount, observe the opponent's arm positioning and framing. Identify which side they are directing defensive effort toward—this determines which leg you will extract. If they frame strongly on your left side, you will extract your right leg to post, creating 3-4 Mount with your left knee remaining mounted on their weaker defensive side.
 2. **Establish controlling grip**: Secure a dominant grip on the side where you will maintain the mounted knee. A cross-collar grip, underhook, or wrist pin works effectively. This grip serves as your anchor point—it maintains pressure and prevents the opponent from turning into you during the leg extraction phase. Without this grip, the transition becomes significantly riskier.
@@ -242,6 +248,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mount to 3-4 Mount?</p>
+
 - **Opponent hip escapes toward the extraction side during leg movement** (Effectiveness: High) - Your Response: Immediately abandon the extraction and re-settle standard mount. Drive both knees back inside and flatten your hips to kill their hip movement. Retry the transition only after re-establishing settled pressure and neutralizing their escape angle. → Leads to [[Positions/Half Guard]]
 - **Opponent bridges explosively the moment they feel weight shift** (Effectiveness: Medium) - Your Response: Use the posting leg to absorb the bridge by driving your foot into the mat and riding the upward movement. Keep your grip anchor tight and let the bridge energy pass underneath you. If the bridge is exceptionally strong, post your free hand on the mat for additional base and re-settle once the bridge collapses. → Leads to [[Positions/Mount]]
 - **Opponent inserts knee shield or elbow frame during the transition window** (Effectiveness: High) - Your Response: If the frame is shallow, drive your mounted knee over it using hip pressure and complete the transition. If the frame creates significant space, abandon the 3-4 attempt, fight the frame with crossface and underhook pressure, and re-establish standard mount before reattempting. → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mount to 3-4 Mount?</p>
 
 ### 1. Extracting the leg without first shifting weight to the mounted side
 
@@ -292,6 +302,8 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mount to 3-4 Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and cooperative drilling of leg extraction mechanics
 Practice the weight shift and leg extraction sequence with a compliant partner. Focus on maintaining chest contact throughout, developing the low-arc knee extraction path, and establishing stable posted foot position. Perform 20 repetitions per side with zero resistance, prioritizing smooth coordination over speed.
 
@@ -309,42 +321,12 @@ Start from settled mount with full resistance. Practitioner must read the oppone
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you shift weight to the mounted side before extracting the posting leg?
-**A**: The weight shift ensures the opponent feels increased pressure during the transition rather than a momentary reduction in control. Without loading weight onto the mounted side first, extracting a leg creates a pressure vacuum that gives the opponent a window for hip escape or frame insertion. The weight transfer also pre-loads the mounted knee for the consolidation drive that follows extraction, making the entire sequence feel like one continuous pressure application rather than a disjointed position change.
-
-**Q2**: Your opponent has both elbows tight defending collar choke attempts from mount. How does this create an opportunity for the 3-4 Mount transition?
-**A**: When both elbows are tucked tight, the opponent's arms are committed to neck defense and cannot establish frames or grips to exploit your base change. Their tight arm positioning also means they cannot insert knee shields during the extraction window. This defensive posture creates an ideal transition opportunity because the primary counters to the 3-4 Mount entry—framing, gripping your leg, and knee insertion—are all neutralized by their elbow-tight position. Transition to 3-4 Mount, then attack the Americana or armbar that their elbow position exposes.
-
-**Q3**: What is the critical difference between a high-arc and low-arc knee extraction, and why does it matter?
-**A**: A high-arc extraction lifts the knee upward and over the opponent's hip, creating visible space between your body and theirs that telegraphs the movement and allows frame insertion. A low-arc extraction slides the knee outward along the mat surface, maintaining proximity to the opponent's body throughout the movement. The low arc matters because it preserves the seal between your hip and their torso, preventing the gap that experienced opponents exploit for knee shield insertion or hip escape initiation. The difference in outcome is significant—high-arc extraction fails against competent defenders approximately twice as often as low-arc technique.
-
-**Q4**: Your opponent begins a strong hip escape toward your right side as you attempt to extract your right leg. What is your immediate response?
-**A**: Immediately abort the extraction and drive both knees back inside to standard mount. Drop your hips and flatten your weight onto their torso to kill the hip escape momentum. Re-establish settled mount pressure, then wait for the opponent to settle before reattempting. Continuing the extraction into an active hip escape compounds their movement with your base change, creating a high probability of losing mount entirely. The correct response is always to prioritize position retention over completing a transition that has been countered.
-
-**Q5**: Which controlling grip provides the most security during the transition, and why?
-**A**: The crossface (underhook with shoulder pressure into their jaw) provides the most security because it controls head position, prevents turning, restricts hip escape on the crossface side, and does not require hand positioning that interferes with the leg extraction. Collar grips are effective but can be stripped during the transition. Wrist pins work but limit your own posting ability. The crossface establishes a structural control point that maintains pressure independent of your lower body configuration, making it the ideal anchor for the base change.
-
-**Q6**: How do you decide which leg to extract for the 3-4 Mount configuration?
-**A**: Extract the leg on the side where the opponent is directing their defensive energy and frames. If they are framing strongly on your left side, extract your right leg and post it, keeping your left knee mounted on their weaker defensive side. This principle ensures your mounted knee faces minimal resistance while the posted leg is on the side where the opponent has already committed their defensive structure. Additionally, consider your intended follow-up attack—if you want to set up an armbar on their right arm, mount with your left knee and post your right leg to create the correct angle.
-
-**Q7**: What happens if you attempt the transition when the opponent is actively bridging?
-**A**: Changing your base configuration during an active bridge is extremely dangerous because you are voluntarily reducing your contact points while the opponent is generating maximum upward force. The bridge displaces your center of gravity upward while the leg extraction removes one of your stabilizing contact points simultaneously, creating compounding instability. The likely result is losing mount entirely—either through a successful bridge-and-roll reversal or the opponent creating enough space to recover half guard or full guard. Always wait for the bridge to fail and the opponent to settle before initiating the transition.
-
-**Q8**: After completing the transition to 3-4 Mount, what is the most important consolidation action?
-**A**: Driving the remaining mounted knee deeper into the opponent's ribs or armpit is the most critical consolidation action. This wedging motion eliminates any residual space created during the transition window and establishes the characteristic directional pressure of 3-4 Mount. Without this consolidation drive, the mounted side remains loose enough for the opponent to insert frames or begin shrimp escapes. The knee drive should be combined with forward chest pressure to create a heavy, settled position before considering any subsequent attacks or transitions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mount to 3-4 Mount?</p>
 
 The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions.
 

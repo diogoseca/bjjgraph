@@ -32,7 +32,7 @@ description: "Master the attacker perspective for the Inverted Lasso Sweep. Step
     },
     {
       "@type": "HowToStep",
-      "name": "Read Weight Distribution",
+      "name": "Read Center of Gravity",
       "text": "Before committing to the sweep, assess whether the opponent's weight is forward, neutral, or backward. Forward weight is ideal as it feeds directly into the overhead mechanics. Neutral weight can be drawn forward with a subtle sleeve pull. Backward weight signals you should switch to berimbolo entry instead. This read takes less than one second but determines your attack selection entirely.",
       "position": 3
     },
@@ -188,6 +188,8 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inverted Lasso Sweep?</p>
+
 - Maintain continuous lasso hook tension throughout the entire sweep motion, as any slack allows the opponent to extract their arm and collapse the lever system
 - Generate sweep force through hip extension and body rotation rather than isolated arm or leg pulling, connecting the kinetic chain through the lasso fulcrum
 - Time the sweep to coincide with the opponent's forward weight commitment, using their own momentum to multiply the sweep's effectiveness
@@ -202,6 +204,8 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inverted Lasso Sweep?</p>
+
 - Lasso hook fully threaded through opponent's arm with shin pressing against their tricep and foot crossing their back
 - Same-side sleeve grip secured with palm-up control preventing the opponent from retracting their lassoed arm
 - Inverted position established with body weight distributed across shoulder blades and upper back, never on the neck
@@ -215,9 +219,11 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Inverted Lasso Sweep step by step?</p>
+
 1. **Establish Inverted Position**: From standard lasso guard with hook and sleeve grip secured, initiate a controlled backward roll onto your shoulders while maintaining constant tension on the lasso hook. Distribute weight across the shoulder blades and upper back with chin tucked to chest, never loading the cervical spine. The roll must be fluid and committed rather than hesitant, as partial inversions telegraph the technique.
 2. **Set Free Leg Position**: Post the non-lasso foot firmly on the opponent's hip or near-side thigh, creating a secondary control point that prevents them from stepping laterally to change the sweep angle. This foot serves as your steering mechanism throughout the sweep, directing where the opponent's weight travels. The posting pressure should be active and adjustable, not passive.
-3. **Read Weight Distribution**: Before committing to the sweep, assess whether the opponent's weight is forward, neutral, or backward. Forward weight is ideal as it feeds directly into the overhead mechanics. Neutral weight can be drawn forward with a subtle sleeve pull. Backward weight signals you should switch to berimbolo entry instead. This read takes less than one second but determines your attack selection entirely.
+3. **Read Center of Gravity**: Before committing to the sweep, assess whether the opponent's weight is forward, neutral, or backward. Forward weight is ideal as it feeds directly into the overhead mechanics. Neutral weight can be drawn forward with a subtle sleeve pull. Backward weight signals you should switch to berimbolo entry instead. This read takes less than one second but determines your attack selection entirely.
 4. **Generate Rotational Force**: Simultaneously extend the lassoed leg upward while pulling downward with the sleeve grip and pushing with the free leg, creating a rotational force couple that lifts the opponent's center of gravity above the fulcrum point. The power comes from hip extension driving through the lasso hook, not from arm strength pulling the sleeve. Your entire body acts as a lever with the shoulders as the pivot point.
 5. **Direct Sweep Trajectory**: As the opponent begins to lift, use the free leg to steer their body laterally so they land flat on their back rather than rolling through to a recoverable position. The steering direction should angle slightly to the side opposite the lasso, preventing them from posting with their free hand. This directional control is what separates clean mount finishes from scramble situations.
 6. **Follow Through to Mount**: As the opponent is swept overhead and their back approaches the mat, immediately hip forward out of the inverted position and transition to mount. Drive your hips onto their hips before they can establish any frames or defensive structures. The follow-through must be seamless with no pause between sweep completion and mount establishment, as any gap allows guard recovery.
@@ -243,6 +249,8 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inverted Lasso Sweep?</p>
+
 - **Opponent sits weight backward and drops hips low to resist the overhead lifting force** (Effectiveness: High) - Your Response: Immediately switch to berimbolo entry by threading the free leg behind their back. Their retreated weight makes berimbolo rotation significantly easier since their center of gravity is already moving in the direction of the back take. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **Opponent strips the sleeve grip using a two-on-one grip break, severing the pulling connection** (Effectiveness: High) - Your Response: Immediately re-grip the sleeve before they extract the lassoed arm, or transition to omoplata or triangle entry using the remaining lasso hook to control their posture while you set up the submission angle. → Leads to [[Positions/Open Guard]]
 - **Opponent steps laterally to change the sweep angle and avoid the overhead trajectory** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation to maintain the sweep angle, or convert to De La Riva hook on their lead leg and transition to a different guard system that addresses their new angle. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inverted Lasso Sweep?</p>
 
 ### 1. Releasing lasso hook tension during the sweep motion as the body extends
 
@@ -293,6 +303,8 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inverted Lasso Sweep (Attacker)?</p>
+
 **Phase 1: Inversion Mechanics** - Safe inversion technique and lasso hook maintenance
 Practice inverting from lasso guard with maintained hook tension against a stationary partner. Focus on smooth shoulder rolls with proper weight distribution across the upper back, chin tucked, never loading the neck. 20 repetitions per session building body awareness for the inverted position.
 
@@ -313,42 +325,12 @@ Positional sparring starting in established inverted lasso guard with escalating
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Inverted Lasso Sweep?
-**A**: The optimal timing is when the opponent commits their weight forward, either through intentional pressure passing or reactive forward lean while addressing the guard. Forward weight transfers the opponent's center of gravity ahead of their base, making the overhead sweep dramatically more effective as the lasso hook only needs to redirect existing momentum rather than generate lift from neutral. Watch for the opponent's shoulders moving ahead of their hips as the primary timing cue, which typically occurs when they reach toward your grips or attempt to establish passing pressure.
-
-**Q2**: What conditions must exist in your guard before you can attempt the Inverted Lasso Sweep?
-**A**: Four conditions must be met simultaneously: the lasso hook must be fully threaded with shin pressure on the opponent's tricep and foot across their back creating a solid mechanical connection; the same-side sleeve grip must be secured preventing arm retraction; the inversion must be completed with weight on shoulders rather than neck; and the free leg must be positioned on the opponent's hip for steering and force multiplication. Missing any single element significantly reduces sweep probability and may leave you in a vulnerable inverted position without offensive capability.
-
-**Q3**: What is the most critical mechanical detail that generates sweep force in this technique?
-**A**: The force comes from simultaneous hip extension upward through the lassoed leg combined with downward pulling through the sleeve grip, creating a rotational couple that lifts the opponent over the fulcrum point. The body acts as a unified lever system where the shoulders serve as the pivot, the lassoed leg generates the lifting force, and the sleeve grip prevents the opponent from posturing away. This whole-body mechanical advantage dramatically exceeds what isolated limb strength can produce, which is why connecting body rotation to grip tension is essential.
-
-**Q4**: What is the most common failure point during the Inverted Lasso Sweep execution?
-**A**: The most common failure point is losing lasso hook tension during the sweep motion itself. As the body extends and rotates through the sweep arc, practitioners often inadvertently create slack in the lasso connection, allowing the opponent to retract their arm mid-sweep. This collapses the entire lever system and strands the attacker in a compromised inverted position. The correction is treating the lasso hook as a fixed mechanical connection that must maintain constant tension regardless of body position changes throughout the sweep's full range of motion.
-
-**Q5**: What grip adjustments should you make if the opponent actively fights your sleeve control during setup?
-**A**: If the opponent actively fights the sleeve grip, first reinforce it with a temporary two-on-one grip to break their resistance, then re-establish single-hand control. If the grip breaks entirely, you must either immediately re-grip before they extract the lassoed arm or transition to an alternative attack that does not require the sleeve connection, such as a triangle entry using the lasso hook to control their posture. Never attempt the sweep without the sleeve grip secured, as the pulling connection is essential for generating the rotational force that powers the overhead trajectory.
-
-**Q6**: Which direction should force be applied during the sweep and why is the angle critical?
-**A**: The primary force direction is upward and slightly diagonal through the lassoed leg extension, combined with downward and lateral pulling through the sleeve grip. This creates a rotational force vector rather than a linear push or pull. The diagonal component is critical because pure vertical lifting allows the opponent to post their free hand and resist, while the rotational aspect takes them off their base laterally where effective posting is geometrically impossible. The free leg on the hip provides the lateral steering that converts vertical lift into the rotational sweep trajectory.
-
-**Q7**: Your opponent successfully defends the overhead sweep by sitting their weight backward. How do you adjust your attack?
-**A**: When the opponent sits weight back to defend the overhead sweep, immediately transition to a berimbolo entry by threading the free leg behind their back and initiating hip rotation toward their back. Their retreated weight posture makes berimbolo rotation significantly easier because their center of gravity has already shifted backward, reducing their ability to drive forward to prevent the rotation. This creates the fundamental inverted lasso dilemma: defending the sweep enables berimbolo, defending berimbolo enables the sweep. Reading this weight shift and switching attacks within one second is the key skill.
-
-**Q8**: If the sweep is partially completed but the opponent begins recovering guard before you establish mount, what chain attack follows?
-**A**: If the opponent is partially swept but begins recovering before you establish mount, immediately transition to knee on belly or side control rather than fighting for full mount from a compromised angle. From knee on belly you maintain the positional advantage gained from the partial sweep while threatening submissions and further advancement. Alternatively, if the opponent turtles during their recovery attempt, follow with a back take by securing seat belt grip and inserting hooks. Never abandon the positional gain by resetting to neutral when partial completion still offers advancement opportunities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inverted Lasso Sweep?</p>
 
 The Inverted Lasso Sweep involves inverted body positioning that places significant load on the cervical spine and shoulders. Always distribute weight across the shoulder blades and upper back rather than concentrating force on the neck vertebrae. Beginners should develop inversion comfort through progressive shoulder roll drills before attempting this technique under resistance. Training partners should avoid explosive stacking responses that could compress the inverted practitioner's spine. If any neck or shoulder discomfort occurs during drilling, immediately abandon the inverted position and return to upright guard. Controlled repetition at reduced intensity is essential before integrating into live sparring.
 

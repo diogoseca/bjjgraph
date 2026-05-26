@@ -164,6 +164,8 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg X Transition?</p>
+
 - Bottom player's hand reaches for and grips your near-side ankle or heel while in Grasshopper Guard
 - Bottom player's outside leg begins circling or shooting around the back of your near leg
 - You feel pulling tension on your ankle combined with the bottom player's hips tightening against your thigh
@@ -176,6 +178,8 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg X Transition?</p>
 
 - Recognize the entry attempt before the leg threading begins - ankle grip establishment is the earliest warning sign
 - Deny hip contact by maintaining distance or driving your knee forward past their threading angle
@@ -191,6 +195,8 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg X Transition?</p>
 
 ### 1. Sprawl and drive hips back immediately to remove your leg from threading range
 
@@ -228,6 +234,8 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg X Transition?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Disrupt the entry early by sprawling, stepping back, or posting on hips before the X configuration locks in. Strip the ankle grip whenever possible to remove the anchor enabling the transition. Maintain distance and one free leg behind you as an escape route. Reset to your passing game from standing once the entry is denied.
@@ -243,6 +251,8 @@ Exploit the high energy cost of Grasshopper Guard by forcing the bottom player t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg X Transition?</p>
 
 ### 1. Pulling your trapped leg straight backward in a panic when you feel the threading begin
 
@@ -277,6 +287,8 @@ Exploit the high energy cost of Grasshopper Guard by forcing the bottom player t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg X Transition?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner establishes Grasshopper Guard and slowly initiates the Single Leg X entry. Focus purely on recognizing the ankle grip and threading cues, then executing sprawl or step-back responses. No resistance from the top player initially - build pattern recognition and reaction speed at controlled pace.
 
@@ -293,29 +305,6 @@ Full resistance positional rounds starting with partner in Grasshopper Guard. Ap
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Single Leg X Transition is being attempted?
-**A**: The earliest cue is the bottom player's hand reaching for and establishing a grip on your near-side ankle or heel while in Grasshopper Guard. This ankle grip is the anchor enabling the entire transition. Recognizing this grip attempt before it is secured gives you the maximum defensive window to sprawl, step back, or strip the grip before the threading phase begins.
-
-**Q2**: Why is pulling your trapped leg straight backward a poor defensive response?
-**A**: Pulling straight backward often completes the entanglement for the opponent because the backward trajectory drives your leg deeper between their threading legs and into the X configuration. The bottom player's grip on your ankle converts your own pulling force into the threading motion they need. Instead, circle your leg outward while stripping the ankle grip, which removes the leg from the threading angle rather than driving it through.
-
-**Q3**: When is the optimal moment to commit forward pressure as a defensive counter?
-**A**: Commit forward pressure only when you detect signs of inversion weakness: hips dropping toward the mat, slower adjustment to your circling, visible core fatigue, or the bottom player losing shoulder-base contact. Their Grasshopper Guard is unsustainable and the window where their core fails is when your smash pass has the highest success rate. Forward pressure against a strong inversion feeds directly into their sweep and entry mechanics.
-
-**Q4**: Your opponent has established ankle control but has not yet started threading - what should you do?
-**A**: This is the optimal defensive window. Immediately address the ankle grip by using your same-side hand to strip it while simultaneously stepping your targeted leg backward and to the outside. If you cannot strip the grip, sprawl your hips back to create distance that prevents their outside leg from reaching around yours. Do not wait for the threading to begin - every fraction of a second you delay reduces your defensive options significantly.
-
-**Q5**: How should you manage your base when facing Grasshopper Guard to prevent this transition?
-**A**: Maintain a wide base with one leg forward and one stepped back, knees bent to lower your center of gravity. Keep your weight distributed rather than loaded over either leg. The free leg should always be positioned behind you as an escape route, never parallel with the engaged leg. Circle constantly with small steps to force the bottom player to track your movement, preventing them from setting up the ideal threading angle. Avoid narrow stances or tall postures that make you vulnerable to both sweeps and entanglements.
-
-
-
-</section>
 
 
 </main>

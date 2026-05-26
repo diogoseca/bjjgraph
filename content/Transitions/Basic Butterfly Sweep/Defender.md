@@ -158,13 +158,15 @@ The defensive hierarchy against the butterfly sweep prioritizes prevention over 
 
 Advanced defenders recognize that aggressive butterfly sweep defense creates its own offensive opportunities. When the bottom player commits to a sweep attempt, brief windows open for passing entries, guard smashes, and counter-attacks. The best defenders time their passing movements to coincide with the sweeper's commitment phase, turning defensive scenarios into positional advancement.
 
-**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Basic Butterfly Sweep?</p>
 
 - Opponent shifts hips to create a 45-degree angle relative to your centerline, indicating directional sweep preparation
 - Opponent pulls aggressively on collar or sleeve grips while simultaneously loading weight onto one butterfly hook
@@ -179,6 +181,8 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Basic Butterfly Sweep?</p>
+
 - Maintain strong upright posture with hips back to prevent forward weight commitment over opponent's hooks
 - Fight grips actively to deny the upper body control that enables sweep initiation
 - Keep elbows tight and inside to prevent opponent from establishing underhooks or overhooks
@@ -192,6 +196,8 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Basic Butterfly Sweep?</p>
 
 ### 1. Post hand firmly on the mat on the sweeping side to create structural brace against rotation
 
@@ -229,6 +235,8 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Basic Butterfly Sweep?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Deny the sweep through posting, grip fighting, or sprawling to maintain your top position while the opponent retains butterfly guard. From here you can continue working your passing game with the advantage of having disrupted their offensive rhythm.
@@ -244,6 +252,8 @@ Counter the sweep attempt by stepping over a hook to establish headquarters, sma
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Basic Butterfly Sweep?</p>
 
 ### 1. Leaning forward with weight over opponent's hooks while fighting for grips
 
@@ -278,10 +288,12 @@ Counter the sweep attempt by stepping over a hook to establish headquarters, sma
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Basic Butterfly Sweep?</p>
+
 **Week 1-2: Recognition and Posting Fundamentals** - Learning to identify sweep initiation cues and developing automatic posting reflexes
 Partner executes butterfly sweeps at reduced speed while you focus on recognizing the hip angle shift, grip pull, and hook loading that precede the sweep. Practice posting your hand on the correct side when you feel elevation beginning. Start at 25% speed and progress to 50% by end of week 2. Aim for 20-30 reps per side each session to build automatic posting response.
 
-**Week 3-4: Grip Fighting and Posture Maintenance** - Developing proactive grip denial and maintaining upright posture under pull pressure
+**Week 3-4: Grips and Posture Maintenance** - Developing proactive grip denial and maintaining upright posture under pull pressure
 Positional sparring where partner works exclusively for butterfly sweep grips and posture breaks while you focus on stripping grips, maintaining upright posture, and keeping hips back. Partner provides increasing resistance. Practice the sequence of grip denial to posture recovery to hook clearing as a continuous defensive chain.
 
 **Week 5-8: Counter-Passing During Sweep Defense** - Integrating defensive reactions with offensive passing entries during opponent's sweep attempts
@@ -294,29 +306,6 @@ Open sparring against training partners who specialize in butterfly guard. Focus
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three mechanical elements of the butterfly sweep that you must deny as the defender?
-**A**: The three elements are: hooks providing upward elevation force under your thighs, grips providing rotational pulling force on your upper body, and the hip angle creating directional force toward the sweeping side. As the defender, denying any single element prevents the sweep from completing. The most reliable defensive strategy targets grip denial first since it is the earliest element in the sweep setup, followed by posture maintenance to prevent forward weight commitment, and posting as the last-resort defense when elevation has already begun.
-
-**Q2**: You feel your opponent shift their hips to create an angle while pulling your collar forward - what should your immediate defensive response be?
-**A**: The hip angle shift combined with collar pull indicates imminent sweep initiation. Your immediate response should be to post your hand on the mat on the side they are angling toward, simultaneously driving your hips back to reduce forward weight over their hooks. If possible, break the collar grip by stripping it with your free hand while maintaining the post. After stabilizing, work to re-establish upright posture and begin addressing their grip control to prevent a secondary attempt. Do not try to drive forward into them as this feeds directly into the sweep mechanics.
-
-**Q3**: Why is sprawling sometimes counterproductive as a butterfly sweep defense?
-**A**: While sprawling effectively removes the hook fulcrum by disengaging from the opponent's thighs, it creates distance that skilled butterfly guard players exploit. The distance opens transitions to X-guard, single leg X-guard, and technical standup positions which can be equally or more dangerous than the original butterfly guard. Sprawling is most effective when combined with immediate re-engagement through standing passing or when used against less experienced opponents who lack the transitional game to capitalize on the distance. Against advanced practitioners, posture maintenance and grip denial are often preferable to sprawling.
-
-**Q4**: When is it appropriate to use forward pressure as a defensive strategy against the butterfly sweep?
-**A**: Forward pressure is appropriate only when you have denied the opponent's upper body grips and can establish dominant control such as cross-face with underhook or double underhooks while smashing their butterfly structure flat. Without grip denial, forward pressure feeds directly into the sweep by providing the weight commitment the opponent needs. The timing window for effective pressure is before the opponent establishes their pulling grips and seated posture. Once they have dominant grips and upright position, forward pressure becomes the most dangerous defensive strategy and you should switch to posting, sprawling, or distance management.
-
-**Q5**: How should your defensive approach change when facing a butterfly guard player who chains sweeps with submission attempts?
-**A**: Against a butterfly guard player who integrates submissions like guillotines, kimuras, and arm drags with sweep attempts, your defensive priorities shift. You must protect your neck by keeping chin tucked and posture tall, fight for inside position with your arms to deny underhooks and collar ties, and avoid overcommitting to single-side posting which exposes arms to kimura attacks. The key adaptation is maintaining a more conservative and centered base rather than committing heavily to one side for posting. Use distance management and grip denial as primary defenses rather than hand posting, and time your passing attempts for moments between the opponent's offensive sequences rather than during active sweep-submission chains.
-
-
-
-</section>
 
 
 </main>

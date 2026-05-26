@@ -188,6 +188,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slide from Flattened Half?</p>
+
 - Maintain chest-to-chest pressure throughout the entire knee slide - any lift creates recovery space for the bottom player
 - Create the passing angle through hip displacement before driving the knee across, rather than forcing the knee through direct resistance
 - Drive the crossface deeper as you initiate the slide to compound pressure and prevent the bottom player from turning into the pass
@@ -202,6 +204,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slide from Flattened Half?</p>
+
 - Crossface established with forearm or bicep driving across opponent's face and neck, turning their head away from passing direction
 - Chest-to-chest contact maintained with heavy forward pressure through sternum and ribcage onto opponent's torso
 - Bottom player's frames fully collapsed with no active knee shield or forearm frames between your bodies
@@ -214,6 +218,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slide from Flattened Half step by step?</p>
 
 1. **Confirm crossface and pressure**: Before initiating the slide, verify that your crossface is driving their head away from the passing direction and your chest pressure is fully settled onto their torso. Your weight should flow through your chest and hips, not your arms. Take one breath cycle to confirm these controls are solid before committing to the pass.
 2. **Shift hips toward passing side**: Begin displacing your hips laterally toward the side you intend to pass to. This creates the angular lane your knee needs to travel across the opponent's thigh line. The hip shift should be subtle but deliberate - too dramatic and you telegraph the pass, too small and you lack the angle to clear the hook. Drive this movement through your free leg posting against the mat.
@@ -243,6 +249,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slide from Flattened Half?</p>
+
 - **Bottom player shrimps and re-inserts knee shield during the slide** (Effectiveness: High) - Your Response: Maintain heavy crossface throughout and drop your weight forward immediately when you feel their hip movement. If the knee gets partially inserted, drive your chest over their knee to re-flatten before they establish the shield fully. You may need to reset to flattened half guard and re-attempt. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Bottom player secures deep underhook and threatens sweep during weight transfer** (Effectiveness: Medium) - Your Response: Use your free hand to whizzer their underhook arm immediately and drive your shoulder weight onto their chest to kill the underhook leverage. If the underhook is deep, abandon the knee slide momentarily, re-establish crossface control, and strip the underhook before re-attempting the pass. → Leads to [[Positions/Half Guard]]
 - **Bottom player hooks inside the knee with their outside leg, blocking the slide path** (Effectiveness: Medium) - Your Response: Use a hip switch to change the angle of attack. Briefly shift your hips to face the opposite direction, which clears the hook block, then redirect back to complete the knee slide from the new angle. Alternatively, transition to a crossface pass that goes around their hook rather than through it. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slide from Flattened Half?</p>
 
 ### 1. Lifting chest pressure to create space for the knee slide
 
@@ -293,6 +303,8 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slide from Flattened Half (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Knee angle and hip displacement
 Practice the knee slide motion in isolation without partner resistance. Start in flattened half guard position and slowly walk through the hip shift, knee angle, and slide mechanics. Focus on keeping chest flat while the lower body moves. Perform 20 repetitions per side until the movement pattern is ingrained.
 
@@ -313,42 +325,12 @@ Positional sparring rounds starting from flattened half guard. Top player's obje
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must be established before you can attempt the knee slide from flattened half guard?
-**A**: Before attempting the knee slide, you must have established solid crossface control turning the opponent's head away, chest-to-chest pressure with their back flat against the mat, collapsed frames with no active knee shield between your bodies, and control of the far side through an underhook or shoulder pressure. Attempting the slide without these prerequisites allows the bottom player to defend effectively during the weight transfer.
-
-**Q2**: Why is creating a hip angle critical before driving the knee across?
-**A**: Attempting to drive the knee straight through the half guard hook meets direct resistance from the bottom player's leg grip. Shifting your hips laterally toward the passing side creates an angular lane that converts your forward pressure into a diagonal sliding force. This angle lets the knee shear across the thigh line rather than pushing directly against the hook, making the extraction mechanically efficient and difficult to defend.
-
-**Q3**: Your opponent shrimps and starts to re-insert their knee shield as you begin the slide - how do you respond?
-**A**: Immediately increase your forward crossface pressure and drop your chest weight onto their torso to close the space they created with the shrimp. If their knee is only partially inserted, drive your chest over the knee to re-flatten it before the shield is established. If the knee shield is fully re-inserted, do not force through it. Reset to flattened half guard by re-collapsing their frames, then re-attempt the slide or transition to a smash pass that addresses the knee shield directly.
-
-**Q4**: What is the role of the free non-trapped leg during the knee slide execution?
-**A**: The free leg serves as both the balance platform and the primary driving engine for the pass. It must be firmly posted on the mat with toes dug in to provide a stable base during the weight transfer. During the slide, you push off this foot to generate the forward and lateral momentum that drives the trapped knee across the opponent's thigh line. Without proper free leg posting, you lack the force to complete the extraction and become vulnerable to sweeps during the transition.
-
-**Q5**: Why should you never lift your chest during the knee slide?
-**A**: Lifting the chest creates space between your torso and the opponent's body, which is exactly what the bottom player needs to re-establish defensive frames. Even a momentary lift allows them to insert an elbow, recover a knee shield, or initiate a hip escape that stalls the pass. The knee must travel underneath your settled body weight, driven by hip angle and free leg pushing force rather than by creating space above the opponent's body.
-
-**Q6**: How does the knee slide integrate with other passing options from flattened half guard?
-**A**: The knee slide forms one arm of a passing chain from flattened half guard. If the bottom player defends by blocking the knee path with their hook, you can transition to a crossface pass that goes around their legs rather than through them. If they turn away to prevent the slide, you follow their rotation for a back take. If they extend their arms to push your knee away, their arm isolation opens arm triangle or kimura entries. Each defense to the knee slide opens a different offensive pathway.
-
-**Q7**: What should happen immediately after your knee clears the opponent's leg hook?
-**A**: The instant your knee clears the hook, you must drop your hips to the mat against the opponent's hip. This creates a hip-to-hip seal that prevents them from re-inserting any guard structure. Leaving your hips elevated after clearing the leg is a critical error because it creates space that allows re-guard. The hip drop should be immediate and heavy, a gravity drop not a controlled descent. Only after the hip seal is established should you adjust your upper body grips for side control consolidation.
-
-**Q8**: Your opponent secures an underhook during your knee slide attempt - what are your options?
-**A**: If the underhook is shallow, immediately apply a whizzer with your free arm and increase shoulder pressure to kill their leverage while continuing the slide. If the underhook is deep and they have significant leverage, abort the knee slide temporarily. Reset by driving your shoulder weight down on their chest, strip the underhook using your crossface-side arm, re-establish flattening control, and then re-attempt the pass. Forcing the slide against a deep underhook risks being swept during the weight transfer.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slide from Flattened Half?</p>
 
 The knee slide from flattened half guard carries low injury risk compared to submission techniques but requires awareness of knee safety for both practitioners. The top player should avoid hyperextending the trapped knee by maintaining a controlled slide angle rather than forcing the knee through excessive resistance. The bottom player's knee can be stressed if the top player drives lateral pressure against the hook while the foot is trapped. Both players should communicate if knee pressure becomes uncomfortable. In training, use controlled speed during the slide phase to prevent unexpected torque on either player's knee joints.
 

@@ -217,7 +217,7 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 
 - [[Positions/Dogfight Position]] - Transitional position - often occurs during back take attempt when opponent defends
 
-- [[Transitions/Rear Naked Choke]] - Primary submission - most common finishing technique after successful back take
+- [[Submissions/Rear Naked Choke]] - Primary submission - most common finishing technique after successful back take
 
 - [[Positions/Half Guard/Lockdown]] - Related variation - lockdown half guard provides alternative entry to back take through electric chair threat
 

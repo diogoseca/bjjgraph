@@ -228,7 +228,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Grip Fighting Foundation",
+        "phase": "Phase 1: Grips Foundation",
         "focus": "Two-on-one control and choking arm management",
         "description": "Drill the two-on-one grip establishment from harness bottom in isolation. Partner applies harness grip and slowly attempts to slide choking arm across for rear naked choke. Focus on grip speed, hand placement, and maintaining control under increasing resistance. Practice for 2-minute rounds with progressive resistance from 30% to 70%."
       },
@@ -253,7 +253,7 @@
         "description": "Begin in harness bottom with full back control established. Both players go at 100% intensity. Bottom player attempts escape while top player maintains position and attacks. 90-second rounds with reset. Track escape success rate and identify specific failure points for targeted improvement. Alternate partners to experience different body types and control styles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent has a tight harness grip but their bottom hook is loose—what is the optimal timing to initiate the escape?",
         "answer": "The loose bottom hook is the critical window. Immediately establish your two-on-one grip on the choking arm while using your same-side foot to push their loose hook completely off your thigh. Begin your diagonal hip escape the instant the hook clears. Do not wait for a perfect moment—the loose hook IS the moment. Every second you delay allows them to re-establish the hook or tighten their overall position."
@@ -378,7 +378,7 @@
         "correction": "Recognize when back control is no longer viable and immediately transition to mount. Maintaining mount is far better than losing all positional advantage by stubbornly holding a compromised back position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest tactile cue that indicates your opponent is about to attempt this specific escape?",
         "answer": "The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds."

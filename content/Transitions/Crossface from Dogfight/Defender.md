@@ -154,6 +154,8 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crossface from Dogfight?</p>
+
 - Opponent's whizzer tightens significantly and their elbow pulls close to their ribs, indicating preparation for coordinated crossface pressure
 - Opponent's near shoulder angles toward your face and begins driving forward rather than maintaining neutral dogfight posture
 - Opponent drops their head to the far side of your body, creating the fulcrum angle needed for effective crossface rotation
@@ -165,6 +167,8 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crossface from Dogfight?</p>
 
 - Keep your chin tucked toward your underhook side to prevent the shoulder from getting under your jaw and turning your head
 - Maintain constant forward driving pressure through your underhook to prevent the top player from settling their shoulder into crossface position
@@ -179,6 +183,8 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crossface from Dogfight?</p>
 
 ### 1. Deepen underhook and drive forward explosively before crossface connects
 
@@ -216,6 +222,8 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crossface from Dogfight?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a duck-under or reversal during the crossface attempt, using the opponent's committed weight and forward pressure against them to circle behind or execute a sweep that puts them on bottom
@@ -231,6 +239,8 @@ Preemptively deepen your underhook and drive forward before the crossface connec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crossface from Dogfight?</p>
 
 ### 1. Absorbing the crossface pressure statically without adjusting posture or transitioning
 
@@ -260,6 +270,8 @@ Preemptively deepen your underhook and drive forward before the crossface connec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crossface from Dogfight?</p>
+
 **Phase 1: Recognition** - Identifying crossface setup cues
 Partner slowly demonstrates the crossface setup from dogfight while you practice identifying the visual and tactile cues: whizzer tightening, shoulder angle changing, hip dropping, head shifting. Call out each cue as you recognize it. No resistance—pure perceptual training for recognizing pre-attack signals.
 
@@ -276,26 +288,6 @@ Full resistance positional sparring starting in dogfight. Top player attempts cr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest tactile cues that indicate your opponent is about to attempt a crossface in the dogfight?
-**A**: The earliest cues are a tightening of the whizzer with the opponent's elbow pulling close to their ribs, their near shoulder beginning to angle toward your face rather than maintaining neutral position, and a subtle lowering of their hips signaling preparation for gravitational pressure. You may also feel their head shift to the far side of your body, creating the fulcrum angle needed for the crossface rotation. Recognizing these pre-attack signals gives you a one-to-two-second window to preempt the crossface.
-
-**Q2**: What is the single most important defensive action when you feel crossface pressure being applied in dogfight?
-**A**: The single most important action is tucking your chin toward your underhook side and driving your forehead into the opponent's chest or neck. This prevents the crossface from turning your head—which is the primary mechanism by which the crossface breaks posture. When the head stays turned toward the underhook, the opponent cannot generate the rotational force needed to flatten you. This chin tuck must be combined with continued forward pressure through the underhook.
-
-**Q3**: How can you convert a crossface attempt into a back take opportunity?
-**A**: When the opponent commits heavily to the crossface, they drive their shoulder forward and drop their level, which often creates space behind their body. By ducking your head under the crossfacing shoulder and circling toward their back, you can bypass the pressure entirely and begin establishing back control. The key is timing the duck-under with the moment of maximum commitment—when the opponent has fully loaded their weight into the crossface and cannot quickly change direction to prevent the back take.
-
-**Q4**: Why is maintaining your underhook depth critical when defending against the crossface?
-**A**: The underhook serves as your primary structural support and offensive threat in the dogfight. If you abandon it to defend the crossface with both hands, you lose the mechanical structure that keeps you upright and the offensive threat that forces the opponent to respect your sweeps. The underhook creates a forward driving vector that opposes the crossface pressure, and its depth determines how much leverage you can generate. A deep underhook reaching the far shoulder provides maximum resistance, while a shallow underhook at the hip provides almost none.
-
-
-
-</section>
 
 
 </main>

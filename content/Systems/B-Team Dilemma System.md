@@ -26,7 +26,7 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
     },
     {
       "@type": "HowToStep",
-      "name": "First Dilemma Creation",
+      "name": "First Fork Attacks",
       "text": "Initiate primary attack (typically outside heel hook) to force opponent's first defensive decision. Apply sufficient pressure to create genuine threat while maintaining awareness of defensive reactions that will trigger transitions.",
       "position": 2
     },
@@ -213,7 +213,7 @@ Key points:
 
 
 
-2. **First Dilemma Creation**: Initiate primary attack (typically outside heel hook) to force opponent's first defensive decision. Apply sufficient pressure to create genuine threat while maintaining awareness of defensive reactions that will trigger transitions.
+2. **First Fork Attacks**: Initiate primary attack (typically outside heel hook) to force opponent's first defensive decision. Apply sufficient pressure to create genuine threat while maintaining awareness of defensive reactions that will trigger transitions.
 Key points:
 - Apply outside heel hook mechanics with proper wrist and knee positioning
 - Read opponent's hip rotation and upper body defensive movements
@@ -362,11 +362,11 @@ The B-Team Dilemma System requires specialized drilling that emphasizes transiti
 - [[Straight Ankle Lock]] (Submission) - Offensive submission from 50-50 and standard ashi maintaining attacking pressure
 - [[Kneebar]] (Submission) - Secondary leg submission creating additional defensive dilemmas from various ashi positions
 - [[Rear Naked Choke]] (Submission) - Primary back attack that forces defensive reactions enabling leg re-entry
-- [[Dilemma Creation]] (Principle) - Core conceptual framework underlying entire system methodology
+- [[Fork Attacks]] (Principle) - Core conceptual framework underlying entire system methodology
 - [[Leg Entanglement]] (Principle) - Fundamental positional concept governing leg control and submission mechanics
 - [[Position Chains]] (Principle) - Systematic approach to linking positions through transitional sequences
 - [[Submission Chains]] (Principle) - Conceptual framework for connecting submission attempts into continuous offensive sequences
-- [[Creating Reactions]] (Principle) - Strategic principle of forcing opponent movements that expose positional weaknesses
+- [[Transition Management]] (Principle) - Systematic approach to managing position changes that underpins the dilemma system's transitional framework
 - [[Action and Reaction]] (Principle) - Fundamental concept of using opponent's defensive actions as offensive opportunities
 - [[Craig Jones Leg Lock System]] (System) - Direct predecessor system focusing specifically on leg entanglement mechanics that informed dilemma development
 - [[Danaher Leg Lock System]] (System) - Foundational leg lock methodology providing technical basis for leg entanglement components

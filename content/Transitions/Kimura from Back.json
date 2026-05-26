@@ -51,11 +51,11 @@
       "relationship": "Alternative outcome when opponent successfully counters and escapes triangle"
     },
     {
-      "name": "Armbar from Back with Legs",
+      "name": "Armbar from Back Transition",
       "relationship": "Chain attack when opponent straightens arm to defend kimura"
     },
     {
-      "name": "Triangle Choke Back",
+      "name": "Rear Triangle Choke",
       "relationship": "Primary attack that sets up kimura opportunity through choke defense"
     },
     {
@@ -210,7 +210,7 @@
         "description": "Positional sparring from rear triangle with full resistance. Score points for successful kimura entries, finishes, and smooth transitions when defended. Focus on timing windows during choke defense."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Kimura from Back?",
         "answer": "The primary goal is to submit the opponent via shoulder lock or establish kimura trap control that creates a submission dilemma. When the opponent defends the triangle choke by protecting their neck, the kimura attacks their exposed trapped arm. This forces them to choose between defending the shoulder or the choke, eventually opening one or the other."
@@ -334,7 +334,7 @@
         "correction": "Stay active with constant small movements: grip fighting, hip shifting, and incremental rotation. Make the attacker manage multiple problems rather than focusing purely on finishing"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first thing you should do when you feel the attacker reaching for your trapped arm wrist?",
         "answer": "Immediately use your free hand to strip or block the attacker's C-grip on your wrist before they can thread their other arm to complete the figure-four. The window for prevention is small but far easier than escaping a fully locked kimura. Simultaneously pull your trapped arm tight to your body to reduce the attacker's access to the wrist."

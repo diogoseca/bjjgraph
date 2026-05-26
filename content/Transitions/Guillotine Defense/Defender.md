@@ -154,6 +154,8 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Defense?</p>
+
 - Opponent immediately tucks chin and inserts hand between their neck and your forearm - they are beginning the fulcrum control phase of a systematic defense
 - Opponent steps or sprawls their hips away from your body while maintaining spinal posture - they are creating distance to remove your body leverage
 - Opponent begins circling their body toward your choking arm side with shoulder driving forward - they are executing the head extraction phase and escape is imminent
@@ -166,6 +168,8 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Defense?</p>
 
 - Deny the chin tuck by extending opponent's neck before they can establish the protective frame - wrist-to-throat contact must be deep and centered
 - Maintain hip connection to preserve your body leverage as a secondary fulcrum point against their head
@@ -181,6 +185,8 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Defense?</p>
 
 ### 1. Pull closed guard immediately when you feel their hip distance increasing, locking your feet behind their back to restore hip-to-hip connection and re-establish the body fulcrum
 
@@ -218,6 +224,8 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Defense?</p>
+
 ### → [[Positions/Guillotine Control]]
 
 Pull guard immediately when feeling hip distance creation to restore body leverage, or switch to high-elbow grip when standard choke pressure is reduced. Maintaining the guillotine from closed guard with hip elevation provides the highest percentage finishing position, forcing the defender to address both your guard and the choke simultaneously.
@@ -233,6 +241,8 @@ If the defender begins to neutralize choking pressure but has not completed head
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Defense?</p>
 
 ### 1. Holding the same guillotine grip statically while the defender systematically dismantles it through frame, distance, and circling
 
@@ -262,6 +272,8 @@ If the defender begins to neutralize choking pressure but has not completed head
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Defense?</p>
+
 **Week 1-2: Defense Recognition** - Identifying defensive stages
 Apply guillotine at 50% pressure while partner executes defense slowly. Practice recognizing each defensive stage: chin tuck and frame insertion, fulcrum control, hip distance creation, and circling for head extraction. Call out each stage verbally as you recognize it. Goal is developing real-time awareness of where the defender is in their escape sequence.
 
@@ -278,26 +290,6 @@ Full resistance guillotine attacks during live rolling where partner uses comple
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most dangerous moment for the guillotine attacker during the defender's escape sequence?
-**A**: The most dangerous moment is when the defender begins circling toward the choking arm side with forward shoulder pressure. This is the final phase before head extraction, and if the attacker does not adjust their angle or switch grips at this point, the escape will succeed within seconds. The attacker must either follow the circling motion to maintain alignment, switch to a high-elbow configuration that is harder to circle out of, or pull guard to add leg leverage before the structural breakdown is complete.
-
-**Q2**: Why is pulling guard a critical tool for the guillotine attacker when the defender creates hip distance?
-**A**: Pulling guard restores the attacker's hip connection to the defender's body, re-establishing the body-as-fulcrum leverage that makes the guillotine mechanically sound. Without hip connection, the choke relies solely on arm strength which is insufficient against a properly framed defense. Closed guard also prevents the defender from completing the circling motion that breaks the choke's structural alignment, and hip elevation from guard adds upward force that drives the forearm deeper into the defender's neck.
-
-**Q3**: When should the guillotine attacker abandon the choke and transition to alternative attacks?
-**A**: The attacker should abandon the guillotine when the defender has extracted their head past the forearm fulcrum point, when the defender has established rigid upright posture from top position with the attacker's guard open, or when the attacker's arms are significantly fatigued from sustained squeezing. Holding a dead guillotine from bottom is particularly dangerous as it invites the Von Flue choke and prevents effective guard retention. Better alternatives include transitioning to closed guard, working for underhooks, or switching to anaconda or darce grips if the arm position allows.
-
-**Q4**: How does the arm-in guillotine transition help counter the defender's primary frame?
-**A**: The defender's primary frame involves inserting their near-side hand between their neck and the attacker's forearm. By transitioning to an arm-in guillotine, the attacker traps this defending arm inside the choke, removing the very tool the defender uses to control the fulcrum point. This forces the defender to switch to a completely different escape strategy (circling away from the trapped arm side rather than toward the choking arm side), and many defenders are not prepared for this mid-escape variation change, creating a window for the finish.
-
-
-
-</section>
 
 
 </main>

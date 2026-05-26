@@ -28,7 +28,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish active shin connection with perpendicular angle and constant pressure to compromise opponent's base

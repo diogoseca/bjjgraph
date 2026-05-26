@@ -145,7 +145,7 @@
       },
       {
         "step_number": 5,
-        "action": "Establish Head Control with Far Arm",
+        "action": "Establish Head Position with Far Arm",
         "description": "With the underhook secured and opponent's posture beginning to break, reach your far arm over their head and wrap behind their neck. Pull their head down and across toward the underhook side, collapsing their posture completely. The combined pull of the underhook and head control should bring their chest onto yours with their head turned away from the sweep direction."
       },
       {
@@ -239,7 +239,7 @@
         "description": "Upon establishing Old School, immediately flow into the Old School Sweep or Electric Chair based on opponent's reaction. This phase builds the habit of entering Old School with immediate offensive intent rather than settling into the position. Full resistance 3-minute rounds from half guard bottom."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must the lockdown be established before attempting the underhook?",
         "answer": "The lockdown immobilizes the top player's trapped leg and removes their primary base on that side, which is the mechanical prerequisite for successful underhook entry. Without lockdown, the top player retains full mobility to sprawl, drive crossface, or hip away when the underhook is attempted. The lockdown pumps also create the forward weight shifts that open windows for threading the underhook. Attempting the underhook first against a fully based opponent results in easy defensive counters."
@@ -360,7 +360,7 @@
         "correction": "React immediately upon recognizing the lockdown. The defensive window closes rapidly. Establish whizzer, crossface, and base within 2-3 seconds of feeling the figure-four on your trapped leg."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Transition to Old School is being initiated?",
         "answer": "The earliest cue is feeling the bottom player's foot hook behind your trapped ankle and their legs beginning to triangle into the figure-four lockdown configuration. This is the foundational control of the entire Old School system, and recognizing it immediately gives you the maximum defensive window. Before they can pump, thread an underhook, or establish head control, you should already be deploying your whizzer, crossface, and wide base posting."

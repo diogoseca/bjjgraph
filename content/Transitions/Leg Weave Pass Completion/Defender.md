@@ -154,6 +154,8 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Weave Pass Completion?</p>
+
 - Passer's crossface pressure intensifies and their shoulder begins driving forward into your jaw line
 - Passer's hips start sliding forward with increased weight commitment through the weave position
 - Passer's near-side hand moves to block your far hip, signaling imminent pass completion attempt
@@ -166,6 +168,8 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Weave Pass Completion?</p>
 
 - Recognize the pass completion attempt early through tactile and visual cues before the passer achieves full commitment
 - Maintain active frames against the crossface and chest pressure to preserve the minimum space needed for defensive movement
@@ -180,6 +184,8 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Weave Pass Completion?</p>
 
 ### 1. Frame against crossface and execute explosive hip escape to create space for knee shield insertion
 
@@ -217,6 +223,8 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Weave Pass Completion?</p>
+
 ### → [[Positions/Leg Weave]]
 
 Use frame-based defense with precise hip escaping to prevent the passer from completing the transition. Maintain your far-side hook and reinsert a knee shield or recover half guard frames that force the passer to restart their passing sequence from the leg weave position.
@@ -232,6 +240,8 @@ Time a deep half entry, underhook escape, or knee shield recovery during the pas
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Weave Pass Completion?</p>
 
 ### 1. Waiting too long to initiate defensive response, attempting to defend after the passer has already achieved perpendicular alignment
 
@@ -261,6 +271,8 @@ Time a deep half entry, underhook escape, or knee shield recovery during the pas
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Weave Pass Completion?</p>
+
 **Phase 1: Recognition** - Identifying pass completion initiation cues
 Partner alternates between maintaining leg weave control and initiating the pass completion. Defender practices identifying the moment the completion begins through tactile cues without attempting any defensive response. Build the recognition pattern until you can consistently identify the completion attempt before the passer's hips begin moving.
 
@@ -277,26 +289,6 @@ Start from established leg weave with passer working completion attempts at full
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Leg Weave Pass Completion has been initiated?
-**A**: The earliest cue is the intensification of crossface pressure combined with the passer's near-side hand moving to control your far hip. These two actions signal that the passer is preparing to commit to the completion sequence. The crossface secures head control for the transition, and the hip block prevents your primary defensive mechanism of knee insertion. Recognizing these preparatory movements gives you the maximum window for defensive response.
-
-**Q2**: Why is the deep half entry particularly effective as a counter to this specific pass completion?
-**A**: The deep half entry exploits the passer's committed forward pressure. As the passer drives their weight forward to complete the pass, their base becomes loaded toward your head and shoulders. By threading underneath their base and inverting the weight distribution, you redirect their forward momentum over your body, giving you access to sweeping angles from deep half. The passer cannot easily counter because stopping their forward momentum to address the deep half entry would stall the completion and create space for other defensive options.
-
-**Q3**: Your frames are being stripped and the passer's hips are already halfway through the passing lane - what is your last resort defensive option?
-**A**: When the pass is nearly complete, your best option is to immediately turn into the passer and establish an underhook while driving your hips underneath theirs. Even if this does not fully prevent the pass, it can disrupt the consolidation enough to create a scramble or establish a frame-based defensive position before full side control is achieved. The alternative of accepting flat side control passively is always worse than an imperfect but committed defensive movement at this stage.
-
-**Q4**: How should you manage your energy when defending repeated Leg Weave Pass Completion attempts?
-**A**: Prioritize frame maintenance over explosive escape attempts, as frames are energy-efficient and buy time. Save explosive movements for moments when the passer's base is genuinely compromised during weight transitions. Between the passer's completion attempts, use micro-adjustments to improve your defensive position rather than resting completely, as the passer will use your passivity to reset their attack. Breathe deliberately throughout and avoid the instinct to hold your breath under pressure, which accelerates fatigue dramatically.
-
-
-
-</section>
 
 
 </main>

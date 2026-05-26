@@ -1,0 +1,472 @@
+{
+  "name": "Kimura from Scarf Hold Position",
+  "description": "Master the Kimura from Scarf Hold in BJJ. High-percentage shoulder lock using the perpendicular angle and arm isolation of kesa gatame to finish.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "scarf-hold-position",
+    "kesa-gatame"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Scarf Hold Position",
+  "from_position": "Scarf Hold Position/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Scarf Hold Position exploits the pre-existing arm isolation inherent in kesa gatame to transition directly into a devastating shoulder lock. Unlike kimura attacks from side control or mount where the attacker must first isolate the target arm against active resistance, scarf hold provides this control as a baseline feature of the position. The opponent's near arm is already trapped beneath the attacker's body, eliminating the most difficult phase of kimura execution and creating one of the shortest position-to-submission transitions in grappling.\n\nThe perpendicular seating angle unique to scarf hold creates rotational leverage that differs mechanically from parallel-position kimura applications. The T-shaped body configuration allows the attacker to paint the opponent's hand behind their back using natural torque from the perpendicular angle. This geometric advantage means the finishing rotation requires less physical strength and follows a path that is difficult for the defender to resist through bridging alone, as their hip escape mechanics are already negated by the perpendicular pressure.\n\nThe grip transition from positional control to figure-four submission is minimal. The attacker releases head control to secure the wrist, threads under the upper arm for the figure-four, and begins rotation while maintaining crushing hip pressure that limits defensive movement. This seamless transition makes the kimura from scarf hold a cornerstone technique for practitioners who build their top game around kesa gatame control systems, and it chains naturally with americana and armbar attacks when the initial kimura is defended.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and glenohumeral dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture at the long head",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum rotation in training, allowing partner time to recognize danger and tap before structural damage occurs",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple rapid taps with free hand on any surface)",
+      "Physical foot tap (multiple taps with either foot on the mat)",
+      "Any distress signal including screaming or unusual sounds indicating pain"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant any tap signal is detected",
+      "Slowly return the arm toward neutral position by externally rotating back along the same path",
+      "Release the figure-four grip completely only after the arm reaches neutral",
+      "Allow partner to self-assess shoulder mobility before continuing training",
+      "Never release suddenly or allow the arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled at all times",
+      "Never use competition speed or surprise attacks during training rounds",
+      "Always ensure partner has at least one hand free to deliver a tap signal",
+      "Do not apply while partner is in an awkward body position that prevents tapping",
+      "Never combine with excessive weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing or questioning partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Scarf Hold Position",
+    "Kesa Gatame",
+    "Modified Scarf Hold"
+  ],
+  "related_submissions": [
+    "Americana",
+    "Arm Triangle",
+    "Far Side Armbar",
+    "Kesa Gatame Arm Crush",
+    "Reverse Kimura"
+  ],
+  "related_content": [
+    {
+      "name": "Scarf Hold Position",
+      "relationship": "Primary starting position providing the arm isolation that enables this submission"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Traditional judo terminology for the starting position with identical mechanics"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Primary chain submission when kimura grip is defended by straightening the arm"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position entered when opponent resists the finish and attacker maintains grip"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family from which scarf hold derives its control principles"
+    },
+    {
+      "name": "Modified Scarf Hold",
+      "relationship": "Related starting position with similar kimura mechanics using underhook variation"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Scarf Hold Position/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Figure-Four Kimura from Kesa Gatame",
+      "description": "The classic setup where the attacker releases head control to grip the opponent's trapped wrist, then threads the figure-four underneath the upper arm. Hip pressure is maintained throughout the grip transition, and the finish uses the perpendicular angle to paint the hand behind the opponent's back.",
+      "when_to_use": "When opponent's near arm is fully trapped and they are not actively attempting to extract it, providing a clean wrist grip opportunity."
+    },
+    {
+      "variation_name": "Step-Over Kimura with Head Position",
+      "description": "The attacker steps their far leg over the opponent's head before or during the kimura rotation, adding a second control point that prevents the opponent from sitting up or rolling with the pressure. This variation sacrifices some base for dramatically increased finishing control.",
+      "when_to_use": "When opponent is strong enough to resist standard rotation or begins rolling toward attacker to relieve pressure."
+    },
+    {
+      "variation_name": "Americana-to-Kimura Conversion",
+      "description": "Begin with an americana attack by rotating the wrist toward the mat. When the opponent defends by straightening their arm or rotating their shoulder, redirect into the kimura by switching the rotational direction and threading the figure-four from the opposite side. The defensive reaction to the americana creates the opening for the kimura grip.",
+      "when_to_use": "When the initial americana attempt is defended through arm straightening or the opponent begins powering out of the standard rotational direction."
+    }
+  ],
+  "attacker": {
+    "name": "from Scarf Hold Position Attacker",
+    "description": "Step-by-step guide to attacking the Kimura from Scarf Hold. Grip transitions, finishing mechanics, counter-responses, and training drills for this high-percentage shoulder lock from kesa gatame.",
+    "overview": "Attacking the Kimura from Scarf Hold Position leverages the pre-existing arm isolation of kesa gatame to create one of the most efficient position-to-submission transitions in grappling. The key lies in managing the grip change from head control to figure-four without sacrificing hip pressure or allowing the opponent to extract their trapped arm. The perpendicular angle provides natural rotational leverage that amplifies finishing power while the opponent's defensive options remain constrained by weight distribution and limited mobility. Success depends on smooth grip transitions, patient rotation, and the ability to chain into americana or armbar attacks when the initial kimura is defended.",
+    "key_principles": [
+      "Maintain heavy hip pressure throughout the entire grip transition to prevent the opponent from exploiting the momentary loss of head control",
+      "Secure the wrist grip before attempting to thread the figure-four, ensuring the arm remains bent and trapped",
+      "Use your entire torso as the power source for rotation rather than relying on arm and grip strength alone",
+      "Keep the figure-four tight against your own chest throughout the rotation to maximize mechanical advantage",
+      "Control the finishing speed progressively, recognizing that the perpendicular angle amplifies rotational force beyond what parallel positions generate",
+      "Chain immediately to americana if the opponent straightens their arm, converting their defense into a different submission opening"
+    ],
+    "setup_requirements": [
+      "Consolidated kesa gatame with heavy hip pressure driving into opponent's ribcage and opponent's near arm fully trapped",
+      "Head control secured with far arm wrapped around opponent's head, preventing bridging and turning",
+      "Opponent's trapped arm bent at approximately 90 degrees with their elbow accessible for the figure-four thread",
+      "Stable base with legs positioned to resist bridge-and-roll attempts during the grip transition phase",
+      "Opponent's far arm accounted for to prevent them from framing or posting during your grip change"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Consolidate scarf hold control",
+        "description": "Ensure your hips are heavy and low against the opponent's ribcage with their near arm fully trapped beneath your body. Tighten your head control and verify your base is stable before initiating the submission sequence. The opponent should be flat on their back with limited mobility.",
+        "timing": "2-3 seconds to verify position"
+      },
+      {
+        "step_number": 2,
+        "action": "Release head control and secure wrist",
+        "description": "Release your far arm from around the opponent's head and immediately reach for their trapped wrist with a palm-down grip. Pin their hand to the mat beside your hip while simultaneously driving your hip pressure deeper to compensate for the loss of head control. Speed matters here to prevent defensive reactions.",
+        "timing": "1-2 seconds maximum for the transition"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread the figure-four grip",
+        "description": "Slide your other arm underneath the opponent's upper arm from the far side, threading between their bicep and torso. Grip your own wrist to complete the figure-four configuration with your forearm pressing firmly against their tricep area. Ensure the grip is deep and tight against your chest.",
+        "timing": "1-2 seconds to complete the grip"
+      },
+      {
+        "step_number": 4,
+        "action": "Adjust hip position for rotational clearance",
+        "description": "Shift your hips slightly toward the opponent's head to create space for the rotational arc behind their back. Keep your weight heavy on their chest throughout this adjustment to prevent them from sitting up or turning into you. Your base should remain wide enough to resist bridging attempts during this transition.",
+        "timing": "1 second for adjustment"
+      },
+      {
+        "step_number": 5,
+        "action": "Begin the rotational finish",
+        "description": "Start painting the opponent's hand behind their back by lifting their elbow toward the ceiling while driving their wrist toward the mat. Use the figure-four as a lever that multiplies your rotational force through the perpendicular angle. Apply pressure progressively, not explosively, allowing time for a tap response.",
+        "timing": "3-5 seconds of progressive rotation in training"
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the shoulder lock",
+        "description": "Continue the smooth rotational arc until the opponent's forearm reaches behind their back at approximately 90 degrees or until they tap. Maintain the figure-four tight against your chest and keep hips heavy throughout the finish. If the opponent attempts to roll, follow their movement while maintaining grip integrity and chest pressure.",
+        "timing": "2-3 seconds to complete or until tap"
+      },
+      {
+        "step_number": 7,
+        "action": "Manage post-submission control",
+        "description": "Upon receiving a tap, immediately stop all rotational pressure and slowly return the arm to neutral position along the same rotational path. Release the figure-four grip only after the arm reaches a safe resting position. Maintain positional control until your partner confirms they are ready to continue training.",
+        "timing": "Immediate release upon tap signal"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening the trapped arm and gripping own thigh to prevent figure-four",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to americana by driving the straightened arm toward the mat with your body weight. The extended arm is vulnerable to the opposite rotational direction. If they re-bend to defend the americana, return to the kimura.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Bridge-and-roll toward attacker during grip transition when head control is released",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base by extending your far leg and drive your hip pressure deeper into their ribs. If the figure-four is already secured, the bridge actually tightens the submission. If not yet secured, re-establish head control and wait for a calmer attempt.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Turning into attacker and recovering closed guard by threading legs during grip change",
+        "effectiveness": "Medium",
+        "your_response": "If they begin turning in, immediately sprawl your hips back to prevent their legs from closing around your waist. Maintain the wrist grip if possible and transition to a north-south kimura position, or abandon the submission and re-consolidate scarf hold before their guard closes.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Rolling away from attacker to relieve rotational pressure on the shoulder",
+        "effectiveness": "Low",
+        "your_response": "Follow the roll by stepping over their head with your far leg, transitioning to a belly-down kimura finish position. The roll actually extends the opponent's arm further and creates additional finishing leverage when you maintain the figure-four throughout their rotation.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing hip pressure during the grip transition from head control to figure-four",
+        "consequence": "Opponent exploits the momentary loss of both head control and pressure to bridge, turn, and recover guard or reverse the position entirely",
+        "correction": "Drive hips deeper into opponent's ribs as you release head control, compensating for the lost control point with increased weight pressure through the pelvis"
+      },
+      {
+        "error": "Attempting to thread the figure-four before securing a solid wrist grip",
+        "consequence": "Opponent pulls their arm free during the threading attempt, losing both the submission opportunity and potentially the scarf hold control",
+        "correction": "Always pin the wrist firmly with a palm-down grip before threading the figure-four. The wrist control is the anchor that keeps the arm in submission position."
+      },
+      {
+        "error": "Using arm and grip strength for the rotation instead of engaging the torso",
+        "consequence": "Rapid grip fatigue that allows the opponent to resist the finish, and insufficient rotational force against strong opponents who can power through arm-only pressure",
+        "correction": "Keep the figure-four tight against your chest and rotate your entire upper body as a unit. The torso generates far more force than the arms alone and sustains pressure without fatigue."
+      },
+      {
+        "error": "Allowing space between the figure-four grip and your own chest during rotation",
+        "consequence": "The opponent can retract their arm toward their body, reducing the lever arm and nullifying the rotational force of the figure-four",
+        "correction": "Clamp the figure-four tight against your sternum throughout the entire rotation. Think of the grip as welded to your chest, with your torso doing all the turning work."
+      },
+      {
+        "error": "Rushing the rotational finish with explosive jerking motion",
+        "consequence": "Risk of serious shoulder injury to training partner before they can tap, potential for grip breakage from the sudden force, and violation of training safety protocols",
+        "correction": "Apply rotation progressively over three to five seconds in training. The perpendicular angle already provides significant mechanical advantage, so explosive force is unnecessary and dangerous."
+      },
+      {
+        "error": "Failing to chain to americana when opponent straightens their arm in defense",
+        "consequence": "Stalling in a dead position where the kimura cannot be completed against a straight arm, wasting energy and time while opponent recovers composure",
+        "correction": "Immediately recognize the straight arm as an americana opportunity and redirect pressure toward the mat. The defensive reaction to one submission should trigger the chain to the next."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Transition Isolation",
+        "focus": "Smooth transfer from head control to figure-four without losing positional pressure",
+        "description": "Drill the grip transition in isolation with a cooperative partner. Start in consolidated scarf hold, release head control, secure wrist, thread figure-four, then reset. Perform 20 repetitions per side focusing on maintaining hip pressure throughout. Partner provides feedback on pressure changes felt during the transition."
+      },
+      {
+        "phase": "Phase 2: Figure-Four Mechanics and Rotation",
+        "focus": "Proper rotational mechanics using torso rather than arm strength",
+        "description": "With figure-four already secured, practice the finishing rotation at various speeds. Partner provides light resistance to build correct body mechanics. Focus on keeping the grip tight against your chest and rotating your entire upper body as a unit. Perform 15 repetitions per side with progressive resistance."
+      },
+      {
+        "phase": "Phase 3: Full Sequence with Defensive Reactions",
+        "focus": "Integrating the complete submission sequence against common defensive responses",
+        "description": "Execute the full kimura from scarf hold against a partner who employs specific defenses: arm straightening, bridging, turning in. Practice the appropriate counter-response to each defense including americana chain, base adjustment, and sprawl. Work 3-minute rounds with partner choosing random defenses."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the submission under full resistance from scarf hold starting position",
+        "description": "Begin in consolidated scarf hold with the bottom partner working at full resistance to escape or defend. Top partner attempts the kimura and chains to related attacks. Work 2-minute rounds alternating roles. Track success rate and identify patterns in failed attempts for further refinement."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Incorporating the kimura into full rolling and competition preparation",
+        "description": "During regular sparring rounds, actively seek scarf hold transitions and attempt the kimura from live positions. Focus on recognizing the optimal timing windows, managing opponent reactions under full resistance, and maintaining composure through the grip transition under pressure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Kimura from Scarf Hold Position primarily attack?",
+        "answer": "The kimura primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint capsule, and the glenoid labrum. The internal rotation torque applied through the figure-four grip forces the humeral head against the anterior shoulder capsule while stretching the rotator cuff muscles beyond their normal range. Secondary stress affects the bicep tendon and acromioclavicular joint under extreme rotation.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the critical grip transition sequence when converting scarf hold control into the kimura figure-four?",
+        "answer": "Release the head control hand first and immediately secure the opponent's trapped wrist with a palm-down grip, pinning their hand beside your hip. Your other arm then threads underneath their upper arm from the far side and grips your own wrist to complete the figure-four. The critical detail is maintaining hip pressure throughout so the opponent cannot exploit the momentary loss of head control to bridge or turn. The entire grip change should take no more than two seconds to prevent defensive reactions.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key safety considerations when applying the Kimura from Scarf Hold Position in training?",
+        "answer": "Apply all rotational pressure slowly and progressively over three to five seconds minimum, never jerking or spiking the submission. The shoulder joint can sustain serious structural damage including rotator cuff tears and dislocation before the opponent feels sufficient pain to tap. Always ensure your partner has at least one hand free to deliver a tap signal and listen for verbal taps or distress sounds. Release immediately upon any tap signal and return the arm to neutral position before releasing the grip entirely.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you properly release the Kimura from Scarf Hold Position after your partner taps?",
+        "answer": "Stop all rotational pressure immediately the instant a tap is detected. Slowly return the arm toward its natural resting position by externally rotating back along the same path you applied pressure. Release the figure-four grip completely only after the arm is back in neutral position. Never allow the arm to spring back suddenly as this can cause secondary soft tissue injury. Allow your partner to self-assess their shoulder mobility before resuming training activity.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins straightening their trapped arm as you transition to the figure-four grip - what adjustment prevents this escape?",
+        "answer": "Immediately clamp your elbow tight to your body and drive your weight forward over their arm to prevent full extension. If the arm is partially straightened, switch your attack angle by driving their elbow toward the mat rather than attempting the standard kimura rotation, converting the attack into an americana variation. Alternatively, abandon the wrist grip momentarily, re-trap the arm by hugging it against your torso, and attempt the figure-four again once the arm is re-bent with your weight pinning their bicep.",
+        "safety_critical": false
+      },
+      {
+        "question": "What distinguishes the finishing mechanics of the Kimura from Scarf Hold compared to the Kimura from side control?",
+        "answer": "The perpendicular angle of scarf hold changes the rotational vector of the finish. In side control, the attacker typically lifts the elbow vertically while driving the wrist toward the mat in a parallel plane. From scarf hold, the natural torque follows the T-shaped body configuration, allowing the attacker to paint the hand behind the opponent's back along an arc assisted by gravity and body weight rather than opposing them. This geometric advantage means less physical strength is needed because the perpendicular angle creates a more mechanically efficient lever path.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the Kimura from Scarf Hold Position is the opponent past the point of no escape?",
+        "answer": "Once the figure-four grip is fully secured with tight elbow connection and the attacker's hips remain heavy on the opponent's chest, the escape window narrows significantly. The true point of no escape occurs when the forearm has been rotated past approximately forty-five degrees behind the opponent's back while the attacker maintains chest pressure. At this angle, shoulder joint mechanics prevent the opponent from generating sufficient force to reverse the rotation, and any further resistance accelerates the risk of structural injury.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments should you make if your opponent attempts to roll toward you during the kimura finish?",
+        "answer": "Follow their roll by adjusting your hip position to stay heavy on their chest while keeping the figure-four tight against your own torso. Drive your chest forward over their shoulder as they turn, which actually tightens the submission angle. If they complete a partial roll onto their stomach, transition to a belly-down kimura finish by stepping your leg over their head while maintaining the figure-four throughout. Never release the grip to readjust during the roll as this creates the escape window they are seeking.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you integrate the kimura with other submissions from scarf hold to create an effective attack chain?",
+        "answer": "The primary chain flows between kimura, americana, and armbar based on defensive reactions. When the opponent straightens their arm to prevent the kimura figure-four, redirect immediately to an americana by driving the straightened arm toward the mat. If they tuck their elbow tightly to prevent rotation in either direction, switch to an armbar by stepping over their head and extending the arm. Each defensive reaction to one submission creates the opening for the next, keeping the opponent in a perpetual defensive cycle.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Scarf Hold Position Defender",
+    "description": "Complete defense guide for the Kimura from Scarf Hold. Recognition cues, grip prevention, escape timing, and guard recovery techniques against this shoulder lock from kesa gatame.",
+    "overview": "Defending the Kimura from Scarf Hold Position requires early recognition of the attacker's intent to release head control and secure the figure-four grip. The compressed position under kesa gatame severely limits defensive mobility, making prevention of the grip significantly more effective than attempting late-stage escapes once the figure-four is locked. The defender must prioritize wrist control, arm straightening, and body alignment while monitoring opportunities to exploit the attacker's commitment to the submission for positional escapes or guard recovery. Understanding the specific windows where the attacker sacrifices control points for submission grips is essential for successful defense.",
+    "key_principles": [
+      "Defend early by preventing the figure-four grip from being secured rather than trying to escape once rotation begins",
+      "Straighten your trapped arm immediately when you feel the attacker's head control hand release to deny the bent-arm position needed for the kimura",
+      "Grip your own thigh, belt, or shorts with your trapped hand to anchor the arm and prevent wrist isolation",
+      "Exploit the attacker's loss of head control during the grip transition as a window for bridge-and-roll escapes",
+      "Turn your body toward the attacker when possible to compress the space available for rotational finishing",
+      "Tap early and decisively once the figure-four is locked and rotation begins past forty-five degrees behind your back"
+    ],
+    "recognition_cues": [
+      "Attacker releases head control hand from around your head, creating a sudden decrease in crossface pressure",
+      "Attacker's free hand reaches toward your trapped wrist or forearm, indicating intent to isolate for the figure-four",
+      "Attacker's weight shifts slightly toward your head as they reposition their hips for rotational clearance",
+      "Feeling the attacker's arm threading underneath your upper arm from the far side to complete the figure-four grip"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten trapped arm and anchor by gripping own thigh or shorts",
+        "when_to_use": "Immediately when you feel the attacker release head control and reach for your wrist, before the figure-four is threaded",
+        "targets_outcome": "Scarf Hold Position/Top",
+        "if_successful": "Prevents the figure-four grip from being completed, forcing attacker to either re-establish scarf hold control or attempt americana on the straightened arm",
+        "risk": "Straightened arm may be vulnerable to americana attack in the opposite rotational direction"
+      },
+      {
+        "action": "Bridge explosively toward attacker during the grip transition window",
+        "when_to_use": "During the one to two second window after the attacker releases head control and before the figure-four is secured, when their base is most compromised",
+        "targets_outcome": "Scarf Hold Position/Top",
+        "if_successful": "Disrupts the submission attempt and may create a scramble or reversal opportunity when the attacker's hands are occupied with grip work",
+        "risk": "If timed poorly, the bridge may accelerate the kimura rotation if the figure-four is already partially secured"
+      },
+      {
+        "action": "Turn into attacker and thread legs for guard recovery",
+        "when_to_use": "When the attacker commits both hands to the submission grip and sacrifices positional control, creating space for hip movement",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recovers closed guard and completely neutralizes the kimura threat from scarf hold, returning to a neutral guard position",
+        "risk": "Turning in may expose the back if the attacker abandons the kimura and transitions to back control instead"
+      },
+      {
+        "action": "Roll with the kimura rotation to relieve shoulder pressure",
+        "when_to_use": "As a last resort when the figure-four is fully locked and rotation has begun, to buy time and prevent injury while seeking tap opportunity",
+        "targets_outcome": "Scarf Hold Position/Top",
+        "if_successful": "Temporarily relieves rotational pressure on the shoulder and may create scramble if attacker loses grip during the roll",
+        "risk": "Experienced attackers will follow the roll and may transition to belly-down kimura finish with even greater control"
+      }
+    ],
+    "escape_paths": [
+      "Bridge-and-roll toward the attacker during the grip transition window when head control is released and both hands are occupied",
+      "Turn into the attacker and recover closed guard by threading legs around their waist while their arms are committed to the figure-four",
+      "Extract the trapped arm by straightening explosively and retracting toward your own hip before the figure-four is completed"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Exploit the attacker's loss of head control during the grip transition by turning your body into them and threading your legs around their waist to close guard, neutralizing both the positional control and the submission threat"
+      },
+      {
+        "outcome": "Scarf Hold Position/Top",
+        "how": "Deny the figure-four grip through arm straightening and anchoring, forcing the attacker to abandon the submission and re-establish standard scarf hold control without the submission threat"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting until the figure-four is fully locked before attempting to defend",
+        "consequence": "Once the figure-four grip is secure with the attacker's hips heavy, defensive options decrease dramatically and the submission becomes nearly inevitable against a skilled attacker",
+        "correction": "Begin defensive actions the instant you feel head control release. The one to two second transition window is your primary defense opportunity. React to the grip change, not to the rotational pressure."
+      },
+      {
+        "error": "Bridging away from the attacker instead of toward them during escape attempts",
+        "consequence": "Bridging away creates space that the attacker uses to deepen their grip and accelerate rotation, and the perpendicular angle means lateral movement is ineffective",
+        "correction": "Always bridge toward the attacker during kimura defense. This compresses the space they need for rotation and creates the possibility of rolling them over or recovering guard by turning into them."
+      },
+      {
+        "error": "Relying on arm strength alone to resist the kimura rotation rather than using body alignment",
+        "consequence": "The figure-four provides massive mechanical advantage that overwhelms arm strength, leading to rapid fatigue and either submission or injury from trying to muscle out",
+        "correction": "Use your entire body to defend by turning toward the attacker, flattening your body to deny the rotation angle, and gripping structural anchors like your thigh. Body alignment defeats leverage; arm strength does not."
+      },
+      {
+        "error": "Failing to tap when the rotation progresses past the point of safe resistance",
+        "consequence": "Serious shoulder injury including rotator cuff tears, labral damage, or glenohumeral dislocation that can require months of recovery and surgery",
+        "correction": "Tap early and decisively once the rotation moves your forearm past approximately forty-five degrees behind your back. No training position or competition match is worth a catastrophic shoulder injury."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that the Kimura from Scarf Hold Position is being set up before the figure-four is secured?",
+        "answer": "The primary recognition cue is the attacker releasing their head control hand, creating a sudden decrease in crossface pressure. You will feel their hand moving along your forearm toward your wrist as they attempt to isolate it for the figure-four. Their weight may shift slightly toward your head as they reposition. Early recognition at this stage is critical because defense is dramatically easier before the figure-four grip is completed than after rotation begins.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap to the Kimura from Scarf Hold Position to prevent injury?",
+        "answer": "Tap early and repeatedly with your free hand on any part of the attacker's body, the mat, or your own body. If your free hand is restricted, use verbal taps by clearly saying tap multiple times, or tap with your feet on the mat. The shoulder joint can sustain structural damage before maximum pain is reached, so tap at the first sensation of significant rotational pressure rather than waiting for acute pain. Never attempt to tough out a fully locked kimura from scarf hold.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available in the early stage before the figure-four grip is completed?",
+        "answer": "The highest-percentage defense is immediately straightening your trapped arm and gripping your own thigh to anchor it, preventing the attacker from bending your elbow into the figure-four configuration. Simultaneously, use the momentary loss of head control to bridge toward the attacker and begin turning your body into them for guard recovery. If you can prevent the figure-four from being secured in the first two seconds after they release head control, you have a strong chance of escaping to closed guard or returning to neutral scarf hold defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the primary mistake defenders make when the kimura rotation has already begun?",
+        "answer": "The most dangerous mistake is attempting to explosively power out of the submission by bridging away from the attacker. This actually accelerates the rotational force on the shoulder because the bridge creates space for the attacker to deepen the rotation angle. The correct response to an in-progress kimura rotation is to immediately roll toward the attacker, following the direction of rotation to relieve pressure while working to flatten your body and deny the finishing angle. If rotation has progressed significantly, the safest option is to tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "How can you exploit the attacker's commitment to the kimura to improve your defensive position?",
+        "answer": "When the attacker releases head control to secure the figure-four, they sacrifice one of the three pillars of scarf hold control. This creates a window for bridge-and-roll escape because their posting base is compromised while both hands are occupied with the submission grip. If you can deny the wrist grip and bridge explosively during this transition, you can force a scramble or recover closed guard. The attacker's focus on the submission creates tunnel vision that makes positional escapes more available than during standard scarf hold control.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Prevention",
+        "focus": "Identifying kimura setup cues and preventing the figure-four grip",
+        "description": "Partner initiates kimura setup from scarf hold at slow speed. Defender practices recognizing the head control release and immediately straightening and anchoring the arm. Perform 20 repetitions per side focusing on reaction speed and correct defensive mechanics."
+      },
+      {
+        "phase": "Phase 2: Escape Window Exploitation",
+        "focus": "Using the grip transition window for bridges and guard recovery",
+        "description": "Partner attempts kimura setup at moderate speed. Defender practices bridging toward the attacker and turning in for guard recovery during the transition window. Work 3-minute rounds alternating between bridge-and-roll and guard recovery escape paths."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Defense and Tap Recognition",
+        "focus": "Defending when the figure-four is partially or fully secured and recognizing when to tap",
+        "description": "Partner secures the figure-four and begins slow rotation. Defender practices rolling with the pressure, body alignment adjustments, and making the correct decision about when continued defense is viable versus when tapping is the safe choice. Emphasize safety awareness over escape success rate."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Integrating all defensive options under full resistance from scarf hold",
+        "description": "Start in scarf hold with attacker working full kimura and submission chain attacks. Defender uses all available tools including early prevention, escape exploitation, and late defense. Work 2-minute rounds tracking escape rate and identifying defensive gaps for further drilling."
+      }
+    ]
+  }
+}

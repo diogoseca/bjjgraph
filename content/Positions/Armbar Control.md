@@ -36,7 +36,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Armbar control is fundamentally about limb isolation through multi-point body control
@@ -181,13 +181,13 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (51% of attempts)
+- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (51% of attempts)
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (21% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (7% of attempts)
+- **[[Omoplata from Armbar Control/Attacker|Omoplata from Armbar Control]]** (7% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
+- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (7% of attempts)
 
 - **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (7% of attempts)
 
@@ -197,7 +197,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 - **[[Transitions/Triangle from Armbar/Attacker|Triangle from Armbar]]** (1% of attempts)
 
-- **[[Submissions/Belly Down Armbar Finish/Attacker|Belly Down Armbar Finish]]** (2% of attempts)
+- **[[Belly Down Armbar from Armbar Control/Attacker|Belly Down Armbar from Armbar Control]]** (2% of attempts)
 
 
 ### Common Mistakes

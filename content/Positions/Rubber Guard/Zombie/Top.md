@@ -169,6 +169,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Zombie (Top)?</p>
+
 - Top player positioned over opponent in half guard configuration with one leg trapped by opponent's lockdown (leg triangle), maintaining upper body posture and weight distribution through hips and shoulders
 - Opponent on their back or side utilizing lockdown on one leg while maintaining underhook control on same side, creating defensive structure with body turned slightly to side for escape attempts
 - Top player's trapped leg experiencing tension from lockdown pressure while free leg posts for base, with upper body controlling opponent's head and shoulders through crossface or underhook counters
@@ -181,6 +183,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Zombie (Top)?</p>
+
 - Opponent has established Zombie lockdown structure from half guard bottom
 - Top player has passed opponent's initial guard frames
 - Top player maintains upper body control (crossface, whizzer, or underhook)
@@ -192,6 +196,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Zombie?</p>
 
 - Maintain strong crossface or whizzer control to prevent opponent's underhook from dominating position
 - Keep weight distributed through hips and chest to prevent opponent from creating angles for sweeps
@@ -207,6 +213,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Zombie (Top)?</p>
 
 **If opponent maintains strong lockdown and underhook with good posture control:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
@@ -236,6 +244,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Zombie?</p>
 
 ### 1. Attempting explosive leg extraction against tight lockdown
 
@@ -280,6 +290,8 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Zombie attacks?</p>
+
 ### Lockdown Escape Progressions
 
 Partner establishes Zombie lockdown. Top player practices systematic leg extraction using posture control, hip pressure, and strategic weight shifts. Start with partner giving 50% resistance, progress to full resistance.
@@ -319,38 +331,6 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution maintains optimal control from Zombie Top against an active lockdown?
-**A**: Weight should be distributed primarily through your hips and chest, driving forward and downward into the opponent. Your hips stay low to prevent being elevated for sweeps, while chest pressure on their upper body prevents them from creating angles. The free leg posts wide for base, allowing you to absorb their lockdown stretches without being off-balanced. Avoid sitting back on your heels, which makes you vulnerable to Old School Sweep attempts.
-
-**Q2**: What are the essential grips for maintaining Zombie Top position?
-**A**: The primary grip is the crossface, where your forearm drives across the opponent's jaw and neck to control their head and prevent them from turning into you. Secondary control includes either a whizzer on the underhook side to neutralize their underhook threat, or far hip control to prevent them from creating angles. Hand placement should prevent them from establishing chest-to-chest connection while controlling their ability to frame.
-
-**Q3**: How do you shut down the Old School Sweep from Zombie Top?
-**A**: When you feel the opponent begin to post on their far foot and drive their hips toward you, immediately drop your weight forward and drive heavy crossface pressure into their face. This flattens them back down and prevents them from completing the posting motion. Additionally, shift your base wider toward the underhook side to counter their lifting force. If they get significant elevation, abandon the pass temporarily and re-establish base before they can complete the sweep.
-
-**Q4**: What grip priority should you follow when the opponent has a deep underhook from Zombie Bottom?
-**A**: First priority is preventing their underhook from getting chest-to-chest connection - immediately establish a strong whizzer by threading your arm over their underhook arm and gripping near their wrist or forearm. Second priority is head control through crossface to prevent them from turning their face toward you. Third priority is hip control on the far side. Never allow them to connect their head to your chest while maintaining their underhook, as this creates maximum sweep leverage.
-
-**Q5**: Your opponent starts to stretch the lockdown aggressively - what pressure adjustment do you make?
-**A**: When you feel the lockdown stretch pulling your leg, don't fight against it by trying to pull your leg back explosively. Instead, drop your weight even further forward, driving your chest into their face and shoulder. This shifts the fulcrum point and reduces the leverage they have on your leg. Simultaneously, widen your base with your free leg and work to get your hips lower than theirs. The stretch loses power when you eliminate the space they need to complete the elevation.
-
-**Q6**: How do you apply pressure effectively from Zombie Top without exhausting yourself?
-**A**: Effective pressure comes from skeletal alignment rather than muscular effort. Position your shoulder directly over their face with your forearm across their jaw, allowing gravity to do the work. Keep your elbows tight and use your body weight rather than arm strength. Your chest should be heavy on their chest without you actively pushing down. Breathe normally and maintain the position statically rather than constantly adjusting - the opponent will tire faster than you if you're structurally sound.
-
-**Q7**: What do you do when the opponent partially escapes and starts to recover half guard frames?
-**A**: When they begin creating space and inserting knee shields or frames, you have a critical window before they fully recover. Either immediately switch to a leg weave or knee slice pass before the frame solidifies, or accept the frame temporarily and work to collapse it systematically. Don't allow them to establish both a knee shield and an underhook simultaneously. If they're recovering successfully, sometimes the best option is to disengage slightly and reset to a more advantageous passing position rather than fighting through a strengthening defensive structure.
-
-**Q8**: How do you manage energy when the opponent refuses to release lockdown for several minutes?
-**A**: Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

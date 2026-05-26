@@ -194,6 +194,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Deep Half Entry from Flattened?</p>
+
 - Time the entry to coincide with the top player's weight shifts or passing attempts, never force it against settled pressure
 - Commit fully once you initiate the dive, partial entries leave you without frames or deep half position
 - Thread the underhook deep around the far leg before moving your body, the grip anchors the entire transition
@@ -208,6 +210,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Deep Half Entry from Flattened?</p>
+
 - Retain half guard hook on at least one of the top player's legs, without this hook the entry has no anchor
 - Identify a weight shift or passing initiation by the top player that creates space at their hip
 - Position your near-side arm to thread between the top player's legs for the deep underhook
@@ -220,6 +224,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Deep Half Entry from Flattened step by step?</p>
 
 1. **Read the weight distribution**: From your flattened position, feel for the moment the top player shifts weight forward to advance their pass, shifts laterally for a knee slice, or adjusts grips. This weight shift creates a brief window where their hips rise slightly from direct contact with your body, opening space for the entry.
 2. **Thread the near-side arm**: As the weight shifts, immediately thread your near-side arm between the top player's legs, reaching deep around their far thigh. Aim to get your arm past the knee and grip behind their far thigh or hip. This underhook is the foundation of the entire transition and must be established before committing your body.
@@ -250,6 +256,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Deep Half Entry from Flattened?</p>
+
 - **Top player drives crossface harder and sprawls hips back to prevent hip turn** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the entry. Use micro hip escapes to gradually create angle, or switch to frame recovery and knee shield re-establishment if the crossface prevents all hip movement. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Top player recognizes the arm thread and whizzers the threading arm to prevent underhook establishment** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to assist your rotation since the whizzer drives your arm deeper. Circle your hand past their whizzer control and re-establish the underhook from a deeper angle beneath their hip. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Top player backsteps during the entry to extract their leg and pass to side control** (Effectiveness: High) - Your Response: If you feel the backstep beginning, immediately abandon the deep half entry and follow their hip with your legs, transitioning to single leg X-guard or open guard retention. Chase their leg with your hooks rather than committing to a position they are already escaping. → Leads to [[Positions/Side Control]]
@@ -261,6 +269,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Deep Half Entry from Flattened?</p>
 
 ### 1. Attempting the entry when the top player is settled with static pressure and no weight shift occurring
 
@@ -300,6 +310,8 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Deep Half Entry from Flattened (Attacker)?</p>
+
 **Phase 1: Mechanics** - Entry movement pattern without resistance
 Practice the hip turn, arm thread, and body slide with a cooperative partner from flattened half guard. Focus on the coordination of hip escape and arm thread happening simultaneously. 20 repetitions per side with no resistance, building muscle memory for the movement pattern.
 
@@ -320,48 +332,12 @@ Positional rounds starting from flattened half guard. Bottom player attempts dee
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the deep half entry from flattened half guard?
-**A**: The optimal window occurs when the top player shifts weight to advance their pass, typically during a knee slice initiation, grip adjustment, or hand post. This weight shift momentarily raises their hips from direct contact with your body, creating the space needed to thread underneath. Never force the entry against settled static pressure, as the movement requires space that only exists during active weight transfers.
-
-**Q2**: Why must the hip turn and arm thread happen simultaneously rather than sequentially?
-**A**: If you thread the arm without turning your hips, your body remains flat on the mat and cannot slide underneath the opponent. If you turn your hips without the arm thread, you have no anchor to pull yourself into position and the top player can easily re-flatten you. The coordinated movement creates a compound motion where the hip turn provides the angle and the arm thread provides the directional pull.
-
-**Q3**: Your opponent drives heavy crossface pressure and you cannot turn your hips for the entry - what alternative should you attempt?
-**A**: When the crossface prevents hip rotation, switch to frame recovery instead. Use micro hip escapes to create incremental space, inserting your elbow as a wedge. Build toward re-establishing a knee shield. The deep half entry requires hip mobility that severe crossface pressure eliminates, and attempting it anyway results in a stalled half-entry position worse than flattened half guard.
-
-**Q4**: What is the critical grip that must be established before committing your body to the dive?
-**A**: The deep underhook around the far leg is the critical grip. Your near arm must thread between the top player's legs and wrap around their far thigh before you commit your body to sliding underneath. This grip serves as both the anchor that pulls you into position and the primary control mechanism of the resulting deep half guard. Without it, the dive has no direction or endpoint.
-
-**Q5**: Why is the half guard hook maintained throughout the entry rather than released early?
-**A**: The half guard hook is the last defensive barrier preventing the top player from completing a guard pass. During the entry transition, there is a vulnerable moment where your frames are abandoned but deep half is not yet established. The hook prevents the top player from simply stepping free and passing to side control during this gap. Only release it once the deep underhook and shoulder wedge are firmly secured.
-
-**Q6**: Your opponent begins a knee slice as you initiate the deep half entry - how does this affect your execution?
-**A**: The knee slice actually creates an ideal entry window because the lateral weight shift raises the far hip and creates maximum space underneath. As they commit to the slice direction, their momentum makes it difficult to reverse and counter your entry. Accelerate your dive timing to coincide with their lateral movement, using their weight transfer to assist your slide underneath their base.
-
-**Q7**: What happens if you dive too deep and overshoot the deep half position?
-**A**: Overshooting means your body passes beyond the opponent's hips rather than settling underneath them. This eliminates the leverage needed for sweeps and can expose your back or leave you in turtle. To correct, target your shoulder to contact their inner thigh at hip level and stop your slide once you feel that wedge point. The shoulder-to-thigh contact is the landmark that signals correct depth.
-
-**Q8**: How do you create the timing window yourself rather than waiting passively for the top player to shift weight?
-**A**: Threaten a frame recovery or underhook attempt on the surface to force the top player to react. When they increase forward pressure to counter your surface escape, their hips move closer and higher, creating the exact conditions needed for the deep half entry. This bait-and-switch uses their defensive reaction as the trigger for your actual attack, turning their pressure into your opportunity.
-
-**Q9**: What direction of force does your underhook arm apply during the entry?
-**A**: The underhook arm pulls the far leg toward your chest while simultaneously pulling your own body underneath the opponent's hips. The force direction is diagonal, inward toward your centerline and downward toward the mat. This creates a compression that locks the leg to your body and draws your shoulder into the wedge position against their inner thigh. Pulling straight backward would push the opponent away rather than loading them onto your leverage point.
-
-**Q10**: If the entry fails and you find yourself stuck halfway with one arm threaded but your body still flat, what is the recovery sequence?
-**A**: Retract your arm immediately and re-establish your half guard frame. Do not remain in the half-threaded position, as it compromises both your frame defense and your half guard hook. Pull your arm back, re-establish your elbow wedge against the opponent, and recover to standard flattened half guard defense. You can attempt the entry again when a better timing window presents itself rather than forcing through from a compromised position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Deep Half Entry from Flattened?</p>
 
 The Deep Half Entry from Flattened involves significant spinal flexion and neck positioning during the dive underneath the opponent. Practitioners should develop adequate neck strength and flexibility before attempting this technique under resistance. The transition places your head and neck between the opponent's legs, creating risk of neck compression if the top player drives their weight downward during the entry. Always practice with a cooperative partner first to establish safe movement patterns. Tap immediately if you feel any neck or cervical spine pressure during the entry attempt.
 

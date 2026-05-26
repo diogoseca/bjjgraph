@@ -21,19 +21,19 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 51% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 52% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Twister",
-      "text": "From this position, attempt Twister. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Twister from Cross Body Ride",
+      "text": "From this position, attempt Twister from Cross Body Ride. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
@@ -169,6 +169,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Position Definition
 
+<p class="section-subtitle">What is Cross Body Ride (Top)?</p>
+
 - Top player's chest positioned perpendicular across opponent's back, creating heavy cross-body pressure through shoulder and upper torso contact with opponent's spine and shoulder blade area
 - Opponent in turtle position with knees and hands/elbows on mat, back exposed and facing downward, unable to achieve standing or supine positions
 - Top player maintains at least one hook (arm or leg) controlling opponent's near side, preventing rotation and escape while serving as anchor point for transitions
@@ -182,6 +184,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Cross Body Ride (Top)?</p>
+
 - Opponent in defensive turtle position with back exposed
 - Top player has achieved perpendicular angle relative to opponent's spine
 - Initial control established via collar tie, overhook, or seatbelt grip
@@ -194,6 +198,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Cross Body Ride?</p>
 
 - Maintain perpendicular angle with chest across opponent's back to maximize pressure and control options
 - Keep weight heavy on opponent's shoulders to collapse their turtle structure and limit mobility
@@ -209,6 +215,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Cross Body Ride (Top)?</p>
 
 **If opponent stays static in turtle or attempts to hide arms close to body:**
 - Execute **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
@@ -231,8 +239,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 
 **If opponent flattens completely to belly exposing back:**
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 
@@ -242,6 +250,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Cross Body Ride?</p>
 
 ### 1. Staying too static and allowing opponent to build defensive structure
 
@@ -281,6 +291,8 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Cross Body Ride attacks?</p>
+
 ### Cross Body Ride Maintenance Drill
 
 Bottom player in turtle attempts various escapes (forward roll, sit through, stand) while top player maintains cross body position. Practice keeping perpendicular angle and heavy shoulder pressure regardless of bottom player's movement direction.
@@ -314,38 +326,6 @@ Start from cross body ride, bottom player given full freedom to escape using any
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal chest placement for maintaining maximum control in Cross Body Ride?
-**A**: Position your chest perpendicular across the opponent's upper back, with your sternum contacting the area between their shoulder blades and spine. This creates downward pressure that collapses their turtle structure while your shoulder drives into their near-side shoulder blade. The perpendicular angle prevents them from rolling in either direction and maximizes your weight transfer efficiency.
-
-**Q2**: Your opponent suddenly shifts their weight forward and attempts to stand - what immediate adjustment do you make?
-**A**: Immediately transition your weight forward onto their shoulders to drive them back down while simultaneously threading your near-side arm deeper under their armpit for seatbelt control. Use your far leg to post wide for base, then consider transitioning to crab ride if they continue standing attempts. Never chase their hips backward - stay connected to their upper body and let your weight work.
-
-**Q3**: What are the three primary control points you must establish before attempting transitions?
-**A**: First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition.
-
-**Q4**: How do you prevent the opponent from executing a successful granby roll escape?
-**A**: Maintain heavy forward pressure through your chest into their shoulders rather than sitting back on their hips. When you sense them loading for the roll by shifting weight to one shoulder, immediately adjust your angle to follow their intended direction while increasing pressure. Your near-side hook should block their hip from initiating the rotation. If they commit to rolling, follow them and use their momentum to accelerate your back take.
-
-**Q5**: When transitioning from cross body ride to back control, what is the critical error that causes position loss?
-**A**: The critical error is releasing chest pressure prematurely before securing the seatbelt grip and at least one hook. Many practitioners lift their chest to insert hooks, which creates space for the opponent to turn, granby, or sit to guard. Instead, maintain crushing chest pressure throughout the entire transition, threading your arms for seatbelt while your chest pins them, only inserting hooks once upper body control is fully secured.
-
-**Q6**: Your opponent keeps their arms tight and refuses to expose them for crucifix entries - what strategy breaks this defense?
-**A**: When the opponent hides their arms, they sacrifice base and mobility. Use this to your advantage by threatening the back take more aggressively, forcing them to post a hand to prevent flattening. Alternatively, apply heavy shoulder pressure while walking your hips toward their head, which eventually forces them to extend an arm for balance. The key is creating dilemmas rather than waiting for mistakes.
-
-**Q7**: How do you manage energy expenditure while maintaining dominant cross body control?
-**A**: Efficient control relies on skeletal structure rather than muscular effort. Position your weight through your shoulder and chest bones into their back, keeping your core engaged but relaxed. Avoid gripping excessively - use hooks and wedges instead of death grips. Move only when necessary, letting gravity and bone-on-bone pressure do the work. The opponent should feel crushed while you feel relatively relaxed.
-
-**Q8**: What signals indicate the optimal moment to commit to a back take transition?
-**A**: Watch for these triggers: opponent's weight shifts forward as they try to build base, their near arm extends to post or push, they attempt to sit through toward your hooks, or they begin rotating their hips toward you. Any defensive reaction that moves their weight away from the center creates the window. The moment their structure breaks, immediately secure seatbelt and begin hook insertion while they're compromised.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -374,8 +354,8 @@ Start from cross body ride, bottom player given full freedom to escape using any
 - **[[Positions/Gift Wrap]]** - Arm control position leading to back exposure
 - **[[Transitions/Turtle to Back Control]]** - Primary technique executed from this position
 - **[[Transitions/Crucifix from Turtle]]** - Key offensive technique when opponent extends arm
-- **[[Transitions/Rear Naked Choke]]** - Primary submission after successful back take
-- **[[Transitions/Bow and Arrow Choke]]** - High-percentage submission from back control transition
+- **[[Submissions/Rear Naked Choke]]** - Primary submission after successful back take
+- **[[Submissions/Bow and Arrow Choke]]** - High-percentage submission from back control transition
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Control configuration after securing back position
 
 

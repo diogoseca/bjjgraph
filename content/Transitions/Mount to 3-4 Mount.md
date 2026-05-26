@@ -212,7 +212,7 @@ The Transition to 3-4 Mount occupies a critical junction in the mount variation 
 
 - [[Transitions/Consolidate Mount]] - Alternative when maintaining standard mount is more advantageous
 
-- [[Submissions/Armbar from Mount]] - Primary submission threat that creates openings for 3-4 Mount entry
+- [[Transitions/Mount to Armbar]] - Primary submission threat that creates openings for 3-4 Mount entry
 
 - [[Positions/Half Guard]] - Counter outcome position when opponent recovers guard during transition
 

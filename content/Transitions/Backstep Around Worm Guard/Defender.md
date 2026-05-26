@@ -160,6 +160,8 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep Around Worm Guard?</p>
+
 - Passer shifts weight backward onto their rear foot rather than driving forward—this signals rotation initiation
 - Passer secures cross-collar grip and far sleeve simultaneously, indicating they are anchoring you before moving
 - Passer drops shoulder pressure heavier than normal on your chest or shoulder—this is the preload before backstep rotation
@@ -171,6 +173,8 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep Around Worm Guard?</p>
 
 - Recognize backstep initiation immediately through weight shift and angle change cues
 - Maintain sleeve control on the same side as your lapel wrap to restrict passer's rotation
@@ -186,6 +190,8 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep Around Worm Guard?</p>
 
 ### 1. Sit-up back take: Release worm guard grip, sit up explosively, and follow passer's rotation to secure their back with seatbelt control
 
@@ -216,6 +222,8 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep Around Worm Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Release worm guard grip the moment you feel the passer's weight shift backward. Sit up explosively with your near arm reaching across their body for seatbelt control while your far arm posts behind you for base. Follow their rotation and insert hooks as they complete the backstep. Their commitment to the rotation makes it difficult to stop your back take once you're sitting up.
@@ -231,6 +239,8 @@ Maintain your primary lapel grip while using your free hand to control the passe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep Around Worm Guard?</p>
 
 ### 1. Attempting the sit-up back take when passer has established heavy shoulder pressure
 
@@ -260,6 +270,8 @@ Maintain your primary lapel grip while using your free hand to control the passe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep Around Worm Guard?</p>
+
 **Week 1-2** - Recognition and reaction timing
 Partner slowly performs backstep motion from worm guard while you practice identifying the weight shift and angle change cues. Focus on feeling the transition from forward pressure to rotational movement. No defensive responses yet—just recognition speed.
 
@@ -276,29 +288,6 @@ Full resistance positional sparring starting from worm guard where partner activ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a backstep around your worm guard?
-**A**: The earliest cue is a weight shift backward onto their rear foot combined with securing cross-collar and far sleeve grips. This indicates they are anchoring you in place before initiating rotational movement. Feeling their trapped leg begin to rotate outward rather than pull forward confirms the backstep is imminent.
-
-**Q2**: Why must you choose between the sit-up back take and lapel reconfiguration quickly rather than waiting to see what develops?
-**A**: Both defensive windows are extremely narrow and mutually exclusive. The sit-up requires releasing your worm guard grip, while reconfiguration requires maintaining it. Attempting to do both results in a weak sit-up that gets stuffed and a compromised lapel grip that the passer clears easily. Decisive commitment within the first second gives either strategy its highest success probability.
-
-**Q3**: Your opponent has heavy shoulder pressure pinning you flat as they begin the backstep—what is your best defensive strategy?
-**A**: Focus on lapel reconfiguration rather than the sit-up. Use your free hand to control their far sleeve while hip escaping in the direction of their rotation. Thread the lapel deeper or redirect it to their posting arm for squid guard. The heavy shoulder pressure makes sitting up nearly impossible, so working within the guard system rather than against their pressure is the higher-percentage play.
-
-**Q4**: The backstep has succeeded and your worm guard is cleared—what immediate action prevents the worst outcome?
-**A**: Turn to your knees immediately into a tight turtle position rather than remaining flat on your back. Turtle position is significantly more recoverable than flat side control—you retain guard recovery options through granby rolls, sit-throughs, and stand-ups. Staying flat allows the passer to establish crossface and hip pressure, making escape exponentially harder.
-
-**Q5**: How do you modify your worm guard grip to make the backstep more difficult to execute in the first place?
-**A**: Maintain aggressive same-side sleeve control to restrict the passer's ability to rotate their trapped leg. If they can't free their far arm to establish the cross-collar grip needed for the backstep, the technique becomes much harder to initiate. Additionally, keeping your hips angled rather than flat gives you faster sit-up capability if they attempt the rotation despite your grip fighting.
-
-
-
-</section>
 
 
 </main>

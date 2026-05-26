@@ -188,6 +188,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Butterfly Sweep?</p>
+
 - Load the opponent's weight onto the butterfly hook through underhook pulling before initiating the sweep drive
 - Coordinate hook elevation and underhook pull as one simultaneous explosive movement, never as sequential actions
 - Create a 45-degree hip angle toward the butterfly hook side to optimize the diagonal sweep trajectory over the trapped leg
@@ -202,6 +204,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Butterfly Sweep?</p>
+
 - Butterfly hook inserted under opponent's free-side thigh with heel planted on mat and constant upward pressure through engaged hip flexors
 - Underhook established on butterfly hook side with arm threaded deep under opponent's armpit, hand controlling their lat or reaching belt line
 - Half guard control secured with both legs squeezing opponent's trapped leg, preventing extraction throughout the sweep
@@ -214,6 +218,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Butterfly Sweep step by step?</p>
 
 1. **Confirm grip configuration and hook placement**: Verify your underhook is deep on the butterfly hook side with your hand controlling the opponent's lat muscle or reaching their belt line. Confirm the butterfly hook is active under their free thigh with your toes pointed outward and heel anchored on the mat. Ensure your half guard trap is tight with both legs squeezing their trapped leg with constant pressure.
 2. **Adjust hip angle to create optimal sweep trajectory**: Shift your hips approximately 45 degrees relative to the opponent's centerline, angling toward the butterfly hook side. This creates the diagonal sweep path that directs your opponent over the trapped half guard leg rather than straight sideways where they can easily post and base out. Use small hip scoots to achieve the angle without telegraphing.
@@ -243,6 +249,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Butterfly Sweep?</p>
+
 - **Opponent sprawls hips back and drives heavy crossface to flatten the bottom player and kill the butterfly hook** (Effectiveness: High) - Your Response: Transition to deep half guard by diving underneath their hips, using their forward crossface pressure to facilitate the entry. Alternatively, switch to lockdown if the half guard trap allows the whip-up motion to create new offensive angles. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 - **Opponent posts far hand wide on the mat to create an emergency base against the sweep direction** (Effectiveness: Medium) - Your Response: The hand post commits their weight to one side and removes one arm from defense. Immediately switch attack direction by releasing the butterfly hook and transitioning to an old school sweep or back take, exploiting the weakened opposite side. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 - **Opponent whizzers the underhook arm aggressively and drives shoulder pressure to strip upper body control** (Effectiveness: High) - Your Response: Use the whizzer pressure to duck underneath for a deep half guard entry, converting their defensive energy into your transition. Alternatively, regrip with a collar tie to maintain an offensive connection and reset the sweep sequence. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
@@ -254,6 +262,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Butterfly Sweep?</p>
 
 ### 1. Attempting the sweep without loading the opponent's weight onto the butterfly hook first
 
@@ -293,6 +303,8 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Butterfly Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Individual movement components
 Practice butterfly hook elevation and underhook pull as separate movements against a cooperative partner. Focus on correct foot placement, hip angle creation, and pulling direction without attempting to complete the sweep.
 
@@ -313,45 +325,12 @@ Apply the sweep in positional sparring starting from half butterfly bottom. Trac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical mechanical detail that determines whether the Half Butterfly Sweep succeeds or fails?
-**A**: The simultaneous coordination of the butterfly hook drive and underhook pull as a single unified movement. Any sequencing between these two forces gives the opponent time to react, post, or adjust weight between the separate applications. The sweep generates its off-balancing power from combined diagonal force vectors that must arrive simultaneously to overwhelm the opponent's base.
-
-**Q2**: Your opponent posts their far hand on the mat when you begin to elevate with the butterfly hook - how do you adjust?
-**A**: The hand post commits their weight to one side and removes one arm from their defensive structure. Immediately redirect your attack to exploit the weakened opposite side by switching to an old school sweep or arm drag to back take. Their posted arm cannot defend the new attack angle, and their committed weight distribution makes them vulnerable to directional changes. This is a fundamental action-reaction chain from half butterfly.
-
-**Q3**: What hip angle should you establish before attempting the sweep and why is this angle critical?
-**A**: Approximately 45 degrees relative to the opponent's centerline, angling toward the butterfly hook side. This angle creates a diagonal sweep trajectory that directs the opponent over the trapped half guard leg, where they have no ability to post or recover base. A straight-on angle allows the opponent to base to either side, while the diagonal forces them toward their one compromised direction.
-
-**Q4**: Why must you load the opponent's weight onto the butterfly hook before initiating the sweep drive?
-**A**: Loading stacks the opponent's center of gravity directly over the hook's fulcrum point, meaning even a moderate elevation drive creates substantial off-balancing. Without loading, the opponent's weight is distributed across multiple base points, requiring far greater force to displace. Loading is achieved by pulling the opponent forward with the underhook until you feel their weight settle onto the butterfly hook leg.
-
-**Q5**: Your opponent sprawls their hips back and applies heavy crossface, shutting down your butterfly hook elevation - what is your best response?
-**A**: Transition to deep half guard by diving underneath their hips, shooting your outside arm under their hip and inverting your angle. Their sprawl position actually facilitates this entry because their hips are back and their weight is committed forward through the crossface, creating space for you to swim underneath. Do not continue forcing the butterfly sweep against a sprawled opponent as this wastes energy on a near-zero percentage attempt.
-
-**Q6**: What grip configuration provides the strongest platform for this sweep?
-**A**: A deep underhook on the butterfly hook side with your arm threaded under the opponent's armpit and your hand controlling their lat muscle or belt line. This grip provides maximum pulling leverage along the diagonal sweep trajectory. In gi, supplement with a far-side collar grip for added rotational control. In no-gi, an overhook or collar tie on the same side provides alternative pulling leverage when the underhook is contested.
-
-**Q7**: How do you prevent the opponent from extracting their trapped leg during the sweep setup phase?
-**A**: Maintain constant half guard squeeze with both legs wrapped around the trapped leg, tightening the squeeze during the sweep itself rather than loosening. If the opponent begins extracting, immediately tighten your guard and use your butterfly hook to disrupt their posture, preventing them from generating the hip space needed for extraction. The half guard squeeze must remain active throughout the entire sequence.
-
-**Q8**: What body position indicates the optimal moment to initiate this sweep?
-**A**: The optimal moment is when the opponent's weight shifts forward, either because they are initiating a pass, establishing crossface pressure, or reaching for grips. Their forward commitment loads weight onto your butterfly hook, creating ideal elevation conditions. Additionally, the moment after they commit to stripping your underhook with a whizzer is excellent timing because their defensive effort temporarily compromises their base positioning.
-
-**Q9**: If the sweep is blocked but your opponent is partially off-balance with one hand posted, what chain attack should you pursue?
-**A**: Transition to the knee tap finish variation by releasing the butterfly hook mid-elevation and using that foot to tap the opponent's far knee inward, collapsing their remaining base point. If the knee tap is unavailable, use the partial off-balance to enter X-guard by extending both legs under the opponent, or attack a kimura on the posted arm since their weight is committed to that hand and they cannot easily retract it.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Butterfly Sweep?</p>
 
 The Half Butterfly Sweep is a low-risk technique with minimal joint stress when executed with proper mechanics. Primary safety concerns involve controlling the sweep direction so training partners do not land awkwardly on outstretched arms or twist their knees during the fall. During drilling, allow complete sweep execution rather than resisting at extreme angles that could torque the trapped knee. The underhook should not be used to crank the opponent's shoulder aggressively. Partners should communicate immediately if they feel unusual pressure on their trapped knee or ankle during the sweep rotation. Tap immediately if caught in any compromising position during scrambles following a defended attempt.
 

@@ -154,6 +154,8 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Collar Drag from Worm Guard?</p>
+
 - Opponent's free hand reaches toward your collar or behind your neck while maintaining worm guard lapel control with the other hand
 - Opponent begins angling their hips to one side while maintaining lapel tension, setting up the diagonal pull vector for the drag
 - Opponent's core visibly engages as they prepare for the explosive sit-up that accompanies the collar drag motion
@@ -166,6 +168,8 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Collar Drag from Worm Guard?</p>
 
 - Deny the collar grip as the primary defensive priority - no deep collar grip means no effective collar drag
 - Maintain strong upright posture by keeping your head up and shoulders back, making collar grip acquisition more difficult
@@ -180,6 +184,8 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Collar Drag from Worm Guard?</p>
 
 ### 1. Strip the collar grip before the drag is initiated using a two-on-one grip break on the opponent's collar hand
 
@@ -217,6 +223,8 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Collar Drag from Worm Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the lapel wrap during the collar drag defense to simultaneously neutralize both the worm guard and the drag threat. Focus on removing the lapel as your primary defensive objective, as this both prevents the drag from succeeding and eliminates the worm guard entirely, leaving you in an advantageous passing position.
@@ -232,6 +240,8 @@ Deny the collar grip or drive forward to prevent the sit-up motion. While remain
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Collar Drag from Worm Guard?</p>
 
 ### 1. Ignoring the collar grip setup and focusing solely on passing the worm guard
 
@@ -261,6 +271,8 @@ Deny the collar grip or drive forward to prevent the sit-up motion. While remain
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Collar Drag from Worm Guard?</p>
+
 **Phase 1: Recognition** - Identifying collar drag setup cues from worm guard
 Partner establishes worm guard and alternates between standard sweep setups and collar drag setups at slow speed. Defender calls out which attack is being prepared based on the setup cues. Focus purely on recognition without physical defense.
 
@@ -277,26 +289,6 @@ Positional sparring starting from opponent's worm guard with collar drag availab
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a collar drag from worm guard?
-**A**: The earliest cue is the opponent's free hand reaching toward your collar or behind your neck while maintaining their worm guard lapel grip. This reaching motion indicates they are attempting to establish the second connection point needed for the collar drag. You should respond immediately by either stripping the reaching hand or increasing your posture to make the grip more difficult to obtain.
-
-**Q2**: Why is stepping backward an unreliable defense against the collar drag when worm guard is established?
-**A**: The worm guard lapel wrap specifically immobilizes your lead leg by wrapping the lapel around it, preventing you from stepping backward. Since stepping back is the natural defensive response to being pulled forward, the worm guard eliminates your strongest defensive mechanism. This is why the collar drag from worm guard is significantly more effective than from standard open guard positions.
-
-**Q3**: Your opponent has obtained a deep collar grip and you feel the drag is imminent - what is your highest percentage defensive response?
-**A**: Drive your weight forward and down immediately while posting your far hand to prevent face-down collapse. Your forward drive counteracts their pulling force and makes it impossible for them to sit up underneath you. Simultaneously work to strip the collar grip with your other hand. If you successfully pin them flat, their collar drag loses all power because they cannot complete the sit-up motion needed to come around to front headlock.
-
-**Q4**: How does the collar drag defense differ from defending standard worm guard sweeps?
-**A**: Standard worm guard sweeps attack laterally, so you defend by widening your base and distributing weight to the sides. The collar drag attacks forward and down, requiring you to maintain strong forward resistance and posture rather than wide base. Critically, defending sweeps by raising your center of gravity actually makes you more vulnerable to the collar drag. Effective defense requires reading which attack is coming and adjusting your weight distribution accordingly.
-
-
-
-</section>
 
 
 </main>

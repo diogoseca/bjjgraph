@@ -74,8 +74,8 @@
       "relationship": "Related system - shares sleeve control principles with both lapel and lasso"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Strategic concept - this transition exemplifies maintaining control through position changes"
+      "name": "Open Guard",
+      "relationship": "Parent guard category - this transition exemplifies maintaining open guard control through position changes"
     }
   ],
   "attacker": {
@@ -198,7 +198,7 @@
         "description": "Full intensity situational sparring starting from lapel guard. Partner actively passes while you flow between lapel configurations and lasso as needed. Success measured by guard retention and sweep completion over multiple rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Lapel to Lasso Transition?",
         "answer": "The primary goal is to maintain guard retention and offensive control when your lapel guard configuration is being successfully cleared by the opponent. Rather than losing position entirely, you convert into lasso guard which shares similar sleeve control foundations, denying the pass while establishing new sweep and submission threats."
@@ -322,7 +322,7 @@
         "correction": "Keep your elbows pinched tight to your ribs throughout the lapel clearing process. A tight elbow position makes shin threading mechanically difficult even if the opponent's timing is good."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical defensive window for preventing the Lapel to Lasso Transition?",
         "answer": "The critical window occurs between the moment you successfully clear the lapel configuration and the moment the opponent completes the lasso threading. During this brief period, the bottom player is between guard systems with compromised control. Acting decisively during this window—through forward pressure, sleeve stripping, or stepping over the threading leg—prevents the conversion before lasso control is established."

@@ -3,24 +3,30 @@
 
 
 ---
-title: "Japanese Necktie | BJJ Submission | BJJ Graph"
+title: "Japanese Necktie | BJJ Submission Family | BJJ Graph"
 description: "Master Japanese Necktie in BJJ. Complete guide with safety protocols, setup from turtle, execution steps, and variations. Beginner 35%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Japanese Necktie targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Japanese Necktie/Attacker|Play as Attacker]]
-[[Japanese Necktie/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Japanese Necktie/from Front Headlock|Front Headlock]] | 58% | Loss of consciousness from bilateral carotid compression |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +35,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -78,139 +83,10 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Front Headlock]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Trap opponent's near arm to use their shoulder as part of th... | Prevent the arm trap at all costs - keep elbows pinched tigh... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Japanese Necktie/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Trap opponent's near arm to use their shoulder as part of the choking mechanism
-
-- Create perpendicular angle with your body relative to opponent's spine
-
-- Drive shoulder pressure into the far side of opponent's neck while arm blocks near side
-
-- Use hip extension and back arch to generate choking force, not arm strength
-
-- Maintain tight connection between your chest and opponent's shoulder throughout
-
-- Control opponent's head position to prevent them from turning into you
-
-- Finish with legs extended and hips driving forward for maximum pressure
-
-
-### Execution Steps
-
-
-- **Secure Front Headlock with Arm Trap**: From front headlock position with opponent in turtle, swim your near arm deep around opponent's neck...
-
-- **Create Perpendicular Angle**: Begin rotating your body perpendicular to opponent's spine by stepping your far leg over their back ...
-
-- **Lock the Grip Configuration**: With your choking arm deep around their neck, reach for your own leg (typically grabbing your shin o...
-
-- **Position Your Shoulder as Choking Surface**: Adjust your body so your near shoulder (the one on the same side as your choking arm) is pressed fir...
-
-- **Extend Hips and Arch Back**: With grips secured and shoulder positioned, begin extending your hips forward while simultaneously a...
-
-- **Maintain Position Through Tap**: Continue driving your hips forward and shoulder into their neck while keeping their arm trapped. The...
-
-- **Alternative Finish - Rolling Variation**: If the standard finish doesn't produce immediate pressure, you can enhance the choke by rolling over...
-
-
-### Common Mistakes
-
-
-- **Attempting to choke with arm strength instead of shoulder pressure and hip extension**
-  - Consequence: Choke fails to compress carotid arteries effectively, allows opponent to escape, causes fatigue in your arms
-  - Correction: Focus on positioning your shoulder as the primary choking surface. Your arm serves mainly to control their head position. Generate pressure through hip extension and back arch, not bicep flexion.
-
-- **Failing to trap opponent's arm securely before rotating**
-  - Consequence: Opponent extracts their arm and easily escapes, or worse, takes your back as you overcommit to rotation
-  - Correction: Establish a deep, tight overhook on their near arm before beginning your rotation. Their arm should be pinned to their body, unable to post or create frames. Test the trap by attempting small rotations before fully committing.
-
-- **Positioning at incorrect angle (too parallel or too perpendicular)**
-  - Consequence: Choke mechanics fail completely, leaving you vulnerable to opponent's counter-attacks and escapes
-  - Correction: Your torso should be approximately 90 degrees to opponent's spine. If too parallel, your shoulder won't engage the neck properly. If too perpendicular (past 90 degrees), you lose leverage and they can easily turn into you.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Japanese Necktie/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent the arm trap at all costs - keep elbows pinched tight to your body and actively strip the attacker's overhook before they consolidate it
-
-- Deny the perpendicular angle by circling toward the attacker's hips and preventing them from stepping over your back
-
-- Extract the trapped arm immediately if the overhook is established - every second of delay makes extraction exponentially harder
-
-- Turn into the attacker rather than away to prevent the choking angle from materializing and load your weight toward them
-
-- Maintain chin-to-chest contact to protect the neck while simultaneously working hand fights to address the arm trap
-
-
-### Recognition Cues
-
-
-- Attacker establishes a deep overhook on your near arm while maintaining front headlock control, pinching your arm tightly against your body
-
-- Attacker begins stepping their far leg over your back and rotating their body perpendicular to your spine while keeping chest pressure heavy
-
-- Attacker's choking arm slides deeper under your chin while their far arm clamps down on your near arm, creating a distinct two-point control feel
-
-- You feel your own shoulder being driven into the side of your neck as the attacker's body weight shifts across your upper back at an angle
-
-
-### Escape Paths
-
-
-- Extract trapped arm and immediately recover to turtle with tight defensive posture, then work standard turtle escapes to guard or standing
-
-- Turn into attacker and pull guard, using the rotation to break the perpendicular angle and neutralize the choking mechanics in closed guard
-
-- Drive forward and stand up to break the angle, then circle away while hand fighting to strip the front headlock control entirely
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Rolling Japanese Necktie**: After securing the initial position, instead of finishing with hip extension from the side, you roll over your far shoulder into an inverted position. This rolling motion often dramatically tightens the choke by changing the pressure angle on the carotid arteries. The inversion also uses gravity to load opponent's bodyweight into the choke, making it extremely effective against larger opponents with good base. (When to use: When opponent has excellent base and won't allow you to extend your hips effectively, or when the standard finish isn't generating sufficient pressure. Also effective when opponent is attempting to stand up from turtle position.)
@@ -236,7 +112,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 - [[Positions/Front Headlock]]
 - [[Positions/Turtle]]
 - [[Positions/Combat Base]]
-- [[Positions/Scramble Position]]
+- [[Positions/Standing Position]]
 - [[Positions/Clinch]]
 - [[Positions/Side Control/Kesa Gatame]]
 - [[Positions/Side Control]]
@@ -249,17 +125,17 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Related Submissions
 
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Submissions/Peruvian Necktie]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/High Elbow Guillotine]]
-- [[Submissions/Arm in Guillotine]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Baseball Bat Choke]]
-- [[Submissions/Brabo Choke]]
+- [[Transitions/Guillotine Choke]] - Alternative front headlock choke sharing head control setup and entry positions
+- [[Transitions/Anaconda Choke]] - Chain attack when opponent extracts trapped arm during Japanese Necktie attempt
+- [[Transitions/Darce Choke]] - Alternative arm-in choke from front headlock using opposite arm threading
+- [[Submissions/Peruvian Necktie]] - Related necktie family submission with different leg positioning and finishing mechanics
+- [[Transitions/Arm Triangle]] - Head-and-arm choke sharing shoulder pressure and arm trap mechanics
+- [[Submissions/Rear Naked Choke]] - High-percentage blood choke sharing bilateral carotid compression principles
+- [[Submissions/High Elbow Guillotine]] - Advanced guillotine variation with similar front headlock entry
+- [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation sharing trapped arm choking mechanics
+- [[Transitions/North-South Choke]] - Alternative top pressure choke accessible from nearby control positions
+- [[Submissions/Baseball Bat Choke]] - Gi-specific choke with cross-grip pressure principles from top control
+- [[Submissions/Brabo Choke]] - Related lapel-assisted arm-in choke from front headlock position
 
 
 </section>

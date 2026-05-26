@@ -162,6 +162,8 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Squid to Ringworm Guard?</p>
+
 - Bottom player's lapel hand begins adjusting grip position or sliding along the fabric rather than maintaining steady tension
 - Threading leg hook momentarily loosens or shifts position as the bottom player prepares to change their leg configuration
 - Bottom player's hips rotate to a new angle that does not match the current Squid Guard positioning, indicating preparation for a different guard structure
@@ -174,6 +176,8 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Squid to Ringworm Guard?</p>
 
 - Monitor the bottom player's lapel hand constantly for the grip adjustments that signal a reconfiguration attempt is beginning
 - Capitalize on the transitional vulnerability window when the lapel tension is momentarily reduced during rethreading
@@ -188,6 +192,8 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Squid to Ringworm Guard?</p>
 
 ### 1. Strip the lapel grip aggressively with both hands during the reconfiguration window
 
@@ -225,6 +231,8 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Squid to Ringworm Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Exploit the transitional vulnerability window to strip the lapel grip entirely with both hands, targeting the moment when the bottom player has loosened the wrap for rethreading. With the lapel completely stripped, their guard degrades to basic open guard without the mechanical advantages of the lapel system.
@@ -240,6 +248,8 @@ Prevent the reconfiguration from completing through pressure or hand control, fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Squid to Ringworm Guard?</p>
 
 ### 1. Failing to recognize the reconfiguration attempt and allowing the transition to complete unopposed
 
@@ -269,6 +279,8 @@ Prevent the reconfiguration from completing through pressure or hand control, fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Squid to Ringworm Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying reconfiguration cues
 Partner repeatedly initiates the Squid to Ringworm transition at slow speed while you practice identifying the five recognition cues. Call out each cue verbally as you notice it. No defensive responses yet—purely observational training to build pattern recognition. 15 repetitions with partner varying the speed and timing of each attempt.
 
@@ -285,29 +297,6 @@ Start in Squid Guard Top position and spar with full resistance. Partner uses th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is attempting to transition from Squid Guard to Ringworm Guard?
-**A**: The earliest cues are the lapel hand beginning to slide along the fabric rather than maintaining steady pulling tension, and the threading leg hook momentarily loosening as the bottom player prepares to adjust their leg configuration. These two cues typically precede the hip angle adjustment by one to two seconds, giving an alert defender a brief window to initiate a preemptive defensive response before the reconfiguration progresses further.
-
-**Q2**: Why is the moment of maximum vulnerability for the bottom player, and how should you exploit it?
-**A**: The moment of maximum vulnerability occurs when the lapel has been loosened from the Squid Guard configuration but has not yet been threaded into the Ringworm path—typically during steps three through five of the reconfiguration sequence. At this point, the lapel provides minimal restriction on your leg and the bottom player's guard structure is essentially an open guard with a loose lapel. Exploit this by aggressively stripping the lapel with both hands or driving forward with pressure to pass before the new guard is established.
-
-**Q3**: Your opponent successfully completes the Ringworm Guard reconfiguration—what immediate adjustments should you make to your defensive posture?
-**A**: Immediately widen your base to account for Ringworm Guard's different sweeping angles compared to Squid Guard. Adjust your weight distribution to be slightly further back, as Ringworm Guard's primary sweeps pull you forward. Identify the new lapel wrap path around your leg and begin planning your grip strip from the Ringworm configuration. Do not attempt to pass immediately—first understand the new control structure and identify its specific vulnerabilities before committing to a passing sequence.
-
-**Q4**: How do you differentiate between a genuine reconfiguration attempt and a feint designed to create sweep opportunities?
-**A**: A genuine reconfiguration involves the bottom player loosening the lapel and adjusting their hip angle simultaneously, with their free hand moving to assist the rethreading. A feint typically maintains full lapel tension while only adjusting the legs or making exaggerated grip movements designed to draw your attention. If the lapel tension remains constant despite visible grip adjustments, it is likely a feint. Respond to feints by maintaining your base rather than committing to a grip strip that could leave you off-balance.
-
-**Q5**: What is the strategic trade-off between stripping the lapel entirely versus simply preventing the reconfiguration?
-**A**: Stripping the lapel entirely eliminates the bottom player's entire lapel guard system, reducing them to basic open guard and dramatically simplifying your passing challenge. However, the strip attempt requires committing both hands and risks a sweep if it fails. Preventing the reconfiguration through pressure or hand control keeps them in Squid Guard, which you have already been defending—a lower-reward but lower-risk outcome. Choose the strip when you have a clear window and solid base; choose prevention when the bottom player maintains strong secondary controls that make stripping risky.
-
-
-
-</section>
 
 
 </main>

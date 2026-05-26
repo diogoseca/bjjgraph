@@ -12,7 +12,7 @@
     "shoulder-lock-defense",
     "no-gi"
   ],
-  "from_position": "Aoki Lock/Bottom",
+  "from_position": "Aoki Lock Control/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
@@ -20,7 +20,7 @@
       "result": "success"
     },
     {
-      "to": "Aoki Lock/Bottom",
+      "to": "Aoki Lock Control/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -41,7 +41,7 @@
   ],
   "related_content": [
     {
-      "name": "Aoki Lock",
+      "name": "Aoki Lock Control",
       "relationship": "Starting position - the submission control this escape addresses"
     },
     {
@@ -138,7 +138,7 @@
         "counter": "Opponent tightens leg entanglement and increases hip pressure when extraction begins",
         "effectiveness": "High",
         "your_response": "Stop extraction attempt immediately and return to base attacks on their posted leg. Wait for next adjustment window. Forcing through tight entanglement causes shoulder injury. Chain base attacks to force them to loosen eventually.",
-        "targets_outcome": "Aoki Lock/Bottom"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
         "counter": "Opponent transitions to back control as you extract arm and begin turtling",
@@ -150,13 +150,13 @@
         "counter": "Opponent switches to kimura grip as arm begins extracting from leg entanglement",
         "effectiveness": "Medium",
         "your_response": "Continue extraction motion while keeping elbow tight to body. Opponent's kimura control is weaker during transition than established Aoki Lock. Complete turtle and address kimura defense from better defensive posture where you have more escape options.",
-        "targets_outcome": "Aoki Lock/Bottom"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       },
       {
         "counter": "Opponent follows your hip movement and re-angles their pressure to maintain entanglement",
         "effectiveness": "Medium",
         "your_response": "Continue creating new angles rather than fighting static position. Chain multiple hip escape movements together in different directions. Opponent cannot maintain optimal pressure while constantly adjusting to your movement.",
-        "targets_outcome": "Aoki Lock/Bottom"
+        "targets_outcome": "Aoki Lock Control/Bottom"
       }
     ],
     "common_errors": [
@@ -213,7 +213,7 @@
         "description": "Full positional sparring starting from Aoki Lock bottom. Partner works to finish submission while you work to extract. Integrate with full turtle recovery and subsequent guard pull or stand-up. Emphasis on safety and tap recognition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating arm extraction?",
         "answer": "The optimal window occurs when opponent adjusts their position, repositions their posted leg, or releases leg entanglement pressure momentarily. These adjustment moments create brief loosening of the leg triangle around your arm. You can create these windows by attacking their base aggressively, forcing them to choose between maintaining leg control or maintaining base stability."
@@ -281,7 +281,7 @@
       {
         "action": "Tighten leg entanglement and increase hip pressure to shut down extraction window",
         "when_to_use": "When you feel opponent beginning hip movement or their arm starting to slide within the entanglement",
-        "targets_outcome": "Aoki Lock/Bottom",
+        "targets_outcome": "Aoki Lock Control/Bottom",
         "if_successful": "Opponent is forced to abort extraction attempt and return to survival position, maintaining your submission threat",
         "risk": "Over-committing to tightening may compromise your base if opponent chains to a different escape direction"
       },
@@ -295,21 +295,21 @@
       {
         "action": "Control opponent's free hand to eliminate base attacks and maintain positional stability",
         "when_to_use": "Early in the exchange when opponent reaches for your posted leg but before they destabilize your base",
-        "targets_outcome": "Aoki Lock/Bottom",
+        "targets_outcome": "Aoki Lock Control/Bottom",
         "if_successful": "Remove opponent's primary escape tool, allowing you to maintain both leg tightness and base stability simultaneously",
         "risk": "Using your hand to control theirs may reduce your hip pressure or posted leg stability temporarily"
       },
       {
         "action": "Re-angle your pressure by following opponent's hip escape direction to maintain optimal shoulder torque",
         "when_to_use": "When opponent creates hip angle that loosens your leg entanglement but has not yet begun arm extraction",
-        "targets_outcome": "Aoki Lock/Bottom",
+        "targets_outcome": "Aoki Lock Control/Bottom",
         "if_successful": "Nullify their hip escape by maintaining pressure vector alignment with their shoulder rotation axis",
         "risk": "Repositioning creates brief loosening of entanglement that opponent may exploit for extraction"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Aoki Lock/Bottom",
+        "outcome": "Aoki Lock Control/Bottom",
         "how": "Maintain leg entanglement tightness by actively squeezing thighs and sustaining hip pressure. When opponent attacks your posted leg, reposition it quickly without losing leg control. Follow their hip movement with your own adjustments to keep pressure angle optimal. Control their free hand when possible to eliminate base attacks entirely."
       },
       {
@@ -344,7 +344,7 @@
         "correction": "Maintain leg contact and chest-to-back connection throughout the transition. Convert leg entanglement into hook insertion rather than releasing and re-engaging"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing arm extraction?",
         "answer": "The earliest cue is their free hand reaching toward your posted knee or ankle. This signals they are preparing to attack your base stability, which is the first phase of the extraction sequence. By recognizing this early indicator, you can control their free hand or reposition your posted leg before they destabilize your base, shutting down the escape before momentum develops."

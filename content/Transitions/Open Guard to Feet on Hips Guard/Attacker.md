@@ -188,6 +188,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Open Guard to Feet on Hips Guard?</p>
+
 - Elevate hips before placing feet—hip elevation creates the structural angle needed for effective pushing frames and prevents flat-back positioning
 - Target hip bones specifically with the ball of the foot, not the arch or heel, maximizing structural connection and pushing surface area
 - Coordinate foot placement with grip acquisition so upper and lower body controls establish simultaneously
@@ -202,6 +204,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Open Guard to Feet on Hips Guard?</p>
+
 - Open guard configuration with legs positioned between you and the opponent, not trapped or controlled behind opponent's legs
 - Opponent standing or in combat base with hip bones accessible and exposed above your knee line
 - Sufficient hip mobility to elevate hips off the mat and position feet at the height of opponent's hip crease
@@ -214,6 +218,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Open Guard to Feet on Hips Guard step by step?</p>
 
 1. **Assess distance and opponent posture**: From open guard bottom, evaluate the opponent's stance and distance. Confirm they are standing or in combat base with hips accessible. Identify which grips they are fighting for and whether your path to their hips is clear. This assessment must happen in under one second—hesitation allows the opponent to establish passing grips.
 2. **Initiate hip elevation with core engagement**: Engage your core and posterior chain to lift your hips off the mat, creating a curved lower-back position. Your weight shifts onto your upper back and shoulders. This elevation is the foundation of the entire transition—without it, your feet arrive at the opponent's hips without structural pushing power and can be easily stripped or redirected.
@@ -243,6 +249,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Open Guard to Feet on Hips Guard?</p>
+
 - **Opponent grabs both ankles or pants to strip feet off hips** (Effectiveness: High) - Your Response: Retract legs immediately toward chest, circle feet to break grips, then re-establish feet on hips from a different angle. If grips persist, transition to butterfly guard by placing hooks inside their thighs instead. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward with heavy pressure to collapse the leg frames** (Effectiveness: Medium) - Your Response: Use their forward momentum by pulling with grips while extending legs to load their weight onto your feet, creating sweep opportunities. If pressure overwhelms, close guard around their waist before they achieve chest-to-chest contact. → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent circles laterally to bypass frames and initiate toreando pass** (Effectiveness: Medium) - Your Response: Walk hips in the same direction to maintain square alignment. Push harder with the foot on the side they are circling toward. If they achieve a significant angle, transition to De La Riva guard on the near leg to maintain guard structure. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Open Guard to Feet on Hips Guard?</p>
 
 ### 1. Placing feet on opponent's thighs or stomach instead of hip bones
 
@@ -293,6 +303,8 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Open Guard to Feet on Hips Guard (Attacker)?</p>
+
 **Phase 1: Isolated Mechanics** - Foot placement precision and hip elevation
 Partner stands still while you practice placing feet on their hip bones from various starting positions (supine, seated, partially turned). Focus on ball-of-foot contact on the ASIS landmarks, simultaneous bilateral placement, and maintaining hip elevation throughout. No resistance—pure mechanical repetition for 20-30 reps per set.
 
@@ -310,42 +322,12 @@ Full positional sparring from open guard where you must establish feet on hips a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the transition to feet on hips guard?
-**A**: The ideal window is when the opponent is standing or rising to combat base with their hips accessible and before they have established dominant grips on your ankles or pants. This window typically lasts 1-2 seconds during their posture change. If you attempt the transition after they secure ankle control, they can redirect or stack your legs. If you wait too long after they stand, they begin circling and creating passing angles that make bilateral hip placement difficult.
-
-**Q2**: What specific anatomical landmark should your feet target and why?
-**A**: Target the anterior superior iliac spine (ASIS)—the bony prominences on the front of the hip bones—with the ball of each foot. These bony landmarks provide maximum structural stability because bone-on-bone contact transmits force far more efficiently than pressing against muscle tissue on the thighs or soft tissue on the stomach. The ball of the foot creates a broad, stable contact surface that maintains connection during dynamic movement and resists slipping under directional pressure changes.
-
-**Q3**: Your opponent grabs your right ankle as you attempt to place your foot on their hip—how do you adjust?
-**A**: Immediately place your free left foot on their left hip to create a single-side frame that arrests their forward movement. Use the pushing power of the established left foot to create enough distance and time to circle your right ankle free from their grip by rotating your foot outward and pulling sharply. Once freed, place your right foot on their right hip to complete the bilateral frame. If the ankle grip persists, use your left foot frame to transition to a single-leg X or De La Riva configuration on the left side instead.
-
-**Q4**: Why must hip elevation precede foot placement in this transition?
-**A**: Hip elevation creates the structural angle that generates pushing power through the leg frames. When your hips are flat on the mat, your legs extend horizontally, which produces minimal forward pushing force against a standing opponent. Elevated hips create a diagonal pushing angle where your leg extension drives force upward and forward into the opponent's hips, creating genuine defensive structure. Additionally, elevated hips preserve your mobility to adjust angles and follow opponent movement—flat hips pin you to the mat and eliminate the dynamic adjustments that keep the guard active.
-
-**Q5**: What grip combination provides the strongest immediate offensive threat after establishing feet on hips?
-**A**: A cross-collar grip (right hand to opponent's left collar or vice versa) combined with a same-side sleeve grip provides the strongest immediate threat. The collar grip threatens chokes and controls posture, while the sleeve grip prevents one hand from grabbing your ankle and creates pulling tension for sweeps. This combination enables immediate scissor sweep and pendulum sweep threats because you can pull the opponent's upper body forward and down while pushing with your feet, creating the rotational off-balancing required for these high-percentage sweeps.
-
-**Q6**: The opponent drives forward with heavy pressure attempting to collapse your newly established frames—what is your response?
-**A**: Use their forward momentum against them by simultaneously extending your legs fully while pulling their upper body forward and down with your grips. This loads their weight entirely onto your feet and creates the setup for scissor sweep or pendulum sweep. If the pressure is too strong for your frames to hold, absorb their forward drive by bending your knees slightly, then redirect their momentum to one side by extending one leg more than the other, creating an angle for De La Riva entry or closed guard recovery. Never try to match their pressure with pure leg strength—redirect the force instead.
-
-**Q7**: What is the most critical mechanical detail that differentiates an effective feet-on-hips frame from an easily defeated one?
-**A**: Active pushing tension through the legs with maintained hip elevation is the critical differentiator. An effective frame has constant moderate extension force driving through the feet into the opponent's hips, not just passive foot placement. This tension means the opponent cannot simply walk forward—they must overcome continuous resistance. Combined with hip elevation, this creates a structural arch from your shoulders through your hips to your feet that channels your entire body's skeletal strength into the frame, rather than relying on muscular leg extension alone.
-
-**Q8**: If the opponent successfully strips both feet off their hips and begins a knee cut pass, what chain of recovery options do you have?
-**A**: First priority is to establish a knee shield by inserting your inside knee across their hip line to prevent the knee cut from completing. If the knee cut is already past your knee line, hip escape away from the passing direction and work to recover half guard by capturing their passing leg between yours. From half guard, re-establish frames on their shoulder and hip to create space for knee shield recovery. If recovery to half guard fails, frame on their crossface and hip to prevent side control consolidation and begin the side control escape sequence. The key is recognizing that each fallback position has its own recovery path—do not panic, but systematically work through the defensive hierarchy.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Open Guard to Feet on Hips Guard?</p>
 
 The transition to feet on hips guard is generally low-risk from a joint safety perspective, as it involves no joint locks or cervical loading. The primary injury risk comes from the opponent driving forward aggressively while your feet are on their hips, which can hyperextend the knees if your legs are fully locked out under sudden heavy pressure. Always maintain a slight bend in the knees to absorb impact forces. Additionally, avoid pushing with straight, rigid legs against a much heavier opponent driving forward—redirect their pressure laterally rather than absorbing it linearly. During training, communicate with partners when drilling pressure scenarios to prevent accidental knee hyperextension from uncontrolled forward drives.
 

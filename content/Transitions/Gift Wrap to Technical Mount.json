@@ -54,8 +54,8 @@
       "relationship": "Alternative attack that creates rotation trigger for this transition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission from technical mount with trapped arm"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission setup from technical mount with trapped arm"
     },
     {
       "name": "Mounted Triangle",
@@ -209,7 +209,7 @@
         "description": "Incorporate into live rolling from back control. Track conversion rate from Gift Wrap to technical mount versus other outcomes. Target 70% success rate against training partners of similar skill level. Analyze failures for pattern recognition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that indicates it is time to initiate this transition?",
         "answer": "The primary trigger is feeling opponent begin hip rotation toward you. This rotation typically occurs when they attempt to relieve back pressure, create escape angles, or defend choke attacks. The transition redirects this defensive movement into the mounted position rather than allowing escape."
@@ -339,7 +339,7 @@
         "correction": "React to the first recognition cue - far hook removal. This is the earliest and most reliable signal. Begin defensive framing immediately upon feeling the hook disengage rather than waiting to confirm the transition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Gift Wrap to Technical Mount transition is being attempted?",
         "answer": "The earliest cue is the far side hook disengaging while the near side hook pressure increases or shifts to actively direct your hip rotation. This hook removal is necessary for the attacker to clear their knee across your body and is the most reliable early warning signal. Defensive action should begin the instant this is felt."

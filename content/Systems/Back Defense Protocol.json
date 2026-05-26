@@ -22,12 +22,12 @@
   ],
   "key_components": [
     {
-      "component_name": "Chin Protection and Grip Fighting",
+      "component_name": "Chin Protection and Grips",
       "description": "The first line of defense involves tucking the chin to throat and using both hands to strip choking grips. This component teaches practitioners to recognize choke threats early and employ proper hand positioning to defend the neck. Advanced variations include two-on-one grip breaks and preemptive hand fighting to prevent grips from being established in the first place.",
       "purpose": "Prevent the submission and buy time to execute escape sequences"
     },
     {
-      "component_name": "Frame Creation and Posture Management",
+      "component_name": "Frames and Posture Management",
       "description": "Creating defensive frames between your shoulder and the opponent's chest prevents them from flattening you out and securing dominant control. This involves maintaining space through proper elbow positioning and using your shoulder as a wedge. The frames must be strong enough to prevent collapse while allowing mobility for hip movement.",
       "purpose": "Generate and maintain space necessary for hip escape movements"
     },
@@ -279,12 +279,12 @@
       "relationship": "Key escape transition used during back control escape sequences"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Arm Recovery to Guard",
       "content_type": "Transition",
-      "relationship": "Final phase of escape protocol returning to guard"
+      "relationship": "Final phase of escape protocol returning to guard position"
     },
     {
-      "name": "Hand Fighting from Back",
+      "name": "Hand Fighting",
       "content_type": "Principle",
       "relationship": "Critical defensive skill for preventing chokes from back control"
     },
@@ -294,12 +294,12 @@
       "relationship": "First priority in back defense protocol"
     },
     {
-      "name": "RNC Defense",
+      "name": "Submission Defense",
       "content_type": "Principle",
-      "relationship": "Specific application of chin protection and hand fighting"
+      "relationship": "Specific application of chin protection and grip fighting against chokes"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Essential principle for preventing opponent from flattening you"
     },
@@ -309,17 +309,17 @@
       "relationship": "Fundamental movement principle underlying all escape sequences"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Strategic framework defining priority order of defensive actions"
     },
     {
-      "name": "Defensive Posture",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Body positioning principles that maximize defensive effectiveness"
     },
     {
-      "name": "Space Creation",
+      "name": "Distance Control",
       "content_type": "Principle",
       "relationship": "Core principle of generating room for escape movements"
     },
@@ -329,9 +329,9 @@
       "relationship": "Critical for surviving extended back control situations"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Overall strategic approach to defensive situations"
+      "relationship": "Overall strategic approach to handling dominant pressure situations"
     },
     {
       "name": "Back Attack System",

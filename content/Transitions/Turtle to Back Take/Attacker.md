@@ -184,6 +184,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle to Back Take?</p>
+
 - Control the hips first to prevent opponent's escape to guard or standing before working upper body
 - Establish chest-to-back connection before inserting any hooks to maintain structural control
 - Insert bottom hook first as your anchor point while maintaining seatbelt pressure
@@ -199,6 +201,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle to Back Take?</p>
+
 - Opponent in turtle position with hands and knees on mat
 - Your chest positioned over opponent's back or to their side with weight driving downward
 - At least one controlling grip established on collar, belt, wrist, or body lock around torso
@@ -212,6 +216,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle to Back Take step by step?</p>
 
 1. **Establish chest pressure**: Position your chest directly on opponent's upper back, driving weight downward to flatten their posture. Keep your hips heavy and base wide to prevent them from standing or turning into you. Your weight should make it difficult for them to maintain the turtle structure. Angle your pressure at approximately 45 degrees forward and down to collapse their defensive posture.
 2. **Secure seatbelt grip**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking hand gripping your own wrist or bicep. This grip prevents their rotation, creates immediate choke threats that occupy their defensive attention, and provides the leverage needed to manipulate their upper body during hook insertion.
@@ -240,6 +246,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle to Back Take?</p>
+
 - **Opponent sits through to face you and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your leg. If they begin sitting through, follow their rotation while maintaining seatbelt grip and transition to modified mount or front headlock position. The key is recognizing the hip shift early and driving your weight into their far shoulder to stall the rotation. → Leads to [[Positions/Turtle]]
 - **Opponent stands up explosively to escape** (Effectiveness: Medium) - Your Response: Keep your chest connection and seatbelt grip while following them up to standing. Transition to standing rear clinch position, then use your body weight hanging from the seatbelt grip to drag them back down while simultaneously working to insert or maintain your hooks throughout the standing phase. → Leads to [[Positions/Turtle]]
 - **Opponent rolls forward to escape hooks** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining upper body control with seatbelt. Allow the roll but keep chest-to-back connection, then reestablish hooks as they complete the rotation. If they expose an arm during the roll, transition to crucifix position for an even more dominant control. → Leads to [[Positions/Back Control]]
@@ -252,6 +260,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle to Back Take?</p>
 
 ### 1. Attempting to insert hooks before establishing upper body control
 
@@ -291,6 +301,8 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle to Back Take (Attacker)?</p>
+
 **Phase 1: Static Position Entry (Weeks 1-2)** - Establishing seatbelt grip and first hook from stationary turtle
 Partner maintains static turtle position while you practice establishing chest pressure, securing seatbelt grip, and inserting bottom hook with proper mechanics. Focus on grip placement, weight distribution, and hip control. Drill 10 repetitions per side, emphasizing technical precision over speed.
 
@@ -311,48 +323,12 @@ Free rolling with emphasis on creating and capitalizing on turtle position oppor
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the bottom hook be inserted before the top hook when taking the back from turtle?
-**A**: The bottom hook serves as your anchor point and base. It prevents opponent from rolling you over and provides the stability needed to safely work for the top hook. Inserting the top hook first compromises your base and makes you vulnerable to being swept or reversed. The bottom hook also blocks opponent's ability to sit back to guard, which is their most common escape from this position.
-
-**Q2**: What is the optimal timing window for initiating the back take from turtle?
-**A**: The optimal window is immediately after the opponent turtles, before they can establish a tight defensive structure with elbows to knees and begin active escape attempts. The first two to three seconds after they assume turtle offer the highest success rates because their grips are not yet set, their weight distribution is still adjusting, and they have not yet committed to an escape direction. Delayed attacks against a fully set turtle defense require significantly more technique and energy.
-
-**Q3**: What grip configuration must be established before attempting hook insertion and why?
-**A**: The seatbelt grip must be established first, with the choking-side arm under the near armpit across the chest and the other arm over the far shoulder with hands clasped. This grip is required because it prevents the opponent from rotating to face you, controls their upper body posture making it difficult to stand or roll, creates immediate submission threats that divide their defensive attention, and provides the leverage needed to lift their torso when inserting hooks.
-
-**Q4**: Your opponent posts their far hand on the mat as you attempt the second hook - how do you adjust?
-**A**: A posted far hand means they have sacrificed one defensive frame to stabilize their base. Immediately threaten the crucifix by trapping their near arm with your leg while your seatbelt controls their upper body. The posted hand cannot defend both the crucifix and the hook insertion simultaneously. As they pull the near arm back to defend the crucifix, the space opens for your top hook. Alternatively, use the seatbelt to pull their upper body toward the posted hand side, collapsing their base and creating the angle for hook entry.
-
-**Q5**: What is the critical mechanical detail for maintaining control when the opponent attempts to stand up from turtle?
-**A**: The critical detail is maintaining your seatbelt grip while shifting your weight to hang below their center of gravity rather than staying on top. As they rise, transition from chest pressure on their back to hanging your bodyweight from the seatbelt below their shoulders. Your hooks or leg positioning should drag on their hips to prevent full extension. This hanging weight position makes it mechanically difficult for them to complete the standup and allows you to drag them back to the mat while maintaining all control points.
-
-**Q6**: How should you respond if your opponent begins a granby roll while you have seatbelt but no hooks?
-**A**: Follow the roll while maintaining seatbelt grip and chest-to-back connection throughout the rotation. Do not fight the roll or try to stop it, as this often results in losing the grip. Instead, rotate with them, keeping your chest glued to their back. As they complete the granby and land, you often end up in an even better position to insert hooks because their defensive turtle structure has been disrupted by the rolling motion. The key is commitment to following rather than resisting their movement.
-
-**Q7**: What determines whether you should use the direct hook insertion method versus the chair sit variation?
-**A**: The direct hook insertion is preferred when you have strong chest-to-back pressure and the opponent's turtle structure is beginning to break down, allowing you to work hooks in from the top position. The chair sit is preferable when the opponent maintains an exceptionally tight turtle with elbows locked to knees that resists top pressure, when you are fatiguing from sustained top pressure, or in no-gi where the lack of cloth grips makes top control less stable. The chair sit bypasses the elbow defense entirely by changing the angle of hook entry.
-
-**Q8**: Your opponent defends your first hook attempt by extending their leg straight - what is the correct response?
-**A**: An extended leg is actually easier to hook than a tucked leg. Thread your hook inside their thigh and use your heel to pull their extended leg back toward their body, bending their knee and trapping the hook deep. If they continue to straighten aggressively, this creates a kneebar opportunity from the crab ride position, which forces a dilemma: they must bend the knee to defend the leg attack, which simultaneously allows your hook to set. The extended leg defense is tactically inferior and should be exploited immediately.
-
-**Q9**: What chain of attacks should you use when your initial direct back take is successfully defended?
-**A**: The primary chain flows from direct back take to crab ride when hooks are defended, then from crab ride to crucifix when the opponent posts defensively, then back to standard back take when the crucifix threat forces them to pull their arms tight. Each position in the chain creates a different threat that forces the opponent to adjust their defense, and each adjustment opens the path to the next attack in the chain. The cycle can be repeated until the defender makes an error. This systematic chain approach is far more effective than repeatedly attempting the same blocked technique.
-
-**Q10**: How does the direction of force from your seatbelt grip change between the initial control phase and the hook insertion phase?
-**A**: During the initial control phase, the seatbelt grip pulls the opponent's upper body toward you and slightly upward, preventing them from driving forward or flattening away from you. The force direction is primarily rearward and upward. During hook insertion, the force direction shifts to lifting their torso away from the mat, creating vertical space between their elbows and hips where your hooks need to thread through. This upward lifting force is what separates their defensive frames from their body and makes hook insertion mechanically possible against a tight turtle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle to Back Take?</p>
 
 The turtle to back take is a relatively safe transition with minimal injury risk when practiced correctly. Primary safety concerns involve protecting both practitioners' knees during drilling, as repeated hook insertion pressure can cause discomfort on the inner thigh and knee ligaments. The bottom practitioner should avoid posting hands too far from their body, which can result in hyperextended elbows if the top person drives forward aggressively. When practicing at full resistance, both partners should be aware of potential neck strain from aggressive seatbelt grip fighting and sudden rotational movements. The top person should never drive full body weight onto opponent's neck or head region. Clear communication about tap signals is critical when transitioning to submissions from back control, especially during choke defense training.
 

@@ -11,7 +11,7 @@
     "back_control",
     "shoulder_lock"
   ],
-  "from_position": "Omoplata Control/Top",
+  "from_position": "Omoplata Control/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -49,7 +49,7 @@
       "relationship": "Broader category of back-taking techniques this transition belongs to"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Follow-up arm attack available from the resulting back control position"
     },
     {
@@ -226,7 +226,7 @@
         "description": "Use the technique during regular sparring whenever the opportunity presents. Focus on setting up the omoplata specifically to create the back take dilemma. Track your success rate and review failed attempts to identify patterns. Film rolls periodically to analyze timing and connection quality."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that tells you to abandon the omoplata finish and commit to the back take?",
         "answer": "The primary trigger is when your opponent commits to a forward roll over their trapped shoulder. You will feel them shift weight forward, tuck their chin, and drive over the shoulder. Once this rolling motion initiates, the back take becomes significantly higher percentage than insisting on the shoulder lock. Recognizing this weight shift early gives you maximum time to prepare for the transition."
@@ -356,7 +356,7 @@
         "correction": "Accept that your arm will be temporarily trapped during the roll. Focus all defensive effort on breaking the shoulder connection and turning to face rather than arm extraction. The arm naturally frees as you complete the turn to face the attacker."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action immediately after completing the forward roll?",
         "answer": "Immediately turning to face the attacker. The moment the roll completes, you must explosively drive your inside shoulder down and rotate your hips to face them. Every fraction of a second spent flat on your stomach with your back exposed gives the attacker time to insert hooks and establish the seatbelt. The turn must be explosive and committed. Even with partial hooks in, facing the attacker dramatically reduces their control and submission options."

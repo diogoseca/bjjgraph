@@ -162,6 +162,8 @@ Defending the transition to inverted lasso guard requires early recognition and 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Guard to Inverted Lasso Guard?</p>
+
 - Bottom player angles their hips 45 degrees toward the lasso side, shifting from a square position to a diagonal alignment that creates the rolling path
 - You feel a sudden upward and backward pull on your trapped arm as the bottom player's hips begin to elevate and curl toward their chest
 - The bottom player's non-lasso leg disengages from your hip and repositions, either tucking underneath them or loading for a push that assists the roll
@@ -173,6 +175,8 @@ Defending the transition to inverted lasso guard requires early recognition and 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Guard to Inverted Lasso Guard?</p>
 
 - Recognize inversion initiation cues immediately - the defensive window closes within 1-2 seconds of the bottom player beginning their backwards roll
 - Maintain forward pressure angle that prevents the backwards roll without feeding into sweep mechanics
@@ -187,6 +191,8 @@ Defending the transition to inverted lasso guard requires early recognition and 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Guard to Inverted Lasso Guard?</p>
 
 ### 1. Drive forward hip pressure onto the bottom player's chest and shoulders before the inversion completes to pin their hips to the mat
 
@@ -224,6 +230,8 @@ Defending the transition to inverted lasso guard requires early recognition and 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Guard to Inverted Lasso Guard?</p>
+
 ### → [[Positions/Lasso Guard]]
 
 Apply immediate forward hip pressure when you detect the hip elevation that signals inversion, pinning the bottom player's hips to the mat before the roll gains momentum. This returns the position to standard lasso guard where you can continue methodical passing without the amplified inversion threats.
@@ -239,6 +247,8 @@ Target the sleeve grip during the transition moment when rotational forces stres
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard to Inverted Lasso Guard?</p>
 
 ### 1. Reacting to the inversion only after it is fully established with the bottom player on their shoulders and hips elevated
 
@@ -268,6 +278,8 @@ Target the sleeve grip during the transition moment when rotational forces stres
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Guard to Inverted Lasso Guard?</p>
+
 **Recognition Drilling** - Identifying inversion cues under controlled conditions
 Partner plays lasso guard bottom and randomly chooses between standard sweep attempts and inversion entries. Top player calls out 'inversion' the moment they detect the transition cues without attempting to counter. Build pattern recognition speed until identification consistently occurs within 1 second of the hip angle change. 3-minute rounds, 5 rounds per session.
 
@@ -284,29 +296,6 @@ Start every round in established lasso guard. Bottom player attempts inversions,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual and tactile cues that indicate the bottom player is about to transition to inverted lasso guard?
-**A**: The earliest cues are: the bottom player angles their hips approximately 45 degrees toward the lasso side (creating their rolling path), you feel an upward and backward pull on your trapped arm as their hips begin to elevate, their non-lasso leg disengages from your hip and repositions to assist the roll, and their head and shoulders begin dropping backward. The hip angling is typically the very first indicator and occurs 1-2 seconds before the roll itself, providing the critical window for defensive response.
-
-**Q2**: Why is maintaining connection more effective than creating distance when defending the inversion attempt?
-**A**: Creating distance allows the bottom player to complete the inversion with superior angles and then freely deploy their free leg for berimbolo entries without obstruction. Space also enables them to generate more rotational momentum because there is no resistance during the rolling phase. Staying connected with strategic pressure points limits their hip mobility and prevents the rotation that makes inverted lasso dangerous. Your proximity means their movement is restricted, and any technique they attempt must overcome your structural resistance rather than rotating freely through open space.
-
-**Q3**: The bottom player has completed the inversion and is now on their shoulders with hips elevated. What is the most dangerous mistake you can make at this point?
-**A**: The most dangerous mistake is driving forward pressure directly into their elevated hips. When the bottom player is inverted with hips elevated, their position functions as a fulcrum - any forward pressure you apply gets redirected into rotational momentum that drives an overhead sweep. Your weight and forward drive become the energy source for their technique. Instead, angle pressure toward their shoulders and chest while keeping your hips back and base wide. This puts weight on their less mobile points without creating the lever arm they need for the sweep.
-
-**Q4**: What determines whether you should attempt arm extraction versus applying pressure to prevent the inversion?
-**A**: Timing determines the choice. If you detect the inversion in its earliest phase (hip angling, before the roll begins), forward hip pressure is the most reliable counter because it prevents the inversion entirely. If the roll has already begun but is not yet complete, the transition moment stresses the sleeve grip and creates an extraction opportunity - the rotational forces make the grip harder to maintain. If the inversion is fully complete, neither option is optimal and you should focus on counter-rotation or cartwheel passing instead. The key is matching your defensive response to the phase of the inversion you are facing.
-
-**Q5**: How does the step-over defense work, and what risk does it carry?
-**A**: The step-over defense involves lifting your lassoed-side leg over the bottom player's lasso leg during the early inversion phase to extract your arm from the hook entirely. It eliminates the lasso position completely, returning to neutral open guard. However, the step-over temporarily removes one leg from your base, reducing stability during a moment when the bottom player is actively attempting to off-balance you. Additionally, if the bottom player recognizes the step-over early, they can redirect their attack to take your back as you rotate, or transition to an omoplata on your stepping leg which is extended and vulnerable during the movement.
-
-
-
-</section>
 
 
 </main>

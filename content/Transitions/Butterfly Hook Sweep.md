@@ -212,7 +212,7 @@ The Butterfly Hook Sweep serves as the primary offensive technique from butterfl
 
 - [[Positions/X-Guard]] - Transition alternative when opponent stands to escape butterfly hooks
 
-- [[Submissions/Guillotine from Butterfly Guard]] - Submission threat available when opponent's head drops during sweep defense
+- [[Transitions/Guillotine Setup]] - Submission threat available when opponent's head drops during sweep defense
 
 - [[Positions/Half Guard/Deep Half Guard]] - Transition option when opponent drives forward to smash butterfly hooks
 

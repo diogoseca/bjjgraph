@@ -192,6 +192,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lapel Clear to Toreando Pass?</p>
+
 - Clear the lapel configuration completely before initiating the toreando—partial clearing leaves you vulnerable to re-entanglement
 - Control the opponent's gripping hand first to prevent them from adjusting or deepening the lapel wrap during your clearing attempt
 - Use technical unwinding motions rather than forceful ripping which drains grip strength and rarely succeeds against wrapped fabric
@@ -206,6 +208,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lapel Clear to Toreando Pass?</p>
+
 - Opponent has established a lapel guard configuration (worm, squid, or variation) with at least one grip controlling the wrapped fabric
 - You have identified the specific lapel configuration and understand how it is wrapped around your body
 - You have established at least one controlling grip, preferably on the opponent's collar or sleeve controlling the lapel-gripping hand
@@ -218,6 +222,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lapel Clear to Toreando Pass step by step?</p>
 
 1. **Identify configuration**: Recognize whether the opponent has worm guard (lapel around your leg), squid guard (lapel around your arm), or a hybrid configuration. This determines your clearing approach and which grips take priority.
 2. **Control gripping hand**: Establish control of the opponent's hand that maintains the lapel grip. Pin their wrist to their body or strip their grip on the fabric itself. Without this control, they will simply deepen or adjust the wrap as you attempt to clear.
@@ -247,6 +253,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lapel Clear to Toreando Pass?</p>
+
 - **Re-establishing lapel grip during clearing** (Effectiveness: High) - Your Response: Maintain constant control of their gripping hand throughout the clearing sequence. If they begin to re-grip, pause the clear and re-strip their hand control before continuing. → Leads to [[Positions/Lapel Guard]]
 - **Inverting or granby rolling as toreando initiates** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure into their hips during the toreando. If they begin to invert, follow their rotation and transition to leg drag position rather than forcing the original passing angle. → Leads to [[Positions/Lapel Guard]]
 - **Sitting up and re-guarding during the transition phase** (Effectiveness: Medium) - Your Response: Minimize the gap between clearing and toreando execution. If they sit up, stuff their head down with collar grip pressure while continuing lateral movement to complete the pass. → Leads to [[Positions/Closed Guard]]
@@ -258,6 +266,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lapel Clear to Toreando Pass?</p>
 
 ### 1. Attempting to rip lapel free with muscular force
 
@@ -292,6 +302,8 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lapel Clear to Toreando Pass (Attacker)?</p>
+
 **Week 1-2** - Lapel clearing mechanics
 Partner establishes various lapel configurations while you practice systematic clearing without attempting to pass. Focus on hand control, creating slack, and technical unwinding. Reset after each successful clear. No time pressure.
 
@@ -309,48 +321,12 @@ Full resistance specific training starting from lapel guard. Partner uses comple
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Lapel Clear to Toreando Pass?
-**A**: The primary goal is to systematically remove the lapel configuration that creates a mechanical barrier to passing, then immediately exploit the brief window before the opponent can re-establish control by executing a toreando pass to side control. It addresses the lapel problem directly rather than attempting to pass around or through it.
-
-**Q2**: What position do you start Lapel Clear to Toreando Pass from?
-**A**: This technique starts from Lapel Guard Top, meaning you are the passer facing an opponent who has established a lapel guard configuration (worm, squid, ringworm, or variation) using your own gi lapel wrapped around your body.
-
-**Q3**: What are the key grips needed for Lapel Clear to Toreando Pass?
-**A**: The clearing phase requires control of the opponent's lapel-gripping hand, either by pinning their wrist or stripping their grip. The toreando phase requires pants grips at knee or shin level with thumbs inside and fingers outside the fabric. A secondary collar grip can help control their posture during transition.
-
-**Q4**: Your opponent begins re-gripping the lapel as you clear it—what adjustment prevents them from re-establishing control?
-**A**: Pause the clearing motion and re-establish control of their gripping hand before continuing. The hand control must be maintained throughout the entire clearing sequence. If they keep fighting for the re-grip, use your secondary hand to trap their wrist to their body while your primary hand completes the clear.
-
-**Q5**: When is the optimal timing window for executing the toreando after clearing?
-**A**: The toreando must be executed immediately—within 1-2 seconds of the lapel clearing. Any hesitation allows the opponent to recover guard structure or re-establish lapel grips. The clearing-to-toreando should be trained as one continuous motion with the grip transition being instant.
-
-**Q6**: Why is ripping the lapel free with force ineffective, and what is the correct alternative?
-**A**: Force fails because the lapel is wrapped around body parts, not simply gripped—pulling against the configuration often tightens it rather than loosening it, while rapidly fatiguing your forearms. The correct approach is creating slack by changing angles, then technically unwinding by threading the trapped limb through the created space.
-
-**Q7**: How do you prevent the opponent from inverting during the toreando phase?
-**A**: Drive heavy shoulder pressure into their hips throughout the toreando movement. Keep your weight traveling forward and down rather than up and over. If they begin to invert despite this pressure, follow their rotation and transition to leg drag position rather than forcing the original passing angle.
-
-**Q8**: What chain attacks become available if the opponent defends by sitting up during the transition phase?
-**A**: Their sit-up exposes their head for guillotine or front headlock entries. Use collar grip to stuff their head down while continuing the pass, or abandon the pass temporarily to secure the front headlock and threaten anaconda, darce, or guillotine variations. The sit-up also leaves their back exposed if you circle appropriately.
-
-**Q9**: Your opponent's squid guard has the lapel deeply wrapped around your posting arm—what is the correct clearing sequence?
-**A**: Rotate the trapped arm outward to create slack in the fabric rather than pulling straight back. Use your free hand to control their gripping hand first, pinning it to their chest. Then thread your arm through the slack by circling it in the direction of the wrap. The rotation creates the space needed to extract without fighting the configuration's mechanical advantage directly.
-
-**Q10**: What is the critical direction of force during the toreando phase that distinguishes a successful pass from a failed attempt?
-**A**: The force must travel laterally and downward simultaneously—you push the opponent's legs to one side while driving them into the mat, not simply sideways through space. Your shoulder pressure drives forward and down into their hip on the passing side. Upward or purely lateral force allows the opponent to follow your movement with hip escapes and re-guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lapel Clear to Toreando Pass?</p>
 
 This technique is generally safe when practiced with appropriate control. The lapel clearing phase poses minimal injury risk but partners should communicate if the clearing motion creates uncomfortable pressure on trapped limbs. During the toreando phase, avoid explosive twisting motions that could strain the opponent's knee or hip joints—the pass should pin and direct the legs rather than torque them. When drilling at speed, ensure the opponent has time to turn into the pass rather than having their spine twisted. Partners with existing knee injuries should communicate limitations, and the passing pressure should be gradual rather than sudden impact.
 

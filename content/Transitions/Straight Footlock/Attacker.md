@@ -192,6 +192,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Straight Footlock?</p>
+
 - Hip extension generates the primary finishing force, not arm pulling - the entire posterior chain drives the break
 - The forearm blade must be seated directly behind the Achilles tendon before any extension begins to create a rigid fulcrum
 - Leg control must completely prevent defender's hip rotation before committing to the finish, as rotation instantly relieves all pressure
@@ -207,6 +209,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Straight Footlock?</p>
+
 - Established Straight Ankle Lock Control with perpendicular hip alignment relative to defender's body
 - Forearm blade positioned directly behind the Achilles tendon with wrist bone pressing into the tendon
 - Heel secured tightly against sternum or armpit with opposite hand cupping the heel in gable grip or figure-four configuration
@@ -220,6 +224,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Straight Footlock step by step?</p>
 
 1. **Verify control integrity**: Confirm that your forearm blade is seated directly behind the Achilles tendon, your opposite hand cups the heel against your chest, and your legs are clamped around the defender's thigh preventing hip rotation. Any gap in control must be addressed before initiating the finish.
 2. **Tighten the compression pocket**: Pull the heel deeper into your armpit or sternum by squeezing your elbows tight to your body and drawing your forearms toward your centerline. This eliminates slack between your forearm and the defender's ankle, ensuring that hip extension translates directly into dorsiflexion pressure on the joint.
@@ -238,7 +244,7 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Straight Ankle Lock]] | 55% |
 | Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
@@ -248,6 +254,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Straight Footlock?</p>
 
 - **External hip rotation escape where defender turns their hip outward to relieve dorsiflexion pressure and change the angle of force application, allowing their leg to begin slipping free from the entanglement** (Effectiveness: High) - Your Response: Pinch knees together more aggressively to block rotation. If rotation begins before you can prevent it, follow the rotation and transition to Outside Ashi-Garami rather than fighting the movement. Alternatively, switch to belly-down finish which eliminates their rotation ability entirely → Leads to [[Positions/Open Guard]]
 - **Sit-up and forward drive where defender explosively sits up and pushes into the attacker, collapsing the extension angle and preventing hip extension from generating submission pressure** (Effectiveness: High) - Your Response: Post your outside leg firmly on the mat to brace against forward pressure. If they collapse your position, transition to belly-down ankle lock which uses their forward momentum against them, or disengage to Single Leg X-Guard to rebuild the attack angle from a sweep-threatening position → Leads to [[Positions/Straight Ankle Lock Control]]
@@ -260,6 +268,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Straight Footlock?</p>
 
 ### 1. Using arm strength to pull and crank the ankle rather than driving with hip extension and back arch
 
@@ -299,6 +309,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Straight Footlock (Attacker)?</p>
+
 **Week 1-2** - Finishing mechanics isolation
 Drill the hip extension and back arch motion in isolation without a partner, then practice the complete finishing sequence with a fully compliant partner who provides zero resistance. Focus on precise forearm placement behind the Achilles, proper heel cupping, and coordinated hip extension with arm compression. Practice 30-40 repetitions per side emphasizing slow progressive pressure application over 5+ seconds per attempt.
 
@@ -316,48 +328,12 @@ Full-speed positional sparring starting from established Straight Ankle Lock Con
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary power source for finishing the Straight Footlock, and what role do the arms play?
-**A**: Hip extension backward is the primary power source, engaging the entire posterior chain including glutes and hamstrings. The arms serve exclusively to compress and secure the foot in position, creating the rigid fulcrum point against the Achilles tendon. Arms do not generate finishing force. Pulling with the arms is the most common beginner error and wastes energy without producing sufficient pressure to overcome calf muscle resistance.
-
-**Q2**: Your forearm is seated behind the Achilles but the defender begins externally rotating their hip during your extension - what immediate adjustment do you make?
-**A**: Immediately pinch your knees together more aggressively to block the rotation before it progresses. If rotation has already begun, you have two options: follow the rotation and transition to Outside Ashi-Garami where the rotation actually helps your advancement, or switch to belly-down finish which pins the defender and eliminates their rotation ability entirely. Never fight the rotation with grip strength alone as it wastes energy without addressing the root mechanical problem.
-
-**Q3**: What specific anatomical contact point must your forearm make for the finish to be mechanically sound?
-**A**: The blade of your forearm, specifically the bony ridge on the thumb side where the radius bone is closest to the skin surface, must be positioned directly behind the Achilles tendon. This creates a hard, unyielding fulcrum that maximizes pressure transfer during hip extension. If the bicep or wrist contacts the Achilles instead, the soft tissue compresses without generating sufficient focused pressure, making the finish ineffective regardless of how much force you apply.
-
-**Q4**: Why must you verify leg control before committing to the hip extension, and what specific check do you perform?
-**A**: Leg control prevents the defender's hip rotation, which is the primary escape mechanism that instantly relieves all dorsiflexion pressure. Before extending, verify that your knees are pinched together creating a vice around the defender's thigh, your legs are wrapped securely in figure-four or dual shin configuration, and the defender cannot rotate when you apply light test pressure. Extending without this verification means any hip rotation during the finish immediately nullifies your effort.
-
-**Q5**: You have been extending for 5 seconds and the defender's boot defense is preventing the finish - should you continue or transition?
-**A**: Transition immediately. If the finish is not producing progressive pressure within 5-8 seconds, the defender has successfully neutralized your attack and continuing wastes energy while their defensive frames strengthen. The boot defense specifically exposes the knee to kneebar attack, so redirect control above the knee joint. Alternatively, if their boot defense involves hip rotation, follow the rotation into Inside or Outside Ashi-Garami for heel hook threats that bypass the ankle defense entirely.
-
-**Q6**: What is the optimal timing window for committing to the Straight Footlock finish after establishing Straight Ankle Lock Control?
-**A**: The optimal window is within the first 8-15 seconds of establishing control. During this period, grips are freshest, leg control is tightest, and the defender has not yet accumulated sufficient defensive frames or grip breaks to neutralize the attack. Beyond this window, the energy dynamic shifts toward the defender as their escape sequences progressively loosen control. Quick decisive action, either finishing or transitioning, is essential.
-
-**Q7**: The defender strips your heel cup grip but you still have the forearm behind their Achilles - what is your best option?
-**A**: Without the heel cup, the compression pocket is broken and the defender can rotate their foot free. Immediately attempt to re-establish the grip if their foot is still accessible and your leg control remains intact. If they are actively extracting, do not persist with a one-handed finish. Instead, transition to kneebar by shifting control above the knee while maintaining leg clamp pressure, or advance to Inside Ashi-Garami if their hip movement during the grip strip exposed the pathway. A one-handed ankle lock attempt wastes energy and sacrifices transition timing.
-
-**Q8**: How does the Straight Footlock function within the broader ankle lock attack chain rather than as an isolated submission?
-**A**: The Straight Footlock finish forces the defender into specific defensive reactions that each open a distinct offensive pathway. Boot defense opens kneebar attacks. Hip rotation away opens Inside Ashi-Garami for heel hooks. Hip rotation toward opens Outside Ashi-Garami. Sitting up forward opens belly-down finish or Single Leg X-Guard sweeps. By treating the footlock as a forcing function within a system rather than an isolated finish, the attacker maintains offensive initiative regardless of which defense the opponent chooses.
-
-**Q9**: What grip configuration provides the most secure heel retention when the defender actively fights to extract their foot?
-**A**: The figure-four grip configuration provides the strongest heel retention because the interlocking arm structure creates redundant control that is structurally difficult to strip. Position the attacking forearm behind the Achilles, then wrap the opposite arm over the top of the foot to cup the heel while your attacking hand grips the opposite wrist or forearm. Pull the heel deep into your armpit and angle the foot perpendicular to your body so that toe-pointing extraction becomes geometrically more difficult.
-
-**Q10**: Your opponent's ankle approaches maximum dorsiflexion during your extension but they have not tapped - what indicators tell you the breaking point is near and how should you proceed?
-**A**: Key indicators include: visible strain in the Achilles tendon area, opponent's resistance suddenly decreasing as pain threshold approaches, audible distress sounds or rapid breathing changes, and the foot approaching maximum dorsiflexion angle with toes being pulled toward their shin. At these indicators, maintain steady progressive pressure without increasing speed or force. Be prepared for the tap at any moment, monitoring all five tap signals continuously. Never spike pressure at this stage as the transition from discomfort to injury is extremely rapid.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Straight Footlock?</p>
 
 The Straight Footlock applies direct mechanical stress to the ankle joint, Achilles tendon, and surrounding ligamentous structures including the deltoid and lateral collateral ligaments. Achilles tendon rupture is the most serious potential injury and can occur rapidly with explosive application, requiring 4-6 months surgical recovery. Always apply finishing pressure progressively over 3-5 seconds minimum in training, never with explosive jerking or spiking. Partners should tap early and often, especially once the forearm is properly seated behind the Achilles, as the transition from discomfort to structural damage can be instantaneous. Practitioners with pre-existing ankle injuries, Achilles tendinitis, or limited dorsiflexion range of motion should communicate these limitations before training. Never apply the technique on cold or insufficiently warmed-up training partners. In competition, release immediately upon tap or referee stoppage. Limit repeated finishing applications on the same leg within a single training session to prevent cumulative stress on the tendon.
 

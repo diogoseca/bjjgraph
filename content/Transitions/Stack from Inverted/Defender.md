@@ -162,6 +162,8 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack from Inverted?</p>
+
 - Opponent grips your pants at the waistband, belt, or directly controls your hips with both hands while facing your inverted position
 - Opponent lowers their level by bending knees and hips while stepping forward with chest angling downward toward your body
 - Opponent's weight shifts forward and downward with increasing pressure on your elevated legs and inverted structure
@@ -173,6 +175,8 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack from Inverted?</p>
 
 - Recognize the stack attempt early through grip placement and pressure direction cues before the top player commits full body weight into the compression
 - Maintain active frames on the opponent's hips and shoulders using your feet and legs as primary structural barriers against forward pressure
@@ -187,6 +191,8 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack from Inverted?</p>
 
 ### 1. Frame on opponent's hips with both feet and push to create distance, preventing the stack from engaging your inverted structure
 
@@ -224,6 +230,8 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack from Inverted?</p>
+
 ### → [[Positions/Inverted Guard]]
 
 Maintain strong frames on the opponent's hips with both feet, preventing them from closing distance for the stack. Keep your hips elevated and mobile, creating lateral angles that prevent the stack from engaging directly. Re-establish offensive grips on their collar and sleeve once the stack attempt is neutralized to resume your inverted guard offense.
@@ -239,6 +247,8 @@ Time a leg hook or sweep attempt as the opponent commits forward momentum into t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack from Inverted?</p>
 
 ### 1. Allowing weight to settle on the neck during the stack instead of maintaining pressure distribution across the shoulder blades
 
@@ -268,6 +278,8 @@ Time a leg hook or sweep attempt as the opponent commits forward momentum into t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack from Inverted?</p>
+
 **Phase 1: Recognition** - Identifying stack attempt cues from inverted guard
 Partner initiates stack attempts at varying speeds while you practice identifying the earliest cues: hip grips, level changes, and forward weight shifts. Focus on recognizing the stack before it engages rather than reacting after compression begins.
 
@@ -284,29 +296,6 @@ Partner applies full stacking pressure while you practice hooking their legs for
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate a stack attempt is being initiated from top position?
-**A**: The earliest cues are the opponent gripping your pants at the waistband or hip level, lowering their center of gravity by bending at the knees and hips, and shifting their weight forward with chest angling toward your body. You may also feel increased downward pressure on your elevated legs and notice them breaking or ignoring your offensive grips in favor of hip control. Recognizing these cues before the stack engages allows you to establish preventive frames.
-
-**Q2**: Why is it critical to maintain weight on your shoulder blades rather than your neck during stack defense?
-**A**: Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back.
-
-**Q3**: Your frames have been stripped and the opponent is driving you into a full stack. What is your highest percentage escape?
-**A**: When fully stacked with frames compromised, your highest percentage escape is the lateral granby roll to the side where the opponent has less grip control. Commit fully to the roll by driving through your posting shoulder and using whatever hip mobility remains to initiate rotation. Even a partial roll disrupts the stacking angle and may create enough space to re-establish frames or recover to a sustainable guard position before the pass completes.
-
-**Q4**: How should you use your legs differently when defending a stack versus playing offensive inverted guard?
-**A**: During offensive inverted guard, your legs extend toward the opponent to create hooks, manage distance, and facilitate rotation for berimbolo entries. When defending a stack, your legs shift to a primarily framing role with feet pressing firmly against the opponent's hips, shoulders, or biceps to create structural barriers that prevent compression. This transition from offensive hooks to defensive frames should happen immediately upon recognizing the stack attempt, prioritizing survival over maintaining attack position.
-
-**Q5**: When is it better to abandon inverted guard entirely rather than continuing to defend the stack?
-**A**: Abandon inverted guard when you notice decreasing hip mobility, increasing neck pressure, loss of primary grips, and the opponent achieving progressively deeper stacking angles. If you have spent more than three to five seconds absorbing stack pressure without creating an escape angle or counter-attack opportunity, the position is deteriorating and continued defense becomes increasingly risky. Technical standup, seated guard recovery, or closed guard pull are safer alternatives than persisting in a compromised inversion.
-
-
-
-</section>
 
 
 </main>

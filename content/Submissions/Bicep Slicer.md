@@ -3,24 +3,30 @@
 
 
 ---
-title: "Bicep Slicer | BJJ Submission | BJJ Graph"
+title: "Bicep Slicer | BJJ Submission Family | BJJ Graph"
 description: "Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Bicep Slicer targets the Bicep muscle and elbow joint. Risk: Bicep muscle tear or severe contusion. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Bicep Slicer/Attacker|Play as Attacker]]
-[[Bicep Slicer/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Bicep Slicer/from Crucifix|Crucifix]] | 52% | Bicep muscle tear or severe contusion |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +35,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 **Category**: Compression
 **Type**: Bicep Compression Lock
 **Target Area**: Bicep muscle and elbow joint
-**Starting Position**: [[Positions/Crucifix]]
-**Success Rate**: 52%
+**Success Rate**: 52% (average across variants)
 
 </section>
 
@@ -76,143 +81,10 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Crucifix]] | 25% |
-| Counter | [[Positions/Half Guard]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Create maximum leverage by using your shin as a fulcrum agai... | Straighten the trapped arm immediately—extending the elbow r... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Bicep Slicer/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Create maximum leverage by using your shin as a fulcrum against the back of the opponent's elbow
-
-- Control the wrist to prevent the opponent from straightening their arm and escaping
-
-- Maintain tight connection between your body and opponent's trapped arm to prevent space creation
-
-- Apply pressure progressively in training, never suddenly or explosively
-
-- Position your shin perpendicular to the opponent's arm for maximum compression
-
-- Use your bodyweight and hip pressure to increase the submission force, not just arm strength
-
-- Secure dominant position control before attempting the submission to prevent counters
-
-
-### Execution Steps
-
-
-- **Secure dominant control position**: From the crucifix, truck, or modified mount, establish complete control over the opponent's body. En...
-
-- **Isolate the target arm**: Identify the arm you will attack (typically the one closest to your legs or most exposed). Use your ...
-
-- **Insert shin behind elbow**: Slide your shin behind the opponent's elbow joint, positioning it perpendicular to their forearm. Yo...
-
-- **Secure wrist control**: Grip the opponent's wrist firmly with both hands if possible, or with one hand while using the other...
-
-- **Close the angle and apply compression**: Pull the opponent's wrist toward your chest while simultaneously pushing your shin deeper behind the...
-
-- **Add hip pressure for finish**: Once the compression is established, use your hips to drive additional pressure into the submission....
-
-- **Maintain position until tap or transition**: Hold the submission with steady pressure until your partner taps. Do not pump or pulse the submissio...
-
-
-### Common Mistakes
-
-
-- **Applying the submission too quickly or explosively in training**
-  - Consequence: High risk of serious bicep tear or elbow injury to your training partner
-  - Correction: Always apply bicep slicers slowly and progressively, taking a minimum of 5-7 seconds to reach full pressure. Maintain constant verbal communication with your partner and release immediately upon tap.
-
-- **Positioning the shin across the forearm instead of behind the elbow**
-  - Consequence: Little to no submission pressure, allowing easy escape
-  - Correction: Ensure your shin is directly behind the elbow joint, perpendicular to the opponent's arm. The back of their elbow should be pressed into your shin bone, not their forearm or bicep.
-
-- **Failing to control the opponent's wrist adequately**
-  - Consequence: Opponent can straighten their arm and escape the submission completely
-  - Correction: Establish firm wrist control before applying pressure. Use a two-handed grip when possible and pull the wrist toward your chest to maintain the bent arm position required for the submission.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Bicep Slicer/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Straighten the trapped arm immediately—extending the elbow removes the fulcrum and eliminates the compression mechanism entirely
-
-- Fight wrist control as the first priority since the attacker cannot finish without controlling the wrist to maintain the bent arm position
-
-- Recognize the setup early by monitoring for shin placement behind the elbow, which signals the bicep slicer is being established
-
-- Tap early rather than late—the bicep slicer has a narrow window between pressure and injury, and heroic defense risks serious muscle or ligament damage
-
-- Use the free arm actively to push the attacker's shin away from behind the elbow before the fulcrum is fully seated
-
-- Create space through hip movement to reduce the attacker's chest pressure, which weakens the overall compression force
-
-- Address the positional disadvantage first—escaping crucifix or truck control removes the bicep slicer threat entirely
-
-
-### Recognition Cues
-
-
-- Opponent's shin begins sliding behind your elbow joint while they maintain wrist or hand control—this is the primary setup indicator
-
-- You feel your arm being pulled toward the opponent's chest while their leg positions across or behind your arm, creating a closing sensation around the elbow
-
-- From crucifix or truck position, the opponent shifts focus from neck attacks to isolating and bending one of your arms while repositioning their legs
-
-- Increasing pressure on the back of your elbow from a bony surface (shin bone) combined with wrist manipulation pulling your hand toward the opponent's body
-
-
-### Escape Paths
-
-
-- Arm straightening escape: Drive the elbow toward full extension before the fulcrum locks, then use the extended arm to frame and escape the underlying dominant position through hip escape or bridging
-
-- Shin displacement escape: Use the free hand to push the attacker's shin away from behind the elbow while simultaneously shrimping the hips to create space, then work to recover guard or turtle position
-
-- Rolling escape: When the attacker's base is compromised during the submission attempt, roll toward them to disrupt both the bicep slicer and the dominant position, fighting to turtle or half guard during the scramble
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Bicep Slicer from Crucifix**: The most common and highest percentage application. From the crucifix position, you have both arms controlled, making it easier to isolate one arm for the bicep slicer. Use your leg positioning to trap their arm while your hands control their wrist, creating the perfect angle for compression. (When to use: When you have established crucifix control and the opponent is defending chokes by tucking their chin or protecting their neck. The bicep slicer becomes an excellent alternative finish.)
@@ -250,16 +122,16 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Related Submissions
 
-- [[Transitions/Kimura]]
-- [[Transitions/Americana]]
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Armbar from Side Control]]
-- [[Transitions/Calf Slicer]]
-- [[Submissions/Calf Slicer from Truck]]
-- [[Submissions/Banana Split]]
-- [[Submissions/Twister]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Arm Crush]]
+- [[Submissions/Kimura]] - Alternative submission when opponent defends by straightening arm
+- [[Submissions/Americana]] - Related arm isolation and control concepts from top position
+- [[Armbar from Armbar Control]] - Alternative arm attack when defense creates arm extension
+- [[Armbar from Side Control]] - Alternative arm submission accessible from side control transitions
+- [[Submissions/Calf Slicer]] - Similar compression lock mechanics applied to the lower leg
+- [[Arm Crush from Side Control]] - Related compression submission from side control position
+- [[Submissions/Banana Split]] - Compression submission from similar truck and twister positions
+- [[Submissions/Twister]] - Complementary attack from twister control sharing similar setup
+- [[Submissions/Rear Naked Choke]] - Available from crucifix when bicep slicer is defended
+- [[Transitions/Armbar from Crucifix]] - Alternative submission from the primary setup position
 
 
 </section>
@@ -270,15 +142,15 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 - [[Positions/Crucifix]] - Primary attacking position for bicep slicer
 - [[Positions/Twister Control]] - Common setup position for bicep slicer and calf slicer combination
-- [[Transitions/Kimura]] - Alternative submission when opponent defends by straightening arm
-- [[Transitions/Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
+- [[Submissions/Kimura]] - Alternative submission when opponent defends by straightening arm
+- [[Submissions/Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
 - [[Positions/Mount/Technical Mount]] - Modified mount position allowing bicep slicer setup
-- [[Transitions/Americana]] - Similar arm isolation and control concepts
+- [[Submissions/Americana]] - Similar arm isolation and control concepts
 - [[Positions/Back Control]] - Position that can transition to crucifix and bicep slicer opportunities
 - [[Submissions/Banana Split]] - Another compression-based submission using similar mechanical principles
 - [[Positions/Gift Wrap]] - Arm control position that can transition to bicep slicer setup
 - [[Submissions/Arm Crush]] - Related compression submission targeting the arm
-- [[Submissions/Armbar from Mount]] - Alternative arm attack when bicep slicer defense creates extension
+- [[Armbar from Armbar Control]] - Alternative arm attack when bicep slicer defense creates extension
 - [[Positions/Mount/S Mount]] - Mount variation providing bicep slicer setup opportunity
 
 

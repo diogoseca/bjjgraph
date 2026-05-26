@@ -166,6 +166,8 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure Pass Through Squid?</p>
+
 - Opponent drops hips low and begins driving chest forward rather than attempting to strip your lapel grip or extract their arm from the wrap
 - Opponent secures a deep cross-collar grip with their free hand, anchoring themselves for forward pressure commitment
 - Opponent's head drops to your far shoulder level and they stop fighting the arm entanglement, indicating acceptance of the wrap and commitment to pressure passing
@@ -177,6 +179,8 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure Pass Through Squid?</p>
 
 - Recognize the pressure pass commitment early—before chest contact is established you have maximum defensive leverage from the lapel configuration
 - Maintain distance through active hip movement and leg frames to preserve the space squid guard needs to function
@@ -191,6 +195,8 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure Pass Through Squid?</p>
 
 ### 1. Sit-up back take: as opponent commits weight forward, use the lapel connection as an anchor and sit up aggressively toward their trapped-arm side, threading your free arm under their armpit to establish a seatbelt grip behind them
 
@@ -228,6 +234,8 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure Pass Through Squid?</p>
+
 ### → [[Positions/Back Control]]
 
 Time the sit-up back take during the early phase of the pressure pass when opponent drops level and commits weight forward. Use the lapel connection as your anchor point, sit up explosively toward their trapped-arm side, and thread your free arm under their armpit to establish seatbelt control behind them. Their trapped arm prevents them from posting to stop your rotation.
@@ -243,6 +251,8 @@ Maintain distance through active hip movement and secondary frames before oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure Pass Through Squid?</p>
 
 ### 1. Lying flat on your back and relying solely on the lapel wrap to stop the pass
 
@@ -277,6 +287,8 @@ Maintain distance through active hip movement and secondary frames before oppone
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure Pass Through Squid?</p>
+
 **Week 1-2** - Recognition and timing
 Partner alternates between pressure pass attempts and technical lapel clearing approaches from squid guard. Practice identifying which approach they are using within 2 seconds of their initial movement. No defensive responses yet—focus solely on accurate recognition of the pressure commitment versus technical clearing.
 
@@ -293,29 +305,6 @@ Partner uses any lapel guard passing approach from squid guard position—pressu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a technical lapel clearing approach?
-**A**: The earliest cue is when your opponent stops fighting the lapel wrap and instead drops their hips low while driving their chest forward toward yours. A technical passer would be working to extract their arm or strip your grip—a pressure passer accepts the entanglement and commits their weight forward. The deep collar grip with their free hand and head dropping to shoulder level confirm the pressure commitment.
-
-**Q2**: Why is the sit-up back take the highest-percentage counter to the pressure pass, and what makes the timing window critical?
-**A**: The pressure passer has committed their weight forward with one arm trapped in your lapel, creating a path behind them that a well-timed sit-up exploits. Their trapped arm cannot post to prevent your rotation, and their forward weight commitment means they cannot easily retreat. The timing window is between their level change and chest contact—too early and they have not committed enough, too late and their crossface pins you flat.
-
-**Q3**: Your opponent has established chest-to-chest contact and is beginning to walk legs around—the sit-up window is closed. What is your best defensive sequence?
-**A**: Create a strong forearm frame against their crossface shoulder to prevent them from settling their full weight. Hip escape away from the direction they are walking to re-establish distance. Use your legs actively to create frames or insert hooks. If you can create enough space, reconfigure to half guard with knee shield as a minimum defensive position. The frame must be established before their crossface locks your head in place.
-
-**Q4**: How does maintaining a lateral hip position rather than lying flat improve your defensive options?
-**A**: A lateral hip position preserves your ability to hip escape, maintains guard structure through angled leg positioning, and makes it mechanically harder for the passer to establish the flat chest-to-chest contact their pressure pass requires. Flat on your back, your hips have no mobility and your legs lose structural leverage. On your side, you retain the ability to shrimp, insert frames, and threaten the sit-up back take.
-
-**Q5**: What should you do if you recognize the pressure pass but have already lost significant distance and your opponent is halfway through the leg walk?
-**A**: At this late stage, commit to frame-based survival and guard recovery rather than attempting the sit-up. Establish forearm frames on their shoulder, protect your neck from crossface, and work aggressively to insert a knee between your bodies to recover half guard. Half guard with knee shield is a strong fallback position that resets the exchange. Accepting half guard rather than fighting a losing battle for full guard retention preserves energy for the next exchange.
-
-
-
-</section>
 
 
 </main>

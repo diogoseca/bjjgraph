@@ -23,7 +23,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Cross Collar Choke",
       "probability": 15,
       "result": "counter"
     }
@@ -146,7 +146,7 @@
         "counter": "Attacker switches to rear naked choke when you grab their wrist",
         "effectiveness": "High",
         "your_response": "Keep their wrist trapped against your chest with two-on-one control. If they try to swim their arm free, maintain the grip and use the transition moment to hip escape while they are uncommitted to either attack.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Back Control/Bottom"
       },
       {
         "counter": "Attacker deepens hooks and flattens you out to prevent bridging",
@@ -226,7 +226,7 @@
         "description": "Full positional sparring from invisible collar position. Attacker works to finish any back submission while defender must escape to guard or neutral. Track success rate and time-to-escape metrics. Target: surviving 60% of rounds and escaping to guard in 40% within 60 seconds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Hand Fighting to Remove Collar Grip?",
         "answer": "The primary goal is to neutralize the immediate choking threat by removing the opponent's deep collar grip before they can apply finishing pressure. This creates a window to work subsequent escapes from back control without the imminent danger of being choked. Success means buying time and reducing the threat level, not necessarily escaping the position entirely."
@@ -296,14 +296,14 @@
       {
         "action": "Drive choking elbow to your hip and tighten collar grip against their pull by rotating your forearm inward",
         "when_to_use": "When opponent first establishes two-on-one on your wrist and begins pulling, before they coordinate with bridging",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Back Control/Bottom",
         "if_successful": "The collar choke tightens despite their grip fighting, creating immediate submission pressure that forces them to abandon the strip and tap",
         "risk": "If they successfully strip the grip during your tightening attempt, you lose collar position entirely and must re-establish from seatbelt"
       },
       {
         "action": "Release collar grip and immediately swim arm to rear naked choke position while both their hands are occupied low",
         "when_to_use": "When their two-on-one control is strong and collar retention is failing, but their neck is momentarily exposed because both hands are on your wrist",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Back Control/Bottom",
         "if_successful": "You establish rear naked choke before they can redirect their hands from your wrist to neck defense, finishing with alternative submission",
         "risk": "If the RNC transition is too slow, they redirect hand fighting to defend the new attack and you have lost the collar position without gaining the RNC"
       },
@@ -324,7 +324,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
+        "outcome": "Back Control/Bottom",
         "how": "Finish the collar choke by tightening grip against their strip attempts, or transition to rear naked choke when both their hands are occupied on your wrist. The opponent's commitment to grip removal creates windows for submission completion."
       },
       {
@@ -354,7 +354,7 @@
         "correction": "The instant you feel their two-on-one pressure release, immediately drive your fingers deeper into the collar or adjust your hand angle for better purchase. These micro-windows are your best opportunity to improve grip depth."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why does your opponent's two-on-one grip commitment create offensive opportunities for you?",
         "answer": "When the bottom player commits both hands to your choking wrist, they abandon all other defensive actions. Their hips, hooks, and lower body become completely undefended. This means you can deepen hooks, transition to body triangle, or switch to alternative submissions like the rear naked choke while their hands are occupied. Their defensive commitment to one threat opens vulnerability to every other threat."

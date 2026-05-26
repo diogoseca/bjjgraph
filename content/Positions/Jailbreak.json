@@ -325,7 +325,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution principle for maintaining control in Jailbreak Top?",
         "answer": "Weight should be distributed forward through the chest and shoulders with hips driving toward the bottom player's center line. The pressure must be applied to the upper body rather than sitting back on the hips, as this prevents the bottom player from creating frames, sitting up, or recovering guard. Maintaining low forward pressure makes your weight feel heavier while keeping you mobile enough to react to leg movements."
@@ -599,7 +599,7 @@
         "attempt_probability": 10
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important control point that must be maintained throughout the Jailbreak escape?",
         "answer": "The underhook on the same side as your trapped leg is the essential control point. This underhook serves as the connection that prevents the top player from separating from you during the roll, enables you to control the direction of the escape, and provides the leverage needed to complete the inversion. Without maintaining this underhook, the top player can easily disengage, follow to mount, or re-establish dominant top position during your escape attempt."

@@ -188,6 +188,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Body Triangle Squeeze?</p>
+
 - Posterior Chain Engagement: Generate compression force through coordinated activation of glutes, adductors, and core rather than relying on leg squeeze alone, using hip drive as the primary force generator
 - Optimal Triangle Height: Position the lock around floating ribs and diaphragm where structural resistance is lowest and breathing restriction is maximized
 - Progressive Pressure Escalation: Build squeeze intensity gradually rather than explosive maximum compression, allowing cumulative effect to erode defensive capacity
@@ -202,6 +204,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Body Triangle Squeeze?</p>
+
 - Secure body triangle with figure-four lock positioned at lower ribcage height around the floating ribs and diaphragm area
 - Establish upper body control through seatbelt grip, collar control, or over-under configuration to prevent defensive turning
 - Position hips on the mat beside opponent rather than elevated on their back, creating leverage base for compression
@@ -214,6 +218,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Body Triangle Squeeze step by step?</p>
 
 1. **Verify Triangle Lock Position**: Confirm your figure-four lock is properly secured with your foot tucked deep behind your own knee at the level of the opponent's lower ribcage and diaphragm. The lock should be tight with no slack in the configuration before beginning finishing pressure. If the triangle is too high or loose, adjust before committing to the squeeze.
 2. **Secure Upper Body Control**: Establish seatbelt grip or collar control to prevent the opponent from turning or creating escape space while you focus on the squeeze. Your upper body must immobilize their shoulders and prevent rotation in either direction. Tight elbows prevent grip breaks during the squeeze attempt.
@@ -243,6 +249,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Body Triangle Squeeze?</p>
+
 - **Opponent turns torso toward triangle leg side to reduce squeeze angle and compression surface area** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips to maintain optimal squeeze angle. Use seatbelt grip to pull them back flat. If they persist in turning, the rotation often exposes their neck for choke entry, converting their defensive movement into a submission opportunity. → Leads to [[Positions/Back Control/Body Triangle]]
 - **Opponent attacks the locked foot behind your knee, attempting to pry it free and break the figure-four configuration** (Effectiveness: High) - Your Response: Squeeze tighter momentarily to make the foot harder to access, then transition to crucifix or armbar setup since their hands reaching for your foot means hands not protecting their neck. If they partially dislodge the foot, use your free hand to re-secure it immediately. → Leads to [[Positions/Back Control]]
 - **Opponent bridges aggressively and creates space between their torso and your legs to relieve compression** (Effectiveness: Medium) - Your Response: Follow the bridge by maintaining chest-to-back connection and tightening your seatbelt grip. Use the bridge momentum to adjust your hip position and re-establish optimal compression angle. Their bridging effort consumes energy under restricted breathing, accelerating their fatigue. → Leads to [[Positions/Back Control/Body Triangle]]
@@ -254,6 +262,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Body Triangle Squeeze?</p>
 
 ### 1. Applying explosive maximum squeeze from the start rather than progressive pressure buildup
 
@@ -293,6 +303,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Body Triangle Squeeze (Attacker)?</p>
+
 **Phase 1: Squeeze Mechanics** - Posterior chain engagement and force generation
 Practice the squeeze mechanics without a partner using a heavy bag or grappling dummy. Focus on engaging glutes, adductors, and core simultaneously with hip drive. Learn to feel the difference between leg-only squeeze and full posterior chain engagement. Build muscle endurance for sustained compression.
 
@@ -313,42 +325,12 @@ Practice recognizing when to commit to the squeeze versus when to transition to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal height to position your body triangle for maximum squeeze effectiveness?
-**A**: Position the triangle around the lower ribcage and diaphragm, approximately at the level of the floating ribs just above the belly button. This height maximizes breathing restriction because the floating ribs have less structural resistance than the upper ribcage, and diaphragm compression directly impairs the primary breathing muscle. Too high allows better breathing; too low reduces control and may slip off the hips.
-
-**Q2**: Your opponent tucks their elbows tight against their ribs to absorb the squeeze pressure - how do you adjust?
-**A**: Their elbows distribute pressure more evenly, reducing effectiveness. Adjust by angling your squeeze to target the side without elbow protection, or use your upper body grips to strip their arms away from their torso. You can also transition to choke attacks since their hands are occupied defending the squeeze rather than protecting their neck, turning their defensive adaptation into an offensive opportunity.
-
-**Q3**: How do you generate maximum compression force through the body triangle?
-**A**: Engage your entire posterior chain by driving your hips forward into the opponent's lower back while simultaneously squeezing your adductors and glutes. The figure-four lock acts as a force multiplier, converting leg engagement into concentrated pressure on the ribcage. The hip drive is the primary force generator, not the legs alone. Without hip engagement, the squeeze relies only on adductor strength, significantly reducing finishing pressure.
-
-**Q4**: When should you abandon the squeeze and transition to a different attack?
-**A**: Abandon the squeeze if the opponent creates significant space between your legs and their torso, if your legs begin fatiguing without visible effect on their breathing, or if they establish a defensive posture that neutralizes your compression angle. Transition to rear naked choke, armbar, or collar choke that exploits whatever defensive positioning they adopted to survive the squeeze. The squeeze has value even in failure because it forces defensive compromises.
-
-**Q5**: How does the body triangle squeeze create openings for the rear naked choke?
-**A**: The squeeze creates a defensive dilemma where the opponent must choose between protecting their ribs or their neck. When they focus on managing breathing and defending the squeeze with their hands and elbows positioned against their torso, their neck becomes exposed for choke entry. Increasing squeeze pressure at the same moment you begin working the choking arm forces a split-second prioritization decision that often results in one defense failing.
-
-**Q6**: Your opponent begins to bridge aggressively during the squeeze attempt - what is your response?
-**A**: Maintain chest-to-back connection and follow their bridge movement rather than fighting against it. Use your seatbelt grip to stay attached while the locked legs prevent meaningful separation. If they bridge toward your triangle leg side, this actually increases squeeze effectiveness by compressing at a tighter angle. Their bridging under restricted breathing accelerates their cardiovascular fatigue, making subsequent squeeze attempts more effective.
-
-**Q7**: What distinguishes an effective finishing squeeze from merely holding the body triangle position?
-**A**: An effective squeeze involves active engagement of the entire posterior chain with deliberate hip drive, strategic angle adjustment to target vulnerable floating rib areas, progressive pressure escalation, and coordination with upper body choke threats. Merely holding the position provides passive discomfort that experienced opponents can manage indefinitely. The finishing squeeze requires deliberate mechanical commitment and the willingness to invest energy in a sustained compression effort.
-
-**Q8**: How do you maintain the squeeze when your legs begin to fatigue?
-**A**: Switch to pulsing pressure by alternating between maximum and moderate squeeze levels rather than sustained maximum effort. This allows your muscles brief recovery periods while preventing the opponent from adapting to a constant pressure level. If fatigue becomes significant, maintain the position with reduced pressure while transitioning your attack focus to upper body submissions like the rear naked choke, using residual squeeze pressure as a complementary threat.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Body Triangle Squeeze?</p>
 
 The body triangle squeeze creates genuine rib compression that can cause rib fractures, costochondral separation, and diaphragm compromise. Always apply pressure progressively rather than explosively. Release immediately upon any tap signal including verbal tap, hand tap, or distressed body language. In training, communicate with your partner about pressure intensity and agree on maximum levels before drilling. Never apply finishing-level squeeze force on partners with known rib injuries, breathing conditions, or recent thoracic surgery. Tap early when drilling this technique, as rib injuries from compression can be slow-healing and significantly impact training capacity.
 

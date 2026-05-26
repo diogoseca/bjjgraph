@@ -188,6 +188,8 @@ As the attacker executing this transition, your objective is to convert your bil
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Double Sleeve to De La Riva?</p>
+
 - Time the transition to the opponent's stepping pattern: insert the DLR hook as they commit weight to their lead leg, not when they are balanced on both feet
 - Maintain the far sleeve grip throughout the transition as your cross grip anchor: this is the one grip that never changes and provides continuous control
 - Use your same-side foot to push off the opponent's hip to create the angle needed for threading the DLR hook around the outside of their lead leg
@@ -202,6 +204,8 @@ As the attacker executing this transition, your objective is to convert your bil
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Double Sleeve to De La Riva?</p>
+
 - Firm bilateral sleeve grips established at or near the cuffs with constant pulling tension
 - At least one foot actively posted on the opponent's hip to maintain distance and control the angle
 - Opponent has stepped one leg forward or shifted weight laterally, creating a lead leg to hook
@@ -214,6 +218,8 @@ As the attacker executing this transition, your objective is to convert your bil
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Double Sleeve to De La Riva step by step?</p>
 
 1. **Identify the lead leg**: From your Double Sleeve Guard position with both sleeves controlled and feet on hips, observe which leg the opponent steps forward or commits weight to. This is your target leg for the DLR hook. The lead leg is identified by forward positioning and weight commitment, not merely by which leg is closer.
 2. **Create the hip angle**: Push off the opponent's far hip with your foot on that side while pulling their near sleeve toward your hip. This rotates your body approximately 45 degrees so your hips face the side of their lead leg rather than squarely facing them. This angle is essential because the DLR hook threads from outside to inside, requiring your hips to be oriented toward the hooking path.
@@ -243,6 +249,8 @@ As the attacker executing this transition, your objective is to convert your bil
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Double Sleeve to De La Riva?</p>
+
 - **Opponent retracts their lead leg before the DLR hook is established** (Effectiveness: High) - Your Response: If they retract quickly, maintain both sleeve grips and wait for them to step forward again. Their retraction often creates a momentary backward weight shift that can be exploited with a push sweep or tripod sweep. Stay patient and maintain your double sleeve framework until the next stepping opportunity presents itself. → Leads to [[Positions/Double Sleeve Guard]]
 - **Opponent strips the near-side sleeve grip during the conversion window** (Effectiveness: Medium) - Your Response: If you have already inserted the DLR hook, immediately grab their ankle or pants with your freed hand to complete the transition. If the hook is not yet established, use the remaining sleeve grip and your feet to maintain open guard distance while re-establishing grips. The key is not panicking during partial grip loss. → Leads to [[Positions/Double Sleeve Guard]]
 - **Opponent drives forward with heavy pressure during the transition** (Effectiveness: Medium) - Your Response: Their forward drive actually assists DLR establishment because it commits their weight to the lead leg. Accept the pressure, complete the hook insertion, and use their forward momentum to load them for a berimbolo entry or basic DLR sweep. Forward pressure during transition is one of the most exploitable reactions. → Leads to [[Positions/De La Riva Guard]]
@@ -255,6 +263,8 @@ As the attacker executing this transition, your objective is to convert your bil
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Double Sleeve to De La Riva?</p>
 
 ### 1. Releasing both sleeve grips simultaneously during the conversion
 
@@ -299,6 +309,8 @@ As the attacker executing this transition, your objective is to convert your bil
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Double Sleeve to De La Riva (Attacker)?</p>
+
 **Phase 1: Hook Mechanics (Week 1-2)** - DLR hook insertion and depth
 Partner stands in staggered stance with no resistance. Practice threading the DLR hook from various angles, focusing on getting the hook behind the knee with proper shin contact. Drill 50 repetitions per side per session until the hooking motion is automatic. Emphasize the hip angle creation before hook insertion.
 
@@ -319,48 +331,12 @@ Full positional sparring starting from double sleeve guard. Execute the transiti
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for inserting the DLR hook from double sleeve guard?
-**A**: The optimal window is when the opponent commits weight to their lead leg during a stepping action, whether they are initiating a pass, adjusting their base, or recovering from an off-balance. The weight commitment makes it mechanically difficult for them to retract the leg quickly enough to prevent the hook. You can create this window by pulling one sleeve harder than the other, forcing them to step to maintain balance.
-
-**Q2**: Which sleeve grip do you maintain throughout the transition and why?
-**A**: Maintain the far-side sleeve grip throughout the entire transition. This grip becomes your DLR cross grip, which is the foundation of DLR upper body control. The cross grip creates diagonal tension when combined with the same-side hook and ankle grip, disrupting the opponent's posture from an off-angle that is extremely difficult to resist. Releasing this grip during transition eliminates your only upper body control during the conversion.
-
-**Q3**: Your opponent retracts their lead leg just as you begin threading the DLR hook. How do you adjust?
-**A**: Maintain both sleeve grips and keep your feet on their hips rather than chasing the retracting leg. Their retraction creates a backward weight shift that can be exploited with a push sweep or tripod sweep from double sleeve. Alternatively, use the sleeve pull to force them to step forward again, recreating the lead leg opportunity. Chasing a retracting leg with your hook typically results in a shallow, weak DLR position.
-
-**Q4**: What hip angle should your body be at relative to the opponent when inserting the DLR hook?
-**A**: Your hips should be angled approximately 45 degrees toward the side of the opponent's lead leg, not square to their centerline. This angle is created by pushing off their far hip with your foot while pulling their near sleeve toward your hip. The angled orientation allows the hooking leg to thread naturally around the outside of their lead leg and creates the perpendicular DLR relationship that maximizes sweeping leverage.
-
-**Q5**: What are the four contact points that must be established to complete the full DLR guard structure?
-**A**: The four contact points are: the DLR hook behind the opponent's knee with your outside leg, the ankle or pants grip on the hooked leg with your near hand, the cross sleeve grip on the far sleeve with your other hand, and the free foot on the opponent's far hip or bicep for distance management. All four must be active for the DLR to function properly. Missing any one point significantly weakens the position.
-
-**Q6**: Your opponent drives forward with pressure as you are mid-transition. Is this dangerous or beneficial?
-**A**: Forward pressure during the transition is generally beneficial because it commits their weight to the lead leg you are hooking, making the DLR hook bite deeper and preventing them from retracting. Accept their pressure, complete the hook insertion rapidly, and use their forward momentum to load them for an immediate DLR sweep or berimbolo entry. The main risk is if you have already released your near-side grip but not yet grabbed the ankle, as the pressure could collapse your guard before the conversion is complete.
-
-**Q7**: How does this transition differ when the opponent is standing versus kneeling?
-**A**: Against a standing opponent, the DLR hook threads higher on their leg and you have more space underneath for the hooking motion, but their lead leg can retract faster. Against a kneeling opponent, you must create more angle with your hips since the hooking path is tighter, but their kneeling position makes it harder for them to retract quickly. The grip conversion sequence is identical in both cases, but the angle of hook insertion changes based on their height relative to you.
-
-**Q8**: What direction of force should you apply immediately after establishing the DLR position?
-**A**: Apply force diagonally by pulling the cross sleeve grip toward your opposite hip while extending the DLR hook away from you and pushing with your free foot on their far hip. This creates a rotational force that spirals the opponent off-balance toward the hooked side. The combined diagonal pull-and-push disrupts their base from two directions simultaneously, which is far more effective than pulling them straight forward or pushing them straight back.
-
-**Q9**: If your opponent strips the far sleeve grip during the transition, what are your immediate recovery options?
-**A**: If the DLR hook is already established, immediately grab their collar, belt, or re-grip the sleeve from a different angle. The DLR hook plus ankle grip provides enough lower body control to buy time for upper body grip recovery. If the hook is not yet established and you have lost the far sleeve, you need to establish any upper body control immediately, whether collar, sleeve, or wrist, before completing the hook. Operating DLR without any upper body grip is extremely vulnerable to backstep passes and leg drag passes.
-
-**Q10**: What chain attacks should you have ready immediately after completing this transition?
-**A**: Prepare three primary chains based on opponent reactions: if they drive forward with pressure, enter berimbolo or kiss of the dragon; if they maintain upright posture and resist being pulled forward, transition underneath to X-Guard or Single Leg X; if they attempt to strip your grips, execute the basic DLR sweep before they complete the strip. Having these three reaction-based chains ready means you can attack within one to two seconds of establishing DLR rather than settling into a static holding position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Double Sleeve to De La Riva?</p>
 
 This transition involves threading your leg around the opponent's leg, which can create momentary knee vulnerability if the opponent sprawls or drives forward unexpectedly during hook insertion. Avoid forcing the DLR hook if the angle is not correct, as this can hyperextend your hooking knee. Communicate with training partners about the intensity of their passing pressure during transition drills to prevent accidental knee torque. The transition itself carries low injury risk compared to submissions, but practitioners with existing knee issues should develop the hook insertion gradually and avoid snapping the hook in aggressively.
 

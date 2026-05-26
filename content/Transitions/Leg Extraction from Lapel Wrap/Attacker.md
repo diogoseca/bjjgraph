@@ -192,6 +192,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Extraction from Lapel Wrap?</p>
+
 - Address the lapel grip before attempting any passing movements, as the wrap converts your energy into sweeping momentum
 - Use both hands systematically in the grip-breaking sequence rather than fighting with one hand while leaving the other vulnerable
 - Maintain constant awareness of back exposure throughout the extraction, keeping shoulders squared to the opponent
@@ -206,6 +208,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Extraction from Lapel Wrap?</p>
+
 - Your leg is compromised by opponent's lapel wrapped around your knee or thigh area
 - You have identified which hand controls the lapel tail and which hand manages secondary grips
 - Your base is stable enough through your free leg to commit both hands to grip breaking
@@ -217,6 +221,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Extraction from Lapel Wrap step by step?</p>
 
 1. **Assess the wrap configuration**: Identify exactly how the lapel is threaded around your leg and where the opponent's grip is securing the tail. Note their secondary grips on your sleeves, collar, or pants that will interfere with extraction. Determine whether the wrap passes behind the knee or around the thigh, as this changes the extraction angle required.
 2. **Control the grip-fighting hand**: Use your lead hand to control the opponent's wrist or sleeve on their non-lapel hand. This prevents them from establishing additional control points or re-gripping while you work the extraction. Grip their sleeve at the wrist and pin it to the mat or their body to eliminate their secondary attack options.
@@ -247,6 +253,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Extraction from Lapel Wrap?</p>
+
 - **Opponent retightens the lapel wrap and creates angle while you attempt extraction** (Effectiveness: High) - Your Response: Abort the extraction attempt and reset your base before trying again. Address their secondary grip that allowed the re-tightening before your next attempt. → Leads to [[Positions/Ringworm Guard]]
 - **Opponent loads for a sweep as you commit both hands to grip breaking** (Effectiveness: High) - Your Response: Widen your base immediately with your free leg and drop your hips lower. Post with your extraction hand if necessary rather than completing the grip break. → Leads to [[Positions/Ringworm Guard]]
 - **Opponent transitions to back take as you focus on the lapel extraction** (Effectiveness: Medium) - Your Response: Keep shoulders absolutely square throughout extraction. If you feel them loading for the back, immediately square up and accept remaining in the guard rather than giving up your back. → Leads to [[Positions/Back Control]]
@@ -258,6 +266,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Extraction from Lapel Wrap?</p>
 
 ### 1. Attempting to extract while only using one hand on the grip
 
@@ -297,6 +307,8 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Extraction from Lapel Wrap (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice the grip-stripping motion with a compliant partner. Focus on hand placement, the peeling motion, and creating slack through hip position. Partner maintains static grip without resistance.
 
@@ -317,51 +329,12 @@ Full resistance rolling with specific entry from Ringworm Guard. Partner uses fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Leg Extraction from Lapel Wrap?
-**A**: The primary goal is to systematically remove your leg from the opponent's lapel wrap configuration and return to a neutral position where you can implement your preferred guard passing game. The extraction must be completed before attempting any passes because the wrap converts forward pressure into sweeping momentum.
-
-**Q2**: Why must you control the opponent's grip-fighting hand before attempting the lapel strip?
-**A**: Controlling their grip-fighting hand prevents them from immediately re-gripping the lapel after you break it, establishing additional secondary controls on your collar or sleeves, and creating angles for sweeps while your hands are committed to the extraction. Without this control, you waste energy breaking grips repeatedly.
-
-**Q3**: Your opponent begins a sweeping motion while both your hands are committed to grip breaking - what is the correct response?
-**A**: Immediately widen your base with your free leg and drop your hips lower rather than completing the grip break. Post with your extraction hand if necessary to prevent the sweep. Accept that you need to restart the extraction sequence rather than fighting through the sweep attempt, which typically accelerates position loss.
-
-**Q4**: How do you create slack in the lapel system without pulling directly against the grip?
-**A**: Step your trapped leg slightly toward the opponent while angling your hip inward. This reduces the distance between their grip point and your leg, creating momentary slack in the wrap. The slack window is when you strip the grip, using leverage and positioning rather than raw strength against their grip.
-
-**Q5**: Why is maintaining squared shoulders critical during the extraction process?
-**A**: Turning your back toward the opponent during extraction exposes you to easy back takes, converting a disadvantageous but recoverable guard situation into a potentially fight-ending position loss. Keeping shoulders squared denies them the angle they need for back attacks, even if it means the extraction takes longer.
-
-**Q6**: What is the danger of using explosive movements during extraction?
-**A**: The mechanical properties of the lapel wrap convert explosive energy into sweeping momentum for the bottom player. Sudden direction changes or explosive pulling against the wrap gives them exactly the energy they need for high-amplitude sweeps. Methodical, controlled movements deny them this energy transfer.
-
-**Q7**: Your opponent transitions to Worm Guard as you begin extracting - how should you adjust?
-**A**: Speed becomes critical once slack is created. Complete your extraction before they can fully establish the new lapel configuration. If they successfully transition, you may need to restart with a new extraction strategy specific to Worm Guard rather than fighting against a half-completed technique.
-
-**Q8**: What determines whether you should use standing extraction versus combat base extraction?
-**A**: Use standing extraction when the opponent has multiple control points established and you need distance to break free from secondary grips. Use combat base extraction when you have isolated the lapel grip as the sole control point and want maximum base stability during the strip. Standing creates distance but reduces stability.
-
-**Q9**: What grip configuration on the lapel material produces the most efficient stripping motion?
-**A**: Hook four fingers under the lapel material at the point furthest from the opponent's grip and peel outward using a scooping motion rather than grabbing and pulling. This peeling action works against the weakest part of the wrap configuration where friction is lowest, requiring less force than trying to break the grip at its strongest anchor point near their hand.
-
-**Q10**: After successfully extracting your leg, what is the most common mistake that leads to immediate re-establishment of the lapel guard?
-**A**: Failing to clear the loose lapel material away from your legs before transitioning to combat base. The freed lapel hangs near your knee area and the opponent can snatch it and re-thread within seconds. You must push the material toward them or to the side and immediately establish distance through your transition to the next position.
-
-**Q11**: Your opponent has both a deep lapel wrap and a collar grip on your far side - which grip do you address first and why?
-**A**: Address the collar grip first because it enables them to break your posture and create the angular off-balancing that powers their sweeps. The lapel wrap alone restricts mobility but requires the collar grip to generate real sweeping force. Once the collar grip is neutralized, the extraction becomes significantly safer because their offensive threat from the position is reduced.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Extraction from Lapel Wrap?</p>
 
 This technique carries moderate physical demands focused on grip fighting and base maintenance rather than joint manipulation. The primary safety concern is protecting your back from exposure during the extraction sequence - never turn away from the opponent or allow them to climb onto your back. Training should progress gradually from no resistance to full resistance over several weeks. Avoid training with partners who use excessive pulling force on the lapel as this can strain your knee joint. If you feel your knee being torqued during the extraction, reset and adjust your angle rather than forcing through the position. Communicate with your training partner about the intensity of the wrap tension to prevent knee hyperextension.
 

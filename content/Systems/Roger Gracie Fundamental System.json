@@ -196,7 +196,7 @@
         "timeframe": "Months 6-18: Develop technical precision and positional sensitivity"
       },
       {
-        "stage": "Pressure Application",
+        "stage": "Pressure",
         "focus": "Test fundamentals against progressively more difficult opponents and competitive situations",
         "timeframe": "Months 18-36: Build confidence in system under realistic pressure"
       },
@@ -221,14 +221,9 @@
       "relationship": "Primary attacking position in Roger's system - mastering mount control is foundational to entire approach"
     },
     {
-      "name": "Mount Control",
-      "content_type": "Position",
-      "relationship": "Specific control mechanics that make Roger's mount inescapable despite using basic techniques"
-    },
-    {
       "name": "High Mount",
       "content_type": "Position",
-      "relationship": "Advanced mount position used to prevent bridge escapes and set up cross collar chokes"
+      "relationship": "Advanced mount variation used to prevent bridge escapes and set up cross collar chokes"
     },
     {
       "name": "Side Control",
@@ -246,7 +241,7 @@
       "relationship": "Alternative dominant position to mount - used when mount cannot be achieved or maintained"
     },
     {
-      "name": "Scarf Hold Position",
+      "name": "Kesa Gatame",
       "content_type": "Position",
       "relationship": "Traditional control position emphasizing fundamental pinning mechanics and pressure"
     },
@@ -261,22 +256,12 @@
       "relationship": "Control position reached during certain passing sequences and mount escape defenses"
     },
     {
-      "name": "Pass to Side Control",
-      "content_type": "Transition",
-      "relationship": "Core transition in system - methodical guard passing is prerequisite to all subsequent techniques"
-    },
-    {
-      "name": "Side Control to Mount",
-      "content_type": "Transition",
-      "relationship": "Critical transition following classical positional hierarchy - must be executed with perfect control"
-    },
-    {
       "name": "Cross Collar Choke",
       "content_type": "Submission",
-      "relationship": "Roger's signature finish - basic technique executed with world-class precision"
+      "relationship": "Roger's signature finish - basic technique executed with world-class precision from mount"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Far Side Armbar",
       "content_type": "Submission",
       "relationship": "Secondary submission option from mount when collar grips cannot be established"
     },
@@ -301,12 +286,12 @@
       "relationship": "Guides technique selection - fundamental techniques are inherently most efficient when executed correctly"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Critical defensive and offensive principle - perfect base prevents sweeps and enables powerful passing"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Key to making basic positions inescapable - Roger's pressure felt impossibly heavy"
     },
@@ -321,9 +306,24 @@
       "relationship": "Defensive component of system - knowing escapes deeply helps prevent opponent from executing them"
     },
     {
-      "name": "Leverage Principles",
+      "name": "Levers",
       "content_type": "Principle",
       "relationship": "Explains why fundamental techniques work - Roger maximized leverage in every position"
+    },
+    {
+      "name": "Center of Gravity",
+      "content_type": "Principle",
+      "relationship": "Essential to Roger's crushing top game - optimal weight placement creates inescapable control"
+    },
+    {
+      "name": "Guard Passing",
+      "content_type": "Principle",
+      "relationship": "First phase of Roger's attack system - methodical passing principles underpin entire approach"
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Grip establishment precedes all position advancement in Roger's system"
     },
     {
       "name": "Bernardo Faria Pressure System",

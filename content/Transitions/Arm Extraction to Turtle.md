@@ -28,7 +28,7 @@ The technique exploits a fundamental vulnerability in the Aoki Lock: the attacke
 
 This escape is essential for any practitioner facing advanced no-gi competitors who utilize leg entanglement shoulder locks. The turtle destination, while not ideal, represents a significant improvement from the submission danger of Aoki Lock bottom. From turtle, you have multiple recovery options including guard pull, stand-up, and rolling escapes. Understanding proper execution prevents the catastrophic shoulder injuries that can result from defending this position incorrectly.
 
-**From Position**: [[Positions/Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -40,7 +40,7 @@ This escape is essential for any practitioner facing advanced no-gi competitors 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 55% |
-| Failure | [[Positions/Aoki Lock]] | 30% |
+| Failure | [[Positions/Aoki Lock Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
 
@@ -200,7 +200,7 @@ Arm Extraction to Turtle serves as the primary escape pathway from Aoki Lock bot
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock]] - Starting position - the submission control this escape addresses
+- [[Positions/Aoki Lock Control]] - Starting position - the submission control this escape addresses
 
 - [[Positions/Turtle]] - Target destination - position achieved upon successful escape
 

@@ -166,6 +166,8 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shin Removal to Pass?</p>
+
 - Opponent turns their chin toward the attacking shin rather than fighting the choke directly, indicating they are creating breathing space as the first step of systematic escape
 - Opponent places both hands on your hips with downward pressure rather than grabbing the choking leg, signaling they understand the correct escape mechanics and are preparing to drop your hip elevation
 - Opponent's head begins moving laterally toward the side opposite the choking leg rather than pulling straight back, indicating they have addressed the foot anchor and are executing the extraction phase
@@ -177,6 +179,8 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shin Removal to Pass?</p>
 
 - Maintain hip elevation throughout to preserve the perpendicular shin angle that creates maximum throat compression
 - Keep the foot behind their head deep and controlled with your own hands to prevent the anchor point from being addressed
@@ -191,6 +195,8 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin Removal to Pass?</p>
 
 ### 1. Pull foot deeper behind opponent's head and elevate hips aggressively when you feel them controlling your hips
 
@@ -228,6 +234,8 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin Removal to Pass?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Maintain constant hip elevation and keep foot deeply secured behind their head with both hands controlling your own ankle. When you feel downward hip pressure, counter by engaging your core to drive hips toward the ceiling. When they attempt to address the foot, pull it deeper while simultaneously adjusting shin angle to increase compression. The goal is preventing them from ever reaching the lateral extraction phase.
@@ -243,6 +251,8 @@ When the gogoplata structure is compromised beyond recovery, release the positio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin Removal to Pass?</p>
 
 ### 1. Allowing hips to drop flat to the mat when opponent presses down on them
 
@@ -272,6 +282,8 @@ When the gogoplata structure is compromised beyond recovery, release the positio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin Removal to Pass?</p>
+
 **Week 1-2** - Maintaining gogoplata structure under escape pressure
 Partner attempts slow-motion escape sequence while you focus on maintaining hip elevation and foot anchor behind their head. No transitions - purely practice keeping the submission structure intact through each phase of their escape attempt. Build awareness of which stage of escape they have reached.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from gogoplata control. Defend agai
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning a systematic Shin Removal escape rather than panicking?
-**A**: The earliest cue is when they turn their chin toward the attacking shin rather than pulling away or grabbing the leg frantically. This chin adjustment indicates they understand the proper escape mechanics and are creating breathing space as step one of the systematic sequence. A panicking opponent pulls backward or grabs the shin, while a knowledgeable opponent addresses their breathing first.
-
-**Q2**: Your opponent has successfully dropped your hips to the mat - what is your immediate priority?
-**A**: Immediately re-elevate your hips through an explosive bridge while simultaneously pulling your foot deeper behind their head with both hands. The dropped hips reduce shin compression but the closed loop system can still prevent extraction if the foot anchor remains deep. Use the bridge to restore perpendicular shin angle before they can capitalize on the reduced compression to begin lateral head movement.
-
-**Q3**: When should you abandon the gogoplata and recover to closed guard instead of continuing to fight for the submission?
-**A**: Abandon the gogoplata when your shin has been cleared from their throat and your foot is being removed from behind their head. At this point, the submission structure is mechanically broken and attempting to re-establish wastes time the opponent uses to complete the pass. Close your guard immediately while their posture is still compromised from the extraction effort, before they can drive into side control.
-
-**Q4**: How does maintaining your own foot control behind their head prevent the systematic extraction sequence?
-**A**: Your hands controlling your own foot behind their head preserves the closed loop anchor that makes the shin-across-throat configuration self-reinforcing. Without addressing this anchor, lateral head movement is blocked because the foot prevents the head from sliding out in any direction. If you control the foot with both hands, the opponent must first defeat your hand control before they can address the structural anchor, adding a critical layer to their escape sequence.
-
-**Q5**: Your opponent begins moving their head laterally - what triangle transition option becomes available?
-**A**: As they move laterally to extract, swing your choking leg over their far shoulder while bringing your opposite leg up to lock behind the knee. Their lateral movement actually assists the triangle entry because their head is already at the angle needed for triangle lock. The key is releasing the gogoplata configuration and immediately transitioning the shin from across-throat to behind-neck position while your other leg secures the triangle closure. Their arm on the extraction side is typically inside the triangle frame.
-
-
-
-</section>
 
 
 </main>

@@ -165,6 +165,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Hook (Bottom)?</p>
+
 - Bottom player on their side or back with one leg hooked around opponent's leg, creating entanglement that restricts top player's mobility and base while maintaining connection through constant pressure
 - Top player applying forward pressure attempting to flatten bottom player or free their trapped leg, typically with weight distributed toward bottom player's torso and attempting to establish dominant shoulder control
 - Bottom player maintains at least one defensive frame with arms (underhook, crossface defense, or pushing against opponent's hips/shoulders) to prevent being flattened completely and losing all offensive options
@@ -178,6 +180,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Hook (Bottom)?</p>
+
 - One of opponent's legs controlled with your leg hook establishing initial control point
 - Defensive frame established with at least one arm preventing immediate flattening
 - Opponent attempting to pass or maintain top pressure with forward intent
@@ -190,6 +194,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Hook?</p>
 
 - Maintain constant leg hook tension to control opponent's base and prevent leg extraction
 - Keep hips mobile and active, never allowing opponent to flatten you completely to the mat
@@ -205,6 +211,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Hook (Bottom)?</p>
 
 **If opponent drives forward with heavy pressure attempting to flatten you:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
@@ -233,6 +241,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Hook?</p>
 
 ### 1. Allowing opponent to establish dominant crossface control without fighting hands
 
@@ -272,6 +282,8 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Leg Hook defense?</p>
+
 ### Leg Hook Retention Drill
 
 Partner starts in leg hook bottom position while training partner attempts to extract trapped leg using various methods (stepping back, driving forward, circling). Bottom player focuses on maintaining leg hook control through adjustments while establishing frames. Work 2-minute rounds alternating between maintaining position and attempting extractions.
@@ -304,38 +316,6 @@ Isolate the old school sweep from leg hook position with partner providing gradu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the essential hip position for maintaining offensive options from Leg Hook Bottom?
-**A**: Stay on your side with an active hip angle rather than flat on your back. Use your bottom elbow as a posting point to prevent being flattened completely. This side position maintains hip mobility essential for transitions and sweeps. When flat on your back, you lose all mobility and offensive capability, making sweeps impossible and allowing opponent to advance position.
-
-**Q2**: Your opponent starts driving forward with heavy crossface pressure - what immediate adjustments do you make?
-**A**: First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go.
-
-**Q3**: What are the three primary functions of the leg hook in this position?
-**A**: The leg hook serves three critical functions: controlling opponent's base and preventing them from freely distributing weight for passing, restricting their mobility so they cannot step over or create passing angles, and providing a connection point that creates off-balancing opportunities for sweeps. The hook must remain dynamic with constant tension adjustments based on opponent movement.
-
-**Q4**: How do you prevent your opponent from extracting their trapped leg?
-**A**: Constantly adjust leg hook tension, angle, and depth based on opponent's escape attempts. When they try to pull the leg out, increase hook depth and angle your hips to follow their movement. Combine the leg hook with upper body frames that prevent them from creating the space needed for extraction. If they step back, immediately transition to single leg X or other elevated guard positions.
-
-**Q5**: Your opponent begins standing up while in your leg hook - how do you respond?
-**A**: Transition immediately to single leg X guard or X-guard positions that are designed for standing opponents. Maintain the leg hook connection while extending your body underneath them. Use your free leg to establish additional hooks on their standing leg. The standing position actually creates better sweeping opportunities for you if you adjust your guard configuration appropriately.
-
-**Q6**: What role does the free leg play in Leg Hook Bottom position retention?
-**A**: The free leg is a crucial dynamic tool that serves multiple purposes: pushing opponent's hips to create distance and prevent smashing pressure, establishing butterfly hooks as secondary control points, preparing for deep half or X-guard transitions, and creating barriers that prevent opponent from stepping through or around your guard. A passive free leg wastes a critical defensive resource.
-
-**Q7**: When should you attempt sweeps versus focusing on guard retention?
-**A**: Attempt sweeps only after establishing proper frames and using the leg hook to off-balance opponent. The timing window opens when opponent commits their weight forward without proper base, attempts to extract their trapped leg creating momentum you can redirect, or when their defensive reactions to your frames create an opening. Attempting sweeps while under heavy pressure without frames results in failed attempts and wasted energy.
-
-**Q8**: What indicates you should transition from Leg Hook to Deep Half Guard?
-**A**: Transition to deep half when opponent drives heavy forward pressure, as their momentum aids your entry underneath them. Also transition when they flatten you despite your frames, as going deeper removes their shoulder pressure effectiveness. The key indicator is when staying in standard leg hook becomes defensive with diminishing offensive options - deep half restores your attacking capability from underneath their base.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

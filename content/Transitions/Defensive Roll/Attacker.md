@@ -192,6 +192,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Defensive Roll?</p>
+
 - Work with the rotation rather than against it - redirect rather than resist the opponent's torque
 - Timing is critical - initiate the roll when opponent adjusts grips for the finish
 - Commit fully to the rolling direction once you begin the escape sequence
@@ -207,6 +209,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Defensive Roll?</p>
+
 - Opponent has established Twister Control with rotational pressure on your spine
 - At least one of your arms is relatively free to post and guide the roll
 - Opponent is transitioning grips or adjusting position, creating a timing window
@@ -219,6 +223,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Defensive Roll step by step?</p>
 
 1. **Assess rotation direction**: Identify which direction your spine is being rotated and determine the rolling direction that will reduce this torque rather than increase it. The roll should go with the rotation, not against it.
 2. **Protect the neck**: Tuck your chin firmly to your chest and bring your free hand to protect your neck. This prevents guillotine or neck crank attempts during the transition and roll.
@@ -249,6 +255,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Defensive Roll?</p>
+
 - **Opponent rides the roll and maintains back exposure, transitioning to conventional back control** (Effectiveness: High) - Your Response: Post strongly with both hands upon completing the roll and immediately sit through to guard before they can secure hooks → Leads to [[Positions/Back Control]]
 - **Opponent anticipates the roll and tightens leg control, preventing the escape** (Effectiveness: High) - Your Response: Abort the roll attempt and return to hand fighting and incremental leg extraction before reattempting → Leads to [[Positions/Twister Control]]
 - **Opponent transitions to guillotine as you expose your neck during the roll** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout and use your posting arm to create a frame against their choking arm → Leads to [[Positions/Twister Control]]
@@ -260,6 +268,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Defensive Roll?</p>
 
 ### 1. Rolling against the direction of spinal rotation rather than with it
 
@@ -299,6 +309,8 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Defensive Roll (Attacker)?</p>
+
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion without resistance, focusing on identifying rotation direction, maintaining neck protection, and completing the roll in a tight body position. Drill the posting arm placement and roll direction recognition.
 
@@ -316,54 +328,12 @@ Apply the Defensive Roll in live rolling situations. Partner actively hunts Twis
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Defensive Roll from Twister Control?
-**A**: The primary goal is to reduce spinal rotation and escape to a recoverable defensive position such as Turtle or Half Guard. The escape works by redirecting the opponent's rotational energy through a controlled roll rather than fighting the torque directly.
-
-**Q2**: Why must you roll WITH the direction of spinal rotation rather than against it?
-**A**: Rolling against the rotation dramatically increases spinal torque and can cause serious injury to the cervical and thoracic spine. Rolling with the rotation uses the opponent's own momentum to reduce stress on your spine while creating the escape angle.
-
-**Q3**: What is the optimal timing window to initiate the Defensive Roll?
-**A**: The optimal timing is when your opponent transitions their grip to hunt for the Twister finish. This grip adjustment momentarily weakens their leg control and creates a window where the roll can successfully break their entanglement. Rolling too early or late significantly reduces success probability.
-
-**Q4**: How should you protect your neck during the Defensive Roll?
-**A**: Tuck your chin firmly to your chest before initiating any rolling movement and use your free hand to create a frame against potential choking attempts. Maintain the chin tuck throughout the entire roll to prevent guillotine or neck crank submissions during the transition.
-
-**Q5**: What should you do immediately after completing the Defensive Roll?
-**A**: Immediately establish a defensive position - either strong Turtle with active frames or begin working to recover Half Guard with a knee shield. Do not pause or rest in the intermediate position, as the opponent will attempt to re-establish back control or return to Twister entries.
-
-**Q6**: Your opponent anticipates your roll and tightens their leg control. How do you respond?
-**A**: Abort the roll attempt and return to incremental escape methods - hand fighting their grips and working small adjustments to loosen the leg control. Attempting to force through tightened leg control risks injury and typically fails. Wait for a better timing opportunity.
-
-**Q7**: How do you extract your trapped leg during the rolling motion?
-**A**: Actively pull your knee toward your chest as you roll through. The rolling momentum changes the angle of leg entanglement, creating space to extract the trapped leg. This must be an active effort during the roll, not an afterthought once the roll is complete.
-
-**Q8**: Your opponent follows your roll and establishes back control. What is your immediate response?
-**A**: Post strongly with both hands upon completing the roll to prevent them from flattening you out. Immediately sit through to guard by turning into them before they can secure their hooks. Speed is critical - the longer you remain in Turtle with an opponent on your back, the worse your position becomes.
-
-**Q9**: What grip configuration on your posting arm provides the best guidance through the roll?
-**A**: Plant your posting arm with an open palm flat on the mat in the direction of the intended roll, fingers pointing away from your body. This open-hand post allows your arm to absorb the rolling momentum and steer your trajectory. A fist or closed hand risks wrist injury under the rotational load and provides less directional control.
-
-**Q10**: When should you NOT attempt the Defensive Roll?
-**A**: Do not attempt when the opponent's leg control is fully locked and their Twister grip is already secured. At this point, the escape window has closed and attempting the roll can increase spinal stress and accelerate injury. In this situation, protect your neck and tap if necessary for safety.
-
-**Q11**: Your opponent begins adjusting from Truck to full Twister Control - should you roll now or wait?
-**A**: This transition moment is actually the best window for the Defensive Roll. As your opponent shifts from Truck to Twister Control, their leg entanglement briefly loosens during the positional adjustment. Initiate the roll during this reconfiguration phase rather than waiting until full Twister Control is established and their grips are set.
-
-**Q12**: You complete the roll but land in Turtle with your opponent still attached. What determines whether you recover Half Guard or stay in Turtle defense?
-**A**: The determining factor is whether your trapped leg was fully extracted during the roll. If the leg is free, immediately insert your knee between your bodies to establish knee shield Half Guard, which offers better offensive options. If the leg remains partially trapped, prioritize Turtle defense with strong frames and active hip positioning while continuing to work the leg free incrementally.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Defensive Roll?</p>
 
 The Defensive Roll involves movement of the spine while under rotational stress, making proper execution critical for injury prevention. Never attempt this escape without first understanding the direction of spinal rotation - rolling the wrong direction can cause serious cervical and thoracic spine injuries. During training, partners should apply Twister Control progressively and communicate clearly about pressure levels. If you feel sharp pain or cannot breathe, tap immediately rather than attempting the escape. The neck is particularly vulnerable during this technique, so maintaining a strong chin tuck throughout is essential. Practice with a qualified instructor before attempting in live rolling, and never drill this technique at high speed until the mechanics are fully understood. When in doubt about timing or ability to escape, tapping is always the safest option.
 

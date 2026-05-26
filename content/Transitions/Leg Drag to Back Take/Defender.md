@@ -166,6 +166,8 @@ Successful defense requires proactive recognition of the back take attempt befor
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Back Take?</p>
+
 - Opponent releases their grip on your dragged leg while maintaining or increasing shoulder and chest pressure, indicating they are transitioning from passing grips to back control grips
 - You feel your opponent's arm sliding under your armpit or reaching over your far shoulder as they attempt to establish seatbelt configuration during the transition
 - Opponent's weight shifts from diagonal across your body to directly behind you, with their chest moving from your hip toward your upper back as they follow your rotation
@@ -177,6 +179,8 @@ Successful defense requires proactive recognition of the back take attempt befor
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Back Take?</p>
 
 - Never turn completely away from your opponent during leg drag defense as this directly feeds the back take sequence
 - Fight to face your opponent by turning into them rather than away, accepting half guard or side control over back exposure
@@ -191,6 +195,8 @@ Successful defense requires proactive recognition of the back take attempt befor
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Back Take?</p>
 
 ### 1. Turn into opponent and fight for underhook to face them rather than giving your back
 
@@ -228,6 +234,8 @@ Successful defense requires proactive recognition of the back take attempt befor
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Back Take?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Turn into your opponent aggressively at the first sign of the back take attempt. Fight for an underhook on the near side and drive your shoulder into them to face them directly. This forces the exchange back to leg drag control where you can work standard leg drag escapes rather than defending the far more dangerous back control.
@@ -243,6 +251,8 @@ When the opponent releases their leg drag grip to transition to seatbelt, exploi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Back Take?</p>
 
 ### 1. Turning away from the opponent in a panic when feeling the back take pressure develop
 
@@ -277,6 +287,8 @@ When the opponent releases their leg drag grip to transition to seatbelt, exploi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Back Take?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner establishes leg drag and slowly initiates the back take transition. Practice recognizing the cues (grip release, arm threading, weight shift) and executing the turn-in defense with zero resistance. Build muscle memory for turning toward the opponent rather than away. 30+ repetitions per session.
 
@@ -293,29 +305,6 @@ Start from established leg drag with partner actively pursuing the back take at 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important thing to avoid when defending the Leg Drag to Back Take?
-**A**: The most important thing to avoid is turning completely away from your opponent. Turning away directly feeds the back take by exposing your back and creating the rotation the attacker needs to insert hooks and establish seatbelt. Instead, fight to turn toward the opponent and face them.
-
-**Q2**: When is the optimal defensive window to prevent the back take from leg drag?
-**A**: The optimal window is the moment the attacker releases their leg drag grip to transition to seatbelt configuration. During this grip change, neither the leg drag control nor back control is fully established, creating a one-to-two second gap where explosive hip movement or rotation toward the opponent can deny the transition.
-
-**Q3**: Your opponent has released the leg drag grip and their arm is sliding under your armpit - what is your immediate response?
-**A**: Immediately pummel your elbow inside to prevent the underhook component of the seatbelt from establishing. Simultaneously turn your shoulders toward the opponent and fight to face them. Denying the seatbelt is critical because without upper body control, the opponent cannot maintain back connection even if they insert a hook.
-
-**Q4**: Why is accepting half guard a favorable defensive outcome when defending the back take?
-**A**: Half guard is significantly safer than back control because you face your opponent, have frame options, and can work sweeps and guard recovery. Back control gives the opponent 4 points and the highest submission percentage in BJJ. Trading back exposure for half guard is always a positional win for the defender.
-
-**Q5**: How do you recover half guard during the leg drag to back take transition?
-**A**: When the opponent releases the leg drag grip to change to back control grips, execute an explosive hip escape away while pulling your trapped knee to your chest. Insert the knee between your bodies to recapture the opponent's leg in half guard entanglement. The timing must coincide with the grip change moment when control is temporarily weakened.
-
-
-
-</section>
 
 
 </main>

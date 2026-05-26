@@ -220,7 +220,7 @@ This entry integrates seamlessly with headquarters position, knee slice passing,
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related position in leg entanglement system
 
-- [[Transitions/Toe Hold]] - Alternative submission from saddle position
+- [[Submissions/Toe Hold]] - Alternative submission from saddle position
 
 - [[Transitions/X-Guard to Ashi Garami]] - Complementary technique when opponent attempts X-Guard
 

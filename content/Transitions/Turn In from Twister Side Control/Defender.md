@@ -154,6 +154,8 @@ As the top player in twister side control, your goal when the bottom player atte
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn In from Twister Side Control?</p>
+
 - Bottom player begins creating frames against your shoulder or hip with forearms, establishing barriers before rotation
 - Bottom player's hips start rotating toward you, with their far hip driving toward the mat as they attempt to face you
 - Bottom player's near arm begins swimming underneath your arm seeking an underhook to anchor their turn
@@ -166,6 +168,8 @@ As the top player in twister side control, your goal when the bottom player atte
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn In from Twister Side Control?</p>
 
 - Maintain constant shoulder pressure driving the bottom player's near shoulder to mat to prevent frame establishment
 - Keep leg entanglement tight and active, squeezing the hook and adjusting position when you feel the bottom player working to extract
@@ -180,6 +184,8 @@ As the top player in twister side control, your goal when the bottom player atte
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn In from Twister Side Control?</p>
 
 ### 1. Drive shoulder pressure and collapse frames by lowering your chest into their near shoulder before they complete the frame structure
 
@@ -217,6 +223,8 @@ As the top player in twister side control, your goal when the bottom player atte
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn In from Twister Side Control?</p>
+
 ### → [[Positions/Mount]]
 
 Capitalize on the space the bottom player creates during their rotation by stepping over before they can insert a knee shield. Time the step-over to the moment their leg comes free from entanglement but before the knee crosses your body. Drive your hips down immediately upon achieving mount to prevent them from framing or bridging.
@@ -232,6 +240,8 @@ Shut down the escape at the earliest stage by collapsing frames with shoulder dr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn In from Twister Side Control?</p>
 
 ### 1. Allowing the bottom player to establish frames without immediately addressing them through increased pressure
 
@@ -261,6 +271,8 @@ Shut down the escape at the earliest stage by collapsing frames with shoulder dr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn In from Twister Side Control?</p>
+
 **Phase 1: Recognition Drilling** - Identifying turn-in setup cues
 Partner signals they will attempt a turn-in at a random point during a 2-minute round. Top player practices identifying the earliest cues including frame creation, hip shifting, and near arm movement. Call out the attempt before the rotation begins to develop pattern recognition.
 
@@ -277,26 +289,6 @@ Full resistance positional rounds where the bottom player uses all available esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a turn-in escape attempt?
-**A**: The earliest cue is frame creation at the shoulder or hip. Before the bottom player can rotate their hips inward, they must establish structural barriers to prevent you from collapsing them back flat during the turn. When you feel forearm pressure against your shoulder or see the bottom player positioning their arms for frames rather than defending submissions, they are likely setting up a turn-in. Addressing frames immediately prevents the entire escape sequence from developing.
-
-**Q2**: When should you abandon defending twister side control and transition to mount instead?
-**A**: Transition to mount when the bottom player has successfully completed the hip rotation and is now facing you, particularly if they have established an underhook. At this point, fighting to re-flatten them and re-establish twister mechanics wastes energy against established structural positioning. Instead, capitalize on the space they created during the rotation by stepping over before they can insert a knee shield. The mount is a superior position to twister side control, so this represents a positional upgrade.
-
-**Q3**: How do you prevent the bottom player from establishing the near-side underhook during their rotation?
-**A**: Control the near arm actively by maintaining a cross-body grip on the wrist or bicep, or by driving your own underhook deep to occupy the space the bottom player needs for their underhook insertion. When you feel the near arm beginning to swim underneath, immediately drive your shoulder forward and down to close the gap. The underhook is the anchor for the bottom player's facing position, so preventing it significantly reduces the turn-in's effectiveness.
-
-**Q4**: Your leg hook is being systematically loosened despite your efforts to maintain it - what is your response priority?
-**A**: If the leg hook is being loosened and you cannot re-establish it through active squeezing, immediately shift your tactical focus from maintaining twister side control to advancing to mount. The moment the leg comes free is actually your best window for the step-over, because the bottom player is focused on leg extraction rather than knee shield insertion. Drive your weight forward and step over during this transitional moment to convert the escape attempt into mount advancement.
-
-
-
-</section>
 
 
 </main>

@@ -32,7 +32,7 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Perpendicular angle creates unique force vectors that negate standard parallel-position escape mechanics
@@ -171,23 +171,23 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Transitions/Americana/Attacker|Americana]]** (14% of attempts)
+- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (14% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (12% of attempts)
+- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (12% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (15% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (24% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (11% of attempts)
+- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (14% of attempts)
+- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (14% of attempts)
 
 - **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (5% of attempts)
 
 - **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (3% of attempts)
 
-- **[[Submissions/Arm Triangle from Scarf Hold/Attacker|Arm Triangle from Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -240,7 +240,7 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 - **[[Positions/Half Guard]]** - Intermediate guard recovery position for bottom player escapes
 
-- **[[Positions/Scramble Position]]** - Result of successful bridge-and-roll escape creating 50-50 situation
+- **[[Positions/Standing Position]]** - Result of successful bridge-and-roll escape creating positional reset
 
 
 </section>

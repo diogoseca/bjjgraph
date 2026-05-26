@@ -34,7 +34,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Chest-to-back connection with constant forward pressure prevents opponent from creating escape distance or turning to face you
@@ -185,15 +185,15 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (49% of attempts)
+- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (49% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (15% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (6% of attempts)
+- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (6% of attempts)
 
 - **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (4% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (3% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
 
 - **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (2% of attempts)
 
@@ -223,13 +223,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (1% of attempts)
 
-- **[[Transitions/Transition to Game Over/Attacker|Transition to Game Over]]** (1% of attempts)
-
-- **[[Submissions/Armbar from Back/Attacker|Armbar from Back]]** (2% of attempts)
-
-- **[[Submissions/Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (2% of attempts)
-
-- **[[Submissions/Triangle Choke Back/Attacker|Triangle Choke Back]]** (2% of attempts)
+- **[[Submissions/Rear Triangle Choke/Attacker|Rear Triangle Choke]]** (2% of attempts)
 
 
 ### Common Mistakes

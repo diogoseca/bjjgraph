@@ -158,6 +158,8 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce Setup?</p>
+
 - Opponent shifts from standard front headlock head control to actively pinning your far arm against your body with chest pressure
 - You feel the opponent's far hand release shoulder control and begin threading under your near armpit toward your neck
 - Opponent steps their near leg forward across your centerline creating a perpendicular angle to your spine
@@ -169,6 +171,8 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce Setup?</p>
 
 - Deny the arm trap early by keeping elbows pinched tight to your ribs and maintaining active hand fighting against the crossface
 - Never allow your posture to break fully — any upward pressure or base maintenance delays the setup and creates defensive windows
@@ -183,6 +187,8 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce Setup?</p>
 
 ### 1. Early arm extraction — pump your trapped elbow outward and swim your arm free before threading begins
 
@@ -213,6 +219,8 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce Setup?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Extract your trapped arm early before threading begins by pumping your elbow outward and swimming it free then immediately work to recover posture and fight the front headlock using standard turtle defense or stand-up sequences
@@ -228,6 +236,8 @@ Circle toward the choking arm side and sit through to recover guard or execute a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce Setup?</p>
 
 ### 1. Pulling away from the opponent or extending the neck trying to create distance
 
@@ -257,6 +267,8 @@ Circle toward the choking arm side and sit through to recover guard or execute a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce Setup?</p>
+
 **Phase 1: Recognition and Awareness (Weeks 1-2)** - Identifying Darce setup cues from front headlock
 Partner slowly executes Darce setup sequence from front headlock while you focus solely on identifying each stage: arm trap, angle creation, threading initiation, grip lock. No escape attempts — build recognition of what the setup feels like at each stage so you can identify it during live rolling.
 
@@ -273,29 +285,6 @@ Partner establishes full Darce grip with moderate resistance while you practice 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when you recognize a Darce setup beginning?
-**A**: Preventing or reversing the arm trap is the single most important priority. The Darce choke requires your arm trapped against your neck to create the compression needed for the choke to function. If you can keep your elbows pinched tight or extract a trapped arm before the figure-four grip locks, the entire Darce mechanism fails regardless of how deep the threading arm penetrates.
-
-**Q2**: Why should you move toward the choking arm rather than away when defending the Darce setup?
-**A**: Moving toward the choking arm reduces the angle the attacker needs to complete the choke. The Darce requires the attacker's body to be perpendicular to your spine — by turning into them you flatten that angle and make it geometrically harder for the choke to close on your carotid arteries. Moving away actually opens the angle and creates space for deeper arm penetration making the choke tighter.
-
-**Q3**: Your opponent has begun threading their arm but has not locked the grip — what is your best defensive option?
-**A**: Circle toward the choking arm side and sit through to recover guard. At this stage the threading arm has some depth but no locked grip meaning you can still move your body freely enough to change the positional dynamic. By turning into the attacker and pulling your hips through you transition from front headlock bottom to guard which eliminates the Darce threat entirely. You must act before the grip locks because once the figure-four is secured this escape becomes dramatically harder.
-
-**Q4**: How do you recognize that a Darce setup is being attempted versus a standard front headlock hold?
-**A**: The key recognition cues are your far arm being actively pinned by increased chest pressure rather than just head control, the opponent releasing their far hand from your shoulder to begin threading under your armpit, and the opponent stepping their near leg forward across your centerline to create a perpendicular angle. Standard front headlock maintains bilateral control on head and shoulder — the Darce setup requires releasing one hand to thread creating a distinctive shift in pressure and hand positioning you can feel.
-
-**Q5**: What should you do if the Darce grip is already locked and the opponent has secured the figure-four?
-**A**: Once the grip is locked your options narrow significantly but escape is still possible. Immediately tuck your chin to your chest to block deeper penetration. Use your free hand to grip your trapped arm's wrist and pull it toward your body while turning your shoulders into the attacker. If extraction fails attempt a granby roll or forward roll toward the choking arm side to create a scramble and potentially land in guard. The critical point is acting immediately — every second with a locked Darce grip allows the attacker to tighten further.
-
-
-
-</section>
 
 
 </main>

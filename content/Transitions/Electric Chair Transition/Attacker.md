@@ -192,6 +192,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Electric Chair Transition?</p>
+
 - Maintain constant lockdown tension throughout the entire transition sequence - any loosening allows opponent to extract their leg
 - Secure deep underhook reaching across opponent's back before initiating hip elevation to prevent posture recovery
 - Use hip extension as the primary driver of the transition rather than arm pulling for mechanical efficiency
@@ -207,6 +209,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Electric Chair Transition?</p>
+
 - Lockdown half guard established with figure-four leg configuration secure and heel pulling down on opponent's thigh
 - Deep underhook secured on opponent's far side, reaching across their back to lat or belt region
 - Opponent's posture broken forward or prevented from establishing upright base
@@ -220,6 +224,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Electric Chair Transition step by step?</p>
 
 1. **Tighten Lockdown Control**: From lockdown half guard, confirm your figure-four leg configuration is secure with your outside leg threading under opponent's trapped leg. Pull your heel firmly against their thigh while your instep hooks behind their calf. This creates the foundational control for all subsequent mechanics.
 2. **Establish Deep Underhook**: Drive your underhooking arm deep across opponent's back until your hand reaches their far lat or belt area. Your shoulder should be wedged into their armpit, creating a strong connection that prevents them from posturing away or establishing crossface control.
@@ -249,6 +255,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Electric Chair Transition?</p>
+
 - **Opponent drives weight forward and flattens you with crossface pressure before underhook is secured** (Effectiveness: High) - Your Response: Prioritize underhook establishment before hip elevation. If flattened, use whip-up motion to re-break posture or transition to Deep Half Guard by diving underneath → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent posts their far hand on the mat to base out against elevation** (Effectiveness: Medium) - Your Response: Use free hand to control their posting arm, pulling it across their body. Alternatively, accelerate transition and use their base commitment to hit Old School sweep → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent windshield wipers their trapped leg to extract it from lockdown** (Effectiveness: Medium) - Your Response: Increase lockdown squeeze and follow their leg movement. If they create significant rotation, immediately pursue Truck entry as their defensive motion exposes the crab ride position → Leads to [[Positions/Half Guard]]
@@ -260,6 +268,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Electric Chair Transition?</p>
 
 ### 1. Releasing lockdown tension while reaching for ankle grip
 
@@ -299,6 +309,8 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Electric Chair Transition (Attacker)?</p>
+
 **Week 1-2** - Grip Sequencing
 Practice the technical sequence without resistance: establish lockdown, secure underhook, control ankle, begin elevation. Focus on maintaining lockdown tension throughout all grip changes. Drill 20-30 repetitions per side daily.
 
@@ -316,48 +328,12 @@ Integrate into live rolling with full resistance. Focus on identifying correct t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical driver of the Electric Chair Transition?
-**A**: Hip extension is the primary mechanical driver. While the underhook and ankle grip maintain control, powerful hip extension creates the elevation force that moves opponent's trapped leg into the Electric Chair position. Using arm strength instead of hip extension leads to rapid fatigue and weak positional pressure that opponents can easily resist.
-
-**Q2**: Why must you maintain lockdown tension when reaching for the ankle grip?
-**A**: Releasing lockdown tension during the grip change allows the opponent to extract their trapped leg and pass to side control. The lockdown is the foundational control that enables all Electric Chair mechanics. Without constant lockdown pressure, there is no anchor point to generate leverage and no mechanism to prevent immediate escape.
-
-**Q3**: Your opponent posts their far hand on the mat when you begin elevation - what are your two best options?
-**A**: Option one: Use your free hand to control their posting arm by grabbing their wrist and pulling it across their body, eliminating their base. Option two: Redirect to Old School sweep since their posting commits their weight, making them vulnerable to the backward roll. Choose based on which grip is more accessible and their weight distribution.
-
-**Q4**: What body angle should you achieve during the transition and why?
-**A**: You should angle your body approximately 45 degrees relative to your opponent as you achieve full extension. This perpendicular positioning maximizes the mechanical advantage of your lockdown lever and creates the optimal angle for splitting pressure on their trapped leg. Without proper angle, the pressure becomes primarily linear rather than creating the multi-directional force that makes Electric Chair difficult to defend.
-
-**Q5**: When the opponent windshield wipers their trapped leg to escape, what transition opportunity does this create?
-**A**: The windshield wiper motion exposes the crab ride position and creates an immediate Truck entry opportunity. Rather than fighting to maintain the Electric Chair path against their rotation, follow their movement and transition to Truck. Their defensive rotation actually facilitates your entry to an equally dangerous attacking position.
-
-**Q6**: What determines the correct timing to initiate the Electric Chair Transition?
-**A**: Initiate when opponent's weight is committed forward (making them light for elevation), when they're distracted by defending your underhook or upper body attacks, or immediately after breaking their posture. Attempting against a well-postured opponent with good base typically fails. The transition works best when opponent is already reacting to your lockdown pressure rather than establishing defensive position.
-
-**Q7**: How deep must the underhook be before initiating hip elevation?
-**A**: The underhook must reach across opponent's back until your hand grips their far lat muscle or belt area. Your shoulder should be wedged into their armpit creating a strong connection. A shallow underhook that only reaches their spine provides insufficient leverage and allows them to posture away, reducing transition success rate by 40-50%.
-
-**Q8**: Your opponent drives their weight forward aggressively when you establish the underhook - how do you adapt?
-**A**: Use their forward momentum to accelerate the transition by immediately extending your hips as they drive forward. Their weight commitment actually helps elevate their trapped leg. Alternatively, if they drive extremely hard, redirect to the whip-up variation combining their forward momentum with your extension, or dive underneath for Deep Half Guard entry.
-
-**Q9**: What three control points must work in coordination during the transition?
-**A**: The three control points are: lockdown tension (controls the trapped leg and creates the lever), deep underhook (stretches upper body and prevents posture recovery), and ankle grip (pulls the near leg toward your hip creating the split). All three must work in coordination - losing any single control point compromises the entire transition and enables escape.
-
-**Q10**: How does the Electric Chair Transition create a dilemma for the defending player?
-**A**: The transition forces a choice: defending the elevation by posting exposes them to the Old School sweep, while allowing the transition subjects them to Electric Chair submission threat. If they focus on extracting their leg, they expose the Truck entry. This multi-threat nature means any defensive choice opens a different offensive opportunity, making the transition difficult to stop completely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Electric Chair Transition?</p>
 
 The Electric Chair Transition involves significant pressure on the opponent's knee, hip, and groin area. Apply the splitting pressure progressively over several seconds rather than explosively to allow partners time to tap if necessary. Partners with limited hip flexibility or existing knee/groin injuries should communicate limitations before drilling. The transition itself is relatively safe, but the resulting Electric Chair position carries submission risk requiring careful pressure application. Tap early when caught in training - the compression nature of the Electric Chair can cause injury before pain fully registers.
 

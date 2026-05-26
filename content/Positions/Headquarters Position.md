@@ -32,7 +32,7 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure

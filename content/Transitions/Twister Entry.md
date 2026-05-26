@@ -184,7 +184,7 @@ The transition demands precise coordination between maintaining upper body press
 
 ## Position Integration
 
-The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu-Jitsu back attack system, connecting the turtle-top control phase to the specialized leg entanglement submissions. Cross body ride serves as a decision point where the attacker chooses between conventional back control pathways (standard back take, crucifix) and the Twister system (figure-four entanglement leading to Twister Finish, Calf Slicer, Banana Split). This entry is one of several pathways into Twister Control — others include Roll to Truck from back control, Truck Position Entry from standing, and Electric Chair Transition from lockdown. Understanding the Twister entry from cross body ride specifically is important because cross body ride is one of the most common turtle-top positions encountered in live rolling, making this entry the most frequently available pathway into the Twister system for practitioners who play a turtle-attacking game.
+The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu-Jitsu back attack system, connecting the turtle-top control phase to the specialized leg entanglement submissions. Cross body ride serves as a decision point where the attacker chooses between conventional back control pathways (standard back take, crucifix) and the Twister system (figure-four entanglement leading to Twister, Calf Slicer, Banana Split). This entry is one of several pathways into Twister Control — others include Roll to Truck from back control, Truck Position Entry from standing, and Electric Chair Transition from lockdown. Understanding the Twister entry from cross body ride specifically is important because cross body ride is one of the most common turtle-top positions encountered in live rolling, making this entry the most frequently available pathway into the Twister system for practitioners who play a turtle-attacking game.
 
 </section>
 
@@ -198,9 +198,9 @@ The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu
 
 - [[Positions/Twister Control]] - Target position reached on successful entry
 
-- [[Transitions/Twister Finish]] - Primary submission follow-up from established Twister Control
+- [[Submissions/Twister]] - Primary spinal lock submission available from established Twister Control
 
-- [[Submissions/Calf Slicer from Truck]] - Alternative submission from the same figure-four entanglement
+- [[Submissions/Calf Slicer]] - Alternative submission available from the same figure-four leg entanglement
 
 - [[Submissions/Banana Split]] - Alternative submission available from Twister Control leg position
 

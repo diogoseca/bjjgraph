@@ -161,6 +161,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Position Definition
 
+<p class="section-subtitle">What is S Mount (Bottom)?</p>
+
 - Bottom practitioner is on their back with top opponent sitting perpendicular across their torso, creating an S-shaped body configuration. The top person's near leg extends over the bottom person's head with the foot planted on the mat beyond their shoulder, while the far leg crosses over the bottom person's torso at chest level. This perpendicular positioning isolates the bottom person's near arm and creates optimal leverage for armbar attacks while maintaining top position control.
 - The bottom practitioner's near arm is isolated and controlled by the top opponent, either trapped between their legs or being attacked for armbar position. The bottom person's defensive priority is keeping this arm bent and tucked close to their body, with their hand gripping their own collar, lapel, or shoulder to prevent full extension. The far arm is typically used to post on the mat or frame against the opponent's hips to create defensive space and prevent complete armbar setup.
 - Top opponent's hips are positioned tight against the bottom person's near shoulder, eliminating space and preventing escape. The top person's weight is distributed through their posted leg (over the head) and their far leg (across the torso), creating a structural base that is difficult to disrupt. Their upper body leans toward the bottom person's trapped arm, positioning their center of gravity to control the arm while maintaining balance and preventing being rolled or swept off the position.
@@ -171,6 +173,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing S Mount (Bottom)?</p>
 
 - Opponent has achieved mount position and is actively attacking submissions
 - Top opponent has moved into perpendicular position with legs positioned for S Mount configuration
@@ -184,6 +188,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending S Mount?</p>
 
 - Protect the isolated arm first - never allow full extension as this guarantees submission
 - Keep trapped arm bent at 90 degrees or greater - straightened arms are indefensible against armbar
@@ -200,6 +206,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from S Mount (Bottom)?</p>
+
 **If opponent has full S Mount control with leg over head but arm is still bent and protected:**
 - Execute **[[Grip own collar and maintain bent arm defense/Attacker|Grip own collar and maintain bent arm defense]]** → [[Positions/Mount/S Mount]] (Probability: 90%)
 - Execute **[[Control opponent's leg with free hand/Attacker|Control opponent's leg with free hand]]** → [[Positions/Mount/S Mount]] (Probability: 85%)
@@ -215,7 +223,7 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 **If arm is partially extended and opponent is securing armbar grip:**
 - Execute **[[Pull arm back aggressively and re-grip collar/Attacker|Pull arm back aggressively and re-grip collar]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 - Execute **[[Roll toward opponent to relieve pressure/Attacker|Roll toward opponent to relieve pressure]]** → [[Positions/Turtle]] (Probability: 40%)
-- Execute **[[Tap if full extension achieved with hips locked/Attacker|Tap if full extension achieved with hips locked]]** → [[Positions/Game Over]] (Probability: 100%)
+- Execute **[[Tap if full extension achieved with hips locked/Attacker|Tap if full extension achieved with hips locked]]** → [[game-over]] (Probability: 100%)
 
 
 **If opponent adjusts position to attack other arm or transition to different submission:**
@@ -231,6 +239,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending S Mount?</p>
 
 ### 1. Straightening the trapped arm in attempt to pull it free from opponent's control
 
@@ -270,6 +280,8 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train S Mount defense?</p>
+
 ### S Mount Escape Progression
 
 Partner establishes S Mount control with 50% resistance. Practice defensive posture (bent arm, collar grip, leg control) then execute hip escape to half guard. Gradually increase opponent's resistance as technique improves. Focus on maintaining arm protection throughout entire escape sequence.
@@ -302,38 +314,6 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent drops their weight and starts to extend your trapped arm - what immediate defensive action do you take?
-**A**: Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it.
-
-**Q2**: What are the essential body positions you must maintain when trapped in S Mount bottom?
-**A**: Keep your trapped arm bent with hand gripping your collar, elbow tight to your ribs. Your free hand controls opponent's near leg or frames against their hip. Shoulders stay relatively flat to prevent back exposure, but hips should be mobile and ready to escape. Chin tucked to protect neck. Never let both arms extend or get trapped simultaneously.
-
-**Q3**: How do you prevent your opponent from stepping fully over your head to complete the armbar?
-**A**: Use your free hand to hook or control their near leg at the knee or shin, physically blocking their ability to step over. This is your primary defensive tool - losing leg control usually means losing the arm. Combine this with hip escaping toward their legs to create distance that makes the step-over mechanically more difficult.
-
-**Q4**: What grip priorities must you maintain when defending against S Mount attacks?
-**A**: First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously.
-
-**Q5**: How should you use hip movement when attempting to escape S Mount bottom?
-**A**: Hip escape toward your opponent's legs (the direction away from your trapped arm) while maintaining arm protection and leg control. Small, controlled shrimps create cumulative space. Do not explosive hip escape without a plan - this often extends the trapped arm. Time your hip movement when opponent adjusts position or attacks, not when they're settled and heavy.
-
-**Q6**: Your opponent momentarily releases wrist control to readjust their grip - what do you do?
-**A**: Immediately pull your arm back to your body, gripping your collar before they can re-establish control. This is your window - even a split second of released pressure is an opportunity. Simultaneously hip escape to create distance. If you successfully extract the arm, immediately frame and recover to mount or half guard rather than staying flat.
-
-**Q7**: How do you manage energy conservation when trapped in S Mount for extended periods?
-**A**: Use defensive structure rather than muscular resistance - let your bent arm and collar grip do the work. Don't fight constantly; wait for opponent's adjustments to attempt escapes. Breathe steadily to avoid panic-induced fatigue. Small positional improvements compound over time. Accept that survival may require patience rather than explosive escape attempts.
-
-**Q8**: What should you do if your arm becomes fully extended and opponent has proper armbar control?
-**A**: Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

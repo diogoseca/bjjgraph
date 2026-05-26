@@ -165,6 +165,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 ## Position Definition
 
+<p class="section-subtitle">What is Russian Leg Lasso (Top)?</p>
+
 - Top player's posture must remain upright with weight distributed through legs and hips, not leaning forward into the lasso control which amplifies the opponent's mechanical advantage
 - One arm is trapped in the lasso configuration with opponent's leg threaded through, creating a binding effect that must be managed through proper positioning rather than pure strength
 - Base maintained through proper foot positioning with wide stance, preventing the rotational sweeps that are the primary offensive threats from Russian Leg Lasso
@@ -178,6 +180,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Russian Leg Lasso (Top)?</p>
+
 - Opponent has established Russian Leg Lasso guard with leg threaded through arm
 - Top player has maintained standing or combat base position
 - Opponent has secured gi grips that enhance lasso control
@@ -190,6 +194,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Russian Leg Lasso?</p>
 
 - Maintain upright posture with hips back to minimize the mechanical advantage of the lasso configuration
 - Control opponent's non-lasso leg to prevent combination attacks and sweep entries
@@ -205,6 +211,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Russian Leg Lasso (Top)?</p>
 
 **If opponent has strong collar and sleeve grips enhancing lasso control:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Open Guard]] (Probability: 60%)
@@ -233,6 +241,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Russian Leg Lasso?</p>
 
 ### 1. Leaning forward into the lasso control attempting to pressure pass directly
 
@@ -272,6 +282,8 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Russian Leg Lasso attacks?</p>
+
 ### Russian Leg Lasso Passing Sequences
 
 Partner establishes Russian Leg Lasso with full grips. Top player works through complete passing sequence: grip breaking, leg control, angle creation, and pass completion. Focus on maintaining posture and base throughout. Reset after each successful or failed pass attempt.
@@ -279,7 +291,7 @@ Partner establishes Russian Leg Lasso with full grips. Top player works through 
 **Duration**: 5 minutes per partner
 
 
-### Grip Fighting from Lasso Top
+### Grips from Lasso Top
 
 Positional sparring where bottom player has Russian Leg Lasso established. Top player's only objective is to break or control key grips while maintaining base. Bottom player works to maintain or re-establish grips. Excellent drill for developing grip fighting sensitivity.
 
@@ -304,38 +316,6 @@ From standing position, partner establishes Russian Leg Lasso. Top player practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes the Russian Leg Lasso dangerous for the top player?
-**A**: The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure.
-
-**Q2**: Why must you address the non-lasso leg before attempting to extract your trapped arm?
-**A**: The non-lasso leg serves as a secondary control point that creates combination attack opportunities. If you focus solely on the lasso while ignoring this leg, the opponent establishes De La Riva hooks, butterfly hooks, or shin-to-shin contact that generates powerful sweep chains. Controlling the non-lasso leg first eliminates these secondary threats and isolates the lasso as the only problem to solve.
-
-**Q3**: Your opponent begins rotating their hips to initiate a sweep - what immediate adjustment should you make?
-**A**: Immediately widen your stance and shift your weight away from the sweep direction while maintaining upright posture. Sprawl your hips back and down to lower your center of gravity. Simultaneously control their non-lasso leg to prevent them from completing the rotation. Never fight the sweep by leaning into it, as this amplifies their rotational force.
-
-**Q4**: What is the correct sequence for dismantling Russian Leg Lasso controls?
-**A**: The systematic sequence is: first break or control the sleeve grip on your trapped arm, then secure control of the non-lasso leg, next create an angle that makes the lasso configuration mechanically disadvantaged, then address the lasso itself through positional adjustments, and finally complete the pass. Skipping steps or rushing results in being swept because each step removes a specific defensive layer.
-
-**Q5**: How should your weight be distributed when passing Russian Leg Lasso?
-**A**: Weight should be distributed through your legs and hips with your center of gravity positioned low and back, not forward over your opponent. Maintain a wide stance with both feet flat for maximum stability against rotational forces. Your upper body should remain upright with shoulders back rather than hunched forward. This distribution allows you to absorb sweep attempts while maintaining mobility for passing angles.
-
-**Q6**: The opponent's collar grip is breaking your posture - what is your priority response?
-**A**: Breaking or neutralizing the collar grip takes immediate priority because it controls your posture and enables their sweep mechanics. Use two-on-one grip breaks or strip the grip by pulling your lapel away while maintaining your base. Without the collar grip, their ability to generate rotational force for sweeps is significantly diminished, making the position much safer to work from.
-
-**Q7**: When should you attempt a toreando pass versus a knee slice pass against Russian Leg Lasso?
-**A**: Use toreando when the opponent's non-lasso leg becomes uncontrolled and you have opportunity for a circular pass around their lasso side. Use knee slice when you've broken or compromised the lasso grip and can drive through the weakened guard configuration. The choice depends on which control point has been neutralized - toreando exploits leg positioning gaps while knee slice exploits grip failures.
-
-**Q8**: Your opponent starts elevating their hips aggressively to set up an overhead sweep - what should you do?
-**A**: Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

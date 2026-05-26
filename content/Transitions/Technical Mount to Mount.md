@@ -208,7 +208,7 @@ Technical Mount to Mount sits at the core of the mount variation cycling system 
 
 - [[Transitions/Back Turn from Technical Mount]] - Alternative transition from technical mount when opponent turns away
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission that typically precedes the decision to consolidate
+- [[Transitions/Mount to Armbar]] - Primary submission setup from mount and technical mount that typically precedes the decision to consolidate
 
 - [[Positions/Mount/S Mount]] - Related asymmetric mount variation within the mount cycling system
 

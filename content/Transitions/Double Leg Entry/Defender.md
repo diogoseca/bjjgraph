@@ -164,6 +164,8 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Leg Entry?</p>
+
 - Opponent's eyes drop to your hips or legs and their posture subtly shortens as they prepare the level change - the shoulders dip forward slightly before the explosive drop
 - Sudden change in grip fighting rhythm where opponent disengages upper body exchanges, clears your hands, or creates separation immediately before shooting - their hands withdraw from engagement to prepare arm positioning
 - Lead foot repositioning where opponent adjusts their stance to align their penetration foot with the centerline between your feet, often accompanied by a weight shift to the back foot loading for the explosive forward drive
@@ -176,6 +178,8 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Leg Entry?</p>
 
 - Early recognition of level change indicators allows pre-emptive defensive positioning before penetration begins
 - The sprawl drives hips back and down explosively to deny the attacker access to your legs and remove their forward drive
@@ -191,6 +195,8 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Leg Entry?</p>
 
 ### 1. Sprawl defense by explosively driving hips backward and downward while extending legs behind you, dropping your weight onto the attacker's head and upper back to flatten their penetration and kill forward momentum
 
@@ -228,6 +234,8 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Leg Entry?</p>
+
 ### → [[Positions/Standing Position]]
 
 Execute an early sprawl that completely stuffs the entry before the attacker can secure leg grips. Drive your hips down and back while controlling their head with both hands, then circle away to disengage and return to neutral standing position. The key is early recognition and explosive hip withdrawal that removes your legs from the attacker's reach entirely. Once you feel their drive die, disengage from the front headlock and re-establish standing posture with inside hand position.
@@ -243,6 +251,8 @@ When the takedown is inevitable because penetration is too deep to sprawl, proac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Leg Entry?</p>
 
 ### 1. Reacting to the shot by stepping backward instead of sprawling hips down and back
 
@@ -277,6 +287,8 @@ When the takedown is inevitable because penetration is too deep to sprawl, proac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Leg Entry?</p>
+
 **Week 1-2: Recognition and Reaction Drills** - Developing automatic sprawl response to level change stimulus
 Partner performs level changes at increasing speeds while you practice sprawling as a reflex response. Start with partner only changing levels (no penetration) so you learn to react to the visual cue. Progress to partner stepping forward after the level change. Focus on hip movement speed and body positioning during the sprawl. Drill 50+ sprawls per session to build the automatic response pattern. Include hand placement on partner's head and shoulders during each sprawl repetition.
 
@@ -293,29 +305,6 @@ Positional sparring starting from standing with partner focused on shooting doub
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual cues that indicate your opponent is about to shoot a double leg?
-**A**: The earliest cues include: the opponent's eyes dropping to your hips or legs as they identify their target, a subtle shortening of their posture as the shoulders dip forward before the explosive level change, a change in grip fighting rhythm where they disengage their hands to clear a path for the shot, repositioning of their lead foot toward the centerline between your feet, and a shift of weight to their back foot as they load for the explosive forward drive. Recognizing these pre-shot indicators gives you critical fractions of a second to initiate your sprawl before their penetration step even lands.
-
-**Q2**: Why is the sprawl more effective than stepping backward against a double leg entry?
-**A**: The sprawl is more effective because it removes your legs from the attacker's reach by driving them behind you while simultaneously placing your weight on the attacker's head and upper back, killing their forward momentum. Stepping backward maintains the same relative distance between you and the attacker - every step you take back, they match with a step forward, and eventually you run out of space or lose balance. The sprawl changes the geometric relationship entirely by dropping your hips below their grasp level while your upper body weight creates downward pressure that prevents them from continuing their drive. It converts their horizontal force into a vertical problem they cannot solve.
-
-**Q3**: Your opponent has secured both your legs despite your sprawl attempt - what is your immediate defensive priority?
-**A**: Your immediate priority is to prevent them from completing the takedown to a dominant position like side control. If their grip is on your legs, use your hands to control their head by pushing it down and to the side to deny their drive. Simultaneously, work to free one leg by limp-legging (relaxing and extracting it from their grip) while maintaining the other in a defensive position. If you cannot free your legs, transition proactively to pulling closed guard by wrapping your legs around their waist before they can dump you to the mat on your back. This converts a defensive crisis into a familiar guard position where you can work offensively. Never allow yourself to be taken down flat without establishing some form of guard retention.
-
-**Q4**: When is the guillotine counter appropriate versus when should you stick to the sprawl?
-**A**: The guillotine is appropriate when the attacker's head drops below your hips or positions inside your body line, exposing their neck. This typically happens when they have poor head position, reach for legs before completing the level change, or enter too upright and then collapse forward. Stick to the sprawl when the attacker has proper head position on the centerline or outside your hip, when their penetration is deep and committed (no time for grip setup), or when you are off-balance and need the sprawl to regain structural stability first. The decision must be instantaneous based on head position reading - attempting a guillotine against proper head position wastes critical defensive time and often results in a completed takedown.
-
-**Q5**: How does your pre-shot stance and posture affect your ability to defend the double leg?
-**A**: Your pre-shot stance directly determines your defensive capability. A stance with weight distributed over the balls of your feet with slight knee bend allows explosive sprawl initiation. Weight on the heels delays reaction time because you must first shift forward before driving back. An overly upright posture provides poor base against the forward drive. A posture that is too bent forward compromises your own ability to sprawl because your hips are already low. The ideal defensive stance has feet staggered at shoulder width, knees bent 15-20 degrees, weight centered slightly forward, and active hands at chest height ready to frame. This position minimizes the time between recognizing the shot and executing the defensive response.
-
-
-
-</section>
 
 
 </main>

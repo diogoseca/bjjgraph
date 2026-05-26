@@ -162,6 +162,8 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Guard to Russian Leg Lasso?</p>
+
 - The bottom player's non-lasso hand releases the collar grip and reaches toward your free arm's wrist or sleeve cuff, signaling the grip transfer that precedes threading
 - You feel the bottom player's hips rotate toward the side of your free arm, angling to shorten the threading distance for the second leg
 - The bottom player feints a sweep or submission with the first lasso, which is designed to provoke you into posting or extending your free arm where it becomes accessible
@@ -173,6 +175,8 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Guard to Russian Leg Lasso?</p>
 
 - Protect your free arm at all times when caught in single lasso - keep it close to your body and retract it immediately when not actively engaged in passing or grip fighting
 - Recognize the collar grip release as the primary trigger for the threading attempt - when the bottom player's non-lasso hand leaves your collar and reaches for your free sleeve, they are initiating the transition
@@ -187,6 +191,8 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Guard to Russian Leg Lasso?</p>
 
 ### 1. Retract free arm immediately and pin it against your body when you detect the collar grip release or sleeve grab attempt
 
@@ -224,6 +230,8 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Guard to Russian Leg Lasso?</p>
+
 ### → [[Positions/Lasso Guard]]
 
 Immediately retract your free arm when you detect the collar grip release that signals the threading attempt. Keep the arm pinned to your body and use it to control the opponent's hip or pants rather than leaving it exposed. This denies the second sleeve grip entirely and forces the opponent to remain in single lasso guard where your passing options are stronger.
@@ -239,6 +247,8 @@ Target the first sleeve grip during the transition window when the bottom player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard to Russian Leg Lasso?</p>
 
 ### 1. Extending the free arm to reach for passing grips or grip breaks while caught in single lasso without awareness of the threading threat
 
@@ -268,6 +278,8 @@ Target the first sleeve grip during the transition window when the bottom player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Guard to Russian Leg Lasso?</p>
+
 **Recognition Drilling** - Identifying threading attempt cues under controlled conditions
 Partner plays lasso guard bottom and randomly alternates between standard lasso sweeps and transition attempts to Russian Leg Lasso. Top player calls out 'thread' the moment they detect the collar release and sleeve reach that signal the transition. Build recognition speed until identification occurs within 1 second of the collar release. 3-minute rounds, 5 rounds per session.
 
@@ -284,29 +296,6 @@ Start every round in established single-leg lasso guard. Bottom player attempts 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt the transition to Russian Leg Lasso?
-**A**: The earliest cue is the bottom player's non-lasso hand releasing the collar grip and reaching toward your free arm's wrist or sleeve. This collar grip release is the prerequisite for the transition because they need that hand to capture the second sleeve. The collar release typically occurs 1-2 seconds before the actual threading attempt, providing a critical defensive window. Secondary cues include hip rotation toward the threading side and the free leg curling inward to prepare for the threading motion.
-
-**Q2**: Why is maintaining forward pressure more effective than creating distance when defending against the threading attempt?
-**A**: Forward pressure flattens the opponent's hips, which eliminates the 30-45 degree hip angle they need to thread the second leg efficiently across your arm. With flat hips, the threading leg must travel a longer, more awkward arc to reach your arm, giving you significantly more time to retract. Additionally, forward pressure keeps you connected, which limits the bottom player's ability to readjust angles. Distance, conversely, extends your trapped arm deeper into the first lasso while giving the opponent freedom to reangle their hips for optimal threading.
-
-**Q3**: Your opponent has captured the second sleeve grip but has not yet threaded the leg. What is your priority action?
-**A**: Immediately strip the second sleeve grip before the leg threads through. This is a narrow window - once the grip is captured but the leg has not crossed your arm, a technical grip break (peeling fingers, stripping the thumb, redirecting the wrist) can prevent the entire transition. Simultaneously retract your arm toward your body to increase the distance the threading leg must travel. If you cannot break the grip within 1-2 seconds, shift priority to stripping the first sleeve grip instead, which collapses the entire lasso foundation regardless of the second thread's progress.
-
-**Q4**: The bottom player feints a triangle from single lasso, causing you to post your free hand. How should you handle this?
-**A**: Recognize that triangle feints from lasso are a common bait designed specifically to draw out your free arm for the second sleeve capture. When you feel the instinct to post or reach in response to a triangle threat, check whether the bottom player's non-lasso hand is still on your collar or has released to grab your free sleeve. If their hand is reaching for your sleeve, the triangle was a feint and you should retract your arm immediately rather than posting. Develop the discipline to verify the threat before committing your free arm to a defensive post.
-
-**Q5**: Both lassos are now established - the transition succeeded. What is your immediate priority and approach?
-**A**: Your immediate priority is extracting one arm before the opponent initiates bilateral sweep attacks. Focus on the more recently threaded (second) lasso because it has had less time to settle into a deep position and the sleeve grip may be less secure than the first. Use your core and leg positioning to maintain base while working the extraction - lean your weight toward the weaker lasso side to create slack in that system. Do not attempt to clear both lassos simultaneously. Freeing even one arm converts the position back to single lasso where your defensive and passing options are significantly better.
-
-
-
-</section>
 
 
 </main>

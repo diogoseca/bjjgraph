@@ -100,7 +100,7 @@
       "Use high position to create psychological pressure and break opponent's will through sustained dominance",
       "Prioritize position retention over rushing submissions, allowing control to create submission opportunities naturally"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal weight distribution for maintaining High Mount Top?",
         "answer": "Weight should be distributed forward with your chest positioned over the opponent's chest, driving pressure through your hips onto their upper sternum and chest area. Avoid sitting upright as this shifts your center of gravity backward, allowing bridge escapes. The forward lean should feel like you're trying to pin their shoulders to the mat with your torso weight while your knees act as wedges near the armpits."
@@ -336,55 +336,51 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 21
+        "attempt_probability": 32
       },
       {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 12
+        "transition": "Cross Collar Choke from High Mount",
+        "attempt_probability": 13
       },
       {
-        "transition": "Americana",
-        "attempt_probability": 9
+        "transition": "Americana from High Mount",
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
-        "transition": "Kimura",
-        "attempt_probability": 9
+        "transition": "Kimura from High Mount",
+        "attempt_probability": 8
       },
       {
-        "transition": "Arm Triangle",
-        "attempt_probability": 7
+        "transition": "Arm Triangle from High Mount",
+        "attempt_probability": 6
       },
       {
         "transition": "Gift Wrap Transition",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Mounted Triangle",
         "attempt_probability": 6
       },
       {
         "transition": "S-Mount Transition",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Mounted Crucifix Entry",
         "attempt_probability": 6
       },
       {
+        "transition": "Mounted Triangle",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Mounted Crucifix Entry",
+        "attempt_probability": 5
+      },
+      {
         "transition": "High Mount to S Mount",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Armbar from High Mount",
         "attempt_probability": 2
       },
       {
-        "transition": "Cross Collar Choke from High Mount",
-        "attempt_probability": 2
+        "transition": "Arm Triangle",
+        "attempt_probability": 1
       }
     ]
   },
@@ -432,7 +428,7 @@
       "Recognize submission setups early to defend before opponent establishes control points",
       "Accept that escapes require perfect timing during opponent's transitions rather than sustained pressure"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal defensive arm position when trapped in High Mount Bottom?",
         "answer": "Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing."
@@ -643,20 +639,8 @@
     },
     "transitions": [
       {
-        "transition": "Upa Escape",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": 32
-      },
-      {
-        "transition": "Bridge and Roll",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Shrimp Escape",
-        "attempt_probability": 12
       },
       {
         "transition": "Hip Escape to Guard",
@@ -665,6 +649,18 @@
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": 13
+      },
+      {
+        "transition": "Upa Escape",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 9
       },
       {
         "transition": "Bridge to Mount from High Mount",

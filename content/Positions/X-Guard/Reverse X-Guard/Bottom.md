@@ -169,6 +169,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse X-Guard (Bottom)?</p>
+
 - Both legs positioned on the same side of opponent's body, with primary hook behind opponent's knee and secondary hook controlling hip or thigh area, creating asymmetric leverage platform
 - Bottom practitioner's upper body angled away from opponent's trapped leg with shoulders and hips inverted relative to standard guard positioning, maintaining off-balancing pressure
 - Opponent standing or in combat base position with one leg controlled by hook system, weight distribution compromised by inverted hook configuration
@@ -182,6 +184,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse X-Guard (Bottom)?</p>
+
 - Opponent in standing position or combat base attempting to pass or disengage
 - Bottom practitioner has established initial hook behind opponent's knee
 - Sufficient space created to invert body position and establish second hook
@@ -194,6 +198,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X-Guard?</p>
 
 - Maintain constant elevating pressure with primary hook behind knee, preventing opponent from establishing stable base
 - Use secondary hook on hip or thigh to control rotational movement and create sweeping angles
@@ -209,6 +215,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse X-Guard (Bottom)?</p>
 
 **If opponent maintains standing posture with weight evenly distributed:**
 - Execute **[[Transitions/Elevation Sweep to Mount/Attacker|Elevation Sweep to Mount]]** → [[Positions/Mount]] (Probability: 65%)
@@ -237,6 +245,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X-Guard?</p>
 
 ### 1. Allowing hooks to become passive without constant elevating pressure
 
@@ -276,6 +286,8 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Reverse X-Guard defense?</p>
+
 ### Hook Placement and Elevation Drill
 
 Partner starts standing in guard. Practice establishing primary hook behind knee and secondary hook on hip, then drill elevating opponent off balance while maintaining inverted body angle. Focus on coordinating both hooks to create lifting pressure. 5 minutes per side.
@@ -308,38 +320,6 @@ Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Gu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to widen their base to resist sweeps - what adjustment do you make?
-**A**: When the opponent widens their base, immediately increase your hip elevation while pulling strongly on their controlled sleeve or collar. The wider base actually makes them more vulnerable to directional sweeps because they lose the ability to step. Rotate your hips toward their widened leg and execute a sweep in that direction. Alternatively, use their commitment to base width as an opportunity to transition to Single Leg X or back take.
-
-**Q2**: What are the essential grips for maintaining Reverse X-Guard control?
-**A**: The primary grip should control the sleeve or wrist on the same side as your hooks - this prevents them from posting when swept and controls their posture. Secondary grip options include far collar for additional posture control, belt grip for rotational manipulation, or far sleeve to prevent counter-attacks. In no-gi, wrist control on the near side and head or collar tie on the far side replicate these functions.
-
-**Q3**: How do you prevent the opponent from smashing down through your hooks?
-**A**: When the opponent drops weight to smash, you have two primary options. First, you can maintain your hooks and immediately transition to Deep Half Guard by threading under their near leg - their downward pressure actually assists this transition. Second, invert away from the pressure and look for back takes as they over-commit forward. Never try to fight straight back against their downward pressure as this is inefficient and exposes you to passes.
-
-**Q4**: What should your hip position and angle be for maximum sweep power?
-**A**: Your hips should be elevated and rotated away from your opponent's trapped leg, creating an inverted angle relative to their body. This positioning loads your hip flexors and core muscles for powerful elevation while your hooks create the fulcrum point. Think of creating a diagonal line from your shoulders through your hips - this angle generates the rotational force needed for sweeps while maximizing the lifting leverage from your primary hook.
-
-**Q5**: When the opponent attempts to backstep out of your control, how do you follow?
-**A**: As the opponent backsteps, immediately invert with them while maintaining your hook connection. Their backstep actually exposes their back, making this an excellent opportunity for a back take. Follow their movement by spinning underneath while your hooks transition from sweeping position to back-taking position. If they complete the backstep before you can take the back, transition to Single Leg X or Ashi Garami to maintain leg entanglement control.
-
-**Q6**: How do you manage energy while maintaining active Reverse X-Guard control?
-**A**: Use your skeletal structure rather than constant muscular tension. Your legs should create frame against the opponent's leg through proper hook positioning, not through squeezing. Conserve grip strength by using relaxed but connected grips rather than death-gripping. Generate sweeping power through coordinated hip movement and hook extension rather than trying to muscle opponents over. Rest between sweep attempts by maintaining position without constant attacking.
-
-**Q7**: Your primary hook starts slipping - how do you recover or transition?
-**A**: If your primary hook behind the knee begins slipping, immediately reinforce it by adjusting your hip angle to increase hook pressure, or transition before losing control entirely. Single Leg X-Guard requires less hook depth so is an excellent bail-out position. Alternatively, if your grip control is strong, you can use the sleeve grip to off-balance them while re-establishing your hook. Never let the hook slip completely before taking action.
-
-**Q8**: How do you set up sweeps against an opponent who refuses to commit weight in any direction?
-**A**: Against a perfectly balanced opponent, create off-balancing reactions through grip manipulation and false attacks. Pull sharply on their sleeve or collar to force them to resist in one direction, then sweep in the opposite direction as they recover. Use transitions to other positions (X-Guard, Single Leg X) to create new angles and force reactions. The key is never letting them stay comfortable - constant movement and threat generation eventually creates the opening you need.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

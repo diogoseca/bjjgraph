@@ -188,6 +188,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar from Reverse Mount?</p>
+
 - Read arm position through tactile awareness before committing to the attack since you cannot see the opponent's defensive posture directly
 - Secure two-point grip control on the target arm at both wrist and forearm before initiating any transition movement
 - Maintain continuous hip pressure on the opponent's torso throughout the pivot to eliminate escape space and prevent bridging
@@ -202,6 +204,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar from Reverse Mount?</p>
+
 - Established reverse mount with heavy hip pressure on opponent's chest and wide knee base for stability
 - Identification of target arm that is extended, posted, or accessible beyond the opponent's body centerline
 - At least one hand free to reach behind and secure initial wrist control on the target arm
@@ -214,6 +218,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar from Reverse Mount step by step?</p>
 
 1. **Identify and assess target arm**: From reverse mount top, use tactile awareness to identify which of the opponent's arms is most accessible. Feel behind you for arms that are extended, posted on the mat for bridge attempts, or reaching toward your hips or back. The near-side arm closest to your intended pivot direction is generally the highest-percentage target due to shorter transition distance and better weight maintenance.
 2. **Secure two-point grip on target arm**: Reach behind with your same-side hand and grip the opponent's wrist firmly, immediately pulling it across your hip line to prevent retraction. Your other hand reinforces control by gripping at the elbow or proximal forearm. This two-point control system prevents the opponent from bending the arm, retracting it, or clasping hands before you commit to the pivot. The wrist grip maintains distal control while the forearm grip guides positioning.
@@ -243,6 +249,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Armbar from Reverse Mount?</p>
+
 - **Opponent clasps hands together immediately upon feeling wrist grip, creating interlocked defense preventing arm extension** (Effectiveness: High) - Your Response: Use hip elevation and leg pressure to create a wedge across the forearm line, separating the grip mechanically rather than relying on hand strength. Alternatively, attack the grip with a wrist peel using both hands while your hips maintain the armbar angle. → Leads to [[Positions/Reverse Mount]]
 - **Opponent bridges explosively and turns toward the attacker during the pivot, using the transition movement to create scramble opportunity** (Effectiveness: Medium) - Your Response: If the bridge comes during your pivot, use the opponent's turning momentum to accelerate into back control rather than fighting for the armbar. Their turn exposes their back, converting a failed armbar into a superior positional transition. → Leads to [[Positions/Closed Guard]]
 - **Opponent pulls the targeted arm tight against their body before isolation is complete, denying the wrist grip and eliminating the attack** (Effectiveness: High) - Your Response: Switch your attack target to the opposite arm if it is exposed, or abandon the armbar attempt and convert to standard mount by spinning to face the opponent's head. The opponent's arm-clamping defense often creates openings for mount or back transitions. → Leads to [[Positions/Reverse Mount]]
@@ -254,6 +262,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar from Reverse Mount?</p>
 
 ### 1. Attempting the armbar without first securing a firm wrist grip, relying on the pivot alone to trap the arm
 
@@ -293,6 +303,8 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar from Reverse Mount (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Solo pivot mechanics and arm control patterns
 Practice the pivot motion from reverse mount on a heavy bag or grappling dummy. Focus on maintaining hip contact throughout the rotation, proper leg swing arc, and finishing in the correct perpendicular body position. Perform 20 repetitions per side, emphasizing smooth continuous motion rather than speed.
 
@@ -313,48 +325,12 @@ During regular sparring, when reverse mount is achieved naturally, practice the 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the armbar from reverse mount?
-**A**: The best moment to initiate is when the opponent extends an arm to push against your hips, posts a hand on the mat for a bridge attempt, or reaches behind your back to establish frames or grips. These natural defensive reactions create the arm extension necessary for isolation and entry. Attacking during these moments produces significantly higher success rates than trying to force an arm out of a tucked defensive position.
-
-**Q2**: What conditions must exist before you can attempt the armbar from reverse mount?
-**A**: You need established reverse mount with heavy hips on the opponent's chest, at least one opponent arm accessible and extended beyond their body centerline, sufficient base to initiate the pivot without being bucked off, and a clear path for your leg to swing over the opponent's body. The opponent should not have both arms tightly clamped to their sides, as forcing arm extraction wastes energy and telegraphs the attack.
-
-**Q3**: What is the most critical mechanical detail during the transition from reverse mount to armbar control?
-**A**: Maintaining continuous hip pressure on the opponent's torso throughout the entire pivot is the single most important mechanical detail. Many practitioners lift their hips during the leg swing, creating space that allows the opponent to bridge, hip escape, or turn. The hips must stay heavy and connected, using a sliding or turntable-style pivoting motion rather than lifting and re-placing. This continuous contact eliminates the escape window.
-
-**Q4**: What are the most common reasons the armbar from reverse mount fails?
-**A**: The primary failure points are: lifting hips during the transition creating escape space, failing to secure wrist control before committing to the pivot, swinging the leg too slowly allowing the opponent to block or turn, poor knee pinch that allows arm extraction after the pivot, attacking an arm that is too tightly clamped to the opponent's body, and telegraphing the attack with premature weight shift before establishing the grip.
-
-**Q5**: What grip configuration is required on the opponent's arm for a successful armbar from reverse mount?
-**A**: A two-point grip system is essential for reliable control. One hand grips the wrist maintaining distal control to prevent retraction, while the other hand controls at the elbow or proximal forearm to guide arm positioning and prevent bending. The wrist grip is typically established first with the same-side hand reaching behind, then reinforced by the second hand. Single-point grips at the wrist alone allow the opponent to bend and retract the arm during the pivot.
-
-**Q6**: In which direction should force be applied during the armbar transition from reverse mount?
-**A**: The primary force direction is perpendicular to the opponent's body axis. As you pivot from facing their feet to a perpendicular position, your body weight creates the rotational force needed to establish the armbar angle. Your hips drive toward the opponent's shoulder while your upper body falls away from them, creating the hyperextension lever. The arm pull should direct the wrist toward your chest while your hips rise against the posterior elbow joint as the fulcrum point.
-
-**Q7**: Your opponent clasps their hands together as you attempt to isolate the arm - how do you break their grip?
-**A**: Use your legs and hips to create a mechanical advantage for the grip break rather than relying on hand strength alone. Bring both feet to the mat on the clasped-hand side, elevate your hips to create pressure across the forearm line, and use a prying motion with both hands on the wrist while hip pressure acts as a wedge separating the grip. Alternatively, adjust to a modified armbar angle where your hip bone presses directly across the forearm, mechanically levering the hands apart.
-
-**Q8**: If the armbar attempt from reverse mount is blocked, what are your best chain attack options?
-**A**: From a blocked armbar attempt, the primary chains are: convert to a triangle by adjusting leg position to trap the opponent's head and opposite arm together, redirect into an omoplata by rotating the leg angle over the shoulder, or abandon the submission and transition to standard mount or back control by using the positional advantage gained during the failed attempt. The armbar-triangle-omoplata chain from the armbar control position is one of the highest-percentage offensive cycles available.
-
-**Q9**: How do you prevent the opponent from stacking you during the armbar transition from reverse mount?
-**A**: Control the opponent's posture by driving your heels firmly into their upper back and chest, keeping your hips close to their shoulder to minimize the lever arm they can use to stack. If they initiate a stacking attempt, angle your body slightly off-center rather than allowing them to drive straight over you. Frame against their hip or knee with the hand not controlling the wrist to redirect their forward pressure laterally. Maintaining tight hip-to-shoulder proximity denies them the distance needed for effective stacking.
-
-**Q10**: What distinguishes the reverse mount armbar setup from a standard mount armbar setup?
-**A**: The reverse mount armbar begins with the attacker facing the opponent's legs rather than their head, fundamentally changing the arm access pattern. You attack arms positioned behind you near your hips rather than in front of you. The pivot mechanics differ in that you spin toward the arm from a backward-facing position rather than falling back from a forward-facing position. The reverse mount armbar often catches opponents off-guard because their defensive instincts are calibrated for forward-facing threats, making initial arm isolation easier but the transition movement more technically demanding.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar from Reverse Mount?</p>
 
 The armbar hyperextends the elbow joint and can cause serious ligament and tendon damage if applied forcefully or without control. During training, apply pressure gradually and smoothly, giving your partner adequate time to recognize the submission and tap. Release immediately upon feeling any tap signal whether on your body, the mat, or verbal. Be especially careful during the pivot transition from reverse mount, as sudden weight shifts can apply unexpected torque on the elbow before either partner is prepared. Always communicate with your training partner about pre-existing elbow or shoulder injuries before drilling. In competition, controlled application allows the referee time to intervene if necessary.
 

@@ -94,7 +94,7 @@
       "Control opponent's hips and shoulders simultaneously to prevent explosive escapes or position changes",
       "Maintain constant pressure to drain opponent's energy while preserving your own through efficient weight distribution"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal chest placement for maintaining maximum control in Cross Body Ride?",
         "answer": "Position your chest perpendicular across the opponent's upper back, with your sternum contacting the area between their shoulder blades and spine. This creates downward pressure that collapses their turtle structure while your shoulder drives into their near-side shoulder blade. The perpendicular angle prevents them from rolling in either direction and maximizes your weight transfer efficiency."
@@ -323,14 +323,14 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 51
+        "attempt_probability": 52
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 17
+        "attempt_probability": 18
       },
       {
-        "transition": "Twister",
+        "transition": "Twister from Cross Body Ride",
         "attempt_probability": 3
       },
       {
@@ -360,10 +360,6 @@
       {
         "transition": "Twister Entry",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Short Choke from Cross Body",
-        "attempt_probability": 2
       }
     ]
   },
@@ -408,7 +404,7 @@
       "Use explosive hip movement and directional changes to disrupt opponent's balance and timing when attempting escapes",
       "Recognize timing windows when opponent shifts weight or adjusts grips to initiate escape sequences"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first defensive priority when caught in cross body ride bottom?",
         "answer": "Immediately protect your neck by tucking your chin tightly to your chest and bringing your hands to your collar/neck area. Simultaneously keep your elbows pinned to your ribs to prevent arm isolation for crucifix or kimura attacks. This defensive shell buys time to assess the situation and plan your escape, preventing immediate submission threats while you work on position improvement."

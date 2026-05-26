@@ -188,6 +188,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Defense from Standing Rear Clinch?</p>
+
 - Address the grip immediately by fighting hands before the opponent consolidates a locked clasp or transitions to a choke
 - Lower your center of gravity by bending knees and dropping hips to neutralize lifting threats and create a stable escape platform
 - Create lateral hip angle by stepping to one side rather than pulling straight forward, which the opponent can easily follow
@@ -203,6 +205,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Defense from Standing Rear Clinch?</p>
+
 - Immediate awareness that the rear clinch has been established, recognizing the chest-to-back pressure and grip around your upper body
 - Both feet on the ground with enough balance to lower your base and initiate hip movement
 - At least one hand free to begin grip fighting on the opponent's clasped hands or wrists
@@ -215,6 +219,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Defense from Standing Rear Clinch step by step?</p>
 
 1. **Establish hand control on opponent's grip**: Immediately grab the opponent's clasped hands or top wrist with both of your hands. If they have a seatbelt grip, prioritize controlling the choking arm that crosses over your shoulder. This prevents them from tightening to a choke position and gives you tactile information about their grip configuration. Your hands should be actively fighting, not passively resting on their arms.
 2. **Lower your base and center of gravity**: Bend your knees deeply and drop your hips toward the ground while keeping your back relatively straight against their chest. This makes you significantly harder to lift for suplexes or mat returns, and creates a stable platform from which to generate the force needed for grip breaks. Spread your feet slightly wider than shoulder width to create a broader base of support against their forward pressure.
@@ -244,6 +250,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Defense from Standing Rear Clinch?</p>
+
 - **Opponent re-locks grip immediately after you break it by switching from gable grip to S-grip or vice versa** (Effectiveness: High) - Your Response: Transition from grip breaking to a hip throw or sit-out escape rather than engaging in repeated grip fighting. If you cannot keep the grip broken for more than a moment, use the brief window to change your body angle and begin the turn rather than trying to strip the grip again. Chain the grip break directly into the rotation without pausing. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent drives forward aggressively and drags you to the ground, transitioning to seated back control with hooks** (Effectiveness: High) - Your Response: Lower your base even further and sprawl your hips back to counter the forward drive. If they succeed in pulling you to the ground, immediately begin ground-based back escape protocol by tucking your chin, fighting the choking hand, and working to remove hooks before they consolidate control. Prevention through base management is far more effective than recovering after being dragged down. → Leads to [[Positions/Back Control]]
 - **Opponent steps to match your lateral hip movement, maintaining chest-to-back alignment as you attempt to create angle** (Effectiveness: Medium) - Your Response: Use a change of direction by feinting hip movement to one side and then explosively stepping to the opposite side. The opponent's momentum from matching your first direction will create a delay in following the direction change, giving you the angle needed to initiate the turn. Alternatively, use their step as timing to execute a sit-out underneath their base. → Leads to [[Positions/Standing Rear Clinch]]
@@ -256,6 +264,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Defense from Standing Rear Clinch?</p>
 
 ### 1. Attempting to pull the opponent's arms apart by grabbing their elbows and pulling outward with brute force
 
@@ -300,6 +310,8 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Defense from Standing Rear Clinch (Attacker)?</p>
+
 **Phase 1: Grip Break Mechanics** - Isolated grip break techniques against different grip configurations
 Practice two-on-one grip strips, elbow wedge breaks, and wrist peels against a partner holding bodylock, seatbelt, and gable grip configurations. No escape attempts yet, just pure grip breaking repetitions with progressive resistance. 50 reps per grip type.
 
@@ -320,42 +332,12 @@ Begin from neutral standing position. Partner works to establish rear clinch thr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you feel an opponent establish a standing rear clinch behind you?
-**A**: Immediately address their grip by grabbing their clasped hands or wrists with both of your hands. If they have a seatbelt configuration, prioritize controlling the choking arm that crosses over your shoulder. Grip control is the first defensive layer because it prevents them from tightening to a submission, transitioning to a choke, or locking a bodylock that enables lifting takedowns. Without controlling their hands first, any escape attempt will be countered by grip adjustments that worsen your position.
-
-**Q2**: Why must you lower your base before attempting to break the opponent's grip?
-**A**: Lowering your center of gravity by deeply bending your knees serves three critical purposes: it prevents the opponent from executing a suplex or mat return by making you significantly harder to lift, it creates a more stable platform from which to generate the force needed for decisive grip breaks, and it shifts your weight downward which counteracts their forward driving pressure. A high stance makes you vulnerable to being thrown or dragged to the ground on the opponent's terms, converting a bad standing position into an even worse ground position.
-
-**Q3**: Your opponent has a tight bodylock and begins lifting you off the ground - what is your immediate response?
-**A**: Hook one leg behind the opponent's leg to prevent full elevation, drop your hips explosively toward the mat, and simultaneously pummel your hands inside their grip to create a wedge. If they achieve partial lift, spread your legs wide to distribute weight and make the lift harder to control. Never allow both feet to leave the ground simultaneously. The combination of leg hooking, hip dropping, and weight spreading neutralizes most lifting attempts by disrupting the opponent's center of gravity alignment needed for the throw.
-
-**Q4**: What determines whether you turn toward the underhook side or overhook side during the rotation escape?
-**A**: Always turn toward the underhook side because the underhook gives you structural advantage for controlling the opponent as you face them. Turning toward the overhook side results in your arm being trapped, allowing the opponent to maintain upper body control even as you face them or transition to a gift wrap. If the opponent has a seatbelt grip, turn toward the arm that goes under your armpit, which positions you to emerge with the underhook as you complete the rotation and prevents the choking arm from deepening during the turn.
-
-**Q5**: How does the grip break technique differ when the opponent uses a seatbelt versus a bodylock?
-**A**: For a seatbelt grip, target the choking arm first using a two-on-one grip strip, peeling it down and away from your neck before addressing the under-arm. The seatbelt is more dangerous due to the immediate choke threat, so the choking arm takes absolute priority. For a bodylock, target the top hand by creating an elbow wedge between their wrists and applying downward pressure to separate the clasp. The bodylock threat is primarily lifting-based, so preventing the clasp from holding takes priority. The technical mechanics of the break differ but the urgency principle is the same: address the most dangerous grip element first.
-
-**Q6**: When is the optimal timing window to attempt your escape from a standing rear clinch?
-**A**: The best timing windows are during grip transitions when the opponent is switching between seatbelt and bodylock configurations, when they shift their weight to set up a takedown or throw, or immediately upon initial contact before they consolidate control. The moment between when they establish chest-to-back contact and when they lock their hands is the highest-percentage window for escape. Once they have a fully locked grip with settled weight and adjusted hip position, escape difficulty increases dramatically. Every second of consolidated control narrows the escape window.
-
-**Q7**: Your opponent begins stepping to the side to set up a lateral trip - how do you use this movement to facilitate your escape?
-**A**: Step in the same direction as their lateral movement, which reduces their ability to generate the rotational force needed for the trip. As they commit weight to the stepping side, their base becomes momentarily narrow and directionally committed. Use this commitment by changing direction explosively or sitting your hips away from their base leg. The key insight is that their offensive movement creates defensive opportunities when you move with them initially, then redirect, rather than fighting their momentum head-on where they have the mechanical advantage.
-
-**Q8**: What is the critical mechanical difference between pulling straight forward to escape and stepping laterally?
-**A**: Pulling straight forward preserves the opponent's chest-to-back alignment, allowing them to simply walk forward and maintain control by driving their hips into yours. The control structure is strongest along the front-to-back axis. Stepping laterally disrupts this alignment by creating a hip angle that forces the opponent to rotate their entire body to maintain chest-to-back connection. This rotation requirement creates a timing gap between your movement and their adjustment, which is the window for completing the grip break and turn. Lateral movement attacks the structural weakness of the clinch rather than its strength.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Defense from Standing Rear Clinch?</p>
 
 Standing rear clinch escapes involve explosive rotational movements, throwing mechanics, and potential impacts with the ground that can cause injury if performed incorrectly. Always practice grip breaks and throws at controlled speed before increasing intensity. Suplex defense drills should be conducted with crash pats until both partners understand the mechanics. Communicate clearly with training partners about intensity levels, particularly during lifting and throwing components. Be aware of surrounding training space to prevent collisions with other practitioners or walls during the dynamic standing exchanges.
 

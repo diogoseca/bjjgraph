@@ -244,7 +244,7 @@
         "description": "Positional sparring starting from Leg Knot Bottom with reversal as primary objective. 90-second rounds with reset. Track success rates across training partners of varying sizes and skill levels to develop reliable execution under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for attempting the Reversal from Leg Knot?",
         "answer": "The optimal timing window occurs when the top player shifts weight forward or laterally to set up a submission attempt, particularly during transitions between heel hook and toe hold grips. During these moments, the opponent's posting ability is compromised because their hands are occupied controlling your foot, creating the base vulnerability necessary for a successful sweep."
@@ -361,7 +361,7 @@
         "correction": "Address sweeps through posting, weight distribution, and positional advancement rather than bracing with upper body strength"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is setting up a reversal?",
         "answer": "The earliest cues include the bottom player's free leg moving to a posting position against your hip, their upper body turning to create a sweeping angle, their hands shifting from passive defense to actively stripping your grips, and deliberate hip engagement replacing defensive squirming. Any combination of these movements indicates an imminent reversal attempt requiring immediate base adjustment."
@@ -390,7 +390,7 @@
         "description": "Partner cycles through reversal setups at moderate pace while you practice calling out each recognition cue as it appears. Develop pattern recognition for free leg posting, grip stripping, and hip angle changes without yet attempting to counter."
       },
       {
-        "phase": "Phase 2: Base Maintenance",
+        "phase": "Phase 2: Base",
         "focus": "Maintaining posting ability during submission attempts",
         "description": "Drill submission setups from Leg Knot Top while keeping one hand available for posting at all times. Partner attempts reversals at 50% intensity. Focus on the habit of never committing both hands simultaneously to grip work."
       },

@@ -13,12 +13,12 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Knee Shield Half Guard/Top",
+      "to": "Knee Shield Half Guard/Bottom",
       "probability": 20,
       "result": "success"
     },
@@ -57,8 +57,8 @@
       "relationship": "Advanced variation using shrimp mechanics with direction reversal"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Target position and endpoint of successful shrimp escape"
+      "name": "Open Guard",
+      "relationship": "Intermediate guard recovery position when closed guard cannot be immediately established"
     },
     {
       "name": "Knee Shield Half Guard",
@@ -223,7 +223,7 @@
         "description": "Positional sparring from side control with full resistance. Bottom player's goal is to escape to guard within 60 seconds. Top player works to maintain and advance. Focus on escape timing, reading opponent's weight shifts, and capitalizing on transition moments. Include gi and no-gi variations."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is it critical to establish frames before attempting the shrimp escape movement?",
         "answer": "Frames serve multiple essential functions: they maintain distance preventing opponent from following your hip movement, they provide structural support against opponent's pressure, and they create the space needed for your hips to move freely. Without frames, opponent can simply drive their chest into yours and nullify the space you're trying to create with your shrimp. Frames act as mobile barriers that maintain the gap your hip movement generates."
@@ -361,7 +361,7 @@
         "correction": "The crossface is your primary defensive tool against shrimp escapes. Maintain constant shoulder or forearm pressure across their face/neck to prevent hip turning. Control head position first, hip position second."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action to prevent an opponent's shrimp escape from side control?",
         "answer": "Maintaining heavy crossface pressure is the most critical defensive action because it prevents the opponent from turning onto their near-side hip, which is the essential prerequisite for any effective shrimp. Without the ability to rotate their hips, the shrimp becomes structurally impossible regardless of how strong their leg drive is. The crossface creates a wedge that pins their head and shoulders flat, denying the rotation needed to generate angular hip movement. All other defensive elements—hip pressure, following movement, blocking knee insertion—become secondary when the crossface is properly maintained."

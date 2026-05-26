@@ -28,7 +28,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain proper athletic stance with knees slightly bent, weight on balls of feet, and balanced base
@@ -175,65 +175,65 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (16% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (44% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (8% of attempts)
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (7% of attempts)
 
 - **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (8% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (8% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (7% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (5% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (4% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (5% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (4% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (3% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (2% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (3% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (2% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (3% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (2% of attempts)
 
-- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (3% of attempts)
+- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (2% of attempts)
 
-- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (3% of attempts)
+- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (2% of attempts)
 
-- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (3% of attempts)
+- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (2% of attempts)
 
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (3% of attempts)
+- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (2% of attempts)
 
-- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (2% of attempts)
+- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (1% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (2% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (1% of attempts)
 
-- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (2% of attempts)
+- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (1% of attempts)
 
-- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (2% of attempts)
+- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (1% of attempts)
 
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (2% of attempts)
+- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (1% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (2% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (1% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (1% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (0% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (1% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (0% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (1% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (0% of attempts)
 
-- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (1% of attempts)
+- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (0% of attempts)
 
-- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (1% of attempts)
+- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (0% of attempts)
 
-- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (1% of attempts)
+- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (0% of attempts)
 
-- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (1% of attempts)
+- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (0% of attempts)
 
-- **[[Submissions/Flying Kneebar/Attacker|Flying Kneebar]]** (2% of attempts)
+- **[[Submissions/Flying Kneebar/Attacker|Flying Kneebar]]** (1% of attempts)
 
-- **[[Submissions/Kimura from Standing/Attacker|Kimura from Standing]]** (2% of attempts)
+- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (0% of attempts)
 
-- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (1% of attempts)
+- **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (1% of attempts)
 
 
 ### Common Mistakes

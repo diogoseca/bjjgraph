@@ -166,6 +166,8 @@ Energy management defines successful defense against back control maintenance. T
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Control Maintenance?</p>
+
 - Attacker tightens chest-to-back connection and drives hooks deeper without initiating any submission—indicating a consolidation phase before sustained maintenance begins
 - Attacker begins cycling between choking hand threats and grip changes without committing to any single attack, signaling the start of systematic threat cycling
 - Attacker adjusts from standard hooks to body triangle or shifts from seatbelt to gift wrap, indicating they are settling into extended positional control rather than immediate finishing
@@ -177,6 +179,8 @@ Energy management defines successful defense against back control maintenance. T
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control Maintenance?</p>
 
 - Protect the neck first through chin tuck and two-on-one hand control on the choking arm before addressing any other escape concern
 - Address the attacker's control hierarchy in reverse order: neutralize submission threats, strip upper body grips, then remove hooks and create rotation
@@ -191,6 +195,8 @@ Energy management defines successful defense against back control maintenance. T
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Control Maintenance?</p>
 
 ### 1. Bridge toward the underhook side and turn to face the attacker while controlling the choking arm with two-on-one grip
 
@@ -228,6 +234,8 @@ Energy management defines successful defense against back control maintenance. T
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Control Maintenance?</p>
+
 ### → [[Positions/Turtle]]
 
 Systematically remove hooks by sliding your hips downward and away while controlling the attacker's upper body grips. Once hooks are cleared, turtle tightly with elbows to knees and chin tucked, then immediately begin working guard recovery or technical stand-up before attacker can re-establish back control.
@@ -243,6 +251,8 @@ After securing neck defense and stripping the seatbelt grip, bridge toward the u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control Maintenance?</p>
 
 ### 1. Attempting to remove hooks before securing neck defense and neutralizing the choking arm threat
 
@@ -272,6 +282,8 @@ After securing neck defense and stripping the seatbelt grip, bridge toward the u
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Control Maintenance?</p>
+
 **Week 1-2** - Neck defense and hand fighting fundamentals
 Partner establishes back control and slowly threatens the rear naked choke at 30% intensity. Practice chin tuck positioning, two-on-one wrist control on the choking arm, and peeling the arm below your chin. Focus on structural defense rather than muscular resistance. 2-minute rounds with reset after each successful defense.
 
@@ -288,29 +300,6 @@ Full positional sparring from back control against fully resisting attacker. 3-m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct escape hierarchy when defending against back control maintenance?
-**A**: The hierarchy is strictly sequential: first protect the neck through chin tuck and two-on-one hand control on the choking arm, then strip the seatbelt or upper body grips to neutralize submission threats, then address hooks by removing them through hip escape or leg manipulation, and finally create rotation to face the attacker and establish guard. Skipping any step in this sequence, particularly attempting hook removal before securing neck defense, consistently results in submission.
-
-**Q2**: Your opponent begins cycling between rear naked choke threat and collar grip setup—when should you attempt your escape?
-**A**: The optimal escape window is during the grip transition itself, when the attacker releases one grip configuration to establish another. During this brief moment, their integrated control system has a gap—the choking threat is temporarily reduced and their hands are repositioning. This is when you should execute a decisive movement such as stripping the transitioning grip or beginning your hip escape, because attempting the same escape against fully consolidated control requires far more energy and has significantly lower success probability.
-
-**Q3**: Why is getting onto one hip critical for escaping back control maintenance?
-**A**: Getting onto one hip disrupts the attacker's symmetric control structure that relies on equal pressure from both sides. Lateral hip positioning reduces the attacker's choking angle by misaligning their arms relative to your neck, creates rotational momentum needed to eventually turn and face them, and shifts your weight distribution in a way that makes one of their hooks less effective. Remaining flat gives the attacker optimal control angles from both sides and eliminates your ability to generate the turning force needed for escape.
-
-**Q4**: Your opponent transitions from standard hooks to body triangle—how does this change your escape strategy?
-**A**: Body triangle eliminates the hook-removal escape path because you cannot simply slide your hips past locked legs. Your strategy shifts to addressing the body triangle directly: turn toward the locking leg side to reduce the squeeze and compress the triangle angle, then work to unlock their feet by attacking the ankle lock on the crossing foot. Alternatively, accept that lower body escape is temporarily blocked and focus entirely on upper body grip stripping and creating enough rotation to eventually face the attacker despite the body triangle, which is less effective at preventing rotation than it is at preventing downward hip escape.
-
-**Q5**: How should you manage energy when defending against an attacker who prioritizes positional control over immediate submissions?
-**A**: Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter.
-
-
-
-</section>
 
 
 </main>

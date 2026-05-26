@@ -186,6 +186,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take?</p>
+
 - Maintain constant hip-to-hip connection throughout the transition to prevent opponent from creating escape space
 - Use the inside leg hook as the primary anchor and pivot point for rotational movement around opponent's body
 - Keep chest pressure forward on opponent's back to prevent them from turning into you during the transition
@@ -200,6 +202,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take?</p>
+
 - Crackhead control established with hips loaded on opponent's lower back in chair-sit position
 - Inside leg hook secured controlling the space between opponent's legs preventing sit-through escape
 - Upper body control through overhook, underhook, or collar tie limiting opponent's defensive options
@@ -212,6 +216,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take step by step?</p>
 
 1. **Secure upper body control**: Establish seatbelt grip with your choking arm (over shoulder) and underhook arm (under armpit) while maintaining hip pressure on opponent's lower back. Clasp hands together using a gable grip or S-grip configuration.
 2. **Load weight forward**: Shift your weight forward through your chest onto opponent's upper back, slightly releasing hip pressure to create mobility for rotation while maintaining chest-to-back connection that prevents them from turning.
@@ -240,6 +246,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take?</p>
+
 - **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Crackhead Control]]
 - **Opponent explosively stands up before you complete the rotation, breaking your hip control** (Effectiveness: Medium) - Your Response: Transition to standing back control by maintaining harness grip and jumping hooks in, or drop to ankle pick if they create too much distance → Leads to [[Positions/Turtle]]
 - **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Crackhead Control]]
@@ -251,6 +259,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take?</p>
 
 ### 1. Releasing hip pressure too early before establishing upper body control
 
@@ -285,6 +295,8 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take (Attacker)?</p>
+
 **Week 1-2** - Movement mechanics
 Practice the rotation mechanics from crackhead control with a completely cooperative partner. Focus on maintaining hip connection during rotation, proper hook insertion depth, and seatbelt grip retention. Drill 30-50 repetitions per session on each side.
 
@@ -302,48 +314,12 @@ Apply technique in full-speed positional sparring starting from crackhead contro
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Back Take from Crackhead Control?
-**A**: The primary goal is to transition from the turtle attack position (crackhead control) to back control, the highest-scoring and highest-submission-percentage position in BJJ. This converts your controlling position into the most dominant attacking platform available, providing immediate access to rear naked choke, armbar, and other high-percentage submissions.
-
-**Q2**: What grip configuration should be established before initiating the rotation?
-**A**: Establish a seatbelt grip with your choking arm over opponent's shoulder and underhook arm under their armpit, hands clasped together using gable or S-grip. This upper body control must be secured before reducing hip pressure, as it prevents opponent from turning to face you during the rotation and provides the anchor for maintaining chest-to-back connection throughout.
-
-**Q3**: Your opponent begins sitting through as you initiate the back take rotation - how do you adjust?
-**A**: Use your inside hook as an anchor and follow their sit-through movement rather than fighting against it. Their rotation momentum actually facilitates your back take on the opposite side. Maintain seatbelt grip throughout and continue your rotation in the same direction they're moving, using their defensive energy to complete your advancement to back control.
-
-**Q4**: What is the optimal depth for hook insertion during the back take?
-**A**: Hooks should be inserted deep with feet crossing inside opponent's thighs toward their groin area, not near their hips. Toes point outward to maximize retention. This deep positioning prevents opponent from clearing hooks through knee movement or hand fighting, as the foot is positioned past the hip joint pivot point.
-
-**Q5**: Why is maintaining chest-to-back connection critical during the rotation phase?
-**A**: Chest-to-back connection prevents opponent from turning to face you during the transition. If you create space by pulling away rather than rotating around them, opponent can turn into you, converting your back take attempt into a scramble or guard recovery. The connection uses your body weight to restrict their rotational mobility while you complete the movement.
-
-**Q6**: How does the back take fit into the dilemma-based attack system from crackhead control?
-**A**: The back take exploits opponent's divided defensive attention. When threatening truck entries, opponent must defend their legs, opening their back. When threatening crucifix or arm attacks, opponent must protect their arms, facilitating rotation to back control. The back take serves as the primary advancement that opponent's other defenses inadvertently enable.
-
-**Q7**: Your opponent posts their arm strongly to prevent your rotation - what offensive opportunity does this create?
-**A**: A posted arm creates crucifix entry opportunity. Their extended arm can be trapped and isolated by threading your underhook arm through while maintaining crackhead control. Alternatively, the posted arm exposes the neck for darce or anaconda setups if they're turning into your pressure. Convert their defensive structure into submission opportunity.
-
-**Q8**: What distinguishes the rolling back take variant from the standard technique?
-**A**: The rolling back take follows opponent's granby roll or forward roll escape attempt, using their momentum to complete the back take. Rather than fighting against their explosive movement, maintain harness grip and roll with them, emerging with back control on the opposite side. This converts their escape energy into your advancement, requiring less effort than forcing the standard rotation against a resisting opponent.
-
-**Q9**: What is the optimal timing window for initiating the rotation from crackhead control?
-**A**: The best timing window opens when the opponent commits defensive resources to another threat. When they defend the truck entry by pulling their legs away, their upper body becomes exposed for seatbelt establishment. When they fight your arm control to prevent crucifix, their hip defense weakens. Initiate rotation during these moments of divided attention rather than against a fully prepared defense.
-
-**Q10**: What is the correct direction of force during the rotation - and why does rotating toward the underhook side matter?
-**A**: Rotate toward your underhook arm side because this is where your body has maximum structural support. The underhook prevents opponent from turning into you on that side, and your choking arm over the opposite shoulder creates a barrier against their rotation in the other direction. Rotating toward the overhook side exposes your back to their turn-in and provides less mechanical advantage for completing the movement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take?</p>
 
 The Back Take from Crackhead Control is generally safe when practiced with proper technique and communication. Primary risks involve neck strain if the seatbelt grip is applied too aggressively during the rotation phase, particularly if opponent resists by tucking their chin forcefully. Practice the rotation mechanics slowly before adding speed, and ensure partners communicate any discomfort in the neck or shoulder area. Avoid cranking the seatbelt grip during drilling; save full-pressure applications for controlled sparring with experienced partners. When your partner taps, release immediately regardless of position in the transition sequence.
 

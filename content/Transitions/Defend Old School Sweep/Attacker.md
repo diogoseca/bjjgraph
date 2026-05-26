@@ -196,6 +196,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Defend Old School Sweep?</p>
+
 - Establish the whizzer immediately upon recognizing the lockdown and underhook combination - every second of delay gives the bottom player better angles
 - Drive crossface pressure through body weight positioning rather than muscular effort to maintain sustainable defensive structure
 - Post the free leg wide with knee angled outward at 45 degrees to create maximum base against the sweeping rotation
@@ -211,6 +213,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Defend Old School Sweep?</p>
+
 - Recognition that opponent has established Old School position with lockdown, underhook, and head control
 - At least one arm free to establish whizzer control under the opponent's underhooking arm
 - Sufficient base remaining to post the free leg wide before the sweep rotation begins
@@ -223,6 +227,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Defend Old School Sweep step by step?</p>
 
 1. **Recognize the sweep threat**: Feel for the telltale signs of Old School Sweep initiation: the bottom player's underhook deepening as they pull your armpit, head control tightening as they grip behind your neck, and lockdown extending as they prepare to drive the sweep rotation. Recognition must happen before the bottom player commits full momentum to the sweep.
 2. **Establish deep whizzer immediately**: Thread your arm deep under the opponent's underhooking armpit, driving it through until your hand grips your own thigh or their hip. The whizzer must be deep enough to structurally control the underhook arm without requiring constant muscular tension. Clamp your elbow tight to your body to prevent the underhook from generating pulling leverage.
@@ -253,6 +259,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Defend Old School Sweep?</p>
+
 - **Bottom player switches to Electric Chair by diving under and attacking the trapped leg** (Effectiveness: Medium) - Your Response: Immediately drive your whizzer arm deeper and increase crossface pressure to prevent the bottom player from turning under you. Post your free leg even wider and drive hips forward to flatten their rotation angle. If they commit to the Electric Chair entry, circle your hips away from the attacking direction. → Leads to [[Positions/Mount]]
 - **Bottom player pumps lockdown aggressively to break your base and regenerate sweep momentum** (Effectiveness: Medium) - Your Response: Feel for the rhythm of lockdown pumping and time your sprawl to counter each extension. When you feel the bottom player beginning to extend, immediately sprawl hips slightly back while maintaining chest connection. Between pumps, work to loosen the lockdown through ankle manipulation and hip pressure. → Leads to [[Positions/Mount]]
 - **Bottom player releases underhook and dives underneath for deep half guard entry** (Effectiveness: High) - Your Response: The moment you feel the underhook withdraw, immediately lower your hips and drive weight forward to prevent them from getting underneath you. If they do get under, transition to deep half top defense by establishing a whizzer on their far arm and driving crossface. Do not chase them down as this feeds their sweep angle. → Leads to [[Positions/Back Control]]
@@ -264,6 +272,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Defend Old School Sweep?</p>
 
 ### 1. Establishing whizzer too late after the bottom player has already committed to the sweep rotation
 
@@ -303,6 +313,8 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Defend Old School Sweep (Attacker)?</p>
+
 **Phase 1: Recognition and Structure** - Identifying Old School Sweep initiation and establishing defensive framework
 Partner establishes Old School position and signals sweep attempts at 25% speed. Top player practices immediate whizzer insertion, crossface establishment, and wide base posting. Focus on recognizing the three-point control system (lockdown, underhook, head control) and responding with the corresponding three-point defense. Ten repetitions per side with verbal coaching on timing.
 
@@ -320,48 +332,12 @@ Start in Old School position with full resistance. Bottom player can attempt Old
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for establishing the whizzer defense against the Old School Sweep?
-**A**: The whizzer must be established the moment you recognize the lockdown and underhook combination, before the bottom player secures head control and begins generating sweep momentum. Ideally within two to three seconds of feeling the lockdown configuration. Once all three control points are established and the bottom player begins the sweeping rotation, the whizzer insertion becomes significantly harder and less effective as a defensive measure.
-
-**Q2**: What conditions must exist before you can successfully defend the Old School Sweep?
-**A**: You need at least one free arm to thread the whizzer under the opponent's underhooking armpit, sufficient remaining base to post the free leg wide before the rotation begins, and enough awareness to recognize the Old School setup before full commitment to the sweep. If the bottom player has already committed to a deep rotation with momentum, the defense window has passed and you may need to accept the position change and recover from mount or scramble.
-
-**Q3**: What is the most critical mechanical detail in the whizzer establishment for this defense?
-**A**: The whizzer must be threaded deep enough that the hand reaches your own thigh or the opponent's hip, creating structural control that holds without constant muscular tension. A shallow whizzer that only reaches the opponent's elbow provides insufficient control and the bottom player can easily swim through it to re-establish the underhook. The elbow must clamp tight to your ribcage to prevent the underhook arm from generating the pulling leverage needed for the sweep.
-
-**Q4**: Your opponent begins pumping the lockdown aggressively while you are establishing your defense - how do you adjust?
-**A**: Feel for the rhythm of the pumping and time your sprawl to counter each extension attempt. When you sense the legs beginning to extend, immediately sprawl your hips slightly back while maintaining chest-to-chest connection. Between pumping attempts, work small ankle manipulations and hip pressure changes to loosen the lockdown. Never match their explosive energy with your own as this burns energy and creates the timing gaps they need.
-
-**Q5**: What grip configuration provides the most secure whizzer control for defending the sweep?
-**A**: The ideal grip has your whizzer arm threaded deep under the opponent's armpit with your hand gripping your own thigh on the inside, creating a closed loop that the opponent cannot easily break. Your elbow stays clamped tight to your ribs to prevent the underhook from pumping or pulling. This configuration provides structural control through bone-on-bone leverage rather than grip strength, allowing you to maintain the defense for extended periods without fatigue.
-
-**Q6**: In which direction should you drive crossface pressure relative to the sweep direction?
-**A**: Drive crossface pressure perpendicular to and opposing the sweep direction. The Old School Sweep rotates you toward the lockdown side, so your crossface should drive the opponent's head away from that side, turning their face toward the ceiling or away from their underhook. This breaks the geometric alignment they need for the sweep and flattens their torso angle, preventing the side-lying position that generates sweeping power.
-
-**Q7**: Your opponent switches from the Old School Sweep to an Electric Chair attempt - how do you respond?
-**A**: Drive your whizzer arm deeper and increase crossface pressure to prevent the rotation needed for the Electric Chair entry. Post your free leg even wider and circle your hips away from the direction they are trying to split your legs. The Electric Chair requires them to get underneath your hips and separate the legs, so keeping hips low and heavy while maintaining crossface denies the space and angle they need for the transition.
-
-**Q8**: After successfully defending the sweep, what immediate passing options become available?
-**A**: With the opponent flattened by your crossface and whizzer, work to break the lockdown through ankle manipulation and hip pressure. Once the lockdown releases, immediately drive a knee slice across their thigh line or execute a smash pass by driving your knee into their hip to flatten them completely. The key is converting the defensive moment into immediate offensive action before the bottom player can re-establish any half guard controls or transition to a different guard variation.
-
-**Q9**: How do you manage energy expenditure during extended Old School defense exchanges?
-**A**: Rely on structural positioning rather than muscular tension. The whizzer holds through arm depth and elbow positioning, not bicep squeeze. The crossface generates pressure through body weight placement, not shoulder drive. The base holds through skeletal alignment with the posted leg, not quad tension. Breathe steadily and relax between the opponent's sweep attempts, saving explosive energy only for critical timing moments when the sweep is initiated.
-
-**Q10**: What is the primary difference between successfully defending the sweep versus merely surviving it?
-**A**: Surviving means absorbing the sweep attempt and remaining in Old School Top position without advancement, leaving the bottom player free to attack again. Successfully defending means neutralizing the sweep while simultaneously degrading the bottom player's offensive structure, flattening them and breaking their controls to create an immediate passing opportunity. The goal is to convert every defended sweep into forward positional progress toward half guard top and eventually side control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Defend Old School Sweep?</p>
 
 This defense involves significant pressure application through crossface and chest compression. Train with progressive resistance, starting at low intensity to allow partners to develop comfort with the pressure. Communicate clearly about crossface pressure levels as excessive force against the jaw can cause neck strain or jaw discomfort. Ensure the lockdown extension during defense does not hyperextend the knee of the trapped leg. Tap immediately if the lockdown creates uncomfortable knee pressure rather than fighting through it.
 

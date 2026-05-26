@@ -194,6 +194,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Mount to Back Control?</p>
+
 - Read the opponent's shoulder rotation as the primary trigger—the moment they begin turning away from the armbar threat, commit to following their rotation without hesitation
 - Maintain wrist or arm control throughout the transition to prevent the opponent from establishing defensive frames or completing their turn to face you
 - Convert the posted leg directly into the first hook as the opponent turns—slide it naturally into hook position rather than lifting and repositioning
@@ -208,6 +210,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Mount to Back Control?</p>
+
 - Stable Technical Mount established with posted leg providing base and inside leg hooked under opponent's body
 - Opponent's arm controlled with firm wrist and elbow grips preventing retraction or defensive framing
 - Opponent showing signs of turning away indicated by far shoulder rotating toward the mat or hip shifting
@@ -220,6 +224,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Mount to Back Control step by step?</p>
 
 1. **Identify the turning trigger**: Monitor your opponent's shoulders and hips for signs of committing to a turn. The primary trigger is when they begin rotating their torso away from your armbar threat, typically moving their far shoulder toward the mat. This commitment to turning signals they have chosen to defend the arm rather than fight the position, opening the back take window.
 2. **Maintain arm control and initiate the follow**: Keep your grip on their wrist with your controlling hand and begin shifting your weight to follow their rotation. Do not release arm control prematurely—the wrist grip prevents them from establishing defensive frames during the turn and maintains your connection as you transition from armbar position to back take position.
@@ -250,6 +256,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Mount to Back Control?</p>
+
 - **Opponent stops turning and re-squares shoulders to mat, denying back exposure** (Effectiveness: High) - Your Response: If they stop the turn early, return to armbar attack since their arm is still exposed. The threat of the armbar is what forces the turn, so re-threatening it restarts the dilemma cycle. If they successfully re-square, consolidate Technical Mount and re-establish arm control before attempting again. → Leads to [[Positions/Mount/Technical Mount]]
 - **Opponent frames against hip and executes explosive hip escape during the rotation** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and follow their hip escape with your own hip adjustment. If they create significant distance, use your seatbelt control to pull them back or transition to a body triangle to prevent further hip movement. If the frame is strong enough to break your chest connection, you may need to disengage and work to recover top position. → Leads to [[Positions/Half Guard]]
 - **Opponent tucks chin and fights seatbelt arm with both hands immediately upon feeling the back take** (Effectiveness: Medium) - Your Response: Since both their hands are occupied fighting your seatbelt, their lower body is undefended. Focus on deepening your hooks and establishing dominant hip control. Once hooks are secure, use systematic hand fighting to break their grip on your seatbelt arm. Their two-on-one defense on the seatbelt arm exposes the other arm for gift wrap or armbar entries. → Leads to [[Positions/Mount/Technical Mount]]
@@ -261,6 +269,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Mount to Back Control?</p>
 
 ### 1. Releasing arm control before establishing seatbelt grip, creating a control gap during the transition
 
@@ -300,6 +310,8 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Mount to Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated movement pattern without resistance
 Partner lies on their side with back exposed, completely still. Practice the leg conversion (posted leg to first hook), seatbelt establishment, hip closure, and second hook insertion as isolated movements. Repeat 20 times per side focusing on smoothness and connection maintenance. No resistance—focus purely on body mechanics and the feeling of each control point engaging.
 
@@ -320,48 +332,12 @@ Positional sparring starting from Technical Mount with both players pursuing the
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals you should commit to the back take rather than continuing the armbar attack from Technical Mount?
-**A**: The primary trigger is the opponent's far shoulder rotating toward the mat, indicating they have committed to turning away from the armbar threat. This shoulder rotation means they have chosen to defend their arm by exposing their back. You must wait for this genuine commitment before following—a partial or tentative turn does not create sufficient back exposure and often leads to failed transition attempts.
-
-**Q2**: Which leg converts into the first hook during this transition and how does its positioning in Technical Mount facilitate this conversion?
-**A**: The posted leg (the outside leg with shin perpendicular to the opponent's body) converts into the first hook. Its position in Technical Mount already places it close to the hook insertion point behind the opponent's top thigh. As the opponent turns onto their side, the posted leg naturally drops into position along their thigh. This is why the conversion should be a slide rather than a lift—the Technical Mount geometry pre-stages the hook.
-
-**Q3**: Why must the seatbelt grip be established before completing hook insertion during this transition?
-**A**: Upper body control through the seatbelt prevents the opponent from turning to face you, which is their primary escape mechanism once the armbar threat is abandoned. Hooks without seatbelt control can be stripped by the opponent's hands or overcome through hip escape. The seatbelt anchors you to the opponent's back and creates the stability platform from which you can methodically work your hooks into proper position without rushing.
-
-**Q4**: Your opponent begins turning away but then stops mid-rotation and re-squares their shoulders. How do you adjust?
-**A**: Immediately return to the armbar threat since their arm is still extended and controlled. Do not chase the back take when the turn has been abandoned—you will end up in an unstable position without the back exposure needed for hook insertion. By returning to the armbar, you reset the dilemma: the opponent must once again choose between defending the arm or turning away. This cycling between armbar and back take threats is what makes the system effective.
-
-**Q5**: What grip transition must occur as you move from Technical Mount armbar setup to back control, and what is the critical timing?
-**A**: You must transition from the two-handed arm control (wrist grip and elbow grip) to seatbelt configuration (one arm over the shoulder, one under the armpit, hands clasped). The critical timing is that there must be no gap in upper body control—the seatbelt arm should begin threading over the shoulder before you release the wrist grip. Releasing arm control before the seatbelt is established creates a window where the opponent has no upper body restraint and can complete their turn to face you.
-
-**Q6**: In which direction should your weight and pressure be applied throughout this transition?
-**A**: Your weight should drive forward into the opponent's upper back, maintaining constant chest-to-back pressure throughout the rotation. The common error is leaning backward or sitting up during the transition, which creates separation. Think of your sternum tracking their spine—as they rotate, you follow laterally while driving forward. Your hips should close distance toward their lower back as the transition completes, not drift away from their body.
-
-**Q7**: Your opponent turns away but immediately tucks their chin and fights your seatbelt arm with both hands. What is your best attacking response?
-**A**: Since both their hands are occupied with your seatbelt arm, their lower body is completely undefended. Focus on deepening your hooks and establishing dominant hip control through body triangle or tight hook positioning. Once your lower body control is unassailable, use systematic hand fighting to peel their grip off your seatbelt arm. Their two-on-one defense on the seatbelt also exposes their far arm for gift wrap, armbar, or crucifix entries.
-
-**Q8**: You have established the seatbelt but your opponent keeps their legs tightly together, preventing hook insertion. How do you create space for your hooks?
-**A**: Use your seatbelt control to angle their upper body slightly away from you, which naturally opens their hip angle and creates space between their thighs. You can also use your top knee to pry between their legs by driving it behind their top knee. Another option is to momentarily butterfly hook their top leg with your foot, lifting it to create the gap for your bottom hook to slide in. Patience is key—forcing hooks against clamped legs risks losing seatbelt position.
-
-**Q9**: What is the most common reason practitioners fail to complete this transition even when the opponent clearly turns away?
-**A**: The most common failure is creating space between the chest and the opponent's back during the transition. When the top player lifts their body to reposition legs or adjust grips, even a few inches of separation allows the opponent to complete their turn and face them or insert defensive frames. Every movement during the transition must maintain or increase chest-to-back contact. The transition should feel like sliding around the opponent's body, not jumping to a new position.
-
-**Q10**: You attempt the back take but your opponent successfully frames against your hip and prevents you from getting behind them. What attacks remain available from this position?
-**A**: If you still have arm control, you can return to the armbar threat since your Technical Mount base may still be partially intact. If the opponent's frame has pushed you to the side, look for a darce choke as their arm is often exposed during the framing motion. You can also transition to a gift wrap if you can capture their framing arm by swimming under it. The worst option is to force the back take against a strong frame—disengage cleanly, consolidate your top position, and reset the attacking sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Mount to Back Control?</p>
 
 This transition involves rapid rotational movement around the opponent's body. During drilling, communicate clearly with your partner about rotation speed and intensity. Ensure controlled hook insertion to avoid accidentally striking the groin area or hyperextending your partner's knee during leg threading. The seatbelt grip must be established across the chest and shoulder, never across the throat. When practicing the rolling back take variant, ensure adequate mat space and start slowly to prevent neck strain from sudden rotational forces. Partners should tap or verbally signal if any hook insertion creates knee discomfort.
 

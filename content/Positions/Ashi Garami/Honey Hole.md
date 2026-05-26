@@ -32,7 +32,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inside leg triangle creates mechanical imprisonment preventing rotational escape
@@ -120,7 +120,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (1% of attempts)
 
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -185,25 +185,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (12% of attempts)
+- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (12% of attempts)
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (42% of attempts)
+- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (42% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (14% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (8% of attempts)
+- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
 
 - **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (14% of attempts)
 
-- **[[Positions/Estima Lock/Attacker|Estima Lock]]** (3% of attempts)
+- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (3% of attempts)
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (2% of attempts)
+- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (2% of attempts)
 
 - **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (1% of attempts)
 
-- **[[Transitions/Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (1% of attempts)
+- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (1% of attempts)
 
 
 ### Common Mistakes

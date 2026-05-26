@@ -194,6 +194,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to K-Guard?</p>
+
 - Maintain active upper body frames throughout the hook reconfiguration to prevent the top player from capitalizing on the momentary instability during the switch
 - Time the hook transition to coincide with the top player's forward pressure commitment, using their weight loading against them during the reconfiguration
 - Create hip space through a preliminary shrimp before attempting to rotate the inside hook, as the inversion requires clearance between your hip and the opponent's trapped leg
@@ -209,6 +211,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to K-Guard?</p>
+
 - Half guard bottom position established with inside leg controlling opponent's leg at or below the knee, providing the entanglement structure to reconfigure
 - At least one active frame against opponent's shoulder or hip preventing chest-to-chest contact and creating the distance buffer needed for hook rotation
 - Sufficient hip mobility to rotate inside hook from standard position into inverted configuration without being pinned flat by top player's weight
@@ -222,6 +226,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to K-Guard step by step?</p>
 
 1. **Establish distance frame and hip angle**: From half guard bottom, ensure you have an active frame with your inside arm against the opponent's shoulder or bicep, creating at least 3-4 inches of space between your chest and theirs. Simultaneously angle your hips by performing a small shrimp away from the opponent, turning onto your side. This hip angle creates the clearance needed to rotate your inside hook without being blocked by the opponent's trapped leg. Your head should be elevated off the mat on your shoulder.
 2. **Load opponent's weight onto trapped leg**: Before initiating the hook switch, ensure the opponent's weight is committed forward onto their trapped leg. If they are sitting back, use your frame to pull them forward slightly or wait for them to drive into you with passing pressure. You can also use your outside leg to hook behind their far knee and pull them forward. Their weight loading is essential because a weighted trapped leg cannot be quickly extracted when you release and reconfigure your hooks.
@@ -252,6 +258,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to K-Guard?</p>
+
 - **Opponent drives heavy crossface and shoulder pressure during hook switch to flatten bottom player** (Effectiveness: High) - Your Response: If you feel the crossface establishing before you complete the hook switch, abort the K-Guard entry and recover your standard half guard hook immediately. Use your inside frame to push their shoulder away and re-establish distance. Alternatively, if the crossface catches you mid-transition, use the forward pressure to redirect into a deep half entry by diving underneath their weight rather than fighting the flatten-out. → Leads to [[Positions/Half Guard]]
 - **Opponent extracts trapped leg by sprawling backward during the momentary release of inside hook** (Effectiveness: High) - Your Response: If the opponent begins extracting during your hook switch, immediately abandon the K-Guard reconfiguration and follow their retreating leg with your hips. Re-engage with a butterfly hook on their retreating leg and pursue single leg X-Guard or standard butterfly guard. Do not chase the lost entanglement - transition to whatever guard structure the new distance and angle supports. → Leads to [[Positions/Half Guard]]
 - **Opponent posts far leg wide and sits back to deny butterfly hook elevation, stabilizing their base against the new hook configuration** (Effectiveness: Medium) - Your Response: When the opponent widens their base and sits back, your inverted hook still has lateral pulling effectiveness even without the butterfly elevation threat. Use the inverted hook to drag their trapped leg across your centerline while hip escaping to create a sharper angle. From this angle, transition to single leg X-Guard or standard X-Guard entries that exploit the widened base. Their defensive posture creates the distance needed for leg entanglement transitions. → Leads to [[Positions/K-Guard]]
@@ -263,6 +271,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to K-Guard?</p>
 
 ### 1. Releasing inside hook without first establishing a distance frame against opponent's shoulder
 
@@ -302,6 +312,8 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to K-Guard (Attacker)?</p>
+
 **Week 1-2: Hook Mechanics Isolation** - Drilling the inverted hook rotation without resistance
 With a cooperative partner in half guard top, practice the isolated hook switch mechanics: release standard inside hook, rotate knee across trapped leg into inverted position, establish butterfly hook with outside leg. Perform 25-30 repetitions per side focusing on smooth, fast hook rotation. Partner remains still. Emphasize maintaining head position off mat and frame contact throughout.
 
@@ -322,42 +334,12 @@ Use K-Guard entry during positional sparring and live rolling from half guard bo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the K-Guard hook switch from half guard bottom?
-**A**: The optimal timing is when the top player commits their weight forward onto the trapped leg, typically during a passing attempt like a knee slice or when driving forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky.
-
-**Q2**: What are the entry requirements that must exist before attempting the Transition to K-Guard?
-**A**: Four conditions must be present: first, you must have half guard with your inside leg controlling the opponent's leg. Second, you must have at least one active frame creating distance to protect the hook switch. Third, your hips must be angled on your side with sufficient clearance to rotate the inside hook. Fourth, the opponent's weight must be committed forward onto their trapped leg so they cannot extract it during the reconfiguration. If any condition is missing, work to establish it before attempting the entry.
-
-**Q3**: What is the most critical mechanical detail during the inside hook inversion?
-**A**: The most critical detail is the hip angle that provides clearance for the rotation. Your hips must be angled at least 30-45 degrees from the mat, achieved through a preliminary shrimp, to give your inside knee the space to sweep an arc from outside the opponent's leg to across the front of their thigh into the inverted position. Without this hip angle, the rotation gets blocked by the opponent's trapped leg and you end up with a shallow, ineffective hook that lacks the lateral pulling force that defines K-Guard.
-
-**Q4**: Your opponent begins extracting their trapped leg the moment you release your standard inside hook - how do you respond?
-**A**: Do not chase the retreating leg with the K-Guard hook configuration. Instead, immediately follow their retreating leg with your hips by scooting forward, and engage your outside leg as a butterfly hook on whatever part of their leg remains in range. From there, pursue single leg X-Guard or standard butterfly guard depending on the distance created. The key is recognizing within the first half-second that the K-Guard entry window has closed and transitioning to the best available alternative guard rather than forcing a failed reconfiguration.
-
-**Q5**: What grip or frame requirements must be maintained throughout the entire hook transition?
-**A**: Your inside arm must maintain an active frame against the opponent's shoulder, bicep, or neck throughout the entire transition. This frame serves as the defensive shield during the vulnerable moment when your hooks are being reconfigured. The frame prevents the opponent from collapsing chest-to-chest contact and pinning you flat during the switch. Your outside arm should be free to assist with the transition or control the opponent's posting hand. Never sacrifice the inside arm frame to assist with the hook rotation.
-
-**Q6**: What direction of force should each hook generate once K-Guard is established?
-**A**: The inverted inside hook generates lateral pulling force, dragging the opponent's trapped leg across your centerline toward the butterfly hook side. This disrupts their base by pulling their support out from under them laterally. The outside butterfly hook generates vertical upward force, threatening to elevate the opponent and remove their ability to settle weight. These opposing force vectors create a push-pull dynamic that makes the opponent's base unstable in two dimensions simultaneously, which is the fundamental mechanical advantage of K-Guard over standard half guard.
-
-**Q7**: Your opponent establishes a strong crossface during your hook switch attempt - should you continue the K-Guard entry?
-**A**: No. If the crossface establishes during the hook switch, the entry window has closed. A strong crossface will flatten your spine, eliminate the hip angle needed for the hook inversion, and allow the opponent to drive through to a pass. Immediately abort the entry by recovering your standard half guard inside hook and use your frame to fight off the crossface. Once you have reestablished distance and hip angle, you can reattempt the entry on their next forward pressure commitment. Alternatively, use the crossface pressure to redirect into a deep half entry by diving underneath their weight.
-
-**Q8**: If your K-Guard entry succeeds but the opponent immediately begins smashing to neutralize your hooks, what chain attack should you pursue?
-**A**: When the opponent drives heavy forward pressure into your established K-Guard, use their forward commitment against them. The primary chain is to load the butterfly hook with their weight and transition to a deep half entry by diving underneath, or redirect into an X-Guard or single leg X-Guard entry by extending your hooks and creating elevation. Their smash pressure actually provides the forward momentum needed for these transitions. The key principle is that heavy forward commitment in K-Guard opens underneath transitions, while sitting back opens elevation-based sweeps.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to K-Guard?</p>
 
 The Transition to K-Guard is generally low-risk when practiced with proper progression and control. The primary safety consideration is protecting the inside knee during the hook inversion, as forcing the rotation against resistance or with poor angle can strain the medial collateral ligament. Beginners should drill the hook rotation slowly with a cooperative partner before adding resistance, focusing on smooth mechanics rather than speed. Partners providing top pressure during drilling should apply gradual, steady force rather than explosive weight drops that could catch the bottom player mid-transition. Practitioners with existing knee injuries, particularly to the MCL or meniscus, should consult their instructor before practicing the inverted hook rotation, as the crossing motion places lateral stress on the inside knee. During live training, if you find yourself stuck mid-transition with hooks partially reconfigured, do not force the completion. Instead, recover to standard half guard and reset rather than fighting from a compromised position.
 

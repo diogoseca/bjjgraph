@@ -157,6 +157,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Position Definition
 
+<p class="section-subtitle">What is Headquarters Position (Bottom)?</p>
+
 - One opponent leg controlled and pinned between top player's legs with knee driven toward mat by shin or knee pressure, restricting hip mobility and preventing guard recovery through sustained downward pressure
 - Supporting leg firmly posted wide on mat creating stable triangular base typically positioned 45-90 degrees from controlled leg, providing stability against sweeps while allowing dynamic weight transfer for passing attacks
 - Upright posture maintained with spine aligned vertically and perpendicular to mat, head up with shoulders positioned over hips rather than leaning forward, creating structural integrity that prevents breakdown and maintains balance
@@ -170,6 +172,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Headquarters Position (Bottom)?</p>
+
 - Solid understanding of base mechanics and weight distribution principles in top positions
 - Ability to establish and maintain knee-line control against resistance from various guard configurations
 - Familiarity with fundamental guard passing concepts, timing, and systematic passing methodology
@@ -182,6 +186,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Headquarters Position?</p>
 
 - Control opponent's leg by driving knee firmly toward mat, eliminating their ability to create frames or recover guard structure through sustained pressure
 - Establish strong posting base with opposite leg positioned wide and perpendicular to opponent's body line, creating triangular structure resistant to sweeps
@@ -197,6 +203,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Headquarters Position (Bottom)?</p>
 
 **If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance:**
 - Execute **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** → [[Positions/Side Control]] (Probability: 70%)
@@ -225,6 +233,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Headquarters Position?</p>
 
 ### 1. Poor knee control with insufficient pressure on opponent's knee line
 
@@ -264,6 +274,8 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Headquarters Position defense?</p>
+
 ### Headquarters Maintenance Drill
 
 Partner starts in headquarters with one leg trapped. Bottom player uses various escape attempts including frames, shrimps, deep half entries, and guard recovery while top player maintains position and adjusts base. Focus on weight distribution, posting mechanics, and knee control pressure throughout opponent's defensive movements.
@@ -289,38 +301,6 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips and contact points for maintaining headquarters position?
-**A**: The control hand grips the opponent's knee, thigh, or pants at the knee line to manage leg position, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames. The trapped leg is pinned between your legs with knee driven toward the mat using shin or knee pressure. The posting leg is planted wide at 45-90 degrees from the controlled leg, creating a triangular base. These four contact points work together to restrict hip mobility and prevent guard recovery.
-
-**Q2**: How should you distribute your weight to maintain headquarters against an active opponent?
-**A**: Weight should be distributed primarily through the hips and the posting leg rather than through the hands or arms. Maintain an upright posture with spine vertical and perpendicular to the mat, keeping shoulders directly over hips. Avoid leaning forward, as this shifts weight onto the hands and creates vulnerability to forward rolls and granby escapes. The downward pressure on the trapped leg comes from hip engagement rather than upper body weight, allowing the hands to remain free for grip adjustments and frame neutralization.
-
-**Q3**: Your opponent starts hip escaping aggressively toward the side of their trapped leg - what adjustment do you make?
-**A**: Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position.
-
-**Q4**: What are the base fundamentals that prevent sweeps from headquarters, and what is the most common base error?
-**A**: The triangulated base structure with the posting leg wide and perpendicular to the opponent's body creates stability against both lateral and forward-backward sweeps. The most common error is positioning the posting leg too close to the opponent's body, which narrows the base and makes the passer vulnerable to being pushed or pulled off balance. The posting foot should be angled outward with weight on the ball of the foot, allowing rapid directional adjustment. When the base is correct, the opponent cannot generate sufficient leverage to off-balance the passer regardless of sweep direction.
-
-**Q5**: Your opponent establishes a strong knee shield and begins framing on your shoulder - how do you shut this down?
-**A**: Address the knee shield first by angling your hips to compress their knee toward the mat rather than fighting the frame directly. Use the control hand to grip below their knee shield and apply inward pressure while maintaining downward weight on the trapped leg. Strip the shoulder frame by swimming your elbow inside their wrist and pinning it to their body or by changing levels to slip underneath the frame. If the knee shield remains strong, transition to a smash pass by collapsing your weight laterally across their knee shield, using their own defensive structure against them by turning it into a passing lane.
-
-**Q6**: How should you apply pressure from headquarters without overcommitting in any single direction?
-**A**: Maintain constant forward pressure through hip engagement and downward leg control while keeping your center of gravity centered over your base. Use micro-adjustments rather than large movements - small shifts in hip angle, subtle grip changes, and incremental weight transfers that probe defensive reactions without exposing you to counters. Threaten multiple passing directions simultaneously by staying in a neutral headquarters alignment between passes. The pressure should feel like a slow grind that methodically eliminates defensive options rather than explosive bursts that risk losing position.
-
-**Q7**: Your opponent partially recovers guard by getting their free foot on your hip while you still control one leg - how do you recover full headquarters?
-**A**: Do not release the controlled leg. Use your free hand to grip the foot on your hip at the ankle or heel and push it to the mat or past your hip line. Simultaneously increase downward pressure on the trapped leg to prevent the opponent from combining the foot-on-hip frame with a hip escape. Once the foot is cleared, immediately re-establish your posting base and upper body control grips before the opponent can create another frame. If the foot is too strong to clear directly, step your posting leg back slightly to change the angle, which often breaks the foot placement by changing the distance relationship.
-
-**Q8**: How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?
-**A**: Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

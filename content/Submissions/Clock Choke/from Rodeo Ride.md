@@ -1,0 +1,259 @@
+
+
+
+
+---
+title: "Clock Choke from Rodeo Ride | BJJ Submission | BJJ Graph"
+description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based blood choke mechanics using dynamic turtle control and circular walking pressure to finish."
+---
+
+
+<body data-content-type="submissions-hub">
+
+> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<div class="role-links">
+
+[[Submissions/Clock Choke/from Rodeo Ride/Attacker|Play as Attacker]]
+[[Submissions/Clock Choke/from Rodeo Ride/Defender|Play as Defender]]
+
+</div>
+
+<section id="overview" class="content-section">
+
+The Clock Choke from Rodeo Ride is a gi-based blood choke that capitalizes on the dynamic control mechanics unique to the Rodeo Ride position on a turtled opponent. Unlike the standard Clock Choke from static turtle top, the Rodeo Ride variant leverages the asymmetric hip pressure and near-arm control already established in the ride to feed a deep cross-collar grip before the opponent can address the choking threat. The attacker's perpendicular angle and loaded hip position create a natural launching point for the circular walk that generates finishing pressure.
+
+What makes this variation particularly dangerous is that the Rodeo Ride's constant pressure cycling disguises the choke entry. The opponent is already defending multiple back attack and submission threats, so the lapel feed can be inserted during a transition between other attacks. Once the cross-collar grip is secured, the attacker walks their hips around the opponent's head in an arc while sprawling weight through their chest, compressing both carotid arteries using the lapel as a fulcrum against the opponent's neck. The Rodeo Ride's established hip control prevents the primary escape of sitting back to guard, which is the most common defense against standard Clock Chokes.
+
+This submission is most effective when chained with other Rodeo Ride attacks—threatening the back take forces the opponent to defend their hips, which opens the collar for the choke entry. The technique requires precise timing between releasing near-arm control to feed the lapel and maintaining enough positional pressure to prevent escape during the grip transition.
+
+**Category**: Choke
+**Type**: Blood Choke
+**Target Area**: Carotid arteries and jugular veins
+**Starting Position**: [[Positions/Rodeo Ride]]
+**From Position**: [[Positions/Rodeo Ride]] (Top)
+**Success Rate**: 58%
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
+| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
+| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
+
+**Tap Signals**:
+- Verbal tap or verbal submission signal
+- Physical hand tap on attacker's body or mat
+- Physical foot tap on mat
+- Any rapid or frantic movement indicating distress
+
+
+**Release Protocol**:
+1. Immediately release the lapel grip upon receiving tap signal
+2. Remove your weight from opponent's back and create space
+3. Allow partner to recover in a neutral position without pressure
+4. Check on partner's condition before continuing training
+
+
+**Training Restrictions**:
+- Never apply the choke rapidly or explosively in training
+- Never maintain pressure after partner taps or shows distress
+- Always ensure partner has clear access to tap with hands or feet
+- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
+
+
+</section>
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 58% |
+| Failure | [[Positions/Rodeo Ride]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Disguise the lapel feed within your normal Rodeo Ride attack... | Protect the collar area by keeping chin tucked and elbows ti... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Submissions/Clock Choke/from Rodeo Ride/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
+- Disguise the lapel feed within your normal Rodeo Ride attack cycling—never telegraph the choke entry
+
+- Maintain hip pressure throughout the grip transition to prevent the opponent from sitting back to guard
+
+- Walk your hips in a tight arc around the opponent's head rather than pulling the lapel—let body weight create the choking pressure
+
+- Keep your chest connected to the opponent's back during the entire finishing sequence to prevent space creation
+
+- Control the near arm until the cross-collar grip is deep enough that releasing it won't compromise the choke
+
+- Sprawl your legs behind you as you walk around to maximize downward pressure through the choking grip
+
+
+### Execution Steps
+
+
+- **Threaten back take to occupy defenses**: From established Rodeo Ride, initiate a back take attempt by threatening to insert hooks or establis...
+
+- **Feed the cross-collar grip**: As the opponent defends the back take, release your far-side hand and reach across to feed your hand...
+
+- **Secure the near-side collar control**: With your other hand, grip the near-side collar or the back of the gi at belt level. This secondary ...
+
+- **Begin the walking arc**: Start walking your hips in a tight arc toward the opponent's head, maintaining chest-to-back contact...
+
+- **Sprawl and drive hip pressure**: As you pass the opponent's head, sprawl your hips to the mat and drive your weight forward through y...
+
+- **Finish with progressive tightening**: Complete the choke by continuing to walk your feet away from the opponent while pulling your choking...
+
+
+### Common Mistakes
+
+
+- **Releasing hip pressure to reach for the collar grip, creating space for escape**
+  - Consequence: Opponent sits back to guard or stands up before the choke can be established, losing the Rodeo Ride position entirely
+  - Correction: Maintain hip-to-back contact throughout the grip feed. Use the back take threat to create the opening rather than lifting off to reach the collar.
+
+- **Feeding a shallow collar grip that doesn't reach past the centerline of the neck**
+  - Consequence: The choke becomes an airway choke rather than a blood choke, requiring excessive force and giving the opponent time to defend
+  - Correction: Feed the grip as deep as possible—four fingers should reach past the opponent's far-side carotid. A deep initial grip means less walking distance is needed to finish.
+
+- **Pulling the lapel with arms instead of driving pressure through body weight and walking**
+  - Consequence: Arms fatigue quickly and the choke lacks sufficient pressure to finish against a defended neck. Opponent can outlast the arm-based squeeze.
+  - Correction: Keep the choking arm locked in position and generate all finishing pressure through your walking arc and hip sprawl. The body moves, the grip stays fixed.
+
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[Submissions/Clock Choke/from Rodeo Ride/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Protect the collar area by keeping chin tucked and elbows tight to prevent the initial lapel feed
+
+- Recognize the choke setup early by feeling for the hand reaching across to the far-side collar
+
+- Strip the collar grip immediately before the attacker can begin the walking arc—grip stripping is time-critical
+
+- If the grip cannot be stripped, sit back aggressively to guard rather than remaining in turtle under choke threat
+
+- Fight the near-side collar control as well as the cross-collar grip, as both are needed for the choke to finish
+
+- Never expose the neck by turning your head away from the choking side, which deepens the grip path
+
+
+### Recognition Cues
+
+
+- Attacker's far-side hand releases near-arm control or back attack grip and reaches toward your collar area
+
+- Feeling fingers sliding inside your far-side lapel or collar, particularly with a palm-down orientation
+
+- Attacker shifts weight slightly to the side to create reach for the collar grip feed
+
+- Change in attacker's pressure pattern from back-take threatening to settling weight more centrally on your back
+
+- Attacker's near-side hand moves to your belt line or near-side collar, indicating secondary grip establishment
+
+
+### Escape Paths
+
+
+- Sit-back to closed guard by dropping hips to the mat and threading legs between you and the attacker, collapsing the turtle structure that the choke requires
+
+- Granby roll away from the choking side to invert and face the opponent, disrupting the walking arc angle and creating guard recovery opportunity
+
+- Explosive technical stand-up by posting the far-side hand, stripping the collar grip, and driving to standing position while the attacker's base is transitioning
+
+
+</section>
+
+
+
+<section id="from-positions" class="content-section">
+
+## From Which Positions?
+
+- [[Positions/Rodeo Ride]]
+- [[Positions/Turtle]]
+
+
+</section>
+
+<section id="related-submissions" class="content-section">
+
+## Related Submissions
+
+- [[Transitions/Clock Choke]]
+- [[Submissions/Bow and Arrow Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Breadcutter Choke]]
+
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Additional Related Content
+
+- [[Positions/Rodeo Ride]] - Starting position providing dynamic control for this choke entry
+- [[Positions/Turtle]] - Opponent's base position that enables Clock Choke attacks
+- [[Transitions/Clock Choke]] - Parent submission family this variant belongs to
+- [[Positions/Back Control]] - Alternative advancement when choke is defended
+- [[Positions/Crucifix]] - Alternative attack when opponent exposes arms defending choke
+- [[Positions/Crab Ride]] - Related turtle attack position that chains with Clock Choke threats
+
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of Clock Choke from Rodeo Ride leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
+</main>

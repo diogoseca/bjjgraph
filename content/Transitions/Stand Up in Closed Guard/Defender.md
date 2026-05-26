@@ -162,6 +162,8 @@ As the defender against the stand up in closed guard, you are the bottom player 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stand Up in Closed Guard?</p>
+
 - Top player's hands relocate from your collar, sleeves, or body to your hips or lower abdomen, establishing the posting platform for the standing sequence
 - Top player's weight shifts noticeably backward as they prepare to drive upward, reducing forward pressure through their chest and shoulders
 - One of the top player's knees lifts off the mat as they begin posting a foot, creating visible asymmetry in their base
@@ -173,6 +175,8 @@ As the defender against the stand up in closed guard, you are the bottom player 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stand Up in Closed Guard?</p>
 
 - Recognize the stand-up attempt at the earliest possible stage through hand placement changes and weight shifts—the earlier you identify it, the more defensive options remain available
 - Attack posture aggressively with collar and sleeve grips before opponent can establish hand position on your hips, making the standing transition structurally impossible
@@ -187,6 +191,8 @@ As the defender against the stand up in closed guard, you are the bottom player 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stand Up in Closed Guard?</p>
 
 ### 1. Break posture with aggressive collar drag and sleeve pull before opponent establishes standing base
 
@@ -224,6 +230,8 @@ As the defender against the stand up in closed guard, you are the bottom player 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stand Up in Closed Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Break their posture with an aggressive collar drag or sleeve pull before they can establish a posted foot. The earlier you recognize the stand-up attempt and attack their posture, the higher your success rate. Combine a strong cross-collar pull with heel pressure into their lower back to collapse their postural structure back to the kneeling position.
@@ -239,6 +247,8 @@ Time a hip bump sweep or flower sweep during the vulnerable single-knee-up trans
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stand Up in Closed Guard?</p>
 
 ### 1. Opening guard prematurely in panic without establishing offensive grips or organized defensive structure
 
@@ -268,6 +278,8 @@ Time a hip bump sweep or flower sweep during the vulnerable single-knee-up trans
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stand Up in Closed Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stand-up attempt cues
 Partner alternates between standard closed guard top movements and genuine stand-up attempts while you identify which is occurring. Call out 'standing' when you recognize the attempt. Develop sensitivity to the hand placement changes, weight shifts, and posture adjustments that signal the stand-up.
 
@@ -284,29 +296,6 @@ Live positional sparring starting in closed guard where top player is specifical
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to stand in your closed guard?
-**A**: The earliest cue is their hands relocating from your collar, sleeves, or body to your hips or lower abdomen, establishing the posting platform they need for the standing transition. This hand movement typically precedes any actual standing motion by one to two seconds, giving you a critical window to attack their posture with collar drags or sleeve pulls before they can post a foot and begin the ascent.
-
-**Q2**: Your opponent has achieved a full standing position and your guard is about to break from gravity pressure—what is your best defensive transition?
-**A**: Rather than desperately holding closed guard against unsustainable pressure, proactively open your guard and immediately establish feet on both hips with active collar and sleeve grips. This voluntary transition to open guard maintains your offensive capability and defensive structure, whereas being forcibly broken open typically results in your legs being controlled without any defensive grips in place. The key is making this transition before the guard breaks, not after.
-
-**Q3**: What sweep has the highest percentage success rate during your opponent's transition from kneeling to standing?
-**A**: The hip bump sweep is the highest percentage option during this transition because it directly exploits the primary vulnerability of the stand-up: the forward weight shift and narrowing base as one knee lifts off the mat. By timing the hip bump to coincide with their upward drive, you redirect their transitional momentum laterally against their compromised base. The flower sweep is a strong secondary option that uses their upward momentum against them when they commit to the standing motion.
-
-**Q4**: Why is it a mistake to attempt an armbar when your opponent is mid-stand in your closed guard?
-**A**: When your opponent is actively standing, their upward momentum and rapidly changing angle make the armbar extremely difficult to complete. The standing motion naturally pulls their arm away from your hips where you need it for the armbar, and their weight is moving in the opposite direction of your armbar pull. Additionally, the failed armbar attempt requires you to release guard control and offensive grips, leaving you worse off than before the attempt. Sweeps are far higher percentage during this transition because they work with the opponent's momentum rather than against it.
-
-**Q5**: How should you adjust your guard retention strategy once your opponent has fully established a stable standing position?
-**A**: Once they are fully standing with a stable staggered stance, shift your strategy from trying to maintain closed guard to establishing the best possible open guard position. Climb your guard as high as possible on their torso to delay the break, then proactively open guard with feet on hips and established collar and sleeve grips before the guard is forcibly broken. This transitions you into an organized open guard with offensive capability rather than a scramble. Key grips to establish before opening are cross-collar and same-side sleeve, which provide immediate sweep and submission options from open guard.
-
-
-
-</section>
 
 
 </main>

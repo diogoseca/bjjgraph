@@ -1,0 +1,127 @@
+{# BJJ Submission Family Hub Page Template #}
+{# Generates family overview pages with variant comparison table #}
+{# Input: Root fields + variants_comparison (aggregated from variant JSONs) #}
+
+---
+title: "{{ name }} | BJJ Submission Family | BJJ Graph"
+description: "{{ description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="submissions-family">
+
+> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{% if variants_comparison %}
+<section id="variants" class="content-section">
+
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+{% for v in variants_comparison -%}
+| [[{{ name }}/{{ v.variant_name }}|{{ v.from_position.split('/')[0] if '/' in v.from_position else v.from_position }}]] | {{ v.success_rate }}% | {{ v.top_risk }} | {{ v.uniqueness }} |
+{% endfor %}
+
+</section>
+{% endif %}
+
+<section id="overview" class="content-section">
+
+{{ overview }}
+
+**Category**: {{ submission_category }}
+**Type**: {{ submission_type }}
+**Target Area**: {{ target_area }}
+**Success Rate**: {{ success_rate }}% (average across variants)
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+{% for risk in safety_considerations.injury_risks -%}
+| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
+{% endfor %}
+
+**Application Speed**: {{ safety_considerations.application_speed }}
+
+**Tap Signals**:
+{% for signal in safety_considerations.tap_signals -%}
+- {{ signal }}
+{% endfor %}
+
+**Release Protocol**:
+{% for step in safety_considerations.release_protocol -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+
+**Training Restrictions**:
+{% for restriction in safety_considerations.training_restrictions -%}
+- {{ restriction }}
+{% endfor %}
+
+</section>
+
+{% if variations_and_setups is defined and variations_and_setups %}
+<section id="variation-details" class="content-section hide-minimal">
+
+## Variation Details
+
+{% for variant in variations_and_setups %}
+**{{ variant.variation_name }}**: {{ variant.description }}{% if variant.when_to_use %} (When to use: {{ variant.when_to_use }}){% endif %}
+
+{% endfor %}
+
+</section>
+{% endif %}
+
+<section id="from-positions" class="content-section">
+
+## From Which Positions?
+
+{% for position in from_positions -%}
+- [[{{ resolve(position) }}]]
+{% endfor %}
+
+</section>
+
+<section id="related-submissions" class="content-section">
+
+## Related Submissions
+
+{% for submission in related_submissions -%}
+- [[{{ resolve(submission.name if submission is mapping else submission) }}]]{% if submission is mapping and submission.relationship %} - {{ submission.relationship }}{% endif %}
+{% endfor %}
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Additional Related Content
+
+{% for item in related_content -%}
+- [[{{ resolve(item.name) }}]] - {{ item.relationship }}
+{% endfor %}
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of {{ name }} leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
+</main>

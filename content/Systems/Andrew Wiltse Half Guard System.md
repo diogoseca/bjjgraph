@@ -32,7 +32,7 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
     },
     {
       "@type": "HowToStep",
-      "name": "Sweep Mechanics Integration",
+      "name": "Kuzushi Integration",
       "text": "Master fundamental sweep mechanics from knee shield half guard, focusing on underhook sweeps, waiter sweeps from deep half entries, and technical standup variations. Learn to chain sweeps together and recognize when opponent defense opens alternative pathways.",
       "position": 3
     },
@@ -50,7 +50,7 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
     },
     {
       "@type": "HowToStep",
-      "name": "Systematic Dilemma Creation",
+      "name": "Systematic Fork Attacks",
       "text": "Master the art of creating defensive dilemmas by threatening multiple attacks simultaneously and reading opponent reactions to select optimal pathways. Develop pattern recognition skills to identify which defensive choices opponents make under pressure and exploit those tendencies.",
       "position": 6
     },
@@ -217,7 +217,7 @@ Key points:
 
 
 
-3. **Sweep Mechanics Integration**: Master fundamental sweep mechanics from knee shield half guard, focusing on underhook sweeps, waiter sweeps from deep half entries, and technical standup variations. Learn to chain sweeps together and recognize when opponent defense opens alternative pathways.
+3. **Kuzushi Integration**: Master fundamental sweep mechanics from knee shield half guard, focusing on underhook sweeps, waiter sweeps from deep half entries, and technical standup variations. Learn to chain sweeps together and recognize when opponent defense opens alternative pathways.
 Key points:
 - Underhook sweep requires hip explosion and leg extension timing
 - Deep half waiter sweep uses elevator mechanics with shoulder pressure
@@ -244,7 +244,7 @@ Key points:
 
 
 
-6. **Systematic Dilemma Creation**: Master the art of creating defensive dilemmas by threatening multiple attacks simultaneously and reading opponent reactions to select optimal pathways. Develop pattern recognition skills to identify which defensive choices opponents make under pressure and exploit those tendencies.
+6. **Systematic Fork Attacks**: Master the art of creating defensive dilemmas by threatening multiple attacks simultaneously and reading opponent reactions to select optimal pathways. Develop pattern recognition skills to identify which defensive choices opponents make under pressure and exploit those tendencies.
 Key points:
 - Simultaneous sweep and back take threats force opponent decision-making
 - Opponent base direction determines attack selection
@@ -358,11 +358,11 @@ Begin each training session with knee shield establishment drills from various p
 - [[Single Leg X Entry]] (Transition) - Entry pathway to leg entanglement positions
 - [[Technical Stand-up]] (Transition) - Alternative attack when opponent attempts to disengage
 - [[Knee Shield Retention]] (Transition) - Defensive transition maintaining knee shield positional integrity
-- [[Underhook Defense]] (Principle) - Battle for underhook control determining offensive access
-- [[Frame Management]] (Principle) - Essential skill for maintaining distance and creating angles
-- [[Guard Retention]] (Principle) - Overall defensive framework preventing guard passes
-- [[Sweep Mechanics]] (Principle) - Technical principles underlying all sweep executions
-- [[Creating Reactions]] (Principle) - Strategic principle for dilemma-based attack selection
+- [[Grips]] (Principle) - Battle for underhook control determining offensive access
+- [[Frames]] (Principle) - Essential skill for maintaining distance and creating angles
+- [[Defensive Concepts]] (Principle) - Overall defensive framework preventing guard passes
+- [[Kuzushi]] (Principle) - Technical principles underlying all sweep executions
+- [[Fork Attacks]] (Principle) - Strategic principle for dilemma-based attack selection
 - [[Position Chains]] (Principle) - System-building principle for connecting positions seamlessly
 - [[10th Planet Half Guard Bottom System]] (System) - Alternative half guard system emphasizing lockdown control
 - [[Lockdown to Electric Chair System]] (System) - Complementary system focusing on lockdown variations

@@ -169,6 +169,8 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Position Definition
 
+<p class="section-subtitle">What is Seated Guard (Bottom)?</p>
+
 - Hips positioned flat on the mat with buttocks making full contact with ground, providing stable seated base from which to move
 - Hands posted behind torso approximately shoulder-width apart, fingers pointing away from body, elbows slightly bent to create spring-like structural support
 - Legs extended or bent toward opponent with feet active and mobile, maintaining ability to push, pull, or hook opponent's legs and hips
@@ -181,6 +183,8 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Seated Guard (Bottom)?</p>
 
 - Opponent standing or on knees with some distance from your torso
 - Ability to post hands behind body for base support
@@ -195,7 +199,9 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Key Defensive Principles
 
-- Active Base Maintenance: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you
+<p class="section-subtitle">What are the key principles for defending Seated Guard?</p>
+
+- Active Base: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you
 - Distance Management: Feet actively control spacing - too close allows chest pressure, too far limits offensive options
 - Ready to Stand: Mental and physical preparedness to technical standup at any moment forces opponent caution
 - Hip Mobility Priority: Unlike closed guard, seated guard requires constant hip adjustment to keep opponent off-balance
@@ -208,6 +214,8 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Seated Guard (Bottom)?</p>
 
 **If opponent maintains distance and stays standing with upright posture:**
 - Execute **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
@@ -240,6 +248,8 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seated Guard?</p>
 
 ### 1. Staying Static in Seated Position
 
@@ -284,6 +294,8 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Seated Guard defense?</p>
+
 ### Seated Guard Movement Drill
 
 Partner stands and slowly walks around you in circle. Maintain seated guard while pivoting on hips to face them, keeping constant distance with feet. Focus on smooth hip movement and active base maintenance. Progress to partner making sudden direction changes.
@@ -323,38 +335,6 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hand posting position for maintaining seated guard, and why does it matter?
-**A**: Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support.
-
-**Q2**: Your opponent is standing at distance without committing to pass - what is the best tactical response?
-**A**: When opponent maintains distance without engaging, the technical standup is often the highest-percentage response. You have space to stand safely, and standing resets the position to neutral where you can re-engage on equal terms or shoot takedowns. Alternatively, you can scoot forward to force engagement, but this requires reading their reaction. A passive opponent at distance is an opportunity to improve your position.
-
-**Q3**: How should your feet function in seated guard, and what happens if they become passive?
-**A**: Your feet should actively manage distance by pushing, pulling, framing, and probing. They detect opponent's weight distribution and act as barriers to prevent advancement. Active feet push on hips to maintain space, hook ankles for sweep setups, and frame against knees to prevent passes. Passive feet allow opponent to close distance at will, establish pressure, and pass without meaningful resistance. The difference between good and poor seated guard is primarily foot activity.
-
-**Q4**: Opponent steps forward aggressively - what sweep options become available and why?
-**A**: When opponent steps forward, their weight shifts onto their lead leg, compromising their base. This opens scissor sweep (catch stepping leg with your shin while driving with other leg), tripod sweep (feet on hip and ankle while pulling their sleeve), and butterfly sweep (insert hook and elevate as their weight commits forward). The key is recognizing the weight shift and attacking during the transition when their base is weakest.
-
-**Q5**: What is the correct response when opponent achieves chest-to-chest pressure in seated guard?
-**A**: Once chest-to-chest pressure is established, seated guard has failed - you must immediately transition. Frame with forearms or elbows against their shoulders/chest to create space, then shrimp your hips away to recover half guard or butterfly guard. The key is not to accept the pressure but to immediately work to recover a more defensible position. Trying to maintain seated guard under chest pressure is futile and leads to getting passed.
-
-**Q6**: Why is constant hip movement essential in seated guard, and what should this movement look like?
-**A**: Constant hip adjustment prevents opponent from establishing static control and timing their passes. Movement should include small lateral shifts, forward scoots to close distance for attacks, and backward movements to create space. You should always be micro-adjusting based on opponent's positioning. If opponent seems comfortable and is slowly advancing their position, you're too static. The movement makes it impossible for them to time grips and passes precisely.
-
-**Q7**: When opponent controls one of your legs, what is the correct defensive response?
-**A**: Immediately activate your free leg as both a defensive and offensive tool. The free leg can push on their hip to create distance, frame against their knee to prevent advancement, hook their ankle for sweep attempts, or set up Single Leg X-Guard entry. Never allow both legs to be controlled simultaneously. Think of your legs as independent systems - when one is compromised, the other compensates. The worst response is to try to free the controlled leg while leaving the other passive.
-
-**Q8**: What visual cues indicate it's time to execute a technical standup rather than stay in seated guard?
-**A**: Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

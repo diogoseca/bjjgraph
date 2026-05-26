@@ -73,7 +73,7 @@
       "relationship": "Related general escape technique from truck position"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "relationship": "Submission threat that motivates urgency for escape"
     },
     {
@@ -243,7 +243,7 @@
         "description": "Start from turtle, scramble, or half guard positions where partner can enter the truck. Practice recognizing truck entries early and initiating hip escape mechanics before the position is fully consolidated. Early escape attempts during transition have significantly higher success rates than escaping from an established truck."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hip escape from truck?",
         "answer": "The optimal timing window occurs when the truck top player shifts their weight during submission setup transitions—specifically when they move from threatening upper body attacks to lower body attacks or vice versa. During these transitions, boot pressure momentarily decreases and upper body control loosens as they reposition. Secondary windows occur when the opponent adjusts their grips or when their weight shifts forward during submission attempts."
@@ -275,6 +275,18 @@
       {
         "question": "What chain attacks or alternative escapes should you prepare if the hip escape is blocked?",
         "answer": "The primary chain option is transitioning to a granby roll, as the angles created by even a partially successful hip escape position your body well for rolling. Secondary options include leg extraction by circling the trapped leg independently using ankle flexibility, or a forward roll entry toward deep half guard. If all movement-based escapes fail, resetting to defensive posture and hand fighting to re-address boot pressure before attempting again is preferable to forcing a blocked escape."
+      },
+      {
+        "question": "Your opponent begins setting up the twister while you are mid-shrimp—what do you do?",
+        "answer": "Immediately abort the hip escape and redirect both hands to neck defense. The twister threatens cervical spine injury and takes absolute priority over any escape progress. Tuck your chin forcefully and use both hands to fight the opponent's grip on your far arm. Once the twister threat is neutralized, you can resume the hip escape from your new position, which may actually be slightly improved due to the angle change created by your partial shrimp before the interruption."
+      },
+      {
+        "question": "How does the free leg posting position affect the direction and power of your hip escape?",
+        "answer": "The free leg should post with the foot flat on the mat, knee bent at approximately 90 degrees, positioned close to your hip for maximum drive. Posting too far away reduces power because the leg is overextended. Posting too close limits range of motion. The foot angle determines shrimp direction—pointing the toes perpendicular to the opponent drives you laterally, while angling slightly away creates a diagonal escape path that is harder to follow. The posted leg is your primary engine for all hip movement in this escape."
+      },
+      {
+        "question": "After extracting your leg and establishing half guard, your opponent immediately tries to re-enter the truck—how do you prevent this?",
+        "answer": "The critical defensive action is establishing the underhook immediately after clamping half guard, combined with a strong knee shield to create distance. The underhook prevents the opponent from achieving the perpendicular angle needed for truck re-entry, while the knee shield blocks their hips from closing distance. Turn fully to face the opponent so your back is no longer exposed. If they persist in attempting truck re-entry, use the knee shield to push their hips away and transition to a more aggressive half guard variant like butterfly half or deep half that keeps them off-balance."
       }
     ],
     "safety_considerations": "The hip escape from truck must be practiced with awareness of the twister and calf slicer threats inherent to the position. During training, always tap immediately if the opponent locks a twister grip and begins spinal rotation—cervical spine injuries from the twister can be severe and occur with minimal warning. Similarly, tap early to calf slicer pressure during leg extraction attempts, as the changing angles during escape can accelerate compression on the knee joint. Partners should apply submissions slowly during escape drilling to allow time for tapping. Begin all training with static drilling at zero resistance before progressing to live positional sparring."
@@ -360,7 +372,7 @@
         "correction": "React immediately to the first sign of escape: hand fighting the boot, posting the free foot, or beginning to frame. Early intervention is far more effective than late counters."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing a hip escape from truck?",
         "answer": "The earliest cue is the bottom player fighting your boot with their free hand, attempting to push your foot away from their hip or redirect the pressure angle. This hand fighting precedes the actual hip escape movement and indicates they are addressing the primary obstacle before initiating shrimping. Recognizing this allows you to increase boot pressure preemptively before they begin moving their hips."

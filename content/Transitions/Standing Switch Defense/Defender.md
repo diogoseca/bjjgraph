@@ -154,6 +154,8 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Switch Defense?</p>
+
 - The controlling player suddenly widens their stance and lowers their hips upon feeling your initial hip movement, indicating they are aware of the switch attempt and activating their defense
 - A sharp increase in grip pressure around your waist or torso as the controller squeezes their bodylock or seatbelt tighter to prevent separation and rotation
 - Forward hip drive from the controller that compresses your lower back and eliminates the space needed for your rotational pivot to develop
@@ -165,6 +167,8 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Switch Defense?</p>
 
 - Initiate the switch with an explosive hip drop to create the rotational pivot point before the controller can react and establish their defensive base
 - Control or strip the controller's grip arm on the switch side before reaching back to prevent your hand from being trapped against their body
@@ -179,6 +183,8 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Switch Defense?</p>
 
 ### 1. Chain the switch immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure
 
@@ -216,6 +222,8 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Switch Defense?</p>
+
 ### → [[Positions/Half Guard]]
 
 Chain a failed switch directly into a single leg or double leg takedown while the controller's weight is committed forward from driving their hips to stuff the switch. Their forward commitment creates a vulnerable window for level-change takedown attacks that put them on the bottom.
@@ -231,6 +239,8 @@ Complete the switch through explosive speed and timing during grip transitions, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Switch Defense?</p>
 
 ### 1. Attempting the switch with upright posture instead of dropping hips below the controller's hip level first
 
@@ -260,6 +270,8 @@ Complete the switch through explosive speed and timing during grip transitions, 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Switch Defense?</p>
+
 **Phase 1: Switch Mechanics** - Solo and partner drilling of fundamental switch technique
 Practice the basic switch mechanics at slow speed against a compliant partner from standing rear clinch. Focus on the hip drop, reach-back, and 180-degree pivot sequence until the movement pattern becomes fluid and automatic without rushing through any phase.
 
@@ -276,26 +288,6 @@ Positional sparring from standing rear clinch with full resistance from both par
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical mechanical prerequisite that must be established before reaching your switch hand back?
-**A**: You must drop your hips sharply below the controller's hip level before reaching back. This hip drop serves two essential purposes: it creates the pivot point around which your body will rotate 180 degrees, and it generates downward momentum that briefly disrupts the controller's forward pressure. Without this hip drop, reaching back simply exposes your arm to trapping without creating any rotational force. The hip drop should be sudden and explosive to minimize the controller's reaction window.
-
-**Q2**: Your initial switch attempt was stuffed by the controller driving their hips forward - what are your best follow-up options?
-**A**: Three primary follow-ups exist. First, chain immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure, converting their hip drive into an opening behind them. Second, attempt the switch to the opposite side while their weight is committed forward, exploiting the directional commitment of their defense. Third, drop level and shoot a single leg or double leg, using their forward weight distribution as vulnerability to a level-change takedown. The key principle is never pausing after a stuffed switch but immediately flowing to the next escape in the chain.
-
-**Q3**: How do you identify the optimal moment to attempt the switch when the controller has a tight bodylock?
-**A**: The optimal window occurs during grip transitions when the controller shifts from one grip configuration to another, such as moving from bodylock to seatbelt or adjusting hand position after a re-grip. During these transitions, there is a brief moment of reduced structural control where the grip is not fully locked. Additionally, when the controller initiates their own movement such as attempting a mat return or changing angle, their weight shifts create momentary mechanical weakness. The switch should be timed to exploit these windows rather than attempted against a fully locked, stationary bodylock.
-
-**Q4**: Why is it strategically important to alternate between switching directions rather than always attempting to the same side?
-**A**: Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from Modified Mount?</p>
+
 - Direct all bridge force toward the posted leg side where the top player's structural weakness exists due to extended base
 - Time the bridge when the top player shifts weight, reaches for grips, or commits to a submission setup that reduces their base stability
 - Establish frames on the opponent's hips before bridging to prevent them from following your hip movement during the escape
@@ -202,6 +204,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from Modified Mount?</p>
+
 - Both feet flat on the mat with heels drawn close to hips, providing a strong platform for explosive hip extension and directional driving
 - Identification of which leg is posted through feeling the asymmetric weight distribution across your torso and the space differential on each side
 - Far-side hand positioned to frame on the opponent's hip bone nearest to the posted leg to prevent them from following your movement
@@ -214,6 +218,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from Modified Mount step by step?</p>
 
 1. **Assess mount configuration**: Before initiating any escape attempt, identify which leg the top practitioner has posted to the side through tactile recognition. Feel for the asymmetric weight distribution where the posted leg side feels lighter with more space between their hip and your body, while the across-body knee creates concentrated downward pressure on your torso. This assessment determines the entire direction of your escape sequence.
 2. **Position feet for maximum bridge power**: Draw both feet close to your hips with heels flat on the mat, creating a strong platform for the explosive bridge. Your feet should be roughly shoulder-width apart with toes slightly turned outward for lateral driving power. The foot on the posted-leg side should be positioned slightly forward to direct force diagonally toward that side rather than straight upward, optimizing the vector of your bridge for directional displacement.
@@ -243,6 +249,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from Modified Mount?</p>
+
 - **Top player widens base by driving posted foot deeper into mat and lowering center of gravity to absorb bridge force** (Effectiveness: High) - Your Response: If the initial bridge direction is fully absorbed, immediately chain to a hip escape toward the opposite side or switch to frame-based escape using the space created by their base widening → Leads to [[Positions/Mount/Modified Mount]]
 - **Top player threatens armbar on the near-side arm as you commit to the bridge, forcing you to abandon the escape for arm defense** (Effectiveness: High) - Your Response: Immediately retract the bridge, bring your near-side elbow tight to your hip, and clasp your hands together to form a two-arm defensive structure before re-attempting the escape → Leads to [[Positions/Mount/Modified Mount]]
 - **Top player uses the bridge momentum to withdraw posted leg and consolidate to standard mount with symmetrical base** (Effectiveness: Medium) - Your Response: Recognize the transition and immediately switch to standard mount escape techniques like the upa or hip escape since the bridge has removed the Modified Mount configuration → Leads to [[Positions/Mount]]
@@ -254,6 +262,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from Modified Mount?</p>
 
 ### 1. Bridging toward the across-body knee instead of the posted leg
 
@@ -293,6 +303,8 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from Modified Mount (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Directional bridge power and hip positioning
 Practice the directional bridge in isolation without a partner. Position on your back, identify a target direction, and drill explosive bridges at 45-degree angles toward the target. Focus on driving through the hips rather than the neck, keeping chin tucked, and generating maximum lateral displacement. Build to 20 reps per side with consistent direction and power.
 
@@ -310,48 +322,12 @@ Combine the bridge escape with hip escapes, frame-based escapes, and standard up
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical directional consideration when executing the bridge escape from Modified Mount?
-**A**: The bridge must be directed specifically toward the posted leg side where the top player's structural weakness exists. The posted leg extends the base outward, creating stability against bridges from the opposite direction but vulnerability to force directed into and past the posted foot. Bridging toward the across-body knee drives into the strongest control point and wastes energy without creating displacement.
-
-**Q2**: Your opponent has their right leg posted and left knee across your body - which direction do you bridge and why?
-**A**: Bridge to your left, toward their right posted leg. The posted right leg creates a directional vulnerability on that side because their base is extended and their ability to absorb lateral force is compromised by the extended foot position. Their left across-body knee represents their strongest control point with concentrated downward pressure, making it the wrong direction for escape.
-
-**Q3**: What foot positioning maximizes bridge power for this escape?
-**A**: Both feet flat on the mat with heels drawn close to the hips, roughly shoulder-width apart with toes slightly turned outward. The foot on the posted-leg side should be positioned slightly forward to direct the bridge force diagonally toward the posted leg rather than straight upward. This positioning engages the glutes and posterior chain optimally for explosive directional hip extension.
-
-**Q4**: You begin bridging but the top player immediately reaches for your near-side arm to set up an armbar - how do you adjust?
-**A**: Immediately abort the bridge and prioritize arm defense by retracting your near-side elbow tight against your hip and clasping your hands together to create a two-arm defensive structure. The armbar threat from Modified Mount is severe and takes priority over completing the escape. Once the arm is secured, reassess and look for the next escape window when the top player abandons the armbar attempt and resets their grips.
-
-**Q5**: What frame positioning should be established before initiating the bridge?
-**A**: Your far-side hand should frame on the opponent's hip bone closest to the posted leg, creating a structural barrier that prevents them from following your hip movement. The near-side elbow stays tight against your own hip with the hand protecting your neck or gripping your collar. Without the hip frame, the top player rides your bridge momentum and re-establishes position, negating the escape entirely.
-
-**Q6**: What is the essential action immediately after creating space with the bridge?
-**A**: Capture the posted leg between your legs by shrimping your hips away and closing your knees around the leg in one fluid motion. The bridge creates only a brief window of destabilization, and without immediately securing the leg, the top player recovers their base and re-establishes mount. The shrimp-and-squeeze must be trained as a single coordinated movement that follows the bridge without any pause.
-
-**Q7**: Your bridge creates space but the top player transitions to standard mount before you capture the leg - what is your response?
-**A**: Immediately transition to standard mount escape techniques since the Modified Mount configuration no longer exists. Execute a hip escape or upa from standard mount, recognizing that the bridge has actually created a tactical advantage because the top player is briefly adjusting position during the transition and may not have fully consolidated their base in the new configuration.
-
-**Q8**: The top player anticipates your bridge direction and shifts weight toward the posted leg - how do you adapt?
-**A**: If the bridge direction is blocked by preemptive weight adjustment, switch to a hip escape toward the across-body knee side where the weight shift has now created relative lightness. The opponent cannot load weight on both sides simultaneously, so their defensive weight shift toward the posted leg necessarily opens the opposite side. This directional switching is the essence of chain escapes from mount.
-
-**Q9**: Why does the bridge escape target half guard recovery rather than a full reversal to top position?
-**A**: The posted leg is the most accessible structural element to capture during the bridge because it is already extended away from the opponent's center of gravity. Capturing it between your legs transitions directly to half guard, which is a manageable position with genuine offensive options. Attempting a full reversal requires displacing the entire body weight of the top player, which demands significantly more energy and provides a much smaller success window.
-
-**Q10**: What are the optimal timing windows for initiating the bridge escape from Modified Mount?
-**A**: The best windows are when the top player reaches for a new grip or submission setup, shifting their weight momentarily and reducing controlling pressure. Also effective during transitions when the top player adjusts from standard mount to Modified Mount or shifts between variations. Any moment where they post their leg farther than optimal to reach creates an enlarged vulnerability. Wait for these natural openings rather than forcing the escape against consolidated control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from Modified Mount?</p>
 
 The bridge escape from Modified Mount carries moderate risk of neck strain from improper bridging mechanics. Always drive through the hips and posterior chain rather than the cervical spine, keeping your chin tucked toward your chest throughout the movement. Avoid explosive bridges without proper foot positioning, as unsupported bridging can strain the lower back. If the top player threatens an armbar during the escape attempt, prioritize arm defense over completing the escape to prevent hyperextension injury. In training, practice at controlled intensity before adding speed and resistance, and communicate with your partner about pressure levels during Modified Mount drilling.
 

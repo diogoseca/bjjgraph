@@ -208,7 +208,7 @@ KOB to Side Control functions as a key link in the top pressure cycling system t
 
 - [[Transitions/Side Control to Mount]] - Natural follow-up transition after successfully consolidating to side control
 
-- [[Transitions/Consolidation to Knee on Belly]] - Reverse transition — moving from side control up to KOB, the opposite direction of this technique
+- [[Transitions/Side Control to Knee on Belly]] - Reverse transition — moving from side control up to KOB, the opposite direction of this technique
 
 - [[Positions/North-South]] - Alternative consolidation position accessible from KOB when opponent turns toward you during transition
 

@@ -162,6 +162,8 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Spider?</p>
+
 - The passer begins stripping your sleeve grips with sudden urgency rather than methodical grip fighting, indicating they are preparing for an aggressive forward drive
 - You feel your own hips beginning to elevate as the passer drives their chest into the back of your thighs, creating the initial stacking compression
 - The passer drops their level and drives their head toward your midsection or hip, abandoning their upright posture for a committed forward attack
@@ -174,6 +176,8 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Spider?</p>
 
 - Maintain at least one frame or foot-on-bicep hook when initiating attacks from spider guard to preserve a defensive fallback if the passer drives forward
 - Never allow full hip compression over your shoulders without framing—once the stack is fully established with leg control, escape becomes extremely difficult
@@ -188,6 +192,8 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Spider?</p>
 
 ### 1. Frame against the passer's shoulders with both hands and hip escape laterally to re-establish distance and recover spider guard hooks
 
@@ -225,6 +231,8 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Spider?</p>
+
 ### → [[Positions/Spider Guard]]
 
 Frame against the passer's shoulders early in the stack attempt and hip escape laterally to create distance. Re-establish one foot on bicep first, then fight for the second hook and sleeve grip. The key is reacting immediately when you feel the initial forward pressure rather than waiting for the full stack to develop.
@@ -240,6 +248,8 @@ When the passer commits fully to the stack with heavy forward pressure, redirect
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Spider?</p>
 
 ### 1. Releasing all grips and foot contact simultaneously when initiating attacks from spider guard, leaving no defensive fallback
 
@@ -269,6 +279,8 @@ When the passer commits fully to the stack with heavy forward pressure, redirect
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Spider?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stack pass initiation cues
 Partner alternates between systematic grip fighting and stack pass attempts from spider guard top. Bottom player calls out when they detect the stack initiation, then resets. No defensive action yet—focus purely on reading the trigger cues (level change, grip strip urgency, forward weight shift). 3-minute rounds.
 
@@ -285,29 +297,6 @@ Full positional sparring from spider guard. Bottom player attacks freely while m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a stack pass is being initiated from spider guard top?
-**A**: The earliest cues are a sudden urgency in the passer's grip stripping, a drop in their level as they bring their head and chest toward your hips, and a dramatic forward shift in their weight distribution. The most important cue is feeling your own hips begin to elevate as the passer drives their chest into the back of your thighs. By the time you feel significant stacking compression, the pass is already in progress, so recognizing the initial level change and forward commitment is critical for early defensive response.
-
-**Q2**: Why is it dangerous to release all spider guard contact simultaneously when attacking with a triangle or omoplata?
-**A**: Releasing all foot-on-bicep hooks and sleeve grips simultaneously removes every control point that slows the passer's forward advance. Spider guard's defensive strength comes from the foot pressure that controls distance—without it, the passer can drive forward unimpeded into the stack. By maintaining at least one hook or grip during attack entries, you preserve a defensive fallback that can redirect or slow the passer's forward drive if your attack fails, giving you time to recover guard structure.
-
-**Q3**: What should you do if the passer has already established a full stack with your hips over your shoulders?
-**A**: Focus on preventing the walk-around to side control by framing against the passer's hip and shoulder on one side, then hip escaping in the opposite direction to create an angle that blocks their path. Try to separate your legs and insert a knee between your body and the passer's chest to create a frame. If possible, retain or re-establish a sleeve grip to redirect their lateral movement. The priority shifts from preventing the stack—which has already occurred—to preventing the pass completion by maintaining some form of barrier between you and side control.
-
-**Q4**: How can you use the passer's forward momentum against them during a stack attempt?
-**A**: The passer's committed forward drive creates vulnerability to lateral redirection. If you retain a sleeve grip, you can combine a hip bridge with a lateral pull on the sleeve to redirect their forward momentum into a sweep. The timing is critical: execute the lateral redirection at the peak of their forward commitment when their weight is most off-center. Additionally, their low head position during the stack drive can be exploited for guillotine or loop choke entries if they expose their neck during the forward drive, though these require precise timing.
-
-**Q5**: When is it better to abandon your attack and re-establish spider guard versus continuing the submission entry during a stack pass?
-**A**: Abandon the attack and re-establish guard when the passer initiates their forward drive before your submission entry is past the point of no return. If your triangle legs are not yet locked or your omoplata hip angle is not yet established, attempting to complete the submission under stacking pressure usually fails and accelerates the pass. Conversely, if your submission is nearly secured—triangle locked, omoplata angle established—you may be better served completing the attack and using the submission control to prevent the pass. The decision point is whether your submission is further along than the passer's stack.
-
-
-
-</section>
 
 
 </main>

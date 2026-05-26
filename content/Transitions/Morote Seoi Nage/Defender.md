@@ -162,6 +162,8 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Morote Seoi Nage?</p>
+
 - Opponent establishes or tightens grips on both sleeves simultaneously and executes a sharp forward pull with both hands, breaking your posture toward them
 - Opponent steps their lead foot deep across and in front of your lead foot while beginning to rotate their torso away from you, dropping their level
 - You feel a strong bilateral pulling force combined with the opponent turning their back toward you and their hips dropping below your waistline
@@ -172,6 +174,8 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Morote Seoi Nage?</p>
 
 - Maintain upright posture with hips back to resist the forward pulling action that initiates the throw sequence
 - Deny bilateral sleeve grips through active hand fighting and immediate grip breaking whenever opponent secures both sleeves
@@ -186,6 +190,8 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Morote Seoi Nage?</p>
 
 ### 1. Sprawl with hip drop and whizzer control
 
@@ -223,6 +229,8 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Morote Seoi Nage?</p>
+
 ### → [[Positions/Standing Position]]
 
 Sprawl decisively at the first sign of entry rotation, driving your hips down and back to prevent the opponent from loading you. As their failed throw leaves them bent forward with their back exposed, transition to front headlock control or circle to take their back from standing. Alternatively, strip both sleeve grips during the kuzushi pull before the entry begins, resetting to neutral with grip advantage.
@@ -238,6 +246,8 @@ If the throw is partially initiated and you cannot fully prevent it, block the h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Morote Seoi Nage?</p>
 
 ### 1. Leaning forward with weight on toes during grip fighting exchanges
 
@@ -267,6 +277,8 @@ If the throw is partially initiated and you cannot fully prevent it, block the h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Morote Seoi Nage?</p>
+
 **Week 1-2: Recognition and Awareness Drilling** - Identifying Morote Seoi Nage entry cues under controlled conditions
 Partner performs the kuzushi and entry phases at slow speed while you practice identifying each stage of the throw sequence. Focus on feeling the bilateral pull, recognizing the stepping pattern, and detecting the hip rotation. No live defense yet - purely recognition training. Partner verbally confirms which phase they are in so you can associate the feeling with the visual cues.
 
@@ -283,29 +295,6 @@ Begin from standing with full grip fighting. Partner's objective is to hit Morot
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Morote Seoi Nage is being attempted?
-**A**: The earliest cue is when the opponent tightens grips on both of your sleeves simultaneously and executes a sharp bilateral forward pull to break your posture. This kuzushi action precedes the stepping entry and is the moment where defensive intervention is most effective. If you feel both sleeves being pulled forward with purpose, you should immediately sit your hips back, begin grip stripping, and prepare to sprawl against the entry rotation.
-
-**Q2**: Why is sprawl timing critical against Morote Seoi Nage, and when exactly should you initiate the sprawl?
-**A**: The sprawl must be initiated the moment the opponent steps their lead foot across your stance and begins rotating their hips. This is the transition between kuzushi and entry, and it represents the last moment where a sprawl can prevent the opponent from loading you onto their back. Sprawling too early alerts the opponent to switch attacks, while sprawling too late means they have already achieved back-to-chest contact and your hip drop will actually accelerate the throw rather than prevent it.
-
-**Q3**: Your opponent has secured both sleeve grips and is pulling you forward aggressively. What is your defensive priority?
-**A**: Your immediate priority is to strip at least one sleeve grip using a two-on-one grip break before the opponent can step in for the rotation. Without bilateral control, the throw loses most of its effectiveness and control. Simultaneously, sit your hips back to resist the forward pull and prevent your weight from shifting onto your toes. If you cannot break the grip in time and the entry begins, immediately transition to a sprawl defense rather than continuing to fight the grips while being thrown.
-
-**Q4**: How should you adjust your defensive stance when you suspect your opponent favors forward throws like Morote Seoi Nage?
-**A**: Against a known forward-throw specialist, adopt a slightly more upright stance with your hips further back than normal and your weight distributed more toward your heels. Keep your elbows tighter to your body to make sleeve grips harder to secure. Maintain slightly wider foot spacing to lower your center of gravity and increase sprawl stability. Use more circular grip fighting rather than straight push-pull patterns to deny the opponent the bilateral control they need to initiate the technique.
-
-**Q5**: The throw has been partially completed and you are being lifted off your feet. What is the best defensive option at this late stage?
-**A**: At this late stage, preventing the throw entirely is unlikely. Your priority shifts to controlling the landing. Counter-rotate your body toward the opponent and pull them with you using whatever grip you have, aiming to land in closed guard rather than flat on your back in side control. Tuck your chin to protect your head during impact, and immediately begin framing and hip escape movements upon landing to prevent the opponent from settling into a dominant position. Accepting the takedown points but denying side control is far better than landing flat and being pinned.
-
-
-
-</section>
 
 
 </main>

@@ -11,10 +11,10 @@
     "head and arm choke",
     "blood choke"
   ],
-  "from_position": "Side Control/Top",
+  "from_position": "Hindulotine/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Arm Triangle",
       "probability": 55,
       "result": "success"
     },
@@ -51,11 +51,11 @@
       "relationship": "Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available"
     },
     {
-      "name": "Americana from Side Control",
+      "name": "Americana",
       "relationship": "Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle"
     },
     {
-      "name": "Kimura from Side Control",
+      "name": "Kimura",
       "relationship": "Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed"
     },
     {
@@ -167,7 +167,7 @@
         "counter": "Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle",
         "effectiveness": "Low",
         "your_response": "Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Arm Triangle"
       }
     ],
     "common_errors": [
@@ -224,7 +224,7 @@
         "description": "Positional sparring starting from side control top. Opponent defends with full resistance. Work the arm triangle as part of a submission chain: americana threatens low arm, opponent pushes arm up, arm triangle entry. Track success rate over 10-round blocks and identify which defensive reactions consistently open the arm triangle versus requiring alternative attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct head position when setting up the arm triangle from side control?",
         "answer": "Your temple should press directly into the pocket between the opponent's shoulder and neck on the choking side, with zero space between your head and their body. Your ear should be in contact with their shoulder or neck. This position creates one side of the choking V, while the opponent's own trapped bicep compresses the other carotid artery. Any gap allows the opponent to extract their arm or reduces compression effectiveness."
@@ -354,7 +354,7 @@
         "correction": "Remain calm and work methodically through defensive options in order: attempt to wedge your trapped hand toward your face, turn toward the attacker, walk your hips away. If no option is working within 2-3 seconds of full compression, tap immediately—this is a blood choke and unconsciousness arrives rapidly"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical early-stage defense against the arm triangle setup from side control?",
         "answer": "Keep your near arm from crossing your own centerline. Frame against the attacker's shoulder or bicep rather than their head or neck, and maintain your elbow connected to your hip. This denies the attacker the arm-across-neck configuration entirely. If your elbow stays at your hip, the attacker cannot create the seal between your bicep and your neck regardless of how they position their head or shoulders."

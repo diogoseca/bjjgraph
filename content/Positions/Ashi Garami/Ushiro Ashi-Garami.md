@@ -40,7 +40,7 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Reversed orientation fundamentally changes heel hook finishing mechanics and required adjustments
@@ -199,9 +199,9 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (8% of attempts)
+- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (8% of attempts)
 
-- **[[Submissions/Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (2% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (2% of attempts)
 
 
 ### Common Mistakes

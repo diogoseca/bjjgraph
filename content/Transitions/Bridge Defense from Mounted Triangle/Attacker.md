@@ -194,6 +194,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Defense from Mounted Triangle?</p>
+
 - Time the bridge to coincide with the opponent's forward weight commitment during finishing attempts
 - Bridge at a forty-five degree angle toward the opponent's weakest base point rather than straight upward
 - Maintain chin tuck throughout the bridge to prevent the choke from tightening during the explosive movement
@@ -209,6 +211,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Defense from Mounted Triangle?</p>
+
 - Plant at least one foot flat on the mat close to your hips to generate maximum bridge power
 - Establish chin tuck and turn head toward trapped arm side to minimize choke pressure during bridge
 - Identify the opponent's weak base side by feeling their weight distribution through the triangle pressure
@@ -221,6 +225,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Defense from Mounted Triangle step by step?</p>
 
 1. **Establish defensive posture**: Immediately tuck your chin toward your chest and turn your head toward your trapped arm side. Bend the trapped arm tightly against your body, gripping your own collar or opposite bicep to prevent extension. Place your free hand as a frame against the opponent's hip on the side you plan to bridge toward. This defensive posture simultaneously reduces choking pressure and protects against armbar transition.
 2. **Plant feet for bridge drive**: Position both feet flat on the mat as close to your hips as possible. If the triangle configuration restricts one leg, ensure at least one foot is solidly planted with the knee bent at approximately ninety degrees. Dig your heels into the mat to create a stable launching platform. Wider foot placement generates more lateral bridge power while closer placement maximizes vertical lift.
@@ -252,6 +258,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Defense from Mounted Triangle?</p>
+
 - **Opponent posts wide on the bridge side to absorb force and maintain base** (Effectiveness: High) - Your Response: If the initial bridge is absorbed, immediately chain into a hip escape on the opposite side while the opponent's weight is committed to their posting leg. The posting action opens space on the other side that you can exploit with shrimping movement. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent tightens triangle lock and drives hips forward during bridge attempt** (Effectiveness: High) - Your Response: Abandon the bridge immediately and return to defensive posture with reinforced chin tuck. Wait for the next finishing attempt before re-attempting. The tightening response often exhausts the opponent's squeeze, creating a better window on the subsequent attempt. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent releases triangle and transitions to back control as you bridge and turn** (Effectiveness: Medium) - Your Response: If you feel the triangle release and the opponent shifting to your back, immediately drop your hips flat, turn to face the opponent, and establish frames before they can secure hooks. Getting your back to the mat before hooks are inserted prevents the full back take. → Leads to [[Positions/Back Control]]
@@ -263,6 +271,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Defense from Mounted Triangle?</p>
 
 ### 1. Bridging straight upward instead of at an angle toward the opponent's weak base side
 
@@ -302,6 +312,8 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Defense from Mounted Triangle (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Developing explosive hip drive and directional bridging
 Practice bridging from mounted triangle position with a compliant partner. Focus on planting feet correctly, generating maximum hip extension force, and driving at the proper forty-five degree angle. Partner holds static triangle without finishing pressure. Repeat twenty times per side, building power and angle consistency.
 
@@ -322,39 +334,12 @@ Flow between all mounted triangle escapes including bridge defense, frame-based 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for executing the bridge against a mounted triangle?
-**A**: The optimal timing is when the opponent commits their weight forward to finish the triangle or adjusts their angle for a tighter choke. This forward weight commitment reduces their ability to post backward and absorb the upward bridge force. You feel this as increased pressure on your chest and neck accompanied by their hips lifting slightly to create finishing angle. Bridging during this commitment window catches them at their most vulnerable base position.
-
-**Q2**: Why should you bridge at an angle rather than straight upward?
-**A**: Bridging straight up allows the opponent to settle their weight back down using gravity, negating your effort. The forty-five degree angle attacks the weakest point of the mounted triangle base, typically the side where the opponent's posting leg provides less structural support. The asymmetric triangle configuration always creates a preferential direction where less base exists to resist lateral force, making angled bridges significantly more effective at disrupting the position.
-
-**Q3**: What is the most critical defensive posture element to maintain throughout the bridge?
-**A**: The chin tuck is the single most critical element. Throughout the entire bridge motion, the chin must remain tucked to the chest with the head turned toward the trapped arm side. Without the chin tuck, the explosive upward bridging motion can actually tighten the triangle choke by exposing more of the neck to the leg configuration. The chin tuck reduces available choking angle and prevents the bridge from becoming counterproductive.
-
-**Q4**: How do you protect the trapped arm from armbar transition during the bridge?
-**A**: Keep the trapped arm bent at approximately ninety degrees throughout the entire escape sequence, gripping your own collar in gi, your opposite bicep in no-gi, or the opponent's leg. Never allow the arm to extend during the bridge motion. The bent arm position prevents the opponent from isolating the limb for an armbar even if the triangle disruption creates transitional chaos. If you feel them pivot toward armbar, turn aggressively toward them while keeping the elbow tight.
-
-**Q5**: Your opponent absorbs your bridge by posting wide on the bridge side - what is your immediate follow-up?
-**A**: Immediately chain into a hip escape on the opposite side. When the opponent posts wide to absorb your bridge, their weight commits to that posting leg, opening space on the other side of their body. Use this asymmetry by hip escaping away from their committed post. This bridge-to-shrimp chain is more effective than repeating the bridge because the opponent's base adjustment for the bridge creates the vulnerability for the hip escape.
-
-**Q6**: What should you do immediately after a successful bridge disrupts the triangle configuration?
-**A**: Chain immediately into guard recovery without pausing. Insert your near-side knee across the opponent's hip to establish half guard, or continue the hip escape to create full guard recovery distance. Any pause allows the opponent to re-establish the triangle or transition to an alternative dominant position. The space created by a successful bridge is temporary and degrades within one to two seconds as the opponent adjusts, making immediate follow-up essential for converting the disruption into a meaningful positional escape.
-
-**Q7**: How do you differentiate between when to attempt a bridge defense versus a frame-based escape from mounted triangle?
-**A**: Use the bridge defense when the opponent is actively committing weight forward to finish, when the triangle is not yet fully locked, and when you have sufficient energy for an explosive effort. Use frame-based escapes when the opponent maintains stable pressure without committing to finishes, when the triangle is deeply locked making disruption unlikely, or when your energy is too depleted for explosive movement. The bridge is your high-risk, high-reward option while frame-based escapes offer a steadier but slower path to escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Defense from Mounted Triangle?</p>
 
 Bridge defense from mounted triangle requires careful awareness of neck positioning throughout the escape. Explosive bridging while trapped in a triangle can temporarily increase choking pressure if the chin tuck is not maintained. Never bridge directly into the triangle squeeze direction. Training partners should apply moderate triangle pressure during drilling rather than competition-level finishing force. Tap immediately if you feel lightheadedness, tingling, or loss of blood flow during practice. Partners should release immediately on any tap signal. Warm up the neck and spine thoroughly before drilling explosive bridging movements to prevent cervical strain.
 

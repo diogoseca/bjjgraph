@@ -188,6 +188,8 @@ As the top player executing this pass completion, your objective is to clear the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Hook to Side Control?</p>
+
 - Upper body pressure must intensify before and during leg extraction to compensate for the brief reduction in lower body control
 - The crossface is your primary anchor—it must be immovable throughout the entire extraction sequence regardless of leg mechanics used
 - Far hip control prevents the majority of bottom player escape options and must be maintained until side control pins are fully established
@@ -202,6 +204,8 @@ As the top player executing this pass completion, your objective is to clear the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Hook to Side Control?</p>
+
 - Crossface firmly established with shoulder driving into bottom player's jaw, preventing them from turning toward you or creating frames
 - Far hip controlled with free hand to prevent hip escape and guard recovery during the extraction phase
 - Bottom player's defensive frames collapsed or sufficiently compromised that they cannot create space during extraction
@@ -214,6 +218,8 @@ As the top player executing this pass completion, your objective is to clear the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Hook to Side Control step by step?</p>
 
 1. **Lock crossface and intensify upper body pressure**: Before any leg movement, confirm your crossface is locked in with your shoulder driving into the bottom player's jaw line. Increase chest and shoulder pressure by dropping your weight forward and down into their upper body. This pressure must be at its maximum before you begin extracting the leg, as it compensates for the brief reduction in lower body control during the extraction phase.
 2. **Secure far hip control**: Place your free hand firmly on the bottom player's far hip, pinning it to the mat. This grip prevents the hip escape that is the bottom player's highest-percentage defense against pass completion. The grip should be deep on the hip bone with your forearm driving their hip flat. Maintain this control throughout the entire extraction and do not release it until side control pins are established.
@@ -243,6 +249,8 @@ As the top player executing this pass completion, your objective is to clear the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Hook to Side Control?</p>
+
 - **Bottom player tightens leg clamp and fights to retain the hook entanglement during extraction** (Effectiveness: High) - Your Response: Switch extraction method—if windshield wiper is blocked, try hip switch to change the angle of extraction. If all direct methods fail, consider backstep to the opposite side. Increasing upper body pressure often loosens the leg clamp as the bottom player's attention is split between holding your leg and surviving the pressure. → Leads to [[Positions/Leg Hook]]
 - **Bottom player hip escapes during the extraction to recover knee shield or half guard** (Effectiveness: High) - Your Response: Maintain far hip grip throughout the extraction to prevent this counter. If hip escape begins, follow their hips with your own while keeping crossface locked. Drive your weight laterally in the direction of their escape to cut off the space they are creating. If they recover knee shield, address it with smash pass mechanics before reattempting. → Leads to [[Positions/Leg Hook]]
 - **Bottom player dives for deep half guard entry during the weight transfer** (Effectiveness: Medium) - Your Response: Sprawl immediately and drive your hips back while maintaining crossface pressure. The deep half entry requires them to get underneath your center of gravity—keeping your hips low and forward prevents this. If they begin the entry, backstep away from the deep half direction and circle to re-establish top control from a different angle. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the top player executing this pass completion, your objective is to clear the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Hook to Side Control?</p>
 
 ### 1. Lifting chest pressure during leg extraction to focus entirely on freeing the hooked leg
 
@@ -293,6 +303,8 @@ As the top player executing this pass completion, your objective is to clear the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Hook to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Leg extraction patterns and weight transfer
 Practice all three extraction methods (windshield wiper, hip switch, backstep) with a fully compliant partner. Drill 15 repetitions of each variant per side, focusing on maintaining upper body contact throughout. Partner provides feedback on any pressure gaps felt during the extraction.
 
@@ -313,42 +325,12 @@ During regular rolling, consciously work from leg hook positions and practice re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What indicators signal the optimal moment to initiate the leg extraction for passing to side control?
-**A**: The optimal window opens when the bottom player's defensive frames collapse, their shoulders flatten to the mat, they stop actively fighting the crossface, or they commit to a single escape direction that you can anticipate. Their leg clamp loosening or their far hip becoming controllable are additional indicators. Attempting extraction against active defense, strong frames, and mobile hips typically fails and risks sweep counters.
-
-**Q2**: What control points must be confirmed before initiating the leg extraction?
-**A**: Three control points must be established before any leg movement: crossface locked with shoulder driving into the jaw line preventing the bottom player from turning toward you, far hip controlled with your free hand preventing hip escape, and the bottom player flattened or sufficiently compromised that their frames cannot create space during extraction. Missing any of these controls during the extraction creates exploitable gaps.
-
-**Q3**: Why must the hip drive forward during extraction rather than pulling the leg backward?
-**A**: Forward hip drive maintains body-to-body contact and pressure throughout the extraction, preventing the bottom player from creating space for guard recovery. Pulling the leg backward moves your weight away from the bottom player, opening a gap between bodies that they exploit for knee insertion, hip escape, or frame establishment. The mechanical principle is that your weight moves into the opponent while the leg changes angle to clear the entanglement.
-
-**Q4**: Your opponent tightens their leg clamp as you begin the windshield wiper extraction - how do you adjust?
-**A**: Switch to the hip switch extraction variant which changes the angle of force against their clamp. A tight clamp resists direct lateral windshield wiper motion but is vulnerable to the rotational angle change created by a hip switch. If the hip switch also fails, escalate to a backstep which bypasses the entanglement entirely by changing passing direction. Increase crossface pressure simultaneously, as splitting their attention between holding your leg and surviving upper body pressure often loosens the clamp.
-
-**Q5**: What is the most common mechanical failure that allows guard recovery during this pass?
-**A**: Lifting chest and shoulder pressure during the leg extraction to focus on freeing the hooked leg is the most common failure. This creates an immediate gap that the bottom player exploits by establishing frames, fighting for underhook, or initiating hip escape. The upper body pressure must increase during extraction to compensate for reduced lower body control. When practitioners lift their weight to extract the leg, they convert the pass from a pressure-driven sequence into a speed-based scramble where the bottom player has the advantage.
-
-**Q6**: What role does far hip control play throughout this entire transition?
-**A**: Far hip control prevents the bottom player's highest-percentage defense—hip escape—during every phase of the transition. Without this grip, the bottom player can shrimp away during the extraction window, recovering to knee shield, inserting butterfly hooks, or creating enough distance for full guard recovery. The grip must be maintained from the moment extraction begins until side control pins are fully consolidated, serving as a continuous tether that keeps the bottom player within your control sphere.
-
-**Q7**: Your opponent bridges explosively as you begin clearing your leg past their entanglement - what do you do?
-**A**: Widen your posted foot to absorb the bridge energy through a broad base rather than resisting rigidly. Keep your hips low and heavy while allowing the bridge to move through you without displacing your center of gravity. The bridge is a burst of energy that cannot sustain—once it collapses, immediately accelerate the extraction with intensified pressure. Never pause or retreat during a bridge, as that allows the bottom player to chain a second bridge or redirect into a hip escape.
-
-**Q8**: If the direct pass to side control is blocked, what follow-up options exist from the leg hook position?
-**A**: If the pass fails, three primary follow-up options remain from Leg Hook Top: consolidate to Half Guard Top via the Leg Hook to Half Guard transition for a stable passing reset, reattempt using a different extraction variant that addresses the specific defense that blocked the initial attempt, or chain into submission threats like kimura or darce choke that exploit the defensive commitments the bottom player made to block the pass. The worst option is to remain stalled in leg hook with no clear objective.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Hook to Side Control?</p>
 
 The Leg Hook to Side Control transition carries low injury risk compared to submissions but requires attention to knee safety during the leg extraction phase. Avoid twisting or torquing either player's knee through the entanglement during extraction—the leg should clear through angular motion, not rotational force on the joint. During drilling, perform the extraction at controlled speed and communicate with training partners about knee discomfort. When consolidating side control, avoid placing full body weight directly on the sternum or floating ribs. Be mindful of neck pressure during the crossface—the shoulder should drive the jaw, not compress the windpipe.
 

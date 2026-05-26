@@ -201,7 +201,7 @@ The technical stand-up is a critical connection point in the BJJ positional hier
 ## Related Techniques
 
 
-- [[Principles/Guard Recovery]] - Alternative escape maintaining bottom connection
+- [[Transitions/Scramble to Guard]] - Alternative escape maintaining bottom connection
 
 - [[Transitions/Granby Roll to Guard]] - Alternative escape using inversion and rotation
 

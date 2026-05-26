@@ -162,6 +162,8 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Whizzer from Deep Half?</p>
+
 - Feeling the top player's arm threading over and around your underhooking bicep or shoulder with increasing clamping pressure
 - Top player's hips suddenly driving backward away from you while their chest weight drops onto your upper body
 - Progressive loss of ability to elevate your hips as downward pressure increases through your shoulder and upper arm
@@ -173,6 +175,8 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Whizzer from Deep Half?</p>
 
 - Recognize the whizzer attempt early through tactile cues before the top player can fully lock and sprawl - early detection creates the largest window for counter-action
 - Never remain static once the whizzer is applied - either fight through it immediately or transition to an alternative attack before being flattened
@@ -187,6 +191,8 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Whizzer from Deep Half?</p>
 
 ### 1. Fight through the whizzer by re-pumping your underhook deeper and elevating hips explosively before the sprawl consolidates
 
@@ -224,6 +230,8 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Whizzer from Deep Half?</p>
+
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
 Fight through the whizzer early by re-pumping your underhook deeper and explosively elevating your hips before the sprawl consolidates. Alternatively, transition to electric chair with lockdown to force the top player to abandon the whizzer. The key is acting within the first 1-2 seconds before the whizzer-sprawl combination fully neutralizes your position.
@@ -239,6 +247,8 @@ When the whizzer is fully established and deep half is no longer viable, volunta
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Whizzer from Deep Half?</p>
 
 ### 1. Stubbornly maintaining the deep underhook while being progressively flattened by the whizzer and sprawl
 
@@ -268,6 +278,8 @@ When the whizzer is fully established and deep half is no longer viable, volunta
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Whizzer from Deep Half?</p>
+
 **Phase 1: Recognition** - Identifying whizzer establishment early
 Partner enters deep half guard top and alternates between establishing a whizzer and not establishing one. Bottom player calls out when they feel the whizzer beginning. No countering yet, purely developing tactile recognition. 20 repetitions per side until recognition becomes automatic within the first second of overhook contact.
 
@@ -284,29 +296,6 @@ Positional sparring starting in deep half guard. Top player uses whizzer as prim
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical cue that tells you the top player is establishing a whizzer on your underhook?
-**A**: The first cue is feeling the top player's arm threading over the top of your underhooking bicep with clamping pressure pulling downward. You will feel their forearm or upper arm pressing against the outside of your bicep or shoulder, and their elbow beginning to close against their own ribs. This is distinct from normal crossface pressure because it targets your arm specifically rather than your head. Recognizing this within the first second gives you the maximum window to counter.
-
-**Q2**: Your opponent has locked a tight whizzer and is beginning to sprawl - what is your immediate priority?
-**A**: Your immediate priority is maintaining hip elevation. Bridge your hips toward the ceiling using your bottom leg and core strength. If your hips reach the mat, the positional battle is lost regardless of your other actions. Secondary priority is assessing whether you can establish lockdown before they straighten their trapped leg, which would transition the battle to the electric chair system. If neither hip elevation nor lockdown is achievable within 2-3 seconds, begin transitioning to an alternative guard.
-
-**Q3**: Why is releasing the deep underhook sometimes the correct defensive choice against a strong whizzer?
-**A**: Releasing the underhook is correct when the whizzer has fully locked and you cannot fight through it. Continuing to hold the underhook in this situation means your arm is trapped under the opponent while you are being progressively flattened, draining energy for zero offensive return. By releasing voluntarily, you free your arm to create new guard structures like X-Guard or Single Leg X, and the opponent's whizzer becomes a wasted grip on an arm that is no longer threatening them. The tactical retreat preserves energy and creates new offensive possibilities.
-
-**Q4**: How does the lockdown help you counter the whizzer from deep half guard?
-**A**: The lockdown, which is a figure-four entanglement on the trapped leg, prevents the top player from sprawling their hips back effectively because their leg is anchored by your lockdown. Without the sprawl, the whizzer lacks the opposing force needed to flatten you. Additionally, the lockdown gives you the ability to drive into the electric chair position, which threatens a submission that forces the top player to abandon the whizzer to defend their hips and groin. The lockdown must be established before the top player straightens their leg.
-
-**Q5**: What sweep becomes available when the top player overcommits their weight forward through the whizzer?
-**A**: When the top player drives too aggressively forward through the whizzer without maintaining wide lateral base, the homer simpson sweep or a bridge-based reversal becomes available. Their overcommitted weight creates forward momentum that you can redirect by bridging and rolling underneath them. The whizzer itself helps this reversal because the opponent's arm is committed to the overhook and cannot post to prevent the roll. However, this only works when their free leg base is narrow, so you must feel for their weight distribution before committing to the bridge.
-
-
-
-</section>
 
 
 </main>

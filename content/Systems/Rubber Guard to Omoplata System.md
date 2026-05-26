@@ -357,14 +357,14 @@ Begin with static position holds to develop flexibility and position familiarity
 - [[Triangle Setup]] (Transition) - Integrated threat from rubber guard positions
 - [[Switch to Triangle]] (Transition) - Attack option when omoplata entry is blocked
 - [[Omoplata]] (Submission) - Primary submission finish in system
-- [[Omoplata from Guard]] (Submission) - Specific application of finish from guard positions
+- [[Armbar]] (Submission) - Key secondary submission threat integrated with omoplata and triangle attacks from rubber guard
 - [[Triangle Choke]] (Submission) - Secondary submission threat creating attack dilemmas
 - [[Baratoplata]] (Submission) - Advanced variation combining rubber guard and omoplata mechanics
 - [[Submission Chains]] (Principle) - Conceptual framework for connecting multiple attacks
-- [[Flexibility Training]] (Principle) - Physical requirement for system execution
-- [[Posture Breaking]] (Principle) - Initial control establishment principle
-- [[Guard Retention]] (Principle) - Defensive concepts integrated with offensive system
-- [[Offensive Combinations]] (Principle) - Strategic framework for multi-attack sequences
+- [[Hip Escape Mechanics]] (Principle) - Hip mobility mechanics essential for rubber guard maintenance and omoplata execution
+- [[Posture]] (Principle) - Initial control establishment principle
+- [[Defensive Concepts]] (Principle) - Defensive awareness integrated with offensive guard system
+- [[Fork Attacks]] (Principle) - Strategic framework for creating multi-attack dilemmas from rubber guard
 - [[10th Planet Rubber Guard System]] (System) - Broader system family containing this specific chain
 - [[Rubber Guard to Triangle System]] (System) - Parallel attacking system from same positions
 - [[Ryan Hall Triangle System]] (System) - Alternative triangle-focused approach with omoplata connections

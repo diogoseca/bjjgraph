@@ -214,7 +214,7 @@ Guard Recovery from Hindulotine occupies a critical defensive node in the Hindul
 
 - [[Transitions/Hindulotine to Anaconda Choke]] - Alternative offensive option when Hindulotine grip can redirect to anaconda control
 
-- [[Transitions/Hindulotine Choke Finish]] - Offensive technique that precedes the need for guard recovery when it fails to produce a tap
+- [[Hindulotine from Hindulotine]] - Offensive submission that precedes the need for guard recovery when it fails to produce a tap
 
 - [[Positions/Front Headlock]] - Position the opponent may transition to during Hindulotine extraction, threatening front headlock attacks
 

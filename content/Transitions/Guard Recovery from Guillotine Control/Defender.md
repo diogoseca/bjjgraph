@@ -162,6 +162,8 @@ As the top player escaping or defending against guillotine control, the moment t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Guillotine Control?</p>
+
 - Bottom player's guillotine grip loosens or shifts from deep chin-line choking position to a shallow hold on the neck
 - Bottom player's legs begin moving actively, positioning feet toward your hips or inserting hooks, indicating preparation for grip release
 - Bottom player's breathing pattern changes from offensive exertion to defensive preparation, signaling they are transitioning mentally to recovery
@@ -173,6 +175,8 @@ As the top player escaping or defending against guillotine control, the moment t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Guillotine Control?</p>
 
 - Capitalize immediately on the guillotine release—the transition window is your highest-percentage moment to advance position
 - Drive forward with chest and shoulder pressure during the grip transition before the bottom player can establish structural frames
@@ -187,6 +191,8 @@ As the top player escaping or defending against guillotine control, the moment t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Guillotine Control?</p>
 
 ### 1. Drive forward with heavy shoulder pressure through the grip transition window, collapsing frames before they can be established, and advance directly toward side control
 
@@ -224,6 +230,8 @@ As the top player escaping or defending against guillotine control, the moment t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Guillotine Control?</p>
+
 ### → [[Positions/Side Control]]
 
 Time your forward drive to coincide with the guillotine release, advancing past the bottom player's legs before they can establish frames or feet-on-hips barriers, securing crossface and underhook to consolidate side control
@@ -239,6 +247,8 @@ Strip the bottom player's transitional frames and collapse their guard structure
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Guillotine Control?</p>
 
 ### 1. Hesitating after escaping the guillotine instead of immediately advancing position during the transition window
 
@@ -268,6 +278,8 @@ Strip the bottom player's transitional frames and collapse their guard structure
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Guillotine Control?</p>
+
 **Phase 1: Transition Window Recognition** - Identifying the guillotine release moment and immediately advancing
 Partner releases the guillotine at random intervals while you practice immediately driving forward with shoulder pressure. Work at 30% resistance to develop recognition of the release moment and automatic forward advancement response. Drill 20 repetitions to build reaction speed.
 
@@ -284,29 +296,6 @@ Start each round in guillotine control with the bottom player working recovery a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-percentage moment to advance past the bottom player's guard during guillotine recovery?
-**A**: The highest-percentage moment is during the grip transition window—the brief period when the bottom player's arms are switching from guillotine choking grip to defensive frames. During this window, neither their arms nor their legs are optimally positioned for guard retention, creating a gap in their defensive structure that allows forward advancement past their legs into side control.
-
-**Q2**: Why should you stay low and drive forward rather than standing up when the guillotine is released?
-**A**: Standing up creates vertical distance that the bottom player exploits by placing feet on your hips, establishing the distance platform for open guard engagement. Staying low denies this distance by keeping your hips below their feet, while forward driving pressure prevents frame establishment and forces the bottom player to address your weight before they can recompose guard structure.
-
-**Q3**: The bottom player has established feet on your hips after releasing the guillotine—what is your best passing strategy?
-**A**: Grip both pants or ankles and work to stack or redirect their legs to one side for a toreando or leg-drag pass. Do not fight the feet-on-hips position by trying to walk through it, as their leg strength will outmatch your forward drive. Instead, control their legs as passing handles and use angular movement to clear their leg barriers while maintaining forward pressure to prevent them from recovering distance.
-
-**Q4**: How do you prevent the bottom player from inserting butterfly hooks during the guillotine release transition?
-**A**: Keep your hips heavy and low, driving your weight forward into the bottom player's thighs to deny the space needed for hook insertion. If you feel their heels beginning to hook under your thighs, immediately sprawl your hips back and down to flatten their hooks against the mat. The key is preemptive hip pressure—once butterfly hooks are established with an underhook, the bottom player has a strong sweeping platform that is much harder to neutralize than to prevent.
-
-**Q5**: How should you manage head extraction while simultaneously advancing position during the transition?
-**A**: Drive your forehead into the bottom player's sternum or shoulder while pushing forward with your hips, using your forward momentum to both create pressure and work your head free from residual neck control. The forward drive naturally extracts the head by changing the angle of your neck relative to their grip. Never pull your head straight back to extract it, as this creates the vertical distance that enables open guard recovery. Your head extraction and positional advancement should be the same movement, not sequential actions.
-
-
-
-</section>
 
 
 </main>

@@ -180,6 +180,8 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle Setup?</p>
+
 - Opponent establishes a deep collar grip and begins pulling your head down while simultaneously gripping your sleeve or wrist on one side — this dual grip signals posture break into arm isolation
 - You feel your arm being pulled laterally across the opponent's chest past their centerline while their hips begin shifting underneath you — this hip movement combined with arm control is the angle creation phase
 - Opponent uncrosses their ankles and you feel one hip drop away from you as their shoulders rotate off the mat — this is the angle creation that immediately precedes the leg throw and represents the last easy moment to defend
@@ -192,6 +194,8 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Setup?</p>
 
 - Maintain upright posture with head over hips at all times — posture is the first and most important line of defense against the entire triangle setup sequence
 - Keep elbows pinned tight to your ribs to prevent arm isolation across the centerline, denying the most critical setup requirement
@@ -206,6 +210,8 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle Setup?</p>
 
 ### 1. Posture recovery with hand-on-hip frame — drive both hands into opponent's hips while sitting your weight back, straightening spine and lifting head above shoulder line to deny the posture break that enables the entire setup
 
@@ -250,6 +256,8 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle Setup?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain or recover posture before the opponent can complete the setup sequence. Keep elbows tight to ribs, retract any isolated arm immediately, and use hands on hips to frame against posture-breaking attempts. Deny the angle by controlling opponent's hip movement. The earlier you interrupt the setup chain, the more likely you return to neutral closed guard top position with minimal energy expenditure.
@@ -265,6 +273,8 @@ When the opponent over-commits to the triangle setup — particularly during ang
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Setup?</p>
 
 ### 1. Allowing posture to be broken without immediately fighting to recover — accepting the broken posture and trying to defend from a compromised position
 
@@ -299,6 +309,8 @@ When the opponent over-commits to the triangle setup — particularly during ang
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle Setup?</p>
+
 **Phase 1: Recognition and Posture Maintenance (Week 1-2)** - Identify triangle setup initiation cues and maintain posture against breaking attempts
 Partner works from closed guard bottom attempting only the posture-breaking and grip establishment phases of the triangle setup. Defender focuses on maintaining posture with hands on hips, recognizing the collar-sleeve grip combination, and stripping grips before posture is broken. Partner operates at 50% intensity. Drill resets when posture is broken or grips are stripped. Goal is developing automatic posture recovery reflexes.
 
@@ -315,32 +327,6 @@ Full positional rounds starting from closed guard top with partner free to attac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the triangle setup sequence where you can identify and disrupt the attack?
-**A**: The earliest recognition point is when the opponent establishes the dual grip combination of collar control and sleeve or wrist grip that signals the setup initiation. The collar grip enables posture breaking and the sleeve grip enables arm isolation — together they represent the necessary grip foundation. Stripping either grip before posture is broken prevents the entire downstream sequence. The defensive action is to immediately address the more dangerous grip first (usually the collar grip using a two-on-one break) before the opponent can use it to pull your head down.
-
-**Q2**: Why is turning toward the trapped arm side the correct defensive rotation rather than turning away?
-**A**: Turning toward the trapped arm side squares your shoulders relative to the opponent's body, which directly counteracts the 45-degree angle they need for the triangle to function. This rotation also brings your trapped arm closer to your body's centerline, making extraction mechanically easier since you are reducing the distance the arm must travel. Turning away does the opposite — it deepens the angle, exposes more of the back of your neck to the attacking leg, and can give the opponent your back entirely if they abandon the triangle and follow your turning momentum.
-
-**Q3**: Your opponent has pulled your right arm across their centerline and you feel their hips beginning to shift — what is the correct defensive sequence?
-**A**: Immediately drive your right elbow back toward your own right hip using your lat and shoulder retraction while simultaneously posting your left hand on their left hip to pin it to the mat and prevent the angle-creating hip escape. Posture up by sitting your weight back onto your heels and straightening your spine. If the arm is already too far across to retract easily, circle your entire body toward the right to follow their hip movement and collapse the angle. The priority order is: retract arm, block hip movement, recover posture. Addressing all three simultaneously is ideal but arm retraction and hip control are most time-sensitive.
-
-**Q4**: How does defending the triangle setup interact with defending other closed guard attacks like hip bump sweep and omoplata?
-**A**: The triangle defense creates a connected defensive problem because the reactions that defend one attack can expose another. Posturing hard to prevent the triangle opens you to hip bump sweeps since your weight moves backward. Pulling your arm back aggressively can give the opponent an omoplata angle if they redirect to overhook control. Stacking forward to crush the triangle attempt exposes you to pendulum sweeps. The solution is balanced defensive posture — hands on hips, elbows tight, head up, base wide — that addresses the immediate triangle threat without overcorrecting into positions vulnerable to alternative attacks. Awareness of the interconnected attack tree is essential.
-
-**Q5**: What specific body sensations or pressure changes should you monitor to recognize the transition from normal closed guard control to triangle setup initiation?
-**A**: Monitor for three key sensory changes: first, increasing downward pull on your head and shoulders that signals posture-breaking intent through collar and guard tension. Second, lateral pulling force on one arm that feels different from normal grip fighting — the pull direction is across the opponent's body rather than toward them, indicating arm isolation rather than standard guard control. Third, a rotational shift in the pressure on your hips from below, where you feel one of the opponent's hips dropping away as they begin the hip escape for angle creation. This hip shift is often the most reliable cue because it represents the committed transition from guard control to triangle-specific mechanics.
-
-**Q6**: When the opponent's leg is already over your shoulder but the triangle is not yet locked, what determines whether you should stack forward or posture backward?
-**A**: The decision depends on where their hips are relative to yours and whether they have established head control. If their hips are still relatively flat on the mat and they are reaching for your head with their hands, posturing backward is more effective because it creates vertical distance before they can establish the downward pull needed to close the triangle. If they have already gripped behind your head or established shin pressure pulling you forward, stacking forward is the better option because fighting backward against their leg and arm control is a losing battle — instead, using their pulling force to drive your weight over them compresses their body and prevents them from locking the ankle behind their knee. The key diagnostic is: can you lift your head freely? If yes, posture back. If their control prevents head elevation, stack forward.
-
-
-
-</section>
 
 
 </main>

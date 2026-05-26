@@ -169,6 +169,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Position Definition
 
+<p class="section-subtitle">What is Combat Base (Top)?</p>
+
 - One knee posted on the mat with foot extended back, creating a stable triangular base point that distributes weight efficiently through the shin and kneecap
 - Opposite foot planted flat on the mat with knee raised above hip line, positioned near opponent's hip to control distance and create forward mobility for passing sequences
 - Upright posture maintained with spine straight and head elevated above hips, preventing forward collapse while maintaining structural integrity against pulling attacks
@@ -183,6 +185,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Combat Base (Top)?</p>
+
 - Successfully opened opponent's closed guard or entered open guard position
 - Established initial grip control on opponent's legs, hips, or gi to manage distance
 - Cleared immediate submission threats such as triangle or armbar setups
@@ -195,6 +199,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Combat Base?</p>
 
 - Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces
 - Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity against pulling attacks
@@ -210,6 +216,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Combat Base (Top)?</p>
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
 - Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -243,6 +251,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Combat Base?</p>
 
 ### 1. Posting with ball of foot instead of flat foot on planted side
 
@@ -287,6 +297,8 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Combat Base attacks?</p>
+
 ### Combat Base Establishment Drill
 
 Partner starts in closed guard. Top player opens guard and immediately establishes combat base with proper posture, hand positioning, and base structure. Bottom player provides moderate resistance attempting to maintain guard closure. Repeat 10 times per round, alternating which leg is posted.
@@ -315,7 +327,7 @@ Bottom player establishes strong grips on collar and sleeves, attempting to brea
 **Duration**: 6 minutes
 
 
-### Angle Creation Flow Drill
+### Dominant Angles Flow Drill
 
 From combat base, use planted foot to circle around opponent's guard, creating new passing angles every 3-5 seconds while maintaining base integrity. Bottom player maintains guard retention efforts with appropriate hooks and frames. Focus on fluid movement while keeping posted knee stable and posture upright.
 
@@ -326,38 +338,6 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the ideal weight distribution ratio between the posted knee and planted foot in Combat Base, and why?
-**A**: The ideal distribution is approximately 60-40 between the posted knee and planted foot, with the posted knee bearing slightly more weight to maintain base stability. This ratio allows for quick weight shifts when initiating passes or defending sweeps and should be adjusted dynamically based on opponent reactions and chosen passing direction.
-
-**Q2**: What three contact points create the triangulated base structure in Combat Base?
-**A**: The three contact points are the posted knee with shin on the mat, the planted foot flat on the mat, and the hips positioned above the opponent's hip line. These three points form a geometric triangle that provides multi-directional stability, allowing the practitioner to resist forces from any angle while maintaining structural integrity for offensive passing pressure.
-
-**Q3**: Your opponent begins bringing their knees together and reaching for your collar to close their guard - what immediate adjustments do you make?
-**A**: Widen your base by stepping the planted foot further out to the side, making it physically difficult for the opponent to lock ankles. Simultaneously drive your posted knee into the opponent's tailbone area while posting both hands on their hip bones to create a frame preventing guard closure. Break any collar grip by circling your wrist and peeling their fingers before they establish control.
-
-**Q4**: What are the primary grip priorities when establishing and maintaining Combat Base in the gi?
-**A**: The primary grip priorities are controlling the opponent's pants at knee level with the hand on the posted-knee side and controlling the collar or sleeve with the planted-foot side hand. The pants grip prevents guard retention by controlling leg mobility, while the upper body grip manages distance and prevents the opponent from establishing offensive grips. Always fight opponent grips before establishing your own.
-
-**Q5**: Your opponent successfully frames against your shoulders and extends their legs to push your hips away - how do you maintain position?
-**A**: Rather than fighting frames directly, use the planted foot to circle laterally while maintaining upright posture. Strip one frame at a time by swimming your arms inside their wrists. Once you clear one frame, immediately close distance on that side by driving the posted knee forward. If frames are too strong, stand up from combat base to break grips from higher elevation before re-establishing position with new angles.
-
-**Q6**: Your opponent threads a De La Riva hook around your lead leg while in Combat Base - what is your recovery sequence?
-**A**: Avoid stepping back, which deepens the hook. Instead, drive the hooked knee forward toward the mat while circling the foot inward to strip the hook. Use your same-side hand to push the opponent's hooking foot off your hip while maintaining pants or sleeve control with the other hand. If the hook is deep, switch your lead leg by stepping over to the opposite combat base stance, effectively removing the hook by changing which leg is posted.
-
-**Q7**: How does Combat Base compare to other passing positions in terms of energy expenditure, and what practices conserve energy?
-**A**: Combat Base is one of the most energy-efficient passing positions because the posted knee and flat foot create a stable structure requiring minimal muscular effort to maintain. To conserve energy, avoid constant forward pressure that can be redirected. Use intermittent pressure bursts combined with angle changes. Let gravity and skeletal alignment do the work rather than muscular effort, and focus on structural integrity over active resistance against pulling forces.
-
-**Q8**: Your opponent hits a butterfly hook elevation that lifts your posted knee off the mat - how do you recover Combat Base?
-**A**: Immediately post the planted foot wider and drop your hips lower to create a new base point, preventing a full sweep. Use the hand on the elevated side to post on the mat for emergency stability. As you regain control, re-establish the posted knee on the mat by turning your hips toward the hooking side and driving the knee back down with forward hip pressure. Once the knee returns to the mat, reset hand positions to control the opponent's hooks before they attempt another elevation.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

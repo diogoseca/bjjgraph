@@ -77,8 +77,8 @@
       "relationship": "Reverse chain link completing the bidirectional armbar-triangle submission cycle"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Primary alternative when armbar remains viable without needing triangle transition"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Primary submission finish from armbar control when armbar remains viable without needing triangle transition"
     },
     {
       "name": "Back Take from Armbar",
@@ -248,7 +248,7 @@
         "description": "During regular rolling sessions, deliberately set up armbar attacks with the specific intent of provoking the defensive reaction that opens the triangle. Track whether you can create the triangle opportunity on demand rather than waiting for it to appear. Develop the ability to steer opponents into the armbar-triangle chain from multiple guard positions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent defends the armbar by clasping their hands together tightly—what specifically creates the triangle opportunity from this defensive posture?",
         "answer": "Clasped hands defense requires the opponent to bend their trapped arm and bring their head forward and down toward your hips to create the structural connection between their hands. This broken posture positions their head within reach of your legs for the triangle, while the clasped hands mean one arm is already trapped across their centerline. The defensive posture that protects the elbow simultaneously exposes the neck—the clasped hands cannot simultaneously defend both the armbar extension and the triangle entry."
@@ -369,7 +369,7 @@
         "correction": "If caught in a locked triangle, immediately work to extract the trapped arm by pulling it toward your body. Even partial arm extraction reduces choking pressure significantly. Grip your own thigh or the attacker's leg to create structure while working the arm free."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is transitioning from armbar to triangle?",
         "answer": "The earliest cue is a change in the leg pressure across your face and neck. In armbar control, the attacker's legs create specific downward and inward pressure to control your upper body. When this pressure suddenly shifts, lifts, or releases—particularly if the far-side leg begins moving—it indicates the attacker is opening their leg configuration for the triangle transition. This leg movement precedes the grip change and arm repositioning, making it the first available signal for defensive response."

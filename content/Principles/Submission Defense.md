@@ -188,9 +188,9 @@ Modern submission defense integrates concepts from multiple grappling discipline
 
 **Defensive Framing**: The technical ability to create structural frames using arms, legs, and body positioning that block submission mechanics. Frames prevent opponents from closing distance, controlling angles, or applying pressure necessary for finishes. Effective framing requires understanding leverage points, bone alignment, and how to maintain frame integrity under sustained pressure without excessive muscular effort.
 
-**Space Creation Mechanics**: The physical techniques of generating gaps between your body and opponent's control through shrimping, bridging, granby rolls, and technical stand-ups. Space creation provides the room necessary to remove limbs from danger, escape head control, or reestablish guard. This skill requires hip mobility, core strength, and precise timing to create space without surrendering position.
+**Distance Control Mechanics**: The physical techniques of generating gaps between your body and opponent's control through shrimping, bridging, granby rolls, and technical stand-ups. Space creation provides the room necessary to remove limbs from danger, escape head control, or reestablish guard. This skill requires hip mobility, core strength, and precise timing to create space without surrendering position.
 
-**Grip Fighting and Breaking**: The systematic approach to removing opponent grips, hooks, and connection points that enable submission attacks. This includes two-on-one grip breaks, strategic grip replacement, hand fighting sequences, and understanding which grips must be addressed immediately versus later. Grip breaking prevents opponents from maintaining the control necessary to finish submissions.
+**Grips and Breaking**: The systematic approach to removing opponent grips, hooks, and connection points that enable submission attacks. This includes two-on-one grip breaks, strategic grip replacement, hand fighting sequences, and understanding which grips must be addressed immediately versus later. Grip breaking prevents opponents from maintaining the control necessary to finish submissions.
 
 **Escape Sequencing**: Knowledge of established escape progressions for each major submission category—understanding the specific steps, timing, and mechanical requirements for escaping armbars, chokes, leg locks, and shoulder attacks. Proper sequencing ensures defensive movements build upon each other rather than creating contradictory motions that assist the submission.
 
@@ -227,7 +227,7 @@ Modern submission defense integrates concepts from multiple grappling discipline
 
 **Ashi Garami**: Defending heel hooks and ankle locks through proper leg positioning, maintaining inside position, clearing dangerous grips, controlling opponent's hips, and executing systematic leg extraction sequences
 
-**Saddle**: Defending inside heel hooks from the honey hole position through hip positioning, clearing boot grip, defending with inside leg, creating connection breaks, and executing technical heel hook escapes
+**Honey Hole**: Defending inside heel hooks from the honey hole position through hip positioning, clearing boot grip, defending with inside leg, creating connection breaks, and executing technical heel hook escapes
 
 **Rear Triangle**: Defending rear triangle chokes by preventing initial leg lock-in, maintaining posture, creating space with hip movement, hand fighting controlling legs, and clearing legs before choke tightens
 
@@ -361,35 +361,35 @@ Training focused on identifying submission setups in preliminary stages before a
 
 ### Related Principles
 - **[[Defensive Concepts]]** (Extension): Defensive Concepts provides theoretical framework and mental models for understanding defensive principles, while this principle focuses on practical submission defense application and physical skill development
-- **[[Escape Hierarchy]]** (Complementary): Escape Hierarchy defines the positional priority system that determines which escapes take precedence when multiple threats exist simultaneously
-- **[[Frame Creation]]** (Prerequisite): Frame Creation forms the fundamental mechanical skill necessary for implementing most submission defenses across all categories
-- **[[Space Creation]]** (Prerequisite): Space Creation provides the physical capacity to generate gaps required for executing submission escapes
-- **[[Defensive Framing]]** (Complementary): Defensive Framing extends frame creation principles specifically to submission defense contexts with detailed applications
-- **[[Connection Breaking]]** (Complementary): Connection Breaking provides grip fighting methodology that prevents opponents from maintaining submission control
-- **[[Submission Position]]** (Complementary): Understanding submission positioning from the offensive perspective informs defensive priorities—knowing what attackers need helps defenders deny those requirements systematically
+- **[[Escape Fundamentals]]** (Complementary): Escape Fundamentals defines the systematic approach and priority system for escaping inferior positions, including determining which escapes take precedence when multiple threats exist simultaneously
+- **[[Frames]]** (Prerequisite): Frames forms the fundamental mechanical skill necessary for implementing most submission defenses across all categories
+- **[[Distance Control]]** (Prerequisite): Distance Control provides the physical capacity to generate gaps required for executing submission escapes
+- **[[Dealing with Pressure]]** (Complementary): Dealing with Pressure provides mental and physical strategies for managing sustained opponent pressure, which directly supports maintaining defensive composure during submission threats
+- **[[Grips]]** (Complementary): Grips provides systematic grip breaking and prevention methodology that prevents opponents from establishing and maintaining the control necessary for submission attacks
+- **[[Positional Hierarchy]]** (Complementary): Understanding the positional hierarchy from both offensive and defensive perspectives informs defensive priorities—knowing what positions enable submissions helps defenders prevent opponents from reaching those positions
 - **[[Energy Conservation]]** (Complementary): Energy Conservation ensures defensive capacity extends across multiple submission attempts through efficient mechanics rather than explosive panic
-- **[[Guard Recovery]]** (Extension): Guard Recovery represents the positional goal after successfully defending submissions from bottom positions
+- **[[Position Chains]]** (Extension): Position Chains maps the sequential pathways between positions, representing the transitional goals after successfully defending submissions—knowing where to go next after escaping
 - **[[Chin Protection]]** (Complementary): Chin Protection provides specific defensive posturing against choke attacks as part of broader submission defense
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip Escape Mechanics forms the foundational movement pattern underlying most submission escapes from bottom positions
-- **[[Bridging Mechanics]]** (Prerequisite): Bridging Mechanics provides essential explosive movement for escaping mount submissions and creating defensive space
-- **[[Defensive Strategy]]** (Extension): Defensive Strategy encompasses broader tactical planning including submission defense as critical component
-- **[[Risk Assessment]]** (Complementary): Risk Assessment informs decision-making about when to fight submissions versus accept positional loss
-- **[[Progressive Resistance Training]]** (Complementary): Progressive Resistance Training provides the methodology for developing submission defense skills through escalating pressure
+- **[[Bridge and Shrimp]]** (Prerequisite): Bridge and Shrimp provides the essential explosive and evasive movement patterns underlying most submission escapes, particularly from mount and side control
+- **[[Position-Over-Submission Approach]]** (Extension): Position-Over-Submission Approach reinforces the tactical principle of prioritizing positional safety over counter-attack attempts during defensive situations, encompassing submission defense as a critical component
+- **[[Competition Mindset]]** (Complementary): Competition Mindset informs strategic decision-making about when to invest energy fighting submissions versus accepting positional loss to preserve competitive viability
+- **[[Positional Sparring]]** (Complementary): Positional Sparring provides the constrained training methodology for developing submission defense skills through controlled scenarios with escalating pressure and realistic conditions
 
 
 ### Related Content
 - [[Defensive Concepts]] (Principle) - Provides theoretical framework and conceptual models for understanding defensive principles including submission defense
-- [[Escape Hierarchy]] (Principle) - Defines positional priority system that determines escape sequencing when multiple threats exist
-- [[Frame Creation]] (Principle) - Foundational mechanical skill underlying most submission defensive techniques
-- [[Space Creation]] (Principle) - Essential movement principle for generating gaps necessary to execute submission escapes
+- [[Escape Fundamentals]] (Principle) - Defines the systematic approach and priorities for escaping inferior positions including submission threats
+- [[Frames]] (Principle) - Foundational mechanical skill underlying most submission defensive techniques
+- [[Distance Control]] (Principle) - Essential movement principle for generating gaps necessary to execute submission escapes
 - [[Armbar Defense]] (Transition) - Specific technical application of submission defense principles to armbar escapes
 - [[Guillotine Defense]] (Transition) - Specific technical application focused on defending and escaping guillotine choke variations
 - [[Triangle Escape]] (Transition) - Detailed escape sequences for triangle chokes applying submission defense principles
 - [[Kimura Defense]] (Transition) - Technical defenses and escapes specific to kimura shoulder lock attacks
 - [[Back Control]] (Position) - High-risk position requiring comprehensive submission defense against choke and armbar threats
 - [[Mount]] (Position) - Dominant position from which multiple submission categories threaten, requiring diverse defensive skills
-- [[Saddle]] (Position) - Modern leg entanglement position with high submission rate requiring specialized heel hook defense
-- [[Defensive Strategy]] (Principle) - Broader tactical framework encompassing submission defense as critical component of overall defensive game
+- [[Honey Hole]] (Position) - Modern leg entanglement position with high submission rate requiring specialized heel hook defense
+- [[Position-Over-Submission Approach]] (Principle) - Broader tactical principle reinforcing positional safety over counter-attacks during defensive situations
 
 
 </section>

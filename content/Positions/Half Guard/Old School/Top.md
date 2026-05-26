@@ -169,6 +169,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Position Definition
 
+<p class="section-subtitle">What is Old School (Top)?</p>
+
 - Top player's trapped leg is caught in opponent's lockdown (figure-four leg configuration around the thigh), creating a mechanical connection that must be carefully managed to prevent sweeps
 - Whizzer (overhook) control established on opponent's far arm, with top player's arm threaded deep under opponent's armpit and hand gripping own thigh or opponent's hip to create structural leverage
 - Heavy crossface pressure applied with opposite shoulder driving into opponent's face/jaw, forcing head turn and creating uncomfortable defensive posture that limits mobility
@@ -182,6 +184,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Old School (Top)?</p>
+
 - Opponent has established lockdown position from half guard bottom
 - Top player's leg is caught in figure-four lockdown configuration
 - Top player recognizes lockdown threat and initiates defensive posture
@@ -194,6 +198,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Old School?</p>
 
 - Establish whizzer immediately upon recognizing lockdown - delay allows opponent to secure better angles for sweeps
 - Drive heavy crossface pressure to turn opponent's head away and limit their vision and breathing comfort
@@ -209,6 +215,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Old School (Top)?</p>
 
 **If opponent maintains tight lockdown and attempts Old School Sweep with underhook:**
 - Execute **[[Heavy crossface and whizzer pressure/Attacker|Heavy crossface and whizzer pressure]]** → [[Positions/Half Guard/Old School]] (Probability: 70%)
@@ -237,6 +245,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Old School?</p>
 
 ### 1. Posting weight on hands instead of driving chest pressure into opponent
 
@@ -276,6 +286,8 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Old School attacks?</p>
+
 ### Lockdown Entry and Counter Drill
 
 Bottom player starts in half guard and establishes lockdown. Top player must react immediately with proper whizzer, crossface, and base positioning. Work 2-minute rounds alternating roles, focusing on initial defensive reactions and structure establishment.
@@ -308,38 +320,6 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to bridge and roll toward the lockdown side - what immediate adjustment prevents the sweep?
-**A**: Post your free leg wider with the knee angled outward at 45 degrees while simultaneously driving increased crossface pressure and dropping your chest weight onto their sternum. The wide base removes their sweeping angle while the increased pressure prevents them from completing the rotation. Never try to balance by posting on your hands - keep weight through your chest.
-
-**Q2**: What are the essential grips and pressure points for maintaining Old School Top position?
-**A**: The three essential control points are: 1) Deep whizzer threaded under opponent's armpit with hand gripping your own thigh or their hip, 2) Heavy crossface pressure with shoulder driving into their jaw/face forcing head turn, and 3) Chest-to-chest connection with weight distributed forward. These create a structural framework that prevents both sweeping and reguarding attempts.
-
-**Q3**: How do you shut down the Old School Sweep when opponent has underhook and head control established?
-**A**: Drive your whizzer deep and clamp your elbow tight to your body to control their underhooking arm's mobility. Increase crossface pressure dramatically to turn their head away and break their pulling angle. Keep hips low and heavy - never raise them as this feeds directly into their sweep mechanics. Post free leg extremely wide to remove their rotational leverage entirely.
-
-**Q4**: What grip priorities should you establish when first recognizing opponent's lockdown?
-**A**: First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration.
-
-**Q5**: How should you apply pressure to flatten the bottom player without creating space they can exploit?
-**A**: Drive your weight forward and downward through your chest, not through your hips or hands. Your sternum should press directly into their sternum while your crossface shoulder drives into their face. Keep hands light and only for balance adjustments. This creates smothering pressure that limits their hip mobility - the foundation of all lockdown attacks.
-
-**Q6**: Your opponent begins pumping the lockdown to create sweep momentum - how do you anticipate and counter this?
-**A**: Feel for the rhythm of their leg extension attempts and time your base adjustments accordingly. When you feel them beginning to extend, immediately sprawl your hips slightly back while maintaining chest connection and driving crossface pressure. The sprawl removes the leverage they need while keeping your weight on them prevents the space creation they're seeking.
-
-**Q7**: How do you manage energy expenditure when stuck in extended Old School Top battles?
-**A**: Relax into the position using skeletal structure rather than muscular tension for control. Your whizzer should be deep enough that it holds structurally without squeezing. Crossface pressure comes from body weight positioning, not shoulder muscle. Breathe steadily and avoid reactive explosive movements that burn energy - patience and systematic pressure exhaust them faster than you.
-
-**Q8**: Opponent partially escapes your crossface and begins coming up to dogfight - what recovery sequence prevents position loss?
-**A**: Immediately increase whizzer pressure to stop their rotation while sprawling your hips back to remove their lifting angle. If they're already coming up, switch your whizzer to an underhook and circle toward their back rather than fighting for the flattened position. The back take becomes available when they commit to coming up - use their momentum against them rather than fighting it directly.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

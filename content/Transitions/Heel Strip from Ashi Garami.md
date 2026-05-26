@@ -28,7 +28,7 @@ The strategic importance of the heel strip cannot be overstated. In modern leg l
 
 Execution requires understanding the attacker's grip mechanics. The heel hook relies on controlling the heel and foot to create rotational force against the knee. The defender's goal is to two-on-one the attacker's wrist controlling the heel, strip it below the ankle line, and immediately straighten the leg to prevent re-gripping. The subsequent leg extraction and guard recovery must happen as a continuous sequence—pausing after the strip invites the attacker to re-establish control or advance position.
 
-**From Position**: [[Positions/Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -219,7 +219,7 @@ The heel strip is the critical junction between leg lock defense and guard recov
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where heel strip may apply to both practitioners simultaneously
 
-- [[Transitions/Heel Hook from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
+- [[Heel Hook from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
 
 
 </section>

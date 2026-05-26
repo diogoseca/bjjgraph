@@ -194,6 +194,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guillotine Escape via Posture?</p>
+
 - Drive hips forward and walk knees past the opponent's hips before attempting to lift your head—base creation precedes posture recovery
 - Tuck your chin immediately upon recognizing the guillotine threat to protect the trachea and reduce the effectiveness of the choke
 - Address the choking wrist specifically with your nearside hand rather than trying to pry apart clasped hands at their strongest point
@@ -209,6 +211,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guillotine Escape via Posture?</p>
+
 - Recognition that you are caught in a guillotine from the opponent's bottom guard, with their choking arm wrapped around your neck
 - At least one hand free to address the choking grip on your neck, typically the nearside hand closest to the choking arm
 - At least one knee posted firmly on the mat providing a base for generating upward posture force through hip extension
@@ -221,6 +225,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guillotine Escape via Posture step by step?</p>
 
 1. **Tuck chin to protect throat**: Immediately tuck your chin toward your chest the moment you feel the guillotine grip closing around your neck. This single action protects the trachea from direct compression and buys you critical seconds to execute the rest of the escape sequence. Press your chin firmly against your clavicle to close the space the opponent needs for effective choking pressure.
 2. **Grip the choking wrist with nearside hand**: Bring your nearside hand—the hand on the same side as the opponent's choking arm—up to grip their choking wrist at the point where it crosses your throat. Grab at the wrist rather than the clasped hands, as the wrist is structurally weaker and easier to peel away. Secure a firm C-grip on the wrist and begin pulling it slightly away from your neck to create breathing space.
@@ -251,6 +257,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guillotine Escape via Posture?</p>
+
 - **Opponent closes guard high on your back and pulls head down with legs to prevent posture recovery** (Effectiveness: High) - Your Response: Prevent guard closure by keeping knees wide and driving forward before they can lock ankles. If guard closes, address the legs first by posturing inside closed guard and working to break the ankle lock before re-attempting the escape. → Leads to [[Positions/Guillotine Control]]
 - **Opponent switches to high elbow guillotine variation by driving choking elbow toward ceiling during your posture attempt** (Effectiveness: High) - Your Response: If you feel the elbow driving toward the ceiling and choking pressure increasing, immediately stop posturing upward and transition to a Von Flue choke counter by driving your shoulder into their choking arm, or address the new grip angle by turning into the choke before continuing. → Leads to [[Positions/Guillotine Control]]
 - **Opponent executes hip bump sweep using your upward posture momentum to roll you over their hip to mount** (Effectiveness: Medium) - Your Response: Maintain a wide base with your posted hand and keep weight distributed forward rather than rising straight up. Drive your shoulder into the opponent as you posture to prevent the bridge angle needed for the sweep. If swept, immediately frame against mount and work to recover half guard. → Leads to [[Positions/Mount]]
@@ -261,6 +269,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guillotine Escape via Posture?</p>
 
 ### 1. Pulling head straight backward away from the opponent instead of driving forward and up
 
@@ -300,6 +310,8 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guillotine Escape via Posture (Attacker)?</p>
+
 **Phase 1: Mechanics** - Posture Recovery Fundamentals
 Practice the escape sequence against a stationary partner with no resistance. Focus on proper knee positioning, chin tuck, wrist grip placement, and spine extension mechanics. Perform 20 repetitions per side with emphasis on correct movement pattern and sequencing.
 
@@ -320,42 +332,12 @@ Begin in the guillotine position with partner applying full resistance using any
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct direction of force when escaping a guillotine via posture?
-**A**: Forward and upward—never backward. Walk your knees past the opponent's hips to create a base, then drive your hips forward while extending your spine upward. Pulling backward tightens the choke by dragging your neck into the choking arm. The escape works by driving through the opponent, using hip extension and forward pressure to generate the separating force.
-
-**Q2**: Why should you grip the choking wrist rather than the clasped hands?
-**A**: The clasped hands represent the strongest point of the grip chain, requiring enormous force to separate. The choking wrist where it crosses your throat is the weakest structural link—peeling it away from your neck is mechanically easier and more energy-efficient. Targeting the wrist also directly addresses the choking pressure at its source rather than fighting the reinforcement structure.
-
-**Q3**: What is the most critical mechanical detail that makes the posture escape work?
-**A**: Walking your knees forward past the opponent's hip line before attempting to posture up. This changes the geometry of the escape from pulling against the choke to driving through it, creates a stable base for spine extension, and prevents the opponent from using their legs to maintain broken posture. Without this knee positioning, the escape relies on neck strength alone and will fail against competent grapplers.
-
-**Q4**: Your opponent closes their guard around your waist as you begin to posture—how do you adjust?
-**A**: Stop the posture attempt and address the closed guard first. Use your hands to break the guard lock by pushing on the knee with your elbow or establishing posture inside closed guard. Once the guard is open, re-establish wide knee positioning and resume the posture escape. Attempting to posture through closed guard dramatically reduces success rates because the legs add compression to the choke.
-
-**Q5**: What is the optimal timing window for initiating the posture escape?
-**A**: Immediately upon feeling the guillotine grip close around your neck, before the opponent can fully seat their choking arm, close their guard, and establish high elbow mechanics. Within the first two to three seconds of the guillotine attempt, the grip is at its weakest and the guard is typically still open. Every second of delay exponentially decreases escape probability as the opponent optimizes their position.
-
-**Q6**: Your opponent hip bumps you as you drive upward to posture—what went wrong and how do you prevent it?
-**A**: You likely drove too vertically without sufficient forward base pressure. The hip bump sweep exploits upward momentum by redirecting it into a lateral roll. Prevent this by maintaining a wide base with your posted hand, keeping your center of gravity forward over the opponent rather than rising straight up, and driving your shoulder into their chest as you posture to prevent the bridge angle.
-
-**Q7**: What grip configuration on the choking wrist provides the most effective control for stripping the grip?
-**A**: A C-grip or monkey grip positioned on the choking wrist at the point where the wrist blade crosses your throat. The thumb side of your grip should face toward your chest, allowing you to pull the wrist down and away from your neck as you posture upward. Avoid a full closed fist grip that can slip under sweat—the C-grip maintains contact through pressure rather than squeezing.
-
-**Q8**: If the posture escape stalls at half-posture with the opponent adjusting their grip, what alternative options should you consider?
-**A**: If you have achieved partial posture but cannot complete the escape, consider transitioning to a Von Flue choke counter by driving your shoulder into their choking arm while they maintain a shallow grip. Alternatively, use the partial posture to begin passing to the side, using shoulder pressure to compress their grip mechanics while working toward side control. Never remain stalled at half-posture where the opponent can readjust.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guillotine Escape via Posture?</p>
 
 Guillotine chokes compress the trachea and carotid arteries, posing risk of unconsciousness within seconds. During drilling, tap early and often when caught in tight guillotines rather than risking injury by fighting through deep chokes. Partners should apply controlled pressure during training progressions and release immediately upon tap. Never attempt to muscle through a fully locked guillotine with violent posture extension, as this can cause cervical spine strain or neck injury. If you feel lightheadedness, tingling, or vision changes, tap immediately regardless of escape progress. When practicing the posture escape at full resistance, communicate with your partner about pressure levels.
 

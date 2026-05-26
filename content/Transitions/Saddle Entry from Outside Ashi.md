@@ -212,7 +212,7 @@ The Saddle Entry from Outside Ashi represents a critical junction in the leg ent
 
 - [[Transitions/Ashi Garami Escape]] - Alternative defensive option from the same starting position favoring pure escape over counter-attack
 
-- [[Transitions/Heel Hook from Saddle]] - Primary follow-up submission after successfully establishing saddle position
+- [[Heel Hook from Saddle]] - Primary follow-up submission after successfully establishing saddle position
 
 - [[Transitions/Inside Ashi Entry]] - Related leg entanglement advancement technique with different target position
 

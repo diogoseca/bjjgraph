@@ -14,7 +14,7 @@
   "from_position": "Hindulotine/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Hindulotine",
       "probability": 55,
       "result": "success"
     },
@@ -239,7 +239,7 @@
         "description": "Positional sparring starting from established Hindulotine control. Top player works to finish while bottom player uses full resistance to escape. Track completion rate over rounds and identify which defensive patterns cause the most difficulty for targeted drilling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal hip angle relative to the opponent's spine for generating maximum rotational torque during the Hindulotine finish?",
         "answer": "Position your hips at approximately 45-90 degrees perpendicular to the opponent's spine. This perpendicular angle transforms your body into a rotational lever, allowing core rotation to generate torque through the grip. The exact angle depends on your body proportions and the opponent's neck size, but the key principle is creating an angle where hip rotation directly translates into choking pressure rather than pulling the opponent toward you."
@@ -356,7 +356,7 @@
         "correction": "Always weaken the grip first through hand fighting before attempting any major positional escape. A roll is only effective when the grip has been loosened enough that the positional change creates an opportunity to fully extract your head."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the opponent is transitioning from Hindulotine control to an active finishing attempt?",
         "answer": "The earliest cue is a shift in the opponent's weight distribution from maintaining positional control to driving downward and forward through the choking arm. You will feel increased pressure on your neck, often accompanied by their hip angle changing as they rotate perpendicular to your spine. Their legs may also widen for base stability, signaling commitment to the finish rather than continued positional maintenance."

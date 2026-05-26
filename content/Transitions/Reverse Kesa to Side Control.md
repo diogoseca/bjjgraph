@@ -210,9 +210,9 @@ The Reverse Kesa to Side Control transition serves as a critical link in the top
 
 - [[Positions/North-South]] - Alternative dominant position accessible after reaching side control
 
-- [[Transitions/Americana]] - Primary submission accessible from the target side control position
+- [[Submissions/Americana]] - Primary submission accessible from the target side control position
 
-- [[Transitions/Kimura]] - Submission option available from both reverse kesa and the target side control
+- [[Submissions/Kimura]] - Submission option available from both reverse kesa and the target side control
 
 - [[Transitions/Bridge from Reverse Kesa-Gatame]] - Defensive technique the bottom player may use to disrupt the transition
 

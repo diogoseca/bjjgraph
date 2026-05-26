@@ -154,6 +154,8 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Sleeve Sweep?</p>
+
 - Opponent pulls both sleeves toward their chest while extending legs against your hips, creating a distinctive stretching sensation through your upper body
 - One sleeve is pulled sharply across opponent's body toward the opposite hip while the other sleeve maintains directional tension
 - Opponent's hips shift laterally off-center and elevate slightly off the mat, indicating loading for a directional sweep
@@ -165,6 +167,8 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve Sweep?</p>
 
 - Break sleeve grips systematically before the bottom player can establish the push-pull framework that powers the sweep
 - Maintain strong upright posture with hips back and chest forward to resist forward pulling forces
@@ -179,6 +183,8 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Sleeve Sweep?</p>
 
 ### 1. Post hand wide on the sweep side and drive forward to block the rotational path
 
@@ -216,6 +222,8 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Sleeve Sweep?</p>
+
 ### → [[Positions/Double Sleeve Guard]]
 
 Break at least one sleeve grip before the sweep develops momentum and maintain strong upright posture throughout. Post immediately on the sweep side if off-balanced. Drive weight forward to prevent elevation while systematically working grip breaks.
@@ -231,6 +239,8 @@ Aggressively strip both sleeve grips using two-on-one grip breaks with wrist rot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve Sweep?</p>
 
 ### 1. Leaning forward with rounded posture when sleeves are being pulled toward bottom player
 
@@ -260,6 +270,8 @@ Aggressively strip both sleeve grips using two-on-one grip breaks with wrist rot
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Sleeve Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setups through tactile and visual cues
 Partner sets up the Double Sleeve Sweep at slow speed without completing it. Practice feeling the bilateral tension, recognizing hip shifts, and identifying asymmetric foot pressure patterns. Call out the sweep direction before partner commits to build pattern recognition.
 
@@ -276,26 +288,6 @@ Full resistance positional sparring where successful sweep defense launches dire
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a Double Sleeve Sweep is being set up?
-**A**: The earliest cues are bilateral pulling tension on both sleeves combined with foot placement on your hips. Before the actual sweep, the bottom player tests your posture with push-pull cycles, pulling sleeves toward their chest while extending legs. When you feel this stretching sensation and notice their hips shifting off-center, the sweep setup is in progress. Early recognition at this stage allows grip breaking before any sweep momentum develops.
-
-**Q2**: Which defensive response takes highest priority when you feel the sweep beginning?
-**A**: Posting the hand wide on the sweep side takes highest priority because it directly addresses the immediate threat of being toppled. Even if you cannot break grips, a strong post prevents the sweep from completing. Post with your palm flat on the mat, arm extended, on the side toward which you feel yourself being directed. This buys time to address the grip situation and rebuild your base from a stable position.
-
-**Q3**: How do you prevent the overhead sweep variant when opponent has both feet on your hips?
-**A**: Drive your weight forward and down while pulling your elbows toward your ribs to compress the distance between you and the bottom player. The overhead sweep requires the bottom player to elevate you with their legs, which becomes impossible when your weight is driven forward past your knees. Additionally, step one knee forward between their legs to eliminate the parallel foot placement they need for the overhead variation to generate lifting force.
-
-**Q4**: Your opponent redirects to the opposite sweep direction after your initial post - what adjustment do you make?
-**A**: Immediately transfer your post to the new sweep side while simultaneously attempting to break the sleeve grip on that side using wrist rotation. Use hip rotation to face the new direction of force. The key insight is that the redirect requires the bottom player to reload the sweep mechanics, which takes a fraction of a second. Use this window to break a grip or drive forward before the new sweep direction can fully develop its rotational force.
-
-
-
-</section>
 
 
 </main>

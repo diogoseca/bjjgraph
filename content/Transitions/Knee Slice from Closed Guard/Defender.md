@@ -170,6 +170,8 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Closed Guard?</p>
+
 - Opponent postures up strongly with hands driving down on your hips or gripping your pants near the knees, signaling guard break preparation
 - Opponent's weight shifts to one side as they angle their lead knee toward your thigh line, indicating directional commitment for the slice
 - Opponent's shoulder begins driving toward your jaw line on the far side to establish crossface before the knee drive begins
@@ -182,6 +184,8 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Closed Guard?</p>
 
 - Recognize the knee slice attempt during the guard break phase before the knee begins to cross your thigh, when defensive options are most available
 - Fight the guard opening aggressively with active legs and ankle re-locking to deny the space needed for knee insertion
@@ -196,6 +200,8 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Closed Guard?</p>
 
 ### 1. Re-close guard by fighting to re-lock ankles before the knee crosses the thigh line
 
@@ -233,6 +239,8 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Closed Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Fight the guard break aggressively by re-locking ankles, establishing knee shield, or hip escaping to create distance before the knee slice can progress past your centerline. The earlier you respond in the passing sequence, the higher your probability of returning to closed guard.
@@ -248,6 +256,8 @@ Exploit the attacker's forward commitment during the knee drive by securing an u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Closed Guard?</p>
 
 ### 1. Remaining flat on back without creating angles or hip movement when the guard is opened
 
@@ -277,6 +287,8 @@ Exploit the attacker's forward commitment during the knee drive by securing an u
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Closed Guard?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying knee slice attempts early and selecting correct defensive response
 Partner initiates knee slice at 30% speed from closed guard. Focus on recognizing the cues, identifying the phase of the pass, and selecting the appropriate defense. No resistance from top player on your defensive response. 20 repetitions with verbal identification of which defense you are choosing and why.
 
@@ -293,32 +305,6 @@ Positional sparring starting in closed guard bottom with partner attempting the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is attempting a knee slice from closed guard?
-**A**: The earliest cues include the opponent posturing up strongly with hands driving on your hips, their weight shifting to one side as they angle the lead knee toward your thigh line, and their shoulder beginning to drive toward your jaw for crossface establishment. You may also feel them pinning your near-side knee downward after breaking your ankle lock and their posting foot repositioning behind them to generate forward driving force.
-
-**Q2**: When is the best timing to re-close your guard during a knee slice attempt?
-**A**: Re-close your guard before the knee crosses your thigh centerline. Once the knee passes the midpoint of your thigh, re-closing becomes nearly impossible due to the structural block of their shin. The optimal window is during the guard break itself when the opponent's attention is split between opening the guard and preparing the knee insertion. Use active legs to fight ankle separation and re-lock immediately when their grip weakens.
-
-**Q3**: What is the primary risk of attempting an underhook sweep during the knee slice transition?
-**A**: The primary risk is that a failed underhook sweep turns your body toward the opponent and surrenders your frame, making it significantly easier for them to establish crossface control and flatten you. A failed sweep attempt essentially accelerates the pass because you have removed your own defensive barriers and turned into the pressure rather than away from it. Only commit to the sweep when timing is clearly favorable.
-
-**Q4**: How should you position your inside knee to defend against the knee slice?
-**A**: Insert your inside knee as a shield by driving it across the opponent's hip line, creating a structural frame between your shin and their torso. This knee shield must be established before their knee crosses your thigh, and should angle slightly outward to redirect their driving pressure away from your centerline. The knee shield creates a barrier their knee cannot pass without first dealing with your frame through smashing or stepping around.
-
-**Q5**: What defensive option should you prioritize if the crossface is already established?
-**A**: If the crossface is already established, prioritize hip escape and guard recovery over fighting the underhook. Frame against their crossface shoulder with both hands, execute a strong hip escape away from them, and work to insert your knee shield or recover guard through leg pummeling. Trying to fight for the underhook when already crossfaced typically worsens your position because the crossface controls your head and torso rotation.
-
-**Q6**: Why is it dangerous to remain flat on your back when defending the knee slice?
-**A**: Remaining flat eliminates hip mobility, which is your primary defensive tool for creating angles and executing hip escapes. Without the ability to shrimp or create angles, you become a stationary target the passer can methodically work around. Flat positioning weakens your frames because effective shoulder-based resistance requires rotation, and it gives the top player maximum chest pressure surface area to pin you while completing the pass.
-
-
-
-</section>
 
 
 </main>

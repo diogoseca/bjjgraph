@@ -175,6 +175,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Position Definition
 
+<p class="section-subtitle">What is Straight Ankle Lock Control (Bottom)?</p>
+
 - Attacker maintains perpendicular positioning relative to defender's body, with defender's trapped leg extended across attacker's hip line and attacker's torso angled at approximately 90 degrees to defender's centerline, creating optimal mechanical advantage for ankle pressure while maintaining balance and control
 - Defender's ankle is secured across attacker's hip with hands controlling the foot and heel, grip placement varies based on gi/no-gi but consistently positions the attacker's forearm against the Achilles tendon while the opposite hand cups the heel or tops of the foot, establishing submission leverage
 - Attacker's legs actively wrap around defender's trapped leg using various configurations including inside position behind the knee, 'figure-four' leg triangle, or dual shin control across the thigh, these leg positions prevent hip rotation and maintain distance control while remaining flexible for transitions
@@ -185,6 +187,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Straight Ankle Lock Control (Bottom)?</p>
 
 - Successful entry from standing guard, Single Leg X-Guard, or leg drag position
 - Initial control of opponent's ankle secured with at least one hand
@@ -199,6 +203,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Straight Ankle Lock Control?</p>
 
 - Control position comes before finishing attempt - secure ankle and leg control before breaking mechanics
 - Perpendicular hip alignment maximizes leverage - angle of attack determines submission effectiveness
@@ -215,6 +221,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Straight Ankle Lock Control (Bottom)?</p>
+
 **If defender rotates hip away from attacker attempting to extract knee and create distance:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
 - Execute **[[Transition to leg triangle control/Attacker|Transition to leg triangle control]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
@@ -226,8 +234,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 
 **If defender straightens leg completely attempting to pull foot out of grip:**
-- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 55%)
 
 
 **If defender attempts to stand and creates vertical pressure on trapped leg:**
@@ -237,7 +245,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 **If defender secures grip on attacker's opposite leg attempting symmetrical entanglement:**
 - Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 70%)
-- Execute **[[Race to finish ankle lock before defender secures their control/Attacker|Race to finish ankle lock before defender secures their control]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Race to finish ankle lock before defender secures their control/Attacker|Race to finish ankle lock before defender secures their control]]** → [[game-over]] (Probability: 45%)
 
 
 
@@ -247,6 +255,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Straight Ankle Lock Control?</p>
 
 ### 1. Attempting to finish ankle lock immediately without establishing secure control position
 
@@ -286,6 +296,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Straight Ankle Lock Control defense?</p>
+
 ### Entry and Control Establishment
 
 Starting from Single Leg X-Guard or standing guard, practice entering straight ankle lock control and establishing secure position with proper hip alignment, leg configuration, and grip placement before any submission attempt. Partner provides moderate resistance to escape attempts.
@@ -318,38 +330,6 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the proper sequence for establishing control before attempting to finish the straight ankle lock?
-**A**: First establish perpendicular hip positioning relative to defender's body, then wrap your legs securely around their trapped leg to prevent hip rotation, verify ankle grip security with forearm positioned against the Achilles tendon and opposite hand cupping the heel, and only then initiate breaking mechanics. Position before submission is the fundamental principle - attempting to finish without these control elements results in easy escape.
-
-**Q2**: Your opponent rotates their hip away from you attempting to extract their knee - what counter-transition do you execute?
-**A**: Their hip rotation away opens a pathway to Inside Ashi-Garami. Follow their rotation by threading your inside leg through to establish the leg triangle, transitioning your control to secure inside position with your shin across their far hip. Their defensive movement actually facilitates your advancement to a more dominant entanglement where heel hooks become available.
-
-**Q3**: What are the essential grips for maintaining control and finishing capability in this position?
-**A**: The primary grip positions your forearm directly against the Achilles tendon with the blade of your wrist bone pressing into the tendon. The secondary grip cups the heel with palm across the back of the heel and fingers pointing toward toes. This configuration creates the pocket needed for submission leverage while controlling heel rotation that would allow escape.
-
-**Q4**: How do you apply proper breaking mechanics to finish the straight ankle lock?
-**A**: Breaking mechanics require full body coordination: arch your back to create extension, pull the heel tight to your chest, extend your hips to generate downward pressure, and dorsiflex the ankle by pushing toes toward shin. All movements happen simultaneously to maximize pressure on the Achilles tendon and ankle joint. The finish comes from hip extension and back arch, not arm strength.
-
-**Q5**: The defender straightens their leg completely attempting to pull their foot free - what opportunity does this create?
-**A**: Full leg extension is a critical defensive error that dramatically increases your finishing leverage on the straight ankle lock and also opens immediate kneebar opportunities. The straight leg creates a direct line of force for ankle pressure while the extended knee becomes vulnerable to kneebar attack. This defensive mistake should trigger immediate commitment to finishing.
-
-**Q6**: What leg configurations can you use to prevent the defender's hip rotation?
-**A**: Three primary configurations exist: inside position with your leg behind their knee creating a wedge, figure-four leg triangle where you cross your ankles around their thigh, or dual shin control across their thigh pinching from both sides. Each configuration prevents hip rotation while offering different transition flexibility. Choose based on the defender's leg positioning and your intended follow-up attacks.
-
-**Q7**: How do you manage the time pressure dynamics when attacking from straight ankle lock control?
-**A**: Implement strict internal time limits - if the submission is not imminent within 10-15 seconds, immediately transition to a more controlling position rather than continuing to fight for the finish. Energy expenditure without positional improvement favors the defender, so decisive action either toward the finish or toward advancement is required. Stalling in this position is tactically unsound.
-
-**Q8**: The defender establishes frames on your upper body and begins creating distance - how do you recover control?
-**A**: Immediately tighten your leg wrap to maintain connection while using your free arm to break their frames or control their hip. If distance becomes significant, transition to Single Leg X-Guard to maintain leg engagement while rebuilding your attack angle. Never allow frames to accumulate unchallenged, as distance compounds and control becomes progressively more difficult to re-establish.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

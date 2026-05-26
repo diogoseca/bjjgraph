@@ -162,6 +162,8 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Inverted Guard?</p>
+
 - Opponent inverts onto their shoulders and begins threading their near-side leg behind your far leg, indicating hook insertion attempt
 - Opponent grips your pants at the knee or ankle while maintaining inverted positioning, establishing the primary sweep connection point
 - Opponent's hips begin rotating laterally while in inverted position with active grip and hook engagement, signaling sweep initiation
@@ -173,6 +175,8 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Inverted Guard?</p>
 
 - Prevent the opponent from establishing controlling grips on your pants or belt, as these are the connection points through which sweep force is transmitted
 - Maintain a wide base with low center of gravity to resist the rotational displacement that the inverted sweep generates
@@ -187,6 +191,8 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Inverted Guard?</p>
 
 ### 1. Sprawl and drive hips down to eliminate the hook insertion angle and flatten the opponent's inverted position
 
@@ -224,6 +230,8 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Inverted Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 When the opponent commits to deep inversion with elevated hips, immediately apply stack pressure by driving your shoulder into their legs and folding their hips toward their head. Maintain continuous forward pressure while working your hips past their legs to consolidate side control. This converts their offensive inversion into a passing opportunity for you.
@@ -239,6 +247,8 @@ Strip the opponent's grips early before they can establish the dual-grip connect
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Inverted Guard?</p>
 
 ### 1. Driving weight forward directly into the sweep direction when the opponent initiates rotation
 
@@ -268,6 +278,8 @@ Strip the opponent's grips early before they can establish the dual-grip connect
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Inverted Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sweep setup cues from inverted guard
 Partner cycles through inverted guard setups including grip establishment, hook threading, and rotation initiation. Practice identifying each setup phase and verbalizing the defensive response required. Build pattern recognition before adding any physical defensive response.
 
@@ -284,29 +296,6 @@ Positional sparring rounds starting with the partner in inverted guard. Defend s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual cues that an opponent is setting up a sweep from inverted guard?
-**A**: The earliest cues are the opponent beginning to thread their near-side leg behind your far leg while establishing a grip on your pants at knee level. You may also notice them gripping your belt or collar with their other hand while their hips elevate and rotate toward the sweep direction. The combination of grip establishment and leg threading is the clearest indicator that a sweep attempt is imminent and requires immediate defensive action.
-
-**Q2**: How should you adjust your base when facing an inverted guard player who is actively threatening sweeps?
-**A**: Widen your stance significantly with feet staggered rather than parallel, lower your center of gravity by bending at the knees, and position your hips back rather than over the opponent. Distribute weight primarily on your back foot to prevent forward displacement. Avoid standing upright with a narrow base as this creates an unstable platform easily disrupted by the rotational force the inverted sweep generates from below.
-
-**Q3**: Your opponent has secured a hook behind your leg and gripped your pants - what is your immediate defensive priority?
-**A**: Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstipping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires.
-
-**Q4**: When is stack passing the correct defensive response to an inverted guard sweep attempt?
-**A**: Stack passing is appropriate when the opponent has fully committed to inversion with hips elevated high but has not yet generated significant rotational momentum. Drive forward through their legs, folding their hips toward their head with shoulder pressure. This is most effective when the opponent's grips are incomplete, as a fully gripped and hooked opponent can redirect your stack pressure into the sweep. The timing window is narrow and requires immediate commitment.
-
-**Q5**: What is the biggest mistake defenders make when an inverted sweep is mid-execution and gaining momentum?
-**A**: The biggest mistake is fighting the sweep direction by pushing against the rotational force rather than moving with it and re-basing. Once the sweep has significant momentum, attempting to resist directly wastes energy and typically fails because the rotational force exceeds what static resistance can counter. Instead, move with the sweep direction, post your hands to prevent being fully swept, and use the resulting scramble to re-establish a defensive position rather than trying to completely stop a sweep already in progress.
-
-
-
-</section>
 
 
 </main>

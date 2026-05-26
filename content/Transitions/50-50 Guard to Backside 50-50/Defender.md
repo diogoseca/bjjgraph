@@ -154,6 +154,8 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Guard to Backside 50-50?</p>
+
 - Opponent's hips begin shifting laterally rather than maintaining direct top pressure, indicating the start of the walking arc behind you
 - Opponent secures a strong grip on your far ankle or heel while simultaneously posting their free hand, establishing the anchor needed for rotation
 - You feel increasing pressure on one side of your body rather than centered top pressure, suggesting opponent is beginning to circle toward your back
@@ -167,6 +169,8 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending 50-50 Guard to Backside 50-50?</p>
+
 - Early recognition is the most effective defense: stopping the rotation in the first two inches of hip movement is dramatically easier than stopping it at the halfway point
 - Hip mobility is your primary defensive tool: active hip movement prevents the opponent from establishing the stable base needed to initiate the walking arc
 - Match their rotation direction by turning your body to face them, denying the chest-to-back angle they need to complete the transition
@@ -179,6 +183,8 @@ As the defender against the Transition to Backside 50-50, your primary objective
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Guard to Backside 50-50?</p>
 
 ### 1. Match the rotation by turning your body in the same direction opponent is moving, keeping your chest oriented toward them
 
@@ -216,6 +222,8 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Guard to Backside 50-50?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Prevent the rotation entirely by matching their movement with your own hip turn, keeping your chest facing them at all times. Alternatively, strip their anchor grip to remove the mechanical foundation of the rotation. The goal is to deny the back-facing angle and maintain standard 50-50 orientation where the position is closer to equal.
@@ -231,6 +239,8 @@ Bridge explosively during the opponent's rotation when their base is compromised
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Guard to Backside 50-50?</p>
 
 ### 1. Failing to recognize the rotation attempt until opponent has already completed more than half the arc behind you
 
@@ -255,6 +265,8 @@ Bridge explosively during the opponent's rotation when their base is compromised
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Guard to Backside 50-50?</p>
+
 **Recognition Drilling** - Identifying rotation cues without resistance
 Partner slowly executes the transition at 20 percent speed while you call out each recognition cue as you feel it: lateral pressure shift, anchor grip, inside leg tightening. No defensive response yet, purely sensory training. Perform 15 repetitions focusing on feeling the cues with eyes closed to develop tactile awareness.
 
@@ -271,26 +283,6 @@ Full resistance rounds starting in standard 50-50. Top player actively works to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single earliest recognition cue that your opponent is about to attempt the Backside 50-50 transition?
-**A**: The earliest cue is a lateral shift in their hip pressure. In standard 50-50 top, pressure is directed straight down through your centerline. When they begin the rotation, pressure shifts to one side as their hips start the walking arc. This lateral shift happens before any visible rotation and is the earliest tactile signal that the transition is being initiated. Responding to this cue gives you maximum time to counter.
-
-**Q2**: Why is matching the opponent's rotation direction more effective than trying to hold your position statically?
-**A**: Static resistance against a rotational force is mechanically inefficient because the opponent can incrementally overcome your resistance with each small hip step. Matching their rotation by turning your body in the same direction keeps your chest oriented toward them, which is the one thing that prevents the Backside angle from forming. You do not need to out-rotate them, you only need to maintain facing orientation. This requires far less energy than trying to pin them in place.
-
-**Q3**: Your opponent secures a heel grip and you feel them begin the rotation. You cannot break the grip quickly. What alternative defense do you use?
-**A**: If the grip break fails, immediately bridge explosively toward the side they are rotating from. Their mid-rotation base is compromised because their weight is shifting laterally rather than driving straight down. The bridge exploits this compromised base to either sweep them or at minimum disrupt their arc enough to buy time for a secondary defense. Alternatively, attack their heel as a counter-submission since their focus on rotation reduces their heel defense awareness.
-
-**Q4**: At what point during the transition should you abandon prevention and switch to Backside 50-50 Bottom defense?
-**A**: When the opponent's chest has passed perpendicular to your back and they have begun establishing forward pressure, the rotation is past the point of efficient prevention. Continuing to fight the transition at this point wastes energy that you will desperately need for Backside 50-50 Bottom defense. Immediately shift to back exposure management, heel protection, and active hip movement to prevent complete flattening. Accept the positional loss and focus on the next phase of defense.
-
-
-
-</section>
 
 
 </main>

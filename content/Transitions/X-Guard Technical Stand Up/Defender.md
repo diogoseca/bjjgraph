@@ -154,6 +154,8 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting X-Guard Technical Stand Up?</p>
+
 - Opponent shifts one hand from ankle or pant control to reach behind their hip toward the mat for a posting base
 - Inside hook begins to shallow from deep behind your knee toward your ankle or lower calf, creating hip travel space
 - Strong upward elevation push through X-Guard hooks followed by a brief pause, indicating preparation to post and drive
@@ -166,6 +168,8 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X-Guard Technical Stand Up?</p>
 
 - Maintain forward pressure and low center of gravity to deny the posting space the bottom player needs
 - Control or block the opponent's posting hand or shoulder to eliminate the base point that enables standing
@@ -180,6 +184,8 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against X-Guard Technical Stand Up?</p>
 
 ### 1. Drive forward with crossface pressure to flatten opponent back to the mat
 
@@ -217,6 +223,8 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending X-Guard Technical Stand Up?</p>
+
 ### → [[Positions/X-Guard]]
 
 Drive forward pressure with crossface at the first sign of the posting hand, collapsing the opponent back to the mat before they can establish base. Maintain heavy hips and connected upper body control to deny the space needed for the stand-up sequence to initiate.
@@ -232,6 +240,8 @@ When the stand-up cannot be fully prevented, immediately sit to guard and establ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X-Guard Technical Stand Up?</p>
 
 ### 1. Backing away when opponent begins the stand-up rather than driving into them
 
@@ -261,6 +271,8 @@ When the stand-up cannot be fully prevented, immediately sit to guard and establ
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against X-Guard Technical Stand Up?</p>
+
 **Phase 1: Recognition** - Identifying stand-up initiation cues versus sweep cues
 Partner alternates between X-Guard sweep attempts and technical stand-up attempts while you call out which attack is being initiated. Develop pattern recognition for the posting hand movement, hook shallowing, and elevation changes that differentiate the stand-up from sweeps. No actual defensive response yet, purely building recognition speed.
 
@@ -277,26 +289,6 @@ When partner's stand-up attempt fails, immediately transition to guard passing a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a technical stand up from X-Guard?
-**A**: The earliest cue is a shift in hand positioning where one hand releases from ankle or pant control and begins reaching behind their hip to establish a posting base on the mat. This is often preceded by a strong elevation push through their hooks to create momentary space. Recognizing this hand release gives you approximately one second to initiate your defensive response before the posting hand reaches the mat and the stand-up sequence becomes much harder to stop.
-
-**Q2**: Why is driving forward more effective than backing away when defending the technical stand up?
-**A**: The technical stand up requires the bottom player to drive their hips forward and under their shoulders in an arc. If you back away, you create the exact space needed for this hip drive to succeed unimpeded. Driving forward collapses the available space, forces their hips back down, and puts your weight on top of their frame, making the stand-up mechanically impossible. Additionally, forward pressure keeps your hooks heavy and resistant to the shallowing movement they need to complete.
-
-**Q3**: Your opponent has successfully posted and begun driving to standing - what is your best remaining defensive option?
-**A**: Immediately transition to controlling the situation on your terms rather than fighting a losing battle against the completed stand-up. Grab their collar or head with your free hand and sit to guard, establishing grips before they fully stand. This converts the situation from a failed defense into an open guard exchange where you retain engagement and connection. If you have pant grips, pull their lead leg forward to off-balance them during the transition. The worst option is to remain passive and allow them to reach full standing with your leg controlled.
-
-**Q4**: How does defending the technical stand up differ from defending a traditional X-Guard sweep?
-**A**: Against sweeps, you defend by widening your base laterally and posting in the direction of the sweep because the threat is horizontal displacement. Against the technical stand up, the threat is vertical. The opponent is trying to come up underneath you rather than dump you to the side. This means your defense requires downward pressure and forward drive rather than lateral posting. Many practitioners make the critical error of defending the stand-up like a sweep, posting to the side while the opponent stands up directly underneath their center of gravity.
-
-
-
-</section>
 
 
 </main>

@@ -36,7 +36,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Walk knees progressively higher toward armpits to eliminate bridge leverage and compress escape space
@@ -104,17 +104,17 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (12% of attempts)
-
 - **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (32% of attempts)
-
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
-
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
+
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (12% of attempts)
+
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
+
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
 - **[[Transitions/Bridge to Mount from High Mount/Attacker|Bridge to Mount from High Mount]]** (4% of attempts)
 
@@ -185,31 +185,29 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (21% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (12% of attempts)
+- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (13% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (9% of attempts)
+- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (9% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (8% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (9% of attempts)
+- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (7% of attempts)
+- **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (6% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (7% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (6% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (6% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (7% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (5% of attempts)
 
-- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (6% of attempts)
+- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (5% of attempts)
 
-- **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (3% of attempts)
+- **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (2% of attempts)
 
-- **[[Submissions/Armbar from High Mount/Attacker|Armbar from High Mount]]** (2% of attempts)
-
-- **[[Submissions/Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (2% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (1% of attempts)
 
 
 ### Common Mistakes

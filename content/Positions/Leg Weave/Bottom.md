@@ -165,6 +165,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Weave (Bottom)?</p>
+
 - Top player's knee-side leg is threaded between bottom player's legs, typically positioning the shin or knee across the bottom player's hip line or thigh to establish the weave structure that disrupts defensive leg positioning
 - Bottom player maintains half guard hook with one leg (usually the far leg) while the near leg is being controlled or pressured by the top player's weaved leg, creating asymmetric leg connection
 - Top player applies forward and downward pressure through chest and shoulder, often with crossface or underhook control to flatten the bottom player and prevent hip escape
@@ -178,6 +180,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Weave (Bottom)?</p>
+
 - Bottom player was in half guard position (standard, knee shield, or lockdown variation)
 - Top player successfully initiated leg weave entry by threading knee-side leg between bottom player's legs
 - Bottom player failed to prevent the initial weave with knee shield or frame
@@ -190,6 +194,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Weave?</p>
 
 - Establish and maintain strong defensive frames using forearms against opponent's neck, shoulder, or hip to prevent complete flattening
 - Keep active hip movement and angle creation to prevent top player from settling their weight and consolidating position
@@ -205,6 +211,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Weave (Bottom)?</p>
 
 **If top player establishes strong crossface and drives chest pressure to flatten you:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 40%)
@@ -237,6 +245,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Weave?</p>
 
 ### 1. Allowing top player to establish deep crossface without fighting for frames
 
@@ -271,6 +281,8 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Leg Weave defense?</p>
+
 ### Leg Weave Escape Flow Drill
 
 Partner establishes leg weave with moderate pressure. Bottom player cycles through frame creation, hip escape, knee shield recovery, and dogfight entries for 2-minute rounds. Top player maintains position but allows escapes to complete, then re-establishes weave. Focus on smooth transitions between defensive options.
@@ -303,38 +315,6 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The top player drives heavy crossface and you feel yourself getting flattened - what immediate frame adjustment do you make?
-**A**: Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement.
-
-**Q2**: What are the essential frames for surviving leg weave bottom before attempting escapes?
-**A**: Primary frame is forearm on opponent's neck or shoulder - this prevents complete chest compression. Secondary frame is your far hand on their hip to control their rotation and pressure angles. Your bottom leg knee should angle toward their body as a tertiary frame. These three points create a defensive structure that buys time for hip movement and escape attempts.
-
-**Q3**: How do you shut down the passing attempt when you feel them beginning the knee slice sequence?
-**A**: The moment you feel their weight shift toward the knee slice, pump your hips hard away from them while simultaneously driving your near-side knee between your bodies. Even a partial knee shield insertion disrupts their passing angle. If too late for knee shield, pumping away creates enough space to transition to deep half by diving under their base rather than fighting the pass directly.
-
-**Q4**: What grip priorities should you fight for when your frames are being stripped?
-**A**: First priority is re-establishing the frame on their neck or shoulder - this is survival. Second is maintaining your far-side hook at all costs, as losing this accelerates the pass. Third is fighting for the underhook on your near side, which gives you offensive options. If forced to choose, keep the hook and neck frame - you can't sweep without the hook, and you can't escape without the frame.
-
-**Q5**: How should you manage your energy when being pressured in leg weave bottom?
-**A**: Don't spend energy pushing against their weight - use frames to deflect pressure rather than resist it. Make small hip adjustments constantly rather than waiting and making explosive efforts. Breathe deliberately and don't hold your breath under pressure. Accept that you're in a bad position and work systematically rather than panicking. Save explosive energy for commitment to one specific escape when the timing is right.
-
-**Q6**: Your opponent partially clears your hook but hasn't completed the pass yet - what movement creates an opportunity to recover?
-**A**: This is actually an opportunity window. As they clear your hook, their base often becomes momentarily less stable. Use this moment to explosively hip escape and turn toward them for a dogfight position, or dive deep under them for deep half if they're moving forward. The key is recognizing this transition moment and committing fully to one escape direction rather than trying to recover the lost hook position.
-
-**Q7**: How do you prevent back exposure when coming up to dogfight from leg weave bottom?
-**A**: Keep your inside elbow tight to your body and your shoulder connected to their chest as you come up. Never lead with your shoulder turning away from them. Come up on your elbow first, then hand, maintaining chest-to-chest connection throughout. If you feel their arm starting to snake around your back, flatten back down and reset rather than continuing up and giving away back control.
-
-**Q8**: The top player has settled their weight and you've been stuck in leg weave for extended time - how do you restart your defensive activity?
-**A**: First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

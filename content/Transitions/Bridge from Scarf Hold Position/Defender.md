@@ -154,6 +154,8 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge from Scarf Hold Position?</p>
+
 - Bottom player walks their feet incrementally close to their hips and plants them firmly flat on the mat with knees bent, loading bridge power in their hip extensors
 - Bottom player's free arm reaches across their body toward your head-wrapping arm, attempting to grip your wrist, sleeve, or elbow crease for the arm trap
 - Bottom player threads their bottom leg around to hook your near leg at the ankle or calf, removing your secondary base for the roll
@@ -166,6 +168,8 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge from Scarf Hold Position?</p>
 
 - Maintain wide structural base with far arm posted and back leg extended to create a triangle that resists rotational bridging force from any angle
 - Keep your head-wrapping arm mobile and tight against the bottom player's head, never allowing them to pull it across their chest for trapping
@@ -180,6 +184,8 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge from Scarf Hold Position?</p>
 
 ### 1. Widen base preemptively by posting far arm wider and extending back leg when bridge setup indicators are detected
 
@@ -217,6 +223,8 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge from Scarf Hold Position?</p>
+
 ### → [[Positions/Side Control/Scarf Hold Position]]
 
 Maintain solid base with weight distributed through hips and wide posting leg. When the bottom player attempts the bridge setup, preemptively widen base and drive hip pressure deeper to resist rotational force. Keep your head-wrapping arm mobile and tight so it cannot be trapped. After the failed bridge, immediately re-consolidate controls by tightening arm isolation and resettling weight before they can chain into a follow-up escape.
@@ -232,6 +240,8 @@ Recognize the moment the bottom player commits their hips upward for the bridge 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge from Scarf Hold Position?</p>
 
 ### 1. Maintaining a narrow base with legs close together while in scarf hold, providing insufficient structural resistance to rotational bridge force
 
@@ -261,6 +271,8 @@ Recognize the moment the bottom player commits their hips upward for the bridge 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge from Scarf Hold Position?</p>
+
 **Phase 1: Setup Recognition Drilling** - Identifying bridge reversal setup indicators through pattern recognition
 Partner in scarf hold bottom cycles through bridge setup sequences without committing to the full bridge. Top player calls out each indicator as they recognize it: foot repositioning, arm reaching, leg hooking. Build automatic pattern recognition through 50 repetitions of setup identification, developing the ability to distinguish bridge setup from other escape preparations.
 
@@ -277,26 +289,6 @@ Positional sparring from scarf hold with full resistance. Top player maintains p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three setup elements that must connect for the bridge reversal to succeed, and which should you prioritize disrupting?
-**A**: The three elements are: arm trap on your head-wrapping arm, leg hook on your near leg, and explosive bridge at 45 degrees. Prioritize preventing the arm trap because it is the most critical element. Without the arm trapped, the bottom player cannot prevent you from posting during the bridge, making the reversal mechanically impossible regardless of bridge power or leg hook position. Keeping your head-wrapping arm mobile and tight is your highest defensive priority.
-
-**Q2**: Your bottom opponent lifts their hips for the bridge while you are in scarf hold - should you resist the bridge or transition to a counter?
-**A**: The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the clearance you need. Resisting through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more efficient than absorbing repeated explosive bridge attempts.
-
-**Q3**: When is the mount transition counter most dangerous to attempt against the bridge reversal?
-**A**: The mount counter is most dangerous when the bottom player has secured all three control points (arm trap, leg hook, and 45-degree bridge angle) and commits with full explosive rotational force. In this scenario, attempting to step over risks being carried over by the rotational momentum and losing position entirely. The counter is safest when the bottom player bridges without a secure arm trap or leg hook, as the bridge generates upward motion without the rotational force that would carry you over. Read the setup completion before committing to the step-over.
-
-**Q4**: How do you balance hip pressure for control against the risk of being reversed by the bridge?
-**A**: Hip pressure should be driven downward through your pelvis into the bottom player's ribcage to restrict their breathing and bridge capacity, but your weight must not be committed entirely forward over the roll line. Maintain your center of gravity between your posted base points rather than stacked directly over the bottom player's chest. If you feel the bottom player loading weight toward you, shift pressure slightly backward while widening your base to prevent being loaded over the tipping point for the rotational bridge.
-
-
-
-</section>
 
 
 </main>

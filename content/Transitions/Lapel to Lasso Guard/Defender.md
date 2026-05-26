@@ -166,6 +166,8 @@ Successful defense demands continuous pressure and grip awareness throughout the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel to Lasso Guard?</p>
+
 - Opponent maintains a tight pistol grip on your sleeve wrist even as their lapel configuration is being stripped—this sleeve retention signals they are preparing to convert to lasso rather than re-establish the lapel
 - Bottom player begins rotating their hips perpendicular to your centerline immediately after you clear the lapel, creating the angle needed for shin threading across your arm
 - You feel the opponent's shin or foot begin to slide across the front of your bicep or tricep while they pull your sleeve toward their chest—this is the initial threading motion of the lasso entry
@@ -177,6 +179,8 @@ Successful defense demands continuous pressure and grip awareness throughout the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel to Lasso Guard?</p>
 
 - Treat lapel clearing as the beginning of your passing sequence, not the end—immediately advance position after freeing yourself from the lapel configuration
 - Strip or control the sleeve grip that connects both guard systems—without sleeve control the opponent cannot establish any meaningful lasso
@@ -191,6 +195,8 @@ Successful defense demands continuous pressure and grip awareness throughout the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel to Lasso Guard?</p>
 
 ### 1. Step over the threading leg before lasso is established by lifting your foot over their shin and planting it on the far side of their hip
 
@@ -228,6 +234,8 @@ Successful defense demands continuous pressure and grip awareness throughout the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel to Lasso Guard?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the sleeve grip during the transition window or close the elbow gap to deny threading. Without the lasso conversion succeeding, the opponent is stuck in a degraded guard with their lapel already cleared. Immediately advance your passing sequence before they can re-establish any guard configuration.
@@ -243,6 +251,8 @@ Drive aggressive forward pressure the instant you recognize the hip rotation pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel to Lasso Guard?</p>
 
 ### 1. Pausing after successfully clearing the lapel configuration instead of immediately advancing the pass
 
@@ -272,6 +282,8 @@ Drive aggressive forward pressure the instant you recognize the hip rotation pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel to Lasso Guard?</p>
+
 **Week 1-2** - Recognition and timing
 Partner plays lapel guard at light intensity and transitions to lasso when you begin clearing. Focus on recognizing the specific visual and tactile cues: sleeve grip retention, hip rotation, and shin threading. Do not attempt to defend—simply identify the transition moment accurately each repetition to build pattern recognition.
 
@@ -288,29 +300,6 @@ Full intensity sparring starting from lapel guard. Partner uses the full range o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window for preventing the Lapel to Lasso Transition?
-**A**: The critical window occurs between the moment you successfully clear the lapel configuration and the moment the opponent completes the lasso threading. During this brief period, the bottom player is between guard systems with compromised control. Acting decisively during this window—through forward pressure, sleeve stripping, or stepping over the threading leg—prevents the conversion before lasso control is established.
-
-**Q2**: Why is the sleeve grip the most important target for the defender to address?
-**A**: The sleeve grip is the bridge between lapel guard and lasso guard—it is the single grip that supports both systems. Without sleeve control, the opponent cannot maintain any meaningful lasso because the lasso requires pulling the wrist while pushing the shin against the arm. Stripping the sleeve grip during the transition collapses the entire conversion attempt and leaves the opponent in open guard with no configured control.
-
-**Q3**: Your opponent has just begun rotating their hips perpendicular after you cleared their lapel—what is your immediate response?
-**A**: Drive aggressive forward pressure immediately by dropping your hips and chest toward the opponent to flatten their perpendicular angle. The hip rotation is the mechanical prerequisite for lasso threading—without that angle, the shin cannot cross your arm effectively. Smashing their hips flat eliminates the transition geometry and puts you in a dominant passing position with their guard structure compromised.
-
-**Q4**: How does keeping your elbows tight prevent the lasso entry, and what common passing habit works against this?
-**A**: The lasso requires threading the shin through the gap between your elbow and shoulder. When elbows are pinched to your ribs, this gap closes and the shin physically cannot cross your arm. The common habit that works against this is reaching with extended arms to establish grips or break the opponent's grips during passing—each time you extend your arm, you open the threading channel. Grip fight with compact arm positions.
-
-**Q5**: You feel the opponent's shin beginning to slide across your tricep—is it too late to defend, and what should you do?
-**A**: It is not too late if the lasso has not yet achieved full extension and tension. Immediately step over the threading leg by lifting your foot and planting it on the far side of their hip, which removes your arm from the threading path entirely. Simultaneously pull your elbow tight and circle away from the lasso side. The key is that an incomplete lasso without full extension provides minimal control—you can still escape during the threading process before the opponent straightens their leg and tensions the grip.
-
-
-
-</section>
 
 
 </main>

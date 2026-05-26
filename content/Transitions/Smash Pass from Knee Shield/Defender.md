@@ -162,6 +162,8 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Pass from Knee Shield?</p>
+
 - Opponent angles their body approximately 45 degrees to your knee shield instead of facing it squarely, indicating they are setting up the lateral drive
 - Opponent secures a grip on your knee shield leg at the ankle or pants while simultaneously driving crossface pressure into your jaw
 - Opponent's shoulder pressure intensifies against your upper chest rather than against the shield itself, signaling the beginning of the collapse sequence
@@ -174,6 +176,8 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Pass from Knee Shield?</p>
 
 - Maintain active outward pressure with the knee shield—passive shields collapse under sustained pressure, while active shields constantly readjust angle and height
 - Never allow your hips to flatten completely to the mat, as this removes the mobility needed for defensive hip escapes and guard transitions
@@ -188,6 +192,8 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Pass from Knee Shield?</p>
 
 ### 1. Frame on passer's shoulder and hip escape away to re-establish knee shield distance
 
@@ -225,6 +231,8 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Pass from Knee Shield?</p>
+
 ### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active knee shield with constant outward pressure, combine frames with timed hip escapes to deny the passer the angle needed for the collapse. Control at least one of the passer's arms and threaten sweeps to keep them defensive. The goal is to force the passer to reset or abandon the smash pass entirely.
@@ -240,6 +248,8 @@ Time your underhook sweep when the passer commits their weight forward during th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Pass from Knee Shield?</p>
 
 ### 1. Absorbing pressure passively without creating defensive movement or frames
 
@@ -269,6 +279,8 @@ Time your underhook sweep when the passer commits their weight forward during th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Pass from Knee Shield?</p>
+
 **Phase 1: Recognition** - Identifying smash pass initiation cues
 Partner initiates various passing approaches from knee shield top—knee slice, smash, backstep, long step. Defender identifies which pass is being attempted based on body angle, grip placement, and pressure direction. Call out the pass type before it develops. No resistance or defense—pure recognition training.
 
@@ -285,29 +297,6 @@ Positional sparring starting from knee shield half guard. Bottom player defends 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the opponent driving your knee shield laterally across your body—what is your first defensive action?
-**A**: Immediately frame on their far shoulder with your free hand to create counter-pressure against the lateral drive, and simultaneously hip escape in the opposite direction of the shield's travel. This combination of framing and hip movement re-establishes the shield angle before it crosses your centerline. If the shield has already passed the midpoint, abandon the re-shield attempt and transition to deep half guard by diving underneath their hips.
-
-**Q2**: What are the earliest recognition cues that a smash pass is being initiated rather than a knee slice?
-**A**: The smash pass is distinguished by the passer angling their body at approximately 45 degrees to your shield while driving shoulder pressure into your upper chest rather than slicing their knee through a gap. The passer's grip will target your shield leg ankle for lateral control rather than seeking to separate your knees. You will feel lateral force on your shield moving it across your body, whereas a knee slice produces a splitting force between your knees.
-
-**Q3**: The passer has collapsed your knee shield halfway—how do you recover or transition?
-**A**: At the halfway point, you have a critical decision: either explosive hip escape combined with a strong frame to re-establish the shield before the hip switch, or abandon the shield and transition to deep half guard by threading your near arm under the passer's far leg and diving your head underneath their hips. The wrong choice is to passively resist the remaining collapse. Read the passer's commitment level—if they are fully loaded on the pass, deep half is safer; if they are still establishing grips, the re-shield attempt has better odds.
-
-**Q4**: What hip position is critical for preventing the smash pass from succeeding?
-**A**: Your hips must remain angled on their side facing the passer rather than flat on the mat. This angle preserves your ability to hip escape, re-angle your shield, and generate the mobility needed for guard transitions. Once your hips flatten, the passer can pin them with their body weight and complete the pass without resistance. Active hip positioning means constantly micro-adjusting your angle to match the passer's pressure direction.
-
-**Q5**: The passer has established crossface and is driving into you—what underhook strategy can you use to counter?
-**A**: Wait for the passer to commit forward pressure during the shield collapse phase, then swim your near arm underneath their far armpit to establish a deep underhook. The timing is critical—attempt the underhook when their weight is forward and their near arm is occupied with crossface pressure. Once the underhook is established, immediately begin elevating to dogfight by driving off your bottom foot and pulling your underhook arm upward. The forward momentum the passer used for the smash becomes a liability during the underhook sweep.
-
-
-
-</section>
 
 
 </main>

@@ -48,8 +48,8 @@
       "relationship": "Alternative attack targeting bent-arm defense of the armbar"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Completion transition from Armbar Control to game-over"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Submission finish executed from Armbar Control after completing this transition"
     },
     {
       "name": "Consolidate Mount",
@@ -231,7 +231,7 @@
         "description": "Integrate the Mount to Armbar into a complete attack system including transitions to triangle, Americana, Ezekiel, and back takes. Practice flowing between submissions based on defensive reactions. Develop the ability to create dilemmas where all defensive options lead to submission opportunities."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical control to establish before pivoting for the Mount to Armbar?",
         "answer": "Control of the target arm is paramount - the arm must be pinned to your chest or securely gripped before initiating any pivot. Additionally, controlling or posting on the opposite arm prevents the hitchhiker escape. Without both controls established, the opponent can simply withdraw their arms defensively and the attack fails before it begins."
@@ -362,7 +362,7 @@
         "correction": "Bridge specifically toward the attacker's head to stack their hips and disrupt their base. Directional bridging with purpose is effective; random explosive movement is not."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Mount to Armbar is being initiated?",
         "answer": "The earliest cue is feeling the attacker shift their weight to one side while simultaneously hugging or gripping one of your arms against their chest. This weight shift and arm isolation combination signals the setup phase before any pivot begins. You may also feel them post their free hand near your opposite shoulder. Recognizing this moment gives you the maximum defensive window to retract your elbow and deny the isolation."

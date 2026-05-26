@@ -188,6 +188,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter Throw from Standing Rear Clinch?</p>
+
 - Commit fully to the throw once initiated - partial attempts leave you in worse position than the starting rear clinch
 - Read opponent's grip configuration before selecting throw variant, as body lock versus seatbelt require different entries
 - Use opponent's forward pressure as the primary force source for the throw rather than trying to generate all momentum yourself
@@ -203,6 +205,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter Throw from Standing Rear Clinch?</p>
+
 - Identify opponent's grip configuration: body lock, seatbelt, or collar ties dictate which throw variant is mechanically viable
 - Establish control of at least one opponent arm or their clasped hands with your own grips to anchor the throwing motion
 - Confirm opponent's weight is loaded forward onto your back rather than sitting back on their own hips, providing the energy source for the throw
@@ -216,6 +220,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter Throw from Standing Rear Clinch step by step?</p>
 
 1. **Grip Assessment and Arm Control**: With opponent controlling you from behind, use both hands to locate and grip their controlling arms or clasped hands. For body lock configurations, control their wrists or forearms. For seatbelt, prioritize controlling the over-the-shoulder choking arm with a two-on-one grip. This grip control serves dual purpose: it prevents choke attempts during the throw and provides the anchor point for redirecting the opponent's mass through the throwing arc.
 2. **Level Change and Hip Loading**: Bend your knees deeply to drop your center of gravity below the opponent's hip line. This level change is the mechanical foundation of every throw variant. As you drop, the opponent's weight transfers further onto your back and hips, loading them onto your skeletal structure rather than requiring muscular effort to support. Keep your spine neutral and core braced. The deeper your level change, the more mechanical advantage you generate for the subsequent rotation or sit-through.
@@ -245,6 +251,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter Throw from Standing Rear Clinch?</p>
+
 - **Opponent drops their weight and sits back on their hips when they feel level change** (Effectiveness: High) - Your Response: If the opponent removes their forward pressure before you can complete the level change, abort the throw attempt and transition to a standing switch or grip fighting escape instead. Do not force a throw against an opponent who has sat their weight back, as the required momentum is no longer available. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent releases one grip to post their hand during the throwing rotation** (Effectiveness: Medium) - Your Response: If the opponent posts a hand during rotation, capitalize on the broken grip by immediately switching to a grip fighting escape sequence. The posted hand means they have voluntarily released control of your upper body. Strip the remaining grip and create separation to face them, or continue the rotation into a modified takedown targeting the posted arm. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent sprawls their hips backward and drives their weight down on your back during level change** (Effectiveness: High) - Your Response: The sprawl counter is particularly dangerous as it can drive you to the mat in a front headlock or turtle position. If you feel the opponent sprawling during your level change, immediately abandon the throw and post your hands to prevent being driven facedown. Switch to a sit-out or Peterson roll escape to recover position rather than fighting the sprawl pressure. → Leads to [[Positions/Back Control]]
@@ -257,6 +265,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter Throw from Standing Rear Clinch?</p>
 
 ### 1. Half-committing to the throw by initiating rotation without full explosive hip drive
 
@@ -301,6 +311,8 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter Throw from Standing Rear Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Level change, hip rotation, and directional commitment patterns
 Practice the throwing motion without a partner using resistance bands or a heavy bag. Focus on the level change to hip rotation sequence, ensuring your hips drop below the imaginary opponent's hip line before rotation begins. Drill lateral drop sit-throughs, hip throw rotations, and sacrifice throw sit-backs for 20 repetitions each direction. Build the neural pathway for explosive commitment without the complexity of a resisting partner.
 
@@ -321,42 +333,12 @@ Practice counter throws in the final minutes of hard sparring rounds when fatigu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical mechanical requirement before initiating any counter throw variant from standing rear clinch?
-**A**: The most critical requirement is dropping your level so your hips are below the opponent's hip line. This level change creates the fulcrum around which the throw operates. Without getting below the opponent's center of gravity, you cannot generate the mechanical advantage needed to redirect their mass, and the throw becomes a muscular fight you will likely lose against a committed rear clinch controller.
-
-**Q2**: Your opponent has a tight body lock and heavy forward pressure on your back - which throw variant offers the highest success probability?
-**A**: The lateral drop offers the highest probability against a tight body lock with forward pressure. The locked grip means the opponent cannot post or separate during the throw, and their forward pressure provides the momentum source. Drop your level, control their clasped hands, and sit through explosively to one side. Their own body lock becomes the mechanism that pulls them through the throwing arc, converting their control strength into your throwing leverage.
-
-**Q3**: Why is half-committing to the counter throw more dangerous than either fully committing or not attempting it at all?
-**A**: Half-commitment creates the worst possible outcome because you have already compromised your standing base and defensive frames without generating enough force to complete the throw. The opponent maintains their back angle and grip while you have voluntarily put yourself in a lower, more vulnerable position. This accelerates their transition from standing rear clinch to ground-based back control with hooks, which is a significantly worse defensive position than the standing clinch you started in.
-
-**Q4**: Your opponent begins to sprawl their hips backward as you initiate the level change for a hip throw - how do you adjust?
-**A**: Immediately abort the hip throw and post your hands to prevent being driven facedown to the mat. The sprawl removes the forward pressure that powers the hip throw, making completion mechanically impossible. Switch to a sit-out or Peterson roll escape that works with downward pressure rather than against it. Alternatively, if the sprawl is shallow, redirect into a sacrifice throw variant that uses the downward force as the throwing mechanism rather than requiring forward momentum.
-
-**Q5**: What grip must you establish before initiating any counter throw, and why is this grip essential?
-**A**: You must establish control of at least one of the opponent's arms or their clasped hands before throwing. This grip serves three critical functions: it prevents the opponent from posting a free hand to stop the rotation, it anchors the throwing direction by keeping the opponent connected to your rotational arc, and it protects against choke attempts during the vulnerable transition phase. Without this grip control, the throw success rate drops dramatically because the opponent can simply extend an arm and arrest the rotation.
-
-**Q6**: After successfully landing the counter throw, what is the most common error that causes practitioners to lose their positional advantage?
-**A**: The most common post-throw error is releasing grip control upon landing. Practitioners treat the throw and the mount establishment as two separate techniques rather than one continuous sequence. When grips are released during landing, the opponent scrambles to turtle, recovers guard with frames, or re-establishes back control from the ground. The correction is drilling the entire throw-to-mount sequence as a single movement pattern where grips are maintained throughout and mount is established before any grip adjustment occurs.
-
-**Q7**: How do you provoke the forward pressure needed for the counter throw when the opponent is maintaining a rear clinch with their weight sitting back on their own hips?
-**A**: Initiate a convincing grip-fighting escape attempt or standing switch fake that forces the opponent to tighten their forward pressure to maintain control. As they drive forward to prevent your escape, their weight loads onto your back creating the mechanical conditions needed for the throw. The key is making the fake escape genuine enough to provoke the forward drive reaction but maintaining enough composure to immediately transition from fake escape to throw execution during the opponent's forward commitment.
-
-**Q8**: When facing a significantly heavier opponent in standing rear clinch, which throw variant should you prioritize and why?
-**A**: The sacrifice throw (tani otoshi style) is most effective against heavier opponents because it does not require lifting or hip-loading their mass. Instead, you drop your body weight suddenly while blocking their far leg, creating a fulcrum that topples them over you using gravity rather than muscular effort. The weight difference actually becomes an advantage for the sacrifice throw because the heavier opponent has more momentum to redirect and less ability to recover balance once their base is compromised by the leg block and your sudden level drop.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter Throw from Standing Rear Clinch?</p>
 
 Counter throws from standing involve significant impact forces and rotational stresses that require careful training progression. Always practice on appropriate mat surfaces with sufficient padding. Begin all throw training at reduced speed with a cooperative partner until mechanics are reliable. Use crash pads for full-speed drilling of lateral drops and sacrifice throws. Both practitioners must know proper breakfall technique (ukemi) before training throws at any intensity. Be particularly cautious with the hip throw variant, as poor execution can result in the opponent landing on their head or neck. Never practice standing throws on hard surfaces or when fatigued to the point where control is compromised. The bottom player (person being thrown) should tap or verbally signal immediately if they feel their neck or spine is being loaded dangerously during any throwing attempt.
 

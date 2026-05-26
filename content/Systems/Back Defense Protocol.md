@@ -167,10 +167,10 @@ The Back Defense Protocol is a comprehensive defensive framework designed to sys
 <section id="key-components" class="content-section">
 
 ## Key Components
-**Chin Protection and Grip Fighting** (Prevent the submission and buy time to execute escape sequences)
+**Chin Protection and Grips** (Prevent the submission and buy time to execute escape sequences)
 The first line of defense involves tucking the chin to throat and using both hands to strip choking grips. This component teaches practitioners to recognize choke threats early and employ proper hand positioning to defend the neck. Advanced variations include two-on-one grip breaks and preemptive hand fighting to prevent grips from being established in the first place.
 
-**Frame Creation and Posture Management** (Generate and maintain space necessary for hip escape movements)
+**Frames and Posture Management** (Generate and maintain space necessary for hip escape movements)
 Creating defensive frames between your shoulder and the opponent's chest prevents them from flattening you out and securing dominant control. This involves maintaining space through proper elbow positioning and using your shoulder as a wedge. The frames must be strong enough to prevent collapse while allowing mobility for hip movement.
 
 **Hip Escape Sequences** (Create the physical space and angles needed to remove hooks and escape back control)
@@ -338,17 +338,17 @@ Begin with static positional drilling where partner has back control but doesn't
 - [[Granby Roll to Guard]] (Transition) - Advanced escape option when hooks are partially cleared
 - [[Technical Stand-up]] (Transition) - Recovery option when opponent creates distance during escape
 - [[Back Door Escape]] (Transition) - Key escape transition used during back control escape sequences
-- [[Guard Recovery]] (Transition) - Final phase of escape protocol returning to guard
-- [[Hand Fighting from Back]] (Principle) - Critical defensive skill for preventing chokes from back control
+- [[Arm Recovery to Guard]] (Transition) - Final phase of escape protocol returning to guard position
+- [[Hand Fighting]] (Principle) - Critical defensive skill for preventing chokes from back control
 - [[Chin Protection]] (Principle) - First priority in back defense protocol
-- [[RNC Defense]] (Principle) - Specific application of chin protection and hand fighting
-- [[Frame Creation]] (Principle) - Essential principle for preventing opponent from flattening you
+- [[Submission Defense]] (Principle) - Specific application of chin protection and grip fighting against chokes
+- [[Frames]] (Principle) - Essential principle for preventing opponent from flattening you
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement principle underlying all escape sequences
-- [[Escape Hierarchy]] (Principle) - Strategic framework defining priority order of defensive actions
-- [[Defensive Posture]] (Principle) - Body positioning principles that maximize defensive effectiveness
-- [[Space Creation]] (Principle) - Core principle of generating room for escape movements
+- [[Escape Fundamentals]] (Principle) - Strategic framework defining priority order of defensive actions
+- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
+- [[Distance Control]] (Principle) - Core principle of generating room for escape movements
 - [[Energy Conservation]] (Principle) - Critical for surviving extended back control situations
-- [[Defensive Strategy]] (Principle) - Overall strategic approach to defensive situations
+- [[Dealing with Pressure]] (Principle) - Overall strategic approach to handling dominant pressure situations
 - [[Back Attack System]] (System) - Offensive system this protocol specifically defends against
 - [[Danaher Straight Jacket System]] (System) - Advanced back control system requiring refined defensive protocol
 - [[Defensive Prioritization Framework]] (System) - Broader defensive system that includes back escape protocols

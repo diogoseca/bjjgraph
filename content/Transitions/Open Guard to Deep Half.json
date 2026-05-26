@@ -45,7 +45,7 @@
       "relationship": "Alternative sweep when opponent drives weight forward"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Advanced submission available from deep half with lockdown"
     },
     {
@@ -57,8 +57,8 @@
       "relationship": "Alternative transition pathway from open guard"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Broader positional concept this transition serves"
+      "name": "Hip Escape to Guard",
+      "relationship": "Related guard recovery transition using similar hip movement mechanics"
     },
     {
       "name": "Single Leg X Sweep",
@@ -229,7 +229,7 @@
         "description": "Full positional sparring from open guard with scoring. Points awarded for successful entries that lead to sweeps, deductions for failed entries that result in guard passes. Partner uses competition-level intensity. Emphasize choosing deep half entry versus alternative transitions based on opponent's passing style and weight commitment."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical safety consideration when entering deep half guard from open guard?",
         "answer": "The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg with chin tucked to maintain defensive integrity throughout the transition."
@@ -355,7 +355,7 @@
         "correction": "Crossface is the single highest priority grip from deep half top. Drive your shoulder or forearm into their jaw to flatten their upper body and limit their mobility before addressing any other aspect of the position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the open guard to deep half entry?",
         "answer": "The earliest cue is the combination of a strong hip escape creating a 45-degree angle with their hips and simultaneous gripping of your pants at the knee or ankle. This setup precedes the dive by one to two seconds and is your best intervention window. If you wait until their head begins dropping below your hip line, the entry is already significantly progressed and harder to prevent."

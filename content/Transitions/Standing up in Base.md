@@ -218,13 +218,13 @@ The technical standup from base serves as a fundamental bridge movement connecti
 
 - [[Transitions/Guard Pull]] - Common follow-up action after achieving standing position
 
-- [[Principles/Guard Recovery]] - Related defensive movement for regaining guard from bottom
+- [[Transitions/Scramble to Guard]] - Related defensive transition for regaining guard from bottom during scrambles
 
 - [[Transitions/Peterson Roll]] - Alternative turtle escape via rolling to guard recovery
 
 - [[Positions/Back Control]] - Opponent's target position if standup is countered
 
-- [[Principles/Frame Creation]] - Essential principle for creating space during standup
+- [[Principles/Frames]] - Essential principle for creating space during standup
 
 - [[Transitions/Bridge and Roll]] - Related escape movement sharing base-building fundamentals
 

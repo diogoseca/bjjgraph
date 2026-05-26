@@ -154,6 +154,8 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown to Vaporizer?</p>
+
 - Opponent's arm on the trapped-leg side begins swimming inside for an underhook, their hand reaching toward your far lat or shoulder blade
 - Opponent's hips begin driving forward and upward against your body, indicating the initiation of the whip-up motion
 - Lockdown pressure increases as opponent extends their legs away from their body, pulling your trapped leg backward with greater force
@@ -166,6 +168,8 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown to Vaporizer?</p>
 
 - Deny the underhook at all costs; without it, the opponent cannot generate effective whip-up leverage and the Vaporizer transition stalls
 - Maintain wide base with your free leg posted far to the side and your weight distributed through your chest onto the opponent's upper body
@@ -180,6 +184,8 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown to Vaporizer?</p>
 
 ### 1. Establish whizzer and crossface to deny underhook depth
 
@@ -217,6 +223,8 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown to Vaporizer?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Deny the underhook by establishing a whizzer or crossface, drive heavy shoulder pressure to flatten the opponent on their back, and use your weight distribution to prevent the whip-up from generating sufficient force. This returns the position to static lockdown where the opponent retains the leg entanglement but cannot advance to Vaporizer.
@@ -232,6 +240,8 @@ After neutralizing the underhook and flattening the opponent, systematically ext
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown to Vaporizer?</p>
 
 ### 1. Allowing the opponent to secure a deep underhook without immediate defensive response
 
@@ -266,13 +276,15 @@ After neutralizing the underhook and flattening the opponent, systematically ext
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown to Vaporizer?</p>
+
 **Phase 1: Recognition Drills** - Identifying Vaporizer transition initiation cues
 Partner establishes lockdown and slowly initiates the Vaporizer transition while the top player calls out each recognition cue as it occurs: underhook attempt, hip drive initiation, lockdown extension, body contact closing. Focus purely on awareness, not defense. Perform 20 repetitions per side.
 
 **Phase 2: Underhook Denial Practice** - Preventing the primary setup mechanism
 Partner repeatedly attempts to establish the underhook from lockdown bottom using various methods (direct swim, pummel, overhook switch). Top player practices whizzer, crossface, and shoulder pressure to deny the underhook. Partner provides moderate resistance. Perform 5-minute rounds.
 
-**Phase 3: Base and Weight Distribution** - Maintaining stability under whip-up pressure
+**Phase 3: Base and Center of Gravity** - Maintaining stability under whip-up pressure
 Partner has full lockdown and underhook and repeatedly attempts the whip-up motion. Top player practices widening base, driving shoulder pressure, and maintaining forward weight distribution to resist being rolled. Focus on remaining calm and heavy rather than reactive and explosive. Perform 5-minute rounds with progressive resistance.
 
 **Phase 4: Full Defense to Escape Sequence** - Complete defensive protocol against live attacks
@@ -282,26 +294,6 @@ Positional sparring starting from lockdown. Bottom player attempts Vaporizer tra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when you feel the opponent beginning the Transition to Vaporizer?
-**A**: The single most important priority is denying the underhook. Without a deep underhook, the opponent cannot generate effective whip-up leverage because they lack the upper body control needed to translate hip drive into positional advancement. The lockdown alone is uncomfortable but manageable; it is the combination of lockdown plus underhook that creates the Vaporizer's offensive power. Immediately establish a whizzer, crossface, or shoulder pressure to prevent underhook penetration before addressing the lockdown or hip drive.
-
-**Q2**: Your opponent has established the underhook and is beginning the whip-up - what is your emergency defensive response?
-**A**: When the underhook is established and the whip-up is in motion, immediately widen your base by sprawling your free leg far to the side and dropping your hips toward the mat. Drive your shoulder and chest weight heavily into the opponent to counter their upward hip force. Simultaneously, work to strip the underhook by swimming your arm over theirs or driving your elbow down into their body. If the whip-up continues progressing, prepare to transition to dogfight rather than being swept flat, as you can still fight for position from dogfight.
-
-**Q3**: How do you distinguish between the opponent attempting the Vaporizer transition versus the Electric Chair?
-**A**: The Vaporizer transition is characterized by the opponent coming up to their side with a whip-up motion while maintaining the lockdown intact, using the underhook to pull themselves tight against you. The Electric Chair, by contrast, involves the opponent releasing the lockdown triangle and stepping their outside leg over your trapped leg to create the leg-splitting configuration. Recognizing which attack is coming allows you to prioritize the correct defense: weight distribution and base for the Vaporizer whip-up, or leg positioning defense for the Electric Chair entry.
-
-**Q4**: Why is patient, circular leg extraction more effective than explosive force against the lockdown?
-**A**: The lockdown is a figure-four leg entanglement that tightens reflexively when force is applied directly against it, similar to a Chinese finger trap. Explosive pulling triggers the opponent's grip reflex and actually increases their control while exhausting the top player. Circular extraction (pointing the knee toward the mat, rotating the leg, and gradually working the heel toward the buttocks) changes the angle of force to one the lockdown is not designed to resist. Patient, methodical movement avoids triggering the reflexive grip and slowly creates space that accumulates until the leg can be freed.
-
-
-
-</section>
 
 
 </main>

@@ -164,6 +164,8 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag from Headquarters?</p>
+
 - Passer's control hand shifts from your knee area down toward your ankle, heel, or pants cuff, indicating transition from headquarters maintenance to leg drag initiation
 - Passer's posting leg repositions wider and their foot angle changes outward, loading their hips for the lateral drive that powers the drag motion
 - Passer's body weight shifts laterally rather than forward, indicating a drag direction rather than a knee cut or forward pressure pass
@@ -176,6 +178,8 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag from Headquarters?</p>
 
 - Recognize the grip transition from knee control to ankle grip as the earliest warning sign and begin defensive action immediately during this window
 - Maintain a bent knee position to deny the passer the extended leg they need for an effective drag, keeping your heel close to your buttock when possible
@@ -190,6 +194,8 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag from Headquarters?</p>
 
 ### 1. Retract the controlled leg by bending the knee explosively and pulling the heel toward your buttock
 
@@ -227,6 +233,8 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag from Headquarters?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your underhook or bridge counter to the passer's lateral weight shift during the drag motion. The passer's base is most vulnerable during this transitional moment. A well-timed underhook combined with a hip bump can disrupt their mechanics entirely and create a scramble that reverses the positional hierarchy.
@@ -242,6 +250,8 @@ Retract your leg explosively during the grip transition window before the drag m
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag from Headquarters?</p>
 
 ### 1. Turning away from the passer when the leg is being dragged
 
@@ -276,6 +286,8 @@ Retract your leg explosively during the grip transition window before the drag m
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag from Headquarters?</p>
+
 **Phase 1: Recognition** - Identifying leg drag setup cues from headquarters
 Partner establishes headquarters and randomly initiates either a knee cut, leg drag, or maintains position. Defender calls out which technique is being attempted as soon as they recognize the cue. No physical defense required at this phase, purely developing the pattern recognition that enables early defensive response.
 
@@ -292,29 +304,6 @@ Positional sparring from headquarters where the passer can attempt any pass but 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from headquarters control to a leg drag attempt?
-**A**: The earliest cue is the passer's grip hand shifting from your knee area down toward your ankle or heel. This grip transition is necessary before the drag can be initiated and represents a brief window where their control is loosest. Secondary cues include their posting foot angling outward and their hips beginning to turn sideways, indicating they are loading for the lateral drive. Recognizing the grip transition provides the maximum defensive window before the drag motion generates momentum.
-
-**Q2**: Your opponent has gripped your ankle and begun the lateral drag motion - what is your most effective immediate counter?
-**A**: Frame hard at the passer's near shoulder with your arm while simultaneously hip escaping in the opposite direction of the drag. This two-point response addresses both the upper body control threat and creates lateral separation that can free your leg. If the frame holds, retract your leg by pulling your knee to your chest using explosive hip flexion. The combination of frame, hip escape, and leg retraction must happen as a coordinated burst rather than sequential actions to be effective against a committed drag motion.
-
-**Q3**: When is it better to concede the leg drag and recover to half guard versus fighting the drag motion directly?
-**A**: Concede the drag when the passer has already pinned your leg with their hip and is establishing upper body control. At this point, fighting the pinned leg wastes energy without result. Instead, focus on preventing back exposure by staying face-up, establishing an underhook on the passing side, and working to hook the passer's trailing leg with your free foot to recover half guard. The half guard recovery preserves your energy for a defensible position rather than spending it on an escape attempt with low probability of success.
-
-**Q4**: How should you position your hips to prevent the leg drag from being completed successfully?
-**A**: Keep your hips angled slightly toward the passer rather than flat on the mat, with your controlled-side hip elevated and your free-side hip grounded. This angled position creates resistance against the lateral drag direction because the passer must first flatten your hips before the leg can travel across your centerline. Combine this hip angle with active hip escape movement away from the drag direction to create space that prevents the passer from pinning the leg. A flat hip position offers minimal resistance to the lateral drag force.
-
-**Q5**: Your opponent has successfully dragged your leg but has not yet established upper body control - what is your immediate priority?
-**A**: Your immediate priority is preventing the crossface or shoulder control from landing. Use your near arm to frame at their shoulder or bicep, creating a barrier that prevents them from dropping their chest onto your hip. Simultaneously, use your free leg to post on the mat and begin hip escaping to create angle. Without upper body control, the leg drag alone is not consolidated and you can still recover guard by extracting your leg through frames and hip movement. The window is approximately one to two seconds before a competent passer secures the crossface.
-
-
-
-</section>
 
 
 </main>

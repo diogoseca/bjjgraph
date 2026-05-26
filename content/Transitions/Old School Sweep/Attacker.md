@@ -32,7 +32,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Head Control",
+      "name": "Establish Head Position",
       "text": "With your opposite arm, wrap around the opponent's head from behind their neck, pulling their head down and across toward your underhook side. This breaks their posture and prevents them from posting their hand on the mat to resist the sweep. Maintain constant pulling pressure throughout setup.",
       "position": 3
     },
@@ -188,6 +188,8 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Old School Sweep?</p>
+
 - All three controls—lockdown, underhook, and head control—must work simultaneously; losing any one dramatically reduces sweep probability
 - The sweep executes in a circular arc from side to mount, never as a linear push directly over the opponent
 - Timing the sweep during opponent's forward weight shift or lockdown clearing attempt exploits their compromised base
@@ -203,6 +205,8 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Old School Sweep?</p>
+
 - Lockdown figure-four configuration secured with bottom foot hooking opponent's ankle and legs actively extending to immobilize trapped leg
 - Deep underhook threaded under opponent's far armpit with elbow pinned tight to ribs and hand gripping high on their back or shoulder blade
 - Head control established with opposite arm wrapping around opponent's head, hand behind neck, pulling posture down toward underhook side
@@ -216,9 +220,11 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Old School Sweep step by step?</p>
+
 1. **Establish Lockdown Control**: From half guard bottom, secure the lockdown by threading your bottom foot behind the opponent's trapped ankle and locking your top leg over to create a figure-four configuration around their thigh and lower leg. Actively extend your legs to create tension that prevents the opponent from extracting their leg or establishing stable base.
 2. **Secure Deep Underhook**: Thread your near-side arm deep under the opponent's far armpit, driving your elbow tight to your ribs and gripping high on their back or shoulder blade. The depth of this underhook determines your sweep leverage—shallow underhooks fail against any resistance. Fight for this before the opponent can establish whizzer control.
-3. **Establish Head Control**: With your opposite arm, wrap around the opponent's head from behind their neck, pulling their head down and across toward your underhook side. This breaks their posture and prevents them from posting their hand on the mat to resist the sweep. Maintain constant pulling pressure throughout setup.
+3. **Establish Head Position**: With your opposite arm, wrap around the opponent's head from behind their neck, pulling their head down and across toward your underhook side. This breaks their posture and prevents them from posting their hand on the mat to resist the sweep. Maintain constant pulling pressure throughout setup.
 4. **Break Posture and Position on Side**: Pump the lockdown by extending your legs while simultaneously pulling with both the underhook and head control to collapse the opponent's upper body onto your chest. Turn onto your side toward the underhook, positioning your shoulder directly under the opponent's center of gravity to create the fulcrum for rotation.
 5. **Pump Lockdown for Off-Balance**: Execute one or two strong lockdown pumps by extending your legs away while pulling the opponent forward and down. Each pump incrementally breaks their base and shifts their weight forward. Feel for the moment their weight commits forward—this is your timing window for the sweep initiation.
 6. **Initiate Circular Sweep**: When you feel the opponent's weight shift forward or they attempt to clear the lockdown, explosively drive your hips up and forward while pulling with the underhook and head control in a circular arc. The motion should spiral from your side position around and over, not push straight across. Your hip drive provides primary force while arms guide direction.
@@ -244,6 +250,8 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Old School Sweep?</p>
+
 - **Opponent establishes deep whizzer and sprawls hips back to block rotation** (Effectiveness: High) - Your Response: Switch to Electric Chair entry by diving under opponent's hips and attacking the trapped leg separation, or transition to deep half guard by shooting your head under their hips on the underhook side → Leads to [[Positions/Half Guard/Old School]]
 - **Opponent drives heavy crossface pressure to flatten you onto your back** (Effectiveness: Medium) - Your Response: Pump the lockdown aggressively to create space and prevent flattening, then re-angle to your side. If crossface is too strong, transition to deep half guard entry rather than fighting a losing battle for the angle → Leads to [[Positions/Half Guard/Old School]]
 - **Opponent posts free hand on the mat and bases wide to resist rotation** (Effectiveness: Medium) - Your Response: Pull head control tighter to remove the posting arm, or switch to attacking the posting arm with a kimura grip. The posting hand creates a single point of balance that can be exploited by changing sweep direction slightly → Leads to [[Positions/Half Guard/Old School]]
@@ -255,6 +263,8 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Old School Sweep?</p>
 
 ### 1. Attempting the sweep while flat on your back instead of positioned on your side
 
@@ -294,6 +304,8 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Old School Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Movement Pattern and Control Points
 Drill the sweep motion with a compliant partner at zero resistance. Focus on establishing all three controls, turning to the side, and executing the circular rotation to mount. Perform 20 repetitions per side, emphasizing proper shoulder positioning and hip drive direction.
 
@@ -311,42 +323,12 @@ Start in Old School position with full controls established. Execute sweep attem
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Old School Sweep?
-**A**: The optimal timing window is during the opponent's forward weight shift, either when they drive pressure into you or when they attempt to clear the lockdown by extending their trapped leg. In both cases, their base is temporarily compromised and their weight is committed forward, which is exactly the direction your sweep needs to send them. Initiating during backward weight shift or neutral base makes the sweep significantly harder to complete.
-
-**Q2**: What three controls must be simultaneously established before attempting the Old School Sweep?
-**A**: The three essential controls are: lockdown figure-four on the trapped leg with active extension, deep underhook with elbow tight to ribs and hand gripping high on the opponent's back, and head control with the opposite arm wrapping behind the opponent's neck pulling their posture down. All three must work in concert—losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend.
-
-**Q3**: Why must the sweep execute in a circular arc rather than pushing the opponent straight over?
-**A**: A circular arc uses rotational mechanics that the opponent cannot resist by simply posting or widening their base. Linear pushing gives the opponent a clear axis to post against with their free hand. The circular sweep spirals from your side position around to mount, using your shoulder as a fulcrum and the underhook as a lever arm. This rotational path also maintains chest-to-chest contact throughout, preventing the opponent from creating defensive space during the transition.
-
-**Q4**: What happens if you attempt the Old School Sweep while flat on your back instead of positioned on your side?
-**A**: Being flat on your back eliminates the geometric advantage needed for the sweep. Without the side angle, your shoulder cannot position under the opponent's center of gravity to create a fulcrum, your underhook loses its rotational leverage because the pulling angle becomes suboptimal, and your hip drive cannot generate upward force effectively. The flat position also makes you vulnerable to smash passing because the opponent can drive crossface pressure to maintain the flattened posture.
-
-**Q5**: How deep should the underhook be and where should your hand grip for maximum sweep leverage?
-**A**: The underhook should be threaded deep enough that your elbow is pinned tight to your own ribs while your hand reaches high on the opponent's back, ideally gripping their shoulder blade area or over their far shoulder. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer.
-
-**Q6**: In which direction should your hips drive during the sweep and why is this critical?
-**A**: Your hips should drive forward and upward simultaneously during the sweep execution. Forward drive pushes your body into the opponent to maintain tight connection, while upward drive lifts their weight off the mat and feeds into the rotational momentum. Driving only forward without upward component keeps the opponent's weight grounded, making rotation extremely difficult. Driving only upward creates space between bodies that the opponent can exploit to recover base. The combined vector creates the spiral motion that makes the sweep mechanically efficient.
-
-**Q7**: Your opponent posts their free hand on the mat when you initiate the sweep - how do you adjust?
-**A**: First, pull your head control tighter to try to remove their ability to maintain the post by collapsing their posture further. If the post is already established, consider two options: redirect the sweep angle slightly to go around the posting arm rather than directly into it, or attack the posting arm itself with a kimura grip from the underhook position. The post creates a single point of balance that is actually a vulnerability—if you can remove or redirect around it, the sweep becomes higher percentage than before.
-
-**Q8**: If the opponent establishes a strong whizzer to block the Old School Sweep, what alternative attack becomes available?
-**A**: The whizzer defense against the Old School Sweep directly opens the Electric Chair transition. When the opponent whizzers hard to block your underhook's rotation, they are simultaneously preventing you from sweeping but also committing their weight and structural integrity to fighting your upper body. This creates an opening to dive under their hips and attack the leg separation through the Electric Chair, using the lockdown to split their legs. The whizzer actually assists the Electric Chair entry because the opponent's downward pressure helps drive you underneath them.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Old School Sweep?</p>
 
 The Old School Sweep is a positional technique with relatively low injury risk when executed properly. The primary safety concern involves the lockdown itself, which can stress the knee and ankle of the trapped leg if applied with excessive force or sudden torque. Partners should communicate clearly about lockdown pressure intensity during drilling. Avoid explosive cranking of the lockdown extension, as this can cause MCL or LCL strain in the trapped knee. When being swept, tuck your chin and avoid posting on an extended arm to prevent wrist or shoulder injuries during the landing rotation. During training, drill the sweep at controlled speed before adding resistance to ensure both partners understand the rotation path.
 

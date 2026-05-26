@@ -37,7 +37,7 @@
       "relationship": "Primary destination submission for this transition"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle Choke from Closed Guard",
       "relationship": "Specific application context for this technique"
     },
     {
@@ -240,7 +240,7 @@
         "description": "Explore switching to triangle from failed sweeps, standing guard breaks, half guard recoveries, and scramble situations. Develop ability to recognize and execute the switch in any context where the fundamental requirements are met: angle, control, and isolated arm."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is creating a 45-90 degree hip angle essential before executing the switch to triangle?",
         "answer": "Creating a hip angle is essential because it positions your body perpendicular to your opponent's torso, providing the geometric leverage necessary for your leg to effectively cross their neck and shoulder. Without this angle, your leg either cannot reach properly or crosses too low on their back, resulting in a weak triangle lacking compression mechanics. The angle also prevents the opponent from maintaining center position and using posture to defend. Attempting the triangle from a flat, square position is one of the most common errors and rarely succeeds against trained practitioners because the choking geometry requires offset alignment."
@@ -365,7 +365,7 @@
         "correction": "During any defense inside closed guard, maintain awareness of arm symmetry. Either push both arms inside (creating a frame) or keep both outside. If one arm gets isolated inside, immediately extract it or push the other arm inside to eliminate the triangle configuration"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is the moment of successfully defending the initial attack actually the most dangerous moment for the triangle switch?",
         "answer": "Successfully defending the initial attack is most dangerous because your defensive movement creates the exact conditions the triangle requires. Pulling your arm back from the armbar isolates it on one side of your body (one-arm-in). Your focus shifts to relief that the first attack failed, creating a cognitive gap. Your posture often collapses forward from the effort of arm extraction. The opponent has already established their angle from the initial attack setup. All these factors combine to make the transition between defending one attack and recognizing the next the highest-vulnerability window for the triangle switch."

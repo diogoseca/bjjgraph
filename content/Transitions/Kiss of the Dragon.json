@@ -68,7 +68,7 @@
       "relationship": "High-percentage gi follow-up submission from back control"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Follow-up submission option from back control"
     },
     {
@@ -232,7 +232,7 @@
         "description": "Use Kiss of the Dragon during normal training rolls when opponent assumes turtle position. No starting position restrictions. Track success rate and identify common scenarios where technique works best. Develop the ability to set up the technique by threatening traditional back takes first to manipulate weight distribution."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary purpose of the hip grip during the Kiss of the Dragon?",
         "answer": "The hip grip serves as the anchor point that maintains connection to the opponent throughout the forward roll. It prevents separation during the inversion phase and ensures you emerge in the correct position relative to their back. Without this constant pulling tension, you would roll into empty space rather than tracing a tight arc around their body. The grip must be maintained with active tension throughout the entire technique, pulling you into the opponent rather than simply holding on passively."
@@ -355,7 +355,7 @@
         "correction": "Treat any angle change from your opponent while in turtle as a significant tactical indicator. When you feel them shift to one side while maintaining hip grips, immediately adjust your weight distribution by sitting back and actively fighting the grip on that side."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the Kiss of the Dragon rather than a traditional back take?",
         "answer": "The earliest cue is the opponent shifting from directly behind your turtle to a 45-degree angle on one side while their head begins to drop below your hip level. Traditional back takes involve pressure from above and behind, while the Kiss of the Dragon requires the attacker to position at an angle and lower their center of gravity. Additionally, their grip transitions from downward pressing control to lateral pulling tension, indicating they are preparing to use the grip as a rolling anchor rather than for standard back take mechanics."

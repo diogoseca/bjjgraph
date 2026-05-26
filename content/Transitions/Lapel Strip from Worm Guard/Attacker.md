@@ -188,6 +188,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lapel Strip from Worm Guard?</p>
+
 - Establish and maintain wide stable base before committing hands to grip fighting to resist sweep attempts throughout the sequence
 - Identify the complete lapel routing path before beginning the strip to know exactly where and how to apply grip breaking force
 - Address secondary supporting grips before attacking the primary lapel connection to isolate the target and reduce counter-attack risk
@@ -202,6 +204,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lapel Strip from Worm Guard?</p>
+
 - Stable standing or combat base position with wide enough stance to resist sweeps during grip fighting
 - Clear identification of how the lapel is routed around your trapped leg including entry and exit points
 - At least one hand free from defensive duties to begin the grip fighting sequence
@@ -214,6 +218,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lapel Strip from Worm Guard step by step?</p>
 
 1. **Establish defensive base**: Widen your stance and drop your hips back to create a stable platform that resists sweep attempts. Ensure your weight is evenly distributed between both feet with your center of gravity low enough to maintain balance when you commit your hands to grip fighting the lapel.
 2. **Identify the lapel routing path**: Trace the path of the lapel from where it exits the bottom player's gi, under your trapped leg, around their shin, and to where they grip the tail. Understanding the exact routing tells you which direction to strip and where slack can be created most efficiently.
@@ -243,6 +249,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lapel Strip from Worm Guard?</p>
+
 - **Bottom player re-feeds the lapel immediately after partial strip by re-gripping exposed material** (Effectiveness: High) - Your Response: Control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area or hold it away from the bottom player's reach. Never leave loose lapel material accessible after a successful grip break. → Leads to [[Positions/Worm Guard]]
 - **Bottom player initiates sweep when both of your hands are committed to grip fighting the lapel** (Effectiveness: Medium) - Your Response: Maintain wide base throughout the strip sequence. If you feel significant off-balancing, immediately abandon the strip attempt and re-establish base before trying again. Never compromise base stability for grip fighting progress. → Leads to [[Positions/Open Guard]]
 - **Bottom player reinforces lapel grip with second hand creating a stronger two-handed connection that resists two-on-one breaks** (Effectiveness: High) - Your Response: Address the secondary reinforcing hand first before returning to the primary grip break. When both their hands are locked on the lapel, their upper body control is compromised, potentially opening passing opportunities around the lapel instead. → Leads to [[Positions/Worm Guard]]
@@ -253,6 +261,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lapel Strip from Worm Guard?</p>
 
 ### 1. Attempting to strip the lapel with a single explosive yank rather than systematic grip fighting
 
@@ -287,6 +297,8 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lapel Strip from Worm Guard (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Two-on-one grip breaks and finger peeling technique
 Practice isolated grip breaking drills against a partner holding the lapel with varying grip strengths. Focus on proper hand placement, finger peeling mechanics, and developing the fine motor skills needed for efficient grip strips. No live resistance initially, building precision before adding pressure.
 
@@ -304,39 +316,12 @@ Full positional sparring starting from worm guard top. Execute the strip and imm
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority before attempting to strip the lapel from worm guard?
-**A**: Establish a wide, stable base with your hips back and weight distributed evenly between both feet. Without a secure base, committing both hands to grip fighting the lapel creates immediate sweep vulnerability. Your base must be solid enough to withstand off-balancing attempts throughout the entire stripping sequence before you begin any grip work.
-
-**Q2**: Why should you break secondary grips before attacking the primary lapel connection?
-**A**: Secondary grips such as collar, sleeve, and pant control enable the bottom player to maintain offensive pressure and sweep threats during your strip attempt. If these grips remain active, the bottom player can launch attacks while you are occupied with the lapel, making safe stripping nearly impossible. Isolating the lapel grip first removes their counter-attack capability.
-
-**Q3**: Your opponent immediately re-feeds the lapel after you strip it - what adjustment prevents this?
-**A**: You must control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area, pin it against your body with your arm, or step your leg completely clear of the dangling material. The critical error is releasing the lapel after stripping without securing it, which gives the bottom player a free opportunity to re-feed and re-establish worm guard.
-
-**Q4**: What is the primary risk during the lapel stripping sequence and how do you mitigate it?
-**A**: The primary risk is sweep vulnerability when both hands are committed to grip fighting rather than maintaining base. Mitigate this by keeping a wide stance throughout the sequence, keeping your center of gravity low, and being prepared to abandon the strip instantly if you feel significant off-balancing. Never sacrifice base stability for grip fighting progress.
-
-**Q5**: How do you know the lapel strip was successful enough to transition to passing?
-**A**: The strip is successful when your previously trapped leg can move freely without any pulling resistance from the lapel wrap. Visual indicators include the lapel hanging slack rather than taut, and your leg moving independently of the bottom player's hip movements. At this point, immediately establish passing grips before they can re-establish any form of lapel control.
-
-**Q6**: When should you abandon the lapel strip and try a different approach to passing worm guard?
-**A**: Abandon the strip after two or three failed attempts where the bottom player consistently re-feeds or reinforces the grip faster than you can break it. Also abandon if sweep threats become too dangerous to manage while grip fighting. Alternative approaches include backstep passes, long step passes, or standing back to reset and approach the worm guard from a different angle entirely.
-
-**Q7**: What grip should you establish immediately after a successful lapel strip?
-**A**: Establish pant grips at the knees or ankle level to control the bottom player's legs and prevent them from establishing an alternative guard. Alternatively, a collar grip combined with a pant grip gives you the control needed to initiate a toreando or leg drag pass. The key is establishing passing grips within one to two seconds of clearing the lapel before the bottom player recovers.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lapel Strip from Worm Guard?</p>
 
 The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints.
 

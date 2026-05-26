@@ -182,7 +182,7 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 **Forearm Positioning**: Precise placement of forearm across opponent's jaw and neck with proper angle and depth to maximize turning pressure while maintaining connection. Involves understanding how forearm angle affects pressure distribution and head rotation control.
 
-**Shoulder Pressure Application**: Using shoulder weight and positioning to reinforce crossface pressure, creating heavy, sustained control that exhausts opponent's defensive efforts. Requires body positioning that allows maximum shoulder weight transfer to crossface without compromising base.
+**Shoulder Pressure**: Using shoulder weight and positioning to reinforce crossface pressure, creating heavy, sustained control that exhausts opponent's defensive efforts. Requires body positioning that allows maximum shoulder weight transfer to crossface without compromising base.
 
 **Crossface Depth Management**: Adjusting how deeply arm drives across opponent's face based on their size, defensive strength, and escape attempts. Deeper crossface provides more control but may expose to certain counters, requiring dynamic adjustment throughout position.
 
@@ -353,14 +353,13 @@ Flow roll with rule that top person must maintain some form of crossface control
 ## Related
 
 ### Related Principles
-- **[[Head Control]]** (Prerequisite): Cross Face Control is a specific application of the broader Head Control principle, utilizing head positioning to limit opponent's movement options and escape capabilities.
+- **[[Head Position]]** (Prerequisite): Cross Face Control is a specific application of the broader Head Position principle, utilizing head positioning to limit opponent's movement options and escape capabilities.
 - **[[Shoulder Pressure]]** (Complementary): Crossface effectiveness increases significantly when combined with proper shoulder pressure, creating unified upper body control that prevents opponent from creating defensive frames.
 - **[[Hip Pressure]]** (Complementary): Hip pressure complements crossface control by preventing lower body escapes while crossface prevents upper body escapes, creating comprehensive positional control.
 - **[[Control Point Hierarchy]]** (Extension): Crossface represents a high-priority control point in the hierarchy, as controlling opponent's head through crossface significantly limits their overall movement and escape options.
-- **[[Pressure Passing Framework]]** (Extension): Crossface control is fundamental to pressure passing systems, as it prevents opponent from turning into guard passer and creating defensive frames during the passing sequence.
-- **[[Frame Management]]** (Alternative): From opponent's perspective, effective frame creation directly counters crossface control, making crossface establishment timing critical before opponent can establish frames.
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution enables effective crossface by allowing practitioner to apply shoulder and body weight through crossface arm without compromising balance or base.
-- **[[Pressure Application]]** (Extension): Crossface control exemplifies efficient pressure application, using skeletal structure and body weight rather than muscular force to create sustained control.
+- **[[Frames]]** (Alternative): From opponent's perspective, effective frame creation directly counters crossface control, making crossface establishment timing critical before opponent can establish frames.
+- **[[Center of Gravity]]** (Complementary): Proper weight distribution enables effective crossface by allowing practitioner to apply shoulder and body weight through crossface arm without compromising balance or base.
+- **[[Pressure]]** (Extension): Crossface control exemplifies efficient pressure application, using skeletal structure and body weight rather than muscular force to create sustained control.
 
 
 ### Related Content
@@ -371,9 +370,8 @@ Flow roll with rule that top person must maintain some form of crossface control
 - [[Crossface Pass]] (Transition) - Specific passing technique built entirely around crossface control mechanics
 - [[Knee Slice Pass]] (Transition) - Pass where crossface prevents opponent from turning in during knee slice
 - [[Arm Triangle]] (Submission) - Submission often set up by crossface control that isolates opponent's arm
-- [[Head Control]] (Principle) - Broader principle that crossface control specifically implements
+- [[Head Position]] (Principle) - Broader principle that crossface control specifically implements
 - [[Shoulder Pressure]] (Principle) - Complementary pressure concept that reinforces crossface effectiveness
-- [[Pressure Passing Framework]] (Principle) - Passing system that relies fundamentally on crossface control
 - [[Hip Pressure]] (Principle) - Complementary lower body control that works with crossface for comprehensive dominance
 - [[Bernardo Faria Pressure System]] (System) - Systematic approach emphasizing crossface as core element of pressure passing
 

@@ -162,6 +162,8 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reversal from Body Lock?</p>
+
 - Opponent's hands begin attacking your locked grip connection point, targeting the thumb-side or finger overlap area with pulling or peeling motions
 - Opponent drops their level significantly by bending knees and lowering hips, widening their base to create a stable platform for escape
 - Opponent drives one or both elbows inside the gap between your locked arms and their torso, creating a wedge that progressively separates your arms from their body
@@ -175,6 +177,8 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Reversal from Body Lock?</p>
+
 - Recognize reversal attempts early through tactile cues and immediately respond with increased pressure or offensive action before the escape develops momentum
 - Maintain chest-to-back connection as the primary control mechanism - the locked grip is secondary to full body contact that prevents space creation
 - Execute takedowns or mat returns immediately when you feel grip break attempts rather than trying to out-grip-fight the opponent's two-on-one attack
@@ -187,6 +191,8 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reversal from Body Lock?</p>
 
 ### 1. Tighten grip and drive maximum forward hip pressure into opponent's lower back
 
@@ -224,6 +230,8 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reversal from Body Lock?</p>
+
 ### → [[Positions/Body Lock]]
 
 Maintain grip integrity through immediate pressure increases and proactive re-locking when breaks are attempted. Drive chest tightly against opponent's back and increase hip pressure at the first sign of escape activity. The goal is to prevent the grip from separating long enough to execute your preferred takedown or mat return.
@@ -239,6 +247,8 @@ Convert the opponent's grip break attempt into a takedown opportunity by executi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reversal from Body Lock?</p>
 
 ### 1. Engaging in a prolonged grip-fighting battle instead of executing an immediate offensive technique
 
@@ -268,6 +278,8 @@ Convert the opponent's grip break attempt into a takedown opportunity by executi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reversal from Body Lock?</p>
+
 **Phase 1: Pressure Maintenance** - Maintaining body lock control against progressive escape attempts
 Establish body lock on partner who attempts grip breaks at increasing intensity levels. Focus on maintaining chest connection, hip drive, and grip integrity through three escalating resistance rounds: light hand fighting only, moderate grip breaks with hip movement, then full-effort escape attempts. Track how long you can maintain control before the grip breaks at each level.
 
@@ -284,29 +296,6 @@ Start from standing body lock with full resistance. Top player works to complete
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that indicates your opponent is attempting the body lock reversal?
-**A**: The earliest cue is feeling the opponent's hands or fingers begin to attack your locked grip connection, typically targeting the thumb-side overlap where the grip is weakest. You will feel pulling, prying, or peeling pressure against your fingers or wrists before any other physical change occurs. This hand activity precedes the hip lowering and wedge insertion by one to two seconds, giving you a critical early warning window to either tighten your grip, increase pressure, or commit to an immediate takedown before the escape develops further.
-
-**Q2**: Why should you execute a takedown rather than fight the grip break when you feel reversal attempts beginning?
-**A**: The body lock is designed as an offensive platform for throws and mat returns, not as a static holding position. Engaging in a grip-fighting battle plays into the bottom player's strategy because they only need one successful break while you must maintain the grip indefinitely. Your locked grip is at maximum strength in the first seconds of establishment and degrades with each passing moment as the opponent creates wedges and separation. Using the grip offensively through immediate takedown execution converts your diminishing asset into a positional advancement before the opponent can neutralize it through systematic grip breaking.
-
-**Q3**: How should you adjust when the opponent lowers their base significantly during the reversal attempt?
-**A**: Match the opponent's level change immediately by lowering your own hips and bending your knees to maintain chest-to-back connection at the new height. If you remain upright while they lower, your chest loses contact with their back, creating the space they need for the grip break. Additionally, maintain your hip drive into their lower back at the adjusted angle. The opponent's level drop is designed to create a stable base for their grip break, so your response must neutralize that stability by driving your weight through them at whatever height they choose.
-
-**Q4**: What is the correct response when you feel the opponent beginning a controlled guard pull to escape the body lock?
-**A**: Immediately sprawl your hips backward and downward while maintaining your grip to prevent the opponent from hooking your legs as they descend. Your goal is to follow them to the ground while preventing any leg entanglement that would establish half guard or closed guard. If they complete the sit successfully, immediately release the body lock and transition to a passing position by establishing crossface and hip control. Racing to establish top pressure before they can consolidate guard structure is critical because the first two to three seconds after landing determine whether you are passing or playing into their guard.
-
-**Q5**: When is re-locking the grip after a partial break the correct tactical choice versus committing to a takedown?
-**A**: Re-locking is correct when the opponent has broken the initial grip but has not yet secured wrist control on your arm, and you are still in a position to re-establish the lock at a different height quickly. This typically occurs in a sub-second window immediately after the break. However, if the opponent has secured wrist control or created significant body separation, attempting to re-lock will fail and wastes the final moments of your positional advantage. In that case, use whatever grip connection remains to drive forward into a takedown or scramble for top position rather than chasing a grip that is already compromised.
-
-
-
-</section>
 
 
 </main>

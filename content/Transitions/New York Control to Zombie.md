@@ -204,7 +204,7 @@ New York Control to Zombie represents the systematic philosophy of 10th Planet J
 
 - [[Transitions/Old School Sweep]] - Primary sweep from established Zombie
 
-- [[Submissions/Electric Chair Submission]] - Primary submission from established Zombie
+- [[Positions/Half Guard/Electric Chair]] - Primary submission from established Zombie
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent drives forward
 

@@ -194,6 +194,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from 3-4 Mount?</p>
+
 - Bridge toward the heavier mounted-knee side first to load maximum force against the top player's strongest base point, creating disruption before redirecting toward the weaker posted-leg side
 - Trap the opponent's far-side arm before bridging to eliminate their primary base recovery option and ensure the roll completes once initiated
 - Plant feet as close to hips as possible with soles flat on the mat to generate maximum bridge height and directional force through full hip extension
@@ -208,6 +210,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from 3-4 Mount?</p>
+
 - At least one foot planted flat on the mat near your hip with enough space to generate explosive hip extension for the bridge
 - Opponent's arm on the posted-leg side trapped or controlled to prevent posting during the bridge roll
 - Identification of the lighter posted-leg side where the top player's base is most compromised and escape direction is optimal
@@ -220,6 +224,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from 3-4 Mount step by step?</p>
 
 1. **Assess the Asymmetric Configuration**: Identify the posted-leg side by feeling where the top player's weight is concentrated. The mounted-knee side will feel heavier against your ribs, while the posted-leg side has less direct pressure on your torso. This assessment must happen before any physical setup to ensure you bridge toward the correct angle and do not waste energy attacking the strong side.
 2. **Establish Arm Control on the Posted-Leg Side**: Reach across with your near-side hand and grip the opponent's wrist, sleeve, or tricep on the posted-leg side. This is the arm they will attempt to post with when you bridge. Pull it tight across your centerline, trapping it against your chest with a two-on-one grip or by clamping your elbow tight to your ribs over their wrist.
@@ -251,6 +257,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from 3-4 Mount?</p>
+
 - **Top player posts free hand on the mat to block the roll** (Effectiveness: High) - Your Response: If you feel the post stopping your bridge mid-roll, immediately switch to an elbow escape toward the opposite side. The posting reaction shifts their weight and creates space on the other side for a shrimp escape to half guard. → Leads to [[Positions/Mount/3-4 Mount]]
 - **Top player drives chest weight forward and sprawls hips to kill bridge momentum before it develops** (Effectiveness: High) - Your Response: Use the forward weight commitment to create an elbow escape opportunity on the lighter side. Their forward pressure opens space at your hips for a shrimp. Alternatively, re-time the bridge for the moment they relax the forward sprawl. → Leads to [[Positions/Mount/3-4 Mount]]
 - **Top player switches hips and consolidates to full mount during failed bridge attempt** (Effectiveness: Medium) - Your Response: Accept the transition to full mount and immediately establish defensive frames. Full mount with even weight distribution can actually be easier to escape with standard upa and elbow escape combinations than the asymmetric 3-4 mount in some scenarios. → Leads to [[Positions/Mount]]
@@ -262,6 +270,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from 3-4 Mount?</p>
 
 ### 1. Bridging straight upward instead of at a forty-five-degree angle toward the posted-leg side
 
@@ -306,6 +316,8 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from 3-4 Mount (Attacker)?</p>
+
 **Phase 1: Solo Bridge Mechanics** - Hip extension power and directional control
 Practice solo bridging drills focusing on driving hips at a forty-five-degree angle over each shoulder. Perform sets of 10 directional bridges on each side, emphasizing explosive hip extension with a turning motion. Build the muscle memory for directional bridging before adding a partner.
 
@@ -326,42 +338,12 @@ Start in 3-4 mount bottom position with live rounds. Bottom player attempts brid
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What makes the 3-4 mount configuration specifically vulnerable to a directional bridge compared to traditional symmetric mount?
-**A**: The posted leg in 3-4 mount creates an inherent asymmetry in base stability. The posted-leg side has fewer contact points with the bottom player's body and relies on the foot-to-mat connection for lateral stability rather than body-to-body pressure. This means a bridge directed toward the posted-leg side attacks a structurally compromised angle where the top player cannot simultaneously maintain mount pressure and resist rotational force. In symmetric mount, both sides have equal base, so directional bridging has no preferred angle to exploit.
-
-**Q2**: Your opponent in 3-4 mount has their right knee tight to your ribs and left leg posted outside. Which direction do you bridge and why?
-**A**: Bridge over your left shoulder toward the opponent's posted left leg side. The left side has compromised base because the posted foot provides less resistance to rotational force than the mounted right knee. By bridging left, you attack the weakest point in their triangular base. The right side with the mounted knee provides their strongest base connection and would require significantly more force to overcome.
-
-**Q3**: What is the most critical grip you must establish before initiating the bridge, and what happens if you skip it?
-**A**: You must control the opponent's arm on the posted-leg side, typically gripping their wrist or tricep and pulling it tight across your chest. This arm is their primary posting tool—without it trapped, they simply place their hand on the mat as you bridge, creating a tripod base that absorbs all rotational force. Skipping this grip results in the bridge stalling at the midpoint, leaving you turned on your side in a worse position with depleted energy and an opponent who is now alert to your escape attempts.
-
-**Q4**: You attempt a bridge escape but the top player posts their hand to stop the roll. What is your immediate follow-up?
-**A**: Immediately abandon the bridge reversal and convert to an elbow escape toward the opposite side. The posting reaction shifts the top player's weight and attention toward the bridge side, creating space and reduced pressure on the opposite hip. Shrimp your hips away from them on the open side, insert your near-side knee as a shield, and work to recover half guard. The bridge attempt was not wasted—it created the conditions for the secondary escape to succeed.
-
-**Q5**: What foot placement produces the most powerful bridge, and why does the position of your feet matter so much?
-**A**: Plant both feet flat on the mat as close to your buttocks as possible with toes angled slightly outward for traction. Foot proximity to the hips determines bridge height and power because it maximizes the range of hip extension available—closer feet create a sharper knee angle that translates into greater vertical displacement when the hips extend. Feet placed too far away flatten the knee angle, producing a low, weak bridge that cannot generate enough upward force to displace the top player's weight from their base.
-
-**Q6**: When is the optimal moment to initiate the bridge escape against an attentive top player in 3-4 mount?
-**A**: The optimal timing is when the top player reaches upward for a collar grip, shifts their weight to set up a submission, or adjusts their leg positioning. These moments raise their center of gravity and divert their attention from base maintenance. Additionally, the instant they shift weight toward the mounted-knee side to attack creates maximum vulnerability on the posted-leg side. Never bridge when they are settled low with heavy chest pressure and stable base—wait for or provoke movement that compromises their equilibrium first.
-
-**Q7**: How do you prevent the top player from stepping their posted leg wide to absorb the bridge force?
-**A**: Hook your foot over the top player's ankle or shin on the posted-leg side before initiating the bridge. This hook prevents them from stepping their leg out to create a wider tripod base that would neutralize the rotational force. The foot hook does not need to be deep—it only needs to block the lateral movement of their foot during the critical one to two seconds of the bridge. Without this trap, even a powerful bridge can be defeated by a simple leg adjustment.
-
-**Q8**: Your bridge creates significant space but fails to complete the full reversal. What should you do next?
-**A**: Immediately transition to a guard recovery escape rather than attempting a second bridge from a compromised position. Shrimp your hips away from the opponent while the space from the first bridge still exists, insert your near-side knee between your bodies as a shield, and work to recover half guard or full guard. A partial bridge that leads to guard recovery is a successful outcome—you escaped mount, which was the primary objective. Attempting a second bridge from the same setup rarely works because the top player is now alert and has adjusted their base.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from 3-4 Mount?</p>
 
 Bridge escapes generate significant force through the cervical spine and neck. Ensure proper head positioning throughout the bridge, tucking chin to chest rather than extending the neck backward. When drilling with partners, the person being bridged should tap or verbalize if they feel uncomfortable with the rotational force. Avoid explosive bridges against rigid, braced partners who refuse to roll, as this can cause neck and shoulder injuries to both practitioners. During training, the top player should flow with the bridge rather than posting rigidly on the face or neck. If you experience any neck pain or discomfort during bridge practice, stop immediately and consult your instructor.
 

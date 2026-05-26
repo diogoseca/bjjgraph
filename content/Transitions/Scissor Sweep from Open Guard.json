@@ -68,16 +68,16 @@
       "relationship": "Complementary attack using similar collar grip that chains when scissor sweep is defended"
     },
     {
-      "name": "Butterfly Hook Sweep",
+      "name": "Butterfly Sweep",
       "relationship": "Alternative sweep from open guard using different mechanics against forward pressure"
     },
     {
-      "name": "Triangle from Open Guard",
+      "name": "Triangle from Guard",
       "relationship": "Submission threat that chains from scissor sweep when opponent posts arm to defend"
     },
     {
-      "name": "Collar Sleeve Sweep",
-      "relationship": "Related sweep technique using similar grip configuration from collar sleeve guard"
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related guard position using similar grip configuration for sweeps and submissions"
     },
     {
       "name": "Half Guard",
@@ -237,7 +237,7 @@
         "description": "Practice the complete sequence from grip fighting through mount consolidation under competition-intensity rolling. Focus on speed of setup, decisiveness of execution, and immediate mount control establishment after the sweep lands."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What grip must be established before the scissoring motion can generate sufficient force to complete the sweep?",
         "answer": "A deep cross-collar grip on the opponent's far lapel is essential because it provides the pulling force needed to break posture and create the forward weight commitment required for the sweep. Without this grip controlling the opponent's upper body alignment, the legs alone cannot generate sufficient rotational force to topple a properly based opponent, as their weight remains behind their knees where it naturally resists lateral displacement."
@@ -354,7 +354,7 @@
         "correction": "Drive forward into the opponent when you feel the scissoring motion initiate, as forward pressure directly counters the lateral force vector and can flatten their attacking hip angle"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest physical cue that indicates a scissor sweep is being set up from open guard?",
         "answer": "The earliest indicator is the opponent establishing a deep cross-collar grip combined with same-side sleeve or wrist control. These two grips together form the prerequisite configuration for the sweep. The next cue is their top knee rising to place the shin horizontally across your midsection. Recognizing the grip combination before the leg positioning begins provides the maximum defensive response window and allows you to strip grips before the sweep can be loaded."

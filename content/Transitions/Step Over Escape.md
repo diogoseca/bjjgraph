@@ -220,7 +220,7 @@ The Step Over Escape occupies a critical role in the Darce Control Bottom defens
 
 - [[Positions/Half Guard]] - Alternative recovery position via step over to half guard variant
 
-- [[Principles/Guard Recovery]] - Follow-up technique to consolidate position after escaping
+- [[Transitions/Scramble to Guard]] - Related guard recovery technique used during post-escape scrambles
 
 - [[Positions/Anaconda Control]] - Similar choke position where step over principles also apply
 

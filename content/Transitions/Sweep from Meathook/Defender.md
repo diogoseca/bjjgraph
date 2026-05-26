@@ -154,6 +154,8 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Meathook?</p>
+
 - Bottom player's hips begin elevating with a bridging motion while maintaining the shin hook and collar grip simultaneously
 - Increased pulling pressure on head or collar grip specifically toward the trapped arm side rather than straight down
 - Bottom player shrimps their hips to create an angle toward the trapped arm before any upward bridge attempt
@@ -166,6 +168,8 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Meathook?</p>
 
 - Distribute weight away from the trapped arm side to deny the sweep its target angle and primary mechanical advantage
 - Free arm must post wide and remain active as the sole base-building tool available while trapped in Meathook
@@ -180,6 +184,8 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Meathook?</p>
 
 ### 1. Widen base with free arm post toward the trapped arm side to create a tripod structure resisting directional force
 
@@ -217,6 +223,8 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Meathook?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time an explosive posture recovery to the moment when the bottom player commits their hips to the sweep angle. Their commitment temporarily loosens the shin hook as they redirect force from control to sweeping. Use this window to break posture free, strip the collar grip, and disengage to open guard distance where you can reset your passing game entirely.
@@ -232,6 +240,8 @@ Post your free arm wide immediately upon feeling hip elevation, driving your wei
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Meathook?</p>
 
 ### 1. Keeping the free arm close to the body instead of posting wide for base when sweep initiation is detected
 
@@ -261,6 +271,8 @@ Post your free arm wide immediately upon feeling hip elevation, driving your wei
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Meathook?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sweep initiation patterns from Meathook top
 Partner establishes Meathook and cycles between submission attempts and sweep loading. Practice identifying the specific tactile and visual cues that signal sweep initiation: hip elevation, directional pulling, angle creation. Call out the sweep attempt before it fully loads. Build automatic recognition without conscious analysis.
 
@@ -277,26 +289,6 @@ Positional sparring starting in Meathook with bottom player attacking with compl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does the Meathook sweep specifically target the trapped arm side rather than any other direction?
-**A**: The trapped arm cannot post or create base on that side due to the shin hook isolation. This removes half the opponent's defensive structure in one specific direction. Any other sweep direction allows the free arm to post and resist. The sweep exploits the precise structural gap that Meathook creates, making directional awareness the most critical element of sweep defense.
-
-**Q2**: You feel the bottom player's hips beginning to elevate while in Meathook top. What immediate base adjustment prevents the sweep?
-**A**: Post your free arm wide toward the trapped arm side immediately, creating a tripod base structure. Simultaneously shift your weight toward the non-trapped arm side to counterbalance the directional force. These two adjustments together create structural resistance to the sweep. However, recognize that the wide post opens submission angles, so you must begin working on arm extraction or posture recovery immediately.
-
-**Q3**: Why does driving forward as a sweep defense often create a worse situation than being swept?
-**A**: Forward driving pressure carries your head and neck directly into the shin hook's choking angle, enabling gogoplata. Being swept to mount bottom is a recoverable positional disadvantage with established escape systems. Being caught in a gogoplata is a submission threat that can end the match. The sweep is a four-point loss; the gogoplata is match over. Always prefer the lesser positional consequence.
-
-**Q4**: What defensive approach addresses both the sweep threat and the submission threats from Meathook simultaneously?
-**A**: Explosive posture recovery addresses all threats because it removes the Meathook control structure entirely. By breaking posture free and extracting the trapped arm, you eliminate the foundation of both sweeps and submissions. No other single defensive action resolves both threat categories. This is why posture recovery should be the primary objective, with base adjustment serving as interim protection while working toward full escape.
-
-
-
-</section>
 
 
 </main>

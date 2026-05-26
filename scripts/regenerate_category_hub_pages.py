@@ -81,6 +81,14 @@ class CategoryHubPageGenerator:
                 "description": "Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.",
                 "url_slug": "principles",
                 "keywords": "bjj principles, bjj concepts, bjj fundamentals, bjj theory"
+            },
+            "Learning": {
+                "dir": "Learning",
+                "title": "Learning",
+                "page_title": "Learning | BJJ Strategy & Training Guide",
+                "description": "Level up your BJJ with strategy, training methods, and competition tactics. Learn technique chaining, probabilistic thinking, training intensity, and more.",
+                "url_slug": "learning",
+                "keywords": "bjj strategy, bjj training tips, bjj competition tactics, bjj learning"
             }
         }
     
@@ -127,11 +135,8 @@ class CategoryHubPageGenerator:
         
         items = []
         
-        # Special handling for Positions - scan recursively to include variants in subfolders
-        if category_name == "Positions":
-            json_files = list(category_dir.glob("**/*.json"))
-        else:
-            json_files = list(category_dir.glob("*.json"))
+        # Scan recursively to include variants in subfolders (Positions and Submissions)
+        json_files = list(category_dir.glob("**/*.json"))
         
         print(f"Found {len(json_files)} JSON files in {category_dir}")
         
@@ -410,7 +415,7 @@ def main():
     )
     parser.add_argument(
         "--category",
-        choices=["Positions", "Transitions", "Submissions", "Systems", "Principles"],
+        choices=["Positions", "Transitions", "Submissions", "Systems", "Principles", "Learning"],
         help="Generate only a specific category (default: all)"
     )
     parser.add_argument(

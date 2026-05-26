@@ -154,6 +154,8 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack from Inverted Lasso?</p>
+
 - Top player drops their level and shifts weight forward toward your midsection rather than moving laterally or fighting grips
 - Increasing compressive pressure building on your shoulders and upper back as their body weight transfers into your inverted structure
 - Top player's hands move to control your hips or secure pants grips to anchor your lower body before driving forward
@@ -166,6 +168,8 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack from Inverted Lasso?</p>
 
 - Recognize the stack initiation within the first second by feeling the shift from lateral to forward compressive pressure through the lasso connection
 - Deploy frames against the opponent's shoulders before their shoulder makes contact with your midsection — late frames are ineffective against established compression
@@ -181,6 +185,8 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack from Inverted Lasso?</p>
 
 ### 1. Frame against the opponent's shoulders with both arms to create a structural barrier preventing their shoulder from reaching your midsection
 
@@ -218,6 +224,8 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack from Inverted Lasso?</p>
+
 ### → [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 Deploy proactive frames against the opponent's shoulders immediately upon recognizing the stack initiation, then hip escape to re-establish your attacking angle. Maintain lasso hook tension throughout to preserve position and keep all offensive options available.
@@ -233,6 +241,8 @@ Time the overhead sweep precisely as the opponent commits their weight past the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack from Inverted Lasso?</p>
 
 ### 1. Releasing the lasso hook under compression pressure in a panic response
 
@@ -262,10 +272,12 @@ Time the overhead sweep precisely as the opponent commits their weight past the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack from Inverted Lasso?</p>
+
 **Phase 1: Recognition and Frame Placement** - Identifying stack initiation cues and deploying frames before compression establishes
 Partner slowly initiates stack from inverted lasso at 30% speed. Practice recognizing the forward pressure shift and placing frames against their shoulders within one second. Call out the recognition cue verbally before framing. 20 repetitions building reaction speed and frame positioning accuracy.
 
-**Phase 2: Counter-Sweep Mechanics** - Converting stacking pressure into overhead sweep through proper timing and lasso extension
+**Phase 2: Counter-Kuzushi** - Converting stacking pressure into overhead sweep through proper timing and lasso extension
 Partner commits to stack at 50% intensity. Practice timing the overhead sweep by extending the lasso hook and pulling with sleeve grip as their weight passes the balance point. Partner falls through the sweep to build confidence in the mechanics. 15 repetitions per side focusing on the timing window.
 
 **Phase 3: Defensive Decision-Making** - Choosing between frame defense, counter-sweep, and guard recovery based on pressure dynamics
@@ -278,26 +290,6 @@ Partner attempts stack pass at full speed from inverted lasso guard. Defend usin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical cue that indicates your opponent is initiating a stack pass rather than another passing approach?
-**A**: The first cue is the directional shift of their pressure from lateral or grip-focused to direct forward compression toward your midsection. You will feel their weight dropping and driving toward you rather than circling, fighting grips, or stepping around. Their shoulder begins lowering toward your chest, and their hands typically move to secure hip or pants grips to anchor your lower body before driving forward. This forward commitment pattern is distinct from cartwheel passes or arm extraction attempts.
-
-**Q2**: How can you use the opponent's stacking pressure to generate a counter-sweep rather than just defending?
-**A**: The opponent's forward weight commitment during the stack creates an inherent balance vulnerability — their center of gravity moves ahead of their base. By extending the lasso hook while pulling strongly with the sleeve grip at the moment of maximum forward commitment, you convert their linear forward force into rotational momentum that carries them over your body. The key is timing: execute when their hips are above their shoulders and their weight is past the tipping point, not before or after this critical moment.
-
-**Q3**: When should you abandon the inverted lasso position rather than continuing to defend the stack?
-**A**: Abandon the inversion when your frames have been bypassed, your hips are being driven down, and the compression is established enough that counter-sweep timing has passed. Continuing to fight from a compromised inversion drains energy rapidly and exposes you to complete pass. The decision point is when your knees are approaching your face and lasso tension is decreasing — at this stage, maintaining the lasso hook while rolling back to upright guard preserves your connection and creates a defensible position rather than fighting a losing structural battle.
-
-**Q4**: Why is maintaining the lasso hook your highest defensive priority even when being stacked?
-**A**: The lasso hook is simultaneously your defensive anchor and your counter-attack mechanism. Without it, you have no structural connection to control the opponent, no leverage for counter-sweeps, and no way to prevent the pass. Even under compression, the lasso provides the possibility of overhead sweeps and prevents the opponent from freely disengaging to pursue other passes. Releasing the hook eliminates all options simultaneously and leaves you inverted with zero control — the worst possible defensive outcome.
-
-
-
-</section>
 
 
 </main>

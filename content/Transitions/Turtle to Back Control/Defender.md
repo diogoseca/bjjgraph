@@ -170,6 +170,8 @@ The critical defensive window occurs before the attacker secures their first hoo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Back Control?</p>
+
 - Feeling chest weight and pressure settling between your shoulder blades from behind, indicating attacker is establishing chest-to-back connection
 - Sensing arm threading under your armpit or over your shoulder as attacker begins seatbelt grip establishment
 - Feeling knee pressure against your near hip bone, signaling attacker is blocking your primary escape routes before hook insertion
@@ -182,6 +184,8 @@ The critical defensive window occurs before the attacker secures their first hoo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Back Control?</p>
 
 - Never remain static in turtle. Constant motion through weight shifts, direction changes, and active escape attempts denies the attacker time to settle
 - Keep elbows tight to knees to prevent underhook penetration that leads to seatbelt establishment and flattening
@@ -197,6 +201,8 @@ The critical defensive window occurs before the attacker secures their first hoo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Back Control?</p>
 
 ### 1. Explosive sit-back to guard before seatbelt is locked
 
@@ -241,6 +247,8 @@ The critical defensive window occurs before the attacker secures their first hoo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Back Control?</p>
+
 ### → [[Positions/Turtle]]
 
 Strip the attacker's seatbelt grip using two-on-one hand control on their choking arm, then immediately sit back to guard before they can re-establish upper body control. This converts their back take attempt into a neutral guard position where you have full defensive options.
@@ -256,6 +264,8 @@ Execute a well-timed granby roll or technical standup when attacker's weight is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Back Control?</p>
 
 ### 1. Remaining static in turtle and waiting for opponent to attack before reacting
 
@@ -290,10 +300,12 @@ Execute a well-timed granby roll or technical standup when attacker's weight is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Back Control?</p>
+
 **Week 1-2: Recognition and Structural Defense** - Identifying attack cues and maintaining tight defensive turtle posture under pressure
 Partner establishes top turtle at various speeds while you practice recognizing each phase of their attack: chest contact, seatbelt attempt, hip block, flatten attempt. Focus on maintaining tight elbows-to-knees structure and chin tuck throughout. Partner provides verbal cues for each attack phase to build pattern recognition. No escape attempts yet, purely defensive structure and recognition.
 
-**Week 3-4: Grip Fighting and Seatbelt Prevention** - Actively disrupting the attacker's control establishment through hand fighting
+**Week 3-4: Grips and Seatbelt Prevention** - Actively disrupting the attacker's control establishment through hand fighting
 Partner attempts to establish seatbelt from top turtle with moderate intensity. Practice two-on-one grip stripping, wrist control, and elbow framing to prevent seatbelt from locking. Drill specific hand positions for controlling the choking arm. Partner increases speed and grip intensity each session. Begin combining grip fighting with minor hip adjustments.
 
 **Week 5-6: Escape Sequence Development** - Executing specific escape methods: sit-back, granby roll, standup, turn-in
@@ -306,29 +318,6 @@ Three-minute rounds starting from turtle bottom against fully resisting partner.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window for preventing the turtle to back control transition?
-**A**: The critical defensive window is the period before the attacker secures their first hook. Once both hooks are established with seatbelt control, you are in full back control facing a much more difficult escape scenario. All defensive actions should be concentrated in the phase before hook insertion, specifically targeting the attacker's seatbelt grip and hip control. The most effective defenses are executed within the first three to five seconds of feeling chest contact from behind.
-
-**Q2**: Why is passivity the single greatest error when defending turtle bottom against a back take?
-**A**: Passivity gives the attacker unlimited time to methodically establish each control point in their sequence: chest pressure, seatbelt, hip block, posture flatten, near hook, far hook. Each step becomes progressively harder to defend once the previous step is completed. By remaining static, you allow the attacker to execute their optimal progression without interference. Constant motion disrupts their timing, prevents weight settling, and creates escape windows that only exist during transitions between their control phases.
-
-**Q3**: You feel your opponent's arm threading under your armpit for the seatbelt. What is your immediate response?
-**A**: Immediately use two hands to control their threading arm at the wrist or forearm, preventing them from completing the seatbelt connection. Simultaneously begin moving your hips, either sitting back toward guard or shifting laterally to create an angle that disrupts their chest-to-back alignment. The two-on-one grip gives you leverage advantage on a single arm. Do not try to fight both arms simultaneously. Controlling the choking arm specifically is highest priority because it prevents the most dangerous submissions from being set up.
-
-**Q4**: Your opponent has established seatbelt and is beginning to insert the near-side hook. What defensive options remain?
-**A**: At this late stage, your options narrow but are not eliminated. Kick your near leg back explosively to prevent the hook from setting inside your thigh. Simultaneously drive your hips away from the hooking leg side. If the hook does set, immediately work to prevent the second hook by turning toward the hook side, as a single hook is still escapable. You can also attempt to sit through to half guard on the hook side, using the hook against the attacker by trapping it during your rotation. The key is not conceding both hooks, as each additional control point makes escape exponentially harder.
-
-**Q5**: How should you manage your energy when defending repeated back take attempts from turtle?
-**A**: Save explosive movement for genuine escape opportunities rather than fighting every grip with maximum effort. Use your defensive structure, tight elbows, rounded back, and tucked chin, as your primary passive defense since this costs minimal energy. When the attacker transitions between control phases, such as releasing one grip to reach for another, that is when you invest explosive energy into escape attempts. If an escape fails, immediately return to tight defensive structure rather than continuing to scramble. Recognize that turtle is unsustainable and commit to decisive escape attempts rather than prolonged grip fighting battles.
-
-
-
-</section>
 
 
 </main>

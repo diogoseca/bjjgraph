@@ -158,6 +158,8 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll to Deep Half Guard?</p>
+
 - Bottom player creates a frame with their near-side arm against your hip or thigh, generating space for rotation rather than defending the choke directly
 - Bottom player's far-side arm reaches toward your near leg rather than fighting your choking grips, indicating they are targeting leg control for the roll
 - Bottom player's hips begin shifting toward your near leg side with an explosive loading motion, signaling imminent rotational escape attempt
@@ -170,6 +172,8 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll to Deep Half Guard?</p>
 
 - Monitor bottom player's hip movement and frame creation for early warning signs of the rolling escape attempt
 - Maintain consolidated body pressure with chest heavy on opponent's back to deny the mobility needed for rotation
@@ -184,6 +188,8 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll to Deep Half Guard?</p>
 
 ### 1. Sprawl and flatten opponent before roll develops momentum
 
@@ -214,6 +220,8 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll to Deep Half Guard?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Detect the escape attempt early through recognition cues (hip loading, frame creation, arm reaching for your leg) and sprawl decisively before the roll initiates. Drive your chest weight down onto their back and shoulders to eliminate the rotational mobility needed for the escape. Maintain your choking grips and continue finishing pressure.
@@ -229,6 +237,8 @@ When the roll has already initiated and cannot be stopped, immediately release y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll to Deep Half Guard?</p>
 
 ### 1. Maintaining choke grip commitment while opponent completes the roll to deep half guard
 
@@ -258,6 +268,8 @@ When the roll has already initiated and cannot be stopped, immediately release y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll to Deep Half Guard?</p>
+
 **Week 1-2** - Recognition cue identification
 Partner executes the roll at 50% speed from buggy choke bottom. Practice identifying the setup movements (frame creation, arm reaching for leg, hip loading) and calling out the cue before the roll initiates. No physical defense yet—focus purely on proprioceptive recognition of the escape attempt.
 
@@ -274,29 +286,6 @@ Full positional sparring from buggy choke top. Bottom player uses all escape opt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is preparing to roll to deep half guard?
-**A**: The earliest cues are frame creation with the near-side arm against your hip or thigh (creating space rather than fighting grips), the far-side arm reaching toward your near leg rather than defending the choke, and hip loading with a shift toward your near leg side. These setup movements precede the explosive roll by 1-2 seconds and represent your best intervention window.
-
-**Q2**: When should you abandon the buggy choke and transition to back control instead?
-**A**: Abandon the choke when the roll has already initiated with significant momentum and sprawling is no longer viable. The moment you feel the bottom player's body rotating under you with committed force, release your grips immediately and follow their rotation to insert hooks. A failed choke that costs you position is worse than converting to back control, which is the highest-value position in BJJ.
-
-**Q3**: How does consolidating body pressure before finishing the choke prevent this escape?
-**A**: The Roll to Deep Half Guard requires the bottom player to have sufficient hip and torso mobility to generate rotational force. By driving your chest weight onto their back and keeping your hips heavy on their near hip before increasing choking pressure, you eliminate the space and mobility needed for the roll. The escape specifically targets the window when grips are set but pressure is not consolidated.
-
-**Q4**: Your opponent begins the roll but you detect it early - what is your optimal response?
-**A**: If detected early before momentum builds, sprawl decisively by driving your hips back and down while dropping your chest weight onto their back and shoulders. This eliminates their rolling angle and flattens them against the mat. Maintain your choking grips throughout the sprawl to preserve your attacking position. The sprawl must be committed and immediate—a half-hearted sprawl allows the roll to develop underneath you.
-
-**Q5**: Why is posting your far leg wide a viable defensive option against this roll?
-**A**: Posting the far leg wide removes the deep half guard entry angle that the bottom player needs for a successful escape. Without the ability to wrap your near leg and position under your hips, their roll lands in an undefined scramble rather than an established guard position. This allows you to maintain top position and transition to passing, though it may concede half guard or single leg x-guard instead of deep half.
-
-
-
-</section>
 
 
 </main>

@@ -182,11 +182,11 @@ Collar Control represents the fundamental skill of gripping and manipulating opp
 
 **Collar Drag Mechanics**: Using collar grips to pull opponent off-balance and create angles by dragging them laterally or diagonally. This involves timing the drag with opponent's forward pressure, understanding leverage points, and combining drags with footwork or hip movement to maximize displacement effect.
 
-**Posture Breaking Through Collar**: Pulling opponent forward and down through collar grips to break their upright posture and compromise their base. This requires understanding the biomechanics of spinal flexion, using both hands on collar when needed, and maintaining broken posture despite opponent's recovery attempts.
+**Posture Through Collar**: Pulling opponent forward and down through collar grips to break their upright posture and compromise their base. This requires understanding the biomechanics of spinal flexion, using both hands on collar when needed, and maintaining broken posture despite opponent's recovery attempts.
 
 **Collar-Based Choke Recognition**: Identifying when collar grip configurations create immediate choking opportunities such as cross collar, loop choke, or bow and arrow setups. This involves recognizing grip depth requirements, hand positioning for choke application, and transitioning from control grip to submission grip.
 
-**Grip Fighting for Collar Priority**: Winning the battle to establish collar grips before opponent can establish their preferred grips or break your collar control. This includes hand fighting tactics, grip breaking defenses, and strategic decision-making about when collar grips take priority over other grip objectives.
+**Grips for Collar Priority**: Winning the battle to establish collar grips before opponent can establish their preferred grips or break your collar control. This includes hand fighting tactics, grip breaking defenses, and strategic decision-making about when collar grips take priority over other grip objectives.
 
 **Collar-Sleeve Coordination**: Integrating collar grips with sleeve control to create comprehensive upper body control that prevents opponent escape while setting up sweeps and submissions. This requires understanding how collar and sleeve grips work synergistically and knowing which combinations are most effective from each position.
 
@@ -293,7 +293,7 @@ Practice flowing between different collar-based submissions (cross collar, ezeki
 **Collar Drag Timing Development** (Focus: Understanding when opponent's movement creates collar drag opportunities and developing ability to off-balance and create angles through collar manipulation)
 Work specifically on collar drag mechanics with partner providing varied resistance and movement patterns to develop timing and directional control
 
-**Grip Fighting Games** (Focus: Developing grip fighting tactics specific to collar control, learning to prioritize collar grips strategically, and building grip endurance)
+**Grips Games** (Focus: Developing grip fighting tactics specific to collar control, learning to prioritize collar grips strategically, and building grip endurance)
 Engage in grip fighting-only rounds where objective is establishing and maintaining collar grips while preventing opponent from doing same
 
 **Collar Control Integration Rolling** (Focus: Making collar control instinctive part of overall game rather than isolated technique, developing strategic understanding of when collar priority is appropriate)
@@ -350,15 +350,15 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 ## Related
 
 ### Related Principles
-- **[[Grip Fighting]]** (Prerequisite): Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips
-- **[[Posture Breaking]]** (Complementary): Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control
-- **[[Head Control]]** (Extension): Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull
+- **[[Grips]]** (Prerequisite): Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips
+- **[[Posture]]** (Complementary): Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control
+- **[[Head Position]]** (Extension): Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull
 - **[[Sleeve Control]]** (Complementary): Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other
-- **[[Guard Retention]]** (Complementary): Collar control from guard positions serves as both offensive attack foundation and defensive retention mechanism by controlling opponent's posture and pressure application
-- **[[Grip Strategy]]** (Extension): Collar control represents a specific strategic grip priority within the broader grip strategy framework, often taking precedence in gi-specific game plans
+- **[[Frames]]** (Complementary): Collar control from guard positions complements frame creation by controlling opponent's posture and weight distribution, while frames maintain defensive structure when collar grips are temporarily lost
+- **[[Hand Fighting]]** (Extension): Collar control represents a specific strategic grip priority within the broader hand fighting framework, where winning collar access often determines the tactical direction of an exchange
 - **[[Control Point Hierarchy]]** (Complementary): Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control
 - **[[Connection Principles]]** (Prerequisite): Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes
-- **[[Leverage Principles]]** (Extension): Collar grips provide powerful leverage for manipulating opponent's upper body, head position, and overall base through biomechanical advantage
+- **[[Levers]]** (Extension): Collar grips provide powerful leverage for manipulating opponent's upper body, head position, and overall base through biomechanical advantage
 
 
 ### Related Content
@@ -369,11 +369,11 @@ Free rolling with conscious emphasis on establishing collar control early in exc
 - [[Back Control]] (Position) - Highest value position where collar control sets up rear naked choke and bow and arrow submissions
 - [[Side Control]] (Position) - Control position where far-side collar grips prevent escape and create submission opportunities
 - [[Cross Collar Choke]] (Submission) - Primary collar-based submission that depends entirely on deep collar grip penetration
-- [[Ezekiel Choke]] (Submission) - Collar-based choke utilizing sleeve grip to supplement collar control
 - [[Bow and Arrow Choke]] (Submission) - Advanced collar-based submission from back control combining collar grip with pants grip
-- [[Grip Fighting]] (Principle) - Prerequisite skill for establishing collar control against resisting opponent
-- [[Posture Breaking]] (Principle) - Primary tactical application of collar control in guard positions
-- [[Head Control]] (Principle) - Advanced form of control that extends from deep collar grip penetration
+- [[Baseball Bat Choke]] (Submission) - Collar-based choke utilizing baseball grip configuration from side control and knee on belly
+- [[Grips]] (Principle) - Prerequisite skill for establishing collar control against resisting opponent
+- [[Posture]] (Principle) - Primary tactical application of collar control in guard positions
+- [[Head Position]] (Principle) - Advanced form of control that extends from deep collar grip penetration
 
 
 </section>

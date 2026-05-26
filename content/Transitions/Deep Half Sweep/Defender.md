@@ -154,6 +154,8 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deep Half Sweep?</p>
+
 - Bottom player begins walking their feet in small steps toward your head, creating a sweeping angle
 - Increased upward pressure from the bottom player's shoulder against your inner thigh indicating elevation is imminent
 - Bottom player's free hand shifts from controlling your near leg to blocking your near knee posting position
@@ -166,6 +168,8 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half Sweep?</p>
 
 - Recognize the sweep setup early by monitoring the bottom player's foot walking and hip positioning changes
 - Maintain balanced weight distribution to avoid loading the sweep with forward pressure
@@ -180,6 +184,8 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deep Half Sweep?</p>
 
 ### 1. Sprawl hips back to remove weight from bottom player's shoulder wedge
 
@@ -217,6 +223,8 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deep Half Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 Counter the sweep by combining crossface pressure with systematic leg extraction. Drive crossface to flatten the bottom player, then circle your trapped knee outward and pull it free while maintaining upper body control. Transition immediately to standard half guard top where you have superior passing options and the deep half leverage system is neutralized.
@@ -228,6 +236,8 @@ Counter the sweep by combining crossface pressure with systematic leg extraction
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half Sweep?</p>
 
 ### 1. Driving excessive forward pressure in response to feeling the sweep setup
 
@@ -257,6 +267,8 @@ Counter the sweep by combining crossface pressure with systematic leg extraction
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deep Half Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner establishes deep half and slowly executes the sweep setup sequence. Focus solely on recognizing each phase: underhook tightening, foot walking, angle creation, and elevation initiation. Call out each phase as you feel it happening to develop tactile awareness.
 
@@ -273,26 +285,6 @@ Positional sparring starting in deep half guard top. Defend all sweep attempts w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up the Deep Half Sweep specifically rather than another attack?
-**A**: The earliest cue is the bottom player walking their feet in small steps toward your head. This angle creation is unique to the hip-lift sweep and distinguishes it from the rolling back take which involves turning away from you or the Waiter Sweep which involves their free hand reaching for your far leg. When you feel the foot walking combined with increased shoulder pressure against your inner thigh, the hip-lift sweep is being loaded.
-
-**Q2**: Why is driving heavy crossface pressure a risky defensive strategy against the Deep Half Sweep?
-**A**: Heavy crossface pressure requires committing your weight forward toward the bottom player's head side. This forward weight commitment is exactly what powers the Deep Half Sweep, as the bottom player uses your forward pressure combined with their hip elevation to tip you over. A skilled deep half player will deliberately bait the crossface to load the sweep. Instead, use crossface to control their head direction without driving your full weight forward.
-
-**Q3**: What is the optimal timing window for executing the backstep counter against the Deep Half Sweep?
-**A**: The optimal backstep timing is immediately after you feel the bottom player commit to their foot walking but before they begin the hip elevation. At this point, their focus is on creating angle rather than maintaining leg control, creating a brief window where your trapped leg is less actively restrained. If you backstep too early they have not committed and can easily readjust. If you backstep too late during the elevation their upward pressure makes extraction much more difficult.
-
-**Q4**: How should you adjust your weight distribution when you feel the sweep elevation beginning?
-**A**: Immediately shift your weight backward by dropping your hips away from the bottom player's shoulder and posting your free leg wider behind you. Do not try to drive forward to counter the elevation as this feeds the sweep. The goal is to remove your weight from their shoulder fulcrum point so their elevation lifts nothing. Simultaneously widen your base laterally to create stability against the forward-directed sweep force.
-
-
-
-</section>
 
 
 </main>

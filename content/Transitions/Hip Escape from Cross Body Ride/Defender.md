@@ -154,6 +154,8 @@ Defending against the hip escape from cross body ride requires the top player to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Cross Body Ride?</p>
+
 - Bottom player's hips begin shifting laterally beneath your chest pressure, disrupting your perpendicular alignment
 - You feel a forearm or hand posting firmly against your hip or thigh—the essential setup frame for the escape
 - Pressure beneath your chest suddenly lightens as the bottom player loads their hips for explosive lateral movement
@@ -165,6 +167,8 @@ Defending against the hip escape from cross body ride requires the top player to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Cross Body Ride?</p>
 
 - Maintain heavy perpendicular chest pressure to eliminate the space needed for effective hip escape movement
 - Keep hips low and connected to prevent the bottom player from generating sufficient shrimping power
@@ -179,6 +183,8 @@ Defending against the hip escape from cross body ride requires the top player to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Cross Body Ride?</p>
 
 ### 1. Drive chest weight forward and down to re-flatten bottom player before escape completes
 
@@ -216,6 +222,8 @@ Defending against the hip escape from cross body ride requires the top player to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Cross Body Ride?</p>
+
 ### → [[Positions/Cross Body Ride]]
 
 Maintain constant heavy perpendicular pressure and follow all lateral hip movement immediately. Strip frames as they appear and keep your weight centered on their upper back. Prevent the escape from ever generating enough space to be effective.
@@ -231,6 +239,8 @@ When the hip escape creates enough space that the ride is compromised beyond rec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Cross Body Ride?</p>
 
 ### 1. Remaining static when bottom player initiates hip escape movement
 
@@ -260,6 +270,8 @@ When the hip escape creates enough space that the ride is compromised beyond rec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Cross Body Ride?</p>
+
 **Pattern Recognition** - Identifying escape initiation cues
 Partner attempts hip escapes at 50% speed while you practice feeling the frame establish and the hips load for explosive movement. Focus on recognizing the escape before it begins rather than reacting after displacement occurs.
 
@@ -276,26 +288,6 @@ Full-speed positional sparring where the partner uses all available escape techn
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest indicator that the bottom player is preparing a hip escape from your cross body ride?
-**A**: The earliest indicator is feeling a forearm or hand posting against your hip or thigh. This frame is the essential setup for any effective hip escape—without it, the bottom player cannot generate sufficient lateral force to escape the ride. Secondary indicators include subtle hip loading, where they shift weight toward you before exploding away, and a change in breathing pattern that signals preparation for explosive effort. When you feel the frame establish, immediately address it by driving your hip into their frame to collapse it or begin preparing your own transition.
-
-**Q2**: The bottom player successfully creates space with a hip escape—should you re-establish the ride or transition to back control?
-**A**: This depends on the amount of space created. If the separation is minimal with six inches or less of displacement, re-establishing the ride by following their movement and driving your chest back down is the higher-percentage option. If significant space has opened with more than a foot of separation, attempting to close that gap risks giving them time to recover guard. In this case, immediately transition to back control by securing a seatbelt grip and inserting your near-side hook while the position is still in flux.
-
-**Q3**: How do you maintain cross body ride pressure against a bottom player who chains multiple consecutive hip escapes?
-**A**: Against chained hip escapes, you must match their rhythm and direction, following each escape laterally while maintaining chest contact. After their second or third consecutive escape attempt, the bottom player will often pause from accumulated fatigue—this is the moment to decisively advance your position. You can also break their chain by changing your own pressure angle mid-sequence, switching from perpendicular to diagonal orientation or inserting a far-side hook during the brief pause between escape attempts.
-
-**Q4**: What distinguishes a hip escape attempt from a setup for a sit-out or granby roll?
-**A**: A hip escape loads the hips laterally with a frame against your hip—the energy is directed sideways away from your pressure line. A sit-out involves the bottom player threading their near leg through while turning to face you—the energy is directed rotationally. A granby roll loads shoulder rotation with forward-and-over momentum. Feel for the direction of force through your chest: lateral displacement suggests hip escape, rotational hip turning suggests sit-out, shoulder loading suggests granby. This distinction matters because the optimal defensive response differs for each.
-
-
-
-</section>
 
 
 </main>

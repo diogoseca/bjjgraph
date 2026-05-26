@@ -61,7 +61,7 @@
       "relationship": "Alternative passing option from open guard"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "relationship": "Essential concept integrated throughout opening sequence"
     },
     {
@@ -69,7 +69,7 @@
       "relationship": "Common counter sweep opponent uses during standing break"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle Setup",
       "relationship": "Submission threat opponent may use if posture breaks"
     },
     {
@@ -222,7 +222,7 @@
         "description": "Partner maintains closed guard but does not break your posture or sweep. Practice both standing and combat base opening methods repeatedly. Focus on leverage and hip movement rather than strength. Partner allows guard to open but can re-close if your leg control is poor."
       },
       {
-        "phase": "Week 5-8: Dynamic Opening with Grip Fighting",
+        "phase": "Week 5-8: Dynamic Opening with Grips",
         "focus": "Combining grip fighting with opening mechanics under active resistance",
         "description": "Partner actively fights grips and attempts to break your posture but does not sweep. You must break their grips, establish your own, and open the guard while maintaining posture. Partner provides 50% resistance to opening mechanics. Begin transitioning to passing positions after opening."
       },
@@ -242,7 +242,7 @@
         "description": "Practice against specialized closed guard styles: collar and sleeve guard, overhook guard, rubber guard, high guard. Each requires different opening mechanics. Partner uses their best guard retention techniques. Develop multiple opening methods and the ability to switch between them based on opponent reactions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you establish strong posture before attempting to open closed guard?",
         "answer": "Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely rather than fighting from a compromised position."
@@ -381,7 +381,7 @@
         "correction": "Cross ankles at the small of the opponent's lower back, just above their hips, with heels actively pulling into their spine. Maintain active hamstring engagement to keep the closure strong. The lock should feel like a vice grip on their lower torso."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your primary defensive priority when you feel the opponent beginning to establish upright posture inside your closed guard?",
         "answer": "Your primary priority is breaking their posture immediately before they can complete the postural setup. Establish a deep cross-collar grip and combine it with aggressive heel pressure pulling their lower back toward you. Simultaneously pull their head and shoulders forward with your grip. The goal is to curl them back down before they achieve the upright spine alignment that enables opening mechanics. Acting within the first two seconds of their posture attempt is critical because once established, strong posture becomes progressively harder to break."

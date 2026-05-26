@@ -93,8 +93,8 @@
       "relationship": "Related guard system sharing shin-on-arm mechanics with different control configuration"
     },
     {
-      "name": "Triangle from Open Guard",
-      "relationship": "Alternative triangle entry from less controlled open guard position for comparison"
+      "name": "Triangle Setup",
+      "relationship": "Alternative triangle entry pathway for comparison with the clamp guard-specific entry"
     }
   ],
   "attacker": {
@@ -234,7 +234,7 @@
         "description": "Start in clamp guard and spar live from the position with full resistance. Attacker works to achieve either triangle control or armbar based on the opponent's reactions. Reset if the position resolves through escape, sweep, or submission. Focus on decision-making speed and commitment timing. 5 rounds of 3 minutes with alternating roles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins pulling their trapped arm straight back rather than circling outward — how does this change your attack selection from clamp guard?",
         "answer": "A straight-back pull extends the arm along its length, which deepens the armbar angle rather than opening the triangle window. The triangle requires lateral space between the neck and shoulder, which circular extraction creates but straight-back pulling does not. When you feel the straight-back pull, redirect your attack to the armbar from clamp guard by extending your hips into the arm while controlling the wrist. The straight-back extraction actually makes the armbar higher-percentage because the opponent is voluntarily straightening the arm you need extended."
@@ -358,7 +358,7 @@
         "correction": "When you feel the leg crossing, immediately lift your head and posture upward. Even if the triangle locks, an upright posture with an elevated head is dramatically easier to escape than a broken-posture triangle with head tucked"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "You feel the guard player's shin starting to slide from your bicep toward your shoulder — what immediate action prevents the triangle?",
         "answer": "Posture up immediately by straightening your spine and driving your hips backward while tucking your chin to close the gap between your neck and shoulder. Simultaneously drive your trapped shoulder forward into the guard player's hip to physically block the leg's path. If possible, grab the moving leg with your free hand and push it back down. Speed is critical here — you have less than one second before the leg clears the shoulder if you do not react to the sliding cue."

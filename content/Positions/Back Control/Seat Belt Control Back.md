@@ -34,7 +34,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Diagonal grip dominance creates biomechanically superior control through opposing force vectors
@@ -181,17 +181,17 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (35% of attempts)
+- **[[Rear Naked Choke from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (37% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (10% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (6% of attempts)
+- **[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (7% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Transitions/Short Choke/Attacker|Short Choke]]** (5% of attempts)
+- **[[Short Choke from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (12% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (13% of attempts)
 
 - **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
 
@@ -206,10 +206,6 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 - **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (1% of attempts)
 
 - **[[Transitions/Seat Belt to Full Back Control/Attacker|Seat Belt to Full Back Control]]** (1% of attempts)
-
-- **[[Submissions/Bow and Arrow from Seat Belt/Attacker|Bow and Arrow from Seat Belt]]** (2% of attempts)
-
-- **[[Submissions/RNC from Seat Belt/Attacker|RNC from Seat Belt]]** (2% of attempts)
 
 
 ### Common Mistakes

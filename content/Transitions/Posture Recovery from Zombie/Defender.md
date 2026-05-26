@@ -162,6 +162,8 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery from Zombie?</p>
+
 - Top player drives forearm across your jaw attempting to establish crossface control and turn your head away
 - Top player's weight shifts forward and down rather than settling neutral, indicating preparation for spine extension
 - Top player's free leg begins posting wider than normal, creating a tripod base to support recovery attempts
@@ -174,6 +176,8 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Recovery from Zombie?</p>
 
 - Maintain active lockdown tension throughout, increasing stretch pressure the moment you feel the top player attempting to extend their spine
 - Use the underhook aggressively to pull the opponent's upper body toward you, countering their crossface and forward drive
@@ -188,6 +192,8 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery from Zombie?</p>
 
 ### 1. Increase lockdown stretch and initiate Old School Sweep
 
@@ -225,6 +231,8 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery from Zombie?</p>
+
 ### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain aggressive lockdown tension while threatening sweeps whenever the top player shifts weight for recovery. Use the underhook to re-break their posture each time they begin extending. The combination of lockdown stretch, underhook pull, and sweep threats creates a system that forces the top player back to broken posture.
@@ -240,6 +248,8 @@ When the lockdown becomes untenable because the top player has advanced their re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery from Zombie?</p>
 
 ### 1. Remaining passive while the top player methodically works through recovery steps
 
@@ -274,6 +284,8 @@ When the lockdown becomes untenable because the top player has advanced their re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery from Zombie?</p>
+
 **Phase 1: Recognition** - Identifying posture recovery attempts early
 Partner begins posture recovery sequence at slow speed while you practice identifying each stage: crossface establishment, weight shift forward, spine extension, and leg extraction. Call out each stage as you feel it. Build the sensory awareness to recognize recovery attempts before they advance past the point of easy counter.
 
@@ -290,29 +302,6 @@ Start in Zombie bottom with partner at full resistance attempting posture recove
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is beginning posture recovery?
-**A**: The earliest cue is feeling their weight shift forward and down rather than settling neutral. Before they establish crossface or begin spine extension, you will feel increased chest pressure as they prepare their forward drive. This is the optimal moment to counter because their recovery sequence has not started yet. Secondary cues include feeling their forearm moving toward your face for crossface and their free leg beginning to post wider. Responding to the weight shift gives you the maximum window to counter.
-
-**Q2**: When should you choose to release lockdown and recover closed guard versus maintaining lockdown control?
-**A**: Release lockdown and recover closed guard when three conditions are met: the opponent has established strong crossface preventing you from maintaining chest-to-chest connection, your lockdown tension is diminishing because their posture recovery is well advanced, and you still have enough hip mobility to shrimp back and close your guard before they can react. If any of these conditions is not met, maintain lockdown. Releasing too early wastes the positional advantage you built, while releasing too late means you will not have the space needed to close guard.
-
-**Q3**: How do you use the Old School Sweep threat to prevent posture recovery without fully committing to the sweep?
-**A**: Initiate the Old School Sweep motion by posting on your far foot and driving your hips toward the opponent, creating the initial elevation that signals sweep danger. This forces the top player to immediately widen their base and drop weight forward to defend, which resets their recovery progress. You do not need to complete the sweep - the threat alone disrupts their recovery sequence. Return to your lockdown control position after they react defensively. This constant threatening keeps them defensive and unable to commit fully to recovery.
-
-**Q4**: Your lockdown is starting to lose tension because the opponent is compressing your legs with hip pressure - what do you do?
-**A**: First, re-engage the lockdown by hooking your foot deeper behind their calf and re-squeezing your thighs together with renewed effort. If the compression has advanced too far for re-engagement, immediately transition to one of two options: initiate a sweep attempt while you still have partial lockdown control, using whatever remaining tension you have to off-balance them, or begin the tactical lockdown release sequence by framing with your arms, shrimping your hips back, and working to close your guard. Never hold a failing lockdown passively.
-
-**Q5**: What is the most dangerous phase of the opponent's posture recovery from your perspective as the defender?
-**A**: The most dangerous phase is when the opponent has established crossface and begun driving their weight forward but has not yet extracted their leg from the lockdown. At this point, they have upper body control limiting your offensive options, but they are applying maximum downward pressure on your lockdown which is progressively weakening your leg grip. If you do not act during this window - either by launching an aggressive sweep or transitioning to closed guard - you will reach a point where both your lockdown and your upper body grips are compromised simultaneously, leading to the pass.
-
-
-
-</section>
 
 
 </main>

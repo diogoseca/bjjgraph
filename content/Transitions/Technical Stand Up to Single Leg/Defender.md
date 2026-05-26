@@ -162,6 +162,8 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Stand Up to Single Leg?</p>
+
 - Opponent posts one hand firmly on the mat behind their hip with locked elbow, signaling the beginning of technical standup base establishment
 - Opponent extends one leg forward into a posting position with foot flat, creating the platform they need to drive upward
 - Sudden explosive hip drive upward combined with framing pressure against your chest or head, indicating commitment to the standup
@@ -174,6 +176,8 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Stand Up to Single Leg?</p>
 
 - Maintain heavy chest and shoulder pressure on turtle to prevent the initial standup from succeeding
 - Control at least one of the opponent's posting points (hand or foot) to compromise their structural base
@@ -189,6 +193,8 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Stand Up to Single Leg?</p>
 
 ### 1. Drive crossface pressure and collapse posting arm during standup attempt
 
@@ -226,6 +232,8 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Stand Up to Single Leg?</p>
+
 ### → [[Positions/Turtle]]
 
 Collapse the standup early by driving heavy crossface pressure into their posting structure while controlling their near hip. Strip their posting hand by sweeping it or driving your shoulder into their elbow. The key is addressing the standup in its first two seconds before they generate upward momentum.
@@ -241,6 +249,8 @@ Allow the standup to complete but be ready for the single leg. When you feel the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Stand Up to Single Leg?</p>
 
 ### 1. Backing away when opponent begins standing up instead of staying connected with pressure
 
@@ -270,6 +280,8 @@ Allow the standup to complete but be ready for the single leg. When you feel the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Stand Up to Single Leg?</p>
+
 **Phase 1: Standup Prevention** - Maintaining top turtle pressure and collapsing standup attempts
 From turtle top position, practice maintaining heavy chest pressure while partner attempts technical standup. Focus on recognizing posting hand and leg extension cues, then driving crossface and collapsing the base before they can rise. Partner starts at 30% resistance and increases gradually. Drill 10-15 prevention sequences per round.
 
@@ -286,29 +298,6 @@ Partner starts in turtle bottom and attempts the full technical standup to singl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective moment to shut down the technical standup before it gains momentum?
-**A**: The most effective moment is when the opponent first posts their hand and begins extending their lead leg, before they generate any upward drive. At this point, their weight is split between multiple contact points and they are structurally weakest. Driving heavy crossface pressure and collapsing their posting arm at this stage requires minimal energy and has the highest success rate. Once they have risen even halfway, the force required to drive them back down increases dramatically.
-
-**Q2**: How should you position your hips when you feel the opponent initiating a single leg penetration step?
-**A**: Drop your hips explosively backward and downward in a sprawl motion, driving your pelvis toward the mat while keeping your chest up. Your hips should move away from the opponent's penetrating shoulder, creating an angle that makes their forward drive ineffective. Simultaneously widen your base by stepping your free leg out to the side. The sprawl must be reactive and immediate: even a half-second delay allows them to get underneath your center of gravity where the sprawl becomes ineffective.
-
-**Q3**: Your opponent has secured a single leg grip and is driving forward - what is your priority sequence for defense?
-**A**: First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip.
-
-**Q4**: Why is staying connected during the opponent's standup more effective than creating distance?
-**A**: Staying connected keeps your weight and pressure on the opponent throughout their standup attempt, making it energetically costly and mechanically difficult for them to rise. Distance gives them a free standup with time to set their stance, read your position, and build momentum for a penetration step. When you stay chest-to-back, you can feel their weight shifts and react immediately to disrupt their base. If they do manage to stand, you are already in clinch range where you can pummel for underhooks and deny the space needed for a level change.
-
-**Q5**: What defensive adjustment do you make if the opponent switches from single leg to ankle pick mid-attack?
-**A**: When you feel them release the high grip and reach for your ankle, immediately pull your targeted foot backward while driving your hips forward and down to make the ankle inaccessible. Simultaneously snap their head down with both hands to break their posture and prevent them from following through on the ankle pick. If they get a grip on the ankle, kick it free explosively while posting your hands on their shoulders to create separation. The ankle pick is most dangerous when you are retreating, so maintaining forward pressure makes it significantly harder to execute.
-
-
-
-</section>
 
 
 </main>

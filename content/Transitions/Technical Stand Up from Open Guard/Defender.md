@@ -162,6 +162,8 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Stand Up from Open Guard?</p>
+
 - Bottom player shifts weight to one hip and begins reaching one hand behind their body to post on the mat
 - Foot placement changes from hooking or framing to pushing on your hips with increased force to create distance
 - Bottom player's hips begin angling to one side rather than staying square, indicating preparation for base foot positioning
@@ -174,6 +176,8 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Stand Up from Open Guard?</p>
 
 - Recognize the stand-up attempt early by reading the posting hand, hip angle shift, and foot placement changes that precede the movement
 - Close distance aggressively the moment you identify the stand-up initiation, as the technique depends on maintaining space between you and the bottom player
@@ -188,6 +192,8 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Stand Up from Open Guard?</p>
 
 ### 1. Close distance immediately with forward pressure and chest-to-chest connection
 
@@ -225,6 +231,8 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Stand Up from Open Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Close distance immediately when you recognize the posting hand placement, drive forward with heavy chest pressure to collapse their tripod base before they can elevate their hips. Maintain grip control on their sleeves or collar to prevent them from reposting and reattempting.
@@ -240,6 +248,8 @@ Time a level change or shot as the opponent reaches the vulnerable final standin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Stand Up from Open Guard?</p>
 
 ### 1. Backing away or disengaging when the opponent begins standing up instead of closing distance
 
@@ -269,6 +279,8 @@ Time a level change or shot as the opponent reaches the vulnerable final standin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Stand Up from Open Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stand-up initiation cues from open guard top position
 Partner repeatedly initiates technical stand ups at slow speed while you practice identifying the posting hand, hip shift, and foot placement changes. Call out the recognition cue verbally before responding physically. Develop the pattern recognition that allows early intervention before the stand-up gains momentum.
 
@@ -285,29 +297,6 @@ Start in open guard top position with partner having the specific goal of comple
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a technical stand up from open guard?
-**A**: The earliest cue is the opponent shifting their weight to one hip while their hand begins reaching behind their body toward the mat for the posting position. This posting hand placement is the prerequisite for the entire stand-up sequence and occurs before any visible hip elevation. Secondary cues include increased pushing force through their feet on your hips to create distance and sudden grip releases as they free their posting hand. Recognizing these preparatory movements gives you the maximum reaction time.
-
-**Q2**: Why is closing distance more effective than retreating when defending against a technical stand up?
-**A**: The technical stand up requires space between the bottom player and their opponent to execute properly. The posting hand, hip elevation, and trailing leg sweep all depend on having sufficient room to complete the biomechanical sequence. By closing distance with forward pressure, you collapse the space needed for the tripod base and force the bottom player to use their energy managing your pressure rather than standing. Retreating gives them exactly the distance they need and allows them to stand with zero resistance.
-
-**Q3**: Your opponent has successfully elevated their hips and is sweeping their trailing leg through - what is your best counter at this late stage?
-**A**: At this late stage, your best option is to time a takedown entry as they transition from tripod to standing. Their base is narrowest when the trailing foot first contacts the mat behind them and before they establish shoulder-width stance. A well-timed single leg on their base foot or a body lock from clinch range can topple them during this brief instability window. Attempting to push them back down at this stage is less effective because their tripod is already established and they have upward momentum.
-
-**Q4**: How should your defensive strategy differ when defending the technical stand up in gi versus no-gi?
-**A**: In gi, you have superior grip options to prevent the stand-up. Maintaining sleeve grips prevents the posting hand from reaching the mat, and collar grips allow you to pull them back down during hip elevation. Pant grips on the legs prevent the base foot from setting. In no-gi, without these friction-based grips, you must rely more on body positioning and pressure. Closing distance quickly with underhooks or body lock is essential because you cannot control their limbs from range effectively.
-
-**Q5**: What is the risk of shooting a takedown too early versus too late during the opponent's stand-up sequence?
-**A**: Shooting too early, while the opponent is still seated with their legs active in guard, exposes you to guillotines, front headlock attacks, and snap-downs because you are driving into their defensive guard structure rather than catching them in transition. Shooting too late, after they have established a full standing base with feet apart, means you are attacking a balanced opponent who can sprawl effectively. The optimal window is during the final phase when they are transitioning from tripod to standing, when their feet are closest together and their hands are occupied.
-
-
-
-</section>
 
 
 </main>

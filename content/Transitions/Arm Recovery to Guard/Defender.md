@@ -166,6 +166,8 @@ Advanced defense involves reading the escape attempt before it develops and pree
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Recovery to Guard?</p>
+
 - Opponent internally rotates their trapped shoulder so the palm begins turning upward toward the ceiling—this is the first preparatory movement before extraction
 - Opponent plants both feet flat on the mat and tenses their glutes, indicating they are loading for an explosive bridge toward your posting leg
 - Opponent's free arm shifts from passive to actively wedging against your hip bone, establishing the frame they need to maintain space during extraction
@@ -178,6 +180,8 @@ Advanced defense involves reading the escape attempt before it develops and pree
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Recovery to Guard?</p>
 
 - Maintain constant armpit clamp pressure on the trapped upper arm—your armpit and chest create a vise that the arm cannot pass through when properly loaded with chest weight
 - Keep your hip pressure angled into their ribs at approximately 45 degrees toward their far hip, preventing the bridge power they need to create the extraction window
@@ -192,6 +196,8 @@ Advanced defense involves reading the escape attempt before it develops and pree
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Recovery to Guard?</p>
 
 ### 1. Tighten the armpit clamp by dropping your chest weight onto their upper arm while squeezing your elbow against your ribs, then drive your hip pressure deeper into their ribs to restrict bridge power
 
@@ -229,6 +235,8 @@ Advanced defense involves reading the escape attempt before it develops and pree
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Recovery to Guard?</p>
+
 ### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Shut down the extraction at the earliest phase by tightening the armpit clamp when you feel the shoulder rotation, then drive hip pressure into their ribs to deny the bridge. If the arm extraction fails, immediately re-consolidate your pin by resetting your hip angle and chest weight before they can chain into a different escape.
@@ -244,6 +252,8 @@ When the opponent commits to the bridge and begins extracting their elbow, allow
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Recovery to Guard?</p>
 
 ### 1. Reacting only to the arm pull without addressing the bridge that creates the extraction window
 
@@ -278,6 +288,8 @@ When the opponent commits to the bridge and begins extracting their elbow, allow
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Recovery to Guard?</p>
+
 **Week 1-2** - Recognition cue identification
 Partner slowly performs the arm recovery setup sequence (shoulder rotation, foot plant, frame placement) without committing to the bridge. Top player practices identifying each cue verbally and responding with clamp tightening. Focus on developing sensitivity to the subtle shoulder rotation that precedes all other movements. 15-20 repetitions per side.
 
@@ -294,29 +306,6 @@ Full positional sparring from Kuzure Kesa-Gatame where the bottom player uses ar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt Arm Recovery to Guard?
-**A**: The earliest cue is the internal shoulder rotation of the trapped arm, where you feel their palm beginning to turn upward toward the ceiling. This rotation narrows their arm profile for extraction and always precedes the bridge. Recognizing this rotation gives you a one-to-two-second head start to tighten your clamp before they generate bridge power, which is the most effective defensive timing window.
-
-**Q2**: Why is the perpendicular bridge toward your posting leg the most dangerous phase of this escape for the top player?
-**A**: The perpendicular bridge attacks the structural weakness of your base—your posting leg is the primary stability point, and a bridge directed at it creates maximum base disruption with minimum energy. This angular bridge forces a genuine forward weight shift that mechanically loosens the armpit clamp regardless of how strongly you squeeze. The straight-up bridge is far less dangerous because it doesn't attack your base structure and you simply settle back down.
-
-**Q3**: Your opponent bridges hard and you feel your armpit clamp loosening—should you fight to maintain Kuzure Kesa-Gatame or transition?
-**A**: If the bridge has already disrupted your base and the clamp is loosening, fighting to maintain the exact position is often lower-percentage than transitioning. Your best options are: immediately transition to armbar by extending the partially freed arm, or rotate to North-South to deny the guard recovery angle entirely. Stubbornly fighting to maintain a compromised Kuzure Kesa-Gatame often results in losing both the arm control and the passing position when the opponent completes the escape sequence.
-
-**Q4**: How do you distinguish between a genuine arm recovery attempt and a setup for a different escape like the Granby Roll?
-**A**: A genuine arm recovery attempt features internal shoulder rotation, feet planted flat for bridge power, and a free arm frame against your hip—the entire sequence targets the trapped arm as the primary objective. A Granby Roll setup instead shows the opponent turning their face away from you, loading their shoulders to invert, and their free arm reaching across or behind their body rather than framing against your hip. The bridge direction differs too—arm recovery bridges toward your posting leg, while Granby Roll setups bridge toward open space to create inversion room.
-
-**Q5**: What adjustment should you make to your hip pressure when you recognize the arm recovery is being attempted?
-**A**: Drive your hip pressure more aggressively at a 45-degree angle toward their far hip rather than straight down into their ribs. This angular pressure makes their perpendicular bridge less effective because it must overcome both your weight and the redirecting force vector. Simultaneously increase the clamp by contracting your lat to pin their upper arm and dropping your chest weight lower onto the trapped arm. The combination of directional hip pressure and reinforced arm clamp eliminates the momentary weight shift that the bridge is designed to create.
-
-
-
-</section>
 
 
 </main>

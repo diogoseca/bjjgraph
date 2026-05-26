@@ -162,6 +162,8 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape from Mount?</p>
+
 - Opponent turns to their side and places forearm or elbow against your hip or inner thigh, establishing the escape frame
 - Opponent plants one foot flat on the mat with knee bent, indicating preparation for lateral hip movement
 - Opponent's hands shift from defending their neck and collar to pushing on your hip, knee, or thigh area
@@ -174,6 +176,8 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape from Mount?</p>
 
 - Maintain heavy hip pressure centered on opponent's torso to limit their ability to generate effective lateral hip movement
 - Follow the hips immediately - when you feel opponent's hips shift, slide your knees to re-center over their torso before they can insert a knee
@@ -188,6 +192,8 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape from Mount?</p>
 
 ### 1. Follow hips and re-center weight immediately when you feel lateral movement
 
@@ -225,6 +231,8 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape from Mount?</p>
+
 ### → [[Positions/Mount]]
 
 Follow opponent's hip movement immediately by sliding knees to re-center, maintain heavy chest-to-chest pressure, and strip or neutralize their frame before they can chain a second hip escape
@@ -240,6 +248,8 @@ When opponent overcommits to turning during their escape, immediately insert you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape from Mount?</p>
 
 ### 1. Sitting upright in mount without forward pressure when opponent begins hip escape
 
@@ -269,6 +279,8 @@ When opponent overcommits to turning during their escape, immediately insert you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape from Mount?</p>
+
 **Phase 1: Recognition** - Identifying escape cues through tactile sensitivity
 Positional drilling where partner attempts slow elbow escapes while you focus on feeling the frame placement, foot plant, and hip shift cues with eyes closed. Develop automatic recognition of escape direction and timing without visual reliance.
 
@@ -285,29 +297,6 @@ Mount retention positional sparring with three-minute rounds. Set targets for ma
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical cue that signals your opponent is about to attempt an elbow escape?
-**A**: The primary cue is the opponent placing their forearm or elbow against your hip or inner thigh while simultaneously turning their body slightly to one side. This frame establishment is the prerequisite for the hip escape movement. Secondary cues include planting a foot flat on the mat with a bent knee and shifting hands from neck defense to hip-pushing position. Recognizing the frame placement gives you approximately one second to respond before the hip escape begins.
-
-**Q2**: How should you adjust your weight distribution when you feel the opponent begin a hip escape?
-**A**: Drive your hips forward and down while sliding your knees to follow their hip movement direction, closing the gap before they can insert their knee. Your weight should shift toward the direction they are escaping, maintaining chest connection and sprawling your legs back to prevent them from generating power off their planted foot. The sprawl motion flattens your hips against theirs, directly countering their lateral movement with downward pressure.
-
-**Q3**: Your opponent successfully inserts their knee shield - what is your immediate tactical response?
-**A**: Immediately drive your hip into their inserted knee using strong crossface pressure to flatten them and prevent underhook establishment. If you can push their knee back below your hip line before they triangle their legs, you can re-establish full mount. If the half guard is secured, transition to half guard top passing with crossface and underhook rather than forcing a remount, as attempting to jump back to mount typically creates more scramble opportunities for the bottom player.
-
-**Q4**: When is it appropriate to allow a partial escape attempt to set up a submission counter?
-**A**: When you recognize the escape attempt early and can control the framing arm, you can allow partial hip escape while isolating their extended arm for an Americana or transitioning toward an armbar. The key is maintaining absolute control of the arm throughout the sequence and never releasing the limb to re-mount. This bait-and-attack strategy is most effective after you have already threatened other submissions, when the opponent is focused entirely on escaping rather than protecting their arms.
-
-**Q5**: How does grapevining the legs affect the opponent's ability to execute the elbow escape?
-**A**: Grapevines hook your insteps inside the opponent's inner thighs, preventing them from planting their feet flat on the mat. Without a planted foot providing a drive point, the bottom player cannot generate the lateral hip thrust needed for an effective hip escape. This dramatically reduces the power and range of their shrimping movement, making it much easier to follow and re-center. However, grapevines slightly reduce your own ability to post and adjust, so release them when transitioning to submissions that require hip mobility.
-
-
-
-</section>
 
 
 </main>

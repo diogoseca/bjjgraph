@@ -52,11 +52,11 @@
       "relationship": "Ending position - direct result of successful sweep execution"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Follow-up submission when opponent posts to defend sweep"
+      "name": "Kimura Sweep",
+      "relationship": "Follow-up attack when opponent posts to defend sweep, targeting the posted arm"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Alternative attack when opponent's posture is broken but sweep timing is unavailable"
     },
     {
@@ -64,8 +64,8 @@
       "relationship": "Related sweep from closed guard using butterfly hook mechanics as alternative angle"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "High-percentage submission attack available from same broken posture setup"
+      "name": "Guillotine Setup",
+      "relationship": "High-percentage submission setup available from same broken posture position in closed guard"
     },
     {
       "name": "Pass to Side Control",
@@ -216,7 +216,7 @@
         "description": "Execute the sweep during positional sparring from closed guard with full resistance. Practice against opponents of various sizes and skill levels. Focus on recognizing opportunities and maintaining composure under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal angle to create with your body relative to your opponent when setting up the Scissor Sweep?",
         "answer": "Your body should be positioned approximately 45-90 degrees perpendicular to your opponent. This angle is critical because it creates the leverage necessary for the scissoring leg motion to be effective. Being too square to the opponent reduces leverage and makes the sweep much weaker."
@@ -352,7 +352,7 @@
         "correction": "Address both grips systematically. The sleeve grip is arguably more dangerous than the collar grip for sweep defense because it eliminates your primary emergency defense (posting). Strip the sleeve grip first if you must choose, or fight both grips simultaneously using your superior positioning."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first defensive priority when you recognize a Scissor Sweep setup beginning from inside closed guard?",
         "answer": "Your first priority is maintaining or recovering upright posture with your head over your hips. The Scissor Sweep requires your weight to be committed forward, so strong posture is the single most important defensive element. Simultaneously, you should strip the collar grip that is being used to break your posture. Without broken posture, the mechanical advantage of the scissor motion is dramatically reduced and you can defend with base alone."
@@ -381,7 +381,7 @@
         "description": "Partner works through the Scissor Sweep setup at 30% speed while you practice recognizing each stage: grip establishment, guard opening, angle creation, and leg positioning. Focus on maintaining posture and identifying the optimal moment to strip grips. No live sweeping - the goal is pattern recognition and posture maintenance under progressive grip pressure."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Base Maintenance",
+        "phase": "Week 3-4: Grips and Base",
         "focus": "Proactive grip stripping and base adjustments against sweep setups",
         "description": "Partner attempts full Scissor Sweep setups at 50% resistance. Practice stripping both collar and sleeve grips using two-on-one breaks while maintaining your base. Work on widening your knees and lowering your center of gravity the moment you feel the sweep developing. Drill 15-20 defensive sequences per round, resetting after each successful defense or completed sweep."
       },

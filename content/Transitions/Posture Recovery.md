@@ -209,7 +209,7 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 
 - [[Transitions/Guard Recovery from Combat Base]] - Counter technique - what opponent attempts when you successfully recover posture
 
-- [[Submissions/Armbar from Guard]] - Common threat - submission often attempted when posture is broken
+- [[Transitions/Armbar Defense]] - Related defensive skill - armbar defense is frequently needed during posture recovery when arms are exposed
 
 - [[Transitions/Closed Guard to Triangle]] - Common threat - triangle setup that can occur during recovery if arms are exposed
 

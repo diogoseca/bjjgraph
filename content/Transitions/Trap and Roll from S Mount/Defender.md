@@ -162,6 +162,8 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Trap and Roll from S Mount?</p>
+
 - Opponent's feet plant flat on the mat with knees bent, loading their hips for explosive bridging power
 - Free hand reaches toward your controlling wrist or sleeve to establish the arm trap
 - Opponent's near-side leg attempts to hook your far leg that crosses their torso
@@ -174,6 +176,8 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Trap and Roll from S Mount?</p>
 
 - Maintain heavy hip-to-shoulder connection to eliminate the space needed for effective bridging displacement
 - Keep at least one hand ready to post on the mat when sensing bridge initiation from the bottom player
@@ -188,6 +192,8 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Trap and Roll from S Mount?</p>
 
 ### 1. Post free hand on mat and drive hips forward to absorb the bridge
 
@@ -225,6 +231,8 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Trap and Roll from S Mount?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 Maintain heavy hip-to-shoulder pressure, post immediately when sensing bridge, and keep continuous wrist control to prevent any successful trapping or displacement sequence from developing
@@ -240,6 +248,8 @@ If S Mount base becomes compromised during the escape attempt, transition smooth
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Trap and Roll from S Mount?</p>
 
 ### 1. Sitting too high with light hips during S Mount, leaving space under your hip-to-shoulder connection
 
@@ -269,6 +279,8 @@ If S Mount base becomes compromised during the escape attempt, transition smooth
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Trap and Roll from S Mount?</p>
+
 **Phase 1: Pressure Maintenance** - Hip-to-shoulder connection and weight distribution
 Establish S Mount and focus exclusively on maintaining heavy hip pressure while partner attempts to create space. Practice driving weight through the hip connection point and adjusting to micro-movements without lifting or shifting weight unnecessarily.
 
@@ -285,29 +297,6 @@ Full positional sparring from S Mount with partner making genuine escape attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest warning signs that your opponent is preparing a Trap and Roll from S Mount?
-**A**: Watch for feet planting flat on the mat with bent knees — this is the most reliable indicator of bridge preparation. Also monitor their free hand reaching for your controlling wrist and their near leg attempting to hook your far leg. Increased body tension and deeper breathing often precede explosive movement. Recognizing these cues allows you to preemptively increase hip pressure and prepare your posting hand before the bridge initiates.
-
-**Q2**: How should you adjust your weight distribution when you sense a bridge attempt is imminent?
-**A**: Drive your hips forward and down into the opponent's shoulder with maximum pressure while keeping your center of gravity low. Position your free hand ready to post on the mat on the side the opponent is likely to bridge toward. Do not sit upright or lean back, as this reduces your ability to absorb lateral bridging force and makes displacement much easier for the opponent.
-
-**Q3**: What is the correct response if the opponent's bridge partially succeeds and your S Mount base begins to compromise?
-**A**: Rather than fighting to maintain S Mount with a compromised base, immediately transition to regular mount by stepping your leg back over the opponent's head and settling your hips centrally on their torso. Losing S Mount to regular mount is far preferable to losing position entirely. Once in mount, re-establish dominant control and look for another opportunity to return to S Mount when their escape energy is depleted.
-
-**Q4**: How do you capitalize on a failed Trap and Roll attempt to advance your own attacking position?
-**A**: After absorbing the bridge, the opponent has typically expended significant energy and may have momentarily loosened their collar grip during the effort. Immediately tighten your arm control and re-establish hip-to-shoulder pressure. Their temporary fatigue creates an optimal window to extend the arm toward armbar finish or advance to full armbar control. Failed escape attempts often provide exactly the opening you needed to complete the submission sequence.
-
-**Q5**: What grip adjustments should you make to prevent the initial arm trap that begins the escape sequence?
-**A**: Maintain continuous wrist control on the isolated arm while keeping your free hand mobile and ready to post rather than committed to a second grip. If you sense the opponent's free hand reaching for your controlling wrist, switch to a deeper grip — elbow control or bicep grip — that is harder to strip. Use your shin or body position to pin the opponent's free arm and eliminate their ability to initiate the trapping sequence entirely.
-
-
-
-</section>
 
 
 </main>

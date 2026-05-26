@@ -158,13 +158,15 @@ The critical defensive window occurs during the attacker's hip transition phase,
 
 From a strategic perspective, the defender must choose between two competing priorities: protecting the far arm from capture (preventing the upgrade) versus extracting the near arm from the existing leg entanglement (escaping the current position). The optimal approach is to address the most immediate threat first—if the attacker is reaching for the far arm, withdraw it; if the leg entanglement loosens during their adjustment, extract the near arm. Reading the attacker's movement and responding to the actual threat rather than anticipating creates higher escape percentages than committing to a single defensive plan.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Aoki Lock to Crucifix?</p>
 
 - Attacker intensifies Aoki Lock shoulder pressure beyond finishing intent—they are building a reaction rather than trying to tap you
 - Attacker releases one hand from hip control and reaches toward your far arm or upper body
@@ -178,6 +180,8 @@ From a strategic perspective, the defender must choose between two competing pri
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Aoki Lock to Crucifix?</p>
 
 - Keep the far arm tucked tight to the body at all times—deny the second arm capture that creates the crucifix
 - Monitor the attacker's hip rotation as the primary indicator of crucifix transition intent versus submission finish
@@ -194,10 +198,12 @@ From a strategic perspective, the defender must choose between two competing pri
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Aoki Lock to Crucifix?</p>
+
 ### 1. Tuck far arm tight to body and turn toward the attacker, denying the arm capture while creating escape angle
 
 - **When to use**: As soon as you feel the attacker release one hand from hip control or reach toward your far arm
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Attacker cannot complete crucifix transition and must revert to Aoki Lock or abandon the attempt
 - **Risk**: Turning toward attacker may increase shoulder pressure temporarily; manage by keeping shoulder internally rotated
 
@@ -218,7 +224,7 @@ From a strategic perspective, the defender must choose between two competing pri
 ### 4. Post and create base to prevent the attacker's hip transition while maintaining far arm protection
 
 - **When to use**: When attacker begins hip rotation but has not yet captured the far arm
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Strong base prevents hip transition and forces attacker to remain in Aoki Lock configuration
 - **Risk**: Posting arm may become the target for crucifix capture; must be ready to withdraw instantly if attacker redirects
 
@@ -230,7 +236,9 @@ From a strategic perspective, the defender must choose between two competing pri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Aoki Lock]]
+<p class="section-subtitle">What is the best outcome when defending Aoki Lock to Crucifix?</p>
+
+### → [[Positions/Aoki Lock Control]]
 
 Deny the far arm capture by keeping it tucked tight to your body and turning toward the attacker. This forces them to revert to the original Aoki Lock position, which has known escape routes. From here you can work standard Aoki Lock escapes including rolling toward the trapped arm and attacking their posted leg base.
 
@@ -245,6 +253,8 @@ Time your near arm extraction to the attacker's hip transition phase when their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Aoki Lock to Crucifix?</p>
 
 ### 1. Leaving far arm extended or posted on the mat while under Aoki Lock pressure
 
@@ -274,6 +284,8 @@ Time your near arm extraction to the attacker's hip transition phase when their 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Aoki Lock to Crucifix?</p>
+
 **Week 1-2** - Recognition and arm protection
 Partner establishes Aoki Lock and slowly initiates crucifix transition. Focus on recognizing the transition cues (hip rotation, hand release, leg adjustment) and practicing far arm protection. No resistance on the transition itself—just develop recognition and tucking reflexes.
 
@@ -290,29 +302,6 @@ Begin rounds from Aoki Lock top position with attacker choosing between finishin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when you recognize the Aoki Lock to Crucifix transition is being attempted?
-**A**: Protecting the far arm from capture is the single most important priority. The crucifix requires bilateral arm control—without capturing the second arm, the attacker cannot complete the transition and must revert to Aoki Lock. Keep the far arm tucked tight to your body and turn toward the attacker to deny access. Even if the Aoki Lock shoulder pressure is uncomfortable, maintaining far arm protection prevents the catastrophic positional downgrade to crucifix.
-
-**Q2**: When is the optimal moment to attempt near arm extraction during this transition?
-**A**: The optimal moment is during the attacker's hip transition phase, when they rotate from the Aoki Lock shoulder-pressure angle to the perpendicular crucifix alignment. This rotation necessarily shifts their leg position and creates a momentary loosening of the entanglement around your near arm. Time your extraction attempt to this adjustment window rather than fighting against a static, fully tightened hold. You will feel the leg pressure change direction—that is your cue to pull.
-
-**Q3**: Why is recovering to turtle position considered a favorable outcome even though turtle is itself a vulnerable position?
-**A**: Turtle is vastly preferable to crucifix because in turtle you retain the use of both arms for defense, can protect your neck, and have multiple escape pathways including granby rolls, sit-throughs, and technical standups. In crucifix, both arms are trapped, your neck is fully exposed, and escape rates drop below 25% even at advanced levels. Accepting the positional sacrifice to turtle prevents the far worse outcome of consolidated crucifix where submission becomes nearly inevitable.
-
-**Q4**: Your opponent intensifies Aoki Lock pressure before attempting the crucifix—how do you manage both threats simultaneously?
-**A**: Maintain internal shoulder rotation on the trapped arm to resist the Aoki Lock pressure while keeping the far arm tucked tight to deny crucifix capture. Do not sacrifice far arm protection to address shoulder discomfort unless the shoulder lock reaches genuinely dangerous levels. If pressure becomes dangerous, tap—but recognize that the intensified pressure is often bait designed to force a far arm reaction rather than a genuine finishing attempt. Monitor whether the attacker's hips are moving toward you (finishing) or rotating behind you (transitioning).
-
-**Q5**: You attempted to extract your near arm but failed—how do you prevent the attacker from consolidating crucifix?
-**A**: After a failed extraction attempt, immediately re-tuck your far arm and create continuous movement—do not freeze in place. The attacker will try to capitalize on your failed attempt by completing the hip transition while you are momentarily disrupted. Chain into a secondary defense: either attempt a forward roll to create a scramble, or bridge and turn to disrupt their hip positioning. Continuous movement prevents the attacker from settling into the consolidated crucifix configuration even if they have partial control of both arms.
-
-
-
-</section>
 
 
 </main>

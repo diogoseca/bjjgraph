@@ -162,6 +162,8 @@ As the defender against the Sweep from Double Unders, you are the top player who
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Double Unders?</p>
+
 - Bottom player's hands reach past your hips toward your belt, waistband, or behind your back rather than framing against your face and shoulders
 - Bottom player's hips angle to one side or their legs begin extending upward rather than remaining compressed under your pressure
 - Bottom player plants feet on your hips and begins straightening their legs, loading the overhead sweep mechanism
@@ -174,6 +176,8 @@ As the defender against the Sweep from Double Unders, you are the top player who
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Double Unders?</p>
 
 - Maintain awareness of your center of gravity relative to your base throughout forward pressure application, never committing weight beyond recovery range
 - Monitor the bottom player's hand activity constantly since grip acquisition on your belt or hips is the prerequisite for every sweep variant
@@ -188,6 +192,8 @@ As the defender against the Sweep from Double Unders, you are the top player who
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Double Unders?</p>
 
 ### 1. Widen base by posting one hand on the mat and stepping one foot out laterally
 
@@ -225,6 +231,8 @@ As the defender against the Sweep from Double Unders, you are the top player who
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Double Unders?</p>
+
 ### → [[Positions/Side Control]]
 
 When the bottom player commits to a sweep direction and turns their hips, they create a passing lane on the exposed side. Drive through aggressively in the direction they turned, maintaining your underhook on the far side while establishing crossface with your free arm. Their sweep commitment becomes your passing opportunity as their turned hips cannot recover guard structure in time.
@@ -240,6 +248,8 @@ Recognize the sweep setup early through grip monitoring and immediately widen yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Double Unders?</p>
 
 ### 1. Overcommitting forward pressure without maintaining any base for emergency recovery
 
@@ -269,6 +279,8 @@ Recognize the sweep setup early through grip monitoring and immediately widen yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Double Unders?</p>
+
 **Phase 1: Recognition** - Identifying sweep setups from the top position
 Practice maintaining double unders while partner alternates between guard recovery attempts and sweep setups. Focus on recognizing the transition from defensive framing to sweep grip acquisition. Partner signals when they are setting up a sweep so you can develop pattern recognition. No live sweep attempts initially, just recognition drilling.
 
@@ -285,29 +297,6 @@ Positional sparring from double unders with partner fully committed to sweep att
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest indicator that the bottom player is setting up a sweep rather than attempting guard recovery?
-**A**: The earliest indicator is the bottom player's hands moving toward your belt, waistband, or behind your hips rather than framing against your face, neck, or shoulders. Guard recovery attempts use frames that push you away, while sweep setups require grips that pull you in a specific direction. When you feel hands reaching past your hips or gripping your belt, the bottom player has transitioned from defensive escape to offensive reversal. This grip transition should trigger immediate base adjustment or grip stripping before the sweep can be loaded.
-
-**Q2**: How should you adjust your weight distribution when you detect the bottom player loading an overhead sweep?
-**A**: Immediately shift your weight backward and downward by dropping your hips toward the mat and stepping at least one foot back. This moves your center of gravity behind the tipping point that the overhead sweep requires. Simultaneously, tighten your underhook squeeze to compress the bottom player's legs together, which reduces their ability to extend and generate the upward force needed for the overhead motion. The key is moving your center of gravity rearward without releasing underhook control, which means hip adjustment rather than posture change.
-
-**Q3**: When is it tactically advantageous to drive through the sweep attempt rather than defend it?
-**A**: Drive through when the bottom player has committed to a lateral sweep direction and turned their hips, because their hip turn creates a passing lane that did not exist before the sweep attempt. The bottom player's commitment to the sweep means their hips are oriented away from you on one side, making guard retention on that side mechanically impossible. By driving through aggressively on the side they turned away from, you convert their offensive attempt into your passing opportunity. This counter-attack is only safe when the sweep has a clear directional commitment rather than an overhead trajectory.
-
-**Q4**: What is the relationship between your forward pressure intensity and your vulnerability to the overhead sweep?
-**A**: Forward pressure intensity and overhead sweep vulnerability have a direct proportional relationship: the harder you drive forward, the more vulnerable you become to being tipped overhead. Extreme forward stacking pressure moves your center of gravity past your base, creating the exact condition the overhead sweep exploits. The solution is not to reduce pressure, but to apply pressure through body angle and weight placement rather than explosive forward driving. Progressive, controlled pressure allows you to maintain your center of gravity over your base while still generating the stacking force needed for passing. Think of settling weight rather than pushing forward.
-
-**Q5**: How should you respond if the bottom player successfully inserts a butterfly hook during the sweep attempt?
-**A**: When a butterfly hook is inserted, the bottom player has gained a powerful sweeping lever that changes the threat from an overhead sweep to a hook sweep. Immediately address the hook by driving your knee inside their hook to collapse it, or shift your hips laterally away from the hook side to reduce its mechanical advantage. If the hook is established too deeply to collapse, transition your passing approach from double unders to an over-under or leg weave configuration that addresses the hook directly. Do not continue attempting to maintain double unders when a butterfly hook has been successfully inserted, as this creates a high-percentage sweep position for the bottom player.
-
-
-
-</section>
 
 
 </main>

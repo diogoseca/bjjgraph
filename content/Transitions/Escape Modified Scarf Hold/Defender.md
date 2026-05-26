@@ -146,6 +146,8 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Modified Scarf Hold?</p>
+
 - Bottom player's free arm moves from passive positioning to actively wedging forearm against your hip bone with deliberate angle
 - Bottom player turns their hips to create even slight lateral angle rather than remaining flat on their back
 - Sequential small hip movements away from you rather than a single explosive movement, indicating systematic frame-and-shrimp approach
@@ -158,6 +160,8 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Modified Scarf Hold?</p>
 
 - Collapse the free arm frame before it becomes structural - swim past or pin the elbow before the opponent loads the frame against your hip
 - Follow every hip escape with a corresponding pressure adjustment to close space the moment it is created
@@ -172,6 +176,8 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Modified Scarf Hold?</p>
 
 ### 1. Swim past or collapse the free arm frame before it loads against your hip
 
@@ -209,6 +215,8 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Modified Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Modified Scarf Hold]]
 
 Neutralize the escape by collapsing the frame before it establishes structural alignment and following each hip escape with pressure adjustments that close created space. Maintain chest-to-chest contact and tighten near-arm control after each escape attempt. The opponent exhausts energy on unsuccessful frame-and-shrimp cycles while you maintain position with minimal effort.
@@ -224,6 +232,8 @@ When the opponent's hip escape creates lateral separation, ride their movement a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Modified Scarf Hold?</p>
 
 ### 1. Ignoring the free arm frame until it is fully loaded and structural
 
@@ -253,6 +263,8 @@ When the opponent's hip escape creates lateral separation, ride their movement a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Modified Scarf Hold?</p>
+
 **Phase 1: Frame Recognition** - Identifying and neutralizing frame attempts early
 Maintain Modified Scarf Hold while partner slowly establishes hip frames at 25% speed. Practice identifying the frame contact and swimming past or collapsing it before it becomes structural. Develop the habit of monitoring the free arm positioning while maintaining pressure.
 
@@ -266,23 +278,6 @@ Partner works frame escapes at 70% resistance. Practice the decision point: rese
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you should address the opponent's frame attempt from Modified Scarf Hold?
-**A**: Address the frame the moment you feel the opponent's forearm contacting your hip bone, before they establish the structural angle and load their skeletal alignment. Once the frame is fully positioned with proper angle and the opponent's body weight loaded behind it, collapsing it requires significantly more effort and may require releasing chest pressure. Early intervention prevents the frame from ever becoming effective.
-
-**Q2**: How do you maintain Modified Scarf Hold pressure while the opponent executes sequential hip escapes?
-**A**: Stay on your toes with dynamic pressure rather than settling dead weight. Each time the opponent shrimps their hips away, immediately slide your body to follow their movement, maintaining chest-to-chest contact throughout. The key is matching their lateral movement speed with your pressure adjustment speed. Think of your chest as adhered to theirs, moving as a unit. If you fall behind by even one shrimp cycle, the cumulative space becomes difficult to recover.
-
-**Q3**: Your opponent has established a strong hip frame and completed two successful hip escapes - what is your best option?
-**A**: At this point, resettling the original scarf hold configuration requires significant effort against established frames and created space. The better option is to convert the situation by transitioning to mount by stepping over using the space the opponent created, or circling toward north-south to maintain top control from a different angle. Fighting to return to the exact same position the opponent is systematically dismantling is typically lower percentage than advancing to a different dominant position.
-
-
-
-</section>
 
 
 </main>

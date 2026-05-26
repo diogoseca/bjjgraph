@@ -32,7 +32,7 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Underhook depth is the primary control mechanism - shallow underhook compromises all advantages regardless of perspective

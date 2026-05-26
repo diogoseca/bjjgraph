@@ -82,7 +82,7 @@
       "relationship": "Related escape technique - similar grip-breaking principles from standard anaconda"
     },
     {
-      "name": "Dead Orchard to Anaconda Finish",
+      "name": "Anaconda Choke from Dead Orchard",
       "relationship": "Primary threat - submission this escape must prevent"
     },
     {
@@ -252,7 +252,7 @@
         "description": "Full resistance positional sparring starting from dead orchard control bottom. Use the complete escape decision tree: attempt incremental escape first, assess conditions, deploy aggressive escape when appropriate. Track escape success rates and destination positions to evaluate which conditions best predict successful open guard recovery."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "When should you deploy the aggressive escape to open guard rather than continuing the incremental frame-and-shrimp approach?",
         "answer": "Deploy the aggressive escape when the incremental approach has created some angular separation and loosened the grip but stalled after two to three attempts, and the opponent is beginning to re-settle their weight. The prior work has compromised the grip enough for the explosive movement to succeed, but further incremental attempts face diminishing returns. Also deploy when you feel the opponent's weight shift or elevate momentarily, creating a window for the larger movement. Never deploy as the first escape attempt against a fully locked grip."
@@ -369,7 +369,7 @@
         "correction": "Drive hips down and forward during the sprawl, pinning the bottom player's shoulders to the mat with chest weight. The counter is about flattening, not about elevating your own center of gravity."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for countering the granby roll escape attempt?",
         "answer": "The critical window is during the loading phase when the bottom player shifts weight to their shoulders and draws knees toward their chest. This is the one to two second preparation phase before the roll itself begins. Once the rolling momentum starts, stuffing it requires significantly more force and energy. By sprawling and driving chest pressure forward during the loading phase, you pin their shoulders flat and remove the mechanical foundation the granby requires."

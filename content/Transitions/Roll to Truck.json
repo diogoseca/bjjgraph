@@ -51,8 +51,8 @@
       "relationship": "Primary submission from truck position"
     },
     {
-      "name": "Calf Slicer from Truck",
-      "relationship": "Secondary submission attacking trapped leg"
+      "name": "Calf Slicer",
+      "relationship": "Secondary submission attacking trapped leg from truck"
     },
     {
       "name": "Banana Split",
@@ -229,7 +229,7 @@
         "description": "Incorporate into live rolling from turtle top position. Work on setting up buggy choke pressure that forces granby attempts, then capitalizing with roll to truck. Adjust based on resistance and counter-attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that initiates the Roll to Truck transition?",
         "answer": "The trigger is recognizing the opponent's commitment to granby roll escape or defensive rotation away from buggy choke pressure. This is felt through their hip movement away from you combined with shoulder dipping toward the mat. The roll should only be initiated after this commitment is clear, never forced on a static opponent."
@@ -358,7 +358,7 @@
         "correction": "Address boot control and upper body grips that you can see and reach efficiently—do not twist further into the position to reach behind you"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action when you find yourself in truck after a failed granby escape?",
         "answer": "Clear boot control immediately. The boot (attacker's foot pressed against your hip) is the foundation of all truck attacks. Without boot pressure, the attacker cannot generate torque for twister, maintain leg entanglement, or prevent you from squaring up. Use both hands to fight the boot off your hip before addressing leg entanglement or upper body grips."

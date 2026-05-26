@@ -146,6 +146,8 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Re-pull Half Guard from Dogfight?</p>
+
 - Bottom player's forward driving pressure through the underhook suddenly decreases or they begin pulling their underhook arm back toward their body
 - Bottom player posts their outside hand behind their hip or on the mat, creating a support structure for a controlled descent rather than maintaining offensive grips
 - Bottom player's head drops below your head level as they begin lowering their center of gravity, signaling the initiation of downward movement
@@ -158,6 +160,8 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Re-pull Half Guard from Dogfight?</p>
 
 - Follow the retreat immediately—close distance before the bottom player can insert frames and establish defensive guard structure during their descent
 - Drive chest-to-chest pressure through their frame attempts, using weight and shoulder pressure to prevent the knee shield from fully deploying
@@ -172,6 +176,8 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Re-pull Half Guard from Dogfight?</p>
 
 ### 1. Drive forward through the frame attempt with chest and shoulder pressure, preventing knee shield deployment
 
@@ -209,6 +215,8 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Re-pull Half Guard from Dogfight?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Follow the bottom player's descent immediately with chest and shoulder pressure before they can insert knee shield or establish side angle. Drive your crossface shoulder into their jaw while sinking your weight through your hips into their torso, pinning them flat on their back without defensive frames.
@@ -224,6 +232,8 @@ Capitalize on the transitional loosening of the leg entanglement during the desc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Re-pull Half Guard from Dogfight?</p>
 
 ### 1. Allowing the bottom player space to insert frames by not following their retreat with immediate forward pressure
 
@@ -253,6 +263,8 @@ Capitalize on the transitional loosening of the leg entanglement during the desc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Re-pull Half Guard from Dogfight?</p>
+
 **Phase 1: Recognition Drilling** - Identifying re-pull initiation cues
 Partner alternates between continuing dogfight offense and initiating the re-pull. Top player calls out the moment they detect re-pull cues without physically responding. Develops pattern recognition for the posting hand, pressure decrease, and head drop that signal the retreat. Practice 20 repetitions per round to build automatic recognition.
 
@@ -269,23 +281,6 @@ Full resistance positional sparring starting in dogfight. Bottom player mixes sw
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt a re-pull to half guard?
-**A**: The earliest cue is the decrease in forward driving pressure through their underhook combined with their outside hand posting behind their hip on the mat. This posting hand is the setup for a controlled descent and appears before the knee shield insertion or any downward movement. Recognizing this cue gives you the maximum time to react with forward pressure before the re-pull mechanics are initiated. Secondary cues include their head dropping below your head level and their body weight shifting rearward.
-
-**Q2**: Why is the transitional moment during the re-pull your best opportunity to advance position?
-**A**: During the descent from kneeling to supine, the bottom player is between two organized positions. They have abandoned the structural integrity of the dogfight kneeling posture but have not yet established the frames and distance management of organized half guard. Their leg entanglement naturally loosens as their body configuration changes, their hands are occupied with posting and frame insertion rather than defending grips, and their attention is divided between controlling the descent and establishing the new position. This two to three second window represents the most vulnerable phase where immediate pressure can prevent frame establishment.
-
-**Q3**: Your opponent begins re-pulling to half guard but successfully inserts their knee shield before you can close the gap. What is your response?
-**A**: Immediately apply shoulder pressure into the knee shield while maintaining crossface control to prevent them from angling to their side. From this position, begin working to strip the knee shield by swimming your arm inside their shin frame and pushing their knee toward the mat. Alternatively, use a knee slice angle to bypass the shield by stepping your trapped leg over and cutting your knee through the gap between their knee shield and their bottom leg. Do not back away from the shield—maintain constant forward pressure while systematically dismantling it.
-
-
-
-</section>
 
 
 </main>

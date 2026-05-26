@@ -188,6 +188,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Stand Up to Single Leg?</p>
+
 - Maintain strong base and posture throughout the standup sequence before committing to the attack
 - Create distance with frames to prevent opponent from collapsing your structure during the rise
 - Time the single leg entry during the opponent's weight adjustment as they transition from ground control to standing
@@ -203,6 +205,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Stand Up to Single Leg?</p>
+
 - Starting from turtle bottom, seated guard, or bottom position where standup is viable
 - At least one hand posted firmly on the mat for base with elbow locked and shoulder packed
 - Opponent's weight not fully committed forward with both hooks and harness control established
@@ -216,6 +220,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Stand Up to Single Leg step by step?</p>
 
 1. **Establish posting hand**: From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Position your posting arm slightly behind your hip line to prevent being driven forward. Your other hand should be actively framing against opponent's head, shoulder, or hip to create separation.
 2. **Extend lead leg to posting position**: Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly offline to create an angle that makes it harder for them to drive you back down.
@@ -246,6 +252,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Stand Up to Single Leg?</p>
+
 - **Opponent sprawls hard with hips back and weight down on your shoulders** (Effectiveness: High) - Your Response: Switch immediately to ankle pick by releasing upper grip, grabbing their far ankle, and pulling while driving shoulder into their knee. Alternatively, sit through to Single Leg X-Guard by threading your legs around their trapped leg as you drop your hips underneath them. → Leads to [[Positions/Turtle]]
 - **Opponent crossfaces and drives you down during standup phase** (Effectiveness: High) - Your Response: Abandon standup temporarily and return to turtle defense or pull half guard. Use their forward pressure to execute a sit-through or granby roll. Never force the standup against heavy crossface pressure as it exposes your back and neck to front headlock attacks. → Leads to [[Positions/Turtle]]
 - **Opponent circles away and disengages to avoid the single leg** (Effectiveness: Medium) - Your Response: Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms. → Leads to [[Positions/Clinch]]
@@ -258,6 +266,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Stand Up to Single Leg?</p>
 
 ### 1. Rising too quickly without establishing proper base on posting hand and foot
 
@@ -297,6 +307,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Stand Up to Single Leg (Attacker)?</p>
+
 **Phase 1: Isolated Movement Patterns** - Technical standup mechanics without opposition
 Practice technical standup from turtle, seated, and butterfly positions without a partner resisting. Focus on proper hand posting with locked elbow, foot placement with vertical shin, and smooth rising mechanics. Perform 20-30 repetitions per session alternating sides until the base-to-standing motion becomes automatic and fluid.
 
@@ -320,48 +332,12 @@ Practice the sequence across different rulesets: with gi grips where collar and 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must your head be positioned on the outside of the opponent's body during the single leg entry?
-**A**: Outside head position prevents guillotine, darce, and front headlock submissions by keeping your neck away from their near arm. When your head is inside, your neck is immediately accessible and opponent can wrap your head to create choking threats. Outside position also allows you to drive through their hips more effectively using your shoulder as a wedge against their thigh, and it makes crossface pressure against you mechanically difficult.
-
-**Q2**: What is the optimal timing window for transitioning from technical standup to single leg entry?
-**A**: The optimal window is the moment the opponent steps forward to re-engage after you have established a standing position. This forward step loads their weight onto the lead leg, reducing their ability to sprawl or circle away. If you attack too early while still rising, you lack the base and explosiveness for proper penetration. If you wait too long, the opponent establishes their own grips, stance, and defensive posture, making the entry significantly harder to execute.
-
-**Q3**: Your opponent sprawls hard and you cannot complete the single leg - what are your immediate chain options?
-**A**: Chain immediately rather than stalling in a sprawled position. Primary options: switch to ankle pick by releasing upper grip and securing the ankle while driving shoulder into their knee; thread your legs into Single Leg X-Guard by dropping hips underneath their sprawled leg; convert to double leg if second leg is accessible; or pull butterfly guard to reset with offensive initiative. The key is maintaining forward pressure and attacking initiative rather than allowing them to consolidate the sprawl into a front headlock.
-
-**Q4**: What structural elements make the technical standup safe against forward driving pressure from the top player?
-**A**: The posted hand with locked elbow creates a structural brace that redirects forward pressure into the ground through skeletal alignment rather than muscular effort. The extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head, creating separation distance. Keeping the back straight and head up maintains spinal integrity. These combined elements create a structure that can absorb the opponent's pressure without collapsing.
-
-**Q5**: Why is gripping behind the knee more effective than gripping above the knee in the single leg?
-**A**: Lower grip position behind the knee provides superior mechanical control because it controls the joint directly, limiting the opponent's ability to hop, post, or kick free. The knee has restricted range of motion when compressed from behind, making extraction difficult. A lower grip also creates a shorter lever arm, making it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee.
-
-**Q6**: When should you abandon the technical standup attempt entirely and choose a different escape strategy?
-**A**: Abandon when the opponent has established both hooks and harness control from back mount, when strong crossface pressure breaks your posting structure repeatedly, when they are attacking submissions that require immediate defense such as a locked rear naked choke, or when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control.
-
-**Q7**: Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?
-**A**: The whizzer commits their weight and balance to one side, creating predictable force you can exploit. Circle toward their whizzer side, using their overhook commitment to gain angle behind them for a back take. Alternatively, release your inside grip and convert to an outside trip on their far leg while they are focused on driving the whizzer. A third option is to drop your hips and thread into Single Leg X-Guard underneath their whizzer pressure, as their forward lean makes it difficult to retract and defend the guard entry.
-
-**Q8**: How does your penetration step depth affect the success rate of the single leg entry?
-**A**: Penetration depth is the single most important factor in single leg success. A deep penetration step places your lead foot between or past the opponent's feet, putting your shoulder against their thigh with your chest glued to their leg. This depth makes sprawling ineffective because you are already underneath their center of gravity. A shallow step leaves you exposed with your head forward and hips back, making sprawls devastating and guillotines easily accessible. The trailing knee should touch or nearly touch the mat to confirm sufficient depth.
-
-**Q9**: What specific body cues from your opponent signal that now is the moment to initiate the single leg entry?
-**A**: Watch for the opponent stepping their lead foot forward to close distance, which loads weight onto that leg and reduces their sprawl ability. A reach with their arms toward your head or collar creates upper body commitment that delays hip defense. Flat-footed stance rather than being on the balls of their feet indicates slower reaction time. Any moment where their weight shifts forward over their toes rather than sitting back in their hips creates an optimal entry window because they cannot retreat fast enough to sprawl.
-
-**Q10**: If your single leg attempt transitions into a scramble where neither player has clear position, what should your priorities be?
-**A**: In a scramble from a failed single leg, your priorities are: first, protect your neck and head position since front headlock and guillotine are the most common scramble submissions; second, fight for underhook position on at least one side as this controls the pummeling exchange; third, work to get your hips underneath the opponent for any form of guard retention rather than allowing them to establish top pressure; fourth, if you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Stand Up to Single Leg?</p>
 
 When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats.
 

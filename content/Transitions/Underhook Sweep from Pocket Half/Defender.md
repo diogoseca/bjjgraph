@@ -162,6 +162,8 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Sweep from Pocket Half?</p>
+
 - Bottom player hip escapes slightly to create an angle, shifting their hips away from you and toward their underhook side
 - Bottom player's free arm begins posting on the mat (elbow or hand) as the first stage of the come-up
 - Increased pulling pressure from the underhook as the bottom player attempts to load your weight over their trapped leg
@@ -174,6 +176,8 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Sweep from Pocket Half?</p>
 
 - Never commit excessive forward pressure when the opponent has a deep underhook - forward weight is the fuel that powers this sweep
 - Maintain wide base with at least one leg posted to prevent being toppled by the come-up drive
@@ -188,6 +192,8 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Sweep from Pocket Half?</p>
 
 ### 1. Establish a deep whizzer on the underhook arm and sprawl hips back
 
@@ -225,6 +231,8 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Sweep from Pocket Half?</p>
+
 ### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Establish a deep whizzer early when you feel the underhook deepening, then sprawl your hips back and flatten the opponent with chest pressure. The whizzer neutralizes the underhook pulling force while the sprawl removes the forward momentum needed for the come-up.
@@ -240,6 +248,8 @@ When the bottom player attempts the hip escape to create their come-up angle, us
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Sweep from Pocket Half?</p>
 
 ### 1. Driving forward with heavy pressure when the opponent has a deep underhook established
 
@@ -269,6 +279,8 @@ When the bottom player attempts the hip escape to create their come-up angle, us
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Sweep from Pocket Half?</p>
+
 **Phase 1: Cue Recognition** - Identifying sweep setup indicators
 Partner performs the sweep setup in slow motion while you practice identifying each recognition cue: the hip escape, the elbow post, the increased underhook pull, the head drive. Call out each cue as you recognize it. No defensive action yet, pure pattern recognition. 3-minute rounds.
 
@@ -285,29 +297,6 @@ Full positional sparring from pocket half guard top. Partner attacks with underh
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the underhook sweep is being initiated?
-**A**: The earliest cue is the bottom player performing a slight hip escape to create an angle away from you. This hip escape is the prerequisite for building to the posting elbow. Before the hip escape, the sweep cannot be initiated because there is no space to rise. Recognizing and shutting down this initial angle creation is the most efficient point to stop the sweep, requiring far less effort than stopping a sweep that is already in the come-up phase.
-
-**Q2**: Why is driving forward pressure dangerous when your opponent has a deep underhook in pocket half guard?
-**A**: Forward pressure shifts your center of gravity over the opponent's trapped leg side, which is exactly the direction the sweep attacks. The deep underhook converts your forward momentum into pulling force that tips you over their body. The more you drive forward, the more energy you provide for the come-up sweep. This is the fundamental dilemma of pocket half guard top - pressure feeding sweeps while lack of pressure allows back takes and offensive transitions.
-
-**Q3**: Your opponent has reached the elbow post and is beginning the hip thrust - what is your best defensive response?
-**A**: At this stage, prevention has failed and you must resist the sweep in progress. Immediately base out wide with your free leg posted far to the side while driving your whizzer arm down to pin their underhook arm. Lower your center of gravity by dropping your hips. If you can stall the sweep at this point, the bottom player will be in an awkward dogfight-like position where you can re-settle your weight and work to flatten them. Do not try to drive forward as this accelerates the sweep.
-
-**Q4**: How should your base differ when defending against the underhook sweep versus maintaining standard pocket half guard top pressure?
-**A**: Standard pocket half guard top pressure uses a narrow, forward-weighted base to flatten the opponent. When defending the underhook sweep specifically, you need to widen your base laterally with your free leg posted out and shift your weight slightly back rather than forward. This creates a wider triangle of support that resists the lateral toppling force of the sweep. The trade-off is reduced flattening pressure, which is why actively stripping the underhook is preferable to passively defending in a widened base.
-
-**Q5**: What passing opportunities open up when the opponent commits to the underhook sweep attempt?
-**A**: When the opponent commits to the come-up, their focus shifts from guard retention to generating sweep power. This creates passing opportunities because they relax their leg lock and pocket frame to redirect energy into the come-up. If you successfully stuff the sweep with a whizzer and sprawl, you can immediately capitalize by driving a knee slice through their compromised half guard. Their failed sweep attempt often leaves their guard structure weakened and their energy depleted, creating a window for aggressive passing.
-
-
-
-</section>
 
 
 </main>

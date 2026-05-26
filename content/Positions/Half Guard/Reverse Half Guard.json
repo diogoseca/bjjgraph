@@ -90,7 +90,7 @@
       "Use the threat of back control to force opponent into defensive reactions that open passing lanes",
       "Work methodically to extract trapped leg while maintaining positional dominance"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary strategic decision you must make immediately upon achieving reverse half guard top?",
         "answer": "You must immediately choose between pursuing the back take or completing the guard pass. This position is a decision point, not a control position. Hesitation allows the bottom player to recover their defensive structure. If they turn toward you, take the back; if they flatten away, complete the pass to side control."
@@ -353,7 +353,7 @@
       "Hip Mobility: Use hip rotation and movement to create sweep angles and back take opportunities through explosive directional changes",
       "Transition Readiness: Recognize this as transitional position requiring quick offensive action rather than sustained defensive holding"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical element for maintaining the reverse half guard position?",
         "answer": "Secure leg control is the most critical element. You must maintain tight clamping on the opponent's trapped leg using both of your legs with constant active tension. Without strong leg control, the opponent extracts their leg and passes immediately. Use hip pressure and continuous squeezing to prevent any space for leg removal."
@@ -537,7 +537,7 @@
         "relationship": "Related half guard variation with inverted elements"
       },
       {
-        "name": "Scramble Position",
+        "name": "Standing Position",
         "relationship": "Transitional state where reverse half commonly occurs"
       }
     ],

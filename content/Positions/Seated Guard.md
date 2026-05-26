@@ -32,7 +32,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Seated Guard is transitional not static - constant movement required
@@ -80,7 +80,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Key Principles
 
 
-- Active Base Maintenance: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you
+- Active Base: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you
 
 - Distance Management: Feet actively control spacing - too close allows chest pressure, too far limits offensive options
 
@@ -175,8 +175,6 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (38% of attempts)
-
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
@@ -193,7 +191,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 - **[[Transitions/Knee Slice from Seated Guard/Attacker|Knee Slice from Seated Guard]]** (0% of attempts)
 
-- **[[Transitions/Toreando Pass from Seated Guard/Attacker|Toreando Pass from Seated Guard]]** (1% of attempts)
+- **[[Transitions/Toreando Pass from Seated Guard/Attacker|Toreando Pass from Seated Guard]]** (39% of attempts)
 
 
 ### Common Mistakes

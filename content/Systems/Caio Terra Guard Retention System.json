@@ -12,11 +12,11 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "overview": "The Caio Terra Guard Retention System represents one of the most comprehensive defensive frameworks in modern Brazilian Jiu-Jitsu. Developed by multiple-time world champion Caio Terra, this system emphasizes intelligent guard retention through superior hip movement, precise frame management, and systematic recovery sequences. Unlike reactive defensive approaches, Terra's methodology treats guard retention as an active skill that can be trained, refined, and mastered through deliberate practice.\n\nAt its core, the system operates on the principle that maintaining guard is far more energy-efficient than recovering guard or escaping from inferior positions. Terra's approach breaks down guard retention into distinct phases: initial contact management, mid-range retention, and emergency recovery. Each phase has specific technical requirements, movement patterns, and decision trees that practitioners must internalize. The system is particularly effective against pressure passing styles, as it provides clear answers to common passing attacks while maintaining offensive opportunities.\n\nWhat distinguishes Terra's system from traditional guard retention is its emphasis on connection management and systematic recovery loops. Rather than simply blocking or stiff-arming opponents, practitioners learn to manipulate connections, create angles, and use precise hip movements to continuously reset guard positions. The system integrates seamlessly with various guard styles\u2014from closed guard to open guard variations\u2014making it universally applicable regardless of a practitioner's preferred guard game.",
+  "overview": "The Caio Terra Guard Retention System represents one of the most comprehensive defensive frameworks in modern Brazilian Jiu-Jitsu. Developed by multiple-time world champion Caio Terra, this system emphasizes intelligent guard retention through superior hip movement, precise frame management, and systematic recovery sequences. Unlike reactive defensive approaches, Terra's methodology treats guard retention as an active skill that can be trained, refined, and mastered through deliberate practice.\n\nAt its core, the system operates on the principle that maintaining guard is far more energy-efficient than recovering guard or escaping from inferior positions. Terra's approach breaks down guard retention into distinct phases: initial contact management, mid-range retention, and emergency recovery. Each phase has specific technical requirements, movement patterns, and decision trees that practitioners must internalize. The system is particularly effective against pressure passing styles, as it provides clear answers to common passing attacks while maintaining offensive opportunities.\n\nWhat distinguishes Terra's system from traditional guard retention is its emphasis on connection management and systematic recovery loops. Rather than simply blocking or stiff-arming opponents, practitioners learn to manipulate connections, create angles, and use precise hip movements to continuously reset guard positions. The system integrates seamlessly with various guard styles—from closed guard to open guard variations—making it universally applicable regardless of a practitioner's preferred guard game.",
   "key_principles": [
-    "Hip movement is the foundation of all guard retention\u2014constant motion prevents opponent consolidation",
+    "Hip movement is the foundation of all guard retention—constant motion prevents opponent consolidation",
     "Frames must be dynamic and angle-based, not static strength-based structures",
-    "Connection breaking precedes position recovery\u2014eliminate opponent grips before restructuring guard",
+    "Connection breaking precedes position recovery—eliminate opponent grips before restructuring guard",
     "Guard retention is a continuous loop, not a single defensive moment",
     "Emergency recovery sequences must be practiced as extensively as offensive techniques",
     "Proper distance management prevents passes before they fully develop",
@@ -288,9 +288,9 @@
       "relationship": "Half guard variation emphasizing frame-based retention with knee shield structure"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Arm Recovery to Guard",
       "content_type": "Transition",
-      "relationship": "Core transition technique for recovering guard structure after partial pass attempts"
+      "relationship": "Core recovery transition for re-establishing guard structure after partial pass attempts"
     },
     {
       "name": "Hip Escape to Guard",
@@ -318,9 +318,9 @@
       "relationship": "Advanced retention recovery technique for desperate guard replacement scenarios"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Back Door Escape",
       "content_type": "Transition",
-      "relationship": "Family of techniques for returning to guard from compromised positions"
+      "relationship": "Recovery technique for escaping compromised positions and returning to guard"
     },
     {
       "name": "Elbow Escape to Guard",
@@ -328,39 +328,39 @@
       "relationship": "Alternative hip escape method used in retention when opponent controls near-side space"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Core principle that this system operationalizes into specific techniques and sequences"
+      "relationship": "Core defensive principle that this system operationalizes into specific retention techniques and sequences"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Fundamental defensive principle applied throughout retention system"
     },
     {
-      "name": "Connection Breaking",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Critical principle for eliminating opponent control during retention battles"
+      "relationship": "Critical principle governing grip management and connection breaking during retention battles"
     },
     {
-      "name": "Defensive Framing",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Structural principle for creating barriers and managing distance"
+      "relationship": "Structural principle for creating barriers and recovering position through systematic escapes"
     },
     {
-      "name": "Space Management",
+      "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Foundational principle for controlling distance and preventing position consolidation"
+      "relationship": "Foundational principle for controlling distance and preventing opponent position consolidation"
     },
     {
-      "name": "Frame Management",
+      "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Strategic principle for optimizing frame placement, timing, and energy efficiency"
+      "relationship": "Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Meta-principle explaining how individual techniques combine into coherent defensive system"
+      "relationship": "Meta-principle explaining how individual techniques combine into coherent defensive sequences"
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",

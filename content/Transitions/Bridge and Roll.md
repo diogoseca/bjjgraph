@@ -215,9 +215,9 @@ The Bridge and Roll escape is the foundational technique in the mount escape hie
 
 - [[Positions/Closed Guard]] - Typical ending position after successful escape with escaper landing as top player
 
-- [[Submissions/Americana from Mount]] - Common submission threat that creates arm trapping opportunity when defended
+- [[Submissions/Americana]] - Common submission threat from mount that creates arm trapping opportunity when defended
 
-- [[Submissions/Armbar from Mount]] - Submission threat when escape timing is poor or arms are extended
+- [[Transitions/Mount to Armbar]] - Submission setup threat when escape timing is poor or arms are extended
 
 - [[Transitions/Frame and Shrimp to Guard]] - Preparatory movement for creating space before escape attempt
 

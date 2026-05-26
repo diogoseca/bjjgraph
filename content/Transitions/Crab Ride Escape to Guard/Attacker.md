@@ -194,6 +194,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crab Ride Escape to Guard?</p>
+
 - Protect the neck first before attempting any escape movement - sacrificing neck safety for positional escape creates worse outcomes than remaining in crab ride
 - Address the hook before rotating the hips - attempting to turn without stripping the hook allows the opponent to follow your rotation and maintain or advance control
 - Turn into the opponent rather than away from them - rotating toward the crab ride player establishes guard, while turning away exposes the back and invites full back control
@@ -208,6 +210,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crab Ride Escape to Guard?</p>
+
 - Neck defense secured with chin tucked and at least one hand controlling the opponent's upper body choking arm or collar grip
 - Base maintained on at least one posting hand and both knees, preventing complete flattening to the mat surface
 - Opponent's crab ride hook is identifiable and accessible for stripping through the same-side hand
@@ -220,6 +224,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crab Ride Escape to Guard step by step?</p>
 
 1. **Secure Neck Defense**: Before initiating any escape movement, tuck your chin firmly against your chest and use your top-side hand to control the opponent's upper body grip or choking hand. Cup their wrist or forearm to prevent rear naked choke or collar grip establishment. This defensive hand position must be maintained throughout the early escape phases.
 2. **Identify and Grip the Hook**: Locate the opponent's hooking foot that is inserted under your hip or thigh area. Use your same-side hand to reach down and grip the ankle or heel from the inside, getting your fingers behind the heel for a strong stripping grip. Do not pull the hook yet - first establish a secure control point while maintaining neck defense with the other hand.
@@ -251,6 +257,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crab Ride Escape to Guard?</p>
+
 - **Opponent deepens hook and increases chest pressure when they feel stripping attempts on the hooking foot** (Effectiveness: High) - Your Response: Pause the strip, re-establish neck defense, and wait for the next grip adjustment or weight shift before attempting again. Use intermittent pressure on the hook rather than constant pulling to prevent the opponent from bracing against a predictable force direction. → Leads to [[Positions/Crab Ride]]
 - **Opponent releases crab ride and transitions to seatbelt grip with second hook insertion when rotation creates space** (Effectiveness: High) - Your Response: If you feel the second hook coming, immediately accelerate the rotation and pull the opponent into guard before both hooks are established. The transition window between crab ride and full back control is your last opportunity - commit fully to the guard pull rather than trying to block the second hook. → Leads to [[Positions/Back Control]]
 - **Opponent sprawls heavy weight onto your upper back when you begin the turning sequence** (Effectiveness: Medium) - Your Response: Use the sprawl pressure to flatten slightly then redirect by shooting your hips laterally rather than rotating. Create an angle change that disrupts the sprawl alignment, then resume the rotation from the new angle where their weight distribution is no longer optimal. → Leads to [[Positions/Crab Ride]]
@@ -262,6 +270,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crab Ride Escape to Guard?</p>
 
 ### 1. Attempting to escape without first securing neck defense by tucking chin and controlling the opponent's choking hand
 
@@ -301,6 +311,8 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crab Ride Escape to Guard (Attacker)?</p>
+
 **Phase 1: Hook Strip Mechanics** - Isolating the hook stripping motion with proper hand placement and hip coordination
 Partner establishes crab ride with one hook at 30% resistance. Practice locating the hook, establishing the stripping grip, and combining hand pull with hip movement to remove the hook. Perform 20 repetitions per side, focusing on efficient mechanics rather than speed. Progress to 50% resistance once the stripping motion is consistent.
 
@@ -318,36 +330,12 @@ Positional sparring starting from crab ride with both players at full resistance
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to strip the crab ride hook during this escape?
-**A**: The best timing is when the opponent adjusts their upper body grips or shifts weight forward to threaten a choke or complete the back take. These transitional moments require the opponent to redistribute their attention and physical resources, temporarily reducing the active force maintaining hook depth. Feel for moments when the chest pressure lightens or when the opponent's hands move to new grip positions - these are your highest-percentage windows for the strip.
-
-**Q2**: What conditions must be established before initiating the hip rotation phase of the escape?
-**A**: Three conditions must be satisfied: neck defense must be secured with chin tucked and choking hand controlled, the crab ride hook must be stripped or significantly loosened so it cannot follow your rotation, and you must have at least one hand free to post for base during the turn. Attempting rotation without all three creates vulnerability to back take or submission. Of these three, hook neutralization is the most commonly skipped, resulting in the opponent riding the turn directly into back control.
-
-**Q3**: Why must you turn toward the opponent rather than away during the escape rotation?
-**A**: Turning toward the opponent places your legs between your bodies, which is the foundation of guard position. Turning away exposes your back and creates the exact angle the opponent needs to complete the back take with hooks and seatbelt. Additionally, turning toward them shortens the distance your legs need to travel to establish guard contact, while turning away lengthens it. The biomechanical principle is that rotation toward creates defensive barriers while rotation away removes them.
-
-**Q4**: What happens if you attempt to rotate before successfully stripping the crab ride hook?
-**A**: The hook follows your rotation because it remains anchored under your hip. As you turn, the opponent's hooking leg naturally transitions from a crab ride hook into a back control hook with minimal adjustment needed on their part. You effectively complete the back take for your opponent by providing the rotation they needed to insert the hook fully. This is the single most common failure mode of this escape and why the hook-then-turn sequence must be strictly maintained.
-
-**Q5**: What grip configuration allows you to simultaneously protect your neck and address the hook?
-**A**: Your top-side hand cups the opponent's wrist or forearm on their choking side, maintaining neck defense by preventing them from securing a collar grip or rear naked choke position. Your bottom-side hand then reaches to grip the hooking foot's ankle or heel from the inside. This division of labor means each hand has one critical job. If both hands go to the hook, you lose neck defense. If both stay on defense, you never address the hook. The split allows parallel progress on both requirements.
-
-**Q6**: Your opponent deepens their hook and drives heavy chest pressure as you begin the escape sequence - how do you adjust?
-**A**: Pause the hook strip and return to a strong defensive turtle posture with both hands protecting the neck. Do not fight the deepened hook against maximum resistance. Instead, wait for the opponent's next adjustment - they cannot maintain maximum hook pressure and simultaneously advance their upper body attacks. When they shift focus to grips or choke setups, the hook pressure naturally decreases. Use these fluctuations to make incremental progress on the strip rather than committing to one sustained effort against peak resistance.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crab Ride Escape to Guard?</p>
 
 This escape involves significant spinal rotation and neck protection must be maintained throughout all phases. Never sacrifice neck defense for positional escape, as rear naked choke or neck crank risks are present throughout the movement. The hip rotation phase places stress on the lower back and knees, so practitioners with pre-existing lumbar or knee injuries should modify the turning mechanics to reduce joint stress. Always tap immediately if the opponent secures a choke during escape attempts. When drilling, communicate clearly with training partners about resistance levels, particularly during the hook stripping phase where aggressive stripping against a resistant hook can torque the ankle or knee of the top player.
 

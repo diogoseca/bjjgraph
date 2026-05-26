@@ -156,13 +156,15 @@ Defending the Bullfighter Pass requires understanding that this is fundamentally
 
 The most common defensive failure against the Bullfighter Pass is allowing the passer to control both legs simultaneously without contesting their grips. When both your knees are gripped and pushed together, your hip mobility is severely compromised. Prioritize grip fighting to deny bilateral leg control, and use your feet actively on their hips and biceps to create distance barriers that must be addressed before the pass can begin.
 
-**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Bullfighter Pass?</p>
 
 - Opponent stands up in your open guard and grips both of your pants at the knees or shins with thumbs facing inward
 - Opponent pushes your knees together and toward your chest, compressing your guard and limiting hip mobility
@@ -176,6 +178,8 @@ The most common defensive failure against the Bullfighter Pass is allowing the p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bullfighter Pass?</p>
 
 - Never allow bilateral leg control without contesting grips - fight to strip at least one hand from your legs immediately
 - Follow the passer's lateral movement with your hips, keeping your knees pointed at their chest at all times
@@ -191,6 +195,8 @@ The most common defensive failure against the Bullfighter Pass is allowing the p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bullfighter Pass?</p>
 
 ### 1. Hip follow and knee shield recovery: as passer steps laterally, rotate your hips to track their movement and insert your near knee across their hip line as a shield
 
@@ -228,6 +234,8 @@ The most common defensive failure against the Bullfighter Pass is allowing the p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bullfighter Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the passer's grips early through aggressive two-on-one grip breaks and immediately re-establish feet on hips or insert De La Riva hooks. Force the passer to restart their grip sequence. Maintain active hip movement and feet as barriers throughout, never allowing them to settle into bilateral leg control. Chain grip breaks with guard transitions to stay one step ahead of their passing attempts.
@@ -243,6 +251,8 @@ If the passer commits heavily to lateral movement, use their momentum against th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bullfighter Pass?</p>
 
 ### 1. Lying flat on back with hips glued to the mat during the passing attempt
 
@@ -277,7 +287,9 @@ If the passer commits heavily to lateral movement, use their momentum against th
 
 ## Training Progressions
 
-**Week 1-2: Recognition and Grip Fighting** - Identifying toreando setup cues and contesting leg grips
+<p class="section-subtitle">How do you train defense against Bullfighter Pass?</p>
+
+**Week 1-2: Recognition and Grips** - Identifying toreando setup cues and contesting leg grips
 Partner establishes toreando grips at various intensities while you practice recognizing the bilateral grip pattern and executing two-on-one grip breaks. No passing attempted yet. Focus entirely on the grip fighting exchange: how quickly can you strip one grip and re-insert a foot on the hip? Drill both gi and no-gi grip fighting sequences.
 
 **Week 3-4: Hip Mobility and Following Drills** - Tracking lateral movement with hip rotation
@@ -293,29 +305,6 @@ Positional sparring starting from open guard with partner attempting any standin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that tells you a Bullfighter Pass is being initiated rather than another standing pass?
-**A**: The defining early cue is bilateral grip establishment on your legs (both hands gripping at the knees or shins) combined with compression of your knees toward each other and toward your chest. This grip pattern is specific to the toreando family. Other standing passes like the long step typically use asymmetric grips or single-side control. When you feel both knees being pushed together, you know the lateral throw is coming and should immediately begin contesting one grip before the explosive step launches.
-
-**Q2**: Why is it more effective to strip the passer's grips than to frame on their shoulders when defending the Bullfighter Pass?
-**A**: The Bullfighter Pass requires bilateral leg control to function. Without grips on both legs, the passer cannot create the opposing force that separates your legs from their passing path. Framing on their shoulders does nothing to address this core mechanic. Even a strong stiff-arm on their shoulder will not prevent them from throwing your legs to the side if they maintain leg grips. Stripping even one grip immediately halves their control and forces them to re-establish before attempting the pass. This buys you time to reset your guard structure.
-
-**Q3**: Your legs have been thrown to one side and the passer is dropping weight - what is the correct emergency response?
-**A**: Immediately turn your body to face the passer rather than allowing them to flatten you. Use your near-side elbow and forearm to create a frame against their approaching shoulder or neck. Simultaneously work your near knee between your bodies to create a barrier. If there is any space, insert a butterfly hook with your bottom leg. The goal is not to fully recover guard in this moment but to prevent the consolidation of side control by keeping at least one barrier between your torso and theirs. From this half-recovered position, you can work to re-establish full guard structure.
-
-**Q4**: How should you adjust your defensive strategy when facing a passer who chains directional changes left and right?
-**A**: Against a passer who changes directions, static hip following will always be one step behind. Instead, focus on maintaining a centered position with your hips directly underneath your torso rather than committed to one side. Keep both feet active as independent barriers rather than moving them together. The key adjustment is grip fighting: if you can strip one grip during their directional change, the chain is broken and they must re-establish control. Time your grip strip for the moment they reverse direction, as their hands are lightest on your legs during the transition between directions.
-
-**Q5**: What role does your collar or sleeve grip play in defending against the Bullfighter Pass?
-**A**: A collar or sleeve grip creates a connection point that limits the passer's ability to create lateral distance from you. When they step to the side, your grip acts as a tether that either pulls them back toward you or pulls you with them, maintaining the guard engagement. A strong cross-collar grip is particularly effective because it controls their posture and prevents them from generating the upright, explosive lateral movement the pass requires. The grip also provides a vector for pulling yourself toward them or loading sweeps if they commit too heavily to the lateral step.
-
-
-
-</section>
 
 
 </main>

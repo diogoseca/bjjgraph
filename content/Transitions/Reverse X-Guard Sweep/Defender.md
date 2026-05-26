@@ -166,6 +166,8 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X-Guard Sweep?</p>
+
 - Bottom player's hips begin elevating sharply with both hooks creating upward lifting pressure on your legs and base
 - Near-side sleeve or wrist grip tightens and pulls downward toward their chest, breaking your posture and preventing posting
 - Bottom player's upper body angles further away from your trapped leg, indicating they are loading the lever for rotational sweep
@@ -178,6 +180,8 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X-Guard Sweep?</p>
 
 - Maintain elevated hips and wide base to prevent the bottom player from loading your weight onto their hook structure
 - Actively hand fight to strip near-side sleeve or wrist grips that coordinate the sweep's rotational pull
@@ -192,6 +196,8 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X-Guard Sweep?</p>
 
 ### 1. Widen base and drop weight while stripping near-side grip
 
@@ -229,6 +235,8 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X-Guard Sweep?</p>
+
 ### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Strip their near-side sleeve grip and widen your base simultaneously to neutralize the sweep setup. With grip control broken and base established, you can begin systematic hook removal and work toward passing. The bottom player remains in Reverse X-Guard but without the offensive tools needed to execute the sweep.
@@ -244,6 +252,8 @@ Drive forward with smash pressure while maintaining crossface control, collapsin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X-Guard Sweep?</p>
 
 ### 1. Pulling backward away from the guard player to escape hooks
 
@@ -278,6 +288,8 @@ Drive forward with smash pressure while maintaining crossface control, collapsin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X-Guard Sweep?</p>
+
 **Week 1-2** - Recognition and base fundamentals
 Partner establishes Reverse X-Guard and slowly builds toward sweep execution. Focus on recognizing the five key cues that signal sweep initiation. Practice maintaining wide base and elevated hips while partner holds the position without sweeping. Build awareness of weight distribution and how different postures feed or deny the sweep.
 
@@ -294,29 +306,6 @@ Positional sparring starting from Reverse X-Guard. Practice defending the sweep 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest defensive window against the Reverse X-Guard Sweep?
-**A**: The earliest defensive window is during guard entry when the bottom player is establishing their second hook on your hip. Preventing the secondary hook from settling eliminates the scissoring structure needed for the sweep. At this stage, a simple hip push or knee repositioning can deny the position entirely. This is far more energy-efficient than defending a fully loaded sweep, which is why recognizing Reverse X-Guard entries early is critical for defense.
-
-**Q2**: Why is pulling backward the worst possible reaction when you feel the sweep loading?
-**A**: Pulling backward creates the exact biomechanical conditions the sweep requires to succeed. Backward movement loads your weight onto the bottom player's hook structure, extends their lever arm, and elevates your center of gravity above their fulcrum point. This is the opposite of what you want - instead, drive your hips forward toward their chest to flatten their structure and collapse the elevation angle. Forward pressure neutralizes the sweep by removing the space needed for hook extension.
-
-**Q3**: Your opponent has full hooks loaded and is beginning to elevate - what is your best defensive option?
-**A**: At this late stage, the most reliable defense is to widen your base explosively while simultaneously stripping their near-side sleeve grip. The wide base prevents the rotational component from tipping you, while removing the grip eliminates the coordinated pull that directs the sweep. If both hooks are deeply set and you cannot strip grips in time, backstep your controlled leg to disengage from the entanglement entirely, accepting the positional reset rather than being swept to bottom Mount.
-
-**Q4**: How do you recognize that the Reverse X-Guard Sweep is about to be executed?
-**A**: Key recognition cues include: the bottom player's hips sharply elevating as both hooks create upward pressure, their near-side grip tightening and pulling your arm toward their chest, their upper body angling further away from your trapped leg to load the rotational lever, and the sensation of your weight shifting over their leg structure. The most reliable early indicator is the grip tightening combined with hip elevation - this signals the sweep is being initiated and you have seconds to react before full commitment.
-
-**Q5**: After successfully defending the sweep, what should your immediate priority be?
-**A**: Your immediate priority after defending the sweep is to transition to a passing position before the bottom player can reset their attack. Strip remaining grips, begin removing hooks systematically starting with the secondary hip hook, and establish upper body control through crossface or collar grips. Do not simply return to standing neutrally above the guard - the bottom player will immediately rebuild their sweep setup. Use the defensive momentum to advance your position while their offensive structure is disrupted.
-
-
-
-</section>
 
 
 </main>

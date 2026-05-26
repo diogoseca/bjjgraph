@@ -164,6 +164,8 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg to Back Take?</p>
+
 - Attacker releases their grip on your leg while driving their chest into your lower back or hip—this signals the transition from takedown to back take
 - You feel the attacker's inside leg swinging forward between your legs, attempting to insert the first hook around your inner thigh
 - Attacker's arms shift from clasping around your thigh to reaching over your shoulder and under your armpit for seat belt control
@@ -176,6 +178,8 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg to Back Take?</p>
 
 - Recognize early that turning away from the single leg exposes you to the back take and adjust your defense accordingly
 - Square your hips back toward the attacker as your primary defense rather than continuing to rotate away
@@ -190,6 +194,8 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg to Back Take?</p>
 
 ### 1. Square hips and face the attacker before they can release the leg and climb
 
@@ -227,6 +233,8 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg to Back Take?</p>
+
 ### → [[Positions/Standing Position]]
 
 Square your hips back to the attacker early in the transition before they release the leg grip. Drive your near hip into them and face them directly. Once squared, they are stuck holding a single leg against a facing opponent and must either finish the traditional takedown or disengage. Alternatively, sit back decisively the moment you feel them release the leg, collapsing their climbing position.
@@ -242,6 +250,8 @@ If the attacker has begun climbing but has not secured full back control, aggres
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg to Back Take?</p>
 
 ### 1. Continuing to turn away from the single leg when you feel the attacker releasing the leg and climbing
 
@@ -271,13 +281,15 @@ If the attacker has begun climbing but has not secured full back control, aggres
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg to Back Take?</p>
+
 **Phase 1: Recognition and Squaring Drill** - Learning to recognize the transition from takedown to back take and practicing the hip-squaring defense
 Partner holds a single leg and slowly begins releasing and climbing. Practice recognizing the shift from takedown to back take and immediately squaring your hips. Partner does not resist your squaring defense. Focus on the feel of the transition point—when does the grip change from leg to torso? Drill 20 reps per side.
 
 **Phase 2: Hook Clearing Under Light Pressure** - Developing the skill of clearing the first hook before the attacker consolidates
 Partner inserts one hook from behind at moderate speed. Practice three clearing methods: hand peel, step-over, and foot trap. Partner provides light forward pressure but does not fight for the seat belt. Learn which clearing method works best against different hook depths and angles.
 
-**Phase 3: Seat Belt Prevention and Grip Fighting** - Preventing the over-under seat belt configuration while maintaining elbow discipline
+**Phase 3: Seat Belt Prevention and Grips** - Preventing the over-under seat belt configuration while maintaining elbow discipline
 Partner has one hook and actively works for seat belt control. Practice two-on-one grip fighting, elbow-tight defense, and chin-tuck posture. Partner increases intensity to medium resistance. Learn to multitask: fight the grip while also working to clear the hook. Add the sit-back defense as a secondary option.
 
 **Phase 4: Full Defense Against Live Back Take Attempts** - Defending the complete sequence from single leg through back control at competition pace
@@ -287,29 +299,6 @@ Start from live single leg attacks where the partner actively seeks the back tak
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can shut down the single leg to back take attempt?
-**A**: The earliest and most effective defensive point is before the attacker releases the leg. When you sense their chest shifting from your hip toward your back and their grip loosening on your leg, immediately square your hips back toward them. This removes the angle they need to climb. At this stage, they are stuck in a standard single leg position with no path to your back, and you have successfully forced them to choose a different attack.
-
-**Q2**: Why is continuing to turn away from the single leg the worst defensive response when the attacker begins climbing?
-**A**: Continuing to turn away accelerates the attacker's transition by giving them the exact angle and momentum they need to reach your back. Each degree of additional rotation puts them closer to full back control. The turn was an appropriate defense against the takedown, but the moment the attack shifts from takedown to back take, you must reverse your rotation and square back up. Recognizing this shift is the critical defensive skill.
-
-**Q3**: Your opponent has released your leg and inserted one hook—what is your defensive priority sequence?
-**A**: First, address the hook by clearing it with your near hand, stepping over it, or trapping their foot against your inner thigh. Second, prevent the seat belt by keeping your elbows tight and using two-on-one grip control on their arm that is reaching over your shoulder. Third, begin turning to face them by rotating your shoulders toward the hook side. Address these in order—hook removal first, then grip fighting, then rotation—because each step becomes exponentially harder if you skip ahead.
-
-**Q4**: How does sitting back function as a defensive tool and what is the risk?
-**A**: Sitting back decisively onto the attacker can crush their climbing attempt by collapsing their base and trapping them under your weight before they establish hooks. It works best when timed during the transition before the attacker has solid chest connection. The risk is that a skilled attacker will anticipate the sit-back and frame with their knee against your hip, potentially transitioning to single leg X-guard or a sweep position underneath you. You must commit fully if you choose this defense—a half-hearted sit-back is the worst outcome.
-
-**Q5**: What body position should you maintain to make the back take as difficult as possible?
-**A**: Keep your elbows tight against your ribs to deny the seat belt configuration, your chin tucked to protect your neck, and your hips squared toward the attacker rather than turned away. Stay on your feet with a low, wide base to maximize your defensive options. Your shoulders should stay directly above your hips rather than leaning forward, which gives the attacker a platform to climb onto. This compact, squared posture eliminates the angle the attacker needs.
-
-
-
-</section>
 
 
 </main>

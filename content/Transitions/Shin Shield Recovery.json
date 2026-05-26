@@ -9,7 +9,7 @@
     "guard-retention",
     "framing"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Leg Hook/Bottom",
   "outcomes": [
     {
       "to": "Knee Shield Half Guard/Bottom",
@@ -63,8 +63,8 @@
       "relationship": "Parallel technique - Both focus on recovering guard structure from compromised positions"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Conceptual framework - Shin shield exemplifies core guard retention principles"
+      "name": "Half Guard Recovery",
+      "relationship": "Conceptual framework - Both techniques exemplify core guard retention principles from half guard"
     },
     {
       "name": "Knee Shield Retention",
@@ -225,7 +225,7 @@
         "description": "Incorporate shin shield recovery into regular sparring without preset scenarios. Focus on recognizing passing pressure early and automatically deploying shin shield recovery. Develop ability to assess when shin shield is appropriate versus when alternative defenses are better. Track success rate in preventing passes and generating counter-offense from shin shield position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary purpose of the shin shield in half guard recovery?",
         "answer": "The shin shield creates a strong structural frame that prevents the opponent from driving forward pressure while creating the necessary space to recover proper guard structure. It transforms the leg into an active barrier that manages distance and prevents the opponent from achieving chest-to-chest contact, which is essential for most passing sequences. The shin shield also maintains your ability to create angles and launch counter-offensive techniques."
@@ -356,7 +356,7 @@
         "correction": "Use your body weight and shoulder angle to address the shin shield rather than your hands. Drive your shoulder across the shield diagonally at 45 degrees to redirect force, and keep your hands free for crossface and arm control that deny the supporting structure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for preventing shin shield recovery as the top player?",
         "answer": "The critical window is the moment you first feel the bottom player's inside knee beginning to rise between your bodies and thread upward toward your chest. This window closes once their shin reaches horizontal position across your torso with active outward pressure. During this brief period, driving forward with heavy shoulder pressure or controlling their ankle can prevent the shield from establishing. Once the shin is fully across your chest with supporting grips and proper hip angle, you must switch to a complete passing strategy rather than simple prevention."
@@ -385,7 +385,7 @@
         "description": "Partner starts in compromised half guard bottom and attempts shin shield insertion at slow to moderate speed. Top player practices recognizing the first knee movement and immediately driving shoulder pressure forward. Focus on maintaining chest contact and hip heaviness throughout. Partner signals when shin shield is successfully prevented versus when it establishes. 20 repetitions per side, gradually increasing bottom player's speed."
       },
       {
-        "phase": "Phase 2: Grip Fighting and Shield Leg Control (Weeks 3-4)",
+        "phase": "Phase 2: Grips and Shield Leg Control (Weeks 3-4)",
         "focus": "Controlling the shield leg while maintaining upper body dominance",
         "description": "Partner attempts shin shield recovery with moderate resistance. Top player practices ankle and pants grips to redirect the shield leg while maintaining crossface with the other arm. Drill the coordination of simultaneous upper body control and shield leg management. Include scenarios where bottom player fights for underhook during the exchange. 15 repetitions per side with increasing bottom player resistance."
       },

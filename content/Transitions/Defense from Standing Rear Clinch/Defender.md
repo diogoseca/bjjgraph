@@ -154,6 +154,8 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Defense from Standing Rear Clinch?</p>
+
 - Opponent begins aggressive hand fighting on your clasped hands, attempting to peel or wedge your grip apart, signaling the start of an escape sequence
 - Opponent suddenly drops their center of gravity by bending knees deeply, indicating they are establishing a base for escape or preparing to defend a lift
 - Opponent steps laterally and shifts their hips to one side rather than resisting straight back, indicating they are creating hip angle for a rotation escape
@@ -166,6 +168,8 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Defense from Standing Rear Clinch?</p>
 
 - Maintain locked grip configuration at all times by re-locking immediately when the opponent creates any separation in your hand clasp
 - Drive constant forward pressure through your chest into the opponent's back, making them carry your weight during escape attempts
@@ -181,6 +185,8 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Defense from Standing Rear Clinch?</p>
 
 ### 1. Re-lock grip and increase forward pressure by driving chest into opponent's back and stepping your hips closer
 
@@ -218,6 +224,8 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Defense from Standing Rear Clinch?</p>
+
 ### → [[Positions/Back Control]]
 
 When the opponent's hand fighting threatens your standing grip, proactively drag them to the ground by sitting your hips back and pulling them down with you. Immediately insert hooks and establish seatbelt control as you descend. The transition from standing to ground back control should be seamless, maintaining chest-to-back connection throughout.
@@ -233,6 +241,8 @@ Shut down escape attempts by maintaining locked grip configuration, matching the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Defense from Standing Rear Clinch?</p>
 
 ### 1. Maintaining a static grip configuration when the opponent is systematically attacking it rather than switching between seatbelt, bodylock, and collar tie grips
 
@@ -262,6 +272,8 @@ Shut down escape attempts by maintaining locked grip configuration, matching the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Defense from Standing Rear Clinch?</p>
+
 **Phase 1: Grip Retention Fundamentals** - Maintaining and re-locking grip configurations under hand fighting pressure
 Partner hand fights to break your grip while you practice re-locking and switching between seatbelt, bodylock, and gable grip configurations. No escape attempts, just pure grip retention against progressive resistance. Build the reflexive ability to re-lock within one second of any partial grip break.
 
@@ -278,26 +290,6 @@ Partner attempts full escape sequences at competition intensity while you work t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest tactile cues that indicate the opponent is beginning an escape from your standing rear clinch?
-**A**: The earliest cues are changes in the opponent's grip fighting intensity on your clasped hands, sudden lowering of their center of gravity through knee bend, and lateral hip shifting that disrupts your chest-to-back alignment. These cues typically precede the actual escape attempt by one to two seconds, giving you a window to tighten your grip, increase forward pressure, and prepare to match their movement direction. The hip shift is the most reliable indicator because it signals the beginning of angle creation that precedes all rotation-based escapes.
-
-**Q2**: When should you transition from defending the standing clinch to dragging the opponent to ground back control?
-**A**: Transition to ground back control when the opponent's hand fighting has created repeated partial grip breaks that you are increasingly struggling to re-lock, when their hip angle creation is consistently disrupting your chest-to-back alignment, or when they demonstrate that they have a timing advantage on your grip transitions. The key decision point is whether the standing clinch is becoming a net negative: if maintaining it requires more energy than transitioning to ground back control, the transition should happen immediately rather than risking a complete position loss.
-
-**Q3**: How do you prevent the opponent from executing a hip throw when they begin loading their hips below yours?
-**A**: Drive your hips forward and downward into the opponent's lower back to prevent them from getting their hips below yours, which is the prerequisite for any hip throw. Step to the same side they are rotating toward to maintain your position behind them. Pull their upper body backward using your grip to break their forward lean. If they have already partially loaded the throw, release one arm from the grip to post on their hip and block the rotation while maintaining the other arm's control. The critical detail is that a hip throw requires the thrower's hips to be lower than yours, so maintaining low hip position with forward pressure eliminates the mechanical possibility.
-
-**Q4**: What is the correct response when the opponent uses a direction-change feint during their lateral escape?
-**A**: Avoid overcommitting to matching the first direction. Keep your weight centered and take smaller matching steps rather than large lunging steps that create momentum in one direction. When you feel the opponent change direction, use the split-second of their directional change to tighten your grip and increase chest-to-back pressure, because the direction change also momentarily disrupts their escape mechanics. The opponent is most vulnerable during the directional transition, so using that window to re-consolidate control is more effective than trying to match every direction change perfectly.
-
-
-
-</section>
 
 
 </main>

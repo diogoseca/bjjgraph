@@ -166,6 +166,8 @@ Successful defense depends heavily on timing - early intervention through grip s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ringworm Sweep to Back Control?</p>
+
 - Bottom player creates a pronounced hip angle by escaping away from your wrapped leg side, loading rotational energy for the sweep
 - Bottom player secures a secondary grip on your collar or far sleeve in addition to the existing lapel wrap, establishing dual control points
 - Bottom player's hips begin driving upward and toward your wrapped leg while simultaneously pulling downward on their secondary grip
@@ -178,6 +180,8 @@ Successful defense depends heavily on timing - early intervention through grip s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ringworm Sweep to Back Control?</p>
 
 - Prioritize stripping the lapel grip before the bottom player can establish secondary grips and load the sweep angle
 - Maintain a low, wide base with hips heavy to deny the elevated center of gravity the sweep requires for rotational momentum
@@ -192,6 +196,8 @@ Successful defense depends heavily on timing - early intervention through grip s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ringworm Sweep to Back Control?</p>
 
 ### 1. Strip the lapel grip using both hands in a systematic grip-breaking sequence before the sweep is initiated
 
@@ -229,6 +235,8 @@ Successful defense depends heavily on timing - early intervention through grip s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ringworm Sweep to Back Control?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Strip the lapel grip early using both hands before the bottom player establishes secondary grips. Address the wrap systematically by peeling the lapel from around your leg while controlling their grip-fighting hand. Once the lapel is free, immediately establish passing grips before they can re-thread.
@@ -244,6 +252,8 @@ If the sweep cannot be prevented, spin toward the sweeping player during the fal
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ringworm Sweep to Back Control?</p>
 
 ### 1. Attempting to pass through the Ringworm Guard with pressure rather than addressing the lapel grip first
 
@@ -278,6 +288,8 @@ If the sweep cannot be prevented, spin toward the sweeping player during the fal
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ringworm Sweep to Back Control?</p>
+
 **Week 1-2** - Lapel grip stripping fundamentals
 Partner establishes Ringworm Guard with moderate tension while you practice systematic grip-breaking sequences using both hands. Focus on hand positioning, grip break mechanics, and immediately establishing passing grips once the lapel is freed. No sweep attempts from partner during this phase.
 
@@ -294,29 +306,6 @@ Partner attacks with full Ringworm Guard offense including sweeps, triangles, an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when you recognize Ringworm Guard configuration?
-**A**: Your first priority is stripping the lapel grip using both hands before the bottom player can establish secondary grips and create angular loading for the sweep. The lapel wrap is the mechanical engine of the entire attack system - without it, the sweep loses its primary advantage. Early grip fighting is exponentially more effective than late-stage sweep defense.
-
-**Q2**: You feel the sweep beginning and cannot prevent the off-balance - what is your emergency back defense?
-**A**: Immediately spin toward the sweeping player rather than away from them during the fall. Turning toward them denies back exposure and prevents easy hook insertion. Post your hands as you land and establish frames to face the opponent, accepting the positional loss to half guard or scramble rather than conceding full back control. Your goal shifts from sweep prevention to back defense the moment you feel the point of no return.
-
-**Q3**: Why is standing with a high base particularly dangerous against this sweep?
-**A**: An elevated center of gravity requires significantly less force to topple laterally. The lapel wrap already prevents your wrapped leg from posting to recover balance, so your standing height becomes a lever that the bottom player exploits. The higher you stand, the more angular momentum the hip drive generates, and the more dramatic the rotational sweep becomes. Staying low forces the bottom player to generate substantially more force to complete the sweep.
-
-**Q4**: Your opponent has secure Ringworm Guard but no secondary grips yet - what specific actions should you take?
-**A**: This is the optimal window for defense. Immediately control their free hand by gripping their wrist or sleeve to prevent them from establishing the collar or sleeve grip that powers the sweep. Simultaneously, begin working to strip the lapel with your other hand while maintaining a low base. Without the secondary grip, the bottom player cannot generate the rotational pull needed for the sweep, buying you time to systematically address the wrap.
-
-**Q5**: How does the bottom player's hip angle telegraph the sweep attempt?
-**A**: When the bottom player hip escapes away from your wrapped leg side, they are loading angular energy for the sweep. This pronounced lateral hip angle is the setup phase that precedes the explosive hip drive. Recognizing this angle creation as a pre-sweep cue gives you time to drop your base, strip grips, or preemptively address the secondary grip before the explosive phase begins. A flat-hipped bottom player is in retention mode; an angled bottom player is in attack mode.
-
-
-
-</section>
 
 
 </main>

@@ -17,7 +17,7 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
       <p class="not-found-message">This page does not exist yet.</p>
 
       <div id="did-you-mean" class="did-you-mean" style="display: none;">
-        <span class="did-you-mean-label">Did you mean</span>
+        <span class="did-you-mean-label">Did you mean </span>
         <a id="did-you-mean-link" href="#" class="did-you-mean-suggestion"></a>
         <span class="did-you-mean-label">?</span>
       </div>

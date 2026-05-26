@@ -1,0 +1,146 @@
+{# BJJ Learning Article Template V1 - Jinja2 #}
+{# Generates markdown from Learning.json for strategy/training/competition articles #}
+
+---
+title: "{{name}} | BJJ Learning | BJJ Graph"
+description: "{{description}}"
+---
+
+<body data-content-type="learning">
+
+<!-- Schema Markup - Auto-generated from JSON -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "articleSection": "{{category}}",
+  "url": "https://bjjgraph.org/Learning/{{name.replace(' ', '-')}}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Learning", "item": "https://bjjgraph.org/Learning/"},
+    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Learning/{{name.replace(' ', '-')}}"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for qa in knowledge_assessment[:6] %}
+    {
+      "@type": "Question",
+      "name": "{{qa.question}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{qa.answer}}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+> **Category**: {{category}}
+
+{# Flexbox wrapper #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+## What is {{name}}?
+
+{{overview}}
+
+</section>
+
+<section id="key-takeaways" class="content-section">
+
+## Key Takeaways
+{% for takeaway in key_takeaways -%}
+- {{takeaway}}
+{% endfor %}
+
+</section>
+
+<section id="applications" class="content-section">
+
+## How It Applies in BJJ
+{% for app in bjj_applications -%}
+**{{app.scenario}}**
+{{app.application}}
+*Outcome: {{app.outcome}}*
+
+{% endfor %}
+
+</section>
+
+<section id="mistakes" class="content-section hide-minimal">
+
+## Common Mistakes
+{% for mistake in common_mistakes -%}
+- **Mistake**: {{mistake.mistake}}
+  - **Consequence**: {{mistake.consequence}}
+  - **Correction**: {{mistake.correction}}
+{% endfor %}
+
+</section>
+
+<section id="exercises" class="content-section">
+
+## Training Exercises
+{% for exercise in training_exercises -%}
+**{{exercise.name}}** (Focus: {{exercise.focus}})
+{{exercise.description}}
+
+{% endfor %}
+
+</section>
+
+<section id="self-assessment" class="content-section hide-minimal">
+
+## Self-Assessment
+{% for qa in knowledge_assessment -%}
+**Q: {{qa.question}}**
+A: {{qa.answer}}
+
+{% endfor %}
+
+</section>
+
+<section id="related" class="content-section">
+
+## Related
+{% for item in related_content -%}
+- [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
+{% endfor %}
+
+{% if references is defined and references %}
+### References
+{% for ref in references -%}
+{% if ref.url -%}
+- [{{ref.title}}]({{ref.url}}) by {{ref.author}}
+{% else -%}
+- *{{ref.title}}* by {{ref.author}}
+{% endif -%}
+{% endfor %}
+{% endif %}
+
+</section>
+
+</main>

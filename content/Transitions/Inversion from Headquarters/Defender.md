@@ -162,6 +162,8 @@ As the top player in headquarters, defending the inversion requires recognizing 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inversion from Headquarters?</p>
+
 - Bottom player begins creating active frames against your chest or shoulder rather than passively defending
 - Bottom player's free leg becomes unusually active, pushing on your hip or hooking your arm rather than managing distance normally
 - Bottom player's shoulders lift off the mat and their body begins angling toward their free leg side
@@ -176,6 +178,8 @@ As the top player in headquarters, defending the inversion requires recognizing 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Inversion from Headquarters?</p>
+
 - Maintain heavy downward pressure on the trapped leg throughout all passing sequences to eliminate the space needed for inversion
 - Recognize pre-inversion setup cues early: framing activity, shoulder elevation, and body angling toward the free leg side
 - Apply crossface pressure toward the mat on the side the bottom player wants to invert, physically blocking the shoulder roll path
@@ -189,6 +193,8 @@ As the top player in headquarters, defending the inversion requires recognizing 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inversion from Headquarters?</p>
 
 ### 1. Drive heavy crossface toward the mat on the inversion side while increasing hip pressure on the trapped leg
 
@@ -226,6 +232,8 @@ As the top player in headquarters, defending the inversion requires recognizing 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inversion from Headquarters?</p>
+
 ### → [[Positions/Side Control]]
 
 Follow the inversion by circling toward the bottom player's exposed back and executing a leg drag or backstep pass while they are mid-roll. Control the hooking leg to prevent DLR establishment and drive through to complete the pass before they can build any guard structure from the compromised post-inversion position.
@@ -241,6 +249,8 @@ Shut down the inversion early by recognizing the preparatory cues and applying h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inversion from Headquarters?</p>
 
 ### 1. Freezing in place when the bottom player begins inverting instead of reacting dynamically
 
@@ -270,6 +280,8 @@ Shut down the inversion early by recognizing the preparatory cues and applying h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inversion from Headquarters?</p>
+
 **Phase 1: Recognition Drilling** - Identifying inversion setup cues from headquarters top
 Partner attempts inversions at slow speed while you practice recognizing the preparatory movements: framing, shoulder elevation, body angling, and free leg activation. Call out each cue as you see it. Build pattern recognition before adding defensive responses.
 
@@ -286,29 +298,6 @@ Positional sparring from headquarters where the bottom player uses inversions, h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual cues that the bottom player is preparing to invert from headquarters?
-**A**: The bottom player will begin creating active frames against your chest or shoulder, their free leg becomes more active by pushing on your hip or hooking your arm, and they start angling their body toward the free side rather than lying flat. You may feel a reduction in resistance against your trapped leg control as they redirect energy toward the rolling movement. Their shoulders coming off the mat and chin tucking are the final preparatory cues before the actual inversion begins.
-
-**Q2**: How should you adjust your weight distribution when you sense an inversion attempt developing?
-**A**: Increase downward pressure on the trapped leg by driving your hips forward and lowering your center of gravity. Shift from an upright headquarters posture to a more forward-driving position that pins the bottom player's hips to the mat. Establish a crossface by driving your shoulder or forearm across their jaw line toward the mat on the side they want to invert toward, which physically blocks the shoulder roll path and makes the inversion mechanically impossible.
-
-**Q3**: The bottom player successfully begins inverting underneath you - what is your best immediate response?
-**A**: Follow the inversion by circling toward their back rather than trying to hold your static position. As they roll, their back becomes temporarily exposed. Step over or around their inverting body and establish control on the far side, converting the situation into a leg drag or backstep passing position. The worst response is to freeze or pull away, as this gives them time and space to complete the inversion and establish their target guard with full grips.
-
-**Q4**: What grip adjustments prevent the bottom player from establishing the DLR hook after a partial inversion?
-**A**: Control their hooking leg by gripping the ankle or pant at knee level and pushing it across their centerline as they emerge from the inversion. This prevents the leg from wrapping behind your knee to create the DLR hook. Simultaneously, step your lead leg back and away from their hooking range. If you maintain control of their hooking leg throughout the inversion attempt, they cannot establish DLR regardless of how clean their rolling mechanics are.
-
-**Q5**: How do you capitalize on a failed inversion to advance from headquarters to side control?
-**A**: When the inversion stalls or the bottom player abandons it, they are momentarily in a compromised position with shoulders off the mat and body angled. Drive forward immediately with a knee cut through the gap their angled body created, using your trapped leg control to pin their bottom leg while driving your knee through to the mat. The failed inversion often leaves their guard structure completely dismantled because they committed their frames and leg positioning to the rolling attempt rather than guard retention.
-
-
-
-</section>
 
 
 </main>

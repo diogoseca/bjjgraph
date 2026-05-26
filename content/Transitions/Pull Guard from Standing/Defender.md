@@ -162,6 +162,8 @@ As the defender against a guard pull from standing, your primary objective is to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pull Guard from Standing?</p>
+
 - Opponent suddenly tightens grip tension on collar and sleeve while their weight begins shifting backward and downward rather than engaging forward in the standing exchange
 - Opponent steps one foot forward outside your stance, creating the angular path used for the controlled sitting descent that characterizes the guard pull setup
 - You feel a strong downward pulling force through their grips as they begin loading weight onto your upper body rather than maintaining their own independent standing balance
@@ -174,6 +176,8 @@ As the defender against a guard pull from standing, your primary objective is to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pull Guard from Standing?</p>
 
 - Recognize guard pull initiation cues within the first half-second — grip tightening, weight shifting backward, foot stepping outside your stance telegraph the pull before it begins
 - React immediately during the transition window to maximize defensive options before guard closure eliminates your advantage
@@ -188,6 +192,8 @@ As the defender against a guard pull from standing, your primary objective is to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pull Guard from Standing?</p>
 
 ### 1. Sprawl hips back and drive weight away immediately upon recognizing the pull initiation cues
 
@@ -225,6 +231,8 @@ As the defender against a guard pull from standing, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pull Guard from Standing?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the guard pull entirely through early sprawl reaction, aggressive grip stripping, or maintaining strong upright posture that resists the downward pulling force. React within the first half-second of recognizing pull cues to prevent your opponent from committing their hips to the descent. Any decisive defensive action in this window is exponentially more effective than the same action taken one second later.
@@ -240,6 +248,8 @@ Capitalize on the transition gap by driving a knee through the centerline as the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pull Guard from Standing?</p>
 
 ### 1. Bending at the waist and following the opponent down with your upper body as they sit to guard
 
@@ -269,6 +279,8 @@ Capitalize on the transition gap by driving a knee through the centerline as the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pull Guard from Standing?</p>
+
 **Phase 1: Recognition Drilling** - Identifying guard pull initiation cues from standing engagement at speed
 Partner alternates between genuine standing attacks and guard pull attempts from neutral standing. Defender must call out 'pull' verbally when they recognize guard pull cues before the partner's hips pass the point of no return. Develops the visual and tactile pattern recognition needed for early reaction without committing to the wrong defensive counter.
 
@@ -285,29 +297,6 @@ Full sparring flow where successful guard pull counter immediately transitions i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to pull guard from standing?
-**A**: The earliest cues are a sudden change in grip configuration — the opponent shifts from active reciprocal hand fighting to committed collar and sleeve grips established simultaneously — combined with their hips beginning to drop backward while their upper body maintains forward connection through pulling tension in the grips. You may also notice their lead foot stepping outside your stance to create the angular descent path. Recognizing these cues within the first half-second provides sufficient time to sprawl, strip grips, or drive forward to counter the pull before it develops.
-
-**Q2**: Your opponent has collar and sleeve grips and begins sitting backward — what is your immediate highest-percentage response?
-**A**: Drive forward immediately with low hips, pushing your chest into their shoulder while simultaneously driving your near knee toward the centerline between their closing legs. This forward pressure combined with the knee insertion prevents clean guard closure and converts the pull into a half guard or open guard scramble where you hold passing initiative. Do not reach down with your arms or bend at the waist, as this feeds directly into their guard with broken posture. The forward drive must be committed and explosive to arrive before their legs can lock.
-
-**Q3**: How do you prevent the guard puller from establishing closed guard during the transition phase?
-**A**: The primary prevention is driving a knee or shin through the centerline between their legs during the transition window — the narrow 1-2 second gap between their hips touching the mat and their ankles locking. This physical barrier between their closing legs prevents guard closure entirely. Secondary prevention is maintaining distance by pushing their hips away with your hands while keeping your own hips back, creating enough space that their legs cannot reach around your waist. The worst approach is driving forward with your upper body while leaving your hips close, as this creates the exact range their legs need for closure.
-
-**Q4**: What posture adjustments maximize your passing opportunities when an opponent successfully pulls guard on you?
-**A**: Immediately after guard closure, establish combat base with one foot posted flat on the mat and one knee down, spine straight, head up, and hands positioned on their hips or biceps rather than the mat. This posture prevents them from breaking you down for submissions while maintaining your mobility for standing guard break sequences. Avoid settling onto both knees between their legs, as this surrenders the standing guard break option which is the highest-percentage escape from closed guard. Fight their grips immediately to prevent them from establishing the collar and sleeve control needed for their offensive sequences.
-
-**Q5**: Your opponent pulls guard and immediately begins breaking your posture with collar grip and heel pressure — how do you respond in the first five seconds?
-**A**: Your immediate priority is posture recovery before their offense develops. Push your hips back while driving your chest forward and up to create structural resistance against their pulling forces. Place both hands firmly on their hips to create a frame that prevents them from closing distance, and focus on straightening your spine rather than fighting their grips initially. Once posture is recovered, systematically strip their most dangerous grip — usually the deep collar grip — using a two-on-one break. Only after establishing stable posture should you begin working toward guard opening, as attempting to open the guard from broken posture exposes you to immediate triangles and armbars.
-
-
-
-</section>
 
 
 </main>

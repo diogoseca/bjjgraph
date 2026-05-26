@@ -164,6 +164,8 @@ The critical defensive principle is that prevention is far more effective than r
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Bump Sweep V2?</p>
+
 - Opponent grips your wrist or sleeve on one side while pulling your head down with the other hand, establishing the dual control needed for the sweep
 - Opponent uncrosses ankles and opens guard while simultaneously sitting up toward you, indicating transition from guard retention to sweep initiation
 - You feel a sharp lateral hip bump driving into your shoulder or chest at an angle rather than straight forward pressure
@@ -176,6 +178,8 @@ The critical defensive principle is that prevention is far more effective than r
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Bump Sweep V2?</p>
 
 - Maintain strong upright posture with head over hips to prevent the primary setup condition
 - Keep both arms free and ready to post by fighting wrist and sleeve grips immediately
@@ -191,6 +195,8 @@ The critical defensive principle is that prevention is far more effective than r
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Bump Sweep V2?</p>
 
 ### 1. Post your free hand wide on the mat at a 45-degree angle behind you on the sweep side
 
@@ -228,6 +234,8 @@ The critical defensive principle is that prevention is far more effective than r
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Bump Sweep V2?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout the exchange by driving hips back and keeping head over hips. Fight grips proactively to deny arm control. When sweep is attempted, post wide to stop momentum and immediately return to posture recovery and guard passing sequence.
@@ -243,6 +251,8 @@ Time a sprawl and hip circle precisely as opponent commits to the sweep, using t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Bump Sweep V2?</p>
 
 ### 1. Allowing posture to stay broken without immediate recovery attempt
 
@@ -277,6 +287,8 @@ Time a sprawl and hip circle precisely as opponent commits to the sweep, using t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Bump Sweep V2?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying hip bump setup cues and developing early awareness
 Partner executes slow-motion hip bump setups while you practice recognizing the grip establishment, guard opening, and sitting-up motion. Call out each cue as you feel it. No defense execution yet, purely sensory training to build pattern recognition at 30% speed.
 
@@ -293,29 +305,6 @@ Full positional sparring from closed guard top against partners who actively hun
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can prevent the hip bump sweep from developing?
-**A**: The earliest prevention point is maintaining strong posture and fighting wrist or sleeve grips before the opponent establishes arm control. The hip bump requires two prerequisites: broken posture and arm control on the sweep side. By maintaining upright posture with head over hips and immediately stripping any wrist grip attempts, you deny the fundamental setup conditions. This proactive defense is far more energy-efficient than reactive defense after the sweep is initiated.
-
-**Q2**: Why does posting with a straight locked-out arm create additional danger when defending the hip bump?
-**A**: A straight locked-out arm creates two problems: structurally, the locked elbow provides a rigid lever that the angular sweeping force can overcome more easily than a bent, shock-absorbing arm. Tactically, the posted arm with locked elbow is in perfect position for a kimura attack, which is the primary chain technique from the hip bump. Experienced guard players deliberately force the posting reaction specifically to transition to kimura, making the straight arm post a defensive choice that solves one problem while creating another.
-
-**Q3**: Your opponent sits up and bumps hard into your right shoulder while controlling your left wrist - what is your immediate response?
-**A**: Immediately post your free right hand on the mat at a wide 45-degree angle behind and to your right side with a slightly bent elbow to absorb the angular force. Simultaneously drive your hips backward and down to counter the forward momentum. Once the sweep momentum is absorbed, immediately strip the wrist grip using your posted hand and recover upright posture. Be prepared to defend the kimura transition on your posting arm by keeping your elbow tight to your body as you recover posture.
-
-**Q4**: How do you distinguish between the setup for a hip bump sweep and the setup for a triangle or armbar from guard?
-**A**: The hip bump has distinct tactile signatures: the opponent opens their guard and sits up toward you rather than staying flat on their back, and you feel a lateral upward bump into your shoulder rather than leg pressure across your neck or behind your head. Triangle and armbar setups typically involve the opponent staying on their back, creating an angle with their hips while shooting legs high across your shoulders. The hip bump's sitting-up motion and lateral hip drive are unmistakable once you train to recognize them, allowing early defensive response.
-
-**Q5**: After successfully defending a hip bump attempt, what should your immediate next action be?
-**A**: After defending, immediately recover full upright posture, strip any remaining grips the opponent has on your wrists or collar, and re-establish your own controlling grips for guard passing. Do not stall or rest in closed guard after surviving the sweep attempt. The opponent's guard is momentarily disorganized from the failed sweep, creating a window to begin your guard opening sequence. Standing up in base is often the highest-percentage option immediately after a defended hip bump since the opponent's guard is already open from the sweep attempt.
-
-
-
-</section>
 
 
 </main>

@@ -107,6 +107,8 @@ description: "{{ top.description }}"
 
 ## Position Definition
 
+<p class="section-subtitle">What is {{ position_name }} (Top)?</p>
+
 {% for invariant in top.state_invariants -%}
 - {{ invariant }}
 {% endfor %}
@@ -116,6 +118,8 @@ description: "{{ top.description }}"
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing {{ position_name }} (Top)?</p>
 
 {% for prereq in top.prerequisites -%}
 - {{ prereq }}
@@ -127,6 +131,8 @@ description: "{{ top.description }}"
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from {{ position_name }}?</p>
+
 {% for principle in top.key_principles -%}
 - {{ principle }}
 {% endfor %}
@@ -136,6 +142,8 @@ description: "{{ top.description }}"
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from {{ position_name }} (Top)?</p>
 
 {% for node in top.decision_tree -%}
 **{{ node.condition }}:**
@@ -151,6 +159,8 @@ description: "{{ top.description }}"
 
 ## Common Offensive Mistakes
 
+<p class="section-subtitle">What mistakes should you avoid when attacking from {{ position_name }}?</p>
+
 {% for error in top.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
 
@@ -165,6 +175,8 @@ description: "{{ top.description }}"
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train {{ position_name }} attacks?</p>
+
 {% for drill in top.training_drills -%}
 ### {{ drill.name }}
 
@@ -178,19 +190,7 @@ description: "{{ top.description }}"
 
 </section>
 
-{% if top.knowledge_assessment %}
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-{% for qa in top.knowledge_assessment -%}
-**Q{{ loop.index }}**: {{ qa.question }}
-**A**: {{ qa.answer }}
-
-{% endfor %}
-
-</section>
-{% endif %}
+{# Flashcards rendered interactively by Flashcard component #}
 
 <section id="position-metrics" class="content-section">
 

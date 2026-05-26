@@ -59,7 +59,7 @@
       "advanced"
     ],
     "overview": "The Invisible Collar from top position represents advanced back attack methodology where grip concealment creates submission opportunities that opponents fail to recognize until finishing mechanics are already in place. This position requires sophisticated understanding of hand positioning, timing for grip establishment, and the ability to maintain what appears to be a defensive or controlling posture while actually setting up fight-ending submissions. The invisible collar serves as both a direct submission position and a platform for creating dilemmas where every defensive choice leads to a different attack.\n\nFrom top position, the practitioner must establish the invisible collar grip gradually and casually, making it appear as simple positional control rather than an active submission setup. This requires sensitivity to opponent's defensive focus and the ability to deepen collar penetration incrementally while the opponent is distracted by other threats such as hook defense or preventing crucifix transitions. The most successful practitioners treat the invisible collar as a stealth position that provides multiple attack options while remaining sustainable over time.\n\nSuccess in invisible collar top requires coordinating upper body attacks with lower body control, ensuring that hook positioning prevents escape while the collar grip develops. The position demands patience and timing—rushing the grip establishment or applying finishing pressure too early alerts the opponent and allows them to mount effective defense. Advanced practitioners use the invisible collar as part of comprehensive back attack systems where it connects seamlessly with rear naked chokes, armbars, and crucifix positions, creating submission chains that are extremely difficult to defend.",
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you maintain the invisible collar grip when your opponent starts aggressively hand fighting your choking arm?",
         "answer": "Keep your elbow tight to your body and use your seatbelt arm to control their defending hand. Rather than fighting grip-to-grip, use your chest pressure to pin their shoulders while incrementally deepening your collar penetration during moments when they shift focus to hook defense. The key is patience—every time they move one hand to address another threat, advance your collar depth slightly."
@@ -267,7 +267,7 @@
         "relationship": "Common transition target when opponent turns into collar"
       },
       {
-        "name": "Armbar from Back",
+        "name": "Armbar from Back Transition",
         "relationship": "Alternative submission when opponent extends arms to defend"
       },
       {
@@ -296,11 +296,11 @@
     },
     "transitions": [
       {
-        "transition": "Cross Collar Choke Finish",
+        "transition": "Cross Collar Choke from Invisible Collar",
         "attempt_probability": 14
       },
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Invisible Collar",
         "attempt_probability": 14
       },
       {
@@ -312,11 +312,11 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Invisible Collar",
         "attempt_probability": 11
       },
       {
-        "transition": "Clock Choke",
+        "transition": "Clock Choke from Invisible Collar",
         "attempt_probability": 10
       },
       {
@@ -341,7 +341,7 @@
       "escape"
     ],
     "overview": "Defending the Invisible Collar from bottom requires immediate recognition of the deceptive grip structure before full choking pressure develops. Unlike standard back control escapes, invisible collar defense demands specific attention to hand fighting the collar grip while simultaneously working to remove hooks and create escape opportunities. The defender must understand that what appears to be a passive positional grip can transform into a fight-ending choke within seconds, making early recognition and aggressive defense critical.\n\nThe primary defensive challenge lies in the grip's concealed nature—many practitioners fail to recognize the invisible collar setup until choking pressure begins, at which point the grip is often too deep to remove through conventional hand fighting. Effective defense requires proactive grip checking and awareness of subtle hand positioning changes that indicate collar setup. The defender must also manage multiple threats simultaneously, as attempting to remove the collar grip often creates opportunities for rear naked chokes, armbars, or crucifix transitions.\n\nSuccessful escape from invisible collar bottom involves systematic approach to neutralizing the grip, protecting the neck, and recovering to safer positions. This requires coordinating hand fighting with hip movement, maintaining defensive posture to limit choking angles, and exploiting moments when the attacker commits to finishing attempts. The defender must also understand the submission chain logic the attacker employs, recognizing that purely defensive reactions often lead to alternative submissions rather than genuine escape opportunities.",
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that your opponent is establishing invisible collar rather than standard seatbelt control?",
         "answer": "Pay attention to their over-hook hand movement. If it begins migrating toward your collar rather than staying on your shoulder or chest, they are likely setting up invisible collar. The key indicator is finger contact with your collar material—any penetration of fingers into the gi near your neck should trigger immediate defensive response. Constantly check their grip position rather than waiting for choking pressure."

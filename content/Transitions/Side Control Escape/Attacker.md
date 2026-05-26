@@ -182,6 +182,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Side Control Escape?</p>
+
 - Create strong defensive frames using skeletal structure rather than muscular pushing to prevent opponent's weight from settling
 - Protect the neck as highest priority - chin tucked prevents crossface, mount advancement, and back exposure
 - Generate space through hip escape movements powered by legs and posterior chain rather than arm pushing
@@ -197,6 +199,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Side Control Escape?</p>
+
 - Strong frames established with bottom forearm against opponent's hip and top hand against shoulder or neck
 - Chin tucked tightly to protect neck from crossface pressure and choke threats
 - Bottom arm positioned to protect near side and prevent arm isolation or trapping
@@ -210,6 +214,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Side Control Escape step by step?</p>
 
 1. **Establish defensive frames**: Place bottom forearm against opponent's hip with elbow tight to your ribs, creating a rigid frame using skeletal alignment rather than muscular effort. Top hand frames against opponent's shoulder or neck, keeping elbow inside to prevent crossface. Both frames work together to create structural barriers preventing opponent's weight from crushing down onto your chest and face. These frames are load-bearing structures, not pushing mechanisms.
 2. **Create initial space with bridge**: Bridge powerfully upward by driving through planted feet and shoulder blades simultaneously, thrusting hips toward the ceiling as the highest point while pushing through both frames. This momentarily disrupts opponent's base and creates the first critical inches of space needed for hip movement. Time the bridge when opponent is adjusting their position, reaching for a submission grip, or attempting to consolidate control - their attention diversion is your window.
@@ -239,6 +245,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Side Control Escape?</p>
+
 - **Opponent applies heavy crossface to flatten you back down and prevent hip rotation** (Effectiveness: High) - Your Response: Keep chin tucked tightly and use top arm frame to block the crossface path before it connects. If crossface is already established, focus intensive hand fighting with both hands to remove it before continuing escape. If removal fails, switch to ghost escape mechanics by turning away from opponent rather than toward them. → Leads to [[Positions/Side Control]]
 - **Opponent switches to knee on belly as you create space during escape sequence** (Effectiveness: Medium) - Your Response: Follow opponent's movement with your frames, pushing their knee off your belly while shrimping hips in the direction of their posted leg. The knee on belly transition is actually less stable than settled side control, creating better guard recovery opportunities as their base is compromised during the switch. → Leads to [[Positions/Side Control]]
 - **Opponent drives shoulder pressure into your face and pins your near arm against your body** (Effectiveness: High) - Your Response: Accept the trapped arm temporarily and focus on creating space with far side hip escape using only the free hand to frame against opponent's hip. Once space is created, extract the trapped arm by bridging to lift opponent's shoulder. If extraction fails, use ghost escape mechanics to turn away and create a different escape angle entirely. → Leads to [[Positions/Side Control]]
@@ -250,6 +258,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Side Control Escape?</p>
 
 ### 1. Trying to push opponent away using upper body strength
 
@@ -289,6 +299,8 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Side Control Escape (Attacker)?</p>
+
 **Week 1-2: Foundation Phase** - Frame mechanics and basic hip movement
 Practice establishing frames from side control bottom with no resistance. Partner maintains light position while you drill proper frame placement against hip and shoulder, bridge mechanics with feet planted and posterior chain engagement, and basic shrimping movement in both directions. Focus on technical precision of each component in isolation before combining them.
 
@@ -309,48 +321,12 @@ Execute escapes during positional sparring with partner using maximum effort to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it essential to turn your hips toward the opponent rather than just creating space with shrimping?
-**A**: Turning the hips toward the opponent is critical because guard recovery requires getting your knees between you and your opponent to insert knee shield or butterfly hooks. Simply creating linear space while remaining flat on your back allows the opponent to easily follow your movement and resettle their position, negating the space you created. By rotating the hips during the escape, you convert linear distance into the angular positioning needed for guard structure insertion. The hip rotation also changes the pressure dynamics - the opponent can no longer drive straight down through their chest onto yours, and must reorient their passing approach entirely.
-
-**Q2**: What is the proper timing relationship between the bridge and the hip escape?
-**A**: The bridge and shrimp must be executed as a connected sequence with no pause between them. First, you bridge powerfully upward to momentarily disrupt the opponent's base and create initial space. The critical timing occurs when landing from the bridge - you must immediately execute the hip escape without resetting to flat position. This window lasts only 1-2 seconds before the opponent can resettle their weight. The bridge creates the opportunity by lifting the opponent's pressure, and the immediate shrimp capitalizes on it before they can react and close the space. Inserting any delay between bridge and shrimp wastes the window entirely.
-
-**Q3**: How should you adjust your escape strategy when the opponent has achieved deep crossface control?
-**A**: When the opponent has deep crossface, continuing with the standard escape toward them becomes extremely difficult because the crossface prevents hip rotation in their direction. You should consider switching to ghost escape mechanics - turning away from opponent instead of toward them, creating space with far-side hip movement, then performing a granby roll or simply recovering to turtle before working back to guard. Alternatively, commit to intensive hand fighting using two-on-one grip breaks to strip the crossface before continuing the standard escape. Never fight directly against established crossface pressure with your neck; redirect your strategy to a different escape angle or remove the controlling grip first.
-
-**Q4**: What is the purpose of maintaining frames throughout the entire escape sequence?
-**A**: Frames serve multiple critical functions during side control escape: they prevent the opponent's weight from fully settling and crushing down on you, they maintain distance management creating the space necessary for hip movement, they provide structural leverage points for your bridges and shrimps, and they protect your neck from crossface and submission attempts. Importantly, frames are rigid skeletal structures using bone alignment, not muscular pushing efforts. Maintaining frames throughout the escape ensures you never give the opponent an opportunity to completely flatten you out and resettle. The transition between frames must be seamless - never remove one frame until the next structural barrier is already in place.
-
-**Q5**: Your opponent begins transitioning to knee on belly as you create space - how do you adjust your escape?
-**A**: When the opponent transitions to knee on belly, immediately redirect your frames to address the new threat rather than continuing the side control escape against empty space. Push against their knee with both hands while shrimping your hips toward the direction of their posted leg. The knee on belly position is inherently less stable than settled side control, which creates better guard recovery opportunities. If they commit to maintaining knee on belly, the space created allows you to potentially take their back as they focus on balance. The key is recognizing the transition early through the weight shift off your chest and adapting your frames immediately to the new pressure vector.
-
-**Q6**: What indicators tell you the optimal moment to initiate your escape sequence?
-**A**: The optimal escape windows occur when the opponent's weight shifts or their attention diverts. Specific tactile and visual indicators include: opponent reaching for a submission grip which lightens their hip pressure momentarily, opponent adjusting their base or switching their leg positioning to set up a transition, opponent moving toward north-south or mount which creates momentary instability during the shift, or opponent raising their head to survey the mat. You should feel for weight distribution changes through your frames - when pressure lifts even slightly from your hips, that is the cue to bridge. Avoid initiating when opponent has fully settled their weight with active crossface drive, as these attempts waste energy and fail against a stable base.
-
-**Q7**: What is the critical mechanical detail for generating maximum power in your bridge during the escape?
-**A**: Effective bridging power comes from driving through your feet and shoulder blades simultaneously while elevating your hips as the highest point. Plant both feet flat with heels close to your buttocks to maximize posterior chain engagement. Drive through your shoulder blades into the mat and thrust your hips upward toward the ceiling in one explosive movement. The force vector should be vertical initially to maximally disrupt the opponent's base, then angle toward your frames. The posterior chain - glutes, hamstrings, and lower back - generates the power, never the arms. Common failures include bridging with only hip movement while feet slide out losing traction, or pushing through hands instead of shoulders which wastes arm energy without generating meaningful displacement.
-
-**Q8**: How do you chain multiple escape attempts when your first attempt is defended?
-**A**: Chaining escapes requires maintaining frames and partial hip angle even when the first attempt fails, never fully resetting to flat position between attempts. If your initial bridge-and-shrimp is stopped, immediately bridge again from your current position. If the opponent blocks your hip turn toward them, use that blocked momentum to switch to ghost escape by turning away instead. If they follow your shrimp and resettle, wait for their weight to commit again then re-attempt with a different variation. The key principle is cumulative progress - each escape attempt should leave you in a slightly better position than before, even if incomplete. Advanced practitioners flow between standard escape, ghost escape, underhook recovery, and knee push escape based on real-time tactile feedback from the opponent's defensive reactions.
-
-**Q9**: Your opponent pins your near arm against your body with shoulder pressure - what are your immediate options?
-**A**: When the near arm is pinned, do not waste energy trying to rip it free directly against the opponent's shoulder pressure. Instead, accept the trapped arm temporarily and shift your escape strategy to the far side. Use your free hand to frame against the opponent's hip and execute a far-side hip escape, creating space with your free side first. Once space exists, either extract the trapped arm by bridging to lift the opponent's shoulder off it, or commit to a ghost escape variation where you turn away from the opponent using the space created on the far side. If the opponent follows to maintain the pin, their weight shift often opens the near-side space, allowing you to pull the arm free and resume standard escape mechanics.
-
-**Q10**: What role does breathing play in side control escape execution and how should you manage it?
-**A**: Breathing management is critical because the opponent's chest pressure compresses your ribcage, and panic breathing or breath-holding rapidly leads to exhaustion that makes escape impossible. Breathe through your diaphragm in short, controlled exhales and inhales, timing your inhales during the momentary pressure relief that occurs during your bridges. Exhale forcefully during the bridge and shrimp to engage your core musculature and generate maximum power. Never hold your breath during escape attempts as this triggers the sympathetic fight-or-flight response that causes energy-wasting tension throughout your body. Controlled breathing also maintains mental clarity for recognizing timing windows and selecting appropriate escape variations, which is impossible when oxygen-deprived and panicking.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Side Control Escape?</p>
 
 When practicing side control escapes, controlled application of pressure is essential to prevent injury to both training partners. The top player should apply steady, progressive pressure rather than explosive dropping weight, as sudden compression can cause rib injuries, breathing difficulties, or sternum contusions for the bottom player. The bottom player must communicate immediately by tapping or verbally signaling if pressure becomes painful or breathing is compromised beyond their tolerance. When executing bridges, ensure adequate mat space exists and be aware of nearby training pairs to avoid collisions during explosive movements. Hip escape movements should be controlled, especially when training with newer practitioners, to prevent knee or hip strain from unexpected directional forces. Build tolerance to pressure gradually over weeks rather than immediately drilling under maximum pressure. Both partners should maintain constant awareness of the other's safety and be prepared to release pressure or pause the drill at any sign of distress.
 

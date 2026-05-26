@@ -213,11 +213,11 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 
 - [[Transitions/Berimbolo Entry]] - Similar rolling mechanics and inversion principles
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi follow-up submission from back control
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi follow-up submission from back control
 
-- [[Submissions/Armbar from Back]] - Follow-up submission option from back control
+- [[Transitions/Armbar from Back Transition]] - Follow-up submission option from back control
 
 - [[Positions/Crab Ride]] - Alternative back take control position from turtle
 

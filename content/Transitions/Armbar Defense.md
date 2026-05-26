@@ -42,7 +42,7 @@ Successful armbar defense demands an understanding of the submission's mechanics
 | Success | [[Positions/Closed Guard]] | 45% |
 | Success | [[Positions/Half Guard]] | 15% |
 | Failure | [[Positions/Armbar Control]] | 30% |
-| Counter | [[game-over]] | 10% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -208,9 +208,9 @@ Armbar defense is integrated throughout the entire BJJ positional hierarchy, as 
 
 - [[Transitions/Elbow Escape to Guard]] - Foundational escape movement that supports armbar defense mechanics
 
-- [[Submissions/Armbar from Mount]] - Understanding offensive technique improves defensive recognition
+- [[Armbar from Armbar Control]] - The submission finish being defended against - understanding finishing mechanics informs defensive timing and priorities
 
-- [[Submissions/Armbar from Guard]] - Studying guard armbar mechanics enhances defensive options
+- [[Transitions/Back Take from Armbar]] - Transition opportunity when opponent overcommits to armbar finish during your escape
 
 - [[Transitions/Bridge and Roll]] - Mount escape that can be combined with armbar defense
 
@@ -222,7 +222,7 @@ Armbar defense is integrated throughout the entire BJJ positional hierarchy, as 
 
 - [[Positions/Armbar Control]] - Position being escaped from - understand attacker mechanics
 
-- [[Positions/Triangle Control]] - Common transition threat during armbar defense
+- [[Positions/Triangle Control]] - Common transition threat during armbar defense when opponent switches submissions
 
 - [[Positions/Omoplata Control]] - Alternative attack opponent may transition to during defense
 

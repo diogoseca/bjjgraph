@@ -188,6 +188,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rolling Back Take?</p>
+
 - Maintain constant connection with opponent's upper body throughout the roll
 - Use momentum and gravity rather than pure strength to complete the rotation
 - Control the near shoulder to prevent opponent from turning into you during the roll
@@ -203,6 +205,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rolling Back Take?</p>
+
 - Opponent in defensive turtle position with head down and elbows tight
 - Strong grip on opponent's far shoulder or collar
 - Your chest pressure on opponent's upper back
@@ -216,6 +220,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rolling Back Take step by step?</p>
 
 1. **Establish upper body control**: From top turtle, secure a strong grip on the opponent's far shoulder with your near arm reaching under their armpit, while your other hand controls their near shoulder or wraps around their head. Your chest should be heavy on their upper back, preventing them from standing up.
 2. **Load your weight onto opponent**: Shift your bodyweight forward and slightly to the side you intend to roll, loading your chest onto the opponent's upper back and shoulder. Your head should be positioned tight to their shoulder blade with your chin tucked. This loading creates the foundation for the rolling momentum.
@@ -245,6 +251,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rolling Back Take?</p>
+
 - **Opponent posts their far arm wide to prevent the roll** (Effectiveness: High) - Your Response: Switch to a traditional back take by removing their posted arm and inserting your near hook, or use their extended arm as an opportunity to transition to an armbar or crucifix position → Leads to [[Positions/Turtle]]
 - **Opponent turns into you during the roll to reestablish guard** (Effectiveness: Medium) - Your Response: Maintain tight shoulder control and redirect to a scramble position or mount if they turn. Use your momentum to stay on top of the rotation and prevent them from recovering guard → Leads to [[Positions/Turtle]]
 - **Opponent bases out with their head to stop the rotation** (Effectiveness: Medium) - Your Response: If they prevent the roll, immediately transition to a crucifix position by controlling their posted arm, or switch to a traditional turtle breakdown by removing their posting base → Leads to [[Positions/Turtle]]
@@ -256,6 +264,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rolling Back Take?</p>
 
 ### 1. Rolling without securing upper body control first
 
@@ -295,6 +305,8 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rolling Back Take (Attacker)?</p>
+
 **Week 1-2: Mechanics Introduction** - Basic rolling motion and body mechanics
 Practice the forward roll motion solo to develop comfort with the rotation. Progress to practicing with a completely passive partner in turtle position, focusing solely on maintaining connection and completing the rotation smoothly. No resistance at this stage.
 
@@ -315,48 +327,12 @@ Incorporate the rolling back take into live rolling from top turtle position. Pa
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element to maintain throughout the rolling back take?
-**A**: The most critical element is maintaining constant upper body connection with the opponent throughout the entire rotation. If you release your grips or allow separation during the roll, the opponent can easily escape and the technique fails. Your arms should remain locked around their shoulder/head throughout the 180-degree rotation.
-
-**Q2**: When is the optimal timing to initiate the rolling back take?
-**A**: The optimal timing is when the opponent is in a static defensive turtle position with their weight neutral or slightly backward, or when they push back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure.
-
-**Q3**: How should you respond if the opponent posts their far arm wide to prevent the roll?
-**A**: If the opponent posts their far arm, you should abandon the rolling back take and switch to alternative attacks. Options include transitioning to a traditional back take by removing their posted arm and inserting your near hook, attacking the extended arm with an armbar, or transitioning to a crucifix position by controlling their posted arm while maintaining back pressure.
-
-**Q4**: What is the purpose of loading your weight onto the opponent before initiating the roll?
-**A**: Loading your weight serves two purposes: first, it drives the opponent's weight slightly backward, creating the ideal weight distribution for the roll; second, it creates the initial momentum and connection needed for a smooth rotation. The loaded weight also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll.
-
-**Q5**: Why is it important to begin hooking during the landing phase rather than after you've fully landed?
-**A**: Beginning to hook during the landing phase is crucial because it prevents the opponent from having any window of opportunity to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions.
-
-**Q6**: What adjustment should you make when attempting the rolling back take in no-gi situations?
-**A**: In no-gi situations, you must adapt your grips to use a seat belt or harness control instead of collar and shoulder grips. Your forearms and biceps create connection rather than hands gripping fabric. The core mechanics remain the same, but you need tighter body connection and may need to execute the roll more explosively due to reduced grip security.
-
-**Q7**: Your opponent begins shifting laterally as you set up the roll - how do you adjust your angle of attack?
-**A**: When the opponent shifts laterally, you must realign your chest pressure to stay centered on their upper back before attempting the roll. Follow their lateral movement by adjusting your base, then re-load your weight. If they continue moving, use their lateral momentum to your advantage by timing the roll to coincide with their weight shift toward your intended rolling direction, converting their defensive movement into your offensive momentum.
-
-**Q8**: What grip configuration provides the strongest connection during the rolling motion?
-**A**: The strongest configuration is an over-under grip with one arm reaching under the opponent's far armpit to grip their far shoulder while the other arm wraps over their near shoulder or around their head. This creates a clamp that locks your chest to their upper back. In gi, gripping the far collar with the under arm and controlling the near shoulder with the over arm provides maximum security. The key is that both arms create opposing pressure that prevents separation during rotation.
-
-**Q9**: The roll stalls halfway through and you end up on your side with your opponent still turtled - what is your immediate recovery plan?
-**A**: If the roll stalls midway, do not try to complete it from a compromised position. Instead, immediately use your top arm to maintain shoulder control and pull yourself back to top turtle position. Re-establish chest pressure and reset your grips. From there, you can either reattempt the roll with better momentum or switch to an alternative attack like a traditional hook insertion or front headlock transition. Forcing a stalled roll typically results in losing top position entirely.
-
-**Q10**: How does the direction of your chin and head positioning affect the success of the roll?
-**A**: Your chin must be tucked tight against the opponent's shoulder blade throughout the roll, with your head positioned on the side you intend to roll toward. If your head is too high or extended, you lose the tight connection needed for a smooth rotation and risk your head catching on the mat. The tucked chin also protects your own neck during the roll. Your head essentially leads the rotation, guiding your body through the arc while maintaining the chest-to-back seal that prevents separation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rolling Back Take?</p>
 
 The rolling back take requires controlled execution to ensure safety for both practitioners. Apply smooth, progressive momentum rather than explosive jerking motions that could injure the neck or spine. Ensure adequate mat space exists on the side you intend to roll to prevent injury from hitting obstacles or mat edges. When practicing, gradually build up to full-speed execution, starting with slow-motion repetitions to develop proper mechanics. Partners should tap if they feel uncomfortable during the rotation or if neck pressure becomes excessive. The practitioner executing the roll should be aware of their landing and avoid driving their weight into the opponent's neck or head. Both practitioners should maintain awareness of other training partners to avoid collisions during the dynamic rolling motion.
 

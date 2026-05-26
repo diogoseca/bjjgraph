@@ -194,6 +194,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Kesa Gatame?</p>
+
 - Turn INTO the opponent rather than away—the escape direction is counterintuitive but exploits Kesa Gatame's inherent geometric weakness
 - Control the opponent's far posting arm before initiating rotation to prevent them from basing out and blocking your turn
 - Time the back take attempt during weight shifts—when opponent sits back heavily or leans forward for submission attempts
@@ -208,6 +210,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Kesa Gatame?</p>
+
 - Far arm must be free enough to create a structural frame against the opponent's shoulder, face, or jaw
 - Ability to generate hip rotation toward the opponent despite chest pressure through bridging or sit-up mechanics
 - Opponent's back exposed due to the perpendicular body angle inherent to Kesa Gatame positioning
@@ -220,6 +224,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Kesa Gatame step by step?</p>
 
 1. **Establish Defensive Frame**: Use your far arm to create a structural frame against the opponent's shoulder, jaw, or face to prevent smothering pressure and create initial space for hip movement. This frame uses bone alignment rather than muscular effort, pressing your forearm across their face or under their chin to maintain breathing room while you prepare the rotation.
 2. **Control Opponent's Far Arm**: With your framing hand or by walking it down the opponent's body, control their far arm at the wrist, elbow, or sleeve to eliminate their ability to post when you initiate the turn. If the far arm is unavailable, grip their belt, waistband, or far hip to anchor your rotation. Without controlling this posting hand, the opponent will simply base out and block your bridge.
@@ -250,6 +256,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Kesa Gatame?</p>
+
 - **Opponent drops weight and sprawls hips back to re-establish heavy chest pressure** (Effectiveness: High) - Your Response: If they sprawl before you begin rotating, abandon the back take and switch to bridge-and-roll or ghost escape. If they sprawl mid-rotation, use the momentum of their sprawl to continue under them and complete the turn by threading underneath rather than around. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Opponent transitions to mount by stepping their far leg over your body during your turn-in** (Effectiveness: Medium) - Your Response: Use your outside leg to hook their stepping leg before it clears your body, pulling them back into half guard rather than allowing full mount. If mount is established, you have improved your escape angle and can immediately work mount escapes from a better position than Kesa Gatame. → Leads to [[Positions/Mount]]
 - **Opponent releases head control and posts both hands on the mat to prevent being taken over** (Effectiveness: Medium) - Your Response: Their release of head control is actually a gift—immediately execute a hip escape to recover guard since the primary control mechanism of Kesa Gatame has been voluntarily abandoned. If they re-engage head control, resume the back take sequence. → Leads to [[Positions/Side Control/Kesa Gatame]]
@@ -261,6 +269,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Kesa Gatame?</p>
 
 ### 1. Turning away from the opponent by shrimping rather than turning into them
 
@@ -300,6 +310,8 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Kesa Gatame (Attacker)?</p>
+
 **Solo Movement Drilling** - Hip rotation and bridging mechanics
 Practice the bridge-and-turn motion without a partner, focusing on the hip rotation from supine to prone while maintaining tight body position. Drill the sequence of bridge, hip turn, and thread-behind movement patterns until the rotation feels fluid. Perform 20 repetitions each side, emphasizing smooth continuous motion rather than explosive bursts.
 
@@ -320,42 +332,12 @@ Integrate the back take from Kesa Gatame into full live rolling sessions. Focus 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal timing window to initiate the back take from Kesa Gatame?
-**A**: The best timing windows occur during weight shifts: when the opponent sits back heavily to consolidate their control (creating space under their chest) or when they lean forward to attempt submissions like americana or arm triangle (shifting their base forward). Both scenarios reduce the opponent's ability to resist the rotation. Avoid initiating when the opponent's weight is stacked directly and evenly over your sternum, as bridging against maximal centered pressure is inefficient.
-
-**Q2**: Why is controlling the opponent's far arm critical before initiating the rotation?
-**A**: The far arm is the opponent's primary posting tool. If it remains free when you bridge and turn, they simply post their hand on the mat to block the rotation, nullifying your bridge while maintaining Kesa Gatame. Controlling the far arm at the wrist, elbow, or sleeve removes this defensive option and ensures your bridge momentum translates into actual rotation rather than being absorbed by their post.
-
-**Q3**: What makes turning into the opponent more effective than turning away in Kesa Gatame?
-**A**: Turning away (standard shrimping) is ineffective because Kesa Gatame's perpendicular angle means your hip escape pushes you directly into the opponent's hips rather than creating usable distance. Turning into the opponent exploits the geometric weakness unique to Kesa Gatame: the exposed back. By rotating toward them, you move along the path of least resistance and target the one direction where their control is structurally weakest.
-
-**Q4**: What is the first control point you must establish after reaching the opponent's back?
-**A**: The bottom hook—inserting your foot inside the opponent's near-side thigh—is the absolute first priority after reaching the back. This single hook prevents the opponent from spinning away or turning to face you, which is their most immediate defensive reaction. Without a hook anchoring your position, even a perfect harness grip cannot prevent them from rotating out of your control within seconds.
-
-**Q5**: Your opponent begins stepping over to mount as you turn into them—how do you adjust?
-**A**: Use your outside leg to hook their stepping leg before it clears your body, catching it at the knee or thigh. This blocks the mount transition and pulls them into half guard, which is a significant positional improvement over Kesa Gatame. From half guard you can work standard escapes or even continue pursuing the back take through different pathways like the back take from half guard bottom.
-
-**Q6**: What are the critical mechanical differences between the sit-up and bridge-and-turn variants?
-**A**: The sit-up variant works when the opponent sits back with their weight on their own hips, creating space above you. You sit directly up into their body using core strength rather than bridging force. The bridge-and-turn variant is for opponents driving heavy forward pressure. It requires explosive hip extension directed at 45 degrees toward the opponent to disrupt their stacked weight before rotating. Choose based on where the opponent's weight is distributed.
-
-**Q7**: How do you handle the opponent transitioning to North-South when they feel your rotation starting?
-**A**: Follow their movement with your hips, maintaining chest contact and preventing them from establishing full North-South control. If they commit to circling toward your head, use their movement momentum to assist your own rotation—their circling can actually help you get behind them if you track their movement with your hips rather than staying static. If they complete the North-South transition, you have at least escaped Kesa Gatame.
-
-**Q8**: What grip should you prioritize in the gi versus no-gi when executing this back take?
-**A**: In the gi, a cross-collar grip on the opponent's far lapel provides continuous pulling leverage throughout the rotation and transitions directly into collar-based attacks from back control. In no-gi, an overhook around the opponent's far arm or a grip behind their neck gives you the pulling handle needed for rotation. In both cases, the grip serves the same function: anchoring your rotation and preventing the opponent from creating separation during the turning sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Kesa Gatame?</p>
 
 The Back Take from Kesa Gatame involves significant rotational forces on the spine and neck during the turning sequence. During drilling, ensure smooth controlled rotations rather than explosive jerking movements that could strain the cervical spine. Partners should communicate immediately if neck pressure becomes excessive when the bottom player is turning through the head-trapped position. When practicing at full speed, be mindful of knee and ankle positions during the hip rotation to prevent joint injuries from legs getting caught underneath. The bridge-and-turn variant in particular requires careful progressive resistance training to prevent the bottom player from over-rotating and landing awkwardly on their training partner.
 

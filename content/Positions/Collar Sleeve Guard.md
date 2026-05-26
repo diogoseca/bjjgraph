@@ -38,7 +38,7 @@ The position demands active hip movement and constant angle adjustment to remain
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Cross-collar grip controls posture and creates rotational vulnerability

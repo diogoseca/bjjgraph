@@ -188,6 +188,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing 50-50 Guard to Backside 50-50?</p>
+
 - Inside leg position is the rotational pivot: your lead leg stays locked inside the entanglement as an anchor while your body circles around it
 - Maintain constant leg entanglement pressure throughout the rotation to prevent opponent from extracting during the transition
 - Time the rotation when opponent is focused on heel defense, grip fighting, or any distraction that limits their hip mobility
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting 50-50 Guard to Backside 50-50?</p>
+
 - Established top position in standard 50-50 Guard with your hips higher than opponent's
 - Inside leg control maintained with your lead shin or calf creating pressure against opponent's leg structure
 - At least one controlling grip on opponent's ankle, heel, or lower leg to anchor the rotation
@@ -214,6 +218,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute 50-50 Guard to Backside 50-50 step by step?</p>
 
 1. **Secure anchor grip**: From 50-50 Guard Top, establish a strong controlling grip on your opponent's far ankle or heel with your near hand. This grip serves dual purpose: it threatens a heel hook to occupy their defensive attention, and it anchors your rotation by preventing them from spinning to match your movement. Your far hand posts on the mat or on their hip for base.
 2. **Confirm inside leg position**: Verify your inside leg is locked tight against the inner surface of opponent's leg structure. This leg becomes the pivot point for your entire rotation. Press your shin firmly inward to create a fixed axis. If inside position has been compromised, re-establish it before attempting the rotation, as the transition fails without this anchor.
@@ -243,6 +249,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter 50-50 Guard to Backside 50-50?</p>
+
 - **Opponent hip escapes and turns to face you during the rotation, re-establishing standard 50-50 alignment** (Effectiveness: High) - Your Response: If they begin turning, immediately accelerate your rotation and drive chest pressure forward to beat their turn. Alternatively, abandon the rotation and attack the heel hook while their focus is on turning rather than heel defense. Their hip movement during the counter often exposes the heel. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent breaks your anchor grip on their ankle and begins extracting their leg from the entanglement** (Effectiveness: Medium) - Your Response: Immediately re-grip their leg at a different control point such as above the knee or on the shin. If re-gripping fails, switch to Back Take from 50-50 since their leg extraction creates upper body exposure. Their focus on grip fighting their leg free leaves their back vulnerable. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent bridges explosively and attempts to sweep you during the rotation when your base is temporarily compromised** (Effectiveness: Medium) - Your Response: Post immediately with your free hand and drive your hips low to re-establish base. If the sweep succeeds partially, use the momentum to continue your rotation rather than fighting it, potentially arriving in Backside 50-50 from a different angle. Stay connected to the entanglement throughout. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing 50-50 Guard to Backside 50-50?</p>
 
 ### 1. Losing inside leg position during the rotation by allowing the pivot leg to slip to the outside
 
@@ -288,6 +298,8 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train 50-50 Guard to Backside 50-50 (Attacker)?</p>
+
 **Solo Movement Pattern** - Hip arc mechanics without resistance
 Practice the hip walking arc on a grappling dummy or with a compliant partner who holds still. Focus on tracing a smooth semicircle with your hips while maintaining leg entanglement tension. Perform 20 repetitions per side, emphasizing small incremental steps and the immediate chest pressure at completion.
 
@@ -308,42 +320,12 @@ Full resistance rounds where top player chains the Backside 50-50 transition wit
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What serves as the rotational pivot point during the transition, and why is it critical?
-**A**: Your inside leg serves as the rotational pivot. It stays locked inside the entanglement structure, pressing inward against the opponent's leg while your body circles around it. Without this fixed pivot, the rotation has no axis, causing you to either lose entanglement tension or create gaps that allow leg extraction. Every other element of the transition depends on this anchor remaining stable throughout.
-
-**Q2**: Your opponent is aggressively grip fighting your hands in standard 50-50. Is this a good or bad time to initiate the rotation?
-**A**: This is an excellent time to initiate the rotation. When your opponent is focused on hand fighting, their hips are typically static because their attention and physical effort are directed toward their upper body. Their reduced hip mobility creates the ideal window for the hip walking arc. Secure one anchor grip during the exchange, then begin the rotation while they are still processing the grip battle.
-
-**Q3**: What is the most critical mechanical detail that must happen simultaneously with the final step of the rotation?
-**A**: Chest-to-back pressure must be established simultaneously with the completion of the rotational arc. There cannot be a gap between arriving behind the opponent and establishing forward driving pressure. Even a one-second delay allows an experienced opponent to turn and re-face you, negating the transition. The final hip step and the chest pressure drive forward should be one continuous motion.
-
-**Q4**: You begin the rotation but feel your entanglement loosening around the opponent's trapped leg. What should you do?
-**A**: Immediately pause the hip walk and consciously squeeze your legs tighter around the opponent's trapped leg before continuing. The rotation naturally creates momentary loosening because your hip angle changes relative to the entanglement. Counter this by actively tightening your triangle leg configuration at each step. If the loosening is severe, stop entirely, re-consolidate the entanglement from standard 50-50, and attempt again with more deliberate tension maintenance.
-
-**Q5**: Why should the hip walk use small incremental steps rather than one explosive jump behind the opponent?
-**A**: Small steps maintain constant entanglement tension and pressure throughout the rotation, preventing gaps that allow extraction. Large jumps telegraph intent, giving opponents time to counter with hip escape or matching rotation. Incremental movement is also harder for the opponent to detect, so they often do not realize you are circling behind them until the transition is nearly complete. The three-to-five-second smooth arc is tactically superior to a one-second explosive repositioning.
-
-**Q6**: Your opponent begins matching your rotation by spinning in the same direction. How do you address this counter?
-**A**: You have two immediate options. First, reverse your rotation direction to catch them spinning the wrong way, which often works because their momentum carries them further into the counter even after you change direction. Second, increase downward hip pressure to pin their hips and prevent the matching spin. If neither works and they successfully re-face you, you return to standard 50-50 with no positional loss. Reset and create a new timing window by threatening a heel hook, then reattempt when they commit to defending the submission.
-
-**Q7**: What grip must be maintained throughout the entire rotation and why?
-**A**: At least one anchor grip on the opponent's lower leg, ankle, or heel must be maintained throughout the entire rotation. This grip serves two purposes: it prevents the opponent from spinning to match your rotation by anchoring their lower body in place, and it maintains submission threat continuity so you can immediately attack the heel upon arriving in Backside 50-50. Releasing this grip mid-rotation gives the opponent freedom to turn with you or extract their leg.
-
-**Q8**: How do you create the ideal timing window for this transition when your opponent is being defensively disciplined?
-**A**: Threaten a heel hook from standard 50-50 to force a defensive commitment. When the opponent focuses on hiding their heel, tucking their knee, or grip fighting to protect the heel, their hips become static and their attention is directed away from monitoring your positional changes. This defensive reaction creates the ideal window. The heel hook threat does not need to be a serious finishing attempt; even a credible setup attempt is enough to shift their focus and open the rotational pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for 50-50 Guard to Backside 50-50?</p>
 
 The Transition to Backside 50-50 involves rotational forces around knee and ankle joints that can create unintended torque if executed carelessly. Always maintain controlled movement during the hip walk rather than explosive jerking motions that could hyper-rotate the entangled knee. In training, communicate with your partner before drilling this transition at speed, as the rotation can catch defenders off-guard and create sudden pressure on their knee ligaments. If your partner indicates discomfort during the entanglement tightening phase, immediately reduce pressure and adjust leg positioning. Never continue the rotation if you feel your own or your partner's knee being loaded in a twisting direction that does not align with natural joint movement.
 

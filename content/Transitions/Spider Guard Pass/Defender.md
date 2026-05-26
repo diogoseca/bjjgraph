@@ -168,6 +168,8 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Spider Guard Pass?</p>
+
 - Passer establishes strong upright posture with wide base and begins gripping your wrist to strip your sleeve control
 - Passer pushes your knee down toward the mat on one side while pulling their arm back in a straight line to extract from your spider hook
 - Passer breaks one grip and immediately pins your knee, then reaches to address your second grip with their freed hand
@@ -179,6 +181,8 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Spider Guard Pass?</p>
 
 - Maintain at least one deep sleeve grip at all times—losing both grips simultaneously makes guard recovery nearly impossible
 - Keep hips elevated off the mat and mobile to create angles that prevent the passer from flattening you
@@ -193,6 +197,8 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Spider Guard Pass?</p>
 
 ### 1. Re-grip the stripped sleeve immediately using foot pressure to prevent arm withdrawal
 
@@ -237,6 +243,8 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Spider Guard Pass?</p>
+
 ### → [[Positions/Spider Guard]]
 
 Retain or re-establish grips by fighting for wrist control the moment the passer begins stripping. Use foot pressure on their biceps to prevent arm withdrawal. If one grip breaks, immediately transition the compromised side to lasso or DLR to maintain a guard structure. Keep hips mobile and elevated to create angles that prevent the passer from flattening you.
@@ -252,6 +260,8 @@ Execute a sweep as the passer commits weight forward during their passing attemp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Spider Guard Pass?</p>
 
 ### 1. Passively allowing grips to be stripped without fighting for retention or transitioning guards
 
@@ -286,6 +296,8 @@ Execute a sweep as the passer commits weight forward during their passing attemp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Spider Guard Pass?</p>
+
 **Week 1-2: Grip Retention and Recovery** - Maintaining spider guard grips under pressure and re-gripping after breaks
 Partner attempts systematic grip breaks while you focus on grip retention techniques: re-gripping immediately after breaks, using foot pressure to prevent arm withdrawal, and maintaining hip elevation throughout. Drill re-gripping both same-side and cross-side at increasing resistance levels.
 
@@ -302,29 +314,6 @@ Positional sparring starting in spider guard bottom. Partner uses full passing a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The passer has just broken your right sleeve grip and is reaching to pin your right knee—what should you do immediately?
-**A**: You have a critical window before the knee is pinned. Either re-grip the right sleeve by using your right foot to push their right arm back into range while your hand shoots for the cuff, or immediately thread your right leg under and over their right arm to establish lasso guard on that side. The worst option is to do nothing and allow the knee pin, as this gives the passer a stable platform to address your remaining left-side spider hook.
-
-**Q2**: Why is transitioning to an alternative guard preferable to re-establishing spider guard once both grips are broken?
-**A**: Once both grips are broken, the passer has already advanced past the control range where spider guard is effective. Trying to re-establish spider guard requires getting your feet back on their biceps and re-gripping their sleeves, which is nearly impossible when they are driving forward with pressure and controlling your knees. Transitioning to half guard, closed guard, or seated guard works with the passer's forward momentum rather than against it, giving you a much higher probability of maintaining a guard structure.
-
-**Q3**: How does threatening sweeps help defend against the spider guard pass?
-**A**: Sweep threats force the passer to address your attacks before continuing their passing sequence. When you load a balloon sweep or scissor sweep, the passer must base out, adjust their weight distribution, or abandon their grip-breaking attempt to defend. This interrupts their rhythm and buys you time to re-establish grips or transition guards. A passer who only needs to worry about grip breaking can execute their sequence methodically, but one who faces sweep threats at every stage is forced into reactive, improvised passing that is far less effective.
-
-**Q4**: What is the optimal timing to attempt a sweep against someone passing your spider guard?
-**A**: The highest-percentage sweep timing occurs during two specific moments: first, when the passer is actively stripping a grip and their weight shifts backward or to one side from the effort of breaking your control; second, when the passer commits weight forward after breaking both grips to initiate their pressure pass. In both cases, their weight is committed in a specific direction, making them vulnerable to sweeps that redirect their momentum. Attempting sweeps when the passer has stable base and centered weight results in failed attempts and wasted energy.
-
-**Q5**: Why should you never allow both knees to be pinned to the mat simultaneously?
-**A**: Both knees pinned to the mat means your hips are flat and immobilized, which eliminates every defensive option available to you. You cannot create angles for sweeps, cannot insert knee shields for guard recovery, cannot elevate your hips for balloon sweeps, and cannot hip escape to create space. The passer can then freely choose their passing direction and slide through to side control with minimal resistance. Keeping at least one knee free and mobile preserves your ability to create frames, transition guards, and threaten sweeps.
-
-
-
-</section>
 
 
 </main>

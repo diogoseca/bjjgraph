@@ -162,6 +162,8 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Chill Dog?</p>
+
 - Bottom player's near-side hand reaches across to grip your far wrist or forearm during what appears to be normal grip fighting
 - Subtle weight shift in the bottom player toward their far hand and near knee, loading the near-side leg for the sit-out kick
 - Change in the bottom player's breathing to held breath or sharp exhale signaling imminent explosive movement
@@ -174,6 +176,8 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Chill Dog?</p>
 
 - Distribute weight through hip pressure rather than driving chest forward, denying the forward commitment the sweep exploits
 - Keep at least one hand free and ready to post at all times to maintain base during any reversal attempt
@@ -188,6 +192,8 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Chill Dog?</p>
 
 ### 1. Drop hips straight down and sprawl to remove the forward weight commitment the sweep requires
 
@@ -225,6 +231,8 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Chill Dog?</p>
+
 ### → [[Positions/Rubber Guard/Chill Dog]]
 
 Prevent the sweep by managing your weight distribution and denying the arm control setup. Keep your hips heavy and centered rather than driving chest forward. When you detect the arm grip attempt, immediately strip it and control the bottom player's near hip. This shuts down the sweep at its foundation without creating openings for other escapes.
@@ -240,6 +248,8 @@ If the sweep attempt partially succeeds in breaking the Chill Dog frame but fail
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Chill Dog?</p>
 
 ### 1. Driving forward with heavy chest pressure without maintaining hip base behind the center of gravity
 
@@ -269,10 +279,12 @@ If the sweep attempt partially succeeds in breaking the Chill Dog frame but fail
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Chill Dog?</p>
+
 **Phase 1: Sweep Recognition** - Identifying sweep setup indicators versus normal Chill Dog defensive movement
 Partner alternates between standard Chill Dog defensive grip fighting and actual sweep setups. You must identify and verbally call out when the sweep setup is happening versus normal defense. Do not counter - focus purely on recognition accuracy. Develop sensitivity to the far-side arm reach, loading weight shift, and breathing changes that distinguish sweep preparation from standard defense.
 
-**Phase 2: Weight Distribution Management** - Maintaining safe pressure distribution while retaining attacking capability
+**Phase 2: Center of Gravity Management** - Maintaining safe pressure distribution while retaining attacking capability
 Practice maintaining Chill Dog top pressure with deliberate focus on hip-heavy rather than chest-forward weight distribution. Partner provides feedback on whether your pressure feels exploitable for the sweep. Alternate between attacking grips and maintaining safe weight to build the habit of pressure awareness. Drill posting with the free hand while keeping one grip active.
 
 **Phase 3: Counter Application** - Applying specific counters at progressive resistance levels
@@ -285,29 +297,6 @@ Positional sparring from Chill Dog top at competition intensity. Partner uses th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution should you maintain to prevent the sweep while still being able to attack from Chill Dog top?
-**A**: Distribute your weight primarily through your hips onto the bottom player's lower back and hip area rather than forward through your chest onto their upper back. This hip-heavy distribution provides attacking pressure without creating the forward weight commitment the sweep exploits. Keep your center of gravity behind the bottom player's body while maintaining enough forward contact to control their movement and attack with grip fighting. This balanced distribution allows offensive attacks while denying the fundamental mechanical vulnerability the sweep requires.
-
-**Q2**: You feel the bottom player grab your far wrist - should you immediately strip the grip or wait to see what they do with it?
-**A**: Strip it immediately. The far-side arm control is the single most important setup element for the sweep, and allowing it to remain even briefly gives the bottom player the option to initiate at a moment of their choosing. Every second the grip stays established increases the danger because the bottom player only needs a brief window of forward weight commitment combined with the grip to execute the sweep. Stripping the grip preemptively eliminates the threat entirely and forces them to re-establish it before they can attempt again.
-
-**Q3**: The bottom player's sit-out has already kicked through and you feel your alignment breaking - what is your emergency response?
-**A**: If the sit-out has progressed past the point where hip dropping can stop it, immediately post your free hand as wide as possible on the mat to create a base against the rotation. Simultaneously pull your hips back and away from the sweep direction to reduce the rotational force. If neither of these stops the reversal, concede the position change and immediately begin working your mount escape protocols rather than fighting the sweep at a mechanically hopeless stage. A controlled transition to bottom mount is better than fighting the reversal and landing awkwardly.
-
-**Q4**: How do you differentiate between the sweep setup and the bottom player simply defending with normal grip fighting from Chill Dog?
-**A**: Normal defensive grip fighting from Chill Dog focuses on stripping your grips and protecting the neck and hips - the bottom player's hands stay close to their own body and work defensively. Sweep setup grip fighting specifically targets your far-side arm with a reaching motion across their body, and is usually accompanied by a loading weight shift onto the far hand and near knee. The cross-body reach is the diagnostic indicator because defensive grip fighting almost never requires the bottom player to reach across to control your far limb.
-
-**Q5**: After successfully defending the sweep, the bottom player's Chill Dog frame is broken - how do you capitalize?
-**A**: A broken Chill Dog frame is the highest-value outcome of a defended sweep because the defensive shell that was protecting them is now compromised. Immediately attack the exposed elements: if their elbows have separated from their knees, insert a hook for back control. If they are flattened from the failed sweep attempt, drive chest pressure and work for the harness or seatbelt grip. If they have turned partially from the sit-out, follow the turn to take the back. The key is attacking immediately before they can re-establish the compact defensive posture.
-
-
-
-</section>
 
 
 </main>

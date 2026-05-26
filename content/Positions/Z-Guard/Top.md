@@ -169,6 +169,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Position Definition
 
+<p class="section-subtitle">What is Z-Guard (Top)?</p>
+
 - Top player's chest and shoulder pressure directed toward bottom player's knee shield, attempting to collapse the frame while maintaining forward pressure through the hips and maintaining proper weight distribution
 - Bottom player's shin positioned horizontally across top player's shoulder or upper chest, creating a barrier with the knee bent at approximately 90 degrees and foot placed on top player's hip or thigh to maintain distance
 - Top player's base distributed with one or both knees on the mat, hands controlling grips on bottom player's upper body or pants, maintaining posture and wide base to prevent being swept or off-balanced
@@ -181,6 +183,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Z-Guard (Top)?</p>
+
 - Top player has established position on top of bottom player's half guard with knee shield
 - Bottom player has successfully inserted knee shield frame to create distance
 - Top player maintains base and posture to prevent sweeps
@@ -192,6 +196,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Z-Guard?</p>
 
 - Maintain constant forward pressure toward the knee shield to prevent bottom player from creating additional space
 - Control the underhook battle - prevent bottom player from securing deep underhook while establishing your own control
@@ -207,6 +213,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Z-Guard (Top)?</p>
 
 **If bottom player has strong knee shield frame with deep underhook:**
 - Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
@@ -235,6 +243,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Z-Guard?</p>
 
 ### 1. Standing too upright and allowing bottom player to extend knee shield fully
 
@@ -274,6 +284,8 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Z-Guard attacks?</p>
+
 ### Knee Shield Collapse Drill
 
 Partner maintains strong knee shield while top player practices various methods to collapse the frame - crossface, underhook control, hip pressure. Work for 2-minute rounds focusing on systematic breakdown.
@@ -295,7 +307,7 @@ Both players fight exclusively for underhook control from Z-Guard position. Winn
 **Duration**: 4 rounds x 3 minutes
 
 
-### Grip Fighting from Z-Guard
+### Grips from Z-Guard
 
 Positional sparring starting from Z-Guard with emphasis on grip fighting. Top player scores points for establishing passing grips, bottom player scores for defensive grips. Progress to full passing attempts after grip establishment.
 
@@ -306,38 +318,6 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has a strong knee shield and you feel them starting to bump you off-balance - what immediate adjustment should you make?
-**A**: Widen your base by spreading your knees further apart and drop your hips lower to create a more stable platform. Shift your weight forward into their knee shield rather than pulling back, as retreating only gives them more space to work. Simultaneously look to control their far arm or establish a collar grip to prevent them from coordinating the bump with an underhook entry.
-
-**Q2**: What are the essential grips for maintaining pressure and control from Z-Guard Top?
-**A**: The primary grips are crossface control (hand behind their head driving their face away from you), collar grip on the near side for posture control, and far hip or pants grip to prevent them from creating angles. The underhook on the far side is crucial - securing it prevents their sweeps and opens passing lanes. Secondary grips include controlling their knee shield leg at the knee to collapse it systematically.
-
-**Q3**: How do you shut down the opponent's primary escape attempt - the deep half entry?
-**A**: Prevent deep half by keeping your hips heavy and forward, not allowing them to shoot their head underneath you. When you feel them diving underneath, immediately sprawl your hips back and drive your shoulder pressure into their shoulder. Control their far underhook arm to prevent them from getting the necessary angle. If they're persistent, backstep to face their hips directly rather than letting them duck under.
-
-**Q4**: What grip priorities should you establish before attempting to pass?
-**A**: First priority is winning the underhook battle on the far side or establishing crossface control to limit their mobility. Second priority is controlling their far hip or pants to prevent angle creation. Third priority is addressing their knee shield leg through knee or ankle control. Only after securing at least two of these control points should you initiate passing sequences - attempting to pass without proper grips leads to being swept.
-
-**Q5**: How should you apply pressure to collapse the knee shield without overcommitting?
-**A**: Apply pressure at a 45-degree angle rather than straight down, driving your shoulder into their shin while keeping your weight distributed. Use your chest to pin their knee shield leg rather than just your arms. Keep your head tight to their body on the crossface side to prevent them from creating space. The key is sustained, progressive pressure that collapses their frame over time rather than explosive force that they can redirect into sweeps.
-
-**Q6**: Your opponent begins turning to their side to defend your pressure - how should you react?
-**A**: When they turn to their side, immediately recognize this as a back-take opportunity rather than forcing the frontal pass. Follow their rotation by circling toward their back while maintaining your underhook or collar grip. If they've exposed their back significantly, transition to seatbelt grip and start establishing hooks. If they're only partially turned, use the angle to accelerate your knee slice or backstep pass.
-
-**Q7**: How do you manage energy when facing a skilled Z-Guard player who maintains excellent frame integrity?
-**A**: Avoid constant maximum pressure which burns energy without results. Use intermittent pressure bursts combined with grip fighting to tire them out while conserving your own energy. Make them carry your weight by settling into the position rather than actively fighting every moment. Focus on winning small battles - strip one grip, collapse the frame slightly, control one arm - rather than trying to pass in one explosive effort.
-
-**Q8**: After their knee shield partially collapses but they haven't fully given up the position, what's your recovery strategy?
-**A**: Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

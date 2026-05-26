@@ -39,7 +39,7 @@ Within the crucifix attack system, the armbar serves as the secondary threat tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
+| Success | [[Positions/Armbar Control]] | 65% |
 | Failure | [[Positions/Crucifix]] | 25% |
 | Counter | [[Positions/Back Control]] | 10% |
 
@@ -202,11 +202,11 @@ The Armbar from Crucifix occupies a critical position in the crucifix attack sys
 
 - [[Positions/Crucifix]] - Starting position providing the bilateral arm control that enables the attack
 
-- [[Transitions/Choke from Crucifix]] - Primary threat that creates the armbar opportunity through defensive commitment
+- [[Submissions/Choke from Crucifix]] - Primary threat that creates the armbar opportunity through defensive commitment
 
 - [[Transitions/Crucifix Maintenance]] - Position retention technique that sustains control while setting up the armbar
 
-- [[Submissions/Armbar from Back]] - Related armbar mechanics from back control sharing similar behind-opponent attack angle
+- [[Transitions/Armbar from Back Transition]] - Related armbar mechanics from back control sharing similar behind-opponent attack angle
 
 - [[Positions/Back Control]] - Entry position and fallback if crucifix configuration is lost during armbar attempt
 
@@ -214,7 +214,7 @@ The Armbar from Crucifix occupies a critical position in the crucifix attack sys
 
 - [[Transitions/Arm Recovery from Crucifix]] - Defender's primary escape technique that the attacker must prevent during armbar setup
 
-- [[Positions/Armbar Control]] - Related arm isolation control concept used in standard armbar sequences
+- [[Positions/Armbar Control]] - Target control position reached on successful arm isolation and extension
 
 
 </section>

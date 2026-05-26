@@ -32,7 +32,7 @@ Understanding double unders from both perspectives is essential for developing c
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bilateral control creates asymmetric advantage - securing both underhooks fundamentally disrupts opponent's defensive structure
@@ -179,8 +179,6 @@ Understanding double unders from both perspectives is essential for developing c
 
 - **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (33% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
-
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
@@ -193,7 +191,7 @@ Understanding double unders from both perspectives is essential for developing c
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
 
-- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Double Unders/Attacker|Stack Pass from Double Unders]]** (17% of attempts)
 
 - **[[Transitions/Toss Pass from Double Unders/Attacker|Toss Pass from Double Unders]]** (2% of attempts)
 

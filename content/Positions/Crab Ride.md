@@ -32,7 +32,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain perpendicular body angle to opponent's spine, maximizing control leverage while minimizing opponent's escape vectors

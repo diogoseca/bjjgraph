@@ -162,6 +162,8 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deep Half Entry?</p>
+
 - Bottom player's inside arm begins threading underneath your near thigh instead of framing against your shoulder or hip, indicating underhook attempt
 - Bottom player performs a hip escape to create space between their torso and your chest, creating the gap needed to begin rotation
 - Bottom player's head begins moving downward toward your hip rather than staying at chest level, indicating they are starting the rotation underneath
@@ -174,6 +176,8 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half Entry?</p>
 
 - Maintain strong crossface and shoulder pressure to deny the space needed for rotation before the entry begins
 - Control opponent's bottom arm to prevent the underhook from being established on your near leg
@@ -188,6 +192,8 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deep Half Entry?</p>
 
 ### 1. Sprawl trapped leg backward and apply shoulder pressure to flatten opponent
 
@@ -225,6 +231,8 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deep Half Entry?</p>
+
 ### → [[Positions/Half Guard]]
 
 Shut down the entry early by establishing crossface and shoulder pressure before the underhook is secured, or sprawl your trapped leg back to deny the anchor point. The goal is to return to standard half guard top where you maintain passing initiative.
@@ -240,6 +248,8 @@ Execute a successful limp leg extraction when opponent has only a shallow underh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half Entry?</p>
 
 ### 1. Reacting too late to the deep half entry attempt after opponent has already established deep underhook and head position
 
@@ -274,6 +284,8 @@ Execute a successful limp leg extraction when opponent has only a shallow underh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deep Half Entry?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying entry attempts through tactile and visual cues
 Partner attempts deep half entry at 30% speed while you focus on identifying the three main recognition cues: hip escape for space, arm threading for underhook, and head dropping for rotation. Call out each cue as you feel it. No defensive action yet, just recognition and timing awareness.
 
@@ -290,29 +302,6 @@ Positional sparring from half guard top. Partner specifically targets deep half 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a deep half entry?
-**A**: The earliest cue is the opponent's hip escape creating space between their torso and your chest, combined with their bottom arm beginning to thread underneath your near thigh. These precursor movements happen before the rotation begins. Recognizing these cues gives you the largest defensive window. By the time their head drops below your hip line, you are already late in your defensive response.
-
-**Q2**: Why is driving your weight forward dangerous when your opponent already has the deep underhook established?
-**A**: Driving forward when the underhook is established loads your weight directly onto the fulcrum that the opponent has created with their shoulder against your inner thigh. This is exactly the weight distribution they need for the waiter sweep, where they sit up underneath you and dump you over their shoulder. Your forward pressure becomes the force that sweeps you. Instead, sit your hips back, establish crossface, and work to extract the trapped leg before committing any forward pressure.
-
-**Q3**: What is the correct defensive sequence when you feel the underhook being established on your near leg?
-**A**: The correct sequence is: first, immediately apply crossface pressure with your shoulder to prevent the head from dropping below your hip line. Second, widen your base by posting your free leg far to the side. Third, attempt to limp leg your trapped leg backward in a circular motion while maintaining upper body pressure. Fourth, if the limp leg fails, apply a whizzer overhook on their underhooking arm to pin their shoulder and prevent rotation. Speed matters more than force in this sequence.
-
-**Q4**: Your opponent has established deep half and is loading the waiter sweep - what is your emergency defense?
-**A**: If you are already in deep half and feeling the waiter sweep loading, immediately shift your weight backward and downward, driving your hips toward the mat. Widen your base dramatically with your free leg. Apply crossface pressure to flatten their upper body and prevent them from sitting up. Grab their far hip or belt with your free hand to anchor your position. If the sweep is imminent, post your hand on the mat behind you as a last resort to prevent being rolled over, then work back to extracting your trapped leg.
-
-**Q5**: How should you manage your base when defending against an opponent who frequently uses deep half entry?
-**A**: Against a known deep half player, maintain a wider base from the start in half guard top. Keep your free leg posted further from your body than normal, lowering your center of gravity. Apply constant crossface pressure to limit their ability to create space. Keep your hips heavy and avoid being drawn into forward-pressure passing that feeds their entry. Consider using a backstep passing approach that takes your near leg further from their reach rather than driving it forward into their underhook range.
-
-
-
-</section>
 
 
 </main>

@@ -165,6 +165,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Modified Mount (Bottom)?</p>
+
 - Top practitioner has one leg posted out to side with foot flat on mat providing base stability, creating an asymmetric structure visible as one leg extended and one knee pressing across torso
 - Top practitioner's other knee crosses opponent's torso maintaining downward pressure through skeletal alignment, shin blade pressing diagonally across the abdomen restricting breathing and movement
 - Bottom practitioner's back remains on mat with shoulders controlled or partially pinned, hips restricted by the across-body knee preventing effective lateral movement without frames
@@ -178,6 +180,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Modified Mount (Bottom)?</p>
+
 - Understanding of standard mount escape mechanics as foundation for variation-specific adjustments
 - Recognition of asymmetric weight distribution and how it affects escape direction selection
 - Knowledge of armbar defense principles given the enhanced submission threat from this position
@@ -190,6 +194,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Modified Mount?</p>
 
 - Escape toward posted leg - Asymmetric structure creates vulnerability on extended leg side
 - Protect near arm - Arm closest to across-body knee faces immediate armbar isolation threat
@@ -205,6 +211,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Modified Mount (Bottom)?</p>
 
 **If opponent posts right leg out while left knee crosses body:**
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
@@ -233,6 +241,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Modified Mount?</p>
 
 ### 1. Attempting to escape toward the across-body knee instead of the posted leg
 
@@ -272,6 +282,8 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Modified Mount defense?</p>
+
 ### Directional Escape Recognition Drill
 
 Partner alternates posting left and right legs in Modified Mount. Bottom practitioner identifies posted leg and executes hip escape toward that direction. Focus on rapid recognition and correct directional commitment.
@@ -304,38 +316,6 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you escape toward the posted leg side rather than toward the across-body knee?
-**A**: The posted leg side has inherently weaker control because the opponent's weight is primarily distributed through the across-body knee onto your torso. The posted leg is extended outward for stability, creating a gap between their hip and your body that can be exploited with hip escapes. Escaping toward the across-body knee means fighting directly into their strongest control point where maximum pressure is applied, wasting energy with minimal progress.
-
-**Q2**: How should you protect your near-side arm to prevent the armbar that Modified Mount naturally sets up?
-**A**: Keep the near-side arm tight against your body with your elbow glued to your hip and your hand protecting your neck or gripping your own collar. Never extend this arm upward to frame on their chest or push, as this creates the exact arm isolation the opponent needs for the armbar. Frame on their hips with your far-side arm instead, maintaining the near-side arm in a defensive position throughout your escape attempts.
-
-**Q3**: What frames should you establish before attempting a hip escape from Modified Mount?
-**A**: Establish a frame with your far-side hand on their hip bone to create initial space and prevent them from following your hip movement. Your near-side elbow should connect to your own hip, protecting that arm. If possible, get your far-side knee up toward their hip as well to create a knee-elbow frame. These frames must be set before hip escaping - without them, the opponent simply rides your movement and maintains control.
-
-**Q4**: Your opponent reaches for your near-side wrist to set up an armbar - what is your immediate response?
-**A**: The moment you feel them grip your wrist, immediately bring your elbow tight to your hip and grip your own opposite lapel or clasp your hands together to create a two-arm defensive structure. Simultaneously bridge toward the posted leg side - their commitment to the armbar grip shifts their weight and creates a brief window for escape. If they persist with the armbar setup, turn your body toward them to prevent the hip rotation they need.
-
-**Q5**: What is the optimal timing window to attack your escape from Modified Mount?
-**A**: The best timing windows are: when the opponent reaches for a submission and their weight shifts momentarily reducing controlling pressure, during transitions when they adjust from standard mount to Modified Mount or vice versa, when they post their leg farther than optimal creating extra space to exploit, and when they shift weight forward to establish high mount creating an opening for hip escape behind them. Patience to wait for these windows rather than forcing escapes is the key tactical discipline.
-
-**Q6**: How do you recognize which leg your opponent has posted in Modified Mount through feel alone?
-**A**: Feel for where the primary pressure is coming from - the across-body knee will create downward crushing pressure on your torso, while the posted leg side will feel lighter with space between their hip and your body. You can also feel for their foot flat on the mat on one side versus knee down on the other. Visual recognition is difficult when mounted, so develop tactile sensitivity through drilling to instantly identify the configuration without looking.
-
-**Q7**: Your opponent begins transitioning from Modified Mount toward S-mount - how should you respond?
-**A**: The S-mount transition creates escape opportunities because the opponent must lift their across-body knee to reposition it. As they initiate the slide, immediately turn toward the posted leg side aggressively and drive your hips away. If you cannot escape outright, dive for deep half guard under their elevated leg before it settles into S-mount position. The critical window is during the actual transition - once S-mount is established, escape becomes significantly harder.
-
-**Q8**: How should you manage your energy when trapped in Modified Mount against a patient opponent?
-**A**: Avoid explosive movements that the posted leg is designed to absorb - bridges and explosive escapes waste enormous energy against this position's stability. Instead, use small technical hip escapes combined with frames, accepting incremental progress. Keep breathing controlled and deep despite the pressure. Wait for genuine openings like grip changes or submission attempts rather than forcing escapes. The opponent is expending less energy than in standard mount, so patience and technical precision beat explosive attempts that exhaust you.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

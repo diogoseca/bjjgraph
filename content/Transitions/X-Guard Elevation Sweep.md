@@ -214,7 +214,7 @@ The X-Guard Elevation Sweep occupies a central role within the grasshopper guard
 
 - [[Positions/Ashi Garami]] - Leg entanglement destination when opponent defends by lowering hips
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission from achieved mount position
+- [[Transitions/Mount to Armbar]] - Follow-up submission from achieved mount position
 
 - [[Transitions/Consolidate Mount]] - Control transition after landing in mount from the sweep
 

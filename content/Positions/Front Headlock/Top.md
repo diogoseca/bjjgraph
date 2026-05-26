@@ -175,6 +175,8 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Position Definition
 
+<p class="section-subtitle">What is Front Headlock (Top)?</p>
+
 - You control opponent's head and neck with at least one arm wrapped around their head, while your chest drives downward pressure into their upper back and shoulders, forcing them into bent-forward compromised posture with limited mobility and defensive options
 - Your opponent's torso is bent forward at the waist, typically with their hands and knees on mat or attempting to stand with compromised posture, while you maintain superior position above and around their head with ability to sprawl hips back or step around to different angles for submissions or back take
 - You control opponent's far shoulder or arm with your free hand (the hand not controlling head), preventing them from rolling away or standing up, while maintaining ability to transition between guillotine, anaconda, darce grips, or release to take back depending on their defensive reactions
@@ -186,6 +188,8 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Front Headlock (Top)?</p>
+
 - You have secured control of opponent's head with at least one arm wrapped around their head/neck
 - Opponent's posture is compromised into bent-forward position (hands and knees, turtle, or standing bent over)
 - You have established chest pressure driving down into opponent's upper back, preventing easy postural recovery
@@ -196,6 +200,8 @@ Mastering front headlock top requires understanding both the technical details o
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Front Headlock?</p>
 
 - Front headlock is a dynamic attacking position - constantly threaten submissions or transitions, never simply hold
 - Chest pressure into opponent's upper back prevents them from standing or improving posture
@@ -211,6 +217,8 @@ Mastering front headlock top requires understanding both the technical details o
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Front Headlock (Top)?</p>
 
 **If opponent keeps head low and stays tight in turtle with arms protected:**
 - Execute **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** → [[Positions/Anaconda Control]] (Probability: 60%)
@@ -245,6 +253,8 @@ Mastering front headlock top requires understanding both the technical details o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Front Headlock?</p>
 
 ### 1. Holding static front headlock without threatening submissions or transitions
 
@@ -289,6 +299,8 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Front Headlock attacks?</p>
+
 ### Front Headlock Submission Chain Drill
 
 Partner gives turtle position, you establish front headlock. Partner calls out which defense they're using (stand, circle, stay tight), you respond with appropriate submission (guillotine for standing, back take for circling, anaconda/darce for tight). Flow continuously through options.
@@ -328,38 +340,6 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution strategy for maintaining front headlock control?
-**A**: Your chest weight should drive directly down into the opponent's upper back and neck, with hips kept low and forward. The majority of your body weight should be transmitted through your chest onto their shoulders and upper back, not supported by your own legs. This creates constant downward pressure that collapses their posture and prevents them from standing or improving position. Your arms provide secondary control but should not bear the primary burden of maintaining the position.
-
-**Q2**: How do you prevent an opponent from rolling away when you have front headlock control?
-**A**: Control their far shoulder or arm with your non-choking hand at all times. This creates a cage around their upper body that prevents rotation. Additionally, maintain chest-to-back connection and follow their movement if they attempt to turn. If they try to roll toward your choking arm side, immediately sprawl your hips back and to the outside to jam the roll. The combination of far shoulder control and reactive hip sprawling shuts down most rolling escape attempts.
-
-**Q3**: Your opponent starts to lift their head and posture up while you have front headlock - what immediate adjustment do you make?
-**A**: Immediately increase downward pressure through your chest while snapping their head back down. If they continue to posture despite pressure, this is actually an opportunity - transition directly to a guillotine grip by threading your arm deeper under their chin as their neck extends. Their posturing movement exposes the neck and makes the guillotine more available. The key is recognizing that their defensive movement opens an offensive opportunity rather than trying to simply maintain the original control.
-
-**Q4**: What are the essential grip priorities when establishing and maintaining front headlock top?
-**A**: The primary grip is your arm controlling the head, which should wrap deeply around their neck with your armpit tight against the crown of their head. Your secondary grip controls their far shoulder or lat to prevent rotation. For submissions, you need to transition to specific grips: guillotine requires chin strap or under-chin positioning, anaconda requires threading under the neck to trap their arm, darce requires underhooking their near arm. Throughout all variations, maintain that chest-to-back connection as the foundation that all grips build upon.
-
-**Q5**: How should you apply pressure in front headlock to maximize control while minimizing your own energy expenditure?
-**A**: Use skeletal structure and body weight rather than muscular effort. Let your chest drop heavily onto their upper back while keeping your own posture relatively relaxed. Your legs should be spread wide in a sprawl-like base, providing stability without requiring constant muscular engagement. Avoid death-gripping with your arms - use them primarily for directional control while your body weight does the heavy work. This approach allows you to maintain oppressive pressure for extended periods without fatiguing your grip or arms.
-
-**Q6**: Your opponent successfully tucks their chin and denies your choke attempts - what systematic response do you employ?
-**A**: First, recognize that chin tucking only defends against the immediate choke but keeps them trapped in a bad position. Switch your attack to either positional advancement or alternative submissions. You can flatten them to side control by driving forward and stepping over, transition to back control if they try to escape laterally, or attack the near arm with a kimura grip since their hands are occupied defending the neck. The systematic response is never to force the blocked choke but to chain to whatever their defense opens.
-
-**Q7**: How do you recover control if the opponent creates space between your chest and their back during front headlock?
-**A**: Immediately follow their movement to eliminate the space before it grows. If they shrimp or hip away, step your feet to follow and re-establish chest contact. If they're lifting up, snap them back down while driving your weight forward. Never let space persist - the moment you feel their back leave your chest, that's your signal to move. The worst response is to try holding static position with arm strength while they create distance. Movement matches movement.
-
-**Q8**: What is the relationship between hip position and submission availability from front headlock top?
-**A**: Hip position directly determines which submissions are accessible. Hips high and tight against opponent's body favor guillotine attacks - you can pull guard and finish or drop for standing guillotine. Hips sprawled back and to the side favor arm-in chokes like anaconda and darce, as this position prevents the opponent from rolling through while you thread your arm. For back takes, you need mobile hips ready to step over as the opponent tries to circle away. Understanding this relationship allows you to proactively position your hips based on which attack you want to set up.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

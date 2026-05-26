@@ -154,6 +154,8 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shoulder Walk Escape from Back?</p>
+
 - Alternating shoulder blade pressure against your chest or the mat, creating a rhythmic rocking sensation that indicates the opponent is driving off each shoulder in sequence
 - Gradual downward sliding sensation as the opponent's torso incrementally moves toward your feet with each shoulder drive, making your hooks feel progressively shallower
 - Opponent's bottom hand actively working to control or strip your seatbelt underhook grip while maintaining neck defense with their top hand
@@ -165,6 +167,8 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shoulder Walk Escape from Back?</p>
 
 - Recognize the alternating shoulder drive pattern immediately and begin counter-measures before cumulative displacement makes hooks shallow
 - Follow the opponent's downward movement with your hips to maintain hook depth rather than waiting for hooks to become shallow and then reacting
@@ -179,6 +183,8 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shoulder Walk Escape from Back?</p>
 
 ### 1. Follow with hips by scooting downward to match the opponent's shoulder walk displacement and maintain hook depth
 
@@ -216,6 +222,8 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shoulder Walk Escape from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the opponent's downward movement with your hips immediately upon recognizing the shoulder walk pattern, maintaining deep hooks and tight seatbelt throughout. Match their displacement inch for inch to prevent any cumulative positional gain while keeping chest-to-back pressure constant.
@@ -231,6 +239,8 @@ When hooks begin feeling shallow despite your counter-adjustments, proactively t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shoulder Walk Escape from Back?</p>
 
 ### 1. Failing to recognize the shoulder walk pattern until significant displacement has already occurred
 
@@ -260,6 +270,8 @@ When hooks begin feeling shallow despite your counter-adjustments, proactively t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shoulder Walk Escape from Back?</p>
+
 **Phase 1: Pattern Recognition** - Identifying shoulder walk escape initiation cues
 Partner attempts slow-speed shoulder walk escapes while you focus on recognizing the alternating shoulder drive pattern through chest contact sensitivity. Identify the escape within the first three shoulder drives and verbally call it out. Build proprioceptive awareness of the distinctive rocking sensation before adding defensive responses.
 
@@ -276,26 +288,6 @@ Full positional sparring from back control where the bottom player's primary esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates an opponent is attempting a shoulder walk escape?
-**A**: The earliest cue is the alternating shoulder blade pressure against your chest, creating a rhythmic rocking sensation as the opponent drives off each shoulder in sequence. This distinctive oscillating pattern differs from the sudden explosive movement of a hip escape or the rotational torque of a turning escape. Recognizing this pattern within the first two to three shoulder drives allows you to begin counter-measures before any meaningful displacement accumulates.
-
-**Q2**: Why is following with your hips a more effective counter to shoulder walk than squeezing harder with your arms?
-**A**: Hip following addresses the root mechanical problem by maintaining hook depth through positional matching, which is a structural solution that does not fatigue. Arm squeezing is a muscular solution that exhausts grip strength over the fifteen to twenty repetitions the shoulder walk requires. The opponent's shoulder drives use large back muscles that sustain effort longer than your forearm grips, so a grip-based defense inevitably loses the endurance battle while hip following can be maintained indefinitely.
-
-**Q3**: When should you make the decision to transition from hooks to body triangle during a shoulder walk escape attempt?
-**A**: Make the body triangle decision early when you first feel hooks becoming difficult to maintain despite your counter-adjustments, not as a last resort when hooks are nearly cleared. The body triangle transition is mechanically easier and more secure from moderately shallow hooks because you still have enough leg control to complete the threading movement. Waiting until hooks are almost cleared creates a high-risk transition window where the opponent may clear hooks entirely before the body triangle locks.
-
-**Q4**: Your opponent has been shoulder walking for several repetitions and you notice their seatbelt control hand is divided between grip stripping and movement. How do you exploit this?
-**A**: This divided attention creates a momentary reduction in neck protection quality since the opponent is multitasking between escape movement and grip fighting. Initiate a committed neck attack during this window, targeting the choking arm insertion when their defensive hand is occupied with the seatbelt strip. This forces them to abandon either the seatbelt control or the shoulder walk to re-prioritize neck defense, effectively resetting their escape progress while you maintain positional dominance.
-
-
-
-</section>
 
 
 </main>

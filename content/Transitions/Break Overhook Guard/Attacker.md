@@ -188,6 +188,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Break Overhook Guard?</p>
+
 - Establish maximum available base and posture before initiating the grip strip to prevent being swept during the break
 - Control the overhooking arm's wrist with your free hand before attempting any circulation or peeling motion
 - Drive posture through hip extension, not just upper body lean, to create structural separation from opponent's chest
@@ -202,6 +204,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Break Overhook Guard?</p>
+
 - Free hand must be available and not trapped in secondary grips before initiating the break sequence
 - At least partial base established with knees on mat and weight distributed to defend against sweeps during the break
 - Overhook depth assessed to determine which variant of the break is most appropriate for the current grip configuration
@@ -214,6 +218,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Break Overhook Guard step by step?</p>
 
 1. **Assess overhook depth and configuration**: Before initiating the break, evaluate how deep your opponent's overhook is and where their hand is gripping. A hand on your lat or shoulder blade indicates a deep overhook requiring a two-on-one or posture-first approach. A hand around your tricep indicates a shallow overhook vulnerable to a standard elbow circle. This assessment determines your entire breaking strategy.
 2. **Establish base and defensive posture**: Widen your knees to at least shoulder-width on the mat, distributing weight evenly to create a stable platform that resists sweep attempts. Drive your hips forward slightly and engage your core to begin creating postural separation from your opponent's chest. Your head should be positioned on the opposite side from the overhook to prevent cross-face control.
@@ -243,6 +249,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Break Overhook Guard?</p>
+
 - **Bottom player tightens overhook by pulling elbow to hip and deepening hand grip behind shoulder blade** (Effectiveness: High) - Your Response: Switch to posture-first pressure break variant, using maximum hip extension to stretch the overhook to its mechanical limit before re-attempting the elbow circle with the arm at full extension → Leads to [[Positions/Overhook Guard]]
 - **Bottom player hip escapes to create angle and threatens overhook sweep or hip bump during your break attempt** (Effectiveness: Medium) - Your Response: Immediately widen base and drive shoulder pressure into the overhook side to flatten opponent before they complete the angle. Post with free hand on the mat if necessary to defend the sweep, then resume the break once base is re-established → Leads to [[Positions/Mount]]
 - **Bottom player opens guard and shoots overhook-side leg over your shoulder to threaten triangle or omoplata as your arm begins to clear** (Effectiveness: Medium) - Your Response: When you feel the leg rising, immediately tuck your elbow tight to your ribs and drive posture backward, pulling your head away from the triangle. Stack forward if the leg gets across your neck, using the posture you built during the break to power through the triangle attempt → Leads to [[Positions/Overhook Guard]]
@@ -254,6 +262,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Break Overhook Guard?</p>
 
 ### 1. Pulling trapped arm straight back against the overhook rather than using circular motion
 
@@ -293,6 +303,8 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Break Overhook Guard (Attacker)?</p>
+
 **Isolation Drilling** - Grip mechanics and arm circulation
 Practice the elbow circle motion against a stationary partner holding an overhook at varying depths. Focus on finding the correct circulation angle and wrist control positioning. 20 repetitions per side with no resistance, emphasizing smooth mechanics.
 
@@ -313,36 +325,12 @@ Positional sparring where the top player must strip the overhook and complete a 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is circular elbow motion more effective than pulling straight back when stripping an overhook?
-**A**: Pulling straight back fights directly against the overhook's strongest axis, where the bottom player has maximum leverage through their bicep and lat engagement. Circular motion attacks the weakest point of the grip by rotating the elbow through the gap between the overhook and your torso, where the bottom player has minimal leverage to resist. The circular path also maintains your forward pressure and base, whereas pulling backward compromises both and feeds into sweep opportunities.
-
-**Q2**: Your opponent has an extremely deep overhook with their hand locked behind your shoulder blade - which break variant should you prioritize and why?
-**A**: Prioritize the posture-first pressure break or the two-on-one peel. A deep overhook makes the standard elbow circle extremely difficult because there is no gap to circulate through. The posture-first approach uses maximum hip extension to stretch their arm toward full extension, reducing their mechanical advantage and creating the space needed. If posture alone is insufficient, the two-on-one peel uses both hands to generate enough leverage to peel a deeply locked overhook off your shoulder.
-
-**Q3**: What base adjustments are critical before initiating any overhook break attempt?
-**A**: Widen knees to at least shoulder-width to create lateral stability against sweeps. Drive hips forward to establish postural foundation and prevent being pulled flat. Position head on the opposite side from the overhook to avoid cross-face control. Distribute weight through your lower body rather than your hands. This base prevents the bottom player from capitalizing on your attention shifting to the grip fight by executing sweeps during the break attempt.
-
-**Q4**: You begin the elbow circulation and feel your opponent shoot their leg over your shoulder - what is happening and how do you respond?
-**A**: The bottom player is attempting a triangle choke by capitalizing on the space created as your arm begins to clear the overhook. Immediately tuck your clearing elbow tight to your ribs to deny the leg from locking across your neck. Drive your posture backward, pulling your head away from the closing triangle. If the leg gets across, stack forward immediately using the posture you established during the break. Do not continue the break attempt until the triangle threat is neutralized.
-
-**Q5**: What is the most critical action immediately after successfully clearing the overhook?
-**A**: Immediately establish full closed guard top posture with both hands on the opponent's hips or biceps, spine straight, and forward pressure through your chest. The most common mistake is pausing after the strip, which gives the bottom player a window to re-establish the overhook or transition to alternative grips. The break is not complete until you have settled into a stable, postured position with dominant hand placement that prevents re-gripping.
-
-**Q6**: How do you identify the optimal timing window to initiate the overhook break?
-**A**: The best timing windows occur when the bottom player transitions between attacks, adjusts their grip depth, or attempts to create angles with their hips. During these transitions, overhook tension momentarily decreases as the bottom player redirects their energy. Watch for moments when they release secondary grips to re-grip, shift their hips to set up sweeps, or adjust their overhook hand position. Initiating the break during these windows of reduced tension dramatically increases success rate compared to fighting a fully engaged overhook.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Break Overhook Guard?</p>
 
 When stripping the overhook, avoid explosive jerking motions that could hyperextend your partner's shoulder joint. The overhooking arm is in a vulnerable position, and sudden forceful extraction can cause rotator cuff strain or shoulder impingement. Control the speed of your elbow circulation and always use progressive pressure rather than sudden force. During drilling, communicate with your partner about grip depth and resistance levels to prevent accidental injury.
 

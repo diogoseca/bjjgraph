@@ -156,6 +156,8 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Guard to Butterfly Hook Control?</p>
+
 - Bottom player posts a hand behind their hip and begins sitting up from a previously flattened position, indicating posture recovery attempt
 - You feel increased curling pressure from the hooks driving deeper toward your hip creases rather than resting passively on your thighs
 - Bottom player aggressively grip fights for collar or underhook control while simultaneously adjusting their hip angle
@@ -168,6 +170,8 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Guard to Butterfly Hook Control?</p>
 
 - Recognize consolidation attempts early by monitoring the bottom player's posture, hook depth, and grip changes
 - Maintain constant forward pressure to prevent the bottom player from recovering seated posture
@@ -182,6 +186,8 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Guard to Butterfly Hook Control?</p>
 
 ### 1. Drive heavy crossface pressure and flatten the bottom player before hooks consolidate
 
@@ -219,6 +225,8 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Guard to Butterfly Hook Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Clear one hook by driving your knee through to the mat during the consolidation attempt, converting butterfly guard to half guard where your passing options are superior. Time the hook clear with the moment the bottom player is focused on deepening the opposite hook.
@@ -234,6 +242,8 @@ Prevent the consolidation from completing by maintaining forward pressure that k
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Guard to Butterfly Hook Control?</p>
 
 ### 1. Waiting passively while the bottom player completes the full consolidation sequence
 
@@ -263,6 +273,8 @@ Prevent the consolidation from completing by maintaining forward pressure that k
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Guard to Butterfly Hook Control?</p>
+
 **Recognition Drilling** - Identifying consolidation cues
 Partner slowly performs the consolidation sequence while you practice identifying each phase: posture recovery, hook deepening, grip establishment. Call out each cue as you recognize it. Develop the habit of reading the consolidation before it completes.
 
@@ -279,26 +291,6 @@ After successfully disrupting consolidation, immediately chain into passing sequ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is attempting to consolidate butterfly hook control?
-**A**: The earliest cues are: the bottom player posting a hand behind their hip to initiate a sit-up, increased curling pressure from one or both hooks driving deeper toward your hip creases, and aggressive grip fighting for collar or underhook control. These cues often appear in sequence—posture recovery first, then hook deepening, then grip establishment. Recognizing the first cue (the sit-up attempt) gives you the most time to intervene.
-
-**Q2**: Why is it more effective to prevent consolidation than to deal with established butterfly hook control?
-**A**: Established butterfly hook control creates a loaded offensive system where the bottom player's hooks, posture, and grips work together as a unified sweeping mechanism. Preventing consolidation means the bottom player has disconnected elements—shallow hooks, poor posture, or missing grips—that cannot generate the coordinated force needed for high-percentage sweeps. Disrupting even one element of the consolidation degrades the entire system significantly.
-
-**Q3**: Your opponent has recovered seated posture and is deepening their left hook—what is your optimal defensive response?
-**A**: Drive your right knee to the mat through the opponent's left hook insertion path to keep it shallow, while simultaneously fighting their upper body grips with your hands to deny the pulling control they need. If you cannot prevent the hook from deepening, immediately address the opposite hook before the bottom player achieves both deep hooks. Alternatively, stand up entirely to reset the engagement if both hooks are becoming deep—standing removes the fulcrum the hooks create.
-
-**Q4**: How do you exploit the bottom player's focus on consolidation to create passing opportunities?
-**A**: During consolidation, the bottom player's attention is divided between hook insertion, posture recovery, and grip establishment. When they commit focus to one element (for example, reaching for a collar grip), the other elements are momentarily unguarded. Use these windows to clear a hook, apply crossface pressure to flatten them, or initiate a quick passing movement that catches them mid-transition. The consolidation attempt itself creates the defensive vulnerabilities you exploit for passing.
-
-
-
-</section>
 
 
 </main>

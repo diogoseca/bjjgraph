@@ -194,6 +194,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Toe Hold to Ashi Garami?</p>
+
 - Maintain continuous leg-to-leg clamping pressure throughout the transition to prevent leg extraction during the grip change vulnerability window
 - Read defensive reactions and use them as transition triggers rather than forcing the grip change against active resistance
 - Prioritize inside leg placement across opponent's hip before fully releasing the figure-four toe hold grip
@@ -208,6 +210,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Toe Hold to Ashi Garami?</p>
+
 - Established toe hold control with figure-four grip on opponent's foot demonstrating that you have sufficient leg entanglement to attempt transition
 - Opponent is successfully defending the toe hold finish through grip fighting, boot defense, or knee rotation that prevents submission completion
 - Leg-to-leg clamping pressure is sufficient to maintain control of opponent's trapped leg throughout the grip change phase
@@ -220,6 +224,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Toe Hold to Ashi Garami step by step?</p>
 
 1. **Assess transition opportunity**: Evaluate whether the toe hold finish remains viable or whether transitioning to inside ashi-garami provides superior offensive positioning with broader attack options. Key indicators for transition include opponent's grip fighting successfully breaking your figure-four, their boot defense effectively hiding the heel, or repeated rotational escapes that prevent submission completion.
 2. **Increase leg clamping pressure**: Before modifying any grip configuration, increase clamping pressure with both legs around opponent's trapped limb by squeezing your knees and thighs together. This secondary control system ensures continuous leg isolation throughout the grip change phase and prevents the opponent from exploiting the transition window to extract their leg.
@@ -250,6 +256,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Toe Hold to Ashi Garami?</p>
+
 - **Explosive leg extraction during grip release window** (Effectiveness: High) - Your Response: Maintain maximum leg clamping pressure throughout the transition and minimize the grip change duration through repetitive drilling. If extraction begins, abort the transition and re-establish toe hold grip before opponent fully clears their leg. → Leads to [[Positions/Half Guard]]
 - **Sit-up and frame establishment during grip change** (Effectiveness: Medium) - Your Response: Drive forward pressure with your chest into opponent's lower leg as you complete the inside leg placement. Use the momentum of their sit-up to advance deeper into ashi garami by scooting your hips closer and establishing tighter leg control. → Leads to [[Positions/Toe Hold Control]]
 - **Free leg push on hip to create distance during repositioning** (Effectiveness: Medium) - Your Response: Control opponent's free leg with your near-side hand or use hip positioning to pin their pushing leg before completing the transition. If they successfully create distance, immediately pursue by crawling forward to close the gap rather than reaching with arms only. → Leads to [[Positions/Toe Hold Control]]
@@ -261,6 +269,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Toe Hold to Ashi Garami?</p>
 
 ### 1. Releasing toe hold figure-four grip completely before establishing any secondary control in ashi garami configuration
 
@@ -300,6 +310,8 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Toe Hold to Ashi Garami (Attacker)?</p>
+
 **Phase 1: Isolated Mechanics** - Grip change and leg repositioning without resistance
 Practice the transition with a fully cooperative partner who holds still in toe hold control bottom position. Focus on the mechanics of releasing the figure-four, threading the inside leg, establishing the outside hook, and securing C-grip on the heel. Perform 20 repetitions per side until the movement feels natural and fluid.
 
@@ -320,39 +332,12 @@ Incorporate the transition into full rolling sessions, starting from standing or
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What signals should trigger the decision to transition from toe hold to ashi garami rather than continuing to pursue the toe hold finish?
-**A**: Key triggers include the opponent successfully breaking your figure-four grip through persistent wrist control, their boot defense effectively hiding the heel and preventing rotational leverage, repeated defensive rotations that prevent full pressure application, and the sense that continued toe hold pursuit is consuming energy without progressing toward the finish. The decision should be proactive rather than reactive, initiating the transition while you still have sufficient control rather than waiting until the toe hold has completely failed and control is compromised.
-
-**Q2**: During the grip change from figure-four to C-grip, what maintains control of the opponent's trapped leg?
-**A**: The primary control during the grip change is the clamping pressure of both legs squeezing together around the opponent's trapped limb. This leg-to-leg compression must be increased before the grip change begins, serving as the continuous control system while hands transition between grip configurations. Secondary control comes from chest-to-leg connection and maintaining at least one hand in contact with the opponent's foot or ankle throughout the transition.
-
-**Q3**: Where exactly should the inside leg be positioned in the resulting ashi garami and why is this placement critical?
-**A**: The inside leg should be positioned across the opponent's near hip with the foot planted firmly on the far side of their body, creating a barrier that prevents hip rotation. This placement is critical because it controls the opponent's ability to face you and create defensive frames, blocks their hip escape pathway, and establishes the primary rotational control that distinguishes inside ashi-garami from less dominant leg entanglement configurations.
-
-**Q4**: Your opponent begins sitting up aggressively during the grip transition window - how do you respond while completing the transition?
-**A**: Drive forward pressure with your chest into their lower leg to counter their sit-up momentum while accelerating the inside leg placement across their hip. Their sit-up creates a natural frame for you to push against, which can actually aid your hip scooting motion to close distance. If they persist in sitting up after you establish ashi garami, transition to saddle entry by threading your legs deeper, converting their postural recovery into a deeper entanglement rather than allowing escape.
-
-**Q5**: What is the single most critical error that leads to complete position loss during this transition?
-**A**: Releasing the toe hold figure-four grip completely before establishing any secondary control in the ashi garami configuration creates a control vacuum where the opponent has momentary freedom to extract their leg entirely. This gap between the old control and new control is the highest risk point of the transition. The correction is overlapping control systems by beginning inside leg placement while the figure-four still restricts defensive movement, never allowing a moment where neither grip nor leg position is controlling the trapped limb.
-
-**Q6**: After successfully establishing inside ashi-garami, what submissions become immediately available and how do you select between them?
-**A**: Inside ashi-garami provides direct access to straight ankle locks through hip extension pressure, heel hooks when the knee line is controlled and rules permit, toe holds from the new angle, and kneebars if the opponent straightens their leg defensively. Selection depends on the opponent's defensive posture: if their heel is exposed with knee line controlled, straight ankle lock is highest percentage. If they rotate their knee inward, heel hook opportunity opens. If they extend their leg to create distance, the kneebar becomes available. Read their defense and flow to the appropriate attack.
-
-**Q7**: How does the opponent's knee rotation during the transition affect your strategic approach?
-**A**: If the opponent rotates their knee outward during the transition, this actually facilitates outside ashi-garami entry rather than standard inside ashi, and you should follow the rotation rather than fighting it. If they rotate inward, their heel becomes exposed for immediate heel hook threats from inside ashi. If they maintain neutral knee position, the straight ankle lock is the primary target. Each rotational direction opens a specific offensive pathway, making the transition outcome adaptive to defensive reactions rather than requiring a single predetermined path.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Toe Hold to Ashi Garami?</p>
 
 The Toe Hold to Ashi Garami transition involves manipulating ankle joint mechanics during a grip change, creating potential for uncontrolled rotational force during the repositioning phase. Release toe hold pressure completely before beginning leg repositioning to avoid applying inadvertent torque during the transition. Never rush the grip change under competition intensity until the mechanics are automatic through hundreds of repetitions in controlled drilling. Training partners must communicate clearly throughout the transition, and the attacking practitioner must be prepared to release immediately if the partner signals discomfort. Ankle and knee ligament injuries from improper transitions can be career-limiting, so prioritize safety over speed during the learning phase.
 

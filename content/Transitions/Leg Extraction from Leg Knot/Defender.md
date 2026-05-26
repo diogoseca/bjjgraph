@@ -146,6 +146,8 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction from Leg Knot?</p>
+
 - Opponent shifts from controlling your foot or heel to establishing crossface or upper body pressure, indicating a strategy change from submissions to passing
 - You feel the opponent's trapped leg begin to relax and go limp rather than actively engaging in the entanglement, signaling limp leg extraction mechanics
 - Opponent drives their hips forward with increased pressure, attempting to flatten your hips to the mat and remove your hooking leverage
@@ -158,6 +160,8 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction from Leg Knot?</p>
 
 - Maintain active hooks with constant tension rather than passive leg positioning that allows the opponent to peel incrementally
 - Keep hips mobile and off the mat to preserve the ability to re-hook and chase the opponent's extracting leg
@@ -173,6 +177,8 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction from Leg Knot?</p>
 
 ### 1. Re-hook the extracting leg by chasing with your inside hook and clamping down at the ankle level
 
@@ -210,6 +216,8 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction from Leg Knot?</p>
+
 ### → [[Positions/Leg Knot]]
 
 React immediately to extraction signals by re-hooking at the ankle level and clamping down with your inside hook. Chase the opponent's ankle with your own foot, maintaining redundant control through both leg hooks and hand grips on their foot. The earlier you catch the extraction attempt, the easier re-entanglement becomes.
@@ -225,6 +233,8 @@ When the extraction progresses past the point of no return and the opponent's le
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction from Leg Knot?</p>
 
 ### 1. Maintaining passive hooks without active tension or grip reinforcement
 
@@ -254,6 +264,8 @@ When the extraction progresses past the point of no return and the opponent's le
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction from Leg Knot?</p>
+
 **Phase 1: Hook Retention Drilling** - Maintaining entanglement against controlled extraction attempts
 Partner executes slow extraction attempts while you practice maintaining hooks through active tension and re-hooking. Focus on keeping hips mobile, using hand grips to supplement leg hooks, and identifying which hooks are most critical to maintain. No resistance from extractor initially — develop the movement patterns first.
 
@@ -270,23 +282,6 @@ Begin in leg knot with full resistance from both players. Bottom player works to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest sign that your opponent is attempting leg extraction rather than continuing to hunt submissions?
-**A**: The earliest sign is a change in grip focus from your foot or heel to your upper body. When the opponent releases ankle and heel control and instead establishes crossface, collar tie, or far hip grips, they are preparing to extract rather than submit. Additionally, increased forward pressure through their chest and a relaxation of their trapped leg tension indicate limp leg extraction mechanics are beginning.
-
-**Q2**: Your re-hooking attempts keep failing because the opponent's forward pressure flattens your hips — how do you address this?
-**A**: Use your free leg to frame against the opponent's hips, creating a structural barrier that resists the forward flattening pressure. If already partially flat, perform a strong hip escape to restore your side positioning before attempting re-hooks. You can also use your hands on the opponent's hips to push them back enough to create re-hooking space. The fundamental issue is hip mobility — restore it through framing and hip escaping before attempting any re-entanglement.
-
-**Q3**: The opponent's leg has cleared your ankle hooks but is still at knee level — should you fight for re-entanglement or begin guard recovery?
-**A**: At the knee level, you still have a meaningful window for re-entanglement or counter-entanglement. Attempt to triangle their partially extracted leg by crossing your legs around their knee to initiate 50-50 entry. This is the optimal transition point because the leg is exposed enough to target but not yet cleared. If the triangle attempt fails and the knee also clears, immediately commit to guard recovery rather than chasing a lost position.
-
-
-
-</section>
 
 
 </main>

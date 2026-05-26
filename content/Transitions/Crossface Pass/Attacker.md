@@ -184,6 +184,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crossface Pass?</p>
+
 - Establish strong crossface connection with forearm across opponent's jaw and neck before any other action
 - Drive shoulder pressure downward and diagonally to flatten opponent and eliminate hip mobility
 - Control opponent's far arm to prevent effective framing and underhook recovery
@@ -199,6 +201,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crossface Pass?</p>
+
 - Top position in opponent's half guard with one leg trapped between opponent's legs
 - Opponent is on their side or attempting to work underhook battle without having secured deep underhook
 - Ability to establish initial crossface connection before opponent secures deep underhook
@@ -212,6 +216,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crossface Pass step by step?</p>
 
 1. **Establish crossface**: Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder, creating a wedge. Simultaneously, position your head on the opposite side from your trapped leg. The crossface must turn their head away from you, eliminating their ability to turn into you or generate rotational power for frames.
 2. **Apply shoulder pressure**: Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward at a diagonal angle. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body. Think of driving your shoulder toward the mat through their face, not just lying on top of them.
@@ -240,6 +246,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crossface Pass?</p>
+
 - **Deep underhook and hip escape to recover guard or sweep** (Effectiveness: High) - Your Response: Beat them to the underhook position by establishing crossface earlier in the sequence. If they get the deep underhook, switch to knee slice or backstep pass. Maintain heavy shoulder pressure to limit their hip mobility even with the underhook established. → Leads to [[Positions/Half Guard]]
 - **Electric chair sweep setup via lockdown to crotch lift** (Effectiveness: Medium) - Your Response: Keep your hips low and weight forward to prevent them from getting under your center of gravity. If you feel them locking down your leg, immediately posture up and address the lockdown before continuing with the crossface pass. Consider switching to a leg weave or smash pass approach. → Leads to [[Positions/Half Guard]]
 - **Frame on face and bicep to create distance and prevent flattening** (Effectiveness: Medium) - Your Response: Swim your free arm over their framing arm to establish underhook control. Alternatively, strip their frame by grabbing their wrist and pulling it across their body. Increase shoulder pressure to drive through their frame rather than fighting around it. → Leads to [[Positions/Half Guard]]
@@ -252,6 +260,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crossface Pass?</p>
 
 ### 1. Insufficient crossface pressure allowing opponent head mobility
 
@@ -291,6 +301,8 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crossface Pass (Attacker)?</p>
+
 **Phase 1: Positional Familiarization (Week 1-2)** - Understanding crossface mechanics and weight distribution
 Partner starts in half guard with light resistance. Practice establishing crossface position, proper shoulder pressure angle, and maintaining heavy weight while partner gives feedback on pressure points. Focus on feeling the correct body positioning and weight distribution without attempting full pass.
 
@@ -314,48 +326,12 @@ Practice transitioning between crossface pass and other half guard passes (knee 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of the crossface in this passing technique?
-**A**: The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard. The diagonal downward force vector simultaneously flattens and turns the head.
-
-**Q2**: Why must you control the opponent's far arm during the crossface pass?
-**A**: Controlling the far arm prevents the opponent from creating frames against your head or establishing underhook position. Without this control, they can push your head away, create distance, recover full guard, or execute sweeps. The far arm control eliminates their last remaining defensive tool and ensures they cannot generate the distance needed for guard recovery or frame insertion.
-
-**Q3**: Your opponent secures a deep underhook before you can establish the crossface - how do you adjust?
-**A**: When the opponent secures a deep underhook, the crossface pass becomes significantly harder because they can generate the rotational power to turn into you and threaten sweeps or back takes. The best adjustment is to abandon the crossface pass attempt and transition to a knee slice pass or backstep pass, which work with or around their underhook rather than requiring you to neutralize it. Alternatively, apply a strong whizzer to limit their underhook effectiveness while switching your passing angle.
-
-**Q4**: What is the correct leg extraction motion and why does a straight pull fail?
-**A**: Extract your leg using a circular arc: knee up and back, then down and out, rather than pulling straight backward. Pulling straight back aligns your force directly against the strongest axis of their leg lock, effectively tightening their grip. The circular path exploits the anatomical weakness in the defender's leg lock by changing the angle of extraction to one their legs cannot effectively resist. The arc also helps maintain your balance and forward pressure throughout the movement.
-
-**Q5**: You feel your opponent beginning to insert their knee for a knee shield while you have crossface - what is your immediate response?
-**A**: The moment you feel the knee shield insertion beginning, you must drive your weight forward and downward aggressively to close the space before their knee can fully enter. Use your crossface-side hip to pin their inserting knee back down while increasing shoulder pressure. If they get the knee partially in, immediately transition to a smash pass or knee cut approach rather than fighting the established knee shield. Prevention through forward pressure is always easier than passing an established knee shield.
-
-**Q6**: What grip configuration do you need before beginning leg extraction?
-**A**: Before beginning leg extraction, you need three control points established: the crossface forearm driving across the opponent's jaw with shoulder pressure flattening them, the far arm controlled via underhook or wrist pin to prevent framing, and your head positioned on the opposite side from the trapped leg creating a structural wedge. Without all three control points, the opponent retains enough defensive capability to follow your hips during extraction or create frames that prevent the pass.
-
-**Q7**: What is the critical direction of force during the shoulder pressure phase?
-**A**: The shoulder pressure must drive downward and diagonally across the opponent's face, not simply laterally across or straight down. This diagonal vector simultaneously achieves two objectives: it flattens the opponent to their back by driving weight through their shoulder line, and it turns their head away from you which eliminates their rotational power. A purely lateral crossface allows them to bridge into the pressure, while a purely downward force lacks the head-turning component needed to prevent them from facing you.
-
-**Q8**: Your opponent locks down your trapped leg with a lockdown grip during your crossface pass attempt - how do you proceed?
-**A**: When the opponent establishes lockdown, your circular leg extraction becomes impossible because their figure-four grip eliminates the knee mobility needed for the arc. You must first address the lockdown by posturing up slightly to remove the stretch reflex advantage, then either vigorously pummel your trapped foot free by kicking it toward their hips while maintaining crossface pressure, or switch entirely to a smash pass where you drive their locked legs to the mat and work around them. Never try to force the circular extraction against an established lockdown.
-
-**Q9**: What distinguishes the crossface pass from the knee slice pass when both start from half guard top?
-**A**: The crossface pass emphasizes heavy shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward and linear throughout. The knee slice pass focuses on creating an angular path by cutting the knee across the opponent's thigh line, often with less emphasis on upper body pressure and more on hip mobility. Crossface is typically higher percentage when the opponent lacks a deep underhook, while knee slice can succeed even when they have partial underhook control because the angular movement changes the passing plane.
-
-**Q10**: During live rolling, your crossface is established but your opponent is actively hand fighting your free arm and preventing far arm control - what do you do?
-**A**: When the opponent successfully hand fights your far arm control attempts, you have several options. First, try the arm trap variation: use your free hand to grab their near wrist and pin it across their chest, which eliminates their framing ability from a different angle. Second, switch to the over-under variation by threading your free arm under their far leg instead of fighting for the arm, which creates different leverage for the extraction. Third, if neither works, use the no-gi head post variation where you post your free hand on the mat beside their far shoulder to generate maximum pressure, then rely purely on the crossface weight to control them while extracting.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crossface Pass?</p>
 
 When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause cervical spine injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with pre-existing neck injuries, TMJ issues, or jaw problems should inform their training partner and instructor before practicing this technique.
 

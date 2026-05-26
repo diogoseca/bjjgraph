@@ -215,7 +215,7 @@ The Whip-up Sweep is the centerpiece of the 10th Planet lockdown offensive syste
 
 - [[Transitions/Lockdown Recovery]] - Re-establishing lockdown when the whip-up attempt fails
 
-- [[Transitions/Kimura]] - Complementary half guard attack that chains with lockdown offense
+- [[Submissions/Kimura]] - Complementary half guard attack that chains with lockdown offense
 
 
 </section>

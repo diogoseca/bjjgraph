@@ -25,7 +25,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -56,15 +56,15 @@
       "relationship": "Follow-up sweep when opponent posts free hand wide"
     },
     {
-      "name": "Kimura from Guard",
+      "name": "Kimura",
       "relationship": "Submission attack from the same overhook control"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Alternative attack when opponent pulls arm free from overhook"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Transition option from overhook control when sweep is stuffed"
     },
     {
@@ -160,7 +160,7 @@
         "counter": "Opponent sprawls hips back and drives weight low to neutralize elevation",
         "effectiveness": "High",
         "your_response": "Follow their movement by sitting up while maintaining overhook, then transition to a technical stand-up or switch to an arm drag since their weight is committed backward",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -222,7 +222,7 @@
         "description": "Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each technique to set up the others based on opponent's defensive reactions. Develop the ability to flow between all options without resetting."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is creating a 45-degree angle the single most critical mechanical detail before attempting the overhook sweep?",
         "answer": "Creating a 45-degree angle allows you to sweep perpendicular to the opponent's base rather than trying to lift them straight up against gravity. When you sweep at an angle, you only need to overcome one posting point instead of two. Without the angle, you are fighting their entire body weight distributed across both knees, which requires significantly more force and gives them multiple recovery options."
@@ -302,7 +302,7 @@
       {
         "action": "Stand up in base to break closed guard, using the standing position to strip the overhook through posture and gravity",
         "when_to_use": "When the overhook is deep and arm extraction from kneeling has failed, or when opponent is actively completing the angle and sweep is imminent",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Standing breaks the guard open and removes the leg leverage needed for the sweep, transitioning to open guard passing where the overhook loses effectiveness",
         "risk": "Opponent may follow you up with the overhook maintained or switch to a different sweep timing as you transition through the standing motion"
       },
@@ -320,7 +320,7 @@
         "how": "Extract the trapped arm early by circling your elbow down and pulling it back to your hip while driving your posture upright. Re-establish both hands on hips or biceps to control distance. This resets the position to neutral closed guard top where you can resume your guard opening approach."
       },
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "Stand up in base to break the guard open, using the standing position to strip the overhook through posture extension and gravity. Once standing with guard broken, transition to open guard passing where the overhook control becomes largely ineffective without the closed guard legs to anchor the position."
       }
     ],
@@ -351,7 +351,7 @@
         "correction": "Prioritize centering your weight over the opponent's hips to prevent angle creation - a centered opponent cannot generate the perpendicular sweeping force even with a good overhook"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point in the overhook sweep sequence where defensive intervention is most effective?",
         "answer": "The most effective intervention point is the moment the opponent threads their arm over your tricep, before they can consolidate the grip. At this stage, a quick elbow circle downward and posture extension strips the overhook before any other elements are in place. Once the overhook is locked tight with angle and opposite-side control established, defensive difficulty increases dramatically. Prevention of the grip is far easier than escaping a fully established sweep setup."

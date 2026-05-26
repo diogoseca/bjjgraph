@@ -198,6 +198,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Truck Position Entry?</p>
+
 - Read the opponent's defensive intent to drop their base early and commit to the Truck entry before they consolidate turtle or seated guard
 - Maintain harness or seat belt control throughout the descent to ensure the opponent cannot separate during the transition from standing to ground
 - Thread the leg hook during the descent rather than after landing, using the downward momentum to drive your shin across the opponent's centerline
@@ -212,6 +214,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Truck Position Entry?</p>
+
 - Established standing back control with chest-to-back connection and harness or seat belt grip secured on the opponent's upper body
 - Opponent beginning to lower their base, drop to knees, or sit down defensively in response to standing back control pressure or takedown threat
 - At least one hook or hip-level leg contact established to facilitate threading the deeper Truck hook during the descent
@@ -224,6 +228,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Truck Position Entry step by step?</p>
 
 1. **Recognize the defensive drop**: From standing back control with harness grip locked, feel the opponent begin to lower their center of gravity by bending their knees or sitting their hips backward. This is your trigger to initiate the Truck entry rather than following to standard grounded back control.
 2. **Guide the descent with chest pressure**: Drive your chest forward and downward into the opponent's upper back while maintaining your harness grip. Use your body weight to accelerate their descent and control the direction, angling them slightly toward the side where you will thread your leg hook. Do not let them drop straight down into a compact turtle.
@@ -254,6 +260,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Truck Position Entry?</p>
+
 - **Opponent sprawls their hips back and fights to stay standing rather than dropping to knees, denying the descent trigger** (Effectiveness: High) - Your Response: Switch to traditional standing back control attacks: pursue rear naked choke setup, execute a mat return takedown, or apply a body triangle to compromise their base before reattempting the Truck entry on the next defensive drop. → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent drops to turtle and immediately tucks elbows tight and flattens hips to the mat, preventing leg hook threading** (Effectiveness: Medium) - Your Response: Transition to standard turtle top attacks such as Crucifix entry by isolating the near arm, or apply spiral ride pressure to create the hip space needed for a delayed Truck entry. Alternatively, switch to a seatbelt back take by inserting hooks from the top. → Leads to [[Positions/Turtle]]
 - **Opponent sits through to guard during the descent, turning to face you before you can thread the hook** (Effectiveness: Medium) - Your Response: Follow the sit-through momentum and use your chest pressure to drive them to their back. Transition to passing position or re-establish clinch control. If they achieve half guard, use your existing upper body control to work a knee slice pass. → Leads to [[Positions/Turtle]]
@@ -265,6 +273,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Truck Position Entry?</p>
 
 ### 1. Attempting the Truck entry after the opponent has already consolidated a tight turtle position on the ground
 
@@ -304,6 +314,8 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Truck Position Entry (Attacker)?</p>
+
 **Week 1-2** - Hook threading mechanics from kneeling
 Partner kneels in turtle position. From behind with harness grip, practice threading your leg hook under their hips and completing the roll to Truck. Focus on getting your shin completely across their centerline with smooth motion. Perform 20-30 repetitions per side per session to build the muscle memory for hook depth and rolling angle.
 
@@ -321,54 +333,12 @@ During sparring, work from standing back control and read whether the opponent s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Truck Position Entry from standing back control?
-**A**: The primary goal is to convert a dominant standing back control position into the Truck, bypassing the turtle position entirely and immediately accessing the Twister system of attacks including Twister, Calf Slicer, Banana Split, and alternative back takes. This transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following to standard grounded back control.
-
-**Q2**: What is the critical timing window for threading the leg hook during this transition?
-**A**: The hook must be threaded during the descent from standing to ground, not after the opponent has already landed in turtle. As the opponent's knees contact the mat, their hips are momentarily accessible and their defensive structure is incomplete. Once they consolidate turtle with elbows tucked and hips flat, the window closes. Reading the opponent's intent to drop and committing to the hook threading simultaneously is what separates successful entries from failed attempts.
-
-**Q3**: Your opponent posts their hand on the mat as they drop, blocking your leg from threading underneath. How do you adjust?
-**A**: Use your chest pressure to drive the opponent's upper body past their posting hand, collapsing their arm and creating the space needed for your hook. Alternatively, change the angle of your hook entry by swinging your leg slightly more toward their far hip rather than directly under their center. If the post is too strong, abandon the Truck entry and transition to a standard back take by inserting hooks, then look for Truck entry opportunities later from grounded back control.
-
-**Q4**: What grip configuration must be maintained throughout the entire standing-to-Truck transition?
-**A**: The harness or seat belt grip must be maintained with one arm over the opponent's shoulder and one arm under their armpit, hands connected in a clasp or S-grip configuration. This upper body connection is what prevents the opponent from separating during the descent and roll. Releasing the harness to reach for the leg hook is a critical error because the leg hook is established by leg movement alone while the arms maintain connection throughout.
-
-**Q5**: How deep must the leg hook penetrate for the Truck position to be secure?
-**A**: The shin must cross completely past the opponent's centerline with the foot emerging clearly on their far side. A hook that stops at or before the midline allows the opponent to extract their leg by pulling it backward or sitting back. The deep hook positions your knee under their far hip bone, creating a locked mechanical structure where their own skeletal anatomy prevents hook extraction. This depth is the single most important technical detail for Truck position security.
-
-**Q6**: The opponent grabs your hooking leg with both hands during the entry. What opportunity does this create?
-**A**: When the opponent commits both hands to stripping your leg hook, their neck and arms become completely undefended. This creates an immediate opportunity to attack the rear naked choke by sliding your choking arm under their chin while they focus on your leg. Alternatively, you can switch to hooking with the opposite leg on their other side while their hands are occupied. Their defensive choice to address your leg has traded neck defense for leg defense, which is a favorable exchange for the attacker.
-
-**Q7**: What is the primary direction of force your leg hook should generate during the roll to Truck?
-**A**: The leg hook should pull toward your own body in a curling motion, combined with a lateral rolling force that tips the opponent onto their side. The hook acts as a lever under their center of mass, and the pulling direction should be toward your hip on the hooking side. This is not a lifting force but a sweeping, rotating force that uses your hip and leg muscles to manipulate the opponent's entire body position while your harness grip keeps them connected to your torso.
-
-**Q8**: Your opponent stays completely upright in standing back control and refuses to drop. Should you force the Truck entry?
-**A**: No. The Truck Position Entry specifically exploits the descent from standing to ground. If the opponent maintains strong standing posture, pursue other standing back control attacks first: threaten the rear naked choke to force defensive reactions, apply a body triangle to compromise their base, or execute a mat return takedown. These attacks often force the opponent to eventually lower their base, creating the Truck entry opportunity. Forcing a Truck entry against a standing opponent with good posture results in losing back control entirely.
-
-**Q9**: What submissions become immediately available after successfully entering Truck from standing back control?
-**A**: The Truck position opens the full Twister system: the Twister spine lock by controlling the far leg and applying rotational torque, the Calf Slicer by triangling your legs around the opponent's trapped leg, the Banana Split groin stretch by controlling both legs and spreading them apart, and alternative back takes by releasing the Truck and inserting hooks. The Calf Slicer is often the fastest available attack since your leg is already in position, while the Twister requires additional leg control setup.
-
-**Q10**: How does the free leg function after the initial hook is threaded and the roll begins?
-**A**: The free leg serves a dual purpose: first, it acts as a posting brake on the mat during the roll to prevent over-rotation past the Truck position, stopping you on your side rather than flat on your back. Second, after the roll completes, the free leg immediately establishes secondary control by posting over the opponent's near thigh or hooking behind their knee, creating the figure-four or lockdown configuration that locks the Truck structure and prevents the opponent from extracting their legs.
-
-**Q11**: During the descent your opponent flattens their hips to the mat instead of landing on hands and knees. How does this affect your hook threading?
-**A**: A flat hip position on the mat eliminates the space underneath the opponent's body that you need for threading the hook. To counter this, you must use your chest pressure to angle the opponent onto their side during the descent rather than allowing them to go belly-down. Drive your weight into one shoulder to create asymmetric pressure, forcing them to land laterally. If they succeed in flattening, switch to spiral ride pressure from top position and work to create hip space by lifting their near hip with your knee before reattempting the hook.
-
-**Q12**: What distinguishes this Truck entry from the standard Truck entry off turtle top control?
-**A**: The standing variant threads the hook during the dynamic moment of descent when the opponent's defensive structure is incomplete, whereas the turtle top entry requires breaking down an already established defensive shell. From standing, momentum and gravity assist the hook threading as the opponent transitions between positions. The standing entry also preserves the harness grip from standing back control, giving immediate upper body connection that a turtle top attacker must first establish. However, the standing variant has a narrower timing window and requires committing to the entry before seeing whether the opponent will successfully consolidate turtle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Truck Position Entry?</p>
 
 The Truck Position Entry from standing involves a descent from standing to ground that carries inherent impact risk if executed without control. Both practitioners should ensure the training surface is adequately padded, and the top player must control the descent speed using their own base rather than allowing the opponent to crash to the mat. The leg hook threading places rotational stress on the hooking knee, so warm up the knee joint thoroughly before drilling. During the rolling phase, uncontrolled momentum can cause awkward falls, so practice the roll slowly before increasing speed. The Truck position itself gives access to dangerous submissions including the Twister (spine lock) and Calf Slicer (leg lock), which can cause serious injury if applied without control. Partners should establish clear tap signals before drilling, and both practitioners should understand the submission mechanics before training at full resistance. Avoid this entry on hard surfaces or when fatigued, as the standing-to-ground transition requires body awareness that degrades with exhaustion.
 

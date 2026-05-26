@@ -28,7 +28,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Rear Naked Choke",
       "probability": 10,
       "result": "counter"
     }
@@ -144,7 +144,7 @@
         "counter": "Opponent switches to opposite arm choke when you focus on one side",
         "effectiveness": "High",
         "your_response": "Keep chin tucked centrally and maintain awareness of both arms. If opponent switches, immediately redirect both hands to new choking arm using same two-on-one methodology.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Turtle/Bottom"
       },
       {
         "counter": "Opponent establishes body triangle and uses squeezing pressure to break your grip strength",
@@ -162,7 +162,7 @@
         "counter": "Opponent abandons choke and attacks armbar from back",
         "effectiveness": "Medium",
         "your_response": "Keep elbows tight to body. If opponent releases neck to attack arm, this creates space for you to begin turning into them or executing hip escape.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Turtle/Bottom"
       }
     ],
     "common_errors": [
@@ -214,7 +214,7 @@
         "description": "Full resistance back survival rounds where partner actively hunts submissions. Practice sustained hand fighting under pressure, adapting to opponent's switches and attacks. Build mental composure through extended survival."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of hand fighting from back control?",
         "answer": "The primary goal is to prevent the opponent from establishing a choking grip while creating opportunities for escape. Hand fighting neutralizes the immediate submission threat, transforming back control from a terminal position into a survivable situation where systematic escape becomes possible."
@@ -287,7 +287,7 @@
       {
         "action": "Switch choking arm by withdrawing the controlled arm and immediately attacking with the opposite arm over the other shoulder",
         "when_to_use": "When opponent has fully committed both hands to your primary choking arm and cannot redirect quickly enough",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Turtle/Bottom",
         "if_successful": "Opponent must release established grips and redirect both hands to new threat, creating a brief window where choke can advance past their defense",
         "risk": "Momentarily weakens your seatbelt control during the switch, creating a potential escape window if opponent times hip escape during transition"
       },
@@ -301,7 +301,7 @@
       {
         "action": "Drive choking arm elbow tight to opponent's body and re-pummel underneath their defending hands to re-establish deeper neck access",
         "when_to_use": "When opponent has stripped your choking arm to a shallow position but has not yet cleared it fully across their body",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Turtle/Bottom",
         "if_successful": "Regains deep choking position despite their defensive grips, advancing the choke past the point where two-on-one defense is effective",
         "risk": "Requires significant grip strength and may fatigue your arm if opponent's defensive grips are well-established"
       },
@@ -319,7 +319,7 @@
         "how": "Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum."
       },
       {
-        "outcome": "game-over",
+        "outcome": "Half Guard/Bottom",
         "how": "Finish the rear naked choke or alternative submission by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance."
       }
     ],
@@ -345,7 +345,7 @@
         "correction": "The moment opponent begins clearing your arm across, withdraw it and re-attack from the other side. Never allow both arms to be consolidated on one side of opponent's body."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is switching your choking arm more effective than fighting the opponent's two-on-one grip directly?",
         "answer": "The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize."

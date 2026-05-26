@@ -215,7 +215,7 @@ The Tomahawk Sweep represents a crucial offensive tool within the X-Guard system
 
 - [[Positions/Mount]] - Primary finishing position after successful sweep
 
-- [[Positions/Side Control/Side Control Consolidation]] - Alternative consolidation position when angle prevents direct mount
+- [[Positions/Side Control]] - Alternative control position when angle prevents direct mount
 
 - [[Transitions/Butterfly Sweep]] - Complementary guard sweep sharing hook-based mechanics
 

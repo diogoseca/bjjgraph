@@ -32,7 +32,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position
@@ -100,25 +100,25 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (34% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (52% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (15% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (14% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (7% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (2% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (2% of attempts)
 
-- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (2% of attempts)
+- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (0% of attempts)
+
+- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (0% of attempts)
 
 - **[[Transitions/Shake Off Rodeo Ride/Attacker|Shake Off Rodeo Ride]]** (1% of attempts)
-
-- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -183,17 +183,17 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (28% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (30% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (12% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (14% of attempts)
 
 - **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (10% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (8% of attempts)
+- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (8% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (6% of attempts)
+- **[[Bow and Arrow Choke from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (6% of attempts)
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (8% of attempts)
 
@@ -204,10 +204,6 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 - **[[Transitions/Rodeo Ride to Back Control/Attacker|Rodeo Ride to Back Control]]** (2% of attempts)
 
 - **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (1% of attempts)
-
-- **[[Submissions/Calf Slicer from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (2% of attempts)
-
-- **[[Submissions/Rear Naked Choke from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (2% of attempts)
 
 
 ### Common Mistakes

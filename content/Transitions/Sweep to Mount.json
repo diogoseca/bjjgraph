@@ -68,7 +68,7 @@
       "relationship": "Follow-up technique to establish control after landing in mount from the sweep"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Follow-up submission option after releasing guillotine in mount"
     },
     {
@@ -214,7 +214,7 @@
         "description": "Full resistance sparring with the specific goal of hitting this sweep from Hindulotine bottom. Partner actively counters all options. Develop real-time decision making for when to attempt the sweep versus alternative attacks. Include competition-pace rounds where you must achieve the sweep under full defensive effort."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary biomechanical difference between the Sweep to Mount and the Butterfly Sweep with Guillotine from Hindulotine?",
         "answer": "The Sweep to Mount uses a hip bump bridge mechanic where feet are planted on the mat and explosive bridging creates the off-balance, while the Butterfly Sweep with Guillotine uses butterfly hooks inside the opponent's thighs to elevate and redirect their forward momentum. The hip bump variant works when hooks are unavailable and relies on directional bridging force rather than opponent's forward pressure."
@@ -345,7 +345,7 @@
         "correction": "Use your skeletal frame rather than arm extension for base. Post your hand on the mat far to the sweep side for structural resistance rather than pushing against the attacker's body."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for defending against the Sweep to Mount?",
         "answer": "The best defensive window is during the attacker's loading phase, when they shift their hips laterally and plant their feet for the bridge, but before the explosive bridge fires. Recognizing hip shifts and foot plants gives you time to widen your base or sprawl before the sweep generates full momentum. Once the bridge fires with proper angle and power, defensive recovery becomes extremely difficult."

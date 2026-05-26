@@ -214,7 +214,7 @@ This transition occupies a critical node in the top-position advancement hierarc
 
 - [[Transitions/Modified Scarf to Kesa Gatame]] - Alternative transition from same source position that changes control geometry laterally
 
-- [[Transitions/Consolidation to Mount]] - Related mount entry from standard side control sharing similar weight transfer principles
+- [[Transitions/Side Control to Mount]] - Related mount entry from standard side control sharing similar weight transfer principles
 
 - [[Transitions/KOB to Mount]] - Similar mount advancement transition from Knee on Belly with comparable step-over mechanics
 

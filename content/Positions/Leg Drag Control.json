@@ -85,7 +85,7 @@
       "Be prepared to transition immediately when opponent creates space or turns",
       "Weight distribution must be dynamic—shift between control points based on opponent's movement"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts bridging aggressively while you have leg drag control—what adjustment do you make?",
         "answer": "When the opponent bridges, drive your chest pressure lower into their hip while posting your free hand wide on the mat for base. The bridge creates momentary space, so immediately follow their movement and use it to advance to mount or slide to side control. Do not fight the bridge statically—flow with it and use the momentum to consolidate."
@@ -310,11 +310,11 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass to Side Control",
-        "attempt_probability": 22
+        "attempt_probability": 23
       },
       {
         "transition": "Leg Drag to Back Take",
-        "attempt_probability": 20
+        "attempt_probability": 21
       },
       {
         "transition": "Leg Drag to Mount",
@@ -343,10 +343,6 @@
       {
         "transition": "Leg Drag to Darce Setup",
         "attempt_probability": 7
-      },
-      {
-        "transition": "Darce from Leg Drag",
-        "attempt_probability": 2
       }
     ]
   },
@@ -388,7 +384,7 @@
       "If you cannot free your leg, transition to a safer position like turtle rather than giving up back",
       "Recognize the position early during the passing sequence to defend proactively"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts advancing toward your back while you're in leg drag bottom—what immediate adjustment do you make?",
         "answer": "Immediately fight for an underhook on the side they're advancing toward and drive your shoulder toward them, not away. This counters their back take angle. Simultaneously, use your free leg to create a frame against their hip or post on the mat to generate space. Never turn your back to them—stay chest-to-chest as much as possible while you work to free your leg."

@@ -188,6 +188,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bull Pass from Seated?</p>
+
 - Grip the opponent's legs at the knees or shins before committing forward pressure - never drive without leg control established first
 - Drive your hips and chest forward simultaneously with the leg push to prevent the opponent from recovering frames in the gap
 - Direct the opponent's legs to one side rather than straight down to create a clear lane for your body to advance through
@@ -202,6 +204,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bull Pass from Seated?</p>
+
 - Standing or kneeling position with stable athletic base over seated opponent with hips loaded
 - Both hands free or able to quickly release current grips to control opponent's legs at the knees or shins
 - Opponent's feet not actively pushing against your hips or controlling your ankles with defensive frames
@@ -215,6 +219,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bull Pass from Seated step by step?</p>
 
 1. **Establish athletic stance**: Position yourself in an athletic stance facing the seated opponent with weight on the balls of your feet and knees bent. Your stance should be slightly wider than shoulder width to provide a stable base for the forward drive. Keep your hips low and loaded with your center of gravity ready to explode forward on commitment.
 2. **Secure leg grips**: Grip both of the opponent's legs at the knees or just below on the shins using a pronated grip with palms facing down for maximum pushing power. Secure the grips quickly before the opponent can retract their legs or establish defensive frames with their feet against your hips. The grip must be firm and positive before initiating the drive.
@@ -245,6 +251,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bull Pass from Seated?</p>
+
 - **Opponent frames with feet on hips before the drive connects, creating distance** (Effectiveness: High) - Your Response: Switch immediately to toreando pass by redirecting their now-extended legs laterally instead of driving through. Their straightened legs pushing against your hips become a liability for the toreando redirection. → Leads to [[Positions/Seated Guard]]
 - **Opponent scoots hips backward and reestablishes distance before you close** (Effectiveness: Medium) - Your Response: Pursue with quick grip reestablishment on the legs. Close distance with a long step and reattempt the bull pass or transition to standing toreando. Do not overcommit to chasing if they continue scooting away. → Leads to [[Positions/Seated Guard]]
 - **Opponent hooks your lead leg with their foot and elevates using your forward momentum** (Effectiveness: High) - Your Response: Immediately base wide with your free leg and retract the hooked leg. If caught in the elevation, post both hands wide to prevent being swept and work to extract your leg before the opponent completes the reversal to top position. → Leads to [[Positions/Half Guard]]
@@ -257,6 +265,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bull Pass from Seated?</p>
 
 ### 1. Driving forward without securing leg grips first
 
@@ -301,6 +311,8 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bull Pass from Seated (Attacker)?</p>
+
 **Phase 1: Mechanics** - Movement pattern and grip placement
 Solo drill the bull pass motion against a grappling dummy or heavy bag. Practice the grip-drive-consolidate sequence focusing on low center of gravity, explosive forward drive from the hips, and smooth transition from leg control to upper body control. Repeat 20 times per side.
 
@@ -321,48 +333,12 @@ Practice against partners who specifically counter the bull pass with frames, sw
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Bull Pass against a seated guard player?
-**A**: The optimal timing window is when the opponent's feet are momentarily passive or disengaged, typically when they are adjusting grips, transitioning between positions, or when their hands are occupied with upper body grip fighting rather than managing distance with their legs. Also effective immediately after breaking their grips when they need a moment to reestablish defensive structure.
-
-**Q2**: What grip configuration provides the best control for executing the Bull Pass?
-**A**: Pronated grips with palms facing down on both knees or just below on the shins provide maximum pushing power and directional control. The grip should be firm enough to redirect the legs decisively but not death-gripped to the point where you cannot release quickly for the transition to upper body control. Some practitioners prefer cupping behind the knees for better leverage on the redirection.
-
-**Q3**: Your opponent posts their hand to resist the forward drive - how do you adjust?
-**A**: If the opponent posts a hand to brace against your drive, they have removed that hand from their base behind them. Immediately redirect the drive toward the side where they posted because their base is now compromised on that side. The posted hand creates a fulcrum point you can exploit by driving their legs toward it, causing them to collapse in the direction of their weakened support structure.
-
-**Q4**: What is the most critical mechanical detail that separates a successful Bull Pass from a failed attempt?
-**A**: The most critical detail is the simultaneous coordination of the leg push and hip advancement. The legs must be pushed to the side at the exact same moment your hips drive forward into the space being created. If the leg push happens first without hip drive, the opponent has time to reframe. If the hips drive first without leg control, you run directly into their defensive frames.
-
-**Q5**: What direction should you push the opponent's legs during the Bull Pass, and why?
-**A**: Push the legs toward the direction the opponent is already slightly leaning or toward the side where they have less base support. This exploits their existing structural weakness rather than fighting against their strongest defensive alignment. If they are neutral, push toward their underhook side as it is typically harder for them to reframe effectively from that angle against lateral pressure.
-
-**Q6**: What entry requirements must exist before attempting the Bull Pass from Seated Guard?
-**A**: You need secure grips on both legs at or below the knees, a stable athletic stance with hips loaded for explosive forward drive, the opponent's feet not actively pushing on your hips, no significant opponent grips controlling your posture or sleeves, and sufficient distance to generate forward momentum. Missing any of these conditions significantly reduces success probability and increases counter risk.
-
-**Q7**: Your opponent blocks the Bull Pass by inserting a butterfly hook as you close distance - what is your response?
-**A**: Immediately abort the straight bull pass drive and transition to a smash pass or knee slice. The butterfly hook converts the situation from seated guard to butterfly guard, which requires entirely different passing mechanics. Driving forward against an established butterfly hook feeds directly into their elevation sweep. Instead, control the hook-side leg and use smash pass pressure to flatten the hook before continuing the pass.
-
-**Q8**: How does the Bull Pass chain with other passing techniques when the initial attempt is defended?
-**A**: When the bull pass is stuffed by frames, the opponent's extended legs are perfectly positioned for a toreando pass using lateral redirection. If they pull legs back to defend toreando, the gap created opens for a knee slice entry. If they sit up to counter the knee slice, their seated position reopens the bull pass. This creates a three-way passing cycle: bull pass feeds toreando feeds knee slice and back to bull pass.
-
-**Q9**: What is the primary risk of overcommitting to the Bull Pass, and how do you mitigate it?
-**A**: The primary risk is the opponent using your forward momentum for a sweep, particularly by hooking your lead leg and elevating. Mitigate this by maintaining a low center of gravity throughout the drive, keeping your base wide with the free leg posted, and being ready to abandon the attempt if you feel yourself being elevated. If caught in elevation, immediately post hands wide and retract the hooked leg rather than continuing forward.
-
-**Q10**: When should you choose the Bull Pass over the Toreando Pass from Seated Guard?
-**A**: Choose the bull pass when the opponent's feet are close together or inactive since toreando requires separated legs to redirect laterally. Choose it when the opponent has a strong lateral scooting game that defeats toreando attempts. Also choose it when the opponent is focused on upper body grip fighting and neglecting their leg defense. The toreando is generally higher percentage, so the bull pass works best as a change of pace or against specific passive defensive postures.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bull Pass from Seated?</p>
 
 The Bull Pass involves explosive forward driving that can strain the lower back and knees if performed with poor mechanics. Always warm up hips and lower back before drilling this technique. The forward drive should come from hip extension rather than spinal flexion. When drilling with partners, communicate about drive intensity to prevent accidental knee impacts or facial collisions. The opponent's legs can be stressed at the knee joint if pushed at an extreme lateral angle, so direct leg pushes laterally with controlled force rather than hyperextending. Practice at controlled speed before adding full explosiveness.
 

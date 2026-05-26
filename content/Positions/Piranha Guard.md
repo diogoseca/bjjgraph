@@ -32,7 +32,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the lapel configuration to prevent opponent from recovering posture or extracting the collar from the leg entanglement
@@ -114,7 +114,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 - **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (11% of attempts)
 
-- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (10% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (10% of attempts)
 
 - **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (5% of attempts)
 

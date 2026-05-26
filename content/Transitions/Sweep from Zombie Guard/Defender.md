@@ -154,6 +154,8 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Zombie Guard?</p>
+
 - Bottom player begins walking their feet toward your hips to create a perpendicular angle with their body, signaling sweep angle development
 - Increased lockdown tension pulling your trapped leg laterally away from your centerline, indicating the stretch phase has been initiated
 - Bottom player drives their underhook shoulder deeper into your chest while their head drops below your chin level for the driving wedge
@@ -166,6 +168,8 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Zombie Guard?</p>
 
 - Maintain heavy crossface pressure to prevent the bottom player from creating the perpendicular angle essential for sweep leverage
 - Counter the underhook immediately with a whizzer or by swimming through to re-establish your own underhook dominance
@@ -180,6 +184,8 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Zombie Guard?</p>
 
 ### 1. Drive heavy crossface and flatten the bottom player before the sweep angle develops
 
@@ -217,6 +223,8 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Zombie Guard?</p>
+
 ### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain heavy crossface pressure combined with whizzer control to neutralize both the underhook axis and the angle creation simultaneously. Drive your weight diagonally forward to flatten the bottom player onto their back, removing their ability to generate the hip angle needed for elevation. Once flattened, work systematically to extract your leg from the lockdown and advance to side control through established passing sequences.
@@ -232,6 +240,8 @@ Strip the lockdown entanglement by posting on your trapped knee and methodically
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Zombie Guard?</p>
 
 ### 1. Sitting upright with weight on your heels when feeling lockdown tension increase
 
@@ -261,6 +271,8 @@ Strip the lockdown entanglement by posting on your trapped knee and methodically
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Zombie Guard?</p>
+
 **Phase 1: Recognition Drills** - Identifying sweep setup cues early through tactile awareness
 Partner slowly sets up the sweep components in isolation - angle creation, lockdown stretch deepening, underhook penetration - while you practice identifying each setup phase verbally. No resistance applied, purely recognition training. Call out each cue as you feel it to build automatic detection patterns.
 
@@ -277,26 +289,6 @@ After successfully defending the sweep, immediately transition to a passing sequ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Sweep from Zombie Guard is being set up?
-**A**: The earliest cue is the bottom player beginning to walk their feet toward your hips to create a perpendicular body angle. This angle adjustment precedes the active sweep execution by several seconds and is the most reliable early indicator. You may also feel the underhook deepening and their head dropping below your chin level. Addressing this angle creation immediately by driving crossface pressure prevents the sweep from developing to its mechanical tipping point.
-
-**Q2**: Which defensive response should you prioritize when you feel the lockdown stretch and the underhook drive simultaneously?
-**A**: Prioritize neutralizing the underhook with either a deep whizzer or by swimming your arm through to re-establish your own underhook control. The underhook provides the rotational axis without which the sweep cannot complete regardless of how intense the lockdown stretch becomes. While the lockdown creates base disruption, it alone cannot reverse you without the underhook creating the critical turning moment. Once the underhook is neutralized, the lockdown stretch becomes manageable.
-
-**Q3**: How do you maintain top position when the sweep has already progressed past the midpoint of execution?
-**A**: If the sweep is past the mechanical tipping point, your best option is to post your far hand on the mat and immediately work to insert a knee between you and the opponent to prevent them from achieving full mount. Accept the positional change but fight for top half guard rather than allowing clean mount by inserting your knee shield frame during the reversal. This damage control approach preserves a recoverable position rather than fighting a losing battle.
-
-**Q4**: What base adjustments prevent the lockdown stretch from compromising your stability?
-**A**: Widen your free leg post significantly and angle it perpendicular to the lockdown's lateral pulling direction. Drop your hip on the locked side toward the mat to lower your center of gravity below the sweep's effective elevation range. Drive forward pressure through your chest rather than posting upright on your hands. The triangular base created by your free leg, your locked leg contact, and your chest pressure provides three-point stability that resists the sweep's rotational force.
-
-
-
-</section>
 
 
 </main>

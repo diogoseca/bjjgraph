@@ -9,7 +9,7 @@
     "10th-planet-counter",
     "positional-escape"
   ],
-  "from_position": "Electric Chair/Top",
+  "from_position": "Electric Chair/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Top",
@@ -80,7 +80,7 @@
       "relationship": "Position the bottom player may transition to if Electric Chair is neutralized"
     },
     {
-      "name": "Electric Chair Finish",
+      "name": "Electric Chair",
       "relationship": "Submission threat being defended against with this technique"
     },
     {
@@ -237,7 +237,7 @@
         "description": "If the straighten leg defense fails, immediately chain to limp leg technique or hip rotation escape. Practice reading which defense to use based on the bottom player's adjustments and current mechanical advantage. Develop automatic defensive responses to different lockdown pressures."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Straighten Leg Defense from Electric Chair?",
         "answer": "The defense should be initiated as soon as you recognize the Electric Chair setup, before the bottom player achieves full hip extension and splitting pressure. The ideal window is when the bottom player begins controlling your near ankle and extending their lockdown—at this early stage, the mechanical advantage has not yet shifted fully to the attacker, and your leg can still be straightened with moderate effort. Waiting until full extension reduces success probability dramatically."
@@ -346,7 +346,7 @@
         "correction": "As soon as you feel the top player's leg stiffening against the lockdown, immediately accelerate your setup by increasing all three pressure points simultaneously: lockdown tension, underhook depth, and ankle control"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is attempting the Straighten Leg Defense?",
         "answer": "The earliest cue is feeling the top player's glutes and hip extensors engage on the trapped leg side, creating a stiffening resistance through your lockdown hooks that was not present before. This occurs before visible leg straightening and is primarily a tactile sensation through your ankle hooks and lockdown grip. The top player's forward weight shift and widened base of their free leg confirm the defense is being initiated."

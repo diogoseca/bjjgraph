@@ -164,6 +164,8 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Lock Pass?</p>
+
 - Opponent abandons crossface or underhook fighting and instead reaches both arms around your torso, attempting to clasp hands behind your back
 - Opponent drives their chest directly into yours with heavy forward pressure, eliminating the space between your bodies
 - Opponent's head drops to the mat on the far side of their trapped leg, creating crossface pressure through head position rather than arm
@@ -175,6 +177,8 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Lock Pass?</p>
 
 - Prevent chest-to-chest contact through proactive knee shield and forearm frames before the body lock is established
 - Never allow your back to be driven flat to the mat - maintain side angle through constant hip movement and underhook fighting
@@ -189,6 +193,8 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Lock Pass?</p>
 
 ### 1. Establish and maintain knee shield before body lock is secured
 
@@ -226,6 +232,8 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Lock Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Prevent the body lock from being established through proactive knee shield and frame management, then use the passer's forward commitment to initiate sweeps such as underhook sweep, old school sweep, or butterfly hook elevation
@@ -241,6 +249,8 @@ If flattened, use hip escape sequences and frame creation to recover to your sid
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Lock Pass?</p>
 
 ### 1. Allowing the body lock to be fully established without any preventive framing
 
@@ -275,6 +285,8 @@ If flattened, use hip escape sequences and frame creation to recover to your sid
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Lock Pass?</p>
+
 **Week 1-2: Recognition and Prevention** - Identifying body lock pass attempts and establishing preventive frames
 Partner attempts to establish body lock from half guard top at slow speed. Practice recognizing the transition from crossface/underhook fighting to body lock seeking, and immediately respond with knee shield insertion and forearm frames. Develop automatic framing responses to chest-to-chest pressure.
 
@@ -291,29 +303,6 @@ Against full resistance body lock pass attempts, practice integrating defensive 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective point to defend the body lock pass?
-**A**: The earliest and most effective defense occurs before the body lock is established, by maintaining a proactive knee shield or forearm frame that prevents chest-to-chest contact. Once the body lock is clasped with tight connection, your defensive options decrease dramatically. Prevention through framing is far more energy-efficient and higher percentage than escaping a fully established body lock pass.
-
-**Q2**: Why is being flattened onto your back so damaging to your defensive position against the body lock pass?
-**A**: Being flat on your back eliminates hip mobility, which is the foundation of all guard retention and escape mechanics. Without the ability to create angles through hip movement, you cannot re-insert knee shield, initiate hip escapes, or generate the leverage needed for sweeps. The flat position also maximizes the passer's pressure advantage because their weight drives straight through your torso into the mat with no angular displacement.
-
-**Q3**: Your opponent has established the body lock and is beginning to flatten you - what defensive action has the highest priority?
-**A**: The highest priority is fighting to maintain or recover your side angle through aggressive underhook battles and hip movement. Turn into the passer and fight for the underhook on the trapped leg side. Even maintaining a partial angle dramatically increases your defensive options compared to being completely flat. If you cannot get the underhook, at minimum keep your near-side elbow connected to your knee to maintain some frame structure.
-
-**Q4**: When should you apply the lockdown against the body lock pass, and what must you do immediately after applying it?
-**A**: Apply the lockdown when you have been flattened and the passer begins hip-walking to clear their trapped leg. However, the lockdown is only a temporary stalling measure. Immediately after applying it, you must work to get back to your side by using the lockdown's control to create an angle, then fight for frames and underhook position. Staying flat with only a lockdown is a losing strategy against a patient passer.
-
-**Q5**: What defensive framing structure prevents the body lock from being established effectively?
-**A**: A knee shield with your shin positioned diagonally across the passer's torso prevents chest-to-chest contact entirely. Supplement this with a forearm frame against their far shoulder to control distance. This two-layer frame structure means the passer must address both the knee shield and your arm frame before they can close the distance needed for the body lock. Keep your elbows tight to your body to avoid arm isolation attacks.
-
-
-
-</section>
 
 
 </main>

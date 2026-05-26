@@ -32,8 +32,8 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Rear Triangle",
+      "text": "From this position, attempt Rear Naked Choke from Rear Triangle. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,8 +44,8 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Rear Triangle",
+      "text": "From this position, attempt Bow and Arrow Choke from Rear Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -165,6 +165,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Position Definition
 
+<p class="section-subtitle">What is Rear Triangle (Top)?</p>
+
 - Top practitioner's legs form a triangle configuration around opponent's neck and one trapped arm, with one leg threaded under the armpit and across the back of the neck while the other leg locks over the ankle to complete the triangle, creating a secure figure-four lock that controls both head and arm simultaneously
 - Top practitioner maintains chest-to-back connection with their torso pressed against opponent's back, hips oriented toward the trapped arm side to maximize control and create the optimal angle for submissions while preventing opponent rotation away from the triangle
 - Opponent is typically seated or on their side with one arm trapped inside the triangle while their body is compressed forward by the leg pressure across their neck and shoulder, limiting their ability to establish defensive frames or recover posture
@@ -177,6 +179,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Rear Triangle (Top)?</p>
 
 - Established back control position with hooks or body triangle
 - Opponent's defensive hand fighting creates opportunity to trap one arm
@@ -191,6 +195,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Rear Triangle?</p>
 
 - Thread the choking leg deep under the opponent's armpit to create proper angle across the back of their neck rather than the front
 - Lock the triangle tight by pulling the locking ankle into the crook of the knee while squeezing knees together to compress the opponent's neck and trapped arm
@@ -207,6 +213,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Rear Triangle (Top)?</p>
+
 **If opponent tucks chin and defends choke primarily:**
 - Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
 - Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 45%)
@@ -214,16 +222,16 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **Else if opponent attempts to pull trapped arm free:**
 - Execute **[[Tighten Triangle Lock/Attacker|Tighten Triangle Lock]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 70%)
-- Execute **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Rear Triangle Choke Finish/Attacker|Rear Triangle Choke Finish]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
-- Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Extend Hips and Finish Triangle/Attacker|Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Attack Free Arm for Control/Attacker|Attack Free Arm for Control]]** → [[Positions/Gift Wrap]] (Probability: 50%)
 
 
@@ -234,6 +242,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Rear Triangle?</p>
 
 ### 1. Threading leg in front of opponent's neck instead of behind, creating a front triangle configuration
 
@@ -273,6 +283,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Rear Triangle attacks?</p>
+
 ### Triangle Entry from Back Control Drill
 
 Start in standard back control with seat belt grip. Partner defends by gripping hands together. Practice threading your leg under their armpit and locking the triangle configuration while maintaining back control. Repeat 10 times each side, focusing on smooth entry without losing position. Partner should provide realistic defensive resistance but allow successful entries.
@@ -305,38 +317,6 @@ Establish rear triangle position with compliant partner. Practice the following 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip angle for maintaining rear triangle control and why does this matter?
-**A**: Angle your hips toward the trapped arm side at approximately 45 degrees to maximize carotid pressure. This hip orientation creates the cutting angle across the neck that compresses the carotid artery on the trapped arm side. Without this angle, the choke becomes a less effective air choke rather than a blood choke, giving opponent more time to escape.
-
-**Q2**: Your opponent starts to turn into you to relieve choking pressure - what adjustment do you make?
-**A**: Extend your hips away from opponent while simultaneously tightening the triangle lock by squeezing knees together. Use your chest pressure and free hand to prevent their rotation. If they continue turning, use the rotation to transition to crucifix position by controlling their far arm during the turn. Never let them face you completely.
-
-**Q3**: What are the essential grip priorities when your hands are free in rear triangle position?
-**A**: Primary priority is controlling the opponent's free arm to prevent defensive gripping and frame establishment. Secondary priority is wrist control or collar grip on the trapped arm side to set up rear naked choke or bow and arrow attempts. Your hands should never be idle - they cycle between controlling the free arm and attacking submissions.
-
-**Q4**: How do you prevent opponent from extracting their trapped arm from the triangle structure?
-**A**: Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips toward the trapped arm side to create pressure that pins the arm against their own body. Use your hands to actively fight any grip breaks on the trapped arm. If they create space, immediately tighten the triangle lock before continuing attacks.
-
-**Q5**: What is the proper leg threading depth for the rear triangle and why is this critical?
-**A**: Thread the choking leg deep under the armpit until your calf crosses behind the opponent's neck, not in front. The leg should emerge on the opposite side of their neck from where it entered. This creates the proper posterior choking angle that attacks the carotid from behind, making chin tucking an ineffective defense compared to front triangle positioning.
-
-**Q6**: Your opponent bridges hard and creates space between your chest and their back - how do you recover?
-**A**: Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle.
-
-**Q7**: How do you distribute your weight to maintain rear triangle without fatiguing your legs prematurely?
-**A**: Let your skeletal structure do the work rather than muscular squeezing. Lock the ankle deep into the knee crook so the figure-four holds itself structurally. Use your body weight draped over the opponent's back as the primary control force rather than constant leg tension. Reserve active squeezing for moments when you need to tighten during escape attempts or submission finishes. Between attacks, maintain a firm but relaxed triangle lock.
-
-**Q8**: After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?
-**A**: Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

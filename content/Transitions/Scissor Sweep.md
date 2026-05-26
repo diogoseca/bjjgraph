@@ -204,13 +204,13 @@ The Scissor Sweep serves as a cornerstone technique within the closed guard atta
 
 - [[Positions/Mount]] - Ending position - direct result of successful sweep execution
 
-- [[Submissions/Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
+- [[Transitions/Kimura Sweep]] - Follow-up attack when opponent posts to defend sweep, targeting the posted arm
 
-- [[Submissions/Triangle from Closed Guard]] - Alternative attack when opponent's posture is broken but sweep timing is unavailable
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack when opponent's posture is broken but sweep timing is unavailable
 
 - [[Transitions/Elevator Sweep]] - Related sweep from closed guard using butterfly hook mechanics as alternative angle
 
-- [[Submissions/Armbar from Guard]] - High-percentage submission attack available from same broken posture setup
+- [[Transitions/Guillotine Setup]] - High-percentage submission setup available from same broken posture position in closed guard
 
 - [[Transitions/Pass to Side Control]] - Opponent's objective - technique prevents their passing attempts and reverses position
 

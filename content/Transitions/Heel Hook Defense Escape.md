@@ -28,7 +28,7 @@ The escape relies fundamentally on rotational mechanics rather than linear pulli
 
 Strategically, this escape ranks among the highest-priority defensive skills for any practitioner training in leg lock systems. The asymmetric danger of Honey Hole means that defensive competence must match or exceed offensive understanding, as a single failed defense can result in catastrophic knee injury. Training this escape requires progressive resistance drilling with absolute commitment to tapping when escape fails, building realistic timing and recognition while preserving long-term training capability.
 
-**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -206,7 +206,7 @@ The Heel Hook Defense Escape is a critical component of the leg lock defense sys
 
 - [[Positions/Open Guard]] - Primary target position upon successful escape and guard recovery
 
-- [[Transitions/Inside Heel Hook from Honey Hole]] - The specific submission threat that necessitates this escape
+- [[Inside Heel Hook from Honey Hole]] - The specific submission threat that necessitates this escape
 
 - [[Submissions/Inside Heel Hook]] - The submission class being defended against during the escape
 

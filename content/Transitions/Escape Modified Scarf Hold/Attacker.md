@@ -188,6 +188,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Modified Scarf Hold?</p>
+
 - Frames create space, hip escapes preserve it - never move your hips without structural frames supporting the space you have created
 - Incremental progress beats explosive attempts - three small hip escapes accumulate more space than one large movement
 - The free arm is your most valuable asset - use it exclusively for structural frames, never for pushing or bench pressing
@@ -202,6 +204,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Modified Scarf Hold?</p>
+
 - Establish breathing by turning head away from opponent's chest pressure and tucking chin toward far shoulder
 - Position free arm as a forearm frame against opponent's hip bone with elbow driving into their midsection
 - Protect near arm by anchoring elbow to ribs and gripping own lapel (gi) or far bicep (no-gi) to prevent isolation
@@ -214,6 +218,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Modified Scarf Hold step by step?</p>
 
 1. **Secure breathing and composure**: Turn your head to the far side away from the opponent's chest pressure and tuck your chin toward your far shoulder. This opens an airway channel that allows steady breathing despite the compression. Establishing controlled breathing is the first priority because panic-driven attempts invariably fail against consolidated scarf hold pressure. Take three deliberate breaths before initiating any escape movement.
 2. **Establish primary hip frame**: Place your free (far) forearm against the opponent's near hip bone with your elbow driving into their midsection. This frame is structural, not muscular - your forearm acts as a rigid bar that prevents the opponent from driving their hips into yours. The frame should be positioned at a slight diagonal angle, pushing toward the opponent's far hip to create maximum separation force during the hip escape. Do not push upward; push laterally.
@@ -245,6 +251,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Modified Scarf Hold?</p>
+
 - **Opponent drives chest pressure forward and sprawls to collapse the hip frame** (Effectiveness: High) - Your Response: If the opponent sprawls into your frame, use their forward momentum to switch to a bridge escape. Their sprawl shifts weight forward past your center, making them vulnerable to a directional bridge toward their head. Chain the techniques: frame escape attempt draws the sprawl, bridge escape exploits the sprawl. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Opponent circles toward your head to transition to north-south during hip escape** (Effectiveness: Medium) - Your Response: When you feel the opponent circling toward your head, immediately redirect your frames to their new approach angle and shrimp in the direction they are circling. Turn your body to face them and insert both knees as a barrier. If they complete the north-south transition, switch to north-south escape protocols immediately. → Leads to [[Positions/North-South]]
 - **Opponent steps over to mount when hip escape creates space** (Effectiveness: High) - Your Response: The moment you feel the opponent's knee lifting for a mount transition, immediately drive your near knee across their path as a block. If you have already created hip angle, use this to slide your knee in front of their advancing leg. If the mount is established, transition to mount escape without hesitation. → Leads to [[Positions/Mount]]
@@ -256,6 +264,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Modified Scarf Hold?</p>
 
 ### 1. Using the free arm to bench press the opponent upward instead of framing laterally
 
@@ -295,6 +305,8 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Modified Scarf Hold (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Building effective structural frames under pressure
 Partner maintains Modified Scarf Hold at 50% pressure while you practice positioning the hip frame and maintaining it for 30-second intervals. Focus on forearm angle, elbow placement, and lateral force direction. No hip escape yet - isolate the frame positioning skill.
 
@@ -315,42 +327,12 @@ Start rounds in Modified Scarf Hold with partner applying full pressure. Use the
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct frame position for initiating the hip escape from Modified Scarf Hold?
-**A**: The free forearm is placed against the opponent's near hip bone with the elbow driving into their midsection. The frame is angled slightly diagonally, directing force toward the opponent's far hip rather than straight up. This structural frame uses skeletal alignment rather than muscular effort, converting hip escape movement into lateral separation. The frame prevents the opponent from following your hip movement with their chest pressure.
-
-**Q2**: Why is incremental hip escape more effective than a single explosive movement from Modified Scarf Hold?
-**A**: A single explosive movement is easily countered because the opponent can adjust during the gap between initiation and completion. Multiple smaller hip escapes compound space incrementally, and the frame prevents the opponent from closing the space between cycles. Three to four small shrimps create more total separation than one large movement while expending less energy and maintaining frame contact throughout. The cumulative effect overwhelms the top player's ability to adjust.
-
-**Q3**: Your hip frame keeps getting collapsed by the opponent driving forward - how do you adjust?
-**A**: If the opponent drives forward into your frame, use their forward momentum to switch to a bridge escape. Their forward drive shifts their weight past your center of gravity, making them vulnerable to a directional bridge toward their head side. This creates a layered escape system where the frame escape draws the sprawl and the bridge escape exploits it. Alternatively, reposition the frame from their hip to their shoulder, which is harder for them to collapse with forward drive.
-
-**Q4**: What is the most critical checkpoint before inserting the knee for guard recovery?
-**A**: Before inserting the knee, verify that your near arm elbow remains connected to your ribs and has not been isolated. A knee insertion attempt with a fully isolated near arm creates a worse position because the opponent can attack the arm while you are mid-transition. Additionally, ensure your frame is still loaded against the opponent's hip to maintain the space during knee insertion. The knee must enter as a wedge that replaces the frame's function of maintaining separation.
-
-**Q5**: How do you prevent the opponent from transitioning to mount during your hip escape?
-**A**: The hip frame against their near hip serves a dual purpose: it creates escape space and blocks the mount transition path. As long as the frame remains loaded against their hip, stepping over requires them to first defeat the frame. If you feel them lifting a knee to step over, immediately drive your near knee across their path as a block while maintaining the hip frame with your arm. The combination of arm frame and knee barrier makes mount transition extremely difficult.
-
-**Q6**: Your opponent responds to your hip escape by circling toward north-south - what is your response?
-**A**: When the opponent circles toward your head, immediately redirect your frame to their new approach angle and shrimp in the direction they are circling rather than away from them. Turn your body to face their movement and insert both knees as a barrier between your torso and theirs. The key is recognizing the north-south transition early - if you feel their hips moving toward your head rather than driving into you, switch from lateral hip escape to rotational body positioning that keeps your legs between you and them.
-
-**Q7**: What role does breathing play in executing the frame escape from Modified Scarf Hold?
-**A**: Controlled breathing is the prerequisite for everything else. Before any escape movement, establish an airway by turning your head to the far side and tucking your chin. Breathe with your diaphragm rather than expanding your chest against the opponent's weight. Steady breathing prevents panic responses that lead to explosive, low-percentage movements. Time each shrimp cycle with your exhale, as your core is most engaged during exhalation. Three controlled breaths before initiating the escape ensures your nervous system is regulated for methodical technique execution.
-
-**Q8**: How does the frame escape from Modified Scarf Hold differ from escaping standard side control?
-**A**: Modified Scarf Hold concentrates pressure through chest-to-chest compression with near-arm entrapment, whereas standard side control distributes weight across a broader surface area. The frame escape from scarf hold requires addressing the arm entrapment first by anchoring the near elbow before framing and shrimping. The hip frame must target their hip bone specifically because the scarf hold positions their hips closer to yours than standard side control. Additionally, the escape direction may differ as scarf hold has a different weight distribution axis than crossface side control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Modified Scarf Hold?</p>
 
 Frame-based hip escapes from Modified Scarf Hold involve sustained pressure on the chest and ribcage that can be uncomfortable and cause anxiety, particularly for practitioners with breathing sensitivities or claustrophobia. Training partners should communicate about pressure intensity and allow breathing breaks. The sustained lateral force from repeated shrimps can strain the lower back and hip flexors if performed without adequate warm-up. Practitioners with shoulder injuries should be cautious with the frame arm position, as the opponent may drive into it with significant force. Always tap if breathing becomes severely compromised rather than persisting with escape attempts.
 

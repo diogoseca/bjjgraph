@@ -194,6 +194,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crossface from Old School?</p>
+
 - Drive crossface pressure incrementally rather than explosively to deny the bottom player timing windows for sweep counters
 - Maintain whizzer depth throughout the crossface application to prevent underhook recovery and upper body rotation
 - Keep chest weight heavy and forward on the opponent's sternum to prevent hip movement and space creation
@@ -209,6 +211,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crossface from Old School?</p>
+
 - Established Old School Top position with deep whizzer threaded under opponent's armpit
 - Free leg posted wide with knee angled outward for base stability against sweep attempts
 - Chest-to-chest connection maintained with weight driven forward into opponent's sternum
@@ -221,6 +225,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crossface from Old School step by step?</p>
 
 1. **Secure whizzer anchor**: Before initiating the crossface drive, verify your whizzer is threaded deep under the opponent's armpit with your hand gripping your own thigh or their hip. This grip serves as the structural anchor for the entire technique and prevents the bottom player from recovering underhook depth during the crossface application.
 2. **Post free leg wide for base**: Position your free leg wide with the knee angled outward at approximately 45 degrees. This creates a broad triangular base that resists the sweeping forces the bottom player will generate as they feel the crossface pressure increasing. Without this base, the bottom player can time sweeps during your weight shifts.
@@ -251,6 +257,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crossface from Old School?</p>
+
 - **Bottom player pumps lockdown aggressively to create sweep momentum before crossface is established** (Effectiveness: High) - Your Response: Immediately sprawl hips back while maintaining chest pressure to remove sweep leverage. Increase whizzer depth and wait for the pumping to exhaust before reinitiating crossface drive. → Leads to [[Positions/Half Guard]]
 - **Bottom player releases head control and frames against crossface shoulder with forearm** (Effectiveness: Medium) - Your Response: Swim your crossface hand inside their frame and re-establish crossface below their forearm. Their frame actually helps you because releasing head control eliminates one of the controls you need to break. → Leads to [[Positions/Half Guard/Old School]]
 - **Bottom player dives under for deep half guard entry during crossface weight shift** (Effectiveness: High) - Your Response: If you feel them scooping under your hips, immediately sprawl heavy and drive your crossface deeper to prevent them from completing the rotation under you. Keep hips low and forward to deny the space they need for deep half entry. → Leads to [[Positions/Half Guard]]
@@ -263,6 +271,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crossface from Old School?</p>
 
 ### 1. Driving crossface explosively in one forceful motion
 
@@ -302,6 +312,8 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crossface from Old School (Attacker)?</p>
+
 **Phase 1: Crossface Mechanics** - Developing proper pressure application and body positioning
 Partner starts in Old School Bottom with lockdown and underhook. Practice driving crossface pressure to turn their head and flatten their posture with zero resistance. Focus on using body weight rather than arm strength, maintaining whizzer depth, and feeling the moment their sweeping angle breaks. 20 repetitions per side.
 
@@ -319,42 +331,12 @@ Start in Old School Top position. Top player works to pass via crossface while b
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins pumping the lockdown aggressively as you start the crossface - how do you adjust your approach?
-**A**: Immediately sprawl your hips slightly back while maintaining chest pressure to neutralize the pump's sweeping leverage. Do not fight the pump by pulling your leg, as this feeds their mechanics. Wait for the pumping rhythm to slow, then resume the crossface drive during a pause between pumps. The sprawl removes the leverage angle they need while your weight keeps them pinned.
-
-**Q2**: What is the most critical body position element that makes the crossface effective from Old School Top?
-**A**: Chest-to-chest weight distribution with hips low is the critical element. The crossface derives its power from body weight transferred through the chest and shoulder, not from arm strength. When chest weight is properly committed forward onto the opponent's sternum, the crossface becomes a structural force they cannot frame against, while simultaneously preventing the hip movement they need for sweeps and guard recovery.
-
-**Q3**: Why must you maintain whizzer depth throughout the entire crossface passing sequence?
-**A**: The whizzer prevents the bottom player from recovering a deep underhook, which is the foundation of their entire Old School control system. If the whizzer slips during the crossface, the opponent can repummel their underhook and immediately re-establish sweeping angle regardless of head position. The whizzer is the anchor that holds your progress while the crossface does the active work of flattening.
-
-**Q4**: Your opponent frames against your crossface shoulder with their forearm - what does this tell you and how do you respond?
-**A**: The frame indicates they have released head control to create the frame, which is actually favorable because head control was one of the structures you needed to break. Swim your crossface hand inside their framing forearm and re-establish crossface below the frame. Their frame becomes ineffective once you are below it, and they have already given up the more dangerous head control grip voluntarily.
-
-**Q5**: What conditions must exist before you attempt to extract your trapped leg from the lockdown?
-**A**: The opponent must be substantially flattened with shoulders approaching the mat, their head turned away from the underhook side by the crossface, and their underhook shallow or neutralized by your whizzer. Attempting extraction before these conditions are met results in fighting a mechanically strong lockdown while the opponent retains sweep angles. The flattening process is what makes the lockdown extractable.
-
-**Q6**: How should you time the crossface drive relative to your opponent's breathing and movement patterns?
-**A**: Drive the crossface during your opponent's exhale or during moments when they pause between offensive actions. The exhale reduces their core tension and makes flattening easier. Pauses between lockdown pumps or sweep attempts represent windows where their structure is resetting. Avoid driving during their explosive bridge or pump movements, as your force will add to their momentum rather than opposing it effectively.
-
-**Q7**: If the crossface stalls and you cannot fully flatten your opponent, what alternative transitions become available?
-**A**: A partial crossface that turns the head but does not fully flatten opens several options: a knee slice pass using the angle created by the partial head turn, a darce choke if the opponent turns away from the crossface exposing their neck, or a switch to underhook passing by swimming for an underhook on the opposite side. The partial crossface has still degraded their control structure even if it did not complete the pass.
-
-**Q8**: Your opponent dives underneath you attempting deep half guard entry during your crossface - what is the immediate response?
-**A**: Sprawl your hips back and down heavily while driving the crossface deeper to prevent the rotation they need to complete the deep half entry. Their deep half attempt requires scooping under your hips, so removing hip space is the priority. If they are already partially under, switch to a whizzer and heavy hip pressure to prevent them from completing the position and address the deep half rather than continuing the crossface pass.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crossface from Old School?</p>
 
 The crossface applies pressure across the face and jaw which can cause discomfort but generally poses low injury risk when applied gradually. Avoid driving crossface directly into the throat or trachea. In training, communicate with your partner about pressure intensity and ensure they can breathe adequately throughout the exchange. The lockdown extraction phase requires careful attention to knee and ankle alignment to prevent ligament strain on both players.
 

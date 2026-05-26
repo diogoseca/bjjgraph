@@ -154,6 +154,8 @@ Defending the level change takedown requires early recognition of the attack fol
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Level Change Takedown?</p>
+
 - Opponent suddenly drops their hips and bends their knees while their posture breaks forward from their normal stance
 - Opponent's eyes shift downward toward your legs or hips rather than maintaining their usual chest-level focus
 - Forward weight transfer combined with hands releasing grips and reaching toward your lower body in a grabbing motion
@@ -166,6 +168,8 @@ Defending the level change takedown requires early recognition of the attack fol
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Level Change Takedown?</p>
 
 - Recognize the level change early through visual and tactile cues before the penetration step connects with your legs
 - Sprawl immediately by driving hips back and down, dropping your full weight onto the attacker's upper back and shoulders
@@ -180,6 +184,8 @@ Defending the level change takedown requires early recognition of the attack fol
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Level Change Takedown?</p>
 
 ### 1. Sprawl by driving hips back and down while posting hands on attacker's head and shoulders to kill forward momentum
 
@@ -217,6 +223,8 @@ Defending the level change takedown requires early recognition of the attack fol
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Level Change Takedown?</p>
+
 ### → [[Positions/Standing Position]]
 
 Sprawl immediately upon recognizing the level change, driving your hips back and down while posting on the attacker's head. Once their shot is stuffed, circle toward their head to establish front headlock or spin behind for a back take rather than simply returning to neutral standing where they can shoot again.
@@ -232,6 +240,8 @@ If the shot connects but you can wrap a guillotine around the attacker's neck as
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Level Change Takedown?</p>
 
 ### 1. Stepping backward when the shot comes instead of sprawling or moving laterally
 
@@ -261,6 +271,8 @@ If the shot connects but you can wrap a guillotine around the attacker's neck as
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Level Change Takedown?</p>
+
 **Phase 1: Recognition** - Identifying takedown entry cues before the shot connects
 Partner demonstrates level changes and shots at slow speed while you practice recognizing the visual and tactile cues. No defensive movement initially - purely focus on reading the hip drop, eye shift, and weight transfer. Progress to calling out 'shot' the instant you recognize the entry to build pattern recognition speed.
 
@@ -277,26 +289,6 @@ Full-speed standing exchanges where partner actively seeks takedowns while you i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that indicates your opponent is about to shoot a level change takedown?
-**A**: The earliest cue is the opponent's hips beginning to drop as their knees bend, often accompanied by a slight forward lean and their eyes dropping toward your lower body. This occurs fractions of a second before the penetration step begins and represents the optimal timing window for initiating your sprawl defense. The hip drop changes their silhouette noticeably and should trigger an automatic defensive reaction through trained pattern recognition.
-
-**Q2**: Your opponent shoots a double leg and has both hands secured behind your knees - what is your defensive priority?
-**A**: At this stage, sprawling alone may be insufficient since they already have leg control. Your priority shifts to getting your hips away from their driving force while establishing a whizzer overhook on their near arm and crossfacing with your other hand. Drive your hip into their shoulder to reduce their forward drive, then work to circle your hips away from their head side while fighting to peel their gripping hands off your legs one at a time.
-
-**Q3**: How do you adjust your standing posture to make level change takedowns more difficult for your opponent?
-**A**: Maintain a slightly lower athletic stance with knees bent and weight distributed toward the balls of your feet. Keep your hips back slightly so your center of gravity sits behind your front foot rather than directly over it. Maintain active hand fighting to deny clean gripping and entry angles. Use circular footwork to prevent the attacker from establishing a direct line to your legs. This combination of posture, distance, and movement forces attackers to shoot from poor angles and longer distances.
-
-**Q4**: After successfully sprawling on your opponent's shot, what offensive option provides the highest positional return?
-**A**: The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral.
-
-
-
-</section>
 
 
 </main>

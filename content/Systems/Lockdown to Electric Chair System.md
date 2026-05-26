@@ -345,12 +345,12 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 - [[Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
 - [[Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
 - [[Whizzer]] (Transition) - Primary defensive counter that must be systematically defeated
-- [[Electric Chair Submission]] (Submission) - Finishing technique in competition formats allowing crotch attacks
+- [[Electric Chair]] (Submission) - Finishing technique in competition formats allowing crotch attacks
 - [[Banana Split]] (Submission) - Advanced submission when opponent attempts leg extraction
 - [[Twister]] (Submission) - Advanced spine lock accessible from lockdown transitions
-- [[Sweep Mechanics]] (Principle) - Fundamental principle governing all sweeping techniques in system
-- [[Guard Retention]] (Principle) - Defensive foundation that lockdown control enhances
-- [[Underhook Defense]] (Principle) - Critical battle that determines system success
+- [[Kuzushi]] (Principle) - Fundamental principle governing all sweeping techniques in system
+- [[Defensive Concepts]] (Principle) - Defensive foundation including guard retention that lockdown control enhances
+- [[Grips]] (Principle) - Critical underhook battle principles that determine system success
 - [[Whizzer Control]] (Principle) - Understanding both using and defeating overhook control
 - [[Submission Chains]] (Principle) - Chaining attacks from lockdown creates submission opportunities
 - [[10th Planet Half Guard Bottom System]] (System) - Parent system containing lockdown as primary framework

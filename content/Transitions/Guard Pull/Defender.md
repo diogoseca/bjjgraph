@@ -154,6 +154,8 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pull?</p>
+
 - Opponent establishes strong sleeve and collar grips simultaneously and begins tightening grip tension with a downward pulling angle rather than lateral grip fighting
 - Opponent's weight shifts noticeably to their heels or rear foot as they prepare to sit, often accompanied by a subtle rounding of their shoulders and dropping of their level
 - Opponent steps one foot between your feet or slightly behind your lead foot, creating the base from which they will sit while maintaining grip connection
@@ -166,6 +168,8 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pull?</p>
 
 - Deny the grips that enable the pull - without connection the puller falls to a disadvantaged seated position with no guard structure
 - Recognize pre-pull cues early and react before the opponent's hips leave the ground rather than after they have already sat
@@ -180,6 +184,8 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pull?</p>
 
 ### 1. Strip grips and create distance by breaking collar and sleeve connections while stepping back explosively
 
@@ -217,6 +223,8 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pull?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip the pulling grips before the opponent fully commits to sitting by using two-on-one grip breaks on their collar grip, then immediately step back to create distance. The opponent falls to seated position with no connection, and you maintain standing posture with initiative to either re-engage on the feet or begin a standing guard pass from dominant position.
@@ -232,6 +240,8 @@ When the pull succeeds but you immediately pressure forward to deny guard closur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pull?</p>
 
 ### 1. Leaning forward with hands extended when opponent begins pulling, feeding directly into their guard structure
 
@@ -261,6 +271,8 @@ When the pull succeeds but you immediately pressure forward to deny guard closur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pull?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying guard pull cues and building reactive instincts
 Partner alternates between normal grip fighting and guard pull attempts. Defender practices recognizing the pull initiation cues - grip tightening, weight shift to heels, shoulder rounding - and calling out 'pull' before the opponent sits. Build pattern recognition speed without requiring a physical defensive response yet.
 
@@ -277,26 +289,6 @@ Full-resistance standing rounds where partner may attempt guard pulls at any tim
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you recognize your opponent is about to pull guard?
-**A**: Breaking their primary grip connection before they commit to sitting is the highest-priority defensive action. Without grips, the guard pull becomes a simple sit-down that leaves the puller in a disadvantaged seated position with no guard structure or posture control. Target the collar grip first as it provides the most pulling power, using a two-on-one strip or circular break. If you can deny the grip connection, every other aspect of the guard pull fails regardless of the puller's timing or technique.
-
-**Q2**: Your opponent has already sat and is closing their guard around your waist - what prevents them from locking their ankles?
-**A**: Immediately widen your base by stepping one knee outward and driving your hip forward on the same side. This creates a wider circumference that makes it difficult for them to close their ankles behind your back. Simultaneously post one hand on their hip to create distance between your torso and their legs. If their ankles are nearly locked, use your hand to push down on one of their thighs while hip-switching to the same side. The key is reacting before the lock is complete, as once ankles are crossed the closed guard is established and you must begin a full guard opening sequence.
-
-**Q3**: How should your response differ when an opponent pulls to De La Riva versus pulling to closed guard?
-**A**: Against a De La Riva pull, you must immediately address the DLR hook behind your knee by pushing their hooking foot off with your hand while circling your trapped leg backward to extract it. Step your lead leg back and establish a passing posture with your weight over their legs. Against a closed guard pull, your priority is preventing the ankle lock by widening your base and controlling their hips. The DLR defense requires leg management while the closed guard defense requires hip and distance management. Recognizing which guard they are pulling to based on their grip configuration allows you to select the correct defensive response before they land.
-
-**Q4**: In competition, your opponent pulls guard and you are now standing over them in open guard - what is your tactical priority?
-**A**: Your immediate tactical priority is establishing grips on their legs or pants while maintaining upright posture, then beginning a systematic passing approach before they can establish their preferred guard hooks and grips. Control their knee line by gripping both pants at the knees and pushing them to one side. Do not rush forward into their guard structure, which feeds their game. Instead, use methodical footwork and grip fighting to deny their guard hooks while working toward a passing angle. In IBJJF rules, you also have the advantage of potential advantages for guard pass attempts, so a controlled passing approach generates scoring pressure.
-
-
-
-</section>
 
 
 </main>

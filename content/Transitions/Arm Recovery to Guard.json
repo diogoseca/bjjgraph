@@ -13,12 +13,12 @@
   "from_position": "Kuzure Kesa-Gatame/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -65,7 +65,7 @@
       "relationship": "Counter risk—opponent may transition to armbar during failed extraction"
     },
     {
-      "name": "Americana from Side Control",
+      "name": "Americana",
       "relationship": "Opponent's submission threat that creates the timing window for extraction"
     },
     {
@@ -157,7 +157,7 @@
         "counter": "Opponent follows your hip escape and re-establishes side control before guard recovery",
         "effectiveness": "Medium",
         "your_response": "Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Opponent switches to North-South as you bridge to prevent guard recovery angle",
@@ -230,7 +230,7 @@
         "description": "Positional sparring starting from Kuzure Kesa-Gatame bottom. Use arm recovery as part of a complete escape system that includes Elbow Escape, Granby Roll, and Bridge and Roll. Track success rate and identify which timing cues most reliably predict successful extraction. Target 40%+ success rate against equal-level training partners."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Arm Recovery to Guard?",
         "answer": "The primary goal is to extract the trapped arm from the opponent's armpit clamp in Kuzure Kesa-Gatame and immediately recover a guard position (Closed Guard or Half Guard). This transitions you from a severely disadvantaged pin with submission danger into an active guard where both arms are free, breathing is restored, and offensive techniques become available."
@@ -364,7 +364,7 @@
         "correction": "If the arm clears your armpit, immediately transition your control strategy: either drive forward for re-pass before guard recovery, swing to armbar, or rotate to North-South. Do not hand-fight for the freed arm."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt Arm Recovery to Guard?",
         "answer": "The earliest cue is the internal shoulder rotation of the trapped arm, where you feel their palm beginning to turn upward toward the ceiling. This rotation narrows their arm profile for extraction and always precedes the bridge. Recognizing this rotation gives you a one-to-two-second head start to tighten your clamp before they generate bridge power, which is the most effective defensive timing window."

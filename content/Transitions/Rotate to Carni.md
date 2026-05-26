@@ -198,7 +198,7 @@ Rotate to Carni is a cornerstone transition within the 10th Planet Rubber Guard 
 
 - [[Positions/Rubber Guard/Carni]] - Target position - successful rotation establishes Carni control for shoulder attacks
 
-- [[Transitions/Omoplata]] - Primary submission chain - Carni position directly threatens omoplata finish
+- [[Submissions/Omoplata]] - Primary submission chain - Carni position directly threatens omoplata finish
 
 - [[Positions/Rubber Guard/Mission Control]] - System entry - Mission Control leads to New York which enables Carni rotation
 

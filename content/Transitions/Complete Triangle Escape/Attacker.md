@@ -194,6 +194,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Complete Triangle Escape?</p>
+
 - Maintain relentless forward stacking pressure throughout the entire escape sequence to compromise opponent's hip structure
 - Circle exclusively toward the trapped arm side to mechanically open the triangle configuration from inside
 - Extract the trapped arm using rotational mechanics with elbow leading, never by pulling straight backward
@@ -209,6 +211,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Complete Triangle Escape?</p>
+
 - Defensive posture established with spine approaching vertical and chest elevated above opponent's hip line
 - Forward stacking weight actively compressing opponent's hips toward their shoulders, limiting their mobility
 - Trapped arm secured with elbow pinned against ribs and hand positioned near own chest in defensive configuration
@@ -222,6 +226,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Complete Triangle Escape step by step?</p>
 
 1. **Consolidate defensive posture and verify base stability**: Before initiating the escape sequence, verify that your spine is as vertical as possible, your trapped arm elbow is pinned tightly against your ribs, your free hand is controlling the opponent's hip, and your knees are spread wide for base. Take one controlled breath to confirm you have adequate blood flow and consciousness to execute the full sequence. This verification prevents initiating an escape from an unstable foundation that collapses mid-execution.
 2. **Intensify forward stacking pressure to compress opponent's structure**: Drive your hips forward and your weight aggressively onto the opponent's hips, aiming to fold their weight onto their own shoulders and upper back. This stacking pressure serves dual purposes: it reduces the effectiveness of the choke by changing the angle of leg pressure on your neck, and it limits the opponent's hip mobility which prevents them from readjusting angle during your escape. Drive through your legs and toes, not just your upper body, to maintain balance throughout.
@@ -252,6 +258,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Complete Triangle Escape?</p>
+
 - **Opponent re-locks triangle tighter by pulling head down and readjusting figure-four during circular step** (Effectiveness: High) - Your Response: Immediately halt circular stepping, re-establish maximum forward stack pressure, and wait for opponent to loosen for readjustment before resuming escape sequence. Do not fight the re-lock with force. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent transitions to armbar on trapped arm by uncrossing legs and pivoting hips for arm isolation** (Effectiveness: High) - Your Response: Turn sharply toward the trapped arm side, pin elbow tight, and stack weight aggressively forward onto their hips. Follow their rotation rather than pulling away, using forward pressure to prevent arm extension. → Leads to [[Positions/Armbar Control]]
 - **Opponent adjusts angle by scooting hips to match your circular step direction, maintaining optimal choking position** (Effectiveness: Medium) - Your Response: Increase stacking pressure while continuing to circle. The opponent cannot maintain both hip elevation for choking power and lateral hip movement for angle matching simultaneously. Force them to choose between angle and power. → Leads to [[Positions/Triangle Escape Position]]
@@ -264,6 +272,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Complete Triangle Escape?</p>
 
 ### 1. Attempting arm extraction before sufficient stacking pressure and circular stepping have loosened the triangle
 
@@ -308,6 +318,8 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Complete Triangle Escape (Attacker)?</p>
+
 **Phase 1: Mechanical Foundation** - Individual movement patterns without resistance
 Practice each component of the escape in isolation: stacking pressure from triangle position, circular stepping patterns with partner maintaining static triangle, rotational arm extraction mechanics, and guard engagement transitions. Partner maintains triangle at 20% pressure while you develop smooth, correct movement patterns. 50+ repetitions of each component.
 
@@ -328,42 +340,12 @@ Full sparring sessions starting from triangle position with partner applying ful
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you circle toward the trapped arm side rather than the free arm side during the escape?
-**A**: Circling toward the trapped arm side mechanically opens the triangle lock by moving your body away from the opponent's optimal choking angle. The triangle choke works by creating a perpendicular angle between the opponent's legs and your neck. Moving toward the trapped arm side increases this angle beyond the effective choking range and creates slack in the leg lock, enabling extraction. Moving toward the free arm side closes this angle and tightens the choke.
-
-**Q2**: What is the correct arm extraction mechanic and why is linear pulling dangerous?
-**A**: The correct extraction uses a rotational corkscrew motion where the elbow leads in a circular arc toward your own hip, keeping the extraction path below the opponent's armbar grip line. Linear pulling straight backward is dangerous because it drives your shoulder deeper into the choking crux of the triangle, actually tightening the choke, and simultaneously creates a clean angle for the opponent to isolate your arm for an armbar transition. The rotational path avoids both of these dangers.
-
-**Q3**: Your opponent begins scooting their hips to match your circular stepping direction - how do you respond?
-**A**: Increase your forward stacking pressure while maintaining the circular step. The opponent cannot simultaneously maintain hip elevation for effective choking power and perform lateral hip movement to match your angle. By intensifying the stack, you force them to choose between preserving their angle which requires hip mobility and preserving their choking pressure which requires hip elevation and connection. This creates a dilemma that favors your escape progression.
-
-**Q4**: What conditions must exist before you should attempt the arm extraction phase?
-**A**: You should feel unmistakable looseness in the triangle lock resulting from the combined effect of sustained forward stacking pressure and accumulated angular change from circular stepping. The trapped arm should have perceptible space between the opponent's thigh and your shoulder, and the choking pressure on your neck should be noticeably reduced. Attempting extraction before these conditions exist typically tightens the triangle and exposes you to armbar transitions.
-
-**Q5**: How do you defend against the armbar transition that commonly occurs during triangle escape attempts?
-**A**: Keep your trapped arm elbow pinned tightly against your ribs throughout the entire escape sequence, from initial posture recovery through complete extraction. If the opponent begins pivoting their hips for armbar isolation, turn sharply toward your trapped arm side and increase forward stacking pressure. Follow their rotation rather than pulling away, using your body weight to prevent arm extension. The key is maintaining elbow-to-rib contact which denies them the space needed to isolate and extend the arm.
-
-**Q6**: Why is it critical to immediately engage closed guard after extracting from the triangle rather than pausing?
-**A**: Any pause between extraction and guard engagement creates a window where the opponent can re-shoot their legs for another triangle attempt, transition to alternative attacks like leg entanglements or sweeps, or establish dominant grips that prevent your guard passing. The escape converts defensive survival into offensive opportunity only when the extraction flows seamlessly into guard top posture establishment. The opponent is often momentarily disoriented after their triangle fails, making this the optimal window for passing pressure.
-
-**Q7**: What is the proper weight distribution during the stacking phase and how does improper distribution create vulnerability?
-**A**: Weight should be driven forward through your legs and hips with a wide knee base, creating a forward and downward pressure vector through the opponent's hips toward their shoulders. Your weight must be centered over your base, never leaning forward from the upper body alone. Improper distribution such as leaning forward shifts your center of gravity ahead of your base, making you vulnerable to sweeps when the opponent releases triangle pressure, and reduces the effectiveness of the stack.
-
-**Q8**: Your initial escape attempt fails and the opponent re-locks the triangle tighter - what is the correct recovery sequence?
-**A**: Immediately halt all escape movement and re-establish fundamental defensive posture: pin trapped arm elbow to ribs, re-post free hand on opponent's hip, drive posture upward, and re-establish wide base. Take a controlled breath to verify consciousness and blood flow. Do not attempt to continue a failed escape sequence. Reset completely and reinitiate the full escape from the beginning, treating each attempt as independent. Build systematic pressure through repeated correct technique rather than escalating desperation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Complete Triangle Escape?</p>
 
 While the Complete Triangle Escape does not directly apply submission force, it occurs within an active triangle choke scenario where consciousness loss is a genuine risk. Practitioners must tap immediately if vision narrows, hearing distorts, or lightheadedness develops rather than continuing escape attempts. Training partners applying the triangle should maintain awareness of the defender's responsiveness and release immediately if the defender goes limp or stops actively defending. During drilling, partners should apply triangle pressure progressively and communicate openly about pressure levels. The stacking mechanics used in the escape can strain the opponent's cervical spine, so the escaping practitioner must stack gradually rather than explosively, particularly in training scenarios.
 

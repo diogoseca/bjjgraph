@@ -188,6 +188,8 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Whizzer from Deep Half?</p>
+
 - Establish the overhook before the bottom player fully loads their sweep - early application prevents momentum from building
 - Drive downward pressure through the whizzer while simultaneously sprawling hips back to create opposing forces that flatten the bottom player
 - Maintain wide base with your free leg posted far to the side to resist any remaining sweep attempts during the whizzer application
@@ -202,6 +204,8 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Whizzer from Deep Half?</p>
+
 - Identify that the bottom player has committed to deep half guard with their underhook wrapped around your far leg at thigh level or deeper
 - Ensure your free leg is posted on the mat with stable base before committing your arm to the overhook, as the whizzer temporarily reduces your posting ability
 - Confirm your hips still have enough mobility to sprawl backward - if the bottom player has already elevated you significantly, you may need to reset base first
@@ -214,6 +218,8 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Whizzer from Deep Half step by step?</p>
 
 1. **Identify the underhook and establish overhook**: As soon as you recognize the bottom player has committed their arm to the deep underhook around your far leg, thread your same-side arm over the top of their underhooking arm. Sink the overhook deep at their bicep or shoulder level, pulling your elbow tight against your ribs to cinch the whizzer. The overhook must be tight enough that their arm cannot slip free when you begin applying downward pressure.
 2. **Widen base with free leg**: Before committing to the sprawl, post your free leg wide to the far side of your body, creating a tripod base with your free foot, trapped knee, and whizzer arm as three points of contact. This wide base prevents the bottom player from using any remaining leverage to sweep you during the transition. Your free foot should be far enough to the side that even a strong hip elevation cannot topple you.
@@ -243,6 +249,8 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Whizzer from Deep Half?</p>
+
 - **Bottom player transitions to electric chair by hooking your trapped leg with lockdown and driving hips upward** (Effectiveness: High) - Your Response: Immediately break the lockdown by straightening your trapped leg and driving your knee to the mat. If the lockdown is already deep, disengage the whizzer and address the lockdown first by prying their feet apart before re-establishing the overhook. Preventing lockdown establishment is far easier than breaking it after the fact. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Bottom player releases underhook and transitions to X-Guard or Single Leg X by repositioning feet on your hips** (Effectiveness: Medium) - Your Response: The moment they release the underhook, your whizzer becomes a wasted grip. Immediately redirect to a passing sequence appropriate for the new guard they are entering. Step back and establish headquarters position, or drive forward to smash pass before they can fully establish hooks on your hips. → Leads to [[Positions/Half Guard]]
 - **Bottom player re-pumps underhook deeper by circling their arm underneath and fighting through the whizzer pressure** (Effectiveness: Medium) - Your Response: Increase downward pressure through the whizzer and add more aggressive sprawling. If they successfully re-pump, you may need to briefly release and re-establish the overhook at a tighter angle. Consider transitioning to kimura grip to create a submission threat that discourages the re-pump attempt entirely. → Leads to [[Positions/Half Guard/Deep Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Whizzer from Deep Half?</p>
 
 ### 1. Applying the whizzer too loosely without cinching the overhook tight to the ribs
 
@@ -293,10 +303,12 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Whizzer from Deep Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Whizzer establishment and sprawl timing
 Partner enters deep half guard with underhook established. Practice threading the overhook, cinching it tight, and coordinating the sprawl as a single movement. No resistance from partner. Repeat 20 times per side, focusing on smooth timing between overhook and hip sprawl. Drill until the whizzer-sprawl becomes one automatic movement.
 
-**Phase 2: Pressure Application** - Flattening and crossface combination
+**Phase 2: Pressure** - Flattening and crossface combination
 From established whizzer position, practice driving the bottom player flat using combined whizzer pressure and crossface. Partner provides light resistance, trying to maintain hip elevation. Focus on finding the correct angle of downward pressure and learning to feel when the bottom player is genuinely flattened versus still retaining some sweep capability.
 
 **Phase 3: Complete Sequence** - Full pass from whizzer to side control
@@ -310,42 +322,12 @@ Positional sparring starting in deep half guard. Top player must use whizzer as 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to establish the whizzer when your opponent enters deep half guard?
-**A**: The optimal moment is immediately as the bottom player commits their arm to the deep underhook but before they fully load their sweep by elevating their hips. At this point, their arm is extended and vulnerable to the overhook, but they have not yet generated the momentum needed for a sweep. Waiting until they have full hip elevation makes the whizzer much harder to apply effectively because their leverage is already working against you.
-
-**Q2**: What conditions must exist before you can effectively apply the whizzer from deep half guard top?
-**A**: You need at least one free arm to thread the overhook, your free leg must be posted on the mat for base stability, and you must still have enough hip mobility to sprawl backward. If the bottom player has already elevated you significantly off the mat or you are severely off-balance, you need to first re-establish some base before committing an arm to the whizzer. Additionally, if the bottom player has lockdown on your trapped leg, the lockdown should be addressed first.
-
-**Q3**: What is the most critical hip movement when applying the whizzer from deep half?
-**A**: The backward and downward sprawl of your hips is the most critical movement. The sprawl removes the elevation space the bottom player needs for their sweeps while simultaneously loading your weight onto their upper body through the whizzer connection. Without the sprawl, the whizzer alone is insufficient to neutralize deep half sweeps because the bottom player retains their hip elevation and rotational ability underneath you.
-
-**Q4**: What is the most common reason the whizzer fails to neutralize deep half guard sweeps?
-**A**: The most common failure is applying the whizzer without simultaneously sprawling the hips. Practitioners often grab the overhook but remain in the same hip position, which means the bottom player still has all their sweep leverage intact despite the arm control. The whizzer and sprawl must be executed as a coordinated unit to be effective. The second most common failure is applying the whizzer too loosely, allowing the bottom player to slip their arm free.
-
-**Q5**: Where exactly should you position your overhooking arm relative to your opponent's underhook?
-**A**: Your overhooking arm should be threaded over the top of their underhooking arm and positioned at their bicep or shoulder level, with your elbow pulled tight against your own ribs. The overhook should clamp their arm between your forearm and your torso. Positioning too high near the wrist gives insufficient leverage, while positioning too low near the elbow allows them to easily re-pump the underhook deeper.
-
-**Q6**: In which direction should you drive pressure through the whizzer to most effectively flatten your opponent?
-**A**: Drive pressure diagonally downward and toward the mat through the overhook while your hips sprawl backward. The force vector should push the bottom player's shoulder and upper body flat against the mat, collapsing the wedge they created with their head and shoulder under your hip. Driving purely downward without the backward component still leaves them room to rotate, while driving purely backward without downward pressure allows them to maintain elevation.
-
-**Q7**: Your opponent feels the whizzer locking and immediately tries to enter electric chair by establishing lockdown on your trapped leg - how do you respond?
-**A**: Immediately focus on preventing the lockdown before it locks. Straighten your trapped leg and drive your knee toward the mat to remove the bend they need to establish the figure-four lockdown. If you can prevent lockdown, the electric chair entry fails and you can continue with the whizzer pass. If the lockdown is already established, you must disengage the whizzer temporarily to break the lockdown by prying their feet apart, then re-establish the overhook once your leg is free.
-
-**Q8**: If your initial whizzer attempt fails to flatten your opponent and they maintain hip elevation, what follow-up techniques should you chain?
-**A**: If the whizzer alone is insufficient, immediately add aggressive crossface pressure from your free arm to create a two-point flattening system. If they still maintain elevation, consider transitioning the whizzer grip to a kimura by reaching for their wrist, which creates a submission threat that forces them to release the underhook. Alternatively, abandon the whizzer approach entirely and switch to a backstep pass or standing pass that uses different mechanics to address the deep half position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Whizzer from Deep Half?</p>
 
 The whizzer from deep half guard is a relatively low-risk technique for both practitioners. However, excessive downward pressure through the whizzer combined with aggressive sprawling can place significant force on the bottom player's shoulder and neck. Apply pressure progressively rather than explosively. During training, communicate with your partner about comfort levels, especially when combining the whizzer with crossface pressure. The bottom player's shoulder is particularly vulnerable if they stubbornly maintain their underhook while the top player drives heavy pressure through the overhook, potentially causing shoulder strain or impingement.
 

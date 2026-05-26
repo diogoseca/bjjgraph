@@ -186,6 +186,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Single Leg X Recovery?</p>
+
 - Maintain dorsiflexion throughout extraction to protect heel from finishing grips
 - Control opponent's inside knee with both hands to prevent saddle transition during recovery
 - Thread the trapped leg by creating angle with hip rotation rather than pulling straight back
@@ -200,6 +202,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Single Leg X Recovery?</p>
+
 - Opponent's inside leg control is shallow enough to allow leg threading movement
 - Heel is protected and opponent has not established finishing grip on foot
 - Sufficient hip mobility to rotate and create threading angle for trapped leg
@@ -212,6 +216,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Single Leg X Recovery step by step?</p>
 
 1. **Protect the heel**: Maintain strong dorsiflexion with toes pulled toward shin, keeping ankle tight to prevent opponent from establishing heel hook finishing grip during the entire recovery sequence
 2. **Control inside knee**: Use both hands to grip opponent's inside knee, pushing it away from your centerline to create space and prevent them from deepening entanglement or transitioning to saddle position
@@ -240,6 +246,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Single Leg X Recovery?</p>
+
 - **Opponent drives inside leg deep to establish saddle before recovery completes** (Effectiveness: High) - Your Response: Accelerate the threading motion and accept turtle position if saddle transition is imminent, rather than fighting a losing positional battle â†’ Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent posts on far leg and circles away as you establish Single Leg X structure** (Effectiveness: Medium) - Your Response: Follow the circular movement with hip rotation, maintaining foot on hip connection and transitioning to technical standup or X-Guard entry â†’ Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent grabs heel during extraction when foot momentarily extends** (Effectiveness: High) - Your Response: Immediately re-establish dorsiflexion and abort Single Leg X entry, returning to inside knee control and waiting for safer extraction window â†’ Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -251,6 +259,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Single Leg X Recovery?</p>
 
 ### 1. Relaxing dorsiflexion during leg threading, allowing heel to become exposed
 
@@ -285,6 +295,8 @@ Once the threading is complete, establishing Single Leg X structure immediatelyâ
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Single Leg X Recovery (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice leg threading mechanics with partner providing static entanglement. Focus on hip rotation angle, dorsiflexion maintenance, and inside knee control sequence without time pressure.
 
@@ -302,48 +314,12 @@ Apply technique in live rolling and positional sparring. Start from Ushiro Ashi-
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Single Leg X Recovery?
-**A**: The primary goal is to extract your trapped leg from Ushiro Ashi-Garami while simultaneously establishing Single Leg X-Guard, transforming a defensive survival position into an offensive platform with immediate sweep and submission threats against the opponent.
-
-**Q2**: Your opponent's inside leg is deeply controlling your thigh - should you attempt recovery?
-**A**: No. When inside leg control is deep, attempting Single Leg X Recovery will likely result in opponent transitioning to saddle position. Instead, accept turtle recovery or work counter-heel hooks if available. Only attempt recovery when inside leg control is shallow, below knee level.
-
-**Q3**: What foot position must you maintain throughout the entire extraction?
-**A**: Maintain strong dorsiflexion with toes pulled toward shin throughout the entire technique. This protects the heel from finishing grips even during the vulnerable threading moment. Never point toes or relax the foot until Single Leg X is fully established.
-
-**Q4**: Why do you create hip angle rather than pulling the leg straight back?
-**A**: Pulling straight back fights against the opponent's leg configuration directly, exhausting energy and potentially tightening their control. Hip rotation toward their far leg creates a diagonal threading angle that allows your leg to slip through the entanglement along the path of least resistance.
-
-**Q5**: When is the optimal timing window to initiate Single Leg X Recovery?
-**A**: The optimal timing is when your opponent adjusts their grips to attack the heel hook or shifts their weight to establish better finishing position. These adjustments create windows where their inside leg control temporarily weakens, allowing the threading motion to succeed before they can re-establish deep control.
-
-**Q6**: Your opponent grabs your heel during the threading motion - what is the correct response?
-**A**: Immediately re-establish strong dorsiflexion, abort the Single Leg X entry, and return both hands to inside knee control. Do not continue the recovery with heel exposed. Wait for the opponent to release the grip or adjust position before attempting another recovery window.
-
-**Q7**: What are the critical grips at each phase of the recovery sequence?
-**A**: Initially, both hands grip the opponent's inside knee to create extraction space and prevent saddle transition. During the threading phase, one hand may shift to assist leg movement while the other maintains knee pressure. After extraction, hands transition to cup the opponent's ankle while feet establish Single Leg X hooks on hip and behind knee.
-
-**Q8**: What should you do immediately after establishing Single Leg X structure?
-**A**: Immediately elevate your hips to create kuzushi and begin threatening sweeps. Static Single Leg X on flat hips allows opponent to smash the guard or re-establish leg entanglement. The elevated hip position loads sweeping mechanics and prevents guard passing.
-
-**Q9**: Your opponent sprawls forward during your threading attempt - how do you adapt?
-**A**: Use the sprawl momentum to assist your hip rotation rather than fighting it. Their forward pressure actually helps you thread the leg through by driving your hips into the rotation angle. Come up to seated position rather than staying flat on your back, using their sprawl energy to accelerate the transition to Single Leg X.
-
-**Q10**: How do you decide between Single Leg X Recovery and turtle recovery from Ushiro Ashi-Garami?
-**A**: Choose Single Leg X Recovery when the opponent's inside leg control is shallow (below knee level), your heel is protected, and your hands are free to control their knee. Choose turtle recovery when inside leg control is deep, the opponent has grip proximity to your heel, or you have been defending for more than five seconds without creating extraction progress.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Single Leg X Recovery?</p>
 
 Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration.
 

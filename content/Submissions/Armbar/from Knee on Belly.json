@@ -1,0 +1,441 @@
+{
+  "name": "Armbar from Knee on Belly",
+  "description": "Master the armbar from knee on belly in BJJ. Complete guide to setup, execution, defense, and finishing mechanics from this dynamic dominant position.",
+  "tags": [
+    "bjj",
+    "submission",
+    "armbar",
+    "knee-on-belly",
+    "joint-lock",
+    "arm-attack",
+    "intermediate",
+    "competition"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Shoulder and elbow joint",
+  "starting_position": "Knee on Belly",
+  "from_position": "Knee on Belly/Top",
+  "from_positions": [
+    "Knee on Belly",
+    "Side Control",
+    "Mount"
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Knee on Belly/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "The armbar from knee on belly exploits one of the most predictable defensive reactions in Brazilian Jiu-Jitsu: the bottom player pushing against the knee to relieve diaphragm pressure. This push creates an exposed arm that the top player captures and finishes through a rapid transition from knee on belly to a perpendicular armbar position. The technique leverages the urgency of the bottom player's respiratory distress against them, converting a defensive reflex into a submission opportunity.\n\nWhat makes this armbar particularly effective is the speed of entry. Unlike armbars from mount or guard that require extended setup sequences, the knee on belly armbar capitalizes on an immediate reaction. The top player's elevated position provides momentum for the leg swing over the head, and the bottom player's compromised breathing makes sustained defense difficult. The technical challenge lies in maintaining wrist control throughout the transition while positioning the hips tight to the opponent's shoulder before sitting back.\n\nStrategically, the armbar from knee on belly functions as part of a broader attacking system from the position. When combined with baseball bat choke threats and collar attacks, it creates a multi-layered offensive dilemma where the bottom player cannot safely defend every threat simultaneously. The armbar punishes the most natural defensive reaction, making it a cornerstone attack from this position at all competitive levels.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures",
+        "severity": "High",
+        "recovery_time": "4-12 weeks for mild to moderate sprain, 6-12 months for surgical repair of complete tear"
+      },
+      {
+        "injury": "Shoulder subluxation or dislocation from combined rotational and extension force when opponent resists by rolling",
+        "severity": "High",
+        "recovery_time": "6-16 weeks for subluxation, 4-9 months for surgical repair of dislocation"
+      },
+      {
+        "injury": "Radial head fracture from sudden explosive hyperextension against locked arm defense",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 weeks for non-displaced, 3-6 months for displaced fracture requiring surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Apply extension gradually by elevating hips while maintaining tight control. Never jerk or spike the arm. The elbow joint has very little tolerance for sudden extension force.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, own body, or mat with free hand",
+      "Physical foot tap on mat with either leg",
+      "Any unusual screaming, groaning, or distress vocalization indicating pain"
+    ],
+    "release_protocol": [
+      "Release hip elevation and arm extension immediately upon any tap signal",
+      "Maintain wrist control briefly during release to prevent opponent's arm from whipping free and causing self-injury",
+      "If in doubt whether a tap occurred, release immediately — the position can always be re-established",
+      "After release, check with training partner before continuing the roll"
+    ],
+    "training_restrictions": [
+      "Beginners should drill the positional transition without applying finishing extension until technique is controlled",
+      "Never apply sudden or explosive extension force — always use slow progressive pressure",
+      "Avoid full resistance armbar sparring until both partners demonstrate controlled application and timely tapping",
+      "Partners with pre-existing elbow or shoulder injuries should communicate limitations before drilling"
+    ]
+  },
+  "related_submissions": [
+    "Far Side Armbar",
+    "Armbar",
+    "Flying Armbar",
+    "Baseball Bat Choke",
+    "Americana",
+    "Cross Collar Choke",
+    "Belly Down Armbar",
+    "Kimura"
+  ],
+  "related_content": [
+    {
+      "name": "Knee on Belly",
+      "relationship": "Primary starting position — armbar exploits opponent's reaction to knee pressure"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Control position reached during finishing phase of the armbar"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common entry position before establishing knee on belly for the armbar setup"
+    },
+    {
+      "name": "Far Side Armbar",
+      "relationship": "Related armbar variation sharing similar finishing mechanics from a different angle and starting position"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Complementary attack from knee on belly creating dual submission threats"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Common counter position where opponent recovers guard during failed armbar transition"
+    }
+  ],
+  "attacker": {
+    "name": "from Knee on Belly Attacker",
+    "description": "Master attacking the armbar from knee on belly. Step-by-step execution guide covering grip control, leg positioning, hip mechanics, and finishing details for this high-percentage submission.",
+    "overview": "Attacking the armbar from knee on belly requires converting the opponent's natural push reaction into an immediate submission opportunity. The sequence begins with provoking or capitalizing on the bottom player's arm extension against your knee, then rapidly transitioning through wrist capture, leg swing, and hip elevation to finish the armbar. The attacker must maintain constant wrist control throughout the entire transition — losing grip during the leg swing is the most common reason this submission fails. Timing and commitment are essential: hesitation during the transition allows the defender to retract the arm or turn into you. The finish relies on precise hip positioning tight against the shoulder and controlled extension through hip elevation rather than pulling with the arms.",
+    "key_principles": [
+      "Provoke the push reaction through heavy knee pressure on the solar plexus before attacking the arm",
+      "Capture the wrist with both hands before initiating any leg movement to prevent arm retraction",
+      "Commit fully to the leg swing — half-committed transitions allow escape and waste the opportunity",
+      "Keep hips tight to the opponent's shoulder throughout the finish to eliminate space for arm extraction",
+      "Squeeze knees together around the upper arm to create a fulcrum point for maximum leverage on the elbow",
+      "Finish by elevating hips into the arm rather than pulling the arm down with your hands"
+    ],
+    "setup_requirements": [
+      "Established knee on belly position with stable base and opponent's back flat on the mat",
+      "Near-side grip controlling opponent's collar or head to prevent them from sitting up during transition",
+      "Opponent's near arm extended or pushing against your knee, creating the isolation opportunity",
+      "Far leg posted wide for base stability, ready to swing over opponent's head during transition",
+      "Forward weight distribution through the knee to maintain pressure and mobility for the attack"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy knee pressure",
+        "description": "Drive your knee into the opponent's solar plexus with maximum downward pressure, channeling your bodyweight through the knee contact point. This respiratory distress forces the opponent to react by pushing your knee away with their near arm, creating the opening you need for the armbar.",
+        "timing": "Hold pressure for 2-4 seconds until opponent reacts by pushing"
+      },
+      {
+        "step_number": 2,
+        "action": "Capture the wrist with two-on-one control",
+        "description": "The moment the opponent extends their arm to push your knee, seize their wrist with both hands using a two-on-one grip. Your near hand grabs the wrist while your far hand reinforces the grip from underneath. This double grip prevents arm retraction and is the single most critical control point of the entire technique.",
+        "timing": "Immediate — within half a second of the opponent extending their arm"
+      },
+      {
+        "step_number": 3,
+        "action": "Step far leg over opponent's head",
+        "description": "While maintaining the two-on-one wrist grip, swing your far leg over the opponent's face and head in one committed arc. Your foot should land on the mat on the far side of their head. Keep your knee close to their ear as you step over, preventing them from turning their head away or sitting up during the transition.",
+        "timing": "One fluid motion — hesitation here allows the opponent to retract the arm or turn into you"
+      },
+      {
+        "step_number": 4,
+        "action": "Sit back while pulling arm to chest",
+        "description": "Lower your hips to the mat by sitting back along the opponent's arm, keeping their captured wrist pulled tight to your chest. Your hips should land as close to the opponent's shoulder as possible — any gap between your hips and their shoulder creates space for arm extraction. The arm should be centered across your body with their thumb pointing toward the ceiling.",
+        "timing": "Immediately following the leg swing — do not pause between stepping over and sitting back"
+      },
+      {
+        "step_number": 5,
+        "action": "Secure leg position and squeeze knees",
+        "description": "With your hips on the mat, squeeze both knees together tightly around the opponent's upper arm just above the elbow. Your near leg crosses over their torso to prevent them from sitting up, and your far leg presses against the side of their head to prevent them from turning into you. This knee squeeze creates the fulcrum point that makes the finish mechanically sound.",
+        "timing": "Simultaneous with sitting back — knees close as hips lower"
+      },
+      {
+        "step_number": 6,
+        "action": "Finish with controlled hip elevation",
+        "description": "With the arm secured and knees tight, finish the armbar by elevating your hips upward into the opponent's elbow joint while keeping their wrist pinned to your chest. The extension should be slow and progressive, applying gradually increasing pressure to the elbow. Your hips are the engine of the finish — push upward through your heels while arching slightly. Control the arm with your chest and hands, not by pulling down with arm strength.",
+        "timing": "Slow and progressive — give opponent time to tap before reaching full extension"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent clasps hands together forming a defensive grip to prevent arm extension",
+        "effectiveness": "High",
+        "your_response": "Attack the grip by prying with your near hand on their wrist while wedging your forearm under their clasped hands. Alternatively, switch to a belly-down armbar rotation by turning face-down, which dramatically increases breaking power against clasped hands.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent turns into you and sits up during the leg swing, preventing you from securing the armbar position",
+        "effectiveness": "High",
+        "your_response": "If they sit up early, abandon the armbar and transition back to knee on belly or side control. Use their forward momentum to set up a guillotine or arm triangle if they come forward aggressively.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent bridges and rolls toward you during the finishing phase to stack and create space for escape",
+        "effectiveness": "Medium",
+        "your_response": "Keep your near leg heavy across their torso to prevent the roll. If they begin turning, angle your body slightly away from the roll direction and tighten knee squeeze. If they complete the roll, transition to a belly-down armbar finish.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent retracts arm quickly before wrist capture is secured and recovers guard position",
+        "effectiveness": "Medium",
+        "your_response": "If you lose the arm before committing to the leg swing, do not chase it. Return to knee on belly pressure and wait for the next push reaction. Attempting the armbar without wrist control leads to scrambles and guard recovery.",
+        "targets_outcome": "Closed Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the leg swing before securing a strong two-on-one wrist grip",
+        "consequence": "Opponent retracts arm during transition, leaving you in a compromised position straddling their head with no submission, often recovering guard",
+        "correction": "Always establish firm two-on-one wrist control as the non-negotiable prerequisite before initiating any leg movement"
+      },
+      {
+        "error": "Leaving a gap between hips and opponent's shoulder when sitting back",
+        "consequence": "Opponent extracts their arm by pulling the elbow past your hip line, completely negating the submission attempt",
+        "correction": "Sit back with hips as tight to the opponent's shoulder as possible, eliminating all space by squeezing knees and scooting hips inward if needed"
+      },
+      {
+        "error": "Pulling the arm down with hands instead of elevating hips for the finish",
+        "consequence": "Insufficient breaking pressure because arm strength cannot generate the force needed against a defending opponent, leading to exhaustion and failed finish",
+        "correction": "Keep the wrist pinned to your chest and drive the finish entirely through hip elevation, using your entire posterior chain rather than just your arms"
+      },
+      {
+        "error": "Hesitating or pausing between the wrist capture and the leg swing",
+        "consequence": "Gives the opponent time to retract the arm, turn into you, or begin defensive countermeasures that block the transition",
+        "correction": "Execute the wrist capture to leg swing as one continuous committed motion — the moment you have the wrist, the leg swings immediately"
+      },
+      {
+        "error": "Allowing the opponent's thumb to rotate inward toward the mat during the finish",
+        "consequence": "Changes the angle of force on the elbow, reducing submission effectiveness and potentially allowing the opponent to rotate out of the lock",
+        "correction": "Ensure the opponent's thumb points toward the ceiling throughout the finish, controlling forearm rotation with your wrist grip"
+      },
+      {
+        "error": "Crossing ankles during the finish instead of squeezing knees together",
+        "consequence": "Creates a weaker pinch that the opponent can split open by pushing your top foot down, and opens you to counter ankle lock in some rulesets",
+        "correction": "Keep feet uncrossed with heels driving toward the mat while squeezing knees together tightly around the upper arm"
+      },
+      {
+        "error": "Swinging the far leg too high or too wide during the step-over",
+        "consequence": "Creates excessive space allowing the opponent to sit up or turn underneath, and may cause you to fall off balance to the far side",
+        "correction": "Keep the leg swing tight and low, with your knee passing close to the opponent's ear and foot landing immediately next to their head"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Positional Mechanics",
+        "focus": "Grip capture and leg swing mechanics",
+        "description": "Drill the two-on-one wrist capture and leg swing as isolated movements from static knee on belly. Partner extends arm cooperatively. Focus on keeping hips tight to shoulder and proper leg positioning during 50 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Transition Flow",
+        "focus": "Combining pressure provocation with attack entry",
+        "description": "Practice the full sequence from establishing KOB pressure through provoking the push reaction to completing the leg swing. Partner provides the push reaction at realistic timing. Develop the feel for when the arm is committed enough to attack."
+      },
+      {
+        "phase": "Phase 3: Finishing Mechanics",
+        "focus": "Hip elevation and controlled extension",
+        "description": "Focus specifically on the finishing phase: knee squeeze, arm positioning with thumb up, and progressive hip elevation. Partner provides moderate grip defense to develop breaking pressure. Emphasize controlled application speed."
+      },
+      {
+        "phase": "Phase 4: Counter Integration",
+        "focus": "Responding to defensive reactions during the submission",
+        "description": "Partner defends with realistic counters including clasped hands, bridging, and turning in. Practice grip breaks, belly-down transitions, and knowing when to abandon the armbar and return to positional control."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance implementation from positional sparring",
+        "description": "Start from knee on belly in positional sparring rounds with full resistance. Work on recognizing the push reaction in real time, committing to the attack under pressure, and adjusting technique based on opponent's defensive patterns."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the armbar from knee on belly primarily attack?",
+        "answer": "The armbar targets the elbow joint, specifically hyperextending it against the natural range of motion. The primary structures at risk are the ulnar collateral ligament, the radial collateral ligament, and the joint capsule. Secondary risk extends to the shoulder joint when the opponent resists by rolling or stacking, potentially causing subluxation. The mechanical principle is a lever system where your hips create the fulcrum point against the upper arm while your chest and hands control the wrist as the resistance point.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is the two-on-one wrist grip the most critical control point in this submission?",
+        "answer": "The two-on-one wrist grip is the anchor that makes the entire transition possible. Without secure wrist control, the opponent can retract their arm during the leg swing, leaving you in a scramble position with no submission. The double grip prevents forearm rotation which would defeat the extension angle, controls the distance between the arm and their body preventing elbow retraction, and provides the resistance point needed for the hip-driven finish. Losing this grip at any point during the transition should abort the attempt.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent clasps their hands together to prevent the arm extension — what are your two primary responses?",
+        "answer": "The first response is a grip attack: wedge your forearm under their clasped hands while controlling the wrist, then pry the hands apart using your entire body rather than just finger strength. The second and often more effective response is transitioning to a belly-down armbar by rotating face-down while maintaining the arm. The belly-down position dramatically increases your breaking leverage against clasped hands because your entire body weight rotates into the grip break. Choose belly-down when the standard grip attack fails after two attempts.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the breaking point indicator that tells you the submission is about to finish?",
+        "answer": "The breaking point is indicated by the opponent's elbow clearing your hip line with their arm fully controlled. When their elbow extends past the fulcrum of your hips with their thumb facing the ceiling, progressive hip elevation will create irresistible extension pressure. Tactile indicators include feeling the opponent's arm straighten against your chest pressure, their grip defense weakening, and their body tensing as the joint approaches maximum range. At this point, slow your extension to give adequate tapping time — the joint is seconds from injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why should you never chase the armbar if the opponent retracts their arm before you secure wrist control?",
+        "answer": "Chasing a retracted arm typically results in you leaning forward off your base, losing knee on belly position, and ending up in a scramble where the opponent recovers guard. The armbar from knee on belly relies on the opponent's arm being extended and isolated — without that prerequisite, the technique's mechanical advantage disappears. Instead, return to heavy knee pressure and wait for the next push reaction. The bottom player will push again because the diaphragm pressure is unsustainable, so patience costs nothing while chasing costs position.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you apply the finishing extension to minimize injury risk to your training partner?",
+        "answer": "Apply the finish by elevating your hips slowly and progressively while keeping the opponent's wrist pinned to your chest. Never jerk, spike, or suddenly extend the arm. Increase pressure gradually over 2-3 seconds, giving your partner adequate time to recognize the submission is locked and tap before reaching the structural limit of the joint. If your partner is not tapping but you feel the arm is near full extension, pause and verbally confirm before continuing. The elbow joint has very limited tolerance for sudden force and can sustain ligament damage in fractions of a second.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins to bridge and stack you during the finishing phase — what adjustment prevents the escape?",
+        "answer": "When the opponent bridges toward you, use your near leg across their torso to drive heavy pressure downward on their chest, flattening them back to the mat. Simultaneously angle your upper body slightly away from the direction of their bridge to maintain leverage. If they continue stacking, tighten your knee squeeze and consider transitioning to a belly-down finish by rotating face-down, which reverses the dynamic and uses their stacking momentum against them. The key is recognizing the bridge early and responding with leg pressure before they generate full momentum.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments ensure the arm stays properly oriented for the finish?",
+        "answer": "The opponent's thumb must point toward the ceiling in a supinated position throughout the finish. Control this orientation by gripping their wrist with your thumbs on the same side as their thumb, creating a rotational lock. If the arm begins rotating so the thumb points toward the mat, the extension force shifts off the elbow's vulnerable plane and the submission weakens dramatically. Correct this by rotating their forearm back using your wrist grip while maintaining downward chest pressure on their forearm. The pinky side of their wrist should be in contact with your sternum.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, how does the armbar from knee on belly differ strategically from armbars set up from other positions?",
+        "answer": "The armbar from knee on belly is one of the fastest submission entries in competition because it exploits an involuntary defensive reaction rather than requiring elaborate setups. Unlike the armbar from mount which requires progressively working through mount variations, or from guard which requires breaking posture, the KOB armbar can go from position to finish in under 3 seconds. This speed makes it difficult to defend on reaction. Competitively, it pairs with baseball bat choke threats to create an either-or dilemma: defend the choke and expose the arm, or protect the arm and get choked.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the specific control requirements that must be established before you commit to the finishing extension?",
+        "answer": "Before extending, verify five control points: two-on-one wrist grip with opponent's thumb up, hips tight against the opponent's shoulder with zero gap, knees squeezed together around the upper arm creating the fulcrum, near leg heavy across opponent's torso preventing them from sitting up, and far leg pressed against the side of their head preventing them from turning toward you. Missing any of these five creates an escape pathway that the opponent will exploit under pressure. Only begin hip elevation once all five checkpoints are confirmed.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Knee on Belly Defender",
+    "description": "Master defending the armbar from knee on belly. Recognition cues, prevention strategies, escape sequences, and guard recovery techniques for this common submission threat.",
+    "overview": "Defending the armbar from knee on belly requires understanding the attack's trigger mechanism: your own push against the opponent's knee. The most effective defense starts before the submission is initiated by managing how you address the knee pressure without exposing your arms. Once the armbar transition begins, defensive options narrow rapidly, making early recognition and immediate response essential. The defender must recognize the moment between the wrist capture and the leg swing as the critical window where defense is still viable — once the attacker's leg clears your head and they sit back with tight hips, escape becomes extremely difficult. Defensive strategy prioritizes arm retraction and posture recovery in the early phases, transitioning to grip defense and positional escape if the attacker reaches the finishing position. Understanding when to tap is equally important, as the elbow joint provides minimal warning before structural failure.",
+    "key_principles": [
+      "Avoid extending your arm to push the knee — use hip escape and framing on the opponent's hips instead to address KOB pressure",
+      "If your arm is captured, immediately retract it by bending the elbow and pulling toward your body before the leg swings over",
+      "Recognize the wrist capture as the critical moment — all defense becomes exponentially harder after this point",
+      "If caught in the armbar position, clasp your hands immediately and begin turning toward the attacker to reduce extension angle",
+      "Never straighten a captured arm to try to pull free — this accelerates the submission rather than preventing it",
+      "Turn toward the attacker during escape attempts to reduce the lever angle and create space to extract the elbow past their hips"
+    ],
+    "recognition_cues": [
+      "Opponent shifts grip from your collar to your near-side wrist or forearm while maintaining knee on belly",
+      "Opponent's weight shifts backward or laterally, indicating preparation for the leg swing transition",
+      "Opponent's far leg begins lifting or swinging in an arc toward your head side",
+      "Two-on-one grip suddenly appears on your extended arm after you push against the knee",
+      "Opponent's posture changes from forward pressure to a sideways or backward lean with arm control"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the arm immediately by bending the elbow and pulling toward your centerline before the leg swing begins",
+        "when_to_use": "The moment you feel a two-on-one grip on your wrist — this is the highest-percentage defense but only available in the first 1-2 seconds",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "You remain under knee on belly but deny the submission entry, forcing the opponent to re-establish pressure and wait for another opening",
+        "risk": "Low — simply denies the submission without exposing new vulnerabilities"
+      },
+      {
+        "action": "Clasp hands together in a defensive grip and turn your body toward the attacker to prevent arm extension",
+        "when_to_use": "When the attacker has completed the leg swing and is sitting back — clasping prevents the finish and turning reduces the extension angle",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "You stall the submission and create time to work an escape by turning and extracting your elbow past their hip line",
+        "risk": "Medium — the attacker can break the grip or transition to belly-down armbar, so this is a temporary defense"
+      },
+      {
+        "action": "Bridge toward the attacker and stack your weight forward while the arm is still controlled to create a scramble",
+        "when_to_use": "When the attacker sits back but their hips are not yet tight to your shoulder — the gap allows you to bridge and begin stacking",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "You recover to a neutral position, typically in the attacker's closed guard, completely negating the submission attempt",
+        "risk": "High — if the attacker's hips are tight, bridging accelerates the extension and can cause injury"
+      }
+    ],
+    "escape_paths": [
+      "Arm retraction before leg swing: Bend elbow explosively and pull arm to centerline the instant you feel wrist control, returning to knee on belly defense",
+      "Grip defense and turn-in: After clasping hands, turn your entire body toward the attacker while walking your feet in their direction, progressively reducing the extension angle until you can extract your elbow past their hip line",
+      "Stack and posture: Bridge into the attacker, driving your weight forward over their hips to collapse the lever structure, then extract the arm and recover to guard or top position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Knee on Belly/Top",
+        "how": "Retract the arm before the leg swing completes or break free after clasping and turning in, returning to the standard knee on belly defensive position"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Successfully stack the attacker during the finishing phase, collapsing their armbar structure and recovering to a neutral guard position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pushing the knee on belly away with a fully extended arm, creating the exact opening the attacker needs",
+        "consequence": "The extended arm is immediately captured with a two-on-one grip and the armbar transition begins with your arm already isolated",
+        "correction": "Address knee on belly pressure through hip escape and framing on the opponent's hips rather than pushing their knee with an extended arm"
+      },
+      {
+        "error": "Attempting to straighten and pull the arm free once the attacker has established the armbar position",
+        "consequence": "Straightening the arm while the attacker has hip and knee control accelerates the submission, potentially causing injury before you can tap",
+        "correction": "Keep the arm bent and clasp your hands immediately. Work the escape through body rotation and positioning rather than arm pulling"
+      },
+      {
+        "error": "Turning away from the attacker during escape, exposing the arm to full extension",
+        "consequence": "Turning away straightens the arm in the worst possible direction and removes your ability to stack or reduce the lever angle",
+        "correction": "Always turn toward the attacker when escaping the armbar — this reduces the extension angle and creates the path to extract your elbow past their hips"
+      },
+      {
+        "error": "Failing to tap when the arm reaches full extension under the assumption that you can still escape",
+        "consequence": "The elbow joint fails rapidly under full extension force, causing ligament damage that requires weeks to months of recovery",
+        "correction": "Tap immediately when you feel your arm approaching full extension and your defense is failing. The position can be re-drilled safely — the elbow cannot be un-injured"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most effective way to prevent the armbar from knee on belly before it begins?",
+        "answer": "Avoid extending your arm to push against the opponent's knee. The armbar from knee on belly relies entirely on the bottom player's pushing reaction as its entry point. Instead, address the knee pressure through hip escape mechanics — shrimp your hips away while framing on the opponent's hip bone with your near forearm, keeping elbows tight to your body. This creates space without exposing an isolated arm for the attacker to capture.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to tap early when caught in a fully locked armbar from knee on belly?",
+        "answer": "The elbow joint provides very little tactile warning before structural failure. Unlike chokes where you may feel gradually increasing pressure, the elbow can transition from uncomfortable but manageable to ligament tear in a fraction of a second, especially when the attacker has tight hips and good knee squeeze. The rapid entry speed of this particular armbar means the attacker may have maximum leverage before you realize escape is impossible. Tapping early preserves your training longevity — elbow ligament injuries take 4-12 weeks minimum to heal and may require surgery.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your arm has been captured and the attacker's leg is swinging over your head — what is your immediate response?",
+        "answer": "Your immediate priority is to sit up and turn toward the attacker before their leg completes the arc over your head. Use your free hand to post on the mat and drive your body upward and toward the attacker's hip. If you can get your captured elbow past their hip line before they sit back, the armbar cannot be finished. This window is extremely brief — typically less than one second — so the response must be reflexive rather than deliberative. If the leg clears your head and they begin sitting back, transition immediately to clasping your hands.",
+        "safety_critical": false
+      },
+      {
+        "question": "When is bridging toward the attacker a safe escape option versus a dangerous one?",
+        "answer": "Bridging toward the attacker is safe when there is visible space between the attacker's hips and your shoulder — this gap means they have not fully secured the lever position and your bridge can collapse their structure. Bridging is dangerous when the attacker's hips are tight against your shoulder with knees squeezed and your arm nearly extended, because the bridge drives your shoulder into their hips and can actually accelerate the extension. The decision point is simple: if you can see or feel space at the hip-to-shoulder junction, bridge immediately. If their hips are sealed against you, clasp and turn instead.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying the attack trigger and avoiding arm exposure",
+        "description": "Drill addressing knee on belly pressure using only hip escapes and hip frames, training the habit of never pushing the knee with an extended arm. Partner establishes KOB repeatedly while you practice non-arm-extending defensive responses."
+      },
+      {
+        "phase": "Phase 2: Early Escape Mechanics",
+        "focus": "Arm retraction and sit-up timing during transition phase",
+        "description": "Partner captures the wrist and begins the leg swing at reduced speed. Practice explosive arm retraction and sit-up timing to deny the transition. Develop the reflex to react the instant wrist control is felt."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Defense",
+        "focus": "Grip defense, turning in, and stacking from the locked armbar position",
+        "description": "Start with the armbar already established. Practice clasping hands, turning toward the attacker, and working the elbow extraction. Also practice the stacking escape when space exists at the hip-shoulder junction. Partner applies moderate finishing pressure."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full resistance defense from knee on belly positional rounds",
+        "description": "Positional sparring starting from knee on belly with the top player actively hunting the armbar. Develop real-time recognition of the attack entry and execute appropriate defensive responses under full competitive pressure."
+      }
+    ]
+  }
+}

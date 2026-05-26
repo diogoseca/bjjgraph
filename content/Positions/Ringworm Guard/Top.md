@@ -171,6 +171,8 @@ This position is primarily encountered in gi-based competition and training envi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ringworm Guard (Top)?</p>
+
 - Top player has one leg compromised by opponent's lapel wrapped around the knee or thigh area, restricting mobility and creating mechanical disadvantage with limited base options and altered weight distribution patterns
 - Bottom player maintains lapel grip with tension while using leg frames, hooks, or shields to control distance and create off-balancing angles, forcing top player into reactive defensive patterns
 - Top player in standing or combat base attempting to establish grips for posture recovery and lapel extraction while defending against sweeps and back-taking attempts from the compromised position
@@ -181,6 +183,8 @@ This position is primarily encountered in gi-based competition and training envi
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Ringworm Guard (Top)?</p>
 
 - Opponent has successfully threaded their lapel around your leg and secured the grip
 - Bottom player maintains tension on the lapel wrap creating movement restrictions
@@ -195,6 +199,8 @@ This position is primarily encountered in gi-based competition and training envi
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Ringworm Guard?</p>
+
 - Prioritize breaking the lapel grip before attempting aggressive passing, as the wrap severely limits safe movement options
 - Maintain defensive posture and protect your back at all times, as Ringworm Guard creates numerous back-taking opportunities
 - Use systematic grip fighting to control the bottom player's hands and prevent them from establishing additional control points
@@ -208,6 +214,8 @@ This position is primarily encountered in gi-based competition and training envi
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Ringworm Guard (Top)?</p>
 
 **If opponent has just established the lapel wrap and is still securing their grip:**
 - Execute **[[Immediate Posture and Grip Strip/Attacker|Immediate Posture and Grip Strip]]** → [[Positions/Open Guard]] (Probability: 50%)
@@ -236,6 +244,8 @@ This position is primarily encountered in gi-based competition and training envi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Ringworm Guard?</p>
 
 ### 1. Attempting to pressure pass or drive forward while the lapel wrap is secure
 
@@ -275,6 +285,8 @@ This position is primarily encountered in gi-based competition and training envi
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Ringworm Guard attacks?</p>
+
 ### Systematic Lapel Grip Breaking Drill
 
 Partner establishes Ringworm Guard configuration while you practice various grip breaking sequences, focusing on hand positioning, timing, and efficiency. Partner maintains consistent resistance (not increasing) to allow repetition and refinement of technique. Work through multiple grip break variations and identify highest percentage methods for your game.
@@ -300,38 +312,6 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself caught in Ringworm Guard?
-**A**: The first priority is breaking the lapel grip before attempting any aggressive passing. The wrap severely limits safe movement options, and attempting to pass while the lapel is still secured typically results in sweeps or back exposure. You must address the grip systematically before progressing to extraction or passing sequences.
-
-**Q2**: Your opponent starts pulling the lapel tighter and creating an angle - what adjustment should you make?
-**A**: When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing.
-
-**Q3**: Why is explosive movement particularly dangerous when trapped in Ringworm Guard?
-**A**: The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. When you make sudden direction changes or explosive movements, the bottom player can redirect that energy using the lapel connection, often resulting in dramatic position reversals. Controlled, methodical movements allow you to maintain base and prevent your own energy from being used against you.
-
-**Q4**: What are the essential grips you need to establish for successful extraction?
-**A**: You need both hands committed to the grip-breaking sequence - one hand controlling the lapel tail near the bottom player's grip to prevent re-securing, and the other hand working to peel the lapel away from your leg. Additionally, you should establish a grip on their sleeve or wrist to control their grip-fighting ability while preventing secondary controls.
-
-**Q5**: How should you distribute your weight when the opponent has secure lapel control?
-**A**: Keep your weight distributed primarily through your free leg and maintain a low base with your hips heavy. Avoid committing weight forward over the trapped leg, as this creates ideal sweeping angles. Your center of gravity should stay slightly back to prevent the opponent from loading you for back takes or sweeps while you work the extraction.
-
-**Q6**: Your opponent begins a sweeping motion - how do you recover base without getting swept?
-**A**: When the sweep begins, immediately widen your base with your free leg and drop your hips lower rather than trying to step out with the trapped leg. Post with your free hand if necessary, and circle away from the direction of the sweep while simultaneously working to strip the lapel grip. Do not try to pressure forward through the sweep - this accelerates the position loss.
-
-**Q7**: What is the strategic trade-off between standing extraction versus ground-based grip breaking?
-**A**: Standing extraction creates distance that makes ground-based attacks harder for the opponent but requires good balance and exposes you to being pulled back down. Ground-based grip breaking keeps you more stable but allows the opponent to continuously work for secondary controls and sweeps. Choose standing when the opponent has multiple control points established; choose ground-based when you have isolated the lapel grip as the only problem.
-
-**Q8**: How do you prevent the opponent from transitioning to your back during the extraction process?
-**A**: Keep your shoulders square and facing the opponent throughout the extraction - never turn your back toward them. Maintain elbow connection to your body to prevent underhooks, and keep your head position neutral or slightly forward. If you feel them loading for a back take, immediately abort the extraction attempt and reset to a squared position before trying again.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

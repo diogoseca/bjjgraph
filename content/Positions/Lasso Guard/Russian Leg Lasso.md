@@ -28,7 +28,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Russian Leg Lasso combines traditional lasso mechanics with additional grip and positional controls creating layered defensive and offensive systems
@@ -106,7 +106,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (10% of attempts)
+- **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (10% of attempts)
 
 - **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (3% of attempts)
 

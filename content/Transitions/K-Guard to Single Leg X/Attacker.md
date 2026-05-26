@@ -194,6 +194,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing K-Guard to Single Leg X?</p>
+
 - Follow opponent's movement rather than forcing the transition—their defensive reactions create your entry windows
 - Maintain constant leg connection throughout the hook reconfiguration to prevent complete disengagement
 - Time the hook transfer to coincide with opponent's weight shift, when their base is most compromised
@@ -209,6 +211,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting K-Guard to Single Leg X?</p>
+
 - Active K-Guard bottom position with inverted inside hook crossing opponent's trapped leg
 - Outside butterfly hook maintaining connection to opponent's hip or thigh area
 - Inside underhook, cross-face frame, or collar grip preventing opponent from flattening your torso
@@ -222,6 +226,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute K-Guard to Single Leg X step by step?</p>
 
 1. **Read opponent's weight shift**: From established K-Guard bottom, monitor opponent's hip position and weight distribution. Identify when they begin shifting weight backward, standing upright, or attempting to extract their trapped leg. This weight shift is your trigger—do not initiate the transition while they are driving forward pressure into your hooks.
 2. **Initiate hip scoot toward opponent**: As opponent creates space, immediately begin scooting your hips forward and underneath their center of gravity. Use your upper body frame to push off while your hips travel toward the opponent. This closes the distance gap created by their defensive movement and positions you for the hook reconfiguration.
@@ -252,6 +258,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter K-Guard to Single Leg X?</p>
+
 - **Opponent backsteps immediately upon recognizing hook reconfiguration, extracting trapped leg before SLX is established** (Effectiveness: High) - Your Response: Follow their backstep by maintaining ankle connection and transitioning to seated guard or De La Riva hook on their stepping leg. If you maintain any hook connection during the backstep, continue pursuing SLX on the new angle. → Leads to [[Positions/Open Guard]]
 - **Opponent drives heavy forward pressure to flatten hooks before you can complete the transition to SLX** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into a Deep Half Guard entry instead of fighting for SLX. Their forward commitment makes Deep Half the higher-percentage option. Alternatively, use their forward pressure to attempt a K-Guard sweep directly. → Leads to [[Positions/K-Guard]]
 - **Opponent grabs your transitioning inside leg at the knee and pushes it to the mat, preventing the ankle wrap from establishing** (Effectiveness: High) - Your Response: Use your outside hook to maintain elevation and threaten a butterfly-style sweep, forcing them to release the knee control to base. This reopens the SLX entry. Alternatively, switch to an X-Guard entry using both legs on the same side. → Leads to [[Positions/K-Guard]]
@@ -263,6 +271,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing K-Guard to Single Leg X?</p>
 
 ### 1. Releasing the inverted hook before the inside leg has begun threading around the ankle
 
@@ -307,6 +317,8 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train K-Guard to Single Leg X (Attacker)?</p>
+
 **Phase 1: Hook Mechanics** - Isolated hook transfer movement patterns
 Practice the hook reconfiguration from K-Guard to SLX with a compliant partner who remains still. Focus on smooth inside leg threading, outside hook repositioning, and hip scooting. Repeat 20-30 times per side until the movement is automatic. No resistance at this stage.
 
@@ -327,42 +339,12 @@ Start in K-Guard bottom position with full resistance. Objective is to successfu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary timing trigger that signals the optimal moment to initiate the K-Guard to SLX transition?
-**A**: The primary trigger is when the opponent shifts their weight backward, stands upright, or begins attempting to extract their trapped leg from K-Guard. This backward or upward weight shift creates the space needed for hook reconfiguration and simultaneously compromises their ability to prevent the transition because their weight is moving away from the control zone. Initiating during forward pressure is incorrect—that timing favors Deep Half entries instead.
-
-**Q2**: Your opponent starts to backstep as you begin reconfiguring hooks—how do you adjust mid-transition?
-**A**: Maintain whatever ankle or calf connection you have with your inside leg and follow their backstep by scooting your hips to face the new angle. If you can complete the ankle wrap before they fully clear, continue into SLX on the new angle. If they clear the wrap entirely, immediately establish a De La Riva hook on their stepping leg or transition to seated guard to maintain an offensive guard position rather than conceding open guard.
-
-**Q3**: What is the most critical mechanical detail during the hook transfer from K-Guard to SLX?
-**A**: The most critical detail is maintaining continuous leg contact throughout the entire hook transfer. The inside leg must begin threading around the opponent's ankle before the inverted hook is fully released, creating an overlapping transition where the opponent's trapped leg is never free. Any gap in contact allows the opponent to extract their leg and disengage, converting a controlled transition into a scramble.
-
-**Q4**: Why is hip positioning underneath the opponent essential for effective SLX, and how do you achieve it during the transition?
-**A**: Hips positioned underneath the opponent's center of gravity create the elevation and leverage that power all SLX attacks—sweeps, off-balancing, and leg lock entries. Without proper hip positioning, the SLX structure lacks the mechanical advantage needed to manipulate the opponent's weight. Achieve this during the transition by actively scooting forward using upper body frames as push-off points while simultaneously reconfiguring hooks, treating the hip movement and hook transfer as one coordinated action.
-
-**Q5**: What grip do you need to establish immediately after completing the SLX hook configuration, and why?
-**A**: Immediately control the opponent's same-side sleeve or wrist to prevent them from posting their hand during sweep attempts. This grip is the complement to your lower body elevation—without it, the opponent can simply post their hand on the mat to neutralize any sweep. Secondary priority is collar or shoulder control to break their posture forward, which amplifies the effectiveness of your hip elevation and hook pressure.
-
-**Q6**: The SLX transition is blocked because your opponent squeezes their knees together—what alternative entry do you use?
-**A**: When the opponent squeezes their knees to prevent the direct hook transfer, perform a slight inversion to change the angle of entry, threading your inside leg under and around their ankle from a lower angle that bypasses the knee squeeze. Alternatively, use the opponent's defensive posture against them—their squeezed knees create a stable target for a direct butterfly sweep from K-Guard or an X-Guard entry using both hooks on the same side of their body.
-
-**Q7**: How does the K-Guard to SLX transition create a dilemma for the top player, and what attacking options does it open?
-**A**: The transition creates a dilemma because the opponent's defensive options against K-Guard (backing away, standing up, extracting the leg) all feed directly into SLX entry conditions. If they stay tight and drive forward to prevent SLX, they expose themselves to K-Guard sweeps and Deep Half entries. If they create distance to avoid those threats, they give you the space needed for SLX. From SLX, you gain access to high-percentage sweeps through elevation, direct Ashi Garami entries for leg locks, and X-Guard transitions—significantly more offensive options than K-Guard alone.
-
-**Q8**: After successfully establishing SLX, your opponent immediately begins lowering their base—what do you do in the first three seconds?
-**A**: Attack immediately rather than waiting for them to stabilize. Use sleeve or wrist control combined with maximum hip elevation to attempt the primary SLX sweep before their base fully sets. Direct the off-balancing force laterally toward their weakened side rather than straight backward. If the sweep attempt is blocked, immediately transition to a leg lock entry—their lowered base actually brings their leg closer to your hooks, making Ashi Garami entries more accessible. The worst response is passively accepting their base adjustment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for K-Guard to Single Leg X?</p>
 
 The K-Guard to Single Leg X transition is generally low-risk as it involves guard-to-guard movement without joint lock pressure. However, practitioners should be mindful of knee torque on the trapped leg during the hook reconfiguration phase—avoid excessive twisting that could strain the opponent's knee ligaments. The bottom player should also be aware of neck compression risk if flattened during the transition. When training, communicate with your partner about comfort during hook transfers and avoid explosive movements until the mechanics are smooth. If either player feels knee discomfort during the hook reconfiguration, stop and reset the position.
 

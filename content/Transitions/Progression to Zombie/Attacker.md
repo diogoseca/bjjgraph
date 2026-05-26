@@ -186,6 +186,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Progression to Zombie?</p>
+
 - Maintain overhook depth throughout the transition - releasing grip pressure even momentarily allows escape
 - Use hip rotation rather than arm pulling to drive the leg higher around the opponent's shoulder
 - Time the progression when opponent begins defensive adjustment or weight shift
@@ -201,6 +203,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Progression to Zombie?</p>
+
 - Established New York control with deep overhook secured around opponent's tricep
 - Opponent's posture must be broken with head and shoulders pulled down toward your chest
 - Hip flexibility sufficient to elevate shin from back position to shoulder level
@@ -213,6 +217,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Progression to Zombie step by step?</p>
 
 1. **Confirm control integrity**: Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken with their head below your chin level before initiating any transition movement.
 2. **Increase core engagement**: Tighten your abdominal muscles and hip flexors to create a stable platform for the transition. This increased tension prevents the opponent from driving forward during leg repositioning and maintains the forward-pulling force on their upper body that compensates for temporarily reduced shin pressure.
@@ -241,6 +247,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Progression to Zombie?</p>
+
 - **Posture explosion during transition - opponent drives hips forward and lifts head aggressively as leg moves** (Effectiveness: High) - Your Response: Abandon transition and return to New York control, using their forward drive momentum to set up Chill Dog or triangle instead → Leads to [[Positions/Rubber Guard/New York]]
 - **Overhook extraction attempt - opponent pulls trapped arm back toward their hip during leg repositioning** (Effectiveness: Medium) - Your Response: Tighten overhook grip and shoot leg over their shoulder for triangle setup, converting their extraction attempt into submission opportunity → Leads to [[Positions/Closed Guard]]
 - **Stack pressure - opponent drives weight forward to flatten your hips and prevent leg elevation** (Effectiveness: Medium) - Your Response: Accept stack momentarily and use momentum to sweep or transition to omoplata setup as their weight commits forward → Leads to [[Positions/Rubber Guard/New York]]
@@ -252,6 +260,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Progression to Zombie?</p>
 
 ### 1. Releasing overhook pressure while focusing on leg repositioning
 
@@ -291,6 +301,8 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Progression to Zombie (Attacker)?</p>
+
 **Week 1-2** - Flexibility and position recognition
 Practice hip flexibility drills specifically targeting the range needed for Zombie position. Work static holds in New York, then Zombie, without opponent resistance. Focus on understanding the structural differences between positions and building comfort with high leg elevation.
 
@@ -308,48 +320,12 @@ Incorporate transition into positional sparring from closed guard and rubber gua
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical driver of leg elevation during the Progression to Zombie?
-**A**: Hip rotation toward the overhook side is the primary driver of leg elevation, not arm strength. The arm guides and controls the shin position, but the mechanical power for elevating the leg comes from rotating the hips. Using only arm strength is inefficient, exhausts grip strength quickly, and often fails to achieve proper Zombie position. The hip rotation creates a smooth, progressive elevation that maintains constant contact with the opponent's body.
-
-**Q2**: Your opponent begins slowly extracting their overhook-trapped arm as you start the transition - how do you respond?
-**A**: Tighten overhook grip immediately and convert their extraction attempt into a triangle setup by shooting your transitioning leg over their shoulder rather than around it. Their arm extraction naturally positions the arm inside your guard as it pulls back, creating the perfect triangle entry. The extraction attempt becomes an offensive opportunity rather than a defensive success for them.
-
-**Q3**: What are the two critical grips needed for successful Progression to Zombie and how do they function?
-**A**: Two critical grips must be maintained: the deep overhook around opponent's tricep with shoulder-to-armpit pressure preventing arm extraction, and the shin grip near the ankle with hand positioned to guide leg elevation. The overhook functions as the immovable anchor throughout the transition while the shin grip repositions progressively as the leg moves higher, adjusting its angle to maintain control at each new elevation.
-
-**Q4**: When is the optimal timing window to attempt Progression to Zombie?
-**A**: The optimal timing is when the opponent settles into defending standard New York attacks or begins a slow, methodical posture recovery attempt. During these defensive adjustments, their structure is temporarily compromised as they redistribute weight and attention. Advanced practitioners specifically time the transition to coincide with the opponent's exhale or minor weight shift when their defensive engagement drops to its lowest point.
-
-**Q5**: Why must core engagement increase rather than decrease during the transition phase?
-**A**: During leg repositioning, you temporarily reduce the pressure your shin exerts across the opponent's back as it slides upward. This creates a brief window where opponents commonly drive forward to flatten your hips and escape. Increased core engagement compensates for the reduced shin pressure, maintains the forward-pulling force on their upper body, and creates the stable platform needed for controlled hip rotation throughout the transition.
-
-**Q6**: Your opponent explodes forward with posture as your leg begins moving higher - what is the correct response?
-**A**: Abandon the Zombie transition immediately and return to New York control. Use their forward momentum against them by transitioning to Chill Dog setup or shooting for a triangle as they drive in. Their aggressive forward movement actually assists these alternative attacks because it brings their head closer and compresses the space needed for control. Never fight against explosive posture recovery during mid-transition - redirect their energy instead.
-
-**Q7**: What distinguishes a failed Progression to Zombie from a successful position that simply needs minor adjustment?
-**A**: A failed transition is defined by compromised overhook control or significant opponent posture recovery - either condition means the transition has failed and you must reset. A successful but imperfect Zombie still has deep overhook intact and opponent's posture remains broken, even if shin position is not optimal around the shoulder. From imperfect Zombie, small grip and hip adjustments can consolidate full position, while lost overhook or restored posture requires starting over from guard recovery.
-
-**Q8**: What entry conditions must exist before you attempt the Progression to Zombie?
-**A**: Four conditions must be confirmed: deep overhook secured around opponent's tricep with shoulder-to-armpit contact, opponent's posture broken with head and shoulders pulled below your chin level, secure shin grip near your ankle with ability to guide the leg, and the opponent showing signs of settling into passive defense or beginning a slow escape. Attempting the transition without all four conditions dramatically increases failure rate and risks losing all rubber guard control.
-
-**Q9**: How does the direction of force change as the shin moves from the back to the shoulder during the transition?
-**A**: In New York, the shin across the back creates a primarily downward pulling force on the opponent's torso that breaks their posture. As the shin elevates toward the shoulder during transition, the force vector shifts from pure downward pull to a diagonal force that simultaneously pulls the shoulder down and restricts its lateral movement. At full Zombie, the shin around the shoulder-neck junction creates a wrapping force that traps the shoulder joint and prevents any posting or base creation on that side, fundamentally changing the control dynamic.
-
-**Q10**: Your opponent stacks you aggressively during the transition - how do you use their forward weight commitment?
-**A**: Accept the stack momentarily rather than fighting it. Their forward weight commitment means their hips are high and their base is narrow - use this by angling your hips to the side and redirecting their stacking momentum into a sweep or omoplata setup. The stack itself brings their shoulder deeper into your control zone. If the stack is too strong, transition to Carni by rotating toward the omoplata angle since their forward pressure assists the rotation needed for that pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Progression to Zombie?</p>
 
 Progression to Zombie requires significant hip flexibility, and forcing the position beyond your comfortable range can strain hip flexors, adductors, or cause knee discomfort. During training, communicate with partners about pressure levels and never hold position past the point of discomfort. The transition involves complex leg positioning that can torque the knee if performed incorrectly - always move the hip joint rather than rotating the knee in isolation. When practicing with resistance, start slowly and build speed gradually to allow your body to adapt to the movement patterns. If you experience any sharp pain in hips, knees, or lower back during the transition, stop immediately and consult with a qualified instructor about your technique.
 

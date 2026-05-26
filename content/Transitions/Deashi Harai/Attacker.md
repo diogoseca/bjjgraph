@@ -198,6 +198,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Deashi Harai?</p>
+
 - Execute the sweep when opponent's weight commits forward onto their lead leg
 - Maintain strong grip control to direct opponent's upper body backward while sweeping their base
 - Use minimal force on the sweeping action—timing and placement matter more than power
@@ -213,6 +215,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Deashi Harai?</p>
+
 - Establish standard grips: one hand controlling opponent's sleeve, other hand on collar or lapel
 - Maintain upright posture with stable base and centered weight distribution
 - Position yourself at approximately 45-degree angle to opponent's stance
@@ -226,6 +230,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Deashi Harai step by step?</p>
 
 1. **Establish and test grips**: Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control.
 2. **Create forward movement**: Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious.
@@ -256,6 +262,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Deashi Harai?</p>
+
 - **Opponent pulls their lead leg back as you attempt sweep** (Effectiveness: High) - Your Response: Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls and drops weight down as they feel sweep** (Effectiveness: Medium) - Your Response: Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position → Leads to [[Positions/Standing Position]]
 - **Opponent steps through with opposite leg to recover base** (Effectiveness: Medium) - Your Response: Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard → Leads to [[Positions/Standing Position]]
@@ -268,6 +276,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Deashi Harai?</p>
 
 ### 1. Sweeping too hard or kicking through opponent's leg with excessive force
 
@@ -312,6 +322,8 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Deashi Harai (Attacker)?</p>
+
 **Week 1-2: Static Drilling** - Basic mechanics and foot placement
 Partner stands in static position while you practice grip establishment, footwork pattern, and sweeping motion. Focus on finding correct angle, proper foot contact point, and coordination between upper and lower body. Repeat 20-30 repetitions per training session, alternating sides.
 
@@ -332,48 +344,12 @@ Integrate Deashi Harai into your overall standup strategy, using it as part of c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing element for successful execution of Deashi Harai?
-**A**: The most critical timing element is catching the opponent's lead foot at the exact moment it plants and begins accepting their weight. If you sweep too early (while the foot is still in the air), there's no base to remove. If you sweep too late (after weight is fully settled), they can adjust and maintain balance. The optimal moment is the instant of contact when their commitment is irreversible but their structure is still vulnerable.
-
-**Q2**: Why is the 45-degree angle positioning important for Deashi Harai execution?
-**A**: The 45-degree angle is crucial because it creates the optimal mechanical advantage for both the sweeping action and the directional control with your grips. This angle allows your sweeping leg to move in a natural arc across their ankle while your grips can pull them backward and slightly to the side, creating a rotational force they cannot counter. Being square to them (0 degrees) or perpendicular (90 degrees) makes the sweep mechanically awkward and less effective.
-
-**Q3**: How should the sweeping action feel during proper execution?
-**A**: The sweeping action should feel like a light brushing or wiping motion rather than a forceful kick. You're using timing and placement to remove their base at the vulnerable moment, not overpowering their structure with force. Many practitioners describe it as feeling effortless when timed correctly—the opponent almost seems to fall on their own because you've simply removed the support their weight was committing to.
-
-**Q4**: What should you do with your grips if the opponent successfully defends the sweep by pulling their leg back?
-**A**: Maintain your grips and immediately flow to an alternative technique that capitalizes on their backward movement and now-weighted rear leg. Options include Kosoto Gari or Kouchi Gari on the rear leg, or using their backward momentum to break their balance directly backward with forward pressure from your grips. The key is not to abandon your grips and start over, but to maintain connection and adapt to their defensive movement.
-
-**Q5**: How does Deashi Harai differ from more forceful Judo throws in terms of technical execution?
-**A**: Deashi Harai relies on precise timing, minimal force, and perfect synchronization rather than explosive power or body commitment. Unlike throws like Seoi Nage or Harai Goshi where you turn in and load the opponent onto your body, Deashi Harai keeps you in a relatively upright, balanced position throughout. This makes it safer for BJJ practitioners who may not have extensive ukemi (breakfall) training and allows easier transition to ground control after the takedown.
-
-**Q6**: What are the primary grip responsibilities during the execution phase of Deashi Harai?
-**A**: The collar grip's primary responsibility is to lift upward and pull backward, creating elevation that prevents the opponent from lowering their center of gravity or posting with their hands. The sleeve grip drives downward and across their body, creating rotational force and preventing them from using that arm for balance recovery. These actions must occur simultaneously with the foot sweep, creating a coordinated three-point disruption of their structure that makes recovery impossible.
-
-**Q7**: Your opponent posts their hand on the mat as they begin to fall from your Deashi Harai—how do you adjust?
-**A**: If the opponent posts their hand, your upper body grip work was insufficient. Increase the lifting and backward pull with your collar grip to elevate their posture and deny the posting hand access to the mat. If the post is already established, maintain your grips and immediately circle toward the posted arm side to collapse it, or transition to a second sweep attempt on their remaining base leg. The post indicates you need to emphasize the tsurikomi (lifting-pulling) action more aggressively in your grip work.
-
-**Q8**: What specific grip configuration gives you the best control for chaining Deashi Harai with Kouchi Gari?
-**A**: A standard collar-and-sleeve configuration works best for this combination because it allows rapid directional changes in your kuzushi (off-balancing). For Deashi Harai, you pull backward and to the side with the collar grip. When the opponent defends by pulling their lead foot back and weighting their rear leg, you maintain the same grips but redirect the pull forward and downward toward the now-weighted rear foot for Kouchi Gari. The sleeve grip prevents them from posting throughout both attempts, making it a seamless two-attack sequence.
-
-**Q9**: How do you create the forward weight transfer in an opponent who is being defensive and keeping their weight back?
-**A**: Against a backward-leaning opponent, use a sequence of grip manipulations rather than a single pull. First, apply strong forward pushing pressure through both grips to force them to brace backward, then abruptly switch to a sharp backward pull. The opponent's reflexive forward correction to regain balance after your push creates the weight transfer onto the lead foot. You can also take a deliberate backstep to create space they instinctively step forward to close. The key is creating a push-pull rhythm that eventually catches their forward step.
-
-**Q10**: What should your support leg be doing during the sweeping phase of Deashi Harai?
-**A**: Your support leg must remain firmly planted with a slight knee bend, bearing your full body weight on the ball of the foot. It serves as the stable axis around which the entire technique rotates. The knee should be slightly bent to lower your center of gravity and absorb any balance disruption. Never allow your support leg to drift, lock straight, or lift onto the toes, as this compromises your base and makes you vulnerable to counter-throws. After the sweep connects, the support leg becomes your lead leg for following the opponent to the ground.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Deashi Harai?</p>
 
 Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability.
 

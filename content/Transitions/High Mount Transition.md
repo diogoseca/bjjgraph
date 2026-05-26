@@ -26,7 +26,7 @@ The High Mount Transition from Gogoplata Control represents a strategic position
 
 The mechanics rely on recognizing the specific defensive reactions that create mount opportunities. An opponent who drives forward to escape shin pressure actually assists the transition by providing upward momentum. The bottom player releases the foot-behind-head grip, plants the posting leg, and hip escapes laterally while maintaining upper body control. The previously attacking leg swings over to establish the mount position, with the natural momentum carrying the practitioner into a high mount configuration where the knees are in the opponent's armpits.
 
-Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to Americana, mounted triangle, and S-mount attacks, making this transition a gateway to multiple finishing sequences.
+Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to mounted triangle and S-mount attacks, making this transition a gateway to multiple finishing sequences.
 
 **From Position**: [[Positions/Gogoplata Control]] (Bottom)
 **Success Rate**: 58%
@@ -186,7 +186,7 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 ## Position Integration
 
-The High Mount Transition integrates gogoplata attacks with positional advancement, demonstrating that submission control positions should offer multiple pathways forward. Within a systematic rubber guard game, this transition creates a branching decision tree where gogoplata defense directly feeds mount establishment. From high mount, practitioners have immediate access to Americana, armbar from mount, mounted triangle, and S-mount progressions. This makes the gogoplata a dual-threat position that demands respect regardless of opponent's defensive choice. The transition also connects to back take options when opponent escapes laterally, ensuring no defensive reaction provides a safe exit from the control position.
+The High Mount Transition integrates gogoplata attacks with positional advancement, demonstrating that submission control positions should offer multiple pathways forward. Within a systematic rubber guard game, this transition creates a branching decision tree where gogoplata defense directly feeds mount establishment. From high mount, practitioners have immediate access to armbar, mounted triangle, and S-mount progressions. This makes the gogoplata a dual-threat position that demands respect regardless of opponent's defensive choice. The transition also connects to back take options when opponent escapes laterally, ensuring no defensive reaction provides a safe exit from the control position.
 
 </section>
 
@@ -210,9 +210,9 @@ The High Mount Transition integrates gogoplata attacks with positional advanceme
 
 - [[Transitions/Gogoplata]] - Primary submission threat creating offensive dilemma
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission from target position
+- [[Transitions/Mount to Armbar]] - Follow-up submission transition from target position
 
-- [[Submissions/Americana from Mount]] - Follow-up submission from target position
+- [[Submissions/Americana]] - Follow-up submission from target position
 
 - [[Positions/Mount/Mounted Triangle]] - Follow-up control and submission from target position
 

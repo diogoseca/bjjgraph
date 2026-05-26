@@ -354,10 +354,10 @@ MMA Crossover Strategy requires integrated training that combines striking and g
 - [[Rear Naked Choke]] (Submission) - High-percentage finish from back control without strike exposure
 - [[Arm Triangle]] (Submission) - Side control submission that works with ground-and-pound integration
 - [[Darce Choke]] (Submission) - Front headlock finish alternative to guillotine
-- [[Defensive Posture]] (Principle) - Foundational principle for maintaining strike protection during grappling
-- [[Sprawl Defense]] (Principle) - Core defensive principle for stopping takedowns and establishing front headlock
+- [[Defensive Concepts]] (Principle) - Foundational defensive principles for maintaining protection during grappling exchanges
+- [[Escape Fundamentals]] (Principle) - Core escape principles including sprawl mechanics for takedown defense and bottom escapes
 - [[Chin Protection]] (Principle) - Critical safety principle for preventing knockout damage
-- [[Base Maintenance]] (Principle) - Fundamental principle adapted for strike-aware balance and posture
+- [[Base]] (Principle) - Fundamental principle adapted for strike-aware balance and posture
 - [[Energy Conservation]] (Principle) - Pacing principle accounting for increased cardio demands of MMA
 
 

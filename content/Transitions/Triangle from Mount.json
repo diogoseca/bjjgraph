@@ -40,15 +40,15 @@
       "relationship": "Target position—the control position reached on successful execution of this transition"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Chain attack—primary alternative when opponent defends the triangle by extending an arm"
     },
     {
-      "name": "Americana from Mount",
+      "name": "Americana",
       "relationship": "Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry"
     },
     {
-      "name": "Ezekiel from Mount",
+      "name": "Ezekiel Choke",
       "relationship": "Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries"
     },
     {
@@ -213,7 +213,7 @@
         "description": "Apply the triangle from mount in positional sparring starting from 3-4 Mount. Partner uses full defensive resistance including bridging, framing, and escape attempts. Focus on reading defensive reactions in real-time and selecting the triangle entry when appropriate versus other mount attacks. Track success rate and identify personal failure patterns for targeted improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Triangle from Mount as a transition?",
         "answer": "The primary goal is to transition from 3-4 Mount into Mounted Triangle control—a position that combines the dominant top pressure of mount with the submission threat of triangle mechanics. This is a submission setup (Type B transition) that leads to a control position from which triangle choke finishes, armbars, and back takes become available. The mounted triangle is the hub position, not the finish itself."
@@ -343,7 +343,7 @@
         "correction": "Turn toward the trapped arm side if you must rotate at all. Hip escape laterally while maintaining your shoulders as flat as possible. If you feel the attacker releasing the triangle, immediately address the back take threat by keeping your back to the mat and working to face them"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point at which you can defend the Triangle from Mount, and why is early defense critical?",
         "answer": "The earliest and most effective defensive point is during the arm isolation phase, before the attacker establishes the arm-in/arm-out configuration. At this stage, you can prevent the triangle entirely by keeping both elbows tight to your ribs, using two-on-one grip fighting to strip wrist control, and maintaining symmetrical arm positioning. Early defense is critical because each subsequent phase—leg swing, triangle lock, angle adjustment—becomes progressively harder to defend. Once the triangle is fully locked from mount, your escape percentage drops dramatically compared to preventing the setup."

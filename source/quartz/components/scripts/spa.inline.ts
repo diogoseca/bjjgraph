@@ -45,6 +45,14 @@ window.addCleanup = (fn) => cleanupFns.add(fn)
 let p: DOMParser
 async function navigate(url: URL, isBack: boolean = false) {
   p = p || new DOMParser()
+
+  // Normalize spaces/%20 to hyphens so manually typed URLs resolve correctly
+  const decoded = decodeURIComponent(url.pathname)
+  if (decoded.includes(" ")) {
+    url = new URL(url.toString())
+    url.pathname = decoded.replace(/\s+/g, "-")
+  }
+
   const contents = await fetch(`${url}`)
     .then((res) => {
       const contentType = res.headers.get("content-type")
@@ -87,9 +95,9 @@ async function navigate(url: URL, isBack: boolean = false) {
   if (!isBack) {
     if (url.hash) {
       const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-      el?.scrollIntoView()
+      el?.scrollIntoView({ behavior: "smooth" })
     } else {
-      window.scrollTo({ top: 0 })
+      window.scrollTo({ top: 0, behavior: "smooth" })
     }
   }
 

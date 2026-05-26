@@ -188,6 +188,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll from Vaporizer?</p>
+
 - Release the lockdown only when you have committed to the roll—premature release gives the opponent freedom to pass or flatten you
 - Maintain at least one upper body connection point throughout the entire rolling motion to control the opponent's position relative to yours
 - Generate rotational momentum from your hips and core rather than pulling with your arms, which wastes energy and creates disconnection
@@ -202,6 +204,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll from Vaporizer?</p>
+
 - Vaporizer lockdown must be established with active underhook or overhook upper body control providing the connection point for the roll
 - Opponent must be positioned where their weight can be redirected during the rolling motion rather than pinning you flat to the mat
 - Primary Vaporizer attacks (Electric Chair, Old School sweep) have been attempted and defended, justifying the transition to an alternative attack chain
@@ -214,6 +218,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll from Vaporizer step by step?</p>
 
 1. **Assess opponent weight distribution**: Feel where your opponent's weight is committed through your lockdown and underhook contacts. The roll is most effective when their weight is shifted forward onto their hands or laterally to one side, as this creates directional momentum that assists the transition. Avoid initiating when they are sitting back heavily on their heels with a wide stable base.
 2. **Deepen upper body connection**: Before initiating the roll, ensure your underhook is threaded deep to the opponent's far lat or shoulder blade, or transition to a modified seatbelt-style grip that will survive the rotational forces. This connection is your lifeline throughout the roll—it prevents the opponent from disengaging during the transition and determines where they end up relative to your turtle position.
@@ -243,6 +249,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll from Vaporizer?</p>
+
 - **Opponent sprawls and drives weight down during the roll initiation, compressing the bottom player and preventing rotational momentum** (Effectiveness: High) - Your Response: Time the roll for moments when the opponent's weight shifts forward or laterally rather than directly downward. If you feel the sprawl beginning, abort the roll early and re-engage with the lockdown while the configuration is still intact rather than fighting through a committed sprawl. → Leads to [[Positions/Vaporizer]]
 - **Opponent follows the roll tightly and immediately begins establishing back control hooks and seatbelt grip as the roller arrives in turtle** (Effectiveness: Medium) - Your Response: Complete the roll as quickly as possible and immediately begin hand fighting and escape sequences. Do not settle in turtle—continue your momentum into a crab ride or sit-out. If you feel them establishing control, turn into them rather than away to prevent hook insertion. → Leads to [[Positions/Turtle]]
 - **Opponent disengages entirely during the transition, creating distance and breaking all contact to reset the position to neutral open guard engagement** (Effectiveness: Medium) - Your Response: If you feel the opponent pulling away mid-roll, consider aborting and re-establishing the lockdown if possible. If the roll is already committed, accept the positional reset and immediately work to re-establish a guard configuration rather than chasing them from turtle. → Leads to [[Positions/Open Guard]]
@@ -253,6 +261,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll from Vaporizer?</p>
 
 ### 1. Releasing the lockdown too early before the rolling momentum is established
 
@@ -287,6 +297,8 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll from Vaporizer (Attacker)?</p>
+
 **Phase 1: Solo Rolling Mechanics** - Basic forward roll motion from bottom position
 Practice forward rolls from a simulated bottom position without a partner. Focus on keeping a tight tuck with chin to chest, landing in a solid four-point turtle base, and immediately posting up. Build comfort with the disorienting transition from supine to prone and develop the hip drive needed to complete the rotation smoothly.
 
@@ -307,39 +319,12 @@ Start in Vaporizer bottom and work through primary attacks first (Electric Chair
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What signals tell you it is time to abandon the Vaporizer and execute the roll transition?
-**A**: Key signals include the opponent successfully neutralizing your whip-up pressure through a wide stable base, their whizzer becoming dominant enough to prevent Electric Chair attempts, and their lockdown escape progressing to the point where your figure-four configuration is loosening. When two or more primary attacks have been defended and the opponent is beginning to establish top control rather than just surviving, the roll becomes the optimal choice to maintain offensive flow rather than fighting for a deteriorating position.
-
-**Q2**: What is the most critical mechanical detail during the rolling motion itself?
-**A**: Maintaining at least one upper body connection point—typically the deep underhook or a modified seatbelt grip—throughout the entire rotation. Without this connection, the roll becomes a solo movement that disconnects you from the opponent, leaving you in a defensive turtle with no offensive purchase. The connection point serves as both a pivot for the rolling motion and a means of controlling where the opponent ends up relative to your turtle position, enabling immediate follow-up attacks.
-
-**Q3**: Your opponent sprawls heavily as you begin the roll—how do you adjust?
-**A**: If you detect the sprawl early in the initiation phase, abort the roll attempt and re-engage with the lockdown while the configuration is still intact. If you are already mid-roll when the sprawl hits, redirect the rolling path slightly to the side rather than fighting directly against the downward pressure. Angling the roll laterally takes their sprawl pressure offline and can actually assist the rotational movement. Never fight directly upward against a committed sprawl from the starting position.
-
-**Q4**: What grip configuration survives the rolling transition most reliably?
-**A**: A deep underhook threaded all the way to the opponent's far lat or shoulder blade is the most reliable grip through the roll. This grip naturally maintains tension as you rotate because it wraps around the opponent's torso and the rotational forces actually tighten rather than loosen the connection. A seatbelt grip is the second-best option. Avoid relying on collar grips, wrist grips, or overhooks as these connection types tend to break under the rotational forces of the forward roll.
-
-**Q5**: What follow-up attack should you prioritize immediately after completing the roll to turtle?
-**A**: The crab ride entry is the highest-priority follow-up because it directly continues the offensive chain using your maintained underhook connection. Use the surviving underhook and the close proximity from the roll to immediately hook your near leg behind the opponent's knee while threading for back access. If the crab ride is not available because the opponent created too much distance during the transition, prioritize a sit-out or Peterson roll to guard recovery rather than remaining in static turtle where they can attack your exposed back.
-
-**Q6**: How does this technique fit into the broader lockdown attack system?
-**A**: The Roll from Vaporizer serves as the plan B bridge in the lockdown chain: Lockdown to Vaporizer to primary attacks (Electric Chair or Old School), then secondarily Roll to Turtle to Truck or Crab Ride to Back Control or Twister. When primary attacks are defended, this roll maintains offensive flow by transitioning to the back attack pathway via turtle. Without this transition, a defended Vaporizer becomes a positional dead end that eventually leads to the opponent escaping the lockdown entirely and regaining top control.
-
-**Q7**: What is the optimal timing window for initiating the roll?
-**A**: The optimal window is when the opponent shifts their weight forward or laterally in response to your Vaporizer whip-up pressure. Specifically, the moment after they counter your whip-up by driving forward is ideal because their forward momentum assists your rotation rather than opposing it. Avoid rolling when the opponent is sitting back on their heels or has established a wide settled base, as their anchored weight makes generating sufficient rotational momentum significantly harder and increases the probability of the roll stalling mid-transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll from Vaporizer?</p>
 
 The Roll from Vaporizer involves transitioning through positions where the neck and spine are loaded during the rolling motion. Always tuck the chin firmly to the chest throughout the roll to protect cervical vertebrae from compression. Generate rotation from the hips and core rather than using explosive neck-driven movements. When drilling, start slowly and increase speed only after the rolling mechanics are comfortable and reliable. Be aware of the opponent's weight distribution during the roll—if they drive downward aggressively, the combination of their weight and your rotation can compress the spine. Tap immediately if you feel any neck compression or twisting sensation during the transition. Training partners should avoid spiking or driving forcefully through the roll attempt.
 

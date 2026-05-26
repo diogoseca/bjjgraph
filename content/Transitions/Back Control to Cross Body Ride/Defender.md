@@ -154,6 +154,8 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Control to Cross Body Ride?</p>
+
 - Opponent's hips begin rotating laterally while their chest remains pressed to your back, creating a sliding sensation across your shoulder blades
 - You feel reduced or absent hook pressure on your thighs as the opponent's legs disengage from behind you and swing to one side
 - The harness or seatbelt grip tightens noticeably as the opponent clamps down to maintain upper body connection during their positional shift
@@ -166,6 +168,8 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control to Cross Body Ride?</p>
 
 - Recognize the transition cues immediately: feeling the opponent's hips begin to rotate laterally while chest pressure remains constant signals the cross body ride entry
 - Act during the transition, not after: the opponent is most vulnerable while rotating between positions, not once cross body ride is established
@@ -180,6 +184,8 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Control to Cross Body Ride?</p>
 
 ### 1. Sit out toward the direction the opponent is rotating, turning to face them before cross body ride is established
 
@@ -217,6 +223,8 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Control to Cross Body Ride?</p>
+
 ### → [[Positions/Turtle]]
 
 Act during the transition window by sitting out or hip escaping before the opponent establishes all three cross body ride control points. The key is recognizing the transition early through the feeling of lateral hip rotation and immediately initiating your escape before perpendicular pressure is locked in. Chain sit-out attempts with hip escapes if the first movement is blocked.
@@ -232,6 +240,8 @@ Exploit the hook-free moment during the transition to stand up explosively using
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control to Cross Body Ride?</p>
 
 ### 1. Remaining passive and waiting until the cross body ride is fully established before attempting to escape
 
@@ -261,6 +271,8 @@ Exploit the hook-free moment during the transition to stand up explosively using
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Control to Cross Body Ride?</p>
+
 **Recognition Drilling** - Identifying transition cues
 Partner alternates between normal hook adjustments and cross body ride transitions from back control. You call out which one is happening based on feel alone with your eyes closed. Build the tactile awareness to distinguish between the two movements. No escapes attempted, purely recognition training.
 
@@ -277,26 +289,6 @@ Start from back control with partner given full freedom to transition to cross b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning to cross body ride rather than simply adjusting hooks?
-**A**: The earliest cue is feeling the opponent's hips begin rotating laterally while their chest pressure remains constant or increases on your back. A hook adjustment feels like the opponent's legs momentarily disengage and re-engage from the same direction. A cross body ride transition feels like the opponent's lower body is swinging to one side while their upper body stays pinned to your back. The harness grip also typically tightens noticeably as they prepare for the rotational shift.
-
-**Q2**: Why is the transition moment the optimal escape window rather than waiting until cross body ride is established?
-**A**: During the transition, the opponent's base is temporarily compromised because they are between two stable positions. Their hooks are disengaged, their hips are moving, and their weight distribution is shifting from behind to beside you. This creates approximately a one to two second window where their ability to follow your defensive movement is reduced. Once cross body ride is fully established with chest pressure, near-side knee, and far-side base, the three control points create a stable tripod that is dramatically harder to disrupt.
-
-**Q3**: Your opponent has completed the transition and is now in full cross body ride. What is your defensive priority sequence?
-**A**: First priority is protecting your neck and near-side arm by keeping your chin tucked and elbows tight to your ribs. Second priority is preventing the opponent from flattening you by maintaining knee elevation and hip mobility. Third priority is creating movement through small hip adjustments that prevent the opponent from settling their weight. Fourth priority is chaining escape attempts using sit-outs, hip escapes, and granby rolls in combination rather than committing to single efforts. Accept that escape from consolidated cross body ride requires patience and chained attempts rather than a single explosive movement.
-
-**Q4**: How should you adjust your defense if the opponent transitions to cross body ride from your left side versus your right side?
-**A**: The defensive principles remain the same regardless of side, but the direction of your escape attempts must match the side of the transition. Your sit-out should be directed toward the same side the opponent is arriving from, as this turns you to face them before they consolidate. Your hip escape should be directed away from their arriving knee to create maximum separation. The near-side arm on the side they are arriving from is the arm most at risk for isolation, so prioritize tucking that elbow even more tightly than the far arm.
-
-
-
-</section>
 
 
 </main>

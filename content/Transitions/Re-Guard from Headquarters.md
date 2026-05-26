@@ -220,7 +220,7 @@ Re-guarding from Headquarters position is a crucial component of a complete guar
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Target position - common guard structure recovered to
 
-- [[Principles/Guard Retention]] - Core concept - fundamental principle applied throughout technique
+- [[Transitions/Knee Shield Retention]] - Related technique - guard retention mechanic used to maintain recovered guard structure
 
 - [[Positions/Butterfly Guard]] - Target position - common guard structure with hook insertion variant
 

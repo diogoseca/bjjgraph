@@ -1,0 +1,479 @@
+{
+  "name": "Omoplata from Double Sleeve Guard",
+  "description": "Master the omoplata shoulder lock from double sleeve guard. Learn grip manipulation, leg swing mechanics, and finishing details for this high-percentage setup.",
+  "tags": [
+    "bjj",
+    "submission",
+    "shoulder-lock",
+    "joint-lock",
+    "omoplata",
+    "guard",
+    "sweep",
+    "hub",
+    "finishing-guide",
+    "double-sleeve-guard"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
+  "starting_position": "Double Sleeve Guard",
+  "from_position": "Double Sleeve Guard/Bottom",
+  "success_rate": 52,
+  "overview": "The omoplata from double sleeve guard exploits bilateral sleeve control to isolate one arm and swing the leg over the opponent's shoulder for a powerful rotational shoulder lock. What makes this entry distinctive is the pre-existing grip dominance: because you already control both sleeves, you dictate which arm gets attacked and prevent the opponent from posting or framing during your leg swing. The push-pull dynamic inherent to double sleeve guard — pulling one sleeve across your centerline while pushing the opponent's opposite shoulder with your foot — naturally creates the angle and arm isolation needed for the omoplata without telegraphing the attack.\n\nStrategically, this submission sits at the intersection of the triangle and armbar threat from double sleeve guard, meaning your opponent must defend all three attacks simultaneously. When they protect their neck and keep elbows tight to avoid the triangle, they create the arm separation needed for the omoplata entry. The double sleeve grip also provides a safety net: if the omoplata attempt stalls, you retain enough control to recover guard rather than conceding position. At the competition level, this attack is particularly effective because even an incomplete omoplata frequently results in a sweep worth two points, making it a low-risk, high-reward option from an already dominant guard position.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear or strain",
+        "severity": "High",
+        "recovery_time": "6-12 weeks for minor tears, 3-6 months for major tears"
+      },
+      {
+        "injury": "AC joint separation",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Shoulder capsule damage",
+        "severity": "High",
+        "recovery_time": "8-16 weeks"
+      },
+      {
+        "injury": "Labrum tear",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months with surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 4-6 seconds minimum pressure increase",
+    "tap_signals": [
+      "Verbal tap (any vocal signal)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress signal or sound",
+      "Roll forward escape attempt (release immediately)"
+    ],
+    "release_protocol": [
+      "Immediately stop all forward pressure and rotation",
+      "Release leg pinch on shoulder",
+      "Unwind hip position to neutral",
+      "Allow opponent to extract arm slowly",
+      "Check for injury before continuing"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the shoulder rotation",
+      "Never apply competition speed in training",
+      "Always allow opponent access to tap",
+      "Stop immediately if opponent rolls forward (escape attempt)",
+      "Never apply full finishing pressure until advanced belt level",
+      "Always control the rate of shoulder rotation"
+    ]
+  },
+  "from_positions": [
+    "Double Sleeve Guard",
+    "Spider Guard",
+    "Open Guard"
+  ],
+  "related_submissions": [
+    "Omoplata",
+    "Triangle Choke",
+    "Kimura",
+    "Baratoplata",
+    "Monoplata"
+  ],
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Starting position providing bilateral sleeve control for this submission"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Control position reached after successful leg swing over shoulder"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Common alternative submission from the same grip configuration"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard sharing similar sleeve grip mechanics and omoplata entries"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome position when opponent drives forward past legs"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category encompassing double sleeve variations"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 52,
+      "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Bottom",
+      "probability": 31,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 17,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Pulling Arm Drag Entry",
+      "description": "Use the far-side sleeve grip to pull the opponent's arm across your centerline while simultaneously pushing their near-side shoulder away with your foot on their bicep. As their weight shifts over the pulled arm, swing your leg over their shoulder in one fluid motion.",
+      "when_to_use": "When opponent leans forward with weight committed over their hands, making the cross-pull effective"
+    },
+    {
+      "variation_name": "Push-Kick to Leg Swing",
+      "description": "From double sleeve control with feet on biceps, kick one foot explosively into the opponent's bicep to push that arm away while pulling the opposite sleeve down and across. The foot that pushed transitions immediately into the leg swing over the now-isolated shoulder.",
+      "when_to_use": "When opponent maintains wide arm position and resists having arms pulled across centerline"
+    },
+    {
+      "variation_name": "Pendulum Momentum Entry",
+      "description": "Swing your hips laterally using a pendulum motion while pulling one sleeve across your body. The momentum from the pendulum carries your leg high and over the opponent's shoulder without requiring them to be bent forward, making it effective against upright opponents.",
+      "when_to_use": "Against opponents who maintain strong upright posture and refuse to lean into your guard"
+    }
+  ],
+  "attacker": {
+    "name": "from Double Sleeve Guard Attacker",
+    "description": "Learn to attack the omoplata from double sleeve guard. Step-by-step execution, grip control, and finishing mechanics for this shoulder lock submission.",
+    "overview": "Attacking the omoplata from double sleeve guard leverages your existing bilateral grip control to create one of the highest-percentage omoplata entries in gi jiu-jitsu. The key advantage is that you already control both arms before initiating the attack, eliminating the most common omoplata defense — the free arm post. Your offensive sequence follows a clear progression: maintain sleeve tension, create angle through hip escape, isolate the target arm with a cross-pull, swing your leg over the shoulder, sit up to control the waist, and apply rotational pressure to finish. The double sleeve grip also creates a built-in chain: if the opponent defends the omoplata by posturing, you transition to a triangle; if they stack, you switch to an armbar. This three-way threat makes the attack extremely difficult to defend at the intermediate and advanced levels.",
+    "key_principles": [
+      "Maintain constant bilateral sleeve tension until the moment you commit to the leg swing — releasing the second grip too early allows posting",
+      "Create your angle before attempting the leg swing by hip-escaping at least 45 degrees off the centerline",
+      "The cross-pull on the target arm must bring their elbow past your hip line to create sufficient space for the leg to clear",
+      "Sit up aggressively after the leg lands — flat back equals no finishing pressure",
+      "Control the opponent's far hip or belt to prevent the forward roll escape before applying shoulder rotation",
+      "Apply finishing pressure through your hips driving forward, not by leaning back with your upper body"
+    ],
+    "setup_requirements": [
+      "Established double sleeve grips at or near the cuffs with firm bilateral control",
+      "Feet positioned on opponent's hips or biceps maintaining active distance management",
+      "Hips off the mat and mobile, already angled at least partially toward the target side",
+      "Opponent's posture broken or weight shifted forward past their knees",
+      "Visual confirmation that opponent's far arm is occupied and cannot post freely"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish angle with hip escape",
+        "description": "From double sleeve guard with both grips secured, hip escape toward the side of your intended attack. Your hips should angle approximately 45 degrees off center, with your bottom knee pointing toward the mat. This angle is essential — attempting the omoplata from a flat position results in insufficient clearance for the leg swing.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Cross-pull the target arm",
+        "description": "Pull the target-side sleeve firmly across your centerline toward your opposite hip while simultaneously pushing the opponent's other shoulder away using your foot on their bicep. The target arm's elbow must pass your hip line. Keep your pulling elbow tight to your body for maximum leverage rather than extending your arm.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 3,
+        "action": "Swing leg over the shoulder",
+        "description": "Release your foot from the opponent's bicep on the target side and swing it high over their shoulder in an arcing motion. Your hamstring should land across the back of their neck and shoulder blade. The leg must clear completely — a partial swing that catches on their head is the most common point of failure. Use hip thrust momentum to power the swing.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 4,
+        "action": "Clamp and control with legs",
+        "description": "Once your leg clears the shoulder, immediately squeeze your knees together to pinch their arm against your body. Your top leg hooks over their back while your bottom leg frames against their hip. This clamp prevents them from pulling their arm free and creates the rotational fulcrum point needed to generate shoulder pressure.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Sit up and secure waist control",
+        "description": "Drive yourself upright using your free hand posting behind you. Immediately reach across to grip the opponent's belt, far hip, or waistband with your outside hand. This grip is critical — it prevents the forward roll escape which is the primary defense at this stage. Your posture should be upright with chest facing the same direction as your opponent.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate and flatten opponent",
+        "description": "Use your waist grip and leg pressure to drive the opponent flat onto the mat. Walk your hips toward their head to increase the shoulder rotation angle. Their chest should be pressing into the mat with their trapped arm behind them. If they resist flattening, use your near-side hand to push their far shoulder down.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply finishing pressure",
+        "description": "With the opponent flat and their arm isolated, lean your torso forward over their back while driving your hips toward their head. The finishing pressure comes from the combination of hip advancement and forward lean creating external rotation on their shoulder. Apply slowly and progressively — the shoulder joint has limited range before injury occurs. Maintain belt control throughout to prevent any late escape.",
+        "timing": "3-5 seconds, progressive"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Forward roll escape before waist control is established",
+        "effectiveness": "High",
+        "your_response": "Anticipate the roll by immediately gripping their belt or far hip the instant your leg clears the shoulder. If they begin rolling, follow the roll while maintaining leg clamp and re-establish the position on the other side. Alternatively, transition to a mounted triangle if you can swing your second leg over during the roll.",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Posturing up and stacking weight onto attacker",
+        "effectiveness": "Medium",
+        "your_response": "Use the stacking momentum against them by transitioning to a triangle choke — their posture-up creates the space to bring your opposite leg across their neck. Alternatively, switch your hips to threaten an armbar on the same arm, using the stack to generate extension pressure.",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Stepping over attacker's head to relieve shoulder pressure",
+        "effectiveness": "Medium",
+        "your_response": "Block the step-over by placing your free hand on their knee or hip on the stepping side. If they commit to the step, release the omoplata and immediately re-establish guard with sleeve grips intact, or transition to a sweep by catching their stepping leg.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Pulling the trapped arm free before leg clamp is secured",
+        "effectiveness": "Low",
+        "your_response": "Maintain the sleeve grip on the target arm throughout the leg swing phase. Only release the sleeve grip after your legs have fully clamped around their arm. If they begin extracting early, abort and return to double sleeve guard with all grips intact.",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the leg swing without sufficient hip angle",
+        "consequence": "Leg catches on opponent's head or shoulder and fails to clear, losing the sleeve grip and creating a scramble opportunity for the opponent",
+        "correction": "Always hip escape to create at least 45 degrees of angle before initiating the swing. Your bottom knee should point toward the mat before your leg leaves the opponent's body."
+      },
+      {
+        "error": "Releasing the second sleeve grip too early during the entry",
+        "consequence": "Opponent posts their free hand on the mat and either stacks or backsteps to avoid the leg swing entirely",
+        "correction": "Maintain the far-side sleeve grip until your leg has fully cleared the shoulder and your knee clamp is secured. The second grip releases only when your legs take over the control role."
+      },
+      {
+        "error": "Staying flat on back after the leg swing instead of sitting up",
+        "consequence": "No finishing pressure can be generated from a flat position, and opponent easily rolls forward to escape or stacks to pass",
+        "correction": "Treat the sit-up as the most urgent action after the leg lands. Post your hand behind you and drive upright immediately. The omoplata only works from an upright seated position."
+      },
+      {
+        "error": "Failing to control opponent's waist before applying shoulder pressure",
+        "consequence": "Opponent executes the forward roll escape, ending up in top position and potentially passing guard entirely",
+        "correction": "Prioritize the belt or far-hip grip over the finish. Secure waist control first, flatten them, then apply finishing pressure. Rushing the finish without waist control is the primary reason omoplatas fail."
+      },
+      {
+        "error": "Applying shoulder rotation with a jerking or explosive motion",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears and labrum damage. Also gives opponent a pain spike that triggers panic rolling, making control harder.",
+        "correction": "Apply pressure progressively over 4-6 seconds minimum. Your hips advance slowly toward their head while you lean forward gradually. Controlled pressure gives you better finishing mechanics and protects your training partner."
+      },
+      {
+        "error": "Pulling the cross-sleeve without foot pressure on the opposite bicep",
+        "consequence": "Opponent can follow their pulled arm with their body weight, collapsing into your guard and smashing past the leg swing attempt",
+        "correction": "The push-pull must be simultaneous — your foot pushes their far shoulder away while your hand pulls the near sleeve across. This creates the separation and space needed for the leg to swing through."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Leg swing clearance and hip angle",
+        "description": "Partner in kneeling position offers no resistance. Practice hip escape to angle, cross-pull the sleeve, and swing the leg over the shoulder. Focus on clean clearance without catching the head. Repeat 20 times per side until the motion is smooth and automatic."
+      },
+      {
+        "phase": "Phase 2: Position Completion",
+        "focus": "Full sequence from entry to waist control",
+        "description": "Add the sit-up and waist control phases to the drill. Partner remains compliant but maintains realistic body positioning. Practice the complete chain: angle, pull, swing, clamp, sit up, grip belt, flatten. Do not apply finishing pressure yet."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Dealing with the forward roll and posture-up defenses",
+        "description": "Partner alternates between rolling forward and posturing up after the leg lands. Attacker practices following the roll to maintain position and transitioning to triangle when they posture. Build timing for when to grip the belt versus when to switch attacks."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full entry and finish against progressive resistance",
+        "description": "Start from double sleeve guard with partner at 50% resistance, increasing to 80% over time. Score successful entries, successful finishes, and successful transitions to triangle or armbar. Analyze which phase fails most often and drill that phase specifically."
+      },
+      {
+        "phase": "Phase 5: Chain Attack Integration",
+        "focus": "Omoplata as part of the triangle-armbar-omoplata triad",
+        "description": "Start from double sleeve guard and attempt whichever submission the opponent's defense opens. If they protect the neck, omoplata. If they isolate one arm, armbar. If they separate arms, triangle. Build recognition of which attack is available based on their defensive posture."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the omoplata from double sleeve guard primarily attack?",
+        "answer": "The omoplata attacks the shoulder joint through external rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the AC (acromioclavicular) joint. The rotational pressure forces the humerus into external rotation beyond its normal range, creating pressure on the anterior shoulder capsule and the subscapularis tendon. Secondary stress affects the labrum and can aggravate existing labral tears.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins to posture up as you swing your leg over their shoulder — what adjustment prevents escape?",
+        "answer": "Convert immediately to a triangle threat by bringing your opposite leg across their neck while they create the space by posturing. Their upward movement actually helps you get your second leg into position. Alternatively, if your leg has already cleared, use the sleeve grip to pull their arm deeper behind your hip while squeezing your knees together harder to lock the arm in place before they complete the posture-up. The key is not fighting their posture directly but using their movement to transition to a different threat.",
+        "safety_critical": false
+      },
+      {
+        "question": "What control must you establish before applying finishing pressure on the omoplata?",
+        "answer": "You must establish waist control (belt grip or far-hip grip) and flatten your opponent chest-down onto the mat before applying any finishing rotation. Without waist control, the opponent will execute the forward roll escape. Without flattening them, you cannot generate sufficient leverage for the shoulder rotation. The correct sequence is: clamp legs, sit up, grip belt, flatten opponent, then and only then begin advancing your hips forward to apply the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the omoplata sequence does the submission become very difficult to escape?",
+        "answer": "The submission becomes very difficult to escape once the attacker has achieved three conditions simultaneously: the leg clamp is tight with knees pinching the arm against the body, the attacker is fully upright in a seated position with waist control secured, and the opponent has been flattened chest-down with their trapped arm behind their back. Once all three are achieved, the forward roll is blocked, arm extraction is prevented by the clamp, and the only remaining option is to tap or accept the shoulder damage. Before any one of these three is secured, viable escapes exist.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error that causes the omoplata to fail at the final stage?",
+        "answer": "The most common finishing error is leaning backward away from the opponent rather than driving the hips forward toward their head. Practitioners instinctively pull back thinking it creates rotation, but this actually reduces pressure on the shoulder and allows the opponent to sit up or roll. The correct finishing mechanic is to advance your hips toward the opponent's head while leaning your torso forward over their back, creating a shearing force that externally rotates the shoulder against the fulcrum of your leg.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grips as you transition from the double sleeve setup to the omoplata finish?",
+        "answer": "The grip transitions follow a clear sequence: maintain both sleeve grips during the cross-pull and angle creation phase. Keep the target-side sleeve grip throughout the leg swing to prevent arm extraction. Release the far-side sleeve grip once your leg clears the shoulder and clamp is secured — your legs now control the arm. Your hands transition to: one hand posting behind you for the sit-up, then that hand reaches for the belt or far hip. The other hand assists the sit-up and then controls the opponent's near-side hip or pushes their far shoulder to flatten them.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper speed of application and release protocol for the omoplata?",
+        "answer": "Application must be slow and progressive, taking a minimum of 4-6 seconds of gradual pressure increase. Never jerk or spike the shoulder rotation. Advance your hips in small increments and pause to feel for the tap. Upon receiving any tap signal — verbal, hand tap, foot tap, or distress sound — immediately stop all forward pressure, release the leg pinch on the shoulder, unwind your hip position to neutral, and allow your partner to slowly extract their arm. Check for injury before resuming training. In competition, release immediately upon referee stoppage.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you secure competition points while finishing the omoplata from double sleeve guard?",
+        "answer": "The omoplata from guard frequently scores sweep points (2 points) even before the finish, because sitting up and driving the opponent flat constitutes a reversal from bottom to a controlling top position. To maximize points: complete the sit-up and establish clear top control before the referee calls the sweep, then maintain control for 3 seconds to secure the points. If the opponent turtles to avoid being flattened, you score the sweep and can continue attacking the omoplata or transition to a back take for 4 additional points. Even if the submission fails, you retain top position.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent attempts to roll forward to escape the omoplata — how do you maintain the submission?",
+        "answer": "The forward roll escape must be addressed preemptively with the belt or far-hip grip. If they begin rolling despite your grip: follow the roll by somersaulting with them while maintaining your leg clamp and waist control. You will end up in the same omoplata position on the other side. Key details during the roll: keep your knees tight to prevent arm extraction during the tumble, maintain your belt grip throughout, and post your free hand to stabilize as you land. If you lose control during the roll, immediately transition to a back take or re-establish guard.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does the double sleeve grip configuration make the omoplata entry more effective than entries from other guards?",
+        "answer": "Double sleeve control provides three specific advantages over other omoplata entries. First, bilateral grip control means you choose which arm to attack based on the opponent's weight distribution rather than reacting to whatever arm is available. Second, the far-side sleeve grip prevents the opponent from posting during your leg swing — the most common omoplata defense at every level. Third, the push-pull dynamic of pulling one sleeve while pushing the opposite bicep with your foot naturally creates the 45-degree angle and arm isolation required for the entry without needing a separate setup step.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Double Sleeve Guard Defender",
+    "description": "Defend and escape the omoplata from double sleeve guard. Recognition cues, defensive timing, and escape sequences for surviving this shoulder lock attack.",
+    "overview": "Defending the omoplata from double sleeve guard requires recognizing the attack during its earliest phases — specifically when the bottom player begins creating angle and pulling one sleeve across their body. The critical defensive window is narrow: once the leg clears your shoulder and the clamp is secured, escape options diminish rapidly. Your defensive strategy centers on three priorities in order: prevent the angle creation by maintaining posture and centered weight, block the leg swing by keeping your elbows tight and posture upright, and if caught, execute the forward roll escape before waist control is established. Understanding the attacker's progression through each phase allows you to match the correct defense to the correct moment.",
+    "key_principles": [
+      "Maintain upright posture with weight centered over your knees to prevent the bottom player from creating the angle needed for the entry",
+      "Keep elbows tight to your body — wide elbows create the arm isolation space the attacker needs",
+      "If a sleeve gets pulled across, immediately retract it by rotating your elbow back to your hip rather than pushing forward",
+      "The forward roll is your primary escape once caught, but only works before the attacker secures waist control",
+      "Never allow both your chest and your trapped arm to face the mat simultaneously — this is the finishing position",
+      "Break at least one sleeve grip before the attacker builds momentum toward the omoplata entry"
+    ],
+    "recognition_cues": [
+      "Bottom player hip escapes to one side while maintaining both sleeve grips, creating angle off the centerline",
+      "One sleeve is being pulled firmly across the bottom player's body toward their opposite hip while their foot pushes your other shoulder",
+      "Bottom player's leg on the attack side lifts off your body and begins an arcing motion toward your head and shoulder",
+      "You feel your arm being isolated away from your body with increasing pull toward the mat on one side",
+      "Bottom player's hips elevate and rotate aggressively rather than staying flat — this indicates commitment to the omoplata versus other attacks"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up and retract the pulled arm before the leg swing",
+        "when_to_use": "Early phase — when you feel one sleeve being pulled across and the angle being created but before the leg leaves the body",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Resets to neutral double sleeve guard where you can resume passing",
+        "risk": "If you posture too aggressively, the attacker may switch to a triangle by bringing the other leg across your neck"
+      },
+      {
+        "action": "Forward roll escape before waist control is established",
+        "when_to_use": "Mid phase — the leg has cleared your shoulder and the clamp is forming, but the attacker has not yet sat up and gripped your belt",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "You end up in top position with the omoplata dissolved, often in a scramble or neutral guard position",
+        "risk": "If the attacker follows the roll with waist control, you end up in the same omoplata on the other side"
+      },
+      {
+        "action": "Drive forward and stack the attacker flat on their shoulders",
+        "when_to_use": "When the attacker stays flat on their back after the leg swing instead of sitting up immediately",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Neutralizes the omoplata by preventing the attacker from sitting up, and allows you to begin extracting your arm and working into closed guard top or passing",
+        "risk": "If the attacker has strong leg clamp, stacking may increase the rotational pressure on your shoulder"
+      },
+      {
+        "action": "Step over the attacker's head to relieve shoulder rotation",
+        "when_to_use": "Late phase — when you are caught in the omoplata but the attacker's finishing pressure is not yet maximal and you have space to step",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Relieves shoulder pressure and creates a scramble where you can disengage or establish a passing position",
+        "risk": "Requires significant flexibility and timing; if the attacker blocks the step with their free hand, it can worsen your position"
+      }
+    ],
+    "escape_paths": [
+      "Forward roll escape executed before the attacker establishes waist control — tuck your chin, roll over your far shoulder, and use the momentum to come to top position",
+      "Arm extraction by rotating your trapped elbow toward the attacker's hip while posturing upward, peeling your arm free before the leg clamp fully tightens",
+      "Stack and drive through by pushing your weight forward onto the attacker's shoulders to prevent the sit-up and gradually work your arm free"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Double Sleeve Guard/Bottom",
+        "how": "Break the cross-pull grip early by retracting your elbow to your hip and re-centering your posture, or execute the forward roll escape to scramble back to a neutral guard passing position"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Drive forward and stack the attacker during the transition between leg swing and sit-up, closing your legs around their torso to establish closed guard top position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped arm away from the body using shoulder strength alone",
+        "consequence": "Increases the rotational leverage on the shoulder joint and accelerates the submission rather than relieving it. Also exhausts the arm rapidly.",
+        "correction": "Rotate your entire body toward the trapped arm to reduce the angle, then use your elbow as the extraction point by driving it toward the attacker's hip. The escape is a body movement, not an arm pull."
+      },
+      {
+        "error": "Attempting the forward roll after the attacker has already secured belt or waist control",
+        "consequence": "The attacker follows the roll and re-establishes the identical omoplata on the other side, having wasted your energy and given them a more stable position",
+        "correction": "Evaluate whether waist control exists before committing to the roll. If the belt grip is secured, switch to the stack defense or step-over escape instead."
+      },
+      {
+        "error": "Keeping wide elbows and extended arms while in double sleeve guard",
+        "consequence": "Creates the arm isolation and space the attacker needs to initiate the omoplata, effectively setting up the attack for them",
+        "correction": "Keep elbows pinched tight to your ribs at all times. When you feel a sleeve being pulled, immediately swim your elbow back to your hip rather than allowing it to extend outward."
+      },
+      {
+        "error": "Ignoring the hip escape and angle creation by the bottom player",
+        "consequence": "By the time you react, the attacker has already created sufficient angle for the leg swing and your defensive window has closed",
+        "correction": "The moment you see the bottom player hip escaping to one side, immediately address it by re-centering your weight over them and pressuring forward to flatten their hips back to the mat."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize the omoplata is being set up from double sleeve guard?",
+        "answer": "The earliest cue is the bottom player hip escaping to create an angle while maintaining sleeve grips. This is followed by one sleeve being pulled across their body toward the opposite hip, and their foot on your other side pushing your shoulder away. The final confirmation is their leg lifting off your body to begin the arcing swing over your shoulder. Recognizing the hip escape is the most important cue because it gives you the largest defensive window.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap to the omoplata to prevent shoulder injury?",
+        "answer": "Tap early and clearly using verbal and physical signals simultaneously. The moment you feel increasing external rotation pressure on your shoulder that you cannot relieve through escape, tap immediately with your free hand on the opponent's body or the mat while verbally saying 'tap.' Do not wait until pain becomes severe — the shoulder joint transitions from discomfort to structural damage very quickly with rotational force. If your free hand is trapped, tap with your feet or use a loud verbal signal.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available when caught in the omoplata from double sleeve guard?",
+        "answer": "The primary options in order of priority are: forward roll escape (most effective but only before waist control is established), arm extraction through elbow rotation toward the attacker's hip (works during the clamping phase), stacking the attacker flat by driving weight forward (effective when attacker stays flat), and stepping over the attacker's head to relieve shoulder rotation (last resort requiring flexibility). The correct choice depends on which phase of the omoplata the attacker has reached.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments can prevent the omoplata setup from double sleeve guard?",
+        "answer": "Keep your elbows tight to your body at all times to prevent arm isolation. When you feel one sleeve being pulled across the opponent's body, immediately retract that elbow by rotating it back toward your hip — do not chase the grip with an extended arm. Break at least one sleeve grip as early as possible, prioritizing the grip on the arm being pulled across. If both grips remain, address the angle by re-centering your weight over the bottom player to flatten their hip escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "When is the optimal moment to attempt the forward roll escape from the omoplata?",
+        "answer": "The optimal moment is immediately after the attacker's leg clears your shoulder but before they sit up and establish waist control (belt or hip grip). This window typically lasts 1-2 seconds. Roll over your far shoulder (the shoulder away from the attacker) while tucking your chin. If you wait until the attacker has gripped your belt or far hip, the roll will be followed and you will end up in the same position. If the attacker is already upright with waist control, switch to the stack or step-over defense instead.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying omoplata setup cues from double sleeve guard",
+        "description": "Partner performs the omoplata entry at 30% speed while you practice identifying each phase: the hip escape, the cross-pull, and the leg swing. Call out each phase verbally as you recognize it. No defensive action yet — focus entirely on reading the attack progression and understanding the timing windows."
+      },
+      {
+        "phase": "Phase 2: Early Prevention",
+        "focus": "Posture maintenance and grip retraction",
+        "description": "Partner attempts the omoplata setup at 50% speed. Practice maintaining centered posture and retracting your elbow when the cross-pull begins. Focus on keeping elbows tight and re-centering your weight when you detect the angle creation. Reset and repeat after each successful prevention."
+      },
+      {
+        "phase": "Phase 3: Escape Execution",
+        "focus": "Forward roll and stack escapes from caught positions",
+        "description": "Partner completes the leg swing and begins the sit-up phase. Practice the forward roll escape with proper timing and the stack defense as an alternative. Partner provides progressive resistance. Track success rate for each escape and identify which timing windows you miss most often."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full defensive sequence against committed attacks",
+        "description": "Positional sparring starting from double sleeve guard with partner attacking omoplata at 70-80% intensity. Practice the full defensive chain: early prevention, mid-phase escapes, and late-phase survival. Score based on whether you escape without conceding the tap or sweep points."
+      }
+    ]
+  }
+}

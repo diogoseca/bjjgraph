@@ -28,7 +28,7 @@ The technique relies on understanding the biomechanics of the lockdown: the figu
 
 This defense serves as a critical first-line response in the Electric Chair escape hierarchy. While more complex escapes like the limp leg technique or hip rotation escape exist, the straighten leg defense represents the most direct path to neutralizing the immediate submission threat. Timing is essential: executing the defense before the bottom player achieves full extension is significantly more effective than attempting to straighten against a fully locked-out Electric Chair, where the mechanical advantage has already shifted decisively to the bottom player.
 
-**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -208,7 +208,7 @@ The Straighten Leg Defense occupies a critical position in the Electric Chair es
 
 - [[Positions/Half Guard/Deep Half Guard]] - Position the bottom player may transition to if Electric Chair is neutralized
 
-- [[Submissions/Electric Chair Finish]] - Submission threat being defended against with this technique
+- [[Positions/Half Guard/Electric Chair]] - Submission threat being defended against with this technique
 
 - [[Positions/Twister Control/Truck]] - Position the bottom player may threaten if defense creates transitional openings
 

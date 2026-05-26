@@ -194,6 +194,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook Control Sweep?</p>
+
 - Armpit seal creates sweep control - the tight connection between your armpit and their shoulder is the foundation that makes the entire sweep possible
 - Hip angle precedes sweep initiation - angle your hips toward the sweep direction before committing to generate maximum rotational force
 - Legs provide power, overhook provides direction - never try to pull them over with arm strength alone; use hook elevation or hip bridge as the primary engine
@@ -208,6 +210,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook Control Sweep?</p>
+
 - Tight overhook established with armpit sealed completely over opponent's shoulder with zero gap between your armpit and their shoulder joint
 - Grip secured high behind opponent's back or shoulder blade, not low on their waist where leverage is insufficient for sweep generation
 - Hips angled toward the sweep direction with sufficient mobility to generate rotational or bridging force without obstruction
@@ -220,6 +224,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook Control Sweep step by step?</p>
 
 1. **Verify overhook seal and grip position**: Confirm your armpit is sealed tightly over opponent's shoulder with no gap. Grip should be high on their shoulder blade or behind their neck. If the seal is loose, tighten it by driving your shoulder down and pulling your elbow to your ribs before proceeding.
 2. **Establish secondary control with free hand**: Use your non-overhook hand to control opponent's head by cupping behind their neck, gripping their collar, or controlling their opposite wrist. This secondary control prevents them from posting their free hand to block the sweep and breaks their posture forward.
@@ -250,6 +256,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook Control Sweep?</p>
+
 - **Opponent posts free hand on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Release secondary grip and immediately attack the posting arm with a Kimura or wrist control. Alternatively, switch to an arm drag on the overhook side since their weight is now committed to the posting arm. The post creates a new vulnerability even as it stops the sweep. → Leads to [[Positions/Overhook Control]]
 - **Opponent widens base by stepping leg out to the sweep side** (Effectiveness: High) - Your Response: Adjust sweep angle by angling hips further or switch to a pendulum variation using your outside leg to sweep their posted leg. If their base is too wide, abandon the sweep and transition to an arm drag or back take attempt since their wide base exposes their back. → Leads to [[Positions/Overhook Control]]
 - **Opponent strips overhook by limp-arming or forcefully rotating their shoulder free** (Effectiveness: Medium) - Your Response: As they pull their arm free, immediately transition to an arm drag using the momentum of their pull. Their arm extraction movement exposes their back. If the arm drag fails, recover to open guard and re-establish grips before they can advance their passing position. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook Control Sweep?</p>
 
 ### 1. Attempting to sweep using arm strength alone without engaging hips and legs
 
@@ -300,6 +310,8 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook Control Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolate hip bridge and hook elevation with overhook grip
 Practice the sweep motion with a fully cooperative partner. Focus on the coordination between overhook pull, hip angle, and leg drive. Perform 20 repetitions per side, emphasizing the timing of each component. Partner provides zero resistance to allow focus on movement quality and sequencing.
 
@@ -320,42 +332,12 @@ Positional sparring starting from bottom overhook control. Top player works to p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Overhook Control Sweep?
-**A**: The optimal timing is immediately after breaking the opponent's posture forward and their weight shifts over the sweep fulcrum point. Specifically, initiate when you feel their weight commit toward the overhook side, either because you pulled them there or because they drove forward on their own. Sweeping against a centered, balanced opponent is extremely difficult; the setup must create the weight shift before the sweep motion begins.
-
-**Q2**: What entry conditions must exist before you can attempt this sweep?
-**A**: Five conditions must be present: tight overhook with armpit sealed over opponent's shoulder, grip positioned high on their back or shoulder blade, hips mobile and angled toward the sweep direction, at least one leg positioned for leverage (hook or bridge platform), and some form of control on opponent's free hand to prevent posting. Missing any one of these significantly reduces success probability.
-
-**Q3**: What is the most critical mechanical detail that separates successful sweeps from failed attempts?
-**A**: The coordination between the overhook pull direction and the leg/hip drive direction is the most critical detail. The overhook must pull the opponent's arm across your body toward the mat on your non-overhook side while your hips and legs drive upward and toward the same direction. These forces must be simultaneous and complementary. When they are sequential rather than simultaneous, the opponent has time to adjust between each force application and defend.
-
-**Q4**: Your opponent posts their free hand firmly on the mat when you begin the sweep - how do you adjust?
-**A**: Immediately abandon the sweep direction and attack the posting arm. Release your secondary grip and secure their posting wrist for a Kimura setup, or use the momentum shift to perform an arm drag on the overhook side toward their back. Their weight committed to the posting arm creates a new vulnerability. Never try to muscle through a firmly posted arm - redirect to an alternative attack that exploits their defensive commitment.
-
-**Q5**: What grip height on the opponent's back provides maximum sweep leverage?
-**A**: The grip should be high on the opponent's shoulder blade or behind their neck. High grip positioning maximizes the lever arm of the overhook, allowing you to control their posture and direct the sweep angle with less force. A grip low on the waist or lower back provides insufficient leverage because the short lever arm cannot generate enough rotational force to break their base. Constantly readjust the grip upward as they move.
-
-**Q6**: What is the primary direction of force during the sweep execution?
-**A**: The force direction is diagonal: upward and toward the overhook side simultaneously. The overhook arm pulls horizontally across your body while the legs or hips drive vertically upward. The resultant vector is a diagonal arc that rolls the opponent over the fulcrum point created by your leg positioning. Purely horizontal pulling or purely vertical lifting are both insufficient; the combined diagonal vector is what makes the sweep mechanically sound.
-
-**Q7**: Your opponent strips your overhook by rotating their shoulder forcefully during the sweep attempt - what do you do?
-**A**: Immediately convert the failed overhook into an arm drag by catching their wrist or elbow as it pulls free. Their arm extraction motion creates backward momentum that you can redirect into a back take by circling behind them. If the arm drag window has passed, immediately establish frames and recover to open guard before they can capitalize on the lost control. Do not chase the failing overhook grip; transition proactively to the next best option.
-
-**Q8**: If the sweep is blocked and you remain in overhook control, what chain attacks should you threaten next?
-**A**: The primary chain attacks after a blocked sweep are: Kimura entry when opponent pulls their arm back against the overhook, arm drag to back take when opponent attempts to posture away, guillotine or front headlock entry when opponent drives forward to prevent another sweep attempt, and a re-attempt of the sweep from a different angle or variant. The key is reading which defensive adjustment the opponent makes after blocking the sweep and selecting the corresponding chain attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook Control Sweep?</p>
 
 The Overhook Control Sweep is generally safe when executed with proper technique. Primary injury risks include shoulder strain on the trapped arm if the top player resists by posting aggressively while their arm is deeply controlled. Avoid cranking the overhook aggressively during drilling as this can strain the trapped shoulder's rotator cuff. During the sweep transition, control the landing to prevent your partner from landing on their head or neck. Release the overhook immediately if your partner indicates shoulder discomfort. When drilling bridge-based variants, ensure the training area is clear of other practitioners to prevent collisions during the rolling motion.
 

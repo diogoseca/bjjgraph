@@ -10,7 +10,7 @@
     "defensive",
     "footlock-defense"
   ],
-  "from_position": "Estima Lock/Bottom",
+  "from_position": "Estima Lock Control/Bottom",
   "outcomes": [
     {
       "to": "Open Guard/Top",
@@ -23,7 +23,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Bottom",
+      "to": "Estima Lock Control/Bottom",
       "probability": 25,
       "result": "failure"
     },
@@ -142,13 +142,13 @@
         "counter": "Opponent tightens grip and increases rotational pressure when sensing escape attempt",
         "effectiveness": "High",
         "your_response": "Pause extraction attempt, re-establish counter-rotation, and wait for next opportunity when they adjust or fatigue",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent follows your hip movement, maintaining pressure angle on trapped leg",
         "effectiveness": "Medium",
         "your_response": "Use free leg to hook behind their knee or push their hip to break their following momentum and create extraction window",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent transitions to toe hold as you begin extracting, attacking exposed toes",
@@ -160,7 +160,7 @@
         "counter": "Opponent drives forward to flatten you and eliminate hip mobility",
         "effectiveness": "High",
         "your_response": "Maintain frames actively, turn shoulders toward trapped leg, post with far hand to preserve enough angle for hip escape",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       }
     ],
     "common_errors": [
@@ -217,7 +217,7 @@
         "description": "Integrate extraction into live rolling from Estima Lock starting position. Partner applies full competition-level pressure and counters. Focus on recognizing extraction windows in dynamic exchanges and chaining to follow-up positions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Leg Extraction from Estima Lock?",
         "answer": "The primary goal is to systematically free your trapped foot from the inverted footlock position while avoiding injury. This involves reducing submission pressure through counter-rotation, creating space through frames and hip movement, and extracting the leg to recover guard position. The technique prioritizes safe disengagement over speed."
@@ -284,14 +284,14 @@
       {
         "action": "Drive hips forward and increase rotational pressure to re-consolidate Estima Lock control before extraction progresses",
         "when_to_use": "Early phase when opponent has just begun counter-rotating their ankle and establishing frames but has not yet hip escaped",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Opponent's escape resets completely, you maintain full submission threat with consolidated grip and hip pressure",
         "risk": "Over-committing forward pressure without grip security can allow opponent to use your momentum for sweep or accelerated extraction"
       },
       {
         "action": "Follow opponent's hip escape by adjusting your body angle and maintaining pressure vector on the trapped leg",
         "when_to_use": "Mid phase when opponent has begun hip escaping and creating angular separation but has not yet retracted their knee",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Neutralizes the space created by hip escape, maintains submission angle despite positional adjustment",
         "risk": "Following too aggressively without maintaining base can expose you to butterfly hook elevation or rolling back take"
       },
@@ -305,14 +305,14 @@
       {
         "action": "Control opponent's free leg by trapping it with your legs or pinning it with body weight to eliminate their primary escape lever",
         "when_to_use": "Any phase when opponent's free leg becomes active and begins creating push-off leverage against your hips or body",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Removes opponent's most important escape tool, dramatically reducing extraction success probability and buying time to finish",
         "risk": "Diverting attention to free leg control may loosen primary grip on trapped foot if not executed with proper body positioning"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Estima Lock/Bottom",
+        "outcome": "Estima Lock Control/Bottom",
         "how": "Re-consolidate grip and hip pressure during early escape phases by driving forward, adjusting forearm placement across the top of the foot, and following the opponent's hip movement to maintain your submission angle. Address their counter-rotation by increasing rotational pressure and pinning their free leg when possible."
       },
       {
@@ -342,7 +342,7 @@
         "correction": "Recognize when extraction has progressed past the point of Estima Lock viability and transition smoothly to alternative attacks like toe hold or saddle entry rather than forcing a failing submission."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the sequential stages of Leg Extraction that you should learn to recognize as the Estima Lock holder?",
         "answer": "The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence."

@@ -85,7 +85,7 @@ Successful execution requires combining grip fighting to address the near-arm co
 
 - **Assess Control Configuration**: From defensive turtle, identify the rider's primary control points: which arm they control, where th...
 
-- **Initiate Grip Fighting on Near Arm**: Begin actively fighting the near-arm control by pulling your trapped arm toward your body and using ...
+- **Initiate Grips on Near Arm**: Begin actively fighting the near-arm control by pulling your trapped arm toward your body and using ...
 
 - **Create Hip Space**: Execute a small hip escape away from the rider's pressure direction, creating a gap between your hip...
 
@@ -206,7 +206,7 @@ The Escape from Rodeo Ride sits at a critical junction in the turtle defense sys
 
 - [[Positions/Crab Ride]] - Related turtle attack position sharing similar escape mechanics and principles
 
-- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates escape urgency
+- [[Transitions/Clock Choke]] - Submission threat from Rodeo Ride top that motivates escape urgency
 
 - [[Positions/Half Guard]] - Alternative escape target via sit-back guard recovery variant
 

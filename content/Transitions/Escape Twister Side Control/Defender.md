@@ -156,6 +156,8 @@ The most effective defensive strategy combines active maintenance of leg entangl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Twister Side Control?</p>
+
 - Bottom player's hands move to grab their own knee or thigh, indicating spine protection and the beginning of an escape sequence
 - Bottom player begins building frames against your shoulder or hip with bent elbows, attempting to create structural barriers
 - Bottom player's hips begin extending or circling against your leg hook, indicating leg extraction attempt
@@ -168,6 +170,8 @@ The most effective defensive strategy combines active maintenance of leg entangl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Twister Side Control?</p>
 
 - Maintain active leg entanglement by constantly adjusting hook depth and squeeze pressure
 - Drive shoulder pressure to collapse frames as they are created rather than allowing them to solidify
@@ -182,6 +186,8 @@ The most effective defensive strategy combines active maintenance of leg entangl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Twister Side Control?</p>
 
 ### 1. Retighten leg entanglement by driving knee deeper behind opponent's knee and actively squeezing with both legs
 
@@ -219,6 +225,8 @@ The most effective defensive strategy combines active maintenance of leg entangl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Twister Side Control?</p>
+
 ### → [[Positions/Twister Control/Twister Side Control]]
 
 Maintain active control by constantly adjusting leg entanglement and shoulder pressure to counter each stage of the escape sequence. Attack submissions whenever the bottom player diverts defensive resources toward escape, forcing them to constantly reset their progress.
@@ -234,6 +242,8 @@ Recognize when the bottom player exposes their back during the turning phase of 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Twister Side Control?</p>
 
 ### 1. Remaining static in control position without actively countering escape attempts
 
@@ -263,6 +273,8 @@ Recognize when the bottom player exposes their back during the turning phase of 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Twister Side Control?</p>
+
 **Phase 1: Control Maintenance** - Maintaining twister side control against progressive escape attempts
 Partner works through the escape hierarchy at 50% intensity. Top player practices recognizing each escape stage and applying appropriate counter-pressure. Build sensitivity to frame creation, leg extraction attempts, and turning movements.
 
@@ -279,26 +291,6 @@ Full-speed positional sparring from twister side control. Top player uses all av
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the key recognition cues that indicate the bottom player has begun a trained escape sequence?
-**A**: The primary cues are: hands moving to grab their own knee or thigh indicating spine protection initiation, deliberate frame building with bent elbows against your shoulder or hip, controlled hip extension against your leg hook, and the body turning toward your legs rather than away. Trained escape attempts are characterized by calm sequential movements rather than panicked explosive efforts, and recognizing this early allows targeted counter-pressure.
-
-**Q2**: When should you transition from maintaining twister side control to taking the back?
-**A**: Transition to back control when the bottom player exposes their back during the turning phase of their escape—specifically when they turn toward your legs and begin the transition to turtle. This is most available when their frame contact breaks momentarily or when they turn faster than their frames can manage. Follow their hip movement closely and insert hooks before they can establish tight turtle defense.
-
-**Q3**: How do you create offensive dilemmas that prevent the bottom player from completing their escape sequence?
-**A**: Structure your attacks so each defensive priority the bottom player addresses opens a different threat. When they remove hands from spine protection to build frames, threaten the twister submission. When they focus on protecting their spine, drive shoulder pressure to prevent frame creation. When they begin leg extraction, threaten submissions on the exposed arm. This forces constant resetting of their escape progress.
-
-**Q4**: Your opponent begins a rolling escape by using your forward pressure against you—how should you respond?
-**A**: Immediately widen your base by posting your outside leg and shifting weight distribution away from the over-committed forward position. If the roll has already begun, maintain your seatbelt or shoulder control and follow the roll, using their momentum to transition directly to back control rather than fighting the rotation. Prevention is ideal—maintain balanced weight distribution to eliminate the rolling escape opportunity entirely.
-
-
-
-</section>
 
 
 </main>

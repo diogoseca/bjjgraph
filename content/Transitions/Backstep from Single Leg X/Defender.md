@@ -154,6 +154,8 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Single Leg X?</p>
+
 - Top player begins stripping your sleeve grips and upper body connections with unusual urgency, clearing their rotation path
 - Top player shifts weight predominantly onto their free posted leg while their trapped leg becomes lighter and more mobile
 - Top player's free hand reaches down to control your hip hook foot or top ankle, indicating they plan to neutralize your tracking ability
@@ -166,6 +168,8 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Single Leg X?</p>
 
 - Recognize the weight shift to the free leg and grip stripping that precede the backstep initiation so you can respond before the rotation begins
 - Maintain active hooks that follow the top player's rotation rather than holding static position, particularly chasing with the hip hook
@@ -180,6 +184,8 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Single Leg X?</p>
 
 ### 1. Chase the rotation with active hip hook by following the top player's movement with your foot and re-hooking their hip on the far side
 
@@ -217,6 +223,8 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Single Leg X?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Retain guard by chasing the rotation with active hooks. The moment you detect the backstep initiation through the weight shift to the free leg, aggressively drive your hip hook to follow their rotation. Maintain tight inside hook tension on the ankle to prevent rotational clearance. Keep at least one sleeve or wrist grip to limit their rotation freedom. If your hip hook re-catches their hip on the far side of the rotation, you have successfully retained SLX.
@@ -232,6 +240,8 @@ Counter the pass by exploiting the mid-rotation vulnerability window. When the t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Single Leg X?</p>
 
 ### 1. Holding hooks in rigid static position instead of actively following the top player's rotational movement
 
@@ -266,6 +276,8 @@ Counter the pass by exploiting the mid-rotation vulnerability window. When the t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Single Leg X?</p>
+
 **Phase 1: Recognition Drilling** - Identifying backstep setup cues under live conditions
 Partner alternates between backstep attempts and other passing methods from SLX top. Your only task is to verbally call out when a backstep is being initiated based on the recognition cues. No physical defense needed, just pattern recognition development. Track accuracy percentage over 20 repetitions.
 
@@ -282,26 +294,6 @@ Positional sparring starting from SLX where partner's primary goal is to complet
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a backstep from SLX is being initiated?
-**A**: The earliest cues are the top player stripping your upper body grips with urgency, shifting their weight predominantly to the free posted leg so the trapped leg feels lighter, and their free hand reaching down to control or strip your hip hook. These preparatory actions precede the actual rotation by one to two seconds and provide the critical window for pre-emptive defense. Reacting to the rotation itself is usually too late.
-
-**Q2**: Why is chasing with the hip hook more effective than holding a static hook position against the backstep?
-**A**: The backstep works by rotating past the plane of your hooks' mechanical advantage. A static hook loses contact as the top player's hip rotates beyond its engagement angle. A chasing hip hook follows the rotation and re-engages on the far side of their hip, maintaining the SLX configuration despite the rotational attempt. The dynamic hook tracks movement rather than relying on a fixed angle that the rotation is specifically designed to defeat.
-
-**Q3**: At what point during the backstep rotation is the top player most vulnerable to a counter-attack?
-**A**: The top player is most vulnerable at approximately 90 degrees of rotation when their weight is transitioning between the posted free leg and the stepping leg. At this midpoint, they have committed to the rotation but have not yet landed in side control, their base is split between two positions, and their back is partially turned. This is the optimal window for bridges, sweeps, or leg entanglement entries because the top player cannot effectively defend from this unstable transitional position.
-
-**Q4**: Your hip hook has been stripped and the top player begins rotating - what is your best remaining defensive option?
-**A**: With the hip hook stripped, your best remaining defense is to maximize inside hook tension on their ankle while simultaneously threading your free leg toward an ashi garami entry on their rotating leg. The inside hook alone can slow the rotation enough to create time, and their commitment to rotating actually exposes their leg to entanglement. If the ashi entry is not available, use the inside hook tension to pull yourself toward them and insert a knee to recover half guard before they can consolidate side control.
-
-
-
-</section>
 
 
 </main>

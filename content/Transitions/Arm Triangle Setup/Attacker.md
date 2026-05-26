@@ -192,6 +192,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Triangle Setup?</p>
+
 - Maintain chest pressure throughout the entire setup to prevent the opponent from creating space or establishing defensive frames
 - Isolate the near-side arm by driving it across the opponent's centerline using shoulder pressure before threading the choking arm
 - Walk hips toward the side control position progressively as the arm configuration develops rather than jumping to side mount
@@ -206,6 +208,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Triangle Setup?</p>
+
 - Established North-South control with consistent chest pressure across the opponent's upper torso and head
 - Opponent's near-side arm is accessible and not tucked tight to their body or defending the far side
 - Top player has a stable base with wide knee positioning to prevent disruption during the transition
@@ -218,6 +222,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Triangle Setup step by step?</p>
 
 1. **Secure near-side arm**: From established North-South control, use your near-side arm to underhook the opponent's near-side arm at the elbow. Drive their arm across their own centerline using shoulder pressure combined with the underhook, pinning it against the side of their neck.
 2. **Thread the choking arm**: Slide your choking-side arm deep under the opponent's neck, threading it past the jawline to the far side. Your bicep should contact one side of their neck while their own trapped arm provides compression on the other side. Ensure the arm penetrates deep enough that your hand clears their far shoulder.
@@ -247,6 +253,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Triangle Setup?</p>
+
 - **Opponent tucks near-side arm tight to their body to prevent arm isolation across the neck** (Effectiveness: High) - Your Response: Use your knee or hip to bump their elbow outward while simultaneously increasing chest pressure to flatten them. Alternatively, switch to a kimura attack on the same arm, which forces them to extend the arm and reopens the arm triangle setup → Leads to [[Positions/North-South]]
 - **Opponent bridges and turns away during the hip walk phase to create space and prevent side control transition** (Effectiveness: Medium) - Your Response: Follow their turn by continuing to walk your hips in the same direction, maintaining the head-and-arm grip throughout. Their turn often helps tighten the arm triangle configuration as they move into the choke rather than away from it → Leads to [[Positions/North-South]]
 - **Opponent frames with far-side arm against your hip to prevent the hip walk and create distance** (Effectiveness: Medium) - Your Response: Swim your free arm inside their frame to neutralize it, or use your knee to pin their wrist to the mat. The frame is weaker when your weight is properly distributed through your chest rather than sitting up → Leads to [[Positions/North-South]]
@@ -258,6 +266,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Triangle Setup?</p>
 
 ### 1. Lifting chest to thread the arm under the neck, creating space
 
@@ -297,6 +307,8 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Triangle Setup (Attacker)?</p>
+
 **Week 1-2** - Arm isolation mechanics
 Practice the near-side arm isolation and threading from static North-South. Partner remains passive while you drill the underhook-to-arm-thread sequence, focusing on maintaining chest pressure throughout. Repeat 20 reps per side, emphasizing the depth of the arm thread past the far shoulder.
 
@@ -314,54 +326,12 @@ Begin from established North-South control in positional sparring rounds. Full r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Arm Triangle Setup from North-South?
-**A**: The primary goal is to isolate the opponent's near-side arm across their own neck and thread your choking arm underneath to create the head-and-arm compression configuration. This setup transitions from the pinning control of North-South to an active submission threat by walking the hips to side control where the arm triangle finish is mechanically strongest.
-
-**Q2**: What grip configuration must be established before beginning the hip walk to side control?
-**A**: You must secure a palm-to-palm grip, Gable grip, or bicep-clasp figure-four with your arms locked around the opponent's neck and trapped arm. The choking arm must be threaded deep enough that your hand clears their far shoulder. This locked configuration prevents the opponent from extracting their arm during the positional transition and maintains the compression geometry needed for the finish.
-
-**Q3**: Your opponent tucks their near-side elbow tight against their body—how do you create the opening for the arm triangle?
-**A**: Use your knee or hip to bump their elbow outward, creating separation between the arm and their torso. Alternatively, threaten a kimura attack on the same arm, which forces them to straighten or extend it defensively. Once the arm moves away from their body, immediately secure the underhook and drive it across their centerline before they can retract it.
-
-**Q4**: What is the most critical hip movement during the transition from North-South to the arm triangle finishing position?
-**A**: The hip walk must be performed in small, incremental steps while maintaining constant chest contact with the opponent. Walking the hips too quickly or jumping to side control creates a gap between your torso and theirs, allowing guard recovery or arm extraction. Each step should transfer weight progressively to the choking-side shoulder while keeping the hips low and sprawled.
-
-**Q5**: Why does the arm triangle finish require a side control angle rather than the perpendicular North-South angle?
-**A**: The side control angle positions your shoulder directly into the opponent's jaw and neck, creating the downward compression needed for the choke. In North-South, the angle of pressure is across the chest rather than into the neck, which pins but does not create bilateral carotid compression. The side angle also allows you to drop your ear to the mat and use your body weight as the primary squeezing force through the shoulder.
-
-**Q6**: Your opponent bridges and turns away as you begin walking your hips—how do you adjust?
-**A**: Continue walking your hips in the same direction, following their turn rather than fighting it. Their turning motion often tightens the arm triangle because they rotate their trapped arm deeper into the choke configuration. Maintain your head-and-arm grip throughout and allow their movement to assist your transition to side control. Their turn effectively does part of the work for you.
-
-**Q7**: What are the key indicators that your arm thread is deep enough before committing to the grip lock?
-**A**: Your hand should clearly pass the opponent's far shoulder, and you should feel your bicep making contact with one side of their neck. If your hand is still over the center of their chest or has not cleared the shoulder line, the thread is too shallow and the opponent will be able to extract their arm during the transition. Additionally, you should feel the opponent's trapped arm pressed firmly against the opposite side of their neck.
-
-**Q8**: How does the Arm Triangle Setup integrate with other North-South attacks to create a submission chain?
-**A**: The arm triangle setup creates a forcing function when combined with the kimura and North-South choke. If the opponent defends the kimura by straightening their arm, it opens the arm triangle. If they tuck their arm to prevent the arm triangle, the North-South choke becomes available as the neck is exposed. Defending the North-South choke by turning creates the arm isolation needed for the arm triangle. Each defense opens a different attack, creating a dilemma-based submission chain.
-
-**Q9**: What direction of force should you apply with your shoulder during the finishing squeeze?
-**A**: Drive your choking-side shoulder forward and downward into the opponent's jaw and neck, angling toward the mat on the far side of their head. The force direction should be diagonal—not straight down—to maximize the compression between your bicep on one carotid and their own shoulder on the other. Simultaneously squeeze your elbows together to tighten the circumference of the choke.
-
-**Q10**: Your opponent gets a half guard hook as you walk your hips to side control—what do you do?
-**A**: Maintain the arm triangle grip and sprawl your hips heavy to prevent them from developing the half guard further. Use your free leg to pummel past their hook by circling it outward and then driving the knee past their hooking leg. Do not abandon the arm triangle configuration—the grip remains viable even through the half guard recovery attempt. If you cannot free the leg, you can still finish the arm triangle from modified half guard top by increasing shoulder pressure.
-
-**Q11**: What specific chest pressure angle is required during the arm thread to avoid creating exploitable space?
-**A**: Your chest must remain angled slightly toward the arm-threading side rather than centered directly over the opponent's sternum. This diagonal pressure pins their near-side shoulder to the mat while your weight shifts naturally in the direction of the thread. If you center your weight or angle away from the threading side, you create a gap on the near side that the opponent exploits with a bridge or frame. The pressure vector should follow the path of the arm thread itself.
-
-**Q12**: The arm triangle setup stalls because the opponent defends every entry from North-South—what chain attack sequence do you use?
-**A**: Threaten the North-South choke first by controlling the far arm and sliding your near arm toward their neck. When they defend the choke by turning their head and bringing their arms up, switch immediately to the kimura on the exposed near-side arm. As they defend the kimura by straightening and retracting the arm toward their body, use that arm retraction momentum to drive the arm across their neck and enter the arm triangle setup. The key is never pausing between threats—each failed attack should flow directly into the next without resettling into static North-South control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Triangle Setup?</p>
 
 The arm triangle involves bilateral compression of the carotid arteries, which can cause loss of consciousness rapidly if applied with full force. During training, always apply the squeeze gradually and release immediately upon receiving a tap. Training partners should tap early when they feel the blood restriction rather than waiting for visual symptoms. Avoid cranking the neck during the setup—the submission should come from shoulder-to-neck compression, not neck twisting. Practitioners with neck injuries or cervical spine issues should inform their training partners before drilling this technique. When drilling the setup without the finish, still respect the arm position to prevent shoulder strain from the trapped arm being forced into an uncomfortable angle.
 

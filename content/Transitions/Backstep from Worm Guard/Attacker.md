@@ -188,6 +188,8 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from Worm Guard?</p>
+
 - Step in the direction that creates lapel slack—move away from the tension line rather than against it, exploiting the one-way nature of the wrap
 - Maintain upper body control throughout the backstep to anchor the bottom player's torso and prevent hip chasing that would re-establish lapel tension
 - Commit fully to the rotation; half-measures leave you stuck mid-turn with your back partially exposed and no passing advantage gained
@@ -202,6 +204,8 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from Worm Guard?</p>
+
 - Opponent has fully established worm guard with lapel wrapped around your lead leg creating tension-based control
 - You are in standing position or elevated combat base with sufficient hip mobility to complete the full backstep arc
 - At least one controlling grip on the opponent's upper body—collar, far shoulder, or belt—to anchor their torso during rotation
@@ -214,6 +218,8 @@ As the top player executing the backstep from worm guard, your primary objective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from Worm Guard step by step?</p>
 
 1. **Establish upper body anchor**: Secure a firm grip on the bottom player's far-side collar or far shoulder with your free hand. This grip serves as your rotational anchor that pins their upper body in place while your lower body executes the backstep. Without this anchor, the bottom player can chase your hip rotation and maintain the lapel tension line throughout your movement.
 2. **Block the far hip**: Place your near-side hand firmly against the bottom player's far hip, pressing it to the mat to prevent rotation. This hip block is the critical control that stops the bottom player from following your backstep with their own hip adjustment. If their hips can track your movement, the lapel tension is maintained and the backstep fails before it begins.
@@ -244,6 +250,8 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from Worm Guard?</p>
+
 - **Bottom player chases your hip rotation with their own hip adjustment, maintaining lapel tension throughout the backstep** (Effectiveness: High) - Your Response: Increase pressure on the far hip block to pin their hips to the mat. If they continue tracking, pause the backstep, re-establish your base, and consider switching to a direct lapel strip or alternative passing approach. → Leads to [[Positions/Worm Guard]]
 - **Bottom player releases worm guard grips and immediately shoots for a back take as you rotate and expose your back during the backstep** (Effectiveness: Medium) - Your Response: Keep your elbow tight to your body and maintain collar grip throughout the rotation. If you feel them climbing your back, immediately sit back into them to flatten them and deny hooks. Abort the pass if back exposure becomes critical. → Leads to [[Positions/Back Control]]
 - **Bottom player inserts a knee shield or frames during the backstep transition before you can settle into side control** (Effectiveness: Medium) - Your Response: Drive immediate pressure through the knee shield using a smash passing approach. Alternatively, switch to a knee slice or leg weave to address the newly inserted frames rather than trying to force through them. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the top player executing the backstep from worm guard, your primary objective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from Worm Guard?</p>
 
 ### 1. Initiating the backstep without establishing upper body control first
 
@@ -289,6 +299,8 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from Worm Guard (Attacker)?</p>
+
 **Phase 1: Movement Pattern** - Solo backstep arc mechanics
 Practice the backstep movement pattern without a partner. Focus on weight transfer, arc size, and finishing position. Drill stepping one leg in a wide arc behind an imaginary opponent while maintaining balance on the standing leg. Perform 20 repetitions per side to develop muscle memory for the rotational path.
 
@@ -306,36 +318,12 @@ Positional sparring from worm guard with full resistance. Top player must choose
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does the backstep exploit a directional weakness in the worm guard lapel wrap?
-**A**: The worm guard lapel wrap creates a one-directional control mechanism that resists forward leg extraction but cannot maintain tension when the leg moves backward. The wrap follows a specific path around the leg that locks against forward movement but creates slack when the leg moves in the opposite direction. The backstep exploits this asymmetry by moving the trapped leg in the direction the wrap cannot follow, causing the lapel to loosen naturally during the rotation.
-
-**Q2**: What is the most critical grip you must establish before initiating the backstep?
-**A**: The upper body anchor grip on the bottom player's far-side collar or far shoulder is the most critical prerequisite. This grip pins the bottom player's torso in place and prevents them from chasing your hip rotation with their own hip adjustment. Without this anchor, the bottom player simply rotates their hips to match your backstep angle, maintaining the lapel tension line throughout your movement and nullifying the entire pass attempt.
-
-**Q3**: Your opponent begins chasing your hip rotation during the backstep—how do you respond?
-**A**: Increase downward pressure on the far hip block with your near hand to pin their hips to the mat and prevent further rotation. If they continue tracking despite the hip block, pause the backstep and re-evaluate. Consider switching to a direct lapel strip approach while you still have the collar grip established, or reset your base and attempt the backstep with improved timing when their attention is divided by a different threat.
-
-**Q4**: What determines whether you should attempt a backstep versus a direct lapel strip against worm guard?
-**A**: The backstep is the better choice when the bottom player's grip fighting effectively defends direct lapel stripping attempts—when they have strong hand control and can re-feed the lapel as fast as you strip it. The direct lapel strip is preferable when you can isolate their grips and methodically break the lapel connection without exposing your back. The backstep carries more risk of back exposure but bypasses strong grip fighters entirely by changing the passing angle.
-
-**Q5**: Why is it critical to establish side control immediately after clearing the lapel?
-**A**: Any delay between clearing the lapel and establishing chest-to-chest pressure gives the bottom player a window to insert frames, re-feed the lapel, insert a knee for half guard, or transition to a different guard system. A competent guard player needs less than one second to establish defensive structures that prevent the pass from completing. The lapel clearance and side control settlement must be treated as a single continuous motion to prevent guard recovery.
-
-**Q6**: You feel the bottom player releasing their lapel grip and grabbing your far hip during the backstep—what does this indicate and how should you respond?
-**A**: This indicates the bottom player is abandoning worm guard retention and transitioning to a back take attempt, using your exposed back during the rotation as the entry point. Immediately tighten your elbows to your body to deny underhook access, maintain your collar grip as an anchor, and consider sitting back into them to flatten their back take attempt. If back exposure is severe, abort the pass entirely and face them to reset rather than completing the rotation into a worse position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from Worm Guard?</p>
 
 The backstep from worm guard carries minimal direct injury risk as a positional passing technique. However, the rotational movement can strain the knee of the trapped leg if the lapel wrap is extremely tight and the passer forces the backstep against maximum tension. Always ensure adequate lapel slack is developing before committing full rotational force to the backstep arc. Partners should release lapel grips immediately if the passer's knee shows signs of being torqued beyond natural range of motion during the rotation. In training, establish clear communication about resistance levels before drilling.
 

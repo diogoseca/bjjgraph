@@ -154,6 +154,8 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Z-Lock Half Guard?</p>
+
 - Sudden decrease in butterfly hook elevation pressure against your free leg, indicating the outside leg is beginning to disengage
 - Bottom player's frames become more active on your shoulder and hip, establishing the defensive structure needed before leg reconfiguration
 - Hip escape motion by the bottom player creating space between your hips, often accompanied by a bridge or shrimp movement
@@ -166,6 +168,8 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Z-Lock Half Guard?</p>
 
 - Maintain constant forward pressure through crossface and shoulder drive to make the escape as difficult as possible and narrow the bottom player's options
 - Recognize the escape attempt early through tactile cues—changes in leg tension and hip movement signal the beginning of reconfiguration
@@ -180,6 +184,8 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Z-Lock Half Guard?</p>
 
 ### 1. Drive crossface and increase shoulder pressure immediately upon feeling butterfly hook tension decrease
 
@@ -217,6 +223,8 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Z-Lock Half Guard?</p>
+
 ### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Recognize the escape attempt early through decreasing butterfly hook tension and immediately increase crossface and shoulder pressure before the reconfiguration progresses. Control their inside arm to prevent frame establishment. The bottom player is forced to abandon the escape attempt and remains in the deteriorating Z-Lock where your passing pressure continues.
@@ -232,6 +240,8 @@ Allow the escape to progress to the point where leg controls are partially relea
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Z-Lock Half Guard?</p>
 
 ### 1. Failing to recognize the escape attempt and allowing the bottom player to complete the transition unopposed
 
@@ -261,6 +271,8 @@ Allow the escape to progress to the point where leg controls are partially relea
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Z-Lock Half Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying escape attempts
 Partner announces when they will begin the escape attempt from Z-Lock bottom. Top player practices feeling the tactile cues (butterfly hook release, frame changes, hip movement) and verbalizing what they notice. Build pattern recognition through 20+ repetitions before adding any defensive responses.
 
@@ -277,26 +289,6 @@ Open positional sparring from Z-Lock Half Guard Top. Top player integrates escap
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that tells you the bottom player is beginning to escape their Z-Lock configuration?
-**A**: The earliest cue is a decrease in butterfly hook elevation pressure on your free leg. The butterfly hook is typically the first control released during the escape because the bottom player needs that leg repositioned first. You may also feel a subtle shift in their hip angle as they prepare to shrimp, and increased forearm frame pressure on your shoulder as they establish defensive insurance. Recognizing these early cues gives you a one to two second window to react before the escape progresses to the point of no return.
-
-**Q2**: The bottom player has successfully released their butterfly hook but still has lockdown on your leg—what is your optimal response?
-**A**: This is the critical transition window. Drive your free knee forward immediately through the space where the butterfly hook was, aiming to slice across their hip before they can establish a knee shield or close standard half guard. Simultaneously increase crossface pressure to prevent them from shrimping away. The lockdown will slow but not stop your knee advancement. If you can get your knee past their hip line before they release the lockdown, you achieve a dominant passing position regardless of what they do with their lockdown leg afterward.
-
-**Q3**: How should you adjust your strategy if the bottom player successfully recovers standard Half Guard with an underhook?
-**A**: If the escape succeeds and they establish standard half guard with underhook, do not waste energy trying to force them back into Z-Lock. Instead, immediately pivot to your standard half guard passing game. Contest the underhook with a whizzer or crossface, establish heavy hip pressure on their trapped leg, and begin your primary passing sequence (knee slice, smash pass, or backstep). The bottom player has changed the game—recognize the new position and apply the correct strategy rather than lamenting the lost Z-Lock control.
-
-**Q4**: Why is methodical advancement more effective than explosive reactions when the bottom player begins escaping?
-**A**: Explosive reactions during positional transitions often cause the top player to lose base, overcommit weight, and create the exact scramble opportunities the bottom player needs. A methodical advance maintains constant pressure, preserves your base against sweep counters, and systematically closes the transition window the bottom player is trying to exploit. The bottom player is already in a vulnerable state during reconfiguration—you do not need to take risks when controlled pressure advancement achieves the same result with far less danger of reversal.
-
-
-
-</section>
 
 
 </main>

@@ -184,6 +184,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Double Leg Entry?</p>
+
 - Level change must precede forward penetration to avoid telegraphing the attack
 - The penetration step drives deep between opponent's legs to compromise their base
 - Head position on the centerline or outside creates structural control and prevents guillotine exposure
@@ -199,6 +201,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Double Leg Entry?</p>
+
 - Establish a neutral standing position with squared stance and balanced weight distribution
 - Maintain upright posture to disguise the level change until the moment of execution
 - Control distance management to position yourself within penetration range without alerting opponent
@@ -213,6 +217,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Double Leg Entry step by step?</p>
 
 1. **Create Setup Opportunity**: Engage in hand fighting or grip exchanges to occupy opponent's attention and hands. Use feints, pushes, or circular movement to create a momentary lapse in defensive awareness. The goal is to disguise the impending level change by keeping opponent's focus on upper body exchanges rather than preparing for low attacks.
 2. **Execute Level Change**: Drop your hips explosively by bending at the knees and waist while maintaining a straight back. Your head should remain up with eyes on opponent's chest or hips. The level change should be sudden and commit fully - hesitant or gradual dropping telegraphs the attack and allows opponent to sprawl or withdraw. Bring your arms into position with elbows tight to body.
@@ -241,6 +247,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Double Leg Entry?</p>
+
 - **Sprawl Defense - opponent drives hips back and down while pushing head to mat** (Effectiveness: High) - Your Response: Maintain head position and hand control, switch to single leg finish or transition to front headlock position if sprawl is successful. Can also circle out and re-attack or convert to ankle pick. → Leads to [[Positions/Standing Position]]
 - **Guillotine Choke - opponent secures front headlock grip during entry** (Effectiveness: High) - Your Response: Keep head position high and outside, complete the takedown rapidly before guillotine can be locked in, or immediately abandon attack and defend guillotine if head gets trapped low and inside. → Leads to [[Positions/Closed Guard]]
 - **Wizard/Whizzer Overhook - opponent secures deep overhook on attacking arm** (Effectiveness: Medium) - Your Response: Continue driving forward with one-armed finish, or switch to high crotch position using the trapped arm as a post. Can also step around to opponent's back using the whizzer as a pivot point. → Leads to [[Positions/Standing Position]]
@@ -253,6 +261,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Double Leg Entry?</p>
 
 ### 1. Dropping head below opponent's hips during entry
 
@@ -297,6 +307,8 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Double Leg Entry (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Level change, penetration step, and head position without resistance
 Practice the level change and penetration step repeatedly from standing position without a partner. Focus on explosive dropping motion with straight back and proper foot placement. Partner drills with stationary opponent allowing you to execute entry slowly, checking each detail: level change depth, penetration step length, head position, and hand placement. No resistance - purely technical repetition to build muscle memory.
 
@@ -320,54 +332,12 @@ Continue refining entry mechanics for specific opponent types (taller, shorter, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct sequence for double leg entry execution?
-**A**: The correct sequence is: 1) Create setup opportunity through grip fighting or feints, 2) Execute explosive level change by dropping hips with straight back, 3) Drive forward with deep penetration step between opponent's legs, 4) Establish head position on centerline or outside while driving into opponent's midsection, 5) Secure both legs with arms wrapped behind knees/thighs and hands connected, 6) Maintain continuous forward drive to complete entry position. This sequence must flow as one continuous motion with each element triggering the next.
-
-**Q2**: Why is proper head position critical during double leg entry?
-**A**: Head position serves three essential functions: First, keeping the head up with forehead driving into opponent's midsection prevents guillotine choke opportunities which occur when the head drops below the opponent's hips. Second, proper head position provides structural drive and leverage to control opponent's upper body and maintain forward pressure. Third, positioning the head on centerline or outside creates angles that make defensive sprawling less effective. Head position is often the difference between successful entry and defensive submission.
-
-**Q3**: How should you respond if opponent successfully sprawls during your double leg entry?
-**A**: If opponent achieves a strong sprawl position, you have several response options depending on what control you maintained: 1) If you still have leg control, continue driving forward and circle to opponent's side to recover position, 2) If head position is good but legs are withdrawn, transition to front headlock control and look for snap down or go-behind, 3) If one leg is still available, convert to single leg finish, 4) If opponent has superior position, abandon the attack and work to return to neutral standing position or establish defensive guard. The key is recognizing early when the entry has failed and transitioning rather than committing to a lost position.
-
-**Q4**: What setup or timing creates the highest percentage double leg entry opportunity?
-**A**: The highest percentage opportunity typically occurs when opponent is pressuring forward or has committed their weight forward in response to upper body attacks, grip breaks, or feints. This forward commitment compromises their ability to sprawl effectively because their weight is already moving in the direction of your attack. Other high-percentage moments include: immediately after opponent releases a grip and their hands are out of position, when opponent is circling toward your penetration side, after a collar tie snap that draws them forward, or when opponent is fatigued and maintaining less defensive vigilance. The common thread is attacking when opponent's defensive structure is temporarily compromised.
-
-**Q5**: What is the most common error that leads to guillotine exposure during double leg entries?
-**A**: The most common error is dropping the head below the opponent's hips during the level change or penetration phase, combined with reaching for legs before establishing proper position. This creates a bent-over posture with the neck extended and exposed, allowing opponent to easily secure a front headlock grip and lock in the guillotine. The correction is to maintain head position up with eyes on opponent's chest/hips, drive the forehead into their midsection, and ensure the level change and penetration occur before the arms reach for leg control. The head should be the first point of contact and should remain above or at the height of the opponent's hips throughout the entry.
-
-**Q6**: How does penetration step depth affect the success of a double leg entry?
-**A**: Penetration step depth is critical because it determines how much you compromise opponent's base and structure. A deep penetration step that places your lead knee between or beyond opponent's feet accomplishes several things: 1) Removes space for them to sprawl their hips backward, 2) Forces their weight onto their heels where they have poor balance, 3) Positions your hips close to theirs for maximum drive, 4) Makes it mechanically difficult for them to withdraw legs from your grip. Shallow penetration leaves space for effective sprawl defense, allows opponent to maintain balance and base, and requires you to reach for legs rather than securing them from proper position. The penetration step must be long, low, and committed - half-measures result in defensive positions.
-
-**Q7**: Your opponent posts their hand on your shoulder as you shoot - how do you adjust?
-**A**: When opponent posts a hand on your shoulder during the shot, you must drive through the post rather than stopping. Lower your level further if needed and continue driving forward with maximum hip pressure. Your forehead should be making solid contact with their midsection, providing counter-pressure to their post. You can also swim your near arm inside their posting arm to clear it, or use the angle created by their post to step around to their back side. The critical error is stopping your forward momentum when you feel the post - this allows them to establish the frame and either sprawl or threaten guillotine. Maintain aggressive forward drive and the post typically collapses.
-
-**Q8**: What grip configuration provides optimal control when securing the legs during double leg entry?
-**A**: The optimal grip is a gable grip (palm-to-palm, fingers interlocked or cupped) behind opponent's knees or lower thighs. This grip provides maximum pulling power while keeping your arms tight against their legs, preventing them from stepping out. Your arms should wrap completely around both legs with elbows pinched tight to your body. Avoid gripping too high on the thighs where their legs have more leverage to escape, and avoid gripping too low near ankles where you lose upper body control. The grip should pull their legs toward your chest while your head and chest maintain forward pressure. Alternative grips include S-grip or butterfly grip, but gable grip generally provides the most secure connection.
-
-**Q9**: How do you chain from a blocked double leg entry to a single leg attack?
-**A**: When the double leg is blocked and you can only secure one leg, immediately commit to single leg mechanics rather than forcing the double. Release the leg you cannot control and redirect that arm to secure the captured leg more tightly. Your head position shifts to the outside of the captured leg (same side as the leg you're holding). Step your far leg up and behind you to create an angle. From here, you can finish with a variety of single leg finishes: run the pipe by circling toward opponent's back, lift and trip, or drive through to a mat return. The key is recognizing the moment when the double leg becomes a single leg and transitioning immediately rather than continuing to fight for the second leg.
-
-**Q10**: What is the primary direction of force application during the double leg entry?
-**A**: The primary direction of force is forward and slightly upward through your chest and head into opponent's center mass. Your hips drive forward and down during the penetration step, but the resultant force vector points diagonally forward-up through their midsection. This force direction lifts their weight off their heels and prevents effective sprawling. Common errors include driving only forward (allows them to base out) or driving only up (allows them to maintain their base and push down on you). The forward-upward pressure compromises their balance while your leg grip removes their ability to post or step out. Secondary forces include the pulling action of your arms drawing their legs toward your chest, which combines with the forward drive to complete the destabilization.
-
-**Q11**: Your opponent begins circling away as you initiate the entry - how do you adapt?
-**A**: When opponent circles away during your entry, you must angle your penetration step to cut off their movement rather than shooting straight forward. Adjust your lead foot placement to intercept their path of retreat, essentially shooting toward where they're moving rather than where they were. Your head position should go to the inside (toward their center) as you chase their movement. If they circle to your penetration side, this actually improves your angle - continue driving and your head naturally ends up outside their hip. If they circle away from your penetration side, you may need to switch your penetration leg mid-entry or convert to a single leg on the near leg. The key principle is that your penetration step must account for their movement vector, not just their current position.
-
-**Q12**: What are the entry requirements that must exist before attempting a double leg?
-**A**: Several conditions should be present for high-percentage double leg entry: 1) You must be within proper range - close enough that one explosive step reaches between their feet, but not so close you telegraph the attack, 2) Opponent's weight should be neutral or forward, not sitting back on their heels ready to sprawl, 3) Their hands should be occupied or out of position, not actively framing your shoulders or head, 4) You need a clear path for your penetration step without their knee blocking the lane, 5) Your own balance and stance must allow for explosive level change without telegraphing, 6) Ideally, you've created some reaction or movement that momentarily disrupts their defensive posture. When multiple conditions align, the entry percentage increases dramatically. Attempting the entry when conditions are poor leads to sprawls and guillotines.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Double Leg Entry?</p>
 
 Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical.
 

@@ -34,7 +34,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Knee shield creates distance management system controlling spatial relationship between bodies
@@ -114,7 +114,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (5% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (4% of attempts)
+- **[[Kimura from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (4% of attempts)
 
 - **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (51% of attempts)
 

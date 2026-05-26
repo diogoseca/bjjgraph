@@ -167,6 +167,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 ## Position Definition
 
+<p class="section-subtitle">What is Piranha Guard (Top)?</p>
+
 - Top player maintains standing or combat base posture with hands engaged in active grip fighting against the bottom player's lapel controls, preventing full extension of lapel wraps around the body or neck area
 - Bottom player is on their back with at least one leg extended or creating frames using the lapel configuration, with your collar threaded through their legs creating control points that limit your movement options
 - Top player's weight distribution is centered over their base with hips positioned away from the bottom player's immediate control, maintaining distance management to avoid being pulled into disadvantageous positions or sweep angles
@@ -180,6 +182,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Piranha Guard (Top)?</p>
+
 - Bottom player has established Piranha Guard with lapel threaded through their legs
 - Top player is standing or in combat base position with collar compromised
 - Lapel grips have been established by bottom player on your gi
@@ -192,6 +196,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Piranha Guard?</p>
 
 - Maintain strong upright posture to prevent lapel chokes and maintain balance against sweep attempts from multiple angles
 - Control the pace of engagement by managing distance and preventing bottom player from fully extending their lapel web or improving grip positions
@@ -207,6 +213,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Piranha Guard (Top)?</p>
 
 **If bottom player has lapel wrapped around your neck or back creating immediate choke threat:**
 - Execute **[[Immediate Lapel Strip/Attacker|Immediate Lapel Strip]]** → [[Positions/Combat Base]] (Probability: 85%)
@@ -240,6 +248,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Piranha Guard?</p>
 
 ### 1. Ignoring lapel wrapped around neck or shoulders and continuing with passing attempts
 
@@ -284,6 +294,8 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Piranha Guard attacks?</p>
+
 ### Lapel Strip Progression Drill
 
 Partner establishes various lapel configurations while top player practices systematic grip breaking and posture recovery. Start with single lapel through legs, progress to double lapel configurations, and finish with neck and back wraps. Focus on efficient movement patterns and maintaining base throughout the clearing process. Emphasize hierarchical threat assessment.
@@ -291,7 +303,7 @@ Partner establishes various lapel configurations while top player practices syst
 **Duration**: 5 minutes per configuration level
 
 
-### Dynamic Base Maintenance Against Off-Balancing
+### Dynamic Base Against Off-Balancing
 
 Bottom player uses lapel grips to create off-balancing pressure in multiple directions while top player maintains base and posture. Top player practices weight shifting, base widening, and recovery movements without losing structural integrity. Emphasize staying calm under pressure and making micro-adjustments to base. Build from 50% to 75% resistance.
 
@@ -316,38 +328,6 @@ Start with bottom player using 50% resistance with lapel grips. Top player works
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the hierarchy of threat assessment when your collar is entangled in Piranha Guard?
-**A**: The threat hierarchy prioritizes neck and back lapel wraps as most dangerous since they create immediate choke threats and complete posture collapse. Second priority is clearing lapel configurations that cross your centerline, as these enable powerful sweeps. Third is addressing leg entanglements and secondary grips. Always address higher-level threats before attempting to pass, even if it means temporarily retreating to reset your base and posture.
-
-**Q2**: How should you distribute your weight to maintain base against Piranha Guard sweeps?
-**A**: Distribute weight low and wide with knees bent and hips dropped, keeping your center of gravity below the opponent's pulling forces. Weight should favor the balls of your feet for mobility rather than heels, which limits reactive movement. Avoid loading weight forward into the lapel tension, which gives the bottom player leverage for sweeps. Instead, maintain neutral or slightly backward pressure while your hands work to clear grips.
-
-**Q3**: Your opponent suddenly pulls hard on the lapel through their legs and you feel yourself being pulled forward—what immediate adjustment do you make?
-**A**: Immediately widen your base by stepping your feet apart and dropping your hips while posting your free hand on the mat if necessary for stability. Avoid the instinct to pull backward against the tension, which creates a tug-of-war you will lose. Instead, step forward with one leg past their hip while simultaneously stripping the most dangerous grip with your hands. This converts their pulling force into your passing momentum.
-
-**Q4**: What are the essential grip priorities when working to pass Piranha Guard?
-**A**: Grip priority follows the inverse of threat hierarchy: first establish control on the bottom player's pants at the knee or hip to limit their ability to create angles. Second, secure your own free lapel or their belt to anchor your posture. Only then work to strip their lapel grips. Avoid gripping the same lapel they control, as this creates tension they can use against you. Focus on controlling what they need to attack while systematically clearing what threatens you.
-
-**Q5**: How do you apply pressure effectively against Piranha Guard without feeding into their sweep setups?
-**A**: Apply lateral pressure rather than direct forward pressure by angling your body 45 degrees to the passing direction before driving weight. This prevents the bottom player from using your forward momentum for pendulum or off-balancing sweeps. Use your chest and shoulder pressure only after clearing the primary lapel threats, and maintain constant grip fighting rather than settling into static positions where they can build sweep momentum against your established pressure.
-
-**Q6**: Your opponent begins inverting while maintaining lapel control—how do you prevent the berimbolo?
-**A**: As you recognize the inversion beginning, immediately backstep your lead leg away from their inverting direction while driving your hips down and away from their rotation. Control their inverting hip or pants to prevent them from completing the spin underneath you. If they have strong lapel control making backstep difficult, consider driving forward into a stack position to pin their hips and prevent rotation, then work grip breaks from the stacked position.
-
-**Q7**: When is the optimal moment to initiate a passing sequence against Piranha Guard?
-**A**: The optimal passing window opens when you successfully clear the primary lapel grip or when the bottom player overcommits to a sweep attempt and their grip structure temporarily weakens. Watch for moments when they transition between grips or adjust their hip angle—these adjustment moments create brief windows. Never attempt to pass when their lapel web is fully established and tight; patience in grip fighting creates better passing opportunities than rushing against strong configurations.
-
-**Q8**: How do you recover position if you partially fall into a Piranha Guard sweep but haven't been fully swept?
-**A**: If caught mid-sweep, immediately post your far hand on the mat and drive your head toward their hip on the posting side, creating a tripod base. Use your posted arm to push away from their control while your legs work to recover square positioning. Avoid trying to pull back to standing while off-balanced, which often accelerates the sweep. From the tripod, either complete a scramble to side control or reset to combat base before the opponent can reinforce their sweeping position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

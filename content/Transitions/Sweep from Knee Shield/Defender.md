@@ -162,6 +162,8 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Knee Shield?</p>
+
 - Bottom player fights aggressively for the underhook on your far side, swimming their arm under yours repeatedly
 - Bottom player hip escapes to create an angle rather than maintaining square defensive alignment under your pressure
 - Bottom player's knee shield pressure shifts from pushing you away defensively to angling into your hip crease offensively
@@ -174,6 +176,8 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Knee Shield?</p>
 
 - Prevent the underhook—without it, the sweep has no driving engine and becomes a low-percentage pushing attempt
 - Maintain wide base with hips low to resist rotational off-balancing from the knee shield lever
@@ -188,6 +192,8 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Knee Shield?</p>
 
 ### 1. Whizzer the underhook by threading your arm over their underhook arm and driving your shoulder into their bicep
 
@@ -225,6 +231,8 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Knee Shield?</p>
+
 ### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Prevent the sweep entirely by controlling the near-side arm through whizzer, crossface, or wrist control. Deny the underhook and maintain your base with wide posting. Reset to your passing sequence from a stable top knee shield position.
@@ -240,6 +248,8 @@ Counter the sweep attempt by driving heavy crossface pressure as the opponent co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Knee Shield?</p>
 
 ### 1. Ignoring the underhook battle and allowing the opponent to establish a deep grip on your back
 
@@ -269,6 +279,8 @@ Counter the sweep attempt by driving heavy crossface pressure as the opponent co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Knee Shield?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup indicators
 Partner works through the sweep setup in slow motion while you practice identifying each prerequisite: underhook establishment, angle creation, far side grip, and knee shield angle change. Call out each cue as you recognize it. Build pattern recognition before adding defensive responses.
 
@@ -285,29 +297,6 @@ Spar from knee shield top position with the opponent specifically hunting sweeps
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the bottom player securing an underhook on your far side—what is your immediate response?
-**A**: Immediately apply a whizzer by threading your arm over their underhook and driving your shoulder into their bicep. Simultaneously apply crossface pressure to flatten their angle and prevent them from using the underhook for leverage. If the underhook is already deep, consider switching to an overhook on that arm and using the control to advance your pass rather than fighting to remove the grip. Time is critical—every second the underhook stays in place increases sweep danger.
-
-**Q2**: What base adjustment prevents being swept from the knee shield top position?
-**A**: Widen your base by posting your far knee out to the side, creating a wide tripod structure. Your base width should exceed the angle of the opponent's potential sweep direction. Keep your hips low and heavy rather than sitting up tall—elevated hips create a higher center of gravity that is easier to tip. Post your far hand on the mat when necessary for additional base, but maintain grip control to prevent the opponent from establishing far side grips.
-
-**Q3**: The sweep is already in motion and you feel yourself being tipped—how do you recover?
-**A**: Immediately post your far hand wide on the mat and drive your weight in the opposite direction of the sweep. If the sweep has too much momentum for hand posting, base out with your far leg by stepping it wide. Do not try to simply resist the force directly—redirect your body weight laterally away from the sweep direction. If the sweep completes partially, fight immediately for top position in the scramble rather than conceding mount.
-
-**Q4**: What is the primary grip that prevents the sweep setup from developing?
-**A**: Crossface control across the opponent's jaw and neck is the primary grip because it simultaneously prevents the underhook, kills the sweep angle, and creates flattening pressure. When you drive your forearm across their face and control their far shoulder, they cannot turn their body to create the angle needed for the sweep, and threading the underhook becomes mechanically difficult. The crossface addresses multiple sweep prerequisites with a single control point.
-
-**Q5**: The bottom player creates a strong angle after hip escaping—how do you shut down the sweep from this position?
-**A**: Follow their hip escape by adjusting your body angle to match theirs—do not let them achieve an angle advantage. Drive your crossface pressure into the direction they escaped to flatten them back square. Simultaneously control their near-side arm with your free hand to prevent or remove the underhook. If their angle is already established, consider switching your passing approach to match the new geometry rather than fighting back to the original alignment.
-
-
-
-</section>
 
 
 </main>

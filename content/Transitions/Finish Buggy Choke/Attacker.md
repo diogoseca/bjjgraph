@@ -186,6 +186,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Finish Buggy Choke?</p>
+
 - Achieve maximum grip depth with palm-up orientation before initiating finishing pressure
 - Transfer chest weight downward onto opponent's back to flatten posture and eliminate defensive space
 - Use radius bone pressure against carotid artery rather than squeezing with bicep strength
@@ -201,6 +203,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Finish Buggy Choke?</p>
+
 - Buggy Choke control position established with threading arm deep under opponent's armpit
 - Primary grip secured with palm-up hand on far-side collar achieving maximum depth
 - Secondary grip established on collar or connected to primary hand in no-gi configuration
@@ -214,6 +218,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Finish Buggy Choke step by step?</p>
 
 1. **Confirm grip depth**: Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material deep enough that your wrist contacts opponent's neck, not your forearm
 2. **Consolidate secondary grip**: Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together in no-gi, creating unified choking structure without gaps
@@ -231,7 +237,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
+| Success | [[Positions/Buggy Choke]] | 58% |
 | Failure | [[Positions/Buggy Choke]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
@@ -241,6 +247,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Finish Buggy Choke?</p>
 
 - **Opponent aggressively strips primary grip before pressure develops** (Effectiveness: High) - Your Response: Immediately re-establish threading depth or transition to alternative turtle attack like darce or anaconda before position deteriorates → Leads to [[Positions/Buggy Choke]]
 - **Opponent sits to guard during finishing attempt to relieve pressure** (Effectiveness: Medium) - Your Response: Hook near leg immediately and follow their sitting motion to convert to back control, maintaining collar grip throughout transition → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Finish Buggy Choke?</p>
 
 ### 1. Attempting to finish with shallow grip depth where forearm contacts neck instead of wrist
 
@@ -287,6 +297,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Finish Buggy Choke (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics and depth
 Practice threading arm penetration and grip establishment on cooperative partner. Focus on achieving palm-up orientation with maximum collar depth. Drill grip placement 50+ repetitions per session without resistance to build muscle memory for proper finishing structure.
 
@@ -304,48 +316,12 @@ Full resistance positional sparring starting from buggy choke control. Top playe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Finish Buggy Choke?
-**A**: The primary goal is to complete the strangulation by compressing both carotid arteries using progressive collar pressure and body mechanics, forcing the opponent to tap or rendering them unconscious. This represents the final phase of the buggy choke attack sequence.
-
-**Q2**: What grip depth indicator confirms readiness to initiate finishing pressure?
-**A**: Your wrist should contact the opponent's neck, not your forearm. This palm-up orientation with maximum depth positions your radius bone directly against the carotid artery and ensures sufficient collar material for leverage. Shallow grips where the forearm contacts neck create ineffective airway pressure rather than blood choke.
-
-**Q3**: Your opponent starts sitting to guard while you attempt the finish - what is your immediate response?
-**A**: Hook their near leg immediately with your leg and follow their sitting motion to convert to back control. Maintain your collar grip throughout the transition. Their hip exposure during the sit creates the perfect opportunity to insert hooks. This reactive transition is often higher percentage than forcing a contested choke.
-
-**Q4**: How does body positioning contribute to finishing pressure beyond grip strength?
-**A**: Perpendicular body angle creates optimal geometry for carotid compression. Chest weight on the opponent's back flattens their defensive posture. Hips heavy on their near hip prevent rolling escapes. Head tight to far shoulder blocks rotation. These combined body mechanics multiply choking pressure without requiring muscular arm strength.
-
-**Q5**: What differentiates effective blood choke pressure from ineffective tracheal pressure?
-**A**: Blood chokes compress the carotid arteries on the sides of the neck using the radius bone, causing unconsciousness in seconds. Tracheal pressure crushes the airway in front, causing pain and panic but much slower submission. Proper palm-up grip orientation with perpendicular angle ensures carotid targeting over tracheal crushing.
-
-**Q6**: When should you abandon the finish attempt and transition to alternative attacks?
-**A**: Abandon finish when: opponent successfully strips primary grip depth, they create significant defensive space through movement, they extend far arm creating crucifix opportunity, or they turn into position creating darce/anaconda angles. Continued force on low-percentage finish wastes energy and misses better opportunities.
-
-**Q7**: What is the progressive pressure escalation sequence for the finish?
-**A**: First consolidate grips with confirmed depth. Then transfer body weight through chest onto their back while dropping hips heavy. Establish perpendicular angle with head tight to far shoulder. Initiate radius bone rotation into carotid while pulling collar toward your chest. Finally, drive shoulder toward mat to compound pressure until tap.
-
-**Q8**: How do you modify the finish technique for no-gi application?
-**A**: Without collar grips, connect hands in gable grip or rear naked choke configuration around the neck. The choking arm threading mechanics remain similar, but pressure comes from direct forearm contact rather than collar leverage. Requires deeper threading and tighter body connection to compensate for lost gi friction and leverage.
-
-**Q9**: Your opponent posts their far hand on the mat to create base during your finish attempt - how do you capitalize?
-**A**: The posted arm creates a direct pathway to the crucifix position. Release the choke commitment and immediately trap the extended arm by stepping your far leg over it while maintaining upper body control. The crucifix offers multiple submission threats including arm locks and chokes with superior positional control compared to forcing the contested buggy choke.
-
-**Q10**: What is the most critical direction of force when applying the finishing squeeze?
-**A**: The primary force direction is pulling the collar material toward your own chest while simultaneously driving your shoulder toward the mat. This creates a rotational compression around the neck rather than a linear push. The radius bone acts as the fulcrum point against the carotid, and the body weight amplifies the rotational pressure without requiring arm strength.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Finish Buggy Choke?</p>
 
 The buggy choke is a blood choke that can cause unconsciousness rapidly when applied correctly. Training partners should tap early when pressure is felt on the carotid arteries rather than waiting for vision changes or lightheadedness. Apply progressive pressure gradually rather than explosive yanking to give partners adequate time to tap and reduce cervical spine stress. Release immediately upon tap and support unconscious partners into recovery position if they go out. Avoid this technique on partners with neck injuries, cardiovascular conditions, or when either person is exhausted and reaction times are compromised. Never practice finish attempts without qualified supervision during initial learning phases.
 

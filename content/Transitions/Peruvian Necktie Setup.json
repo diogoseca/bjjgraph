@@ -16,7 +16,7 @@
   "from_position": "Front Headlock/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Peruvian Necktie",
       "probability": 50,
       "result": "success"
     },
@@ -233,7 +233,7 @@
         "description": "Refine setup timing for competition scenarios. Develop multiple entry pathways (from standing, from guard passing attempts, from takedown defense). Work on explosive execution and maintaining control through opponent's maximum resistance efforts. Study film of successful competition applications."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is the overhook grip critical for the Peruvian Necktie setup?",
         "answer": "The overhook serves multiple essential functions: it prevents opponent from pulling their trapped arm free and escaping, creates structural control over their upper body, and helps maintain connection during the inversion phase. Without a secure overhook, opponent can easily extract their arm and escape before the position is established. The overhook also helps control their shoulder positioning, which is crucial for the choking mechanism."
@@ -370,7 +370,7 @@
         "correction": "Recognize when the choke is fully locked: bilateral neck pressure, tight triangle, hips rotating. At this stage, tap immediately. Late escapes from a fully locked Peruvian Necktie have an extremely low success rate."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "At what phase of the Peruvian Necktie setup is your defense most likely to succeed, and why?",
         "answer": "Defense is most likely to succeed during the overhook establishment phase, before the attacker drops to their hip and threads the leg. At this stage you still have both arms available for hand fighting, your posture can be recovered explosively, and the attacker must manage their own balance while transitioning from gable grip to overhook. Once the overhook is secured and the hip drops, escape probability drops significantly because the structural foundation of the choke is in place. Defending the overhook means you are fighting a front headlock, not a necktie."

@@ -194,6 +194,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Open Guard to De La Riva?</p>
+
 - Secure the ankle or pant grip on the hooking side before committing to the hook thread to anchor the entry and prevent the opponent from simply stepping away
 - Time the hook entry when the opponent shifts weight onto their lead leg, as weight commitment makes retraction difficult and increases hook retention
 - Establish the cross grip on the far sleeve or collar within two seconds of setting the hook to complete the diagonal control system
@@ -208,6 +210,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Open Guard to De La Riva?</p>
+
 - Opponent standing or in combat base with lead leg forward and within reach of your hooking leg
 - At least one controlling grip established on the opponent's gi, wrist, or ankle to prevent disengagement
 - Hip mobility sufficient to create a perpendicular angle and thread the hooking leg around the opponent's lead leg
@@ -220,6 +224,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Open Guard to De La Riva step by step?</p>
 
 1. **Read opponent's stance and weight distribution**: Assess which leg is forward and bearing weight. The DLR hook targets the lead leg, so identifying correct weight distribution informs your timing and hooking side. Wait for weight commitment before proceeding.
 2. **Secure near-side ankle or pant grip**: Control the ankle or pants of the opponent's lead leg on the hooking side with your same-side hand. This grip prevents them from stepping back when you begin threading the hook and anchors the entire control system.
@@ -250,6 +256,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Open Guard to De La Riva?</p>
+
 - **Backstep to clear the DLR hook by stepping the hooked leg backward and around** (Effectiveness: High) - Your Response: Follow their retreating leg with your hook while maintaining ankle grip. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva by inverting your hook to the inside of their stepping leg. → Leads to [[Positions/Open Guard]]
 - **Strip the ankle grip using a two-on-one break to remove the hook anchor** (Effectiveness: High) - Your Response: Re-grip immediately on the pants or switch to a belt grip. If unable to re-grip before they create distance, retract the hook and reset to open guard rather than holding a gripless DLR that has no control. → Leads to [[Positions/Open Guard]]
 - **Drive forward with heavy smash pressure to flatten hips and collapse the guard structure** (Effectiveness: Medium) - Your Response: Frame with your non-hooking foot on their hip to maintain distance. If they collapse the space despite your frame, use their forward momentum to enter berimbolo or inversion rather than fighting the pressure directly. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Open Guard to De La Riva?</p>
 
 ### 1. Threading the hook without first securing the ankle or pant grip
 
@@ -300,6 +310,8 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Open Guard to De La Riva (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Hook threading mechanics and hip movement
 Practice the hip escape to angle, leg threading motion, and hook activation without a partner. Focus on the coordination between hip escape, leg swing, and knee pull that forms the mechanical foundation of the entry.
 
@@ -320,42 +332,12 @@ After establishing DLR, immediately execute a sweep or transition attempt. Devel
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing for threading the DLR hook from open guard?
-**A**: The optimal timing is when your opponent shifts weight onto their lead leg, either by stepping forward or bending their knee to lower their base. This weight commitment makes it physically difficult for them to retract the leg, giving you time to set the hook deep behind the knee and activate tension before they can react with a backstep or lateral movement.
-
-**Q2**: Why must the ankle grip be established before committing to the hook thread?
-**A**: The ankle grip serves as the anchor that prevents the opponent from simply stepping their lead leg backward when they feel the hook beginning to thread. Without this grip, the hook has no holding mechanism during the threading phase, and the opponent can deny the entry with minimal effort by retracting their leg out of range.
-
-**Q3**: What role does the non-hooking leg play during the Open Guard to DLR transition?
-**A**: The non-hooking leg serves as the primary distance management tool during the transition. Placed on the opponent's far hip, bicep, or knee, it prevents them from driving forward with smash pressure that would flatten your hips and collapse the guard structure before the DLR can be fully established.
-
-**Q4**: Your opponent backsteps to clear the DLR hook during your entry attempt - how do you respond?
-**A**: Follow their retreating leg with your hook while maintaining the ankle grip to keep the connection alive. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva guard by inverting your hook to the inside of their leg. The key is maintaining at least one control point during the transition rather than allowing a complete reset to neutral.
-
-**Q5**: What grip combination creates the strongest initial DLR control after the hook is established?
-**A**: The strongest initial control combines the same-side ankle or pant grip with a cross grip on the opponent's far sleeve or collar. This diagonal control system creates opposing forces that break the opponent's posture and prevent them from squaring up. The ankle grip anchors the hook while the cross grip disrupts their upper body alignment.
-
-**Q6**: Your opponent strips your ankle grip while your hook is only partially threaded - what is your immediate response?
-**A**: Immediately retract the hook and reset to open guard rather than trying to maintain a compromised position. A hook without the anchoring ankle grip provides no meaningful control and leaves your leg extended and vulnerable to pinning and passing. Re-establish the ankle grip from open guard and reattempt the entry with proper sequencing.
-
-**Q7**: What hip position maximizes your success rate for the DLR hook entry?
-**A**: An angled hip position approximately 45 to 90 degrees perpendicular to your opponent provides the optimal threading angle. This perpendicular relationship creates space on the outside of their lead leg for your hooking leg to travel around. Lying directly in front of them with square hips makes the threading path longer and more easily intercepted.
-
-**Q8**: How does the Open Guard to DLR transition connect to follow-up attack chains once established?
-**A**: Once DLR is established with proper grips, the position immediately connects to multiple branching attack chains. Pulling the opponent forward with hook tension opens berimbolo and kiss of the dragon entries. If they resist by posting upright, transitioning underneath to X-Guard or Single Leg X becomes available. Lateral weight shifts expose direct sweep opportunities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Open Guard to De La Riva?</p>
 
 The Open Guard to De La Riva transition carries low injury risk overall, but practitioners should be mindful of knee strain on the hooking leg, particularly when the opponent backsteps aggressively against an established hook. Avoid forcing the hook against extreme lateral resistance, as torquing the knee can stress the MCL and meniscus. If the opponent applies strong backstep pressure, release the hook and re-establish rather than maintaining tension at an unsafe angle. Drilling partners should communicate if they feel excessive lateral knee pressure during repetitions.
 

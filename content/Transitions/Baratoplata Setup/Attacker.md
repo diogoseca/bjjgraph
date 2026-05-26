@@ -95,7 +95,7 @@ description: "How to execute Baratoplata Setup in BJJ. Attacking perspective wit
       "name": "Your opponent attempts to straighten their trapped arm when you start threading—what alternative attack opens?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A straightened arm opens the Armbar from Guard directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."
+        "text": "A straightened arm opens the Armbar on Free Arm directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."
       }
     },
     {
@@ -186,6 +186,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Baratoplata Setup?</p>
+
 - The shin hook must maintain constant tricep pressure throughout the setup to prevent arm extraction
 - Thread your arm through the opponent's trapped arm before releasing any Meathook control
 - Hip angle adjustment is critical—rotate hips to create the internal rotation angle on the shoulder
@@ -201,6 +203,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Baratoplata Setup?</p>
+
 - Established Meathook position with shin hook securing opponent's tricep
 - Opponent's posture broken and maintained through collar or overhook grip
 - Space available to thread arm between opponent's trapped arm and your body
@@ -213,6 +217,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Baratoplata Setup step by step?</p>
 
 1. **Secure Meathook control**: Confirm your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your grip on their collar or overhook to keep posture broken.
 2. **Create threading space**: Slightly adjust your hip angle to create space between your torso and the opponent's trapped arm. This gap is essential for threading your attacking arm through without releasing control.
@@ -241,8 +247,10 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Baratoplata Setup?</p>
+
 - **Posture up explosively before figure-four is secured** (Effectiveness: High) - Your Response: If you feel them beginning to posture, immediately transition to Triangle Setup as their upward movement creates the angle for leg over neck → Leads to [[Positions/Closed Guard]]
-- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar from Guard directly—flow to standard armbar mechanics using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
+- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar on Free Arm directly—flow to standard armbar mechanics using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
 - **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Positions/Armbar Control]]
 - **Stack forward to collapse the attack angle** (Effectiveness: Low) - Your Response: Stacking forward drives them into Gogoplata range—release the Baratoplata attempt and transition to shin across throat for choke → Leads to [[Positions/Rubber Guard/Meathook]]
 
@@ -252,6 +260,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Baratoplata Setup?</p>
 
 ### 1. Releasing Meathook control before threading the arm completely
 
@@ -286,6 +296,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Baratoplata Setup (Attacker)?</p>
+
 **Week 1-2** - Threading mechanics
 Practice the arm threading motion from static Meathook with a compliant partner. Focus on maintaining shin hook pressure while creating space to thread. Drill 20 repetitions per side daily.
 
@@ -303,54 +315,12 @@ Apply Baratoplata Setup in positional sparring starting from Meathook. Track suc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Baratoplata Setup from Meathook?
-**A**: The primary goal is to transition the arm isolation of Meathook into a figure-four shoulder lock that attacks the shoulder through internal rotation. The setup threads your arm through the opponent's trapped limb to create rotational pressure that bypasses muscular defense, finishing with a submission that attacks the shoulder joint rather than the elbow.
-
-**Q2**: What position do you start the Baratoplata Setup from and what must be established first?
-**A**: The Baratoplata Setup starts from Meathook Bottom, specifically when you have the shin hook secured over the opponent's shoulder with their arm trapped against the tricep. The position requires broken posture, closed guard maintained throughout, and the opponent's trapped arm bent at approximately 90 degrees at the elbow before initiating the threading sequence.
-
-**Q3**: What are the key grips needed for the Baratoplata Setup?
-**A**: You need three grip configurations: first, maintain your Meathook control grip (collar or overhook) on the non-trapped side; second, thread your same-side arm under the opponent's elbow; third, establish a figure-four by grabbing your own wrist with your free hand, palm facing down. The figure-four configuration is the submission grip.
-
-**Q4**: Your opponent attempts to straighten their trapped arm when you start threading—what alternative attack opens?
-**A**: A straightened arm opens the Armbar from Guard directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another.
-
-**Q5**: Why is hip rotation critical before applying Baratoplata pressure?
-**A**: Hip rotation toward the trapped arm side creates the internal rotation angle on the shoulder that generates submission pressure. Without this rotation, your pulling force attacks the elbow through hyperextension rather than the shoulder through rotation. The opponent can muscle out of elbow attacks but cannot defend rotational shoulder pressure with strength alone.
-
-**Q6**: When is the optimal timing window to initiate the Baratoplata Setup?
-**A**: The optimal window is when the opponent attempts to extract their trapped arm by pulling backward or rotating. Their extraction attempt creates the space needed for threading your arm and their movement momentum actually assists your entry. Initiating against a static, well-defended Meathook is far more difficult than flowing with their escape attempt.
-
-**Q7**: Your opponent stacks forward to collapse your attack angle—how do you respond?
-**A**: Stacking forward drives them into Gogoplata range. Release the Baratoplata attempt immediately and transition your shin across their throat for the choke. Their defensive pressure actually accelerates the Gogoplata setup. This demonstrates why Meathook attacks chain together—defending one opens another.
-
-**Q8**: What distinguishes the Baratoplata from standard armbar mechanics?
-**A**: The Baratoplata attacks the shoulder through internal rotation combined with extension, while armbars attack the elbow through pure hyperextension. The rotational component of the Baratoplata bypasses the larger muscle groups (biceps, triceps) that typically protect against arm attacks. This makes the Baratoplata effective against stronger opponents who can muscle out of traditional armlocks.
-
-**Q9**: Your figure-four is secured but the opponent keeps their elbow pinned tight to their ribs—what adjustment do you make?
-**A**: When the opponent pins their elbow, increase your hip rotation away from them to create a wider angle that pulls their elbow away from their body through leverage rather than direct force. Simultaneously use your shin hook to push their shoulder forward while your figure-four pulls the forearm backward, creating a shearing force that separates the elbow from the ribs. If this fails, transition to Omoplata by releasing the figure-four and pivoting your hips over their shoulder.
-
-**Q10**: What is the correct direction of force when finishing the Baratoplata from the figure-four position?
-**A**: The finishing force combines two vectors simultaneously: pull the figure-four grip toward your own chest to create internal rotation on the shoulder, and extend your hips upward and away to create extension pressure on the arm. These opposing forces converge at the shoulder joint, creating a rotational torque that attacks the ligaments and capsule of the glenohumeral joint. Pulling without hip extension produces insufficient pressure.
-
-**Q11**: How does the Baratoplata Setup integrate with the broader Meathook attack chain?
-**A**: The Baratoplata occupies the third layer of the Meathook attack system. Primary attacks are Gogoplata (when opponent drives forward) and Triangle (when opponent pulls arm upward). The Baratoplata activates when the opponent's most instinctive defense—pulling the trapped arm backward—creates the threading space. Each defense to one attack opens the next, creating a systematic chain where the opponent cannot find safety regardless of their response.
-
-**Q12**: Your opponent rolls toward the trapped arm side during the Baratoplata attempt—do you follow or abandon?
-**A**: Follow their roll while maintaining the figure-four grip. Their rolling momentum assists your transition to mount, and the mounted Baratoplata is significantly more powerful because gravity assists your pressure and their escape options become severely limited. Keep your figure-four locked throughout the roll, adjust your hips to maintain the shoulder attack angle once you arrive in mount, and finish from the top position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Baratoplata Setup?</p>
 
 The Baratoplata attacks the shoulder joint through internal rotation, which can cause serious injury if applied too quickly or without control. Shoulder injuries from rotational attacks often require surgical repair and extended rehabilitation. When drilling, apply pressure progressively and give your partner time to tap. The submission can come on suddenly as the angle locks in, so maintain constant communication. Never crank the figure-four grip explosively. If your partner's shoulder makes popping sounds, release immediately—this indicates potential labrum damage. Avoid this technique if you or your partner have existing shoulder injuries. In competition, maintain control after the tap to prevent falling into the submission with full weight.
 

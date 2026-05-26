@@ -93,6 +93,14 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
         "@type": "Answer",
         "text": "The critical difference is that in a mounted triangle, one arm is already isolated and trapped between the attacker's legs before the S mount transition begins. In a standard mount to S mount transition, the arm isolation happens during the transition itself, giving you more opportunity to prevent it. Here, the arm is already compromised, so your defensive focus must be on positional escape (bridge, hip escape to half guard) rather than arm protection, since the arm isolation has already been achieved. The transition window is your escape opportunity, not your arm defense opportunity."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent pauses mid-transition with the triangle unlocked but legs not yet in S mount configuration - what is the optimal action in this limbo moment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This limbo moment is your highest-percentage escape window. Fire an explosive bridge immediately combined with pulling your trapped arm back toward your body with the elbow driving toward your hip. The attacker has neither the triangle lock nor the S mount base established, meaning their control is at its absolute weakest. Simultaneously hip escape to create space for knee insertion. Even a partial disruption here can prevent the transition entirely and leave you in a significantly more escapable position than either the locked mounted triangle or consolidated S mount."
+      }
     }
   ]
 }
@@ -162,6 +170,8 @@ As the defender, you are in an already precarious mounted triangle position and 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mounted Triangle to S Mount?</p>
+
 - Attacker shifts from squeezing the triangle choke to establishing firm two-on-one control on your trapped wrist and arm
 - Attacker's weight drives forward heavily into your shoulder rather than applying downward triangle squeeze pressure
 - You feel the triangle ankle lock loosen or release as the attacker uncrosses their legs behind your shoulder
@@ -174,6 +184,8 @@ As the defender, you are in an already precarious mounted triangle position and 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Triangle to S Mount?</p>
 
 - Recognize that the transition window when the triangle unlocks is your highest-percentage escape moment
 - Protect the trapped arm by keeping it bent and tight to your body - never let it extend across the attacker's centerline
@@ -189,6 +201,8 @@ As the defender, you are in an already precarious mounted triangle position and 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mounted Triangle to S Mount?</p>
 
 ### 1. Explosive bridge timed to the triangle unlock moment
 
@@ -226,6 +240,8 @@ As the defender, you are in an already precarious mounted triangle position and 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mounted Triangle to S Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge or hip escape to the precise moment the attacker unlocks the triangle and begins repositioning legs. The brief window of reduced control during leg movement allows you to create enough space to insert your knee between bodies and establish half guard. Combine the bridge with pulling the trapped arm back toward your body to maximize the disruption.
@@ -241,6 +257,8 @@ Prevent the transition from completing by framing aggressively against the attac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Triangle to S Mount?</p>
 
 ### 1. Waiting passively through the transition instead of acting during the triangle unlock window
 
@@ -270,6 +288,8 @@ Prevent the transition from completing by framing aggressively against the attac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mounted Triangle to S Mount?</p>
+
 **Phase 1: Recognition and Timing** - Identifying transition cues and developing timing awareness
 Partner performs the mounted triangle to S mount transition at slow speed while you focus on feeling the specific moment the triangle unlocks. Practice identifying the loosening of the ankle lock, the weight shift, and the grip change. Do not attempt escapes yet - build pure recognition skill over 20 repetitions per side.
 
@@ -286,29 +306,6 @@ Start in mounted triangle with partner actively pursuing either the triangle fin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the specific trigger that tells you the transition from mounted triangle to S mount has begun?
-**A**: The primary trigger is feeling the triangle ankle lock release or loosen behind your shoulder as the attacker uncrosses their legs. Secondary cues include the attacker shifting from triangle squeeze pressure to forward hip-to-shoulder pinning pressure, and their grip changing from head control to firm two-on-one wrist control on your trapped arm. The combination of loosened legs and intensified wrist grip is the definitive signal that the transition is in progress.
-
-**Q2**: Why is the transition window your best escape opportunity compared to defending from either mounted triangle or S mount?
-**A**: During the transition, the attacker must temporarily sacrifice two key control elements: the triangle lock structure (their primary control mechanism in mounted triangle) and their leg-based base (as both legs are being repositioned). This creates a brief period where the attacker's control and stability are at their weakest point. In contrast, both the mounted triangle and S mount are fully consolidated positions with complete control structures. Acting during the transition exploits the gap between two strong positions.
-
-**Q3**: You feel the triangle loosen but the attacker has extremely strong wrist control on your trapped arm - what defensive priority do you choose?
-**A**: Prioritize the hip escape to half guard rather than trying to extract the arm against strong wrist control. Attempting to pull the arm free against a strong grip risks extending it into armbar position. Instead, use the triangle loosening moment to bridge and hip escape aggressively. Even if your arm remains trapped, reaching half guard gives you significantly more escape options than being in S mount bottom with the same trapped arm. The positional improvement outweighs the arm extraction in this scenario.
-
-**Q4**: If you fail to escape during the transition and the attacker establishes S mount, what should your immediate defensive priorities be?
-**A**: Immediately grip your own collar with the trapped hand to keep the arm bent, preventing full armbar extension. Use your free hand to hook or control the attacker's near leg to prevent them from stepping fully over your head for the armbar finish. Begin small hip escapes toward their legs to create incremental space. Do not panic or thrash - S mount defense requires the same calm, technical approach as any submission defense. Your goal shifts from escape to survival and incremental position improvement.
-
-**Q5**: How does defending this transition differ from defending a standard mount to S mount transition?
-**A**: The critical difference is that in a mounted triangle, one arm is already isolated and trapped between the attacker's legs before the S mount transition begins. In a standard mount to S mount transition, the arm isolation happens during the transition itself, giving you more opportunity to prevent it. Here, the arm is already compromised, so your defensive focus must be on positional escape (bridge, hip escape to half guard) rather than arm protection, since the arm isolation has already been achieved. The transition window is your escape opportunity, not your arm defense opportunity.
-
-
-
-</section>
 
 
 </main>

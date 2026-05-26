@@ -34,7 +34,7 @@
       "description": "Ability to maintain upright spine alignment and structural integrity while in opponent's guard, preventing forward collapse that enables guard attacks. Requires constant tension adjustment and base positioning to resist breaking attempts while maintaining passing mobility."
     },
     {
-      "skill_name": "Grip Fighting Dominance",
+      "skill_name": "Grips Dominance",
       "description": "Systematic approach to establishing superior grip configurations while denying opponent's preferred grips, understanding that grip battles typically predict passing success or failure before movement begins."
     },
     {
@@ -46,7 +46,7 @@
       "description": "Coordinated approach to clearing, controlling, or bypassing opponent's leg frames and hooks, understanding specific leg configurations for each guard type and systematic methods for neutralizing each variation."
     },
     {
-      "skill_name": "Pressure Application Variation",
+      "skill_name": "Pressure Variation",
       "description": "Adaptive ability to apply appropriate pressure types based on guard variation—heavy smashing pressure for certain guards versus light floating pressure for others—adjusting strategy to guard-specific retention mechanics."
     },
     {
@@ -54,7 +54,7 @@
       "description": "Conceptual understanding of sequential passing phases from initial engagement through final consolidation, recognizing current stage and required actions to advance rather than attempting inappropriate movements for current position."
     },
     {
-      "skill_name": "Base Maintenance Under Pressure",
+      "skill_name": "Base Under Pressure",
       "description": "Ability to preserve stable base configuration throughout dynamic passing sequences, adjusting weight distribution and foot positioning to prevent sweeps while maintaining forward passing pressure."
     },
     {
@@ -64,17 +64,12 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Understanding guard retention mechanics from defensive perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms"
+      "description": "Understanding defensive guard retention mechanics from the bottom player's perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms"
     },
     {
-      "principle_name": "Pressure Passing Framework",
-      "relationship_type": "Extension",
-      "description": "Represents specific application of guard passing principles emphasizing heavy pressure and pinning control, demonstrating how core passing principles manifest in particular strategic approach"
-    },
-    {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Foundational skill required for all guard passing, as inability to maintain stable base during passing attempts results in sweeps regardless of technical passing knowledge"
     },
@@ -84,24 +79,24 @@
       "description": "Provides systematic framework for prioritizing control objectives during passing sequences, determining which anatomical controls to establish at each passing stage"
     },
     {
-      "principle_name": "Grip Fighting Strategies",
+      "principle_name": "Grips",
       "relationship_type": "Prerequisite",
       "description": "Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied"
     },
     {
-      "principle_name": "Passing Counter System",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Advanced form",
-      "description": "Represents higher-level application requiring mastery of fundamental passing principles, incorporating defensive awareness and counter-passing strategies against guard player's offensive attempts"
+      "description": "Represents higher-level passing application where the passer deliberately provokes defensive reactions to create passing openings, incorporating bait-and-counter strategies against the guard player's responses"
     },
     {
-      "principle_name": "Speed Passing",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Extension",
-      "description": "Specific passing style emphasizing rapid movement and timing rather than pressure, demonstrating alternative expression of core passing principles"
+      "description": "Specific passing dimension emphasizing rapid movement, tempo changes, and precise timing windows rather than sustained pressure, demonstrating alternative expression of core passing principles"
     },
     {
-      "principle_name": "Long Step Passing",
+      "principle_name": "Transition Management",
       "relationship_type": "Extension",
-      "description": "Technical passing system utilizing distance management and leg clearing principles, showing application of core concepts through specific mechanical approach"
+      "description": "Technical framework for managing positional changes during passing sequences, enabling smooth progression through intermediate positions and effective chaining between passing systems"
     },
     {
       "principle_name": "Forward Pressure",
@@ -109,32 +104,27 @@
       "description": "Fundamental pressure application concept that supports passing objectives by preventing opponent from establishing comfortable defensive positioning"
     },
     {
-      "principle_name": "Connection Breaking",
+      "principle_name": "Connection Principles",
       "relationship_type": "Complementary",
-      "description": "Essential skill for disrupting opponent's guard retention mechanics by systematically removing connection points they rely on for control"
+      "description": "Understanding connection mechanics enables both establishing your own control points during passes and systematically breaking the opponent's guard retention connections"
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Prerequisite",
       "description": "Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes"
     },
     {
-      "principle_name": "Posture Up",
-      "relationship_type": "Prerequisite",
-      "description": "Critical defensive skill for maintaining structural integrity against posture-breaking attempts, enabling safe passing initiation"
-    },
-    {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
-      "description": "Understanding how to dismantle opponent's defensive frames is essential for progressing through passing stages effectively"
+      "description": "Understanding how frames are created and maintained from the bottom informs the passer's ability to dismantle defensive structures and progress through passing stages effectively"
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Complementary",
       "description": "Systematic understanding of when and how to apply different pressure types during passing sequences to maximize effectiveness"
     },
     {
-      "principle_name": "Leverage Principles",
+      "principle_name": "Levers",
       "relationship_type": "Prerequisite",
       "description": "Fundamental biomechanical understanding that underlies efficient passing mechanics and energy conservation during extended passing sequences"
     }
@@ -295,7 +285,7 @@
       "focus": "Building passing endurance, learning to maintain pressure through defensive resistance, and developing strategic patience required for successful passing"
     },
     {
-      "approach_name": "Grip Fighting Isolation Drills",
+      "approach_name": "Grips Isolation Drills",
       "description": "Dedicated training focusing exclusively on establishing and maintaining passing grips against opponent's retention grips, pausing when superior configuration achieved",
       "focus": "Developing grip dominance understanding as foundational passing element, recognizing grip configurations that enable or prevent passing success"
     },
@@ -369,14 +359,9 @@
   ],
   "related_content": [
     {
-      "name": "Pressure Passing Framework",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Specific strategic application of guard passing principles emphasizing heavy pressure and smashing control"
-    },
-    {
-      "name": "Guard Retention",
-      "content_type": "Principle",
-      "relationship": "Complementary defensive framework providing essential understanding of retention mechanics that passing must neutralize"
+      "relationship": "Complementary defensive framework providing essential understanding of guard retention mechanics that passing must neutralize"
     },
     {
       "name": "Control Point Hierarchy",
@@ -384,7 +369,7 @@
       "relationship": "Provides prioritization framework for establishing controls during sequential passing stages"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement"
     },
@@ -414,7 +399,7 @@
       "relationship": "Foundational passing posture demonstrating proper base and structure for initiating passing sequences"
     },
     {
-      "name": "Grip Fighting Strategies",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential prerequisite concept as grip dominance typically predicts passing success before movement begins"
     },

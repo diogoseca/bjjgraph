@@ -188,6 +188,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Reverse Half Guard?</p>
+
 - Establish frames against opponent's hips before initiating rotation to create necessary space for hip movement
 - Maintain active leg control on the trapped leg throughout the entire rotation to prevent immediate pass completion
 - Time the escape to coincide with opponent's weight commitment or grip changes for minimal resistance
@@ -202,6 +204,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Reverse Half Guard?</p>
+
 - Bottom player trapped in reverse half guard with back oriented toward opponent's chest
 - At least one leg maintaining half guard entanglement on opponent's trapped leg with active clamping
 - Defensive hand positioning protecting neck from choke attempts before initiating escape
@@ -214,6 +218,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Reverse Half Guard step by step?</p>
 
 1. **Assess Position and Protect Back**: Identify your opponent's grips, weight distribution, and current attack trajectory. Immediately tuck your chin to your chest and position your inside hand to protect your neck from choke attempts, establishing a defensive baseline before initiating the escape sequence.
 2. **Establish Hip Frames**: Place your inside forearm or hand against your opponent's hip on the trapped leg side, creating a solid frame that generates the space needed for hip rotation. This frame must be structurally sound with your elbow connected to your body for maximum pushing power against their weight.
@@ -244,6 +250,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Reverse Half Guard?</p>
+
 - **Top player drives crossface pressure from behind to block torso rotation** (Effectiveness: High) - Your Response: Use inside hand to block crossface before initiating rotation. If crossface is established, address it first by framing against their arm and creating space before reattempting the escape. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Top player inserts hooks for back control during the rotation when back is exposed** (Effectiveness: High) - Your Response: Keep elbows tight to your body and maintain defensive hand positioning near your collar during rotation. If hooks are partially inserted, immediately address the hook by scooping it down before completing rotation. → Leads to [[Positions/Back Control]]
 - **Top player extracts trapped leg and completes guard pass during escape attempt** (Effectiveness: Medium) - Your Response: Maintain active clamping pressure on the trapped leg throughout the rotation. Squeeze your knees together and use your hips to maintain connection even during the explosive rotation phase. → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Reverse Half Guard?</p>
 
 ### 1. Attempting rotation without establishing frames first
 
@@ -294,6 +304,8 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Reverse Half Guard (Attacker)?</p>
+
 **Solo Movement** - Hip rotation mechanics
 Practice the hip rotation movement without a partner, focusing on the explosive turn from reverse half guard position to facing position. Drill the frame placement, hip escape, and rotation as one connected sequence to build muscle memory for the movement pattern.
 
@@ -314,42 +326,12 @@ Begin in reverse half guard and chain the escape into your standard half guard g
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical prerequisite before initiating the hip rotation in the escape?
-**A**: Establishing solid frames against the opponent's hips is the most critical prerequisite. Without frames creating space between your hips and the opponent's body, the rotation will stall halfway, leaving you in a vulnerable intermediate position with your back partially exposed. The frame must create enough clearance for your hips to complete the full rotation to a facing position.
-
-**Q2**: How should you time the escape relative to your opponent's weight distribution?
-**A**: Execute the escape when the opponent commits their weight forward, shifts position to set up an attack, or momentarily lightens pressure during a grip change. These moments create temporary openings where their resistance to your rotation is minimized. Attempting the escape against balanced, settled weight meets maximum resistance and wastes energy without positional gain.
-
-**Q3**: What happens if you release leg control during the hip rotation?
-**A**: Releasing leg control during rotation allows the opponent to immediately extract their trapped leg and complete their guard pass to side control. The half guard hook must remain engaged throughout the entire rotation sequence to prevent this outcome. Active clamping pressure with both legs ensures the opponent cannot capitalize on the transition to free their leg.
-
-**Q4**: Your opponent establishes a strong crossface from behind during your escape attempt - how do you respond?
-**A**: Stop the rotation immediately and address the crossface first. Use your inside hand to frame against their crossface arm, creating enough space to move their arm past your head. Only resume the rotation after neutralizing the crossface control. Attempting to rotate through a strong crossface results in being flattened and losing all offensive capability from the position.
-
-**Q5**: What should you do immediately after completing the rotation to face your opponent?
-**A**: Immediately establish standard half guard structure by inserting a knee shield or fighting for the underhook on the trapped leg side. The rotation and guard structure establishment must be one continuous sequence. Pausing after rotation without establishing defensive structure allows the opponent to flatten you and re-establish dominant passing pressure from standard half guard top.
-
-**Q6**: Your opponent begins inserting hooks for back control as you initiate your rotation - what is your response?
-**A**: Keep your elbows tight to your body and address the hooks immediately before continuing the rotation. Scoop the hook with your hand and push it down while maintaining your leg control on their trapped leg. If the opponent gets one hook in, you must clear it before completing the rotation, as rotating with hooks established transitions you directly into a back control disadvantage.
-
-**Q7**: What grip adjustments are necessary when transitioning from reverse half guard to standard half guard?
-**A**: During the rotation, your frames transition from pushing against the opponent's hips from behind to establishing standard half guard frames facing the opponent. Your inside arm shifts from a defensive neck-protecting position to either an underhook attempt or forearm frame against the opponent's chest and shoulder. Your outside hand transitions from hip frame to collar grip or head control for standard half guard offense.
-
-**Q8**: If your initial escape attempt fails, what should your immediate follow-up action be?
-**A**: Re-establish your defensive baseline with chin tucked and neck protected, then immediately assess why the attempt failed. If it was a timing issue, wait for the next weight shift opportunity. If the opponent has tightened their control significantly, consider alternative options like deep half entry, inversion, or turtle transition rather than forcing the same failed escape pattern repeatedly.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Reverse Half Guard?</p>
 
 Escape Reverse Half Guard involves explosive hip rotation that places significant torque on the knee of the trapped leg. Practitioners should ensure adequate warm-up of hip flexors and knee joints before drilling. During training, communicate with your partner to avoid cranking on the trapped leg during resistance. If you feel sharp knee pain during the rotation, stop immediately and reposition. The rotation should be controlled and explosive but never forced through mechanical resistance that could injure either practitioner's knee or lower back.
 

@@ -162,6 +162,8 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Honey Hole?</p>
+
 - Opponent begins hip loading by subtly shifting weight toward one side while maintaining contact with the mat through their shoulders and posted foot
 - Opponent reaches across to grip your far arm, collar, belt, or shorts near your far hip—far-side grips are the primary setup for sweep mechanics
 - Opponent's free leg plants firmly on the mat with bent knee or posts against your hip, establishing a leverage platform for bridging force
@@ -174,6 +176,8 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Honey Hole?</p>
 
 - Maintain low hip pressure against the trapped leg at all times—elevated hips create the space opponents need to generate bridging force for the sweep
 - Secure heel hook grip quickly to eliminate the sweep as a viable option—opponents will not attempt sweeps while their heel is captured and breaking pressure is imminent
@@ -188,6 +192,8 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Honey Hole?</p>
 
 ### 1. Drive hips down and tighten inside leg triangle to kill sweep momentum before it develops
 
@@ -225,6 +231,8 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Honey Hole?</p>
+
 ### → [[Positions/Ashi Garami/Honey Hole]]
 
 Maintain tight inside leg triangle with constant hip pressure throughout opponent's sweep attempt. Drive hips down immediately upon recognizing hip loading or far-side grip establishment. Use the opponent's failed sweep attempt as an opportunity to advance your heel hook grip while their attention is divided between sweep execution and heel defense.
@@ -236,6 +244,8 @@ Maintain tight inside leg triangle with constant hip pressure throughout opponen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Honey Hole?</p>
 
 ### 1. Reaching for heel hook grip with both hands while ignoring base and weight distribution
 
@@ -265,6 +275,8 @@ Maintain tight inside leg triangle with constant hip pressure throughout opponen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Honey Hole?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues in real time
 Partner drills sweep setups at slow speed while you practice calling out each setup cue as it occurs: far-side grip, hip loading, free leg posting. No actual sweep execution—focus purely on pattern recognition. Build automatic threat identification that triggers before conscious analysis.
 
@@ -281,29 +293,6 @@ Positional sparring from Honey Hole top with partner using all available bottom 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a sweep from Honey Hole bottom?
-**A**: The earliest cue is the opponent reaching across to establish a far-side grip on your arm, collar, belt, or shorts. This grip is the essential setup component because it removes your ability to post for base and provides the pull point that amplifies sweep momentum. Before this grip is established, bridge force alone is rarely sufficient to complete a sweep against a well-positioned top player. Denying this grip is the most efficient way to prevent the sweep entirely.
-
-**Q2**: Why should you avoid committing both hands to the heel hook grip when you sense sweep potential?
-**A**: Both hands on the heel means zero ability to post against sweep momentum. When the opponent bridges and pulls, your only resistance comes from hip pressure and leg triangle tightness—which may be insufficient if they time the sweep well. Keeping at least one hand free to post provides an emergency base option that can stop even a well-timed sweep. The heel hook can be finished with one hand controlling heel and one hand ready to post, sacrificing some grip power for positional security.
-
-**Q3**: How can you use the opponent's sweep attempt to improve your own attacking position?
-**A**: A failed sweep attempt depletes the opponent's energy reserves and temporarily disrupts their defensive structure as they recover from the explosive effort. During their recovery phase, their heel defense is weakest because their hands were committed to far-side grips rather than protecting the heel. Use this 1-2 second window after their sweep fails to aggressively advance your heel hook grip. Their failed sweep becomes your submission opportunity because their offensive and defensive priorities conflicted.
-
-**Q4**: When should you accelerate your heel hook finish versus maintaining positional control against a sweep?
-**A**: Accelerate the finish only when you already have a secured heel hook grip with proper hand configuration and the opponent initiates a sweep. Their sweep motion actually adds rotational force that can amplify your finishing mechanics. However, if your heel grip is not yet fully established, rushing the finish during a sweep is extremely risky—incomplete grips under dynamic movement often slip, and you lose both the submission and potentially your positional control simultaneously.
-
-**Q5**: What role does controlling the opponent's free leg play in sweep prevention?
-**A**: The opponent's free leg is their primary sweep engine—it provides the posting base for bridging force and the pendulum arc for rotational momentum. Without free leg mobility, sweep attempts are mechanically impossible regardless of how strong their upper body grips or bridge are. Controlling the free leg by hooking it with your far leg or gripping behind the knee eliminates the sweep threat entirely, though it may temporarily compromise your own triangle tightness or heel hook positioning.
-
-
-
-</section>
 
 
 </main>

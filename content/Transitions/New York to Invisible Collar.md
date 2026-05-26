@@ -212,7 +212,7 @@ The New York to Invisible Collar transition occupies a central position in 10th 
 
 - [[Transitions/Closed Guard to Triangle]] - Alternative attack chain when Invisible Collar is defended
 
-- [[Submissions/Armbar from Guard]] - Backup submission if overhook is compromised
+- [[Positions/Armbar Control]] - Backup submission pathway if overhook is compromised during transition
 
 - [[Positions/Rubber Guard]] - Parent system encompassing this transition
 

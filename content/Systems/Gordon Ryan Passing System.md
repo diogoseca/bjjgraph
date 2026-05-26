@@ -32,7 +32,7 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
     },
     {
       "@type": "HowToStep",
-      "name": "Pressure Application",
+      "name": "Pressure",
       "text": "Apply strategic pressure to compress opponent's defensive space and limit their mobility. Use shoulder pressure, cross-face control, and strategic weight distribution to make their guard retention increasingly difficult.",
       "position": 3
     },
@@ -140,7 +140,7 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 
 Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.
 
-The foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizes control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.
+The foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizing control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.
 
 What distinguishes this system is its adaptability to different guard types while maintaining core principles of pressure and control. Whether facing butterfly guard, half guard, or open guard variations, the system provides clear decision trees and transitional sequences that maintain offensive pressure throughout. The emphasis on grip fighting, posture control, and strategic weight distribution creates a comprehensive framework that works across skill levels and body types.
 
@@ -200,7 +200,7 @@ Key points:
 
 
 
-3. **Pressure Application**: Apply strategic pressure to compress opponent's defensive space and limit their mobility. Use shoulder pressure, cross-face control, and strategic weight distribution to make their guard retention increasingly difficult.
+3. **Pressure**: Apply strategic pressure to compress opponent's defensive space and limit their mobility. Use shoulder pressure, cross-face control, and strategic weight distribution to make their guard retention increasingly difficult.
 Key points:
 - Drive shoulder pressure into their face or chest
 - Use body weight to compress their hips and legs
@@ -327,10 +327,10 @@ Development of this passing system requires extensive positional drilling with p
 - [[Knee Cut Pass]] (Transition) - Dynamic passing option that complements pressure passing sequences
 - [[Side Control]] (Position) - Primary destination after successful pass completion
 - [[Mount]] (Position) - Advanced position target after establishing passing dominance
-- [[Pressure Passing]] (Principle) - Core principle underlying entire passing system approach
+- [[Pressure]] (Principle) - Core principle underlying entire passing system approach
 - [[Guard Passing]] (Principle) - Fundamental principles that inform all passing strategies
 - [[Forward Pressure]] (Principle) - Essential pressure application principle for maintaining offensive control
-- [[Connection Breaking]] (Principle) - Strategy for removing opponent's defensive frames and grips
+- [[Connection Principles]] (Principle) - Strategy for managing connections and breaking opponent's defensive frames and grips
 - [[Control Point Hierarchy]] (Principle) - Understanding which control points to prioritize during passing sequences
 - [[Modern No-Gi Passing System]] (System) - Complementary no-gi passing framework with overlapping principles
 - [[Bernardo Faria Pressure System]] (System) - Alternative pressure-based passing system with different technical emphases

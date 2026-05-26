@@ -38,7 +38,7 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Lapel fabric becomes an extension of your limbs—use it to create persistent control points

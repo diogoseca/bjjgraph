@@ -78,8 +78,8 @@
       "relationship": "Opponent's primary defensive transition that this armbar targets and exploits"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Follow-up submission transition from armbar control to game-over"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Follow-up submission finish from armbar control position to game-over"
     },
     {
       "name": "Omoplata Control",
@@ -94,7 +94,7 @@
       "relationship": "Alternative guard position if clamp is lost before armbar entry completes"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Armbar from North-South",
       "relationship": "Related armbar entry from a different position sharing core finishing mechanics"
     }
   ],
@@ -244,7 +244,7 @@
         "description": "Positional sparring starting from clamp guard with full resistance. Score successful armbar control entries, successful chain attack transitions, and successful guard recovery after failed attempts. Train both sides and against various body types to develop adaptability across different opponent physical profiles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal moment to initiate the armbar transition from clamp guard?",
         "answer": "The optimal moment is when the opponent pulls their trapped arm straight back in an extraction attempt. This rearward pull naturally extends their arm in the direction you need for the armbar, and their retraction effort means they are already committed to moving away from you. Their pulling force actually assists your transition by pre-extending the elbow. Initiating during a static moment or when the opponent is driving forward makes the transition significantly harder because you are working against their momentum rather than with it."
@@ -276,6 +276,14 @@
       {
         "question": "Your opponent successfully defends the armbar by clasping their hands together — what chain attack do you pursue?",
         "answer": "You have three primary options depending on their body position. First, attack the grip directly by inserting your wrist between their clasped hands and prying them apart using a figure-four grip break. Second, transition to a triangle by releasing one leg from armbar position and threading it under their chin while their clasped hands remove one arm from choke defense. Third, attack the kimura on the trapped arm by controlling their wrist and rotating their arm behind their back while maintaining leg control over their head. The triangle is generally highest percentage because the opponent has voluntarily removed one hand from neck defense to clasp the other."
+      },
+      {
+        "question": "How do you adjust the armbar entry when facing a significantly larger or stronger opponent from clamp guard?",
+        "answer": "Against larger opponents, the pendulum variation becomes essential. Swing your hips away first to generate momentum, then use that kinetic energy to drive the leg over their head rather than relying on raw speed against their mass. Additionally, deepen your hip angle further before initiating — a 60-degree pre-angle rather than 30-45 — to shorten the arc your leg must travel. Prioritize posture breaking even more aggressively, using both hands on the head or collar before switching one to the wrist, because a larger opponent with intact posture is nearly impossible to swing past. Finally, commit to the belly-down armbar variation more readily, as it uses gravity and your body weight rather than leg squeeze strength."
+      },
+      {
+        "question": "What is the relationship between clamp depth on the bicep and the viability of the armbar entry?",
+        "answer": "Clamp depth directly determines armbar viability. A deep clamp where the shin sits high on the bicep near the shoulder provides maximum retention during the leg swing because the thickest part of the arm is trapped and extraction requires the opponent to pull their entire upper arm through the narrowest part of your leg clamp. A shallow clamp near the elbow or forearm provides almost no retention during the swing, as the tapered forearm slides free easily under any dynamic movement. Before committing to the armbar, check that your shin contacts the belly of the bicep muscle. If the clamp has degraded to the forearm, hip escape to re-seat it on the bicep rather than attempting the armbar from a compromised position."
       }
     ],
     "safety_considerations": "The armbar from clamp guard applies significant hyperextension force to the elbow joint. Always apply finishing pressure gradually in training, allowing your partner adequate time to recognize the danger and tap. Release immediately upon receiving any tap signal — verbal, physical, or foot tap. Be especially cautious during the transition phase, as the momentum of swinging the leg over can accelerate arm extension unexpectedly. Never apply explosive or jerking force to the elbow. When drilling, communicate with your partner about pressure levels and establish clear tap protocols before beginning."
@@ -361,7 +369,7 @@
         "correction": "Treat the posture break as the first line of defense. The moment you feel downward pull on your head or collar, fight for posture aggressively by driving your chin up, extending your spine, and pressing your hips back. If you win the posture battle, the armbar cannot be initiated."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the clamp guard player is setting up an armbar?",
         "answer": "The earliest cue is a change in the attacker's hip angle — their hips shift from the standard 30-degree clamp position to a sharper 45-60 degree angle toward your trapped arm. This hip angle change precedes all other setup actions (wrist grip tightening, posture break, leg chambering) and gives you the maximum reaction window. A trained defender who reads the hip angle shift has roughly one full second to react before the leg swing begins, which is sufficient time to initiate posture recovery or arm extraction."

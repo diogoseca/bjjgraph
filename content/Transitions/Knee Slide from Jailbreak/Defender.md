@@ -162,6 +162,8 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slide from Jailbreak?</p>
+
 - Passer increases crossface pressure and turns your head away while their weight shifts forward, signaling imminent passing commitment
 - Passer's trapped-side knee angles diagonally toward the gap between your thighs and hip rather than remaining in standard half guard position
 - Passer's free leg posts firmly on the mat with increased drive through their hips, generating the power needed for the sliding motion
@@ -174,6 +176,8 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slide from Jailbreak?</p>
 
 - Recognize the knee slide initiation before the knee crosses your thigh line, as defensive success drops dramatically once the slide is in motion
 - Retract legs immediately from extended Jailbreak position to re-establish knee shield or butterfly hooks that block the passing corridor
@@ -188,6 +192,8 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slide from Jailbreak?</p>
 
 ### 1. Retract legs and re-establish knee shield before the knee slide enters the passing corridor
 
@@ -225,6 +231,8 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slide from Jailbreak?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a bridge or hip escape at the exact moment the passer's weight commits forward for the knee slide, exploiting their narrow base and forward momentum to reverse position. Chain the bridge with an underhook on the far side and continue the sweeping motion through to top position.
@@ -240,6 +248,8 @@ Retract legs early to re-establish knee shield or butterfly hooks before the kne
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slide from Jailbreak?</p>
 
 ### 1. Keeping legs extended in the Jailbreak position after recognizing the knee slide initiation instead of immediately retracting
 
@@ -269,6 +279,8 @@ Retract legs early to re-establish knee shield or butterfly hooks before the kne
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slide from Jailbreak?</p>
+
 **Phase 1: Recognition Drilling** - Identifying knee slide initiation cues from Jailbreak bottom
 Partner alternates between standard Jailbreak top pressure and knee slide initiation. Bottom player calls out 'slide' each time they recognize the setup cues without attempting to defend. Develops the pattern recognition needed to react in time during live training.
 
@@ -285,29 +297,6 @@ Start from Jailbreak bottom position. Top player attempts to pass using any tech
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Knee Slide from Jailbreak is being initiated?
-**A**: The earliest cue is the passer's trapped-side knee changing angle from a neutral half guard position to pointing diagonally toward the gap between your thighs and hip. This angle change precedes the actual sliding motion by a fraction of a second and is accompanied by increased crossface pressure and a weight shift forward through the hips. Recognizing this knee angle change gives you the maximum time to initiate your defensive response before the slide begins.
-
-**Q2**: Why is leg retraction the highest-percentage defensive response against this pass?
-**A**: Leg retraction is the highest-percentage defense because it directly eliminates the passing corridor that the knee slide requires. When you retract your legs from the extended Jailbreak configuration and insert a knee shield or butterfly hook, you physically block the path the passer's knee needs to travel. Unlike counters that rely on timing or leverage, retraction simply removes the structural vulnerability. The key is speed: you must retract before the passer's knee enters the corridor.
-
-**Q3**: How does the defender's body orientation affect their ability to stop the Knee Slide from Jailbreak?
-**A**: Body orientation is decisive. Being on your side facing the passer preserves hip mobility needed for shrimping, guard recovery, and underhook battles. Being flat on your back eliminates all hip movement and makes every defense exponentially harder. The crossface is specifically designed to flatten you, so actively maintaining your side orientation through posting with your free leg and framing against the crossface is a prerequisite for any successful defense.
-
-**Q4**: What should you do if the passer's knee has already crossed your thigh line during the slide?
-**A**: Once the knee has crossed the thigh line, your primary options narrow significantly. Focus on preventing the passer from consolidating by immediately framing against their hip with your near arm and hip escaping to create enough space to get your knee inside as a frame. If you can insert your knee between your bodies, you can push back to half guard. If the pass is too far along, begin transitioning your defense to side control escape preparation rather than burning energy on a lost guard battle.
-
-**Q5**: Your opponent fakes the knee slide and switches to a smash pass when you retract your legs. How do you adapt?
-**A**: This is a common chain passing tactic. When you retract your legs and the passer switches to a smash pass, immediately reinforce your knee shield by adding a forearm frame behind your knee and angling your shin diagonally across their body. The knee shield that blocks the knee slide also serves as the first layer of defense against the smash pass. If they drive through the shield, switch to a deep half entry by diving underneath them, using their forward smashing pressure to create space below. Stay mentally prepared for pass switches rather than committing entirely to defending one specific pass.
-
-
-
-</section>
 
 
 </main>

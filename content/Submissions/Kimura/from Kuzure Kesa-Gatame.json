@@ -1,0 +1,444 @@
+{
+  "name": "Kimura from Kuzure Kesa-Gatame",
+  "description": "Master the Kimura shoulder lock from Kuzure Kesa-Gatame with expert grip mechanics, finishing sequences, and counters for attacker and defender.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "kuzure-kesa-gatame"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Kuzure Kesa-Gatame",
+  "from_position": "Kuzure Kesa-Gatame/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from Kuzure Kesa-Gatame ranks among the highest-percentage shoulder lock setups in Brazilian Jiu-Jitsu. The position's inherent arm isolation—where the opponent's arm is already trapped across your torso—provides a natural pathway to the figure-four grip without the typical grip-fighting battle that characterizes Kimura attempts from other positions. The top player's hip pressure pins the opponent in place, creating a stable platform from which to methodically secure the wrist, establish the figure-four, and rotate the shoulder toward its breaking point.\n\nWhat makes this variant particularly effective is the control redundancy built into Kuzure Kesa-Gatame. Even as you transition from positional control to submission finishing, the hip pressure and body positioning continue to restrict the opponent's escape options. The opponent cannot simply turn away or bridge effectively because your seated base and posted leg create structural barriers to reversal. This allows you to apply the Kimura slowly and methodically, using progressive rotational pressure rather than explosive force—an approach that is both safer in training and more reliable under competition pressure.\n\nThe submission chains available from this position further elevate its strategic value. If the opponent straightens their arm to resist the Kimura grip, an armbar presents itself. If they grab their own belt or pants to prevent rotation, transitioning to an americana or switching to the Kimura Trap maintains offensive pressure. These branching options transform the Kimura attempt from a single technique into a comprehensive submission system that forces the opponent to address multiple threats simultaneously.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position by externally rotating back to starting angle",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Kuzure Kesa-Gatame",
+    "Modified Scarf Hold"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Far Side Armbar",
+    "Arm Triangle",
+    "Reverse Kimura"
+  ],
+  "related_content": [
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Starting position providing the arm isolation that enables this submission"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Parent submission - this is the position-specific variant"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative shoulder lock available from the same arm isolation"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Transitional control position when opponent defends the finish"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family sharing lateral control principles"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Kuzure Kesa-Gatame/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Figure-Four Entry",
+      "description": "From established Kuzure Kesa-Gatame with the arm already trapped, release your near hand to pin the opponent's wrist to your chest, then thread your far arm underneath their forearm to complete the figure-four grip. This is the primary entry and works best when the opponent's arm is bent at approximately 90 degrees.",
+      "when_to_use": "When opponent maintains a bent-arm defensive posture and you have solid hip pressure established"
+    },
+    {
+      "variation_name": "Kimura-to-Armbar Chain",
+      "description": "When the opponent straightens their arm to prevent the figure-four grip, abandon the Kimura entry and transition to an armbar by controlling the straightened arm at the wrist, stepping over the head with your far leg, and falling back. The opponent's defensive reaction to one submission creates the opening for the other.",
+      "when_to_use": "When opponent extends their trapped arm to resist the figure-four grip acquisition"
+    },
+    {
+      "variation_name": "Grip-Peel to Finish",
+      "description": "When the opponent grabs their own belt, pants, or opposite wrist to block the Kimura rotation, use your posting hand to attack the weakest link in their defensive chain—typically the fingers of the gripping hand. Peel one finger at a time while maintaining rotational tension with the figure-four, then complete the finish once the grip breaks.",
+      "when_to_use": "When opponent establishes a connected defensive grip that blocks the rotational finish"
+    }
+  ],
+  "attacker": {
+    "name": "from Kuzure Kesa-Gatame Attacker",
+    "description": "Step-by-step guide to attacking with the Kimura from Kuzure Kesa-Gatame. Grip mechanics, finishing sequences, counter responses, and training drills.",
+    "overview": "Attacking with the Kimura from Kuzure Kesa-Gatame leverages the position's built-in arm isolation to create one of the most mechanically advantageous shoulder lock setups available. The trapped arm is already partially controlled, reducing grip acquisition to a single decisive action—securing the figure-four on the wrist. From there, the attacker uses hip pressure as an anchor while rotating the opponent's arm behind their back, attacking the shoulder's external rotation limit. The key distinction from other Kimura positions is that you never need to sacrifice positional control to pursue the submission, as the finishing mechanics work in harmony with the pin mechanics. The seated base, posted leg, and chest pressure all remain intact throughout the submission sequence, meaning a failed attempt simply returns you to a dominant control position.",
+    "key_principles": [
+      "Maintain hip pressure throughout the entire submission sequence—never lift to adjust grips",
+      "Secure the figure-four with your near hand (closest to opponent's head) controlling the wrist first",
+      "Use body rotation rather than arm strength to generate finishing torque on the shoulder",
+      "Keep elbows tight to your body when rotating to maximize mechanical advantage",
+      "Control the opponent's elbow height—keeping it above shoulder level accelerates the finish",
+      "Time grip acquisition to coincide with the opponent's defensive hand movement or adjustment"
+    ],
+    "setup_requirements": [
+      "Established Kuzure Kesa-Gatame with hip pressure pinning opponent's ribs",
+      "Opponent's arm trapped between your armpit and chest with their shoulder pinned to the mat",
+      "Base leg posted wide enough to prevent bridge-and-roll during the grip transition phase",
+      "Opponent's wrist accessible for figure-four grip acquisition without releasing armpit clamp",
+      "Head positioned past opponent's far shoulder to prevent reversal during finish"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure wrist control",
+        "description": "While maintaining your armpit clamp on the opponent's upper arm, release your near hand (closest to their head) to grip their wrist. Pin their wrist firmly to your chest with your palm facing down, keeping your elbow tight to your ribs. Do not lift your hip pressure during this transition.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread the figure-four grip",
+        "description": "Slide your far arm underneath the opponent's forearm from the outside, reaching through to grip your own wrist and completing the figure-four lock. Keep your chest low throughout—the threading motion should come from your arm, not from sitting up to create space.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Set the arm angle to perpendicular",
+        "description": "Using your connected figure-four grip, adjust the opponent's forearm to a perpendicular angle relative to their torso. Their elbow should be bent at approximately 90 degrees with the forearm pointing toward the ceiling. This is the mechanically optimal starting position for the rotation.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 4,
+        "action": "Elevate the elbow above shoulder line",
+        "description": "Walk your grip position so the opponent's elbow rises above their shoulder line. This eliminates their strongest defensive structure—the chest wall and lat muscles—and places the shoulder in a compromised rotational position where the rotator cuff bears the full load of resistance.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Initiate rotational pressure",
+        "description": "Begin rotating the opponent's wrist toward the mat behind their back. Drive this rotation with your entire upper body turning as a single unit rather than pulling with your arms alone. Keep your hip pressure constant and let the body rotation multiply the force through the figure-four lever.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the finish progressively",
+        "description": "Continue smooth rotation until the opponent taps. The critical breaking point occurs when the wrist passes behind the plane of the opponent's back—the shoulder has no structural defense beyond this angle. Apply pressure over 3-5 seconds in training, giving the opponent time to recognize the submission and signal the tap safely.",
+        "timing": "3-5 seconds in training"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent grabs their own belt or pants to create a connected defensive grip blocking rotation",
+        "effectiveness": "High",
+        "your_response": "Use your posting hand to peel their grip one finger at a time while maintaining rotational tension, or abandon the Kimura and step over their head to transition to an armbar on the now-extended arm",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively toward your posting leg during the grip transition phase",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base leg immediately and drop your head past their far shoulder to redirect the bridge force. If they achieve a partial roll, follow through to maintain top position and re-establish Kuzure Kesa-Gatame",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Opponent straightens the trapped arm to prevent figure-four grip from connecting",
+        "effectiveness": "Low",
+        "your_response": "Immediately transition to an armbar by controlling the straightened arm at the wrist, swinging your leg over their face, and falling back. Their defensive reaction creates the armbar opening",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Opponent turns into you and begins recovering closed guard during the submission attempt",
+        "effectiveness": "Medium",
+        "your_response": "Maintain the figure-four grip through the guard recovery and continue applying the Kimura from inside their closed guard, or release and posture to pass before reattempting",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing hip pressure by sitting up to thread the figure-four grip",
+        "consequence": "Creates space for the opponent to turn, bridge, or recover guard, nullifying the submission attempt and potentially losing the dominant position entirely",
+        "correction": "Keep hips glued to the opponent's ribs throughout grip acquisition—reach for the wrist without lifting your torso or shifting your center of gravity"
+      },
+      {
+        "error": "Gripping the figure-four with arms extended away from your body",
+        "consequence": "Reduces mechanical advantage dramatically, requiring muscular strength rather than leverage to generate rotational force for the finish",
+        "correction": "Keep both elbows pinched tight to your ribs throughout the submission, using body rotation as a unit to generate torque rather than isolated arm pulling"
+      },
+      {
+        "error": "Attempting to finish by pulling the opponent's wrist upward toward the ceiling",
+        "consequence": "Attacks the wrong plane of shoulder rotation and is easily defended by the opponent simply flattening their arm against the mat",
+        "correction": "Rotate the wrist behind the opponent's back toward the mat, attacking the external rotation limit of the shoulder joint where defensive strength is minimal"
+      },
+      {
+        "error": "Rushing the grip acquisition before establishing solid wrist control",
+        "consequence": "Opponent strips the incomplete figure-four grip and recovers their defensive arm position, requiring the entire setup sequence to restart from scratch",
+        "correction": "Pin the wrist firmly to your chest first with a solid grip, then methodically thread the figure-four underneath without rushing the connection"
+      },
+      {
+        "error": "Neglecting to elevate the opponent's elbow above their shoulder line before finishing",
+        "consequence": "The opponent can tuck their elbow below shoulder level where the chest wall and lat muscles provide substantial resistance to rotation",
+        "correction": "Walk your grip position to lift the elbow above the shoulder line before initiating any rotational pressure, removing the opponent's strongest muscular defense"
+      },
+      {
+        "error": "Applying the finish with an explosive jerking motion instead of progressive rotation",
+        "consequence": "Serious risk of shoulder injury to training partner including labral tears, rotator cuff damage, or dislocation that could require surgical repair",
+        "correction": "Apply smooth, progressive rotation over 3-5 seconds in training, giving the opponent time to recognize the submission threat and tap safely"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Grip Acquisition Isolation",
+        "focus": "Figure-four grip mechanics from Kuzure Kesa-Gatame",
+        "description": "Practice transitioning from Kuzure Kesa-Gatame arm control to figure-four grip without losing hip pressure. Partner provides no resistance. Repeat 20 times per side until the wrist pin and figure-four threading become automatic without any torso lifting."
+      },
+      {
+        "phase": "Finishing Mechanics",
+        "focus": "Rotational pressure and body mechanics",
+        "description": "From an established figure-four grip, practice the finishing rotation using body movement rather than arm strength. Partner taps at first pressure. Focus on smooth application speed, elbow height control, and maintaining hip pressure throughout the rotation."
+      },
+      {
+        "phase": "Counter Recognition",
+        "focus": "Identifying and defeating defensive responses",
+        "description": "Partner actively defends using grip fighting, bridging, arm straightening, and guard recovery. Practice recognizing each counter as it develops and transitioning to the appropriate response—grip peel, base adjustment, armbar chain, or positional re-establishment."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full integration under realistic resistance",
+        "description": "Start in Kuzure Kesa-Gatame with the attacker pursuing the Kimura while the defender uses all available escapes and defenses. Three-minute rounds at full resistance. Track success rate across rounds and identify remaining technical gaps in grip acquisition, finishing, and counter-response."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Kimura from Kuzure Kesa-Gatame primarily attack?",
+        "answer": "The Kimura targets the shoulder joint's external rotation limit, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress occurs at the acromioclavicular joint when rotation is taken past the normal range of motion.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is maintaining hip pressure during grip acquisition critical to this submission's success?",
+        "answer": "Hip pressure serves dual purposes: it pins the opponent's torso to prevent them from creating the space needed to turn, bridge, or recover guard, and it anchors your own body so that upper body movements to secure the grip do not shift your center of gravity. Without hip pressure, the opponent exploits the momentary attention shift to escape before the figure-four is established.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent grabs their own belt to block the Kimura rotation—what are your two best responses?",
+        "answer": "First, use your posting hand to peel their defensive grip one finger at a time while maintaining rotational tension through the figure-four. Second, abandon the Kimura rotation and step over their head to transition to an armbar, using their connected grip defense as the setup for the arm extension. Recognizing that their grip defense opens other submission pathways is more effective than trying to power through the block.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the rotation does the Kimura become dangerous where the opponent can no longer safely resist?",
+        "answer": "The critical danger point occurs when the opponent's wrist passes behind the plane of their back. Before this point, the shoulder has natural range-of-motion buffer and muscular defense. Once the wrist moves behind the back, external rotation has exceeded the shoulder's safe structural limit and further pressure causes immediate ligament and tendon damage. Controlled application speed is essential to give the opponent time to tap before this point.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the finishing direction from Kuzure Kesa-Gatame differ from a Kimura applied from closed guard bottom?",
+        "answer": "From Kuzure Kesa-Gatame, the rotation drives the opponent's wrist toward the mat behind their back with gravity assistance, and the finish relies on body rotation rather than arm pulling. From closed guard bottom, the Kimura rotates the wrist upward toward the ceiling against gravity, requiring more grip strength and hip elevation to generate sufficient torque. The Kuzure Kesa-Gatame version is mechanically more efficient because gravity aids the finishing direction.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustment should you make if the opponent's arm is slippery from sweat in no-gi?",
+        "answer": "Deepen the figure-four by threading your arm further under the opponent's forearm so your grip connects closer to your own elbow rather than at the wrist. This creates a tighter mechanical loop with more surface contact, reducing the chance of slipping. You can also cup the opponent's wrist with your controlling hand rather than using a standard grip, creating a hook shape that resists the slipping direction more effectively.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you release the Kimura safely after your training partner taps?",
+        "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Slowly return the arm toward its natural resting position by externally rotating back toward the starting angle. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as this can cause injury even after the rotational pressure stops.",
+        "safety_critical": true
+      },
+      {
+        "question": "What signals indicate you should abandon the Kimura attempt and return to positional control?",
+        "answer": "Abandon the attempt when your hip pressure has been compromised and the opponent is actively turning into you, when you cannot secure the figure-four grip after two attempts and the opponent is actively defending, or when the opponent has connected their hands in a defensive grip you cannot break without sacrificing base. Returning to solid Kuzure Kesa-Gatame preserves your dominant position and allows another attempt from a stronger starting point.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is elbow elevation above the shoulder line important before initiating the rotational finish?",
+        "answer": "When the elbow sits below shoulder level, the opponent's chest wall and latissimus dorsi provide substantial muscular resistance to rotation, making the finish require significantly more force. Elevating the elbow above the shoulder line bypasses these large muscle groups and isolates the rotational load onto the smaller rotator cuff muscles and ligaments, which cannot resist the torque effectively. This is the difference between muscling a finish and using proper leverage.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you chain the Kimura attempt with an armbar when the opponent straightens their arm defensively?",
+        "answer": "When the opponent extends their arm to prevent the figure-four grip from connecting, immediately control the straightened arm at the wrist with your near hand. Swing your far leg over their head while maintaining wrist control, then sit back into the armbar position. The key is recognizing the arm extension as an opportunity rather than a setback—their defensive reaction to the Kimura creates the mechanical setup the armbar requires.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Kuzure Kesa-Gatame Defender",
+    "description": "Defend and escape the Kimura from Kuzure Kesa-Gatame. Recognition cues, defensive timing, escape paths, and safe tapping protocols for all levels.",
+    "overview": "Defending the Kimura from Kuzure Kesa-Gatame requires early recognition and immediate action, as the position's built-in arm isolation means the attacker is already halfway to the submission before they begin the figure-four grip. The trapped arm's vulnerability makes prevention far more effective than late-stage escape. Your primary defensive strategy centers on denying the wrist control that enables the figure-four, maintaining a bent-arm position that resists rotation, and exploiting the attacker's weight shifts during grip acquisition to create escape opportunities. Understanding the biomechanical breaking point of the shoulder—and recognizing when you are approaching it—is essential for training safely and knowing when to tap rather than risk catastrophic injury.",
+    "key_principles": [
+      "Keep the trapped arm bent at 90 degrees with elbow tight to your ribs at all times",
+      "Grip your own lapel, belt, or opposite wrist to create a defensive chain blocking rotation",
+      "Recognize the submission attempt during grip acquisition—not after the figure-four is locked",
+      "Time escape attempts to the attacker's weight shifts when they reach for your wrist",
+      "Turn toward the attacker rather than away to reduce rotational angle and enable guard recovery",
+      "Tap immediately when rotation reaches behind your back—no effective defense exists past this point"
+    ],
+    "recognition_cues": [
+      "Attacker releases their controlling hand from your upper arm and reaches toward your wrist or forearm",
+      "Attacker's far arm begins threading underneath your forearm to establish the figure-four connection",
+      "You feel your wrist being pinned to the attacker's chest with your palm pressed downward",
+      "Attacker's body begins rotating away from you while maintaining hip pressure, signaling the finishing sequence has started"
+    ],
+    "defensive_options": [
+      {
+        "action": "Pin elbow to ribs and grip your own belt, pants, or opposite wrist to block figure-four acquisition",
+        "when_to_use": "As soon as you feel the attacker release their controlling hand to reach for your wrist—this is the earliest and most effective intervention point",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top",
+        "if_successful": "Stalls the submission attempt and forces the attacker to problem-solve the defensive grip, buying time for positional escape",
+        "risk": "Attacker may switch to americana or transition to armbar if you become too focused on grip defense"
+      },
+      {
+        "action": "Bridge explosively toward attacker's posting leg during their grip transition phase",
+        "when_to_use": "The moment the attacker lifts their torso even slightly to thread the figure-four grip, creating a momentary base vulnerability",
+        "targets_outcome": "Kuzure Kesa-Gatame/Top",
+        "if_successful": "Disrupts the attacker's base and may create enough space to recover the trapped arm and begin re-guarding",
+        "risk": "If the bridge fails, you have expended energy and the attacker will re-settle with tighter control and awareness of the bridge threat"
+      },
+      {
+        "action": "Turn into the attacker and work to recover closed guard during the submission attempt",
+        "when_to_use": "After the figure-four is established but before significant rotation has begun—use the attacker's grip commitment to create turning space",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recovers guard position where the Kimura is substantially harder to finish due to hip mobility and distance management",
+        "risk": "Turning incorrectly or too late can accelerate the shoulder rotation and worsen the submission danger"
+      }
+    ],
+    "escape_paths": [
+      "Bridge toward posting leg during grip acquisition, recover trapped arm, and re-establish guard",
+      "Turn into the attacker to recover closed guard, using hip mobility to neutralize the Kimura grip",
+      "Straighten the trapped arm explosively to prevent figure-four connection, then immediately frame and hip escape"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Turn your entire body toward the attacker during their grip transition, thread your far leg over their hip, and lock closed guard. The Kimura becomes significantly harder to finish when you have hip mobility, can control distance, and can threaten sweeps that force the attacker to release the grip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the trapped arm to fully extend while trying to create distance or push the attacker away",
+        "consequence": "Creates an immediate armbar opportunity that is often higher percentage than the original Kimura threat, trading one submission danger for a worse one",
+        "correction": "Keep the elbow bent at all times during defense—straightening the arm is never a safe option from this position regardless of the defensive goal"
+      },
+      {
+        "error": "Turning away from the attacker to escape the submission pressure",
+        "consequence": "Exposes the back and can accelerate the Kimura rotation as the attacker follows the turn, potentially leading to both submission and back exposure",
+        "correction": "Always turn toward the attacker when escaping, as this reduces the effective rotational angle and creates guard recovery opportunities"
+      },
+      {
+        "error": "Delaying the tap when rotation has already reached behind the back",
+        "consequence": "Shoulder damage occurs rapidly once the wrist passes behind the back plane—waiting even one additional second can cause labral tears or rotator cuff injury requiring months of recovery",
+        "correction": "Tap immediately when you feel rotation reaching behind your back. There is no effective defensive technique available at this stage and the risk-reward is catastrophic"
+      },
+      {
+        "error": "Using only arm strength to resist the rotation without engaging hip movement",
+        "consequence": "Arm muscles fatigue quickly against the attacker's full body rotation, leading to a delayed but inevitable submission with accumulated shoulder strain",
+        "correction": "Engage your entire body by turning your hips toward the attacker, which structurally resists the rotation far more effectively than isolated arm strength"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that a Kimura attempt from Kuzure Kesa-Gatame is being initiated?",
+        "answer": "The primary recognition cue is the attacker releasing their controlling hand from your upper arm to reach for your wrist. You may also feel them shifting their weight slightly to free their far arm for threading the figure-four. The moment you sense either change, immediately activate your defensive grip by grabbing your own belt, pants, or opposite wrist to block the figure-four establishment before it connects.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point should you tap to the Kimura from Kuzure Kesa-Gatame to prevent injury?",
+        "answer": "Tap immediately when you feel your wrist being rotated behind the plane of your back. Once the shoulder's external rotation limit has been exceeded, there is no muscular defense available and the joint structures begin to fail rapidly. In training, always err on the side of tapping early—the shoulder joint is slow to heal and injuries frequently become chronic. Use verbal tap, hand tap, or foot tap, whichever signal is available fastest.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is turning toward the attacker safer than turning away when defending the Kimura?",
+        "answer": "Turning toward the attacker reduces the effective rotational angle of the Kimura by bringing your shoulder closer to the direction the wrist is being rotated, which buys defensive time and reduces leverage. Turning away actually increases the rotational distance and can accelerate the shoulder past its safe range of motion. Additionally, turning toward the attacker opens the path to closed guard recovery, which is your most favorable defensive outcome from this position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive options remain if the attacker has fully established the figure-four grip?",
+        "answer": "With the figure-four locked, your best option is to immediately turn your entire body toward the attacker to recover guard. Grip your own belt or pants with your free hand and use your hips to rotate toward them. If you cannot turn, grip-fight to break the figure-four by attacking the weakest point—the attacker's wrist-to-wrist connection. If rotation has already begun and you cannot stop it, tap immediately rather than risking permanent shoulder injury.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying submission initiation cues early",
+        "description": "Partner establishes Kuzure Kesa-Gatame and randomly initiates the Kimura grip. Practice recognizing the initiation cue and immediately activating your defensive grip. Build reaction speed through high-repetition drilling until the defensive response becomes automatic."
+      },
+      {
+        "phase": "Defensive Grip Resistance",
+        "focus": "Maintaining grip integrity under progressive pressure",
+        "description": "Partner has established the figure-four grip. Practice maintaining your defensive belt or pants grip while they apply progressively increasing rotational pressure. Learn where your grip breaks down and develop strategies for reinforcing it under load."
+      },
+      {
+        "phase": "Escape Integration",
+        "focus": "Combining defense with escape sequences",
+        "description": "Partner attempts the full Kimura sequence from grip acquisition through finish. Practice transitioning from defensive grip to guard recovery by turning into the attacker. Progressively increase partner resistance from 50% to full competition intensity."
+      },
+      {
+        "phase": "Live Defensive Sparring",
+        "focus": "Full resistance defense and safe tapping",
+        "description": "Start in Kuzure Kesa-Gatame bottom with partner pursuing the Kimura at full resistance. Practice all defensive options including prevention, grip fighting, guard recovery, and recognizing when to tap safely. Track escape success rate and identify technical gaps."
+      }
+    ]
+  }
+}

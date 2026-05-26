@@ -166,6 +166,8 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn In and Face?</p>
+
 - Bottom player's near-side knee begins swinging underneath their body toward the far side, creating the rotational momentum that drives the Turn In and Face escape
 - Bottom player's near hand reaches to grip your threading wrist or forearm, attempting to pin it against their chest to limit choking depth during the rotation
 - Bottom player posts their far-side hand on the mat at shoulder width, establishing the pivot point needed to drive the turning motion toward you
@@ -177,6 +179,8 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn In and Face?</p>
 
 - Maintain heavy perpendicular chest pressure on the bottom player's back and near shoulder to restrict the hip mobility required for rotational escape
 - Deepen threading arm grip immediately when rotation is detected — increased depth creates a tighter choking pathway that punishes the turn attempt
@@ -190,6 +194,8 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn In and Face?</p>
 
 ### 1. Drive heavy chest pressure downward and sprawl hips back onto the bottom player's near hip to flatten them before the rotation completes, reinforcing the perpendicular choking angle
 
@@ -227,6 +233,8 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn In and Face?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Prevent the rotation entirely by driving heavy perpendicular pressure onto the bottom player's near hip and back, flattening them before rotational momentum builds. Deepen the threading arm grip simultaneously so that any partial rotation tightens rather than loosens the choke. Maintain head pressure on their far shoulder to block the rotational pathway.
@@ -242,6 +250,8 @@ When the rotation has progressed past the stoppable point, immediately release b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn In and Face?</p>
 
 ### 1. Attempting to hold the buggy choke grip statically while the bottom player rotates, fighting the turn with arm strength alone
 
@@ -271,6 +281,8 @@ When the rotation has progressed past the stoppable point, immediately release b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn In and Face?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Partner initiates Turn In and Face at slow speed from buggy choke bottom while you practice recognizing the rotational cues (knee drive, far-hand post, wrist grab) and responding with immediate flattening pressure. Focus on driving hips heavy onto their near hip and chest perpendicular onto their back within one second of the initiation cue. Repeat 15-20 reps per side with partner providing gradually increasing rotational commitment.
 
@@ -287,29 +299,6 @@ Full positional sparring from buggy choke top. Bottom player uses all available 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating Turn In and Face?
-**A**: The near-side knee beginning to swing underneath the body toward the far side is the earliest reliable cue. This knee drive generates the rotational momentum that powers the entire escape. You may also feel their near hand reaching for your threading wrist and their far hand posting on the mat. Recognizing the knee drive within the first half-second gives you maximum time to respond with flattening pressure or transition to a back take.
-
-**Q2**: Why is static resistance to the rotation an ineffective defensive strategy?
-**A**: The Turn In and Face exploits a geometric vulnerability in the buggy choke — once the bottom player squares their hips to face you, the perpendicular choking angle collapses regardless of how tightly you grip. Static resistance with arm strength alone cannot overcome this geometric reality. Additionally, fighting the rotation statically wastes the brief transition window where you could convert to a back take or alternative submission.
-
-**Q3**: Your bottom player has initiated the turn and is halfway through the rotation — what is your highest-percentage response?
-**A**: At the halfway point, preventing the rotation through pressure alone is unlikely to succeed because momentum has built. Your highest-percentage response is to release the buggy choke grips and immediately follow the rotation by inserting your near hook and establishing seat belt control for a back take. The bottom player's own turning momentum carries you into back control if you follow their hips rather than fighting the rotation. This converts their escape attempt into a worse position for them.
-
-**Q4**: What body pressure distribution prevents the Turn In and Face from being initiated?
-**A**: Drive your chest perpendicular onto the bottom player's back and near shoulder while keeping your hips heavy on their near hip. This creates a flattening force that pins their hips to the mat, eliminating the mobility required to swing the near knee underneath and generate rotational momentum. Your head should stay tight to their far shoulder as an additional control point blocking the rotational pathway. Weight must be distributed through your chest and hips, not through your arms.
-
-**Q5**: How do you convert a Turn In and Face attempt into a guillotine or front headlock attack?
-**A**: As the bottom player's head comes around during the mid-rotation phase, shift your threading arm from the collar grip to a chin strap or around-the-neck position before they complete the turn. Your opposite hand secures the lock by connecting to your choking hand. This works best when you recognize the rotation early enough to adjust grips but the turn has progressed too far for flattening pressure to stop it. The key timing is during the head exposure window of mid-rotation.
-
-
-
-</section>
 
 
 </main>

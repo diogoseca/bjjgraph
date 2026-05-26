@@ -218,9 +218,9 @@ The Spider Sweep integrates into the Spider Guard system as the primary sweep th
 
 - [[Transitions/Lasso Sweep]] - Complementary sweep from lasso guard that chains with spider sweep threats
 
-- [[Submissions/Omoplata from Spider Guard]] - Complementary submission creating sweep-or-submit dilemma from same grips
+- [[Transitions/Spider Guard to Omoplata]] - Complementary submission creating sweep-or-submit dilemma from same grips
 
-- [[Submissions/Triangle from Spider Guard Bottom]] - Complementary submission attack that chains with spider sweep when opponent defends
+- [[Transitions/Triangle from Spider Guard]] - Complementary submission attack that chains with spider sweep when opponent defends
 
 - [[Transitions/Scissor Sweep from Open Guard]] - Related sweep using similar scissoring mechanics from different guard configuration
 

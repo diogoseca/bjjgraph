@@ -59,8 +59,8 @@
       "relationship": "Common follow-up action after achieving standing position"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Related defensive movement for regaining guard from bottom"
+      "name": "Scramble to Guard",
+      "relationship": "Related defensive transition for regaining guard from bottom during scrambles"
     },
     {
       "name": "Peterson Roll",
@@ -71,7 +71,7 @@
       "relationship": "Opponent's target position if standup is countered"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "relationship": "Essential principle for creating space during standup"
     },
     {
@@ -266,7 +266,7 @@
         "description": "Practice flowing between technical standup, hip escapes, granby rolls, and guard recovery based on opponent's pressure and position. Develop recognition skills for when standup is optimal choice versus alternative escapes. Perform 10-minute flow drilling sessions with cooperative partner."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is establishing a proper posting base more important than explosive speed when executing the technical standup?",
         "answer": "A proper posting base creates structural integrity that allows you to support your body weight and resist opponent's pressure during the vulnerable transition from bottom to standing. Explosive speed without solid base results in unstable balance that opponents can easily disrupt, causing you to fall back to bottom position or worse. The sequential base-building approach (hand post, foot plant, hip elevation, step through) distributes your weight properly and provides checkpoints where you can react to opponent interference. Speed matters only after base quality is established, as proper structure multiplies the effectiveness of explosive power."
@@ -400,7 +400,7 @@
         "correction": "Use body weight and angles rather than muscular effort. Position your weight so gravity assists your pressure. Heavy chest on their back with hips low creates sustainable pressure that does not depend on grip strength or muscular endurance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most effective timing window to counter the technical standup, and why is early intervention critical?",
         "answer": "The most effective counter window is during the posting hand phase, before the opponent establishes their frame and lead foot position. Early intervention is critical because once the bottom player has a stable tripod base (posting hand, lead foot, and trailing knee), they have structural support that is difficult to collapse with pressure alone. During the posting phase, the opponent has only one new base point and has not yet created distance with their frame, making it possible to collapse their structure with relatively low effort. Each subsequent phase of the standup creates additional stability, making your counter exponentially harder. The posting hand phase lasts roughly one second, so recognition speed is paramount."

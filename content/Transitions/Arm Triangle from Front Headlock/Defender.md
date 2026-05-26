@@ -166,6 +166,8 @@ Timing determines which defensive option is available. Before the grip locks, yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle from Front Headlock?</p>
+
 - The attacker's choking arm slides deeper behind your neck, moving from a standard front headlock wrap to a position where their bicep presses against the side of your neck opposite your near arm
 - You feel the attacker's free hand pushing your near elbow toward your ear or driving your forearm against your own face, actively working to trap your arm against your neck
 - The attacker's chest pressure shifts from purely downward (standard front headlock) to a lateral component, with their weight beginning to move toward the side of your trapped arm as they initiate the walk to side control
@@ -178,6 +180,8 @@ Timing determines which defensive option is available. Before the grip locks, yo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Triangle from Front Headlock?</p>
 
 - Prevent your near arm from being trapped against your neck - extend it away from your face and fight to keep your bicep separated from your carotid at all times
 - Recognize the grip transition early by feeling the attacker's arm sliding deeper behind your neck and their chest shifting from downward pressure to lateral squeezing
@@ -192,6 +196,8 @@ Timing determines which defensive option is available. Before the grip locks, yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle from Front Headlock?</p>
 
 ### 1. Extend your near arm straight down toward the mat and fight to separate your bicep from your neck, then circle away from the trapped arm side while posting your far hand on the attacker's hip to create distance
 
@@ -229,6 +235,8 @@ Timing determines which defensive option is available. Before the grip locks, yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle from Front Headlock?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Extract your near arm away from your neck before the grip locks by extending it toward the mat and fighting against the attacker's arm-trapping pressure. Combine arm extraction with explosive posture recovery or circling away from the attacker's grip. The earlier you act during the grip transition, the higher your success rate. Standing up during the transition moment is the highest-value escape as it resets the entire positional exchange.
@@ -244,6 +252,8 @@ When the arm triangle grip has locked but the attacker has not yet consolidated 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle from Front Headlock?</p>
 
 ### 1. Keeping your near arm tight against your body and neck while defending the front headlock, which is correct for guillotine defense but creates the exact arm position the arm triangle requires
 
@@ -278,6 +288,8 @@ When the arm triangle grip has locked but the attacker has not yet consolidated 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle from Front Headlock?</p>
+
 **Week 1-2** - Recognition and arm extraction
 Partner slowly executes the arm triangle setup from front headlock while you practice recognizing the grip change and extracting your near arm away from your neck. Focus on feeling the difference between standard front headlock pressure and the arm triangle threading motion. Drill extending your near arm to the mat and separating your bicep from your neck dozens of times. No resistance from partner beyond maintaining front headlock control. Build the automatic response of arm extension when the arm triangle is sensed.
 
@@ -294,29 +306,6 @@ Positional sparring starting from front headlock with partner attacking the full
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does the standard guillotine defense posture (arms tight to neck, chin tucked) actually make you more vulnerable to the arm triangle from front headlock?
-**A**: The guillotine defense positions your near arm tight against your neck with your bicep pressed into your carotid artery - which is exactly the arm position the arm triangle requires. When you clasp your hands near your chin to defend the guillotine, you are doing the attacker's arm-isolation work for them. The arm triangle needs your own arm compressing one carotid while the attacker's arm compresses the other, so your defensive chin-tuck posture with tight arms creates half the choke mechanism automatically. Recognizing this contradiction is critical - you must adjust your arm positioning when the attack shifts from guillotine to arm triangle.
-
-**Q2**: At what point during the arm triangle from front headlock sequence does the defender have the highest chance of successful escape, and why?
-**A**: The highest-percentage escape window is during the grip transition phase, when the attacker is reconfiguring from front headlock control to the arm triangle configuration. During this moment, the attacker's control is least stable because they are changing grip positions and their pressure momentarily shifts. The attacker cannot maintain full downward front headlock pressure while simultaneously threading the arm triangle grip, creating a brief control gap. Once the grip locks, escape difficulty increases substantially. Once side control is achieved with the grip locked, escape becomes very difficult. Defenders must act during the transition, not after consolidation.
-
-**Q3**: Your near arm is already trapped against your neck and you feel the attacker locking their gable grip behind your shoulder - what is your immediate defensive priority?
-**A**: Your immediate priority is preventing the attacker from walking to side control by framing on their near hip and inserting your inside knee between your bodies. The grip is already locked, so fighting to extract your arm at this point is lower percentage. Instead, focus on blocking the lateral transition that gives the choke its finishing angle. By inserting your knee and recovering half guard, you disrupt the side control position that the attacker needs for efficient finishing pressure. From half guard, you can work to loosen the grip and create the space needed to eventually extract your trapped arm.
-
-**Q4**: When caught in a fully consolidated arm triangle from side control after the front headlock transition, which direction should you bridge and why?
-**A**: Bridge toward the attacker and toward the trapped arm side, not away from the attacker. Bridging away from the attacker increases the squeeze angle because you are pulling your neck into the compression. Bridging toward the attacker reduces the angle of the squeeze by collapsing the space the attacker uses for shoulder drive. This direction also creates a chance to turn your body enough to extract your trapped shoulder from the choke configuration. The counterintuitive nature of this direction is why many defenders instinctively bridge the wrong way and accelerate their own submission.
-
-**Q5**: How should you adjust your hand positioning when you recognize the attacker is switching from a guillotine threat to an arm triangle setup from front headlock?
-**A**: You must switch from guillotine defense hand positioning (hands clasped near chin, arms tight to neck) to arm triangle defense hand positioning (near arm extended away from neck, far hand framing on attacker's hip). For guillotine defense, keeping your arms tight protects the chin and prevents the under-chin grip. For arm triangle defense, you need the opposite - your near arm must be as far from your neck as possible to prevent the bilateral compression. The transition between these two defensive postures must happen the instant you recognize the attack is changing, because any delay means the attacker completes the arm trap while your arm is still in the vulnerable guillotine-defense position.
-
-
-
-</section>
 
 
 </main>

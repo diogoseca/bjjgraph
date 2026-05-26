@@ -280,15 +280,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Americana",
+        "transition": "Cross Collar Choke from Modified Mount",
         "attempt_probability": 9
       },
       {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Kimura",
+        "transition": "Kimura from Modified Mount",
         "attempt_probability": 7
       },
       {
@@ -301,10 +297,10 @@
       },
       {
         "transition": "Americana from Modified Mount",
-        "attempt_probability": 4
+        "attempt_probability": 13
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary advantage of posting one leg in Modified Mount versus keeping both knees on the mat?",
         "answer": "The posted leg creates a significantly wider base that prevents explosive bridge-and-roll reversals. When an opponent attempts to bridge and roll, the posted foot acts as a structural anchor that stops the momentum, whereas standard mount with both knees down is more vulnerable to being rolled. The trade-off is slightly less even weight distribution across the opponent's torso."
@@ -573,7 +569,7 @@
         "attempt_probability": 5
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why should you escape toward the posted leg side rather than toward the across-body knee?",
         "answer": "The posted leg side has inherently weaker control because the opponent's weight is primarily distributed through the across-body knee onto your torso. The posted leg is extended outward for stability, creating a gap between their hip and your body that can be exploited with hip escapes. Escaping toward the across-body knee means fighting directly into their strongest control point where maximum pressure is applied, wasting energy with minimal progress."

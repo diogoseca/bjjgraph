@@ -148,6 +148,8 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook from Knee Shield?</p>
+
 - Bottom player's knee shield pressure changes abruptly—either a sudden strong push outward followed by release, or gradual lowering of the shield away from your chest
 - Near-side elbow moves away from their body as the arm prepares to swim inside, creating a visible opening between their elbow and ribcage
 - Bottom player's hips shift to face you more squarely, rotating from a defensive angled position to a more direct alignment needed for the underhook drive
@@ -160,6 +162,8 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook from Knee Shield?</p>
 
 - Maintain constant crossface pressure with shoulder driving into opponent's jaw, making it structurally impossible to turn in for the underhook
 - Control the opponent's near-side arm with an overhook, wrist pin, or bicep control to physically block the underhook swimming path
@@ -174,6 +178,8 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook from Knee Shield?</p>
 
 ### 1. Crossface and forward drive—immediately drive shoulder into opponent's jaw and apply maximum forward pressure when you detect knee shield lowering
 
@@ -204,6 +210,8 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook from Knee Shield?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Exploit the knee shield removal by immediately driving forward with maximum crossface pressure before the underhook is established. Flatten the opponent to the mat with shoulder and chest weight, eliminating both their knee shield frame and their ability to come to their knees. Establish dominant crossface and underhook control in the resulting flattened half guard.
@@ -219,6 +227,8 @@ Deny the underhook through proactive arm control and crossface pressure, forcing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook from Knee Shield?</p>
 
 ### 1. Allowing space between your chest and the opponent's near shoulder, giving them room to swim the underhook
 
@@ -248,6 +258,8 @@ Deny the underhook through proactive arm control and crossface pressure, forcing
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook from Knee Shield?</p>
+
 **Phase 1: Recognition** - Identifying underhook attempt cues from knee shield top position
 Partner signals underhook attempts with varying levels of telegraphing—from obvious to subtle. Top player calls out the recognition cue the moment they detect it. Build sensitivity to pressure changes, grip shifts, and hip angle adjustments. No actual countering yet—purely recognition speed.
 
@@ -264,26 +276,6 @@ Positional sparring from knee shield top with full resistance. Top player must b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt the underhook from knee shield?
-**A**: The earliest cue is a change in the bottom player's knee shield pressure pattern—they will either push outward harder to create a reaction or begin lowering the shield subtly. Watch for their near-side elbow moving away from their body, which indicates the arm is preparing to swim inside. If their outside hand grip changes from a defensive shoulder frame to a pulling collar or sleeve grip, this signals they are transitioning from retention to offense. Recognizing these pre-movement cues gives you time to preemptively apply crossface pressure before the underhook attempt begins.
-
-**Q2**: Your opponent has established a partial underhook but has not come to their knees yet—what is the highest-percentage counter?
-**A**: This is the critical counter window. Immediately drive your weight forward and down while establishing a strong crossface by driving your shoulder into their jaw. Simultaneously, secure a whizzer by wrapping your arm over their underhook arm and pulling your elbow toward your hip. The combination of crossface, forward pressure, and whizzer should flatten them back to the mat before they can complete the elevation to Dogfight. The key is committing your weight forward aggressively—hesitation allows them to complete the transition.
-
-**Q3**: How do you prevent the underhook attempt entirely rather than having to counter it after initiation?
-**A**: Proactive prevention is far more effective than reactive countering. Maintain constant crossface pressure with your shoulder driving into their jaw, which makes it structurally impossible for them to turn their shoulder in to swim the underhook. Control their near-side arm with an overhook or wrist pin to physically block the swimming motion. Keep your weight distributed forward so they cannot create the push-pull reaction needed to generate an underhook window. If you maintain these three controls simultaneously—crossface, arm control, and forward pressure—the underhook path becomes nearly impossible to execute.
-
-**Q4**: The bottom player successfully reaches Dogfight after establishing the underhook—what is your immediate response?
-**A**: Immediately secure a deep whizzer by wrapping your arm over and around their underhook arm, pulling your elbow tight to your hip. Drive your shoulder into their chest and attempt to flatten them back to the mat using downward and lateral pressure. If the whizzer alone is insufficient, combine it with a crossface using your other hand and circular footwork to create angles that undermine their Dogfight base. The worst response is remaining upright in a neutral Dogfight without establishing the whizzer, as this gives the bottom player full access to sweeps and back takes.
-
-
-
-</section>
 
 
 </main>

@@ -164,6 +164,8 @@ The defender who masters duck under recognition can convert successful defenses 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Duck Under from Clinch?</p>
+
 - Opponent breaks head-to-shoulder contact and begins lowering their level while maintaining or shifting to one-sided grip control on your arm
 - Feeling a push or snap on your head followed immediately by downward body movement from the opponent, indicating misdirection setup preceding the duck
 - Opponent's near hand moves to your elbow or bicep, attempting to redirect your arm upward before dipping their head underneath
@@ -176,6 +178,8 @@ The defender who masters duck under recognition can convert successful defenses 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Duck Under from Clinch?</p>
 
 - Maintain compact arm positioning in the clinch—avoid extending arms high or wide, which creates the space needed for the duck under entry
 - React to level changes immediately with hip movement—drop your hips or sprawl the instant you feel the opponent lowering their body beneath your arms
@@ -190,6 +194,8 @@ The defender who masters duck under recognition can convert successful defenses 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Duck Under from Clinch?</p>
 
 ### 1. Sprawl and drive hips back immediately upon recognizing the level change, pushing opponent's head or shoulders downward
 
@@ -227,6 +233,8 @@ The defender who masters duck under recognition can convert successful defenses 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Duck Under from Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 React early to the level change with a sprawl or whizzer to completely deny the duck under before the opponent clears your arm. Re-square your hips immediately and re-engage in clinch grip fighting. This preserves standing position and denies all back take attempts.
@@ -242,6 +250,8 @@ When the duck under is nearly complete and standing back control is imminent, im
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Duck Under from Clinch?</p>
 
 ### 1. Reacting to the level change by extending arms downward to push the opponent's head rather than moving the hips
 
@@ -271,6 +281,8 @@ When the duck under is nearly complete and standing back control is imminent, im
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Duck Under from Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Identifying duck under setup cues and selecting correct defensive response
 Partner signals duck under attempts at slow speed while you practice identifying grip shifts, level changes, and misdirection setups. Focus purely on recognition speed and selecting the correct defensive response without resistance. Build the pattern recognition that enables early intervention.
 
@@ -287,29 +299,6 @@ Full-speed positional sparring from clinch where partner may or may not attempt 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a duck under from the clinch?
-**A**: The earliest cue is a combination of the opponent's grip shifting to your elbow or bicep on one side—preparing to clear your arm upward—and a subtle weight drop as they load their legs for the level change. This is often preceded by a misdirection push or snap on your head. The grip adjustment combined with the level change preparation is the definitive tell that distinguishes a duck under setup from other clinch attacks like snap downs or double leg entries.
-
-**Q2**: Your opponent successfully clears your arm and is halfway behind you—what is your highest-percentage recovery?
-**A**: Immediately thread a whizzer on the arm closest to them and drive your hips toward the opponent rather than pulling away. Simultaneously step your far foot backward to begin re-squaring your body toward them. The whizzer creates a connection point that prevents full completion of the circle, while the hip drive stops their forward momentum. If the whizzer holds, use it to turn and face them recovering to clinch. If they are too deep for the whizzer to hold, sit to guard rather than giving up full standing back control.
-
-**Q3**: How should you adjust your overall clinch strategy against an opponent who repeatedly threatens the duck under?
-**A**: Lower your clinch engagement level by keeping hands and elbows tighter to your body, avoiding high collar ties that create gaps beneath your arms, and maintaining slightly more distance to reduce the effectiveness of their level change. Punish their duck under attempts by establishing front headlock or guillotine grip whenever their head drops below your arm level. Make the consequences of a failed duck under severe enough to discourage repeated attempts, forcing them to invest more heavily in misdirection before committing.
-
-**Q4**: Why is sprawling more effective as a duck under defense than stepping backward away from the opponent?
-**A**: Sprawling drives your hips away from the opponent while keeping your upper body weight on top of them, creating a structural barrier to their circular movement and dropping your center of gravity below their duck. Stepping backward maintains the spatial relationship between your bodies, gives them room to continue circling, and does nothing to close the gap beneath your arms. The sprawl also positions your chest weight on their upper back if their head is exposed, which can be converted directly to front headlock control.
-
-**Q5**: What is the relationship between your arm positioning in the clinch and vulnerability to the duck under?
-**A**: High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range.
-
-
-
-</section>
 
 
 </main>

@@ -158,6 +158,8 @@ When prevention fails and the attacker begins circling behind your shoulder line
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag?</p>
+
 - Opponent grabs your wrist with a pistol grip and simultaneously reaches for your tricep or upper arm with their other hand, establishing the characteristic two-on-one control
 - You feel a strong lateral pulling force across your body rather than straight toward the opponent, indicating the circular arm drag path is being initiated
 - Opponent's body begins moving to your side rather than staying in front of you, with their outside foot stepping past your shoulder line at approximately 45 degrees
@@ -170,6 +172,8 @@ When prevention fails and the attacker begins circling behind your shoulder line
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag?</p>
 
 - Maintain elbow discipline by keeping arms close to your body and avoiding extended or posted positions that give the attacker grip access to your wrist and tricep
 - React to the initial wrist grip immediately by retracting the arm sharply toward your own hip, eliminating the across-the-body pull path before the drag develops
@@ -184,6 +188,8 @@ When prevention fails and the attacker begins circling behind your shoulder line
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag?</p>
 
 ### 1. Immediate arm retraction and hip square: yank your arm back toward your own hip while aggressively turning your hips to face the attacker
 
@@ -221,6 +227,8 @@ When prevention fails and the attacker begins circling behind your shoulder line
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag?</p>
+
 ### → [[Positions/Standing Position]]
 
 Retract your arm sharply at the first sign of the wrist grip, square your hips immediately toward the attacker, and re-establish your stance with active hand fighting to deny further grip access. Alternatively, use a whizzer to arrest their circular movement and pummel back to inside position for a neutral reset.
@@ -232,6 +240,8 @@ Retract your arm sharply at the first sign of the wrist grip, square your hips i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag?</p>
 
 ### 1. Reaching or posting with extended arms during standing engagements, giving the attacker easy access to wrist and tricep grips
 
@@ -261,6 +271,8 @@ Retract your arm sharply at the first sign of the wrist grip, square your hips i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag?</p>
+
 **Week 1-2: Recognition and Prevention Drills** - Identifying arm drag setups and maintaining elbow discipline with proper posture
 Partner attempts slow-speed arm drags while you practice identifying the grip sequence and reacting with immediate arm retraction and hip squaring. Focus on recognizing the wrist-and-tricep grip pattern and the lateral pulling direction. No resistance from either side. Build the habit of keeping elbows close and retracting at the first sign of wrist control.
 
@@ -277,26 +289,6 @@ During regular sparring, practice not just defending the arm drag but converting
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an arm drag is being attempted and what should your immediate response be?
-**A**: The earliest cue is feeling a two-on-one grip on your arm with one hand on your wrist and another on your tricep, combined with lateral pulling force across your body rather than straight toward the opponent. Your immediate response should be to retract the arm sharply by bending your elbow and pulling your hand toward your own hip, while simultaneously squaring your hips to face the attacker. This eliminates the across-the-body path they need for the drag and removes the angular advantage before it develops.
-
-**Q2**: Why is turning toward the attacker the correct response rather than turning away or pulling straight back?
-**A**: Turning toward the attacker is correct because the arm drag only works when the attacker reaches a position behind your back. By aggressively turning your hips to face them, you eliminate the angular advantage they are creating and convert their back take attempt into a neutral face-to-face engagement. Turning away accelerates the back take by giving them a larger angle and more back exposure. Pulling straight back does not address the angular problem at all and allows them to continue circling because the direction of their movement is lateral, not linear toward you.
-
-**Q3**: When is the whizzer defense most effective against the arm drag, and what are its limitations?
-**A**: The whizzer is most effective during the mid-phase of the arm drag when the attacker has begun circling past your shoulder line but has not yet established chest-to-back connection or inserted hooks. The overhook creates an anchor that arrests their circular movement and allows you to drive your hip into them to re-square the position. Its primary limitation is that it commits one of your arms, leaving you potentially vulnerable to the attacker ducking under to the opposite side, converting to a different takedown, or using the whizzer as a control point for inside trips. The whizzer is a delay-and-recover tool, not a permanent solution.
-
-**Q4**: Your opponent has completed the arm drag and reached your back but has not yet inserted hooks - what is your defensive priority sequence?
-**A**: Your immediate priority is to turn and face the attacker before they insert hooks, not to strip their grips. Begin by aggressively turning your hips toward them while keeping your elbows tight to your body to deny easy hook entry. Use your near-side arm to frame against their hip or thigh to create separation space. The critical window is the one to two seconds between them reaching your back and establishing the first hook. Once you are facing them, the back take is neutralized regardless of their grip position. If you cannot complete the turn, drop to a defensive turtle posture and begin standard back defense protocols.
-
-
-
-</section>
 
 
 </main>

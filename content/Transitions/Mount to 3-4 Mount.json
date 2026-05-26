@@ -84,7 +84,7 @@
       "relationship": "Alternative when maintaining standard mount is more advantageous"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Primary submission threat that creates openings for 3-4 Mount entry"
     },
     {
@@ -235,7 +235,7 @@
         "description": "Start from settled mount with full resistance. Practitioner must read the opponent's defensive posture, select the correct side for 3-4 Mount entry, execute the transition, and immediately flow to the next technique (submission or further positional advancement). Score based on successful transitions and follow-up attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you shift weight to the mounted side before extracting the posting leg?",
         "answer": "The weight shift ensures the opponent feels increased pressure during the transition rather than a momentary reduction in control. Without loading weight onto the mounted side first, extracting a leg creates a pressure vacuum that gives the opponent a window for hip escape or frame insertion. The weight transfer also pre-loads the mounted knee for the consolidation drive that follows extraction, making the entire sequence feel like one continuous pressure application rather than a disjointed position change."
@@ -267,6 +267,14 @@
       {
         "question": "After completing the transition to 3-4 Mount, what is the most important consolidation action?",
         "answer": "Driving the remaining mounted knee deeper into the opponent's ribs or armpit is the most critical consolidation action. This wedging motion eliminates any residual space created during the transition window and establishes the characteristic directional pressure of 3-4 Mount. Without this consolidation drive, the mounted side remains loose enough for the opponent to insert frames or begin shrimp escapes. The knee drive should be combined with forward chest pressure to create a heavy, settled position before considering any subsequent attacks or transitions."
+      },
+      {
+        "question": "Your opponent frames on your right hip with their left hand during the transition. Should you abandon the transition or continue?",
+        "answer": "It depends on frame depth. A shallow frame where the hand contacts your hip without significant extension can be driven through by increasing hip pressure and completing the knee extraction—the posted foot will restore your base before the frame becomes problematic. However, a deep frame where the opponent has their forearm wedged between your hip and their body with elbow-to-knee connection creates structural space that will widen as you extract. In this case, abandon the transition, strip or collapse the frame using crossface pressure and wrist control, re-settle standard mount, then reattempt once the frame is neutralized."
+      },
+      {
+        "question": "How does the reaction-based entry variant differ from the grip-first variant in terms of timing and risk?",
+        "answer": "The grip-first variant establishes control before the transition begins, making the extraction safer but potentially alerting the opponent to a positional change through the grip itself. The reaction-based variant uses a submission threat to freeze the opponent's hips and occupy their arms, creating a distraction window for leg extraction. The reaction-based entry carries higher risk because it requires committing to a credible submission feint while simultaneously executing the base change—if the opponent does not react to the feint, you may find yourself mid-extraction without the expected freeze. The grip-first variant is more reliable against all opponents, while the reaction-based variant is more effective specifically against experienced defenders who counter grip establishment."
       }
     ],
     "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions."
@@ -352,7 +360,7 @@
         "correction": "Wait for the specific cue of lateral weight loading, then bridge explosively into the direction of their committed weight shift for maximum disruption"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you the opponent is preparing to transition to 3-4 Mount?",
         "answer": "The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action."

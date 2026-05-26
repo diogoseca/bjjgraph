@@ -38,7 +38,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the trapped sleeve while extending your lasso leg to create maximum leverage against the opponent's shoulder joint
@@ -117,7 +117,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (2% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
@@ -194,7 +194,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (8% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (3% of attempts)
+- **[[Kimura from Lasso Guard/Attacker|Kimura from Lasso Guard]]** (3% of attempts)
 
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (6% of attempts)
 

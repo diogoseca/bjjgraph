@@ -15,7 +15,7 @@
   "from_position": "Triangle Control/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inverted Triangle",
       "probability": 55,
       "result": "success"
     },
@@ -62,7 +62,7 @@
       "relationship": "Starting position from which the inverted triangle is initiated"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Primary alternative submission from same control position"
     },
     {
@@ -243,7 +243,7 @@
         "description": "Integrate inverted triangle into regular triangle attack sequences during positional sparring and live rolling. Focus on reading opponent's defense patterns and selecting appropriate response—standard finish, armbar, omoplata, or inverted triangle. Test against fully resisting opponents."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that signals the opportunity to attempt an inverted triangle?",
         "answer": "The primary trigger is when the opponent turns their trapped shoulder inward toward your hip to defend the standard triangle choke. This shoulder rotation, while effective against the front triangle, creates the opening for the inverted attack by moving their neck into the reverse choking angle."
@@ -376,7 +376,7 @@
         "correction": "Keep elbows tight to body and work systematic escape through posture, hip positioning, and controlled arm extraction rather than explosive upper body pushing"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting an inverted triangle rather than continuing the standard triangle attack?",
         "answer": "The earliest cue is when the opponent releases their head control grip and reaches across your body toward your far hip or belt line. This grip change is the necessary precursor to the rotation—they cannot rotate without an anchor point on your far side. Recognizing this grip switch gives you the maximum defensive window before the rotation begins."

@@ -1,12 +1,15 @@
 // Victory Display - Game-over page with performance report
 // Journey data stored in localStorage (future: auth + server-side persistence)
+import { getRollParam, decodeRollUrl, clearRollUrl, clearRollHistory } from "./explorerGraphExpand"
+import { loadSettings } from "./settings"
 
 interface JourneyStep {
   slug: string
   name: string
   type: "position" | "transition" | "submission"
   success?: boolean
-  action?: "dice-roll" | "flashcard"
+  action?: "dice-roll" | "flashcard" | "opponent-turn"
+  rating?: "again" | "hard" | "easy"
 }
 
 interface VictoryData {
@@ -33,6 +36,7 @@ interface LifetimeStats {
   totalMoves: number
   diceRolls: { total: number; successes: number }
   flashcards: { total: number; correct: number }
+  opponentTurns: { total: number; defended: number }
   techniques: Record<string, TechniqueLifetime>
 }
 
@@ -51,16 +55,18 @@ function loadLifetimeStats(): LifetimeStats {
     totalMoves: 0,
     diceRolls: { total: 0, successes: 0 },
     flashcards: { total: 0, correct: 0 },
+    opponentTurns: { total: 0, defended: 0 },
     techniques: {},
   }
 }
 
 function saveLifetimeStats(stats: LifetimeStats) {
   localStorage.setItem(LIFETIME_KEY, JSON.stringify(stats))
+  import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
 /** Backward-compat: old journey data lacks action field */
-function inferAction(step: JourneyStep): "dice-roll" | "flashcard" {
+function inferAction(step: JourneyStep): "dice-roll" | "flashcard" | "opponent-turn" {
   return step.action ?? "dice-roll"
 }
 
@@ -77,7 +83,11 @@ function accumulateStats(journey: JourneyStep[]): LifetimeStats {
 
     const action = inferAction(step)
 
-    if (action === "dice-roll") {
+    if (action === "opponent-turn") {
+      if (!stats.opponentTurns) stats.opponentTurns = { total: 0, defended: 0 }
+      stats.opponentTurns.total++
+      if (step.success) stats.opponentTurns.defended++
+    } else if (action === "dice-roll") {
       stats.diceRolls.total++
       if (step.success) stats.diceRolls.successes++
     } else {
@@ -98,10 +108,11 @@ function accumulateStats(journey: JourneyStep[]): LifetimeStats {
     if (action === "dice-roll") {
       tech.diceAttempts++
       if (step.success) tech.diceSuccesses++
-    } else {
+    } else if (action === "flashcard") {
       tech.flashcardAttempts++
       if (step.success) tech.flashcardCorrect++
     }
+    // opponent-turn is tracked at stats.opponentTurns level, skip per-technique
   }
 
   saveLifetimeStats(stats)
@@ -313,13 +324,35 @@ function navigateToRandomPosition() {
 function handleRollAgain() {
   localStorage.setItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
+  clearRollHistory()
   navigateToRandomPosition()
 }
 
 function handleStartRoll() {
   localStorage.setItem("bjj-journey", "[]")
   sessionStorage.removeItem("victory-data")
+  clearRollHistory()
   navigateToRandomPosition()
+}
+
+function showSavePromptIfNeeded(container: HTMLElement) {
+  const supabaseUrl = (window as any).__SUPABASE_URL as string | undefined
+  if (!supabaseUrl) return
+  const ref = supabaseUrl.replace("https://", "").split(".")[0]
+  try {
+    const raw = localStorage.getItem(`sb-${ref}-auth-token`)
+    if (raw && JSON.parse(raw)?.access_token) return // already authenticated
+  } catch {
+    // no token
+  }
+  if (container.querySelector(".save-prompt")) return
+  const prompt = document.createElement("div")
+  prompt.className = "save-prompt"
+  prompt.innerHTML = `<span>Sign up to track your lifetime stats across devices</span><button class="save-prompt-btn">Sign up free</button>`
+  prompt.querySelector("button")?.addEventListener("click", () => {
+    ;(window as any).openAuthModal?.("signup")
+  })
+  container.appendChild(prompt)
 }
 
 document.addEventListener("nav", () => {
@@ -399,34 +432,65 @@ document.addEventListener("nav", () => {
         }
       }
 
+      // Game mode badge
+      const settings = loadSettings()
+      if (victorySubtitle && settings.gameMode !== "off") {
+        const modeBadge = document.createElement("span")
+        modeBadge.className = "victory-mode-badge"
+        modeBadge.textContent = `Mode: ${settings.gameMode.charAt(0).toUpperCase() + settings.gameMode.slice(1)}`
+        victorySubtitle.insertAdjacentElement("afterend", modeBadge)
+      }
+
       // Performance report
       renderReport(journey)
 
-      // Journey path
+      // Journey path — use ?roll= URL param if available, fallback to localStorage journey
       journeyPath.innerHTML = ""
 
-      const meaningfulSteps = journey.filter(
-        (step, idx) => idx === 0 || step.type === "transition" || step.type === "submission",
-      )
+      const rollParam = getRollParam()
+      if (rollParam) {
+        // Decode roll URL asynchronously and render
+        decodeRollUrl(rollParam).then((rollNames) => {
+          rollNames.forEach((name, idx) => {
+            const stepEl = document.createElement("span")
+            stepEl.className = "journey-step transition"
+            stepEl.textContent = name
+            journeyPath.appendChild(stepEl)
 
-      meaningfulSteps.forEach((step, idx) => {
-        const stepEl = document.createElement("span")
-        stepEl.className = `journey-step ${step.type}`
+            if (idx < rollNames.length - 1) {
+              const arrow = document.createElement("span")
+              arrow.className = "journey-arrow"
+              arrow.textContent = " \u2192 "
+              journeyPath.appendChild(arrow)
+            }
+          })
+        })
+        clearRollUrl()
+        clearRollHistory()
+      } else {
+        const meaningfulSteps = journey.filter(
+          (step, idx) => idx === 0 || step.type === "transition" || step.type === "submission",
+        )
 
-        if (step.type !== "position" && step.success !== undefined) {
-          stepEl.classList.add(step.success ? "success" : "failure")
-        }
+        meaningfulSteps.forEach((step, idx) => {
+          const stepEl = document.createElement("span")
+          stepEl.className = `journey-step ${step.type}`
 
-        stepEl.textContent = step.name
-        journeyPath.appendChild(stepEl)
+          if (step.type !== "position" && step.success !== undefined) {
+            stepEl.classList.add(step.success ? "success" : "failure")
+          }
 
-        if (idx < meaningfulSteps.length - 1) {
-          const arrow = document.createElement("span")
-          arrow.className = "journey-arrow"
-          arrow.textContent = " \u2192 "
-          journeyPath.appendChild(arrow)
-        }
-      })
+          stepEl.textContent = step.name
+          journeyPath.appendChild(stepEl)
+
+          if (idx < meaningfulSteps.length - 1) {
+            const arrow = document.createElement("span")
+            arrow.className = "journey-arrow"
+            arrow.textContent = " \u2192 "
+            journeyPath.appendChild(arrow)
+          }
+        })
+      }
 
       // Accumulate into lifetime stats
       const lifetimeStats = accumulateStats(journey)
@@ -441,6 +505,9 @@ document.addEventListener("nav", () => {
 
       // Render lifetime stats in victory view
       renderLifetimeStats(lifetimeStats, "")
+
+      // Show "sign up to save" prompt for unauthenticated users
+      showSavePromptIfNeeded(victoryContent)
 
       sessionStorage.removeItem("victory-data")
     } catch {

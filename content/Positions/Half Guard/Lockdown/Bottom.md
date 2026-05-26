@@ -165,6 +165,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lockdown (Bottom)?</p>
+
 - Bottom practitioner's near-side leg threads over opponent's trapped leg at knee level, then triangles back underneath the ankle, creating the lockdown configuration with ankles crossed and locked tightly to immobilize the leg
 - Top practitioner's trapped leg is extended and controlled between bottom player's legs with limited mobility and compromised base, forcing them to post free leg wide for stability
 - Bottom practitioner maintains underhook on trapped-leg side or uses overhook control on far side, preventing opponent from establishing dominant crossface or underhook position that would flatten the bottom player
@@ -178,6 +180,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Lockdown (Bottom)?</p>
+
 - Half guard position established with one opponent's leg controlled between bottom player's legs
 - Ability to thread near-side leg over opponent's trapped leg and triangle configuration underneath
 - Space to complete lockdown triangle without opponent immediately passing or extracting leg
@@ -190,6 +194,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown?</p>
 
 - Maintain tight lockdown configuration with ankles crossed and locked, using top foot to hook and extend opponent's leg
 - Keep lockdown active and dynamic, constantly extending and flexing to off-balance opponent and prevent base establishment
@@ -205,6 +211,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lockdown (Bottom)?</p>
 
 **If opponent maintains high posture with weight back, trying to extract trapped leg:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
@@ -223,7 +231,7 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 **If opponent maintains neutral posture in half guard without committing:**
 - Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 
@@ -233,6 +241,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown?</p>
 
 ### 1. Locking lockdown too loosely, allowing opponent to easily extract trapped leg
 
@@ -271,6 +281,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Lockdown defense?</p>
 
 ### Lockdown Retention Drill
 
@@ -311,38 +323,6 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct leg configuration to establish and maintain a tight lockdown?
-**A**: The near-side leg threads over opponent's trapped leg at knee level, wrapping around and crossing back underneath their ankle. The bottom leg hooks under their shin from the outside. Ankles must be crossed tightly with the top foot flexed and pulling their heel toward your hip. Squeeze your knees together while extending your hips to maximize control and pressure on their trapped leg.
-
-**Q2**: Your opponent drives forward with heavy crossface pressure - what sweep opportunity does this create?
-**A**: Forward pressure from opponent creates the ideal setup for the whip-up sweep. Use their forward momentum against them by securing the underhook, extending the lockdown to load their weight, then explosively come up to your elbow and drive into them while maintaining the lockdown. Their forward pressure becomes the energy that propels you to top position or dogfight.
-
-**Q3**: What are the essential grips needed to maintain offensive pressure from lockdown bottom?
-**A**: The primary grip is the underhook on the trapped-leg side, reaching deep around their back. Secondary controls include overhook on their far arm to prevent them establishing underhook, or collar grip (in gi) on the crossface side. Your free hand frames against their shoulder or bicep to prevent flattening. These grips combined with tight lockdown create control over their entire upper body.
-
-**Q4**: How do you prevent being flattened when opponent establishes strong crossface control?
-**A**: Immediately counter crossface by turning into the opponent rather than away. Use your outside arm to frame against their bicep or shoulder while whipping up toward them. The whip-up motion uses the lockdown extension to off-balance them while you come to your side. If you remain flat under crossface, you lose all offensive potential. Always maintain the ability to turn toward your opponent.
-
-**Q5**: Your opponent sits back with their weight away from you trying to extract their leg - what attack becomes available?
-**A**: When opponent sits back, this opens the Old School sweep and Electric Chair submission. For Old School, secure deep underhook, post your outside leg, and drive into them while extending the lockdown. For Electric Chair, release the triangle and step over their trapped leg with your outside leg, capturing in Electric Chair configuration while maintaining the underhook for control.
-
-**Q6**: What adjustment do you make when opponent begins successfully extracting their trapped leg?
-**A**: When they begin extraction, immediately extend your lockdown forcefully while pulling their heel toward your hip with flexed feet. Simultaneously hip escape away from them to lengthen the leg and make extraction harder. If they continue progressing, release the lockdown and transition to deep half guard by going underneath them, or switch to traditional half guard retention with knee shield.
-
-**Q7**: How do you manage energy expenditure while maintaining active lockdown offense?
-**A**: Lockdown should pulse between pressure and brief relaxation rather than constant maximum squeeze. Extend aggressively when attacking, then relax slightly to recover while maintaining the configuration. Use your opponent's movement and weight shifts as opportunities to attack rather than fighting static battles of strength. Time your biggest efforts for actual sweep attempts, not just retention.
-
-**Q8**: What indicates the correct timing to transition from lockdown retention to sweep attempt?
-**A**: Transition to sweep when opponent commits their weight in one direction - either driving forward (whip-up) or sitting back (Old School). Watch for them posting one hand on the mat which indicates compromised base. When they release upper body pressure to adjust position or fight grips, immediately attack with coordinated extension and upper body drive. Never attempt sweeps when their base is solid and weight centered.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

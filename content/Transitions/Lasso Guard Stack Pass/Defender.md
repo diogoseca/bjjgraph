@@ -162,6 +162,8 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Guard Stack Pass?</p>
+
 - The passer grips your non-lasso leg pants at the knee or ankle, pinning it down to eliminate your secondary defensive options
 - The passer steps their lead foot forward near your hip on the lasso side, creating a driving platform for the forward push
 - You feel a strong forward weight shift pressing against your thighs, driving your knees toward your face with increasing compression
@@ -173,6 +175,8 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Guard Stack Pass?</p>
 
 - Recognize the stack pass initiation early by feeling the passer's forward weight commitment and their grip on your non-lasso leg before they generate full compression
 - Hip escape laterally before the stack compresses your spine, maintaining your perpendicular angle and the distance needed for lasso control to function
@@ -187,6 +191,8 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Guard Stack Pass?</p>
 
 ### 1. Hip escape laterally before the stack compresses, recovering your perpendicular angle and lasso leverage
 
@@ -224,6 +230,8 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Guard Stack Pass?</p>
+
 ### → [[Positions/Lasso Guard]]
 
 React early to the forward drive with a lateral hip escape before compression develops, then re-establish your perpendicular angle and lasso tension. Post your non-lasso foot on the passer's hip to block subsequent stack attempts while re-gripping the sleeve tightly.
@@ -239,6 +247,8 @@ When the passer overcommits to the forward drive with narrow base, time a bridge
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard Stack Pass?</p>
 
 ### 1. Staying flat on your back without hip escaping when feeling the initial forward pressure of the stack
 
@@ -268,6 +278,8 @@ When the passer overcommits to the forward drive with narrow base, time a bridge
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Guard Stack Pass?</p>
+
 **Phase 1: Recognition** - Identifying stack pass initiation cues
 Partner executes the stack pass setup at slow speed while you verbally call out each recognition cue as it occurs: pant grip, foot step, weight shift, forward drive. Develop the ability to identify the pass attempt within the first two cues before compression begins. No defensive movement yet, pure recognition training.
 
@@ -284,29 +296,6 @@ Partner executes stack passes that successfully degrade the lasso. Practice reco
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a stack pass is being initiated against your lasso guard?
-**A**: The earliest cue is the passer gripping your non-lasso leg pants at the knee and stepping their lead foot forward near your hip on the lasso side. This grip-and-step combination signals the stack setup before any forward pressure begins, giving you the maximum defensive window. The pant grip is the critical tell because the passer needs lower body control before committing their weight forward.
-
-**Q2**: Why is early hip escape timing critical when defending the stack pass?
-**A**: Early hip escape is critical because once the stack fully compresses your spine, your hip mobility is eliminated along with your ability to generate the angles needed for lasso control. The stack creates a cascading compression effect where each inch of folding further reduces your defensive options. Hip escaping early, even before the pressure is intense, maintains the perpendicular angle and distance that keep the lasso functional. A partial hip escape at the right time is vastly more effective than a desperate escape attempt after full compression.
-
-**Q3**: When should you abandon the lasso and transition to an alternative guard during a stack pass attempt?
-**A**: You should abandon the lasso when the stack has compressed your body enough that the lasso angle no longer generates meaningful control over the passer's arm, but you still have enough hip mobility to reconfigure your guard. The decision point is when you can feel the lasso tension dropping despite maintaining your sleeve grip. Transitioning at this moment lets you establish collar sleeve guard, closed guard, or another defensive structure before the passer completes the walk-around. Waiting longer means both the lasso and your guard transition options are gone.
-
-**Q4**: What makes the momentum sweep viable against a committed stack pass?
-**A**: The momentum sweep works because the passer must commit significant forward weight to generate stacking compression, which moves their center of gravity over and past your body. By timing a bridge and extending the lasso leg while pulling the sleeve grip, you redirect this committed forward energy over your head rather than down through your spine. The sweep is viable specifically because the passer's base narrows during the aggressive drive phase. If the passer maintains wide base, the sweep fails, which is why timing during maximum forward commitment is essential.
-
-**Q5**: How should your non-lasso leg function during stack pass defense?
-**A**: Your non-lasso leg serves as the primary structural barrier against the stack. Post your foot on the passer's hip to create a frame that blocks their forward drive before compression begins. This hip post converts your leg into a stiff-arm equivalent that the passer must overcome before stacking is possible. If the passer controls your non-lasso leg with a pant grip, use the foot to hook their arm or shoulder instead, maintaining some form of distance control even when your primary posting position is compromised.
-
-
-
-</section>
 
 
 </main>

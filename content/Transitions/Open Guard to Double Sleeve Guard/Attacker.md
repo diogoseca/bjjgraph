@@ -188,6 +188,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Open Guard to Double Sleeve Guard?</p>
+
 - Secure the first sleeve grip without sacrificing foot-on-hip distance control, as losing distance during grip acquisition invites smash passing
 - Use the first grip to manipulate opponent's posture and create the opening for the second grip, rather than reaching blindly for both simultaneously
 - Maintain constant foot pressure on opponent's hips throughout the transition to prevent them from closing distance during the grip-fighting phase
@@ -202,6 +204,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Open Guard to Double Sleeve Guard?</p>
+
 - Feet actively posted on opponent's hips or thighs creating sufficient distance for arm extension during grip acquisition
 - Hips elevated slightly off the mat with mobility to angle toward either side for grip opportunities
 - Visual read on opponent's hand positioning to identify which sleeve is most accessible for the initial grip
@@ -214,6 +218,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Open Guard to Double Sleeve Guard step by step?</p>
 
 1. **Establish foot-on-hip frame**: From open guard bottom, place both feet firmly on opponent's hip bones with the balls of your feet pressing outward. Extend your legs to create maximum distance between your torso and their upper body. This frame is your primary defensive structure throughout the transition and must be maintained until both sleeve grips are locked in.
 2. **Identify target sleeve**: Read opponent's arm positioning and weight distribution to determine which sleeve is most accessible. The arm that is reaching forward, posting on the mat, or attempting to grip your pants is the primary target. If both arms are retracted, use foot pressure to push opponent backward and force them to post with their hands, creating grip windows.
@@ -243,6 +249,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Open Guard to Double Sleeve Guard?</p>
+
 - **Opponent strips sleeve grip using wrist rotation and hip movement before second grip is acquired** (Effectiveness: High) - Your Response: Immediately re-grip the same sleeve or transition to collar grip with the free hand to maintain at least one control point. Use your feet to push opponent away and reset distance before reattempting the sleeve acquisition from a stable position. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward with heavy pressure during grip-fighting phase to collapse distance** (Effectiveness: Medium) - Your Response: Extend your legs fully to maintain distance while pulling the gripped sleeve upward and across to redirect their forward momentum. If distance collapses completely, transition to closed guard rather than fighting for sleeve grips from a compromised range. → Leads to [[Positions/Half Guard]]
 - **Opponent pulls both arms back sharply and postures up to remove arms from gripping range** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up and pursuing the grips, using the momentum to come to a seated position. Alternatively, push on their hips with both feet during the backward pull to extend them and create a sweep opportunity from the overcommitted posture. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Open Guard to Double Sleeve Guard?</p>
 
 ### 1. Reaching for both sleeves simultaneously while removing feet from opponent's hips
 
@@ -293,6 +303,8 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Open Guard to Double Sleeve Guard (Attacker)?</p>
+
 **Phase 1: Grip Mechanics Isolation** - Developing proper cuff grip technique and sequential grip acquisition
 Partner stands in open guard top and allows bottom player to practice grip acquisition at varying speeds. Focus on pistol grip depth at the cuff, pulling elbows to ribs, and maintaining foot-on-hip frames throughout. No resistance initially, progressing to light hand-fighting resistance.
 
@@ -310,42 +322,12 @@ Full positional sparring where bottom player must establish double sleeve guard 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to maintain at least one foot on the opponent's hip during the grip acquisition phase?
-**A**: The foot-on-hip frame is your primary distance management tool during the vulnerable grip-fighting phase. Without it, the opponent can drive forward and collapse the distance before you establish sleeve control, converting your grip attempt into a smash passing opportunity. The foot provides a structural barrier that the opponent must address before advancing, buying you the time needed to complete the grip sequence.
-
-**Q2**: What grip depth and configuration provides optimal sleeve control with minimal fatigue?
-**A**: Grip deep at the cuff with four fingers inside the sleeve opening and thumb on the outside, forming a pistol grip. This configuration places your grip at the narrowest point of the sleeve where the opponent has minimal leverage for grip breaking. Keeping your elbows tight to your ribs creates a structural frame where your skeleton supports the grip rather than relying solely on forearm muscles, significantly reducing fatigue over extended exchanges.
-
-**Q3**: Your opponent posts their free hand on the mat after you secure the first sleeve grip. How do you exploit this to acquire the second grip?
-**A**: A posted hand is a committed hand. Push their same-side hip with your foot to further load weight onto the posting hand, then use your first sleeve grip to pull their controlled arm across your centerline. This diagonal force rotates their torso and makes it impossible to maintain the post. As they lift their posting hand to recover balance, immediately shoot your free hand to their cuff before they can retract the arm.
-
-**Q4**: What is the most critical hip movement during the transition to double sleeve guard?
-**A**: The slight hip elevation and lateral angle during grip acquisition is the most critical hip movement. Your hips should never be flat on the mat during the transition. Elevating your hips slightly allows you to angle toward the side of your initial grip target, shortening the distance your hand must travel. After securing both grips, angling your hips loads sweep potential to one side and creates the asymmetric guard structure needed for effective push-pull offense.
-
-**Q5**: Your opponent begins stripping your first sleeve grip using wrist rotation before you can secure the second. What is your immediate response?
-**A**: If the grip strip is in progress but not complete, curl your wrist inward and pull your elbow tighter to your rib while extending your same-side leg to push them away, which reduces the effectiveness of their rotation. If the grip breaks entirely, immediately re-grip the same sleeve or transition your free hand to a collar grip to maintain at least one control point. Never fight for a losing grip with extended arms, as this compromises your guard structure.
-
-**Q6**: Against what type of passer should you avoid attempting the double sleeve transition?
-**A**: Avoid this transition against pressure passers who have already established strong pants grips at your knees or ankles. Their leg control creates a grip-fighting disadvantage where you are reaching for sleeves while they control your lower body. Similarly, opponents who keep their elbows pinched tight to their body and maintain a very low posture present poor targets for sleeve gripping. Against these opponents, butterfly guard, half guard, or closed guard entries are more appropriate.
-
-**Q7**: How does the diagonal force created by one sleeve grip plus opposite-side foot pressure facilitate the second grip acquisition?
-**A**: Pulling one sleeve toward your hip while pushing the opposite hip with your foot creates a rotational force through the opponent's torso. This rotation brings their free arm forward involuntarily as they attempt to maintain balance. The diagonal force also compromises their base in a way that straight push-pull cannot, because it attacks their equilibrium along an axis they cannot easily resist with standard posture adjustments. This makes the second grip acquisition a consequence of the first rather than an independent action.
-
-**Q8**: If your sweep attempt from double sleeve guard is blocked and opponent begins to regain posture, what chain attack should you pursue?
-**A**: Maintain your sleeve grips and immediately transition your foot placement. If a scissor sweep was blocked, redirect to a pendulum sweep in the opposite direction using the opponent's recovery momentum. If they posture strongly with both arms pulled back, their backward weight distribution creates an opportunity for a sit-up guard transition or technical stand-up. Alternatively, convert one sleeve grip to a lasso or spider configuration to enter a different guard system that exploits the angle their recovery created.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Open Guard to Double Sleeve Guard?</p>
 
 This transition involves sustained grip fighting which can cause finger and forearm injuries over time. Use proper pistol grip technique to distribute load across all fingers rather than relying on fingertip grips. Release grips immediately if you feel sharp pain in finger joints or tendons. Avoid forcing grip acquisition against explosive resistance that could hyperextend your fingers. Tape fingers prophylactically if you train this position frequently. Communicate with training partners about grip intensity during drilling to prevent accidental joint injuries.
 

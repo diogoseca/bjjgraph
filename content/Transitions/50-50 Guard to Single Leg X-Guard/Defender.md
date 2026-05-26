@@ -164,6 +164,8 @@ The defender's strategic framework centers on a simple principle: the transition
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Guard to Single Leg X-Guard?</p>
+
 - Opponent executes a strong lateral hip escape motion, moving their hips away from you rather than maintaining flat 50-50 position
 - Opponent's outside leg begins straightening and pulling away from the entanglement, changing the feel of the leg configuration
 - Opponent breaks your grip on their heel or fights hands aggressively, indicating they are clearing defensive prerequisites before attempting the transition
@@ -176,6 +178,8 @@ The defender's strategic framework centers on a simple principle: the transition
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 50-50 Guard to Single Leg X-Guard?</p>
 
 - Maintain constant hip pressure driving downward to prevent the lateral hip escape that enables leg extraction
 - Recognize the hip escape motion as the primary cue and respond within the first second before extraction angle is established
@@ -190,6 +194,8 @@ The defender's strategic framework centers on a simple principle: the transition
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Guard to Single Leg X-Guard?</p>
 
 ### 1. Drive hips forward and increase pressure to collapse extraction space
 
@@ -227,6 +233,8 @@ The defender's strategic framework centers on a simple principle: the transition
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Guard to Single Leg X-Guard?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Drive hips forward at the first sign of hip escape motion to collapse the extraction space. Simultaneously tighten inside leg control and re-triangle your legs around opponent's trapped leg. This removes the angle they need and forces them back to flat 50-50 bottom position.
@@ -242,6 +250,8 @@ If opponent has already created significant extraction angle, disengage your leg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Guard to Single Leg X-Guard?</p>
 
 ### 1. Failing to recognize the hip escape motion as a transition attempt and treating it as normal positional adjustment
 
@@ -271,6 +281,8 @@ If opponent has already created significant extraction angle, disengage your leg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Guard to Single Leg X-Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner performs the transition at slow speed from 50-50 bottom while you focus exclusively on recognizing the hip escape cue and verbalizing when you detect it. No countering yet. Build the pattern recognition until you can identify the transition attempt within the first second of hip movement.
 
@@ -287,29 +299,6 @@ Begin from 50-50 top position with partner actively attempting the transition du
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical cue that your opponent is attempting this transition from 50-50 bottom?
-**A**: The earliest cue is a strong lateral hip escape motion where their hips move sideways rather than remaining flat. This hip escape creates the extraction angle needed for their outside leg to clear the entanglement. You may also feel their grip tighten on your ankle as they establish the anchor needed for the transition. Recognizing this motion within the first second gives you the maximum window to counter effectively.
-
-**Q2**: Why does attacking the opponent's heel become more effective during their extraction attempt?
-**A**: During the extraction attempt, opponent must change their leg configuration, which temporarily alters their knee rotation and heel positioning. The hip escape motion that enables extraction simultaneously compromises the defensive knee rotation that hides their heel. Their focus is divided between executing the transition and defending their heel, meaning their defensive reactions are slower and less coordinated than in static 50-50 defense.
-
-**Q3**: Your opponent has already established a butterfly hook behind your knee - is forward pressure still the correct response?
-**A**: No, forward pressure after the butterfly hook is established is counterproductive. Once the hook is in place, your forward momentum loads your weight onto their hook, accelerating their sweep from the developing Single Leg X-Guard. At this point, switch to disengagement by backstepping to extract your leg from the new configuration, or address the hook directly by clearing it before it becomes the foundation of a full Single Leg X-Guard.
-
-**Q4**: What is your optimal defensive strategy if opponent has broken your heel grip but not yet begun the extraction?
-**A**: Immediately re-establish heel control before they can initiate the hip escape. Without heel threat, they have no reason to delay the transition. Alternatively, drive hips forward aggressively to flatten them and prevent the hip escape motion, then re-establish grips from the improved control position. The grip break is their first prerequisite, so denying progress at this stage prevents the entire sequence.
-
-**Q5**: How do you decide between forward drive and backstep disengagement when defending this transition?
-**A**: The decision depends on how far the extraction has progressed. If opponent is in early phases (hip escape beginning, leg not yet cleared), forward drive to collapse the space is preferred because it directly prevents the extraction. If opponent has already cleared their outside leg and is establishing hooks, backstep disengagement is better because forward pressure would load your weight onto their developing hooks. The butterfly hook is the decision point: no hook means drive forward, hook established means disengage.
-
-
-
-</section>
 
 
 </main>

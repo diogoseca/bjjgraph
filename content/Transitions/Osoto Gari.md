@@ -215,13 +215,13 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 
 - [[Positions/Back Control/Standing Back Control]] - Counter Response - Position to establish if opponent turns into the throw
 
-- [[Submissions/Kimura from Standing]] - Follow-up Attack - Submission option when opponent posts defensively
+- [[Submissions/Kimura]] - Follow-up Attack - Submission option when opponent posts defensively during standing exchange
 
 - [[Positions/Standing Position]] - Starting Position - Neutral standing state from which Osoto Gari is initiated
 
-- [[Principles/Grip Fighting]] - Setup Requirement - Essential skill for establishing advantageous grips for the throw
+- [[Principles/Grips]] - Setup Requirement - Essential skill for establishing advantageous grips for the throw
 
-- [[Principles/Takedown Entry]] - Strategic Context - Osoto Gari as primary entry in complete takedown system
+- [[Transitions/Double Leg Entry]] - Strategic Context - Primary wrestling-based takedown that complements Osoto Gari in a complete standing attack system
 
 
 </section>

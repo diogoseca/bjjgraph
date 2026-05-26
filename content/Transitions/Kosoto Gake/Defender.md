@@ -162,6 +162,8 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kosoto Gake?</p>
+
 - Attacker establishes collar grip and begins pulling your upper body backward while stepping to a 45-degree angle relative to your stance
 - Attacker's rear leg lifts and moves behind your rear leg, with their calf seeking contact with the back of your lower leg
 - You feel a distinct backward pulling force through your collar or neck combined with the attacker closing distance to chest-to-chest range
@@ -174,6 +176,8 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kosoto Gake?</p>
 
 - Maintain dynamic weight distribution across both legs to deny the attacker a heavily loaded target leg
 - Deny close distance by using frames and grip fighting to prevent chest-to-chest contact
@@ -188,6 +192,8 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kosoto Gake?</p>
 
 ### 1. Step your rear leg backward and away from the reap, shifting weight to your front leg
 
@@ -225,6 +231,8 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kosoto Gake?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the throw by stepping your rear leg away from the reap, stripping the collar grip with a two-on-one break, or driving your hips forward to neutralize the backward pull. Return to neutral standing and re-engage grip fighting from an advantageous position since the attacker has expended energy on a failed attempt.
@@ -240,6 +248,8 @@ Turn into the attacker during their throw attempt to establish your own clinch g
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kosoto Gake?</p>
 
 ### 1. Leaning backward away from the attacker when feeling the collar pull instead of driving hips forward
 
@@ -269,6 +279,8 @@ Turn into the attacker during their throw attempt to establish your own clinch g
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kosoto Gake?</p>
+
 **Week 1-2: Recognition drilling** - Identifying setup cues and developing defensive awareness
 Partner performs Kosoto Gake setups at slow speed. Focus exclusively on recognizing the collar pull, angle change, and leg positioning cues without attempting to defend. Call out each cue verbally as you feel it. Build pattern recognition before adding defensive responses.
 
@@ -285,29 +297,6 @@ Defend Kosoto Gake during live standup sparring with full resistance. Partner is
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up Kosoto Gake?
-**A**: The earliest cue is feeling a distinct backward pulling force through your collar combined with the attacker stepping to a 45-degree angle relative to your stance and closing distance to chest-to-chest range. This combination of collar pull, angle change, and distance closing precedes the actual leg positioning and gives you the maximum defensive window to respond before the reap is committed.
-
-**Q2**: Why is driving your hips forward more effective than leaning your shoulders backward when defending the throw?
-**A**: Driving hips forward shifts your center of gravity over your base of support (your feet), which is the opposite of what the attacker needs. Leaning your shoulders backward actually helps the attacker because it loads more weight onto your rear leg while moving your center of gravity behind your base. The hip-forward drive also creates forward pressure that disrupts the attacker's pulling mechanics and can off-balance them in return.
-
-**Q3**: Your opponent has already positioned their calf behind your rear leg and is beginning the reap - what is your best remaining option?
-**A**: At this late stage, your best option is to turn sharply into the attacker's body while simultaneously posting your near hand on their hip to create a frame. This turning motion redirects the force of the reap along a different axis than the attacker intended, potentially fouling their throw mechanics. If the throw still partially succeeds, the turn means you land in a scramble position rather than flat on your back in side control, giving you a chance to recover guard or establish your own grips.
-
-**Q4**: How should you adjust your defensive strategy when you recognize your opponent is chaining Kosoto Gake with Osoto Gari?
-**A**: When facing a Kosoto Gake to Osoto Gari chain, avoid the instinct to simply step your rear leg backward repeatedly, as this plays directly into the chain system. Instead, address the root cause by stripping the collar grip that powers both throws. If grip stripping is not immediately possible, circle laterally rather than stepping linearly backward, which denies the straight-line angle both throws require. You can also consider pulling guard strategically to deny the standing exchange entirely rather than defending an escalating chain.
-
-**Q5**: What specific footwork pattern should you maintain to minimize vulnerability to Kosoto Gake?
-**A**: Maintain a slightly staggered stance with active small shuffling movements that keep weight distributed dynamically between both feet rather than committing heavily to either leg. Avoid standing square to your opponent with equal weight on both feet, as this creates a clear rear-leg target. Instead, use constant micro-adjustments where your weight shifts rhythmically so the attacker cannot predict which leg is loaded at any given moment. When you feel the opponent establishing collar control, immediately begin circling toward their reaping-side hip to deny the angle.
-
-
-
-</section>
 
 
 </main>

@@ -28,7 +28,7 @@ The Knee Through differs from the Knee Slice in that it emphasizes driving the k
 
 This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions. Its high success rate at advanced levels stems from the difficulty of defending simultaneous upper body pressure and forward knee drive. The technique chains naturally with the Knee Slice Pass and Long Step Pass, creating a three-option passing framework that covers the primary defensive reactions from half guard bottom.
 
-**From Position**: [[Positions/Half Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -210,7 +210,7 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 
 - [[Positions/Knee on Belly]] - Alternative consolidation position after pass clears the legs
 
-- [[Submissions/Kimura from Side Control]] - Common submission follow-up after establishing side control
+- [[Submissions/Kimura]] - Common submission follow-up after establishing side control from the pass
 
 - [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
 

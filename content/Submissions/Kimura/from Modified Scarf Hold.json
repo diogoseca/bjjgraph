@@ -1,0 +1,469 @@
+{
+  "name": "Kimura from Modified Scarf Hold",
+  "description": "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "joint-lock",
+    "shoulder-lock",
+    "modified-scarf-hold",
+    "scarf-hold",
+    "top-position",
+    "arm-lock"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Shoulder and elbow joint",
+  "starting_position": "Modified Scarf Hold",
+  "from_position": "Modified Scarf Hold/Top",
+  "from_positions": [
+    "Modified Scarf Hold",
+    "Kesa Gatame",
+    "Side Control"
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Modified Scarf Hold/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced external rotation.\n\nThis submission capitalizes on the positional advantages unique to modified scarf hold. The bottom player's near arm is already partially compromised by the pinning mechanics, requiring minimal positional adjustment to secure the kimura grip. The attacker transitions from control to attack by threading under the trapped arm, establishing the figure-four grip, and using a combination of hip pressure and rotational force to walk the wrist behind the opponent's back. The mechanic is particularly effective because the chest pressure limits the defender's ability to create space, sit up, or generate the frames needed to prevent arm isolation.\n\nThe Kimura from Modified Scarf Hold appears frequently in both gi and no-gi competition at all levels. Its reliability stems from the natural grip availability and the submission chain it creates. Defenders who straighten their arm to prevent the kimura expose themselves to americanas, while those who grip their own body create a battle of leverage the attacker typically wins through superior positioning. Advanced practitioners integrate this attack into a systematic flow between kimura, americana, and armbar threats that forces the defender into progressively worse positions with each defensive reaction.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Shoulder dislocation or torn rotator cuff from excessive external rotation",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months, may require surgical repair"
+      },
+      {
+        "injury": "Torn shoulder labrum from rotational force exceeding joint range of motion",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Elbow hyperextension or ligament sprain from combined rotational and extension force",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks with rest and rehabilitation"
+      }
+    ],
+    "application_speed": "SLOW and progressive. The shoulder joint has limited external rotation range and injuries occur rapidly once that range is exceeded. Never jerk, spike, or explosively crank the kimura. Apply steady, incremental pressure and give your partner time to recognize and signal submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, own body, or mat",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization, screaming, or distress signal"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal without hesitation",
+      "If in doubt about whether a tap occurred, release and re-establish position",
+      "Gradually release rotational pressure rather than dropping the arm suddenly to avoid secondary strain",
+      "Check partner's shoulder mobility and comfort after release before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply full-speed kimura cranking during drilling or light sparring rounds",
+      "Apply the finish slowly and progressively in all training contexts regardless of partner skill level",
+      "Beginners should practice grip mechanics and positioning without applying finishing rotational pressure",
+      "White and blue belts should drill the sequence at reduced intensity with emphasis on control, not speed"
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Kimura from Modified Scarf Hold",
+      "description": "Classic entry where the attacker releases the head wrap, threads under the near arm tricep, and secures the figure-four grip while maintaining heavy chest pressure. The finish involves walking the wrist behind the opponent's back using hip pressure and body rotation.",
+      "when_to_use": "Default attack when the near arm is accessible and the opponent is not actively clasping hands or anchoring their arm"
+    },
+    {
+      "variation_name": "Step-Over Kimura",
+      "description": "After securing the figure-four grip, the attacker steps their far leg over the opponent's head while maintaining the kimura grip. This creates additional rotational leverage by pinning the opponent's head with the leg and allows the attacker to finish from a north-south angle.",
+      "when_to_use": "When the opponent is defending by rolling toward the attacker or when additional leverage is needed to overcome strong grip defense"
+    },
+    {
+      "variation_name": "Kimura to Back Take",
+      "description": "Instead of finishing the kimura directly, the attacker uses the figure-four grip as a control handle to roll the opponent face-down. As the defender turns to relieve shoulder pressure, the attacker follows and establishes back control while maintaining the kimura grip for continued threat.",
+      "when_to_use": "When the opponent rolls or turns to defend the kimura finish, converting their defensive movement into a positional advancement opportunity"
+    }
+  ],
+  "related_submissions": [
+    "Arm Triangle",
+    "Ezekiel Choke",
+    "Americana",
+    "Kesa Gatame Arm Crush",
+    "Far Side Armbar",
+    "Darce Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Modified Scarf Hold",
+      "relationship": "Starting position from which this submission is initiated"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related starting position offering similar kimura opportunities with different body angle"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family from which modified scarf hold is derived"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position reached when kimura grip is secured but not yet finished"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative submission when opponent straightens arm defending the kimura"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Alternative choke submission available from similar scarf hold positioning"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transition option available when kimura attempt fails and opponent creates space"
+    }
+  ],
+  "attacker": {
+    "name": "from Modified Scarf Hold Attacker",
+    "description": "Master attacking the Kimura from Modified Scarf Hold. Step-by-step guide covering grip mechanics, arm isolation, finishing sequence, and submission chains.",
+    "overview": "Executing the Kimura from Modified Scarf Hold requires methodical progression from established pin control through arm isolation to submission finish. The attacker must first consolidate chest pressure and near-arm control before transitioning to the figure-four grip. The key mechanical advantage lies in using your entire body—hips, chest, and arms working as a unified system—to overcome the defender's single-arm resistance. Proper weight distribution throughout the attack ensures that submission attempts do not compromise positional control, allowing you to return to the pin if the finish is not immediately available. The submission chain from this position is devastating: kimura threats force arm straightening that opens americanas, while americana defense creates deeper kimura entries, producing a self-reinforcing attack cycle.",
+    "key_principles": [
+      "Maintain chest pressure throughout the entire submission sequence—never sacrifice positional control for grip acquisition",
+      "Use body mechanics rather than arm strength to generate rotational force on the shoulder joint",
+      "Isolate the elbow from the ribs before attempting any rotational finish—this is the critical control threshold",
+      "Apply progressive, steady pressure rather than explosive cranking to allow safe training and reliable competition finishes",
+      "Treat the kimura grip as a control position first and a submission second—the grip itself creates offensive options",
+      "Chain between kimura and americana based on the defender's arm angle, converting every defensive reaction into a new attack"
+    ],
+    "setup_requirements": [
+      "Established Modified Scarf Hold with heavy chest-to-chest pressure and near arm controlled",
+      "Opponent's near arm accessible for figure-four grip—not buried under their body or locked to the far hip",
+      "Sufficient base and weight distribution to maintain control while transitioning both hands to the kimura grip",
+      "Head control or shoulder pressure maintained to prevent opponent from sitting up during grip transition",
+      "Far-side hand free or readily available to complete the figure-four configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Consolidate Modified Scarf Hold control",
+        "description": "From established Modified Scarf Hold, ensure your chest is heavy on the opponent's chest with their near arm controlled under your armpit or against your body. Your head should be driving pressure into their face or jaw. Settle your weight and confirm your base is stable before initiating the submission sequence. Rushing this step is the most common reason the attack fails.",
+        "timing": "5-10 seconds to confirm stable control"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread arm under opponent's near tricep",
+        "description": "While maintaining chest pressure, release the head wrap or arm control and slide your near-side arm underneath the opponent's near-side tricep area. Your forearm threads between their upper arm and their torso, positioning your hand to emerge on the far side of their wrist. Keep your chest heavy throughout this transition to prevent the opponent from creating defensive frames or sitting up.",
+        "timing": "2-3 seconds for smooth threading"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure the figure-four kimura grip",
+        "description": "Grab the opponent's wrist with your threading hand using a thumb-around grip. Simultaneously bring your other hand over the top of their forearm and grip your own wrist, creating the classic figure-four kimura configuration. Both your thumbs should point in the same direction. Lock this grip tight against your chest to create a unified structure that resists grip-fighting attempts.",
+        "timing": "1-2 seconds for decisive grip acquisition"
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the elbow from the ribs",
+        "description": "Use your hip pressure and body weight to pry the opponent's elbow away from their ribcage. Drive your hips forward into their arm while lifting with the figure-four grip to create separation between their elbow and their body. This is often the most contested phase—if their elbow stays connected to their ribs, the finish becomes extremely difficult. Use your near knee to wedge underneath their elbow if necessary.",
+        "timing": "3-8 seconds depending on resistance"
+      },
+      {
+        "step_number": 5,
+        "action": "Pin the upper arm to the mat",
+        "description": "Once the elbow clears the ribs, drive the opponent's upper arm to the mat using downward pressure from your chest and shoulder weight. Position yourself so that your body weight helps pin their upper arm against the ground. This creates the fulcrum point required for the rotational finish and prevents the defender from retracting the arm back toward their body or reconnecting elbow to ribs.",
+        "timing": "1-2 seconds to establish pin"
+      },
+      {
+        "step_number": 6,
+        "action": "Walk the wrist behind the opponent's back",
+        "description": "Begin rotating their forearm behind their back by walking the wrist in small controlled increments toward their far hip and then toward the ceiling. Use your entire upper body turning motion rather than isolated hand movement. Your figure-four grip stays tight while your body rotation generates the torque. Small controlled movements accumulate into irresistible rotational force on the shoulder joint.",
+        "timing": "3-5 seconds of progressive rotation"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply finishing rotational pressure",
+        "description": "Continue the external rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap.",
+        "timing": "2-4 seconds of controlled finishing pressure"
+      },
+      {
+        "step_number": 8,
+        "action": "Secure the tap and release safely",
+        "description": "Maintain finishing pressure until the opponent signals submission through verbal or physical tap. Once any tap signal is received, release the grip immediately by gently lowering the arm back to a neutral position. Do not drop the arm suddenly. Return to Modified Scarf Hold control or disengage as appropriate for the training or competition context. Check your partner's shoulder comfort after release.",
+        "timing": "Immediate release upon tap signal"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Clasping both hands together to anchor the near arm and prevent figure-four isolation",
+        "effectiveness": "High",
+        "your_response": "Wedge your knee between their clasped hands to break the grip, or immediately switch to an americana angle by redirecting the arm toward the mat—their clasped hands actually assist the americana finish",
+        "targets_outcome": "Modified Scarf Hold/Top"
+      },
+      {
+        "counter": "Straightening the arm to prevent figure-four rotation behind the back",
+        "effectiveness": "Medium",
+        "your_response": "Transition immediately to americana as the straightened arm is the ideal starting position for that submission—the opponent is solving your problem for you",
+        "targets_outcome": "Modified Scarf Hold/Top"
+      },
+      {
+        "counter": "Rolling toward the attacker to relieve rotational pressure on the shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll maintaining the figure-four grip, transition to mounted kimura position or use the kimura grip to establish back control as they expose their back",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Explosive bridge during grip transition to create space and retract the arm",
+        "effectiveness": "Low",
+        "your_response": "Drive chest pressure down during the bridge and ride it out while maintaining figure-four grip tension—the bridge rarely generates enough force to break an established grip",
+        "targets_outcome": "Modified Scarf Hold/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing chest pressure to reach for the arm with both hands",
+        "consequence": "Opponent immediately sits up, creates frames, or turns to recover guard during the momentary loss of top pressure",
+        "correction": "Keep your chest heavy on the opponent throughout the entire grip transition—thread one arm at a time while maintaining body weight on their torso"
+      },
+      {
+        "error": "Attempting to rotate the arm before clearing the elbow from the ribs",
+        "consequence": "The ribs act as a structural block preventing rotation, resulting in wasted energy and the opponent successfully anchoring their defense",
+        "correction": "Dedicate time and effort to prying the elbow away from the ribs using hip pressure and knee wedging before any rotational attempt"
+      },
+      {
+        "error": "Using arm strength rather than body mechanics to generate the finishing rotation",
+        "consequence": "Rapid grip fatigue, inconsistent finishing pressure, and inability to overcome strong opponents who can resist arm-only force",
+        "correction": "Rotate your entire upper body to generate torque through the figure-four grip—your arms transmit force, they do not create it"
+      },
+      {
+        "error": "Rushing the figure-four grip without proper arm isolation first",
+        "consequence": "Opponent defends the grip attempt because their arm is still connected to their body, giving them structural advantage against your grip-fighting",
+        "correction": "Follow the sequence: chest pressure, then arm thread, then grip—never skip the isolation step to chase the submission"
+      },
+      {
+        "error": "Cranking explosively rather than applying progressive steady pressure",
+        "consequence": "Risk of serious shoulder injury to training partner and potential disqualification in competition for dangerous application",
+        "correction": "Apply slow steady rotational force that builds incrementally, giving the opponent time to recognize and signal submission before joint damage occurs"
+      },
+      {
+        "error": "Losing hip connection and base while transitioning from pin control to submission",
+        "consequence": "Opponent uses the positional instability to bridge, create space, and escape to half guard or recover full guard",
+        "correction": "Keep your hips low and in contact with the opponent's body throughout the transition—adjust your weight gradually rather than making large positional shifts"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four grip configuration and threading mechanics",
+        "description": "Practice the arm threading motion and figure-four grip acquisition from established Modified Scarf Hold with a cooperative partner. Focus on smooth hand placement, proper thumb alignment, and locking the grip against your chest. No finishing pressure applied—purely positional drilling."
+      },
+      {
+        "phase": "Phase 2: Arm Isolation",
+        "focus": "Clearing the elbow from the ribs while maintaining chest pressure",
+        "description": "With moderate partner resistance, practice the critical sequence of maintaining chest pressure while prying the opponent's elbow away from their ribs. Develop the hip pressure and knee wedge techniques needed to overcome arm anchoring. Reset and repeat until the isolation feels natural."
+      },
+      {
+        "phase": "Phase 3: Finishing Sequence",
+        "focus": "Progressive rotational pressure and tap recognition",
+        "description": "With the figure-four secured and arm isolated, practice the slow controlled rotation to finish. Emphasize walking the wrist incrementally rather than cranking. Develop sensitivity to your partner's shoulder range of motion and tap signals. Practice immediate clean release upon any tap."
+      },
+      {
+        "phase": "Phase 4: Submission Chain Integration",
+        "focus": "Flowing between kimura, americana, and armbar based on defensive reactions",
+        "description": "Partner provides realistic defensive reactions—clasping hands, straightening arm, rolling toward you. Practice recognizing each defense and transitioning to the appropriate alternative submission. Build the automatic recognition that makes the chain attacks flow without conscious decision-making."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from Modified Scarf Hold",
+        "description": "Start from Modified Scarf Hold in positional sparring rounds. Top player works to establish and finish the kimura while bottom player defends with full resistance. Develop timing, sensitivity to openings, and the ability to maintain positional control throughout extended submission attempts."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Kimura from Modified Scarf Hold primarily attack?",
+        "answer": "The kimura primarily attacks the shoulder joint through forced external rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of external rotation.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent clasps their hands together tightly to defend the kimura grip—what adjustment prevents the stall?",
+        "answer": "When the opponent clasps hands, you have two high-percentage options. First, wedge your near-side knee between their clasped hands to mechanically break the grip using leg strength against arm strength. Second, and often more effective, immediately redirect the attack to an americana by pressing their forearm toward the mat—their clasped hands actually assist the americana finish because the interlocked grip prevents them from changing arm angle. The key insight is that their defensive grip for one attack is the setup for another.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip configuration defines the kimura figure-four and why is it mechanically superior to single-grip control?",
+        "answer": "The kimura figure-four involves gripping the opponent's wrist with one hand (thumb around the wrist) while the other hand grips your own wrist over the top of their forearm, creating a closed-chain lever system. This is mechanically superior because it converts your two-arm strength against their one-arm resistance through a lever that multiplies force. The closed chain prevents grip slippage and distributes effort across both arms equally, allowing sustained pressure that single-grip control cannot match.",
+        "safety_critical": false
+      },
+      {
+        "question": "During the kimura attempt, your opponent begins sitting up explosively—how do you respond?",
+        "answer": "If the opponent begins sitting up during the kimura attempt, immediately drive your forehead and chest downward into their face and upper chest to re-establish the pin. If you have the figure-four secured, you can maintain the grip while driving them back flat with head and chest pressure. If they partially succeed in sitting up, consider transitioning to a guillotine or arm triangle as their neck becomes exposed during the sit-up. Never abandon the kimura grip unless positional control is completely lost.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key indicators that the shoulder joint is approaching its breaking point during the kimura finish?",
+        "answer": "The primary indicators include: the opponent's shoulder lifting off the mat as the rotation exceeds comfortable range, visible tension in the deltoid and trapezius muscles as they involuntarily resist, the opponent's breathing becoming rapid or distressed, verbal sounds indicating increasing pain, and a sudden increase in resistance followed by a give as the rotator cuff muscles begin to fail. At this stage, you must apply pressure extremely slowly because the margin between discomfort and injury narrows dramatically. Any explosive movement past this point risks immediate structural damage.",
+        "safety_critical": true
+      },
+      {
+        "question": "You have the figure-four grip locked but cannot separate your opponent's elbow from their ribs—what techniques break this anchor?",
+        "answer": "The elbow-to-rib connection is the primary defensive structure you must defeat. Use your near-side knee to wedge underneath their elbow, creating a mechanical lever that pries the arm away from the body. Simultaneously drive your hips forward into their arm while lifting with the figure-four to create opposing forces. If this fails, try walking your hips slightly toward their head to change the angle of force application. As a last resort, momentarily redirect to an americana angle which attacks a different plane and may cause them to release the anchor.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point must you immediately release the kimura regardless of competition context?",
+        "answer": "You must release immediately upon any tap signal—verbal, physical hand tap, foot tap, or any distress vocalization. In training, you must also release if your partner goes limp, stops responding, or shows signs of panic that prevent them from tapping. In competition, you must release upon referee stoppage regardless of whether you believe the opponent tapped. The shoulder joint can suffer catastrophic irreversible damage in fractions of a second once the rotational limit is exceeded, making immediate release a non-negotiable safety requirement.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent rolls toward you to relieve rotational pressure on their shoulder—how do you follow and maintain the submission?",
+        "answer": "When the opponent rolls toward you, follow their roll by maintaining the figure-four grip while adjusting your body position. Step your far leg over their head or torso as they rotate, transitioning to a mounted kimura position where you sit on top of them with the grip still secured. Alternatively, if they roll face-down, maintain the grip and use your chest pressure on their upper back while continuing the rotation from the new angle. The roll actually improves your leverage in many cases because their arm travels further behind their back.",
+        "safety_critical": false
+      },
+      {
+        "question": "What body position maximizes rotational torque during the final finishing sequence?",
+        "answer": "Maximum torque is generated when your chest is pinning the opponent's upper arm to the mat creating a fixed fulcrum point, your hips are driving forward into their body maintaining the pin, and your entire upper body rotates as a unit to walk the wrist behind their back. The rotation should originate from your core and hips turning, not from your arms pulling. Keep the figure-four tight against your own chest so that your body rotation transfers directly through the grip to the opponent's forearm lever. The closer the grip stays to your centerline, the more efficient the force transfer.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, your opponent is being stubborn and resisting the kimura despite deep rotational pressure—what is your strategic approach?",
+        "answer": "Maintain steady progressive pressure without explosive cranking. If the finish is not coming, use the kimura grip as positional control and threaten transitions: step over to mounted kimura for better leverage, transition to an armbar by extending their arm, or use the grip to roll them and take the back. The kimura grip itself is one of the strongest control positions in grappling, so there is no urgency to finish immediately. Patient pressure combined with submission chain threats will eventually force the tap or create a superior position.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Modified Scarf Hold Defender",
+    "description": "Complete defense guide for the Kimura from Modified Scarf Hold. Recognition cues, prevention techniques, escape paths, and guard recovery strategies.",
+    "overview": "Defending the Kimura from Modified Scarf Hold demands early recognition and immediate preventive action. The defender's primary challenge is that the modified scarf hold already compromises the near arm, making the transition to kimura grip dangerously seamless for the attacker. Successful defense requires keeping the elbow glued to the ribs, preventing the figure-four grip from being established, and exploiting the attacker's positional adjustments during the submission attempt to create escape opportunities. The window for effective defense narrows rapidly once the attacker secures the figure-four grip—early intervention is far more effective than late-stage escape attempts. Understanding the progression from pin to submission allows the defender to identify and shut down each phase before it develops into the next.",
+    "key_principles": [
+      "Keep your near-side elbow glued to your ribs at all times—this single habit defeats the majority of kimura attempts before they begin",
+      "Recognize the submission threat early by feeling for the attacker's arm threading under your tricep",
+      "Anchor your near arm by gripping your own belt, lapel, or far-side hip to create structural resistance against arm isolation",
+      "Exploit the attacker's transition from pin control to submission grip—this is when their chest pressure is lightest and escape windows open",
+      "Time your bridge and escape attempts for the moment the attacker commits both hands to the figure-four, temporarily reducing their base",
+      "If the figure-four is locked, prioritize preventing elbow separation from your ribs over attempting to break the grip directly"
+    ],
+    "recognition_cues": [
+      "Opponent releases their head wrap or arm control around your head and begins threading their arm underneath your near-side tricep",
+      "You feel the attacker's hand sliding between your upper arm and your ribcage, seeking to emerge on the wrist side of your near arm",
+      "Opponent shifts their weight slightly and frees both hands simultaneously, indicating transition from pinning grips to submission grips",
+      "Sudden increase in downward pressure on your near arm as the attacker begins prying your elbow away from your body"
+    ],
+    "defensive_options": [
+      {
+        "action": "Clasp both hands together immediately to prevent figure-four isolation",
+        "when_to_use": "As soon as you feel the opponent threading their arm under your near-side tricep, before the figure-four grip is fully established",
+        "targets_outcome": "Modified Scarf Hold/Top",
+        "if_successful": "Prevents the kimura grip from being secured, forcing the attacker to re-attempt arm isolation or abandon the submission",
+        "risk": "If the attacker breaks your grip, your arm is further from your body and more vulnerable to immediate re-attack"
+      },
+      {
+        "action": "Anchor near arm to body by gripping own lapel, belt, or far-side hip",
+        "when_to_use": "Preemptive defense when you sense the opponent transitioning from control to submission, before they begin threading",
+        "targets_outcome": "Modified Scarf Hold/Top",
+        "if_successful": "Opponent cannot isolate your arm for the figure-four, and your defensive anchor provides structural resistance they must overcome",
+        "risk": "Limits your own offensive and escape options while your arm is committed to the anchor position"
+      },
+      {
+        "action": "Bridge and turn into the attacker during their grip transition",
+        "when_to_use": "When the opponent releases head control to establish the kimura grip, creating a brief window where chest pressure and base are reduced",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recover half guard or create enough hip space to insert your knee and begin systematic guard recovery",
+        "risk": "If timed poorly or the attacker maintains the figure-four during your bridge, you may give them a better angle to finish"
+      }
+    ],
+    "escape_paths": [
+      "Bridge toward the attacker during the grip transition phase and insert your knee to recover half guard before the figure-four is consolidated",
+      "Straighten your arm forcefully and retract your elbow back to your ribs before the attacker can establish rotational control",
+      "Roll away from the attacker explosively if the figure-four is locked but elbow is not yet pinned, pulling your arm free during the roll",
+      "Turn into the attacker and get chest-to-chest, using the proximity to neutralize the rotational angle needed for the finish"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time a bridge during the attacker's transition from pin control to kimura grip, exploit the momentary reduction in chest pressure to create hip space and insert your knee for half guard recovery"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the near arm away from the body while trying to push the opponent off",
+        "consequence": "Gifts the attacker perfect arm isolation, making the figure-four grip acquisition trivial and removing the primary defensive barrier",
+        "correction": "Keep the near-side elbow welded to your ribs at all times—push with your far hand or use frames, never extend the near arm"
+      },
+      {
+        "error": "Panicking and explosive bridging without timing or setup once the figure-four is locked",
+        "consequence": "The attacker rides the bridge using the figure-four as a control handle, and the post-bridge landing often gives them a better finishing angle",
+        "correction": "Bridge only when the attacker's base is compromised—typically during their transition or when they shift weight to begin the rotation"
+      },
+      {
+        "error": "Waiting too long to defend, allowing the figure-four to be fully established and the elbow cleared from the ribs",
+        "consequence": "Defense becomes exponentially more difficult once the elbow is cleared—the submission is nearly inevitable from this stage",
+        "correction": "React at the first recognition cue (arm threading). Every second of delay reduces your defensive options dramatically"
+      },
+      {
+        "error": "Trying to break the figure-four grip by pulling hands apart rather than addressing the elbow position",
+        "consequence": "Wasted energy fighting a two-on-one grip battle you will almost certainly lose while neglecting the structural defense of elbow-to-rib connection",
+        "correction": "Focus on driving your elbow back to your ribs rather than attacking the grip—if the elbow reconnects to the ribs, the grip becomes irrelevant"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "You feel your opponent threading their arm under your near-side tricep—what is your immediate priority response?",
+        "answer": "Immediately clasp your hands together or grab your own lapel or belt with your near hand to create an anchor that prevents the opponent from completing the figure-four isolation. Simultaneously, drive your elbow downward and into your own ribs to eliminate the space they are trying to exploit. Do not wait to see if they complete the grip—act on the first sensation of their arm threading. The defense becomes dramatically harder with each second of delay.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the earliest recognition cues that a kimura is being initiated from Modified Scarf Hold?",
+        "answer": "The earliest cue is the opponent releasing their head control or arm wrap to free their hands for the figure-four grip. You will feel a brief reduction in head and chest pressure as they reposition. The next cue is their arm sliding between your upper arm and your ribs—this tactile sensation is unmistakable and should trigger immediate defensive action. You may also notice the opponent shifting their weight slightly to free both hands simultaneously.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point should you tap to a kimura rather than continuing to defend?",
+        "answer": "You should tap immediately when you feel sharp pain in the shoulder joint, when the rotation has clearly exceeded your comfortable range of motion, or when you can feel your rotator cuff muscles straining under the rotational load. Do not wait for maximum pain—the shoulder joint can suffer catastrophic damage with minimal warning once the structural limits are reached. In training, tap early and often. There is no submission defense worth risking months of shoulder rehabilitation and potential surgery.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has the kimura grip locked and is beginning to walk your wrist behind your back—what escape options remain?",
+        "answer": "At this late stage, your best option is to roll your entire body toward the attacker, getting chest-to-chest to neutralize the rotational angle they need. This may allow you to recover guard or at minimum buy time. Alternatively, drive your elbow back toward your ribs with explosive force using your entire body, not just arm strength. If neither option works and you feel significant shoulder pressure building, tap immediately rather than risk injury fighting a deeply established submission.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is keeping your elbow connected to your ribs the single most important defensive principle against the kimura?",
+        "answer": "The elbow-to-rib connection is the primary structural defense because the kimura requires the attacker to rotate your forearm behind your back using the elbow as a lever. When your elbow is pinned to your ribs, your entire torso mass acts as a brake against the rotation—the attacker must move your whole body rather than just your arm. Once the elbow separates from the ribs, the attacker only needs to overcome the resistance of your shoulder muscles, which is dramatically less force. The elbow connection is the difference between structural defense and muscular defense.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying kimura initiation cues and establishing preventive arm anchoring",
+        "description": "Partner slowly initiates the kimura sequence from Modified Scarf Hold while you practice recognizing each phase—the arm thread, the grip attempt, the elbow isolation. Focus on immediate hand clasping and elbow anchoring upon first tactile cue. No escapes yet, purely recognition and prevention drilling."
+      },
+      {
+        "phase": "Phase 2: Grips Defense",
+        "focus": "Breaking or preventing the figure-four grip under moderate resistance",
+        "description": "Partner attempts to secure the kimura grip with increasing resistance. Practice grip prevention through hand clasping, lapel gripping, and body anchoring. Learn to identify the moment the figure-four becomes locked versus when it can still be disrupted. Develop the timing and technique to break grips before they consolidate."
+      },
+      {
+        "phase": "Phase 3: Escape Mechanics",
+        "focus": "Executing escapes from established kimura positions at various stages",
+        "description": "Partner secures the kimura at different stages—grip only, elbow cleared, rotation begun—and you practice the appropriate escape for each stage. Bridge timing drills, roll escapes, and elbow retraction techniques. Emphasis on understanding which escapes work at which stage and when to abandon defense and tap."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense against the complete kimura system from Modified Scarf Hold",
+        "description": "Full resistance positional sparring rounds starting in Modified Scarf Hold. Defender works to prevent and escape the kimura and its chain attacks while the attacker pursues the submission system. Develop composure under real pressure and the ability to chain defensive responses against a live attacker cycling between kimura, americana, and armbar threats."
+      }
+    ]
+  }
+}

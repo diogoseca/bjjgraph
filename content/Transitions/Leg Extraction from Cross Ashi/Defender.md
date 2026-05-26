@@ -154,6 +154,8 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction from Cross Ashi?</p>
+
 - Opponent begins using both hands to address your outside crossing shin rather than defending heel grips or framing
 - Opponent recovers to seated or standing posture, establishing the base needed for extraction leverage
 - Opponent's free leg repositions to place the foot on your hip or shoulder in preparation for a push-kick
@@ -166,6 +168,8 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction from Cross Ashi?</p>
 
 - Maintain constant tension on the outside cross by actively pressing your shin against the trapped leg rather than passively resting it
 - Follow the opponent's lateral hip movement immediately to prevent gap creation that enables the clearing sequence
@@ -180,6 +184,8 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction from Cross Ashi?</p>
 
 ### 1. Follow the opponent's hip retreat with your own hip advancement to maintain zero distance and preserve the cross angle
 
@@ -217,6 +223,8 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction from Cross Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Maintain persistent pressure on the outside cross by actively pressing your shin against the trapped leg. Follow the opponent's hip movement immediately to prevent gap creation. Re-cross instantly when the opponent partially clears the outside leg. Control their free leg to eliminate the push-kick. Patient retention exhausts their escape energy and preserves your attacking position.
@@ -232,6 +240,8 @@ Capitalize on the window created when the opponent uses both hands to strip your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction from Cross Ashi?</p>
 
 ### 1. Remaining static while the opponent systematically clears the outside cross
 
@@ -261,6 +271,8 @@ Capitalize on the window created when the opponent uses both hands to strip your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction from Cross Ashi?</p>
+
 **Phase 1: Cross Maintenance** - Active re-crossing and cross pressure under light extraction attempts
 Partner attempts to clear the outside cross at slow speed while you focus on maintaining active tension and immediately re-crossing when partially cleared. Build the automatic re-crossing response without worrying about advancement or submissions. 20 repetitions per side with progressive speed.
 
@@ -277,26 +289,6 @@ During live rolling, focus specifically on retaining cross ashi when partners at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective way to prevent the opponent from clearing your outside crossing leg?
-**A**: Actively press your crossing shin into the trapped leg rather than passively resting it there. Use your hip and core to drive the cross tight against their leg, making it require significantly more force to clear. When you feel them pushing on your shin, drive your hips forward to maintain the cross angle. The cross should feel like an active squeeze rather than a passive placement. Additionally, position the cross at mid-shin level where clearing requires maximum mechanical effort from the opponent.
-
-**Q2**: When is the optimal moment to advance from cross ashi to saddle during the opponent's extraction attempt?
-**A**: The optimal advancement window is when the opponent commits both hands to stripping your heel or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting on your foot rather than managing your leg positioning or blocking your hip advancement. Step your outside leg over their hip while their attention is focused on their hands. This creates a paradox where their successful grip strip on one connection point results in a deeper entanglement that makes extraction impossible.
-
-**Q3**: Your opponent successfully clears your outside cross but you maintain the inside hook - what should you do?
-**A**: Immediately attempt to re-establish the cross by stepping your outside leg back over their trapped leg before they can complete the extraction. The inside hook alone provides limited retention but buys three to five seconds for re-crossing. If re-crossing is blocked by their hand pinning your leg, use the inside hook to pull their trapped leg toward you while advancing your hips to close distance, then re-cross from a tighter position. Alternatively, advance directly to saddle since the inside hook provides enough control for the transition even without the cross.
-
-**Q4**: How do you distinguish between a genuine extraction attempt and a feint designed to draw out your saddle advancement?
-**A**: A genuine extraction attempt involves the opponent recovering base to seated or standing posture, committing both hands to the entangled area, and shifting their hips laterally away from you. A feint typically skips the base recovery step and uses only one hand on the cross while keeping the other free for a counter-entanglement or arm drag if you overcommit to advancement. The telltale sign is base recovery: if they invest in posture before addressing the cross, the extraction is genuine. If they stay flat and reach for the cross with one hand, they are likely baiting your saddle advancement to create a scramble opportunity.
-
-
-
-</section>
 
 
 </main>

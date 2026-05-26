@@ -166,6 +166,8 @@ Successful defenders understand that the safest option is often to not turn at a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Bottom?</p>
+
 - Attacker releases their guillotine grip and you feel the choking pressure decrease while their arm stays across your neck or chest
 - Attacker's legs open from closed guard and begin moving independently to follow your hip rotation
 - You feel the attacker's chest pressing forward and following your rotation instead of pulling you into the choke
@@ -177,6 +179,8 @@ Successful defenders understand that the safest option is often to not turn at a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Bottom?</p>
 
 - Control your turning speed to avoid fully committing rotation that exposes your entire back before you can defend
 - Keep elbows tight to your body during any rotation to block the overhook arm from crossing your chest into seatbelt
@@ -191,6 +195,8 @@ Successful defenders understand that the safest option is often to not turn at a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Bottom?</p>
 
 ### 1. Stop the turn and re-face the attacker by squaring your shoulders back toward them and driving your hips forward
 
@@ -228,6 +234,8 @@ Successful defenders understand that the safest option is often to not turn at a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Bottom?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Stop your turn early when you recognize the attacker releasing their guillotine grip. Square your shoulders back toward the attacker, drive your hips forward, and use two-on-one grip fighting to strip their transitioning arm before it crosses your chest into seatbelt position. This returns you to the original position where you can resume guillotine defense.
@@ -243,6 +251,8 @@ Complete your rotation fully and explosively before the attacker can establish s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Bottom?</p>
 
 ### 1. Turning slowly and passively, giving the attacker ample time to release the guillotine and establish seatbelt control
 
@@ -272,6 +282,8 @@ Complete your rotation fully and explosively before the attacker can establish s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Bottom?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner establishes bottom Hindulotine and releases the guillotine on verbal cue while you practice identifying the transition indicators: grip release, arm repositioning, and guard opening. Work on recognizing these cues without partner resistance, building the pattern recognition that enables timely defensive response.
 
@@ -288,29 +300,6 @@ Start from bottom Hindulotine position with full resistance. Partner chooses bet
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from guillotine to back take?
-**A**: The earliest cue is the sudden decrease in guillotine choking pressure combined with the attacker's arm remaining across your neck and chest rather than releasing completely. You will feel their grip open but their forearm staying in contact, which indicates they are converting the choking arm into the overhook component of a seatbelt rather than disengaging entirely.
-
-**Q2**: Why is stopping your turn and re-facing the attacker sometimes a better defensive choice than completing the rotation?
-**A**: Stopping the turn and re-facing denies the back exposure entirely, returning you to the Hindulotine where you face a known threat (the guillotine) rather than the unknown of a scramble. Completing the turn risks the attacker following your rotation with seatbelt control already established. Re-facing also resets the positional dynamic to your advantage since you can resume systematic guillotine defense from a position you understand.
-
-**Q3**: Your opponent has released the guillotine and their arm is crossing your chest - what specific defensive action should you take with your hands?
-**A**: Immediately grab the overhook arm with both hands using a two-on-one grip, controlling their wrist and forearm before they can clasp hands with their underhook arm. Pull their overhook arm away from your chest and toward the mat while simultaneously tucking your opposite elbow tight to block the underhook from getting deep. This prevents the seatbelt from locking and gives you time to re-face or create distance.
-
-**Q4**: What makes driving forward into the attacker's guard a viable but risky defensive option?
-**A**: Driving forward is viable because it eliminates the rotation that creates back exposure and can stack the attacker, reducing their offensive options. However, it is risky because if the attacker has not fully committed to the back take transition, the forward drive may tighten the still-active guillotine choke. This option works best when you clearly feel the grip release indicating full commitment to the back take, making the forward drive safe from choke threat.
-
-**Q5**: How should you address hook insertion attempts if the attacker has already established partial seatbelt control?
-**A**: Keep your knees pinched together and hips low to the mat to create a physical barrier against hook entry. Use your bottom hand to control the attacker's top leg at the knee, preventing it from threading inside your thigh. Simultaneously work to strip the seatbelt with your top hand. If one hook enters, immediately trap it by closing your legs around their foot while continuing to fight the seatbelt. Preventing both hooks from entering simultaneously is the critical defensive threshold.
-
-
-
-</section>
 
 
 </main>

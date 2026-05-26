@@ -186,6 +186,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Head Extraction to Posture?</p>
+
 - Remain calm under throat pressure rather than making panic-driven movements that tighten the choke
 - Address the foot-behind-head configuration first since it creates the closed-loop preventing escape
 - Turn chin toward the choking leg to create immediate breathing space before attempting full extraction
@@ -201,6 +203,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Head Extraction to Posture?</p>
+
 - Recognition that you are caught in gogoplata control with shin across throat and foot behind head
 - Assessment of choke tightness to determine if systematic escape or emergency action is required
 - At least one hand free to address foot positioning or create frames against opponent's hips
@@ -213,6 +217,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Head Extraction to Posture step by step?</p>
 
 1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This angles your throat away from the perpendicular pressure and buys critical seconds for the escape sequence.
 2. **Establish hand control**: Place both hands on opponent's hips rather than grabbing at the choking leg. This hand position prevents them from elevating their hips to increase pressure and creates the base needed for subsequent movements.
@@ -241,6 +247,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Head Extraction to Posture?</p>
+
 - **Opponent elevates hips and pulls foot deeper as you begin extraction** (Effectiveness: High) - Your Response: Increase forward hip pressure before attempting foot removal; their elevation attempt is weaker when you are driving weight into them → Leads to [[Positions/Gogoplata Control]]
 - **Opponent transitions to triangle as shin slides off throat** (Effectiveness: High) - Your Response: Keep posture driving forward during extraction and immediately pull your elbow to your knee to prevent triangle lock; posture is your primary defense → Leads to [[Positions/Triangle Control]]
 - **Opponent switches to omoplata as you turn toward the attacking leg** (Effectiveness: Medium) - Your Response: Always turn away from the attacking leg when creating angles; if caught turning into the leg, drive shoulder down and roll through the omoplata → Leads to [[Positions/Gogoplata Control]]
@@ -252,6 +260,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Head Extraction to Posture?</p>
 
 ### 1. Pulling head straight backward to escape shin pressure
 
@@ -286,6 +296,8 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Head Extraction to Posture (Attacker)?</p>
+
 **Week 1-2** - Position recognition and breathing
 Partner establishes gogoplata at 30% pressure. Practice recognizing the position, remaining calm, and finding breathing space through chin positioning. No escape attempts yet, purely building comfort under pressure and mental composure.
 
@@ -303,48 +315,12 @@ Full resistance training starting from gogoplata control. Partner attempts to fi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does pulling your head straight backward fail as an escape from gogoplata?
-**A**: The foot-behind-head configuration creates a closed-loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or use lateral movement to escape the geometric trap.
-
-**Q2**: What is the first priority when caught in gogoplata before attempting full escape?
-**A**: Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for systematic escape rather than panicking with explosive movements that typically tighten the choke and expose alternative submissions.
-
-**Q3**: Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?
-**A**: Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly.
-
-**Q4**: What are the two primary submission threats you must defend against if your escape movement is imperfect?
-**A**: Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses.
-
-**Q5**: How should you position your hands during the escape and why?
-**A**: Place hands on opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective. Hip control prevents them from elevating to maintain pressure and creates base for your forward driving movements.
-
-**Q6**: In which direction should you move your head during extraction and why?
-**A**: Move laterally in the same direction you pushed the opponent's foot, not straight backward. Lateral movement slides your head out of the shin-throat-foot triangle configuration. Backward movement pulls against the closed-loop system, tightening the choke.
-
-**Q7**: When is the emergency tuck-and-roll escape appropriate versus the systematic extraction?
-**A**: Emergency tuck-and-roll is only for when the choke is critically tight and you have no time for systematic work. It breaks the position but exposes your back. Systematic extraction is preferable whenever breathing allows because it leaves you in closed guard rather than defending turtle.
-
-**Q8**: What mistake causes defenders to give up an omoplata when escaping gogoplata?
-**A**: Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. The bottom player can redirect to omoplata control as your shoulder rotates toward them. Always turn away from the choking leg or work on direct extraction without turning.
-
-**Q9**: How do you assess whether you have time for systematic escape versus needing emergency action?
-**A**: Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator.
-
-**Q10**: What should you do immediately after successfully extracting your head?
-**A**: Immediately drive posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin passing sequences from closed guard. Speed is essential because the opponent will attempt to re-establish control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Head Extraction to Posture?</p>
 
 Head Extraction to Posture involves escaping a choke that restricts airway and blood flow, requiring careful attention to safety. Always tap early if the choke is fully locked and you cannot create breathing space within a few seconds. Training partners should apply gradual pressure and immediately release when you tap. During drilling, communicate clearly about pressure levels. Avoid explosive movements that could cause neck strain or cervical injury. If you feel lightheaded or experience vision changes, tap immediately rather than continuing escape attempts. When drilling the emergency tuck-and-roll variant, ensure adequate mat space and communicate with your partner to prevent collision injuries.
 

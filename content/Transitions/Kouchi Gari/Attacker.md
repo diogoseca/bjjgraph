@@ -182,6 +182,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kouchi Gari?</p>
+
 - Off-balance opponent diagonally backward before attempting the reap
 - Target the ankle and lower calf, not the thigh
 - Maintain upper body control throughout the entire movement
@@ -197,6 +199,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kouchi Gari?</p>
+
 - Establish collar and sleeve grips or equivalent no-gi control such as collar tie and wrist
 - Position yourself at an angle to your opponent, not square
 - Break opponent's upright posture with forward pressure to load weight onto their heels
@@ -210,6 +214,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kouchi Gari step by step?</p>
 
 1. **Establish grips and angle**: Secure a high collar grip with your right hand and sleeve or wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them. This angle gives you a mechanical advantage for the diagonal off-balance that follows.
 2. **Break opponent's posture**: Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body with the sleeve grip. This creates the initial off-balance, loads weight onto their front foot, and prevents them from maintaining strong upright posture.
@@ -238,6 +244,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kouchi Gari?</p>
+
 - **Opponent steps back aggressively with targeted leg** (Effectiveness: Medium) - Your Response: Follow their backward step and switch to Osoto Gari or Kouchi Makikomi (wrapping variation), using their retreating momentum against them → Leads to [[Positions/Clinch]]
 - **Opponent widens stance and lowers hips defensively** (Effectiveness: High) - Your Response: Abandon Kouchi Gari and transition to Uchi Mata or knee tap, attacking the opposite side or switching levels to exploit the wide base → Leads to [[Positions/Clinch]]
 - **Opponent hops on base leg to maintain balance** (Effectiveness: Medium) - Your Response: Chain into Kosoto Gari or Deashi Harai, attacking the hopping leg as they are airborne and vulnerable on a single support point → Leads to [[Positions/Clinch]]
@@ -249,6 +257,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kouchi Gari?</p>
 
 ### 1. Attempting to lift or sweep with only the reaping leg without upper body kuzushi
 
@@ -288,6 +298,8 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kouchi Gari (Attacker)?</p>
+
 **Week 1-2: Static drilling** - Footwork and timing fundamentals
 Practice the reaping motion and off-balancing with a cooperative partner who provides light resistance. Focus on proper foot placement, angle creation, and the diagonal off-balance direction. Drill 20-30 repetitions per session, alternating sides.
 
@@ -308,48 +320,12 @@ Incorporate Kouchi Gari into regular stand-up sparring and competition preparati
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary target area for the reaping leg in Kouchi Gari?
-**A**: The ankle and lower calf area, specifically the Achilles tendon region. Unlike Ouchi Gari which targets higher on the leg, Kouchi Gari focuses on this lower area to create a small, precise reaping motion that removes the base from an already off-balanced opponent. Contact is made with the blade of the foot.
-
-**Q2**: In what direction should you off-balance your opponent for Kouchi Gari?
-**A**: Diagonally backward toward their rear corner, not straight back. This diagonal off-balance removes both potential posting points and makes it nearly impossible for the opponent to recover by stepping with their free leg. The direction is typically toward the corner behind the leg you are attacking.
-
-**Q3**: Why is Kouchi Gari particularly effective as part of combination attacks rather than as an isolated technique?
-**A**: Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When an opponent defends one way, they expose themselves to the follow-up. This makes Kouchi Gari an excellent opening move in a combination, even when the initial throw does not land cleanly.
-
-**Q4**: What is the fundamental difference between Kouchi Gari and Ouchi Gari in terms of execution?
-**A**: Kouchi Gari is a small, precise reap targeting the ankle and lower calf with emphasis on diagonal off-balancing, while Ouchi Gari is a larger, more powerful technique targeting the thigh with more linear backward motion. Kouchi requires more timing and finesse, whereas Ouchi relies more on power and deep penetration. The 'Ko' in Kouchi literally means 'small,' reflecting this difference.
-
-**Q5**: Your opponent posts their foot back just as you initiate the reap—how do you adjust?
-**A**: Do not chase the retreating foot. Instead, use their backward momentum to transition immediately into Osoto Gari on the same side, or switch to a forward-driving technique like a double leg entry on the opposite side. Their backward weight shift makes them vulnerable to any technique that attacks in the direction they are already moving. The key is to read the defensive reaction and chain rather than force the original throw.
-
-**Q6**: What role does upper body control play in Kouchi Gari success rate?
-**A**: Upper body control accounts for approximately 70% of the technique's effectiveness. The collar and sleeve grips create the crucial off-balance through push-pull mechanics, turning the opponent's shoulders and breaking their structure. The reaping leg simply removes the base from an opponent who is already falling—it does not generate the throw by itself. Neglecting upper body mechanics is the most common cause of failed attempts.
-
-**Q7**: You have a collar tie and wrist control, and your opponent shifts their weight onto their right foot while looking to circle left—what is your optimal timing window?
-**A**: This is the ideal moment to attack with Kouchi Gari on the right leg. The opponent's weight is loaded on the target leg (making it harder to lift or retract), and their intention to circle left means their balance is transitioning. Pull diagonally with your collar tie toward their right rear corner while reaping the right ankle. Their circular movement actually assists the off-balance because they have already committed to shifting weight in a direction that complements your kuzushi.
-
-**Q8**: What grip configuration is required before you can attempt Kouchi Gari, and what happens if you attack without proper grips?
-**A**: You need at minimum a controlling grip on the opponent's upper body (collar grip, collar tie, or neck control) plus a secondary grip on their arm or wrist to generate the push-pull kuzushi. Attempting Kouchi Gari without these grips means you cannot generate the diagonal off-balance, and the reap alone has almost zero finishing power. The opponent will simply step back or hop over the attack, and you may lose your base during the attempt, exposing yourself to counter throws.
-
-**Q9**: Your opponent defends Kouchi Gari by widening their stance and sinking their hips—what does this tell you about their vulnerability?
-**A**: A wide, low stance neutralizes Kouchi Gari but creates vulnerability to techniques that exploit the wide base. Uchi Mata becomes highly available because the wide stance gives you space to enter between their legs. Knee taps and snap downs also become viable because the lowered posture exposes the head and makes them reactive to level changes. Rather than forcing Kouchi Gari, recognize this as a positional cue to switch to a complementary attack that punishes their defensive posture.
-
-**Q10**: If the Kouchi Gari lands but you end up standing over a grounded opponent instead of in side control, what went wrong?
-**A**: You failed to follow through with forward momentum after the reap. The correct finishing mechanic requires continuous forward drive with your hips and chest while maintaining grip contact throughout the fall. Your body should follow the opponent to the mat, landing with your chest across their torso. The error usually stems from releasing grips at the moment of the throw or leaning backward during the reap instead of driving forward through the technique.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kouchi Gari?</p>
 
 Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.
 

@@ -186,6 +186,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Long Step Around Ringworm?</p>
+
 - Step wide enough to completely exit the controlled passing lanes created by the ringworm configuration
 - Maintain forward pressure throughout the long step to prevent opponent from adjusting their lapel configuration
 - Use your lead hand to control their far hip, preventing them from following your movement with their hips
@@ -201,6 +203,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Long Step Around Ringworm?</p>
+
 - Opponent has established ringworm guard with multiple lapel configurations creating barriers to standard passing
 - You have identified that direct lapel clearing would require excessive time and energy expenditure
 - Your posture is broken or compromised by the lapel configuration but you maintain some base
@@ -214,6 +218,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Long Step Around Ringworm step by step?</p>
 
 1. **Assess configuration**: Identify all lapel wraps and determine which passing lanes are blocked. Recognize that the ringworm has created multiple barriers making direct passing inefficient. This assessment determines whether long step is appropriate versus other solutions.
 2. **Establish hip control**: Place your lead hand on opponent's far hip, using a cupping grip to prevent them from following your movement. This grip is critical—without it, the opponent can rotate their hips to maintain guard as you step around.
@@ -243,6 +249,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Long Step Around Ringworm?</p>
+
 - **Hip chase—opponent rotates their hips to follow your movement and re-establish guard angle** (Effectiveness: High) - Your Response: Maintain strong far hip control throughout the step and increase forward pressure to pin their hip to the mat → Leads to [[Positions/Lapel Guard]]
 - **Sit-up to back take—opponent releases lapel grips and pursues your back as you step around** (Effectiveness: High) - Your Response: Drive shoulder pressure immediately upon landing and keep your elbow tight to prevent them from getting under your arm → Leads to [[Positions/Back Control]]
 - **Leg pummeling—opponent attempts to reinsert guard hooks as you pass around** (Effectiveness: Medium) - Your Response: Step completely past their hip before consolidating, and use knee pressure to block hook reinsertion → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Long Step Around Ringworm?</p>
 
 ### 1. Taking too small of a step that remains within the controlled passing lanes
 
@@ -288,6 +298,8 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Long Step Around Ringworm (Attacker)?</p>
+
 **Week 1-2** - Movement pattern isolation
 Practice the long step footwork without a partner, emphasizing the exaggerated arc and low hip position. Then drill against a stationary partner in ringworm position, focusing purely on the stepping mechanics without resistance.
 
@@ -305,54 +317,12 @@ Begin rounds in ringworm guard with full resistance. Both partners compete—bot
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Long Step Around Ringworm pass?
-**A**: The primary goal is to completely circumvent the mechanical barriers created by ringworm guard's multiple lapel configurations by taking an exaggerated wide step that exits the controlled passing lanes entirely, rather than fighting through the lapel wraps directly.
-
-**Q2**: Why must you establish far hip control before initiating the long step?
-**A**: Far hip control prevents the opponent from following your movement with their hips. Without this anchor grip, they can simply rotate to maintain their guard angle as you step around, negating your direction change and potentially setting up back takes.
-
-**Q3**: Your opponent begins sitting up aggressively as you initiate the long step—how do you adjust?
-**A**: Drive shoulder pressure immediately upon your foot landing, keeping your elbow tight to your body to prevent them from getting under your arm. The key is connecting the step directly to forward pressure with no pause, making their sit-up run into your incoming weight rather than catching you in transition.
-
-**Q4**: What distinguishes a properly executed long step from a standard passing step?
-**A**: A proper long step is significantly wider than normal—your foot should land completely past the plane of the opponent's far hip, not just to their side. The exaggerated arc is what allows you to exit the controlled lanes that ringworm guard creates.
-
-**Q5**: When is the Long Step Around Ringworm the wrong technique choice?
-**A**: When the opponent hasn't committed to maintaining their ringworm configuration—if their grips are fresh and they're mobile, they'll easily adjust to your direction change. The technique works best when they've invested energy in maintaining complex lapel wraps, which limits their reactive mobility.
-
-**Q6**: How should your hip height change during the long step execution?
-**A**: Keep your hips low throughout the stepping motion. High hips expose you to elevation sweeps and technical standup attempts. Your center of gravity should stay below their potential elevation attacks while maintaining enough mobility to complete the arc.
-
-**Q7**: What are the consequences of taking too small of a long step?
-**A**: A step that remains within the controlled passing lanes means the lapel configuration still blocks your pass. You've expended energy on an incomplete direction change while remaining trapped in the same mechanical problem, now potentially with less base and more fatigue.
-
-**Q8**: Your opponent starts reconfiguring their lapel wraps to match your new angle—what does this indicate about your execution?
-**A**: This indicates your step wasn't explosive and continuous enough. The long step should be faster than their reconfiguration speed—if they have time to adjust, you're either moving too slowly or pausing between the step and forward pressure application. Increase your commitment and eliminate any hesitation.
-
-**Q9**: How does the Long Step to Leg Drag variant differ from the standard finish?
-**A**: Instead of consolidating to side control after the step, you continue momentum into a leg drag position where their leg is trapped between your hip and arm. This variant is preferred when opponent's legs are particularly active and attempting to re-pummel during your passing attempt.
-
-**Q10**: What grip specifically anchors the opponent's hip during the long step?
-**A**: A cupping grip on the far hip, placed with your lead hand. The grip should feel like you're holding their hip to the mat, preventing rotation rather than pulling. This creates the fixed point around which your entire passing arc revolves.
-
-**Q11**: Your opponent pumps their legs to reinsert hooks as you step past—what is the correct chain attack?
-**A**: If their leg pummel succeeds partially and you land in half guard, immediately transition to a knee slice pass or crossface pass from half guard top. The long step has already broken the ringworm configuration, so now you're passing standard half guard rather than fighting lapel barriers. Use your forward momentum to drive the knee slice through before they can re-establish frames.
-
-**Q12**: What is the optimal timing window for initiating the long step against ringworm guard?
-**A**: The optimal window is when the opponent is actively adjusting or reinforcing their lapel grips rather than monitoring your footwork. Watch for moments when both their hands are occupied with fabric manipulation—their hip defense is weakest when their attention and grip strength are committed to maintaining the ringworm configuration rather than tracking your passing angle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Long Step Around Ringworm?</p>
 
 The Long Step Around Ringworm is generally low-risk compared to other guard passes, as it involves controlled stepping rather than explosive movements or joint manipulation. However, practitioners should be aware of potential knee stress from the wide stepping arc, particularly if executed on sticky or uneven mats. Ensure adequate warmup of hip flexors and groin muscles before drilling, as the exaggerated step requires significant hip mobility. When applying forward pressure after the step, avoid driving directly into partner's face or throat—aim for chest and shoulder contact. Partners playing ringworm guard should tap immediately if lapel wraps create choking pressure during the passing attempt. During initial learning phases, execute at reduced speed to develop proper mechanics before adding explosive timing.
 

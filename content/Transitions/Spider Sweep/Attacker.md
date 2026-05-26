@@ -188,6 +188,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Spider Sweep?</p>
+
 - Create the angle before the sweep: hip escape to 30-45 degrees off center to establish the diagonal sweeping line before initiating any pulling or pushing
 - Coordinate opposing forces: the pulling sleeve and pushing foot must work simultaneously along the same diagonal axis to generate maximum rotational force
 - Maintain constant bicep pressure through the non-sweeping foot to prevent the opponent from posturing or repositioning during the sweep
@@ -203,6 +205,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Spider Sweep?</p>
+
 - Establish deep four-finger sleeve grips at both of the opponent's cuffs with thumbs inside for maximum control
 - Place both feet firmly on opponent's biceps with toes curled inward, creating active extension pressure that controls their posture
 - Hip escape to create a 30-45 degree angle off center, establishing the diagonal sweeping line before initiating the technique
@@ -215,6 +219,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Spider Sweep step by step?</p>
 
 1. **Establish Double Sleeve Grips**: Secure deep four-finger grips on both of your opponent's sleeves at the cuff level with thumbs positioned inside the sleeve opening. The grips must be tight enough to control their arm movement throughout the entire sweep sequence without slipping under load.
 2. **Position Feet on Biceps**: Place both feet firmly against your opponent's biceps with toes curled inward for traction, creating strong extension pressure that controls their posture and prevents them from driving forward into your guard. Keep legs relatively straight to maximize the lever arm length.
@@ -244,6 +250,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Spider Sweep?</p>
+
 - **Opponent posts their free hand on the mat to prevent being swept over** (Effectiveness: High) - Your Response: Immediately switch to a triangle entry by pulling the posted arm across your centerline while throwing your leg over their shoulder on the non-posted side, converting their posting reaction into a submission opportunity → Leads to [[Positions/Spider Guard]]
 - **Opponent strips one sleeve grip using a two-on-one break during the sweep attempt** (Effectiveness: High) - Your Response: Immediately transition to lasso guard on the remaining grip side by threading your foot under their arm, or recover the grip by using foot pressure on the freed bicep to prevent their arm from withdrawing completely → Leads to [[Positions/Open Guard]]
 - **Opponent widens base and lowers center of gravity to resist the rotational sweep force** (Effectiveness: Medium) - Your Response: Switch to the overhead balloon sweep variant by extending both legs upward to elevate them, or use the wide base opening to enter an omoplata by pivoting your hips toward the side with more space → Leads to [[Positions/Spider Guard]]
@@ -255,6 +263,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Spider Sweep?</p>
 
 ### 1. Attempting the sweep without first creating the hip angle off centerline
 
@@ -294,6 +304,8 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Spider Sweep (Attacker)?</p>
+
 **Phase 1: Isolated Mechanics** - Hip angle creation and scissoring coordination
 Practice the hip escape to create angle, then the coordinated pull-push motion with a compliant partner who allows the sweep to complete. Focus on feeling the diagonal force line and timing the follow-through. Perform 20 repetitions per side with zero resistance.
 
@@ -314,42 +326,12 @@ Positional sparring starting in Spider Guard with full resistance from both play
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent posts their hand on the mat as you initiate the Spider Sweep - how do you adjust your attack?
-**A**: When the opponent posts, they have removed one arm from their defensive structure to prevent the sweep. Immediately transition to a triangle entry by pulling the posting arm across your centerline with your grip while throwing your far leg over their shoulder on the non-posting side. Their commitment to base defense has isolated their arm and created the exact opening needed for submission entry. Alternatively, pivot your hips for an omoplata on the posting side.
-
-**Q2**: What is the critical hip angle needed before initiating the Spider Sweep and why does it matter?
-**A**: You must hip escape to create a 30-45 degree angle off center before pulling or pushing. This angle establishes the diagonal sweeping line along which the opposing forces of your sleeve pull and foot extension will act. Without this angle, the forces work perpendicular to the opponent, creating a push-pull they can resist by simply widening their base. The diagonal force line rotates them around their center of gravity, which is mechanically far more effective than trying to push them straight sideways.
-
-**Q3**: Your opponent strips one sleeve grip mid-sweep attempt - what is your immediate response?
-**A**: Immediately assess whether you can recover the grip or must transition. If their arm is still within reach, use the foot pressure on that bicep to prevent arm withdrawal while fighting for the re-grip. If they have fully withdrawn the arm, immediately transition to lasso guard on the remaining grip side by threading your foot under their arm and over their shoulder, converting to a lasso sweep setup. Never remain in compromised spider guard with only one sleeve grip hoping to recover.
-
-**Q4**: What direction of force must your legs create for the Spider Sweep to be effective?
-**A**: Your legs must create opposing forces along the same diagonal axis. The extended far-side foot pushes the opponent's bicep upward and across at approximately 45 degrees, while the retracting near-side leg pulls inward and downward. These opposing forces create a rotational torque around the opponent's center of gravity. The key is that both forces work along the same diagonal line rather than in parallel or perpendicular directions, which would dissipate the rotational energy needed to complete the sweep.
-
-**Q5**: Your opponent widens their base and drops their weight low to resist the sweep - what options do you have?
-**A**: A wide, low base creates three opportunities. First, switch to the overhead balloon sweep by extending both legs upward to lift them using their lowered weight against them. Second, the wide base opens space for omoplata entry by pivoting your hips toward the side with the larger gap between their knee and your hip. Third, transition one foot to lasso position for the lasso-assisted variant, which provides additional rotational force through the wrapped leg that overcomes the wider base. The wide base that defeats the standard sweep opens vulnerabilities to these alternatives.
-
-**Q6**: What grip position on the sleeves provides maximum control for the Spider Sweep?
-**A**: Deep four-finger grips at the cuff level with thumbs positioned inside the sleeve opening provide maximum control. This position maximizes the lever arm length for both pulling and controlling the opponent's arm, and the cuff material bunches into a thick fold that is more difficult for the opponent to strip. Gripping lower on the wrist provides less material and shorter lever arms, while gripping higher on the forearm sacrifices pulling range. The cuff grip is also the most secure against the strong forces generated during the sweeping motion.
-
-**Q7**: The sweep attempt fails but you maintain both grips and feet on biceps - what chain attack should you pursue next?
-**A**: Maintain your grips and immediately threaten a triangle by pulling one sleeve across your centerline while extending the other arm away with foot pressure. If they resist the arm isolation, re-angle your hips and attempt the sweep to the opposite side. If they posture up to defend both threats, their extended posture creates openings for omoplata entry. The key principle is that failed sweeps should immediately become submission setups and vice versa, keeping constant pressure that prevents the opponent from settling into a comfortable defensive position.
-
-**Q8**: What are the optimal timing windows for initiating the Spider Sweep during a guard exchange?
-**A**: The three best timing windows are: when the opponent shifts their weight forward attempting to advance or break grips, as their forward momentum adds to your sweeping force; when they reach with one hand for a grip, temporarily compromising their posting ability; and immediately after they complete a grip break on one side, as they are momentarily focused on their successful grip break rather than base maintenance. Avoid initiating when the opponent is stationary with wide base and full attention on balance.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Spider Sweep?</p>
 
 Spider Sweep is a relatively low-risk technique with minimal injury potential. The primary safety concern is wrist and finger strain from maintaining deep sleeve grips under load during the sweeping motion. Practitioners should release grips immediately if they feel sharp pain in fingers or wrists rather than fighting through it. When drilling, the person being swept should practice controlled breakfalls and the sweeper should allow the technique to complete smoothly rather than forcing through stalled positions that could strain the swept player's shoulder on impact.
 

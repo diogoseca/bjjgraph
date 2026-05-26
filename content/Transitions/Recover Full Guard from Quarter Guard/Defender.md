@@ -146,6 +146,8 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Recover Full Guard from Quarter Guard?</p>
+
 - Bottom player establishes forearm frame against your chest, shoulder, or neck—this is the preparatory movement for hip escape and indicates recovery attempt is imminent
 - Bottom player tenses their hips and begins turning onto their side, indicating the hip escape is about to begin as they create the angle needed for knee insertion
 - Bottom player's inside knee begins driving toward your body as they attempt to insert it into the space between you, signaling the critical moment of the recovery
@@ -158,6 +160,8 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Recover Full Guard from Quarter Guard?</p>
 
 - Maintain constant forward pressure through chest and shoulder to eliminate space for hip escape—the bottom player cannot recover guard if there is no space to insert their knee
 - Control the bottom player's hip mobility through crossface pressure and chest weight to prevent the shrimping motion that initiates recovery
@@ -172,6 +176,8 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Recover Full Guard from Quarter Guard?</p>
 
 ### 1. Drive crossface and increase forward pressure when feeling frames establish
 
@@ -209,6 +215,8 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Recover Full Guard from Quarter Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 Capitalize on the bottom player's frame and hip escape attempt by driving through their recovery with crossface pressure. When they extend frames and create space, use that momentary opening to drive your knee past their hip line entirely and consolidate side control before their knee can reinsert. The recovery attempt actually creates opportunities for pass completion if you maintain forward pressure through their movement.
@@ -224,6 +232,8 @@ Collapse the space created by the bottom player's hip escape by immediately drop
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Recover Full Guard from Quarter Guard?</p>
 
 ### 1. Withdrawing pressure when feeling bottom player's frames establish instead of driving through them
 
@@ -253,6 +263,8 @@ Collapse the space created by the bottom player's hip escape by immediately drop
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Recover Full Guard from Quarter Guard?</p>
+
 **Phase 1: Recognition and Pressure Response** - Identifying recovery attempts and maintaining forward pressure against frames
 Partner announces their recovery attempt before executing it. Practice recognizing the frame establishment and hip escape initiation, then responding with increased crossface pressure and forward hip drive. Focus on maintaining heavy chest connection while advancing position. Partner executes recovery at fifty percent speed and intensity.
 
@@ -266,23 +278,6 @@ Full positional sparring from quarter guard where your goal is to complete the p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is about to attempt guard recovery from quarter guard?
-**A**: The earliest cues are frame establishment with forearm pressing against your chest or shoulder, hip tensing indicating preparation for shrimp movement, and the bottom player beginning to turn onto their side. These preparatory movements occur one to two seconds before the actual hip escape and knee insertion. Recognizing these pre-indicators allows you to increase pressure and block the recovery before it generates meaningful space, which is far easier than countering a recovery already in progress.
-
-**Q2**: How should you adjust your pressure when the bottom player successfully creates space with a hip escape?
-**A**: When the bottom player creates space, immediately drive your hips forward to close the gap while simultaneously increasing crossface pressure to prevent their knee from entering the space. Do not chase their hips—instead advance your own position forward past where their hips were, turning their escape into your passing progression. If the space is too large to close with pressure alone, use your hand to control their inside knee and prevent reinsertion while you continue advancing.
-
-**Q3**: When should you choose to backstep versus drive forward in response to the bottom player's recovery attempt?
-**A**: Drive forward when the bottom player's recovery is early-stage and their knee has not yet entered the space between you—your pressure can collapse the space before their knee inserts. Backstep when the bottom player has successfully inserted their knee and is beginning to establish half guard entanglement—at this point, driving forward plays into their recovering guard structure, while backstepping takes a completely different angle that bypasses their reinserted knee. The decision point is whether their knee has crossed the centerline between your bodies.
-
-
-
-</section>
 
 
 </main>

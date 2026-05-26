@@ -208,7 +208,7 @@ The Leg Extraction from Truck connects the truck bottom escape hierarchy to the 
 
 - [[Transitions/Hip Escape from Truck]] - Alternative escape using shrimping to reach half guard
 
-- [[Submissions/Calf Slicer from Truck]] - Submission threat that increases during leg extraction attempts
+- [[Submissions/Calf Slicer]] - Submission threat that increases during leg extraction attempts
 
 - [[Positions/Twister Control]] - Primary submission threat motivating urgent escape from truck
 

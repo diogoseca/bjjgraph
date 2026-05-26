@@ -194,6 +194,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Escape from X-Guard?</p>
+
 - Lower your center of gravity immediately to deny the bottom player elevation — the higher you stand, the more sweep leverage they generate
 - Address the three control points in sequence: strip ankle grips first, neutralize outside leg frame second, extract inside hook last
 - Maintain at least one posted foot with strong base throughout the entire extraction process to resist sweep attempts
@@ -209,6 +211,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Escape from X-Guard?</p>
+
 - At least one foot firmly planted on the mat with enough base to resist lateral sweep attempts during extraction
 - Recognition of which leg is trapped and identification of all three X-Guard control points: inside hook position, outside leg placement, and hand grip locations
 - At least one hand free from posting for balance, available to strip grips and control opponent's legs during extraction
@@ -220,6 +224,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Escape from X-Guard step by step?</p>
 
 1. **Assess and stabilize**: Identify the X-Guard configuration by locating the inside hook behind your knee, the outside leg across your hip, and the opponent's grip on your trapped ankle. Widen your base by stepping your free leg out and lowering your hips to reduce the bottom player's elevation leverage. Establish a grip on the opponent's collar, head, or far hip to control their upper body positioning.
 2. **Strip the ankle grip**: Use your hand on the trapped side to peel the opponent's grip from your ankle or pants cuff. Apply a two-on-one grip break if necessary by momentarily using both hands to strip the controlling grip. This removes their ability to prevent backward leg extraction and eliminates one of the three control anchors maintaining X-Guard structure.
@@ -250,6 +256,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Escape from X-Guard?</p>
+
 - **Bottom player elevates hips explosively to sweep before hooks can be stripped** (Effectiveness: High) - Your Response: Immediately lower your center of gravity by bending both knees and driving hips toward the mat. Post your free hand on the mat behind you if necessary. The lower you get, the less elevation leverage they generate. If the sweep is already in motion, sit back deliberately into the sit-down extraction variant rather than fighting the momentum standing. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to Single Leg X when inside hook becomes shallow during extraction** (Effectiveness: High) - Your Response: Recognize the transition immediately by feeling the hook slide from behind your knee to your hip crease. Address Single Leg X before it consolidates by pumping your trapped leg forward to break the bottom player's hip connection, then execute the Standing Escape from SLX sequence. → Leads to [[Positions/X-Guard]]
 - **Bottom player re-grips the ankle after you strip it, maintaining extraction prevention** (Effectiveness: Medium) - Your Response: Rather than repeatedly stripping the same grip, change tactics by collapsing the outside leg frame first. Once you smother their elevation, the ankle grip becomes less relevant because they cannot generate sweep power even with the grip maintained. Strip the ankle grip last after their structure is already compromised. → Leads to [[Positions/X-Guard]]
@@ -262,6 +270,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Escape from X-Guard?</p>
 
 ### 1. Standing fully upright with narrow base while attempting to extract the trapped leg
 
@@ -301,6 +311,8 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Escape from X-Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook identification and extraction sequence
 Practice identifying all three X-Guard control points with a cooperative partner. Drill the extraction sequence at walking pace: strip ankle grip, collapse outside frame, smother elevation, rotate knee and extract. Focus on correct order of operations and body mechanics without resistance. Perform 20 repetitions per side.
 
@@ -321,42 +333,12 @@ Start from standing with partner pulling guard. When X-Guard is established, exe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct sequence for addressing the three X-Guard control points during the Standing Escape?
-**A**: The correct sequence is: strip the ankle grip first to free the leg for eventual extraction, collapse the outside leg frame second to eliminate the distance management that protects the bottom player's elevation, then extract the inside hook last once the elevation has been smothered. Reversing this order — trying to extract the inside hook first — actually strengthens the bottom player's sweep power because the outside frame maintains the distance needed for effective elevation.
-
-**Q2**: Why should you turn your knee outward during inside hook extraction rather than pulling straight back?
-**A**: Pulling the leg straight backward deepens the hook pocket behind the knee because posterior extension creates a tighter crease for the hook to sit in. External rotation of the hip turns the knee outward, which changes the geometry of the hook contact — the cylindrical shape of the lower leg becomes angled relative to the hook, creating a ramp that the hook slides off rather than sinking into. Combined with a circular stepping path, this rotation mechanically strips the hook without requiring grip strength.
-
-**Q3**: Your opponent re-hooks immediately after you strip their inside hook — what adjustment should you make?
-**A**: If the opponent re-hooks after partial extraction, you likely failed to adequately smother their elevation before attempting extraction. Return to the smothering phase by driving your weight forward and down onto their torso to eliminate their hip bridging power. Once they cannot elevate, re-attempt the extraction with emphasis on creating more distance after the hook clears — step back further and laterally to exit their hooking range completely rather than remaining close enough for them to re-enter.
-
-**Q4**: What is the most critical base position to maintain during the extraction process?
-**A**: The most critical base element is keeping your free leg posted wide with the foot flat on the mat and knee bent, creating a stable tripod with your trapped leg and your hands. Your center of gravity must remain low — hips near knee height — throughout the extraction. The common error is standing upright during extraction for better leverage on the hook, which actually maximizes the sweep risk. The low, wide base with the free leg posted at approximately 45 degrees from your centerline provides maximum resistance to sweep forces from any direction.
-
-**Q5**: Your opponent transitions from X-Guard to Single Leg X during your escape attempt — what happened and how do you respond?
-**A**: This transition indicates your inside hook extraction loosened the deep hook but did not fully clear it — the hook slid from behind the knee to the hip crease, which is the defining feature of Single Leg X. Respond by immediately recognizing the position change and adapting your escape: pump your trapped leg forward to break the bottom player's hip connection to your leg, then drive your knee through and past their guard structure. Do not continue the X-Guard escape sequence because the control geometry has fundamentally changed and requires SLX-specific extraction mechanics.
-
-**Q6**: When is the sit-down extraction variant preferable to the standard standing escape?
-**A**: The sit-down variant is preferable when the bottom player has extremely deep hooks with strong ankle grips and is already generating elevation that threatens an imminent sweep. By deliberately sitting back and down, you remove all elevation leverage because the bottom player cannot elevate a target that is voluntarily descending. From the seated position, you can use both hands to peel hooks without sweep risk. This variant trades positional advantage temporarily for safety, and is particularly useful against opponents with strong hip bridging power who can generate sweeps even against a lowered center of gravity.
-
-**Q7**: What grip should you strip first and why is this the correct starting point?
-**A**: Strip the ankle grip first because it serves as the extraction prevention mechanism. The inside hook and outside frame control your balance and sweep vulnerability, but the ankle grip is what prevents you from stepping your leg free even after hooks are loosened. By removing the ankle grip early, you ensure that once you collapse the frame and loosen the hook, the leg can actually be extracted. If you leave the ankle grip for last, you may successfully loosen hooks only to find you still cannot physically withdraw the leg because it is tethered at the ankle.
-
-**Q8**: Your opponent grabs your collar with their free hand and pulls your posture forward while maintaining X-Guard — how do you prioritize?
-**A**: Prioritize breaking the collar grip before continuing with leg extraction. Upper body grips that compromise your posture are more immediately dangerous than the leg entanglement because they directly enable sweeps by pulling your center of gravity forward past your base. Use your free hand to strip the collar grip with a two-on-one peel or circular grip break. Once your posture is recovered, resume the standard escape sequence. Attempting leg extraction while your upper body is being pulled forward creates the exact off-balance condition that powers X-Guard sweeps.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Escape from X-Guard?</p>
 
 The Standing Escape from X-Guard carries moderate injury risk primarily during the extraction phase. Avoid explosive jerking motions when removing the inside hook, as sudden forceful extraction can hyperextend the bottom player's knee when their leg is deeply entangled. Maintain controlled movement throughout all phases of the escape. If hooks resist extraction through mechanical means, reassess your sequence rather than forcing through muscular effort, which risks knee ligament strain for the bottom player and ankle injuries for both practitioners. When practicing the sit-down variant, descend in a controlled manner to avoid landing on the bottom player's legs or face.
 

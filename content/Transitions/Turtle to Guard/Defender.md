@@ -162,6 +162,8 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Guard?</p>
+
 - Bottom player begins subtle lateral hip shift away from your weight, creating a small gap between their hip and yours
 - Bottom player's hand fighting intensifies with focused two-on-one grip breaking on your choking hand or harness arm
 - Bottom player loads weight onto their outside leg while their inside knee lifts slightly, preparing to thread between you
@@ -174,6 +176,8 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Guard?</p>
 
 - Maintain constant chest-to-back pressure to eliminate the lateral space needed for hip rotation
 - Establish seat belt or harness control early to prevent hand fighting and grip stripping
@@ -189,6 +193,8 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Guard?</p>
 
 ### 1. Drive chest weight forward and sprawl hips back to flatten bottom player and kill rotation
 
@@ -226,6 +232,8 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the bottom player's rotation by maintaining chest-to-back connection and inserting hooks as they turn. Their rotation actually helps you insert hooks if you stay connected. Use their momentum to establish seat belt grip and thread your legs inside their thighs as they move, converting their escape attempt into your dominant position.
@@ -241,6 +249,8 @@ Prevent the rotation entirely by maintaining heavy forward pressure with your ch
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Guard?</p>
 
 ### 1. Sitting too high on opponent's back with hips disconnected from theirs, leaving space underneath
 
@@ -275,6 +285,8 @@ Prevent the rotation entirely by maintaining heavy forward pressure with your ch
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Guard?</p>
+
 **Phase 1: Pressure and Connection Fundamentals** - Maintaining chest-to-back contact and weight distribution
 Practice maintaining heavy top pressure on a passive partner in turtle. Focus on keeping chest glued to their back, hips low and connected to their hips, and weight driving forward at a 45-degree angle. Partner does not resist but provides feedback on where pressure feels lightest. Build the habit of constant connection that becomes the foundation for all counter-techniques.
 
@@ -291,29 +303,6 @@ Specific sparring from turtle top against partner working guard recovery at full
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt a turtle to guard rotation?
-**A**: The earliest cue is a subtle lateral hip shift where the bottom player pushes their hips away from your primary weight. This creates a small gap that precedes any rotational movement. You may feel this as a slight decrease in pressure contact on one side of your chest. This hip shift is mechanically necessary before rotation can occur, so recognizing it gives you the maximum time window to counter by matching their shift with your own weight adjustment or by driving forward to collapse their base before the rotation can develop.
-
-**Q2**: Your opponent begins an explosive rotation and you cannot prevent it - how do you convert this into back control rather than losing position?
-**A**: Stay connected with your chest to their back throughout their rotation rather than trying to stop it. As they turn, your body follows their movement, keeping the seatbelt grip tight. Their rotation actually helps you insert your near-side hook because as they open their hips to face you, space appears for your foot to thread inside their thigh. Drive your hips forward into their back as they turn, using the rotational momentum to land with at least one hook already in place. The key is abandoning the idea of preventing the turn and instead using their movement as your back control entry sequence.
-
-**Q3**: How do you determine whether to sprawl and flatten versus following rotation for a back take when the bottom player initiates escape?
-**A**: The decision depends on your current grip and hook status. If you have strong seat belt control with at least one hook secured, follow the rotation because you can convert it to full back control. If you have upper body grips but no hooks, sprawl and flatten because you lack the leg control to follow effectively and need to reset. If the bottom player's escape is in its earliest phase with just a hip shift, sprawl to prevent it entirely. If they have already committed to full explosive rotation and created significant space, following is the better option because the sprawl will not catch them in time.
-
-**Q4**: The bottom player is hand fighting aggressively and has stripped your seat belt grip - what is your immediate priority?
-**A**: Your immediate priority is re-establishing upper body control before they can rotate. Drop your weight heavily through your chest onto their upper back to compensate for lost grip control. Use your freed hands to either re-establish the seat belt from a different angle, secure double underhooks by driving your arms under their armpits, or transition to a front headlock by circling toward their head. Do not attempt to insert hooks while your upper body control is compromised, as the bottom player will use the distraction to rotate. Chest pressure buys you time while you work to re-establish dominant grips.
-
-**Q5**: What adjustment should you make when the bottom player attempts a sit-through to half guard rather than a full rotation to closed guard?
-**A**: When you feel the bottom player sitting their hip to the mat rather than rotating fully, immediately shift your weight to the side they are sitting toward and drive your near-side knee across their hip line to prevent them from threading their leg between you. If their sit-through has already progressed, follow by walking your hips around their body toward their head, transitioning to a front headlock or maintaining top quarter position rather than allowing them to settle into half guard with an underhook. The sit-through is faster than a full rotation but travels less distance, so your window for counter-action is shorter but you need to cover less ground to maintain control.
-
-
-
-</section>
 
 
 </main>

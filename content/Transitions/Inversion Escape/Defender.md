@@ -164,6 +164,8 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inversion Escape?</p>
+
 - Opponent plants their free foot firmly on the mat outside their hip with toes angled outward, loading their leg for explosive drive - this is the primary telegraph
 - Opponent adjusts grips from defensive heel protection to controlling your pants at the knees, indicating they are preparing to manage your position during rotation rather than defend the heel
 - Sudden explosive hip rotation toward their trapped leg side, often preceded by a brief tensing of their entire body as they commit to the movement
@@ -175,6 +177,8 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inversion Escape?</p>
 
 - Secure heel hook grip as rapidly as possible after establishing the triangle - eliminating the escape window entirely is the best defense
 - Read opponent's free leg posting and grip changes as early indicators of imminent inversion attempt
@@ -190,10 +194,12 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Inversion Escape?</p>
+
 ### 1. Immediately secure heel hook grip with four-fingers-over, thumb-under configuration before opponent can initiate inversion
 
 - **When to use**: The moment you feel your inside leg triangle lock into place - do not wait to settle or adjust position before gripping the heel
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent cannot safely invert with heel gripped. Apply controlled breaking pressure for submission finish or they tap recognizing the trapped position
 - **Risk**: If you rush the grip and get only a partial hold, opponent may strip it during their inversion attempt and escape with momentum
 
@@ -207,7 +213,7 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 ### 3. Transition to kneebar attack as opponent's leg extends during the inversion rotation, targeting the hyperextension angle created by their movement
 
 - **When to use**: When opponent commits to inversion and their trapped leg straightens during the rotation - the extension creates kneebar opportunity
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The kneebar catches opponent in mid-rotation when they cannot easily curl their leg back, and the momentum of their own inversion drives into the hyperextension
 - **Risk**: If opponent completes the inversion faster than you can secure the kneebar, they extract their leg and you lose the entanglement entirely
 
@@ -226,7 +232,9 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 
 ## Best-Case Outcomes for Defender
 
-### → [[game-over]]
+<p class="section-subtitle">What is the best outcome when defending Inversion Escape?</p>
+
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Secure heel hook grip before opponent initiates inversion, or catch the heel during their rotation when it becomes momentarily exposed due to the angle change. Apply controlled breaking pressure once grip is established. Alternatively, transition to kneebar when their leg extends during the inversion attempt, using their own rotational momentum to drive the hyperextension.
 
@@ -241,6 +249,8 @@ Follow opponent's rotation with aggressive hip pressure, driving your hips forwa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inversion Escape?</p>
 
 ### 1. Remaining static when opponent begins inverting instead of following their rotation with your hips
 
@@ -270,6 +280,8 @@ Follow opponent's rotation with aggressive hip pressure, driving your hips forwa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inversion Escape?</p>
+
 **Week 1-2** - Recognition and timing
 Partner telegraphs inversion attempts at slow speed while you practice identifying the preparatory cues: free foot posting, grip changes, shoulder loading. Focus on recognizing the escape window and developing the instinct to immediately grip the heel upon triangle establishment. No live resistance - purely pattern recognition.
 
@@ -286,29 +298,6 @@ Start in Honey Hole top with full resistance. Partner uses all available escapes
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most effective way to prevent the Inversion Escape from succeeding?
-**A**: Secure the heel hook grip immediately upon establishing your inside leg triangle - before settling your weight or making any other positional adjustments. The entire Inversion Escape depends on the 1-2 second window between triangle establishment and heel grip. By training your heel grip as part of your Honey Hole entry sequence rather than a separate step, you eliminate the escape window entirely. An opponent cannot safely invert once you have proper heel control.
-
-**Q2**: Your opponent posts their free foot and begins loading for an explosive inversion - what is your immediate response?
-**A**: You have two immediate options depending on whether you have heel grip. If you have heel grip, tighten it and apply controlled breaking pressure - they cannot safely invert. If you do not have heel grip, drive your hips forward aggressively while simultaneously reaching for either their heel (if accessible) or their free leg (to eliminate their drive source). Do not remain static. Every fraction of a second you hesitate allows their posted leg to generate more rotational force.
-
-**Q3**: How do you distinguish between an opponent preparing for inversion versus preparing for hip escape from Honey Hole?
-**A**: Inversion preparation features the free foot posting outside their hip with toes angled outward, grip changes to your pants at the knees, and loading onto one shoulder. Hip escape preparation features the free foot pushing against your hip or body, hands fighting your heel grip directly, and hip movement away from you rather than rotational loading. The direction of their initial force is the key tell - inversion rotates toward the trapped leg while hip escape drives linearly away from your control.
-
-**Q4**: Your opponent begins inverting and their trapped leg momentarily straightens during the rotation - what opportunity does this create?
-**A**: The straightened leg during inversion creates an immediate kneebar opportunity. As they rotate, their knee extends past the normal curled defensive position, and you can secure above-knee control with your legs while applying hyperextension pressure with your hips. Their own rotational momentum drives their leg into the extension. This is a high-percentage counter because the opponent cannot simultaneously complete their inversion and defend the kneebar - they must choose one or the other.
-
-**Q5**: After successfully preventing an inversion attempt, what adjustments should you make to prevent a second attempt?
-**A**: Immediately tighten your inside leg triangle by pulling your ankle deeper behind their thigh, eliminating any slack created during their escape attempt. Re-settle your hip pressure with increased downward force. Most critically, secure the heel grip if you have not already - the failed first attempt means they will chain into a second escape immediately. Control their free leg with your hand or by hooking their ankle to remove the posting ability that powers future inversion attempts. Do not relax after stopping the first attempt.
-
-
-
-</section>
 
 
 </main>

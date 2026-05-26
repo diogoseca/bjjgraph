@@ -164,6 +164,8 @@ When prevention fails and the bottom player begins threading, your options narro
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Worm Guard Entry?</p>
+
 - Bottom player pulls your lapel out from your belt line or collar area, accumulating free fabric in their grip hand while maintaining a secondary grip on your sleeve or collar
 - Bottom player executes a hip escape to angle their body perpendicular to yours, creating the channel under your lead thigh where the lapel must travel during the threading phase
 - You feel the lapel fabric brushing or sliding against the underside of your lead thigh as the bottom player begins feeding it from the outside toward the inside of your leg
@@ -176,6 +178,8 @@ When prevention fails and the bottom player begins threading, your options narro
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Worm Guard Entry?</p>
 
 - Prevent lapel extraction entirely by maintaining posture and retucking your lapel into your belt before the bottom player can accumulate slack material
 - Deny the threading channel by keeping your lead leg heavy on the mat with your knee pinched tight to eliminate the space under your thigh where the lapel must travel
@@ -190,6 +194,8 @@ When prevention fails and the bottom player begins threading, your options narro
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Worm Guard Entry?</p>
 
 ### 1. Strip the lapel grip and retuck the fabric into your belt before the threading sequence begins
 
@@ -227,6 +233,8 @@ When prevention fails and the bottom player begins threading, your options narro
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Worm Guard Entry?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip early or drive forward pressure to prevent the threading sequence from starting. This resets the bottom player to basic Lapel Guard where they must re-extract material, giving you time to establish passing grips and initiate your passing sequence before they can reattempt the entry.
@@ -242,6 +250,8 @@ Backstep aggressively and circle away from the threading side as soon as you rec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Worm Guard Entry?</p>
 
 ### 1. Ignoring the lapel extraction and allowing the bottom player to accumulate large amounts of free fabric without intervention
 
@@ -271,6 +281,8 @@ Backstep aggressively and circle away from the threading side as soon as you rec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Worm Guard Entry?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner slowly executes the Worm Guard Entry sequence while you practice identifying each phase: lapel extraction, hip escape to create angle, threading initiation, and completion. Focus on recognizing the entry at the earliest possible stage. Practice stripping lapel grips and retucking fabric into your belt with proper timing. Partner provides no resistance to your defensive actions.
 
@@ -287,29 +299,6 @@ Full-resistance positional sparring where partner starts from Lapel Guard and wo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can disrupt the Worm Guard Entry sequence?
-**A**: The earliest disruption point is during lapel extraction, before the bottom player has accumulated sufficient free fabric to begin threading. Stripping their grip on your lapel or retucking the fabric into your belt at this stage prevents the entire entry sequence from starting. This is far more efficient than attempting to counter the threading once it begins, because the bottom player needs a full arm's length of slack material to complete the weave.
-
-**Q2**: You feel the lapel sliding under your lead thigh—what is the highest-percentage immediate response?
-**A**: Backstep laterally away from the threading side immediately. This removes your lead leg from the weave path before the lapel can complete its journey from outside to inside. Do not pull straight backward, as this maintains the threading channel. The lateral backstep changes the angle so the lapel falls out of the partially completed path. Simultaneously try to strip their lapel grip with your near hand if possible, but prioritize the backstep even if you cannot reach the grip.
-
-**Q3**: Why is pulling straight backward ineffective against the Worm Guard Entry compared to lateral movement?
-**A**: Pulling straight backward maintains the channel under your thigh where the lapel travels, so the threading can continue or even accelerate as you create space. The bottom player's leg frames track your backward movement easily. Lateral backsteping, by contrast, removes your lead leg from the weave path entirely by changing the angle. The lapel cannot complete its circuit around a leg that is no longer in the threading channel, forcing the entry to fail regardless of the bottom player's grip quality.
-
-**Q4**: Your opponent has completed the Worm Guard weave and established tension—what defensive approach should you take?
-**A**: Once the weave is complete and tensioned, shift from grip-fighting to positional counter-passing. The backstep pass around the Worm Guard is the primary solution, using lateral movement and angle changes to navigate around the lapel barrier rather than trying to strip it. Attempting to rip the lapel free with grip strength alone typically fails against a properly tensioned configuration and wastes significant energy. Address the completed Worm Guard as a passing problem, not a grip-fighting problem.
-
-**Q5**: How should you position your lead leg to minimize the threading channel available to the bottom player?
-**A**: Drive your lead knee toward the mat and keep your thigh heavy by loading weight onto that leg. Bend your knee to reduce the clearance between your thigh and the mat surface. Pinch your knee inward rather than leaving it flared wide. This compressed, heavy leg position minimizes the channel through which the lapel must travel, forcing the bottom player to create space through hip escapes and framing before they can initiate any threading attempt. The heavier and more compressed your lead leg, the harder the entry becomes.
-
-
-
-</section>
 
 
 </main>

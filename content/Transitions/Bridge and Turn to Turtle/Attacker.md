@@ -192,6 +192,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge and Turn to Turtle?</p>
+
 - Time the bridge to coincide with opponent's weight shifts during transitions or submission attempts
 - Bridge at a 45-degree angle toward opponent's knees rather than straight upward
 - Turn toward the opponent to protect your back from hook insertion
@@ -207,6 +209,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge and Turn to Turtle?</p>
+
 - Recognition that opponent's weight is shifting during transition or submission setup
 - At least one arm free from complete isolation to assist with the turn
 - Feet planted firmly on the mat with knees bent for bridge power generation
@@ -219,6 +223,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge and Turn to Turtle step by step?</p>
 
 1. **Establish base position**: Plant both feet flat on the mat with knees bent at approximately 90 degrees, positioning heels close to your glutes. Turn your head to one side to create an airway and establish the direction you will turn. Keep elbows tight against your ribcage to prevent arm isolation.
 2. **Identify timing window**: Feel for opponent's weight shift—this occurs when they transition toward mount, reach for a submission grip such as a kimura or North-South choke, or adjust their base position. The momentary lightening of chest pressure signals the optimal moment to initiate your bridge.
@@ -248,6 +254,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge and Turn to Turtle?</p>
+
 - **Opponent widens base and drops weight during bridge attempt** (Effectiveness: High) - Your Response: Abort the escape attempt and wait for a better timing window—forcing against settled weight wastes energy and exposes you to submissions. Return to frames and controlled breathing. → Leads to [[Positions/North-South]]
 - **Opponent follows your turn and immediately takes back control with hooks** (Effectiveness: High) - Your Response: Continue turning into them rather than settling in turtle—transition directly to seated guard or stand up before they can establish both hooks. A single hook is recoverable; allowing both is catastrophic. → Leads to [[Positions/Back Control]]
 - **Opponent sprawls and establishes front headlock during the turn** (Effectiveness: Medium) - Your Response: Circle toward their hips to prevent guillotine setup, tuck chin to protect neck, and work to clear their arm and continue the escape to guard or standing position. → Leads to [[Positions/North-South]]
@@ -259,6 +267,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge and Turn to Turtle?</p>
 
 ### 1. Bridging straight upward rather than at an angle
 
@@ -298,6 +308,8 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge and Turn to Turtle (Attacker)?</p>
+
 **Week 1-2** - Bridge mechanics
 Practice explosive hip bridges from flat position without partner, focusing on driving through heels and achieving maximum hip extension at 45-degree angles. Build the muscle memory for angled rather than vertical bridges. Perform 3 sets of 10 repetitions each side.
 
@@ -318,51 +330,12 @@ Full resistance positional sparring starting from North-South. Partner actively 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Bridge and Turn to Turtle?
-**A**: The primary goal is to escape the suffocating North-South control position by converting to a defensive turtle position. While turtle is not an advantageous position, it offers significantly more escape options and breathing room than remaining pinned under North-South pressure. The technique prioritizes creating space and protecting your back during the transition.
-
-**Q2**: Why must you bridge at a 45-degree angle rather than straight up?
-**A**: Bridging straight up allows the opponent to easily ride your bridge without losing balance—they simply move with you and re-settle when you come down. The 45-degree angle toward their far knee creates rotational off-balancing force that displaces their weight distribution and creates the space necessary to initiate the turn. The angle transforms a simple lift into a disruption of their base.
-
-**Q3**: Your opponent begins reaching for a kimura grip on your near arm—how does this affect your escape timing?
-**A**: This creates an excellent timing window for the escape. As they reach for the grip, their weight shifts off your chest momentarily and their attention focuses on securing the arm rather than maintaining pressure. Execute the bridge immediately as they begin reaching, before they can complete the grip. Their commitment to the submission attempt leaves them vulnerable to being displaced by your bridge.
-
-**Q4**: Why is turning toward the opponent critical rather than turning away?
-**A**: Turning away from the opponent exposes your back completely, allowing them to easily insert hooks and establish back control—a position worse than North-South. Turning toward them keeps your back protected by proximity; even if they follow your turn, they end up on your side rather than directly behind you. This allows you to establish a defensive turtle that can be defended and escaped.
-
-**Q5**: What should you do if the opponent successfully follows your turn and is establishing back control?
-**A**: Do not settle in turtle and allow them to secure hooks. Continue the motion by either: turning further into them to face them and recover guard, immediately sitting through to establish seated guard, or standing up before they can secure their position. The worst outcome is stopping in a static turtle while they methodically establish back control with hooks.
-
-**Q6**: How do you generate power for the bridge without using your arms?
-**A**: All power comes from hip extension through your legs. Plant your feet flat with heels close to your glutes, then drive through your heels while extending your hips toward the ceiling. Your arms stay tight to your body to protect from isolation—they only assist the subsequent turn, not the bridge itself. Trying to push the opponent off with straight arms wastes energy and makes your arms vulnerable to submission.
-
-**Q7**: The opponent drops their weight and widens their base as you begin to bridge—what is the correct response?
-**A**: Abort the escape attempt immediately. Continuing to bridge against their settled, widened base accomplishes nothing except wasting your energy and potentially exposing your arms to submission. Return to your defensive frames, control your breathing, and wait for a better timing window. Patience is essential—forcing against consolidated weight is a losing strategy.
-
-**Q8**: What are the key indicators you should look for to identify the optimal timing window?
-**A**: Key indicators include: the opponent reaching for submission grips (particularly kimura or armbar setups), beginning to transition toward mount or side control, adjusting their knee position or base, lifting their chest slightly to look at your arms, or shifting their hips to set up a choke. Any redistribution of their weight creates a moment of reduced pressure that your bridge can exploit effectively.
-
-**Q9**: What is your immediate priority upon completing the turn to turtle?
-**A**: Immediately establish a defensive turtle shell: drop your hips low to the mat, tuck your chin tightly to protect your neck from chokes, position your hands to guard your collar, and create a compact shape with elbows inside your knees. Speed is critical—the opponent will be attempting to establish back control with hooks or set up front headlock attacks. A solid defensive shell buys time to plan your next escape.
-
-**Q10**: How does this escape chain with other techniques if the initial attempt is blocked?
-**A**: If the bridge-and-turn is blocked, you have several chain options: attempt a hip escape to half guard when they shift weight to re-settle, try the Granby roll variation using any space created, wait for their next submission attempt to create another timing window, or if they transition to mount, accept that position and begin mount escapes. The key is recognizing that a blocked escape often creates new opportunities as the opponent must reorganize their position.
-
-**Q11**: What grip configuration should you maintain during the bridge phase?
-**A**: Keep your elbows tight against your ribcage with forearms positioned to create defensive frames against the opponent's chest or shoulders. Do not grip their gi or body—your hands should remain free to assist the turn once the bridge creates space. Gripping the opponent during the bridge phase anchors you to them, reducing the effectiveness of the displacement. Your arms function as protective barriers during the bridge, then become rotational drivers during the turn.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge and Turn to Turtle?</p>
 
 The Bridge and Turn to Turtle is generally safe when executed with proper technique, but several precautions should be observed. Neck strain can occur if you attempt to turn while the opponent maintains heavy shoulder pressure on your head—wait for proper timing to avoid forcing against this resistance. During training, communicate with your partner if the chest pressure becomes excessive and you cannot breathe adequately. The explosive nature of the bridge can cause lower back strain if your core is not engaged; maintain abdominal tension throughout the movement. When completing the turn, protect your face and ears from being caught under your partner's weight by keeping your chin tucked. Avoid this escape if you have existing shoulder injuries, as the turning motion places stress on the shoulder joint.
 

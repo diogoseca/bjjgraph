@@ -188,6 +188,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash Half Butterfly?</p>
+
 - Establish upper body control before committing to the smash—crossface or underhook must be secured first to prevent defensive framing
 - Drive hips below the butterfly hook's optimal leverage point to remove its mechanical advantage for elevation
 - Apply diagonal chest pressure across the bottom player's centerline toward the hook side to flatten their hips and kill rotation
@@ -202,6 +204,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash Half Butterfly?</p>
+
 - Established half butterfly top position with one side of the guard cleared and weight distributed forward
 - Upper body control through crossface driving shoulder under opponent's chin, or deep underhook on near side
 - Bottom player's active sweep threat temporarily neutralized through pressure or grip control
@@ -214,6 +218,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash Half Butterfly step by step?</p>
 
 1. **Establish Upper Body Control**: Secure a deep crossface by driving your shoulder under the bottom player's chin and gripping their far shoulder, or establish a controlling underhook on the near side. This upper body control is the foundation of the entire sequence—without it, the bottom player retains the ability to create angles and threaten sweeps that disrupt the smash.
 2. **Lower Center of Gravity**: Drop your hips toward the mat and shift your weight forward onto the bottom player's chest. Your goal is to place your center of gravity below the butterfly hook's optimal leverage point, reducing the hook's ability to generate upward force against your body. Keep your knees wide for base stability.
@@ -243,6 +249,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash Half Butterfly?</p>
+
 - **Bottom player times butterfly hook elevation as you lower your hips, catching you in transition before pressure is established** (Effectiveness: High) - Your Response: Immediately widen your base and drive chest forward into their upper body. If they catch partial elevation, swim your arm under their hook-side leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. → Leads to [[Positions/Half Guard]]
 - **Bottom player fights for underhook and attempts to come up to dogfight position before the smash flattens them** (Effectiveness: Medium) - Your Response: Counter with a deep overhook or whizzer on the underhook arm while maintaining crossface pressure. Drive their head away with your shoulder to weaken underhook leverage and flatten them back down before the dogfight develops. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 - **Bottom player hip escapes away and re-angles to maintain butterfly hook spacing after partial smash application** (Effectiveness: Medium) - Your Response: Follow their hip escape with your chest pressure, maintaining tight connection and preventing space creation. Use your inside knee to block hook reinsertion and reestablish diagonal driving pressure from the new angle. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
@@ -254,6 +262,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash Half Butterfly?</p>
 
 ### 1. Attempting to smash without first establishing upper body control through crossface or underhook
 
@@ -293,6 +303,8 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Smash Half Butterfly (Attacker)?</p>
+
 **Phase 1: Pressure Mechanics** - Weight distribution and hip positioning fundamentals
 Practice driving chest pressure and dropping hips on a compliant partner from half butterfly top. Focus on feeling when the butterfly hook loses its lifting power based on your hip height and chest angle. No resistance—purely mechanical awareness and positional sensitivity.
 
@@ -313,39 +325,12 @@ Use the smash as the opening move in a passing chain. When partner defends the s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body position adjustment that neutralizes the butterfly hook's lifting power?
-**A**: Dropping your hips below the hook's leverage point while driving chest pressure diagonally across the bottom player's body toward the hook side. This combination removes the mechanical advantage the hook needs to generate upward force by placing your center of gravity below its optimal operating angle and flattening the bottom player's hips to eliminate rotational freedom.
-
-**Q2**: Your opponent elevates with their butterfly hook just as you begin lowering your hips—how do you recover?
-**A**: Immediately widen your base by sprawling both feet outward and drive your chest forward into their upper body. If they achieve partial elevation, swim your near-side arm under their lifting leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. Re-establish chest-to-chest pressure before reattempting the smash sequence.
-
-**Q3**: What upper body control must be established before committing to the smash sequence?
-**A**: Secure either a deep crossface driving your shoulder under their chin with your hand gripping their far shoulder, or a controlling underhook on the near side. The crossface is generally preferred because it limits the bottom player's ability to turn toward you and build frames. Without this control, the bottom player can freely angle their hips and maintain hook effectiveness regardless of your pressure.
-
-**Q4**: How do you confirm the butterfly hook is fully neutralized before attempting to extract past it?
-**A**: The hook is neutralized when you feel no upward pressure against your thigh, the bottom player's hips are flat on the mat, and their hook-side knee is pinned between your shin and the mat. Test by slightly shifting your weight—if the bottom player cannot generate any elevation response, the hook is dead. Attempting extraction before these conditions are met risks the hook catching your leg mid-transition.
-
-**Q5**: Your opponent fights for an underhook during the smash—what is your immediate response?
-**A**: Immediately counter with a deep overhook or whizzer on their underhook arm while maintaining your crossface pressure. Drive your shoulder into their chin to turn their head away, which weakens their underhook leverage. If they achieve the underhook fully, switch to driving them flat with concentrated hip pressure rather than trying to strip the underhook—a flat opponent with an underhook has limited offensive capability.
-
-**Q6**: What grip adjustments are needed when transitioning from the smash to half guard top consolidation?
-**A**: As you clear the butterfly hook, maintain your crossface grip but shift your hip pressure to center over the remaining half guard entanglement. Your inside hand should immediately control their bottom knee or hip to prevent butterfly hook reinsertion. Avoid releasing the crossface during this transition, as the bottom player's primary recovery window occurs during the moment you shift from smash pressure to half guard top control.
-
-**Q7**: What is the correct direction of driving force during the smash and why does it matter?
-**A**: The driving force must be diagonal—across the bottom player's body toward the butterfly hook side—rather than straight down. Straight downward pressure allows the bottom player to maintain hip rotation and angle their body to preserve hook effectiveness. Diagonal pressure flattens both hips simultaneously and drives the hook-side hip into the mat, removing the rotational freedom the hook requires to generate elevation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash Half Butterfly?</p>
 
 When executing the Smash Half Butterfly, be mindful of the pressure applied to your partner's knee and hip joints through the butterfly hook. Excessive lateral force on the trapped hook can strain the medial collateral ligament or hip flexors. Apply pressure progressively rather than explosively, and be responsive to your training partner's discomfort signals. In drilling, communicate about pressure intensity and allow your partner to tap to positional discomfort, not just submissions. Avoid dropping your full bodyweight suddenly onto a loaded butterfly hook.
 

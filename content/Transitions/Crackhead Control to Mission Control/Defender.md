@@ -166,6 +166,8 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crackhead Control to Mission Control?</p>
+
 - Bottom player's overhook grip begins loosening or shifting from deep control to lighter contact, signaling imminent release and transition initiation
 - Bottom player drives hips upward off the mat while still maintaining partial overhook, indicating they are building the foundation structure for Mission Control before releasing grip
 - The leg across your back begins sliding higher toward your shoulder blade area rather than maintaining its current mid-back position, showing the leg repositioning phase has begun
@@ -178,6 +180,8 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control to Mission Control?</p>
 
 - Recognize the transition initiation immediately - the bottom player's hip elevation and overhook loosening are the earliest cues
 - Attack during the grip transition window when the bottom player has released the overhook but not yet established head control
@@ -193,6 +197,8 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crackhead Control to Mission Control?</p>
 
 ### 1. Explosive posture recovery during overhook release
 
@@ -230,6 +236,8 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crackhead Control to Mission Control?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time your posture recovery or arm extraction to the exact moment the overhook releases. Drive your head up and hips back simultaneously while stripping any emerging head control grips. The goal is to return to neutral closed guard where you have full posture and can work standard guard opening sequences.
@@ -245,6 +253,8 @@ Prevent the leg from repositioning to Mission Control height by driving your sho
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control to Mission Control?</p>
 
 ### 1. Remaining passive during the transition and allowing Mission Control to consolidate without resistance
 
@@ -279,6 +289,8 @@ Prevent the leg from repositioning to Mission Control height by driving your sho
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crackhead Control to Mission Control?</p>
+
 **Week 1-2** - Recognition drilling
 Partner executes the Crackhead Control to Mission Control transition at 30% speed. Defender focuses exclusively on identifying each phase of the transition: hip elevation, leg repositioning, overhook release, head control establishment. No escape attempts - purely develop recognition of transition cues and timing awareness.
 
@@ -295,29 +307,6 @@ Full resistance positional sparring starting from Crackhead Control. Partner att
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary escape window during the Crackhead Control to Mission Control transition and why does it exist?
-**A**: The primary escape window occurs during the grip transition when the bottom player releases the deep overhook but has not yet established head control for Mission Control. This window exists because the bottom player cannot simultaneously maintain Crackhead Control and establish Mission Control - they must temporarily sacrifice their primary control mechanism, creating a brief period where neither control is fully active.
-
-**Q2**: Your opponent's overhook begins loosening while their hips drive upward - what does this tell you and how should you respond?
-**A**: This indicates the transition has been initiated - hip elevation is the foundational step before the overhook release. You should prepare to act immediately. As the overhook fully releases, explosively recover posture by driving your head up and hips back, or extract the trapped arm by circling it outward. Do not wait for the head control to establish - the moment between overhook release and head control is your narrowest but most valuable escape opportunity.
-
-**Q3**: Why is pulling your trapped arm straight backward during extraction a critical defensive error?
-**A**: Pulling straight back creates the exact rotational angle the bottom player needs for omoplata entry. The direction of your pull aligns with their omoplata rotation, effectively doing their work for them. Instead, circle the arm outward and upward while rotating your shoulder away from the bottom player, which breaks the angle needed for omoplata and creates distance that disrupts the entire rubber guard configuration.
-
-**Q4**: How do you distinguish between a genuine transition attempt and a feint designed to bait your escape reaction?
-**A**: A genuine transition shows all mechanical indicators in sequence: hip elevation first, then leg repositioning toward the shoulder, then overhook loosening. A feint typically shows only one indicator - usually a momentary overhook loosening without the corresponding hip elevation or leg movement. If hips remain flat and the leg stays in position, the overhook change is likely a grip adjustment or bait rather than a genuine transition to Mission Control.
-
-**Q5**: What should you do if you miss the transition window and Mission Control has been fully established?
-**A**: Immediately switch to Mission Control-specific defensive protocols rather than continuing to fight the completed transition. Focus on preventing deep head control by using your free hand to strip grips, maintain some posture by distributing weight evenly rather than loading the trapped shoulder, and work systematic arm extraction through patient outward circling rather than explosive pulling. Accept that the escape will now require a longer, more methodical process.
-
-
-
-</section>
 
 
 </main>

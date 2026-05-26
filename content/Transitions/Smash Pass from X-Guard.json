@@ -203,7 +203,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Weight Distribution Mechanics",
+        "phase": "Phase 1: Center of Gravity Mechanics",
         "focus": "Understanding how to lower center of gravity and commit weight through X-Guard hooks",
         "description": "Partner holds X-Guard with minimal resistance. Practice dropping hips below the hook line and feeling the correct angle of forward pressure that collapses the guard structure. Focus on balance maintenance throughout weight commitment. No passing completion, just the weight drop and pressure application."
       },
@@ -228,7 +228,7 @@
         "description": "Begin in X-Guard top position with partner at full resistance. Apply smash pass alongside other passing options in a live sparring context. Develop timing for when the smash pass is the highest percentage option versus when alternative approaches are better suited."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must the center of gravity drop below the bottom player's hook line before committing to the forward drive?",
         "answer": "The X-Guard's sweeping power comes from the bottom player's ability to elevate through their hooks. When the top player's center of gravity is above the hook line, the bottom player can use their legs as levers to lift and sweep. By dropping the center of gravity below this line, the hooks lose their mechanical advantage because they can no longer generate the upward force needed for elevation sweeps, converting the position from a dynamic guard exchange into a static pressure scenario favoring the top player."
@@ -345,7 +345,7 @@
         "correction": "Time the counter-sweep during the early commitment phase when the passer's center of gravity is still above the hook line and their base is transitioning from stable to committed"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest tactile cue that indicates a smash pass attempt rather than a knee slice or long step pass?",
         "answer": "The earliest tactile cue is feeling the passer's hips beginning to drop and drive forward directly through your hooks rather than shifting laterally. In a knee slice, you feel lateral pressure across your thigh. In a long step, you feel the passer stepping wide. In the smash pass, the pressure comes straight down and forward through the hook structure, and you feel the passer's chest weight increasing against your legs. The passer also typically establishes crossface pressure before the drive, which is another distinguishing early indicator."

@@ -21,7 +21,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 10,
       "result": "counter"
     }
@@ -50,15 +50,15 @@
       "relationship": "Follow-up option when opponent defends by basing out"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle Setup",
       "relationship": "Setup technique that creates posting reaction for sweep"
     },
     {
-      "name": "Kimura from Guard",
+      "name": "Kimura Sweep",
       "relationship": "Alternative attack when opponent posts arm during sweep"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Omoplata Sweep",
       "relationship": "Follow-up submission when pendulum leg is over posted arm"
     },
     {
@@ -143,10 +143,10 @@
         "targets_outcome": "Closed Guard/Bottom"
       },
       {
-        "counter": "Opponent stands up completely to escape the sweep mechanics",
+        "counter": "Opponent stands up completely and strips grips to initiate guard passing",
         "effectiveness": "Low",
-        "your_response": "Maintain sleeve grip and transition to standing guard attacks or use momentum to execute technical stand-up",
-        "targets_outcome": "Closed Guard/Top"
+        "your_response": "Maintain sleeve grip and transition to open guard attacks such as ankle picks or technical stand-up, or reclamp closed guard before they fully disengage",
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -213,7 +213,7 @@
         "description": "Incorporate Pendulum Sweep into regular positional sparring from closed guard. Set goals for successful sweep execution during live rolling. Focus on setting up the sweep through combinations rather than relying on the technique in isolation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the Pendulum Sweep effective?",
         "answer": "The primary mechanical principle is the creation of rotational force through the combination of the pendulum leg's arc motion, which generates momentum around the opponent's center of gravity, combined with simultaneous upper body control through grips. The straight leg acts as a lever arm, and when swung in an arc close to the opponent's body while pulling with the grips, it creates overwhelming rotational force that is extremely difficult to resist. The angle created by the hips is crucial because it positions your body perpendicular to the opponent, maximizing the leverage of this rotational force."
@@ -245,6 +245,14 @@
       {
         "question": "Your opponent defends the Pendulum Sweep by widening their base and posting their far arm - what chain attack sequence should you execute?",
         "answer": "When the opponent bases wide and posts their far arm, they have committed weight laterally away from you, which opens three immediate follow-up attacks. First, bring your pendulum leg over their posted arm and lock a triangle by cutting the angle with your hips, since their arm isolation is already done for you. Second, if the triangle angle is not available, use the same leg position to set up an Omoplata by threading your leg over their shoulder and rotating to face their feet. Third, redirect entirely and hit a Flower Sweep in the opposite direction, since their wide base has weakened their resistance to that vector. The key is reading which option their specific posting position exposes most and committing immediately without returning to neutral."
+      },
+      {
+        "question": "Your opponent begins standing up from inside your closed guard - should you immediately initiate the Pendulum Sweep?",
+        "answer": "Standing up creates a specific but narrow timing window for the Pendulum Sweep. As the opponent begins to rise, their weight shifts upward off their knees and onto their feet, temporarily narrowing their lateral stability. This transitional phase is the optimal window to grip the sleeve, create your hip angle, and execute the pendulum motion before they achieve a wide stable standing base. However, if they have already fully stood with a wide stance and good balance, the pendulum mechanics become significantly less effective because their elevated center of gravity and wider base resist the rotational force. In that case, transition to open guard attacks like ankle picks, Single Leg X-Guard entries, or a technical stand-up rather than forcing an underpowered pendulum attempt."
+      },
+      {
+        "question": "What minimum conditions must exist before you commit fully to the Pendulum Sweep rather than feinting or transitioning to another attack?",
+        "answer": "Three conditions must be confirmed before full commitment. First, you must have secured the sleeve grip that prevents the opponent from posting on the sweep side, as this is the single most critical control point without which the sweep cannot succeed. Second, your hips must already be angled at least 30 degrees off the centerline to generate the mechanical advantage needed for the pendulum arc, because attempting the sweep from a square position produces insufficient rotational force. Third, the opponent's weight distribution must be neutral or slightly rearward rather than driving forward, since forward pressure converts your pendulum energy into their stack pass. If any of these conditions is missing, redirect to a complementary technique such as Hip Bump Sweep against forward pressure or Scissor Sweep if your angle is established but sleeve control is compromised."
       }
     ],
     "safety_considerations": "The Pendulum Sweep is generally a very safe technique for both practitioners when executed properly. The primary safety concern is ensuring controlled execution during the sweeping motion to avoid the opponent falling awkwardly or having insufficient time to protect their head when landing. When drilling, start slowly and allow your partner to become familiar with the falling motion. For the person being swept, practice proper breakfall technique by tucking your chin and using your arms to absorb impact. Avoid forcefully swinging the pendulum leg into the opponent's face or head; the leg should pass close to their shoulder but not strike them. When teaching beginners, emphasize the importance of maintaining control throughout the sweep rather than executing it explosively before they understand the mechanics. As with all sweeps, be mindful of training surfaces and ensure adequate mat space to complete the technique safely."
@@ -283,7 +291,7 @@
       {
         "action": "Post your far hand wide on the mat and drop your weight toward the sweeping direction while stepping your far knee out to create a tripod base",
         "when_to_use": "As a last-resort reactive defense when the pendulum leg is already swinging and sweep initiation is underway",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Your posted hand and wide base absorb the rotational force, preventing the sweep completion and potentially allowing you to pass if opponent's guard is open",
         "risk": "The posted arm becomes vulnerable to Kimura, Omoplata, or Triangle attacks if the opponent transitions to follow-up submissions on your extended limb"
       }
@@ -294,7 +302,7 @@
         "how": "Deny the sweep early by stripping grips and re-centering your base before the pendulum motion begins, forcing the opponent back to neutral closed guard position where they must rebuild their entire attack setup"
       },
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "If the sweep is partially defended but the opponent's guard has opened during the attempt, use the opening to initiate guard passing by controlling their legs and establishing passing grips before they can re-close their guard"
       }
     ],
@@ -320,7 +328,7 @@
         "correction": "Maintain knees at least shoulder-width apart with weight distributed evenly through both knees, creating a wide stable platform that requires significantly more force to rotate and gives you time to react to sweep setups"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point in the Pendulum Sweep setup where defensive intervention is most effective?",
         "answer": "The earliest and most effective defensive intervention point is when the opponent first opens their guard and begins shifting their hips to create the perpendicular angle. At this stage, the sweep has no mechanical power because the pendulum leg has not been chambered and the grips have not been fully loaded. By immediately driving your hips forward, re-centering your weight, and stripping the sleeve grip, you collapse the entire sweep setup before it develops. Waiting until the pendulum leg is extended or swinging reduces your defensive options to reactive posting, which carries submission risk."

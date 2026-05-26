@@ -156,6 +156,8 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Double Jump?</p>
+
 - Top player's chest pressure intensifies and follows your rotation closely rather than separating to consolidate side control as you begin turtling
 - You feel the top player's legs moving independently from their upper body, with knees or feet probing the space between your thighs
 - Top player transitions grip from crossface or underhook to seatbelt or harness configuration while you are rotating toward turtle
@@ -168,6 +170,8 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Double Jump?</p>
 
 - Prevent the transition window by either maintaining half guard bottom position or executing turtle transition with protected hips and strong defensive posture
 - Recognize the attack early through tactile and positional cues before hooks achieve full depth and mechanical advantage
@@ -182,6 +186,8 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Double Jump?</p>
 
 ### 1. Immediately sit back to butterfly guard by driving hips backward into the top player and establishing butterfly hooks before their legs can penetrate
 
@@ -219,6 +225,8 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Double Jump?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Sit back immediately when you recognize the Double Jump attempt, driving your hips backward into the top player and establishing butterfly hooks before their legs can penetrate inside your thighs. This is the most reliable defense because it removes the positional context entirely.
@@ -234,6 +242,8 @@ Prevent the transition by maintaining strong half guard bottom position instead 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Double Jump?</p>
 
 ### 1. Completing the turtle transition without protecting hips when you feel the top player following your rotation aggressively
 
@@ -263,6 +273,8 @@ Prevent the transition by maintaining strong half guard bottom position instead 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Double Jump?</p>
+
 **Phase 1: Recognition Training** - Identifying Double Jump attempts during turtle transitions
 Partner alternates between conventional turtle attacks and Double Jump attempts from half guard top. Defender must call out which attack is being attempted based on tactile and positional cues. Develops the pattern recognition needed for early defensive response.
 
@@ -279,26 +291,6 @@ Positional sparring starting from half guard bottom with the explicit agreement 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Transition to Double Jump is being attempted?
-**A**: The earliest cue is the top player's chest pressure intensifying and closely following your rotation toward turtle rather than separating to consolidate side control. Additionally, feeling the trapped leg freed unusually quickly or a hip switch during your rotation signals that the top player is freeing both legs for hook insertion rather than continuing a conventional pass.
-
-**Q2**: Why is sitting to butterfly guard considered the most reliable defense against the Double Jump attempt?
-**A**: Sitting to butterfly guard removes the positional context entirely by changing the orientation from turtle to seated guard. This mechanically prevents bilateral hook insertion because your hips are no longer in the turtle position that exposes the thigh space needed for hooks. It also establishes your own offensive hooks that create sweep threats, forcing the opponent to address your attacks instead.
-
-**Q3**: Your opponent has established one hook inside your thigh during the transition. What is your defensive priority?
-**A**: Your immediate priority is preventing the second hook from being inserted, as a single hook is manageable but bilateral hooks create the full Double Jump dilemma. Address the single hook by sitting to butterfly guard, which mechanically displaces the hook through hip repositioning, or squeeze your knees together forcefully to deny space for the second hook. Do not try to strip the established hook while leaving space for the second one.
-
-**Q4**: How can you prevent the Transition to Double Jump before it begins?
-**A**: The most effective prevention is maintaining half guard bottom position rather than turtling when under passing pressure. If you must turtle, execute the transition with knees squeezed together and hips low, protecting the thigh space needed for hook insertion. Alternatively, transition directly to seated butterfly guard instead of turtle when abandoning half guard, bypassing the vulnerable transition phase entirely.
-
-
-
-</section>
 
 
 </main>

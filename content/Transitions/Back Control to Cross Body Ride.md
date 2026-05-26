@@ -214,7 +214,7 @@ The Transition to Cross Body Ride serves as a critical link between back control
 
 - [[Submissions/Twister]] - Submission pathway opened by establishing cross body ride position
 
-- [[Transitions/Rear Naked Choke]] - Primary back control submission that may be abandoned in favor of this transition
+- [[Submissions/Rear Naked Choke]] - Primary back control submission that may be abandoned in favor of this transition
 
 
 </section>

@@ -174,6 +174,8 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Advance to Chill Dog?</p>
+
 - Bottom player's hips rotate toward their overhook side, shifting their weight and opening the angle for leg travel
 - Bottom player releases their same-side grip on their shin near the ankle, reaching to cup and guide their own foot
 - The shin that was across your upper back begins sliding higher toward your neck rather than maintaining static position
@@ -186,6 +188,8 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Advance to Chill Dog?</p>
 
 - Early recognition is everything - once the shin hooks the neck, defensive options decrease dramatically
 - Never drive forward into the bottom player during the transition, as forward pressure assists their leg threading
@@ -201,6 +205,8 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Advance to Chill Dog?</p>
 
 ### 1. Explosive posture recovery by driving hips back and chest up while stripping overhook
 
@@ -238,6 +244,8 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Advance to Chill Dog?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Achieve full posture recovery by driving hips back while stripping the overhook grip, forcing the bottom player's legs to disengage from Rubber Guard and re-close into standard closed guard. Time the posture recovery to coincide with the bottom player's shin grip release, exploiting the momentary reduction in control points.
@@ -253,6 +261,8 @@ Pin the threading leg before it crosses the neck line and stall the advancement,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Advance to Chill Dog?</p>
 
 ### 1. Driving forward into the bottom player when feeling the leg begin to thread
 
@@ -287,6 +297,8 @@ Pin the threading leg before it crosses the neck line and stall the advancement,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Advance to Chill Dog?</p>
+
 **Week 1-2** - Recognition drilling
 Partner slowly executes the Advance to Chill Dog transition from New York while you focus exclusively on identifying the recognition cues: hip rotation, shin grip release, and leg travel initiation. Do not attempt to defend yet - just call out each cue as you feel it. Build sensory awareness of the transition's mechanical signals.
 
@@ -303,32 +315,6 @@ Begin from New York with partner attempting full Rubber Guard progression includ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning the Advance to Chill Dog transition?
-**A**: The earliest cue is the hip rotation toward the overhook side. Before the bottom player releases their shin grip or begins threading, their hips must rotate to create the angle for the leg to travel. You will feel this as a shift in their weight distribution and a change in the direction of pressure from their legs. This rotation precedes the actual leg movement by one to two seconds, giving you a critical early warning window.
-
-**Q2**: Why should you avoid driving forward when you feel the leg threading begin?
-**A**: Forward pressure compresses the distance between the bottom player's shin and your neck, making the thread easier to complete. Your forward drive also adds momentum that the bottom player redirects into their leg movement. The correct response is always to drive your hips backward and posture up, increasing the distance the shin must travel and removing the compression that assists the transition. Forward driving is the single most common defensive error in this position.
-
-**Q3**: Your opponent releases their shin grip to guide their foot around your neck - what defensive opportunity does this create?
-**A**: The shin grip release temporarily reduces their control system from three anchor points to two - just the overhook and their leg position. This is the highest-percentage escape window because their leg is momentarily unsupported and their guiding hand is occupied. Use this window to either explosively recover posture by driving hips back, or begin corkscrew arm extraction on the trapped arm. The window lasts approximately one to two seconds before they re-establish grip on their shin in the Chill Dog configuration.
-
-**Q4**: The Chill Dog is partially established with the shin across the side of your neck but not locked - what is your priority?
-**A**: Your immediate priority is preventing the lock from being secured. Use your free hand to grip their ankle or foot and push it back off your neck before they can re-grip their shin. Simultaneously turn your head toward the threading leg side, using your jaw and shoulder to create a wedge that blocks the shin from settling deeper. If you cannot dislodge the shin, begin stacking by driving your weight forward and up to flatten their hips, which removes the hip elevation needed to maintain the position.
-
-**Q5**: How does the defender's head position affect the success of this transition?
-**A**: Head position is critical because the shin must cross the back of your neck to establish Chill Dog. If you turn your head and tuck your chin toward the threading leg side, you create a physical barrier with your jaw and shoulder that significantly increases the distance the shin must travel. Conversely, keeping your head neutral or turning away from the thread exposes the back of your neck completely. Active head positioning can add several inches of required travel distance, which often makes the difference between successful and failed defense.
-
-**Q6**: You have successfully stalled the Advance to Chill Dog and returned to New York Top - what should your defensive priorities be now?
-**A**: After successfully defending the Chill Dog advancement, immediately resume your systematic New York Top escape sequence: widen your base to prevent sweeps, begin grip fighting on the opponent's shin-controlling hand, and work toward posture recovery through combined hip and chest extension. Do not remain static celebrating the successful defense - the bottom player will attempt the transition again or switch to an alternative attack pathway like Invisible Collar or Zombie. Use the momentum of your successful defense to advance your escape before they can re-establish their offensive rhythm.
-
-
-
-</section>
 
 
 </main>

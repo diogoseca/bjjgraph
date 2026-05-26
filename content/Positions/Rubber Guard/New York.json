@@ -90,7 +90,7 @@
       "Every escape attempt opens submission threats - defensive awareness must be constant",
       "Time pressure favors bottom player - prolonged defensive engagement leads to exhaustion and submission"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts driving their shin deeper across your back - what immediate adjustment should you make?",
         "answer": "Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions."
@@ -181,7 +181,7 @@
           {
             "technique": "Pressure Pass",
             "target": "Side Control",
-            "probability": 55
+            "probability": 30
           }
         ]
       }
@@ -361,7 +361,7 @@
       "Opponent's weight distribution indicates optimal attack pathway - read their base to select technique",
       "Core engagement is continuous - relaxing the core allows opponent to drive forward and escape"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts widening their base and circling away from your overhook - what adjustment do you make?",
         "answer": "Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep."
@@ -450,7 +450,7 @@
             "probability": 60
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar from New York",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -595,7 +595,7 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar from New York",
         "attempt_probability": 10
       },
       {

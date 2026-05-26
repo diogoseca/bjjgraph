@@ -166,6 +166,8 @@ From a strategic perspective, the best defense begins before the armbar is attem
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar on Free Arm?</p>
+
 - Attacker's non-Gift-Wrap hand grabs your free arm's wrist or forearm, establishing secondary arm control
 - Attacker begins swinging their top leg over your face and head while maintaining Gift Wrap pressure
 - You feel the attacker's hips rotating from behind you toward a perpendicular angle against your shoulder
@@ -178,6 +180,8 @@ From a strategic perspective, the best defense begins before the armbar is attem
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar on Free Arm?</p>
 
 - Keep the free arm bent with elbow tight to ribs whenever not actively defending the neck to deny extension angles
 - Recognize the attack during the hip pivot phase when escape is still achievable before full armbar control is established
@@ -192,6 +196,8 @@ From a strategic perspective, the best defense begins before the armbar is attem
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar on Free Arm?</p>
 
 ### 1. Immediate arm retraction and elbow clamp - pull free arm tight to ribs with elbow bent, grip your own gi or body to anchor
 
@@ -229,6 +235,8 @@ From a strategic perspective, the best defense begins before the armbar is attem
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar on Free Arm?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Successfully retract the free arm before the attacker can establish the armbar position, forcing them to abandon the attempt and return to Gift Wrap control. Keep elbow bent and tight to ribs, grip your own body to anchor the arm. The attacker must reset to choking threats, giving you time to work on Gift Wrap arm recovery.
@@ -244,6 +252,8 @@ Exploit the attacker's hip pivot rotation to clear one or both hooks, turning in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar on Free Arm?</p>
 
 ### 1. Extending the free arm to push against the attacker's leg or body during the armbar transition
 
@@ -278,6 +288,8 @@ Exploit the attacker's hip pivot rotation to clear one or both hooks, turning in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar on Free Arm?</p>
+
 **Week 1-2** - Recognition and arm retraction
 Partner initiates armbar from Gift Wrap at 30% speed. Practice recognizing the wrist grab and hip pivot cues, then immediately retracting the free arm with elbow clamped to ribs. Focus purely on recognition speed and arm protection mechanics without attempting escape.
 
@@ -294,29 +306,6 @@ Full resistance rounds starting from Gift Wrap bottom. Defender must manage both
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an armbar on your free arm is being attempted?
-**A**: The earliest cue is feeling the attacker's non-Gift-Wrap hand grab your free arm's wrist or forearm while still in Gift Wrap position. This secondary arm control precedes the hip pivot and leg swing. If you can deny this initial grip by keeping your arm retracted with elbow tight, the attacker cannot initiate the armbar sequence effectively.
-
-**Q2**: Why is the attacker's hip pivot phase the best window for escape?
-**A**: During the hip pivot, the attacker must rotate from behind you to a perpendicular angle. This rotation temporarily loosens their hook control and shifts their weight laterally, creating instability. Their chest-to-back connection weakens as they rotate. This transitional moment is when bridging and turning into them has the highest success rate, before they re-establish control in the armbar position.
-
-**Q3**: Your free arm is being extended by the attacker and you cannot retract it - what is your last-resort defense?
-**A**: Rotate your forearm so your thumb points toward the ceiling, which strengthens the elbow joint's resistance to hyperextension. Simultaneously grip your own wrist with whatever reach your trapped Gift Wrap arm allows, or clasp your hands together if possible. Bridge your hips toward the attacker to stack them and compromise their finishing angle. If extension continues, tap before feeling a pop - preserving your elbow is more important than the round.
-
-**Q4**: How does recovering your trapped arm from the Gift Wrap change the defensive equation?
-**A**: Recovering the trapped arm eliminates the core dilemma that makes the Armbar on Free Arm effective. With two hands available, you can defend the neck with one hand while protecting the other arm from isolation, or use both hands in coordinated grip fighting and framing. The attacker loses their systematic advantage because they can no longer force a choice between neck defense and arm protection.
-
-**Q5**: What is the correct defensive arm position when you sense the armbar is being set up?
-**A**: Keep the free arm bent at approximately 90 degrees with your elbow clamped tightly against your ribs. Grip your own collar, belt, or opposite shoulder to anchor the arm in place. Do not extend the arm to push, frame, or reach for anything. This bent, anchored position denies the attacker the extension angle they need and forces them to work much harder to isolate and straighten the limb.
-
-
-
-</section>
 
 
 </main>

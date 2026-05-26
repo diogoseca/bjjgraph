@@ -71,7 +71,7 @@
       "relationship": "Alternative rubber guard control"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Armbar on Free Arm",
       "relationship": "Available when opponent reaches to strip foot"
     }
   ],
@@ -207,7 +207,7 @@
         "description": "Implement Gogoplata in positional sparring starting from Mission Control. Focus on recognizing genuine finishing opportunities versus positions where transition is more appropriate. Track success rate and adjust technique based on common failure patterns encountered."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary choking mechanism in the Gogoplata?",
         "answer": "The Gogoplata uses your shin bone pressed directly across the opponent's trachea while your hands pull their head down into this pressure. This creates both airway obstruction and blood choke elements as the shin compresses the anterior throat structures. The combination of pulling and pressing creates a scissoring action that accelerates the submission timeline compared to pure blood or air chokes."
@@ -336,7 +336,7 @@
         "correction": "If you must turn, turn away from the choking leg to avoid omoplata exposure. Better still, work on chin positioning and foot stripping rather than rotational escapes that create secondary threats"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first defensive priority when you feel a shin sliding across your throat from Mission Control?",
         "answer": "Turn your chin immediately toward the crook of the choking leg's knee to reduce direct tracheal compression. This single action buys critical seconds by shifting pressure from the windpipe to the less vulnerable chin and jaw area. Only after establishing this breathing space should you commit to a full escape sequence - whether that is foot stripping, posture recovery, or emergency rolling."

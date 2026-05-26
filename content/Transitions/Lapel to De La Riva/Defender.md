@@ -166,6 +166,8 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel to De La Riva?</p>
+
 - Bottom player's hips begin rotating toward your lead leg side, angling approximately 45 degrees off-center—this hip rotation is the first physical indicator of DLR hook attempt
 - Bottom player's outside leg lifts off your hip or bicep and begins swinging around the outside of your near leg—the threading motion is unmistakable once you know what to look for
 - Increased tension on the lapel grip pulling you forward and toward the bottom player's hook side, often accompanied by their free hand reaching for your far sleeve or collar
@@ -177,6 +179,8 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel to De La Riva?</p>
 
 - Address the lapel configuration early rather than waiting for the DLR transition attempt to begin
 - Deny hip angle by maintaining heavy forward pressure that prevents the bottom player from rotating their hips toward your lead leg
@@ -191,6 +195,8 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel to De La Riva?</p>
 
 ### 1. Step your lead leg back and out of threading range while maintaining base and posture, removing the target leg from the hook insertion path
 
@@ -228,6 +234,8 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel to De La Riva?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Step your lead leg back during the hook threading phase while maintaining your posture and base. The attacker retains their lapel guard but fails to add the DLR hook, giving you an opportunity to address the lapel configuration directly without the added complexity of DLR control.
@@ -243,6 +251,8 @@ Drive aggressive forward pressure through the transition attempt to flatten the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel to De La Riva?</p>
 
 ### 1. Waiting passively for the DLR hook to be fully established before attempting any defensive action
 
@@ -277,6 +287,8 @@ Drive aggressive forward pressure through the transition attempt to flatten the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel to De La Riva?</p>
+
 **Week 1-2** - Recognition and timing
 Partner slowly executes the Lapel to DLR transition at 25% speed. Focus exclusively on recognizing the hip rotation and leg threading cues without attempting defense yet. Call out 'now' each time you identify the threading phase. Build pattern recognition before adding physical responses.
 
@@ -293,29 +305,6 @@ Full resistance rounds starting with partner in established lapel guard. Defend 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to transition from lapel guard to DLR?
-**A**: The earliest cue is the hip rotation—when the bottom player begins angling their hips approximately 45 degrees toward your lead leg side. This rotation precedes the leg threading by a fraction of a second and signals their intent to insert the DLR hook. Recognizing this rotation before the leg moves gives you the maximum defensive window.
-
-**Q2**: Your opponent has established a shallow DLR hook but hasn't secured a secondary grip yet—what is your best defensive action?
-**A**: Immediately fight their free hand to prevent the sleeve or collar grip from being established. A DLR hook without upper body control is significantly less dangerous—the bottom player cannot execute berimbolo, effective sweeps, or back takes without the diagonal grip system. Strip the hook with your free hand while controlling their wrist or bicep.
-
-**Q3**: Why is stepping back repeatedly against a lapel player an ineffective long-term defense?
-**A**: The lapel grip creates persistent control that doesn't break when you step back—unlike traditional open guard grips that weaken with distance. Repeated backward stepping just resets the exchange without addressing the underlying lapel configuration, allowing the bottom player unlimited re-attempts at the DLR transition while you burn energy retreating.
-
-**Q4**: Your opponent threads the DLR hook and you feel their foot settling behind your knee—what are the two best immediate responses?
-**A**: First option: backstep by rotating 180 degrees over their hooking leg, removing your leg from the hook path and potentially passing behind their guard structure. Second option: drive heavy forward pressure immediately to flatten their hips before they can consolidate the position with secondary grips. Both must be executed with commitment—half-measures allow full DLR establishment.
-
-**Q5**: How does the defender's posture and weight distribution affect the attacker's ability to complete this transition?
-**A**: Heavy forward pressure with hips low denies the bottom player the space and angle needed for hook threading—they cannot rotate their hips effectively under compression. Conversely, an upright or backward-leaning posture opens the threading pathway. The defender should maintain a slightly forward-weighted posture with hips below shoulders to make the hook insertion mechanically difficult.
-
-
-
-</section>
 
 
 </main>

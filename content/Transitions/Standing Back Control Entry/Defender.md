@@ -154,6 +154,8 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Back Control Entry?</p>
+
 - Attacker tightens seatbelt grip and hooks simultaneously, indicating preparation to follow your upward movement during escape
 - Attacker's hips press flush against your lower back with increased forward pressure, creating the connection needed for vertical follow
 - Attacker adjusts hook depth by driving heels deeper inside your thighs, securing leg control before the standing phase begins
@@ -165,6 +167,8 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Back Control Entry?</p>
 
 - Time defensive actions to the mid-transition phase when the attacker's controls are weakest during the angle change from horizontal to vertical
 - Strip hooks during the vertical transition when gravity naturally compromises the attacker's leg control and hook depth
@@ -179,6 +183,8 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Back Control Entry?</p>
 
 ### 1. Strip hooks during mid-transition by straightening legs and pushing attacker's feet outward
 
@@ -216,6 +222,8 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Back Control Entry?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time hook strips and hip turns to the mid-transition phase when the attacker's controls are weakest. Strip at least one hook during the angle change, then immediately turn your hips and shoulders toward the attacker to break back exposure. Follow with hip escape and leg insertion to establish half guard before the attacker can recapture back control.
@@ -231,6 +239,8 @@ Execute an explosive sit-back early in the transition before the attacker commit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Back Control Entry?</p>
 
 ### 1. Attempting to stand up explosively without addressing the attacker's grip and hook control first
 
@@ -260,6 +270,8 @@ Execute an explosive sit-back early in the transition before the attacker commit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Back Control Entry?</p>
+
 **Phase 1: Recognition and Timing** - Identifying transition vulnerability windows
 Partner initiates standing back control entry from grounded position. Practice identifying the mid-transition vulnerability window without attempting escapes. Focus on reading the attacker's timing cues and recognizing when their controls are weakest during the angle change.
 
@@ -276,26 +288,6 @@ Start in grounded back control bottom and work escape attempts. When partner fol
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When during the Standing Back Control Entry transition is the attacker most vulnerable to your defensive actions?
-**A**: The attacker is most vulnerable during the mid-transition phase when the body angle is changing from horizontal to approximately forty-five degrees. At this point, their hooks must adapt to the leg angle change, their seatbelt tension is disrupted by the torso angle shift, and their balance is compromised between two stable platforms. This window lasts only one to two seconds, so defensive timing must be precise.
-
-**Q2**: Which control point should you prioritize attacking during the standing transition?
-**A**: Prioritize attacking hooks during the mid-transition because gravity naturally works against the attacker's hook retention in the vertical plane. Hooks that are secure on the ground become vulnerable when the legs straighten during standing. Stripping even one hook during the transition significantly compromises the attacker's ability to maintain position and opens immediate escape pathways through hip turns and guard recovery.
-
-**Q3**: What is the primary risk of dropping back to seated position when the attacker is following you to standing?
-**A**: The primary risk is that your downward movement may help the attacker consolidate their controls. If they anticipate the sit-back, they can use your downward momentum to drive their hooks deeper and tighten their chest-to-back connection, resulting in more secure grounded back control than they had before the transition attempt. The sit-back is only effective when the attacker has already committed their weight and balance to the upward follow.
-
-**Q4**: How should you coordinate neck defense with escape attempts during the standing transition?
-**A**: Maintain constant neck defense with at least one hand throughout the entire transition. The chin must stay tucked against the chest with the lead hand controlling the attacker's choking arm wrist. Use your free hand to address hooks or seatbelt grip, alternating which hand defends the neck if needed. Never remove both hands from neck defense simultaneously, as the attacker will capitalize on even brief exposure to sink a choke during the chaotic transition.
-
-
-
-</section>
 
 
 </main>

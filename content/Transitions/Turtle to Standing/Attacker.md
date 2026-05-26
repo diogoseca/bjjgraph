@@ -16,7 +16,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Turtle to Standing in BJJ",
-  "description": "Step-by-step guide for executing Turtle to Standing from Turtle/Bottom.",
+  "description": "Step-by-step guide for executing Turtle to Standing from Turtle/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,13 +180,15 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
 
 Executing the Turtle to Standing transition requires coordinating explosive hip extension with strategic hand posting, directional choice, and continuous neck protection. The attacker in this context is the bottom player escaping turtle, and the technique succeeds when you generate enough upward and forward momentum to overcome opponent's downward pressure while maintaining defensive integrity against chokes and back takes. The critical principle is that this escape must be executed as a single explosive movement rather than a gradual rise. Every moment spent in transition between turtle and standing is a moment of vulnerability where the opponent can attack the exposed neck, insert hooks, or drive you flat. Timing the attempt to coincide with the opponent's weight shifting or grip adjustment creates the optimal window. The direction of the stand should always move away from the opponent's center of mass, and the first action after reaching feet must be creating distance through lateral footwork rather than standing directly into the opponent's chest.
 
-**From Position**: [[Positions/Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Turtle to Standing?</p>
 
 - Execute the entire stand-up as one explosive coordinated movement, not a gradual rise
 - Protect the neck continuously by maintaining chin tuck and using the non-posting arm as a defensive frame
@@ -203,6 +205,8 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle to Standing?</p>
+
 - Strong turtle base with four points of contact, weight evenly distributed across hands and knees
 - Chin tucked tightly to chest with rounded upper spine to eliminate neck attack space
 - Elbows pinched against ribs to deny opponent hook insertion and underhook access
@@ -216,6 +220,8 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle to Standing step by step?</p>
 
 1. **Establish defensive turtle structure**: Set your turtle base with hands and knees creating four stable contact points. Round your spine, tuck your chin firmly to your sternum, and pinch your elbows tight against your inner knees. Distribute weight evenly and feel for opponent's pressure direction and grip placement. This initial structure is your defensive platform and must be solid before initiating the explosive phase.
 2. **Assess direction and choose posting side**: Identify which side offers the safest exit by reading opponent's weight distribution, grip placement, and body position. Stand away from where their weight is concentrated and away from any established grips. If opponent is heavy on your right side, plan to post left hand and drive the left leg forward. The assessment phase should take no more than one to two seconds before committing.
@@ -245,6 +251,8 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle to Standing?</p>
+
 - **Opponent drives weight forward to flatten you back to the mat** (Effectiveness: High) - Your Response: Maintain rigid posted arm and drive explosively through the pressure. If the forward drive is too strong, abort and switch direction to stand to the opposite side. Alternatively, use their forward commitment to execute a sit-through underneath their pressure. → Leads to [[Positions/Turtle]]
 - **Opponent secures seatbelt or harness control during stand attempt** (Effectiveness: High) - Your Response: Abort the stand-up immediately and address the grips. Strip the top choking hand first using two-on-one grip fighting, then clear the underhook hand. Only reinitiate the stand after grips are broken. Attempting to power through seatbelt control risks giving up full back control with hooks. → Leads to [[Positions/Back Control]]
 - **Opponent attacks with guillotine choke as you rise** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm while maintaining forward pressure through your posted hand. If they lock the guillotine, address the choke by peeling the wrist, posturing up, and stepping to the non-choking side. Never pull your head straight backward as this tightens the choke. → Leads to [[Positions/Turtle]]
@@ -258,6 +266,8 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle to Standing?</p>
 
 ### 1. Rising too upright too quickly without maintaining defensive posture
 
@@ -302,6 +312,8 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle to Standing (Attacker)?</p>
+
 **Phase 1: Solo Mechanics (Weeks 1-2)** - Movement pattern and explosive coordination without partner
 Drill the complete turtle to standing sequence solo, focusing on hand posting angle, explosive leg drive, hip extension timing, and landing in athletic stance. Perform 20 repetitions per side per session. Use a wall or heavy bag as a reference point to practice creating distance after standing. Film yourself to verify chin stays tucked and elbows stay tight throughout.
 
@@ -325,48 +337,12 @@ Incorporate the turtle to standing escape as an automatic response whenever turt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the stand-up be executed as a single explosive movement rather than a gradual rise?
-**A**: A gradual rise gives the opponent continuous time to react, adjust their weight, secure grips, insert hooks, or transition to submissions at each stage of the movement. Each intermediate position during a slow stand creates a distinct vulnerability window. An explosive coordinated movement compresses all vulnerable transitional moments into a sub-two-second window, making it physically impossible for the opponent to process and execute a counter in time. The momentum generated by explosive movement also helps overcome the opponent's downward pressure, whereas slow movement must fight that pressure statically.
-
-**Q2**: Your opponent shifts their weight to your right side and establishes a grip on your right hip - which direction should you stand?
-**A**: Stand to your left side, away from where their weight and grip are concentrated. Post your left hand at 45 degrees and drive your left leg forward. Standing into their weight and grip means fighting against their strongest control and the direction where they can most easily drive you back down. Standing away from their committed side exploits the gap in their control and forces them to reposition before they can counter, buying you the time needed to complete the stand and create distance.
-
-**Q3**: What is the most critical hand position during the entire turtle to standing sequence?
-**A**: The non-posting hand's neck defense position is the most critical because it protects against the highest-threat attacks throughout the transition. While the posting hand provides structural support, the non-posting hand must maintain continuous neck protection by staying tight against the throat and chin area, ready to frame against any arm that attempts to encircle the neck. A strong post without neck protection means you may successfully stand but get choked in the process. The neck defense hand only transitions to active standing defense after the practitioner has fully risen and created distance.
-
-**Q4**: You attempt to stand but your opponent locks a seatbelt grip before you can fully rise - what is the correct response sequence?
-**A**: Immediately abort the stand-up and return to a tight turtle base. Address the top choking hand first by grabbing their wrist with both hands and using hip rotation to create angle for the grip strip. Once the choking hand is cleared, work on the underhook hand using elbow pressure and hip movement. Only reinitiate the stand-up after both grips are broken and your elbows are re-secured tight to your ribs. Attempting to power through seatbelt control dramatically increases the probability of giving up full back control with hooks, which is a far worse outcome than remaining in turtle.
-
-**Q5**: Why should you create lateral distance rather than backward distance after standing?
-**A**: Backing up in a straight line keeps you directly in front of the opponent's attack line, making re-shots and clinch entries easy because they only need to drive forward. Lateral movement forces the opponent to redirect their momentum, adjust their angle, and reset their attack entry. Circling also naturally creates more distance because diagonal movement covers more ground relative to the opponent's forward chase. Additionally, lateral movement keeps you in a position to counter-attack or sprawl effectively, whereas backward movement puts you on your heels and compromises your base against incoming pressure.
-
-**Q6**: Your opponent begins driving heavy forward pressure as you post your hand - how do you adjust without abandoning the escape attempt?
-**A**: Absorb the forward pressure by locking your posted arm rigid and sinking your hips slightly to lower your center of gravity. Drive your lead leg forward with even more explosive force to counteract their forward momentum with your upward momentum. If the pressure is too great to overcome directly, redirect by switching your posting side: collapse the blocked side, rotate your hips, and explosively post and drive from the opposite side. This directional change uses their committed forward pressure against them since they cannot instantly redirect their weight. The key is committing fully to the redirect rather than half-attempting both directions.
-
-**Q7**: At what point during the turtle to standing sequence is the neck most vulnerable to guillotine attack?
-**A**: The neck is most vulnerable during steps four and five, when the hips are extending upward and the head rises above the turtle position but before full standing posture is established. At this moment, the head transitions from the protected tucked position to a more exposed forward-leaning position as you drive upward. The opponent can shoot their arm under the chin during this brief window. This is precisely why the chin tuck must be maintained aggressively through the entire rising phase, and why the non-posting hand must stay in neck defense position rather than being used for balance or posting.
-
-**Q8**: How does the turtle to standing escape create opportunities for your secondary escape options even when it fails?
-**A**: The stand-up attempt forces the opponent to react with specific counter-movements that create openings for alternative escapes. When they drive forward to flatten you, their weight shifts forward, creating the ideal conditions for a granby roll underneath them. When they reach for seatbelt control, they must lift their chest off your back momentarily, opening a window for a sit-through to half guard. When they transition to front headlock to address your rising head, they abandon their back control position entirely, allowing guard recovery or scramble opportunities. By forcing the opponent into reactive mode, even a failed stand-up attempt reconfigures the positional dynamics in your favor.
-
-**Q9**: What are the specific conditions that should make you abandon a stand-up attempt in favor of an alternative escape?
-**A**: Abandon the stand-up when: the opponent has established a locked seatbelt with choking hand in place and you cannot strip it within two seconds; when both hooks are inserted, meaning they already have back control and standing will drag them with you; when the opponent has transitioned to a fully locked front headlock with head-and-arm control, making rising dangerous for your neck; or when your initial explosive attempt is completely stuffed and you feel your base collapsing, because a second attempt from a weakened position has dramatically lower probability. In each case, immediately transition to the appropriate secondary escape rather than burning energy on repeated failed attempts.
-
-**Q10**: In competition, you are in turtle with 30 seconds remaining and down by 2 points - how does this affect your turtle to standing decision?
-**A**: The scoring urgency means you must prioritize reaching standing position to create offensive opportunities. Standing from turtle earns no points itself but creates the ability to pull guard to an attacking position or shoot a takedown for points. Execute the stand-up aggressively even at slightly higher risk of counter, because remaining in turtle guarantees a loss while a failed stand-up that leads to back control was likely the trajectory anyway with an aggressive opponent. After standing, immediately engage rather than creating distance: shoot a takedown attempt or pull guard into a sweeping position. The time constraint eliminates the luxury of patient grip fighting and demands committed action.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle to Standing?</p>
 
 The turtle to standing transition is generally low-risk but requires awareness of several safety considerations. The primary injury risk is to the neck: rising with poor chin tuck mechanics can result in being caught in a guillotine or front headlock choke, and practitioners should tap immediately if a choke tightens during drilling rather than trying to power through. When training the explosive stand-up, ensure adequate warm-up of quadriceps, hip flexors, and shoulders, as the movement demands sudden power generation from a compressed starting position. Partners applying top pressure during resistance drills should avoid suddenly dropping their full bodyweight, as this can cause wrist, shoulder, or cervical spine injuries to the person posting. On hard or thin mat surfaces, be cautious of knee impact when driving the lead leg forward into the lunge position. Communication between training partners about intensity levels is essential, particularly during the transition from cooperative to resistant drilling phases. When practicing guillotine defense during stand-up drills, always tap early and reset rather than testing neck durability.
 

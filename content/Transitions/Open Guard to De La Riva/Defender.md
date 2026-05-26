@@ -162,6 +162,8 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Open Guard to De La Riva?</p>
+
 - Opponent reaches for your near ankle or pant leg on the hooking side with their same-side hand
 - Opponent's outside leg begins swinging toward the outside of your lead leg in a threading motion
 - Opponent hip escapes to create a perpendicular angle to your stance rather than remaining square
@@ -174,6 +176,8 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Open Guard to De La Riva?</p>
 
 - Maintain constant lead leg awareness and never allow your lead knee to remain static when the opponent reaches toward your ankle or pant leg
 - Control distance through strong pant grips on the bottom player's legs to prevent them from threading the hook around your lead leg
@@ -188,6 +192,8 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Open Guard to De La Riva?</p>
 
 ### 1. Backstep the hooked leg to extract it before the hook fully seats behind the knee
 
@@ -225,6 +231,8 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Open Guard to De La Riva?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the ankle grip before the hook can be threaded and maintain distance control to keep passing initiative. React within the first second of recognizing the entry attempt.
@@ -240,6 +248,8 @@ Capitalize on the opponent's exposed legs during their hook threading attempt by
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard to De La Riva?</p>
 
 ### 1. Allowing lead leg to remain static and planted when opponent reaches for your ankle
 
@@ -269,6 +279,8 @@ Capitalize on the opponent's exposed legs during their hook threading attempt by
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Open Guard to De La Riva?</p>
+
 **Phase 1: Cue Recognition** - Identifying DLR entry attempts at various speeds
 Partner telegraphs DLR entries at progressively faster speeds while you practice identifying the recognition cues—ankle reach, hip angle change, leg swing—and verbally calling them out before the hook establishes.
 
@@ -285,29 +297,6 @@ Positional sparring where partner actively works to establish DLR from open guar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to establish DLR from open guard?
-**A**: The earliest cue is your opponent reaching for your near ankle or pant leg on the hooking side while simultaneously angling their hips to create a perpendicular relationship to your stance. This grip attempt precedes the hook thread and represents the ideal intervention point where a simple grip strip or backstep denies the entire entry sequence.
-
-**Q2**: Why is early intervention critical when defending against the DLR hook entry?
-**A**: Once the DLR hook is fully seated behind your knee with complementary grips established, dismantling the position requires significantly more energy and exposes you to sweep and back take threats during the removal process. Early intervention when the opponent is still reaching for grips or beginning to thread requires minimal effort and keeps you in a passing position.
-
-**Q3**: How does your weight distribution affect vulnerability to the DLR hook during guard passing?
-**A**: Committing excessive weight to your lead leg makes the DLR hook entry significantly easier because the bottom player can thread the hook against a planted leg that cannot be retracted quickly. Distributing weight evenly or keeping it slightly rearward allows you to retract the lead leg when you recognize the hook attempt, denying entry before it develops.
-
-**Q4**: What happens if you drive forward with pressure after the opponent has partially set the DLR hook?
-**A**: Driving forward into a partially established DLR hook is dangerous because forward momentum feeds directly into the guard player's berimbolo and inversion entries. The hook creates a pivot point, and your forward pressure provides the energy they need to rotate underneath you toward back control. Address the hook first through backstep or lateral movement.
-
-**Q5**: Your opponent has gripped your ankle but has not yet threaded the hook - what is your optimal response?
-**A**: Immediately strip the ankle grip using a two-on-one break or by circling your foot and pulling your leg back sharply. This is the highest-value intervention point because the ankle grip is the prerequisite for the hook entry. Without it, the opponent cannot anchor their threading attempt. After stripping, immediately advance passing pressure before they re-grip.
-
-
-
-</section>
 
 
 </main>

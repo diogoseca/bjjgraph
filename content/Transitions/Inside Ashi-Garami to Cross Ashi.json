@@ -11,7 +11,7 @@
     "leg-locks",
     "cross-ashi"
   ],
-  "from_position": "Inside Ashi-Garami/Top",
+  "from_position": "Inside Ashi-Garami/Bottom",
   "outcomes": [
     {
       "to": "Cross Ashi-Garami/Top",
@@ -220,7 +220,7 @@
         "description": "Incorporate transition into full leg lock flow training with complete resistance. Start from various leg entanglements and practice transitioning between Inside Ashi, Cross Ashi, Saddle, and 50-50 based on opponent's defensive reactions. Include counter-defense against escape attempts during switch."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Inside Ashi-Garami to Cross Ashi transition?",
         "answer": "The primary goal is to reconfigure your leg entanglement from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning (particularly inward knee rotation to hide the heel) makes Inside Ashi attacks suboptimal. This switch provides better mechanical leverage through the wedge effect of crossed legs and creates perpendicular hip alignment for superior heel hook finishes."
@@ -350,7 +350,7 @@
         "correction": "Clear the entanglement before attempting to stand. Extract your leg fully, establish guard, and only then work to stand if desired. Standing should be the final step, not the escape mechanism"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary defensive window during the Inside Ashi to Cross Ashi transition?",
         "answer": "The primary defensive window occurs when the attacker retracts their outside leg from behind your knee to reposition it across your trapped leg. During this 1-2 second period, their total leg control is at its weakest because one leg is between positions and cannot actively control your movement. This is when leg extraction, sitting up, or counter-entanglement attempts have the highest probability of success."

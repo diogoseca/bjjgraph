@@ -26,7 +26,7 @@
   "key_components": [
     {
       "component_name": "Positional Hierarchy Optimization",
-      "description": "Understanding the point value system creates the foundation for strategic decision-making. Mount and back control both award 4 points, representing the highest-value positions in IBJJF competition. Side control, knee on belly, and guard passing all score 3 points, forming the mid-tier positional targets. Sweep and takedown positions award 2 points, representing transitional advantages. Advanced competitors develop position chains that maximize point accumulation - for example, passing guard (3 points), transitioning to knee on belly (3 points), then mounting (4 points) generates 10 total points in a single sequence. This hierarchical understanding informs every tactical decision during competition.",
+      "description": "Understanding the point value system creates the foundation for strategic decision-making. Mount and back control both award 4 points, representing the highest-value positions in IBJJF competition. Guard passing awards 3 points, while knee on belly, sweeps, and takedowns each score 2 points. Advanced competitors develop position chains that maximize point accumulation - for example, passing guard (3 points), transitioning to knee on belly (2 points), then mounting (4 points) generates 9 total points in a single sequence. This hierarchical understanding informs every tactical decision during competition, allowing athletes to calculate which positional advancement yields the greatest return relative to energy investment and risk.",
       "purpose": "Maximize point accumulation through systematic position advancement"
     },
     {
@@ -78,7 +78,7 @@
     {
       "step_number": 3,
       "phase": "Point Accumulation Phase",
-      "description": "With initial position secured, systematically advance through the positional hierarchy to accumulate points. Use prepared position chains to maximize scoring - for example, guard pass to side control, transition to knee on belly, advance to mount creates a 10-point sequence. Maintain submission threats throughout to prevent purely defensive opponent reactions.",
+      "description": "With initial position secured, systematically advance through the positional hierarchy to accumulate points. Use prepared position chains to maximize scoring - for example, guard pass to side control (3 points), transition to knee on belly (2 points), advance to mount (4 points) creates a 9-point sequence. Maintain submission threats throughout to prevent purely defensive opponent reactions.",
       "key_points": [
         "Execute prepared position advancement sequences systematically",
         "Secure each position fully before advancing to next",
@@ -189,7 +189,7 @@
     }
   ],
   "training_methodology": {
-    "drilling_approach": "Competition scoring strategy development requires specific drilling protocols that simulate tournament conditions and scoring pressure. Begin with position chain drilling where partners start in neutral and must execute complete scoring sequences from takedown/pull through guard pass to mount or back control. Track points accumulated during each drill repetition and aim for 10+ point sequences. Progress to timed situational drills where one partner starts with a point advantage and must preserve it while the other works to overcome the deficit. This creates realistic competition pressure and forces development of both lead management and comeback protocols. Include referee-simulated drills where a third training partner acts as referee and calls advantages, stalling warnings, and penalties based on IBJJF rules, forcing athletes to develop awareness of referee perspective. Advanced training includes full competition simulation rounds with scorekeeping and specific scenario assignments like starting rounds down 4 points with 2 minutes remaining.",
+    "drilling_approach": "Competition scoring strategy development requires specific drilling protocols that simulate tournament conditions and scoring pressure. Begin with position chain drilling where partners start in neutral and must execute complete scoring sequences from takedown/pull through guard pass to mount or back control. Track points accumulated during each drill repetition and aim for 9+ point sequences. Progress to timed situational drills where one partner starts with a point advantage and must preserve it while the other works to overcome the deficit. This creates realistic competition pressure and forces development of both lead management and comeback protocols. Include referee-simulated drills where a third training partner acts as referee and calls advantages, stalling warnings, and penalties based on IBJJF rules, forcing athletes to develop awareness of referee perspective. Advanced training includes full competition simulation rounds with scorekeeping and specific scenario assignments like starting rounds down 4 points with 2 minutes remaining.",
     "progression_path": [
       {
         "stage": "Foundation Development",
@@ -198,7 +198,7 @@
       },
       {
         "stage": "Sequence Integration",
-        "focus": "Develop multi-position scoring sequences that accumulate 6-10 points. Practice basic lead management from dominant positions. Begin advantage generation drilling.",
+        "focus": "Develop multi-position scoring sequences that accumulate 6-9 points. Practice basic lead management from dominant positions. Begin advantage generation drilling.",
         "timeframe": "Months 4-8"
       },
       {
@@ -241,12 +241,12 @@
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Mid-tier scoring position (3 points) and passing consolidation"
+      "relationship": "Guard pass consolidation position and platform for further advancement"
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Mid-tier scoring position (3 points) with transition advantages"
+      "relationship": "2-point scoring position with transition advantages to mount or back"
     },
     {
       "name": "Closed Guard",
@@ -314,22 +314,22 @@
       "relationship": "Strategic philosophy prioritizing point accumulation before finishes"
     },
     {
-      "name": "Match Strategy",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Broader tactical planning framework including scoring considerations"
+      "relationship": "Mental framework for tactical planning and scoring decision-making under pressure"
     },
     {
-      "name": "Game Planning",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Pre-competition preparation and opponent-specific strategy development"
+      "relationship": "Creating scoring dilemmas that force opponents into lose-lose defensive choices"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Evaluating point opportunity value against submission and sweep danger"
+      "relationship": "Evaluating defensive risk when assessing point-scoring opportunities"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Pacing explosive scoring attempts with conservative control phases"
     },
@@ -359,9 +359,9 @@
       "relationship": "Primary finish threat from back control maintaining opponent defensive pressure"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Americana",
       "content_type": "Submission",
-      "relationship": "Mount submission threat creating defensive reactions for position advancement"
+      "relationship": "Fundamental mount submission threat creating defensive reactions that open transitions to back take or technical mount"
     },
     {
       "name": "Triangle Choke",

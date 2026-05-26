@@ -39,7 +39,7 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Positions/Hindulotine]] | 55% |
 | Failure | [[Positions/Hindulotine]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 

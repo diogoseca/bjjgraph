@@ -166,6 +166,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scissor Sweep?</p>
+
 - Opponent uncrosses ankles and opens their closed guard while maintaining strong collar and sleeve grips, beginning to angle their body perpendicular to yours
 - You feel a shin sliding across your lower abdomen or belt line while the opponent's other leg hooks behind your shoulder or upper back
 - Strong lateral pulling force from the collar grip combined with sleeve control preventing you from posting your arm on the sweeping side
@@ -176,6 +178,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scissor Sweep?</p>
 
 - Maintain strong upright posture with head over hips to deny the forward weight commitment the sweep requires
 - Keep a wide knee base that resists lateral displacement from the scissoring leg motion
@@ -190,6 +194,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scissor Sweep?</p>
 
 ### 1. Post free hand on the mat at a 45-degree angle behind you on the sweep side while widening your base and driving hips low
 
@@ -227,6 +233,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scissor Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain strong posture and wide base throughout. Strip grips proactively to deny the setup. Post your free hand immediately when you feel lateral pressure. Once the sweep attempt fails, recover your grips and resume your guard passing strategy from inside their now-open guard.
@@ -242,6 +250,8 @@ Step over the bottom leg when you recognize the shin placement early, landing on
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scissor Sweep?</p>
 
 ### 1. Allowing posture to break without fighting grips, letting the bottom player pull you forward with collar control
 
@@ -276,10 +286,12 @@ Step over the bottom leg when you recognize the shin placement early, landing on
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scissor Sweep?</p>
+
 **Week 1-2: Recognition and Posture Drill** - Identifying Scissor Sweep setups and maintaining defensive posture
 Partner works through the Scissor Sweep setup at 30% speed while you practice recognizing each stage: grip establishment, guard opening, angle creation, and leg positioning. Focus on maintaining posture and identifying the optimal moment to strip grips. No live sweeping - the goal is pattern recognition and posture maintenance under progressive grip pressure.
 
-**Week 3-4: Grip Fighting and Base Maintenance** - Proactive grip stripping and base adjustments against sweep setups
+**Week 3-4: Grips and Base** - Proactive grip stripping and base adjustments against sweep setups
 Partner attempts full Scissor Sweep setups at 50% resistance. Practice stripping both collar and sleeve grips using two-on-one breaks while maintaining your base. Work on widening your knees and lowering your center of gravity the moment you feel the sweep developing. Drill 15-20 defensive sequences per round, resetting after each successful defense or completed sweep.
 
 **Week 5-8: Emergency Defense and Recovery** - Posting, stepping over, and managing failed defense into guard recovery
@@ -292,29 +304,6 @@ Positional sparring starting in closed guard top where partner attacks with Scis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when you recognize a Scissor Sweep setup beginning from inside closed guard?
-**A**: Your first priority is maintaining or recovering upright posture with your head over your hips. The Scissor Sweep requires your weight to be committed forward, so strong posture is the single most important defensive element. Simultaneously, you should strip the collar grip that is being used to break your posture. Without broken posture, the mechanical advantage of the scissor motion is dramatically reduced and you can defend with base alone.
-
-**Q2**: Why is the sleeve grip more critical to strip than the collar grip when defending the Scissor Sweep?
-**A**: The sleeve grip prevents you from posting your hand on the mat when the sweep is executed, which is your primary emergency defense. Even with good posture, if you cannot post, a well-timed scissor motion will sweep you because you have no way to create a tripod base to absorb the lateral force. The collar grip breaks posture (which is important), but you can survive a sweep with broken posture if you can post. You cannot survive it with perfect posture if your posting arm is controlled.
-
-**Q3**: Your opponent has opened their guard and placed their shin across your abdomen - what specific base adjustment prevents the sweep?
-**A**: Immediately widen your knees as far as possible to create maximum lateral resistance. Drop your hips low by sitting back slightly to lower your center of gravity. Angle your body slightly toward the sweep direction so your weight counterbalances the incoming force. If possible, step your knee on the sweep side outward and back to create a wider triangular base that the scissoring motion cannot collapse. This base adjustment must happen instantly upon recognizing the shin placement.
-
-**Q4**: When is it too late to prevent the Scissor Sweep and what should you do at that point?
-**A**: The point of no return occurs when the opponent has both their angle established and their scissoring motion has begun with coordinated grip pull. At this stage, prevention has failed and you must manage the landing. Tuck your chin to protect your neck, keep your elbows tight to prevent arm isolation during the transition, and begin framing immediately as you land to prevent the opponent from consolidating mount. If you can control one of their legs as you go over, you may recover to half guard instead of conceding full mount.
-
-**Q5**: How does your defensive response differ when the opponent attempts a Scissor Sweep versus a Hip Bump Sweep from the same position?
-**A**: Against the Scissor Sweep, your defense is primarily lateral - you resist sideways displacement through wide base and posting. Against the Hip Bump Sweep, your defense is primarily rearward - the opponent sits up into you and you must resist being pushed backward by driving your weight forward or posting behind you. The critical tactical awareness is that these two sweeps create a dilemma: defending the Scissor by pulling your weight back makes you vulnerable to the Hip Bump, while leaning forward to prevent the Hip Bump makes you vulnerable to the Scissor. Maintaining centered posture with a wide base addresses both threats simultaneously.
-
-
-
-</section>
 
 
 </main>

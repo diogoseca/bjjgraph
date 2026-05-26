@@ -71,29 +71,29 @@
       "description": "Control Point Hierarchy provides micro-level framework within each position while Positional Hierarchy provides macro-level framework across positions, creating nested hierarchical system for complete strategic understanding."
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
-      "description": "Escape Hierarchy represents defensive application of positional hierarchy, establishing priority system for which positions to escape first based on their hierarchical danger level."
+      "description": "Escape Fundamentals represents the defensive application of positional hierarchy, establishing priority system for which positions to escape first based on their hierarchical danger level and urgency of positional improvement."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
-      "description": "Energy Management utilizes hierarchical understanding to allocate energy efficiently, expending more energy to achieve significant hierarchical gains while conserving energy in neutral or favorable positions."
+      "description": "Energy Conservation utilizes hierarchical understanding to allocate energy efficiently, expending more energy to achieve significant hierarchical gains while conserving energy in neutral or favorable positions."
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Prerequisite",
-      "description": "Risk Assessment provides foundational decision-making framework that enables intelligent application of positional hierarchy by evaluating whether potential hierarchical gains justify associated risks."
+      "description": "Timing and Rhythm provides foundational decision-making framework that enables intelligent application of positional hierarchy by evaluating when to commit to hierarchical advancement and when to maintain current position."
     },
     {
-      "principle_name": "Match Strategy",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Extension",
-      "description": "Match Strategy extends positional hierarchy into comprehensive game planning, using hierarchical understanding to develop position-based strategies appropriate for specific opponents and competitive contexts."
+      "description": "Competition Mindset extends positional hierarchy into comprehensive game planning, using hierarchical understanding to develop position-based strategies appropriate for specific opponents and competitive contexts."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
-      "description": "Guard Retention applies hierarchical understanding to determine when defending current guard position is more valuable than accepting pass to inferior position, using hierarchy to guide defensive priorities."
+      "description": "Frames applies hierarchical understanding to guard retention by determining when defending current guard position through frames is more valuable than accepting pass to an inferior hierarchical position."
     },
     {
       "principle_name": "Guard Passing",
@@ -101,9 +101,9 @@
       "description": "Guard Passing utilizes hierarchical framework to determine which passing positions to seek and which to avoid, ensuring passes lead to hierarchically superior positions rather than lateral movements."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Defensive Strategy incorporates hierarchical awareness to prioritize defensive actions based on positional danger, allocating defensive resources proportionally to hierarchical threat level."
+      "description": "Defensive Concepts incorporates hierarchical awareness to prioritize defensive actions based on positional danger, allocating defensive resources proportionally to hierarchical threat level."
     },
     {
       "principle_name": "Control Maintenance",
@@ -179,8 +179,8 @@
       "how_applied": "Occupies neutral hierarchical position where both offensive takedown opportunities and defensive sprawl requirements exist, using hierarchy to determine whether to initiate engagement or maintain distance based on takedown skill differential."
     },
     {
-      "context": "Scramble Position",
-      "how_applied": "Represents transitional hierarchical state requiring rapid position value assessment to determine which emerging position to pursue, using hierarchy to guide split-second decisions about committing to specific positional outcomes."
+      "context": "Standing Position",
+      "how_applied": "Represents neutral hierarchical state requiring rapid position value assessment to determine which emerging position to pursue, using hierarchy to guide split-second decisions about committing to specific positional outcomes during transitions."
     },
     {
       "context": "Technical Mount",
@@ -356,9 +356,9 @@
       "relationship": "Nested hierarchy system - control points provide micro-level hierarchy within positions while positional hierarchy provides macro-level framework"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Defensive application - escape hierarchy represents defensive implementation of positional hierarchy establishing escape priority system"
+      "relationship": "Defensive application - escape fundamentals represent defensive implementation of positional hierarchy establishing escape priority system based on hierarchical danger"
     },
     {
       "name": "Mount",
@@ -391,19 +391,19 @@
       "relationship": "Low defensive hierarchical position - exemplifies position requiring urgent improvement based on hierarchical vulnerability"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Resource allocation framework - uses hierarchical understanding to optimize energy investment for maximum strategic return"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Decision-making foundation - provides risk evaluation framework enabling intelligent hierarchical advancement decisions"
+      "relationship": "Decision-making foundation - provides timing evaluation framework enabling intelligent hierarchical advancement decisions and risk assessment"
     },
     {
-      "name": "Match Strategy",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Strategic extension - extends hierarchical understanding into comprehensive game planning for competitive contexts"
+      "relationship": "Strategic extension - extends hierarchical understanding into comprehensive game planning and match strategy for competitive contexts"
     }
   ]
 }

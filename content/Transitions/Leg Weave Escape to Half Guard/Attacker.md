@@ -188,6 +188,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Weave Escape to Half Guard?</p>
+
 - Establish structural frames against the passer's chest and shoulder before attempting any escape movement
 - Use hip escape momentum to create angle rather than pushing directly against the passer's weight
 - Time the knee insertion during the passer's weight shifts or passing attempts when their base is momentarily compromised
@@ -202,6 +204,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Weave Escape to Half Guard?</p>
+
 - At least one hook or leg connection remains between you and the passer preventing immediate pass completion
 - Sufficient arm mobility to establish forearm frame on the passer's neck, shoulder, or chest
 - Hip mobility allowing lateral escape movement despite the weaved leg creating restriction
@@ -214,6 +218,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Weave Escape to Half Guard step by step?</p>
 
 1. **Establish primary defensive frame**: Drive your near-side forearm into the passer's neck or shoulder to create a structural wedge that prevents their chest from flattening you. This frame is not meant to push them away but to create a rigid barrier that maintains space between your chest and theirs. Keep your elbow tight to your body for maximum structural integrity.
 2. **Set secondary hip frame**: Place your far-side hand on the passer's hip or belt line to control their forward drive and establish a reference point for your hip escape direction. This grip allows you to monitor their weight shifts and provides additional leverage for the upcoming hip escape movement. Maintain a bent arm position to prevent grip strips.
@@ -243,6 +249,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Weave Escape to Half Guard?</p>
+
 - **Top player drives crossface harder to prevent hip escape, flattening bottom player's shoulder to the mat** (Effectiveness: High) - Your Response: Use the bridge momentum to create a micro-window for the hip escape before the crossface fully settles. If caught flat, redirect escape angle toward deep half entry rather than fighting the crossface directly → Leads to [[Positions/Leg Weave]]
 - **Top player drives knee deeper through the weave when feeling hip escape, increasing leg threading to maintain position** (Effectiveness: Medium) - Your Response: Use the far-side hook to control their advancing leg and time the knee insertion for the moment their weight shifts forward with the drive. Their forward commitment creates space behind their knee for your guard recovery → Leads to [[Positions/Leg Weave]]
 - **Top player strips frames and transitions immediately to knee slice or smash pass during escape attempt** (Effectiveness: High) - Your Response: If frames are stripped, abandon the standard escape and immediately re-establish distance through a secondary frame or transition to deep half entry. Do not continue the escape sequence without frame support → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Weave Escape to Half Guard?</p>
 
 ### 1. Attempting to push the passer away with arms extended rather than using structural frames
 
@@ -293,6 +303,8 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Weave Escape to Half Guard (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Developing structural frame placement and maintenance under pressure
 Practice establishing forearm frames against a partner applying leg weave pressure at 50% intensity. Focus on correct arm positioning, elbow angles, and skeletal alignment that maintains space with minimal muscular effort. 5-minute rounds alternating sides.
 
@@ -313,39 +325,12 @@ Extended positional rounds where successful escape immediately continues into ha
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the hip escape during the leg weave escape sequence?
-**A**: The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion.
-
-**Q2**: Why must frames be established before attempting the hip escape rather than simultaneously?
-**A**: Frames must be established first because without structural support, any space created by the hip escape is immediately reclaimed by the passer following with their chest pressure. The frame serves as a doorstop that prevents the space from closing as you move your hips. Attempting both simultaneously splits your coordination and typically results in neither being effective, producing weak frames that collapse and incomplete hip escapes that fail to create meaningful angle.
-
-**Q3**: Your knee shield insertion is consistently being collapsed by the passer - what mechanical adjustment should you make?
-**A**: Drive the shin deeper across the passer's torso so it angles toward their far shoulder rather than sitting vertically in front of their chest. Angle your knee outward slightly to create a wider wedge effect. The shin bone should be the contact surface rather than just the knee point. Additionally, ensure your hip escape has created sufficient angle before attempting insertion, since a knee shield inserted from a flat position lacks the structural support that comes from being on your side.
-
-**Q4**: How should you adjust the escape when the passer has an extremely strong crossface that prevents your hip escape?
-**A**: When the crossface is too strong for a lateral hip escape, redirect your escape pathway downward toward deep half guard rather than fighting the crossface directly. Use your near-side arm to underhook their trapped leg and dive your head underneath their base. The deep half entry uses their forward crossface pressure against them by converting it into momentum for your descent underneath. This transforms a defensive problem into an offensive entry.
-
-**Q5**: What grip should you prioritize immediately after successfully recovering half guard from the leg weave?
-**A**: The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape.
-
-**Q6**: The passer begins backstopping when you create angle during your hip escape - how do you prevent back exposure?
-**A**: Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control.
-
-**Q7**: How do you chain the escape when your first attempt fails but you have created partial space?
-**A**: Use the partial space to transition to an alternative escape pathway rather than resetting completely. If you created angle but could not insert the knee shield, use the momentum to drive into deep half guard underneath the passer. If you created space but lost your frames, immediately re-establish the primary forearm frame before the passer can reclaim the space. The key is maintaining whatever positional gains you achieved and building on them rather than starting the entire sequence from scratch.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Weave Escape to Half Guard?</p>
 
 The leg weave escape is a low-risk defensive technique with minimal injury potential when practiced correctly. Primary safety concern is neck strain from excessive crossface pressure during drilling. Partners should communicate about pressure intensity and build resistance gradually across training phases. Avoid explosive bridging into a partner who is not braced, as this can cause knee or ankle injuries to the top player. During live training, tap if caught in a fully consolidated pass rather than fighting desperately from a compromised position, as forced scrambles from bad positions can lead to shoulder or neck injuries.
 

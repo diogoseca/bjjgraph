@@ -120,7 +120,7 @@
             "probability": 55
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar from Armbar Control",
             "target": "Game Over",
             "probability": 50
           }
@@ -221,7 +221,7 @@
         "duration": "5 minute rounds"
       },
       {
-        "name": "Grip Fighting From Back",
+        "name": "Grips From Back",
         "description": "Start with seat belt established. Opponent uses both hands to actively attack and break seat belt grip while defender maintains connection through grip adjustments, hand fighting, and pressure distribution. Develops grip endurance and defensive grip retention.",
         "duration": "2 minute rounds"
       },
@@ -295,28 +295,28 @@
     },
     "transitions": [
       {
-        "transition": "Rear Naked Choke",
-        "attempt_probability": 35
+        "transition": "Rear Naked Choke from Seat Belt Control Back",
+        "attempt_probability": 37
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": 10
       },
       {
-        "transition": "Bow and Arrow Choke",
-        "attempt_probability": 6
+        "transition": "Bow and Arrow Choke from Seat Belt Control Back",
+        "attempt_probability": 7
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": 6
       },
       {
-        "transition": "Short Choke",
+        "transition": "Short Choke from Seat Belt Control Back",
         "attempt_probability": 5
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "Body Triangle Lock",
@@ -345,17 +345,9 @@
       {
         "transition": "Seat Belt to Full Back Control",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Bow and Arrow from Seat Belt",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "RNC from Seat Belt",
-        "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while hand fighting your seat belt grip - what immediate adjustment do you make?",
         "answer": "Drop your weight lower on their back by sliding your hips down toward their hips, tighten chest-to-back connection to eliminate any space created by the bridge, and drive your hooks deeper to prevent hip rotation. The bridge creates momentary space that you must immediately close by following their movement with your body weight while reinforcing your grip connection. Never allow the bridge to create cumulative space - match their movement with downward pressure."
@@ -641,7 +633,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Opponent begins sliding their choking arm toward your neck - what is your immediate defensive response?",
         "answer": "Immediately tuck your chin tightly to your chest to close the space under your jaw. Simultaneously bring both hands to your collar line, grabbing opponent's choking wrist or forearm with your near-side hand while your far-side hand protects the collar area. Turn your head away from the choking arm direction. The chin tuck must be your first reflex - even a split-second delay in tucking allows the forearm to slide under."

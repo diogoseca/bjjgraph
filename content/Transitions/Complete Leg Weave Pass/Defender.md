@@ -162,6 +162,8 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Complete Leg Weave Pass?</p>
+
 - Passer increases crossface shoulder pressure significantly, driving your head away—this signals they are building the upper body anchor for extraction
 - Passer's far hand moves to control your hip or belt, blocking your ability to insert your knee—this is the setup for hook clearance
 - You feel the passer's weaved leg begin rotating or angling outward, indicating the extraction motion has started
@@ -174,6 +176,8 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Complete Leg Weave Pass?</p>
 
 - Intervene early—defensive success rate drops dramatically once the passer begins leg extraction, so act during the consolidation phase before extraction starts
 - Maintain your remaining half guard hook as the primary defensive connection, releasing it only when transitioning to a specific alternative guard position
@@ -188,6 +192,8 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Complete Leg Weave Pass?</p>
 
 ### 1. Frame against passer's shoulder and hip escape to re-insert knee shield
 
@@ -225,6 +231,8 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Complete Leg Weave Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your counter-attack to the passer's weight transfer phase. As they shift weight to their upper body for extraction, either dive for deep half guard entry underneath their elevated hips, or secure an underhook and fight to dogfight position. Both options exploit the momentary reduction in hip pressure that the extraction requires.
@@ -240,6 +248,8 @@ Maintain active frames against the passer's shoulder and hip while preserving yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Complete Leg Weave Pass?</p>
 
 ### 1. Waiting passively for the passer to begin extraction before attempting any defense
 
@@ -269,6 +279,8 @@ Maintain active frames against the passer's shoulder and hip while preserving yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Complete Leg Weave Pass?</p>
+
 **Phase 1: Recognition and Frame Establishment** - Identifying the pass completion sequence and building automatic framing responses
 Partner establishes leg weave and slowly progresses through the pass completion sequence while you practice identifying each phase and establishing appropriate frames. Focus on recognizing the weight transfer signal and maintaining the shoulder frame throughout. No escape attempts—pure defensive recognition and frame discipline.
 
@@ -285,29 +297,6 @@ Start in established leg weave with full competitive resistance. Defender attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the passer's chest weight increasing while their hip pressure decreases - what does this signal and how should you respond?
-**A**: This weight transfer signals the passer is building their upper body anchor and preparing to extract their weaved leg. This is your best counter-attack window because their hips are momentarily lighter. Respond immediately by either diving for deep half guard entry underneath their elevated hips, or explosively hip escaping to re-insert your knee shield. Waiting even two seconds allows them to complete the weight transfer and begin extraction, after which your success rate drops significantly.
-
-**Q2**: What is the most important frame to maintain during the leg weave pass completion and why?
-**A**: The forearm frame against the passer's crossface shoulder is the most critical because it prevents them from establishing the upper body anchor that enables extraction. Without this frame, the passer's shoulder drives into your jaw, turns your head away, and pins your upper body to the mat. This single frame disrupts their entire extraction setup because they cannot stabilize their upper body while your frame creates a wedge preventing shoulder settlement. Losing this frame essentially concedes the pass.
-
-**Q3**: The passer has cleared one hook but hasn't established side control yet - what is your best defensive option in this narrow window?
-**A**: This is the final defensive window and requires immediate action. Your best option is to turn toward the passer and fight for an underhook before they establish perpendicular alignment. As they transition from extraction to consolidation, there is a brief moment where their crossface is adjusting and their hips are not yet settled. Use this window to come up on your inside elbow, secure the underhook, and fight to your knees for a dogfight scramble. If you remain flat on your back during this window, side control is inevitable.
-
-**Q4**: How do you decide between attempting knee shield recovery versus diving for deep half guard?
-**A**: The decision depends on the passer's weight distribution and your body position. If the passer's weight is concentrated forward and their hips are elevated, deep half guard entry is available because you can shoot underneath their base. If the passer's weight is more balanced and their hips are low, deep half entry is blocked but there may be space to hip escape and insert your knee for a shield. Generally, deep half is the higher-risk, higher-reward option while knee shield recovery is the conservative choice. Choose deep half when you feel clear space under their hips, and choose knee shield when your hip mobility allows lateral escape.
-
-**Q5**: Your bridge is repeatedly absorbed by the passer without disrupting their extraction - how do you adjust your defensive strategy?
-**A**: If bridges are being absorbed, the passer has likely established a wide, stable base and low center of gravity. Bridging against this base wastes energy. Switch to frame-based defense: establish forearm frames against their shoulder and hip, then use hip escapes in the direction away from their crossface pressure. Alternatively, if their base is wide laterally, attack the underhook side since their wide posting leg creates space on that side. The key insight is recognizing when explosive defense is being absorbed and transitioning to technical frame-based defense that exploits specific gaps in their base.
-
-
-
-</section>
 
 
 </main>

@@ -212,9 +212,9 @@ The turtle turn from side control bottom occupies a critical position in the BJJ
 
 - [[Positions/Half Guard]] - Alternative escape target accessible through hip escape rather than turning to turtle
 
-- [[Transitions/Escape Side Control Consolidation]] - Related escape sequence from tighter side control variant with similar principles
+- [[Transitions/Side Control Escape]] - Related escape sequence from side control with similar principles
 
-- [[Transitions/Hip Escape from Side Control Consolidation]] - Alternative hip-escape-based method from consolidated side control position
+- [[Transitions/Hip Escape from Side Control]] - Alternative hip-escape-based method from side control position
 
 
 </section>

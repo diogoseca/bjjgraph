@@ -310,7 +310,7 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 ### Progression Path
 **Technical Foundation** (Focus: Learn basic positions, transitions, and submissions with emphasis on proper form and mechanics) - Months 1-6: Build fundamental vocabulary and understanding
 **Detail Refinement** (Focus: Identify and correct small technical errors in fundamental techniques through video analysis and instructor feedback) - Months 6-18: Develop technical precision and positional sensitivity
-**Pressure Application** (Focus: Test fundamentals against progressively more difficult opponents and competitive situations) - Months 18-36: Build confidence in system under realistic pressure
+**Pressure** (Focus: Test fundamentals against progressively more difficult opponents and competitive situations) - Months 18-36: Build confidence in system under realistic pressure
 **Mastery Development** (Focus: Refine techniques to point where basic submissions defeat even opponents who know exactly what is coming) - Years 3+: Achieve unconscious competence and teaching-level understanding
 
 
@@ -329,27 +329,27 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 ## Which Positions, Transitions, and Principles Connect to This System?
 
 - [[Mount]] (Position) - Primary attacking position in Roger's system - mastering mount control is foundational to entire approach
-- [[Mount Control]] (Position) - Specific control mechanics that make Roger's mount inescapable despite using basic techniques
-- [[High Mount]] (Position) - Advanced mount position used to prevent bridge escapes and set up cross collar chokes
+- [[High Mount]] (Position) - Advanced mount variation used to prevent bridge escapes and set up cross collar chokes
 - [[Side Control]] (Position) - Intermediate position in classical progression - gateway to mount and control position for pressure application
 - [[Closed Guard]] (Position) - Starting position for many matches - Roger's approach emphasizes methodical opening and passing
 - [[Back Control]] (Position) - Alternative dominant position to mount - used when mount cannot be achieved or maintained
-- [[Scarf Hold Position]] (Position) - Traditional control position emphasizing fundamental pinning mechanics and pressure
+- [[Kesa Gatame]] (Position) - Traditional control position emphasizing fundamental pinning mechanics and pressure
 - [[Knee on Belly]] (Position) - Transitional position in Roger's system - used briefly during advancement to more dominant positions
 - [[North-South]] (Position) - Control position reached during certain passing sequences and mount escape defenses
-- [[Pass to Side Control]] (Transition) - Core transition in system - methodical guard passing is prerequisite to all subsequent techniques
-- [[Side Control to Mount]] (Transition) - Critical transition following classical positional hierarchy - must be executed with perfect control
-- [[Cross Collar Choke]] (Submission) - Roger's signature finish - basic technique executed with world-class precision
-- [[Armbar from Mount]] (Submission) - Secondary submission option from mount when collar grips cannot be established
+- [[Cross Collar Choke]] (Submission) - Roger's signature finish - basic technique executed with world-class precision from mount
+- [[Far Side Armbar]] (Submission) - Secondary submission option from mount when collar grips cannot be established
 - [[Rear Naked Choke]] (Submission) - Fundamental finish from back control - another example of basic technique executed perfectly
 - [[Positional Hierarchy]] (Principle) - Foundational principle - system follows classical hierarchy religiously
 - [[Position-Over-Submission Approach]] (Principle) - Core philosophy - perfect position makes submission inevitable
 - [[Maximum Efficiency Principle]] (Principle) - Guides technique selection - fundamental techniques are inherently most efficient when executed correctly
-- [[Base Maintenance]] (Principle) - Critical defensive and offensive principle - perfect base prevents sweeps and enables powerful passing
-- [[Pressure Application]] (Principle) - Key to making basic positions inescapable - Roger's pressure felt impossibly heavy
+- [[Base]] (Principle) - Critical defensive and offensive principle - perfect base prevents sweeps and enables powerful passing
+- [[Pressure]] (Principle) - Key to making basic positions inescapable - Roger's pressure felt impossibly heavy
 - [[Control Maintenance]] (Principle) - Defines success in system - control quality matters more than position advancement speed
 - [[Escape Fundamentals]] (Principle) - Defensive component of system - knowing escapes deeply helps prevent opponent from executing them
-- [[Leverage Principles]] (Principle) - Explains why fundamental techniques work - Roger maximized leverage in every position
+- [[Levers]] (Principle) - Explains why fundamental techniques work - Roger maximized leverage in every position
+- [[Center of Gravity]] (Principle) - Essential to Roger's crushing top game - optimal weight placement creates inescapable control
+- [[Guard Passing]] (Principle) - First phase of Roger's attack system - methodical passing principles underpin entire approach
+- [[Grips]] (Principle) - Grip establishment precedes all position advancement in Roger's system
 - [[Bernardo Faria Pressure System]] (System) - Complementary system also emphasizing pressure and fundamental techniques over complexity
 - [[Gi-Specific Strategy]] (System) - Roger's system optimized for gi grips and collar chokes - represents pinnacle of gi grappling
 - [[Competition Strategy]] (System) - Roger's competition approach demonstrated system effectiveness at highest levels

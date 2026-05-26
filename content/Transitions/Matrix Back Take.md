@@ -28,7 +28,7 @@ This technique demands excellent body awareness, precise timing, and the ability
 
 The Matrix Back Take has become a staple in modern no-gi back attack systems, where the absence of gi grips makes dynamic movement-based entries more viable than static grip-fighting approaches. It integrates naturally with truck entries, crab ride transitions, and traditional seat belt back takes, allowing the attacker to chain multiple options based on the defender's reactions. Practitioners who invest in developing this technique gain a significant advantage in turtle top situations, particularly against experienced defenders who have neutralized conventional back take entries.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Matrix]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -215,7 +215,7 @@ The matrix back take is an advanced component of a comprehensive turtle top atta
 
 - [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent exposes an arm defending the matrix entry
 
-- [[Transitions/Rear Naked Choke]] - Primary submission attack after establishing back control from this technique
+- [[Submissions/Rear Naked Choke]] - Primary submission attack after establishing back control from this technique
 
 - [[Transitions/Front Headlock to Back]] - Alternative back take path that can be chained when matrix entry is defended
 

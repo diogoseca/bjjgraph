@@ -200,7 +200,7 @@ The Back Take from Hindulotine is a critical component of the front headlock att
 
 - [[Positions/Back Control]] - Target position after successful execution
 
-- [[Transitions/Rear Naked Choke]] - Primary submission from resulting back control
+- [[Submissions/Rear Naked Choke]] - Primary submission from resulting back control
 
 - [[Positions/Front Headlock]] - Parent position system for Hindulotine attacks
 

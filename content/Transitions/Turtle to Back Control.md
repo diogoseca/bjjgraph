@@ -209,7 +209,7 @@ The turtle to back transition is a critical component of top turtle offensive sy
 
 - [[Positions/Back Control/Body Triangle]] - Alternative leg control method after completing back take for enhanced pressure
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from achieved back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from achieved back control position
 
 - [[Transitions/Crab Ride to Back]] - Alternative turtle control pathway leading to back take via crab ride
 
@@ -221,9 +221,9 @@ The turtle to back transition is a critical component of top turtle offensive sy
 
 - [[Positions/Gift Wrap]] - Alternative upper body control during back take when opponent exposes arm
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission from completed back control position
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission from completed back control position
 
-- [[Submissions/Armbar from Back]] - Alternative submission when opponent over-defends neck from back control
+- [[Transitions/Armbar from Back Transition]] - Alternative submission when opponent over-defends neck from back control
 
 - [[Transitions/Turtle to Standing]] - Opponent escape attempt requiring standing back control counter-adjustment
 

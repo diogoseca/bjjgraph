@@ -162,6 +162,8 @@ Defending the half guard to back take requires the top player to recognize early
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Back Take?</p>
+
 - Bottom player secures deep underhook past your armpit with their hand connecting to your far shoulder or lat, indicating they have the primary grip needed for the back take
 - Bottom player begins rotating their torso perpendicular to your body, turning to face your side rather than looking up at you, signaling angle creation has started
 - Bottom player's top knee drives across to block your bottom hip while maintaining half guard lock on your leg, establishing the hip block that prevents your turn-in defense
@@ -174,6 +176,8 @@ Defending the half guard to back take requires the top player to recognize early
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Back Take?</p>
 
 - Crossface dominance: Establish and maintain strong crossface pressure to prevent bottom player from turning on their side and creating the angle needed for the back take
 - Underhook denial: Aggressively contest the underhook by driving shoulder pressure down and fighting for your own underhook or immediately applying whizzer control when opponent threads their arm
@@ -188,6 +192,8 @@ Defending the half guard to back take requires the top player to recognize early
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Back Take?</p>
 
 ### 1. Drive heavy crossface and shoulder pressure to flatten opponent back to the mat, killing their side angle and underhook leverage
 
@@ -225,6 +231,8 @@ Defending the half guard to back take requires the top player to recognize early
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Back Take?</p>
+
 ### → [[Positions/Half Guard]]
 
 Flatten the bottom player using crossface and shoulder pressure before they achieve perpendicular angle. Drive your weight through your chest into their face and shoulder, collapsing their side angle back to flat on the mat. Once flattened, reestablish crossface dominance and resume your half guard passing sequence.
@@ -240,6 +248,8 @@ When the back take attempt has progressed past prevention, turn aggressively int
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Back Take?</p>
 
 ### 1. Allowing underhook to establish without immediately contesting with crossface pressure or whizzer
 
@@ -274,6 +284,8 @@ When the back take attempt has progressed past prevention, turn aggressively int
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Back Take?</p>
+
 **Week 1-2: Recognition and crossface response** - Identifying underhook attempts and responding with immediate crossface pressure
 Partner works from bottom half guard attempting to secure underhook at 50% speed. Practice recognizing the underhook attempt through feel and immediately driving crossface and shoulder pressure to deny it. Build automatic defensive reflexes to underhook threats.
 
@@ -290,29 +302,6 @@ Positional rounds starting in half guard top against partner's full offensive ha
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective point to shut down the half guard to back take?
-**A**: The earliest and most effective defensive point is during underhook establishment, before the bottom player threads their arm deep under your armpit. Driving immediate crossface and shoulder pressure when you feel the underhook attempt prevents the primary control point from being established, making all subsequent phases of the back take impossible.
-
-**Q2**: Why is turning away from the opponent the wrong response when you feel them climbing to your back?
-**A**: Turning away exposes more of your back to the attacker, accelerating hook insertion and seatbelt establishment rather than preventing it. The correct response is to turn into the opponent because facing them directly denies back exposure, creates a scramble where you can recover guard or top position, and eliminates the angle they need to complete the back take.
-
-**Q3**: Your opponent has a deep underhook and has started rotating perpendicular - what is your best defensive option at this stage?
-**A**: At this stage, apply a strong whizzer overhook on the underhook arm while driving your hip into their chest to stall the rotation. If the angle has progressed too far for the whizzer to work, turn into the opponent aggressively by rotating your torso toward them and driving through with your chest to deny back exposure and force a scramble.
-
-**Q4**: What visual or tactile cue indicates the back take attempt has progressed past the point of easy prevention?
-**A**: When the bottom player's top knee drives across to block your bottom hip while they maintain perpendicular angle and deep underhook, the back take has progressed past easy prevention. At this point the bottom player has established the three critical controls needed for the climb phase: underhook leverage, perpendicular angle, and hip block. Your defense must shift from prevention to emergency turn-in response.
-
-**Q5**: Why should you prioritize addressing the underhook over extracting your trapped leg from half guard?
-**A**: The underhook is the primary offensive lever for the back take and creates an immediate positional threat, while a trapped leg in half guard without an underhook is merely a stalling mechanism. If you focus on leg extraction while ignoring the underhook, the bottom player establishes the back take control structure before you complete your pass. A trapped leg with strong crossface control is a passing position; an uncontested underhook is an imminent back take.
-
-
-
-</section>
 
 
 </main>

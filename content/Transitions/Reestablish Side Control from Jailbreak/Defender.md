@@ -154,6 +154,8 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reestablish Side Control from Jailbreak?</p>
+
 - Top player drives crossface pressure forward and down with increased intensity, attempting to pin your head flat to the mat and prevent inversion
 - Top player establishes whizzer or overhook control over your underhooking arm, actively trying to strip or neutralize the connection
 - Top player begins walking hips toward perpendicular alignment while maintaining heavy chest pressure across your shoulders
@@ -165,6 +167,8 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reestablish Side Control from Jailbreak?</p>
 
 - Maintain underhook connection at all costs—it is the structural prerequisite for all jailbreak escape variations and contingency transitions
 - Commit explosively to the escape once initiated, as hesitation allows the top player time to establish crossface and whizzer counters
@@ -179,6 +183,8 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reestablish Side Control from Jailbreak?</p>
 
 ### 1. Accelerate the jailbreak roll with explosive hip generation and free leg push before the top player completes their counter
 
@@ -216,6 +222,8 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reestablish Side Control from Jailbreak?</p>
+
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
 When the top player drives forward pressure to shut down jailbreak, redirect your underhook to dive underneath their body for deep half guard entry. Their forward weight commitment actually assists your transition underneath them. Secure their far leg and establish hip positioning for sweep threats from deep half.
@@ -231,6 +239,8 @@ If the jailbreak is completely stalled, immediately switch to recovering traditi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reestablish Side Control from Jailbreak?</p>
 
 ### 1. Continuing to force the jailbreak roll after the top player has established strong crossface and whizzer control
 
@@ -260,6 +270,8 @@ If the jailbreak is completely stalled, immediately switch to recovering traditi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reestablish Side Control from Jailbreak?</p>
+
 **Counter Recognition** - Identifying when the top player initiates side control reestablishment
 Partner practices jailbreak counters at slow speed while you identify each step of their recovery sequence. Call out when crossface increases, when whizzer is established, and when hips begin walking around. Develop awareness of the counter pattern without resistance. 5 minutes per side.
 
@@ -273,26 +285,6 @@ Partner provides full resistance and actively counters the jailbreak. Focus on t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your primary response when you feel the top player driving crossface to shut down your jailbreak?
-**A**: When crossface pressure intensifies, you have a split-second decision point. If the crossface is still developing and you have momentum, accelerate the escape with explosive hip generation to complete the roll before the pin is fully established. If the crossface has already pinned your head to the mat, abandon the jailbreak and immediately transition to a contingency option—either diving underneath for deep half guard or recovering half guard frames with knee shield insertion. Continuing to force a blocked escape wastes energy and accomplishes nothing.
-
-**Q2**: How do you determine whether to continue the jailbreak or switch to deep half guard entry?
-**A**: The decision depends on the top player's weight distribution and your access to their legs. If the top player drives their weight forward and down but their far leg remains accessible, transitioning to deep half is optimal because their forward commitment actually assists your movement underneath them. If the top player sprawls their hips back while maintaining crossface, deep half entry is blocked and half guard frame recovery becomes the better option. The key indicator is whether you can access their far leg—if yes, deep half; if no, recover half guard.
-
-**Q3**: What role does the free leg play in maintaining your defensive options during the jailbreak counter?
-**A**: The free leg serves dual purposes: propulsion for escape attempts and frame creation against the top player's hip repositioning. During an active jailbreak roll, the free leg pushes off the mat to generate rotational momentum. When the roll is stalled, the free leg transitions to framing against the top player's hips to block their walk-around to perpendicular alignment. The free leg should never be passive—it should constantly be either pushing for escape or blocking the pass completion.
-
-**Q4**: When should you completely abandon the jailbreak attempt and accept half guard recovery as your best outcome?
-**A**: Abandon the jailbreak when three conditions are met simultaneously: the top player has established strong crossface pinning your head flat, your underhook has been significantly compromised by their whizzer or arm control, and you have expended significant energy on failed escape attempts. At this point, continuing to force the jailbreak guarantees failure and depletes resources needed for half guard defense. Immediately transition to recovering knee shield and traditional half guard frames to establish a defensible position.
-
-
-
-</section>
 
 
 </main>

@@ -81,11 +81,11 @@
       "relationship": "Specific back control variation establishing the grip used during this transition"
     },
     {
-      "name": "Armbar from Technical Mount",
+      "name": "Mount to Armbar",
       "relationship": "Primary submission threat that creates the armbar-or-back dilemma enabling this transition"
     },
     {
-      "name": "RNC from Seat Belt",
+      "name": "Rear Naked Choke",
       "relationship": "Primary submission chain available after completing this transition to back control"
     },
     {
@@ -243,7 +243,7 @@
         "description": "Positional sparring starting from Technical Mount with both players pursuing their objectives at full resistance. Top player works to achieve either armbar or back control; bottom player works to escape or prevent both. Track success rates across rounds to identify which defensive reactions create the most difficulty and adjust technique accordingly."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that signals you should commit to the back take rather than continuing the armbar attack from Technical Mount?",
         "answer": "The primary trigger is the opponent's far shoulder rotating toward the mat, indicating they have committed to turning away from the armbar threat. This shoulder rotation means they have chosen to defend their arm by exposing their back. You must wait for this genuine commitment before following—a partial or tentative turn does not create sufficient back exposure and often leads to failed transition attempts."
@@ -368,7 +368,7 @@
         "correction": "Channel defensive energy into specific techniques: directed hip escapes, targeted frame placements, deliberate grip fighting. Every movement should have a purpose connected to a specific defensive option. Controlled urgency outperforms panic."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest physical cues that your opponent is transitioning from an armbar attempt to a back take from Technical Mount?",
         "answer": "The earliest cues are the opponent's posted leg beginning to shift from its perpendicular base position, their arm control changing from wrist-and-elbow armbar grip to a reaching motion over your shoulder, and their weight shifting from downward pressure on your chest to lateral following pressure. You may also feel their chest angle change as they begin to align with your back rather than pressing into your front. Recognizing these cues in the first one to two seconds of the transition is critical for effective defense."

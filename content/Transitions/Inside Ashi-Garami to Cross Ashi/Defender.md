@@ -158,13 +158,15 @@ The most dangerous aspect of this transition from the defender's perspective is 
 
 Successful defense relies on three pillars: early recognition of the transition attempt, aggressive exploitation of the control gap when the outside leg releases, and disciplined leg retraction mechanics that protect your heel throughout the escape. Advanced defenders also develop the ability to convert defensive movement into counter-entanglement opportunities, turning the attacker's transitional vulnerability into your own leg attack entries.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Inside Ashi-Garami to Cross Ashi?</p>
 
 - Attacker's outside leg (hooking behind your knee) begins to retract or loosen, signaling the start of leg reconfiguration
 - You feel the attacker's hips rotating to face more directly toward your trapped leg, shifting from parallel to perpendicular alignment
@@ -179,6 +181,8 @@ Successful defense relies on three pillars: early recognition of the transition 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Inside Ashi-Garami to Cross Ashi?</p>
+
 - Act during the transition window when outside leg control is temporarily released, not after Cross Ashi consolidates
 - Keep your trapped knee flexed and heel pulled toward your hip to deny heel exposure throughout the exchange
 - Use your free leg aggressively as a frame on attacker's hip to create separation the moment you feel their outside leg release
@@ -192,6 +196,8 @@ Successful defense relies on three pillars: early recognition of the transition 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Ashi-Garami to Cross Ashi?</p>
 
 ### 1. Retract trapped leg aggressively during the outside leg release window by driving your knee toward your chest and pulling your heel tight to your hip
 
@@ -229,6 +235,8 @@ Successful defense relies on three pillars: early recognition of the transition 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Ashi-Garami to Cross Ashi?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract your trapped leg during the outside leg release window by retracting forcefully while framing on attacker's hip with your free leg. Strip their heel grip with two-on-one hand fighting if possible. The key window is the 1-2 seconds when the attacker's outside leg is between positions and total leg control is at its weakest.
@@ -244,6 +252,8 @@ Prevent the transition from completing by sitting up aggressively and establishi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Ashi-Garami to Cross Ashi?</p>
 
 ### 1. Remaining passive during the transition and allowing the attacker to complete the switch to Cross Ashi unchallenged
 
@@ -278,6 +288,8 @@ Prevent the transition from completing by sitting up aggressively and establishi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Ashi-Garami to Cross Ashi?</p>
+
 **Week 1-2** - Recognition and defensive positioning
 Partner initiates the Inside Ashi to Cross Ashi transition at slow speed while you practice recognizing the cues: outside leg release, hip rotation, increased heel grip tension. Focus on maintaining proper defensive leg configuration (knee bent, heel to hip) throughout. No escape attempts yet - just recognition and positioning. 20 repetitions per session.
 
@@ -294,29 +306,6 @@ Incorporate defense into live leg lock training with full resistance. Start from
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window during the Inside Ashi to Cross Ashi transition?
-**A**: The primary defensive window occurs when the attacker retracts their outside leg from behind your knee to reposition it across your trapped leg. During this 1-2 second period, their total leg control is at its weakest because one leg is between positions and cannot actively control your movement. This is when leg extraction, sitting up, or counter-entanglement attempts have the highest probability of success.
-
-**Q2**: Why is keeping your trapped knee flexed critical when defending this transition?
-**A**: A flexed knee with heel pulled toward your hip dramatically reduces the attacker's heel hook finishing leverage. Full leg extension provides the optimal mechanical configuration for rotational force on your knee ligaments. The bent knee position also makes your leg shorter and harder for the attacker to control during the reconfiguration, creating better extraction opportunities. This single adjustment is the most important defensive habit.
-
-**Q3**: Your opponent begins the transition and you feel their outside leg release from behind your knee - what are your immediate priorities in order?
-**A**: First, aggressively retract your trapped leg by driving your knee toward your chest while keeping your heel tight to your hip. Second, simultaneously frame on the attacker's hip with your free leg to create separation and prevent them from following your retraction. Third, engage in hand fighting to strip their heel grip if they still have control. The combination of leg retraction, hip framing, and grip fighting during this window gives you the best chance of complete extraction.
-
-**Q4**: When is counter-entanglement a viable defensive strategy during this transition?
-**A**: Counter-entanglement becomes viable when the attacker commits to the transition and their inside leg becomes accessible as they focus on completing the outside leg cross. By threading your free leg around their exposed inside leg, you can enter your own Inside Ashi-Garami. This is best attempted by practitioners with leg lock experience who can manage the dual-threat environment of exchanging leg attacks. Inexperienced defenders should prioritize extraction over counter-entanglement.
-
-**Q5**: What is the most dangerous mistake defenders make when caught in this transition?
-**A**: The most dangerous mistake is making explosive rotational movements away from the entanglement while the attacker maintains a heel grip. This rotation applies the exact finishing force needed for a heel hook and can cause severe knee ligament damage in fractions of a second. Any rotation should be toward the attacker (turning into the entanglement) which reduces heel hook leverage, never away. Staying calm and systematic prevents this catastrophic defensive error.
-
-
-
-</section>
 
 
 </main>

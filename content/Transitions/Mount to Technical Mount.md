@@ -208,7 +208,7 @@ The Mount to Technical Mount transition occupies a critical junction in the moun
 
 - [[Positions/Back Control]] - Common follow-up position when opponent turns away from technical mount submissions
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission threat available after successful transition to technical mount
+- [[Transitions/Mount to Armbar]] - Primary submission transition available after successful advancement to technical mount
 
 - [[Positions/Mount/High Mount]] - Alternative positional advancement from mount when technical mount opportunity is unavailable
 

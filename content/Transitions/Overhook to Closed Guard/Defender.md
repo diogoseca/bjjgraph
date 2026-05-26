@@ -162,6 +162,8 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook to Closed Guard?</p>
+
 - Bottom player begins incremental shoulder walking or hip scooting movements toward your waist while maintaining overhook tension
 - Bottom player's heels shift from your lower back to mid-back level indicating they are positioning for ankle crossing
 - Bottom player increases overhook pulling pressure significantly, attempting to collapse your posture before the closure attempt
@@ -174,6 +176,8 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook to Closed Guard?</p>
 
 - Recognize hip walking movements early and respond immediately before the bottom player closes the distance gap
 - Maintain hip distance by driving your hips back and keeping your spine straight against the overhook pull
@@ -188,6 +192,8 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook to Closed Guard?</p>
 
 ### 1. Explosive posture recovery by driving hips back and straightening spine
 
@@ -225,6 +231,8 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook to Closed Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the overhook during the bottom player's transition attempt using circular arm extraction when they loosen grip tension to adjust legs. Combined with explosive posture recovery and hip distance creation, this forces the bottom player into open guard where they lack both the overhook control and closed guard security.
@@ -240,6 +248,8 @@ Prevent the closure by maintaining strong posture and hip distance throughout th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook to Closed Guard?</p>
 
 ### 1. Waiting too long to react to the bottom player's hip walking movements
 
@@ -274,6 +284,8 @@ Prevent the closure by maintaining strong posture and hip distance throughout th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook to Closed Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying guard closure attempts through tactile cues
 Partner slowly performs the Overhook to Closed Guard transition while you focus entirely on feeling the recognition cues: hip walking, increased overhook tension, leg repositioning. Call out each cue verbally as you feel it. No defensive response yet, purely developing awareness. Twenty repetitions per side.
 
@@ -290,29 +302,6 @@ Begin in overhook guard top against a fully resisting partner who attempts guard
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is attempting to close their guard from overhook position?
-**A**: The earliest cue is the bottom player beginning to shoulder walk or hip scoot upward toward your waist while simultaneously increasing their overhook pulling pressure. You will feel their hips shifting incrementally closer through subtle changes in leg pressure against your ribcage. Their free hand will also shift to firmly controlling your arm rather than attacking, indicating they are prioritizing guard consolidation over sweeps or submissions.
-
-**Q2**: Why is maintaining hip distance more effective than arm framing alone when preventing guard closure?
-**A**: Hip distance addresses the root cause of guard closure. The bottom player needs their hips close enough to your waist for their legs to reach around and lock ankles. No amount of arm framing can prevent closure if your waist is within their leg-wrapping range. By driving your hips back and maintaining distance through your entire body structure, you make it physically impossible for their legs to reach regardless of their arm control or overhook pressure.
-
-**Q3**: Your opponent's legs are wrapping around your waist but ankles are not yet crossed - what is your best immediate response?
-**A**: This is your last defensive window before closed guard is established. Immediately insert your elbow or forearm between their thigh and your hip to create a wedge preventing ankle crossing. Simultaneously drive your hips explosively backward and posture up to create distance. If you can prevent the ankle cross for even two seconds, the bottom player often cannot sustain the wrapping position and their legs will open, giving you a passing opportunity.
-
-**Q4**: How should you time your overhook strip attempt to maximize success against a guard closure?
-**A**: The best moment to strip the overhook is when the bottom player adjusts their leg position to begin wrapping. During this brief window, their attention and physical effort shift to their lower body, and their overhook grip often loosens slightly as their core engages in hip movement. Use a sharp circular arm extraction at this exact moment, combining the strip with an explosive posture recovery for maximum effect.
-
-**Q5**: What base adjustment prevents you from being pulled into closed guard during the transition attempt?
-**A**: Widen your knees beyond shoulder width to create a stable platform that resists the pulling force of the overhook. Shift your weight backward through your hips rather than forward through your hands. Keep your toes curled under for mobile base that allows you to drive backward quickly. Position your hips slightly off-center rather than square to the bottom player, which makes wrapping geometrically more difficult for their legs.
-
-
-
-</section>
 
 
 </main>

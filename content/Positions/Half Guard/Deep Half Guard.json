@@ -88,15 +88,15 @@
       "Opponent has created the leverage structure necessary for sweep attempts while you maintain some degree of upright posture"
     ],
     "key_principles": [
-      "Weight Distribution Management: Maintain balanced weight to prevent both waiter and old school sweeps",
+      "Center of Gravity Management: Maintain balanced weight to prevent both waiter and old school sweeps",
       "Trapped Leg Extraction Priority: Systematically work to free your trapped leg as it's the key to escaping",
       "Crossface Control: Establish crossface or head control to limit opponent's ability to execute sweep mechanics",
       "Posture Maintenance: Keep good posture and avoid being flattened or broken down",
       "Base Widening: Use free leg to establish wide base that makes you difficult to off-balance",
-      "Grip Fighting: Prevent opponent from establishing sweep grips on belt or pants",
+      "Grips: Prevent opponent from establishing sweep grips on belt or pants",
       "Patience Under Pressure: Recognize this is dangerous position requiring methodical escape"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?",
         "answer": "Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift."
@@ -221,7 +221,7 @@
         "duration": "5 minutes per side"
       },
       {
-        "name": "Weight Distribution Sensitivity Drill",
+        "name": "Center of Gravity Sensitivity Drill",
         "description": "Partner is in deep half guard and signals which sweep they're setting up (waiter or old school) by tapping your leg. You must adjust weight distribution to counter that specific sweep before they execute it. Develops sensitivity to sweep mechanics and proper defensive weight placement. 20 repetitions per side.",
         "duration": "8 minutes total"
       },
@@ -360,7 +360,7 @@
       "Create angles with body positioning to set up different sweep variations",
       "Transition quickly when opponent's weight shifts to capitalize on openings"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?",
         "answer": "When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space."
@@ -429,7 +429,7 @@
         "condition": "If opponent whizzers far arm to prevent sweeps",
         "actions": [
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair",
             "target": "Electric Chair",
             "probability": 50
           },
@@ -560,7 +560,7 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Electric Chair Submission",
+        "transition": "Electric Chair",
         "attempt_probability": 6
       },
       {

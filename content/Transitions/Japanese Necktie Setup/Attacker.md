@@ -182,6 +182,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Japanese Necktie Setup?</p>
+
 - Establish dominant front headlock control before attempting arm thread
 - Thread choking arm deep under opponent's neck with elbow pointing down
 - Secure opponent's far arm to prevent defensive hand fighting
@@ -197,6 +199,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Japanese Necktie Setup?</p>
+
 - Front headlock position established with opponent in turtle or standing bent over
 - Opponent's head controlled with one arm wrapped around neck
 - Clear access to thread arm under opponent's neck from the side
@@ -211,6 +215,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Japanese Necktie Setup step by step?</p>
 
 1. **Establish front headlock control**: From turtle or scramble position, secure a tight front headlock with your right arm wrapped around opponent's neck. Your chest should be heavy on their upper back, and your left hand should control their far arm or shoulder to prevent defensive movements. Ensure your head is positioned on their back, not beside their head.
 2. **Thread choking arm deep**: Release your headlock grip and immediately thread your right arm deep under opponent's neck from their left side. Your palm should face up with elbow pointing down toward the mat. Drive the arm as deep as possible—your bicep should be against the side of their neck and your forearm across their throat. This depth is critical for choking leverage.
@@ -239,6 +245,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Japanese Necktie Setup?</p>
+
 - **Opponent posts hand on mat to block roll** (Effectiveness: High) - Your Response: Switch to alternative attack like Darce or Anaconda, or use their posted arm as leverage to force the roll by lifting it off the mat as you initiate movement → Leads to [[Positions/Front Headlock]]
 - **Opponent turns into you during arm thread** (Effectiveness: Medium) - Your Response: Abandon Japanese Necktie and transition to standard guillotine or arm-in guillotine as they turn, capitalizing on their head and neck remaining exposed → Leads to [[Positions/Front Headlock]]
 - **Opponent grabs your choking arm with free hand** (Effectiveness: High) - Your Response: Immediately switch to two-on-one control of their defending arm, strip their grip, then re-establish arm thread, or transition to Darce position by adjusting arm placement → Leads to [[Positions/Front Headlock]]
@@ -251,6 +259,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Japanese Necktie Setup?</p>
 
 ### 1. Threading arm too shallow under opponent's neck
 
@@ -290,6 +300,8 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Japanese Necktie Setup (Attacker)?</p>
+
 **Phase 1: Static Positioning (Week 1-2)** - Master proper arm threading depth and hand locks
 Partner starts in turtle. Practice threading arm under neck and locking hands correctly without rolling. Focus on getting bicep against neck and forearm across throat. Drill hand lock variations (gable, S-grip) to find preference. Partner remains stationary.
 
@@ -313,54 +325,12 @@ Attempt technique during free rolling against all body types and skill levels. F
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is controlling the opponent's far arm critical to successful Japanese Necktie execution?
-**A**: Controlling the far arm prevents the opponent from creating defensive frames, posting to block the roll, or hand-fighting to clear your choking arm. Without this control, they can effectively defend by blocking your roll initiation or stripping your grips before you establish the finishing position. The far arm represents their primary defensive tool, so neutralizing it is essential.
-
-**Q2**: What is the correct body position during the roll transition, and why is staying on your shoulder important?
-**A**: You should roll to your side through your shoulder, not flat onto your back. This maintains leverage and control while maximizing choking pressure through proper body alignment. Rolling flat onto your back creates space, reduces pressure from your head on their shoulder, and makes it easier for opponent to escape by slipping their head free or turning to face you.
-
-**Q3**: How deep should the choking arm be threaded, and what anatomical landmark indicates proper depth?
-**A**: The choking arm must be threaded extremely deep so your bicep contacts the side of opponent's neck and your forearm crosses their throat. Your elbow should point straight down toward the mat. This depth ensures the choking surface (forearm and bicep) properly compresses the carotid arteries. Shallow threading results in a neck crank rather than blood choke and is easily defended.
-
-**Q4**: What should you do if the opponent successfully posts their hand to block your roll?
-**A**: If opponent posts to block the roll, you have two primary options: attempt to use their posted arm as leverage by lifting or sweeping it as you initiate the roll, or immediately transition to alternative front headlock attacks like Darce or Anaconda choke. Continuing to force the Japanese Necktie against a solid post usually fails and wastes energy. Recognize the counter quickly and adapt.
-
-**Q5**: Explain the difference between using arm strength versus body mechanics to finish the Japanese Necktie?
-**A**: Relying on arm strength alone leads to quick fatigue and reduced effectiveness, especially against larger or stronger opponents. Proper finishing mechanics involve driving weight through your head into their shoulder, extending hips forward to create full-body pressure, and squeezing elbows together while maintaining tight body connection. The arms hold position and maintain the structure, but the choking force comes from body weight, hip extension, and skeletal alignment rather than muscular contraction in the arms.
-
-**Q6**: From what positions can the Japanese Necktie Setup be initiated, and what is the common characteristic making it available?
-**A**: The Japanese Necktie can be initiated from turtle, front headlock standing, scramble positions, failed guillotine attempts, and combat base. The common characteristic is having front headlock control where opponent's head is below your chest level and their posture is compromised forward. The setup requires access to thread your arm under their neck from the side, which is available whenever they're defending in a bent-over or turtled position.
-
-**Q7**: Your opponent begins turning into you as you thread your arm - what is the optimal timing window to complete the setup?
-**A**: The optimal window closes rapidly once they begin turning. You must either accelerate the arm threading before they complete the turn, or immediately abandon the Japanese Necktie and capitalize on their turning motion by switching to a guillotine since their neck remains exposed. Hesitation during this window typically results in losing the attack entirely. The decision point is approximately 45 degrees of rotation - beyond that, switch attacks.
-
-**Q8**: What grip configuration provides the strongest finish, and why do practitioners choose different grip types?
-**A**: The gable grip (palm-to-palm with fingers interlaced) provides the strongest structural connection and is preferred for finishing power. The S-grip allows slightly more adjustability during the roll transition. Practitioners with smaller hands or facing larger opponents often prefer gable grip for maximum squeeze. Those prioritizing control during the roll may use S-grip initially then transition to gable for the finish. The key is locking hands before rolling regardless of grip choice.
-
-**Q9**: How does the direction of force change between the setup phase and the finishing phase?
-**A**: During setup, force is primarily directed downward through chest pressure to maintain control and forward to thread the arm deep. During the roll, force transitions to lateral pulling to bring opponent with you. In the finishing position, force vectors completely change to hip extension forward, head pressure driving their shoulder down, and elbow squeeze inward. This multi-directional force application is why pure arm strength fails - each phase requires different force vectors that body mechanics provide more efficiently than arms.
-
-**Q10**: Your opponent sprawls hard and drives their hips back as you begin the arm thread - how do you chain to your next attack?
-**A**: When the opponent sprawls backward, their neck often extends slightly and their weight shifts rearward, making the Japanese Necktie angle disappear. Maintain your chest connection and follow their movement. If your arm is partially threaded, transition to an anaconda choke by adjusting your arm to trap their near arm against their neck. If no arm thread exists yet, use the sprawl momentum to snap them down harder and re-establish front headlock control, then attempt a Darce setup since their sprawled position often exposes the underhook line.
-
-**Q11**: What are the entry requirements that must exist before attempting the Japanese Necktie Setup?
-**A**: You must have established front headlock control with chest pressure on opponent's upper back. Opponent must be in compromised forward posture (turtle, bent standing, or combat base). You need clear access to the side of their neck for arm threading. Their posture must prevent them from immediately standing or circling away. Without these conditions, the technique has low probability of success and alternative attacks should be considered.
-
-**Q12**: If opponent defends by tucking their chin tightly, what alternative attacks open from this defensive position?
-**A**: A tight chin tuck while defending Japanese Necktie setup leaves them vulnerable to several alternatives: the Darce choke works because it attacks from a different angle and uses their defending arm against them; transitioning to back control becomes available since they're focused on neck defense rather than hip movement; flattening them to side control allows positional advancement while maintaining pressure. The chin tuck is a temporary defense that commits them to static positioning you can exploit.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Japanese Necktie Setup?</p>
 
 The Japanese Necktie is a blood choke targeting carotid arteries and should be practiced with appropriate caution. During training progressions, start with zero resistance and gradually increase intensity over several weeks. Partners must tap immediately when pressure is felt, as blood chokes can cause unconsciousness within seconds. When practicing the rolling component, ensure adequate mat space to avoid collisions. Beginners should not attempt full-speed rolling until they master static positioning phases. Be especially careful with neck cranking—if the choking arm is not threaded deep enough, you may inadvertently create cervical spine pressure instead of vascular compression. Always release immediately upon tap or verbal submission. Supervise white belts closely during initial training phases, as the rolling motion can be disorienting.
 

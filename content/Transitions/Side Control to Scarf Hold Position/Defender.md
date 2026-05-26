@@ -154,6 +154,8 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Side Control to Scarf Hold Position?</p>
+
 - Opponent threads their near arm underneath your near arm, gripping above your elbow or on your tricep, indicating arm isolation intent
 - Opponent switches from crossface to head wrap, moving their far arm from across your face to around the back of your head
 - Opponent loads extra chest pressure momentarily, pinning you flat before initiating the rotation, which feels like a sudden increase in weight
@@ -166,6 +168,8 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control to Scarf Hold Position?</p>
 
 - Recognize the transition early by feeling for arm threading and head control changes, then react before the hip rotation begins
 - Maintain active frames against the opponent's hip and shoulder to prevent the perpendicular angle from being established
@@ -180,6 +184,8 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Side Control to Scarf Hold Position?</p>
 
 ### 1. Frame on opponent's hip and execute aggressive hip escape during the rotation
 
@@ -217,6 +223,8 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Side Control to Scarf Hold Position?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a strong hip escape with frame on opponent's hip during the rotation phase, inserting your knee before the perpendicular angle is established. The moment you feel their weight shifting, shrimp hard toward the space opening on your far side and thread your knee between your bodies.
@@ -232,6 +240,8 @@ Extract your near arm before the grip sets by pulling your elbow tight and turni
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control to Scarf Hold Position?</p>
 
 ### 1. Waiting until the scarf hold is fully established before attempting to defend
 
@@ -261,6 +271,8 @@ Extract your near arm before the grip sets by pulling your elbow tight and turni
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Side Control to Scarf Hold Position?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues without resistance
 Partner slowly executes the transition from side control to scarf hold. Practice verbally calling out each recognition cue as you feel it: arm thread, head wrap switch, weight loading, hip rotation. Build the pattern recognition that triggers automatic defensive responses. Perform 20 repetitions per side.
 
@@ -277,26 +289,6 @@ Partner successfully establishes scarf hold. Practice the complete escape sequen
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning to scarf hold from side control?
-**A**: The earliest cue is feeling the opponent thread their near arm underneath your near arm, gripping above your elbow or on your tricep. This arm isolation is the prerequisite for scarf hold and occurs before the hip rotation. The second cue is the head control switch from crossface to head wrap. Recognizing the arm thread gives you the maximum response window before the transition advances to the point where defense becomes significantly harder.
-
-**Q2**: Why is defending during the transition more effective than escaping after scarf hold is established?
-**A**: During the transition, the opponent's base is compromised as their weight shifts and their body rotates. This momentary instability makes frames and hip escapes highly effective. Once scarf hold is consolidated, the perpendicular angle negates lateral escape mechanics, the arm is fully trapped, and the crushing hip pressure restricts movement. The transition window represents a 2-3 second period of vulnerability that becomes a fully established pin if you miss it.
-
-**Q3**: Your opponent has begun rotating their hips but hasn't completed the scarf hold - what is your highest-percentage defensive action?
-**A**: Frame hard on their rotating hip with your far arm and execute an aggressive hip escape toward the space opening on your far side. The hip switch creates a momentary gap between their body and yours on the side opposite the rotation. By shrimping into that space immediately, you can insert your knee and recover to half guard before the perpendicular angle is established. The key is committing to the hip escape explosively rather than waiting to see if the rotation completes.
-
-**Q4**: How should your escape strategy differ once the scarf hold is fully consolidated compared to during the transition?
-**A**: During the transition, use lateral hip escapes and arm extraction since the parallel angle still permits these. Once consolidated, lateral shrimping becomes ineffective due to the perpendicular angle. Switch to bridge-and-roll mechanics by trapping their far arm and rolling them over their shoulder. Alternatively, work backdoor escapes by turning into them when they shift weight forward. The fundamental mechanical difference is rotation versus lateral movement as your primary escape direction.
-
-
-
-</section>
 
 
 </main>

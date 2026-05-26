@@ -154,6 +154,8 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Feet on Hips Tripod Sweep?</p>
+
 - Opponent's foot begins sliding off your hip and moving downward toward your ankle or lower leg area
 - Opponent reaches with one hand toward your far ankle while maintaining pushing contact with their remaining hip foot
 - You feel a hook or instep wrapping behind your Achilles tendon or around the back of your ankle
@@ -166,6 +168,8 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Feet on Hips Tripod Sweep?</p>
 
 - Maintain a wide, low base with bent knees to lower your center of gravity below the sweep's effective threshold
 - Keep your ankles mobile and ready to backstep immediately when you feel any hooking contact developing behind your Achilles
@@ -180,6 +184,8 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Feet on Hips Tripod Sweep?</p>
 
 ### 1. Backstep the hooked ankle immediately to remove the sweep fulcrum before the push engages
 
@@ -217,6 +223,8 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Feet on Hips Tripod Sweep?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 React instantly to any foot movement from the opponent's hip toward your ankle by backstepping the targeted leg and re-establishing your base. Maintain active grip fighting on their pants at the knees to prevent the setup configuration from developing. Keep constant forward pressure to make the sweep mechanically difficult.
@@ -232,6 +240,8 @@ When the opponent commits fully to the sweep attempt with their hand on your ank
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Feet on Hips Tripod Sweep?</p>
 
 ### 1. Standing tall with a narrow base and locked knees while in the opponent's feet-on-hips guard
 
@@ -261,6 +271,8 @@ When the opponent commits fully to the sweep attempt with their hand on your ank
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Feet on Hips Tripod Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues at slow speed
 Partner slowly demonstrates the tripod sweep setup while the defender identifies each recognition cue verbally before physically reacting. Develops pattern recognition at low speed so the brain maps the visual and tactile signals before adding time pressure.
 
@@ -277,26 +289,6 @@ Full-speed positional sparring from feet-on-hips guard where the bottom player h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a tripod sweep is being set up from feet on hips guard?
-**A**: The earliest indicator is the opponent's foot beginning to slide off your hip and move downward toward your ankle or lower leg. This transition from pushing frame to hooking position signals the sweep setup. You have a narrow window—typically less than two seconds—between when the foot leaves your hip and when the hook fully establishes behind your ankle to execute a defensive reaction.
-
-**Q2**: Your opponent has established the hook behind your ankle but has not yet gripped your far ankle - what should you do?
-**A**: Immediately backstep the hooked ankle by pulling it straight back and stepping away from the hook before the hand grip completes the three-point control system. Without the far ankle grip, the sweep cannot generate the multi-directional force needed to topple you. Simultaneously drive your weight forward through your hips and maintain pants grips on their knees to make backward sweeping mechanically more difficult.
-
-**Q3**: Why does lowering your base defend against the tripod sweep, and what risk does this create?
-**A**: Lowering your base through bending your knees or dropping to combat base position moves your center of gravity closer to the ground, requiring dramatically more force to topple you backward. The mechanical advantage of the sweep decreases exponentially as your base widens and lowers. However, this defense creates risk because the lowered posture opens opportunities for the opponent to transition to butterfly guard hooks, tomoe nage, or collar drag attacks that exploit close-range engagement with a lowered opponent.
-
-**Q4**: How do you defend against the tripod and sickle sweep combination when both are threatened from the same position?
-**A**: The key is maintaining a centered, balanced base that resists both backward and lateral sweeping forces simultaneously rather than overcommitting to defend one direction. Keep your weight evenly distributed between both feet rather than favoring one side. When defending the tripod by backstepping, do so at a diagonal angle that does not load your weight entirely onto the remaining stance leg where a sickle sweep would catch you. Active pants grips at the knees prevent both sweep configurations from establishing their necessary foot positions.
-
-
-
-</section>
 
 
 </main>

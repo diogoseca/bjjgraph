@@ -38,7 +38,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Front headlock is a dynamic control position, not a resting position - constantly threaten submissions or transitions
@@ -205,21 +205,21 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (4% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (4% of attempts)
+- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (4% of attempts)
 
 - **[[Submissions/Brabo Choke/Attacker|Brabo Choke]]** (2% of attempts)
 
 - **[[Submissions/Chin Strap Guillotine/Attacker|Chin Strap Guillotine]]** (2% of attempts)
 
-- **[[Submissions/Peruvian Necktie/Attacker|Peruvian Necktie]]** (2% of attempts)
+- **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
-- **[[Submissions/Arm in Guillotine/Attacker|Arm in Guillotine]]** (1% of attempts)
+- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (1% of attempts)
 
-- **[[Submissions/High Elbow Guillotine/Attacker|High Elbow Guillotine]]** (1% of attempts)
+- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (1% of attempts)
 
 - **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (1% of attempts)
 
-- **[[Submissions/Ten Finger Guillotine/Attacker|Ten Finger Guillotine]]** (1% of attempts)
+- **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (1% of attempts)
 
 
 ### Common Mistakes

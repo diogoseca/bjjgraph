@@ -21,37 +21,37 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 61% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 70% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Heel Hook from Ashi Garami",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Toe Hold from Ashi Garami",
+      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -173,6 +173,8 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ashi Garami (Bottom)?</p>
+
 - You control at least one of opponent's legs with your legs in hooking or entanglement configuration
 - Your hips maintain mobility and positioning capability to advance or defend within the leg entanglement system
 
@@ -182,6 +184,8 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Ashi Garami (Bottom)?</p>
 
 - Understanding of leg lock safety protocols and tap-early mentality to prevent injury during training and competition
 - Fundamental leg lock mechanics including straight ankle locks, toe holds, and basic heel hook finishing principles
@@ -194,6 +198,8 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ashi Garami?</p>
 
 - **Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable systematic advancement
 - **Hierarchical Progression**: Advance systematically through Outside Ashi → Inside Ashi → Cross Ashi → Saddle rather than forcing submissions from inferior positions
@@ -208,13 +214,15 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Ashi Garami (Bottom)?</p>
+
 **If opponent maintains strong defensive leg positioning protecting heel with straight alignment:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
 - Execute **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent exposes heel through poor positioning, grip failure, or defensive extraction error:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 
 
@@ -231,11 +239,11 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 **If you have achieved Inside Ashi with good inside space control and stable connection points:**
 - Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
-- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 45%)
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
 
 
@@ -246,6 +254,8 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ashi Garami?</p>
 
 ### 1. Forcing heel hook attempts from Outside Ashi without advancing to superior hierarchy positions first
 
@@ -284,6 +294,8 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Ashi Garami defense?</p>
 
 ### Positional Hierarchy Progression Drill
 

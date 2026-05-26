@@ -194,6 +194,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame and Shrimp from S Mount?</p>
+
 - Protect the trapped arm continuously throughout the escape - never sacrifice arm safety to create frames or generate movement
 - Frame against the opponent's hip bone specifically, not their upper body or thigh - hip frames prevent them from following your lateral movement
 - Shrimp your hips away from the trapped arm side to create the most effective escape angle and maximum distance from the submission threat
@@ -208,6 +210,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame and Shrimp from S Mount?</p>
+
 - Trapped arm secured with collar grip or bent-arm defense keeping elbow at 90 degrees or tighter against ribs
 - Free hand positioned to reach and drive into opponent's near hip bone for primary frame establishment
 - Feet posted flat on the mat with knees bent to generate maximum hip escape power through leg drive
@@ -219,6 +223,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame and Shrimp from S Mount step by step?</p>
 
 1. **Secure trapped arm defense**: Grip your own collar or lapel firmly with the trapped hand, keeping the elbow bent at 90 degrees or tighter pressed against your ribs. This collar grip is your non-negotiable anchor throughout the entire escape sequence. The bent arm position makes armbar completion exponentially more difficult and must be established before any escape movement begins.
 2. **Establish primary hip frame**: Drive your free hand directly into the opponent's near hip bone (iliac crest), creating a structural barrier with your forearm and palm. Position your elbow close to your own body for maximum structural strength rather than pushing with an extended arm. This frame is the mechanical wedge that prevents the opponent from following your hip movement during the shrimp.
@@ -249,6 +255,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame and Shrimp from S Mount?</p>
+
 - **Opponent drives hip-to-shoulder pressure down preemptively when sensing frame attempt** (Effectiveness: High) - Your Response: Use a micro-bridge to create momentary lift before framing rather than trying to frame through settled weight. The bridge creates a split-second gap that your frame hand can fill before the pressure returns. → Leads to [[Positions/Mount/S Mount]]
 - **Opponent immediately attacks armbar when you commit free hand to framing against their hip** (Effectiveness: Medium) - Your Response: Ensure collar grip is ironclad before moving free hand to frame. Only frame after confirming the trapped arm cannot be extended. If opponent accelerates armbar during frame, retract free hand and re-secure arm defense immediately. → Leads to [[Positions/Armbar Control]]
 - **Opponent follows your hip movement by scooting laterally to maintain perpendicular angle** (Effectiveness: High) - Your Response: Chain three or more rapid shrimps without pausing, creating cumulative distance faster than they can follow from their narrow perpendicular base. Their following movement compromises their own stability, potentially opening bridge escape opportunities. → Leads to [[Positions/Mount/S Mount]]
@@ -260,6 +268,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame and Shrimp from S Mount?</p>
 
 ### 1. Releasing collar grip on trapped hand to use both arms for framing
 
@@ -304,6 +314,8 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame and Shrimp from S Mount (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Isolated frame placement and structural strength
 Practice establishing hip frames against a partner in S Mount with zero resistance. Focus on precise hand placement on the hip bone, maintaining structural arm alignment with elbow close to your body, and understanding the force vectors. Drill 20 frame placements per side, building muscle memory for correct positioning before adding any hip movement.
 
@@ -324,45 +336,12 @@ Positional sparring starting from S Mount at full competition resistance. Integr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?
-**A**: Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise.
-
-**Q2**: What is the most critical hip movement direction when executing the Frame and Shrimp from S Mount?
-**A**: Shrimp your hips away from the trapped arm side, directing movement toward the opponent's legs and torso. This direction creates maximum distance between your shoulder and their hip pressure while moving your body toward the side where you can insert a knee. Shrimping toward the trapped arm moves you deeper into the submission setup and must be avoided at all costs.
-
-**Q3**: During the escape, your opponent momentarily releases your wrist to readjust their grip - how do you capitalize on this window?
-**A**: Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control.
-
-**Q4**: What grip should your trapped hand maintain throughout the escape sequence and why?
-**A**: Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or tighter. This collar grip uses the gi fabric as a structural anchor, requiring the opponent to overcome both your grip strength and the material's resistance to extend the arm into armbar position. The bent-arm configuration is exponentially harder to attack than any straight-arm position.
-
-**Q5**: Your frame creates space but the opponent immediately follows your hip movement and closes the distance - what chain technique solves this problem?
-**A**: Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion.
-
-**Q6**: Where exactly should your free hand frame against the opponent, and why is this specific placement critical?
-**A**: Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely.
-
-**Q7**: What four conditions must exist before you should attempt the Frame and Shrimp escape?
-**A**: First, your trapped arm must be secured with collar grip and bent elbow providing armbar defense. Second, your free hand must be positioned to reach the opponent's hip for frame establishment. Third, your feet must be posted flat on the mat for shrimping power generation through leg drive. Fourth, you must identify a timing window where the opponent is adjusting position or initiating an attack. Attempting without all four conditions significantly reduces escape probability.
-
-**Q8**: If your knee insertion is blocked and you cannot establish half guard after multiple shrimps, what is your immediate backup plan?
-**A**: If repeated shrimps and knee insertion attempts fail, transition to a bridge-based escape while the opponent adjusts to counter your shrimping direction. The opponent's focus on preventing lateral escape often compromises their defense against vertical bridges. Alternatively, if significant lateral distance exists but knee insertion remains blocked, continue shrimping to rotate toward turtle position, removing the armbar threat entirely.
-
-**Q9**: How does the Frame and Shrimp exploit the specific structural weakness of S Mount compared to standard mount?
-**A**: S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame and Shrimp from S Mount?</p>
 
 The Frame and Shrimp from S Mount requires constant attention to arm protection throughout the escape. Never release the collar grip on your trapped arm to attempt escape movement, as an exposed extended arm in S Mount leads directly to armbar with potential for serious elbow hyperextension injury. If the opponent secures full arm extension with their hips locked tight against your shoulder, tap immediately rather than attempting to power out of the completed submission. During training, communicate with partners about resistance levels and tap early when practicing escape timing to avoid cumulative joint stress. Be particularly cautious with newer training partners who may apply sudden jerking pressure during armbar attempts.
 

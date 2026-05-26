@@ -162,6 +162,8 @@ As the defender against the Anaconda to Side Control transition, you are already
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda to Side Control?</p>
+
 - Attacker begins walking their hips laterally to one side while maintaining chest pressure, creating the rolling angle
 - Attacker's far leg lifts off the mat in preparation for the step-over motion across your back
 - Attacker's weight shifts forward and to one side as they lower their shoulder toward the mat to initiate the roll
@@ -173,6 +175,8 @@ As the defender against the Anaconda to Side Control transition, you are already
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda to Side Control?</p>
 
 - Maintain a strong far-hand post on the mat at all times to prevent the attacker from achieving the angle needed for the gator roll
 - Recognize the hip-walking setup early and address it before the attacker achieves optimal rolling angle and commits to the step-over
@@ -187,6 +191,8 @@ As the defender against the Anaconda to Side Control transition, you are already
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda to Side Control?</p>
 
 ### 1. Post far hand firmly on the mat and base out to block the roll
 
@@ -224,6 +230,8 @@ As the defender against the Anaconda to Side Control transition, you are already
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time the attacker's rolling commitment and use their forward momentum against them. As they step over and begin the rotation, drive your hips into them and post your free hand to scramble for top position during the chaotic landing phase. Fight for inside position with your knees during the scramble to establish half guard top control.
@@ -239,6 +247,8 @@ Prevent the roll entirely by maintaining a strong far-hand post and heavy hip ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda to Side Control?</p>
 
 ### 1. Failing to maintain a far-hand post on the mat, allowing the attacker uncontested rolling angle
 
@@ -268,6 +278,8 @@ Prevent the roll entirely by maintaining a strong far-hand post and heavy hip ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda to Side Control?</p>
+
 **Phase 1: Recognition and Base Drills** - Identifying the gator roll setup cues and maintaining defensive posting
 Partner establishes anaconda control and slowly begins walking hips to create rolling angle. Defender practices recognizing the hip-walking cue and immediately strengthening their far-hand post and base. Partner provides feedback on timing and effectiveness of defensive posting. 10 repetitions per side at slow speed.
 
@@ -284,29 +296,6 @@ Full positional sparring from anaconda control bottom. Defender works to prevent
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is setting up the gator roll?
-**A**: The earliest cue is the attacker walking their hips laterally to one side while maintaining chest pressure on your trapped shoulder. This hip adjustment is the first step of the gator roll setup because it creates the angle necessary for the forward roll trajectory. The moment you feel their hips shifting to one side, you should immediately strengthen your far-hand post and prepare to base out against the incoming roll. Addressing this setup early is far more effective than trying to counter the roll once the step-over has begun.
-
-**Q2**: What is the most effective single defensive action against the gator roll?
-**A**: Maintaining a strong far-hand post on the mat is the single most effective defensive action because it creates a structural brace that prevents the attacker from achieving the base-break necessary to complete the roll. The posted hand acts as a strut that props up your body and resists the rotational force. Without collapsing your post, the attacker cannot generate enough rolling momentum to carry you underneath them. Prioritize this post above all other defensive actions including grip fighting or hip escaping.
-
-**Q3**: The attacker has committed to the roll and it cannot be stopped — what is your best strategy?
-**A**: When the roll is fully committed and unstoppable, shift your strategy from prevention to counter-scrambling. Go with the rolling momentum rather than fighting it, and use the brief moment of positional chaos during the landing to fight for top position. Attack the attacker's grip during the rotation when centrifugal forces are naturally pulling it apart, and drive your hips and knees into them as you land to establish top half guard. The attacker is most vulnerable during the landing phase because they are focused on completing the roll rather than defending against a scramble.
-
-**Q4**: How should you time your defensive response relative to the attacker's step-over?
-**A**: Your defensive response should be timed before the step-over, not during or after it. Once the attacker lifts their far leg to step over your back, the roll is nearly committed and becomes exponentially harder to stop. The optimal defensive window is during the hip-walking phase when the attacker is adjusting their angle. Strengthen your post and base during this phase to make the step-over unsuccessful. If you miss this window and the step-over begins, immediately transition to the counter-scramble strategy rather than trying to stop the committed roll.
-
-**Q5**: After successfully preventing the gator roll, what should be your immediate next action?
-**A**: After blocking the roll, immediately shift focus to escaping the anaconda grip while the attacker is recovering from the failed attempt. Their failed roll often loosens the grip slightly and shifts their weight to a less optimal position. Use your free hand to attack their choking arm's wrist or elbow, pulling it away from your neck to create space. Simultaneously work your hips away from the attacker to reduce their chest pressure. The post-failed-roll moment is the best window for grip escape because the attacker must re-establish their setup, giving you several seconds of reduced pressure to work with.
-
-
-
-</section>
 
 
 </main>

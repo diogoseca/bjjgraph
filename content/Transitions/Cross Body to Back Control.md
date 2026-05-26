@@ -224,7 +224,7 @@ Cross Body to Back Control functions as the primary advancement pathway within t
 
 - [[Transitions/Crab Ride to Back]] - Alternative pathway - parallel transition through crab ride intermediate
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission - highest percentage finish from back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission - highest percentage finish from back control
 
 - [[Positions/Gift Wrap]] - Setup control - arm trap that facilitates the transition when opponent defends
 

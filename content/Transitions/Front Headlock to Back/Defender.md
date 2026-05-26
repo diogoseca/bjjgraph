@@ -166,6 +166,8 @@ Successful defense also requires accepting that the front headlock itself is a c
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Front Headlock to Back?</p>
+
 - Attacker begins small lateral shuffling steps while maintaining front headlock, indicating they are circling toward your back rather than setting up a choke
 - You feel the attacker's chest pressure shifting from directly above you to more toward one side of your back, accompanied by their hips starting to angle behind yours
 - Attacker's free hand moves from controlling your far arm to posting on your near hip or reaching for your inside thigh, signaling imminent hook insertion attempt
@@ -177,6 +179,8 @@ Successful defense also requires accepting that the front headlock itself is a c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Front Headlock to Back?</p>
 
 - Deny the angle by circling to face the attacker whenever they attempt to move toward your back
 - Control the attacker's far hip with your hand to prevent them from completing the circular path behind you
@@ -191,6 +195,8 @@ Successful defense also requires accepting that the front headlock itself is a c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Front Headlock to Back?</p>
 
 ### 1. Sit back to guard by dropping your hips toward the attacker's legs and pulling them into closed or half guard
 
@@ -228,6 +234,8 @@ Successful defense also requires accepting that the front headlock itself is a c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Front Headlock to Back?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Circle to face the attacker continuously, matching their lateral movement step-for-step to deny the back angle. Control their far hip with your hand to slow their progression. When their weight shifts during circling, execute an explosive stand-up, then immediately circle away from the headlock side. This forces the attacker to restart their transition from the original front headlock position, buying you time and opportunities.
@@ -243,6 +251,8 @@ Time a sit-back to guard as the attacker begins their circling motion but before
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Front Headlock to Back?</p>
 
 ### 1. Remaining static in turtle position while the attacker circles freely around you
 
@@ -277,6 +287,8 @@ Time a sit-back to guard as the attacker begins their circling motion but before
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Front Headlock to Back?</p>
+
 **Week 1-2: Recognition and Positioning** - Identifying back take attempts and maintaining proper defensive turtle posture
 Partner establishes front headlock and slowly circles at 25% speed. Practice recognizing the circling motion and maintaining tight elbow position and strong turtle base. Partner points out each checkpoint they reach (45 degrees, 90 degrees, hook attempt). No escape attempts yet - focus entirely on recognition and defensive positioning. 10 repetitions per side.
 
@@ -293,29 +305,6 @@ Partner establishes front headlock and attempts back take at full resistance. Yo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when you recognize the front headlock to back take is being attempted?
-**A**: Preventing the first hook from being inserted. Once the attacker establishes even one hook, your defensive task becomes dramatically more difficult because that hook acts as an anchor point that controls one side of your hips and prevents you from circling away. Before any hooks are in, you have multiple escape options (stand-up, sit-back, circling). After one hook, your options narrow significantly and the attacker's probability of completing the back take increases substantially. Every defensive action should focus on denying the angle the attacker needs for hook insertion.
-
-**Q2**: You feel the attacker's chest pressure shifting to your left side and their hips angling behind yours - what immediate defensive action do you take?
-**A**: Immediately pivot your body to the left to face the attacker, matching their circular movement. Your knees should turn in the direction of their movement while your hands post and rotate your upper body to keep your chest pointed toward them. Simultaneously, reach your left hand to control their right hip, pushing it away to slow their progression behind you. This denies the angle they need for hook insertion. If they continue pressing, time an explosive stand-up during the next moment their weight shifts, or transition to a sit-back to guard if their circling has temporarily lightened their downward pressure.
-
-**Q3**: Why is sitting back to guard more effective as a defense when done early versus late in the transition?
-**A**: Early in the transition, the attacker has no hooks established and their weight is still primarily distributed forward over your upper back. Your sit-back catches them off-balance, pulling them into your guard where their headlock becomes a disadvantage rather than an advantage. Late in the transition, the attacker has already established one or both hooks, meaning your sit-back actually assists them by pulling their hooked legs deeper into back control position. Additionally, the late sit-back gives them time to adjust their grip from headlock to seat belt during your movement. The window for an effective sit-back closes the moment the attacker's first foot begins hooking your inner thigh.
-
-**Q4**: How should you adjust your defensive strategy if the attacker is using a spiral ride grip rather than a standard front headlock?
-**A**: The spiral ride grip gives the attacker additional control over your far arm, making it harder to post and circle. Your defensive priority shifts to clearing the spiral ride arm first by pulling your trapped arm free or swimming it underneath their grip. Without the spiral ride cleared, stand-up attempts are likely to fail because the attacker can flatten you by driving on your far shoulder. Focus on arm extraction combined with a simultaneous hip switch toward the attacker. Once the spiral ride is cleared, resume standard defensive options. If you cannot clear it, an aggressive sit-back to guard becomes the highest-percentage option because it removes the leverage the spiral ride provides.
-
-**Q5**: What is the relationship between your elbow position and the attacker's ability to insert hooks?
-**A**: Your elbows serve as physical barriers that block the attacker's feet from entering the space between your arms and torso. When your elbows are pinched tight to your ribs, the attacker must move your entire arm to create space for hook insertion, which is difficult while also maintaining headlock control. When your elbows flare out (commonly during wide hand posting), a clear pathway opens between your elbow and your hip that the attacker's foot slides through easily. Keeping elbows tight is a passive defense that works continuously without requiring timing or reaction, making it one of the most efficient defensive mechanisms against the back take.
-
-
-
-</section>
 
 
 </main>

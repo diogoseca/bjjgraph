@@ -162,6 +162,8 @@ As the top player in side control, your opponent's shrimp escape is the single m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shrimp Escape?</p>
+
 - Opponent establishes forearm frame against your hip or shoulder, pushing outward to create initial separation—this is the first signal a shrimp attempt is imminent
 - Opponent performs a small bridge or hip bump, lifting their hips 2-4 inches off the mat to unweight for lateral movement
 - Opponent begins turning onto their near-side hip, rotating their shoulders from flat to perpendicular—this rotation precedes the explosive hip escape
@@ -174,6 +176,8 @@ As the top player in side control, your opponent's shrimp escape is the single m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shrimp Escape?</p>
 
 - Maintain heavy crossface pressure to prevent opponent from turning onto their hip, which is the prerequisite for any effective shrimp
 - Keep your hips low and connected to opponent's hips, eliminating the space they need to initiate hip escape movement
@@ -188,6 +192,8 @@ As the top player in side control, your opponent's shrimp escape is the single m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shrimp Escape?</p>
 
 ### 1. Drive heavy crossface pressure and walk hips to follow their shrimp direction, maintaining chest-to-chest connection throughout their movement
 
@@ -225,6 +231,8 @@ As the top player in side control, your opponent's shrimp escape is the single m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shrimp Escape?</p>
+
 ### → [[Positions/Side Control]]
 
 Follow opponent's hip movement by walking your knees in the direction they shrimp while maintaining heavy crossface. When they pause between shrimp repetitions, immediately re-settle your weight and close any space created. Control their near-side elbow to prevent frame re-establishment. The goal is to make each shrimp attempt progressively less effective as you tighten your control after each failed attempt.
@@ -240,6 +248,8 @@ Time your mount transition with opponent's bridge phase. As they lift their hips
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shrimp Escape?</p>
 
 ### 1. Maintaining static position without adjusting to opponent's hip movement, hoping pressure alone prevents the escape
 
@@ -274,6 +284,8 @@ Time your mount transition with opponent's bridge phase. As they lift their hips
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shrimp Escape?</p>
+
 **Phase 1: Static Pressure Maintenance** - Develop heavy, sustainable side control pressure that denies initial escape setup
 Partner attempts to establish frames and turn from bottom side control. Top player focuses exclusively on maintaining crossface, hip pressure, and weight distribution without allowing any space creation. No submissions attempted—pure position maintenance. 2-minute rounds with partner at 50-70% effort. Goal is zero successful frame establishments per round.
 
@@ -290,29 +302,6 @@ Full-speed positional sparring from side control. Top player's objective is to m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action to prevent an opponent's shrimp escape from side control?
-**A**: Maintaining heavy crossface pressure is the most critical defensive action because it prevents the opponent from turning onto their near-side hip, which is the essential prerequisite for any effective shrimp. Without the ability to rotate their hips, the shrimp becomes structurally impossible regardless of how strong their leg drive is. The crossface creates a wedge that pins their head and shoulders flat, denying the rotation needed to generate angular hip movement. All other defensive elements—hip pressure, following movement, blocking knee insertion—become secondary when the crossface is properly maintained.
-
-**Q2**: Your opponent has successfully shrimped and is attempting to insert their knee shield—what is your immediate defensive priority?
-**A**: Your immediate priority is to drive your near-side hip into the space between your bodies to block the knee insertion before it crosses your centerline. Simultaneously, drive your shoulder forward and downward to collapse any remaining space. If the knee is partially inserted, use your hand to control their shin and push it back down while re-establishing hip-to-hip pressure. Speed is critical here—once the knee shield is fully established, re-passing becomes a separate and more difficult task than simply maintaining side control through prevention.
-
-**Q3**: How should you adjust your weight distribution when you feel your opponent beginning to establish frames for a shrimp escape?
-**A**: Shift your weight distribution lower by driving your hips downward into their hips rather than keeping weight primarily on their upper body. This denies the hip space needed for the shrimp. Simultaneously, use your near-side arm to control their framing elbow—either by pinning it to their body or redirecting their frame angle away from the effective pushing direction. Your chest weight should increase on their shoulder and face through the crossface while your hips sink heavily onto their pelvis, creating two anchor points that resist both the turning and the lateral hip movement.
-
-**Q4**: When is the optimal time to transition to mount during your opponent's shrimp escape attempt?
-**A**: The optimal moment is during the bridge phase of their shrimp—when they lift their hips off the mat to unweight for lateral movement. At this instant, their hips are elevated and mobile, creating space for your knee to slide across their waist. The bridge is necessary for their escape but simultaneously creates vulnerability to mount transition. You must recognize the bridge initiation immediately and move perpendicular to their intended shrimp direction, sliding your knee over before they can turn and move laterally. Waiting too long means they complete the turn and the mount window closes.
-
-**Q5**: Your opponent chains three rapid shrimps and you're struggling to maintain connection—what systemic adjustment prevents this situation?
-**A**: The systemic adjustment is to address the root cause rather than chasing individual shrimps. First, improve your initial crossface to prevent the hip rotation that enables effective shrimping. Second, control their near-side elbow to deny frame re-establishment between shrimps. Third, rather than following multiple shrimps laterally, transition your pressure angle—switch to north-south or walk your body toward their head to change the dynamic entirely. The opponent is exploiting your pattern of lateral following; breaking that pattern with a positional transition forces them to abandon the shrimp chain and address your new angle.
-
-
-
-</section>
 
 
 </main>

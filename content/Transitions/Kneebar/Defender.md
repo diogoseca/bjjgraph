@@ -164,6 +164,8 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar?</p>
+
 - Attacker releases chest-to-back pressure and begins swinging their body perpendicular to your leg, shifting from positional control to submission attack posture
 - You feel a forearm or hand pinning your hip on one side while the attacker's weight shifts laterally, indicating they are establishing hip control before the kneebar entry
 - Attacker's legs begin wrapping around your upper thigh in a triangling motion, crossing ankles to establish the secondary control point that prevents leg extraction
@@ -175,6 +177,8 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar?</p>
 
 - Bend the knee immediately - a bent knee cannot be hyperextended, making knee flexion your most powerful and universal defensive response against kneebar attacks
 - Rotate your hip toward the attacker to align your leg with their extension force, neutralizing the lever mechanics that create hyperextension pressure on the joint
@@ -189,6 +193,8 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar?</p>
 
 ### 1. Immediate knee bend and hip rotation - sharply bend your knee and rotate your hip toward the attacker to prevent them from establishing the hyperextension angle
 
@@ -226,6 +232,8 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar?</p>
+
 ### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish chest pressure and restart your own offensive sequences.
@@ -241,6 +249,8 @@ When the attacker has deep control and knee bend alone is insufficient, roll you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar?</p>
 
 ### 1. Keeping the leg straight while trying to pull it free with arm strength alone
 
@@ -275,6 +285,8 @@ When the attacker has deep control and knee bend alone is insufficient, roll you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar?</p>
+
 **Week 1-2** - Recognition and automatic knee bend
 Partner slowly transitions from Backside 50-50 to kneebar entry at 30% speed. Practice recognizing the earliest cues (chest pressure release, lateral shift, hip pin) and responding with immediate knee bend. Repeat until the bend-response is automatic and does not require conscious thought. No resistance from attacker.
 
@@ -291,29 +303,6 @@ Full resistance positional sparring starting from Backside 50-50. Attacker attem
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you recognize a kneebar is being initiated?
-**A**: Immediately bend your knee. Knee flexion is the most powerful universal defense because a bent knee cannot be hyperextended regardless of how strong the attacker's position is. This should be an automatic, reflexive response to any kneebar recognition cue. Once the knee is bent past 90 degrees, the attacker must either abandon the kneebar or work to re-straighten your leg, buying you time for further defensive actions.
-
-**Q2**: How do you distinguish between safe positional control pressure and dangerous finishing pressure during a kneebar?
-**A**: Safe positional pressure feels like tightness and compression around your leg without genuine extension against the knee joint. Dangerous finishing pressure is characterized by a distinct stretching sensation at the knee as the attacker drives their hips forward while your ankle is anchored. If your knee remains bent, the pressure is positional. If you feel your knee being forcefully straightened with increasing extension, that is finishing pressure requiring immediate tap if you cannot re-bend.
-
-**Q3**: Your opponent has established a deep leg triangle and fulcrum position. What is your last-resort defensive option?
-**A**: Roll your body toward the attacker to align your leg with their extension force, eliminating the hyperextension angle. This is a last resort because it concedes position and may lead to a belly-down kneebar if the attacker follows. However, it immediately neutralizes finishing pressure and creates a scramble opportunity. Commit fully to the roll - half-hearted rolls leave you stuck in the worst possible finishing angle. After rolling, immediately work to face the attacker and recover guard.
-
-**Q4**: What recognition cues should trigger your defensive response before the kneebar is fully established?
-**A**: The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.
-
-**Q5**: Why does defending the kneebar by rotating your hip outward create a heel hook vulnerability?
-**A**: When you rotate your hip outward to defeat the kneebar extension angle, you tend to straighten your leg and expose your heel to the attacker's hands. The attacker can immediately switch from kneebar to inside heel hook, which attacks through rotational force rather than extension. This is the core dilemma of leg lock defense - kneebar defense exposes heel hook, and heel hook defense exposes kneebar. The solution is controlled hip rotation while actively hiding the heel by keeping your toes pulled toward your shin.
-
-
-
-</section>
 
 
 </main>

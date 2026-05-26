@@ -42,7 +42,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Overhook control is the foundation - without a strong overhook, New York collapses into basic closed guard
@@ -124,7 +124,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (10% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 

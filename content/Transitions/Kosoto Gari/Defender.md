@@ -162,6 +162,8 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kosoto Gari?</p>
+
 - Opponent establishes deep collar grip at neck level and begins push-pull kuzushi sequence, first driving you forward then redirecting pressure toward your rear corner
 - Opponent steps their lead foot forward and outside your foot to approximately 45-degree angle, positioning their base alongside your weighted leg
 - You feel your weight shifting predominantly to one heel as opponent's pulling action draws your upper body downward and toward your rear corner
@@ -174,6 +176,8 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kosoto Gari?</p>
 
 - Maintain dynamic weight distribution across both feet, never allowing weight to settle statically on the rear leg where it becomes vulnerable to the reap
 - Actively fight opponent's collar grip establishment since deep collar control is the primary driver of the pulling force that creates the off-balance
@@ -188,6 +192,8 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kosoto Gari?</p>
 
 ### 1. Step back with the attacked leg before the sweep makes contact, removing the target and forcing opponent to reset
 
@@ -225,6 +231,8 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kosoto Gari?</p>
+
 ### → [[Positions/Standing Position]]
 
 Defend the sweep by stepping back with the attacked leg, driving forward to stuff the pull, or breaking the collar grip early. Any of these responses return you to neutral standing where you can re-engage on your terms. The key is early recognition and immediate response before the coordinated pull-sweep reaches full commitment.
@@ -240,6 +248,8 @@ Time a counter-throw (Osoto Gari, Kouchi Gari, or counter Kosoto Gari) to oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kosoto Gari?</p>
 
 ### 1. Leaning backward to resist the pull instead of addressing the base problem
 
@@ -269,6 +279,8 @@ Time a counter-throw (Osoto Gari, Kouchi Gari, or counter Kosoto Gari) to oppone
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kosoto Gari?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying attack cues and weight distribution awareness
 Partner performs Kosoto Gari setup at slow speed without completing the throw. Defender practices identifying each phase: grip establishment, kuzushi pattern, angle step, and sweep initiation. Call out each phase as it occurs. Develop sensitivity to when your weight shifts to the rear heel. 15-20 repetitions per session with partner providing verbal feedback on recognition accuracy.
 
@@ -285,29 +297,6 @@ Partner attacks with Kosoto Gari and common follow-ups (Kouchi Gari, Deashi Hara
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that Kosoto Gari is being set up?
-**A**: The earliest cue is the push-pull kuzushi pattern where opponent first pushes you forward to generate a backward weight shift reaction, followed by their step to the 45-degree angle outside your foot. The collar grip establishment and initial forward push are the first indicators, occurring before the actual sweep attempt. Recognizing this two-stage setup gives you the maximum defensive window to respond before the coordinated pull-sweep executes.
-
-**Q2**: Why is stepping back with the attacked leg both effective and risky as a defense?
-**A**: Stepping back is effective because it removes the target (your weighted heel) before the sweep makes contact, completely neutralizing the throw. However, the retreating step naturally transfers your weight to the opposite leg, which a skilled attacker anticipates and immediately chains into Kouchi Gari or Ouchi Gari targeting your newly weighted leg. The defense works against isolated attacks but is exploitable against combination-trained opponents who read the retreat as the trigger for their next technique.
-
-**Q3**: Your opponent has established a deep collar grip and you feel the initial forward push - what is your optimal defensive sequence?
-**A**: Your optimal sequence is to first resist the forward push with core engagement rather than leaning back, keeping your weight centered on the balls of both feet. Immediately initiate a two-on-one grip break on the collar grip using your same-side hand to peel their fingers while your opposite hand controls their wrist. Simultaneously circle your feet away from the direction of the pull to deny the 45-degree angle. If the grip break succeeds, re-engage from neutral. If it fails, prepare to either step back and defend the chain or drive forward aggressively to stuff the attack before the sweep coordinates.
-
-**Q4**: When is the optimal moment to attempt a counter-throw against Kosoto Gari?
-**A**: The optimal counter-throw window is the instant the attacker commits their sweeping leg to the reap motion and their weight transfers fully onto their base foot. At this moment they are standing on one leg with forward momentum, making their base foot vulnerable to Osoto Gari or counter Kosoto Gari. The window is narrow - approximately 0.3 to 0.5 seconds between full commitment and the throw completing. Too early and they can abort; too late and you are already falling. Training the timing requires extensive partner drilling with progressively increasing speed.
-
-**Q5**: How should your defensive strategy change when facing an opponent who chains Kosoto Gari with Kouchi Gari?
-**A**: Against a combination fighter, the simple step-back defense becomes dangerous because they anticipate the weight transfer to your opposite leg. Instead, prioritize grip fighting to deny the collar control needed to initiate either technique. If grips are established, use forward driving pressure rather than backward stepping, as this disrupts both the Kosoto Gari setup and eliminates the retreating step that triggers Kouchi Gari. Alternatively, maintain constant circular movement that prevents your weight from settling on either leg long enough to be targeted. The defensive priority shifts from reacting to the sweep to proactively denying the conditions both techniques require.
-
-
-
-</section>
 
 
 </main>

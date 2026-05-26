@@ -186,6 +186,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Explosive Forward Roll?</p>
+
 - Full commitment is essential - half-measures result in being taken down with back still exposed or ending in worse positions
 - Timing the roll when opponent pulls backward maximizes momentum and uses their energy against them
 - Chin protection must be maintained throughout the roll to prevent rear naked choke finishing during transition
@@ -200,6 +202,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Explosive Forward Roll?</p>
+
 - Standing back control position with opponent behind you having harness or seat belt grip established
 - At least one hand controlling opponent's wrist or arm to prevent them from posting during the roll
 - Sufficient space in front of you to complete the forward roll without obstacles
@@ -212,6 +216,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Explosive Forward Roll step by step?</p>
 
 1. **Secure wrist control**: Grip the opponent's choking arm wrist with your same-side hand and their underhook arm with your opposite hand, creating two-on-one control that prevents them from posting during the roll
 2. **Break posture forward**: Bend forward explosively at the waist while tucking your chin tightly to your chest, pulling the opponent's controlled arm across your body and loading their weight onto your back
@@ -241,6 +247,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Explosive Forward Roll?</p>
+
 - **Opponent sits back and sprawls their hips away, preventing the roll from completing and maintaining back control** (Effectiveness: High) - Your Response: If you feel the sprawl beginning, abort the roll and immediately transition to a technical standup or turtle position instead → Leads to [[Positions/Back Control]]
 - **Opponent releases harness to post their hand, stopping the roll but losing upper body control** (Effectiveness: Medium) - Your Response: This is actually favorable - use the released grip to immediately turn and face opponent, recovering to clinch or guard → Leads to [[Positions/Open Guard]]
 - **Opponent follows the roll and lands in mount or side control** (Effectiveness: High) - Your Response: Maintain wrist control throughout to prevent posting, and ensure you drive your hips away immediately upon landing to create guard before they consolidate → Leads to [[Positions/Mount]]
@@ -252,6 +260,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Explosive Forward Roll?</p>
 
 ### 1. Rolling straight forward instead of diagonally
 
@@ -286,6 +296,8 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Explosive Forward Roll (Attacker)?</p>
+
 **Week 1-2** - Solo rolling mechanics
 Practice forward rolls from standing position, focusing on diagonal direction, chin tuck, and smooth shoulder-to-hip flow. Build comfort with inversion and rolling mechanics without partner.
 
@@ -303,54 +315,12 @@ Start in standing back control bottom position with full resistance. Attempt esc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Explosive Forward Roll escape?
-**A**: The primary goal is to break the opponent's back control grip structure through explosive forward momentum and inversion, ultimately recovering to a guard position where you face your opponent. This converts a highly vulnerable defensive position into an offensive guard situation.
-
-**Q2**: Why must you roll diagonally rather than straight forward?
-**A**: Rolling diagonally toward your non-choking arm side creates separation that makes it difficult for the opponent to follow and maintain back position. A straight forward roll allows them to simply follow your momentum and land in mount or re-establish back control. The diagonal angle is essential for successful separation.
-
-**Q3**: What grip control is critical to maintain throughout the roll and why?
-**A**: Maintaining at least one wrist grip, preferably on the opponent's choking arm, is critical because it prevents them from posting their hand on the mat to stop your roll or to recover position during the scramble. This wrist control is your insurance against the most common counters to this technique.
-
-**Q4**: When is the optimal timing window to initiate the explosive forward roll?
-**A**: The optimal timing is when the opponent begins pulling you backward, attempting to drag you down or off-balance. At this moment, you redirect their pulling energy forward and down instead of fighting against it. This uses their momentum to power your escape rather than working against superior positioning.
-
-**Q5**: What should you do if you feel the opponent sprawl as you initiate the roll?
-**A**: If you feel the opponent sprawling and sitting their hips back as you begin the roll, abort the technique immediately and transition to an alternative escape - either a technical standup if their grips have loosened, or drop to turtle position to establish a more stable defensive platform. Continuing a roll against a sprawl results in worse positioning.
-
-**Q6**: Why is this escape contraindicated when the opponent has a body triangle secured?
-**A**: The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable.
-
-**Q7**: What is the consequence of lifting your chin during the roll execution?
-**A**: Lifting your chin during the roll creates an opening for the opponent to finish a rear naked choke mid-transition. The roll itself exposes your neck momentarily, and if your chin rises, the opponent can lock the choke and finish you during or immediately after the roll. Chin stays glued to chest throughout.
-
-**Q8**: How quickly must you establish guard after completing the roll?
-**A**: Guard recovery must happen within approximately one second of completing the roll. Any delay allows the opponent to scramble to mount or side control before you can establish defensive structure. The roll and guard recovery should feel like one continuous motion, not two separate techniques.
-
-**Q9**: Your opponent starts pulling you backward aggressively while tightening the seatbelt - do you fight the pull or initiate the roll?
-**A**: Initiate the roll immediately. The backward pull provides the ideal timing window because you can redirect their pulling momentum forward and downward. Fighting the pull directly is a losing battle against a consolidated back control position. Use their energy to power the escape by bending forward explosively the moment you feel the backward acceleration.
-
-**Q10**: You secure wrist control but your opponent posts their free hand wide - how does this change your execution?
-**A**: Roll toward the side opposite their posted hand. The posted hand creates a strong base on one side but leaves the other side vulnerable. By rolling away from the post, you negate their ability to use it as a brake. Additionally, their posted hand means one arm is not controlling you, reducing their harness integrity and making the roll more likely to succeed.
-
-**Q11**: What are the chain attacks available if the roll lands you in half guard rather than open guard?
-**A**: From half guard top after the roll, immediately establish an underhook on the trapped leg side and work to take the back or execute a sweep reversal. Because the opponent just lost back control, they are momentarily disoriented - use this window to fight for the underhook before they establish crossface. You can also transition to deep half guard entry or threaten a kimura on their far arm if they reach for grips.
-
-**Q12**: What specific hip movement generates the force needed to complete the roll against a heavier opponent?
-**A**: The critical hip movement is a forward and downward drive where you shoot your hips toward the mat while bending at the waist. This is not a shoulder-led movement but a hip-initiated power transfer. Think of it as a wrestling level change combined with a forward dive. The hips must lead the motion, creating a pendulum effect that uses your lower body mass to generate rotational force sufficient to carry both you and the opponent through the roll.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Explosive Forward Roll?</p>
 
 This technique involves significant spinal loading during the forward roll and carries inherent risk of neck injury if executed improperly. Never practice on hard surfaces - always use proper mats. Beginners should build comfort with basic forward rolls before attempting this technique with a partner. The chin must remain tucked throughout to protect the cervical spine and prevent choke finishing during transition. Do not attempt this escape if you have any existing neck, shoulder, or spine injuries. Partners should initially allow the technique to flow rather than aggressively countering, as resisting mid-roll can cause both practitioners to land awkwardly. In competition, assess the surface and ensure adequate mat space before committing to rolling escapes.
 

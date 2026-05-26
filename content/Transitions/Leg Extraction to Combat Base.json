@@ -64,7 +64,7 @@
       "relationship": "Counter position - where opponent may transition if extraction is telegraphed"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Threat to avoid - opponent's primary attack if extraction performed incorrectly"
     },
     {
@@ -230,7 +230,7 @@
         "description": "Positional sparring starting trapped in lockdown. Partner attacks with full sweep and submission attempts while you work extraction. Track success rate and identify patterns in failed attempts. Integrate extraction into regular rolling sessions against lockdown players."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Leg Extraction to Combat Base?",
         "answer": "The primary goal is to free your trapped leg from the opponent's lockdown figure-four configuration and immediately establish combat base for passing. Until the leg is extracted, you cannot initiate effective passing sequences and remain vulnerable to lockdown-based sweeps and submissions like the Electric Chair and Old School. Combat base provides the stable platform needed to begin guard passing."
@@ -365,7 +365,7 @@
         "correction": "If you need to adjust grips or rest, ensure one element of control is always maintained—either keep lockdown tight while adjusting upper body, or secure strong underhook before briefly loosening lockdown"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to attempt leg extraction?",
         "answer": "The earliest cues are opponent establishing heavy crossface with shoulder driving into your jaw, their free leg posting wide to the side for base, and their hips beginning to drive forward and down rather than remaining neutral. You may also feel their trapped knee begin to rotate outward or press toward the mat. Recognizing these pre-extraction setups gives you time to counter before the extraction proper begins."

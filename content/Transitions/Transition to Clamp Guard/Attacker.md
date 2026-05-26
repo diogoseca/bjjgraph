@@ -188,6 +188,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Transition to Clamp Guard?</p>
+
 - Time the clamp to the opponent's arm extension — never chase a retracted arm into their body
 - Target the bicep specifically, not the forearm or wrist, for maximum retention and submission access
 - Angle your hips 30-45 degrees toward the target arm side simultaneously with the shin placement
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Transition to Clamp Guard?</p>
+
 - Open guard position with active leg engagement against the opponent's upper body
 - At least one of the opponent's arms extended or reaching inside your guard framework
 - Sufficient space between you and the opponent to thread the shin across the bicep without being smashed flat
@@ -214,6 +218,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Transition to Clamp Guard step by step?</p>
 
 1. **Identify the target arm**: From open guard, read the opponent's posture and hand positioning. Identify which arm is most extended or most likely to reach inside your guard. If neither arm is extended, create the extension through a collar drag feint, hip bump threat, or grip break that forces them to post or reach.
 2. **Control the target wrist**: Grip the opponent's wrist or sleeve on the target arm with your same-side hand. This grip serves two purposes: it prevents them from retracting the arm during your entry, and it guides the arm into the optimal path for shin-on-bicep placement. In no-gi, use a C-clamp grip wrapping your fingers over the top of their wrist.
@@ -243,6 +249,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Transition to Clamp Guard?</p>
+
 - **Opponent retracts arm quickly before clamp closes** (Effectiveness: High) - Your Response: If you miss the timing, do not chase the arm. Return to open guard grips and recreate the extension opportunity through another feint or grip break cycle. Chasing a retracted arm exposes you to passes. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward aggressively to smash through the clamp attempt** (Effectiveness: Medium) - Your Response: Use the forward drive momentum against them. Frame on their shoulder with your free hand and redirect laterally. If the shin is already on the bicep, the forward drive actually helps seat the clamp deeper. Alternatively, abandon the clamp and transition to a butterfly hook sweep using their forward momentum. → Leads to [[Positions/Half Guard]]
 - **Opponent circles their arm outward to avoid the shin threading across the bicep** (Effectiveness: Medium) - Your Response: Follow the circular motion with your hip angle, keeping your shin tracking the bicep. If their arm circles completely past your shin, redirect to a triangle entry by shooting your leg over their shoulder instead of across their arm. The circular escape is the trigger for triangle transitions. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Transition to Clamp Guard?</p>
 
 ### 1. Attempting the clamp when the opponent's arm is retracted close to their body
 
@@ -293,6 +303,8 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Transition to Clamp Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Shin placement and hip angle
 Partner extends arm statically from combat base. Practice threading the shin across the bicep with proper hip escape angle. Focus on bone-on-bone contact and closing the second leg quickly. 20 repetitions per side with zero resistance.
 
@@ -313,42 +325,12 @@ After establishing the clamp in live sparring, immediately flow into the first s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the clamp entry from open guard?
-**A**: The optimal window is the moment the opponent's arm extends inside your guard framework — when they reach for a collar tie, grip your pants, attempt an underhook, or post their hand. This extension creates the space between their arm and torso needed to thread your shin across the bicep. The window lasts approximately 0.5 to 1 second before they retract or commit to a pass. If you miss the window, do not chase — recreate it through feints.
-
-**Q2**: Why must the shin seat across the bicep rather than the forearm?
-**A**: The bicep is the thickest part of the upper arm, making it physically difficult to slide through a tight leg clamp. Shin-on-bicep also controls the elbow joint angle, preventing the opponent from bending their arm to create extraction leverage. The forearm tapers toward the wrist, allowing the arm to slip free with minimal effort. A bicep-level clamp retains approximately 60% more holding power than a forearm-level clamp and enables all three major submission pathways — armbar, triangle, and omoplata.
-
-**Q3**: What hip angle should you establish during the clamp entry and why?
-**A**: Angle your hips approximately 30-45 degrees toward the target arm side by hip escaping away from the opponent. This angle creates a structural wedge where the shin presses across the bicep at a perpendicular angle rather than parallel, generating self-tightening mechanics as the opponent pulls. Flat hips produce a clamp that relies on muscular squeeze and fails under direct pulling force. The angled position also pre-loads your body for armbar and triangle entries.
-
-**Q4**: Your opponent keeps their elbows tight and refuses to extend their arms — how do you create the reaching reaction needed for the clamp entry?
-**A**: Use indirect setups that force arm extension. A collar drag feint pulls their upper body forward, prompting a hand post. A hip bump threat forces them to base with their hands. Breaking their existing grips on your legs forces them to re-establish grips, creating extension windows. A sweep threat from butterfly hooks makes them post laterally. Each of these creates a 0.5-1 second window where the arm extends and can be intercepted by the shin threading across the bicep.
-
-**Q5**: What is the most critical grip to maintain during the transition and why?
-**A**: Wrist control on the target arm is the most critical grip. It serves three purposes: it prevents the opponent from retracting their arm during entry, it guides the arm into the optimal path for shin placement on the bicep, and it controls the arm position while the second leg closes the clamp. Without wrist control, the opponent retracts before the shin seats, reducing success rate by roughly half. The wrist grip is only released after the bilateral clamp is fully established.
-
-**Q6**: The opponent drives forward aggressively as you begin threading your shin — how do you adjust?
-**A**: The forward drive is actually advantageous if your shin is already contacting the bicep, because their forward momentum helps seat the clamp deeper. Frame on their shoulder with your free hand and redirect their drive laterally rather than absorbing it straight back. If the shin is not yet placed, use the forward momentum for a butterfly hook sweep instead — their committed weight forward makes them vulnerable to elevation. Never try to force the clamp against aggressive forward pressure if you have not yet made shin contact.
-
-**Q7**: What direction of force should your clamping legs generate against the trapped arm?
-**A**: The force should be bilateral compression — both legs squeezing inward toward each other with the bicep sandwiched between them. The primary shin presses across the bicep from the front while the secondary leg presses from behind or below, creating a vise effect. Simultaneously, the hip angle creates a downward wedging force that tightens the clamp as the opponent pulls upward to extract. The combined effect is three-directional pressure that requires the opponent to overcome all vectors simultaneously.
-
-**Q8**: If your clamp attempt fails and the opponent begins advancing past your legs, what is your immediate recovery protocol?
-**A**: Immediately retract both legs to re-establish guard frames rather than continuing to pursue the clamp. Place feet on their hips or shins across their thighs to recreate distance. If they have already passed your knee line, hip escape and insert a knee shield to recover to half guard. Never leave your legs extended in a failed clamp position because both legs are committed to the trap attempt rather than defending against the pass, creating a critical vulnerability window.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Transition to Clamp Guard?</p>
 
 The Transition to Clamp Guard is generally low-risk for both practitioners. The primary safety concern is avoiding excessive shin pressure on the opponent's bicep, which can cause nerve compression or bruising during prolonged drilling. Release the clamp immediately if your partner reports numbness or sharp pain in the trapped arm. During training, establish the clamp with controlled pressure rather than explosive force to avoid hyperextension of the opponent's elbow if their arm is caught at an awkward angle during the entry.
 

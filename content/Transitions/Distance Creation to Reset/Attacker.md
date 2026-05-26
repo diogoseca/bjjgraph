@@ -186,6 +186,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Distance Creation to Reset?</p>
+
 - Recognize when lapel configuration complexity exceeds efficient clearing solutions
 - Neutralize immediate sweep threats before initiating backward movement
 - Maintain posture throughout disengagement to prevent follow-up attacks
@@ -200,6 +202,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Distance Creation to Reset?</p>
+
 - Opponent has established lapel configuration (worm, squid, or ringworm variant)
 - Direct passing solutions have been attempted and blocked or deemed too energy-intensive
 - You maintain stable base and posture despite lapel entanglement
@@ -212,6 +216,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Distance Creation to Reset step by step?</p>
 
 1. **Assess Configuration**: Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap), or ringworm (multiple wraps). This determines the specific clearing sequence required before distance can be safely created.
 2. **Control Gripping Hand**: Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This prevents them from tightening the configuration or adjusting the wrap as you begin clearing. Use same-side or cross grip depending on their grip location.
@@ -240,6 +246,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Distance Creation to Reset?</p>
+
 - **Opponent sits up aggressively pursuing back take as you disengage** (Effectiveness: High) - Your Response: Anticipate the sit-up and use their forward momentum to sprawl or circle away. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. → Leads to [[Positions/Lapel Guard]]
 - **Opponent immediately re-extracts lapel as you create distance** (Effectiveness: Medium) - Your Response: Close distance immediately with forward pressure before new configuration is established. The moment of lapel extraction is vulnerable—attack the grip before the wrap is complete. → Leads to [[Positions/Lapel Guard]]
 - **Opponent hooks your ankle with foot as you step back** (Effectiveness: Medium) - Your Response: Clear the foot hook before completing backstep by circling your leg or pushing their foot down. Never step back into an active foot hook. → Leads to [[Positions/Lapel Guard]]
@@ -251,6 +259,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Distance Creation to Reset?</p>
 
 ### 1. Attempting to create distance before neutralizing opponent's gripping hand
 
@@ -285,6 +295,8 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Distance Creation to Reset (Attacker)?</p>
+
 **Week 1-2** - Configuration Recognition
 Partner establishes various lapel configurations (worm, squid, ringworm) in sequence. Practice identifying each type without attempting to clear. Focus on understanding which wrap is around which body part and where opponent's controlling grip is located.
 
@@ -302,48 +314,12 @@ Situational sparring starting in lapel guard. Choose whether to clear directly, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Distance Creation to Reset?
-**A**: The primary goal is to disengage from complex lapel guard configurations when direct passing solutions require excessive energy expenditure. This creates a neutral restart where you preserve grip endurance and can re-engage with fresh passing attempts rather than fighting through increasingly entangled positions.
-
-**Q2**: What position do you start Distance Creation to Reset from?
-**A**: This technique starts from Lapel Guard Top when an opponent has established a lapel configuration (worm, squid, or ringworm) that is restricting your passing options and direct clearing has proven difficult or energy-intensive.
-
-**Q3**: What grip must you establish before initiating backward movement?
-**A**: You must control opponent's gripping hand—the hand maintaining their primary lapel grip—using wrist control or sleeve grip. This prevents them from tightening the configuration as you move backward and stops them from loading sweep mechanics during your disengagement.
-
-**Q4**: Your opponent has worm guard with strong lapel grip around your lead knee—what is the clearing sequence before you can safely backstep?
-**A**: First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep.
-
-**Q5**: How do you counter an opponent who sits up aggressively pursuing your back as you create distance?
-**A**: Anticipate the sit-up and use their forward momentum against them by sprawling or circling away from their rotation. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. If they commit fully to the sit-up, their forward momentum actually aids your disengagement.
-
-**Q6**: What is the most common error when executing distance creation, and why is it dangerous?
-**A**: The most common error is attempting to create distance before neutralizing opponent's gripping hand. This is dangerous because the opponent can tighten the lapel configuration as you move backward, making the wrap more restrictive and potentially loading sweep mechanics that use your backward momentum against you.
-
-**Q7**: Why should you use hip extension and posture rather than arm pulling to create initial tension?
-**A**: Hip extension and postural structure use larger muscle groups and skeletal alignment, providing sustainable power that doesn't fatigue quickly. Arm pulling uses smaller muscles that exhaust rapidly and typically cannot overcome opponent's grip strength. Structural tension preserves your energy for the explosive backstep and subsequent passing.
-
-**Q8**: When is distance creation the wrong tactical choice against lapel guard?
-**A**: Distance creation is wrong when opponent's configuration is simple or loosely established—direct passing or backstep techniques would be more efficient. It's also wrong when you're winning the positional exchange and should capitalize rather than reset. Over-relying on distance creation prevents developing proper lapel clearing skills.
-
-**Q9**: What must you do immediately after completing the backstep to make the reset effective?
-**A**: Immediately establish dominant passing grips (pants and collar control) before opponent can sit up and re-extract their lapel. The reset is not complete until you have grip advantage. Pausing after creating distance allows opponent to establish fresh configuration, negating the entire reset.
-
-**Q10**: How does the lateral reset variant differ from the standard backstep, and when should you use it?
-**A**: The lateral reset circles around the lapel configuration rather than stepping directly backward. This clears the wrap through angle change rather than direct extraction. Use it when opponent has active foot hooks preventing direct backward movement—the lateral angle defeats their hook placement while still achieving disengagement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Distance Creation to Reset?</p>
 
 Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage.
 

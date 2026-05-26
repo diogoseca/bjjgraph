@@ -166,6 +166,8 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Half?</p>
+
 - Opponent drives their shoulder across your face establishing crossface pressure while their weight shifts forward onto your upper body
 - Opponent threads their far arm under your armpit to secure an underhook, pulling your torso toward them and attempting to flatten your shoulders to the mat
 - Opponent repositions their inside knee onto your inner thigh or hip crease at approximately 45 degrees, angling their shin toward your far hip in preparation for the slice
@@ -178,6 +180,8 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Half?</p>
 
 - Deny the crossface at all costs - without it, the passer cannot flatten you or control your head orientation, which is the foundation of their entire pass
 - Win the underhook battle on the trapped-leg side, as your underhook provides the primary offensive pathway to sweeps and back takes while neutralizing their passing pressure
@@ -193,6 +197,8 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Half?</p>
 
 ### 1. Establish and maintain knee shield with forearm frame on opponent's bicep and hip, creating a structural barrier that prevents the passer from closing distance and establishing chest pressure
 
@@ -230,6 +236,8 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Deny the crossface early by framing on their bicep, win the underhook battle, and use your knee shield to push them back to neutral position. The strongest defensive sequence is to block the crossface with your forearm, swim for the underhook before they can secure theirs, and maintain constant knee shield pressure that prevents them from establishing the chest connection needed to flatten you.
@@ -245,6 +253,8 @@ When the passer has established crossface and begun committing forward pressure 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Half?</p>
 
 ### 1. Allowing the crossface to be established without resistance, accepting flat-on-back position passively
 
@@ -279,6 +289,8 @@ When the passer has established crossface and begun committing forward pressure 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Half?</p>
+
 **Phase 1: Recognition and Frame Building (Week 1-2)** - Identifying pass initiation and establishing defensive frames
 Partner slowly initiates knee slice from half guard top. Practice recognizing the crossface attempt and immediately framing on their bicep to deny it. Drill the elbow-to-knee connection and knee shield insertion against zero resistance. Focus purely on defensive positioning and timing of frame insertion, not on escaping or sweeping.
 
@@ -298,29 +310,6 @@ Positional rounds starting in half guard bottom against partners who actively hu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should address when you recognize the knee slice pass is being attempted?
-**A**: The first priority is denying the crossface. Frame on the opponent's bicep or shoulder with your forearm to prevent their shoulder from crossing your face. Without the crossface, the passer cannot flatten you or control your head orientation, which severely limits the effectiveness of the entire pass. This should happen before you worry about the knee position or underhook battle.
-
-**Q2**: Your opponent has established the crossface and their knee is starting to slide across your thigh - what is your best remaining defensive option?
-**A**: At this late stage, your highest-percentage option is diving into deep half guard. Use their committed forward pressure to slide your head underneath their hip line while wrapping your arm around their far thigh. Their forward momentum actually assists your entry into deep half. From there, their knee slice is completely neutralized and you gain access to powerful sweeps like the waiter sweep and old school sweep that can reverse the position entirely.
-
-**Q3**: Why is maintaining a side angle more important than trying to push the opponent away?
-**A**: Staying on your side preserves hip mobility needed for shrimping, sweeping, and transitioning between half guard variations. Pushing creates temporary space but does not address the fundamental positional problem. When you push, your arms extend away from your body, creating submission opportunities for the passer (kimura, americana) while your flat position gives them maximum pressure advantage. Your side angle keeps your elbows tight, frames strong, and maintains access to the underhook and knee shield that are your primary defensive weapons.
-
-**Q4**: How should you use the knee shield to defend against the knee slice specifically?
-**A**: Position your shin diagonally across the opponent's torso, with your knee near their shoulder and your foot near their opposite hip. Your shin acts as a structural beam that prevents chest-to-chest contact. Combine it with a forearm frame on their bicep (same side as your knee shield) to create an interconnected defensive structure. The shield must be established before they get the crossface - once they flatten you, the knee shield loses much of its effectiveness because you cannot maintain the angle needed to keep it engaged.
-
-**Q5**: What offensive opportunities does a failed knee slice attempt create for the defender?
-**A**: When the passer commits to the knee slice and fails, they have typically shifted their weight forward and committed their arms to crossface and underhook positions, leaving them vulnerable to several attacks. If you have the underhook, you can execute an underhook sweep or old school sweep as they reset. If they committed deeply, a back take is available by coming up on their underhook side. The deep half entry also creates immediate sweep threats. The key insight is that every passing commitment creates a corresponding vulnerability - the defender who recognizes these windows transforms defense into offense.
-
-
-
-</section>
 
 
 </main>

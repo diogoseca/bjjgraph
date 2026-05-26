@@ -186,6 +186,8 @@ Strategically, this transition represents a positional improvement rather than a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Return to Outside Ashi?</p>
+
 - Reverse opponent's hip rotation by driving their knee line back toward you rather than following their inversion
 - Maintain continuous leg entanglement throughout the transition to prevent escape during positional change
 - Control the opponent's free leg to prevent them from using it to resist the hip reversal or counter-entangle
@@ -199,6 +201,8 @@ Strategically, this transition represents a positional improvement rather than a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Return to Outside Ashi?</p>
+
 - Established ushiro ashi-garami control with figure-four leg configuration around opponent's trapped leg
 - Opponent's inversion has stalled or their escape momentum has decreased from initial rotation
 - Your inside leg maintains control on opponent's thigh preventing complete leg extraction
@@ -210,6 +214,8 @@ Strategically, this transition represents a positional improvement rather than a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Return to Outside Ashi step by step?</p>
 
 1. **Assess control depth**: Evaluate your current ushiro position to confirm inside leg control is sufficient for transition. Your inside leg should be controlling opponent's thigh with heel hooked behind their knee or calf. If control is shallow, consolidate before attempting transition.
 2. **Control free leg**: Use your outside leg to pin opponent's free leg against their body or the mat, preventing them from posting or pushing during the transition. This removes their primary tool for resisting the hip reversal movement.
@@ -238,6 +244,8 @@ Strategically, this transition represents a positional improvement rather than a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Return to Outside Ashi?</p>
+
 - **Opponent accelerates rotation to turtle before you can reverse their hips** (Effectiveness: High) - Your Response: Follow to back control instead of fighting the rotation. If they commit fully to turtle, the back take becomes higher percentage than forcing outside ashi re-establishment. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent uses free leg to post and resist hip reversal** (Effectiveness: Medium) - Your Response: Attack the posting leg with your outside leg by hooking behind their knee. Convert their post into a trapped second leg and consider transitioning to saddle instead of outside ashi. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent counter-rotates into 50-50 guard during the transition** (Effectiveness: Medium) - Your Response: Accept 50-50 as a neutral position and work standard 50-50 escapes or attacks. The 50-50 is preferable to losing control entirely during a failed transition attempt. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -248,6 +256,8 @@ Strategically, this transition represents a positional improvement rather than a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Return to Outside Ashi?</p>
 
 ### 1. Releasing inside leg control before establishing outside leg position
 
@@ -282,6 +292,8 @@ Strategically, this transition represents a positional improvement rather than a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Return to Outside Ashi (Attacker)?</p>
+
 **Week 1-2** - Positional recognition
 Learn to identify when ushiro ashi-garami is degrading and outside ashi would be preferable. Practice the leg configuration changes with a cooperative partner, understanding how the figure-four shifts during transition. No resistance, focus on smooth movement patterns.
 
@@ -299,48 +311,12 @@ Apply in positional sparring and full rolling. Focus on reading opponents' escap
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Return to Outside Ashi?
-**A**: The primary goal is to re-establish the mechanically superior outside ashi-garami position after an opponent has inverted from standard leg entanglement, creating ushiro. This restores optimal heel hook finishing mechanics and denies the opponent's escape progress rather than continuing to attack from the compromised reversed angle.
-
-**Q2**: Why is outside ashi-garami preferable to ushiro for finishing heel hooks?
-**A**: Outside ashi-garami provides superior hip control with your hips facing the opponent's trapped leg directly, clearer heel exposure without the reversed angle complications, and better mechanical leverage for finishing. The standard configuration also offers more reliable transitions to saddle or honey hole if the heel hook is defended.
-
-**Q3**: What indicates the optimal timing window for attempting this transition?
-**A**: Initiate when opponent's inversion momentum has stalled and they're working to consolidate turtle or extract their leg slowly. Avoid attempting during active rotation as you'll fight against their momentum. The ideal window is when they pause between escape attempts or when their free leg stops actively pushing.
-
-**Q4**: Your opponent posts their free leg strongly as you begin the transition - how do you respond?
-**A**: Hook behind their posting knee with your outside leg, converting their defensive post into a second trapped leg. This opens transition to saddle position instead of outside ashi. Alternatively, abandon the transition and follow their continued rotation to back control if their post is preventing any leg manipulation.
-
-**Q5**: Which leg must maintain control throughout the entire transition and why?
-**A**: Your inside leg must maintain control on opponent's thigh throughout the transition. This leg prevents complete leg extraction during the vulnerable moment when your outside leg repositions. Releasing inside leg control before outside leg re-establishes creates a gap that allows escape.
-
-**Q6**: What should you assess before initiating Return to Outside Ashi?
-**A**: Assess your inside leg control depth (should be controlling their thigh with heel hooked behind knee or calf), opponent's rotation momentum (should be stalled, not active), opponent's free leg position (should not be actively posting or pushing), and whether your upper body grips can maintain heel/ankle control during leg repositioning.
-
-**Q7**: When should you abandon the transition attempt and follow to back control instead?
-**A**: Abandon when opponent commits fully to turtle rotation with strong momentum, when your inside leg control has degraded below the threshold needed for transition, when their free leg posting effectively prevents any hip reversal, or when they've successfully created enough space that maintaining any leg entanglement becomes unlikely.
-
-**Q8**: What is the critical action immediately after re-establishing outside ashi position?
-**A**: Adjust your hip angle for optimal finishing mechanics before committing to submission. Take 2-3 seconds to confirm your hips face their trapped leg correctly, their heel is exposed, and they cannot re-invert by controlling their hip line with leg pressure. Rushing the attack from poor position reduces success significantly.
-
-**Q9**: How does the hip switch variant differ from the standard transition technique?
-**A**: The hip switch variant creates outside ashi by rotating your own hips toward the trapped leg rather than forcing the opponent's hips back to standard alignment. This works when opponents actively resist hip reversal or post effectively. You change your angle to create the configuration rather than changing theirs.
-
-**Q10**: What happens if opponent counter-rotates into 50-50 during your transition attempt?
-**A**: Accept 50-50 as a neutral outcome and work standard 50-50 techniques. The 50-50 is preferable to losing control entirely, as you maintain leg entanglement with submission and sweep options. Don't panic or over-commit trying to prevent the 50-50 entry if it means losing position completely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Return to Outside Ashi?</p>
 
 Return to Outside Ashi involves dynamic leg movement during active leg entanglement, creating knee and ankle injury risk if executed explosively without control. Practice the transition slowly before adding speed. When drilling, communicate clearly with partners about resistance levels and tap immediately if any joint feels compromised during the hip reversal. Avoid forcing the transition against strong resistance that could torque your own knees. The transition itself is relatively safe compared to submission finishes, but the follow-up heel hook attacks require careful application.
 

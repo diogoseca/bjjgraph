@@ -89,8 +89,8 @@
       "relationship": "Reverse transition showing common pathway into X-Guard that this escape undoes"
     },
     {
-      "name": "Ankle Lock from X-Guard",
-      "relationship": "Submission threat the bottom player may attempt during failed escape creating urgency to complete extraction"
+      "name": "Heel Hook",
+      "relationship": "Submission threat the bottom player may pursue via ashi garami entry during failed escape, creating urgency to complete extraction"
     },
     {
       "name": "Combat Base",
@@ -249,7 +249,7 @@
         "description": "Start from standing with partner pulling guard. When X-Guard is established, execute escape and immediately chain into passing attacks. Practice recognizing when to attempt the escape versus when to attempt passing from within X-Guard top. Build strategic decision-making about when disengagement serves the overall passing game better than direct engagement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct sequence for addressing the three X-Guard control points during the Standing Escape?",
         "answer": "The correct sequence is: strip the ankle grip first to free the leg for eventual extraction, collapse the outside leg frame second to eliminate the distance management that protects the bottom player's elevation, then extract the inside hook last once the elevation has been smothered. Reversing this order — trying to extract the inside hook first — actually strengthens the bottom player's sweep power because the outside frame maintains the distance needed for effective elevation."
@@ -281,6 +281,14 @@
       {
         "question": "Your opponent grabs your collar with their free hand and pulls your posture forward while maintaining X-Guard — how do you prioritize?",
         "answer": "Prioritize breaking the collar grip before continuing with leg extraction. Upper body grips that compromise your posture are more immediately dangerous than the leg entanglement because they directly enable sweeps by pulling your center of gravity forward past your base. Use your free hand to strip the collar grip with a two-on-one peel or circular grip break. Once your posture is recovered, resume the standard escape sequence. Attempting leg extraction while your upper body is being pulled forward creates the exact off-balance condition that powers X-Guard sweeps."
+      },
+      {
+        "question": "What direction should your pressure be applied when collapsing the outside leg frame during the escape?",
+        "answer": "Your pressure should be directed forward and downward at approximately a 45-degree angle toward the mat, driving through the opponent's outside leg toward their hip. This angle is critical because purely downward pressure allows the leg to redirect laterally, while purely forward pressure drives into the leg frame without collapsing it. The 45-degree vector uses your body weight to compress the space between you and the bottom player while simultaneously driving the outside leg below your hip line. Your hips should lead this pressure rather than your hands — hip-driven pressure uses your entire body mass to overwhelm the leg barrier, whereas hand-only pushing provides insufficient force against a structurally sound frame."
+      },
+      {
+        "question": "After successfully escaping to standing, what are your highest-percentage follow-up passing options and how do you choose between them?",
+        "answer": "The two highest-percentage follow-ups are toreando passing and body lock entry. Toreando is optimal when the bottom player's legs are still disorganized from the collapsed X-Guard — grab both pants at the knees and redirect their legs to one side before they can establish new hooks. Body lock entry works when you can close distance before they frame, wrapping their hips to deny guard re-establishment entirely. Choose toreando when you have distance and can see their legs are uncoordinated. Choose body lock when they are already reaching for your legs to re-hook, since closing the distance neutralizes their re-entry attempts. Against fast guard players who recover quickly, immediate re-engagement before they reorganize is critical. Against slower recoverers, maintaining distance briefly to establish your preferred passing grips is viable."
       }
     ],
     "safety_considerations": "The Standing Escape from X-Guard carries moderate injury risk primarily during the extraction phase. Avoid explosive jerking motions when removing the inside hook, as sudden forceful extraction can hyperextend the bottom player's knee when their leg is deeply entangled. Maintain controlled movement throughout all phases of the escape. If hooks resist extraction through mechanical means, reassess your sequence rather than forcing through muscular effort, which risks knee ligament strain for the bottom player and ankle injuries for both practitioners. When practicing the sit-down variant, descend in a controlled manner to avoid landing on the bottom player's legs or face."
@@ -366,7 +374,7 @@
         "correction": "Time your sweep attempts early — before the top player lowers their base. The optimal sweep window is during the initial moments when they begin the escape sequence and are still relatively upright. Once they achieve a low defensive posture, switch to retention and transition strategies rather than forcing sweeps."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for attempting a sweep against the Standing Escape?",
         "answer": "The optimal sweep window is the moment the top player commits one hand to stripping your ankle grip or outside leg frame. At this instant, their base is temporarily compromised because they have reduced their posting and balance options. The sweep should target the direction of their committed hand — if they reach down with their right hand, sweep them to their right where they have no post available. Waiting until they have already stripped multiple control points and achieved a low base dramatically reduces sweep probability."
@@ -382,6 +390,14 @@
       {
         "question": "When is it better to transition to butterfly guard rather than continue defending X-Guard?",
         "answer": "Transition to butterfly guard when both the outside frame and inside hook have been significantly compromised — specifically when the outside leg has been pushed below your hip line and the inside hook is above the knee crease. At this point, X-Guard structure is too degraded to generate effective sweeps or retain the position. Retracting both legs into butterfly hooks gives you a functional guard with immediate sweep threats that prevent the top player from standing up freely. The key is recognizing the transition point early enough to establish butterfly hooks before the top player creates full separation."
+      },
+      {
+        "question": "The top player is collapsing your outside frame and your X-Guard is deteriorating — can you convert this into a leg entanglement entry?",
+        "answer": "Yes, when the top player drives your outside leg downward to collapse your frame, you can redirect that leg between their legs to initiate an ashi garami or honey hole entry. As they commit weight forward during the frame collapse, retract your outside leg and thread it inside their stance while your inside hook redirects from behind the knee into a heel hook configuration on the far leg. The critical timing is during their forward weight commitment, which prevents them from retracting their leg out of your entanglement. This works because the top player expects you to resist the frame collapse rather than redirect the energy into a leg attack. Only attempt this when you have sufficient leg dexterity to establish the entanglement before they fully clear your hooks."
+      },
+      {
+        "question": "Your opponent has stripped your ankle grip and is now reaching to push down your outside leg — what is your best immediate response?",
+        "answer": "Your best response depends on whether the top player's base is still relatively high or already lowered. If they are still upright, execute an immediate elevation sweep by bridging explosively through the inside hook while they are committed to reaching down with their hand — this is the highest-percentage sweep window because one hand is occupied and their weight is shifting. If they have already established a low base, immediately re-grip the ankle with your other hand or switch to a pants grip on the same leg to restore the extraction prevention anchor. The worst response is passivity — every second without the ankle grip makes the remaining control points easier for the top player to address sequentially."
       }
     ],
     "training_progressions": [

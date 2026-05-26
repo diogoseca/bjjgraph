@@ -192,6 +192,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gift Wrap Arm Recovery?</p>
+
 - Keep the trapped arm relaxed rather than fighting against the control - tension reinforces opponent's grip
 - Use hip and shoulder rotation together to create extraction angles rather than pulling with arm strength
 - Maintain neck defense with free hand throughout the recovery attempt to prevent rear naked choke
@@ -207,6 +209,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gift Wrap Arm Recovery?</p>
+
 - Opponent has established Gift Wrap control with your arm trapped across your body
 - You are on your side rather than flat on your back to maintain hip mobility
 - Free hand is positioned to defend the neck from immediate choke attempts
@@ -219,6 +223,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gift Wrap Arm Recovery step by step?</p>
 
 1. **Establish defensive posture**: Position your free hand in front of your neck with elbow tight to your body, creating a barrier against rear naked choke attacks. Tuck your chin firmly toward your chest. This defensive frame must remain intact throughout the entire recovery sequence.
 2. **Relax trapped arm**: Consciously release all tension in your trapped arm - let it go completely limp rather than pushing against the control, which only reinforces opponent's grip strength and provides feedback about your escape intentions.
@@ -248,6 +254,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gift Wrap Arm Recovery?</p>
+
 - **Opponent tightens Gift Wrap control and flattens you to the mat** (Effectiveness: High) - Your Response: Bridge explosively to create space before re-initiating the recovery sequence, focus on staying on your side → Leads to [[Positions/Gift Wrap]]
 - **Opponent attacks rear naked choke as you begin arm recovery** (Effectiveness: High) - Your Response: Immediately abandon recovery attempt and use both hands for choke defense, then re-attempt when choke threat passes → Leads to [[Positions/Gift Wrap]]
 - **Opponent transitions to crucifix as you create space for arm recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight to body during recovery, retract free arm if opponent reaches for it during your escape attempt → Leads to [[Positions/Crucifix]]
@@ -259,6 +267,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gift Wrap Arm Recovery?</p>
 
 ### 1. Pulling the trapped arm directly outward using bicep strength against the control
 
@@ -298,6 +308,8 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gift Wrap Arm Recovery (Attacker)?</p>
+
 **Week 1-2** - Fundamental mechanics
 Practice the coordinated hip escape and shoulder rotation with no resistance. Partner holds Gift Wrap loosely while you develop the movement pattern. Focus on keeping trapped arm relaxed and moving through the extraction angle smoothly.
 
@@ -318,54 +330,12 @@ Start rounds from Gift Wrap Bottom position. Partner applies full resistance and
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Gift Wrap Arm Recovery?
-**A**: The primary goal is to free the trapped arm and restore full defensive capability. With one arm trapped across your body, you cannot effectively defend the neck, create frames, or execute standard back escapes. Recovering the arm is the essential first step that enables all subsequent escape options.
-
-**Q2**: What position do you start Gift Wrap Arm Recovery from?
-**A**: This technique starts from Gift Wrap Bottom, where the opponent has back control and has trapped one of your arms across your own body by threading their arm under your armpit and controlling your wrist on the opposite side. You must be on your side to execute the recovery effectively.
-
-**Q3**: Why should the trapped arm remain relaxed during recovery attempts?
-**A**: Tension in the trapped arm actually reinforces the opponent's grip and provides them feedback about your escape attempts. A relaxed arm offers less resistance, reduces your energy expenditure, and allows you to use body mechanics rather than arm strength for the extraction. Counterintuitively, relaxing makes the recovery easier because a limp arm does not maintain the structural integrity of the control.
-
-**Q4**: Your opponent attacks the rear naked choke the moment you begin arm recovery - what is your response?
-**A**: Immediately abandon the arm recovery attempt and bring your free hand directly to choke defense, using both hands if necessary. The rear naked choke is a more immediate threat than the arm trap. Once the choke threat passes and the opponent's choking arm is controlled, you can re-attempt the arm recovery from the same defensive position.
-
-**Q5**: What body mechanics create the extraction angle for arm recovery?
-**A**: The extraction angle is created through coordinated hip escape and shoulder rotation. Shrimp your hips away from the opponent while simultaneously rotating your trapped shoulder forward and down toward the mat. This combined movement creates a diagonal path that collapses the geometry of the arm trap and allows the arm to withdraw along the line of least resistance.
-
-**Q6**: When is the optimal timing window to attempt Gift Wrap Arm Recovery?
-**A**: The optimal window occurs when the opponent shifts their weight to set up a submission or adjust their control position. This weight transfer momentarily reduces their grip pressure and creates space. Waiting for this moment rather than forcing recovery against settled control dramatically increases success rate. Common triggers include the opponent reaching for the neck or adjusting their hooks.
-
-**Q7**: How do you counter an opponent who follows your hip escape and maintains the Gift Wrap?
-**A**: Chain multiple hip escapes in rapid sequence to create cumulative space, or suddenly reverse your escape direction to catch them during their adjustment. If they are following one direction effectively, the directional change variant becomes the higher percentage option. The reversal works because the opponent's momentum carries them in the original direction while you change angles.
-
-**Q8**: What should you do immediately after successfully recovering the trapped arm?
-**A**: Immediately bring both hands to neck defense position and reassess your escape options. The recovered arm should join the free hand in creating a two-handed barrier against choke attacks. From this improved defensive posture, you can then work standard back escape sequences with full defensive capability restored. Do not pause or relax - the opponent will immediately adjust their attack.
-
-**Q9**: Your opponent has flattened you onto your back while maintaining the Gift Wrap - what is your immediate priority?
-**A**: Your immediate priority is regaining side position through an explosive bridge before attempting arm recovery. Hip escape mechanics are impossible from a flat position because your hips are pinned. Bridge to create space and turn to your side, then immediately begin the standard arm recovery sequence. The bridge-assisted recovery variant is specifically designed for this scenario.
-
-**Q10**: What is the correct direction of force when withdrawing the trapped arm?
-**A**: The arm should be withdrawn diagonally toward your own ribs, pulling the elbow in tight, not straight outward away from your body. The diagonal extraction path follows the angle created by the combined hip escape and shoulder rotation. Pulling straight out works against the opponent's mechanical advantage, while the diagonal path exploits the space created by your body positioning changes.
-
-**Q11**: How does the roll-through recovery variant differ from the standard technique, and when should you use it?
-**A**: The roll-through variant uses the opponent's own forward pressure as the energy source for the escape. Instead of shrimping away, you roll through toward turtle position, extracting the arm during the rotational momentum. Use it when the opponent is driving significant forward pressure through the Gift Wrap, making standard hip escape ineffective. The momentum redirection converts their pressure into your escape energy.
-
-**Q12**: Your opponent starts reaching for your free arm while maintaining the Gift Wrap - what does this signal and how do you respond?
-**A**: This signals a crucifix transition attempt, which would trap both arms and create an even worse position. Immediately retract your free arm tight to your body with elbow against your ribs. Prioritize protecting the free arm over continuing the recovery attempt. If necessary, abandon the arm recovery entirely and focus on preventing the crucifix by keeping the free elbow glued to your torso while maintaining neck defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gift Wrap Arm Recovery?</p>
 
 Gift Wrap Arm Recovery is generally a low-risk technique from an injury perspective, as you are working to free your own limb rather than applying joint pressure. However, several safety considerations apply. Avoid explosive pulling motions on the trapped arm that could strain shoulder structures - use body mechanics instead. If the opponent has extreme control and your shoulder is experiencing pain from the trapped position, tap and reset rather than risking rotator cuff injury. During training, communicate with your partner about the intensity of the Gift Wrap control. When drilling at higher resistance levels, ensure both partners understand the escape mechanics to prevent unintended joint stress during resistance.
 

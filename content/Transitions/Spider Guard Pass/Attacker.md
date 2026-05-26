@@ -188,6 +188,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Spider Guard Pass?</p>
+
 - Break spider guard grips systematically before attempting to pass—never advance with grips intact
 - Maintain strong upright posture to prevent sweep angles and triangle entries
 - Control opponent's knees immediately after each grip break to prevent guard recovery
@@ -203,6 +205,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Spider Guard Pass?</p>
+
 - Opponent has established spider guard with at least one foot on bicep and corresponding sleeve grip
 - Passer maintains strong upright posture with wide base and centered weight distribution
 - Distance management to prevent immediate sweep attempts while remaining within grip-breaking range
@@ -214,6 +218,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Spider Guard Pass step by step?</p>
 
 1. **Establish strong posture and base**: Stand tall or post on knees with vertical spine alignment. Drive chest forward and keep elbows tight to body. Feet should be wider than shoulder width for stability. This posture prevents opponent from breaking you down and limits their sweep angles. Weight should be distributed evenly to maintain balance against foot pressure on your biceps.
 2. **Strip first spider guard grip**: Target the opponent's weaker grip first (typically the same-side sleeve grip). Grip their wrist with your free hand while pulling your trapped arm back forcefully in a straight line using your full body, not just arm strength. Alternatively, push their knee toward the mat while extracting your arm. The grip must be broken completely before advancing to the next step.
@@ -243,6 +249,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Spider Guard Pass?</p>
+
 - **Opponent switches to De La Riva hook during grip break** (Effectiveness: High) - Your Response: Immediately address the DLR hook by circling your trapped leg away from it while stripping remaining grips. Alternatively, backstep to face the opponent and enter a leg drag or over-under passing sequence. Do not continue the spider pass once DLR is established. → Leads to [[Positions/Spider Guard]]
 - **Opponent transitions to triangle attack when you lean forward** (Effectiveness: Medium) - Your Response: Keep posture upright during initial grip stripping. If triangle threat appears, immediately posture up and create space before continuing pass. Hand position controlling knees prevents the hip elevation needed for triangle entry. → Leads to [[Positions/Spider Guard]]
 - **Opponent uses remaining grip to sweep as you pass** (Effectiveness: Medium) - Your Response: Ensure both grips are fully broken before committing to pass. If one grip remains and they load the sweep, post your free hand wide on the mat on the sweep side and drive your weight low to prevent being turned over. Complete the grip break before re-attempting. → Leads to [[Positions/Spider Guard]]
@@ -254,6 +262,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Spider Guard Pass?</p>
 
 ### 1. Attempting to pass before breaking both spider guard grips completely
 
@@ -293,6 +303,8 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Spider Guard Pass (Attacker)?</p>
+
 **Week 1-2: Grip Breaking Fundamentals** - Develop grip stripping mechanics and posture maintenance
 Partner establishes spider guard grips. Practice breaking grips one at a time using proper wrist control and arm extraction. Drill maintaining upright posture while stripping grips. Repeat until grip breaks become automatic and energy-efficient.
 
@@ -313,42 +325,12 @@ Use spider guard pass in specific sparring (starting from spider guard) and live
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to break both spider guard grips before attempting to pass?
-**A**: Breaking both grips is essential because spider guard's primary defense mechanism relies on distance management and off-balancing through the foot-on-bicep and sleeve controls. Even one remaining grip gives the guard player the ability to create angles, prevent forward pressure, and execute sweeps. Systematic grip breaking removes all distance management tools before the passer commits to forward movement, preventing the most common cause of failed passes.
-
-**Q2**: What is the most common mistake that leads to triangle attacks during spider guard passing?
-**A**: Leaning too far forward with poor posture during the grip breaking phase creates triangle vulnerability. When the passer's head drops forward and arms extend, the guard player can elevate their hips, throw one leg over the shoulder and the other behind the head to secure triangle position. Maintaining vertical posture with the head up and controlling the opponent's knees prevents the hip elevation needed for this attack angle.
-
-**Q3**: How should you respond if your opponent switches to De La Riva guard during your spider guard pass attempt?
-**A**: Immediately address the DLR hook by either circling your trapped leg away from the hook while stripping remaining grips, or backstepping to face the opponent and enter a different passing position like leg drag or over-under. The key is recognizing the guard transition early and not allowing the DLR hook to establish fully, which would require a completely different passing approach and reset your passing sequence.
-
-**Q4**: What role does knee control play in successful spider guard passing?
-**A**: Knee control is the bridge between grip breaking and passing. After breaking each spider grip, immediately pinning or controlling the corresponding knee prevents the opponent from re-establishing the spider hook or transitioning to other guard variations. Knee control also facilitates flattening the opponent's hips against the mat, which eliminates their defensive frames, prevents hip elevation for sweeps, and creates clear passing lanes to side control.
-
-**Q5**: Your opponent has one spider hook remaining and begins loading a sweep—how do you stabilize?
-**A**: Post your free hand wide on the mat on the side they are sweeping toward to create a wide base that resists the sweep direction. Drop your weight low and drive your hips toward the mat rather than staying upright where your center of gravity is vulnerable. From this stabilized position, address the remaining grip by controlling their wrist and extracting your arm using full body movement. Only after the grip is broken and you have recovered your base should you resume the passing sequence.
-
-**Q6**: Why is explosive forward pressure important after breaking spider guard grips?
-**A**: Explosive pressure after grip breaking is critical because it eliminates the time window for guard recovery. Strong spider guard players can quickly re-establish grips, adjust frames, or transition to different guards if given even a few seconds. Immediate forward pressure flattens their hips, closes distance, and forces them into a defensive position before they can reset their guard structure. This timing transforms grip advantage into positional dominance.
-
-**Q7**: What direction of force should you use when stripping spider guard sleeve grips?
-**A**: Pull your trapped arm back in a straight line toward your own hip while gripping the opponent's wrist with your free hand to peel their fingers. The direction must be straight back, not sideways or upward, because this aligns with the weakest axis of their grip—their fingers cannot resist a pull that goes directly against their thumb. Combine this with stepping or shifting your weight backward so your entire body mass powers the grip break rather than just your arm strength.
-
-**Q8**: If your initial spider guard pass is defended and the opponent transitions to lasso guard, what chain attack should you use?
-**A**: When the opponent threads one leg under your arm into lasso, you must immediately change your passing approach. The most effective chain is to backstep toward the lasso side while controlling their pants at the knee, which unwinds the lasso wrap. Alternatively, circle toward the lasso side and use a toreando-style pass by pushing both legs to the opposite side. The critical error is trying to continue the original spider pass with a lasso established, as this dramatically increases sweep and omoplata risk from the bottom player.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Spider Guard Pass?</p>
 
 Spider guard passing is relatively low-risk compared to submission-heavy positions, but practitioners should exercise caution during several key moments. When breaking grips forcefully, avoid hyperextending the opponent's fingers by focusing pressure on their wrist rather than individual digits. During the pressure passing phase, control the intensity to prevent injury to the opponent's ribs or sternum—apply steady progressive pressure rather than dropping full body weight explosively. Be aware of potential leg entanglements during passing transitions that could stress knee ligaments if either player twists unexpectedly. If the opponent attempts submissions like triangles or armbars during the pass, recognize them early and defend appropriately rather than forcing the pass through dangerous positions. When drilling, communicate clearly about resistance levels to prevent training injuries from unexpected grip fighting intensity.
 

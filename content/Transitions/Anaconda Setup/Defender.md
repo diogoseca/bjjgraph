@@ -174,6 +174,8 @@ Successful defense depends on maintaining composure and avoiding the common pani
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda Setup?</p>
+
 - Opponent releases standard headlock grip and begins shooting their arm under your neck from the near side, with their hand driving toward your far shoulder - this threading motion is the primary indicator of anaconda setup
 - You feel increased shoulder pressure driving your head down while your near-side wrist or tricep is being controlled or pulled away from your body, indicating the attacker is breaking your posting arm before threading
 - Opponent walks their hips away from you while maintaining chest pressure on your upper back, creating an angle perpendicular to your spine - this angle adjustment signals they are establishing the anaconda position
@@ -185,6 +187,8 @@ Successful defense depends on maintaining composure and avoiding the common pani
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda Setup?</p>
 
 - Tuck your near-side arm tight to your ribs immediately when you feel front headlock pressure to deny the arm-in configuration
 - Never lift your head or extend your neck while defending - keep chin tucked to chest to minimize choking surface and protect carotid arteries
@@ -199,6 +203,8 @@ Successful defense depends on maintaining composure and avoiding the common pani
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda Setup?</p>
 
 ### 1. Sit back to guard by driving your hips backward and sitting through to establish closed or half guard before the arm is threaded
 
@@ -236,6 +242,8 @@ Successful defense depends on maintaining composure and avoiding the common pani
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda Setup?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Tuck your near arm tight to your ribs and fight the choking arm's wrist with your free hand to prevent deep threading. Circle away from the choking arm side while keeping your chin tucked. This denies the arm-in configuration and forces the attacker to reset from standard front headlock, where you have more defensive options available.
@@ -251,6 +259,8 @@ Sit back explosively before the arm threading is complete by driving your hips b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda Setup?</p>
 
 ### 1. Leaving the near-side arm extended or posted on the mat instead of tucking it tight to the body
 
@@ -285,6 +295,8 @@ Sit back explosively before the arm threading is complete by driving your hips b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda Setup?</p>
+
 **Week 1-2: Recognition and Arm Protection** - Identifying anaconda setup cues and building arm-tuck reflex
 Partner establishes front headlock and slowly begins the anaconda threading sequence. Practice recognizing the threading motion through tactile feedback and immediately tucking your near arm tight to your body. No escape attempts yet - focus purely on developing the reflex to protect your arm the instant you feel the setup beginning. 10 repetitions per side, 3 times per week.
 
@@ -301,32 +313,6 @@ Full resistance positional sparring from turtle where the attacker can use any f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you feel your opponent beginning to thread their arm for an anaconda setup?
-**A**: Immediately tuck your near-side arm tight to your ribs with your elbow glued to your body and your hand near your chin. The anaconda requires trapping your arm against your neck, so removing your arm from the available space denies the fundamental mechanical requirement of the choke. This should be your first reflex before any escape attempt, because if the arm-in configuration is denied, the anaconda cannot be completed regardless of how deep the attacker threads.
-
-**Q2**: Your opponent has begun threading their arm under your neck but hasn't locked the grip yet - should you sit back to guard or circle away?
-**A**: The decision depends on how deep the threading is and your arm position. If the threading is shallow and your near arm is still free, sitting back to guard is highest percentage because it completely removes you from the front headlock position. If the threading is moderate and your arm is partially trapped, circling away from the choking arm side while fighting their wrist is safer because sitting back with a partially locked grip can result in the attacker following you down and finishing mounted. The key indicator is whether your near arm is free - if yes, sit back; if partially trapped, circle and fight the arm.
-
-**Q3**: Why is lifting your head during anaconda defense considered one of the worst defensive errors?
-**A**: Lifting your head extends your neck, which creates more surface area for the choke and makes it easier for the attacker to thread their arm deeply under your chin and around your neck. The extended neck also opens the carotid arteries to compression and can transition the attack directly into a guillotine if the attacker adjusts. Keeping your chin tucked creates a structural barrier that the attacker must work around, buying time for your defensive actions and reducing the effectiveness of any choking pressure they can generate.
-
-**Q4**: How do you time a technical standup escape against the anaconda setup, and what conditions must exist?
-**A**: The standup must be timed when the attacker's weight is high on your back and their hips are elevated, which creates space underneath you to drive upward. The conditions required are: the grip is not yet locked, your chin is tucked, and you have at least one hand free to post on the mat for the standup. Explode upward by posting your hands, extending your legs, and turning to face the opponent in one explosive sequence. If the attacker's weight is low and their chest is heavy on your back, the standup will stall and leave you in a worse position.
-
-**Q5**: Your opponent switches from anaconda threading to Darce threading because you tucked your near arm - what does this tell you and how should you adjust?
-**A**: This tells you that your arm-tucking defense was successful in denying the anaconda, but now the attacker is targeting your far arm instead by threading from the opposite side. You need to adjust by now protecting the far arm while maintaining your near-arm tuck. The Darce requires them to underhook your far arm and thread under your neck from that side. Create distance by circling toward the Darce side (opposite direction from anaconda defense), fight their threading arm, and look for opportunities to sit back to guard or stand up while they are transitioning between attacks.
-
-**Q6**: What is the optimal direction to circle when defending the anaconda setup, and why does direction matter?
-**A**: Circle away from the choking arm side - meaning if they are threading their right arm under your neck, circle to your left. This direction matters because circling away from the choking arm increases the distance their arm must travel to complete the loop, making it progressively harder to secure the grip. Circling toward the choking arm compresses the space and actually assists the threading by shortening the distance. Additionally, circling away tends to open space for guard recovery or standup attempts as the attacker must chase your movement.
-
-
-
-</section>
 
 
 </main>

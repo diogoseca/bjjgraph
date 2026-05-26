@@ -223,7 +223,7 @@ The deep half entry represents a critical junction in the half guard bottom game
 
 - [[Positions/Dogfight Position]] - Alternative entry starting point during scrambles
 
-- [[Principles/Guard Recovery]] - Overall defensive system that deep half entry supports
+- [[Transitions/Half Guard Recovery]] - Defensive recovery system when deep half entry fails
 
 - [[Transitions/Underhook Sweep from Half]] - Related half guard sweep option
 

@@ -105,7 +105,7 @@
       "Adjust grip height and tightness based on opponent's defensive reactions - higher grip for choke setups, lower for preventing forward rolls",
       "Maintain hip proximity to opponent's hips to prevent them from sitting up or creating angles for escape"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins to bridge and turn toward your underhook side - what adjustment do you make?",
         "answer": "Immediately drop your weight lower and switch your hips to follow their movement, keeping your chest glued to their back. Drive your top hook deeper while adjusting your bottom hook to prevent them from completing the turn. If they continue rotating, be prepared to transition to crucifix by trapping their near arm with your leg, or follow them with a rolling back take to maintain back control from the opposite side."
@@ -344,7 +344,7 @@
     },
     "transitions": [
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Harness",
         "attempt_probability": 40
       },
       {
@@ -360,11 +360,11 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Harness",
         "attempt_probability": 10
       },
       {
-        "transition": "Short Choke",
+        "transition": "Short Choke from Harness",
         "attempt_probability": 5
       },
       {
@@ -392,7 +392,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "RNC from Harness",
+        "transition": "Rear Naked Choke from Harness",
         "attempt_probability": 1
       }
     ]
@@ -440,7 +440,7 @@
       "Maintain connection to the mat with hands and feet to prevent being rolled or lifted into more vulnerable positions",
       "Stay calm and systematic in defense rather than panicking, as frantic movements often expose the neck or allow deeper control"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts to bring their choking arm across your neck - what immediate adjustment do you make?",
         "answer": "Immediately grab the attacking wrist or forearm with both hands using a two-on-one grip before it crosses your centerline. Simultaneously tuck your chin tight to your chest to create a barrier. Pull the arm down toward your chest while turning your shoulder into the arm to prevent it from sliding across your throat. If the arm is already partially across, grab the wrist and pull it down while turning your chin toward the inside of their elbow to create space and prevent the choke from being locked."
@@ -595,7 +595,7 @@
         "duration": "5 minutes per partner"
       },
       {
-        "name": "Two-on-One Grip Fighting Drill",
+        "name": "Two-on-One Grips Drill",
         "description": "Partner has harness grip and actively attempts to bring choking arm across neck for rear naked choke. Bottom player uses two-on-one control on choking arm to prevent choke while maintaining chin protection. Practice controlling the wrist, elbow, and tricep area. Partner slowly increases pressure over multiple rounds. Emphasize grip endurance and proper hand positioning.",
         "duration": "3 minutes per partner"
       },

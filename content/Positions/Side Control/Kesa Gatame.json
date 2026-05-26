@@ -123,7 +123,7 @@
             "probability": 65
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Far Side Armbar",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -190,7 +190,7 @@
       },
       {
         "name": "Submission Chain Drill",
-        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
+        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Far Side Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
         "duration": "4 rounds of 3 minutes"
       },
       {
@@ -263,19 +263,15 @@
     ],
     "transitions": [
       {
-        "transition": "Americana",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kimura",
+        "transition": "Kimura from Kesa Gatame",
         "attempt_probability": 10
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Far Side Armbar",
         "attempt_probability": 9
       },
       {
-        "transition": "North-South Choke",
+        "transition": "North-South Choke from Kesa Gatame",
         "attempt_probability": 8
       },
       {
@@ -287,7 +283,7 @@
         "attempt_probability": 32
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Kesa Gatame",
         "attempt_probability": 7
       },
       {
@@ -300,14 +296,14 @@
       },
       {
         "transition": "Americana from Kesa Gatame",
-        "attempt_probability": 2
+        "attempt_probability": 14
       },
       {
         "transition": "Kesa Gatame Arm Crush",
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts bridging explosively toward your posted leg - what adjustment do you make to maintain position?",
         "answer": "Immediately widen your posted leg and shift your hips lower, driving your weight down through your chest into their torso. If the bridge is strong, be ready to transition to mount by stepping over as they turn into you, converting their escape attempt into positional advancement. The key is staying heavy on their upper body while maintaining wide base with your posted leg."
@@ -617,7 +613,7 @@
         "attempt_probability": 3
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent is applying crushing chest pressure and you're struggling to breathe - what's your immediate priority?",
         "answer": "Turn your head away from the pressure to create a small pocket of breathing space, and use your free arm to frame against their shoulder or face to create distance between their chest and your face. Do not panic or waste energy fighting the pressure directly. Establish controlled breathing through your nose if possible, and accept some discomfort while working methodically toward escape. Panic breathing and explosive struggling will exhaust you rapidly."

@@ -166,6 +166,8 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Heel Hook Counter?</p>
+
 - Opponent's hips begin rotating toward your attacking leg rather than away during their escape attempt
 - Opponent's free leg hooks behind your knee or begins threading between your legs instead of posting for escape
 - Opponent stops defending their heel and shifts hand fighting toward your lower body and leg position
@@ -178,6 +180,8 @@ Successful defense requires early recognition of the counter attempt, ideally be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Heel Hook Counter?</p>
 
 - Recognize counter-entry attempts during your grip adjustment phase before inside position is established on your leg
 - Maintain inside leg control throughout your heel hook finishing attempts to deny the counter-entry angle
@@ -193,10 +197,12 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Reverse Heel Hook Counter?</p>
+
 ### 1. Accelerate heel hook finish before counter-entanglement is established
 
 - **When to use**: When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor
 - **Risk**: If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured
 
@@ -229,7 +235,9 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 ## Best-Case Outcomes for Defender
 
-### → [[game-over]]
+<p class="section-subtitle">What is the best outcome when defending Reverse Heel Hook Counter?</p>
+
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous.
 
@@ -244,6 +252,8 @@ Withdraw your attacking leg early when you sense the counter rotation beginning,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Heel Hook Counter?</p>
 
 ### 1. Panicking and completely abandoning your heel hook attack when sensing the counter
 
@@ -273,6 +283,8 @@ Withdraw your attacking leg early when you sense the counter rotation beginning,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Heel Hook Counter?</p>
+
 **Week 1-2** - Counter recognition
 From ushiro ashi-garami top, partner slowly initiates counter-entry while you practice recognizing the hip rotation and leg threading cues. No finishing attempts from either side. Focus purely on identifying when the counter is beginning and verbalizing what you observe.
 
@@ -289,29 +301,6 @@ Positional sparring from ushiro ashi-garami where partner is specifically attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You are attacking from ushiro ashi-garami and feel your opponent's hips rotating toward your leg. What does this indicate?
-**A**: This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg.
-
-**Q2**: Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?
-**A**: No. With a shallow grip, racing to finish is a losing strategy because the opponent's counter-entanglement will establish before your finish materializes. Instead, withdraw your attacking leg before they complete inside position, reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again.
-
-**Q3**: What specific leg positioning prevents the counter-entry angle during your heel hook attempts?
-**A**: Maintaining strong inside leg pressure across the opponent's hip throughout your attack denies the angle needed for counter-entry. Your inside leg acts as a barrier that prevents their hip rotation toward your leg. Additionally, keep your free leg tucked behind their thigh rather than extended, removing the hook point they need to initiate counter-entanglement.
-
-**Q4**: How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?
-**A**: Evaluate three factors: grip depth (is your heel hook grip past the point of no return or still establishing), positional timing (did you have your grip before they entered counter position), and finishing proximity (how many adjustments remain before your submission is complete). If you had deep grip before their counter began, your positional priority typically wins the exchange. If both grips are establishing simultaneously, the exchange is a coin flip.
-
-**Q5**: Your opponent successfully establishes inside ashi-garami on your leg during the counter. What is the most dangerous mistake at this point?
-**A**: The most dangerous mistake is freezing or becoming indecisive. Once the counter is established, you must immediately commit to a plan: either finish your heel hook if your grip is deeper, engage in the exchange if grips are equal, or release your attack and address your own defense if their position is superior. Hesitation allows them to solidify their position while your grip remains static, progressively worsening your odds in the exchange.
-
-
-
-</section>
 
 
 </main>

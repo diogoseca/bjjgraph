@@ -188,6 +188,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle from Side Control Bottom?</p>
+
 - Establish frames before initiating any turning motion to create the space needed for the rotation and prevent the opponent from following
 - Time the turn with opponent's weight shifts, transitions, or submission setups when their hip pressure is lightest and their attention is divided
 - Connect elbow to knee immediately during the turn to create a sealed defensive shell that prevents hook insertion and underhook penetration
@@ -202,6 +204,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle from Side Control Bottom?</p>
+
 - Near-side forearm frame established against opponent's hip crease or across their shoulder to create initial separation between bodies
 - Opponent's crossface pressure neutralized or manageable through chin tuck and shoulder positioning so the turn can be completed
 - Sufficient hip space created through bridge or shrimp to allow the initial turning motion without being blocked by the opponent's hip pressure
@@ -214,6 +218,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle from Side Control Bottom step by step?</p>
 
 1. **Establish Inside Frame**: Position your near-side forearm against the opponent's hip crease or across their shoulder, creating a structural barrier that prevents them from following your movement. Your far-side hand controls their far-side arm or collar to manage their upper body positioning during the upcoming turn.
 2. **Bridge to Create Hip Space**: Execute an explosive bridge driving your hips upward and slightly into the opponent, momentarily lifting their weight and creating a gap between your hip and the mat. This bridge disrupts the opponent's settled weight distribution and creates the vertical clearance needed for the turning motion.
@@ -243,6 +249,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle from Side Control Bottom?</p>
+
 - **Opponent follows the turn and immediately establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate through turtle to guard recovery before hooks can be inserted. If seatbelt is established, immediately begin hand fighting to strip the choking hand while working a sit-through or forward roll escape before the second hook sets. → Leads to [[Positions/Back Control]]
 - **Opponent drives heavy crossface pressure to block the turning motion before it begins** (Effectiveness: High) - Your Response: Use a stronger bridge to create more vertical space before turning, or switch to a hip escape toward the opponent instead. If the crossface is extremely heavy, work to get your far-side underhook or threaten an alternative escape to force a reaction that lightens the crossface. → Leads to [[Positions/Side Control]]
 - **Opponent re-settles weight and re-establishes hip control after a partial turn attempt** (Effectiveness: Medium) - Your Response: If you are returned to side control after a partial turn, immediately re-establish your frames rather than resting. The failed attempt may have created a slightly different angle that opens a hip escape or a second turn attempt in the opposite direction. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle from Side Control Bottom?</p>
 
 ### 1. Turning without establishing frames first
 
@@ -293,6 +303,8 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle from Side Control Bottom (Attacker)?</p>
+
 **Phase 1: Mechanics** - Turning mechanics and elbow-knee connection
 Practice the turning motion solo and with a compliant partner. Focus on bridge-and-turn sequence, elbow-knee connection timing, and establishing tight turtle structure. No resistance initially, emphasizing perfect form and body awareness through repetition.
 
@@ -313,48 +325,12 @@ Partner specifically targets common counters: following to back, blocking with c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body connection to maintain during the turning motion and why?
-**A**: The elbow-to-knee connection on the near side is the most critical body structure during the turn. This connection creates a sealed defensive shell that prevents the opponent from inserting underhooks, hooks, or reaching your neck as you rotate from your back to your hands and knees. Without this connection, the gap between your upper and lower body becomes an entry point for back control establishment, making the turn counterproductive.
-
-**Q2**: When is the optimal timing window to initiate the turtle turn from side control bottom?
-**A**: The optimal timing window occurs when the opponent shifts their weight during transitions or submission setups. Specifically, when they lift their hips to attempt an americana, adjust for a kimura, or shift weight toward your head for a north-south transition. These moments create momentary gaps in hip pressure that allow the turning motion to succeed. Attempting the turn against settled, heavy side control pressure has a significantly lower success rate.
-
-**Q3**: Your opponent blocks your turn by driving a heavy crossface - how do you adjust your escape strategy?
-**A**: When the crossface blocks the turn, switch strategies rather than fighting through it. Options include using a stronger bridge combined with far-side underhook to create more space, switching to a hip escape toward the opponent instead of away, or threatening a guard recovery with your far-side leg to force the opponent to address a different threat. This may lighten the crossface pressure enough for a subsequent turn attempt from a different angle.
-
-**Q4**: What frame must be established before initiating the turn and where should it be positioned?
-**A**: The near-side forearm frame against the opponent's hip crease or across their shoulder is the essential pre-turn structure. This frame creates the initial separation between your body and the opponent's, preventing them from simply following your rotation with their chest pressure. The far-side arm should simultaneously control the opponent's upper body through collar grip, underhook, or wrist control to manage their positioning throughout the turn.
-
-**Q5**: Why is remaining static in turtle position dangerous after completing the turn?
-**A**: Static turtle is dangerous because it gives the opponent unlimited time to systematically establish back control through seatbelt grip, hook insertion, and harness control. The opponent transitions from side control top to turtle top, where they have multiple high-percentage attack pathways including back takes, front headlock submissions, and crucifix entries. The turtle should be treated as a momentary waypoint with immediate continuation to guard recovery or standing.
-
-**Q6**: Your opponent begins inserting a hook as you complete the turn to turtle - what is your immediate response?
-**A**: Immediately kick your leg back and away from the hooking foot while simultaneously initiating a sit-through to the opposite side. Do not allow the hook to settle because the window for defending a single hook is small. If the hook sets before you can clear it, shift your defensive priority to preventing the second hook and the seatbelt grip while working a sit-through or granby roll escape. Speed of response is critical during this transition moment.
-
-**Q7**: What determines whether you should attempt the turtle turn versus a standard hip escape to guard?
-**A**: The determining factor is the opponent's control configuration. The turtle turn is preferred when the opponent has a very tight crossface that prevents hip escape toward them, when their weight is distributed more toward your upper body leaving hip space, or when standard guard recovery has been repeatedly blocked. Hip escape to guard is preferred when the crossface is loose, when there is space to insert a knee between your bodies, or when the opponent's weight is centered on your hips rather than your torso.
-
-**Q8**: What is the proper chin position throughout the turning sequence and why is it critical?
-**A**: The chin must remain tucked tightly to your chest throughout the entire turning sequence. This protects against front headlock attacks including guillotines, darces, and anacondas that become available when your neck is exposed during the rotation. The tucked chin also facilitates the rounded back position needed for a tight defensive turtle structure. Lifting the chin even briefly during the turn creates a submission opportunity that skilled opponents will exploit immediately.
-
-**Q9**: How does the direction of your bridge affect the success of the turtle turn?
-**A**: The bridge should drive upward and slightly into the opponent rather than directly away from them. This directional bridge serves two purposes: it lifts the opponent's weight most effectively by driving against their center of gravity, and it creates the rotational momentum needed for the subsequent turn. A bridge directed straight away from the opponent creates horizontal space but insufficient vertical clearance for the turning motion to succeed.
-
-**Q10**: What follow-up escape should you prioritize immediately after reaching turtle position?
-**A**: The follow-up depends on the opponent's position after the turn. If they are behind you with chest pressure, execute a sit-through to guard or granby roll while their base is still adjusting to the new position. If they are circling toward the front, technical standup is optimal as their angle is wrong for back control. If they have established wrist control but no hooks, an explosive forward roll to guard can break their grips. The key principle is continuous motion without pause.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle from Side Control Bottom?</p>
 
 The turtle turn from side control involves rotational movement under an opponent's bodyweight, creating potential strain on the neck and shoulders. Always tuck your chin firmly to protect the cervical spine during the rotation. Do not force the turn against a deeply established crossface, as this can create dangerous neck compression. In training, partners should allow the turn to complete rather than cranking on the neck to prevent it. If shoulder discomfort occurs during the elbow-knee connection phase, stop and reassess your positioning before continuing. Be mindful of your posting wrist and elbow during the drive to hands and knees, as these joints absorb significant force when combined with opponent's weight.
 

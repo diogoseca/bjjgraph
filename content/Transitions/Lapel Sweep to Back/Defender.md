@@ -166,6 +166,8 @@ From the defender's perspective, the most dangerous moment is the transition bet
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Sweep to Back?</p>
+
 - Attacker secures sleeve or wrist control on your far arm while maintaining lapel grip—this dual grip signals the sweep-to-back sequence is being loaded
 - Attacker's hips begin elevating and angling toward one side while pulling your weight diagonally with the lapel grip—indicates sweep loading phase
 - Attacker begins sitting up aggressively while maintaining lapel contact rather than staying supine—signals commitment to the back take pathway
@@ -177,6 +179,8 @@ From the defender's perspective, the most dangerous moment is the transition bet
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Sweep to Back?</p>
 
 - Strip the lapel configuration early before the sweep threat materializes—prevention is far easier than escape
 - Never rotate away from the sweep without first clearing the lapel grip that keeps the attacker attached
@@ -191,6 +195,8 @@ From the defender's perspective, the most dangerous moment is the transition bet
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Sweep to Back?</p>
 
 ### 1. Strip the lapel grip by controlling attacker's gripping hand and systematically unwinding the fabric from your leg or arm
 
@@ -228,6 +234,8 @@ From the defender's perspective, the most dangerous moment is the transition bet
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Sweep to Back?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel configuration early through systematic grip breaking, targeting the attacker's gripping hand first then unwinding the fabric. Alternatively, free your controlled sleeve and post immediately to collapse the dilemma before it develops. Both approaches return you to a neutral guard passing scenario.
@@ -243,6 +251,8 @@ If caught in the sweep, turn toward the attacker rather than away to prevent the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Sweep to Back?</p>
 
 ### 1. Rotating away from the sweep direction while the lapel grip is still attached
 
@@ -272,6 +282,8 @@ If caught in the sweep, turn toward the attacker rather than away to prevent the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Sweep to Back?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner establishes various lapel configurations at slow speed. Practice identifying the dual-grip setup (lapel plus sleeve) and executing immediate sleeve breaks and lapel strips before the sweep is loaded. Focus on reaction speed to the recognition cues.
 
@@ -288,29 +300,6 @@ Defend against Lapel Sweep to Back in live rolling with increasing resistance. D
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Lapel Sweep to Back is being set up?
-**A**: The earliest cue is when the attacker secures sleeve or wrist control on your far arm while already holding a lapel configuration. This dual-grip establishment signals the dilemma is being constructed—the lapel provides the sweep mechanics while the sleeve grip removes your posting ability. Recognizing this combination before the sweep is loaded gives you the maximum defensive window.
-
-**Q2**: Why is rotating away from the sweep the worst defensive response?
-**A**: Rotating away from the sweep is exactly what the attacker wants because the lapel grip keeps them attached to you during the rotation. Your turn exposes your back and the attacker follows your movement using the lapel as an anchor, arriving at back control with momentum. The technique is designed to exploit this natural defensive instinct, converting your escape attempt into the attacker's finishing position.
-
-**Q3**: Your opponent has the lapel wrapped and grabs your far sleeve—what is your immediate defensive priority?
-**A**: Your immediate priority is freeing the controlled sleeve through a wrist circle or grip break, then posting that hand on the mat for base. A posted hand simultaneously eliminates the back take pathway and provides base against the sweep, collapsing the entire dilemma at once. Addressing the sleeve first is more efficient than fighting the lapel because posting solves both problems.
-
-**Q4**: When is it tactically correct to accept the sweep rather than risk the back take?
-**A**: Accept the sweep when the technique is already loaded and you cannot clear either the lapel or sleeve grip in time. Turn toward the attacker during the sweep to land in mount bottom or half guard bottom rather than giving up back control. Mount escape has roughly a 52% success rate while back control bottom has only a 42% escape rate, making the sweep concession the better tactical choice when both are on the table.
-
-**Q5**: How should you address the lapel configuration if the attacker has a deep worm guard wrap behind your knee?
-**A**: Control the attacker's gripping hand with your same-side hand to prevent them from adjusting the wrap, then use your free hand to systematically unwind the fabric from behind your knee. Work the lapel off by straightening your leg and using small circular motions rather than explosive pulling. The wrap is mechanical, not muscular, so technical unwinding beats force. Alternatively, backstep to change the angle of the wrap, reducing its effectiveness while you address the configuration.
-
-
-
-</section>
 
 
 </main>

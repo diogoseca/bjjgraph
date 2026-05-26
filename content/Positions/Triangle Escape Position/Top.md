@@ -169,6 +169,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ## Position Definition
 
+<p class="section-subtitle">What is Triangle Escape Position (Top)?</p>
+
 - Opponent's legs are configured in triangle formation with one leg across back of practitioner's neck and other leg locked behind knee, creating closed loop threatening blood choke
 - One of practitioner's arms is trapped inside triangle between opponent's legs while other arm remains outside, creating asymmetrical positioning requiring immediate address
 - Opponent maintains hip control and angle, typically turned to side with hips elevated off mat to maximize choking pressure and prevent posture recovery
@@ -182,6 +184,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Triangle Escape Position (Top)?</p>
+
 - Opponent has successfully closed triangle choke configuration from guard position
 - One arm is trapped inside triangle while defending choke with other arm
 - Opponent has established hip angle and elevation necessary for finishing pressure
@@ -193,6 +197,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Triangle Escape Position?</p>
 
 - Maintain posture and create vertical spine alignment despite leg pressure to prevent accelerated choking
 - Address choking mechanism first by creating space at neck before attempting trapped arm extraction
@@ -208,6 +214,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Triangle Escape Position (Top)?</p>
 
 **If triangle is not yet fully locked and opponent is still adjusting position:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -236,6 +244,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Triangle Escape Position?</p>
 
 ### 1. Attempting to pull trapped arm out with brute force rather than creating space systematically
 
@@ -275,6 +285,8 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Triangle Escape Position attacks?</p>
+
 ### Posture Recovery Drill
 
 Partner applies triangle at varying tightness levels (30%, 50%, 70%). Practice recovering vertical posture from each stage, focusing on spine alignment and weight distribution. Reset after each successful recovery.
@@ -308,38 +320,6 @@ Partner alternates between tightening triangle and attempting armbar transitions
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins pulling your head down while squeezing their legs tighter - what immediate adjustment preserves your defensive position?
-**A**: Drive your head up and away while simultaneously driving your hips forward to stack weight onto their shoulders. This counters their pulling force by creating a structural frame through your spine and transfers pressure back onto them, disrupting their finishing angle and buying time for systematic escape execution.
-
-**Q2**: What are the essential grips and hand positions for maintaining defensive posture in the triangle escape?
-**A**: The trapped arm should have its elbow pinned tight against your ribs with the hand positioned defensively near your chest. The free arm should post on the mat near opponent's hip or directly on their hip/thigh to prevent elevation and angle creation. Never extend either arm away from your centerline.
-
-**Q3**: How do you shut down the opponent's primary finishing adjustment - the hip angle optimization?
-**A**: Use your free hand to press down firmly on opponent's hip or thigh on the choking leg side, preventing them from elevating their hips and turning to create the perpendicular angle that maximizes choking pressure. Simultaneously drive your weight forward and stack their hips toward their shoulders to limit their mobility.
-
-**Q4**: What grip priorities should you establish during the early phase of triangle defense?
-**A**: First priority is securing your trapped arm position with elbow tight to ribs. Second priority is establishing a strong posting base with your free hand on the mat or opponent's hip. Third priority is controlling opponent's legs or hips to prevent angle adjustments. Never prioritize gripping opponent's legs if it compromises your postural integrity.
-
-**Q5**: How should you apply forward pressure during the stack without exposing yourself to sweeps?
-**A**: Maintain a wide base with your knees spread apart while driving forward from your legs, not just your upper body. Keep your weight low and centered over your base, driving through your toes. The stacking pressure should come from controlled hip drive, not from leaning forward which compromises balance.
-
-**Q6**: The opponent releases leg pressure momentarily to readjust their figure-four lock - what opportunity does this create?
-**A**: This brief loosening creates the primary extraction window. Immediately drive your posture upward while circling toward your trapped arm side. Use this moment to extract your arm in a circular motion while maintaining forward pressure. The key is recognizing these adjustment moments and exploiting them instantly rather than waiting.
-
-**Q7**: How do you manage energy expenditure during extended triangle defense scenarios?
-**A**: Prioritize static structural frames over dynamic explosive movements. Use bone structure and alignment to maintain posture rather than muscular effort. Breathe through your nose when possible to avoid hyperventilation. Work in controlled, purposeful movements that accomplish specific objectives rather than continuous struggling which rapidly depletes ATP stores.
-
-**Q8**: Your initial posture recovery fails and opponent breaks you back down - how do you recover from this setback?
-**A**: Reset immediately by re-establishing your trapped arm position against your ribs and replanting your posting hand. Take a brief moment to stabilize, then reinitiate the posture sequence with emphasis on driving from your legs rather than pulling with your back. Each recovery attempt should start from the fundamentals rather than trying to continue a failed sequence.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -364,7 +344,7 @@ Partner alternates between tightening triangle and attempting armbar transitions
 - **[[Positions/Combat Base]]** - Target position for posture recovery and defensive stabilization
 - **[[Transitions/Stack Pass]]** - Primary offensive escape transition from triangle position
 - **[[Positions/Armbar Control]]** - Common transition opponent attempts from triangle if escape is defended
-- **[[Principles/Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
+- **[[Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
 - **[[Transitions/Posture Recovery]]** - Essential transition technique for triangle escape success
 - **[[Transitions/Armbar Defense]]** - Critical defensive skill when opponent transitions from triangle to armbar
 

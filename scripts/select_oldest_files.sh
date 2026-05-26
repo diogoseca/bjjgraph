@@ -52,6 +52,20 @@ md_files=$(find "$CONTENT_DIR" -type f -name "*.md" \
 orphaned_md_with_dates=""
 while IFS= read -r md_file; do
     [ -z "$md_file" ] && continue
+
+    # Skip generated role pages (generated from parent JSON files)
+    md_basename=$(basename "$md_file" .md)
+    if [[ "$md_basename" == "Bottom" || "$md_basename" == "Top" || \
+          "$md_basename" == "Attacker" || "$md_basename" == "Defender" ]]; then
+        parent_dir=$(dirname "$md_file")
+        parent_name=$(basename "$parent_dir")
+        grandparent_dir=$(dirname "$parent_dir")
+        parent_json="${grandparent_dir}/${parent_name}.json"
+        if [ -f "$parent_json" ]; then
+            continue
+        fi
+    fi
+
     # Check if .json sibling exists
     json_sibling="${md_file%.md}.json"
     if [ ! -f "$json_sibling" ]; then

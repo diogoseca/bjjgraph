@@ -168,6 +168,8 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Berimbolo Entry?</p>
+
 - Bottom player secures a strong grip on your far hip, belt, or waistline while simultaneously pulling with their De La Riva hook to load your weight forward
 - Bottom player's hips begin elevating off the mat and rotating toward your near leg while their head drops closer to the mat surface
 - Bottom player releases their collar or sleeve grip and posts their free hand on the mat beside their head, signaling imminent inversion
@@ -179,6 +181,8 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Berimbolo Entry?</p>
 
 - Keep your hips square and weight centered to deny the forward loading the attacker needs to initiate rotation
 - Strip or neutralize the far hip grip before it can be used to pull the attacker underneath you
@@ -192,6 +196,8 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Berimbolo Entry?</p>
 
 ### 1. Sit your hips back and sprawl your legs away from the De La Riva hook to deny forward loading
 
@@ -236,6 +242,8 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Berimbolo Entry?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Deny the inversion before it begins by sitting your hips back, stripping the far hip grip, or backstep-removing the DLR hook. This resets the attacker to standard De La Riva guard without the angles needed for berimbolo, allowing you to resume your passing strategy from a neutral guard engagement
@@ -251,6 +259,8 @@ When the attacker commits to the inversion, drive forward with smash pressure to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Berimbolo Entry?</p>
 
 ### 1. Leaning forward with weight over your toes while in De La Riva guard, feeding the attacker exactly the weight distribution they need
 
@@ -285,6 +295,8 @@ When the attacker commits to the inversion, drive forward with smash pressure to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Berimbolo Entry?</p>
+
 **Week 1-2: Recognition and Basic Positioning** - Learn to identify berimbolo setup and maintain correct base
 Partner establishes De La Riva guard and slowly sets up berimbolo grips without completing the inversion. Practice identifying the far hip grip and forward weight loading as recognition cues. Drill maintaining hips-back posture and correct base alignment. Partner provides feedback on when they felt the entry was available versus denied. No live resistance yet.
 
@@ -301,29 +313,6 @@ Open positional sparring from De La Riva guard with full resistance. Partner use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a berimbolo entry is being set up, and why is early detection critical?
-**A**: The earliest cue is the attacker establishing a strong far hip grip while simultaneously increasing tension on the De La Riva hook to load your weight forward. Early detection is critical because the berimbolo becomes exponentially harder to defend once the rotation has started. Before the inversion, you can strip grips, sit your hips back, or backstep to remove the hook. Once the attacker is spinning underneath you, your defensive options narrow to counter-rotation and smash pressure, both of which are lower percentage than pre-inversion prevention.
-
-**Q2**: Why is stripping the far hip grip typically more important than removing the De La Riva hook when defending berimbolo?
-**A**: The far hip grip provides the pulling force that drives the inversion. Without it, the attacker cannot pull themselves underneath your center of gravity to initiate the rotation. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the diagonal pulling trajectory needed for the berimbolo spin. Stripping the hip grip neutralizes the berimbolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can be converted into Kiss of the Dragon or other inversion attacks.
-
-**Q3**: Your opponent begins their berimbolo rotation and is approximately halfway through the spin - what is your highest percentage defensive response at this point?
-**A**: At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination accomplishes two things: the forward hip drive collapses the space the attacker needs to complete the rotation and flattens their inversion trajectory, while the counter-rotation keeps your chest facing their body and prevents back exposure. The key is to commit to both movements simultaneously rather than choosing one. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect.
-
-**Q4**: How does the defender's response differ when facing a Kiss of the Dragon variation versus a traditional berimbolo?
-**A**: The Kiss of the Dragon requires a fundamentally different defensive response because the attacker releases the De La Riva hook and spins through to the far side rather than rotating around the hooked leg. Against traditional berimbolo, the defender can backstep or sit back to neutralize the hook-based rotation. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through. The correct defense against Kiss of the Dragon is to drive forward with pressure, close the distance to prevent the spin-through, and use your hands to control the attacker's hips during their forward roll. You must also protect the far side of your back since the attack vector is reversed compared to standard berimbolo.
-
-**Q5**: What defensive training methodology best develops automatic reactions against berimbolo entries?
-**A**: The most effective methodology is progressive positional sparring starting from De La Riva guard with specific berimbolo-only attack rules. Begin with the attacker performing slow, telegraphed entries while you practice recognition and a single defensive response. Progress through each defensive option individually: first sprawl defense, then grip stripping, then backstep, then counter-rotation. Once each response is drilled in isolation, combine them into flow-based positional rounds where the attacker uses full-speed entries and you must select the appropriate defense based on the specific attack angle. The final stage is open positional sparring from De La Riva where the attacker can use any technique but the defender focuses specifically on berimbolo recognition and response. This layered approach builds pattern recognition that becomes automatic over 6-8 weeks of consistent practice.
-
-
-
-</section>
 
 
 </main>

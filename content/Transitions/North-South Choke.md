@@ -39,7 +39,7 @@ The key mechanical principle involves threading your choking arm deep under the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/North-South Choke]] | 55% |
 | Failure | [[Positions/North-South]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -206,7 +206,7 @@ The North-South Choke integrates into the North-South control system as a primar
 
 - [[Transitions/North-South to Kimura]] - Complementary arm attack creating submission dilemma
 
-- [[Transitions/Americana]] - Alternative submission from North-South position
+- [[Submissions/Americana]] - Alternative submission from North-South position
 
 - [[Positions/Front Headlock]] - Transition option when opponent turns in during choke defense
 

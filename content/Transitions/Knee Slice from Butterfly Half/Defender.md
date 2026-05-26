@@ -162,6 +162,8 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Butterfly Half?</p>
+
 - Top player drops hip weight specifically onto your butterfly hook side, attempting to flatten or pin the hook to the mat
 - Top player establishes crossface by driving shoulder into your jaw and turning your head away from the butterfly hook side
 - Top player's slicing knee begins angling diagonally toward your far hip rather than staying neutral in the half guard position
@@ -174,6 +176,8 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Butterfly Half?</p>
 
 - Maintain an active butterfly hook with constant upward pressure as your primary line of defense—a live hook prevents the slice from starting
 - Fight relentlessly for the underhook to prevent crossface establishment, which is the passer's key to controlling your head and limiting your defensive movement
@@ -189,6 +193,8 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Butterfly Half?</p>
 
 ### 1. Active butterfly hook elevation and sweep attempt
 
@@ -226,6 +232,8 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Butterfly Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a counter-sweep as the passer commits their weight forward for the knee slice. Use the butterfly hook or an underhook-driven reversal to exploit their directional commitment and sweep them into bottom half guard. The critical timing window is during the passer's weight transfer from hook neutralization to slicing motion, when their base is temporarily narrowed.
@@ -241,6 +249,8 @@ Maintain active butterfly hook defense by constantly driving the hook upward and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Butterfly Half?</p>
 
 ### 1. Allowing the butterfly hook to become passive without constant upward pressure
 
@@ -275,6 +285,8 @@ Maintain active butterfly hook defense by constantly driving the hook upward and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Butterfly Half?</p>
+
 **Phase 1: Recognition Drills** - Identifying knee slice setup cues from butterfly half guard bottom
 Partner initiates the knee slice setup slowly while you call out each recognition cue as it appears: hip drop on hook, crossface attempt, knee angling, free leg posting. Practice identifying the setup 20-30 times until the cue recognition becomes automatic. No defensive reactions yet—focus purely on reading the passer's intentions.
 
@@ -291,29 +303,6 @@ Positional sparring starting in butterfly half guard bottom against a partner co
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a knee slice is being set up from butterfly half guard top?
-**A**: The earliest cues are the passer dropping hip weight specifically onto your butterfly hook side to kill the elevation potential, and the passer fighting to establish a crossface by driving their shoulder into your jaw. These actions precede the actual slicing motion by several seconds and represent the setup phase where you have maximum defensive options. Secondary cues include the passer's slicing knee angling toward your far hip and their free leg posting wide to build the base for forward drive.
-
-**Q2**: The passer has killed your butterfly hook and is beginning the slice—what is your immediate priority?
-**A**: Your immediate priority is inserting a secondary defensive structure before the knee crosses the thigh line. The two highest-percentage options are inserting a knee shield by driving your inside knee across their body as a frame, or diving to deep half guard by sliding underneath them while their weight is committed forward. The choice depends on spacing—if there is room between your bodies, the knee shield is more accessible; if the passer is tight against you with heavy chest pressure, the deep half entry exploits their forward commitment.
-
-**Q3**: How does maintaining an active butterfly hook prevent the knee slice from being initiated?
-**A**: An active butterfly hook with constant upward pressure forces the passer to solve the elevation problem before they can safely commit to the slicing motion. If they attempt to slice while the hook is active, their forward momentum feeds directly into a butterfly sweep because the hook redirects their weight over the elevation point. This means the passer must dedicate time and energy to killing the hook first, which creates windows for you to counter-attack during their hook neutralization attempts. The active hook essentially acts as a gate that must be unlocked before the pass can begin.
-
-**Q4**: You failed to stop the knee slice early and the passer is halfway through—what recovery options remain?
-**A**: With the knee mid-slice, your options narrow significantly but are not eliminated. Frame against the slicing knee with both hands and hip escape hard in the opposite direction to create space for guard recovery. If the passer's upper body control is loose, swim your near arm for an underhook and attempt to come to turtle or dogfight before the pass consolidates. If the pass appears inevitable, begin preemptive framing for side control defense by getting your near elbow to the mat and establishing inside frames before they settle their weight.
-
-**Q5**: When is counter-sweeping during the knee slice attempt most effective?
-**A**: Counter-sweeping is most effective during the transition between hook neutralization and slice initiation—the moment when the passer shifts their weight from killing your hook to driving the knee forward. At this precise moment, their base is temporarily narrowed as weight transfers from wide base to directional drive. The butterfly hook elevation, if timed to this weight transfer, catches the passer in a structurally compromised position where they cannot simultaneously abort the slice and re-establish wide base. This requires reading the passer's timing and loading the hook in anticipation rather than reacting after the slice begins.
-
-
-
-</section>
 
 
 </main>

@@ -154,6 +154,8 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Up from Ashi Garami?</p>
+
 - Opponent begins posting hands on the mat or on your body, establishing frames before releasing their leg hooks
 - Opponent releases secondary leg hooks while maintaining primary control—a sequential disengagement pattern indicating committed stand-up
 - Opponent shifts their hips backward and begins elevating their center of gravity rather than maintaining low ashi garami posture
@@ -166,6 +168,8 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Up from Ashi Garami?</p>
 
 - Recognize the stand-up attempt early through hip movement and frame placement cues to maximize your response time window
 - Decide immediately whether to allow disengagement, maintain entanglement, or counter-attack based on current position quality assessment
@@ -180,6 +184,8 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Up from Ashi Garami?</p>
 
 ### 1. Tighten hooks and pull opponent's hips back into entanglement
 
@@ -217,6 +223,8 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Up from Ashi Garami?</p>
+
 ### → [[Positions/Standing Position]]
 
 Allow the clean disengagement while preparing to immediately return to standing yourself with advantageous grips. This returns you to neutral standing where you are no longer under leg lock threat—a significant improvement from the defensive ashi garami top position.
@@ -232,6 +240,8 @@ Capitalize on the opponent's standing attempt by quickly sitting up and establis
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Up from Ashi Garami?</p>
 
 ### 1. Panicking and pulling away explosively when opponent begins standing
 
@@ -261,6 +271,8 @@ Capitalize on the opponent's standing attempt by quickly sitting up and establis
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Up from Ashi Garami?</p>
+
 **Phase 1: Recognition and Response Selection** - Identifying stand-up cues and choosing appropriate responses
 Partner initiates stand-up from ashi garami at slow speed. Practice identifying the recognition cues and selecting the appropriate response—tighten hooks, follow to guard, or race to standing. Focus on decision-making speed rather than technique execution power.
 
@@ -277,26 +289,6 @@ Extended sparring sessions starting from guard pulls or takedowns flowing into l
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to stand up from ashi garami?
-**A**: The earliest cues include the opponent posting their hands on the mat or on your body to establish frames, releasing secondary leg hooks while maintaining primary control in a sequential pattern, and shifting their hips backward and upward rather than maintaining low ashi garami posture. You may also notice grip changes from leg control configurations to upper body frames and posts, and a general shift in their attention from leg lock advancement to base establishment.
-
-**Q2**: Should you try to prevent the stand-up or allow it and prepare to counter?
-**A**: The decision depends on your current position quality within the leg lock exchange. If you have active counter-entanglements or advantageous positioning with your own offensive threats, preventing the stand-up maintains those opportunities. However, if you are in a disadvantaged leg lock position where your heel is exposed or the opponent has superior hierarchy position, allowing the stand-up may be preferable since it returns you to neutral standing where you are no longer under immediate submission threat. Rapid assessment of your current positional quality determines the optimal response.
-
-**Q3**: Your opponent has committed to standing and has their hips elevated—what is the highest-percentage counter?
-**A**: The highest-percentage counter is to follow their hips upward by sitting up and immediately establishing open guard hooks on their hips or legs before they can fully disengage. This prevents the clean standing exit and transitions the exchange into an open guard scenario where you maintain connection and some degree of control. If you have speed advantage, you can also race to standing and establish grips during the transition, potentially gaining the initiative in the subsequent standing exchange.
-
-**Q4**: How does the opponent's standing attempt change the risk profile of the leg lock exchange for you?
-**A**: The standing attempt temporarily reduces your risk because the opponent is abandoning their offensive leg lock positioning and transitioning to a neutral stance. During the transition, their attention shifts from attacking your leg to managing the stand-up mechanics, creating a window where submission threat against you decreases significantly. However, if you fail to capitalize on this window and the opponent completes a clean disengage, you return to neutral standing where they may immediately re-enter with a different, potentially more dangerous approach to leg entanglements.
-
-
-
-</section>
 
 
 </main>

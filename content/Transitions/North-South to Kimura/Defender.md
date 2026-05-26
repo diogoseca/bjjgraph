@@ -162,6 +162,8 @@ Defending the North-South to Kimura transition requires early recognition and di
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting North-South to Kimura?</p>
+
 - Attacker's near-side hand begins sliding under your arm toward your wrist or forearm rather than controlling your torso
 - Attacker shifts chest pressure slightly to one side to create space for arm manipulation, often accompanied by their head dropping lower toward your hip
 - Attacker's far-side hand moves from controlling your far shoulder or head to reaching over your near-side arm to establish the figure-four grip
@@ -173,6 +175,8 @@ Defending the North-South to Kimura transition requires early recognition and di
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending North-South to Kimura?</p>
 
 - Keep elbows pinched tight to your ribs at all times to prevent arm isolation - never let your arm extend away from your torso
 - Fight for inside wrist control with your near-side hand to prevent the attacker from gripping your wrist and feeding it across
@@ -187,6 +191,8 @@ Defending the North-South to Kimura transition requires early recognition and di
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against North-South to Kimura?</p>
 
 ### 1. Grip your own belt, shorts, or clasp hands together to anchor your near-side arm and prevent cross-body feed
 
@@ -224,6 +230,8 @@ Defending the North-South to Kimura transition requires early recognition and di
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending North-South to Kimura?</p>
+
 ### → [[Positions/North-South]]
 
 Prevent arm isolation by keeping elbows pinched tight to ribs, fighting for inside wrist control, and gripping your own belt or shorts when you feel the attacker reaching for your arm. Bridge during their weight shifts to disrupt base. This returns the position to standard North-South where you can work your escape sequences without the Kimura threat.
@@ -239,6 +247,8 @@ Time a hip escape during the attacker's angle adjustment phase when they walk th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending North-South to Kimura?</p>
 
 ### 1. Extending your arm away from your body to push the attacker off or create space
 
@@ -273,6 +283,8 @@ Time a hip escape during the attacker's angle adjustment phase when they walk th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against North-South to Kimura?</p>
+
 **Week 1-2: Recognition and Prevention** - Learning to recognize Kimura setup cues and maintaining elbows-tight defensive posture
 Partner establishes North-South and slowly initiates the Kimura sequence at 25% speed. Defender focuses on recognizing each stage of the attack (arm isolation attempt, wrist control, cross-body feed, figure-four establishment) and practicing the elbows-tight, inside wrist control defensive posture. No resistance from attacker - pure recognition drilling.
 
@@ -289,29 +301,6 @@ Positional sparring starting from North-South with attacker attempting the Kimur
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective stage to defend the North-South to Kimura transition?
-**A**: The earliest and most effective defensive stage is preventing arm isolation before the attacker grips your wrist. Keep your elbows pinched tight to your ribs and fight for inside wrist control with your near-side hand. At this stage, the attacker cannot begin the Kimura sequence because they cannot separate your arm from your body. Once they grip your wrist, defense becomes harder. Once the figure-four is locked, escape rates drop dramatically. Every stage you allow to progress makes defense exponentially more difficult.
-
-**Q2**: You feel the attacker slide their hand under your arm and grip your wrist - what is your immediate response?
-**A**: Immediately clasp your hands together or grab your own belt, shorts, or gi lapel with the threatened hand to create an anchor that prevents the cross-body feed. Simultaneously, use your free arm to frame against the attacker's chest or shoulder to create distance. This two-part defense addresses both the immediate grip threat and the positional pressure. However, recognize this is a temporary defense - the attacker will switch attacks to force you to release. Be prepared to transition to a different defensive response when they change their approach.
-
-**Q3**: When should you attempt to bridge during the North-South to Kimura transition, and why is timing critical?
-**A**: The optimal bridging window occurs when the attacker shifts their weight laterally to establish the figure-four grip, which temporarily narrows their base and moves their center of gravity to one side. Timing is critical because bridging against a settled attacker with wide base and forward weight is nearly impossible - your bridge cannot generate enough force to displace their distributed weight. However, during their grip transition, their weight shifts create a brief vulnerability where a directional bridge toward their Kimura side can disrupt their balance and potentially allow arm recovery or positional escape.
-
-**Q4**: Why is turning into the attacker preferable to turning away when escaping the Kimura threat?
-**A**: Turning into the attacker is preferable for three critical reasons: first, it allows you to insert your knee between your bodies to recover half guard, which removes the perpendicular angle needed for the Kimura; second, it reduces the Kimura submission angle by bringing your shoulder toward the attacker rather than extending it away; third, turning into them keeps your back protected from back takes. Turning away does the opposite - it exposes your back, extends the Kimura angle making the submission easier to finish, and allows the attacker to follow your rotation directly into back control with the grip already established.
-
-**Q5**: Your opponent has locked the figure-four grip and is beginning to walk their knees toward your head - what are your remaining options?
-**A**: At this advanced stage, your options are limited but not zero. First, attempt an explosive bridge toward their Kimura side before they complete the angle adjustment, as this is your last window before the grip becomes fully operational. Second, turn hard into the attacker and fight to insert your knee for half guard, accepting the risk of potential back exposure. Third, straighten your arm forcefully to open the figure-four loop, understanding that this may expose you to an armbar switch. The key is immediate action - any delay at this stage allows the attacker to complete the Kimura Trap position where escape probability drops below 15%.
-
-
-
-</section>
 
 
 </main>

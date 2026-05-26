@@ -148,6 +148,8 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Leg Hook?</p>
+
 - Bottom player begins aggressive grip fighting focused on stripping your crossface or collar control
 - Bottom player's free leg becomes active, pushing against your hip or hooking leg
 - Bottom player's hips begin loading for a shrimp movement, shifting weight to one side
@@ -160,6 +162,8 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Leg Hook?</p>
 
 - Maintain constant upper body pressure to prevent the frames that enable the counter
 - Keep the hook dynamically engaged by adjusting tension and angle as the bottom player moves
@@ -174,6 +178,8 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Leg Hook?</p>
 
 ### 1. Increase hook depth and re-establish crossface before the counter develops
 
@@ -204,6 +210,8 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Leg Hook?</p>
+
 ### → [[Positions/Side Control]]
 
 Follow the bottom player's hip escape movement with hip-to-hip pressure, maintaining the crossface throughout. As they attempt to turn, drive your weight through their turning movement and clear the legs to establish side control. The counter attempt often opens more space than a static half guard defense, making the pass completion easier.
@@ -219,6 +227,8 @@ Shut down the counter attempt at the earliest stage by re-establishing crossface
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Leg Hook?</p>
 
 ### 1. Allowing space between your chest and the bottom player's upper body
 
@@ -248,6 +258,8 @@ Shut down the counter attempt at the earliest stage by re-establishing crossface
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Leg Hook?</p>
+
 **Phase 1: Counter Recognition** - Identifying counter attempts early
 Bottom player executes Counter Leg Hook at slow speed with verbal cues indicating each phase. Top player practices identifying the recognition cues: grip fighting, free leg activation, hip loading, and frame establishment. No active defense yet - focus purely on recognition speed and accuracy.
 
@@ -264,26 +276,6 @@ Bottom player executes successful counter to turtle. Top player practices smooth
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Counter Leg Hook attempt is developing?
-**A**: The earliest cue is aggressive grip fighting focused on your crossface hand combined with the bottom player's free leg becoming active against your hooking leg or hip. These actions indicate they are creating the prerequisites for the counter: eliminating your upper body control and beginning to address the hook. Recognizing these cues allows you to preemptively increase pressure and hook engagement before the counter develops momentum.
-
-**Q2**: Why is crossface control more important than hook depth when defending against this counter?
-**A**: Crossface control limits the bottom player's ability to turn, change direction, or establish frames, which are all prerequisites for the counter. A deep hook without crossface allows the bottom player to frame freely and use hip mechanics to strip the hook. Conversely, a strong crossface with moderate hook depth keeps the bottom player flat and unable to generate the movement needed for any counter variation.
-
-**Q3**: The bottom player successfully reaches turtle - how should you transition your attack?
-**A**: Immediately transition from passing pressure to back control methodology. Establish chest-to-back pressure, secure a seatbelt or harness grip, and begin systematic hook insertion starting with the near-side hook. Do not attempt to return to the leg hook passing position. The turtle position actually offers higher-percentage back take opportunities than trying to re-establish the passing position, so treat the transition as an opportunity.
-
-**Q4**: How should you adjust your weight distribution when you feel the bottom player loading their hips for a counter?
-**A**: Immediately drop your weight lower and drive your hips forward into their hip line, preventing the perpendicular hip escape that powers the counter. Increase downward pressure through your chest and shift your center of gravity toward the side the bottom player is attempting to escape toward. This cuts off their escape angle while maintaining your hook engagement. Avoid raising your weight higher, as this creates the space they need.
-
-
-
-</section>
 
 
 </main>

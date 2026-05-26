@@ -162,6 +162,8 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce to Anaconda Switch?</p>
+
 - Feeling the figure-four or gable grip release on the far side of your neck while chest pressure remains constant
 - Sensing the choking arm withdraw from behind your neck and begin moving toward the front of your neck along a different path
 - A brief but noticeable reduction in choking pressure as the arm transitions between configurations, even though body weight pressure may remain
@@ -174,6 +176,8 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce to Anaconda Switch?</p>
 
 - Recognize the grip transition immediately through tactile cues and act within the brief window before the new grip is locked
 - Prioritize arm extraction during the moment when neither choke configuration is fully established
@@ -188,6 +192,8 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce to Anaconda Switch?</p>
 
 ### 1. Explosive arm extraction during grip release - pull trapped arm free using hip escape and free hand assistance while the attacker's choking loop is momentarily open
 
@@ -225,6 +231,8 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce to Anaconda Switch?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the grip transition window by extracting your trapped arm during the release phase, then immediately hip escape to recover guard before the attacker can re-establish any front headlock control. The key is acting within the first one to two seconds of feeling the grip change, as this window closes rapidly once the Anaconda is locked.
@@ -236,6 +244,8 @@ Exploit the grip transition window by extracting your trapped arm during the rel
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce to Anaconda Switch?</p>
 
 ### 1. Remaining passive during the grip transition, treating it as simply a change in choking angle rather than an escape opportunity
 
@@ -265,6 +275,8 @@ Exploit the grip transition window by extracting your trapped arm during the rel
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce to Anaconda Switch?</p>
+
 **Phase 1: Recognition Drilling** - Developing tactile sensitivity to identify the grip transition in real time
 Partner alternates between maintaining Darce control and initiating the switch. Defender closes eyes and calls out the moment they feel the transition beginning based on grip release and pressure changes. Build the ability to recognize the switch within the first half-second of initiation. No escape attempts yet - focus purely on recognition speed and accuracy.
 
@@ -281,29 +293,6 @@ Start from Darce control with attacker free to switch to Anaconda or finish the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is switching from Darce to Anaconda configuration?
-**A**: The earliest cue is feeling the figure-four or gable grip release on the far side of your neck while chest pressure remains constant or even increases. This indicates the attacker is about to withdraw their choking arm to re-thread it along a different path. The grip release precedes the arm withdrawal by a fraction of a second, giving you the earliest possible warning that the transition is beginning. Secondary cues include the attacker's free hand moving to control your head and the choking arm beginning to pull back from behind your neck.
-
-**Q2**: When is the optimal defensive window during the Darce to Anaconda grip transition?
-**A**: The optimal window is the one to two seconds after the Darce grip releases and before the Anaconda grip locks. During this period, neither choke is fully established and the attacker's control relies primarily on chest pressure and their free hand. This is when arm extraction has the highest success rate because the choking loop is open. Once you feel the Anaconda grip begin to close on the far side, the window is closing rapidly. Acting within the first second of feeling the release gives you the best chance of escaping.
-
-**Q3**: You feel the choking pressure reduce but shoulder weight increase during the transition - what should you do immediately?
-**A**: The increased shoulder weight indicates the attacker is compensating for the grip release with body pressure. Immediately use your free hand to push against their hip or shoulder to create enough space for a hip escape. The shoulder weight increase is predictable and means the attacker has committed their weight forward, making them vulnerable to being rolled if you can establish an underhook or create enough hip angle. Do not wait for the choking pressure to return in a new form - act during the pressure differential when the choke is absent but the weight is present.
-
-**Q4**: How should you position your trapped arm differently when defending the Anaconda versus the Darce?
-**A**: Against the Darce, the trapped arm should push outward and rotate to reduce the choke surface behind the neck. Against the Anaconda, the trapped arm should pull in tight to the body with the elbow down to minimize the loop circumference around the front of the neck. During the switch, transition your arm positioning from the Darce defense to the Anaconda defense as soon as you feel the arm path change. Keeping the arm bent and close for the Anaconda is more important than the outward rotation used for Darce defense.
-
-**Q5**: What is the biggest mistake defenders make when they successfully prevent the Anaconda grip from locking?
-**A**: The biggest mistake is relaxing after preventing the grip and allowing the attacker to settle back into Darce control or attempt the switch again. Successfully blocking the Anaconda threading only buys time - it does not resolve the underlying front headlock control problem. After preventing the grip, immediately work to escape the entire position through arm extraction, posture recovery, or guard pull. If you remain in front headlock control, the attacker will simply reset and attempt the switch or another attack from the same dominant position.
-
-
-
-</section>
 
 
 </main>

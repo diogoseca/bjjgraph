@@ -162,6 +162,8 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Sankaku Heel Hook?</p>
+
 - Opponent releases one or both hands from positional control grips and reaches toward your ankle or heel area
 - Opponent's body begins arching backward or rotating shoulders away from you, indicating they are preparing the breaking mechanic
 - You feel the blade of the opponent's wrist pressing against your Achilles tendon at the base of your heel bone
@@ -174,6 +176,8 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Sankaku Heel Hook?</p>
 
 - Protect the heel first and always—hide it against your own hip with toes turned inward before addressing any other aspect of the position
 - Never turn into the opponent attempting to pass the knee line as this leads directly to Saddle or exposes the heel more completely
@@ -188,6 +192,8 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Sankaku Heel Hook?</p>
 
 ### 1. Hide the heel by pressing it tightly against your own hip with toes turned inward and knee rotated outward
 
@@ -225,6 +231,8 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Sankaku Heel Hook?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Thread your free leg into the opponent's entanglement when they create space during the submission attempt. Target the gap between their legs and hook your foot behind their far leg to establish the symmetrical 50-50 configuration. This neutralizes their dominant control and reduces the heel hook threat significantly.
@@ -240,6 +248,8 @@ Successfully defend the heel hook attempt through grip fighting and heel hiding 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Sankaku Heel Hook?</p>
 
 ### 1. Turning into the opponent to pass the knee line in a panic
 
@@ -274,13 +284,15 @@ Successfully defend the heel hook attempt through grip fighting and heel hiding 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Sankaku Heel Hook?</p>
+
 **Phase 1: Recognition and Tap Awareness** - Learning to identify the heel hook threat and developing tap discipline
 Partner establishes Inside Sankaku and slowly demonstrates the grip sequence without applying force. Practice recognizing each stage of the submission setup—initial grip contact, wrist blade positioning, two-on-one reinforcement, and force application. Develop automatic tap response when you feel the grip fully established. This phase prioritizes safety awareness above all technical defense.
 
 **Phase 2: Heel Protection Mechanics** - Building automatic heel hiding defense
 Partner attempts to expose and grip the heel at moderate intensity while you maintain the hidden heel position. Practice the physical mechanics of pressing your heel against your hip, turning toes inward, and using your hand to assist heel protection. Build the muscle memory so heel hiding becomes automatic upon entering any leg entanglement.
 
-**Phase 3: Active Grip Fighting** - Developing two-on-one grip strip technique
+**Phase 3: Active Grips** - Developing two-on-one grip strip technique
 Partner establishes initial grip contact and you practice stripping it with two-on-one defense. Progress from slow and cooperative to moderate resistance. Learn to immediately re-hide the heel after each successful grip strip. Develop the ability to chain multiple grip defense rounds without losing composure or positional awareness.
 
 **Phase 4: Live Positional Defense** - Integrating all defensive skills under full resistance
@@ -290,29 +302,6 @@ Full positional sparring from Inside Sankaku. Defender uses all available tools�
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct defensive priority sequence when trapped in Inside Sankaku facing a heel hook attempt?
-**A**: The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements.
-
-**Q2**: Your opponent has a wrist blade grip against your Achilles and their second hand is reaching for reinforcement—what do you do?
-**A**: This is the critical intervention window. Use both hands immediately to strip their primary gripping hand before the two-on-one is established. Target their wrist and peel it away from your Achilles by pushing their hand toward your toes and away from the Achilles groove. Once their reinforcement hand connects, the grip becomes exponentially harder to break. If you cannot strip the grip before reinforcement is established and they begin applying rotation, tap immediately—the window for safe escape has closed.
-
-**Q3**: Why is turning into the opponent to escape Inside Sankaku the most dangerous defensive movement?
-**A**: Turning into the opponent directly assists their transition to Saddle by bringing your second leg into the entanglement. The rotation that you intend as an escape actually helps the attacker capture both legs in an even more controlled configuration. Additionally, the turning motion can expose your heel more completely by rotating it directly toward the attacker's centerline. The correct escape direction is always away from the opponent—pumping hips backward to create distance rather than rotating through their control.
-
-**Q4**: When is counter-entangling to 50-50 Guard a viable defensive strategy versus when should you focus on extraction?
-**A**: Counter-entangling to 50-50 is viable when the opponent creates space between their legs during their submission attempt—typically when they overcommit to reaching for your heel with both hands. The gap allows your free leg to thread into the entanglement. Focus on extraction instead when your hips have space to move backward and the opponent's figure-four is loosening. Counter-entanglement is riskier because bringing your second leg closer to the opponent can lead to Saddle if the threading fails. Extraction is generally the safer default strategy.
-
-**Q5**: How do you know when it is too late to escape and you must tap?
-**A**: Tap immediately when all three conditions are present: (1) the opponent has a secure two-on-one grip with wrist blade against your Achilles tendon, (2) your foot is tucked into their armpit with elbows tight, and (3) you feel any rotational pressure beginning on your heel. The inside heel hook damages ligaments before pain fully registers, meaning that if you wait until it hurts to tap, the damage has already occurred. When in doubt, tap. No training session or competition result is worth a destroyed knee joint.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Spider Guard to Omoplata?</p>
+
 - Opponent removes one foot from your bicep and places it on the mat or your hip while maintaining a strong sleeve grip on the same-side arm, indicating they are building a rotational base
 - Opponent's hips begin angling toward one side rather than staying square beneath you, creating the hip pivot needed to swing their leg over your shoulder
 - Opponent pulls your sleeve aggressively toward their opposite hip while their attacking-side leg lifts off your bicep and begins swinging upward toward your head and shoulder
@@ -174,6 +176,8 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Spider Guard to Omoplata?</p>
 
 - Maintain wide base and upright posture in spider guard to prevent the conditions that enable the omoplata entry
 - Break sleeve grips systematically before they can be used to set up the leg swing
@@ -189,6 +193,8 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Spider Guard to Omoplata?</p>
 
 ### 1. Withdraw the targeted arm by bending the elbow and pulling it tight to your body while stepping back to create distance
 
@@ -226,6 +232,8 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Spider Guard to Omoplata?</p>
+
 ### → [[Positions/Spider Guard]]
 
 Withdraw your arm early when you recognize the foot removal and hip angle cues. Bend your elbow, pull tight to your torso, and step back to reset distance. Re-establish your passing posture and resume grip breaking to pass the guard.
@@ -241,6 +249,8 @@ If caught mid-entry, stack aggressively by driving your shoulder into their hips
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Spider Guard to Omoplata?</p>
 
 ### 1. Allowing arms to remain extended in spider guard without actively working to retract and break grips
 
@@ -270,6 +280,8 @@ If caught mid-entry, stack aggressively by driving your shoulder into their hips
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Spider Guard to Omoplata?</p>
+
 **Week 1-2: Recognition Drilling** - Learn to identify omoplata setups from spider guard
 Partner establishes spider guard and repeatedly sets up the omoplata entry at slow speed. Practice identifying the recognition cues (foot removal, hip angle change, sleeve pull) and calling them out verbally before they complete the technique. No physical defense yet, purely visual and tactile recognition training.
 
@@ -286,29 +298,6 @@ Start in spider guard top versus bottom. Bottom player actively attacks with omo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the spider guard to omoplata?
-**A**: The earliest cue is when the opponent removes one foot from your bicep and places it on the mat or your hip while maintaining or strengthening their sleeve grip on that same side. This foot removal signals they are building a rotational base for the leg swing. Critically, they will also begin angling their hips toward the attacking side rather than staying square. Recognizing these two cues together gives you the maximum defensive window to withdraw your arm and reset your posture before the attack begins.
-
-**Q2**: Why should you not attempt to power through a fully established omoplata by pulling your arm free with strength?
-**A**: The omoplata uses the opponent's entire leg and bodyweight to control your single arm, creating an extreme leverage disadvantage. Attempting to muscle the arm free not only exhausts your energy rapidly but often drives your shoulder deeper into the external rotation angle, accelerating the submission. The correct approach is to first neutralize their positional control by clearing hip hooks and belt grips, then use technique-based escapes like the forward roll or posture-up extraction to create the space needed for arm recovery.
-
-**Q3**: Your opponent has established omoplata control but has not yet secured your hips with their bottom leg - what is your best immediate action?
-**A**: This is your critical window for the posture-up escape. Drive your forehead into the mat and walk your knees backward to straighten your spine, creating upward pressure against their leg across your back. With their hip control not yet established, they cannot prevent you from lifting your posture. Once partially upright, circle your trapped arm downward and toward your body to extract it from between their legs. You must act before they establish the bottom leg hook, as once hip control is secured, the posture-up escape becomes significantly harder.
-
-**Q4**: How should you adjust your base when you recognize spider guard omoplata setups being threatened repeatedly?
-**A**: Widen your stance by positioning your feet outside the opponent's hip width, and keep your elbows bent and close to your torso rather than allowing full arm extension. Lower your center of gravity slightly while maintaining upright spine posture. Prioritize breaking the attacking-side sleeve grip before all other actions. This defensive posture makes it mechanically impossible for the opponent to swing their leg over your shoulder because your arm is not extended enough to create the clearance angle they need.
-
-**Q5**: When is the forward roll escape appropriate versus the stacking defense, and what happens if you choose the wrong one?
-**A**: The stacking defense works during the mid-phase of the attack when the opponent's leg is swinging over but they have not yet completed the sit-up. You drive forward to flatten them. The forward roll works during the late phase when omoplata control is established but before the finish. If you stack late after the sit-up is complete, your forward pressure assists their omoplata control. If you roll early before they have committed to the position, you give up your base unnecessarily and may end up in a worse position. Match the defense to the phase of the attack.
-
-
-
-</section>
 
 
 </main>

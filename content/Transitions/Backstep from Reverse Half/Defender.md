@@ -162,6 +162,8 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Reverse Half?</p>
+
 - Weight distribution shifts noticeably from both legs to the trapped leg side as the attacker prepares to lift the free leg
 - Upper body grip transitions from crossface to seatbelt configuration with the arm threading over your shoulder
 - Chest pressure angle changes from hip-level to shoulder-level as the attacker repositions for the stepping arc
@@ -174,6 +176,8 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Reverse Half?</p>
 
 - Recognize backstep initiation cues early through weight shift and grip changes before the stepping leg leaves the mat
 - Turn toward the attacker rather than away, as moving away creates the exact space needed for the backstep to succeed
@@ -188,6 +192,8 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Reverse Half?</p>
 
 ### 1. Explosive bridge and turn into the attacker during the backstep arc
 
@@ -225,6 +231,8 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Reverse Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge and turn into the attacker during the backstep arc when their free leg is airborne. Their compromised single-leg base makes them vulnerable to reversal. Combine the bridge with a strong frame against their hip to create separation and complete the turn to top position.
@@ -240,6 +248,8 @@ Block the backstep before it succeeds by maintaining tight elbow defense against
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Reverse Half?</p>
 
 ### 1. Remaining flat on back without attempting to turn or create defensive angles when recognizing the backstep
 
@@ -269,6 +279,8 @@ Block the backstep before it succeeds by maintaining tight elbow defense against
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Reverse Half?</p>
+
 **Phase 1: Recognition Training** - Identifying backstep initiation cues through weight and grip changes
 Partner establishes reverse half guard top and performs the backstep at 25% speed. Practice identifying the weight shift, grip change, and leg lift that signal the backstep initiation. Call out the recognition cue as soon as you feel it, then reset. Build automatic pattern recognition before adding any defensive response.
 
@@ -285,29 +297,6 @@ Start in reverse half guard bottom with partner at full resistance attempting th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is initiating a backstep from reverse half guard?
-**A**: The first cue is a change in weight distribution—you feel the opponent's weight shift from both legs to the trapped leg side as they prepare to lift the free leg. Simultaneously, their upper body grip may tighten or transition from crossface to seatbelt configuration. These weight and grip changes typically precede the stepping motion by one to two seconds, providing your defensive window for reaction.
-
-**Q2**: What is the highest-priority defensive action when you recognize the backstep is being initiated?
-**A**: The highest priority is turning explosively toward the attacker before the stepping leg completes its arc. This turn must be timed during the moment when the attacker's free leg is airborne, as this is when their base is most compromised by the single-leg weight distribution. Combine the turn with a strong frame against their hip to create separation and disrupt their balance during the vulnerable transition.
-
-**Q3**: Why is preventing the seatbelt grip more important than blocking the stepping leg?
-**A**: The seatbelt grip provides the attacker with continuous upper body control that survives the entire backstep transition regardless of what the legs do. Without it, the backstep creates a momentary separation between their chest and your back that you can exploit to turn and face them. With the seatbelt locked in, even successful leg defense is temporary because the attacker maintains upper body connection and can reattempt the step.
-
-**Q4**: Your defensive turn fails and the attacker inserts the first hook—what should you do next?
-**A**: Immediately focus on preventing the second hook insertion, as back control with one hook is incomplete and escape remains realistic. Use your same-side leg to push the established hook out while fighting the seatbelt grip with your hands. Angle your body toward the hook side to reduce the attacker's ability to control your hip rotation. If the second hook goes in, immediately transition to standard back control escape protocol.
-
-**Q5**: When should you abandon defending the backstep and transition to back control escape fundamentals?
-**A**: Once both hooks are inserted and the seatbelt is locked, the backstep has succeeded and continuing to fight it wastes energy. Immediately transition to standard back control defense: protect your neck with two-on-one grip fighting on the choking arm, work to strip hooks systematically starting with the weaker side, and execute hip escape sequences to create angles for turning and escaping.
-
-
-
-</section>
 
 
 </main>

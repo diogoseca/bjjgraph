@@ -146,6 +146,8 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Seat Belt Peel Escape?</p>
+
 - Opponent's hands move from neck defense to your over-arm hand or wrist, indicating they are targeting your seat belt connection point
 - Feeling two-on-one pressure on your over-arm with a diagonal pulling force toward the opponent's far hip
 - Opponent's hip movement coordinating with grip attacks, suggesting they are preparing to chain grip break into escape
@@ -158,6 +160,8 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Seat Belt Peel Escape?</p>
 
 - Maintain constant awareness of your hand connection quality - any loosening indicates an active peel attempt that must be addressed immediately
 - Reinforce grip connection proactively by switching between grip configurations (gable, wrist, palm cup) to prevent opponent from establishing effective peel mechanics
@@ -172,6 +176,8 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Seat Belt Peel Escape?</p>
 
 ### 1. Reinforce grip by switching to gable grip or deepening hand connection
 
@@ -209,6 +215,8 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Seat Belt Peel Escape?</p>
+
 ### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Reinforce grip connection proactively by switching grip types when feeling peel pressure, and drive hooks deeper to maintain multiple layers of control even if grip is temporarily weakened.
@@ -224,6 +232,8 @@ Capitalize on opponent's commitment of both hands to peel by releasing seat belt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seat Belt Peel Escape?</p>
 
 ### 1. Passively holding grip without adjusting when feeling peel pressure building
 
@@ -253,6 +263,8 @@ Capitalize on opponent's commitment of both hands to peel by releasing seat belt
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Seat Belt Peel Escape?</p>
+
 **Phase 1: Peel Recognition** - Learning to identify peel attempts by feel
 Partner applies various grip attacks including standard hand fighting and specific peel mechanics. Practice distinguishing between the two by the direction and nature of force on your hands. Call out when you detect a peel attempt. Develops the tactile awareness needed to deploy appropriate counter-strategies.
 
@@ -269,23 +281,6 @@ Partner alternates between peel escapes, standard escapes, and other back escape
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary recognition cue that your opponent is attempting a seat belt peel rather than standard hand fighting?
-**A**: The primary cue is feeling two-on-one pressure specifically on your over-arm hand with a diagonal pulling force directed toward the opponent's far hip. Standard hand fighting typically involves the opponent controlling your choking wrist near their neck, while the peel specifically targets the hand connection point across their chest. The diagonal pulling direction is the distinctive marker of the peel technique versus other grip attacks.
-
-**Q2**: When your opponent commits both hands to the peel, what opportunity does this create for you?
-**A**: When both of the opponent's hands leave neck defense to attack your grip, their throat becomes completely undefended for 2-3 seconds. This creates a window to release your seat belt voluntarily and immediately attack the rear naked choke with your choking arm, which is already positioned near their neck. The opponent must then abandon their peel attempt and scramble to defend the choke, often from a worse defensive position than before they started the peel.
-
-**Q3**: Why is transitioning to body triangle an effective counter to persistent peel escape attempts?
-**A**: The body triangle eliminates the hook vulnerability that the opponent plans to exploit after breaking the seat belt grip. Even if the opponent successfully peels the grip, the body triangle prevents the hip escape and hook clearing that constitute the second and third phases of the escape sequence. Without the ability to chain grip break into positional escape, the peel becomes a standalone grip break that you can recover from while maintaining dominant lower body control.
-
-
-
-</section>
 
 
 </main>

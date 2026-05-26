@@ -162,6 +162,8 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crucifix to Mount?</p>
+
 - Attacker's shoulder pressure through the crossface increases noticeably as they anchor their upper body before releasing the leg trap
 - Loosening or repositioning of the leg configuration trapping your near arm, particularly any opening of the figure-four triangle
 - Attacker's hips begin shifting from the perpendicular crucifix angle toward a more centered position over your torso
@@ -174,6 +176,8 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crucifix to Mount?</p>
 
 - Recognize transition cues early—the attacker's weight shift and leg repositioning signal the mount attempt before the leg trap opens
 - The freed arm must be used immediately and decisively the instant the leg trap opens, as the window closes rapidly once mount is established
@@ -188,6 +192,8 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crucifix to Mount?</p>
 
 ### 1. Explosive bridge timed to the leg swing when attacker's base is most compromised
 
@@ -225,6 +231,8 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crucifix to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge or hip escape during the attacker's leg swing when their base is most compromised, then immediately insert a knee to establish half guard. The reversal to half guard top provides a dramatically improved position with full guard recovery or sweep opportunities available.
@@ -240,6 +248,8 @@ While being mounted is still disadvantageous, it represents a significant defens
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crucifix to Mount?</p>
 
 ### 1. Failing to recognize the transition cues and reacting only after mount is fully established
 
@@ -269,6 +279,8 @@ While being mounted is still disadvantageous, it represents a significant defens
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crucifix to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from crucifix bottom
 Partner in crucifix top alternates between maintaining position, attempting submissions, and initiating the mount transition. Bottom player calls out when they detect transition cues without attempting defense. Build pattern recognition for the specific signals that differentiate a mount transition from submission attempts or positional maintenance.
 
@@ -282,29 +294,6 @@ Positional sparring starting from crucifix bottom with full resistance. Top play
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the first physical cues that indicate the crucifix player is transitioning to mount?
-**A**: The earliest cues are increased shoulder pressure through the crossface as the attacker anchors their upper body, tightening of the far arm control through deeper overhook or grip changes, and subtle hip repositioning from the perpendicular crucifix angle toward a more centered position. The attacker may also reduce submission threats momentarily as their focus shifts from finishing to transitional mechanics. Recognizing these preparatory signals provides critical additional time to prepare defensive responses before the leg trap actually opens.
-
-**Q2**: When the opponent releases the leg trap, what is your immediate defensive priority?
-**A**: The immediate priority is deploying the freed arm into a defensive function before the attacker can complete the mount transition. The freed arm should create a frame against the attacker's hip or shoulder to block the leg swing, or establish an underhook to disrupt their weight transfer. This must happen reflexively and without deliberation because the window between leg trap release and mount consolidation is extremely brief. Every fraction of a second spent deciding what to do with the freed arm reduces the probability of successful defense.
-
-**Q3**: Why is timing your bridge critical during this transition rather than bridging at any point?
-**A**: The bridge must be timed to coincide with the attacker's leg swing because this is the moment of maximum base instability. During the swing, the attacker has one leg moving through the air and their weight is shifting across your body, creating a brief period where their balance is compromised. A bridge at this exact moment has the highest probability of disrupting the transition. Bridging before the leg releases wastes energy against a stable crucifix position, and bridging after mount is established faces the full weight and base of a consolidated mount.
-
-**Q4**: How do you prevent mount establishment if your bridge attempt fails during the transition?
-**A**: If the bridge fails to disrupt the transition, immediately switch to hip escape mechanics. Shrimp your hips away from the attacker's landing side and work to insert your knee between your body and the attacker's descending leg. Even a partial knee insertion creates half guard rather than full mount, which is a significantly better defensive position. The key is not freezing after a failed bridge attempt but flowing immediately into the next defensive option in the hierarchy.
-
-**Q5**: What is the hierarchy of defensive priorities when this transition is being attempted against you?
-**A**: The hierarchy is: first, use the freed arm immediately for frames or underhook before the window closes. Second, time a bridge or hip escape to the moment of maximum attacker instability during the leg swing. Third, if mount establishment appears inevitable, focus on inserting a knee to achieve half guard rather than full mount. Fourth, if full mount is achieved, immediately begin standard mount escape protocols with the advantage that both arms are now free, which was not the case in the crucifix. Each level accepts a progressively worse outcome while maximizing the defensive value of each remaining option.
-
-
-
-</section>
 
 
 </main>

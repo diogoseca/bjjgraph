@@ -26,7 +26,7 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
     },
     {
       "@type": "HowToStep",
-      "name": "Pressure Application",
+      "name": "Pressure",
       "text": "Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.",
       "position": 2
     },
@@ -204,7 +204,7 @@ Key points:
 
 
 
-2. **Pressure Application**: Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.
+2. **Pressure**: Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.
 Key points:
 - Drop hips to create downward pressure vector
 - Distribute weight through chest and shoulder contact
@@ -366,14 +366,14 @@ Begin with static positional drilling focusing on proper weight distribution and
 - [[Double Under Pass]] (Transition) - Passing variation using bilateral underhook control for pressure application
 - [[Side Control to Mount]] (Transition) - Position advancement sequence after successful passing
 - [[Knee Slice Pass]] (Transition) - Fundamental pressure passing movement driving knee across opponent's thighs
-- [[Pressure Passing]] (Principle) - Foundational principle underlying entire system methodology
-- [[Weight Distribution]] (Principle) - Core principle for creating effective pressure without exhaustion
+- [[Hip Pressure]] (Principle) - Core pressure principle for applying weight through hips during passing sequences
+- [[Center of Gravity]] (Principle) - Core principle for creating effective pressure without exhaustion
 - [[Forward Pressure]] (Principle) - Fundamental concept of maintaining constant offensive pressure
 - [[Cross Face Control]] (Principle) - Essential control principle for half guard and side control dominance
 - [[Guard Passing]] (Principle) - Theoretical framework supporting systematic passing approach
-- [[Base Maintenance]] (Principle) - Critical principle for preventing sweeps during passing attempts
+- [[Base]] (Principle) - Critical principle for preventing sweeps during passing attempts
 - [[Control Maintenance]] (Principle) - Principle for consolidating positions after successful passes
-- [[Pressure Application]] (Principle) - Technical principle for applying weight effectively during passing
+- [[Pressure]] (Principle) - Technical principle for applying weight effectively during passing
 - [[Gordon Ryan Passing System]] (System) - Complementary modern passing system with different technical emphasis
 - [[Roger Gracie Fundamental System]] (System) - Related fundamental-based system with similar pressure philosophy
 - [[Arm Triangle]] (Submission) - High-percentage submission from consolidated side control position

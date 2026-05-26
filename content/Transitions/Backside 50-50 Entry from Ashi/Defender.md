@@ -154,6 +154,8 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backside 50-50 Entry from Ashi?</p>
+
 - Attacker's inside leg pressure across your hip suddenly lightens or withdraws, indicating they are removing the leg to begin rotation
 - Attacker's hips drive forward toward your body, closing distance in preparation for the rotational arc behind you
 - Attacker's chest and shoulders begin angling to one side rather than remaining perpendicular, signaling the start of circular movement
@@ -166,6 +168,8 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backside 50-50 Entry from Ashi?</p>
 
 - Recognize the entry attempt early through changes in attacker's hip pressure, inside leg removal, and rotational movement before they build momentum
 - Exploit the vulnerability window when the attacker removes their inside leg from your hip - this is your best opportunity for leg extraction or turning to face them
@@ -180,6 +184,8 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backside 50-50 Entry from Ashi?</p>
 
 ### 1. Turn to face the attacker by rotating your hips and torso toward them the moment you feel their inside leg withdraw from your hip
 
@@ -217,6 +223,8 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backside 50-50 Entry from Ashi?</p>
+
 ### → [[Positions/Half Guard]]
 
 Extract your trapped leg during the attacker's inside leg removal phase when their control is reduced to a single outside hook. Pull your heel toward your body while posting with your arms to create distance. Follow the extraction by immediately recovering guard position rather than remaining in open space.
@@ -232,6 +240,8 @@ Turn to face the attacker before they complete the rotation behind you, maintain
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backside 50-50 Entry from Ashi?</p>
 
 ### 1. Failing to recognize the entry attempt until the attacker has already rotated behind you and established chest-to-back contact
 
@@ -261,6 +271,8 @@ Turn to face the attacker before they complete the rotation behind you, maintain
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backside 50-50 Entry from Ashi?</p>
+
 **Phase 1: Recognition Drilling** - Identifying entry cues through tactile sensitivity
 Partner alternates between maintaining inside ashi garami and initiating the backside 50-50 entry at random intervals. Defender calls out the entry attempt the moment they detect it. No defensive action taken - pure recognition training. 20 repetitions focusing on developing sensitivity to inside leg removal and lateral hip shift signals.
 
@@ -277,26 +289,6 @@ Full resistance positional sparring starting in inside ashi garami. Attacker may
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Backside 50-50 Entry is being attempted?
-**A**: The earliest cue is the lightening or removal of the attacker's inside leg pressure from across your hip. This is the first mechanical action of the entry because the inside leg must be withdrawn to begin the rotation. You will feel the pressure on your hip suddenly decrease or disappear entirely. This is your signal to immediately begin defensive action, as the transition has been initiated and the attacker's control is at its weakest point.
-
-**Q2**: Why is leg extraction during the entry attempt more effective than after the attacker completes the transition?
-**A**: During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus chest-to-back pressure, making extraction significantly more difficult.
-
-**Q3**: Your heel is currently well-defended and the attacker initiates the entry - should you maintain heel defense or switch to anti-rotation defense?
-**A**: Switch immediately to anti-rotation defense. Your heel defense was solving the right problem from inside ashi, but the attacker is now bypassing it entirely by changing positions. Maintaining heel defense while they rotate behind you means you will have a well-defended heel from a much worse position. Redirect your defensive energy to turning to face them, blocking their rotation path, or extracting your leg. The positional threat of Backside 50-50 outweighs the submission threat from inside ashi.
-
-**Q4**: How do you defend against the rolling inversion variant of the entry?
-**A**: The rolling inversion is faster but follows a predictable path underneath your frames. When you detect the inversion (attacker drops their shoulder and begins rolling motion), immediately post on their shoulder and drive your hips away to create distance. The inversion requires close proximity to execute, so creating space disrupts the mechanics. Alternatively, extend your trapped leg forcefully as they invert, which makes it harder for them to maintain the entanglement while inverted.
-
-
-
-</section>
 
 
 </main>

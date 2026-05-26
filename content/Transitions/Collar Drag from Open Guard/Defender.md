@@ -164,6 +164,8 @@ Successful defense against the collar drag requires understanding that the techn
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Collar Drag from Open Guard?</p>
+
 - Opponent establishes a deep collar grip with fingers threaded inside the collar at the back of your neck, feeling knuckle pressure against your nape
 - Opponent's free hand posts behind their hip on the mat, indicating preparation for the explosive sit-up that powers the drag
 - Opponent releases their foot frames from your hips or thighs, creating the space they need to sit up and rotate
@@ -175,6 +177,8 @@ Successful defense against the collar drag requires understanding that the techn
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Collar Drag from Open Guard?</p>
 
 - Maintain upright posture with your center of gravity over or behind your base, never allowing excessive forward lean
 - Prioritize grip fighting to prevent the deep collar grip from being established, as the drag cannot work without a secure grip
@@ -189,6 +193,8 @@ Successful defense against the collar drag requires understanding that the techn
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Collar Drag from Open Guard?</p>
 
 ### 1. Strip the collar grip with a two-on-one grip break before the drag initiates
 
@@ -226,6 +232,8 @@ Successful defense against the collar drag requires understanding that the techn
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Collar Drag from Open Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Prevent the drag from succeeding by stripping the collar grip early, maintaining strong upright posture with your weight distributed behind your base, or sprawling immediately when you feel the initial pulling force. Any of these responses neutralizes the drag and returns the engagement to neutral open guard passing.
@@ -241,6 +249,8 @@ Counter the drag attempt by driving forward aggressively when the opponent sits 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Collar Drag from Open Guard?</p>
 
 ### 1. Leaning forward with weight on hands while engaging with the open guard, making the drag exponentially easier
 
@@ -270,6 +280,8 @@ Counter the drag attempt by driving forward aggressively when the opponent sits 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Collar Drag from Open Guard?</p>
+
 **Phase 1: Recognition** - Identifying collar drag setups and timing cues
 Partner establishes various grips from open guard bottom, mixing collar drag setups with non-threatening grips. Defender practices identifying the specific indicators of an incoming collar drag: deep collar grip, posting hand, foot frame release, and sit-up initiation. No physical defense attempted, purely recognition training.
 
@@ -286,29 +298,6 @@ Partner attempts collar drags while defender practices timing the forward drive 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when you feel a deep collar grip being established from open guard bottom?
-**A**: Strip the grip immediately before it becomes the foundation for a collar drag. Use a two-on-one grip break where both hands address the gripping wrist, peeling fingers from the collar while pushing their hand toward their centerline. The collar drag cannot function without a secure grip, so grip prevention is the most energy-efficient defense. Do not ignore the grip and continue passing, as this leaves a loaded threat ready to fire at the worst possible moment.
-
-**Q2**: How does your weight distribution affect your vulnerability to the collar drag?
-**A**: Forward weight distribution dramatically increases vulnerability because the collar drag redirects forward momentum downward. If your center of gravity is ahead of your base when the drag initiates, the opponent needs minimal force to collapse your posture. Keeping your weight centered over or slightly behind your feet forces the attacker to overcome your structural balance rather than simply redirecting existing momentum. The safest passing posture against collar drag threats keeps hips back and spine upright.
-
-**Q3**: Your posture has been broken by a collar drag and the opponent is circling toward front headlock - what immediate recovery do you execute?
-**A**: Drive upward explosively with your legs while tucking your chin to protect against guillotine attempts. Simultaneously, fight the head control with your hands by pushing against the opponent's controlling elbow or wrist. Circle your body toward the opponent rather than away, which creates the angle needed to recover posture and prevents them from establishing chest-to-back connection. If you cannot recover posture, immediately pull guard or shoot for a single leg to prevent the front headlock from being consolidated.
-
-**Q4**: When should you choose to drive forward through a collar drag attempt rather than defend passively?
-**A**: Drive forward when the opponent sits up to execute the drag and simultaneously releases their foot frames from your hips. This is the moment when their guard structure is most compromised because they have sacrificed lower body control to power the upper body drag. Your forward drive exploits this opening by advancing past their legs before they can re-establish frames. However, this counter requires precise timing: drive too early and you feed into the drag, drive too late and the front headlock is already established.
-
-**Q5**: Why is circling toward the drag direction more effective than pulling straight back when defending?
-**A**: The collar drag's force vector is diagonal, pulling you both downward and laterally. Pulling straight back only addresses one component of this force while your neck and back muscles fight against the rotational component powered by the opponent's core. Circling toward the drag direction neutralizes the rotational force by moving with it rather than against it, then allows you to reposition your base under your center of gravity from a new angle. This costs significantly less energy than a straight resistance and creates better positioning for continued passing.
-
-
-
-</section>
 
 
 </main>

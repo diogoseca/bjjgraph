@@ -236,7 +236,7 @@
         "description": "Full positional sparring starting from saddle. Integrate the fallback naturally into your leg lock game—attack from saddle, fall back when defended, attack from ashi, re-enter saddle or branch to alternatives. Focus on maintaining continuous offensive pressure across multiple position cycles without losing entanglement entirely."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the primary indicators that your saddle control has deteriorated to the point where a fallback is necessary?",
         "answer": "The key indicators are: opponent has cleared your hip pressure and can now rotate freely, opponent has established strong frames on your hips or shoulders preventing you from re-engaging pressure, your perpendicular alignment has been broken significantly, or opponent has begun successfully extracting their heel from your control. Any two of these occurring simultaneously should trigger immediate fallback. The critical distinction is between temporary resistance (which you can overcome) and structural escape (which requires positional retreat)."
@@ -341,7 +341,7 @@
         "correction": "Address both the leg entanglement and the grip simultaneously. Use two-on-one grip fighting to strip their ankle grip while your hips create distance. Complete escape requires breaking both control structures."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary tactile cue that indicates the attacker is initiating a fallback from saddle to inside ashi?",
         "answer": "The most reliable cue is feeling the attacker's deeper leg configuration (figure-four or similar entanglement) loosen around your trapped leg. This is accompanied by a reduction in hip pressure as they shift weight to reconfigure. You may also feel their grip change from a finishing position (heel cup) to a transitional grip (ankle control). These changes happen in sequence and provide a 1-2 second warning before the new position is established."
@@ -375,7 +375,7 @@
         "description": "Partner executes the fallback at moderate speed. Your task is to time a hip escape to coincide with the leg reconfiguration window. Partner provides feedback on whether your escape attempt was too early (still in saddle), correctly timed (during transition), or too late (ashi established). Success is measured by whether you escape, not by how explosively you move."
       },
       {
-        "phase": "Phase 3: Grip Fighting Integration",
+        "phase": "Phase 3: Grips Integration",
         "focus": "Combining grip strips with positional escape",
         "description": "Partner executes the fallback at 50-60% resistance. Practice stripping their transitional ankle grip while simultaneously executing hip escape. Focus on the coordination of upper body grip fighting and lower body escape mechanics happening in parallel rather than sequentially."
       },

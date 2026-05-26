@@ -156,6 +156,8 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure from Shin-to-Shin?</p>
+
 - Opponent lowers their center of gravity and aligns their hips behind the shin contact point, indicating preparation for forward pressure drive
 - Increasing downward weight through the shin connection that exceeds normal contact pressure, signaling active pressure application has begun
 - Opponent's chest and shoulders begin driving toward your upper body frames, compressing the space between you
@@ -168,6 +170,8 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure from Shin-to-Shin?</p>
 
 - Maintain active shin pressure with constant angle adjustment to resist structural collapse under forward loading
 - Keep hips elevated and mobile to preserve the ability to transition when the shin connection begins degrading
@@ -182,6 +186,8 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure from Shin-to-Shin?</p>
 
 ### 1. Elevate hips and thread leg underneath for Single Leg X-Guard entry using the attacker's forward pressure as elevation platform
 
@@ -212,6 +218,8 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure from Shin-to-Shin?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Time your hip elevation to coincide with the attacker's heaviest forward pressure commitment, using their weight as the platform for threading your outside leg underneath their base. Grip their ankle with both hands and extend your hips to complete the entry before they can retract their weight.
@@ -231,6 +239,8 @@ Maintain active hip mobility and constant angle adjustment throughout the pressu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure from Shin-to-Shin?</p>
 
 ### 1. Maintaining passive shin connection without active pressure adjustment as the attacker begins loading weight
 
@@ -260,6 +270,8 @@ Maintain active hip mobility and constant angle adjustment throughout the pressu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure from Shin-to-Shin?</p>
+
 **Phase 1: Pressure Recognition** - Identifying pressure buildup cues
 Partner applies progressively increasing pressure to your shin-to-shin guard at varying speeds and intensities. Call out when you detect each recognition cue: weight shift, hip alignment, grip changes, chest drive. No transitions yet—pure recognition training. Partner provides feedback on detection accuracy and timing.
 
@@ -276,29 +288,6 @@ Positional sparring starting from shin-to-shin with partner committed to pressur
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary advantage the defender has when facing a pressure-based approach to shin-to-shin passing?
-**A**: The defender's primary advantage is that committed forward pressure from the top player creates the exact conditions needed for counter-entries. Forward weight commitment provides the elevation platform for Single Leg X-Guard entries and the downward momentum for butterfly sweep conversions. The more pressure the attacker applies, the more powerful the defender's counter-entries become—provided the defender recognizes the timing window and initiates the transition before the shin structure collapses.
-
-**Q2**: How do you determine the optimal moment to transition from shin-to-shin defense to a counter-entry?
-**A**: The optimal transition moment is when the attacker's forward pressure is near peak commitment but before your shin angle has degraded past the point of structural utility. Key indicators include: the attacker's weight visibly shifted forward over the contact point, their hips are extended and committed to the drive, and their base has narrowed to generate maximum forward force. At this point, their ability to retract and defend counter-entries is minimized while your ability to use their committed weight for elevation or sweep is maximized.
-
-**Q3**: Your shin angle is collapsing under heavy pressure and you cannot re-establish the perpendicular connection—what should you do?
-**A**: Immediately abandon the shin-to-shin position and transition to an alternative guard rather than fighting a losing structural battle. Your best options in order of priority: thread to Single Leg X if you can get underneath, insert butterfly hook if their weight is dropping, hip escape to recover knee shield half guard, or retreat to seated guard with feet-on-hips distance management. The critical error is continuing to fight for a collapsed position while the attacker advances through the opening.
-
-**Q4**: Why is hip elevation timing more important than hip elevation power when countering the pressure pass?
-**A**: Timing determines whether the attacker's weight assists your elevation or works against it. Elevating when the attacker's weight is fully committed forward provides their momentum as a platform—your hips rise easily because their drive creates the upward reaction force. Elevating at the wrong time, either too early when they can retract or too late when the shin is already collapsed, requires significantly more muscular effort to achieve the same result. Precise timing converts the attacker's own force into your counter-entry power.
-
-**Q5**: What grip should you prioritize maintaining throughout the defensive sequence against pressure passing?
-**A**: Prioritize the same-side ankle or pants grip on the leg connected to your shin. This grip prevents the attacker from retracting their leg during counter-entry attempts and provides the anchor point needed for Single Leg X-Guard establishment. Without this grip, successful hip elevation still fails because the attacker can simply withdraw the targeted leg. Secondary priority is a collar or sleeve grip for distance management and off-balancing during the transition.
-
-
-
-</section>
 
 
 </main>

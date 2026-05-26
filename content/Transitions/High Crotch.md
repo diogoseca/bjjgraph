@@ -28,7 +28,7 @@ The High Crotch works by combining forward pressure with rotational mechanics, f
 
 In the context of BJJ competition, the High Crotch has gained prominence due to its effectiveness in both gi and no-gi settings, its compatibility with guard pulling as a backup option, and its ability to score takedown points while maintaining relatively safe positioning. The technique requires proper timing, explosive penetration step, and understanding of weight distribution, but once mastered, it becomes one of the highest percentage takedowns available to grapplers at all levels.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 60%
 
 </section>

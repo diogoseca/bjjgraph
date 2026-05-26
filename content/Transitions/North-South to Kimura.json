@@ -48,8 +48,8 @@
       "relationship": "Primary target position upon successful execution"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Related Kimura entry from adjacent top control position"
+      "name": "Kimura from Half Guard",
+      "relationship": "Related Kimura entry from adjacent control position"
     },
     {
       "name": "North-South Choke",
@@ -226,7 +226,7 @@
         "description": "Experiment with entries from different North-South variations, use the Kimura threat to set up North-South chokes and armbars, and develop your personal finishing mechanics. Practice against training partners of various sizes and skill levels. Incorporate the full Kimura Trap system into live rolling and competition scenarios."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary purpose of maintaining chest-to-chest pressure during the North-South to Kimura transition?",
         "answer": "Chest-to-chest pressure serves multiple critical functions: it prevents the opponent from creating space to escape, limits their ability to bridge or turn effectively, keeps their shoulders pinned flat to the mat making arm isolation easier, and maintains your dominant position throughout the transition. Without constant pressure, the opponent can use bridging or turning movements to escape before you secure the Kimura grip. The pressure also restricts their breathing, creating urgency that forces defensive arm movements you can exploit."
@@ -363,7 +363,7 @@
         "correction": "Establish controlled breathing first by turning slightly to create rib space. Execute systematic defensive movements - elbows tight, inside wrist control, timed bridge - rather than frantic struggling"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest and most effective stage to defend the North-South to Kimura transition?",
         "answer": "The earliest and most effective defensive stage is preventing arm isolation before the attacker grips your wrist. Keep your elbows pinched tight to your ribs and fight for inside wrist control with your near-side hand. At this stage, the attacker cannot begin the Kimura sequence because they cannot separate your arm from your body. Once they grip your wrist, defense becomes harder. Once the figure-four is locked, escape rates drop dramatically. Every stage you allow to progress makes defense exponentially more difficult."

@@ -169,6 +169,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Position Definition
 
+<p class="section-subtitle">What is Scarf Hold Position (Bottom)?</p>
+
 - Bottom player is on their back with opponent sitting perpendicular across their chest, opponent's hip positioned against bottom player's ribcage creating crushing pressure that restricts breathing and limits chest expansion
 - Opponent controls bottom player's head with their arm wrapped around the head and neck, creating cross-face pressure that prevents bottom player from turning toward opponent and limits head mobility
 - Bottom player's near-side arm (closest to opponent's body) is trapped across opponent's torso, typically controlled at the wrist or tricep, eliminating primary defensive tool and creating submission vulnerability
@@ -182,6 +184,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Scarf Hold Position (Bottom)?</p>
+
 - Opponent has successfully passed guard or transitioned from another top control position
 - Opponent has secured perpendicular positioning across bottom player's chest
 - Opponent has established head control with arm wrapped around head and neck
@@ -194,6 +198,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scarf Hold Position?</p>
 
 - Protect your neck immediately to prevent deep cross-face control that enables chokes and further positional consolidation
 - Create defensive frames with your free arm against opponent's head and shoulder to prevent complete smothering and maintain breathing space
@@ -209,6 +215,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Scarf Hold Position (Bottom)?</p>
 
 **If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
@@ -229,8 +237,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 
 **If opponent posts their far arm wide for base or extends back leg creating narrow base:**
-- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 55%)
-- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Standing Position]] (Probability: 50%)
 
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
@@ -245,6 +253,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scarf Hold Position?</p>
 
 ### 1. Attempting standard side control shrimp escapes while opponent is positioned perpendicular to your body
 
@@ -279,6 +289,8 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Scarf Hold Position defense?</p>
+
 ### Systematic Scarf Hold Escape Progression
 
 Partner establishes solid scarf hold with controlled pressure. Bottom player works through four-phase escape sequence for 2-minute rounds: Phase 1 (0-30 seconds) establish defensive frames and protect neck; Phase 2 (30-60 seconds) create hip movement and attack opponent's base; Phase 3 (60-90 seconds) execute bridge-and-roll attempts; Phase 4 (90-120 seconds) chain escapes together based on opponent's defensive reactions. Partner gradually increases resistance across rounds. Perform 5 rounds with 1-minute rest between rounds.
@@ -304,38 +316,6 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why are standard side control shrimping escapes ineffective from scarf hold bottom?
-**A**: The perpendicular angle of scarf hold makes lateral hip movement ineffective because your hips are moving parallel to the opponent's body rather than away from their pressure. In standard side control, shrimping creates distance perpendicular to opponent's chest. In scarf hold, the opponent sits T-shaped across you, so lateral movement just slides along their body without creating escape space. Bridge-and-turn mechanics are required instead because they exploit the perpendicular angle by rotating toward or away from the opponent.
-
-**Q2**: Your opponent has heavy hip pressure on your ribs making breathing difficult - what is your immediate priority?
-**A**: First priority is establishing a frame with your free arm against their head and shoulder to create minimal breathing space and prevent complete smothering. Turn your body slightly toward them to angle your ribs and reduce direct compression. Focus on controlled diaphragmatic breathing using your belly rather than chest expansion. Do not waste energy on explosive escapes while oxygen-deprived. Once you can breathe adequately, begin systematically working escape progressions.
-
-**Q3**: What are the key frames you must establish before attempting any escape from scarf hold?
-**A**: Primary frame is your far arm (free arm) positioned against opponent's head/neck and shoulder to prevent complete smothering and maintain breathing space. Secondary frame involves protecting your neck by tucking chin and using near-side hand if possible to prevent deep crossface. Third frame is using your bottom leg to hook opponent's near leg, preventing mount transition and creating a barrier. These frames must be established before attempting escapes to prevent submission attacks during your escape attempts.
-
-**Q4**: Your opponent shifts their weight forward to transition to mount - what escape opportunity does this create?
-**A**: Forward weight shift creates space between their hips and your lower body, enabling backdoor escapes. Execute ghost escape by turning into them and coming to your knees as their forward momentum carries past you. Alternatively, use granby roll mechanics to invert toward their legs and recover guard. The key is timing - as their weight commits forward, their base near your hips weakens significantly. Move immediately when you feel the weight shift rather than waiting for them to complete the transition.
-
-**Q5**: How do you set up and execute the bridge-and-roll escape specific to scarf hold?
-**A**: First, grab opponent's far arm or gi material with your free hand and pull it across your body to remove their posting ability. Hook their near leg with your bottom leg to prevent them from basing out. Bump your hips toward them slightly to load their weight, then explosively bridge at 45-degree angle toward their trapped arm side while rolling them over their shoulder. The perpendicular angle means you're rolling them sideways rather than head-over-heels. Maintain the arm trap throughout the roll to prevent them from posting.
-
-**Q6**: What timing windows should you recognize for escape attempts from scarf hold bottom?
-**A**: Primary windows occur when opponent releases head control to attack submissions - this momentarily frees your head mobility for escape mechanics. Second window is when they shift weight to transition positions, creating space on one side. Third window is when they reach for grips or adjust arm control, weakening their structural connection. Fourth window follows their unsuccessful submission attempt when they must reset. Recognize these windows through feeling weight shifts and grip changes rather than visual cues.
-
-**Q7**: Your opponent begins attacking americana on your trapped arm - how do you defend while setting up escape?
-**A**: Immediately straighten your trapped arm and turn your thumb toward the ceiling to prevent the figure-four grip completion. Grip your own thigh or belt with the threatened hand to anchor it. The americana attack requires them to release some head control, creating an escape window. As they commit to the submission, use their compromised position to execute hip escape toward your free side or bridge-and-roll while their arms are occupied with the attack rather than base.
-
-**Q8**: How do you manage energy conservation while escaping from scarf hold over extended periods?
-**A**: Prioritize breathing and frame maintenance over escape attempts when heavily controlled. Work escapes in bursts using tactical timing windows rather than constant struggling. Chain escape attempts efficiently - if bridge fails, immediately flow to ghost escape or guard recovery rather than resetting and burning energy. Accept turtle position as valid intermediate escape rather than fighting for guard from disadvantaged angles. Rest between attempts while maintaining minimal defensive frames.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

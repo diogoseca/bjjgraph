@@ -166,6 +166,8 @@ The key defensive principle is to prevent the conditions that enable the triangl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Triangle Setup?</p>
+
 - Opponent has established a lapel configuration with fabric wrapped around your arm or threaded through your legs, creating a persistent grip that restricts your arm movement independently of their hand position
 - Opponent begins hip escaping to create a perpendicular angle while maintaining tension on the lapel—this angling motion is the immediate precursor to the leg swing over your shoulder
 - Opponent's collar or sleeve grip tightens as they begin pulling your head and shoulders downward—the posture break combined with lapel tension signals imminent triangle attempt
@@ -177,6 +179,8 @@ The key defensive principle is to prevent the conditions that enable the triangl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Triangle Setup?</p>
 
 - Address the lapel configuration first—strip the fabric control before the arm isolation deepens and triangle entry becomes inevitable
 - Maintain strong upright posture to deny the attacker the broken-posture prerequisite for the leg swing
@@ -191,6 +195,8 @@ The key defensive principle is to prevent the conditions that enable the triangl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Triangle Setup?</p>
 
 ### 1. Strip lapel grip and recover posture immediately by pushing off opponent's hips while driving your spine upright
 
@@ -228,6 +234,8 @@ The key defensive principle is to prevent the conditions that enable the triangl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Triangle Setup?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip early before arm isolation deepens, then recover posture and begin addressing the remaining lapel configuration. Prioritize removing the fabric from around your arm or leg before the opponent can re-establish the wrap. Once the lapel is cleared, initiate standard open guard passing.
@@ -243,6 +251,8 @@ When the triangle entry is partially blocked through knee insertion or stacking,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Triangle Setup?</p>
 
 ### 1. Ignoring the lapel configuration and only defending the triangle leg, treating it as a standard triangle defense
 
@@ -272,6 +282,8 @@ When the triangle entry is partially blocked through knee insertion or stacking,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Triangle Setup?</p>
+
 **Week 1-2** - Lapel grip recognition and stripping
 Partner establishes various lapel configurations at slow speed. Practice identifying when arm isolation has been achieved and drilling the grip strip sequence—controlling their gripping hand, creating slack in the fabric, then extracting your arm. Focus on early recognition rather than speed.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting with partner in established lapel g
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Lapel Triangle Setup is being initiated against you?
-**A**: The earliest cue is feeling the lapel configuration creating persistent arm isolation—one arm restricted by the fabric wrap while the other remains free. This one-in-one-out configuration is the prerequisite for triangle entry, and recognizing it before the opponent begins hip angling gives you the maximum defensive window to strip the lapel or adjust your arm position.
-
-**Q2**: Why is pulling backward a poor defensive choice against the Lapel Triangle Setup specifically?
-**A**: Pulling backward increases lapel tension because the fabric is wrapped around your body and tightens as you create distance. This deepens the arm isolation rather than relieving it. Additionally, the increased distance gives the attacker more space to complete their hip angle and leg swing. Forward or lateral movement is more effective because it compresses the attacker's hip space or creates slack in the fabric.
-
-**Q3**: When during the Lapel Triangle Setup sequence is the best moment to attempt your primary escape?
-**A**: The optimal escape window is during the transition when the attacker releases the lapel grip to complete the triangle lock with their legs. During this handoff, there is a brief moment where neither the fabric nor the legs are fully controlling your arm. Anticipating this transition and explosively posturing or extracting your arm during the handoff offers the highest probability of escape before the triangle consolidates.
-
-**Q4**: Your opponent has the lapel wrapped around your right arm and begins hip escaping to their left—what is your immediate defensive priority?
-**A**: Your immediate priority is preventing the perpendicular angle by driving forward into the opponent while simultaneously working to strip the lapel from your right arm. The hip escape to their left signals the triangle leg will come from that side. Drive your weight into them to compress the space they need for the leg swing, and use your free left hand to address the lapel configuration on your right arm rather than reaching across.
-
-**Q5**: How does defending the Lapel Triangle Setup differ from defending a standard closed guard triangle entry?
-**A**: The critical difference is the persistent arm isolation created by the lapel fabric. In standard triangle defense, freeing your arm is a grip fight against their hands. Against the lapel setup, the fabric maintains control independently of the attacker's hand strength, meaning standard grip breaks are insufficient. You must physically remove the fabric wrap from your arm or neutralize the entire configuration, which requires different defensive mechanics focused on creating slack in the material.
-
-
-
-</section>
 
 
 </main>

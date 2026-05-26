@@ -2,7 +2,7 @@
   "name": "Kuzure Kesa-Gatame",
   "slug": "kuzure-kesa-gatame",
   "description": "Master modified scarf hold in BJJ. Strategic guide covering control mechanics, submission setups, and escape prevention with complete perspective analysis.",
-  "variant_uniqueness": "Arm isolation for superior submission access",
+  "variant_uniqueness": "Trades head control for trapped arm submissions",
   "overview": "Kuzure Kesa-Gatame, or Modified Scarf Hold, represents a critical evolution of traditional scarf hold (Kesa Gatame) in Brazilian Jiu-Jitsu. While maintaining the fundamental side control framework, this variation trades the classic head control for an isolated arm position, creating enhanced submission opportunities while maintaining dominant control. The position emerged from judo's ne-waza (ground fighting) tradition and has been refined through decades of BJJ competition to become one of the most versatile and submission-rich variations of side control.\n\nFrom the top perspective, Kuzure Kesa-Gatame offers exceptional control combined with immediate submission threats. The practitioner sits beside the opponent with their hip pressed against the opponent's ribs, trapping one of the opponent's arms between their armpit and chest while maintaining a low, stable base. This arm isolation creates immediate armbar, americana, and kimura opportunities while the hip pressure prevents the opponent from turning into the practitioner or creating escape frames. The position's power lies in its dual nature: it functions simultaneously as a controlling pin and a submission platform, forcing opponents to defend multiple threats while managing constant pressure.\n\nFrom the bottom perspective, Kuzure Kesa-Gatame presents unique defensive challenges due to the arm isolation. Unlike traditional side control where both arms remain free to frame and create space, one arm is trapped, limiting defensive options significantly. The bottom practitioner must prioritize preventing the trapped arm from being fully extended (which leads to immediate armbar threat) while simultaneously working to recover the trapped arm and create enough space to escape. Understanding the biomechanical principles of this position—particularly how hip pressure and arm isolation work together—is essential for developing effective escape strategies.\n\nThe strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstated. It serves as a bridge position between standard side control and mount, offering superior submission opportunities compared to traditional side control while maintaining better base and stability than certain other variations. Competitors frequently transition to this position when they sense an opponent beginning to defend standard side control effectively, using the arm isolation to reset the control dynamic and create new attacking opportunities. The position also plays a crucial role in no-gi grappling, where the absence of gi grips makes traditional scarf hold controls less reliable, while the fundamental mechanics of Kuzure Kesa-Gatame remain highly effective.",
   "key_principles": [
     "Hip pressure toward opponent's ribs creates the foundation for all control and submissions",
@@ -80,7 +80,7 @@
       "Head position on far side of opponent prevents bridge and roll attempts by redirecting force",
       "Constant small adjustments in pressure and position prevent opponent from timing escapes"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?",
         "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction."
@@ -134,7 +134,7 @@
         "condition": "Else if opponent extends trapped arm attempting to create frame or push",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Far Side Armbar",
             "target": "Armbar Control",
             "probability": 75
           },
@@ -254,8 +254,8 @@
         "relationship": "Primary submission transition from trapped arm"
       },
       {
-        "name": "Armbar Finish",
-        "relationship": "High-percentage submission when arm extends"
+        "name": "Far Side Armbar",
+        "relationship": "High-percentage submission when trapped arm extends"
       },
       {
         "name": "Kimura",
@@ -291,15 +291,15 @@
     },
     "transitions": [
       {
-        "transition": "Americana",
+        "transition": "Americana from Kuzure Kesa-Gatame",
         "attempt_probability": 11
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Far Side Armbar",
         "attempt_probability": 10
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Kuzure Kesa-Gatame",
         "attempt_probability": 10
       },
       {
@@ -311,15 +311,15 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Paper Cutter Choke",
+        "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": 9
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Kuzure Kesa-Gatame",
         "attempt_probability": 10
       },
       {
-        "transition": "Breadcutter Choke",
+        "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": 8
       },
       {
@@ -369,7 +369,7 @@
       "Breathing management under pressure determines sustainability and decision-making quality",
       "Acceptance of position allows for strategic patience rather than panicked explosive efforts"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent shifts their weight forward to attack your trapped arm with an americana - what escape opportunity does this create?",
         "answer": "Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip."

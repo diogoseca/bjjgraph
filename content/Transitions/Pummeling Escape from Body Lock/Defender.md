@@ -146,6 +146,8 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pummeling Escape from Body Lock?</p>
+
 - Opponent's elbow begins pressing inward against the inside of your forearm in a rotational motion
 - Opponent rotates their hips 30-45 degrees to one side, creating visible space at their waist on the opposite side
 - Opponent lowers their level by bending their knees more deeply than defensive base requires, signaling the drop level pummel variant
@@ -158,6 +160,8 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pummeling Escape from Body Lock?</p>
 
 - Maintain constant chest-to-back seal to eliminate the space needed for pummel entries
 - Squeeze elbows tight against your own ribs to minimize gaps between your arms and the opponent's torso
@@ -172,6 +176,8 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pummeling Escape from Body Lock?</p>
 
 ### 1. Squeeze elbows inward and tighten chest seal to close the space before the pummel entry completes
 
@@ -209,6 +215,8 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pummeling Escape from Body Lock?</p>
+
 ### → [[Positions/Body Lock]]
 
 React immediately to the first pummel attempt by squeezing elbows inward and driving forward hip pressure. Close all space before the opponent's arm can thread inside your grip. Then immediately attack with a throw or mat return to punish the failed escape attempt.
@@ -224,6 +232,8 @@ When the opponent's pummeling creates enough movement to partially compromise yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pummeling Escape from Body Lock?</p>
 
 ### 1. Passively holding the body lock without attacking when pummeling attempts begin
 
@@ -253,6 +263,8 @@ When the opponent's pummeling creates enough movement to partially compromise yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pummeling Escape from Body Lock?</p>
+
 **Phase 1: Recognition Drilling** - Identifying pummeling attempts early
 Partner performs slow-speed pummeling entries while you practice recognizing the hip rotation, elbow pressure, and arm threading cues. Call out each recognition cue verbally as you feel it. Build pattern recognition without resistance to establish the sensory awareness foundation.
 
@@ -269,23 +281,6 @@ Start from body lock position with both players using their full toolsets. Defen
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a pummeling escape?
-**A**: The earliest cue is feeling their elbow pressing inward against the inside of your forearm in a rotational scooping motion, often preceded by a hip rotation of 30-45 degrees to one side. This hip rotation is a preparatory movement that creates space for the pummel entry. Recognizing the hip rotation gives you an additional half-second to react before the actual arm threading begins, which is enough time to squeeze your elbows inward and close the available space.
-
-**Q2**: Why should you treat pummeling attempts as triggers for your own offensive transitions rather than purely defensive reactions?
-**A**: The body lock is an inherently transitional position that degrades over time as the opponent continues making escape attempts. Each pummel weakens your grip incrementally, and purely defensive re-locking will eventually fail against a persistent opponent. By using pummeling attempts as triggers for throws, mat returns, or back take transitions, you convert the opponent's escape energy into offensive opportunities. Their movement and weight shifts during pummeling often create ideal conditions for your attacks.
-
-**Q3**: How do you maintain body lock control when the opponent successfully threads one arm inside your grip?
-**A**: When one arm gets inside, you have a narrow window to prevent the second. Immediately transition your grip lower on their torso where the underhook has not yet reached, maintaining the lock below their inserted arm. Simultaneously drive maximum forward hip pressure to keep them loaded and prevent them from establishing base for the second pummel. If re-locking below is not possible, immediately transition to back control by using the space created by their escape movement to insert your hooks while maintaining whatever grip connection remains.
-
-
-
-</section>
 
 
 </main>

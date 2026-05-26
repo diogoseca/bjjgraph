@@ -188,6 +188,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Body Lock Takedown?</p>
+
 - Maintain continuous chest-to-back connection throughout the entire takedown sequence to transfer all driving force directly into the opponent's center of gravity
 - Drive hips forward with constant progressive pressure to break opponent's posture before committing to the takedown, creating the structural compromise that enables the finish
 - Use your head as a steering wheel by pressing it firmly into opponent's far shoulder to create rotational force and directional control over their upper body
@@ -202,6 +204,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Body Lock Takedown?</p>
+
 - Body lock must be fully established with both arms wrapped around opponent's torso and hands locked securely using gable grip or similar configuration
 - Chest pressed firmly against opponent's back or side with zero space between bodies, ensuring complete force transfer
 - Opponent's posture partially broken through sustained forward hip pressure, indicating their base is compromised and ready to be driven through
@@ -214,6 +218,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Body Lock Takedown step by step?</p>
 
 1. **Confirm body lock grip integrity**: Verify both arms are locked tightly around opponent's torso with hands connected using gable grip or similar configuration. Chest must be pressed firmly against their back with no gaps. Drive hips forward to confirm posture control before committing to the takedown sequence.
 2. **Assess opponent's weight distribution**: Read where your opponent's weight is centered by feeling their balance through your chest-to-back connection. Identify which foot carries more load and which direction they are leaning or resisting. This determines the optimal angle of attack for collapsing their base with minimum effort.
@@ -243,6 +249,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Body Lock Takedown?</p>
+
 - **Opponent sprawls explosively, dropping hips away and widening base to resist forward drive** (Effectiveness: High) - Your Response: Switch from forward drive to lateral angle change. Step to the opposite side and redirect driving force where the sprawl has not created resistance. If the sprawl is deep, transition to a mat return by pulling them backward or switch to body lock pass if they turtle. → Leads to [[Positions/Body Lock]]
 - **Opponent executes hip switch reversal, using your forward momentum to rotate and drive you off-balance** (Effectiveness: Medium) - Your Response: Recognize the hip switch early by feeling the rotational force and immediately square your hips to eliminate the turning angle. Re-drive forward pressure with chest connection before the reversal develops. If caught mid-reversal, release the lock and fight for top position during the scramble. → Leads to [[Positions/Half Guard]]
 - **Opponent drops weight and widens base significantly, creating an immovable low stance that resists forward and lateral drives** (Effectiveness: Medium) - Your Response: Transition from a driving takedown to a lift-based approach. Drive your hips under their center of gravity and elevate slightly before redirecting sideways. Alternatively, use the stalemate to re-establish hip pressure and set up a different attack angle where their widened stance creates vulnerability. → Leads to [[Positions/Body Lock]]
@@ -253,6 +261,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Body Lock Takedown?</p>
 
 ### 1. Attempting the takedown before fully establishing the body lock grip and chest connection
 
@@ -287,6 +297,8 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Body Lock Takedown (Attacker)?</p>
+
 **Phase 1: Mechanics** - Body lock grip, posture breaking, and basic driving mechanics
 Practice establishing the body lock from various standing positions and drilling the fundamental driving motion with a cooperative partner. Focus on grip integrity, chest connection, hip pressure, and head placement without resistance. Perform 30-50 repetitions per session emphasizing smooth, technically correct movement patterns.
 
@@ -304,42 +316,12 @@ Apply the body lock takedown in positional sparring starting from body lock with
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the body lock takedown?
-**A**: The optimal timing is within 1-3 seconds of establishing the body lock, before the opponent settles their base and establishes defensive measures. The window opens specifically when you feel the opponent's weight shift in response to your hip pressure, indicating their base is compromised and they are vulnerable to being driven off-balance. Hesitating beyond this window allows the defender to widen their stance, lower their center of gravity, and prepare effective sprawl defenses that dramatically reduce takedown success rates.
-
-**Q2**: How does the opponent's weight distribution determine your angle of attack?
-**A**: Drive the takedown in the direction the opponent is already leaning or has committed their weight. If their weight is primarily on their left foot, attack to their left side by stepping your right foot outside their left foot and driving through their left shoulder. If they push backward against your pressure, use their resistance by suddenly changing direction and accelerating through the angle where they have no supporting base. The fundamental principle is attacking the direction where the opponent has already committed their weight, making biomechanical resistance impossible.
-
-**Q3**: What is the most critical mechanical principle during the driving phase?
-**A**: Maintaining continuous chest-to-back connection throughout the entire driving phase is the most critical mechanical principle. This connection ensures all force generated by your legs and hips transfers directly through your torso into the opponent's center of gravity without energy loss. Breaking chest connection during the drive allows the opponent to insert frames, create distance, or rotate away from the driving force. Your chest functions as the primary control surface that keeps the opponent locked into your driving trajectory throughout the takedown.
-
-**Q4**: What grip configuration provides the strongest connection for the takedown finish?
-**A**: The gable grip with palms pressed together and fingers interlocked provides the strongest connection for the takedown finish because it creates a unified lock that distributes force evenly across both hands and resists separation from any angle. Position the gable grip at the opponent's centerline slightly below their navel for maximum control over their center of mass. Ensure both wrists are straight and the grip is tight before committing to the drive. The rear naked choke grip is a viable alternative when you anticipate transitioning to back control rather than side control.
-
-**Q5**: Your opponent sprawls hard as you initiate the takedown - how do you adjust?
-**A**: When the opponent sprawls, their hips drop away but their upper body remains connected to your chest. Switch from a forward drive to a lateral angle change by stepping to the opposite side and redirecting force where the sprawl has not created resistance. If their sprawl is deep and they begin turtling, transition to a mat return by pulling their torso backward over your hips, or switch to a body lock pass. The critical error is continuing to drive into a strong sprawl, which wastes energy against a well-braced defense rather than exploiting the angles the sprawl creates.
-
-**Q6**: What role does head positioning play in the body lock takedown?
-**A**: Head positioning creates directional control and rotational force during the takedown. By pressing your head into the opponent's far shoulder, you create a turning moment that rotates their torso away from the driving direction, compromising their ability to square up and resist with both legs equally. Your head provides a third contact point alongside chest and grip that prevents the opponent from turning to face you. Incorrect head positioning such as keeping it behind or above the opponent eliminates this rotational advantage and reduces takedown effectiveness significantly.
-
-**Q7**: When should you release the body lock grip during the takedown sequence?
-**A**: Release the body lock grip only after your opponent has contacted the mat and you have begun establishing side control with crossface and hip control secured. The grip should be maintained throughout the entire descent and initial landing phase. Releasing prematurely during the drive or landing allows the opponent to insert defensive frames, recover guard, or scramble to a neutral position. Transition from the body lock to crossface and hip control as your new control mechanisms before fully releasing the locked hands.
-
-**Q8**: Your opponent attempts to sit to guard as you drive forward - what is your response?
-**A**: Follow their descent while maintaining the body lock grip and chest connection. As the opponent sits, use their downward movement to drive through them and achieve top position with your body lock intact. If they successfully close guard, immediately begin working to pass using the existing body lock control as a passing grip. Alternatively, if you feel them beginning to sit, accelerate your driving pressure to complete the takedown to side control before they can establish guard. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Body Lock Takedown?</p>
 
 The body lock takedown involves controlled descent to the mat and carries inherent risk of impact injuries. Practitioners must ensure adequate mat space before attempting takedowns and check for other training pairs in the landing zone. The driving force must be controlled to prevent slamming, which is prohibited in most BJJ competition rulesets and dangerous in training. When drilling, begin with cooperative partners on soft surfaces and increase resistance gradually. The defender should know how to safely receive takedowns by tucking their chin, protecting their head, and absorbing impact through controlled rolling rather than bracing with extended arms. Both practitioners must communicate clearly during drilling to prevent uncontrolled landings.
 

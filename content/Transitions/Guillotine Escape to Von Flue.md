@@ -212,9 +212,9 @@ The Guillotine Escape to Von Flue occupies a critical junction in the BJJ positi
 
 - [[Positions/North-South]] - Alternative positional advancement available after escaping the guillotine
 
-- [[Submissions/Standing Guillotine from Clinch]] - Related guillotine attack that can lead to the guard guillotine scenario
+- [[Positions/Clinch]] - Standing position where guillotine attacks commonly originate before pulling to guard
 
-- [[Submissions/Guillotine from Butterfly Guard]] - Common guillotine setup that this technique counters
+- [[Positions/Butterfly Guard]] - Common guard position from which guillotine setups occur that this technique counters
 
 - [[Transitions/Arm in Guillotine Variation]] - Guillotine variation where Von Flue counter is still applicable with modified mechanics
 

@@ -210,7 +210,7 @@ The armbar from clamp guard sits at the center of a triangular submission system
 
 - [[Transitions/Arm Extraction from Clamp Guard]] - Opponent's primary defensive transition that this armbar targets and exploits
 
-- [[Transitions/Armbar Finish]] - Follow-up submission transition from armbar control to game-over
+- [[Armbar from Armbar Control]] - Follow-up submission finish from armbar control position to game-over
 
 - [[Positions/Omoplata Control]] - Tertiary submission destination when opponent bends arm defensively against the armbar
 
@@ -218,7 +218,7 @@ The armbar from clamp guard sits at the center of a triangular submission system
 
 - [[Positions/Closed Guard]] - Alternative guard position if clamp is lost before armbar entry completes
 
-- [[Submissions/Armbar from Mount]] - Related armbar entry from a different position sharing core finishing mechanics
+- [[Transitions/Armbar from North-South]] - Related armbar entry from a different position sharing core finishing mechanics
 
 
 </section>

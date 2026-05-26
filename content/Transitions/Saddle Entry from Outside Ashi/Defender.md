@@ -162,6 +162,8 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Saddle Entry from Outside Ashi?</p>
+
 - Opponent shifts weight to their free leg and plants it firmly on the mat as a posting base for rotation
 - Opponent controls your foot or ankle with one or both hands, indicating they are neutralizing your submission threat before initiating counter-movement
 - Opponent begins rotating their trapped-leg hip upward or over your body rather than pulling their leg straight out for escape
@@ -174,6 +176,8 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Saddle Entry from Outside Ashi?</p>
 
 - Maintain a tight triangle configuration at all times to prevent opponent from rotating through your leg control
 - Threaten submissions constantly to keep opponent focused on defense rather than counter-entanglement opportunities
@@ -188,6 +192,8 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Saddle Entry from Outside Ashi?</p>
 
 ### 1. Tighten triangle and pull opponent's leg back into deep entanglement
 
@@ -225,6 +231,8 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Saddle Entry from Outside Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Prevent the entry entirely by maintaining tight triangle control and attacking the exposed heel when opponent initiates the backstep. The tighter your triangle and the more active your submission threats, the less likely the opponent will find an opening for counter-entanglement.
@@ -240,6 +248,8 @@ If the opponent's entry partially succeeds and your outside ashi is compromised,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Saddle Entry from Outside Ashi?</p>
 
 ### 1. Allowing triangle to become loose during grip adjustments or submission attempts
 
@@ -269,6 +279,8 @@ If the opponent's entry partially succeeds and your outside ashi is compromised,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Saddle Entry from Outside Ashi?</p>
+
 **Phase 1: Recognition Drills** - Identifying backstep telegraphs from outside ashi-garami bottom
 Partner practices saddle entry mechanics at slow speed while you identify each telegraph: free leg posting, foot control grip, hip rotation initiation. Call out each cue verbally. Build pattern recognition so telegraphs trigger automatic defensive responses before conscious analysis.
 
@@ -285,29 +297,6 @@ Start from position where partner has partially or fully established saddle afte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a Saddle Entry rather than a standard escape?
-**A**: The earliest cue is the opponent planting their free leg firmly on the mat in a posting position while simultaneously controlling your foot or ankle with their hands. Standard escape attempts involve pulling the leg straight out or standing up to create distance, while saddle entry preparation involves accepting the entanglement and establishing rotational base. When you see them settle into the position rather than fighting to leave it, they are likely planning a counter-entanglement.
-
-**Q2**: Why is maintaining constant submission pressure the best prevention against counter-entanglement attempts?
-**A**: Constant submission pressure forces your opponent to dedicate both hands to protecting their own heel and ankle, leaving them no free hands to control your foot which is a prerequisite for the backstep. Additionally, submission threat keeps their mental focus on defense rather than offense. An opponent who is actively defending a heel hook cannot simultaneously plan and execute a counter-entanglement rotation requiring precise timing and committed movement.
-
-**Q3**: Your opponent begins the backstep and their heel becomes briefly exposed - should you release your triangle to pursue the heel hook?
-**A**: No, you should not release your triangle to pursue the heel hook. Instead, maintain your triangle squeeze while reaching for the heel with your upper body. Releasing the triangle to chase the heel gives the opponent exactly what they need to complete the rotation unimpeded. If you can catch the heel while maintaining leg control, you get both the submission opportunity and the prevention of the counter-entanglement. If you cannot reach the heel without releasing the triangle, prioritize maintaining your triangle control.
-
-**Q4**: How should you adjust your outside ashi-garami control to specifically defend against the backstep entry?
-**A**: To defend specifically against the backstep, focus on three adjustments: first, keep your outside leg crossing high on their thigh rather than low near the knee, making it harder for them to rotate over; second, maintain active pulling pressure with your inside leg to keep their trapped leg deep in your entanglement; third, angle your hips slightly away from their free leg posting side to reduce the rotational leverage they can generate. These adjustments make the backstep significantly more difficult without compromising your submission options.
-
-**Q5**: If the opponent successfully enters saddle despite your prevention attempts, what is your immediate defensive priority?
-**A**: Your immediate priority is hiding your heel by rotating your knee inward toward your centerline while flexing your foot. Do not attempt an immediate escape, as the opponent has just established position and their control mechanics are strongest during initial consolidation. After protecting the heel, begin systematic grip fighting on their hands to prevent them from securing heel control. Only after addressing grips should you begin working hip clears and leg extraction through the established saddle escape hierarchy.
-
-
-
-</section>
 
 
 </main>

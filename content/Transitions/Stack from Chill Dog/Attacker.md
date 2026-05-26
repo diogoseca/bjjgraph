@@ -190,6 +190,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack from Chill Dog?</p>
+
 - Drive pressure through your chest and hips into the opponent's upper back, not through your arms or hands which are weaker and less stable
 - Walk your feet forward incrementally to progressively load the opponent's weight forward past their hands
 - Maintain heavy hip-to-back contact throughout the stack to prevent the opponent from creating space to escape laterally
@@ -204,6 +206,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack from Chill Dog?</p>
+
 - Chest contact established on opponent's upper back with weight distributed forward through your torso
 - Hips positioned directly behind opponent's hips to create a straight-line pressure vector through their center of gravity
 - At least one hand controlling opponent's near hip or belt line to prevent lateral escape during the stacking sequence
@@ -216,6 +220,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack from Chill Dog step by step?</p>
 
 1. **Establish chest-to-back pressure**: Lower your chest onto the opponent's upper back between the shoulder blades. Distribute your weight forward through your chest rather than sitting back on your knees. Your sternum should be the primary contact point, creating a broad pressure surface that is difficult for the opponent to shift away from.
 2. **Secure hip control**: Place at least one hand on the opponent's near-side hip, gripping the hip bone or belt line. This prevents the opponent from turning their hips away from your pressure and escaping laterally. In no-gi, use a cupping grip on the hip crest for maximum control over their base and movement.
@@ -245,6 +251,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack from Chill Dog?</p>
+
 - **Opponent widens base and posts hands wide to resist forward pressure** (Effectiveness: Medium) - Your Response: Shift to a perpendicular angle and use the walk-around stack variant, or take advantage of the widened base to insert a near hook for back control since the elbow-to-knee frame is now open. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Opponent executes Granby roll using stacking momentum to invert and recover guard** (Effectiveness: High) - Your Response: Follow the roll tightly and work to establish top position inside their guard rather than allowing them to create distance. If you anticipate the roll, stop forward pressure momentarily and switch to hook insertion as they begin rotating. → Leads to [[Positions/Closed Guard]]
 - **Opponent sits through to butterfly guard by turning hips and establishing hooks** (Effectiveness: Medium) - Your Response: As they turn, drive your near knee across their thigh to prevent the butterfly hook from establishing. Use the turning motion to advance to half guard top by catching their far leg before they can recover full guard structure. → Leads to [[Positions/Closed Guard]]
@@ -256,6 +264,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack from Chill Dog?</p>
 
 ### 1. Using arms to push opponent forward instead of driving through chest and hips
 
@@ -295,6 +305,8 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack from Chill Dog (Attacker)?</p>
+
 **Phase 1: Pressure Mechanics** - Developing proper weight distribution and chest pressure application
 Partner holds Chill Dog position passively while you practice establishing chest-to-back contact, walking feet forward, and feeling the weight transfer. Focus on using body weight rather than arm strength. Partner provides verbal feedback on where they feel pressure. 10-minute sessions.
 
@@ -312,39 +324,12 @@ Start every round in Chill Dog with partner defending freely. Score for successf
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Where should you place your chest pressure during the Stack from Chill Dog and why?
-**A**: Chest pressure should be placed on the opponent's upper back between the shoulder blades. This location creates maximum forward loading on the opponent's hands and destabilizes the rounded back posture most effectively. Pressure placed too low near the hips actually helps the opponent maintain base by pushing their weight back toward their knees. The upper back is the fulcrum point where forward pressure has the greatest mechanical advantage for collapsing the turtle structure.
-
-**Q2**: Your opponent suddenly widens their base and posts their hands wide during your stacking attempt - how do you adapt?
-**A**: The widened base indicates they are abandoning the compact elbow-to-knee frame to resist your forward pressure. This actually opens new attack opportunities. You can shift to a perpendicular angle for a walk-around stack variant, or take advantage of the broken elbow-to-knee connection to insert a near hook for back control. The widened base that resists the stack simultaneously exposes the gaps that other attacks exploit, creating the exact dilemma-based pressure that makes the stack valuable even when it does not succeed directly.
-
-**Q3**: What is the critical entry requirement before initiating the stacking sequence?
-**A**: You must have chest contact established on the opponent's upper back and at least one hand controlling their near hip before beginning the stack. Without chest contact, you cannot generate the sustained forward pressure needed to load their weight forward. Without hip control, the opponent can simply rotate their hips away from your pressure and escape laterally, negating the entire stacking sequence regardless of how much forward force you generate.
-
-**Q4**: Why is sustained gradual pressure more effective than explosive bursts for the stack?
-**A**: Explosive bursts allow the opponent to time counter-movements because they can feel the loading phase before the burst. A timed Granby roll or sit-through during your explosion uses your own momentum against you. Sustained gradual pressure denies the opponent a clear timing window for their counter. Each incremental step forward adds a small amount of load that is individually manageable but cumulatively overwhelming. The opponent cannot find a moment to escape because the pressure never releases.
-
-**Q5**: You feel the opponent's elbows begin separating from their knees as your pressure builds - what should you do immediately?
-**A**: This is the critical inflection point where the defensive frame is failing. You must continue driving forward without pause to follow through the collapse. Do not stop to readjust or switch techniques at this moment. Continue your forward pressure and be ready to immediately establish crossface and underhook as the opponent transitions from turtle to a flat or side-lying position. The window between frame collapse and guard recovery is one to two seconds, so immediate follow-through is essential.
-
-**Q6**: What grip should you use on the opponent's hip in no-gi and why is hip control essential?
-**A**: In no-gi, use a cupping grip on the opponent's hip crest where the iliac bone protrudes, wrapping your fingers over the top of the hip bone. This grip provides the most secure control without fabric to grab. Hip control is essential because it prevents the opponent from rotating their hips away from your stacking pressure. Without hip control, the opponent can simply turn laterally to shed your forward pressure, and your chest drive translates into nothing. The hip grip anchors your pressure vector through their center of gravity.
-
-**Q7**: How does the Stack from Chill Dog create value for your broader turtle attack system even when the stack itself fails?
-**A**: The stack creates dilemmas that force the opponent into defensive reactions that expose vulnerabilities to other attacks. When the opponent widens their base to resist the stack, their elbow-to-knee frame opens for hook insertion and back takes. When they post hands forward, their head becomes accessible for front headlock attacks. When they try to sit through, they expose their back during the rotation. Even a failed stack degrades the opponent's defensive position and creates chain-attack opportunities, making it a valuable opening technique in any turtle attack sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack from Chill Dog?</p>
 
 The Stack from Chill Dog involves driving an opponent's weight forward onto their neck and shoulders. Always apply stacking pressure gradually and progressively rather than in sudden explosive bursts. Be aware of your training partner's cervical spine health and stop immediately if they report any neck discomfort or pain. Never force the stack against a rigid neck position where the opponent's head is trapped against the mat. Release pressure immediately if your partner taps or verbally signals discomfort. Athletes with pre-existing neck injuries should communicate limitations before drilling this technique. In training, focus on controlled pressure application and allow your partner to tap or escape rather than driving through at full intensity.
 

@@ -165,6 +165,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lockdown (Top)?</p>
+
 - Top practitioner's leg is trapped in opponent's figure-four lockdown configuration, with mobility severely restricted and base compromised to only free leg and upper body posting
 - Top practitioner must distribute weight carefully to avoid being swept while working to extract trapped leg, typically maintaining wide base with free leg
 - Bottom player actively extends lockdown to off-balance top player, requiring constant posture and base maintenance from top player to prevent sweeps
@@ -178,6 +180,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Lockdown (Top)?</p>
+
 - Top position in half guard with one leg trapped in opponent's lockdown configuration
 - Understanding of lockdown mechanics and common attack sequences
 - Ability to maintain posture and base while trapped leg is controlled
@@ -190,6 +194,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Lockdown?</p>
 
 - Maintain wide base with free leg to prevent being swept by lockdown extensions
 - Establish dominant upper body control (crossface or shoulder pressure) to flatten opponent and limit mobility
@@ -205,6 +211,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lockdown (Top)?</p>
 
 **If bottom player has strong underhook and is attempting Old School sweep:**
 - Execute **[[Crossface Control/Attacker|Crossface Control]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
@@ -233,6 +241,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Lockdown?</p>
 
 ### 1. Allowing bottom player to secure strong underhook without fighting for dominant upper body control
 
@@ -272,6 +282,8 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Lockdown attacks?</p>
+
 ### Lockdown Escape Drill
 
 Starting trapped in lockdown, practice leg extraction sequences using various methods (circular motion, hip pressure, angle changes). Partner maintains lockdown with moderate resistance. Focus on maintaining posture and base throughout extraction.
@@ -304,38 +316,6 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical first step when finding yourself trapped in lockdown from top position?
-**A**: The critical first step is establishing dominant upper body control through crossface or heavy shoulder pressure before attempting any leg extraction. Without upper body control, the bottom player can freely attack with sweeps and submissions. By flattening the opponent first, you limit their hip mobility and offensive options, making subsequent leg extraction significantly easier and safer.
-
-**Q2**: Your opponent begins extending the lockdown aggressively to off-balance you - what adjustment should you make?
-**A**: When opponent extends the lockdown aggressively, drive your weight forward through your chest and shoulder into their upper body rather than pulling backward. Pulling back plays into their strength and opens Electric Chair opportunities. Forward pressure compresses their space and makes extensions less effective. Simultaneously, widen your free leg base to stabilize against the off-balancing force.
-
-**Q3**: Why should you avoid attempting to extract your trapped leg by pulling straight backward?
-**A**: Pulling straight backward against the lockdown actually strengthens the opponent's control because the lockdown mechanism is designed to resist linear backward force. It also extends your leg into the Electric Chair position, giving them their primary submission opportunity. Instead, use circular motion and angle changes combined with hip pressure to extract the leg, working with the mechanics rather than directly against them.
-
-**Q4**: What are the essential grips and controls for maintaining top position against lockdown?
-**A**: The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles.
-
-**Q5**: You notice your opponent momentarily relaxes their lockdown tension to adjust their underhook grip - what should you do?
-**A**: This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking.
-
-**Q6**: Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?
-**A**: Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities.
-
-**Q7**: What weight distribution prevents the whip-up sweep while maintaining pressure?
-**A**: Keep your weight distributed forward through your chest onto their upper torso with your hips relatively low but not heavy on their hips. Your free leg posts wide for base with the knee pointed outward. This distribution creates downward pressure that makes it difficult for them to come up for the whip-up while maintaining enough mobility to adjust when they extend. Avoid sitting back with weight on your heels.
-
-**Q8**: How do you recover if the bottom player begins successfully executing the whip-up motion?
-**A**: If they begin the whip-up, immediately drive your weight forward and down through your crossface, simultaneously posting your free hand far to the threatened side. If they continue coming up, you may need to accept the scramble to dogfight position and immediately fight for your own underhook. Alternatively, switch to a front headlock if they expose their neck during the transition. Never continue trying to pass once the whip-up is in motion.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

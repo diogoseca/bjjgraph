@@ -190,6 +190,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Drag from Headquarters?</p>
+
 - Convert existing headquarters knee-line control into ankle or heel grip before initiating the drag motion, maintaining constant leg connection throughout the transition
 - Drive hips laterally rather than pulling with arms alone, using full-body mechanics to generate the force needed to displace the opponent's leg across their centerline
 - Time the drag to coincide with the opponent's leg extension or frame creation, exploiting the mechanical vulnerability created by their defensive reaction
@@ -204,6 +206,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Drag from Headquarters?</p>
+
 - Established headquarters position with one of the opponent's legs controlled between your legs and knee driven toward the mat
 - Stable triangulated base with posting leg wide and perpendicular to the opponent's body, providing platform for lateral hip drive
 - Control hand positioned on the opponent's knee, thigh, or ankle with grip strong enough to redirect leg direction during the drag
@@ -216,6 +220,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Drag from Headquarters step by step?</p>
 
 1. **Transition grip to ankle or heel**: From headquarters with one leg controlled between your legs, shift your control hand from the knee-line grip down to the opponent's ankle, heel, or pants cuff. Use a firm C-grip that wraps around the ankle joint, allowing you to control the direction the leg travels. Maintain downward knee pressure with your legs during the grip transition to prevent the opponent from retracting their leg.
 2. **Angle posting leg for lateral drive**: Adjust your posting foot by turning it outward approximately 45 degrees and widening your base slightly. This repositioning loads your hips for the lateral drive needed to execute the drag. Your weight should shift onto the ball of your posting foot, coiling your hips like a spring preparing to release sideways across the opponent's body.
@@ -245,6 +251,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Drag from Headquarters?</p>
+
 - **Opponent pummel-kicks the dragged leg free before pin is established** (Effectiveness: High) - Your Response: Maintain grip on the ankle and immediately re-attempt the drag with a tighter hip connection, or transition to a knee cut if the leg retraction creates an inward turning reaction → Leads to [[Positions/Headquarters Position]]
 - **Opponent frames on shoulder and hip escapes away to create distance during the drag** (Effectiveness: Medium) - Your Response: Follow the hip escape by advancing your chest pressure laterally, collapsing their frames with your bodyweight. If the frames are too strong, abandon the drag and reset to headquarters for another passing attempt → Leads to [[Positions/Headquarters Position]]
 - **Opponent underhooks your far arm during the drag transition and initiates a sweep** (Effectiveness: High) - Your Response: Immediately whizzer the underhook and sprawl your hips back to kill the sweep angle. Use the whizzer to re-establish upper body control before continuing the drag sequence → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Drag from Headquarters?</p>
 
 ### 1. Pulling the leg with arms only instead of driving hips laterally
 
@@ -295,6 +305,8 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Drag from Headquarters (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip transition and hip drive coordination
 Practice the grip change from headquarters knee control to ankle grip with a compliant partner. Drill the lateral hip drive motion in isolation, focusing on coordinating the ankle pull with full-body hip displacement. Perform 20 repetitions per side with no resistance, emphasizing smooth grip transitions and proper base maintenance throughout the drag motion.
 
@@ -315,39 +327,12 @@ Positional sparring starting from headquarters with full resistance. Passer must
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the leg drag from headquarters?
-**A**: The optimal window opens when the opponent extends or straightens their controlled leg, typically through foot-on-hip pushing, arm framing to create distance, or attempting to recover full guard by straightening the knee. The extended leg provides a longer lever arm for the drag and reduces the opponent's ability to retract. Forcing a reaction from headquarters through pressure or feinted knee cuts creates these extension reactions reliably.
-
-**Q2**: What grip is most critical for executing the drag motion and where should it be placed?
-**A**: The ankle or heel grip is the most critical grip, placed around the opponent's ankle joint using a C-grip that wraps the heel or Achilles area. This grip provides maximum leverage for redirecting the leg across the centerline. In the gi, a pants grip at the ankle cuff works equivalently. The grip must be secured before initiating the hip drive, as attempting to drag with a knee-level grip provides insufficient mechanical advantage to complete the motion against resistance.
-
-**Q3**: Your opponent pushes your knee with their foot-on-hip while you are in headquarters - how do you convert this into a leg drag?
-**A**: The foot-on-hip push straightens their leg and exposes the ankle for grip. Capture the pushing foot at the ankle with your control hand, strip it off your hip by pulling laterally, and immediately execute the drag motion across their centerline. Their own pushing force creates momentum that assists the drag. The key timing detail is capturing the ankle before they retract the foot, which requires reading the push as it initiates rather than reacting after the fact.
-
-**Q4**: What is the most common mechanical error that causes the leg drag to fail from headquarters?
-**A**: The most common error is pulling with the arms alone without driving the hips laterally. Arm-only pulling generates insufficient force to overcome the opponent's hip resistance and leg retraction strength. The correct mechanic uses the grip hand as a guide while the hips provide the primary driving force by moving laterally across the opponent's body. Practitioners who fix this single error see immediate improvement in leg drag completion rates because full-body mechanics generate several times more force than isolated arm pulls.
-
-**Q5**: How should your hips move during the drag motion to generate maximum lateral force?
-**A**: Your hips should drive laterally in the same direction as the drag, moving as a coordinated unit with your grip hand. The posting foot turns outward to load the lateral drive, and the motion resembles a lateral hip thrust rather than a pulling action. Your center of gravity shifts sideways while maintaining a low base. The hip bone should end up directly over the pinned leg, using gravity and skeletal structure to maintain the pin rather than muscular tension.
-
-**Q6**: Your opponent begins recovering half guard by hooking your trailing leg during your leg drag attempt - what adjustment do you make?
-**A**: If the opponent catches a half guard hook during the drag, do not abandon the drag entirely. Continue driving your upper body control forward while using your free leg to backstep out of the half guard hook. The upper body control prevents the opponent from consolidating half guard even if they momentarily catch your leg. Alternatively, accept the half guard catch and immediately transition your weight to a knee slice or smash pass from the new half guard position, using the momentum from the failed drag to power the alternative pass.
-
-**Q7**: What distinguishes the leg drag entry from headquarters compared to a leg drag from open guard?
-**A**: From headquarters, the passer already has knee-line control, a triangulated base, and the opponent's hip mobility restricted. This eliminates the need for the initial grip fight and distance closing that open guard leg drags require. The headquarters leg drag is a shorter, more direct motion because the leg is already partially controlled. The trade-off is that the opponent knows a pass is imminent from headquarters, so their defensive reactions are more prepared. The headquarters version compensates through the systematic decision tree where defending the leg drag opens other passes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Drag from Headquarters?</p>
 
 The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal.
 

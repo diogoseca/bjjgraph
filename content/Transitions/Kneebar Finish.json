@@ -15,7 +15,7 @@
   "from_position": "Carni/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Kneebar",
       "probability": 65,
       "result": "success"
     },
@@ -62,10 +62,6 @@
     {
       "name": "Saddle",
       "relationship": "Alternative control position accessible from Carni when heel hook is defended"
-    },
-    {
-      "name": "Game Over",
-      "relationship": "Terminal state reached upon successful kneebar tap"
     },
     {
       "name": "Half Guard",
@@ -225,7 +221,7 @@
         "description": "Full positional sparring from Carni with all submissions available. Practice recognizing optimal moments for kneebar vs heel hook based on opponent's defensive choices."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Kneebar Finish from Carni?",
         "answer": "The primary goal is to hyperextend the opponent's knee joint by creating a fulcrum with your hip crease against their knee while controlling their ankle and preventing leg bend. This attacks the hyperextension plane of the knee, causing damage to the posterior ligament structures if the opponent does not tap."
@@ -353,7 +349,7 @@
         "correction": "Use the defensive movement from the kneebar as an opportunity to extract your leg entirely and recover to half guard or standing"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important thing to avoid doing when trapped in Carni to prevent the kneebar?",
         "answer": "Never fully extend your trapped leg while in Carni. Leg extension is the primary trigger that enables the attacker to transition from heel hook control to kneebar mechanics. Maintain a slight bend in your knee at all times, using hip movement and upper body positioning to create distance rather than straightening your leg. The attacker is specifically waiting for this extension to switch attacks."

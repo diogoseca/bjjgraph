@@ -164,6 +164,8 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Finish Buggy Choke?</p>
+
 - Opponent's chest weight drops heavily onto your back with hips pinning your near hip, indicating transition from control to finishing commitment
 - Choking hand rotates to full palm-up orientation and you feel wrist bone pressing against the side of your neck rather than forearm on the back of your neck
 - Opponent's head drives tight against your far shoulder while their body shifts perpendicular to your spine, eliminating your rotational freedom
@@ -176,6 +178,8 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Finish Buggy Choke?</p>
 
 - Address the primary threat immediately - grip depth on the choking hand determines whether the finish succeeds or fails
 - Create movement and rotation toward the choking arm to disrupt perpendicular geometry rather than remaining static
@@ -190,6 +194,8 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Finish Buggy Choke?</p>
 
 ### 1. Two-on-one grip strip on the primary choking hand by grabbing opponent's wrist with both hands and peeling it away from your collar while driving posture upward
 
@@ -227,6 +233,8 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Finish Buggy Choke?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Strip the primary choking grip using two-on-one hand fighting on the attacker's wrist, peeling it away from your collar. Simultaneously drive posture upward to create space. This resets to the control position without finishing pressure, giving you another defensive window to escape turtle entirely.
@@ -242,6 +250,8 @@ Sit to guard by driving your near hip to the mat and rotating to face the attack
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Finish Buggy Choke?</p>
 
 ### 1. Remaining static in turtle and relying solely on grip fighting without creating any body movement
 
@@ -276,6 +286,8 @@ Sit to guard by driving your near hip to the mat and rotating to face the attack
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Finish Buggy Choke?</p>
+
 **Week 1-2** - Recognition and grip stripping mechanics
 Partner establishes buggy choke control at 25% resistance and slowly transitions to finishing pressure. Practice recognizing each recognition cue in sequence: body weight shift, wrist-on-neck contact, perpendicular angle. Drill two-on-one grip stripping mechanics 30+ repetitions per session. Focus on proprioceptive awareness without time pressure.
 
@@ -292,29 +304,6 @@ Full resistance positional sparring starting from buggy choke control with finis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to address when defending the Finish Buggy Choke?
-**A**: The primary threading arm with the palm-up collar grip is the mechanical core of the entire choke. Even without the secondary grip, this arm maintains choking capability through radius bone pressure on the carotid. Use two-on-one grip fighting to strip this wrist from your collar rather than fighting the secondary supporting grip.
-
-**Q2**: Your opponent has both grips locked and is beginning to drive their shoulder toward the mat - what is your priority?
-**A**: At this stage, grip fighting alone will not save you. Your priority is immediate body movement to disrupt the finishing angle. Sit to guard by driving your near hip to the mat and rotating to face them, accepting half guard position. The perpendicular angle elimination immediately reduces choking pressure even if grips remain. Tap if you cannot create movement before pressure peaks.
-
-**Q3**: Why is rolling away from the choking arm a dangerous defensive choice?
-**A**: Rolling away tightens the collar grip because your rotational movement drives your neck deeper into the palm-up grip, actually accelerating the choke. The direction of rotation compounds the existing choking pressure. Additionally, the rolling motion exposes your back and may transition directly into truck or back control positions where the attacker has even more submission options.
-
-**Q4**: When should you tap rather than continue fighting the Finish Buggy Choke?
-**A**: Tap immediately when you feel bilateral carotid pressure with vision changes, tingling, or lightheadedness, as unconsciousness follows within 2-3 seconds. Also tap when full finishing pressure is applied and you have exhausted movement options without creating any angle change or grip reduction. In training, always err on the side of tapping early to protect your brain and allow your partner to develop proper progressive pressure technique.
-
-**Q5**: How does sitting to guard address the choking mechanics even if the opponent maintains their collar grip?
-**A**: Sitting to guard eliminates the perpendicular body angle that creates the choking geometry. In half guard, the attacker's body is no longer positioned to drive their radius bone into your carotid with shoulder-to-mat pressure. The grip may remain, but without perpendicular angle and body weight mechanics, it becomes a loose collar grip rather than a functional choke. You can then address grip removal from a more defensible position.
-
-
-
-</section>
 
 
 </main>

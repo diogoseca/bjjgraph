@@ -21,37 +21,37 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Side Control Escape",
+      "text": "From this position, attempt Side Control Escape. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control Escape",
-      "text": "From this position, attempt Side Control Escape. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Ghost Escape from Side Control",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 ## Position Definition
 
+<p class="section-subtitle">What is Side Control (Bottom)?</p>
+
 - Opponent's chest positioned perpendicular to your torso with direct contact across your upper body, creating constant pressure and control surface
 - Your shoulders pinned flat on the mat with limited rotational mobility due to opponent's weight distribution
 - Opponent's crossface established across your neck and face, preventing you from turning toward them
@@ -176,6 +178,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Side Control (Bottom)?</p>
 
 - Understanding of framing principles and creating defensive structures with arms and legs
 - Hip escape (shrimping) mechanics for creating space under pressure
@@ -189,6 +193,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control?</p>
 
 - Create frames immediately to prevent opponent from settling full weight and establishing complete control
 - Protect neck and arms from submission attempts while working escape sequences
@@ -205,8 +211,10 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Side Control (Bottom)?</p>
+
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
-- Execute **[[Principles/Frame Creation/Attacker|Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
+- Execute **[[Principles/Frames/Attacker|Frames]]** → [[Defensive frames established]] (Probability: 60%)
 - Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
@@ -237,6 +245,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control?</p>
 
 ### 1. Attempting explosive escape movements without creating frames first
 
@@ -275,6 +285,8 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Side Control defense?</p>
 
 ### Systematic Escape Sequence Drill
 

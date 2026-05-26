@@ -26,8 +26,8 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Heel Hook from Kneebar Control",
+      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,8 +44,8 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Toe Hold from Kneebar Control",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
@@ -173,6 +173,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kneebar Control (Bottom)?</p>
+
 - Bottom practitioner maintains at least one leg entangled with opponent's leg, with the inside or outside leg hooking behind the opponent's knee or across their thigh to prevent leg extraction and maintain positional connection throughout control phase
 - Arms secure opponent's leg across the torso in figure-four, gable grip, or over-under configuration, with hands positioned near the ankle or lower calf, maintaining constant pulling pressure toward the chest to prevent opponent from posturing away
 - Hips remain close to opponent's knee joint, positioned on the same side as the controlled leg, creating the necessary fulcrum for knee hyperextension, with torso angled to maximize leverage while preventing opponent from stepping over
@@ -183,6 +185,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Kneebar Control (Bottom)?</p>
 
 - Opponent's leg has been isolated through guard pulling, scramble, or purposeful leg entanglement entry
 - Bottom practitioner has established arm control around opponent's leg with secure grip configuration
@@ -196,6 +200,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar Control?</p>
 
 - Leg entanglement must prevent opponent from rotating their hips away or toward pressure
 - Arm control transitions from loose control to tight finishing configuration as commitment increases
@@ -211,6 +217,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kneebar Control (Bottom)?</p>
 
 **If opponent maintains strong defensive posture with knee bent and leg pressure resisting extension:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
@@ -244,6 +252,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar Control?</p>
 
 ### 1. Attempting to finish kneebar before breaking opponent's defensive posture and straightening the leg
 
@@ -288,6 +298,8 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Kneebar Control defense?</p>
+
 ### Static Kneebar Control Hold
 
 Partner assumes defensive posture in kneebar control while practitioner maintains optimal positioning for 60 seconds, focusing on hip connection, arm control, and leg entanglement without pursuing finish. Partner provides moderate resistance, attempting to maintain bent knee and posture.
@@ -320,38 +332,6 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanism for maintaining bottom kneebar control when opponent attempts to pull their leg free?
-**A**: The primary mechanism combines three elements: maintaining a tight leg entanglement with your inside or outside leg hooked behind their knee, keeping constant pulling pressure with your arms around their lower leg, and staying hip-connected to their knee joint. When they pull, follow with your hips rather than just your arms - use your entire body to stay connected. The leg hook prevents extraction while arms control the angle.
-
-**Q2**: How should you adjust when your opponent starts rotating their hips to defend the kneebar?
-**A**: When opponent rotates their hips, read the direction of rotation. If they rotate away from you, follow their hips and transition to saddle or inside ashi position which is exposed by their movement. If they rotate toward you, maintain the entanglement while adjusting your angle to follow. Never fight their rotation directly - instead, use it to flow to positions that become available. Their rotation often exposes heel hook opportunities.
-
-**Q3**: What are the essential grips for maintaining bottom kneebar control?
-**A**: The essential grips involve wrapping both arms around the opponent's lower leg in a figure-four or gable grip configuration. Cup the heel and Achilles with your near hand while your far hand reinforces from the opposite side. Keep elbows tight together and pull the leg across your chest toward your armpit on the same side as your entangling leg. Hands should be positioned near the ankle for maximum control and finishing leverage.
-
-**Q4**: Your opponent is attempting to step over your entangled leg - what immediate action should you take?
-**A**: When opponent attempts to step over, this creates a critical decision point. Either: 1) immediately transition to single leg X-guard by elevating their stepping leg and inserting your free leg as a hook, turning their escape attempt into a sweep opportunity; or 2) follow their stepping motion to enter saddle position by threading your legs to the backside. Never allow a free step-over without reaction - their movement should trigger your transition.
-
-**Q5**: How do you apply finishing pressure effectively from bottom kneebar control?
-**A**: Effective finishing pressure comes from hip drive and back arch rather than arm strength. Pull the leg tight to your chest with arms, then bridge your hips forward while arching your back to create hyperextension against their knee. Your hips should be positioned slightly below their knee joint to create optimal leverage. The finish is a full-body movement - arms hold, hips and back drive. Pinch your knees together during the finish for additional control.
-
-**Q6**: What movement patterns should you anticipate from an opponent defending bottom kneebar control?
-**A**: Anticipate four primary defensive patterns: leg extraction (pulling the leg out forcefully), hip rotation (turning toward or away from pressure), stepping over the entanglement, and driving forward to smash pass. Each defense opens specific transitions - extraction exposes ankle for straight ankle lock, rotation exposes saddle entry, step-over creates sweep opportunity, and forward pressure can be redirected into submissions. Read their weight shift and hip movement to predict which defense they'll attempt.
-
-**Q7**: What is the most efficient energy management approach when attacking from bottom kneebar control?
-**A**: Efficient energy management means setting clear finish windows (10-15 seconds of committed attack) and immediately transitioning when defense is established. Use leg entanglement for control rather than gripping strength. Alternate between submission threat and positional consolidation to recover grip endurance. If opponent is completely defending the knee, flow to ankle or heel attacks rather than forcing. Accept that bottom leg attacks require more energy than top position - transition to sweeps if becoming fatigued.
-
-**Q8**: Your opponent has extracted their leg halfway and is creating significant distance - how do you recover the position?
-**A**: When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

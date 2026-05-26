@@ -28,7 +28,7 @@ This transition represents one of the key differentiators between intermediate a
 
 Strategically, mastering Outside to Ushiro Ashi forces opponents to abandon inversion-based escapes from Outside Ashi-Garami, limiting their defensive options and creating layered defensive dilemmas. When the defender knows their inversion will be followed rather than creating freedom, they must develop alternative escape routes that may expose them to more direct submission threats from the original position.
 
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>

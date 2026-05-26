@@ -154,6 +154,8 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape from Vaporizer?</p>
+
 - Top player sprawls their free leg wide and sinks their hips, indicating they are establishing the base needed to begin the escape sequence
 - You feel a whizzer being threaded over your underhook arm, which signals the top player is targeting your upper body control as the first step of the escape
 - The top player's trapped knee points downward and you feel small rotational movements against your lockdown, indicating active circulation attempts to create slack
@@ -166,6 +168,8 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape from Vaporizer?</p>
 
 - Maintain constant lockdown pressure by actively extending the trapped leg away when sensing any circulation attempts from the top player
 - Coordinate underhook activity with lockdown defense—when the top player establishes a whizzer, increase lockdown pressure since their attention is divided
@@ -180,6 +184,8 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape from Vaporizer?</p>
 
 ### 1. Tighten lockdown and drive explosive whip-up to disrupt the escape sequence and force the top player to re-stabilize their base
 
@@ -217,6 +223,8 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape from Vaporizer?</p>
+
 ### → [[Positions/Mount]]
 
 Capitalize on the top player's base adjustments during escape attempts to complete the Old School sweep. When they widen their base and shift weight for lockdown circulation, drive through the underhook and post your outside foot to bridge them over to mount. Their wide base creates a longer lever arm that actually makes the sweep easier when properly timed.
@@ -232,6 +240,8 @@ When the top player commits both arms to defensive grips (whizzer and far post),
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape from Vaporizer?</p>
 
 ### 1. Becoming passive and simply holding the lockdown without actively threatening attacks during the escape attempt
 
@@ -261,6 +271,8 @@ When the top player commits both arms to defensive grips (whizzer and far post),
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape from Vaporizer?</p>
+
 **Phase 1: Lockdown Maintenance Under Pressure** - Maintaining the lockdown against systematic extraction attempts
 Partner attempts lockdown circulation from Vaporizer top at 50% then 75% resistance. Practice adjusting the figure-four dynamically to counter rotation, squeezing knees together, and extending the trapped leg to maintain structural integrity. Focus on the feeling of circulation and how to mirror the movement to prevent slack development.
 
@@ -277,26 +289,6 @@ Live three-minute rounds starting in Vaporizer. Bottom player must maintain posi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The top player establishes a strong whizzer over your underhook—how does this change your offensive strategy from the Vaporizer?
-**A**: The whizzer reduces your underhook's effectiveness for the whip-up motion and lateral sweeps, but it creates the conditions for the Electric Chair. When the top player commits their arm to the whizzer, their defensive attention is split between upper body control and lockdown maintenance. Increase your lockdown extension to elevate their trapped leg while using your non-underhook hand to control their far leg. Their whizzer commitment actually prevents them from defending the leg split needed for the Electric Chair. Alternatively, maintain lockdown pressure and wait for them to shift focus to the lockdown, then re-activate the whip-up when their whizzer loosens.
-
-**Q2**: You feel the top player beginning to successfully circulate their trapped leg and create slack in the lockdown—what is your highest-percentage response?
-**A**: Actively counter the circulation by squeezing your knees together and extending the trapped leg in the opposite rotational direction. Simultaneously increase underhook pulling pressure to break their base and divide their attention between maintaining the whizzer and continuing the circulation. If the lockdown continues to degrade despite these adjustments, transition immediately to a sweep or back take rather than fighting to maintain a weakening control point. A proactive positional transition while you still have partial control produces far better results than losing the lockdown entirely and being passed.
-
-**Q3**: When is the optimal moment to attempt the Old School sweep during the top player's escape sequence?
-**A**: The optimal moment is when the top player shifts their weight laterally during lockdown circulation or widens their base to maximum sprawl. Both actions create a lateral weight imbalance that the Old School sweep exploits. The wider their base, the longer the lever arm you can sweep through—counterintuitively, their defensive base widening actually improves your sweep mechanics. Post your outside foot, drive through the underhook, and bridge toward their spread base. Their commitment to the escape means their defensive reactions to the sweep are delayed by the split attention between lockdown extraction and base maintenance.
-
-**Q4**: The top player has nearly cleared the lockdown—should you fight to re-establish it or transition to a different attack?
-**A**: Almost always transition rather than fight to re-establish. Attempting to re-lock a nearly cleared lockdown is low percentage and positions you in a scramble where the top player has momentum. Instead, use whatever control remains—even a loose hook or the underhook—to transition to a back take, butterfly sweep, or seated guard. The transition should be initiated the moment you recognize the lockdown is failing, not after it fully clears. The underhook is your most valuable asset during this transition; maintain it at all costs and use it to create your next attacking position.
-
-
-
-</section>
 
 
 </main>

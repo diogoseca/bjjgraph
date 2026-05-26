@@ -169,6 +169,8 @@ This position represents an evolution in half guard theory, popularized by pract
 
 ## Position Definition
 
+<p class="section-subtitle">What is Half Butterfly (Bottom)?</p>
+
 - Bottom player has one leg of opponent trapped between their legs (half guard control) while maintaining control of that trapped leg with both legs wrapped around it, preventing opponent from fully extracting the leg
 - Bottom player's free leg maintains a butterfly hook positioned under opponent's free-side thigh with foot placed on mat, creating elevation and off-balancing potential through hip lifting mechanics
 - Bottom player is on their side or partially on their back with shoulders turned toward opponent, maintaining active frames on opponent's upper body with at least one underhook or overhook grip
@@ -180,6 +182,8 @@ This position represents an evolution in half guard theory, popularized by pract
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Half Butterfly (Bottom)?</p>
 
 - Opponent's leg successfully trapped between bottom player's legs in half guard configuration
 - Sufficient space created to insert butterfly hook on free-leg side
@@ -193,6 +197,8 @@ This position represents an evolution in half guard theory, popularized by pract
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Butterfly?</p>
 
 - Maintain constant lifting pressure through butterfly hook to prevent opponent from settling their weight and establishing stable passing pressure
 - Use half guard leg control to prevent opponent from extracting trapped leg while simultaneously threatening sweeps with butterfly hook
@@ -208,6 +214,8 @@ This position represents an evolution in half guard theory, popularized by pract
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Half Butterfly (Bottom)?</p>
 
 **If opponent is upright with high posture and not applying heavy pressure:**
 - Execute **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 55%)
@@ -236,6 +244,8 @@ This position represents an evolution in half guard theory, popularized by pract
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Butterfly?</p>
 
 ### 1. Allowing butterfly hook to become passive without active lifting pressure
 
@@ -275,6 +285,8 @@ This position represents an evolution in half guard theory, popularized by pract
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Half Butterfly defense?</p>
+
 ### Butterfly Hook Elevation Drill
 
 Partner in top half butterfly. Practice lifting and off-balancing opponent using only butterfly hook hip extension while maintaining half guard control. Focus on coordinating hip lift with angle creation.
@@ -307,38 +319,6 @@ Start with partner achieving initial passing pressure. Practice recovering half 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the essential weight distribution for maintaining an effective butterfly hook in half butterfly bottom?
-**A**: Position yourself on your side rather than flat on your back, with your hips angled toward your opponent. The butterfly hook foot should be planted on the mat with your heel pulled toward your own hip, creating a loaded spring position. Your weight should be distributed through your shoulder and hip on the mat side, keeping your hips mobile and ready to elevate. This positioning maximizes the hook's lifting power.
-
-**Q2**: Your opponent starts applying heavy crossface pressure - what immediate adjustment prevents being flattened?
-**A**: Frame with your inside arm against their bicep or shoulder to create space, while simultaneously shrimping your hips away from the crossface side. Use your butterfly hook to lift and disrupt their weight distribution. If the crossface is too strong, transition to deep half by shooting your outside arm under their hips and inverting your angle. Never stay flat and absorb crossface pressure passively.
-
-**Q3**: What are the essential grip priorities when establishing half butterfly bottom?
-**A**: First priority is the underhook on the butterfly hook side - this maximizes sweep effectiveness and prevents the opponent from flattening you. Second priority is controlling their far arm or collar to prevent them from posting during sweeps. Third is maintaining active frames to manage distance. The underhook is critical because it creates the diagonal angle needed for high-percentage sweeps.
-
-**Q4**: How do you shut down the opponent's primary passing attempt (knee slice) from this position?
-**A**: When you feel them beginning a knee slice, immediately create angle by turning toward the passing direction while driving your butterfly hook upward to disrupt their base. Use your half guard legs to prevent their knee from cutting through by squeezing and elevating slightly. If they commit to the slice, transition to deep half by diving under. Never let them flatten you first - mobility is your primary defense.
-
-**Q5**: How should you coordinate the butterfly hook and half guard legs to maximize sweeping power?
-**A**: The legs work as a unified system - as you elevate with the butterfly hook, simultaneously tighten your half guard squeeze on the trapped leg. This creates a dual-vector off-balancing force that's extremely difficult to counter. The half guard prevents them from posting their trapped leg while the hook removes their base on the free side. Time the squeeze and lift together rather than sequentially.
-
-**Q6**: Your opponent posts their hand to stop your butterfly sweep - what technique chain addresses this?
-**A**: When they post, immediately attack the posted arm with a kimura grip while maintaining your hook elevation. If they defend the kimura, their weight shifts and opens the sweep again. Alternatively, use the post as an opportunity to transition to X-guard by extending your hook leg under their posted side while controlling their far leg. The post creates vulnerability that you can exploit with the right follow-up.
-
-**Q7**: How do you manage energy expenditure while maintaining an active half butterfly guard?
-**A**: Use your skeletal structure rather than constant muscular tension - let your hook rest with heel on the mat between sweep attempts rather than holding it elevated. Create activity through hip movement and angle changes that require minimal energy. Time your explosive sweep attempts for when the opponent creates openings rather than forcing constantly. Rest between exchanges by maintaining frames rather than grip fighting continuously.
-
-**Q8**: Your opponent successfully extracts their trapped leg - how do you recover guard retention?
-**A**: Immediately recover full butterfly guard by inserting your free leg as a second hook before they can establish passing grips. If they're too fast, transition to seated guard and use your frames to manage distance while working to re-establish hooks. Never allow them to consolidate a passing position - even a scrappy guard recovery is better than accepting side control. Stay active and use hip movement to create space for hook insertion.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

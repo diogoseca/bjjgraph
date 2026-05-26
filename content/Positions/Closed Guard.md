@@ -34,7 +34,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bottom player controls distance and posture through combined leg squeeze and grip pressure
@@ -96,31 +96,39 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (21% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (23% of attempts)
 
-- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (10% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (10% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (9% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
+- **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (7% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (6% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (7% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
-
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (6% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
+
+- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (4% of attempts)
 
 - **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (3% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (3% of attempts)
+
+- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (3% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
 
 - **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (2% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (2% of attempts)
+
+- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (2% of attempts)
+
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (2% of attempts)
+
+- **[[Monoplata from Guard/Attacker|Monoplata from Guard]]** (2% of attempts)
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (1% of attempts)
 
@@ -138,21 +146,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (1% of attempts)
 
-- **[[Submissions/Rolling Armbar/Attacker|Rolling Armbar]]** (2% of attempts)
-
-- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (2% of attempts)
-
-- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (2% of attempts)
-
-- **[[Submissions/Triangle from Closed Guard/Attacker|Triangle from Closed Guard]]** (2% of attempts)
-
 - **[[Submissions/Flying Armbar/Attacker|Flying Armbar]]** (1% of attempts)
-
-- **[[Submissions/Kneebar from Guard/Attacker|Kneebar from Guard]]** (1% of attempts)
-
-- **[[Submissions/Monoplata/Attacker|Monoplata]]** (1% of attempts)
-
-- **[[Submissions/Monoplata from Guard/Attacker|Monoplata from Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -201,7 +195,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - Base and Balance: Maintain wide base with knees spread to defend against sweeps while staying mobile for passing attempts, distributing weight through lower body rather than hands
 
-- Grip Fighting: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
+- Grips: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
 
 - Patient Progression: Work methodically toward guard opening without rushing into vulnerable passing attempts that expose you to counters, following systematic progression from posture to grips to opening to passing
 
@@ -221,7 +215,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Stand Up in Closed Guard/Attacker|Stand Up in Closed Guard]]** (3% of attempts)
 
-- **[[Transitions/Ezekiel from Closed Guard/Attacker|Ezekiel from Closed Guard]]** (2% of attempts)
+- **[[Ezekiel Choke from Closed Guard/Attacker|Ezekiel Choke from Closed Guard]]** (2% of attempts)
 
 - **[[Transitions/Knee Slice from Closed Guard/Attacker|Knee Slice from Closed Guard]]** (2% of attempts)
 
@@ -282,7 +276,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Positions/Mount]]** - Most common target position for bottom player's sweep sequences
 
-- **[[Positions/Rubber Guard]]** - Advanced flexibility-based variation enhancing bottom control and offense
+- **[[Positions/Rubber Guard/Mission Control]]** - Advanced rubber guard variation enhancing bottom control and offense
 
 - **[[Positions/Spider Guard]]** - Alternative guard system when closed guard is broken or opened
 

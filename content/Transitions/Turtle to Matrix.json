@@ -215,7 +215,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Angle Creation Drilling",
+        "phase": "Week 1-2: Dominant Angles Drilling",
         "focus": "Master the angular movement from turtle top while maintaining pressure",
         "description": "Partner holds static turtle while you practice walking your knees to create angle, maintaining chest pressure throughout. Focus on smooth weight transfer from behind the opponent to an angled position. No arm or leg threading yet, just the angular movement with consistent pressure. Drill 20 repetitions per side."
       },
@@ -240,7 +240,7 @@
         "description": "Flow between Matrix entry, traditional back take, crab ride, crucifix, and front headlock attacks based on opponent reactions. The Matrix entry should function as one option in a complete attacking chain where each technique's failure sets up the next. Refine entry timing through video analysis and competition experience."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Transition to Matrix from turtle top?",
         "answer": "The optimal timing window occurs when the opponent's base is momentarily static or during a weight shift that temporarily freezes their defensive adjustments. Specific triggers include: after they defend a traditional back take attempt and settle into their defensive posture, during the brief pause after they complete a grip fight, or when they shift weight to one side in response to your pressure manipulation. The entry should never be attempted against an actively moving opponent whose base is dynamically adjusting."
@@ -357,7 +357,7 @@
         "correction": "When you feel any directional change in the attacker's pressure, immediately adjust your own base orientation to face the new threat angle. Continuous micro-adjustments prevent the attacker from establishing a stable angle."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is setting up a Matrix entry rather than a standard back take?",
         "answer": "The earliest cue is the attacker walking their knees laterally to create angle while maintaining chest pressure, rather than staying centered behind you and working for hooks or seatbelt directly. A standard back take involves the attacker staying behind you; the Matrix involves them moving perpendicular to your torso. Feeling the pressure shift from centered on your upper back to angled against your near-side ribs confirms the Matrix entry is being set up."

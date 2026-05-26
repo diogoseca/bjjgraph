@@ -209,13 +209,13 @@ The open guard to deep half transition represents a critical component of modern
 
 - [[Transitions/Waiter Sweep]] - Alternative sweep when opponent drives weight forward
 
-- [[Submissions/Electric Chair Submission]] - Advanced submission available from deep half with lockdown
+- [[Positions/Half Guard/Electric Chair]] - Advanced submission available from deep half with lockdown
 
 - [[Transitions/Half Guard Pass]] - Common counter the top player attempts during entry
 
 - [[Transitions/Butterfly Guard to X-Guard]] - Alternative transition pathway from open guard
 
-- [[Principles/Guard Recovery]] - Broader positional concept this transition serves
+- [[Transitions/Hip Escape to Guard]] - Related guard recovery transition using similar hip movement mechanics
 
 - [[Transitions/Single Leg X Sweep]] - Alternative when deep half entry is defended
 

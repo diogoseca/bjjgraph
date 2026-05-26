@@ -174,6 +174,8 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar from North-South?</p>
+
 - Attacker shifts from maintaining equal chest pressure to focusing control on one of your arms with a distinct wrist grip and elbow underhook—this two-on-one grip change is the primary indicator
 - Attacker's hips begin rotating toward one side rather than maintaining the standard perpendicular North-South alignment, often accompanied by their far leg swinging upward
 - Attacker's weight shifts from distributed chest pressure across your torso to concentrated pressure along your shoulder line on the attacked arm side
@@ -185,6 +187,8 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar from North-South?</p>
 
 - Keep elbows tight to your ribs at all times during North-South bottom to deny the arm isolation needed for the armbar setup
 - Fight for inside wrist control the moment you feel the attacker grip your wrist or underhook your elbow—early grip fighting prevents the transition entirely
@@ -199,6 +203,8 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar from North-South?</p>
 
 ### 1. Clamp elbows tight to ribs and clasp hands together to prevent arm isolation before the rotation begins
 
@@ -236,6 +242,8 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar from North-South?</p>
+
 ### → [[Positions/North-South]]
 
 Prevent arm isolation by keeping elbows tight and fighting grips early, or successfully escape the armbar through hitchhiker escape or arm extraction, returning to North-South bottom where you can resume standard escape sequences
@@ -251,6 +259,8 @@ Insert your knee between your bodies during the attacker's rotation phase by tim
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar from North-South?</p>
 
 ### 1. Extending the arm to push the attacker away when feeling North-South pressure
 
@@ -285,6 +295,8 @@ Insert your knee between your bodies during the attacker's rotation phase by tim
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar from North-South?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner slowly demonstrates the arm isolation and rotation from North-South while you practice recognizing the grip changes and weight shifts. Focus on keeping elbows tight, clasping hands defensively, and identifying the moment the attacker commits to the armbar. No resistance from the attacker during grip fighting.
 
@@ -301,32 +313,6 @@ Full positional sparring starting from North-South bottom. Partner may attack ar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Armbar from North-South is being attempted?
-**A**: The earliest cue is the attacker shifting from distributed chest pressure to focused two-on-one control on one arm—specifically a pistol grip on your wrist combined with an underhook on your elbow. This grip change precedes the hip rotation and represents the best defensive window because the attacker has not yet begun the transition.
-
-**Q2**: Why is extending your arm to push the attacker away the worst possible defensive response?
-**A**: Extending your arm creates the exact conditions the attacker needs: an isolated arm separated from your body with the elbow exposed. The attacker already has positional advantage from North-South, so a straight arm away from your torso is essentially handing them the setup. Keep elbows tight to ribs and use forearm frames instead.
-
-**Q3**: Your arm has been isolated and the attacker is mid-rotation—what is your immediate defensive priority?
-**A**: Immediately bend the attacked arm as hard as possible and rotate your thumb toward the ceiling to strengthen the elbow joint structure. Simultaneously bridge your hips toward the attacker to disrupt their rotation and try to insert your near-side knee between your bodies. The bent arm buys time and the knee insertion can convert the situation to half guard.
-
-**Q4**: When is the attacker most vulnerable during the Armbar from North-South transition?
-**A**: The attacker is most vulnerable during the hip rotation phase, because their weight is shifting from stable North-South pressure to a transitional position. Their base is momentarily compromised as they swing their leg over. A well-timed bridge during this rotation can disrupt their balance and prevent the armbar from being established.
-
-**Q5**: What makes the hitchhiker escape risky against experienced attackers?
-**A**: Experienced attackers anticipate the hitchhiker rotation and follow it, transitioning to a belly-down armbar that eliminates the escape direction entirely, or using the rotation to take the back. The hitchhiker works best when the attacker's legs are loose and they are not expecting the rotation, but against a prepared opponent it can lead to worse positions.
-
-**Q6**: How does the kimura-armbar dilemma affect your defensive strategy from North-South bottom?
-**A**: From North-South bottom, bending your arm to defend the armbar exposes you to the kimura, while extending your arm to defend the kimura exposes you to the armbar. The solution is to keep your elbow tight to your ribs without extending or over-bending—maintain a neutral arm position and focus on hip movement and frames rather than committing to defending either specific submission.
-
-
-
-</section>
 
 
 </main>

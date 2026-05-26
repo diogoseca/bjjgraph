@@ -206,7 +206,7 @@ Gift Wrap Maintenance functions as the retention mechanism within the broader Gi
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Degraded control state when arm trap is lost during maintenance failure
 
-- [[Submissions/Gift Wrap RNC]] - Primary submission enabled by reliable Gift Wrap maintenance
+- [[Rear Naked Choke from Gift Wrap]] - Primary submission enabled by reliable Gift Wrap maintenance
 
 - [[Submissions/Gift Wrap Armbar]] - Secondary submission targeting the free arm from maintained Gift Wrap
 

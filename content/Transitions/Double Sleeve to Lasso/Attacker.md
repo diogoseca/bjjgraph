@@ -194,6 +194,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Double Sleeve to Lasso?</p>
+
 - Maintain constant tension on both sleeve grips throughout the threading process to prevent the opponent from retracting their arm or breaking free during the transition
 - Time the threading attempt to coincide with the opponent's weight shift or grip-breaking effort when their target arm is most accessible and extended
 - Use hip elevation and rotation to create the space needed for shin insertion rather than relying solely on pulling the arm toward you with grip strength
@@ -208,6 +210,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Double Sleeve to Lasso?</p>
+
 - Secure deep pistol grips on both sleeve cuffs with four fingers inside the sleeve opening and thumbs outside for maximum grip security
 - Position at least one foot on the opponent's hip or bicep to maintain distance and create the space required for the threading motion
 - Identify the target arm for threading by reading which side the opponent's weight is shifting toward or which arm is more extended
@@ -220,6 +224,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Double Sleeve to Lasso step by step?</p>
 
 1. **Secure bilateral sleeve grips at the cuffs**: Establish deep pistol grips on both of the opponent's sleeve cuffs with four fingers inside and thumbs outside. Pull both sleeves toward your hips to create constant tension that prevents the opponent from easily retracting their arms or breaking free from your control system.
 2. **Establish foot placement for distance control**: Place both feet on the opponent's hips or one foot on the hip and one on the bicep to create and maintain the distance necessary for the threading motion. Active foot pressure prevents the opponent from closing distance while providing a stable platform for your hip movement during the transition.
@@ -250,6 +256,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Double Sleeve to Lasso?</p>
+
 - **Opponent retracts arm rapidly before the thread completes, pulling elbow tight to their body** (Effectiveness: High) - Your Response: Immediately attempt the thread on the opposite arm which is now relatively extended, or convert to spider guard foot-on-bicep on the retracting arm → Leads to [[Positions/Double Sleeve Guard]]
 - **Opponent drives forward with shoulder pressure during the threading attempt to collapse guard structure** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the thread by pulling the sleeve and extending the lasso leg simultaneously, converting their pressure into lasso leverage → Leads to [[Positions/Lasso Guard]]
 - **Opponent strips both sleeve grips simultaneously during the threading attempt using explosive grip breaks** (Effectiveness: High) - Your Response: Immediately post feet on hips to maintain distance, hip escape to create angle, and re-establish grips or transition to feet-on-hips guard for recovery → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Double Sleeve to Lasso?</p>
 
 ### 1. Releasing tension on the non-threading sleeve grip during the transition
 
@@ -300,6 +310,8 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Double Sleeve to Lasso (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo drilling and cooperative partner work
 Practice the threading motion with a cooperative partner who maintains static double sleeve guard position. Focus on hip elevation, rotation, and smooth shin insertion. Drill 50 repetitions per side to build muscle memory for the correct threading path and leg angle.
 
@@ -320,36 +332,12 @@ Integrate the double sleeve to lasso transition into complete sparring rounds. P
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the shin thread against a kneeling opponent?
-**A**: The best timing window occurs when the opponent commits one arm to a grip-breaking attempt, shifts their weight laterally to begin a passing sequence, or reaches forward to establish their own grips. During these moments, their target arm extends away from their body, creating the space needed for the shin to thread through. Attempting the thread while the opponent is settled with arms retracted tight to their body significantly reduces success probability because there is no gap for insertion.
-
-**Q2**: Why is hip elevation critical during the threading motion and what happens if your hips stay flat?
-**A**: Hip elevation creates the vertical clearance needed for your shin to pass over and through the opponent's arm. When your hips remain flat on the mat, the threading angle becomes nearly impossible because your leg cannot achieve sufficient height to cross the tricep. Elevated hips also enable the rotational movement that drives the shin through in one smooth motion, whereas flat hips force a slow incremental push that the opponent can easily counter by simply retracting their arm.
-
-**Q3**: Your opponent pulls their arm back forcefully as you begin threading - what immediate adjustment do you make?
-**A**: Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted.
-
-**Q4**: What grip depth and configuration provides maximum control once the lasso is established?
-**A**: Grip the sleeve cuff deeply with a pistol grip where your knuckles press against the inside of the cuff opening. Maintain pulling tension toward your hip rather than extending the arm outward. The sleeve grip should create a tight connection so that any extension of your lasso leg translates directly into shoulder pressure on the opponent. A shallow grip near the mid-forearm provides insufficient leverage and is easily stripped during the opponent's escape attempts.
-
-**Q5**: How does the non-lasso foot positioning affect your offensive options from the completed transition?
-**A**: The non-lasso foot placement determines your entire attack system from lasso guard. Foot on the opposite hip creates maximum distance control and supports sickle sweep entries through off-balancing. Foot on the opposite bicep creates a spider-lasso hybrid that enables triangle attacks when the opponent's posture breaks forward. Hooking behind the opponent's knee removes their base on that side and facilitates pendulum-style sweeps. Switching between these positions based on the opponent's reactions is essential for maintaining offensive pressure.
-
-**Q6**: What is the critical direction of force when extending the lasso leg after threading?
-**A**: The lasso leg should extend diagonally away from the opponent's body, pushing their trapped arm outward and upward while the sleeve grip pulls inward and downward toward your hip. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. Pushing straight up or straight away from you reduces the leverage significantly. The diagonal extension maximizes the rotational torque on their shoulder, which is what makes lasso guard so restrictive for the trapped arm.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Double Sleeve to Lasso?</p>
 
 The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped.
 

@@ -92,7 +92,7 @@
       "Panic-driven movements accelerate submissions—maintain composure and execute systematic escape sequences",
       "Posture recovery must follow arm extraction—attempting both simultaneously dilutes effectiveness of each"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent has established Meathook and you feel their shin hook tightening—what is your immediate priority?",
         "answer": "Immediate recognition and defensive mode shift is critical. Stop any passing attempts and prioritize arm extraction above all else. Widen your base with your free arm to create leverage, and prepare for an explosive rotational extraction attempt. Every second of delay increases submission danger as your opponent consolidates control and sets up attacks."
@@ -302,10 +302,6 @@
         "attempt_probability": 28
       },
       {
-        "transition": "Posture Recovery",
-        "attempt_probability": 17
-      },
-      {
         "transition": "Stack Defense",
         "attempt_probability": 17
       },
@@ -319,7 +315,7 @@
       },
       {
         "transition": "Posture Recovery from Meathook",
-        "attempt_probability": 6
+        "attempt_probability": 23
       },
       {
         "transition": "Stack Pass from Meathook",
@@ -368,7 +364,7 @@
       "Grip on non-trapped side must coordinate with shin hook to create opposing forces that compress posture",
       "Position chains are essential—Meathook connects systematically to Mission Control, Carni, and multiple finishing positions"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What grip and leg coordination is essential for maintaining Meathook control?",
         "answer": "The shin hook pressing against the opponent's tricep must work in coordination with the grip on the non-trapped side (overhook or deep collar control). These create opposing forces—the hook pulls the shoulder forward while the grip pulls the head down—compressing posture and preventing escape. Losing either element collapses the control structure."
@@ -457,7 +453,7 @@
             "probability": 65
           },
           {
-            "technique": "Armbar from Guard",
+            "technique": "Armbar on Free Arm",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -613,7 +609,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Armbar on Free Arm",
         "attempt_probability": 8
       },
       {

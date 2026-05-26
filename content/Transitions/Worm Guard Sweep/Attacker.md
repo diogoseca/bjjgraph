@@ -188,6 +188,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Worm Guard Sweep?</p>
+
 - Maintain constant lapel tension throughout the entire sweep sequence to preserve the mechanical connection that makes the sweep possible
 - Establish a deep secondary grip on the collar or far sleeve before attempting the sweep to prevent the opponent from posting
 - Angle hips perpendicular to the opponent to create the optimal rotational vector rather than trying to sweep straight backward
@@ -202,6 +204,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Worm Guard Sweep?</p>
+
 - Worm guard fully established with lapel wrapped deep around opponent's leg and constant pulling tension maintained through your grip
 - Secondary grip obtained on the opponent's far collar, near-side collar, or far sleeve to break their posting ability
 - Hips angled perpendicular or diagonal to the opponent rather than square, creating the optimal sweeping vector
@@ -214,6 +218,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Worm Guard Sweep step by step?</p>
 
 1. **Verify worm guard configuration**: Confirm that your lapel wrap is deep and tight around the opponent's leg with no slack in the system. Pull slightly on the lapel to verify structural tension exists. The lapel should feel rigid rather than loose when you test it. If any slack exists, re-tighten by pulling more material through before proceeding, as a slack lapel cannot generate the fulcrum effect needed for the sweep.
 2. **Establish secondary grip**: Secure a deep grip with your free hand on the opponent's far collar, near-side collar, or far sleeve. This secondary grip serves two critical functions: it breaks the opponent's symmetry so they cannot post with both hands during the sweep, and it provides a pulling handle that coordinates with the lapel tension to create dual off-balancing forces. A far collar grip is preferred when accessible because it controls the opponent's furthest posting hand.
@@ -243,6 +249,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Worm Guard Sweep?</p>
+
 - **Opponent widens base and sits hips back low, creating a stable platform that resists the elevation mechanics** (Effectiveness: Medium) - Your Response: When the opponent creates a wide low base, switch from direct elevation to the DLR hook variant by inserting a hook on their far leg. This removes their far leg stability and restores the sweep angle. Alternatively, threaten a collar drag to bring their weight forward, then immediately switch back to the sweep. → Leads to [[Positions/Worm Guard]]
 - **Opponent strips the lapel wrap using two-on-one grip break, removing the mechanical connection** (Effectiveness: High) - Your Response: If the lapel is being stripped, immediately transition to an alternative guard position before losing all control. Switch to De La Riva guard, spider guard, or attempt a collar drag while you still have some residual control. Re-establishing worm guard from scratch is possible but the opponent will be more vigilant against the sweep. → Leads to [[Positions/Open Guard]]
 - **Opponent backsteps their trapped leg to escape the lapel wrap before the sweep is loaded** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips, maintaining lapel tension throughout their movement. If they successfully extract the leg, immediately transition to De La Riva or collar sleeve guard using whatever grips remain. If the backstep is incomplete, the changed angle may actually create a better sweep angle on the other side. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Worm Guard Sweep?</p>
 
 ### 1. Attempting the sweep with slack or insufficient tension in the lapel wrap
 
@@ -293,6 +303,8 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Worm Guard Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Lapel-hip-leg coordination pattern
 With a fully cooperating partner, practice the sweep motion from established worm guard. Focus on the coordination sequence: verify tension, angle hips, load weight, elevate legs, follow through. Perform 15-20 repetitions per side with zero resistance. Emphasize smooth coordination rather than speed or power.
 
@@ -313,42 +325,12 @@ In live sparring, practice the complete chain: pull guard, establish worm guard,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the worm guard sweep?
-**A**: The optimal timing is when the opponent's weight shifts forward, either from their own passing pressure or in reaction to a collar drag threat. Forward weight commitment means their center of gravity is already above your legs, so the elevation requires less force and the mechanical advantage of the lapel fulcrum is maximized. Attempting the sweep when the opponent's weight is back makes the elevation significantly harder.
-
-**Q2**: What conditions must exist in the worm guard configuration before the sweep can be attempted?
-**A**: Three conditions are mandatory: the lapel must be wrapped deep with rigid tension creating a structural connection to the opponent's leg; a secondary grip must be established on the collar or sleeve to prevent posting; and your hips must be angled to create the rotational sweep vector rather than being square to the opponent. Missing any one of these conditions dramatically reduces success probability.
-
-**Q3**: What is the most critical mechanical detail that separates successful worm guard sweeps from failed attempts?
-**A**: Maintaining constant lapel tension throughout the entire sweep arc is the single most critical mechanical detail. The moment tension is lost, the lapel stops functioning as a rigid lever and becomes a loose fabric that provides no mechanical advantage. The opponent's trapped leg immediately regains freedom of movement and can step to recover base. Tension must be maintained from setup through mount consolidation.
-
-**Q4**: What are the most common failure points during the sweep execution and how do you prevent them?
-**A**: The most common failure points are: attempting the sweep with slack in the lapel, which eliminates the fulcrum effect; missing the secondary grip, which allows the opponent to post; sweeping straight back instead of at an angle, which lets both legs brace; and releasing tension during the rotation. Prevention requires a systematic pre-sweep checklist: verify tension, confirm secondary grip, angle hips, then commit.
-
-**Q5**: What grip configuration provides the strongest sweep mechanics from worm guard?
-**A**: The strongest configuration is a deep far-collar grip combined with the lapel wrap. The far collar grip controls the opponent's furthest posting hand, meaning they have no available limb to arrest the sweep once the elevation begins. A near-collar grip is the second-best option. Sleeve grips are weaker because they only control one arm and the opponent can still post with the free hand.
-
-**Q6**: What is the primary direction of force during the sweep elevation?
-**A**: The primary force direction is diagonally upward and toward the trapped leg side, creating a rotational arc around the trapped leg as a fulcrum point. The legs drive upward to elevate while the grips pull laterally toward the sweep direction. This diagonal force vector is critical because it converts the opponent's body weight into rotational momentum rather than requiring you to lift their entire weight straight up.
-
-**Q7**: Your opponent widens their base and sits low when they feel you loading the sweep - how do you adjust?
-**A**: A wide low base defeats the standard sweep because both legs are stabilized. Two adjustments are available: first, add a De La Riva hook on the far leg to remove that leg's base contribution, restoring the sweep angle; second, switch to a collar drag threat to force their weight forward, then immediately redirect to the sweep when they react to the drag. The multi-directional threat breaks down the wide base defense.
-
-**Q8**: If the sweep is blocked and you cannot complete the elevation, what chain attacks should follow?
-**A**: If the sweep is blocked, immediately chain into alternative attacks rather than forcing a failed technique. The primary chains are: collar drag when the opponent bases backward after defending the sweep; transition to squid guard if you can advance the lapel position during the scramble; or switch to an X-guard entry by releasing the lapel and inserting butterfly hooks under the destabilized opponent. Never stay committed to a blocked sweep.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Worm Guard Sweep?</p>
 
 The Worm Guard Sweep carries relatively low injury risk compared to submissions, but the lapel wrap around the opponent's leg can create uncomfortable pressure on the knee joint during explosive sweep attempts. Partners should communicate immediately if the lapel configuration causes any knee discomfort or restricts circulation. Avoid explosive jerking motions with the lapel that could hyperextend the trapped leg. When being swept, practice proper breakfalling technique to protect wrists and shoulders from posting injuries during the fall. Always practice on adequately padded surfaces, particularly when drilling the full sweep-to-mount completion at higher speeds. Release the lapel promptly once mount is secured to avoid unnecessary strain on the training partner's leg.
 

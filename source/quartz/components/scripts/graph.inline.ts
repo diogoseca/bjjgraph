@@ -18,6 +18,7 @@ import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
 import { D3Config } from "../Graph"
+import { crossfadeNavigate } from "./trainingSession"
 
 type GraphicsInfo = {
   color: string
@@ -56,6 +57,28 @@ function getVisited(): Set<SimpleSlug> {
   return new Set(JSON.parse(localStorage.getItem(localStorageKey) ?? "[]"))
 }
 
+// Load SRS card slugs for graph highlighting
+function getSRSNodeIds(): Set<string> {
+  try {
+    const cards = JSON.parse(localStorage.getItem("bjj-srs-cards") || "[]")
+    const ids = new Set<string>()
+    for (const card of cards) {
+      if (!card.slug) continue
+      // Strip role suffixes (/Attacker, /Defender) and convert to SimpleSlug format
+      let s = card.slug.replace(/\/$/, "")
+      s = s.replace(/\/(Attacker|Defender)$/i, "")
+      // Remove leading slash, lowercase
+      s = s.replace(/^\//, "").toLowerCase()
+      // Slugify: replace spaces with hyphens
+      s = s.replace(/\s+/g, "-")
+      ids.add(s)
+    }
+    return ids
+  } catch {
+    return new Set()
+  }
+}
+
 function addToVisited(slug: SimpleSlug) {
   const visited = getVisited()
   visited.add(slug)
@@ -88,7 +111,12 @@ type TweenNode = {
 // Helper to get hub slug from Bottom/Top role pages (playing_as model)
 function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
   const lowerNodeId = nodeId.toLowerCase()
-  if (lowerNodeId.endsWith("/bottom") || lowerNodeId.endsWith("/top")) {
+  if (
+    lowerNodeId.endsWith("/bottom") ||
+    lowerNodeId.endsWith("/top") ||
+    lowerNodeId.endsWith("/attacker") ||
+    lowerNodeId.endsWith("/defender")
+  ) {
     return nodeId.split("/").slice(0, -1).join("/") as SimpleSlug
   }
   return nodeId
@@ -115,46 +143,87 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     focusOnHover,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
-  const data: Map<SimpleSlug, ContentDetails> = new Map(
-    Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
-      simplifySlug(k as FullSlug),
-      v,
-    ]),
-  )
+  // Try pre-computed graph data first (local graph), fall back to contentIndex (global graph)
+  const positionsEl = document.getElementById("graph-positions")
+  let precomputedGraph: {
+    nodes: Array<{ id: string; x: number; y: number; t: string; tags: string[] }>
+    links: Array<{ source: string; target: string }>
+  } | null = null
+  if (positionsEl) {
+    try {
+      precomputedGraph = JSON.parse(positionsEl.textContent!)
+    } catch {
+      precomputedGraph = null
+    }
+  }
+
+  const isGlobalGraph = container === "global-graph-container"
+
+  let data: Map<SimpleSlug, ContentDetails>
+  let validLinks: Set<SimpleSlug> = new Set()
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
-  const validLinks = new Set(data.keys())
-
   const tweens = new Map<string, TweenNode>()
-  for (const [source, details] of data.entries()) {
-    const outgoing = details.links ?? []
 
-    for (const dest of outgoing) {
-      if (validLinks.has(dest)) {
-        links.push({ source: source, target: dest })
-      }
+  if (!isGlobalGraph && precomputedGraph?.links) {
+    // Local graph: use pre-computed data (no contentIndex fetch needed)
+    data = new Map()
+    for (const n of precomputedGraph.nodes) {
+      data.set(
+        n.id as SimpleSlug,
+        {
+          title: n.t,
+          tags: n.tags || [],
+          links: [],
+          content: "",
+        } as ContentDetails,
+      )
     }
-
-    if (showTags) {
-      const localTags = details.tags
-        .filter((tag) => !removeTags.includes(tag))
-        .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
-
-      tags.push(...localTags.filter((tag) => !tags.includes(tag)))
-
-      for (const tag of localTags) {
-        links.push({ source: source, target: tag })
+    validLinks = new Set(data.keys())
+    for (const l of precomputedGraph.links) {
+      links.push({ source: l.source as SimpleSlug, target: l.target as SimpleSlug })
+    }
+  } else {
+    // Global graph or no pre-computed data: load full contentIndex
+    const loadContentIndex = (window as any).loadContentIndex
+    const contentData = loadContentIndex
+      ? await loadContentIndex()
+      : await (window as any).fetchData
+    data = new Map(
+      Object.entries<ContentDetails>(contentData).map(([k, v]) => [simplifySlug(k as FullSlug), v]),
+    )
+    validLinks = new Set(data.keys())
+    for (const [source, details] of data.entries()) {
+      const outgoing = details.links ?? []
+      for (const dest of outgoing) {
+        if (validLinks.has(dest)) {
+          links.push({ source: source, target: dest })
+        }
+      }
+      if (showTags) {
+        const localTags = details.tags
+          .filter((tag: string) => !removeTags.includes(tag))
+          .map((tag: string) => simplifySlug(("tags/" + tag) as FullSlug))
+        tags.push(...localTags.filter((tag: SimpleSlug) => !tags.includes(tag)))
+        for (const tag of localTags) {
+          links.push({ source: source, target: tag })
+        }
       }
     }
   }
 
   const neighbourhood = new Set<SimpleSlug>()
 
-  // Define the 6 main category hub pages
-  const categoryHubs = new Set<SimpleSlug>([
+  // Only these categories appear in the graph
+  const graphCategories = new Set<SimpleSlug>([
     "positions" as SimpleSlug,
     "transitions" as SimpleSlug,
     "submissions" as SimpleSlug,
+  ])
+
+  // All category hub pages (for detecting hub page context)
+  const categoryHubs = new Set<SimpleSlug>([
+    ...graphCategories,
     "systems" as SimpleSlug,
     "principles" as SimpleSlug,
     "learning" as SimpleSlug,
@@ -168,8 +237,8 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
 
   if (isHomepage) {
-    // Homepage: Show only the 6 main category nodes
-    categoryHubs.forEach((hub) => {
+    // Homepage: Show only the graph category nodes
+    graphCategories.forEach((hub) => {
       // Find the actual slug (any case) that matches this hub
       for (const [nodeSlug] of data.entries()) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -189,11 +258,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     let childCount = 0
     for (const [nodeSlug] of data.entries()) {
       const nodeLower = nodeSlug.toLowerCase()
-      // Include items that start with category prefix, but exclude Bottom/Top variants
+      // Include items that start with category prefix, but exclude role page variants
       if (
         nodeLower.startsWith(categoryPrefix) &&
         !nodeLower.endsWith("/bottom") &&
-        !nodeLower.endsWith("/top")
+        !nodeLower.endsWith("/top") &&
+        !nodeLower.endsWith("/attacker") &&
+        !nodeLower.endsWith("/defender")
       ) {
         neighbourhood.add(nodeSlug)
         childCount++
@@ -203,26 +274,32 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     // All other pages: Show depth-1 connections, excluding category hubs
     const wl: (SimpleSlug | "__SENTINEL")[] = [slugClean as SimpleSlug, "__SENTINEL"]
 
-    // For position hubs, aggregate links from Bottom and Top role pages
+    // For hub pages, aggregate links from their role pages
     const isPositionHub =
       slugLower.startsWith("positions/") &&
       !slugLower.endsWith("/bottom") &&
       !slugLower.endsWith("/top")
+    const isTransitionOrSubmissionHub =
+      (slugLower.startsWith("transitions/") || slugLower.startsWith("submissions/")) &&
+      !slugLower.endsWith("/attacker") &&
+      !slugLower.endsWith("/defender")
 
+    const roleSuffixes: string[] = []
     if (isPositionHub) {
-      const bottomSlugToFind = slugLower + "/bottom"
-      const topSlugToFind = slugLower + "/top"
+      roleSuffixes.push("/bottom", "/top")
+    } else if (isTransitionOrSubmissionHub) {
+      roleSuffixes.push("/attacker", "/defender")
+    }
 
-      // Find and collect role pages first (to avoid sentinel index shifting)
+    if (roleSuffixes.length > 0) {
+      const roleSlugsToFind = roleSuffixes.map((s) => slugLower + s)
       const rolePagesToAdd: SimpleSlug[] = []
       for (const [nodeSlug] of data.entries()) {
         const nodeLower = nodeSlug.toLowerCase()
-        if (nodeLower === bottomSlugToFind || nodeLower === topSlugToFind) {
+        if (roleSlugsToFind.includes(nodeLower)) {
           rolePagesToAdd.push(nodeSlug)
         }
       }
-
-      // Insert all role pages at once before sentinel
       const sentinelIndex = wl.indexOf("__SENTINEL")
       wl.splice(sentinelIndex, 0, ...rolePagesToAdd)
     }
@@ -250,11 +327,24 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     categoryHubs.forEach((hub) => neighbourhood.delete(hub))
   }
 
+  const graphPrefixes = [...graphCategories].map((c) => c + "/")
+
   const nodes = [...neighbourhood]
     .filter((url) => {
-      // Filter out Bottom/Top role pages (playing_as model) - show only hub pages
       const lowerUrl = url.toLowerCase()
-      return !lowerUrl.endsWith("/bottom") && !lowerUrl.endsWith("/top")
+      // Only allow graph category hubs and their children
+      const isGraphNode =
+        graphCategories.has(lowerUrl as SimpleSlug) ||
+        graphPrefixes.some((p) => lowerUrl.startsWith(p)) ||
+        lowerUrl.startsWith("tags/")
+      // Filter out role pages (playing_as model) - show only hub pages
+      return (
+        isGraphNode &&
+        !lowerUrl.endsWith("/bottom") &&
+        !lowerUrl.endsWith("/top") &&
+        !lowerUrl.endsWith("/attacker") &&
+        !lowerUrl.endsWith("/defender")
+      )
     })
     .map((url) => {
       let text = url.startsWith("tags/") ? "#" + url.substring(5) : data.get(url)?.title
@@ -293,18 +383,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .filter((l) => l.source && l.target && l.source !== l.target) as LinkData[], // Remove self-loops and invalid links
   }
 
-  // Check for pre-computed graph positions (injected at build time)
-  const positionsEl = document.getElementById("graph-positions")
+  // Use pre-computed positions from build time (already parsed above)
   let precomputed: Record<string, { x: number; y: number }> | null = null
-  if (positionsEl) {
-    try {
-      const parsed = JSON.parse(positionsEl.textContent!)
-      precomputed = {}
-      for (const n of parsed.nodes) {
-        precomputed[n.id] = { x: n.x, y: n.y }
-      }
-    } catch {
-      precomputed = null
+  if (precomputedGraph) {
+    precomputed = {}
+    for (const n of precomputedGraph.nodes) {
+      precomputed[n.id] = { x: n.x, y: n.y }
     }
   }
 
@@ -384,6 +468,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
+  // Load known SRS technique nodes for highlighting
+  const srsNodeIds = getSRSNodeIds()
+
   // helper function to detect content type from node slug
   function getContentTypeColor(nodeId: SimpleSlug): string {
     const lowerNodeId = nodeId.toLowerCase()
@@ -398,7 +485,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // calculate color based on content type and state
   const color = (d: NodeData) => {
-    const isCurrent = d.id === slug
+    const isCurrent = d.id === slug || d.id === getHubSlug(slug as SimpleSlug)
 
     // Get base color for this content type
     const baseColor = getContentTypeColor(d.id)
@@ -611,17 +698,22 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
+    const isKnownTechnique = srsNodeIds.has(nodeId.toLowerCase())
     const nodeColor = color(n)
+    const radius = nodeRadius(n)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
       eventMode: "static",
-      hitArea: new Circle(0, 0, nodeRadius(n)),
+      hitArea: new Circle(0, 0, radius),
       cursor: "pointer",
     })
-      .circle(0, 0, nodeRadius(n))
+      .circle(0, 0, radius)
       .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
-      .stroke({ width: isTagNode ? 2 : 0, color: nodeColor })
+      .stroke({
+        width: isKnownTechnique ? 3 : isTagNode ? 2 : 0,
+        color: isKnownTechnique ? "#ffffff" : nodeColor,
+      })
 
     gfx
       .on("pointerover", (e) => {
@@ -707,7 +799,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           if (Date.now() - dragStartTime < 500) {
             const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
             const targ = resolveRelative(fullSlug, node.id)
-            window.spaNavigate(new URL(targ, window.location.toString()))
+            crossfadeNavigate(new URL(targ, window.location.toString()))
           }
         }),
     )
@@ -715,7 +807,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     for (const node of nodeRenderData) {
       node.gfx.on("click", () => {
         const targ = resolveRelative(fullSlug, node.simulationData.id)
-        window.spaNavigate(new URL(targ, window.location.toString()))
+        crossfadeNavigate(new URL(targ, window.location.toString()))
       })
     }
   }

@@ -208,11 +208,11 @@ The Triangle Setup from De La Riva integrates into the broader DLR attack system
 
 - [[Transitions/Single Leg X Entry]] - Alternative DLR transition when triangle is defended and opponent withdraws to standing posture
 
-- [[Transitions/Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
+- [[Submissions/Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
 
 - [[Transitions/Kiss of the Dragon from RDLR]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
 
-- [[Submissions/Triangle from Open Guard]] - Similar triangle entry technique from a less structured open guard starting point
+- [[Transitions/De La Riva Sweep]] - Primary DLR sweep that chains with the triangle threat, creating the dilemma structure where sweep defense opens triangle entries
 
 - [[Positions/Collar Sleeve Guard]] - Related open guard system with strong triangle setup options sharing grip principles
 

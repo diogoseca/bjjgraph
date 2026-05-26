@@ -169,6 +169,8 @@ Successful navigation of this position requires understanding the systematic nat
 
 ## Position Definition
 
+<p class="section-subtitle">What is Vaporizer (Top)?</p>
+
 - Bottom opponent has established lockdown on one of top player's legs, creating figure-four entanglement that restricts leg mobility and prevents standard base positioning
 - Bottom opponent controls upper body through underhook or overhook, typically threading under the arm or wrapping over the shoulder to create leverage for whip-up motion
 - Top player's posture is compromised and weight is being shifted laterally through opponent's whip-up mechanics, preventing stable combat base establishment
@@ -182,6 +184,8 @@ Successful navigation of this position requires understanding the systematic nat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Vaporizer (Top)?</p>
+
 - Top player previously in half guard top or passing position
 - Bottom opponent successfully established lockdown on one leg
 - Bottom opponent secured underhook or overhook on upper body
@@ -194,6 +198,8 @@ Successful navigation of this position requires understanding the systematic nat
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Vaporizer?</p>
 
 - Immediately widen base and lower center of gravity to counter whip-up motion and prevent being rolled to back or side
 - Address lockdown first by clearing the figure-four configuration before attempting to advance passing position
@@ -209,6 +215,8 @@ Successful navigation of this position requires understanding the systematic nat
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Vaporizer (Top)?</p>
 
 **If opponent has deep underhook and is creating strong whip-up pressure:**
 - Execute **[[Transitions/Whizzer/Attacker|Whizzer]]** → [[Positions/Half Guard]] (Probability: 55%)
@@ -237,6 +245,8 @@ Successful navigation of this position requires understanding the systematic nat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Vaporizer?</p>
 
 ### 1. Attempting to pull trapped leg free with explosive force instead of systematic clearing technique
 
@@ -281,6 +291,8 @@ Successful navigation of this position requires understanding the systematic nat
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Vaporizer attacks?</p>
+
 ### Lockdown Escape Progressions
 
 Partner establishes full Vaporizer position with lockdown and underhook. Practice systematic escape sequence: widen base, clear underhook with whizzer, circulate trapped leg to clear lockdown, advance to passing position. Start with compliant partner, then add progressive resistance (50%, 75%, 100%). Perform 10 complete escapes per side.
@@ -313,38 +325,6 @@ From Vaporizer top position, practice recognizing specific bottom player attacks
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent initiates a strong whip-up motion and you feel your weight shifting laterally - what is your immediate defensive response?
-**A**: Immediately widen your base by sprawling your free leg out to the side and lowering your hips toward the mat. Drive heavy shoulder pressure into opponent's chest while keeping your trapped leg as heavy as possible. Avoid the instinct to post your hand close to their hip, as this creates a leverage point for the Old School sweep. Your goal is to become too heavy and wide to roll.
-
-**Q2**: What are the essential control points you must break to escape the Vaporizer position from top?
-**A**: You must systematically break two primary control points: the lockdown leg entanglement and the upper body control (underhook or overhook). The lockdown controls your leg mobility and creates the mechanical foundation for all their attacks. The underhook provides the leverage for the whip-up motion and sweep attempts. Address both simultaneously - clearing only the lockdown while they maintain the underhook still leaves you vulnerable.
-
-**Q3**: How should you distribute your weight when defending against the Electric Chair submission threat?
-**A**: Keep your weight back and toward your hips rather than committing forward. If you drive your weight forward aggressively, you play directly into the Electric Chair setup because your hips become elevated and easier to manipulate. Instead, maintain heavy shoulder pressure while keeping your hips mobile and ready to adjust. The Electric Chair requires them to elevate and split your legs - staying heavy with distributed weight prevents this.
-
-**Q4**: Your opponent's lockdown feels tight and you cannot extract your leg - what systematic approach should you use?
-**A**: Use controlled leg circulation movements rather than explosive yanking. Point your trapped knee toward the mat to make your leg narrow and harder to control. Shift your weight side to side while maintaining pressure on their upper body. Create small amounts of space through hip adjustments and gradually work your heel toward your buttocks. Patience is essential - explosive extraction attempts tighten their lockdown reflexively and waste your energy.
-
-**Q5**: When is the optimal time to transition to a passing sequence after partially clearing the lockdown?
-**A**: Transition when you have addressed BOTH the lockdown loosening AND neutralized their underhook control. If you attempt to pass with only the lockdown cleared but their underhook intact, they can immediately re-establish the lockdown or transition to other attacks like back takes. Wait until you have established a whizzer or crossface control that prevents their upper body manipulation, then flow into your knee slice or pressure passing sequence.
-
-**Q6**: Your opponent posts their hand to attempt the Old School sweep - how do you recognize and counter this?
-**A**: The Old School sweep requires them to post their outside foot and drive off it while using their underhook. When you feel them shift to post their foot and their underhook pressure increases, immediately widen your base in the opposite direction of their intended sweep. Drive your crossface pressure harder to limit their bridging power. Consider transitioning to a passing angle that takes away their leverage - moving toward their head rather than fighting against the sweep direction.
-
-**Q7**: How do you manage energy expenditure when trapped in the Vaporizer position for extended periods?
-**A**: Avoid explosive movements that create space and waste energy while accomplishing nothing. Use steady, constant pressure rather than burst-and-rest patterns. Maintain your defensive positioning through small adjustments rather than dramatic repositioning. Keep controlled breathing to prevent cardiovascular fatigue. The bottom player wants you to explosively resist - this creates the space they need. Patient, grinding defense is more sustainable and eventually creates opportunities as they fatigue from maintaining the whip-up pressure.
-
-**Q8**: Your partial escape attempt opened space and now your opponent is transitioning toward the Truck position - what is your recovery protocol?
-**A**: Immediately abandon the escape attempt and address the Truck entry. Turn your hips toward them rather than away to prevent them from securing the far leg hook needed for Truck control. Establish a whizzer on their underhook arm and drive your shoulder pressure into their head. If they begin to secure the leg triangle, you must either complete the escape immediately or accept the positional setback and defend from Truck rather than getting stuck in transition.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

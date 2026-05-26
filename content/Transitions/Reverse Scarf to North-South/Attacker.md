@@ -194,6 +194,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Scarf to North-South?</p>
+
 - Maintain constant chest-to-chest pressure throughout the entire rotation by using your sternum as a pivot point against the opponent's upper body
 - Control the opponent's arms before initiating rotation to eliminate their ability to create defensive frames during the transition
 - Shift weight forward toward the opponent's head before rotating to prevent hip escapes and ensure chest contact remains unbroken
@@ -208,6 +210,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Scarf to North-South?</p>
+
 - Established reverse scarf hold with heavy hip pressure on opponent's chest and near arm trapped across their body
 - Wide base with near leg posted and far leg extended to support rotational movement without losing balance
 - Opponent relatively flat on their back without active knee shields, frames, or hip escape angles that could obstruct the rotation
@@ -219,6 +223,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Scarf to North-South step by step?</p>
 
 1. **Consolidate Reverse Scarf Hold Control**: Before initiating the transition, verify that your hip pressure is heavy on the opponent's chest, their near arm is trapped tightly across their body, and your base is wide and stable. Tighten your near arm's grip pulling their arm across their torso while your far hand controls their far hip or belt. This consolidation phase ensures you start the transition from maximum control.
 2. **Secure Both Arms for Transition**: Control the opponent's far arm with your far hand by pinning it to the mat or trapping it against their body. Both arms must be neutralized before rotation begins, as a free arm during the transition creates frames that block the rotation or generate enough space for a hip escape to half guard recovery.
@@ -249,6 +255,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Scarf to North-South?</p>
+
 - **Opponent frames on your hip with far arm to block the rotation before it begins** (Effectiveness: High) - Your Response: Strip the frame by driving your hip into their forearm to collapse it, or switch to attacking the exposed arm with a kimura grip before reattempting the rotation. If the frame is strong, maintain reverse scarf hold and attack submissions from there rather than forcing the transition. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 - **Opponent bridges explosively during the rotation window when your base is narrowest** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy as a pivot point and widening your base immediately. If the bridge is powerful enough to create space, use their upward momentum to accelerate your rotation toward north-south rather than fighting back to reverse scarf hold. Their bridge energy becomes your rotational momentum. → Leads to [[Positions/Half Guard]]
 - **Opponent inserts knee between bodies during the weight shift phase of the rotation** (Effectiveness: High) - Your Response: If the knee enters early, immediately push it down with your hip pressure and abort the rotation to reestablish reverse scarf control. If the knee enters during the later phase of rotation, continue to north-south and address the knee from perpendicular alignment where you have better leverage to clear it before they establish half guard. → Leads to [[Positions/Half Guard]]
@@ -260,6 +268,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Scarf to North-South?</p>
 
 ### 1. Lifting hips and chest off opponent during the rotation to reposition
 
@@ -299,6 +309,8 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Scarf to North-South (Attacker)?</p>
+
 **Phase 1: Solo Movement Pattern** - Rotation mechanics without resistance
 Practice the rotation arc on a grappling dummy or cooperative partner. Focus on maintaining chest contact as the pivot point while walking legs in a smooth arc. Repeat 20-30 repetitions per side until the movement pattern feels natural and automatic. Pay attention to weight distribution throughout the arc.
 
@@ -319,39 +331,12 @@ Simulate competition scenarios where you must advance position from reverse scar
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body part serves as the primary pivot point during the rotation from reverse scarf to north-south?
-**A**: Your chest serves as the fixed pivot point against the opponent's upper body throughout the entire rotation. The sternum maintains constant contact with the opponent's chest area while your lower body walks in an arc around that anchor point. This pivot mechanism ensures continuous pressure throughout the transition and prevents the escape windows that occur when practitioners lift their chest to reposition. The heavier and more consistent your chest pressure, the more secure the pivot and the less opportunity the opponent has to create defensive space.
-
-**Q2**: Your opponent frames on your hip with their far arm as you begin the rotation - how do you adjust?
-**A**: First, do not attempt to rotate through the frame as this creates gaps the opponent will exploit. Instead, strip the frame by driving your hip into their forearm to collapse the skeletal structure of the frame, or control the framing arm by trapping it with your far hand and pulling it across their body. If the frame is particularly strong, consider attacking the exposed arm with a kimura grip rather than forcing the transition. Only reinitiate the rotation once both arms are controlled and the frame is eliminated.
-
-**Q3**: What is the critical weight shift that must occur before initiating the leg rotation?
-**A**: Before any leg movement begins, you must shift your weight forward so your chest pressure concentrates over the opponent's upper chest and shoulder area rather than their mid-torso. This forward loading serves two essential purposes: it secures the pivot point high on their body where rotation is mechanically efficient, and it eliminates the gap at hip level that the opponent would otherwise use for knee insertion or hip escape during the rotation. Without this preliminary forward shift, the rotation creates a predictable escape window at the hip line.
-
-**Q4**: How should you sequence the grip transition from reverse scarf control to north-south underhooks?
-**A**: The grip transition must be progressive rather than simultaneous to prevent both arms from being free at any point. First, thread your near arm into a north-south underhook on one side of the opponent's body while maintaining your far arm's control from the reverse scarf position. Only after the first underhook is secure should you release the remaining reverse scarf grip and transition it to the second underhook or arm control on the opposite side. This sequential approach ensures continuous arm control throughout the most vulnerable phase of the transition.
-
-**Q5**: When should you abort the transition and return to reverse scarf hold instead of completing the rotation?
-**A**: Abort when you feel the opponent establishing effective frames that mechanically block the rotation, when they successfully insert a knee between your bodies creating a half guard structure, or when their bridge generates enough space that your chest lifts off their body breaking the pivot point. The decision to abort must be immediate and committed. Return fully to reverse scarf hold control with consolidated grips and heavy pressure rather than lingering in an intermediate position. A clean abort preserves your control and allows you to reattempt when conditions improve.
-
-**Q6**: What is the optimal response when the opponent bridges explosively during the mid-rotation phase?
-**A**: Rather than fighting the bridge directly, use it as an opportunity. Keep your chest heavy as the pivot point and widen your base by sprawling your legs outward to ride the bridge. If the bridge is strong enough to create upward momentum, redirect that energy to accelerate your rotation toward north-south rather than trying to return to reverse scarf hold. As the opponent's bridge collapses from fatigue, their descent brings them directly into your completing north-south pressure. Their escape attempt becomes your transition momentum.
-
-**Q7**: What determines whether you should pursue this transition versus hunting submissions from reverse scarf hold?
-**A**: Pursue the north-south transition when the opponent is successfully defending reverse scarf submissions by protecting their arms and maintaining defensive posture, when you need a more sustainable control position for recovery or point scoring, or when the opponent's escape attempts are creating the instability that makes reverse scarf hold difficult to maintain. Stay in reverse scarf hold and hunt submissions when the opponent's arm is exposed and submission opportunities are immediate, when you have high-percentage attacks available, or when the opponent is passive and not threatening escape. The decision depends on reading whether offensive or positional opportunity is higher at that moment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Scarf to North-South?</p>
 
 This transition involves continuous pressure on the opponent's chest and upper body which restricts breathing. Monitor your training partner for signs of respiratory distress including tapping, verbal signals, or cessation of movement. During drilling, periodically check that your partner can breathe adequately under the pressure. Avoid dropping your full weight suddenly during the rotation completion as this can cause rib injuries. The transition itself is low-risk compared to submissions, but the sustained chest compression in both the starting and ending positions requires awareness of your partner's comfort and safety throughout the positional exchange.
 

@@ -186,6 +186,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard Recovery?</p>
+
 - Time the recovery to opponent's passing transitions, not against static pressure
 - Create frames with free leg and far-side arm before attempting hip movement
 - Insert knee shield by bringing knee to chest first, then extending into opponent's hip
@@ -201,6 +203,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard Recovery?</p>
+
 - Recognition that leg drag has been established but pass not yet completed
 - Free leg mobility maintained despite opponent's pressure on dragged leg
 - Ability to create initial frame with far-side arm on opponent's shoulder or bicep
@@ -213,6 +217,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard Recovery step by step?</p>
 
 1. **Create initial frames**: Place your free leg shin across opponent's hip as a frame while posting your far-side hand on their shoulder or collar. These frames must be established before any major hip movement - they create the space necessary for the recovery and prevent the opponent from driving forward to consolidate.
 2. **Time the transition**: Wait for opponent to begin their passing movement - typically a knee slice or pressure pass progression. As they shift weight to complete the pass, their chest pressure momentarily decreases, creating your window for hip movement. This patience is essential - premature attempts waste energy.
@@ -242,6 +248,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard Recovery?</p>
+
 - **Opponent sprawls and drives chest pressure down during knee insertion attempt** (Effectiveness: High) - Your Response: Abandon knee shield attempt and immediately transition to deep half guard entry by threading under their base, or reset frames and wait for next transition opportunity → Leads to [[Positions/Leg Drag Control]]
 - **Opponent backsteps to take back as you begin hip movement** (Effectiveness: High) - Your Response: Recognize the backstep early and switch to turtle defense or rolling back take counter, keeping elbows tight and chin tucked to prevent seatbelt establishment → Leads to [[Positions/Side Control]]
 - **Opponent clears knee shield by pushing knee down and re-establishing crossface** (Effectiveness: Medium) - Your Response: Swim the underhook aggressively and use butterfly hook with outside leg to create elevation and prevent flattening, then re-attempt shield insertion from improved angle → Leads to [[Positions/Leg Drag Control]]
@@ -253,6 +261,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard Recovery?</p>
 
 ### 1. Attempting recovery against static heavy pressure without waiting for transition
 
@@ -292,6 +302,8 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard Recovery (Attacker)?</p>
+
 **Week 1-2** - Frame mechanics
 Practice creating and maintaining frames from leg drag bottom with partner applying light pressure. Focus on proper hand placement on shoulder, shin frame across hip, and body positioning. No live recovery attempts yet.
 
@@ -309,48 +321,12 @@ Full resistance specific training from leg drag position. Partner attempts real 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Half Guard Recovery from leg drag bottom?
-**A**: The primary goal is to re-establish a functional half guard position, specifically knee shield half guard, that gives you both defensive stability and offensive options. This transforms a dangerous passing situation where you're at severe positional disadvantage into a neutral or advantageous guard position where you can threaten sweeps, back takes, and submissions.
-
-**Q2**: Why must you hip escape toward your opponent rather than away during the recovery?
-**A**: Hip escaping toward the opponent closes the distance and creates the proper angle for knee shield insertion. Moving away opens space in the wrong direction, often exposing your back or allowing the opponent to follow and complete the pass. The shrimp toward them shortens the distance your knee must travel and puts you in position to establish the underhook immediately.
-
-**Q3**: Your opponent maintains heavy static pressure in leg drag - what is your strategy?
-**A**: Against heavy static pressure, do not waste energy attempting the recovery directly. Maintain your frames efficiently to manage the pressure while waiting for them to initiate their passing transition. When they begin to knee slice or pressure pass, their movement creates the space you need. Time your explosive recovery to coincide with their transition, not against their static weight.
-
-**Q4**: What are the essential grips and frames needed before attempting the recovery?
-**A**: Before any hip movement, establish: 1) Free leg shin frame across opponent's hip to prevent forward drive, 2) Far-side arm frame on their shoulder or collar to create upper body distance and control their posture, 3) Near-side elbow tight to your body preventing crossface. These frames create the space necessary for the hip escape and protect you if the recovery fails.
-
-**Q5**: Your opponent begins a backstep as you initiate the recovery - how do you respond?
-**A**: The backstep indicates they're taking your back rather than completing the pass. Immediately abort the half guard recovery and transition to back defense. Bring your elbows tight to your sides, tuck your chin, and either turn into them to recover guard or accept turtle position with proper defensive posture. Do not continue the half guard recovery as it will give them an easy back take.
-
-**Q6**: What distinguishes a successful knee shield from one that gets easily cleared?
-**A**: A successful knee shield has proper angle (diagonal across torso, not horizontal), sufficient height (knee at or above hip line), and is immediately supported by an underhook battle. Weak knee shields are horizontal allowing easy push-down, too low giving opponent space above, or unsupported by underhook allowing crossface establishment. The knee shield alone is insufficient - it requires the underhook to maintain structural integrity.
-
-**Q7**: When should you abandon half guard recovery and transition to deep half instead?
-**A**: Transition to deep half when: repeated knee shield attempts are being stuffed by opponent's pressure, opponent maintains heavy forward pressure but has a high base creating space underneath, or when their crossface is too strong to fight. Deep half bypasses the chest pressure by going under rather than creating distance, and the opponent's committed weight becomes a liability rather than an asset.
-
-**Q8**: Your recovery succeeds but opponent immediately clears your knee shield - what went wrong?
-**A**: The failure was not fighting for the underhook immediately upon knee shield establishment. Without the underhook, opponents can easily use shoulder pressure to collapse the knee shield and re-establish dominant position. The recovery is incomplete until you have both knee shield and underhook working together - they are a functional unit, not separate accomplishments.
-
-**Q9**: How do you manage energy against a patient passer who waits in leg drag?
-**A**: Against patient passers, maintain frames with minimal expenditure - use bone structure rather than muscle tension. Do not attempt explosive recoveries against static pressure. Wait for them to commit to passing, as each transition creates specific recovery windows. If they truly will not move, establish lockdown on their trapped leg to force a reaction, or threaten their posting hand to disrupt their base. Make them move, then exploit the movement.
-
-**Q10**: What role does the bottom leg play during and immediately after the recovery?
-**A**: The bottom leg provides critical transitional control by establishing quarter guard hook around opponent's trapped leg. This hook prevents them from backing out to reset the leg drag, maintains connection during the scramble, and provides a foundation for upgrading to full half guard control. A passive bottom leg allows opponent to disengage and restart their passing sequence from a better angle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard Recovery?</p>
 
 Half Guard Recovery is generally a safe technique with low injury risk when performed correctly. The primary safety concern is neck strain from attempting the recovery when opponent has established a strong crossface - always address the crossface with frames before explosive hip movement. Avoid explosive shrimping when your spine is twisted or compressed, as this can strain lower back muscles. When drilling, partners should release pressure if bottom player taps or verbally indicates discomfort. In competition or hard sparring, accept turtle position rather than fighting a losing recovery battle that could result in neck or back injury. Players with existing knee issues should be cautious about the twisting motion during knee shield insertion.
 

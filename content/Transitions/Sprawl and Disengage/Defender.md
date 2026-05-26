@@ -166,6 +166,8 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sprawl and Disengage?</p>
+
 - Opponent's hands post firmly on your hips or thighs with stiffened arms, creating a framing structure against your elevation
 - Opponent's weight shifts backward noticeably as their hips begin driving away from your legs
 - Opponent's chest drops toward your legs while their feet start stepping backward away from your hook range
@@ -177,6 +179,8 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sprawl and Disengage?</p>
 
 - Maintain at least one point of leg contact throughout the sprawl attempt to prevent full disengagement
 - React to the sprawl before it completes—early intervention is exponentially more effective than late recovery
@@ -191,6 +195,8 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sprawl and Disengage?</p>
 
 ### 1. Tighten hooks and pull opponent back into guard before sprawl completes
 
@@ -228,6 +234,8 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sprawl and Disengage?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Tighten hooks aggressively at the first sign of the sprawl, before their hips fully extend. Use your inside hook behind their knee as an anchor and pull their weight back over your hips while simultaneously elevating to disrupt their base. The earlier you react, the higher your success rate—once their hips are fully extended, recovery becomes exponentially harder.
@@ -243,6 +251,8 @@ As their leg retreats during the sprawl, redirect your hook configuration to cat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sprawl and Disengage?</p>
 
 ### 1. Reacting passively to the sprawl and allowing full disengagement without attempting any counter
 
@@ -272,6 +282,8 @@ As their leg retreats during the sprawl, redirect your hook configuration to cat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sprawl and Disengage?</p>
+
 **Week 1-2** - Hook retention mechanics
 Partner performs slow, controlled sprawl motions while you practice tightening hooks and maintaining leg contact. Focus on the squeeze-and-pull response to backward hip movement. No live resistance, purely mechanical repetition of hook retention against retreating opponent.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from grasshopper guard. Top player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for countering the sprawl and disengage?
-**A**: The most critical window is the early phase before their hips fully extend backward. Once you detect their hands posting on your hips and weight shifting back, you have approximately one second to tighten your hooks and pull their weight back over your center of gravity. After their hips fully extend, the force required to recover them into your guard increases dramatically.
-
-**Q2**: How do you convert a failed grasshopper retention into a single leg X-guard entry?
-**A**: As their leg begins retreating during the sprawl, redirect your inside hook from behind their knee to wrap around their ankle or lower calf. Simultaneously shoot your outside foot to their hip to create the classic single leg X configuration. The key is catching their ankle during the extraction motion—their backward momentum actually helps seat your ankle wrap as their leg slides through your control.
-
-**Q3**: When should you accept the positional reset rather than continue fighting the sprawl?
-**A**: Accept the reset when their hips have fully extended, both feet have stepped back beyond your leg range, and they have broken all hook contact. Continuing to chase at this point wastes core energy on low-percentage recovery attempts. Instead, immediately come up to seated guard or standing position and prepare to re-establish guard when they re-engage on more equal terms.
-
-**Q4**: What body mechanics allow you to follow the opponent's retreating hips during mid-phase sprawl?
-**A**: Use a shoulder-roll inversion to follow their retreating hips. Drive off your shoulder blades and roll your hips toward them, extending your legs to maintain contact as they move backward. Your core generates the following force while your shoulder blades serve as the pivot point. This rolling pursuit is more energy-efficient than simply extending your legs, as it uses your entire body's momentum.
-
-**Q5**: Your opponent posts their hands on your hips before sprawling—how does this change your defensive approach?
-**A**: Their hand post telegraphs the sprawl and gives you an early warning advantage. Use this moment to pre-tighten your hooks and begin elevating your hips against their frames before the sprawl initiates. You can also strip one of their posting hands by pulling it toward you with your grip, which destabilizes their sprawl base and may cause them to fall forward into your guard rather than retreating cleanly.
-
-
-
-</section>
 
 
 </main>

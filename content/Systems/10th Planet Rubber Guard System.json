@@ -13,7 +13,7 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "overview": "The 10th Planet Rubber Guard System represents one of the most innovative and controversial developments in modern Brazilian Jiu-Jitsu. Created by Eddie Bravo, this comprehensive guard framework leverages extreme flexibility and unconventional positioning to control opponents and create submission opportunities from closed guard. The system centers around using your legs to break posture and control your opponent's upper body while freeing your hands to attack or defend. Unlike traditional closed guard systems that rely on gi grips, the Rubber Guard was specifically designed for no-gi competition where conventional controls are less effective. The core innovation lies in using your leg as a substitute for collar control, wrapping it around the opponent's head and shoulder to break their posture while simultaneously preventing them from establishing base. This creates a unique control position from which multiple submission paths and sweeps become available. The system progresses through named control positions\u2014Mission Control, New York, Chill Dog, Meathook\u2014each serving as a checkpoint in the overall framework and each offering distinct offensive opportunities.",
+  "overview": "The 10th Planet Rubber Guard System represents one of the most innovative and controversial developments in modern Brazilian Jiu-Jitsu. Created by Eddie Bravo, this comprehensive guard framework leverages extreme flexibility and unconventional positioning to control opponents and create submission opportunities from closed guard. The system centers around using your legs to break posture and control your opponent's upper body while freeing your hands to attack or defend. Unlike traditional closed guard systems that rely on gi grips, the Rubber Guard was specifically designed for no-gi competition where conventional controls are less effective. The core innovation lies in using your leg as a substitute for collar control, wrapping it around the opponent's head and shoulder to break their posture while simultaneously preventing them from establishing base. This creates a unique control position from which multiple submission paths and sweeps become available. The system progresses through named control positions—Mission Control, New York, Chill Dog, Meathook—each serving as a checkpoint in the overall framework and each offering distinct offensive opportunities.",
   "key_principles": [
     "Use leg flexibility to replace traditional gi grips in no-gi scenarios",
     "Break and maintain broken posture through leg-based controls",
@@ -188,7 +188,7 @@
     }
   ],
   "training_methodology": {
-    "drilling_approach": "Begin with positional isolation drilling, spending dedicated time on each control position until it feels natural and stable. Practice Mission Control holds for extended periods (2-3 minutes) to build the necessary muscle memory and comfort. Progress to flowing between positions in sequence without resistance, then add progressive resistance as comfort increases. Incorporate submission attempts only after control positions are solid. Use specific sparring rounds where you start in closed guard with the goal of entering and maintaining Rubber Guard positions. Partner feedback is crucial\u2014have training partners identify when your control weakens or when they feel escape opportunities. Video analysis helps identify technical flaws in your positioning that may not be apparent during live training. Supplement mat time with flexibility training, particularly hip flexibility work that directly translates to better Rubber Guard positioning.",
+    "drilling_approach": "Begin with positional isolation drilling, spending dedicated time on each control position until it feels natural and stable. Practice Mission Control holds for extended periods (2-3 minutes) to build the necessary muscle memory and comfort. Progress to flowing between positions in sequence without resistance, then add progressive resistance as comfort increases. Incorporate submission attempts only after control positions are solid. Use specific sparring rounds where you start in closed guard with the goal of entering and maintaining Rubber Guard positions. Partner feedback is crucial—have training partners identify when your control weakens or when they feel escape opportunities. Video analysis helps identify technical flaws in your positioning that may not be apparent during live training. Supplement mat time with flexibility training, particularly hip flexibility work that directly translates to better Rubber Guard positioning.",
     "progression_path": [
       {
         "stage": "Foundation Building",
@@ -322,9 +322,9 @@
       "relationship": "Signature submission from New York position"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Inverted Triangle",
       "content_type": "Submission",
-      "relationship": "Chain progression option from various control positions"
+      "relationship": "Chain progression option from high guard control positions"
     },
     {
       "name": "Baratoplata",
@@ -332,17 +332,17 @@
       "relationship": "Advanced submission option from Rubber Guard controls"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Fundamental principle maintained throughout system application"
+      "relationship": "Fundamental guard retention principles maintained throughout system application"
     },
     {
-      "name": "Flexibility Training",
+      "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Essential physical prerequisite for effective system use"
+      "relationship": "Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Core mechanical principle enabling all Rubber Guard positions"
     },

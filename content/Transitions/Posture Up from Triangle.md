@@ -210,7 +210,7 @@ Posture Up from Triangle is a critical component of the complete triangle defens
 
 - [[Transitions/Stack Defense]] - Alternative triangle defense that combines with posture-up in chain escapes
 
-- [[Transitions/Triangle Choke]] - The primary submission threat being defended against through posture recovery
+- [[Submissions/Triangle Choke]] - The primary submission threat being defended against through posture recovery
 
 - [[Positions/Armbar Control]] - Secondary threat position the triangle holder may transition to during posture-up
 

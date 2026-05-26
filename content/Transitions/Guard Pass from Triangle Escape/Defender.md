@@ -162,6 +162,8 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from Triangle Escape?</p>
+
 - Your triangle ankle lock loosens or breaks as the opponent's escape mechanics succeed and you feel your legs separating
 - The opponent's forward stacking pressure increases dramatically as they shift from defensive escape to offensive passing intent
 - The opponent's hands shift from defensive posture positions to actively gripping your legs or hips for passing control
@@ -173,6 +175,8 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pass from Triangle Escape?</p>
 
 - React immediately when you feel the triangle failing—do not wait for the escape to fully complete before initiating guard recovery mechanics
 - Prioritize re-establishing leg connection around the opponent's body before they clear your legs completely, as any guard is better than no guard
@@ -186,6 +190,8 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from Triangle Escape?</p>
 
 ### 1. Re-lock triangle before legs fully clear by hooking the top leg back behind the opponent's neck and closing the ankle lock
 
@@ -223,6 +229,8 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from Triangle Escape?</p>
+
 ### → [[Positions/Closed Guard]]
 
 As soon as you recognize the triangle is failing, immediately retract your legs and hip escape to create the angle needed to re-wrap your legs around the opponent's waist. Focus on closing your ankles behind their back before they achieve lateral passing position. Use frames against their shoulders to buy the half-second needed for leg recovery.
@@ -238,6 +246,8 @@ If the opponent pauses or adjusts during the pass attempt, quickly re-hook your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from Triangle Escape?</p>
 
 ### 1. Continuing to fight for the triangle after it is clearly broken rather than transitioning to guard recovery
 
@@ -267,6 +277,8 @@ If the opponent pauses or adjusts during the pass attempt, quickly re-hook your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from Triangle Escape?</p>
+
 **Phase 1: Recognition** - Identifying the moment a triangle fails and the pass begins
 Partner executes triangle escapes at varying speeds while you practice recognizing the exact moment the triangle breaks. Focus on feeling the ankle unlock, the pressure shift, and the opponent's weight change. Call out 'broken' the instant you recognize the escape succeeding. Build reflexive awareness of the transition moment.
 
@@ -283,29 +295,6 @@ Open sparring rounds where you actively hunt for triangles knowing that failed a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first action you should take when you recognize your triangle has been escaped?
-**A**: Immediately abandon the triangle and initiate guard recovery by retracting your legs and creating forearm frames against the opponent's shoulders. Do not spend any time attempting to re-lock a clearly broken triangle. The priority shifts instantly from offense to defense, and every fraction of a second spent chasing the dead submission is time lost from the guard recovery window.
-
-**Q2**: How do you prevent the opponent from establishing crossface control during the guard pass?
-**A**: Use your near-side hand to frame against the opponent's shoulder or bicep on the crossface side, creating a barrier that blocks their arm from sliding under your head. Keep your chin tucked toward the crossface side and maintain shoulder pressure against the frame. If the crossface begins to establish, immediately hip escape away from it before the opponent can lock shoulder pressure against your jaw.
-
-**Q3**: Your triangle breaks and the opponent begins driving forward with stacking pressure—what hip movement gives you the best chance of guard recovery?
-**A**: Hip escape laterally away from the direction the opponent is passing while keeping your shoulders facing them. This creates angular distance that makes it harder for the opponent to maintain chest contact while simultaneously opening space for your legs to re-wrap or insert a knee shield. The lateral hip escape is more effective than pushing straight backward, which only compresses your own spine further.
-
-**Q4**: When is it appropriate to attempt re-locking the triangle versus committing to guard recovery?
-**A**: Re-lock the triangle only if the opponent's head is still inside your leg configuration and your locking leg can reach behind their neck without overextending. If the opponent has already cleared their head past your locking leg or achieved perpendicular alignment, the re-lock window has closed and any attempt wastes critical guard recovery time. The decision must be made within one second of feeling the triangle break.
-
-**Q5**: What frame structure provides the best defensive platform against the passing opponent?
-**A**: A double forearm frame with one forearm against the opponent's far shoulder and the other against their near hip creates the strongest defensive structure. This dual frame prevents both the crossface establishment and the hip pressure consolidation simultaneously. Keep your elbows tight to your body and use skeletal alignment rather than muscular effort to maintain the frames under the opponent's passing pressure.
-
-
-
-</section>
 
 
 </main>

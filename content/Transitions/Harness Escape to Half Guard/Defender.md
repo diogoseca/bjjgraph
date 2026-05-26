@@ -154,6 +154,8 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Harness Escape to Half Guard?</p>
+
 - Opponent establishes a firm two-on-one grip on your choking arm and begins pulling it down toward their chest
 - Opponent's hips begin sliding downward or diagonally toward your underhook side, creating separation from your chest
 - Opponent pushes against your bottom hook with their foot or hand, attempting to clear the leg entanglement
@@ -166,6 +168,8 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Harness Escape to Half Guard?</p>
 
 - Maintain constant chest-to-back pressure to deny the space needed for hip escape initiation
 - Keep the choking arm active and high near the neck to force continuous two-on-one defensive engagement from the opponent
@@ -180,6 +184,8 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Harness Escape to Half Guard?</p>
 
 ### 1. Re-tighten harness grip and drive chest pressure forward while re-inserting any cleared hooks
 
@@ -217,6 +223,8 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Harness Escape to Half Guard?</p>
+
 ### → [[Positions/Harness]]
 
 Recognize the escape attempt early through the two-on-one grip and hip escape cues. Immediately re-tighten your harness, drive forward chest pressure, and re-insert any cleared hooks before the opponent can create meaningful angle. Active hook management and constant forward pressure prevent the escape from progressing past the initial grip-fighting phase.
@@ -232,6 +240,8 @@ If the opponent successfully creates significant angle and begins their turn, do
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Harness Escape to Half Guard?</p>
 
 ### 1. Allowing the opponent to control your choking arm with two-on-one without actively fighting for wrist position
 
@@ -261,6 +271,8 @@ If the opponent successfully creates significant angle and begins their turn, do
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Harness Escape to Half Guard?</p>
+
 **Phase 1: Recognition and Early Intervention** - Identifying escape attempts through tactile cues and responding immediately
 From established harness position, partner attempts the escape at 50% intensity while you focus exclusively on recognizing the two-on-one grip, hip escape initiation, and hook clearing attempts. Practice re-tightening your control within the first 2 seconds of each escape attempt. 2-minute rounds with reset after each successful or failed escape.
 
@@ -277,26 +289,6 @@ Full intensity positional sparring from harness position. Both players operate a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that indicates your opponent is about to attempt this specific escape?
-**A**: The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds.
-
-**Q2**: Your opponent has cleared your bottom hook and created a 30-degree angle—should you fight to recover back control or transition to mount?
-**A**: At 30 degrees with one hook cleared, you are at the critical decision point. If your harness grip remains tight and your top hook is still engaged, fight to recover: drive your chest forward, re-insert the bottom hook, and collapse their angle with hip pressure. However, if your grip has been significantly weakened by their two-on-one control and the angle is increasing, begin preparing the mount transition. The deciding factor is grip integrity—strong grip means recover, compromised grip means transition to mount before you lose everything.
-
-**Q3**: How should you adjust your hook management when you feel the opponent beginning to push your bottom hook?
-**A**: When you feel pressure on your bottom hook, do not simply resist with leg strength—this becomes an energy war you may lose. Instead, actively re-position the hook by pulling your heel tighter toward your body and driving your instep deeper into their thigh. Simultaneously, increase your top hook engagement and drive forward chest pressure to make it harder for them to create the space needed to clear the hook. If the hook is cleared despite your efforts, immediately follow with your hips to prevent them from creating the diagonal angle.
-
-**Q4**: What is the optimal timing window for transitioning from back control to mount during this escape?
-**A**: The optimal window is when the opponent is mid-turn—they have committed to the rotational movement and their hands are occupied controlling your choking arm rather than creating frames. At this point, remove your hooks, drive your hips forward over their body, and step over into mount. If you transition too early, they have not committed and can simply pull you back. If you transition too late, they have already caught your leg in half guard. The mid-turn moment, when they are between back exposure and facing you, offers the best mount transition timing.
-
-
-
-</section>
 
 
 </main>

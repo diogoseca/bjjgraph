@@ -194,6 +194,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge from Modified Scarf Hold?</p>
+
 - Generate power from the ground through proper foot placement close to hips, maximizing glute and hamstring engagement for explosive hip extension
 - Bridge explosively in one fully committed motion because half-hearted bridges waste energy and telegraph your intent without creating meaningful force
 - Direct the bridge at an angle toward opponent's weakest posting side rather than straight up, creating rotational force that disrupts their base
@@ -209,6 +211,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge from Modified Scarf Hold?</p>
+
 - Both feet planted flat on the mat as close to your hips as possible for maximum bridging power and mechanical advantage
 - Free arm positioned as a directional frame against opponent's hip or ribcage on the intended bridge direction
 - Near arm protected with elbow tight to ribs to prevent further isolation and maintain body integrity during the roll
@@ -221,6 +225,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge from Modified Scarf Hold step by step?</p>
 
 1. **Set foot position**: Plant both feet flat on the mat as close to your hips as possible, approximately shoulder-width apart. This compact positioning maximizes the mechanical advantage of your glutes and hamstrings, generating the greatest possible upward force. Ensure your heels are firmly grounded and weight is loaded through the full foot.
 2. **Establish directional frame**: Position your free arm as a frame against your opponent's hip or lower ribcage on the side you intend to bridge toward. This frame serves dual purposes: it creates initial separation space and provides a lever point that assists rotational force during the bridge. Keep your elbow tight to prevent the frame from collapsing under pressure.
@@ -251,6 +257,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge from Modified Scarf Hold?</p>
+
 - **Opponent sprawls and drives chest weight downward at first sign of bridge** (Effectiveness: High) - Your Response: If the sprawl catches your bridge early, abort and immediately reset frames rather than fighting through increased pressure. Use the post-sprawl moment when opponent relaxes to attempt a secondary escape such as hip escape to guard recovery. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Opponent steps over to mount as bridge creates space between bodies** (Effectiveness: Medium) - Your Response: The moment you feel their knee walking over your hip, abandon the bridge and immediately switch to mount prevention by inserting your near knee across their path. If mount is established, transition to mount escape protocol rather than fighting back to Modified Scarf Hold. → Leads to [[Positions/Mount]]
 - **Opponent posts arm wide on the mat to block roll direction and anchor their base** (Effectiveness: High) - Your Response: Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other. Advanced technique: fake the bridge one direction to draw the post, then explosively bridge the opposite way. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
@@ -261,6 +269,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge from Modified Scarf Hold?</p>
 
 ### 1. Bridging straight up instead of at a directional angle toward opponent's weak side
 
@@ -300,6 +310,8 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge from Modified Scarf Hold (Attacker)?</p>
+
 **Foundation** - Solo bridge mechanics and hip power development
 Practice solo bridging drills focusing on hip height, directional angles, and explosive power generation. Perform sets of 10 bridges in each direction emphasizing full posterior chain engagement, proper foot positioning, and rotational follow-through without a partner.
 
@@ -320,42 +332,12 @@ Practice the bridge as part of an escape chain: bridge attempt to hip escape, br
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal foot position before executing the bridge from Modified Scarf Hold?
-**A**: Plant both feet flat on the mat as close to your hips as possible, approximately shoulder-width apart. This compact positioning maximizes the mechanical advantage of your glutes and hamstrings, generating the greatest possible upward force. Feet positioned too far from your hips reduce bridging power significantly and create a shallow bridge angle that your opponent can easily ride without losing base.
-
-**Q2**: How do you determine which direction to bridge against an opponent in Modified Scarf Hold?
-**A**: Bridge toward your opponent's weakest posting angle, typically the direction where they have least hand support or base. Feel for which side their weight is distributed toward and bridge to the opposite side. If their hand is posted on your far side, bridge toward their near side. The goal is directing force where they have minimal structural support to prevent the roll.
-
-**Q3**: What is the most critical timing window for executing this bridge escape?
-**A**: The optimal timing window occurs when your opponent shifts their weight, whether reaching for a submission, adjusting grips, or beginning a transition to another position. During these moments, their base is temporarily compromised and weight distribution is in flux. Bridging during a fully settled pin wastes energy and rarely succeeds, so patience to wait for the right moment is essential for effective energy management.
-
-**Q4**: Your opponent posts their far hand wide to block your bridge direction - how do you adjust?
-**A**: Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other side. Advanced practitioners will fake the bridge one direction to draw the post, then bridge explosively the opposite way. The key insight is that every defensive commitment creates an opening elsewhere.
-
-**Q5**: What happens if your bridge creates space but does not achieve a full reversal?
-**A**: If the bridge creates separation but fails to complete the roll, immediately transition to an alternative escape rather than collapsing back flat. Use the momentary space to insert a knee shield for half guard recovery, turn to turtle position, or execute a shrimp for full guard recovery. Never waste the space created by returning to the flat starting position, as you have spent energy creating an opportunity that must be converted.
-
-**Q6**: What is the role of your free arm during the bridge execution?
-**A**: Your free arm serves as a directional frame that guides the bridge rotation and prevents your opponent from re-settling. Position it against their hip or ribcage on the side you are bridging toward, creating a lever that assists the rolling motion. During the bridge, this arm pushes in coordination with your hip drive to create maximum rotational force. After the roll completes, it immediately transitions to securing control on top.
-
-**Q7**: How should you manage your energy if your first bridge attempt fails?
-**A**: After a failed bridge, immediately return to defensive frames rather than attempting another bridge right away. Re-establish breathing, protect your near arm, and wait for the next timing window. Repeated failed bridges deplete energy exponentially faster than waiting and create increasingly dangerous counter opportunities for the top player. One well-timed explosive bridge is worth more than five weak attempts.
-
-**Q8**: Your opponent begins attacking an americana while maintaining Modified Scarf Hold - should you bridge?
-**A**: Yes, this is an excellent timing window because reaching for the americana requires your opponent to release some control and shift weight toward your arm. Bridge explosively as their base is compromised by the submission attempt. The americana setup forces them to commit hands to your arm, leaving less base available to block the bridge. However, protect the targeted arm simultaneously by keeping it close to your body during the bridge execution.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge from Modified Scarf Hold?</p>
 
 Bridge escapes involve explosive spinal extension and rotation under load. Warm up the lower back, hip flexors, and cervical spine before drilling. Practice controlled bridges before explosive versions to establish proper movement patterns. Training partners should maintain reasonable pressure during drilling to prevent excessive cervical spine compression. Stop immediately if you feel sharp pain in the neck, lower back, or shoulders during bridging motions. Practitioners with pre-existing spinal conditions should consult their instructor before drilling explosive bridges.
 

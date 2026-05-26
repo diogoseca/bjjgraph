@@ -72,7 +72,7 @@
       "relationship": "Combination attack - submission available from same control structure"
     },
     {
-      "name": "Kimura from Guard",
+      "name": "Kimura",
       "relationship": "Alternative attack - submission when opponent defends with far arm post"
     },
     {
@@ -236,7 +236,7 @@
         "description": "Apply waiter sweep during live rolling with no restrictions. Partner actively defends and counters at full intensity. Integrate with your complete butterfly guard system including arm drags, guillotines, and X-guard transitions. Focus on high-percentage setups and smooth transitions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is breaking your opponent's posture critical before attempting the Waiter Sweep?",
         "answer": "Breaking posture prevents the opponent from posting their hands or sprawling their weight backward, which are the two primary defensive mechanisms against butterfly sweeps. When their chest is pulled down to yours, their arms are compromised and cannot effectively base out, and their hips are loaded forward onto your hooks, making the sweep primarily about redirection rather than pure lifting strength."
@@ -365,7 +365,7 @@
         "correction": "Use structural defenses—base, posture, sprawl, and weight distribution—rather than muscling against the sweep. Technique-based defense is sustainable; arm strength is not."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important early defensive action when you feel an opponent securing an underhook from butterfly guard?",
         "answer": "Immediately fight the underhook with a whizzer, re-pummel to your own underhook, or swim your arm through to deny inside position. The underhook is the most critical component of the Waiter Sweep setup and the earliest intervention point. Allowing it to be established unopposed gives the opponent the primary lifting mechanism and makes all subsequent defense significantly more difficult and energy-intensive."
@@ -389,7 +389,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Recognition and Grip Fighting",
+        "phase": "Week 1-2: Recognition and Grips",
         "focus": "Identifying sweep setup and fighting the underhook",
         "description": "Partner establishes butterfly guard and works toward Waiter Sweep grips. Focus entirely on recognizing the underhook establishment and practicing whizzer, re-pummel, and arm swim defenses. No sweep attempts yet—isolate the grip fighting phase. 10-15 repetitions per side."
       },

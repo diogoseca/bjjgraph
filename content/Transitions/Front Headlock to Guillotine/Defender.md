@@ -158,13 +158,15 @@ The defensive framework operates on a hierarchy of priorities: first, protect yo
 
 The critical defensive window occurs during the grip change phase - the moment your opponent releases their front headlock grip to slide deeper for the guillotine. This is when their control is weakest and your escape opportunities are greatest. Training to recognize this transition moment and respond with pre-programmed defensive reactions is essential for surviving against opponents with strong front headlock systems.
 
-**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Front Headlock to Guillotine?</p>
 
 - Opponent's choking arm begins sliding deeper around your neck, with their wrist moving past your trachea toward the far side rather than staying at the shoulder or tricep grip of standard front headlock
 - Opponent's free hand releases the far shoulder control and moves underneath your body to meet the choking hand, indicating they are abandoning positional control in favor of the guillotine grip lock
@@ -178,6 +180,8 @@ The critical defensive window occurs during the grip change phase - the moment y
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Front Headlock to Guillotine?</p>
 
 - Chin tuck is non-negotiable - keep your chin buried into your chest at all times to prevent the choking arm from sliding under your chin and achieving proper depth
 - Fight the choking arm at the wrist and elbow with your near-side hand to prevent deepening of the grip, never allowing both hands to leave the arm to push on their body
@@ -193,6 +197,8 @@ The critical defensive window occurs during the grip change phase - the moment y
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Front Headlock to Guillotine?</p>
 
 ### 1. Two-on-one arm fight and posture recovery - grip the choking arm at the wrist with your near hand and at the elbow with your far hand, then drive upward forcefully to straighten your spine while stepping your lead foot forward to create posture
 
@@ -230,6 +236,8 @@ The critical defensive window occurs during the grip change phase - the moment y
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Front Headlock to Guillotine?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Prevent the guillotine grip from being established by fighting the choking arm during the transition window. Use two-on-one arm control to peel the wrist away from your neck while recovering posture. Alternatively, sprawl explosively to create distance before guard closure, forcing the opponent to abandon the guillotine attempt and re-establish front headlock control. The key is acting during the grip change phase when their control is weakest.
@@ -245,6 +253,8 @@ Execute a Von Flue counter by driving forward into side control when the opponen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Front Headlock to Guillotine?</p>
 
 ### 1. Pulling head straight backward out of the guillotine grip instead of circling or ducking under
 
@@ -274,6 +284,8 @@ Execute a Von Flue counter by driving forward into side control when the opponen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Front Headlock to Guillotine?</p>
+
 **Week 1-2: Recognition and Chin Protection** - Identifying the transition cues and building automatic chin tuck response
 Partner establishes front headlock and slowly executes the transition to guillotine grip. Your only goal is to identify each recognition cue (arm sliding deeper, free hand moving underneath, weight shifting back) and maintain a chin tuck throughout. No escape attempts yet - focus entirely on feeling the transition happen and keeping your chin buried. Partner moves at 20-30% speed, pausing at each phase so you can identify the cue. Drill 15-20 repetitions per session.
 
@@ -290,29 +302,6 @@ Full-resistance positional sparring starting from front headlock bottom. Partner
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window during the Front Headlock to Guillotine transition, and how do you exploit it?
-**A**: The critical window occurs when the opponent releases their standard front headlock grip (hand on far shoulder or tricep) to slide their choking arm deeper around your neck for the guillotine. During this grip change, their control momentarily weakens because they must release one point of control to achieve the new grip. Exploit this by immediately fighting the choking arm with two-on-one control at the wrist and elbow, circling toward the choking arm side, or explosively posturing while their grip is loosened. This window typically lasts less than one second, so you must have a pre-programmed response ready rather than reacting in the moment.
-
-**Q2**: Why should you circle toward the choking arm side rather than away from it when defending the guillotine transition?
-**A**: Circling toward the choking arm side compresses the space the opponent needs to finish the choke. When you move toward the arm, their forearm gets bunched up and cannot achieve the V-shape under your chin needed for arterial compression. Circling away does the opposite - it opens the angle, allows their arm to extend and deepen, and gives them the torque angle they need for the high-elbow guillotine variation. Moving toward the arm also positions you to duck under their armpit, which is the most direct path to extracting your head from the grip entirely. Additionally, circling toward the arm brings your body closer to theirs, making it harder for them to pull guard.
-
-**Q3**: Your opponent has locked a shallow guillotine and is sitting back to closed guard - should you drive forward or pull back?
-**A**: With a confirmed shallow grip (you can breathe, their wrist is across your throat rather than under your chin), driving forward is the correct response. Driving forward with your shoulder into their neck while they pull guard sets up the Von Flue choke counter and passes you to side control. However, this assessment must be accurate - if the grip is deep with the wrist under your chin, driving forward accelerates the finish and you will go unconscious. The test is whether you can comfortably breathe and whether you feel pressure on your trachea (shallow, drive forward) or on the sides of your neck at the carotid arteries (deep, do not drive forward - fight the grip instead).
-
-**Q4**: You feel your opponent's free hand leaving your far shoulder and moving underneath your body - what immediate action should you take?
-**A**: This is the primary recognition cue that the guillotine grip lock is imminent. You have approximately one second before their hands clasp together and the choke becomes significantly harder to escape. Your immediate action should be to grab their choking arm wrist with your near-side hand and drive it away from your neck while simultaneously tucking your chin tightly to your chest. If you can prevent the hands from clasping, the guillotine cannot be completed and you remain in the more escapable front headlock position. If their hands do connect, immediately transition to your secondary defense: either sprawl to prevent guard closure, or drive forward for the Von Flue counter if the grip is shallow.
-
-**Q5**: How does your defensive strategy change if the opponent secures the guillotine grip from standing versus when they pull guard?
-**A**: Against a standing guillotine, your primary defense focuses on preventing them from jumping to closed guard or hanging their weight on your neck. Drive your hips forward into their body, post your head on their chest to reduce the choking angle, and work to peel their grip by fighting the hands. You can also shoot a double leg or duck under to take them down, which breaks the standing leverage. Against a guillotine with closed guard, the strategy shifts entirely to grip fighting and posture recovery within the guard. You must first address the choke by stripping the grip or reducing the depth, then work standard guard passing techniques. The Von Flue counter is only available during the guard pull - once guard is closed, you must either strip the grip or survive until you can open the guard and create distance.
-
-
-
-</section>
 
 
 </main>

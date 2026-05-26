@@ -93,6 +93,14 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
         "@type": "Answer",
         "text": "Chin tucking and shoulder hunching create a physical barrier that reduces the accessible collar space around your neck. The attacker needs to insert four fingers deep into the collar at jaw level, and when your shoulders are raised and chin is pressed down, the collar tightens against your neck and shoulders, making it mechanically impossible to achieve sufficient grip depth for an effective choke. This buys time for active grip fighting defense."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "The attacker feints the rear naked choke but immediately transitions to the collar grip attempt—how does this change your defensive priorities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The feint means the attacker is using the RNC threat to bait your hands high before switching to the collar. Instead of committing both hands fully to the choke defense, keep one hand positioned to intercept the collar grip transition. Develop awareness of the attacker's over-shoulder arm path—if it moves toward your collar rather than under your chin, redirect your defensive hand to intercept the collar grip immediately. Training to distinguish the RNC entry from the collar reach by feel prevents the feint from creating the opening the attacker needs."
+      }
     }
   ]
 }
@@ -162,6 +170,8 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bow and Arrow Setup from Standing Back?</p>
+
 - Attacker releases one arm from the seat belt configuration, specifically the over-shoulder arm moving toward your collar area
 - You feel the attacker's fingers gripping into your collar fabric near your jawline or neck, with a pulling sensation across your throat
 - Attacker's chest pressure shifts as they begin sitting to one hip, with their weight dropping and angling to one side during the takedown initiation
@@ -174,6 +184,8 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bow and Arrow Setup from Standing Back?</p>
 
 - Recognize the collar grip attempt at the earliest possible moment—the attacker releasing the seat belt is the primary recognition cue that demands immediate defensive action
 - Strip the collar grip with two-on-one hand control before it is secured deep into the fabric, as a shallow grip can be defeated but a deep grip cannot
@@ -188,6 +200,8 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bow and Arrow Setup from Standing Back?</p>
 
 ### 1. Two-on-one grip strip on the collar hand the instant it reaches for the collar
 
@@ -225,6 +239,8 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bow and Arrow Setup from Standing Back?</p>
+
 ### → [[Positions/Half Guard]]
 
 Turn explosively into the attacker during the mid-transition phase when they are between standing and grounded positions. Time the hip escape to coincide with the moment they commit to sitting down, using their downward momentum against them. As you turn, insert your knee between their legs and establish half guard top position, breaking the back exposure entirely.
@@ -240,6 +256,8 @@ Strip the collar grip immediately with aggressive two-on-one hand fighting the i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bow and Arrow Setup from Standing Back?</p>
 
 ### 1. Ignoring the collar grip and focusing exclusively on defending hooks or the takedown
 
@@ -269,6 +287,8 @@ Strip the collar grip immediately with aggressive two-on-one hand fighting the i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bow and Arrow Setup from Standing Back?</p>
+
 **Phase 1: Recognition** - Identifying the collar grip attempt through tactile cues
 Partner establishes standing back control with seat belt and alternates between threatening the rear naked choke and reaching for the collar. Defender practices identifying which attack is being initiated solely through tactile cues—feeling the seat belt release versus the choking arm sliding forward. No defensive action required yet, just correct identification called out verbally.
 
@@ -285,29 +305,6 @@ Partner attempts the complete bow and arrow setup sequence from standing back co
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important moment to recognize when defending this setup?
-**A**: The moment the attacker releases their seat belt over-shoulder arm to reach for the collar. This is when their upper body control drops from two arms to one, creating the largest defensive window. Recognizing this cue immediately allows the defender to strip the collar grip attempt or exploit the reduced control to escape back exposure. Missing this window means defending from a significantly worse position.
-
-**Q2**: Your attacker has secured a deep collar grip but has not yet initiated the sit-down—what are your defensive priorities?
-**A**: Strip the collar grip immediately using two-on-one hand control before they initiate the takedown. Grab their gripping wrist with both hands and peel the fingers from the collar fabric while simultaneously hunching your shoulders and tucking your chin to make the grip harder to maintain. If the grip cannot be broken, widen your base to resist the sit-down and prepare to turn into the attacker during the inevitable takedown attempt.
-
-**Q3**: You have been taken to the ground with the collar grip intact—what should you address first?
-**A**: Fight the attacker's free hand that is reaching for your pant leg. The bow and arrow choke requires both the collar grip and the leg grip to generate full finishing power. By preventing the pant leg control from being established, you reduce the choke to a significantly less effective collar pull that is easier to survive and escape. Simultaneously work to turn your hips toward the attacker to begin the escape sequence.
-
-**Q4**: Why is turning into the attacker during the takedown transition more effective than resisting the takedown directly?
-**A**: Resisting the takedown directly creates a strength contest that favors the attacker, who has gravity and collar grip leverage working in their favor. Turning into the attacker uses their downward momentum to power your rotation, allows you to break back exposure while they are between standing and grounded positions with compromised control, and positions you to recover guard rather than being taken to grounded back control.
-
-**Q5**: How does tucking your chin and hunching your shoulders specifically defend against this setup?
-**A**: Chin tucking and shoulder hunching create a physical barrier that reduces the accessible collar space around your neck. The attacker needs to insert four fingers deep into the collar at jaw level, and when your shoulders are raised and chin is pressed down, the collar tightens against your neck and shoulders, making it mechanically impossible to achieve sufficient grip depth for an effective choke. This buys time for active grip fighting defense.
-
-
-
-</section>
 
 
 </main>

@@ -12,7 +12,7 @@
     "sport bjj",
     "standing to ground"
   ],
-  "from_position": "Standing Position/Top",
+  "from_position": "Standing Guard/Bottom",
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
@@ -270,7 +270,7 @@
         "description": "Attempt the rolling guard pull during live rolling sessions and specific sparring from standing. Partner provides full resistance and actively counters. Focus on success rate, proper positioning upon guard establishment, and immediate transition to attacks. Identify and address remaining failure points through targeted drilling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the rolling guard pull during a standing exchange?",
         "answer": "The optimal window opens when the opponent is mid-reaction to a grip fight or has just committed weight forward in response to your pull. Initiating during their forward pressure means their momentum assists your rotation and prevents them from stepping back. Avoid initiating when they are stationary and balanced, as they have maximum ability to disengage. The best entries happen within the first 10-15 seconds of grip engagement when the opponent is still reading your intentions and has not yet settled into a defensive posture."
@@ -387,7 +387,7 @@
         "correction": "Release grips the moment you recognize the rolling guard pull initiating. Your grips on them become their grips on you during the roll. Let go, step back, and re-engage on your terms from a standing position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a rolling guard pull?",
         "answer": "The earliest cue is a sudden increase in pulling tension through their established grip combined with a forward step that closes distance beyond normal grip fighting range. This pull-and-step combination creates the forward momentum they need for the roll. Recognizing this pattern before the hip drop allows you to strip grips or disengage while the technique is still in its setup phase and easiest to counter. Secondary cues include chin tucking, shoulder rounding, and the beginning of the hip drop, but by these points the window for easy defense has already narrowed."

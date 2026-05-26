@@ -175,6 +175,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ushiro Ashi-Garami (Bottom)?</p>
+
 - Defender's leg remains trapped in reversed figure-four configuration with opponent's outside leg crossing over the knee line while inside leg stays underneath the trapped leg, creating inverted entanglement geometry
 - Defender's hips are inverted relative to standard ashi-garami with torso rotated away from opponent, changing the biomechanical angles available for both submission defense and escape sequences
 - Opponent maintains at least one controlling grip on the defender's trapped leg or gi pants while attempting to establish heel exposure or ankle lock positioning from the reversed configuration
@@ -186,6 +188,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Ushiro Ashi-Garami (Bottom)?</p>
+
 - Attempted inversion escape from standard ashi-garami position that was partially successful in hip rotation but incomplete in leg extraction
 - Opponent maintained leg entanglement during defender's inversion attempt by adjusting leg configuration to reversed figure-four
 - Defender's leg remains trapped despite hip inversion, indicating insufficient space creation or premature rotation timing
@@ -196,6 +200,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ushiro Ashi-Garami?</p>
 
 - Complete the escape sequence by continuing rotation and leg clearing rather than stopping in reversed position
 - Protect heel exposure during extraction by keeping foot flexed and controlling distance from opponent's upper body
@@ -211,6 +217,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Ushiro Ashi-Garami (Bottom)?</p>
 
 **If opponent has shallow leg entanglement with weak upper body control:**
 - Execute **[[Complete Escape Sequence/Attacker|Complete Escape Sequence]]** → [[Positions/Standing Position]] (Probability: 55%)
@@ -239,6 +247,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ushiro Ashi-Garami?</p>
 
 ### 1. Stopping the inversion movement halfway instead of committing to full rotation and escape
 
@@ -278,6 +288,8 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Ushiro Ashi-Garami defense?</p>
+
 ### Inversion Escape Repetitions
 
 Start in ushiro ashi-garami bottom with training partner maintaining moderate control. Practice completing inversion to turtle or standing position while partner provides realistic resistance. Focus on timing, leg clearing sequence, and heel protection throughout rotation. Reset and repeat for continuous repetitions.
@@ -299,7 +311,7 @@ Partner presents various levels of control depth in ushiro ashi-garami from shal
 **Duration**: 6 minutes
 
 
-### Grip Fighting from Inversion
+### Grips from Inversion
 
 Start in ushiro ashi-garami with partner attempting to secure heel hook grips. Practice defensive hand fighting to prevent heel exposure while simultaneously working to clear legs. Focus on controlling opponent's wrists and inside leg knee to prevent both submission and deeper entanglement.
 
@@ -310,38 +322,6 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You've inverted to escape but your leg is still trapped - what is the critical first priority?
-**A**: The critical first priority is protecting your heel from exposure by maintaining dorsiflexion (foot flexed toward shin) throughout the entire escape sequence. Never point your toes or relax your foot, as this creates the opening for a finishing heel hook grip. Simultaneously use your hands to control the opponent's inside knee to prevent them from deepening the entanglement or transitioning to saddle.
-
-**Q2**: What distinguishes a shallow entanglement you can escape from versus a deep entanglement requiring alternative strategy?
-**A**: In shallow entanglement, the opponent's inside leg has minimal control below your knee and their upper body grips haven't established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they're working heel grips. Deep entanglement requires accepting turtle or deep half guard rather than forcing extraction.
-
-**Q3**: Your opponent is adjusting their grips to attack the heel hook - what counter-attack window does this create?
-**A**: When the opponent releases their inside leg control or shifts their hands to establish heel grips, their own legs often become exposed for counter-entanglement. Watch for their adjustment phase where they're focused on offense rather than defense. You can enter your own outside ashi-garami on their free leg during this window, creating a leg lock exchange situation that favors whoever established position first.
-
-**Q4**: How do you systematically clear your opponent's leg entanglement without creating submission opportunities?
-**A**: Clear legs in sequence while maintaining heel protection. Use your hands to control opponent's inside knee first, preventing saddle transition. Then work to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Never extend your trapped leg toward the opponent as this deepens control. Create space incrementally rather than explosive movement that creates heel exposure.
-
-**Q5**: When should you accept turtle position instead of continuing to fight the leg extraction?
-**A**: Accept turtle when opponent's control is too deep to safely extract your leg, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you've been defending for more than 5-6 seconds without progress, or when your energy is depleting rapidly from escape attempts. Turtle is a safer transitional position than remaining in deep ushiro entanglement.
-
-**Q6**: What foot position must you maintain throughout the entire escape sequence and why?
-**A**: Maintain dorsiflexion (foot flexed toward shin with toes pulled up) throughout the entire escape. This position protects the heel by pulling it closer to your lower leg, making it difficult for the opponent to establish the grip needed for heel hook finishing. Pointing toes or relaxing the foot creates slack that exposes the heel to finishing grips even during successful escape attempts.
-
-**Q7**: Your opponent's inside leg is controlling your thigh deeply - what does this indicate about their next likely action?
-**A**: Deep inside leg control on your thigh indicates they're preparing to transition to saddle or honey hole rather than finishing from ushiro. Their next action will likely involve stepping their outside leg through to complete the saddle configuration. You must use your hands to block their inside knee and create separation before they can complete this transition, or accelerate your turtle rotation to deny the positional improvement.
-
-**Q8**: How do you manage energy expenditure when escape attempts aren't immediately successful?
-**A**: Execute deliberate, methodical escape sequences rather than explosive scrambling. Focus energy on grip fighting to prevent heel exposure and controlling opponent's inside knee. Rest in relative safety by maintaining heel protection rather than continuous escape attempts. Recognize when to accept transitional positions like turtle or deep half guard rather than exhausting yourself on low-percentage extraction attempts from deep entanglement.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

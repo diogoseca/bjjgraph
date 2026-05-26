@@ -78,7 +78,7 @@
       "relationship": "Primary defensive counter from the bottom player attempting to prevent the knee through"
     },
     {
-      "name": "Consolidation to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Related mount entry transition from side control using similar pressure mechanics"
     },
     {
@@ -244,7 +244,7 @@
         "description": "Practice full passing chains from half guard top through quarter guard to mount via the knee through. Upon achieving mount, immediately flow into submission attacks (armbar, americana, cross collar choke) without pausing. The goal is seamless transition from passing to attacking, eliminating the positional adjustment delay that gives opponents escape windows."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the knee drive, and how do you recognize it?",
         "answer": "The optimal timing window opens when the bottom player's remaining defensive structure momentarily weakens—their knee shield drops pressure, their frames collapse under sustained crossface, or they commit to an alternative defense like reaching for an underhook. You recognize this window through tactile feedback: reduced pressure against your passing knee, the opponent's body settling flatter under your weight, or their near-side arm moving away from the defensive frame position. The drive should be initiated within one second of recognizing this window before the opponent can rebuild their defense."
@@ -360,7 +360,7 @@
         "correction": "Maintain the underhook with one arm while using the other arm and your legs for defensive frames. The underhook serves dual purpose—defensive anchor against crossface flattening and offensive threat that forces the opponent to allocate resources to sweep defense rather than committing fully to the pass."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that tell you a knee through attempt is imminent?",
         "answer": "The earliest cues occur during the setup phase before the knee moves: sudden increase in crossface pressure as the opponent pins you flat, the opponent posting their far hand on the mat establishing base for the drive, weight shifting noticeably forward and downward compressing your upper body, and the opponent's passing knee beginning to press forward against your remaining defensive leg contact. Recognizing these setup indicators gives you one to two seconds of additional reaction time compared to waiting for the actual knee drive to begin."

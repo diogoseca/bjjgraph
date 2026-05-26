@@ -200,7 +200,7 @@
         "description": "Positional sparring starting from partially compromised back control. Partner uses full defensive tactics while you work to restore complete control. Track success rate and identify which escape patterns give you the most difficulty."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the recovery hierarchy when restoring back control, and why does this order matter?",
         "answer": "The hierarchy is: chest connection first, hooks second, grips third. Chest-to-back contact is the anchor that prevents the opponent from turning to face you—without it, hook position is irrelevant because they can complete the escape by rotating. Hooks prevent hip escape and maintain lower body control, providing the platform for upper body grip work. Grips create threats and fine control but cannot compensate for missing hooks or chest contact. Following this hierarchy ensures you address the most critical element first."
@@ -312,7 +312,7 @@
         "correction": "Always turn toward the underhook side where the attacker has less leverage and your neck is naturally protected by your shoulder."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is continuous movement essential when the attacker attempts to restore back control?",
         "answer": "Continuous movement prevents the attacker from executing their restoration hierarchy. They need momentary stability to re-insert hooks, tighten chest contact, and recover grips. If you keep moving, they must constantly adjust rather than executing restoration steps. Pausing gives them the time window needed to re-insert a hook or switch grips, which resets your escape progress."

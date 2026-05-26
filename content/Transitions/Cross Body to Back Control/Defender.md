@@ -162,6 +162,8 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cross Body to Back Control?</p>
+
 - Opponent's arm threads under your armpit and over your shoulder simultaneously, establishing the seatbelt grip that anchors the back take
 - Perpendicular chest pressure shifts from directly downward to a diagonal angle as the opponent begins walking their hips toward your back
 - You feel the opponent's near-side hip begin moving behind you rather than remaining beside you at the perpendicular angle
@@ -174,6 +176,8 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Body to Back Control?</p>
 
 - Defend during the transition, not after completion—once both hooks are established, your escape options diminish dramatically
 - Tuck elbows tight to ribs to deny the seatbelt underhook threading that anchors the entire transition
@@ -189,6 +193,8 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cross Body to Back Control?</p>
 
 ### 1. Tuck elbows and tighten turtle to deny seatbelt establishment
 
@@ -226,6 +232,8 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cross Body to Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sit-through or granby roll during the opponent's rotation phase when their perpendicular pressure momentarily lightens. The rotation creates a weight shift you can exploit by moving in the opposite direction, enabling you to turn and face the opponent and establish half guard entanglement on their advancing leg.
@@ -241,6 +249,8 @@ Deny the seatbelt grip by keeping elbows tucked tight to your ribs and maintaini
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Body to Back Control?</p>
 
 ### 1. Extending the near arm outward to post or push the opponent away
 
@@ -270,6 +280,8 @@ Deny the seatbelt grip by keeping elbows tucked tight to your ribs and maintaini
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cross Body to Back Control?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues
 Partner establishes cross body ride and alternates between maintaining the ride and initiating the back take. Defender practices identifying the specific tactile cues that signal the transition is beginning: seatbelt threading, weight shift, hip rotation. No escape attempts yet—pure recognition and awareness building.
 
@@ -286,29 +298,6 @@ Positional sparring starting from cross body ride bottom. Defender scores points
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the Cross Body to Back Control transition is being initiated?
-**A**: The earliest cue is feeling the opponent's arm threading under your armpit to establish the seatbelt grip. This is the first required step before they can safely rotate behind you. If you feel this threading motion, immediately clamp your elbow tight to your rib to deny the underhook entry. Secondary cues include feeling the perpendicular pressure shift to a diagonal angle and sensing their hips beginning to walk behind you.
-
-**Q2**: When is the best moment to attempt a sit-through escape during this transition?
-**A**: The optimal sit-through timing is during the opponent's rotation phase, specifically when their weight shifts from perpendicular to diagonal as they walk their hips toward your back. This weight shift creates a momentary pressure gap on your near side because their center of gravity is moving away from you. This gap is your window—sit through toward their near hip in the opposite direction of their rotation. Attempting the sit-through before the rotation begins (when pressure is fully consolidated) or after hooks are inserted (when control is complete) both have significantly lower success rates.
-
-**Q3**: How do you chain defensive responses if your initial escape attempt fails?
-**A**: Chain defenses by reading what the opponent does in response to your first attempt and immediately transitioning to the appropriate follow-up. If your sit-through is blocked, use the rotation momentum to attempt a granby roll in the opposite direction. If the granby is stuffed, immediately drive to standing before hooks can be inserted. If standing is denied, retighten your turtle and deny the seatbelt to reset. The key is continuous movement with each defense flowing into the next rather than pausing between attempts, which allows the opponent to re-consolidate control.
-
-**Q4**: Why is preventing the seatbelt grip more important than fighting hook insertion?
-**A**: The seatbelt is the upper body anchor that keeps the opponent connected to your back regardless of what your legs and hips do. Without the seatbelt, the opponent slides off during rotation and hook insertion becomes irrelevant because they cannot maintain the position. With the seatbelt locked, they can repeatedly attempt hook insertion even if you clear individual hooks because the seatbelt keeps them attached. Preventing the seatbelt eliminates the foundation of the entire transition, while fighting hooks only addresses one control point while leaving the primary anchor intact.
-
-**Q5**: What is the most dangerous thing you can do when defending against this transition?
-**A**: The most dangerous response is extending your near arm outward to post or frame against the opponent's rotation. An extended arm from turtle is the highest-value target in grappling because it invites crucifix entries where both arms are trapped and you face undefended choke attacks. The crucifix is arguably worse than back control because you have zero defensive capability. Keep both elbows welded to your ribs and use hip movement rather than arm extension for all defensive actions.
-
-
-
-</section>
 
 
 </main>

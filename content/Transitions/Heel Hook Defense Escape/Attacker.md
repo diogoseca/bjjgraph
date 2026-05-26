@@ -16,7 +16,7 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Heel Hook Defense Escape in BJJ",
-  "description": "Step-by-step guide for executing Heel Hook Defense Escape from Honey Hole/Bottom.",
+  "description": "Step-by-step guide for executing Heel Hook Defense Escape from Cross Ashi-Garami/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,13 +186,15 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
 
 As the person executing the Heel Hook Defense Escape, you are caught in the Honey Hole bottom position with your leg trapped in your opponent's inside leg triangle and your heel exposed for heel hook attack. Your immediate priority is protecting your heel from their grip, then executing an explosive rotational escape to extract your leg and recover to open guard. Success depends entirely on speed of reaction, total commitment to the escape direction, and the ability to chain grip fighting with rotational movement before your opponent can establish finishing mechanics. Every second of hesitation dramatically reduces your escape probability — this is a technique where explosive commitment in the first two seconds determines the outcome.
 
-**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Heel Hook Defense Escape?</p>
 
 - React immediately when feeling the inside leg triangle form — every second increases submission danger exponentially
 - Protect the heel before anything else — boot defense by curling toes buys critical time for the escape sequence
@@ -209,6 +211,8 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Heel Hook Defense Escape?</p>
+
 - You are caught in Honey Hole bottom with opponent's inside leg triangle established around your thigh
 - Your heel is exposed or opponent is actively working to cup it with four-finger grip for heel hook finish
 - You retain sufficient rotational mobility in your hips to execute explosive direction change
@@ -221,6 +225,8 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Heel Hook Defense Escape step by step?</p>
 
 1. **Protect heel immediately with boot defense**: The instant you feel the inside leg triangle forming, curl your toes toward your shin and drive your heel deep into your own hip crease to create boot defense. This makes it significantly harder for your opponent to establish the four-finger cup grip needed for the heel hook finish and buys critical seconds for the escape.
 2. **Fight opponent's grip on heel with both hands**: Using both hands simultaneously, aggressively attack your opponent's grip on your heel or ankle with two-on-one grip breaks targeting their weakest finger connections, typically the pinky side of their cupping hand. Explosive and continuous grip fighting prevents them from re-establishing the breaking grip configuration.
@@ -251,6 +257,8 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Heel Hook Defense Escape?</p>
+
 - **Opponent re-grips heel during rotation by cupping with other hand** (Effectiveness: High) - Your Response: Continue rotation with even more explosive commitment while using your near hand to strip the new grip. If they re-grip successfully, immediately assess whether you can complete the rotation or need to chain into inversion escape. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent tightens triangle and follows rotation with their hips** (Effectiveness: High) - Your Response: Switch from rotational escape to inversion escape, rolling toward their legs to change the geometric angle. If triangle remains tight through both attempts, prepare to tap if heel hook pressure begins. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent transitions to kneebar as your leg extends during extraction** (Effectiveness: Medium) - Your Response: Immediately bend your knee and pull it to your chest to prevent full extension. If kneebar is established, transition to kneebar defense protocols — boot defense and rotational escape from kneebar control. → Leads to [[Positions/Kneebar Control]]
@@ -262,6 +270,8 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Heel Hook Defense Escape?</p>
 
 ### 1. Hesitating when feeling the triangle form instead of reacting immediately
 
@@ -306,6 +316,8 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Heel Hook Defense Escape (Attacker)?</p>
+
 **Phase 1: Heel Protection Mechanics** - Boot defense and grip fighting fundamentals
 Practice boot defense positioning (curling toes, hiding heel) as a solo drill and with a compliant partner establishing Honey Hole slowly. Focus on automatic heel protection response and two-on-one grip breaks against heel cup grip. 50+ repetitions per session until boot defense becomes reflexive.
 
@@ -326,48 +338,12 @@ Positional sparring starting from Honey Hole bottom against a skilled leg lock p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the heel hook defense escape?
-**A**: The optimal window is within the first 1-2 seconds of feeling the inside leg triangle begin to form, before the opponent has secured their heel grip. Once the triangle is locked and heel is cupped with four fingers on top, escape probability drops dramatically. The escape must be initiated as an immediate reaction to the triangle sensation, not after conscious assessment of the position.
-
-**Q2**: What conditions must exist before you can successfully attempt the rotational escape?
-**A**: You need rotational mobility in your hips (not completely flattened), at least one free leg for posting on opponent's hip, the heel hook breaking pressure must not have reached ligament tension threshold, and you must identify the direction of heel hook rotation to know which way to rotate. If any of these conditions is missing, the escape probability drops significantly.
-
-**Q3**: Why must you rotate into the heel hook direction rather than away from it?
-**A**: Rotating into the heel hook direction relieves the rotational torque on your knee ligaments by aligning your body with the direction your heel is being twisted. Rotating away would increase the angle of torque, accelerating ligament damage and tightening the submission. The rotation also changes the geometric relationship between your leg and their triangle, creating extraction space.
-
-**Q4**: What is the most common reason heel hook escapes fail at the intermediate level?
-**A**: Hesitation. Intermediate practitioners recognize the danger but spend 1-2 seconds assessing the position rather than reacting immediately with an explosive escape attempt. By the time they commit to escaping, the opponent has secured the heel grip and tightened the triangle to a degree that makes escape nearly impossible. The escape must be a conditioned reflex, not a conscious decision.
-
-**Q5**: What grip fighting priorities should you establish before attempting the full rotation?
-**A**: Priority one is preventing or breaking the four-finger cup grip on your heel using two-on-one grip breaks targeting the pinky-side fingers. Priority two is controlling their wrist or forearm to prevent re-gripping during rotation. The grip fight and rotation should happen simultaneously as one action rather than sequentially — strip the grip as you begin rotating.
-
-**Q6**: In which direction should you drive your hips during the primary escape movement?
-**A**: Drive your hips in the same direction your heel is being rotated by the opponent. If they are twisting your heel clockwise, rotate your entire body clockwise. Push off your free foot posted on their hip to generate the rotational force while pulling your trapped knee toward your chest. The hip drive must be explosive and fully committed to succeed.
-
-**Q7**: Your opponent has cupped your heel and is beginning to apply rotational pressure — what immediate sequence do you execute?
-**A**: Immediately strip their heel grip with both hands using an explosive two-on-one break on their weaker hand. As you strip, simultaneously begin rotating your hips into the direction of the heel hook. Push off your free foot on their hip and pull your trapped knee to your chest. If the grip strip fails, tap immediately before rotational pressure reaches your knee ligaments — do not attempt a second strip under active pressure.
-
-**Q8**: Your initial rotational escape attempt is blocked because the opponent followed your rotation — what follow-up escape do you chain into?
-**A**: Immediately chain into the inversion escape by rolling toward the opponent's legs in the opposite direction of your initial rotation. This perpendicular angle change is harder for the opponent to follow than a continued rotation in the same plane. If the inversion is also blocked, attempt the standing extraction by posting your free foot and driving upward. These chains must flow without pause between attempts.
-
-**Q9**: During your escape rotation, your opponent releases the heel and switches to a kneebar attack on your extending leg — how do you adjust?
-**A**: Immediately bend your knee sharply and pull it to your chest to prevent full leg extension, which is what the kneebar requires. Rotate your body to face the opponent and use your free leg to push their hips away. If the kneebar grip is established on your straight leg before you can bend it, apply boot defense by plantar-flexing your foot and begin kneebar-specific escape protocols.
-
-**Q10**: At what point during the escape attempt should you abandon the escape and tap?
-**A**: Tap immediately when you feel rotational pressure on your knee ligaments — specifically, any sensation of the knee being twisted against its natural range of motion. If the opponent has established a full heel hook grip with breaking mechanics engaged and you cannot strip the grip in your first explosive attempt, tap before the second attempt. The timeline from grip to catastrophic knee injury can be under two seconds. There is no escape worth risking surgical reconstruction and career-ending injury.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Heel Hook Defense Escape?</p>
 
 Heel hook defense training carries significant injury risk to the knee joint, including ACL, MCL, and meniscus tears that may require surgical reconstruction. Always tap immediately when heel hook pressure reaches the point of ligament tension — never attempt to tough through rotational pressure on the knee. Train with progressive resistance and trusted partners who demonstrate consistent respect for tap signals. Begin all drilling at reduced intensity and speed, only increasing resistance as escape mechanics become automatic. Injury from heel hooks can require 6-12 months of rehabilitation and may permanently limit athletic capability. Communicate clearly with training partners about intensity levels and establish verbal tap protocols for positions where hand tapping is restricted.
 

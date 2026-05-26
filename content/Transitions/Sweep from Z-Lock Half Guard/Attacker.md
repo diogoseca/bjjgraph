@@ -38,7 +38,7 @@ description: "Complete guide to executing the Sweep from Z-Lock Half Guard. Step
     },
     {
       "@type": "HowToStep",
-      "name": "Read Weight Distribution",
+      "name": "Read Center of Gravity",
       "text": "Wait for the opponent to commit their weight forward, typically by driving crossface or attempting to flatten you with shoulder pressure. You should feel their weight settling onto your chest and their base becoming lighter on their knees. This forward commitment is your timing trigger - the sweep will fail if attempted against a seated-back opponent.",
       "position": 4
     },
@@ -196,6 +196,8 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Z-Lock Half Guard?</p>
+
 - Coordinate lockdown tension and butterfly elevation simultaneously to create compound off-balancing that attacks two planes at once
 - Wait for opponent to commit weight forward before engaging the sweep - timing is more important than explosive power
 - Maintain deep underhook throughout the sweep to control rotation direction and prevent opponent from posting to recover balance
@@ -209,6 +211,8 @@ Success depends on reading the opponent's weight distribution and selecting the 
 <section id="setup-requirements" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before attempting Sweep from Z-Lock Half Guard?</p>
 
 - Z-Lock configuration established with lockdown securing opponent's trapped leg at the ankle and butterfly hook positioned under their opposite thigh
 - Deep underhook achieved on the far side with hand gripping opponent's belt, lat, or far hip for maximum rotational control
@@ -224,10 +228,12 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Sweep from Z-Lock Half Guard step by step?</p>
+
 1. **Verify Z-Lock Configuration**: Confirm your lockdown leg is properly secured around opponent's trapped ankle with your feet connected behind their calf. Simultaneously verify your butterfly hook is positioned under their opposite thigh with your instep creating a lifting platform. Both leg positions must be active before initiating the sweep.
 2. **Secure Deep Underhook**: Thread your far-side arm deep under the opponent's armpit, reaching toward their belt line, lat, or far hip. This underhook is the primary steering mechanism for the sweep rotation. Your grip should be firm enough to control their upper body trajectory throughout the entire sweeping motion.
 3. **Create Hip Angle**: Hip escape slightly away from the opponent to create an angled position where your hips face sideways rather than lying flat on your back. This angle is critical because it loads your butterfly hook with mechanical advantage and positions your lockdown leg for maximum whipping power during the sweep initiation.
-4. **Read Weight Distribution**: Wait for the opponent to commit their weight forward, typically by driving crossface or attempting to flatten you with shoulder pressure. You should feel their weight settling onto your chest and their base becoming lighter on their knees. This forward commitment is your timing trigger - the sweep will fail if attempted against a seated-back opponent.
+4. **Read Center of Gravity**: Wait for the opponent to commit their weight forward, typically by driving crossface or attempting to flatten you with shoulder pressure. You should feel their weight settling onto your chest and their base becoming lighter on their knees. This forward commitment is your timing trigger - the sweep will fail if attempted against a seated-back opponent.
 5. **Initiate Compound Off-Balance**: Simultaneously fire both legs: whip your lockdown leg downward and away to stretch and pull the opponent's trapped leg out from their base, while driving your butterfly hook upward and to the side to elevate their opposite hip off the mat. These forces must be coordinated and simultaneous to create the rotational torque that makes the sweep unstoppable.
 6. **Drive Rotation with Underhook**: As the compound leg action breaks the opponent's base, use your underhook to pull their upper body across your centerline in the direction of the sweep. Your underhook drives the rotation while your legs provide the off-balancing force. Turn your own body in the direction of the sweep to add your body weight to the rotational momentum.
 7. **Follow Through to Top Position**: As the opponent rotates past the tipping point, follow the momentum by continuing to turn and coming up on top. Release the lockdown as you clear their legs and immediately begin establishing side control grips. Do not pause at any intermediate position - continuous forward pressure prevents the opponent from recovering guard during the transition.
@@ -253,6 +259,8 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Z-Lock Half Guard?</p>
+
 - **Opponent posts far hand wide on the mat in the direction of the sweep to create a structural brace preventing rotation** (Effectiveness: High) - Your Response: Switch to a kimura grip on the posted arm, stripping the post and creating a submission threat that either completes the sweep or transitions to kimura control → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 - **Opponent drives heavy crossface and flattens your shoulders to the mat, removing your hip angle and neutralizing butterfly hook power** (Effectiveness: High) - Your Response: Frame against their crossface arm to recover hip angle, or abandon the sweep and transition to deep half guard entry by ducking under their pressure → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent sits weight back onto heels to remove forward pressure, denying the weight commitment your sweep requires** (Effectiveness: Medium) - Your Response: Use the space created by their retreat to come up to dogfight position via underhook drive, or transition to butterfly sweep using the elevation already available → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
@@ -264,6 +272,8 @@ Success depends on reading the opponent's weight distribution and selecting the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Z-Lock Half Guard?</p>
 
 ### 1. Firing the sweep before opponent commits weight forward
 
@@ -303,6 +313,8 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Z-Lock Half Guard (Attacker)?</p>
+
 **Phase 1: Isolated Leg Coordination** - Developing simultaneous lockdown whip and butterfly elevation
 Solo and light partner drills focusing exclusively on coordinating both legs to fire simultaneously. Practice lockdown whip motion and butterfly elevation separately, then combine them into a single coordinated movement. Partner lies still while you practice the compound leg action to develop muscle memory before adding resistance.
 
@@ -323,42 +335,12 @@ Positional sparring starting from Z-Lock Half Guard bottom. Bottom player attemp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from Z-Lock Half Guard?
-**A**: The optimal window opens when the opponent commits their weight forward to establish crossface or shoulder pressure. You should feel their weight settling onto your chest with their knees becoming lighter on the mat. This forward commitment means their base is compromised in the direction of the sweep, and their own bodyweight becomes the primary force driving the rotation when you engage the compound leg action.
-
-**Q2**: Why must the lockdown whip and butterfly elevation fire simultaneously rather than sequentially?
-**A**: Simultaneous activation creates a compound off-balancing force that attacks the opponent's base along two vectors at once - the lockdown pulls their base backward while the butterfly drives upward. Sequential activation allows the opponent to address each force individually by posting or bracing, effectively reducing the sweep to a single-plane attack that experienced grapplers defend easily. The compound nature is what makes this sweep distinct from standard lockdown sweeps.
-
-**Q3**: Your opponent posts their far hand wide to brace against the sweep - how do you adjust?
-**A**: Attack the posted arm with a kimura grip by releasing your near-side hand to grab their posted wrist while your underhook secures above their elbow. This strips their structural brace and creates a dual threat: either the kimura submission forces them to retract the post, allowing the sweep to complete, or you transition to kimura control as an alternative attack. The posted arm becomes a liability rather than a defense when you target it directly.
-
-**Q4**: What is the most critical mechanical detail that determines whether this sweep generates sufficient force?
-**A**: Hip angle is the most critical mechanical factor. The sweeper must maintain their hips turned to the side rather than flat on the mat. This angled position loads both the butterfly hook and lockdown leg with mechanical advantage, creating leverage that multiplies the force output. A flat-back position reduces both legs to pushing from a structurally weak angle where they cannot generate the rotational torque needed to overcome the opponent's base resistance.
-
-**Q5**: What grip requirements must be established before initiating the sweep?
-**A**: Three grips are essential: the lockdown leg configuration securing the opponent's trapped ankle with feet connected behind their calf, the butterfly hook instep positioned under their opposite thigh, and a deep underhook on the far side reaching toward their belt or lat. The underhook is the steering mechanism that directs the rotation, while both leg positions provide the off-balancing force. Missing any one of these three grips significantly reduces sweep success rate.
-
-**Q6**: Your opponent sits back defensively to avoid committing weight forward - what is your response?
-**A**: When the opponent refuses to drive forward, they create space between your bodies that you can exploit in other ways. Use the space to come up to dogfight position by driving off your underhook and butterfly hook simultaneously. Alternatively, transition to deep half guard by ducking under their elevated hips. The opponent's defensive posture opens different attacking paths - the Z-Lock sweep becomes one threat in a chain that forces them to choose which avenue to defend.
-
-**Q7**: What happens if you maintain the lockdown configuration while transitioning to top position after a successful sweep?
-**A**: Keeping the lockdown engaged while coming to top entangles your own legs with the opponent's, preventing you from establishing proper side control positioning. Your hips cannot drop into their body for pressure, your legs cannot post for base, and the opponent can use the remaining entanglement to immediately begin guard recovery sequences. The lockdown must be released during the follow-through phase as you clear their body and begin establishing crossface and hip control for side control.
-
-**Q8**: How does this sweep create a strategic dilemma for the top player in the broader half guard game?
-**A**: The sweep punishes forward pressure, which is the primary tool top players use to pass half guard. When the top player knows the Z-Lock sweep is available, they must choose between driving forward (risking the sweep) and sitting back (creating space for guard recovery, deep half entries, or dogfight transitions). This dilemma means the bottom player wins strategically regardless of which option the top player chooses, because both defensive responses open alternative attacking paths.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Z-Lock Half Guard?</p>
 
 The Sweep from Z-Lock Half Guard involves rotational forces through the knee and ankle joints of both practitioners. The lockdown component places stress on the trapped leg's knee and ankle, so partners should communicate if leg pressure becomes excessive. Release the lockdown immediately if your partner signals discomfort. During the rotation phase, avoid driving your bodyweight onto the opponent's extended limbs. Train the timing elements at reduced speed before adding full resistance to prevent knee torque injuries.
 

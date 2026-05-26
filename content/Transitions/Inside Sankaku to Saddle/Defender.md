@@ -162,6 +162,8 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Sankaku to Saddle?</p>
+
 - Attacker begins rotating their hips away from the Inside Sankaku angle toward a perpendicular position relative to your body
 - Attacker's outside leg releases from the figure-four configuration and drives across your thigh rather than maintaining the cross
 - Attacker posts a hand on the mat on your far side, indicating they are preparing to pivot their body around your trapped leg
@@ -173,6 +175,8 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Sankaku to Saddle?</p>
 
 - Recognize transition indicators early - the attacker's hip rotation and leg reconfiguration create a brief window of reduced control that is your best escape opportunity
 - Frame aggressively on the attacker's hip during any reconfiguration attempt to prevent perpendicular alignment from being established
@@ -187,6 +191,8 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Sankaku to Saddle?</p>
 
 ### 1. Frame on attacker's hip with both hands during the hip switch to block perpendicular alignment
 
@@ -224,6 +230,8 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Sankaku to Saddle?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the momentary gap when the attacker releases their figure-four by combining an explosive hip escape with free leg posting on their hip. Time the extraction to the exact moment of the leg reconfiguration when control is weakest. Strip any remaining grip with your hands as you pull the trapped leg free.
@@ -239,6 +247,8 @@ Prevent the transition by establishing strong frames on the attacker's hip befor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Sankaku to Saddle?</p>
 
 ### 1. Turning into the attacker in an attempt to face them during the transition
 
@@ -268,6 +278,8 @@ Prevent the transition by establishing strong frames on the attacker's hip befor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Sankaku to Saddle?</p>
+
 **Phase 1: Recognition** - Identifying transition indicators without time pressure
 Partner slowly demonstrates the Inside Sankaku to Saddle transition at quarter speed. Defender calls out each recognition cue as it occurs: hip rotation beginning, figure-four release, outside leg driving across thigh, perpendicular alignment establishing. No defensive action yet - purely develop the pattern recognition that makes early reaction possible.
 
@@ -284,29 +296,6 @@ Start in Inside Sankaku. Attacker works to transition to Saddle or submit from I
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the attacker's hips beginning to rotate and their outside leg releasing from the figure-four - what is your immediate priority?
-**A**: Simultaneously establish a frame on their rotating hip with your free leg to block perpendicular alignment while preparing to extract your trapped leg through the gap created by the figure-four release. Your hands should address heel protection first, then assist with either frame reinforcement or leg extraction. The key is acting during this specific transition window when control is weakest rather than waiting for the Saddle to consolidate.
-
-**Q2**: Why is turning into the attacker the worst possible defensive reaction during an Inside Sankaku to Saddle transition?
-**A**: Turning into the attacker provides the exact rotational angle they need to achieve perpendicular alignment. The hip switch entry specifically relies on the opponent turning toward them, which brings the defender's body into the perpendicular position that defines Saddle. Your rotation effectively does half the attacker's work for them. Instead, always create distance or counter-rotate away from the attacker to deny them the angle.
-
-**Q3**: The attacker has achieved partial perpendicular alignment but has not yet established inside position with both legs - what escape opportunity exists?
-**A**: Without bilateral inside position, the Saddle lacks its structural cage around your trapped leg. Use your free leg to pummel inside between their legs, preventing them from completing the inside position. Simultaneously hip escape to create extraction angle. This is a critical but brief window because once both their legs achieve inside position, the entanglement becomes exponentially harder to escape. Attack this specific structural weakness aggressively.
-
-**Q4**: How should you use your energy when you recognize a Saddle transition attempt is coming?
-**A**: Reserve your energy for the specific transition moment rather than fighting continuously against the existing Inside Sankaku control. When you recognize the indicators of the hip switch beginning, commit your energy to a decisive defensive action: strong frame, explosive hip escape, or rapid counter-rotation. One well-timed explosive effort during the transition window is far more effective than continuous struggling against the established position. If your defensive action fails, immediately return to heel protection and wait for the next opportunity.
-
-**Q5**: The attacker's Saddle entry fails and they fall back to Inside Sankaku - should you feel relieved or concerned?
-**A**: Concerned, but in a constructive way. The failed Saddle attempt means the attacker is specifically hunting for the transition, so they will attempt it again. Use the recovery moment to improve your own position within Inside Sankaku: re-establish strong heel protection, optimize your framing, and position your free leg for the next defensive action. Each failed attempt teaches you their specific entry timing and angle, which you can use to improve your defensive response on subsequent attempts.
-
-
-
-</section>
 
 
 </main>

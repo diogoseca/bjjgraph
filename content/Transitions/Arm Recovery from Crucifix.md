@@ -212,7 +212,7 @@ Arm Recovery from Crucifix sits within the broader defensive escape hierarchy as
 
 - [[Transitions/Arm Extraction]] - Related escape transition focusing on freeing arm to turtle rather than guard
 
-- [[Transitions/Choke from Crucifix]] - Primary submission threat that must be defended during arm recovery attempts
+- [[Submissions/Choke from Crucifix]] - Primary submission threat that must be defended during arm recovery attempts
 
 - [[Transitions/Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape sequence
 

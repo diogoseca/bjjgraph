@@ -162,6 +162,8 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Half Butterfly?</p>
+
 - Top player drops their hips significantly lower than normal half butterfly top position, driving weight toward the mat rather than maintaining upright posture
 - Chest pressure increases diagonally across your body toward the butterfly hook side, flattening your hips rather than pressing straight down
 - Top player's inside knee or shin begins wedging against your butterfly hook foot, attempting to pin it between their leg and the mat
@@ -173,6 +175,8 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Half Butterfly?</p>
 
 - Maintain constant elevation pressure through the butterfly hook to prevent the top player from settling weight and beginning the smash sequence
 - Fight for the underhook on the hook side to maximize structural integrity and sweep potential before the smash can flatten you
@@ -187,6 +191,8 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Half Butterfly?</p>
 
 ### 1. Time a butterfly hook elevation sweep before the smash sequence fully develops
 
@@ -224,6 +230,8 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Half Butterfly?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a butterfly hook elevation as the top player commits weight forward during the initial phase of the smash. Use their forward momentum against them by combining the hook lift with an underhook on the far side to sweep them over the butterfly hook. The best window is during their hip-drop transition when their base is temporarily compromised.
@@ -239,6 +247,8 @@ Maintain aggressive hook engagement and active frames throughout the smash attem
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Half Butterfly?</p>
 
 ### 1. Allowing hips to flatten to the mat without active resistance or hip escape attempts
 
@@ -268,6 +278,8 @@ Maintain aggressive hook engagement and active frames throughout the smash attem
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Half Butterfly?</p>
+
 **Phase 1: Recognition Drilling** - Identifying smash attempt cues through tactile awareness
 Partner initiates smash attempts from half butterfly top at slow speed. Focus on recognizing the early tactile cues—hip drop, angular pressure shift, knee movement toward your hook—and verbalizing recognition before the hook is pinned. Build automatic pattern recognition.
 
@@ -284,29 +296,6 @@ Positional sparring from half butterfly bottom against partner using full smash 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest tactile cues indicating a smash pass attempt from half butterfly top?
-**A**: The first cue is a significant drop in the top player's hip height combined with increased diagonal chest pressure toward your butterfly hook side. You will feel their weight shifting from balanced distribution to concentrated pressure on the hook side, and their inside knee or shin will begin moving toward your hook foot. Recognizing these cues before the hook is pinned gives you the maximum defensive window to respond.
-
-**Q2**: When is the optimal moment to attempt a sweep counter against the smash?
-**A**: The best window is during the top player's transition from upright posture to smash posture—specifically as they commit weight forward and begin dropping their hips. At this moment, their base is temporarily compromised because they are actively changing position. A well-timed butterfly hook elevation combined with an underhook can exploit this transitional instability before the smash pressure is fully established.
-
-**Q3**: Your butterfly hook is being progressively pinned—what is your best alternative defensive strategy?
-**A**: If the hook is losing effectiveness, immediately transition to deep half guard by shooting your outside arm under the top player's hips and angling your body underneath them before they can fully flatten you. This abandons the half butterfly structure but establishes a strong alternative sweeping position. The key is making this transition before you are completely flattened, as deep half requires hip mobility that flat positioning eliminates entirely.
-
-**Q4**: How should you adjust your frames when the top player begins driving angular pressure toward the hook side?
-**A**: Shift your primary frame to the far-side shoulder or bicep to create a wedge against the angular drive. Your near-side hand should control the crossface arm to prevent deep shoulder pressure under your chin. The frame should be angled to redirect their pressure away from your hook rather than trying to stop it head-on—work at an angle perpendicular to their driving direction for maximum mechanical efficiency.
-
-**Q5**: What role does underhook fighting play in preventing the smash from succeeding?
-**A**: The underhook on the hook side is your most powerful structural defense against the smash because it prevents the top player from achieving the chest-to-chest connection needed to flatten your hips. With the underhook, you maintain the ability to angle your body, create elevation with the hook, and threaten sweeps that force the top player to address your offense rather than methodically executing the smash. Losing the underhook battle is often the decisive moment that allows the smash to succeed.
-
-
-
-</section>
 
 
 </main>

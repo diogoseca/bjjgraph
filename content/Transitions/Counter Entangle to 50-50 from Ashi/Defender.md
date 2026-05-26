@@ -162,6 +162,8 @@ As the defender against the counter entangle, you are the person whose leg is co
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Entangle to 50-50 from Ashi?</p>
+
 - Opponent begins rotating their hips toward your trapped leg while their free leg lifts away from the mat surface
 - Opponent's free leg moves laterally across your near thigh rather than maintaining standard ashi hooking position behind your knee
 - Opponent shifts their grip from active submission configuration to an anchoring heel grip while their body rotates toward you
@@ -174,6 +176,8 @@ As the defender against the counter entangle, you are the person whose leg is co
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Entangle to 50-50 from Ashi?</p>
 
 - Early recognition is decisive—the counter entangle becomes exponentially harder to stop once the threading leg clears your thigh
 - Deny rotational space by pressing your near thigh down and keeping your legs tight together
@@ -188,6 +192,8 @@ As the defender against the counter entangle, you are the person whose leg is co
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Entangle to 50-50 from Ashi?</p>
 
 ### 1. Straighten trapped leg explosively to prevent entanglement triangle from closing
 
@@ -225,6 +231,8 @@ As the defender against the counter entangle, you are the person whose leg is co
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Entangle to 50-50 from Ashi?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip opponent's heel grip during the threading rotation using two-on-one hand fighting, then immediately straighten your leg and hip escape to extract completely from the entanglement. Create distance and establish top position in opponent's open guard.
@@ -240,6 +248,8 @@ Prevent the threading leg from clearing your thigh by pressing your near thigh d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Entangle to 50-50 from Ashi?</p>
 
 ### 1. Failing to recognize the counter entangle attempt until the threading leg has already cleared the thigh
 
@@ -269,13 +279,15 @@ Prevent the threading leg from clearing your thigh by pressing your near thigh d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Entangle to 50-50 from Ashi?</p>
+
 **Phase 1: Recognition** - Identifying counter entangle initiation cues
 Partner drills counter entangle from Inside Ashi-Garami at 25% speed while you focus exclusively on recognizing the initiation cues—hip rotation, free leg lift, grip change. Call out 'threading' each time you identify the attempt. Build pattern recognition before adding defensive responses. 15 repetitions per set, 3 sets.
 
 **Phase 2: Prevention Mechanics** - Structural defense against threading attempts
 Partner attempts counter entangle at 50% speed and resistance while you practice prevention techniques: leg straightening, thigh press, hip escape. Focus on executing the correct defensive response based on the timing of your recognition. Success criteria: prevent 7 of 10 counter entangle attempts before progressing.
 
-**Phase 3: Grip Fighting Under Pressure** - Heel grip stripping during transition
+**Phase 3: Grips Under Pressure** - Heel grip stripping during transition
 Partner maintains strong heel grip while threading at 75% intensity. Practice two-on-one grip stripping timed to the rotational phase of the threading motion. Develop sensitivity to the grip loosening that occurs during the opponent's hip rotation and target this specific vulnerability window for maximum effectiveness.
 
 **Phase 4: Live Positional Defense** - Full resistance counter entangle defense
@@ -285,29 +297,6 @@ Live positional sparring from Inside Ashi-Garami where partner uses the counter 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a counter entangle to 50-50 is being attempted?
-**A**: The earliest cue is the opponent's hip rotation toward your trapped leg combined with their free leg lifting away from the mat. This rotational movement is mechanically necessary for the thread and occurs before the actual leg crossing begins. Standard ashi garami attacks involve hip extension away from you, so hip rotation toward your leg represents a distinctly different movement pattern that signals the counter entangle rather than a submission attempt.
-
-**Q2**: Why is leg straightening more effective than hand-based defense against the threading motion?
-**A**: Leg straightening uses your largest muscle groups against the threading attempt and structurally prevents the entanglement triangle from forming. A straight leg cannot be triangled around because there is no knee bend to create the closing angle needed for the 50-50 lock. Hand-based defense relies on smaller muscles against hip-powered movement and removes your hands from the critical task of grip stripping. Additionally, leg straightening works even if you recognize the attempt slightly late.
-
-**Q3**: If the counter entangle succeeds and 50-50 is established, what is your immediate defensive priority?
-**A**: Immediately fight for inside position with your near leg before the opponent settles their grips. Inside position in 50-50 determines the submission hierarchy—whoever has inside position controls who attacks and who defends. Secondary priority is heel protection through knee rotation inward. Do not attempt to immediately escape 50-50 before establishing defensive positioning, as panicked extraction attempts often expose your heel to immediate attack.
-
-**Q4**: How does your defensive response change if you recognize the counter entangle early versus late?
-**A**: Early recognition before the leg clears your thigh allows prevention: press thigh down, straighten leg, squeeze legs together to block the thread entirely. Late recognition after the leg is already clearing your thigh requires damage control: aggressively strip heel grip to prevent a controlled 50-50, hip escape to create extraction distance, or accept the 50-50 and immediately fight for inside position. The earlier you recognize the attempt, the more preventive options you retain.
-
-**Q5**: What makes the opponent's heel grip particularly vulnerable during the threading motion?
-**A**: During the threading motion, the opponent must simultaneously rotate their hips, elevate their free leg, and maintain heel control—this divided attention and body repositioning naturally loosens their grip. Additionally, their body rotation changes the angle of their arms relative to your heel, often requiring them to micro-adjust their grip configuration. This adjustment window is when two-on-one grip stripping is most effective. Target this specific moment rather than fighting their grip when they are stationary and fully focused on maintaining control.
-
-
-
-</section>
 
 
 </main>

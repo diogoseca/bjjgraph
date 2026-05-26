@@ -188,6 +188,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Extraction to Combat Base?</p>
+
 - Establish dominant upper body control with crossface before attempting leg extraction to limit opponent's offensive options
 - Never pull straight backward against the lockdown as this strengthens their grip and opens Electric Chair opportunities
 - Use circular hip motion combined with angle changes rather than linear force to work with lockdown mechanics
@@ -203,6 +205,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Extraction to Combat Base?</p>
+
 - Top position in half guard with one leg trapped in opponent's lockdown configuration
 - Crossface or heavy shoulder pressure established to flatten opponent
 - Free leg posted wide for stable base against sweep attempts
@@ -215,6 +219,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Extraction to Combat Base step by step?</p>
 
 1. **Establish crossface control**: Drive your shoulder heavily into opponent's jaw or chest with crossface arm wrapped around their head, flattening them to the mat and preventing the whip-up motion that enables their primary sweeps
 2. **Secure hip control**: Use your free hand to control their near-side hip by gripping the pants or hooking the hip bone in no-gi, preventing them from turning toward you or creating attacking angles during extraction
@@ -244,6 +250,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Extraction to Combat Base?</p>
+
 - **Opponent extends lockdown aggressively to load weight for Electric Chair** (Effectiveness: High) - Your Response: Drive forward pressure through chest rather than pulling back, compress their space to reduce extension effectiveness, and wait for them to relax before attempting extraction → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent executes whip-up motion to come to dogfight position** (Effectiveness: High) - Your Response: Immediately increase shoulder pressure and post free hand far to the threatened side, if they continue rising accept scramble to dogfight and fight for underhook or transition to front headlock → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent pummels for underhook on trapped-leg side** (Effectiveness: Medium) - Your Response: Swim your arm over theirs to re-establish underhook or use heavy shoulder pressure to drive their arm down, never allow underhook to remain unchallenged → Leads to [[Positions/Half Guard/Lockdown]]
@@ -255,6 +263,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Extraction to Combat Base?</p>
 
 ### 1. Attempting to extract leg by pulling straight backward against the lockdown
 
@@ -294,6 +304,8 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Extraction to Combat Base (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the extraction motion pattern without resistance, focusing on circular hip movement and angle changes. Partner holds static lockdown at 50% tightness. Drill crossface establishment and hip control independently before combining with extraction.
 
@@ -314,51 +326,12 @@ Positional sparring starting trapped in lockdown. Partner attacks with full swee
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Leg Extraction to Combat Base?
-**A**: The primary goal is to free your trapped leg from the opponent's lockdown figure-four configuration and immediately establish combat base for passing. Until the leg is extracted, you cannot initiate effective passing sequences and remain vulnerable to lockdown-based sweeps and submissions like the Electric Chair and Old School. Combat base provides the stable platform needed to begin guard passing.
-
-**Q2**: Why should you never attempt to extract your leg by pulling straight backward?
-**A**: Pulling straight backward plays directly into the lockdown's mechanical strength. The figure-four configuration is designed to resist linear backward force, so pulling back actually tightens their grip. Worse, it extends your leg into the Electric Chair position, giving opponent their primary submission. Instead, use circular hip motion and angle changes that work with the mechanics rather than against them.
-
-**Q3**: What upper body control must be established before attempting leg extraction?
-**A**: Crossface control with heavy shoulder pressure must be established before any extraction attempt. This flattens the opponent and prevents them from executing the whip-up motion that enables Old School sweeps and dogfight transitions. Without this control, extraction attempts leave you vulnerable to being swept. The shoulder drives into their jaw or chest while the arm wraps around their head.
-
-**Q4**: Your opponent begins extending the lockdown aggressively while you prepare to extract - what adjustment do you make?
-**A**: Do not attempt extraction while they actively extend. Their grip strength is maximum during extension. Instead, drive your weight forward through your chest into their upper body, compressing their space and reducing the effectiveness of their extension. Wait for them to relax the lockdown to reset their attack, then time your extraction during that brief window of reduced tension.
-
-**Q5**: What indicates the optimal timing window to attempt leg extraction?
-**A**: The optimal window occurs when the opponent relaxes their lockdown grip to adjust position, switch between underhook and overhook, or reset after a failed sweep attempt. Watch for moments when tension in their legs briefly decreases. Never attempt extraction when they are actively extending or attacking, as their grip will be at maximum strength and your attempt will fail while expending energy.
-
-**Q6**: During extraction, your opponent begins the whip-up motion - what is your immediate response?
-**A**: Immediately increase shoulder pressure and drive your weight down through crossface while posting your free hand far to the threatened side to base out. If they continue rising successfully, you may need to accept transition to dogfight position and immediately fight for your own underhook. Alternatively, if they expose their neck during the transition, switch to a front headlock. Never continue extraction attempts once whip-up is in motion.
-
-**Q7**: What is the correct hip movement pattern for the extraction?
-**A**: Drive your hips forward and down toward the mat first, then circle your trapped leg outward in a semicircular path while pressing your knee toward the mat. This circular motion exploits the gap created by the angle change. The movement is never linear backward but always combines forward pressure with rotational extraction. Think of scraping your knee in an arc across the mat rather than pulling it straight back.
-
-**Q8**: Why must combat base be established immediately upon freeing the leg?
-**A**: Any pause between extraction and combat base establishment allows opponent to recover guard or recapture the lockdown. The extraction creates only a momentary opening that must be immediately consolidated. Combat base provides the stable platform with weight distributed between both legs and hands needed to begin passing sequences. Treat extraction and base establishment as one continuous movement.
-
-**Q9**: How does base position with the free leg affect extraction success?
-**A**: The free leg must remain posted wide throughout extraction with knee pointed outward to create a stable tripod base. If this base narrows during extraction, you become vulnerable to sweeps at the exact moment when your attention is focused on the extraction mechanics. The wide base maintains your ability to resist off-balancing forces while your trapped leg is being freed from the lockdown.
-
-**Q10**: Your first extraction attempt fails and opponent re-tightens lockdown - what is your recovery strategy?
-**A**: Return to establishing heavy crossface pressure and wait for another timing opportunity rather than immediately attempting again. Re-assess whether your angle or approach needs adjustment. Consider switching to a variant extraction method like the backstep or hip switch if the opponent has adapted to your initial approach. Multiple failed rapid attempts waste energy and may open you to sweeps.
-
-**Q11**: Your opponent shrimps away and begins sliding underneath your hips during your extraction attempt - what is happening and how do you respond?
-**A**: The opponent is transitioning to deep half guard by using the space created during your extraction to get underneath your center of gravity. Immediately stop the extraction and address this threat by driving your hips down and forward to prevent them from completing the deep half entry. Establish a whizzer or crossface to flatten them. If they complete the entry, you must switch to deep half guard top defense rather than continuing extraction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Extraction to Combat Base?</p>
 
 Leg extraction from lockdown carries moderate risk primarily to the knee and ankle of the trapped leg. Never force extraction against a fully locked and extended lockdown as this can strain the knee ligaments. If opponent refuses to release despite proper technique, accept the stalemate rather than risking joint injury through excessive force. Partners drilling this technique should communicate clearly about resistance levels and tap immediately if experiencing any joint discomfort. The top player should avoid sudden jerking movements during extraction that could torque the knee. When practicing extraction against aggressive lockdown extensions, be aware that rapid position changes can cause ankle sprains if the foot catches unexpectedly.
 

@@ -28,7 +28,7 @@ Strategically, this technique thrives on a predictable defensive reaction: when 
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Positions/Side Control]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -39,7 +39,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Arm Triangle]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -209,9 +209,9 @@ The arm triangle from top is a cornerstone of the side control submission system
 
 - [[Transitions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
 
-- [[Submissions/Americana from Side Control]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
+- [[Submissions/Americana]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
 
-- [[Submissions/Kimura from Side Control]] - Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed
+- [[Submissions/Kimura]] - Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed
 
 - [[Transitions/Arm Triangle Setup]] - Related transition for establishing the head-and-arm configuration from various positions
 

@@ -202,7 +202,7 @@ The Gift Wrap to Back transition fits into the broader mount attack system as a 
 
 - [[Positions/Mount]] - Alternative starting position with lower percentage gift wrap entry
 
-- [[Submissions/Armbar from Mount]] - Complementary attack whose threat creates the turning reaction needed for gift wrap
+- [[Transitions/Mount to Armbar]] - Complementary attack whose threat creates the turning reaction needed for gift wrap
 
 - [[Transitions/Back Take]] - General back take technique category this transition belongs to
 
@@ -212,7 +212,7 @@ The Gift Wrap to Back transition fits into the broader mount attack system as a 
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Alternative gift wrap pathway maintaining top control without back take
 
-- [[Transitions/Rear Naked Choke]] - Primary submission available after successful back take completion
+- [[Submissions/Rear Naked Choke]] - Primary submission available after successful back take completion
 
 
 </section>

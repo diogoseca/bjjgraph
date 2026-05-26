@@ -248,7 +248,7 @@
         "description": "Begin positional sparring rounds starting in ushiro ashi-garami bottom against progressively skilled training partners. Integrate the sweep into your complete ushiro escape system, selecting between sweep, turtle recovery, and counter-attack based on opponent's behavior. Track success rate to identify mechanical breakdowns."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important prerequisite to establish before initiating the sweep from ushiro ashi-garami?",
         "answer": "Controlling the opponent's far posting hand is the most critical prerequisite. Without this control, the opponent will simply post on the mat when the sweeping force is applied, completely negating the off-balance. This grip must be established before any hip movement begins, as attempting to control the posting hand during the sweep is too late—the opponent will have already detected the sweep intention and reinforced their base."
@@ -365,7 +365,7 @@
         "correction": "Respond with technical base adjustments—posting, sitting back, or transitioning to saddle—rather than trying to muscularly resist the rotational force. Positional adjustment is always more effective than strength against a properly loaded sweep"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a sweep rather than a standard escape from ushiro ashi-garami bottom?",
         "answer": "The earliest cue is the opponent reaching to control your far-side posting hand. Standard escapes focus on leg clearing and turtle rotation, where the hands work to control your inside knee. When the opponent's hand targets your posting arm instead, they are establishing the primary sweep prerequisite. This distinction appears 1-2 seconds before the actual sweep initiation, providing a critical early warning window for defensive response."
@@ -390,7 +390,7 @@
         "description": "Partner alternates between sweep setup sequences and standard escape attempts from ushiro ashi-garami bottom. Practice identifying which movement pattern is being initiated based on hand positioning, hip angle, and free leg placement. Call out the identification verbally before the technique develops to build early recognition speed."
       },
       {
-        "phase": "Phase 2: Base Maintenance Under Pressure",
+        "phase": "Phase 2: Base Under Pressure",
         "focus": "Maintaining posting hand availability during finishing attempts",
         "description": "Practice heel hook finishing attempts while partner actively targets the posting hand for control. Develop the habit of maintaining at least one free posting hand during all finishing sequences. Work on one-hand supplemented finishing mechanics that preserve base stability without sacrificing finishing effectiveness."
       },

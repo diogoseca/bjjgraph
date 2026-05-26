@@ -212,7 +212,7 @@ The Buggy Choke to Side Control transition functions as a critical failsafe in t
 
 - [[Transitions/Arm Triangle from Top]] - Follow-up submission from side control after transition
 
-- [[Submissions/Americana from Side Control]] - Follow-up submission available from resulting side control
+- [[Submissions/Americana]] - Follow-up submission available from resulting side control
 
 - [[Positions/Knee on Belly]] - Positional advancement available after securing side control
 

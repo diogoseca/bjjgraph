@@ -213,7 +213,7 @@ The sit out from turtle serves as a critical link between defensive turtle posit
 
 - [[Positions/Front Headlock]] - Opponent attack position when snap down counters the posting hand
 
-- [[Positions/Scramble Position]] - Common transitional state during contested sit out attempts
+- [[Positions/Standing Position]] - Common transitional state during contested sit out attempts
 
 - [[Transitions/Back Door Escape from Half Guard]] - Complementary escape technique sharing similar hip rotation mechanics
 

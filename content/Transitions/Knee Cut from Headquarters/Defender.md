@@ -162,6 +162,8 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Cut from Headquarters?</p>
+
 - Passer's knee begins angling diagonally toward your far-side mat, shifting from vertical headquarters pressure to lateral cutting pressure across your thigh
 - Crossface pressure intensifies suddenly as the passer secures upper body control to prevent you from turning into the pass before committing to the cut
 - Passer's weight shifts toward your far side as they commit body mass behind the cutting knee, noticeably changing the pressure distribution from centered to lateral
@@ -174,6 +176,8 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Cut from Headquarters?</p>
 
 - React before the knee crosses your thigh line—early defensive intervention is dramatically more effective than late-stage recovery attempts against an established cut
 - Maintain hip mobility by staying on your side and continuously creating angles rather than lying flat, which gives the passer direct access to the cutting lane
@@ -188,6 +192,8 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Cut from Headquarters?</p>
 
 ### 1. Insert knee shield before the cut develops by placing your shin across the passer's hip line and framing on their shoulder with your top hand
 
@@ -225,6 +231,8 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Cut from Headquarters?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time the underhook as the passer commits their weight to the knee cut. As their base shifts forward and laterally, use the underhook to get underneath their center of gravity and execute a sweep using their own forward momentum against them. The key is catching the transition moment when their weight is committed to the cut but the pass is not yet complete.
@@ -240,6 +248,8 @@ Establish knee shield early in the cut sequence before the passer can develop fu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Cut from Headquarters?</p>
 
 ### 1. Lying flat on your back without creating any defensive frames or maintaining hip mobility against the advancing knee cut
 
@@ -274,6 +284,8 @@ Establish knee shield early in the cut sequence before the passer can develop fu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Cut from Headquarters?</p>
+
 **Phase 1: Recognition** - Identifying knee cut initiation cues from headquarters bottom
 Partner establishes headquarters and initiates knee cuts at varying speeds while you practice identifying the visual and tactile cues that signal the pass is beginning. Focus on recognizing weight shifts, knee angle changes, and grip transitions without attempting defensive actions yet. Build pattern recognition reflexes.
 
@@ -290,29 +302,6 @@ Full resistance positional sparring starting from headquarters bottom. Partner u
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that a knee cut is being initiated from headquarters?
-**A**: The earliest cue is the passer's knee beginning to angle diagonally toward your far-side mat, shifting from vertical headquarters pressure to lateral cutting pressure. This is often accompanied by the passer repositioning their far hand from knee control to a crossface or collar grip, signaling they are transitioning from headquarters maintenance to active passing. Recognizing this weight shift before the knee crosses the thigh line is critical for effective defense.
-
-**Q2**: Your opponent begins the knee cut and you have no knee shield in place—what is your best defensive action?
-**A**: Frame on the passer's hip on the cutting side with your near hand to physically block the knee's advance while simultaneously hip escaping away from the cutting direction to create distance. If there is enough space, insert your knee between your bodies to establish a late knee shield. If the knee is already too close, secure the underhook on the cutting side and sit up to threaten a sweep that exploits the passer's forward commitment.
-
-**Q3**: What are the consequences of pushing the opponent's head during a knee cut defense?
-**A**: Pushing the opponent's head with an extended arm exposes that arm to kimura, americana, and armbar submissions while providing no structural resistance against the knee cutting through the thigh line below. The head push also places your defensive effort above the actual threat, leaving the passing lane undefended. Effective defense requires framing against the hip and shoulder where the forces directly oppose the cutting motion.
-
-**Q4**: When is the optimal timing window to attempt an underhook sweep against a knee cut?
-**A**: The optimal window is the moment the passer commits their weight forward and laterally into the cutting direction but before the knee has fully crossed the thigh line and the hip has dropped. During this transition moment, the passer's base is compromised because their weight is in motion between headquarters stability and the cutting position. The underhook exploits this brief window of instability to redirect their momentum into a sweep.
-
-**Q5**: How do you prevent the crossface from being established during the knee cut setup?
-**A**: Use your far-side hand to frame against the passer's bicep or shoulder on the crossface side, creating a barrier that prevents their forearm from crossing your jaw line. Alternatively, fight for the underhook on the cutting side early, which positions your shoulder underneath the passer's arm and makes the crossface geometrically impossible to establish. Maintaining an angle on your side rather than lying flat also reduces the surface area available for crossface pressure.
-
-
-
-</section>
 
 
 </main>

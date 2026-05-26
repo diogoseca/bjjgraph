@@ -28,7 +28,7 @@ The rolling motion works by using momentum and body rotation to change the angle
 
 Success depends heavily on recognizing the exact moment when your opponent is committed forward to the finish and cannot easily adjust their base to follow your roll. The technique represents a last-resort option in the Kimura defense hierarchy, employed only after conventional defenses such as grip fighting, posture recovery, and hip escape have been exhausted. Understanding the biomechanics of the Kimura lock progression is essential for identifying the narrow timing window where this escape becomes viable without excessive injury risk.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -214,7 +214,7 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 
 - [[Transitions/Kimura to Back Take]] - Common follow-up if opponent successfully follows your roll
 
-- [[Submissions/Kimura from Side Control]] - Understanding the attack improves defensive awareness
+- [[Transitions/North-South to Kimura]] - Understanding this Kimura attack path improves defensive awareness and escape timing
 
 - [[Principles/Escape Fundamentals]] - Conceptual foundation for all escape techniques
 
@@ -222,7 +222,7 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 
 - [[Positions/Back Control]] - Worst-case counter outcome if opponent follows the roll
 
-- [[Transitions/Kimura]] - The submission this escape is designed to counter
+- [[Submissions/Kimura]] - The submission this escape is designed to counter
 
 
 </section>

@@ -211,7 +211,7 @@ The double under pass is a cornerstone technique within the pressure passing sys
 
 - [[Positions/Side Control]] - Primary ending position after successful pass completion
 
-- [[Transitions/Kimura]] - Natural submission transition available after establishing side control
+- [[Submissions/Kimura]] - Natural submission transition available after establishing side control
 
 - [[Positions/Mount]] - Natural positional progression from side control after pass
 

@@ -225,7 +225,7 @@
         "description": "Start every round in established single-leg lasso guard. Bottom player works to upgrade to Russian Leg Lasso while top player actively resists and pursues passing. Begin at 60% intensity and progress to full competition speed over multiple sessions. Track successful threading rate and the percentage of successful threads that lead to sweeps. Reset to single lasso after each resolution."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for threading the second leg into Russian Leg Lasso?",
         "answer": "The optimal window occurs when the opponent's free arm is committed to a task - reaching for a grip break on the first lasso, posting on the mat for base during a sweep defense, or extending forward during a passing attempt. Their arm must be away from their centerline and occupied, making retraction slow. The window typically lasts 1-2 seconds before they complete their action and withdraw the arm. Attempting the thread when the free arm is tucked defensively against their body will fail because they can retract faster than you can thread."
@@ -349,7 +349,7 @@
         "correction": "Use technical grip breaks - strip the thumb, peel the fingers, or redirect the wrist angle to create slack in the grip. Address the grip at its weakest structural point rather than overpowering it with force"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt the transition to Russian Leg Lasso?",
         "answer": "The earliest cue is the bottom player's non-lasso hand releasing the collar grip and reaching toward your free arm's wrist or sleeve. This collar grip release is the prerequisite for the transition because they need that hand to capture the second sleeve. The collar release typically occurs 1-2 seconds before the actual threading attempt, providing a critical defensive window. Secondary cues include hip rotation toward the threading side and the free leg curling inward to prepare for the threading motion."

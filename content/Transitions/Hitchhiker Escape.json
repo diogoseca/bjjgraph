@@ -42,16 +42,16 @@
       "relationship": "Primary defensive system - positional defenses should be attempted before Hitchhiker Escape"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Understanding the offensive mechanics improves defensive timing and recognition"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Understanding the offensive finishing mechanics improves defensive timing and recognition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Alternative armbar position where similar escape principles may apply"
+      "name": "Far Side Armbar",
+      "relationship": "Alternative armbar variant where similar escape principles may apply"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up technique after successful escape execution"
+      "name": "Half Guard Recovery",
+      "relationship": "Follow-up technique after successful escape execution to re-establish guard structure"
     },
     {
       "name": "Armbar Control",
@@ -72,10 +72,6 @@
     {
       "name": "Closed Guard",
       "relationship": "Ideal recovery position after successful escape"
-    },
-    {
-      "name": "Armbar Finish",
-      "relationship": "The finishing transition the escape is designed to prevent"
     },
     {
       "name": "Belly Down Armbar",
@@ -225,7 +221,7 @@
         "description": "Attempt the escape during regular sparring when opportunities arise. Develop judgment about when the escape is appropriate versus when positional defense or tapping is safer. Track success rate and refine timing based on partner skill level and body type."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing factor for executing the Hitchhiker Escape successfully?",
         "answer": "The escape must be executed before the arm reaches full extension. Once the elbow is completely straight, the escape becomes exponentially more dangerous and difficult. The optimal window is when there's still a slight bend in the arm and before opponent achieves maximum hip extension."
@@ -363,7 +359,7 @@
         "correction": "Train to recognize the earliest cues: thumb rotation, shoulder turning, free hand pushing your hip. React to the first sign rather than waiting for confirmation. Early response stops the escape; late response means transitioning to plan B."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?",
         "answer": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively."

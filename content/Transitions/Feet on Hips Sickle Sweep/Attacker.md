@@ -188,6 +188,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Feet on Hips Sickle Sweep?</p>
+
 - Maintain one foot firmly on the opponent's hip bone as the primary pushing frame throughout the entire sweep sequence to provide the lateral driving force
 - Drop the hooking leg behind the opponent's far ankle at calf level, not at the foot, to prevent them from simply stepping over the hook
 - Coordinate the push-pull timing: extend the hip-foot to push while simultaneously pulling the collar grip in the sweep direction for maximum rotational force
@@ -202,6 +204,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Feet on Hips Sickle Sweep?</p>
+
 - Established feet on hips guard with at least one foot solidly placed on the opponent's hip bone providing a stable pushing frame
 - Same-side collar grip on the side where the hooking leg will sweep, deep enough to pull their weight and break their posture in the sweep direction
 - Opposite-side sleeve or wrist control to prevent the opponent from posting their hand when swept, which is the primary counter to the technique
@@ -214,6 +218,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Feet on Hips Sickle Sweep step by step?</p>
 
 1. **Establish Grip Configuration**: Secure a same-side collar grip with your right hand (if sweeping to your left) and control the opponent's opposite sleeve with your left hand. The collar grip should be deep enough to pull their weight and posture toward you, while the sleeve grip prevents them from posting their hand when off-balanced. Fight for these grips aggressively before committing to the sweep setup.
 2. **Set the Pushing Foot**: Place your left foot firmly on the opponent's right hip bone, ensuring ball-of-foot contact on the anterior superior iliac spine landmark. This foot serves as your primary pushing frame and must maintain solid connection throughout the sweep to generate the lateral driving force that displaces their center of mass toward the sweep direction.
@@ -243,6 +249,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Feet on Hips Sickle Sweep?</p>
+
 - **Opponent steps their far foot back beyond the hook range before the sickle motion initiates** (Effectiveness: High) - Your Response: Immediately switch to tripod sweep by placing both feet on hips and grabbing the near ankle, exploiting the wider stance they created by stepping back → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent posts their free hand on the mat in the sweep direction to create a base point** (Effectiveness: Medium) - Your Response: Increase pulling force on the sleeve grip to strip the posting hand, or transition to a triangle or armbar threat on the now-extended posting arm → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent drops their base low and drives weight forward into your pushing foot to flatten your guard** (Effectiveness: Medium) - Your Response: Use their forward pressure to load them onto your feet and switch to a balloon sweep or tomoe nage, converting their defensive forward pressure into sweep momentum → Leads to [[Positions/Feet on Hips Guard]]
@@ -254,6 +262,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Feet on Hips Sickle Sweep?</p>
 
 ### 1. Dropping the hooking leg too early before establishing proper collar and sleeve grips
 
@@ -293,6 +303,8 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Feet on Hips Sickle Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo hip movement and leg coordination patterns
 Practice the push-hook coordination without a partner. Lying on your back, extend one leg while the other performs the sickle motion. Build the neuromuscular pattern of simultaneous pushing and sweeping. Add resistance bands for progressive loading on the hooking leg.
 
@@ -313,42 +325,12 @@ Incorporate the sickle sweep into free rolling, focusing on recognizing optimal 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal placement height for the hooking leg behind the opponent's far ankle?
-**A**: The hook should be placed at mid-calf to Achilles tendon level, approximately four to six inches above the ankle bone. This height prevents the opponent from simply stepping over a low hook while providing sufficient leverage to sweep their base. Hooking too high on the shin reduces sweeping power because the lever arm shortens, while hooking at the foot allows easy escape by lifting.
-
-**Q2**: Why is the collar grip more important than the sleeve grip for completing this sweep?
-**A**: The collar grip provides the primary pulling force that breaks the opponent's posture and directs their weight toward the sweep direction. Without the collar pull, the leg mechanics alone rarely generate enough off-balancing force against a properly based opponent. The sleeve grip prevents posting but is secondary—many sweeps succeed with just the collar grip and good leg mechanics, but almost none succeed with just the sleeve grip and no upper body pull.
-
-**Q3**: Your opponent steps their far foot back when they feel the hook attempt—how do you adjust?
-**A**: Immediately transition to the tripod sweep by placing both feet back on the opponent's hips and using the collar grip to pull while grabbing their near ankle with your free hand. Their wide stance from stepping back actually makes the tripod sweep more effective because their base is elongated and vulnerable to the forward-backward off-balancing vector. This sickle-to-tripod combination is the fundamental two-sweep chain from feet on hips guard.
-
-**Q4**: What is the most critical timing window for initiating the sickle sweep?
-**A**: The optimal timing window occurs when the opponent shifts their weight forward, either to break your frames, establish grips on your legs, or initiate a passing sequence. This forward weight shift loads their far foot and makes them vulnerable to the lateral sweep because their momentum is already moving in a direction that complements the sweep angle. Attempting the sweep when the opponent is sitting back or disengaging has much lower success because they can absorb the sweep force by retreating.
-
-**Q5**: How does the pushing foot contribute to the sweep beyond just creating distance?
-**A**: The pushing foot on the hip serves three functions: it creates the lateral driving force that displaces the opponent's center of mass over their far foot, it serves as a fulcrum point around which the opponent rotates when the hook removes their base, and it provides the guard player with structural stability to execute the sweep from a strong mechanical position. Without the pushing foot, the hooking leg alone cannot generate sufficient rotational force because there is no opposing force to create the torque.
-
-**Q6**: What grip adjustment should you make when the opponent's gi is slippery from sweat?
-**A**: Secure a deeper collar grip by feeding your hand further behind the neck and gripping the material at the back of the collar rather than the front lapel. This deeper grip is less likely to slip and provides stronger pulling leverage. For the sleeve grip, grab the cuff material rather than the mid-sleeve, or switch to a wrist grip with your thumb inside for more secure control in slippery conditions.
-
-**Q7**: After completing the sweep, what is the most common positional error that allows guard recovery?
-**A**: The most common error is pausing on top without immediately establishing side control pressure. Many practitioners hesitate during the transition from guard to top, giving the opponent time to insert a knee for half guard or re-establish feet on hips from bottom. The correction is to follow through aggressively by driving your hips forward into the opponent the moment they land, establishing crossface pressure within one second, and immediately controlling their near hip to prevent knee insertion.
-
-**Q8**: When should you abandon the sickle sweep setup and transition to a different attack?
-**A**: Abandon the sickle sweep when the opponent achieves strong control of your hooking leg preventing the sickle motion, when they backstep beyond your hooking range, or when they drop their weight so low that your pushing foot cannot generate meaningful lateral force. In these situations, transition immediately to alternative attacks: against ankle control switch to X-Guard entry, against backstep defense flow to De La Riva guard, against low base attempt balloon sweep or tomoe nage using their forward weight commitment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Feet on Hips Sickle Sweep?</p>
 
 The sickle sweep is a low-risk technique with minimal injury potential for both practitioners. The primary safety concern is controlling the opponent's fall during the sweep to prevent them from landing awkwardly on their head, neck, or outstretched arm. When practicing, ensure the sweeping motion is controlled and gradual rather than explosive, allowing your partner to breakfall safely. Avoid applying excessive rotational force to the opponent's knee through the hooking leg, and release the hook immediately once the sweep succeeds. In competition, be aware that sweeping near the mat edge creates collision risks.
 

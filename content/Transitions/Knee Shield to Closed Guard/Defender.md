@@ -148,6 +148,8 @@ As the defender in this scenario, you are the top player in knee shield half gua
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Shield to Closed Guard?</p>
+
 - Opponent begins hip escaping away while maintaining or increasing knee shield push pressure, creating distance rather than attacking
 - Bottom player shifts grips from offensive configurations like collar-sleeve to purely distance-creating frames on your shoulders or chest
 - Opponent's trapped bottom leg begins a pulling and threading motion, attempting to disengage from between your legs
@@ -160,6 +162,8 @@ As the defender in this scenario, you are the top player in knee shield half gua
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Shield to Closed Guard?</p>
 
 - Maintain constant forward pressure through your shoulder and chest to prevent the space creation needed for hip escape and leg extraction
 - Control opponent's near hip with your hand to block the shrimping motion that enables the extraction channel
@@ -174,6 +178,8 @@ As the defender in this scenario, you are the top player in knee shield half gua
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Shield to Closed Guard?</p>
 
 ### 1. Drive forward with heavy crossface pressure to collapse space and flatten opponent's position
 
@@ -204,6 +210,8 @@ As the defender in this scenario, you are the top player in knee shield half gua
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Shield to Closed Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive forward with crossface pressure the moment you detect the hip escape attempt, collapsing the knee shield frame and establishing heavy top pressure that pins opponent flat to the mat with your underhook controlling their far shoulder
@@ -219,6 +227,8 @@ Shut down the recovery attempt early by maintaining tight leg entanglement on th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Shield to Closed Guard?</p>
 
 ### 1. Allowing too much space between bodies by sitting back or maintaining passive posture in knee shield top
 
@@ -243,6 +253,8 @@ Shut down the recovery attempt early by maintaining tight leg entanglement on th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Shield to Closed Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying early cues of guard recovery attempts
 Partner executes the Knee Shield to Closed Guard recovery at slow speed while you practice identifying the recognition cues—hip escape initiation, grip changes, leg movement. Call out each cue as you detect it. Develop pattern recognition before working on physical responses.
 
@@ -256,26 +268,6 @@ Full positional sparring from knee shield half guard top where partner is free t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to close guard from knee shield?
-**A**: The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt.
-
-**Q2**: How should you adjust your weight distribution to prevent the guard closure?
-**A**: Shift your weight low and forward into their knee shield area, driving your hips toward the mat and your shoulder into their upper chest or crossface position. Your weight should be concentrated through your chest and shoulder rather than distributed evenly on your knees, which creates the crushing forward pressure that eliminates the space they need for the hip escape and subsequent leg extraction sequence.
-
-**Q3**: What is your best recovery option if you recognize the extraction attempt too late and their leg is already partially freed?
-**A**: Immediately control their extracting leg at the knee or ankle, preventing them from swinging it fully around your back to lock ankles. Step your far leg back and angle your body to create a passing angle rather than allowing guard closure. If you can trap their partially freed leg between your arm and body before they complete the wrap, you establish an open guard passing position rather than being pulled into closed guard.
-
-**Q4**: Your opponent successfully closes guard on you after the recovery—what immediate actions minimize the positional damage?
-**A**: Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you.
-
-
-
-</section>
 
 
 </main>

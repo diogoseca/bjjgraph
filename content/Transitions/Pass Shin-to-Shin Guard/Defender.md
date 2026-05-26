@@ -162,6 +162,8 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Shin-to-Shin Guard?</p>
+
 - Passer establishes dominant upper body grips and begins contesting your sleeve or collar control aggressively
 - Passer shifts weight laterally and begins circling or backstep movements away from your shin connection angle
 - Passer's free hand moves to control your shin, ankle, or knee to facilitate mechanical clearing of the connection
@@ -174,6 +176,8 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Shin-to-Shin Guard?</p>
 
 - Maintain active shin pressure with constant angle adjustment to resist systematic clearing attempts rather than holding statically
 - Control upper body distance through grips that prevent the passer from establishing positional dominance before clearing begins
@@ -188,6 +192,8 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Shin-to-Shin Guard?</p>
 
 ### 1. Transition to Single Leg X-Guard by shooting hips under the passer and establishing hooks during their clearing sequence
 
@@ -225,6 +231,8 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Shin-to-Shin Guard?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Time your hip movement to coincide with the passer's clearing attempt. As they lift or shift their trapped leg, shoot your hips underneath and establish the inside hook while controlling their ankle. The clearing movement creates the space needed for entry—use their own clearing momentum against them by redirecting the angle into your hook placement.
@@ -240,6 +248,8 @@ Maintain active frames and hip mobility throughout the passer's clearing sequenc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Shin-to-Shin Guard?</p>
 
 ### 1. Maintaining passive shin contact without active pressure and continuous angle adjustment against clearing attempts
 
@@ -269,6 +279,8 @@ Maintain active frames and hip mobility throughout the passer's clearing sequenc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Shin-to-Shin Guard?</p>
+
 **Phase 1: Guard Retention Under Pressure** - Maintaining shin-to-shin against progressive clearing attempts
 Partner attempts progressive clearing sequences while you maintain shin connection through active pressure and angle adjustment. Start with light resistance increasing to moderate. Focus on hip mobility, pressure maintenance, and recognizing when the connection is being effectively neutralized versus when it can still be reinforced through adjustment.
 
@@ -285,29 +297,6 @@ Progress from purely defensive guard retention to actively threatening sweeps an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a pass attempt is beginning from the top of your shin-to-shin guard?
-**A**: The earliest cue is the passer establishing dominant upper body grips, particularly contesting your sleeve control and securing collar or lapel grips. This grip fighting precedes any physical clearing attempt and signals their intention to pass. Responding at this stage by reinforcing your own grips and increasing shin pressure gives you maximum defensive advantage before clearing even begins.
-
-**Q2**: Your opponent begins circling to their left while pulling your sleeve—what should you do?
-**A**: Follow their circling movement by adjusting your hip angle to maintain the perpendicular shin connection while simultaneously increasing upward pressure through the shin to make circling difficult. If they continue circling aggressively, this creates ideal timing for Single Leg X entry as their weight shifts over the connected leg. Use their circular momentum to initiate the transition rather than trying to maintain a static position.
-
-**Q3**: When is catching half guard an acceptable defensive outcome versus a sign of defensive failure?
-**A**: Half guard is an acceptable tactical outcome when the passer has already broken the shin connection and is advancing past your open guard structure. Inserting a knee shield prevents complete pass to side control and preserves a defensible position with established escape and sweep options. It becomes a sign of failure only if you concede half guard passively without first attempting to retain open guard or initiate transitions to Single Leg X or butterfly.
-
-**Q4**: How should you manage your free leg during a pass attempt to maximize your defensive options?
-**A**: Keep your free leg active and positioned for multiple functions: frame against the passer's hip to control distance, post on the mat for hip mobility and angle changes, threaten secondary guard entries like butterfly or De La Riva hooks, and deny the passer any grips on it. A static free leg becomes a handle the passer can exploit to break your structure or facilitate leg drags that accelerate their pass.
-
-**Q5**: What determines whether you should reinforce the shin connection or transition to a different guard position?
-**A**: Reinforce when your shin angle and pressure are still generating effective off-balancing force, your upper body grips are intact, and the passer's clearing attempt is not progressing despite their effort. Transition when the shin connection angle has deteriorated below effective leverage, the passer has established grip dominance over your upper body, or their clearing movements are creating space you can redirect into Single Leg X or X-Guard entries rather than wasting on reconnection.
-
-
-
-</section>
 
 
 </main>

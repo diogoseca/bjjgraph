@@ -154,6 +154,8 @@ As the defender facing the Collar Sleeve Sweep, your primary objective is to mai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Collar Sleeve Sweep?</p>
+
 - Opponent pulls collar grip at a sharp angle toward their shoulder rather than straight back, indicating rotational force loading for a sweep rather than simple posture control
 - Opponent places foot firmly on your hip while extending your sleeve-controlled arm fully, creating the two-point frame needed for explosive sweep generation
 - You feel a hooking leg threading behind your far knee or thigh, which is the base-removal component that completes the sweep's mechanical chain
@@ -166,6 +168,8 @@ As the defender facing the Collar Sleeve Sweep, your primary objective is to mai
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Collar Sleeve Sweep?</p>
 
 - Recognize sweep setup cues early and disrupt before all components are loaded
 - Maintain wide base with weight distributed low and centered to resist rotational forces
@@ -181,6 +185,8 @@ As the defender facing the Collar Sleeve Sweep, your primary objective is to mai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Collar Sleeve Sweep?</p>
 
 ### 1. Strip or break the collar grip using a two-on-one wrist peel
 
@@ -218,6 +224,8 @@ As the defender facing the Collar Sleeve Sweep, your primary objective is to mai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Collar Sleeve Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Drive forward with heavy hip pressure when you feel the sweep loading, flattening the sweeper's hips and breaking their guard structure. Use the forward momentum to advance past their legs and transition to a pressure passing position. Simultaneously strip their sleeve grip to free your arm for establishing crossface or collar control.
@@ -233,6 +241,8 @@ Stuff the sweep early by breaking the collar grip with a two-on-one wrist peel o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Collar Sleeve Sweep?</p>
 
 ### 1. Leaning forward into the collar pull instead of sitting hips back and widening base
 
@@ -262,6 +272,8 @@ Stuff the sweep early by breaking the collar grip with a two-on-one wrist peel o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Collar Sleeve Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues without resistance
 Partner loads the Collar Sleeve Sweep in slow motion while you call out each component as you feel it: collar angle change, sleeve extension, foot on hip, hooking leg placement. Develop tactile awareness of the sweep's mechanical chain through repeated exposure without attempting any defense.
 
@@ -278,26 +290,6 @@ After successfully defending the sweep, immediately transition into a guard pass
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Collar Sleeve Sweep is being set up?
-**A**: The earliest cue is the angle of the collar pull changing from straight-back posture control to a 45-degree pull toward the sweeper's shoulder, indicating rotational force loading. Combined with feeling the sleeve grip extend your arm fully, these early grip-based cues appear before the leg components are loaded, giving you the maximum intervention window to disrupt the sweep before it becomes dangerous.
-
-**Q2**: Which defensive option provides the best risk-to-reward ratio against the Collar Sleeve Sweep?
-**A**: Breaking the collar grip early provides the best risk-to-reward ratio because it removes the primary force generator while keeping you in a relatively safe position. Without the collar grip, the sweeper cannot create the rotational torque needed for success regardless of their leg positioning. The risk of temporarily committing both hands to the grip break is manageable if you maintain base through your legs, and it avoids the triangle vulnerability of posting or back-take risk of backstepping.
-
-**Q3**: How should you adjust your base and weight distribution when you recognize the sweep is loading?
-**A**: Widen your knees and drive your hips backward to lower your center of gravity below the sweeper's force vectors. Distribute weight primarily through the base-side leg opposite the sweep direction while keeping hips heavy and centered. Avoid loading weight onto the sleeve-controlled side where you cannot post effectively. Keep your chest elevated and spine upright rather than allowing the collar pull to fold you forward, as forward lean amplifies the sweep's rotational effectiveness.
-
-**Q4**: Your opponent has fully loaded the sweep with all components in place—what is your best last-resort defense?
-**A**: Post your free hand wide in the sweep direction to catch your weight and halt the momentum. Immediately after posting, recover your arm by pulling your elbow tight to your body to prevent the triangle follow-up the sweeper will attempt. Simultaneously drive your hips forward to flatten the sweeper and disrupt their follow-through. This is a last resort because it creates triangle vulnerability, but it is preferable to being swept to bottom position where you concede points and positional advantage.
-
-
-
-</section>
 
 
 </main>

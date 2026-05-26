@@ -204,9 +204,9 @@ The Leg Drag to Back Take is a cornerstone technique in modern guard passing sys
 
 - [[Transitions/Leg Drag Pass]] - Entry technique used to establish the starting leg drag control position
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat available after achieving back control
+- [[Submissions/Rear Naked Choke]] - Primary submission threat available after achieving back control
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available from the achieved back control position
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission available from the achieved back control position
 
 - [[Transitions/Leg Drag Pass to Side Control]] - Alternative transition when opponent stays flat instead of turning away
 

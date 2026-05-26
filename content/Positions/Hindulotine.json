@@ -185,7 +185,7 @@
         "duration": "10 minutes"
       },
       {
-        "name": "Top Position Pressure and Weight Distribution",
+        "name": "Top Position Pressure and Center of Gravity",
         "description": "Start in established top Hindulotine with partner giving 50% resistance. Experiment with different weight distributions, hip angles, and leg positions to understand which configurations create maximum pressure while maintaining stability. Partner provides feedback on pressure and balance.",
         "duration": "10 minutes"
       },
@@ -261,7 +261,7 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": 31
       },
       {
@@ -289,7 +289,7 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Hindulotine Choke Finish",
+        "transition": "Hindulotine from Hindulotine",
         "attempt_probability": 4
       },
       {
@@ -297,7 +297,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What weight distribution maintains maximum choking pressure while preventing sweeps from top Hindulotine?",
         "answer": "Distribute weight through your hips and chest onto opponent's upper back while maintaining a wide base with at least one leg posted far from your body. Your weight should angle forward and downward through the grip rather than sitting back, using gravity to assist the choke while the wide base prevents roll attempts."
@@ -532,7 +532,7 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": 32
       },
       {
@@ -568,7 +568,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What hip angle creates maximum rotational pressure from bottom Hindulotine?",
         "answer": "Position your hips at approximately 45-90 degrees perpendicular to opponent's spine rather than directly underneath them. This angle allows your core rotation to generate torque on the neck rather than relying on pulling straight back. The further you angle your hips toward their choking-arm side, the more rotational pressure you create."

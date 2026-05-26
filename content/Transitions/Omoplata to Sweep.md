@@ -205,9 +205,9 @@ The omoplata to sweep represents a critical connection point in any comprehensiv
 ## Related Techniques
 
 
-- [[Transitions/Omoplata]] - Primary submission threat that creates sweep opportunity through defensive reactions
+- [[Submissions/Omoplata]] - Primary submission threat that creates sweep opportunity through defensive reactions
 
-- [[Submissions/Omoplata from Guard]] - Initial setup technique for establishing omoplata control before sweep
+- [[Transitions/Closed Guard to Omoplata]] - Common entry technique establishing omoplata control from closed guard before sweep
 
 - [[Transitions/Omoplata to Back]] - Alternative transition when opponent rolls aggressively and exposes back
 
@@ -215,9 +215,9 @@ The omoplata to sweep represents a critical connection point in any comprehensiv
 
 - [[Transitions/Flower Sweep]] - Alternative sweep option from similar guard positions
 
-- [[Submissions/Armbar from Guard]] - Alternative submission from omoplata control if sweep fails
+- [[Transitions/Baratoplata Setup]] - Alternative shoulder submission setup from omoplata control if sweep is denied
 
-- [[Submissions/Triangle from Closed Guard]] - Complementary attack creating guard offensive system
+- [[Transitions/Triangle Setup]] - Complementary attack from guard creating offensive dilemma system
 
 - [[Positions/Mount]] - Primary ending position after successful sweep
 
@@ -227,7 +227,7 @@ The omoplata to sweep represents a critical connection point in any comprehensiv
 
 - [[Positions/Omoplata Control]] - Starting control position from which sweep is initiated
 
-- [[Submissions/Rolling Omoplata]] - Dynamic entry variation that combines entry with immediate sweep momentum
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Dynamic entry variation that combines entry with immediate sweep momentum
 
 
 </section>

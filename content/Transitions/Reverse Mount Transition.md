@@ -200,7 +200,7 @@ The Reverse Mount Transition expands your North-South attack options by providin
 
 - [[Positions/Reverse Mount]] - Target position achieved through this transition
 
-- [[Submissions/Armbar from Mount]] - Primary submission follow-up from reverse mount
+- [[Transitions/Armbar from Reverse Mount]] - Primary submission follow-up available immediately after achieving reverse mount
 
 - [[Transitions/North-South Choke]] - Alternative submission from starting position
 

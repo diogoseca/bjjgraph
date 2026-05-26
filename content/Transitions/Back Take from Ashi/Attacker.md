@@ -192,6 +192,8 @@ The back take from ashi has become increasingly important in modern competition 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Ashi?</p>
+
 - Recognize when opponent's defensive posture creates back exposure by sitting up or reaching toward you
 - Maintain control of trapped leg throughout transition to prevent complete escape and preserve attacking options
 - Use opponent's forward momentum against them by redirecting rather than resisting their defensive movement
@@ -206,6 +208,8 @@ The back take from ashi has become increasingly important in modern competition 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Ashi?</p>
+
 - Inside Ashi-Garami established with inside leg across opponent's hip and outside leg hooking behind their knee
 - Opponent sitting up aggressively or reaching forward toward your legs creating back exposure
 - Opponent's heel defended or rotated away making immediate leg attack submission unlikely
@@ -218,6 +222,8 @@ The back take from ashi has become increasingly important in modern competition 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Ashi step by step?</p>
 
 1. **Recognize the trigger**: Identify when opponent sits up to address leg control or reaches forward to create defensive frames, exposing their back as they shift weight toward you.
 2. **Secure upper body connection**: Before releasing any leg control, reach with your inside arm to secure a grip on opponent's far shoulder, collar, or underhook position to establish upper body control.
@@ -247,6 +253,8 @@ The back take from ashi has become increasingly important in modern competition 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Ashi?</p>
+
 - **Opponent immediately stands and runs away when they feel leg control release** (Effectiveness: High) - Your Response: Maintain grip on their leg or pants as you transition, using their standing motion to pull yourself up to standing back control or immediately shooting for takedown → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent turns into you and establishes closed guard as you release leg control** (Effectiveness: Medium) - Your Response: Keep your inside leg ready to backstep and prevent guard closure, or accept closed guard top position as still advantageous compared to failed leg lock → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent sprawls hard and pushes your upper body away preventing back connection** (Effectiveness: Medium) - Your Response: Return to leg entanglement immediately by re-establishing inside ashi control since opponent's sprawl often re-exposes their leg for submission attacks → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
@@ -258,6 +266,8 @@ The back take from ashi has become increasingly important in modern competition 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Ashi?</p>
 
 ### 1. Releasing leg control before establishing upper body grip on opponent
 
@@ -292,6 +302,8 @@ The back take from ashi has become increasingly important in modern competition 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Ashi (Attacker)?</p>
+
 **Week 1-2** - Mechanical pathway
 Practice the transition sequence without resistance, focusing on the order of operations: recognize trigger, secure upper body, release inside leg, circle, establish hooks. Drill 50 repetitions per side per session.
 
@@ -309,48 +321,12 @@ Apply technique in positional sparring starting from inside ashi. Both partners 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals the correct moment to initiate the back take from ashi?
-**A**: The primary trigger is when your opponent commits their weight forward - specifically when they sit up aggressively to address your leg control, reach forward to strip your grips on their heel, or lean toward you while defending heel exposure. This forward weight commitment shifts their center of gravity away from their back and creates the exposure necessary for the transition. Without this trigger, forcing the back take typically results in losing both the leg entanglement and the back take opportunity.
-
-**Q2**: What position do you start Back Take from Ashi from and what must be established?
-**A**: This technique starts from Inside Ashi-Garami with you in the top/controlling position. You must have your inside leg across opponent's hip and outside leg hooking behind their knee, with established control of their trapped leg. The opponent's heel should be effectively defended or rotated away, making immediate leg attack submission unlikely, which creates the strategic motivation to transition.
-
-**Q3**: What are the grip transitions required from start to finish during this technique?
-**A**: You begin with whatever grips control the trapped leg in ashi, typically a C-grip or figure-four on the heel. Before releasing leg control, you must secure upper body connection with at least one arm reaching to opponent's far shoulder, collar, or establishing an underhook. During the circling phase you maintain the outside leg hook as your primary anchor. Final grips are seatbelt configuration with one arm over the shoulder and one under the armpit, hands clasped together at the sternum.
-
-**Q4**: Your opponent is defending your heel hook by keeping their knee rotated away but maintains a low, compact posture without sitting up - what should you do?
-**A**: Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails.
-
-**Q5**: What is the correct sequencing for releasing leg control and why does this order matter?
-**A**: Always secure upper body grip first before releasing any leg control. Then release your inside leg from across their hip while maintaining the outside leg hook as an anchor. Use the freed inside leg to push off the mat and circle toward their back. Only release the outside leg hook after the first back hook is inserted and the seatbelt is established. This sequencing ensures continuous control at every phase - if you release leg control before establishing upper body connection, the opponent has a clean window to escape with no tether to them.
-
-**Q6**: Your opponent stands up explosively as you initiate the back take - how do you adjust?
-**A**: Maintain any grip on their leg, pants, or upper body and use their standing motion to pull yourself up to standing back control rather than trying to pull them back down. Their base is compromised during the explosive stand, so a single leg takedown attempt is also viable. If you have good outside leg connection near their hip, consider inverting for a Kiss of the Dragon entry which uses their upward momentum against them. The key principle is redirecting their energy rather than fighting it.
-
-**Q7**: What is the most critical hip movement during the circling phase and what happens if you skip it?
-**A**: The critical movement is a hip escape away from the opponent's centerline combined with a circular arc toward their back. This creates the angular approach necessary to arrive at their side before transitioning fully behind them. If you skip this and move directly behind them in a straight line, the opponent can simply rotate to face you as fast as you move around them, resulting in a scramble where you lose both ashi position and the back take angle. The angular approach forces them to choose between addressing your movement and protecting their back.
-
-**Q8**: Your opponent sprawls hard as you begin the transition and pushes your upper body away - what is the optimal recovery?
-**A**: Immediately return to leg entanglement by re-establishing inside ashi control. The opponent's sprawl often paradoxically re-exposes their leg for submission attacks because their hips extend away from you while their leg remains within reach. Re-grip the heel and re-establish your inside leg across their hip. This defensive reaction from them is actually a reset to a favorable position for you - they burned energy sprawling and now must restart their heel defense while you still control their leg. The sprawl counter is medium effectiveness precisely because it solves the immediate back take but often worsens the leg lock defense.
-
-**Q9**: How does the back take from ashi create a systematic dilemma for the defender?
-**A**: The dilemma operates on two axes. First, to defend heel hooks the opponent must rotate their knee away and address your grip, which typically requires sitting up or reaching forward - exactly the trigger that enables the back take. Second, to prevent the back take they must maintain a low, compact posture without extending toward you, which leaves their heel exposed to continued leg attack threats. They cannot simultaneously keep their heel safe and their back safe. This forces them into a constant decision loop where addressing one threat opens the other, and each defensive adjustment gives you information about which attack to pursue.
-
-**Q10**: What determines whether you should finish via the standard back take, the crab ride variant, or the chair sit variant?
-**A**: The standard back take works when the opponent sits up or reaches forward from a grounded position, providing a clean circling path to their back. The crab ride variant is optimal when the opponent is on all fours or has turtled, since you can maintain shin-across-hip control as a lever while circling behind them without fully releasing leg entanglement. The chair sit variant works best when the opponent drives heavy forward pressure to remove your leg control, since their momentum carries them past you and you can sit directly to their hip on the weak side. Read the opponent's body position and weight distribution to select the highest-percentage variant.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Ashi?</p>
 
 This transition involves releasing leg control and moving dynamically to opponent's back, which carries lower injury risk than most leg lock positions but requires controlled practice. Primary safety concerns include avoiding explosive movements that could torque opponent's knee as you release leg control, and ensuring controlled descent when taking opponent to mat from back position. Practice initially at slow speed to develop the timing and pathway. When drilling with resistance, communicate clearly about intensity levels. The transition itself does not apply joint stress but careless execution during release of leg control could strain opponent's knee if their leg is still entangled during explosive movement.
 

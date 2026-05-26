@@ -166,6 +166,8 @@ Effective defense also requires having contingency plans when partial reversals 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse the entanglement to Outside Ashi?</p>
+
 - Bottom player reaches across your body with their far hand attempting to grip your far knee or lower thigh, indicating they are establishing the primary reversal grip
 - Bottom player turns onto their side facing you and angles their hips approximately 45 degrees, creating the rotation platform needed for the hip switch
 - Bottom player begins pumping their trapped knee toward their chest with limp leg mechanics rather than pulling explosively, signaling systematic leg extraction rather than panic escape
@@ -177,6 +179,8 @@ Effective defense also requires having contingency plans when partial reversals 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse the entanglement to Outside Ashi?</p>
 
 - Deny the far leg grip by keeping your legs tight and your far knee away from the bottom player's reaching hand
 - Maintain forward hip pressure into the entanglement to prevent the bottom player from creating the rotation angle needed for the reversal
@@ -190,6 +194,8 @@ Effective defense also requires having contingency plans when partial reversals 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse the entanglement to Outside Ashi?</p>
 
 ### 1. Widen base and post hands to block rotation
 
@@ -227,6 +233,8 @@ Effective defense also requires having contingency plans when partial reversals 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse the entanglement to Outside Ashi?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Deny the far leg grip early by keeping your far knee tight and away from their reaching hand. Maintain forward hip pressure to prevent hip angle creation. When you detect the reversal setup, widen your base and drive your weight into the entanglement to flatten the bottom player. Strip any grips they establish on your far leg immediately. Re-tighten your leg crossing configuration and resume your submission attack sequence.
@@ -242,6 +250,8 @@ When the bottom player commits to the reversal and partially clears their trappe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse the entanglement to Outside Ashi?</p>
 
 ### 1. Focusing exclusively on submission attacks without monitoring bottom player's reversal setup
 
@@ -271,6 +281,8 @@ When the bottom player commits to the reversal and partially clears their trappe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse the entanglement to Outside Ashi?</p>
+
 **Week 1-2** - Recognition and early intervention
 Partner slowly executes reversal setup from Leg Knot Bottom at 25% speed. Practice identifying each recognition cue: far hand reaching, hip angle creation, limp leg extraction. Focus on recognizing each stage and calling it out verbally before implementing physical defense. Build awareness before reactions.
 
@@ -287,29 +299,6 @@ Full positional rounds starting from Leg Knot with both players pursuing their o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up the reversal to Outside Ashi?
-**A**: The earliest cue is the bottom player reaching across your body with their far hand to grip your far knee or lower thigh. This grip is the foundational requirement for the reversal. Before they can rotate, they must first control your far leg to prevent counter-rotation. Detecting and denying this grip attempt is the most efficient point to shut down the reversal.
-
-**Q2**: Your bottom opponent has turned onto their side and established a 45-degree hip angle - what is the most effective response at this stage?
-**A**: At this stage, forward driving pressure is still effective because the hip switch has not yet been committed. Drive your hips into the entanglement while widening your base and posting your hands to block rotation. Simultaneously, use your hand to strip their far leg grip if they have one. The goal is to flatten them back and eliminate the hip angle before they can initiate the decisive 180-degree rotation.
-
-**Q3**: Why is counter-rotating toward Saddle a better response than trying to maintain Leg Knot once the reversal is partially committed?
-**A**: Once the bottom player has cleared their trapped leg and committed to the hip switch, attempting to maintain the original Leg Knot configuration requires fighting against their rotational momentum. Counter-rotating toward Saddle works with the available momentum rather than against it, using the space created by their movement to advance to a more dominant entanglement. This transforms their offensive action into a positional upgrade for you.
-
-**Q4**: How should you balance pursuing your own submissions from Leg Knot Top with monitoring the bottom player's reversal setup?
-**A**: Maintain dual awareness by keeping your submission attack cadence while monitoring two specific indicators: the bottom player's far hand position and their hip orientation. If their far hand stays in a defensive posture protecting their heel, you can focus on attacking. If their far hand begins reaching across toward your far leg or their hips begin turning onto their side, immediately pause your attack and address the reversal threat before it develops.
-
-**Q5**: The bottom player has secured your far leg grip but has not yet created a hip angle - what is your priority?
-**A**: Your immediate priority is stripping the far leg grip before they can create the hip angle. Use your free hand to peel their fingers from your knee or thigh, targeting their thumb side for maximum grip-breaking efficiency. Simultaneously, increase forward pressure to flatten their hips and prevent the angle creation that enables the rotation. Once the grip is broken, re-tighten your entanglement and resume attacking, knowing they will likely attempt the grip again.
-
-
-
-</section>
 
 
 </main>

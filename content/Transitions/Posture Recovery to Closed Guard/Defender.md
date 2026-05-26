@@ -158,13 +158,15 @@ Successful defense requires recognizing the early warning signs of guard recover
 
 The strategic framework centers on a simple principle: deny space and maintain connection. Every guard recovery requires the bottom player to create space between your hips and theirs. Your defensive tools - heavy hip pressure, grip re-establishment, crossface control, and hook insertion - all serve to collapse that space before it becomes sufficient for guard insertion. When you feel the bottom player's frame against your body, that is your cue to intensify pressure rather than retreat.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery to Closed Guard?</p>
 
 - Bottom player posts a hand against your hip or shoulder creating a frame - this is the earliest indicator of imminent guard recovery
 - Bottom player's far hand reaches to strip your seatbelt, overhook, or collar tie grip on their near side
@@ -179,6 +181,8 @@ The strategic framework centers on a simple principle: deny space and maintain c
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Posture Recovery to Closed Guard?</p>
+
 - Maintain heavy hip pressure on opponent's lower back to deny the space needed for hip escape and rotation
 - Re-establish grips immediately when stripped - the grip strip is the earliest warning of a guard recovery attempt
 - Drive forward into frames rather than allowing them to create separation distance
@@ -192,6 +196,8 @@ The strategic framework centers on a simple principle: deny space and maintain c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery to Closed Guard?</p>
 
 ### 1. Drive hips forward and re-establish controlling grip immediately when feeling frame establishment or grip strip
 
@@ -229,6 +235,8 @@ The strategic framework centers on a simple principle: deny space and maintain c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery to Closed Guard?</p>
+
 ### → [[Positions/Crackhead Control]]
 
 Maintain heavy hip pressure and immediately re-establish grips when stripped. Drive forward into frames to collapse them rather than allowing space creation. Use crossface to flatten the bottom player's posture before they can complete spinal alignment recovery.
@@ -244,6 +252,8 @@ Time hook insertion for the moment when the bottom player's elbows flare during 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery to Closed Guard?</p>
 
 ### 1. Backing away when feeling the bottom player's frame instead of driving forward into it
 
@@ -278,6 +288,8 @@ Time hook insertion for the moment when the bottom player's elbows flare during 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery to Closed Guard?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Partner attempts slow-motion guard recovery while you practice identifying frame establishment, grip strips, and hip escape initiation. Focus on maintaining heavy hip pressure and immediately re-establishing grips when stripped. No hook insertion yet - just maintain turtle control against the recovery attempts.
 
@@ -294,29 +306,6 @@ Full positional sparring starting from Crackhead Control top. Defend all guard r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt Posture Recovery to Closed Guard?
-**A**: The earliest cue is feeling their near-side hand post against your hip or shoulder to establish a frame. This frame creation is the prerequisite for every guard recovery variation and indicates the bottom player is transitioning from defensive movement to committed escape. Recognizing and responding to the frame within the first half-second is the key defensive advantage.
-
-**Q2**: Why should you drive forward into the bottom player's frame rather than backing away from it?
-**A**: Driving forward collapses the frame and denies the space the bottom player needs for hip escape. Backing away creates exactly the separation distance their technique requires - you are essentially doing their work for them. Your top position weight advantage means a committed forward drive should overwhelm a single-arm frame, resetting them to defensive turtle.
-
-**Q3**: When is the optimal moment to insert a hook during the bottom player's guard recovery attempt?
-**A**: The optimal moment is during the hip escape phase when the bottom player's elbows flare away from their ribs to facilitate the rotation movement. This elbow separation creates the gap between their arm and body that your foot needs to enter. Inserting before they commit means your foot gets trapped; inserting after the rotation completes means they are already closing guard. The mid-rotation window is narrow but decisive.
-
-**Q4**: Your opponent has established a strong frame and stripped your seatbelt grip - what is your immediate recovery sequence?
-**A**: First, drive your hips forward aggressively to maintain pressure and deny space despite the lost grip. Second, use your freed hand to immediately apply crossface pressure to flatten their posture and destroy the effectiveness of their frame. Third, re-establish your controlling grip on their far-side arm or shoulder while maintaining the crossface and hip pressure. Never chase the stripped grip - redirect to crossface control which addresses the more immediate threat.
-
-**Q5**: How do you prevent the bottom player from using your forward drive to accelerate their guard closure?
-**A**: Keep your weight driving through your hips onto their lower back rather than committing your chest over their shoulder line. When you drive forward with hips, your center of gravity stays behind the point where they need to rotate under you. If you over-commit your upper body forward past their shoulders, they can use that momentum to pull you over and into their guard. The distinction is hip drive versus upper body lean - hip drive maintains control, upper body lean gets exploited.
-
-
-
-</section>
 
 
 </main>

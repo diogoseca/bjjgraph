@@ -156,6 +156,8 @@ As the defender, you are the top player in half butterfly working to prevent the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Butterfly to Dogfight?</p>
+
 - Bottom player's arm threads around your torso seeking the underhook, particularly on the butterfly hook side where it provides maximum leverage for the transition
 - Butterfly hook foot plants firmly on the mat with heel drawn toward their hip, indicating the hook is being loaded as a spring for elevation
 - Bottom player begins turning onto their side toward you, rotating their chest to face your body rather than the ceiling—this angle change precedes the elevation drive
@@ -167,6 +169,8 @@ As the defender, you are the top player in half butterfly working to prevent the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Butterfly to Dogfight?</p>
 
 - Deny the underhook as your first priority—without it, the bottom player cannot generate the forward drive needed for the transition
 - Maintain heavy forward chest pressure to reduce the space available for the bottom player to turn and load their butterfly hook
@@ -181,6 +185,8 @@ As the defender, you are the top player in half butterfly working to prevent the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Butterfly to Dogfight?</p>
 
 ### 1. Drive heavy crossface and sprawl hips back to flatten the bottom player before they can complete the elevation
 
@@ -211,6 +217,8 @@ As the defender, you are the top player in half butterfly working to prevent the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Butterfly to Dogfight?</p>
+
 ### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Apply immediate crossface pressure and whizzer control at the first sign of the underhook attempt. Maintain heavy chest pressure and keep your hips low to deny the space needed for the bottom player to turn and load their butterfly hook. Strip the underhook by driving your shoulder across their face and swimming your arm inside.
@@ -226,6 +234,8 @@ When the bottom player begins their elevation attempt, drive your weight forward
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Butterfly to Dogfight?</p>
 
 ### 1. Allowing the underhook to be established without immediately fighting for the whizzer or crossface
 
@@ -255,6 +265,8 @@ When the bottom player begins their elevation attempt, drive your weight forward
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Butterfly to Dogfight?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition setup cues
 Partner slowly sets up the dogfight entry from half butterfly while you practice identifying each cue in sequence: underhook attempt, hook loading, body rotation, head drive. Call out each cue as you recognize it. No resistance applied—focus purely on developing sensitivity to the tactile and visual indicators.
 
@@ -271,29 +283,6 @@ Full positional sparring from half butterfly top. Bottom player attempts dogfigh
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up the dogfight entry?
-**A**: The earliest cue is the underhook attempt—when you feel their arm threading around your torso on the butterfly hook side, this signals the transition setup has begun. This occurs before the hook loading, body rotation, and head drive that follow. Responding at this stage gives you the maximum time and positional advantage to shut down the transition, as the bottom player has not yet coordinated their other components.
-
-**Q2**: Why is the crossface the primary defensive tool against dogfight entries?
-**A**: The crossface prevents the bottom player from driving their head into your chest, which is the critical control point that anchors their forward and upward drive. Without head contact against your body, the bottom player's underhook and hook elevation lack a stable reference point and their force dissipates laterally rather than converting into effective elevation. The crossface also turns their face away from you, making it biomechanically difficult to generate the rotation needed to come to their knees.
-
-**Q3**: The bottom player has a deep underhook and is beginning to rise despite your whizzer—what adjustment prevents the sweep?
-**A**: When the whizzer alone is failing, immediately add hip pressure by driving your hips forward and low on the butterfly hook side to kill the hook's elevation angle. Simultaneously lower your level by bending your knees and driving your shoulder into their head or upper chest. If they continue rising, consider abandoning the whizzer fight and transitioning to a crossface from the opposite side to change the angle of resistance they must overcome.
-
-**Q4**: What is the most effective pressure angle to prevent the bottom player from elevating to dogfight?
-**A**: The most effective angle is a diagonal forward-and-downward drive with your chest and shoulder pressure aimed at the bottom player's upper chest and chin, combined with hips driving low and forward on the butterfly hook side. This diagonal pressure simultaneously pins their upper body to the mat and removes the butterfly hook's optimal lifting angle. Driving straight down is less effective because it loads directly into the hook's strongest lifting position.
-
-**Q5**: You successfully flatten the bottom player back down—what should you do immediately to prevent a second attempt?
-**A**: Immediately consolidate your position by establishing a strong crossface with your shoulder driving across their face, killing any space for re-pummeling the underhook. Strip their underhook by swimming your arm inside to establish your own underhook or overhook control. Drive your chest heavy onto their upper body and begin working to neutralize or extract the butterfly hook. The goal is to remove all three prerequisites for the transition—underhook, loaded hook, and side-facing angle—before they can rebuild their setup.
-
-
-
-</section>
 
 
 </main>

@@ -34,7 +34,7 @@ Understanding both perspectives of the Zombie position is essential for modern n
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Zombie is a transitional position, never a resting destination - constant movement required from both perspectives

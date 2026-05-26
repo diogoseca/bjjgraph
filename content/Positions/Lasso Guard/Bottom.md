@@ -177,6 +177,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lasso Guard (Bottom)?</p>
+
 - Your shin must be threaded across the opponent's arm between their elbow and shoulder, creating the characteristic lasso control
 - You maintain a tight sleeve grip on the lassoed arm with your hand on the same side as your lasso leg
 - Your hips remain mobile and angled perpendicular to the opponent to maximize leverage and sweep angles
@@ -188,6 +190,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Lasso Guard (Bottom)?</p>
 
 - Solid understanding of open guard fundamentals including hip movement, distance management, and grip fighting principles
 - Developed grip strength and endurance to maintain extended sleeve control against breaking attempts
@@ -202,6 +206,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Lasso Guard?</p>
+
 - Extend the lasso leg fully to create maximum leverage against the opponent's shoulder while pulling the sleeve grip toward your chest
 - Keep your hips active and mobile, constantly adjusting angles to prevent the opponent from settling their weight or establishing stable passing grips
 - Use your non-lasso leg dynamically to post on the hip when they pressure forward, hook the leg when they attempt to circle, or create spider pressure on the free arm
@@ -215,6 +221,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lasso Guard (Bottom)?</p>
 
 **If opponent maintains upright posture and attempts to break the sleeve grip while staying at distance:**
 - Execute **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** → [[Positions/Mount]] (Probability: 60%)
@@ -233,7 +241,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 **If opponent successfully begins to free their arm from the lasso control:**
 - Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 **If opponent circles around the lasso leg toward your non-lasso side:**
@@ -248,6 +256,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard?</p>
 
 ### 1. Allowing the lasso leg to bend or collapse, reducing the leverage and control over the opponent's arm
 
@@ -286,6 +296,8 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Lasso Guard defense?</p>
 
 ### Lasso Entry and Grip Maintenance Drill
 

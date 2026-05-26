@@ -10,7 +10,7 @@
     "advanced",
     "no-gi"
   ],
-  "from_position": "Aoki Lock/Top",
+  "from_position": "Aoki Lock Control/Top",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Aoki Lock/Top",
+      "to": "Aoki Lock Control/Top",
       "probability": 30,
       "result": "failure"
     },
@@ -38,7 +38,7 @@
   ],
   "related_content": [
     {
-      "name": "Aoki Lock",
+      "name": "Aoki Lock Control",
       "relationship": "Starting position for this transition"
     },
     {
@@ -46,7 +46,7 @@
       "relationship": "Target position achieved on success"
     },
     {
-      "name": "Aoki Lock Finish",
+      "name": "Aoki Lock",
       "relationship": "Alternative outcome from same starting position"
     },
     {
@@ -70,7 +70,7 @@
       "relationship": "High-percentage gi submission available from back control"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Alternative submission from back control"
     },
     {
@@ -140,7 +140,7 @@
         "counter": "Opponent turtles tight and blocks hook insertion by squeezing elbows to knees",
         "effectiveness": "High",
         "your_response": "Maintain seatbelt control and use a spiral ride or body lock to pry open space for hooks. Alternatively, transition to a body triangle or crucifix if hooks are denied.",
-        "targets_outcome": "Aoki Lock/Top"
+        "targets_outcome": "Aoki Lock Control/Top"
       },
       {
         "counter": "Opponent turns into you during the roll and recovers guard instead of giving their back",
@@ -152,7 +152,7 @@
         "counter": "Opponent sprawls and flattens to prevent the roll-through from progressing",
         "effectiveness": "Medium",
         "your_response": "If they refuse to roll and flatten out, re-engage the Aoki Lock pressure or transition to a truck entry by threading your legs through their hip space while they are belly-down.",
-        "targets_outcome": "Aoki Lock/Top"
+        "targets_outcome": "Aoki Lock Control/Top"
       },
       {
         "counter": "Opponent grabs your hands or wrists to prevent seatbelt establishment",
@@ -215,7 +215,7 @@
         "description": "Full positional sparring starting from Aoki Lock top. Choose between finishing the submission and transitioning to back control based on opponent's defensive reactions. Partner uses full resistance and varied escape strategies. Track conversion rate to back control versus successful Aoki Lock finishes."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that tells you to abandon the Aoki Lock and transition to back control?",
         "answer": "The primary trigger is feeling the opponent commit to a rolling escape or turning away from the shoulder pressure. When they shift their weight forward, rotate their hips, or begin extracting their arm, this defensive movement creates the momentum you need to follow them to back control. Attempting the transition before they commit wastes a viable submission opportunity."
@@ -281,7 +281,7 @@
       {
         "action": "Turn into opponent and recover guard during the grip release window",
         "when_to_use": "Immediately when you feel shoulder lock pressure release and before opponent establishes seatbelt, during the brief transition gap when their hands are between grips",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "You face your opponent and recover to closed guard or half guard, completely negating the back take and resetting to a neutral guard position",
         "risk": "If you turn too late after seatbelt is established, opponent follows your rotation and maintains back control. Turning into a partially set seatbelt can expose your neck to choke attacks"
       },
@@ -295,7 +295,7 @@
       {
         "action": "Sprawl and flatten to prevent the roll-through from completing",
         "when_to_use": "When you feel the opponent beginning to follow your roll but you have not yet committed fully to the rolling escape, allowing you to reverse direction and flatten belly-down",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "You stall the transition and force opponent back to the Aoki Lock position or create a neutral scramble where neither player has dominant control",
         "risk": "Flattening belly-down with opponent on top can lead to back mount if they maintain chest-to-back connection, and may re-expose you to the shoulder lock if they re-engage their original grip"
       },
@@ -309,7 +309,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Aoki Lock/Top",
+        "outcome": "Aoki Lock Control/Top",
         "how": "Turn into your opponent during the transition window when they release the shoulder lock grip. Time the turn to coincide with the grip release and drive your hips toward them to recover guard. Alternatively, sprawl and flatten to stall the roll-through, forcing them back to the original position where you can restart your shoulder lock defense."
       },
       {
@@ -344,7 +344,7 @@
         "correction": "When possible, turn into your opponent to face them. This denies back exposure and forces them to deal with you head-on rather than attacking from behind. Turning toward is counterintuitive but mechanically superior"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Aoki Lock to a back take?",
         "answer": "The earliest cue is a sudden release or significant reduction of shoulder lock pressure while your opponent maintains or increases body contact. When the rotational shoulder pressure disappears but their chest drives forward into your back, they have abandoned the submission and are initiating the back take. This tactile shift from rotational to linear pressure is the primary early warning signal."

@@ -182,6 +182,8 @@ As the attacker executing this transition, your objective is to convert the perp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kesa Gatame to Modified Scarf Hold?</p>
+
 - Maintain constant pressure throughout the transition with zero gaps in chest contact
 - Walk hips forward incrementally rather than jumping to the new position
 - Keep the near arm trapped throughout the entire transition sequence
@@ -197,6 +199,8 @@ As the attacker executing this transition, your objective is to convert the perp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kesa Gatame to Modified Scarf Hold?</p>
+
 - Secure Kesa Gatame with opponent's head controlled and near arm trapped under your armpit
 - Opponent is flat on their back with shoulders pinned to the mat
 - Far leg is posted wide providing stable base for the upcoming weight shift
@@ -208,6 +212,8 @@ As the attacker executing this transition, your objective is to convert the perp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kesa Gatame to Modified Scarf Hold step by step?</p>
 
 1. **Tighten near-arm control**: Before initiating the transition, squeeze your armpit tight on the opponent's trapped near arm and pull their head toward your hip with your head-control arm. This secures the two primary anchors that must remain intact throughout the entire transition. Confirm you feel their arm bone locked against your ribs.
 2. **Begin hip walk forward**: From your seated Kesa Gatame position, start walking your hips forward toward the opponent's far hip using small steps with your posted far leg. Each step should be no more than a few inches. Your near leg simultaneously slides forward along the opponent's body. Maintain your arm grips unchanged during this phase.
@@ -236,6 +242,8 @@ As the attacker executing this transition, your objective is to convert the perp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kesa Gatame to Modified Scarf Hold?</p>
+
 - **Bottom player bridges explosively during hip walk phase** (Effectiveness: High) - Your Response: Immediately widen your posted leg and drive your weight down. If the bridge is too strong, abandon the transition and re-establish Kesa Gatame with hips sunk low. Do not fight the bridge from an unstable mid-transition position. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Bottom player turns into you to attack your back during weight shift** (Effectiveness: Medium) - Your Response: Accelerate the transition by dropping your chest weight immediately onto their sternum, using their turn to help you settle into Modified Scarf Hold. Their turn actually assists your chest placement if you are fast enough to capitalize. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Bottom player extracts near arm and inserts knee shield during transition gap** (Effectiveness: High) - Your Response: If they get the knee in, do not force Modified Scarf Hold. Instead, transition to knee cut pass or float to knee on belly. Trying to smash through an established knee shield from mid-transition wastes energy and risks losing position entirely. → Leads to [[Positions/Half Guard]]
@@ -247,6 +255,8 @@ As the attacker executing this transition, your objective is to convert the perp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kesa Gatame to Modified Scarf Hold?</p>
 
 ### 1. Releasing near-arm control before chest pressure is established
 
@@ -286,6 +296,8 @@ As the attacker executing this transition, your objective is to convert the perp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kesa Gatame to Modified Scarf Hold (Attacker)?</p>
+
 **Phase 1: Static Positioning** - Understanding the start and end positions
 Practice assuming Kesa Gatame and Modified Scarf Hold separately with a cooperative partner. Focus on identifying the five control points in each position and understanding what changes between them. No resistance, emphasis on body awareness.
 
@@ -306,42 +318,12 @@ Positional rounds starting from Kesa Gatame. Top player's goal is to achieve Mod
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you maintain near-arm control throughout the entire transition from Kesa Gatame to Modified Scarf Hold?
-**A**: The trapped near arm is the bottom player's primary framing tool. If released during the transition, they can immediately post on your chest or hip to create space, insert a knee shield to recover half guard, or push your chest away to prevent the Modified Scarf Hold from consolidating. The near arm must remain squeezed under your armpit from start to finish because the transition creates a vulnerable moment during the weight shift.
-
-**Q2**: Your opponent starts turning their back toward you during the hip walk phase - should you abort or continue?
-**A**: Continue and accelerate the transition. When the opponent turns their back toward you, they are actually helping you establish chest-to-chest contact because their turn brings their torso under your descending chest. Drop your weight immediately onto their sternum and complete the Modified Scarf Hold. Their turn-in is only dangerous in static Kesa Gatame; during this transition it works in your favor because you are already moving your chest over their body.
-
-**Q3**: What is the most critical mechanical detail that separates a successful transition from a failed one?
-**A**: Continuous pressure with zero gaps during the weight transfer. The transition fails when there is any moment of reduced pressure that allows the bottom player to insert frames, bridge, or initiate hip escapes. Your chest must maintain contact and downward force at every millimeter of the hip walk forward. Think of it as pouring your weight from your hips onto your chest rather than lifting and resettling.
-
-**Q4**: How does your base change from Kesa Gatame to Modified Scarf Hold and why does this matter?
-**A**: In Kesa Gatame, your base comes from your seated hips and posted far leg with weight distributed laterally. In Modified Scarf Hold, your base shifts to your toes with weight driving vertically through your chest into the opponent's sternum. This matters because the vertical pressure of Modified Scarf Hold is far more oppressive for breathing restriction and energy drain, but requires active toe posts for mobility rather than the stable seated base of Kesa Gatame.
-
-**Q5**: Your opponent explosively bridges just as you begin lowering your chest - how do you respond?
-**A**: Immediately abandon the transition and reset to secure Kesa Gatame. Widen your posted far leg for maximum base, sink your hips back to the seated position, and ride out the bridge. Do not attempt to force the transition through a strong bridge because you are in a compromised mid-transition position with reduced base. Once the bridge subsides and they flatten back out, restart the transition sequence from step one.
-
-**Q6**: What grip or control replaces the Kesa Gatame head wrap when you complete the transition?
-**A**: The Kesa Gatame arm that wrapped around the opponent's head must immediately convert to either a cross-face (forearm across their jaw pushing their face away from you) or an underhook on their far arm. This conversion must happen the instant your chest weight is established on their sternum. The cross-face prevents them from turning toward you, while the underhook prevents them from turning away. Both options replace the rotational control the head wrap provided.
-
-**Q7**: When would you choose the gradual pressure walk variant over the quick switch variant?
-**A**: Use the gradual pressure walk against passive opponents who are not actively threatening escapes or back takes. This methodical approach minimizes risk and allows you to verify control at each micro-step. Use the quick switch when the opponent is actively turning into you to attack your back from Kesa Gatame bottom. The quick switch converts their escape attempt into your positional upgrade, but it carries more risk of creating pressure gaps if your timing is off.
-
-**Q8**: Your opponent manages to free their near arm and inserts a knee shield during your transition - what should you do?
-**A**: Do not force Modified Scarf Hold through an established knee shield. Instead, accept the half guard position and transition to a half guard passing sequence such as knee cut pass, or float up to knee on belly. Fighting to smash through a knee shield from a mid-transition position wastes significant energy and often results in the opponent recovering full guard. Recognize the counter early and flow to the next positional opportunity rather than stubbornly pursuing the original plan.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kesa Gatame to Modified Scarf Hold?</p>
 
 This transition is low-risk for injury as it involves positional control rather than joint locks or chokes. However, the chest pressure in Modified Scarf Hold can restrict breathing significantly. Be attentive to training partners who tap from pressure and release immediately. During drilling, use controlled pressure and communicate with your partner about comfort levels. Avoid driving your chin or forehead aggressively into your partner's face during the head pressure phase, as this can cause cuts and bruises that are unnecessary in training.
 

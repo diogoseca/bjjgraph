@@ -173,6 +173,8 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ashi Garami (Top)?</p>
+
 - Opponent controls at least one of your legs with their leg entanglement configuration
 - You maintain base through standing, kneeling, or seated posture rather than flat positioning
 
@@ -182,6 +184,8 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Ashi Garami (Top)?</p>
 
 - Understanding of leg lock submission mechanics and injury risks to recognize danger and tap appropriately
 - Fundamental leg lock defense principles including heel protection and inside space denial
@@ -195,9 +199,11 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Ashi Garami?</p>
+
 - **Inside Space Denial**: Prevent opponent from establishing inside space control that enables their positional advancement up the hierarchy
 - **Heel Protection Priority**: Maintain straight leg alignment or hidden heel position to prevent opponent heel exposure and finishing mechanics
-- **Base Maintenance**: Preserve standing or kneeling base to prevent flat positions that enhance opponent's control and finishing opportunities
+- **Base**: Preserve standing or kneeling base to prevent flat positions that enhance opponent's control and finishing opportunities
 - **Systematic Extraction**: Clear leg entanglement through mechanical sequences rather than explosive ripping that exposes heel to finishing mechanics
 - **Counter-Attack Recognition**: Identify offensive opportunities when opponent overcommits to advancement or submission attempts, transforming defense into offense
 
@@ -207,6 +213,8 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Ashi Garami (Top)?</p>
 
 **If opponent maintains Outside Ashi with inferior inside space control and loose connection points:**
 - Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
@@ -221,7 +229,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 **If opponent achieves Saddle with heel exposure threatening immediate submission finish:**
 - Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
 - Execute **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
-- Execute **[[Tap recognition/Attacker|Tap recognition]]** → [[Positions/Game Over]] (Probability: 35%)
+- Execute **[[Tap recognition/Attacker|Tap recognition]]** → [[game-over]] (Probability: 35%)
 
 
 **If opponent loses connection points during advancement attempt or transitional movement:**
@@ -246,6 +254,8 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Ashi Garami?</p>
 
 ### 1. Explosive ripping leg extraction attempts that expose heel during forceful movement against entanglement
 
@@ -284,6 +294,8 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Ashi Garami attacks?</p>
 
 ### Positional Hierarchy Defense Drill
 

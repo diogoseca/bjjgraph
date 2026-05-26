@@ -154,6 +154,8 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Double Sleeve Guard?</p>
+
 - Passer begins rotating their wrist or posting elbow on your hip, indicating an imminent grip break attempt on that side
 - Passer steps laterally creating an angle rather than remaining directly in front, signaling they are setting up a passing lane
 - Passer sits hips back aggressively while pulling arms, indicating they are establishing base before committing to a pass
@@ -166,6 +168,8 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Double Sleeve Guard?</p>
 
 - Maintain constant bilateral grip tension with elbows close to body and wrists curled inward for maximum grip strength
 - Keep feet active on hips, biceps, or shoulders, adjusting placement to follow the passer's lateral movement
@@ -181,6 +185,8 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Double Sleeve Guard?</p>
 
 ### 1. Re-grip immediately after opponent breaks sleeve control
 
@@ -218,6 +224,8 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Double Sleeve Guard?</p>
+
 ### → [[Positions/Double Sleeve Guard]]
 
 Maintain constant bilateral grip tension with active feet that follow the passer's movement. Deepen grips at the cuff whenever possible, and counter each grip break attempt by pulling elbows to your ribs and curling wrists inward. Re-grip within one to two seconds of any break.
@@ -233,6 +241,8 @@ Time sweep attempts when the passer commits weight to a grip break or passing di
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Double Sleeve Guard?</p>
 
 ### 1. Releasing grip tension when not actively being attacked, allowing the passer to break grips easily
 
@@ -262,6 +272,8 @@ Time sweep attempts when the passer commits weight to a grip break or passing di
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Double Sleeve Guard?</p>
+
 **Phase 1: Grip Retention Under Pressure** - Maintaining bilateral sleeve control against increasing grip break intensity
 Partner attempts progressively harder grip breaks (30%, 50%, 70%, 100% effort) while you practice grip retention mechanics including elbow positioning, wrist curling, and leg extension. Focus on energy-efficient retention rather than maximum strength. 2-minute rounds with increasing intensity.
 
@@ -278,26 +290,6 @@ Positional sparring starting from double sleeve guard with the bottom player usi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive action when you feel your opponent breaking your sleeve grip?
-**A**: Immediately pull your elbow tight to your ribs and curl your wrist inward to reinforce the grip structure. Simultaneously extend your legs to push the opponent away, which makes their rotational grip break less effective because they are being stretched while trying to rotate. If the grip does break, your priority shifts to re-gripping within one to two seconds or transitioning to an alternative guard configuration.
-
-**Q2**: How do you decide whether to fight for re-gripping versus transitioning to a different guard?
-**A**: If the grip break happened within the last two seconds and the passer has not yet established their own control grip on your leg, fight to re-grip because the position is still recoverable. If the passer has already secured a controlling grip on your leg or established an angle, transition immediately to spider guard, lasso guard, or half guard because fighting for double sleeve from a compromised position wastes energy and delays your defense.
-
-**Q3**: Your opponent creates a strong lateral angle after breaking one grip — what is your defensive priority?
-**A**: Your immediate priority is to follow their angle with your hips by hip escaping in the same direction they moved. This keeps your legs between you and the passer rather than allowing them to pass around your leg barrier. Simultaneously, use your remaining sleeve grip to pull them back toward center and attempt to re-square your hips to face them. If you cannot re-square, transition to a half guard or knee shield position on the side they are passing toward.
-
-**Q4**: When is the optimal moment to attempt a sweep against a passer working from double sleeve guard top?
-**A**: The optimal sweep window occurs when the passer commits their weight to a grip break or passing direction, momentarily compromising their base. When they reach forward with one hand to break your grip, their posting ability is reduced. When they step laterally for an angle, their base narrows in the perpendicular direction. When they lean forward to establish pressure, their backward base is weakened. Time your sweep to exploit whichever base compromise their action creates.
-
-
-
-</section>
 
 
 </main>

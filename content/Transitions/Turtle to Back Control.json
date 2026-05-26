@@ -76,7 +76,7 @@
       "relationship": "High-percentage gi submission from completed back control position"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Alternative submission when opponent over-defends neck from back control"
     },
     {
@@ -265,7 +265,7 @@
         "description": "Practice flowing between turtle to back, truck entries, crucifix, front headlock submissions, and other attacks based on partner's defensive choices. Develop ability to recognize escape attempts early and transition seamlessly to appropriate counters. Include this position in regular rolling starting from turtle reset. Build a complete turtle top offensive system rather than isolated techniques."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?",
         "answer": "Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, the opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes from turtle."
@@ -403,7 +403,7 @@
         "correction": "Always combine grip fighting with hip movement. Every time you strip a grip, immediately move your hips through escape motion. Grip fighting without hip movement is a losing battle of attrition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical defensive window for preventing the turtle to back control transition?",
         "answer": "The critical defensive window is the period before the attacker secures their first hook. Once both hooks are established with seatbelt control, you are in full back control facing a much more difficult escape scenario. All defensive actions should be concentrated in the phase before hook insertion, specifically targeting the attacker's seatbelt grip and hip control. The most effective defenses are executed within the first three to five seconds of feeling chest contact from behind."
@@ -432,7 +432,7 @@
         "description": "Partner establishes top turtle at various speeds while you practice recognizing each phase of their attack: chest contact, seatbelt attempt, hip block, flatten attempt. Focus on maintaining tight elbows-to-knees structure and chin tuck throughout. Partner provides verbal cues for each attack phase to build pattern recognition. No escape attempts yet, purely defensive structure and recognition."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Seatbelt Prevention",
+        "phase": "Week 3-4: Grips and Seatbelt Prevention",
         "focus": "Actively disrupting the attacker's control establishment through hand fighting",
         "description": "Partner attempts to establish seatbelt from top turtle with moderate intensity. Practice two-on-one grip stripping, wrist control, and elbow framing to prevent seatbelt from locking. Drill specific hand positions for controlling the choking arm. Partner increases speed and grip intensity each session. Begin combining grip fighting with minor hip adjustments."
       },

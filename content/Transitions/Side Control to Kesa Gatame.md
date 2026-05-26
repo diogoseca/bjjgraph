@@ -210,9 +210,9 @@ The transition to Kesa Gatame occupies a critical position within the side contr
 
 - [[Transitions/Side Control to North-South]] - Alternative transition when opponent defends the Kesa Gatame rotation
 
-- [[Transitions/Americana]] - Primary submission available from established Kesa Gatame position
+- [[Submissions/Americana]] - Primary submission available from established Kesa Gatame position
 
-- [[Transitions/Kimura]] - High-percentage submission chain from Kesa Gatame arm control
+- [[Submissions/Kimura]] - High-percentage submission chain from Kesa Gatame arm control
 
 - [[Transitions/Arm Triangle]] - Submission accessible when opponent defends arm isolation during transition
 

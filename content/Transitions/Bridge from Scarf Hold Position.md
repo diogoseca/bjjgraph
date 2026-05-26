@@ -214,9 +214,9 @@ The bridge from scarf hold sits within the scarf hold bottom escape hierarchy as
 
 - [[Positions/Side Control/Modified Scarf Hold]] - Related position variant requiring adjusted arm trap for bridge reversal
 
-- [[Submissions/Americana from Kesa Gatame]] - Submission threat that creates timing windows for the bridge reversal when opponent attacks
+- [[Submissions/Americana]] - Submission threat from scarf hold top that creates timing windows for the bridge reversal when opponent attacks
 
-- [[Submissions/Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to execute bridge reversal before attack develops
+- [[Transitions/Arm Triangle]] - Submission threat from scarf hold top motivating urgency to execute bridge reversal before attack develops
 
 
 </section>

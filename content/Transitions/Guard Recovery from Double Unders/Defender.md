@@ -154,6 +154,8 @@ As the top player defending against guard recovery attempts from double unders, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Double Unders?</p>
+
 - Bottom player's hands move to your jawline, face, or neck to establish forearm frames for separation
 - Bottom player's hips begin turning to one side rather than remaining flat under your stacking pressure
 - Increased leg activity and resistance against your underhook control as they attempt to create slack for extraction
@@ -166,6 +168,8 @@ As the top player defending against guard recovery attempts from double unders, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Double Unders?</p>
 
 - Maintain constant forward pressure through chest-to-thigh contact to prevent frame creation and space generation
 - Keep underhook grip connection tight with elbows against your own ribs to deny the bottom player space for leg extraction
@@ -180,6 +184,8 @@ As the top player defending against guard recovery attempts from double unders, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Double Unders?</p>
 
 ### 1. Increase forward chest pressure and drive through their frame attempts
 
@@ -217,6 +223,8 @@ As the top player defending against guard recovery attempts from double unders, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Double Unders?</p>
+
 ### → [[Positions/Double Unders]]
 
 Maintain relentless forward pressure with tight elbow connection throughout their recovery attempt. Drive through their frames rather than retreating, keeping chest weight on their thighs at all times. Re-grip quickly if any slack develops in your underhook connection. Their failed recovery attempt will exhaust them, weakening subsequent escape attempts.
@@ -232,6 +240,8 @@ Capitalize on the bottom player's hip escape and frame creation by walking your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Double Unders?</p>
 
 ### 1. Backing away from the bottom player's forearm frames instead of driving through them
 
@@ -261,6 +271,8 @@ Capitalize on the bottom player's hip escape and frame creation by walking your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Double Unders?</p>
+
 **Phase 1: Pressure Maintenance Awareness** - Recognizing recovery attempt indicators and maintaining pressure response
 Partner attempts guard recovery at 40% resistance while you focus on recognizing the early cues of frame creation, hip turning, and leg extraction. Practice maintaining continuous forward pressure without allowing any separation. Build awareness of the pressure rhythm and when recovery windows open.
 
@@ -277,26 +289,6 @@ Full resistance positional sparring where partner successfully frees one leg. Pr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early indicators signal that the bottom player is about to attempt guard recovery from double unders?
-**A**: Key indicators include the bottom player's hands moving to your jawline to establish frames, their hips beginning to turn to one side rather than staying flat, increased leg resistance as they create slack for extraction, and their breathing pattern shifting to explosive preparation. Recognizing these cues within the first one to two seconds allows you to preemptively increase pressure before the recovery sequence develops fully.
-
-**Q2**: How should you adjust your pressure response when the bottom player establishes strong forearm frames against your face?
-**A**: Drive your forehead into their forearms while simultaneously walking your knees forward and increasing chest-to-thigh pressure. The frames cannot overcome your full body weight if you keep advancing progressively. Avoid the instinct to pull your head back, which creates the separation they need. Lower your level and drive with your hips while maintaining tight underhook grip beneath their legs.
-
-**Q3**: Your opponent successfully frees one leg during their guard recovery attempt - what immediate response prevents full recovery?
-**A**: Immediately shift your remaining underhook grip to control the freed leg at the knee or ankle while maintaining your underhook on the other side. Transition from double underhook control to an over-under or leg weave configuration which maintains passing pressure even with one leg freed. Drive forward on the still-controlled side to prevent them from establishing a complete guard structure with the freed leg acting as a barrier.
-
-**Q4**: When is the optimal moment to advance your pass rather than continuing to fight for double unders maintenance against recovery attempts?
-**A**: Advance the pass when the bottom player's escape attempt creates momentary exhaustion or when their frames collapse after a failed recovery attempt. The recovery window between their explosive escape efforts presents ideal passing opportunities because they briefly relax from the effort. Walk your knees past their hips during this fatigue phase and immediately transition to side control establishment before they can mount another recovery attempt.
-
-
-
-</section>
 
 
 </main>

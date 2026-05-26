@@ -47,8 +47,8 @@
       "relationship": "Parent position system containing Truck"
     },
     {
-      "name": "Calf Slicer from Truck",
-      "relationship": "Primary submission follow-up from Truck"
+      "name": "Calf Slicer",
+      "relationship": "Primary submission follow-up from Truck position"
     },
     {
       "name": "Banana Split",
@@ -79,7 +79,7 @@
       "relationship": "Related Truck entry variant"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Related Twister system submission"
     }
   ],
@@ -224,7 +224,7 @@
         "description": "During sparring, work from standing back control and read whether the opponent stays standing, drops defensively, or fights grips. Apply the Truck entry when the drop occurs, and pursue alternative attacks when it does not. Focus on the full decision tree: choke if standing, Truck if dropping, mat return if resisting. Chain Truck entries into Twister, Calf Slicer, and Banana Split attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Truck Position Entry from standing back control?",
         "answer": "The primary goal is to convert a dominant standing back control position into the Truck, bypassing the turtle position entirely and immediately accessing the Twister system of attacks including Twister, Calf Slicer, Banana Split, and alternative back takes. This transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following to standard grounded back control."
@@ -357,7 +357,7 @@
         "correction": "Drive your hips low and flat toward the mat as you descend. Keep your knees close together and your hips square to your shoulders. The goal is to eliminate the space between your inner thighs and the mat that the attacker needs for hook threading."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the three elements the attacker needs to complete the Truck Position Entry, and how can you disrupt each one?",
         "answer": "The attacker needs a controlled descent, a threaded leg hook, and a completed roll. Disrupt the descent by maintaining standing position or controlling your own drop to a squared, flat turtle. Disrupt the hook by keeping hips flat with elbows tucked or stripping the hook with your hands before it crosses your centerline. Disrupt the roll by sitting through to face the attacker or driving your hips flat to the mat to create friction that prevents the lateral rolling motion."

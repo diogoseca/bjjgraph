@@ -234,7 +234,7 @@
         "description": "Engage in full-intensity standing-only rounds where both partners attempt takedowns. Focus on creating multiple setup opportunities through movement, grip fighting, and pressure. Chain double leg setups with other takedown attempts, using failed entries as setups for subsequent attacks. Develop strategic understanding of when to pull guard versus when to continue pursuing takedowns based on point scoring and match context."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary purpose of establishing grip control before attempting a double leg setup?",
         "answer": "Grip control serves multiple functions: it prevents opponent from creating distance or frames, allows you to manipulate their posture and create reactions, limits their defensive options by controlling their upper body, and provides tactical information about their weight distribution and defensive tendencies. Without grips, opponent can easily move away from your attack line or establish defensive structures before you complete your penetration."
@@ -373,7 +373,7 @@
         "correction": "Use arms to post on their head and shoulders as supplementary control while your primary defense is the hip sprawl. Arms redirect their head position; hips stop their forward drive."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point in the double leg setup sequence where you can disrupt the attack with the lowest energy expenditure?",
         "answer": "The earliest and most energy-efficient disruption point is during the grip fighting phase, before the attacker establishes their preferred collar tie and wrist control configuration. By actively stripping grips as they form and denying the two-grip setup, you prevent the entire attack sequence from beginning. This costs far less energy than sprawling against a committed shot because you're addressing the cause rather than the effect. Effective hand fighting at this stage forces the attacker to repeatedly restart their setup, burning their energy while you remain in a neutral ready position."
@@ -406,7 +406,7 @@
         "description": "Practice maintaining proper athletic stance (knees bent, weight forward, hips loaded) during extended standing periods. Partner demonstrates each phase of the double leg setup at slow speed while you verbally identify each recognition cue: grip establishment, angle creation, level change. Develop the habit of staying in sprawl-ready position rather than standing upright. No live defense yet - focus entirely on recognition and stance maintenance."
       },
       {
-        "phase": "Week 3-4: Grip Fighting Defense",
+        "phase": "Week 3-4: Grips Defense",
         "focus": "Denying and breaking the attacker's grip configurations before the shot",
         "description": "Partner attempts to establish collar tie and wrist control setup grips while you actively hand fight to deny them. Practice two-on-one grip breaks for collar ties, wrist stripping techniques, and re-gripping for your own dominant positions. Start at 50% intensity and gradually increase. The goal is to prevent the attacker from ever completing their grip setup, eliminating the shot before it begins. Combine grip fighting with lateral footwork to deny angles simultaneously."
       },

@@ -154,6 +154,8 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery from Carni?</p>
+
 - Opponent's free hand moves to establish frame against your hip or ribcage indicating stacking setup
 - Forward shift in opponent's weight distribution as they begin driving hips forward through hip extension
 - Opponent begins stripping or fighting your heel and ankle grips with increased urgency
@@ -166,6 +168,8 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Recovery from Carni?</p>
 
 - Recognize stacking pressure early through hip and chest contact changes before forward drive builds momentum
 - Maintain active heel and ankle grip throughout the opponent's recovery attempt to preserve submission threat
@@ -180,6 +184,8 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery from Carni?</p>
 
 ### 1. Thread inside leg deeper to establish saddle entry hook as opponent drives forward
 
@@ -217,6 +223,8 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery from Carni?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's forward driving pressure to thread your inside leg deeper through their guard, establishing the saddle hook as their forward momentum carries them past the Carni position into the deeper entanglement
@@ -232,6 +240,8 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery from Carni?</p>
 
 ### 1. Fighting the stacking pressure with arm strength rather than using leg entanglement mechanics
 
@@ -261,6 +271,8 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery from Carni?</p>
+
 **Phase 1: Recognition** - Identifying posture recovery attempts early
 Partner performs posture recovery at slow speed while you practice recognizing the setup cues such as hand placement, weight shift, and grip fighting patterns. Call out the recognition before the partner completes the attempt. 20 repetitions focusing on timing awareness.
 
@@ -277,26 +289,6 @@ Positional sparring from Carni bottom with partner actively working all escape o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting posture recovery from Carni?
-**A**: The earliest cue is when the opponent's free hand moves to establish a frame against your hip or ribcage, indicating they are setting up a stacking base. This hand placement precedes the actual forward pressure by several seconds, giving you time to implement counter-measures. Secondary cues include forward weight shift and increased urgency in grip fighting against your heel control.
-
-**Q2**: How do you use the opponent's forward stacking pressure to advance to the saddle?
-**A**: As the opponent drives forward, their forward momentum creates space between their knees and opens their guard structure. Thread your inside leg deeper through this space, using their forward pressure to carry your hook past the point where they can retract. The key timing is threading the hook as they commit to the forward drive but before they achieve chest-to-chest contact that would compress you too much to complete the transition.
-
-**Q3**: When should you abandon Carni retention and default to closing your guard?
-**A**: Default to closing guard when the opponent has achieved deep stacking pressure with chest-to-chest contact and your inside leg hook has been cleared or is about to be cleared. At this point, attempting to maintain Carni or transition to saddle carries high risk of being passed entirely. Closing guard retains the opponent in your control system with sweep and submission opportunities, which is far preferable to being passed to side control.
-
-**Q4**: What is the risk of aggressively applying heel hook finish as the opponent drives forward with stacking pressure?
-**A**: Applying aggressive heel hook during dynamic forward pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force can cause sudden, uncontrollable knee ligament damage before either person can react to tap. The safer approach is to use the heel hook threat to stall forward pressure and create transition opportunities rather than attempting to finish during active stacking movement.
-
-
-
-</section>
 
 
 </main>

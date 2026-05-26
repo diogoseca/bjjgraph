@@ -162,6 +162,8 @@ Defending against the guard pass from New York Control requires understanding th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from New York Control?</p>
+
 - Top player begins rotating their trapped shoulder forward while pulling elbow toward their hip, indicating the start of angular overhook extraction
 - Top player steps their knee outward at an angle on the overhook side, creating rotational torque designed to loosen your arm control
 - Top player shifts weight laterally away from the overhook rather than driving forward, signaling a backstep or angle-based passing approach
@@ -174,6 +176,8 @@ Defending against the guard pass from New York Control requires understanding th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pass from New York Control?</p>
 
 - Maintain deep overhook control as the primary defensive anchor - shallow overhook enables extraction and initiates guard collapse
 - Active leg pressure across the opponent's back prevents posture recovery and maintains submission access throughout the exchange
@@ -188,6 +192,8 @@ Defending against the guard pass from New York Control requires understanding th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from New York Control?</p>
 
 ### 1. Deepen overhook and launch submission attack when feeling extraction pressure
 
@@ -225,6 +231,8 @@ Defending against the guard pass from New York Control requires understanding th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from New York Control?</p>
+
 ### → [[Positions/Rubber Guard/New York Control]]
 
 Deepen the overhook and increase leg pressure the moment you sense the extraction attempt beginning. Time your counter-grip to coincide with their shoulder rotation, pulling their arm back into the overhook while driving your knee across their back to reset the position with enhanced control depth.
@@ -240,6 +248,8 @@ When rubber guard structure is compromised beyond recovery, transition smoothly 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from New York Control?</p>
 
 ### 1. Maintaining passive overhook without active resistance when extraction pressure begins
 
@@ -269,6 +279,8 @@ When rubber guard structure is compromised beyond recovery, transition smoothly 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from New York Control?</p>
+
 **Phase 1: Recognition** - Identifying pass initiation cues before extraction begins
 From New York Control, partner begins pass attempts while you focus solely on recognizing the extraction cues including shoulder rotation, knee stepping, and weight shifting. Develop the ability to identify the precise moment the pass begins so you can deploy counters at the earliest possible stage.
 
@@ -285,29 +297,6 @@ Begin in New York Control with partner working full pass sequence at competition
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a guard pass attempt from New York Control is beginning?
-**A**: The earliest cue is the top player rotating their trapped shoulder forward while pulling their elbow toward their hip. This angular extraction movement is the initiating action of the entire pass sequence and must be recognized immediately to deploy effective counter-measures before the overhook is compromised beyond recovery.
-
-**Q2**: Why is transitioning to an alternative rubber guard position sometimes better than fighting to maintain the overhook?
-**A**: Fighting a compromised overhook wastes energy and allows the top player to methodically complete extraction against weakening resistance. Proactive transition to Mission Control, Invisible Collar, or Crackhead Control preserves your overall guard structure and offensive capability while denying the top player the completed extraction they need to begin the leg clearance phase.
-
-**Q3**: How does the triangle opportunity arise during the top player's overhook extraction attempt?
-**A**: During extraction, the top player must rotate their shoulder and pull their elbow away from your body, creating temporary separation between their arm and torso. This separation is exactly the space needed for triangle entry. By shooting your leg across their neck while their arm is partially withdrawn, you exploit the extraction movement itself as the setup for your submission counter.
-
-**Q4**: What should you do if both the overhook and leg control are simultaneously compromised?
-**A**: Immediately close your guard by withdrawing your leg from their shoulder and locking ankles behind their waist. This emergency recovery prevents the pass from completing. While you lose the rubber guard offensive platform, you retain guard retention and can work to re-establish attacking positions from the relative safety of closed guard.
-
-**Q5**: When is the optimal moment to launch a submission counter during the opponent's pass attempt?
-**A**: The optimal moment is during the transition between the overhook extraction phase and the leg clearance phase. At this point, the top player has freed their arm but has not yet addressed the leg control, and their focus is shifting between objectives. This brief window of divided attention makes them vulnerable to triangle, omoplata, or gogoplata entries that exploit their transitional positioning.
-
-
-
-</section>
 
 
 </main>

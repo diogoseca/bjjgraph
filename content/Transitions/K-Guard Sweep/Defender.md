@@ -154,6 +154,8 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting K-Guard Sweep?</p>
+
 - Bottom player increases inverted hook tension noticeably, pulling your trapped leg laterally with stronger directional force than during retention
 - Butterfly hook pressure increases upward against your hip, creating a distinct lifting sensation that precedes the explosive sweep
 - Bottom player secures an underhook on your far side or adjusts their shoulder frame to create a steering connection for directional control
@@ -166,6 +168,8 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending K-Guard Sweep?</p>
 
 - Deny forward weight commitment by keeping hips back and base wide when sensing increased hook tension from the bottom player
 - Control the bottom player's far hip to anchor their position and prevent the rotational follow-through that converts off-balance into completed sweep
@@ -180,6 +184,8 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against K-Guard Sweep?</p>
 
 ### 1. Widen base and drop hips low to deny the elevation needed for the sweep
 
@@ -217,6 +223,8 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending K-Guard Sweep?</p>
+
 ### → [[Positions/K-Guard]]
 
 Neutralize the sweep attempt by widening base, dropping hips low, and controlling the bottom player's far hip to prevent rotational force generation. Maintain dominant grips and immediately begin systematic passing sequences while their guard structure is weakened from the failed offensive attempt.
@@ -232,6 +240,8 @@ Force the bottom player out of K-Guard entirely by backstepping the trapped leg,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending K-Guard Sweep?</p>
 
 ### 1. Pulling the trapped leg straight backward against the inverted hook tension
 
@@ -261,6 +271,8 @@ Force the bottom player out of K-Guard entirely by backstepping the trapped leg,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against K-Guard Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep loading cues and developing defensive awareness
 Partner loads K-Guard Sweep at slow speed while defender identifies visual and tactile cues including hook tension changes, underhook attempts, and weight shifting patterns. Practice base adjustment responses and weight redistribution without full resistance.
 
@@ -277,26 +289,6 @@ Full-speed positional sparring from K-Guard where defender works complete defens
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a K-Guard Sweep is being loaded for execution?
-**A**: The earliest cue is increased tension in both hooks simultaneously - you will feel the inverted hook pulling your trapped leg laterally with more force while the butterfly hook begins pressing upward against your hip with lifting intent. This loading phase typically occurs one to two seconds before the explosive sweep initiation. Recognizing this tension increase gives you time to widen your base and deny the forward weight commitment that feeds the sweep.
-
-**Q2**: Why is posting your hand on the mat considered a risky defensive option against the K-Guard Sweep?
-**A**: While hand posting prevents the immediate topple by creating a third base point, it exposes your posted arm to the bottom player's back take sequence. The bottom player can swim their underhook under your posted arm and circle behind you, converting your sweep defense into an even worse back control situation. If forced to post as emergency defense, immediately counter with a whizzer on the near side and drive the opponent flat to prevent the back take follow-up.
-
-**Q3**: How should you manage your weight distribution when you feel both hooks loading for a sweep attempt?
-**A**: Immediately shift your weight backward and widen your base, keeping your hips low and your center of gravity positioned behind the hook system rather than over it. Avoid committing any forward pressure, which directly feeds the sweep mechanism by loading the hooks. Control the bottom player's far hip with your near hand to prevent the rotational force generation, and use your chest to compress their butterfly hook without driving weight forward into the elevation zone.
-
-**Q4**: Your opponent attempts the K-Guard Sweep and you successfully defend - what immediate action prevents a follow-up attack?
-**A**: After defending the initial sweep, immediately re-establish dominant grips and forward pressure to prevent the bottom player from reloading hooks for another attempt or transitioning to secondary attacks like back takes or leg entanglements. Control their far hip, drive crossface pressure to flatten their spine, and begin systematic passing. The brief window after a failed sweep is your best opportunity to advance position, as their guard structure is temporarily weakened from the offensive commitment.
-
-
-
-</section>
 
 
 </main>

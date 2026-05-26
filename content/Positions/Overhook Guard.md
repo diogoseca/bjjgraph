@@ -32,7 +32,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep overhook with hand behind opponent's shoulder, not just around the arm
@@ -104,15 +104,15 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (21% of attempts)
 
-- **[[Submissions/Omoplata from Guard/Attacker|Omoplata from Guard]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** (11% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (11% of attempts)
 
-- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (13% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (13% of attempts)
 
 - **[[Transitions/Overhook Guard Sweep/Attacker|Overhook Guard Sweep]]** (5% of attempts)
 
@@ -183,7 +183,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (14% of attempts)
 
-- **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** (14% of attempts)
+- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (14% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
 
@@ -250,7 +250,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 - **[[Positions/Half Guard/Deep Half Guard]]** - Position that combines well with overhook for enhanced sweeping power
 
-- **[[Positions/Rubber Guard]]** - Advanced guard system that utilizes overhook principles with leg control
+- **[[Positions/Rubber Guard/Mission Control]]** - Advanced guard position that utilizes overhook principles with leg control
 
 - **[[Positions/Overhook Control]]** - Complementary control concept with similar arm positioning mechanics
 

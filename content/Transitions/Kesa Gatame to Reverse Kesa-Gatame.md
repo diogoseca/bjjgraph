@@ -216,9 +216,9 @@ This transition sits at the intersection of the scarf hold family and the broade
 
 - [[Transitions/Side Control to Mount]] - Alternative advancement option from the same starting position
 
-- [[Transitions/Kimura]] - Primary submission chain available after completing transition
+- [[Submissions/Kimura]] - Primary submission chain available after completing transition
 
-- [[Transitions/Americana]] - Secondary submission chain available from Reverse Kesa-Gatame
+- [[Submissions/Americana]] - Secondary submission chain available from Reverse Kesa-Gatame
 
 - [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variation in the pinning family
 

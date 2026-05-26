@@ -139,7 +139,7 @@
       },
       {
         "step_number": 5,
-        "action": "Secure Head Control",
+        "action": "Secure Head Position",
         "description": "As the shot is stuffed, transition one arm to wrap around your opponent's head and neck, establishing a chinstrap or overhook grip for front headlock control. Your other hand controls their far shoulder or tricep to prevent them from pulling their head free or circling away. This dual control creates a cage around their upper body that sets up your submission attack system."
       },
       {
@@ -233,7 +233,7 @@
         "description": "Full-speed standing sparring rounds where you specifically look for sprawl opportunities and track your success rate converting sprawls into front headlock control. Identify patterns in your timing — which shot types you sprawl best against, which angles give you trouble, and how your follow-up attacks perform at full resistance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the sprawl against a double leg shot?",
         "answer": "The optimal timing is the moment you recognize the opponent's level change, before they make contact with your legs. Early recognition allows you to drive your hips back preemptively, making their shot hit empty space. If you wait until they have already secured grip on your legs, the sprawl becomes significantly less effective because they have established mechanical advantage through penetration depth. Train to react to the level change itself rather than the grip — the visual cue of dropping hips is your trigger."
@@ -349,7 +349,7 @@
         "correction": "Escape perpendicular to the opponent's pressure by circling to either side or rolling forward. Moving at right angles to their force makes their weight distribution work against them and creates angles for escape"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?",
         "answer": "The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles."

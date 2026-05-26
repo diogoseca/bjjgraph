@@ -208,7 +208,7 @@ The armbar setup from double sleeve guard occupies a critical position in the op
 
 - [[Transitions/Triangle Setup]] - Alternative submission entry from the same double sleeve guard position creating offensive dilemma
 
-- [[Submissions/Armbar from Guard]] - Related submission technique sharing similar hip rotation and arm isolation mechanics
+- [[Transitions/Armbar from Clamp Guard]] - Related armbar transition sharing similar hip rotation and arm isolation mechanics from guard
 
 - [[Positions/Spider Guard]] - Related guard position with foot-on-bicep mechanics used in variant setups
 
@@ -216,9 +216,9 @@ The armbar setup from double sleeve guard occupies a critical position in the op
 
 - [[Positions/Collar Sleeve Guard]] - Alternative guard offering similar armbar entries with different grip configuration
 
-- [[Transitions/Omoplata]] - Chain attack when opponent bends arm to defend the armbar setup during rotation
+- [[Submissions/Omoplata]] - Chain attack when opponent bends arm to defend the armbar setup during rotation
 
-- [[Transitions/Armbar Finish]] - Follow-up transition from armbar control to complete the submission
+- [[Armbar from Armbar Control]] - Follow-up submission from armbar control to complete the finish
 
 
 </section>

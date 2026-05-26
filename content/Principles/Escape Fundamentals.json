@@ -41,7 +41,7 @@
       "description": "The ability to identify minimal space opportunities created by opponent's weight shifts or positional adjustments and immediately exploit them through insertion of frames or body repositioning. This skill involves heightened positional awareness and rapid decision-making under pressure."
     },
     {
-      "skill_name": "Angle Creation and Maintenance",
+      "skill_name": "Dominant Angles and Maintenance",
       "description": "Developing perpendicular or angular positions relative to opponent's pressure vectors, redirecting force rather than meeting it directly. This includes understanding how small angular adjustments compound into larger positional improvements and how to maintain gained angles against opponent's recorrection attempts."
     },
     {
@@ -63,9 +63,9 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Frame Creation",
+      "principle_name": "Frames",
       "relationship_type": "Prerequisite",
-      "description": "Frame Creation forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts."
+      "description": "Frames forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts."
     },
     {
       "principle_name": "Hip Escape Mechanics",
@@ -73,49 +73,49 @@
       "description": "Hip movement patterns are essential mechanical components of escape fundamentals, providing the primary means of generating distance and creating angles from bottom positions."
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Extension",
-      "description": "Escape Hierarchy builds upon escape fundamentals by providing positional priority system for determining which escapes to attempt based on current position's relative danger and opportunity."
+      "description": "Positional Hierarchy builds upon escape fundamentals by providing a priority system for determining which escapes to attempt based on current position's relative danger and opportunity."
     },
     {
-      "principle_name": "Pin Escape Methodology",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Extension",
-      "description": "Pin Escape Methodology applies escape fundamentals specifically to pinning positions, providing position-specific implementations of the universal escape principles."
+      "description": "Dealing with Pressure applies escape fundamentals specifically to pinning scenarios, providing position-specific methods for managing and redirecting opponent's weight during escape sequences."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Defensive Strategy works synergistically with escape fundamentals by providing overall defensive framework within which specific escape mechanics are deployed based on strategic objectives."
+      "description": "Defensive Concepts works synergistically with escape fundamentals by providing overall defensive framework within which specific escape mechanics are deployed based on strategic objectives."
     },
     {
-      "principle_name": "Space Management",
+      "principle_name": "Distance Control",
       "relationship_type": "Complementary",
-      "description": "Space Management principles directly support escape fundamentals by providing conceptual framework for understanding how space is created, maintained, and exploited during defensive sequences."
+      "description": "Distance Control principles directly support escape fundamentals by providing conceptual framework for understanding how space is generated, maintained, and exploited during defensive sequences."
     },
     {
-      "principle_name": "Shrimping",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Prerequisite",
-      "description": "Shrimping mechanics form the foundational movement pattern for executing hip escapes that create the space and angles necessary for all escape sequences."
+      "description": "Bridge and shrimp mechanics form the foundational movement patterns for executing hip escapes and explosive displacements that create the space and angles necessary for all escape sequences."
     },
     {
-      "principle_name": "Bridging Mechanics",
+      "principle_name": "Levers",
       "relationship_type": "Prerequisite",
-      "description": "Bridging provides essential explosive movement capability for creating vertical space and disrupting opponent's base during critical escape moments."
+      "description": "Leverage principles provide the mechanical foundation for generating maximum force from inferior positions, enabling effective frame pressure and hip movement without relying on muscular strength alone."
     },
     {
-      "principle_name": "Mount Escape Series",
+      "principle_name": "Position Chains",
       "relationship_type": "Extension",
-      "description": "Mount Escape Series represents specific application of escape fundamentals to mount position with detailed technical sequences and position-specific variations."
+      "description": "Position Chains represents the systematic linking of escape sequences where each recovery position creates opportunities for subsequent positional improvements or offensive transitions."
     },
     {
-      "principle_name": "Side Control Escapes",
+      "principle_name": "Transition Management",
       "relationship_type": "Extension",
-      "description": "Side Control Escapes apply escape fundamentals specifically to side control scenarios with techniques optimized for this particular pin structure."
+      "description": "Transition Management applies escape fundamentals to the critical moments between positions, ensuring smooth progression from inferior pins through escape sequences to recovered guard positions."
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Control Maintenance",
       "relationship_type": "Complementary",
-      "description": "Guard Retention principles complement escape fundamentals by preventing the need for escapes through proactive defensive positioning before pins are established."
+      "description": "Control Maintenance complements escape fundamentals by providing the framework for stabilizing recovered positions after successful escapes, preventing opponent from immediately reestablishing dominant control."
     },
     {
       "principle_name": "Energy Conservation",
@@ -347,7 +347,7 @@
   ],
   "related_content": [
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Core prerequisite skill that provides structural foundation for all escape fundamentals applications"
     },
@@ -357,39 +357,39 @@
       "relationship": "Essential mechanical component providing primary space and angle generation during escapes"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "Strategic framework that determines which escape fundamentals to apply based on positional priority"
     },
     {
-      "name": "Pin Escape Methodology",
+      "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Position-specific application of universal escape fundamentals to various pinning scenarios"
+      "relationship": "Position-specific application of universal escape fundamentals to managing opponent's weight and control in pinning scenarios"
     },
     {
-      "name": "Mount Escape Series",
-      "content_type": "Principle",
-      "relationship": "Specific implementation of escape fundamentals from mount position with detailed technical sequences"
+      "name": "Elbow Escape from Mount",
+      "content_type": "Transition",
+      "relationship": "Specific implementation of escape fundamentals from mount position using elbow-knee connection to recover guard"
     },
     {
-      "name": "Side Control Escapes",
-      "content_type": "Principle",
-      "relationship": "Application of escape fundamentals specifically to side control with position-specific variations"
+      "name": "Hip Escape to Guard",
+      "content_type": "Transition",
+      "relationship": "Core escape transition applying hip movement fundamentals to recover guard from side control and similar pins"
     },
     {
       "name": "Back Door Escape",
-      "content_type": "Principle",
+      "content_type": "Transition",
       "relationship": "Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives"
     },
     {
-      "name": "Space Management",
+      "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Complementary concept explaining how space is created, maintained, and exploited during defensive sequences"
+      "relationship": "Complementary concept explaining how space is generated, maintained, and exploited during defensive sequences"
     },
     {
       "name": "Elbow Escape to Guard",

@@ -162,6 +162,8 @@ As the defender (top player in closed guard), you must prevent the bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Closed Guard to Overhook Guard?</p>
+
 - Opponent breaks your posture aggressively with collar or head control and immediately reaches over your arm rather than threatening standard submissions
 - You feel your arm being threaded through as opponent wraps their arm over your tricep and begins reaching toward your back or lat
 - Opponent hip escapes to one side immediately after establishing any arm control, indicating they are creating the angle needed for overhook attacks
@@ -173,6 +175,8 @@ As the defender (top player in closed guard), you must prevent the bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Closed Guard to Overhook Guard?</p>
 
 - Maintain upright posture with elbows pinned to ribs to keep arms out of overhook range at all times
 - React immediately to any overhook attempt - early extraction requires minimal effort while delayed response allows consolidation
@@ -186,6 +190,8 @@ As the defender (top player in closed guard), you must prevent the bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Closed Guard to Overhook Guard?</p>
 
 ### 1. Immediate elbow retraction to strip shallow overhook before it consolidates
 
@@ -223,6 +229,8 @@ As the defender (top player in closed guard), you must prevent the bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Closed Guard to Overhook Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Strip the overhook early by retracting your elbow sharply to your hip before the grip consolidates, or use a corkscrew extraction to remove your arm while maintaining posture. Re-establish both hands on the opponent's hips or biceps and resume your guard passing strategy.
@@ -238,6 +246,8 @@ Stand up in base while the opponent commits to the overhook, using your elevated
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Closed Guard to Overhook Guard?</p>
 
 ### 1. Pulling arm straight backward to escape the overhook instead of using a spiraling corkscrew motion
 
@@ -267,6 +277,8 @@ Stand up in base while the opponent commits to the overhook, using your elevated
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Closed Guard to Overhook Guard?</p>
+
 **Recognition and Early Extraction** - Identifying overhook attempts and developing reflexive elbow retraction
 Partner establishes closed guard and attempts overhook entries at 30-40% speed. Focus on recognizing the threading motion within the first half-second and immediately retracting your elbow to your hip. 30 repetitions per side. Progress to 50% speed once recognition becomes reflexive.
 
@@ -280,29 +292,6 @@ Positional sparring from closed guard where partner's objective is to establish 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is setting up an overhook from closed guard?
-**A**: The earliest cue is aggressive posture breaking combined with their hand releasing a standard grip and reaching over the top of your arm rather than under or to the side. You will feel their forearm crossing over your tricep and their hand reaching toward your back. Additionally, if they hip escape to one side immediately after contacting your arm, they are creating the angle needed for effective overhook control. Early recognition within the first half-second of the threading motion allows trivial extraction.
-
-**Q2**: Why does pulling your arm straight backward fail to strip a consolidated overhook?
-**A**: The overhook grip is designed to catch and hold against backward pulling force. When you pull straight back, your arm drives deeper into the crook of their elbow joint, which functions like a hook that tightens under tension. The opponent's bicep and forearm create a V-shape that narrows as you pull backward, increasing friction and mechanical advantage. The correct extraction uses a corkscrew motion - rotating your shoulder forward while driving your elbow toward your hip - which exploits the open side of the V where the grip has minimal holding strength.
-
-**Q3**: Your opponent has established a deep overhook and you cannot immediately strip it. What is your best strategy to neutralize the position?
-**A**: If extraction is not immediately possible, focus on neutralizing the angle and preventing secondary control. Use your free hand to fight their opposite-side grip, preventing them from completing the control system. Drive your trapped-side shoulder into their chest to flatten them and eliminate the hip angle they need for sweeps. Widen your base to prevent off-balancing, and work the corkscrew extraction incrementally rather than in one explosive attempt. Alternatively, stand up in base where the overhook loses mechanical advantage due to the angle change.
-
-**Q4**: How should you adjust your arm positioning preemptively to make the overhook entry as difficult as possible?
-**A**: Keep your elbows pinned tight to your ribcage at all times in closed guard. Place your hands on the opponent's hips, biceps, or lapels - positions that keep your arms close to your body with elbows pointing down. Never reach deep inside the guard with an extended arm, as this creates the exact position the opponent needs for overhook entry. When you feel posture being broken, immediately tuck your elbows tighter rather than posting your arms forward. The less your arms extend away from your torso, the harder it is for the opponent to thread an overhook.
-
-**Q5**: Your opponent establishes the overhook and immediately threatens an overhook sweep. What is your counter?
-**A**: Base your free hand wide on the mat on the side opposite the overhook to create a posting point that absorbs the sweep's rotational force. Simultaneously drive your hips back and away from the overhook side to reduce the leverage of their pulling motion. Do not lean into the sweep direction as this adds to their momentum. If the sweep is strongly initiated, consider voluntarily posting and transitioning to a scramble or wrestling position rather than fighting the sweep from a compromised angle where you may be rolled directly into mount.
-
-
-
-</section>
 
 
 </main>

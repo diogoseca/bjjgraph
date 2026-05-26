@@ -162,6 +162,8 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Consolidate Mount?</p>
+
 - Attacker drops chest-to-chest and drives hips heavy immediately after achieving mount, signaling the beginning of the consolidation sequence
 - Attacker begins inserting grapevine hooks by threading feet inside your thighs, which eliminates bridging and hip escape power
 - Attacker swims arms inside your frames with elbow-to-elbow connection, indicating they are clearing defensive barriers before advancing to high mount
@@ -172,6 +174,8 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Consolidate Mount?</p>
 
 - Act immediately when mounted rather than freezing - the first 3-5 seconds offer the highest escape probability before weight is settled
 - Establish defensive frames using forearms on the hips and cross-face area before the attacker eliminates them
@@ -186,6 +190,8 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Consolidate Mount?</p>
 
 ### 1. Explosive bridge and hip escape before grapevines are inserted
 
@@ -223,6 +229,8 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Consolidate Mount?</p>
+
 ### → [[Positions/Mount]]
 
 Execute a properly set up upa reversal by trapping the attacker's arm and same-side foot, then explosively bridging toward the trapped side during a weight shift. This requires precise timing when the attacker reaches for grips or begins walking knees up.
@@ -238,6 +246,8 @@ Use frames on the hips combined with a strong hip escape to create enough space 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Consolidate Mount?</p>
 
 ### 1. Lying flat and passive after being mounted, waiting for the attacker to make a mistake
 
@@ -272,6 +282,8 @@ Use frames on the hips combined with a strong hip escape to create enough space 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Consolidate Mount?</p>
+
 **Week 1-2** - Recognition and reaction speed
 Partner achieves mount and begins consolidation sequence at 50% speed while you practice identifying each phase and selecting the correct defensive response for that phase
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from mount; chain all defensive too
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to begin your escape attempt within the first 3-5 seconds of being mounted?
-**A**: The first seconds after mount is achieved represent the highest escape probability because the attacker has not yet settled their weight, inserted grapevines, or eliminated your frames. Once the consolidation sequence progresses past the weight-settling and grapevine phase, escape probabilities drop dramatically because your bridging power, hip mobility, and framing ability are all compromised.
-
-**Q2**: Your opponent has settled mount and is beginning to insert grapevine hooks. What is your defensive priority?
-**A**: Your immediate priority is preventing the grapevines from being fully established. Straighten your legs and use heel pressure to push the attacker's feet outward before they can hook inside your thighs. If one grapevine is already in, focus on preventing the second while simultaneously framing on the hips and attempting a hip escape to the side of the free leg.
-
-**Q3**: How do you recognize when the attacker is transitioning from low mount consolidation to walking their knees toward high mount?
-**A**: The key recognition cues are: the attacker releases grapevines and begins shifting weight forward, you feel knee pressure advancing along your ribs toward your armpits, and the attacker's frames shift from controlling your arms at hip level to controlling your arms at shoulder level. This transition creates a brief window where the attacker's base is compromised as they move one knee at a time.
-
-**Q4**: What makes the upa escape a viable option during mount consolidation, and when should you avoid it?
-**A**: The upa is viable when you can trap the attacker's arm and same-side foot simultaneously, typically during a weight shift as they reach for grips or begin walking knees up. Avoid the upa when the attacker has wide base with grapevines fully inserted, as the trapped legs prevent the rolling motion. Also avoid it when neither arm nor foot can be properly trapped, as an incomplete upa wastes energy and exposes your back.
-
-**Q5**: Your opponent has eliminated your frames and is walking knees toward high mount. What is your last viable defensive option?
-**A**: At this late stage, your best option is to time an explosive hip escape to the moment the attacker lifts one knee to advance. As they shift weight to walk that knee up, their base becomes asymmetric for a split second. Use that instant to shrimp hard toward the side of the advancing knee, creating enough space to insert your elbow and then knee between bodies for half guard recovery.
-
-
-
-</section>
 
 
 </main>

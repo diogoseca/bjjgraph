@@ -200,7 +200,7 @@ The Back Take from Armbar occupies a critical junction in the submission chain h
 
 - [[Positions/Half Guard]] - Counter outcome position when opponent escapes during the transition window
 
-- [[Transitions/Armbar Finish]] - Alternative high-percentage finish from armbar control when opponent stops defending
+- [[Armbar from Armbar Control]] - Alternative high-percentage finish from armbar control when opponent stops defending
 
 - [[Transitions/Back Take]] - Related back take concept applied from various other positions
 

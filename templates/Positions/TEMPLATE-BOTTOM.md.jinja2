@@ -107,6 +107,8 @@ description: "{{ bottom.description }}"
 
 ## Position Definition
 
+<p class="section-subtitle">What is {{ position_name }} (Bottom)?</p>
+
 {% for invariant in bottom.state_invariants -%}
 - {{ invariant }}
 {% endfor %}
@@ -116,6 +118,8 @@ description: "{{ bottom.description }}"
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing {{ position_name }} (Bottom)?</p>
 
 {% for prereq in bottom.prerequisites -%}
 - {{ prereq }}
@@ -127,6 +131,8 @@ description: "{{ bottom.description }}"
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending {{ position_name }}?</p>
+
 {% for principle in bottom.key_principles -%}
 - {{ principle }}
 {% endfor %}
@@ -136,6 +142,8 @@ description: "{{ bottom.description }}"
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from {{ position_name }} (Bottom)?</p>
 
 {% for node in bottom.decision_tree -%}
 **{{ node.condition }}:**
@@ -151,6 +159,8 @@ description: "{{ bottom.description }}"
 
 ## Common Defensive Mistakes
 
+<p class="section-subtitle">What mistakes should you avoid when defending {{ position_name }}?</p>
+
 {% for error in bottom.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
 
@@ -165,6 +175,8 @@ description: "{{ bottom.description }}"
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train {{ position_name }} defense?</p>
+
 {% for drill in bottom.training_drills -%}
 ### {{ drill.name }}
 
@@ -178,19 +190,7 @@ description: "{{ bottom.description }}"
 
 </section>
 
-{% if bottom.knowledge_assessment %}
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-{% for qa in bottom.knowledge_assessment -%}
-**Q{{ loop.index }}**: {{ qa.question }}
-**A**: {{ qa.answer }}
-
-{% endfor %}
-
-</section>
-{% endif %}
+{# Flashcards rendered interactively by Flashcard component #}
 
 <section id="position-metrics" class="content-section">
 

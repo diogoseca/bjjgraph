@@ -223,7 +223,7 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 
 - [[Submissions/Straight Ankle Lock]] - Submission option - direct finish from established SLX
 
-- [[Submissions/Kneebar from Guard]] - Submission option - leg attack from entanglement
+- [[Transitions/Kneebar]] - Submission option - leg attack from entanglement
 
 - [[Positions/Standing Position]] - Starting position - where the technique initiates
 

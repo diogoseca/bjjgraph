@@ -20,38 +20,38 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Choke",
-      "text": "From this position, attempt Darce Choke. This technique is attempted in 48% of exchanges from this position.",
+      "name": "Execute Darce Choke from Darce Control",
+      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Anaconda Configuration",
-      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Control Maintenance",
-      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Position Definition
 
+<p class="section-subtitle">What is Darce Control (Top)?</p>
+
 - Top player's arm threaded under opponent's near arm and around the back of opponent's neck with hands locked in a figure-four or gable grip configuration on the far side of opponent's body establishing the fundamental darce control structure
 - Top player's chest and shoulder pressure driving into the side of opponent's head and trapped shoulder creating a wedge that prevents escape while simultaneously tightening the choke through compression
 - Opponent's near arm trapped between their own body and the choking arm creating the compression necessary for the darce choke mechanism to function effectively against the carotid arteries
@@ -181,6 +183,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Darce Control (Top)?</p>
 
 - Successful arm trap from front headlock, turtle, or scramble situation
 - Deep penetration of choking arm under opponent's armpit to neck
@@ -195,6 +199,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Darce Control?</p>
+
 - Maintain deep arm penetration with elbow past opponent's spine and hand reaching toward far hip
 - Drive shoulder pressure into the side of opponent's head to close the choke and prevent escape
 - Keep hips mobile and positioned to prevent opponent from rolling through or turning into the position
@@ -208,6 +214,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Darce Control (Top)?</p>
+
 **If opponent keeps elbows tight and chin tucked, defending the choke finish:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
@@ -215,11 +223,11 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 **Else if opponent attempts to roll through or turn into the choke:**
 - Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
@@ -230,6 +238,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Darce Control?</p>
 
 ### 1. Failing to maintain deep arm penetration with elbow past opponent's spine
 
@@ -264,6 +274,8 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Darce Control attacks?</p>
+
 ### Darce Grip Entry Repetition
 
 Partner starts in turtle position. Practitioner works to establish deep darce grip from various front headlock angles, focusing on arm penetration depth and grip security. Reset and repeat 10 times per side, emphasizing hand reaching past opponent's far hip before locking grip.
@@ -296,38 +308,6 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What adjustment should you make when your opponent starts turning their shoulders toward you while you have Darce control?
-**A**: When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure.
-
-**Q2**: What are the essential grip configurations for maintaining Darce control position?
-**A**: The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction.
-
-**Q3**: Your opponent tucks their chin and brings their elbows tight to their body - what is your best response?
-**A**: When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities.
-
-**Q4**: How should your weight be distributed to maintain Darce control position effectively?
-**A**: Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability.
-
-**Q5**: What is the primary escape your opponent will attempt and how do you shut it down?
-**A**: The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction.
-
-**Q6**: How do you apply shoulder pressure correctly from Darce control top?
-**A**: Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression.
-
-**Q7**: Your opponent explosively bridges to create space - what adjustment should you make?
-**A**: When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension.
-
-**Q8**: How do you manage energy expenditure while maintaining Darce control for extended periods?
-**A**: Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

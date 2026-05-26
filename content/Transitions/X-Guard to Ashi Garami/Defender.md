@@ -162,6 +162,8 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting X-Guard to Ashi Garami?</p>
+
 - Opponent releases their bottom hook from your hip while maintaining their top hook above your knee, creating an asymmetric control that signals reconfiguration rather than sweep attempt
 - You feel a hip escape movement away from your free leg as opponent creates perpendicular angle, accompanied by a rotation of their shoulders away from being directly underneath you
 - Opponent's hands begin migrating from your ankle or pant leg toward your heel, shifting from sweep-oriented grips to submission-oriented grips
@@ -174,6 +176,8 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X-Guard to Ashi Garami?</p>
 
 - Recognize the transition attempt at its earliest stage, before inside leg position is established, by monitoring your opponent's bottom hook activity
 - Maintain forward pressure and low base to deny the backward weight shift that creates the transition window
@@ -188,6 +192,8 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against X-Guard to Ashi Garami?</p>
 
 ### 1. Immediate leg extraction by driving your knee forward and pulling your foot back while their bottom hook is released
 
@@ -225,6 +231,8 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending X-Guard to Ashi Garami?</p>
+
 ### → [[Positions/X-Guard]]
 
 Extract your trapped leg during the transition window when opponent releases their bottom hook. Drive your knee forward assertively while pulling your foot back, then immediately advance to a passing position before they can re-establish guard hooks. Alternatively, step over their incoming inside leg before it crosses your centerline to deny Ashi configuration entirely.
@@ -240,6 +248,8 @@ Drive forward pressure to collapse their hip escape angle, forcing them back int
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X-Guard to Ashi Garami?</p>
 
 ### 1. Pulling your trapped leg straight backward in a panic reaction when you feel the transition beginning
 
@@ -274,6 +284,8 @@ Drive forward pressure to collapse their hip escape angle, forcing them back int
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against X-Guard to Ashi Garami?</p>
+
 **Phase 1: Recognition Drilling (Weeks 1-2)** - Identifying transition attempts versus sweep attempts from X-Guard top
 Partner establishes X-Guard and alternates between sweep attempts and Ashi transition attempts without telling you which is coming. Your only task is to verbally call out which attack is being initiated the moment you recognize it. No defensive movement yet, purely building pattern recognition speed. Aim for 90% correct identification within 1 second of initiation. This builds the neural recognition patterns needed for real-time defense.
 
@@ -290,29 +302,6 @@ Begin positional sparring from X-Guard top with full resistance from both player
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting this transition rather than a standard X-Guard sweep?
-**A**: The earliest cue is the release of the bottom hook from your hip while the top hook remains engaged above your knee. In a standard X-Guard sweep, both hooks work together to create elevation and directional force. When the bottom hook releases unilaterally, it signals a reconfiguration attempt rather than a sweep. You may also feel the characteristic hip escape movement as they begin creating perpendicular angle. A sweep attempt maintains bilateral hook engagement; a transition attempt creates asymmetric hook configuration. Recognizing this asymmetry within the first second gives you the maximum defensive window.
-
-**Q2**: Why is pulling your trapped leg backward the worst defensive response, and what should you do instead?
-**A**: Backward leg extraction extends your leg into their control zone, shifts your weight onto your back heel, and creates exactly the conditions the attacker needs: an extended leg with accessible heel and a defender whose balance is compromised backward. Instead, drive your knee forward and down to collapse the X-Guard structure and deny them the extended leg they need for Ashi configuration. Forward knee drive shortens the distance between your heel and your hip, making heel control harder, while simultaneously driving pressure into their body that disrupts their hip escape angle. If you must disengage, step laterally rather than pulling straight backward.
-
-**Q3**: At what point during the transition does defending become dramatically more difficult, and why?
-**A**: The critical threshold is when the attacker's inside leg crosses your centerline and their heel grip consolidates. Before this point, you can step over their threading leg, extract your trapped leg, or drive forward pressure to reset. After this point, their inside leg blocks your primary rotation escape, their heel grip creates immediate submission threat, and their outside leg controls your knee line. The position transitions from 'disrupting an attempt' to 'escaping an established position,' which requires entirely different and lower-percentage defensive strategies. This is why early recognition and immediate defensive response is so critical.
-
-**Q4**: Your opponent has established partial Ashi with inside leg across your hip but has not yet secured your heel - what is your best defensive action?
-**A**: Immediately address the heel. Tuck your foot behind your own buttock by bending your knee maximally, making your heel as inaccessible as possible. Simultaneously use both hands to control their wrists or forearms, preventing them from reaching your heel. From this defensive shell, work to clear their inside leg from your hip by pushing it down and stepping over. Without heel control, the Ashi position lacks finishing capability, buying you time to systematically deconstruct their leg configuration. Do not attempt to stand or posture up, as this extends your leg and exposes the heel.
-
-**Q5**: How should you adjust your defensive strategy when facing an opponent who threatens both sweeps and Ashi entries from X-Guard?
-**A**: The dual-threat system creates a dilemma where defending sweeps (staying heavy forward) enables Ashi entries, and defending Ashi (pulling leg back) enables sweeps. The solution is to avoid both extremes by maintaining a moderate forward-leaning posture with active grip fighting. Rather than committing to one defensive strategy, stay mobile and address each threat as it presents. Specifically, maintain moderate forward pressure with wide base to resist sweeps, keep your knee bent with heel retracted to deny Ashi entries, and use grip fighting to prevent your opponent from establishing the controls needed for either attack. The goal is to keep them in X-Guard without allowing them to develop any one attack to completion.
-
-
-
-</section>
 
 
 </main>

@@ -169,6 +169,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Knot (Bottom)?</p>
+
 - Bottom player's leg is entangled with top player's legs in a knotted configuration, with the trapped leg positioned between or around the opponent's legs creating systematic control
 - Top player maintains some form of leg control on the bottom player's trapped leg, typically controlling the foot, ankle, or lower leg with hands or leg positioning while threatening submissions
 - Bottom player's hips and upper body maintain mobility and defensive frames, with hands actively defending vulnerable joints and creating blocking structures to prevent submission completion
@@ -182,6 +184,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Knot (Bottom)?</p>
+
 - Opponent has initiated leg entanglement but not achieved dominant position
 - Bottom player's leg is controlled but not yet in final submission configuration
 - Bottom player maintains upper body mobility and hand fighting capability
@@ -194,6 +198,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Knot?</p>
 
 - Keep heel hidden and protected by controlling foot position and preventing opponent's grip on the vulnerable heel
 - Maintain inside knee line by keeping the trapped leg's knee pointing inward, preventing opponent from crossing the knee line for heel exposure
@@ -209,6 +215,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Knot (Bottom)?</p>
 
 **If opponent secures heel grip and begins heel hook rotation:**
 - Execute **[[Immediate Granby roll escape/Attacker|Immediate Granby roll escape]]** → [[Positions/Open Guard]] (Probability: 60%)
@@ -242,6 +250,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Knot?</p>
 
 ### 1. Turning away from opponent and exposing heel
 
@@ -286,6 +296,8 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Leg Knot defense?</p>
+
 ### Heel Hiding Repetitions
 
 Partner establishes various leg entanglements while you practice keeping heel hidden by turning into opponent and maintaining proper foot positioning. Focus on immediate defensive reactions to heel exposure threats. Drill both slow technical repetitions and faster reactive responses.
@@ -326,38 +338,6 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent secures your heel and begins rotating for a heel hook - what is your immediate defensive response?
-**A**: Immediately turn into the opponent (toward the attacking side) to hide the heel. Point your toes toward opponent's hip to protect heel exposure. Simultaneously use your free leg to push against their hip to create distance. If rotation has begun, initiate an emergency Granby roll to extract the leg before breaking mechanics are established. The key is speed - address the heel hook threat before attempting any positional escape.
-
-**Q2**: What are the essential defensive frames for surviving Leg Knot Bottom?
-**A**: Essential frames include: free leg pushing against opponent's hip to control distance and prevent advancement, hands controlling opponent's attacking grips on your foot/ankle, upper body positioned on side (not flat) to maintain hip mobility, and elbows tight protecting against opponent's upper body advancement. The free leg is the most important framing tool as it can both create distance and begin offensive counter-attacks.
-
-**Q3**: How do you shut down the opponent's primary attack of crossing your knee line to achieve Saddle?
-**A**: Maintain inside knee line by keeping your trapped leg's knee pointing inward at all times. Use your free leg to actively block opponent's attempts to triangulate or cross their leg over yours. If they begin crossing, immediately pump your knee upward while turning your hip toward them to prevent the cross. Consider preemptively counter-entangling to 50-50 rather than letting them achieve Saddle position.
-
-**Q4**: What grip priorities should you maintain from Leg Knot Bottom for defense?
-**A**: Primary grip priority is controlling your own foot/ankle to prevent opponent from securing heel grip - use both hands if necessary. Secondary priority is controlling opponent's controlling hand to strip grips. Tertiary priority is gripping opponent's far hip or belt to assist with hip mobility and escape movements. Never prioritize offensive grips over protective grips when under active leg lock threat.
-
-**Q5**: How should you manage pressure when your opponent applies forward driving pressure from Leg Knot Top?
-**A**: Do not resist the drive head-on as this wastes energy. Instead, redirect the energy by turning your hips and using the momentum to initiate an escape. If they stack heavily, the space created behind their hips becomes your escape route - hip escape out the back door while their weight is committed forward. Use your free leg frame to prevent them from flattening you while you work the escape angle.
-
-**Q6**: Your opponent's grip breaks momentarily during a transition attempt - how do you capitalize?
-**A**: Immediately extract the trapped leg using a limp leg motion (relaxing the leg to slide out) combined with hip escape. Don't wait to see if they'll re-establish - act instantly. As the leg clears, transition directly to a safer position like Half Guard or Single Leg X rather than neutral, as neutral positions allow them to re-attack. Speed and commitment are essential during these brief windows.
-
-**Q7**: What is the proper energy management strategy when defending Leg Knot Bottom?
-**A**: Avoid explosive thrashing which tightens entanglements and depletes energy rapidly. Use technique over strength - proper hip positioning and angles are more effective than muscling out. Stay relaxed until the moment of escape, then commit fully. Let opponent work for submissions while you defend efficiently. When you see an escape window, explode through it completely rather than making half-efforts that can be countered.
-
-**Q8**: After a failed escape attempt that returns you to Leg Knot Bottom, what is the recovery sequence?
-**A**: Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -386,7 +366,7 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Offensive counter-position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement threat
-- **[[Transitions/Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
+- **[[Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
 - **[[Positions/Leg Entanglement]]** - Core conceptual framework
 
 

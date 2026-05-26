@@ -164,6 +164,8 @@ The defender must understand that allowing the transition to complete puts them 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ringworm Guard to Worm Guard?</p>
+
 - Bottom player's lapel-gripping hand begins sliding along the lapel material rather than maintaining static tension, indicating preparation to rethread
 - Bottom player executes a hip escape to create angle and space under your leg, often accompanied by their free leg pushing against your hip
 - Momentary decrease in lapel tension around your leg as the Ringworm wrap loosens before the rethreading attempt begins
@@ -175,6 +177,8 @@ The defender must understand that allowing the transition to complete puts them 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ringworm Guard to Worm Guard?</p>
 
 - Monitor the bottom player's lapel hand constantly for grip adjustments that signal an incoming transition attempt
 - Maintain forward pressure and heavy hips to deny the space needed for lapel rethreading under your leg
@@ -188,6 +192,8 @@ The defender must understand that allowing the transition to complete puts them 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ringworm Guard to Worm Guard?</p>
 
 ### 1. Strip the lapel grip during the rethreading window by using both hands to peel the loosened lapel from around your leg
 
@@ -225,6 +231,8 @@ The defender must understand that allowing the transition to complete puts them 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ringworm Guard to Worm Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the lapel completely during the rethreading window when tension is momentarily reduced. Use both hands to peel the material away from your leg, then immediately establish passing grips on the bottom player's legs before they can re-extract and re-feed the lapel.
@@ -240,6 +248,8 @@ Deny the space needed for rethreading by driving forward with heavy pressure or 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ringworm Guard to Worm Guard?</p>
 
 ### 1. Ignoring the transition attempt and continuing to address only the existing Ringworm Guard
 
@@ -269,6 +279,8 @@ Deny the space needed for rethreading by driving forward with heavy pressure or 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ringworm Guard to Worm Guard?</p>
+
 **Week 1-2** - Recognition drill
 Partner alternates between normal Ringworm Guard adjustments and actual transition attempts. Practice identifying the recognition cues (hip escape, tension decrease, grip strengthening) and calling out 'transition' when detected. No physical defense yet - purely visual and tactile recognition development.
 
@@ -285,29 +297,6 @@ Start in Ringworm Guard with the bottom player free to attempt any technique inc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to intervene when defending against this transition?
-**A**: The most critical moment is when lapel tension decreases as the bottom player begins loosening the Ringworm wrap to rethread it. This brief window is when the lapel control is at its weakest and most vulnerable to being stripped entirely. Once the new threading is complete and tension is re-established in Worm Guard configuration, the defensive opportunity has passed.
-
-**Q2**: Why is it strategically important to prevent the transition from completing rather than dealing with Worm Guard afterward?
-**A**: Worm Guard provides significantly deeper mechanical control than Ringworm Guard, with more powerful sweeps, better submission entries, and tighter restrictions on the top player's movement. Preventing the transition keeps the bottom player in the less threatening Ringworm position. The energy cost of defending against established Worm Guard is substantially higher than interrupting the transition.
-
-**Q3**: Your opponent starts hip escaping and you feel the lapel tension decrease - what is your immediate sequence of actions?
-**A**: Immediately drive your hips forward and down to eliminate the space created by their hip escape. Simultaneously use your nearest hand to grip the lapel material where it is loosening around your leg and begin peeling it away. If you can control their lapel-gripping hand with your other hand, do so to prevent them from completing the rethread. Priority is denying space first, then attacking the grip.
-
-**Q4**: How does the bottom player's secondary grip affect your defensive options?
-**A**: The secondary grip on your sleeve or collar limits your ability to posture, use both hands for lapel stripping, or create distance by standing. If they have strong sleeve control, your grip-stripping hand is restricted. If they have collar control, your posture and base are compromised. Address the secondary grip first when possible, or accept that you may need to sacrifice posture temporarily to strip the primary lapel control.
-
-**Q5**: What visual and tactile cues distinguish an actual transition attempt from normal Ringworm Guard adjustments?
-**A**: An actual transition attempt is characterized by a deliberate hip escape creating a new angle, simultaneous strengthening of the secondary grip on your sleeve or collar, and the lapel hand sliding along the material rather than simply adjusting tension. Normal adjustments maintain consistent tension direction. The transition involves a clear directional change in how the lapel is being fed - from around the outside of your leg to under and through it.
-
-
-
-</section>
 
 
 </main>

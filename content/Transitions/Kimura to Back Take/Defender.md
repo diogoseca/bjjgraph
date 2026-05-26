@@ -158,13 +158,15 @@ Successful defense begins before the transition starts, at the Kimura grip itsel
 
 The defender must also recognize that panic rolling or explosive uncontrolled movement is the attacker's ideal scenario. Measured, deliberate defensive actions that address each control point systematically yield far better results than desperate attempts to rip free of the grip.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Kimura to Back Take?</p>
 
 - Attacker secures figure-four Kimura grip and begins lifting your hand toward your shoulder blade while driving elbow across your body
 - Attacker shifts weight off your hips and begins repositioning to follow your body rotation, indicating they want you to roll
@@ -178,6 +180,8 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura to Back Take?</p>
 
 - Address the Kimura grip early - prevention of the grip is the strongest defense against the entire sequence
 - Control the speed and direction of your own movement rather than trying to remain completely static against pressure
@@ -193,6 +197,8 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura to Back Take?</p>
 
 ### 1. Two-on-one grip strip on the Kimura figure-four before pressure escalates
 
@@ -230,6 +236,8 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura to Back Take?</p>
+
 ### → [[Positions/Kimura Trap]]
 
 Strip the Kimura grip through two-on-one fighting or wrist peel before the attacker can apply enough pressure to force your roll. Alternatively, turtle defensively with tight elbows to deny hooks and patiently work to strip the grip from the stalled position. The attacker remains in Kimura Trap Top but without the back take pathway.
@@ -245,6 +253,8 @@ During the rolling phase, direct your rotation toward the attacker rather than a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura to Back Take?</p>
 
 ### 1. Panic rolling explosively away from the Kimura pressure without controlling direction or speed
 
@@ -279,6 +289,8 @@ During the rolling phase, direct your rotation toward the attacker rather than a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura to Back Take?</p>
+
 **Week 1-2: Grip Prevention and Stripping** - Early intervention against Kimura grip establishment
 Partner works to establish Kimura grip from side control while you practice two-on-one grip fighting to prevent the figure-four from locking. Start at 25% speed focusing on hand positioning and timing. Progress to moderate speed as recognition improves. Goal is to develop automatic grip prevention reactions before the figure-four is fully secured.
 
@@ -295,29 +307,6 @@ Partner executes full Kimura to back take sequence at increasing resistance leve
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important early defensive action when you feel a Kimura grip being established?
-**A**: The most important early action is to immediately begin two-on-one grip fighting to prevent the figure-four from being locked or to strip a shallow grip before the attacker can deepen their control near your elbow. Early grip prevention is exponentially more effective than fighting a fully established Kimura because the mechanical advantage of the figure-four increases dramatically with depth. Use both hands to peel the attacker's grip hand off your wrist while keeping your elbow tight to your body.
-
-**Q2**: Why is turning into the attacker a superior defensive strategy compared to turning away during the rolling phase?
-**A**: Turning into the attacker eliminates the back take angle entirely because you end up facing them rather than presenting your back. When you turn toward the attacker, you can establish frames on their shoulder and hip, recover guard position, and the Kimura grip becomes significantly less dangerous from inside your guard. Turning away is the natural panic response but it presents your back at maximum exposure, which is exactly what the attacker wants. The direction of your rotation is the single most important defensive decision during the transition.
-
-**Q3**: Your opponent has secured a deep Kimura grip and begins applying pressure - you cannot strip the grip. What is your next defensive priority?
-**A**: If the grip cannot be stripped, your priority shifts to controlling how you move under the pressure rather than remaining static. Grab your own belt or wrist with the trapped hand to reduce pressure and buy time, then prepare to direct your inevitable movement toward the attacker rather than away. If you must turtle, keep elbows pinched tight, knees together, and hips low to deny hook insertion. The key is accepting that movement will happen while ensuring that movement does not give the attacker free back access.
-
-**Q4**: What body positioning prevents hook insertion after you have been forced to turtle during this transition?
-**A**: To prevent hook insertion from turtle, keep your elbows pinched tight against your ribcage so there is no space between your arms and body. Press your knees together and keep your hips as low to the mat as possible, eliminating the gap between your thighs and torso where hooks would be inserted. Tuck your chin and keep your forehead near the mat. This compact defensive posture makes hook insertion extremely difficult and buys time to work grip strips or sit-out escapes. Any space between your limbs and torso becomes an entry point for the attacker's feet.
-
-**Q5**: How do you recognize whether the attacker is using the Kimura as a genuine submission attempt versus a positional advancement tool?
-**A**: A genuine submission attempt typically shows constant escalating pressure in one direction with the attacker's weight committed to finishing the shoulder lock. A positional tool shows intermittent pressure pulses, the attacker's weight shifting to a more mobile position that can follow your movement, and their chest lifting slightly rather than driving down for the finish. When the attacker is using it positionally, they want you to move, so they apply enough pressure to motivate rolling but not enough to commit fully to the finish. This distinction informs your defense: against genuine finish attempts, fight the grip; against positional setups, control your movement direction.
-
-
-
-</section>
 
 
 </main>

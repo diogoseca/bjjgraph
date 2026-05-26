@@ -124,7 +124,7 @@
       },
       {
         "step_number": 2,
-        "action": "Release Head Control to Target Wrist",
+        "action": "Release Head Position to Target Wrist",
         "description": "Release your head control grip from behind the opponent's neck and immediately reach for their wrist on the overhook side. Your hand travels directly from their neck down along their trapped arm to grip their wrist with a thumb-in grip. This transition must be explosive because releasing head control temporarily weakens the diamond frame and creates a narrow posture recovery window for the opponent."
       },
       {
@@ -238,7 +238,7 @@
         "description": "During positional sparring starting from closed guard, work to establish diamond guard and threaten the full triangle-omoplata-Kimura chain. Partner defends at full resistance. Focus on reading which defensive reaction the opponent gives and selecting the correct attack from the three-way dilemma system. Track success rate across rounds to identify weaknesses in the chain."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal moment to release head control and initiate the Kimura grip transition?",
         "answer": "The optimal moment is when the opponent's posture is maximally broken with their head at chest level and their trapped arm is extended forward or across your body from the overhook. Their free hand should be occupied with grip fighting, posting on the mat, or defending another threat rather than available to assist arm recovery. Initiating during a moment of defensive distraction — such as immediately after they fail to strip the overhook — provides the safest transition window."
@@ -363,7 +363,7 @@
         "correction": "Address the arm control first by either extracting the arm, establishing a defensive grip, or tucking the elbow tight. Only attempt posture recovery after neutralizing or reducing the immediate Kimura threat to prevent creating additional leverage for the attacker"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from diamond guard control to a Kimura attack?",
         "answer": "The earliest cue is the release of head control from behind your neck. In a standard diamond guard, the bottom player maintains both an overhook and head control simultaneously. When the head control hand releases and moves down toward your trapped arm rather than back to your neck, this signals the Kimura grip transition has begun. You have approximately one to two seconds from this release to react before the figure-four locks. Secondary cues include feeling a new grip on your wrist and the bottom player beginning to create an angle by hip escaping."

@@ -90,7 +90,7 @@
       "Progressive Control: Build from basic control to advanced entanglements systematically, advancing only when control is secure and opponent's defensive options are limited",
       "Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent to maximize mechanical advantage for submissions and position advancement"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts bridging explosively to clear your inside leg from their hip - what adjustment do you make?",
         "answer": "Drop your weight into the inside leg, driving your shin deeper across their hip while simultaneously pulling their trapped leg tighter into your body. Use the bridging momentum against them by switching your angle toward their head slightly, which loads more weight onto the inside leg and makes it harder to clear. If they continue bridging, this often exposes their heel for immediate attack opportunities."
@@ -311,11 +311,11 @@
         "attempt_probability": 43
       },
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 6
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Inside Ashi-Garami",
         "attempt_probability": 9
       },
       {
@@ -405,7 +405,7 @@
       "Keep chest connection to opponent's leg - breaking this connection loses control",
       "SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins stepping over your inside leg to pass - what immediate adjustment prevents this escape?",
         "answer": "Drive your inside leg deeper across their hip while simultaneously elevating your hips to create a stronger frame. If they're already partway over, turn your body toward them and use your outside leg to hook their stepping leg, potentially converting to X-Guard or sweeping them off-balance. The key is early recognition - as soon as you feel them shifting weight to step over, extend your inside leg forcefully to push their hip away and reset the distance."
@@ -626,7 +626,7 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 5
       },
       {
@@ -646,8 +646,8 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Toe Hold",
-        "attempt_probability": 6
+        "transition": "Toe Hold from Inside Ashi-Garami",
+        "attempt_probability": 7
       },
       {
         "transition": "50-50 Entry",
@@ -682,11 +682,7 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Toe Hold from Top",
+        "transition": "Inside Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 1
       },
       {

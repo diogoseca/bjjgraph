@@ -164,6 +164,8 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Grip Break?</p>
+
 - Opponent brings both hands to your single gripping hand, establishing two-on-one wrist and sleeve control
 - Opponent shifts their body angle away from your grip to create leverage for a directional break
 - Opponent's hips begin moving laterally or away while their hands engage your gripping wrist, combining movement with the strip
@@ -176,6 +178,8 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Grip Break?</p>
 
 - Maintain multiple connection points so losing one grip does not collapse your entire control structure
 - Reinforce threatened grips by deepening the grip or adding a second hand before the break is initiated
@@ -191,6 +195,8 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Grip Break?</p>
 
 ### 1. Deepen and reinforce the threatened grip by pulling the gripped material deeper into your palm and adding elbow pressure inward
 
@@ -228,6 +234,8 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Grip Break?</p>
+
 ### → [[Positions/Open Guard]]
 
 Maintain at least one controlling grip throughout the exchange by reinforcing the threatened grip early, switching to alternative grips when breaks are inevitable, or re-establishing grips faster than your opponent can capitalize on the momentary freedom. Keep multiple connection points active so losing any single grip does not collapse your control structure.
@@ -243,6 +251,8 @@ Capitalize on the opponent committing both hands to grip breaking by advancing p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grip Break?</p>
 
 ### 1. Relying on grip strength alone to resist breaks rather than using structural mechanics and angle management
 
@@ -272,6 +282,8 @@ Capitalize on the opponent committing both hands to grip breaking by advancing p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Grip Break?</p>
+
 **Week 1-2: Grip Retention Fundamentals** - Develop structural grip retention mechanics against light break attempts
 Partner applies gentle two-on-one grip breaks while you practice maintaining grips using elbow positioning, wrist rotation, and body weight rather than pure squeeze strength. Focus on feeling the direction of force and adjusting your angle to resist. Drill maintaining collar, sleeve, and pant grips for 30-second holds with partner gradually increasing breaking intensity.
 
@@ -288,29 +300,6 @@ Full-resistance positional sparring where you must maintain grip control against
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining multiple connection points the most important defensive principle against grip breaks?
-**A**: Multiple connection points create redundancy in your control structure so that losing any single grip does not eliminate your tactical advantage. If you have both a collar grip and a pant grip, your opponent must successfully break both to gain free movement. This forces them to commit more time and energy to grip fighting while you maintain at least partial control throughout the exchange. It also gives you options for which grip to sacrifice and which to defend.
-
-**Q2**: When your opponent establishes a strong two-on-one on your gripping hand, what is the optimal defensive response?
-**A**: Rather than fighting a losing battle against their two-on-one mechanical advantage, switch to an alternative grip before the break completes. Release the contested grip voluntarily while your other hand establishes a new connection point - a different collar depth, a cross-grip, or a pant grip. This preserves your energy, maintains control continuity, and often catches the opponent off-guard since they prepared for the break but not for your immediate re-engagement at a different control point.
-
-**Q3**: How can you use your opponent's grip break attempt as a passing or advancement opportunity?
-**A**: When your opponent commits both hands to breaking your grip, they temporarily cannot frame, post, or maintain their guard structure. This creates a 2-3 second window where their defensive frames are absent. Drive forward with shoulder pressure, initiate a knee cut or leg drag, or establish head control during this window. The key is recognizing the moment both their hands engage your gripping wrist as the signal to advance rather than retreat. Their focus on grip fighting becomes your positional opportunity.
-
-**Q4**: What wrist rotation technique helps resist directional grip breaks toward your thumb?
-**A**: When you feel force being applied toward your thumb, rotate your wrist so your thumb points in a different direction, forcing the opponent to readjust their breaking angle. For example, if they push toward your thumb on a collar grip, pronate your wrist so the force now travels across the back of your hand rather than toward the weakest point. This buys time and forces them to re-establish their two-on-one angle, during which you can reinforce the grip, switch grips, or advance position.
-
-**Q5**: Your opponent has just broken your primary collar grip - what should your immediate recovery sequence look like?
-**A**: Within the first second after the break, your freed hand should already be reaching for a new control point rather than pausing. Immediately seek either a re-grip at a different collar depth, a cross-collar grip, or a same-side sleeve grip to maintain some connection. Simultaneously, your other hand should tighten whatever secondary grip it already holds to prevent total loss of control. If no secondary grip exists, use the freed hand to frame against their shoulder or bicep while you re-establish grips, preventing them from capitalizing on the momentary freedom with positional advancement.
-
-
-
-</section>
 
 
 </main>

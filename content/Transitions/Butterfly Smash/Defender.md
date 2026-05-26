@@ -164,6 +164,8 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Smash?</p>
+
 - Opponent drives forehead into your chest or sternum while keeping elbows tight to their body, indicating they are initiating the pressure sequence
 - Opponent begins stepping one knee toward the mat beside your hip, attempting to wedge between your hook and the mat to neutralize elevation
 - Opponent establishes heavy collar grip or wrist control and lowers their center of gravity while driving forward rather than attempting to stand or create distance
@@ -175,6 +177,8 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Smash?</p>
 
 - Maintain upright seated posture at all costs - once flattened, the hooks lose all mechanical advantage for sweeping
 - Keep hooks active with constant upward elevator pressure rather than passive foot placement under the thighs
@@ -189,6 +193,8 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Smash?</p>
 
 ### 1. Pump hooks explosively while maintaining upright posture and pulling opponent forward with collar or underhook grip to execute a butterfly sweep
 
@@ -226,6 +232,8 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Smash?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Maintain aggressive hook pressure and upright posture throughout the engagement. Fight every grip the passer attempts and threaten constant sweeps to prevent them from settling into their pressure game. Use arm drags and collar pulls to keep them off-balance and reactive.
@@ -241,6 +249,8 @@ Execute a well-timed butterfly sweep when the passer commits their weight forwar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Smash?</p>
 
 ### 1. Lying back flat when the passer initiates forward pressure instead of fighting to maintain seated posture
 
@@ -270,6 +280,8 @@ Execute a well-timed butterfly sweep when the passer commits their weight forwar
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Smash?</p>
+
 **Week 1-2: Recognition and Posture Maintenance** - Identifying the butterfly smash initiation and maintaining seated posture under pressure
 Partner applies progressive forward pressure while you focus solely on maintaining upright posture and active hooks. No sweeps or transitions - just survival and posture retention. Learn to feel the difference between a smash attempt and other passing approaches.
 
@@ -286,29 +298,6 @@ Positional sparring starting in butterfly guard against a partner who uses butte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a butterfly smash is being initiated rather than a different pass?
-**A**: The earliest cue is the passer driving their forehead into your chest or sternum while keeping their elbows tight to their body and lowering their hips. This combination of head pressure, tight elbows, and low center of gravity distinguishes the butterfly smash from standing passes or speed passes. The passer is committing to forward pressure rather than creating distance, which signals their intent to collapse your structure rather than move around your legs.
-
-**Q2**: Why is maintaining upright seated posture the single most important defensive priority against the butterfly smash?
-**A**: Butterfly hooks generate their sweeping and defensive power through the angle created by the seated posture - the hooks need upward leverage to elevate the passer. When you are flat on your back, the hooks point forward rather than upward, losing all mechanical advantage. The passer's entire strategy is to flatten you because a flat opponent cannot generate hook elevation, making the hook-clearing sequence easy. Upright posture is the foundation that makes every other defensive option possible.
-
-**Q3**: At what point should you abandon butterfly guard retention and transition to half guard?
-**A**: You should transition to half guard when your first hook has been successfully cleared and the passer has established crossface or underhook control on that side. At this point, recovering the butterfly hook requires creating more space than is realistically available under the passer's pressure. Capturing the passer's leg in half guard with an immediate knee shield is a higher-percentage defensive option than attempting to re-insert a hook against an opponent who already has upper body control and one hook cleared.
-
-**Q4**: How does threatening offensive sweeps function as a defensive tool against the butterfly smash?
-**A**: When you actively threaten butterfly sweeps, arm drags, and back takes, the passer must divide their attention between executing the smash and defending against your attacks. A passer who is worried about being swept cannot fully commit their weight forward into the pressure sequence. This offensive-defensive balance forces the passer to maintain a more conservative posture, which slows or prevents the structure collapse needed for the smash to work. Passive defense invites aggressive pressure because the passer can commit fully without risk.
-
-**Q5**: Your hooks are still active but the passer has established a strong collar grip and is beginning to drive forward - what is your immediate priority?
-**A**: Your immediate priority is breaking or neutralizing that collar grip before the passer can convert it into chest pressure that flattens your posture. Use both hands to strip the grip by peeling fingers, or counter-grip their sleeve to redirect the pulling force. Simultaneously, increase your hook pressure upward to resist the forward drive. If you cannot break the grip within two to three seconds, establish a frame on their shoulder on the gripping side while preparing to either sweep or transition to an alternative guard position.
-
-
-
-</section>
 
 
 </main>

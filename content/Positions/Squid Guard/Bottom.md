@@ -169,6 +169,8 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Position Definition
 
+<p class="section-subtitle">What is Squid Guard (Bottom)?</p>
+
 - Bottom player on their back or side with one leg threaded between opponent's legs from inside position, creating asymmetrical control with the threading leg's foot hooking behind opponent's far knee or thigh
 - Bottom player controls opponent's lapel, typically wrapping it around opponent's leg or body, creating restrictive control that limits mobility and posture while preventing forward pressure
 - Non-threading leg positioned outside opponent's body, typically controlling opponent's near hip or creating distance with foot on hip or bicep, maintaining spatial control and preventing opponent from settling into passing position
@@ -181,6 +183,8 @@ While technically demanding and requiring significant flexibility, coordination,
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Squid Guard (Bottom)?</p>
 
 - Opponent in standing or kneeling passing position
 - Space created to thread leg between opponent's legs
@@ -196,6 +200,8 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Squid Guard?</p>
+
 - Maintain constant tension with threading leg to disrupt opponent's base and prevent them from settling into stable passing position
 - Use non-threading leg actively to control distance and create angles, never allowing it to become passive
 - Coordinate upper body lapel grips with leg movements to create compound control that limits opponent's options
@@ -210,6 +216,8 @@ While technically demanding and requiring significant flexibility, coordination,
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Squid Guard (Bottom)?</p>
 
 **If opponent maintains upright posture with weight distributed evenly:**
 - Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -238,6 +246,8 @@ While technically demanding and requiring significant flexibility, coordination,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Squid Guard?</p>
 
 ### 1. Allowing threading leg to become passive without maintaining constant tension
 
@@ -277,6 +287,8 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Squid Guard defense?</p>
+
 ### Squid Guard Entry Flow Drill
 
 Partner starts in standing position. Practice entering Squid Guard from various open guard positions (Spider, De La Riva, Seated), focusing on smooth leg threading, lapel feeding, and grip establishment. Emphasize maintaining guard structure through transitions. 5 minutes continuous flow, alternating entry methods.
@@ -309,38 +321,6 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips required to maintain effective Squid Guard control?
-**A**: The primary grip is on the opponent's lapel, wrapped around their leg or body to create constant tension and restrict their mobility. Secondary grips include sleeve control on their far arm to prevent grip stripping, and collar grip to break their posture. The lapel grip is non-negotiable - without it, Squid Guard degenerates into standard De La Riva and loses its unique advantages. At minimum, maintain the lapel wrap plus one upper body grip.
-
-**Q2**: How should you distribute your weight and position your hips to maximize guard retention?
-**A**: Keep your hips angled at approximately 45 degrees to your opponent rather than flat on your back. This angle creates better leverage for sweeps and makes it harder for them to stack or pressure pass. Your weight should be slightly on the hip of your non-threading leg, which allows rapid hip adjustment and creates rotational power. Avoid being flat - it eliminates your mobility and sweep potential.
-
-**Q3**: Your opponent starts standing upright with good posture - what immediate threat should you create?
-**A**: When they stand tall with neutral weight distribution, attack with sweeping movements that exploit their height and narrow base. Pull the lapel to break their posture while simultaneously extending your threading leg to elevate their far leg. This combination of pulling and lifting creates immediate off-balancing that threatens sweeps. The taller they stand, the more vulnerable they are to elevation-based attacks.
-
-**Q4**: Your opponent begins driving forward with heavy pressure attempting to stack you - how do you respond?
-**A**: Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you.
-
-**Q5**: What is the primary danger to your threading leg and how do you protect it?
-**A**: The threading leg is exposed to leg lock attacks, particularly heel hooks and kneebars, when opponents recognize the vulnerability. Protect it by maintaining constant movement and tension - a stationary threading leg is an easy target. If you sense them reaching for your heel or shifting to attack the leg, immediately withdraw the thread and transition to Spider Guard or Lasso Guard. Never allow them to isolate the threading leg with both hands.
-
-**Q6**: How do you recover when your opponent strips your lapel grip?
-**A**: The moment your lapel grip breaks, you must immediately transition to another guard or re-establish control. Don't try to maintain Squid Guard without the lapel - it's the defining element. Options include: re-feeding the lapel if possible, transitioning to standard De La Riva by maintaining your hook, shifting to Spider Guard using your sleeve grip, or threatening a triangle to force them to give you the space to re-establish. Prioritize maintaining some control over forcing the lapel back.
-
-**Q7**: Your opponent turns away from your threading leg pressure - what attack sequence should you follow?
-**A**: When they turn away, they're exposing their back to escape your leg pressure. Immediately pursue with back take sequences - use your threading leg to follow their hip rotation while pulling on your lapel and upper body grips to accelerate their turn. Your non-threading leg should hook their hip to prevent them from completing a full escape. The goal is to convert their defensive turn into your offensive back take before they can stabilize in a new position.
-
-**Q8**: How do you manage energy expenditure while maintaining active Squid Guard?
-**A**: Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

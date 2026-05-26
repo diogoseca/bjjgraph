@@ -42,8 +42,8 @@
       "relationship": "Most common target position for bottom player's sweep sequences"
     },
     {
-      "name": "Rubber Guard",
-      "relationship": "Advanced flexibility-based variation enhancing bottom control and offense"
+      "name": "Mission Control",
+      "relationship": "Advanced rubber guard variation enhancing bottom control and offense"
     },
     {
       "name": "Spider Guard",
@@ -102,7 +102,7 @@
       "Posture Maintenance Priority: Keep spine straight and head over hips to prevent opponent from breaking you down for attacks - this is your primary defensive concern that enables all other technical work",
       "Distance Management: Control distance with proper hand placement on hips, biceps, or collar to prevent opponent from closing space for submissions while maintaining enough connection to initiate passes",
       "Base and Balance: Maintain wide base with knees spread to defend against sweeps while staying mobile for passing attempts, distributing weight through lower body rather than hands",
-      "Grip Fighting: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions",
+      "Grips: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions",
       "Patient Progression: Work methodically toward guard opening without rushing into vulnerable passing attempts that expose you to counters, following systematic progression from posture to grips to opening to passing",
       "Defensive Awareness: Constantly monitor threats including triangle, armbar, omoplata, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks"
     ],
@@ -128,7 +128,7 @@
         "attempt_probability": 3
       },
       {
-        "transition": "Ezekiel from Closed Guard",
+        "transition": "Ezekiel Choke from Closed Guard",
         "attempt_probability": 2
       },
       {
@@ -286,7 +286,7 @@
         "duration": "10 minutes"
       },
       {
-        "name": "Grip Fighting from Closed Guard Top",
+        "name": "Grips from Closed Guard Top",
         "description": "Partner attempts to establish dominant grips for attacks while you fight grips and establish your own controlling grips. 3-minute rounds with focus on proactive grip fighting rather than reactive. Reset when one person establishes clearly dominant position.",
         "duration": "4 rounds of 3 minutes"
       },
@@ -407,34 +407,34 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Armbar from Guard",
-        "attempt_probability": 10
+        "attempt_probability": 23
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 10
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 8
+        "attempt_probability": 9
       },
       {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 6
+        "transition": "Cross Collar Choke from Closed Guard",
+        "attempt_probability": 7
       },
       {
         "transition": "Pendulum Sweep",
-        "attempt_probability": 6
+        "attempt_probability": 7
       },
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 5
+        "attempt_probability": 6
       },
       {
         "transition": "Kimura Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Rolling Armbar from Closed Guard",
         "attempt_probability": 4
       },
       {
@@ -443,6 +443,10 @@
       },
       {
         "transition": "Kimura to Back Take",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Tarikoplata",
         "attempt_probability": 3
       },
       {
@@ -455,6 +459,18 @@
       },
       {
         "transition": "Omoplata Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Spinning Armbar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Closed Guard to Triangle",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Monoplata from Guard",
         "attempt_probability": 2
       },
       {
@@ -490,35 +506,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Rolling Armbar",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Spinning Armbar",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Tarikoplata",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Triangle from Closed Guard",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Flying Armbar",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Kneebar from Guard",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Monoplata",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Monoplata from Guard",
         "attempt_probability": 1
       }
     ],
@@ -633,7 +621,7 @@
     ],
     "training_drills": [
       {
-        "name": "Posture Breaking Sequences",
+        "name": "Posture Sequences",
         "description": "Practice posture breaking sequences with progressive resistance, focusing on using collar grips combined with heel pressure to pull opponent forward. Partner starts with strong posture and gradually increases resistance as you develop timing and leverage mechanics. Work both gi collar grips and no-gi head control variations.",
         "duration": "5 minutes per round, 3-4 rounds"
       },
@@ -643,12 +631,12 @@
         "duration": "10 minutes continuous flow"
       },
       {
-        "name": "Hip Mobility and Angle Creation",
+        "name": "Hip Mobility and Dominant Angles",
         "description": "Work on hip mobility drills specifically for closed guard, practicing shifting hips 45 degrees left and right while maintaining guard closure. Add resistance by having partner attempt to maintain square posture as you create angles. Develop ability to create angles without breaking guard.",
         "duration": "5 minutes technique, 5 minutes live resistance"
       },
       {
-        "name": "Grip Fighting from Closed Guard",
+        "name": "Grips from Closed Guard",
         "description": "Specific training focused on establishing and maintaining dominant grips against opponent actively fighting hands. Practice transitioning between collar, sleeve, and wrist grips while maintaining posture control. Work both offensive grip establishment and defensive grip breaking against partner's attempts.",
         "duration": "3 minute rounds, 4-5 rounds"
       },
@@ -680,8 +668,8 @@
         "relationship": "Alternative sweep target via kimura or omoplata transitions"
       },
       {
-        "name": "Rubber Guard",
-        "relationship": "Advanced variation using extreme flexibility for enhanced control"
+        "name": "Mission Control",
+        "relationship": "Advanced rubber guard variation using flexibility for enhanced control"
       },
       {
         "name": "Spider Guard",
@@ -700,8 +688,8 @@
         "relationship": "High-percentage sweep utilizing angle creation"
       },
       {
-        "name": "Armbar from Guard",
-        "relationship": "Primary submission attack from broken posture"
+        "name": "Closed Guard to Triangle",
+        "relationship": "Primary triangle entry transition from broken posture"
       }
     ],
     "position_metrics": {

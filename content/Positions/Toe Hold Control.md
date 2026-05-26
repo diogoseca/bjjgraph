@@ -32,7 +32,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Ankle isolation requires complete foot control before rotational pressure begins, preventing escape and ensuring safe submission application
@@ -179,7 +179,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (14% of attempts)
+- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (14% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (24% of attempts)
 

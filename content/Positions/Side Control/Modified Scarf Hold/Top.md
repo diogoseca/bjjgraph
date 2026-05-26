@@ -20,38 +20,38 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Americana from Modified Scarf Hold",
+      "text": "From this position, attempt Americana from Modified Scarf Hold. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
       "text": "From this position, attempt Side Control to Mount. This technique is attempted in 21% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
       "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute North-South Choke from Modified Scarf Hold",
+      "text": "From this position, attempt North-South Choke from Modified Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Modified Scarf Hold",
+      "text": "From this position, attempt Arm Triangle from Modified Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -175,6 +175,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Position Definition
 
+<p class="section-subtitle">What is Modified Scarf Hold (Top)?</p>
+
 - Your chest maintains constant downward pressure on opponent's chest, with your sternum positioned directly over their ribcage creating maximum compression and breathing restriction
 - Opponent's near-side arm is controlled or trapped, either threaded under your armpit or wrapped with your arm around their head, eliminating their primary framing tool
 - Your head is positioned heavy on opponent's face or chest, adding directional pressure that restricts vision and limits their ability to turn into you or away from the position
@@ -185,6 +187,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Modified Scarf Hold (Top)?</p>
 
 - You have achieved top position over opponent (from takedown, scramble, or transition)
 - You have secured chest-to-chest contact before opponent established defensive frames
@@ -197,6 +201,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Modified Scarf Hold?</p>
 
 - Chest pressure is your primary control tool - maintain constant downward force through sternum
 - Control the near arm at all times - this prevents effective framing and creates submission pathways
@@ -213,10 +219,12 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Modified Scarf Hold (Top)?</p>
+
 **If opponent's near arm is isolated and extended:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 65%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge or turn away from pressure:**
@@ -236,6 +244,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Modified Scarf Hold?</p>
 
 ### 1. Remaining completely static with all weight settled
 
@@ -270,6 +280,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Modified Scarf Hold attacks?</p>
+
 ### Pressure Maintenance Drill
 
 Maintain Modified Scarf Hold while partner attempts specific escapes at 50% intensity, focus on keeping constant chest pressure throughout
@@ -296,38 +308,6 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to bridge explosively - what adjustment do you make to maintain position?
-**A**: Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact.
-
-**Q2**: What are the essential grips and contact points for maintaining Modified Scarf Hold?
-**A**: The primary contact point is sternum-to-sternum chest pressure with your weight driving downward. Control the near arm by threading it under your armpit or wrapping your arm around their head. Your head should be heavy on their face or chest. In gi, secure cross-face grip or lapel control; in no-gi, establish an underhook or head control. Keep your far hand posted for base adjustment.
-
-**Q3**: How do you shut down your opponent's primary elbow escape attempt from Modified Scarf Hold?
-**A**: Prevent the elbow escape by maintaining heavy hip-to-hip connection on the near side, blocking their ability to create hip space. When you feel them begin to shrimp, drive your hips forward and down while shifting your chest pressure toward their far shoulder. Keep their near arm controlled to prevent frame creation. If they manage to insert a knee, immediately transition to knee-on-belly or float to north-south.
-
-**Q4**: What is the grip priority hierarchy when your opponent begins fighting grips in Modified Scarf Hold?
-**A**: Priority one is maintaining near-arm control - this prevents both frames and submissions. Priority two is chest-to-chest contact through your sternum. Priority three is head position for directional pressure. If forced to release something, release the head position last because it enables both pressure application and submission setups. Never chase grips at the expense of chest pressure.
-
-**Q5**: How should you apply pressure to maximize control without exhausting yourself?
-**A**: Use skeletal alignment rather than muscular effort by positioning your sternum directly over their ribcage and letting gravity do the work. Stay on your toes for mobility but let your chest settle heavy. Drive pressure through your core at a 45-degree angle toward their far shoulder rather than straight down. Relax your arms and shoulders - tension should be in your core connection, not your limbs.
-
-**Q6**: Your opponent creates slight hip space and begins turning their hips toward you - how do you respond?
-**A**: Immediately recognize this as a north-south transition opportunity. Circle your hips toward their head while maintaining chest contact, sliding into north-south position before they can complete the turn. Alternatively, if they expose their back while turning, take the gift and transition to back control. Never fight their turning motion directly - use it to improve your position.
-
-**Q7**: How do you manage your energy during an extended period in Modified Scarf Hold?
-**A**: Settle your weight through proper skeletal alignment so gravity maintains pressure, not muscular effort. Breathe steadily and avoid holding your breath when applying pressure. Stay mentally calm and patient rather than rushing submissions. Use micro-adjustments rather than major repositioning. Let the position do the work - their energy expenditure escaping should far exceed your energy maintaining.
-
-**Q8**: Your opponent partially escapes and inserts their far knee between your bodies - how do you recover position?
-**A**: Immediately address the knee before it becomes a full knee shield. Drive your hips forward and use your near-side arm to push their knee down and toward their chest, flattening them. If the knee is too established, transition to knee-on-belly on the far side or float to north-south. Never settle into half guard from Modified Scarf Hold - either recover full control or advance position.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -352,8 +332,8 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 - **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold variant
 - **[[Positions/North-South]]** - Common transition destination
 - **[[Positions/Mount]]** - Advancement position
-- **[[Transitions/Americana]]** - Primary submission attack transition
-- **[[Transitions/Kimura]]** - High-percentage submission transition
+- **[[Submissions/Americana]]** - Primary submission attack transition
+- **[[Submissions/Kimura]]** - High-percentage submission transition
 - **[[Transitions/Arm Triangle]]** - Core choke submission
 - **[[Positions/Side Control/Reverse Scarf Hold]]** - Related scarf hold variation
 

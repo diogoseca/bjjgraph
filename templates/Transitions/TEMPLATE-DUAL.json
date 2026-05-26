@@ -1,0 +1,524 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Transition Template Schema V4 - Attacker/Defender",
+  "description": "Standardized JSON schema for BJJ transition pages with attacker/defender role structure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "from_position",
+    "outcomes",
+    "success_rate",
+    "overview",
+    "related_content",
+    "attacker",
+    "defender"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Technique name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Hip Bump Sweep",
+        "Arm Drag to Back Take"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "from_position": {
+      "type": "string",
+      "description": "Position/Role where technique begins (format: Position/Role, e.g., 'Closed Guard/Bottom')",
+      "examples": [
+        "Closed Guard/Bottom",
+        "Half Guard/Bottom",
+        "Mount/Top"
+      ]
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "Possible outcomes of this transition. probability MUST sum to 100%",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "to",
+          "probability",
+          "result"
+        ],
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Target Position/Role (e.g., 'Mount/Top', 'Closed Guard/Top', 'game-over')"
+          },
+          "probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "success",
+              "failure",
+              "counter"
+            ]
+          }
+        }
+      }
+    },
+    "success_rate": {
+      "type": "integer",
+      "description": "Overall success rate percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph technique description with strategic context (400+ characters)",
+      "minLength": 400
+    },
+    "variants_and_adaptations": {
+      "type": "array",
+      "description": "Technique variations (minimum 2)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variant_name",
+          "description"
+        ],
+        "properties": {
+          "variant_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "when_to_use": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "position_integration": {
+      "type": "string",
+      "description": "How technique fits in BJJ system (200+ characters)",
+      "minLength": 200
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related techniques/positions (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "description": "Conditions required for attempting this transition",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attacker": {
+      "type": "object",
+      "description": "Attacker perspective - the person executing the technique",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "overview",
+        "key_principles",
+        "setup_requirements",
+        "execution_steps",
+        "common_counters",
+        "common_errors",
+        "training_progressions",
+        "flashcards",
+        "safety_considerations"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Attacker page name (e.g., 'Armbar from Mount Attacker')"
+        },
+        "description": {
+          "type": "string",
+          "description": "SEO meta description for attacker page"
+        },
+        "overview": {
+          "type": "string",
+          "description": "Attacker perspective overview (200+ characters)",
+          "minLength": 200
+        },
+        "key_principles": {
+          "type": "array",
+          "description": "5-7 fundamental attacking principles",
+          "minItems": 5,
+          "maxItems": 7,
+          "items": {
+            "type": "string"
+          }
+        },
+        "setup_requirements": {
+          "type": "array",
+          "description": "Prerequisites before executing (minimum 4)",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "execution_steps": {
+          "type": "array",
+          "description": "Step-by-step execution sequence (minimum 6)",
+          "minItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "step_number",
+              "action",
+              "description"
+            ],
+            "properties": {
+              "step_number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "action": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 50
+              }
+            }
+          }
+        },
+        "common_counters": {
+          "type": "array",
+          "description": "Opponent's defensive responses from attacker POV (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "counter",
+              "effectiveness"
+            ],
+            "properties": {
+              "counter": {
+                "type": "string"
+              },
+              "effectiveness": {
+                "type": "string",
+                "enum": [
+                  "High",
+                  "Medium",
+                  "Low"
+                ]
+              },
+              "your_response": {
+                "type": "string"
+              },
+              "targets_outcome": {
+                "type": "string",
+                "description": "Which outcome this counter targets (must match an outcomes[].to value)"
+              }
+            }
+          }
+        },
+        "common_errors": {
+          "type": "array",
+          "description": "Common attacking mistakes with corrections (minimum 5)",
+          "minItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "error",
+              "consequence",
+              "correction"
+            ],
+            "properties": {
+              "error": {
+                "type": "string"
+              },
+              "consequence": {
+                "type": "string"
+              },
+              "correction": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "training_progressions": {
+          "type": "array",
+          "description": "Progressive training phases (minimum 4)",
+          "minItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "phase",
+              "focus",
+              "description"
+            ],
+            "properties": {
+              "phase": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "Understanding test questions (minimum 5)",
+          "minItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question",
+              "answer"
+            ],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50
+              }
+            }
+          }
+        },
+        "safety_considerations": {
+          "type": "string",
+          "description": "Safety notes and precautions (100+ characters)",
+          "minLength": 100
+        }
+      }
+    },
+    "defender": {
+      "type": "object",
+      "description": "Defender perspective - the person resisting/escaping the technique",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "overview",
+        "key_principles",
+        "recognition_cues",
+        "defensive_options",
+        "favorable_outcomes",
+        "common_errors",
+        "flashcards",
+        "training_progressions"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Defender page name (e.g., 'Armbar from Mount Defender')"
+        },
+        "description": {
+          "type": "string",
+          "description": "SEO meta description for defender page"
+        },
+        "overview": {
+          "type": "string",
+          "description": "Defender perspective overview (200+ characters)",
+          "minLength": 200
+        },
+        "key_principles": {
+          "type": "array",
+          "description": "5-7 fundamental defensive principles",
+          "minItems": 5,
+          "maxItems": 7,
+          "items": {
+            "type": "string"
+          }
+        },
+        "recognition_cues": {
+          "type": "array",
+          "description": "Visual/tactile cues indicating this technique is being attempted (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "defensive_options": {
+          "type": "array",
+          "description": "Available defensive responses from defender POV (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "action",
+              "when_to_use",
+              "targets_outcome"
+            ],
+            "properties": {
+              "action": {
+                "type": "string",
+                "description": "What the defender does"
+              },
+              "when_to_use": {
+                "type": "string",
+                "description": "Timing/condition for this defense"
+              },
+              "targets_outcome": {
+                "type": "string",
+                "description": "Which outcome this defense targets (must match an outcomes[].to value)"
+              },
+              "if_successful": {
+                "type": "string",
+                "description": "What happens if this defense works"
+              },
+              "risk": {
+                "type": "string",
+                "description": "Risk if this defense fails"
+              }
+            }
+          }
+        },
+        "favorable_outcomes": {
+          "type": "array",
+          "description": "Best-case outcomes for the defender with instructions on achieving them",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "outcome",
+              "how"
+            ],
+            "properties": {
+              "outcome": {
+                "type": "string",
+                "description": "Target Position/Role (must match an outcomes[].to value)"
+              },
+              "how": {
+                "type": "string",
+                "description": "How to achieve this favorable outcome"
+              }
+            }
+          }
+        },
+        "common_errors": {
+          "type": "array",
+          "description": "Common defensive mistakes with corrections (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "error",
+              "consequence",
+              "correction"
+            ],
+            "properties": {
+              "error": {
+                "type": "string"
+              },
+              "consequence": {
+                "type": "string"
+              },
+              "correction": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "Understanding test questions (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question",
+              "answer"
+            ],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50
+              }
+            }
+          }
+        },
+        "training_progressions": {
+          "type": "array",
+          "description": "Progressive training phases for defense (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "phase",
+              "focus",
+              "description"
+            ],
+            "properties": {
+              "phase": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

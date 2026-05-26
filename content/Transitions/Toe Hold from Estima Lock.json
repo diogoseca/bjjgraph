@@ -11,15 +11,15 @@
     "chain-attack",
     "submission"
   ],
-  "from_position": "Estima Lock/Top",
+  "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Toe Hold",
       "probability": 45,
       "result": "success"
     },
     {
-      "to": "Estima Lock/Top",
+      "to": "Estima Lock Control/Top",
       "probability": 35,
       "result": "failure"
     },
@@ -66,7 +66,7 @@
       "relationship": "Related control position for extended toe hold attacks when immediate finish is unavailable"
     },
     {
-      "name": "Estima Lock Finish",
+      "name": "Estima Lock",
       "relationship": "Primary submission from the source position that this transition complements as a chain attack"
     },
     {
@@ -155,7 +155,7 @@
         "counter": "Opponent straightens their leg to reduce the rotational leverage available for the toe hold",
         "effectiveness": "Medium",
         "your_response": "Maintain hip pressure forward and adjust your body angle to re-establish the rotational vector. A straight leg actually provides a longer lever arm if your hip pressure stays tight against their calf as the fulcrum point.",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent pulls knee aggressively toward their chest to create slack during the grip change",
@@ -167,13 +167,13 @@
         "counter": "Opponent rolls toward the toe hold direction to relieve rotational pressure on the ankle",
         "effectiveness": "Medium",
         "your_response": "Follow the roll while maintaining your grip and hip pressure. The roll may relieve pressure momentarily but creates opportunities to take the back or transition back to the Estima Lock angle as they rotate through.",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent executes boot defense by actively pointing toes and plantar flexing the foot",
         "effectiveness": "High",
         "your_response": "Maintain hand position around the foot without forcing through the boot defense. Wait for any momentary relaxation in their foot tension, or transition back to the Estima Lock angle where the pointed foot actually improves your leverage for the original attack.",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       }
     ],
     "common_errors": [
@@ -230,7 +230,7 @@
         "description": "Start from established Estima Lock position with full resistance. Attacker attempts the complete submission chain including toe hold transitions. Defender uses all available defensive tools. Three-minute rounds with reset after submission or escape. Track success rate and identify patterns in defensive responses."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What defensive signal from your opponent indicates the optimal timing to switch from Estima Lock to toe hold?",
         "answer": "The key signal is when the opponent counter-rotates their foot away from the Estima Lock angle or adjusts their ankle position to neutralize the primary rotational pressure. This defensive movement exposes the foot to the toe hold attack from the opposite direction. The opponent's maximum defensive commitment to one angle creates maximum vulnerability to the complementary angle, making the moment of strongest Estima Lock defense the ideal toe hold entry window."
@@ -288,7 +288,7 @@
       {
         "action": "Execute boot defense by actively pointing toes and plantar flexing the foot to eliminate grip angle",
         "when_to_use": "During the grip transition before the opponent establishes the full toe hold wrap and figure-four reinforcement",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Opponent cannot establish rotational grip angle for the toe hold and must either abandon the attempt or revert to the Estima Lock",
         "risk": "If opponent adjusts and finds grip despite boot defense, the delayed escape attempt may leave you in a worse position"
       },
@@ -302,7 +302,7 @@
       {
         "action": "Counter-rotate foot outward while simultaneously framing on opponent's hips to create space",
         "when_to_use": "After the toe hold grip is partially established but before the full figure-four is locked and rotational pressure begins",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Opponent's rotational leverage is neutralized as your counter-rotation cancels their force vector",
         "risk": "Counter-rotation toward the Estima Lock angle may reopen the original submission threat if you do not simultaneously work on extraction"
       },
@@ -320,7 +320,7 @@
         "how": "Exploit the grip transition window by aggressively pulling your knee toward your chest while pushing the opponent's hips with your free leg. The brief moment of reduced control during the grip change from Estima Lock to toe hold is the optimal extraction opportunity—act decisively before the new grip consolidates."
       },
       {
-        "outcome": "Estima Lock/Top",
+        "outcome": "Estima Lock Control/Top",
         "how": "Execute boot defense or counter-rotation to neutralize the toe hold angle and force the attacker back to the Estima Lock position. While returning to Estima Lock is still a defensive position, it prevents the more immediate toe hold threat and resets the attacking sequence, buying time for further escape attempts."
       }
     ],
@@ -346,7 +346,7 @@
         "correction": "Combine counter-rotation with active leg extraction efforts. The goal is complete disengagement from the entanglement, not simply oscillating between defending two complementary submissions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for defensive action during the transition from Estima Lock to toe hold?",
         "answer": "The optimal window occurs during the grip change itself—when the attacker releases their Estima Lock forearm position from the top of your foot but before establishing the full toe hold wrap and figure-four grip. This brief period of reduced control provides the best opportunity for foot extraction or boot defense, as the attacker has committed to abandoning one grip without fully establishing the next submission configuration."

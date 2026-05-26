@@ -186,6 +186,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Shin Removal to Pass?</p>
+
 - Address the foot-behind-head configuration before attempting shin extraction to prevent immediate re-establishment
 - Use lateral head movement rather than pulling straight backward to change the angle of shin pressure
 - Maintain hand control on opponent's hips to prevent hip elevation that increases submission pressure
@@ -200,6 +202,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Shin Removal to Pass?</p>
+
 - Recognition that you are caught in gogoplata control with shin across throat
 - Hands positioned to control opponent's hips rather than grabbing at the choking leg
 - Base maintained with at least one hand posted despite compromised posture
@@ -211,6 +215,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Shin Removal to Pass step by step?</p>
 
 1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This buys time by shifting pressure from airway to the side of your neck, allowing clearer thinking for systematic escape execution.
 2. **Control opponent's hips**: Place both hands on opponent's hips and press downward to prevent hip elevation. Elevated hips maintain the perpendicular shin angle that creates maximum compression. Dropping their hips reduces submission effectiveness significantly.
@@ -239,6 +245,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Shin Removal to Pass?</p>
+
 - **Opponent pulls foot deeper behind head when you attempt to control it, tightening the submission** (Effectiveness: High) - Your Response: Maintain hip pressure and wait for opportunity; if they focus on deepening the foot they often drop hip elevation which creates your extraction window → Leads to [[Positions/Gogoplata Control]]
 - **Opponent transitions to triangle as you extract your head by switching leg configuration** (Effectiveness: Medium) - Your Response: Keep your extracted shoulder high and immediately posture when head clears; do not allow them to lock the triangle by keeping your arm inside their legs → Leads to [[Positions/Closed Guard]]
 - **Opponent releases gogoplata and recovers to closed guard when they feel escape imminent** (Effectiveness: Low) - Your Response: This is acceptable as closed guard is far safer than gogoplata; maintain posture and work standard guard passing sequences → Leads to [[Positions/Closed Guard]]
@@ -249,6 +257,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Shin Removal to Pass?</p>
 
 ### 1. Pulling head straight backward away from opponent to escape shin pressure
 
@@ -283,6 +293,8 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Shin Removal to Pass (Attacker)?</p>
+
 **Week 1-2** - Position recognition and breathing
 Partner establishes gogoplata at 30% tightness. Practice chin adjustment for breathing space and maintaining calm under pressure. No escape attempts - purely building comfort in the position and recognizing optimal escape timing windows.
 
@@ -300,48 +312,12 @@ Full resistance positional sparring starting from gogoplata control. Partner act
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Shin Removal to Pass?
-**A**: The primary goal is to systematically extract your head from gogoplata control while simultaneously completing a pass to side control. This transforms a defensive emergency into an offensive position, capitalizing on the extraction to immediately establish dominant control.
-
-**Q2**: Why does pulling straight backward fail as an escape from gogoplata?
-**A**: The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally to break the mechanical structure.
-
-**Q3**: What are the key grips and hand positions needed for Shin Removal to Pass?
-**A**: Use both hands to control opponent's hips initially, pressing downward to prevent hip elevation. One hand then addresses the foot behind your head while the other maintains hip control. Avoid grabbing the shin directly as it is ineffective against leg strength.
-
-**Q4**: Your opponent's hips suddenly drop during gogoplata control - what opportunity does this create?
-**A**: Dropped hips reduce the perpendicular shin angle across your throat, significantly decreasing compression effectiveness. This is your primary window for extraction - immediately begin lateral head movement while maintaining hip pressure to prevent re-elevation.
-
-**Q5**: When is the best time to attempt Shin Removal to Pass?
-**A**: The optimal timing is when opponent adjusts their position to tighten the submission, as this often temporarily compromises their hip elevation or foot position. Also attempt when you have successfully dropped their hips through hand pressure or when they attempt to transition to alternative attacks.
-
-**Q6**: How do you counter if opponent transitions to triangle as you extract your head?
-**A**: Keep your extracted shoulder elevated and immediately posture when your head clears the shin. Do not allow them to lock the triangle by keeping your arm inside their legs during extraction. If triangle is established, immediately address the angle and leg configuration before they can finish.
-
-**Q7**: What direction should you move your head during extraction and why?
-**A**: Move laterally toward the side opposite the choking leg, not straight backward. This changes the angle of shin pressure and allows your head to slip out from under the shin. Backward movement tightens the closed loop system created by the foot-behind-head configuration.
-
-**Q8**: What critical action must you take immediately after extracting your head from gogoplata?
-**A**: Complete the pass to side control immediately without hesitation. Drive into perpendicular chest contact, establish crossface control, and block the far hip. Any pause or space creation allows opponent to recover guard and potentially re-attack with gogoplata or transition to other rubber guard submissions.
-
-**Q9**: Your opponent is actively pulling their foot deeper behind your head while you attempt to address the anchor - how do you adapt?
-**A**: Refocus both hands on hip control and drive their hips to the mat with heavy downward pressure. When they concentrate on deepening the foot position, they typically sacrifice hip elevation to generate the pulling force. This creates your extraction window because the reduced hip angle decreases shin compression, allowing lateral head movement even with the foot still partially behind your head.
-
-**Q10**: You have cleared the shin but your opponent immediately recloses their guard around your waist - what went wrong and how do you adjust?
-**A**: The error was pausing after head extraction instead of immediately driving into side control. When the shin clears, you must pin their leg with your shoulder and arm while driving your chest perpendicular to their torso in one continuous motion. Any separation or hesitation after extraction gives the opponent time to recover leg configuration and re-establish guard. The pass must be a continuation of the extraction, not a separate action.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Shin Removal to Pass?</p>
 
 When training this escape, establish clear communication protocols with training partners. The gogoplata creates direct airway compression that can become dangerous quickly. Always tap early when training the submission and ensure the person in bottom position understands to release immediately when tap is felt. Progress resistance levels gradually - the timing and mechanics should be solid before attempting against full resistance. Avoid training this technique when fatigued as poor technique under pressure can result in neck strain or injury. If you feel sharp pain rather than pressure, tap immediately and reassess technique.
 

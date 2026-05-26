@@ -208,7 +208,7 @@ From technical mount, you have direct chains to arm triangles, mounted triangles
 
 - [[Transitions/Arm Triangle]] - Primary submission threat from technical mount
 
-- [[Submissions/Armbar from Mount]] - Secondary submission threat from technical mount
+- [[Transitions/Mount to Armbar]] - Secondary submission threat from technical mount
 
 - [[Transitions/Leg Drag Pass]] - Entry technique to the starting position
 

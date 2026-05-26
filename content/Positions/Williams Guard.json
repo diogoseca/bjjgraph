@@ -260,7 +260,7 @@
       },
       "average_time": "30-90 seconds"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first priority when trapped in Williams Guard Top with shoulder lock control on your arm?",
         "answer": "Submission defense must take absolute precedence over passing advancement. Protect your shoulder joint by maintaining proper alignment, keeping your elbow bent and close to your body, and preventing full extension or rotation into the submission. Attempting to pass while your arm remains compromised virtually guarantees either submission or sweep, so systematic arm extraction must be completed before any passing attempts."
@@ -380,7 +380,7 @@
         "condition": "If opponent defends shoulder lock by pulling arm back aggressively",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Rolling Armbar",
             "target": "Armbar Control",
             "probability": 60
           },
@@ -545,7 +545,7 @@
       },
       "average_time": "30-90 seconds"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the essential grips for establishing and maintaining Williams Guard control?",
         "answer": "Williams Guard requires a figure-four grip configuration on the opponent's arm that creates shoulder lock mechanics. Your bottom arm threads behind their tricep while your top hand grips your own wrist, creating the shoulder isolation. This grip must be reinforced by leg engagement—typically feet on hips or butterfly hooks—to create distance and prevent the opponent from collapsing into you to escape the shoulder manipulation."
@@ -593,7 +593,7 @@
     ],
     "transitions": [
       {
-        "transition": "Williams Shoulder Lock",
+        "transition": "Williams Shoulder Lock from Williams Guard",
         "attempt_probability": 13
       },
       {
@@ -617,7 +617,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Rolling Armbar from Closed Guard",
         "attempt_probability": 13
       },
       {

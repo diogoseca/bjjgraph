@@ -291,7 +291,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while you're in leg weave - what adjustment prevents them from creating space?",
         "answer": "Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space."
@@ -587,7 +587,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "The top player drives heavy crossface and you feel yourself getting flattened - what immediate frame adjustment do you make?",
         "answer": "Drive your near-side forearm into the crossface bicep or shoulder to create a wedge that prevents your head from being driven further. Simultaneously turn your head away from the crossface and tuck your chin. Use your far-side hand to frame on their hip. The frame isn't meant to push them away but to stop the flattening progression so you can create hip movement."

@@ -340,28 +340,28 @@ Video analysis of high-level competition matches identifying successful position
 
 ### Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value of positions is essential foundation for constructing effective chains, as chains must progress toward increasingly dominant positions to be strategically sound.
-- **[[Transition Sequences]]** (Prerequisite): Technical proficiency in linking individual transitions into sequences forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence.
+- **[[Timing and Rhythm]]** (Prerequisite): Understanding timing and rhythm is essential for linking positional transitions into effective chains, as proper timing determines when each sequential movement should be initiated relative to opponent reactions and momentum shifts between positions.
 - **[[Submission Chains]]** (Complementary): Position chains and submission chains work synergistically, with positional progression creating submission opportunities while submission threats force defensive reactions that enable positional advancement.
 - **[[Transition Management]]** (Complementary): Effective transition management ensures smooth execution of position chains by maintaining control points throughout sequential movements and preventing opponent from interrupting progression between positions.
-- **[[Dilemma Creation]]** (Extension): Advanced application of position chains involves constructing sequences where opponent defensive choices at each position create vulnerabilities to subsequent positions, forcing selection between multiple unfavorable outcomes.
-- **[[System Building]]** (Advanced form): Systematic development of position chains around core positions represents advanced evolution where practitioner constructs comprehensive network of interconnected sequences forming cohesive strategic system.
+- **[[Fork Attacks]]** (Extension): Advanced application of position chains involves constructing sequences where opponent defensive choices at each position create vulnerabilities to subsequent positions, forcing selection between multiple unfavorable outcomes.
+- **[[Position-Over-Submission Approach]]** (Advanced form): Position-Over-Submission Approach represents the philosophical evolution where practitioners build comprehensive chain systems prioritizing positional dominance, developing interconnected networks of sequences that form cohesive strategic frameworks around core positions.
 - **[[Control Point Hierarchy]]** (Prerequisite): Understanding which control points are most important at each position enables construction of chains where grips and frames from one position naturally enable the next transition.
-- **[[Energy Management System]]** (Complementary): Energy management principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence.
+- **[[Energy Conservation]]** (Complementary): Energy conservation principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence.
 - **[[Guard Passing]]** (Extension): Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway.
-- **[[Guard Retention]]** (Extension): Defensive position chains for guard retention involve sequential fallback positions where each stage represents controlled retreat toward guard recovery rather than complete position loss.
-- **[[Match Strategy]]** (Complementary): Competition match strategy determines which position chains are prioritized based on point accumulation needs, time management, and opponent's known defensive patterns.
+- **[[Escape Fundamentals]]** (Extension): Defensive position chains for escaping bad positions involve sequential fallback positions where each stage represents controlled retreat toward guard recovery rather than complete position loss.
+- **[[Competition Mindset]]** (Complementary): Competition mindset determines which position chains are prioritized based on point accumulation needs, time management, and opponent's known defensive patterns during matches.
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles allows construction of chains where opponent's defensive actions to one position create the setup conditions for subsequent positions in sequence.
 
 
 ### Related Content
 - [[Positional Hierarchy]] (Principle) - Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements
-- [[Transition Sequences]] (Principle) - Foundational sequencing concepts that form building blocks of chains, with reliable transition sequences enabling construction of high-percentage positional progressions
+- [[Timing and Rhythm]] (Principle) - Foundational timing concepts that enable smooth chaining of sequential positions, with proper rhythm determining effectiveness of multi-step progressions
 - [[Submission Chains]] (Principle) - Complementary chaining concept where submission sequences integrate with positional chains to create comprehensive offensive systems
 - [[Transition Management]] (Principle) - Technical framework for maintaining control during sequential movements, ensuring smooth chain execution without positional interruptions
-- [[System Building]] (Principle) - Advanced evolution where position chains become interconnected networks forming cohesive strategic systems around core positions
-- [[Dilemma Creation]] (Principle) - Strategic principle where advanced chains force opponent to choose between defensive options that each lead to unfavorable subsequent positions
-- [[Match Strategy]] (Principle) - Competition framework where position chains must be designed to support point accumulation and time management objectives
-- [[Energy Management System]] (Principle) - Physiological framework that determines which chain progressions are sustainable versus which deplete energy reserves prematurely
+- [[Competition Strategy]] (System) - Strategic framework where position chains become components of comprehensive competition game plans built around tested sequential progressions
+- [[Fork Attacks]] (Principle) - Strategic principle where advanced chains force opponent to choose between defensive options that each lead to unfavorable subsequent positions
+- [[Competition Mindset]] (Principle) - Competitive framework where position chains must be designed to support point accumulation, time management, and match pressure objectives
+- [[Energy Conservation]] (Principle) - Physiological framework that determines which chain progressions are sustainable versus which deplete energy reserves prematurely
 - [[Back Control]] (Position) - Common goal position for offensive chains from multiple starting positions due to dominant control and high submission success rates
 - [[Mount]] (Position) - Frequent intermediate position in chains advancing from side control or sweep positions toward back control or submissions
 - [[Half Guard]] (Position) - Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences

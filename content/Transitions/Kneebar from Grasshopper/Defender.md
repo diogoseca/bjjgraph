@@ -166,6 +166,8 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar from Grasshopper?</p>
+
 - Opponent's hips begin elevating and rotating while their outside leg shoots toward the back of your knee - this threading motion is the first physical indicator of the kneebar entry
 - You feel a hook or contact behind your lead knee from the bottom player's calf or ankle while they are inverted - this leg contact is the anchor they use to initiate the full rotation
 - The bottom player's shoulders press into the mat as their hips rotate perpendicular to your leg - the perpendicular hip alignment signals they are positioning the fulcrum for the hyperextension
@@ -177,6 +179,8 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar from Grasshopper?</p>
 
 - Early recognition beats late defense - identify the inversion and leg threading before hip rotation completes
 - Never commit full weight to your lead leg when opponent has grasshopper guard established beneath you
@@ -191,6 +195,8 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar from Grasshopper?</p>
 
 ### 1. Step back and disengage the targeted leg before the hip rotation completes
 
@@ -228,6 +234,8 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar from Grasshopper?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Deny the entry early by stepping back when you detect the threading motion, or turn your hip toward the attacker to collapse the kneebar angle. In both cases, maintaining awareness of your weight distribution and reacting before they secure heel control returns you to a neutral engagement where you can re-establish your passing approach.
@@ -243,6 +251,8 @@ When you read the entry attempt early enough, drive forward with a sprawl to fla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar from Grasshopper?</p>
 
 ### 1. Pulling your leg straight backward away from the entanglement once they have partial control
 
@@ -277,6 +287,8 @@ When you read the entry attempt early enough, drive forward with a sprawl to fla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar from Grasshopper?</p>
+
 **Week 1-2** - Recognition and early exit
 Partner initiates kneebar entries at 25% speed from grasshopper guard. Practice identifying the threading motion and hip rotation cues, then executing the step-back disengage. No resistance on the exit - focus purely on developing the visual and tactile recognition of the entry phase.
 
@@ -293,29 +305,6 @@ Partner plays grasshopper guard freely and attacks with kneebar entries at full 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a kneebar from grasshopper is being initiated?
-**A**: The earliest cue is the opponent's outside leg shooting toward the back of your knee in a threading motion while their hips begin to elevate and rotate. This threading is the anchor for their entire entry. Recognizing this leg movement before the hip rotation completes gives you the maximum defensive window to step back or adjust your stance before they can establish any meaningful control.
-
-**Q2**: Why is pulling your leg straight backward a poor defensive choice once the attacker has partial control?
-**A**: Pulling straight backward extends your leg along the attacker's centerline, which is precisely the alignment they need for the hyperextension finish. You are essentially straightening your own leg into their kneebar position. Instead, rotating your hip toward the attacker collapses the extension angle by bringing your knee offline from their hip crease, making the finish mechanically impossible even with partial leg contact maintained.
-
-**Q3**: What is your last-resort defensive option when the attacker has consolidated the kneebar position with knees pinched?
-**A**: The last-resort defense is aggressively bending your knee and pulling your heel toward your buttock while fighting their grip on your ankle. A deeply bent knee cannot be hyperextended regardless of how much hip pressure they apply. This is energy-intensive because you are fighting their pulling force and hip bridge simultaneously, but it prevents the finish and buys time to work the leg free or wait for a grip adjustment that creates an extraction opportunity.
-
-**Q4**: How should your stance and weight distribution change when you recognize your opponent is playing grasshopper guard?
-**A**: Widen your base slightly and keep your lead leg light rather than heavily weighted. Avoid committing full bodyweight forward onto either leg. Maintain enough distance that their inverted legs cannot immediately thread behind your knee without first closing the gap. Your posture should remain upright with hips back - bending at the waist brings you closer to their entanglement range and compromises your ability to step back quickly.
-
-**Q5**: Your opponent begins rolling to follow your step-back - how do you prevent them from catching you during the pursuit?
-**A**: When they roll to follow your retreat, circle laterally rather than continuing straight backward. Their rolling motion commits them to a linear path, and lateral movement forces them to reorient mid-roll, which breaks their momentum and leg connection. As you circle, look for an opportunity to drive forward onto their exposed back or side as their roll fails to track you, converting their offensive pursuit into your passing opportunity.
-
-
-
-</section>
 
 
 </main>

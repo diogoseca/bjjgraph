@@ -194,6 +194,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from Mounted Crucifix?</p>
+
 - Bridge direction determines escape success — always bridge toward the side of the trapped arm to create maximum disruption to the leg entanglement
 - Timing bridges to opponent's weight shifts or attack initiations multiplies their effectiveness by catching the top player in transitional balance
 - Arm extraction must be simultaneous with or immediately follow the bridge peak — the disruption window lasts less than one second before control re-establishes
@@ -208,6 +210,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from Mounted Crucifix?</p>
+
 - At least one foot planted flat on the mat with heel close to buttocks for maximum bridge leverage and hip extension power
 - Neck defense established with chin tucked tightly to chest preventing immediate choke submission during escape attempt
 - Assessment completed of which arm or arms are trapped and the specific configuration of opponent's leg entanglement
@@ -220,6 +224,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from Mounted Crucifix step by step?</p>
 
 1. **Assess Entanglement Configuration**: Identify which arm or arms are trapped by the opponent's legs and note the specific leg positioning creating the control. Determine which side offers the greatest mechanical advantage for disruption — typically the side where your arm is most deeply trapped. This assessment must be rapid, occurring within seconds of reaching mounted crucifix before the opponent settles full control.
 2. **Establish Neck Defense**: Tuck your chin tightly to your chest and elevate shoulders toward your ears to create a defensive barrier against choke attacks. Use any available mobility in your free arm to protect the front of your neck and fight any grip attempts near your collar or throat. This defensive posture must be maintained throughout the entire escape sequence to prevent submission before escape is achieved.
@@ -250,6 +256,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from Mounted Crucifix?</p>
+
 - **Opponent widens base and drops hips when feeling bridge initiation through the mat** (Effectiveness: High) - Your Response: Feint the bridge to draw the base-widening reaction, then immediately execute a full bridge when the opponent starts to re-narrow their base to attack. Alternatively, use the incremental bridge series to gradually erode their widened base position. → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Opponent attacks armbar or choke during bridge attempt when arms momentarily become exposed** (Effectiveness: High) - Your Response: Maintain chin-to-chest protection throughout and immediately retract any exposed arm close to the body if a submission threat is detected. If the choke is deep, address the submission defense before reattempting the bridge escape. → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Opponent transitions to standard mount by voluntarily releasing leg control and re-settling weight during the disruption** (Effectiveness: Medium) - Your Response: Accept the transition to mount bottom as a significant positional improvement — your arms are free and all standard mount escapes become available. Immediately begin elbow escape or upa sequences before the opponent re-establishes heavy control. → Leads to [[Positions/Mount]]
@@ -261,6 +269,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from Mounted Crucifix?</p>
 
 ### 1. Bridging straight upward without directional commitment toward the trapped arm side
 
@@ -300,6 +310,8 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from Mounted Crucifix (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Directional bridge power development
 Practice explosive bridges from flat back position with partner in mounted crucifix at zero resistance. Focus on foot placement close to hips, hip drive direction toward the trapped arm side, and generating maximum upward and lateral force. Repeat 10 bridges per direction with emphasis on proper form and full commitment.
 
@@ -320,39 +332,12 @@ During regular sparring, when mounted crucifix occurs naturally, practice readin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you bridge toward the trapped arm side rather than the free arm side?
-**A**: Bridging toward the trapped arm side creates maximum disruption to the leg entanglement because it drives the opponent's weight and hips away from the anchor point of their leg control. This direction exploits the structural weakness in the crucifix configuration where the trapping leg must maintain pressure against your arm. Bridging the opposite direction compresses the entanglement tighter, making extraction more difficult and wasting the explosive effort entirely.
-
-**Q2**: What is the approximate time window for arm extraction after a successful bridge?
-**A**: The extraction window is typically less than one second — the brief moment where the bridge has disrupted the opponent's balance and loosened their leg control before they can re-establish position. This extremely narrow window is why the arm extraction must be pre-planned and executed as a simultaneous or immediately sequential movement with the bridge, not as a separate action attempted after the bridge settles back down.
-
-**Q3**: Your opponent attacks a choke as you prepare to bridge — how do you adjust your escape sequence?
-**A**: Address the choke threat before committing to the bridge escape. Tuck your chin tightly to chest, elevate shoulders to close gaps around the neck, and use any available arm mobility to fight the choking grip. Only after neutralizing or weakening the choke threat should you proceed with the bridge. Bridging during an active choke can deepen the submission by creating space for the choking arm as your chin lifts during spinal extension.
-
-**Q4**: What should you do immediately after extracting your trapped arm from the crucifix?
-**A**: Immediately establish a frame against the opponent's hip or torso using the freed arm, then insert your knee between your body and the opponent to create a knee shield. This frame-to-shield sequence prevents the opponent from re-capturing your arm or transitioning to submission attacks on the newly freed limb. The extracted arm must go directly into a defensive structural frame — any delay allows the opponent to re-establish arm control or attack the exposed limb.
-
-**Q5**: How should you manage energy when multiple bridge attempts are needed?
-**A**: Avoid continuous explosive bridging, which depletes energy exponentially with each attempt. Maintain constant subtle hip movement between attempts to prevent the opponent from settling perfectly, but reserve explosive energy for moments when the opponent's weight shifts or they initiate attacks. Each bridge should be timed to a specific window rather than thrown randomly. Rest between attempts by focusing on positional defense while reading the opponent's next movement for optimal timing.
-
-**Q6**: What distinguishes a successful bridge escape from an unsuccessful one in terms of physical commitment?
-**A**: Successful bridges require full directional commitment with maximum hip extension and strong lateral drive toward the trapped arm side. Half-hearted bridges that hedge between directions or do not fully extend the hips generate insufficient force to disrupt established crucifix control. The top player's legs create a mechanical lock that only yields to substantial force applied in the correct direction. Full commitment also ensures the extraction window is at its widest at the bridge peak.
-
-**Q7**: When should you accept transitioning to mount bottom rather than continuing to fight for half guard recovery?
-**A**: Accept mount bottom when your arm extraction succeeds but you cannot establish frames quickly enough to prevent the opponent from re-settling their weight. Mount bottom with free arms is significantly better than mounted crucifix — you regain all standard escape options including upa, elbow escape, and hip escape. Continuing to fight for half guard while the opponent re-establishes control risks returning to crucifix. Take the positional improvement and immediately begin standard mount escape sequences.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from Mounted Crucifix?</p>
 
 Bridge escapes from mounted crucifix involve explosive spinal extension under significant load from the opponent's body weight. Warm up the lower back and hips thoroughly before drilling this technique. During training, communicate clearly with your partner if you feel any neck compression or breathing restriction during the crucifix position. Tap immediately to any choke or joint lock threat — the mounted crucifix creates extremely fast submission finishes with minimal reaction time available. Partners maintaining the crucifix position should control their weight distribution and avoid dropping full weight suddenly onto the trapped practitioner's chest or face. Begin drilling at low intensity and gradually increase resistance across training sessions.
 

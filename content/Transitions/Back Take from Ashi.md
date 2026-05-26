@@ -200,7 +200,7 @@ The Back Take from Ashi represents a critical branch point in the modern leg loc
 
 - [[Positions/Back Control]] - Target position achieved on successful execution
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission after achieving back control
 
 - [[Submissions/Inside Heel Hook]] - Alternative attack when opponent does not create back exposure
 
@@ -212,7 +212,7 @@ The Back Take from Ashi represents a critical branch point in the modern leg loc
 
 - [[Positions/Turtle]] - Common defensive position opponent may achieve if back take is incomplete
 
-- [[Submissions/Armbar from Back]] - Secondary submission option after achieving back control
+- [[Transitions/Armbar from Back Transition]] - Secondary submission option after achieving back control
 
 
 </section>

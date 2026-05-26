@@ -75,7 +75,7 @@
       "relationship": "Parent guard system encompassing both deep half and lockdown"
     },
     {
-      "name": "Electric Chair Finish",
+      "name": "Electric Chair",
       "relationship": "Primary submission available from the target Electric Chair position"
     },
     {
@@ -229,7 +229,7 @@
         "description": "Partner holds static deep half top position while you practice threading the lockdown from the deep half bottom. Focus on foot placement, triangle completion, and maintaining the underhook throughout. Perform 20 repetitions per side with no resistance. The goal is building the motor pattern of the foot threading sequence without positional pressure."
       },
       {
-        "phase": "Phase 2: Hip Extension and Angle Creation",
+        "phase": "Phase 2: Hip Extension and Dominant Angles",
         "focus": "Coordinating lockdown extension with body rotation",
         "description": "From established deep half with lockdown, practice the hip extension and perpendicular angle creation against a cooperative partner. Partner provides light forward pressure to simulate realistic weight. Focus on timing the extension with the underhook pull and achieving the full perpendicular angle. 15 repetitions per side."
       },
@@ -249,7 +249,7 @@
         "description": "Full rolling sessions where you actively hunt for deep half entries to set up the Electric Chair transition. Practice recognizing the right moment to thread the lockdown during live exchanges. Emphasize situational awareness and timing over forcing the position. Track success rate over training sessions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for threading the lockdown when your opponent is in deep half top?",
         "answer": "The best timing is immediately after the opponent attempts to shift their weight forward to establish crossface pressure or begins adjusting their base. During these weight transfers, their near leg becomes momentarily lighter and less mobile, making it easier to thread the lockdown without them retracting the leg. Attempting the lockdown when they are static and balanced gives them the best chance of detecting and preventing the configuration."
@@ -362,7 +362,7 @@
         "correction": "Use your free hand to strip the opponent's grip on your far ankle whenever possible, or tuck the ankle behind their body where they cannot reach it. Addressing the ankle control removes one of the three pillars of the Electric Chair."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Electric Chair entry from deep half?",
         "answer": "The earliest cue is feeling the opponent's outside leg moving over your near shin in a threading motion. In standard deep half, their legs stay below and behind your trapped leg. The moment a leg crosses over the top of your shin, it signals lockdown threading. This happens before the figure-four is completed, giving you a critical window to retract your leg and prevent the lockdown from being established."

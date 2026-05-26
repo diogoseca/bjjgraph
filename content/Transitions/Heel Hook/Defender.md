@@ -166,6 +166,8 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Heel Hook?</p>
+
 - Opponent's arm threads around your heel with their wrist blade pressing against your Achilles tendon—this is the primary grip indicator
 - Opponent clamps your heel into their armpit or against their chest while maintaining leg entanglement control around your knee
 - You feel rotational pressure on your heel perpendicular to your knee's natural bending direction—this is the breaking mechanic being applied
@@ -178,6 +180,8 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Heel Hook?</p>
 
 - Tap early and without hesitation—heel hooks damage ligaments before you feel significant pain, making late taps catastrophic
 - Defend the position before the submission—prevent advancement through the Ashi Garami hierarchy rather than defending the heel hook itself
@@ -192,6 +196,8 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Heel Hook?</p>
 
 ### 1. Boot defense—straighten your leg forcefully to hide the heel and prevent grip access
 
@@ -229,6 +235,8 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Heel Hook?</p>
+
 ### → [[Positions/Ashi Garami]]
 
 Successfully strip the attacker's heel grip through two-on-one grip fighting, then immediately boot your leg straight and begin leg extraction. Use hip rotation to face the attacker and deny re-grip attempts while systematically clearing their leg entanglement hooks.
@@ -244,6 +252,8 @@ When the attacker overcommits to the heel hook and neglects their own heel defen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Hook?</p>
 
 ### 1. Waiting too long to tap, trying to tough out the heel hook or escape after rotational force is applied
 
@@ -278,6 +288,8 @@ When the attacker overcommits to the heel hook and neglects their own heel defen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Heel Hook?</p>
+
 **Week 1-2** - Recognition and Tap Discipline
 Partner applies heel hook grip at slow speed from various Ashi positions. Practice recognizing the grip, identifying the rotational direction, and tapping immediately when caught. Build the reflex to tap without hesitation. Zero resistance from defender—focus purely on recognition and response.
 
@@ -294,29 +306,6 @@ Positional sparring starting in Ashi Garami positions with full heel hook threat
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is tapping early to heel hooks more critical than tapping early to other submissions?
-**A**: Heel hooks attack knee ligaments (ACL, MCL, meniscus) that have minimal pain receptors and don't stretch before failure. Unlike chokes that cause gradual consciousness loss or armbars that produce escalating elbow pain, heel hooks can cause complete ligament rupture before the defender feels significant warning pain. The damage threshold arrives before the pain threshold, making late taps catastrophic.
-
-**Q2**: You feel your opponent threading their arm around your heel—what is your immediate defensive priority?
-**A**: Immediately attack their grip with both hands using two-on-one grip fighting to strip their wrist off your Achilles before they achieve depth. Simultaneously rotate your knee inward and attempt to boot (straighten) your leg to hide the heel. Speed is critical—every second they have to deepen the grip makes the strip exponentially harder. If the grip is already deep and locked, skip grip fighting and tap.
-
-**Q3**: What is the correct direction to rotate your hips when defending a heel hook, and why?
-**A**: Rotate your hips toward the attacker (facing them), never away. The heel hook's breaking mechanic requires a perpendicular rotational angle to your knee—turning to face the attacker eliminates this angle by aligning your knee's bending plane with their force direction. Rotating away from the attacker adds your rotational force to theirs, amplifying the damage potential and making the submission more effective.
-
-**Q4**: Your opponent has advanced from Outside Ashi to Inside Ashi and is beginning to expose your heel—should you focus on grip defense or positional escape?
-**A**: Prioritize positional escape. Inside Ashi provides strong finishing mechanics, so remaining there while fighting grips is a losing proposition—eventually they will secure the heel. Instead, deny their inside space control through hip positioning, work to degrade their entanglement back toward Outside Ashi or extract entirely. Fighting grips without addressing position is treating symptoms rather than the root cause of the danger.
-
-**Q5**: When is counter-attacking with your own heel hook an appropriate defensive response?
-**A**: Counter heel hooks are appropriate when you have legitimate access to the opponent's heel and your own position is not critically compromised—typically in 50-50 or when the attacker has neglected their own heel defense while focusing on their attack. It is NOT appropriate when you are in an inferior Ashi position (they have Saddle, you have Outside Ashi) because they will finish first. Assess position quality before committing to counter-attack rather than escape.
-
-
-
-</section>
 
 
 </main>

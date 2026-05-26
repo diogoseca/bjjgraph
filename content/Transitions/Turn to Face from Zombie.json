@@ -244,7 +244,7 @@
         "description": "Positional sparring starting from Zombie position with full resistance. Bottom player incorporates Turn to Face alongside other Zombie escapes and attacks, selecting it when appropriate rather than forcing it. Top player uses full passing repertoire. Measures success rate and identifies remaining technical gaps."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the Turn to Face from Zombie?",
         "answer": "The optimal window opens when the top player's weight shifts during a passing transition or when they commit to extracting their leg from the lockdown. Specifically, look for moments when their crossface pressure temporarily lifts as they readjust position, when they pull backward to free their trapped leg, or when they begin circling toward a new passing angle. These weight transfers create brief gaps in their pressure that provide the space needed for hip rotation. Never attempt the turn when the opponent is settled with heavy crossface and stable base."
@@ -369,7 +369,7 @@
         "correction": "Maintain constant offensive pressure with passing attempts, back-take threats, and grip fighting to keep the bottom player reactive and defensive rather than setting up their own escape sequences"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is about to attempt a Turn to Face?",
         "answer": "The earliest cues are changes in the bottom player's far arm positioning—it tucks tight to their body rather than seeking underhook or grips—and subtle hip weight shifts as they load their bottom hip for rotation. You will also feel changes in lockdown tension as they either stretch to create space or begin loosening in preparation for release. Their near-side arm will shift from underhook attempts to establishing a forearm frame against your shoulder. Recognizing these pre-turn adjustments gives you a 1-2 second window to apply counter-pressure before the turn begins."
@@ -398,7 +398,7 @@
         "description": "With eyes closed from Zombie Top, partner slowly begins Turn to Face setup. Defender identifies the specific moment they feel frame creation, hip shifting, or lockdown changes. Develop tactile sensitivity to pre-turn signals without relying on visual cues. Practice calling out when you detect the turn beginning."
       },
       {
-        "phase": "Phase 2: Counter Pressure Application",
+        "phase": "Phase 2: Counter Pressure",
         "focus": "Crossface and sprawl timing",
         "description": "Partner attempts Turn to Face at 50% speed while you practice applying immediate crossface counter-pressure and hip sprawl upon detection. Focus on the timing of your response relative to their rotation initiation. Develop automatic counter-pressure responses that fire immediately upon detection of turning intent."
       },

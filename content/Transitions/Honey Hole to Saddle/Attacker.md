@@ -194,6 +194,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Honey Hole to Saddle?</p>
+
 - Maintain at least one primary control point at all times during reconfiguration to prevent escape windows
 - Adjust sequentially rather than simultaneously to preserve control throughout the transition
 - Drive hips forward into the opponent's trapped leg before adjusting leg configuration
@@ -209,6 +211,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Honey Hole to Saddle?</p>
+
 - Inside leg triangle established around opponent's thigh with ankle hooked behind their leg
 - Outside leg crossing opponent's hip with shin contact maintaining some degree of hip pressure
 - At least one grip controlling opponent's upper body or far leg to limit defensive reactions
@@ -221,6 +225,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Honey Hole to Saddle step by step?</p>
 
 1. **Assess current configuration**: Evaluate your hip pressure, inside leg triangle tightness, perpendicular alignment, and heel exposure from your current Honey Hole position. Identify specifically which elements need adjustment to achieve Saddle configuration. This assessment should take less than one second and determine whether you need primarily hip angle correction, leg tightening, or both.
 2. **Secure upper body anchor**: Before adjusting any leg positioning, establish a controlling grip on the opponent's far leg, shorts, belt, or hip with your outside hand. This grip prevents them from sitting up, creating frames, or capitalizing on the momentary loosening that occurs during reconfiguration. Without this anchor, the transition becomes significantly riskier.
@@ -251,6 +257,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Honey Hole to Saddle?</p>
+
 - **Opponent explosively rotates toward you during the reconfiguration window when hip pressure momentarily decreases** (Effectiveness: High) - Your Response: Immediately abandon the transition and re-drive hip pressure forward to re-establish Honey Hole control. Follow their rotation by adjusting your angle to maintain inside position. Do not fight the rotation directly; instead ride it while tightening your triangle. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent frames on your hip with their free leg and creates space to extract their trapped leg during loosened control** (Effectiveness: High) - Your Response: Use your outside hand to strip or redirect the framing leg while driving your hips forward to close the space. If extraction begins, immediately transition to Inside Ashi-Garami as a fallback rather than forcing the Saddle against a partially freed leg. → Leads to [[Positions/Half Guard]]
 - **Opponent uses free leg to push your outside leg off their hip, preventing you from establishing the deeper shin wedge** (Effectiveness: Medium) - Your Response: Pin their free leg with your outside hand or hook it with your outside foot before reattempting the outside leg adjustment. Alternatively, complete the other adjustments first and use your improved hip pressure to overcome their frame on the final step. → Leads to [[Positions/Ashi Garami/Honey Hole]]
@@ -262,6 +270,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Honey Hole to Saddle?</p>
 
 ### 1. Releasing hip pressure completely while adjusting leg configuration
 
@@ -301,6 +311,8 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Honey Hole to Saddle (Attacker)?</p>
+
 **Phase 1: Static Mechanics** - Individual adjustment components without resistance
 Practice each step of the reconfiguration in isolation with a cooperative partner. Drill hip drives, inside triangle tightening, outside leg adjustment, and perpendicular alignment as separate movements. Repeat each component 20 times per side until the mechanics are automatic. Focus on maintaining contact throughout each individual adjustment.
 
@@ -321,42 +333,12 @@ After achieving Saddle through the transition, immediately flow into heel hook, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Honey Hole to Saddle transition?
-**A**: The optimal timing is when the opponent pauses their escape attempts, typically after an unsuccessful rotation or extraction effort when they are momentarily resting and reassessing. This 1-2 second window of reduced defensive activity provides the safest opportunity to reconfigure without creating exploitable escape openings. Initiating during active escape attempts dramatically increases the risk of losing position entirely.
-
-**Q2**: What conditions must exist in your Honey Hole before attempting this transition?
-**A**: You must have a functioning inside leg triangle with your ankle hooked behind the opponent's leg, your outside leg making some contact across their hip, and at least one controlling grip on their upper body or far leg. The opponent's leg must be trapped between your legs with their heel oriented toward your torso. If any of these elements is missing, re-establish Honey Hole control before attempting the Saddle transition.
-
-**Q3**: Your opponent begins rotating toward you just as you lift your outside leg to adjust its angle - how do you respond?
-**A**: Immediately replant your outside leg across their hip and drive your hips forward to re-establish Honey Hole pressure. Do not try to complete the Saddle transition during active rotation. Follow their rotation by adjusting your angle while maintaining the inside leg triangle, and wait for them to settle before reattempting the reconfiguration. Trying to force the transition during rotation creates a scramble that favors the defender.
-
-**Q4**: What is the most critical mechanical detail when tightening the inside leg triangle during this transition?
-**A**: The ankle must be pulled deep behind the opponent's thigh, not floating loosely behind their knee. The difference between a locked triangle and a loose one is measured in inches at the ankle position. Pull your heel toward your own glute while squeezing your knees together, creating a clamp that eliminates the rotational slack defenders exploit. This tightening must happen before the outside leg adjustment.
-
-**Q5**: What grip configuration should you establish before beginning any leg reconfiguration?
-**A**: Secure a controlling grip on the opponent's far leg, shorts, or hip with your outside hand before touching your leg positioning. This upper body anchor prevents the opponent from sitting up, framing, or capitalizing on the momentary loosening during reconfiguration. Without this grip, any leg adjustment creates an uncontrolled window that experienced defenders will exploit immediately.
-
-**Q6**: In which direction should you drive your hips during the perpendicular alignment phase?
-**A**: Drive your hips forward and slightly downward into the opponent's trapped thigh, creating a wedge effect that pins their hip flat. The direction is toward their centerline at approximately a 45-degree downward angle. This forward hip drive is the foundation of the entire transition because it compensates for any momentary loosening of the legs during reconfiguration and prevents rotation-based escapes.
-
-**Q7**: You have loosened your triangle to adjust but your opponent immediately starts pulling their knee to their chest to extract their leg - what is your immediate response?
-**A**: Abandon the Saddle transition and immediately re-clamp your inside leg triangle while driving hips forward to pin their leg back down. Use your outside hand to grip their ankle or pants and pull their leg back into the entanglement. If extraction has progressed significantly, transition to Inside Ashi-Garami as a fallback position rather than fighting for a compromised Honey Hole. Speed is critical - address the extraction within one second.
-
-**Q8**: The transition is blocked because your opponent maintains a strong frame with their free leg on your hip - what adjustments or chain attacks do you pursue?
-**A**: First attempt to pin or redirect their framing leg using your outside hand or by hooking it with your outside foot. If the frame persists, consider attacking from the current Honey Hole position rather than forcing the Saddle. The inside heel hook, kneebar, and toe hold are all available from Honey Hole without requiring full Saddle optimization. Alternatively, use the frame removal attempt to create a timing window: as you address their frame, they may relax the leg momentarily, opening the transition opportunity.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Honey Hole to Saddle?</p>
 
 This transition involves leg entanglement reconfiguration that can inadvertently apply torque to the opponent's knee joint during adjustment. Both practitioners must communicate clearly during training and establish tap protocols before drilling. If the defender feels unexpected rotational pressure on their knee during the attacker's reconfiguration, they should tap immediately rather than waiting to assess whether the pressure is intentional. Training should begin at slow speed with cooperative partners before adding resistance. Never force the transition against a partner who is verbally indicating discomfort.
 

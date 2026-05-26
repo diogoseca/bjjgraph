@@ -162,6 +162,8 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Triangle Escape to Half Guard?</p>
+
 - Opponent begins turning their torso toward the side where your triangle leg crosses their body – this is the initial setup movement for the clearing sequence
 - Opponent's hand moves from defending your choking arm toward your ankle or foot behind your knee, indicating they are targeting the figure-four lock point
 - Opponent's hips begin shifting and creating space between your legs and their torso, suggesting hip escape movement to create the angle needed for clearing
@@ -173,6 +175,8 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Triangle Escape to Half Guard?</p>
 
 - Punish clearing attempts with immediate neck attacks: Any time the opponent redirects hands from neck defense to the triangle, capitalize with choke entries that force them to abandon the escape
 - Maintain deep lock position: Keep your foot driven deep behind your knee and actively squeeze to prevent space creation around the lock point
@@ -187,6 +191,8 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Triangle Escape to Half Guard?</p>
 
 ### 1. Increase triangle squeeze and pull opponent's torso back flat with seatbelt
 
@@ -224,6 +230,8 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Triangle Escape to Half Guard?</p>
+
 ### → [[Positions/Back Control/Body Triangle]]
 
 Immediately punish any clearing attempt with neck attacks, forcing opponent to repeatedly abandon escape progress and return to defensive hand fighting. Maintain deep foot lock behind your knee, follow the opponent's turning attempts with hip adjustments, and modulate squeeze pressure to deplete their energy reserves.
@@ -239,6 +247,8 @@ When the triangle lock is partially cleared and re-locking is not viable, swiftl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Triangle Escape to Half Guard?</p>
 
 ### 1. Allowing opponent to turn toward the triangle side without following with hip adjustment
 
@@ -268,6 +278,8 @@ When the triangle lock is partially cleared and re-locking is not viable, swiftl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Triangle Escape to Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying escape attempt cues early
 Partner performs body triangle escape sequences at moderate speed while you focus on recognizing the cues – turning motion, hand redirection toward ankle, hip shifting. Do not counter initially, just develop the ability to read escape attempts before they reach the critical clearing phase.
 
@@ -284,29 +296,6 @@ Partner attempts escapes while you practice using their clearing attempts as sub
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent is about to attempt a body triangle clearing sequence?
-**A**: Watch for the opponent beginning to turn their torso toward the triangle leg side, which reduces your squeeze angle. Their hand moving from neck defense toward your ankle behind your knee is the most definitive indicator of an imminent clearing attempt. A brief pause in their hand fighting often precedes a committed attempt as they gather energy and focus for the effort.
-
-**Q2**: What is your optimal response when the opponent successfully pushes your foot out from behind your knee?
-**A**: Immediately attempt to re-drive the foot behind your knee before they can establish a blocking frame with their elbow or forearm. If the re-lock is not possible within one to two seconds, transition to standard hooks by inserting both feet inside their thighs while maintaining seatbelt control. Do not spend extended time trying to re-lock a clearly compromised triangle while the opponent is actively hip escaping toward guard recovery.
-
-**Q3**: Why is attacking the neck the most effective counter when your opponent begins the triangle clearing sequence?
-**A**: Neck attacks create an impossible resource allocation problem – the opponent must defend the choke with their hands, but clearing the triangle also requires their hands. They cannot do both simultaneously. Every second they spend returning to neck defense is a second they cannot work on the triangle clearing, and repeated choke threats deplete their energy and mental composure under the breathing restriction your triangle creates.
-
-**Q4**: What positional adjustments maintain your triangle's effectiveness when the opponent turns toward the crossing leg?
-**A**: Follow their turning motion by adjusting your hips to stay perpendicular to their torso rather than allowing them to align with your squeeze direction. Pull their shoulders back toward you with the seatbelt and drive your chest tighter against their back. Increase momentary squeeze pressure during the turn to discourage continued rotation and potentially force them to abandon the turning attempt entirely.
-
-**Q5**: When should you prioritize transitioning to hooks over fighting to maintain the body triangle?
-**A**: Transition to hooks when the opponent has successfully dislodged your foot from behind your knee and has established a structural frame preventing re-locking. If you spend more than two to three seconds attempting to re-lock against an active frame, you are losing time that could be spent securing hooks. The critical factor is whether seatbelt and chest connection remain intact – if they do, hooks will preserve back control effectively.
-
-
-
-</section>
 
 
 </main>

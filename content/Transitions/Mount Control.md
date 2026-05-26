@@ -180,7 +180,7 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Position Integration
 
-Mount Control is the connective tissue of the entire mount attack system. Without reliable control maintenance, submissions become gambles rather than systematic attacks. This technique integrates directly with Consolidate Mount as its continuation - you consolidate once, then control continuously. It connects to all mount attacks (Americana from Mount, Armbar from Mount, Cross Collar Choke, Ezekiel from Mount) by providing the stable platform from which to launch them. It also connects to positional advancement toward High Mount, Technical Mount, and S Mount by maintaining the base position from which advancement occurs.
+Mount Control is the connective tissue of the entire mount attack system. Without reliable control maintenance, submissions become gambles rather than systematic attacks. This technique integrates directly with Consolidate Mount as its continuation - you consolidate once, then control continuously. It connects to all mount attacks (Americana, Mount to Armbar, Cross Collar Choke, Ezekiel Choke) by providing the stable platform from which to launch them. It also connects to positional advancement toward High Mount, Technical Mount, and S Mount by maintaining the base position from which advancement occurs.
 
 </section>
 
@@ -196,11 +196,11 @@ Mount Control is the connective tissue of the entire mount attack system. Withou
 
 - [[Transitions/High Mount Transition]] - Advancement opportunity from controlled mount
 
-- [[Submissions/Americana from Mount]] - Submission option from stable control
+- [[Submissions/Americana]] - Submission option from stable mount control
 
-- [[Submissions/Armbar from Mount]] - Submission option from stable control
+- [[Transitions/Mount to Armbar]] - Submission setup from stable mount control
 
-- [[Transitions/Cross Collar Choke]] - Submission option from stable control
+- [[Submissions/Cross Collar Choke]] - Submission option from stable control
 
 - [[Positions/Mount/Technical Mount]] - Alternative control variation
 

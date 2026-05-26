@@ -111,7 +111,7 @@
         "condition": "If opponent extends trapped arm attempting extraction",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar from Crucifix",
             "target": "game-over",
             "probability": 80
           },
@@ -295,11 +295,11 @@
     },
     "transitions": [
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar from Crucifix",
         "attempt_probability": 16
       },
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Mounted Crucifix",
         "attempt_probability": 10
       },
       {
@@ -315,7 +315,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Neck Crank",
+        "transition": "Neck Crank from Mounted Crucifix",
         "attempt_probability": 5
       },
       {
@@ -343,7 +343,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the essential weight distribution principles for maintaining mounted crucifix control?",
         "answer": "Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust."
@@ -453,7 +453,7 @@
             "probability": 35
           },
           {
-            "technique": "Frame Creation",
+            "technique": "Frames",
             "target": "Mount",
             "probability": 20
           }
@@ -645,7 +645,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first priority when you find yourself in mounted crucifix bottom position?",
         "answer": "Your first priority is immediate submission defense - protect your neck and any remaining free limbs before attempting any positional escape. Tuck your chin tightly to your chest, elevate your shoulders toward your ears to protect the sides of your neck, and use any free arm to create secondary defensive barriers. Positional escapes come second because attempting to escape while arms are trapped typically results in either back exposure or submission. Survival must precede improvement."

@@ -162,6 +162,8 @@ Defending against the bridge escape from scarf hold requires the top player to r
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from Scarf Hold?</p>
+
 - Bottom player walks their feet close to their hips and plants them firmly flat on the mat with knees bent, indicating they are loading bridge power
 - Bottom player's free arm reaches across their body to grab your head-wrapping arm, sleeve, or elbow, attempting to trap your posting ability
 - Bottom player threads their bottom leg around to hook your near leg at the ankle or calf, removing your secondary base
@@ -174,6 +176,8 @@ Defending against the bridge escape from scarf hold requires the top player to r
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from Scarf Hold?</p>
 
 - Maintain wide base with far leg posted and back leg extended to create structural resistance against rotational bridging force
 - Keep your head-wrapping arm mobile and tight, never allowing the bottom player to pull it across their chest for trapping
@@ -188,6 +192,8 @@ Defending against the bridge escape from scarf hold requires the top player to r
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from Scarf Hold?</p>
 
 ### 1. Widen base preemptively by posting far arm wide and extending back leg when bridge setup is detected
 
@@ -225,6 +231,8 @@ Defending against the bridge escape from scarf hold requires the top player to r
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Scarf Hold Position]]
 
 Maintain solid base with weight distributed through hips and wide posting leg. When bottom player attempts bridge, preemptively widen base and drive hip pressure deeper to resist the rotational force. Keep head-wrapping arm mobile and tight so it cannot be trapped. After the failed bridge, immediately re-consolidate controls by tightening arm isolation and resettling weight before they can chain into a follow-up escape.
@@ -240,6 +248,8 @@ Recognize the moment the bottom player commits their hips upward for the bridge 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from Scarf Hold?</p>
 
 ### 1. Maintaining narrow base with legs close together while in scarf hold, providing insufficient resistance to rotational bridge force
 
@@ -269,6 +279,8 @@ Recognize the moment the bottom player commits their hips upward for the bridge 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from Scarf Hold?</p>
+
 **Phase 1: Recognition Training** - Identifying bridge escape setup indicators
 Partner in scarf hold bottom cycles through bridge setup sequences without committing to the full bridge. Top player calls out each indicator as they recognize it: foot positioning, arm reaching, leg hooking. Develop pattern recognition through 50 repetitions of setup identification, building automatic recognition of the three-element bridge preparation.
 
@@ -285,29 +297,6 @@ Positional sparring from scarf hold with full resistance. Top player maintains p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three setup indicators that signal a bridge escape attempt from scarf hold bottom?
-**A**: The three primary indicators are: feet walking close to hips and planting firmly on the mat, the free arm reaching across to trap your head-wrapping arm, and the bottom leg threading around to hook your near leg. Recognizing any of these indicators should trigger immediate base adjustment and control tightening before the bottom player can complete all three setup elements and commit to the explosive bridge.
-
-**Q2**: Your bottom opponent lifts their hips for the bridge while you are in scarf hold - should you resist the bridge or transition?
-**A**: The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the space you need for the leg to clear. Resisting the bridge through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more energy-efficient.
-
-**Q3**: How do you prevent the bottom player from trapping your head-wrapping arm during the bridge escape setup?
-**A**: Keep your head-wrapping arm actively mobile by maintaining grip on the collar, belt, or behind their neck rather than resting it passively. The instant you feel pulling or gripping on this arm, immediately circle your elbow outward to break the grip and resecure your control position. You can also preemptively tighten your arm by driving your elbow into their far shoulder, making it physically inaccessible for trapping. Never allow the bottom player's grip to solidify on this arm.
-
-**Q4**: What base adjustment should you make when you detect bridge escape setup from scarf hold?
-**A**: Immediately widen your base by posting your far arm wider on the mat and extending your back leg further behind you to create a broader structural triangle. Simultaneously drive your hip pressure deeper into the bottom player's ribcage to compress their bridge capacity. This combined response creates maximum resistance to rotational force while limiting the bottom player's ability to generate bridge height. The wider base should be maintained until you confirm the bottom player has abandoned the bridge setup.
-
-**Q5**: When is the mount transition counter to the bridge escape most effective and when is it most dangerous?
-**A**: The mount transition is most effective when the bottom player commits to a vertical bridge without full rotational momentum, lifting their hips straight up rather than at the 45-degree escape angle. The counter is most dangerous when the bottom player has secured all three control points (arm trap, leg hook, rotational angle) and commits with full explosive force. In this scenario, attempting to step over can result in being carried over by the rotational momentum. The key is timing the step-over during the early upward phase of the bridge before full rotational force develops.
-
-
-
-</section>
 
 
 </main>

@@ -151,6 +151,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Position Definition
 
+<p class="section-subtitle">What is Dogfight Position (Top)?</p>
+
 - Both practitioners are elevated on their knees in upright or semi-upright kneeling positions, with weight distributed through knees and posting points, creating an inherently unstable equilibrium where small adjustments determine positional outcomes
 - Active underhook battle occurring with at least one player having established underhook control around opponent's torso, ideally reaching to the far shoulder, while the opponent typically counters with whizzer (overhook) control pulling back and downward
 - Bottom player's inside leg remains trapped between top player's thighs in half guard configuration, though the elevated posture creates space and mobility compared to flat half guard positions
@@ -165,6 +167,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Dogfight Position (Top)?</p>
+
 - Bottom player successfully established underhook from flat half guard position
 - Bottom player elevated hips off mat and came up to knees, creating the dogfight configuration
 - Bottom player maintains at least one strong frame (knee shield, butterfly hook, or posted leg) to prevent being flattened
@@ -177,6 +181,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Dogfight Position?</p>
 
 - Maintain constant forward pressure through the underhook, driving into opponent to prevent them from establishing stable base and controlling the direction of engagement
 - Use active frames (knee shield, butterfly hook, posted leg) to create and maintain space, preventing opponent from closing distance and flattening you to the mat
@@ -192,6 +198,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Dogfight Position (Top)?</p>
 
 **If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
@@ -231,6 +239,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Dogfight Position?</p>
 
 ### 1. Allowing the top player to flatten you to the mat by not maintaining active frames and forward pressure
 
@@ -275,6 +285,8 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Dogfight Position attacks?</p>
+
 ### Dogfight Position Retention Drill
 
 Partner starts in Dogfight with training partner applying progressive resistance to flatten them or strip the underhook. Bottom player maintains upright posture for 2-minute rounds while defending flattening attempts through active frames, forward underhook pressure, and superior head position. Partner gradually increases pressure intensity from 50% to 75% to 100% across multiple rounds. Focus on constant movement and base maintenance.
@@ -314,38 +326,6 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to establish and maintain in the Dogfight position, and where should it reach?
-**A**: The deep underhook is the primary grip priority in Dogfight. Your underhook arm should reach around the opponent's torso and ideally connect to their far shoulder or lat. A shallow underhook that only reaches the near hip provides insufficient control and is easily stripped by the whizzer. The deeper the underhook penetrates, the more leverage you generate for sweeps and the harder it becomes for your opponent to flatten you back to the mat.
-
-**Q2**: How should you distribute your weight in Dogfight to maintain the position against an opponent trying to flatten you?
-**A**: Weight should be driven forward and slightly diagonal through your underhook into the opponent's body. Your center of gravity stays over your knees with your hips slightly behind your shoulders to create a wedge-like driving angle. Avoid sitting back on your heels, which invites flattening. Your outside posting leg carries approximately 30-40% of your weight and acts as a dynamic kickstand, while the majority of your weight channels through your underhook side into the opponent, creating constant forward pressure that makes flattening extremely difficult.
-
-**Q3**: Your opponent begins driving hard into you with a strong whizzer and crossface, threatening to flatten you backward. What adjustment do you make?
-**A**: Rather than fighting the pressure head-on, redirect it by dropping your level and transitioning to a Deep Half Guard entry. Use the opponent's forward momentum against them by ducking under their driving pressure, threading your body beneath them to establish deep half guard. Alternatively, if you still have frame integrity, angle your body slightly offline to redirect their force past you rather than absorbing it directly, then immediately attack with a sweep or back take as their weight shifts forward past your center line.
-
-**Q4**: What are the three primary frames you can use in Dogfight to prevent being flattened, and when is each most appropriate?
-**A**: The three primary frames are: (1) the knee shield, placed across the opponent's hip or midsection when you need maximum distance and the opponent is pressuring forward aggressively; (2) the butterfly hook, using your inside foot hooked under the opponent's thigh when you need elevation for sweeps and mobility for transitions; and (3) the posted outside leg, used as a kickstand for base when driving forward with your underhook. The knee shield is defensive, the butterfly hook is offensive, and the posted leg is for maintaining balance during active exchanges.
-
-**Q5**: Your opponent suddenly releases their whizzer and attempts to circle toward your back while you have the underhook. What is your immediate response?
-**A**: This is a back take opportunity for you, not a defensive crisis. When the opponent releases the whizzer to circle, they momentarily lose their primary defensive tool against your underhook. Immediately deepen your underhook grip toward their far hip, drive your chest into their back as they turn, and work to secure a seatbelt grip or harness. Use your outside leg to hook their near leg and begin establishing back control. The key is recognizing this moment instantly and committing to the back take before they can re-establish the whizzer or complete their circle.
-
-**Q6**: How do you manage energy expenditure in Dogfight to avoid gassing out during extended exchanges?
-**A**: Energy management in Dogfight requires prioritizing structural efficiency over muscular effort. Use your skeleton and body positioning rather than arm strength to maintain the underhook—drive with your legs and hips rather than pulling with your arms. Commit fully to technique attempts rather than half-heartedly engaging in prolonged grip battles. If your first sweep attempt is defended after two seconds of committed effort, immediately flow to the next technique rather than burning energy forcing a failed attack. Rest momentarily in transitions between techniques, and recognize that Dogfight is a short-duration position—if you haven't advanced within 30-45 seconds, consider resetting to a more sustainable guard like knee shield or deep half.
-
-**Q7**: After your opponent partially escapes your underhook by swimming their arm inside, how do you recover the Dogfight position?
-**A**: When the underhook is partially compromised, immediately create a frame with your outside hand against the opponent's neck or shoulder to prevent them from completing the crossface. Use this momentary frame to re-pummel your underhook arm back inside before they can consolidate their inside position. If re-pummeling is not immediately possible, transition to a defensive position—either sit back to knee shield half guard to reset the grip fight, or duck under into deep half guard where the underhook is less critical. The worst response is to remain in Dogfight posture without the underhook, as this leaves you exposed to flattening and passing with no offensive tools.
-
-**Q8**: What specific pressure application technique distinguishes a high-level Dogfight player from an intermediate one?
-**A**: High-level Dogfight players use directional pressure changes rather than constant unidirectional driving. Instead of simply pushing forward, they alternate between driving forward into the opponent, pulling laterally to off-balance, and momentarily releasing pressure to create reactions. This push-pull rhythm forces the opponent to constantly readjust their base, creating the split-second windows needed for sweeps and back takes. The advanced practitioner also uses their head as a fifth limb, pressing it into the opponent's chest or chin to create additional control vectors and make the opponent carry extra weight through awkward angles.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

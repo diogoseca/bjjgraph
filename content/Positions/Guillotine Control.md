@@ -32,7 +32,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep front headlock grip with choking arm positioned against neck structures for immediate submission threat
@@ -100,7 +100,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (50% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (50% of attempts)
 
 - **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
 
@@ -183,25 +183,27 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (44% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (52% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (16% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (15% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (6% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (6% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (4% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (10% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (9% of attempts)
 
-- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (2% of attempts)
+- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (1% of attempts)
 
-- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (1% of attempts)
+- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (0% of attempts)
 
-- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (1% of attempts)
+- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (0% of attempts)
+
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
 
 
 ### Common Mistakes

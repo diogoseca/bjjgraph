@@ -180,17 +180,17 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 ## Prerequisites
 **Posture Management**: Ability to maintain upright spine alignment and structural integrity while in opponent's guard, preventing forward collapse that enables guard attacks. Requires constant tension adjustment and base positioning to resist breaking attempts while maintaining passing mobility.
 
-**Grip Fighting Dominance**: Systematic approach to establishing superior grip configurations while denying opponent's preferred grips, understanding that grip battles typically predict passing success or failure before movement begins.
+**Grips Dominance**: Systematic approach to establishing superior grip configurations while denying opponent's preferred grips, understanding that grip battles typically predict passing success or failure before movement begins.
 
 **Hip Control Mechanisms**: Technical ability to restrict opponent's hip mobility through pinning pressure, crossface control, or leg positioning, recognizing that controlling hips neutralizes majority of guard retention and attack options.
 
 **Leg Management Systems**: Coordinated approach to clearing, controlling, or bypassing opponent's leg frames and hooks, understanding specific leg configurations for each guard type and systematic methods for neutralizing each variation.
 
-**Pressure Application Variation**: Adaptive ability to apply appropriate pressure types based on guard variation—heavy smashing pressure for certain guards versus light floating pressure for others—adjusting strategy to guard-specific retention mechanics.
+**Pressure Variation**: Adaptive ability to apply appropriate pressure types based on guard variation—heavy smashing pressure for certain guards versus light floating pressure for others—adjusting strategy to guard-specific retention mechanics.
 
 **Pass Stage Recognition**: Conceptual understanding of sequential passing phases from initial engagement through final consolidation, recognizing current stage and required actions to advance rather than attempting inappropriate movements for current position.
 
-**Base Maintenance Under Pressure**: Ability to preserve stable base configuration throughout dynamic passing sequences, adjusting weight distribution and foot positioning to prevent sweeps while maintaining forward passing pressure.
+**Base Under Pressure**: Ability to preserve stable base configuration throughout dynamic passing sequences, adjusting weight distribution and foot positioning to prevent sweeps while maintaining forward passing pressure.
 
 **Pass Selection Intelligence**: Strategic ability to select appropriate passing approach based on opponent's guard type, body type, and defensive patterns, recognizing that no single passing style succeeds against all guard variations.
 
@@ -288,7 +288,7 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 **Positional Passing Sparring** (Focus: Building passing endurance, learning to maintain pressure through defensive resistance, and developing strategic patience required for successful passing)
 Isolated passing rounds starting from specific guard types with restart after successful pass or guard retention, developing passing persistence and stage progression understanding
 
-**Grip Fighting Isolation Drills** (Focus: Developing grip dominance understanding as foundational passing element, recognizing grip configurations that enable or prevent passing success)
+**Grips Isolation Drills** (Focus: Developing grip dominance understanding as foundational passing element, recognizing grip configurations that enable or prevent passing success)
 Dedicated training focusing exclusively on establishing and maintaining passing grips against opponent's retention grips, pausing when superior configuration achieved
 
 **Guard Type Recognition Training** (Focus: Building strategic flexibility and guard type identification skills, learning to match passing approach to guard-specific retention mechanics)
@@ -356,34 +356,31 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 ## Related
 
 ### Related Principles
-- **[[Guard Retention]]** (Complementary): Understanding guard retention mechanics from defensive perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms
-- **[[Pressure Passing Framework]]** (Extension): Represents specific application of guard passing principles emphasizing heavy pressure and pinning control, demonstrating how core passing principles manifest in particular strategic approach
-- **[[Base Maintenance]]** (Prerequisite): Foundational skill required for all guard passing, as inability to maintain stable base during passing attempts results in sweeps regardless of technical passing knowledge
+- **[[Defensive Concepts]]** (Complementary): Understanding defensive guard retention mechanics from the bottom player's perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms
+- **[[Base]]** (Prerequisite): Foundational skill required for all guard passing, as inability to maintain stable base during passing attempts results in sweeps regardless of technical passing knowledge
 - **[[Control Point Hierarchy]]** (Complementary): Provides systematic framework for prioritizing control objectives during passing sequences, determining which anatomical controls to establish at each passing stage
-- **[[Grip Fighting Strategies]]** (Prerequisite): Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied
-- **[[Passing Counter System]]** (Advanced form): Represents higher-level application requiring mastery of fundamental passing principles, incorporating defensive awareness and counter-passing strategies against guard player's offensive attempts
-- **[[Speed Passing]]** (Extension): Specific passing style emphasizing rapid movement and timing rather than pressure, demonstrating alternative expression of core passing principles
-- **[[Long Step Passing]]** (Extension): Technical passing system utilizing distance management and leg clearing principles, showing application of core concepts through specific mechanical approach
+- **[[Grips]]** (Prerequisite): Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied
+- **[[Action and Reaction]]** (Advanced form): Represents higher-level passing application where the passer deliberately provokes defensive reactions to create passing openings, incorporating bait-and-counter strategies against the guard player's responses
+- **[[Timing and Rhythm]]** (Extension): Specific passing dimension emphasizing rapid movement, tempo changes, and precise timing windows rather than sustained pressure, demonstrating alternative expression of core passing principles
+- **[[Transition Management]]** (Extension): Technical framework for managing positional changes during passing sequences, enabling smooth progression through intermediate positions and effective chaining between passing systems
 - **[[Forward Pressure]]** (Complementary): Fundamental pressure application concept that supports passing objectives by preventing opponent from establishing comfortable defensive positioning
-- **[[Connection Breaking]]** (Complementary): Essential skill for disrupting opponent's guard retention mechanics by systematically removing connection points they rely on for control
-- **[[Weight Distribution]]** (Prerequisite): Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes
-- **[[Posture Up]]** (Prerequisite): Critical defensive skill for maintaining structural integrity against posture-breaking attempts, enabling safe passing initiation
-- **[[Frame Management]]** (Complementary): Understanding how to dismantle opponent's defensive frames is essential for progressing through passing stages effectively
-- **[[Pressure Application]]** (Complementary): Systematic understanding of when and how to apply different pressure types during passing sequences to maximize effectiveness
-- **[[Leverage Principles]]** (Prerequisite): Fundamental biomechanical understanding that underlies efficient passing mechanics and energy conservation during extended passing sequences
+- **[[Connection Principles]]** (Complementary): Understanding connection mechanics enables both establishing your own control points during passes and systematically breaking the opponent's guard retention connections
+- **[[Center of Gravity]]** (Prerequisite): Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes
+- **[[Frames]]** (Complementary): Understanding how frames are created and maintained from the bottom informs the passer's ability to dismantle defensive structures and progress through passing stages effectively
+- **[[Pressure]]** (Complementary): Systematic understanding of when and how to apply different pressure types during passing sequences to maximize effectiveness
+- **[[Levers]]** (Prerequisite): Fundamental biomechanical understanding that underlies efficient passing mechanics and energy conservation during extended passing sequences
 
 
 ### Related Content
-- [[Pressure Passing Framework]] (Principle) - Specific strategic application of guard passing principles emphasizing heavy pressure and smashing control
-- [[Guard Retention]] (Principle) - Complementary defensive framework providing essential understanding of retention mechanics that passing must neutralize
+- [[Defensive Concepts]] (Principle) - Complementary defensive framework providing essential understanding of guard retention mechanics that passing must neutralize
 - [[Control Point Hierarchy]] (Principle) - Provides prioritization framework for establishing controls during sequential passing stages
-- [[Base Maintenance]] (Principle) - Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement
+- [[Base]] (Principle) - Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement
 - [[Toreando Pass]] (Transition) - Specific passing technique demonstrating application of floating pressure passing principles
 - [[Knee Slice Pass]] (Transition) - Common passing technique exemplifying stage progression from headquarters to side control consolidation
 - [[Long Step Pass]] (Transition) - Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics
 - [[Headquarters Position]] (Position) - Critical intermediate passing position representing midpoint between open guard and consolidated side control
 - [[Combat Base]] (Position) - Foundational passing posture demonstrating proper base and structure for initiating passing sequences
-- [[Grip Fighting Strategies]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins
+- [[Grips]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins
 - [[Double Under Pass]] (Transition) - Heavy pressure passing technique demonstrating systematic hip control and leg management principles
 
 

@@ -121,7 +121,7 @@
       },
       {
         "step_number": 2,
-        "action": "Read Opponent's Weight Distribution",
+        "action": "Read Opponent's Center of Gravity",
         "description": "Feel where the opponent's weight is concentrated through pressure on your torso. Identify whether they are settled centrally, shifted forward for attacks, or leaning to one side. This information determines the optimal direction and timing for the bridge that initiates the escape."
       },
       {
@@ -240,7 +240,7 @@
         "description": "Partner actively counters hip escape attempts by tightening control, transitioning to back, or adjusting weight. Practice recognizing which counter is being applied and selecting the appropriate adaptation - re-attempt from different angle, switch to bridge-and-roll, or accept temporary position change to free arms."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you bridge toward the trapped-arm side rather than directly upward when initiating the hip escape?",
         "answer": "Bridging toward the trapped-arm side creates specific directional disruption to the opponent's base on that side while generating momentum that feeds into the subsequent hip escape in the opposite direction. A straight-up bridge allows the opponent to ride and re-settle symmetrically. The directional bridge forces them to respond to a lateral threat, and the immediate directional change to hip escape exploits the recovery lag in their balance adjustment."
@@ -358,7 +358,7 @@
         "correction": "Recognize when the hip escape has created too much displacement for crucifix maintenance and immediately transition to back control, converting the escape into a positional advancement rather than a positional loss"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the hip escape from mounted crucifix?",
         "answer": "The earliest cue is the opponent firmly planting both feet on the mat and loading their hips by pressing their lower back into the ground. This preparatory position is necessary to generate bridging force and typically occurs one to two seconds before the explosive movement. Secondary cues include changes in breathing pattern, subtle hip rocking, and core tensing. Recognizing these preparatory movements allows you to preemptively tighten control before the escape begins."

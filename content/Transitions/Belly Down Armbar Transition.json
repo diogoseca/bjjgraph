@@ -13,7 +13,7 @@
   "from_position": "Armbar Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Belly Down Armbar",
       "probability": 50,
       "result": "success"
     },
@@ -60,16 +60,12 @@
       "relationship": "Source position from which this transition is initiated"
     },
     {
-      "name": "Armbar Finish",
+      "name": "Armbar from Armbar Control",
       "relationship": "Alternative finish from armbar control when opponent stays supine"
     },
     {
       "name": "Belly Down Armbar",
       "relationship": "The submission itself that this transition seeks to achieve"
-    },
-    {
-      "name": "Belly Down Armbar Finish",
-      "relationship": "Specific finishing mechanics from the belly-down position"
     },
     {
       "name": "Back Take from Armbar",
@@ -92,8 +88,8 @@
       "relationship": "Alternative arm isolation control if belly-down finish is unavailable"
     },
     {
-      "name": "Armbar from High Mount",
-      "relationship": "Entry technique that commonly creates the armbar control starting point"
+      "name": "High Mount",
+      "relationship": "Dominant position that commonly precedes armbar control setup"
     }
   ],
   "attacker": {
@@ -232,7 +228,7 @@
         "description": "Begin positional rounds from armbar control where the bottom player's only goal is to escape. The top player should attempt the belly-down transition whenever the opportunity presents. Track success rates over 10-round sets to measure improvement. Incorporate chain attacks when the belly-down is defended."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "When is the optimal moment to initiate the belly down armbar transition?",
         "answer": "The optimal moment is the instant you feel the opponent's hip bridge and shoulder rotation beginning, before their full body commits to the roll. Anticipating the roll allows you to follow smoothly rather than chase. If you wait until they are already halfway through the rotation, you will likely lose grip contact or arrive at the belly-down position with compromised control."
@@ -349,7 +345,7 @@
         "correction": "Use systematic frame-based defense instead. Create angles, insert your knee, and work incrementally to loosen the attacker's control rather than attempting a single explosive escape that is unlikely to succeed."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that the attacker is following your roll to belly-down?",
         "answer": "The earliest cues are the attacker's grip tightening on your wrist just as you initiate your roll and their legs loosening from across your face and chest. If you feel their hips tracking your shoulder instead of separating as you turn, they have committed to following. These cues occur within the first half-second of the roll and represent your best defensive window."

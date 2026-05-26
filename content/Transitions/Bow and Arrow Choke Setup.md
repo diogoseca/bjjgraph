@@ -202,11 +202,11 @@ The Bow and Arrow Choke Setup integrates the Gift Wrap position into the broader
 
 - [[Positions/Gift Wrap]] - Starting position - provides arm control foundation for setup
 
-- [[Transitions/Bow and Arrow Choke]] - Primary follow-up submission after successful setup
+- [[Submissions/Bow and Arrow Choke]] - Primary follow-up submission after successful setup
 
 - [[Positions/Back Control]] - Target position - setup establishes bow and arrow back control configuration
 
-- [[Transitions/Rear Naked Choke]] - Alternative attack that chains with bow and arrow setup creating submission dilemma
+- [[Submissions/Rear Naked Choke]] - Alternative attack that chains with bow and arrow setup creating submission dilemma
 
 - [[Transitions/Clock Choke]] - Alternative finish when opponent defends by flattening to belly-down
 
@@ -214,7 +214,7 @@ The Bow and Arrow Choke Setup integrates the Gift Wrap position into the broader
 
 - [[Positions/Crucifix]] - Alternative position when bow and arrow transition is defended
 
-- [[Submissions/Armbar from Back]] - Alternative submission targeting arm that escapes Gift Wrap
+- [[Transitions/Armbar from Back Transition]] - Alternative submission targeting arm that escapes Gift Wrap
 
 
 </section>

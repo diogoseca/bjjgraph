@@ -162,6 +162,8 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm in Guillotine Variation?</p>
+
 - Your near-side arm is trapped between the attacker's forearm and your own neck with no ability to frame or hand fight on that side
 - You feel bilateral pressure on both sides of your neck simultaneously—the attacker's forearm on one carotid and your own shoulder compressing the opposite carotid
 - The attacker's choking elbow begins elevating upward while their wrist curls against your throat, indicating they have recognized the arm-in configuration and are transitioning to finishing mechanics
@@ -173,6 +175,8 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm in Guillotine Variation?</p>
 
 - Recognize the arm-in configuration immediately by feeling your arm trapped between the attacker's forearm and your own neck—this changes your entire defensive approach
 - Tuck your chin tightly and turn your head toward the choking arm side as the first defensive action to reduce carotid compression and buy time for escape
@@ -187,6 +191,8 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm in Guillotine Variation?</p>
 
 ### 1. Extract the trapped arm by circling hips toward the choking-arm side, rotating the shoulder to create an extraction angle, and pulling the arm free while maintaining chin protection
 
@@ -224,6 +230,8 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm in Guillotine Variation?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Survive the initial finishing attempt through chin tuck and posture recovery, then either break the grip through explosive posture or apply stacking pressure that forces the attacker to release and revert to closed guard where the immediate choke threat is neutralized.
@@ -239,6 +247,8 @@ Extract the trapped arm through circling and angle changes, converting the arm-i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm in Guillotine Variation?</p>
 
 ### 1. Pulling straight backward to try to extract the head from the choke
 
@@ -268,6 +278,8 @@ Extract the trapped arm through circling and angle changes, converting the arm-i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm in Guillotine Variation?</p>
+
 **Phase 1: Recognition and Chin Protection** - Identifying the arm-in configuration and building automatic defensive response
 Partner applies the arm-in guillotine at slow speed from various positions. Focus exclusively on recognizing the trapped-arm moment, immediately tucking chin, and turning head toward the choking arm. No escape attempts—build the automatic chin-tuck-and-assess response. Partner provides feedback on recognition timing and chin protection effectiveness.
 
@@ -284,29 +296,6 @@ Positional sparring where partner starts with arm-in guillotine locked from vari
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest signs that your arm has been trapped in an arm-in guillotine configuration?
-**A**: The earliest signs are feeling your near-side arm pinned between the attacker's forearm and the side of your own neck with restricted mobility, combined with pressure developing on both sides of your neck simultaneously rather than just the front. You will notice that your trapped-side hand cannot reach the attacker's grip to fight it, and you cannot turn your body toward the choking arm effectively. Recognizing these cues in the first one to two seconds is critical because defensive options narrow rapidly once the attacker secures their grip connection and begins finishing mechanics.
-
-**Q2**: Why is extracting the trapped arm the highest priority when defending the arm-in guillotine?
-**A**: The trapped arm is the structural element that makes the arm-in variation more dangerous than a standard guillotine. It creates bilateral compression by pressing your own shoulder into your carotid artery on one side while the attacker's forearm compresses the other side. Removing the trapped arm eliminates half the choking mechanism and converts the position to a standard guillotine where you have more escape options including turning into the choke, hand fighting the grip, and creating frames. Additionally, the trapped arm prevents you from using your strongest defensive tools—framing, posting, and creating space—on that side.
-
-**Q3**: Your opponent begins driving their choking elbow toward the ceiling while you are caught in the arm-in guillotine—what immediate action should you take?
-**A**: The elbow elevation signals the beginning of the finishing sequence and represents your most urgent defensive moment. Immediately tuck your chin as tightly as possible while simultaneously circling your hips hard toward the choking-arm side to reduce the compression angle. Use your free hand to post on the mat and drive your shoulder into the attacker's chest to resist the scissoring action. If the attacker is on top, try to pull them into closed guard to establish Von Flue counter-pressure potential. If you cannot meaningfully reduce the choke pressure within two to three seconds, tap immediately—the elbow elevation with arm-in configuration can produce unconsciousness very rapidly.
-
-**Q4**: How does defending the arm-in guillotine differ from defending a standard guillotine?
-**A**: The fundamental difference is that the trapped arm eliminates the most effective standard guillotine defense: turning into the choking arm to reduce the angle and create space. In a standard guillotine, turning your body toward the choke relieves pressure and opens escape paths. In the arm-in variation, the trapped arm blocks this rotation and can actually tighten the choke if you attempt it. Defense must focus on arm extraction first, then lateral hip movement toward the choking side, rather than the rotation-based escapes used against standard guillotines. The Von Flue counter also becomes more viable because the attacker must commit to holding both your head and arm, limiting their own positional adjustments.
-
-**Q5**: What hip movement is most effective for creating the space needed to extract your trapped arm from the arm-in guillotine?
-**A**: Circle your hips toward the choking-arm side while keeping your knees underneath you for base. This lateral hip movement reduces the compression angle across your neck and simultaneously creates the geometric angle needed for arm extraction—moving toward the choke opens space between your shoulder and the attacker's forearm on the trapped side. Combine the hip circle with a shoulder rotation on the trapped side, turning your shoulder blade toward the mat to create an extraction path. Never drive your hips away from the choking arm, as this increases the compression angle and makes extraction geometrically impossible.
-
-
-
-</section>
 
 
 </main>

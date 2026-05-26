@@ -339,24 +339,24 @@
       "relationship": "Core tactical principle for IBJJF competition where position secures points before submission attempts"
     },
     {
-      "name": "Match Strategy",
+      "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Strategic principle for competition-specific tactical planning and execution"
+      "relationship": "Mental framework for competition-specific strategic planning and match execution"
     },
     {
-      "name": "Game Planning",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Pre-match preparation principle essential for IBJJF tournament success"
+      "relationship": "Sequential position planning essential for chaining scoring sequences in IBJJF matches"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
-      "relationship": "Critical principle for multi-match tournament performance and pacing"
+      "relationship": "Critical principle for multi-match tournament performance and pacing across bracket"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Decision-making principle for score-based tactical adjustments during matches"
+      "relationship": "Decision-making principle for score-based tactical timing adjustments during matches"
     },
     {
       "name": "Guard Passing",

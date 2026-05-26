@@ -190,6 +190,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 - Maintain continuous chest-to-chest pressure throughout the entire rotation, never lifting your weight off the opponent
 - Initiate the pivot from your hips while your chest remains the fixed contact point, allowing your lower body to swing around
 - Secure the opponent's far arm during or immediately after the rotation to capitalize on the positional change
@@ -205,6 +207,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 - Established Kesa Gatame with secure head control and near arm trapped under your armpit
 - Opponent is flat on their back with shoulders pinned and upper body controlled
 - Your hips are low and heavy with far leg posted wide for base stability
@@ -217,6 +221,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kesa Gatame to Reverse Kesa-Gatame step by step?</p>
 
 1. **Assess position and confirm setup**: From established Kesa Gatame, confirm your head control is tight with your arm wrapped securely around the opponent's head. Your near arm traps their near arm under your armpit. Verify that your chest pressure is heavy on their upper torso and that your hips are low. Check that the opponent's far arm is not establishing a deep frame that could block your rotation.
 2. **Release head control and begin arm transition**: Release your head-controlling arm from around the opponent's head while maintaining heavy chest pressure to compensate. Immediately begin threading this arm toward the opponent's far arm. Your chest must increase its downward pressure during this phase to prevent the opponent from capitalizing on the momentary release of head control. This is the most vulnerable moment of the transition.
@@ -246,6 +252,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 - **Opponent frames against your hip or shoulder during the rotation to create space and begin shrimping** (Effectiveness: High) - Your Response: Accelerate the rotation and drive your chest pressure down harder during the pivot. If they create significant space, abort the transition and return to standard Kesa Gatame rather than completing a compromised rotation. The frame is most effective when you pause mid-rotation, so committing fully to the movement reduces its effectiveness. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Opponent bridges explosively as you release head control during the transitional phase** (Effectiveness: High) - Your Response: If the bridge occurs before you complete the rotation, drop your hips and re-establish standard Kesa Gatame. If it occurs after the midpoint, use the bridge momentum to accelerate your rotation and settle into Reverse Kesa-Gatame with increased pressure on their chest. Widen your base immediately to absorb the bridge energy. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Opponent pulls their far arm tight to their body to prevent arm isolation during rotation** (Effectiveness: Medium) - Your Response: Complete the rotation to Reverse Kesa-Gatame regardless and use chest pressure to pin their arm against their own body. From the established reverse position, work to pry the arm free using your weight advantage and leverage. Their arm defense becomes less effective once you have settled your weight in the new orientation. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
@@ -257,6 +265,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kesa Gatame to Reverse Kesa-Gatame?</p>
 
 ### 1. Lifting chest pressure off the opponent during the rotation
 
@@ -296,6 +306,8 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kesa Gatame to Reverse Kesa-Gatame (Attacker)?</p>
+
 **Solo Movement** - Rotation mechanics and balance
 Practice the hip rotation movement without a partner, using a heavy bag or pillow as a chest contact reference. Focus on keeping your chest low and heavy while your hips swing smoothly through the 180-degree arc. Perform 20 rotations in each direction to develop the motor pattern.
 
@@ -316,48 +328,12 @@ Practice cycling between Kesa Gatame, Reverse Kesa-Gatame, North-South, and stan
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the fixed pivot point during the rotation, and why is this critical?
-**A**: Your chest is the fixed pivot point, maintaining constant contact and pressure on the opponent's sternum throughout the entire rotation. This is critical because any lifting of chest pressure during the pivot creates space that allows the opponent to insert frames, shrimp, or initiate escapes. The hips orbit around the chest contact point, not the other way around. If the opponent feels pressure decrease at any moment during the transition, the technique is being executed incorrectly.
-
-**Q2**: Your opponent has strong frames established against your face in standard Kesa Gatame. How does this create an opportunity for the transition?
-**A**: Frames against your face in standard Kesa Gatame become completely irrelevant once you rotate to Reverse Kesa-Gatame because your face moves away from their frames. Their defensive energy is invested in a direction that no longer applies. Initiate the rotation while they are actively pushing your face, as their commitment to this defense means they are not protecting their far arm or preparing for the directional change. Their frames essentially become wasted effort the moment you begin the pivot.
-
-**Q3**: What is the most vulnerable moment during this transition, and how do you minimize the risk?
-**A**: The most vulnerable moment is when you release head control to begin threading your arm toward the far arm, before the rotation is complete. During this phase, the opponent momentarily has their head free and can attempt bridges or hip escapes. Minimize this risk by increasing chest pressure to compensate for the loss of head control, completing the rotation as one continuous movement without pausing, and timing the transition when the opponent is not actively generating defensive movement.
-
-**Q4**: You begin the rotation but your opponent bridges hard at the midpoint. What do you do?
-**A**: If the bridge occurs before the midpoint, abort the transition, drop your hips, and re-establish standard Kesa Gatame. If the bridge occurs after the midpoint, use the bridge momentum to accelerate your rotation, driving your chest down harder as you complete the pivot into Reverse Kesa-Gatame. The key decision point is whether you are closer to the start or the finish of the rotation. Going backward from past the midpoint is more dangerous than completing the movement.
-
-**Q5**: Why is arm isolation during the rotation more effective than attempting it after settling into Reverse Kesa-Gatame?
-**A**: During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Reverse Kesa-Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change.
-
-**Q6**: What grip or control must you prioritize immediately after completing the rotation?
-**A**: The far arm clamp under your armpit is the highest priority grip after completing the rotation. This is the primary offensive advantage of Reverse Kesa-Gatame over standard Kesa Gatame. Squeeze your elbow tight to your ribs with the opponent's arm trapped between your armpit and their body. This single control point opens Kimura, Americana, and arm triangle pathways. Without this arm isolation secured, Reverse Kesa-Gatame offers no significant advantage over standard side control.
-
-**Q7**: How should your base differ between standard Kesa Gatame and the Reverse Kesa-Gatame you are transitioning into?
-**A**: In standard Kesa Gatame, your far leg posts wide while your near leg hooks or controls the opponent's far hip. In Reverse Kesa-Gatame, your base must be wider overall because the reverse orientation makes you more susceptible to bridges toward your back. Post your far leg long and wide, with your near leg bent for lateral stability. Your hips should sit lower in Reverse Kesa than in standard Kesa to compensate for the reduced head control. The wider, lower base absorbs bridge attempts from the new direction.
-
-**Q8**: Your opponent tucks their far arm tight against their body as you rotate. How do you complete the arm isolation?
-**A**: Complete the rotation to Reverse Kesa-Gatame first, establishing heavy chest pressure. Once settled, use your weight to pin their arm against their own torso, then gradually work to pry it free by sliding your hand between their arm and body while maintaining chest compression. You can also threaten submissions on the near arm or transition to North-South to force them to move their far arm defensively, creating the opening for isolation. Patience and pressure are more effective than forceful prying.
-
-**Q9**: When is it better to abandon the transition and return to standard Kesa Gatame?
-**A**: Abort the transition if: the opponent bridges explosively before you reach the midpoint of rotation, your chest lifts off their torso and you cannot re-establish pressure during the pivot, or the opponent inserts a knee or frame that blocks your hip swing from completing. Returning to a strong Kesa Gatame is always preferable to arriving in a compromised Reverse Kesa-Gatame. The ability to read when the transition is failing and abort cleanly is as important as executing the technique itself.
-
-**Q10**: How does this transition create a dilemma for the bottom player defending Kesa Gatame?
-**A**: The bottom player must defend two contradictory directions. If they focus on framing against the top player's face to prevent standard Kesa Gatame attacks, they leave their far arm exposed for the rotation to Reverse Kesa. If they tuck their far arm defensively, they weaken their frames and become more vulnerable to standard Kesa submissions like Americana. The transition forces the bottom player to choose which threat to address, and either choice creates an opening for the other. This offensive dilemma is the strategic value of having the rotation in your repertoire.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kesa Gatame to Reverse Kesa-Gatame?</p>
 
 This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Reverse Kesa-Gatame can restrict breathing, so be attentive to tap signals during positional sparring.
 

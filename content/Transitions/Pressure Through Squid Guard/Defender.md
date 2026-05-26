@@ -162,6 +162,8 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure Through Squid Guard?</p>
+
 - Top player lowers their center of gravity and widens their stance, preparing for sustained forward drive rather than quick passing movement
 - Top player begins driving shoulder into your frames with increasing forward pressure instead of attempting to strip grips or backstep
 - Top player controls or reaches for your free hand, attempting to prevent you from reinforcing lapel grips or creating additional frames
@@ -174,6 +176,8 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure Through Squid Guard?</p>
 
 - Maintain active tension on the lapel wrap throughout the pressure application, never allowing it to go slack even under compression
 - Use frames dynamically rather than statically, adjusting frame angles to redirect pressure away from your centerline
@@ -188,6 +192,8 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure Through Squid Guard?</p>
 
 ### 1. Reinforce knee shield and redirect pressure laterally
 
@@ -225,6 +231,8 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure Through Squid Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Maintain strong frames and lapel tension to prevent the pressure from collapsing your guard structure. Use your free leg and hip movement to create distance when pressure intensifies, forcing the top player back to a neutral standing position where you can re-establish Squid Guard or transition to another guard system.
@@ -240,6 +248,8 @@ Time sweep attempts to coincide with the top player's maximum forward weight com
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure Through Squid Guard?</p>
 
 ### 1. Absorbing pressure passively without redirecting or creating movement
 
@@ -269,6 +279,8 @@ Time sweep attempts to coincide with the top player's maximum forward weight com
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure Through Squid Guard?</p>
+
 **Phase 1: Frame Mechanics Under Load** - Maintaining frames and hip angle under increasing pressure
 Partner applies gradually increasing shoulder pressure from Squid Guard top. Focus exclusively on maintaining frame structure, side angle, and lapel tension without attempting sweeps. Build the physical and technical endurance to sustain guard structure under load. 3 rounds of 2 minutes at increasing pressure levels.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting from Squid Guard. Top player attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a speed pass?
-**A**: The earliest cue is their postural change from upright to forward-leaning with a widened base. A speed passer stays upright and mobile, while a pressure passer lowers their center of gravity and drives their shoulder toward your frames. Additionally, if they control your free hand before attempting to address the lapel, this indicates a methodical pressure approach rather than an explosive grip strip.
-
-**Q2**: Your opponent has driven heavy shoulder pressure into your frames and your guard is beginning to compress - what is your highest-percentage defensive response?
-**A**: If you still have space to move your hips, insert a knee shield immediately to create a structural barrier against further compression. The shin across their body converts their forward pressure into a force you can redirect laterally. If the knee shield is not available, initiate hip escape movement to create the angle needed for inversion or guard transition before your structure collapses completely.
-
-**Q3**: When should you abandon Squid Guard retention and transition to an alternative guard system?
-**A**: Transition when you recognize that your lapel tension has been reduced to a single shallow wrap and your hook is being progressively compressed despite active retention efforts. Continuing to fight for a failing guard burns energy without productive defensive output. A proactive transition to De La Riva, Spider Guard, or standard open guard before the structure fully collapses preserves more options than trying to re-establish from a compromised position.
-
-**Q4**: How do you create a sweep opportunity from the bottom during your opponent's pressure application?
-**A**: The pressure application inherently creates sweep opportunities because the top player must commit weight forward. Monitor their weight distribution through your lapel grip tension and frames. When their weight shifts predominantly to one side during pressure application, amplify that imbalance with a sharp pull on the lapel in the direction they are already leaning. Combine this with a hip bump or hook extension on the opposite side to complete the sweep.
-
-**Q5**: Why is maintaining your side angle critical when defending against pressure passing through Squid Guard?
-**A**: Your side angle preserves hip mobility, which is the foundation of all guard retention and offensive options. A flat-on-back position eliminates your ability to hip escape, insert frames, initiate sweeps, or invert for back takes. The side angle also makes your lapel control more effective because the tension direction aligns with your hip movement, creating a unified system where your body and grips work together rather than independently.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing New York Pass to Side Control?</p>
+
 - Base before posture, posture before extraction—the sequential order is non-negotiable and skipping steps guarantees failure
 - Grip fight the shin-controlling hand as the primary unlock for the entire passing sequence
 - Corkscrew the trapped elbow downward and toward your hip rather than pulling straight back against the overhook
@@ -203,6 +205,8 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting New York Pass to Side Control?</p>
+
 - Wide base established with knees spread apart creating stable triangular foundation against sweep attempts
 - Free hand positioned to attack opponent's shin grip near the ankle where leverage is greatest
 - Core fully engaged to resist the constant forward pulling force from the shin across your back
@@ -215,6 +219,8 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute New York Pass to Side Control step by step?</p>
 
 1. **Establish wide base**: Spread your knees apart as wide as possible to create a stable triangular base that resists sweep attempts from the bottom player. Your weight should be distributed evenly across both knees with your toes curled under for additional traction. This base is the foundation for everything that follows and must be solid before proceeding.
 2. **Grip fight the shin control**: Use your free hand to attack the opponent's grip on their own shin near the ankle. Peel their fingers or strip the grip by driving your wrist underneath their hand and levering it away. This is the critical unlock for the entire pass because the shin across your back is what prevents posture recovery. Work persistently rather than explosively.
@@ -244,6 +250,8 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter New York Pass to Side Control?</p>
+
 - **Bottom player re-grips shin and pulls posture back down before arm extraction can begin** (Effectiveness: High) - Your Response: Maintain your base width and immediately re-engage grip fighting on their shin-controlling hand. Consider switching to the stack pass variation by driving your weight forward to compress their hips, neutralizing the shin control through stacking pressure rather than grip fighting. → Leads to [[Positions/Rubber Guard/New York]]
 - **Bottom player shoots leg over your shoulder for triangle as your arm begins extracting from the overhook** (Effectiveness: Medium) - Your Response: Keep your extracted elbow tight to your body pointing downward to prevent the triangle lock from closing. Immediately posture toward the choking leg side while stacking forward to flatten their hips and neutralize the triangle angle. Use the stacked position to continue working the pass. → Leads to [[Positions/Rubber Guard/New York]]
 - **Bottom player times a hip bump sweep during posture recovery when your weight shifts backward** (Effectiveness: Medium) - Your Response: Maintain forward pressure throughout posture recovery rather than shifting weight backward. Recover posture through hip drive forward and chest lift rather than leaning back. If swept, immediately establish defensive frames and work to recover guard position. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing New York Pass to Side Control?</p>
 
 ### 1. Attempting to extract the trapped arm before recovering posture and establishing base
 
@@ -294,10 +304,12 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train New York Pass to Side Control (Attacker)?</p>
+
 **Phase 1: Sequential Mechanics** - Learning the correct order and body mechanics of each phase
 Partner establishes New York control with minimal resistance. Practice the full sequence at slow speed with emphasis on correct body positioning at each stage. Complete 20-30 full repetitions per session focusing on base, grip fight, posture, extraction, knee drive, and consolidation.
 
-**Phase 2: Grip Fighting Proficiency** - Developing effective shin grip breaks and overhook escape mechanics
+**Phase 2: Grips Proficiency** - Developing effective shin grip breaks and overhook escape mechanics
 Partner maintains active grips while you focus exclusively on breaking the shin grip and extracting the arm against moderate resistance. Isolate these two skills as the critical bottleneck of the pass. Develop multiple grip breaking techniques including peeling, levering, and redirecting.
 
 **Phase 3: Progressive Resistance** - Executing the full pass against increasing levels of defensive resistance
@@ -314,48 +326,12 @@ Practice the pass as part of longer rolling sequences where New York appears nat
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the arm extraction phase of this pass?
-**A**: The optimal moment is after posture has been partially recovered and the opponent's shin grip has been significantly weakened or broken. You should feel your spine approaching a 45-degree angle or greater from the mat, and your base must be wide and stable. Attempting extraction before this point almost always fails because the shin leverage across your back keeps the arm pinned in the overhook. Wait for the moment when you feel the downward pressure from the shin release before committing to the corkscrew extraction.
-
-**Q2**: What base configuration must exist before you attempt posture recovery?
-**A**: Your knees must be spread wide apart creating a stable triangular base with your toes curled under for traction. Weight should be distributed evenly across both knees rather than concentrated on the trapped arm side where your base is naturally weaker. Your free hand should be posted or actively grip-fighting while your core is fully engaged. This wide base provides the platform needed to resist hip bumps and sweep attempts that the bottom player will inevitably attempt when they feel you beginning to recover posture.
-
-**Q3**: How should you extract the trapped arm from the overhook?
-**A**: Use a corkscrew motion by circling your elbow downward toward your hip rather than pulling straight backward against the overhook. This rotational extraction attacks the weakest angle of the overhook grip where the opponent has minimal resistance. As you rotate, keep your elbow tight to your body and maintain forward chest pressure to prevent the bottom player from following your arm movement. The corkscrew should feel like you are trying to touch your elbow to your opposite hip pocket while your shoulder drives forward.
-
-**Q4**: What happens if you attempt arm extraction before recovering adequate posture?
-**A**: The shin across your back provides leverage that keeps the arm pinned in the overhook regardless of how hard you pull. Without sufficient posture recovery, the overhook operates at maximum mechanical advantage because your broken posture loads your arm weight directly into their control. Additionally, premature extraction attempts typically involve pulling backward, which shifts your weight and creates sweep opportunities. The bottom player may capitalize with a hip bump sweep or transition directly to a triangle as your arm partially exits.
-
-**Q5**: Which grip must you break first to begin the passing sequence?
-**A**: The opponent's grip on their own shin is the primary target because it maintains the shin across your back that prevents posture recovery. Breaking this grip unlocks the entire passing sequence since without the shin control, their overhook becomes significantly less effective and your posture becomes recoverable. Attack the grip near the ankle where your leverage is greatest, using wrist insertion and levering motions rather than trying to pull their fingers open. The overhook itself becomes manageable once the shin is cleared.
-
-**Q6**: In which direction should you drive your body when completing the knee-through phase?
-**A**: Drive forward and slightly toward the crossface side at a diagonal angle. This direction accomplishes multiple objectives simultaneously: it prevents the bottom player from closing guard because your forward pressure flattens their hip movement, it creates the angle needed for your knee to clear the centerline, and it positions you to immediately establish crossface pressure upon reaching side control. Driving straight down or backward during this phase allows the bottom player time and space to recover guard.
-
-**Q7**: Your opponent re-grips their shin during your posture recovery, pulling your posture back down—how do you respond?
-**A**: Immediately re-engage your grip fighting on their shin-controlling hand rather than trying to muscle through the posture recovery against their re-established grip. Consider switching to the stack pass variation by driving your weight forward to compress their hips, which neutralizes the shin control by eliminating the hip flexibility they need to maintain it. If stacking is not available, return to your wide base and work the grip fight again patiently. Never try to maintain partial posture against a re-established shin grip as this burns energy without progress.
-
-**Q8**: If the direct pass attempt fails and you remain in New York, what alternative attacks can you chain?
-**A**: Chain into a stack defense that compresses their hips to eliminate rubber guard effectiveness, then look for guard opening sequences to return to closed guard where you can restart your passing approach. You can also transition to the backstep pass variation if their leg control has loosened, or shift to posture recovery leading to a standard closed guard pass. Each failed attempt should weaken one of their control points, so subsequent attempts become progressively higher percentage. The key is never returning to a completely reset starting position.
-
-**Q9**: Why do explosive escape attempts fail more often than methodical approaches against New York control?
-**A**: Explosive movements are predictable and create momentum that the bottom player can redirect for sweeps or use to advance to submissions. The interconnected nature of rubber guard control means that explosive movement against one control point typically reinforces another—pulling explosively against the overhook drives your posture further into the shin control. Additionally, explosive attempts deplete grip strength and energy significantly faster than methodical work, and the bottom player's structural control means they expend less energy maintaining position than you spend trying to escape explosively.
-
-**Q10**: How should you defend against the triangle threat during your arm extraction?
-**A**: Keep your extracted elbow tight to your body pointing downward rather than flaring out as it exits the overhook. The triangle requires your arm to be positioned away from your body with the shoulder exposed. Simultaneously drive your weight forward to flatten the opponent's hips because triangles require hip elevation and angle to close effectively. If you feel the leg beginning to shoot over your shoulder, immediately stack forward and turn toward the choking leg to relieve pressure while your arm is still partially free and can be pulled to safety.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for New York Pass to Side Control?</p>
 
 This pass involves significant pressure on the opponent's neck and spine during the stacking variation, so monitor your partner's comfort and respond to verbal or tap signals immediately. The arm extraction phase creates torque on both your own shoulder and the opponent's arm-controlling structures, requiring controlled movement rather than violent jerking. Avoid cranking your neck to escape the shin across your back, as this can cause cervical strain. During training, communicate with your partner about pressure levels and progress methodically rather than explosively to prevent injuries to both practitioners.
 

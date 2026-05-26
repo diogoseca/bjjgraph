@@ -93,6 +93,14 @@ description: "Defend against the 3-4 Mount to Technical Mount transition in BJJ.
         "@type": "Answer",
         "text": "Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "The attacker has already secured arm control and begun sliding their knee—what is your last-resort defensive option?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount."
+      }
     }
   ]
 }
@@ -162,6 +170,8 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 3-4 Mount to Technical Mount?</p>
+
 - Attacker's hands shift from general control to specifically targeting one of your arms with a two-on-one wrist-and-elbow grip, signaling arm isolation intent
 - Forward weight shift increases chest pressure on your upper body, pinning your shoulders flat in preparation for the leg repositioning phase
 - Posted-side knee begins sliding upward along the mat toward your head rather than maintaining its static outside position
@@ -173,6 +183,8 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 3-4 Mount to Technical Mount?</p>
 
 - Keep elbows glued to your ribs at all times—arm extension or framing with straight arms is the primary trigger that enables the attacker's transition
 - Recognize shoulder pressure changes and weight shifts as early warning signals that the transition is being initiated
@@ -187,6 +199,8 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 3-4 Mount to Technical Mount?</p>
 
 ### 1. Bridge and hip escape during weight shift
 
@@ -224,6 +238,8 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 3-4 Mount to Technical Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your bridge and hip escape to coincide with the attacker's weight shift during leg repositioning. As they lift or slide their posted knee toward your head, immediately bridge toward the mounted side and shrimp your hips away, inserting your knee between your bodies to recover half guard before they complete the transition.
@@ -239,6 +255,8 @@ Block the transition by keeping elbows clamped tight to your ribs to deny arm is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 3-4 Mount to Technical Mount?</p>
 
 ### 1. Extending arms to push the attacker away or frame against their chest with straightened elbows
 
@@ -268,6 +286,8 @@ Block the transition by keeping elbows clamped tight to your ribs to deny arm is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 3-4 Mount to Technical Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition cues before they develop
 Partner initiates 3-4 Mount to Technical Mount transition at 25% speed. Bottom player calls out each recognition cue as it appears—arm targeting, weight shift, knee movement, head repositioning. No escape attempts, purely developing the pattern recognition needed to react at full speed later.
 
@@ -284,29 +304,6 @@ Positional sparring starting from 3-4 Mount at full intensity. Bottom player use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?
-**A**: The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal.
-
-**Q2**: Your opponent begins sliding their knee toward your head—what is your immediate response?
-**A**: Immediately bridge toward the mounted side where their inside knee was positioned, then shrimp your hips away toward the advancing knee side to begin half guard recovery. The leg repositioning phase is when their base is most compromised, making this the optimal moment for a disruptive bridge. Simultaneously, clamp your near-side elbow tight to deny any further arm isolation. Speed is critical—you have approximately two seconds before the Technical Mount is established.
-
-**Q3**: When should you prioritize recovering half guard versus blocking the transition in place?
-**A**: Block the transition in place when you detect arm isolation attempts early—clamping elbows tight before they secure two-on-one control is the highest-percentage defensive option. Prioritize half guard recovery when the attacker has already secured arm control and begun leg repositioning, because at that point blocking the transition is unlikely to succeed. The bridge-and-shrimp to half guard exploits the base vulnerability during their movement rather than trying to prevent an already-committed transition.
-
-**Q4**: What body position error makes you most vulnerable to this transition?
-**A**: Lying flat on your back with arms extended or framing against the attacker's chest with straight elbows. This position provides the attacker with easy arm isolation targets and eliminates your ability to create defensive angles through hip movement. The flat position also makes your shoulders easily pinnable, which is exactly the condition the attacker needs to shift weight forward and begin the Technical Mount entry sequence. Staying on your side with elbows tight is the corrective position.
-
-**Q5**: How does turning away from the attacker create vulnerability to Technical Mount entry?
-**A**: Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate.
-
-
-
-</section>
 
 
 </main>

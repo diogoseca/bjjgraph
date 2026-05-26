@@ -166,6 +166,8 @@ Defensive success requires discipline above all else. The natural instinct when 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mounted Crucifix Entry?</p>
+
 - Opponent shifts weight forward onto their chest and posting arm while in S Mount, reducing seated pressure on your torso
 - Opponent's far leg (the one crossing your torso) lifts or rotates, indicating they are beginning the threading motion over your arm
 - Opponent releases wrist control on your near arm to post or stabilize, freeing their hands for the transition
@@ -178,6 +180,8 @@ Defensive success requires discipline above all else. The natural instinct when 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Crucifix Entry?</p>
 
 - Keep far arm tight to your body at all times - never reach across your centerline while defending S Mount submissions
 - Time defensive explosions to the attacker's weight shift, when their base is most compromised during leg threading
@@ -193,6 +197,8 @@ Defensive success requires discipline above all else. The natural instinct when 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mounted Crucifix Entry?</p>
 
 ### 1. Explosive bridge toward the threading leg during weight shift
 
@@ -230,6 +236,8 @@ Defensive success requires discipline above all else. The natural instinct when 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mounted Crucifix Entry?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 Time an explosive bridge to the attacker's weight shift moment, disrupting their balance and forcing them to re-establish S Mount base. Or preemptively deny the entry by keeping your far arm glued to your torso and framing against their hip, removing the target entirely.
@@ -245,6 +253,8 @@ Execute a strong hip escape toward opponent's legs during their weight shift, cr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Crucifix Entry?</p>
 
 ### 1. Reaching across your body with your far arm to defend the armbar on your near arm
 
@@ -279,6 +289,8 @@ Execute a strong hip escape toward opponent's legs during their weight shift, cr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mounted Crucifix Entry?</p>
+
 **Week 1-2** - Recognition and arm discipline
 Partner establishes S Mount and slowly initiates crucifix entry attempts. Focus entirely on recognizing the entry cues (weight shift, hip rotation, leg lift) and maintaining proper far-arm positioning. Practice keeping the far arm glued to your body while defending armbar with collar grip on the near arm. No escape attempts yet - build defensive posture awareness.
 
@@ -295,29 +307,6 @@ Full resistance positional sparring starting from S Mount bottom. Partner attack
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is reaching across your body to defend the armbar the most common mistake that leads to crucifix entry?
-**A**: When you reach across your body to grip your own wrist or the defender's arm during armbar defense, your far arm crosses your centerline directly into the path where the opponent will thread their leg. This motion essentially delivers your arm into the trap. The attacker does not need to hunt for your arm - your defensive instinct presents it. Instead, defend the armbar by gripping your own collar with the trapped hand and framing with your far arm on your side of the body.
-
-**Q2**: What is the optimal timing window for an explosive bridge to disrupt the crucifix entry?
-**A**: The optimal window is the moment the attacker shifts their weight forward and begins lifting their far leg to thread over your arm. At this point, they are transitioning from a seated two-leg base to a single-leg posting position, making their balance most vulnerable. Bridging before this moment hits stable S Mount base. Bridging after this moment happens when their leg is already in transit and the bridge may actually assist the threading by creating space.
-
-**Q3**: Your opponent begins rotating their hips in S Mount - what does this signal and how should you respond?
-**A**: Hip rotation from S Mount signals the beginning of a leg threading attempt for the crucifix entry. The attacker needs to rotate their pelvis to create the angle for their shin to clear your arm. Immediately pull your far arm tight to your body, frame against their hip to prevent the rotation from completing, and execute a hip escape toward their legs. The hip escape changes the angle between your bodies, making the rotational thread mechanically more difficult to complete.
-
-**Q4**: How does the direction of your bridge affect the success of your defense against the crucifix entry?
-**A**: Bridging toward the threading leg collapses the space the attacker needs for the leg-over motion and directly attacks their compromised base. Bridging away from the threading leg actually creates additional space that assists the leg crossing over your arm. The counter-intuitive correct direction toward the danger side works because it addresses the root mechanical requirement of the technique rather than simply trying to create distance.
-
-**Q5**: Both your arms are trapped and the opponent has established the crucifix - what is your immediate priority?
-**A**: Your immediate priority shifts from crucifix prevention to submission defense. Tuck your chin tightly to your chest and elevate your shoulders toward your ears to protect your neck, as choke attacks become the primary threat. Do not waste energy trying to immediately extract both arms against established knee pressure. Instead, focus on small hip movements to create incremental space in the arm traps, targeting extraction of one arm at a time. Once one arm is free, you can address the remaining arm trap and begin mount escape sequences.
-
-
-
-</section>
 
 
 </main>

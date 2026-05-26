@@ -211,7 +211,7 @@ The sitting guard pull serves as the primary bridge between standing neutral pos
 
 - [[Transitions/Jumping Guard]] - Alternative approach - more dynamic guard pull versus controlled sitting
 
-- [[Principles/Guard Recovery]] - Related concept - sitting mechanics apply to guard recovery scenarios
+- [[Transitions/Scramble to Guard]] - Related concept - sitting mechanics apply to guard recovery and scramble scenarios
 
 - [[Transitions/Butterfly Sweep]] - Follow-up technique - immediate offensive option after butterfly guard pull
 

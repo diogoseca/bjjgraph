@@ -210,15 +210,15 @@ The Back Control to Seat Belt transition occupies a critical link in the positio
 
 - [[Transitions/Back Control Maintenance]] - Positional retention transition that preserves back control during failed seat belt attempts
 
-- [[Transitions/Rear Naked Choke]] - Primary submission attack enabled by successful seat belt establishment
+- [[Submissions/Rear Naked Choke]] - Primary submission attack enabled by successful seat belt establishment
 
 - [[Transitions/Back Control to Crucifix]] - Alternative transition from back control when opponent's arm positioning prevents seat belt
 
 - [[Transitions/Armbar from Back Transition]] - Complementary back attack that benefits from seat belt control structure
 
-- [[Submissions/RNC from Seat Belt]] - Direct submission finish enabled once seat belt grip is fully established
+- [[Transitions/Rear Naked Choke Setup]] - Setup transition connecting established seat belt grip to rear naked choke attack sequence
 
-- [[Submissions/Bow and Arrow from Seat Belt]] - Gi-based submission option available from established seat belt position
+- [[Submissions/Bow and Arrow Choke]] - Gi-based submission attack available from established seat belt position
 
 - [[Positions/Crucifix]] - Advanced position accessible when opponent exposes arms defending seat belt establishment
 

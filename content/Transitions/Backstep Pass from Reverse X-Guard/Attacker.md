@@ -188,6 +188,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep Pass from Reverse X-Guard?</p>
+
 - Control the opponent's upper body before initiating the backstep to prevent them from following your rotation with an inversion
 - Transfer weight completely to the posting leg before beginning the backstep to maintain balance throughout the rotation
 - Rotate hips away from the opponent's hooks in a single committed motion rather than tentative partial steps
@@ -202,6 +204,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep Pass from Reverse X-Guard?</p>
+
 - Upright posture maintained with at least one foot firmly planted as a stable posting base
 - Grip control established on opponent's collar, sleeve, or upper body to prevent inversion follow-through
 - Free leg positioned wide enough to serve as the rotation axis without compromising balance
@@ -214,6 +218,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep Pass from Reverse X-Guard step by step?</p>
 
 1. **Establish Upper Body Control**: Secure grip control on the opponent's collar, sleeve, or wrist on the hook side. In no-gi, control the wrist or establish a collar tie. This grip prevents the opponent from inverting and following your backstep rotation. Without this control, the opponent will take your back during the rotation.
 2. **Shift Weight to Posting Leg**: Transfer your weight completely to the free leg (the leg not trapped by the opponent's hooks). This leg becomes the axis of rotation. Position it slightly behind your center of gravity so it can support the rotational movement without stumbling. Keep your base wide and stable before committing.
@@ -244,6 +250,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep Pass from Reverse X-Guard?</p>
+
 - **Opponent inverts and follows the backstep rotation to take the back** (Effectiveness: High) - Your Response: Accelerate the rotation speed and maintain strong upper body grip control to prevent the opponent from completing the inversion. If they begin inverting, immediately sit through and face them rather than completing the backstep with your back exposed. → Leads to [[Positions/Back Control]]
 - **Opponent extends hooks fully and resists rotation by stiffening legs** (Effectiveness: Medium) - Your Response: Use the hook extension against them by changing direction—instead of continuing the backstep, collapse forward into a smash pass over the extended legs. The stiffened legs become easier to control when you drive pressure downward. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 - **Opponent transitions to Single Leg X-Guard during the backstep by rethreading hooks** (Effectiveness: Medium) - Your Response: Recognize the guard change immediately and adjust your backstep angle. If they rethreaded hooks into Single Leg X, continue the backstep with a wider arc to clear the new hook configuration, or transition to a backstep from Single Leg X technique. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
@@ -255,6 +263,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep Pass from Reverse X-Guard?</p>
 
 ### 1. Initiating the backstep without controlling the opponent's upper body first
 
@@ -294,6 +304,8 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep Pass from Reverse X-Guard (Attacker)?</p>
+
 **Solo Movement** - Backstep rotation mechanics
 Practice the backstep rotation pattern without a partner. Work on weight transfer to the posting leg, full hip rotation, and landing in side control position. Drill 50 repetitions per side focusing on smooth, committed rotations.
 
@@ -314,45 +326,12 @@ During live rolling, actively seek Reverse X-Guard situations and attempt the ba
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the backstep pass from Reverse X-Guard?
-**A**: The optimal timing is when the opponent's hooks are at maximum extension during an active sweep attempt. At this point, their hooks have the least bite and are stretched thin, reducing the resistance your trapped leg encounters during the rotation. Initiating during the opponent's attack also disrupts their offensive timing and converts their committed position into vulnerability.
-
-**Q2**: What grip must be established before beginning the backstep rotation?
-**A**: Upper body grip control on the opponent's collar, sleeve, or wrist on the hook side must be established before rotating. In no-gi, a wrist control or collar tie serves this purpose. This grip anchors the opponent's upper body and prevents them from inverting and following your backstep rotation to take your back, which is the highest-percentage counter to this technique.
-
-**Q3**: What is the most critical mechanical detail that determines whether the backstep clears the hooks successfully?
-**A**: Complete weight transfer to the posting leg before initiating the rotation is the most critical mechanical detail. Without full weight on the free leg, you cannot generate a committed, fluid backstep arc. Partial weight transfer leads to a hesitant step that allows the opponent to track your movement and adjust their hooks. The posting leg must serve as a stable axis for the entire rotation.
-
-**Q4**: Your opponent begins inverting to follow your backstep—how do you respond?
-**A**: If the opponent begins inverting early in the backstep, immediately accelerate the rotation and tighten your upper body grip to outpace their inversion. If they have already partially inverted, abort the backstep by sitting through toward them and re-establishing a face-to-face position rather than completing the rotation with your back exposed. Prevention through grip control is always preferable to mid-rotation adjustments.
-
-**Q5**: What direction of force should you apply through the backstep rotation?
-**A**: The primary force direction is a circular arc away from the opponent's hooks, not a linear backward step. The rotation should carry your trapped leg in a sweeping arc behind the opponent's body while your posting leg pivots on the ball of the foot. Simultaneously, downward pressure through your grips pins the opponent's upper body to the mat, creating a scissors-like action between your rotating lower body and pinned upper body control.
-
-**Q6**: What grip requirements change between gi and no-gi for this backstep pass?
-**A**: In gi, the ideal grip is a same-side collar grip combined with a sleeve grip, which provides maximum upper body control during rotation. In no-gi, the collar grip is replaced by a collar tie or head control, and the sleeve grip becomes a wrist control or overhook. No-gi requires more emphasis on head position and shoulder pressure to compensate for the reduced friction and grip options available without the gi fabric.
-
-**Q7**: The backstep fails and your opponent retains Reverse X-Guard—what are your immediate chain options?
-**A**: After a failed backstep, your most immediate options are to re-establish base and attempt a smash pass by driving weight forward into the opponent's hooks, transition to a long step pass using the angular position created by the failed backstep, or attempt a second backstep with adjusted timing. The failed backstep often disrupts the opponent's original hook configuration, creating different vulnerabilities. Avoid repeatedly attempting the same backstep without adjusting your setup.
-
-**Q8**: Why must you consolidate side control immediately upon completing the backstep rather than pausing?
-**A**: The backstep landing creates a brief window where the opponent's legs are free but their upper body is still controlled by your grip. If you pause, the opponent uses their now-free legs to reinsert hooks, establish frames, or recover any form of guard within one to two seconds. Immediate crossface and hip pressure eliminates this recovery window. The consolidation must happen as a continuation of the rotation, not as a separate action.
-
-**Q9**: Your opponent stiffens their legs and extends hooks to resist the backstep—how do you adjust?
-**A**: Extended, stiffened hooks create a different opportunity: collapse forward over the extended legs into a smash pass rather than continuing the backstep. The stiffened position eliminates the opponent's ability to retract and adjust, making them vulnerable to direct pressure passing. Alternatively, use the extension to strip hooks more easily since straight legs have less hooking power than bent legs. The opponent's defensive reaction should dictate your passing approach.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep Pass from Reverse X-Guard?</p>
 
 The Backstep Pass from Reverse X-Guard is generally a low-risk technique with no direct submission threat. However, the rotation can create torque on the trapped knee if the opponent's hooks do not release cleanly during the backstep arc. Practitioners should avoid forcing the rotation against deeply set hooks and instead focus on creating hook slack before committing to the step. Training partners should release hooks that are being rotated against to prevent knee ligament strain. In drilling, start with cooperative releases and gradually increase resistance.
 

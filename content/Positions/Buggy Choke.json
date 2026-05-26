@@ -97,7 +97,7 @@
       "Use progressive pressure application rather than explosive movements to maximize control duration and technical efficiency",
       "Treat position as transitional attack hub connecting multiple high-percentage outcomes based on opponent's defensive choices"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal grip depth for the threading arm in the Buggy Choke?",
         "answer": "The threading arm must reach deep enough that your palm-up hand can secure the far-side collar or neck area. Shallow threading allows the opponent to easily strip the grip or create defensive frames. The hand should travel completely under the armpit and across the back until it can grip collar material on the opposite side."
@@ -384,7 +384,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Buggy Choke Finish",
+        "transition": "Buggy Choke from Buggy Choke",
         "attempt_probability": 2
       }
     ]
@@ -431,7 +431,7 @@
       "Strip grips aggressively during early phases before body pressure makes grip fighting ineffective",
       "Accept tactical retreat to half guard or other defensive positions rather than allowing choke to develop in turtle"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical defensive window for preventing the Buggy Choke?",
         "answer": "The critical window exists during the threading phase before the second grip is secured. Once both grips are established with proper depth and body pressure applied, escape percentages drop dramatically. You must recognize the threading attempt immediately through feel and implement grip prevention, posture adjustments, or proactive escape movements within 1-2 seconds."

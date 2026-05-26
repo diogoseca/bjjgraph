@@ -80,7 +80,7 @@
       "relationship": "Natural follow-up transition after successfully consolidating to side control"
     },
     {
-      "name": "Consolidation to Knee on Belly",
+      "name": "Side Control to Knee on Belly",
       "relationship": "Reverse transition — moving from side control up to KOB, the opposite direction of this technique"
     },
     {
@@ -224,7 +224,7 @@
         "description": "Use the transition in live positional sparring starting from KOB. Track success rate and identify which defensive reactions give you the most difficulty. Develop the ability to choose between consolidating to side control, advancing to mount, or maintaining KOB based on real-time assessment of the opponent's defensive posture."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical grip to establish before initiating the drop from KOB to side control?",
         "answer": "The crossface grip or collar control on the near side is the most critical pre-transition grip. This grip controls the opponent's head position and prevents them from turning into you during the weight transfer. Without head control established before the drop, the opponent can create angles, insert frames, and begin escape sequences during the vulnerable transition window. The crossface must be in place before the knee leaves the belly."
@@ -332,7 +332,7 @@
         "correction": "Defend the crossface with your near arm as the opponent drops — blocking the crossface is equally important as attempting guard recovery since it prevents the opponent from completing their consolidation"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first recognition cue that your opponent is transitioning from KOB to side control?",
         "answer": "The first cue is the opponent lowering their center of gravity and dropping their hips toward the mat while their knee begins sliding laterally off your torso. You may also feel a slight reduction in focused downward pressure as their weight begins redistributing from vertical knee pressure toward horizontal chest contact. Grip changes — particularly reaching for a crossface or collar grip — confirm the intent to consolidate to side control."

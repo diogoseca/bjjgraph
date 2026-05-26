@@ -162,6 +162,8 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottomâ
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Reverse Half?</p>
+
 - Opponent increases chest pressure directed toward your hips from behind, settling their weight to begin the extraction sequence
 - Opponent's near hand moves to block your far hip, indicating they are preparing to prevent your shrimping during leg extraction
 - Opponent begins hip switching movements, rotating their trapped-leg-side hip toward the mat to create an extraction angle
@@ -174,6 +176,8 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottomâ
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Reverse Half?</p>
 
 - Maintain tight leg clamp on the trapped leg as your primary defenseâ€”losing leg control means immediate pass completion to side control
 - Stay dynamic and mobile rather than static, as reverse half guard bottom degrades rapidly without active defensive movement
@@ -188,6 +192,8 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottomâ
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Reverse Half?</p>
 
 ### 1. Shrimp hips away and recover knee shield before extraction completes
 
@@ -225,6 +231,8 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottomâ
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Reverse Half?</p>
+
 ### â†’ [[Positions/Half Guard]]
 
 Time a sweep during the opponent's hip switch when their base is most compromised. Use their extraction momentum against them by redirecting their weight laterally while they are mid-transition between reverse half guard and side control.
@@ -240,6 +248,8 @@ Shrimp and recover knee shield or standard half guard frames before the extracti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Reverse Half?</p>
 
 ### 1. Releasing leg clamp tension while focusing on upper body frames and defense
 
@@ -269,6 +279,8 @@ Shrimp and recover knee shield or standard half guard frames before the extracti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Reverse Half?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying reverse half guard passing attempts and timing cues
 Partner establishes reverse half guard top and performs the passing sequence at 25% speed. Practice recognizing each stage of the pass: pressure establishment, crossface placement, hip block, hip switch, and extraction. Identify the tactile and visual cues for each stage. 5-minute observation rounds.
 
@@ -285,29 +297,6 @@ Start in reverse half guard bottom with partner at full resistance attempting to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive structure to maintain when defending against pass reverse half?
-**A**: The leg clamp on the opponent's trapped leg is the most important defensive structure. Without active leg control, the opponent can freely extract their leg and complete the pass immediately regardless of any upper body frames or defensive movements. Every defensive action must preserve leg clamp tension as its first priorityâ€”frames, shrimps, and inversions are secondary to maintaining the leg entanglement.
-
-**Q2**: How do you recognize the optimal moment to attempt your defensive movement against the pass?
-**A**: The optimal moment is when the opponent initiates their hip switch for leg extraction. During the hip switch, their weight temporarily shifts and their pressure lightens as they rotate. This brief window is when shrimps, bridges, and inversions have the highest success rate. Attempting defense when the opponent has settled weight and is not moving results in failed escapes against stable base. Feel for their hip rotation as the trigger for your response.
-
-**Q3**: Your opponent has strong crossface control from behind and you cannot turn to face themâ€”what alternative defensive pathway should you pursue?
-**A**: When the crossface prevents turning, use the inversion pathway instead. Hip escape slightly to create space under your body, then rotate underneath the opponent using your legs and hip mobility. The inversion bypasses the crossface entirely because you are moving in the opposite direction from what the crossface controls. Alternatively, focus solely on leg clamp maintenance and shrimping to recover knee shield, which does not require turning your upper body.
-
-**Q4**: What is the critical difference between defending the pass and defending the back take from reverse half guard bottom?
-**A**: Defending the pass requires you to prevent leg extraction by maintaining your clamp and creating frames to block the hip switch. Defending the back take requires you to prevent the opponent from following your rotation and inserting hooks. These are opposing defensive priorities: turning to face prevents the pass but risks the back take, while flattening prevents the back take but enables the pass. You must read the opponent's intent and choose the appropriate defense for each moment.
-
-**Q5**: Your leg clamp begins slipping during the opponent's extractionâ€”what emergency response should you execute?
-**A**: Immediately abandon any upper body defensive plan and redirect all effort to re-securing the leg clamp. Use both legs to recapture the opponent's leg with maximum clamping pressure. If the leg is too far extracted to recapture, immediately transition to plan B: shrimp explosively and insert your knee for a knee shield before they complete the pass to side control. The knee shield is your backup barrier when the primary leg clamp fails.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll to Truck?</p>
+
 - Follow opponent's rotational momentum rather than fighting against their granby escape attempt
 - Maintain hip-to-hip connection throughout the roll to prevent separation and escape
 - Establish boot control (foot on hip) immediately upon completing the roll as the foundation for truck control
@@ -203,6 +205,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll to Truck?</p>
+
 - Buggy choke control established with threading arm under opponent's near armpit reaching to far collar or neck
 - Opponent has initiated or is attempting granby roll escape or defensive rotation away from choking pressure
 - Hip-to-hip connection maintained with your near hip controlling opponent's near hip movement
@@ -215,6 +219,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll to Truck step by step?</p>
 
 1. **Recognize escape attempt**: Feel opponent initiating granby roll or rotation away from buggy choke pressure. This typically manifests as hip movement away from you combined with shoulder dipping toward the mat. Do not initiate the roll preemptively—wait for clear commitment.
 2. **Secure hip connection**: Drive your near hip tight against opponent's near hip before they can create separation. Your hip becomes the pivot point around which the entire transition rotates. Without this connection, the opponent can simply roll away and escape.
@@ -244,6 +250,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll to Truck?</p>
+
 - **Opponent stops rotation midway and returns to turtle defense before truck is established** (Effectiveness: High) - Your Response: Immediately return to buggy choke attack or transition to standard back take if grips are lost during the exchange → Leads to [[Positions/Buggy Choke]]
 - **Opponent posts with far arm during roll to prevent being flattened and rotated fully** (Effectiveness: Medium) - Your Response: Attack the posted arm for crucifix entry or use their posting motion to set up darce choke from the resulting angle → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent accelerates rotation and completes full granby roll escaping both buggy choke and truck attempt** (Effectiveness: Medium) - Your Response: Follow their momentum and immediately re-engage with turtle top control or transition to crab ride position to maintain back exposure → Leads to [[Positions/Turtle]]
@@ -255,6 +263,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll to Truck?</p>
 
 ### 1. Initiating roll without opponent committing to escape direction
 
@@ -294,6 +304,8 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll to Truck (Attacker)?</p>
+
 **Week 1-2** - Solo movement mechanics
 Practice the rolling motion without partner, focusing on maintaining tight ball position and ending in proper truck body alignment. Drill the roll from both sides until movement is smooth and automatic.
 
@@ -314,48 +326,12 @@ Incorporate into live rolling from turtle top position. Work on setting up buggy
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that initiates the Roll to Truck transition?
-**A**: The trigger is recognizing the opponent's commitment to granby roll escape or defensive rotation away from buggy choke pressure. This is felt through their hip movement away from you combined with shoulder dipping toward the mat. The roll should only be initiated after this commitment is clear, never forced on a static opponent.
-
-**Q2**: What is the most critical control point to establish immediately upon completing the roll?
-**A**: Boot control (foot placed firmly against opponent's hip) is the most critical point to establish immediately. The boot creates the torque that defines the truck position and prevents all standard escape movements. Without boot pressure, the opponent can easily roll through or straighten out to escape the entanglement.
-
-**Q3**: Your opponent posts their far arm during the roll to prevent being flattened—how do you respond?
-**A**: The posted arm creates an opportunity for crucifix entry by trapping the extended arm with your legs while maintaining upper body control. Alternatively, if the posting creates an angle toward you, transition to darce choke setup. The key is recognizing the posted arm as an opportunity rather than an obstacle to the roll.
-
-**Q4**: What grip must be maintained throughout the entire rolling motion and why?
-**A**: In gi, maintain your collar grip established during buggy choke. In no-gi, maintain the underhook or neck control. This grip must not be released during the roll as it prevents opponent separation and ensures upper body control upon reaching truck position. Using hands for balance instead of maintaining grip is a common error that allows escape.
-
-**Q5**: How does the Roll to Truck differ from forcing a truck entry on a static opponent?
-**A**: Roll to Truck is a reactive transition that utilizes the opponent's own escape momentum rather than forcing entry against a static defender. Attempting to roll a non-moving opponent typically fails because there is no momentum to harness. The technique requires patience to create buggy choke pressure that forces reaction, then capitalizes on that predictable defensive movement.
-
-**Q6**: Your opponent accelerates their granby roll and escapes before you establish truck—what went wrong?
-**A**: This typically indicates insufficient hip-to-hip connection before initiating the roll, or releasing upper body control during the transition. Prevention requires driving your hip tight against theirs as the pivot point before rolling, and never releasing your collar or underhook grip regardless of how the roll develops. Following their momentum faster and maintaining chest-to-back contact throughout also helps.
-
-**Q7**: What are the primary submissions available after successfully completing Roll to Truck?
-**A**: The primary submissions are the twister (spinal lock attacking cervical spine rotation), calf slicer (attacking trapped leg's knee joint through compression), and banana split (groin stretch through leg separation). In gi, bow and arrow choke is also available. The position also offers constant transition opportunity to traditional back control with hooks for rear naked choke.
-
-**Q8**: When should you abandon the Roll to Truck attempt and return to buggy choke or other attacks?
-**A**: Abandon the attempt when opponent stops their rotation midway and returns to turtle defense, when they successfully clear hip connection before the roll begins, or when you feel loss of upper body control that cannot be recovered during the roll. Forcing a failed roll risks losing position entirely. Return to buggy choke pressure or reset to turtle top attacks.
-
-**Q9**: Your opponent clears your hip connection just as you begin rolling—what is the correct response?
-**A**: Immediately abort the roll and re-establish buggy choke pressure from turtle top. Without hip connection, the roll will result in separation and loss of position. Use your chest weight to drive back into their turtle, re-establish grips, and apply choking pressure to force another defensive reaction. Do not continue a roll without the hip pivot point.
-
-**Q10**: How do you establish proper leg entanglement during the rolling motion?
-**A**: During the latter half of the roll, thread your near leg between opponent's legs to establish a figure-four or lockdown configuration on their bottom leg. Your top leg positions for boot control on their hip. The entanglement must be achieved during the roll's momentum—attempting to establish it after stopping is much more difficult as the opponent can straighten their legs defensively.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll to Truck?</p>
 
 The Roll to Truck transition carries moderate risk primarily related to the rotational dynamics involved. Ensure adequate warm-up of neck and spine before drilling. The receiving partner should be familiar with truck position escapes and tap protocols before drilling at speed. When arriving in truck position, apply submissions (especially twister and calf slicer) with control and incremental pressure, as both can cause serious injury with little warning. Partners should establish clear tap protocols before training. Avoid forcing the roll against rigid resistance as this can strain lower back. When drilling with less experienced partners, pause in truck position before attacking to ensure they understand the defensive position they are in.
 

@@ -158,6 +158,8 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting De La Riva Sweep?</p>
+
 - Bottom player pulls strongly on your sleeve while simultaneously extending their DLR hook leg, creating lateral pulling force combined with upward leg drive
 - Your weight shifts forward or laterally as the bottom player's opposite foot pushes your far hip away while their hook lifts your near leg
 - Bottom player's hips rotate toward the sweep direction and their collar/belt grip pulls downward, indicating the coordinated sweep motion is beginning
@@ -169,6 +171,8 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending De La Riva Sweep?</p>
 
 - Maintain weight centered over your feet with hips back to prevent the bottom player from redirecting your momentum into a sweep
 - Prioritize stripping the sleeve grip immediately, as this is the grip that prevents you from posting to block the sweep
@@ -183,6 +187,8 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against De La Riva Sweep?</p>
 
 ### 1. Step back with the hooked leg to extract from the DLR hook while stripping the sleeve grip
 
@@ -220,6 +226,8 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending De La Riva Sweep?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Strip the sleeve grip using your free hand while simultaneously stepping your hooked leg back to extract from the DLR hook. This forces the bottom player to restart their guard establishment without either of their primary controls, returning you to a neutral passing position.
@@ -235,6 +243,8 @@ Jump over or backstep around the DLR hook while maintaining your grips on their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending De La Riva Sweep?</p>
 
 ### 1. Leaning forward with weight over the DLR hook when feeling the sweep begin
 
@@ -264,10 +274,12 @@ Jump over or backstep around the DLR hook while maintaining your grips on their 
 
 ## Training Progressions
 
-**Week 1-2: Recognition and Base Maintenance** - Learning to feel sweep initiation and maintain proper base in DLR guard
+<p class="section-subtitle">How do you train defense against De La Riva Sweep?</p>
+
+**Week 1-2: Recognition and Base** - Learning to feel sweep initiation and maintain proper base in DLR guard
 Partner establishes DLR guard and slowly initiates sweep attempts at 30% speed. Focus on recognizing the tactile cues of sweep initiation: sleeve pull, hook extension, and hip rotation. Practice maintaining centered weight distribution and wide base without attempting any counter-actions yet. Build awareness of when your weight shifts dangerously forward.
 
-**Week 3-5: Grip Fighting and Hook Removal** - Developing systematic grip stripping and DLR hook extraction techniques
+**Week 3-5: Grips and Hook Removal** - Developing systematic grip stripping and DLR hook extraction techniques
 Partner plays active DLR guard with full grip fighting. Practice stripping the sleeve grip using various methods: two-on-one break, circular motion break, and same-hand strip. Drill three hook removal techniques: backstep, step back extraction, and knee-to-mat flattening. Partner provides 50% resistance. 20 repetitions per technique per session.
 
 **Week 6-8: Integrated Defense with Passing** - Connecting sweep defense directly to guard passing sequences
@@ -280,26 +292,6 @@ Full resistance positional sparring starting in opponent's DLR guard. Partner ch
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to strip when defending the De La Riva Sweep?
-**A**: The sleeve grip on the same side as the DLR hook is the most critical grip to strip. This grip prevents you from posting your hand to block the sweep, which is your primary emergency defense. Without the sleeve grip, even a perfectly timed sweep can be stopped by simply posting your hand on the mat. Stripping this grip should be your first defensive priority before attempting to remove the hook.
-
-**Q2**: Why does leaning forward make the De La Riva Sweep more dangerous rather than helping you resist it?
-**A**: The DLR sweep converts forward momentum into lateral sweeping force through the hook and grip system. When you lean forward, you place your center of gravity directly over the lever (the DLR hook), which gives the bottom player maximum mechanical advantage to redirect your weight sideways. The bottom player is essentially waiting for you to commit weight forward so they can redirect it. Keeping weight back removes the energy source the sweep depends on.
-
-**Q3**: Your opponent has a deep DLR hook and strong sleeve grip - you feel them beginning to extend the hook. What is your immediate emergency response?
-**A**: Post your free hand on the mat toward the direction you are being swept to create an emergency base point. Simultaneously drive your hooked knee toward the mat to flatten their hips and reduce the hook's leverage. This buys you time to then strip the sleeve grip and extract your leg. The posting hand is your emergency brake while the knee drive addresses the root cause of the sweeping force.
-
-**Q4**: How can you convert a successful sweep defense directly into a guard passing opportunity?
-**A**: When you successfully step back to extract from the DLR hook, immediately use the momentum of your backward step to circle to the opposite side and initiate a toreando or leg drag pass before the bottom player can re-establish their guard. If you flatten their hips by driving your knee down, you can flow directly into a knee slice pass through the compromised guard structure. The key principle is that every defensive action should transition into an offensive one without resetting to neutral.
-
-
-
-</section>
 
 
 </main>

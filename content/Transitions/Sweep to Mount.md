@@ -220,7 +220,7 @@ The Sweep to Mount occupies a critical role in the Hindulotine bottom attack sys
 
 - [[Transitions/Consolidate Mount]] - Follow-up technique to establish control after landing in mount from the sweep
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission option after releasing guillotine in mount
+- [[Transitions/Mount to Armbar]] - Follow-up submission option after releasing guillotine in mount
 
 - [[Positions/Guillotine Control]] - Parent submission system providing the grip mechanics used in this sweep
 

@@ -92,7 +92,7 @@
       "Read opponent's defensive reactions to pressure and immediately capitalize on exposed opportunities",
       "Adjust shoulder angle and pressure direction continuously based on opponent's head position and escape attempts"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal angle for driving shoulder pressure into the opponent's jaw?",
         "answer": "The optimal angle is approximately 45 degrees toward the opponent's far shoulder, not straight down. This angle creates a pressure vector that travels through their cervical spine, limits head rotation completely, and makes it biomechanically impossible for them to turn their head back toward you. Straight-down pressure allows them to turn away and begin escape sequences."
@@ -257,7 +257,7 @@
         "duration": "10 minutes continuous switching"
       },
       {
-        "name": "Dynamic Pressure Application Under Movement",
+        "name": "Dynamic Pressure Under Movement",
         "description": "Top player maintains Shoulder of Justice Top position while bottom partner attempts progressive escape sequences from passive to active resistance. Top player must maintain shoulder pressure throughout all opponent movements, continuously adjusting shoulder angle, base positioning, and hip connection. Reset when control is lost. Progress resistance from 25% to 75% over the drill duration.",
         "duration": "3 rounds x 3 minutes with increasing resistance"
       },
@@ -320,11 +320,7 @@
     },
     "transitions": [
       {
-        "transition": "Kimura",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Americana",
+        "transition": "Americana from Shoulder of Justice",
         "attempt_probability": 12
       },
       {
@@ -336,11 +332,11 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Shoulder of Justice",
         "attempt_probability": 11
       },
       {
-        "transition": "North-South Choke",
+        "transition": "North-South Choke from Shoulder of Justice",
         "attempt_probability": 10
       },
       {
@@ -357,7 +353,7 @@
       },
       {
         "transition": "Kimura from Shoulder of Justice",
-        "attempt_probability": 2
+        "attempt_probability": 20
       }
     ]
   },
@@ -404,7 +400,7 @@
       "Far arm must stay tight to your body - bringing it across face creates arm triangle setup",
       "Escape priority: relieve pressure first, create space second, recover guard third"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is breathing through your nose critical when trapped in Shoulder of Justice Bottom?",
         "answer": "Breathing through your nose maintains composure and prevents panic reactions that lead to desperate defensive movements. Jaw pressure naturally makes you want to breathe through your mouth, but this triggers a stress response that accelerates fatigue and causes reactive errors like extending your near arm or bringing your far arm across your face. Nasal breathing activates the parasympathetic nervous system, helping you stay calm and think systematically about escape timing."

@@ -15,7 +15,7 @@
   "from_position": "Crucifix/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Armbar Control/Top",
       "probability": 65,
       "result": "success"
     },
@@ -71,7 +71,7 @@
       "relationship": "Position retention technique that sustains control while setting up the armbar"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Related armbar mechanics from back control sharing similar behind-opponent attack angle"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "name": "Armbar Control",
-      "relationship": "Related arm isolation control concept used in standard armbar sequences"
+      "relationship": "Target control position reached on successful arm isolation and extension"
     }
   ],
   "attacker": {
@@ -237,7 +237,7 @@
         "description": "Begin rounds from established crucifix or practice entering crucifix from back control and turtle, then flowing to the armbar. Track success rates in live training and identify which defenses you encounter most frequently. Adjust your setup and timing based on real-time feedback from sparring partners of various sizes and skill levels."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to transition from choke threat to armbar attack in the crucifix?",
         "answer": "The optimal timing is when the opponent has fully committed their free arm to neck defense—their hand is at or above the collar/chin level and they are actively fighting your choking arm. At this moment, the arm is extended away from their body and their mental focus is on the choke threat, making wrist capture easiest and their defensive reaction to the armbar slowest. Transitioning before the arm is fully committed means the arm is still protected against their body."
@@ -358,7 +358,7 @@
         "correction": "Combine arm defense with constant hip bumping, bridging, and micro-shrimping to disrupt the attacker's alignment and create escape angles that address the root cause of the submission threat"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first thing you should do when you feel the attacker transitioning from choke to armbar in the crucifix?",
         "answer": "Immediately retract the free arm toward your body, bending the elbow and tucking it tight against your ribs. The attacker's transition from choke to armbar requires them to capture your wrist—if the arm is already retracted before they establish grip, the armbar attempt fails at its earliest stage. Do not wait to confirm the armbar attack; respond to the first recognition cue by pulling the arm in preemptively."

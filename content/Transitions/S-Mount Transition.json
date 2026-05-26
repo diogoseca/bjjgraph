@@ -46,8 +46,8 @@
       "relationship": "Target position achieved on successful transition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Primary follow-up submission from S-Mount"
+      "name": "Mount to Armbar",
+      "relationship": "Primary follow-up submission setup from S-Mount"
     },
     {
       "name": "Technical Mount",
@@ -211,7 +211,7 @@
         "description": "Integrate S-Mount Transition into rolling starting from mount position. Track success rate and identify common failure points. Refine timing based on live resistance feedback. Test against varying body types and skill levels."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of S-Mount Transition?",
         "answer": "The primary goal is to advance from Modified Mount to S-Mount position, which provides superior arm isolation and hip positioning for high-percentage armbar finishes. S-Mount offers more control than Modified Mount because both legs actively contribute to pinning the opponent rather than one leg posting for stability."
@@ -349,7 +349,7 @@
         "correction": "Bridge diagonally toward the posted leg side where the attacker's base is weakest during the transition. Combine with a hip escape in the same direction for maximum effect."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical defensive window during S-Mount Transition and why?",
         "answer": "The most critical window is between when the attacker shifts weight forward and when the top leg clears your head. During this phase, the attacker's base is temporarily compromised as they move from stable Modified Mount to the perpendicular S-Mount configuration. Once the leg clears the head and knees pinch together, defensive options decrease dramatically and the armbar becomes nearly inevitable."

@@ -162,6 +162,8 @@ Defending against the Whizzer requires understanding that the overhook controls 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Whizzer?</p>
+
 - You feel your underhooking arm being elevated above your shoulder line with increasing pressure driving your shoulder toward the mat
 - Opponent's armpit clamps tightly over your shoulder with their elbow squeezing against their ribs, creating a vice-like connection you cannot easily pull free from
 - Opponent shifts their hips away from your underhook side at an angle while their free hand moves to control your head or far shoulder
@@ -173,6 +175,8 @@ Defending against the Whizzer requires understanding that the overhook controls 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Whizzer?</p>
 
 - Maintain posture and resist downward shoulder pressure by keeping your head up and driving your hips forward underneath you
 - Close the hip angle by circling toward the Whizzer side to reduce the mechanical advantage of the overhook
@@ -186,6 +190,8 @@ Defending against the Whizzer requires understanding that the overhook controls 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Whizzer?</p>
 
 ### 1. Circle toward the Whizzer side and drive hips forward to close the angle, squaring up with opponent to negate overhook leverage
 
@@ -223,6 +229,8 @@ Defending against the Whizzer requires understanding that the overhook controls 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Whizzer?</p>
+
 ### → [[Positions/Overhook Control]]
 
 Circle toward the Whizzer side to close the hip angle while maintaining strong posture and forward drive. Once the angle is closed, your underhook regains its power and the Whizzer loses its mechanical advantage. Alternatively, strip the overhook grip using your free hand and immediately re-establish your underhook before the opponent can recover control.
@@ -238,6 +246,8 @@ If you cannot strip or neutralize the Whizzer, use explosive forward drive to co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Whizzer?</p>
 
 ### 1. Pulling your trapped arm straight backward against the Whizzer instead of rotating the shoulder to extract
 
@@ -267,6 +277,8 @@ If you cannot strip or neutralize the Whizzer, use explosive forward drive to co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Whizzer?</p>
+
 **Week 1-2: Recognition and Posture Maintenance** - Identifying when a Whizzer is being applied and maintaining posture under pressure
 Partner establishes Whizzer from standing clinch, turtle top, or half guard passing position at 30% resistance. Practice recognizing the tactile cues of the overhook: armpit seal, elbow squeeze, hip angle creation. Focus on keeping head up, driving hips forward, and contesting the free hand. Hold defensive posture for 30-second rounds. Repeat 8-10 times per side.
 
@@ -283,29 +295,6 @@ Full-resistance positional sparring starting from positions where Whizzer is com
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is circling toward the Whizzer side more effective than circling away from it when trying to escape?
-**A**: Circling toward the Whizzer side closes the hip angle that gives the overhook its mechanical advantage. The Whizzer works because the opponent has angled their hips away, creating a lever that controls your shoulder. By circling toward them and squaring your hips, you eliminate that angle and restore your underhook's driving power. Circling away actually increases the angle and makes the Whizzer stronger, while potentially exposing your back for a back take as you turn away from the opponent.
-
-**Q2**: What is the most important thing to control with your free hand when caught in a Whizzer?
-**A**: Your free hand must contest the opponent's free hand or control their hip to prevent them from transitioning to back control or establishing head control. If their free hand secures your head or cross-faces you, escape becomes dramatically harder because they now have two points of control. By controlling their hip, you prevent them from stepping behind you for a back take. By controlling their wrist or elbow, you prevent head control establishment. The free hand battle is often the deciding factor in whether you escape the Whizzer or get advanced upon.
-
-**Q3**: When should you abandon your underhook entirely rather than continuing to fight the Whizzer?
-**A**: Abandon the underhook when the Whizzer is deeply set with a tight armpit seal, the opponent has established both hip angle and head control, and your attempts to close the angle or extract your arm have failed after two to three attempts. At this point, continuing to fight a losing grip battle wastes energy and keeps you in a deteriorating position. Instead, execute a limp-arm extraction, redirect to the opposite side, and establish a new control point before the opponent can adjust. The willingness to abandon a failed underhook and redirect is a hallmark of advanced defensive grappling.
-
-**Q4**: Your opponent has a deep Whizzer and begins stepping their far leg behind you for a back take - what is your immediate priority?
-**A**: Your immediate priority is to block their far leg from getting behind you by stepping your own leg back to occupy that space, or by turning your hips to face them before the leg clears. If their leg gets behind you, back control is imminent. Use your free hand to push against their far hip to prevent the step-through while simultaneously driving your hips forward to close distance. If you cannot prevent the step, immediately begin your back escape protocol rather than trying to recover the Whizzer defense, because the positional battle has shifted from overhook defense to back control defense.
-
-**Q5**: How does the limp-arm escape work against the Whizzer and what makes it different from simply pulling your arm out?
-**A**: The limp-arm escape uses shoulder rotation rather than linear retraction to defeat the Whizzer. Instead of pulling your arm straight back against the overhook's strongest resistance axis, you rotate your shoulder inward and downward, turning your trapped arm so the elbow points toward the mat. This circular motion slips the shoulder joint out of the armpit seal because the Whizzer is designed to resist pulling but cannot maintain its seal against rotational movement. As you rotate, your arm becomes thin and can slide out of the gap created by the rotation. Straight pulling actually tightens the armpit seal, while rotation opens it.
-
-
-
-</section>
 
 
 </main>

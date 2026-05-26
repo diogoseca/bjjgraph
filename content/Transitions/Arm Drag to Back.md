@@ -214,7 +214,7 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 
 - [[Transitions/Front Headlock to Back]] - Alternative back access - another path from similar positions
 
-- [[Transitions/Rear Naked Choke]] - Primary submission - main finish from resulting back control
+- [[Submissions/Rear Naked Choke]] - Primary submission - main finish from resulting back control
 
 - [[Transitions/Butterfly Sweep]] - Alternative attack - option from same starting position
 

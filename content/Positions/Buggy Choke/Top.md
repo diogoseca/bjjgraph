@@ -169,6 +169,8 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Position Definition
 
+<p class="section-subtitle">What is Buggy Choke (Top)?</p>
+
 - Top player's arm is threaded deep under opponent's near armpit with hand reaching across to far-side collar or neck area in palm-up orientation, establishing primary choking mechanism and postural control
 - Top player's opposite hand secures opponent's far-side collar in gi or connects to choking arm in no-gi, completing the grip structure that enables both choking pressure and positional dominance
 - Top player's chest applies downward pressure onto opponent's back and shoulder complex while hips remain heavy on opponent's near hip, creating perpendicular pressure that restricts defensive movement
@@ -182,6 +184,8 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Buggy Choke (Top)?</p>
+
 - Opponent is in defensive turtle position with sufficient postural breakdown to allow arm threading
 - Top player has established dominant turtle top control with ability to attack neck and collar areas
 - Top player has prevented or nullified opponent's immediate turtle escape attempts to create attack window
@@ -194,6 +198,8 @@ From a technical perspective, the buggy choke teaches important principles about
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Buggy Choke?</p>
 
 - Thread choking arm deep under armpit with palm-up orientation before opponent can establish effective defensive frames
 - Secure second grip immediately after threading to eliminate defensive window and complete control structure
@@ -209,6 +215,8 @@ From a technical perspective, the buggy choke teaches important principles about
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Buggy Choke (Top)?</p>
 
 **If opponent remains static and defensive without movement:**
 - Execute **[[Tighten grips and finish buggy choke/Attacker|Tighten grips and finish buggy choke]]** → [[game-over]] (Probability: 70%)
@@ -244,6 +252,8 @@ From a technical perspective, the buggy choke teaches important principles about
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Buggy Choke?</p>
 
 ### 1. Threading arm too shallow under armpit without reaching deep collar access
 
@@ -288,6 +298,8 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Buggy Choke attacks?</p>
+
 ### Buggy Choke Entry Mechanics Repetition
 
 Partner in defensive turtle provides 50% resistance. Repeatedly practice threading choking arm under near armpit, securing far collar grip, establishing second grip, and applying body pressure. Focus on smooth entry sequence, grip security, and proper body positioning. Reset to turtle and repeat 10-15 times per round, emphasizing technical precision over speed.
@@ -320,38 +332,6 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal grip depth for the threading arm in the Buggy Choke?
-**A**: The threading arm must reach deep enough that your palm-up hand can secure the far-side collar or neck area. Shallow threading allows the opponent to easily strip the grip or create defensive frames. The hand should travel completely under the armpit and across the back until it can grip collar material on the opposite side.
-
-**Q2**: Your opponent begins sitting to guard while you have buggy choke grips established - what adjustment do you make?
-**A**: Immediately hook the near leg with your leg and use their sitting motion to transition to back control. Their hip exposure during the sit creates the perfect opportunity to insert hooks. Maintain your collar grip as you follow them, converting the choke attempt into a back take with superior control.
-
-**Q3**: How should weight distribution be managed to maintain the Buggy Choke position?
-**A**: Apply perpendicular pressure with chest heavy on the opponent's back and shoulders while keeping hips weighted down on their near hip. This creates a flattening force that restricts their ability to sit, roll, or stand. Avoid keeping hips high or weight centered over your knees, as this allows escape movements.
-
-**Q4**: What is the role of head position in maintaining Buggy Choke control?
-**A**: The head serves as an active control point that must stay tight to the opponent's far shoulder. This prevents them from creating rotational space to turn into the choke, strip grips with improved leverage, or roll away from pressure. Letting the head drift away opens escape angles and weakens the overall control structure.
-
-**Q5**: When should you prioritize finishing the choke versus transitioning to another position?
-**A**: Finish the choke when the opponent remains static or focuses purely on grip fighting without movement. Transition to back control when they sit to guard, attack the crucifix when they extend their far arm to base, or roll to truck when they attempt granby escapes. The opponent's defensive choice determines your optimal path.
-
-**Q6**: Your opponent extends their far arm to base and prevent being flattened - what opportunity does this create?
-**A**: The extended arm creates a direct pathway to the crucifix position. Immediately trap the extended arm with your legs while maintaining upper body control. The crucifix offers superior control and multiple submission options compared to continuing the choke attempt against an actively defending opponent.
-
-**Q7**: How do you prevent energy depletion when attacking from Buggy Choke Top?
-**A**: Use body mechanics rather than arm strength for choking pressure. Let your chest weight drive the pressure while hips control position. Apply progressive pressure rather than explosive squeezing. The arms should complete the structure through leverage, not power. This allows sustained attacks without exhaustion.
-
-**Q8**: What is the critical timing window for securing the second grip after threading?
-**A**: The second grip must be secured immediately after the threading arm reaches depth - within 1-2 seconds. This window is the opponent's primary escape opportunity. Delaying allows them to strip the initial grip, turn into the position, or sit to guard before the choke structure is complete. Eliminate this defensive window by training fast grip connection.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

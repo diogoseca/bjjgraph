@@ -160,6 +160,8 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Crucifix?</p>
+
 - Attacker follows your turn-in rotation rather than resisting it, shifting their weight perpendicular to your body as you rotate toward them
 - Attacker's hand reaches over your torso toward your far arm or far shoulder, abandoning their standard leg drag upper body control in favor of the arm capture
 - Attacker releases pressure on your near shoulder or head control to free their hand for the arm capture, creating a momentary lightness in their upper body pressure
@@ -171,6 +173,8 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Crucifix?</p>
 
 - Keep elbows tight to your body during any turn-in attempt from leg drag bottom, never extending arms to post or frame where the attacker can capture them
 - Recognize the crucifix threat early by monitoring whether the attacker is following your rotation and reaching over your body for the far arm
@@ -184,6 +188,8 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Crucifix?</p>
 
 ### 1. Retract arms and turn away to concede back exposure instead of completing the turn-in
 
@@ -214,6 +220,8 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Crucifix?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Deny the crucifix by keeping elbows tight during turn-in or refusing to turn in entirely. If the attacker commits to the crucifix setup but you retract your arm before capture, they lose their original leg drag pressure and must re-establish control, giving you a window to reset your defensive frames.
@@ -229,6 +237,8 @@ Time a strong hip escape as the attacker releases leg drag control to pursue the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Crucifix?</p>
 
 ### 1. Extending the far arm to post on the mat during the turn-in attempt from leg drag bottom
 
@@ -258,6 +268,8 @@ Time a strong hip escape as the attacker releases leg drag control to pursue the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Crucifix?</p>
+
 **Week 1-2** - Recognition and arm discipline
 Partner establishes leg drag control and slowly initiates the crucifix entry. Practice recognizing the four recognition cues: following rotation, reaching over torso, releasing upper body pressure, and leg lifting. Focus on maintaining tight elbows during turn-in attempts without worrying about escape. Build the habit of arm protection as an automatic response.
 
@@ -274,29 +286,6 @@ Incorporate crucifix defense into live positional sparring from leg drag bottom.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most dangerous arm position to have during a turn-in from leg drag bottom?
-**A**: The most dangerous position is having the far arm extended away from your body for posting or framing during the turn-in. This extended arm is exactly what the attacker needs to initiate the crucifix capture. The arm is vulnerable because it is away from your centerline, making it easy to overhook or grip above the elbow. Keep elbows pinched tight to your ribcage during any turning movement from leg drag bottom.
-
-**Q2**: Your opponent follows your rotation instead of resisting your turn-in from leg drag - what does this indicate?
-**A**: This indicates they are setting up the crucifix transition rather than maintaining standard leg drag control. In normal leg drag top play, the passer resists your turn-in to maintain their passing angle. When they follow your rotation and shift perpendicular to your body, they are positioning to capture your arm and step over for the crucifix. Immediately abort the turn-in, retract your arms, and either stay flat or turn the opposite direction.
-
-**Q3**: Why is the crucifix a worse outcome than conceding back control from leg drag bottom?
-**A**: In back control, both arms remain relatively free to defend chokes, create frames, and work escape sequences. In crucifix, both arms are isolated through different mechanisms, eliminating virtually all defensive capability. Escape rates from back control are significantly higher than from consolidated crucifix. Back control also has more established escape pathways and the position degrades naturally over time as hooks shift, while crucifix maintains its control advantage until actively escaped.
-
-**Q4**: What is the correct defensive response if the attacker has captured your far arm but has not yet stepped their leg over?
-**A**: This is the critical last-chance window. Immediately perform a strong hip escape away from the attacker while simultaneously pulling your captured elbow toward your ribcage using a circular motion rather than a straight pull. The hip escape creates distance that may break the grip or prevent the step-over. If the arm remains captured, address the leg step-over by keeping your near elbow tight and your body angled to block their leg from crossing over your torso.
-
-**Q5**: How should you modify your turn-in defense from leg drag when you know your opponent has a strong crucifix game?
-**A**: Against a known crucifix player, bias your defensive choices away from the turn-in entirely. Prioritize staying flat and working leg extraction, or turning away to accept back exposure which is more escapable than crucifix. If you must turn in, do so incrementally with elbows glued to your ribs, checking after each micro-rotation whether the attacker is following. Use closed fists rather than open hands for any necessary posting, and keep your far arm across your own chest rather than reaching toward the mat.
-
-
-
-</section>
 
 
 </main>

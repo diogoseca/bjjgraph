@@ -188,6 +188,8 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Balloon Sweep?</p>
+
 - Maintain strong upper body control through collar and sleeve grips throughout the entire sweep
 - Use explosive hip extension to create vertical lift under the opponent's center of mass
 - Time the sweep to coincide with the opponent's forward pressure or weight commitment
@@ -203,6 +205,8 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Balloon Sweep?</p>
+
 - Closed guard established with opponent's posture broken forward and weight over their hands
 - Strong grip on opponent's collar or back of neck with dominant hand for posture control
 - Control of opponent's sleeve or tricep with the other hand to prevent posting
@@ -217,6 +221,8 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Balloon Sweep step by step?</p>
 
 1. **Establish upper body control**: Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controlling their sleeve or tricep with your other hand. Break their posture forward so their weight is over their hands and their head is near your chest. This control prevents them from posting wide during the sweep and creates the forward weight distribution needed for the lift.
 2. **Open guard and create angle**: Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angle to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents the opponent from simply posting their far leg to defend. The angle must be established before inserting hooks to avoid telegraphing the sweep direction.
@@ -237,7 +243,7 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 58% |
 | Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -246,10 +252,12 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Balloon Sweep?</p>
+
 - **Opponent posts their far leg wide to create a stable triangulated base** (Effectiveness: High) - Your Response: Switch to attacking the posted side with a Scissor Sweep cutting into their widened base, or abandon the sweep direction and attack their posted arm with an armbar since their weight is committed to the posting leg → Leads to [[Positions/Closed Guard]]
 - **Opponent pulls their hips back and stands up to relieve forward pressure** (Effectiveness: Medium) - Your Response: Follow their backward movement by maintaining sleeve control and transitioning to open guard attacks such as collar-sleeve pulling guard or single leg X entry, or sit up for a technical standup if they create sufficient distance → Leads to [[Positions/Closed Guard]]
 - **Opponent drives forward hard to flatten you and prevent the lift** (Effectiveness: Medium) - Your Response: Use their forward momentum to enhance the sweep by timing the lift to their drive, converting their energy into sweeping power, or redirect to Pendulum Sweep which specifically exploits forward over-commitment → Leads to [[Positions/Closed Guard]]
-- **Opponent posts their free arm wide on the mat to prevent rotation** (Effectiveness: Low) - Your Response: Attack the posted arm directly with armbar from guard since the arm is extended and isolated, or use the posting commitment to take their back as they become structurally exposed on the posting side → Leads to [[Positions/Closed Guard]]
+- **Opponent posts their free arm wide on the mat to prevent rotation** (Effectiveness: Low) - Your Response: Attack the posted arm directly with armbar from guard since the arm is extended and isolated, or use the posting commitment to take their back as they become structurally exposed on the posting side → Leads to [[Positions/Open Guard]]
 
 
 </section>
@@ -257,6 +265,8 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Balloon Sweep?</p>
 
 ### 1. Attempting sweep without proper upper body control established first
 
@@ -296,6 +306,8 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Balloon Sweep (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Basic movement pattern and coordination
 Practice the lifting motion from closed guard with partner in static defensive posture. Focus on feeling the compression-to-extension sequence and developing proper hook placement. Partner remains compliant to allow development of correct mechanics. Drill 20 repetitions per side each session.
 
@@ -316,48 +328,12 @@ Develop variations for different opponent body types and defensive strategies. P
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical difference between the Balloon Sweep and traditional lateral sweeps from closed guard?
-**A**: The Balloon Sweep uses vertical displacement and upward hip extension to lift the opponent's center of mass before rotating them over a diagonal line, rather than relying on lateral hip movement to cut their base. This vertical component creates a moment of weightlessness that eliminates the opponent's ability to post, making it effective against opponents with strong wide bases who successfully defend lateral sweeps like the Scissor Sweep.
-
-**Q2**: Why is the compression and loading phase critical to the success of the Balloon Sweep?
-**A**: The loading phase where you compress and draw your knees toward your chest creates a coiled spring effect that stores elastic energy for the explosive extension. Without proper loading, you rely only on concentric muscular strength rather than the stretch-shortening cycle, producing weak lifts easily defended. The opponent's weight must be fully settled onto your butterfly hook or posting foot before you release the explosive extension to generate maximum displacement.
-
-**Q3**: Your opponent successfully posts their far leg wide during your Balloon Sweep attempt. How do you adjust?
-**A**: You have several chain options based on their posting position. If their far leg posts wide, switch to a Scissor Sweep that cuts directly into their widened base. If their arm posts to the mat, attack with an armbar from guard on the isolated extended arm. If their posting rotates their body, follow the rotation to take their back. The key is recognizing which limb they post with and attacking the structural weakness that posting creates rather than forcing the original sweep direction.
-
-**Q4**: What angle should your hips be positioned at during the Balloon Sweep and why is this angle critical?
-**A**: Your hips should be angled at approximately 45 degrees to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents the opponent from posting their far leg directly behind them to create a tripod base. The sweep moves them over a diagonal line rather than straight back, which geometrically eliminates their strongest posting options and requires them to post laterally where their base is weakest.
-
-**Q5**: What is the correct synchronization between upper and lower body during the explosive phase?
-**A**: You must simultaneously extend your hips upward with explosive hip extension while lifting with the butterfly hook, and at the exact same moment pull down hard on the collar to maintain forward lean while the sleeve grip blocks the posting arm. The upward lift from the legs and the downward pull from the collar create opposing force vectors that rotate the opponent over your body. If these forces are not synchronized, the opponent can absorb the lift by posturing or absorb the pull by posting.
-
-**Q6**: When is the optimal timing window to initiate the Balloon Sweep?
-**A**: The optimal timing is when you feel the opponent's weight fully compressed and committed onto your butterfly hook or posting foot, ideally coinciding with a moment of their forward pressure or movement. Specific triggers include: the opponent driving forward to flatten you, the opponent reaching for grips which shifts weight forward, or immediately after a failed submission defense where they collapse forward. Their hands must be positioned close to your body rather than posted wide.
-
-**Q7**: Your opponent maintains very tight elbows and refuses to let you establish the collar grip needed for the sweep. What entry strategy do you use?
-**A**: Use a submission threat to open the collar grip opportunity. Attack with a triangle or armbar threat from closed guard, which forces the opponent to defend with their arms and head position. As they defend the submission, their posture breaks forward and their hands become occupied, creating the window to establish the deep collar grip. Alternatively, use an overhook to control one arm and pull them forward, which breaks their elbow-tight defense and loads their weight forward into the sweeping position.
-
-**Q8**: What is the critical difference in force direction between the Balloon Sweep and the Hip Bump Sweep?
-**A**: The Hip Bump Sweep drives force diagonally forward and upward by sitting up explosively into the opponent, using your torso as the primary sweeping mechanism. The Balloon Sweep drives force vertically upward from underneath using hip extension and butterfly hook mechanics, with the collar pull maintaining forward lean. The Hip Bump requires you to rise off your back; the Balloon Sweep keeps your back on the mat during the lift. This means the Balloon Sweep works from positions where the Hip Bump cannot initiate, particularly when the opponent is low and heavy.
-
-**Q9**: How do you chain the Balloon Sweep into a back take when the opponent partially defends?
-**A**: When the opponent posts their far leg to block the full sweep but their upper body rotates from your lift, immediately follow their rotation by releasing the collar grip and securing an underhook on the near side. Swing your hips out to the back side while inserting your bottom hook behind their knee. The posting leg becomes a pivot point around which you rotate to their back. Secure seat belt control before attempting the second hook. The key is recognizing the moment their defense exposes their back rather than continuing to force the sweep.
-
-**Q10**: What grip adjustments are necessary for the no-gi Balloon Sweep variant?
-**A**: Replace the collar grip with a deep overhook or whizzer on one arm, clamping tightly above the elbow to control their posture and prevent posting on that side. Replace the sleeve grip with a wrist control or two-on-one grip on the opposite arm. Use head control by pulling their head to your chest with the overhook side rather than relying on collar pressure. The fundamental mechanics remain identical but the grip substitutions require tighter body-to-body connection since no-gi grips are inherently less secure than collar grips.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Balloon Sweep?</p>
 
 When practicing the Balloon Sweep, ensure controlled execution during the explosive lifting phase to avoid slamming your partner onto the mat. Partners should practice proper breakfall techniques to safely absorb the sweep. During drilling, maintain awareness of surrounding training partners to avoid collisions as the sweep involves significant rotational movement across mat space. Progress resistance levels gradually to prevent injuries from mistimed explosive hip extensions. Ensure adequate mat space for the full sweeping arc. Partners with back, neck, or shoulder injuries should communicate limitations before drilling. When learning, prioritize controlled repetitions over explosive power until the movement pattern is reliable.
 

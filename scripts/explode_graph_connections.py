@@ -94,7 +94,7 @@ def build_graph_index():
         }
 
     # Index transitions
-    for path in sorted(TRANSITIONS_PATH.glob("*.json")):
+    for path in sorted(TRANSITIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if not data or not data.get("name"):
             continue
@@ -105,8 +105,8 @@ def build_graph_index():
             "outcomes": data.get("outcomes", []),
         }
 
-    # Index submissions
-    for path in sorted(SUBMISSIONS_PATH.glob("*.json")):
+    # Index submissions (include family hubs for reference resolution)
+    for path in sorted(SUBMISSIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if not data or not data.get("name"):
             continue
@@ -115,6 +115,7 @@ def build_graph_index():
             "path": str(path),
             "from_position": data.get("from_position", ""),
             "outcomes": data.get("outcomes", []),
+            "is_family": data.get("is_family", False),
         }
 
     return positions, transitions, submissions
@@ -168,6 +169,9 @@ def diagnose(positions, transitions, submissions):
             if to_pos and to_pos.lower() != "game-over":
                 base = to_pos.split("/")[0]
                 reachable.add(base)
+                # Outcomes pointing to submissions are valid targets
+                if base in submission_names:
+                    reachable.add(base)
 
     orphaned_positions = position_names - reachable
     for name in sorted(orphaned_positions):
@@ -198,14 +202,15 @@ def diagnose(positions, transitions, submissions):
                 "connections": count,
             })
 
-    # Missing files (outcome targets that don't exist as positions)
+    # Missing files (outcome targets that don't exist as positions or submissions)
+    all_known_targets = position_names | submission_names | transition_names
     for t_name, t_data in {**transitions, **submissions}.items():
         for outcome in t_data["outcomes"]:
             to_pos = outcome.get("to", "")
             if not to_pos or to_pos.lower() == "game-over" or to_pos == "TODO":
                 continue
             base = to_pos.split("/")[0]
-            if base not in position_names:
+            if base not in all_known_targets:
                 issues.append({
                     "type": "missing_position",
                     "name": base,
@@ -423,7 +428,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                         {"phase": "TODO", "focus": "TODO", "description": "TODO"}
                         for _ in range(4)
                     ],
-                    "knowledge_assessment": [
+                    "flashcards": [
                         {"question": "TODO?", "answer": "TODO" * 13}
                         for _ in range(5)
                     ],
@@ -444,7 +449,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                         {"error": "TODO", "consequence": "TODO", "correction": "TODO"}
                         for _ in range(3)
                     ],
-                    "knowledge_assessment": [
+                    "flashcards": [
                         {"question": "TODO?", "answer": "TODO" * 13}
                         for _ in range(3)
                     ],

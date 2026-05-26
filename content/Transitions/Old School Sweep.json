@@ -140,7 +140,7 @@
       },
       {
         "step_number": 3,
-        "action": "Establish Head Control",
+        "action": "Establish Head Position",
         "description": "With your opposite arm, wrap around the opponent's head from behind their neck, pulling their head down and across toward your underhook side. This breaks their posture and prevents them from posting their hand on the mat to resist the sweep. Maintain constant pulling pressure throughout setup."
       },
       {
@@ -244,7 +244,7 @@
         "description": "Start in Old School position with full controls established. Execute sweep attempts against progressive resistance from 60% to 100%. Reset after each successful sweep or defensive escape. Focus on integrating all mechanics under pressure and developing the feel for when the sweep is available versus when to transition to alternative attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Old School Sweep?",
         "answer": "The optimal timing window is during the opponent's forward weight shift, either when they drive pressure into you or when they attempt to clear the lockdown by extending their trapped leg. In both cases, their base is temporarily compromised and their weight is committed forward, which is exactly the direction your sweep needs to send them. Initiating during backward weight shift or neutral base makes the sweep significantly harder to complete."
@@ -368,7 +368,7 @@
         "correction": "Defend proactively by disrupting the bottom player's setup phase—strip head control early, fight the underhook before it gets deep, and prevent them from turning to their side"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that the Old School Sweep is being initiated?",
         "answer": "The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion."

@@ -206,7 +206,7 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 
 - [[Transitions/Pull Guard from Standing]] - Complementary transition for cycling between standing and guard
 
-- [[Transitions/Scramble to Top Position]] - Alternative transition when stand-up creates a scramble opportunity
+- [[Positions/Standing Position]] - Target position reached when stand-up is successfully completed
 
 - [[Transitions/Standing Up from Combat Base]] - Related standing transition using combat base as intermediate position
 
@@ -216,7 +216,7 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 
 - [[Positions/Closed Guard]] - Alternative guard position that can also transition to standing
 
-- [[Positions/Scramble Position]] - Common resulting position when stand-up is contested by opponent
+- [[Positions/Clinch]] - Common resulting position when stand-up is contested by opponent
 
 - [[Transitions/Guard Pull from Clinch]] - Option if opponent clinches during your stand-up attempt
 

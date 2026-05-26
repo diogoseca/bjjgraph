@@ -255,7 +255,7 @@
       },
       "average_time": "30-60 seconds before submission or positional advancement"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal grip depth for maintaining Kimura Trap Top control?",
         "answer": "The grip should be positioned as close to the opponent's elbow as possible, with your figure-four locked tight and your gripping arm threaded deep under their tricep. This deep positioning maximizes leverage for both control and finishing, while shallow grips near the wrist allow opponents to straighten their arm and escape. The elbow-deep grip also prevents them from turning their hand to break the configuration."
@@ -303,10 +303,6 @@
     ],
     "transitions": [
       {
-        "transition": "Kimura",
-        "attempt_probability": 30
-      },
-      {
         "transition": "North-South to Kimura",
         "attempt_probability": 13
       },
@@ -327,7 +323,7 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Americana",
+        "transition": "Americana from Kimura Trap",
         "attempt_probability": 6
       },
       {
@@ -340,7 +336,7 @@
       },
       {
         "transition": "Kimura from Kimura Trap",
-        "attempt_probability": 2
+        "attempt_probability": 32
       }
     ]
   },
@@ -544,7 +540,7 @@
       },
       "average_time": "45-90 seconds before sweep or submission attempt"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal hip positioning for maintaining offensive capability from Kimura Trap Bottom?",
         "answer": "Keep your hips turned toward your opponent with your bottom hip slightly elevated off the mat, creating an angle that enables sweeping mechanics. Your hips should never be flat on the mat, as this eliminates leverage and allows opponent to settle their weight. The lockdown or butterfly hook connection with their trapped leg maintains this angle while preventing them from passing or flattening you."

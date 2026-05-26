@@ -162,6 +162,8 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture from Chill Dog?</p>
+
 - Top player's grip focus shifts from your neck and upper back to your hips and armpits — they are seeking underhook leverage rather than seatbelt or harness control
 - Pressure changes from sustained downward compression to intermittent upward lifting force, especially under your near hip or far armpit
 - Top player's knee begins posting against your near hip, creating a block that signals they intend to prevent you from re-turtling after the lift
@@ -173,6 +175,8 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture from Chill Dog?</p>
 
 - Maintain elbow-to-knee connection as the primary defensive barrier — this frame must hold against underhook threading attempts
 - Use the top player's lifting energy against them by converting upward momentum into rotational movement for back takes
@@ -186,6 +190,8 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture from Chill Dog?</p>
 
 ### 1. Squeeze elbows tighter to knees and compress into tighter ball to deny underhook access
 
@@ -223,6 +229,8 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture from Chill Dog?</p>
+
 ### → [[Positions/Back Control]]
 
 When the top player commits to the lift with both arms engaged, use their upward momentum to initiate a barrel roll underneath them. Tuck your near shoulder, rotate your hips toward the near side, and use the momentum to end up behind them. This requires precise timing — too early and they abort the lift, too late and you are already being flattened.
@@ -238,6 +246,8 @@ Maintain an airtight elbow-to-knee connection and keep your weight forward on yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture from Chill Dog?</p>
 
 ### 1. Panicking and attempting a premature Granby roll when the top player begins seeking underhooks
 
@@ -267,6 +277,8 @@ Maintain an airtight elbow-to-knee connection and keep your weight forward on yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture from Chill Dog?</p>
+
 **Phase 1: Frame Resistance Drilling** - Maintaining defensive shell against underhook attempts
 Partner works to establish underhooks from Chill Dog top while you focus solely on keeping the elbow-knee frame intact. No escapes or counters — just frame maintenance under progressive pressure. 3-minute rounds with increasing intensity from 30% to 70%.
 
@@ -280,29 +292,6 @@ Partner completes the posture transition to closed guard. Focus exclusively on t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the top player is attempting a posture transition rather than a back take?
-**A**: The earliest cue is the shift in grip focus from your neck and upper back (which targets seatbelt and harness control for back takes) to your hips and armpits (which targets underhook leverage for the posture transition). This grip change is the clearest signal that their intention has shifted from back control to positional transition. You may also feel the pressure change from sustained downward compression to intermittent upward lifting force.
-
-**Q2**: Your defensive frame is holding but you can feel yourself getting fatigued — what should you do?
-**A**: Shift your strategy from sustaining the Chill Dog defense to preparing for an optimal guard recovery. Begin pre-positioning your grips for the moment the guard transition happens — prepare to grab collar or head control the instant your legs close around their waist. Attempting to hold Chill Dog until exhaustion results in a sloppy transition where the top player establishes clean posture. A controlled, prepared transition to closed guard with immediate posture breaking is far better than a fatigued collapse into open guard.
-
-**Q3**: The top player has established a deep underhook under your near hip and is beginning to lift — what is your best counter option?
-**A**: Your best option is the barrel roll back take, but only if the top player has committed both arms to the lift. If they have only one underhook, the roll is risky because they can post with their free hand. With both arms committed, wait until you feel your weight lifting off the mat, then tuck your near shoulder and rotate your hips toward the near side. The top player's own lifting momentum helps propel the rotation. If the timing window has passed, immediately transition to catching half guard with your near leg to establish a strong defensive guard position.
-
-**Q4**: Why is closed guard bottom actually a favorable recovery position after a successful posture transition by the top player?
-**A**: Closed guard bottom is an offensive position where you control the opponent's hips with your legs, can break their posture with combined arm and leg pressure, and have access to numerous sweeps and submissions. Compared to Chill Dog bottom, which is purely defensive with no submission threats and limited advancement options, closed guard bottom gives you the initiative to attack. The key is that you must immediately establish offensive grips and break posture before the top player settles into a strong passing base.
-
-**Q5**: What is the critical timing window for the barrel roll back take counter?
-**A**: The timing window opens when the top player has committed both arms to the lift and their base is compromised by the upward force they are generating. You feel this as your weight beginning to leave the mat — this is the trigger. The window closes once you are rotated past your near hip and approaching your back, at which point the roll becomes a scramble rather than a controlled back take. The window is approximately one to two seconds, which is why recognition and preparation must happen before the lift begins.
-
-
-
-</section>
 
 
 </main>

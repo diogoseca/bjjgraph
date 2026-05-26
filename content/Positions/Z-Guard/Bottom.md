@@ -169,6 +169,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Position Definition
 
+<p class="section-subtitle">What is Z-Guard (Bottom)?</p>
+
 - Inside leg (same side as trapped leg) wraps around opponent's thigh, securing half guard control with the foot locked behind opponent's knee or calf, preventing leg extraction
 - Outside leg creates active knee shield with knee pressed into opponent's shoulder, collarbone, or upper chest area, shin angled upward at approximately 45 degrees, creating maximum distance and preventing opponent from settling weight
 - Bottom player's shoulders remain off the mat at an angle (typically 45 degrees), maintaining active posture rather than flat defensive position, with weight distributed on one shoulder blade and hip to facilitate movement
@@ -183,6 +185,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Z-Guard (Bottom)?</p>
+
 - Opponent in top half guard position attempting to pass or establish control
 - Bottom player has secured half guard control with inside leg wrapped around opponent's leg
 - Bottom player able to create sufficient space to establish knee shield frame before opponent settles full weight
@@ -195,6 +199,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Guard?</p>
 
 - Maintain active knee shield pressure into opponent's shoulder or chest, never allowing the knee to collapse or lose tension against their body
 - Keep shoulders off mat at angle, using hip mobility to continuously adjust position and prevent opponent from flattening you to your back
@@ -210,6 +216,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Z-Guard (Bottom)?</p>
 
 **If opponent drives heavy forward pressure attempting to collapse knee shield and flatten you to back:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
@@ -244,6 +252,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Guard?</p>
 
 ### 1. Allowing knee shield to collapse or lose tension against opponent's body
 
@@ -288,6 +298,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Z-Guard defense?</p>
+
 ### Knee Shield Retention Drill
 
 Bottom player maintains Z-Guard while partner applies progressive pressure attempting to collapse knee shield. Bottom player practices maintaining shield integrity, adjusting angles, and using hip mobility to prevent being flattened. Progress from 25% resistance to 75% over multiple rounds. Focus on keeping shoulders off mat and maintaining active pressure into partner's body.
@@ -327,38 +339,6 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to drive heavy pressure into your knee shield - what adjustment should you make to maintain the position?
-**A**: Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them.
-
-**Q2**: What are the essential grips for maintaining Z-Guard effectively?
-**A**: The underhook on the trapped leg side is the most critical grip - it controls opponent's posture and enables all major sweeps. Secondary grips include: collar tie on the same side to prevent crossface, far side sleeve or wrist control to prevent them from establishing grips, and potentially a pants grip near their knee to control their base. The combination of underhook plus one secondary grip is the minimum for effective offense.
-
-**Q3**: How do you shut down the opponent's primary passing attack - the knee slice?
-**A**: Prevent the knee slice by maintaining constant tension in your knee shield against their shoulder rather than letting it drop to their hip. Control their far arm to prevent them from establishing the crossface that enables the slice. Keep your hips angled rather than square - if they begin the slice motion, hip escape away while maintaining the underhook to create space. If they commit hard to the slice, use their forward momentum to enter deep half or execute an underhook sweep.
-
-**Q4**: What grip priorities should you establish when first entering Z-Guard?
-**A**: First priority is securing the underhook on the trapped leg side before opponent can establish crossface. Second priority is establishing a controlling grip on their far side - sleeve, collar, or wrist - to limit their options. Third priority is ensuring proper knee shield placement high on their shoulder rather than low on their chest. These three elements create the foundation that makes all offensive options available.
-
-**Q5**: How should you apply the knee shield for maximum defensive effectiveness?
-**A**: Position your knee directly into opponent's shoulder or collarbone rather than their chest or bicep. Angle your shin upward at approximately 45 degrees with your foot hooking their hip or thigh to create maximum distance. Maintain constant active pressure - think of it as a spring that must stay loaded. Your knee shield should feel like a barrier they cannot simply push through, redirecting their pressure rather than absorbing it.
-
-**Q6**: Your opponent begins circling toward your back to avoid the knee shield - how should you react?
-**A**: Recognize this as an offensive opportunity rather than a defensive problem. As they circle, use your underhook to follow their movement and begin climbing up their back. Convert your bottom hook to a back hook and look to establish seatbelt control. If they've overcommitted to the circle, you may be able to take their back directly. If they stop mid-circle, use the angle they've created to hit the old school sweep or transition to electric chair.
-
-**Q7**: How do you manage energy when facing a heavy pressure passer who is systematically working to collapse your frames?
-**A**: Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard.
-
-**Q8**: After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?
-**A**: Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

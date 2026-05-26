@@ -166,6 +166,8 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Russian Tie to Back Take?</p>
+
 - Opponent grabs your wrist with one hand and your tricep with the other, establishing a clear 2-on-1 configuration on your lead arm
 - You feel forehead or head pressure against the outside of your bicep on the controlled arm side, which is the attacker's primary rotational block
 - Your arm is being pulled across your centerline and downward, bending at the elbow while the attacker begins stepping laterally
@@ -178,6 +180,8 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Russian Tie to Back Take?</p>
 
 - Address the Russian Tie grip immediately upon recognition - every second of delay increases the attacker's angle advantage
 - Turn your shoulders and hips toward the attacker aggressively to deny the circling angle rather than pulling away
@@ -192,6 +196,8 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Russian Tie to Back Take?</p>
 
 ### 1. Aggressive turn-in with free arm underhook or body lock
 
@@ -229,6 +235,8 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Russian Tie to Back Take?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip the Russian Tie grip early by attacking the wrist control with your free hand, then immediately square your hips to face the attacker and re-engage grip fighting from neutral. Alternatively, turn aggressively into the attacker with an underhook or body lock, converting their offensive attempt into your own takedown opportunity.
@@ -244,6 +252,8 @@ If the back take is imminent and you cannot strip grips or turn in, sit to guard
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Russian Tie to Back Take?</p>
 
 ### 1. Pulling the controlled arm straight back away from the attacker
 
@@ -273,6 +283,8 @@ If the back take is imminent and you cannot strip grips or turn in, sit to guard
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Russian Tie to Back Take?</p>
+
 **Week 1-2: Recognition and Grip Strip Fundamentals** - Identifying the Russian Tie and practicing basic grip breaks
 Partner establishes Russian Tie at slow speed from various angles. Practice recognizing the three control points and stripping the wrist grip using two-on-one peel and circular breaks. No circling allowed yet - focus entirely on early recognition and immediate grip strip reactions. 20-30 repetitions per session.
 
@@ -289,29 +301,6 @@ Begin rounds from standing with partner specifically hunting for Russian Tie con
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three control points of the Russian Tie, and which one should you prioritize disrupting as the defender?
-**A**: The three control points are: (1) wrist grip on your lead hand, (2) tricep grip above your elbow, and (3) head pressure (forehead) on the outside of your bicep. The wrist grip is typically the highest-priority target for disruption because it is the primary control that prevents you from straightening your arm and recovering posture. Breaking the wrist grip with your free hand using a two-on-one peel immediately weakens the other two control points since the attacker loses the ability to pull your arm across your centerline.
-
-**Q2**: Why is pulling your controlled arm straight back one of the worst defensive reactions against the Russian Tie?
-**A**: Pulling straight back feeds directly into the attacker's chain attack system because the backward pull creates forward momentum they can use for single leg and ankle pick entries on your near leg. Additionally, pulling back does not break the 2-on-1 grip effectively since the backward motion actually tightens their tricep grip. The attacker has trained specifically to capitalize on this reaction. Instead, you should attack the grip with your free hand, turn your body toward them, or swim your arm forward and up to clear the control.
-
-**Q3**: Your opponent has established a Russian Tie and begun circling - their hip is approaching yours. What is your last effective defensive window?
-**A**: Your last effective defensive window is before the attacker's hip clears your near hip. Once their hip passes yours, they achieve the perpendicular angle from which the back take becomes biomechanically inevitable and your rotation toward them is blocked by their body position. Before the hip clearing point, you can still turn aggressively into them with an underhook or body lock, strip the wrist grip to reset, or sit to guard as a last resort. After the hip clears, your only realistic option is to manage the back take by defending the seat belt establishment.
-
-**Q4**: When is sitting to guard an appropriate defensive choice against the Russian Tie to Back Take?
-**A**: Sitting to guard is appropriate as a last resort when the attacker has nearly cleared your hip and the standing back take is imminent. It should not be the first defensive reaction because it concedes top position and potentially advantage points. However, conceding a guard pull position is far better than allowing the 4-point back control with hooks and seat belt. The sit must be timed before the attacker clears your hip - if you sit too late, they follow you down and take the back from the ground. Pull into closed guard or De La Riva to create immediate guard retention.
-
-**Q5**: How should you train your defensive reaction time against the Russian Tie to ensure early recognition?
-**A**: Train with progressive resistance drills where your partner establishes the Russian Tie at increasing speeds while you practice immediate recognition and response. Start with static grip establishment where you identify the three control points (wrist, tricep, head pressure), then progress to slow-motion circling where you practice the turn-in timing. The key metric is reducing your recognition-to-reaction time to under 2 seconds. Film training sessions to identify whether you are reacting to the grip establishment or waiting until the circling phase before defending, and correct any delayed reactions.
-
-
-
-</section>
 
 
 </main>

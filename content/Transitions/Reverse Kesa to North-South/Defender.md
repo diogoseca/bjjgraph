@@ -85,6 +85,22 @@ description: "Defend and counter the Reverse Kesa to North-South transition. Rec
         "@type": "Answer",
         "text": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "The top player has completed the rotation and is settling into north-south - what is your last-resort defensive priority?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediately get your forearms perpendicular to the top player's chest to create skeletal frames before their weight fully consolidates. Your elbows must stay tight to your ribs for structural integrity. Even partial frames are valuable because they prevent full chest-to-chest compression and preserve breathing space. Simultaneously begin small hip escapes to incrementally create distance. The goal shifts from preventing the transition to establishing the minimum defensive structure needed to begin a north-south escape sequence. Acting within the first two to three seconds of their arrival is critical before underhooks lock in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you decide between bridging early versus waiting for the grip exchange window to insert a knee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Kesa to North-South?</p>
+
 - Top player's chest pressure begins shifting from your shoulder area toward your sternum as they initiate the rotation, changing the angle of weight distribution
 - Small stepping sounds and vibrations through the mat as the top player walks their feet around your head in the characteristic semicircular arc
 - Arm control on your far side loosens momentarily as the top player transitions from the reverse kesa armpit clamp to north-south underhook configuration
@@ -165,6 +183,8 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Kesa to North-South?</p>
 
 - Recognize the rotation early through pressure shifts and foot movement before the transition reaches its midpoint
 - Exploit the transitional instability window when the top player's base is narrowest and arm control is exchanging between grips
@@ -179,6 +199,8 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Kesa to North-South?</p>
 
 ### 1. Hip escape and insert near knee during the arm control transition to recover half guard
 
@@ -216,6 +238,8 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Kesa to North-South?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a strong hip escape during the rotation's second half when the top player's arm control transitions between grips. As their far-arm clamp loosens to exchange for a north-south underhook, insert your near knee between your bodies and close your half guard before they can settle. The key timing cue is feeling the armpit clamp release on your far arm.
@@ -231,6 +255,8 @@ Bridge explosively during the initial phase of the rotation when the top player'
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Kesa to North-South?</p>
 
 ### 1. Waiting until the top player has fully established north-south before attempting any defensive action
 
@@ -260,6 +286,8 @@ Bridge explosively during the initial phase of the rotation when the top player'
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Kesa to North-South?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition initiation cues
 Partner alternates between maintaining reverse kesa and initiating the north-south transition. Defender calls out the moment they detect the transition beginning without attempting to escape. Build sensitivity to pressure shifts, foot movement, and grip changes. Ten repetitions focusing purely on recognition accuracy before adding any defensive response.
 
@@ -276,26 +304,6 @@ Begin in reverse kesa with the top player free to transition to north-south or a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the Reverse Kesa to North-South transition?
-**A**: The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window.
-
-**Q2**: Why is the grip exchange phase the best window for recovering half guard?
-**A**: During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates.
-
-**Q3**: Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?
-**A**: Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed.
-
-**Q4**: How should your hip escape direction differ when defending this transition versus escaping established north-south?
-**A**: When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment.
-
-
-
-</section>
 
 
 </main>

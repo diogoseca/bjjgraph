@@ -194,6 +194,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Deep Half Entry from Half Guard?</p>
+
 - Time the entry when opponent commits weight forward during passing pressure rather than forcing against a well-based opponent
 - Secure the underhook on the far leg before committing to the dive underneath to ensure control throughout the transition
 - Use hip escape mechanics to create the angle needed for threading your head underneath the opponent's hips
@@ -208,6 +210,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Deep Half Entry from Half Guard?</p>
+
 - Half guard entanglement secured on at least one of the opponent's legs with sufficient control to prevent immediate extraction
 - At least one frame or underhook preventing the opponent from achieving complete chest-to-chest flattening
 - Hip mobility sufficient to angle your body and create space for sliding underneath the opponent
@@ -220,6 +224,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Deep Half Entry from Half Guard step by step?</p>
 
 1. **Establish underhook control**: From half guard bottom, fight to secure the underhook on the trapped leg side. Thread your arm deep under the opponent's armpit and around their back or far hip. This underhook serves as your primary control mechanism throughout the entire entry sequence and must be established before committing to the dive.
 2. **Create entry angle with hip escape**: Execute a hip escape away from the opponent to create the angle needed for sliding underneath. Your hips should shift toward the opponent's far leg side, opening the pathway between their legs and your body. This angle is critical because without it you cannot thread your head underneath their hips effectively.
@@ -250,6 +256,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Deep Half Entry from Half Guard?</p>
+
 - **Crossface and sprawl to flatten bottom player before entry completes** (Effectiveness: High) - Your Response: Accelerate the entry timing and use the free hand to swim underneath the crossface arm. If caught mid-entry, transition to lockdown to reset and attempt again with better timing. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Whizzer on underhook arm to prevent diving underneath** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to your advantage by redirecting it into the entry. As they overhook, duck your head deeper and use their whizzer pressure to slide underneath. The whizzer actually assists the entry if you angle correctly. → Leads to [[Positions/Half Guard]]
 - **Hip switch and backstep to extract trapped leg and change angle** (Effectiveness: High) - Your Response: Follow the opponent's movement with your legs and maintain the half guard hook. If they successfully switch hips, transition to single leg X-guard or re-guard rather than forcing the deep half entry against their changed angle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Deep Half Entry from Half Guard?</p>
 
 ### 1. Diving underneath without establishing the underhook first
 
@@ -300,6 +310,8 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Deep Half Entry from Half Guard (Attacker)?</p>
+
 **Phase 1: Entry Mechanics** - Basic movement pattern and body positioning
 Practice the entry movement with a compliant partner who provides no resistance. Focus on the hip escape angle, head threading path, underhook transition, and shoulder wedge positioning. Perform 20 repetitions per side until the movement becomes smooth and automatic.
 
@@ -320,42 +332,12 @@ After successful entry, immediately chain into sweep attempts including waiter s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has strong crossface control in half guard - how do you create the entry angle for deep half?
-**A**: When facing strong crossface, use your inside hand to frame against their crossface arm at the bicep or wrist to create momentary separation. Simultaneously execute a sharp hip escape away from them to create the angle. As the crossface loosens from the angle change, swim your head underneath their arm by turning your face toward their hips. The hip escape is the primary tool because the crossface becomes less effective when your body angle changes significantly.
-
-**Q2**: What is the most critical hip movement during the Deep Half Entry?
-**A**: The diagonal hip escape away from the opponent is the most critical movement. This creates the angular pathway needed to thread your head underneath the opponent's hips. Without this hip escape, your body remains square to the opponent and there is no space to slide underneath their center of gravity. The hip escape should move your hips toward the opponent's far leg side, opening the channel between their legs and your upper body.
-
-**Q3**: What grip must be established before committing to the deep half entry dive?
-**A**: The underhook on the trapped leg side must be established before committing to the entry. This underhook serves as the primary control mechanism throughout the transition and eventually becomes the deep underhook on the far leg in the completed deep half guard. Without this underhook, you have no control over the opponent's position during the entry and risk being flattened or having your head trapped underneath with no way to create sweep leverage.
-
-**Q4**: Your opponent posts their free leg wide as you begin the entry - how do you adjust?
-**A**: When the opponent posts wide, they are creating a stable base that makes the entry more difficult. Use your free hand to push or pull their posted leg to destabilize their wide base. Alternatively, apply lockdown on their trapped leg to pull them forward, collapsing their base and recreating the forward weight commitment you need. You can also switch to attacking the posted leg directly with a single leg X entry rather than forcing the deep half against their strengthened base.
-
-**Q5**: What conditions must exist before attempting the Deep Half Entry from Half Guard?
-**A**: Four conditions must be present: half guard entanglement on the opponent's leg must be secure, you need at least one frame or underhook preventing complete flattening, the opponent's weight must be committed forward or actively pressing down, and your hips must have sufficient mobility to create the entry angle through hip escape. If any of these conditions is missing, the entry will likely fail and leave you in a compromised position.
-
-**Q6**: The opponent applies a whizzer as you attempt to establish the underhook - what is your response?
-**A**: The whizzer can actually facilitate the entry. As the opponent overhooks your arm, duck your head deeper underneath their body and use the rotational pressure of the whizzer to assist sliding underneath. The whizzer pushes your shoulder down and inward, which aligns with the direction you want to travel for the entry. Alternatively, if the whizzer is too tight, switch to a different attack such as the old school sweep or back take that exploits the whizzer grip positioning.
-
-**Q7**: What is the most common failure point during the Deep Half Entry and how do you prevent it?
-**A**: The most common failure point is getting your head trapped underneath the opponent without having the underhook secured on the far leg. This creates a stuck position where you have no control and the opponent can flatten you with crossface pressure. Prevent this by always establishing the underhook before committing to the dive, and by maintaining continuous leg control that prevents the opponent from extracting and passing during the transition.
-
-**Q8**: How does the direction of force change during the Deep Half Entry transition?
-**A**: The direction of force changes from lateral to diagonal to rotational. Initially, you apply lateral force through the hip escape to create the entry angle. During the dive, force becomes diagonal as you thread underneath at an angle toward the opponent's far hip. Once established in deep half, force becomes rotational as your shoulder wedge and underhook create the circular leverage needed for sweeps. Understanding this force progression helps you apply the right type of pressure at each phase.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Deep Half Entry from Half Guard?</p>
 
 The Deep Half Entry from Half Guard involves significant neck loading as the head threads underneath the opponent's body. Practitioners should develop neck strength and flexibility progressively before attempting this transition at full speed. Avoid forcing the entry if your head is trapped in an awkward angle, as this can strain cervical vertebrae. During training, communicate with your partner and tap immediately if you experience any neck discomfort during the entry or if your partner applies excessive downward pressure while your head is underneath. Always warm up the neck thoroughly before practicing deep half entries.
 

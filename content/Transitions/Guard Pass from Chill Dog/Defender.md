@@ -162,6 +162,8 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from Chill Dog?</p>
+
 - Attacker's hip pressure shifts laterally toward your side rather than driving forward toward your back, indicating a pass rather than back take
 - Crossface pressure intensifies as the attacker drives your head away from their body, signaling the frame-breaking phase
 - Attacker's near-side hand drives deep under your armpit seeking an underhook rather than reaching around your torso for seatbelt
@@ -174,6 +176,8 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pass from Chill Dog?</p>
 
 - Maintain the elbow-knee connection as the primary defensive priority - this single structure prevents the entire pass sequence
 - Recognize the direction of the attacker's pressure to distinguish pass attempts from back take threats
@@ -188,6 +192,8 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from Chill Dog?</p>
 
 ### 1. Re-establish elbow-knee connection by driving elbow back to knee and tightening defensive frame
 
@@ -225,6 +231,8 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from Chill Dog?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Execute a well-timed Granby roll when the attacker overcommits their weight forward during the flattening phase. Use their forward momentum to generate your rolling motion, staying tight and controlled through the rotation to recover full closed guard with legs locked around their waist
@@ -236,6 +244,8 @@ Execute a well-timed Granby roll when the attacker overcommits their weight forw
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from Chill Dog?</p>
 
 ### 1. Attempting to rebuild the elbow-knee frame after it has been fully broken and crossface established
 
@@ -270,6 +280,8 @@ Execute a well-timed Granby roll when the attacker overcommits their weight forw
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from Chill Dog?</p>
+
 **Phase 1: Recognition** - Identifying pass versus back take intent
 Partner alternates between back take attempts and guard pass attempts from Chill Dog top. Defender calls out which attack is being attempted based on pressure direction and grip placement. No escape attempts - pure recognition training to build pattern identification before adding defensive responses.
 
@@ -286,29 +298,6 @@ Start every round in Chill Dog bottom against full resistance pass attempts. Def
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a guard pass to side control is being attempted rather than a back take?
-**A**: The earliest cue is the direction of the attacker's hip pressure. During a back take attempt, the attacker drives their hips toward your back to insert hooks. During the guard pass, the attacker shifts their hips laterally toward your side while driving downward pressure to flatten. You will also feel the crossface pressure increase as they try to turn your head away rather than reaching under your arms for the seatbelt. The lateral hip movement combined with crossface is the definitive signal distinguishing the pass from the back take.
-
-**Q2**: When is the optimal timing window to execute a Granby roll escape during the pass attempt?
-**A**: The optimal timing is during the transition between the frame-breaking phase and the flattening phase when the attacker commits their weight forward and slightly to one side as they begin driving your hips down. Their base is temporarily narrowed and their weight is directional rather than centered. Executing the Granby roll at this moment uses their forward commitment to generate your rolling momentum while exploiting the brief gap in their hip control as they reposition. Waiting until the flattening is complete eliminates this escape entirely.
-
-**Q3**: What happens if you attempt to escape after your hips have been completely flattened to the mat?
-**A**: Once your hips are flattened, turtle-based escape options like Granby rolls and technical stand-ups are no longer available because you lose the hands-and-knees base needed to generate rotational or upward force. Your primary option becomes frame-and-shrimp escape sequences similar to side control bottom escapes, which require significantly more energy than turtle-based escapes. This is why recognizing and responding to the pass attempt early is critical - the defensive window narrows with each completed phase.
-
-**Q4**: How do you maintain your defensive frame while the attacker drives a deep crossface?
-**A**: Tuck your chin aggressively toward the crossface side rather than allowing your head to be turned away. This resists the rotational force that opens your frame from the top down. Simultaneously press the near-side elbow harder into the knee and widen your base slightly for added stability. The crossface is most dangerous when it rotates your spine, causing cascading frame breakdown. By resisting rotation at the neck level, you prevent the structural failure the attacker needs to advance the pass.
-
-**Q5**: Your elbow-knee connection on the near side has been broken - what is your immediate priority?
-**A**: Immediately commit to an explosive escape rather than trying to re-establish the frame, because once the elbow-knee connection breaks, the attacker has a clear pathway to flatten and pass. Your best option is a Granby roll toward the open side or a sit-through to guard on the side where the frame broke. Attempting to re-close the frame under pressure rarely succeeds against a committed attacker who will immediately wedge into the gap. Speed of decision is critical - hesitation of even one second allows the attacker to advance to the next phase of the pass.
-
-
-
-</section>
 
 
 </main>

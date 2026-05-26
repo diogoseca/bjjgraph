@@ -164,6 +164,8 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rotate to Carni?</p>
+
 - Bottom player releases shin grip with their free hand while maintaining leg across your back - this hand release signals imminent rotation
 - Bottom player's overhook tightens noticeably as they deepen the grip in preparation for the transition
 - Bottom player's hips begin shifting laterally toward the overhook side, initiating the rotational arc
@@ -177,6 +179,8 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Rotate to Carni?</p>
+
 - Maintain compact base and avoid widening laterally - lateral space is what enables the rotation
 - Drive forward rather than pulling back when rotation initiates to deny the perpendicular angle
 - Extract trapped arm during the rotation window when overhook may momentarily loosen
@@ -189,6 +193,8 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rotate to Carni?</p>
 
 ### 1. Drive forward and flatten - immediately drop chest weight forward and drive shoulder pressure into opponent's hips to collapse the rotation before the perpendicular angle is achieved
 
@@ -226,6 +232,8 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rotate to Carni?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 Drive forward immediately when rotation begins to flatten the bottom player's hips and deny the perpendicular angle. Your forward pressure collapses their rotation and resets you to standard New York top where you continue systematic escape work.
@@ -241,6 +249,8 @@ Extract the trapped arm during the rotation window when the overhook loosens, or
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rotate to Carni?</p>
 
 ### 1. Widening base laterally when feeling off-balance in New York, creating the exact space needed for Carni rotation
 
@@ -275,6 +285,8 @@ Extract the trapped arm during the rotation window when the overhook loosens, or
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rotate to Carni?</p>
+
 **Week 1-2** - Recognition drilling
 Partner establishes New York and slowly initiates Carni rotation. Practice identifying the recognition cues: shin grip release, overhook tightening, hip shift. Call out when you recognize each cue. No defensive action yet - focus purely on pattern recognition and early detection timing.
 
@@ -291,29 +303,6 @@ Full resistance positional sparring from New York where partner can attempt Carn
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing to Rotate to Carni?
-**A**: The earliest cue is when the bottom player releases their shin grip with their free hand while keeping the leg across your back. This hand release signals that they are freeing a posting hand to power the rotation. You may also feel the overhook tighten immediately before this release as they secure their primary control before initiating the transition. Recognizing this two-step signal gives you a 1-2 second window to act preventively.
-
-**Q2**: Why is driving forward the highest percentage defensive response against early-stage rotation?
-**A**: Driving forward is the highest percentage response because the Carni rotation requires lateral space to swing the hips perpendicular. Forward pressure directly collapses this space by pinning the bottom player's hips to the mat and preventing the arc of movement. Additionally, forward drive is mechanically simple and fast to execute compared to arm extraction or posture recovery, making it achievable within the small time window available before the rotation progresses past the point of no return.
-
-**Q3**: What defensive position should you prioritize if you recognize the rotation too late to prevent Carni?
-**A**: If Carni is already being established, prioritize protecting your shoulder by keeping your trapped arm's elbow tight to your body and turning your shoulder inward to reduce the omoplata angle. Begin working to extract your arm using a hitchhiker-style escape before the bottom player secures wrist control. Accept the positional loss and focus on preventing the submission rather than trying to reverse a position that is already established.
-
-**Q4**: What is the primary risk of attempting arm extraction during mid-rotation?
-**A**: The primary risk is that partial arm extraction positions your arm inside the bottom player's guard in exactly the configuration needed for a triangle choke setup. As the arm begins coming free during rotation, it passes through the inside position between their legs, and if the rotation continues while your arm is partially extracted, the bottom player can redirect to triangle control instead of Carni. This is why arm extraction should only be attempted early when the overhook is genuinely loosened.
-
-**Q5**: How should you modify your base positioning in New York to prevent the Carni rotation opportunity?
-**A**: Maintain a narrow, compact base with knees close together and weight centered rather than distributed laterally. Avoid widening your base or circling away from the overhook side, as both create the lateral space the rotation requires. Keep your weight slightly forward to pin the bottom player's hips, making it difficult for them to generate the hip elevation needed to initiate the rotational arc. This compact positioning eliminates the trigger conditions for the Carni entry entirely.
-
-
-
-</section>
 
 
 </main>

@@ -192,6 +192,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Angle Change Escape?</p>
+
 - Lateral movement changes shin angle from perpendicular to tangential, reducing throat compression immediately
 - Maintain base throughout the escape to prevent being swept or having back taken during angle change
 - Control opponent's hips with hands to prevent them from following your angle change and re-establishing perpendicular shin alignment
@@ -207,6 +209,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Angle Change Escape?</p>
+
 - Gogoplata is not fully locked with maximum compression - some breathing capability remains
 - Defender maintains some base with at least one hand posted on mat for stability
 - Bottom player's hip elevation is inconsistent or defender can control hips with one hand
@@ -218,6 +222,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Angle Change Escape step by step?</p>
 
 1. **Assess Position**: Evaluate the severity of the gogoplata by checking breathing restriction level, hip elevation of opponent, and depth of foot-behind-head position to determine if angle change escape is viable or if emergency escape is required instead.
 2. **Create Breathing Space**: Turn chin slightly toward the attacking shin to reduce direct trachea compression. This buys time and creates the initial breathing room needed to execute a controlled escape rather than panicking.
@@ -247,6 +253,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Angle Change Escape?</p>
+
 - **Hip elevation and angle following - opponent elevates hips and rotates to maintain perpendicular shin alignment during your lateral movement** (Effectiveness: High) - Your Response: Increase downward pressure on controlling hip hand and accelerate lateral movement to outpace their adjustment; if they successfully follow, reset and try opposite direction → Leads to [[Positions/Gogoplata Control]]
 - **Triangle transition - opponent releases gogoplata and switches to triangle configuration as you change angles** (Effectiveness: Medium) - Your Response: Keep near-side arm tight to body throughout escape to prevent it from being isolated; if triangle begins to form, posture immediately and address triangle defense → Leads to [[Positions/Closed Guard]]
 - **Armbar attack - opponent releases gogoplata and attacks near-side arm during angle change when posture is compromised** (Effectiveness: Medium) - Your Response: Maintain tight elbow connection to torso throughout movement; if arm is isolated, stack forward rather than pulling back to defend armbar → Leads to [[Positions/Closed Guard]]
@@ -258,6 +266,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Angle Change Escape?</p>
 
 ### 1. Moving only the head rather than entire body during angle change
 
@@ -297,6 +307,8 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Angle Change Escape (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice angle change movement in isolation without partner resistance. Focus on moving body as a unit and understanding lateral versus linear escape mechanics. Drill chin positioning and hip control hand placement statically.
 
@@ -314,48 +326,12 @@ Full resistance positional sparring starting from gogoplata control. Partner att
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Angle Change Escape?
-**A**: The primary goal is to convert the perpendicular shin-across-throat pressure into tangential contact by changing your body angle laterally. This reduces the choking compression and creates a window for complete head extraction to half guard.
-
-**Q2**: Why does pulling straight backward fail against a gogoplata?
-**A**: The foot-behind-head configuration creates a closed-loop system that prevents backward extraction. Pulling backward actually tightens the choke by driving the shin deeper into the throat rather than creating escape space.
-
-**Q3**: Your opponent elevates their hips as you begin lateral movement - how do you adjust?
-**A**: Increase downward pressure through your hip-controlling hand to anchor their hips while accelerating your lateral movement to outpace their adjustment. If they successfully follow, immediately reverse direction to the opposite side before they can stabilize.
-
-**Q4**: What critical grip or control must you establish before initiating the angle change?
-**A**: Place your near-side hand firmly on opponent's hip on the same side as the attacking leg. This hip control prevents them from following your angle change by elevating or rotating their hips to maintain the perpendicular shin alignment.
-
-**Q5**: During your angle change, opponent releases the gogoplata and begins setting up a triangle - what went wrong and how do you respond?
-**A**: Your near-side arm likely drifted away from your torso during the escape, creating the opening for arm isolation. Immediately posture up and bring the exposed arm tight to your body. Address the triangle defense before continuing escape rather than trying to complete angle change.
-
-**Q6**: What determines whether angle change escape or emergency tuck-and-roll is appropriate?
-**A**: Assess breathing restriction, opponent's hip elevation, and foot depth behind your head. If you can breathe and opponent's control is inconsistent, angle change is viable. If breathing is severely restricted or position is fully locked, emergency explosive escape may be necessary despite its risks.
-
-**Q7**: Why is it important to move your entire body as a unit rather than just your head?
-**A**: Moving only your head allows opponent to easily follow with hip elevation and rotation, maintaining perpendicular shin alignment throughout. Moving head, shoulders, and hips together as a unit changes the geometric relationship too quickly for opponent to track and adjust.
-
-**Q8**: After successful head extraction, why should you not immediately attempt to pass guard?
-**A**: Your breathing has been compromised and body is fatigued from the submission defense. Rushing to pass from this state leads to mistakes that allow guard recovery, sweeps, or new submissions. Taking 3-5 seconds to consolidate half guard and recover breathing produces better outcomes.
-
-**Q9**: What direction should your chin face during the initial breathing space creation phase?
-**A**: Turn your chin slightly toward the attacking shin. This positions your chin to protect the most vulnerable part of your throat and reduces direct trachea compression, buying time for the systematic escape rather than requiring panic response.
-
-**Q10**: Your opponent has excellent hip flexibility and maintains strong position - what variant adaptation helps?
-**A**: Combine the angle change with forward stacking pressure to drive their hips to the mat. This reduces the hip elevation they need for effective gogoplata control. The stack-and-angle combination attacks both the angle and the elevation simultaneously.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Angle Change Escape?</p>
 
 The Angle Change Escape occurs under active submission threat, requiring careful attention to safety protocols. Never train this technique at full resistance without establishing clear tap signals with your partner. The gogoplata attacks both airway and blood flow simultaneously, so recognize that your assessment time may be shorter than with pure blood chokes. If breathing becomes severely restricted during training, tap immediately rather than attempting to complete the escape - safety takes priority over technique development. Partners establishing the gogoplata should apply gradual progressive pressure, never explosive cranking that prevents safe tap response. During live drilling, establish verbal check-ins where the bottom player asks 'okay?' periodically. Avoid training this escape when fatigued, as compromised judgment under choking pressure increases injury risk. If you experience throat soreness, voice changes, or difficulty swallowing after training, seek medical evaluation before continuing.
 

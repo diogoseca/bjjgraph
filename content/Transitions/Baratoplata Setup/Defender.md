@@ -156,6 +156,8 @@ The defensive approach centers on two strategies depending on timing: prevention
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Baratoplata Setup?</p>
+
 - Attacker's same-side arm begins moving toward the gap between your trapped arm and their torso, indicating the threading motion has started
 - Attacker adjusts their hip angle slightly, creating visible space between their body and your trapped arm that was not present during standard Meathook control
 - Attacker's non-hooking hand releases collar or head control momentarily to prepare for the figure-four grip, creating a brief window of reduced posture control
@@ -167,6 +169,8 @@ The defensive approach centers on two strategies depending on timing: prevention
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Baratoplata Setup?</p>
 
 - Recognize the setup during the threading phase before the figure-four is established—once locked, escape probability drops dramatically
 - Straightening the trapped arm prevents the figure-four configuration but opens armbar vulnerability, so immediately recover posture after straightening
@@ -181,12 +185,14 @@ The defensive approach centers on two strategies depending on timing: prevention
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Baratoplata Setup?</p>
+
 ### 1. Straighten trapped arm explosively and immediately drive posture upward before figure-four can be established
 
 - **When to use**: As soon as you feel the attacker creating threading space or their arm beginning to slide under your elbow—this must happen before the figure-four grip connects
 - **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Attacker cannot establish figure-four configuration and you recover to Closed Guard with posture restored, though arm may still be partially controlled
-- **Risk**: Straightened arm is vulnerable to standard Armbar from Guard if attacker transitions quickly—immediately bend arm again after disrupting the thread
+- **Risk**: Straightened arm is vulnerable to standard armbar if attacker transitions quickly—immediately bend arm again after disrupting the thread
 
 ### 2. Drive forward into a stacking position, collapsing the distance between your chest and the attacker's torso to eliminate threading space
 
@@ -217,6 +223,8 @@ The defensive approach centers on two strategies depending on timing: prevention
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Baratoplata Setup?</p>
+
 ### → [[Positions/Rubber Guard/Meathook]]
 
 Drive forward into a stacking position to collapse threading space, or counter-rotate your shoulder to neutralize the figure-four angle. Both methods return you to standard Meathook where the Baratoplata is no longer progressing, though you still need to escape Meathook itself through standard arm extraction and posture recovery sequences.
@@ -232,6 +240,8 @@ Straighten the trapped arm explosively while simultaneously driving your posture
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Baratoplata Setup?</p>
 
 ### 1. Pulling the trapped arm backward to escape the threading attempt
 
@@ -250,7 +260,7 @@ Straighten the trapped arm explosively while simultaneously driving your posture
 
 ### 4. Straightening the arm without immediately recovering posture afterward
 
-- **Consequence**: A straightened arm with broken posture creates an immediate Armbar from Guard opportunity for the attacker, who simply transitions from the failed Baratoplata to a standard armbar using the shin hook as initial leg control
+- **Consequence**: A straightened arm with broken posture creates an immediate armbar opportunity for the attacker, who simply transitions from the failed Baratoplata to a standard armbar using the shin hook as initial leg control
 - **Correction**: Arm straightening and posture recovery must be simultaneous—straighten to disrupt the thread, but immediately drive your chest up and back to create distance. A straight arm with good posture is defensible; a straight arm with broken posture is an armbar invitation.
 
 
@@ -260,6 +270,8 @@ Straighten the trapped arm explosively while simultaneously driving your posture
 <section id="training-progressions" class="content-section hide-minimal">
 
 ## Training Progressions
+
+<p class="section-subtitle">How do you train defense against Baratoplata Setup?</p>
 
 **Week 1-2** - Recognition and reaction
 Partner performs the Baratoplata threading motion at half speed from Meathook. Practice identifying the hip angle adjustment and threading initiation. Focus on recognizing the cues before the arm begins sliding under your elbow. Drill defensive reactions (arm straighten, clamp, forward stack) 15 repetitions each at slow speed.
@@ -277,26 +289,6 @@ Integrate Baratoplata defense into regular sparring. Track which recognition cue
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Baratoplata Setup is being attempted from Meathook?
-**A**: The earliest cue is the attacker adjusting their hip angle to create space between their torso and your trapped arm. This gap, which is not present during standard Meathook control, signals the threading phase is about to begin. You may also feel a slight release of collar or head control as the attacker prepares their threading arm. Reacting at this stage provides the widest defensive window before the figure-four can be established.
-
-**Q2**: Why does pulling your trapped arm backward make the Baratoplata worse rather than better?
-**A**: Backward arm extraction is the exact movement the Baratoplata is designed to exploit. Pulling away creates the gap between your arm and the attacker's torso that they need to thread their arm through. Your retreating motion also generates momentum that the attacker redirects into figure-four establishment. The correct defense addresses the threading arm directly or collapses space forward rather than creating space backward.
-
-**Q3**: Your opponent has partially threaded their arm but has not yet grabbed their own wrist for the figure-four—what defensive action has the highest success rate?
-**A**: Clamp your elbow tight against your ribs and rotate your wrist to pin the attacker's forearm against your body before it clears your elbow. This traps their threading arm in an awkward position where they cannot complete the figure-four grip. Simultaneously drive your posture upward to break the shin hook's downward pressure. The attacker must withdraw their trapped arm and reset from standard Meathook, giving you time to address the position from the beginning.
-
-**Q4**: How should you adjust your defensive approach if the attacker transitions between Baratoplata and Gogoplata threats?
-**A**: The Baratoplata and Gogoplata create a complementary threat pair from Meathook. Stacking forward defends the Baratoplata but drives you into Gogoplata range, while posturing away from Gogoplata creates Baratoplata threading space. The solution is lateral movement—rotate your torso to the side rather than moving strictly forward or backward. This disrupts both attack angles simultaneously without feeding either submission chain. Combine lateral rotation with grip fighting to break the attacker's control systematically.
-
-
-
-</section>
 
 
 </main>

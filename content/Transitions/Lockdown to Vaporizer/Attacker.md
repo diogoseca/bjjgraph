@@ -188,6 +188,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lockdown to Vaporizer?</p>
+
 - Secure the underhook before initiating the whip-up; the underhook provides the upper body leverage that makes the hip drive effective against the opponent's base
 - Drive the whip-up from your hips and core, not your arms; the underhook guides the opponent's body while your hips generate the actual off-balancing force
 - Maintain maximum lockdown tension throughout the transition by extending your legs away while pulling their heel toward your hip with flexed feet
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lockdown to Vaporizer?</p>
+
 - Tight lockdown established with ankles crossed and figure-four leg configuration securely trapping opponent's leg
 - Deep underhook on the trapped-leg side reaching at minimum the opponent's far lat, ideally their far shoulder blade
 - Opponent's crossface neutralized through frames, overhook, or positional angle that prevents flattening
@@ -214,6 +218,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lockdown to Vaporizer step by step?</p>
 
 1. **Confirm lockdown integrity**: Verify your lockdown is tight by squeezing your knees together and flexing your top foot to hook deeply behind your bottom leg's ankle. The figure-four must be secure with no slack. Extend your legs slightly to test the lockdown's grip on their trapped leg. If the lockdown is loose, re-establish it before proceeding, as a weak lockdown will fail under the whip-up forces.
 2. **Secure deep underhook**: Thread your arm on the trapped-leg side deep under the opponent's arm, reaching around their back toward the far shoulder blade or lat. The deeper the underhook, the more leverage you generate for the whip-up. If they fight the underhook with a whizzer, use your free hand to frame against their bicep while swimming your arm deeper. Do not proceed to the whip-up until the underhook is deep and secure.
@@ -243,6 +249,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lockdown to Vaporizer?</p>
+
 - **Opponent establishes strong whizzer to prevent underhook depth** (Effectiveness: High) - Your Response: Use the whizzer commitment against them by transitioning to overhook Vaporizer entry, or convert directly to Electric Chair since their whizzer arm prevents them from defending the leg split. Alternatively, pummel inside the whizzer with a quick swim motion timed to their exhale. → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent drives heavy crossface pressure to flatten bottom player before whip-up** (Effectiveness: High) - Your Response: Frame against their crossface arm with your free hand while turning into them rather than away. Use the frame to create enough space to recover the angle needed for the whip-up. If completely flattened, temporarily switch to lockdown retention mode and work to re-establish the underhook before reattempting. → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent widens base and drops weight low to resist whip-up motion** (Effectiveness: Medium) - Your Response: Switch to progressive whip-up with rhythmic pulses rather than one explosive attempt. Their wide base actually exposes the Electric Chair because their legs are spread. Use multiple smaller hip drives to gradually walk their weight forward, or transition directly to Electric Chair entry from the widened base position. → Leads to [[Positions/Half Guard/Lockdown]]
@@ -255,6 +263,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lockdown to Vaporizer?</p>
 
 ### 1. Attempting the whip-up before securing a deep underhook
 
@@ -294,6 +304,8 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lockdown to Vaporizer (Attacker)?</p>
+
 **Phase 1: Isolated Mechanics** - Individual component mastery
 Practice each component of the transition separately: lockdown extension against a partner, underhook depth drilling, and whip-up hip motion against a heavy bag or wall. Focus on generating hip drive from glutes and core rather than arms. Perform 50 reps of each component per session until the movements are automatic.
 
@@ -314,42 +326,12 @@ Start from lockdown bottom in live positional sparring. Bottom player's goal is 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What three control points must be simultaneously maintained for the Vaporizer transition to succeed?
-**A**: The three essential control points are: (1) a tight lockdown leg entanglement with ankles crossed and figure-four configuration trapping the opponent's leg, (2) a deep underhook on the trapped-leg side reaching the opponent's far lat or shoulder blade, and (3) chest-to-chest or chest-to-side body contact eliminating space. All three must work together because the lockdown alone only holds the leg, the underhook alone allows leg extraction, and body contact alone provides no leverage. The combined effect creates the rotational force needed to break the opponent's base.
-
-**Q2**: Why should the whip-up motion originate from the hips rather than the arms?
-**A**: The hip muscles (glutes, hip flexors, core) generate significantly more force than the arms and can sustain effort longer without fatiguing. Arms pulling on the underhook create a linear force that the opponent can resist by bracing, while hip drive creates an upward and forward rotational force that attacks the opponent's center of gravity from below. Additionally, arm-driven attempts telegraph the motion because the opponent feels the pull before the body moves, whereas hip-driven whip-ups move the entire body mass simultaneously, making them harder to anticipate and resist.
-
-**Q3**: Your opponent establishes a strong whizzer as you attempt to secure the underhook - how do you adjust your entry?
-**A**: When the opponent commits to a whizzer, you have two primary adjustments: First, switch to an overhook Vaporizer entry by wrapping over their whizzering arm and using that grip for leverage instead. Second, exploit the whizzer commitment by transitioning directly toward the Electric Chair, since their whizzer arm is occupied and cannot defend the leg split. The whizzer actually helps you because it pulls them closer and prevents them from posting that arm. Never engage in a prolonged strength battle against the whizzer.
-
-**Q4**: What is the optimal timing window for initiating the whip-up motion?
-**A**: The optimal window occurs when the opponent's weight shifts forward, when they momentarily relax their base to adjust position, or when they transition between grip configurations such as switching from crossface to underhook. These moments represent brief periods where their base is not fully loaded and their attention is divided. Attempting the whip-up when they are actively bracing or have a settled, wide base wastes energy and fails. Developing sensitivity to weight shifts through the lockdown connection is essential for consistent timing.
-
-**Q5**: What happens if you extend the lockdown without simultaneously engaging the underhook pull?
-**A**: Extending the lockdown without the underhook pull creates only a lower body force that pulls the opponent's trapped leg backward. Without the opposing upper body force from the underhook, the opponent can maintain their posture and base by posting their arms and keeping their chest forward. The effectiveness of the Vaporizer transition depends on opposing forces: the lockdown pulls the lower body one direction while the underhook and hip drive push the upper body the opposite direction, creating the rotational torque that breaks the base. One force alone is insufficient.
-
-**Q6**: Your opponent posts their far hand on the mat to resist being rolled during your whip-up attempt - what attack does this expose?
-**A**: A posted far hand creates the ideal setup for the Old School sweep. Their posted hand becomes a fixed point that prevents them from basing in that direction when you sweep. To capitalize, post your outside foot on the mat behind you, bridge toward their posted hand while maintaining the underhook pull, and use the lockdown extension to lift their trapped leg. They face a dilemma: removing the post to defend the sweep means the whip-up succeeds, but keeping the post means the Old School sweep has high probability of success.
-
-**Q7**: What are the critical grip requirements for maintaining control during the transition?
-**A**: The primary grip is the underhook on the trapped-leg side, which must reach deep enough to control the opponent's far lat or shoulder blade. The deeper the underhook penetration, the more leverage available for the whip-up. Secondary grip with the free hand should frame against the opponent's crossface arm, bicep, or shoulder to prevent flattening. The lockdown itself serves as a lower body grip through the figure-four leg configuration with crossed ankles and flexed feet. All grips must be maintained simultaneously; releasing any one of them during the transition compromises the entire movement.
-
-**Q8**: How should you adjust your approach against a significantly larger or heavier opponent?
-**A**: Against larger opponents, use the progressive whip-up variant with rhythmic pulses rather than attempting one explosive motion. Each pulse incrementally walks their weight forward without requiring the explosive force needed to move a heavier body in one motion. Focus on angle creation by hip escaping slightly away from them before each whip-up pulse, which uses leverage rather than strength. Also prioritize patience: multiple medium-intensity attempts accumulate fatigue in the top player's posting arms, progressively weakening their base until the Vaporizer can be fully established.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lockdown to Vaporizer?</p>
 
 The Transition to Vaporizer involves significant forces on the trapped leg through the lockdown extension and hip drive. Practitioners should be aware that aggressive lockdown extensions can strain the opponent's knee, particularly if their foot gets caught in the lockdown at an awkward angle. Always release the lockdown immediately if your training partner signals discomfort in their knee or ankle. The whip-up motion can also create sudden positional changes that may lead to neck strain if the opponent's head is pinned against the mat during the roll. Begin all training with controlled, gradual resistance and communicate clearly with your partner about pressure levels.
 

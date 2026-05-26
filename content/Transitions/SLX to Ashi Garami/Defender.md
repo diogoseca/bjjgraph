@@ -162,6 +162,8 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting SLX to Ashi Garami?</p>
+
 - Opponent reaches toward your heel or ankle with their near hand while still maintaining SLX hooks—this is the initial grip establishment
 - Opponent's hip hook begins to lighten or release from your hip, indicating they are beginning the repositioning phase
 - Opponent starts falling to their outside hip rather than maintaining the supine SLX position, showing commitment to lateral angle change
@@ -174,6 +176,8 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending SLX to Ashi Garami?</p>
 
 - Address heel control immediately—once the opponent grips your heel, every subsequent defense becomes exponentially harder
 - Drive your weight downward when you feel the opponent's hip hook release, as this is the critical transition window
@@ -188,6 +192,8 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against SLX to Ashi Garami?</p>
 
 ### 1. Strip heel grip immediately with two-on-one hand fighting before opponent can reinforce
 
@@ -225,6 +231,8 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending SLX to Ashi Garami?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract your leg completely during the transition window when the opponent removes their hip hook. Step over their legs immediately and disengage, establishing distance and passing posture before they can re-engage SLX hooks.
@@ -240,6 +248,8 @@ Strip the heel grip early with two-on-one hand fighting and drive heavy downward
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending SLX to Ashi Garami?</p>
 
 ### 1. Waiting passively until the opponent has fully established ashi garami before attempting to defend
 
@@ -269,6 +279,8 @@ Strip the heel grip early with two-on-one hand fighting and drive heavy downward
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against SLX to Ashi Garami?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues at slow speed
 Partner performs the SLX to Ashi Garami transition at 25% speed while you verbally call out each recognition cue as it occurs: heel grip attempt, hip hook release, lateral fall, inside leg thread. No physical defense yet—focus purely on visual and tactile recognition. 10 repetitions per side.
 
@@ -285,29 +297,6 @@ Start in SLX with full resistance from both players. Attacker works all variants
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the SLX to Ashi Garami transition, and what should your immediate response be?
-**A**: The earliest cue is their near hand reaching toward your heel while still in SLX. Your immediate response should be two-on-one grip fighting to prevent the heel grip from being established—grab their gripping wrist with both hands and strip it away from your heel before they can secure the C-grip. This is the highest-percentage defensive intervention point because without heel control, the entire transition sequence cannot proceed.
-
-**Q2**: Why is stepping over the opponent's legs more effective as a defense than pulling your trapped leg backward?
-**A**: Stepping over changes the angle of engagement entirely, bypassing the clamping pressure of the opponent's legs rather than fighting directly against it. Pulling backward works against the strongest axis of their leg clamp and often tightens their control. Stepping over exploits the moment when their hip hook is removed (the transition window), using the temporary gap in structural control to extract your leg laterally rather than linearly. Additionally, a successful step-over puts you in a passing position rather than just returning to neutral.
-
-**Q3**: Your opponent has established heel control but has not yet removed their hip hook—what defensive strategy gives you the best chance of preventing the transition?
-**A**: Focus entirely on stripping the heel grip using two-on-one hand fighting. Grab their gripping wrist with both hands and forcefully peel their fingers off your heel. Simultaneously drive your weight down to maximize downward pressure on their hips. Since they still have the hip hook in place, they cannot begin the leg repositioning phase yet, giving you time to address the grip. If you successfully strip the heel, they must restart the entire setup sequence.
-
-**Q4**: How should you adjust your defensive strategy when facing an opponent who uses sweep threats to mask the ashi entry?
-**A**: Maintain awareness that the sweep threat may be a feint designed to generate your defensive posting reaction, which creates the transition window. Instead of posting your hands widely to defend sweeps (which frees your legs for their manipulation), keep your hands close to your trapped leg and defend both threats simultaneously. Lower your base by bending your knees deeper rather than posting with hands, as this defends the sweep through structural stability rather than reactive posting while keeping your hands available to fight their heel grip attempts.
-
-**Q5**: After your opponent initiates the transition and begins falling to their side, what is your highest-priority defensive action?
-**A**: Immediately drive your hips forward and down to flatten them back to the mat before they can complete the perpendicular angle. Your forward drive should target their shoulder line, using your body weight to prevent them from establishing the side-lying position. Simultaneously push their inside leg off your hip with your free hand. If they have already committed too deeply to the lateral fall, switch to stepping over their legs to extract entirely rather than trying to force them flat—a half-completed reversal leaves you in a worse position than a committed extraction.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Scarf to Side Control?</p>
+
 - Maintain unbroken chest-to-torso contact throughout the entire rotation to prevent frame insertion and guard recovery
 - Switch hips in a single coordinated motion rather than incremental adjustments that create multiple escape windows
 - Establish crossface control immediately upon completing rotation to prevent opponent from turning into you
@@ -202,6 +204,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Scarf to Side Control?</p>
+
 - Established reverse scarf hold with hip pressure settled on opponent's upper torso and chest
 - Control of opponent's near arm—either trapped across their body or pinned by your underhook
 - Wide leg base providing stability sufficient to rotate without being bridged off balance
@@ -214,6 +218,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Scarf to Side Control step by step?</p>
 
 1. **Verify control and base stability**: Before initiating rotation, confirm your near arm has firm control of opponent's trapped arm across their body and your far hand controls their far hip or belt. Ensure legs are in wide base position with near leg posted and far leg extended. This pre-rotation check prevents the common error of rotating with insufficient control that creates escape opportunities during the transition window.
 2. **Initiate hip switch rotation**: Begin rotating your hips from the reverse-facing position toward perpendicular alignment by driving your near hip downward and forward while your far hip swings around. The key is maintaining your hip bone in contact with their chest throughout this motion—think of your hip as a pivot point that slides across their torso rather than lifting and replanting. Commit to a single coordinated rotation rather than incremental adjustments.
@@ -243,6 +249,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Scarf to Side Control?</p>
+
 - **Opponent inserts forearm frame against your shoulder or neck during the rotation window before crossface is established** (Effectiveness: High) - Your Response: If frame is just initiating, accelerate rotation and drive your shoulder through the frame using rotational momentum before it becomes structural. If frame is already established with elbow-to-knee connection, abort rotation, re-settle reverse scarf pressure, and strip the frame before reattempting. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 - **Opponent shrimps hips away during the momentary pressure reduction of the hip switching phase to create distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving your hips forward to chase their retreating movement, using their escape direction to accelerate your rotation into perpendicular alignment at their new angle. Their hip escape paradoxically assists your transition if you follow rather than fight it. → Leads to [[Positions/Half Guard]]
 - **Opponent inserts near knee between your bodies during rotation to recover half guard hooks before you can consolidate** (Effectiveness: High) - Your Response: If knee is only partially inserted, immediately sprawl your trapped leg back and apply heavy crossface to flatten opponent before they establish full half guard structure. If fully inserted, accept half guard top and work systematic passing with crossface pressure. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Scarf to Side Control?</p>
 
 ### 1. Lifting hips off opponent's chest during the rotation to create turning space
 
@@ -293,6 +303,8 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Scarf to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and cooperative rotation mechanics
 Practice the hip switch motion without resistance. Partner lies passive while you execute the rotation from reverse scarf to side control, focusing on maintaining hip contact throughout. Perform 20 repetitions per side, gradually increasing speed while ensuring continuous pressure contact across the full arc.
 
@@ -313,42 +325,12 @@ Start every round in reverse scarf hold and work to transition to side control a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical body contact point to maintain throughout the rotation from reverse scarf to side control?
-**A**: The hip bone must maintain constant contact with the opponent's upper torso throughout the entire rotation. This contact point serves as the pivot around which the transition revolves. Lifting the hip even momentarily creates a pressure gap that allows frame insertion, knee recovery, or bridging escapes. The hip should slide across their chest like a wheel rolling over a surface rather than lifting and replanting.
-
-**Q2**: Your opponent inserts a forearm frame against your neck as you begin rotating—how do you respond?
-**A**: You have two options based on frame establishment. If the frame is weak or just initiating, accelerate your rotation and drive your shoulder through the frame using rotational momentum to collapse it before it becomes structural. If the frame is already established with strong elbow-to-knee connection, abort the rotation, re-settle reverse scarf hold pressure, strip the frame through pressure and grip fighting, then reattempt the transition.
-
-**Q3**: What grip sequence ensures continuous arm control throughout the entire transition?
-**A**: Begin with your near arm trapping opponent's arm across their body and your far hand controlling their far hip. During rotation, maintain the near arm trap while releasing your far hand to establish crossface. The crossface forearm drives across their face before you release the arm trap with your near hand, which then transitions to blocking their far hip. At no point are both control points released simultaneously—there is always one arm maintaining positional control.
-
-**Q4**: When is the optimal timing window to initiate this transition from reverse scarf hold?
-**A**: The optimal window is immediately after the opponent has expended energy on a failed escape attempt and is resettling or recovering breath. Their defensive alertness is lowest and their available energy for counter-movement is reduced. Alternatively, initiate during the pause between defensive sequences when they are reassessing options. Avoid transitioning when the opponent is actively bridging, framing, or showing high energy output that could power a counter.
-
-**Q5**: Your opponent hip escapes and creates an angle during your rotation—what adjustment do you make?
-**A**: Use their hip escape direction to your advantage by following their movement with your rotation rather than fighting against it. Their escape creates the perpendicular angle you need for side control alignment. Drive your hips forward to chase their retreating hips while accelerating your crossface establishment. Their hip escape paradoxically assists your transition if you follow their movement. Only if they create enough space for full knee insertion should you consider aborting to address half guard recovery.
-
-**Q6**: What distinguishes a successful rotation from one that creates defensive openings for the opponent?
-**A**: A successful rotation maintains constant downward pressure through the hip contact point, completes the hip switch in a single coordinated motion, and establishes crossface before releasing the arm trap. A rotation that creates openings typically involves lifting the hip during the turn, pausing mid-rotation in a compromised base position, or releasing control grips before establishing replacement grips. The difference is fluidity and full commitment versus hesitation and segmented movement.
-
-**Q7**: If the opponent recovers half guard during your transition, what is your immediate response?
-**A**: Accept the half guard top position rather than fighting to extract and return to reverse scarf. Immediately establish crossface and underhook from half guard top, then work systematic passing sequences such as knee slice or smash pass. Attempting to return to reverse scarf from a compromised half guard wastes energy and exposes you to sweeps. Half guard top still offers clear offensive pathways and maintains your positional advantage.
-
-**Q8**: What role does your far leg play during each phase of the rotation sequence?
-**A**: Your far leg provides the primary driving force for the rotation while maintaining base stability. As the rotation initiates, the far leg swings from its extended position around toward the opponent's head side, providing rotational momentum that powers the hip switch. Upon completing the rotation, this leg becomes your near leg in side control and posts with the knee close to opponent's hip to prevent guard recovery. The leg transitions from base provider to rotational driver to positional anchor throughout the sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Scarf to Side Control?</p>
 
 This transition involves controlled rotational movement that poses minimal injury risk when performed correctly. The primary safety concern is crossface pressure during establishment, which should be applied firmly for positional control but not with intent to cause pain beyond positional discomfort. During training, partners should communicate if the crossface creates excessive neck strain. When drilling at speed, ensure the rotation is controlled to prevent accidental knee-to-face contact during the hip switch. Both partners should be aware that the brief pressure reduction during rotation creates a window where sudden explosive defensive movement could result in collision or awkward entanglement.
 

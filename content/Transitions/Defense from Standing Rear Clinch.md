@@ -227,7 +227,7 @@ Defense from Standing Rear Clinch serves as the critical defensive gateway preve
 
 - [[Transitions/Break Clinch]] - Related standing escape technique with shared grip-fighting principles
 
-- [[Submissions/Standing RNC from Rear Clinch]] - Primary submission threat motivating urgency of the escape
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from standing back control motivating urgency of the escape
 
 
 </section>

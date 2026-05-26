@@ -182,6 +182,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle Escape?</p>
+
 - Prevent leg lock completion by keeping trapped arm tight to body
 - Maintain posture to reduce choking pressure on carotid arteries
 - Create space between shoulder and neck to relieve pressure
@@ -197,6 +199,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle Escape?</p>
+
 - Recognition of triangle attack in early stages before full lock
 - Understanding of which arm is trapped inside triangle configuration
 - Ability to distinguish between locked and unlocked triangle positions
@@ -210,6 +214,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle Escape step by step?</p>
 
 1. **Immediate posture recovery**: As soon as triangle is recognized, drive head up and away from opponent's chest, creating maximum distance between your shoulder and neck. Keep spine straight and chest expanded to prevent choking pressure from compressing carotid arteries. This posture must be maintained throughout the entire escape sequence.
 2. **Pin trapped arm to body**: Pull your trapped arm tight against your own torso, creating a barrier between your shoulder and neck. This prevents opponent from isolating the arm across your body, which would complete the choking mechanism. The trapped arm becomes a defensive shield rather than a liability when properly positioned.
@@ -238,6 +244,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle Escape?</p>
+
 - **Opponent adjusts angle and locks triangle tighter by pulling down on head** (Effectiveness: High) - Your Response: Immediately drive posture back up, strengthen posting arm, and increase stacking pressure. Consider alternative escape path by stepping to opposite side if original angle is too tight. → Leads to [[Positions/Triangle Control]]
 - **Opponent switches to armbar as you attempt to posture** (Effectiveness: High) - Your Response: Keep trapped arm bent and tight to body as you posture. If armbar transition begins, immediately clasp hands together in prayer grip and turn toward trapped arm side to defend the extension. → Leads to [[Positions/Armbar Control]]
 - **Opponent breaks down your posture by pulling head and using guard to sweep** (Effectiveness: Medium) - Your Response: Widen base with legs, keep free arm posted strongly on mat, and drive hips forward into opponent. Use stacking pressure to prevent them from breaking you down rather than fighting their grips directly. → Leads to [[Positions/Triangle Control]]
@@ -250,6 +258,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle Escape?</p>
 
 ### 1. Pulling head straight back instead of maintaining posture and circling
 
@@ -289,6 +299,8 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle Escape (Attacker)?</p>
+
 **Phase 1: Posture Recognition (Weeks 1-2)** - Understanding proper defensive posture in triangle position
 Partner establishes loose triangle while you practice maintaining upright posture with head up, spine straight, and trapped arm pinned to body. Hold this posture for 30-second intervals. Partner provides increasing pressure to test posture maintenance. Focus entirely on feeling what good posture feels like and recognizing when it breaks.
 
@@ -312,48 +324,12 @@ During regular rolling, focus on identifying triangle setups and aborting them b
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining posture the single most important factor in triangle escape?
-**A**: Posture creates distance between your shoulder and neck, preventing the choking mechanism from compressing the carotid arteries. Without posture, the triangle completes its function regardless of other defensive efforts. Posture also provides the structural foundation needed for all subsequent escape movements including stacking and circling. Losing posture typically results in rapid submission.
-
-**Q2**: Which direction should you circle when escaping a triangle, and why?
-**A**: You should circle toward the side of your trapped arm (the arm caught inside the triangle). Circling in this direction weakens the triangle's lock because it moves your body in the direction that opens the legs rather than tightening them. Circling toward the free arm side would actually strengthen the triangle by moving into the choking angle the opponent wants.
-
-**Q3**: What is the purpose of pinning your trapped arm tight to your body during triangle defense?
-**A**: Pinning the trapped arm to your torso prevents the opponent from pulling it across your neck, which is necessary to complete the choking mechanism. The trapped arm acts as a barrier that keeps space between your shoulder and neck. If the arm is allowed to extend away from your body, the opponent can use it to close the gap and complete the choke, making escape nearly impossible.
-
-**Q4**: How does stacking pressure help escape the triangle, and what are common mistakes when attempting to stack?
-**A**: Stacking drives the opponent's weight toward their shoulders, forcing their hips to rise and disrupting the angle needed for effective choking pressure. It also prevents them from using their hips to extend and finish. Common mistakes include stacking without first establishing posture, using only upper body instead of driving from the legs, and failing to maintain the stack while circling. The stack must be maintained throughout the entire escape sequence.
-
-**Q5**: What are the two most common submissions opponent will transition to if you escape the triangle poorly, and how do you defend them?
-**A**: The two most common transitions are armbar and omoplata. For armbar defense, keep your trapped arm bent and tight to your body, clasp hands together if possible, and turn toward the trapped arm side to prevent extension. For omoplata defense, recognize the transition early and either complete your circle escape before they establish control, or roll forward through the omoplata. Both require maintaining awareness of your arm position throughout the escape attempt.
-
-**Q6**: Why is the free arm posting position critical to triangle escape success?
-**A**: The posted free arm serves as your base and anchor point for all escape movements. Without it, you cannot generate the forward driving pressure needed to stack, maintain balance during circular movement, or prevent opponent from breaking down your posture or sweeping you. The post must be strong and maintained throughout the entire escape sequence, typically placed on the mat beside opponent's hip or on their body.
-
-**Q7**: At what stage of triangle development should defensive action begin, and what changes if you wait too long?
-**A**: Defensive action should begin immediately upon recognizing triangle threat, ideally before the legs lock into figure-four configuration. Early defense focuses on posture maintenance and preventing lock completion. If you wait until triangle is fully locked, escape becomes exponentially more difficult and dangerous, requiring maximum effort while under choking pressure. Advanced practitioners develop sensitivity to triangle setups and abort them during the entry phase, never allowing full lock to occur.
-
-**Q8**: Your opponent locks the triangle and begins pulling your trapped arm across your neck—what is your immediate response?
-**A**: Immediately retract the trapped arm by bending the elbow and clamping it tight against your own ribcage. Use your free hand to grab your own trapped wrist or forearm if necessary to prevent further isolation. Simultaneously drive your posture upward to counteract the pulling force. The arm must be recovered before the opponent fully crosses it, because once the arm is across your neck the choking pressure becomes nearly impossible to relieve through posture alone.
-
-**Q9**: What grip should the free hand establish during the escape, and what direction of force does it apply?
-**A**: The free hand should post firmly on the mat next to the opponent's hip, or directly on their far hip bone. The direction of force is forward and downward into the mat or into the opponent's hips, creating an anchor that resists their pulling pressure on your head. This post drives your weight forward for the stack rather than allowing you to be pulled down. Some practitioners also grip the opponent's pants or belt at the hip to maintain connection while circling, redirecting force laterally as they step around.
-
-**Q10**: You begin your circular escape but your opponent pivots their hips to maintain the choking angle—how do you adjust?
-**A**: When the opponent pivots to maintain angle during your circle, you must increase forward stacking pressure to pin their hips and restrict their mobility before continuing the circle. Drive your weight through their center mass to flatten their hips to the mat, removing their ability to pivot. If they continue to adjust, switch direction and circle to the opposite side momentarily to disrupt their tracking, then return to the original escape direction. The key is to combine heavy downward pressure with lateral movement rather than circling without sufficient weight commitment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle Escape?</p>
 
 Triangle escapes involve defending against a choke that restricts blood flow to the brain, making safety paramount. Never ignore signs of loss of consciousness including tunnel vision, ringing in ears, or feeling faint—tap immediately if these occur. During training, partners should monitor each other for color changes in face or eyes and release immediately if verbal tap is not possible. Aggressive stacking can cause neck and spine injuries to the person applying triangle, so control your pressure and avoid dropping full body weight suddenly. The can opener variant specifically can cause serious cervical spine injury and should only be practiced with experienced partners at controlled intensity. Newer practitioners should focus on early prevention rather than late-stage desperate escapes, as panic under choking pressure leads to injury-causing explosive movements. Always communicate with training partners about acceptable pressure levels and never train triangle escapes with partners significantly less experienced than yourself.
 

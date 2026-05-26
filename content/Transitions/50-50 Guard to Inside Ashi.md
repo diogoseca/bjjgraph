@@ -198,7 +198,7 @@ The 50-50 Guard to Inside Ashi transition serves as a critical bridge between th
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position - dominant leg entanglement with superior control
 
-- [[Submissions/Straight Ankle Lock]] - Primary submission from inside ashi after transition
+- [[Transitions/Straight Ankle Lock Entry]] - Primary submission entry from inside ashi after transition
 
 - [[Submissions/Inside Heel Hook]] - Advanced submission available from established inside ashi
 
@@ -210,7 +210,7 @@ The 50-50 Guard to Inside Ashi transition serves as a critical bridge between th
 
 - [[Transitions/Back Take from 50-50]] - Alternative option when opponent counters inside ashi attempt
 
-- [[Submissions/Kneebar from 50-50]] - Secondary attack option from 50-50 top position
+- [[Transitions/Kneebar entry]] - Secondary leg attack option available from the 50-50 system
 
 - [[Positions/Leg Entanglement]] - Core conceptual framework governing all positions in this system
 

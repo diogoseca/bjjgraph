@@ -188,6 +188,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Invert from Reverse Half Guard?</p>
+
 - Commit fully to the rotation once initiated—incomplete inversions expose the back more than staying in reverse half guard
 - Time the inversion with opponent's forward weight commitment to reduce their ability to follow your rotation
 - Use the trapped leg as a rotation anchor during initiation, then release it to allow full rotational completion
@@ -202,6 +204,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Invert from Reverse Half Guard?</p>
+
 - Leg entanglement still engaged on opponent's leg, providing the initial rotation axis and preventing immediate pass
 - Opponent's weight committed forward or laterally, reducing their ability to follow or crush the rotation
 - Near-side arm free to post a frame on opponent's hip or thigh, creating space to initiate the shoulder roll
@@ -214,6 +218,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Invert from Reverse Half Guard step by step?</p>
 
 1. **Establish frame on opponent's hip**: Post your near-side arm as a frame on opponent's hip or thigh to create initial space. This frame serves dual purposes: creating the gap needed to begin rotation and preventing the opponent from driving their weight directly onto your shoulders, which would pin you flat and eliminate the rotation option entirely.
 2. **Initiate hip turn away from opponent**: Begin rotating your hips away from the opponent by turning onto your near shoulder. Your hips lead the movement, creating the rotational momentum that will carry through the full inversion. The direction of rotation is away from the opponent and over your near shoulder—never toward them.
@@ -243,6 +249,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Invert from Reverse Half Guard?</p>
+
 - **Opponent drives heavy crossface pressure to flatten and pin shoulders, preventing any rotational movement** (Effectiveness: High) - Your Response: Address the crossface before attempting the inversion—frame against their shoulder to create space, or abandon the inversion and switch to a different escape like turning to face them through elbow escape mechanics → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Opponent circles toward exposed back during the rotation, inserting hooks before the inversion completes** (Effectiveness: High) - Your Response: Accelerate through the rotation rather than pausing—commit fully and extend legs immediately upon completing the roll to create distance and prevent hook insertion before they establish control → Leads to [[Positions/Back Control]]
 - **Opponent sprawls hips back and drives weight down to crush the rotation attempt before it develops** (Effectiveness: Medium) - Your Response: Use their sprawl as the trigger for a different attack—their backward weight shift opens the door for an old school sweep or underhook recovery since their base is momentarily compromised → Leads to [[Positions/Half Guard/Reverse Half Guard]]
@@ -254,6 +262,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Invert from Reverse Half Guard?</p>
 
 ### 1. Initiating inversion when opponent's weight is neutral or distributed backward
 
@@ -293,6 +303,8 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Invert from Reverse Half Guard (Attacker)?</p>
+
 **Phase 1: Solo Granby Roll Mechanics** - Rotation mechanics and body awareness
 Practice solo granby rolls on the mat without a partner. Focus on smooth continuous rotation over both shoulders with chin tucked, arms tight, and legs extending upon completion. Build comfort with the inverted position and develop muscle memory for the full movement pattern. Perform 20 repetitions per side per session.
 
@@ -310,42 +322,12 @@ Start in reverse half guard bottom against a fully resisting opponent. Must choo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the inversion from reverse half guard?
-**A**: The optimal timing window opens when the top player commits their weight forward or shifts laterally. This weight commitment temporarily reduces their ability to follow your rotation. Watch for their hips driving toward your head or their weight shifting to one side as they attempt to advance. Initiating during a neutral weight distribution is significantly lower percentage because the opponent can easily circle with your movement.
-
-**Q2**: Your opponent maintains heavy crossface pressure—should you still attempt the inversion?
-**A**: No. Heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure.
-
-**Q3**: What is the most critical mechanical detail during the rotation phase of the inversion?
-**A**: Keeping the chin tucked firmly to the chest throughout the entire rotation. An untucked chin creates two problems: it exposes the neck to chokes during the inverted phase, and it changes the rotation axis from a tight shoulder roll to a loose neck roll that is slower and less controlled. The tucked chin creates a smooth rotational path through the upper back and protects the cervical spine from compression forces.
-
-**Q4**: You initiate the inversion but feel the opponent starting to circle toward your back—what do you do?
-**A**: Accelerate through the rotation rather than stopping or reversing. A half-completed inversion with a circling opponent is the worst possible outcome. By committing fully and completing the rotation faster than they can circle, you can still reach open guard. Extend your legs immediately upon completing the roll to create distance and prevent hook insertion. Stopping midway leaves you inverted with your back fully exposed.
-
-**Q5**: What frame must you establish before initiating the inversion?
-**A**: A frame on the opponent's hip or thigh with your near-side arm is essential. This frame creates the initial space needed to begin the shoulder rotation and prevents the opponent from driving their chest directly onto your shoulders. Without this frame, the opponent's weight pins you flat and the rotation cannot begin. The frame also provides tactile feedback about the opponent's weight distribution, helping you identify the optimal timing window.
-
-**Q6**: Why must you release the half guard hook during the inversion rather than maintaining it throughout?
-**A**: The half guard hook serves as the initial rotation anchor but becomes a brake once the rotation begins. Maintaining the hook during the roll prevents your lower body from completing the rotation, leaving you stuck in the inverted position with maximum back exposure. The hook can also create dangerous twisting forces on your own knee during the rotation. Release it as you initiate the shoulder roll so your legs can follow your upper body through the complete rotation.
-
-**Q7**: After completing the inversion, your opponent rushes forward before you establish guard—how do you respond?
-**A**: Immediately extend both legs toward the opponent with your feet targeting their hips, even if you cannot establish upper body grips yet. Foot-on-hip frames are the fastest defensive structure to deploy and create enough distance to prevent the opponent from achieving chest-to-chest pressure. From there, use one foot to maintain the distance frame while the other establishes a hook or secondary frame. Only reach for upper body grips once your legs are actively managing the distance.
-
-**Q8**: What conditions make the inversion a higher percentage option than other reverse half guard escapes?
-**A**: The inversion becomes higher percentage when the opponent has successfully blocked your ability to turn and face them—strong crossface preventing face-the-opponent escapes, or positioning making underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Invert from Reverse Half Guard?</p>
 
 The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement.
 

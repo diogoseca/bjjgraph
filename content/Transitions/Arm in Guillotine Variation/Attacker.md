@@ -188,6 +188,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm in Guillotine Variation?</p>
+
 - Recognize the trapped arm immediately and commit to arm-in finishing mechanics rather than fighting to remove the arm for a standard guillotine
 - Drive the blade of the wrist across the front of the throat while the opponent's own trapped shoulder compresses the opposite carotid artery
 - Maintain heavy hip pressure and sprawled legs to prevent the opponent from creating space or closing guard during the finishing sequence
@@ -203,6 +205,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm in Guillotine Variation?</p>
+
 - Guillotine control established from top position with opponent's posture fully broken forward
 - Opponent's near-side arm committed inside the choking loop through underhook attempt, frame, or defensive posting
 - Choking arm achieves sufficient depth around the opponent's neck with the wrist blade crossing the front of the throat
@@ -216,6 +220,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm in Guillotine Variation step by step?</p>
 
 1. **Recognize Trapped Arm Configuration**: When the opponent's near-side arm becomes trapped inside your guillotine grip—typically from an underhook attempt, hip frame, or defensive posting—recognize this immediately rather than trying to remove it. Feel for their bicep and shoulder pressing against the side of their own neck. This is your signal to transition from standard guillotine mechanics to arm-in finishing.
 2. **Adjust Choking Arm Depth and Angle**: Thread your choking arm deeper around the opponent's neck, ensuring the blade of your wrist (thumb side of the forearm) crosses the front of their throat. Their trapped arm should be positioned between your forearm and the lateral side of their neck. Adjust your angle slightly toward the trapped-arm side to create maximum compression surface area across both carotid arteries.
@@ -234,7 +240,7 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Arm in Guillotine]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
@@ -244,6 +250,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Arm in Guillotine Variation?</p>
 
 - **Opponent postures up forcefully with their free arm to break choking angle and create space** (Effectiveness: Medium) - Your Response: Sprawl your hips harder while pulling the head down with your choking arm. Use your chest to drive into the back of their head, preventing posture recovery. If they create significant space, follow by walking your hips forward and re-establishing heavy top pressure before they can fully extend. → Leads to [[Positions/Guillotine Control]]
 - **Opponent attempts to extract the trapped arm by turning toward the choking arm and circling their hips** (Effectiveness: High) - Your Response: Increase hip pressure on the trapped-arm side while elevating your choking elbow higher. If the arm begins sliding out, immediately decide: increase torque to re-trap it, or let the arm clear and transition to a standard high-elbow guillotine. Do not chase a half-trapped arm—commit to one configuration. → Leads to [[Positions/Guillotine Control]]
@@ -256,6 +264,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm in Guillotine Variation?</p>
 
 ### 1. Attempting to finish with arm strength by squeezing the choking arm rather than using hip extension and body positioning
 
@@ -295,6 +305,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm in Guillotine Variation (Attacker)?</p>
+
 **Phase 1: Grip Recognition and Mechanics** - Identifying the trapped-arm configuration and establishing proper grip
 Partner allows you to establish guillotine control from top. Practice recognizing when their arm enters the choking loop during underhook, frame, or posting attempts. Focus on adjusting grip depth, wrist blade positioning, and hand connection for the arm-in variation. No finishing pressure at this phase—build the automatic recognition and grip adjustment response.
 
@@ -312,39 +324,12 @@ Positional sparring starting from guillotine control top. When the arm-in config
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What distinguishes the arm-in guillotine grip mechanics from a standard guillotine grip?
-**A**: The arm-in guillotine traps the opponent's near-side arm inside the choking loop, creating bilateral neck compression where the attacker's forearm pressures one side of the throat while the opponent's own trapped shoulder and bicep compress the opposite carotid artery. This is structurally different from the standard guillotine where both arms remain outside and the choking pressure comes primarily from the attacker's forearm across the throat. The arm-in configuration requires adjusting the grip angle to accommodate the trapped arm's volume and typically uses a higher elbow position to create the scissoring action needed for effective compression.
-
-**Q2**: When should you commit to arm-in finishing mechanics rather than trying to remove the trapped arm for a standard guillotine?
-**A**: Commit to arm-in mechanics immediately upon recognizing the trapped arm—do not waste time trying to remove it. The arm-in variation is higher percentage when the arm is already trapped because fighting to remove it creates transitional moments the opponent can exploit to escape or improve position. The trapped arm actually assists the choke by adding compression. The only exception is if your grip depth is too shallow to finish with the arm inside, in which case you may need to briefly adjust before re-committing to either arm-in or standard finishing.
-
-**Q3**: What is the primary direction of force application during the arm-in guillotine finish from top position?
-**A**: The primary force application is a combination of elbow elevation (driving the choking elbow toward the ceiling) and hip extension (driving hips forward and down). The elbow elevation creates a scissoring action that compresses the neck between the forearm blade and the trapped shoulder, while the hip extension generates structural pressure through the entire body rather than relying on arm strength. The secondary force vector is the chest driving into the back of the opponent's head, preventing posture recovery and maintaining the broken-posture configuration that enables the choke.
-
-**Q4**: Your opponent begins posturing up while their arm is trapped—how do you prevent the escape?
-**A**: Immediately sprawl your hips harder and drive your chest into the back of their head, using your body weight to counter their upward movement. Simultaneously pull the head down with your choking arm while maintaining the closed grip loop. If they generate significant upward force, walk your hips forward to re-establish heavy top pressure rather than pulling them back down with arm strength. If their posture recovery is nearly complete, consider transitioning the threat to positional advancement—use the remaining head control to pass to side control or take the back rather than fighting a losing battle for the choke finish.
-
-**Q5**: What grip configuration provides the most secure hold for the arm-in guillotine variation?
-**A**: The gable grip (palm-to-palm with fingers interlocked) provides the most secure hold for the arm-in variation because it creates the smallest possible circumference around the neck and trapped arm while maintaining structural integrity under pressure. The connection point should be on the far side of the opponent's neck. An alternative is the Marcelo-style palm-to-palm grip without interlocking fingers, which allows for quicker transitions between arm-in and standard guillotine. The key is keeping elbows tight to the body regardless of grip type—any separation between arms and torso creates escape space.
-
-**Q6**: Your opponent attempts to turn toward the choking arm to extract their trapped arm—what is your response?
-**A**: When the opponent turns toward the choking arm, immediately elevate your elbow higher and increase hip pressure on the trapped-arm side to prevent the extraction. Follow their rotation with your hips so they cannot create the extraction angle. If they continue turning despite your adjustment, you have two options: increase torque and drive your shoulder into their back to reverse their rotation, or recognize the turn as a transition opportunity and switch to an anaconda or darce configuration while their arm and head are still controlled. Never let them complete the full rotation without either re-trapping or transitioning to an alternative attack.
-
-**Q7**: What role does the opponent's trapped shoulder play in the choking mechanism of the arm-in guillotine?
-**A**: The opponent's trapped shoulder serves as a compression surface that pressures the carotid artery on the far side of their neck—the side opposite your forearm blade. This creates bilateral compression where your forearm attacks one carotid and their own shoulder attacks the other. This is why the arm-in variation can be more mechanically efficient than a standard guillotine: you are using the opponent's own anatomy as part of the choking structure. The shoulder's effectiveness as a compression surface increases when you elevate your choking elbow, because this drives the trapped arm upward and wedges the shoulder more firmly into the lateral neck.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm in Guillotine Variation?</p>
 
 The arm-in guillotine applies intense bilateral pressure to both carotid arteries simultaneously, with the opponent's own trapped shoulder assisting the compression. This can accelerate unconsciousness faster than standard guillotine variations—full blood flow restriction can occur within three to five seconds under proper compression. Always apply finishing pressure gradually and progressively, never with sudden jerking or spiking motions. Release immediately upon tap or any verbal signal. Monitor for signs of unconsciousness including body going limp, face color changes, or failure to respond. Ensure the trapped arm retains enough mobility for the defender to tap—never pin both arms simultaneously. During training, communicate with your partner about pressure levels and maintain awareness that the arm-in configuration restricts their ability to signal distress with the trapped hand.
 

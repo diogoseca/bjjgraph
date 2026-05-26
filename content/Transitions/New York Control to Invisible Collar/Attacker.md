@@ -188,6 +188,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing New York Control to Invisible Collar?</p>
+
 - Maintain posture control through the entire transition by keeping active leg pressure until the shin is repositioned behind the neck
 - Release the overhook only after the shin has begun its slide behind the opponent's neck, never before establishing the new control point
 - Use hip rotation rather than muscular pulling to reposition the shin, conserving energy and creating a smoother mechanical pathway
@@ -202,6 +204,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting New York Control to Invisible Collar?</p>
+
 - Established New York Control with deep overhook and active leg pressure across the opponent's shoulder
 - Opponent's posture broken to the point where their head is below the level of the bottom player's chest
 - Sufficient hip flexibility to rotate the shin from shoulder-wrap position to behind the opponent's neck
@@ -214,6 +218,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute New York Control to Invisible Collar step by step?</p>
 
 1. **Establish Threatening Position**: From New York Control, create an active submission threat such as a triangle setup or gogoplata feint. This forces the opponent to commit defensive resources to the current threat, diverting attention from the upcoming leg transition and reducing their ability to exploit the vulnerability window.
 2. **Initiate Hip Rotation**: Begin rotating your hips slightly toward the overhook side while maintaining leg pressure across the opponent's shoulder. This hip movement creates the angle necessary for the shin to clear the shoulder and begin traveling toward the back of the neck. Keep the overhook engaged during this initial rotation.
@@ -243,6 +249,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter New York Control to Invisible Collar?</p>
+
 - **Opponent postures up aggressively during the shin repositioning window** (Effectiveness: High) - Your Response: If you feel the opponent beginning to posture, abort the transition and re-secure New York Control overhook. Alternatively, use their upward momentum to shoot the shin directly to the throat for an immediate gogoplata attempt rather than completing the invisible collar transition. → Leads to [[Positions/Rubber Guard/New York Control]]
 - **Opponent strips the leg off their shoulder before shin reaches behind the neck** (Effectiveness: High) - Your Response: Immediately retract the leg to closed guard position and re-establish rubber guard entry sequence through Mission Control. Do not attempt to force the leg back into position against active resistance, as this wastes energy and exposes you to passing. → Leads to [[Positions/Open Guard]]
 - **Opponent tucks chin and drives forward to prevent shin from settling behind neck** (Effectiveness: Medium) - Your Response: The chin tuck and forward drive actually assists the transition if you redirect appropriately. Use the forward pressure to pull the shin deeper behind the neck and over the chin tuck. Their forward momentum helps seat the invisible collar rather than preventing it. → Leads to [[Positions/Rubber Guard/New York Control]]
@@ -254,6 +262,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing New York Control to Invisible Collar?</p>
 
 ### 1. Releasing the overhook before the shin has cleared the shoulder and begun traveling behind the neck
 
@@ -288,6 +298,8 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train New York Control to Invisible Collar (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip rotation and leg repositioning pathway
 Practice the hip rotation and shin slide movement solo against a grappling dummy or heavy bag. Focus on the smooth arc of the shin from shoulder position to behind the neck. Develop the muscle memory for the hip switch that powers the transition. Perform 50 repetitions per side daily until the movement feels natural.
 
@@ -305,42 +317,12 @@ Practice the full rubber guard cycle: Mission Control to New York Control to Inv
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the shin slide from New York Control to Invisible Collar?
-**A**: The optimal window occurs when the opponent is actively defending a submission threat from New York Control, such as a triangle or gogoplata setup. Their defensive attention is diverted from leg positioning, and their defensive movement often creates the angle needed for the shin to clear the shoulder. Attempting the transition when the opponent is passively defending with good posture provides the worst timing because they can immediately react to the leg repositioning.
-
-**Q2**: What hip flexibility requirements must be met before attempting this transition?
-**A**: The practitioner needs sufficient hip external rotation to maintain the leg wrapped over the opponent's shoulder while simultaneously rotating the hips to create the arc for the shin slide. The shin must travel from a position across the top of the shoulder to behind the back of the neck, requiring at minimum the flexibility to place the shin flat against the back of a training partner's neck from rubber guard. Practitioners who cannot achieve full Mission Control without muscular strain lack the baseline flexibility for this transition.
-
-**Q3**: Why must the overhook be maintained until the shin contacts the back of the opponent's neck?
-**A**: The overhook is the primary posture control mechanism in New York Control. Releasing it before the invisible collar is established creates a gap where no primary control exists, giving the opponent a window to posture up and escape the entire rubber guard configuration. The shin behind the neck replaces the overhook's function, so the transition must be overlapping rather than sequential to avoid any control vacuum.
-
-**Q4**: Your opponent begins posturing up as you initiate the shin slide - how do you respond?
-**A**: If the posture break is still recoverable, immediately re-engage the overhook and abort the transition back to New York Control. If the shin is already past the shoulder, redirect it toward the throat for an immediate gogoplata attempt rather than completing the invisible collar. The opponent's upward movement can actually assist a gogoplata attack by creating space for the shin to slide across the throat. Never continue with a half-completed invisible collar transition against active posturing.
-
-**Q5**: What grip does the free hand establish during the shin slide?
-**A**: The free hand has two primary options depending on the opponent's reaction. If the opponent is passive, the free hand grabs your own ankle or shin to guide the leg into position behind the neck. If the opponent is actively defending, the free hand controls their near wrist or pushes their far shoulder away to prevent posture recovery. In both cases, the free hand must be actively engaged throughout the transition rather than hanging idle.
-
-**Q6**: How does the direction of hip rotation affect the success of this transition?
-**A**: The hips must rotate toward the overhook side, which creates the arc that carries the shin from the shoulder to behind the neck. Rotating away from the overhook side blocks the shin pathway and makes the transition mechanically impossible. The rotation should be a smooth, continuous movement rather than a sharp jerk, as sudden rotation alerts the opponent and can loosen the controlling leg from its position.
-
-**Q7**: What submission chain should you initiate immediately after establishing invisible collar?
-**A**: The gogoplata is the most direct and highest-percentage follow-up because the shin is already positioned behind the neck and only needs to slide across the throat. If the opponent defends the gogoplata by tucking their chin, transition to an omoplata by rotating your hips under their arm while maintaining shin pressure. If they posture against the omoplata, the invisible collar configuration allows a direct triangle setup by swinging the opposite leg across the neck.
-
-**Q8**: Your first transition attempt is blocked and you return to New York Control - what adjustment makes the second attempt more likely to succeed?
-**A**: Change the setup by threatening a different submission before the second attempt. If the first attempt used a gogoplata feint, use a triangle or omoplata threat for the second. The opponent has now seen the transition once and will be watching for the same setup. Alternatively, attempt the hip switch variant, which uses a different mechanical pathway that the opponent may not recognize as the same transition. Never repeat the identical setup sequence after a failed attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for New York Control to Invisible Collar?</p>
 
 This transition involves significant stress on the hip joint and requires adequate flexibility before attempting. Never force the shin into position against your own body's resistance, as this can strain the hip flexors, groin, or knee. The transition itself does not apply dangerous joint locks or chokes, but the resulting invisible collar position can create neck compression on the opponent. Apply shin pressure gradually and respect tap signals immediately. During training, develop hip flexibility progressively through dedicated stretching before incorporating the technique into live sparring.
 

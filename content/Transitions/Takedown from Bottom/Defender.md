@@ -162,6 +162,8 @@ Defending a takedown attempt from a standing opponent requires early recognition
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Takedown from Bottom?</p>
+
 - Opponent breaks grip contact and drops their level with a sudden hip drop, bending their knees to lower their center of gravity below your waist line
 - Opponent's lead foot steps deep inside your stance with their knee driving toward the mat between your legs in a penetration step pattern
 - Opponent's head drops below your chest level as they change levels, with their back rounding forward and arms reaching toward your legs or hips
@@ -174,6 +176,8 @@ Defending a takedown attempt from a standing opponent requires early recognition
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Takedown from Bottom?</p>
 
 - React to the level change immediately - the first half-second determines whether the takedown succeeds or fails
 - Sprawl with hip drive, not leg extension - drop your hips straight down and back while driving your chest weight onto the attacker's upper back
@@ -188,6 +192,8 @@ Defending a takedown attempt from a standing opponent requires early recognition
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Takedown from Bottom?</p>
 
 ### 1. Execute a hard sprawl by driving hips backward and downward while dropping chest weight onto the attacker's upper back and neck
 
@@ -225,6 +231,8 @@ Defending a takedown attempt from a standing opponent requires early recognition
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Takedown from Bottom?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Execute a decisive sprawl that drives the attacker flat to the mat, then immediately transition to front headlock control by circling toward their head and securing a crossface or chin strap grip. The sprawl must be timed within the first beat of the attacker's penetration step to maximize effectiveness.
@@ -240,6 +248,8 @@ Stuff the shot early by defending the penetration step with hip pressure and cro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Takedown from Bottom?</p>
 
 ### 1. Bending at the waist instead of sprawling with explosive hip drive during takedown defense
 
@@ -269,6 +279,8 @@ Stuff the shot early by defending the penetration step with hip pressure and cro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Takedown from Bottom?</p>
+
 **Phase 1: Sprawl Mechanics** - Basic sprawl technique and reaction time development
 Practice solo sprawl drills focusing on explosive hip drop with proper chest pressure mechanics against a pad or the mat. Progress to partner-fed shots at 30% speed, then increase to 70% as automatic reactions develop. Build the sprawl as a reflexive response to any level change stimulus.
 
@@ -285,29 +297,6 @@ Stand-up sparring rounds where one partner focuses exclusively on takedowns whil
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body position change in your opponent most reliably signals an incoming takedown attempt?
-**A**: The most reliable signal is a sudden bend in the knees combined with a forward torso lean where the opponent's head drops below their normal posture line. This level change is biomechanically necessary before any penetration step and provides a brief warning window. Secondary signals include grip releases, sudden weight shifts to the balls of the feet, and the opponent's eyes tracking your hips or legs rather than maintaining their normal chest-level focus during the grip exchange.
-
-**Q2**: What is the critical mechanical difference between an effective sprawl and simply dropping your weight?
-**A**: An effective sprawl involves driving the hips backward and downward while keeping the chest heavy and forward on the attacker's upper back. Simply dropping weight straight down lands your hips on top of the attacker's head or shoulders, which does not stop their forward drive and may actually assist their penetration by loading them but not removing your legs. The backward hip drive removes your legs from the attacker's reach while the forward chest pressure pins them flat to the mat. The sprawl is a directional movement, not a collapse.
-
-**Q3**: Your opponent has secured a single leg grip on your lead leg - what immediate action prevents completion?
-**A**: Immediately whizzer the near arm by driving your overhook deep over their arm and lock your hand to your hip. Simultaneously drive your crossface forearm across their jaw to turn their head away from the trapped leg. Hop your free foot backward while pushing your trapped leg's hip forward and down to create downward pressure that makes elevation extremely difficult. If they persist, execute a limp leg by bending the trapped knee sharply and pulling your foot through their grip opening.
-
-**Q4**: How should you adjust your defensive stance when you recognize your opponent is a strong takedown artist?
-**A**: Lower your center of gravity by increasing knee bend to approximately 25-30 degrees from your normal stance. Widen your stance slightly and stagger your feet with the weaker leg forward as a sacrificial target. Keep your hips back with weight distributed toward your heels to enable instant sprawl reaction. Maintain active collar tie or bicep control to create a frame barrier between your opponent's head and your legs. Consider proactive strategies like pulling guard early to eliminate the takedown threat entirely if your guard game is significantly stronger than your wrestling.
-
-**Q5**: When is pulling guard a better defensive option than sprawling against a takedown?
-**A**: Pulling guard is preferable when you have missed the initial sprawl timing and the attacker has already established deep penetration with inside control around your legs. At this point, a late sprawl is unlikely to succeed and will result in being taken down directly to side control. By sitting to guard before the attacker completes the finish, you establish closed guard control and deny them the passing position they would achieve with the completed takedown. Guard pulling is also strategic when your opponent's top game is demonstrably weaker than their takedown ability.
-
-
-
-</section>
 
 
 </main>

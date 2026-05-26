@@ -202,7 +202,7 @@ The front headlock to back take serves as a critical connector in the overall BJ
 
 - [[Transitions/Front Headlock to Guillotine]] - Alternative attack - Submission option from same starting position when opponent lifts head
 
-- [[Transitions/Rear Naked Choke]] - Follow-up - Primary submission from achieved back control position
+- [[Submissions/Rear Naked Choke]] - Follow-up - Primary submission from achieved back control position
 
 - [[Transitions/Arm Drag to Back]] - Alternative setup - Different path to back control from guard positions
 

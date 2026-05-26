@@ -213,7 +213,7 @@ The Sit Through to Guard is a cornerstone of systematic turtle defense, offering
 
 - [[Transitions/Peterson Roll]] - Alternative rolling escape from turtle that chains with sit through
 
-- [[Principles/Guard Recovery]] - Parent concept this technique serves
+- [[Transitions/Hip Escape to Guard]] - Related guard recovery transition sharing core hip movement mechanics
 
 - [[Principles/Hip Escape Mechanics]] - Foundational movement principle underlying the sit through rotation
 

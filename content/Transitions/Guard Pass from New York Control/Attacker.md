@@ -188,6 +188,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Pass from New York Control?</p>
+
 - Extract the overhook before addressing leg control - reversed priority exposes you to submission chains
 - Lateral and angular movement provides safer escape vectors than forward pressure against rubber guard structure
 - Elbow connection to the body prevents triangle and gogoplata setups throughout the extraction sequence
@@ -202,6 +204,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Pass from New York Control?</p>
+
 - Identify which arm is trapped in the overhook and assess the depth of control before initiating extraction
 - Establish low wide base with hips close to mat and knees spread to resist sweeps during the extraction sequence
 - Protect free arm against triangle setup by keeping elbow pinned tight to the body throughout
@@ -214,6 +218,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Pass from New York Control step by step?</p>
 
 1. **Establish defensive base**: Widen your knees and drop your hips low to the mat, creating a stable platform that resists sweep attempts while you work the extraction sequence. Distribute weight laterally rather than driving forward into the bottom player's submission chains. Both elbows should be tight to your ribs with chin tucked.
 2. **Begin angular overhook extraction**: Rotate your trapped shoulder forward while pulling your elbow toward your hip, using angular movement to compromise the depth of the bottom player's overhook control. Avoid pulling straight back, which only tightens their grip. The rotation should feel like threading your shoulder through the gap rather than yanking your arm free.
@@ -243,6 +249,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Pass from New York Control?</p>
+
 - **Bottom player re-engages overhook by deepening grip during extraction attempt** (Effectiveness: Medium) - Your Response: Return to angular extraction by stepping knee further outward. If they re-engage deeply, reset to defensive base and restart extraction rather than fighting the grip directly. Sustained angular pressure will eventually compromise the overhook regardless of re-engagement. → Leads to [[Positions/Rubber Guard/New York Control]]
 - **Bottom player shoots triangle by swinging leg across neck during arm extraction** (Effectiveness: High) - Your Response: Keep elbows pinned to ribs throughout extraction. If leg begins crossing behind your neck, immediately posture up and stack their hips to prevent the triangle from locking. Tuck chin aggressively and drive your shoulder into their thigh to create defensive pressure. → Leads to [[Positions/Closed Guard]]
 - **Bottom player transitions to Mission Control or Invisible Collar when overhook is compromised** (Effectiveness: Medium) - Your Response: Follow their leg positioning and maintain forward pressure during their transition. The grip change temporarily weakens their overall control structure, creating a window to accelerate your pass. Use the momentum of their transition to establish passing angles before the new guard configuration settles. → Leads to [[Positions/Rubber Guard/New York Control]]
@@ -254,6 +262,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Pass from New York Control?</p>
 
 ### 1. Driving forward with pressure attempting to smash through rubber guard structure
 
@@ -293,6 +303,8 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Pass from New York Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Overhook extraction technique in isolation
 Drill the angular extraction movement with a cooperative partner holding New York Control at 20-30% resistance. Focus on proper shoulder rotation, elbow path toward the hip, and knee positioning outward at 45 degrees. Build muscle memory for the extraction motion before adding any live complexity or resistance.
 
@@ -310,42 +322,12 @@ Begin in various rubber guard positions including Mission Control, New York, and
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct priority sequence when passing New York Control from top?
-**A**: The overhook must be extracted before attempting to remove the leg control. Attempting leg removal while the overhook remains engaged leaves your arm trapped and allows the bottom player to cycle through gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg without exposing yourself to chain submissions.
-
-**Q2**: Why does driving forward with pressure increase submission danger when passing New York Control?
-**A**: Forward pressure drives the bottom player's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier and submission entries more accessible for the bottom player. Lateral movement avoids feeding their chains.
-
-**Q3**: What specific body mechanics enable effective overhook extraction during the pass?
-**A**: Rotate your trapped shoulder forward while pulling your elbow toward your hip using angular movement. Simultaneously step your knee on the overhook side outward at a 45-degree angle to create rotational torque. This combined angular pressure compromises overhook depth far more effectively than straight pulling, which only tightens the rubber guard grip against you.
-
-**Q4**: Your opponent shoots a triangle attempt as you begin extracting your arm - what is your immediate response?
-**A**: Keep elbows pinned tightly to your ribs and tuck your chin to your chest. If the leg begins crossing behind your neck, immediately drive your shoulder into their thigh while stacking their hips to prevent the triangle from fully locking. Do not extend your arms or try to push the leg away, as arm extension creates exactly the isolation the triangle requires to finish.
-
-**Q5**: What is the optimal direction to complete the pass after clearing the rubber guard controls?
-**A**: Direct the pass toward the leg control side rather than the overhook side. Passing toward the overhook side moves you directly into the bottom player's strongest re-engagement zone where they can re-establish the overhook most easily. Passing to the opposite side uses your freed arm for crossface while creating maximum distance from the overhook threat.
-
-**Q6**: Why must overhook extraction and leg clearance be treated as a continuous sequence without pausing?
-**A**: Any pause between phases allows the bottom player to re-establish controls or transition to alternative rubber guard positions like Mission Control or Invisible Collar. The overhook extraction creates a temporary window of reduced control that must be exploited immediately by clearing the leg before the bottom player can adapt, adjust grips, and re-engage their guard structure.
-
-**Q7**: How should you assess which passing variant to use against a particular rubber guard player?
-**A**: Evaluate the bottom player's flexibility level and overhook depth. Against extremely flexible practitioners with deep control, the backstep variation creates the most angular separation through full body rotation. Against less flexible practitioners, the stack pass variant can overwhelm their structure with compression. Standing break works when ground-based extraction repeatedly fails but carries higher risk of re-engagement.
-
-**Q8**: What base distribution prevents sweeps during the overhook extraction phase?
-**A**: Maintain a wide base with knees spread and hips low to the mat, distributing weight laterally across a broad foundation rather than concentrating it forward. Avoid loading weight forward or narrowing your base during extraction. The wide low position creates stability against the bottom player's sweep attempts while providing the platform needed for patient angular extraction without being off-balanced.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Pass from New York Control?</p>
 
 This guard pass involves significant neck and shoulder stress during extraction from rubber guard controls. Never jerk or explosively twist your trapped arm, as the overhook position can create shoulder impingement if forced against deep control. If the bottom player achieves a gogoplata or triangle during your pass attempt, tap immediately rather than fighting through the choke. Communicate clearly with training partners about flexibility limitations and shoulder mobility restrictions. Use controlled progressive resistance when drilling, starting at low intensity and building gradually.
 

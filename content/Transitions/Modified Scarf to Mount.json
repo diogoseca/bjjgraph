@@ -85,7 +85,7 @@
       "relationship": "Alternative transition from same source position that changes control geometry laterally"
     },
     {
-      "name": "Consolidation to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Related mount entry from standard side control sharing similar weight transfer principles"
     },
     {
@@ -238,7 +238,7 @@
         "description": "Start from established Modified Scarf Hold in positional sparring rounds. Top player scores by achieving mount for 3 seconds, bottom player scores by recovering any guard position. Full resistance with focus on selecting the right moment for the transition based on real-time defensive reactions. Alternate roles every 2 minutes for 10-minute rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Modified Scarf to Mount transition?",
         "answer": "The optimal window opens when the bottom player's arms are committed to defending Modified Scarf Hold's chest pressure rather than establishing positional frames at your hip. Specifically, when they retract their arms after a submission threat, turn away from pressure, or flatten out under sustained weight. These moments leave the hip line unprotected and their knee insertion mechanics compromised by their current defensive commitment."
@@ -360,7 +360,7 @@
         "correction": "Maintain composure through controlled breathing. Follow the defensive hierarchy: recognize the transition cue, frame on the hip, time your response with the leg swing, insert knee shield."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that signals a Modified Scarf to Mount transition attempt?",
         "answer": "The earliest cue is the top player driving their near hip into your far hip to preemptively block your knee insertion path. This blocking action serves no purpose for maintaining Modified Scarf Hold but is essential preparation for the mount entry. A secondary early cue is the far leg repositioning closer to your body, shortening the swing arc. Recognizing these preparation actions gives you the maximum response window before the leg actually swings."

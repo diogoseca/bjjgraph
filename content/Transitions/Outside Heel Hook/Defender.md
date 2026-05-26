@@ -158,13 +158,15 @@ The defender in this scenario is typically in the Backside 50-50 position with t
 
 The psychological dimension of heel hook defense cannot be understated. Panic leads to spastic movement that often worsens your position and accelerates the submission. Calm, technical defense based on recognizing exactly which stage of the attack you are facing allows you to select the correct defensive tool. When defense fails and the breaking angle is set, tapping immediately is not weakness - it is the intelligent choice that preserves your ability to train and compete.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Outside Heel Hook?</p>
 
 - Opponent threads their arm under your Achilles tendon and begins cupping your heel with the blade of their wrist - this is the initial grip acquisition
 - You feel your knees being squeezed together by opponent's thighs, immobilizing your knee line and preventing you from spinning freely
@@ -179,6 +181,8 @@ The psychological dimension of heel hook defense cannot be understated. Panic le
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Outside Heel Hook?</p>
+
 - Hide your heel before the grip is established - boot defense (straightening the leg and pointing toes) is your strongest preventive tool
 - Fight grips early and aggressively - once the figure-four is consolidated with elbows tight, grip stripping becomes exponentially harder
 - Spin in the direction of the heel hook to relieve rotational pressure on the knee - never spin against the rotation direction
@@ -192,6 +196,8 @@ The psychological dimension of heel hook defense cannot be understated. Panic le
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Outside Heel Hook?</p>
 
 ### 1. Boot defense - straighten your attacked leg and point your toes, tucking your heel behind opponent's controlling leg to deny grip access
 
@@ -229,6 +235,8 @@ The psychological dimension of heel hook defense cannot be understated. Panic le
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Outside Heel Hook?</p>
+
 ### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Successfully strip the heel grip through two-on-one hand fighting or deny heel access entirely through boot defense before opponent consolidates the figure-four. Once grip is broken, immediately establish defensive leg positioning to prevent re-acquisition.
@@ -244,6 +252,8 @@ Execute a well-timed spin escape in the direction of the heel hook rotation, mat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Outside Heel Hook?</p>
 
 ### 1. Spinning against the direction of the heel hook rotation instead of with it
 
@@ -278,6 +288,8 @@ Execute a well-timed spin escape in the direction of the heel hook rotation, mat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Outside Heel Hook?</p>
+
 **Week 1-2** - Recognition and boot defense
 Partner slowly works through the heel hook sequence while you practice recognizing each stage of the attack. Focus on implementing boot defense at the earliest possible moment. No live resistance - pure pattern recognition and defensive positioning drills. Tap immediately whenever grip consolidates.
 
@@ -294,29 +306,6 @@ Full resistance positional sparring starting from Backside 50-50 with opponent a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct direction to spin when defending an Outside Heel Hook, and why?
-**A**: Spin in the same direction as the heel hook rotation - the direction your toes are being forced. For an Outside Heel Hook, your foot is being rotated outward, so you spin your entire body outward to match the rotation. This neutralizes the rotational differential between your tibia and femur that creates knee pressure. Spinning the opposite direction catastrophically accelerates the submission.
-
-**Q2**: Your opponent has just threaded their arm under your Achilles but has not closed the figure-four yet. What is your highest-priority defensive action?
-**A**: Immediately implement boot defense by straightening your leg and pointing your toes, tucking your heel behind their controlling leg. This is the highest-percentage defense because it prevents the grip from consolidating entirely. Simultaneously use your hands to push their grip hand away from your heel. Once the figure-four closes with elbows tight, defensive difficulty increases dramatically.
-
-**Q3**: Why is the Outside Heel Hook considered more dangerous to defend than many other submissions?
-**A**: The lateral knee structures targeted by the Outside Heel Hook have minimal proprioceptive feedback compared to joints attacked by armbars or kimuras. Opponents often feel no significant pain until ligament damage is already occurring. This means traditional pain-based tap timing is unreliable - by the time it hurts, the LCL may already be compromised. Defenders must tap based on positional recognition rather than pain signals.
-
-**Q4**: You have been caught in a fully locked Outside Heel Hook with the breaking angle set and your opponent beginning hip extension. What should you do?
-**A**: Tap immediately without hesitation. Once the breaking angle is set with hip extension beginning and you cannot spin to relieve pressure, the submission is complete and resistance only increases the probability and severity of knee injury. Tapping at this stage is the correct technical decision. Attempting to fight through a locked heel hook with breaking mechanics engaged is not courageous - it is reckless.
-
-**Q5**: When is it appropriate to attempt a counter leg attack rather than purely defending the Outside Heel Hook?
-**A**: Counter-attack is appropriate only when opponent has committed both hands to your heel grip, leaving their own leg defense compromised, AND your own knee is not yet under breaking pressure. If the breaking angle is already set, counter-attacking is too late - tap instead. The counter works best during the grip acquisition phase when opponent is focused on securing heel control and you can reach their exposed heel before they consolidate.
-
-
-
-</section>
 
 
 </main>

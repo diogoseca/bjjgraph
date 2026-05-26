@@ -55,14 +55,14 @@
       "when_to_use": "When you have both hands free and the opponent is trying to posture up or create space with defensive frames. The head pull eliminates posture before the leg squeeze amplifies the choking pressure."
     }
   ],
-  "position_integration": "The Mounted Triangle Squeeze occupies a critical intermediate role in the mounted triangle attacking sequence. It bridges the gap between initial triangle establishment and the terminal finish, serving as the pressure-building phase that makes the Mounted Triangle Finish achievable. Within the broader mount attacking system, the squeeze connects to S Mount transitions, armbar setups, and back takes by forcing defensive reactions that expose these secondary attacks. The technique also integrates with the gift wrap control system, as arm control facilitates tighter squeeze mechanics. Understanding the squeeze as a distinct phase rather than just part of the finish allows practitioners to develop a systematic mounted triangle game with clear progression checkpoints.",
+  "position_integration": "The Mounted Triangle Squeeze occupies a critical intermediate role in the mounted triangle attacking sequence. It bridges the gap between initial triangle establishment and the terminal finish, serving as the pressure-building phase that makes the Triangle Choke achievable. Within the broader mount attacking system, the squeeze connects to S Mount transitions, armbar setups, and back takes by forcing defensive reactions that expose these secondary attacks. The technique also integrates with the gift wrap control system, as arm control facilitates tighter squeeze mechanics. Understanding the squeeze as a distinct phase rather than just part of the finish allows practitioners to develop a systematic mounted triangle game with clear progression checkpoints.",
   "related_content": [
     {
       "name": "Mounted Triangle",
       "relationship": "Source position where the squeeze is applied"
     },
     {
-      "name": "Mounted Triangle Finish",
+      "name": "Triangle Choke",
       "relationship": "Terminal submission that follows successful squeeze consolidation"
     },
     {
@@ -152,7 +152,7 @@
       {
         "step_number": 7,
         "action": "Assess squeeze effectiveness and transition decision",
-        "description": "After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Mounted Triangle Finish. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm."
+        "description": "After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Triangle Choke. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm."
       }
     ],
     "common_counters": [
@@ -220,7 +220,7 @@
         "description": "Practice the squeeze mechanics with a compliant partner. Focus on finding the optimal angle, progressive ratcheting compression, and head control coordination. No resistance. Repeat 20 times per side, focusing on smooth technique."
       },
       {
-        "phase": "Phase 2: Posture Breaking Integration",
+        "phase": "Phase 2: Posture Integration",
         "focus": "Combining head pull with leg squeeze in coordinated sequence",
         "description": "Partner provides moderate posture resistance. Practice breaking posture first, then transitioning to squeeze. Develop the timing of when to pull the head and when to initiate leg compression. 10 repetitions per side with increasing resistance."
       },
@@ -240,7 +240,7 @@
         "description": "Positional sparring starting from established mounted triangle. Attacker works squeeze-to-finish chain against full resistance. Practice recognizing when the squeeze is tight enough to commit to the finish versus when additional adjustment is needed. Integrate transitions to armbar and back take when squeeze is fully defended."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is hip angle adjustment more important than raw squeezing force for the mounted triangle squeeze?",
         "answer": "Hip angle determines the vector along which compression is applied to the carotid arteries. A perpendicular angle to the opponent's spine positions the thigh directly across the lateral neck while the trapped shoulder presses the opposite carotid. Without proper angle, even maximum leg compression creates pressure that misses the arteries and compresses non-vital structures. Correct angle provides mechanical advantage that multiplies the effectiveness of every unit of squeezing force applied."
@@ -362,7 +362,7 @@
         "correction": "Wait to feel the attacker's weight shift and base narrow during their squeeze commitment before bridging. One well-timed explosive bridge is worth more than five random attempts. Feel for the moment their hips lift and their base leg lightens."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is framing against the attacker's hip more effective than pushing against their leg during squeeze defense?",
         "answer": "The hip frame prevents the attacker from achieving the perpendicular angle that gives the squeeze its mechanical advantage. Without the correct angle, even strong leg compression misses the carotid arteries and applies pressure to non-vital structures. Pushing against the leg fights the entire strength of the figure-four lock plus gravity, which is mechanically futile. The hip frame addresses the root cause of choking effectiveness, while leg pushing addresses only the symptom."

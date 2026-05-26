@@ -156,6 +156,8 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Extract to Half Guard?</p>
+
 - Opponent's far-side forearm moving toward your hip crease or the junction of your thigh and torso, indicating primary frame establishment
 - Opponent's near-side hand reaching toward your knee or the top of your figure-four leg configuration to create secondary frame
 - Opponent's hips beginning to shift backward and laterally while their free leg posts on the mat or against your hip for push-off leverage
@@ -168,6 +170,8 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Extract to Half Guard?</p>
 
 - Maintain constant hip-to-hip connection to deny the space needed for framing and extraction
 - Follow every hip escape attempt by advancing your own hips forward to close the distance gap
@@ -182,6 +186,8 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Extract to Half Guard?</p>
 
 ### 1. Advance hips forward and increase hip pressure to deny framing space
 
@@ -212,6 +218,8 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Extract to Half Guard?</p>
+
 ### → [[Positions/Inside Sankaku]]
 
 Deny all framing attempts by maintaining relentless forward hip pressure and immediately stripping any forearm contact from your hips. Follow every hip escape with your own forward hip advancement to prevent separation. Attack the heel hook when extraction attempts expose the heel to reset the opponent to pure survival mode.
@@ -227,6 +235,8 @@ When the opponent generates lateral hip escape angle, follow their angle change 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Extract to Half Guard?</p>
 
 ### 1. Allowing frames to establish without immediate response
 
@@ -256,6 +266,8 @@ When the opponent generates lateral hip escape angle, follow their angle change 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Extract to Half Guard?</p>
+
 **Week 1-2** - Frame denial and hip pressure maintenance
 From established Inside Sankaku top, partner slowly attempts to build frames against your hips. Practice immediately stripping frames upon contact and driving hips forward to deny space. No submission attacks yet - focus purely on maintaining hip connection against the framing attempts.
 
@@ -272,29 +284,6 @@ Full resistance positional sparring from Inside Sankaku. Partner uses all escape
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning Frame and Extract to Half Guard?
-**A**: The earliest cue is their far-side forearm moving toward your hip crease to establish the primary frame. This precedes the hip escape movement and is your first opportunity to intervene. Before the frame becomes load-bearing, you can strip it with minimal effort. Once established and loaded with hip escape force, the frame becomes significantly harder to remove.
-
-**Q2**: Your opponent has established a solid frame against your hip and is beginning to generate hip escape distance - what is your response sequence?
-**A**: First, use your near-side hand to strip or redirect their framing forearm away from your hip. Simultaneously drive your hips forward aggressively to close the gap they are creating. If the frame is too established to strip, use your outside leg to increase downward pressure on the entanglement while advancing your hips. The goal is to collapse the frame under your body weight rather than fighting it with arm strength alone.
-
-**Q3**: How does the opponent's escape attempt create an opportunity for you to transition to Saddle?
-**A**: When the opponent hip escapes laterally to create extraction angle, their free leg often comes within range of your outside leg. As they angle away, their second leg passes closer to your entanglement structure. By threading your outside leg around their free leg during this lateral movement, you capture both legs in a Saddle configuration. The opponent's own escape movement provides the angle change that makes this transition possible.
-
-**Q4**: When during the escape sequence is the opponent's heel most vulnerable to attack?
-**A**: The heel is most vulnerable during the extraction phase when they rotate and spiral their trapped leg out of your figure-four. The spiraling motion can momentarily lift the heel away from their hip where they had been hiding it, creating a brief window for heel hook attack. Additionally, when they shift their near-side hand from heel protection to secondary frame establishment, the heel becomes unguarded.
-
-**Q5**: What distinguishes a successful hip pressure response from overcommitting that allows a Granby roll counter?
-**A**: Successful hip pressure maintains low center of gravity with weight distributed through your hips into the entanglement, keeping your base stable. Overcommitting means driving your upper body forward and high, shifting weight above their hips rather than into them. When your weight goes high and forward, the opponent can use your momentum to invert underneath you with a Granby roll. Keep your pressure low, heavy, and centered through the hip connection point rather than lunging forward with your torso.
-
-
-
-</section>
 
 
 </main>

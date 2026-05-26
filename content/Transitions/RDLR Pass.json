@@ -69,7 +69,7 @@
       "relationship": "Counter outcome - position opponent achieves if back take succeeds during pass"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "relationship": "Prerequisite concept - essential for establishing passing grips"
     },
     {
@@ -236,7 +236,7 @@
         "description": "Work on combining the RDLR pass with leg drag, knee slice, long step, and smash pass systems. Practice reading opponent defensive reactions and flowing to the highest-percentage passing option. Develop the ability to chain three or more passing attempts together fluidly."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary grip you should establish when beginning the RDLR pass and why is it important?",
         "answer": "The far hip or belt grip is the primary control point because it allows you to prevent back exposure and control the opponent's rotation. This grip acts as a steering wheel for their entire body, enabling you to turn them away from back take attempts and control their ability to follow your movements during the pass."
@@ -366,7 +366,7 @@
         "correction": "Keep shoulders oriented toward the passer with chest facing them at all times unless executing a deliberate inversion technique. Your visual and physical connection to the passer must be maintained throughout the defensive exchange."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "The passer begins attacking your ankle grip while maintaining chest pressure on your inside thigh—what is your immediate priority?",
         "answer": "Your immediate priority is reinforcing the ankle grip by either switching to a two-on-one grip configuration or adjusting your grip angle to make it harder to break. Simultaneously, elevate your hips to create upward pressure that reduces the effectiveness of their chest pressure. If the grip break appears inevitable, begin setting up your transition to X-Guard or Single Leg X proactively rather than waiting for the hook to be fully stripped."

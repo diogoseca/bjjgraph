@@ -154,6 +154,8 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crossface from Old School?</p>
+
 - Opponent begins sliding their shoulder or forearm across your face toward the far side, applying increasing lateral pressure on your jaw
 - Opponent's chest weight shifts forward and becomes heavier on your sternum, indicating commitment to the flattening sequence
 - Opponent's whizzer tightens and their elbow clamps down, signaling they are anchoring before the crossface drive
@@ -166,6 +168,8 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crossface from Old School?</p>
 
 - Maintain side-lying angle at all costs - once flattened to your back, sweep mechanics are eliminated and the pass becomes inevitable
 - Pump the lockdown actively during crossface pressure to create counter-force that prevents flattening and disrupts the top player's weight distribution
@@ -180,6 +184,8 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crossface from Old School?</p>
 
 ### 1. Pump lockdown and maintain angle through active hip extension
 
@@ -217,6 +223,8 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crossface from Old School?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time the Old School Sweep during the opponent's forward weight commitment for the crossface. Their crossface drive shifts their center of gravity forward, which is exactly the weight distribution that feeds the Old School Sweep mechanics. Wait for the heaviest moment of their drive and execute the sweep with maximum lockdown extension and underhook pull.
@@ -232,6 +240,8 @@ Defend the crossface through active lockdown pumping, underhook maintenance, and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crossface from Old School?</p>
 
 ### 1. Relying solely on neck strength to resist the crossface head turn
 
@@ -261,6 +271,8 @@ Defend the crossface through active lockdown pumping, underhook maintenance, and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crossface from Old School?</p>
+
 **Phase 1: Recognition and Initial Response** - Identifying crossface initiation and executing immediate defensive adjustments
 Partner starts in Old School Top and initiates crossface at varying speeds. Practice recognizing the cues and responding with immediate lockdown pump and underhook tightening. No sweep attempts, pure defensive positioning at 25% resistance. 15 repetitions per side.
 
@@ -274,26 +286,6 @@ Partner applies full-pressure crossface passing sequence. Defend using all avail
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you recognize the crossface initiation from Old School Top?
-**A**: Immediately pump the lockdown with maximum extension while tightening your underhook and pulling your head control grip deeper. The pump creates counter-force that resists the flattening effect while your tightened controls prevent the incremental degradation the crossface aims to achieve. Early action when the crossface pressure is still light is far more effective than attempting recovery after significant flattening has occurred.
-
-**Q2**: Why does the opponent's crossface weight shift create an opportunity for the Old School Sweep?
-**A**: The crossface requires the opponent to commit weight forward through their shoulder and chest into your face. This forward weight commitment is the exact weight distribution that makes Old School Sweeps most effective, because the opponent's center of gravity is shifted toward the sweeping direction. Their base is momentarily compromised during the heaviest drive, creating a timing window where the sweep has maximum probability of success.
-
-**Q3**: When should you abandon Old School defense and transition to deep half guard instead?
-**A**: Transition to deep half when your head has been turned more than 45 degrees from the underhook side, your underhook depth has been reduced to shallow, and you still retain hip mobility to scoop under the opponent. These conditions indicate that Old School recovery is unlikely to succeed but you have not yet been fully flattened. The transition requires releasing lockdown and head control simultaneously while diving under the opponent's hips, so do not wait until you are flat on your back.
-
-**Q4**: How do you maintain your underhook depth against the whizzer during the crossface exchange?
-**A**: Keep your underhooking elbow clamped tight to your ribs rather than extended outward, and grip as high on the opponent's back or shoulder as possible. The whizzer's power comes from creating downward pressure on your arm, so keeping your elbow tight removes the lever they need. Additionally, use your head control to pull the opponent's posture down, which paradoxically gives your underhook more depth as their body folds forward toward you.
-
-
-
-</section>
 
 
 </main>

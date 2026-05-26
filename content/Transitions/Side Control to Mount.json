@@ -52,12 +52,12 @@
       "relationship": "Control method that facilitates the transition"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up submission after achieving mount"
+      "name": "Americana",
+      "relationship": "Follow-up submission available after achieving mount"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission commonly attacked from mount"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission transition commonly attacked from mount"
     },
     {
       "name": "High Mount",
@@ -241,7 +241,7 @@
         "description": "Apply the transition in regular sparring against various body types and skill levels. Work to recognize the optimal timing windows instinctively without conscious thought. Chain the mount transition with submission attacks (americana, armbar, ezekiel) to create dilemmas. Study video of your own rolling to identify missed opportunities for the transition. Compete in tournaments and analyze when you successfully achieved mount from side control versus when you missed the opportunity."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary reason you must control opponent's near-side arm before attempting to step over to mount?",
         "answer": "The near-side arm represents opponent's strongest defensive frame that can directly block your leg from stepping over their body. If this arm is free and active, they can post it against your hip or chest, preventing the transition entirely and potentially creating space to recover guard. By controlling this arm through underhook, wrist control, or trapping, you eliminate their primary defensive barrier and create a clear path for your leg to step over."
@@ -380,7 +380,7 @@
         "correction": "Treat near-side arm protection as the highest priority in side control defense. Constantly fight to keep this arm active and positioned against their hip. If it gets trapped, immediately swim it free before they can capitalize on the isolation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest tactile cue that your opponent is about to attempt the side control to mount transition?",
         "answer": "The earliest cue is feeling their hips shift 6-12 inches toward your head while maintaining chest pressure. This hip walk is the preparatory movement that creates the angle needed for the step-over. It precedes all other visible indicators like arm isolation or leg movement. Training yourself to recognize this subtle weight shift allows you to launch defensive frames and hip movement before the step-over begins, dramatically increasing your defensive success rate."

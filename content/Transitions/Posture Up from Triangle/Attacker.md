@@ -188,6 +188,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Up from Triangle?</p>
+
 - Drive posture through hip extension rather than pulling head up with neck muscles—the posterior chain generates far more force than the cervical extensors
 - Establish connected grips behind opponent's hips before generating upward force to create a unified structural frame for posture recovery
 - Tuck chin to chest before and throughout posturing to minimize neck exposure and reduce effectiveness of the choking angle
@@ -202,6 +204,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Up from Triangle?</p>
+
 - Trapped in triangle control with one arm inside and one arm outside the opponent's leg configuration
 - Chin tucked to chest to protect neck and reduce immediate choking pressure before beginning escape
 - Connected grip established behind opponent's lower back or hips using Gable grip or S-grip
@@ -214,6 +218,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Up from Triangle step by step?</p>
 
 1. **Secure Connected Grip Behind Hips**: Before attempting any upward movement, connect both hands together behind your opponent's lower back or hips using a Gable grip (palm-to-palm) or S-grip. This connected grip creates a unified structural frame that distributes the force of your posture-up across your entire upper body rather than relying on individual arm strength. The grip placement at hip level is critical—too high allows the opponent to pull your head down more effectively, while proper hip-level placement gives you leverage to drive their hips away as you posture.
 2. **Tuck Chin and Align Spine**: Before generating upward force, tuck your chin firmly to your chest and bring your shoulders together to minimize the space between your neck and shoulder on the trapped side. This chin tuck reduces the effectiveness of the choking angle by limiting the arterial compression the opponent's legs can create. Simultaneously, engage your core and back extensors to prepare for the posture-up drive. This preparatory alignment is essential—attempting to posture without it results in neck-first extension that worsens the choke.
@@ -243,6 +249,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Up from Triangle?</p>
+
 - **Opponent pulls head down aggressively and extends hips to maximize choking pressure as you begin to posture** (Effectiveness: High) - Your Response: Maintain connected grip behind hips and focus entirely on hip drive rather than fighting the head pull directly—the posterior chain will overpower their pulling force if your grip and base are solid and you drive incrementally → Leads to [[Positions/Triangle Control]]
 - **Opponent adjusts angle by hip-walking to re-establish 30-45 degree position as you attempt to square up** (Effectiveness: High) - Your Response: Follow their angle adjustment by walking your knees laterally to match their hip movement, maintaining your squaring effort as an ongoing process rather than a one-time correction → Leads to [[Positions/Triangle Control]]
 - **Opponent isolates the trapped arm and begins transitioning to armbar during posture recovery** (Effectiveness: Medium) - Your Response: Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up—address the arm isolation by pushing their hip down with your free hand before resuming upward drive → Leads to [[Positions/Triangle Control]]
@@ -254,6 +262,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Up from Triangle?</p>
 
 ### 1. Pulling head backward using neck muscles instead of driving hips forward through posterior chain
 
@@ -293,6 +303,8 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Up from Triangle (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic posture recovery mechanics and grip placement
 Practice connected grip placement and hip drive motion against a partner with triangle locked at 30% resistance. Focus on chin tuck, Gable grip establishment behind hips, and the feeling of driving through the posterior chain rather than pulling with the neck. Complete 10 repetitions each side with emphasis on correct body mechanics.
 
@@ -313,42 +325,12 @@ Positional sparring starting in triangle control top. Attempt posture-up and all
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary force generation mechanism for the posture-up, and why is it more effective than using neck muscles?
-**A**: The primary force comes from the posterior chain through hip extension—glutes, hamstrings, and back extensors working together. This muscle group generates substantially more force than the cervical extensors and creates a structural advantage because the hip drive addresses the core control mechanism of the triangle rather than fighting the symptom. The posterior chain can produce hundreds of pounds of extension force versus the limited capacity of isolated neck muscles.
-
-**Q2**: Your opponent has a tight triangle locked and begins extending their hips for maximum pressure—should you attempt to posture up immediately?
-**A**: No. Attempting to posture against maximum hip extension and optimal angle is the lowest-percentage timing. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear.
-
-**Q3**: What connected grip options are available for the posture-up, and where should the grip be placed?
-**A**: The primary grip options are Gable grip (palm-to-palm), S-grip (fingers interlocked), and butterfly grip (overlapping fingers). The grip should be placed behind the opponent's lower back at hip level—not around their neck or upper back. Hip-level placement provides the best leverage for driving their hips away and gives direct mechanical advantage against their leg configuration. The connected grip is essential because it creates a unified structural frame distributing force across your entire upper body.
-
-**Q4**: During the posture-up, your opponent begins pulling your trapped arm across their body—what is the immediate response?
-**A**: Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up. The arm isolation indicates an armbar transition attempt, which takes priority over continuing posture recovery. Use your free hand to push their hip or leg down while keeping the elbow tight. Only resume the posture-up once you have secured the elbow position and prevented the arm from being pulled across. The armbar threat is immediate and must be addressed before continuing escape.
-
-**Q5**: Why is squaring your shoulders to the opponent's hips a critical step during posture recovery?
-**A**: The triangle choke achieves maximum pressure when the bottom player angles their body 30-45 degrees off your centerline, creating optimal compression geometry against the carotid arteries. Squaring your shoulders directly to their hips eliminates this angular advantage, reducing the effectiveness of the choke even before you achieve full posture height. Addressing the angle is as important as addressing the height—a squared position with moderate posture may be safer than full height with the opponent maintaining optimal angle.
-
-**Q6**: What body positioning adjustments maintain your base during the posture-up and prevent being swept?
-**A**: Keep your knees wide on the mat for a broad base, with weight centered between your knees rather than shifted to one side. Walk your knees forward incrementally to keep your hips under your shoulders as you drive upward—this prevents your center of gravity from moving behind your base. Avoid explosive upward jerking that shifts weight backward. Use controlled incremental gains that maintain balance throughout. If you feel balance compromising, pause and re-establish base before continuing.
-
-**Q7**: If the posture-up attempt stalls and you cannot gain further height, what chain options are available?
-**A**: If posture recovery stalls, chain into: stack defense by driving forward over the opponent to compress their triangle configuration and relieve pressure through forward stacking. Triangle clear to side by using partial posture gained to begin working laterally. Alternatively, the stall may indicate you have not adequately squared the angle or your grip has slipped—reset the grip and address angle before reattempting. The posture-up is one option in a complete triangle defense system, not an isolated technique.
-
-**Q8**: What is the most critical safety consideration when attempting to posture up from a tight triangle?
-**A**: The most critical safety consideration is recognizing when the choke is tight enough to cause unconsciousness and tapping before losing consciousness. A properly locked triangle with optimal angle and hip extension compresses the carotid arteries, and unconsciousness can occur in 4-8 seconds without warning signs. If you feel significant bilateral neck pressure, tunnel vision, lightheadedness, or visual changes, tap immediately. Never fight a fully locked triangle past the point of safety—the posture-up is an early-to-mid-stage escape, not a survival technique against a fully sunk choke.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Up from Triangle?</p>
 
 The triangle choke compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Always tap early if you feel significant bilateral neck pressure, tunnel vision, or lightheadedness. When drilling, communicate with your partner about pressure levels and establish clear tap signals. Never attempt to fight through a fully locked triangle with maximum pressure—recognize when the choke has progressed past the escape window and accept the tap. Training safety requires honest assessment of position severity and willingness to reset rather than risk injury or loss of consciousness.
 

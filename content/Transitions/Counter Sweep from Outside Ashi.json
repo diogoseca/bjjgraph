@@ -214,7 +214,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Sweep Mechanics",
+        "phase": "Phase 1: Kuzushi",
         "focus": "Hip drive and figure-4 fulcrum fundamentals",
         "description": "Practice the hip drive and sweeping motion from outside ashi-garami bottom with a cooperative partner holding static position. Focus on generating force through hip rotation rather than arms, maintaining figure-4 tightness during the sweep, and proper posting mechanics. Partner provides no resistance. Ten repetitions per side."
       },
@@ -234,7 +234,7 @@
         "description": "Positional sparring starting from outside ashi-garami bottom. Partner attempts escapes and counter-attacks at full speed while you integrate the counter sweep alongside heel hooks, ankle locks, and positional advancements. Develop the decision-making to choose between sweep, submission, and positional advancement based on what the opponent presents."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the counter sweep from outside ashi-garami?",
         "answer": "The optimal window opens when the opponent actively shifts their weight during an escape attempt—specifically when they rise to stand, drive forward to stack, or rotate their hip laterally to extract their leg. The sweep must be initiated during this movement phase because the weight displacement creates the off-balance necessary for the technique. Attempting the sweep from a static position against a balanced opponent yields minimal results because there is no exploitable weight shift to convert into sweeping momentum."
@@ -350,7 +350,7 @@
         "correction": "Maintain dual awareness of both escape progression and sweep defense—being swept to side control is a worse outcome than remaining in the entanglement, so anti-sweep defense takes priority over aggressive extraction"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from leg attacks to a sweep attempt?",
         "answer": "The earliest cue is a change in the opponent's arm activity—when they shift from controlling your heel or threatening submissions to freeing their arms and reaching toward the mat for a posting position or toward your upper body for a controlling grip. This arm repositioning precedes the hip drive by a critical window of time. Additionally, their hip angle may shift from a perpendicular submission-oriented position to a more forward-facing sweep-oriented alignment."
@@ -379,7 +379,7 @@
         "description": "Practice maintaining outside ashi-garami top position while partner executes slow-motion counter sweeps. Focus on recognizing the timing triggers—arm repositioning, hip elevation, grip changes—that precede the sweep. Do not attempt to defend yet, purely develop recognition of when the sweep is being initiated."
       },
       {
-        "phase": "Phase 2: Base Maintenance Under Sweep Pressure",
+        "phase": "Phase 2: Base Under Sweep Pressure",
         "focus": "Posting and sprawling mechanics during escape attempts",
         "description": "Partner attempts counter sweeps at moderate intensity while you practice posting, sprawling, and base adjustments without abandoning your escape sequence. Develop the ability to maintain both escape progression and anti-sweep base simultaneously. Focus on automatic posting responses to forward pressure."
       },

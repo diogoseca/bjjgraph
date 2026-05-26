@@ -164,6 +164,8 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bolo Sweep?</p>
+
 - Bottom player pulls aggressively with their collar or sleeve grip while simultaneously extending the De La Riva hook outward, creating a combined forward-and-lateral force on your base
 - Bottom player's hips begin rotating away from you (turning 30-45 degrees) while their free leg releases its frame on your hip, signaling imminent inversion underneath your base
 - You feel your weight being pulled forward and onto the De La Riva-hooked leg, with your opposite leg becoming unloaded as the attacker creates angular displacement
@@ -175,6 +177,8 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bolo Sweep?</p>
 
 - Keep your weight centered or slightly rearward over your base to deny the forward loading the Bolo requires for rotational initiation
 - Strip or neutralize the collar or sleeve grip before it can be used to pull your shoulders forward and down into the rotation path
@@ -189,6 +193,8 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bolo Sweep?</p>
 
 ### 1. Sit your hips back and lower your base to deny forward weight commitment while stripping the collar or sleeve grip
 
@@ -226,6 +232,8 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bolo Sweep?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Deny the inversion before it begins by sitting your hips back to prevent forward weight loading and stripping the collar or sleeve grip that powers the pulling force. This resets the attacker to standard De La Riva guard without the angular displacement needed for the Bolo, allowing you to resume your passing strategy from a neutral guard engagement.
@@ -241,6 +249,8 @@ When the attacker commits to the inversion, drive forward with smash pressure wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bolo Sweep?</p>
 
 ### 1. Leaning forward with weight over your toes while in De La Riva guard, feeding the attacker the exact weight distribution the Bolo requires
 
@@ -270,6 +280,8 @@ When the attacker commits to the inversion, drive forward with smash pressure wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bolo Sweep?</p>
+
 **Week 1-2: Recognition and Base Positioning** - Identifying Bolo setups and maintaining correct defensive base
 Partner establishes De La Riva guard and slowly sets up Bolo grips and angles without completing the inversion. Practice identifying the combined hook-and-grip pull, the angular displacement of your weight, and the moment the partner's hips begin rotating. Drill maintaining hips-back posture and centered base alignment. Partner provides feedback on when they felt the Bolo entry was available versus denied.
 
@@ -286,29 +298,6 @@ Open positional sparring from De La Riva guard with full resistance. Partner use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Bolo Sweep is being set up from De La Riva guard?
-**A**: The earliest cue is the attacker pulling aggressively with their collar or sleeve grip while simultaneously extending the De La Riva hook outward, creating a combined forward-and-lateral force on your base. This combined pull displaces your weight onto the hooked leg and creates the angular opening the attacker needs for inversion. Early detection is critical because the Bolo becomes exponentially harder to defend once the rotation has started. Before the inversion, you can strip grips, sit hips back, or backstep to remove the hook. Once the attacker is spinning underneath, your defensive options narrow significantly.
-
-**Q2**: Why is stripping the upper body grip typically more important than removing the De La Riva hook when defending the Bolo?
-**A**: The collar or sleeve grip provides the forward pulling force that initiates the rotation and displaces your weight onto the hooked leg. Without this grip, the attacker cannot pull your shoulders down and forward to create the angular displacement needed for inversion entry. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the combined forward-and-lateral force required for the Bolo's rotational mechanics. Stripping the upper body grip neutralizes the Bolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can redirect into Kiss of the Dragon or other inversion entries.
-
-**Q3**: Your opponent begins their Bolo rotation and is approximately halfway through the spin underneath you - what is your highest percentage response?
-**A**: At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination collapses the space the attacker needs to complete the rotation and keeps your chest facing their body to prevent back exposure. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect. The combination of both movements simultaneously is what makes this defense effective. Upon successfully stopping the rotation, immediately transition to a passing sequence rather than resetting to neutral.
-
-**Q4**: How should your defensive response change when facing a Kiss of the Dragon combination versus a standard Bolo?
-**A**: The Kiss of the Dragon attacks from the opposite direction - the attacker releases the DLR hook and spins through to the far side rather than rotating around the hooked leg. Against the standard Bolo, sitting your hips back denies forward weight loading and is an effective early defense. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through underneath you. The correct defense against Kiss of the Dragon is to drive forward with pressure and close distance to prevent the spin-through, and to protect the far side of your back since the attack vector is reversed. Recognizing which direction the attacker is rotating determines your entire defensive approach.
-
-**Q5**: What passing opportunities become available after successfully defending a committed Bolo attempt?
-**A**: A failed Bolo leaves the attacker in a compromised guard position - partially inverted, with disrupted hip position and potentially broken grips. Immediate passing opportunities include smash passing over their flattened hips to side control, leg drag passing by controlling the legs that are displaced from the failed inversion, toreando passing while they are still recovering guard structure, and backstep passing to the opposite side of their compromised DLR hook. The critical principle is to attack the pass immediately rather than allowing them to recover to standard De La Riva guard. The 2-3 second window after a failed Bolo represents the highest percentage passing opportunity from the De La Riva engagement.
-
-
-
-</section>
 
 
 </main>

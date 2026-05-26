@@ -188,6 +188,8 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pull Guard from Combat Base?</p>
+
 - Establish upper body control before attempting guard closure — collar and sleeve grips in gi, head and wrist control in no-gi create the pulling leverage needed to compromise combat base posture
 - Break opponent's combat base posture by combining arm pulls with heel pressure into their lower back, creating opposing forces that collapse their structural alignment
 - Use diagonal hip escapes to close distance and create wrapping angles rather than pulling opponent down from a flat position
@@ -202,6 +204,8 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pull Guard from Combat Base?</p>
+
 - At least one controlling grip on opponent's upper body established — collar, sleeve, lapel, head, or wrist
 - Hips positioned close enough to opponent's waist to wrap legs within one hip escape movement
 - Feet actively engaged with opponent's body on hips, inside thighs, or framing against their legs rather than flat on mat
@@ -214,6 +218,8 @@ As the attacker executing the guard pull from combat base, your objective is to 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pull Guard from Combat Base step by step?</p>
 
 1. **Establish primary grips on opponent's upper body**: Grab opponent's cross collar with your dominant hand, threading fingers deep inside the lapel for maximum pulling leverage. With your other hand, grip their same-side sleeve at the wrist or elbow. In no-gi, control behind the head with one hand and the opponent's wrist with the other. These grips form the foundation for all subsequent posture breaking and distance closing actions.
 2. **Break opponent's combat base posture with combined forces**: Pull your collar grip downward and toward your chest while simultaneously driving both heels into the opponent's lower back or hip crease. The combined pulling force from your arms and pushing force from your legs creates opposing vectors that collapse the combat base alignment, bringing the opponent's weight forward over your hips and reducing the distance your legs need to travel for guard closure.
@@ -243,6 +249,8 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pull Guard from Combat Base?</p>
+
 - **Opponent stands up explosively to break distance and deny guard closure** (Effectiveness: High) - Your Response: Switch immediately to feet-on-hips open guard, then transition to de la riva or shin-to-shin hooks before re-attempting guard closure from the new angle → Leads to [[Positions/Combat Base]]
 - **Opponent posts hand on mat and drives hips backward to create separation** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your own hip escape, maintaining grip tension throughout; re-attempt closure from the new angle or threaten a hip bump sweep to force them forward again → Leads to [[Positions/Combat Base]]
 - **Opponent strips your primary collar grip aggressively before you can break posture** (Effectiveness: Medium) - Your Response: Immediately establish an alternative grip such as cross sleeve control, lapel wrap around their bicep, or underhook on the near arm before they can fully posture up → Leads to [[Positions/Combat Base]]
@@ -254,6 +262,8 @@ As the attacker executing the guard pull from combat base, your objective is to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pull Guard from Combat Base?</p>
 
 ### 1. Reaching for upper body grips without establishing foot contact on opponent's hips first
 
@@ -293,10 +303,12 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pull Guard from Combat Base (Attacker)?</p>
+
 **Phase 1: Guard Closure Mechanics** - Basic movement pattern without resistance
 Practice the guard closure motion with compliant partner in combat base. Focus on hip escape distance, leg wrapping sequence, and ankle locking position. Partner provides no resistance. Perform 50 repetitions alternating sides to develop muscle memory for the fundamental movement pattern.
 
-**Phase 2: Grip Establishment and Posture Breaking** - Setting up the guard pull with grips
+**Phase 2: Grip Establishment and Posture** - Setting up the guard pull with grips
 Add grip fighting to the sequence. Practice establishing collar and sleeve grips against moderate resistance, breaking posture with combined arm and leg pressure, then closing guard. Partner defends grips at 40-50% intensity. Focus on the connection between upper body control and successful guard closure.
 
 **Phase 3: Timing and Reactions** - Dynamic application against active resistance
@@ -313,48 +325,12 @@ When guard pull fails, chain into alternative positions such as butterfly guard,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal ankle crossing position when closing guard from combat base bottom?
-**A**: Cross ankles at the small of the opponent's lower back, approximately at the level of their sacrum or just above the belt line. This position creates maximum leverage for posture control because your heels can drive into their lower back while your thighs generate lateral pressure on their torso. Crossing too high reduces hip control and creates space for guard opening, while crossing too low provides weak leverage that the opponent can power through with hip extension.
-
-**Q2**: Your opponent in combat base posts their hands on your hips to create distance — how do you adjust your guard pull approach?
-**A**: Use your feet to hook inside their elbows and push their arms outward, breaking their posting structure. Alternatively, control one posting wrist with your hand and perform a hip escape to the opposite side, eliminating the post on that side. Once one post is compromised, immediately pull them forward with your established grip and begin wrapping your legs. Remove posts one at a time rather than fighting both simultaneously, as splitting their base sequentially is far more effective than matching their structural strength directly.
-
-**Q3**: What are the primary grip configurations for setting up a guard pull from combat base bottom in the gi?
-**A**: The two highest-percentage configurations are: first, cross-collar grip with same-side sleeve grip — the collar enables powerful posture breaking while the sleeve prevents the opponent from posting to resist; second, same-side collar and pant grip at the knee — the collar controls posture while the pant grip disrupts the opponent's base by manipulating their posted or planted leg. Both configurations use the principle of controlling upper and lower body simultaneously to compromise structural integrity.
-
-**Q4**: Your opponent begins a knee slice pass just as you are attempting to close your guard — what is your immediate response?
-**A**: Abandon the guard closure attempt and address the pass immediately. Frame your inside forearm against their slicing knee to prevent it from completing the pass. Simultaneously hip escape away from the passing direction to create space. Use your bottom leg to establish a knee shield between you and the opponent's torso. From knee shield half guard, you can either re-attempt guard closure or work the half guard game. Never continue a guard pull when an active pass is in progress — defensive priorities take precedence.
-
-**Q5**: What hip movement generates the most effective distance closure for wrapping your legs around the opponent?
-**A**: The diagonal hip escape toward the side of your primary grip creates the most effective distance closure. Unlike a straight backward hip escape that moves you away from the opponent, the diagonal escape angles your body approximately thirty degrees while bringing your hips underneath and closer to the opponent's waist. This movement simultaneously creates the wrapping angle needed for leg closure and reduces the distance between your hips and their waist. Follow the hip escape by walking your feet up their body from hip to lower rib level.
-
-**Q6**: Your opponent strips your collar grip and immediately drives their hips back to create distance — how do you prevent losing position?
-**A**: Immediately re-establish connection through your feet by placing both feet on their hip bones, creating a frame that prevents them from backing away completely. With foot-on-hip control secured, reach for an alternative grip such as cross sleeve control, lapel wrap around their arm, or underhook if they lean forward. The critical principle is maintaining at least one point of contact at all times during the guard pull process. Your feet serve as the backup connection that allows you to continue working even when upper body grips are stripped.
-
-**Q7**: What is the most critical timing window for closing guard against a combat base player?
-**A**: The highest-percentage timing window occurs during the opponent's weight shift when they transition between passing options or change their lead leg in combat base. When they lift their planted foot to switch sides or shift forward to initiate a pass, their structural base is momentarily weakened and their weight moves in an exploitable direction. Pull them forward during this transition using your established grips while simultaneously wrapping your legs. Secondary windows include grip transitions when they release one grip to establish another and posture adjustments when they look down or shift their hips.
-
-**Q8**: In no-gi, what grip substitutions maintain guard pull effectiveness without collar and sleeve control?
-**A**: Replace collar grip with a two-on-one arm control or a cross-face grip behind the head, pulling the opponent's head down to break posture. Replace sleeve grip with wrist control or an overhook on the near arm. The head-and-arm combination is particularly effective because it controls posture and one arm simultaneously, mimicking the collar-sleeve dynamic. Alternatively, use a butterfly hook with an underhook to control the near arm while your other hand controls behind the neck, creating the same dual-control system needed for effective guard closure.
-
-**Q9**: How do you chain a failed guard pull into an offensive sweep attempt rather than simply returning to combat base bottom?
-**A**: When the guard pull fails because the opponent postures back up, immediately transition to a hip bump sweep by sitting up explosively toward their posted side while maintaining your grip. The momentum from the failed guard pull often creates an advantageous angle for the hip bump. Alternatively, if the opponent drives forward to prevent your guard closure, use their forward pressure for a butterfly hook sweep by inserting a hook and elevating. Treat the failed guard pull as the first action in a combination chain rather than an isolated technique.
-
-**Q10**: What role do your feet play before and during the guard closure sequence?
-**A**: Your feet serve three sequential functions: first, they create initial contact and distance control by posting on the opponent's hip bones, establishing the physical connection needed to influence their posture. Second, during posture breaking, your feet push against their hips while your grips pull, creating opposing forces that compromise their structural alignment. Third, during the actual closure, your feet walk progressively up the opponent's body from hips to lower ribs, wrapping your legs in a controlled spiral rather than attempting a sudden jump. Throughout the entire sequence, at least one foot maintains active contact with the opponent's body to prevent them from disengaging completely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pull Guard from Combat Base?</p>
 
 Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance.
 

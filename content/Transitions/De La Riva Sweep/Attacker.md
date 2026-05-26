@@ -186,6 +186,8 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing De La Riva Sweep?</p>
+
 - Maintain strong De La Riva hook with foot positioned deep behind opponent's knee
 - Control opponent's sleeve on the same side as the hook to prevent posting
 - Use opposite leg to create pushing or framing pressure on opponent's hip or knee
@@ -201,6 +203,8 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting De La Riva Sweep?</p>
+
 - De La Riva Guard established with hook deep behind opponent's near leg
 - Strong sleeve grip on same side as De La Riva hook to prevent posting
 - Collar grip, belt grip, or pants grip with opposite hand for control
@@ -214,6 +218,8 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute De La Riva Sweep step by step?</p>
 
 1. **Establish De La Riva Guard**: From open guard, insert your right leg behind opponent's left leg with your foot hooking deep behind their knee. Your shin should be tight against the back of their leg. Simultaneously grab their left sleeve with your left hand and establish a collar or belt grip with your right hand.
 2. **Control opponent's posture**: Pull down on the collar or belt grip to break opponent's posture forward while maintaining tight sleeve control. Your left foot should be on their right hip creating a frame. This creates the foundational control structure necessary for the sweep.
@@ -242,6 +248,8 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter De La Riva Sweep?</p>
+
 - **Opponent steps back with hooked leg to relieve pressure** (Effectiveness: High) - Your Response: Follow their movement by extending your body forward, transition to X-Guard or Single Leg X-Guard, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take → Leads to [[Positions/De La Riva Guard]]
 - **Opponent posts with free hand to block the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a triangle setup, switch to opposite side sweep, or transition to omoplata when they post → Leads to [[Positions/De La Riva Guard]]
 - **Opponent jumps over the De La Riva hook to pass** (Effectiveness: Medium) - Your Response: Retract hook and transition to Reverse De La Riva Guard, or use their momentum to invert and take the back → Leads to [[Positions/De La Riva Guard]]
@@ -253,6 +261,8 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing De La Riva Sweep?</p>
 
 ### 1. De La Riva hook positioned too shallow or not behind knee
 
@@ -292,10 +302,12 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train De La Riva Sweep (Attacker)?</p>
+
 **Week 1-2: Guard Establishment** - Developing proper De La Riva Guard structure and grip control
 Practice establishing the De La Riva hook position from various open guard scenarios. Drill grip fighting sequences to secure sleeve and collar controls. Work on maintaining the guard against light pressure without attempting sweeps yet.
 
-**Week 3-4: Isolated Sweep Mechanics** - Learning the mechanical components of the sweep
+**Week 3-4: Isolated Kuzushi** - Learning the mechanical components of the sweep
 Partner remains stationary on knees while you practice the sweeping motion slowly. Focus on hook extension, grip coordination, and hip rotation. Perform 20-30 repetitions per training session to develop muscle memory.
 
 **Week 5-8: Dynamic Drilling** - Executing sweep against moving opponent with light resistance
@@ -315,48 +327,12 @@ Integrate multiple sweep variations, submission attacks, and back take options f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical lever that generates sweeping force in the De La Riva Sweep?
-**A**: The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls.
-
-**Q2**: Why is controlling the opponent's sleeve on the same side as the De La Riva hook essential for sweep success?
-**A**: Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance.
-
-**Q3**: How should you respond if your opponent steps back with their hooked leg to defend the De La Riva Sweep?
-**A**: When opponent steps back, you should follow their movement by extending your body forward and transition to alternative attacks such as X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Attempting to force the original sweep against this counter is ineffective and wastes energy.
-
-**Q4**: What role does the opposite leg (non-hook leg) play in executing an effective De La Riva Sweep?
-**A**: The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep.
-
-**Q5**: Explain the optimal timing window for initiating the De La Riva Sweep?
-**A**: The optimal timing is when the opponent commits weight forward while attempting to pass, or when they step with their far leg creating momentary base compromise. Attempting the sweep when opponent's weight is back or they maintain heavy static pressure results in low success rates. Reading weight distribution and capitalizing on movement transitions is key.
-
-**Q6**: What are three common transitions if the De La Riva Sweep attempt is countered or fails?
-**A**: Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X-Guard when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position.
-
-**Q7**: Your opponent strips your collar grip mid-sweep but you still have the sleeve and the DLR hook - how do you adjust?
-**A**: Without the collar grip, redirect your free hand to grab their far knee or pants at the ankle to prevent them from posting with their far leg. You can also reach behind their near ankle with your free hand to create a two-on-one leg control that makes the sweep even more powerful, essentially trapping their base leg while the hook and sleeve control handle the near side.
-
-**Q8**: In what direction should the primary sweeping force be applied relative to your opponent's body?
-**A**: The sweeping force should be applied diagonally across the opponent's body, toward the side of the hooked leg and slightly backward. The hook extends to elevate their near leg while the grips pull them laterally and downward in the opposite direction, creating a rotational torque that rolls them over their compromised base. The force vector is not straight sideways but angled to exploit the weakest line of their stance.
-
-**Q9**: Your opponent bases wide with both legs and lowers their hips to resist the sweep - what grip adjustment creates a new attacking angle?
-**A**: Switch your collar grip to a belt grip or reach behind to grab their far pants at the knee. This deeper grip allows you to pull them forward over your body rather than sweeping laterally. Combined with elevating your hips and extending both legs, you can convert to a balloon sweep or waiter sweep that attacks their base from underneath rather than from the side, exploiting the forward direction where their wide base is most vulnerable.
-
-**Q10**: What specific grip configuration gives the highest percentage De La Riva Sweep in gi competition?
-**A**: The highest percentage configuration is a same-side sleeve grip (controlling the wrist of the leg you are hooking) combined with a cross collar grip with the opposite hand. The sleeve grip eliminates their strongest posting defense while the collar grip controls posture and provides pulling power. This two-grip system creates maximum control because it addresses both the upper and lower body simultaneously, giving you leverage at two distant points on their frame.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for De La Riva Sweep?</p>
 
 The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.
 

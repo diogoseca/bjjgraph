@@ -167,6 +167,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ## Position Definition
 
+<p class="section-subtitle">What is Knee Shield Half Guard (Top)?</p>
+
 - Top player's torso facing bottom player with knee shield shin across chest/abdomen, creating defensive barrier that prevents chest-to-chest connection and forward advancement
 - Bottom player has one leg trapped between top player's legs (half guard structure) while other leg creates active frame with shin positioned horizontally across top player's centerline
 - Top player maintains base with knees on mat on either side of bottom player's hips, weight distributed to prevent being swept while applying strategic pressure to collapse or redirect knee shield
@@ -178,6 +180,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Knee Shield Half Guard (Top)?</p>
 
 - Opponent has established knee shield frame from half guard bottom position
 - Top player has secured at least one grip on opponent's upper body or pants
@@ -191,6 +195,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Knee Shield Half Guard?</p>
 
 - Control opponent's knee shield leg at ankle or pants to limit mobility and frame strength
 - Maintain proper base with knees wide to prevent hip bump and underhook sweeps
@@ -206,6 +212,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Knee Shield Half Guard (Top)?</p>
 
 **If opponent has strong knee shield with upper body control and underhook threat:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -234,6 +242,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Knee Shield Half Guard?</p>
 
 ### 1. Driving straight into knee shield with chest creating perfect defensive frame
 
@@ -273,6 +283,8 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Knee Shield Half Guard attacks?</p>
+
 ### Knee Shield Collapse Drill
 
 Bottom player maintains knee shield while top player practices collapsing the frame using shoulder pressure and ankle control. Top player works through proper angling and weight distribution to systematically break down the shield structure. Start with 50% resistance and gradually increase. Focus on maintaining base while applying progressive pressure.
@@ -287,7 +299,7 @@ Start in knee shield half guard top. Top player chains together knee slice, smas
 **Duration**: 6 minutes continuous flow
 
 
-### Grip Fighting Battle Drill
+### Grips Battle Drill
 
 Both players focus exclusively on establishing dominant grips from knee shield top position. Top player works for crossface and ankle control while bottom player fights for underhook and collar grips. Reset after one player achieves dominant control position. Develops grip fighting awareness and hand speed specific to knee shield battles.
 
@@ -305,38 +317,6 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent is pushing their knee shield strongly into your chest. What adjustment should you make?
-**A**: Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself.
-
-**Q2**: What are the essential grips for maintaining pressure while passing the knee shield?
-**A**: The crossface grip controlling opponent's head and near shoulder is primary, preventing them from turning into you or establishing frames. Secondary grip should control the knee shield leg at the ankle, knee, or pants to limit shield mobility. For gi, collar and pants grips provide excellent control. In no-gi, underhook on far side and wrist control on near side prevent their offensive grip establishment.
-
-**Q3**: How do you shut down the opponent's underhook attempt from bottom knee shield?
-**A**: Maintain heavy crossface pressure driving your shoulder into their jaw to prevent them from turning their shoulder up to create underhook space. Control their near arm with an overhook or wrist grip. If they begin threading their arm through, immediately whizzer their underhook attempt while driving your weight forward. Never allow space between your chest and their shoulder on the near side.
-
-**Q4**: What grip priorities should you establish when entering knee shield top position?
-**A**: First priority is crossface control to neutralize upper body mobility and underhook threats. Second is controlling the knee shield leg to limit frame adjustments. Third is far hip control to prevent hip escape and re-guard attempts. In gi, collar grip plus pants grip on shield leg creates excellent control. In no-gi, underhook plus head control accomplishes similar objectives.
-
-**Q5**: How do you apply pressure effectively without overcommitting and getting swept?
-**A**: Apply pressure in waves rather than constant maximum pressure. Drive weight through your shoulder into their upper chest, not directly into the knee shield. Keep your base wide with knees on either side of their hips. Distribute weight so you can post quickly if they attempt sweeps. Never fully extend your legs or bring knees together—maintain a tripod-like base that allows quick recovery.
-
-**Q6**: Your opponent starts to hip escape during your pass attempt—what immediate adjustment do you make?
-**A**: Immediately control their far hip with your free hand, blocking their hip escape motion. Drive your weight forward and down toward their upper body while maintaining crossface. Switch your passing angle to follow their hip movement rather than fighting against it. If they create significant space, consider transitioning to a different pass like the long step that capitalizes on the angle they've created.
-
-**Q7**: How do you manage energy when facing a persistent knee shield that won't collapse?
-**A**: Avoid burning energy pushing directly into a strong shield. Instead, create multiple angles of attack forcing them to constantly readjust. Use pressure waves—apply heavy pressure, release slightly to bait reactions, then capitalize on their adjustments. Switch between knee slice threats, smash pass setups, and long step opportunities. The goal is making them expend energy adjusting while you conserve energy through efficient positioning.
-
-**Q8**: Your opponent partially escapes and recovers their knee shield after you nearly passed—how do you recover?
-**A**: Immediately re-establish crossface control before they can optimize their shield position. Control their near arm to prevent underhook re-establishment. Don't abandon position—consolidate what you have before restarting the pass sequence. Address any grip they established during the scramble. Reset your base with knees wide, then systematically work to collapse the recovered shield using the same methodical approach.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

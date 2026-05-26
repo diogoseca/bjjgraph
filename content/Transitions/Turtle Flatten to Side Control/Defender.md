@@ -164,6 +164,8 @@ The most critical defensive window occurs between the attacker establishing thei
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle Flatten to Side Control?</p>
+
 - Attacker shifts from behind-center chest pressure to angled pressure at 45 degrees on your near shoulder, indicating they are setting the drive angle for the lateral flatten
 - Attacker's near hand drops from upper body control to grip your far hip, belt, or waistband — this hip grip is the primary anchor for the flatten direction
 - Attacker walks their near knee tight against your near hip, creating a wedge contact point that signals imminent lateral drive into your base
@@ -177,6 +179,8 @@ The most critical defensive window occurs between the attacker establishing thei
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Turtle Flatten to Side Control?</p>
+
 - Recognize the flatten setup early by monitoring the attacker's grip changes, knee positioning, and pressure angle shifts before they commit to the drive
 - Maintain a tight, compact turtle with elbows glued to knees and rounded back to maximize structural resistance against lateral pressure
 - Stay in constant motion — a static turtle is significantly easier to flatten than one that is shifting weight, changing angles, and threatening escapes
@@ -189,6 +193,8 @@ The most critical defensive window occurs between the attacker establishing thei
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle Flatten to Side Control?</p>
 
 ### 1. Granby roll away from the flatten direction as the attacker initiates the lateral drive, using their committed momentum to create space for inversion and guard recovery
 
@@ -226,6 +232,8 @@ The most critical defensive window occurs between the attacker establishing thei
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle Flatten to Side Control?</p>
+
 ### → [[Positions/Turtle]]
 
 Deny the flatten by fighting the attacker's hip grip early, maintaining constant motion to prevent them from settling their drive angle, and executing a standup or re-turtling when they abandon the flatten attempt. The attacker returns to standard turtle top without having advanced position, and you retain your defensive structure with escape options intact.
@@ -241,6 +249,8 @@ If the flatten succeeds partially and you are driven onto your side or belly, im
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle Flatten to Side Control?</p>
 
 ### 1. Remaining completely static in turtle without any movement or grip fighting when the attacker begins setting up the flatten
 
@@ -275,6 +285,8 @@ If the flatten succeeds partially and you are driven onto your side or belly, im
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle Flatten to Side Control?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner drills the flatten setup slowly from turtle top while you focus exclusively on identifying the recognition cues: the hip grip change, knee wedge positioning, and pressure angle shift. No defensive responses yet — simply verbalize what you feel at each stage of the setup. Build proprioceptive awareness of the flatten sequence to develop automatic recognition in live training.
 
@@ -291,29 +303,6 @@ Full resistance positional sparring starting in turtle bottom against partners w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a turtle flatten rather than a back take?
-**A**: The earliest cue is the attacker's near hand dropping from upper body control (seatbelt or collar grip) to grip your far hip, belt, or waistband. Back take setups prioritize maintaining upper body harness control and inserting hooks, while the flatten requires a hip anchor grip to direct the lateral drive. Additionally, the attacker walks their near knee tight against your near hip as a wedge, which is unnecessary for back take entries. Recognizing this grip change gives you the maximum window to respond before the drive begins.
-
-**Q2**: You feel the attacker's weight shifting laterally and their knee driving into your near hip — what is the highest-percentage defensive response?
-**A**: The highest-percentage response depends on timing. If you catch the shift early before full commitment, the granby roll away from the flatten direction is most effective because it uses the attacker's lateral momentum against them and can lead directly to guard recovery. If the drive has already begun and you feel your base collapsing, the sit-through to the opposite side is higher percentage because it requires less hip elevation than the granby and exploits the gap the attacker creates behind them by committing weight forward. If you are already being driven flat, immediately default to knee insertion for half guard recovery.
-
-**Q3**: Why is fighting the attacker's hip grip more important than fighting their upper body control when defending the flatten?
-**A**: The hip grip is the directional anchor for the entire flatten mechanic. Without the hip grip, the attacker cannot control which direction the lateral drive collapses your base and cannot prevent you from rolling away from the pressure. Upper body control alone is insufficient for the flatten because it does not provide the rotational force needed to collapse the four-point base laterally. By stripping or preventing the hip grip, you remove the attacker's ability to execute the flatten regardless of their upper body positioning, forcing them to either re-establish the grip or abandon the flatten for a different attack.
-
-**Q4**: Your granby roll attempt fails and the attacker follows your rotation — what position are you likely in and how do you recover?
-**A**: A failed granby where the attacker follows typically results in them establishing a harness or seatbelt grip on your back during your rotation, potentially with partial hook insertion. You are now in a worse position than the original turtle because the attacker has progressed toward back control. Recovery requires immediate hand fighting to strip the choking hand grip, preventing the opponent from locking a rear naked choke. Simultaneously, work to remove any hooks that were inserted during the follow by kicking your legs free. Turn into the opponent toward the underhook side to begin working toward guard recovery rather than continuing to roll, which only exposes your back further.
-
-**Q5**: What structural adjustment makes your turtle base most resistant to the lateral flatten?
-**A**: Dropping your hips low and widening your knees while maintaining elbows tight to the inside of your knees creates maximum lateral resistance. A low, wide base distributes the attacker's lateral force across a broader surface area, requiring significantly more force to collapse. Additionally, keeping your weight centered rather than shifted to either side prevents the attacker from finding a weaker structural axis. However, this wide-and-low position sacrifices some mobility for stability, so it should be used as a momentary defensive structure while you plan your escape, not as a permanent posture that allows the attacker to reset and try alternative attacks.
-
-
-
-</section>
 
 
 </main>

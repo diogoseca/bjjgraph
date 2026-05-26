@@ -162,6 +162,8 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar from Crucifix?</p>
+
 - Attacker's hand shifts from your neck or collar area to your wrist or forearm, indicating they are abandoning the choke for an arm attack
 - Attacker begins walking their hips toward your head, changing their body angle from parallel to perpendicular relative to your arm
 - Pressure from the choke threat suddenly decreases as the attacker redirects their offensive focus to the arm
@@ -174,6 +176,8 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar from Crucifix?</p>
 
 - Recognize the transition from choke threat to armbar attack immediately—the attacker's hand moving from your neck to your wrist signals the shift
 - Retract the free arm toward your body the instant the choke threat diminishes, eliminating the armbar target before the attacker can establish wrist control
@@ -188,6 +192,8 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar from Crucifix?</p>
 
 ### 1. Immediately retract free arm and clasp hands together in a ball defense
 
@@ -225,6 +231,8 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar from Crucifix?</p>
+
 ### → [[Positions/Back Control]]
 
 Time a bridge and hip bump during the attacker's transition phase when they are repositioning their hips for the armbar angle. The hip walk loosens the leg triangle momentarily—use this window to turn toward the attacker and extract the trapped arm, collapsing the crucifix into standard back control where both arms are available for defense.
@@ -236,6 +244,8 @@ Time a bridge and hip bump during the attacker's transition phase when they are 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar from Crucifix?</p>
 
 ### 1. Extending the free arm to push the attacker away when feeling the armbar setup
 
@@ -265,6 +275,8 @@ Time a bridge and hip bump during the attacker's transition phase when they are 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar from Crucifix?</p>
+
 **Phase 1: Recognition Training** - Identifying the choke-to-armbar transition
 Partner establishes crucifix and alternates between choke and armbar attempts at slow speed. Defender practices identifying the transition cues: hand moving to wrist, hip repositioning, choke pressure decreasing. Call out each transition verbally as you recognize it. Build automatic pattern recognition before adding any defensive movement.
 
@@ -281,29 +293,6 @@ Start from established crucifix with partner flowing between choke and armbar th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you feel the attacker transitioning from choke to armbar in the crucifix?
-**A**: Immediately retract the free arm toward your body, bending the elbow and tucking it tight against your ribs. The attacker's transition from choke to armbar requires them to capture your wrist—if the arm is already retracted before they establish grip, the armbar attempt fails at its earliest stage. Do not wait to confirm the armbar attack; respond to the first recognition cue by pulling the arm in preemptively.
-
-**Q2**: Why is it dangerous to extend your arm to push away the attacker during a crucifix armbar attempt?
-**A**: Extending your arm straightens the elbow, which is exactly the configuration the attacker needs for the armbar finish. You are essentially completing the attacker's work by providing a straight arm for hyperextension. The push creates no meaningful distance because the crucifix leg triangle anchors the attacker to your body. Instead of creating space, you are feeding the submission. Always pull the arm in rather than pushing out.
-
-**Q3**: When is the optimal window for the defender to attempt disruption during the crucifix armbar sequence?
-**A**: The optimal window occurs during the attacker's hip repositioning phase—when they walk their hips toward your head to create the armbar angle. During this transition, their leg triangle often loosens slightly as their body shifts, and their weight distribution changes as they rebalance. This brief period of reduced control is your best opportunity to bridge, turn, or extract the trapped arm. Once the attacker has completed the repositioning and established the armbar configuration, defensive options decrease dramatically.
-
-**Q4**: How do you use body rotation to defend the armbar from crucifix?
-**A**: Rotate your body toward the attacker by bridging and turning into the trapped arm side. This rotation serves multiple purposes: it disrupts the perpendicular angle the attacker needs for the armbar, it creates slack in the leg triangle that may allow arm extraction, and it changes the force vector so hip extension no longer targets the elbow joint directly. The key is timing the rotation during the attacker's transition rather than after the armbar is fully established.
-
-**Q5**: Your attacker has captured your wrist and is beginning to straighten your arm—what is your defensive priority?
-**A**: Your immediate priority is preventing full arm extension by bending the elbow against the attacker's grip. Use your shoulder and bicep to curl the arm in while simultaneously grip fighting on the wrist to strip or rotate the attacker's hold. Combine this with hip movement to change the angle. If you cannot prevent extension, clasp your own hands together for additional resistance. If the arm becomes fully extended with the attacker's legs clamped, the position is nearly finished—prioritize disrupting the position through bridging before the hip drive completes the hyperextension.
-
-
-
-</section>
 
 
 </main>

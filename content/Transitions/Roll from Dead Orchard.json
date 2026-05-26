@@ -83,7 +83,7 @@
       "relationship": "Related escape pathway from dead orchard control"
     },
     {
-      "name": "Dead Orchard to Anaconda Finish",
+      "name": "Anaconda Choke from Dead Orchard",
       "relationship": "Submission threat that motivates this escape attempt"
     },
     {
@@ -103,8 +103,8 @@
       "relationship": "Common preceding position before dead orchard is established"
     },
     {
-      "name": "Anaconda Finish from Dead Orchard",
-      "relationship": "Primary submission threat that makes this escape critical"
+      "name": "Anaconda Control to Dead Orchard Control",
+      "relationship": "Transition into dead orchard that creates the situation requiring this escape"
     }
   ],
   "attacker": {
@@ -253,7 +253,7 @@
         "description": "Start in established dead orchard control bottom with partner at full resistance. Bottom player works all escape options including the roll with genuine timing and commitment. Top player works to finish or advance. Track success rates across rounds to measure improvement. 6 rounds of 90 seconds with full reset between rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you roll toward the choking arm side rather than away from it?",
         "answer": "Rolling toward the choking arm side disrupts the circular compression angle of the anaconda grip. The anaconda choke works by creating circular pressure around the neck and trapped arm toward the far shoulder. Rolling toward the choking arm reverses this compression direction, breaking the structural alignment needed for the blood choke. Rolling away from the choking arm actually tightens the grip because the rotation reinforces the choke's compression angle."
@@ -370,7 +370,7 @@
         "correction": "When sprawling to block the roll, maintain heavy chest-to-back contact while driving hips back. The chest pressure prevents posture recovery while the hip sprawl removes the rotational axis"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What subtle body movements from the bottom player indicate they are setting up a roll escape?",
         "answer": "The key recognition cues are a hip shift toward the choking arm side as they load the rotation direction, the free hand transitioning from defensive neck framing to posting palm-down on the mat in the roll direction, and the near knee sliding slightly forward to establish the rotational axis. These setup movements typically occur 1-2 seconds before the explosive roll commitment, giving the alert defender time to adjust weight distribution and sprawl to deny the escape."

@@ -194,6 +194,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Double Jump to Side Control?</p>
+
 - Establish and maintain dominant crossface or seatbelt control as the primary anchor before initiating any hook extraction to prevent defensive scrambles
 - Extract hooks sequentially from far-side first to near-side, ensuring at least one lower body control point remains active at every moment during the transition
 - Walk hips laterally around the opponent's body using small controlled steps rather than large jumping movements that create momentary gaps in pressure
@@ -208,6 +210,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Double Jump to Side Control?</p>
+
 - Bilateral leg hooks established inside opponent's thighs from Double Jump Top position with feet controlling hip positioning
 - Upper body control secured through deep crossface, seatbelt harness, or overhook before initiating any hook extraction sequence
 - Recognition that back-take pathway is effectively defended after multiple attempts, indicating side control consolidation is the higher-percentage option
@@ -220,6 +224,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Double Jump to Side Control step by step?</p>
 
 1. **Assess defensive posture and select transition direction**: Evaluate the bottom player's turtle defense from Double Jump position. Confirm they are maintaining an active turtle shell with elbows tucked and back sealed, effectively preventing hook elevation to back control. Select the side for side control establishment based on your dominant upper body control and the direction offering the strongest crossface angle.
 2. **Secure dominant upper body control**: Before initiating any hook extraction, establish a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control. This crossface becomes your primary positional anchor for the entire transition. Alternatively, maintain tight seatbelt grip with one arm over the shoulder and one under the armpit. This control must remain unbroken throughout.
@@ -250,6 +256,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Double Jump to Side Control?</p>
+
 - **Opponent executes sit-out reversal during hook extraction, exploiting momentary loss of bilateral hip control to scramble to top position** (Effectiveness: High) - Your Response: If opponent initiates sit-out as you extract the far hook, immediately abandon the side control transition and redirect to crab ride or back take by following their sitting motion with your remaining hook and upper body control → Leads to [[Positions/Half Guard]]
 - **Opponent retucks into tight turtle shell and reestablishes defensive base before hooks can be fully extracted and side control achieved** (Effectiveness: Medium) - Your Response: Re-insert the extracted hook to return to full Double Jump position and pursue alternative attacks such as back take or truck entry, or attempt the side control transition from a different angle → Leads to [[Positions/Double Jump]]
 - **Opponent performs granby roll toward your transition direction, using your lateral momentum shift to invert and recover guard position** (Effectiveness: Medium) - Your Response: When you feel the opponent initiating a roll, post your lead hand on the mat and redirect your weight sprawling back rather than following the roll, maintaining chest pressure to prevent the inversion from completing → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Double Jump to Side Control?</p>
 
 ### 1. Extracting both hooks simultaneously rather than sequentially during the transition
 
@@ -300,6 +310,8 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Double Jump to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook extraction sequence and lateral hip-walk technique
 Practice the sequential hook extraction and lateral hip walk on a compliant partner from established Double Jump position. Focus on maintaining continuous crossface pressure throughout, keeping hips low during the walk-around, and settling side control grips immediately upon reaching perpendicular alignment. Perform 20 repetitions per side with zero resistance.
 
@@ -320,42 +332,12 @@ Timed rounds starting from Double Jump Top with the goal of achieving side contr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal timing to abandon back-take attempts and transition to side control from Double Jump?
-**A**: The optimal timing is when the opponent has successfully defended multiple back-take attempts by maintaining a tight turtle shell with elbows tucked, chin protected, and hips sealed against hook elevation. The transition should be initiated while you still have strong upper body control through crossface or harness—not after the position has begun deteriorating. If the opponent's defense is focused entirely on preventing back exposure with a sealed posture, the lateral pathway to side control is typically open.
-
-**Q2**: What upper body control must be established before beginning the hook extraction sequence?
-**A**: You must establish either a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control, or a tight seatbelt grip with one arm over the shoulder and one under the armpit. This upper body control serves as your primary positional anchor during the entire transition—without it, removing your leg hooks eliminates hip control without any compensating mechanism, allowing the opponent to freely scramble or recover guard.
-
-**Q3**: Which hook should you extract first during the lateral transition and why?
-**A**: Extract the far-side hook first—the hook furthest from your intended side control direction. This allows you to post that freed foot on the mat behind you for stability while maintaining the near-side hook as continued lower body influence during the critical early lateral hip-walk phase. Extracting the near-side hook first would eliminate control on the transition side and leave you without base for the lateral movement.
-
-**Q4**: Your opponent begins a sit-out as you extract your first hook—how do you adjust?
-**A**: Immediately abandon the side control transition and follow the opponent's sitting motion to take the back or enter crab ride. Their sit-out actually exposes their back more than the sealed turtle did. Use your remaining hook and upper body control to follow their movement, redirecting from the lateral transition to a rear control entry. Forcing the side control path against an actively sitting opponent typically results in half guard or a scramble.
-
-**Q5**: What is the critical direction of force during the lateral hip-walk phase of this transition?
-**A**: The primary force direction is lateral and downward, walking your hips around the opponent's body while driving continuous chest pressure forward and down into their upper back and near shoulder. The crossface drives the opponent's head away from you toward the mat, which simultaneously creates the angle for perpendicular alignment and collapses their turtle base. Your hips should stay heavy against their near hip throughout the walk-around.
-
-**Q6**: What grip configuration should you establish immediately upon reaching side control alignment?
-**A**: Upon reaching perpendicular alignment, immediately establish standard side control grips: crossface with your far arm driving forearm across the opponent's neck and face, and your near hand blocking the opponent's far hip to prevent knee insertion and guard recovery. The hip block is the highest priority grip because it closes the primary escape pathway. Drop your hips low and heavy against their hips while sprawling your legs wide for stable base.
-
-**Q7**: The transition stalls because your opponent keeps recovering turtle base after partial hook extraction—what do you do?
-**A**: If the opponent successfully retucks after partial extraction, you have two options: re-insert the extracted hook to return to full Double Jump and attempt the transition from a different angle after further base degradation, or switch to a more aggressive approach by sprawling heavy weight onto their back to collapse the turtle before attempting hook extraction again. You can also redirect to a completely different attack pathway such as crab ride or truck entry.
-
-**Q8**: How does this transition create a strategic dilemma within the broader Double Jump attack system?
-**A**: The side control transition creates a dilemma because it punishes the exact defensive posture that prevents back takes. When the opponent seals their back tightly with tucked elbows and chin to defend hook elevation to back control, they inadvertently expose the lateral pathway to side control. If they widen their base to prevent the lateral transition, they create gaps for the primary back-take entries. This dual threat forces the defender into narrow defensive corridors where protecting against one pathway opens the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Double Jump to Side Control?</p>
 
 Double Jump to Side Control is a positional transition without direct submission threat, making it relatively safe during training. The primary safety concern involves maintaining controlled pressure during the lateral hip walk to avoid sudden weight drops onto the opponent's ribcage or spine. The crossface pressure maintained throughout the transition can stress the defender's cervical spine if applied with excessive force. Partners should communicate about pressure intensity during drilling. When extracting hooks, move deliberately rather than explosively to prevent the opponent's knees or ankles from being torqued by sudden hook removal. During live sparring, be aware that the rapid positional change from turtle to side control can disorient the defender.
 

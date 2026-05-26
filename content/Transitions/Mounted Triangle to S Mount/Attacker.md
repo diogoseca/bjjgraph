@@ -188,6 +188,8 @@ As the attacker executing this transition, you are making a strategic decision t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mounted Triangle to S Mount?</p>
+
 - Never release wrist control on the trapped arm at any point during the transition - this is the non-negotiable anchor
 - Unlock the triangle lock deliberately rather than explosively to maintain base and prevent defensive reactions
 - Keep your weight driving forward into the opponent's shoulder throughout the leg repositioning phase
@@ -203,6 +205,8 @@ As the attacker executing this transition, you are making a strategic decision t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mounted Triangle to S Mount?</p>
+
 - Established mounted triangle with one arm trapped between your legs and triangle lock secured
 - Firm wrist or bicep control on the trapped arm with at least one hand maintaining continuous grip
 - Opponent's triangle choke defense is effective, making continued squeeze unlikely to produce a tap
@@ -215,6 +219,8 @@ As the attacker executing this transition, you are making a strategic decision t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mounted Triangle to S Mount step by step?</p>
 
 1. **Secure wrist control on the trapped arm**: Before initiating any leg movement, establish firm two-on-one wrist control on the opponent's trapped arm. Your near hand grips their wrist while your far hand controls the elbow or bicep. This control must remain unbroken throughout the entire transition. Without it, the opponent will extract the arm the moment you unlock the triangle.
 2. **Shift weight forward onto the opponent's shoulder**: Drive your hip weight forward into the opponent's trapped shoulder, pinning it to the mat. This forward pressure serves two purposes: it prevents the opponent from bridging during the transition and it pre-positions your hips for S mount. Think of driving your hip bone into their deltoid as a pin that immobilizes their upper body.
@@ -244,6 +250,8 @@ As the attacker executing this transition, you are making a strategic decision t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mounted Triangle to S Mount?</p>
+
 - **Opponent bridges explosively when the triangle lock is released during step 3** (Effectiveness: High) - Your Response: Absorb the bridge by posting your head-side foot wide and driving your weight down through the hip-to-shoulder connection. If the bridge is too powerful, immediately abandon the transition and remount to high mount or standard mount to maintain top position. → Leads to [[Positions/Half Guard]]
 - **Opponent yanks the trapped arm free during the leg repositioning window** (Effectiveness: Medium) - Your Response: If you maintained proper wrist control, this should not succeed. If the arm begins slipping, immediately clamp your knees together to trap it and either complete the S mount quickly or re-establish the mounted triangle lock to reset the sequence. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent hip escapes toward your legs during the transition creating distance** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips to maintain the shoulder connection. If significant space opens, drive your weight forward to recollapse the distance. Their hip escape direction actually helps your transition since it moves their body underneath your repositioning legs. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing this transition, you are making a strategic decision t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mounted Triangle to S Mount?</p>
 
 ### 1. Releasing wrist control on the trapped arm before legs are fully repositioned into S mount
 
@@ -294,6 +304,8 @@ As the attacker executing this transition, you are making a strategic decision t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mounted Triangle to S Mount (Attacker)?</p>
+
 **Phase 1: Static Mechanics** - Leg repositioning pattern without resistance
 Practice the leg transition from mounted triangle to S mount on a compliant partner. Focus on the sequence: secure arm, unlock triangle, extend head-side leg, reposition torso leg, settle hips. Repeat 20 times per side until the movement pattern is automatic and fluid.
 
@@ -314,42 +326,12 @@ Begin in mounted triangle with full resistance sparring. Top player works to eit
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical control element that must be maintained throughout the entire transition from mounted triangle to S mount?
-**A**: Wrist control on the trapped arm is the absolute non-negotiable element. Without continuous wrist or arm control, the opponent will extract the trapped arm the instant the triangle lock is released, eliminating both the submission threat and the positional advantage. Both hands should maintain grip on the wrist and elbow or bicep throughout all leg movements. The arm isolation achieved in mounted triangle is the primary asset being transferred to S mount.
-
-**Q2**: Your opponent has a strong chin tuck defending your mounted triangle choke - what signals tell you to transition to S mount rather than continue squeezing?
-**A**: Key indicators include: the opponent's chin is firmly tucked making the choke angle impossible, their defensive framing is strong enough to prevent angle adjustment, you are expending significant energy squeezing without progress toward the finish, and crucially, their trapped arm is still isolated and accessible. If the arm is well-controlled but the choke is not progressing after 10-15 seconds of committed effort, the S mount transition preserves your advantage by converting to a different submission angle rather than burning energy on a stalling position.
-
-**Q3**: During the transition, your opponent bridges powerfully just as you unlock the triangle - how do you respond?
-**A**: Immediately post your head-side foot wide to absorb the bridge momentum and drive your hip weight down into their shoulder. If the bridge is manageable, ride it out and continue the transition once they settle. If the bridge is powerful enough to threaten your position, abandon the S mount transition entirely and re-establish the mounted triangle lock or drop back to high mount. Never fight a strong bridge mid-transition with an incomplete base - positional security always takes priority over submission advancement.
-
-**Q4**: Why should the legs be repositioned sequentially rather than simultaneously during this transition?
-**A**: Moving both legs simultaneously eliminates all structural support during the transition, leaving you balanced entirely on the opponent's body with no posts or anchors. This creates a critical vulnerability window where any defensive movement can displace you. By moving one leg at a time, you always maintain at least one structural post providing base and control. The head-side leg moves first to establish the primary S mount post, then the torso leg repositions with the first leg already anchoring you in place.
-
-**Q5**: What is the optimal direction of force through your hips during the transition and upon settling into S mount?
-**A**: Your hip force should drive forward and downward into the opponent's near shoulder joint throughout the entire transition. Before unlocking the triangle, your hip pins the shoulder. During leg movement, your hip maintains that pinning pressure as your anchor point. Upon settling into S mount, the hip-to-shoulder connection is the primary control mechanism, driving your hip bone into their deltoid to eliminate space. This forward-and-down force vector prevents bridging, pins the arm, and creates the leverage angle needed for the armbar.
-
-**Q6**: Your opponent hip escapes toward your legs during the leg repositioning phase - is this a problem or an opportunity?
-**A**: This is actually neutral to slightly helpful for your transition. Their hip escape moves their lower body away from you, but your control point is their shoulder, not their hips. As long as you maintain hip-to-shoulder pressure and wrist control, their lower body movement does not compromise your position. In fact, their shrimping action can help separate their upper body from their lower body, making the S mount perpendicular alignment easier to achieve. Follow their movement by scooting your hips to stay connected to the shoulder.
-
-**Q7**: If you complete the transition to S mount but the opponent immediately starts defending the armbar with a strong grip on their own collar, what should you do?
-**A**: First, consolidate the S mount position fully - ensure your hips are tight to their shoulder, both legs are properly positioned, and your base is solid. Then attack the grip systematically using two-on-one wrist control to peel their hand from the collar. Alternatively, switch to a mounted triangle by threading your torso leg under their chin, since their collar grip defense often exposes the neck. The key is not forcing the armbar against a strong grip but rather using the position to create a new dilemma that forces them to choose between defending the armbar and defending the triangle.
-
-**Q8**: What distinguishes the direct swing-over variant from the technical mount waypoint approach, and when would you choose each?
-**A**: The direct swing-over executes the full transition in one fluid motion without pausing at an intermediate position. Choose this when the opponent is momentarily stunned, passive, or when you have very secure arm control and high confidence. The technical mount waypoint breaks the transition into two phases with a brief stabilization in technical mount. Choose this against active, explosive opponents where the transition window risk is high. The waypoint gives you a stable position to reassess control before committing to S mount, at the cost of slightly more time and giving the opponent an extra moment to adjust their defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mounted Triangle to S Mount?</p>
 
 This transition involves repositioning while maintaining mount control and does not directly threaten joint locks during the transition itself. However, the transition leads directly to S mount armbar position, so practitioners should be mindful of arm isolation pressure during the repositioning phase. Avoid cranking or twisting the trapped arm during the transition. In training, execute the transition at controlled speed and communicate with your partner before applying submission pressure from S mount. If the partner signals discomfort during the arm isolation phase of the transition, immediately release pressure and reset.
 

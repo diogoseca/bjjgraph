@@ -162,6 +162,8 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Omoplata to Sweep?</p>
+
 - Attacker grips your free wrist, sleeve, or triceps, indicating they are eliminating your posting arm before initiating the sweep
 - Attacker's hips begin elevating upward and their top leg extends, generating the rotational force that drives the sweep
 - Attacker shifts their weight forward and begins rotating their torso in the direction they want to sweep you, with increased leg pressure across your upper back
@@ -174,6 +176,8 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Omoplata to Sweep?</p>
 
 - Maintain wide base with the free hand posted far from centerline to resist rotational sweeping force
 - Keep hips heavy and low to the mat to prevent the attacker from generating upward momentum with their legs
@@ -189,6 +193,8 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Omoplata to Sweep?</p>
 
 ### 1. Post free hand wide and drive hips backward to flatten attacker
 
@@ -226,6 +232,8 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Omoplata to Sweep?</p>
+
 ### → [[Positions/Omoplata Control]]
 
 Maintain wide base with free hand posted far from centerline while driving weight backward toward attacker's hips. Deny their hip elevation by keeping your center of gravity low and resist free arm control. Work incrementally to extract the trapped arm during moments when attacker adjusts their leg position. Once arm is free, immediately posture and work to pass guard.
@@ -241,6 +249,8 @@ When the sweep is already in motion and cannot be stopped, use the momentum to s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Omoplata to Sweep?</p>
 
 ### 1. Rolling forward over the trapped shoulder in an attempt to relieve omoplata pressure
 
@@ -275,6 +285,8 @@ When the sweep is already in motion and cannot be stopped, use the momentum to s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Omoplata to Sweep?</p>
+
 **Week 1-2: Recognition and Base Awareness** - Identifying sweep initiation cues and establishing proper posting position
 Partner establishes omoplata control and slowly initiates sweep attempts at 25% speed. Defender focuses on recognizing the three primary sweep triggers: free arm control, hip elevation, and rotational pressure. Practice posting the free hand wide immediately upon recognizing each cue. Repeat 10-12 repetitions per side with partner providing verbal coaching on timing.
 
@@ -291,29 +303,6 @@ Attacker works the full omoplata system including submission finish, sweep, and 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you feel the sweep being initiated from omoplata control?
-**A**: The most important action is posting your free hand wide and far from your centerline on the opposite side of the trapped arm. This creates a wide base that geometrically resists the rotational force of the sweep. Without this post, even a technically imperfect sweep will succeed because you have no structural resistance to the rotational momentum. The post must be established before the attacker controls your free arm.
-
-**Q2**: Why does rolling forward to escape the omoplata make you more vulnerable to the sweep?
-**A**: Rolling forward provides exactly the rotational momentum the attacker needs to complete the sweep. The forward roll shifts your weight past the tipping point where your base can resist the sweep, and the attacker simply follows your momentum to end up in mount. This is the most common beginner error because the forward roll feels like an escape from the shoulder pressure, but it trades a submission threat for a complete positional reversal. Instead, drive weight backward toward the attacker's hips.
-
-**Q3**: How do you time trapped arm extraction to avoid feeding the sweep?
-**A**: Extract the trapped arm during moments when the attacker adjusts their leg position or shifts their grip, as these are brief windows where leg pressure on the shoulder decreases. Use controlled circular motions of the elbow inward rather than explosive pulling. Critically, keep your weight shifted backward during extraction to ensure any forward motion from the extraction effort does not compromise your base. Never combine arm extraction with forward weight shift, as this is the exact combination the attacker exploits.
-
-**Q4**: Your opponent grips your free wrist and begins elevating their hips - what is your immediate response?
-**A**: Immediately strip the wrist grip by rotating your hand toward your thumb, which is the weakest point of any grip. Simultaneously drive your weight backward and lower your hips to deny their hip elevation. If you cannot strip the grip within one to two seconds, abandon wrist recovery and post your elbow wide as a secondary base structure while working to sit back toward the attacker's hips. Speed of grip-stripping response is critical because once the attacker has your free arm controlled and their hips elevated, the sweep becomes extremely difficult to stop.
-
-**Q5**: What defensive position should you adopt if the sweep is already past the point of no return?
-**A**: If the sweep is fully committed and cannot be stopped, immediately focus on damage mitigation rather than sweep prevention. As you are being rolled, work to extract your trapped arm during the transition when leg control momentarily loosens. If possible, step your far leg over the attacker's head mid-roll to reverse the position. If neither option works, prepare for mount defense by getting your elbows tight to your body, establishing frames at the hip line, and beginning hip escape mechanics immediately upon landing to prevent the attacker from settling into a consolidated mount.
-
-
-
-</section>
 
 
 </main>

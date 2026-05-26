@@ -227,7 +227,7 @@
         "description": "Drill the DLR hook removal sequence and knee slice cutting motion with a compliant partner. Focus on the correct angle of the knee cut, proper weight distribution during the drive, and smooth transition from hook removal to forward pressure. No resistance from partner."
       },
       {
-        "phase": "Phase 2: Grip Fighting",
+        "phase": "Phase 2: Grips",
         "focus": "Grip strips against active DLR grips",
         "description": "Partner establishes full DLR grips and actively fights to maintain them. Practice stripping the ankle grip, clearing the hook against resistance, and establishing your controlling grips. Partner provides 50% resistance on grips but does not attempt sweeps or inversions."
       },
@@ -247,7 +247,7 @@
         "description": "Full resistance rounds starting from DLR guard. Top player's objective is to complete the knee slice pass or any chain pass. Bottom player uses all available DLR offense. Reset after pass completion, sweep, or submission. Track success rates across rounds to measure improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What grip must you strip first before initiating the knee slice from DLR?",
         "answer": "The ankle or pants grip is the priority strip because it powers the DLR hook's off-balancing leverage. Without this grip, the DLR hook loses its ability to generate sweep threats and the guard structure becomes significantly weaker, creating the necessary window for the knee slice initiation."
@@ -369,7 +369,7 @@
         "correction": "Keep elbows connected to knees as your default defensive structure. Only extend arms when secure grip opportunities present themselves within safe reaching distance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest visual cue that indicates a knee slice attempt from your DLR guard?",
         "answer": "The earliest indicator is the passer actively stripping your ankle or pants grip while beginning to push their hooked knee forward. This grip-stripping phase signals they are preparing to clear your DLR hook, which is the necessary precursor to any knee slice attempt. React to the grip strip rather than waiting for the knee movement."

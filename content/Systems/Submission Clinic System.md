@@ -50,7 +50,7 @@ description: "Master systematic submission hunting from dominant positions in BJ
     },
     {
       "@type": "HowToStep",
-      "name": "Dilemma Creation",
+      "name": "Fork Attacks",
       "text": "Present simultaneous threats that cannot both be defended. For example, from S-mount, threaten both armbar on one side and collar choke on the other. Opponent must choose which to defend, opening the other for finish.",
       "position": 6
     },
@@ -261,7 +261,7 @@ Key points:
 
 
 
-6. **Dilemma Creation**: Present simultaneous threats that cannot both be defended. For example, from S-mount, threaten both armbar on one side and collar choke on the other. Opponent must choose which to defend, opening the other for finish.
+6. **Fork Attacks**: Present simultaneous threats that cannot both be defended. For example, from S-mount, threaten both armbar on one side and collar choke on the other. Opponent must choose which to defend, opening the other for finish.
 Key points:
 - Set up both threats before forcing the choice
 - Make threats equally dangerous to create true dilemma
@@ -317,7 +317,7 @@ Proficiency indicators:
 - Expert: Position automatically improves with each submission attempt regardless of opponent's defense
 
 
-**Dilemma Creation Effectiveness**: Success rate of presenting simultaneous threats that force opponent into no-win scenarios
+**Fork Attacks Effectiveness**: Success rate of presenting simultaneous threats that force opponent into no-win scenarios
 Proficiency indicators:
 - Beginner: Presents one threat at a time, giving opponent clear defensive path
 - Intermediate: Creates basic dilemmas (armbar or triangle) but with obvious escape windows
@@ -390,12 +390,12 @@ The Submission Clinic System requires extensive positional drilling combined wit
 - [[Closed Guard]] (Position) - Bottom attacking position for triangle, armbar, and omoplata chains
 - [[High Mount]] (Position) - Advanced mount control with enhanced submission access
 - [[Body Triangle]] (Position) - Superior back control variation for submission attacks
-- [[Armbar from Mount]] (Submission) - Primary submission attack from mount position
+- [[Armbar from Armbar Control]] (Submission) - Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions
 - [[Triangle Setup]] (Transition) - Entry to triangle control position from various positions
 - [[Triangle to Armbar]] (Transition) - Essential chain linking triangle and armbar submissions
 - [[Triangle to Omoplata]] (Transition) - Alternative chain when triangle is defended
 - [[Kimura to Back Take]] (Transition) - Position improvement using kimura threat
-- [[Armbar from Back]] (Submission) - High-percentage finish from back control
+- [[Armbar from Back Transition]] (Transition) - High-percentage armbar finish transition from back control
 - [[Rear Naked Choke]] (Submission) - Primary submission from back control
 - [[Triangle Choke]] (Submission) - Core submission in multiple chain sequences
 - [[Kimura]] (Submission) - Versatile submission from multiple positions
@@ -404,7 +404,7 @@ The Submission Clinic System requires extensive positional drilling combined wit
 - [[Arm Triangle]] (Submission) - Side control choke option
 - [[Guillotine Choke]] (Submission) - Guard and front headlock submission
 - [[Submission Chains]] (Principle) - Core theoretical framework underlying entire system
-- [[Dilemma Creation]] (Principle) - Strategic principle of forcing no-win defensive choices
+- [[Fork Attacks]] (Principle) - Strategic principle of forcing no-win defensive choices
 - [[Position-Over-Submission Approach]] (Principle) - Philosophical foundation prioritizing control before finishing
 - [[Control Maintenance]] (Principle) - Technical principle of maintaining position during attacks
 - [[Positional Hierarchy]] (Principle) - Understanding position value for progressive advancement

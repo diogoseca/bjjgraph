@@ -84,7 +84,7 @@ This technique occupies a specific niche in the turtle escape hierarchy. It carr
 ### Execution Steps
 
 
-- **Assess Opponent Weight Distribution**: From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weigh...
+- **Assess Opponent Center of Gravity**: From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weigh...
 
 - **Free the Posting Arm**: Strip or slide your near-side arm free from the opponent's control, or confirm that your far-side ar...
 
@@ -213,9 +213,9 @@ The Roll from Rodeo Ride integrates into the broader turtle escape system as a m
 
 - [[Transitions/Rodeo Ride to Back Control]] - Opponent's primary counter transition when they follow the roll and capitalize on back exposure
 
-- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
+- [[Submissions/Calf Slicer]] - Submission threat from Rodeo Ride that motivates attempting this escape
 
-- [[Submissions/Rear Naked Choke from Rodeo]] - Back control submission threat that escalates if the roll fails into back control
+- [[Submissions/Rear Naked Choke]] - Back control submission threat that escalates if the roll fails into back control
 
 - [[Transitions/Roll Escape from Russian Cowboy]] - Similar rolling escape technique from a related riding control position
 

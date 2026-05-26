@@ -34,7 +34,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Place feet on hip bones (anterior superior iliac spine) not thighs or stomach for maximum structural connection and pushing efficiency

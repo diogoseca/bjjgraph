@@ -44,12 +44,12 @@
       "relationship": "Alternative consolidation path when opponent defends high mount advancement"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up submission available after consolidation"
+      "name": "Americana",
+      "relationship": "Follow-up submission available after consolidation from mount"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission enabled by stable high mount platform"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission transition enabled by stable high mount platform"
     },
     {
       "name": "Gift Wrap",
@@ -195,7 +195,7 @@
         "description": "Live drilling from scramble to mount to high mount; partner uses all escapes while you implement complete consolidation sequence"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why should you drop your weight immediately after achieving mount?",
         "answer": "Dropping weight immediately pins your opponent's hips to the mat, restricts their breathing, and prevents them from building momentum for bridges or hip escapes. This initial pressure is critical because the moment you achieve mount is when your opponent will make their most explosive escape attempt."
@@ -323,7 +323,7 @@
         "correction": "Create space through shrimping first; only turn when sufficient distance prevents the attacker from inserting hooks behind you"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is it critical to begin your escape attempt within the first 3-5 seconds of being mounted?",
         "answer": "The first seconds after mount is achieved represent the highest escape probability because the attacker has not yet settled their weight, inserted grapevines, or eliminated your frames. Once the consolidation sequence progresses past the weight-settling and grapevine phase, escape probabilities drop dramatically because your bridging power, hip mobility, and framing ability are all compromised."
@@ -391,5 +391,5 @@
     "Opponent's arms or frames have not yet been neutralized",
     "Position is not yet secure enough to begin submission attacks"
   ],
-  "position_integration": "Consolidate Mount bridges the gap between achieving mount and launching effective attacks. In the broader BJJ game, this transition connects guard passing success to the submission hunting phase. Without proper consolidation, mount becomes a transitory position rather than a dominant one. This technique integrates with the mount attack system by creating the stable platform needed for Americana from Mount, Armbar from Mount, Cross Collar Choke, and Ezekiel Choke. It also connects to positional advancement sequences, leading to High Mount, S Mount, and Mounted Triangle positions for more sophisticated control and attack options."
+  "position_integration": "Consolidate Mount bridges the gap between achieving mount and launching effective attacks. In the broader BJJ game, this transition connects guard passing success to the submission hunting phase. Without proper consolidation, mount becomes a transitory position rather than a dominant one. This technique integrates with the mount attack system by creating the stable platform needed for Americana, Mount to Armbar, Cross Collar Choke, and Ezekiel Choke. It also connects to positional advancement sequences, leading to High Mount, S Mount, and Mounted Triangle positions for more sophisticated control and attack options."
 }

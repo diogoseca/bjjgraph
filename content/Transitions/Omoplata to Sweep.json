@@ -43,8 +43,8 @@
       "relationship": "Primary submission threat that creates sweep opportunity through defensive reactions"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Initial setup technique for establishing omoplata control before sweep"
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Common entry technique establishing omoplata control from closed guard before sweep"
     },
     {
       "name": "Omoplata to Back",
@@ -59,12 +59,12 @@
       "relationship": "Alternative sweep option from similar guard positions"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative submission from omoplata control if sweep fails"
+      "name": "Baratoplata Setup",
+      "relationship": "Alternative shoulder submission setup from omoplata control if sweep is denied"
     },
     {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Complementary attack creating guard offensive system"
+      "name": "Triangle Setup",
+      "relationship": "Complementary attack from guard creating offensive dilemma system"
     },
     {
       "name": "Mount",
@@ -83,7 +83,7 @@
       "relationship": "Starting control position from which sweep is initiated"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Dynamic entry variation that combines entry with immediate sweep momentum"
     }
   ],
@@ -230,7 +230,7 @@
         "description": "Incorporate the omoplata to sweep into full sparring sessions. Focus on setting up the omoplata from various guard positions and recognizing the optimal timing for the sweep based on opponent reactions. Develop the ability to chain this technique with other attacks from guard and mount. Track success rates and identify patterns in when the technique works best against different opponent types."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary defensive reaction that creates the sweeping opportunity from omoplata?",
         "answer": "The primary reaction is when the opponent rolls forward over their trapped shoulder or posts their free hand to relieve pressure on the shoulder joint. Both reactions compromise their base and create the mechanical disadvantage needed to complete the sweep. The forward roll provides momentum you can amplify, while the posting action extends their arm and narrows their base."
@@ -361,7 +361,7 @@
         "correction": "Stay on your knees with base low to the mat. Address the arm trap first by working extraction, then posture and pass. Standing should only occur after the arm is free and you have disengaged from the leg entanglement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action when you feel the sweep being initiated from omoplata control?",
         "answer": "The most important action is posting your free hand wide and far from your centerline on the opposite side of the trapped arm. This creates a wide base that geometrically resists the rotational force of the sweep. Without this post, even a technically imperfect sweep will succeed because you have no structural resistance to the rotational momentum. The post must be established before the attacker controls your free arm."

@@ -188,6 +188,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from Closed Guard?</p>
+
 - Chain the guard break directly into the knee slice as one continuous movement to eliminate the recovery window for the bottom player
 - Establish crossface or collar control before driving the knee across to prevent the bottom player from turning into the pass or establishing an underhook
 - Keep hips low and heavy during the slice to prevent the bottom player from inserting a knee shield or butterfly hook underneath
@@ -202,6 +204,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from Closed Guard?</p>
+
 - Posture established in closed guard with spine straight, head over hips, and hands controlling opponent's hips or biceps
 - Guard must be opened or actively being opened with opponent's ankles separated and legs being controlled
 - Lead hand positioned to control opponent's far hip, pants grip, or establish crossface on the jaw line
@@ -214,6 +218,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from Closed Guard step by step?</p>
 
 1. **Establish Posture in Closed Guard**: Sit upright with spine straight and hands controlling opponent's hips or biceps. Position your head directly over your hips to create structural strength that prevents the bottom player from breaking you down. Distribute weight through your knees with a wide base for stability against sweeps.
 2. **Initiate Guard Break**: Place one hand on the opponent's hip and drive your knee into their tailbone while sitting back to create opening pressure. Alternatively, stand up in base and use gravity with hip extension to separate their ankles. The goal is complete ankle separation with control of at least one leg.
@@ -243,6 +249,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from Closed Guard?</p>
+
 - **Bottom player re-closes guard before knee can penetrate the thigh line** (Effectiveness: High) - Your Response: Maintain posture and immediately re-attempt the guard break. Use both hands on the hips with elbows inside their thighs to create wider separation before committing to the knee slice. → Leads to [[Positions/Closed Guard]]
 - **Bottom player frames on hip and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow the hip escape with your own hip pressure, maintaining chest connection and driving forward. Strip the hip frame by swimming your arm inside or collapsing their elbow with shoulder weight. → Leads to [[Positions/Closed Guard]]
 - **Bottom player secures underhook and drives forward for a sweep during the transition** (Effectiveness: Medium) - Your Response: Immediately apply whizzer control on the underhook arm and sprawl your hips back to kill their sweep angle. Use the whizzer to re-establish crossface control before continuing the pass. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from Closed Guard?</p>
 
 ### 1. Attempting the knee slice before the guard is fully opened with ankles still partially connected
 
@@ -293,6 +303,8 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from Closed Guard (Attacker)?</p>
+
 **Phase 1: Guard Break Mechanics** - Isolated guard opening technique
 Drill guard break mechanics in isolation with partner at 30% resistance. Practice standing break and kneeling break methods, focusing on complete ankle separation and immediate leg control. 20 repetitions per method with emphasis on smooth, controlled technique.
 
@@ -313,48 +325,12 @@ Positional sparring starting in closed guard top. Top player attempts knee slice
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the knee slice after opening the closed guard?
-**A**: The knee slice should be initiated immediately upon ankle separation, within the first one to two seconds of the guard opening. Any delay allows the bottom player to establish alternative guard positions like butterfly guard, spider guard, or De La Riva guard. The transition from guard break to knee insertion should be pre-planned and seamless, functioning as a single continuous movement rather than two separate actions with a pause between them.
-
-**Q2**: What conditions must exist before you can attempt the knee slice from closed guard?
-**A**: Four conditions must be met: established posture with spine straight and head over hips, the guard opened or actively opening with ankles separated, a dominant hand positioned to control the opponent's far hip or establish crossface on the jaw, and base established with the posting foot ready to drive body weight forward through the knee slice. Missing any condition significantly reduces success probability.
-
-**Q3**: What is the critical hip position during the knee slice execution?
-**A**: Your hips must stay low and heavy during the knee slice, driving forward at a diagonal angle across the opponent's thigh. If hips rise too high, the bottom player can insert a knee shield or butterfly hook underneath, completely blocking the pass. The hips drive forward and down simultaneously, maintaining constant shin-to-thigh pressure that denies the bottom player any space to establish defensive structures.
-
-**Q4**: Why is crossface control essential before completing the knee slice?
-**A**: The crossface turns the opponent's head away and prevents them from facing into the pass. Without crossface control, the bottom player can turn their body toward you, establish an underhook on the near side, and either recover full guard or initiate a sweep from half guard bottom. The crossface shoulder pressure also flattens the bottom player onto their back, eliminating their hip mobility needed for sweeps and guard recovery.
-
-**Q5**: What grip should your lead hand maintain during the knee slice transition?
-**A**: Your lead hand should control the opponent's far hip, pinning it to the mat or blocking hip escape. This grip prevents shrimping away to create distance, turning into you for underhook battles, or recovering to a better guard position. In gi, the belt or pants grip at the hip provides excellent control. In no-gi, cupping the far hip bone or hooking the far thigh with an underhook achieves similar positional control.
-
-**Q6**: Your opponent blocks the knee slice by inserting a knee shield. How do you adjust?
-**A**: Do not force the knee through a strong knee shield. Switch to a smash pass approach by driving your chest weight into their knee shield while circling your hips to flatten the shield leg against their body. Alternatively, backstep to the opposite side for a reverse half guard pass, or disengage slightly and reset from headquarters position with a different angle such as a long step or toreando pass.
-
-**Q7**: What is the correct direction of force during the knee slide across the thigh?
-**A**: The force direction is diagonal, driving from the near hip toward the far shoulder at approximately forty-five degrees. This angle is critical because a straight-forward drive allows the bottom player to frame directly against your momentum and stall the pass. The diagonal angle slides past their defensive structures and creates the clearing path needed for the knee to cross the centerline and complete the pass to half guard top.
-
-**Q8**: Your opponent posts their hand on your hip as you begin the knee slice. How do you respond?
-**A**: Address the frame immediately rather than trying to power through it. Swim your arm inside their frame to collapse it at the elbow, or shift your angle to make their frame structurally weak by moving off their centerline. Alternatively, pin their framing elbow to their body using your chest weight and then continue the knee slice once the frame is neutralized. Forcing through a strong frame wastes energy and gives them leverage to shrimp.
-
-**Q9**: What chain attacks are available if the initial knee slice stalls in half guard?
-**A**: From half guard top after a stalled knee slice, chain into crossface pressure pass, underhook pass, backstep pass, or switch to a darce choke if the opponent turns into you. You can also retreat to headquarters position and re-enter with a different pass like toreando or long step. The key principle is using the opponent's defensive reaction to select your next attack rather than forcing a single technique repeatedly.
-
-**Q10**: What is the most common reason the knee slice fails from closed guard?
-**A**: The most common failure point is attempting the knee slice before the guard is fully opened. When ankles are still partially locked or the bottom player's legs maintain any connection, the knee lacks the space to penetrate the thigh line. This premature attempt breaks posture and exposes the top player to triangle and armbar setups as they lean forward without proper base. Ensure complete ankle separation and active leg control before committing to the slice.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from Closed Guard?</p>
 
 The knee slice from closed guard carries moderate injury risk primarily to the bottom player's knee and hip structures. The top player should avoid driving excessive lateral force through the bottom player's trapped leg, which can stress the medial collateral ligament. Both practitioners should communicate about knee discomfort during drilling. The bottom player should tap immediately if their knee is twisted or compressed abnormally during the pass. In training, apply the knee slice with controlled pressure rather than explosive force to allow the partner time to adjust their leg position safely. Be especially careful when the bottom player's foot is caught between your legs during the transition.
 

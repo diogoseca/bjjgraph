@@ -154,6 +154,8 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Defense from Mounted Triangle?</p>
+
 - Bottom player begins repositioning feet flat on the mat close to their hips in preparation for bridge drive
 - Bottom player's hips load with tension and their lower back arches slightly as they prepare explosive upward movement
 - Bottom player's free arm reaches toward your posting hand or wrist attempting to trap your base point
@@ -166,6 +168,8 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Defense from Mounted Triangle?</p>
 
 - Anticipate bridge direction based on the bottom player's foot positioning and hip loading patterns
 - Maintain wide base with the posting leg on the weak side of your triangle configuration
@@ -180,6 +184,8 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Defense from Mounted Triangle?</p>
 
 ### 1. Post wide on the anticipated bridge side to absorb force and maintain base
 
@@ -217,6 +223,8 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Defense from Mounted Triangle?</p>
+
 ### → [[Positions/Mount/Mounted Triangle]]
 
 Maintain wide base on the anticipated bridge side, absorb the upward force through your posting leg, and immediately re-settle your weight and re-tighten the triangle once the bridge momentum dissipates. Use head control to prevent effective bridging angles.
@@ -232,6 +240,8 @@ When the bridge creates significant momentum and the bottom player turns during 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Defense from Mounted Triangle?</p>
 
 ### 1. Maintaining a narrow base with posting leg close to the bottom player's body during finishing attempts
 
@@ -261,6 +271,8 @@ When the bridge creates significant momentum and the bottom player turns during 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Defense from Mounted Triangle?</p>
+
 **Phase 1: Bridge Absorption** - Developing base stability against explosive bridges
 Partner executes bridges from mounted triangle at increasing power levels. Practice maintaining position through proper posting and weight distribution. Focus on reading bridge direction and preemptively adjusting base width. Start with signaled bridges before progressing to unsignaled attempts.
 
@@ -277,26 +289,6 @@ Full positional sparring from mounted triangle. Top player maintains position an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you identify which direction the bottom player will bridge from mounted triangle?
-**A**: Watch for their foot positioning and hip loading patterns. The bridge will target the weakest point of your base, which is typically the side of your posting leg in the triangle configuration. You can feel their preparation through tension in their hips and see their feet repositioning flat on the mat close to their hips. Their free arm may also reach toward your posting hand on the anticipated bridge side. Recognizing these cues gives you time to widen your base preemptively.
-
-**Q2**: When should you release the mounted triangle and transition to back control during a bridge attempt?
-**A**: Release and transition when the bridge generates enough momentum that your mounted triangle position becomes unstable and difficult to maintain. The key indicator is when the bottom player's body begins turning significantly during the bridge motion, exposing their back. Rather than fighting a losing battle to maintain an unstable triangle, release the lock, establish a seat belt grip, and flow into back control. This converts their escape attempt into a transition to an equally dominant position.
-
-**Q3**: What is your primary base adjustment when you anticipate a bridge from the bottom player?
-**A**: Widen your posting leg on the anticipated bridge side, lowering your base closer to the mat and spreading the distance between your supporting points. This creates a wider structural foundation that can absorb the lateral force of an angled bridge. Simultaneously, use your free hand to control the bottom player's head by pushing it toward the mat, which reduces their ability to generate full bridging power by restricting their spinal extension and head movement.
-
-**Q4**: How do you prevent the bottom player from chaining the bridge into a hip escape on the opposite side?
-**A**: After absorbing the initial bridge by posting wide on one side, immediately re-center your weight and adjust your posting leg position to cover the opposite direction. The hip escape chain is the most dangerous follow-up to a failed bridge because your weight commits to one side during the posting adjustment. Address this by keeping your hips mobile and re-settling quickly after the bridge dissipates rather than maintaining a prolonged wide post that leaves the other side vulnerable.
-
-
-
-</section>
 
 
 </main>

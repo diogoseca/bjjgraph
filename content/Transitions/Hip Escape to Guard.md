@@ -210,7 +210,7 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Transitions/Elbow Escape to Guard]] - Alternative escape - similar hip movement principles from mount
 
-- [[Principles/Guard Recovery]] - Follow-up concept - establishing guard after escape
+- [[Transitions/Arm Recovery to Guard]] - Follow-up concept - establishing guard after recovering trapped arm
 
 - [[Transitions/Granby Roll to Guard]] - Alternative technique - rolling escape option from same position
 
@@ -218,7 +218,7 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
 
-- [[Principles/Frame Creation]] - Supporting concept - establishing defensive frames during escape
+- [[Principles/Frames]] - Supporting concept - establishing defensive frames during escape
 
 - [[Positions/Mount]] - Counter outcome - where failed escape can lead
 

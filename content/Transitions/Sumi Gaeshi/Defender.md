@@ -166,6 +166,8 @@ Even when the throw is partially completed, defensive options remain available. 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sumi Gaeshi?</p>
+
 - Opponent steps laterally to create a 45-degree angle while maintaining strong pulling grips on your collar, sleeve, or body
 - You feel a sharp downward and forward pull on your upper body combined with your opponent's hips dropping below yours
 - Opponent places their foot on your hip or inner thigh while simultaneously beginning to sit or fall backward
@@ -178,6 +180,8 @@ Even when the throw is partially completed, defensive options remain available. 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sumi Gaeshi?</p>
 
 - Maintain upright posture and avoid committing weight forward into the thrower's pull
 - Recognize the lateral step and angle creation as the primary setup cue requiring immediate response
@@ -193,6 +197,8 @@ Even when the throw is partially completed, defensive options remain available. 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sumi Gaeshi?</p>
 
 ### 1. Sprawl and widen base immediately when feeling the lateral angle creation
 
@@ -230,6 +236,8 @@ Even when the throw is partially completed, defensive options remain available. 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sumi Gaeshi?</p>
+
 ### → [[Positions/Standing Position]]
 
 Recognize the setup early through the lateral step and pulling grips. Immediately sprawl your hips back, widen your base, and strip the dominant grip. Circle away from the angle they are creating. Your priority is denying the forward weight transfer by keeping your center of gravity behind your feet.
@@ -245,6 +253,8 @@ When the throw reaches the point of no return, control your fall by tucking your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sumi Gaeshi?</p>
 
 ### 1. Leaning forward into the pull instead of sitting hips back
 
@@ -279,6 +289,8 @@ When the throw reaches the point of no return, control your fall by tucking your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sumi Gaeshi?</p>
+
 **Week 1-2: Recognition Training** - Identifying setup cues and early warning signs
 Partner performs Sumi Gaeshi setups at slow speed while you verbally identify each stage: grip establishment, angle creation, foot placement, drop. No resistance yet. Focus purely on recognizing the sequence and understanding which stage represents which defensive window.
 
@@ -295,29 +307,6 @@ Partner attacks with Sumi Gaeshi at full speed during standing exchanges and sit
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Sumi Gaeshi attempt is developing, and what should your immediate response be?
-**A**: The earliest cue is the opponent stepping laterally to create an off-angle while maintaining strong forward-pulling grips on your upper body. Your immediate response should be to circle in the same direction they are stepping to deny the angle, while simultaneously stripping or weakening their dominant pulling grip. Reacting at this stage gives you the widest range of defensive options and requires the least energy to neutralize the attack.
-
-**Q2**: Why does sitting your hips back and widening your base defeat the Sumi Gaeshi mechanics?
-**A**: Sumi Gaeshi requires your weight to be traveling forward over the thrower's center of gravity so their lifting leg can redirect that momentum into the circular throwing arc. By sitting your hips back, you remove the forward weight transfer that the throw depends on. Widening your base increases your lateral stability, making it harder for the thrower's angular entry to off-balance you. Together, these adjustments force the thrower to generate all momentum themselves, which is extremely difficult from a backward-falling position.
-
-**Q3**: Your opponent has already placed their foot on your hip and is beginning to drop backward. What is your best option at this point?
-**A**: At this late stage, pure resistance is unlikely to work. Your best option is to drive your hips sharply back and down while turning your body perpendicular to the throwing direction, which changes the angle of the arc and prevents the circular completion. If the throw is past the tipping point, transition to damage control by securing a grip on their collar or arm during the throw, tucking your chin to protect your landing, and immediately closing your guard as you land to prevent them from following through to mount.
-
-**Q4**: How do you convert a partially successful Sumi Gaeshi into a guard recovery rather than allowing mount?
-**A**: The critical moment is during the airborne phase and landing. Maintain at least one grip on the thrower throughout the throw so you have a control point when you land. As you hit the mat, immediately hip escape to create enough angle to insert your legs between you and the thrower. Lock your ankles behind their back before they can posture up and drive past your legs. If full closed guard is not possible, establish butterfly hooks or half guard immediately. The key is that your legs must be active the moment you land rather than landing flat and waiting.
-
-**Q5**: What grip fighting strategy reduces the probability of a successful Sumi Gaeshi before the throw is even attempted?
-**A**: Deny the cross-collar grip and the deep underhook, which are the two highest-control grip configurations for Sumi Gaeshi. Fight the collar grip with same-side hand strip using two-on-one breaks if necessary. Against underhooks, use overhooks or whizzers to prevent deep penetration under your arms. Keep your elbows tight to your body to deny space for grip establishment. Proactively control one of their sleeves or wrists, which eliminates half of their gripping options and forces them to work with a weaker single-grip configuration that provides insufficient control for the throw.
-
-
-
-</section>
 
 
 </main>

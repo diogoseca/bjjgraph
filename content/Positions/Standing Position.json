@@ -105,11 +105,11 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 16
+        "attempt_probability": 44
       },
       {
         "transition": "Double Leg Setup",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Single Leg Entry",
@@ -117,110 +117,110 @@
       },
       {
         "transition": "Sprawl",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Double Leg Entry",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Arm Drag",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Ankle Pick",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Body Lock Takedown",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Jumping Guard",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Osoto Gari",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Ouchi Gari",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Tomoe Nage",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Deashi Harai",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Harai Goshi",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Ippon Seoi Nage",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Russian Tie to Back Take",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Sumi Gaeshi",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Tani Otoshi",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "50-50 Entry from Standing",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Kosoto Gake",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Kosoto Gari",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Morote Seoi Nage",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Sasae Tsurikomi Ashi",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Tai Otoshi",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Flying Kneebar",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Kimura from Standing",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Reverse Kimura",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Single Leg to Back Take",
         "attempt_probability": 1
       }
     ],
@@ -365,12 +365,12 @@
     ],
     "training_drills": [
       {
-        "name": "Progressive Grip Fighting Sequences",
+        "name": "Progressive Grips Sequences",
         "description": "Partner drill where both practitioners engage in grip fighting with escalating resistance levels. Start with 30% intensity for grip establishment, progress to 50% for grip breaks and re-grips, culminate in 70% intensity full grip fighting. Focus on hand speed, strategic grip selection, and energy-efficient grip breaking techniques. Reset every 30 seconds to practice fresh engagements.",
         "duration": "5 rounds of 2 minutes"
       },
       {
-        "name": "Dynamic Movement and Angle Creation",
+        "name": "Dynamic Movement and Dominant Angles",
         "description": "Solo and partner drill focusing on footwork patterns while maintaining athletic stance. Practice circle steps, penetration steps, defensive retreat steps, and angle changes. Partner version involves mirroring opponent's movement while seeking to create off-angles through superior footwork. Emphasize balance maintenance throughout all directional changes.",
         "duration": "3 rounds of 3 minutes"
       },
@@ -451,7 +451,7 @@
       },
       "average_time": "30-90 seconds in competitive settings, longer in training environments"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent suddenly drops their level and shoots a double leg from distance - what is your immediate defensive priority and body positioning?",
         "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish."
@@ -704,12 +704,12 @@
     ],
     "training_drills": [
       {
-        "name": "Progressive Grip Fighting Sequences",
+        "name": "Progressive Grips Sequences",
         "description": "Partner drill where both practitioners engage in grip fighting with escalating resistance levels. Start with 30% intensity for grip establishment, progress to 50% for grip breaks and re-grips, culminate in 70% intensity full grip fighting. Focus on hand speed, strategic grip selection, and energy-efficient grip breaking techniques. Reset every 30 seconds to practice fresh engagements.",
         "duration": "5 rounds of 2 minutes"
       },
       {
-        "name": "Dynamic Movement and Angle Creation",
+        "name": "Dynamic Movement and Dominant Angles",
         "description": "Solo and partner drill focusing on footwork patterns while maintaining athletic stance. Practice circle steps, penetration steps, defensive retreat steps, and angle changes. Partner version involves mirroring opponent's movement while seeking to create off-angles through superior footwork. Emphasize balance maintenance throughout all directional changes.",
         "duration": "3 rounds of 3 minutes"
       },
@@ -790,7 +790,7 @@
       },
       "average_time": "30-90 seconds in competitive settings, longer in training environments"
     },
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent suddenly drops their level and shoots a double leg from distance - what is your immediate defensive priority and body positioning?",
         "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish."

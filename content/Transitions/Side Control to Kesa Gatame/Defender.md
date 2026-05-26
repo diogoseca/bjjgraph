@@ -162,6 +162,8 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Side Control to Kesa Gatame?</p>
+
 - Top player begins threading their crossface arm deeper under your neck, transitioning from forearm across your jaw to bicep cupping the back of your head - this is the setup for the Kesa Gatame head wrap
 - Top player's hips begin shifting from perpendicular to angled, with their near knee moving toward your head - this is the beginning of the rotation that defines the Kesa Gatame transition
 - Top player attempts to scoop your near arm upward to trap it under their armpit rather than just controlling it at the wrist or elbow - this arm trapping is specific to Kesa Gatame setup
@@ -174,6 +176,8 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control to Kesa Gatame?</p>
 
 - Prevent the head wrap from deepening by fighting the arm threading under your neck with chin-to-chest defense and shoulder shrugging to close the space
 - Maintain your near-side arm free and active as a frame against their hip to block the arm trapping that precedes Kesa Gatame establishment
@@ -188,6 +192,8 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Side Control to Kesa Gatame?</p>
 
 ### 1. Shrug your shoulder and tuck your chin to prevent the crossface from deepening into a head wrap, while simultaneously pushing their threading arm away with your far hand
 
@@ -225,6 +231,8 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Side Control to Kesa Gatame?</p>
+
 ### → [[Positions/Side Control]]
 
 Prevent the transition entirely by blocking the head wrap from deepening and maintaining active near-side frames during the rotation attempt. Fight the grip changes early and force the top player to abandon the Kesa Gatame attempt, returning to standard side control where you can continue working your normal escape sequences.
@@ -240,6 +248,8 @@ Exploit the transitional moment when the top player's base is compromised during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control to Kesa Gatame?</p>
 
 ### 1. Ignoring the crossface deepening into a head wrap and focusing only on the hip rotation as a recognition cue
 
@@ -269,6 +279,8 @@ Exploit the transitional moment when the top player's base is compromised during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Side Control to Kesa Gatame?</p>
+
 **Week 1-2: Recognition Training** - Identifying the specific cues that distinguish Kesa Gatame transition from mount and north-south attempts
 Partner alternates between attempting mount, north-south, and Kesa Gatame transitions from side control at 30% speed. Your only task is to verbally identify which transition they are attempting before it completes. Focus on the head wrap threading and hip rotation direction as primary indicators. No active defense yet, purely building pattern recognition. Drill 20-30 transitions per session.
 
@@ -285,29 +297,6 @@ Apply all defensive responses in live rolling. Practice recognizing Kesa Gatame 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning to Kesa Gatame rather than attempting mount or north-south?
-**A**: The earliest cue specific to Kesa Gatame is feeling their crossface arm threading deeper under your neck, converting from a forearm-across-jaw crossface to a full bicep-around-head wrap. This head wrap threading does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips begin to rotate to face your head while maintaining seated contact near your shoulder, which differs from the hip elevation of a mount transition or the circling movement of a north-south transition.
-
-**Q2**: Why is the turn-in back take considered the highest-reward defensive option from established Kesa Gatame?
-**A**: The Kesa Gatame position inherently exposes the top player's back because they sit perpendicular with their back facing the bottom player's legs. This geometric vulnerability does not exist in standard side control. By turning into the opponent and getting chest-to-chest, the bottom player can reach around the top player's back and begin establishing back control hooks. The reward is going from a terrible defensive position directly to the most dominant offensive position in BJJ. However, the risk is also significant because a failed turn-in can result in the opponent transitioning to mount.
-
-**Q3**: Your opponent has partially established Kesa Gatame but their head wrap is shallow and their base leg is narrow - what is your best defensive sequence?
-**A**: With a shallow head wrap and narrow base, you have two compounding vulnerabilities to exploit. First, use your far hand to fight the head wrap by pushing their arm out from under your neck while simultaneously shrugging your shoulder to close the space. Second, time an explosive bridge toward their narrow-based posted leg. The shallow head wrap means they cannot anchor your head during the bridge, and the narrow base means the bridge has high probability of rolling them over. Combine both attacks simultaneously: as you bridge toward their posted leg, push their wrapping arm away. Even if the sweep fails, the head wrap disruption alone returns you to a more defensible position.
-
-**Q4**: How should your defensive response differ when the opponent transitions to Kesa Gatame versus when they attempt to mount from side control?
-**A**: Against mount, your primary defense is knee insertion between bodies and bridging toward the stepping side. Against Kesa Gatame, your primary defense targets the grip changes (preventing head wrap and arm trap) rather than leg positioning. The direction of your defensive hip movement also differs: against mount you shrimp your hips away to create space for knee insertion, while against Kesa Gatame you either frame against the rotating hips to disrupt the turn or turn into the opponent to exploit back exposure. The recognition speed is critical because choosing the wrong defensive template wastes the narrow window for effective intervention.
-
-**Q5**: What makes the near arm the single most important defensive asset to protect during the Kesa Gatame transition?
-**A**: The near arm serves triple duty in Kesa Gatame defense: it provides the frame against the opponent's hip that can disrupt the rotation, it is the arm that must stay free to prevent the armpit trap that anchors the position, and its loss immediately creates submission vulnerability to americana and armbar. Once the near arm is trapped under the opponent's armpit, the position becomes extremely difficult to escape because both your primary frame and your primary escape tool are eliminated simultaneously. All other defensive options (bridging, turning in, guard recovery) become dramatically less effective without the near arm free to assist.
-
-
-
-</section>
 
 
 </main>

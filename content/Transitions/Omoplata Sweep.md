@@ -203,25 +203,23 @@ The omoplata sweep is a central technique in the closed guard attack system, rep
 ## Related Techniques
 
 
-- [[Transitions/Omoplata]] - Primary submission threat that creates the sweep opportunity through dilemma
+- [[Submissions/Omoplata]] - Primary submission threat that creates the sweep opportunity through dilemma
 
-- [[Submissions/Omoplata from Guard]] - Direct submission finish if opponent defends sweep incorrectly
+- [[Transitions/Closed Guard to Omoplata]] - Entry transition that establishes the omoplata position, enabling either submission finish or sweep
 
 - [[Transitions/Omoplata to Back]] - Alternative transition when opponent rolls forward to defend
-
-- [[Transitions/Closed Guard to Omoplata]] - Entry transition that establishes the omoplata position for sweep attempt
 
 - [[Transitions/Hip Bump Sweep]] - Complementary sweep that attacks opposite side reaction from closed guard
 
 - [[Transitions/Pendulum Sweep]] - Chain attack when opponent posts hand to defend omoplata sweep
 
-- [[Submissions/Triangle from Closed Guard]] - Alternative submission from similar guard break setup sharing initial grips
+- [[Transitions/Closed Guard to Triangle]] - Alternative submission entry from similar guard break setup sharing initial grips
 
-- [[Submissions/Armbar from Guard]] - Follow-up submission available once mount is established after sweep
+- [[Transitions/Mount to Armbar]] - Follow-up submission transition available once mount is established after sweep
 
-- [[Submissions/Kimura from Guard]] - Attack on posted arm when opponent defends sweep by bracing
+- [[Transitions/Kimura Sweep]] - Attack on posted arm when opponent defends sweep by bracing on the mat
 
-- [[Submissions/Rolling Omoplata]] - Dynamic variation when opponent rolls forward aggressively during sweep
+- [[Transitions/Roll Forward from Omoplata]] - Dynamic transition when opponent rolls forward aggressively during omoplata control
 
 - [[Transitions/Omoplata to Sweep]] - Related sweep transition from omoplata control position
 

@@ -1,0 +1,181 @@
+{
+  "name": "Phases of Guard",
+  "description": "Understand the three distinct phases of guard play in BJJ: engagement, maintenance, and retention. Learn different strategies and techniques required for each phase of guard work.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "guard",
+    "guard-retention",
+    "guard-maintenance",
+    "engagement",
+    "bottom-game",
+    "defense"
+  ],
+  "category": "Strategy",
+  "overview": "Most grapplers think of guard as a single thing -- you are either in guard or you are not. In reality, guard play has three distinct phases, and each phase demands a completely different strategy, different grips, and different movement patterns. Confusing the phases or using the wrong strategy for the wrong phase is one of the most common reasons guard players get passed. Understanding this framework transforms your entire bottom game from a single blunt instrument into a three-layered system.\n\nThe three phases are engagement, maintenance, and retention. Engagement is the distance management phase -- you and your opponent are not yet connected, and your job is to establish the grips, hooks, and body position that give you your preferred guard. Maintenance is the active guard work phase -- you have your guard established and you are attacking sweeps, submissions, and off-balancing while your opponent tries to disengage or advance. Retention is the survival phase -- your guard is being passed and your job is to recover guard before the opponent consolidates a dominant position.\n\nEach phase has fundamentally different priorities. In engagement, distance and angles matter most. In maintenance, grips and offensive pressure matter most. In retention, hip movement and frames matter most. A grappler who uses retention tactics during the engagement phase wastes energy. A grappler who tries to attack submissions during the retention phase gets passed. Recognizing which phase you are in and deploying the correct strategy is the difference between a guard that is a fortress and a guard that collapses under pressure.",
+  "key_takeaways": [
+    "Guard has three phases: engagement (distance management), maintenance (active guard work), and retention (preventing the pass)",
+    "Each phase requires different grips, movements, and tactical priorities -- do not mix them up",
+    "Engagement: use feet on hips, collar and sleeve grips, and seated guard posture to control distance before committing to a guard type",
+    "Maintenance: once your guard is established, attack aggressively -- a passive guard is a guard about to be passed",
+    "Retention: when your guard is being broken, forget offense and focus entirely on recovering guard through hip movement and frames",
+    "Learn to recognize which phase you are in at any moment -- the transition between phases is often where guards fail",
+    "Your strongest guard is useless if your engagement phase is weak -- you need to be able to establish the guard first",
+    "Retention is the phase most grapplers undertrain, yet it is what separates guard players who get passed from those who do not"
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You pull guard and land in seated position facing a standing opponent",
+      "application": "You are in the engagement phase. Do not immediately try to sweep or submit -- establish your guard first. Get feet on hips to manage distance. Secure a collar grip and a sleeve grip. Choose your guard type (De La Riva, spider, collar sleeve) and establish the hooks and grips it requires before beginning your attacks.",
+      "outcome": "Your guard is fully established before the opponent can begin passing. You enter the maintenance phase with all your weapons loaded."
+    },
+    {
+      "scenario": "You have a deep De La Riva hook with collar grip and your opponent is off-balanced",
+      "application": "You are in the maintenance phase. Attack now. This is when you sweep, submit, or take the back. Do not hold the position passively -- your grips and hooks are at maximum effectiveness right now. Use the berimbolo, the DLR sweep, or the back take while your guard structure is intact.",
+      "outcome": "Offensive pressure from an established guard creates scrambles that favor you as the guard player."
+    },
+    {
+      "scenario": "Your opponent has broken your De La Riva hook, cleared your grips, and is starting to pass to your left",
+      "application": "You are now in the retention phase. Stop trying to re-establish De La Riva. Hip escape to create distance, insert your knee as a frame, and get your feet back in front of your opponent. Your only goal is to return to the engagement phase where you can re-establish a guard.",
+      "outcome": "You prevent the pass and create enough space to re-engage with grips and hooks, cycling back to the engagement phase."
+    },
+    {
+      "scenario": "You are playing closed guard and your opponent stands up to break the guard",
+      "application": "This is the transition from maintenance to engagement. Your closed guard is being opened, so you need to transition smoothly into an open guard. As they stand, get a sleeve grip, place your feet on their hips, and convert to an open guard variation rather than desperately clinging to the closed guard that is already being opened.",
+      "outcome": "You maintain guard continuity by transitioning between guard types instead of losing position during the phase change."
+    },
+    {
+      "scenario": "You are in spider guard but your opponent breaks one grip and begins a toreando pass",
+      "application": "Recognize the transition from maintenance to retention immediately. Do not try to re-establish the broken spider grip while they are mid-pass. Instead, hip escape in the direction of the pass, bring your knee to your chest, and use it as a shield while you recover your grips from a safer position.",
+      "outcome": "Quick recognition of the phase change prevents the pass. Trying to maintain during retention is how guards collapse."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Trying to attack submissions during the retention phase when your guard is being passed",
+      "consequence": "You overcommit to offense while your guard structure is compromised. The opponent completes the pass during your failed submission attempt, and you end up in a worse position than if you had simply focused on retaining guard.",
+      "correction": "When your guard is being actively passed, stop all offense and focus exclusively on recovery. Hip escape, frame, and get your feet back in front. You can attack once you re-establish your guard."
+    },
+    {
+      "mistake": "Being passive during the maintenance phase and holding guard without attacking",
+      "consequence": "A passive guard is a dead guard. If you are not attacking, your opponent has unlimited time to set up their pass, adjust grips, and find their angle. They can be patient because you are not threatening them.",
+      "correction": "Once your guard is established, attack immediately and continuously. Threaten sweeps to force grip changes, attempt submissions to force posture changes. An active guard is exponentially harder to pass than a passive one."
+    },
+    {
+      "mistake": "Rushing through the engagement phase and pulling into a guard position without proper grips",
+      "consequence": "Your guard is established without the fundamental connections it needs. Your De La Riva has no collar grip, or your spider guard has no pants grip. The guard structure is fragile and the opponent breaks through it quickly.",
+      "correction": "Be patient during engagement. Manage distance with feet on hips while you establish each grip and hook in the proper order. A guard built on proper connections is ten times harder to pass than one slapped together quickly."
+    },
+    {
+      "mistake": "Failing to recognize the transitions between phases and using the wrong strategy",
+      "consequence": "You try to maintain a guard that is already being passed (wrong phase) or try to engage a guard while you should be retaining. This mismatch between situation and strategy is the most common cause of guard passes.",
+      "correction": "Train phase recognition deliberately. After each round, review the moments where your guard was passed and identify which phase you were in and whether you used the appropriate strategy for that phase."
+    },
+    {
+      "mistake": "Neglecting retention training because it is the least exciting phase",
+      "consequence": "Your guard looks great when established but collapses the moment the opponent begins a serious passing attempt. You cannot handle the transition from maintenance to retention.",
+      "correction": "Dedicate specific training time to guard retention. Have partners start mid-pass and practice recovering guard from compromised positions. Retention is the phase that makes the other two phases possible."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Phase-Specific Guard Sparring",
+      "description": "Run three separate rounds with your partner, each focused on one phase. Round 1 (Engagement): start disconnected, practice establishing your guard against resistance. Round 2 (Maintenance): start with guard already established, focus on sweeps and submissions. Round 3 (Retention): start with your guard mid-pass, focus on recovering guard. This isolates each phase for targeted development.",
+      "focus": "Developing specific skills for each phase of guard play in isolation"
+    },
+    {
+      "name": "Phase Call-Out Drill",
+      "description": "During regular guard sparring, have your partner call out which phase they think you are in: 'engagement,' 'maintenance,' or 'retention.' This external feedback helps you develop real-time phase awareness. After the round, discuss any moments where the phase was unclear or where you used the wrong strategy for the phase you were in.",
+      "focus": "Building real-time phase recognition and awareness during live guard work"
+    },
+    {
+      "name": "Guard Recovery Gauntlet",
+      "description": "Start with your guard halfway passed -- one hook cleared, grips broken, opponent halfway through a toreando or knee slide. Practice recovering guard from this compromised position repeatedly. Do 20 reps from each common passing scenario. This builds retention skills from the exact moments where most guard players fail.",
+      "focus": "Developing retention-phase skills from realistic mid-pass starting positions"
+    },
+    {
+      "name": "Engagement Speed Drill",
+      "description": "Start standing or seated with no grips against a standing opponent. Your goal is to establish your preferred guard within 10 seconds. Reset and repeat 15 times. Track how quickly you can go from disconnected to fully established guard with all necessary grips and hooks in place.",
+      "focus": "Building rapid guard establishment during the engagement phase"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What are the three phases of guard and what is the primary objective of each?",
+      "answer": "Engagement: establish distance management and secure the grips, hooks, and body position needed for your preferred guard. Maintenance: attack with sweeps and submissions from your established guard position. Retention: recover guard when it is being passed, using hip movement and frames to prevent position loss."
+    },
+    {
+      "question": "Why is attacking during the retention phase a mistake?",
+      "answer": "During retention, your guard structure is compromised -- grips are broken, hooks are cleared, and the opponent is advancing. Attempting offense from this weakened position overcommits you and allows the opponent to complete the pass. Your only priority in retention is recovering guard so you can re-enter the engagement and maintenance phases."
+    },
+    {
+      "question": "How do you transition smoothly from closed guard to open guard when your opponent stands up?",
+      "answer": "Recognize that the phase is shifting from maintenance to engagement. As they stand, get a sleeve grip, place your feet on their hips, and deliberately choose which open guard to transition into rather than clinging to the closed guard. This planned transition maintains guard continuity instead of creating a chaotic moment the opponent can exploit."
+    },
+    {
+      "question": "Why is a passive guard dangerous during the maintenance phase?",
+      "answer": "A passive guard gives the opponent unlimited time to set up their pass. Without offensive threats, the guard player puts no pressure on the passer's decision-making. The passer can calmly adjust grips, find angles, and execute their passing strategy. An active guard forces the passer to defend, limiting their ability to attack."
+    },
+    {
+      "question": "Which phase of guard play is most commonly undertrained, and why does this matter?",
+      "answer": "Retention is the most undertrained phase because it is the least exciting -- there are no sweeps or submissions, just recovery and survival. However, retention is what prevents guard passes. Without strong retention, even the best maintenance-phase guard collapses the moment the opponent begins a serious passing attempt."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Guard Passing",
+      "content_type": "Principle",
+      "relationship": "Understanding the three guard phases helps guard passers identify which phase the guard player is in and target the weakest one"
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Distance management is the core skill of the engagement phase"
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Grip establishment is the primary task during the engagement phase and grip maintenance drives the maintenance phase"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "content_type": "Principle",
+      "relationship": "Hip escapes are the primary movement for the retention phase"
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Frames are essential for creating space during the retention phase"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Closed guard is a maintenance-phase guard that requires phase awareness when it is opened"
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "DLR illustrates all three phases clearly -- engagement (hook and grip), maintenance (sweeps), retention (recovery when hook is stripped)"
+    },
+    {
+      "name": "Spider Guard",
+      "content_type": "Position",
+      "relationship": "Spider guard engagement requires specific grip sequencing before attacks are available"
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Open guard is where all three phases are most distinct and most important"
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Butterfly guard maintenance requires active hooking and off-balancing to prevent settling"
+    },
+    {
+      "name": "Phases of Passing",
+      "content_type": "Learning",
+      "relationship": "Mirror concept -- understanding phases from both perspectives creates complete strategic awareness"
+    }
+  ]
+}

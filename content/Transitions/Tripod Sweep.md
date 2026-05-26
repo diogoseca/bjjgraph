@@ -200,7 +200,7 @@ The Tripod Sweep is a foundational technique within the Spider Guard attack syst
 
 - [[Transitions/Triangle from Spider Guard]] - Alternative attack when opponent defends by breaking posture forward
 
-- [[Submissions/Omoplata from Guard]] - Follow-up submission when opponent posts second hand to defend sweep
+- [[Transitions/Spider Guard to Omoplata]] - Follow-up submission when opponent posts second hand to defend sweep
 
 - [[Positions/Collar Sleeve Guard]] - Alternative grip configuration for similar sweep mechanics
 

@@ -225,7 +225,7 @@ The Transition to Body Lock occupies a critical junction in the back attack syst
 
 - [[Transitions/Rolling Back Take]] - Alternative technique from harness when body lock transition is not available
 
-- [[Transitions/Rear Naked Choke]] - Submission threat from harness that makes opponent want to stand, triggering this transition
+- [[Submissions/Rear Naked Choke]] - Submission threat from harness that makes opponent want to stand, triggering this transition
 
 
 </section>

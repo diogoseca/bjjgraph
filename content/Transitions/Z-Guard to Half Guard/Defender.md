@@ -156,6 +156,8 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Z-Guard to Half Guard?</p>
+
 - Bottom player begins deepening their underhook by driving their arm further underneath your armpit and reaching toward your far lat or shoulder blade
 - Bottom player's far hand shifts from defensive framing to offensive grip establishment on your collar, sleeve, or wrist indicating preparation for a positional change
 - Bottom player performs a small hip escape to create angle, loading their hips for the knee shield withdrawal and subsequent sweep mechanics
@@ -168,6 +170,8 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Guard to Half Guard?</p>
 
 - Recognize early transition indicators including underhook deepening, hip angle changes, and far-side grip adjustments before the knee shield moves
 - Time your crossface drive to coincide with the knee shield withdrawal moment for maximum flattening effect during the vulnerability window
@@ -182,6 +186,8 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Z-Guard to Half Guard?</p>
 
 ### 1. Drive crossface and heavy shoulder pressure the moment the knee shield begins dropping to flatten the bottom player
 
@@ -212,6 +218,8 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Z-Guard to Half Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Time your crossface drive to coincide with the exact moment the knee shield drops. Drive your shoulder into their jaw line while keeping your hips heavy and low. Secure your underhook or overhook on their far arm to prevent them from re-framing. The flattened position removes their hip mobility and makes passing significantly easier through knee slice, crossface pass, or systematic leg extraction.
@@ -223,6 +231,8 @@ Time your crossface drive to coincide with the exact moment the knee shield drop
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Guard to Half Guard?</p>
 
 ### 1. Failing to recognize the transition cues and reacting too late after the bottom player has already established half guard with a deep underhook
 
@@ -252,6 +262,8 @@ Time your crossface drive to coincide with the exact moment the knee shield drop
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Z-Guard to Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying transition preparatory cues
 Partner attempts the Z-Guard to Half Guard transition at slow speed. Focus exclusively on recognizing the preparatory movements: underhook deepening, hip angle changes, and grip adjustments. Call out each cue verbally before responding physically to build pattern recognition before adding defensive responses.
 
@@ -268,29 +280,6 @@ Complete positional sparring starting from Z-Guard top position. Bottom player m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the bottom player is preparing to transition from Z-Guard to Half Guard?
-**A**: The earliest cue is the bottom player deepening their underhook by driving their arm further underneath your armpit and reaching toward your far shoulder blade or lat. This underhook deepening typically precedes the knee shield withdrawal by one to three seconds, as the bottom player needs to secure their offensive control before removing their primary defensive barrier. Recognizing this preparatory movement gives you time to apply the whizzer or strip the underhook before the transition begins.
-
-**Q2**: What is the most effective defensive timing for capitalizing on the Z-Guard to Half Guard transition?
-**A**: The most effective timing is to drive your crossface and shoulder pressure forward at the exact moment the knee shield begins dropping. This is a narrow window of approximately one second where the bottom player has removed their defensive barrier but has not yet established the close-range body connection that powers their sweeps. Reacting before the shield drops means fighting against the active frame. Reacting after the transition completes means facing an established half guard with underhook. The sweet spot is during the retraction itself.
-
-**Q3**: How should you adjust your grip priorities when you recognize the bottom player is about to transition from Z-Guard to Half Guard?
-**A**: Immediately shift your grip priority to preventing or stripping the underhook using whizzer control or direct shoulder pressure into their underhooking arm. Your secondary priority becomes controlling their far-side collar or arm to prevent them from using your forward pressure for sweeps. Release any grips that are not serving these two objectives and redirect your hands to the underhook battle and far-side control. The underhook is the enabler of the entire transition, so denying it is more effective than any other defensive response.
-
-**Q4**: The bottom player successfully withdraws their knee shield and establishes a deep underhook in half guard - what is your immediate recovery strategy?
-**A**: If the transition is complete with a deep underhook established, immediately apply a strong whizzer on the underhook side and drive your shoulder weight down into their chest to limit their hip mobility. Secure their far-side collar or arm to prevent the old school sweep from developing. From this position, work to strip the underhook through sustained hip pressure and whizzer torque rather than trying to force a pass. Alternatively, if their underhook is too deep to strip, consider a kimura grip on the underhooking arm to create a passing opportunity from the kimura trap position.
-
-**Q5**: How do you avoid being swept when driving forward to capitalize on the knee shield withdrawal?
-**A**: Maintain a wide base with your free leg posted far to the side as you drive forward, preventing lateral sweep attempts. Control the bottom player's far-side arm or collar before committing your weight to prevent them from redirecting your momentum into sweep mechanics. Apply pressure at a diagonal angle rather than straight forward, driving your shoulder into their jaw line while keeping your hips slightly offline. This angular pressure is much harder for the bottom player to redirect into sweeps compared to direct forward driving which they can use against you.
-
-
-
-</section>
 
 
 </main>

@@ -30,7 +30,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain advantageous head position by keeping forehead pressed to opponent's shoulder or controlling their head placement to dictate engagement angles
@@ -98,9 +98,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull from Clinch/Attacker|Guard Pull from Clinch]]** (22% of attempts)
-
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (18% of attempts)
+- **[[Transitions/Guard Pull from Clinch/Attacker|Guard Pull from Clinch]]** (40% of attempts)
 
 - **[[Transitions/Underhook Pummeling from Clinch/Attacker|Underhook Pummeling from Clinch]]** (15% of attempts)
 
@@ -185,9 +183,9 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (10% of attempts)
 
-- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (8% of attempts)
+- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (9% of attempts)
 
-- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (8% of attempts)
+- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (9% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (7% of attempts)
 
@@ -202,8 +200,6 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 - **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (2% of attempts)
 
 - **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (2% of attempts)
-
-- **[[Submissions/Standing Guillotine from Clinch/Attacker|Standing Guillotine from Clinch]]** (2% of attempts)
 
 
 ### Common Mistakes

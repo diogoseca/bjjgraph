@@ -188,6 +188,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Pull from Clinch?</p>
+
 - Grip before sit — never initiate the guard pull without at least one strong anchor grip established on your opponent's upper body
 - Controlled descent with hips angled 30 degrees off opponent's centerline prevents them from driving forward into an immediate passing position
 - Close guard as a single coordinated action with both legs simultaneously rather than sequentially to eliminate the gap opponents exploit
@@ -202,6 +204,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Pull from Clinch?</p>
+
 - Cross collar grip or collar tie established as primary anchor point that prevents opponent from disengaging during the pull
 - Same-side sleeve or wrist grip controlling opponent's posting hand to prevent immediate framing during your descent
 - Lead foot positioned outside opponent's same-side foot to create the angular path for the sit
@@ -214,6 +218,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Pull from Clinch step by step?</p>
 
 1. **Establish dominant grips**: Secure a cross collar grip with your dominant hand at chest level and a same-side sleeve grip at the wrist with your other hand while still engaged in the clinch. The collar grip serves as the primary anchor throughout the transition, preventing your opponent from disengaging, while the sleeve grip controls their primary posting hand to prevent immediate framing or passing during your descent.
 2. **Create angular displacement**: Step your lead foot to the outside of your opponent's same-side foot, angling your body approximately 30 degrees off their centerline. This angle prevents your opponent from driving straight forward over you during the transition and creates a better trajectory for closing your guard after sitting. The angle also naturally loads your weight for a controlled descent rather than a flat backward fall.
@@ -243,6 +249,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Pull from Clinch?</p>
+
 - **Opponent sprawls hips back and drives weight away as you begin sitting** (Effectiveness: High) - Your Response: If the sprawl is early, abort the pull by posting your foot and returning to standing. If mid-pull, accelerate your leg closure and use your collar grip to pull them forward over your center despite the sprawl. A strong collar grip makes pure sprawl defense insufficient. → Leads to [[Positions/Clinch]]
 - **Opponent drives a knee through the centerline during the transition before guard closure** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee gets through, transition immediately to half guard retention rather than fighting for closed guard, then work to recover full guard from the half guard position. → Leads to [[Positions/Open Guard]]
 - **Opponent strips your grips before you can complete the sit** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on remaining controlled arm. If both grips are stripped before you sit, abort the pull and return to standing clinch. Never sit to guard without at least one controlling grip. → Leads to [[Positions/Clinch]]
@@ -254,6 +262,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Pull from Clinch?</p>
 
 ### 1. Pulling guard without any established grips, simply sitting down from the clinch
 
@@ -298,6 +308,8 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Pull from Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip sitting mechanics and leg closure coordination
 Practice the controlled sit from standing to closed guard position without a partner. Focus on sitting at an angle, landing on the hip rather than the tailbone, and coordinating simultaneous leg closure around an imaginary opponent. Perform 20 repetitions per side focusing on smooth, controlled descent.
 
@@ -318,39 +330,12 @@ Full-speed guard pulls from clinch followed immediately by first offensive techn
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the guard pull from the clinch?
-**A**: The optimal timing is when your opponent drives forward with their weight or commits to an offensive action like a takedown setup. Their forward momentum assists your transition to the ground and makes it significantly harder for them to sprawl or disengage. Pulling against a retreating or neutral opponent requires more grip strength and gives them more time to react with defensive measures like sprawling or stripping your grips.
-
-**Q2**: Your opponent strips your collar grip as you begin sitting — how do you adjust mid-pull?
-**A**: Immediately redirect your freed hand to an alternative connection point — collar tie behind the neck, overhook on their arm, or two-on-one grip on the remaining controlled arm. The critical principle is maintaining at least one strong connection throughout the transition. If both grips are lost simultaneously, abort the guard pull by posting your foot and returning to standing rather than sitting without any control, which gives a free passing opportunity.
-
-**Q3**: What grip configuration provides the highest percentage guard pull in the gi?
-**A**: A cross collar grip at chest level combined with a same-side sleeve grip at the wrist provides the strongest control. The cross collar grip creates a pulling angle that loads your opponent's weight forward and gives you immediate posture-breaking ability once guard is closed. The sleeve grip prevents their free hand from posting on your hip or establishing a frame that blocks guard closure, covering the two primary defensive responses.
-
-**Q4**: Why is sitting at an angle rather than straight back critical for guard pull success?
-**A**: Sitting at a 30-degree angle off your opponent's centerline prevents them from driving straight forward over you into an immediate passing position. The angle forces them to adjust their trajectory, buying critical time for guard closure. Additionally, sitting at an angle naturally creates better hip position for guard closure, as your hips are already turned to accept the opponent's body between your legs rather than requiring a flat-to-angled adjustment after landing.
-
-**Q5**: How should you modify the guard pull when your opponent has double underhooks in the clinch?
-**A**: With the opponent holding double underhooks, the standard collar-sleeve guard pull is compromised because they control your upper body. Instead, use an overhook on one side combined with a wrist grip on the other side as your anchor configuration. As you sit, the overhook serves as your primary connection point. Alternatively, pummel to break the double underhook before pulling, or transition to a butterfly guard pull where you hook their thigh with your instep during the sit, which works effectively even against double underhooks.
-
-**Q6**: What is the most common way a guard pull fails at purple belt level and above?
-**A**: The most common failure is the opponent timing a knee slide or leg weave pass during the transition from standing to guard. As you sit, there is a brief window where your legs are in motion and not yet locked. Experienced opponents recognize the guard pull cues and immediately drive a knee through the gap before guard closure completes. The correction is ensuring your legs close as a single coordinated simultaneous action rather than sequentially, and using your sleeve grip to prevent their knee from advancing into the gap.
-
-**Q7**: Your guard pull lands in closed guard but your opponent immediately begins standing up — what is your first action?
-**A**: Immediately break their posture by pulling them forward with combined leg and grip pressure before they complete the stand-up. If they reach their feet despite your efforts, transition your grip configuration to support open guard sweeps — sleeve and collar control with feet on their hips. Do not attempt to hold closed guard against a fully standing opponent, as this elevates your weight making guard breaks easy and creates vulnerability to slams in certain rulesets.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Pull from Clinch?</p>
 
 Guard pulling carries risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent unless competition rules explicitly permit it and both practitioners are prepared, as this can cause severe knee ligament damage to the standing player. Practice controlled sit-down mechanics extensively before attempting full-speed guard pulls. During drilling, communicate with your training partner about your intent before initiating the pull so they can react safely rather than being caught off-balance.
 

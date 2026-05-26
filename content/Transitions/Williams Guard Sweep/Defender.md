@@ -162,6 +162,8 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Williams Guard Sweep?</p>
+
 - Opponent hip escapes toward the controlled arm side, creating an angled body position that signals sweep direction setup
 - Butterfly hook insertion on the controlled arm side—the opponent threads their foot inside your thigh to establish the elevation mechanism
 - Increased forward pulling pressure through the shoulder lock grip as the opponent loads your weight onto the hook before initiating the sweep
@@ -173,6 +175,8 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Williams Guard Sweep?</p>
 
 - Maintain wide base with weight distributed low to resist elevation from butterfly hook
 - Protect shoulder joint alignment on the trapped arm while working toward grip extraction
@@ -187,6 +191,8 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Williams Guard Sweep?</p>
 
 ### 1. Drop weight and widen base to prevent hook elevation
 
@@ -224,6 +230,8 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Williams Guard Sweep?</p>
+
 ### → [[Positions/Williams Guard]]
 
 Neutralize the sweep by dropping weight, widening base, and preventing butterfly hook elevation. Then systematically work on extracting the trapped arm using circular movements while maintaining defensive posture. The sweep is stopped and you retain your passing position.
@@ -239,6 +247,8 @@ Use the opponent's sweep setup commitment to advance your position by driving fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Williams Guard Sweep?</p>
 
 ### 1. Yanking the trapped arm straight back to escape the shoulder lock during sweep defense
 
@@ -268,6 +278,8 @@ Use the opponent's sweep setup commitment to advance your position by driving fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Williams Guard Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner establishes Williams Guard and moves through sweep setup phases in slow motion. Defender practices identifying each cue: hip angle change, hook insertion, weight loading, and sweep initiation. Call out each cue as it occurs to build pattern recognition. No resistance, focus purely on awareness.
 
@@ -284,29 +296,6 @@ Positional sparring starting in Williams Guard. Partner works full offensive sys
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Williams Guard Sweep is being initiated rather than a shoulder lock submission attempt?
-**A**: The earliest cue is the opponent's hip escape toward the controlled arm side, creating an angled body position rather than remaining square. A shoulder lock submission attempt typically involves staying square and increasing rotational pressure on the arm. The hip angle change signals sweep setup because it aligns the opponent's body with a sweep direction and creates space for butterfly hook insertion. Recognizing this distinction allows you to address the sweep threat before the hook establishes.
-
-**Q2**: How should you distribute your weight when defending the Williams Guard Sweep and why is base width critical?
-**A**: Drop your center of gravity by bending at the knees rather than the waist, and widen your base by spreading your knees apart. Weight should be distributed through your legs and hips rather than leaning forward onto your hands. Base width is critical because the sweep generates rotational force—a narrow base provides a shorter lever arm that the hook elevation easily overcomes, while a wide base requires significantly more force to overturn and gives you more room to absorb the sweep attempt.
-
-**Q3**: Your opponent has elevated you with a butterfly hook and the sweep is mid-execution—what immediate response prevents completion?
-**A**: Post your free hand on the mat on the far side and simultaneously drive your hips back down by straightening the hooked leg to strip the hook. If the elevation is too far advanced for this, redirect by turning into the sweep direction to land in a scramble rather than giving up clean mount. The critical action is preventing the opponent from following through to full mount—even landing in side control or half guard is preferable to conceding mount.
-
-**Q4**: When is stripping the shoulder lock grip preferable to simply basing out against the sweep?
-**A**: Stripping the grip is preferable when you have a stable base and the opponent is focused on hook placement rather than grip maintenance. During their transition to sweep setup, their attention divides between maintaining the shoulder lock and establishing the elevation mechanism. This divided focus creates windows for circular arm extraction. However, grip stripping during active sweep initiation is risky because the jerking motion can accelerate the sweep—in that case, basing out first and addressing the grip second is safer.
-
-**Q5**: How do you use your free hand to maintain base without exposing it to triangle or kimura attacks?
-**A**: Keep your free hand near your centerline—either controlling the opponent's head or posted on their hip rather than extended to the mat. A hand posted far from your body creates an isolated limb that the opponent can attack by swinging their leg over for a triangle or securing a kimura grip. Posting on their hip or controlling their head serves double duty: it maintains your base while also disrupting their guard mechanics without creating submission vulnerabilities.
-
-
-
-</section>
 
 
 </main>

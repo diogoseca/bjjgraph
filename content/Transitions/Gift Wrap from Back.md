@@ -206,7 +206,7 @@ The Gift Wrap from Back occupies a pivotal role in the back attack system as the
 
 - [[Transitions/Gift Wrap Maintenance]] - Follow-up control technique for maintaining position after establishing gift wrap
 
-- [[Submissions/Gift Wrap RNC]] - Primary submission attack available after establishing gift wrap control
+- [[Rear Naked Choke from Gift Wrap]] - Primary submission available after establishing gift wrap control from back
 
 - [[Submissions/Gift Wrap Armbar]] - Secondary submission targeting the free arm from gift wrap position
 

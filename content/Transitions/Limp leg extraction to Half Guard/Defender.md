@@ -166,6 +166,8 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Limp leg extraction to Half Guard?</p>
+
 - Opponent's trapped leg suddenly loses all muscle tension and becomes noticeably limp and heavy in your grip, indicating deliberate relaxation preceding extraction
 - Opponent plants their free foot on your hip and begins loading weight into a pushing frame, signaling imminent hip escape movement
 - Opponent's upper body frames shift from passive defense to active pushing against your shoulder or bicep, creating distance for the escape angle
@@ -177,6 +179,8 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Limp leg extraction to Half Guard?</p>
 
 - Maintain constant hip pressure into the trapped leg to eliminate the space needed for extraction regardless of whether the leg is tense or limp
 - Use structural body positioning rather than grip strength alone to control the entanglement since a limp leg neutralizes friction-based grips
@@ -191,6 +195,8 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Limp leg extraction to Half Guard?</p>
 
 ### 1. Follow the hip escape by moving your body with theirs while maintaining leg entanglement pressure
 
@@ -228,6 +234,8 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Limp leg extraction to Half Guard?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Maintain entanglement by following hip escape movement, stripping free leg frames, and applying constant pressure that denies the distance needed for extraction. Keep structural body positioning tight regardless of whether the trapped leg is tense or limp.
@@ -243,6 +251,8 @@ Capitalize on the opponent's relaxation phase by immediately advancing to Saddle
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Limp leg extraction to Half Guard?</p>
 
 ### 1. Relying solely on grip strength to hold a limp leg rather than using structural body positioning
 
@@ -272,6 +282,8 @@ Capitalize on the opponent's relaxation phase by immediately advancing to Saddle
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Limp leg extraction to Half Guard?</p>
+
 **Week 1-2** - Recognition and grip retention
 Partner performs slow extraction attempts while you practice recognizing the relaxation signal and maintaining control through structural positioning. Focus on feeling the difference when a leg goes limp and immediately increasing hip pressure rather than grip strength. Alternate between static holds and light extraction attempts.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring where the bottom player's goal is extraction
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel your opponent's trapped leg suddenly go completely limp - what does this signal and how do you respond?
-**A**: This signals the initiation of a limp leg extraction attempt. The opponent is deliberately removing muscle tension to make their leg harder to grip. Respond by immediately shifting from grip-dependent control to structural control—increase hip pressure into their leg, tighten your leg entanglement, and prepare to follow their impending hip escape. Do not try to squeeze harder with your hands as this wastes energy against a relaxed limb. Instead, consider whether to advance to Saddle during this brief vulnerability window before their hip escape begins.
-
-**Q2**: What is the most critical body positioning adjustment to prevent successful limp leg extraction?
-**A**: Maintaining constant hip pressure into the opponent's trapped thigh is the most critical adjustment. Unlike hand grips which lose effectiveness against a limp leg, hip pressure creates structural control that works regardless of the trapped leg's tension state. Your hips should act as a wedge against their thigh, and you must follow any lateral hip movement they make to maintain this pressure point. This single adjustment counters the core mechanic of the limp leg extraction.
-
-**Q3**: Your opponent establishes a strong foot-on-hip frame with their free leg before you can strip it - how do you adapt?
-**A**: If the frame is already established, avoid trying to remove it with your hands as this compromises your leg control. Instead, angle your body to reduce the effectiveness of their push by moving offline from the pushing direction. You can also drive your weight forward into a stacking position that pins their hips before the push generates full force. If neither option works, accept that they will create some distance but focus on following their movement to maintain entanglement rather than losing the position entirely.
-
-**Q4**: How does the defender convert a failed extraction attempt into an offensive opportunity?
-**A**: During extraction attempts, the bottom player temporarily compromises their heel protection because hip escape movement can rotate the foot and expose the heel. If you recognize that the extraction is failing and the opponent has committed to the hip escape, use that moment to advance your grip toward heel control or transition to Saddle. Their defensive priorities shift from joint protection to positional escape during extraction, creating a window where submission threats become significantly higher percentage.
-
-**Q5**: What distinguishes a standard limp leg extraction from the Granby-assisted variant, and how should your defense differ?
-**A**: The Granby-assisted variant adds rotational momentum to the extraction, making it faster and harder to follow with lateral hip movement alone. Recognize the Granby variant when you see the opponent begin inverting or curling their shoulders rather than simply hip escaping laterally. Against the Granby variant, drive forward with stacking pressure before the rotation develops momentum rather than trying to follow the rotational path. Your hip pressure should pin them before inversion begins, because once the Granby roll has momentum, following it becomes significantly more difficult.
-
-
-
-</section>
 
 
 </main>

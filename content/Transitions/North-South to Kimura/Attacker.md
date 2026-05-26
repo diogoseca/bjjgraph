@@ -182,6 +182,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing North-South to Kimura?</p>
+
 - Maintain constant chest-to-chest pressure throughout the transition to prevent opponent escape and keep shoulders pinned
 - Control the near-side arm first before attempting to secure the Kimura grip - isolation precedes grip establishment
 - Use your head position low near the opponent's far hip to block hip escape and lower your center of gravity
@@ -197,6 +199,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting North-South to Kimura?</p>
+
 - Established North-South position with chest-to-chest pressure across opponent's upper body
 - Opponent's near-side arm is exposed or defending against your weight rather than pinned beneath you
 - Your head is positioned low on the mat beside opponent's far hip to block escape
@@ -210,6 +214,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute North-South to Kimura step by step?</p>
 
 1. **Secure North-South control**: Establish dominant North-South position with your chest pressing firmly into opponent's chest and shoulders. Your head should be positioned low, near their far hip, with your arms wrapped around their torso or controlling their arms. Distribute your weight evenly forward with knees wide for maximum base and crushing pressure that restricts their breathing and movement.
 2. **Isolate the near-side arm**: Slide your near-side hand under the opponent's near-side arm, reaching for their wrist or forearm. Use your chest pressure to pin their arm against their body, preventing them from pulling it back to safety. Your far-side arm continues to control their far shoulder or head to maintain position and prevent defensive framing with their free hand.
@@ -238,6 +244,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter North-South to Kimura?</p>
+
 - **Opponent grabs their own belt, lapel, or shorts to prevent arm isolation** (Effectiveness: High) - Your Response: Attack the far-side arm with a North-South choke or armbar threat to force them to release their defensive grip, then immediately return to the Kimura attack before they can re-establish the grip → Leads to [[Positions/North-South]]
 - **Opponent bridges explosively to disrupt your base and create scramble opportunity** (Effectiveness: Medium) - Your Response: Widen your base immediately, lower your center of gravity, and use your head to post on the mat beside their hip. Ride out the bridge and re-establish chest pressure as they return to the mat with depleted energy → Leads to [[Positions/North-South]]
 - **Opponent turns into you and attempts to recover half guard or closed guard** (Effectiveness: Medium) - Your Response: Follow their rotation while maintaining the Kimura grip. If grip is established, use it as a control handle to take the back. If grip is not yet set, drive crossface pressure to flatten them back and re-isolate the arm → Leads to [[Positions/Half Guard]]
@@ -249,6 +257,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing North-South to Kimura?</p>
 
 ### 1. Releasing chest pressure while attempting to secure the Kimura grip
 
@@ -288,6 +298,8 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train North-South to Kimura (Attacker)?</p>
+
 **Week 1-2: Positional Familiarization** - Understanding North-South control and arm isolation mechanics
 Practice establishing and maintaining North-South position without resistance. Work on isolating the near-side arm and feeding it across the opponent's body. Focus on proper chest pressure and weight distribution. Drill the movement slowly, emphasizing control and precision over speed.
 
@@ -308,54 +320,12 @@ Experiment with entries from different North-South variations, use the Kimura th
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of maintaining chest-to-chest pressure during the North-South to Kimura transition?
-**A**: Chest-to-chest pressure serves multiple critical functions: it prevents the opponent from creating space to escape, limits their ability to bridge or turn effectively, keeps their shoulders pinned flat to the mat making arm isolation easier, and maintains your dominant position throughout the transition. Without constant pressure, the opponent can use bridging or turning movements to escape before you secure the Kimura grip. The pressure also restricts their breathing, creating urgency that forces defensive arm movements you can exploit.
-
-**Q2**: What is the optimal timing window to initiate arm isolation for the Kimura transition?
-**A**: The optimal timing occurs when your opponent moves their arm to either push against you or attempt an escape. When they extend their arm to frame or bridge, it becomes temporarily separated from their body core, creating an isolation opportunity. Similarly, when they attempt to turn toward you, their near-side arm naturally comes across their body into the ideal feeding position. The worst time to attempt isolation is when they are completely static with elbows tight to their ribs. Create reactions through pressure shifts, feigned choke setups, or weight transfers to generate the arm movement you need.
-
-**Q3**: Your opponent begins framing against your chest with both forearms as you attempt to isolate their arm - how do you adjust?
-**A**: Drive your chest pressure forward and angle your shoulders to slip past their forearms rather than fighting the frames directly. Alternatively, use the frame creation as a cue to attack the arm they have extended for framing, since their extended forearm is now separated from their body and vulnerable to isolation. You can also threaten a North-South choke to force them to change their arm positioning. The key is never stalling against an established frame - either collapse it immediately with superior pressure and angles, or redirect to a different attack that exploits the arm position they have chosen.
-
-**Q4**: What mechanical advantage makes the Kimura from North-South particularly effective compared to entries from side control?
-**A**: The North-South position provides several unique advantages for Kimura attacks: your entire body weight is distributed across the opponent's chest and shoulders in perpendicular alignment, severely limiting their ability to hip escape or bridge; their shoulders are pinned flat against the mat, making it easier to manipulate their arm; the perpendicular angle gives you superior leverage because your hips can create the finishing angle without needing to reposition your entire body; and the opponent cannot use their legs or hips to create frames or generate momentum, unlike from side control where hip escapes are more accessible.
-
-**Q5**: Describe the proper hand positioning for the figure-four Kimura grip and explain why grip depth matters?
-**A**: Your near-side hand grips the opponent's wrist with your thumb pointing toward their head, positioned above the wrist joint for maximum control. Your far-side hand reaches over their arm and grabs your own near-side wrist, creating a closed figure-four loop. Grip depth is critical because securing the grip close to the opponent's elbow provides substantially more leverage and control than gripping near the wrist. A deep grip near the elbow prevents them from straightening their arm to escape, gives you better rotational control of the shoulder joint, and makes the grip structure nearly impossible to break even under significant resistance.
-
-**Q6**: How should you adjust your strategy if the opponent successfully grabs their own belt or shorts to defend the arm isolation?
-**A**: When the opponent grabs their belt or shorts, direct attacks on the Kimura become inefficient because you would need to break their defensive grip first. The best response is to switch your attack to their far-side arm or neck with a choke or armbar threat. This forces them to release their defensive grip to address the new threat. Once they release their belt grip, immediately return to the Kimura attack before they can re-establish the defensive grip. This exemplifies the principle of creating cascading dilemmas from a single control position.
-
-**Q7**: Your opponent straightens their arm as you attempt to establish the figure-four grip - what are your options?
-**A**: A straightened arm presents both a challenge and an opportunity. First, you can use chest and shoulder pressure combined with your gripping hand to bend their elbow by driving it toward the mat. Second, you can immediately switch to an armbar attack since their extended arm is perfectly positioned for that submission. Third, you can threaten the armbar to force them to bend their elbow defensively, then quickly transition back to the Kimura grip before they can tuck their elbow tight again. The straight arm defense often backfires because it exposes them to higher-percentage alternative attacks.
-
-**Q8**: How does your weight distribution change from initial North-South control through to the established Kimura Trap position?
-**A**: In initial North-South, your weight is distributed forward with chest pressure across the opponent's upper body, head near their far hip, and knees wide for base. As you isolate the arm and secure the Kimura grip, you gradually shift weight more laterally by walking your knees toward their head, moving perpendicular to their body while maintaining chest contact. Once the grip is fully secure and you have confirmed its integrity, you can sit back slightly to create the finishing angle. This transition must be gradual and smooth - sitting back too quickly before the grip is locked creates escape opportunities. The key is maintaining continuous pressure with no gaps during the weight shift.
-
-**Q9**: What indicators tell you the Kimura grip is secure enough to begin adjusting your body position for the finish?
-**A**: The grip is secure when four conditions are met simultaneously: your near-side hand has a firm wrist grip above their wrist joint with thumb toward their head; your far-side hand has a solid wrist-to-wrist connection creating a complete closed loop; your elbows are pinched tight to your body preventing the opponent from inserting their hand to pry the grip; and when you test by pulling their arm slightly away from their body, resistance comes from their shoulder joint rather than your grip slipping. Only when all these conditions are confirmed should you begin shifting your body position for the Kimura Trap angle.
-
-**Q10**: How do you chain from a failed Kimura attempt back to positional control without losing dominant position?
-**A**: If the Kimura fails, immediately return your chest pressure to standard North-South control before the opponent can capitalize on any space created. Keep whatever grip elements you can maintain while resetting your base wide. From there, you have several options: re-isolate the same arm with better timing after a pressure shift, transition to side control for fresh attack angles, threaten the far-side arm with a North-South choke or americana, or attempt an armbar on the arm that just defended. The critical principle is never abandoning pressure - even if the submission fails, you should remain in dominant position ready to attack again immediately.
-
-**Q11**: Your opponent attempts to turn away from you while you are mid-transition with one hand on their wrist but no figure-four yet - what do you do?
-**A**: Maintain your wrist control and follow their rotation rather than fighting it. As they turn away, their arm naturally extends behind them into an even more vulnerable position for the Kimura. Use your chest to drive into their back as they turn, preventing them from completing the rotation to turtle. If they continue turning, you can establish the figure-four grip on their exposed arm from behind and transition directly to a back take with the Kimura grip intact. Their turning attempt actually accelerates your attack if you follow rather than resist.
-
-**Q12**: In no-gi grappling, how does the lack of fabric grips affect the opponent's defensive options against this transition?
-**A**: Without a gi, the opponent cannot grab their own belt or lapel to anchor their arm, which eliminates their highest-effectiveness defensive option. However, they can still grab their own shorts or clasp their hands together. The lack of friction also means your grip on their wrist must be more precise and deeper above the wrist joint, as sweat makes shallow grips unreliable. To compensate, prioritize speed in the grip transition phase and use more body weight compression to control the arm before locking the figure-four. The overall success rate tends to be slightly higher in no-gi because the opponent's primary grip defense is removed.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for North-South to Kimura?</p>
 
 When training the North-South to Kimura transition, practitioners must exercise caution to prevent shoulder injuries. The Kimura places significant torque on the shoulder joint, and applying pressure too quickly or forcefully can result in serious injury including shoulder dislocation, rotator cuff tears, or labrum damage. Always apply the technique slowly and progressively during drilling, giving your training partner ample time to recognize the danger and tap. Partners should establish clear tap signals before beginning: verbal tap, physical tap with free hand, or foot tap if hands are trapped. The person applying the technique must release immediately upon feeling any tap signal or hearing verbal submission. When defending in training, do not wait too long to tap - protecting your training longevity is more important than resisting a locked submission. Instructors should closely supervise beginners learning this technique and emphasize that the shoulder lock requires gradual application, not explosive cranking.
 

@@ -209,7 +209,7 @@ The Explosive Forward Roll fits within the broader standing back control escape 
 
 - [[Positions/Turtle]] - Bail-out position - where to go if roll must be aborted mid-execution
 
-- [[Transitions/Rear Naked Choke]] - Primary threat - the submission you must defend throughout the escape
+- [[Submissions/Rear Naked Choke]] - Primary threat - the submission you must defend throughout the escape
 
 - [[Positions/Mount]] - Counter outcome - opponent may achieve mount if they follow the roll successfully
 

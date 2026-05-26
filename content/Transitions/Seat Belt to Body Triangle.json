@@ -74,7 +74,7 @@
       "relationship": "Follow-up submission — body triangle compression can be used as a direct finishing technique once established"
     },
     {
-      "name": "Body Triangle RNC",
+      "name": "Rear Naked Choke from Body Triangle",
       "relationship": "Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing"
     },
     {
@@ -90,7 +90,7 @@
       "relationship": "Primary attack from destination — body triangle amplifies RNC effectiveness through breathing restriction"
     },
     {
-      "name": "Bow and Arrow from Seat Belt",
+      "name": "Bow and Arrow Choke",
       "relationship": "Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade"
     },
     {
@@ -234,7 +234,7 @@
         "description": "During positional sparring from back control, integrate the body triangle transition as one option within your full back attack repertoire. Practice choosing between maintaining hooks for dynamic attacks versus upgrading to body triangle for sustained pressure based on the specific sparring situation. Develop the judgment to select the right moment and recognize when to abort mid-transition and return to hooks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the seat belt to body triangle transition?",
         "answer": "The optimal timing window occurs when the defender is in a passive moment — specifically after a failed escape attempt when they pause to breathe, while they are actively defending their neck with both hands (which means they are not fighting hooks), or during the brief reset period between defensive sequences. Initiating during active hip escaping or hook fighting dramatically increases failure probability because the defender's momentum compounds with your hook release to create positional instability."
@@ -266,6 +266,14 @@
       {
         "question": "After establishing the body triangle, what attacks become more effective compared to standard hook control?",
         "answer": "The body triangle amplifies all upper body attacks because the breathing restriction creates compounding urgency — the defender must address both the squeeze and the submission threat simultaneously. The rear naked choke becomes significantly more effective because the defender cannot fully expand their chest to create defensive space. The bow and arrow choke benefits from the immobilized hips preventing defensive rotation. Armbar setups improve because the defender's reduced oxygen makes sustained grip fighting more difficult. The body triangle squeeze itself can serve as a submission or force tap through sustained rib compression."
+      },
+      {
+        "question": "You notice the defender has both hands tucked under their chin defending a choke — is this the right moment to initiate the body triangle transition?",
+        "answer": "Yes, this is an excellent timing window. When both of the defender's hands are committed to neck defense, they cannot fight your hooks, grab your threading leg, or generate hip escapes effectively. Their defensive focus is entirely on the upper body threat, leaving the lower body transition largely uncontested. Increase seat belt pressure slightly to reinforce their commitment to neck defense, then begin threading smoothly. The defender faces a dilemma: abandon neck defense to fight your legs and risk being choked, or allow the body triangle to lock and face compounding pressure from both the squeeze and continued choke threats."
+      },
+      {
+        "question": "After locking the body triangle, you realize the lock has slipped too low around the defender's hips rather than their lower ribs — how do you correct this without losing the lock?",
+        "answer": "Use hip extension and a slight upward hip walk to slide the triangle higher on the defender's torso. Maintain the figure-four lock throughout the adjustment — do not unlock and re-lock, as this creates an escape window. Pull the defender's upper body toward you with the seat belt while driving your hips forward and slightly upward, using the friction of your legs against their body to inch the lock higher. Time each adjustment with a squeeze pulse that pins the defender's torso while your hips reposition. The hip bones will catch the lock once you reach the lower ribcage area, preventing further slippage."
       }
     ],
     "safety_considerations": "The Seat Belt to Body Triangle transition itself carries moderate injury risk primarily during the threading phase. Avoid explosive leg swings that could impact the defender's ribs, floating ribs, or spine. Once the body triangle is established, apply compression gradually rather than slamming into maximum squeeze — sudden full-power compression on the ribcage can cause rib fractures or cartilage damage, particularly against smaller training partners. In training, communicate with your partner about pressure levels and release immediately upon tap. Be especially careful with the lock positioning — a triangle locked across the lower spine rather than the ribs can cause lumbar compression injuries."
@@ -350,7 +358,7 @@
         "correction": "Use sustained, technically precise defensive sequences rather than a single explosion. Combine hip escape with hand blocking with continued movement — layer your defenses rather than committing everything to one action."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is attempting the body triangle transition rather than just adjusting their hooks?",
         "answer": "The earliest cue is feeling one hook begin to withdraw from inside your thigh while simultaneously experiencing increased seat belt pressure and chest compression. Normal hook adjustments maintain the hook inside your thigh — they shift position but don't withdraw. The threading attempt requires the hook to come completely out of your thigh to cross your torso. Additionally, the attacker's hip pressure often increases against the mat as they establish a stable threading base, which feels different from the dynamic hip movement of standard back control."

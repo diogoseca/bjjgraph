@@ -190,6 +190,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing 50-50 Entry from Standing?</p>
+
 - Control opponent's leg before committing to the entry
 - Maintain balance during the transition from standing to seated
 - Establish proper leg configuration immediately upon sitting
@@ -205,6 +207,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting 50-50 Entry from Standing?</p>
+
 - Standing position with both competitors on their feet
 - At least one grip established on opponent (collar, sleeve, or wrist control)
 - Appropriate distance to reach opponent's leg without overextending
@@ -218,6 +222,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute 50-50 Entry from Standing step by step?</p>
 
 1. **Establish grip control**: Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance.
 2. **Target the lead leg**: Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter.
@@ -247,6 +253,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter 50-50 Entry from Standing?</p>
+
 - **Sprawl and distance creation** (Effectiveness: High) - Your Response: Maintain your ankle/shin grip and use it to pull yourself into position even as they sprawl. If they create significant distance, abandon the 50-50 entry and transition to a single leg attack or standing reset. → Leads to [[Positions/Standing Position]]
 - **Immediate backward step and leg extraction** (Effectiveness: Medium) - Your Response: Use your upper body grip to prevent them from stepping back. If they begin to extract, follow them with your hips and try to establish a deep half guard or outside ashi garami instead. → Leads to [[Positions/Standing Position]]
 - **Forward pressure and knee slice attempt** (Effectiveness: Medium) - Your Response: Use your outside leg frame to create distance and prevent them from driving their knee across. Transition to X-Guard or single leg X if they commit too much forward pressure. → Leads to [[Positions/Open Guard]]
@@ -259,6 +267,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing 50-50 Entry from Standing?</p>
 
 ### 1. Entering without first establishing upper body control
 
@@ -303,6 +313,8 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train 50-50 Entry from Standing (Attacker)?</p>
+
 **Phase 1 (Weeks 1-2): Static Entry Drilling** - Learning the basic mechanics without resistance
 Practice the entry from standing with a compliant partner. Focus on coordinating the sitting motion with the leg configuration. Partner should remain stationary and allow you to establish the position. Drill 10-15 repetitions per training session, alternating sides. Focus on smooth, controlled movement rather than speed.
 
@@ -326,48 +338,12 @@ Actively look for opportunities to enter 50-50 from standing during regular spar
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of the upper body grip when entering 50-50 from standing?
-**A**: The upper body grip serves two critical purposes: first, it prevents the opponent from creating distance and sprawling away during your entry; second, it helps control your descent to the mat and allows you to pull yourself into the proper position. Without this grip, opponents can easily avoid the entry by stepping back or sprawling.
-
-**Q2**: Why is it important to keep your hips close to your opponent's hips in the 50-50 position?
-**A**: Keeping your hips close to your opponent's hips eliminates the space they need to create angles for escapes or passes. This proximity is fundamental to the position's effectiveness - it prevents them from clearing your legs, makes it difficult for them to posture up, and allows you to better control their movement. Distance is your enemy in 50-50.
-
-**Q3**: How should you respond if your opponent begins to sprawl as you attempt the entry?
-**A**: If your opponent sprawls, maintain your ankle or shin grip and use it to pull yourself into position despite their defensive posture. If they create significant distance, you should abandon the 50-50 entry and transition to an alternative attack such as a single leg takedown or reset to standing. Forcing a failed entry will leave you in a poor position.
-
-**Q4**: What is the correct configuration of your outside leg in the 50-50 position and why is this positioning critical?
-**A**: Your outside leg should thread inside your opponent's thigh with your shin across their hip and your foot placed on or behind their far hip. This leg acts as a critical frame that prevents your opponent from passing around to your outside. Without this barrier properly positioned, they can easily circle to side control or disengage from the position entirely. This is the primary defensive structure of the position.
-
-**Q5**: What is the optimal timing window for committing to the 50-50 entry from standing?
-**A**: The optimal timing window occurs when your opponent's weight shifts forward onto their lead leg, typically during their offensive movement or when they reach to establish grips. This forward commitment makes sprawling mechanically difficult since their weight must reverse direction. A secondary window exists immediately after you break their grip or collar tie, during the momentary distraction of the grip break. The worst timing is when they are retreating or have their weight on their back foot, as they can easily continue backward movement to avoid your entry.
-
-**Q6**: What grip is most critical during the sitting phase of the entry, and why?
-**A**: The ankle or lower shin grip on their lead leg is most critical during the sitting phase. This grip serves as your anchor point that prevents them from simply stepping back out of range. It allows you to pull yourself into proper hip proximity rather than sitting down at distance. Even if your upper body grip is broken, maintaining the ankle grip enables you to continue the entry by following their leg. The upper body grip is important for control, but the ankle grip is what physically connects you to your target limb for the entanglement.
-
-**Q7**: What direction of force should you apply through your hips during the transition to 50-50?
-**A**: Your hips should drive forward and slightly upward toward your opponent's hips during the transition. This forward hip drive accomplishes several things: it closes the distance that would allow them to escape, it loads your weight into the entanglement creating immediate control, and it prevents you from sitting back at distance where they could easily disengage. Think of driving your hips into theirs rather than simply dropping your seat to the mat. The forward vector is more important than the downward vector.
-
-**Q8**: Your opponent posts their hand on your shoulder as you begin the entry - how do you adjust?
-**A**: When an opponent posts on your shoulder during entry, they are attempting to create a frame that blocks your descent and maintains distance. You should immediately secure their posting arm with your free hand by gripping the wrist or sleeve, pulling it across your body to collapse the frame. This arm drag motion simultaneously removes their defensive structure and creates an angle advantage. Continue your entry once the post is cleared, using the trapped arm as additional control.
-
-**Q9**: What are the backup options if your 50-50 entry is successfully defended, and how do you transition to them?
-**A**: If the 50-50 entry fails, your primary backup options depend on how it was defended: (1) If opponent sprawls but you maintain leg control, transition to single leg takedown; (2) If opponent steps back, follow with outside ashi garami or shin-to-shin guard; (3) If opponent drives forward with pressure, establish X-guard or single leg X; (4) If completely stuffed, stand back up and reset to neutral standing position. The key is maintaining your grips and staying connected to your opponent rather than remaining in a failed position.
-
-**Q10**: If your opponent successfully defends your initial 50-50 entry by stepping back, what chain attack should you immediately threaten?
-**A**: When your opponent steps back to defend the 50-50 entry, immediately threaten the single leg takedown by maintaining your ankle grip and transitioning your weight forward onto your lead knee. This creates a dilemma: if they continue backing away, you follow with the single leg; if they stop their backward movement to address the single leg threat, you have recreated the opportunity to re-enter 50-50. The key is staying connected and threatening offense rather than accepting a failed entry. Many practitioners find the single leg threat opens the 50-50 entry on the second attempt as opponents freeze to defend the takedown.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for 50-50 Entry from Standing?</p>
 
 The 50-50 Entry from Standing carries moderate injury risk, primarily to the knees and ankles during the sitting motion and entanglement phase. When practicing this technique, always ensure you have adequate mat space to sit without obstacles. Control your descent to the mat - dropping too quickly or from too high can cause knee or tailbone injuries. When your partner is learning to defend, they may attempt to remain standing while you pull them down, which can create dangerous torque on the entangled leg. Both partners should agree on whether to follow to the ground or to reset if the entry is defended. In competition scenarios, be aware of potential slam counters if you maintain the position while being lifted - it's safer to release and reset than to risk injury. During the learning phases, practice slowly and ensure both partners understand the mechanics before adding speed or resistance. The 50-50 position itself can place significant stress on the knee joint, so both participants should tap early to any leg lock threats and communicate clearly about their comfort level with the pressure being applied.
 

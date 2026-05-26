@@ -213,7 +213,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Grip Fighting Fundamentals",
+        "phase": "Phase 1: Grips Fundamentals",
         "focus": "Establishing and maintaining double leg control",
         "description": "Practice grip fighting drills against a seated guard player. Focus on securing both pant legs or ankles while partner fights grips. Develop grip strength and timing for controlling both legs simultaneously. No passing attempts—purely grip acquisition and retention."
       },
@@ -238,7 +238,7 @@
         "description": "Positional sparring starting from seated guard top. Attempt toreando and chains against fully resisting partners. Track pass completion percentage and identify which defensive reactions give you the most trouble. Refine timing and direction changes under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What grip placement options exist for the toreando pass and when should you choose each?",
         "answer": "Three primary grip options exist: knee grips provide strong push-down control for pinning legs to the mat but offer less directional precision; ankle grips provide maximum directional control and work well in no-gi but require more grip strength to maintain; mid-shin or pants grips offer a balance of control and direction. Choose knee grips against opponents with active feet who constantly push your hips, ankle grips against passive opponents with extended legs, and mid-shin grips when you need both control and the ability to quickly redirect direction."
@@ -363,7 +363,7 @@
         "correction": "When partially passed, first recover your hip position by scooting to face the passer before attempting to reinsert legs. Hip position first, then leg recovery."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most effective moment to defend the toreando pass, and why?",
         "answer": "The most effective defense happens before the passer establishes double leg control, during the grip fighting phase. Once both legs are controlled, defensive options diminish significantly because the passer can redirect your legs at their chosen timing. During grip fighting, you can establish sleeve or collar grips that prevent the passer from reaching your legs, or use foot-on-hip frames to maintain distance. This proactive defense is far more energy-efficient than reactive defense after legs are controlled."
@@ -387,7 +387,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Grip Fighting Defense",
+        "phase": "Phase 1: Grips Defense",
         "focus": "Preventing double leg control through proactive grip fighting",
         "description": "Partner attempts to establish double leg control from standing over your seated guard. Focus exclusively on preventing grips through sleeve control, foot-on-hip frames, and active hand fighting. No passing attempts—purely grip prevention. Score system: partner scores for establishing both grips, you score for maintaining grip-free legs for 15 seconds."
       },

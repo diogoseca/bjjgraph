@@ -32,7 +32,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the lapel - slack allows opponent to unwind and escape the configuration

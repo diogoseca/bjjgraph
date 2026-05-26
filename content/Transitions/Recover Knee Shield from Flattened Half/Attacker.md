@@ -194,6 +194,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Recover Knee Shield from Flattened Half?</p>
+
 - Fight for the underhook on the far side before initiating hip escapes - it provides the structural foundation for all subsequent movements
 - Execute incremental hip escapes rather than explosive bridges - small gains compound while large movements are easily countered
 - Fill every pocket of space immediately with your elbow, forearm, or knee to prevent the opponent from re-collapsing the distance
@@ -209,6 +211,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Recover Knee Shield from Flattened Half?</p>
+
 - At least one leg hooked around the opponent's leg maintaining half guard configuration
 - Sufficient arm mobility to fight for an underhook or establish an elbow frame against the opponent's hip
 - Mental composure and controlled breathing rhythm under sustained chest pressure
@@ -221,6 +225,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Recover Knee Shield from Flattened Half step by step?</p>
 
 1. **Establish breathing rhythm and composure**: Before attempting physical recovery, calm your breathing with small controlled breaths timed to natural pressure fluctuations. Panicked breathing leads to oxygen debt and frantic movements that tighten the opponent's control. Accept the discomfort and prepare for systematic work.
 2. **Fight for the underhook on the far side**: Swim your near-side arm under the opponent's armpit to secure an underhook on their far side. This is your highest priority control point because it prevents them from fully settling their weight and provides the structural leverage needed for effective hip escapes. If denied, frame on their bicep to create momentary space and reattempt.
@@ -251,6 +257,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Recover Knee Shield from Flattened Half?</p>
+
 - **Opponent increases crossface pressure and drives shoulder into jaw to prevent hip escape** (Effectiveness: High) - Your Response: Accept the crossface and focus on maintaining your underhook rather than fighting the head position. Execute smaller hip escapes and time them to the opponent's breathing cycles when crossface pressure briefly reduces. The underhook prevents the crossface from completely pinning you flat. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent strips your underhook by swimming their arm through and establishing a whizzer** (Effectiveness: High) - Your Response: Immediately frame on their bicep with your freed arm and attempt to re-swim for the underhook. If the whizzer is deep, transition to lockdown with your legs to stabilize before reattempting the underhook. Without the underhook, pause hip escape attempts until structural support is re-established. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent times a knee slice through the space you create during hip escape** (Effectiveness: Medium) - Your Response: Press your recovering knee into their advancing knee as a block rather than trying to get the shield fully across. Tighten your bottom leg hook to prevent their leg from slicing through. If they commit to the slice, use the momentum change to dive to deep half guard underneath them. → Leads to [[Positions/Side Control]]
@@ -262,6 +270,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Recover Knee Shield from Flattened Half?</p>
 
 ### 1. Attempting explosive bridges without first establishing frames or underhook
 
@@ -301,6 +311,8 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Recover Knee Shield from Flattened Half (Attacker)?</p>
+
 **Phase 1: Hip Escape Mechanics Under Weight** - Developing efficient shrimping mechanics while bearing chest pressure
 Partner applies moderate chest pressure from flattened half guard while you practice isolated hip escapes. Focus on direction (toward trapped leg), compactness of movement, and immediate frame insertion after each shrimp. No attempt to establish knee shield yet - pure hip escape repetition under gradually increasing pressure.
 
@@ -321,45 +333,12 @@ Timed two-minute rounds starting in flattened half guard. Bottom player must rec
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body position you must secure before attempting to insert the knee shield?
-**A**: You must first secure an underhook on the opponent's far side. The underhook provides the structural foundation that prevents the opponent from fully settling their weight and creates the leverage needed for effective hip escapes. Without the underhook, hip escape attempts lack structural support to generate meaningful space, and the opponent can easily drive you flat again after each micro-movement.
-
-**Q2**: Your opponent drives heavy crossface pressure as you begin hip escaping - how do you continue the recovery?
-**A**: Accept the crossface and focus on maintaining your underhook rather than fighting the head position directly. Use your underhook arm to brace against their far shoulder while executing smaller, more controlled hip escapes toward your trapped leg side. The underhook prevents the crossface from completely pinning you, and each hip escape compounds even under heavy pressure. Time your shrimps with moments when the opponent adjusts their crossface angle and pressure briefly lightens.
-
-**Q3**: Why must you hip escape toward your trapped leg side rather than away from it?
-**A**: Hip escaping toward your trapped leg side keeps your chest facing the opponent, preventing back exposure that skilled top players immediately exploit for back takes. Moving toward the free leg side naturally turns you away from the opponent, creating the exact rotation pattern they need to transition to back control. The trapped leg side direction also creates space at the correct angle for knee shield insertion across their hip line.
-
-**Q4**: What is the correct sequence for filling space after each hip escape increment?
-**A**: Immediately insert your elbow or forearm into the gap created between your torso and the opponent's chest before they can collapse the space. This creates a structural wedge that preserves gained distance through a ratchet effect. Once the elbow is established, the next hip escape creates enough room to drive your knee upward toward their centerline. Each frame insertion must happen in the same motion as the hip escape with zero delay, because any gap allows the top player to re-establish pressure.
-
-**Q5**: When during the opponent's movement cycle is the optimal time to initiate your knee shield recovery?
-**A**: The best window opens when the opponent shifts weight to advance position, adjust grips, or initiate a passing sequence. When they start a knee slice, change their crossface angle, or shift weight laterally for grip changes, their chest pressure momentarily reduces. This instant of lighter pressure is your trigger to execute a hip escape and advance the recovery. Recovering reactively during their movements is far more efficient than trying to create space against settled, static pressure.
-
-**Q6**: What should you do if the opponent strips your underhook during the recovery attempt?
-**A**: Immediately re-fight for the underhook before attempting further hip escapes. Without the underhook, your recovery lacks structural integrity and subsequent movements will be neutralized by the opponent simply resettling their weight. Frame on their bicep or shoulder to create momentary space, then swim your arm back through. If they actively deny the underhook with a deep whizzer, transition to lockdown with your legs to stabilize the position before reattempting.
-
-**Q7**: How do you prevent the top player from completing a knee slice pass as you create space for the knee shield?
-**A**: The space you create for knee shield insertion is the same space the opponent can exploit for a knee slice. The critical defense is speed of shield insertion: drive your knee across their hip line immediately as space opens, before they can redirect their knee through the gap. Maintain your bottom leg hook tight to prevent their leg from slicing through. If they begin the knee slice, press your recovering shin into their advancing thigh as a block rather than trying to complete the full shield across their chest.
-
-**Q8**: Your partial knee shield keeps getting knocked down before you can fully establish it - what adjustment should you make?
-**A**: Ensure you are creating sufficient space through hip escaping before attempting shield insertion. A premature attempt without adequate room results in a weak frame that is easily collapsed. Create at least one full elbow-width of space before driving the knee across. Additionally, support the knee shield with your hand pressing on the inside of your own knee, creating a reinforced frame structure the opponent cannot easily smash flat. Once the shield has structural support, immediately secure a collar or sleeve grip to lock in the position.
-
-**Q9**: What alternative transition should you pursue if direct knee shield recovery is repeatedly blocked?
-**A**: Transition to deep half guard by diving under the opponent's hips instead of fighting for the shield insertion. When the opponent's crossface and forward pressure make direct recovery impossible, the directional change to deep half catches them off-guard. From deep half, the sweeping threat forces them to post and redistribute weight, which often creates the space needed to come back up to knee shield from a stronger position. The key is recognizing early when direct recovery is not viable and switching rather than burning energy on failed attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Recover Knee Shield from Flattened Half?</p>
 
 This recovery technique involves operating under heavy chest pressure that restricts breathing. Never train to the point of genuine respiratory distress, and tap immediately if you experience lightheadedness, vision changes, or panic from breathing restriction. The knee shield insertion movement can stress the medial knee joint if forced through insufficient space - always create adequate room through hip escapes before driving the knee across. Partners should gradually increase pressure during drilling rather than applying maximum weight from the start. Communicate clearly about pressure levels during training and establish hand signals for reducing pressure when verbal communication is difficult.
 

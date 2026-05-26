@@ -3,24 +3,31 @@
 
 
 ---
-title: "Monoplata | BJJ Submission | BJJ Graph"
+title: "Monoplata | BJJ Submission Family | BJJ Graph"
 description: "Master the Monoplata submission in BJJ. Complete guide covering setup from guard, execution steps, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Monoplata targets the Shoulder joint and rotator cuff. Risk: Shoulder dislocation or subluxation. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Monoplata/Attacker|Play as Attacker]]
-[[Monoplata/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Monoplata/from Guard|Closed Guard]] | 48% | Rotator cuff tear or strain |  |
+| [[Monoplata/from Mount|Mount]] | 48% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +36,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Closed Guard]]
-**Success Rate**: 45%
+**Success Rate**: 45% (average across variants)
 
 </section>
 
@@ -76,145 +82,10 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Figure-four leg control creates superior isolation compared ... | Recognize the monoplata threat during the leg threading phas... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Monoplata/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Figure-four leg control creates superior isolation compared to traditional omoplata positioning
-
-- Maintain tight connection between your legs and opponent's trapped arm throughout the sequence
-
-- Control opponent's posture with your free leg to prevent postural escape
-
-- Apply rotational pressure gradually through hip extension and rotation, never sudden jerking
-
-- The submission relies on mechanical advantage through proper leg positioning rather than explosive force
-
-- Create angles that make defending the shoulder lock impossible without tapping
-
-- Maintain multiple backup options including sweeps and transitions if the finish is defended
-
-
-### Execution Steps
-
-
-- **Establish Rubber Guard or High Guard Control**: From closed guard with broken posture, secure an overhook on opponent's arm and pull your foot high ...
-
-- **Create Space and Thread Bottom Leg**: Using your free leg, push on opponent's hip or thigh to create space and angle your body approximate...
-
-- **Establish Figure-Four Leg Configuration**: Once your bottom leg is threaded through, bring your top leg (the one that was on their back) over a...
-
-- **Adjust Body Angle for Optimal Leverage**: Rotate your hips and body perpendicular to opponent's torso, similar to omoplata positioning. Your s...
-
-- **Control Opponent's Posture with Free Leg**: Use your outside leg (not involved in the figure-four) to hook over opponent's head, back, or far sh...
-
-- **Apply Finishing Pressure Through Hip Extension**: Gradually extend your hips upward while maintaining the figure-four lock and rotating your legs cloc...
-
-
-### Common Mistakes
-
-
-- **Applying explosive or jerking rotational pressure to the shoulder**
-  - Consequence: Causes immediate shoulder dislocation or severe rotator cuff damage, potentially ending your training partner's grappling career
-  - Correction: Apply all pressure gradually and progressively over 5-7 seconds minimum. Think of slowly turning a dial, not flipping a switch. Stop immediately at any resistance or tap signal.
-
-- **Failing to secure the figure-four tightly before applying pressure**
-  - Consequence: Opponent escapes easily by pulling their arm free, and you lose the position entirely
-  - Correction: Ensure your feet are locked securely in figure-four configuration with no gaps. The trapped arm should have no space to maneuver. Test the tightness before progressing to finishing pressure.
-
-- **Not controlling opponent's posture with free leg or hands**
-  - Consequence: Opponent easily postures up or rolls forward to escape, negating all your setup work
-  - Correction: Always establish secondary control points. Your free leg should hook their head or back, and your hands should grip their belt or gi to control their torso. These controls must be active throughout the submission attempt.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Monoplata/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize the monoplata threat during the leg threading phase before the figure-four is locked, when escape is still straightforward
-
-- Maintain strong upright posture in guard to deny the broken-posture prerequisite the attacker needs to begin the setup
-
-- Keep your elbows tight to your torso to prevent arm isolation and overhook establishment
-
-- Address the leg entanglement first before attempting to pull your arm free, as arm extraction without clearing legs triggers omoplata transitions
-
-- Use forward pressure and stacking to collapse the attacker's hip elevation, which is the structural foundation of the entire submission
-
-- Always maintain awareness of your shoulder position relative to the rotational pressure axis to avoid injury during escape attempts
-
-- If the figure-four is fully locked with perpendicular angle, tap early rather than risk catastrophic shoulder injury from forced escape
-
-
-### Recognition Cues
-
-
-- Opponent breaks your posture and secures an overhook on your arm while pulling their foot high onto your back or shoulder from closed guard
-
-- You feel your arm being isolated between opponent's legs as they begin threading their bottom leg underneath your trapped arm
-
-- Opponent shifts their hips laterally and begins rotating perpendicular to your torso while maintaining leg contact on your arm
-
-- Your opponent's feet begin locking together in a figure-four configuration around your isolated arm
-
-- You feel increasing rotational pressure on your shoulder as opponent extends their hips while maintaining the figure-four lock
-
-
-### Escape Paths
-
-
-- Posture recovery and overhook strip before figure-four establishment returns you to neutral closed guard top
-
-- Forward roll over trapped shoulder when free leg control is absent relieves pressure and creates scramble opportunity
-
-- Arm extraction through circular elbow motion combined with leg clearing when figure-four has slack
-
-- Stacking pressure to collapse hip elevation followed by arm extraction and guard pass to side control
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Monoplata from Mission Control**: From rubber guard mission control position with high foot on shoulder and overhook secured, thread bottom leg under trapped arm while maintaining upper body control. This entry provides superior control and makes the figure-four setup more secure. (When to use: Preferred no-gi entry when opponent is defending in rubber guard system, particularly when they are attempting to strip your overhook grip)
@@ -252,17 +123,15 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ## Related Submissions
 
-- [[Transitions/Omoplata]]
-- [[Submissions/Omoplata from Guard]]
-- [[Transitions/Triangle Choke]]
-- [[Transitions/Gogoplata]]
-- [[Transitions/Baratoplata]]
-- [[Submissions/Tarikoplata]]
-- [[Submissions/Armbar from Guard]]
-- [[Submissions/Triangle from Closed Guard]]
-- [[Transitions/Inverted Triangle]]
-- [[Submissions/Monoplata from Guard]]
-- [[Submissions/Monoplata from Mount]]
+- [[Submissions/Omoplata]] - Closely related shoulder lock sharing similar body positioning and entry mechanics from guard
+- [[Transitions/Gogoplata]] - Advanced rubber guard submission sharing similar flexibility requirements and guard control prerequisites
+- [[Submissions/Baratoplata]] - Related shoulder lock variation accessible from similar figure-four configurations in guard
+- [[Submissions/Tarikoplata]] - Shoulder lock chain option when opponent defends initial monoplata setup by posturing
+- [[Submissions/Far Side Armbar]] - Alternative arm attack available when monoplata figure-four cannot be fully established
+- [[Submissions/High Elbow Guillotine]] - Complementary choke attack from guard when opponent defends shoulder lock threats
+- [[Armbar Finish]] - Common transition option when monoplata leg configuration loosens during attack
+- [[Transitions/Gogoplata]] - Advanced finish from same rubber guard system sharing positional prerequisites
+- [[Submissions/Belly Down Armbar]] - Backup arm attack when opponent rolls to escape monoplata shoulder pressure
 
 
 </section>

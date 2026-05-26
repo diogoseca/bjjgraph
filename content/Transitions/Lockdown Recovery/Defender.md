@@ -162,6 +162,8 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown Recovery?</p>
+
 - Bottom player turns their hips toward your posted leg side rather than bridging straight up or escaping toward the across-body knee
 - Bottom player's far-side hand frames on your hip on the posted leg side, creating separation and space for their legs to move
 - You feel the bottom player's near-side leg threading between your posted leg and their body, hooking behind your ankle or calf
@@ -173,6 +175,8 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown Recovery?</p>
 
 - Monitor hip angle constantly - the bottom player must turn their hips toward your posted leg before they can capture it, making hip rotation the earliest warning signal
 - Maintain optimal posting distance - post far enough for stability but close enough that the leg cannot be easily threaded around, adjusting based on opponent's reach
@@ -187,6 +191,8 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown Recovery?</p>
 
 ### 1. Retract posted leg and transition to standard mount by bringing knee back across opponent's torso
 
@@ -224,6 +230,8 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown Recovery?</p>
+
 ### → [[Positions/Mount/Modified Mount]]
 
 Detect the Lockdown entry attempt early through hip angle recognition and either retract the posted leg to standard mount position or drive the knee forward to crush space before the figure-four completes. Maintain heavy crossface and across-body knee pressure throughout to prevent the bottom player from generating the hip angle needed for re-entry.
@@ -239,6 +247,8 @@ When the bottom player commits fully to the Lockdown capture attempt, transition
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown Recovery?</p>
 
 ### 1. Posting the leg too far from body creating excessive space for the bottom player's leg threading
 
@@ -268,6 +278,8 @@ When the bottom player commits fully to the Lockdown capture attempt, transition
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown Recovery?</p>
+
 **Week 1-2** - Recognition and early detection
 Partner slowly attempts Lockdown Recovery entries from bottom Modified Mount. Top player focuses exclusively on recognizing hip rotation and leg threading cues without attempting counters. Call out each cue verbally as you feel it. Build tactile sensitivity to the earliest warning signals before adding defensive responses.
 
@@ -284,29 +296,6 @@ Full-resistance positional sparring from Modified Mount. Top player works to mai
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Lockdown Recovery from bottom Modified Mount?
-**A**: The earliest cue is the bottom player turning their hips toward your posted leg side. Before they can thread any legs around your posted leg, they must first create an angle by rotating their hips in that direction. This hip rotation precedes the leg threading by a full beat, giving you a window to react. You will feel their hip turning under your across-body knee before their legs move. Secondary cues include their far-side hand framing on your hip and their near-side arm staying tight rather than reaching upward.
-
-**Q2**: Why should you avoid pulling your trapped leg straight backward once the Lockdown figure-four is established?
-**A**: The Lockdown figure-four is mechanically designed to resist backward linear force - pulling straight back actually tightens the bottom player's grip because their legs extend with yours, maintaining the lock. Additionally, backward extraction extends your leg into the exact position needed for an Electric Chair setup, giving the bottom player their primary submission opportunity. Instead, use circular motion to extract: rotate your knee inward toward their centerline while driving hip pressure downward. This angle changes the force vector to one the Lockdown configuration is weakest against.
-
-**Q3**: Your opponent has hooked your ankle with their bottom leg but has not yet completed the figure-four - what is your optimal response?
-**A**: This is the critical intervention window. Immediately drive your posted knee forward into their hip crease while simultaneously increasing crossface or shoulder pressure to flatten them. The forward knee drive crushes the space they need to wrap their top leg over to complete the triangle. If the hook is deep, use a windshield-wiper motion circling your foot outward and backward to strip their instep hook. The key is acting before the top leg wraps over - once both legs are triangled, extraction difficulty increases dramatically.
-
-**Q4**: How should you adjust your Modified Mount posting distance to prevent Lockdown Recovery while maintaining stability?
-**A**: The posted leg should be close enough to your body that the bottom player cannot fit both their legs through the gap between your posted leg and their torso, but far enough out to provide meaningful stability against bridge-and-roll attempts. A good reference is posting with your knee roughly at hip width, foot angled outward at approximately 45 degrees. If your opponent has long legs, you may need to post slightly closer. Continuously adjust based on their reach attempts - if they are getting close to threading, tighten the distance.
-
-**Q5**: When the bottom player commits to the Lockdown entry, what submission opportunity opens for you as the top player?
-**A**: When the bottom player commits their hips and legs to the Lockdown capture, their near-side arm defense often loosens because their focus and physical energy shift to the leg threading motion. This creates an armbar opportunity from Modified Mount - their near-side arm may extend slightly or lose the tight defensive position against their body. You can immediately attack by controlling their wrist and swinging your posted leg over their head for the armbar. The irony is that their escape attempt exposes them to the very submission that Modified Mount naturally facilitates.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Harness to Body Lock?</p>
+
 - Maintain unbroken chest-to-back connection throughout the entire grip transition, never allowing space to develop between your chest and their back
 - Slide your locked grip downward along the opponent's torso rather than releasing and re-gripping, preserving continuous control
 - Match your opponent's elevation change by posting your feet and rising with them, keeping your hips loaded against their hips
@@ -203,6 +205,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Harness to Body Lock?</p>
+
 - Harness (seat belt) grip is currently intact with hands locked on the opponent's upper chest or sternum
 - Opponent has cleared at least one hook and is beginning to elevate their hips or stand
 - Chest-to-back connection is maintained with your torso pressed against their back
@@ -215,6 +219,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Harness to Body Lock step by step?</p>
 
 1. **Recognize the trigger**: Identify the moment your opponent begins clearing hooks and shifting weight to their feet or knees. This is your signal to initiate the grip transition rather than fighting to re-insert hooks. Feel for their hips rising and their weight moving forward off your lap. The decision point occurs when hook re-insertion would require releasing grip control.
 2. **Post your feet for base**: Plant both feet behind you on the mat with toes curled under, creating a strong base that allows you to follow the opponent's upward movement. Your feet replace the hooks as your connection to the ground. Keep your knees bent and ready to drive upward. This base must be established before you begin sliding your grip downward.
@@ -245,6 +251,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Harness to Body Lock?</p>
+
 - **Opponent posts hands on your wrists and fights grip before lock reaches waist** (Effectiveness: High) - Your Response: Increase chest pressure to pin their elbows against their body, making it difficult to reach your wrists. If they do get wrist control, use explosive hip bump to create momentary separation of their hands from your wrists, then complete the slide. → Leads to [[Positions/Harness]]
 - **Opponent drops back to seated position to deny the standing transition** (Effectiveness: Medium) - Your Response: If they sit back down, re-insert hooks immediately since their escape attempt has been abandoned. You return to standard harness back control with hooks, which is the original dominant position. → Leads to [[Positions/Harness]]
 - **Opponent turns their torso to face you during the grip slide** (Effectiveness: High) - Your Response: Maintain your locked grip and follow their rotation. If they turn fully, you end up in a front body lock which still provides control. Use the turning momentum to take them down to side control or re-circle to their back. → Leads to [[Positions/Clinch]]
@@ -256,6 +264,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Harness to Body Lock?</p>
 
 ### 1. Releasing the locked grip to re-grip at the waist instead of sliding continuously
 
@@ -295,6 +305,8 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Harness to Body Lock (Attacker)?</p>
+
 **Phase 1: Grip Path Isolation** - Sliding mechanics without resistance
 With a cooperative partner in seated position, practice sliding your locked harness grip from upper chest to waist level while maintaining chest connection. Focus on keeping hands locked throughout, using forearm friction to control the slide speed. Perform 20 repetitions per side until the sliding motion is smooth and automatic.
 
@@ -315,42 +327,12 @@ Situational sparring starting from harness position with both practitioners at f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the trigger that tells you to initiate the body lock transition rather than fighting to re-insert hooks?
-**A**: The trigger is when your opponent clears at least one hook and begins shifting their weight to their feet or knees to stand. Specifically, when you feel their hips rising and their weight moving forward off your lap, and re-inserting the hook would require releasing your harness grip or fighting against their standing posture. At this point, hook re-insertion becomes low percentage and the body lock conversion preserves your positional advantage through a different control system.
-
-**Q2**: Why must the grip slide continuously rather than releasing and re-gripping at the waist?
-**A**: Releasing the grip creates a momentary control gap where the opponent can insert frames, turn to face you, or create distance for escape. The continuous slide maintains unbroken control throughout the transition because your locked hands never open. Even if the grip loosens slightly during the slide, it provides more control than zero grip during a re-grip attempt. The forearm friction against their torso during the slide also provides additional control that a release-and-re-grip cannot replicate.
-
-**Q3**: Your opponent begins standing but you notice their hands reaching for your wrists to fight the grip - how do you adjust?
-**A**: Increase your chest pressure to pin their elbows against their ribcage, which limits their ability to reach back for your wrists. Accelerate the grip slide to reach waist level before they can get effective hand control on your wrists. If they do establish wrist control, use a sharp hip bump forward to momentarily break their grip on your wrists, then immediately complete the slide. Your chest pressure is the key tool because it restricts their arm movement range.
-
-**Q4**: What is the most critical body connection point during the grip transition phase?
-**A**: The chest-to-back connection is the most critical point during the transition. While your grip is in transit from chest to waist, your locked hands temporarily provide less positional control. During this window, your chest pressing against their back is the primary mechanism preventing separation, turns, and escape. You should actually increase chest pressure during the grip slide to compensate for the reduced grip control. If chest connection breaks during the slide, the transition fails regardless of grip position.
-
-**Q5**: Where exactly should the body lock grip settle on the opponent's torso and why?
-**A**: The grip should lock at or just below the navel line around the opponent's waist. This position directly controls their center of mass, which is located approximately two inches below the navel. Locking too high around the chest reduces your mechanical advantage for mat returns and throws because you are pulling above their center of gravity. Locking too low on the hips allows them to use hip rotation to escape. The waist lock at navel level gives maximum control for both lifting and driving techniques.
-
-**Q6**: Why must you post your feet before beginning the grip slide and what happens if you skip this step?
-**A**: Posting your feet creates the base needed to follow your opponent's upward movement as they stand. Without foot base, you cannot generate the upward drive needed to match their elevation change, resulting in your body being dragged forward and downward while they stand above you. This creates separation between your chest and their back, and your grip slides off their body entirely because gravity pulls you in the opposite direction of their movement. Feet must be planted and ready to drive before the grip begins moving.
-
-**Q7**: Your opponent stops mid-stand and drops back to seated position when they feel you following - what is your response?
-**A**: This is actually a favorable outcome because the opponent has abandoned their escape attempt. Immediately re-insert your hooks since their defensive posture is now compromised from the failed standing attempt. Tighten your harness grip back to the upper chest position and re-establish standard back control. Their failed escape attempt often creates momentary disorientation and loosened defensive hand fighting, opening a window for submission attacks like the rear naked choke that were not available before.
-
-**Q8**: What grip configuration should you use for the body lock at the waist and when might you change it?
-**A**: The gable grip (palm-to-palm) is the default configuration for the body lock at the waist because it provides maximum compression force and is the most difficult for the opponent to break. You might switch to a rear naked choke grip (one hand gripping the opposite bicep) if you plan to immediately transition back to ground back control, as this grip pre-positions your arms for the harness when you return to the mat. Use butterfly grip (clasped hands, thumbs on top) when you need the flexibility to adjust between multiple attack options quickly.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Harness to Body Lock?</p>
 
 This transition involves standing grappling with locked grip control, which creates risk of falls and impact injuries for both practitioners. Ensure training mats are adequate for standing techniques. When practicing mat returns from the body lock, the person being returned to the mat should understand breakfalling mechanics. Never suplex or slam during training without explicit agreement. Release the body lock immediately if either practitioner loses balance in a dangerous direction. Be aware of surrounding training partners when practicing standing transitions. Controlled repetitions at reduced speed should precede any full-speed drilling.
 

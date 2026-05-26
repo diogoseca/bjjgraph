@@ -162,6 +162,8 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Balloon Sweep?</p>
+
 - Opponent uncrosses their ankles and opens their closed guard while maintaining strong collar and sleeve grips
 - You feel a butterfly hook or foot being inserted under your thigh or onto your hip after the guard opens
 - Opponent shifts their hips to a 45-degree angle while pulling your upper body tight to their chest
@@ -174,6 +176,8 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Balloon Sweep?</p>
 
 - Maintain upright posture with head over hips to prevent forward weight loading that enables the sweep
 - Fight the collar grip aggressively since it is the primary control mechanism for the entire sweep
@@ -188,6 +192,8 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Balloon Sweep?</p>
 
 ### 1. Post far leg wide and drive hips back to break the loading position
 
@@ -213,7 +219,7 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 ### 4. Drive forward explosively and flatten opponent while blocking the hook with your hip
 
 - **When to use**: When you feel the hook insertion but before the compression phase, using forward pressure to pin the opponent flat
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Flattening the opponent removes the hip angle they need for the sweep and may allow you to initiate a passing sequence
 - **Risk**: Driving forward loads more weight onto the hook, which the opponent can redirect into the sweep if your timing is wrong
 
@@ -225,11 +231,13 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Balloon Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain strong upright posture, fight collar grips immediately, deny hook insertion by squeezing knees tight, and post far leg wide if you feel any upward lifting pressure. Return to standard closed guard top defensive position and resume guard opening sequence.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
 When the opponent opens their guard to attempt the sweep, capitalize on the open guard by immediately initiating a guard pass. Drive forward to flatten them while controlling their legs, or stand up to break the guard position entirely and begin toreando or knee slice passing sequences.
 
@@ -240,6 +248,8 @@ When the opponent opens their guard to attempt the sweep, capitalize on the open
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Balloon Sweep?</p>
 
 ### 1. Allowing posture to break forward without resistance, loading weight onto the opponent's hooks
 
@@ -274,10 +284,12 @@ When the opponent opens their guard to attempt the sweep, capitalize on the open
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Balloon Sweep?</p>
+
 **Week 1-2: Recognition and Posture Fundamentals** - Identifying sweep setup cues and maintaining defensive posture
 Partner demonstrates the Balloon Sweep setup sequence at slow speed while you practice recognizing each stage: collar grip, posture break, guard opening, hook insertion, angle shift, and compression. Focus on maintaining posture against progressive pull pressure without worrying about counter-offense. Drill posture recovery 20 times per session.
 
-**Week 3-4: Active Grip Fighting and Hook Denial** - Preventing the setup conditions from being established
+**Week 3-4: Active Grips and Hook Denial** - Preventing the setup conditions from being established
 Partner actively attempts to establish the sweep setup while you practice grip stripping, posture maintenance, and hook denial. Focus on the two-on-one collar grip break and keeping knees squeezed to prevent hook insertion. Drill at 50% resistance, increasing to 70% as recognition improves.
 
 **Week 5-8: Live Defense with Counter-Passing** - Defending the sweep and transitioning to guard passing
@@ -290,29 +302,6 @@ Begin rounds in closed guard top with partner free to attack any sweep or submis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Balloon Sweep is being set up from closed guard bottom?
-**A**: The earliest cue is the opponent establishing a deep collar grip while simultaneously breaking your posture forward. Before the guard even opens, the collar grip and posture break establish the upper body control necessary for the sweep. Recognizing and fighting this grip immediately prevents the entire sweep chain from developing, since without posture control the opponent cannot load your weight onto their hooks.
-
-**Q2**: Why is posting the far leg the most effective immediate defense once the Balloon Sweep lift begins?
-**A**: Posting the far leg wide creates a triangulated base that the vertical lift cannot overcome, because the sweep moves along a diagonal line and the posted leg blocks that trajectory. The opponent designed the sweep to move you over their center line at a 45-degree angle. A wide far-leg post places a structural pillar directly in the path of the sweeping force, converting the sweep into a stalled position where the opponent has expended energy without achieving displacement.
-
-**Q3**: Your opponent opens their guard and you feel a butterfly hook being inserted under your thigh. What is the correct defensive sequence?
-**A**: Immediately widen your base by stepping your far knee out wide. Strip or fight the collar grip with your free hand using a two-on-one break. Push your hips backward to remove weight from the hook and restore upright posture. Control their legs or hips to prevent them from completing the angle shift. If the hook is already deep, stand up in base rather than trying to remove it from a kneeling position, as standing eliminates the mechanical advantage the hook provides.
-
-**Q4**: How does maintaining proper closed guard top posture prevent the Balloon Sweep before it starts?
-**A**: Proper posture with head over hips and weight distributed through your knees rather than forward through your hands denies the fundamental loading condition the Balloon Sweep requires. The sweep needs your weight concentrated forward and downward onto the opponent's hooks. With upright posture, your center of mass stays behind the potential hook position, meaning even if a hook is inserted, there is insufficient forward weight to load the spring mechanism that generates the explosive lift. Posture maintenance is preventive defense.
-
-**Q5**: What counter-attacking opportunities exist when you successfully defend a Balloon Sweep attempt?
-**A**: When the opponent opens their guard to attempt the sweep, they create guard passing opportunities that did not exist with closed guard locked. If you successfully defend by posting and driving hips back, you can immediately transition to toreando pass by controlling their legs in the now-open position. If you stand to defend, you can initiate standing guard passes. The failed sweep also often leaves their grips out of position, creating a window for grip fighting and posture establishment that accelerates your guard opening sequence.
-
-
-
-</section>
 
 
 </main>

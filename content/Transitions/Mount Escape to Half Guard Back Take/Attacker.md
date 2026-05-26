@@ -190,6 +190,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mount Escape to Half Guard Back Take?</p>
+
 - Plan the entire chain before initiating—the bridge is setup for half guard which is setup for back take
 - Secure the underhook during the half guard recovery, not after—timing is critical
 - Bait the leg extraction by maintaining loose half guard control that invites the pull
@@ -204,6 +206,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mount Escape to Half Guard Back Take?</p>
+
 - Mounted bottom position where you can execute a bridge or elbow-knee escape
 - Arms positioned to frame and trap opponent's leg during escape
 - Core and hip strength for explosive bridge followed by sustained come-up
@@ -215,6 +219,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mount Escape to Half Guard Back Take step by step?</p>
 
 1. **Execute mount escape to half guard**: Bridge explosively by trapping one of the opponent's feet with your same-side foot and driving your hips upward. As they post to maintain balance, use the space to shrimp and capture their leg between yours, establishing half guard. Alternatively, use the elbow-knee escape to create the same half guard entry.
 2. **Immediately secure underhook**: As you recover half guard, swim your inside arm under the opponent's armpit on the same side as the trapped leg. This underhook is the key element—it provides the lever to come up to their hip and prevents them from re-establishing mount through crossface pressure.
@@ -244,6 +250,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mount Escape to Half Guard Back Take?</p>
+
 - **Opponent recognizes the underhook and applies heavy crossface to flatten you back to half guard bottom** (Effectiveness: High) - Your Response: If crossface is established before you can come up, abandon the back take and default to standard half guard bottom game. Use knee shield to re-establish distance and look for sweep opportunities instead. → Leads to [[Positions/Half Guard]]
 - **Opponent does not extract their leg and instead settles into half guard top with heavy pressure** (Effectiveness: Medium) - Your Response: If they settle rather than extract, you are in standard half guard bottom with an underhook—a strong position. Work your regular half guard sweep game or transition to deep half guard. → Leads to [[Positions/Half Guard]]
 - **Opponent re-mounts by posting their free leg over your hip during your come-up attempt** (Effectiveness: Medium) - Your Response: If they step over during your come-up, immediately flatten back down and reset the half guard. The re-mount attempt often leaves one leg shallow enough to trap again for another escape attempt. → Leads to [[Positions/Mount]]
@@ -254,6 +262,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mount Escape to Half Guard Back Take?</p>
 
 ### 1. Attempting the back take without securing the underhook during half guard recovery
 
@@ -288,6 +298,8 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mount Escape to Half Guard Back Take (Attacker)?</p>
+
 **Phase 1: Chain Concept Drilling** - Understanding the mount → half guard → back take sequence as one continuous technique
 Partner allows each phase with no resistance. Practice the complete chain 20 times per side, focusing on the flow between phases. The goal is developing muscle memory for the sequence, not fighting through resistance.
 
@@ -308,45 +320,12 @@ Positional sparring starting from mount. Use all available escapes but specifica
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the underhook be established during the half guard recovery rather than after?
-**A**: The half guard recovery from mount creates a brief window where the opponent's weight is disrupted and their arms are occupied maintaining balance. This is the optimal moment to swim the underhook because their crossface defense is weakest. After they settle into half guard top, they will prioritize crossface and heavy pressure that makes establishing the underhook much more difficult. The underhook must be part of the escape motion, not a separate action.
-
-**Q2**: What is the opponent's dilemma when you maintain loose half guard with an underhook?
-**A**: The opponent faces a lose-lose choice: if they extract their leg, the weight shift and backward momentum give you the opening to come up and take the back. If they leave their leg trapped, they are stuck in half guard bottom (from their perspective as passer) with you holding an underhook—a strong sweeping and back-taking position. The more aggressively they try to extract, the more momentum you have for the back take. This dilemma is what makes the technique effective.
-
-**Q3**: When should you abandon the back take and default to standard half guard play?
-**A**: Abandon the back take when: the opponent establishes a strong crossface before you can come up (the crossface prevents the rise needed for back take), the opponent settles their weight into half guard top without attempting extraction (no momentum to exploit), or you miss the timing window during extraction and the opponent has already recovered base. In all these cases, you still have a viable half guard bottom position with underhook, which is a strong position for sweeps.
-
-**Q4**: How does the seat belt establishment differ in this back take compared to a standard back take from standing?
-**A**: In this chain, the underhook arm naturally becomes the over-shoulder arm of the seat belt as you circle behind. The transition is organic—you do not need to release the underhook and re-grip. Your underhook slides across their chest to their far shoulder while your other arm threads under their armpit. This is smoother than a standing back take where you must establish the seat belt from scratch. The key is maintaining the underhook throughout the circle rather than releasing it at any point.
-
-**Q5**: What makes this technique particularly effective against aggressive mount players?
-**A**: Aggressive mount players tend to pursue immediate leg extraction from half guard because they want to re-establish mount or advance to side control quickly. This urgency creates exactly the momentum and weight shift needed for the back take. Conservative players who settle into half guard top are actually harder targets for this chain because they deny the extraction opportunity. Against aggressive opponents, the technique rewards patience—let them commit to the extraction and use their energy for your back take.
-
-**Q6**: What specific grip configuration must be maintained throughout the come-up and circling phase?
-**A**: The underhook arm must maintain deep penetration under the opponent's armpit with your hand gripping their far lat or shoulder blade area. Your other hand controls their hip or belt line on the near side to prevent them from turning into you. During the circle, the underhook hand slides naturally toward their far shoulder while the hip-controlling hand threads under their armpit to form the seat belt. Releasing either grip prematurely during the circle creates a window for the opponent to spin and face you, collapsing the back take.
-
-**Q7**: In which direction should your primary driving force be oriented during the come-up from half guard?
-**A**: Your driving force should be diagonal—upward and toward the opponent's far hip, not straight up. Driving straight up leaves you in a neutral dogfight where the opponent can re-pummel. Driving toward their far hip angles your body behind theirs from the start, making the circle to back control a continuation of the initial motion rather than a separate step. The bottom foot provides the push, the underhook provides the pull, and both forces converge on the opponent's far hip as the focal point.
-
-**Q8**: Your opponent posts their far hand on the mat as you begin circling behind—how do you adjust?
-**A**: When the opponent posts their far hand, they are trying to base out and prevent you from completing the circle. Use your free hand to chop or block their posting arm at the elbow, collapsing their base on that side. Alternatively, accelerate your circle by pulling harder with the underhook while driving your head deeper into their armpit. The posting hand means they have removed one hand from defending your underhook or controlling your head, which actually improves your grip position even if it temporarily slows the circle. Some practitioners deliberately target the posted arm for a gift wrap control during this phase.
-
-**Q9**: If the back take stalls at the dogfight position, what chain attacks remain available?
-**A**: From dogfight with your underhook established, you have several high-percentage options: continue fighting the underhook battle and re-attempt the back circle when they overcommit to re-pummeling, execute a standard dogfight sweep by driving into them and lifting their trapped leg to come up on top to side control, transition to a single leg takedown by dropping your level and attacking their posted leg, or pull them into deep half guard by sitting back under them. The dogfight is not a dead end—it is a branching point with multiple offensive pathways, all of which are superior to the mount bottom you started from.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mount Escape to Half Guard Back Take?</p>
 
 This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort.
 

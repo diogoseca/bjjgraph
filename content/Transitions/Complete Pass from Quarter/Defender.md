@@ -164,6 +164,8 @@ Success in this defensive position requires understanding that passivity guarant
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Complete Pass from Quarter?</p>
+
 - Increased crossface shoulder pressure driving your head harder toward the mat, signaling the passer is preparing to lock upper body control for extraction
 - Top player's near-side hand moving from general control to specifically targeting your remaining knee shield or hook, indicating they are eliminating your last defensive structure
 - Forward hip advancement with the top player's weight shifting diagonally across your body toward your far shoulder, creating the angle needed for leg extraction
@@ -175,6 +177,8 @@ Success in this defensive position requires understanding that passivity guarant
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Complete Pass from Quarter?</p>
 
 - Recognize the pass attempt within one second through pressure changes—increased crossface, hand moving to your knee, or hip advancement signals the extraction is imminent
 - Maintain underhook at all costs as your primary offensive tool and defensive anchor against crushing shoulder pressure during the pass
@@ -189,6 +193,8 @@ Success in this defensive position requires understanding that passivity guarant
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Complete Pass from Quarter?</p>
 
 ### 1. Recover knee shield by inserting knee between bodies and establishing shin frame across opponent's chest
 
@@ -226,6 +232,8 @@ Success in this defensive position requires understanding that passivity guarant
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Complete Pass from Quarter?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your defensive response to the extraction moment when the passer's base is narrowest. Use either a strong hip escape to re-engage your legs in full half guard, or exploit the passer's forward commitment with an underhook sweep that reverses the position. The key is committing to your chosen response within two seconds of recognizing the extraction and executing explosively rather than gradually.
@@ -241,6 +249,8 @@ Recover your knee shield before the passer can eliminate the remaining space bet
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Complete Pass from Quarter?</p>
 
 ### 1. Lying flat on back without maintaining hip angle or side position during the pass attempt
 
@@ -270,6 +280,8 @@ Recover your knee shield before the passer can eliminate the remaining space bet
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Complete Pass from Quarter?</p>
+
 **Phase 1: Recognition and Response** - Identifying pass attempt cues and selecting appropriate defense
 Partner establishes quarter guard top and signals pass attempts with gradually increasing subtlety. Practice recognizing the four primary cues—crossface increase, hand targeting hook, hip advancement, and leg extraction—and selecting the correct defensive response within two seconds. Start with obvious telegraphed attempts and progress to competition-speed execution.
 
@@ -283,29 +295,6 @@ Partner provides full resistance passing attempts from quarter guard. Practice t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the top player is attempting to complete the pass from quarter guard?
-**A**: The earliest cues are increased crossface shoulder pressure driving harder against your face, the top player's near-side hand moving to specifically target your remaining knee shield or hook, forward hip advancement past your centerline with weight shifting diagonally, and the beginning of circular leg extraction movement against your remaining hook. These cues typically appear one to two seconds before the full pass is committed.
-
-**Q2**: When should you choose guard recovery versus attempting a sweep from quarter guard defense?
-**A**: Choose guard recovery when your underhook is compromised or you have been partially flattened, as these conditions make sweeps biomechanically unreliable. Attempt sweeps when you have a deep underhook, are on your side with good hip mobility, and the top player commits their weight forward during extraction. If you cannot determine which option is viable within two seconds, default to guard recovery as the safer choice with higher success probability.
-
-**Q3**: What is the primary risk of failing to defend the complete pass from quarter guard?
-**A**: Failing to defend results in the opponent establishing side control, which gives them three IBJJF points, heavy pressure with limited escape options, and immediate access to submission threats including Americana, Kimura, and arm triangle. The energy cost of escaping established side control is significantly higher than preventing the pass from quarter guard, making early defense far more efficient than late recovery.
-
-**Q4**: How should you use your free leg when defending against the complete pass from quarter guard?
-**A**: Your free leg serves three defensive functions: framing against opponent's hip to prevent forward advancement and create distance, inserting as a butterfly hook under their thigh to disrupt base and enable sweeps, or posting on the mat behind you to prevent being completely flattened. The free leg should never be passive—actively engaging it in one of these roles creates the time and space needed for guard recovery or sweep execution.
-
-**Q5**: What adjustments should you make when you feel the top player beginning to extract their trapped leg?
-**A**: Immediately tighten remaining leg engagement by squeezing your knees together, pull your underhook tighter to prevent their upper body from advancing simultaneously, and hip escape away from the extraction direction to create a new defensive angle. If extraction continues despite these adjustments, transition immediately to deep half guard by getting underneath their weight, or establish a butterfly hook with your free leg that disrupts their base during the transitional moment.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Headquarters Pass?</p>
+
 - Passer drives crossface shoulder across your face while their trapped leg applies heavy downward pressure on your bottom hip, flattening your hips toward the mat
 - Passer posts their free leg with knee up and foot planted near your hip, creating the headquarters stance with their shin potentially resting across your bottom thigh as a barrier
 - Passer's free hand begins controlling your far knee or thigh, signaling the start of the leg clearing sequence that precedes the final pass to side control
@@ -172,6 +174,8 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Headquarters Pass?</p>
 
 - Never allow the passer to flatten your shoulders to the mat - stay on your side with your hips angled toward the passer to maintain defensive structure and mobility
 - Fight for the underhook aggressively before the crossface is established, as the underhook is your primary tool for sitting up and creating sweeping angles
@@ -186,6 +190,8 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Headquarters Pass?</p>
 
 ### 1. Establish a strong underhook on the passer's far side and drive your shoulder into their chest to sit up into a dogfight position, squaring your hips and threatening a sweep or back take
 
@@ -223,6 +229,8 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Headquarters Pass?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 Recover guard by combining hip escape with frame creation the moment the passer shifts weight during leg extraction. Frame against their far shoulder with your forearm while shrimping your hips away, then re-insert your knee or shin between your bodies to re-establish half guard retention. The passer remains on top but must restart their passing sequence from a less dominant position.
@@ -238,6 +246,8 @@ Achieve a sweep or positional reversal by securing a strong underhook and drivin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Headquarters Pass?</p>
 
 ### 1. Lying flat on your back and accepting the crossface without fighting for frames or underhooks
 
@@ -267,6 +277,8 @@ Achieve a sweep or positional reversal by securing a strong underhook and drivin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Headquarters Pass?</p>
+
 **Week 1-2: Recognition and Frame Drilling** - Identifying headquarters establishment and building automatic framing responses
 Partner slowly establishes headquarters from half guard top. Practice recognizing the three control pillars as they are established and immediately responding with frame creation - forearm against shoulder, knee shield insertion, and hip angle maintenance. No live resistance from top player. Focus on building the instinct to never accept a flat position.
 
@@ -283,29 +295,6 @@ Positional sparring starting in half guard bottom against a partner working head
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment for the defender to attempt an escape during the headquarters pass sequence?
-**A**: The most critical moment is during the passer's leg extraction phase, when they shift weight to pull their trapped knee free. This momentary weight transfer lightens pressure on your hips and compromises their base, creating a window for hip escapes and frame insertion. Attempting escapes when the passer is fully settled in headquarters with all controls established is far less effective than timing your movement to this transitional moment.
-
-**Q2**: Why is fighting for the underhook more important than fighting to free your trapped leg when defending headquarters?
-**A**: The underhook gives you the ability to sit up, create angle, and threaten sweeps or back takes, which forces the passer to abandon their passing sequence to address your offensive threat. Freeing your trapped leg without upper body control merely delays the pass temporarily, as the passer can re-trap the leg while their crossface keeps you flat. The underhook changes the dynamic from pure defense to an offensive counter, which is strategically superior to simply stalling the pass.
-
-**Q3**: Your opponent has established headquarters with a strong crossface and is beginning to clear your far knee - what is your best defensive response?
-**A**: Frame against their crossface shoulder with your forearm to create just enough space to turn your hips, then use a strong hip escape away from the passer while simultaneously pulling your far knee back tight to your chest before they can push it fully down. If the knee shield is already compromised, immediately transition to a foot-on-hip frame with your far leg to create distance. The goal is preventing the far leg clearance because once both legs are controlled, the pass is nearly complete and recovery becomes extremely difficult.
-
-**Q4**: What are the three control pillars the passer needs for a successful headquarters position, and which should the defender attack first?
-**A**: The three pillars are crossface or shoulder pressure controlling the head and upper body, near leg control pinning the bottom hip, and the posted free leg creating the stable headquarters base. The defender should attack the crossface first because upper body freedom enables all other defensive movements. Without the crossface, you can sit up, turn onto your side, and create the angles needed for underhooks, frames, and hip escapes. Attacking the leg controls without addressing the crossface leaves you pinned flat with limited mobility regardless of your leg position.
-
-**Q5**: How does the deep half guard entry work as a defensive counter to headquarters, and when should you attempt it?
-**A**: The deep half entry involves threading your body underneath the passer's hips by turning toward them and sliding your head and shoulders under their base while controlling their far leg with your arms. Attempt it when the passer's weight is high on your chest with their hips elevated, creating space underneath. This is a high-commitment counter - if it fails, you end up flattened with your back exposed. Only attempt it when you have enough space to get your head below their hip line and can secure a grip on their far leg to prevent them from sprawling away.
-
-
-
-</section>
 
 
 </main>

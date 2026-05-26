@@ -194,6 +194,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from Reverse Half?</p>
+
 - Maintain unbroken chest-to-back connection throughout the entire backstep arc to prevent the bottom player from creating separation or turning to face you
 - Establish seatbelt grip before initiating the stepping motion to ensure upper body control survives the transition between positions
 - Time the backstep with the bottom player's turning motion rather than forcing it against a stabilized defender with good base
@@ -209,6 +211,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from Reverse Half?</p>
+
 - Established reverse half guard top position with chest pressure against the bottom player's upper back
 - Crossface or underhook control preventing the bottom player from turning to face you before the backstep begins
 - Bottom player's back partially exposed with their shoulders angled away from you due to the reverse half guard orientation
@@ -221,6 +225,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from Reverse Half step by step?</p>
 
 1. **Secure upper body control**: From reverse half guard top, establish strong crossface or underhook control to prevent the bottom player from turning to face you. Drive your chest pressure into their upper back to freeze their defensive movements and create the stable base needed for initiating the backstep sequence.
 2. **Establish seatbelt grip**: Thread your top arm over the opponent's shoulder and your bottom arm under their far armpit to establish the seatbelt grip. Clasp your hands together tightly to lock in upper body control that will maintain continuous chest-to-back connection throughout the backstep transition.
@@ -251,6 +257,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from Reverse Half?</p>
+
 - **Bottom player tucks elbows tight and blocks seatbelt grip establishment with defensive hand positioning** (Effectiveness: Medium) - Your Response: Use crossface pressure to drive their far arm away from their body, creating the gap needed for the underhook arm of the seatbelt. Alternatively, switch to double underhooks control which bypasses elbow defense. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Bottom player bridges explosively and turns into the attacker during the backstep arc when the free leg is airborne** (Effectiveness: High) - Your Response: Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. → Leads to [[Positions/Half Guard]]
 - **Bottom player grabs the stepping leg with both hands to block the arc before it clears their body** (Effectiveness: Medium) - Your Response: Pull your stepping leg back and reset the attempt. Their hand commitment to your leg exposes their neck and upper body, so attack with crossface pressure or switch to a direct pass to side control using their compromised arm positioning. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
@@ -262,6 +270,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from Reverse Half?</p>
 
 ### 1. Lifting chest away from opponent's back during the stepping arc to gain more room for the leg swing
 
@@ -301,6 +311,8 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from Reverse Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Stepping arc and hook insertion sequence
 Practice the backstep movement at zero resistance with a cooperative partner. Focus on maintaining chest contact throughout the arc, landing the stepping leg tight to the opponent's hip, and inserting the first hook immediately upon landing. Perform 20 repetitions per side, emphasizing smooth fluid motion over speed.
 
@@ -321,42 +333,12 @@ Begin in reverse half guard top with partner at full resistance. Attempt the bac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the backstep from reverse half guard?
-**A**: The optimal window opens when the bottom player commits to turning toward you to recover standard half guard. Their rotational movement simultaneously exposes their back further and compromises their defensive base. Initiating the backstep while they are mid-rotation means they cannot effectively block the stepping leg or counter the back take, as their momentum carries them in a direction that aids the transition.
-
-**Q2**: What grip must be established before beginning the backstep motion?
-**A**: The seatbelt grip must be secured before initiating the backstep. Thread one arm over the opponent's shoulder and the other under their far armpit, clasping hands together. This grip maintains upper body connection throughout the leg movement and prevents the opponent from creating separation during the transition. Without the seatbelt, the backstep creates a momentary gap that allows defensive recovery.
-
-**Q3**: What is the most critical mechanical detail during the leg arc of the backstep?
-**A**: Maintaining chest-to-back connection throughout the entire arc is the single most critical detail. The stepping leg must swing in a smooth controlled arc while your chest pressure remains constant against the opponent's back. Any lifting of the chest during the step creates space for the opponent to turn, flatten, or initiate an escape sequence that defeats the back take attempt.
-
-**Q4**: What is the most common failure point when executing the backstep from reverse half guard?
-**A**: The most common failure occurs when the attacker lifts their chest away from the opponent's back during the stepping motion to create room for the leg swing. This momentary separation allows the bottom player to either turn to face the attacker and recover half guard, or flatten to the mat and deny hook insertion. The fix is to think of the step as a rotation around the opponent rather than a step over them.
-
-**Q5**: Your opponent flattens belly-down when you initiate the backstep—how do you adjust?
-**A**: Switch your objective from direct hook insertion to establishing a body-lock style control. Wrap both legs around their waist from the flattened position and use the seatbelt grip to begin lifting one shoulder off the mat. Once you create an angle under their flattened body, insert hooks progressively starting with the bottom-side hook and using it as a lever to create space for the second hook.
-
-**Q6**: What is the correct sequence for establishing back control after the stepping leg lands?
-**A**: The correct sequence is: insert first hook immediately upon landing, use the hook and seatbelt as anchors to extract the trapped leg from half guard, insert the second hook as soon as the trapped leg is free, then consolidate all control points. Rushing to extract the trapped leg before the first hook is established removes the anchor needed for controlled extraction and creates escape opportunities.
-
-**Q7**: Your opponent bridges and turns explosively during your backstep arc—what is the correct response?
-**A**: Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. Fighting against an explosive bridge wastes energy and often breaks your seatbelt grip, while following the movement preserves your dominant control throughout.
-
-**Q8**: How does the backstep from reverse half guard connect to the broader backstep passing chain?
-**A**: The backstep from reverse half guard is the natural completion of the backstep passing system. A passer enters reverse half guard by executing backstep passes from De La Riva, deep half, K-guard, or standard half guard. Once in reverse half guard, the back take is the highest-value progression available. This creates a systematic pathway where any backstep pass that achieves reverse half guard feeds directly into back control through this technique.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from Reverse Half?</p>
 
 The backstep from reverse half guard is a positional transition with low direct injury risk compared to submissions. However, practitioners should be mindful of knee stress on the trapped leg during extraction, particularly if the bottom player maintains a tight clamp. Avoid jerking the trapped leg free with explosive force, as this can stress the knee joint in both training partners. The stepping arc should be smooth and controlled to prevent accidentally striking the bottom player with the knee or shin. Partners should communicate if trapped leg pressure becomes uncomfortable, and the top player should prioritize controlled extraction over speed. During drilling, start with zero resistance to establish safe movement patterns before adding progressive resistance.
 

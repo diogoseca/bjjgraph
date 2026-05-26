@@ -3,24 +3,42 @@
 
 
 ---
-title: "Rear Naked Choke | BJJ Submission | BJJ Graph"
+title: "Rear Naked Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Rear Naked Choke targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Rear Naked Choke/Attacker|Play as Attacker]]
-[[Rear Naked Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Rear Naked Choke/from Back Control|Back Control]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Body Triangle|Body Triangle]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Crucifix|Crucifix]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Gift Wrap|Gift Wrap]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Harness|Harness]] | 65% | Loss of consciousness from bilateral carotid compression |  |
+| [[Rear Naked Choke/from Invisible Collar|Invisible Collar]] | 65% | Loss of consciousness from bilateral carotid compression |  |
+| [[Rear Naked Choke/from Mounted Crucifix|Mounted Crucifix]] | 65% | Loss of consciousness from bilateral carotid compression |  |
+| [[Rear Naked Choke/from Rear Triangle|Rear Triangle]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Rodeo|Rodeo Ride]] | 50% | Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain |  |
+| [[Rear Naked Choke/from Russian Cowboy|Russian Cowboy]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Seat Belt Control Back|Seat Belt Control Back]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Standing Back Control|Standing Back Control]] | 65% | Loss of consciousness from blood choke |  |
+| [[Rear Naked Choke/from Standing Rear Clinch|Standing Rear Clinch]] | 35% | Carotid artery dissection from excessive or jerking pressure on the neck vasculature |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +47,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 65% (average across variants)
 
 </section>
 
@@ -79,144 +95,10 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 78% |
-| Failure | [[Positions/Back Control]] | 22% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Forearm blade across carotid arteries, not windpipe... | Protect the neck as absolute first priority - chin tuck and ... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Rear Naked Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Forearm blade across carotid arteries, not windpipe
-
-- Elbow position in front of chin prevents escape
-
-- Back hand on bicep creates structural compression frame
-
-- Head control by placing your head beside opponent's head
-
-- Hip and hook control prevents opponent from escaping position
-
-- Expansion of chest while constricting arms creates maximum pressure
-
-- Progressive tightening allows partner to tap before unconsciousness
-
-
-### Execution Steps
-
-
-- **Establish back control foundation**: From back control position, ensure you have both hooks in or a body triangle secured. Your chest sho...
-
-- **Hand fight and create entry angle**: Use your top hand (over the shoulder) to control opponent's hand or collar, preventing them from def...
-
-- **Insert choking arm under chin**: Slide your choking arm under the chin, driving deep until your elbow is past the centerline of their...
-
-- **Secure back hand position on bicep**: Bring your non-choking arm behind opponent's head. Grab your choking arm's bicep with your back hand...
-
-- **Position choking hand on back of head**: With your back hand secured on your bicep, bring your choking hand to the back of opponent's head. Y...
-
-- **Apply progressive finishing pressure**: Expand your chest while simultaneously bringing your elbows together. Pull your choking arm back tow...
-
-
-### Common Mistakes
-
-
-- **Placing forearm across the windpipe/trachea instead of carotid arteries**
-  - Consequence: Creates painful air choke instead of efficient blood choke. Partner struggles violently, takes much longer to tap, and creates risk of trachea injury. This is the most dangerous error.
-  - Correction: Position the blade of your forearm (thumb-side) on the sides of the neck where you can feel the pulse. Your forearm should be angled at 45 degrees, not straight across. Elbow should be in front of chin, not under it. Practice slow application to ensure you feel the correct artery position.
-
-- **Inserting choking arm too shallow with elbow not past chin centerline**
-  - Consequence: Opponent easily defends by tucking chin. You expend energy fighting against their neck muscles instead of structure. Choke is weak and easy to escape.
-  - Correction: Drive your choking arm deep until your elbow is clearly past the center point of their chin. Your opponent should not be able to look toward your choking arm side. Think of your arm as sliding under their chin like a seatbelt, not just resting on top of their neck.
-
-- **Choking arm elbow flaring out to the side instead of pointing forward**
-  - Consequence: Creates weak structure with gaps. Opponent can create space by pulling your arm, or they can turn into you. The choke loses effectiveness and becomes easy to defend.
-  - Correction: Keep your choking elbow pointing forward toward where their chest is. Your entire forearm should be in contact with the side of their neck. Imagine trying to touch your elbows together behind their head when finishing.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Rear Naked Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Protect the neck as absolute first priority - chin tuck and two-on-one grip fighting on the choking arm before any escape attempt
-
-- Fight the choking arm early before it reaches full depth past the chin centerline, where defense becomes exponentially harder
-
-- Use two hands on one arm principle to strip the most dangerous control point rather than fighting multiple grips simultaneously
-
-- Create space through hip movement and frame before attempting to turn - turning without space creation allows attacker to follow
-
-- Address escape in strict sequence: defend neck, strip grips, remove hooks, create angle, turn or recover guard
-
-- Maintain controlled breathing and composure under pressure - panic accelerates energy depletion and creates defensive errors
-
-- Accept incremental positional improvement as success rather than demanding complete escape in a single movement
-
-
-### Recognition Cues
-
-
-- Attacker's top arm (over-shoulder arm in seat belt) releases collar or shoulder control and begins sliding toward your chin - this is the primary insertion signal
-
-- Attacker angles their body to one side and increases head pressure against your temple, creating the entry angle for the choking arm
-
-- Feeling the forearm blade begin to slide across the front of your throat or under your chin, indicating the choking arm is being inserted
-
-- Attacker strips your defensive hand away from your neck using their free hand, clearing the path for arm insertion
-
-- Increased chest-to-back pressure and tightening of hooks or body triangle, signaling the attacker is consolidating position before committing to the choke
-
-
-### Escape Paths
-
-
-- Strip choking arm grip, remove near-side hook by pushing with both feet, hip escape to create angle, turn into attacker to recover half guard or closed guard
-
-- Defend neck with two-on-one, scoot hips down to lower attacker's control point, extract one hook by trapping foot with both legs, bridge and rotate to turtle position
-
-- Control choking arm at wrist, bridge explosively to the choking arm side, use momentum to slide shoulders to mat and begin turning to face attacker recovering to guard
-
-- Strip seat belt grip entirely, immediately hand fight to prevent re-establishment, stand up using technical standup while keeping back away from attacker's chest
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Short Choke (Palm on Head)**: Instead of grabbing your bicep with the back hand, place your palm directly on the back of opponent's head. Your choking arm's hand grabs your own wrist behind their head. This variation is faster to apply and useful when opponent is defending their neck heavily with their hands. (When to use: Use when opponent has strong hand fighting and is preventing you from securing the bicep grip. Also effective in scrambles where you need to finish quickly before they escape back control.)
@@ -246,7 +128,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 - [[Positions/Closed Guard]]
 - [[Positions/Half Guard]]
 - [[Positions/Gift Wrap]]
-- [[Positions/Standing Rear Clinch]]
+- [[Positions/Harness]]
 
 
 </section>
@@ -255,20 +137,17 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ## Related Submissions
 
-- [[Submissions/Triangle Choke Back]]
-- [[Submissions/Armbar from Back]]
-- [[Submissions/Armbar from Back with Legs]]
-- [[Transitions/Bow and Arrow Choke]]
-- [[Transitions/Clock Choke]]
-- [[Transitions/Short Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Choke from Crucifix]]
-- [[Submissions/Ezekiel Choke]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Baseball Bat Choke]]
-- [[Transitions/Paper Cutter Choke]]
-- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Far Side Armbar]] - Arm attack when opponent commits both hands to RNC neck defense
+- [[Submissions/Belly Down Armbar]] - Arm attack from back control when opponent turns belly down to escape
+- [[Submissions/Bow and Arrow Choke]] - Alternative high-percentage gi choke from back control using collar and leg leverage
+- [[Transitions/Clock Choke]] - Collar choke alternative from turtle and back control transitions
+- [[Transitions/Arm Triangle]] - Choke option during failed back control to front-facing transitions
+- [[Transitions/Guillotine Choke]] - Front headlock choke in scrambles when opponent escapes back control forward
+- [[Submissions/Ezekiel Choke]] - Surprise inside choke variation available from back control position
+- [[Submissions/Cross Collar Choke]] - Gi-based choke alternative from back control using cross-collar grips
+- [[Submissions/Baseball Bat Choke]] - Cross-grip gi choke alternative from back control
+- [[Transitions/Darce Choke]] - Arm-in choke from front headlock when opponent turtles during back escape
+- [[Submissions/Rear Naked Choke]] - RNC variation with body triangle for enhanced hip control and pressure
 
 
 </section>
@@ -284,9 +163,9 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 - [[Positions/Turtle]] - Common entry position for establishing back control
 - [[Positions/Crucifix]] - Advanced arm-trapping position that eliminates neck defense
 - [[Positions/Back Control/Seat Belt Control Back]] - Primary grip configuration for controlling opponent from back
-- [[Transitions/Short Choke]] - Faster variation using palm on head instead of bicep grip
-- [[Transitions/Bow and Arrow Choke]] - Alternative high-percentage choke from back control using gi
-- [[Submissions/Armbar from Back]] - Arm attack option when choke defense is strong
+- [[Positions/Mount/Mounted Crucifix]] - Advanced arm-trapping position combining mount pressure with crucifix control for undefended neck access
+- [[Submissions/Bow and Arrow Choke]] - Alternative high-percentage choke from back control using gi
+- [[Transitions/Armbar from Back Transition]] - Arm attack transition when choke defense is strong, forcing dilemma between neck and arm defense
 
 
 </section>

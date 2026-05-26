@@ -44,12 +44,12 @@
       "relationship": "Alternative escape variation when rolling is blocked"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Common attack scenario requiring positional defense"
+      "name": "Side Control",
+      "relationship": "Common position where kimura attacks originate, requiring positional awareness for early defense"
     },
     {
-      "name": "Kimura from Mount",
-      "relationship": "High-danger attack scenario with specific defensive adjustments"
+      "name": "Mount",
+      "relationship": "High-danger position for kimura attacks requiring specific defensive adjustments due to limited mobility"
     },
     {
       "name": "Hip Escape to Guard",
@@ -223,7 +223,7 @@
         "description": "Face progressive resistance from training partners applying full-intensity kimura attacks. Develop timing recognition under stress. Build confidence in defensive system through successful escapes against committed attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you circle your trapped arm in the direction of the lock rather than against it?",
         "answer": "Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it."
@@ -334,7 +334,7 @@
         "correction": "Shift weight dynamically to counter their escape direction. When they bridge right, drive your pressure left. When they load hips for a roll, sprawl and flatten. Read their body loading patterns and preempt their movement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most important grip adjustment when your opponent begins circling their trapped arm with the lock direction?",
         "answer": "When the opponent circles their arm with the lock, you must immediately tighten the figure-four by pulling your elbows into your own body and closing any space between your chest and their tricep. Simultaneously walk your feet toward their head to increase the finishing angle, which counteracts the pressure relief they gain from the arm circle. The key is converting their defensive movement into a deeper finishing position rather than fighting the circle with static resistance."

@@ -166,6 +166,8 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap Arm Recovery?</p>
+
 - Opponent's trapped arm goes completely limp and relaxes - this signals they are preparing for a recovery attempt rather than fighting the control
 - Opponent begins shrimping their hips away from your body while rotating their trapped shoulder forward and down toward the mat
 - Opponent's free hand shifts from active neck defense to a more neutral position, indicating they may attempt to assist the arm extraction
@@ -178,6 +180,8 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap Arm Recovery?</p>
 
 - Maintain constant chest-to-back connection to deny the space needed for hip escape and shoulder rotation
 - Keep the trapped arm pulled high across opponent's chest toward the opposite shoulder - low arm position enables recovery
@@ -192,6 +196,8 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap Arm Recovery?</p>
 
 ### 1. Tighten Gift Wrap and flatten opponent to mat with forward chest pressure and hook drive
 
@@ -229,6 +235,8 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap Arm Recovery?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Maintain tight chest-to-back connection and keep the trapped arm pulled high across the chest. When you feel hip escape beginning, immediately drive forward to flatten opponent and deny the rotational angle. Follow their hip movement to prevent cumulative space creation. Attack the neck when their free hand shifts from defense to assist extraction.
@@ -244,6 +252,8 @@ When the opponent creates space during their arm recovery attempt and their free
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap Arm Recovery?</p>
 
 ### 1. Allowing space to develop between your chest and opponent's back during their hip escape
 
@@ -278,6 +288,8 @@ When the opponent creates space during their arm recovery attempt and their free
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap Arm Recovery?</p>
+
 **Week 1-2** - Recognition and retention
 Partner attempts standard arm recovery at 30-50% speed while you focus on recognizing the setup cues: arm relaxation, hip escape initiation, shoulder rotation. Practice maintaining chest connection and following hip movement. Goal is developing awareness of the recovery sequence before it succeeds.
 
@@ -294,29 +306,6 @@ Start rounds from established Gift Wrap Top position. Partner uses full resistan
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt arm recovery?
-**A**: The earliest cue is the trapped arm going completely limp. When your opponent consciously relaxes the trapped arm rather than fighting against the control, they are preparing the mechanical conditions for extraction. This relaxation reduces the feedback you receive from the arm and sets up the coordinated hip escape and shoulder rotation. Respond immediately by increasing chest pressure and pulling the arm higher across their chest.
-
-**Q2**: Your opponent chains three rapid hip escapes in the same direction - how do you maintain Gift Wrap control?
-**A**: Follow each hip escape immediately by scooting your hips in the same direction to maintain chest-to-back connection and zero distance. Do not let space accumulate across multiple shrimps. Use your hooks to track their hip movement and maintain alignment. If they are successfully chaining escapes, consider switching your strategy to attacking the neck during one of their shrimps, exploiting the moment their free hand is occupied with movement rather than defense.
-
-**Q3**: Why should you view your opponent's arm recovery attempt as an offensive opportunity?
-**A**: During the arm recovery attempt, the opponent must compromise their defensive structure. They either redirect their free hand from neck defense to assist the extraction, or they commit their focus and body positioning to the escape mechanics. Both scenarios create openings: reduced neck defense invites rear naked choke attacks, and the space creation during shrimping can be exploited for crucifix transitions. The recovery attempt forces them to choose between defending submissions and freeing their arm.
-
-**Q4**: How do you counter the direction change recovery variant where your opponent suddenly reverses their shrimp direction?
-**A**: The direction change variant exploits your momentum as you follow their initial hip escape direction. Counter this by maintaining centered weight distribution rather than over-committing to following one direction. Keep your hips heavy and centered behind their hips rather than chasing laterally. When you feel the sudden reversal, use your hooks as anchors to prevent their rotation and immediately re-establish forward chest pressure to flatten them before they can exploit the new angle.
-
-**Q5**: What is the correct response when your opponent bridges explosively to create space for arm recovery?
-**A**: When your opponent bridges, absorb the upward energy by driving your hips forward into their lower back rather than posting with your hands. Use your hooks to anchor your lower body position and ride the bridge. As they return from the bridge apex, immediately tighten the Gift Wrap control and drive them back to the mat. The moment after a bridge fails is when the bottom player is most vulnerable because their explosive energy is spent and they have briefly lost their side positioning.
-
-
-
-</section>
 
 
 </main>

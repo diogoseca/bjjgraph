@@ -174,6 +174,8 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle from Turtle?</p>
+
 - Attacker shifts from chest-to-back pressure to wrapping one arm around your head and neck while controlling your far shoulder, indicating front headlock establishment and arm triangle intent
 - You feel your near-side elbow being driven toward your own neck through the attacker's chest and shoulder pressure, creating separation between your arm and body
 - Attacker's shoulder begins threading under your isolated arm while their head presses tight against yours, indicating the shoulder penetration phase and imminent grip completion
@@ -186,6 +188,8 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Triangle from Turtle?</p>
 
 - Keep elbows pinned tight to your body at all times - arm isolation is the critical entry point for the entire attack
 - Maintain a compact rounded turtle shell with chin tucked to deny both neck access and arm separation
@@ -201,6 +205,8 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle from Turtle?</p>
 
 ### 1. Tuck elbows tight and turn into the attacker before arm isolation completes, driving your near shoulder into their chest to collapse the front headlock structure and deny separation
 
@@ -238,6 +244,8 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle from Turtle?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Turn into the attacker early during the arm isolation phase, driving your shoulder into their chest to collapse the choke structure. Fight their choking arm at the wrist or elbow while circling away from their pressure. This returns the position to a basic front headlock scenario where you have standard turtle escape options available including sit-throughs, granby rolls, and technical standups.
@@ -257,6 +265,8 @@ Bridge explosively toward the attacker's choking arm side during the perpendicul
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle from Turtle?</p>
 
 ### 1. Allowing elbows to flare away from the body while in turtle, giving the attacker easy arm isolation
 
@@ -291,6 +301,8 @@ Bridge explosively toward the attacker's choking arm side during the perpendicul
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle from Turtle?</p>
+
 **Week 1-2: Recognition and Prevention** - Identifying arm triangle setups and maintaining tight turtle structure
 Partner establishes turtle top control and slowly works through the arm triangle setup sequence. Defender focuses on maintaining tight elbows, recognizing each stage of the attack, and understanding where defensive windows exist. No escape attempts yet - pure awareness building with the attacker progressing at instructional pace.
 
@@ -307,32 +319,6 @@ Positional sparring where attacker works the full arm triangle sequence from tur
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important preventive defense against the arm triangle from turtle?
-**A**: Keeping your elbows pinned tightly to the inside of your knees in a compact turtle shell. The entire arm triangle attack depends on isolating your near arm away from your body and driving it to your neck. If the attacker cannot achieve this arm isolation, the technique cannot progress to any subsequent stage. Maintaining tight elbows as your default turtle structure forces the attacker to either abandon the arm triangle or expend significant effort breaking your defensive shell, giving you time to execute escapes.
-
-**Q2**: You feel the attacker's shoulder beginning to thread under your isolated arm - what is your immediate response?
-**A**: Turn aggressively into the attacker by driving your near shoulder into their chest, simultaneously fighting their choking arm at the wrist or elbow with your free hand. The shoulder penetration phase is your last high-percentage defensive window before the grip locks. Turning into them collapses the space needed for deep shoulder penetration and may create enough disruption to extract your trapped arm. Do not wait for the grip to complete - once the figure-four is locked, your options decrease dramatically.
-
-**Q3**: Why is pulling your head straight backward out of the arm triangle a critical defensive error?
-**A**: Pulling backward aligns your escape force with the attacker's choking force, actually tightening the compression rather than relieving it. The arm triangle works by squeezing inward from both sides of the neck - pulling backward drives your neck deeper into the compression and wastes energy fighting against the strongest axis of the choke. Effective escape requires perpendicular movement: turning into the attacker, circling to the choking arm side, or bridging at a 45-degree angle toward the shoulder. These escape directions collapse the compression angle rather than reinforcing it.
-
-**Q4**: At which stage of the arm triangle progression does defense become most difficult, and why?
-**A**: Defense becomes most difficult once the attacker achieves the perpendicular finishing position with a locked figure-four grip. At this stage, the attacker's full body weight amplifies the bilateral carotid compression, the locked grip prevents arm extraction, and the perpendicular angle eliminates most bridging and rolling escape paths. This is why early intervention during the arm isolation or shoulder penetration phases is critical - each successive stage of the progression geometrically reduces available defensive options and increases the energy cost of escape.
-
-**Q5**: Your attacker has the figure-four locked but has not yet achieved perpendicular angle - what specific escape do you attempt?
-**A**: Post your free hand firmly on the mat and hip escape laterally toward the attacker's choking arm side to prevent them from completing the perpendicular transition. Simultaneously, tuck your chin hard to your chest and work to create a gap in the grip by shrugging your trapped shoulder upward. If you can prevent the perpendicular angle, the attacker cannot generate full finishing pressure from body weight alone and must rely on arm squeeze, which fatigues quickly. Use the denied angle to work your trapped arm free or thread your legs into half guard position.
-
-**Q6**: How should you direct a bridge escape when the arm triangle is being applied from the perpendicular position?
-**A**: Bridge specifically toward the attacker's choking arm side at approximately a 45-degree angle, not straight up. This direction collapses the compression angle between the shoulder and your trapped arm's bicep, momentarily reducing choking pressure and creating space. A vertical bridge is ineffective because it does not change the compression angle and may actually help the attacker flatten you. The bridge toward the choking arm side disrupts the attacker's base and creates the specific gap needed to either pull your head free or shoot your hips through for guard recovery.
-
-
-
-</section>
 
 
 </main>

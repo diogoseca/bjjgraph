@@ -1,0 +1,453 @@
+{
+  "name": "Baseball Bat Choke from Knee on Belly",
+  "description": "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi collar grip mechanics, spinning finish details, and pressure-based setups unique to KOB.",
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "collar-choke",
+    "top-position",
+    "gi-technique",
+    "blood-choke",
+    "hub",
+    "finishing-guide",
+    "knee-on-belly"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and jugular veins",
+  "starting_position": "Knee on Belly",
+  "from_position": "Knee on Belly/Top",
+  "success_rate": 58,
+  "overview": "The Baseball Bat Choke from Knee on Belly is one of the highest-percentage gi submissions available from this mobile control position. The choke derives its name from the baseball-bat-style double collar grip, where both hands grasp the opponent's collar in the same direction, one palm up and one palm down. What makes the Knee on Belly entry particularly dangerous is the immense diaphragm pressure that forces defensive reactions, specifically arm extension to relieve the knee weight, which opens the collar for grip insertion. The attacker establishes grips while maintaining top pressure, then spins through north-south or to the opposite side to cinch the strangle.\n\nFrom a strategic standpoint, Knee on Belly creates a dual threat that is extremely difficult to solve simultaneously. The bottom player must choose between addressing the crushing knee pressure or defending the collar grips. Addressing one threat accelerates the other. When the opponent pushes against the knee, their hands leave the collar undefended. When they protect the collar, the knee pressure becomes unbearable. This dilemma makes the Baseball Bat Choke from Knee on Belly a reliable competition finisher at all belt levels.\n\nThe finishing mechanic involves a controlled spin away from the opponent after securing both collar grips, dropping the chest to the mat on the far side while tightening the cross-collar strangle. The spin generates torsion through the collar fabric that compresses both carotid arteries simultaneously. Timing the spin with the opponent's defensive movement is critical: spinning too early before grips are deep results in a loose choke, while waiting too long allows the opponent to strip grips or recover guard.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from bilateral carotid compression",
+        "severity": "High",
+        "recovery_time": "Immediate with proper release; potential neurological complications if held beyond unconsciousness"
+      },
+      {
+        "injury": "Trachea damage from improper collar placement or windpipe pressure",
+        "severity": "Medium",
+        "recovery_time": "1-2 weeks with rest"
+      },
+      {
+        "injury": "Neck strain from explosive spinning finish or resisting the rotation",
+        "severity": "Medium",
+        "recovery_time": "3-7 days"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training. The spin should be controlled, not explosive.",
+    "tap_signals": [
+      "Verbal tap saying 'tap' clearly",
+      "Physical hand tap on partner or mat (minimum two taps)",
+      "Physical foot tap on mat when hands are trapped",
+      "Any distress signal including going limp or loss of muscle tone"
+    ],
+    "release_protocol": [
+      "Immediately release all collar grips upon any tap signal",
+      "Remove hands completely from opponent's neck and collar area",
+      "Roll off opponent and allow them to recover in side-lying position",
+      "Check partner's awareness, breathing, and orientation before continuing",
+      "Wait for verbal confirmation of readiness before resuming training"
+    ],
+    "training_restrictions": [
+      "Never apply at competition speed during drilling — control the spin",
+      "Never jerk or spike the choke to force a finish",
+      "Always ensure partner can signal a tap with at least one hand or verbally",
+      "Never continue past initial resistance in training — reset and refine grip depth",
+      "Stop immediately if partner shows any signs of distress, color change, or unconsciousness"
+    ]
+  },
+  "from_positions": [
+    "Knee on Belly",
+    "Side Control"
+  ],
+  "related_submissions": [
+    "Baseball Bat Choke",
+    "Cross Collar Choke",
+    "Arm Triangle",
+    "Ezekiel Choke",
+    "Breadcutter Choke",
+    "Bow and Arrow Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Knee on Belly",
+      "relationship": "Primary starting position providing pressure platform for grip insertion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative entry position and common landing position after spinning finish"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Parent submission family — this is the Knee on Belly-specific variant"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Intermediate position during spinning finish transition"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Related collar choke sharing similar grip mechanics and collar depth requirements"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Knee on Belly/Top",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "from Knee on Belly Attacker",
+    "description": "Complete attacking guide for the Baseball Bat Choke from Knee on Belly. Learn grip insertion timing, spinning mechanics, and how to exploit KOB pressure reactions.",
+    "overview": "Attacking with the Baseball Bat Choke from Knee on Belly exploits the unique pressure dynamics of KOB to create collar grip openings that do not exist from other positions. The crushing knee pressure forces the opponent to address their breathing with their hands, momentarily abandoning collar defense. The attacker threads the first grip deep into the far collar while maintaining knee pressure, then secures the second grip on the near collar before executing a controlled spin to the opposite side. The spin generates rotational tightening through the collar fabric that closes both carotid arteries. Mastery requires reading the opponent's defensive priority — are they defending the knee or the collar — and attacking whichever they abandon. The position rewards patience in grip establishment and decisiveness in the spinning finish.",
+    "key_principles": [
+      "Use knee pressure as a grip-opening tool — the opponent cannot defend both the knee and the collar simultaneously",
+      "Secure the far-side collar grip first and deep, threading fingers behind the neck past the collar seam",
+      "Maintain knee pressure throughout grip insertion to prevent the opponent from sitting up or turning",
+      "The spin generates the choking force — do not try to squeeze with arms alone before completing rotation",
+      "Time the spin with the opponent's defensive movement for maximum tightening effect",
+      "Keep elbows tight during the spin to prevent grip slippage and maintain collar depth",
+      "Drop chest to mat on the far side after spinning to create maximum torsional pressure on the collar"
+    ],
+    "setup_requirements": [
+      "Established Knee on Belly position with knee on solar plexus and stable posting base",
+      "Near-side collar grip already secured or accessible through existing control",
+      "Opponent flat on back and reacting to knee pressure rather than preemptively defending collar",
+      "Far-side collar accessible without opponent's hand blocking the lapel",
+      "Sufficient collar material available — opponent's gi must not be excessively tight or tucked"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy Knee on Belly pressure",
+        "description": "Drive your knee into the opponent's solar plexus with forward chest pressure and wide posting base. Your weight channels downward through the knee to create maximum diaphragm compression. This forces the opponent to address breathing before collar defense.",
+        "timing": "Hold pressure 2-3 seconds to force a reaction"
+      },
+      {
+        "step_number": 2,
+        "action": "Insert first grip on far-side collar",
+        "description": "As the opponent reacts to the pressure by pushing your knee or framing on your hip, use your near hand to thread deep into the far-side collar with a palm-up grip. Your fingers should pass behind the neck and grip the collar fabric past the seam. Depth is critical — a shallow grip produces a windpipe crank rather than a blood choke.",
+        "timing": "Insert during the opponent's first defensive reaction to knee pressure"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure second grip on near-side collar",
+        "description": "With your far hand, grip the near-side collar with a palm-down grip, creating the baseball bat configuration where both hands face the same direction on the collar. This grip should be at approximately collarbone level on the near side. The two grips now form a closed loop around the neck through the collar fabric.",
+        "timing": "Secure within 1-2 seconds of first grip before opponent can strip"
+      },
+      {
+        "step_number": 4,
+        "action": "Lock elbows tight to your body",
+        "description": "Before initiating the spin, clamp both elbows tight against your ribcage. This prevents grip slippage during rotation and ensures the collar tightening translates directly into carotid compression. If your elbows flare during the spin, the collar loosens and the choke fails. Think of welding your forearms to your torso.",
+        "timing": "Brief pause to confirm grip depth and elbow position"
+      },
+      {
+        "step_number": 5,
+        "action": "Initiate controlled spin toward the far side",
+        "description": "Lift your knee off the opponent's belly and begin rotating your body toward the far side, spinning through north-south position. Your body travels over the opponent's head while your grips remain fixed on the collar. The rotation generates torsion through the gi fabric that cinches the choke. Keep your hips low and maintain forward pressure throughout the spin.",
+        "timing": "Smooth 1-2 second rotation, not explosive"
+      },
+      {
+        "step_number": 6,
+        "action": "Complete spin and drop chest to mat",
+        "description": "Finish the rotation by landing on the far side of the opponent with your chest pressed to the mat. Your body should be perpendicular or nearly opposite to the opponent's body. Drop your weight low and sprawl your legs back to create maximum downward and rotational pressure. The completed spin should produce immediate bilateral carotid compression through the tightened collar.",
+        "timing": "Choke should engage within 2-3 seconds of completing the spin"
+      },
+      {
+        "step_number": 7,
+        "action": "Fine-tune finish pressure",
+        "description": "If the choke is not immediately producing a tap, make micro-adjustments: walk your hips slightly away from the opponent to increase torsion, press your forehead to the mat to lower your center of gravity, or pull your elbows slightly toward your hips to cinch the collar tighter. Avoid pulling upward with your arms — all finishing pressure comes from body position and gravity, not arm strength.",
+        "timing": "Tap should come within 3-5 seconds of final adjustments"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent strips the first collar grip before second grip is established",
+        "effectiveness": "High",
+        "your_response": "Immediately re-insert the grip deeper while increasing knee pressure. If they continue to fight the grip, threaten an armbar on the extended stripping arm to create a dilemma. The arm they use to strip is exposed.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent turns into you and closes the distance to prevent the spin",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward movement to transition to a standard cross collar choke from the front or convert to an arm triangle setup. Their turning motion also exposes the back — switch to back take if both collar grips are compromised.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent hip escapes and recovers closed guard during the spin",
+        "effectiveness": "Medium",
+        "your_response": "If you feel them recovering guard during the spin, complete the rotation anyway — the baseball bat choke can finish from inside closed guard if the grips are deep. Alternatively, disengage one grip and work to pass guard and re-establish KOB.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent tucks chin and defends collar depth",
+        "effectiveness": "Low",
+        "your_response": "Maintain knee pressure and work the first grip incrementally deeper using small wrist rotations. A tucked chin without addressing the knee means they are absorbing maximum pressure. Their chin defense will fatigue faster than your grip insertion.",
+        "targets_outcome": "Knee on Belly/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Inserting shallow collar grips that only reach the lapel edge",
+        "consequence": "Produces a windpipe crank instead of a blood choke — painful but ineffective against experienced opponents and dangerous to training partners",
+        "correction": "Thread fingers deep past the collar seam so your knuckles sit behind the opponent's neck. The deeper the grip, the more the choke targets the carotid arteries rather than the trachea"
+      },
+      {
+        "error": "Spinning explosively before confirming both grips are secure",
+        "consequence": "One or both grips slip during the spin, resulting in a failed choke and loss of Knee on Belly position with nothing to show for it",
+        "correction": "Pause briefly after securing both grips to confirm depth and lock elbows tight. The spin should be controlled and deliberate, not rushed"
+      },
+      {
+        "error": "Lifting knee pressure to focus on collar grips",
+        "consequence": "Opponent regains breathing space and can now dedicate both hands to stripping collar grips or recovering guard",
+        "correction": "Maintain knee pressure throughout the entire grip insertion phase. Only lift the knee when initiating the actual spin after both grips are confirmed"
+      },
+      {
+        "error": "Flaring elbows during the spin instead of keeping them pinned to ribs",
+        "consequence": "Collar loosens during rotation, resulting in a loose or ineffective choke that the opponent can defend by simply pulling the collar slack back",
+        "correction": "Clamp elbows to your ribcage before spinning and maintain that compression throughout the entire rotation. Your arms should not move independently of your torso"
+      },
+      {
+        "error": "Staying upright after the spin instead of dropping chest to the mat",
+        "consequence": "Without the chest-to-mat pressure, the rotational tightening of the collar is insufficient to close both carotid arteries simultaneously",
+        "correction": "After completing the spin, immediately sprawl and drop your chest flat to the mat. Your body weight pressing downward creates the final torsional force that completes the choke"
+      },
+      {
+        "error": "Attempting to finish by squeezing with arm strength rather than body rotation",
+        "consequence": "Arms fatigue rapidly and the choke is inconsistent — it may work against smaller opponents but fails against anyone of equal or greater size",
+        "correction": "The choking pressure comes from the torsion generated by your body position relative to the opponent, not from arm squeezing. Focus on spin completion, chest-to-mat position, and hip walk to generate finishing pressure"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Grip Insertion Drilling",
+        "focus": "Developing correct collar depth and baseball bat grip configuration",
+        "description": "Partner lies flat with no resistance. Practice threading the far-side collar grip deep with palm up, then securing near-side grip palm down. Repeat 20 times per side, checking grip depth each rep by having partner confirm knuckle position behind neck."
+      },
+      {
+        "phase": "Spin Mechanics Isolation",
+        "focus": "Smooth controlled rotation with proper elbow retention",
+        "description": "From established double collar grips on a stationary partner, practice the spin in slow motion. Focus on keeping elbows pinned, hips low, and landing chest-to-mat on the far side. Partner provides feedback on collar tightness at each phase of rotation."
+      },
+      {
+        "phase": "Pressure-to-Grip Integration",
+        "focus": "Using KOB pressure reactions to time grip insertion",
+        "description": "Partner begins flat under Knee on Belly with moderate defensive reactions — pushing the knee, framing, turning. Attacker reads each reaction and inserts grips during defensive windows. No spin yet — drill ends at double grip confirmation. 3-minute rounds."
+      },
+      {
+        "phase": "Full Technique with Progressive Resistance",
+        "focus": "Combining pressure, grip insertion, and spin against increasing defense",
+        "description": "Complete the full Baseball Bat Choke sequence from KOB establishment through spin finish. Partner increases resistance each round from 25% to 75%. Focus on adapting grip timing to defensive intensity and maintaining composure when initial grips are contested."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Applying the choke under full competition conditions from KOB",
+        "description": "Start from Knee on Belly with full resistance. Attacker attempts Baseball Bat Choke while partner uses all defensive tools. Reset after each attempt. Track success rate over 10 attempts to identify which phase of the technique breaks down under pressure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Baseball Bat Choke from Knee on Belly attack?",
+        "answer": "The Baseball Bat Choke targets bilateral carotid artery compression through rotational tightening of the gi collar. When the grips are deep and the spin is complete, the collar fabric cinches around both sides of the neck, compressing the carotid arteries and jugular veins simultaneously. This produces a blood choke that causes unconsciousness within 5-8 seconds of full engagement. A shallow grip shifts pressure to the trachea, which is painful but less effective and more dangerous to training partners.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is Knee on Belly particularly effective as a launching position for the Baseball Bat Choke?",
+        "answer": "Knee on Belly creates a dual threat that the opponent cannot solve simultaneously. The crushing diaphragm pressure forces them to use their hands to push the knee or frame on the hip, which temporarily abandons collar defense and opens a window for grip insertion. This pressure-to-grip pipeline does not exist from side control or mount where the opponent's hands are typically positioned to defend the collar. The KOB pressure also prevents the opponent from sitting up or turning, keeping them flat and vulnerable.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins pushing your knee with both hands — what adjustment creates the choke opportunity?",
+        "answer": "When the opponent commits both hands to pushing your knee, their collar is completely undefended. Maintain knee pressure through your core while using your near hand to thread deep into the far-side collar with a palm-up grip. Their two-hand push means they cannot contest the grip insertion. Once the first grip is deep, secure the second grip quickly before they realize the collar is compromised. Their own defensive reaction to the knee has created the exact opening you need.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key safety considerations when applying the Baseball Bat Choke in training?",
+        "answer": "The spin must be controlled and progressive, never explosive or jerking. Apply the choke over 3-5 seconds minimum in training. Because this is a blood choke, unconsciousness can occur within seconds of full engagement — monitor your partner's responsiveness continuously. Release immediately upon any tap signal including verbal tap, hand tap, foot tap, or any loss of muscle tension. After release, allow your partner to recover in a side-lying position and confirm verbal responsiveness before continuing training.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you release the Baseball Bat Choke after your partner taps?",
+        "answer": "Immediately release all collar grips by opening both hands completely and withdrawing them from the collar. Roll off your partner and remove all body pressure. Allow them to recover in a side-lying position without any weight or contact on their neck area. Check their awareness by asking a simple question and observe their breathing pattern. Wait for clear verbal confirmation that they are ready before resuming any training. Never maintain grips while asking if they are okay.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct grip configuration for the Baseball Bat Choke and why does grip depth matter?",
+        "answer": "The first grip enters the far-side collar palm-up, threading deep so the knuckles sit behind the opponent's neck past the collar seam. The second grip secures the near-side collar palm-down at approximately collarbone level. Both hands face the same direction, like gripping a baseball bat. Grip depth determines whether the choke compresses the carotid arteries (deep = correct) or the trachea (shallow = dangerous and ineffective). A shallow grip creates a painful windpipe crank that experienced opponents can endure while working escapes.",
+        "safety_critical": false
+      },
+      {
+        "question": "During the spinning finish, your elbows flare out and the collar loosens — what went wrong and how do you fix it?",
+        "answer": "Flared elbows allow the collar fabric to develop slack during rotation, which dissipates the torsional force that creates the choke. The fix is to clamp both elbows tightly against your ribcage before initiating the spin and maintain that compression throughout the entire rotation. Your arms should move as a unit with your torso, not independently. Think of your forearms as welded to your ribs. Additionally, ensure you are spinning with your whole body rather than trying to rotate just your upper body, which naturally causes elbows to separate.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent tucks their chin to prevent the collar from tightening — how do you address this common defense?",
+        "answer": "A tucked chin is a passive defense that does not address the knee pressure. Maintain heavy KOB pressure while incrementally working the far-side grip deeper using small wrist rotations to feed the collar behind the neck. The chin tuck becomes unsustainable because the opponent must eventually use their hands to address the diaphragm compression, creating openings. You can also use your posting hand to gently redirect the chin upward before inserting the grip. Never force past the chin with aggressive pulling, which risks neck injury.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape for the defender once the Baseball Bat Choke is applied from KOB?",
+        "answer": "The point of no escape occurs once both collar grips are deep and the attacker has begun the spin with elbows locked tight. At this stage, the rotational tightening of the collar cannot be reversed by grip fighting because both grips are loaded by body weight during the spin. Before the spin, the defender can strip grips or close distance. After the spin initiates with deep grips, the only option is to tap. Recognizing this threshold is important for both safety and competitive strategy — the attacker should commit fully once past this point rather than hesitating.",
+        "safety_critical": false
+      },
+      {
+        "question": "What common finishing error causes the choke to fail even with correct grips and spin?",
+        "answer": "Staying upright after completing the spin instead of dropping the chest flat to the mat. The rotational torsion through the collar requires downward body weight to reach full compression. Without the chest-to-mat position, there is insufficient force to close both carotid arteries against a resisting opponent. After the spin, immediately sprawl your legs back and press your forehead and chest to the mat. Walking your hips slightly away from the opponent adds additional torsional pressure through the collar.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Knee on Belly Defender",
+    "description": "Complete defensive guide against the Baseball Bat Choke from Knee on Belly. Learn early recognition, grip prevention, and escape strategies before the spin.",
+    "overview": "Defending the Baseball Bat Choke from Knee on Belly requires recognizing the threat before the attacker completes their grip configuration. The choke becomes extremely difficult to escape once both collar grips are deep and the spin has initiated, so the defense is overwhelmingly about early intervention. The defender faces a compounding dilemma: addressing the knee pressure opens collar defense, but protecting the collar means enduring crushing diaphragm compression. Successful defense requires intelligent prioritization — when you recognize the baseball bat grip attempt, collar defense must take absolute priority over knee pressure relief, even at the cost of uncomfortable pressure. The key defensive windows are during the first grip insertion, during the second grip insertion, and during the transition moment when the attacker lifts their knee to initiate the spin. Each window has specific defensive actions that can prevent or interrupt the choke. Once the spin is complete and the attacker is chest-to-mat on the far side with deep grips, the choke is essentially locked — tap immediately to prevent injury.",
+    "key_principles": [
+      "Collar defense takes priority over knee pressure relief when you recognize baseball bat grip attempts",
+      "Fight the first grip immediately — preventing grip depth is far easier than stripping a seated grip",
+      "Keep at least one hand dedicated to collar defense whenever under Knee on Belly pressure",
+      "Turn toward the attacker to close collar access rather than turning away which exposes the far collar",
+      "Use the spin transition as an escape window — the moment the knee lifts, hip escape aggressively",
+      "Recognize the point of no return: once both deep grips are set and the spin begins, tap immediately",
+      "Two-on-one grip fighting on the first collar grip is the highest-percentage defensive strategy"
+    ],
+    "recognition_cues": [
+      "Attacker's near hand releases normal KOB grips and begins reaching across toward your far-side collar",
+      "Attacker adjusts knee position or increases downward pressure to provoke a hand reaction before grip insertion",
+      "Attacker's hand threads palm-up into the collar fabric on your far side, fingers reaching behind your neck",
+      "Attacker secures a second grip on your near-side collar with palm down, creating the baseball bat configuration",
+      "Attacker suddenly locks both elbows tight against their body and shifts weight forward — the spin is imminent"
+    ],
+    "defensive_options": [
+      {
+        "action": "Two-on-one grip strip on the first collar grip before second grip is established",
+        "when_to_use": "As soon as you feel or see the attacker's hand threading into your far-side collar — this is the highest-percentage defense window",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Attacker returns to standard Knee on Belly control without choke threat, must re-attempt grip insertion",
+        "risk": "Both hands committed to grip fighting leaves the knee pressure unaddressed and may open armbar if attacker changes strategy"
+      },
+      {
+        "action": "Turn into the attacker and sit up to close collar access and reduce spin path",
+        "when_to_use": "When the attacker begins reaching for the far-side collar — closing the distance eliminates the space needed for grip insertion and spin",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Disrupts the entire choke setup and may create scramble opportunity or guard recovery",
+        "risk": "Turning into an opponent with established grips accelerates the choke; only effective before grips are deep"
+      },
+      {
+        "action": "Hip escape during the spin transition when the attacker lifts their knee",
+        "when_to_use": "When the attacker lifts their knee to initiate the spinning finish — this brief moment of reduced pinning pressure is your last escape window",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recover to closed guard or half guard, nullifying the choke even if grips remain because the attacker cannot complete the spin",
+        "risk": "If grips are already deep, the attacker may complete the choke from inside your guard"
+      },
+      {
+        "action": "Cross-face frame and bridge to disrupt base before grips are established",
+        "when_to_use": "Immediately when you recognize the attacker is shifting from standard KOB control to choke setup — preemptive disruption before first grip",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Destabilizes attacker's position and may force them to post, abandoning the choke attempt entirely",
+        "risk": "An aggressive bridge under KOB can expose your back if the attacker rides the movement"
+      }
+    ],
+    "escape_paths": [
+      "Two-on-one grip strip on the first collar grip followed by immediate hip escape to half guard before regripping",
+      "Hip escape and guard recovery during the spin transition when knee pressure is momentarily released",
+      "Turn into the attacker and sit up to establish an underhook, closing the collar access angle completely"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Hip escape aggressively during the spin transition when the attacker lifts their knee, wrapping legs around their waist before they can complete the rotation. Even with collar grips, the closed guard position prevents the spin completion needed to finish the choke."
+      },
+      {
+        "outcome": "Knee on Belly/Top",
+        "how": "Successfully strip the first collar grip with two-on-one grip fighting before the second grip is established. Without both grips, the choke cannot be executed and the attacker returns to standard KOB control, giving you another opportunity to escape the position entirely."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Prioritizing knee pressure relief over collar defense when the choke setup begins",
+        "consequence": "Both hands push the knee while the attacker freely inserts deep collar grips, making the choke nearly inescapable",
+        "correction": "Once you recognize the collar reach, immediately dedicate at least one hand to collar defense. Accept the knee pressure temporarily — it is uncomfortable but not fight-ending, while deep collar grips lead to unconsciousness"
+      },
+      {
+        "error": "Turning away from the attacker to relieve pressure, exposing the far-side collar",
+        "consequence": "Turning away opens the far collar completely, making the first grip insertion effortless and accelerating the choke setup",
+        "correction": "Turn toward the attacker to close the collar angle. Your chin should face their knee, not the ceiling or the far wall. Turning in reduces collar access and may allow you to establish an underhook"
+      },
+      {
+        "error": "Attempting to fight grips one-handed while the other hand addresses the knee",
+        "consequence": "One hand cannot overcome the attacker's grip strength reinforced by body weight and collar friction — the grip stays while you waste energy",
+        "correction": "Commit both hands to two-on-one grip stripping on the first collar grip. This is your highest-percentage defense and must be executed with full commitment before the second grip locks in"
+      },
+      {
+        "error": "Failing to recognize the point of no return and continuing to fight instead of tapping",
+        "consequence": "Blood chokes cause unconsciousness within seconds of full engagement — delaying the tap past the completed spin with deep grips risks going to sleep",
+        "correction": "If both grips are deep and the attacker has completed the spin with chest on the mat, tap immediately. The choke is locked. Fighting from this position wastes energy and risks losing consciousness"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that a Baseball Bat Choke is being set up from Knee on Belly?",
+        "answer": "The primary recognition cue is the attacker's near hand releasing standard KOB control grips and reaching across your body toward the far-side collar with a palm-up orientation. They may also increase knee pressure immediately before the reach to provoke a hand reaction from you. A secondary cue is the attacker threading fingers behind your neck through the collar fabric. Early recognition at the first-grip stage is critical because defense becomes exponentially harder once both grips are established.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap to the Baseball Bat Choke from Knee on Belly?",
+        "answer": "Tap clearly and immediately using any available method: verbal tap saying 'tap' loudly, physical hand tap on the attacker's body or the mat with at least two distinct taps, or foot tap on the mat if hands are trapped. The critical safety principle is to tap early when you recognize the choke is locked — once both deep grips are set and the spin is complete, do not wait for the choke to fully engage before tapping. Blood chokes cause unconsciousness within seconds, so a delayed tap can result in going to sleep. If you cannot physically tap, going limp signals distress.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available against the Baseball Bat Choke from Knee on Belly?",
+        "answer": "The primary defense is two-on-one grip stripping on the first collar grip before the second grip is established. This requires recognizing the collar reach early and committing both hands to grip fighting despite the knee pressure. The secondary defense is turning into the attacker to close the collar access angle. The tertiary defense is hip escaping during the spin transition when the attacker lifts their knee, recovering guard before the spin completes. After the spin is complete with deep grips, there is no effective defense — only the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it a critical error to turn away from the attacker when defending the Baseball Bat Choke?",
+        "answer": "Turning away from the attacker exposes the far-side collar completely, making it effortless for them to thread a deep palm-up grip behind your neck. The natural instinct under knee pressure is to turn away from the pain, but this reaction directly enables the choke setup. The correct response is to turn toward the attacker, closing the collar angle and potentially establishing an underhook. Turning in reduces the available collar fabric and makes grip insertion significantly more difficult for the attacker.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point should you abandon escape attempts and simply tap to this choke?",
+        "answer": "You should tap immediately once both collar grips are deep (knuckles behind neck) and the attacker has completed the spin with their chest on the mat. At this stage, the torsional force through the collar is locked by the attacker's body position and gravity — no amount of grip fighting or bridging will release it. Continuing to fight past this point risks losing consciousness within 5-8 seconds. Training the discipline to tap at this recognition point is essential for long-term safety and allows you to reset and work on earlier defensive timing.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying the first collar reach and distinguishing it from standard KOB grips",
+        "description": "Partner alternates between standard KOB grip adjustments and Baseball Bat Choke setup reaches from Knee on Belly. Bottom player calls out 'choke' when they recognize the setup. Build reaction speed over 5-minute rounds."
+      },
+      {
+        "phase": "Grip Prevention Drilling",
+        "focus": "Two-on-one grip stripping before second grip establishment",
+        "description": "Partner inserts first collar grip at 50% speed while bottom player practices immediate two-on-one grip strip. Focus on peeling fingers from collar fabric and redirecting the hand away from the collar. 20 reps per side."
+      },
+      {
+        "phase": "Spin Escape Timing",
+        "focus": "Hip escaping during the transition moment when the knee lifts for the spin",
+        "description": "Partner establishes double grips and initiates slow spin. Bottom player reads the knee lift and practices hip escape to guard recovery during the transition window. Gradually increase spin speed as timing improves."
+      },
+      {
+        "phase": "Full Defense Under Pressure",
+        "focus": "Integrating recognition, grip prevention, and escape under full resistance",
+        "description": "Live positional rounds starting from Knee on Belly. Partner attempts Baseball Bat Choke with full intent. Bottom player practices the complete defensive sequence from recognition through escape or tap. 3-minute rounds with role switching."
+      }
+    ]
+  }
+}

@@ -156,6 +156,8 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount to Knee on Belly?</p>
+
 - Top player shifts to asymmetric base by posting one foot out wide to the side while maintaining mount
 - Grip changes from mount control grips to collar-and-belt or collar-and-pants configuration simultaneously
 - Top player's weight shifts noticeably forward through their hands and chest, lightening their hips from the straddling position
@@ -168,6 +170,8 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount to Knee on Belly?</p>
 
 - Recognize asymmetric base changes and grip adjustments that signal an imminent KOB transition attempt
 - Exploit the brief reduction in hip control during the weight shift as the primary defensive window
@@ -182,6 +186,8 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount to Knee on Belly?</p>
 
 ### 1. Frame on hip and shrimp away before knee lifts
 
@@ -212,6 +218,8 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount to Knee on Belly?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape and leg catch for the exact moment the top player lifts their knee to transition. As they shift weight to post their base foot, shoot your inside leg between their legs and lock the transitioning leg while simultaneously shrimping your hips away. This forces the top player to re-pass from half guard rather than maintaining dominant position, representing a massive positional improvement from mount bottom.
@@ -223,6 +231,8 @@ Time your hip escape and leg catch for the exact moment the top player lifts the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount to Knee on Belly?</p>
 
 ### 1. Failing to react during the transition window and waiting until KOB is fully established
 
@@ -252,6 +262,8 @@ Time your hip escape and leg catch for the exact moment the top player lifts the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount to Knee on Belly?</p>
+
 **Phase 1: Recognition** - Identifying transition setup cues from mount bottom
 Partner signals mount to KOB transition at various speeds. Practice identifying the setup cues: asymmetric base change, grip adjustments, forward weight shift, knee opening. Call out the cue verbally before partner completes the transition. Build pattern recognition without defensive movement initially.
 
@@ -268,29 +280,6 @@ Starting from mount bottom with full resistance, defend against partner's comple
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual cues that the top player is preparing to transition from mount to knee on belly?
-**A**: The earliest cues include the top player shifting to an asymmetric base by posting one foot out wide, adjusting grips to collar and belt simultaneously, leaning weight forward through their hands and chest, and opening their knees from the tight mount position. Any combination of these asymmetric base adjustments signals an imminent KOB transition. Recognizing these cues early gives you the maximum defensive window to initiate frames or hip escapes before the transition completes.
-
-**Q2**: Why is catching the transitioning leg for half guard recovery considered the best defensive outcome?
-**A**: Catching the transitioning leg forces the top player from mount, which is worth four points and offers devastating submission chains, down to half guard top where they must re-pass your guard with no additional points scored. This represents a massive positional regression for the attacker. From half guard bottom, you have established offensive systems including underhook sweeps, deep half entries, and back take sequences that are completely unavailable from under mount. The positional trade fundamentally changes the exchange in your favor.
-
-**Q3**: Your opponent begins posting their foot wide and shifting weight forward from mount - what should your immediate response be?
-**A**: Your immediate response should be to frame on their far hip with your near hand and begin shrimping your hips away from the side where they posted their foot. This hip escape creates the angle needed to either prevent the knee landing on your solar plexus or to insert your legs between theirs to catch the transitioning leg. The critical error is waiting until the knee is already on your torso, as the concentrated pressure makes all subsequent defensive actions significantly harder. React to the base change, not the knee placement.
-
-**Q4**: What is the danger of pushing the top player's knee with extended arms during this transition?
-**A**: Extended arms become immediately vulnerable to armbar and kimura attacks, particularly from the resulting KOB position where the top player has enhanced mobility to capitalize on arm isolation. Pushing with straight arms also fails to create the lateral hip movement needed for actual escape, as you are fighting their weight vertically rather than escaping horizontally. Instead, use structural frames with elbows tight to your body, directing force into their hip, and combine framing with hip escape mechanics that create real positional change.
-
-**Q5**: How should you chain defensive actions if your initial frame against the transition fails and the knee lands?
-**A**: If the initial frame fails and the knee lands on your torso, immediately shift from prevention to escape mode. First, turn to your side facing away from the knee pressure to reduce the surface area and create hip escape angles. Second, frame on their posted knee and far hip to prevent full weight settlement. Third, execute a hip escape away from the knee while inserting a knee shield or butterfly hook to begin guard recovery. Do not pause between these actions, as each creates incremental space that makes the next step possible, and stopping allows the top player to consolidate full KOB control.
-
-
-
-</section>
 
 
 </main>

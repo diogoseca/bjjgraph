@@ -1,0 +1,388 @@
+{
+  "name": "Hyperextension",
+  "description": "Master hyperextension mechanics in BJJ. Learn joint lock principles, armbar and kneebar mechanics, ligament vulnerability, and safe training protocols for joint attacks.",
+  "tags": [
+    "bjj",
+    "principle",
+    "submission",
+    "joint lock",
+    "hyperextension",
+    "armbar",
+    "kneebar",
+    "finishing mechanics",
+    "fundamental"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Expert",
+  "overview": "Hyperextension is the most fundamental joint attack mechanic in Brazilian Jiu-Jitsu. It works by applying linear force to straighten a joint past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps from pain or the structures begin to fail. The armbar is the most iconic hyperextension submission, using hip pressure against the elbow to force it beyond its natural extension. Kneebars apply the same principle to the knee joint, and straight ankle locks hyperextend the ankle and foot complex. These submissions share a common mechanical framework: isolate the joint, control the limb on both sides of the joint, and apply linear force that drives the joint past its anatomical limit.\n\nThe hyperextension mechanic is considered fundamental because it relies on simple lever physics that practitioners can understand and apply from their first months of training. The elbow is designed to bend in one direction. If you control the wrist and press against the elbow from the opposite side, the joint is forced to straighten past its limit. This simplicity makes hyperextension attacks available from nearly every position in BJJ. Armbars can be applied from mount, guard, side control, back control, and standing. Kneebars work from various leg entanglements and passing positions. Straight ankle locks are available from virtually any leg entanglement.\n\nDespite the mechanical simplicity, hyperextension submissions require careful training practices. Joint damage from hyperextension can range from minor ligament sprains to complete tears that require surgical repair and months of rehabilitation. The elbow and knee joints have relatively narrow ranges of acceptable motion, meaning the distance between a tight submission and an injury is measured in degrees of angle. Practitioners must develop the discipline to apply hyperextension submissions progressively, and defenders must tap early before structural damage occurs. In training, the attacker should apply slow, steady pressure while the defender communicates the moment they feel the joint reaching its limit. There is no training context where jerking or cranking a joint through its range is acceptable.",
+  "key_principles": [
+    "Hyperextension applies linear force to straighten a joint past its natural range of motion, targeting ligaments, tendons, and the joint capsule",
+    "Isolate the joint by controlling the limb on both sides, preventing the opponent from bending or rotating out of the submission",
+    "Use hip pressure as the primary force generator rather than arm strength for armbars and kneebars, as the hips produce far more force than the arms",
+    "Apply hyperextension submissions slowly and progressively in training, because joint injuries can occur with minimal additional force once the range of motion limit is reached",
+    "The pinch between the knees or thighs controls the limb and prevents rotation, which is as important as the extension force itself",
+    "Tap early and without hesitation when defending hyperextension submissions, ligament damage is cumulative and joints do not strengthen through injury",
+    "The same hyperextension principle applies across all hinge joints: elbow, knee, and ankle, with position-specific variations in setup and control",
+    "Maintain the opponent's limb close to your body throughout the submission for maximum mechanical advantage and control"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Limb Isolation",
+      "description": "Securing control of the targeted limb by trapping it between your body and your grips, preventing the opponent from pulling free, bending the joint to relieve pressure, or rotating to change the angle of force. For armbars, this means controlling the wrist and pinching the arm between the thighs. For kneebars, it means securing the ankle and pinching the leg. Limb isolation is the prerequisite that makes hyperextension force effective."
+    },
+    {
+      "skill_name": "Hip Drive and Pressure",
+      "description": "Using hip extension as the primary force generator for hyperextension submissions. In an armbar, the hips press against the back of the elbow while the hands control the wrist. In a kneebar, the hips press against the back of the knee while the arms control the ankle. Hip drive produces more force with less effort than arm pulling and provides better control over the rate of force application."
+    },
+    {
+      "skill_name": "Knee Pinch Control",
+      "description": "Squeezing the knees or thighs together around the targeted limb to prevent rotation and withdrawal. Without knee pinch, the opponent can spin their arm to relieve elbow pressure in armbars or rotate their leg to change the force angle in kneebars. The pinch keeps the joint aligned with the extension force and is the difference between a finishing armbar and one the opponent escapes."
+    },
+    {
+      "skill_name": "Wrist and Ankle Control",
+      "description": "Maintaining grip on the distal end of the limb (wrist for armbars, ankle for kneebars and ankle locks) to control the lever arm and prevent the opponent from shortening the lever by bending the joint. Wrist control in armbars keeps the arm straight and the thumb pointed upward for proper alignment. Ankle control in kneebars prevents the opponent from pulling their leg free."
+    },
+    {
+      "skill_name": "Progressive Pressure Application",
+      "description": "The discipline and skill of applying hyperextension force gradually rather than explosively. This involves feeling the resistance of the joint as it approaches its range of motion limit and applying pressure slowly enough for the defender to tap before structural damage occurs. In training, the rate of pressure application is a safety skill that protects training partners."
+    },
+    {
+      "skill_name": "Angle and Alignment Management",
+      "description": "Ensuring the hyperextension force is applied in the correct direction relative to the joint's anatomy. The elbow hyperextends when force is applied against the natural bend. If the arm is rotated so the elbow faces laterally, the force does not create hyperextension. Maintaining proper alignment between the joint, the force direction, and the controlling body position is essential for finishing."
+    },
+    {
+      "skill_name": "Positional Entry and Transition",
+      "description": "Moving from a controlling position to a hyperextension submission position while maintaining enough control to prevent escape. Armbar entries from mount, guard, side control, and back control each have specific transition mechanics. Kneebar entries from passing positions and leg entanglements require different body movements. The transition is often the most technically challenging aspect of hyperextension submissions."
+    },
+    {
+      "skill_name": "Defense and Escape Mechanics",
+      "description": "Understanding the defensive responses to hyperextension attacks including grip fighting, thumb positioning, hitchhiker escapes, stacking, and rotation. Knowing the defensive side of hyperextension submissions improves both your ability to prevent escapes as an attacker and your survival skills as a defender. Early defense is always preferable to late-stage escape attempts."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Levers",
+      "relationship_type": "Prerequisite",
+      "description": "Hyperextension submissions are applied lever mechanics. The fulcrum is the hip or body pressure point, the lever arm is the opponent's limb, and the force is applied at the distal end. Understanding lever physics is foundational to all hyperextension attacks."
+    },
+    {
+      "principle_name": "Submission Defense",
+      "relationship_type": "Complementary",
+      "description": "Hyperextension defense is a core component of overall submission defense. The defensive hierarchy for joint locks includes grip prevention, arm positioning, hitchhiker escapes, and early tapping protocols specific to hyperextension mechanics."
+    },
+    {
+      "principle_name": "Submission Chains",
+      "relationship_type": "Extension",
+      "description": "Hyperextension submissions are common chain endpoints and transitions. Armbar defense often opens triangle entries, and kneebar defense creates transitions to heel hooks. Understanding hyperextension as part of chains increases finishing rates."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Prerequisite",
+      "description": "Maintaining limb control throughout the hyperextension attempt is essential. Loss of knee pinch, wrist grip, or body position allows the defender to escape before the joint reaches its limit. Control maintenance is the difference between finishing and losing the submission."
+    },
+    {
+      "principle_name": "Dominant Angles",
+      "relationship_type": "Complementary",
+      "description": "Angle relative to the opponent determines the effectiveness of hyperextension attacks. Perpendicular positioning for armbars and proper alignment for kneebars maximize the mechanical advantage of hip drive against the joint."
+    },
+    {
+      "principle_name": "Grips",
+      "relationship_type": "Prerequisite",
+      "description": "Grip on the wrist, sleeve, or ankle is the distal control point for hyperextension submissions. Without a secure grip on the far end of the limb, the defender can bend the joint and relieve pressure. Grip strength and grip positioning are essential."
+    },
+    {
+      "principle_name": "Pressure",
+      "relationship_type": "Complementary",
+      "description": "Hip pressure is the primary force mechanism for hyperextension submissions. Understanding how to generate and direct pressure through hip extension enables more powerful and more controlled joint lock application."
+    },
+    {
+      "principle_name": "Frames",
+      "relationship_type": "Complementary",
+      "description": "Defenders use frames to prevent armbar and kneebar setups by creating barriers between the attacker's body and the targeted limb. Understanding framing mechanics informs both defensive strategy and the attacker's approach to defeating those frames."
+    },
+    {
+      "principle_name": "Posture",
+      "relationship_type": "Complementary",
+      "description": "Posture management affects hyperextension submission entries and defenses. Good posture prevents many armbar entries from guard. Stacking as a defense uses posture to compress the attacker and relieve joint pressure."
+    },
+    {
+      "principle_name": "Distance Control",
+      "relationship_type": "Complementary",
+      "description": "Hyperextension submissions require specific distances between the attacker's body and the joint. Too much space allows the defender to pull free. Too little space reduces hip drive effectiveness. Managing the exact distance is a finishing detail."
+    },
+    {
+      "principle_name": "Hooks",
+      "relationship_type": "Complementary",
+      "description": "Leg hooks across the opponent's body are essential for armbar control from guard and mount positions. The leg over the head prevents posture recovery and the leg across the torso anchors the attacker's position for hip drive."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Armbar Control",
+      "how_applied": "The armbar from armbar control is the textbook hyperextension submission. The attacker controls the wrist with both hands, pinches the arm between their thighs, positions the hip bone against the back of the elbow, and lifts the hips to drive the elbow past its natural extension. The thumb points toward the ceiling for proper alignment."
+    },
+    {
+      "context": "Mount",
+      "how_applied": "Armbar from mount transitions from the highest-control top position to a hyperextension finish. The attacker isolates an arm, pivots to a perpendicular angle, swings the leg over the head, and falls back into the armbar position. The transition requires maintaining control throughout the position change."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Armbar from closed guard is one of the first submissions taught in BJJ. The guard player controls the posture, isolates an arm, pivots to a perpendicular angle using hip movement, places the leg over the head, and extends the hips to hyperextend the elbow. This demonstrates the hyperextension principle from bottom position."
+    },
+    {
+      "context": "Kneebar Control",
+      "how_applied": "The kneebar applies identical hyperextension mechanics to the knee joint. The attacker controls the ankle, pinches the leg between their thighs, positions their hip against the back of the knee, and extends their hips to force the knee past its natural extension limit. The mechanical principle is identical to the armbar."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Straight ankle locks from ashi garami positions hyperextend the ankle and foot complex by controlling the foot with a figure-four grip and applying downward pressure against the top of the foot while the forearm blade drives into the Achilles tendon area. The ankle is forced into plantar flexion beyond its natural range."
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "Armbars from side control use the top player's weight and positioning to isolate the near or far arm before transitioning to the armbar finish. The attacker steps over the head while maintaining arm control, creating the perpendicular angle needed for effective hip pressure against the elbow."
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Armbars from back control are available when the opponent defends the rear naked choke by exposing their arms. The attacker can swing a leg over the head and transition to armbar control while maintaining back hooks, using hip drive to hyperextend the elbow."
+    },
+    {
+      "context": "Triangle Control",
+      "how_applied": "When the triangle choke is defended by posturing or stacking, the attacker can transition to an armbar on the trapped arm by adjusting hip angle and extending the isolated arm against the hips. This is a natural chain connection between triangle and armbar."
+    },
+    {
+      "context": "Straight Ankle Lock Control",
+      "how_applied": "The straight ankle lock uses the forearm as a fulcrum against the Achilles tendon while the body falls back and extends, hyperextending the ankle joint. Controlling the foot position and maintaining tight body contact prevents the opponent from pulling free."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Flying armbars apply hyperextension from standing by jumping to armbar position and using body weight to pull the opponent down while extending the elbow. These are high-risk, high-reward techniques that demonstrate the hyperextension principle in its most dynamic application."
+    },
+    {
+      "context": "Omoplata Control",
+      "how_applied": "While the omoplata primarily targets the shoulder through rotation, it has hyperextension components when the attacker drives forward, extending the opponent's arm past its comfortable range behind their back. Understanding the hyperextension element improves finishing mechanics."
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "Kneebar entries from half guard passing positions catch the bottom player's leg during guard pass attempts. The passer transitions to kneebar control on the entangled leg, applying the standard hyperextension mechanic to the knee joint."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "Identify an exposed limb with a hinge joint available for hyperextension",
+      "action": "Scan for arms or legs that are extended or can be isolated. Overextended arms during frames, underhook attempts, or grip fighting are common armbar opportunities. Legs exposed during guard passing or scrambles create kneebar and ankle lock opportunities."
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Secure control of the limb on both sides of the target joint",
+      "action": "Grip the wrist or ankle (distal control) and position your body against the joint from the opposite direction (proximal control). Without control on both sides, the opponent can bend the joint or withdraw the limb before hyperextension force is effective."
+    },
+    {
+      "step_number": 3,
+      "decision_point": "Position your hips as the primary fulcrum against the joint",
+      "action": "Place your hip bone or hip area directly against the back of the targeted joint. For armbars, the hip presses against the posterior elbow. For kneebars, it presses against the posterior knee. The closer and tighter the hip contact, the more effective the hyperextension force."
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Establish knee pinch to prevent limb rotation and withdrawal",
+      "action": "Squeeze your knees or thighs together around the limb to prevent the opponent from turning, spinning, or pulling the limb free. The pinch is as important as the extension force because it keeps the joint aligned with the direction of hyperextension."
+    },
+    {
+      "step_number": 5,
+      "decision_point": "Verify proper joint alignment before applying extension force",
+      "action": "Check that the joint is oriented correctly for hyperextension. The elbow must face your hips with the thumb pointing up. The knee must face your body with the toes pointing away. If alignment is incorrect, the force will not hyperextend the joint and may injure other structures."
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Apply progressive hip extension to hyperextend the joint",
+      "action": "Lift your hips slowly and steadily to drive the joint past its natural range. In training, apply pressure gradually enough for the defender to tap. Feel the resistance increase as the joint approaches its limit. Never jerk or explode through the range of motion."
+    },
+    {
+      "step_number": 7,
+      "decision_point": "Monitor the opponent's response and be ready for immediate release",
+      "action": "Watch and feel for the tap signal. Release pressure instantly upon receiving the tap. In training, if the opponent's arm or leg goes suddenly limp without a tap, stop immediately and check in verbally. Joint injuries can occur before pain registers."
+    },
+    {
+      "step_number": 8,
+      "decision_point": "If the hyperextension fails, decide whether to readjust or transition",
+      "action": "If the opponent defends through hitchhiker escape, stacking, or grip fighting, assess whether readjustment can recapture the limb or whether transitioning to a choke, sweep, or different joint lock is the better option. Failed armbar attempts from guard can become triangles or omoplatas."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Applying hyperextension force explosively rather than progressively in training",
+      "consequence": "Ligament sprains, tears, or avulsions that require weeks to months of recovery and potentially surgical repair. Elbow and knee ligaments do not heal to full pre-injury strength, meaning each hyperextension injury reduces the joint's long-term resilience.",
+      "correction": "Build the habit of slow, progressive pressure application in every training context, including competition preparation. The rate of force application should allow the defender at least 1-2 seconds to tap after feeling the joint reach its limit. Speed of application does not improve finishing rate but dramatically increases injury rate."
+    },
+    {
+      "error": "Insufficient knee pinch allowing the opponent to rotate out of the submission",
+      "consequence": "The opponent spins their arm or leg to change the angle of force, converting the hyperextension into a manageable angle or escaping entirely. The attacker wastes energy and position without getting the finish.",
+      "correction": "Squeeze the knees together throughout the entire submission attempt. The pinch should be active from the moment of limb isolation through the finish. Think of the thighs as a vise that holds the limb in place while the hips provide the extension force."
+    },
+    {
+      "error": "Pulling with the arms instead of driving with the hips",
+      "consequence": "Arm pulling generates less force than hip extension and fatigues the grip and biceps quickly. The defender can resist arm pulling but cannot easily resist hip drive from a properly positioned attacker.",
+      "correction": "Keep the arms as position controllers, not force generators. Grip the wrist and keep the arm close to your chest, then lift your hips to apply the hyperextension force. The hips should do 80% of the work while the arms maintain alignment and prevent escape."
+    },
+    {
+      "error": "Leaving too much space between your body and the opponent's limb",
+      "consequence": "Space allows the defender to bend the joint, create slack, and escape before hyperextension force reaches the joint's limit. The lever arm becomes too long, reducing mechanical advantage.",
+      "correction": "Keep the targeted limb as close to your body as possible throughout the submission. In armbars, the opponent's arm should be tight against your chest. In kneebars, the leg should be pulled tight to your torso. Eliminate all gaps between your body and the limb."
+    },
+    {
+      "error": "Attempting the hyperextension from an unstable position without proper control",
+      "consequence": "The defender uses the attacker's instability to escape, sweep, or reverse position. The attacker loses both the submission and potentially their dominant position.",
+      "correction": "Establish positional stability before committing to the hyperextension finish. Secure hooks, maintain base, and verify control of the limb before extending the hips. If the position is unstable, prioritize control over finishing."
+    },
+    {
+      "error": "Fighting through a defended hyperextension rather than transitioning to another attack",
+      "consequence": "Burning energy trying to force a finish against a well-defended limb while ignoring the offensive opportunities created by the defense. The defender's hands are occupied defending the joint lock, potentially exposing the neck.",
+      "correction": "Recognize when the hyperextension is well-defended and transition to chain attacks. Armbar defense exposes the neck for triangle. Kneebar defense creates heel hook opportunities. Ankle lock defense opens transitions to deeper leg entanglements. Use the defense as an opening."
+    },
+    {
+      "error": "Ignoring proper alignment and applying force at an incorrect angle",
+      "consequence": "The force does not hyperextend the joint as intended and may stress other structures in unintended directions, creating unpredictable injury risk. The submission feels tight but does not finish because the mechanics are wrong.",
+      "correction": "Verify alignment before applying force. For armbars: thumb up, elbow facing your hips, arm centered on your body. For kneebars: leg straight, kneecap facing away from your body. For ankle locks: foot aligned with the forearm fulcrum. Correct alignment before increasing pressure."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Slow-Motion Hyperextension Drilling",
+      "description": "Practice armbar, kneebar, and ankle lock finishes at extremely slow speed, taking 10-15 seconds to move from initial contact to full extension. Partner provides verbal feedback on pressure, alignment, and the exact moment they feel the joint reaching its limit. Focus on feeling the resistance curve rather than forcing through it.",
+      "focus": "Developing the tactile sensitivity and pressure calibration necessary for safe and effective hyperextension application in training and competition"
+    },
+    {
+      "approach_name": "Positional Entry Drilling",
+      "description": "Practice the transitions from dominant positions to hyperextension submission positions without applying the finish. From mount, drill the pivot, leg swing, and fall-back for armbars. From half guard, drill kneebar entries. From ashi garami, drill ankle lock grip establishment. Focus on the transition mechanics while maintaining control.",
+      "focus": "Building smooth, controlled entry mechanics that maintain limb control throughout the transition from dominant position to submission position"
+    },
+    {
+      "approach_name": "Progressive Resistance Armbar Rounds",
+      "description": "Start from armbar control position with partner providing graduated resistance: 30% for the first week, 50% for the second, 70% for the third. The attacker focuses on maintaining pinch, hip position, and proper alignment while finishing against increasing defensive effort. Reset after each attempt.",
+      "focus": "Developing the ability to finish hyperextension submissions against realistic defensive responses including hitchhiker, grip fighting, stacking, and arm rotation"
+    },
+    {
+      "approach_name": "Chain Transition Drilling",
+      "description": "Practice transitioning from armbar to triangle, armbar to omoplata, kneebar to heel hook, and ankle lock to kneebar when the initial hyperextension is defended. Partner defends the first submission using standard escapes, and attacker transitions to the chain option. Build automatic responses to common defenses.",
+      "focus": "Integrating hyperextension submissions into chain systems so that defensive responses create new offensive opportunities rather than ending the attack"
+    },
+    {
+      "approach_name": "Defense and Escape Workshop",
+      "description": "Dedicated sessions focused on hyperextension defense from the defender's perspective. Practice hitchhiker escapes, grip fighting, stacking, arm rotation, and early recognition of armbar, kneebar, and ankle lock setups. Include discussion of when to tap and the consequences of late tapping for joint health.",
+      "focus": "Building defensive skills and early tap discipline that protect joints during training while developing the ability to escape hyperextension submissions when defensive windows exist"
+    },
+    {
+      "approach_name": "Multi-Position Armbar Application",
+      "description": "Practice applying armbars from every available position in a single drilling session: mount, closed guard, side control, back control, standing, half guard, and transition positions. Each entry uses the same hyperextension finishing mechanics but with position-specific transitions and adjustments.",
+      "focus": "Developing the ability to recognize and execute hyperextension attacks from any position, reinforcing that the finishing principle is universal while entries are position-specific"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Can apply a basic armbar from mount or closed guard with cooperative partner but struggles with limb isolation and knee pinch against resistance",
+        "Relies on arm pulling rather than hip drive for extension force, limiting finishing power and causing rapid fatigue",
+        "May apply hyperextension force too quickly in training, not yet having developed the progressive pressure application habit",
+        "Understands the basic mechanic of hyperextension but struggles to maintain control during the transition from position to submission"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Finishes armbars consistently using hip drive and proper knee pinch, demonstrating understanding of the mechanical principles",
+        "Applies hyperextension force progressively in training with good pressure calibration and immediate release on tap",
+        "Can execute armbar entries from multiple positions including mount, guard, and side control with reasonable success against resistance",
+        "Recognizes kneebar and ankle lock opportunities in addition to armbars, applying the same hyperextension principle to different joints",
+        "Demonstrates basic defensive skills including hitchhiker escape, grip fighting, and early tap discipline"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Finishes hyperextension submissions against skilled opponents through refined control, alignment, and gap elimination",
+        "Chains hyperextension attacks with chokes and other submissions, using armbar defense to enter triangles and kneebar defense to enter heel hooks",
+        "Applies armbars, kneebars, and ankle locks from unconventional positions and during scrambles, demonstrating deep understanding of the universal principle",
+        "Defends hyperextension attacks at early stages through recognition and prevention rather than relying on last-second escapes",
+        "Can teach hyperextension mechanics effectively, explaining the lever physics and safety protocols clearly"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Applies hyperextension submissions with such precision that minimal force produces maximum effect, finishing through perfect alignment and control rather than power",
+        "Has developed personal finishing details for hyperextension submissions that make them extremely difficult to defend even for opponents who know the attack is coming",
+        "Integrates hyperextension threats seamlessly into the overall game, using joint lock pressure to control opponent behavior and create chain opportunities throughout the match",
+        "Demonstrates flawless safety awareness including progressive application, immediate release, and the ability to apply competition-speed submissions in training without injury risk"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Armbar from Armbar Control",
+      "content_type": "Submission",
+      "relationship": "The most fundamental hyperextension submission, applying hip pressure against the elbow to force it past its natural extension"
+    },
+    {
+      "name": "Achilles Lock",
+      "content_type": "Submission",
+      "relationship": "Straight ankle lock that hyperextends the ankle joint using forearm pressure against the Achilles tendon area"
+    },
+    {
+      "name": "Levers",
+      "content_type": "Principle",
+      "relationship": "Hyperextension submissions are direct applications of lever mechanics, with the hip as fulcrum, the limb as lever, and grip as the force application point"
+    },
+    {
+      "name": "Submission Defense",
+      "content_type": "Principle",
+      "relationship": "Hyperextension defense includes grip fighting, hitchhiker escapes, stacking, and early tap protocols specific to joint lock submissions"
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Hyperextension submissions are common chain elements where defense opens transitions to chokes, sweeps, and other joint locks"
+    },
+    {
+      "name": "Armbar Control",
+      "content_type": "Position",
+      "relationship": "The control position from which the standard armbar hyperextension is applied"
+    },
+    {
+      "name": "Kneebar Control",
+      "content_type": "Position",
+      "relationship": "The control position from which kneebar hyperextension is applied to the knee joint"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "content_type": "Position",
+      "relationship": "The control position from which straight ankle lock hyperextension is applied to the ankle complex"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Primary entry position for the armbar, the most common hyperextension submission in BJJ"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Classic position for armbar entries from bottom, one of the first hyperextension submissions taught to beginners"
+    },
+    {
+      "name": "Ashi Garami",
+      "content_type": "Position",
+      "relationship": "Leg entanglement system that provides control platforms for kneebar and straight ankle lock hyperextension attacks"
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Wrist and ankle grips provide the distal control essential for maintaining limb isolation during hyperextension submissions"
+    },
+    {
+      "name": "Triangle Control",
+      "content_type": "Position",
+      "relationship": "Triangle defense commonly opens armbar transitions, making triangle and armbar the most common chain pair using hyperextension mechanics"
+    }
+  ]
+}

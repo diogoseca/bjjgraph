@@ -169,6 +169,8 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Position Definition
 
+<p class="section-subtitle">What is Standing Guard (Bottom)?</p>
+
 - Bottom player maintains upright standing posture with feet on mat, knees slightly bent in athletic stance with weight distributed through balls of feet for mobility and quick directional changes
 - Hands actively engaged in grip fighting or framing against opponent's body, controlling distance through collar ties, wrist control, or body frames to prevent opponent from closing distance and establishing dominant grips
 - Safe distance maintained from opponent (approximately arm's length or greater) with hips mobile and ready to retreat, circle, or change levels, preventing opponent from securing body lock or controlling posture
@@ -182,6 +184,8 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Standing Guard (Bottom)?</p>
+
 - Ability to perform technical standup from seated or supine guard positions
 - Understanding of grip fighting fundamentals and hand control
 - Awareness of distance management and spatial positioning
@@ -194,6 +198,8 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Guard?</p>
 
 - Maintain active hand fighting to control opponent's grips and prevent dominant connections
 - Keep weight on balls of feet with knees bent for quick lateral movement and retreat options
@@ -209,6 +215,8 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Standing Guard (Bottom)?</p>
 
 **If opponent drives forward aggressively trying to close distance:**
 - Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
@@ -229,7 +237,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 
 **If opponent attempts snap-down or front headlock control:**
-- Execute **[[Principles/Posture Up/Attacker|Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Posture Up/Attacker|Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 - Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
@@ -247,6 +255,8 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Guard?</p>
 
 ### 1. Standing too upright with locked knees and flat feet
 
@@ -291,7 +301,9 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Training Drills for Defense
 
-### Grip Fighting Flow Drill
+<p class="section-subtitle">How do you train Standing Guard defense?</p>
+
+### Grips Flow Drill
 
 Partners face each other standing and engage in continuous grip fighting for 2-minute rounds, focusing on establishing grips, breaking opponent grips, and maintaining hand control without executing takedowns or guard pulls. Emphasize active hands, proper framing distance, and defensive posture against snap-downs.
 
@@ -330,38 +342,6 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal weight distribution and stance for maintaining defensive stability while remaining mobile in Standing Guard Bottom?
-**A**: Maintain weight on the balls of your feet with knees bent in an athletic stance, hips slightly back, and approximately 60% of weight on your rear foot for stability while keeping the front foot light for quick movement. Your stance width should be roughly shoulder-width, allowing lateral movement in either direction. This distribution enables quick level changes for guard pulls, lateral circling to avoid pressure, and immediate sprawling if opponent shoots for takedowns.
-
-**Q2**: Your opponent aggressively closes distance and establishes a collar grip while driving forward. How do you maintain your position without being pushed back?
-**A**: Address the grip immediately using two-on-one grip breaking while creating an angle through lateral footwork rather than backing straight up. Frame against their shoulder with your free hand to create space while working the grip break. If the grip solidifies, use their forward pressure against them by timing a guard pull or collar drag that capitalizes on their committed weight. Never fight grip strength with grip strength alone - use angles, timing, and technique to neutralize their control.
-
-**Q3**: What are the primary grip configurations you should establish before pulling guard from Standing Guard Bottom?
-**A**: For closed guard pulls, establish collar and sleeve grips or double sleeve grips to control opponent's posture during the pull. For seated guard entries, a same-side collar grip with cross-sleeve control works well. For De La Riva entries, secure cross-collar grip and same-side sleeve. For butterfly guard, double underhooks or overhook-underhook work effectively. The key principle is establishing grips that allow you to break opponent's posture and maintain connection throughout the sitting motion while setting up your intended guard structure.
-
-**Q4**: How do you defend against a snap-down attempt while maintaining your offensive threat potential?
-**A**: Keep your chin tucked with a strong neck posture and elbows tight to your body, creating a defensive frame that makes the snap-down difficult. When you feel the pull downward, immediately circle laterally rather than fighting straight back up, which breaks their pulling angle. Counter-attack opportunities include collar drags when they overextend, arm drags to expose their back, or timing a guard pull as they commit to the snap-down. The key is maintaining your posture while making them pay for failed offensive attempts.
-
-**Q5**: Your opponent is playing very defensively and maintaining distance without engaging. What is the appropriate strategic response?
-**A**: Use the space to establish your preferred grips without opposition, then initiate engagement on your terms. Options include controlled sitting to seated guard to force them to engage with your guard game, closing distance with confident forward pressure while threatening collar drags or snap-downs, or using ankle pick or single leg entries when they remain stationary. The passive opponent gives you time to set up your ideal grip configuration and choose your moment to transition - don't waste this advantage by also being passive.
-
-**Q6**: What is the correct recovery sequence when you lose your balance or get slightly off-based during standing engagement?
-**A**: If pushed or pulled off-balance, immediately lower your level by bending your knees deeper rather than stiffening up, which makes recovery easier. Use circular footwork to reestablish base while maintaining at least one grip connection to prevent complete disengagement. If recovery to standing is not possible, transition immediately to a guard pull rather than fighting to regain standing from a compromised position. The worst response is stiffening and trying to muscle back to upright posture, which exposes you to further attacks.
-
-**Q7**: How do you manage energy expenditure while maintaining defensive pressure in an extended standing engagement?
-**A**: Use efficient technique rather than strength for grip fighting - circular grip breaks require less energy than pulling matches. Maintain a relaxed but ready athletic stance rather than tensing constantly. Make opponent work by forcing them to pursue you with lateral movement rather than absorbing their pressure statically. When engaging offensively, use committed explosive attempts with full technique rather than half-efforts that waste energy. If the standing engagement extends, prioritize pulling guard to your strongest position rather than depleting energy in an unfavorable exchange.
-
-**Q8**: Your guard pull attempt partially fails and you land in a compromised seated position with opponent already moving to pass. How do you recover?
-**A**: Immediately establish frames with both hands on their shoulders or collar to create distance while getting your feet between you and your opponent. Hip escape to create angle and prevent them from establishing a passing lane. If they're already past your initial frames, transition to retention tactics like shrimping, inverting, or establishing knee shield. The critical error is fighting to complete the original guard pull from a compromised position - accept the situation and transition to guard recovery rather than insisting on your planned guard type.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

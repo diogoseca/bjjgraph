@@ -166,6 +166,8 @@ Successful defense demands recognizing that aggressive forward pressure during t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel to Spider Guard?</p>
+
 - Opponent releases their lapel grip voluntarily rather than having it fully stripped—this proactive release signals they are initiating the transition to spider guard
 - Opponent reinforces or adjusts their sleeve grips at the cuffs while their lapel control loosens—sleeve grip tightening is the setup for foot-on-bicep placement
 - Opponent's hips begin angling to one side and feet reposition from the lapel guard frame toward your bicep area—the hip angle telegraphs the incoming spider guard structure
@@ -177,6 +179,8 @@ Successful defense demands recognizing that aggressive forward pressure during t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel to Spider Guard?</p>
 
 - Capitalize on the transitional window between lapel guard failure and spider guard establishment—this is the opponent's weakest moment
 - Strip sleeve grips immediately when you feel the lapel release, denying the anchor points needed for spider guard
@@ -190,6 +194,8 @@ Successful defense demands recognizing that aggressive forward pressure during t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel to Spider Guard?</p>
 
 ### 1. Immediate pressure pass during transition window
 
@@ -227,6 +233,8 @@ Successful defense demands recognizing that aggressive forward pressure during t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel to Spider Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Drive immediate forward pressure the moment the lapel clears, cutting an angle with a knee slice or pressure pass before spider guard establishes. Target the hip on the side where their foot is slower to reach your bicep and commit your weight through that lane.
@@ -242,6 +250,8 @@ Strip both sleeve grips during the transition window by using two-on-one grip br
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel to Spider Guard?</p>
 
 ### 1. Pausing after successfully stripping the lapel grip instead of immediately advancing
 
@@ -271,6 +281,8 @@ Strip both sleeve grips during the transition window by using two-on-one grip br
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel to Spider Guard?</p>
+
 **Week 1-2** - Recognition and timing
 Partner drills the Lapel to Spider Transition at 50% speed. Practice recognizing the transition cues—lapel release, sleeve grip tightening, hip angle change—and responding with forward pressure within one second. No live passing yet, just reaction timing.
 
@@ -287,29 +299,6 @@ Full resistance sparring starting from lapel guard top position. Opponent uses t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window during the Lapel to Spider Transition?
-**A**: The critical window is the one to two seconds between when the opponent releases their lapel grip and when they establish both feet on your biceps with sleeve grips secured. During this interval they are between guard systems and most vulnerable to passing pressure. Acting decisively in this window bypasses the spider guard entirely.
-
-**Q2**: Your opponent releases their lapel grip and you feel them tighten their sleeve grips on your cuffs—what should your immediate response be?
-**A**: Strip at least one sleeve grip immediately using a two-on-one break while simultaneously driving forward pressure with your hips. The sleeve grip tightening is the setup for spider guard, so disrupting it before their feet relocate to your biceps prevents the transition. If you cannot strip the grip, keep your elbows tight and crowd their hips to deny extension space.
-
-**Q3**: Why is forward pressure more effective than retreating when defending this transition?
-**A**: Spider guard requires distance and leg extension to function. Retreating gives the opponent the space they need to fully extend their legs into your biceps and establish the characteristic push-pull tension. Forward pressure compresses that space, preventing effective spider guard structure and keeping you in range to initiate passing sequences before the guard solidifies.
-
-**Q4**: How do you prevent the opponent from landing their feet in your bicep pockets during the transition?
-**A**: Keep your elbows pinched tightly to your ribcage, removing the bicep surface area that their feet need to seat into. Simultaneously drive your weight forward through your hips to crowd their space. The combination of retracted arms and forward pressure makes it physically difficult for them to place their feet in the correct position for effective spider guard control.
-
-**Q5**: You failed to prevent spider guard establishment—the opponent has both feet on your biceps with sleeve grips. What is your adjusted defensive strategy?
-**A**: Do not fight the hooks with arm strength. Step backward to reduce the effectiveness of their foot pressure, then systematically strip one sleeve grip using proper two-on-one or thumb-strip mechanics. Once one grip breaks, immediately control their pants at the knee on the freed side and initiate a passing sequence before they can re-establish the grip. The key is posture and patience rather than muscular effort.
-
-
-
-</section>
 
 
 </main>

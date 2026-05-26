@@ -188,6 +188,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Pass from Triangle Escape?</p>
+
 - Maintain continuous forward pressure through the transition from escape to pass—any backward movement or pause allows the bottom player to recover guard structure
 - Use the same stacking mechanics from the triangle escape as your primary passing force vector, redirecting rather than restarting your momentum
 - Control the locking leg immediately after the triangle breaks to prevent re-entry into triangle configuration
@@ -202,6 +204,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Pass from Triangle Escape?</p>
+
 - Triangle lock has been compromised with ankles uncrossed or loosening from your escape sequence
 - Posture has been partially or fully recovered with stable base established on knees or feet
 - Forward stacking pressure is actively being applied to opponent's hips and lower back
@@ -214,6 +218,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Pass from Triangle Escape step by step?</p>
 
 1. **Consolidate post-escape base**: As the triangle lock loosens, immediately widen your base and drive your weight forward through your hips. Plant your chest against the opponent's torso with elbows tight to your body, establishing a stable platform that prevents the bottom player from re-establishing the triangle or creating distance for guard recovery. Do not celebrate the escape—treat it as the starting point of your pass.
 2. **Control the locking leg**: Use your previously-trapped arm to grip the opponent's top leg at the knee or behind the calf. This is the leg that was crossing behind your neck during the triangle. Pull it firmly down toward the opponent's hip to prevent them from re-locking the triangle configuration. This grip is your primary defensive anchor against triangle re-entry and must be secured before advancing the pass.
@@ -243,6 +249,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Pass from Triangle Escape?</p>
+
 - **Bottom player re-locks triangle by catching the arm during the leg clearance phase before the pass is completed** (Effectiveness: High) - Your Response: Immediately resume escape sequence by re-establishing posture and stacking pressure. Do not try to force the pass through a re-locked triangle. Reset to escape mechanics and look for the next passing window. → Leads to [[Positions/Triangle Escape Position]]
 - **Bottom player shrimps aggressively and recovers closed guard by re-wrapping legs around waist during transition** (Effectiveness: Medium) - Your Response: Accelerate the crossface establishment and drive your hips forward to prevent the legs from closing. If the guard closes, accept the position and begin a standard closed guard passing sequence rather than forcing a compromised pass. → Leads to [[Positions/Closed Guard]]
 - **Bottom player creates strong frames against your shoulders and hips to maintain distance and prevent chest contact** (Effectiveness: Medium) - Your Response: Swim through the frames with your arms while maintaining low hip pressure. Use head position changes and shoulder switches to collapse individual frames one at a time rather than trying to power through both simultaneously. → Leads to [[Positions/Closed Guard]]
@@ -254,6 +262,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Pass from Triangle Escape?</p>
 
 ### 1. Releasing stacking pressure after the triangle breaks to reset posture before initiating the pass
 
@@ -293,6 +303,8 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Pass from Triangle Escape (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Individual movement patterns for the escape-to-pass chain
 Partner holds a loosened triangle position with 20% resistance. Practice the seven-step passing sequence in isolation, focusing on proper hand placement, hip movement direction, and crossface timing. Reset after each repetition. Perform 20 repetitions per side to build muscle memory for the continuous motion.
 
@@ -310,42 +322,12 @@ Open sparring starting from closed guard where partner actively hunts for triang
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the guard pass after the triangle breaks?
-**A**: The optimal window is the two to three seconds immediately after the triangle ankle lock breaks and before the bottom player can reorganize their legs into a defensive guard configuration. During this window, the opponent's legs are transitioning from triangle to open position, their grips are disrupted, and their hip angle is compromised from stacking pressure. Hesitating beyond this window allows full guard recovery.
-
-**Q2**: Why must you pass toward the previously-trapped arm side rather than the opposite direction?
-**A**: Passing toward the previously-trapped arm side opens the triangle structure rather than closing it, eliminating any residual choking pressure and preventing re-lock. This direction also aligns with the natural circular path you established during the escape, allowing your momentum to feed directly into the pass without a direction change that would create a pause the bottom player could exploit.
-
-**Q3**: Your opponent begins re-locking their triangle as you initiate the leg clearance—how do you respond?
-**A**: Immediately abandon the passing attempt and reset to triangle escape mechanics. Re-establish your stacking pressure, recover posture, and protect the trapped arm by pinning the elbow to your ribs. Do not try to force the pass through a re-locking triangle, as this compounds the choking pressure and creates armbar vulnerability. Wait for the next clean break before attempting the pass again.
-
-**Q4**: What role does the crossface play in completing this guard pass?
-**A**: The crossface serves as the final positional anchor that prevents all late-stage guard recovery attempts. By sliding your arm under the opponent's head and driving your shoulder into their jaw, you turn their head away from you, which eliminates their ability to follow your movement with their hips, create defensive frames, or turn into you for guard recovery. Without the crossface, even a well-executed leg clearance can be reversed.
-
-**Q5**: How should you grip and control the locking leg during the passing transition?
-**A**: Grip the locking leg at the knee or behind the calf with your previously-trapped arm. Pull the leg firmly downward toward the opponent's hip to prevent re-locking, then push it across the opponent's body toward the far side as you transition laterally. Maintain active control of this leg throughout the entire pass—releasing it even briefly allows the opponent to hook it back behind your neck or use it to establish a new guard.
-
-**Q6**: The bottom player shrimps hard and gets one knee between you—what adjustment prevents guard recovery?
-**A**: Immediately drive your hip pressure down against their inserted knee while switching your crossface to a more aggressive shoulder drive. Use your free hand to strip the knee outward rather than trying to push it down, which fights their strongest leverage angle. If the knee is deep, transition to a knee slice pass using their knee insertion as the fulcrum point rather than trying to re-establish the original passing angle.
-
-**Q7**: Why is continuous forward pressure essential throughout the escape-to-pass transition?
-**A**: Forward pressure serves three simultaneous functions: it compresses the opponent's spine to limit hip mobility for guard recovery, it maintains the stacking angle that prevents triangle re-lock, and it drives your body mass past the opponent's legs for the guard pass. Any interruption in forward pressure—even a brief pause to readjust—creates space the bottom player immediately exploits for defensive shrimping or guard recovery.
-
-**Q8**: How do you distribute your weight during the final consolidation phase as you settle into side control?
-**A**: Drop your hips low and heavy against the opponent's near hip while spreading your chest pressure across their upper torso in perpendicular alignment. Your weight should be distributed primarily through your hips and chest rather than your hands, which should remain light and mobile for controlling grips. Sprawl your legs behind you with a wide base for lateral stability and keep your head positioned low on the far side of the opponent to maximize pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Pass from Triangle Escape?</p>
 
 Control the speed and intensity of the stacking pressure during the escape-to-pass transition to avoid driving excessive force onto the opponent's cervical spine. When stacking, continuously monitor your training partner's head and neck position, as their spine is compressed in the folded position and vulnerable to injury from sudden directional changes. Release pressure immediately if your partner taps during any phase of the transition. Be particularly cautious when combining stacking with lateral movement, as the rotational forces can create unexpected neck torque. During drilling, practice at controlled speeds before adding intensity.
 

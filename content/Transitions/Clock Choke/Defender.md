@@ -164,6 +164,8 @@ The most effective defensive window is during grip establishment. Tucking the ch
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Clock Choke?</p>
+
 - Attacker's hand reaches across your neck and you feel thumb pressure entering inside your gi collar on the far side
 - Attacker's non-choking hand grips your far hip or belt, establishing the anchor that prevents rolling
 - Attacker begins walking their knees laterally toward your head while maintaining chest pressure on your upper back
@@ -176,6 +178,8 @@ The most effective defensive window is during grip establishment. Tucking the ch
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Clock Choke?</p>
 
 - Protect the collar by keeping chin tucked and elbows tight to prevent deep thumb-inside grip establishment
 - Fight the choking hand immediately—every second the grip deepens reduces your escape probability
@@ -190,6 +194,8 @@ The most effective defensive window is during grip establishment. Tucking the ch
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Clock Choke?</p>
 
 ### 1. Two-on-one grip strip on the choking hand before it sinks deep into the collar
 
@@ -227,6 +233,8 @@ The most effective defensive window is during grip establishment. Tucking the ch
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Clock Choke?</p>
+
 ### → [[Positions/Turtle]]
 
 Strip the collar grip early using two-on-one hand fighting before the attacker can establish depth, then immediately tighten your defensive turtle structure with elbows to knees and chin tucked to prevent re-establishment
@@ -242,6 +250,8 @@ Time a roll toward the choking side when the attacker commits weight to the perp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Clock Choke?</p>
 
 ### 1. Lifting the head and exposing the neck when feeling the initial collar grip rather than tucking the chin tighter
 
@@ -276,6 +286,8 @@ Time a roll toward the choking side when the attacker commits weight to the perp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Clock Choke?</p>
+
 **Week 1-2** - Recognition and grip prevention
 Partner slowly establishes Clock Choke grips while you practice recognizing the collar entry and executing two-on-one grip strips. Focus on the tactile feel of the thumb entering the collar and developing the reflex to immediately address it. No finishing pressure applied during this phase.
 
@@ -292,29 +304,6 @@ Integrate Clock Choke defense into full sparring rounds. Practice recognizing th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive window for preventing the Clock Choke?
-**A**: The most critical window is during initial collar grip establishment, before the attacker's thumb sinks deep inside the collar. At this stage, a two-on-one grip strip can completely nullify the attack. Once the grip is deep and the attacker begins walking perpendicular, escape probability drops significantly because the choking mechanism is already in place and only needs body weight to finish.
-
-**Q2**: You feel the attacker's thumb entering your collar—what is your immediate response?
-**A**: Immediately commit both hands to stripping the grip using a two-on-one configuration—grab their wrist and sleeve and peel their thumb out of the collar before it deepens. Simultaneously tuck your chin harder to your chest and clamp your shoulder to your ear on the threatened side to deny further neck access. Speed is essential because every second of delay allows the grip to set deeper and become exponentially harder to strip.
-
-**Q3**: Why must you roll toward the choking side rather than away from it when escaping?
-**A**: Rolling toward the choking side creates slack in the collar grip by moving your neck in the direction that loosens the gi material wrapped around it. Rolling away from the choking side pulls the collar tighter across your neck, effectively helping the attacker finish the choke. This is counterintuitive but mechanically essential—always turn into the attacker's body to relieve rotational pressure on the collar.
-
-**Q4**: The attacker has a deep collar grip and has started walking perpendicular—what are your remaining defensive options?
-**A**: With a deep grip and perpendicular walk underway, your primary options are: sit back explosively to collapse their rotational angle before they sprawl, or commit to a roll toward the choking side to relieve pressure and recover guard. Grip stripping becomes much harder at this stage. If the attacker has already sprawled their hips to the mat, your escape probability is very low and you should prioritize tapping safely rather than fighting a fully locked blood choke.
-
-**Q5**: How does monitoring the attacker's hip-control hand inform your defensive decisions?
-**A**: The hip-control hand is the anchor that prevents your rolling escape. If the attacker loses or loosens their hip grip during the rotation, a roll toward the choking side becomes high-percentage because nothing is preventing you from turning. If the hip grip is strong, rolling is risky because they will follow your rotation and potentially end up in mount. Monitoring this grip tells you whether rolling or sitting back is the better defensive choice at any given moment.
-
-
-
-</section>
 
 
 </main>

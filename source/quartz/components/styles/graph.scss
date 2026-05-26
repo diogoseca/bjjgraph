@@ -1,5 +1,22 @@
 @use "../../styles/variables.scss" as *;
 
+// === Background graph (persistent, full-viewport, behind content) ===
+#background-graph {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  // Neural network grid background
+  background-color: #1a1a2e;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
 // Hide graph in wikilink hover popovers (graph JS never initializes inside them)
 .popover-inner .graph-outer {
   display: none;

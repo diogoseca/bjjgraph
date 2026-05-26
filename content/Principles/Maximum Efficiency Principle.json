@@ -61,9 +61,9 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Leverage Principles",
+      "principle_name": "Levers",
       "relationship_type": "Complementary",
-      "description": "Leverage Principles provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage"
+      "description": "Levers provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage"
     },
     {
       "principle_name": "Energy Conservation",
@@ -71,9 +71,9 @@
       "description": "Energy Conservation represents the practical outcome of applying maximum efficiency, as proper mechanical application directly reduces unnecessary energy expenditure during training and competition"
     },
     {
-      "principle_name": "Biomechanical Principles",
+      "principle_name": "Connection Principles",
       "relationship_type": "Prerequisite",
-      "description": "Understanding biomechanics is essential for identifying which body positions and movements create maximum efficiency through optimal force transfer and structural alignment"
+      "description": "Understanding connection principles is essential for identifying how body contact points and mechanical linkages create maximum efficiency through optimal force transfer and structural alignment"
     },
     {
       "principle_name": "Timing and Rhythm",
@@ -81,29 +81,29 @@
       "description": "Proper timing allows techniques to succeed with minimum force by capitalizing on moments when opponent structure is compromised, multiplying the effect of mechanical advantage"
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Extension",
       "description": "Base maintenance applies maximum efficiency principles specifically to stability and defensive positioning, using optimal structure to resist attacks with minimal effort"
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
       "description": "Proper weight distribution enables maximum efficiency by positioning mass optimally to create pressure and control through gravitational advantage rather than muscular force"
     },
     {
-      "principle_name": "Off-Balancing",
+      "principle_name": "Kuzushi",
       "relationship_type": "Extension",
-      "description": "Off-balancing techniques apply maximum efficiency by using minimal force to disrupt opponent equilibrium, creating opportunities for positional advancement"
+      "description": "Sweep mechanics apply maximum efficiency by using minimal force to disrupt opponent equilibrium through precise timing and leverage, creating opportunities for positional advancement"
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
       "description": "Effective framing creates structural efficiency by using skeletal positioning to manage distance and pressure without relying on muscular strength"
     },
     {
-      "principle_name": "Hip Movement",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
-      "description": "Hip movement techniques embody efficiency by generating large positional changes through core mechanics rather than limb-based muscular effort"
+      "description": "Hip escape mechanics embody efficiency by generating large positional changes through core-driven movement rather than limb-based muscular effort"
     }
   ],
   "application_contexts": [
@@ -329,7 +329,7 @@
   ],
   "related_content": [
     {
-      "name": "Leverage Principles",
+      "name": "Levers",
       "content_type": "Principle",
       "relationship": "Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice"
     },
@@ -339,9 +339,9 @@
       "relationship": "Represents the practical training outcome and strategic implementation of maximum efficiency principles"
     },
     {
-      "name": "Biomechanical Principles",
+      "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Foundational understanding of body mechanics that informs optimal positioning for efficiency maximization"
+      "relationship": "Foundational understanding of force application mechanics that informs optimal positioning for efficiency maximization"
     },
     {
       "name": "Timing and Rhythm",
@@ -349,12 +349,12 @@
       "relationship": "Critical complementary concept that multiplies efficiency through optimal technique execution timing"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Specific application of maximum efficiency principles to defensive positioning and stability"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Tactical implementation of efficiency through optimal mass positioning for control and pressure"
     },
@@ -374,14 +374,14 @@
       "relationship": "Submission demonstrating maximum efficiency through using leg structure to create finishing pressure without arm strength"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Application of efficiency principles to defensive structure and space management"
     },
     {
-      "name": "Off-Balancing",
+      "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Demonstrates efficiency through minimal force application to disrupt opponent equilibrium"
+      "relationship": "Demonstrates efficiency through minimal force application to disrupt opponent equilibrium and achieve positional advancement"
     }
   ]
 }

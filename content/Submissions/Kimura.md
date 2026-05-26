@@ -3,24 +3,61 @@
 
 
 ---
-title: "Kimura | BJJ Submission | BJJ Graph"
-description: "Master the Kimura shoulder lock in BJJ. Complete guide covering setup, finishing mechanics, defensive escapes, and variations from nine positions."
+title: "Kimura | BJJ Submission Family | BJJ Graph"
+description: "Master the Kimura shoulder lock in BJJ. Complete guide covering grip mechanics, finishing technique, defensive escapes, and applications from multiple positions."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Kimura targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Kimura/Attacker|Play as Attacker]]
-[[Kimura/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Kimura/from Armbar Control|Armbar Control]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Butterfly Guard|Butterfly Guard]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Crucifix|Crucifix]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Flattened Half Guard|Flattened Half Guard]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Front Headlock|Front Headlock]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Gift Wrap|Gift Wrap]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Guard|Closed Guard]] | 58% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor) |  |
+| [[Kimura/from Half Guard|Half Guard]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus tendons) |  |
+| [[Kimura/from High Mount|High Mount]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Kesa Gatame|Kesa Gatame]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Kimura Trap|Kimura Trap]] | 50% | Shoulder dislocation (glenohumeral subluxation or full anterior dislocation) |  |
+| [[Kimura/from Knee Shield Half Guard|Knee Shield Half Guard]] | 50% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Knee on Belly|Knee on Belly]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Lasso Guard|Lasso Guard]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Lockdown|Lockdown]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Modified Mount|Modified Mount]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Modified Scarf Hold|Modified Scarf Hold]] | 50% | Shoulder dislocation or torn rotator cuff from excessive external rotation |  |
+| [[Kimura/from Mount|Mount]] | 72% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor) |  |
+| [[Kimura/from New York Control|New York Control]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from North-South|North-South]] | 58% | Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage) |  |
+| [[Kimura/from Overhook Control|Overhook Control]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Quarter Guard|Quarter Guard]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Reverse Scarf Hold|Reverse Scarf Hold]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from S Mount|S Mount]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Scarf Hold Position|Scarf Hold Position]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Shoulder of Justice|Shoulder of Justice]] | 50% | Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint |  |
+| [[Kimura/from Side Control|Side Control]] | 62% | Shoulder dislocation (anterior or posterior) |  |
+| [[Kimura/from Standing|Standing Position]] | 58% | Rotator cuff tear (supraspinatus, infraspinatus tendons) |  |
+| [[Kimura/from Turtle|Turtle]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+| [[Kimura/from Twister Side Control|Twister Side Control]] | 62% | Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +66,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Side Control]]
-**Success Rate**: 62%
+**Success Rate**: 62% (average across variants)
 
 </section>
 
@@ -76,143 +112,10 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Side Control]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Figure-four grip integrity: Lock your own wrist with palm-to... | Straighten the attacked arm immediately when you feel the gr... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Kimura/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Figure-four grip integrity: Lock your own wrist with palm-to-palm contact, creating an unbreakable frame that cannot be hand-fought
-
-- Elbow isolation and pinning: Control opponent's elbow close to your body or pinned to the mat to prevent arm straightening escapes
-
-- Shoulder rotation mechanics: The submission comes from rotating the shoulder joint, not pulling the arm - move perpendicular to the arm
-
-- Hip connection for control: Keep your hips connected to opponent's body to prevent them from rolling or turning into the lock
-
-- Posture and base maintenance: Maintain strong base throughout to prevent counters and ensure you can apply pressure safely
-
-- Progressive pressure application: Increase rotation gradually, allowing partner time to tap before structural damage occurs
-
-- Multiple threat creation: Use the Kimura grip to threaten submissions, sweeps, and transitions simultaneously
-
-
-### Execution Steps
-
-
-- **Establish control position and arm isolation**: From dominant position (side control, mount, or guard), identify the near arm you will attack. Contr...
-
-- **Thread your other arm under opponent's isolated arm**: Slide your opposite hand under their tricep area, threading it through the space between their arm a...
-
-- **Complete the figure-four grip**: Grab your own wrist with the hand that threaded under their arm, creating a figure-four configuratio...
-
-- **Establish proper angle and elbow control**: Adjust your body position to create perpendicular alignment to their shoulder joint. Pinch their elb...
-
-- **Begin controlled rotation toward their back**: Slowly rotate their hand toward their back, moving perpendicular to their arm rather than pulling it...
-
-- **Increase rotation pressure until tap**: Continue rotating their hand toward their opposite hip or toward the ceiling (depending on position ...
-
-- **Control and transition options**: If opponent defends by grabbing their own belt or gi, do not force the submission. Instead, use the ...
-
-
-### Common Mistakes
-
-
-- **Yanking or spiking the submission quickly without progressive pressure**
-  - Consequence: Severe shoulder injury to partner, potential rotator cuff tear or dislocation without time to tap
-  - Correction: Always apply rotation slowly over 3-5 seconds minimum in training. The submission should feel like inevitable increasing pressure, not a sudden spike. Partner must have time to recognize danger and tap safely.
-
-- **Failing to control the elbow, allowing opponent to straighten arm**
-  - Consequence: Complete loss of submission leverage as the arm-straightening defense neutralizes the shoulder rotation
-  - Correction: Pin the elbow tight to your body or to the mat using your chest. The elbow must remain bent and immobilized for the Kimura to function. Treat elbow control as equally important as the grip itself.
-
-- **Using incorrect grip: grabbing your own gi, their gi, or interlocking fingers**
-  - Consequence: Weak control that can be broken through hand fighting, loss of leverage and pressure
-  - Correction: Always use palm-to-palm or palm-to-wrist grip on your own wrist. This creates a frame that cannot be broken by hand fighting. Practice the grip in isolation until it becomes automatic.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Kimura/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Straighten the attacked arm immediately when you feel the grip being established - a straight arm mechanically neutralizes the Kimura's shoulder rotation
-
-- Keep elbows glued to your ribs and torso to prevent arm isolation, making it difficult for the attacker to thread their arm underneath yours
-
-- Grip your own belt, gi pants, or opposite arm to create a secondary defensive anchor that prevents rotation even after the figure-four is locked
-
-- Turn your body toward the attacker rather than away, as turning away increases rotational leverage on your shoulder joint
-
-- Recognize the attack early by monitoring wrist control and arm threading - defense at the grip establishment phase is ten times easier than defense once locked
-
-- Use hip movement to change the angle of pressure rather than trying to muscle out of a locked submission with arm strength alone
-
-
-### Recognition Cues
-
-
-- Opponent controls your wrist with one hand while their other hand begins threading under your tricep or upper arm - this is the figure-four grip setup
-
-- You feel your arm being isolated away from your body with opponent's chest or shoulder pinning your elbow close to their torso
-
-- Opponent shifts their weight and angle to become perpendicular to your shoulder, establishing the rotation axis needed for the finish
-
-- Your hand begins being moved toward your own back or hip against your will, indicating rotation has started and immediate defensive action is required
-
-
-### Escape Paths
-
-
-- Arm straightening defense followed by grip strip and guard recovery - the highest percentage early defense that neutralizes the submission mechanically before it develops
-
-- Belt or pants grip defense to stall rotation, then hip escape toward opponent's legs to recover half guard or create scramble
-
-- Forward roll through the Kimura when rotation begins, using opponent's rotational force to carry you over and relieve shoulder pressure while aiming to land in top position
-
-- Turn into attacker to flatten the rotation angle, then use the reduced pressure window to strip the figure-four grip with your free hand and recover defensive frames
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Kimura from Closed Guard**: Opponent postures in your closed guard. Break their posture by pulling their head down and attacking the posting arm. Secure the Kimura grip and either finish by opening your guard and rotating, or use the grip to sweep them over your shoulder. (When to use: When opponent posts their hand on the mat or reaches for grips, exposing their arm)
@@ -256,9 +159,9 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 - [[Positions/Half Guard]]
 - [[Positions/Turtle]]
 - [[Positions/North-South]]
-- [[Positions/Standing Position]]
 - [[Positions/Kimura Trap]]
 - [[Positions/Open Guard]]
+- [[Positions/Clinch]]
 
 
 </section>
@@ -267,21 +170,18 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 ## Related Submissions
 
-- [[Submissions/Armbar from Side Control]]
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Armbar from Guard]]
-- [[Transitions/Americana]]
-- [[Submissions/Americana from Side Control]]
-- [[Submissions/Americana from Mount]]
-- [[Transitions/Omoplata]]
-- [[Transitions/Triangle Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/Kimura from Side Control]]
-- [[Submissions/Kimura from Mount]]
-- [[Submissions/Kimura from Guard]]
-- [[Transitions/Kimura from Half Guard]]
-- [[Submissions/Kimura from North-South]]
-- [[Submissions/Kimura from Turtle]]
+- [[Submissions/Americana]] - Closely related shoulder lock with opposite rotational direction, direct chain partner from all shared positions
+- [[Submissions/Far Side Armbar]] - Common transition when opponent straightens arm to defend Kimura grip
+- [[Transitions/Arm Triangle]] - Complementary submission from side control when Kimura defense exposes the neck
+- [[Transitions/Guillotine Choke]] - Alternative submission chain from front headlock and scramble positions
+- [[Submissions/Ezekiel Choke]] - Complementary choke option from shared top control positions like mount
+- [[Transitions/Darce Choke]] - Related choke accessible during half guard Kimura scrambles and transitions
+- [[Submissions/Flying Armbar]] - Dynamic transition option from standing Kimura grip exchanges
+- [[Submissions/Monoplata]] - Alternative shoulder lock using leg pressure with similar rotational mechanics
+- [[Armbar Finish]] - Direct transition when opponent straightens arm during Kimura defense
+- [[Submissions/Baratoplata]] - Hybrid shoulder lock combining Kimura grip mechanics with leg entanglement
+- [[Submissions/Cross Collar Choke]] - Complementary gi attack creating submission dilemmas from shared top positions
+- [[Submissions/Belly Down Armbar]] - Transition option when Kimura defense involves rolling to turtle position
 
 
 </section>
@@ -292,16 +192,16 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 - [[Positions/Kimura Trap]] - Specialized control position built entirely around Kimura grip mechanics
 - [[Transitions/Kimura to Back Take]] - Primary transition when opponent defends Kimura finish by rolling or turning
-- [[Transitions/North-South to Kimura]] - Common transition path from side control through north-south to Kimura setup
-- [[Transitions/Rolling Kimura]] - Dynamic variation using momentum and rolling motion to establish the submission
-- [[Transitions/Rolling Kimura Escape]] - Counter-technique that can reverse the position when defending
 - [[Positions/Side Control]] - Most common and high-percentage position for Kimura application
 - [[Positions/Half Guard]] - Key position for bottom player to attack Kimura on opponent's underhook
 - [[Positions/Gift Wrap]] - Alternative shoulder control position that can transition to Kimura
-- [[Transitions/Omoplata]] - Related shoulder attack that targets similar joint structures with different mechanics
-- [[Submissions/Reverse Kimura]] - Variation that combines shoulder rotation with wrist lock pressure
 - [[Positions/Crucifix]] - Advanced control position where Kimura can be applied with both arms trapped
-- [[Transitions/Americana]] - Closely related shoulder lock with opposite rotational direction
+- [[Submissions/Americana]] - Closely related shoulder lock with opposite rotational direction
+- [[Positions/North-South]] - Common transition path from side control through north-south to Kimura setup
+- [[Positions/Mount]] - Dominant position offering Kimura opportunities when opponent frames or pushes
+- [[Positions/Closed Guard]] - Fundamental guard position for bottom player Kimura attacks on posting arms
+- [[Positions/Front Headlock]] - Transitional position where Kimura grip creates snap-down and submission opportunities
+- [[Positions/Overhook Control]] - Guard control position where overhook transitions naturally into Kimura grip
 
 
 </section>

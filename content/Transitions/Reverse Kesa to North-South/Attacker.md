@@ -188,6 +188,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Kesa to North-South?</p>
+
 - Maintain continuous chest-to-torso contact throughout the entire rotation, treating your sternum as a wheel rolling across the opponent's upper body without lifting
 - Use the opponent's bridging momentum toward their head as fuel for the rotational transition rather than forcing movement against their resistance
 - Transfer arm control smoothly from reverse kesa far-arm trap to north-south underhooks during the rotation without both arms being free simultaneously
@@ -202,6 +204,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Kesa to North-South?</p>
+
 - Established reverse kesa-gatame control with heavy chest pressure across opponent's upper torso and shoulder complex, weight distributed through hips and core
 - Far arm controlled under armpit clamp or with deep overhook grip, preventing the opponent from creating any defensive frames during the transition
 - Wide stable base with far leg extended and near leg bent, providing resistance against bridge attempts that could disrupt the rotation
@@ -214,6 +218,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Kesa to North-South step by step?</p>
 
 1. **Consolidate reverse kesa control**: Before initiating the transition, ensure your chest pressure is heavy and settled across the opponent's upper torso. Verify your far-arm control is secure with the opponent's arm clamped tightly under your armpit. Establish your base with legs wide and hips low. This consolidation phase prevents starting the rotation from a compromised position.
 2. **Initiate hip rotation toward opponent's head**: Begin the transition by rotating your hips toward the opponent's head while keeping your chest glued to their upper body. Your near-side hip lifts slightly as your body begins to arc. The rotation starts from your hips and core, not from pushing off with your arms. Think of pivoting around the contact point where your chest meets their torso.
@@ -243,6 +249,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Kesa to North-South?</p>
+
 - **Bridge and hip escape during the rotation midpoint when pressure is lightest** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping hips low throughout the transition. If they bridge, ride it by staying connected rather than fighting the lift. Use their bridging momentum to accelerate your rotation past the vulnerable midpoint. If they create significant space, abort the transition and re-settle into reverse kesa before reattempting. → Leads to [[Positions/Half Guard]]
 - **Frame insertion with forearms as chest pressure shifts during rotation** (Effectiveness: Medium) - Your Response: Prevent frame insertion by maintaining constant downward chest pressure throughout the arc. If a frame is partially established, drive your shoulder into it to collapse the structure before it solidifies. Keep your chest heavy enough that there is no gap for forearms to enter between your torso and theirs. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **Grab the far leg during rotation to stall the transition and disrupt base** (Effectiveness: Medium) - Your Response: Keep your legs moving in small steps that are difficult to catch. If they grab a leg, use your free leg to post and continue the rotation by switching your base. Alternatively, use the arm that was controlling their far arm to strip their grip before they can establish a hold on your leg. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
@@ -254,6 +262,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Kesa to North-South?</p>
 
 ### 1. Lifting chest off the opponent's torso during the rotation to create space for movement
 
@@ -288,6 +298,8 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Kesa to North-South (Attacker)?</p>
+
 **Phase 1: Solo Movement Mechanics** - Rotation pattern and body coordination
 Practice the rotational arc on a grappling dummy or heavy bag, focusing on maintaining chest contact throughout the full ninety-degree rotation. Walk feet in small steps while keeping hips low. Repeat twenty times per side until the movement pattern feels natural and your chest stays connected throughout.
 
@@ -305,36 +317,12 @@ In positional sparring from reverse kesa, practice recognizing when the opponent
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body mechanic during the rotation from reverse kesa to north-south?
-**A**: Continuous chest-to-torso contact throughout the entire rotation is the single most critical mechanic. Your sternum must maintain constant downward pressure against the opponent's upper body, rolling across their torso like a wheel rather than lifting and repositioning. Any gap in chest contact creates space for frames, hip escapes, or guard recovery. The rotation should feel like your chest is glued to their body while your legs and hips move around them.
-
-**Q2**: Your opponent bridges explosively toward their head as you begin the transition - how do you respond?
-**A**: Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement.
-
-**Q3**: What makes the rotation midpoint the most vulnerable phase of this transition?
-**A**: At the midpoint, your body is awkwardly positioned between reverse kesa and north-south with compromised base alignment. Your arm control is transitioning between grips, potentially leaving a window where neither the old nor new grip is fully secure. Your feet are mid-walk with a narrower base than at either endpoint. The opponent can exploit this instability for bridges, frame insertion, or knee recovery. You must commit to moving through the midpoint quickly rather than pausing there.
-
-**Q4**: How should you handle the arm control exchange during the transition?
-**A**: Use an overlapping grip strategy where you secure the new north-south underhook with one hand before releasing the reverse kesa armpit clamp with the other. At no point should both of the opponent's arms be free simultaneously. The grip exchange happens during the second half of the rotation as you pass the midpoint. Pre-position your hand for the north-south underhook as you approach the transition point, then execute a smooth switch that maintains continuous control on at least one arm.
-
-**Q5**: When should you abort the transition and return to reverse kesa instead of completing the rotation?
-**A**: Abort when the opponent establishes a strong frame before you reach the midpoint, when you feel your chest lift significantly off their torso creating a gap you cannot close, or when the opponent inserts a knee before you pass the halfway mark. Returning to reverse kesa from the first quarter of the rotation is straightforward, but attempting to retreat from past the midpoint is more difficult. Make the abort decision early. A secure reverse kesa is always better than a compromised north-south.
-
-**Q6**: What specific foot movement pattern should you use during the rotation and why?
-**A**: Walk your feet in small steps of approximately six inches each, tracing a semicircular arc around the opponent's head. Each step maintains at least one foot firmly posted on the mat at all times. Never jump, hop, or cross your feet during the walk. Small steps preserve your base width throughout the rotation, preventing the opponent from exploiting a narrow stance for bridge and roll escapes. The deliberate walking pattern also keeps your hips low and heavy, which maintains chest pressure throughout the arc.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Kesa to North-South?</p>
 
 This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions.
 

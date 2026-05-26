@@ -21,37 +21,37 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 66% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Forward Roll",
-      "text": "From this position, attempt Forward Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Forward Roll. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Position Definition
 
+<p class="section-subtitle">What is Truck (Bottom)?</p>
+
 - Bottom player positioned on side with back exposed to opponent who controls from behind or perpendicular angle, creating vulnerability to back attacks and spinal submissions
 - One leg trapped or controlled by opponent (often in lockdown configuration or calf slicer position), limiting mobility and escape options with twisted configuration through lower body
 - Opponent's boot control on hip creates torque through body, generating corkscrew effect that restricts ability to turn, bridge, or shrimp using normal defensive movements
@@ -182,6 +184,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Truck (Bottom)?</p>
+
 - Opponent has achieved perpendicular control from turtle or scramble position
 - One leg has been trapped or controlled by opponent's lockdown or leg entanglement
 - Upper body being controlled with opponent's weight distributed over back/shoulders
@@ -194,6 +198,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck?</p>
 
 - Protect neck immediately with chin tucked and hands defending against collar grips or choking attempts
 - Prevent full spinal rotation by limiting how far opponent can twist torso using defensive frames and base
@@ -209,6 +215,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Truck (Bottom)?</p>
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
 - Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
@@ -238,6 +246,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck?</p>
 
 ### 1. Accepting leg trap without immediately working to extract trapped leg
 
@@ -277,6 +287,8 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Truck defense?</p>
+
 ### Truck Bottom Escape Sequences
 
 Partner establishes truck bottom position with varying degrees of control (loose, moderate, tight). Bottom player practices systematic escape sequence: protect neck, frame against upper body, extract trapped leg, achieve turtle or guard. Rotate through different escape paths (granby roll, hip escape, forward roll) every 2 minutes.
@@ -310,38 +322,6 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate priority upon finding yourself in truck bottom position?
-**A**: Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction.
-
-**Q2**: Your opponent increases boot pressure on your hip - how do you address this?
-**A**: Address boot pressure by using your free hand to fight the boot while maintaining neck protection with the other hand. Simultaneously work your hips in a circular motion to reduce the leverage their boot creates. If you can break or reduce the boot pressure, their ability to generate torque for twister or maintain leg entanglement significantly decreases.
-
-**Q3**: What determines whether to attempt a granby roll versus a hip escape from truck bottom?
-**A**: Choose granby roll when opponent's weight is committed forward or they're focused on upper body attacks, as the roll uses their forward pressure momentum. Choose hip escape when opponent has loose upper body control but strong boot/leg control, as shrimping can create angles to extract the trapped leg. Granby requires space to roll into; hip escape works in tighter spaces.
-
-**Q4**: How do you prevent the opponent from completing the twister finish?
-**A**: Prevent twister finish by: keeping chin tucked to limit cervical rotation, fighting their grip on your far arm with your near hand, maintaining hip elevation to avoid being completely flattened, and preventing full torso rotation by posting your base hand. If they achieve the grip, immediately attempt granby roll before they can lock the rotation.
-
-**Q5**: Your trapped leg is being extended for a calf slicer - what is your response?
-**A**: When leg is being extended for calf slicer, attempt to bend your knee sharply to reduce pressure on the joint while simultaneously working to extract the leg. If extraction isn't possible, forward roll toward your head using the extended leg as a pivot point to end up in deep half guard. If submission pressure becomes significant, tap early to prevent knee injury.
-
-**Q6**: How should you manage your breathing and energy when caught in truck bottom?
-**A**: Maintain controlled breathing with slow, deep breaths through your nose to prevent panic response. Focus energy on systematic defensive actions rather than explosive random movements. Work in sequences: protect neck, then address one problem at a time. Accept that escape may require multiple attempts and save explosive efforts for moments when escape opportunity presents itself.
-
-**Q7**: When is the correct time to initiate your primary escape attempt?
-**A**: Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening.
-
-**Q8**: What body positioning minimizes your vulnerability while in truck bottom?
-**A**: Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -366,7 +346,7 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 - **[[Positions/Twister Control]]** - Primary submission threat from this position
 - **[[Positions/Crab Ride]]** - Related position - similar back exposure with different leg configuration
 - **[[Positions/Half Guard]]** - Escape target - recovering guard from leg extraction
-- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission threat targeting trapped leg
+- **[[Submissions/Calf Slicer]]** - Secondary submission threat targeting trapped leg
 - **[[Submissions/Banana Split]]** - Alternative submission attack from truck position
 - **[[Transitions/Granby Roll to Guard]]** - Primary escape technique from truck bottom
 - **[[Transitions/Hip Escape to Guard]]** - Fundamental escape movement for creating angles

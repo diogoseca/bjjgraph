@@ -194,6 +194,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing X-Guard to Ashi Garami?</p>
+
 - Maintain continuous hip-to-hip connection throughout the transition
 - Time the entry when opponent pulls trapped leg backward to escape X-Guard
 - Transition grips from ankle/knee control to heel and knee line control
@@ -209,6 +211,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting X-Guard to Ashi Garami?</p>
+
 - Established X-Guard position with both hooks engaged on trapped leg
 - Strong ankle control or pant grip on trapped leg
 - Top hook positioned above opponent's knee
@@ -223,6 +227,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute X-Guard to Ashi Garami step by step?</p>
 
 1. **Recognize the transition window**: Identify the moment when opponent pulls their trapped leg backward to escape X-Guard pressure. This backward pull creates the necessary space and angle to reconfigure into Ashi Garami while their balance is compromised and their leg is extended into your control zone.
 2. **Release bottom hook strategically**: Remove your bottom hook from opponent's hip while maintaining top hook engagement above their knee. Simultaneously begin transitioning your grip from the ankle to a position that will allow heel control. The top hook serves as your anchor point during this reconfiguration, preventing opponent from recovering their leg.
@@ -253,6 +259,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter X-Guard to Ashi Garami?</p>
+
 - **Opponent immediately pulls their leg back explosively when transition begins** (Effectiveness: Medium) - Your Response: Follow their backward movement with your hips, maintaining hook pressure and accelerating your transition. Use their backward momentum to facilitate your hip escape and angle creation. Commit fully to the leg entanglement rather than trying to retain X-Guard. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent steps over your bottom leg to prevent inside position establishment** (Effectiveness: High) - Your Response: If they successfully step over, immediately switch to outside Ashi Garami configuration or transition to single leg X-Guard. Alternatively, use their step-over movement to enter into a deep half guard position or kiss of the dragon back take. → Leads to [[Positions/X-Guard]]
 - **Opponent drops their weight forward, smashing into you during transition** (Effectiveness: Medium) - Your Response: Accept the forward pressure by going to your back while maintaining leg entanglement. Transition to a supine Ashi position or 50-50 guard configuration. Use the forward pressure to facilitate heel exposure and grip security. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
@@ -265,6 +273,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing X-Guard to Ashi Garami?</p>
 
 ### 1. Releasing both hooks simultaneously before establishing new configuration
 
@@ -304,6 +314,8 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train X-Guard to Ashi Garami (Attacker)?</p>
+
 **Phase 1: Positional Familiarization (Weeks 1-2)** - Understanding end positions and transition mechanics
 Begin by establishing X-Guard, then have training partner pull their leg backward slowly. Practice the hip escape and angle creation in isolation. Repeatedly move from X-Guard to Ashi and back to X-Guard to understand the geometric relationship. Focus on maintaining continuous connection through top hook during transition.
 
@@ -327,51 +339,12 @@ Begin positional sparring from X-Guard with goal of achieving and finishing from
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is the top hook maintained as an anchor point during the transition while the bottom hook is released first?
-**A**: The top hook positioned above the knee provides superior leverage and control over opponent's leg while you reconfigure your bottom leg. If you release the top hook first, opponent can easily pull their leg free or step over you. The top hook's position above the knee joint gives you mechanical advantage to control their leg's movement while your bottom leg transitions from hip hook to inside position. This sequential release ensures continuous control throughout the transition.
-
-**Q2**: What is the primary timing trigger that indicates the transition window has opened?
-**A**: The optimal transition window opens when opponent pulls their trapped leg backward in an attempt to disengage from X-Guard. This backward pull creates several favorable conditions: their weight shifts away from stable base, their leg extends into your control zone making heel access easier, and their attention focuses on leg withdrawal rather than defending leg entanglement. Attempting the transition when their weight is forward or their leg is compressed makes the movement exponentially more difficult.
-
-**Q3**: How does the inside leg position prevent opponent's primary escape mechanism, and why must it cross their centerline?
-**A**: The inside leg crossed over opponent's centerline and wedged against their far hip prevents them from rotating away toward their trapped leg side, which is the highest-percentage escape from Ashi positions. If the inside leg is shallow and doesn't cross centerline, opponent can simply turn their hips and torso away, using rotation to extract their leg from entanglement. Deep inside position creates a physical barrier that blocks this rotation, forcing them to defend through different, lower-percentage methods. The deeper the inside position, the more rotational control you possess.
-
-**Q4**: Why must heel control be established simultaneously with leg positioning rather than sequentially afterward?
-**A**: Delaying heel control creates a window where opponent can establish their own defensive grips on their trapped leg, making it extremely difficult to break their controls and secure the heel. Once opponent's hands are on their own leg with good positioning, they can defend indefinitely by fighting hand battles. Simultaneous establishment of heel control and leg configuration overwhelms opponent's ability to defend both aspects at once, ensuring you secure the critical control points before they can mount defensive responses. This timing principle is fundamental to all leg entanglement entries.
-
-**Q5**: What should you do if opponent successfully steps over your inside leg during the transition?
-**A**: If opponent steps over preventing inside position establishment, immediately adapt by either transitioning to outside Ashi Garami configuration (both legs same side), entering single leg X-Guard, or using their step-over movement to facilitate deep half guard entry or kiss of the dragon back take. The critical point is recognizing the counter early and adapting rather than fighting to force inside position after it's been defended. Skilled grapplers chain positions fluidly rather than forcing failed entries.
-
-**Q6**: What is the relationship between hip-to-hip connection distance and control effectiveness in Ashi positions?
-**A**: Hip-to-hip connection distance is inversely proportional to control effectiveness and submission threat in all Ashi variations. Every inch of space between your hip and opponent's hip exponentially increases their ability to create frames, withdraw their leg, or establish defensive positioning. Tight hip connection maximizes your leverage over their leg while minimizing their ability to generate escape movements. This principle is so fundamental that maintaining hip-to-hip pressure should be treated as the primary control mechanism, even above leg configuration adjustments.
-
-**Q7**: How does this transition exemplify the dilemma-creation principle in modern leg entanglement systems?
-**A**: The transition creates a fundamental dilemma where defending the X-Guard sweep (by pulling leg backward and shifting weight away) directly facilitates the transition to Ashi Garami, while staying heavy and forward to prevent leg entanglement entry makes them vulnerable to X-Guard sweeps. This forces opponent into a decision-making bind where both defensive options open different attacks. Advanced practitioners exploit this by threatening the sweep to provoke the backward pull that enables the transition, making the opponent's defensive response itself the mechanism of their positional loss.
-
-**Q8**: Your opponent posts their free hand on the mat as you begin reconfiguring your bottom leg - how do you adjust?
-**A**: When opponent posts their hand, they are attempting to stabilize their base during the critical reconfiguration window. Accelerate your hip escape and angle creation to exploit their compromised balance, since one hand on the mat means reduced ability to grip fight or defend the heel. Target the posted arm side for your angle, as their post creates a fixed pivot point you can sweep around. If their hand post is deep and stable, use your free hand to attack that posting arm with a wrist grip or push it through, collapsing their base entirely while you complete the Ashi entry.
-
-**Q9**: What grip configuration should your hands be in at each phase of the transition?
-**A**: Phase one (X-Guard): hands control opponent's ankle and far knee or pant leg for sweep threat. Phase two (hook release): one hand begins migrating from ankle toward the heel while the other maintains upper leg control for balance disruption. Phase three (angle creation): both hands transition to heel-centric grips, with the primary hand cupping the heel in C-grip and the secondary hand controlling above the ankle or beginning to set the figure-four. Phase four (Ashi establishment): both hands secure heel in either C-grip or figure-four configuration depending on immediate attack plan. The key principle is that grip transitions should overlap with leg reconfiguration so you never have a moment without meaningful control.
-
-**Q10**: Your opponent sprawls their hips backward explosively the instant you release your bottom hook - what is your optimal response?
-**A**: Their explosive sprawl actually accelerates the transition by extending their leg deeper into your control zone and shifting their weight backward, which is precisely the reaction you want. Follow their sprawl by maintaining your top hook and riding their backward movement with your own hip escape. Their extended leg position makes heel access easier because the distance between their heel and your hands shortens. Use their momentum to complete your angle creation faster than you could against a stationary opponent. The worst response is to try to re-establish the bottom hook against their sprawl momentum, as this fights their force rather than redirecting it into your transition.
-
-**Q11**: How do you decide between entering standard Inside Ashi versus converting to 50-50 when the opponent drops their weight forward during transition?
-**A**: The decision depends on your opponent's hip height relative to yours and where their free leg lands. If they drop forward but their hips remain above yours and their free leg stays wide, continue to Inside Ashi by using the forward pressure to flatten yourself and thread your inside leg deeper. If their hips drop level with yours and their free leg collapses close to your body, the 50-50 entry becomes higher percentage because you can mirror their leg position with minimal reconfiguration. The general rule is that forward pressure with high hips favors standard Ashi, while forward pressure with collapsed hips favors 50-50. Reading this hip height difference in real time is the critical decision-making skill.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for X-Guard to Ashi Garami?</p>
 
 This transition enters leg entanglement territory where submissions can occur rapidly and cause significant injury if applied without control. When training this transition, both practitioners must understand tap protocols for heel hooks, toe holds, and knee bars, as these submissions can damage joints before pain signals warn of danger. Always practice with controlled speed and communicate clearly with training partners about resistance levels. Beginners should master the positional aspects thoroughly before attempting submissions from Ashi positions. Never attempt explosive entries or submissions during initial learning phases. Ensure training partners are experienced enough to defend leg entanglements safely, as inexperienced practitioners may not recognize submission danger until injury occurs. Use progressive resistance protocols and always respect taps immediately. Consider using limited-resistance positional sparring before incorporating full submissions into live training from this transition.
 

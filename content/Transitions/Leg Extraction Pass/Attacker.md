@@ -194,6 +194,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Extraction Pass?</p>
+
 - Address the opponent's heel grip and foot control first — if they cannot control your foot, their entanglement loses finishing potential and you buy time for extraction
 - Drive your trapped knee toward the mat to straighten the leg, which strips hooks and breaks figure-four configurations that depend on your knee being bent
 - Maintain constant forward hip pressure throughout the extraction — retreating backward only deepens the entanglement and gives opponent better angles
@@ -209,6 +211,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Extraction Pass?</p>
+
 - Identify and neutralize any active heel or ankle grip the opponent holds on your trapped foot before beginning extraction
 - Post your free leg wide with foot flat on the mat to create a stable base that resists sweeps during the extraction process
 - Establish at least one upper body control point (crossface, underhook, or collar tie) to anchor forward pressure and prevent opponent from following your hip movement
@@ -221,6 +225,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Extraction Pass step by step?</p>
 
 1. **Neutralize the heel grip**: Before any extraction movement, address the opponent's grip on your foot or ankle. Use your hands to strip their heel hook grip, two-on-one their wrist to peel fingers off your heel, or tuck your foot behind their thigh to hide the target. This removes the immediate submission threat and allows you to focus on positional extraction without risk of being finished during the process.
 2. **Establish upper body anchor**: While maintaining heel safety, drive forward with your chest and establish an upper body control point. Swim your hand to the far side of their head for a crossface, dig an underhook on the near side, or secure a collar tie. This anchor serves two purposes: it prevents the opponent from sitting up to re-address your leg, and it creates the forward driving force that powers the entire extraction sequence.
@@ -252,6 +258,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Extraction Pass?</p>
+
 - **Opponent re-pummels inside hook as you drive knee to mat** (Effectiveness: High) - Your Response: Pause the extraction, re-address the hook by driving your knee back to the mat with more angle, and use your free hand to physically block their foot from re-entering. If they consistently re-pummel, switch to the hip switch extraction variant which changes the angle of escape. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent sits up and re-engages upper body control during extraction** (Effectiveness: Medium) - Your Response: Drive your crossface pressure harder to flatten them back down. If they achieve a seated position, switch to a stacking extraction by driving your weight forward to fold their legs toward their chest, compressing the entanglement space. Never allow them to achieve a seated position with grips on your leg. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent sweeps during extraction by attacking your posted leg base** (Effectiveness: Medium) - Your Response: Widen your base post and shift weight distribution to maintain balance. If the sweep is initiated, abandon the extraction temporarily and re-post. It is better to reset the extraction from the same position than to be swept to bottom while partially extracted. → Leads to [[Positions/Half Guard]]
@@ -264,6 +272,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Extraction Pass?</p>
 
 ### 1. Attempting to extract by pulling the leg backward away from the opponent
 
@@ -308,6 +318,8 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Extraction Pass (Attacker)?</p>
+
 **Phase 1: Mechanics** - Knee-to-mat straightening and hook clearing sequence
 Partner holds basic ashi garami with no resistance. Practice the knee drive to mat motion, feeling how the straightening action strips the inside hook. Repeat 20 times per side, focusing on smooth sustained pressure rather than jerky explosive motion. Add the outside hook clearing step once the knee drive becomes automatic.
 
@@ -328,42 +340,12 @@ Positional sparring starting from leg entanglements with full resistance. Top pl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you drive the trapped knee toward the mat rather than pulling the leg backward during extraction?
-**A**: Driving the knee toward the mat straightens your leg, which strips the opponent's inside hook that relies on the bend in your knee for grip. This forward-and-down motion compresses their entanglement structure, reducing the space their hooks need to function. Pulling backward does the opposite — it loads your heel into their grip zone, creates the rotational angle they need for heel hooks, and exposes your knee joint to kneebar attacks. The biomechanical principle is that forward pressure closes the spaces the entanglement occupies, while backward pulling opens them.
-
-**Q2**: What is the first action you must take before beginning any extraction movement?
-**A**: You must neutralize the opponent's heel or ankle grip on your trapped foot. If they have any finishing grip on your heel when you begin extraction, your movement can provide the rotational force that completes their submission. Use two-on-one grip breaks to peel their fingers off your heel, tuck your foot behind their thigh to hide the target, or boot scoot to create enough angle that their grip loses purchase. Only after the immediate submission threat is eliminated should you begin the positional extraction mechanics.
-
-**Q3**: Your opponent re-pummels their inside hook every time you drive your knee to the mat — how do you adjust?
-**A**: Switch from the direct knee-to-mat extraction to the hip switch variant. Instead of driving straight down, rotate your hips 90 degrees away from the entanglement while posting on your hands. This changes the angle of your leg relative to their hook, making it mechanically difficult for them to re-pummel because your knee is no longer travelling in the plane their hook is designed to catch. Additionally, use your free hand to physically block their foot from re-entering as you drive the knee, creating a barrier that prevents the re-pummel while your hip rotation clears the angle.
-
-**Q4**: Why is establishing upper body control before extracting critical to the technique's success?
-**A**: Upper body control (crossface, underhook, or collar tie) serves as an anchor that pins the opponent's torso in place while your lower body clears the entanglement. Without this anchor, the opponent follows your hip movement — as you extract, they sit up, re-engage grips, and re-enter the leg attack system from a new angle. The upper body control also prevents guard recovery by keeping their shoulders flat and their hips compressed, ensuring that when your leg clears, they cannot immediately close their guard or create distance. It transforms the extraction from a pure escape into a passing opportunity.
-
-**Q5**: What grip and base must your free leg maintain throughout the extraction?
-**A**: Your free leg must be posted wide at approximately 45 degrees with the foot flat on the mat, creating a tripod base with your posted hands. This wide post serves three functions: it provides lateral stability against sweep attempts during extraction, it keeps the free leg out of reach of the opponent's entanglement preventing 50-50 transitions, and it generates the forward driving force needed to power the extraction. The foot should remain flat rather than on the toes for maximum stability, and the posting distance should be wide enough for balance without overextending to the point where you lose the ability to drive forward.
-
-**Q6**: How does the extraction sequence differ when the opponent has a saddle (honey hole) configuration versus standard ashi garami?
-**A**: In saddle/honey hole, the opponent has both legs triangled around your trapped leg with superior control on both sides of the knee line, making extraction significantly more urgent and mechanically complex. The inside heel hook threat from saddle is immediate, so heel grip neutralization must be addressed with extreme urgency. The extraction requires clearing a triangle configuration rather than individual hooks, which typically demands the hip switch variant rather than the direct knee-to-mat drive. You must also address the opponent's far leg that crosses over your hip, which is absent in standard ashi garami. The extraction from saddle often requires multiple attempts and may need to chain through intermediate positions like 50-50 before achieving full extraction.
-
-**Q7**: After clearing the entanglement, your opponent is trying to recover closed guard — what do you do to prevent this?
-**A**: Immediately drive your knee across their thigh line as the last hook clears, converting the extraction into a knee slide passing motion. The key is eliminating the gap between extraction completion and passing initiation — there should be zero pause where the opponent can close their legs around your waist. Pre-set your crossface grip during the extraction so it is already in place when you begin advancing. If you feel their legs starting to close, drive your hips forward and down to flatten their legs before they can lock ankles. The extraction and the pass must be one continuous motion, not two separate techniques.
-
-**Q8**: You are in 50-50 guard and need to extract — what makes this configuration uniquely challenging?
-**A**: The 50-50 guard creates bilateral entanglement where both players have mirrored leg control, meaning your extraction attempt also exposes your free leg to being caught since the opponent has control structures on both sides. You must address two sets of hooks rather than one, and the opponent can transition between attacking your original trapped leg and your free leg as you attempt to clear. The extraction from 50-50 typically requires first achieving asymmetric advantage — either by getting your hips above the opponent's hips or by clearing one side of the entanglement to create an inside ashi configuration before attempting full extraction. Direct extraction from neutral 50-50 has a low success rate because the opponent can simply mirror your clearing motions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Extraction Pass?</p>
 
 The Leg Extraction Pass involves movement within active leg entanglement positions where submissions such as heel hooks, kneebars, and ankle locks are live threats. Never attempt explosive ripping motions to free your leg, as this can cause injury to your own knee ligaments if the opponent maintains their grip during the jerky motion. Always neutralize heel grips before beginning extraction — attempting to extract while the opponent holds a heel hook grip can provide the rotational force that completes their submission and causes serious knee injury. Train extraction mechanics initially with cooperative partners who release submissions when you tap, and gradually increase resistance only as the mechanics become reliable. Be aware that your training partner's knees are also at risk during extraction drilling, as the straightening and rotational forces involved can stress their joints if they maintain grips too long against a resisting extraction.
 

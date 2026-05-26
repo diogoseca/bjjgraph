@@ -154,6 +154,8 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Scarf Hold Position?</p>
+
 - Bottom player establishes frame with free arm against your head, neck, or shoulder, creating space and pushing your upper body away from their chest
 - Bottom player hooks your near leg with their bottom leg, indicating preparation for bridge-and-roll and mount prevention setup
 - Bottom player reaches across with free hand to grab your far arm or gi material, attempting to eliminate your posting ability before bridging
@@ -166,6 +168,8 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Scarf Hold Position?</p>
 
 - Maintain heavy hip pressure through pelvis into opponent's ribcage as the primary control mechanism that restricts breathing and limits escape mechanics
 - Keep head control tight with far arm preventing opponent from creating rotational angles necessary for bridge-and-turn escapes
@@ -180,6 +184,8 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Scarf Hold Position?</p>
 
 ### 1. Widen base and drive hip pressure deeper when sensing bridge setup
 
@@ -217,6 +223,8 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Scarf Hold Position?</p>
+
 ### → [[Positions/Side Control/Scarf Hold Position]]
 
 Maintain tight hip pressure, head control, and arm isolation while dynamically adjusting base to counter each escape attempt. Force the bottom player to burn energy on failed escapes while conserving your own energy through structural rather than muscular control.
@@ -232,6 +240,8 @@ Capitalize on escape-created space by transitioning to mount when the bottom pla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Scarf Hold Position?</p>
 
 ### 1. Sitting too upright with hips raised off the mat, reducing pressure on opponent's ribs and allowing easy frame establishment
 
@@ -261,6 +271,8 @@ Capitalize on escape-created space by transitioning to mount when the bottom pla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Scarf Hold Position?</p>
+
 **Control Maintenance Phase** - Maintaining scarf hold against progressive escape resistance
 Partner works systematic escapes at 50% resistance while you focus on maintaining all three control pillars. Practice dynamic base adjustment, frame collapse, and head control retention for 2-minute rounds. Track how long you maintain full control before escape succeeds.
 
@@ -274,26 +286,6 @@ Partner works full-resistance escapes while you chain submission attacks includi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three pillars of scarf hold control that you must maintain to prevent escapes?
-**A**: The three pillars are heavy hip pressure through the ribcage restricting breathing and movement, tight head control with the far arm preventing rotational angles necessary for bridge-and-turn escapes, and firm near arm isolation that eliminates the bottom player's strongest defensive tool. When one pillar is temporarily compromised, the remaining two must compensate while you restore full control.
-
-**Q2**: Your opponent hooks your near leg and reaches for your far arm - what escape are they setting up and how do you counter it?
-**A**: They are setting up the bridge-and-roll escape, which requires eliminating your posting ability and controlling your base before bridging at 45 degrees toward your trapped arm side. Counter by immediately widening your base with back leg extension, driving hip pressure deeper into their ribs, and either extracting your far arm from their grip or switching to mount transition since their bridge attempt creates the space necessary for stepping over.
-
-**Q3**: When should you transition from defending scarf hold to advancing to mount during an escape attempt?
-**A**: Transition to mount when the bottom player commits to turning away from you or bridging toward your trapped arm side, creating space between their hips and your lower body. The optimal timing is during their committed bridge movement when they cannot redirect defensively. Step over their head or body while maintaining upper body control, converting their escape energy into your positional advancement.
-
-**Q4**: How do you counter the ghost escape when the bottom player attempts to turn into your back and come to their knees?
-**A**: The ghost escape exploits forward weight commitment, so the counter begins with recognizing the setup cues. When you feel them turning toward your back, immediately shift weight backward and sit your hips down, removing the space they need to complete the turn. Re-establish head control and pull them back to their side. If they partially complete the turn, switch to attacking their turtle position rather than forcing scarf hold from an awkward angle.
-
-
-
-</section>
 
 
 </main>

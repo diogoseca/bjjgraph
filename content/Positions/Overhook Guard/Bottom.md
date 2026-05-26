@@ -32,8 +32,8 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Guard",
-      "text": "From this position, attempt Omoplata from Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
@@ -50,8 +50,8 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Guard",
-      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Position Definition
 
+<p class="section-subtitle">What is Overhook Guard (Bottom)?</p>
+
 - Bottom player maintains closed guard with legs locked around opponent's waist, with ankles crossed behind opponent's back and heels pulling toward their own glutes to maintain tension
 - Bottom player controls opponent's arm with overhook, wrapping their arm over and around opponent's arm with hand gripping opponent's lat, shoulder blade, or back to create strong frame and prevent posting
 - Opponent is positioned between bottom player's legs with hips elevated off the mat, maintaining upright or slightly broken-down posture while bottom player uses overhook to control shoulder and restrict movement
@@ -180,6 +182,8 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Overhook Guard (Bottom)?</p>
 
 - Established guard position with legs locked around opponent's waist
 - Successful overhook control obtained on one of opponent's arms
@@ -194,6 +198,8 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Guard?</p>
 
 - Maintain constant tension on overhook by pulling elbow tight to ribs and hand gripping deep on opponent's back
 - Use overhook to control opponent's shoulder and restrict their ability to create distance or establish strong base
@@ -210,24 +216,26 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Overhook Guard (Bottom)?</p>
+
 **If opponent maintains strong upright posture with hips back:**
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 - Execute **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives weight forward attempting to stack:**
-- Execute **[[Submissions/Omoplata from Guard/Attacker|Omoplata from Guard]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent attempts to pull overhook arm free:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
-- Execute **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent circles away from overhook side:**
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -237,6 +245,8 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Guard?</p>
 
 ### 1. Releasing overhook tension when opponent postures
 
@@ -276,6 +286,8 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Overhook Guard defense?</p>
+
 ### Overhook Maintenance Drill
 
 Partner starts in closed guard with overhook established. Top player attempts to pull arm free, improve posture, and establish frames while bottom player maintains overhook control and breaks posture repeatedly. Focus on grip endurance and proper elbow positioning. Switch roles every 2 minutes.
@@ -292,12 +304,12 @@ Bottom player establishes overhook in closed guard and flows between hip bump sw
 
 ### Submission Attack Progression
 
-Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and armbar in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.
+Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and flower sweep in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.
 
 **Duration**: 4 rounds of 2 minutes
 
 
-### Angle Creation and Recovery
+### Dominant Angles and Recovery
 
 Bottom player maintains overhook guard while top player attempts to flatten them and establish centered base. Bottom player hip escapes to create angles, frames to prevent flattening, and constantly adjusts positioning. Top player works to maintain centered pressure and posture. Focus on mobility and position recovery.
 
@@ -308,38 +320,6 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct hand positioning for an effective overhook that maintains control under pressure?
-**A**: Thread your arm deep over and around the opponent's arm so your hand grips their lat muscle, shoulder blade, or far side of their back. Your elbow should be tight to your ribs, not flaring out. The deeper your hand reaches behind their shoulder, the harder it is for them to strip the control. Avoid gripping just around their tricep as this shallow grip is easily broken.
-
-**Q2**: Your opponent begins posturing up forcefully while you have the overhook established - what adjustments maintain your control?
-**A**: Pull your overhook elbow tighter to your ribs while your hand pulls down on their lat. Simultaneously use your legs to prevent their hips from backing away by squeezing your knees together and pulling your heels toward your glutes. Add a collar or head grip with your free hand to create a second anchor point. If they continue posturing, follow their movement by sitting up with them rather than staying flat.
-
-**Q3**: What are the essential grips needed to maintain overhook guard bottom against a pressure passer?
-**A**: The overhook itself is primary, with your hand deep on their lat or back. Your free hand must control their opposite arm - grab their wrist, sleeve, or collar to prevent them from establishing a crossface or strong frame. In gi, collar grip behind their neck provides excellent posture control. In no-gi, cup behind their head or control their tricep. Both grips working together prevent them from establishing any passing pressure.
-
-**Q4**: How do you prevent your opponent's primary defense of stacking your hips when attacking from overhook guard?
-**A**: Create angle before they can stack by hip escaping toward the overhook side. This positions your body at 45 degrees where stacking is mechanically difficult. Use your overhook to pull their shoulder down and toward you, preventing them from driving forward. If they begin stacking, immediately pivot your hips further to the side and transition to omoplata or triangle where their forward pressure becomes a liability.
-
-**Q5**: What is the proper technique for applying shoulder pressure with your overhook to break opponent's posture?
-**A**: Pull your overhook elbow down toward your hip while your hand pulls their lat toward you. This creates a rotational force that breaks their posture by collapsing their shoulder forward and down. Combine this with your legs pulling their hips toward you. The pressure should feel like you're trying to curl their shoulder into your chest. Maintain constant tension rather than jerking motions.
-
-**Q6**: Your opponent partially escapes by getting their knee inside your guard - how do you recover without losing the overhook?
-**A**: Keep the overhook control as your anchor while immediately adjusting your leg position. Hip escape away from the knee that entered, creating space to recover your guard or transition to half guard with the overhook still intact. The overhook actually makes their knee position worse for passing because they can't post on that side. Use the overhook to keep their upper body controlled while your legs work to re-establish full guard closure.
-
-**Q7**: How should you manage energy when maintaining overhook guard for extended guard retention?
-**A**: Use your skeletal structure rather than constant muscle tension - keep your elbow pinned to your ribs naturally, let your body weight pull on the overhook rather than actively gripping hard constantly. Breathe rhythmically and stay relaxed between attack attempts. Use micro-adjustments rather than big movements. Attack when opportunities present themselves rather than fighting for static control. A relaxed, active guard is sustainable; a tense, death-grip guard exhausts you quickly.
-
-**Q8**: Your opponent explosively attempts to rip their arm free from the overhook - what is your immediate counter?
-**A**: Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

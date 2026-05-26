@@ -162,6 +162,8 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Over-Under Pass?</p>
+
 - Opponent threads one arm deep under your near thigh while their opposite hand reaches for your far knee or ankle - the signature over-under grip configuration
 - Opponent begins walking their feet toward your head while driving shoulder pressure forward, indicating they are initiating the stacking phase
 - You feel your hips being elevated and your weight shifting onto your upper back and shoulders, signaling the stack is loading
@@ -174,6 +176,8 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Over-Under Pass?</p>
 
 - Deny the initial under-hook by maintaining active knee shield or butterfly hook that blocks the opponent's arm from threading under your thigh
 - Frame against the opponent's shoulder and bicep on the over-hook side to prevent them from collapsing chest-to-chest pressure
@@ -188,6 +192,8 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Over-Under Pass?</p>
 
 ### 1. Establish knee shield and frame against opponent's shoulder before they secure the over-hook, then hip escape to create angle for guard recovery
 
@@ -225,6 +231,8 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Over-Under Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Deny the over-under grip configuration early by maintaining an active knee shield that blocks the under-hook arm from threading under your thigh. Frame against the opponent's shoulder to prevent chest pressure from collapsing your guard structure. Use hip escape to re-establish proper half guard positioning with frames and distance.
@@ -240,6 +248,8 @@ If the stack has partially loaded, execute a well-timed bridge and hip escape to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Over-Under Pass?</p>
 
 ### 1. Allowing the opponent to establish both the under-hook and over-hook without contesting either grip
 
@@ -274,6 +284,8 @@ If the stack has partially loaded, execute a well-timed bridge and hip escape to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Over-Under Pass?</p>
+
 **Week 1-2: Recognition and Frame Establishment** - Learning to recognize Over-Under Pass initiation and establishing defensive frames
 Partner slowly establishes over-under grips while you practice identifying the grip configuration and setting frames against their shoulder and bicep. No resistance from partner during stacking. Focus on body positioning, staying on your side, and understanding where your frames need to be before any pressure is applied.
 
@@ -290,29 +302,6 @@ Positional sparring starting in half guard where the top player is specifically 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Over-Under Pass is being initiated?
-**A**: The earliest cue is feeling the opponent thread one arm deep under your near thigh while their opposite hand reaches toward your far knee or ankle. This two-handed grip configuration is the signature setup of the Over-Under Pass. Recognizing this grip pattern before the stack loads is the most important defensive timing point, because every second of delay after grip establishment makes defense exponentially harder. Train yourself to react to the under-hook threading as the primary trigger for defensive action.
-
-**Q2**: Why should you hip escape toward the over-hook side rather than the under-hook side when defending?
-**A**: Hip escaping toward the over-hook side works against the passer's intended circulation path. The passer plans to circle their hips away from your free leg (the over-hook side), so moving your hips in that same direction disrupts their angle and creates the space needed to free your far leg. Escaping toward the under-hook side actually assists their passing motion because it moves your body in the direction they are already driving their pressure, making it easier for them to complete the lateral hip circulation.
-
-**Q3**: At what point should you abandon guard recovery and transition to turtle defense?
-**A**: You should transition to turtle when the opponent's hips have cleared past your legs and their lateral circulation is more than halfway complete. At this point, the mechanical advantage has shifted decisively in the passer's favor, and attempting to recover guard requires more space and time than is available. Turning to turtle before side control is fully established gives you defensive options including sit-outs, granby rolls, and guard pulls from turtle that are far more viable than trying to re-guard from under an established side control pin.
-
-**Q4**: What is the most critical frame to maintain when the opponent begins loading the stack?
-**A**: The frame against the opponent's shoulder on the over-hook side is the most critical because it serves dual purpose: it prevents chest-to-chest connection that enables full weight transfer, and it creates a lever point for hip escape movement. This frame should be established with your forearm across their shoulder or collar bone area, with your elbow connected to your knee for structural support. Losing this frame allows the opponent to collapse their weight onto your chest, which loads the stack fully and eliminates the space needed for any defensive hip movement.
-
-**Q5**: Your opponent has the under-hook established but has not yet secured your far leg - what is your highest-percentage defensive action?
-**A**: Your highest-percentage action is to immediately establish or reinforce a strong knee shield with your far leg while simultaneously framing against the opponent's shoulder on the over-hook side. The knee shield prevents the over-hook from being established, and without both grips the Over-Under Pass cannot proceed. From this recovered knee shield position, you can begin working sweeps and back takes from half guard. This is far more effective than trying to strip the existing under-hook, which is mechanically difficult once it is deep.
-
-
-
-</section>
 
 
 </main>

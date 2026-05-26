@@ -188,6 +188,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mount to Knee on Belly?</p>
+
 - Maintain loaded upper body grips throughout the entire transition to prevent escape during the weight shift window
 - Time the transition when the bottom player's defensive energy is depleted or hands are committed to defending submissions
 - Post the base foot wide and firmly before lifting the transitioning knee to maintain continuous pressure
@@ -202,6 +204,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mount to Knee on Belly?</p>
+
 - Stable mount position with opponent's hips controlled and defensive energy partially depleted
 - At least one dominant upper body grip established, preferably collar grip combined with belt or pants control
 - Bottom player's defensive frames neutralized or committed to defending a different threat
@@ -214,6 +218,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mount to Knee on Belly step by step?</p>
 
 1. **Establish dominant grips**: Secure a strong collar grip with your near hand and a belt or pants grip with your far hand. These grips create the control framework that prevents escape during the weight shift and anchors your upper body connection throughout the transition. Load both grips with forward pressure to pin the opponent's shoulders to the mat.
 2. **Assess defensive commitment**: Read the bottom player's frame positioning and defensive energy level. The optimal transition window opens when their hands are committed to defending a submission threat, their frames are positioned ineffectively for KOB defense, or their energy is visibly depleted from sustained mount defense. Avoid transitioning when they have fresh defensive frames aimed at your hips.
@@ -243,6 +249,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mount to Knee on Belly?</p>
+
 - **Bottom player frames on transitioning knee and shrimps away during weight shift** (Effectiveness: Medium) - Your Response: Abort the transition and re-settle mount with heavy hips. Use their framing arm as an attack target for Americana or advance to high mount where their hip frame becomes ineffective. → Leads to [[Positions/Mount]]
 - **Bottom player bridges explosively during the lift phase and catches the transitioning leg between their legs** (Effectiveness: High) - Your Response: Accelerate the transition by posting firmly and driving through to KOB before the leg catch is secured. If caught, use your free leg to pummel and extract back to mount or knee slice through to side control. → Leads to [[Positions/Half Guard]]
 - **Bottom player turns into the transition and establishes underhook before knee can land** (Effectiveness: Low) - Your Response: Use the collar grip to redirect their head toward the transitioning side and complete the KOB entry above their underhook. The elevated position makes their underhook largely ineffective for sweeping. → Leads to [[Positions/Mount]]
@@ -254,6 +262,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mount to Knee on Belly?</p>
 
 ### 1. Releasing grips during the transition to post hands on the mat for balance
 
@@ -293,6 +303,8 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mount to Knee on Belly (Attacker)?</p>
+
 **Phase 1: Mechanics** - Weight transfer and knee placement fundamentals
 Practice the basic mount to KOB movement on a compliant partner. Focus on smooth weight shift from straddling to single-knee pressure, proper base foot posting width, and accurate knee placement on the solar plexus. Repeat fifty repetitions per side until the movement feels natural without thought about balance.
 
@@ -310,42 +322,12 @@ Chain mount attacks into KOB transition into KOB submissions and back to mount o
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most vulnerable moment during the Mount to Knee on Belly transition and how do you minimize the risk?
-**A**: The most vulnerable moment occurs when you lift your transitioning knee off the mat, as your base is reduced to a single posted foot and your grip pressure. During this phase, the bottom player can exploit the reduced hip control to hip escape, catch your leg for half guard recovery, or bridge to create separation. Minimize this vulnerability by maintaining strong forward pressure through loaded grips, timing the lift when the opponent's hands are committed elsewhere, and executing the movement with committed speed rather than tentative incremental adjustments.
-
-**Q2**: When should you choose to transition from mount to knee on belly rather than attacking directly from mount?
-**A**: Transition to KOB when the mounted opponent has established effective defensive frames that neutralize your submission entries, when you need to change offensive angles to bypass their defensive patterns, or when your mount attacks have stalled and the opponent is defending without significant energy expenditure. KOB creates entirely different defensive requirements and forces them to adapt to concentrated diaphragm pressure and enhanced mobility threats, breaking the defensive rhythm they established against mount.
-
-**Q3**: What grip configuration provides the most control during the transition?
-**A**: The most effective configuration combines a near-side collar grip with a far-side belt or pants grip. The collar grip controls the opponent's upper body rotation and prevents them from sitting up or turning away during the weight shift. The far-side hip control prevents the shrimping motion that enables guard recovery. Both grips must remain loaded with forward pressure throughout the entire transition to compensate for the momentary reduction in hip-to-hip control as the knee lifts.
-
-**Q4**: Your opponent establishes strong forearm frames on your hips during mount - how does this affect your transition to KOB?
-**A**: Strong hip frames actually create an opportunity for the KOB transition because the opponent's hands are committed to managing distance rather than available for catching your leg or recovering guard. Their frames are designed to resist mount pressure but become less effective against the lateral weight shift of a KOB entry. Time your transition when their frames are fully committed to resisting your forward pressure, as they cannot simultaneously push your hips and intercept your transitioning knee.
-
-**Q5**: How should you position your base foot before initiating the transition?
-**A**: The base foot must be posted wide to the mat on the side opposite your transitioning knee, with toes gripping the mat surface and the knee slightly bent for dynamic mobility. Plant it far enough from the opponent that it provides a stable triangular base but close enough to maintain forward pressure through your upper body grips. The foot should be angled slightly outward to maximize lateral stability, positioned outside the opponent's shoulder line to prevent sweeps or hooks during the transition phase.
-
-**Q6**: What is the optimal knee placement upon arriving in KOB and why does it matter?
-**A**: The knee should land directly on the solar plexus or lower diaphragm, with the shin perpendicular to the opponent's centerline. This placement creates maximum respiratory disruption by compressing the diaphragm against the spine, forcing urgent defensive reactions that open submission opportunities. Placing the knee too high on the chest allows the opponent to breathe freely and frame effectively, while placing it too low on the abdomen reduces the pressure sensation and gives them more time to mount organized defensive responses.
-
-**Q7**: Your opponent bridges explosively as you begin lifting your knee to transition - how do you respond?
-**A**: If the opponent bridges before your knee is fully off the mat, abort the transition and re-settle into mount, using the bridging momentum to slide higher toward high mount. If your knee is already in transition, accelerate the movement by posting your base foot firmly and driving the knee through to KOB position, using your grip pressure to pin their shoulders despite the bridge. The bridge is most dangerous when you are between positions, so commit decisively to either staying in mount or completing the KOB transition rather than lingering in the vulnerable intermediate phase.
-
-**Q8**: How does the Mount to KOB transition integrate with your overall top pressure cycling game?
-**A**: The transition creates a dynamic positional cycling system where you flow between mount, KOB, and side control based on the opponent's defensive reactions. Each position requires different defensive responses from the bottom player, preventing them from developing effective escape patterns against any single position. When mount attacks stall, transition to KOB for new angles. When KOB escapes develop, drop to side control or advance back to mount. This cycling compounds fatigue and frustration, degrading the quality of their escape attempts over time until submission openings emerge.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mount to Knee on Belly?</p>
 
 The Mount to Knee on Belly transition carries moderate injury risk primarily from knee placement. Avoid dropping bodyweight suddenly onto the training partner's sternum, floating ribs, or xiphoid process, which can cause bruising, rib contusion, or cartilage damage. During drilling, place the knee with controlled pressure and gradually increase weight. Allow training partners to tap or verbally signal if diaphragm pressure becomes overwhelming. Be particularly careful with smaller training partners where the weight differential amplifies the concentrated pressure through the knee contact point.
 

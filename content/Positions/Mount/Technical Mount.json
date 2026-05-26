@@ -99,12 +99,12 @@
       "Posted Leg Base: Outside leg creates stabilizing tripod structure that prevents rolling while maintaining offensive mobility",
       "Arm Isolation: Control opponent's extended arm with both hands before posting leg to ensure submission setup",
       "Hip Position: Elevated hips facilitate quick transitions to armbar or back take while maintaining enough pressure to prevent escapes",
-      "Weight Distribution: Balance weight across posted leg and inside knee to maintain control during dynamic transitions",
+      "Center of Gravity: Balance weight across posted leg and inside knee to maintain control during dynamic transitions",
       "Transitional Mindset: Position entered with specific finishing intent—armbar or back take must follow within seconds",
       "Angular Control: Body positioned at angle optimal for armbar swing-over with head on opposite side of attacked arm",
       "Quick Execution: Minimize time in position to prevent defensive recovery—commit to finish immediately upon entry"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution strategy for maintaining Technical Mount while setting up the armbar?",
         "answer": "Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar."
@@ -283,8 +283,8 @@
         "relationship": "Primary technique - main transition used from this position"
       },
       {
-        "name": "Armbar from Technical Mount",
-        "relationship": "Primary submission - finish technique from this position"
+        "name": "Armbar from Armbar Control",
+        "relationship": "Primary submission finish - completion technique from armbar control"
       }
     ],
     "position_metrics": {
@@ -305,7 +305,7 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 50
+        "attempt_probability": 52
       },
       {
         "transition": "Back Take",
@@ -341,10 +341,6 @@
       },
       {
         "transition": "Americana from Technical Mount",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Armbar from Technical Mount",
         "attempt_probability": 2
       }
     ]
@@ -391,7 +387,7 @@
       "Maintain head position turned away from the stepped leg to prevent triangle setup and protect neck from choke attacks",
       "Generate explosive bridging movements coordinated with arm protection to create brief windows for hip escape during opponent's weight shifts"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical defensive priority when you find yourself in Technical Mount Bottom?",
         "answer": "Protecting your arms from extension is the absolute priority. Keep both elbows tight to your ribs with arms bent—never extend to push or frame until you've established proper defensive structure. The stepped leg creates an immediate pathway to armbar if either arm straightens. Everything else—breathing, hip movement, escape attempts—is secondary to keeping your arms safe from isolation and extension."
@@ -579,34 +575,34 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 45
+        "attempt_probability": 50
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 17
+        "attempt_probability": 16
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Back Turn from Technical Mount",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Bridge from Technical Mount",
         "attempt_probability": 0
       },
       {
         "transition": "Escape Technical Mount to Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Bridge from Technical Mount",
         "attempt_probability": 1
       }
     ]

@@ -166,6 +166,8 @@ Understanding which outcome each defensive action targets is critical for intell
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elevation Sweep to Mount?</p>
+
 - Opponent slides hips further underneath you and angles their body diagonally away, establishing the fulcrum position needed for vertical elevation
 - Opponent secures controlling grip on your sleeve, wrist, or collar on the same side as their hooks and begins pulling you forward to load weight
 - You feel increasing upward pressure from both hooks simultaneously - the primary hook behind your knee lifts while the secondary hook on your hip tilts you backward
@@ -178,6 +180,8 @@ Understanding which outcome each defensive action targets is critical for intell
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elevation Sweep to Mount?</p>
 
 - Recognize the sweep setup early by monitoring hip positioning - if opponent's hips load directly under your center of gravity, defensive action is required immediately
 - Deny the sweeper centered weight by maintaining asymmetric base with one foot significantly wider than the other, preventing the bilateral lifting platform
@@ -192,6 +196,8 @@ Understanding which outcome each defensive action targets is critical for intell
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elevation Sweep to Mount?</p>
 
 ### 1. Widen base and drop hips low to deny the elevation platform
 
@@ -229,6 +235,8 @@ Understanding which outcome each defensive action targets is critical for intell
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elevation Sweep to Mount?</p>
+
 ### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Deny the sweep entirely through early base adjustment, hook removal, or grip stripping. Widen stance and drop hips before elevation begins, then immediately work to address hooks and begin your passing sequence. The key is acting during the setup phase rather than waiting for the sweep to initiate.
@@ -244,6 +252,8 @@ When caught mid-sweep and full prevention is impossible, rotate your hips during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elevation Sweep to Mount?</p>
 
 ### 1. Maintaining narrow, upright stance while in opponent's Reverse X-Guard hooks
 
@@ -278,6 +288,8 @@ When caught mid-sweep and full prevention is impossible, rotate your hips during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elevation Sweep to Mount?</p>
+
 **Week 1-2** - Recognition and base adjustment
 Partner establishes Reverse X-Guard and slowly loads hips for elevation. Defender practices recognizing the setup cues and immediately widening base and dropping hips. No full sweep attempts yet. Focus on developing automatic base adjustment response to hook loading. Drill 3-minute rounds of recognition and reaction.
 
@@ -294,29 +306,6 @@ Positional sparring from Reverse X-Guard where attacker chains Elevation Sweep w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Elevation Sweep is being set up?
-**A**: The earliest cue is the opponent sliding their hips underneath your center of gravity while angling their body diagonally away from you. This hip loading precedes any pulling or elevation and represents the setup phase where defensive intervention is most effective. You will also feel their hooks adjusting to create a bilateral platform rather than maintaining a guard retention position.
-
-**Q2**: Why is widening your base the primary prevention defense, and what risk does it create?
-**A**: Widening your base removes the bilateral lifting platform the sweeper needs by distributing your weight laterally rather than centering it over their hooks. However, the wide base creates vulnerability to lateral sweeps like the technical Reverse X-Guard Sweep and may open transitions to Single Leg X-Guard. The defender must be prepared to address these secondary threats immediately after widening base.
-
-**Q3**: You are already being elevated and cannot prevent the sweep - what is your damage control strategy?
-**A**: When prevention fails and you are mid-elevation, immediately shift to mitigation. Post one hand behind you to slow the fall, then aggressively rotate your hips and drive your near knee across the opponent's body during the descent. The goal is to land in half guard rather than full mount. Time the knee insertion for the moment of landing when the sweeper transitions from hook control to mount establishment, as this is when their control is weakest.
-
-**Q4**: Why is the controlling grip on your sleeve or wrist so critical to the sweep's success?
-**A**: The controlling grip enables the forward-loading pull that shifts your weight onto the opponent's hooks, creating the conditions for effective elevation. Without this grip, the sweeper cannot prevent you from leaning away or stepping back when hooks engage. Breaking or preventing this grip removes the upper body component of the sweep, forcing the opponent to rely on hooks alone, which provides significantly less sweeping power and control.
-
-**Q5**: Your opponent attempts the elevation but you successfully widen your base - what should you do next?
-**A**: After widening base to deny the elevation, immediately begin addressing the hooks before the opponent can transition to alternative attacks. Drive forward pressure to flatten their structure, start clearing the primary hook behind your knee, and establish upper body control through collar or sleeve grips. Do not remain in the wide-base position passively, as the opponent will quickly transition to lateral sweeps or leg entanglement entries that exploit your widened stance.
-
-
-
-</section>
 
 
 </main>

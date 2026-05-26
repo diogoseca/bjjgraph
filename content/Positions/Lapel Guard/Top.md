@@ -175,6 +175,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lapel Guard (Top)?</p>
+
 - Top player faces opponent in guard position where their own lapel has been extracted and configured around their body, leg, or arm creating a mechanical barrier that restricts passing options—this fabric configuration persists independent of hand grips
 - Top player must maintain balance and base despite the lapel configuration pulling them off-balance or restricting movement in specific directions, requiring constant postural adjustment
 - Bottom player uses the lapel configuration to create frames and barriers that prevent hip contact and pressure passing approaches, fundamentally altering the passing geometry
@@ -185,6 +187,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Lapel Guard (Top)?</p>
 
 - Understanding of how different lapel configurations (worm, squid, ringworm) affect passing mechanics
 - Ability to maintain posture and base despite being pulled or restricted by lapel fabric
@@ -198,6 +202,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Lapel Guard?</p>
 
 - Address lapel configuration immediately—don't attempt to pass through it without clearing
 - Prevent lapel extraction in first place through early grip fighting and pressure
@@ -213,6 +219,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lapel Guard (Top)?</p>
 
 **If opponent has worm guard with lapel around your leg:**
 - Execute **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** → [[Positions/Turtle]] (Probability: 60%)
@@ -241,6 +249,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Lapel Guard?</p>
 
 ### 1. Attempting standard pressure passing without addressing lapel configuration
 
@@ -280,6 +290,8 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Lapel Guard attacks?</p>
+
 ### Lapel Configuration Recognition
 
 Partner establishes various lapel guard configurations (worm, squid, ringworm) in sequence. You have 5 seconds to identify the specific variation and state which passing approach is most appropriate. Focus on rapid pattern recognition without attempting full passes.
@@ -312,38 +324,6 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you recognize your opponent has established a lapel configuration around your leg?
-**A**: Address the lapel configuration immediately before attempting any passing sequence. The fabric creates a mechanical barrier that persists even after breaking hand grips, so you must either clear the configuration entirely or use specific backstep mechanics to navigate around it rather than fighting through.
-
-**Q2**: Your opponent starts feeding your lapel around your lead leg while you're in combat base—what adjustment prevents the worm guard establishment?
-**A**: Immediately establish dominant grips on their collar and sleeve while applying forward pressure. Step your lead leg back to prevent the lapel from completing its wrap around your knee. The key is engaging with grip fighting and pressure before they complete the configuration, as prevention is far easier than clearing an established wrap.
-
-**Q3**: How does energy management differ when passing lapel guard compared to traditional open guards?
-**A**: Lapel guard inverts typical energy dynamics—the bottom player maintains control with low effort while you must actively problem-solve. This creates pressure to act quickly before fatigue sets in, but rushing causes defensive errors. The solution is systematic clearing combined with immediate passing pressure, solving the problem and advancing position in one continuous action.
-
-**Q4**: What are the essential grips for clearing a worm guard lapel configuration?
-**A**: Control the opponent's gripping hand first to prevent them from adjusting the wrap, then use your free hand to work the fabric off your leg systematically. A collar grip with your clearing hand helps maintain pressure while you address the configuration. Avoid pulling the lapel with muscular force—instead use technical unwinding motions.
-
-**Q5**: Your opponent has squid guard with the lapel wrapped around your posting arm—what is the primary passing approach?
-**A**: Create distance to reduce the leverage they gain from the arm configuration, or apply heavy pressure passing that compresses them despite the lapel barrier. The squid guard's arm wrap is less restrictive to leg movement than worm guard, so leg-based passing like toreando becomes viable once you manage the arm entanglement or commit to pressure through it.
-
-**Q6**: How do you identify whether your opponent is playing worm guard versus squid guard versus ringworm?
-**A**: Worm guard has the lapel wrapped around your leg, typically threaded behind the knee. Squid guard wraps the lapel around your arm, usually the posting arm. Ringworm combines elements with multiple wraps creating complex configurations. Recognition is critical because each requires different technical solutions—backstep for worm, pressure or distance for squid, full reset for ringworm.
-
-**Q7**: Your opponent begins sitting up aggressively from lapel guard trying to take your back—what counter maintains your position?
-**A**: Backstep immediately when they elevate their torso, using their forward momentum to disengage from the lapel configuration and circle to turtle position. Their commitment to the sit-up opens the path around the lapel barrier. Maintain heavy shoulder pressure during the backstep to prevent them from completing the back take.
-
-**Q8**: What is the most common mistake when attempting to clear lapel configurations, and how does it compromise your position?
-**A**: Using excessive force to rip the lapel free causes rapid grip fatigue and is often unsuccessful because the fabric is wrapped around body parts rather than just gripped. This compromises your position by draining energy, potentially damaging the gi, and leaving you in the same trapped position but now fatigued. Technical unwinding or navigating around is always superior to forcing.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

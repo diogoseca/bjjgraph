@@ -175,6 +175,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 ## Position Definition
 
+<p class="section-subtitle">What is New York Control (Bottom)?</p>
+
 - Bottom practitioner maintains one leg wrapped over opponent's shoulder and across the back, with the foot positioned near or on the opposite shoulder, creating a high guard structure that controls posture and prevents the top player from establishing vertical base or generating forward pressure through traditional passing mechanics
 - Bottom practitioner secures overhook control on the same side as the wrapping leg, with the gripping arm threaded under the opponent's armpit and hand clasping either the opponent's shoulder, neck, or own leg, preventing defensive posting and creating the structural foundation for submission attacks while restricting the opponent's ability to create distance
 - Bottom practitioner's opposite hand maintains active control of the opponent's free arm or neck, preventing defensive hand fighting and posture recovery while setting up transition pathways to triangle, omoplata, and gogoplata positions through systematic grip manipulation and angle creation
@@ -185,6 +187,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing New York Control (Bottom)?</p>
 
 - Exceptional hip flexibility allowing leg to wrap over shoulder and across back
 - Adequate shoulder mobility to maintain overhook while leg controls posture
@@ -198,6 +202,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Control?</p>
 
 - Active leg engagement maintains posture control - passive leg allows opponent base recovery
 - Overhook depth determines submission accessibility and defensive restriction effectiveness
@@ -213,6 +219,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from New York Control (Bottom)?</p>
 
 **If opponent maintains strong defensive posture with chin tucked and elbows tight to body:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
@@ -236,7 +244,7 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 **If opponent begins extracting leg from shoulder control:**
 - Execute **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -246,6 +254,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Control?</p>
 
 ### 1. Maintaining passive leg pressure across opponent's back without active engagement
 
@@ -285,6 +295,8 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train New York Control defense?</p>
+
 ### New York Entry Flow Drill
 
 From closed guard, practice smooth entry to New York Control through Mission Control, focusing on leg wrap mechanics and overhook establishment. Partner provides light resistance to develop proper sequencing.
@@ -317,38 +329,6 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential controls for maintaining New York Control position?
-**A**: New York Control requires three simultaneous controls: the leg wrapped over the opponent's shoulder and across their back with foot near the opposite shoulder creating posture control, a deep overhook on the same side with arm fully threaded under the armpit and hand clasping shoulder or neck, and free hand control of the opponent's other arm or neck. All three must be maintained actively to prevent escape.
-
-**Q2**: How do you prevent the opponent from escaping your overhook control?
-**A**: Drive your arm as deep as possible under their armpit until your hand can clasp your own leg, their shoulder, or their neck. Keep your elbow tight to your body and actively pull their trapped arm across your centerline. If they begin rotating their shoulder to escape, immediately tighten leg pressure and transition to a submission threat, making the escape attempt cost them positionally.
-
-**Q3**: Your opponent begins posturing up aggressively - what adjustment maintains the position?
-**A**: Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space between your bodies.
-
-**Q4**: What is the proper weight distribution for maintaining New York Control from bottom?
-**A**: Weight should be distributed through your upper back and shoulders while keeping hips elevated and mobile. Avoid lying flat, which reduces leg pressure effectiveness. Stay slightly on your side toward the overhook to maximize control depth. Your hips need to remain free to adjust angle for submissions while your upper body provides the anchor point for all controls.
-
-**Q5**: How does the submission chain work when your triangle attempt is defended?
-**A**: When the opponent defends the triangle by tucking chin and pulling posture, immediately transition to omoplata by rotating your hips under their arm while maintaining overhook control. If they base out to prevent the omoplata sweep, switch to back take as their posting arm creates space. Each defense opens a specific counter - the key is recognizing the defensive pattern and flowing to the appropriate chain link.
-
-**Q6**: Your opponent starts extracting their trapped arm - what recovery sequence should you execute?
-**A**: Immediately transition to alternative control before they complete the extraction. Switch to Crackhead Control by bringing your leg to their head and controlling their posture with your shin, then re-establish Mission Control or go directly to triangle setup. The moment you feel arm slippage, you must transition rather than fight to maintain the original overhook position.
-
-**Q7**: What makes flexibility critical for New York Control retention?
-**A**: The leg wrap requires exceptional hip external rotation and hamstring flexibility to maintain the foot near the opponent's far shoulder while keeping active pressure. Without adequate range of motion, the leg position becomes shallow and easily cleared. The overhook also requires shoulder mobility to reach deep enough for structural control. Insufficient flexibility means you cannot achieve the angles needed for submission threats.
-
-**Q8**: How do you manage energy expenditure while maintaining constant offensive pressure from New York?
-**A**: Use structural positioning rather than muscular effort for primary controls - let your leg weight and bone alignment create pressure instead of squeezing constantly. Transition between submission threats rhythmically rather than holding static positions. The opponent should feel constant pressure, but you achieve this through technique cycling rather than sustained muscular contraction. Rest comes during transitions, not during holds.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

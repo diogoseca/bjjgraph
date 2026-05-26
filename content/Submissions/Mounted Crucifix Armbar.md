@@ -3,24 +3,30 @@
 
 
 ---
-title: "Mounted Crucifix Armbar | BJJ Submission | BJJ Graph"
+title: "Mounted Crucifix Armbar | BJJ Submission Family | BJJ Graph"
 description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finishing mechanics, step-by-step execution, escape defense, and safety protocols."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Mounted Crucifix Armbar targets the Shoulder and elbow joint. Risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Mounted Crucifix Armbar/Attacker|Play as Attacker]]
-[[Mounted Crucifix Armbar/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Mounted Crucifix Armbar/from Mounted Crucifix|Mounted Crucifix]] | 50% | Elbow hyperextension with ligament tear (UCL/LCL damage) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Positions/Mount/Mounted Crucifix]]
-**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 50% (average across variants)
 
 </section>
 
@@ -77,135 +81,6 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 </section>
 
-<section id="outcomes" class="content-section">
-
-## Outcomes
-
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Positions/Mount/Mounted Crucifix]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Maintain crucifix leg control throughout the entire armbar s... | Recognize the armbar setup immediately when the attacker gri... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Mounted Crucifix Armbar/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Maintain crucifix leg control throughout the entire armbar sequence—never sacrifice arm traps for the finish
-
-- Secure wrist control on the target arm before initiating the hip pivot to prevent the defender from bending the elbow
-
-- Use the defender's neck defense as your armbar entry—when they protect the neck with their free hand, the trapped arm is undefended
-
-- Pivot hips toward the target arm incrementally rather than jumping into position, maintaining weight and control throughout
-
-- Apply extension pressure through hip elevation rather than pulling with arms, creating mechanically superior breaking force
-
-- Keep knees pinched tightly during the extension to prevent the defender from retracting the arm past the breaking line
-
-
-### Execution Steps
-
-
-- **Consolidate mounted crucifix control**: Verify that your legs are tightly controlling the opponent's arm with knees squeezed together and yo...
-
-- **Identify and commit to the target arm**: Assess which trapped arm presents the most favorable angle for hyperextension. The arm trapped deepe...
-
-- **Secure wrist control on the target arm**: Use your free hand to grip the opponent's wrist on the target arm with a firm C-grip, controlling th...
-
-- **Begin hip pivot toward the target arm**: Shift your hips incrementally toward the side of the target arm, creating the perpendicular angle ne...
-
-- **Position legs for armbar control**: Adjust your leg positioning so that one leg crosses over the opponent's face or upper chest while th...
-
-- **Extend the arm past the hip line**: With wrist control secured and legs positioned, straighten the opponent's arm by pulling the wrist t...
-
-- **Apply breaking pressure and finish**: Apply controlled upward hip pressure into the back of the elbow joint while maintaining the wrist pu...
-
-
-### Common Mistakes
-
-
-- **Releasing crucifix leg control to jump into armbar position**
-  - Consequence: Defender extracts both arms during the transition, escaping to standard mount bottom or creating scramble opportunities
-  - Correction: Maintain leg control throughout the entire pivot sequence. The armbar must be built incrementally from within the crucifix rather than abandoning crucifix to chase the armbar.
-
-- **Attempting the armbar before securing wrist control on the target arm**
-  - Consequence: Defender bends the elbow and retracts the arm before extension can be achieved, wasting the positional advantage
-  - Correction: Always establish wrist grip with C-grip control before initiating the hip pivot. The wrist grip prevents elbow retraction throughout the finishing sequence.
-
-- **Pivoting hips too quickly and lifting weight off the opponent**
-  - Consequence: Creates space for the defender to bridge, turn, or extract arms during the momentary weight reduction
-  - Correction: Slide hips along the opponent's torso rather than lifting and repositioning. Keep constant downward pressure throughout the pivot.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Mounted Crucifix Armbar/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize the armbar setup immediately when the attacker grips your wrist and begins shifting hips—early action is your only advantage
-
-- Bend the elbow aggressively and pull the arm toward your body the instant you feel wrist control being established
-
-- Use the attacker's hip pivot transition as your escape window—this is when their crucifix control is most vulnerable
-
-- If the arm reaches full extension, tap immediately—the mounted crucifix eliminates your normal armbar escape mechanics
-
-- Bridge explosively during the pivot phase when the attacker's weight shifts, not after the armbar is locked
-
-- Keep your free arm actively defending rather than reaching for the trapped arm, which exposes your neck
-
-
-### Recognition Cues
-
-
-- Attacker shifts grip from neck or chest control to the wrist of your trapped arm, establishing a C-grip
-
-- Attacker begins pivoting hips toward the trapped arm side, changing their weight distribution
-
-- Weight shifts laterally away from your centerline toward the arm being targeted for the armbar
-
-- Attacker adjusts leg positioning to cross over your face or chest, transitioning from crucifix to armbar clamp
-
-
-### Escape Paths
-
-
-- Bridge explosively during the attacker's hip pivot to disrupt crucifix control and return to standard mount bottom
-
-- Extract the trapped arm through hip movement and elbow retraction during the transition from crucifix to armbar positioning
-
-- Turn toward the attacker during a failed armbar attempt to close the extension angle and recover to half guard or mount
-
-
-</section>
-
 
 
 <section id="from-positions" class="content-section">
@@ -223,14 +98,15 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## Related Submissions
 
-- [[Transitions/Armbar from Crucifix]]
-- [[Transitions/Choke from Crucifix]]
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Armbar from High Mount]]
-- [[Submissions/Armbar from S Mount]]
-- [[Submissions/Armbar from Technical Mount]]
-- [[Submissions/Gift Wrap Armbar]]
-- [[Submissions/Americana from Mount]]
+- [[Submissions/Far Side Armbar]] - Alternative armbar variation sharing cross-body arm isolation mechanics
+- [[Submissions/Armbar]] - Dynamic armbar entry using rotational momentum from top positions
+- [[Submissions/Spinning Armbar]] - Rotational armbar setup sharing arm isolation finishing principles
+- [[Submissions/Gift Wrap Armbar]] - Related arm control submission from similar trapping control position
+- [[Submissions/Triangle Choke]] - Alternative mount-based submission sharing dominant positional control
+- [[Submissions/Bicep Slicer]] - Compression submission that chains naturally from failed armbar extension
+- [[Submissions/Belly Down Armbar]] - Armbar finishing variation when opponent rolls prone to escape extension
+- [[Transitions/Armbar from Crucifix]] - Related crucifix-based armbar sharing arm-trap isolation mechanics
+- [[Armbar from Mount]] - Standard mount armbar sharing positional context without pre-isolation advantage
 
 
 </section>

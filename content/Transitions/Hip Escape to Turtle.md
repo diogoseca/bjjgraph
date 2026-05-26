@@ -210,7 +210,7 @@ Hip Escape to Turtle is the primary escape pathway from body triangle, one of th
 
 - [[Transitions/Back Door Escape]] - Follow-up system - continue escaping from turtle or hooks
 
-- [[Transitions/Rear Naked Choke]] - Primary threat - main submission danger during escape
+- [[Submissions/Rear Naked Choke]] - Primary threat - main submission danger during escape
 
 - [[Positions/Half Guard]] - Alternative destination - can reach through frame and slide variant
 

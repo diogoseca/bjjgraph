@@ -186,6 +186,8 @@ This technique requires precise timing and technical execution. Attempting the c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter-entangle to 50-50 Guard?</p>
+
 - Maintain heel protection throughout the entire counter-entangle sequence to prevent opportunistic heel hook attacks
 - Use the opponent's transitional movements as triggers for initiating the counter-entangle, not static moments
 - Keep your hips mobile and your free leg active, constantly threatening to weave through the opponent's structure
@@ -200,6 +202,8 @@ This technique requires precise timing and technical execution. Attempting the c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter-entangle to 50-50 Guard?</p>
+
 - Your leg is entangled in Leg Knot Bottom but not yet secured in Saddle or Inside Ashi configuration
 - Your heel is currently protected or you have momentary control over foot positioning
 - Your free leg has mobility and is not trapped or controlled by opponent's upper body
@@ -212,6 +216,8 @@ This technique requires precise timing and technical execution. Attempting the c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter-entangle to 50-50 Guard step by step?</p>
 
 1. **Establish defensive frame**: Plant your free foot on the opponent's hip to create distance and control the space. This frame prevents them from advancing to Saddle and buys time for the counter-entangle. Keep your trapped leg's heel hidden by pointing toes toward opponent.
 2. **Monitor transition window**: Wait for the opponent to release their hip frame or adjust their grip to advance position. This transitional moment creates the opening needed for the counter-entangle. Do not attempt during static control phases.
@@ -240,6 +246,8 @@ This technique requires precise timing and technical execution. Attempting the c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter-entangle to 50-50 Guard?</p>
+
 - **Opponent sprawls their hips back and blocks the threading leg with their hand** (Effectiveness: High) - Your Response: Use the blocking hand as a lever to hip escape away and either complete the thread from a different angle or transition to Single Leg X-Guard recovery → Leads to [[Positions/Leg Knot]]
 - **Opponent immediately attacks heel hook during your transition when heel becomes briefly exposed** (Effectiveness: High) - Your Response: Accelerate the threading motion and turn into the opponent to hide heel. If heel hook is locked, complete the 50-50 anyway as it gives you equal access to their heel → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent recognizes the counter and quickly transitions to Saddle before you can thread** (Effectiveness: Medium) - Your Response: If Saddle is achieved, abandon the 50-50 counter and transition to Saddle-specific escapes like boot or the Granby roll escape → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -251,6 +259,8 @@ This technique requires precise timing and technical execution. Attempting the c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter-entangle to 50-50 Guard?</p>
 
 ### 1. Attempting the counter-entangle while opponent has strong static control
 
@@ -285,6 +295,8 @@ This technique requires precise timing and technical execution. Attempting the c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter-entangle to 50-50 Guard (Attacker)?</p>
+
 **Week 1-2** - Fundamental mechanics
 Practice the threading motion with a cooperative partner from static Leg Knot Bottom position. Focus on the leg weaving pattern, ankle locking mechanics, and proper 50-50 configuration. Partner provides no resistance while you develop the motor pattern.
 
@@ -302,48 +314,12 @@ Positional sparring starting from Leg Knot Bottom. Full resistance from partner 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Counter-entangle to 50-50 Guard?
-**A**: The primary goal is to transform a defensive crisis in Leg Knot Bottom into a neutral position with mutual leg lock threats. Rather than simply escaping, you neutralize the opponent's positional advantage while creating your own submission opportunities in the symmetric 50-50 configuration.
-
-**Q2**: What position do you start Counter-entangle to 50-50 Guard from?
-**A**: This technique starts from Leg Knot Bottom, where your leg is entangled in the opponent's leg knot configuration but they have not yet achieved a dominant position like Saddle or Inside Ashi-Garami. Your free leg must have mobility to execute the threading motion.
-
-**Q3**: What are the key grips needed for Counter-entangle to 50-50 Guard?
-**A**: During execution, no specific grips are required - the legs do the work. However, before initiating you should have hands protecting your heel and controlling your own foot. After achieving 50-50, immediately establish two-on-one grip control on opponent's near foot to create heel hook threat and prevent them from re-attacking.
-
-**Q4**: How do you counter the Counter-entangle to 50-50 Guard as the top player?
-**A**: As the top player, the most effective counter is recognizing the attempt early and sprawling your hips back while using your hand to block the threading leg. You can also accelerate your transition to Saddle before the counter is initiated, or attack the heel hook aggressively during the threading motion when the heel becomes briefly exposed.
-
-**Q5**: When is the best time to attempt Counter-entangle to 50-50 Guard?
-**A**: The optimal timing is during the opponent's transitional movements - when they release grips to adjust, attempt to advance from Leg Knot to Saddle, or reach for heel hook grips. Do not attempt during static control phases when the opponent has settled into strong positioning with established grips.
-
-**Q6**: Your opponent begins sprawling their hips back as you initiate the threading motion - how do you adjust?
-**A**: Use their sprawl as a lever point by hip escaping away from them while continuing the threading motion. The additional space their sprawl creates can actually help complete the thread from a different angle. If the sprawl completely blocks the thread, abandon the 50-50 and transition to Single Leg X-Guard recovery using the space created.
-
-**Q7**: What is the critical hip movement required to complete the counter-entangle successfully?
-**A**: The critical hip movement is a rotation toward the opponent combined with forward threading. Your hip must turn into the opponent (not away) to both protect your heel during the transition and to create the proper angle for your leg to weave through their structure. Turning away exposes your heel and makes the threading motion geometrically impossible.
-
-**Q8**: If your counter-entangle fails and you return to Leg Knot Bottom, what should be your immediate priority?
-**A**: Immediately re-establish your free leg frame on the opponent's hip to prevent positional advancement. Return hands to heel protection on your trapped leg. Assess whether your failed attempt gave the opponent improved positioning (closer to Saddle) and adjust your defensive priorities accordingly. Consider alternative escape routes since the opponent will be anticipating another counter-entangle attempt.
-
-**Q9**: Why is half-committing to the counter-entangle particularly dangerous?
-**A**: Half-committing leaves you in a hybrid position that is worse than either the starting Leg Knot Bottom or the target 50-50. Your free leg loses its defensive framing capability but you don't gain the mutual threat of 50-50. The opponent can attack your partially-threaded leg while simultaneously working their original leg lock sequence. You must either commit fully to completion or maintain your defensive position.
-
-**Q10**: What chain attacks should you have ready if the opponent defends the 50-50 entry?
-**A**: If the threading motion is blocked, immediately transition to: (1) Single Leg X-Guard entry using the threading motion's momentum, (2) Full leg extraction to Half Guard if space is created by their defensive reaction, or (3) Return to defensive frames and wait for the next transitional window. Having these alternatives prevents you from forcing a failed technique repeatedly.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter-entangle to 50-50 Guard?</p>
 
 The counter-entangle to 50-50 requires careful attention to heel position throughout execution. During the threading motion, there is a brief window where your heel may become exposed - maintain awareness and keep toes pointed toward the opponent to minimize this risk. Both the Leg Knot starting position and 50-50 ending position carry heel hook danger, so practitioners should be well-versed in heel hook defense before drilling this technique live. Always tap early to heel hooks during training, as the reaping force on the knee can cause serious ligament damage. When practicing with new partners, establish clear communication about heel hook intensity and catch-and-release protocols.
 

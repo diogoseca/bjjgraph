@@ -61,8 +61,8 @@
       "relationship": "Chain attack when opponent postures to defend Tarikoplata"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Chain attack when opponent straightens arm to defend omoplata angle"
+      "name": "Armbar on Free Arm",
+      "relationship": "Chain attack from Meathook when opponent straightens arm to defend omoplata angle"
     },
     {
       "name": "Mission Control",
@@ -147,7 +147,7 @@
       {
         "counter": "Straightening the trapped arm to prevent omoplata angle from locking",
         "effectiveness": "Medium",
-        "your_response": "A straightened arm opens the Armbar from Guard directly. Use your leg position over their shoulder as initial control and transition to standard armbar mechanics. Their defense to the Tarikoplata becomes the entry for the armbar.",
+        "your_response": "A straightened arm opens the Armbar on Free Arm directly. Use your leg position over their shoulder as initial control and transition to standard armbar mechanics. Their defense to the Tarikoplata becomes the entry for the armbar.",
         "targets_outcome": "Meathook/Bottom"
       },
       {
@@ -206,7 +206,7 @@
         "description": "Integrate Tarikoplata Setup into positional sparring from Meathook. Track success rate and identify which opponent responses trigger the Tarikoplata versus Baratoplata or Gogoplata. Develop the ability to select the correct Meathook attack based on real-time defensive reads."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Tarikoplata Setup from Meathook?",
         "answer": "The primary goal is to transition the Meathook's arm isolation into a compound shoulder lock by establishing an omoplata position with additional wrist control. The wrist grip adds rotational torque that prevents the rolling escape and creates a dual-lever attack on the shoulder joint, making the submission significantly harder to defend than a standard omoplata."
@@ -241,7 +241,7 @@
       },
       {
         "question": "Your opponent successfully straightens their trapped arm during your Tarikoplata attempt—what chain attack becomes available?",
-        "answer": "A straightened arm opens the Armbar from Guard. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next."
+        "answer": "A straightened arm opens the Armbar on Free Arm. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next."
       },
       {
         "question": "Why must wrist rotation be applied slowly during Tarikoplata finishing and what injury risks exist from explosive application?",
@@ -330,7 +330,7 @@
         "correction": "Use one hand to push off their hip for posture recovery while your other hand blocks the leg transition by gripping their ankle or pant leg. Compound defense—simultaneous posture recovery and leg blocking—is far more effective than committing both hands to a single defensive action."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What specific defensive behavior triggers the Tarikoplata Setup from Meathook?",
         "answer": "Static defense—remaining motionless in Meathook without committing to any direction of movement—is the specific trigger. The opponent perceives stillness as safe because it avoids the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). But static positioning gives the attacker unlimited time to execute the multi-step Tarikoplata entry sequence without defensive interruption. Any committed directional movement is preferable to stillness."

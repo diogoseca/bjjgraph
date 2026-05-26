@@ -166,6 +166,8 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle Setup?</p>
+
 - The attacker's near-side arm begins underhooking your elbow or bicep and driving your arm toward your own neck while maintaining heavy chest pressure from North-South
 - You feel the attacker's choking-side arm sliding under your neck from the far side, threading past your jawline with their bicep contacting the side of your neck
 - The attacker begins walking their hips laterally toward one side while maintaining the head-and-arm grip, transitioning from perpendicular North-South toward a side control angle
@@ -177,6 +179,8 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Triangle Setup?</p>
 
 - Keep your near-side elbow pinched tight to your ribs at all times to deny the arm isolation that initiates the entire setup sequence
 - Fight the underhook early by swimming your arm inside and maintaining inside position against the attacker's threading attempts
@@ -191,6 +195,8 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle Setup?</p>
 
 ### 1. Retract the near-side arm by pulling your elbow tight to your ribs and swimming your hand to inside position, preventing the arm from crossing your centerline
 
@@ -228,6 +234,8 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle Setup?</p>
+
 ### → [[Positions/North-South]]
 
 Prevent the arm isolation entirely by keeping your near-side elbow pinched tight and fighting any underhook attempt with inside hand positioning. If the arm thread begins, bridge explosively during the attacker's weight shift to extract your arm and return to standard North-South bottom where you can work systematic escapes without the choke threat.
@@ -243,6 +251,8 @@ During the hip walk phase, time your knee insertion to catch the attacker's near
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle Setup?</p>
 
 ### 1. Allowing the near-side arm to drift away from the body or extend outward during North-South defense
 
@@ -277,6 +287,8 @@ During the hip walk phase, time your knee insertion to catch the attacker's near
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle Setup?</p>
+
 **Week 1-2** - Arm retention and recognition
 Partner initiates the arm triangle setup at 30% speed from North-South while you focus exclusively on keeping your near-side elbow tight and recognizing the underhook attempt. Practice the arm swim to inside position and the elbow-pinch defensive posture. No escape attempts yet—build the habit of arm retention as your automatic response to North-South pressure.
 
@@ -293,29 +305,6 @@ Start in North-South bottom with partner at full resistance attempting the arm t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an arm triangle setup is being initiated from North-South?
-**A**: The earliest cue is the attacker underhooking your near-side arm at the elbow or bicep and beginning to drive it across your centerline toward your own neck. You will feel their arm snaking under yours combined with increased shoulder pressure designed to flatten you and pin the arm in position. This precedes the arm thread under the neck by several seconds, providing the widest defensive window.
-
-**Q2**: Why is it critical to avoid turning away from the attacker when you feel the arm triangle developing?
-**A**: Turning away from the attacker rotates your trapped arm deeper into your own neck, increasing the compression on your carotid artery. It also assists the attacker's hip walk by moving in the same direction they need to transition to side control. The instinct to turn away feels like escape but mechanically accelerates the choke. Instead, bridge and turn toward the attacker to create space on the near side and disrupt the arm-across-neck configuration.
-
-**Q3**: Your arm is already across your neck and the attacker is locking the grip—what is your highest-percentage defensive option?
-**A**: At this late stage, your best option is inserting your near-side knee between your bodies during the hip walk phase to recover half guard. The half guard hook prevents the attacker from achieving the side control angle needed for maximum compression and creates enough positional disruption to work toward arm extraction. Fighting the grip directly at this stage has a very low success rate because the attacker has mechanical advantage through their locked hands and chest pressure.
-
-**Q4**: How do you prevent the arm isolation that starts the entire arm triangle sequence?
-**A**: Keep your near-side elbow pinched tight against your ribs as your default defensive posture in North-South. When you feel the attacker attempt to underhook your arm, swim your hand to inside position by circling it inward and pressing your forearm against their chest. The arm must never cross your own centerline—as long as your elbow stays connected to your ribs and your forearm stays between your bodies, the attacker cannot drive the arm across your neck to create the choke configuration.
-
-**Q5**: During which phase of the arm triangle setup is the attacker's base most vulnerable to a defensive bridge?
-**A**: The attacker's base is most vulnerable during the hip walk phase when they are transitioning from perpendicular North-South alignment toward a lateral side control angle. During this movement their weight distribution shifts progressively to one side, their knees are in motion rather than planted, and they cannot post effectively because both hands are committed to the grip. A well-timed bridge during mid-walk catches them between positions where they have neither North-South stability nor side control stability.
-
-
-
-</section>
 
 
 </main>

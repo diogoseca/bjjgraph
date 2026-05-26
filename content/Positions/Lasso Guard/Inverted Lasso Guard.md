@@ -38,7 +38,7 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain lasso hook tension throughout inversion - losing the lock eliminates all sweep mechanics

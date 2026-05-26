@@ -186,6 +186,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Granby Roll to Guard?</p>
+
 - Initiate the roll when opponent's weight commits forward or their grips are not fully secured
 - Lead with the shoulder on the side away from the primary threat, creating rotational momentum
 - Tuck the chin to protect the neck and allow smooth rolling over the shoulder blade
@@ -201,6 +203,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Granby Roll to Guard?</p>
+
 - Opponent has not fully consolidated Buggy Choke grips with complete body pressure
 - Sufficient space exists on the side away from opponent's primary control to initiate roll
 - Your head and neck retain enough mobility to tuck and protect during the rotation
@@ -213,6 +217,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Granby Roll to Guard step by step?</p>
 
 1. **Create space**: Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion.
 2. **Post the far arm**: Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll.
@@ -242,6 +248,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Granby Roll to Guard?</p>
+
 - **Opponent follows the roll and takes back control** (Effectiveness: High) - Your Response: Complete the roll faster with more hip extension, or transition directly to deep half guard by underhooking opponent's leg as they follow → Leads to [[Positions/Back Control]]
 - **Opponent sprawls heavy and drives forward as you initiate** (Effectiveness: High) - Your Response: Abort the granby and switch to sitting to half guard, using their forward momentum to create space underneath → Leads to [[Positions/Buggy Choke]]
 - **Opponent maintains collar grip and follows to mounted position** (Effectiveness: Medium) - Your Response: Strip the collar grip during the roll using your far hand, or accept the collar grip and play collar defense from closed guard → Leads to [[Positions/Closed Guard]]
@@ -253,6 +261,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Granby Roll to Guard?</p>
 
 ### 1. Initiating the roll before creating any space from opponent's pressure
 
@@ -287,6 +297,8 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Granby Roll to Guard (Attacker)?</p>
+
 **Week 1-2** - Solo movement drilling
 Practice the granby roll motion without a partner, focusing on smooth shoulder rolling, proper chin tuck, and landing in guard position. Build the proprioceptive awareness needed for the inverted movement pattern.
 
@@ -304,54 +316,12 @@ Full resistance turtle sparring where bottom player works all escape options inc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Granby Roll to Guard?
-**A**: The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure.
-
-**Q2**: When is the optimal timing window to initiate the Granby Roll?
-**A**: The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment.
-
-**Q3**: Why must you tuck your chin during the rolling motion?
-**A**: Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae.
-
-**Q4**: Your opponent sprawls heavily as you initiate the granby—how do you adjust?
-**A**: Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement.
-
-**Q5**: What is the most critical action immediately upon completing the roll?
-**A**: Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another.
-
-**Q6**: Why is the hip extension at the apex of the roll important?
-**A**: The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position.
-
-**Q7**: Your opponent maintains their collar grip through your granby roll—what guard should you establish?
-**A**: Accept the collar grip and establish closed guard where you can control their posture and work grip strips from a stable position. The collar grip is manageable from closed guard, whereas trying to strip it mid-roll often compromises your escape. Prioritize completing the escape, then address the grip.
-
-**Q8**: What makes partial execution of the granby particularly dangerous?
-**A**: Stopping mid-roll leaves you inverted and vulnerable with your back exposed. The opponent can easily take back control or establish mount while you are stuck in a compromised inverted position. Partial execution combines the vulnerability of the roll with none of the escape benefits, making it worse than not attempting at all.
-
-**Q9**: Your opponent posts their hand on your hip to block the roll initiation—what grip adjustment enables the escape?
-**A**: Strip the posting hand with your near-side arm by cupping their wrist and peeling it off your hip toward the mat. Simultaneously begin the hip bump to create space. If you cannot strip the grip, use it as a pivot point by rolling toward their posting arm rather than away from it, converting their block into an anchor for a reverse granby variation that catches them off guard.
-
-**Q10**: What is the critical hip movement that generates the rotational momentum for the granby?
-**A**: The initial hip bump backward combined with the knee drive creates the angular momentum needed for the roll. Your hips must shift away from the opponent first to create space, then the drive off the knees converts linear energy into rotational momentum as you tuck and roll over the posted shoulder. Without the preliminary hip bump, the roll lacks sufficient momentum to clear the opponent's control and complete the inversion.
-
-**Q11**: If the granby is blocked and you cannot roll, what chain attack should you pursue?
-**A**: Immediately transition to a sit-out escape by planting your far hand and swinging your near leg through to face the opponent. If the sit-out is also blocked, reverse direction into a Peterson roll by threading your arm through to secure an underhook and rolling back toward the opponent. The key is never remaining static after a failed attempt—each blocked escape should flow directly into the next option in your turtle defense chain.
-
-**Q12**: What grip on the opponent do you need to establish before initiating the granby from Buggy Choke bottom?
-**A**: No offensive grip is required to initiate the granby—this is a grip-free escape that relies on timing and momentum rather than control. However, you must address the opponent's choking grip by either stripping it with your near hand or accepting it will follow you. The critical pre-roll action is reducing their hip control, not establishing your own grips. This grip-independence is what makes the granby viable even when your arms are compromised by the choke setup.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Granby Roll to Guard?</p>
 
 Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics.
 

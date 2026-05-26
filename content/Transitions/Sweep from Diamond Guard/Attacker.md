@@ -188,6 +188,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Diamond Guard?</p>
+
 - Angle hips toward the overhook side before initiating the sweep to direct force toward the opponent's compromised base where they cannot post
 - Maintain the overhook throughout the entire sweep motion — releasing it to reach for the mat eliminates the posting restriction that makes the sweep work
 - Use the head control grip to redirect the opponent's forward momentum into rotational force during the sit-up phase
@@ -202,6 +204,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Diamond Guard?</p>
+
 - Deep overhook established with elbow past opponent's tricep and pulled tight to your ribs preventing arm extraction
 - Head control grip behind opponent's neck with their posture broken and head below shoulder line
 - Closed guard locked with heels actively pulling into opponent's lower back maintaining proximity
@@ -214,6 +218,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Diamond Guard step by step?</p>
 
 1. **Verify Diamond Frame Integrity**: Confirm deep overhook with elbow past opponent's tricep and head control breaking their posture fully below shoulder line. Both controls must be active and secure before initiating the sweep attempt.
 2. **Angle Hips Toward Overhook Side**: Shift your hips toward the side where your overhook controls the opponent's arm, rotating approximately 30-45 degrees. This positioning directs the sweeping force toward the opponent's compromised base where they cannot post.
@@ -243,6 +249,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Diamond Guard?</p>
+
 - **Opponent posts free hand wide on the mat to brace against the sweep rotation** (Effectiveness: High) - Your Response: Switch immediately to triangle entry by releasing head control and shooting legs up, or attack the posted arm with a kimura since it is now extended and isolated → Leads to [[Positions/Closed Guard/Diamond Guard]]
 - **Opponent drops weight backward and sits on heels to deny forward momentum** (Effectiveness: Medium) - Your Response: Follow their backward motion with the pendulum kick variation for added momentum, or return to submission attacks since their extended posture opens triangle and omoplata entries → Leads to [[Positions/Closed Guard/Diamond Guard]]
 - **Opponent strips the overhook by circling their trapped arm downward and pulling free** (Effectiveness: High) - Your Response: Abandon the sweep and immediately re-establish the diamond frame or transition to standard closed guard attacks before the opponent can fully posture and begin passing → Leads to [[Positions/Closed Guard/Diamond Guard]]
@@ -254,6 +262,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Diamond Guard?</p>
 
 ### 1. Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg
 
@@ -293,6 +303,8 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Diamond Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Sit-up motion and hip angle fundamentals
 Practice the sit-up motion from diamond guard against a stationary partner. Focus on planting the far foot correctly, angling hips toward the overhook side, and driving through the vertical position. Complete 20 repetitions per side with no resistance, emphasizing form.
 
@@ -310,42 +322,12 @@ Incorporate the sweep into live rolling from diamond guard against fully resisti
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the sweep from diamond guard?
-**A**: The optimal timing is when the opponent drives forward to resist the diamond frame pull or attempts to strip the overhook or head control. Their forward weight shift or grip fighting movement creates momentum you can redirect into the sweep rotation. Initiating during a static moment when the opponent has settled base dramatically reduces success probability because their weight is centered and both posting options remain available.
-
-**Q2**: What conditions must exist before the sweep can be attempted from diamond guard?
-**A**: The overhook must be deep with your elbow past the opponent's tricep, head control must have their posture broken below shoulder line, closed guard must be locked with active heel pressure, and the opponent's weight must be distributed forward due to the diamond frame pull. Missing any single condition significantly reduces sweep effectiveness because the technique depends on the integrated structural advantage of the complete diamond frame.
-
-**Q3**: Why is hip angle toward the overhook side critical for the sweep's success?
-**A**: The hip angle directs the sweeping force toward the opponent's structurally compromised side — the side where their arm is trapped by the overhook and cannot post. Sweeping centrally or toward the free-arm side allows the opponent to post with their free hand and resist the rotation. The overhook creates an asymmetric base weakness that must be targeted directionally for the sweep to overcome the opponent's remaining posting ability.
-
-**Q4**: What is the most common mechanical failure when executing this sweep?
-**A**: Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg. This immediately frees the opponent's trapped arm, allowing them to post and prevent the rotation. The overhook must be maintained throughout the entire sweep because the structural posting restriction is what makes the technique work. Base and power come from the planted far foot, not from posting the hand on the mat.
-
-**Q5**: What grip adjustments are needed during the transition from sweep completion to mount establishment?
-**A**: During the sweep, both hands maintain diamond frame controls — overhook and head control. As the opponent rotates past the point of no return, release the head control first to post your hand for base during the mount transition. The overhook can be maintained briefly to prevent the opponent from turning into you, then released once your hips are settled in mount and standard mount controls with hands posted or controlling arms are established.
-
-**Q6**: In which direction should the primary force of the sweep be applied?
-**A**: The force should drive diagonally forward and toward the overhook side at approximately 45 degrees. The sit-up provides upward and forward force while the hip angle directs it toward the side where the opponent's posting ability is eliminated. The overhook and head control add a pulling component that converts linear sit-up force into rotational momentum around the opponent's compromised base point.
-
-**Q7**: Your opponent posts their free hand wide to stop the sweep rotation — how do you adjust?
-**A**: Recognize that their posting arm is now extended and committed, meaning their only free limb is occupied with base rather than defense. Switch immediately to a triangle entry by releasing head control and shooting your legs up to the triangle position, or attack the posted arm with a kimura since it is isolated and extended. The posted arm creates its own vulnerability that can be exploited through chain attacks.
-
-**Q8**: If the sweep is blocked and you cannot complete the rotation, what chain attacks are available?
-**A**: Return to the diamond frame and attack the submission chain: triangle entry by releasing head control while maintaining overhook, omoplata rotation by switching to wrist control on the trapped arm, or kimura attack using the overhook as the initial control point. The failed sweep attempt often changes the opponent's weight distribution and defensive focus, creating new openings for submissions that were not previously available before the sweep attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Diamond Guard?</p>
 
 The sweep involves explosive rotational movement that can stress the opponent's shoulder in the overhook arm if the grip is excessively tight during rotation. Release overhook tension smoothly during the mount transition rather than maintaining maximum torque throughout the rotation. During training, allow the partner to rotate naturally with the sweep rather than holding the overhook rigidly and forcing the shoulder joint against its natural range of motion. Communicate with training partners about shoulder sensitivity before drilling this technique at speed.
 

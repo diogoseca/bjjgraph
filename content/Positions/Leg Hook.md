@@ -34,7 +34,7 @@ This position requires precise understanding of weight distribution, hip positio
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain dynamic leg hook tension with constant adjustments based on opponent movement and weight distribution

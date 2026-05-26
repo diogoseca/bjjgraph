@@ -19,7 +19,7 @@
     "common_errors",
     "training_progressions",
     "variants_and_adaptations",
-    "knowledge_assessment",
+    "flashcards",
     "safety_considerations",
     "position_integration",
     "related_content"
@@ -280,7 +280,7 @@
         }
       }
     },
-    "knowledge_assessment": {
+    "flashcards": {
       "type": "array",
       "description": "Understanding test questions (minimum 5, feeds FAQ schema)",
       "minItems": 5,

@@ -40,7 +40,7 @@ The position also demonstrates important principles about submission-based contr
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Shin-across-throat positioning creates simultaneous control and submission threat
@@ -118,7 +118,7 @@ The position also demonstrates important principles about submission-based contr
 
 - **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (18% of attempts)
 
-- **[[Submissions/Gogoplata Finish/Attacker|Gogoplata Finish]]** (2% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (2% of attempts)
 
 
 ### Common Mistakes

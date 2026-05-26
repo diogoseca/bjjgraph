@@ -44,6 +44,8 @@ jobs:
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
     permissions:
       contents: read
       deployments: write
@@ -62,6 +64,8 @@ jobs:
         env:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
           POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
           npm install
           npx quartz build -d ../content
@@ -140,8 +144,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          gzip -k graph.json
           gh release create "${{ steps.tag.outputs.tag }}" \
             graph.json \
+            graph.json.gz \
             --title "${{ steps.tag.outputs.tag }}" \
             --notes "Auto-release of BJJGraph knowledge graph data." \
             --latest

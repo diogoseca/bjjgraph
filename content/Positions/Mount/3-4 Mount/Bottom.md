@@ -169,6 +169,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Position Definition
 
+<p class="section-subtitle">What is 3-4 Mount (Bottom)?</p>
+
 - Bottom player's back is flat on the mat with shoulders pinned, facing upward with opponent's hips positioned on the torso/abdomen creating downward pressure through asymmetric weight distribution
 - Top player has asymmetric base with three points of contact (e.g., both knees plus one hand) on one side and four points (e.g., both knees, hand, and posted foot) on the other side, creating uneven weight distribution
 - Bottom player's hips are controlled beneath opponent's weight but with potential mobility due to asymmetric pressure, arms positioned to create defensive frames protecting neck and preventing chest-to-chest connection
@@ -180,6 +182,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing 3-4 Mount (Bottom)?</p>
 
 - Opponent has achieved mount position with weight on torso
 - Asymmetric base has been established by top player (intentionally or during transition)
@@ -193,6 +197,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 3-4 Mount?</p>
 
 - Recognize the asymmetric weight distribution and identify the lighter side for escape attempts
 - Maintain defensive frames with elbows tight to body, preventing chest-to-chest connection and protecting neck from choke attempts
@@ -208,6 +214,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from 3-4 Mount (Bottom)?</p>
 
 **If opponent has asymmetric base with clear weight distribution to one side and hands are posted high:**
 - Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
@@ -236,6 +244,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 3-4 Mount?</p>
 
 ### 1. Bridging directly upward without angling toward the heavier side
 
@@ -275,6 +285,8 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train 3-4 Mount defense?</p>
+
 ### Asymmetric Mount Recognition Drill
 
 Partner establishes various 3-4 mount configurations while bottom player practices identifying weight distribution, lighter side, and optimal escape angle. Focus on visual and tactile recognition of asymmetric base patterns. Progress from static holds to dynamic transitions between 3-4 variations.
@@ -307,38 +319,6 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary escape advantage of 3-4 Mount Bottom compared to traditional mount bottom?
-**A**: The asymmetric weight distribution in 3-4 Mount creates a natural escape angle toward the lighter side where the opponent has fewer contact points. Unlike traditional mount where weight is evenly distributed, the posted leg configuration in 3-4 Mount means one side has compromised base stability. Recognizing this lighter side and directing escape movements toward it significantly increases success rates compared to escaping symmetric mount positions.
-
-**Q2**: Your opponent has heavy chest pressure in 3-4 Mount. How do you create space for escape without exhausting yourself?
-**A**: Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space.
-
-**Q3**: What are the essential frames needed to prevent submissions while escaping 3-4 Mount?
-**A**: The primary defensive frames are: near-side elbow tight to your ribs creating a barrier against their hip pressure, far-side forearm across their bicep or shoulder preventing them from dropping chest weight, and chin tucked to chest protecting the neck from choke attempts. These frames must be maintained throughout the escape sequence—never extend arms fully as this creates armbar and Americana vulnerabilities.
-
-**Q4**: How do you identify which side is the lighter side in 3-4 Mount configuration?
-**A**: The lighter side is the side with the posted leg—this leg has its knee off your body and foot posted on the mat, creating fewer contact points and less direct pressure on that side of your torso. Feel for where the opponent's weight is concentrated: the mounted side with the knee on your body will feel heavier. Direct your hip escape movements toward the posted leg side where there is less resistance and the opponent has compromised base stability.
-
-**Q5**: Your opponent begins setting up an Americana from 3-4 Mount. What is your immediate defensive response?
-**A**: Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness.
-
-**Q6**: When is the optimal timing to attempt a bridge and roll escape from 3-4 Mount Bottom?
-**A**: The optimal timing is when the opponent reaches high for a collar grip, submission setup, or adjusts their position—these moments raise their center of gravity and compromise their base. Additionally, if they shift their weight strongly toward the mounted side, this creates vulnerability to a bridge toward the posted leg side. Never attempt bridge and roll when they are settled low with heavy chest pressure and stable base; wait for or create movement that disrupts their equilibrium first.
-
-**Q7**: How do you recover guard after successfully creating space from 3-4 Mount Bottom?
-**A**: After creating space through the bridge-and-shrimp sequence, immediately insert your near-side knee between your body and theirs as a knee shield, preventing them from reclosing the distance. Continue shrimping to create angle, then work to either recover closed guard by bringing your far leg around their body, establish half guard by trapping their leg with both of yours, or create open guard distance. Maintain frames throughout guard recovery to prevent them from immediately re-passing.
-
-**Q8**: What common error most frequently leads to failed escapes from 3-4 Mount Bottom?
-**A**: Escaping toward the heavier side where the opponent's mounted knee creates maximum pressure and base stability. This common error results from not recognizing the asymmetric configuration or panicking without assessing weight distribution. The correction is to always identify the posted leg side first, bridge toward the mounted side to disrupt their base, then immediately escape toward the lighter posted leg side where their base is compromised and escape success rates are significantly higher.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

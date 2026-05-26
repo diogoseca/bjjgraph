@@ -188,6 +188,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle to Back?</p>
+
 - Follow opponent's defensive rotation rather than forcing the triangle finish against committed defense
 - Maintain leg control throughout the transition using the triangle frame as a steering mechanism
 - Establish upper body control before releasing the triangle configuration to prevent escape windows
@@ -203,6 +205,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle to Back?</p>
+
 - Triangle control established with one leg across opponent's back and other leg locked behind the knee or ankle
 - Opponent demonstrating defensive posture by turning away, stacking forward, or attempting arm extraction
 - Strong control of opponent's trapped arm to prevent posting and base recovery
@@ -217,6 +221,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle to Back step by step?</p>
 
 1. **Recognize defensive commitment**: Identify when opponent begins turning away from triangle pressure or driving forward to stack. Their defensive rotation creates the opening for back exposure. Monitor their weight distribution and recognize the moment they commit to escaping rather than defending in place. The key trigger is directional commitment where they begin rotating their shoulders away from the choking leg.
 2. **Adjust triangle angle to perpendicular**: Rotate your hips further perpendicular to opponent's body, creating a steering wheel effect with your legs. The leg across their back becomes your primary control point for directing their rotation. Maintain tension in your leg frame while allowing controlled movement in the direction they are already moving. Your hips should be angled approximately 90 degrees to their spine at this point.
@@ -246,6 +252,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle to Back?</p>
+
 - **Opponent turns back into guard before first hook is established** (Effectiveness: High) - Your Response: If they turn back before you have the first hook, immediately re-lock the triangle and resume choking pressure. Their turn-in often resets the triangle at a tighter angle. Alternatively, if their arm is extended during the turn, switch to armbar from triangle. → Leads to [[Positions/Triangle Control]]
 - **Opponent sits to hip and frames to prevent roll to back mount** (Effectiveness: Medium) - Your Response: Use your top leg as a barrier across their hip to prevent them from sitting through. Drive your weight forward over their shoulder to flatten them. If they establish a strong frame, transition to technical mount first, then pursue back control from the mount position. → Leads to [[Positions/Triangle Control]]
 - **Opponent posts free hand to block rotation and maintain base** (Effectiveness: Medium) - Your Response: Kick their posted arm out from under them using your transitioning leg, collapsing their base. If the post is too strong to sweep, accept technical mount position with one hook and work to back control from there. The posted arm also opens kimura grip opportunities. → Leads to [[Positions/Back Control]]
@@ -258,6 +266,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle to Back?</p>
 
 ### 1. Releasing the triangle configuration before establishing upper body control
 
@@ -302,6 +312,8 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle to Back (Attacker)?</p>
+
 **Phase 1: Fundamental mechanics** - Understanding the basic movement pattern from triangle to back
 Begin with cooperative drilling where partner holds triangle defense posture and allows you to practice the rotation and grip changes. Focus on maintaining connection throughout the transition and establishing each control point sequentially. Drill 10-15 repetitions per side with zero resistance, emphasizing smooth weight transfer, proper sequencing of grip before leg, and chest-to-back contact timing.
 
@@ -325,48 +337,12 @@ Actively seek triangle positions during live training and look for back take opp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary visual cue that your opponent has created an opportunity for the triangle to back transition?
-**A**: When the opponent begins turning their shoulders away from the choking leg or driving forward in a stacking motion, they create rotational back exposure. The key is recognizing their commitment to a directional escape rather than maintaining a neutral defended position. This rotational commitment is the trigger because once they invest their weight and momentum in one direction, they cannot easily reverse course to prevent the back take.
-
-**Q2**: Why must you establish the overhook or collar grip before releasing the triangle configuration?
-**A**: The triangle provides your primary structural control during the transition. If you release it before establishing an upper body grip on their far shoulder, the opponent can freely turn back into you, sit to guard, or completely disengage. The overhook or collar grip replaces the triangle's anti-rotation function, ensuring continuous control throughout the transition. Without this grip, there is a gap in your control chain that experienced opponents will exploit immediately.
-
-**Q3**: Your opponent posts their free hand firmly on the mat and stops your rotation during the transition. How do you adjust?
-**A**: You have three primary options when the opponent posts successfully. First, use your transitioning leg to kick their posted arm out from underneath them, collapsing their base. Second, accept a technical mount position by placing your first hook and settling your weight rather than forcing the full rotation, then work to back control from technical mount. Third, if their arm is extended during the post, attack a kimura grip to either force them down or create a submission threat that opens the back take pathway.
-
-**Q4**: What is the most critical hip position during the leg swing phase of this transition?
-**A**: Your hips must be angled approximately 90 degrees perpendicular to the opponent's spine before initiating the leg swing over their hip. This perpendicular angle is critical because it creates the mechanical arc needed for your leg to clear their body cleanly and establishes the first hook on the far side. If your hips remain parallel to the opponent, the leg swing will be blocked by their torso, and you will end up in a scramble without established control points.
-
-**Q5**: Why should you never cross your ankles after completing the transition to back control?
-**A**: Crossing your ankles in back control creates an immediate vulnerability to a straight ankle lock. Your opponent can grab your top foot, extend their hips, and apply breaking pressure to your ankle joint, forcing you to either release back control to defend or risk ligament damage. Proper back control requires uncrossed ankles with active hooks pulling inward across the opponent's inner thighs, with feet positioned near their hips generating control through inward heel pressure rather than a crossed lock.
-
-**Q6**: Your opponent is defending the triangle effectively but staying square without turning. Should you attempt the back take?
-**A**: No. The back take requires rotational exposure that only occurs when the opponent turns away or commits directional weight. If they maintain a square, neutral defense without rotating, you should continue attacking the triangle choke by adjusting your angle, pulling their head down, and working to break their grip defense. Alternatively, attack the armbar by shifting to an arm attack when they posture, or threaten the omoplata when they drive forward. Only transition to the back take when their defensive movement creates genuine back exposure.
-
-**Q7**: What grip configuration should you prioritize first on the opponent's upper body during the initial phase of this transition?
-**A**: Prioritize a deep overhook on the opponent's far shoulder or a deep collar grip reaching behind their shoulder blade. This grip serves as the primary anti-turn-in control that prevents the opponent from rotating back to face you during the transition. The grip must be as deep as possible to maximize rotational control. It replaces the triangle's structural function of preventing the opponent from changing direction, bridging the control gap between triangle release and hook establishment.
-
-**Q8**: How does the triangle frame function as a steering mechanism during the transition?
-**A**: The triangle creates a closed loop structure around the opponent's head and shoulder that acts as a steering wheel for controlling their rotational movement. By positioning your hips perpendicular to their spine and maintaining tension in the triangle loop, you dictate the direction and speed of their rotation. When the opponent attempts to turn away from the choking pressure, the leg across their back guides their movement while preventing reversal. This steering effect converts chaotic defensive scrambling into controlled, predictable rotation that you can follow directly into back control.
-
-**Q9**: Your opponent begins to explosively stand while you are mid-transition with one hook in. What is your immediate response?
-**A**: Maintain your overhook grip and the established hook. Do not release all connection points simultaneously. Use your body weight hanging from the overhook to pull them off-balance or back to the ground. If they fully stand, transition to standing back control using your hook to off-balance them and look for a trip or drag them back to the mat. If you cannot maintain the position, use the hook to trip them and pull guard rather than falling into a position with no control. The worst outcome is releasing everything and falling to the mat disconnected.
-
-**Q10**: When during your opponent's triangle defense is the optimal moment to initiate the back take?
-**A**: The optimal moment is when the opponent commits their weight and momentum to a directional escape, specifically when they begin rotating their shoulders away from the choking leg or when they drive forward aggressively to stack. The commitment must be genuine, not exploratory. Wait for the moment their center of gravity shifts past the point of easy reversal. Initiating too early when they are only testing the direction allows them to change course, while initiating too late after they have already created significant distance means you have lost the connection needed for the transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle to Back?</p>
 
 The triangle to back transition involves dynamic rotational movement and rapid position changes that require careful progressive practice. Protect your own spine during the rotation by maintaining proper alignment and never allowing the opponent to stack your weight directly onto your neck or cervical spine. When practicing, begin with slow cooperative drilling to establish smooth movement patterns before adding any resistance. Partners must communicate clearly and stop immediately if either person feels compressed, twisted, or unstable in an unsafe way. Be particularly careful of your own ankles during the transition phase, as premature ankle crossing creates vulnerability to ankle lock attacks. The person being taken to back control should understand basic back escape principles to safely manage the position without panicking or making explosive defensive movements that could injure either partner. Control your descent throughout and never drop your full weight suddenly onto the training partner during the consolidation phase.
 

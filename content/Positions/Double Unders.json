@@ -98,7 +98,7 @@
       "Use head position strategically, either on chest for maximum pressure or on hip to prevent turning and prepare for side control transition",
       "Maintain active base with feet positioned to drive forward, preventing opponent from off-balancing or creating sweep opportunities"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while you have double unders established - what adjustment prevents you from being off-balanced?",
         "answer": "Widen your base immediately by stepping one foot out laterally while maintaining your grip behind their back. Drop your chest weight lower onto their thighs to ride out the bridge momentum. Keep your head positioned on the side opposite to their bridge direction to maintain balance. The bridge will exhaust them quickly, so maintain pressure and wait for them to return to the mat before advancing the pass."
@@ -299,10 +299,6 @@
         "attempt_probability": 33
       },
       {
-        "transition": "Stack Pass",
-        "attempt_probability": 14
-      },
-      {
         "transition": "Leg Weave Pass",
         "attempt_probability": 10
       },
@@ -328,7 +324,7 @@
       },
       {
         "transition": "Stack Pass from Double Unders",
-        "attempt_probability": 3
+        "attempt_probability": 17
       },
       {
         "transition": "Toss Pass from Double Unders",
@@ -381,7 +377,7 @@
       "Protect your spine from excessive compression - turn to side rather than accepting full stack",
       "Accept strategic transitions when necessary - moving to deep half or turtle may be better than being crushed flat"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent is driving heavy stacking pressure through double unders - what immediate frame should you establish to create space?",
         "answer": "Establish a cross-face frame by placing your forearm across their jawline or neck, using your elbow tight to your body as the anchor point. This frame creates a lever that generates space proportional to their forward pressure - the harder they drive, the more effective the frame becomes. Your other hand should control their bicep or shoulder to prevent them from walking around your frame. The frame must be skeletal rather than muscular, using bone alignment to redirect their pressure."

@@ -154,6 +154,8 @@ Defending the sit out from turtle top requires early recognition and immediate i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sit Out from Turtle?</p>
+
 - Opponent shifts weight noticeably onto one hand while the other arm lightens or lifts, indicating they are establishing a posting pivot
 - Far-side leg lifts or repositions underneath the body, preparing for the threading motion that initiates the hip rotation
 - Sudden increase in opponent's hip activity or directional change after a period of relative stillness, signaling escape attempt initiation
@@ -166,6 +168,8 @@ Defending the sit out from turtle top requires early recognition and immediate i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sit Out from Turtle?</p>
 
 - Maintain constant chest-to-back pressure to limit opponent's ability to create space for posting and hip rotation
 - Control opponent's hips with at least one hand to directly prevent the hip rotation that drives the sit out
@@ -180,6 +184,8 @@ Defending the sit out from turtle top requires early recognition and immediate i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sit Out from Turtle?</p>
 
 ### 1. Drive chest pressure forward and sprawl hips back to flatten opponent before rotation completes
 
@@ -217,6 +223,8 @@ Defending the sit out from turtle top requires early recognition and immediate i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sit Out from Turtle?</p>
+
 ### → [[Positions/Side Control]]
 
 When opponent attempts the sit out, drive forward aggressively to flatten their rotation. As their hips come to the mat during the failed rotation, immediately transition your weight laterally to establish crossface and underhook for side control. The sit out attempt actually exposes their hips, making the pass easier than from standard turtle.
@@ -232,6 +240,8 @@ Maintain constant chest pressure and hip control throughout the escape attempt. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sit Out from Turtle?</p>
 
 ### 1. Allowing excessive space between your chest and opponent's back, giving them room to post and initiate the rotation
 
@@ -261,6 +271,8 @@ Maintain constant chest pressure and hip control throughout the escape attempt. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sit Out from Turtle?</p>
+
 **Phase 1: Recognition Training** - Identifying sit out setups in real time
 Partner in turtle announces when they will attempt a sit out within a 10-second window. Top player practices recognizing the physical indicators without intervening. Build pattern recognition for weight shifts, hand posting, and leg repositioning before developing defensive responses.
 
@@ -277,26 +289,6 @@ After successfully defending the sit out, immediately transition to an offensive
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early indicators should you watch for that signal a sit out attempt from turtle bottom?
-**A**: The primary indicators are: opponent shifting weight distinctly onto one hand while the other lightens, far-side leg lifting or repositioning underneath the body, sudden increase in hip activity after stillness, and aggressive grip stripping on your controlling hands. The posting hand placement is the most reliable early indicator because the sit out cannot initiate without a stable pivot point. Recognizing these cues within the first fraction of a second allows defensive intervention before the rotation begins.
-
-**Q2**: Your opponent successfully initiates a sit out and is halfway through the rotation - what is your best response at this point?
-**A**: Once the rotation is past the halfway point, trying to stop it is usually counterproductive and creates scramble situations. Instead, follow the rotation by maintaining chest connection and circling with their movement to stay behind them. Keep your hips close to theirs and your harness control tight. If you can stay behind them as the rotation completes, you maintain the advantageous position. Alternatively, if chest connection is lost, immediately drive forward to flatten them before they can establish guard frames.
-
-**Q3**: How does your weight distribution on turtle top affect the sit out threat, and what is the optimal balance?
-**A**: Forward-heavy weight distribution on opponent's shoulders is the primary condition that enables the sit out, as it removes pressure from the hips where the rotation originates. Too far back with weight on their hips prevents the sit out but makes you vulnerable to granby rolls and forward rolling escapes. The optimal balance places approximately 60% of pressure through your chest onto their upper back while maintaining connected hip pressure through your hips being low and tight to their body. This centered distribution prevents both forward escapes and rolling escapes simultaneously.
-
-**Q4**: What is the most effective proactive strategy to eliminate the sit out as a viable escape option entirely?
-**A**: Establishing full back control with at least one hook inserted and seatbelt grip secured mechanically prevents the sit out because the hook blocks the leg threading motion and the seatbelt prevents the posting hand from establishing freely. Without both the post and the thread, the sit out is impossible. Therefore, prioritizing rapid hook insertion and harness establishment from turtle top eliminates the sit out along with most other turtle escapes, transitioning the engagement from a defensive battle to an offensive back attack sequence.
-
-
-
-</section>
 
 
 </main>

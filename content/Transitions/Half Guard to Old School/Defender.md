@@ -162,6 +162,8 @@ Defending against the Transition to Old School requires the top player to recogn
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Old School?</p>
+
 - Bottom player hooks your ankle with their bottom foot and begins triangling their legs around your trapped leg in figure-four configuration
 - Bottom player pumps or extends their legs rhythmically, pulling your hips forward and disrupting your base repeatedly
 - Bottom player turns aggressively to their side and attempts to thread their near arm under your armpit for the underhook
@@ -174,6 +176,8 @@ Defending against the Transition to Old School requires the top player to recogn
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Old School?</p>
 
 - Recognize the lockdown entry immediately and begin defensive measures before upper body controls are established
 - Establish crossface pressure and whizzer control as the primary defensive structure against the underhook
@@ -188,6 +192,8 @@ Defending against the Transition to Old School requires the top player to recogn
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Old School?</p>
 
 ### 1. Establish immediate crossface and whizzer upon feeling lockdown
 
@@ -225,6 +231,8 @@ Defending against the Transition to Old School requires the top player to recogn
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Old School?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive heavy crossface into the bottom player's jaw while maintaining low hip pressure and wide base posting. The crossface turns their head away and flattens their torso to the mat, eliminating the side angle required for underhook establishment. Once flat, progress your half guard pass through knee slice or smash pass before they can re-establish lockdown and side angle.
@@ -240,6 +248,8 @@ Break the lockdown by systematically working your trapped ankle free through hip
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Old School?</p>
 
 ### 1. Ignoring the lockdown and focusing only on passing without addressing the leg entanglement
 
@@ -269,6 +279,8 @@ Break the lockdown by systematically working your trapped ankle free through hip
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Old School?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying lockdown entry and deploying immediate defensive structure
 Partner establishes lockdown from half guard bottom at varying speeds. Top player practices recognizing the entry and deploying whizzer, crossface, and wide base within 2-3 seconds. Start with slow, telegraphed entries and progress to quick, disguised lockdown setups. 20 repetitions per side, focusing on reaction speed.
 
@@ -285,29 +297,6 @@ Start in standard half guard with both players at full resistance. Bottom player
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Transition to Old School is being initiated?
-**A**: The earliest cue is feeling the bottom player's foot hook behind your trapped ankle and their legs beginning to triangle into the figure-four lockdown configuration. This is the foundational control of the entire Old School system, and recognizing it immediately gives you the maximum defensive window. Before they can pump, thread an underhook, or establish head control, you should already be deploying your whizzer, crossface, and wide base posting.
-
-**Q2**: Why is it counterproductive to explosively pull your trapped leg out of the lockdown?
-**A**: The lockdown is mechanically designed to exploit exactly this reaction. When you explosively extend or pull your leg, you create the hip extension and forward weight shift that the bottom player needs to execute the Old School Sweep or Electric Chair transition. The explosive motion also momentarily compromises your base and upper body control, creating windows for the underhook. Instead, free the leg through gradual ankle manipulation and hip pressure changes while maintaining upper body defensive structure.
-
-**Q3**: What defensive structure should you establish immediately upon recognizing the lockdown?
-**A**: Deploy three simultaneous defensive measures: 1) Thread a deep whizzer under the bottom player's near-side arm to prevent underhook establishment, 2) Drive heavy crossface pressure with your opposite shoulder into their jaw to turn their head and prevent them from turning to their side, 3) Post your free leg wide with knee angled out for maximum base stability against pump-induced weight shifts. This three-point defense must be established within 2-3 seconds of lockdown recognition.
-
-**Q4**: How should you counter the bottom player's lockdown pumps without feeding into their sweep timing?
-**A**: Absorb the pump energy through your wide-posted free leg rather than resisting with your trapped leg. Keep your hips low and heavy, letting the pump pass through your base without disrupting your upper body positioning. Do not react with explosive counter-movements as these create the rhythm the bottom player is trying to establish. Maintain steady, consistent downward pressure through your chest and crossface, and use the moments between pumps to incrementally work on ankle extraction.
-
-**Q5**: Your opponent has established lockdown and underhook but not yet secured head control - what is your best defensive option?
-**A**: This is your last high-percentage window. Drive your crossface pressure dramatically harder to turn their head away and prevent them from reaching for head control with their far arm. Simultaneously deepen your whizzer to limit the underhook's range of motion and prevent them from positioning their shoulder under your center of gravity. If you can flatten them back to the mat before head control is secured, the Old School position is incomplete and their sweep leverage is significantly reduced. Consider transitioning to Kimura attack on their underhooking arm if they overcommit to the position.
-
-
-
-</section>
 
 
 </main>

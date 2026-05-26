@@ -95,7 +95,7 @@
       "relationship": "Opponent's primary defensive response that the transition must account for"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "relationship": "Alternative truck submission that creates the dilemma enabling this back take transition"
     },
     {
@@ -164,7 +164,7 @@
       },
       {
         "step_number": 8,
-        "action": "Establish Weight Distribution for Back Control",
+        "action": "Establish Center of Gravity for Back Control",
         "description": "Settle your weight through your hips and chest into the opponent's back, establishing the cooking pressure that characterizes dominant back control. Angle slightly toward the choking arm side to pre-position for rear naked choke entries. Your weight should pin the opponent's shoulders slightly forward, preventing them from getting their back flat to the mat which would facilitate escape attempts."
       }
     ],
@@ -253,7 +253,7 @@
         "description": "Flow rolling emphasizing smooth transitions between truck attacks, back take attempts, and back control submissions. Develop the ability to chain calf slicer threat to back take to rear naked choke as a single fluid offensive sequence. Partner alternates between defending truck and defending back take to force adaptation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing to initiate the truck to back control transition?",
         "answer": "The optimal timing is when the opponent is actively defending a truck-specific submission such as the calf slicer or twister. Their defensive attention is focused on the immediate submission threat, reducing their awareness of positional changes and their readiness to counter the back take. Initiating during a defensive reaction creates the best window because the opponent's hands and hips are committed to submission defense rather than escape positioning."
@@ -279,7 +279,7 @@
         "answer": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle toward a position directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery."
       },
       {
-        "question": "Your opponent frames against your chest as you begin the alignment shift—how do you adjust?",
+        "question": "Your opponent frames against your chest as you begin the alignment shift - how do you adjust?",
         "answer": "When the opponent frames against your chest during the alignment shift, increase your forward pressure and drive your weight into the frames to collapse them. If the frames are strong enough to stall your transition, abandon the back take attempt temporarily and re-establish full truck control with boot pressure. Threaten a calf slicer or twister to force the opponent to remove their frames for submission defense, then reattempt the transition during their defensive reaction."
       },
       {
@@ -378,7 +378,7 @@
         "correction": "Address upper body control through hand fighting on the seatbelt grip while using hip escape for the primary escape direction. Bridges without grip management are ineffective against competent seatbelt control."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that your opponent is initiating the transition from truck to back control?",
         "answer": "The primary indicators are a reduction or change in boot pressure on your hip, the opponent's chest sliding from a perpendicular angle toward directly behind your back, their leg entanglement beginning to loosen, and their arm control tightening into a more defined seatbelt configuration. These cues typically appear in sequence as the opponent shifts their alignment from truck to back control positioning."
@@ -388,7 +388,7 @@
         "answer": "The critical window is the brief moment when the opponent has released their truck leg entanglement but has not yet established both back control hooks. During this phase, the opponent's lower body control is at its weakest point in the entire sequence, as they have neither the truck boot pressure nor the back control hooks providing hip restraint. This window typically lasts only one to two seconds, making immediate action essential."
       },
       {
-        "question": "Your opponent releases boot pressure and begins threading a hook inside your thigh—what is your immediate response?",
+        "question": "Your opponent releases boot pressure and begins threading a hook inside your thigh - what is your immediate response?",
         "answer": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble."
       },
       {

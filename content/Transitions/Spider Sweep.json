@@ -89,11 +89,11 @@
       "relationship": "Complementary sweep from lasso guard that chains with spider sweep threats"
     },
     {
-      "name": "Omoplata from Spider Guard",
+      "name": "Spider Guard to Omoplata",
       "relationship": "Complementary submission creating sweep-or-submit dilemma from same grips"
     },
     {
-      "name": "Triangle from Spider Guard Bottom",
+      "name": "Triangle from Spider Guard",
       "relationship": "Complementary submission attack that chains with spider sweep when opponent defends"
     },
     {
@@ -243,7 +243,7 @@
         "description": "Positional sparring starting in Spider Guard with full resistance from both players. Top player attempts to pass, bottom player attempts to sweep or submit. Three-minute rounds with resets when position changes. Focus on reading opportunities and selecting between sweep and submission based on live reactions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent posts their hand on the mat as you initiate the Spider Sweep - how do you adjust your attack?",
         "answer": "When the opponent posts, they have removed one arm from their defensive structure to prevent the sweep. Immediately transition to a triangle entry by pulling the posting arm across your centerline with your grip while throwing your far leg over their shoulder on the non-posting side. Their commitment to base defense has isolated their arm and created the exact opening needed for submission entry. Alternatively, pivot your hips for an omoplata on the posting side."
@@ -361,7 +361,7 @@
         "correction": "Post early and firmly the moment you feel weight loading to one side, or commit to a grip break instead. A half-committed late post is worse than either a strong early post or a clean grip break"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "You feel your weight being loaded to one side as the bottom player initiates the Spider Sweep - what immediate action prevents the sweep completion?",
         "answer": "Post your same-side hand firmly on the mat toward the sweep direction to create a structural block against the rotation. Simultaneously widen your base by stepping your far foot outward to redistribute your weight. This combination of posting and base widening removes the weight imbalance that the sweep needs to complete. However, be aware that posting exposes your arm to triangle and omoplata transitions, so you must follow the post with an immediate grip break and base reset."

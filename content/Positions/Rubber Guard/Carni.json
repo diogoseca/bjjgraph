@@ -114,7 +114,7 @@
           },
           {
             "technique": "Rolling Kimura Escape",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 40
           }
         ]
@@ -305,7 +305,7 @@
         "attempt_probability": 3
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first priority when you find yourself caught in Carni position?",
         "answer": "The first priority is protecting your heel by controlling your ankle position and keeping your toes pointed away from the attacker. This prevents the immediate heel hook finish while giving you time to work on extraction. If you focus on leg extraction before securing your ankle, you risk catastrophic knee injury during your escape attempt."
@@ -591,7 +591,7 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Carni",
         "attempt_probability": 12
       },
       {
@@ -607,7 +607,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Calf Slicer",
+        "transition": "Calf Slicer from Carni",
         "attempt_probability": 11
       },
       {
@@ -627,7 +627,7 @@
         "attempt_probability": 5
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution for maintaining Carni control?",
         "answer": "Weight should be distributed through your leg entanglement and hip connection rather than your upper body. Your legs create the primary control by trapping the opponent's leg in a figure-four configuration while your hips stay angled to their hip line. Keep your upper body relaxed and mobile so you can react to their defensive movements. The tension comes from your leg triangle, not from gripping or squeezing with arms."

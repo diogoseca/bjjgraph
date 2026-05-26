@@ -166,6 +166,8 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap Transition?</p>
+
 - Attacker shifts to single-hand wrist or forearm control on one of your arms while their opposite hand begins reaching toward your armpit area
 - Attacker's weight shifts laterally toward one side as they position to thread their arm under your armpit, creating a noticeable pressure change on your chest
 - You feel your arm being pulled or guided across your own body toward the opposite shoulder, accompanied by the attacker driving their forearm under your armpit from outside
@@ -177,6 +179,8 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap Transition?</p>
 
 - Keep elbows pinned tight to your ribs at all times - arm isolation is the prerequisite for every Gift Wrap entry
 - Recognize the arm targeting phase early and retract the targeted arm before the attacker secures wrist control
@@ -191,6 +195,8 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap Transition?</p>
 
 ### 1. Retract arm and pin elbow tight to ribs the moment you feel wrist control being established, while simultaneously turning your shoulder toward the attacker to close the armpit space
 
@@ -228,6 +234,8 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap Transition?</p>
+
 ### → [[Positions/Mount/High Mount]]
 
 Prevent the arm isolation by keeping elbows pinned to ribs and fighting wrist control early. If you can deny the initial grip and armpit threading, the attacker remains in High Mount without the Gift Wrap advantage, giving you a chance to work standard mount escapes.
@@ -243,6 +251,8 @@ Time an explosive bridge and hip escape to coincide with the attacker's weight s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap Transition?</p>
 
 ### 1. Extending arm away from body to push on attacker's chest or hips while in High Mount
 
@@ -277,6 +287,8 @@ Time an explosive bridge and hip escape to coincide with the attacker's weight s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap Transition?</p>
+
 **Week 1-2** - Recognition and defensive posture
 Partner establishes High Mount and slowly initiates Gift Wrap setups at 25% speed. Defender practices identifying the wrist grab and threading cues, then immediately retracting the targeted arm and closing armpit space. Focus on building automatic recognition responses without any escape attempts.
 
@@ -293,29 +305,6 @@ Start from High Mount bottom with partner actively pursuing Gift Wrap. Full resi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Gift Wrap attempt is beginning?
-**A**: The earliest cue is feeling the attacker establish single-hand wrist or forearm control on one of your arms while their opposite hand begins reaching toward your armpit. This two-hand coordination, where one hand pins and the other prepares to thread, is the signature setup motion. Recognizing this before the threading begins gives you the maximum defensive window to retract your arm and close your armpit space.
-
-**Q2**: Why is the attacker's threading phase the best moment to attempt a bridge escape?
-**A**: During the threading phase, the attacker must reach one arm under your armpit while the other hand manages your wrist. This commits both hands to the wrap setup, leaving neither hand available to post against a bridge. Additionally, the threading requires the attacker to shift weight laterally, compromising their mount base. This combination of committed hands and shifted weight creates the largest instability window in the entire Gift Wrap sequence.
-
-**Q3**: Your arm is being pulled across your chest but the grip transfer is not yet complete - what do you do?
-**A**: Attack the incomplete grip transfer with two-on-one hand fighting. Both your hands should target the attacker's grip on your wrist, stripping it before the threading arm can secure the transfer. Simultaneously, rotate your trapped shoulder forward and toward the mat to reduce the angle the attacker needs to complete the wrap. This must be done explosively because the grip transfer window is brief - once the threading hand secures your wrist, the mechanical advantage shifts decisively to the attacker.
-
-**Q4**: How should you position your arms to minimize Gift Wrap vulnerability from High Mount bottom?
-**A**: Keep both elbows pinned tight to your ribs with forearms vertical and hands positioned near your chin and collarbones. This creates a defensive shell where no arm is isolated from your centerline. The key is preventing any gap between your elbow and your ribs, as this gap is what the attacker exploits to begin the threading. When you must use frames, keep them short and bent rather than extended, and immediately retract after each defensive action.
-
-**Q5**: The attacker feints a choke to bait your arms open - how should you respond without exposing yourself to the Gift Wrap?
-**A**: Defend the choke with minimal arm extension. Tuck your chin hard and use your hands close to your neck rather than pushing away on their arms. If you must push, use one short frame while keeping the other arm completely retracted against your ribs. The attacker wants you to extend both arms in a panic response to the choke threat because that creates the arm isolation needed for the Gift Wrap. Disciplined, compact defense forces them to actually commit to the choke rather than using it as bait.
-
-
-
-</section>
 
 
 </main>

@@ -32,7 +32,7 @@ description: "Complete attacker guide for stripping the overhook from diamond gu
     },
     {
       "@type": "HowToStep",
-      "name": "Manage Head Control Influence",
+      "name": "Manage Head Position Influence",
       "text": "If the head control grip is actively pulling your head down and reinforcing the overhook, begin circling your head toward the side opposite the overhook. Drive your forehead toward the mat beside their shoulder, using angular movement to reduce the head control's effectiveness without requiring a full grip break. The goal is not complete head freedom but sufficient postural recovery to generate the hip drive needed for the overhook strip.",
       "position": 3
     },
@@ -188,6 +188,8 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook Strip from Diamond Guard?</p>
+
 - Control the overhooking arm's wrist with your free hand before initiating any extraction — uncontrolled stripping allows the guard player to adjust grip depth and convert to submissions
 - Use circular elbow rotation rather than linear pulling to attack the overhook at its weakest structural point, where the grip has minimal resistance to rotational force
 - Maintain constant forward hip pressure throughout the strip to prevent hip bump sweeps that exploit the weight shifts inherent in grip fighting
@@ -202,6 +204,8 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook Strip from Diamond Guard?</p>
+
 - Free hand available and not trapped in secondary grips, capable of reaching across to control the overhooking arm's wrist or forearm
 - Minimum partial base established with both knees on the mat and hips driving forward into the guard player's hips
 - Clear identification of the overhook depth and configuration — hand on lat versus tricep determines which variant to use
@@ -215,9 +219,11 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Overhook Strip from Diamond Guard step by step?</p>
+
 1. **Assess Diamond Frame Configuration**: Before initiating the strip, evaluate the depth of the overhook by feeling where the opponent's hand grips. Hand behind your shoulder blade indicates a deep overhook requiring a two-on-one approach. Hand around your tricep indicates a moderate overhook vulnerable to standard circular extraction. Simultaneously note the head control grip to determine whether it must be addressed first or can be managed concurrently.
 2. **Establish Forward Hip Pressure and Base**: Widen your knees to at least shoulder-width and drive your hips firmly into the guard player's hips. This forward pressure accomplishes two critical objectives: it provides the postural foundation for the extraction and it eliminates the backward weight shift the guard player needs for hip bump sweeps. Tuck your chin to your chest and bring your elbows tight to your ribs as a defensive starting posture.
-3. **Manage Head Control Influence**: If the head control grip is actively pulling your head down and reinforcing the overhook, begin circling your head toward the side opposite the overhook. Drive your forehead toward the mat beside their shoulder, using angular movement to reduce the head control's effectiveness without requiring a full grip break. The goal is not complete head freedom but sufficient postural recovery to generate the hip drive needed for the overhook strip.
+3. **Manage Head Position Influence**: If the head control grip is actively pulling your head down and reinforcing the overhook, begin circling your head toward the side opposite the overhook. Drive your forehead toward the mat beside their shoulder, using angular movement to reduce the head control's effectiveness without requiring a full grip break. The goal is not complete head freedom but sufficient postural recovery to generate the hip drive needed for the overhook strip.
 4. **Secure Wrist Control on Overhooking Arm**: With your free hand, reach across and grip the opponent's overhooking wrist or forearm. In gi, grip the sleeve at the wrist seam. In no-gi, use a C-grip cupping the wrist. This control prevents the guard player from deepening the overhook during your extraction attempt and provides the reference point needed to guide the circular peeling motion. Do not begin the extraction until wrist control is firmly established.
 5. **Execute Circular Elbow Extraction**: With wrist controlled and hip pressure maintained, begin rotating your trapped elbow outward in a circular arc. The elbow traces a path away from your body and downward, slipping through the gap between the overhook and your torso. Simultaneously push the opponent's overhooking wrist toward the mat with your control hand. The combination of rotational extraction and wrist pressure attacks the overhook from two angles, peeling it off incrementally rather than fighting its full holding strength.
 6. **Shoulder Defense During Extraction Window**: As your elbow begins clearing the overhook, press your shoulder on the extraction side tightly into the opponent's chest. This eliminates the space the guard player needs to shoot their leg over your clearing arm for a triangle entry. Keep your chin tucked and your head low on the opposite side. The extraction window — the two to three seconds where your arm is partially free but not yet repositioned — is the highest-risk moment for triangle counter-attacks.
@@ -243,6 +249,8 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook Strip from Diamond Guard?</p>
+
 - **Guard player re-sinks overhook depth by pulling elbow tight to hip and re-gripping deeper on the lat during the early stripping phase** (Effectiveness: High) - Your Response: If re-sinking occurs before you have wrist control, establish wrist control first before re-attempting. If it occurs during the circular extraction, increase hip drive forward to create maximum separation and re-attempt the rotation with increased postural leverage. Each re-establishment attempt is an energy expenditure for the guard player that progressively weakens their grip endurance. → Leads to [[Positions/Closed Guard/Diamond Guard]]
 - **Guard player opens guard and shoots overhook-side leg over the clearing arm to enter triangle during the extraction window** (Effectiveness: High) - Your Response: Press your clearing-side shoulder tight to their chest immediately when you feel the leg rising. Tuck your elbow to your ribs and drive your head to the opposite side. If the leg gets across your neck, stack forward immediately using the postural base you established in the setup phase. Prevention through shoulder positioning is far more reliable than escaping once the triangle is locked. → Leads to [[Positions/Triangle Control]]
 - **Guard player converts the overhook to a kimura grip by catching your wrist during the circular elbow extraction** (Effectiveness: Medium) - Your Response: If they catch a kimura grip, immediately straighten your trapped arm and drive it toward the mat while keeping your elbow pinned to your ribs. Do not allow them to create separation between your arm and torso. Circle your elbow in the opposite direction to strip the figure-four grip and return to the overhook stripping sequence. → Leads to [[Positions/Closed Guard/Diamond Guard]]
@@ -254,6 +262,8 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook Strip from Diamond Guard?</p>
 
 ### 1. Pulling the trapped arm straight backward against the overhook's strongest axis rather than using circular rotation
 
@@ -293,6 +303,8 @@ As the top player executing the Overhook Strip from Diamond Guard, your objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook Strip from Diamond Guard (Attacker)?</p>
+
 **Phase 1: Extraction Mechanics Isolation** - Circular elbow rotation and wrist control
 Practice the circular elbow extraction against a partner holding an overhook at varying depths with no resistance. Focus on finding the correct rotation angle and coordinating wrist control pressure with the circular motion. 20 repetitions per side, emphasizing smooth mechanics and maintaining shoulder contact with partner's chest throughout.
 
@@ -313,42 +325,12 @@ Start from diamond guard with full resistance. Top player wins by stripping over
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the circular elbow extraction against the diamond guard overhook?
-**A**: The best timing occurs when the guard player transitions between attacks or adjusts their grip depth. During these moments, overhook tension decreases as the guard player redirects energy. You can also create timing by threatening posture recovery with hip drive, which forces the guard player to tighten their pull — the predictable tightening direction provides the axis to circulate against. Attempting the extraction when the overhook is under maximum static tension requires significantly more force and carries higher failure probability.
-
-**Q2**: Why does the overhook strip focus on removing the overhook rather than head control first, and when should this order be reversed?
-**A**: The overhook is prioritized because it provides the guard player's direct submission pathways — triangles and omoplatas require arm isolation that the overhook facilitates. Removing head control first leaves the overhook active, which still enables these high-percentage attacks. However, when head control is so dominant that it prevents any postural recovery needed for the circular extraction, the head circle escape must come first. The decision depends on which control is currently more limiting to your movement and postural ability at that specific moment.
-
-**Q3**: Your opponent tightens their overhook as you begin the circular extraction — how do you adjust your approach?
-**A**: Increase forward hip drive to create maximum separation between your shoulder and their chest, stretching their arm toward full extension. A tightened overhook becomes mechanically weaker when stretched because the guard player loses the elbow-to-hip anchor that provides their maximum leverage. If hip drive alone is insufficient, switch to the two-on-one wrist peel variant, using both hands on the overhooking arm to generate enough leverage against the deeply locked grip. The tightening is an energy investment by the guard player that creates fatigue over time.
-
-**Q4**: What specific shoulder positioning prevents triangle entry during the arm extraction window?
-**A**: Press the shoulder on the extraction side tightly against the opponent's chest, eliminating the gap between your shoulder and their torso that the guard player's leg needs to pass over your arm. Your chin should be tucked and your head positioned low on the opposite side from the extraction. This shoulder-to-chest contact creates a physical barrier that prevents the leg from clearing over your arm. If you feel the leg beginning to rise, increase the shoulder pressure rather than pulling away, as pulling creates more space for the triangle.
-
-**Q5**: What grip configuration on the overhooking wrist provides the most effective control for the circular extraction?
-**A**: In gi, grip the sleeve at the wrist seam with four fingers inside the cuff and thumb outside, creating a fixed point that allows precise directional pressure. In no-gi, use a C-grip cupping the wrist with the thumb on the inside and fingers wrapping around the outside of the forearm. The wrist grip must be firm enough to prevent the guard player from re-sinking but not so rigid that it restricts your own rotational motion. The grip serves as a guide rail for the peeling motion rather than a pure pulling anchor.
-
-**Q6**: You feel the guard player's hips rising during the stripping sequence — what is happening and what is your immediate response?
-**A**: The guard player is loading a hip bump sweep, which requires hip elevation and forward momentum to reverse you. Immediately abandon the extraction attempt and drive both hands to their hip bones, flattening their hips to the mat with downward pressure. Simultaneously drive your own hips forward and heavy to pin their lower body. Do not resume the overhook strip until their hips are flat, their sweep momentum is killed, and your forward pressure is re-established. The hip bump requires a specific weight shift that you must deny before it develops.
-
-**Q7**: After clearing the overhook, the guard player immediately reaches to re-establish the grip — how do you prevent re-sinking?
-**A**: The instant your arm clears, drive your now-free hand across to pin their overhooking arm to the mat or against their own chest. Simultaneously establish your other hand on their hip and straighten your spine to full posture. The pin must happen in the same motion as the clear — any gap allows re-establishment. Once posture is established with both hands controlling their body, the guard player cannot re-sink an overhook without breaking your posture first, which requires effort and creates its own opening for you to begin guard opening sequences.
-
-**Q8**: How does the circular extraction direction change based on which arm is overhook-trapped?
-**A**: The circular rotation always moves the trapped elbow outward — away from your centerline and then downward toward the mat. If your right arm is overhook-trapped, the elbow circles to the right and down. If your left arm is trapped, it circles left and down. The direction is dictated by the anatomy of the overhook: the grip wraps over the top of your arm, so the extraction path must go under and out, tracing through the weakest point of the grip structure. The free hand controls the opponent's wrist on the same side, pushing downward to complement the elbow's outward rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook Strip from Diamond Guard?</p>
 
 The overhook strip involves significant loading on both practitioners' shoulders during the extraction phase. The circular rotation applies torque to the overhooking arm's shoulder joint, and explosive stripping motions can cause rotator cuff strain or shoulder impingement in the guard player. Always use progressive controlled force during the extraction rather than sudden jerking. The head circle component also loads the cervical spine when head control is deep — avoid explosive head movements against loaded grips. Communicate with your training partner about grip depth and resistance levels, and release any grip immediately if either practitioner reports pain in the shoulder or neck during drilling.
 

@@ -179,6 +179,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ## Position Definition
 
+<p class="section-subtitle">What is New York (Bottom)?</p>
+
 - Bottom player's overhook arm must maintain deep control around opponent's tricep, with the bottom player's shoulder tight against opponent's armpit to prevent arm extraction
 - Bottom player's leg (typically right) must be wrapped high around opponent's back with the shin positioned across the shoulder blades, maintained by same-side hand (right hand) gripping the shin near the ankle
 - Opponent's posture must remain broken forward with head and shoulders pulled down toward the bottom player's chest, preventing upright base and eliminating effective pressure passing angles
@@ -189,6 +191,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing New York (Bottom)?</p>
 
 - Hip flexibility sufficient to bring shin to shoulder while maintaining comfort and control
 - Closed guard must be established with opponent's posture broken before attempting New York
@@ -201,6 +205,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York?</p>
 
 - Overhook depth determines control quality - shallow overhooks allow opponent to extract arm and escape
 - Active shin grip prevents opponent from peeling leg away and restoring posture
@@ -216,6 +222,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from New York (Bottom)?</p>
 
 **If opponent maintains low posture and tries to slowly extract overhook arm:**
 - Execute **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
@@ -234,7 +242,7 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 **If opponent successfully restores partial posture but arm remains trapped:**
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 
@@ -244,6 +252,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York?</p>
 
 ### 1. Gripping too low on own shin (near knee instead of ankle)
 
@@ -288,6 +298,8 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train New York defense?</p>
+
 ### Static New York Hold
 
 Partner maintains strong posture and base while you establish and hold New York Bottom for timed intervals. Start with 30 seconds, progress to 2 minutes. Focus on maintaining all key connection points (overhook depth, shin position, grip on shin) without allowing any degradation in position quality.
@@ -320,38 +332,6 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts widening their base and circling away from your overhook - what adjustment do you make?
-**A**: Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep.
-
-**Q2**: What are the essential grip configurations for maintaining strong New York control?
-**A**: The overhook arm must wrap deep around the opponent's tricep with your shoulder tight against their armpit - not just controlling the elbow. Your shin-gripping hand should hold near the ankle with a full wrap grip, positioned between ankle and lower calf. The combination of deep overhook and high ankle grip creates maximum leverage. Your free hand (non-overhook side) should be ready to assist with transitions or defend their grip fighting attempts.
-
-**Q3**: How do you distribute your weight and hip position to maintain New York against a strong posture recovery attempt?
-**A**: Keep your hips angled slightly toward the overhook side rather than flat on your back. This angle loads their weight onto the compromised trapped arm side. Your core must remain engaged continuously to maintain hip elevation - the moment you relax, they can drive forward. Pull with your shin grip to maintain constant downward pressure on their shoulders. Small circular hip adjustments prevent them from establishing a stable platform for posture recovery.
-
-**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
-**A**: The primary escape is overhook extraction by pulling their elbow back toward their hip. Shut this down by maintaining shoulder-to-armpit pressure and deepening your overhook whenever you feel them pulling. If they begin successful extraction, immediately transition to triangle control by shooting your leg over their shoulder as their arm comes free. Their extraction attempt actually creates the opening for the triangle because their arm is positioned inside your guard as it extracts.
-
-**Q5**: Your opponent drives forward aggressively trying to flatten you - how do you use this against them?
-**A**: Accept their forward drive and use it to advance to Chill Dog or Invisible Collar. As they drive in, swim your free hand to the back of their head for Invisible Collar, or thread your leg deeper to begin Chill Dog setup for gogoplata. Their forward pressure actually assists these transitions because it brings their head closer and compresses the space you need to control. The key is recognizing their drive as an opportunity rather than a threat.
-
-**Q6**: How do you apply offensive pressure from New York to force reactions you can exploit?
-**A**: Use your shin across their back as a lever by pulling with your grip and engaging your hip flexors. This constant pulling pressure forces them to resist continuously, depleting their energy faster than yours. Simultaneously use your overhook to control their posting arm's angle, preventing them from establishing any stable position. Cycle through minor attack feints every 5-10 seconds to keep them reacting rather than implementing their escape plan. Their defensive reactions reveal which attack pathway will be highest percentage.
-
-**Q7**: You feel your hip flexibility failing and can't maintain shin-to-shoulder connection - what's your recovery protocol?
-**A**: Immediately transition to your strongest available attack before control degrades completely. If you can threaten triangle or armbar, do so now while you still have overhook control. If that's not available, pull them into tighter closed guard while maintaining the overhook - this gives you recovery time while keeping offensive options. Never simply release and return to neutral closed guard if you can avoid it, as this wastes the positional advantage you created. Use the time in closed guard to rest your hips before re-attempting New York.
-
-**Q8**: How do you manage energy expenditure during extended New York control while maintaining offensive threat?
-**A**: New York control is structurally efficient - the opponent expends more energy defending than you do attacking. Use your skeletal structure rather than muscular effort by keeping your overhook locked at the joint rather than squeezing constantly. Your shin grip should use finger strength positioned for leverage rather than pure grip strength. Cycle through attack threats every 5-10 seconds to keep them reactive, but commit fully only when you feel genuine openings. This prevents the energy waste of uncommitted attacks while maintaining constant pressure.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

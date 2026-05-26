@@ -32,7 +32,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - The harness grip creates a structural control system where defensive efforts can feed back into tighter control rather than weakening it
@@ -177,7 +177,7 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (40% of attempts)
+- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (40% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (13% of attempts)
 
@@ -185,9 +185,9 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (4% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (10% of attempts)
+- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (10% of attempts)
 
-- **[[Transitions/Short Choke/Attacker|Short Choke]]** (5% of attempts)
+- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (5% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (3% of attempts)
 
@@ -201,7 +201,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (1% of attempts)
 
-- **[[Transitions/RNC from Harness/Attacker|RNC from Harness]]** (1% of attempts)
+- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -258,7 +258,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Alternative classification name for same position
 
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from top harness control
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat from top harness control
 
 - **[[Positions/Armbar Control]]** - Submission control accessible when opponent defends choke
 

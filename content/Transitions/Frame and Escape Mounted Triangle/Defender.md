@@ -154,6 +154,8 @@ Defending against the frame and escape from mounted triangle requires the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Escape Mounted Triangle?</p>
+
 - Bottom player's free arm moves purposefully to your hip or thigh in a framing motion with forearm contact rather than random pushing or flailing
 - Bottom player aggressively tucks chin and turns head toward their trapped arm side, indicating preparation for systematic escape rather than panic
 - Bottom player's hips begin deliberate lateral shrimping movement toward their trapped arm side rather than explosive upward bridging
@@ -165,6 +167,8 @@ Defending against the frame and escape from mounted triangle requires the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Escape Mounted Triangle?</p>
 
 - Recognize framing attempts immediately by feel and counter before structural frames solidify against your hip
 - Maintain constant triangle pressure through active leg squeeze and perpendicular angle adjustment on the neck
@@ -179,6 +183,8 @@ Defending against the frame and escape from mounted triangle requires the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Escape Mounted Triangle?</p>
 
 ### 1. Tighten triangle angle and increase active leg squeeze while pulling opponent's head with free hand
 
@@ -216,6 +222,8 @@ Defending against the frame and escape from mounted triangle requires the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Escape Mounted Triangle?</p>
+
 ### → [[Positions/Mount/Mounted Triangle]]
 
 React immediately to framing attempts by tightening triangle squeeze, pulling opponent's head down with your free hand, and driving weight low through hips to pin their lateral movement. Maintain constant angle adjustment to nullify frame effectiveness and keep submission pressure active.
@@ -231,6 +239,8 @@ When the opponent extends their framing arm during escape, control their wrist i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Escape Mounted Triangle?</p>
 
 ### 1. Ignoring initial framing attempts and focusing exclusively on finishing the triangle choke
 
@@ -260,6 +270,8 @@ When the opponent extends their framing arm during escape, control their wrist i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Escape Mounted Triangle?</p>
+
 **Phase 1: Recognition Training** - Identifying escape patterns by feel
 Partner performs the frame and escape sequence at slow speed while you identify each recognition cue verbally—frame placement, chin tuck, hip escape direction. Builds tactile pattern recognition so you can feel escape initiation before seeing it visually.
 
@@ -276,26 +288,6 @@ Positional sparring from mounted triangle with full resistance. Top player works
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is beginning the systematic frame and escape sequence rather than random defensive movement?
-**A**: The earliest cues are the free arm moving purposefully with forearm contact to your hip rather than flailing defensively, aggressive chin tuck with deliberate head turning toward their trapped arm, and hips beginning systematic lateral shrimping rather than explosive upward bridging. These patterned, sequential movements indicate a trained escape sequence. Recognizing them within the first movement allows you to counter before the frames establish structural leverage.
-
-**Q2**: Your opponent has established a strong frame against your hip and begun chaining hip escapes—what is your immediate response priority?
-**A**: Immediately pull their head toward you with your free hand while driving your hips down and forward to pin their lateral hip movement. Adjust your triangle angle to compress against the frame rather than fighting it directly with leg squeeze alone. If the frame is already creating significant space, transition to armbar on the extended framing arm—their arm extension for the frame creates the exact exposure needed for the armbar attack.
-
-**Q3**: When should you abandon the mounted triangle and transition to an alternative attack or position?
-**A**: Abandon the mounted triangle when you feel your legs sliding off their shoulder and can no longer maintain the choking angle, when their chained hip escapes have created enough space that your triangle angle no longer compresses effectively on the neck, or when you have squeezed at maximum effort twice without finishing and your legs are noticeably fatiguing. Transition immediately to armbar, back take, or remount rather than continuing to fight a structurally compromised position.
-
-**Q4**: How can you exploit the opponent's frame and escape attempt to achieve an armbar submission?
-**A**: The opponent's framing arm naturally extends and becomes isolated during the escape sequence, creating an armbar opportunity that did not exist while they kept their arms protected. When you feel their forearm pressing against your hip, control their wrist with your free hand, secure elbow control by pressing your chest against their upper arm, then pivot your hips to create the armbar angle. Their own escape movement generates the arm exposure you need for the submission transition.
-
-
-
-</section>
 
 
 </main>

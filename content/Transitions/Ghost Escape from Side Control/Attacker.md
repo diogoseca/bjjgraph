@@ -188,6 +188,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ghost Escape from Side Control?</p>
+
 - Turn into the crossface direction rather than fighting against it, converting opponent's pressure into escape momentum
 - Thread the near knee during the turn, not after it, to bypass turtle and land directly in guard
 - Establish a near-side frame before initiating any movement to prevent the opponent from following your turn
@@ -202,6 +204,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ghost Escape from Side Control?</p>
+
 - Near-side forearm frame established against opponent's hip or across their waist to create separation
 - Far arm free and positioned to post on the mat or control opponent's shoulder during the turn
 - Opponent committed to crossface direction without actively switching sides or transitioning to north-south
@@ -214,6 +218,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ghost Escape from Side Control step by step?</p>
 
 1. **Establish near-side hip frame**: From bottom side control, wedge your near forearm against the opponent's hip bone or across their waist. Keep your elbow tight to your body to prevent arm isolation while creating a structural barrier that blocks the opponent from following your hips when you turn. This frame is the foundation of the entire escape and must be in place before any other movement begins.
 2. **Position far arm for the turn**: Place your far hand on the mat beside your far hip as a posting point, or against the opponent's far shoulder to push them away during the turn. This arm serves as the directional guide and balance point for the rotational movement. Avoid extending it where the opponent can isolate it for kimura or americana attacks.
@@ -243,6 +249,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ghost Escape from Side Control?</p>
+
 - **Opponent drives hips low and sprawls weight to prevent the initial turn** (Effectiveness: High) - Your Response: Abandon the ghost escape and switch to a standard hip escape or elbow escape while their hips are committed low. Their sprawl creates upper body space that traditional escapes can exploit. → Leads to [[Positions/Side Control]]
 - **Opponent follows the turn closely and prevents knee insertion by maintaining chest contact throughout** (Effectiveness: High) - Your Response: Accept the turtle position and immediately work guard recovery from turtle via sit-through or granby roll. The turn itself is still valuable even without the knee thread. → Leads to [[Positions/Turtle]]
 - **Opponent transitions to north-south when they feel you beginning to angle your hips away** (Effectiveness: Medium) - Your Response: Abort the ghost escape and switch to north-south escape sequences. The angle change means their pressure is no longer suited for the crossface-based setup this technique requires. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ghost Escape from Side Control?</p>
 
 ### 1. Attempting the turn without establishing the near-side hip frame first
 
@@ -293,6 +303,8 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ghost Escape from Side Control (Attacker)?</p>
+
 **Phase 1: Knee Threading Mechanics** - Isolate the knee insertion movement pattern with a cooperative partner
 Partner maintains light side control while you practice the hip rotation and knee insertion in slow motion. Focus exclusively on the timing of threading the knee through the gap during the turn, not before or after. Perform 20 repetitions per side per session until the simultaneous turn-and-insert becomes a single coordinated movement.
 
@@ -310,42 +322,12 @@ Full-resistance positional rounds starting from side control bottom. Integrate t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the ghost escape to open guard from side control?
-**A**: The optimal timing is when the opponent shifts weight to their upper body for crossface pressure, adjusts grips, or initiates a submission setup that moves their hip pressure away from your midsection. Any moment when their hips lighten against yours creates the window because the knee thread requires hip freedom to rotate and insert. Attempting against fully settled hip pressure will fail regardless of technique quality.
-
-**Q2**: What distinguishes this technique from the standard ghost escape that targets turtle?
-**A**: The critical distinction is the timing of the knee insertion. In the standard ghost escape, the practitioner completes the full rotation to hands and knees in turtle. In this variant, the near knee threads between the bodies during the turn itself, landing directly in open guard and bypassing turtle entirely. This eliminates back exposure but requires more precise timing and hip mechanics during the rotation phase.
-
-**Q3**: What is the most critical mechanical detail during the knee threading phase?
-**A**: The knee must be driven through the gap between your midsection and the opponent's chest while the turn is actively creating that gap, not after the turn is complete. The gap is temporary and closes as the opponent adjusts position, so the knee insertion and hip rotation must occur simultaneously as one integrated movement. Attempting to insert the knee as a separate step after turning results in the gap closing before the knee can clear.
-
-**Q4**: What are the two most common failure points that cause this escape to result in turtle rather than guard?
-**A**: The first is threading the knee too late, after the turn has completed and the gap has closed, which forces the standard ghost escape turtle outcome. The second is insufficient frame pressure against the opponent's hip during the turn, which allows them to follow your rotation closely enough that there is no gap for the knee to enter. Both failures convert the technique into the standard ghost escape rather than achieving direct guard recovery.
-
-**Q5**: What frame must be established before initiating the turn, and what purpose does it serve?
-**A**: A near-side forearm frame positioned against the opponent's hip bone or across their waist is essential before turning. This frame serves dual purposes: it creates initial separation between your midsection and the opponent's chest so the turn can begin, and it acts as a barrier that prevents the opponent from following your rotation. Without this frame, the opponent's chest stays connected to your torso throughout the turn, eliminating the gap needed for knee insertion.
-
-**Q6**: Your opponent drives heavy crossface pressure as you set up the ghost escape. How does this affect your approach?
-**A**: Heavy crossface pressure actually assists the ghost escape because you turn in the direction the crossface pushes you rather than fighting against it. The crossface energy converts into turning momentum. However, heavy crossface often comes with reduced hip pressure, which is exactly the condition this technique requires. Use the crossface direction to fuel your turn while exploiting the lighter hip contact to execute the knee thread.
-
-**Q7**: The opponent follows your turn closely and blocks the knee insertion. What is your immediate adjustment?
-**A**: Accept the turtle position rather than forcing a failed knee thread. Complete the standard ghost escape rotation to hands and knees, then immediately work guard recovery from turtle via sit-through, granby roll, or technical stand-up. The turn itself still creates a valuable escape from side control even when the knee insertion fails. Forcing the knee against a closely following opponent wastes energy and may stall you in a vulnerable mid-rotation position.
-
-**Q8**: How should you establish open guard controls immediately after completing the knee thread and facing the opponent?
-**A**: The instant your knee clears and you face the opponent, your primary hand must secure a grip on their nearest sleeve or wrist to prevent them from immediately driving forward to re-pass. Your secondary hand controls their collar, far sleeve, or frames against their shoulder. Your feet should be immediately active on their hips or shins to manage distance. Guard without active grips and foot engagement is not sustainable and will be re-passed within seconds.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ghost Escape from Side Control?</p>
 
 The ghost escape to open guard is a low-risk technique that does not involve joint manipulation or choking mechanics. The primary safety concern is neck strain during the turning phase if the opponent maintains a strong crossface while you rotate. Avoid forcing the turn against extreme neck pressure; instead, create the frame and bridge first to reduce crossface pressure before initiating rotation. During drilling, both partners should communicate about crossface intensity to prevent cervical strain. The turning motion should be practiced slowly initially to develop proper mechanics before adding speed, as rushing without established frames can result in the opponent landing heavily on your back during the transition. Be cautious with the knee insertion if your partner is driving forward aggressively, as a mistimed knee drive against a heavy opponent can strain the knee joint.
 

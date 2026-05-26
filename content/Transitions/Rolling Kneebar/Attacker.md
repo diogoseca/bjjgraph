@@ -184,6 +184,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rolling Kneebar?</p>
+
 - Maintain leg contact throughout the entire rolling motion to prevent escape
 - Use hip elevation from grasshopper as launching point for rotational momentum
 - Roll through the opponent rather than around them for maximum control
@@ -199,6 +201,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rolling Kneebar?</p>
+
 - Established grasshopper guard with hips elevated above mat level
 - At least one leg hooked behind opponent's knee or controlling their ankle
 - Opponent standing or in combat base with weight distributed forward
@@ -212,6 +216,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rolling Kneebar step by step?</p>
 
 1. **Secure leg control**: From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outside leg controls their hip or far leg. This dual contact prevents them from stepping away during the roll.
 2. **Load hips toward target**: Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the rolling side. Your body should form a diagonal line pointing at their knee.
@@ -240,6 +246,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rolling Kneebar?</p>
+
 - **Opponent posts hand and sprawls during roll initiation, stopping rotational momentum** (Effectiveness: High) - Your Response: If sprawl stops your roll, immediately convert to inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent steps over your rolling body to escape leg entanglement** (Effectiveness: Medium) - Your Response: Follow their step with your hips, continuing to roll in the same direction to reestablish leg control from 50-50 or reverse X-Guard position → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent drives forward into you before roll completes, flattening your inversion** (Effectiveness: High) - Your Response: Abandon kneebar attempt and convert their forward pressure into X-Guard elevation sweep by shooting your legs into their hips → Leads to [[Positions/Side Control]]
@@ -251,6 +259,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rolling Kneebar?</p>
 
 ### 1. Initiating roll without securing adequate leg control first
 
@@ -290,6 +300,8 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rolling Kneebar (Attacker)?</p>
+
 **Week 1-2** - Rolling mechanics
 Practice the roll without resistance, focusing on maintaining hip elevation throughout rotation. Partner stands still while you drill the movement pattern from grasshopper to belly-down kneebar position. Emphasize smooth continuous motion over speed.
 
@@ -307,54 +319,12 @@ Integrate rolling kneebar into full sparring from grasshopper guard. Focus on re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage of the Rolling Kneebar from Grasshopper Guard?
-**A**: The primary mechanical advantage is using rotational momentum from the inverted grasshopper position to carry the opponent's leg into a belly-down kneebar control. The roll generates force that the opponent cannot easily resist because they must simultaneously deal with both the rotational pull on their leg and the sudden positional shift beneath them.
-
-**Q2**: Your opponent begins back stepping away from your grasshopper guard - how does this affect your Rolling Kneebar timing?
-**A**: The back step creates the ideal moment to initiate the Rolling Kneebar. Their retreating motion creates space for your roll and provides directional momentum that facilitates the technique. Initiate the roll immediately as they commit to the back step, using their movement to carry your rotation.
-
-**Q3**: What leg configuration must you achieve during the roll to secure the kneebar?
-**A**: You must thread your legs into a figure-four configuration around the trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock that prevents leg extraction and provides the base for finishing pressure.
-
-**Q4**: Your opponent posts their hand and sprawls as you initiate the roll - what adjustment should you make?
-**A**: When the sprawl stops your roll, immediately convert to an inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position. The sprawl often exposes their heel for this counter-attack while their posted hand prevents them from defending the new submission angle.
-
-**Q5**: What is the critical hip movement during the Rolling Kneebar execution?
-**A**: The hips must drive directly toward the opponent's trapped knee during the roll, not just rotate around them. This hip drive creates the momentum needed to carry their leg into finishing position and keeps your body tight to their base, preventing the distance that would allow leg extraction.
-
-**Q6**: Why is completing the positional roll before attempting the finish so important?
-**A**: Attempting to finish before completing the roll allows the opponent to easily defend the half-completed attack, often leading to guard pass or back take. The full rotation to belly-down position is necessary to establish the control and angle required for effective knee hyperextension pressure.
-
-**Q7**: What grip and body positioning is required to finish the kneebar after completing the roll?
-**A**: Pull their foot tight to your chest with their toes pointed toward the ceiling, pinch your knees together to prevent rotation of their leg, then bridge your hips forward to apply hyperextension pressure. The combination of foot control, leg pinch, and hip bridge creates the optimal breaking mechanics.
-
-**Q8**: Your opponent straightens their leg and pulls their knee away before you complete the figure-four - what alternative attack opens up?
-**A**: Transition immediately to a straight ankle lock on the same leg by switching your grip from their knee area to their heel. Their straightened leg actually makes the ankle lock easier to finish, as the extended position exposes the Achilles tendon for compression.
-
-**Q9**: How should you position your arms during the rolling phase?
-**A**: Keep elbows tight to your ribs throughout the rotation to prevent them from getting trapped under the opponent. Only extend arms to grip the leg after the roll is complete. Extended arms during the roll create entanglement risk and can cause shoulder injuries if caught under the opponent's weight.
-
-**Q10**: When facing an opponent who drives forward aggressively from standing, is the Rolling Kneebar the optimal attack choice?
-**A**: No, the Rolling Kneebar becomes significantly harder against forward-driving opponents because their pressure flattens your inversion and denies the space needed for the roll. Against aggressive forward pressure, X-Guard elevation sweeps or single leg X transitions are preferable, as they convert the opponent's momentum into sweeping leverage.
-
-**Q11**: What specific setup condition must exist with your inside leg before committing to the roll?
-**A**: Your inside leg must have a firm hook established behind the opponent's knee. This hook serves as the anchor point for the entire rolling motion - without it, the rotational force has nothing to transfer into the opponent's leg. Test the hook by applying light pulling pressure before rolling; if the hook slips, reposition before committing.
-
-**Q12**: How does the direction of your roll relate to the opponent's trapped leg?
-**A**: You must roll toward and underneath the trapped leg, not away from it. Rolling toward the leg keeps your body path tight to their base, maintains the hook connection throughout rotation, and ensures your hips end up positioned directly over their knee joint at completion. Rolling the wrong direction creates separation and allows easy extraction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rolling Kneebar?</p>
 
 The Rolling Kneebar attacks the knee joint, which has limited range of motion and no pain warning before injury occurs. Always apply pressure gradually and progressively, never explosively. Partners must tap early when hyperextension begins - the knee can be damaged before significant pain is felt. During training, communicate clearly before drilling and establish tap protocols. Avoid this technique if either partner has existing knee injuries. The rolling motion can also cause shoulder and neck strain if executed incorrectly - ensure proper technique before adding resistance. In competition, be prepared to release immediately upon tap as the position makes verbal taps difficult to hear.
 

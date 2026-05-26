@@ -169,6 +169,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Jailbreak (Top)?</p>
+
 - Top player maintains upper body connection with chest-to-chest pressure or heavy cross-face control preventing bottom player from creating adequate defensive frames or sitting up to recover guard
 - Bottom player's legs are extended away from their torso in a 'jailbreak' configuration with one or both legs attempting to create distance and block the pass through extension
 - Top player's weight is distributed forward with hips driving toward the bottom player's center line maintaining constant forward pressure despite the extended leg barrier
@@ -182,6 +184,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Jailbreak (Top)?</p>
+
 - Top player has passed beyond the initial half guard frames and knee shield defenses
 - Bottom player has extended legs to create distance in defensive jailbreak motion
 - Top player maintains forward pressure and upper body connection preventing space creation
@@ -194,6 +198,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Jailbreak?</p>
 
 - Maintain constant forward pressure with hips driving toward bottom player's center line to prevent guard recovery
 - Control bottom player's upper body with heavy cross-face, underhook, or head control to limit mobility and frame creation
@@ -209,6 +215,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Jailbreak (Top)?</p>
 
 **If bottom player's legs are extended and static with minimal hip movement:**
 - Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 70%)
@@ -242,6 +250,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Jailbreak?</p>
 
 ### 1. Standing too upright and losing forward pressure while navigating extended legs
 
@@ -286,6 +296,8 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Jailbreak attacks?</p>
+
 ### Jailbreak Pass Flow Drill
 
 Bottom player starts in jailbreak position with extended legs. Top player flows between three passing options based on bottom player's leg positioning. Bottom player provides moderate resistance and changes leg configuration every 10 seconds. Focus on reading leg positioning and maintaining forward pressure throughout transitions.
@@ -318,38 +330,6 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution principle for maintaining control in Jailbreak Top?
-**A**: Weight should be distributed forward through the chest and shoulders with hips driving toward the bottom player's center line. The pressure must be applied to the upper body rather than sitting back on the hips, as this prevents the bottom player from creating frames, sitting up, or recovering guard. Maintaining low forward pressure makes your weight feel heavier while keeping you mobile enough to react to leg movements.
-
-**Q2**: Your opponent starts extending their legs to push you away - what adjustment do you make?
-**A**: When the opponent extends legs to create distance, immediately drive your chest pressure forward and down rather than fighting the leg extension directly. Establish or reinforce your crossface or head control to pin their upper body, then choose between a leg weave pass if legs are static, or continue forward pressure to collapse the space. Never stand upright or back away, as this gives them the distance they want.
-
-**Q3**: What are the essential grips and control points for maintaining Jailbreak Top position?
-**A**: The essential controls are crossface or collar tie on the head and neck to control spine alignment, an underhook or overhook on the far side to prevent turning, and chest-to-chest connection to apply constant pressure. These upper body controls must be established before attempting to navigate past the extended legs, as they prevent the bottom player from using frames or hip movement to escape.
-
-**Q4**: How do you shut down the opponent's primary escape (guard recovery) from Jailbreak Top?
-**A**: Guard recovery is prevented by maintaining constant forward pressure that pins the bottom player's shoulders to the mat while controlling their ability to create angles. Specifically, the crossface turns their head away and prevents them from turning toward you, the underhook blocks their far shoulder from rising, and your hip positioning blocks their hip movement. If they attempt to retract legs to close guard, immediately drive forward and begin a knee slice or smash pass before they can establish frames.
-
-**Q5**: Your opponent manages to establish an underhook and starts coming up to dogfight - how do you counter?
-**A**: When the opponent secures an underhook and begins rising, you have two primary options. First, immediately establish a whizzer (overhook) to control their underhooking arm and drive your weight back down to reflatten them. Second, if they're already significantly elevated, switch to circling toward their back by following their momentum and looking for back exposure. Never try to force them flat with pure strength once they have underhook leverage established.
-
-**Q6**: What determines whether you should use a leg weave versus a smash pass from Jailbreak Top?
-**A**: The decision depends on the bottom player's leg configuration and hip activity. Use leg weave when their legs are extended and relatively static, as you can thread through and create the weaving control. Use smash pass when they're retracting legs or actively moving hips, as the smash pressure collapses their defensive structure before they can recover guard. If they're creating significant angles with hip movement, consider switching to headquarters passing or toreando instead.
-
-**Q7**: How do you manage energy expenditure when the bottom player is actively defending with leg frames?
-**A**: Energy management requires applying pressure efficiently rather than muscling through defenses. Maintain chest-to-chest connection and let your body weight do the work rather than using arm strength. When facing active leg defense, focus on controlling their upper body first while using patient hip positioning rather than explosive movements. Chain passing attempts together so their defense of one option opens another, rather than repeatedly attacking the same angle and burning energy.
-
-**Q8**: Your pass attempt fails and the opponent recovers half guard - how do you recover back to Jailbreak Top?
-**A**: When the opponent recovers half guard after a failed pass, immediately reestablish crossface control and begin driving shoulder pressure back into their face to flatten their posture. Secure an underhook on the far side before they can establish theirs. From here, work to force their legs back into extension by driving forward pressure while controlling their upper body. The key is not allowing them to establish knee shield or lockdown before you can reinitiate the passing sequence.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -184,6 +184,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Berimbolo Entry?</p>
+
 - Maintain active De La Riva hook throughout the entire rotation
 - Control opponent's far hip or belt to prevent them from squaring up
 - Invert smoothly with momentum rather than forcing the movement
@@ -199,6 +201,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Berimbolo Entry?</p>
+
 - De La Riva guard established with active hook on opponent's near leg
 - Strong grip on opponent's belt, pants, or gi material at far hip
 - Opponent's weight distributed forward over their base
@@ -212,6 +216,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Berimbolo Entry step by step?</p>
 
 1. **Establish De La Riva control**: From De La Riva guard, secure a deep hook with your outside leg behind opponent's near knee. Your inside foot should be on their far hip. Grip their far hip, belt, or gi material firmly with your bottom hand while maintaining collar or sleeve control with your top hand.
 2. **Break opponent's base**: Pull opponent's far hip toward you while simultaneously pushing with your inside foot on their hip and pulling with your De La Riva hook. This off-balances them forward and to the side, creating the opening for your inversion. Their weight should be distributed over their hands or forward knee.
@@ -240,6 +246,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Berimbolo Entry?</p>
+
 - **Opponent sits back and sprawls legs away, preventing De La Riva hook from off-balancing them** (Effectiveness: High) - Your Response: Switch to Kiss of the Dragon variation by releasing the hook and using momentum to spin directly to their back, or transition to Reverse De La Riva guard and attack with alternative sweeps → Leads to [[Positions/De La Riva Guard]]
 - **Opponent grabs your inverting leg/pants and prevents rotation by anchoring you to the mat** (Effectiveness: Medium) - Your Response: Use the pressure on your leg to spring back to De La Riva guard and immediately attack with different sweep or back-take attempt. Alternatively, switch to deep De La Riva position and work waiter sweep → Leads to [[Positions/De La Riva Guard]]
 - **Opponent counter-rotates in the same direction, following your spin to prevent back exposure** (Effectiveness: Medium) - Your Response: Accept the scramble position and use your superior positioning from the inversion to establish either Single Leg X-Guard or return to seated guard with dominant grips. Can also continue rotating for Kiss of the Dragon finish → Leads to [[Positions/De La Riva Guard]]
@@ -251,6 +259,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Berimbolo Entry?</p>
 
 ### 1. Releasing the De La Riva hook too early during the rotation
 
@@ -285,6 +295,8 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Berimbolo Entry (Attacker)?</p>
+
 **Week 1-2: Basic Inversion Mechanics** - Develop inversion movement and spatial awareness
 Practice inverting from De La Riva guard without opposition, focusing on smooth rotation and maintaining hook throughout. Partner remains stationary on knees. Drill 10-15 repetitions per side, emphasizing head position and continuous rotation. Work on emerging to kneeling position behind partner.
 
@@ -308,54 +320,12 @@ Develop your own grip preferences, timing cues, and counter-responses. Experimen
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage that the berimbolo creates over traditional sweeping mechanics?
-**A**: The berimbolo creates a rotational angle of attack that bypasses conventional passing defenses by positioning the practitioner underneath and behind the opponent. Unlike traditional sweeps that attempt to off-balance the opponent laterally or forward, the berimbolo uses inversion to access the back from an angle that is extremely difficult to defend once the rotation is initiated. This three-dimensional movement exploits the opponent's natural inability to maintain base while someone rotates underneath their center of gravity.
-
-**Q2**: Why is maintaining the De La Riva hook throughout the entire rotation critical to successful berimbolo execution?
-**A**: The De La Riva hook serves as the primary steering and control mechanism during the rotation. It off-balances the opponent forward and prevents them from stepping away or squaring their hips to re-establish base. Without maintaining hook pressure throughout the spin, the opponent can easily disengage, counter-rotate, or step over the inverting practitioner. The hook essentially locks the opponent's near leg in place while the practitioner rotates around it, creating the mechanical advantage necessary for the back-take.
-
-**Q3**: How should a practitioner respond if their opponent successfully grabs their inverting leg and anchors them to the mat during the berimbolo attempt?
-**A**: The practitioner should use the pressure and grip on their leg as a spring mechanism to return to De La Riva guard position immediately. Rather than fighting against the anchor, accept the failed berimbolo and immediately transition to alternative attacks such as the waiter sweep from deep De La Riva position, or switch to Reverse De La Riva guard. The key is not to remain static in the partially inverted position, which is vulnerable to passing. Alternatively, if hip control is strong, the practitioner can transition to deep half guard and work from there.
-
-**Q4**: What is the most common timing error when executing the berimbolo, and how does it compromise the technique?
-**A**: The most common timing error is rotating too slowly or hesitating mid-movement. This gives the opponent time to recognize the attack and implement defensive counters such as grabbing the inverting legs, posting against the rotation, or counter-rotating to prevent back exposure. The berimbolo must be executed with explosive, continuous momentum in one smooth motion. Hesitation transforms the technique from a dynamic, difficult-to-defend movement into a predictable, easily countered position that leaves the practitioner vulnerable.
-
-**Q5**: Why must seatbelt control be established immediately upon completing the rotation, and what happens if this step is delayed?
-**A**: Establishing seatbelt control immediately upon emerging behind the opponent is critical because there is a brief window where the opponent is still reacting to the rotation and hasn't yet organized their defense of back control. Delayed grip establishment allows the opponent to turn into you, escape to turtle position, or initiate a scramble before you secure dominant positioning. The berimbolo rotation and seatbelt grip should be trained as one continuous movement - the hands should be reaching for upper body control the instant the chest reaches the opponent's back, not as a separate subsequent step.
-
-**Q6**: How does head position during the inversion affect the success and safety of the berimbolo entry?
-**A**: Proper head position - tucked close to the mat and rolling over the shoulders rather than the top of the head - is essential for both successful rotation mechanics and injury prevention. Keeping the head close to the mat lowers the center of gravity, improves balance during the inversion, and increases rotational speed by creating a smaller radius of rotation. Lifting the head or attempting to maintain visual contact with the opponent during the spin raises the center of gravity, slows the rotation, and can result in falling to your back mid-movement. Additionally, improper head position places dangerous pressure on the cervical spine and increases risk of neck injury.
-
-**Q7**: What specific grip on the opponent's body is most critical for pulling yourself underneath during the inversion, and why?
-**A**: The far hip grip (belt, pants at the hip, or gi material near the waistline) is the most critical grip for the inversion phase. This grip serves a dual purpose: it provides the pulling force necessary to draw your body underneath the opponent's center of gravity, and it prevents the opponent from rotating their hips away from your spin. Without this grip, there is no mechanical connection to generate the pulling momentum that drives the inversion. The grip must be maintained throughout the entire rotation because releasing it mid-spin eliminates the force vector that keeps the opponent loaded over you and connected to your rotational path.
-
-**Q8**: Your opponent posts their far hand on the mat as you begin the berimbolo inversion - how do you adjust your execution?
-**A**: When the opponent posts their far hand, they are creating a tripod base to resist being pulled forward and rotated. The adjustment is to increase the pulling force on their far hip while simultaneously using your De La Riva hook to drive their near knee forward and collapse that side of their base. The posted hand becomes less effective if their near leg is compromised. You can also shift your angle slightly toward the posted hand side, forcing them to choose between maintaining the post and protecting their back. If the post is very strong, consider transitioning to a shallow berimbolo that leads to X-Guard rather than forcing the full rotation against a braced opponent.
-
-**Q9**: What is the optimal timing window for initiating the berimbolo entry relative to the opponent's weight distribution?
-**A**: The optimal timing window occurs when the opponent's weight shifts forward over their lead leg, typically when they are attempting to pressure into your De La Riva guard or when they reach forward with their hands. This forward weight commitment means their center of gravity is already displaced toward you, and the rotational force of the berimbolo amplifies this displacement rather than fighting against it. Initiating the berimbolo when the opponent has their weight back on their heels forces you to overcome their entire base structure. The best practitioners provoke the forward weight shift through active De La Riva hook pulling and then immediately capitalize on the reaction.
-
-**Q10**: If your berimbolo rotation is blocked at roughly 90 degrees and you cannot complete the full spin to the back, what chain attacks become available?
-**A**: At 90 degrees of rotation, several strong chain attack options exist. The most direct is transitioning to X-Guard by threading your bottom leg through as an X-hook while your top leg maintains the original De La Riva hook position, creating an immediate sweeping threat. Alternatively, you can establish Single Leg X-Guard by controlling the near leg and elevating it for off-balancing sweeps. A third option is to continue the momentum into a Kiss of the Dragon variation by releasing the hook and spinning through to the far side. The key principle is to never stall at the 90-degree position, as this is unstable and vulnerable to passing. Always convert partial rotation into a recognized guard position or continue the spin.
-
-**Q11**: What direction should the primary rotational force be applied during the berimbolo, and how does this differ from a standard backward roll?
-**A**: The berimbolo rotational force is applied diagonally across the opponent's body, pulling yourself from underneath their near side toward their far hip and then behind their back. This is fundamentally different from a standard backward roll, which moves straight backward along the spine. The berimbolo uses a lateral-to-posterior arc that spirals underneath the opponent rather than rolling directly backward. The De La Riva hook creates the lateral component by anchoring to the opponent's near leg, while the far hip grip creates the posterior pull. This diagonal force vector is what makes the movement difficult to defend because the opponent must address rotational torque rather than simple linear force.
-
-**Q12**: During live sparring, your opponent recognizes your berimbolo entry and begins counter-rotating to follow your spin - what are your options and which is highest percentage?
-**A**: When the opponent counter-rotates to follow your spin, three primary options exist. First, you can accelerate your rotation and attempt to complete the back-take before they fully square up, which works if you have strong hip grip control and they are slow to react. Second, you can abort the berimbolo and use the scramble positioning to establish Single Leg X-Guard or seated guard with dominant grips, accepting a positional reset. Third, and typically highest percentage, you can switch to a Kiss of the Dragon finish by releasing the De La Riva hook and using the opponent's own counter-rotation momentum against them, spinning through to the far side where their back becomes exposed from the opposite angle. The Kiss of the Dragon conversion is highest percentage because the opponent's counter-rotation actually assists the technique rather than defending against it.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Berimbolo Entry?</p>
 
 When training the berimbolo entry, proper neck and spine positioning is critical to prevent injury during the inversion. Always keep your chin tucked and roll over your shoulders rather than the top of your head. Practitioners with limited neck mobility or previous neck injuries should consult with instructors before attempting this technique. Begin practice on soft mats with slow, controlled repetitions to develop proper body mechanics before increasing speed. Partners should avoid posting or driving weight onto the inverting practitioner's neck or upper back during drilling. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique with an instructor. Build up hip and shoulder flexibility gradually through dedicated mobility work before attempting high-speed berimbolo entries.
 

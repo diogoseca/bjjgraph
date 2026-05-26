@@ -36,7 +36,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Active hook elevation creates constant off-balancing pressure that prevents opponent from settling weight and establishing stable base

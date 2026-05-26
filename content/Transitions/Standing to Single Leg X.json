@@ -82,7 +82,7 @@
       "relationship": "Submission option - direct finish from established SLX"
     },
     {
-      "name": "Kneebar from Guard",
+      "name": "Kneebar",
       "relationship": "Submission option - leg attack from entanglement"
     },
     {
@@ -233,7 +233,7 @@
         "description": "Integrate Standing to Single Leg X with alternative entries like Ankle Pick Sweep, De La Riva Guard, and Shin-to-Shin Guard. Practice reading opponent's defensive patterns and automatically transitioning between positions. Develop seamless chains where blocked entry converts to alternative attack without pause."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you drop your hips below the opponent's knee level during the entry to Single Leg X?",
         "answer": "Dropping hips below the knee level is biomechanically essential for three critical reasons: First, it creates the proper angle for your inside hook to control their leg effectively from underneath their knee joint. Second, it prevents the opponent from driving forward pressure into your chest, which would flatten you and eliminate the guard position. Third, it establishes the foundational hip positioning needed for generating sweep leverage - your hips must be lower than theirs to elevate their leg effectively. Insufficient depth results in easy smash passing or opponent disengagement."
@@ -359,7 +359,7 @@
         "correction": "React immediately with either forward pressure to smash or backward movement to disengage. Never stand still and assess - the position degrades rapidly for the standing player with each passing second."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action you can take before the opponent initiates their entry?",
         "answer": "The most important pre-entry defense is active grip fighting to prevent the opponent from establishing the sleeve or wrist grip they need for the entry. Without this grip, the opponent cannot maintain connection during their level change and descent, meaning they risk falling to an unconnected seated position with no control. Strip grips immediately using two-on-one breaks or circular wrist movements. If you can deny the initial grip, the entire technique chain is disrupted before it begins."
@@ -388,7 +388,7 @@
         "description": "Partner performs slow-motion Single Leg X entries while you practice identifying the recognition cues: grip tightening, hip drop initiation, foot stepping in, and shoulder rounding. Call out each cue verbally as you see it. Progress to partner performing entries at increasing speed while you maintain recognition accuracy. No defensive action yet - pure recognition training."
       },
       {
-        "phase": "Week 3-4: Grip Fighting Defense",
+        "phase": "Week 3-4: Grips Defense",
         "focus": "Preventing the initial grip establishment",
         "description": "Partner attempts to establish the sleeve or wrist grip needed for entry while you focus exclusively on grip stripping and prevention. Practice two-on-one breaks, circular wrist escapes, and proactive hand fighting. Partner increases grip fighting intensity progressively. Measure success by how long you can deny them a solid control grip."
       },

@@ -217,7 +217,7 @@ This transition occupies a critical position in the half guard passing hierarchy
 
 - [[Positions/Half Guard/Deep Half Guard]] - Defensive counter position bottom player may achieve if flattening attempt is poorly timed
 
-- [[Transitions/Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
+- [[Submissions/Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
 
 - [[Transitions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
 

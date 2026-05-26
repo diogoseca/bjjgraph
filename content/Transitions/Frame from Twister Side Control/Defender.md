@@ -148,6 +148,8 @@ The defender in this context is the top player maintaining twister side control 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame from Twister Side Control?</p>
+
 - Bottom player's hands moving from defensive positions on their own body toward your shoulder, collarbone, or hip area
 - Subtle shift in the bottom player's hip angle as they prepare to shrimp away from your control, indicated by their outside hip beginning to rotate
 - Change in the bottom player's breathing pattern from short defensive breaths to a deeper preparation breath indicating imminent exertion
@@ -160,6 +162,8 @@ The defender in this context is the top player maintaining twister side control 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame from Twister Side Control?</p>
 
 - Recognize framing attempts at their earliest stage and counter before frames become structurally established
 - Maintain constant shoulder pressure that prevents the bottom player from inserting frames between your chest and their body
@@ -174,6 +178,8 @@ The defender in this context is the top player maintaining twister side control 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame from Twister Side Control?</p>
 
 ### 1. Collapse frames with increased shoulder pressure by driving chest weight into the frame before it becomes structurally sound
 
@@ -204,6 +210,8 @@ The defender in this context is the top player maintaining twister side control 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame from Twister Side Control?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 When the bottom player begins extracting their legs during the escape sequence, immediately re-entangle by driving your hook deeper and transitioning to full truck control, capitalizing on the momentary gap in their upper body frame structure as they shift focus to the lower body
@@ -219,6 +227,8 @@ Drive heavy shoulder pressure into the frames before they become structurally so
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame from Twister Side Control?</p>
 
 ### 1. Allowing frames to become fully established before attempting to collapse them with shoulder pressure
 
@@ -248,6 +258,8 @@ Drive heavy shoulder pressure into the frames before they become structurally so
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame from Twister Side Control?</p>
+
 **Recognition** - Early detection of escape initiation
 Partner slowly builds frames from twister side control bottom while you practice identifying the earliest cues. Focus on feeling the subtle changes in pressure, hip angle, and hand positioning that indicate framing is about to begin. Develop automatic recognition before the frame becomes structurally established.
 
@@ -261,26 +273,6 @@ Full positional sparring where the bottom player actively attempts the frame esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is initiating a frame escape from twister side control?
-**A**: The earliest cues include the bottom player's hands moving from defensive positions toward your shoulder or hip, a subtle shift in their hip angle as they prepare to shrimp, and changes in their breathing pattern indicating imminent exertion. Their near-side forearm will begin to angle against your shoulder, and you may feel a slight reduction in their resistance to your leg entanglement as they redirect energy to upper body framing.
-
-**Q2**: How should you adjust weight distribution when you detect frame creation beginning?
-**A**: Immediately increase shoulder pressure by dropping your chest weight into the frame before it becomes structurally established. A partially built frame is much easier to collapse than a fully established one. Simultaneously tighten your leg hook by squeezing your legs together to prevent the hip movement that accompanies framing. The goal is to address the escape at its inception rather than after meaningful separation is created.
-
-**Q3**: When should you transition to back take versus collapsing frames during an escape attempt?
-**A**: Transition to back take when the bottom player has created enough separation that collapsing frames would require over-committing weight forward, potentially creating reversal opportunities. If the frames are still being established and the leg entanglement remains tight, collapsing frames is the more direct and lower-risk response. If the bottom player has partially extracted legs and is turning, the back take becomes higher percentage.
-
-**Q4**: What submission opportunities become available during the bottom player's frame escape attempt?
-**A**: Extended framing arms create kimura opportunities when the elbow straightens beyond safe range. If the bottom player turns their head away during hip escape, the neck may become exposed for darce or anaconda choke entries. If leg extraction creates space at the lower body while upper body control is maintained, calf slicer or knee bar positions may open. Recognizing these transforms defense into offense.
-
-
-
-</section>
 
 
 </main>

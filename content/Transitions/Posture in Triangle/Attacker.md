@@ -188,6 +188,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture in Triangle?</p>
+
 - Drive posture upward from your base through leg extension, not upper body pulling - skeletal alignment creates sustainable defensive structure that muscular effort cannot match
 - Control opponent's hips with your free hand to prevent the angle optimization that transforms a survivable triangle into a finishing submission
 - Maintain trapped arm elbow pinned tight to your ribs throughout posture recovery to prevent armbar transition on the isolated arm
@@ -203,6 +205,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture in Triangle?</p>
+
 - Caught in opponent's triangle with one arm inside and one arm outside the leg configuration from top position
 - Knees or feet planted on mat providing sufficient mechanical base for upward driving force
 - Free hand available for posting on mat or controlling opponent's hip rather than both arms trapped inside triangle
@@ -215,6 +219,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture in Triangle step by step?</p>
 
 1. **Secure trapped arm position**: Immediately pin your trapped arm's elbow tight against your ribs with your hand positioned near your own chest. This prevents the opponent from isolating your arm for an armbar transition and reduces the fulcrum effect that amplifies choking pressure through the trapped arm.
 2. **Establish wide base with knees**: Spread your knees wide on the mat to create a stable platform that resists pulling forces from the triangle. Your toes should be curled under for maximum drive potential. A narrow base allows the opponent to pull you forward and off-balance, while a wide base distributes their pulling force across a broader foundation.
@@ -244,6 +250,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture in Triangle?</p>
+
 - **Opponent clasps hands behind your head and pulls down with full body force to re-break posture** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while pressing down on their hip. If they maintain the pull, walk your knees forward to stack their weight and reduce their pulling leverage. Break their hand clasp by driving your head straight up while stepping to your trapped arm side. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent scoots hips laterally to optimize perpendicular finishing angle during your posture attempt** (Effectiveness: Medium) - Your Response: Match their lateral movement by stepping in the same direction while maintaining downward pressure on their hip with your free hand. Prevent the angle change by pinning their hip to the mat and continuing your forward stacking pressure to eliminate their mobility. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent transitions to armbar on trapped arm by extending hips and pivoting while you focus on posture** (Effectiveness: High) - Your Response: Immediately rotate toward your trapped arm side while keeping that elbow pinned to your ribs. Stack your weight more aggressively onto their shoulders to limit the hip extension needed for armbar finish. Follow their rotation rather than resisting it, turning the armbar transition into a passing opportunity. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture in Triangle?</p>
 
 ### 1. Pulling posture up using back muscles instead of driving from the legs
 
@@ -294,6 +304,8 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture in Triangle (Attacker)?</p>
+
 **Phase 1: Structural Mechanics** - Posture alignment and leg drive
 Practice posture recovery against a partner who applies triangle at 30% pressure. Focus exclusively on establishing wide base, pinning trapped arm elbow to ribs, and driving posture upward from legs with straight spine alignment. No escape attempts - only posture recovery and maintenance.
 
@@ -314,42 +326,12 @@ Start caught in triangle at full competition resistance. Execute posture recover
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary power source for posture recovery and why is this critical?
-**A**: The legs are the primary power source, driving posture upward through knee and hip extension rather than pulling with the back. This is critical because the leg muscles are vastly stronger and more fatigue-resistant than the lower back muscles, providing sustainable postural force that can overcome the opponent's pulling pressure without depleting energy reserves needed for the subsequent escape sequence.
-
-**Q2**: Your opponent begins pulling your head down with clasped hands behind your neck - how do you adjust your posture recovery?
-**A**: Drive your head straight upward like a battering ram while simultaneously walking your knees forward to stack their weight onto their shoulders. The forward walk reduces their pulling leverage by changing the angle of force. If their grip is strong, address it by driving your posture up explosively from your legs while stepping toward your trapped arm side, which creates rotational force that weakens their hand clasp.
-
-**Q3**: Why must the trapped arm's elbow remain pinned to your ribs throughout posture recovery?
-**A**: The trapped arm inside the triangle serves as a fulcrum that amplifies choking pressure when extended away from the body. Additionally, if the elbow separates from the ribs during posture recovery, the opponent can easily isolate the arm and transition to an armbar attack. Keeping the elbow tight neutralizes both the choking fulcrum effect and the armbar transition threat simultaneously.
-
-**Q4**: What role does the free hand play on the opponent's hip during posture recovery?
-**A**: The free hand on the opponent's hip serves three critical functions: it prevents hip elevation that creates choking power through leg extension, it blocks lateral hip movement that optimizes the perpendicular finishing angle, and it provides a posting point that assists the upward postural drive. Losing this hip control allows the opponent to freely adjust their triangle to maximum effectiveness.
-
-**Q5**: Your initial posture recovery attempt fails and the opponent re-breaks your posture - what is the correct recovery sequence?
-**A**: Reset to fundamentals immediately: re-pin the trapped arm elbow to ribs, re-establish the free hand post on their hip, verify your base is wide with knees spread and toes curled. Then reinitiate the posture sequence with emphasis on leg drive rather than back pulling. Each attempt should start fresh from the foundational position rather than trying to salvage a failed attempt mid-sequence.
-
-**Q6**: The opponent loosens their triangle momentarily to readjust their figure-four lock - what opportunity does this create?
-**A**: This brief loosening creates the optimal posture recovery window. Immediately drive your posture upward with maximum leg extension while the choking pressure is temporarily reduced. The adjustment period typically lasts one to two seconds, during which the triangle's structural integrity is compromised. Recognizing and exploiting these micro-windows is the highest-percentage approach to posture recovery against tight triangles.
-
-**Q7**: How should you distribute your weight during the stacking phase of posture recovery without exposing yourself to sweeps?
-**A**: Maintain a wide base with knees spread apart and drive forward from your legs rather than leaning your upper body forward. Keep your center of gravity low and over your base, driving through your toes for stability. The stacking pressure should come from controlled hip drive pushing the opponent's hips over their shoulders, not from tipping your upper body forward which compromises balance and invites sweeps.
-
-**Q8**: Why is circling toward the trapped arm side important during posture recovery?
-**A**: Circling toward the trapped arm side works against the triangle's locking geometry by opening the angle that the choking leg creates across the neck. Moving toward the free arm side tightens the lock by compressing the choking angle. The trapped arm side direction simultaneously reduces choking pressure and creates the optimal angle for subsequent arm extraction, making it the correct direction for all triangle escape movement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture in Triangle?</p>
 
 Posture recovery inside the triangle demands constant awareness of blood flow restriction to the brain. If vision narrows, lightheadedness occurs, or tingling sensation develops in the face, tap immediately rather than continuing escape attempts. During training, communicate with your partner about pressure levels and never attempt to power through significant choking pressure. Practice at progressive resistance levels to build technical competence before applying against full resistance. Monitor your partner's condition when drilling the triangle player role.
 

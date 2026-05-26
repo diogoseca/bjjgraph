@@ -154,6 +154,8 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Escape from SLX?</p>
+
 - Top player widens their free foot stance and bends their knee deeply, establishing a wider base than normal SLX defense requires
 - Top player begins stripping your sleeve or wrist grips with unusual urgency rather than engaging with passing attempts
 - Top player's posture shifts backward with hips driving away from you instead of forward pressure or lateral passing angles
@@ -166,6 +168,8 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Escape from SLX?</p>
 
 - Maintain active, dynamic hooks that constantly readjust to the top player's clearing attempts rather than holding static positions
 - Secure strong upper body grips on sleeves, wrists, or collar to generate pulling forces that compromise the top player's base during their escape
@@ -180,6 +184,8 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Escape from SLX?</p>
 
 ### 1. Aggressively re-hook the hip each time the top player clears it, using rapid foot replacement
 
@@ -217,6 +223,8 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Escape from SLX?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Prevent the escape entirely by maintaining active hooks that re-insert faster than the top player can clear them. Combine aggressive re-hooking with strong upper body grips that deny them the hand freedom needed to address your hooks. Force them to abandon the escape attempt and return to dealing with your sweeping and submission threats from SLX.
@@ -232,6 +240,8 @@ Time a sweep during the escape attempt by exploiting the transitional balance vu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Escape from SLX?</p>
 
 ### 1. Maintaining static hooks without actively adjusting to the top player's clearing attempts
 
@@ -261,6 +271,8 @@ Time a sweep during the escape attempt by exploiting the transitional balance vu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Escape from SLX?</p>
+
 **Phase 1: Hook Retention Drills** - Maintaining and replacing hooks against clearing attempts
 Partner in top SLX position works to clear your hooks at 50% speed and resistance. Practice rapid hook re-insertion from multiple angles when the top hook is stripped. Build the habit of dynamic hook adjustment rather than static holding. 10 repetitions per side.
 
@@ -277,26 +289,6 @@ Positional sparring where the top player's sole objective is the standing escape
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important upper body grip for preventing the standing escape, and why?
-**A**: The same-side sleeve or wrist grip is most important because it prevents the top player from using that hand to clear your hooks. Since the escape requires systematically removing your hooks with their hands, controlling one wrist effectively cuts their clearing capacity in half and forces them to work one-handed. Additionally, this grip provides pulling leverage for sweep attempts during their escape, creating a dual threat that makes the escape significantly more difficult.
-
-**Q2**: You feel the top player successfully clear your top hip hook - should you immediately try to replace it or transition to a different position?
-**A**: This depends on the speed and commitment of their clearing. If they cleared it casually and have not yet addressed your bottom ankle wrap, immediately replace the top hook from a different angle while their attention is on celebrating the clear. However, if they cleared it decisively and are already reaching for your bottom hook, transition proactively to Ashi Garami or inside Ashi by redirecting your free leg into a leg entanglement configuration. Stubbornly fighting for a single hook re-insertion against a committed escape often results in losing everything.
-
-**Q3**: How do you recognize the optimal moment to attempt a sweep during the standing escape?
-**A**: The optimal sweep moment occurs when the top player reaches down with one or both hands to clear your hooks. This action narrows their base, shifts their weight distribution forward and toward the trapped leg, and removes their hands from posting position. Watch for the moment they grip your foot - their weight commitment to the clearing action creates a directional vulnerability away from their posted free leg. Extend your legs explosively toward that vulnerability before they complete the hook removal.
-
-**Q4**: Your opponent has cleared both hooks and is beginning to step backward - what is your last-resort defense before they fully disengage?
-**A**: Immediately sit up explosively and grab the nearest part of their retreating leg - ankle, heel, pants cuff, or shin. This arrests the extraction and creates a connection point you can use to pull yourself toward them or re-insert hooks from close range. Simultaneously, use your free leg to chase their retreating leg by inserting a butterfly hook or reaching for their far ankle. The key is speed - every fraction of a second they step further away reduces your ability to reconnect. If you cannot reach their leg, transition immediately to seated guard and prepare to re-engage from there.
-
-
-
-</section>
 
 
 </main>

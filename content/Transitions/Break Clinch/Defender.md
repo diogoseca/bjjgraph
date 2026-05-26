@@ -154,6 +154,8 @@ Defending against the clinch break means maintaining your clinch control when yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Break Clinch?</p>
+
 - Opponent begins actively stripping your grips with focused two-on-one grip breaks or circular wrist motions rather than fighting for their own offensive grips
 - Opponent shifts their weight backward and lowers their center of gravity as if loading their legs for an explosive backward step
 - Opponent drives forearms to the inside of your arms against your chest or shoulders, establishing frame contact points that create a wedge between your bodies
@@ -166,6 +168,8 @@ Defending against the clinch break means maintaining your clinch control when yo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Break Clinch?</p>
 
 - Maintain at least one strong anchor grip at all times so the opponent cannot create complete separation regardless of their frame strength
 - Follow the opponent's backward movement with immediate forward pressure, closing distance before they can establish fighting stance
@@ -181,6 +185,8 @@ Defending against the clinch break means maintaining your clinch control when yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Break Clinch?</p>
 
 ### 1. Re-pummel to inside position and tighten clinch grip before frames are established
 
@@ -218,6 +224,8 @@ Defending against the clinch break means maintaining your clinch control when yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Break Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 Re-engage immediately after a failed break attempt by pummeling to inside position with tighter grips. Use the opponent's backward momentum to pull them off-balance as you close distance. Establish a stronger grip configuration than before the break attempt so subsequent separation becomes harder.
@@ -233,6 +241,8 @@ Time the snap-down to the exact moment the opponent extends their frames for the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Break Clinch?</p>
 
 ### 1. Relying on a single grip configuration without re-pummeling when the opponent begins stripping grips
 
@@ -262,6 +272,8 @@ Time the snap-down to the exact moment the opponent extends their frames for the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Break Clinch?</p>
+
 **Phase 1: Recognition** - Identifying pre-break cues and early warning signs
 Partner telegraphs break attempts at slow speed while you practice identifying the cues: grip stripping, inside frame establishment, backward weight shift, and chin tuck. Call out the cues verbally to develop conscious recognition before adding physical responses.
 
@@ -278,26 +290,6 @@ Full-speed positional sparring where the opponent's sole objective is to break t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The opponent begins stripping your collar tie with a two-on-one grip break - how do you prevent the clinch break before it starts?
-**A**: Immediately transition to an alternative control point rather than fighting to maintain the collar tie against a two-on-one break. Switch to an underhook on the same side or a body lock before the grip strip is complete, maintaining at least one strong anchor point throughout the transition. The goal is to never have zero connections to the opponent, so transitioning grips proactively is more effective than defending a grip that is being systematically removed.
-
-**Q2**: What is the most effective moment to counter a clinch break attempt with a snap-down?
-**A**: The optimal moment is during the push-off phase when the opponent extends their arms to create distance and shifts their weight backward. At this point, their head is relatively forward compared to their hips, their arms are extended and functioning as levers you can redirect, and their backward momentum amplifies the downward force of your snap. Executing the snap-down before this moment fails because the opponent's weight is centered, and executing it after fails because they have already created too much distance.
-
-**Q3**: Your opponent successfully creates two feet of separation during a break attempt but has not yet circled to create an angle - what immediate action prevents full disengagement?
-**A**: Drive forward immediately with a penetration step toward their centerline, closing the gap before they can circle. Reach for their collar, wrist, or elbow with an extended hand to re-establish a connection point, then use that grip to pull yourself back into clinch range. Speed is critical because the window between initial separation and angle creation is approximately one to two seconds. If they begin circling before you close, cut off their circle direction by stepping laterally toward the side they are moving to rather than chasing behind them.
-
-**Q4**: How do you adjust your clinch strategy against an opponent who repeatedly attempts clinch breaks throughout the match?
-**A**: Tighten your grip configurations earlier in each clinch engagement and prioritize body lock or double underhook controls that are harder to frame against. Vary your counters between snap-downs, forward pressure, and level changes so the opponent cannot predict your response. Consider using their break tendencies offensively by timing takedown entries to coincide with their backward weight shifts, converting their escape attempts into your offensive entries. An opponent who is focused on breaking the clinch is often vulnerable to takedowns because their attention is on separation rather than takedown defense.
-
-
-
-</section>
 
 
 </main>

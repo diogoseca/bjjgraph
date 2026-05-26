@@ -162,6 +162,8 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Harness to Body Lock?</p>
+
 - Opponent's feet plant on the mat behind you with toes curled under, replacing their hooks with a standing base
 - Pressure from opponent's forearms shifts downward along your ribcage toward your waist, indicating the grip is sliding to body lock position
 - Opponent's chest pressure increases significantly as they load more weight onto your back during the transition
@@ -174,6 +176,8 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Harness to Body Lock?</p>
 
 - Recognize the grip slide early by feeling your opponent's forearms moving downward along your torso and their feet posting behind you
 - Attack the grip during the slide when it is at its weakest, before it locks tight at your waist
@@ -189,6 +193,8 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Harness to Body Lock?</p>
 
 ### 1. Intercept the grip slide by grabbing opponent's wrists and preventing the lock from reaching waist level
 
@@ -226,6 +232,8 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Harness to Body Lock?</p>
+
 ### → [[Positions/Clinch]]
 
 Break the chest-to-back connection during the grip transition window when control is weakest, using explosive hip movement and frames to create space, then turn to face the opponent and establish neutral clinch
@@ -241,6 +249,8 @@ Intercept the grip slide before it reaches the waist by grabbing the opponent's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Harness to Body Lock?</p>
 
 ### 1. Continuing to stand without addressing the grip transition happening behind you
 
@@ -270,6 +280,8 @@ Intercept the grip slide before it reaches the waist by grabbing the opponent's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Harness to Body Lock?</p>
+
 **Phase 1: Recognition Drill** - Identifying the transition trigger
 Partner alternates between re-inserting hooks and initiating the body lock transition from harness. You must call out which option they are choosing within one second based on tactile cues. Build pattern recognition for foot posting versus hook threading and grip sliding versus grip tightening. No escape attempts, focus solely on recognition speed.
 
@@ -286,29 +298,6 @@ Start from harness bottom with full resistance. Work complete escape sequence in
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When during the Transition to Body Lock is the opponent's control at its weakest and what should you do?
-**A**: The opponent's control is weakest while their grip is sliding from chest level to waist level, because the grip is not optimally positioned for either choking or body lock control during transit. During this window, you should execute explosive forward hip movement to break the chest-to-back connection, or grab their wrists to intercept the grip before it locks at the waist. This window lasts only one to two seconds, making recognition and immediate action essential.
-
-**Q2**: What are the earliest recognition cues that your opponent is transitioning to a body lock rather than re-inserting hooks?
-**A**: The earliest cues are: their feet planting on the mat behind you with toes curled under instead of attempting to thread hooks inside your thighs, their chest pressure increasing as they load weight for the standing transition, and their forearms beginning to slide downward along your ribcage. The absence of hook re-insertion attempts despite available space is the clearest signal that they have committed to the body lock path rather than maintaining ground back control.
-
-**Q3**: Why is sitting to guard sometimes the correct defensive choice when standing escape fails?
-**A**: A controlled sit to guard allows you to choose your landing position and immediately close guard around the opponent, establishing defensive frames on your own terms. This is significantly better than being thrown or mat-returned by the opponent, where they control the landing angle, maintain grip momentum, and arrive in a dominant position with you already flattened. The controlled guard pull concedes position but preserves your structural integrity and defensive options. Make this choice within two to three seconds of the body lock being fully established if standing grip breaks are failing.
-
-**Q4**: How do you prevent the opponent's hip pressure from breaking your posture once the body lock is established at your waist?
-**A**: Immediately drop into a wide athletic stance with knees bent deeply and feet wider than shoulder width. Lower your center of gravity by bending at the knees rather than the waist to maintain upright spine alignment. Drive your hips backward into the opponent to counteract their forward pressure. Get at least one hand inside the lock to create a wedge that prevents them from tightening further. This base maintenance buys you time to execute grip breaks, but must be established within the first second of the body lock settling.
-
-**Q5**: What is the mechanical principle behind attacking the grip during the slide rather than after it locks at the waist?
-**A**: During the slide, the opponent's forearms are moving along your torso with reduced friction and their hands are maintaining a lock that is under dynamic stress from the movement. This makes their grip structurally weaker than when it is stationary and cinched at the waist. Once the grip locks at the waist, the opponent can squeeze their elbows together, engage their core, and add hip pressure to reinforce the grip. Breaking a moving grip requires significantly less force than breaking a stationary, reinforced one, making the transition window the highest-percentage moment for defensive grip fighting.
-
-
-
-</section>
 
 
 </main>

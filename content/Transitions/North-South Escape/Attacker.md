@@ -182,6 +182,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing North-South Escape?</p>
+
 - Create frames immediately to prevent chest-to-chest pressure
 - Use hip escape mechanics to generate space before attempting recovery
 - Protect your neck throughout the entire escape sequence
@@ -197,6 +199,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting North-South Escape?</p>
+
 - Opponent has established north-south control with chest pressure
 - Your head and shoulders are trapped beneath opponent's torso
 - Opponent's hips are positioned near your head
@@ -210,6 +214,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute North-South Escape step by step?</p>
 
 1. **Establish defensive frames**: Immediately bring both hands to opponent's hips or lower torso, creating strong frames with your forearms against their body. Keep your elbows tight to your sides and hands positioned to push away from their center of mass. This prevents them from settling their full weight onto your chest and gives you the structural foundation to begin creating space.
 2. **Protect neck and create initial space**: Tuck your chin to your chest to defend against choke attempts while simultaneously pushing with your frames to create a few inches of space between your chest and opponent's chest. Focus on creating vertical space first by pushing their torso away from yours, rather than trying to turn or twist at this stage.
@@ -240,6 +246,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter North-South Escape?</p>
+
 - **Opponent sprawls their weight backward onto your hips** (Effectiveness: High) - Your Response: Switch to a technical standup or turtle recovery instead of continuing toward guard. Use the space created by their backward weight shift to come up to your knees or establish a seated guard position. → Leads to [[Positions/North-South]]
 - **Opponent transitions to side control during your turn** (Effectiveness: High) - Your Response: Immediately adjust your frames to address side control escape fundamentals. Use your near-side elbow as a frame against their shoulder and work to replace guard from the new position rather than forcing the original escape sequence. → Leads to [[Positions/Side Control]]
 - **Opponent attacks with submissions during escape attempt** (Effectiveness: Medium) - Your Response: Abandon the escape temporarily to address the submission threat directly. Defend the submission first, then reassess escape opportunities. Common submissions include kimura, armbar, or north-south choke variations. → Leads to [[Positions/North-South]]
@@ -252,6 +260,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing North-South Escape?</p>
 
 ### 1. Attempting to turn without first creating space with frames
 
@@ -291,6 +301,8 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train North-South Escape (Attacker)?</p>
+
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Master bridging and shrimping mechanics in isolation
 Practice bridging and turning movements without resistance, focusing on proper foot positioning, hip elevation, and rotation mechanics. Partner provides light north-south position without resistance. Drill the frame creation and space generation repeatedly until movements become automatic.
 
@@ -314,48 +326,12 @@ Develop the ability to flow between north-south escape and related escapes (side
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when trapped in north-south position before attempting any escape?
-**A**: The first priority is to establish defensive frames on the opponent's hips or torso to prevent them from settling their full weight onto your chest and to create the structural foundation necessary for generating space. Without frames, any escape attempt will be ineffective as the opponent can simply maintain pressure.
-
-**Q2**: Why is it important to turn away from the opponent's head during the north-south escape rather than toward it?
-**A**: Turning away from the opponent's head (toward their legs) creates better angles for inserting your knee shield and prevents them from easily transitioning to stronger control positions like mount or gift wrap. Turning toward their head plays into their strongest control points and makes the escape significantly more difficult while exposing you to additional attacks.
-
-**Q3**: What role does timing play in the success of the north-south escape, and what should you be looking for?
-**A**: Timing is critical because executing the escape when the opponent adjusts their weight or changes grips provides windows of reduced pressure and control. You should look for moments when they shift their weight, attempt submissions, or make positional adjustments. These moments create brief opportunities where their control is compromised, making your escape attempts significantly more effective than forcing escapes against static, settled pressure.
-
-**Q4**: How should you position your feet before executing the bridge in the north-south escape?
-**A**: Your feet should be positioned close to your body with your shins nearly vertical, creating a strong base for the bridge. Walking your feet toward your head before bridging creates optimal mechanical advantage, allowing you to generate maximum height and power in the bridging motion. Feet positioned too far away result in weak, ineffective bridges.
-
-**Q5**: What should you do if your initial escape attempt fails and the opponent maintains north-south control?
-**A**: If the initial attempt fails, you should reset your frames, conserve energy, and wait for the opponent's next weight adjustment or positional change before attempting again. Escape is often a multi-attempt process requiring patience and proper timing. Continuously forcing failed attempts wastes energy and may create submission opportunities for your opponent. Maintain defensive awareness, protect your neck, and wait for better timing on subsequent attempts.
-
-**Q6**: How does the north-south escape integrate with the overall defensive hierarchy in BJJ?
-**A**: The north-south escape is part of the pin escape methodology within the defensive hierarchy, which prioritizes escaping from inferior positions to recover to neutral or guard positions. It connects systematically with side control escapes and mount escapes, as opponents often transition between these dominant positions. Understanding that escapes flow together helps practitioners develop comprehensive defensive systems rather than isolated techniques. The escape may lead to guard recovery, turtle, or standing positions depending on execution and opponent reactions.
-
-**Q7**: Your opponent begins reaching for your far arm while in north-south - what escape opportunity does this create?
-**A**: When your opponent reaches for submissions like the kimura, their weight shifts to one side and their base becomes compromised. This creates an optimal window to bridge toward the opposite side where their support is weakened. Use the timing of their reach to execute an explosive bridge and turn, capitalizing on their momentary balance vulnerability before they can secure the grip and settle their weight again.
-
-**Q8**: What is the critical difference between frames against the chest versus frames against the hips in north-south escape?
-**A**: Frames against the chest create immediate breathing room and push the opponent's weight upward, but require more strength to maintain against heavy pressure. Frames against the hips are structurally stronger because you can use skeletal alignment rather than muscular effort, and they also block the opponent from advancing to mount. The most effective approach combines both: initial hip frames to create structure, then chest frames to create turning space as you execute the escape sequence.
-
-**Q9**: When inserting your knee shield during the escape, which knee should you prioritize and why?
-**A**: Insert the bottom knee (the one closer to the mat when you turn to your side) first because it requires the least space to enter and creates an immediate barrier. The bottom knee slides between your hip and their torso, while your top leg can push against their body for additional leverage. Trying to insert the top knee first requires more space and often results in getting flattened back down before you can establish the guard frame.
-
-**Q10**: How do you manage your breathing under heavy north-south pressure to avoid panic and maintain energy for escape?
-**A**: Establish a controlled breathing pattern by exhaling during moments of peak pressure and taking quick inhales during micro-adjustments in their weight. Turning slightly to angle your ribcage helps create breathing space. Avoid holding your breath or hyperventilating, as both lead to rapid fatigue and panic. Mental composure allows you to wait for proper timing rather than wasting energy on poorly-timed escape attempts that fail and further exhaust you.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for North-South Escape?</p>
 
 When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners.
 

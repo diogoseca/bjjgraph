@@ -213,7 +213,7 @@ The crucifix from turtle sits at the intersection of back attack systems and tur
 
 - [[Transitions/Armbar from Crucifix]] - Primary submission follow-up from crucifix
 
-- [[Transitions/Choke from Crucifix]] - High-percentage submission from crucifix
+- [[Submissions/Choke from Crucifix]] - High-percentage submission from crucifix
 
 - [[Transitions/Crab Ride to Back]] - Related turtle top back attack
 

@@ -188,6 +188,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Fallback to Inside Ashi-Garami?</p>
+
 - Recognize deteriorating saddle control before it collapses completely—proactive retreat beats reactive scramble
 - Maintain continuous leg-to-leg contact throughout the transition to prevent any window for complete escape
 - Grip transitions must be seamless—release saddle grips only after establishing ashi control grips
@@ -202,6 +204,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Fallback to Inside Ashi-Garami?</p>
+
 - Currently in Saddle/Top with some form of leg entanglement still intact on opponent's leg
 - Recognition that saddle control is deteriorating through opponent's frames, rotation, or leg extraction
 - At least one grip on opponent's foot, ankle, or lower leg that can be maintained during transition
@@ -213,6 +217,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Fallback to Inside Ashi-Garami step by step?</p>
 
 1. **Recognize deteriorating saddle control**: Identify specific indicators that saddle is no longer viable: opponent has cleared your hip pressure, established frames on your hips or shoulders, begun rotating their body away from perpendicular alignment, or started extracting their heel from your control. This recognition must happen before the position collapses completely.
 2. **Secure transitional grip on ankle or heel**: Before releasing any part of the saddle configuration, establish a firm grip on the opponent's ankle or heel that will persist through the transition. Use a C-grip with fingers wrapped around the heel and thumb on the Achilles tendon, or grip the ankle directly. This grip becomes the anchor that maintains offensive connection throughout the positional change.
@@ -242,6 +248,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Fallback to Inside Ashi-Garami?</p>
+
 - **Explosive hip escape during leg reconfiguration to extract trapped leg completely** (Effectiveness: High) - Your Response: Maintain constant leg-to-leg contact and follow their hip movement by scooting toward them. If they begin extracting, immediately clamp both legs and abandon the positional change to retain any control. Consider switching to an emergency ankle grip to maintain connection even if leg configuration is lost. → Leads to [[Positions/Half Guard]]
 - **Leg pummel to prevent inside leg from crossing hip during transition** (Effectiveness: Medium) - Your Response: Drive inside leg forcefully across their hip using hip extension rather than just leg movement. If they successfully pummel, attempt to re-enter saddle using the deeper entanglement you still partially have, or redirect to outside ashi-garami where their pummeling may have exposed a different angle. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Frame on hips and straighten body to create maximum distance during transition window** (Effectiveness: Medium) - Your Response: Follow their body movement aggressively by scooting your hips toward them rather than reaching with arms. Use your transitional ankle grip to prevent their leg from fully extending away. If they create significant distance, prioritize clamping any leg control and accept a loose ashi that requires consolidation. → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Fallback to Inside Ashi-Garami?</p>
 
 ### 1. Waiting too long to initiate the fallback, attempting to maintain a completely compromised saddle
 
@@ -292,6 +302,8 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Fallback to Inside Ashi-Garami (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolating the leg reconfiguration sequence
 Partner holds still in saddle bottom while you practice the step-by-step transition: secure grip, release saddle, establish inside leg, hook outside leg, consolidate. Repeat 20+ times per side focusing on eliminating any gap in leg control during the change. No resistance.
 
@@ -312,42 +324,12 @@ Full positional sparring starting from saddle. Integrate the fallback naturally 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the primary indicators that your saddle control has deteriorated to the point where a fallback is necessary?
-**A**: The key indicators are: opponent has cleared your hip pressure and can now rotate freely, opponent has established strong frames on your hips or shoulders preventing you from re-engaging pressure, your perpendicular alignment has been broken significantly, or opponent has begun successfully extracting their heel from your control. Any two of these occurring simultaneously should trigger immediate fallback. The critical distinction is between temporary resistance (which you can overcome) and structural escape (which requires positional retreat).
-
-**Q2**: What grip must be established before any other element of the fallback is initiated?
-**A**: A firm transitional grip on the opponent's ankle or heel must be secured before releasing any part of the saddle configuration. This C-grip (fingers on heel, thumb on Achilles) or direct ankle grip serves as the anchor that maintains offensive connection throughout the entire positional change. Without this grip, releasing the saddle configuration creates a control-free window where the opponent can retract their leg and escape entirely.
-
-**Q3**: Your opponent bridges explosively just as you begin releasing the saddle configuration—how do you adjust?
-**A**: Immediately abort the transition and re-clamp your saddle leg configuration around their trapped leg. Their explosive bridge creates kinetic energy that you can ride rather than fight—let their movement pass while maintaining tight leg control. Once they settle, reassess whether saddle is still viable. If their bridge successfully cleared your hip pressure, restart the fallback sequence from step one. Never continue a half-completed transition during explosive defensive movements.
-
-**Q4**: What is the most critical leg position that must be established to create a functional inside ashi-garami?
-**A**: The inside leg across the opponent's near hip with your foot planted on the far side of their body is the non-negotiable foundation. This single element provides rotational control that prevents the opponent from facing you directly, turning away, or squaring their hips. Without the inside leg across the hip, you have loose leg control but not a genuine inside ashi-garami position, and the opponent can escape through simple hip rotation.
-
-**Q5**: How should you apply force during the transition to minimize injury risk to your training partner?
-**A**: Execute the transition with smooth, controlled movements rather than explosive or jerky actions. The leg reconfiguration creates unpredictable angles on the opponent's knee and ankle joints, so controlled speed prevents accidental torque on vulnerable structures. Maintain constant communication during drilling. Never snap from one position to another—flow through each step deliberately. The transition should feel like a gear shift, not a collision.
-
-**Q6**: After completing the fallback to inside ashi-garami, what should your immediate offensive strategy be?
-**A**: First consolidate the position by squeezing legs tight and establishing perpendicular alignment. Then immediately threaten the highest-percentage submission available—typically a straight ankle lock—to force defensive reactions. Do not rush back to saddle entry. Let the opponent's defense of your ashi attacks create natural openings for position advancement. If they defend the ankle lock by rotating their knee inward, this exposes the heel for advancement to honey hole or saddle. Their defensive reactions guide your next move.
-
-**Q7**: Your opponent pummel their free leg to prevent your inside leg from crossing their hip during the transition—what is your response?
-**A**: Drive your inside leg across their hip using full hip extension rather than just knee movement, as this generates significantly more force. If their pummel succeeds, you have two options: attempt to re-enter saddle using whatever deeper entanglement you still partially maintain, or redirect to outside ashi-garami where their pummeling may have inadvertently exposed a different entry angle. Never stall in an incomplete position—either complete the inside ashi or transition to an alternative entanglement.
-
-**Q8**: What distinguishes an appropriately timed fallback from a premature retreat that wastes an attacking opportunity?
-**A**: An appropriately timed fallback occurs when the opponent has created structural changes to your saddle—cleared hip pressure, broken perpendicular alignment, or established frames that cannot be quickly removed. A premature retreat abandons saddle when the opponent is merely resisting but has not fundamentally compromised your position. The test is whether your next saddle attack would have a reasonable success probability. If the answer is no because the structural foundation has been disrupted, fall back. If you still have structural control and the opponent is simply grip fighting, stay and work.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Fallback to Inside Ashi-Garami?</p>
 
 This transition involves reconfiguration of leg entanglements where knee and ankle injuries are possible during the positional change. Always execute the transition with smooth, controlled movements—never jerk or explosively reposition legs during the fallback. The moment of releasing the saddle configuration creates unpredictable angles on the opponent's trapped knee and ankle. Communicate clearly with training partners about pressure levels during drilling. Tap immediately if you feel any rotational stress on the knee during the reconfiguration. When first learning this transition, practice at minimal speed with a cooperative partner before adding resistance.
 

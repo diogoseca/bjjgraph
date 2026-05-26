@@ -188,6 +188,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Shield Half Guard to Z-Guard?</p>
+
 - Time the elevation to moments when opponent's weight is shifting or they are adjusting grips, not during maximum pressure application
 - Use hip movement (bridge or hip escape) to create the vertical space needed for knee shield elevation rather than muscling the knee upward
 - Secure or deepen the underhook simultaneously with knee elevation to prevent the opponent from collapsing the new frame
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Shield Half Guard to Z-Guard?</p>
+
 - Established knee shield half guard with shin across opponent's torso and bottom leg hooking opponent's far leg
 - Hips mobile and not flattened to the mat, with ability to bridge or hip escape to generate elevation space
 - At least one controlling grip on the opponent's upper body (collar, sleeve, wrist, or underhook) to manage their reaction during transition
@@ -214,6 +218,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Shield Half Guard to Z-Guard step by step?</p>
 
 1. **Assess pressure and timing**: Read the opponent's weight distribution and grip configuration from your current knee shield position. Identify the optimal moment to elevate: when they shift grips, transition between passing strategies, or momentarily lighten their pressure. Do not attempt the elevation while they are driving maximum forward pressure into the shield.
 2. **Secure controlling grips**: Establish or confirm your underhook on the trapped leg side by threading your arm deep under the opponent's armpit. With your far hand, control their sleeve, collar, or wrist to prevent them from establishing crossface or collapsing the shield during elevation. These grips must be in place before initiating movement.
@@ -243,6 +249,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Shield Half Guard to Z-Guard?</p>
+
 - **Opponent drives heavy crossface pressure during elevation attempt** (Effectiveness: High) - Your Response: Abort the elevation and re-establish standard knee shield frames. Address the crossface by framing on their bicep or establishing collar tie before reattempting. If crossface is too deep, transition to deep half entry instead. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent grabs your knee shield leg at the knee or ankle to prevent upward travel** (Effectiveness: Medium) - Your Response: Use your far hand to strip their grip on your leg while maintaining underhook control. Alternatively, use the grip strip as a momentary distraction to swim for a deeper underhook, then reattempt elevation once the grip is broken. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Opponent immediately smash passes by driving weight forward as knee shield leaves mid-torso position** (Effectiveness: High) - Your Response: If the smash collapses your frame during transition, abandon the Z-Guard entry and use the opponent's forward momentum to dive into deep half guard. The key is recognizing early that the elevation is being stuffed and redirecting rather than fighting a losing battle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Shield Half Guard to Z-Guard?</p>
 
 ### 1. Attempting to elevate the knee shield while opponent is applying maximum forward pressure
 
@@ -293,6 +303,8 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Shield Half Guard to Z-Guard (Attacker)?</p>
+
 **Solo Drilling** - Hip mechanics and knee placement
 Practice the bridge-to-elevation and hip escape-to-elevation movements without a partner. Focus on the coordination between hip movement and knee travel along an imaginary opponent's torso. Drill 20 repetitions each side, emphasizing smooth transitions rather than speed.
 
@@ -313,42 +325,12 @@ During regular rolling sessions, focus on identifying natural transition windows
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the knee shield elevation to Z-Guard?
-**A**: The optimal window occurs when the opponent is transitioning between passing strategies, adjusting grips, or shifting their weight distribution. Specifically, look for the moment when they release one grip to establish another, when they shift from pressure passing to standing, or when they reposition their base. These transitions create brief periods of reduced pressure where the knee can travel upward without meeting full resistance.
-
-**Q2**: What conditions must exist in your knee shield half guard before you can attempt the Z-Guard transition?
-**A**: Your hips must retain mobility and not be flattened to the mat. You need at least one controlling grip (underhook preferred) on the opponent's upper body. The opponent's crossface must be neutralized or absent so your head and shoulders can move. Your bottom leg hook must be secure on the opponent's trapped leg. Your current knee shield must have enough structural integrity to survive the momentary instability during elevation.
-
-**Q3**: What is the most critical mechanical detail that distinguishes a successful Z-Guard elevation from a failed one?
-**A**: The coordination between hip elevation and knee travel is the critical mechanical detail. The hip bridge or hip escape must create vertical space before the knee begins its upward journey. If you try to drive the knee upward without first lifting the opponent's weight off the shield through hip movement, the knee meets direct resistance and the transition stalls or gets stuffed. The hip moves first, the knee follows into the created space.
-
-**Q4**: Why is the underhook so important during the Z-Guard transition specifically?
-**A**: The underhook provides structural support that prevents the opponent from collapsing the knee shield during the vulnerable transition phase. When the knee is traveling from mid-torso to shoulder height, there is a brief moment where the frame is neither in its old stable position nor its new one. The underhook creates an upper body connection that maintains distance during this gap, essentially serving as a backup frame while the primary frame is being repositioned.
-
-**Q5**: Your opponent grabs your knee shield leg at the ankle as you begin elevating. How do you adjust?
-**A**: Use your far hand to strip their grip on your ankle by peeling their fingers or slapping their hand away. Maintain your underhook with your near arm throughout the grip fight. Once the grip is broken, immediately continue the elevation before they can re-grip. If the grip is too strong to strip, use the grip fighting exchange as a distraction to deepen your underhook, then attempt the elevation with the enhanced upper body control that makes their leg grip less effective.
-
-**Q6**: What direction of force should the knee shield apply once it reaches the shoulder position?
-**A**: The knee should drive outward and slightly upward into the opponent's shoulder at approximately a 45-degree angle relative to the mat. This direction creates maximum distance by pushing the opponent's upper body away while simultaneously loading the frame like a spring. Pure horizontal pressure is less effective because it does not address the opponent's ability to drive downward. The upward component prevents them from settling their weight onto the frame.
-
-**Q7**: The opponent drives heavy crossface pressure the moment you begin elevating. What is your response?
-**A**: Abort the Z-Guard transition immediately and address the crossface threat first. Frame on their bicep with your far hand to create space, then establish a collar tie or swim for an underhook to neutralize the crossface. If the crossface is already deep and your position is deteriorating, abandon the elevation entirely and transition to deep half guard using the opponent's forward pressure to facilitate the dive. Never continue an elevation attempt against established crossface control.
-
-**Q8**: How do chain attacks factor into the Z-Guard transition strategy?
-**A**: The transition itself should be viewed as the first link in an offensive chain, not an isolated positional adjustment. Upon achieving Z-Guard, immediately threaten an Old School sweep or underhook bump to force the opponent to defend rather than counter-attack your new frame. If they defend the sweep by posting, transition to a back take. If they drive forward to resist the bump, use their momentum for deep half entry. The Z-Guard transition only succeeds strategically if it is immediately followed by offensive pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Shield Half Guard to Z-Guard?</p>
 
 The Transition to Z-Guard is a low-risk positional adjustment with minimal injury potential. The primary safety concern is maintaining awareness of your knee shield leg position during elevation to avoid hyperextension of the knee if the opponent suddenly drives forward while your leg is in transition. Practitioners with knee injuries should be cautious about the dynamic knee positioning required and may need to modify the technique with slower, more controlled movements. Always ensure your bottom leg hook is secure to prevent the opponent from passing into positions where your knee could be trapped at a vulnerable angle.
 

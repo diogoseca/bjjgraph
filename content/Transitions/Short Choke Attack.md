@@ -39,7 +39,7 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Short Choke]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
@@ -202,9 +202,9 @@ The Short Choke Attack occupies a central position within the Gift Wrap attack s
 
 - [[Positions/Gift Wrap]] - Starting position - Short Choke is primary attack from this control
 
-- [[Transitions/Rear Naked Choke]] - Alternative choke - standard RNC if Short Choke entry is blocked
+- [[Submissions/Rear Naked Choke]] - Alternative choke - standard RNC if Short Choke entry is blocked
 
-- [[Submissions/Armbar from Back]] - Chain attack - available when opponent uses free arm to defend choke
+- [[Transitions/Armbar from Back Transition]] - Chain attack - available when opponent uses free arm to defend choke
 
 - [[Transitions/Crucifix Transition]] - Positional advancement - accessible when opponent defends choke by turning away
 
@@ -214,7 +214,7 @@ The Short Choke Attack occupies a central position within the Gift Wrap attack s
 
 - [[Transitions/Body Triangle Lock]] - Control enhancement - stabilizes position for cleaner choke attempts
 
-- [[Transitions/Bow and Arrow Choke]] - Alternative attack - available in gi from similar control position
+- [[Submissions/Bow and Arrow Choke]] - Alternative attack - available in gi from similar control position
 
 
 </section>

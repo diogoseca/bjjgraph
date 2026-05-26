@@ -186,6 +186,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gift Wrap to Technical Mount?</p>
+
 - Maintain Gift Wrap arm control throughout the entire transition without loosening grip
 - Use opponent's defensive rotation as the catalyst for position change rather than forcing movement
 - Keep chest-to-back connection until the moment of hip clearing to prevent space creation
@@ -201,6 +203,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gift Wrap to Technical Mount?</p>
+
 - Gift Wrap control established with arm threaded under opponent's armpit and wrist secured on opposite side
 - Back hooks or body triangle in place providing foundational lower body control
 - Opponent showing signs of hip rotation toward the attacker or attempting to turn in
@@ -213,6 +217,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gift Wrap to Technical Mount step by step?</p>
 
 1. **Recognize rotation opportunity**: Feel for opponent's hip rotation toward you - this is the trigger. They may be attempting to relieve back pressure or setting up escape. Do not initiate until this rotation begins as forcing creates defensive frames.
 2. **Remove far side hook**: Release the hook that is furthest from the direction of rotation. This hook would obstruct the transition. Keep the near side hook deeply engaged as this provides the pivot point for the entire movement.
@@ -241,6 +247,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gift Wrap to Technical Mount?</p>
+
 - **Opponent frames with free arm against transitioning knee to prevent mount establishment** (Effectiveness: Medium) - Your Response: Drive knee through the frame using hip pressure while maintaining Gift Wrap tightness. The single arm frame lacks the structural integrity to stop committed knee drive. If blocked, immediately threaten armbar on the framing arm. → Leads to [[Positions/Gift Wrap]]
 - **Opponent attempts to continue rolling past mount toward guard recovery** (Effectiveness: High) - Your Response: Post your far foot firmly and drop your weight low. Use the Gift Wrap arm to anchor their upper body rotation while your posted leg stops hip rotation. If they persist, follow to technical mount on opposite side. → Leads to [[Positions/Half Guard]]
 - **Opponent stiffens and refuses to rotate, denying the transition trigger** (Effectiveness: Medium) - Your Response: Return to rear naked choke attacks to force defensive movement. The threat of the choke typically generates the rotation you need. Alternatively, use body triangle pressure to make their position uncomfortable until they move. → Leads to [[Positions/Gift Wrap]]
@@ -252,6 +260,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gift Wrap to Technical Mount?</p>
 
 ### 1. Loosening Gift Wrap control during the transition to use both hands for base
 
@@ -286,6 +296,8 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gift Wrap to Technical Mount (Attacker)?</p>
+
 **Week 1-2** - Mechanical pathway
 Practice the hook removal and knee clearance sequence with fully cooperative partner. Focus on maintaining Gift Wrap tightness throughout movement. Perform 20-30 repetitions per side daily until movement becomes fluid and automatic.
 
@@ -303,48 +315,12 @@ Incorporate into live rolling from back control. Track conversion rate from Gift
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that indicates it is time to initiate this transition?
-**A**: The primary trigger is feeling opponent begin hip rotation toward you. This rotation typically occurs when they attempt to relieve back pressure, create escape angles, or defend choke attacks. The transition redirects this defensive movement into the mounted position rather than allowing escape.
-
-**Q2**: Which hook do you remove first and why?
-**A**: Remove the far side hook first while maintaining the near side hook. The near hook serves as the pivot point that keeps you connected during rotation and guides the opponent into the mounted position. Removing the near hook first eliminates your anchor and causes you to slide off their back.
-
-**Q3**: Your opponent posts their free arm against your transitioning knee - how do you respond?
-**A**: Drive through the single-arm frame using committed hip pressure while maintaining Gift Wrap tightness. A single arm lacks structural integrity to stop a committed knee drive. If the frame persists, immediately threaten armbar on the extended framing arm - this creates a dilemma where they must choose between blocking the mount or protecting the arm.
-
-**Q4**: What critical mistake causes practitioners to end in half guard instead of mount?
-**A**: Failing to clear the knee past the opponent's hip line before they flatten their hips results in half guard or quarter guard. The knee must cross completely while the opponent is still rotating. Half measures create half guard. The solution is committing fully to knee clearance at the perpendicular point of rotation.
-
-**Q5**: Why is technical mount the target position rather than standard mount?
-**A**: Technical mount with high knee positioning maintains the arm isolation advantage from the Gift Wrap. The trapped arm remains compromised for defense, making subsequent submission attempts significantly higher percentage. Low mount allows the opponent to use both arms for escape frames, negating the control advantage built through the Gift Wrap.
-
-**Q6**: Your opponent continues rolling past mount attempting guard recovery - what is your response?
-**A**: Post your far foot firmly and drop weight low to anchor. Use the Gift Wrap arm control to stop upper body rotation while the posted leg prevents hip rotation. If they persist despite these measures, follow their momentum and establish technical mount on the opposite side rather than fighting their direction.
-
-**Q7**: When should you abandon the Gift Wrap during transition?
-**A**: Only abandon the Gift Wrap if the arm is already recovering and maintaining grip compromises the mount transition entirely. It is better to complete mount with standard control than to lose both the arm trap and the position. However, fight to maintain the Gift Wrap unless absolutely necessary - it significantly increases submission success from technical mount.
-
-**Q8**: How do you create rotation against a passive opponent who refuses to move?
-**A**: Attack the rear naked choke aggressively to force defensive hand movement and head turning. Use your choking arm to physically turn their head and upper body toward you while the Gift Wrap arm maintains control. The forced rotation creates the same trigger as natural defensive movement. Body triangle squeezing pressure also creates discomfort that generates movement.
-
-**Q9**: What is the optimal grip configuration for maintaining the Gift Wrap during the rotation phase?
-**A**: The Gift Wrap arm threads under the opponent's armpit and secures the wrist or lower forearm on the opposite side of their body. During rotation, pull the trapped arm higher across the chest toward the far shoulder to increase mechanical advantage. Your grip should be on the wrist for maximum leverage, and your elbow drives downward into their body to prevent arm extraction during the chaotic transition phase.
-
-**Q10**: How does the direction of force change during each phase of this transition?
-**A**: In the initial phase, force is lateral as you guide rotation using the near hook and Gift Wrap control. At the perpendicular point, force shifts to downward pressure as you drive your knee across the hip line. In the consolidation phase, force becomes vertical as you settle weight into technical mount. Understanding these directional shifts prevents applying force in the wrong plane, which is the root cause of most failed transition attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gift Wrap to Technical Mount?</p>
 
 This transition is relatively low risk compared to explosive sweeps or inversions. The primary safety concern is maintaining controlled rotation speed - allowing the opponent to rotate too quickly can result in neck strain if the Gift Wrap creates resistance to head movement. Release Gift Wrap control immediately if your partner indicates neck discomfort during the rotation phase. During drilling, communicate rotation speed preferences with training partners. Practitioners with shoulder injuries should approach the Gift Wrap position cautiously as the arm trap creates shoulder stress. Avoid this transition against significantly smaller partners where your weight in mount could cause breathing restriction.
 

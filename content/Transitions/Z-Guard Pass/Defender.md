@@ -162,6 +162,8 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Z-Guard Pass?</p>
+
 - Passer establishes crossface control by driving forearm across your jaw and neck, turning your head away from them and limiting your ability to create angles
 - Passer begins driving chest and shoulder into your knee shield at a downward angle rather than straight forward, indicating they understand proper passing mechanics
 - Passer controls your far-side arm by gripping sleeve, wrist, or collar, neutralizing your ability to establish the underhook needed for sweep entries
@@ -174,6 +176,8 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Guard Pass?</p>
 
 - Maintain constant active tension in the knee shield against the passer's shoulder, treating it as a loaded spring rather than a static barrier that can be gradually compressed
 - Prioritize securing the far-side underhook on the trapped leg side, as this single control point enables all major sweeps and prevents the crossface that enables the pass
@@ -188,6 +192,8 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Z-Guard Pass?</p>
 
 ### 1. Extend knee shield forcefully and hip escape to re-establish distance and reset guard structure
 
@@ -225,6 +231,8 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Z-Guard Pass?</p>
+
 ### → [[Positions/Z-Guard]]
 
 Maintain active knee shield tension and win the grip fighting battle to prevent the passer from establishing the crossface and knee control needed to collapse the frame. Use hip escapes to continuously reset angles and deny the passer stable alignment for their pressure pass.
@@ -240,6 +248,8 @@ Time a sweep during the passer's weight commitment, either as they drive into th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Guard Pass?</p>
 
 ### 1. Allowing the knee shield to gradually collapse without actively re-extending or transitioning to an alternative position
 
@@ -274,6 +284,8 @@ Time a sweep during the passer's weight commitment, either as they drive into th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Z-Guard Pass?</p>
+
 **Phase 1: Recognition** - Identifying pass initiation cues and timing windows
 Partner executes the Z-Guard pass at slow speed while you focus on recognizing the key cues: crossface establishment, knee grip acquisition, and weight shift for the knee slide. Identify when each phase of the pass begins without attempting to defend yet. Build the pattern recognition that enables timely defensive responses in later phases.
 
@@ -290,29 +302,6 @@ Positional sparring starting from Z-Guard with full resistance. Defender must ei
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to establish from Z-Guard bottom when defending against a pass attempt?
-**A**: The far-side underhook on the trapped leg side is the single most important grip. It controls the passer's posture and shoulder position, prevents them from establishing the crossface that enables the pass, and directly enables all major sweep options including old school sweep, underhook sweep, and back take entries. Without the underhook, the defender is limited to reactive frame defense without offensive counter-threats.
-
-**Q2**: When should you abandon Z-Guard and transition to deep half guard instead of continuing to defend the knee shield?
-**A**: Transition to deep half when your knee shield has been partially collapsed to the point where re-extension requires more energy than the position is worth, but the passer has not yet gripped your knee to pin the shield or initiated the knee slide. The window is narrow: once the passer controls your knee, deep half entry becomes significantly harder. The cue is feeling your shield losing structural integrity despite active resistance, combined with the passer's weight settling lower and heavier.
-
-**Q3**: How do you use the passer's forward pressure as fuel for a sweep rather than simply resisting it?
-**A**: Accept and redirect their forward pressure rather than fighting it with static resistance. As the passer drives into your knee shield, use that energy by extending the knee shield forcefully in the same direction as their momentum while simultaneously pulling with your underhook to create rotation. Their committed forward weight becomes the force that carries them over the tipping point. The key is timing the extension to coincide with their deepest weight commitment rather than fighting their pressure continuously.
-
-**Q4**: Your opponent has established crossface and is driving heavy pressure into your collapsing knee shield - what is your emergency response?
-**A**: With crossface established and the shield collapsing, your best emergency response is to commit to a deep half guard entry by shooting your top arm under their body and turning into them to get your head underneath their hips. Alternatively, frame against their shoulder with both hands to create momentary space for a hip escape that allows you to re-angle and re-establish the knee shield. The worst response is lying flat and hoping to recover through strength alone.
-
-**Q5**: How does hip angle management affect your ability to defend the Z-Guard pass?
-**A**: Maintaining your hips at an angle rather than square to the passer fundamentally changes the geometry of the pass. Angled hips force the passer to adjust their pressure line continuously, prevent them from establishing the perpendicular alignment needed for effective knee shield collapse, and create the structural foundation for sweep entries. When your hips are square, the passer can apply direct forward pressure efficiently. When angled, they must address your angle before they can address your shield, giving you time and space to mount offensive counter-attacks.
-
-
-
-</section>
 
 
 </main>

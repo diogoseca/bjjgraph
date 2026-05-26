@@ -23,9 +23,22 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import EditOnGithub from "./EditOnGithub"
 import MoveCards from "./MoveCards"
+import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
-import TransitionFlashcard from "./TransitionFlashcard"
+import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
+import TreeExplorer from "./TreeExplorer"
+import TopBar from "./TopBar"
+import AuthUI from "./AuthUI"
+import ContentPanel from "./ContentPanel"
+import BackgroundGraph from "./BackgroundGraph"
+import TreeDrawer from "./TreeDrawer"
+import FlashcardsHeader from "./FlashcardsHeader"
+import DecksModal from "./DecksModal"
+import SettingsModal from "./SettingsModal"
+import SessionChevrons from "./SessionChevrons"
+import FirstLoadHint from "./FirstLoadHint"
+import RollSessionButton from "./RollSessionButton"
 
 export {
   ArticleTitle,
@@ -53,7 +66,20 @@ export {
   Comments,
   EditOnGithub,
   MoveCards,
+  OutcomeCards,
   Snackbar,
-  TransitionFlashcard,
+  Flashcard,
   VictoryDisplay,
+  TreeExplorer,
+  TopBar,
+  AuthUI,
+  ContentPanel,
+  BackgroundGraph,
+  TreeDrawer,
+  FlashcardsHeader,
+  DecksModal,
+  SettingsModal,
+  SessionChevrons,
+  FirstLoadHint,
+  RollSessionButton,
 }

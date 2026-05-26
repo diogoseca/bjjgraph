@@ -182,6 +182,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Harai Goshi?</p>
+
 - Break opponent's balance forward and to the side before initiating the sweep
 - Hip placement must be lower than opponent's center of gravity for effective lift
 - Sweeping leg action targets opponent's weight-bearing leg at precise timing
@@ -197,6 +199,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Harai Goshi?</p>
+
 - Establish strong collar and sleeve grips (gi) or body lock/overhook control (no-gi)
 - Create forward momentum by pulling opponent's upper body toward you
 - Position feet in proper stance with lead foot forward for entry
@@ -211,6 +215,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Harai Goshi step by step?</p>
 
 1. **Establish grips and break balance**: Secure a strong collar grip with your right hand (or overhook in no-gi) and sleeve grip with your left hand. Pull opponent forward and slightly to their right side, breaking their balance onto their toes while maintaining your own upright posture. Your goal is to feel their weight committed forward before initiating the throw.
 2. **Step in with lead foot**: Step your right foot deep across your opponent's body, placing it slightly in front of and outside their right foot. Your foot should point in the direction you intend to throw. This step creates the angle necessary for hip placement and positions your sweeping leg for the critical action.
@@ -239,6 +245,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Harai Goshi?</p>
+
 - **Opponent sprawls backward and widens base when sensing throw entry** (Effectiveness: High) - Your Response: If they sprawl early, immediately switch to alternative takedown such as Kouchi Gari or drop under for Single Leg. If committed to Harai Goshi, deepen your hip penetration and increase pulling force on upper body to prevent their retreat. → Leads to [[Positions/Standing Position]]
 - **Opponent posts leg backward (counter to leg sweep) or steps over** (Effectiveness: Medium) - Your Response: Transition to Uchi Mata by driving your sweeping leg between their legs instead of outside. Alternatively, switch to Osoto Gari by attacking their posted leg with reaping action. → Leads to [[Positions/Standing Position]]
 - **Opponent grips your belt or pants to prevent hip rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation before they can establish strong grip control. Use your collar grip to break their posture more severely, forcing them to prioritize balance over grip fighting. In no-gi, tighten your overhook to prevent their defensive frame. → Leads to [[Positions/Standing Position]]
@@ -250,6 +258,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Harai Goshi?</p>
 
 ### 1. Hip placement too high - hips level with or higher than opponent's hips
 
@@ -289,6 +299,8 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Harai Goshi (Attacker)?</p>
+
 **Phase 1: Static Entry (Weeks 1-2)** - Hip placement and rotation mechanics
 Partner stands completely still while you practice stepping in, rotating hips, and achieving proper depth. Focus on getting your hips lower than partner's with correct foot placement. No sweeping action or completion yet - purely entry mechanics. Perform 20-30 repetitions per training session on each side.
 
@@ -312,54 +324,12 @@ Full-intensity standup sparring where you must hit Harai Goshi and follow to sub
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical factor in achieving a successful Harai Goshi throw?
-**A**: The most critical factor is achieving proper hip placement where your hips are positioned significantly lower than your opponent's center of gravity. This creates the mechanical advantage necessary to lift and rotate them over your hip. Without correct hip depth, the throw lacks the fundamental platform for generating force, regardless of how well other elements are executed. The hip position must be established before initiating the leg sweep, and it requires sufficient knee bend and complete rotation to be effective.
-
-**Q2**: How does the sweeping leg action in Harai Goshi differ from a simple kick, and why is this distinction important?
-**A**: The sweeping leg action in Harai Goshi is a large, circular reaping motion using the entire leg (calf and thigh) to remove the opponent's base, rather than a striking kick with the foot. This distinction is important because a kick lacks the surface area and power to effectively remove a weight-bearing leg and can result in injury to both practitioners. The proper sweeping action creates continuous contact and force application that coordinates with hip rotation and upper body control to generate the throwing motion. The sweep should feel like scooping or harvesting rather than striking.
-
-**Q3**: Explain the timing relationship between kuzushi (balance breaking), hip entry, and the leg sweep in Harai Goshi execution?
-**A**: The timing relationship follows a sequential progression: First, kuzushi must break the opponent's balance forward and slightly to the side, making them shift weight onto their toes. Second, as they react to this off-balancing by stepping forward or attempting to regain posture, you execute the hip entry, stepping across and rotating your hips into position while they are in motion. Third, the leg sweep begins as your hips make contact with their body, coordinating with your continued rotation and pulling action. The sweep must occur while they are still off-balance from the initial kuzushi and before they can establish a new base. The entire sequence flows as one continuous motion, with each element setting up the next.
-
-**Q4**: What are the key grip fighting priorities when setting up Harai Goshi in the gi versus no-gi contexts?
-**A**: In gi contexts, the priority is establishing a strong collar grip (typically with your throwing-side hand) that allows you to break posture and control their upper body rotation, combined with a sleeve or elbow grip that prevents them from posting or framing. These grips provide strong leverage points for the pulling action. In no-gi contexts, the priority shifts to securing an overhook or front headlock position on one side with an underhook or wrist control on the other, focusing on control of their shoulder and head positioning rather than their gi fabric. No-gi grips require tighter body connection and often necessitate closer range to prevent opponent from creating separation. Both contexts require maintaining grips throughout the throw to control the landing.
-
-**Q5**: How should you transition from a completed Harai Goshi throw to establishing side control, and what are the common errors in this transition?
-**A**: The transition to side control begins before the throw is complete - you must maintain forward pressure and grip control throughout the opponent's descent, landing with your chest over their chest and your hips low. Your throwing-side hand (collar/overhook grip) controls their far shoulder to prevent them from turning into you, while your other hand controls their near arm. Common mistakes include: standing upright after the throw instead of following to the ground (allowing opponent to recover guard), releasing grips during the landing (losing control), landing too high on their chest (vulnerable to being rolled), and failing to establish immediate crossface or underhook control. The key is viewing the throw and ground position as one continuous technique rather than separate actions.
-
-**Q6**: What defensive reactions from your opponent indicate that your Harai Goshi setup is being recognized, and how should you adapt?
-**A**: Key defensive indicators include: opponent widening their stance and dropping their hips when you attempt to break their balance (indicates they feel the off-balancing), stepping backward or circling away from your throwing direction (recognizing hip entry), posting their far leg back when you begin rotation (defending the sweep), or establishing strong grips on your belt or legs (attempting to prevent hip rotation). Adaptations should include: transitioning to alternative throws that exploit their defensive movement (Kouchi Gari if they step back, Osoto Gari if they widen stance), feinting Harai Goshi to create openings for other techniques, or improving your kuzushi to commit them more fully before revealing your throwing intention. The ability to chain throws based on defensive reactions is essential for high-level application.
-
-**Q7**: Your opponent drops their hips and stiffens their arms against your chest as you begin your hip entry - how do you adjust mid-technique?
-**A**: When your opponent drops and stiff-arms, your initial hip entry angle is compromised. You have two primary adjustments: First, convert the failed Harai Goshi into a foot sweep by abandoning the hip rotation and using your lead foot to attack their near ankle (Deashi Harai) while they are stationary and braced. Their stiff-arm posture means their weight is committed forward onto their feet, making them vulnerable to having their base removed from below. Second, use the stiff-arm as a lever by changing your pulling direction sharply downward and to the side, collapsing their extended arm structure and creating a new off-balancing angle that re-opens the hip entry from a different direction.
-
-**Q8**: What is the optimal distance between your hips and your opponent's hips at the moment you initiate the sweeping leg action?
-**A**: At the moment of sweep initiation, your hips should be in direct contact with or no more than two inches from your opponent's hips, with your hip crease positioned at or below their belt line. This contact distance is critical because the throw's power comes from using your hip as a fulcrum - if there is any gap, the opponent's weight cannot load onto your hip platform and the rotational force dissipates into empty space. Your back should be flush against their front torso from hip to shoulder. Many failed Harai Goshi attempts result from the thrower leaving a hand-width gap between their hips and the opponent's body, which allows the opponent to simply push away or circle out.
-
-**Q9**: Your opponent successfully blocks your first Harai Goshi attempt by stepping their far leg backward - what is your immediate chain attack?
-**A**: When the opponent steps their far leg backward to defend Harai Goshi, they have created a split stance with their weight shifting to the retreating leg. Your immediate chain attack should exploit this weight shift. The highest-percentage option is to redirect your sweeping leg between their legs rather than outside, converting to an Uchi Mata action that attacks the leg they just posted backward. Alternatively, if they post wide rather than backward, immediately attack with Osoto Gari on the near leg they left planted, as their defensive step removed the ability to use that leg for base recovery. The key principle is that their defensive movement creates a predictable weight distribution that you can immediately attack - never pause after a failed attempt, chain directly into the next technique.
-
-**Q10**: What specific direction of force should your pulling hand (sleeve grip) apply during the sweeping phase of Harai Goshi?
-**A**: The sleeve grip hand should pull in a circular arc that follows the throwing direction - not straight down or straight toward you, but in a rotational path that mirrors the trajectory you want your opponent's body to travel. Specifically, the pull starts by drawing the opponent's elbow toward your hip to collapse their posting ability, then transitions to a forward-and-downward pull that directs their upper body toward the mat in the throwing direction. This circular pulling action is synchronized with the hip rotation and leg sweep to create unified rotational force. A common error is pulling the sleeve straight across your body, which creates lateral force that the opponent can resist by widening their stance rather than the rotational force that lifts them over your hip.
-
-**Q11**: In competition, your opponent is stalling in a bent-over defensive posture with head low and hips back - can you hit Harai Goshi from here, and if so how?
-**A**: A bent-over defensive posture with hips back is one of the worst positions from which to attempt standard Harai Goshi, because you cannot get your hips below theirs when their center of gravity is already low and withdrawn. However, you can use this posture against them by first using a snap-down or collar drag to further commit their weight forward and downward, then immediately driving your hips in as they attempt to recover their posture. The moment they lift their head and straighten their back is your window - their center of gravity rises and moves forward simultaneously. Alternatively, use Kouchi Gari or Ouchi Gari to attack their forward-weighted feet, and when they step back to recover base, their posture straightens naturally and opens the Harai Goshi entry. Never force the throw against an opponent whose hips are already lower than yours.
-
-**Q12**: What are the specific grip requirements on the collar side that distinguish a high-percentage Harai Goshi setup from a low-percentage one?
-**A**: A high-percentage collar grip for Harai Goshi requires depth and positioning behind the opponent's neck rather than on the front lapel. The grip should be placed at the back of the collar on the throwing side, with your forearm running along the side of their neck. This deep collar grip gives you the ability to both break their posture forward (pulling their head down) and control the rotational direction of their upper body during the throw. A shallow grip on the front lapel only provides pulling force in one direction and allows the opponent to posture up and resist the off-balancing. The depth of this grip also determines how much control you maintain during the descent - a deep grip naturally follows the opponent to the ground, while a shallow grip tends to slip during the rotation phase.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Harai Goshi?</p>
 
 When practicing Harai Goshi, controlled application is essential to prevent injury on impact, particularly to the opponent's head, neck, and shoulders during landing. Both practitioners must be competent in breakfall techniques (ukemi) before live practice, as improper landing can result in serious injury. The thrower must maintain grip connection throughout the throw to control the opponent's descent velocity and prevent them from being dropped or spiking into the mat. Adequate mat space is critical - ensure at least 10 feet of clear space in the throwing direction to account for the rotational nature of the technique. Begin practice with cooperative drilling on crash pads or soft surfaces before progressing to standard mats. Never attempt this throw at full speed or power against beginners who lack proper falling skills. The sweeping leg action should be controlled to avoid hyperextension of the opponent's knee - sweep through the leg rather than into it. When following to the ground, avoid driving your weight into the opponent's ribcage or chest on landing. Progress speed and intensity gradually over weeks of practice, and immediately stop if either partner feels unsafe or lacks control during execution.
 

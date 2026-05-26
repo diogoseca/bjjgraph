@@ -188,6 +188,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Anaconda Grip Break to Front Headlock?</p>
+
 - Address the grip before attempting to move your body—the choke tightens with movement if the grip remains intact
 - Target the opponent's grip junction (clasped hands) rather than pulling against the choking arm's structural strength
 - Coordinate hip movement away from chest pressure with hand fighting at the grip to create angular displacement
@@ -202,6 +204,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Anaconda Grip Break to Front Headlock?</p>
+
 - Free hand is available and not trapped between your body and the opponent's control
 - Opponent has established anaconda grip but has not completed the roll-through finishing sequence
 - Some hip mobility remains despite opponent's chest pressure on your trapped shoulder
@@ -214,6 +218,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Anaconda Grip Break to Front Headlock step by step?</p>
 
 1. **Establish defensive hand position on grip junction**: Immediately bring your free hand to the opponent's choking wrist or the grip junction point on the far side of your neck. Grip their top wrist firmly with your free hand, establishing the primary control point for the grip break sequence. Do not waste time framing against their body—go directly to the grip.
 2. **Create initial slack through wrist manipulation**: Pull the opponent's top wrist toward their elbow crease while simultaneously tucking your chin deeper toward your free shoulder. This combination creates the first increment of space between their forearm and your neck, reducing immediate choking pressure and loosening the grip junction.
@@ -243,6 +249,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Anaconda Grip Break to Front Headlock?</p>
+
 - **Opponent tightens grip and drives chest deeper into trapped shoulder before grip break progresses** (Effectiveness: High) - Your Response: Immediately increase hip movement away from pressure to reduce their mechanical advantage, then resume grip attack from the new angle created by the hip escape → Leads to [[Positions/Anaconda Control]]
 - **Opponent releases anaconda grip and transitions to darce configuration by threading arm deeper across neck** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and circle away from the darce side while your arm is momentarily free, working to recover guard before the new grip locks → Leads to [[Positions/Darce Control]]
 - **Opponent initiates roll-through finish before grip break is completed, using your focus on hand fighting against you** (Effectiveness: High) - Your Response: Post your free hand on the mat and sprawl your legs backward to resist the roll, then resume grip attack once the roll attempt stalls and opponent must resettle → Leads to [[Positions/Anaconda Control]]
@@ -254,6 +262,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Anaconda Grip Break to Front Headlock?</p>
 
 ### 1. Pulling head straight backward out of the anaconda loop
 
@@ -293,6 +303,8 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Anaconda Grip Break to Front Headlock (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip break hand positioning and peeling technique
 Practice identifying and attacking the grip junction on a compliant partner. Drill the hand positioning for peeling gable grip and S-grip configurations at zero resistance, developing finger sensitivity and wrist manipulation skills for both grip types.
 
@@ -313,45 +325,12 @@ Positional sparring starting from anaconda control bottom with opponent working 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical target point when attacking the opponent's anaconda grip?
-**A**: The grip junction where the opponent's hands clasp together on the far side of your neck. This is the weakest structural point of the anaconda configuration because it relies on finger and wrist strength rather than the mechanical advantage of the arm loop. Attacking the junction with precise peeling action requires significantly less force than attempting to push against the choking forearm, which has the full backing of their body weight and chest pressure.
-
-**Q2**: Your opponent has a tight gable grip in anaconda control—how do you determine the optimal attack angle for the grip break?
-**A**: Identify which hand is on top by feeling with your free hand, then peel that hand's fingers toward their wrist rather than pulling the entire hand away. The top hand in a gable grip has less structural support than the bottom hand and can be separated with significantly less force than trying to break the entire grip simultaneously. Combine this with hip movement that creates torque perpendicular to their grip alignment to amplify the peeling force.
-
-**Q3**: Why is hip movement essential during the anaconda grip break rather than relying solely on hand fighting?
-**A**: Hip movement away from the opponent's chest pressure creates angular displacement that reduces the mechanical efficiency of their grip. When your hips move away, the constricting loop must stretch to maintain the same tightness, which naturally loosens the grip junction. Additionally, hip movement shifts the angle of your neck relative to their forearm, reducing choking pressure. Without hip movement, you are fighting the full structural advantage of their grip plus body weight with just your free hand.
-
-**Q4**: During the grip break, your opponent begins stepping over your head to initiate the roll-through—what do you do?
-**A**: Immediately shift priority from grip break to roll prevention. Post your free hand on their stepping hip or thigh to block the step-over, then flatten your body and scoot hips away to reduce the angle they need for the roll. If the step is already mid-flight, roll with their direction to deny the dominant finishing angle. Once the roll attempt stalls, immediately return to the grip break sequence. The step-over represents the finishing sequence and must be stopped at all costs.
-
-**Q5**: How does the opponent's grip type change your grip break approach?
-**A**: For gable grip (palm-to-palm), attack by peeling the top hand's fingers away from the bottom palm—the flat surface connection is the weakest point against perpendicular peeling force. For S-grip (fingers interlocked), attack by rotating the opponent's wrist to break the finger interlock—twist their top hand so the fingers slide apart rather than pulling straight. S-grip is generally stronger against direct pulling but weaker against rotational force, while gable grip resists rotation but is vulnerable to perpendicular peeling.
-
-**Q6**: What is the correct breathing strategy during the anaconda grip break?
-**A**: Take short, controlled breaths through your nose rather than gasping through your mouth. Deep breaths expand your chest and can paradoxically tighten the choking loop against you. Stay calm and breathe shallowly while working the escape systematically. Exhale slightly during the explosive phase of the grip break to reduce your cross-section at the moment of extraction. If you feel tunnel vision or dizziness beginning, you must tap immediately—the grip break window has passed and continuing risks unconsciousness.
-
-**Q7**: How do you prevent the opponent from re-establishing anaconda grip after a partial grip break?
-**A**: The moment the grip separates, you must continuously move through the extraction sequence without pausing. Extract your head at an angle rather than straight back, keeping your free hand controlling their choking wrist to prevent re-gripping. Immediately transition to front headlock defensive frames and begin working standard front headlock escapes. If you pause after breaking the grip, the opponent will simply re-clasp their hands and you will need to restart the entire sequence with less energy available.
-
-**Q8**: Your opponent's grip is too tight to break with your free hand alone—what alternative approach can you use?
-**A**: Momentarily use both hands on the grip junction for a two-on-one peel. This is risky because it removes your defensive frame, but against an extremely tight grip it may be necessary. Execute the two-hand break explosively—create slack with a sharp hip bump while simultaneously peeling with both hands on the top wrist. The moment the grip separates, immediately return one hand to a defensive frame and the other to wrist control. This window is very brief so the extraction must be fully committed.
-
-**Q9**: What are the key mechanical differences between attacking the grip junction versus pushing the opponent's elbow?
-**A**: Attacking the grip junction directly separates the hands and eliminates the constricting loop entirely, providing the cleanest escape pathway. Pushing the elbow changes the angle of compression without breaking the grip, creating space for head extraction while the opponent's hands remain connected. The elbow push is useful when the junction is inaccessible but carries higher risk of the opponent readjusting and re-tightening. Use junction attack as the primary method and elbow push as the fallback when hand positioning prevents direct junction access.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Anaconda Grip Break to Front Headlock?</p>
 
 The anaconda grip break involves defending against an active blood choke that can cause unconsciousness within seconds when fully locked. Always tap early in training if the choke reaches critical tightness before the grip break succeeds. Communicate clearly with training partners about resistance levels and establish verbal tap signals in case hand taps are not possible due to arm positioning. When drilling, the top player should release immediately upon any tap signal and should not resist grip breaks at full intensity until the bottom player has demonstrated consistent mechanical proficiency at lower resistance levels. Monitor for signs of blood choke symptoms including tunnel vision, lightheadedness, and facial color changes.
 

@@ -162,6 +162,8 @@ Defending the reversal from kneebar control requires the top player to recognize
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reversal from Kneebar Control?</p>
+
 - Bottom player's hip movement shifts from extension-seeking pressure into your knee to rotational or forward-driving motion
 - Arm grip pressure on your leg changes from pulling for submission extension to pulling laterally or rotationally for sweep leverage
 - Bottom player begins posting on their elbow or hand, indicating a sit-up drive attempt
@@ -174,6 +176,8 @@ Defending the reversal from kneebar control requires the top player to recognize
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reversal from Kneebar Control?</p>
 
 - Recognize the transition from kneebar attack to sweep attempt by reading changes in hip movement and grip pressure
 - Maintain a strong base throughout kneebar defense without compromising your ability to resist sweeps
@@ -188,6 +192,8 @@ Defending the reversal from kneebar control requires the top player to recognize
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reversal from Kneebar Control?</p>
 
 ### 1. Post hands behind your hips and scoot away to create distance from the sweep
 
@@ -225,6 +231,8 @@ Defending the reversal from kneebar control requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reversal from Kneebar Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your leg extraction with the attacker's grip transition from kneebar to sweep grips. When you feel arm pressure shift from downward pull to lateral pull, explosively straighten and retract your leg while posting your free hand. Establish half guard top immediately by inserting your knee across their hip line before they can recover guard.
@@ -240,6 +248,8 @@ Maintain strong defensive base throughout the sweep attempt by keeping your free
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reversal from Kneebar Control?</p>
 
 ### 1. Failing to recognize the transition from kneebar attack to sweep attempt until momentum is established
 
@@ -269,10 +279,12 @@ Maintain strong defensive base throughout the sweep attempt by keeping your free
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reversal from Kneebar Control?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from kneebar to sweep
 Partner alternates between committed kneebar attacks and reversal attempts while defender focuses purely on recognizing which is occurring. No defensive actions taken initially - build pattern recognition for hip movement changes, grip shifts, and body positioning that signal the transition.
 
-**Phase 2: Base Maintenance** - Maintaining defensive base during kneebar defense
+**Phase 2: Base** - Maintaining defensive base during kneebar defense
 Practice defending the kneebar while maintaining a strong base that resists sweeping. Partner attempts reversals at 50% resistance while defender works on keeping weight centered, free leg active, and hands posted. Focus on not compromising base during kneebar defense.
 
 **Phase 3: Extraction Timing** - Leg extraction during grip transition windows
@@ -285,29 +297,6 @@ Start in kneebar control bottom versus defender in top position. Attacker attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is transitioning from kneebar attack to sweep attempt?
-**A**: The earliest cue is a change in hip movement direction. During a kneebar attack, the bottom player drives their hips forward into your knee for extension. When transitioning to a sweep, their hips begin moving rotationally or laterally. You may also feel the arm grip pressure shift from a downward pull toward your feet to a lateral pull across their body. These changes typically precede the sweep by one to two seconds, providing a critical defensive window.
-
-**Q2**: Why is maintaining a forward center of gravity important when defending the reversal?
-**A**: A forward center of gravity means your weight is positioned ahead of your hips, directly countering the two most common sweep directions: forward roll-through and sit-up drive. If your weight is behind your hips, which is common during kneebar defense, any forward momentum from the attacker easily topples you. By keeping weight forward, you create natural resistance to sweeping force and maintain the ability to drive pressure onto the attacker if they attempt to sit up.
-
-**Q3**: When is the optimal moment to attempt leg extraction during a reversal defense?
-**A**: The optimal extraction moment occurs during the attacker's grip transition phase when they shift from kneebar finishing grips to sweep leverage grips. During this brief window of one to two seconds, their arm control on your leg loosens as they reposition for the sweep. This is the only reliable extraction window because during the kneebar attack phase their grip is maximally tight, and during the sweep phase they have already established sweeping momentum that makes extraction difficult.
-
-**Q4**: Your opponent inserts a butterfly hook under your thigh while maintaining kneebar grips - what is your immediate response?
-**A**: Immediately widen your base by stepping your free leg out laterally and posting your hand on the mat. Then actively kick out the inserted hook by straightening your hooked leg and driving your knee toward the mat. If the hook cannot be removed quickly, shift your weight onto the hooked leg to flatten it against the mat, removing the elevation angle the attacker needs. Do not ignore the hook as it represents imminent sweep danger that escalates rapidly.
-
-**Q5**: How should you adjust your defense when the attacker begins a roll-through reversal?
-**A**: When you detect a roll-through signaled by the attacker tucking their chin, rotating their shoulder toward you, and initiating rolling momentum, immediately drop your base low by widening your knees and posting your hands forward. Resist the rotational force by driving your weight perpendicular to the rolling direction. If the roll gains significant momentum, follow the roll and immediately scramble for top position rather than trying to resist it, as fighting a committed roll-through often results in being swept to a worse position.
-
-
-
-</section>
 
 
 </main>

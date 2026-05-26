@@ -202,9 +202,9 @@ Kimura from Back occupies a central role in the rear triangle attack system, ser
 
 - [[Positions/Back Control]] - Alternative outcome when opponent successfully counters and escapes triangle
 
-- [[Submissions/Armbar from Back with Legs]] - Chain attack when opponent straightens arm to defend kimura
+- [[Transitions/Armbar from Back Transition]] - Chain attack when opponent straightens arm to defend kimura
 
-- [[Submissions/Triangle Choke Back]] - Primary attack that sets up kimura opportunity through choke defense
+- [[Submissions/Rear Triangle Choke]] - Primary attack that sets up kimura opportunity through choke defense
 
 - [[Transitions/Kimura Sweep]] - Related technique using same figure-four grip mechanics
 

@@ -20,7 +20,7 @@ description: "Execute the Roll from Rodeo Ride escape in BJJ. Step-by-step rolli
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Assess Opponent Weight Distribution",
+      "name": "Assess Opponent Center of Gravity",
       "text": "From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weight is concentrated—forward on your shoulders, laterally to one side, or loaded on your hips. Identify the direction of least resistance for your roll by detecting which side has the lightest pressure. This assessment must happen through feel rather than visual confirmation, as your head should remain tucked throughout.",
       "position": 1
     },
@@ -188,6 +188,8 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll from Rodeo Ride?</p>
+
 - Time the roll to coincide with opponent's weight shift forward or laterally, exploiting the momentum imbalance their movement creates
 - Maintain chin protection throughout the entire rotation to prevent choke entries during the vulnerable transitional phase
 - Post with the free arm to initiate and control the rolling direction rather than generating power through upper body twisting
@@ -202,6 +204,8 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll from Rodeo Ride?</p>
+
 - At least one arm free from opponent's control for posting during the rolling motion
 - Opponent's weight committed forward or laterally, creating the rotational window needed for the escape
 - Chin tucked and neck protected in defensive posture to prevent choke entries during transition
@@ -214,7 +218,9 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Execution Steps
 
-1. **Assess Opponent Weight Distribution**: From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weight is concentrated—forward on your shoulders, laterally to one side, or loaded on your hips. Identify the direction of least resistance for your roll by detecting which side has the lightest pressure. This assessment must happen through feel rather than visual confirmation, as your head should remain tucked throughout.
+<p class="section-subtitle">How do you execute Roll from Rodeo Ride step by step?</p>
+
+1. **Assess Opponent Center of Gravity**: From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weight is concentrated—forward on your shoulders, laterally to one side, or loaded on your hips. Identify the direction of least resistance for your roll by detecting which side has the lightest pressure. This assessment must happen through feel rather than visual confirmation, as your head should remain tucked throughout.
 2. **Free the Posting Arm**: Strip or slide your near-side arm free from the opponent's control, or confirm that your far-side arm has sufficient freedom to post on the mat. The posting arm guides the roll direction and provides the initial push to overcome inertia. If both arms are controlled, fight one free through grip stripping, elbow pulls, or shoulder shrugging before attempting the roll—the technique cannot work without a posting hand.
 3. **Create Hip Angle Away from Pressure**: Shift your hips subtly away from the opponent's primary pressure direction to load your body for the explosive rotation. This adjustment creates the rotational angle needed for the roll without telegraphing your intent to an experienced rider. Keep your knees under your hips during this phase to maintain turtle structure and prevent the flattening that would eliminate your escape options.
 4. **Initiate Roll with Explosive Hip Drive**: Drive explosively through your hips in the roll direction while simultaneously posting your free arm on the mat to guide the rotation. All power must come from your hip and core rotation rather than your arms—use the posted hand as a directional guide only. Commit fully once you initiate the hip explosion, as any hesitation allows the opponent to sprawl their weight back down and kill your momentum.
@@ -243,6 +249,8 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll from Rodeo Ride?</p>
+
 - **Opponent sprawls hips backward and drives chest weight down onto upper back to kill rotational momentum before the roll completes** (Effectiveness: High) - Your Response: Abort the roll and reset to defensive turtle, then immediately look for alternative escapes like the sit-through or technical stand-up. The opponent's sprawl may have shifted their weight backward, creating a different escape window. → Leads to [[Positions/Rodeo Ride]]
 - **Opponent follows the roll maintaining chest-to-back contact throughout the rotation and immediately inserts hooks as your back becomes exposed** (Effectiveness: High) - Your Response: Accelerate through the final phase of the rotation to create momentary separation, prioritizing getting your back to the mat with frames established before hooks can settle. If hooks are already in, transition immediately to back escape sequences. → Leads to [[Positions/Back Control]]
 - **Opponent posts wide with far leg and drives weight laterally to pin your hip and stop the rotation in its early phase** (Effectiveness: Medium) - Your Response: If the rotation stops early, use whatever momentum you generated to reverse direction into a sit-through escape instead of forcing the incomplete roll. The opponent's wide posting may create space on the opposite side. → Leads to [[Positions/Rodeo Ride]]
@@ -254,6 +262,8 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll from Rodeo Ride?</p>
 
 ### 1. Initiating the roll when opponent's weight is fully settled and centered on your back with no weight shift
 
@@ -293,6 +303,8 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll from Rodeo Ride (Attacker)?</p>
+
 **Phase 1: Solo Rolling Mechanics** - Movement pattern development and muscle memory
 Practice the rolling motion solo on the mat, focusing on hip-driven rotation, chin tuck maintenance, and immediate guard-establishment posture at roll completion. Drill 20 repetitions per side, emphasizing smooth rotation through the full arc. Build the movement pattern before adding a partner.
 
@@ -310,42 +322,12 @@ Start from Rodeo Ride bottom with full resistance. Integrate the roll with other
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Roll from Rodeo Ride?
-**A**: The optimal timing window occurs when the opponent shifts their weight forward for hook insertion or choke attacks, momentarily reducing hip pressure on your back. This forward commitment creates a rotational imbalance that your roll can exploit. Secondary windows include moments when the opponent adjusts grips or transitions between attacks, as their weight distribution becomes unsettled during these transitions. Feel for changes in hip pressure intensity as the primary timing indicator.
-
-**Q2**: Why must you roll toward the free arm side rather than the controlled arm side?
-**A**: Rolling toward the free arm side allows you to post with that arm to guide the rotation's direction and speed, while the absence of opponent control on that side provides the path of least resistance for your body to rotate through. Rolling toward the controlled arm means fighting against both the opponent's grip and their established weight pressure simultaneously, which dramatically reduces success probability and often results in the opponent following you directly into back control with positional advantage.
-
-**Q3**: Your opponent sprawls their hips back as you initiate the roll—how should you adjust?
-**A**: Immediately abort the roll by pulling your hips back underneath your torso and resetting to defensive turtle structure. Do not attempt to force the rotation against a sprawl, as this leaves you partially rotated with your back exposed and no momentum to complete the escape. Once reset, transition to an alternative escape such as the sit-through or technical stand-up, as the opponent's sprawl may have created space between their chest and your back that opens different escape pathways.
-
-**Q4**: What grip must you establish immediately upon completing the roll to prevent being re-passed?
-**A**: Upon completing the roll and facing your opponent, immediately secure an underhook on the side closest to the opponent's trapped leg for half guard, or collar and sleeve grips for open guard. The underhook is the highest-priority grip because it prevents the opponent from immediately reestablishing heavy top pressure and opens your primary offensive sweep and back-take pathways from half guard. Any delay in grip establishment allows the opponent to recover passing position and negate the escape.
-
-**Q5**: What is the most critical safety concern during the rotation phase of this escape?
-**A**: Neck protection is the most critical safety concern. During the rotation, your neck passes through vulnerable angles where the opponent can snap down for a guillotine or clock choke, or where the combined force of your rotation and their weight can create dangerous cervical compression. Maintaining a tight chin tuck throughout the entire roll prevents these exposures. If you feel your neck position becoming compromised at any point, stop the roll and reset rather than continuing through a dangerous angle.
-
-**Q6**: How does the hip rotation in this technique differ from a standard forward roll?
-**A**: Unlike a standard forward roll that travels straight over the head and spine, the Roll from Rodeo Ride uses a lateral hip-driven rotation that moves diagonally away from the opponent's pressure side. The power generation comes from explosive hip engagement rotating away from the opponent rather than tumbling forward over the head. This diagonal vector both escapes the opponent's direct pressure line and positions you to face them upon completion, whereas a straight forward roll would leave your back still exposed to the opponent.
-
-**Q7**: Your opponent follows your roll and maintains chest-to-back contact throughout—what should you do?
-**A**: If the opponent successfully follows the roll while maintaining chest-to-back contact, immediately transition from guard recovery to back escape priorities. Accelerate through the final rotation phase to create even momentary separation, and prioritize getting your back to the mat with frames established before they can insert hooks. If hooks are already in, begin standard back escape sequences—hand fighting the choking arm, hip escaping to one side, and working to trap the top hook rather than continuing the failed guard recovery attempt.
-
-**Q8**: When should you choose this roll escape over the Escape from Rodeo Ride rotation to side control?
-**A**: Choose the roll when the opponent's weight is committed forward or high on your shoulders with minimal hip control, creating clear rotational opportunity but insufficient base disruption for the full side control rotation. The Escape from Rodeo Ride to side control requires collapsing the rider's base and driving through to top position, which demands more time and grip fighting. The roll is faster and requires less grip establishment but yields a bottom guard position rather than dominant side control. Select the roll when speed of extraction is the priority, and the side control escape when you have the grip advantage to achieve a top position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll from Rodeo Ride?</p>
 
 Maintain chin protection throughout the rolling motion to prevent neck compression or stacking injuries. Control the roll's speed and direction rather than throwing yourself wildly, especially when training with partners of different sizes. Tap immediately if your neck position becomes compromised during the rotation. Avoid forcing the roll against fully settled pressure, as this can result in neck strain when the opponent drives weight into your shoulders during an incomplete rotation. Progress from slow-speed drilling to full resistance gradually, ensuring the rotational mechanics are sound before adding intensity. The granby-style variant carries particular cervical spine risk—master the basic lateral roll before progressing to inversion-based variations.
 

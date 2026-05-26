@@ -162,6 +162,8 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Truck to Twister Side Control?</p>
+
 - Attacker's chest lifts slightly off your upper back and begins sliding toward your near shoulder
 - Attacker releases wrist control or chin strap grip, freeing their hands for rotation support
 - Attacker's boot pressure shifts angle as they begin adjusting the leg hook orientation
@@ -174,6 +176,8 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck to Twister Side Control?</p>
 
 - Recognize the walk-around early by feeling the attacker's chest move from your back toward your shoulder
 - Frame against the attacker's shoulder immediately when you feel the rotation beginning to block the path
@@ -189,6 +193,8 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Truck to Twister Side Control?</p>
 
 ### 1. Frame against attacker's shoulder with near arm to block walk-around path
 
@@ -226,6 +232,8 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Truck to Twister Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Extract the trapped leg during the rotation window when the attacker's grip attention is divided between releasing truck grips and establishing lateral control. Hip escape aggressively while framing to create the space needed for leg extraction. Even partial extraction that leads to half guard removes the twister side control threat entirely.
@@ -241,6 +249,8 @@ Frame early and decisively against the attacker's shoulder to block the walk-aro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck to Twister Side Control?</p>
 
 ### 1. Failing to recognize the transition early and only reacting after twister side control is established
 
@@ -270,6 +280,8 @@ Frame early and decisively against the attacker's shoulder to block the walk-aro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Truck to Twister Side Control?</p>
+
 **Phase 1: Recognition Drills** - Identifying transition initiation cues
 Partner alternates between maintaining truck and initiating the transition to twister side control. Defender calls out 'transition' the moment they feel the rotation beginning. Build sensitivity to the chest-slide and grip-release cues without attempting defensive responses yet.
 
@@ -286,29 +298,6 @@ Start in truck bottom with full resistance. Defender must handle both direct tru
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate the attacker is initiating the Transition to Twister Side Control?
-**A**: The earliest cues are: the attacker's chest lifts slightly and begins sliding from your upper back toward your near shoulder, they release upper body grips such as wrist control or chin strap to free their hands for rotation support, and their boot pressure angle shifts as they begin adjusting the leg hook orientation. Recognizing these cues before the rotation progresses is critical because defensive options decrease dramatically once the attacker reaches the lateral position.
-
-**Q2**: Why is the transition period itself the best defensive window rather than after the attacker arrives in Twister Side Control?
-**A**: During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated.
-
-**Q3**: Your trapped leg is still entangled and the attacker has nearly completed the rotation—what is your priority?
-**A**: Your immediate priority shifts to preventing the attacker from establishing shoulder-to-mat pressure. Use your near arm to frame against their chest or shoulder as they arrive in the lateral position, keeping your shoulder off the mat. Without shoulder pressure, the attacker cannot consolidate twister side control even with the leg entanglement. This buys time to address the leg hook from a position where spinal submissions are not yet mechanically available.
-
-**Q4**: When is a granby roll escape most likely to succeed during this transition?
-**A**: The granby roll is most effective when the attacker's weight is committed forward during the mid-point of the walk-around rotation. At this moment, their momentum is moving in one direction and their base is narrowed. The granby uses their forward commitment against them by rolling underneath and away. The timing is critical—too early and they have not committed enough weight, too late and they have already established lateral pressure that blocks the roll. Feel for the weight shift and commit to the roll decisively.
-
-**Q5**: How should you adjust your defense if your initial frame is stripped by the attacker?
-**A**: If your frame is stripped, immediately transition to your secondary defense: execute the granby roll if the attacker's weight is forward, or hip escape explosively to extract your trapped leg while the attacker is using their hands to strip rather than control. Never remain passive after a frame is stripped—the attacker will establish shoulder pressure within one to two seconds. You must have a backup plan ready before you frame, so the frame strip triggers your next defensive action automatically.
-
-
-
-</section>
 
 
 </main>

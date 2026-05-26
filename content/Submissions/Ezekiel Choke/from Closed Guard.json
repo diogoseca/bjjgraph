@@ -1,0 +1,455 @@
+{
+  "name": "Ezekiel Choke from Closed Guard",
+  "description": "Master the Ezekiel Choke from inside closed guard top. Gi sleeve grip setup, surprise attack timing, finishing mechanics, and complete defensive counter guide.",
+  "tags": [
+    "bjj",
+    "submission",
+    "ezekiel-choke",
+    "gi-choke",
+    "sleeve-choke",
+    "top-position",
+    "blood-choke",
+    "closed-guard",
+    "surprise-attack"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and trachea",
+  "starting_position": "Closed Guard",
+  "from_position": "Closed Guard/Top",
+  "success_rate": 58,
+  "overview": "The Ezekiel Choke from closed guard represents one of the most audacious attacks in Brazilian Jiu-Jitsu, executed by the top player from inside the opponent's closed guard. While conventional wisdom dictates that closed guard top is a defensive position requiring systematic guard opening, the Ezekiel exploits the close proximity to launch a surprise gi choke that catches defenders off guard. The attacker threads one hand deep into their opposite gi sleeve to create a fulcrum, then slides the blade of their free forearm across the opponent's throat, finishing with a scissors-like compression of the carotid arteries.\n\nWhat makes this variant uniquely effective is the element of surprise combined with structural mechanics that favor the attacker once grips are established. The bottom player's closed guard actually assists the choke by maintaining the tight distance needed for the sleeve grip and forearm placement. Defenders are typically focused on their own offensive grips and sweeps, leaving the neck exposed to an attack they rarely anticipate from this position. Once the complete choking structure is locked, the combination of sleeve tension and forearm pressure creates a choke that is extremely difficult to disassemble.\n\nThe trade-off is significant positional risk. Setting up the Ezekiel requires deliberately compromising top posture, the very thing that keeps you safe in closed guard. A failed attempt leaves you broken down with no posture, vulnerable to hip bump sweeps, triangles, armbars, and guillotines. This high-risk, high-reward dynamic demands precise timing, commitment, and the discipline to abandon the attempt and recover posture when the setup is recognized early.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Carotid artery compression leading to loss of consciousness",
+        "severity": "High",
+        "recovery_time": "Immediate recovery if released promptly, potential complications if held too long"
+      },
+      {
+        "injury": "Trachea damage from improper blade angle",
+        "severity": "Medium",
+        "recovery_time": "1-2 weeks for minor trauma, longer for severe damage"
+      },
+      {
+        "injury": "Neck strain from resisting or jerking movements",
+        "severity": "Low",
+        "recovery_time": "3-7 days"
+      },
+      {
+        "injury": "Jaw injury from improper forearm placement",
+        "severity": "Low",
+        "recovery_time": "1-2 weeks"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress vocalization)",
+      "Physical hand tap on partner or mat (multiple rapid taps)",
+      "Physical foot tap on mat or partner",
+      "Any unusual sound or loss of resistance (immediate release required)"
+    ],
+    "release_protocol": [
+      "Immediately release blade hand grip upon tap signal",
+      "Remove forearm pressure from neck completely",
+      "Maintain position briefly to ensure partner is conscious and oriented",
+      "Allow partner to recover without immediate movement requirements",
+      "Check partner's verbal confirmation they are okay before continuing training"
+    ],
+    "training_restrictions": [
+      "Never apply sudden or jerking pressure to the choke",
+      "Never hold the choke after tap signal for any reason",
+      "Never practice on partners with known neck injuries without explicit medical clearance",
+      "Never apply full pressure during initial learning phase (use 20-30% pressure maximum)",
+      "Always ensure partner has clear access to tap with at least one hand",
+      "Never combine with violent bridging or explosive movements"
+    ]
+  },
+  "from_positions": [
+    "Closed Guard",
+    "Half Guard"
+  ],
+  "related_submissions": [
+    "Ezekiel Choke",
+    "Cross Collar Choke",
+    "Arm Triangle",
+    "Guillotine Choke",
+    "Darce Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Starting position where this submission is executed from top"
+    },
+    {
+      "name": "Ezekiel Choke",
+      "relationship": "Parent submission family with shared sleeve grip mechanics"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Traditional and higher percentage position for Ezekiel Choke attacks"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Alternative gi choke available from closed guard top position"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative position where similar Ezekiel sleeve grip mechanics apply"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 27,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Sleeve Grip Entry",
+      "description": "Thread four fingers of the dominant hand into the opposite sleeve cuff while settling weight onto the opponent. The blade hand crosses the throat from the open side. This is the fundamental entry that all other variations build upon.",
+      "when_to_use": "Default setup when the opponent is focused on breaking posture or establishing their own offensive grips"
+    },
+    {
+      "variation_name": "Cross Collar Feint to Ezekiel",
+      "description": "Establish a deep cross collar grip as if setting up a cross collar choke. When the opponent addresses the collar threat with both hands, switch to the Ezekiel by threading the same-side hand into the sleeve and deploying the blade hand to the now-undefended neck.",
+      "when_to_use": "When the opponent has strong collar grip defense and you need a distraction to establish the sleeve grip undetected"
+    },
+    {
+      "variation_name": "No-Gi Fist Variation",
+      "description": "Without a gi sleeve available, form a fist with the support hand and grip it with the choking hand, using the fist as a fulcrum against the side of the neck. Less secure than the sleeve grip but applicable in no-gi situations where the element of surprise remains the primary advantage.",
+      "when_to_use": "No-gi competition or training when gi sleeve is unavailable due to grip fighting"
+    }
+  ],
+  "attacker": {
+    "name": "from Closed Guard Attacker",
+    "description": "Learn to attack with the Ezekiel Choke from closed guard top. Step-by-step sleeve grip setup, finishing mechanics, and strategies for handling defensive counters.",
+    "overview": "Attacking with the Ezekiel Choke from inside closed guard requires precise timing and full commitment to an unconventional strategy. You are deliberately choosing to attack from what is traditionally a defensive position for the top player, sacrificing posture maintenance for an offensive opportunity that most opponents will not anticipate. Success depends on disguising the sleeve grip entry, controlling the opponent's upper body reactions, and finishing decisively before they can mount effective defense. The tight quarters of closed guard actually work in your favor once grips are established, as the bottom player's own leg lock keeps you at ideal choking distance. The key distinction from the mount-based Ezekiel is that you have less margin for error and must commit fully once the setup is initiated, because a failed attempt from closed guard leaves you in a far more vulnerable position than a failed attempt from mount.",
+    "key_principles": [
+      "Disguise the sleeve grip entry by making it appear like a normal gi adjustment or posture settlement",
+      "Commit fully once the sleeve grip is established because hesitation allows the opponent to recognize and defend the threat",
+      "Use chest weight and head position rather than arm strength to generate finishing pressure through the choking structure",
+      "Maintain wide knee base throughout the attack to defend against hip bump sweeps triggered by your compromised posture",
+      "Develop the discipline to abandon the attempt and recover posture immediately when the setup is recognized early",
+      "Time the attack when the opponent's hands are occupied with their own offensive grips rather than protecting their neck"
+    ],
+    "setup_requirements": [
+      "Secure four-finger sleeve grip threaded deep into the opposite gi cuff with fingers past the inner seam",
+      "Opponent's hands occupied with their own offensive grips rather than monitoring your hand position near their neck",
+      "Sufficient weight settled onto the opponent's chest to limit their hip mobility for sweep counters",
+      "Wide knee base established to maintain balance during the posture compromise required for the choke setup",
+      "Clear path for the blade forearm to cross the opponent's throat without obstruction from their chin or hands"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish the sleeve grip",
+        "description": "While inside the opponent's closed guard, thread your dominant hand four fingers deep into the cuff of your opposite sleeve. Disguise this motion as a gi adjustment to avoid alerting the defender. The grip must be secure with fingers curled around the inner seam of the cuff so it cannot be easily stripped by two-on-one grip fighting.",
+        "timing": "1-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Settle chest weight forward",
+        "description": "Lower your chest onto the opponent's torso gradually, driving your hips forward to flatten their lower back against the mat. This reduces their hip mobility for sweep counters and brings your forearms within range of their neck. Keep your knees wide for base. Make this feel like a pressure adjustment rather than an attack commitment to maintain the element of surprise.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Position the blade forearm",
+        "description": "Slide the knife edge of your free forearm across the opponent's throat, threading it underneath their chin from the side of the neck. Angle your wrist so the bony radius bone contacts the carotid artery on the near side. If the opponent tucks their chin, use your sleeve-grip hand to momentarily lift their jaw and create the opening for the blade hand to pass underneath.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Close the choking loop",
+        "description": "Drive the blade hand through while pulling with the sleeve grip to create a closed circuit around the opponent's neck. Both forearms form a scissors-like structure with the throat trapped between them. Eliminate all slack by pulling your elbows tight to your body while maintaining forward chest pressure. The loop should feel snug against both carotid arteries with no room for the chin to re-enter.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Drop head and commit body weight",
+        "description": "Drop your head to the mat beside the opponent's head on the choking side, using your skull as a wedge to prevent them from turning their face toward you to relieve pressure. Commit your entire upper body weight forward and downward through the choking structure. This transforms the choke from an arm-strength squeeze into a full-body pressure mechanism that is far more powerful and sustainable.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 6,
+        "action": "Finish with progressive squeeze",
+        "description": "Apply steady, progressive pressure by squeezing both forearms together in a scissoring motion while maintaining chest weight through the structure. The choke should tighten gradually over three to five seconds. Never spike or jerk the pressure. Monitor the opponent continuously for tap signals including hand taps, foot taps, verbal taps, or sudden loss of resistance throughout the finishing sequence.",
+        "timing": "3-5 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Monitor response and release safely",
+        "description": "Throughout the finishing sequence, maintain awareness of all tap signals. Upon any indication of submission or distress, immediately release the blade forearm and sleeve grip and withdraw all pressure from the neck. Maintain your top position briefly to confirm the opponent is conscious and oriented. Verify verbally that they are okay before continuing training or resetting positions.",
+        "timing": "Immediate upon tap"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Chin tuck to block forearm from crossing throat",
+        "effectiveness": "High",
+        "your_response": "Angle the blade hand entry from the side of the neck rather than over the chin. Use the sleeve-grip hand to push their jaw up momentarily to create the opening. If the chin tuck is established before you get the forearm across, consider abandoning and switching to a cross collar choke setup instead.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Two-on-one grip fighting to strip the sleeve grip",
+        "effectiveness": "Medium",
+        "your_response": "Thread the sleeve grip deeper with four fingers past the seam so it resists stripping. When they commit both hands to your sleeve, their neck is completely undefended for the blade hand entry. Their grip fighting actually creates the opening for the choke by removing both hands from the danger zone.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Hip bump sweep exploiting compromised posture",
+        "effectiveness": "High",
+        "your_response": "Keep knees wide and hips heavy when lowering for the choke to maintain a stable base. If you feel the opponent loading the hip bump, either abandon the choke and recover posture immediately, or accelerate the finish before the sweep develops. Never try to fight through a fully initiated hip bump while maintaining the choke grip.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opening guard to attack with triangle or armbar",
+        "effectiveness": "Medium",
+        "your_response": "Once their guard opens, your sleeve-grip arm is effectively removed from the triangle equation. If you sense the guard opening, you can choose to abandon the Ezekiel and immediately transition to a guard pass since the guard is now open. Use the opening to your advantage rather than stubbornly pursuing the choke from a changing position.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Telegraphing the sleeve grip entry by obviously reaching across the body",
+        "consequence": "The opponent immediately recognizes the Ezekiel setup and defends by tucking the chin and stripping the grip before the choke can develop, wasting the element of surprise that makes this technique viable from closed guard",
+        "correction": "Disguise the sleeve grip as a natural gi adjustment or posture settlement. Thread the fingers in gradually while appearing to control posture or adjust your own kimono. Practice the entry motion until it looks identical to normal positional adjustments."
+      },
+      {
+        "error": "Attempting to finish with arm strength alone without committing chest weight and head position",
+        "consequence": "Forearm squeeze alone lacks sufficient force to compress both carotid arteries, resulting in a painful but ineffective neck crank that the opponent can endure while working defensive counters",
+        "correction": "Drop your head beside the opponent's head and commit your entire upper body weight forward through the choking structure. The choke finishes through body weight mechanics, not arm squeeze. Think of your arms as the frame and your body weight as the force."
+      },
+      {
+        "error": "Rushing the setup before securing a deep, stable sleeve grip",
+        "consequence": "A shallow sleeve grip is easily stripped by two-on-one defense, and the blade forearm slides off without the necessary fulcrum tension. The failed attempt alerts the opponent while leaving you in compromised posture with no submission threat.",
+        "correction": "Ensure four fingers are threaded past the inner seam of the cuff before initiating the blade hand. Test the grip by pulling gently to confirm it holds. The extra second spent securing the grip is worth the dramatically higher finish rate."
+      },
+      {
+        "error": "Keeping a narrow knee base while lowering posture for the choke",
+        "consequence": "A narrow base makes you extremely vulnerable to the hip bump sweep that your compromised posture already invites. Getting swept from this position puts you in closed guard bottom with no posture and no offensive momentum.",
+        "correction": "Spread your knees wider than shoulder width before lowering your chest. Maintain this wide base throughout the entire attack sequence. Your knees should feel like outriggers preventing lateral tipping in either direction."
+      },
+      {
+        "error": "Continuing to chase the choke after the opponent has established strong chin tuck and two-on-one grip defense",
+        "consequence": "Persisting with a recognized and defended Ezekiel burns time and energy while keeping you in a compromised posture. The opponent builds confidence in their defense and begins planning counter-attacks from the advantageous position your broken posture provides.",
+        "correction": "Develop the discipline to recognize when the setup window has closed and immediately recover posture. Pull your arms back, drive your forehead into their sternum, and re-establish upright posture. A fresh attempt later will be more effective than forcing a recognized one."
+      },
+      {
+        "error": "Placing the blade forearm across the chin or jawline instead of the throat",
+        "consequence": "Creates a jaw crush rather than a blood choke, which is painful but does not produce the rapid arterial compression needed for a clean finish. The opponent can often endure jaw pressure long enough to work a defensive escape.",
+        "correction": "Angle the wrist so the bony knife edge of the forearm slides beneath the chin to contact the soft tissue of the throat directly. Use the sleeve-grip hand to push the jaw up if needed to create the pathway for proper forearm placement on the neck."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Foundation",
+        "focus": "Sleeve grip mechanics and blade forearm positioning",
+        "description": "Practice threading the sleeve grip in isolation, then with a cooperative partner in closed guard. Focus on making the grip entry smooth and subtle. Drill 50 repetitions per session until the motion is automatic. Add blade forearm placement against an unresisting partner to develop the complete structure without pressure."
+      },
+      {
+        "phase": "Phase 2: Structure Assembly",
+        "focus": "Connecting all elements into a fluid finishing sequence",
+        "description": "Combine sleeve grip, blade hand placement, head position, and chest weight commitment against a cooperative partner. Work the complete sequence from entry through finish at slow speed with zero resistance. Focus on the transition from grip establishment to choking structure, ensuring no telegraphing between phases."
+      },
+      {
+        "phase": "Phase 3: Resistance Integration",
+        "focus": "Applying against progressive defensive reactions",
+        "description": "Partner defends with 30% resistance, increasing to 70% over several sessions. Practice recognizing when to commit to the finish versus when to abandon and recover posture. Develop sensitivity to chin tucks, grip strips, and hip bump loading. Work the decision tree between finishing, abandoning, and transitioning to alternative attacks."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition-speed timing and opportunity recognition",
+        "description": "Integrate the Ezekiel into live rolling from closed guard top. Focus on identifying genuine openings when the opponent's hands are committed to their own offense. Practice the full decision tree including abandoning the attack, switching to guard passing when the guard opens, and recovering posture after failed attempts. Develop patience to wait for the right moment rather than forcing the technique."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Ezekiel Choke from closed guard primarily attack?",
+        "answer": "The Ezekiel Choke targets the carotid arteries on both sides of the neck through bilateral compression. The blade of the forearm presses against one carotid while the sleeve-grip forearm compresses the other, creating a blood choke that restricts cerebral blood flow. Proper forearm angle ensures arterial compression rather than tracheal pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you recognize that the choke is properly locked and the opponent has passed the point of no escape?",
+        "answer": "The choke is properly locked when both the sleeve grip hand and blade forearm form a complete closed circuit around the neck with no space for the chin to tuck back in. The point of no escape is reached when your head drops beside theirs as a wedge, your chest weight commits forward through the structure, and both forearms are squeezing inward with no slack. At this stage, the opponent's attempts to pull the forearm away become biomechanically insufficient.",
+        "safety_critical": false
+      },
+      {
+        "question": "What control must be established before committing to the Ezekiel finish from closed guard?",
+        "answer": "Before committing, you must have a secure four-finger sleeve grip threaded deep into your opposite cuff past the inner seam, your weight settled onto the opponent's chest to limit hip mobility, and ideally their hands occupied with grips rather than neck defense. A wide knee base must be established to defend against sweeps. Rushing the finish without securing these prerequisites is the most common reason this technique fails from closed guard.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts to hip escape while you are establishing the sleeve grip. What adjustment prevents the attack from being disrupted?",
+        "answer": "Drop your hips heavy and drive forward into the opponent to flatten them and eliminate their hip escape angle. Keep your knees wide for lateral stability so their shrimping cannot off-balance you. If they create significant angle before you can flatten them, abandon the attempt, recover posture, and reset to try again when they return to a square position. Chasing the choke against a successful hip escape leads to positional disaster.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error when applying the Ezekiel from inside closed guard?",
+        "answer": "The most common error is attempting to finish with arm strength alone rather than incorporating chest weight and head position. Without dropping the head beside the opponent's head and committing chest pressure forward through the choking structure, the forearms lack sufficient closing force to compress both carotids simultaneously. The correction is to use the entire upper body as a unified mechanism, driving weight through the choke rather than relying on an arm squeeze that fatigues quickly.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust if the opponent tucks their chin to block the blade forearm from crossing the throat?",
+        "answer": "When the opponent tucks their chin, angle the blade hand entry from the side of the neck rather than attempting to drive directly over the chin. Use your sleeve-grip hand to momentarily push their jaw upward, creating a brief opening for the blade forearm to slide underneath to the throat. In some cases, the choke still applies effective pressure across the chin because the jaw transmits compressive force to the underlying carotid structures, though this is less clean than direct throat contact.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the specific injury risks when finishing the Ezekiel Choke, and what signals require immediate release?",
+        "answer": "The primary risks are carotid compression causing unconsciousness within seconds and tracheal damage from improper forearm angle favoring the windpipe over the arteries. You must release immediately upon any tap signal: hand taps, foot taps, verbal indication, or sudden loss of resistance indicating possible unconsciousness. Never spike or jerk the choke. Apply progressive pressure over three to five seconds. If the opponent stops defending abruptly, assume they are going unconscious and release all pressure immediately.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, what is the optimal timing for initiating the Ezekiel attempt from inside closed guard?",
+        "answer": "The optimal timing is when the bottom player commits both hands to establishing their own offensive grips such as collar-sleeve or double collar control. Their focus on their own attack creates a mental blind spot for neck defense. Attempting the Ezekiel immediately after a failed posture break by the bottom player is also effective, catching them during the recovery phase when their arms are transitioning between grips and they are momentarily without a defensive frame on your upper body.",
+        "safety_critical": false
+      },
+      {
+        "question": "What happens to your positional safety if the Ezekiel attempt fails from closed guard, and how do you recover?",
+        "answer": "A failed Ezekiel leaves you with broken posture inside the opponent's closed guard, exposing you to triangles, armbars, hip bump sweeps, and guillotines. To recover, immediately retract both arms close to your body, drive your forehead into the opponent's sternum to create a frame, walk your knees back, and work to re-establish upright posture with hands on their hips. Do not attempt a second Ezekiel immediately because the opponent will be alert to the threat and your posture recovery is the priority.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you release the Ezekiel Choke safely upon your training partner's tap signal?",
+        "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and immediately scramble to another position. Maintain your top position briefly to allow your partner to recover orientation. Check that they are conscious and responsive by making eye contact, and confirm verbally that they are okay before resuming training or resetting positions. If there is any doubt about consciousness, call for assistance immediately.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Closed Guard Defender",
+    "description": "Defend the Ezekiel Choke from closed guard bottom. Recognize sleeve grip setups, prevent forearm placement, and counter with sweeps exploiting compromised posture.",
+    "overview": "Defending the Ezekiel Choke from closed guard bottom requires early recognition and decisive action. As the bottom player, you hold the offensive advantage in closed guard, but face a genuine submission threat if you fail to identify the sleeve grip setup before the blade forearm crosses your throat. Your primary defense lies in preventing the forearm from reaching your neck through vigilant hand monitoring and chin protection. However, your closed guard position provides unique counter-opportunities that other positions do not offer. The attacker's deliberately compromised posture creates ideal conditions for hip bump sweeps, and their arm committed inside the sleeve effectively removes it from defending against triangles and armbars, giving you powerful counter-attack options if you recognize the threat early.",
+    "key_principles": [
+      "Monitor the attacker's hands constantly for any threading motion into their own gi sleeve, which is the earliest warning sign of the Ezekiel setup",
+      "Maintain an active chin tuck as a default defensive posture whenever the top player lowers their weight without apparent guard-passing intent",
+      "Use two-on-one grip control against the choking forearm rather than attempting to strip with a single hand",
+      "Recognize that the attacker's compromised posture creates sweep opportunities that are more valuable than simply defending the choke",
+      "Keep your guard closed to maintain positional advantage and hip control rather than opening in panic when you feel the forearm approaching",
+      "Tap early and without hesitation if the choke structure is fully locked, as blood chokes cause unconsciousness within seconds"
+    ],
+    "recognition_cues": [
+      "The top player threads one hand inside their own opposite gi sleeve while inside your closed guard, which is the definitive early warning signal",
+      "A deliberate lowering of chest weight onto your torso without any guard-opening footwork or hand positioning, suggesting offensive rather than passing intent",
+      "The top player's free hand moving toward your neck or jaw line rather than toward your hips or legs where it would be positioned for guard breaking",
+      "An unusual widening of the attacker's knee base combined with forward weight shift, which indicates they are preparing to absorb sweep attempts during the choke setup",
+      "The attacker's head dropping beside your head before any choking pressure begins, which is the final commitment signal before the finish"
+    ],
+    "defensive_options": [
+      {
+        "action": "Chin tuck with two-on-one forearm strip to prevent the blade hand from crossing the throat",
+        "when_to_use": "As soon as you recognize the sleeve grip entry or feel the forearm approaching your neck, before the choking loop is closed",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Neutralizes the choke attempt and forces the attacker to abandon, returning to neutral closed guard where you retain offensive advantage",
+        "risk": "If you focus only on the forearm strip without maintaining guard pressure, the attacker may disengage and recover posture for a guard pass attempt"
+      },
+      {
+        "action": "Hip bump sweep exploiting the attacker's compromised forward posture during the Ezekiel setup",
+        "when_to_use": "When the attacker commits chest weight forward and their base is loaded toward you, ideally before the choking loop is fully closed",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Reverses position completely, landing you in mount or top closed guard with significant momentum advantage",
+        "risk": "If the attacker has a wide enough knee base, the hip bump may fail and you expend energy without addressing the choke directly"
+      },
+      {
+        "action": "Open guard to triangle attack since the attacker's sleeve-grip arm is functionally trapped",
+        "when_to_use": "When you recognize the sleeve grip has committed one of the attacker's arms inside their own sleeve, creating the arm-in arm-out configuration needed for triangles",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Transitions to triangle control where you threaten your own submission while the attacker's arm remains trapped in their sleeve",
+        "risk": "Opening guard removes your primary positional control and the attacker may disengage from the Ezekiel to pursue a guard pass through the opening"
+      }
+    ],
+    "escape_paths": [
+      "Two-on-one forearm push combined with chin tuck to prevent the choke from locking, then re-establish dominant closed guard grips",
+      "Hip bump sweep when the attacker commits weight forward, using their compromised posture as the primary sweep opportunity",
+      "Open guard to triangle or armbar attack exploiting the attacker's arm trapped in their own sleeve"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Execute a hip bump sweep while the attacker's posture is compromised by the Ezekiel setup, reversing position entirely and landing in a dominant top position"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Strip the sleeve grip early using two-on-one control and force the attacker to abandon the choke attempt, returning to neutral closed guard where you retain your offensive advantage as the bottom player"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the sleeve grip entry and failing to recognize the Ezekiel setup early",
+        "consequence": "Allows the attacker to establish a secure choking structure before you begin defending, reducing escape options to near zero once the forearm crosses the throat and the loop closes",
+        "correction": "Monitor the attacker's hands constantly when they are inside your closed guard. Any hand threading into their own sleeve is an immediate red flag requiring defensive action before the blade hand can deploy. Treat the sleeve grip as the trigger for your defense, not the forearm on your neck."
+      },
+      {
+        "error": "Attempting to push the forearm away with only one hand after the choke is partially locked",
+        "consequence": "One arm lacks sufficient strength to overcome the combined sleeve grip tension and forearm pressure, wasting energy while the choke tightens progressively toward unconsciousness",
+        "correction": "Always use both hands in a two-on-one configuration to address the choking forearm. Push with both palms against the forearm while simultaneously bridging and turning your head away from the pressure side to create space between the forearm and your carotid."
+      },
+      {
+        "error": "Panicking and opening guard to scramble away when the choke is partially set",
+        "consequence": "Opening guard removes your primary positional advantage and leg control, allowing the attacker to advance to mount or side control where the Ezekiel becomes even more dangerous and your defensive options decrease significantly",
+        "correction": "Keep your guard closed to maintain hip control and positional advantage. Use your legs to restrict the attacker's base while your hands address the choking arm. Only open guard deliberately and with purpose to attack with a triangle or armbar, never as a panic response."
+      },
+      {
+        "error": "Extending arms fully to push the attacker away creating distance",
+        "consequence": "Extended arms are vulnerable to armbars and the pushing motion can actually assist the attacker's blade forearm in sliding deeper across the throat by creating space for the forearm to travel",
+        "correction": "Keep elbows tight to your body and address the choking arm at close range. Use frames against the attacker's shoulder or bicep rather than long-range pushing. Your defense should work at the same close distance that the choke operates in."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that an Ezekiel Choke is being set up from closed guard top?",
+        "answer": "The earliest recognition cue is the top player threading one hand inside their own opposite gi sleeve while inside your guard. Additional cues include a deliberate lowering of chest weight without guard-opening intent, the free hand moving toward your neck rather than your hips, and an unusual widening of their knee base. The sleeve grip entry is the definitive warning sign and the point at which your defensive response should begin immediately.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to an Ezekiel Choke rather than continue attempting to defend?",
+        "answer": "Tap immediately if the blade forearm has crossed your throat, both of the attacker's arms are locked in the closed choking structure, and your attempts to push the forearm away with both hands are failing to create space. Blood chokes can cause unconsciousness in as little as four to six seconds once fully applied. In training, there is no benefit to fighting a fully locked Ezekiel. Tap early, analyze how you missed the setup cues, and focus on earlier prevention next time.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available against the Ezekiel Choke from closed guard bottom?",
+        "answer": "The primary options are: chin tuck with two-on-one forearm strip to prevent the choke from locking, hip bump sweep exploiting the attacker's compromised forward posture, and opening guard to attack with a triangle since the attacker's sleeve-grip arm is functionally trapped inside their own cuff. The most effective defense addresses the sleeve grip at the earliest possible moment before the blade forearm reaches the throat. Counter-attacking with sweeps is often more effective than purely defensive stripping.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is keeping your guard closed important when defending the Ezekiel from bottom?",
+        "answer": "Keeping guard closed maintains your hip control over the attacker, prevents them from advancing to mount or side control if you successfully defend, and preserves your offensive platform for counter-sweeps. Opening guard in panic removes your primary positional advantage and invites guard passing. The closed guard leg lock keeps the attacker at close range which paradoxically benefits both the choke and your counter-attacks, so maintaining guard while addressing the choke is the strategically sound approach.",
+        "safety_critical": false
+      },
+      {
+        "question": "What sweeps are most effective as counters when the opponent commits to an Ezekiel from inside your closed guard?",
+        "answer": "The hip bump sweep is the highest percentage counter because the attacker must lower their posture and commit weight forward, creating ideal conditions for the bump. The pendulum sweep is also effective because the attacker's arms are occupied with the choke, eliminating their ability to post and defend the sweep. Additionally, if you open guard deliberately, the triangle attack is viable since one of the attacker's arms is deep inside their own sleeve, creating the arm-in arm-out configuration that triangles require.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying Ezekiel setup cues from closed guard bottom",
+        "description": "Partner slowly sets up the Ezekiel from closed guard top while you practice identifying the sleeve grip entry, posture change, and forearm approach. Call out each recognition cue verbally as you notice it. Build reliable pattern recognition across 50 repetitions before adding any defensive physical responses."
+      },
+      {
+        "phase": "Phase 2: Defensive Mechanics",
+        "focus": "Chin defense and two-on-one grip stripping technique",
+        "description": "Practice the chin tuck and two-on-one forearm strip against the sleeve grip and blade forearm. Partner applies the choke at 30-50% speed and pressure while you work defensive responses at the earliest possible intervention point. Focus on timing the defense to the sleeve grip entry rather than waiting for the forearm to reach the throat."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense Integration",
+        "focus": "Combining defense with sweeps and submission counters",
+        "description": "Combine defensive recognition with counter-attacks including hip bump sweeps and triangle setups. Partner attempts the Ezekiel at increasing speed and intensity while you defend and immediately transition to counter-offense. Progress from isolated drilling to positional sparring rounds starting in closed guard with the Ezekiel as the attacker's primary goal."
+      }
+    ]
+  }
+}

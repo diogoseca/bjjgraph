@@ -162,6 +162,8 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle Escape?</p>
+
 - Escaper begins driving their head upward and straightening their spine, indicating posture recovery attempt that must be countered with immediate head pull and hip extension
 - Escaper posts their free hand firmly on the mat or your hip, establishing the base needed for stacking pressure and circular movement
 - Escaper begins stepping laterally toward their trapped arm side while driving hips forward, signaling the circular escape that weakens the triangle lock
@@ -175,6 +177,8 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Triangle Escape?</p>
+
 - Maintain constant downward pressure on the escaper's head using grips on the back of the skull or collar to prevent posture recovery
 - Actively adjust hip angle to stay perpendicular to the escaper's centerline as they attempt to circle or square up
 - Control the trapped arm by pulling it across the escaper's neck to amplify choking pressure and prevent them from pinning it to their body
@@ -187,6 +191,8 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle Escape?</p>
 
 ### 1. Pull head down and re-break posture by gripping behind the skull and curling them forward while extending hips upward
 
@@ -224,6 +230,8 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle Escape?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Maintain constant head control by gripping behind the skull and pulling down. Actively adjust hip angle to stay perpendicular as the escaper moves. Extend hips upward to increase choking pressure whenever they attempt to posture. Keep the trapped arm pulled across their neck. Every time they reset, re-tighten the triangle lock and re-establish optimal angle before they can build momentum for another escape attempt.
@@ -239,6 +247,8 @@ When the escaper commits to posturing up, use that upward movement to swing your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Escape?</p>
 
 ### 1. Releasing head control to readjust triangle lock when escaper begins posturing
 
@@ -268,6 +278,8 @@ When the escaper commits to posturing up, use that upward movement to swing your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle Escape?</p>
+
 **Phase 1: Triangle Retention Against Posture Recovery (Weeks 1-2)** - Maintaining head control and triangle tightness against systematic posture attempts
 Establish triangle control while partner works exclusively on recovering posture using proper mechanics. Focus on maintaining constant downward pull on the head, extending hips to increase pressure, and recognizing the moment posture begins to break. Partner increases intensity from 50% to 80% across sessions. Drill 3-minute rounds with the goal of preventing any full posture recovery.
 
@@ -284,29 +296,6 @@ Positional sparring starting from locked triangle. Partner uses full escape repe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first priority when you feel the escaper beginning to drive their head upward to recover posture?
-**A**: Your first priority is to immediately increase downward pressure on their head by gripping behind the skull or deep collar and pulling them forward while simultaneously extending your hips upward. This creates opposing forces that counteract their posture recovery. You must address the posture attempt within the first one to two seconds, because once they establish full spinal alignment with a posted arm, breaking them back down becomes exponentially more difficult and energy-intensive.
-
-**Q2**: When should you abandon the triangle and transition to an armbar instead of continuing to fight for the choke?
-**A**: Transition to the armbar when the escaper has achieved strong upright posture and you can no longer effectively pull their head down. Their posture recovery actually creates the space needed for the armbar transition because their upward drive separates their head from your hips. The trigger is when you feel your head-pulling grip losing the battle against their posture and their trapped arm begins to retract. At this point the armbar becomes higher percentage than fighting for a triangle that has lost its optimal geometry.
-
-**Q3**: How do you counter the escaper's circular movement toward their trapped arm side without losing the triangle lock?
-**A**: Counter the circular escape by pivoting your hips in the same direction the escaper is moving, using your upper back and shoulders as the pivot point. Scoot your hips to maintain perpendicular alignment relative to their centerline. Simultaneously increase the downward pull on their head to limit how much forward drive they can generate during the circle. If your angle adjustment keeps pace with their lateral movement, the triangle remains at optimal choking geometry despite their movement. You can also hook their circling leg with your arm to slow their stepping pattern.
-
-**Q4**: Your opponent has pinned their trapped arm to their ribs and you cannot pull it across their neck—what adjustments maintain the choke?
-**A**: When the trapped arm is pinned to the ribs and cannot be pulled across, shift your choking strategy to maximize pressure through leg positioning and angle alone. Angle your body more aggressively to approximately 45 degrees, directing the choking leg's knee toward the trapped shoulder. Elevate your hips higher to increase the downward pressure vector on the neck. You can also try to reach over their shoulder and grip their far lat or belt to pull their torso into a curl that re-exposes the arm. If none of these adjustments restore finishing pressure, transition to armbar or omoplata rather than fighting a structurally defended choke.
-
-**Q5**: The escaper stands up while you have the triangle locked—what is your immediate defensive response to prevent being slammed?
-**A**: When the escaper stands with the triangle locked, immediately hook the back of one of their legs with your arm to prevent them from walking forward to stack or slam. Pull your own head off the mat by crunching forward and control their posture with your grips. If slamming is a concern, release the triangle voluntarily and transition to an open guard system rather than risking injury. In competition settings where slamming is illegal, maintain the triangle and use the standing position to increase choking pressure through gravity by letting your weight hang from the lock. In MMA or self-defense contexts, unhook and disengage rather than accepting a slam.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge from Reverse Mount?</p>
+
 - Create angles with hip movement before bridging - never bridge straight up from a flat position
 - Time the bridge to coincide with opponent's weight shifts, grip attempts, or transitions
 - Commit fully to the explosive movement - partial bridges are worse than no bridge
@@ -209,6 +211,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge from Reverse Mount?</p>
+
 - Feet planted flat on the mat close to hips with knees bent at approximately 90 degrees for maximum bridge power
 - Hips shifted slightly to one side to establish bridging direction and target opponent's weak base angle
 - Chin tucked with hands protecting neck and collar area to prevent choke during escape
@@ -221,6 +225,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge from Reverse Mount step by step?</p>
 
 1. **Assess Position and Identify Timing**: Before bridging, evaluate the top player's weight distribution, grip placement, and whether they are settled or actively transitioning. Identify which direction to bridge based on where their weight is lightest and where your hips have the most available range of motion. Wait for a moment when they shift weight or reach for a grip.
 2. **Protect the Neck**: Tuck your chin firmly to your chest and bring both hands to protect the collar and throat area. This prevents the opponent from securing a rear naked choke or collar grip during your escape attempt. Neck defense must remain active throughout the entire bridging sequence, not just at the start.
@@ -251,6 +257,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge from Reverse Mount?</p>
+
 - **Opponent rides the bridge by sinking weight and widening knees to maintain base** (Effectiveness: High) - Your Response: If the first bridge fails, immediately attempt a second bridge in the opposite direction to exploit their overcorrection, or switch to a hip escape while they are focused on maintaining heavy pressure → Leads to [[Positions/Reverse Mount]]
 - **Opponent inserts hooks during the bridge transition to establish back control** (Effectiveness: High) - Your Response: Prioritize completing the turn to turtle quickly and immediately strip the first hook before the second can be inserted. Keep elbows tight to prevent the bottom hook from threading through your thigh → Leads to [[Positions/Back Control]]
 - **Opponent sprawls hips back and flattens you during bridge attempt** (Effectiveness: Medium) - Your Response: Use the sprawl momentum against them by timing a hip escape in the opposite direction as their weight shifts backward, or attempt a sit-through if they create too much distance from your hips → Leads to [[Positions/Reverse Mount]]
@@ -262,6 +270,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge from Reverse Mount?</p>
 
 ### 1. Bridging straight up without creating an angle first
 
@@ -301,6 +311,8 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge from Reverse Mount (Attacker)?</p>
+
 **Solo Bridge Mechanics** - Hip extension power and directional bridging
 Practice bridge movements without a partner, focusing on explosive hip extension, directional bridging at angles, and the bridge-to-turn sequence. Perform sets of 10 bridges in each direction, emphasizing full commitment and smooth rotation from supine to prone position.
 
@@ -321,42 +333,12 @@ During regular rolling, recognize reverse mount when it occurs naturally during 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to create an angle with your hips before executing the bridge from reverse mount?
-**A**: Bridging straight up only lifts the opponent vertically without displacing them from your center line, allowing them to land back in position when you descend. Creating an angle with a hip shift establishes a directional vector for the bridge, displacing the opponent laterally toward their weakest base point. This directional force is what actually creates the space needed to initiate the turn to turtle.
-
-**Q2**: What is the optimal timing window for executing the bridge from reverse mount?
-**A**: The optimal timing window is when the top player's weight shifts during their own movements—reaching for grips, transitioning to a different position, or adjusting their base. These moments temporarily compromise their structural stability, making your bridge more effective with less force. Bridging against a settled, heavy opponent who is not moving is the lowest percentage scenario.
-
-**Q3**: Your opponent successfully rides your first bridge attempt and resettles in reverse mount—what should you do next?
-**A**: Immediately execute a second bridge in the opposite direction to exploit their weight redistribution from countering the first bridge. Their base will be adjusted to defend the original direction, making them vulnerable to the opposite angle. If the double bridge fails, switch to an entirely different escape method such as a hip escape or frame-based technique to prevent becoming predictable.
-
-**Q4**: What is the most critical grip or hand position during the bridge from reverse mount?
-**A**: At least one hand must remain protecting the neck and collar area throughout the entire bridge sequence to prevent the opponent from securing a choke during the escape. The chin must stay tucked firmly to the chest. While one hand protects the neck, the other can post on the mat for additional bridging power or be used to facilitate the turn, but neck defense is never sacrificed for bridge mechanics.
-
-**Q5**: How does the bridge from reverse mount differ mechanically from a standard bridge escape from mount?
-**A**: In standard mount, you bridge toward the opponent's head or to either side where their base is compromised, using frames against their chest or hips to create direction. In reverse mount, the opponent faces your feet, so their base orientation is inverted—their strong base is toward your legs and their weak base is where they lack posting ability. You must target these reversed angles and cannot use traditional chest frames since the opponent's back faces you.
-
-**Q6**: Your opponent begins inserting hooks as you turn to turtle during the bridge—how do you respond?
-**A**: Prioritize completing the turn to turtle immediately rather than stopping to fight the hooks. Once in turtle, immediately strip the first hook by extending your leg back and away while keeping elbows tight to knees to prevent the second hook. A single hook in turtle is recoverable through standard turtle escapes, but pausing mid-turn to fight hooks leaves you in a worse position than either reverse mount or turtle.
-
-**Q7**: Why is it an error to rest in turtle after a successful bridge from reverse mount?
-**A**: Turtle is a transitional defensive position, not a destination. Reaching turtle from reverse mount only partially improves your situation—your back is still exposed and the opponent is still behind you with attacking opportunities including back takes, front headlock submissions, and crucifix entries. The bridge-to-turtle is phase one; immediate continuation into a granby roll, sit-through, or technical standup completes the escape to a genuinely safer position.
-
-**Q8**: What body types or opponent characteristics make the bridge from reverse mount more or less effective?
-**A**: The bridge is more effective against taller or lighter opponents whose weight is distributed over a larger area and whose base in reverse mount may be less compact. It is less effective against heavier, stockier opponents who can sink dense weight onto your torso. Against heavier opponents, the double bridge sequence or switching to hip escapes may be necessary. Regardless of opponent size, timing the bridge with their movement remains the most important success factor.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge from Reverse Mount?</p>
 
 The Bridge from Reverse Mount involves explosive spinal extension under load from the opponent's body weight. Warm up the lower back, glutes, and hip flexors thoroughly before drilling this technique. Avoid hyperextension of the cervical spine during the bridge—keep the chin tucked firmly to protect neck vertebrae throughout the movement. When drilling with partners, communicate clearly about intensity levels and ensure the top player is prepared for the bridge to avoid being displaced unexpectedly onto the mat. Practitioners with pre-existing lower back conditions should modify bridge amplitude and consult their instructor for safe alternatives. Always drill on adequately padded surfaces.
 

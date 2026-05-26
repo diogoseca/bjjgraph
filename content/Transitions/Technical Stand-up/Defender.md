@@ -166,6 +166,8 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Stand-up?</p>
+
 - Opponent breaks your controlling grips and sits upright with active posture, shifting weight off their back and onto their hips in preparation for posting
 - Opponent places one hand behind their hip on the mat with fingers angled outward, establishing the posting base that signals imminent hip elevation
 - Opponent's lead leg transitions from relaxed or extended to foot-flat-on-mat with knee raised, creating the barrier position that precedes the full tripod structure
@@ -178,6 +180,8 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Stand-up?</p>
 
 - Maintain at least one controlling grip at all times to deny the space needed for posting hand placement and hip elevation
 - Time forward pressure to coincide with the hip elevation phase when opponent is committed but structurally weakest in the tripod
@@ -192,6 +196,8 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Stand-up?</p>
 
 ### 1. Rush forward with low chest pressure during hip elevation phase to collapse the posting arm and flatten opponent backward
 
@@ -229,6 +235,8 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Stand-up?</p>
+
 ### → [[Positions/Seated Guard]]
 
 Maintain controlling grips on collar, sleeve, or pants throughout the stand-up attempt to prevent opponent from establishing the posting hand. When their grip break fails, immediately advance your passing position while they are still seated and have expended energy on the failed attempt. The key is denying space proactively rather than reacting to the stand-up once it begins.
@@ -244,6 +252,8 @@ Time forward pressure to coincide with the hip elevation phase, driving into opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Stand-up?</p>
 
 ### 1. Standing at distance and passively watching opponent set up the technical stand-up without engaging
 
@@ -278,6 +288,8 @@ Time forward pressure to coincide with the hip elevation phase, driving into opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Stand-up?</p>
+
 **Phase 1: Recognition and Timing (Week 1-3)** - Learn to identify technical stand-up setup indicators and practice timing intervention
 Partner performs technical stand-up at slow to moderate speed while you identify the three key recognition cues: grip breaks, posting hand placement, and lead leg barrier establishment. Practice calling out each phase as it happens without intervening physically. Then progress to applying forward pressure during the hip elevation phase at 30% resistance to develop timing instincts.
 
@@ -294,29 +306,6 @@ Positional sparring starting from seated guard top position. Partner's primary g
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical timing window for disrupting a technical stand-up, and what happens if you miss it?
-**A**: The critical window is during the hip elevation phase — the 1-2 seconds between when the opponent's hips begin to leave the mat and when their trail leg completes its swing through. During this window, the opponent is committed to the movement but has only two stable base points (posting hand and lead foot), making them structurally vulnerable to forward pressure or base collapse. If you miss this window and the trail leg plants, the opponent now has a strong sprinter stance with full weight on both feet, making them extremely difficult to drive backward and giving them access to defensive sprawls, snap-downs, and counter-attacks.
-
-**Q2**: Why is controlling the posting arm considered the highest-priority defensive action against the technical stand-up?
-**A**: The posting arm is the structural keystone of the tripod base — without it, the opponent cannot elevate their hips high enough for the trail leg to swing through, and the entire movement collapses. The posting arm supports approximately 30-40% of body weight during hip elevation, so removing it eliminates the mechanical foundation of the technique. Unlike the lead leg barrier, which primarily blocks your advance, the posting arm is load-bearing and cannot be easily replaced mid-movement. Controlling it early forces the opponent to abort entirely, while controlling the lead leg only partially disrupts the sequence.
-
-**Q3**: Your opponent successfully stands up from seated guard — what should your immediate tactical response be?
-**A**: If the stand-up completes successfully, immediately close distance and re-engage with grips rather than allowing neutral standing at distance. Establish a collar tie or underhook to prevent them from simply disengaging. If you had strong grips before the stand-up, use them to immediately snap down to front headlock or shoot for a takedown while opponent is still finding their balance in the new stance. The worst response is to stand at distance passively — this rewards the stand-up and resets completely. Alternatively, if you are a guard player yourself, consider pulling guard to transition to your own bottom game rather than engaging in a standing battle.
-
-**Q4**: How do you differentiate between a genuine technical stand-up attempt and a feint designed to create a sweep opening?
-**A**: A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended.
-
-**Q5**: What grip combination is most effective for preventing technical stand-up initiation from seated guard top position?
-**A**: A cross-collar grip combined with same-side sleeve or wrist control on the arm the opponent intends to post with is the most effective prevention grip. The collar grip breaks their posture and prevents them from sitting fully upright, which is required to establish the posting hand behind their hip. The sleeve grip on the posting arm directly prevents them from placing the hand on the mat. This combination forces them to spend time fighting grips before they can even begin the stand-up sequence, giving you time to advance your passing position. The collar grip is particularly important because even without the sleeve grip, it alone prevents the upright posture needed for effective posting.
-
-
-
-</section>
 
 
 </main>

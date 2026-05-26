@@ -80,8 +80,8 @@
       "relationship": "Chain attack when opponent posts hand to defend the sweep"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative attack accessible from the same overhook angle"
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Alternative attack accessible from the same overhook angle when opponent drives forward"
     },
     {
       "name": "Kimura Trap",
@@ -228,7 +228,7 @@
         "description": "Positional sparring starting from overhook guard with full resistance. Bottom player wins by sweeping to mount or achieving submission. Top player wins by passing guard or stripping all controls. Focus on reading defensive patterns in real time and selecting the highest-percentage attack based on opponent behavior. Analyze success and failure patterns after each round."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Overhook Guard Sweep?",
         "answer": "The optimal window is when the opponent's weight shifts forward over your torso, either naturally while attempting to establish posture or in response to your pulling pressure. At this moment their center of gravity is already displaced toward the sweep direction, requiring minimal additional force to complete the reversal. Attempting the sweep when the opponent sits back with their weight over their heels dramatically reduces success probability because you must first overcome their backward momentum."
@@ -256,6 +256,18 @@
       {
         "question": "The sweep is blocked but you maintain overhook control - what chain attacks are available?",
         "answer": "From the maintained overhook with the established angle, you can transition to triangle by shooting your overhook-side leg over their shoulder, omoplata by threading your leg further over their arm and rotating your hips, hip bump sweep by sitting up into them when they shift weight backward, or back take by following their defensive rotation. Each chain attack exploits a specific defensive reaction: posting opens triangle, flattening opens omoplata, sitting back opens hip bump, and turning opens back take. The overhook remains the anchor point for all transitions."
+      },
+      {
+        "question": "How does the planted foot position affect sweep effectiveness and what happens if it is placed incorrectly?",
+        "answer": "The planted foot must be flat on the mat near the opponent's hip on the overhook side, positioned close enough to generate direct upward and lateral force into their body. If the foot is too far from the opponent's hip, the driving force dissipates before reaching their center of gravity, producing a weak push that fails to off-balance. If the foot is too close or underneath your own hips, you lose the mechanical range needed for an explosive bridge. The foot acts as the primary engine of the sweep, and its position relative to the opponent's hip determines the angle and magnitude of the driving force."
+      },
+      {
+        "question": "What role does the non-driving leg play during the sweep execution?",
+        "answer": "The non-driving leg serves a critical blocking function by maintaining contact with the opponent's body on the far side to prevent them from stepping or basing out in that direction. It can hook behind the opponent's far thigh to restrict hip movement, press against their torso to limit lateral escape, or frame against their far knee to block base recovery. Without this leg actively preventing the opponent from establishing a far-side post, even a powerful drive from the planted foot can be neutralized by the opponent simply stepping their free leg wide to catch their balance."
+      },
+      {
+        "question": "How should you adjust the sweep when facing an opponent who is significantly heavier?",
+        "answer": "Against heavier opponents, the standard sweep may lack sufficient force from the hip drive alone. Add a pendulum leg swing by swinging the non-driving leg in a wide arc away from the sweep direction first, then whipping it back forcefully as you initiate the sweep. This generates rotational momentum that supplements the hip bridge. Additionally, focus on maximizing the hip angle to 45 degrees or beyond, which increases the mechanical advantage by loading more of the heavier opponent's weight over the trapped arm. Timing becomes even more critical against larger opponents: initiate only when their weight commits fully forward, so you redirect existing momentum rather than trying to generate enough force from scratch."
       }
     ],
     "safety_considerations": "The Overhook Guard Sweep is a low-risk positional technique with no joint locks or chokes involved. Ensure controlled landings when completing the sweep to avoid dropping weight onto training partners. During drilling, the person being swept should allow the motion to complete smoothly rather than resisting at the tipping point, which can cause shoulder or elbow strain on the overhooked arm. The overhook itself creates shoulder pressure that should be monitored during extended drilling sessions. Release immediately if your partner signals discomfort in their shoulder."
@@ -340,7 +352,7 @@
         "correction": "If the sweep has initiated, post your hand wide and sprawl your hips back rather than pushing down. Use structural positioning rather than force to stop the rotation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point in the sweep setup where defensive intervention is most effective?",
         "answer": "The earliest and most effective intervention point is immediately when the overhook is established, before the bottom player secures opposite arm control or creates hip angle. At this stage, the sweep system has only one of its three required elements, and stripping the overhook or recovering posture eliminates the threat entirely. Each subsequent element the bottom player establishes makes defense progressively more difficult and energy-intensive."
@@ -356,6 +368,10 @@
       {
         "question": "What defensive opportunity does the bottom player's sweep attempt create for guard passing?",
         "answer": "When the bottom player opens their guard to plant their sweeping foot, their guard structure is momentarily compromised. This creates a window for backstep passing, leg extraction, or knee slice entry. Additionally, if the sweep fails and the bottom player has committed their hips to the angle, they may be out of position to recover guard effectively. The defender can immediately capitalize by driving into the created space and initiating a passing sequence while the bottom player works to reset their guard."
+      },
+      {
+        "question": "How do you recognize the difference between a committed sweep attempt and a feint designed to set up a submission?",
+        "answer": "A committed sweep attempt involves the bottom player opening their guard and planting a foot on the mat for driving force, combined with a strong lateral pull on the overhook. A feint typically maintains closed guard or only partially opens it, and the overhook pull direction changes quickly. Watch the bottom player's hips and feet rather than their upper body: if their foot plants firmly near your hip and their hips commit to the angle, the sweep is real. If their guard stays closed or their hips remain centered, they are likely baiting you to post so they can transition to triangle or armbar off your extended arm."
       }
     ],
     "training_progressions": [

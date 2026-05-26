@@ -182,6 +182,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sprawl?</p>
+
 - React explosively to opponent's level change and forward movement before penetration deepens
 - Drive hips down and back to create distance from opponent's penetrating arms
 - Transfer chest weight onto opponent's shoulders and upper back to collapse their posture
@@ -197,6 +199,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sprawl?</p>
+
 - Solid athletic stance with feet shoulder-width apart, knees slightly bent, weight on balls of feet
 - Hands up in ready position to defend face and establish grips or post on opponent
 - Visual recognition of opponent's level change signaling an incoming takedown attempt
@@ -210,6 +214,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sprawl step by step?</p>
 
 1. **Recognize the shot**: Identify opponent's level change and forward drive as they initiate a single or double leg takedown attempt. Watch for their head dropping, shoulders hunching forward, and explosive movement toward your legs. This recognition phase must happen within milliseconds to allow proper defensive reaction.
 2. **Drive hips back explosively**: Explosively thrust your hips backward and downward, creating maximum distance between your legs and the opponent's penetrating arms. This hip movement should be violent and immediate, shooting your legs back as if jumping backward while keeping your upper body weight forward. Your hips should drop low enough that your pelvis is nearly touching the mat.
@@ -238,6 +244,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sprawl?</p>
+
 - **Opponent adjusts angle and continues driving forward, refusing to abandon the takedown attempt** (Effectiveness: Medium) - Your Response: Continue circling aggressively away from their head while maintaining heavy chest pressure. Use hand placement to steer their head toward the mat. If necessary, secure a whizzer on their arm to prevent completion while you re-establish front headlock control. → Leads to [[Positions/Front Headlock]]
 - **Opponent switches to single leg attack mid-sprawl, grabbing one leg and elevating it** (Effectiveness: High) - Your Response: Post your free leg out wide for base, drive your trapped leg's hip down toward the mat, and establish crossface or whizzer control. Circle away from the trapped leg while hopping on your free foot to maintain balance. Transition to dedicated single leg defense sequences. → Leads to [[Positions/Standing Position]]
 - **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake. → Leads to [[Positions/Standing Position]]
@@ -249,6 +257,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sprawl?</p>
 
 ### 1. Sprawling too early before opponent fully commits to the takedown
 
@@ -288,6 +298,8 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sprawl (Attacker)?</p>
+
 **Phase 1: Solo Movement Mechanics** - Developing explosive hip drive and proper body coordination without resistance
 Practice solo sprawl drills focusing on explosive hip extension backward and simultaneous chest drive forward. Perform 10-15 repetition sets emphasizing speed and proper form. Include partner pad drills where a partner holds pads at hip level and you sprawl in response to their forward movement cue.
 
@@ -311,48 +323,12 @@ Include sprawl drills in every warm-up. Perform sprawl-specific conditioning at 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the proper sequence of body movements when executing a sprawl against a double leg?
-**A**: The proper sequence is to explosively drive your hips backward and downward first, creating distance from the opponent's penetrating arms, while simultaneously driving your chest and upper body weight forward onto the opponent's shoulders and upper back. Your hands establish a stable base on the mat. The hip drive must happen fractionally before or simultaneously with the chest drive to ensure your legs are out of reach before you commit your weight forward. Getting this sequence wrong by dropping chest first allows the opponent to capture your legs despite the upper body pressure.
-
-**Q2**: Why is circling movement critical after the initial sprawl contact is made?
-**A**: Circling prevents the opponent from following your hips and re-establishing their takedown attack. When you sprawl in a straight line, determined opponents can adjust their grip and continue driving or convert to a different attack angle. By circling away from the direction of their head, you create angles that break their structure, make it difficult to maintain leg connection, and set up transitions to front headlock control. The circular movement also helps maintain your balance while keeping heavy chest pressure on the opponent.
-
-**Q3**: Your opponent shoots a double leg and you sprawl, but they switch to grabbing your left leg for a single leg - how do you adjust?
-**A**: Immediately post your right (free) leg out wide to establish a strong base and prevent being swept or elevated. Drive the hip of your trapped left leg down toward the mat to create heavy downward pressure that makes it difficult for them to lift. Establish either a crossface by driving your forearm across their face or secure a whizzer grip on their attacking arm. Circle aggressively to your right (away from the trapped leg) while hopping on your free foot. From here, transition to dedicated single leg defense sequences including limp leg escapes or switch to front headlock control.
-
-**Q4**: What are the main positional transitions available after stuffing a takedown with a successful sprawl?
-**A**: After successfully sprawling and breaking the opponent's shot, the primary transitions are: front headlock control which opens guillotines, darce chokes, anaconda chokes, and back take opportunities; direct guillotine by securing the neck during the sprawl itself; mat return by driving the opponent flat to the mat to expose their back or advance to side control; passing to side control or knee on belly if the opponent turtles; and standing back up if the opponent disengages to reset to standing grappling.
-
-**Q5**: Why must you keep your head up during sprawl execution rather than looking down?
-**A**: Keeping your head up protects your neck from injury by maintaining proper cervical spine alignment. It defends against guillotine choke attempts, since dropping your head forward creates the perfect angle for the opponent to secure the neck. It allows you to maintain visual awareness of the opponent's reactions, enabling adaptive responses. Proper head position also helps maintain structural balance, as looking down tends to collapse your base and shift your weight incorrectly. The head should stay neutral with eyes forward throughout the entire sprawl movement.
-
-**Q6**: How does the timing of your sprawl affect its success rate against takedown attempts?
-**A**: Timing is the most critical factor in sprawl success. Sprawling too early wastes energy, compromises balance, and lets the opponent adjust their attack or exploit your poor position. Sprawling too late allows them to secure deep grips on your legs with good penetration, making defense nearly impossible. The optimal timing is to initiate the sprawl at the moment you recognize the opponent's level change and forward commitment, typically when their head drops and shoulders hunch forward. Advanced practitioners can recognize subtle pre-shot indicators such as weight shifts, grip changes, and stance adjustments that allow even faster reaction.
-
-**Q7**: Your opponent fakes a level change to bait your sprawl, then shoots when you are off-balance - how do you avoid this trap?
-**A**: Do not overcommit to the sprawl until the opponent fully commits to their shot with forward drive and penetration. Develop discrimination between genuine shots and fakes by watching for full commitment indicators: both feet leaving their stance, head dropping below waist level, and explosive forward movement rather than just a dip. If you react to a fake, recover quickly to your athletic stance rather than staying sprawled. Use your own feints and level changes to disrupt their timing. Training against partners who mix fakes with real shots builds the pattern recognition needed to avoid this trap.
-
-**Q8**: What grip should you establish first when transitioning from sprawl to front headlock control?
-**A**: The first grip priority is wrapping one arm around the opponent's head and neck, securing it deep so your armpit is tight against the crown of their head. This gives you immediate head control and prevents them from posturing up or creating distance. Your second hand should immediately control their far shoulder or far arm to prevent them from rolling away or circling out. Only after establishing this dual control should you begin working toward specific submission grips like guillotine chin strap, darce threading, or anaconda arm trap configurations.
-
-**Q9**: Your opponent shoots a deep double leg and gets under your hips before you can sprawl - what is your emergency response?
-**A**: If the opponent achieves deep penetration before you can sprawl, your priority shifts to a whizzer (overhook) on their near arm combined with a crossface on their far side. Drive your hip down aggressively on the side they are attacking while using the whizzer to prevent them from finishing the lift. If they are already elevating you, consider sitting to guard by pulling them into your closed guard or De La Riva rather than fighting a lost sprawl battle. A late sprawl attempt against deep penetration often results in being driven to the mat in a worse position than voluntarily pulling guard.
-
-**Q10**: How does a crossface sprawl differ from a standard sprawl and when should you use it?
-**A**: In a crossface sprawl, after initial hip drive and chest pressure, you immediately establish a strong crossface by driving your forearm across the opponent's face while circling. This variant breaks down the opponent's posture more aggressively than relying solely on chest weight, and it sets up easier transitions to front headlock and submission attacks. Use the crossface sprawl against opponents who maintain strong head position and try to drive through your initial sprawl, particularly in no-gi where front headlock grips are harder to establish. The crossface forces their head to turn, collapsing their structure and exposing the far side neck for choke attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sprawl?</p>
 
 The sprawl is generally a safe defensive technique when performed with proper form, but several safety considerations must be observed. Always keep your head up with neutral neck position to prevent cervical spine injuries and avoid creating angles for guillotine chokes. When drilling, communicate clearly with your partner about speed and intensity, gradually increasing resistance rather than starting at full speed. Be aware of mat boundaries and other training partners when circling or driving backward explosively. If you feel a guillotine being secured during sprawl practice, tap immediately rather than fighting through it, as neck injuries can be severe. Beginners should master the movement pattern at slow speed before attempting reactive sprawls against live attacks. Warm up with dynamic stretching targeting hip flexors, groin, and hamstrings, as the explosive hip extension can strain these muscle groups if performed cold. Monitor fatigue during drilling, as exhaustion leads to poor technique and increased injury risk.
 

@@ -188,6 +188,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Door Escape from Half Guard?</p>
+
 - Commit fully to the turning direction - half-measures expose the back without completing the escape to a defensible turtle position
 - Time the escape to opponent's weight shifts - initiate the turn when the top player adjusts position, reaches for a grip, or transitions their pressure
 - Maintain tight elbow-to-knee connection throughout the turn to prevent opponent from threading arms under your body for hooks or front headlock
@@ -202,6 +204,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Door Escape from Half Guard?</p>
+
 - Half guard bottom position with opponent maintaining dominant top pressure through crossface or heavy chest-to-chest connection
 - Recognition that conventional underhook path has been shut down by opponent's superior upper body control after multiple failed attempts
 - Sufficient hip mobility to initiate turning motion despite opponent's weight - at minimum a micro hip escape creating initial space for rotation
@@ -214,6 +218,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Door Escape from Half Guard step by step?</p>
 
 1. **Assess Position and Commit**: From half guard bottom with opponent's crossface or heavy pressure established, recognize that conventional sweeps and underhook battles are not viable options. Make the mental commitment to the back door escape and begin setting up by creating a slight hip escape away from opponent to generate initial turning space. This assessment must be quick - prolonged deliberation allows opponent to further consolidate their position.
 2. **Frame the Hip**: Establish a strong frame with your near-side forearm against opponent's hip or upper thigh. This frame serves dual purpose: it creates space for the turn and prevents opponent from driving their hips forward to flatten you completely during the escape. The frame must be strong enough to hold briefly but does not need to be maintained throughout the entire turning motion. Position the forearm at a forty-five degree angle for maximum structural integrity.
@@ -243,6 +249,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Door Escape from Half Guard?</p>
+
 - **Opponent follows the turn with chest glued to back and establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate the escape and immediately initiate turtle defense by hand fighting the choking arm, keeping elbows tight, and beginning sit-through or granby roll before the second hook is established → Leads to [[Positions/Back Control]]
 - **Opponent drives heavy crossface pressure forward to pin hips flat and prevent the initial hip escape** (Effectiveness: High) - Your Response: Use micro hip escapes and wait for opponent's weight shift before attempting the full turn, or switch to deep half entry as an alternative escape route from the flattened position → Leads to [[Positions/Half Guard]]
 - **Opponent posts far leg wide and sprawls hips back during the turn to maintain dominant top position** (Effectiveness: Medium) - Your Response: If opponent sprawls but does not take the back, continue accelerating through the transition to establish turtle base before they can consolidate. If fully stuffed before turn completes, recover half guard entanglement → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Door Escape from Half Guard?</p>
 
 ### 1. Hesitating during the turn and stopping halfway between half guard and turtle
 
@@ -293,6 +303,8 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Door Escape from Half Guard (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Turning mechanics and body coordination
 Practice the turning motion solo without a partner. Start on your side simulating half guard bottom, execute the hip escape, and turn to turtle repeatedly. Focus on keeping elbows tight, chin tucked, and completing the rotation in one smooth motion. Build speed gradually over fifty or more repetitions per session.
 
@@ -313,42 +325,12 @@ Combine back door escape with specific turtle escape follow-ups. Practice the fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body position indicates the back door escape is the optimal choice over conventional half guard techniques?
-**A**: The back door escape becomes optimal when you are flattened in half guard with opponent's crossface controlling your head and their underhook preventing you from coming up to your side. If you cannot win the underhook battle after two or three attempts and opponent's weight is driving you flat, continuing to fight toward the opponent wastes energy and invites further deterioration. The key indicator is that your ability to hip escape toward the opponent has been neutralized by their crossface and forward pressure.
-
-**Q2**: What is the critical timing window for initiating the back door escape?
-**A**: The optimal timing window occurs when the top player shifts their weight, typically when they adjust their crossface, reach for a new grip, attempt to extract their trapped leg, or transition their hips for a passing attempt. During these weight shifts, their pressure momentarily decreases, creating the space needed to initiate the hip escape that starts the turning motion. Attempting the escape against fully committed static pressure requires significantly more energy and has substantially lower success rate.
-
-**Q3**: What happens if you release the half guard leg trap before creating turning space?
-**A**: Releasing the leg trap prematurely removes your only positional anchor without having the alternative structure in place. The opponent's trapped leg was the mechanism preventing them from passing to side control or mount. Without it, and without having started the turn, you lose both half guard retention and the escape opportunity simultaneously. The leg release must be integrated into the turning motion itself, not performed as a separate preparatory step.
-
-**Q4**: Your opponent reacts to the back door escape by driving forward aggressively - how do you adjust?
-**A**: If the opponent drives forward as you initiate the back door escape, their forward momentum actually assists the escape by reducing the pressure on your far hip. Use their forward drive to accelerate your turn, ensuring your elbows stay tight to prevent their arms from threading under your body. Their forward commitment makes it harder for them to follow laterally, so completing the turn quickly should create a clean turtle position. If they significantly overcommit, you may chain directly into a sit-through from turtle.
-
-**Q5**: What grip and arm position must you maintain during the entire turning phase?
-**A**: During the turn, elbows must remain pinched tight against your ribs with forearms pulled close to your body. Your near-side arm frames briefly against the opponent's hip to create initial space, then tucks in as the turn progresses. The far-side arm stays tight to your body and only posts on the mat at the very end when establishing turtle base. Any gap between your elbows and body creates an opening for the opponent to thread their arm for back control, front headlock, or darce choke.
-
-**Q6**: How should you handle the transition if the opponent has already started establishing grips on your back?
-**A**: If the opponent gets grips during the transition, prioritize completing the turtle base first before addressing the grips. A solid four-point turtle structure gives you the foundation to fight grips effectively, whereas fighting grips without a base leaves you vulnerable to being flattened or rolled. Once in turtle, immediately begin hand fighting the most threatening grip first, typically the choking hand in any seatbelt configuration, while maintaining tight elbows-to-knees defensive structure throughout.
-
-**Q7**: Why is the back door escape more effective when combined with previous underhook attempts rather than used as a first option?
-**A**: Attempting conventional underhook techniques before the back door escape serves two important purposes. First, it establishes a directional threat toward the opponent that they must actively defend, loading their defensive reactions in that direction. When you suddenly reverse direction with the back door escape, they are momentarily caught with their weight and attention committed to defending the underhook side. Second, failed underhook attempts often result in small hip escapes that create the initial space needed for the back door turning motion.
-
-**Q8**: What is the most dangerous moment during the back door escape execution?
-**A**: The most dangerous moment occurs when you are approximately halfway through the turn, past the point where you can recover half guard but before establishing a defensible turtle structure. At this halfway point, your back is fully exposed, your base is transitional, and the opponent has maximum access to seatbelt, hooks, and front headlock attacks. This is why the turning motion must be explosive and continuous rather than gradual. Pausing at any point during the turn dramatically increases the probability of back take.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Door Escape from Half Guard?</p>
 
 The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition.
 

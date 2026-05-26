@@ -1,0 +1,468 @@
+{
+  "name": "Kimura from Front Headlock",
+  "description": "Master the Kimura shoulder lock from front headlock in BJJ. Learn grip transitions, figure-four mechanics, and finishing details from this dominant control position.",
+  "tags": [
+    "bjj",
+    "submission",
+    "kimura",
+    "shoulder-lock",
+    "joint-lock",
+    "fundamental",
+    "hub",
+    "finishing-guide",
+    "front-headlock"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
+  "starting_position": "Front Headlock",
+  "from_position": "Front Headlock/Top",
+  "success_rate": 62,
+  "overview": "The Kimura from front headlock exploits a common defensive response where the opponent successfully defends their neck against choke attacks but leaves their near arm vulnerable. When you have front headlock control and the opponent tucks their chin tightly or hand fights effectively against guillotine and darce attempts, the Kimura becomes a high-percentage alternative that punishes their defensive posture.\n\nThe mechanics of this submission differ significantly from Kimuras applied from other positions. Rather than using hip rotation as the primary force generator, the front headlock Kimura relies on chest pressure to pin the opponent while your figure-four grip isolates and rotates the shoulder joint. The opponent's bent-over posture works against them, as their shoulder is already in a compromised position that reduces the rotational range of motion available before the joint reaches its breaking point.\n\nThis submission integrates naturally into front headlock attack systems. When you threaten chokes, the opponent defends their neck. When you switch to the Kimura, they must free their hands from neck defense to address the arm attack, which reopens the choke threats. This creates a powerful dilemma cycle that makes the front headlock one of the most versatile attacking positions in modern grappling.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis)",
+        "severity": "High",
+        "recovery_time": "3-9 months with potential surgery requirement"
+      },
+      {
+        "injury": "Shoulder capsule damage and dislocation",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, may require surgical repair"
+      },
+      {
+        "injury": "Labral tear (glenoid labrum)",
+        "severity": "High",
+        "recovery_time": "4-8 months, often requires arthroscopic surgery"
+      },
+      {
+        "injury": "Bicep tendon strain or rupture",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks for strain, 3-6 months for rupture"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or making any verbal distress sound)",
+      "Physical hand tap (multiple taps with free hand)",
+      "Physical foot tap (multiple taps with either foot)",
+      "Any distress signal including screaming or unusual sounds"
+    ],
+    "release_protocol": [
+      "Immediately stop all rotational pressure the instant tap is felt or heard",
+      "Return the arm toward neutral position (externally rotate back to starting position)",
+      "Release the figure-four grip completely",
+      "Allow partner to self-assess shoulder mobility before continuing",
+      "Never release suddenly or allow arm to spring back forcefully"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - rotation must be smooth and controlled",
+      "Never use competition speed or surprise attacks in training",
+      "Always ensure partner has at least one hand free to tap",
+      "Do not apply while partner is in awkward body position that prevents tapping",
+      "Never combine with weight pressure that restricts breathing while finishing",
+      "Respect immediate taps without testing partner's pain tolerance"
+    ]
+  },
+  "from_positions": [
+    "Front Headlock",
+    "North-South"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Guillotine Choke",
+    "Anaconda Choke",
+    "Darce Choke",
+    "Arm Triangle",
+    "Japanese Necktie"
+  ],
+  "related_content": [
+    {
+      "name": "Front Headlock",
+      "relationship": "Primary starting position for this submission variant"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Control position for maintaining Kimura grip if initial finish is defended"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Primary alternative submission from front headlock that chains with Kimura threats"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Alternative arm-in choke available from same front headlock position"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Parent submission family - this is the front headlock-specific application"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard paint brush grip Kimura",
+      "description": "The conventional entry where you grip the opponent's near wrist with a palm-down paint brush grip, then thread your head-control arm under their arm to lock the figure-four. Relies on maintaining chest pressure throughout the grip transition to prevent escape during the switch from head control to arm control.",
+      "when_to_use": "When the opponent posts their near arm on the mat and their wrist is clearly accessible from your far-side hand position"
+    },
+    {
+      "variation_name": "Rolling Kimura from front headlock",
+      "description": "When the opponent posts up strongly and begins standing, you secure the Kimura grip and roll underneath them, pulling them over you and finishing belly-up or transitioning to a belly-down finish as they land. The roll uses their upward momentum against them and catches opponents who commit to standing as their primary escape.",
+      "when_to_use": "When the opponent drives upward forcefully and your chest pressure alone cannot keep them down"
+    },
+    {
+      "variation_name": "Kimura to Kimura Trap transition",
+      "description": "Rather than finishing immediately, you secure the figure-four grip and transition to the Kimura Trap control position by stepping your leg over their back and settling into a more stable finishing platform. This converts a scramble-prone front headlock attack into a controlled submission system with multiple finishing options.",
+      "when_to_use": "When the opponent defends the initial rotation effectively and you need a more stable control platform to work the finish"
+    }
+  ],
+  "attacker": {
+    "name": "from Front Headlock Attacker",
+    "description": "Learn to attack the Kimura from front headlock position. Step-by-step grip transitions, rotation mechanics, and counters to common defenses for BJJ practitioners.",
+    "overview": "The Kimura from front headlock attacks the near arm when the opponent successfully defends their neck against choke attempts. This grip transition catches opponents who commit fully to neck defense, leaving their posted arm exposed. The figure-four lock from this angle benefits from the opponent's already-compromised posture, as the bent-forward position limits their shoulder mobility and reduces the rotational range needed to generate a tap. Maintaining chest pressure throughout the grip change is essential to prevent the opponent from standing up or pulling away during the transition window.",
+    "key_principles": [
+      "Maintain chest pressure on the opponent's upper back throughout the entire grip transition from head control to Kimura grip",
+      "Secure the wrist with a firm palm-down grip before attempting to thread the figure-four lock",
+      "Pin the opponent's elbow tight against their ribs during rotation to concentrate force on the shoulder joint",
+      "Generate torque through body weight and hip drive rather than relying on arm strength alone",
+      "Control the transition speed from head control to arm control to prevent escape during the grip change window",
+      "Use the choke-to-Kimura dilemma to force the opponent into defending one attack while opening themselves to the other"
+    ],
+    "setup_requirements": [
+      "Established front headlock with chest pressure driving into the opponent's upper back preventing postural recovery",
+      "Opponent's near arm is accessible and posted on the mat or visible against their body, not hidden underneath",
+      "Head control maintained through chest weight so both hands can transition to the Kimura grip without losing position",
+      "Hips sprawled low enough to prevent the opponent from standing during the grip transition window"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy front headlock control",
+        "description": "Secure front headlock with a deep overhook on the head and your chest driving firmly into the opponent's upper back. Your sprawled hips keep their posture broken while your far-side hand controls their shoulder or lat to prevent rotation.",
+        "timing": "Maintain for 2-3 seconds to settle weight before transitioning"
+      },
+      {
+        "step_number": 2,
+        "action": "Identify and isolate the near arm",
+        "description": "Locate the opponent's near arm, which is typically posted on the mat supporting their weight. This arm becomes vulnerable when the opponent commits their defensive energy to protecting their neck from chokes rather than controlling their arm position.",
+        "timing": "Read their defensive posture for 1-2 seconds before committing"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure the wrist with paint brush grip",
+        "description": "Release your far-side hand from the opponent's shoulder and reach across to grip their near wrist with a palm-down paint brush grip. Maintain head control and chest pressure through your body weight alone during this transition to prevent escape.",
+        "timing": "Grip change should be swift and decisive, under 1 second"
+      },
+      {
+        "step_number": 4,
+        "action": "Thread the figure-four lock",
+        "description": "Slide your head-control arm under the opponent's near arm from the outside, threading your hand between their arm and body. Connect your hands in a figure-four grip by clasping the wrist of your threading hand with the hand already gripping their wrist.",
+        "timing": "1-2 seconds to thread and lock the grip securely"
+      },
+      {
+        "step_number": 5,
+        "action": "Eliminate slack and pin the elbow",
+        "description": "Squeeze your elbows together to remove all slack from the figure-four grip. Pin their elbow tight against their ribs using your forearm as a wedge. Your chest remains heavy on their upper back throughout the locking sequence to maintain positional control.",
+        "timing": "Tighten grip over 1-2 seconds before initiating rotation"
+      },
+      {
+        "step_number": 6,
+        "action": "Initiate controlled shoulder rotation",
+        "description": "Begin rotating the opponent's shoulder by driving their wrist toward their far hip while keeping their elbow pinned against their body. Use your body weight and hip drive rather than arm strength alone to generate smooth torque through the shoulder joint.",
+        "timing": "Slow and progressive, minimum 3-5 seconds in training"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish and release on tap",
+        "description": "Continue the controlled rotation until the opponent signals submission. Their hand travels in an arc behind their back as the shoulder reaches its rotational limit. Maintain chest pressure to prevent them from rolling to relieve pressure. Release immediately upon feeling or hearing any tap signal.",
+        "timing": "Release within 1 second of tap signal"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens their arm to prevent figure-four lock from being secured",
+        "effectiveness": "High",
+        "your_response": "Push their wrist toward their hip to force the elbow to bend, or switch back to a choke threat since their straight arm is no longer protecting their neck, forcing them to bend it defensively",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent grabs their own wrist or shorts to block shoulder rotation after figure-four is locked",
+        "effectiveness": "Medium",
+        "your_response": "Insert your top hand deeper into the crook of their elbow with a prying motion, or step over to mount while maintaining the Kimura grip to change the leverage angle and break their defensive hold",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent rolls toward you during the rotation to relieve shoulder pressure",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll by stepping over with your far leg and transitioning to a belly-down Kimura finish, or step to mount while keeping the grip intact to gain gravity-assisted leverage",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Opponent shoots hips forward and sits through while you are transitioning grips",
+        "effectiveness": "Medium",
+        "your_response": "If they sit through before the figure-four is locked, follow them down and re-establish top control; if the grip is already secured, maintain the Kimura and finish from the new angle as their movement extends the shoulder further",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing head control before securing the wrist grip",
+        "consequence": "Opponent escapes the front headlock entirely during the uncontrolled transition window when neither head nor arm is controlled",
+        "correction": "Maintain head pressure with your chest weight even as you release the hand grip; only release head control after your wrist grip is firmly established on their near arm"
+      },
+      {
+        "error": "Attempting the figure-four on a fully extended arm",
+        "consequence": "Cannot lock the figure-four grip and the opponent easily pulls their arm free from the incomplete hold",
+        "correction": "Work to bend the elbow first by pushing the wrist toward their hip, or switch back to a choke threat to force them to defensively bend the arm, then re-attack the Kimura"
+      },
+      {
+        "error": "Using only arm strength for the shoulder rotation instead of body weight",
+        "consequence": "Insufficient torque to finish against a strong defender and rapid grip fatigue that compromises both the submission and positional control",
+        "correction": "Drive with your hips and body weight, using chest pressure to pin the opponent while your entire body generates the rotational force through coordinated movement"
+      },
+      {
+        "error": "Allowing space to develop between chest and opponent's back during the grip change",
+        "consequence": "Opponent stands up or shoots away during the transition window, escaping both the submission attempt and the front headlock position entirely",
+        "correction": "Keep your chest glued to their upper back throughout the entire sequence; the grip change happens beneath your maintained body pressure without lifting"
+      },
+      {
+        "error": "Rotating the shoulder too quickly in training",
+        "consequence": "Risk of serious shoulder injury to training partner including rotator cuff tears and labral damage before they can recognize danger and tap",
+        "correction": "Apply rotation gradually over a minimum of 3-5 seconds, monitoring partner's reactions and maintaining sensitivity to any tap signals throughout the finish"
+      },
+      {
+        "error": "Lifting the opponent's elbow away from their ribs during the rotation",
+        "consequence": "Opponent can extend their arm or create space to slip free from the figure-four grip, escaping the submission",
+        "correction": "Pin their elbow tight against their body throughout the rotation using your forearm as a wedge between their elbow and the mat"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics Isolation",
+        "focus": "Figure-four grip transitions from head control",
+        "description": "Practice transitioning from front headlock head control to Kimura grip on a non-resisting partner. Focus on maintaining chest pressure during the switch and securing the wrist before threading the figure-four. Repeat 20 times per side until the grip change feels natural and seamless."
+      },
+      {
+        "phase": "Phase 2: Controlled Finishing",
+        "focus": "Shoulder rotation mechanics and tap awareness",
+        "description": "From an established figure-four grip, practice slow controlled rotations with a cooperative partner. Focus on using body weight rather than arm strength, keeping the elbow pinned, and recognizing tap signals immediately. Develop a feel for the shoulder's range of motion and the resistance increase near the end range."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Responding to common defensive reactions",
+        "description": "Partner provides specific defensive responses including arm straightening, rolling toward you, grabbing their own wrist, and sitting through. Practice the corresponding adjustments for each counter systematically before combining multiple defenses in a single round."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full attack chain under resistance",
+        "description": "Start from front headlock with full resistance. Integrate Kimura attempts with choke threats and positional transitions. Focus on reading opponent reactions, choosing between submission and position advancement, and maintaining control throughout the exchange."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Timing, entry, and combination attacks",
+        "description": "Roll from neutral positions with the goal of reaching front headlock and finishing the Kimura. Practice the full sequence from initial entry through the finish under competitive resistance, including the dilemma cycling between chokes and the Kimura."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Kimura from front headlock primarily target?",
+        "answer": "The Kimura targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the shoulder capsule. The forced internal rotation behind the back stresses these structures beyond their normal range of motion. The labrum is also at risk, particularly when rotation is combined with abduction. The submission works by exceeding the shoulder's rotational capacity while the opponent's bent-forward posture limits their available range of motion.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm as you reach for the figure-four grip - what adjustment prevents escape?",
+        "answer": "Drive their wrist toward their hip using your grip hand while simultaneously pressing your chest forward to collapse their posture further, forcing the elbow to bend by shortening the distance between their shoulder and wrist. If they maintain the straight arm, transition back to a choke threat since their extended arm is no longer protecting their neck. The choke threat forces them to bend the arm defensively, reopening the Kimura opportunity. Never fight a fully straight arm with pure grip strength.",
+        "safety_critical": false
+      },
+      {
+        "question": "What control must be established before transitioning from head control to the Kimura grip?",
+        "answer": "Before releasing your head-control grip, you must have heavy chest pressure pinning the opponent's upper back, your hips sprawled to prevent them from standing, and their posture thoroughly broken with their head below their hips. Your chest does the work of head control during the transition while both hands are occupied with the grip change. Additionally, confirm that their near arm is accessible and posted rather than hidden beneath their body. The chest pressure serves as your primary control mechanism throughout.",
+        "safety_critical": false
+      },
+      {
+        "question": "You have the figure-four locked but your opponent begins rolling toward you to relieve pressure - how do you finish?",
+        "answer": "Follow their roll by stepping over with your far leg and transitioning to a belly-down Kimura finish position. As they roll, maintain your grip and let their rotation actually tighten the submission rather than fighting to keep them flat. You can also step over to mount while keeping the Kimura grip, which gives you gravity assistance for the finish. The key principle is not resisting their roll but adapting your body position to maintain and increase the rotational pressure throughout their movement.",
+        "safety_critical": false
+      },
+      {
+        "question": "What breaking point indicators tell you the shoulder is approaching its rotational limit during the Kimura?",
+        "answer": "Watch for increasing mechanical resistance in the rotation as the joint approaches end range, the opponent's entire body beginning to twist and contort to create slack, audible distress sounds or sharp breathing changes, visible tension in the shoulder and upper arm muscles, and the opponent's free hand reaching desperately toward the trapped arm. In training, you should feel a firm mechanical stop as the shoulder reaches its anatomical limit. Slow down and wait for the tap at this point rather than forcing through the barrier.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent grabs their own wrist to block the Kimura rotation - what grip adjustments do you make?",
+        "answer": "Insert your top hand deeper into the crook of their elbow and use a prying motion to break the defensive grip apart. Alternatively, maintain the figure-four and step over to mount position, which changes the leverage angle and adds gravitational force to your advantage, often breaking their defensive grip. You can also create a pumping motion by quickly pulling the wrist away then driving it back toward their hip to shock the grip open. Never try to muscle through their clasped defense with a static sustained pull.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper speed and release protocol for applying the Kimura rotation in training?",
+        "answer": "Apply shoulder rotation gradually over a minimum of three to five seconds, never jerking or spiking the movement. When your partner taps verbally, with their hand, or with their foot, immediately stop all rotational pressure, then slowly return their arm toward a neutral position by externally rotating it back. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly, as the arm springing back can itself cause injury. Always err on the side of slower application in training environments.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition against a strong opponent defending the Kimura from front headlock, what finishing strategy maximizes success?",
+        "answer": "Use combination attacks to create openings. Threaten a guillotine to force neck defense, then immediately switch to the Kimura on the exposed arm. If the Kimura is defended, transition back to choke threats or advance to mount while maintaining the grip. Time your attacks during the opponent's transitions between defensive postures when their hands are repositioning. Consider walking your hips to the far side to change the rotational angle when their initial defense stalls your direct rotation. The dilemma cycling between chokes and arm locks is the highest-percentage competition strategy.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you handle a situation where your training partner's arm is caught but they cannot reach to tap?",
+        "answer": "If your partner cannot physically reach you with their free hand to tap, you must be especially attentive to verbal taps, foot taps on the mat, and any distress signals including unusual sounds or body tension. If you suspect they are in pain but have not tapped, pause the rotation and ask them directly. Never assume silence means they are comfortable with the pressure. Position yourself so their free hand can always reach your body or the mat. If their tapping hand is trapped, immediately adjust your position or release to ensure they have a clear tapping avenue.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is chest pressure critical throughout the Kimura finish from front headlock?",
+        "answer": "Chest pressure serves multiple essential functions during the finish: it prevents the opponent from standing up to escape, it pins their torso so the rotational force concentrates entirely on the shoulder joint rather than being absorbed by whole-body movement, and it eliminates the space needed for defensive rolling or hip escape. Without chest pressure, the opponent can simply stand during the grip transition or create enough space to pull their arm free. The chest pressure functions as your positional control anchor while your arms handle the submission mechanics.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Front Headlock Defender",
+    "description": "Defend against the Kimura from front headlock in BJJ. Recognize grip changes, prevent figure-four locks, and escape to safe positions using proven defensive methods.",
+    "overview": "Defending the Kimura from front headlock requires recognizing the moment your opponent transitions from head control to arm control. The primary danger window occurs when they release or adjust their head grip to reach for your near arm. Keeping your elbows tight to your body and your hands clasped or gripping your own leg prevents the initial wrist isolation that starts the submission sequence. If the figure-four is locked, your defensive priority shifts to preventing the rotation by driving your elbow toward your hip and turning into your opponent. Early recognition and immediate arm protection are far more effective than attempting to escape after the grip is fully secured.",
+    "key_principles": [
+      "Keep elbows pinned tight to your ribs at all times to prevent wrist isolation for the figure-four grip",
+      "Recognize the grip transition moment when the opponent releases head control to reach for your near arm",
+      "Maintain hands clasped together or gripping your own body to prevent wrist separation and figure-four entry",
+      "Turn your body into the opponent during rotation attempts to reduce the effective leverage on your shoulder joint",
+      "Escape before the figure-four is locked - prevention is exponentially easier than escape after the grip is set",
+      "Use the opponent's grip change as an escape window since their positional control is temporarily weakened"
+    ],
+    "recognition_cues": [
+      "Opponent's far-side hand releases from your shoulder or head and reaches toward your near arm or wrist",
+      "Chest pressure shifts subtly as the opponent adjusts their weight distribution to free a hand for the grip change",
+      "A firm palm-down grip appears on your near wrist or forearm that was not there during the choke setup",
+      "Opponent's arm begins threading under your near arm from the outside, moving between your arm and body",
+      "Choke pressure on your neck suddenly decreases without any defensive action on your part, indicating they switched targets"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten arm and retract elbow tight to hip before figure-four is established",
+        "when_to_use": "When opponent first grabs your wrist but before they thread the figure-four lock underneath your arm",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Prevents figure-four from being established, forces opponent back to front headlock control without Kimura threat",
+        "risk": "Straight arm briefly exposes you to other arm attacks if not immediately retracted to defensive position"
+      },
+      {
+        "action": "Clasp hands together in gable grip defense to block shoulder rotation",
+        "when_to_use": "When the figure-four is partially or fully locked but rotational force has not yet been applied to the shoulder",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Blocks shoulder rotation completely and buys time to work positional escape while neutralizing the finish",
+        "risk": "Opponent may pry your grip apart with leverage adjustments or transition to mount while maintaining the Kimura hold"
+      },
+      {
+        "action": "Shoot hips forward and sit through to reverse position while opponent holds Kimura grip",
+        "when_to_use": "When opponent commits both hands to Kimura grip, temporarily sacrificing their positional control over your head and body",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Reverses the positional dynamic and puts you on top in the opponent's closed guard, nullifying the Kimura threat",
+        "risk": "If poorly timed or executed, the forward drive can accelerate shoulder rotation and tighten the submission"
+      },
+      {
+        "action": "Roll toward the Kimura side to relieve rotational pressure and extract arm",
+        "when_to_use": "When rotation has begun and other defensive options have failed but the shoulder has not yet reached breaking point",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Temporarily relieves shoulder pressure and may create enough slack to extract the trapped arm or recover turtle position",
+        "risk": "Opponent may follow the roll and transition to mount or belly-down Kimura finish from the new position"
+      }
+    ],
+    "escape_paths": [
+      "Straighten the attacked arm and circle away from the grip side to disengage the figure-four, then recover guard or stand",
+      "Drive forward and sit through while opponent holds the Kimura grip, reversing position to end in their closed guard on top",
+      "Roll toward the Kimura side to relieve rotational pressure while working to extract the trapped arm and recover turtle or guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Drive forward explosively during the grip transition window when the opponent has committed both hands to the Kimura, shoot your hips through and drive them to their back while they maintain the now-ineffective grip"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Posting the near arm wide on the mat with an exposed wrist during front headlock defense",
+        "consequence": "Opponent easily isolates the wrist with a paint brush grip and secures the figure-four lock with minimal resistance",
+        "correction": "Keep elbows pinned to ribs and hands clasped near your chest when not actively executing an escape; never post wide with a vulnerable arm"
+      },
+      {
+        "error": "Trying to pull the arm straight back out of the figure-four after it is locked",
+        "consequence": "Wastes energy and can actually tighten the grip as the pulling creates more friction against the figure-four structure",
+        "correction": "Turn into the opponent and drive your elbow toward your hip to reduce rotational leverage rather than pulling away from the grip"
+      },
+      {
+        "error": "Panicking and making explosive spastic movements when the Kimura grip is secured",
+        "consequence": "Can accelerate shoulder rotation and cause self-injury before you have time to recognize danger and tap safely",
+        "correction": "Stay calm, establish a clasping defensive grip immediately, and work methodical escapes while keeping your free hand available to signal a tap"
+      },
+      {
+        "error": "Focusing solely on defending the arm attack while ignoring positional escape opportunities",
+        "consequence": "Even if you temporarily defend the rotation, you remain trapped in front headlock where the opponent can retry or switch to chokes",
+        "correction": "Combine grip defense with positional improvement simultaneously - defend the Kimura rotation while working to stand up or recover guard"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that your opponent is transitioning from a choke threat to a Kimura attack from front headlock?",
+        "answer": "The primary recognition cue is feeling their far-side hand release from your shoulder or head and reach toward your near arm. You may also notice a subtle shift in their chest pressure as they adjust body weight to free a hand. Additionally, if your neck suddenly feels less threatened despite no defensive action on your part, it likely means they have redirected their attack to your arm. Developing sensitivity to these grip changes through drilling allows you to begin your defense before the figure-four is locked.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the Kimura from front headlock, and what signals should you use?",
+        "answer": "Tap immediately when you feel sharp pain in the shoulder or when you recognize that your defensive grip is about to fail and the rotation will continue unchecked. Use any available signal: verbal tap by saying 'tap' clearly, physical hand tap on the opponent's body or the mat with your free hand, or foot taps if your hands are trapped. Never try to tough it out or test the flexibility limit of your shoulder. The Kimura can cause sudden catastrophic damage to the rotator cuff and labrum that may require surgery and months of recovery time.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive options are available when the Kimura figure-four grip is already locked from front headlock?",
+        "answer": "Once the figure-four is locked, your primary defense is clasping your hands together using a gable grip or grabbing your own thigh to prevent rotation. Simultaneously, turn your body toward the opponent to reduce the effective lever arm on your shoulder. You can also try driving forward and sitting through to reverse position, though this carries risk if timed poorly. If none of these options work and rotation begins, roll toward the Kimura side to temporarily relieve pressure while working to extract the arm. Tap immediately if these layered defenses fail.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most critical time window for defending the Kimura from front headlock?",
+        "answer": "The most critical window is during the grip transition when the opponent releases their head control to reach for your near arm. At this moment, their positional control is temporarily weakened because both hands are occupied changing grips rather than maintaining front headlock pressure. This is your best opportunity for a major escape such as standing up, sitting through, or shooting to recover guard. Once the figure-four is fully locked, your escape options decrease dramatically and the submission becomes significantly harder to defend against.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is turning into your opponent important when defending the Kimura rotation?",
+        "answer": "Turning into the opponent reduces the effective lever arm by shortening the distance between your shoulder and the point of force application on your wrist. When you turn toward them, your shoulder naturally externally rotates, which is the opposite direction of the Kimura's forced internal rotation, buying additional degrees of safe rotational freedom. This movement also brings your body closer to theirs, reducing the space they need to generate torque. Combined with driving your elbow toward your hip, turning in can completely stall the rotational pressure and create escape opportunities.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying grip transition cues",
+        "description": "Partner alternates between maintaining front headlock head control and transitioning to Kimura grip. You call out the moment you feel the switch happening. Builds the sensory awareness needed to begin defense before the figure-four is established."
+      },
+      {
+        "phase": "Phase 2: Grip Prevention",
+        "focus": "Arm protection and wrist isolation defense",
+        "description": "Partner attempts to isolate your near arm for the Kimura while you practice keeping elbows tucked, hands clasped, and arms protected close to your body. Work at progressively increasing resistance levels to build reliable defensive reflexes."
+      },
+      {
+        "phase": "Phase 3: Escape from Locked Figure-Four",
+        "focus": "Defensive grip fighting and positional escape",
+        "description": "Start with partner having the figure-four fully locked. Practice clasping defense, turning in, and driving elbow to hip. Progress to combining grip defense with positional escapes like sitting through or standing up. Include tap timing awareness to build safe training habits."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Integration",
+        "focus": "Full defensive decision-making under pressure",
+        "description": "Start from front headlock with partner free to attack any submission including the Kimura. Practice the full defensive hierarchy: when to defend neck, when to protect arms, and when to commit to positional escape. Build comfort and composure under realistic pressure."
+      }
+    ]
+  }
+}

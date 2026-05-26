@@ -154,6 +154,8 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery from Meathook?</p>
+
 - Top player posts their free arm wide on the mat, creating distance from their body to build extraction leverage
 - Top player begins internally rotating or spiraling their trapped arm rather than pulling straight back
 - Top player's free hand moves to strip your controlling grip on their head or collar
@@ -165,6 +167,8 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Recovery from Meathook?</p>
 
 - Constant shin hook pressure against the tricep prevents arm extraction—momentary loosening creates extraction windows your opponent will exploit
 - Hip angle adjustments must be rapid and purposeful, minimizing the transitional moments when hook pressure decreases
@@ -179,6 +183,8 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery from Meathook?</p>
 
 ### 1. Tighten shin hook and pull shoulder forward as extraction attempt begins
 
@@ -216,6 +222,8 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery from Meathook?</p>
+
 ### → [[Positions/Back Control]]
 
 When the top player creates space during posture recovery, follow their hip movement with your own hip pivot, threading your hooks behind their thighs as they drive upward. The space they need for posture recovery is the same space that allows you to establish back control. Time your hip rotation to their upward drive moment.
@@ -231,6 +239,8 @@ Maintain coordinated shin hook and head grip pressure throughout extraction atte
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery from Meathook?</p>
 
 ### 1. Static hip position during top player's extraction attempts without active adjustment
 
@@ -260,6 +270,8 @@ Maintain coordinated shin hook and head grip pressure throughout extraction atte
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery from Meathook?</p>
+
 **Phase 1: Hook Maintenance Under Pressure** - Maintaining shin hook against progressive extraction attempts
 Partner attempts arm extraction with increasing resistance levels. Practice deepening the hook, adjusting angle, and maintaining coordinated head grip throughout extraction attempts. Focus on feeling when hook pressure decreases and actively correcting before extraction completes. 10 attempts per side with reset.
 
@@ -273,26 +285,6 @@ Start in Meathook with full resistance from both players. Bottom player works to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The top player posts their free arm wide and begins internally rotating their trapped shoulder—what are they preparing and how should you respond?
-**A**: They are loading rotational pre-tension for an explosive spiral arm extraction. The wide base provides leverage and the internal rotation sets up the corkscrew motion. Respond immediately by tightening the shin hook pressure, pulling your knee toward your chest to deepen the hook angle, and reinforcing your head grip. Additionally, consider preemptive hip adjustment toward triangle angle so their extraction attempt feeds directly into your next submission.
-
-**Q2**: Your opponent successfully extracts their arm from the Meathook and begins driving posture upward—what is your highest-percentage counter?
-**A**: Follow their upward drive with a hip pivot to take their back. The space they create for posture recovery simultaneously exposes their hips for hook insertion. As they drive up, shoot your hips behind theirs and thread your hooks inside their thighs. Their posture recovery momentum actually assists your back take entry. This is why the back take counter has 20% probability in the outcome model—it is a real and dangerous threat during every recovery attempt.
-
-**Q3**: Why is it critical to minimize the duration of hip adjustments when maintaining Meathook control?
-**A**: Hip adjustments temporarily reduce shin hook pressure as you redistribute weight and change angles. Experienced top players time their explosive extraction attempts precisely to these transitional moments when your hook is weakest. Every hip adjustment must be executed rapidly and purposefully, minimizing the window of reduced pressure. Slow or unnecessary hip movements give the opponent repeated extraction opportunities with each adjustment.
-
-**Q4**: The top player is attempting incremental grip stripping on your collar control rather than explosive extraction—how should you adapt your defense?
-**A**: Against incremental grip stripping, you cannot simply wait—your energy cost in Meathook is high and time works against static holding. Accelerate your attack timeline. Begin transitioning toward your highest-percentage submission immediately rather than trying to outlast their systematic approach. The incremental strategy is designed to be patient, so force urgency by threatening finishes that demand their attention shift from grip stripping to survival.
-
-
-
-</section>
 
 
 </main>

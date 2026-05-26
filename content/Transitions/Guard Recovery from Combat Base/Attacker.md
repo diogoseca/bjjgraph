@@ -188,6 +188,8 @@ As the bottom player under combat base, your primary objective is to systematica
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Combat Base?</p>
+
 - Establish structural frames before attempting any hip movement—arms create the space that legs fill
 - Hip escape at angles rather than bridging straight up, creating lateral distance that opens guard recovery paths
 - Time recovery attempts to opponent's weight shifts between passing options rather than fighting static pressure
@@ -203,6 +205,8 @@ As the bottom player under combat base, your primary objective is to systematica
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Combat Base?</p>
+
 - At least one arm positioned to frame on opponent's shoulder, chest, or bicep before initiating recovery
 - Hips retain enough lateral mobility to perform a meaningful hip escape creating four to six inches of angle
 - Opponent's weight is distributed through combat base rather than fully committed to crossface flattening pressure
@@ -214,6 +218,8 @@ As the bottom player under combat base, your primary objective is to systematica
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Combat Base step by step?</p>
 
 1. **Establish Primary Frame**: Place your near-side forearm across the opponent's collarbone or shoulder, creating a structural barrier that prevents them from collapsing their weight onto your chest. Keep your elbow tight to your body and angle the frame slightly toward their chin to maximize leverage and prevent them from swimming past your arm.
 2. **Secure Secondary Grip**: With your far-side hand, grip the opponent's sleeve at the wrist or control their far bicep to prevent them from establishing a crossface or underhook. In no-gi, use a wrist grip or c-clamp on their bicep. This secondary control prevents the opponent from circling to your frame side and neutralizing your primary barrier.
@@ -243,6 +249,8 @@ As the bottom player under combat base, your primary objective is to systematica
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Combat Base?</p>
+
 - **Opponent drives heavy forward pressure with crossface to flatten your frames and pin your shoulders to the mat** (Effectiveness: High) - Your Response: Redirect their pressure past your centerline using your frame as a deflection point rather than a wall, then hip escape in the direction their weight carries them → Leads to [[Positions/Combat Base]]
 - **Opponent advances knee through during your hip escape, sliding past your shin frame into half guard passing position** (Effectiveness: High) - Your Response: If knee penetrates past your shin, immediately transition to knee shield half guard retention rather than fighting for closed guard—secure the underhook and work half guard recovery → Leads to [[Positions/Half Guard]]
 - **Opponent stands up from combat base to disengage your leg reattachment and resets from a standing position** (Effectiveness: Medium) - Your Response: Immediately establish feet on hips and grip collar or sleeves to prevent free disengagement, transitioning to open guard with active leg pummeling to maintain connection → Leads to [[Positions/Combat Base]]
@@ -254,6 +262,8 @@ As the bottom player under combat base, your primary objective is to systematica
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Combat Base?</p>
 
 ### 1. Reaching for opponent's legs instead of establishing frames first
 
@@ -293,6 +303,8 @@ As the bottom player under combat base, your primary objective is to systematica
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Combat Base (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Structural framing and distance creation
 Drill framing sequences from flat on back against partner in combat base at 30% resistance. Focus on proper forearm placement, elbow positioning, and frame angles. Practice maintaining frames for 10-second holds while partner applies graduated pressure. Build muscle memory for automatic frame establishment.
 
@@ -313,36 +325,12 @@ After successful guard recovery, immediately launch into offensive sequences lik
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating guard recovery against a combat base player?
-**A**: The optimal window occurs during the opponent's weight transfer between passing options—when they shift from knee slice setup to toreando grip change, or when they adjust their posted foot position. During these transitional moments, their base is momentarily compromised and their pressure is least focused, creating the best opportunity for your frames to redirect their weight and your hip escape to generate meaningful distance.
-
-**Q2**: Your opponent strips your shoulder frame and drives their crossface into your jaw—how do you recover?
-**A**: Do not fight the crossface directly with strength. Turn your face toward the crossface to relieve jaw pressure while shooting your near-side arm under their chin to create a new frame point. Simultaneously hip escape away from the crossface direction, as their weight commitment to the crossface creates space on the opposite side. Use this new angle to insert your knee shield before they can readjust their pressure.
-
-**Q3**: What grip should your far hand prioritize during the guard recovery sequence and why?
-**A**: Your far hand should prioritize controlling the opponent's far sleeve at the wrist or their far bicep. This grip prevents them from establishing the underhook or crossface that enables passing, while also pulling their weight slightly forward and toward your frame side. In no-gi, a c-clamp grip on the bicep provides similar control while preventing them from posting with that hand during your hip escape.
-
-**Q4**: Why is the shin frame insertion more effective than immediately closing guard after the hip escape?
-**A**: The shin frame creates a structural barrier using skeletal leverage rather than muscular effort, maintaining distance while you reattach your far leg. Attempting to close guard immediately after hip escape requires both legs to travel behind the opponent simultaneously, leaving a gap where no leg controls distance. The shin frame maintains continuous leg contact throughout the transition, preventing the opponent from closing distance during the recovery.
-
-**Q5**: Your opponent begins a knee slice pass during your guard recovery attempt—what adjustment prevents the pass?
-**A**: Abandon the closed guard recovery and immediately transition to knee shield half guard retention. Turn into the passing direction, insert your bottom knee as a shield across their hip, and secure an underhook with your top arm. The knee shield stops their sliding knee while the underhook prevents crossface establishment. From knee shield half guard, you can work a secondary guard recovery sequence with better structural support.
-
-**Q6**: What is the critical direction of force when using your frame against a combat base player's forward pressure?
-**A**: Direct your frame at a forty-five degree angle toward the opponent's chin and away from your centerline rather than pushing straight back into their chest. Straight-back frames engage a strength battle you will lose against forward driving pressure. The angled frame redirects their weight past your body, converting their energy into rotational movement that carries them off-balance while creating the lateral space your hip escape needs.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Combat Base?</p>
 
 Guard recovery from combat base is a low-injury-risk transition, but practitioners should be mindful of neck strain when bridging under heavy crossface pressure. Avoid explosive bridging when the opponent has a deep crossface, as this can compress cervical vertebrae. If the opponent's weight fully pins your hips, abandon the recovery attempt and work incrementally rather than forcing explosive movements that risk lower back injury. During training, communicate with your partner about pressure intensity to prevent rib compression injuries from sustained combat base pressure.
 

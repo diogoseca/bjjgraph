@@ -21,13 +21,13 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass to Side Control",
-      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
@@ -171,6 +171,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Drag Control (Top)?</p>
+
 - Top player maintains control of bottom player's near-side leg, typically with their arm threading under or around it and gripping the hip, pants, or belt. This leg control is pulled across the bottom player's body, creating the characteristic crossed-leg position that defines the leg drag and serves as the primary control mechanism.
 - Top player's chest or shoulder applies constant pressure to the bottom player's near hip, driving them onto their side and preventing them from facing directly into the top player. This hip pressure is critical—it prevents the bottom player from using their legs effectively for defense and creates the threat of back exposure that dominates the position's dynamics.
 - Top player's free hand controls the bottom player's far shoulder, head, or establishes a crossface that prevents rotation back toward the top player. This upper body control completes the system by limiting the bottom player's ability to sit up, turn in, or create effective frames for escape.
@@ -181,6 +183,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Leg Drag Control (Top)?</p>
 
 - You have entered opponent's guard space and secured control of one leg
 - Opponent's guard structure has been compromised sufficiently to pull leg across their body
@@ -193,6 +197,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Leg Drag Control?</p>
 
 - Leg drag control is transitional—never stop moving toward consolidation or submission
 - Hip pressure is your primary control—drive continuously into opponent's hip with your chest
@@ -208,6 +214,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Drag Control (Top)?</p>
 
 **If opponent turns away to protect guard and exposes back:**
 - Execute **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
@@ -241,6 +249,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Leg Drag Control?</p>
 
 ### 1. Staying static in leg drag control without threatening advancement
 
@@ -280,6 +290,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Leg Drag Control attacks?</p>
+
 ### Leg Drag Flow Drill
 
 From leg drag control, practice flowing between all major transition options (back take, mount, side control, north-south) based on partner's random defensive movements. Partner provides graduated resistance.
@@ -312,38 +324,6 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts bridging aggressively while you have leg drag control—what adjustment do you make?
-**A**: When the opponent bridges, drive your chest pressure lower into their hip while posting your free hand wide on the mat for base. The bridge creates momentary space, so immediately follow their movement and use it to advance to mount or slide to side control. Do not fight the bridge statically—flow with it and use the momentum to consolidate.
-
-**Q2**: What are the essential grips for maintaining leg drag control from top position?
-**A**: The primary grip is on the opponent's dragged leg, controlling the hip, pants, or belt to maintain the crossed-leg configuration. The secondary grip controls the far shoulder, establishes a crossface, or controls the head to prevent rotation. In no-gi, you use underhooks and overhooks on the leg combined with shoulder or head pressure. Both grips work together as a system—losing either compromises the position.
-
-**Q3**: How do you shut down the opponent's primary escape when they try to hip escape and recover guard?
-**A**: When the opponent attempts to hip escape, immediately increase pressure on their shoulder or head control while driving your hips forward to close the space they're creating. Follow their hip movement with your body, maintaining the crossed-leg configuration. If they create significant space, transition to knee on belly or switch your angle to re-establish control before they can insert a knee shield or hook.
-
-**Q4**: What are your grip priorities when you feel your opponent starting to create space?
-**A**: When space is created, prioritize the shoulder or head control over the leg control. The upper body control prevents them from facing you and re-guarding, while the leg will naturally stay trapped if you maintain hip pressure. If you must choose, release the leg grip temporarily to establish stronger upper body control, then immediately re-secure the leg once they're stabilized.
-
-**Q5**: How should you apply pressure in leg drag control without exhausting yourself?
-**A**: Use skeletal alignment rather than muscular effort. Keep your chest bone-on-bone with their hip, letting gravity do the work. Your elbows should stay tight to your body, not flared. Drive pressure at 45-degree angles rather than straight down—this is more efficient and harder to escape. Stay on the balls of your feet ready to transition rather than sitting heavy, which wastes energy and slows your reactions.
-
-**Q6**: Your opponent turns away from you while in leg drag control—how do you anticipate and respond?
-**A**: The moment you feel them start to turn away, immediately release your shoulder control and reach over their back for the far hip or seatbelt control. Your leg control arm slides under their armpit or around their waist. Insert your bottom hook first as they expose their back, then secure the seatbelt grip before inserting the second hook. Turning away is what you want them to do—follow immediately and the back take is high-percentage.
-
-**Q7**: How do you manage energy when your opponent is actively defending in leg drag control?
-**A**: The key is making your opponent work harder than you. Constantly threaten advancement—back take, mount, or side control—forcing them to react. Each time they defend one attack, immediately threaten another. This drains their energy while you use efficient mechanics. If they stall, maintain position with minimal effort using proper pressure angles, then explode when an opening appears. The position should feel active but not exhausting.
-
-**Q8**: Your opponent partially escapes and gets a knee shield in—how do you recover your leg drag control?
-**A**: When a knee shield enters, you've lost pure leg drag control. Do not force the leg drag against the shield—this wastes energy. Instead, use the knee shield as leverage: push it across their body while circling to the opposite side to re-establish the leg drag on the other leg, or collapse the shield by driving into their hip and transitioning to a smash pass. Alternatively, backstep to leg entanglement entries if they overcommit to the shield.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

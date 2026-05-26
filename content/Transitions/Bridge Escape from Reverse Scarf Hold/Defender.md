@@ -162,6 +162,8 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from Reverse Scarf Hold?</p>
+
 - Bottom player repositions feet flat on mat with heels close to hips, shifting from passive leg position to active bridge-ready stance
 - Bottom player establishes far-side forearm frame against your hip, lower back, or shoulder, creating the structural support needed for post-bridge space maintenance
 - Bottom player takes a deep controlled breath and tenses their core and gluteal muscles, indicating imminent explosive effort
@@ -173,6 +175,8 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from Reverse Scarf Hold?</p>
 
 - Maintain constant heavy hip pressure on the opponent's chest to limit their bridge power generation at the source
 - Keep a wide base with legs sprawled to distribute weight across multiple posting points, making directional bridges less effective
@@ -186,6 +190,8 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from Reverse Scarf Hold?</p>
 
 ### 1. Widen base and drop hips lower onto opponent's chest before bridge initiates
 
@@ -223,6 +229,8 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from Reverse Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Preemptively widen your base and drop your hip weight lower when you recognize bridge preparation cues. Absorb the bridge force through your expanded base, then immediately resettle full chest pressure and re-secure arm control before the opponent can chain into a hip escape.
@@ -238,6 +246,8 @@ When the opponent commits to a powerful bridge that significantly lifts your hip
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from Reverse Scarf Hold?</p>
 
 ### 1. Maintaining a narrow base that is easily disrupted by directional bridges
 
@@ -267,6 +277,8 @@ When the opponent commits to a powerful bridge that significantly lifts your hip
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from Reverse Scarf Hold?</p>
+
 **Phase 1: Recognition and Base Awareness** - Identifying bridge preparation cues and preemptive base adjustment
 Partner in reverse scarf hold bottom prepares for bridge escape at 30% speed. Top player practices recognizing foot repositioning, frame establishment, and breathing changes, then makes base adjustments before the bridge initiates. Focus on feeling the cues through chest contact rather than relying on visual information.
 
@@ -283,29 +295,6 @@ Full resistance rounds starting in reverse scarf hold. Top player works to maint
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing a bridge escape from reverse scarf hold bottom?
-**A**: The earliest cue is foot repositioning—feeling or seeing the opponent walk their feet flat onto the mat with heels close to their hips. This shifts them from a passive flat-on-back position to a bridge-ready stance. Secondary cues include establishment of a far-side frame against your hip or shoulder, a deep controlled breath indicating imminent exertion, and subtle core tensing that you can feel through your chest contact. Recognizing these early allows preemptive base adjustment before the explosive bridge initiates.
-
-**Q2**: Your opponent bridges at a 45-degree angle toward your back—what is your immediate base adjustment?
-**A**: Immediately extend your far-side leg further in the direction of their bridge to create a wider posting base on that side. Simultaneously drop your hip weight lower onto their chest and turn your hips slightly toward the bridge direction. If the bridge is powerful enough to significantly displace your weight, abandon the fight to maintain reverse scarf hold and ride the momentum to step over into mount. The worst response is to stiffen and resist the directional force, as this creates a mechanical disadvantage contest that wastes your energy.
-
-**Q3**: How does attacking the near-side arm preemptively reduce the effectiveness of bridge escape attempts?
-**A**: Attacking the near-side arm with kimura or americana forces the opponent to prioritize arm defense over escape preparation. They must pull their arm back to defensive position, use their far-side hand to defend the submission rather than establishing frames, and abandon foot repositioning to address the immediate threat. This resets their escape preparation timeline and drains energy on defense rather than offense. However, you must maintain base during the submission attempt—committing both hands to the attack without adjusting your base creates a window where a desperate bridge may succeed.
-
-**Q4**: Your opponent executes a powerful bridge that lifts your hips significantly—should you fight to maintain reverse scarf hold or transition?
-**A**: Transition rather than fight. When a bridge generates enough force to significantly displace your hips, attempting to resettle reverse scarf hold creates an energy-intensive scramble with uncertain results. Instead, use the opponent's upward momentum to step your far leg over their body into mount position, converting their escape energy into your positional advancement. This tactical awareness—recognizing when to maintain versus when to transition—separates effective reverse scarf hold players from those who waste energy fighting losing battles to maintain a specific configuration.
-
-**Q5**: What is the most common error defenders make when responding to a bridge escape attempt from reverse scarf hold?
-**A**: The most common error is maintaining a narrow base that makes directional bridges highly effective. Many practitioners settle into reverse scarf hold with their legs close together or both knees tightly positioned, which provides excellent pressure but poor resistance against angled bridges. When the opponent bridges at a 45-degree angle toward the defender's back, a narrow base cannot absorb the directional force, leading to displacement and space creation. The correction is maintaining a wide, sprawled base with legs extended at angles, sacrificing some compression for significantly improved bridge resistance.
-
-
-
-</section>
 
 
 </main>

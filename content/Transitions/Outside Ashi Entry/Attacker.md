@@ -192,6 +192,8 @@ This technique has become increasingly prevalent in modern competition due to it
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Outside Ashi Entry?</p>
+
 - Maintain continuous connection to opponent's leg throughout the entry sequence
 - Control distance and posture to prevent opponent from establishing strong base
 - Use opponent's forward pressure or weight distribution against them
@@ -207,6 +209,8 @@ This technique has become increasingly prevalent in modern competition due to it
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Outside Ashi Entry?</p>
+
 - Standing engagement with opponent showing forward pressure or neutral stance
 - Clear path to opponent's lead leg without obstruction
 - Proper distance management - close enough to grip but not so close as to be clinched
@@ -221,6 +225,8 @@ This technique has become increasingly prevalent in modern competition due to it
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Outside Ashi Entry step by step?</p>
 
 1. **Establish initial grip connection**: From standing, establish a controlling grip on the opponent's lead leg, typically at the ankle or lower shin. Simultaneously maintain an upper body connection through collar ties, wrist control, or shoulder pressure. The grip should be firm but allow for quick adjustment as you begin the entry sequence. Your posture should remain upright initially to disguise the upcoming level change.
 2. **Execute controlled level change**: Drop your level by bending at the knees and hips while maintaining grip on the opponent's leg. Your head position should move to the outside of their trapped leg, creating the proper angle for outside ashi. Keep your spine relatively straight during this drop to maintain structural integrity and prevent being sprawled upon. The level change should be explosive enough to commit but controlled enough to maintain balance.
@@ -250,6 +256,8 @@ This technique has become increasingly prevalent in modern competition due to it
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Outside Ashi Entry?</p>
+
 - **Opponent sprawls heavily backward as you drop level** (Effectiveness: Medium) - Your Response: Maintain grip on the leg and follow their backward movement, using their momentum to complete your rotation. Alternatively, transition to a single leg finish if the leg is elevated high enough. → Leads to [[Positions/Standing Position]]
 - **Opponent steps over with free leg during entry** (Effectiveness: High) - Your Response: Immediately switch to inside ashi entry or abandon the leg entanglement in favor of guard pull or other positional transition. Do not force the outside entry if they successfully step over. → Leads to [[Positions/Standing Position]]
 - **Opponent maintains strong posture and pulls leg free** (Effectiveness: Medium) - Your Response: Chase the leg as they pull back, using their retraction to accelerate your forward movement. Alternatively, transition to single leg X-guard entry if they create vertical distance. → Leads to [[Positions/Standing Position]]
@@ -262,6 +270,8 @@ This technique has become increasingly prevalent in modern competition due to it
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Outside Ashi Entry?</p>
 
 ### 1. Dropping to mat too early before securing proper leg control
 
@@ -306,6 +316,8 @@ This technique has become increasingly prevalent in modern competition due to it
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Outside Ashi Entry (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Solo drilling and understanding the basic movement pattern
 Practice the entry motion without a partner, focusing on the level change, rotation, and hip drop sequence. Use a grappling dummy or visualization to ingrain the motor pattern. Drill slowly to ensure proper head position, rotation angle, and leg threading mechanics. Emphasize the feeling of maintaining connection throughout the movement.
 
@@ -329,42 +341,12 @@ Regular practice in full sparring and competition settings. Develop entry timing
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical head position during the outside ashi entry and why?
-**A**: The head must be positioned on the outside of the opponent's trapped leg throughout the entry. This positioning prevents guillotine attacks, facilitates proper rotation mechanics by allowing your body to turn perpendicular to the opponent, and maintains structural safety during the level change. Inside head position makes you vulnerable to submissions and mechanically compromises the rotation needed for successful entry.
-
-**Q2**: What is the primary mechanical difference between outside ashi entry and inside ashi entry?
-**A**: Outside ashi entry positions you on the exterior side of the opponent's leg with your inside leg crossing their hip/back, while inside ashi entry places you between their legs. Outside entry is generally safer from counters but provides different submission angles, primarily favoring straight ankle locks and outside heel hooks. The entry pathway for outside ashi involves rotation to the outside rather than penetration between the legs, making it less vulnerable to sprawls and guillotines but requiring more precise rotation mechanics.
-
-**Q3**: How should you respond if the opponent successfully sprawls heavily as you initiate the level change?
-**A**: Maintain your grip on their leg and follow their backward movement rather than fighting against it. Use their sprawling momentum to facilitate your rotation by moving with them. If they sprawl with significant elevation, consider transitioning to a single leg finish instead of forcing the ashi entry. The key is to never release the leg while they're sprawling - their backward movement can actually assist your rotation if you move with it rather than against it.
-
-**Q4**: Why is timing the entry to coincide with the opponent's forward step or weight shift important?
-**A**: Timing the entry with opponent's movement serves multiple purposes: it reduces their ability to defend by catching them mid-motion when base is compromised, it uses their forward momentum to assist your entry rather than fighting against static resistance, and it disguises your entry within the natural flow of movement making it harder to anticipate. Attempting the entry against a static, balanced opponent results in maximum resistance and low success rates, whereas timing it with their movement can increase success rates by 30-40%.
-
-**Q5**: What should be your immediate priority if the opponent steps over with their free leg during your entry?
-**A**: Immediately abandon the outside ashi entry as the technique is no longer viable once they successfully step over. Your options include switching to inside ashi entry (if the positioning allows), transitioning to guard pull or guard recovery, or attempting single leg X-guard entry if they've created vertical distance. Forcing the outside entry after they've stepped over typically results in giving up top position or being passed. Recognition and abandonment of failed entries is a crucial skill in leg lock systems.
-
-**Q6**: Describe the optimal leg configuration in the final outside ashi position and explain the function of each leg?
-**A**: In outside ashi, your inside leg (closest to opponent's centerline) should cross over their hip or lower back with the knee and shin creating a barrier, while your outside leg hooks over their trapped leg at the knee or upper shin with the foot actively pulling their knee toward you. The inside leg's function is to prevent them from rotating away or creating distance, essentially anchoring their hip. The outside leg's function is to control and elevate their knee, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks.
-
-**Q7**: What grip configuration should you establish on the opponent's leg during the initial setup, and why does grip height matter?
-**A**: The initial grip should be at the ankle or lower shin, using a C-grip or monkey grip that allows quick adjustment during the level change. Grip height matters because gripping too high (at the knee or thigh) provides insufficient leverage to control the limb during the rotational drop. The lower the grip, the longer the lever arm you control, making it exponentially harder for the opponent to retract their leg. Additionally, a low grip naturally positions your arms to transition into the two-on-one heel/ankle control needed for the final ashi position without requiring a major grip change mid-entry.
-
-**Q8**: Your opponent defends your outside ashi entry by pulling their leg free before you complete the rotation - what chain attacks are available?
-**A**: When the opponent retracts their leg during entry, several chain attacks become available depending on the distance created. If they pull back while you maintain forward momentum, transition immediately to single leg X-guard entry by inserting your foot on their far hip. If they create significant vertical distance by standing tall, switch to an ankle pick on the same or opposite leg since their weight is momentarily shifted. If they step backward with both feet, pursue a low single leg entry using the forward pressure you already have. The key principle is that their retraction creates a directional reaction you can exploit - never simply reset to neutral after a failed entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Outside Ashi Entry?</p>
 
 The outside ashi entry involves rapid level changes and rotational movements that can stress the knee joints of both practitioners. When drilling, ensure your partner is aware you're practicing leg entanglements and that they understand tapping protocols for leg locks. During the entry, avoid jerking or yanking the opponent's leg violently - maintain constant connection but execute with control. Be particularly careful when dropping your weight as improper landing can stress your own knee or hip joints. When practicing against resistance, both partners should have clear understanding of competition-legal versus training-only leg lock positions based on skill level and rule set. Partners should communicate about knee or ankle injuries before practicing. As with all leg lock training, start slowly with cooperative drilling before progressing to resistance, and always respect taps immediately and completely. The rotational forces during entry can create torque on your own spine, so maintain core engagement throughout the movement.
 

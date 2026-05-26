@@ -162,6 +162,8 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Leg Hook?</p>
+
 - Bottom player turns aggressively onto their side and attempts to thread an underhook under your armpit, indicating sweep setup initiation
 - Increased tension and upward pressure from the leg hook, particularly a lifting sensation against your inner thigh or hip crease
 - Bottom player's free hand reaches for your far wrist or elbow, attempting to block your posting hand before the sweep
@@ -174,6 +176,8 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Leg Hook?</p>
 
 - Maintain centered base with weight distributed evenly to resist lateral displacement in any direction
 - Deny the underhook by swimming your arm inside or driving crossface pressure before the bottom player can establish it
@@ -188,6 +192,8 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Leg Hook?</p>
 
 ### 1. Drive heavy crossface and sprawl hips back to flatten the bottom player and deny the side angle
 
@@ -225,6 +231,8 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Leg Hook?</p>
+
 ### → [[Positions/Side Control]]
 
 Counter the sweep by sprawling hips back while driving heavy crossface pressure. Use the bottom player's side-angle positioning against them by completing a guard pass through their compromised defensive structure. Their sweep setup often opens the very space you need to clear your leg and finish the pass.
@@ -240,6 +248,8 @@ Maintain heavy centered base and deny the underhook to stuff the sweep before it
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Leg Hook?</p>
 
 ### 1. Ignoring the underhook establishment and focusing only on the leg hook
 
@@ -269,6 +279,8 @@ Maintain heavy centered base and deny the underhook to stuff the sweep before it
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Leg Hook?</p>
+
 **Phase 1: Recognition Training** - Identifying setup cues before the sweep loads
 Partner works the full sweep setup sequence at 50% speed. Defender practices identifying each recognition cue: side turn, underhook attempt, post-blocking hand, and weight-loading sensation. Call out each cue as it appears without attempting to defend. Builds the pattern recognition foundation before adding defensive responses.
 
@@ -285,29 +297,6 @@ After successfully defending the sweep, immediately transition to a guard pass u
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Sweep from Leg Hook is being set up?
-**A**: The earliest cue is the bottom player aggressively turning onto their side and threading an underhook under your armpit. This side-angle combined with underhook insertion signals sweep intent before the weight-loading phase begins. Addressing the underhook at this stage prevents the sweep from reaching the commitment phase where it becomes much harder to defend.
-
-**Q2**: Why is denying the underhook more effective than fighting the leg hook for sweep defense?
-**A**: The sweep requires coordinated upper and lower body control to generate sufficient force for the reversal. The leg hook alone can elevate but cannot direct the sweep without upper body connection. By denying the underhook, you break the unified control system, reducing the sweep to a single-lever action that is easily blocked by maintaining base. Fighting only the leg hook leaves the more dangerous upper body connection intact.
-
-**Q3**: Your opponent initiates the sweep and you feel your weight shifting - what is your emergency response?
-**A**: Post your far hand wide on the mat immediately to establish a tripod base that blocks the roll direction. Simultaneously drive your hips low and forward to re-center your weight. Once the immediate sweep threat is neutralized, retract the posting hand quickly to prevent arm drag attacks, swim your near arm inside to deny the underhook, and work to re-establish your passing position with centered base.
-
-**Q4**: How can you convert a failed sweep attempt into a passing opportunity?
-**A**: When the bottom player commits to the sweep, they create side angle and space that exposes passing lanes. As the sweep fails, immediately drive crossface pressure and use the bottom player's compromised angle to advance a knee slice, leg drag, or pressure pass. Their sweep setup often opens the exact space you need to clear your leg and complete the pass to side control.
-
-**Q5**: What base adjustment prevents the sweep from being loaded in the first place?
-**A**: Maintain a wide, centered base with weight distributed evenly and hips low. Position your knees wide enough that lateral displacement requires significant force, and keep your center of gravity directly over the bottom player's torso rather than shifted to either side. Actively re-center each time you feel the bottom player attempting to shift your weight, denying them the loaded position they need before initiating the roll.
-
-
-
-</section>
 
 
 </main>

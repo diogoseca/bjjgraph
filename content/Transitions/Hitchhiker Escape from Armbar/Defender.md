@@ -156,6 +156,8 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hitchhiker Escape from Armbar?</p>
+
 - Opponent's trapped thumb begins rotating from ceiling-pointing to pointing toward their own head
 - Opponent's free hand reaches across to grip your leg that crosses their face
 - Opponent initiates a hip bridge directed toward the trapped arm side rather than straight up
@@ -168,6 +170,8 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hitchhiker Escape from Armbar?</p>
 
 - Maintain tight knee squeeze throughout the armbar to create friction against any rotational attempt
 - Keep hips pressed firmly against the opponent's shoulder to eliminate space needed for rotation
@@ -182,6 +186,8 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hitchhiker Escape from Armbar?</p>
 
 ### 1. Squeeze knees together and elevate hips immediately upon detecting thumb rotation
 
@@ -212,6 +218,8 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hitchhiker Escape from Armbar?</p>
+
 ### → [[Positions/Armbar Control]]
 
 Prevent the escape by squeezing knees tightly the moment you detect thumb rotation, maintaining wrist control to block arm rotation, and keeping hips pressed against their shoulder. If they begin to turn, follow the rotation to maintain the belly-down armbar rather than fighting the turn statically.
@@ -227,6 +235,8 @@ When the hitchhiker escape has progressed too far to maintain the armbar, immedi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hitchhiker Escape from Armbar?</p>
 
 ### 1. Relying solely on grip strength to hold the wrist against the rotation
 
@@ -256,6 +266,8 @@ When the hitchhiker escape has progressed too far to maintain the armbar, immedi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hitchhiker Escape from Armbar?</p>
+
 **Phase 1: Recognition** - Identifying hitchhiker escape attempts early
 Partner slowly initiates hitchhiker escape while you focus on detecting the thumb rotation, free hand movement, and body tension changes that signal the escape. Practice calling out the cue you detect and immediately squeezing knees. Repeat 20 times per side with increasing speed of the escape attempt.
 
@@ -272,29 +284,6 @@ Start in full armbar control against a partner who uses all available escape met
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a hitchhiker escape?
-**A**: The first cue is feeling the trapped arm rotate so the thumb begins pointing toward the opponent's own head rather than toward the ceiling. This rotation precedes the body turn and is the earliest warning that the hitchhiker sequence has begun. Immediately respond by squeezing your knees together and re-gripping the wrist to prevent further rotation before momentum builds.
-
-**Q2**: How should you adjust your hip position when you feel rotation beginning?
-**A**: Drive your hips tighter against their shoulder and angle them slightly toward the direction of their rotation to block the rotational path with your body mass rather than relying solely on grip strength. Simultaneously elevate your hips to increase finishing pressure, forcing them to choose between continuing the escape attempt and protecting the elbow joint from extension.
-
-**Q3**: Your opponent has partially rotated and is now perpendicular to you - what transition should you pursue?
-**A**: If they have achieved significant rotation, transition to the belly-down armbar by following their rotation and maintaining your grip. As they turn face-down, keep your hips connected to their shoulder and your legs controlling their upper body. The belly-down position gives you a stronger finishing angle because their face-down orientation eliminates the bridging defense they rely on from supine.
-
-**Q4**: When should you abandon the armbar and transition to a different position?
-**A**: Abandon the armbar when the opponent has completed enough rotation that your hips have lost contact with their shoulder and you cannot re-establish the connection. At this point, maintaining grip becomes counterproductive. Release and immediately transition to mount by driving your weight onto their torso as they complete their turn, or follow to back control if they end up in turtle position.
-
-**Q5**: What leg adjustment prevents the initial thumb rotation that starts the hitchhiker sequence?
-**A**: Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape.
-
-
-
-</section>
 
 
 </main>

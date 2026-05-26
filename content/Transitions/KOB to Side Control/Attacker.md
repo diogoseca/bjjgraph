@@ -188,6 +188,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing KOB to Side Control?</p>
+
 - Establish upper body control (crossface or collar grip) before initiating the knee drop to ensure continuous control throughout the transition
 - Block the opponent's far hip with your near hand to prevent knee insertion and guard recovery during the weight transfer
 - Transfer pressure seamlessly from vertical knee pressure to horizontal chest pressure with no gap or space creation between phases
@@ -202,6 +204,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting KOB to Side Control?</p>
+
 - Established Knee on Belly with stable base and at least one controlling grip on the opponent's collar, lapel, or head
 - Control of the opponent's near-side collar or crossface position to facilitate immediate crossface establishment upon arrival
 - Opponent's near arm managed — either controlled, trapped, or positioned where it cannot insert effective frames during the drop
@@ -214,6 +218,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute KOB to Side Control step by step?</p>
 
 1. **Establish Upper Body Control**: Before initiating the transition, secure your near-side collar grip or begin positioning your forearm for the crossface while maintaining far-side belt or pants control. These grips provide the control framework that allows a seamless drop from KOB to side control without creating exploitable space for the bottom player.
 2. **Block the Far Hip**: Place your near hand firmly on the opponent's far hip, applying downward pressure to prevent them from inserting their knee or shrimping away during the transition. This hip block is the single most important preventive measure against guard recovery and must be established before the knee leaves the belly.
@@ -243,6 +249,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter KOB to Side Control?</p>
+
 - **Opponent frames against hip and shrimps during the knee drop to create space for guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement with your body, maintain chest contact, and drive crossface pressure to flatten them before they complete the shrimp. If they create significant space, consider re-establishing KOB rather than forcing a compromised side control. → Leads to [[Positions/Half Guard]]
 - **Opponent inserts knee shield as your knee lifts off their belly, blocking your chest drop** (Effectiveness: High) - Your Response: Drive your shoulder into their knee shield while blocking their far hip. Use a knee slice motion to cut through the shield, or backstep to clear the knee before re-engaging with chest pressure from the opposite angle. → Leads to [[Positions/Half Guard]]
 - **Opponent pushes your hip with both hands to prevent you from settling into side control** (Effectiveness: Medium) - Your Response: Their extended arms create submission opportunities. Attack the near arm with a kimura or americana, or simply drive through their frames using shoulder pressure and crossface to collapse their defensive structure. Extended arms cannot generate the lateral force needed to prevent your weight settling. → Leads to [[Positions/Knee on Belly]]
@@ -254,6 +262,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing KOB to Side Control?</p>
 
 ### 1. Creating visible space between your body and the opponent during the knee drop
 
@@ -293,6 +303,8 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train KOB to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and body positioning
 Practice the knee drop and chest placement sequence with a compliant partner. Focus on maintaining continuous contact throughout the transition with no gaps in pressure. Repeat 20-30 times per side until the movement is smooth and automatic.
 
@@ -310,39 +322,12 @@ Use the transition in live positional sparring starting from KOB. Track success 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to establish before initiating the drop from KOB to side control?
-**A**: The crossface grip or collar control on the near side is the most critical pre-transition grip. This grip controls the opponent's head position and prevents them from turning into you during the weight transfer. Without head control established before the drop, the opponent can create angles, insert frames, and begin escape sequences during the vulnerable transition window. The crossface must be in place before the knee leaves the belly.
-
-**Q2**: Your opponent frames against your hip as you begin the transition — how do you adjust?
-**A**: Follow their hip movement with your body rather than fighting their frames directly. Maintain chest or shoulder contact while driving your crossface to flatten them. If their frame is strong enough to create significant space, abort the transition and re-establish KOB rather than forcing a compromised side control. A solid KOB is superior to a loose side control where the opponent has frames established and space to work.
-
-**Q3**: Why must you block the far hip before removing your knee from the opponent's belly?
-**A**: The far hip block prevents the opponent from inserting their knee during the transition window when knee pressure is removed but chest pressure has not yet been established. Without the hip block, the opponent's natural defensive reaction is to shrimp and insert a knee shield or recover half guard through the space created as the knee lifts. The hip block eliminates this escape pathway and keeps the opponent flat for the chest drop.
-
-**Q4**: What is the primary vulnerability window during the KOB to side control transition?
-**A**: The primary vulnerability window occurs during the moment between when the knee lifts off the opponent's belly and when the chest establishes perpendicular contact across their torso. During this brief phase, the focused downward pressure of KOB has been removed but the distributed pressure of side control has not yet been applied. The bottom player experiences a momentary reduction in pinning force that creates opportunity for framing, shrimping, and guard recovery.
-
-**Q5**: Your opponent inserts their knee during the transition and recovers half guard — what went wrong?
-**A**: The most likely error was failing to block the opponent's far hip before initiating the knee drop. Without the hip block, the opponent's knee had a clear path to insert between your bodies. The secondary error may have been transitioning too slowly, giving the opponent time to recognize the movement and react with a knee insertion. The fix is establishing the far hip block before the knee leaves the belly and completing the drop decisively.
-
-**Q6**: When is it strategically advantageous to return to side control rather than advancing to mount from KOB?
-**A**: Returning to side control is advantageous when the opponent's defensive activity makes KOB maintenance energy-expensive, when you want to access side control submission chains like americana and kimura that are unavailable from KOB, when you need to reset your attacking posture after a failed submission attempt, or when the opponent is actively threatening to reverse you from KOB through strong framing. Side control offers superior stability and sustainability compared to KOB.
-
-**Q7**: What direction should your pressure travel as you transition from vertical knee pressure to horizontal chest pressure?
-**A**: Your pressure should travel forward and downward in a continuous arc from the vertical knee axis to the horizontal chest axis. Think of it as a rotational pressure transfer where the contact point shifts from your knee driving down into the solar plexus to your chest and shoulder driving across the opponent's upper body. At no point should the pressure lift upward or away from the opponent — the weight simply redirects its vector from vertical to horizontal while maintaining constant force on the opponent's body.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for KOB to Side Control?</p>
 
 The KOB to Side Control transition carries low injury risk compared to submissions or explosive sweeps. The primary safety concern is avoiding dropping your knee directly onto the opponent's ribs or sternum with uncontrolled force during the transition — slide the knee off rather than dropping it sharply. In training, communicate with your partner about pressure levels and transition speed. Be mindful that the crossface can cause neck strain if applied aggressively during the settling phase. Ensure the transition is practiced at controlled speeds before adding resistance.
 

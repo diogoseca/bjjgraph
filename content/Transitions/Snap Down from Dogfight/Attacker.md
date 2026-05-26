@@ -188,6 +188,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Snap Down from Dogfight?</p>
+
 - Attack the opponent's head at the moment of maximum forward commitment, using their own driving momentum to accelerate the snap down and make recovery impossible
 - Combine the downward pull on the head with an explosive hip sprawl backward, creating opposing forces that collapse the opponent's kneeling posture completely
 - Release or convert the whizzer grip decisively rather than trying to maintain both whizzer and head control simultaneously, committing fully to the snap attack
@@ -202,6 +204,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Snap Down from Dogfight?</p>
+
 - Established position as top player in dogfight with at least one point of head or neck contact available for grip conversion
 - Opponent actively driving forward with underhook pressure, creating forward momentum that can be redirected downward through the snap
 - Your hips positioned and mobile enough to sprawl backward explosively at the moment of the snap to create opposing force vectors
@@ -214,6 +218,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Snap Down from Dogfight step by step?</p>
 
 1. **Read opponent's weight distribution**: Before initiating the snap, feel your opponent's forward pressure through the underhook battle. Wait for the moment when they commit their weight forward aggressively, leaning into you with their underhook drive. Their head should be at or above your shoulder level, indicating they are elevated and postured up in the dogfight. This forward commitment is the trigger for your attack.
 2. **Convert grip to head control**: Release your whizzer or overhook and immediately secure a collar tie grip behind your opponent's neck, cupping the base of the skull with your fingers. If using the crossface-to-snap variant, slide your crossface hand from their jaw to behind their neck. This grip conversion must happen explosively in one motion without telegraphing—any pause alerts the opponent to defend their head.
@@ -243,6 +249,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Snap Down from Dogfight?</p>
+
 - **Opponent posts both hands on mat and stiffens arms to resist downward pull, maintaining base through strong skeletal structure** (Effectiveness: Medium) - Your Response: Circle to the side while maintaining head control to break their posting angle, or transition to a front headlock go-behind by stepping around their posted arms to take back control → Leads to [[Positions/Dogfight Position]]
 - **Opponent drives forward explosively with underhook during snap attempt, using forward momentum to take you backward and off-balance** (Effectiveness: High) - Your Response: If their forward drive is too powerful to redirect, disengage the snap attempt immediately and re-establish your base in dogfight rather than fighting a losing battle. Reset and wait for the next forward commitment window → Leads to [[Positions/Half Guard]]
 - **Opponent ducks their head and tucks chin to chest, denying collar tie access and making the snap grip shallow and ineffective** (Effectiveness: Medium) - Your Response: Switch to crossface pressure by driving your forearm across their jaw to force their head up and expose the neck, or abandon the snap and use the crossface to re-flatten them back to half guard → Leads to [[Positions/Dogfight Position]]
@@ -254,6 +262,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Snap Down from Dogfight?</p>
 
 ### 1. Using only arm strength to pull opponent's head down without incorporating hip sprawl and body weight
 
@@ -293,6 +303,8 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Snap Down from Dogfight (Attacker)?</p>
+
 **Phase 1: Grip Conversion Mechanics** - Whizzer-to-collar-tie transition speed
 Practice the grip conversion from whizzer to collar tie in isolation, starting slow and building speed. Partner holds static dogfight position while you perform fifty repetitions of the grip switch without the full snap. Focus on making the conversion feel like one continuous motion rather than release-then-grab.
 
@@ -313,39 +325,12 @@ Positional sparring starting from dogfight where you freely mix snap down attemp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the snap down from dogfight?
-**A**: The optimal moment is when the bottom player commits their weight forward aggressively with their underhook drive. You feel increased pressure through the whizzer contact and their head elevates to or above your shoulder level. This forward commitment creates momentum that the snap redirects downward, making the technique require significantly less force than attempting it against a neutral or backward-sitting opponent. Initiating the snap against a retreating opponent will fail because there is no forward momentum to exploit.
-
-**Q2**: Why must you release the whizzer fully before executing the snap rather than maintaining partial whizzer control?
-**A**: Maintaining partial whizzer control splits your grip between two incompatible objectives—controlling the opponent's arm and controlling their head. This half-commitment produces a weak snap that lacks the explosive force needed to break posture and also compromises your whizzer control. Full commitment to the collar tie allows maximum pulling force and proper body mechanics for the snap. The whizzer release also creates a momentary void that the opponent's forward-driving underhook falls into, actually enhancing the snap's effectiveness by removing the resistance their arm was pressing against.
-
-**Q3**: Your opponent posts their hands strongly after the snap breaks their posture partially. How do you complete the front headlock establishment?
-**A**: When the opponent posts their hands to resist, circle laterally while maintaining collar tie control rather than continuing to pull straight down against their skeletal posting structure. Circling breaks the alignment of their arm posts and forces them to reposition their hands, creating windows where their base momentarily weakens. You can also use your free hand to attack one of their posting arms by pulling it out, collapsing that side of their base and completing the postural breakdown. Never engage in a straight pulling contest against posted arms.
-
-**Q4**: What is the critical difference in hip position between the snap initiation and the front headlock consolidation?
-**A**: During snap initiation, your hips are relatively close to the opponent to generate the pulling angle and transfer your level change into the snap force. During front headlock consolidation, your hips must sprawl back and away from the opponent, creating distance that prevents them from re-engaging the underhook and recovering their kneeling posture. This hip position change is one of the most commonly missed details—practitioners who keep their hips close after snapping allow the opponent to pummel back to the underhook and re-establish dogfight, negating the successful snap.
-
-**Q5**: How does the direction of the snap force differ from a straight downward pull, and why does this matter biomechanically?
-**A**: The snap should be directed at a forty-five degree angle, pulling the opponent's head downward and toward your own chest simultaneously. A straight downward pull is easily resisted because the opponent's arms can post directly beneath their shoulders in alignment with the force. The diagonal pull angle loads the opponent's weight forward past their center of gravity, causing them to pitch forward onto their hands rather than absorbing the force through their base. This diagonal vector also brings their head closer to your body, facilitating the chest-to-back connection needed for front headlock consolidation.
-
-**Q6**: Your opponent drives forward with an explosive underhook as you attempt the snap. The forward drive overpowers your snap attempt. What is the correct response?
-**A**: Immediately abandon the snap attempt and focus on base recovery. If the opponent's forward drive is overwhelming your snap, continuing to pull will result in being driven backward and potentially swept to half guard bottom. Disengage the collar tie, re-establish your whizzer or crossface, and use their forward momentum to guide them past you with a matador-style redirection rather than absorbing the force head-on. Once you have stabilized, reset in dogfight and wait for the next opportunity when their forward pressure is strong but not overwhelming.
-
-**Q7**: What grip position on the opponent's neck produces the maximum leverage for the snap down?
-**A**: The hand should cup the back of the neck at the base of the skull, with the fingers wrapping around the occipital ridge and the palm seated on the cervical vertebrae. This high grip position gives maximum leverage because it controls the heaviest point of the head and creates the longest lever arm for the downward pull. A grip that is too low on the neck or on the trapezius lacks the leverage to control head position effectively and allows the opponent to posture through the snap. The elbow of the gripping arm should drive downward toward the mat as part of the pull, not flare outward.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Snap Down from Dogfight?</p>
 
 The snap down targets the cervical spine and neck musculature, requiring controlled force application to prevent injury. Never execute explosive snaps with maximum force during drilling—build to full speed gradually. Partners should communicate immediately if they experience neck pain, numbness, or tingling. Practitioners with pre-existing cervical spine issues should consult a medical professional before practicing this technique. During live training, be aware that the snap can drive an opponent's head into the mat forcefully, so ensure adequate mat surface and avoid practicing on hard floors.
 

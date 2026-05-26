@@ -164,6 +164,8 @@ Successful defense demands constant monitoring of your opponent's hip and should
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Angle Change Escape?</p>
+
 - Opponent places hand on your hip on the attacking leg side, establishing the anchor point they need to drive laterally while pinning your hips
 - Opponent's shoulders and torso begin rotating or shifting laterally rather than pulling straight backward, indicating systematic angle change rather than panicked escape
 - Opponent turns chin toward your attacking shin instead of fighting the choke with neck strength, signaling they are creating breathing space to buy time for technical escape
@@ -175,6 +177,8 @@ Successful defense demands constant monitoring of your opponent's hip and should
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Angle Change Escape?</p>
 
 - Maintain perpendicular shin alignment to the trachea by following opponent's lateral movement with corresponding hip rotation and elevation adjustment
 - Monitor opponent's hip and shoulder position constantly - any lateral shift of their torso signals the beginning of angle change escape attempt
@@ -189,6 +193,8 @@ Successful defense demands constant monitoring of your opponent's hip and should
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Angle Change Escape?</p>
 
 ### 1. Follow the angle change with hip rotation - elevate hips and rotate your pelvis in the same direction as their lateral movement to maintain perpendicular shin alignment across their throat
 
@@ -226,6 +232,8 @@ Successful defense demands constant monitoring of your opponent's hip and should
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Angle Change Escape?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Follow their angle change with immediate hip rotation and elevation to maintain perpendicular shin alignment, or deepen foot position behind head before lateral movement generates meaningful displacement. The key is early recognition and response within the first two seconds of their escape initiation.
@@ -241,6 +249,8 @@ When the gogoplata position is compromised beyond recovery, immediately transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Angle Change Escape?</p>
 
 ### 1. Allowing hips to drop to mat instead of maintaining elevation when opponent begins lateral movement
 
@@ -270,6 +280,8 @@ When the gogoplata position is compromised beyond recovery, immediately transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Angle Change Escape?</p>
+
 **Week 1-2** - Hip rotation mechanics
 Practice maintaining gogoplata control while partner shifts laterally at slow speed. Focus exclusively on hip rotation and elevation maintenance to keep perpendicular shin alignment. No submission transitions yet - build the foundational hip-following reflex that enables all other defensive responses.
 
@@ -286,29 +298,6 @@ Full resistance positional sparring starting from gogoplata control. Partner use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating an angle change escape rather than a standard pull-back escape?
-**A**: The earliest cue is their hand placement on your hip on the attacking leg side. This hip anchor is the prerequisite for lateral driving force. A standard backward escape does not require hip control. When you feel pressure on your hip combined with their chin turning toward your shin, the angle change is imminent and you have approximately two seconds to respond.
-
-**Q2**: Your opponent has begun lateral movement and your shin angle is degrading - what determines whether you should follow with hip rotation or transition to triangle?
-**A**: Check their near-side arm position. If their elbow has drifted away from their torso during the lateral shift, the triangle transition is higher percentage because arm isolation is already partially achieved. If their arm remains tight to their body, follow with hip rotation to restore perpendicular alignment because the triangle will fail without arm isolation. The arm position is the decision fork between maintaining gogoplata and transitioning.
-
-**Q3**: Why is hip elevation the single most critical factor in preventing the angle change escape?
-**A**: Hip elevation creates the geometric angle that positions the shin perpendicular to the trachea. When hips drop flat, the shin slides parallel to the throat regardless of foot depth or hand control, eliminating all compression. No amount of grip strength or foot positioning compensates for lost hip elevation. The opponent's lateral movement becomes trivially effective against flat hips because there is no compression to change the angle of.
-
-**Q4**: Your opponent reverses direction during the angle change after you follow their initial lateral movement - how do you respond?
-**A**: The direction reversal is the most dangerous counter to your hip-following defense because your momentum carries you past neutral. Immediately re-center your hips by engaging your core and pulling your pelvis back to the midline before following the new direction. If you cannot re-center fast enough, transition to the submission that matches their new direction: triangle if they go toward your choking leg side, omoplata if they go away from it.
-
-**Q5**: What training drill best develops the hip-following response needed to maintain gogoplata against angle change escape?
-**A**: Partner-driven lateral shuttle drill where partner shifts laterally left and right at increasing speeds while you maintain shin-across-throat contact through hip rotation. Start at walking pace with 5-second holds at each side, progress to rapid direction changes. Focus on maintaining perpendicular shin alignment throughout each transition rather than speed of response. The drill builds the hip rotation reflexes and core endurance needed for live gogoplata maintenance.
-
-
-
-</section>
 
 
 </main>

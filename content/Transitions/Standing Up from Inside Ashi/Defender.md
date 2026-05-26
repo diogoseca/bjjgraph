@@ -162,6 +162,8 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Up from Inside Ashi?</p>
+
 - Attacker releases one hand from your heel and reaches behind their hip to post on the mat, creating an asymmetric grip change
 - Attacker's hips begin rising off the mat as they initiate the bridge-to-standing sequence with visible upward hip drive
 - Attacker's inside leg pressure against your hip changes from a controlling frame to a base-building position as they prepare knee recovery
@@ -174,6 +176,8 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Up from Inside Ashi?</p>
 
 - Recognize the standup attempt early through tactile cues before the attacker establishes a posting base
 - Attack the posting hand or arm to deny the structural base needed for the standup
@@ -188,6 +192,8 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Up from Inside Ashi?</p>
 
 ### 1. Hook or grab the attacker's posting arm to collapse their base structure before they can elevate their hips
 
@@ -225,6 +231,8 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Up from Inside Ashi?</p>
+
 ### → [[Positions/Open Guard]]
 
 Counter the standup attempt by hooking the attacker's legs as they rise, establishing open guard connection before they achieve full standing. Extract your trapped leg during the transition when their inside leg pressure releases, converting a dangerous ashi garami into a manageable open guard exchange where you have sweep and guard retention pathways available.
@@ -240,6 +248,8 @@ Use the attacker's standup movement as an opportunity to extract your trapped he
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Up from Inside Ashi?</p>
 
 ### 1. Remaining passive and allowing the attacker to complete the standup without any defensive response
 
@@ -269,6 +279,8 @@ Use the attacker's standup movement as an opportunity to extract your trapped he
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Up from Inside Ashi?</p>
+
 **Phase 1: Recognition Training** - Identifying standup cues and timing windows
 Partner slowly initiates the standup sequence from Inside Ashi-Garami while the defender identifies each recognition cue verbally before responding. Practice recognizing the hand release, hip elevation, and inside leg transition at progressively faster speeds. 15 repetitions per side focusing purely on cue recognition before adding any physical response.
 
@@ -285,29 +297,6 @@ Full positional sparring from Inside Ashi-Garami where the attacker can choose t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt standing from Inside Ashi-Garami?
-**A**: The earliest cue is the release of one hand from your heel. When the bottom ashi player removes one hand from your trapped leg to post behind their hip, they are preparing to initiate the standup sequence. This grip change is the most reliable predictor because maintaining two hands on the heel is incompatible with the posting base required for standing. Recognizing this moment gives you maximum reaction time to counter before they establish structural base.
-
-**Q2**: Your opponent has already posted one hand and begun elevating their hips—what is your best counter option?
-**A**: Attack their posted arm by grabbing the wrist or sleeve and pulling it toward you to collapse their base structure. Simultaneously drive your free leg's knee toward their chest to push their hips back to the mat. If you cannot reach the posting arm, hook your free leg behind their far hip and use a scissoring motion to sweep them during the elevation phase when their balance is most compromised and their base is narrowest.
-
-**Q3**: How should you position your free leg to maximize your ability to counter the standup attempt?
-**A**: Keep your free leg bent with your foot posted on the mat near the opponent's hip, ready to either push against their body to prevent elevation or hook behind their leg to initiate a sweep. Avoid extending your free leg straight out, as this removes your primary counterbalancing tool and eliminates your ability to follow their upward movement. Your free leg should function as both a defensive frame and an offensive weapon throughout the transition.
-
-**Q4**: When should you attempt to extract your trapped leg during the standup rather than countering it?
-**A**: Attempt leg extraction during the knee recovery phase when the attacker transitions their inside leg from the hip frame to a kneeling position. At this moment, the inside leg pressure on your hip releases briefly, creating space to rotate your knee outward and pull your heel free. The attacker's remaining grip is typically only one hand on your heel, making this the moment of weakest control during the entire standup sequence.
-
-**Q5**: Your opponent successfully reaches standing while maintaining heel control on your trapped leg—what is your immediate priority?
-**A**: Immediately establish connection points on their legs with your hands and free foot to prevent them from stepping away and creating space for a standing ankle lock finish. Use your free leg to hook behind their near knee, disrupting their standing base while pulling your trapped leg toward your body to reduce the extension angle on your ankle. If you cannot break the grip, sit up and grab their opposite leg to threaten a sweep, forcing them to address their balance rather than finishing the submission.
-
-
-
-</section>
 
 
 </main>

@@ -69,8 +69,8 @@
       "relationship": "Variant using vertical pressure instead of horizontal"
     },
     {
-      "name": "Americana from Side Control",
-      "relationship": "Primary submission threat from successful pass completion"
+      "name": "Americana",
+      "relationship": "Primary submission threat from successful pass completion to side control"
     },
     {
       "name": "Double Under Pass",
@@ -209,7 +209,7 @@
         "description": "Apply pressure pass in live rolling starting from squid guard position. Partner uses full resistance and any counter available. Develop timing for when pressure pass is appropriate versus when technical clearing is better option."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Pressure Pass Through Squid?",
         "answer": "The primary goal is to defeat the squid guard configuration by using heavy forward pressure to collapse the space the guard needs to function, rather than spending energy attempting to technically clear the lapel wrap from your arm. You accept the arm entanglement temporarily and use your bodyweight to compress the bottom player, advancing through to side control."
@@ -342,7 +342,7 @@
         "correction": "Frame with forearms against their shoulder and neck, keeping elbows tight to your body. Forearm frames create structural resistance without exposing your arms to submission counters"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a technical lapel clearing approach?",
         "answer": "The earliest cue is when your opponent stops fighting the lapel wrap and instead drops their hips low while driving their chest forward toward yours. A technical passer would be working to extract their arm or strip your grip—a pressure passer accepts the entanglement and commits their weight forward. The deep collar grip with their free hand and head dropping to shoulder level confirm the pressure commitment."

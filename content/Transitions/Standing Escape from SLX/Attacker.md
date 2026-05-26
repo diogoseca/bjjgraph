@@ -188,6 +188,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Escape from SLX?</p>
+
 - Establish an immovable base with the free leg before attempting any hook removal - your free foot is your anchor against sweeps
 - Address hooks in correct sequence: clear the top hip hook first to reduce elevation, then strip the bottom ankle wrap to free the leg
 - Keep your center of gravity low by bending the free knee deeply - standing tall with locked knees creates optimal sweep angles for the bottom player
@@ -203,6 +205,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Escape from SLX?</p>
+
 - Free leg posted firmly on the mat with foot flat and knee bent, positioned diagonally behind you for maximum base width
 - Upright or slightly backward-leaning posture with hips driven away from the bottom player's pulling direction
 - At least one hand free from opponent's grip control to begin addressing hooks
@@ -215,6 +219,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Escape from SLX step by step?</p>
 
 1. **Establish wide base with free leg**: Plant your free foot firmly on the mat at a diagonal angle behind and to the side of your trapped leg. Bend the knee deeply to lower your center of gravity. Your free leg is the foundation for the entire escape - it must be immovable against any pulling or pushing force from the bottom player. Distribute roughly 60% of your weight through this leg.
 2. **Strip opponent's upper body grips**: Before addressing leg hooks, break any sleeve, wrist, or collar grips the bottom player has established on your upper body. These grips enhance their pulling power and sweeping leverage significantly. Use quick circular grip breaks or two-on-one peel methods to free your hands. Without upper body grips, their ability to generate sweep momentum drops substantially.
@@ -244,6 +250,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Escape from SLX?</p>
+
 - **Bottom player re-hooks hip immediately after top hook is cleared** (Effectiveness: High) - Your Response: Maintain constant downward pressure on their foot with your controlling hand even after clearing the hook. Keep your hip turned slightly away from their hooking foot to deny the angle needed for re-insertion. If they do re-hook, repeat the clearing process rather than trying to force extraction through an active hook. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 - **Bottom player extends legs for sweep as you begin extracting trapped leg** (Effectiveness: High) - Your Response: Immediately widen your base with the free leg and lower your hips by bending your knee more deeply. Post your near hand on the mat if needed for emergency stability. Pause the extraction and re-stabilize before continuing. The sweep requires momentum, so stopping your movement removes their timing window. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to X-Guard by inserting second hook during escape** (Effectiveness: Medium) - Your Response: Recognize the second hook insertion attempt early and block it with your free hand before it reaches behind your other knee. If they achieve X-Guard, you face a different escape problem. Speed of hook clearing is critical - do not allow a leisurely transition to a stronger guard position. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
@@ -256,6 +264,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Escape from SLX?</p>
 
 ### 1. Attempting to rip the trapped leg free before clearing hooks
 
@@ -300,6 +310,8 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Escape from SLX (Attacker)?</p>
+
 **Phase 1: Base Mechanics** - Free leg positioning and balance maintenance
 Practice establishing and maintaining base with the free leg while a partner in SLX applies moderate pulling pressure from various angles. Focus on foot placement, knee bend depth, and weight distribution. Hold stable base for 30 seconds against progressive resistance.
 
@@ -320,39 +332,12 @@ Start in SLX with the top player reading the bottom player's grip configuration 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Which hook should you clear first when executing the standing escape, and what is the biomechanical reason?
-**A**: Clear the top hip hook first because it creates the elevation that gives the bottom player mechanical advantage for sweeps. The top hook lifts your trapped leg upward and away from the mat, amplifying the off-balance angle. Removing this hook drops your trapped leg closer to the mat, reducing the bottom player's leverage dramatically and making the subsequent ankle wrap removal safer and easier.
-
-**Q2**: Your opponent has strong sleeve grips on both your wrists while you are trapped in SLX - what is your immediate priority before attempting the escape?
-**A**: Your immediate priority is breaking those sleeve grips before touching any hooks. Sleeve grips allow the bottom player to generate powerful directional pulls that compromise your base during hook clearing. Use circular grip breaks or two-on-one peel methods to free your hands. Attempting to clear hooks while your wrists are controlled is extremely dangerous because the opponent can time a sharp pull with your weight shift to execute a high-percentage sweep.
-
-**Q3**: How should you distribute your weight between your free leg and trapped leg during the escape?
-**A**: Approximately 60-70% of your weight should be on the free leg, which serves as your primary anchor and balance point. The trapped leg should bear minimal weight to facilitate extraction. However, avoid completely unweighting the trapped leg prematurely, which telegraphs the escape and allows the bottom player to elevate it further. Gradually transfer weight to the free leg as you progress through hook clearing, fully unweighting the trapped leg only at the extraction moment.
-
-**Q4**: During extraction, you feel the bottom player beginning to extend their legs for a sweep - what is your immediate response?
-**A**: Immediately halt the extraction, widen your base by stepping the free leg further out to the side, and bend your free knee deeply to lower your center of gravity. Post your near hand on the mat if necessary for emergency stability. The sweep requires momentum and your continued movement to succeed - stopping your motion removes their timing window. Re-stabilize completely before resuming the extraction sequence. Do not try to outrun the sweep by extracting faster.
-
-**Q5**: What is the critical difference between extracting the trapped leg correctly versus the common error of ripping it free?
-**A**: Correct extraction involves a smooth backward sliding motion along the mat with continuous hip drive away from the opponent, executed only after both hooks have been systematically cleared. The common error of ripping involves an explosive upward or backward yank while hooks are still partially engaged. Ripping fails because the hooks tighten under tension like a Chinese finger trap, and the explosive movement shifts your weight suddenly in ways that create sweep opportunities. Smooth extraction relies on structure and positioning, not speed.
-
-**Q6**: After successfully extracting your leg and reaching standing position, your opponent immediately sits up and reaches for your ankles - how do you respond?
-**A**: Use your hands to control their reaching arms or push their shoulders back while stepping backward to create distance beyond their reach. Do not stand stationary within their guard engagement range. Control at least one of their shins or feet to prevent them from scooting forward to close distance. The escape is not complete until you have established standing distance where they cannot re-engage without first standing up themselves or pulling guard.
-
-**Q7**: When is the standing escape the wrong tactical choice compared to other SLX defense options?
-**A**: The standing escape is suboptimal when you have already partially cleared the guard and are close to completing a pass, when the bottom player's hooks are loose enough that a backstep pass or smash pass would succeed with less effort, or when you have grip configurations that favor a direct passing sequence. The standing escape sacrifices positional progress to reset to neutral, so it is best reserved for situations where the entanglement is deep, the bottom player's control is strong, and attempting to pass carries high sweep or submission risk.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Escape from SLX?</p>
 
 The Standing Escape from SLX is generally low-risk for both practitioners, but care must be taken during extraction to avoid dropping weight suddenly onto the bottom player's legs or torso. The top player should control their descent if balance is lost rather than falling uncontrolled. Avoid twisting the trapped knee laterally during extraction, which can stress the medial collateral ligament. Both players should be aware that rapid hook clearing can occasionally catch fingers or toes, so maintain controlled movements rather than violent ripping motions.
 

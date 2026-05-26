@@ -3,7 +3,7 @@
 {# Input: defender (full defender section), name (hub name), from_position, outcomes, safety_considerations, target_area #}
 
 ---
-title: "{{ defender.name }} | BJJ Defense Guide | BJJ Graph"
+title: "{{ name }} Defender | BJJ Defense Guide | BJJ Graph"
 description: "{{ defender.description }}"
 ---
 
@@ -40,7 +40,7 @@ description: "{{ defender.description }}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for qa in defender.knowledge_assessment[:6] %}
+    {%- for qa in defender.flashcards[:6] %}
     {
       "@type": "Question",
       "name": "{{ qa.question }}",
@@ -59,7 +59,7 @@ description: "{{ defender.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ defender.name }}",
+  "name": "{{ name }} Defender",
   "description": "{{ defender.description }}",
   "isPartOf": {
     "@type": "WebSite",
@@ -120,6 +120,8 @@ description: "{{ defender.description }}"
 
 ## How to Recognize This Submission
 
+<p class="section-subtitle">How do you know when someone is attempting {{ name }}?</p>
+
 {% for cue in defender.recognition_cues -%}
 - {{ cue }}
 {% endfor %}
@@ -130,6 +132,8 @@ description: "{{ defender.description }}"
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending {{ name }}?</p>
+
 {% for principle in defender.key_principles -%}
 - {{ principle }}
 {% endfor %}
@@ -139,6 +143,8 @@ description: "{{ defender.description }}"
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against {{ name }}?</p>
 
 {% for option in defender.defensive_options -%}
 ### {{ loop.index }}. {{ option.action }}
@@ -156,6 +162,8 @@ description: "{{ defender.description }}"
 
 ## Escape Paths
 
+<p class="section-subtitle">How do you escape {{ name }}?</p>
+
 {% for escape in defender.escape_paths -%}
 - {{ escape }}
 {% endfor %}
@@ -165,6 +173,8 @@ description: "{{ defender.description }}"
 <section id="favorable-outcomes" class="content-section">
 
 ## Best-Case Outcomes for Defender
+
+<p class="section-subtitle">What is the best outcome when defending {{ name }}?</p>
 
 {% for favorable in defender.favorable_outcomes -%}
 ### → [[{{ resolve(favorable.outcome.split('/')[0] if '/' in favorable.outcome else favorable.outcome) }}]]
@@ -178,6 +188,8 @@ description: "{{ defender.description }}"
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending {{ name }}?</p>
 
 {% for error in defender.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
@@ -193,6 +205,8 @@ description: "{{ defender.description }}"
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against {{ name }}?</p>
+
 {% for progression in defender.training_progressions -%}
 **{{ progression.phase }}** - {{ progression.focus }}
 {{ progression.description }}
@@ -201,18 +215,6 @@ description: "{{ defender.description }}"
 
 </section>
 
-{% if defender.knowledge_assessment %}
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-{% for qa in defender.knowledge_assessment -%}
-**Q{{ loop.index }}**: {{ qa.question }}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
-**A**: {{ qa.answer }}
-
-{% endfor %}
-
-</section>
-{% endif %}
+{# Knowledge assessment rendered as interactive flashcards by TransitionFlashcard component #}
 
 </main>

@@ -154,6 +154,8 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Kesa to Side Control?</p>
+
 - Top player begins walking their far leg toward your head in small steps while maintaining chest pressure
 - Top player shifts weight distribution forward onto your chest, preparing to use it as a rotation pivot point
 - Top player adjusts their arm control, loosening the reverse kesa arm trap in preparation for transitioning to crossface grip
@@ -166,6 +168,8 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Kesa to Side Control?</p>
 
 - Recognize the transition cues early — the moment the top player begins walking their legs signals your window to act
 - Insert frames and knees during the rotation gap before the crossface is established, as this is the most vulnerable phase
@@ -180,6 +184,8 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Kesa to Side Control?</p>
 
 ### 1. Bridge explosively when the top player reaches the midpoint of the rotation and their base is narrowest
 
@@ -217,6 +223,8 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Kesa to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Insert your near knee across the top player's hip line during the rotation gap when their hip momentarily lifts or shifts. Time the knee insertion for the midpoint of the rotation when the top player's base is narrowest and their attention is divided between completing the transition and maintaining control.
@@ -228,6 +236,8 @@ Insert your near knee across the top player's hip line during the rotation gap w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Kesa to Side Control?</p>
 
 ### 1. Waiting passively for the transition to complete before attempting defense
 
@@ -257,6 +267,8 @@ Insert your near knee across the top player's hip line during the rotation gap w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Kesa to Side Control?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues without resistance
 Partner slowly performs the reverse kesa to side control rotation while you focus on feeling the tactile cues: weight shift, arm control loosening, leg walking, hip rotation. Call out each cue as you feel it. No defensive actions yet — pure recognition training for 5 minutes per round.
 
@@ -273,26 +285,6 @@ Start in reverse kesa-gatame bottom with the top player instructed to transition
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most vulnerable phase of the Reverse Kesa to Side Control transition for the top player?
-**A**: The midpoint of the rotation when the top player's legs are in transition between reverse kesa and side control base positions. At this point, their base is at its narrowest, their grip is transitioning from arm trap to crossface, and their hip line has a momentary gap. This window typically lasts only one to two seconds, making recognition and immediate action essential.
-
-**Q2**: Your opponent begins loosening their arm trap and you feel their weight shift forward — what should you do immediately?
-**A**: This signals the transition is about to begin. Immediately prepare to insert your near knee by bringing it toward your chest, ready to drive it across the opponent's hip line when the rotation gap appears. Simultaneously prepare a frame with your free arm to block the incoming crossface. Acting on these early cues gives you the timing advantage over waiting for the rotation to progress further.
-
-**Q3**: Why is recovering half guard considered a favorable outcome when defending this transition?
-**A**: Half guard provides offensive opportunities including sweeps, back takes, and submissions that are unavailable from under reverse kesa-gatame or side control. By inserting your knee during the transition, you transform a purely defensive survival situation into a position with legitimate attacking options. Half guard bottom is a significantly better position than either reverse kesa bottom or side control bottom.
-
-**Q4**: How should you time a bridge attempt to maximally disrupt the rotation?
-**A**: Bridge when you feel the top player's weight shift during the rotation — specifically when their legs are moving and their base is in transition. The bridge should coincide with the moment their hip pressure on your ribs lightens as they rotate. Bridging before the rotation starts fails against stable reverse kesa base, and bridging after it completes fails against established side control. The window is narrow, requiring attentiveness to tactile cues of weight shifting.
-
-
-
-</section>
 
 
 </main>

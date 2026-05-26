@@ -62,8 +62,8 @@
       "relationship": "Related inversion-based transition from DLR guard system"
     },
     {
-      "name": "Kneebar from Guard",
-      "relationship": "Submission threat available from X-Guard after transition"
+      "name": "X-Guard to Ashi Garami",
+      "relationship": "Leg entanglement pathway available from X-Guard after successful transition"
     },
     {
       "name": "Straight Ankle Lock",
@@ -217,7 +217,7 @@
         "description": "Positional sparring starting from DLR guard with opponent trying to pass while you work transitions to X-Guard and immediate sweeping attacks. Add submission threats from X-Guard position. Track success rates and identify weak points."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary timing trigger for initiating the De La Riva to X-Guard transition?",
         "answer": "The optimal timing is when opponent has committed their weight forward onto their DLR-hooked leg with a relatively wide base. This weight distribution allows for effective elevation once X-Guard is established. Conversely, if opponent has backward weight or narrow base, maintaining DLR for direct sweeps is typically more effective."
@@ -249,6 +249,14 @@
       {
         "question": "What grip adjustments are required when performing this transition in no-gi versus gi?",
         "answer": "In no-gi, replace collar grip with a collar tie or overhook, and replace sleeve grip with wrist control or two-on-one. The underhook becomes even more critical in no-gi because it's the most reliable upper body connection without lapel grips. In gi, the belt grip is a powerful alternative to the underhook for preventing opponent retreat. The fundamental hook mechanics remain identical regardless of attire; only the upper body control system changes."
+      },
+      {
+        "question": "Your opponent successfully defends the initial X-Guard sweep by posting both hands on the mat - what chain attacks become available?",
+        "answer": "A double hand post means both arms are occupied with balance recovery and neither is available for grip fighting or guard passing. This opens several chain attacks: transition to Single Leg X by releasing the top hook and concentrating both hooks on the near leg for a different sweeping angle, enter Ashi Garami by threading your bottom hook deeper and rotating toward leg entanglement, or use the technical stand-up to single leg by removing your hooks and climbing to a standing clinch while they are still recovering balance. Any post-based defense commits their arms, opening leg-based attacks."
+      },
+      {
+        "question": "During the hook transition phase, your opponent begins rapidly circling away from your hooking side - how do you adapt?",
+        "answer": "Rapid circling indicates the opponent has recognized the transition and is trying to create an angle where your hooks lose their mechanical advantage. If they circle toward your head, follow with your hips and consider transitioning to Reverse De La Riva Guard where their momentum feeds your control. If they circle away from your head, accelerate the bottom hook insertion since their lateral movement often opens the space needed for threading. In both cases, maintain the underhook connection as your primary tether and use their circular movement as energy for your own repositioning rather than fighting against it."
       }
     ],
     "safety_considerations": "This transition is generally safe when practiced progressively, but several precautions should be observed. When training hook transitions, move slowly initially to avoid catching toes or feet in partner's gi or legs, which can cause toe or ankle injuries. Partners should communicate clearly during early phases when bottom hook insertion might create uncomfortable pressure behind the knee. Avoid forcing elevation when opponent has dropped significant weight, as this can strain your hip flexors and lower back. In competition scenarios, be aware that rapid inverting movements during advanced variations can temporarily disorient, so maintain spatial awareness. When partner is elevated in X-Guard position, control descent speed if they're falling to prevent them landing awkwardly. Finally, in no-gi situations, ensure proper foot positioning to avoid toe injuries from entanglement during the transition phase."
@@ -334,7 +342,7 @@
         "correction": "Defend proactively during the transition window, not reactively after completion. The earliest cue (grip transition to underhook) should trigger immediate defensive action. Every second of delay makes defense exponentially harder."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the DLR to X-Guard transition?",
         "answer": "The earliest reliable cue is the grip transition: the bottom player releases their collar or sleeve grip and reaches for an underhook or deep pant grip on your near side. This grip change precedes the hook reconfiguration by several seconds and signals the beginning of the transition sequence. The hip rotation underneath follows shortly after, but the grip switch is detectable first."

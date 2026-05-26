@@ -154,6 +154,8 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar Control Maintenance?</p>
+
 - Attacker loosens and re-adjusts their grip configuration, creating a brief moment where pulling pressure on your leg decreases
 - Attacker shifts their base foot or changes their posted leg position, temporarily reducing the stability of their tripod base
 - Attacker drives hips forward for a submission pressure burst, which momentarily lifts weight off their base and reduces their resistance to lateral movement
@@ -166,6 +168,8 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar Control Maintenance?</p>
 
 - Bend your knee aggressively and continuously to deny the attacker the straight-leg configuration needed for hyperextension finish
 - Identify and exploit the brief control gaps that occur during the attacker's grip adjustments and base repositioning phases
@@ -180,6 +184,8 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar Control Maintenance?</p>
 
 ### 1. Explosive hip rotation away from pressure combined with leg curl to extract knee from danger zone
 
@@ -217,6 +223,8 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar Control Maintenance?</p>
+
 ### → [[Positions/Open Guard]]
 
 Create enough distance through push frames and hip movement to fully extract your trapped leg from the attacker's control, then immediately establish open guard frames to prevent them from re-entering leg control. Timing is critical - push during their grip adjustment or pressure burst recovery phase when resistance to linear distance is momentarily lowest.
@@ -232,6 +240,8 @@ Rotate your hips forcefully during a control gap in the attacker's maintenance c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar Control Maintenance?</p>
 
 ### 1. Remaining passive and waiting for the attacker's grip to fatigue naturally without actively generating escape attempts
 
@@ -261,6 +271,8 @@ Rotate your hips forcefully during a control gap in the attacker's maintenance c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar Control Maintenance?</p>
+
 **Phase 1: Defensive Posture Recognition** - Identifying optimal knee bend angle, free leg positioning, and frame placement
 Partner holds kneebar control at 30% pressure while you practice establishing and maintaining defensive posture for 60-second intervals. Focus on sustainable knee bend, free leg placement for pushing frames, and hand positioning for reinforcing the bend.
 
@@ -277,26 +289,6 @@ Start in bottom kneebar control against fully resisting partner. Defender wins b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important ongoing defensive action while trapped in kneebar control maintenance?
-**A**: Maintaining an aggressive knee bend with continuous effort to pull your knee toward your own chest. This is the foundational defense because it directly prevents the hyperextension that causes joint damage and submission. Every other escape strategy operates on top of this baseline - you rotate, push, and frame while keeping the knee bent. Abandoning the bend at any point during escape attempts exposes you to the finish.
-
-**Q2**: How do you identify the optimal moment to attempt a full escape from kneebar control maintenance?
-**A**: The optimal escape windows occur during the attacker's maintenance cycle transitions: when they adjust their grip configuration (momentary pulling pressure reduction), shift their base positioning (reduced bridge resistance), or recover from a submission pressure burst (temporarily lifted weight and forward balance commitment). Train to feel these micro-transitions through tactile awareness of their grip pressure, weight distribution, and body position changes.
-
-**Q3**: Why should you avoid straightening your trapped leg as an escape strategy?
-**A**: Straightening the leg provides the attacker with the exact configuration they need for a hyperextension finish. A straight leg against the fulcrum of their hips creates maximum leverage for the kneebar submission. Even if your intention is to push away or create distance, the risk of providing a finishing angle outweighs the potential distance gained. All escape movements must maintain the protective knee bend while generating rotation or linear distance through hip movement.
-
-**Q4**: Your push frame against the attacker's hip fails and they pin your free leg - what is your immediate priority?
-**A**: Immediately refocus on maximizing knee bend on the trapped leg and begin working to free your pinned leg through hip escaping and circular ankle movement. With both legs controlled, your defensive options narrow to upper body frames and explosive bridging. Use your hands to grab your own shin and reinforce the knee bend. If possible, hook their controlling arm with your free hand to begin disrupting their grip. Avoid panicking into a flat, extended position - maintain defensive composure and work incrementally to recover your free leg before attempting the next escape.
-
-
-
-</section>
 
 
 </main>

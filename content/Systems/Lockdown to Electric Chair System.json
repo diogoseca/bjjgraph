@@ -13,7 +13,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
-  "overview": "The Lockdown to Electric Chair System is a comprehensive half guard bottom framework developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology. This system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself\u2014achieved by trapping the opponent's leg with a figure-four configuration using your legs\u2014serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.",
+  "overview": "The Lockdown to Electric Chair System is a comprehensive half guard bottom framework developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology. This system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself—achieved by trapping the opponent's leg with a figure-four configuration using your legs—serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.",
   "key_principles": [
     "Lockdown control as foundation - secure the figure-four leg trap before attempting sweeps or submissions",
     "Constant hip pressure and movement - never remain static, always working angles and creating discomfort",
@@ -98,7 +98,7 @@
     {
       "step_number": 5,
       "phase": "Chain Attacks and Adjustments",
-      "description": "If initial attack is defended, immediately transition to alternative attacks within the system. From failed Electric Chair, flow to Old School sweep. From defended sweep, transition to back attack or Twister entries. Never return to static half guard\u2014constantly maintain offensive pressure through continuous attack chaining.",
+      "description": "If initial attack is defended, immediately transition to alternative attacks within the system. From failed Electric Chair, flow to Old School sweep. From defended sweep, transition to back attack or Twister entries. Never return to static half guard—constantly maintain offensive pressure through continuous attack chaining.",
       "key_points": [
         "Never pause between attack attempts",
         "Recognize back exposure opportunities during scrambles",
@@ -125,7 +125,7 @@
     },
     {
       "obstacle": "Unable to secure initial lockdown as opponent keeps knee tight to mat and maintains heavy pressure",
-      "solution": "Use frames and hip escapes to create initial space, employ butterfly hooks or other half guard variations to off-balance opponent first, then transition to lockdown when they react. Don't force lockdown from fully flattened position\u2014create space first."
+      "solution": "Use frames and hip escapes to create initial space, employ butterfly hooks or other half guard variations to off-balance opponent first, then transition to lockdown when they react. Don't force lockdown from fully flattened position—create space first."
     },
     {
       "obstacle": "Lockdown feels weak and opponent easily extracts their leg or passes despite control attempt",
@@ -133,7 +133,7 @@
     },
     {
       "obstacle": "Electric Chair position doesn't create sufficient pressure or sweep opportunity",
-      "solution": "Check hip extension mechanics\u2014hips must drive up and away, not just to the side. Ensure underhook is deep and connected to your hip. Control far arm to prevent posting. Angle adjustment is critical: experiment with different angles of hip elevation to maximize pressure on inner thigh."
+      "solution": "Check hip extension mechanics—hips must drive up and away, not just to the side. Ensure underhook is deep and connected to your hip. Control far arm to prevent posting. Angle adjustment is critical: experiment with different angles of hip elevation to maximize pressure on inner thigh."
     },
     {
       "obstacle": "Getting flattened out completely despite having lockdown, unable to recover guard or create offense",
@@ -218,10 +218,10 @@
     ],
     "common_mistakes": [
       "Attempting lockdown from fully flattened position instead of creating space first with frames and hip movement",
-      "Static lockdown holding without constant extension pressure\u2014lockdown must be actively breaking posture, not just maintaining",
+      "Static lockdown holding without constant extension pressure—lockdown must be actively breaking posture, not just maintaining",
       "Forcing Electric Chair without proper underhook depth or far arm control, resulting in opponent easily defending or escaping",
       "Abandoning lockdown too early when initial attack is defended instead of chaining to secondary attacks",
-      "Poor hip extension mechanics in Electric Chair\u2014driving laterally instead of up and away reduces pressure significantly",
+      "Poor hip extension mechanics in Electric Chair—driving laterally instead of up and away reduces pressure significantly",
       "Neglecting Homer Simpson recovery sequences, getting stuck in bad positions when opponent counters effectively",
       "Over-reliance on upper body strength in underhook battle instead of using lockdown extension to create underhook opportunities"
     ]
@@ -303,7 +303,7 @@
       "relationship": "Primary defensive counter that must be systematically defeated"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "content_type": "Submission",
       "relationship": "Finishing technique in competition formats allowing crotch attacks"
     },
@@ -318,19 +318,19 @@
       "relationship": "Advanced spine lock accessible from lockdown transitions"
     },
     {
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Fundamental principle governing all sweeping techniques in system"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Defensive foundation that lockdown control enhances"
+      "relationship": "Defensive foundation including guard retention that lockdown control enhances"
     },
     {
-      "name": "Underhook Defense",
+      "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Critical battle that determines system success"
+      "relationship": "Critical underhook battle principles that determine system success"
     },
     {
       "name": "Whizzer Control",

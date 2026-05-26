@@ -3,24 +3,30 @@
 
 
 ---
-title: "Triangle Choke Side | BJJ Submission | BJJ Graph"
+title: "Triangle Choke Side | BJJ Submission Family | BJJ Graph"
 description: "Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Triangle Choke Side targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Triangle Choke Side/Attacker|Play as Attacker]]
-[[Triangle Choke Side/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Triangle Choke Side/from Side Control|Side Control]] | 59% | Carotid artery compression causing unconsciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +39,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 59%
+**Success Rate**: 59% (average across variants)
 
 </section>
 
@@ -84,141 +88,10 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Side Control]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Angle perpendicular to opponent's body - side triangle requi... | Arm position awareness - never allow your arm to cross your ... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Triangle Choke Side/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Angle perpendicular to opponent's body - side triangle requires 90-degree body positioning relative to opponent's torso, not the parallel alignment of traditional triangles
-
-- Trap one arm across opponent's neck - the isolated arm must cross their own centerline to create the choking wedge against their carotid artery
-
-- Figure-four leg configuration - same locking mechanism as traditional triangle with one leg across the back of neck and the other locked behind the knee
-
-- Hip pressure toward opponent's head - driving hips toward their head tightens the triangle and prevents them from posturing or creating space
-
-- Control the free arm - the opponent's non-trapped arm must be controlled or pinned to prevent defensive hand-fighting and escape attempts
-
-- Adjust angle dynamically - as opponent defends, continually adjust your body angle to maintain perpendicular pressure and prevent them from turning into or away from the choke
-
-- Squeeze knees together, not just legs - the finishing pressure comes from bringing knees toward each other while maintaining the lock, creating circumferential compression
-
-
-### Execution Steps
-
-
-- **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side...
-
-- **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place t...
-
-- **Swing near leg over opponent's head and neck**: From your side control or north-south position, swing your near-side leg (the leg closest to opponen...
-
-- **Lock triangle configuration with figure-four**: Bring your far leg (the leg farther from opponent's head) up and position your foot behind the knee ...
-
-- **Adjust body angle perpendicular to opponent**: Once locked, adjust your torso position so that you are perpendicular (90 degrees) to your opponent'...
-
-- **Control opponent's free arm**: Use your hands to control or pin the opponent's free arm (the arm not trapped in the triangle). Comm...
-
-- **Finish with knee squeeze and hip pressure toward head**: Apply finishing pressure by squeezing your knees together (bringing them toward each other) while si...
-
-
-### Common Mistakes
-
-
-- **Applying triangle from parallel position instead of perpendicular angle**
-  - Consequence: Choke fails because pressure is distributed incorrectly, and opponent can easily posture or turn to escape. Parallel positioning mimics bottom triangle mechanics which don't work from top positions.
-  - Correction: Always ensure your body is 90 degrees to opponent's torso with hips high and positioned toward their head. Think of making a 'T' shape with your bodies. Reposition before attempting to finish if angle is wrong.
-
-- **Locking triangle before properly securing trapped arm position**
-  - Consequence: Opponent pulls their arm out during the lock transition, eliminating the choking mechanism entirely. Triangle without the trapped arm is ineffective and easily escaped.
-  - Correction: Use upper body pressure and grips to fully secure the arm across their neck before committing to the leg swing. Patience in the setup phase is critical - don't rush to lock the triangle.
-
-- **Failing to control opponent's free arm during finish**
-  - Consequence: Opponent inserts free hand into triangle, creates space, or uses it to frame and escape. Free arm gives them multiple defensive options that compromise the submission.
-  - Correction: Dedicate one or both hands to controlling the free arm throughout the finishing sequence - grab wrist, pin to mat, or hug to your body. Never leave their free hand uncontrolled during the finish.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Triangle Choke Side/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Arm position awareness - never allow your arm to cross your own centerline toward your neck while under side control, as this creates the primary choking mechanism for the attacker
-
-- Early intervention priority - the best defense occurs before the triangle locks; once the figure-four is established, escape difficulty increases exponentially with each second
-
-- Create space inside the triangle - if locked, immediately work to insert your free hand between your neck and the attacker's thigh to relieve carotid compression and buy time
-
-- Address the perpendicular angle - turn your body toward or away from the attacker to disrupt their 90-degree alignment, which weakens the choking pressure significantly
-
-- Protect the free arm at all costs - your free hand is your primary escape tool; if both arms are controlled, escape options become extremely limited and submission is imminent
-
-- Stay calm under pressure - blood chokes create urgency but panic burns oxygen faster; controlled breathing and systematic escape attempts are more effective than explosive scrambling
-
-
-### Recognition Cues
-
-
-- Attacker begins controlling your near-side wrist or forearm and guiding it across your own neck while maintaining side control pressure on your upper body
-
-- Attacker shifts their hips upward toward your head and begins lifting their near-side leg off the mat, indicating they are preparing to swing it over your head and neck
-
-- You feel your own arm being wedged against your neck with increasing shoulder pressure, and the attacker's chest weight shifts from your torso toward your head
-
-- Attacker's leg crosses over the back of your neck and their shin settles across your cervical spine while they reach for their own ankle or knee to establish the figure-four lock
-
-
-### Escape Paths
-
-
-- Arm retraction to side control bottom: Pull trapped arm back past centerline before triangle locks, using elbow retraction and shoulder rotation to clear the arm from the choking position
-
-- Free hand insertion and head extraction: Insert free hand as a wedge into the triangle space, create separation between neck and thigh, then systematically work head out of the opening by turning and ducking
-
-- Bridge and angle disruption to guard recovery: Explosive bridge toward attacker to break perpendicular alignment, then turn into them and work legs between bodies to recover half guard or closed guard
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **North-South Triangle**: Applied from north-south position when opponent turns their head to one side, creating opportunity to trap their arm and swing legs over from a 180-degree position rather than side control. This variation requires more dynamic movement but catches opponents who defend traditional north-south attacks. (When to use: When you have north-south control and opponent is actively turning their head or framing with their near arm, creating the arm isolation opportunity. Particularly effective against opponents who are comfortable defending standard north-south kimura or choke attacks.)
@@ -240,8 +113,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
-- [[Positions/Scramble Position]]
-- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Standing Position]]
+- [[Positions/Side Control]]
 - [[Positions/Side Control/Kesa Gatame]]
 
 
@@ -251,15 +124,15 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related Submissions
 
-- [[Transitions/Triangle Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Kimura from Side Control]]
-- [[Submissions/Armbar from Side Control]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Submissions/Triangle Choke Back]]
-- [[Transitions/Inverted Triangle]]
+- [[Submissions/Triangle Choke]] - Traditional bottom variation sharing core triangle mechanics but executed from closed guard rather than top position
+- [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics when arm is trapped across neck
+- [[Submissions/Kimura]] - Alternative shoulder lock available when opponent defends triangle by extracting their trapped arm from side control
+- [[Submissions/Far Side Armbar]] - Alternative arm attack when triangle setup creates arm isolation opportunities from perpendicular angle
+- [[Transitions/North-South Choke]] - Alternative blood choke from top position accessible via north-south transition during triangle attempts
+- [[Transitions/Darce Choke]] - Head and arm choke with similar perpendicular mechanics and shared defensive reactions from bottom player
+- [[Transitions/Anaconda Choke]] - Related front headlock blood choke accessible when opponent defends by turning into attacker
+- [[Submissions/Rear Triangle Choke]] - Triangle variation from back control using rear-mounted leg configuration rather than side angle
+- [[Transitions/Inverted Triangle]] - Bottom-up triangle variation with inverted body positioning and different leg entry mechanics
 
 
 </section>
@@ -268,13 +141,13 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Additional Related Content
 
-- [[Transitions/Triangle Choke]] - Traditional bottom variation - shares finishing mechanics but different angle and entry
+- [[Submissions/Triangle Choke]] - Traditional bottom variation - shares finishing mechanics but different angle and entry
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Positions/North-South]] - Alternative starting position for north-south triangle variation
 - [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics
-- [[Submissions/Kimura from Side Control]] - Alternative submission when opponent defends by extracting trapped arm
+- [[Submissions/Kimura]] - Alternative submission when opponent defends by extracting trapped arm from side control
 - [[Positions/Triangle Control]] - Control position used to maintain and finish the triangle
-- [[Submissions/Armbar from Side Control]] - Alternative attack when triangle setup creates arm isolation opportunities
+- [[Submissions/Far Side Armbar]] - Alternative attack when triangle setup creates arm isolation opportunities from side control
 - [[Positions/Mount/Mounted Triangle]] - Related triangle control variation from mount position
 
 

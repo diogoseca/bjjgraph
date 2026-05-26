@@ -96,7 +96,7 @@
       "Address multiple attack threats simultaneously including gogoplata, triangle, omoplata, and back exposure",
       "Build escape through incremental improvements rather than single explosive movement"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first priority when caught in gogoplata control before attempting escape?",
         "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for a systematic escape rather than panicking with explosive movements that typically tighten the choke."
@@ -383,7 +383,7 @@
       "Position functions as submission attempt and control state simultaneously without separation",
       "Transitions to triangle, omoplata, or back are available if primary finish is defended"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal shin alignment relative to the opponent's throat for maximum submission effectiveness?",
         "answer": "The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries."
@@ -422,7 +422,7 @@
         "condition": "If opponent maintains static posture and attempts to hand-fight the foot behind their head",
         "actions": [
           {
-            "technique": "Gogoplata Finish",
+            "technique": "Gogoplata",
             "target": "game-over",
             "probability": 50
           },
@@ -604,7 +604,7 @@
         "attempt_probability": 18
       },
       {
-        "transition": "Gogoplata Finish",
+        "transition": "Gogoplata",
         "attempt_probability": 2
       }
     ]

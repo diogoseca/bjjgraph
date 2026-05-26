@@ -1,0 +1,480 @@
+{
+  "name": "Omoplata from Spider Guard",
+  "description": "Master the Omoplata from Spider Guard in BJJ. Complete guide covering entry mechanics, shoulder lock finish, defense strategies, and competition tactics.",
+  "tags": [
+    "bjj",
+    "submission",
+    "omoplata",
+    "spider-guard",
+    "shoulder-lock",
+    "open-guard",
+    "gi-technique",
+    "joint-lock"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder",
+  "starting_position": "Spider Guard",
+  "from_position": "Spider Guard/Bottom",
+  "from_positions": [
+    "Spider Guard",
+    "Open Guard",
+    "Lasso Guard",
+    "Collar Sleeve Guard",
+    "Closed Guard",
+    "Rubber Guard"
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Omoplata Control",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "The Omoplata from Spider Guard is a high-percentage shoulder lock submission that exploits the natural arm isolation created by spider guard grips. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.\n\nThe entry relies on breaking the opponent's posture to one side using asymmetric foot pressure and sleeve pulling, then threading the attacking leg over the targeted shoulder while maintaining the sleeve grip. Once the leg clears the shoulder and the attacker sits up perpendicular to the opponent, the shoulder lock mechanics take effect through hip extension and forward pressure on the opponent's flattened torso. The trapped arm acts as a lever against the shoulder joint, with the attacker's legs and hips providing the force multiplication necessary to achieve the tap.\n\nStrategically, the omoplata from spider guard creates a powerful dilemma: opponents who posture up to break spider guard grips expose themselves to the leg swing entry, while those who drive forward with pressure create the angle needed for the hip pivot. This submission integrates seamlessly into spider guard attack chains alongside triangles and armbars, making it a cornerstone technique for any guard player who relies on sleeve-based open guard systems.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint",
+        "severity": "High",
+        "recovery_time": "3-6 months, may require surgical intervention"
+      },
+      {
+        "injury": "Rotator cuff tear from sudden or forceful application of the shoulder lock",
+        "severity": "High",
+        "recovery_time": "4-12 months depending on severity, often requires surgery"
+      },
+      {
+        "injury": "Ligament damage to the acromioclavicular joint from combined rotation and compression",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks for mild sprains, 3-6 months for severe tears"
+      },
+      {
+        "injury": "Neck strain from opponent's forward roll escape attempt while arm is trapped",
+        "severity": "Medium",
+        "recovery_time": "1-3 weeks with rest and physical therapy"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Apply rotational pressure gradually by sitting up and extending hips forward. The shoulder joint is vulnerable to sudden force, and damage can occur before pain is fully registered. Never jerk or spike the finish.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, leg, or mat with free hand",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization indicating pain or distress"
+    ],
+    "release_protocol": [
+      "Release hip pressure and lean back immediately upon any tap signal",
+      "Remove leg from over opponent's shoulder to fully release the lock",
+      "Allow opponent to retract their arm freely before re-engaging",
+      "If opponent cannot verbally communicate, assume distress and release immediately",
+      "Check partner's shoulder mobility and comfort before resuming training"
+    ],
+    "training_restrictions": [
+      "White belts should drill the entry and control position only, without applying finishing pressure to the shoulder",
+      "Apply the finish slowly in training regardless of belt level - competition speed application risks permanent shoulder damage",
+      "Partners with prior shoulder injuries should inform their training partner before drilling this technique",
+      "Avoid this submission entirely on training partners who have recently returned from shoulder surgery or rehabilitation"
+    ]
+  },
+  "related_submissions": [
+    "Triangle Choke",
+    "Baratoplata",
+    "Gogoplata",
+    "Triangle Choke",
+    "Americana",
+    "Belly Down Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "Spider Guard",
+      "relationship": "Primary starting position providing sleeve control and foot-on-bicep framework for omoplata entry"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Control position established when omoplata is secured but finish is not yet achieved"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Alternative open guard starting position with similar leg-over-shoulder mechanics"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category from which spider guard and omoplata entries originate"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related guard with sleeve control that allows omoplata entries with collar grip assistance"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Complementary submission from spider guard that chains with omoplata when opponent defends triangle"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative position offering omoplata entries and fallback when spider guard is compromised"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent may achieve if they successfully counter the omoplata with a forward roll"
+    }
+  ],
+  "attacker": {
+    "name": "from Spider Guard Attacker",
+    "description": "Master attacking the Omoplata from Spider Guard. Step-by-step entry mechanics, finishing details, grip management, and chain attacks for shoulder lock success.",
+    "overview": "Attacking the Omoplata from Spider Guard requires converting your bilateral sleeve control and foot-on-bicep positioning into a unilateral shoulder lock. The entry begins by creating asymmetric pressure - pulling one sleeve strongly while pushing the opposite bicep away - to isolate the target arm and create the angle needed to swing your leg over the opponent's shoulder. The key mechanical principle is that your spider guard already has the opponent's arm extended and controlled, making the omoplata entry a natural extension of the position rather than a dramatic change of configuration. Success depends on maintaining sleeve control throughout the transition, achieving a perpendicular hip angle to the opponent, and sitting up to apply progressive rotational pressure on the trapped shoulder joint.",
+    "key_principles": [
+      "Maintain the sleeve grip on the target arm throughout the entire entry sequence - releasing this grip eliminates your mechanical advantage and allows escape",
+      "Create asymmetric pressure by pulling one arm while pushing the other to break the opponent's posture to one side before initiating the leg swing",
+      "Achieve perpendicular hip alignment relative to the opponent's spine to maximize the rotational leverage on the shoulder joint",
+      "Sit up tall and lean forward over the opponent's back to flatten them and prevent the forward roll escape",
+      "Control the opponent's far hip with your hand to prevent them from turning into you or creating space to extract the trapped arm",
+      "Use progressive hip extension to apply the finishing pressure rather than jerking or cranking the shoulder"
+    ],
+    "setup_requirements": [
+      "Established spider guard with at least one deep sleeve grip on the target arm and foot positioned on the opponent's bicep",
+      "Opponent's posture broken or compromised on the side of the target arm, creating the angle needed for the leg swing",
+      "Sufficient hip mobility to swing the leg over the opponent's shoulder while maintaining sleeve control",
+      "Clear path for the attacking leg to clear the opponent's head and shoulder without obstruction",
+      "Secondary control established with the non-attacking leg to prevent the opponent from simply backing away during entry"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Isolate the target arm with asymmetric spider guard pressure",
+        "description": "From spider guard with both feet on biceps and sleeve grips, create asymmetric pressure by pulling the target arm sleeve strongly toward your hip while pushing the opposite bicep away with your foot. This breaks the opponent's posture toward the target side and begins isolating the arm you will attack. The opponent's weight should shift toward the side of the pull.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Remove foot from target bicep and swing leg over shoulder",
+        "description": "Release the foot from the target arm's bicep and swing that leg up and over the opponent's same-side shoulder, threading your calf across the back of their neck. Maintain the sleeve grip firmly throughout this transition. Your hip should begin rotating perpendicular to the opponent's body as the leg clears their shoulder. The sleeve grip is your anchor - without it, the opponent simply postures away.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Pivot hips to perpendicular angle relative to opponent",
+        "description": "With your leg over the opponent's shoulder, pivot your hips sharply to achieve a perpendicular angle relative to their spine. Your body should form an L-shape with theirs. Use the non-attacking leg to push off their hip or the mat to generate the rotational momentum needed for this pivot. The deeper you can angle your hips, the tighter the shoulder lock configuration becomes.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Sit up and secure control over opponent's back",
+        "description": "Sit up aggressively while maintaining the leg over the opponent's shoulder. Place your near hand on the mat behind you for base and reach your far hand over the opponent's back to control their far hip or belt. This sitting-up action begins flattening the opponent's torso to the mat, which is critical for preventing the forward roll escape. Your chest should be oriented toward the back of the opponent's head.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Flatten opponent and lock down hip control",
+        "description": "Drive forward pressure over the opponent's back to completely flatten their torso to the mat. Grab their far hip, belt, or pants to prevent them from rolling forward. Your legs should form a tight configuration around their trapped arm, with the attacking leg's hamstring pressing down on their shoulder blade. The opponent should be chest-down on the mat with their arm trapped and extended behind their back.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust leg position for maximum shoulder torque",
+        "description": "Ensure your legs are properly configured with the attacking leg's hamstring pressing firmly against the back of the opponent's shoulder. Squeeze your knees together to prevent the arm from sliding free. Your hips should be positioned close to the opponent's trapped shoulder, not too far away which reduces leverage. The opponent's elbow should be trapped above the line of your hip for optimal rotational force.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply finishing pressure with progressive hip extension",
+        "description": "Lean your torso forward over the opponent's flattened back while extending your hips forward and upward. This creates rotational force on the opponent's shoulder joint as their arm is trapped behind their back at an unnatural angle. Apply this pressure slowly and progressively - the shoulder joint can sustain damage before the opponent fully registers pain. Maintain hip control throughout to prevent any escape attempts during the finish.",
+        "timing": "2-4 seconds, progressive application"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Forward roll to escape the shoulder lock before it is fully secured",
+        "effectiveness": "High",
+        "your_response": "Grab the opponent's far hip or belt immediately when sitting up to block the roll. If they begin rolling, follow them and transition to a mounted position or re-establish omoplata control from the other side.",
+        "targets_outcome": "Side Control"
+      },
+      {
+        "counter": "Posturing up and pulling the trapped arm free before the leg clears the shoulder",
+        "effectiveness": "High",
+        "your_response": "Maintain death grip on the sleeve and use your non-attacking foot on their bicep or hip to prevent posture recovery. If they begin to posture, abort the omoplata and retain spider guard or transition to triangle entry.",
+        "targets_outcome": "Spider Guard/Bottom"
+      },
+      {
+        "counter": "Clasping hands together to prevent arm isolation and shoulder lock extension",
+        "effectiveness": "Medium",
+        "your_response": "Use your free hand to attack the clasped grip by wedging your fingers between their hands or applying wrist control to separate them. Alternatively, maintain pressure and transition to a wrist lock on the clasped hand or sweep to mount.",
+        "targets_outcome": "Omoplata Control"
+      },
+      {
+        "counter": "Stacking pressure by driving weight forward to compress the guard player's position",
+        "effectiveness": "Medium",
+        "your_response": "Use the non-attacking leg to frame on their hip and create space. If stacking is severe, transition to a triangle by bringing the framing leg across their neck, or abandon and recover to full spider guard.",
+        "targets_outcome": "Spider Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the sleeve grip during the leg swing transition",
+        "consequence": "Opponent immediately postures up and pulls their arm free, completely negating the omoplata entry and potentially allowing them to pass guard",
+        "correction": "Treat the sleeve grip as your anchor throughout the entire sequence. Never release it until the omoplata is fully secured with leg control over the shoulder."
+      },
+      {
+        "error": "Failing to achieve perpendicular hip angle before sitting up",
+        "consequence": "Insufficient leverage on the shoulder joint, resulting in a loose omoplata that the opponent can easily escape through posture or rolling",
+        "correction": "Use the non-attacking leg to push off the opponent's hip or mat to generate rotational momentum and achieve a full 90-degree angle relative to the opponent's spine before attempting to sit up."
+      },
+      {
+        "error": "Not controlling the opponent's far hip to prevent the forward roll escape",
+        "consequence": "Opponent rolls forward and escapes the omoplata entirely, often ending up in a passing position or side control",
+        "correction": "As soon as you sit up, immediately reach over the opponent's back and control their far hip, belt, or pants. This is the single most important detail for preventing the most common escape."
+      },
+      {
+        "error": "Sitting up too slowly or remaining on your back during the omoplata entry",
+        "consequence": "Opponent maintains their base and posture, preventing the shoulder lock from reaching full effectiveness and allowing escape opportunities",
+        "correction": "Sit up explosively once the leg clears the shoulder. The longer you remain on your back, the more time the opponent has to build defensive frames and posture."
+      },
+      {
+        "error": "Positioning hips too far from the opponent's trapped shoulder during the finish",
+        "consequence": "Reduced mechanical advantage on the shoulder joint, requiring more force to achieve the tap and giving the opponent space to extract the arm",
+        "correction": "Scoot your hips as close to the opponent's trapped shoulder as possible. The closer your hip line is to their shoulder, the greater the rotational leverage."
+      },
+      {
+        "error": "Attempting the omoplata when the opponent's posture is not broken on the target side",
+        "consequence": "Leg cannot clear the shoulder cleanly, resulting in a scramble where the opponent often passes guard or establishes a dominant position",
+        "correction": "Ensure the opponent's posture is compromised through asymmetric pull-push pressure before initiating the leg swing. The target arm should be pulled toward your hip with their weight shifted to that side."
+      },
+      {
+        "error": "Neglecting to squeeze knees together around the trapped arm during the finish",
+        "consequence": "Opponent slides their arm free through the gap between your legs, escaping the shoulder lock entirely",
+        "correction": "Actively squeeze your knees together once the arm is trapped, creating a tight channel that prevents arm extraction. Think of your legs as a vise around the upper arm."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Entry Mechanics",
+        "focus": "Leg swing and hip pivot from spider guard",
+        "description": "Drill the leg swing over the shoulder from spider guard with a cooperative partner. Focus on maintaining the sleeve grip throughout the transition, achieving clean leg clearance over the shoulder, and landing with perpendicular hip alignment. No resistance. 50 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Control and Positioning",
+        "focus": "Sitting up, flattening opponent, and hip control",
+        "description": "After successful entry, focus on the sit-up sequence, reaching over the opponent's back for hip control, and flattening their torso. Partner provides light resistance by attempting to posture. Emphasize the connection between sitting up and controlling the far hip."
+      },
+      {
+        "phase": "Phase 3: Finishing Mechanics",
+        "focus": "Progressive shoulder pressure application",
+        "description": "With the omoplata fully established, practice applying the finishing pressure through slow, progressive hip extension. Partner taps early to train sensitivity. Focus on leg squeeze, hip proximity to the trapped shoulder, and controlled pressure application."
+      },
+      {
+        "phase": "Phase 4: Counter-Defense Integration",
+        "focus": "Preventing forward roll and posture escapes",
+        "description": "Partner attempts the two primary escapes: forward roll and posture recovery. Practice maintaining control through both counters. Develop reflexive hip control grabs and learn to follow the rolling opponent. Moderate resistance."
+      },
+      {
+        "phase": "Phase 5: Chain Attacks",
+        "focus": "Omoplata-triangle-armbar attack sequences",
+        "description": "Integrate the omoplata into a broader spider guard attack chain. When the opponent defends the omoplata, flow to triangle or armbar. When they defend those, return to omoplata. Develop pattern recognition for which follow-up to pursue based on the opponent's defensive reaction."
+      },
+      {
+        "phase": "Phase 6: Live Application",
+        "focus": "Full resistance positional sparring from spider guard",
+        "description": "Positional sparring starting from spider guard. Attacker works to achieve the omoplata or any submission from the chain. Full resistance from both parties. Track success rate and identify which defensive reactions you struggle against. 3-minute rounds."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structure does the Omoplata from Spider Guard primarily attack?",
+        "answer": "The omoplata primarily attacks the glenohumeral (shoulder) joint through internal rotation of the humerus against the fixed shoulder girdle. The trapped arm is extended behind the opponent's back while the attacker's hips create rotational force on the shoulder, stressing the joint capsule, rotator cuff muscles, and surrounding ligaments. Secondary stress is placed on the acromioclavicular joint and the biceps tendon.",
+        "safety_critical": true
+      },
+      {
+        "question": "What indicates you are approaching the breaking point of the shoulder during the omoplata finish?",
+        "answer": "As you approach the breaking point, the opponent's trapped arm will begin to rotate involuntarily, their shoulder will visibly elevate off the mat, and they will typically exhibit signs of increasing discomfort such as rapid breathing, vocalization, or frantic escape attempts. The opponent's wrist may also begin to rotate externally as the shoulder reaches its rotational limit. At this point, apply pressure extremely slowly as the joint can fail suddenly without further warning.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is maintaining the sleeve grip throughout the entry the most critical mechanical requirement?",
+        "answer": "The sleeve grip is your mechanical anchor that prevents the opponent from retracting their arm during the leg swing transition. Without it, the opponent can simply pull their arm back and posture up, completely negating the omoplata entry. The grip also provides directional control to guide the arm into the proper position for the shoulder lock. Losing this grip at any point during the entry converts a high-percentage attack into a scramble that favors the top player.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins rolling forward during the omoplata - what adjustment prevents this escape?",
+        "answer": "Immediately grab the opponent's far hip, belt, or pants with your reaching hand to block the rolling direction. Lean your torso forward over their back to drive their chest flat against the mat, removing the space they need to initiate the roll. If the roll has already begun, follow them by maintaining leg control and hip pressure, rotating with their movement to re-establish the omoplata from the new angle or transition to a mounted position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments should you make if the opponent clasps their hands together to defend the finish?",
+        "answer": "First, wedge your free hand between their clasped hands and apply a prying grip break by pushing one wrist while pulling the other. If this fails, attack the top hand with a wrist lock by bending it toward the pinky side while maintaining omoplata hip pressure. Alternatively, maintain the omoplata pressure while transitioning to sweep them forward by shifting your weight and using the trapped arm as a lever, which often breaks the grip as they need their hands to post during the sweep.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical control requirements that must be established before applying finishing pressure?",
+        "answer": "Three control elements must be established: First, your legs must be tightly squeezing around the trapped upper arm with knees compressed together. Second, your hips must be positioned close to the opponent's trapped shoulder for maximum rotational leverage. Third, you must have control over the opponent's far hip to prevent the forward roll escape. Without all three elements, the finish either lacks sufficient force to achieve the tap or allows an escape route.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the omoplata sequence does the opponent pass the point of no escape?",
+        "answer": "The point of no escape occurs when the attacker has fully sat up, the opponent's torso is flattened chest-down on the mat, the attacker's legs are squeezed tightly around the trapped arm, and the far hip is controlled. At this configuration, the opponent cannot roll forward (hip controlled), cannot posture up (flattened and compressed), and cannot extract their arm (legs squeezing). Any hip extension from the attacker at this point directly translates to shoulder joint pressure with no viable escape mechanism.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must you apply the omoplata finish slowly and progressively rather than with a quick jerk?",
+        "answer": "The shoulder joint is particularly vulnerable to sudden rotational force because the pain response lags behind the actual structural damage. An opponent may not feel the full extent of the pressure until ligaments or the joint capsule have already been compromised. Slow, progressive application allows the opponent time to recognize the threat and tap before injury occurs. Quick, jerky application risks causing shoulder dislocation or rotator cuff tears before either party can react.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the omoplata entry differ when initiated from spider guard versus from closed guard?",
+        "answer": "From spider guard, the arm is already isolated and extended through the sleeve grip and foot-on-bicep configuration, making the leg swing more direct because the opponent's arm is already controlled at distance. From closed guard, you must first break posture, isolate one arm through overhook or wrist control, and then create the angle to swing the leg over. Spider guard provides a more fluid entry because the arm isolation and angle creation are built into the guard's fundamental structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "What competition finishing strategies optimize the omoplata success rate against high-level opponents?",
+        "answer": "Against high-level opponents, chain the omoplata with other attacks rather than relying on it as a standalone finish. Use the triangle threat to force the opponent to defend with both arms, then isolate one arm for the omoplata. When they defend the omoplata by clasping hands, transition to a sweep to score points, which often forces them to release the clasp. Control the wrist of the trapped arm to prevent grip-based defenses, and always maintain far hip control to remove the most common high-level counter, the forward roll.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Spider Guard Defender",
+    "description": "Learn to defend and escape the Omoplata from Spider Guard. Recognition cues, prevention strategies, escape techniques, and recovery methods for BJJ.",
+    "overview": "Defending the Omoplata from Spider Guard requires understanding both early prevention and late-stage escape mechanics. The most effective defense begins before the omoplata is fully established - recognizing the setup cues from spider guard and disrupting the entry before the attacker's leg clears your shoulder. Once the leg is over and the attacker begins sitting up, escape becomes significantly more difficult and the window for safe defense narrows rapidly. The defender must prioritize posture maintenance and grip fighting in spider guard to prevent the conditions that allow the omoplata entry. When caught in a developing omoplata, the forward roll is the highest-percentage escape but must be executed before the attacker secures hip control, or it will be blocked. Understanding the progression from early defense to emergency escape is critical for surviving this submission against skilled spider guard players.",
+    "key_principles": [
+      "Maintain strong posture in spider guard to prevent the asymmetric pull that creates the omoplata entry angle",
+      "Recognize the setup early - the moment one arm is being pulled more strongly than the other, the omoplata entry is being prepared",
+      "Keep elbows tight and connected to your torso to prevent the attacker from swinging their leg over your shoulder",
+      "If caught in the omoplata, initiate the forward roll escape immediately before the attacker sits up and controls your far hip",
+      "Never allow your torso to be flattened chest-down on the mat, as this eliminates all escape options",
+      "When the omoplata is partially established, drive your weight forward and posture aggressively to create space for arm extraction"
+    ],
+    "recognition_cues": [
+      "Opponent pulls one sleeve significantly harder than the other while pushing the opposite bicep away, creating asymmetric pressure from spider guard",
+      "Opponent removes one foot from your bicep and begins swinging it upward toward your shoulder on the side where sleeve control is strongest",
+      "Opponent's hips begin rotating to a perpendicular angle relative to your body while maintaining one-sided sleeve control",
+      "You feel your posture breaking to one side with increasing rotational pressure on one shoulder as the opponent's leg moves over your back",
+      "Opponent begins sitting up aggressively while their leg is draped across the back of your neck and shoulder"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture aggressively and strip the sleeve grip before the leg swing initiates",
+        "when_to_use": "Early stage - when you feel asymmetric pressure in spider guard but the leg has not yet begun swinging over your shoulder",
+        "targets_outcome": "Spider Guard/Bottom",
+        "if_successful": "Return to standard spider guard top position with opportunity to re-establish passing grips",
+        "risk": "Low - this is the safest defensive window and should be your primary response to omoplata setups"
+      },
+      {
+        "action": "Forward roll escape - tuck chin and roll over the trapped shoulder before hip control is established",
+        "when_to_use": "Mid-stage - the leg is over your shoulder and the attacker is beginning to sit up, but has not yet controlled your far hip",
+        "targets_outcome": "Side Control",
+        "if_successful": "Escape the omoplata entirely and potentially achieve a passing or scramble position",
+        "risk": "Medium - if the attacker has already secured hip control, the roll will be blocked and you will be in a worse position"
+      },
+      {
+        "action": "Stack and drive weight forward to compress the attacker and create space for arm extraction",
+        "when_to_use": "Mid to late stage - when the omoplata is partially established but the attacker has not yet flattened your torso completely",
+        "targets_outcome": "Spider Guard/Bottom",
+        "if_successful": "Extract your arm from the omoplata and recover to guard top position",
+        "risk": "Medium-high - if you cannot extract the arm, the stacking motion can actually accelerate the shoulder lock"
+      },
+      {
+        "action": "Clasp hands together to prevent arm extension and buy time for escape",
+        "when_to_use": "Late stage - omoplata is established and you need to delay the finish while working an escape",
+        "targets_outcome": "Omoplata Control",
+        "if_successful": "Prevents immediate tap and creates time window for other escape attempts or grip breaks",
+        "risk": "High - this is a stalling defense only, and skilled attackers will break the clasp through wrist locks or leverage"
+      }
+    ],
+    "escape_paths": [
+      "Forward roll escape: Tuck chin, base with free hand, and roll forward over the trapped shoulder before the attacker establishes full hip control and flattening pressure",
+      "Posture and arm extraction: Drive hips forward, straighten your spine, and work the trapped arm back through the opponent's legs by circling your elbow toward their hip",
+      "Back step and spin: Step your far leg behind you and spin your body in the direction that unwinds the shoulder lock, creating space to extract the arm",
+      "Clasped hands to sweep defense: Clasp hands together to prevent arm extension, then use your base to drive into the opponent and create a scramble"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control",
+        "how": "Execute the forward roll escape before the attacker secures hip control, rolling over the trapped shoulder and using the momentum to establish a passing or scramble position"
+      },
+      {
+        "outcome": "Spider Guard/Bottom",
+        "how": "Disrupt the entry early by posturing aggressively and stripping the sleeve grip before the leg clears the shoulder, returning to standard spider guard engagement"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting too long to initiate the forward roll escape, attempting it after the attacker has already secured hip control",
+        "consequence": "The roll is blocked by the attacker's grip on the far hip, leaving you flattened with the omoplata fully locked and no remaining escape options",
+        "correction": "The forward roll must be initiated immediately when you feel the leg clear your shoulder - do not wait to assess the situation. Speed is critical as the escape window closes within 1-2 seconds of the leg passing over."
+      },
+      {
+        "error": "Attempting to posture up by extending the arms rather than driving from the hips",
+        "consequence": "Arms are already mechanically disadvantaged due to the spider guard sleeve control, and extending them further exposes them to armbar entries",
+        "correction": "Drive posture recovery from the hips and legs, keeping elbows tight to the body. Use your legs and core strength to create upward pressure rather than pushing with your arms."
+      },
+      {
+        "error": "Allowing the torso to be flattened chest-down on the mat without fighting the pressure",
+        "consequence": "Once flattened, all escape options are eliminated and the omoplata finish becomes nearly inevitable",
+        "correction": "Fight the flattening pressure by keeping your knees under you and driving your hips upward. If you feel yourself being flattened, immediately initiate the forward roll before it is too late."
+      },
+      {
+        "error": "Ignoring the early warning signs in spider guard and not addressing the asymmetric pull before the entry develops",
+        "consequence": "The omoplata entry develops freely and you are forced into late-stage defensive positions with diminishing escape options",
+        "correction": "React to any asymmetric pull immediately by stepping forward on the side being pulled, stripping the sleeve grip, or adjusting your posture to equalize the pressure before the leg swing begins."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest recognition cue that an omoplata from spider guard is being set up?",
+        "answer": "The earliest cue is feeling asymmetric sleeve pressure - one arm being pulled significantly harder than the other while the foot on that side's bicep pushes away. This creates the angle and arm isolation needed for the omoplata entry. The moment you feel one arm being pulled more forcefully toward the opponent's hip while the other is being pushed, they are setting up the entry angle for the leg swing.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the forward roll escape be initiated immediately rather than after assessing the position?",
+        "answer": "The forward roll escape has a narrow window of effectiveness that closes within 1-2 seconds of the attacker's leg clearing your shoulder. Once the attacker sits up and grabs your far hip, the roll is physically blocked and you lose your highest-percentage escape. Every moment spent assessing the situation is time the attacker uses to establish the controls that make the roll impossible. Commit to the roll the instant you feel the leg pass over your shoulder.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the omoplata rather than continuing to fight the submission?",
+        "answer": "Tap immediately if you feel sharp pain in the shoulder, if you feel a grinding or popping sensation in the joint, if your torso is completely flattened and the attacker has full hip control with no remaining escape options, or if the attacker begins applying finishing pressure and you cannot initiate any escape within 2-3 seconds. The shoulder joint can sustain permanent damage before you fully register the severity of the pressure. When in doubt, tap early - the position can be restarted in training but a damaged shoulder cannot.",
+        "safety_critical": true
+      },
+      {
+        "question": "How can you prevent the omoplata entry while maintaining your spider guard passing position?",
+        "answer": "Maintain strong bilateral posture by resisting any asymmetric pull equally with both arms. Keep your elbows connected to your torso rather than allowing them to be extended away from your body. When you feel one sleeve being pulled harder, immediately step forward on that side to reduce the angle available for the leg swing. Strip the sleeve grip proactively when you sense the opponent loading their hips for rotation. Address the spider guard grips systematically before attempting to pass.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying omoplata setup cues from spider guard",
+        "description": "Partner sets up the omoplata from spider guard at slow speed. Practice identifying the asymmetric pull, foot removal from bicep, and hip rotation that signal the entry. Call out the setup as you recognize it. No resistance needed - focus purely on pattern recognition timing."
+      },
+      {
+        "phase": "Phase 2: Early Prevention",
+        "focus": "Posture recovery and grip stripping before entry",
+        "description": "Partner attempts the omoplata setup at moderate speed. Practice disrupting the entry by posturing aggressively, stripping the sleeve grip, and stepping forward on the attacked side before the leg clears the shoulder. Success means returning to standard spider guard engagement."
+      },
+      {
+        "phase": "Phase 3: Forward Roll Escape",
+        "focus": "Executing the primary escape under controlled conditions",
+        "description": "Partner completes the leg swing over the shoulder but does not yet secure hip control. Practice the forward roll escape with proper chin tuck, arm positioning, and base. Partner provides light resistance. Focus on speed of initiation and clean rolling mechanics."
+      },
+      {
+        "phase": "Phase 4: Late-Stage Survival and Safety Judgment",
+        "focus": "Surviving established omoplata and knowing when to tap",
+        "description": "Partner establishes full omoplata control with hip grip. Practice clasped hand defense, posture driving, and back step escape under increasing resistance. Develop sensitivity for when to tap versus when escape is still viable. This phase emphasizes survival awareness and safety judgment."
+      }
+    ]
+  }
+}

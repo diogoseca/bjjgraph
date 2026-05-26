@@ -53,7 +53,7 @@
       "relationship": "Alternative starting position with lower percentage gift wrap entry"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Complementary attack whose threat creates the turning reaction needed for gift wrap"
     },
     {
@@ -214,7 +214,7 @@
         "description": "Positional sparring starting from S Mount. Full resistance from partner attempting all escapes. Work on timing the gift wrap with natural defensive reactions. Chain with submissions if back take is defended. Track success rate and identify remaining gaps."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Gift Wrap to Back transition?",
         "answer": "The optimal timing is when opponent turns away from you to defend an arm attack, typically the armbar threat from S Mount. Their rotation toward their trapped arm creates both the momentum and the arm positioning needed for the gift wrap. Attempting it while they face you requires forcing the arm across against resistance, which drops the success rate significantly and risks losing S Mount."
@@ -343,7 +343,7 @@
         "correction": "Combine the bridge with a directional hip escape toward the attacker's legs. The lateral movement is what creates the angle needed to insert your legs and recover guard."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Gift Wrap to Back is being attempted?",
         "answer": "The earliest cue is feeling the attacker's near hand control your wrist and begin pushing your arm across your body toward your opposite shoulder. This arm feed is the initiating movement of the entire technique. Recognizing this pressure immediately and reacting by keeping your elbow tight and retracting your arm is the highest-percentage defensive moment in the entire sequence."

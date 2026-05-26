@@ -202,7 +202,7 @@ Restore Back Control sits at the critical junction between maintaining the most 
 
 - [[Transitions/Back Control Maintenance]] - Complementary technique for sustained back control
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that motivates opponent escape attempts
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that motivates opponent escape attempts
 
 - [[Transitions/Body Triangle Lock]] - Enhanced control option during restoration sequence
 

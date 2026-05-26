@@ -154,6 +154,8 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Strip Grip from Zombie?</p>
+
 - Top player establishes deep whizzer over your underhook arm and begins squeezing elbow tight, signaling the beginning of the grip stripping sequence targeting your underhook
 - Top player shifts from general pressure to specifically targeting your framing arm, attempting to pin it to the mat or push it past their head
 - Top player begins straightening their trapped leg and driving hip pressure forward against your lockdown, indicating they are moving to the leg extraction phase
@@ -165,6 +167,8 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Strip Grip from Zombie?</p>
 
 - Prioritize maintaining the underhook above all other grips — it is the keystone of your Zombie structure and enables all offensive and defensive options
 - Re-pump broken grips immediately — the window between a grip being stripped and the opponent advancing is one to two seconds maximum
@@ -179,6 +183,8 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Strip Grip from Zombie?</p>
 
 ### 1. Re-pump underhook aggressively when opponent attempts to strip it with whizzer
 
@@ -216,6 +222,8 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Strip Grip from Zombie?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your Old School Sweep attempt during the opponent's grip transition — the moment they shift from underhook stripping to lockdown work, their base is temporarily compromised. Post your far foot, drive your hips upward, and use the remaining lockdown tension to off-balance them through the sweep.
@@ -231,6 +239,8 @@ Maintain relentless re-gripping on your underhook — every time the opponent br
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Strip Grip from Zombie?</p>
 
 ### 1. Passively allowing grips to be stripped without immediately fighting to re-establish them
 
@@ -260,6 +270,8 @@ Maintain relentless re-gripping on your underhook — every time the opponent br
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Strip Grip from Zombie?</p>
+
 **Grip Recovery Drills** - Re-establishing broken connections
 Partner strips one grip at a time from your Zombie structure. Practice immediately re-establishing each grip within one to two seconds. Progress from single grip breaks to sequential breaks, developing the reflexive re-gripping habit essential for Zombie defense.
 
@@ -276,26 +288,6 @@ Advanced positional sparring where you must simultaneously defend grip strips wh
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important grip to defend when the opponent begins their stripping sequence?
-**A**: The underhook is the most critical grip to defend because it serves as the keystone of the entire Zombie defensive structure. Without the underhook, you cannot create the angles needed for Old School Sweeps, Electric Chair threats, or effective guard recovery. The lockdown alone without an underhook becomes a passive leg entanglement that the opponent can systematically defeat with patience and pressure. If you can maintain only one grip, keep the underhook and use it to re-establish your other connections.
-
-**Q2**: When during the opponent's grip stripping sequence is the best window to attempt a sweep?
-**A**: The best sweep window occurs during the transition between the opponent stripping your underhook and beginning to work on your lockdown. At this point, they have typically committed their upper body to a whizzer or crossface position and are beginning to redirect attention to their trapped leg. This weight redistribution temporarily compromises their base. The Old School Sweep is particularly effective here because the opponent's forward pressure and committed upper body positioning provides the momentum needed for the sweep.
-
-**Q3**: How do you recognize that your Zombie structure is failing and you need to transition to an alternative guard?
-**A**: Your structure is critically failing when both your underhook and near-side frame have been neutralized, leaving only the lockdown as your remaining connection point. At this stage, maintaining the Zombie is futile — the opponent will extract their leg within seconds. The correct response is to proactively release the lockdown and immediately transition to either deep half guard by shooting underneath them, knee shield half guard by inserting your top knee, or butterfly guard by extracting your bottom hook. Making this transition voluntarily while you still have some control is far superior to having the structure completely dismantled.
-
-**Q4**: What body positioning adjustments help you maintain your grips longer against a skilled grip stripper?
-**A**: Stay turned aggressively onto your side rather than allowing yourself to be flattened. Your underhook is strongest when your chest is connected to the opponent's body. Squeeze your lockdown with your thigh adductors rather than relying on your foot hook alone — the thigh squeeze is biomechanically harder to break. Keep your framing arm with a bent elbow anchored against your ribs rather than extended, making it structurally resistant to being stripped. Most importantly, keep your hips moving with constant micro-adjustments to prevent the opponent from settling into a stable grip-breaking position.
-
-
-
-</section>
 
 
 </main>

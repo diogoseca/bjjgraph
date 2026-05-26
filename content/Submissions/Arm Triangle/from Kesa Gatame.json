@@ -1,0 +1,470 @@
+{
+  "name": "Arm Triangle from Kesa Gatame",
+  "description": "Master the Arm Triangle from Kesa Gatame with step-by-step grip transitions, finishing angles, and chest compression mechanics. Complete attacker and defender guide.",
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "arm-triangle",
+    "kata-gatame",
+    "blood-choke",
+    "finishing-guide",
+    "kesa-gatame",
+    "scarf-hold",
+    "no-gi"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries (compressed by opponent's own shoulder and your forearm)",
+  "starting_position": "Kesa Gatame",
+  "from_position": "Kesa Gatame/Top",
+  "success_rate": 62,
+  "overview": "The Arm Triangle from Kesa Gatame exploits the unique perpendicular geometry of the scarf hold to trap the opponent's near arm against their own neck and apply bilateral carotid compression. From Kesa Gatame, the top player already controls the opponent's head with one arm while trapping the near arm under their armpit. This existing control creates a natural pathway to the head-and-arm choke configuration that requires less transitional work than arm triangles initiated from other positions.\n\nThe critical transition involves driving the opponent's trapped arm upward against their own neck using chest pressure, then threading the head-wrapping arm deeper behind the opponent's neck to establish the choking forearm across the far-side carotid. The opponent's own shoulder compresses the near-side carotid while your forearm handles the opposite side. Once the figure-four or gable grip locks the configuration, the attacker either finishes from the Kesa Gatame angle or walks to a perpendicular side control position and applies progressive chest compression to complete the choke.\n\nWhat makes the Kesa Gatame entry particularly dangerous is the head and arm control established before any submission attempt begins. Defenders face a narrower window of escape compared to arm triangles from standard side control because the scarf hold already restricts head movement and arm positioning. The perpendicular body angle provides immediate chest-to-face pressure that compounds the choking mechanics, making this a high-percentage finish when the grip transition is executed smoothly and the attacker maintains constant pressure throughout the switch.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from blood choke",
+        "severity": "High",
+        "recovery_time": "Immediate recovery if released promptly; potential stroke risk if held too long"
+      },
+      {
+        "injury": "Neck strain from improper pressure angle",
+        "severity": "Medium",
+        "recovery_time": "3-7 days with rest"
+      },
+      {
+        "injury": "Shoulder compression injury to trapped arm",
+        "severity": "Medium",
+        "recovery_time": "5-14 days depending on severity"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.",
+    "tap_signals": [
+      "Verbal tap (say 'tap' clearly)",
+      "Physical hand tap (multiple taps on opponent or mat)",
+      "Physical foot tap (multiple taps with foot)",
+      "Any distress signal or loss of resistance",
+      "Immediately release if opponent goes limp"
+    ],
+    "release_protocol": [
+      "Immediately release arm squeeze and remove head pressure",
+      "Step back from opponent's head and shoulders",
+      "Allow opponent to breathe and recover (30-60 seconds)",
+      "Check for consciousness and normal breathing",
+      "If unconscious: position on side, elevate legs, monitor breathing until conscious"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - apply smooth progressive pressure only",
+      "Never hold after tap signal - release immediately upon any tap",
+      "Always allow tap access - do not trap both arms in training",
+      "Never use competition speed in training - practice control first",
+      "Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)"
+    ]
+  },
+  "from_positions": [
+    "Kesa Gatame",
+    "Kuzure Kesa-Gatame"
+  ],
+  "related_submissions": [
+    "Arm Triangle",
+    "Arm Triangle from Side Control",
+    "Americana from Kesa Gatame",
+    "Arm Triangle from Kuzure Kesa-Gatame",
+    "Arm Triangle from Modified Scarf Hold",
+    "Arm in Guillotine",
+    "Anaconda Choke",
+    "Arm Triangle from Hindulotine"
+  ],
+  "related_content": [
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Primary starting position with head and arm control already established"
+    },
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Alternative scarf hold variant with similar arm triangle entry path"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Parent submission family"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Common finishing position after walking to perpendicular angle"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative submission position when arm triangle stalls"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related head control position used in head-and-arm attack chains"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Kesa Gatame/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 13,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard grip transition from scarf hold",
+      "description": "The most common entry where you drive the opponent's trapped near arm up against their own neck using chest pressure from Kesa Gatame. You then thread your head-wrapping arm over their trapped arm and behind their neck, establishing the head-and-arm configuration. The transition leverages the existing head and arm control of the scarf hold.",
+      "when_to_use": "When you have a solid Kesa Gatame with the opponent's near arm trapped under your armpit and their resistance is focused on defending the pin rather than preemptively protecting against the choke"
+    },
+    {
+      "variation_name": "Walk-around finish to perpendicular side control",
+      "description": "After establishing the head-and-arm lock from Kesa Gatame, you disengage your hips from the scarf hold angle and walk around to a perpendicular side control position before applying the final squeeze. This provides maximum chest compression and eliminates the space opponents use to breathe or create defensive frames.",
+      "when_to_use": "Against larger or more flexible opponents who can create space when you attempt to finish from the initial Kesa Gatame angle"
+    },
+    {
+      "variation_name": "In-place finish from Kesa Gatame angle",
+      "description": "Instead of walking to perpendicular angle, you finish the arm triangle directly from the Kesa Gatame position by dropping your weight onto the opponent's face and using the scarf hold's inherent chest-to-face pressure to generate the compression. Requires tighter grip and more precise shoulder alignment but preserves the existing control.",
+      "when_to_use": "Against smaller opponents or when you have an exceptionally tight grip and do not want to risk losing position during the walk-around"
+    }
+  ],
+  "attacker": {
+    "name": "from Kesa Gatame Attacker",
+    "description": "Step-by-step guide to finishing the Arm Triangle from Kesa Gatame. Learn grip transitions from scarf hold, finishing angles, and how to use chest compression to complete the choke.",
+    "overview": "The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head and near-arm control to transition into a devastating blood choke. The attacking sequence begins with recognizing that the opponent's trapped near arm is already positioned adjacent to their own neck under your armpit. By driving this arm upward with chest pressure and threading your head-wrapping arm behind their neck, you create the head-and-arm configuration where their own shoulder becomes the primary choking mechanism on one carotid while your forearm blade compresses the other. The advantage of entering from Kesa Gatame is the pre-existing upper body control that limits defensive responses during the critical grip transition. Your task is to smoothly convert scarf hold control into arm triangle finishing position while maintaining constant pressure throughout the switch, then either finish from the Kesa Gatame angle or walk to a perpendicular position for maximum compression.",
+    "key_principles": [
+      "Use the existing Kesa Gatame head and arm control as the foundation for the arm triangle rather than releasing and re-gripping",
+      "Drive the opponent's trapped arm upward against their own neck with chest weight before initiating the grip transition",
+      "Maintain constant head control throughout the grip switch to prevent posture recovery during the vulnerable transition moment",
+      "Walk your hips perpendicular to the opponent's body toward their trapped-arm side to create the optimal finishing angle",
+      "Use progressive chest-to-chest compression rather than arm squeezing to generate the choking pressure",
+      "Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes"
+    ],
+    "setup_requirements": [
+      "Established Kesa Gatame with arm wrapped around opponent's head and near arm trapped under your armpit",
+      "Opponent's near arm is loaded against their own neck with no space between their shoulder and carotid",
+      "Sufficient weight distribution through chest to prevent opponent from creating frames or bridging during grip transition",
+      "Your hips are positioned to allow disengagement from scarf hold angle and transition to perpendicular finishing position",
+      "Opponent's far arm is monitored or controlled to prevent framing interference during the grip switch"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Consolidate Kesa Gatame control",
+        "description": "Ensure your scarf hold is tight with your arm wrapped deep around the opponent's head and their near arm trapped firmly under your armpit. Squeeze your elbow against your ribs to pin their arm. Your chest should be heavy on their upper body with hips low. Verify the opponent cannot extract their near arm before proceeding.",
+        "timing": "Ongoing, 2-5 seconds of consolidation"
+      },
+      {
+        "step_number": 2,
+        "action": "Drive trapped arm against opponent's neck",
+        "description": "Shift your chest weight forward and downward to push the opponent's trapped near arm up against their own neck. Their forearm or upper arm should press directly into their near-side carotid. Use your body weight rather than arm strength to pin the arm in this position. You should feel their arm bone pressing into the side of their neck with no gap.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread arm behind opponent's neck",
+        "description": "Release your head-wrapping arm from the standard Kesa Gatame position and immediately thread it over the opponent's trapped arm and behind the back of their neck. Your forearm blade should cross behind their neck to press against the far-side carotid. This is the most vulnerable moment in the transition. Move smoothly without creating any gap that would allow head extraction or arm retraction.",
+        "timing": "1-2 seconds, must be fluid"
+      },
+      {
+        "step_number": 4,
+        "action": "Lock the figure-four or gable grip",
+        "description": "Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head to form a figure-four, or use a tight gable grip with palms together. The grip must lock the opponent's head and trapped arm together as a single unit with zero slack in the configuration. Test the lock by gently squeezing to confirm both sides of the neck are covered.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Walk to the perpendicular finishing angle",
+        "description": "Disengage your hips from the Kesa Gatame angle and walk them around toward the opponent's trapped-arm side until you are perpendicular to their body. Your chest should move directly over their face with each step. Each incremental hip movement tightens the choke by removing available space between your bodies. Do not rush this step as controlled walking generates more progressive pressure.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Drop hip and seal the position",
+        "description": "Drop your hip closest to the opponent's trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head. This seals the position completely and removes the space opponents use to breathe or create defensive frames. Your body acts as an immovable wall pressing their own shoulder into their neck.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply progressive squeeze",
+        "description": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap or feel the resistance fade as blood flow restriction takes effect.",
+        "timing": "3-8 seconds to finish"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent retracts trapped arm before the grip switch completes",
+        "effectiveness": "High",
+        "your_response": "If the arm clears during the transition, immediately re-establish Kesa Gatame by re-wrapping the head and re-trapping the arm under your armpit. Reset the position fully before attempting the arm triangle again. Do not chase the arm with a loose grip.",
+        "targets_outcome": "Kesa Gatame/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively toward the choking arm side to create space",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base by posting your far-side hand and dropping your hips lower. If the bridge is strong, maintain the grip and ride it out by keeping your chest heavy on their face. If the bridge dislodges your position, return to standard Kesa Gatame control and re-consolidate.",
+        "targets_outcome": "Kesa Gatame/Top"
+      },
+      {
+        "counter": "Opponent frames with far arm against your hip or shoulder to prevent chest-to-chest pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use your free hand to swim inside their far-side elbow and strip the frame. Walk further toward their head to collapse the space their frame creates. If the frame is persistent, consider transitioning to North-South to bypass the frame entirely.",
+        "targets_outcome": "Kesa Gatame/Top"
+      },
+      {
+        "counter": "Opponent turns into you and recovers guard during the walk-around",
+        "effectiveness": "Low",
+        "your_response": "Maintain the head-and-arm grip through the guard recovery. Work to pass guard while keeping the arm triangle configuration intact. Alternatively, release the grip and work to re-pass to Kesa Gatame for another attempt.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the Kesa Gatame head wrap too early before chest pressure secures the trapped arm against the neck",
+        "consequence": "Opponent retracts their near arm during the transition, escaping the arm triangle setup and potentially recovering to a less disadvantageous position",
+        "correction": "Pin the opponent's near arm firmly against their own neck with your chest weight before releasing any part of the Kesa Gatame grip. The arm must be immobilized by body pressure before you initiate the grip switch."
+      },
+      {
+        "error": "Squeezing with arms instead of using chest compression and body angle to generate finishing pressure",
+        "consequence": "Arms fatigue rapidly, the choke becomes a neck crank rather than a blood choke, and the opponent can endure the pressure long enough to work an escape",
+        "correction": "Walk to a perpendicular angle and use your dropping hip and expanding chest to generate pressure. Your arms lock the configuration in place while your body creates the compressive force."
+      },
+      {
+        "error": "Leaving space between your chest and the opponent's trapped shoulder during the finish",
+        "consequence": "The opponent can breathe through the choke and create incremental space to extract their arm or work defensive frames against your body",
+        "correction": "Drop your weight directly onto the opponent's face and trapped shoulder. Your chest must be flush against their body with zero gap. Think about melting your weight through them rather than hovering above."
+      },
+      {
+        "error": "Failing to walk hips to perpendicular angle before attempting the squeeze",
+        "consequence": "The choke is applied at a suboptimal angle where the opponent's shoulder does not properly compress the carotid, resulting in a neck crank rather than a clean blood choke",
+        "correction": "Complete the full hip walk-around until you are at a 90-degree angle to the opponent's body. The chest-to-face alignment is what makes the opponent's own shoulder do the choking work."
+      },
+      {
+        "error": "Keeping head high instead of dropping it to the mat on the far side of the opponent's head",
+        "consequence": "Creates a gap on the far side that the opponent can use to turn their head and relieve pressure or work their arm free through the space",
+        "correction": "Drop your head to the mat on the far side of the opponent's head immediately after walking to the finishing angle. Your head acts as a seal that prevents the opponent from turning away from the choke."
+      },
+      {
+        "error": "Attempting the arm triangle without first consolidating tight Kesa Gatame control",
+        "consequence": "A loose Kesa Gatame means the opponent has defensive options before the transition even begins, leading to failed attempts and wasted energy",
+        "correction": "Spend 2-5 seconds verifying your Kesa Gatame is fully consolidated before initiating the arm triangle sequence. The head wrap must be deep, the near arm must be pinned, and your weight must be settled."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip transition mechanics",
+        "focus": "Developing the smooth switch from Kesa Gatame head wrap to head-and-arm arm triangle configuration",
+        "description": "Partner starts flat on their back in bottom Kesa Gatame with their near arm trapped. Practice the grip switch from scarf hold to arm triangle with zero resistance, focusing on maintaining chest pressure on the trapped arm throughout the transition. Repeat 20 times per side. No finishing attempts in this phase."
+      },
+      {
+        "phase": "Phase 2: Finishing angle and compression",
+        "focus": "Walking to the correct perpendicular angle and generating choke pressure through body mechanics",
+        "description": "Start with the arm triangle grip already established from Kesa Gatame. Partner gives 30% resistance. Practice walking your hips to the perpendicular angle, dropping your hip, and applying progressive chest compression. Partner provides feedback on pressure location and when the choke becomes effective. Alternate sides."
+      },
+      {
+        "phase": "Phase 3: Full transition chain from Kesa Gatame",
+        "focus": "Connecting the Kesa Gatame consolidation, grip transition, walk-around, and finish into one fluid sequence",
+        "description": "Start from Kesa Gatame top with partner at 50% resistance. Practice the full sequence: consolidate scarf hold, drive arm against neck, transition grip, walk to angle, finish. If the arm triangle fails at any step, return to Kesa Gatame and identify which step broke down. 3-minute rounds."
+      },
+      {
+        "phase": "Phase 4: Live positional sparring",
+        "focus": "Applying the full technique chain against progressive resistance with all defensive options available",
+        "description": "Start from Kesa Gatame top position. Partner gives 70-100% resistance and can use any defensive option including arm retraction, bridging, framing, and guard recovery. Practice recognizing when the arm triangle is available versus when to maintain Kesa Gatame control. 5-minute rounds with full reset on escape."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Arm Triangle from Kesa Gatame attack?",
+        "answer": "The arm triangle compresses both carotid arteries simultaneously using a bilateral mechanism. The opponent's own trapped shoulder, driven against their neck by your chest pressure, compresses the near-side carotid artery. Your forearm blade, threaded behind their neck, compresses the far-side carotid artery. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released. The choke targets blood flow, not the airway.",
+        "safety_critical": false
+      },
+      {
+        "question": "What control must be established before initiating the arm triangle grip transition from Kesa Gatame?",
+        "answer": "Before initiating the grip switch, you must have a fully consolidated Kesa Gatame with three verified checkpoints: your head-wrapping arm is deep around the opponent's head pulling it toward your hip, their near arm is pinned tightly under your armpit with your elbow squeezing against your ribs, and your chest weight is settled heavily on their upper body so they cannot bridge or create frames. The near arm must be loaded against their own neck by your chest pressure before you release any part of the scarf hold grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts bridging explosively as you begin the grip transition - what adjustment prevents losing position?",
+        "answer": "Immediately pause the grip transition and re-consolidate your Kesa Gatame. Widen your posted leg for base and drive your chest weight down onto their face and upper body to ride out the bridge. Do not attempt to complete the grip switch while under an active bridge as this is when your control is most vulnerable. Wait for the bridge to exhaust, re-pin the near arm against their neck with your chest, then resume the transition when the opponent settles. Patience during the bridge prevents position loss.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicators tell you the arm triangle is properly locked and approaching the point of no escape?",
+        "answer": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body. Their face begins changing color as blood flow restricts. Their defensive movements become weaker and less coordinated, transitioning from structured escape attempts to disorganized struggling. If they cannot create any frame with their free hand, cannot bridge effectively, and their head is sealed between your forearm and their own shoulder, they have passed the point of no escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Kesa Gatame?",
+        "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face with no space between your bodies. This angle allows your expanding chest and dropping body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side. The perpendicular alignment is what converts arm strength into whole-body compression.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the most common finishing errors that reduce the arm triangle from a blood choke to a neck crank?",
+        "answer": "The three most common errors that produce a neck crank instead of a clean blood choke are: failing to walk to perpendicular angle so the shoulder does not align with the carotid, squeezing with arm strength instead of chest compression which applies force to the wrong vectors, and keeping your head high instead of sealing it to the mat on the far side which leaves gaps that prevent the bilateral compression needed for a blood choke. A proper arm triangle should feel effortless through body mechanics.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grip if the opponent's neck is thicker and the standard figure-four feels loose?",
+        "answer": "Switch from the standard figure-four grip to a deeper gable grip with palms pressed together behind the opponent's head. The gable grip provides a tighter configuration that compensates for thicker necks by reducing slack. You can also walk further toward the opponent's head to increase the compression angle, and focus on expanding your chest rather than squeezing your arms. For very thick necks, ensuring the arm is driven as high as possible against the neck before locking the grip creates a shorter choking distance.",
+        "safety_critical": false
+      },
+      {
+        "question": "What safety precautions must you observe when applying the Arm Triangle from Kesa Gatame?",
+        "answer": "Apply pressure progressively over 3-5 seconds minimum, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always ensure at least one of the opponent's hands is free for tapping. Release immediately upon any tap signal including verbal, hand tap, or foot tap. If the opponent goes limp or stops resisting suddenly, release immediately and position them in recovery posture on their side with legs elevated. Never hold a blood choke after the tap in training.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, your opponent is defending by tucking their chin and gripping their own collar - how do you complete the finish?",
+        "answer": "The chin tuck and collar grip buy time but do not neutralize a properly locked arm triangle. Walk further toward their head to increase the compression angle beyond what their chin defense can offset. Use your free hand to strip their collar grip by attacking the weakest finger. Increase chest expansion pressure gradually rather than trying to muscle through the defense. The chin and collar defense is a stalling mechanism that fails as the compression angle tightens. Stay patient and let progressive pressure do the work rather than explosive squeezing.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you prevent the opponent from extracting their trapped arm during the grip transition from Kesa Gatame?",
+        "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their near arm against their own neck so they cannot pull it free. The arm must be loaded against the neck by your chest weight before you release the Kesa Gatame head wrap. During the transition, your forearm threading over their arm and behind their neck mechanically prevents extraction. If you feel the arm starting to slide out during the switch, immediately abandon the arm triangle and re-establish your Kesa Gatame scarf hold grip.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Kesa Gatame Defender",
+    "description": "Learn to defend the Arm Triangle from Kesa Gatame. Recognize the grip transition from scarf hold, prevent the head-and-arm lock, and escape to safe positions.",
+    "overview": "Defending the Arm Triangle from Kesa Gatame requires recognizing the critical transition moment when the attacker shifts from standard scarf hold control to head-and-arm choke configuration. The primary danger window occurs when the attacker drives your near arm upward against your own neck and releases the head wrap to thread their arm behind your neck. Successful defense demands immediate awareness of your near-arm positioning, rapid response during the grip transition window, and knowledge of the escape timing at each stage. Early defense during the grip transition is exponentially more effective than trying to escape a fully locked and sealed arm triangle, so understanding the attacker's sequence is essential for mounting an effective defense. The key defensive insight is that the arm triangle from Kesa Gatame requires your arm to be trapped against your own neck, and preventing this arm position is your primary defensive tool.",
+    "key_principles": [
+      "Defend the arm position first - keep your near arm either fully retracted tight against your body or actively fight to pull it below your chin line so it cannot be loaded against your neck",
+      "Recognize the transition moment when the attacker releases the Kesa Gatame head wrap as the highest-percentage escape window",
+      "Create distance by turning into the attacker rather than away to prevent the perpendicular finishing angle from being established",
+      "Frame against the attacker's hips and shoulders with your far arm to prevent them from walking to the finishing angle",
+      "If caught, fight the angle by turning toward the attacker to relieve shoulder-on-carotid pressure before the choke seals",
+      "Tap early and clearly when the choke is locked - arm triangles restrict blood flow rapidly with minimal warning before unconsciousness"
+    ],
+    "recognition_cues": [
+      "The attacker shifts their chest weight forward and downward to drive your trapped near arm higher against your own neck rather than simply maintaining the pin",
+      "The attacker releases their Kesa Gatame head wrap and begins threading their arm over your near arm and behind your neck",
+      "You feel the attacker's hips begin disengaging from the scarf hold angle as they start walking toward your side for the perpendicular finish",
+      "The attacker locks a figure-four or gable grip behind your head, connecting their hands and sealing your head and arm together as one unit"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the near arm below chin line before the grip switch completes",
+        "when_to_use": "During the transition window when the attacker releases the Kesa Gatame head wrap to thread their arm behind your neck",
+        "targets_outcome": "Kesa Gatame/Top",
+        "if_successful": "Near arm escapes the trap against your neck. The attacker must return to standard Kesa Gatame control without the arm triangle configuration.",
+        "risk": "If timing is late, pulling the arm may drive it deeper into the choke position rather than free it"
+      },
+      {
+        "action": "Turn into the attacker and get to knees to prevent the finishing angle",
+        "when_to_use": "When the attacker begins walking their hips to the perpendicular angle but has not yet dropped their hip to seal the position",
+        "targets_outcome": "Kesa Gatame/Top",
+        "if_successful": "Disrupts the finishing angle and prevents chest compression. Can lead to a scramble back to Kesa Gatame control or turtle position where the arm triangle angle is broken.",
+        "risk": "Turning incorrectly can expose your back for a back take transition"
+      },
+      {
+        "action": "Bridge toward the trapped arm side and recover closed guard",
+        "when_to_use": "When the arm triangle grip is partially locked but the attacker has not fully sealed the position with their hip and head on the mat",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Creates enough space to pull the attacker into your closed guard where the perpendicular arm triangle angle is disrupted and chest compression is eliminated.",
+        "risk": "A strong bridge against a well-positioned attacker with a sealed grip may fail and waste critical energy"
+      },
+      {
+        "action": "Walk feet toward attacker's hips and re-guard during the walk-around",
+        "when_to_use": "When the attacker has locked the grip but is walking their hips around and has not yet fully settled to the perpendicular angle",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Disrupts the finishing mechanics by pulling the attacker back into a guard position where they cannot generate the chest compression needed to complete the choke.",
+        "risk": "If the choke is already generating pressure, movement may accelerate the submission by driving your shoulder deeper"
+      }
+    ],
+    "escape_paths": [
+      "Retract the near arm during the grip transition window to prevent the arm triangle configuration from being established",
+      "Turn into the attacker and get to knees to break the perpendicular finishing angle before the hip drops",
+      "Bridge and shrimp toward the trapped arm side to create space and recover closed guard",
+      "Lock hands together and straighten the trapped arm to prevent your own shoulder from compressing your carotid"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Bridge powerfully toward the trapped arm side during the grip transition or walk-around phase, pulling the attacker into your closed guard. The guard position eliminates the perpendicular angle and removes the chest compression needed to complete the choke."
+      },
+      {
+        "outcome": "Kesa Gatame/Top",
+        "how": "Retract your near arm during the grip transition window before the attacker can lock the figure-four. The attacker returns to standard Kesa Gatame top position without the arm triangle, and you resume defending the scarf hold from a safer configuration."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the near arm to be driven upward against your own neck without resistance during Kesa Gatame",
+        "consequence": "Your trapped arm becomes the mechanism for your own strangulation, handing the attacker the arm triangle setup without requiring any additional work",
+        "correction": "Actively fight to keep your near arm low by pulling your elbow toward your hip. If the arm is already trapped under the attacker's armpit, work to retract it below your chin line before the attacker initiates the grip switch."
+      },
+      {
+        "error": "Turning away from the attacker when caught in the arm triangle",
+        "consequence": "Turning away gives the attacker the perpendicular angle they need and drives your own shoulder deeper into your carotid, accelerating the choke completion",
+        "correction": "Always turn into the attacker toward the trapped arm side. This flattens the choke angle and prevents your shoulder from compressing your own carotid artery."
+      },
+      {
+        "error": "Waiting too long to defend and trying to escape after the arm triangle is fully locked and sealed with hip down",
+        "consequence": "A fully locked arm triangle with the hip dropped and head sealed is extremely difficult to escape. You waste energy fighting a near-certain submission and risk going unconscious from the blood choke.",
+        "correction": "Defend during the grip transition window when the attacker releases the Kesa Gatame head wrap. This 1-2 second window is when the attacker is most vulnerable. If the arm triangle is fully locked and sealed, tap early rather than risking unconsciousness."
+      },
+      {
+        "error": "Pushing against the attacker's head instead of their hips when trying to create space",
+        "consequence": "Pushing the head does not disrupt the arm triangle mechanics and wastes arm energy that could be used for more effective escape movements like bridging or guard recovery",
+        "correction": "Frame against the attacker's hips and near shoulder to prevent them from walking to the perpendicular angle. Hip frames disrupt the body mechanics that generate the choke, while head pushes do not affect the compressive structure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "How do you recognize that the attacker is transitioning from Kesa Gatame to an arm triangle?",
+        "answer": "The key recognition cue is feeling the attacker's chest weight shift to drive your trapped near arm higher against your own neck, followed by the release of their Kesa Gatame head wrap as they begin threading their arm over yours and behind your neck. You may also feel their hips begin to disengage from the scarf hold angle as they prepare to walk to the perpendicular finishing position. The moment you feel the head wrap release is your best escape window.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the safest way to tap when caught in the Arm Triangle from Kesa Gatame?",
+        "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly and repeatedly. Do not wait to see if you can escape once the choke is locked and sealed - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning. Tapping early prevents injury and allows you to continue training safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "What near-arm positioning prevents the attacker from converting Kesa Gatame into an arm triangle?",
+        "answer": "Keep your near arm below your chin line by actively pulling your elbow toward your hip. The critical mistake is allowing the attacker to drive your forearm or upper arm upward against your own throat or neck. When defending Kesa Gatame, fight to retract the near arm rather than pushing against the attacker's body with it. If the arm is trapped under the attacker's armpit, use bridge-and-hip movement to create space to pull the elbow down rather than accepting the high arm position.",
+        "safety_critical": false
+      },
+      {
+        "question": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options remain?",
+        "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to eliminate the finishing angle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the most common defensive errors that allow the arm triangle transition from Kesa Gatame?",
+        "answer": "The most common error is passively accepting the near arm being driven against your own neck without resistance, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker releases the Kesa Gatame head wrap is the best escape opportunity, and it closes within 1-2 seconds.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition drilling",
+        "focus": "Identifying the transition cues from Kesa Gatame to arm triangle",
+        "description": "Partner performs the Kesa Gatame to arm triangle transition at 25% speed. Practice recognizing each step: chest weight shift on near arm, head wrap release, arm thread behind neck, grip lock, hip walk. Call out each step as you feel it. No resistance, focus purely on building pattern recognition. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Early defense timing",
+        "focus": "Retracting the near arm during the grip transition window",
+        "description": "Partner attempts the grip switch from Kesa Gatame at 50% speed. Practice retracting your near arm below your chin the moment you feel the head wrap release. Alternate between successful retractions and intentional failures where partner locks the arm triangle to build escape recognition. 3-minute rounds."
+      },
+      {
+        "phase": "Phase 3: Escape from locked position",
+        "focus": "Turning into the attacker and disrupting the finishing angle when already caught",
+        "description": "Start with the arm triangle grip already locked from Kesa Gatame but not finished. Partner walks to the angle at 50-70% resistance. Practice turning into the attacker, framing against their hips, and working to recover guard or get to knees. Build timing for when to bridge versus when to turn in. 3-minute rounds."
+      },
+      {
+        "phase": "Phase 4: Live defensive sparring from Kesa Gatame",
+        "focus": "Full-speed defense against all attacks from bottom Kesa Gatame including the arm triangle",
+        "description": "Partner starts in Kesa Gatame top with full offensive options including arm triangle, americana, and kimura attacks. Defend all attacks with emphasis on near-arm positioning awareness to prevent the arm triangle setup. 5-minute rounds, reset on escape or submission."
+      }
+    ]
+  }
+}

@@ -154,6 +154,8 @@ The defender perspective covers the person holding front headlock who must preve
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Front Headlock?</p>
+
 - Opponent's inside hand begins actively fighting your choking arm at the wrist or elbow with increased urgency
 - You feel their outside hand posting firmly against your hip or upper thigh creating a rigid frame
 - A sharp bridge or upward hip bump from underneath temporarily lifts your weight and creates space
@@ -166,6 +168,8 @@ The defender perspective covers the person holding front headlock who must preve
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Front Headlock?</p>
 
 - Maintain constant heavy chest pressure driving down into opponent's upper back to prevent the hip mobility needed for shrimping
 - Control the far shoulder or underhook to prevent the opponent from turning their body during the hip escape
@@ -181,6 +185,8 @@ The defender perspective covers the person holding front headlock who must preve
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Front Headlock?</p>
 
 ### 1. Drop hips and sprawl heavy to kill hip escape movement before it develops
 
@@ -218,6 +224,8 @@ The defender perspective covers the person holding front headlock who must preve
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Front Headlock?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Maintain heavy sprawl pressure with chest driving down into opponent's upper back. Control far shoulder to prevent turning. When you feel the bridge, immediately drop your hips and drive forward to collapse any space before the lateral hip escape develops. Keep your head tight against theirs and your choking arm deep to maintain the controlling position.
@@ -233,6 +241,8 @@ When the opponent's hip escape creates significant angle and full front headlock
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Front Headlock?</p>
 
 ### 1. Maintaining static front headlock without adjusting to opponent's escape attempts
 
@@ -262,6 +272,8 @@ When the opponent's hip escape creates significant angle and full front headlock
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Front Headlock?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying hip escape initiation cues and responding with pressure
 Partner announces when they will attempt the hip escape. Practice recognizing the setup (frame placement, hand fighting) and responding with immediate sprawl pressure. Focus on timing your weight drop to coincide with their bridge rather than reacting late after the shrimp has already begun.
 
@@ -278,26 +290,6 @@ Positional sparring from front headlock with partner attempting all available es
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a hip escape from front headlock bottom?
-**A**: The earliest cue is increased hand fighting activity on your choking arm combined with their outside hand posting firmly on your hip or thigh. This framing action precedes the actual hip escape movement and signals that they are establishing the mechanical prerequisites for the escape. Recognizing this setup phase gives you the maximum reaction time to increase sprawl pressure and shut down the escape before it begins, rather than reacting after they have already generated lateral movement.
-
-**Q2**: How should you adjust your weight distribution when you feel the opponent beginning to bridge underneath you?
-**A**: Immediately drop your hips lower and drive your chest forward into their upper back, counteracting the upward force of their bridge. Spread your legs wider for a more stable sprawl base and dig your toes into the mat for traction. The goal is to make your weight feel heavier during the exact moment they are trying to create space. Do not lift your hips or shift backward, as this creates the exact space they need for the lateral hip escape that follows the bridge.
-
-**Q3**: When should you abandon front headlock retention and transition to side control during an opponent's hip escape?
-**A**: Transition to side control when the opponent has achieved enough lateral angle that your chest is no longer driving directly into their upper back and your head control has become loose. This typically occurs when their hips have moved more than twelve inches laterally and they begin inserting a knee frame. At this point, maintaining front headlock control becomes a losing battle and the superior strategic choice is capitalizing on their turned hips to advance to side control by stepping over their body while maintaining shoulder pressure to prevent guard closure.
-
-**Q4**: What is the primary risk of attempting to finish a guillotine as the opponent hip escapes?
-**A**: The primary risk is that the lateral hip movement changes the angle such that the guillotine loses its choking pressure, while your commitment to the submission grip prevents you from maintaining positional control. You end up with a loose guillotine that does not threaten a finish while the opponent completes their guard recovery. Worse, if they close their guard while you still have the guillotine grip, they may use it against you by controlling your posture. Only commit to the guillotine if you can lock it tight before the hip escape creates significant angle change.
-
-
-
-</section>
 
 
 </main>

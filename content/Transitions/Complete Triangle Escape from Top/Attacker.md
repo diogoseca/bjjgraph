@@ -194,6 +194,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Complete Triangle Escape from Top?</p>
+
 - Address the choke first by creating breathing space at the neck through chin positioning and shoulder pressure before attempting any other escape action
 - Recover vertical posture through spine alignment and leg drive to fundamentally change the choking angle geometry
 - Control opponent's hips with your free hand to prevent the angle optimization that transforms marginal triangles into finishing positions
@@ -209,6 +211,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Complete Triangle Escape from Top?</p>
+
 - Identify which arm is trapped and establish defensive elbow position pinned tight against your ribs to prevent armbar isolation
 - Secure free hand posting position on the mat or directly on opponent's hip for base and angle control
 - Assess triangle tightness and ankle lock depth to determine whether standing break, stacking, or circling should be prioritized
@@ -221,6 +225,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Complete Triangle Escape from Top step by step?</p>
 
 1. **Create Emergency Breathing Space**: Immediately tuck your chin into the crook of the choking leg and use your trapped shoulder to wedge a pocket of space between the leg and your neck. Press your chin toward your trapped arm's shoulder to reduce carotid compression. This prevents blood flow restriction from reaching critical levels and preserves consciousness for the systematic escape phases.
 2. **Recover Structural Posture**: Drive your head upward while straightening your spine, generating upward force from your knees and toes rather than pulling with your back muscles alone. Your goal is a vertical spine with head directly over hips. This posture change reduces the effective choking angle dramatically because the triangle depends on your head being pulled forward and down into the opponent's hips to create maximum arterial compression.
@@ -251,6 +257,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Complete Triangle Escape from Top?</p>
+
 - **Opponent pulls head down forcefully with both hands to re-break posture during recovery phase** (Effectiveness: High) - Your Response: Drive upward from your legs rather than pulling with your back. Walk your knees forward to create a stronger base angle while continuing upward posture drive. If they maintain strong pulling, stand up in base to use full leg power against their arm strength. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent scoots hips laterally and re-angles to re-tighten triangle as you begin circling** (Effectiveness: High) - Your Response: Increase downward pressure on their hip with your free hand to pin them in place. Match their lateral movement by accelerating your circling steps. If they continue adjusting, switch to the shoulder pin variant to immobilize their rotation axis. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent transitions to armbar by pivoting hips and isolating the trapped arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned tight to your ribs throughout the escape. If they begin the armbar pivot, drive forward into the rotation and stack aggressively to prevent them from extending your arm. Turn toward the trapped arm side and use the stacking momentum to pass. → Leads to [[Positions/Triangle Escape Position]]
@@ -262,6 +270,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Complete Triangle Escape from Top?</p>
 
 ### 1. Pulling trapped arm straight out with force instead of using circular extraction after creating space
 
@@ -301,6 +311,8 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Complete Triangle Escape from Top (Attacker)?</p>
+
 **Phase 1: Mechanical Foundation** - Individual escape phase execution
 Practice each escape phase in isolation with a cooperative partner. Drill posture recovery, hip control establishment, circling direction, and arm extraction separately at zero resistance. Build correct movement patterns for each phase before chaining them together. Minimum 50 repetitions per phase.
 
@@ -318,48 +330,12 @@ Positional sparring starting from locked triangle position with full resistance 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent momentarily loosens their figure-four lock to readjust their ankle position - what should you do?
-**A**: This momentary loosening creates the primary extraction window. Immediately drive your posture upward and accelerate your circling toward the trapped arm side. Use this brief structural weakness to initiate arm extraction with a circular pulling motion while maintaining forward stacking pressure. These readjustment windows last fractions of a second and must be exploited instantly - hesitation allows the opponent to re-secure a tighter lock.
-
-**Q2**: What conditions must be established before attempting the arm extraction phase of the escape?
-**A**: You must have recovered vertical posture with spine aligned and head over hips, established hip control with your free hand preventing angle optimization, and completed sufficient circular stepping toward the trapped arm side to open the triangle structure. Attempting extraction before these conditions are met predictably tightens the choke and creates armbar vulnerability. The space created through posture, hip control, and circling is what makes extraction mechanically possible.
-
-**Q3**: As you begin circling toward your trapped arm side, your opponent scoots their hips laterally to re-angle - how do you counter this adjustment?
-**A**: Increase downward pressure on their hip with your free hand to pin them against the mat and restrict lateral movement. Simultaneously accelerate your circling steps to outpace their angle adjustment. If they continue successfully scooting despite your hip pressure, switch to the shoulder pin variant by pressing their far shoulder to the mat with your free hand, which immobilizes their rotation axis and prevents further angle correction.
-
-**Q4**: What is the most common reason triangle escapes fail during the posture recovery phase?
-**A**: Attempting to recover posture using back muscles alone rather than generating upward force from the legs. Pulling upward with the back is easily countered by the opponent's combined arm pulling and leg squeezing. The correction is driving posture recovery from the knees and toes, walking the knees forward to create a steeper angle, and using the entire posterior chain to generate structural upward force that the opponent's arms cannot overcome.
-
-**Q5**: What are the optimal hand positions throughout the complete escape sequence?
-**A**: The trapped arm should maintain its elbow pinned tightly against your ribs with the hand positioned near your own chest throughout the entire escape to prevent armbar isolation. The free hand starts posted on the mat for base during initial space creation, then transfers to the opponent's hip or inner thigh for angle control during posture recovery and circling phases, and finally releases to assist with leg clearance and guard passing after arm extraction is complete.
-
-**Q6**: In which direction should your primary stacking pressure be applied during the escape?
-**A**: Your stacking pressure should drive forward and downward through your chest and hips, directing force along a vector that pushes the opponent's legs toward their head and compresses their hips onto their shoulders. This is not simply leaning forward, which compromises your base. The pressure comes from hip drive generated through your legs while maintaining a wide, stable knee base. The downward component prevents hip elevation while the forward component compresses the triangle structure.
-
-**Q7**: Your opponent pulls your head down forcefully with both hands while squeezing their legs tighter - what is your immediate response?
-**A**: Drive upward from your legs by pushing through your toes and walking your knees forward underneath you, creating a stronger mechanical base angle for posture recovery. Do not try to pull your head up with neck muscles against their arm strength. Stack your weight forward over their hips to compromise their pulling leverage. If their grip remains too strong, stand up in base to use your full leg power against their arm pulling, which dramatically changes the force equation in your favor.
-
-**Q8**: After extracting your arm and clearing the triangle, what should your immediate next action be?
-**A**: Immediately transition into a guard passing sequence without any pause or reset. The opponent's legs are disorganized and their hips are compressed from your stacking pressure, creating an ideal two to three second passing window. Drive into a stack pass by continuing your forward pressure, or transition to a toreando by controlling both legs and redirecting them to one side. Any hesitation allows the opponent to recover guard structure and re-establish defensive grips.
-
-**Q9**: Why must you circle toward the trapped arm side rather than away from it during the escape?
-**A**: Circling toward the trapped arm side opens the triangle structure from the inside by moving your body out of alignment with the choking leg geometry. The triangle's structural integrity depends on your head and trapped arm being positioned perpendicular to the opponent's hips. Moving toward the trapped arm side rotates you parallel to their legs, loosening the lock. Moving away feeds your head deeper into the choking angle the opponent has optimized, tightening the triangle with each step.
-
-**Q10**: Your first posture recovery attempt fails and the opponent breaks you back down with strong collar control - how do you reset and try again?
-**A**: Immediately re-establish your trapped arm position with elbow pinned to ribs and replant your free hand posting position for base. Take one controlled breath to stabilize rather than immediately exploding into another attempt. Reinitiate posture recovery with emphasis on walking your knees forward first to create a steeper base angle before driving upward, generating force from your legs rather than back. Each recovery attempt should start from fundamentals rather than continuing a failed sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Complete Triangle Escape from Top?</p>
 
 Triangle escape training requires clear communication between partners about pressure levels and tightness of the choke. Tap immediately if you experience vision narrowing, darkening, or lightheadedness indicating blood flow restriction reaching dangerous levels. When drilling stacking escapes, be conscious of your partner's cervical spine position as aggressive stacking can compress the neck dangerously. Always apply stacking pressure gradually and release immediately if your partner signals discomfort. Partners applying triangles during escape drilling should moderate their squeeze to training-appropriate levels that allow time for learning the escape mechanics. Never resist a tap from your training partner, and establish clear verbal and physical tap signals before beginning any triangle escape drilling session.
 

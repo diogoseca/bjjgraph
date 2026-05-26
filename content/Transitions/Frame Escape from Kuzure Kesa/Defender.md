@@ -154,6 +154,8 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame Escape from Kuzure Kesa?</p>
+
 - Bottom person's free arm begins moving toward your hip to establish a forearm frame contact point
 - Bottom person plants both feet flat on the mat with knees bent, indicating preparation for hip escape or bridge
 - Bottom person's breathing pattern shifts to controlled deep breaths, signaling mental preparation for an escape attempt
@@ -165,6 +167,8 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame Escape from Kuzure Kesa?</p>
 
 - Maintain constant hip pressure to deny the space needed for hip escapes and frame establishment
 - Stay low with chest parallel to the mat to prevent effective framing against your shoulder or torso
@@ -179,6 +183,8 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame Escape from Kuzure Kesa?</p>
 
 ### 1. Drive hip pressure through the frame before it establishes structural position
 
@@ -216,6 +222,8 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame Escape from Kuzure Kesa?</p>
+
 ### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Maintain constant hip pressure and low chest position. Immediately address frames before they establish structural position by driving through them or re-angling. Use micro-adjustments to prevent timing windows for hip escapes.
@@ -231,6 +239,8 @@ When the bottom person creates space during escape attempts, convert that space 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame Escape from Kuzure Kesa?</p>
 
 ### 1. Sitting upright to fight the frame with arms instead of maintaining low chest pressure
 
@@ -260,6 +270,8 @@ When the bottom person creates space during escape attempts, convert that space 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame Escape from Kuzure Kesa?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues
 Partner attempts frame escape at slow speed. Focus on recognizing the moment their free arm begins moving toward your hip and their feet plant for hip escape. Develop early detection habits before the escape gains momentum.
 
@@ -276,26 +288,6 @@ Positional sparring where partner attempts all available escapes including frame
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent establishes a forearm frame against your hip - what is your immediate response?
-**A**: Drop your weight lower and drive your hip pressure through the frame at an angle rather than straight into it. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is solidly established already, transition to attacking the framing arm rather than trying to collapse the frame through pressure alone.
-
-**Q2**: Your opponent successfully hip escapes and begins threading their knee between your bodies - how do you respond?
-**A**: You have two options depending on how much space exists. If the knee has not yet crossed your centerline, drive your hip back into the space and use your hand to push their knee down and away. If the knee is already establishing a shield, immediately transition to mount by sliding your knee across their belly before the half guard is fully secured, converting their escape into your positional advancement.
-
-**Q3**: When should you transition to mount versus maintaining Kuzure Kesa-Gatame during an escape attempt?
-**A**: Transition to mount when the bottom person creates space by turning their hips away from you during the escape. Their turning motion opens the lane for your knee to slide across. Maintain Kuzure Kesa-Gatame when you can shut down the escape through pressure re-establishment and the bottom person has not created significant lateral space. The decision point is whether you can close the gap faster than they can insert their knee.
-
-**Q4**: How does your head position help prevent the frame escape?
-**A**: Keep your head on the far side of the opponent's body past their shoulder line. This redirects any bridge force across your body rather than over your base, and it prevents the bottom person from using frames against your neck or jaw for leverage. The head position also provides a counterbalance when they attempt to create angles with hip escapes, maintaining your weight distribution across a wider and more stable base.
-
-
-
-</section>
 
 
 </main>

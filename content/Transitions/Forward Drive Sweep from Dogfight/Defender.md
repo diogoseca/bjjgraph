@@ -154,6 +154,8 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Forward Drive Sweep from Dogfight?</p>
+
 - Opponent deepens their underhook significantly, reaching toward your far shoulder rather than maintaining a shallow grip at your near hip
 - Opponent's free hand moves across to control your far hip, belt, or far knee rather than maintaining a defensive frame
 - Opponent shifts their weight forward through the underhook with their head driving into your chest below chin level
@@ -166,6 +168,8 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Forward Drive Sweep from Dogfight?</p>
 
 - Recognize the sweep setup before momentum builds - defend the prerequisites rather than the completed technique
 - Maintain active whizzer pressure pulling downward and backward to limit the depth and effectiveness of the opponent's underhook
@@ -181,6 +185,8 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Forward Drive Sweep from Dogfight?</p>
 
 ### 1. Sprawl hips back and drive whizzer pressure downward to kill forward momentum
 
@@ -218,6 +224,8 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Forward Drive Sweep from Dogfight?</p>
+
 ### → [[Positions/Dogfight Position]]
 
 Use whizzer pressure and base to absorb the forward drive, then immediately counter-attack during the opponent's recovery phase by re-flattening them with crossface or attempting to pass their half guard.
@@ -233,6 +241,8 @@ Establish a strong crossface during the sweep attempt and use the opponent's for
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Forward Drive Sweep from Dogfight?</p>
 
 ### 1. Reacting to the sweep only after the opponent has generated full forward momentum
 
@@ -262,6 +272,8 @@ Establish a strong crossface during the sweep attempt and use the opponent's for
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Forward Drive Sweep from Dogfight?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues through tactile and visual feedback
 Partner slowly sets up the forward drive sweep from Dogfight while you practice identifying each setup cue: underhook deepening, far-side hand reaching, head lowering, posting leg repositioning. Call out each cue as you feel it. Build pattern recognition before adding defensive responses.
 
@@ -278,26 +290,6 @@ Positional sparring starting from Dogfight where partner attempts all available 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the Forward Drive Sweep from Dogfight?
-**A**: The earliest cue is the opponent deepening their underhook significantly toward your far shoulder, combined with their free hand reaching across to control your far hip or knee. These grip changes precede the actual drive by one to two seconds and represent the setup phase where defensive intervention is most effective. A shallow underhook at the near hip cannot generate forward drive sweep mechanics, so the deepening of the grip is the critical early warning signal.
-
-**Q2**: Your opponent has established a deep underhook and begins loading forward pressure - what is your immediate defensive priority?
-**A**: Your immediate priority is establishing base stability through hip sprawl and far-leg posting before the opponent generates full momentum. Drop your hips back and widen your far leg simultaneously while increasing downward whizzer pressure. The goal is to create a stable tripod base that prevents toppling within the first half-second of their forward drive. Attempting to strip the underhook at this stage is too slow and risks losing the base battle entirely.
-
-**Q3**: How does your whizzer positioning change when defending the forward drive versus defending a back take attempt?
-**A**: Against the forward drive, your whizzer should pull downward and slightly backward to counteract the opponent's upward and forward driving force through the underhook. Against a back take, the whizzer must grip tighter and pull the opponent's arm across your body to prevent them from circling behind you. The directional pull is fundamentally different - anti-forward-drive whizzer pulls down to kill elevation, while anti-back-take whizzer pulls inward to prevent hip clearing.
-
-**Q4**: What counter-attack opportunity opens when you successfully defend the Forward Drive Sweep?
-**A**: After defending the sweep, the opponent is momentarily off-balance from their failed forward commitment. This creates a window to crossface aggressively and drive them back to flattened half guard, attempt to strip the underhook while they recover their base, or begin passing their half guard by pressuring forward through their compromised posture. The key is attacking immediately during their recovery phase rather than allowing them to reset to a neutral dogfight position where they can attempt the sweep again.
-
-
-
-</section>
 
 
 </main>

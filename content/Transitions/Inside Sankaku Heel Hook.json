@@ -14,7 +14,7 @@
   "from_position": "Inside Sankaku/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inside Heel Hook",
       "probability": 50,
       "result": "success"
     },
@@ -71,7 +71,7 @@
       "relationship": "Same submission from the alternative name position"
     },
     {
-      "name": "Inside Sankaku Heel Hook Finish",
+      "name": "Inside Heel Hook",
       "relationship": "Submission finish page for this technique"
     },
     {
@@ -244,7 +244,7 @@
         "description": "Full positional sparring starting from established Inside Sankaku. Attacker works to finish the heel hook while defender uses all available escapes and counters. Develop timing for when to commit to the finish versus when to re-establish control. Build competition-level finishing ability with appropriate safety awareness."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent is actively hiding their heel by pressing it against their hip—what systematic approach do you use to force exposure?",
         "answer": "Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another."
@@ -366,7 +366,7 @@
         "correction": "Develop the discipline to tap immediately when you feel rotational pressure on a fully gripped heel. Train tap recognition as deliberately as you train technique. There is no submission worth a destroyed knee."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct defensive priority sequence when trapped in Inside Sankaku facing a heel hook attempt?",
         "answer": "The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements."
@@ -400,7 +400,7 @@
         "description": "Partner attempts to expose and grip the heel at moderate intensity while you maintain the hidden heel position. Practice the physical mechanics of pressing your heel against your hip, turning toes inward, and using your hand to assist heel protection. Build the muscle memory so heel hiding becomes automatic upon entering any leg entanglement."
       },
       {
-        "phase": "Phase 3: Active Grip Fighting",
+        "phase": "Phase 3: Active Grips",
         "focus": "Developing two-on-one grip strip technique",
         "description": "Partner establishes initial grip contact and you practice stripping it with two-on-one defense. Progress from slow and cooperative to moderate resistance. Learn to immediately re-hide the heel after each successful grip strip. Develop the ability to chain multiple grip defense rounds without losing composure or positional awareness."
       },

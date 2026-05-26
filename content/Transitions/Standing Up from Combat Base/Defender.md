@@ -162,6 +162,8 @@ As the defender against the stand-up from combat base, your objective is to prev
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Up from Combat Base?</p>
+
 - Top player begins stripping your collar and sleeve grips while maintaining downward pressure on your legs, signaling preparation to stand
 - Top player shifts weight predominantly onto the planted foot in combat base, loading it as a drive point for elevation
 - Top player's hands move to grip your pants at the knee line or ankle, establishing leg control before standing
@@ -174,6 +176,8 @@ As the defender against the stand-up from combat base, your objective is to prev
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Up from Combat Base?</p>
 
 - Maintain at least one strong pulling grip on the collar or sleeve at all times to provide the ability to resist or collapse the stand-up attempt
 - Recognize the stand-up preparation cues early and act during the transition window before the standing position is consolidated
@@ -188,6 +192,8 @@ As the defender against the stand-up from combat base, your objective is to prev
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Up from Combat Base?</p>
 
 ### 1. Establish strong collar grip and pull downward during the elevation to collapse posture and prevent standing
 
@@ -225,6 +231,8 @@ As the defender against the stand-up from combat base, your objective is to prev
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Up from Combat Base?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a De La Riva hook entry or single leg attack during the transition window when the opponent lifts their posted knee off the mat. The brief squat position during the stand-up creates a mechanical disadvantage where pulling attacks and leg entanglements are most effective. Drive your hook or single leg grip forward to collapse their base before they achieve full standing extension.
@@ -240,6 +248,8 @@ Maintain a strong pulling grip on the opponent's collar throughout their stand-u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Up from Combat Base?</p>
 
 ### 1. Remaining flat on your back with no active grips as the opponent stands up unchallenged
 
@@ -269,6 +279,8 @@ Maintain a strong pulling grip on the opponent's collar throughout their stand-u
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Up from Combat Base?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stand-up preparation cues
 Partner alternates between genuine stand-up attempts and feints from combat base. Defender calls out when they recognize a genuine stand-up attempt versus a passing feint. Develop the ability to distinguish preparatory grip changes and weight shifts that signal the stand-up from normal combat base adjustments.
 
@@ -285,29 +297,6 @@ Start with top player in combat base and bottom player in open guard at full res
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is preparing to stand up from combat base?
-**A**: The earliest cue is the top player beginning to strip your collar and sleeve grips while maintaining or establishing control on your pants. This grip exchange signals their intention to remove your pulling connections before committing to the elevation. The moment you feel them actively breaking your upper body grips while their hands move toward your legs, you should immediately tighten your existing grips and prepare your counter before they complete the grip transition.
-
-**Q2**: Why is the squat phase of the opponent's stand-up the optimal window for your counter attack?
-**A**: During the squat phase, the opponent has both feet on the mat but their center of gravity is transitioning between the kneeling base and standing base. This creates a brief moment of reduced stability where they are neither settled in combat base nor established in standing. Their legs are bent under load, making them vulnerable to pulling attacks and hook entries that can collapse their base forward or laterally. Once they reach full standing extension, their base widens and their center of gravity stabilizes, making counters significantly harder.
-
-**Q3**: The opponent has successfully stood up and broken all your grips - what is your immediate defensive priority?
-**A**: Your immediate priority is to establish feet-on-hips connection to manage distance and prevent the opponent from controlling your legs for a passing sequence. Bring both feet to their hips or thighs to create a frame that keeps them at arm's length. From this position, work to re-establish collar or sleeve grips while using your feet to control their forward movement. This buys time to transition into an organized distance guard like De La Riva, collar-sleeve, or spider guard rather than being passed from a flat, gripless position.
-
-**Q4**: Your collar grip is strong but the opponent is powering through the stand-up anyway - should you maintain the grip or abandon it?
-**A**: Maintain the grip and use it to transition rather than abandoning it. As the opponent stands, convert the collar grip into a guard pull entry by pulling your hips toward them while inserting a foot on their hip or threading a De La Riva hook. The collar grip becomes the anchor for your new guard establishment rather than purely a pulling tool. Abandoning a strong grip leaves you without connection in a worse position. The grip's value shifts from preventing the stand to facilitating your guard transition.
-
-**Q5**: How does defending the stand-up differ in no-gi versus gi contexts?
-**A**: In gi, collar and sleeve grips provide strong persistent connections that can physically resist the stand-up through pulling force. The defensive focus is on maintaining these textile grips throughout the transition. In no-gi, wrist control and collar ties provide weaker pulling connections that are easier for the opponent to strip. The no-gi defense shifts emphasis toward leg-based counters—shin-to-shin entries, ankle picks during the squat phase, and underhook sit-ups for single leg attacks. Without gi grips, the defender must be more proactive with physical interception rather than relying on pulling resistance.
-
-
-
-</section>
 
 
 </main>

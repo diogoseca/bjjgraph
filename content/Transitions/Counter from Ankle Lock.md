@@ -42,7 +42,7 @@ Execution demands a disciplined two-phase approach. Phase one is pure defense: e
 | Success | [[Positions/Side Control]] | 40% |
 | Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
-| Counter | [[game-over]] | 15% |
+| Counter | [[Submissions/Straight Ankle Lock]] | 15% |
 
 
 </section>

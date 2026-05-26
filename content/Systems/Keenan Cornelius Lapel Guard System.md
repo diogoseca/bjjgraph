@@ -339,14 +339,14 @@ The lapel guard system requires a structured drilling progression that builds fr
 - [[Lasso Guard Pass]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
 - [[Back Take]] (Transition) - General back taking principles applied through lapel control advantages
 - [[Triangle to Back]] (Transition) - Secondary attacking sequence available from certain lapel entanglements
-- [[Grip Strategy]] (Principle) - Fundamental principle governing all lapel control and fighting sequences
+- [[Grips]] (Principle) - Fundamental principle governing all lapel control and fighting sequences
 - [[Collar Control]] (Principle) - Core control principle that extends to lapel manipulation and grip fighting
-- [[Guard Retention]] (Principle) - Primary defensive objective achieved through systematic lapel guard application
-- [[Grip Fighting]] (Principle) - Essential skill for establishing and maintaining lapel-based controls
+- [[Defensive Concepts]] (Principle) - Primary defensive framework achieved through systematic lapel guard application and retention
+- [[Grips]] (Principle) - Essential skill for establishing and maintaining lapel-based controls
 - [[Connection Principles]] (Principle) - Biomechanical foundations explaining why lapel controls create superior leverage
-- [[Off-Balancing]] (Principle) - Fundamental sweeping principle amplified through lapel tension mechanics
-- [[System Building]] (Principle) - Meta-principle guiding how individual positions connect into cohesive frameworks
-- [[Sweep Mechanics]] (Principle) - Technical foundation for all offensive attacks from lapel guard positions
+- [[Posture]] (Principle) - Fundamental off-balancing principle amplified through lapel tension mechanics
+- [[Position Chains]] (Principle) - Meta-principle guiding how individual positions connect into cohesive systematic frameworks
+- [[Kuzushi]] (Principle) - Technical foundation for all offensive attacks from lapel guard positions
 - [[Triangle Choke]] (Submission) - Submission opportunity available from certain lapel entanglement configurations
 - [[Omoplata]] (Submission) - Alternative submission path when opponent defends sweeps predictably
 - [[Gi-Specific Strategy]] (System) - Broader strategic framework that encompasses lapel guard as key component

@@ -15,7 +15,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Short Choke",
       "probability": 55,
       "result": "success"
     },
@@ -48,7 +48,7 @@
       "relationship": "Alternative choke - standard RNC if Short Choke entry is blocked"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Chain attack - available when opponent uses free arm to defend choke"
     },
     {
@@ -204,7 +204,7 @@
         "description": "Start from back control without Gift Wrap and work the complete sequence: establish Gift Wrap, attack Short Choke, handle defensive reactions, chain to secondary attacks. Partner resists fully throughout entire sequence."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Short Choke Attack?",
         "answer": "The primary goal is to achieve a blood choke finish by threading your free arm under the opponent's chin and connecting to your Gift Wrap controlling arm in a figure-four configuration. The trapped arm becomes part of the choking structure, creating compression on both carotid arteries that produces unconsciousness if not released."
@@ -335,7 +335,7 @@
         "correction": "Begin active defense during the setup phase - fight to recover the trapped arm, create angles with hip movement, and disrupt the attacker's positioning before they commit to the choke entry."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive priority when you recognize the Short Choke Attack is being set up?",
         "answer": "The first priority is establishing and maintaining a tight chin tuck to seal the space under your chin. This is your most immediate and effective defense because once the attacker's arm threads under the chin, the choke becomes exponentially harder to stop. Chin protection must come before trapped arm recovery, positional escapes, or any other defensive action."

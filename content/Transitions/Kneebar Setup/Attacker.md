@@ -16,7 +16,7 @@ description: "How to execute Kneebar Setup in BJJ. Attacking perspective with se
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kneebar Setup in BJJ",
-  "description": "Step-by-step guide for executing Kneebar Setup from Outside Ashi-Garami/Bottom.",
+  "description": "Step-by-step guide for executing Kneebar Setup from Outside Ashi-Garami/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,13 +184,15 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Kneebar Setup?</p>
 
 - Use opponent's forward pressure as the entry trigger rather than fighting against their stack
 - Control both hip and ankle simultaneously to prevent rotation and escape before applying any extension
@@ -207,6 +209,8 @@ This transition is particularly effective because it punishes one of the most co
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kneebar Setup?</p>
+
 - Established Outside Ashi-Garami with tight figure-4 leg configuration around opponent's leg
 - Opponent driving forward with pressure or extending leg to defend heel hook attempt
 - Control of opponent's hip preventing them from rotating away during transition
@@ -220,6 +224,8 @@ This transition is particularly effective because it punishes one of the most co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kneebar Setup step by step?</p>
 
 1. **Recognize trigger**: Identify when opponent drives forward into your outside ashi or straightens their leg to defend heel hook—this leg extension creates the kneebar opportunity
 2. **Release heel grip**: Release your heel hook grip and transition your hands to control the ankle and lower leg, securing the foot against your chest or shoulder with toes pointing toward ceiling
@@ -249,6 +255,8 @@ This transition is particularly effective because it punishes one of the most co
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kneebar Setup?</p>
+
 - **Opponent bends knee deeply to prevent hyperextension and begins rotating to face you** (Effectiveness: High) - Your Response: If knee bends before you secure position, immediately transition back to heel hook or flow to calf slicer by bringing your leg over their calf → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **Opponent grabs their own leg and pulls knee toward chest to relieve pressure** (Effectiveness: Medium) - Your Response: Increase hip elevation and pull ankle harder, or if grip is strong, switch to inside heel hook by rotating and attacking the now-exposed heel → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **Opponent rolls through the kneebar attempting to relieve pressure and escape** (Effectiveness: Medium) - Your Response: Follow the roll maintaining leg control, often ending in a mounted or top position kneebar with improved leverage → Leads to [[Positions/Kneebar Control]]
@@ -260,6 +268,8 @@ This transition is particularly effective because it punishes one of the most co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kneebar Setup?</p>
 
 ### 1. Releasing leg control during body rotation transition
 
@@ -299,6 +309,8 @@ This transition is particularly effective because it punishes one of the most co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kneebar Setup (Attacker)?</p>
+
 **Week 1-2** - Position mechanics
 Practice the body rotation and leg positioning with a stationary partner. Focus on maintaining figure-4 leg control while transitioning perpendicular. Drill ankle control and foot alignment with no resistance. 50+ repetitions per side.
 
@@ -316,48 +328,12 @@ Positional sparring starting from outside ashi. Partner works legitimate escapes
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Kneebar Setup from Outside Ashi-Garami?
-**A**: The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended.
-
-**Q2**: What triggers indicate the optimal timing to attempt the Kneebar Setup?
-**A**: The two primary triggers are: opponent driving forward to stack or smash your outside ashi position (their leg naturally extends under pressure), and opponent straightening their leg to defend a heel hook attempt (removes knee flexion that would prevent kneebar). Both scenarios create the extended leg necessary for hyperextension.
-
-**Q3**: Your opponent grabs their own knee and pulls it toward their chest while you attempt the kneebar—what adjustment should you make?
-**A**: Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity.
-
-**Q4**: Why is controlling the foot position with toes pointing toward the ceiling critical for the kneebar finish?
-**A**: Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension.
-
-**Q5**: How does hip elevation generate finishing force rather than arm strength?
-**A**: Your hips drive forward and upward into the back of the opponent's knee, creating the hyperextension force through your body's largest muscle groups. Arms only maintain ankle position—they don't pull to create pressure. This is mechanically superior because hip drive is sustainable and powerful, while arm strength fatigues quickly.
-
-**Q6**: What should you do if the opponent bends their knee deeply before you secure the kneebar position?
-**A**: A deeply bent knee cannot be hyperextended. Immediately transition back to heel hook if their heel is exposed, or flow to calf slicer by bringing your leg over their calf and triangling. Never waste energy attempting to straighten a bent knee—use their defense as a trigger for your next attack in the chain.
-
-**Q7**: Why must you maintain figure-4 leg control throughout the body rotation transition?
-**A**: The figure-4 leg configuration prevents the opponent from extracting their leg during the transition. If you release leg pressure while rotating, opponents immediately pull their leg free and recover position. Your legs should squeeze continuously—the rotation happens within the maintained leg lock, not by releasing and re-engaging.
-
-**Q8**: Your opponent begins rolling through your kneebar attempt—should you release or follow?
-**A**: Follow the roll while maintaining ankle and leg control. Rolling often improves your position rather than escaping the submission—you may end up in a mounted or top-position kneebar with superior leverage. Release only if maintaining control would expose you to counter attack or injury.
-
-**Q9**: How does the kneebar integrate with heel hook attacks from outside ashi?
-**A**: The kneebar and heel hook form a submission chain where defending one creates opportunity for the other. Opponents defending heel hooks often straighten their leg to hide the heel—this extension sets up the kneebar. Conversely, bending the knee to defend kneebar exposes the heel. Flowing between these attacks makes defense extremely difficult.
-
-**Q10**: What grip transition must occur when switching from heel hook threat to kneebar setup?
-**A**: Your hands must release the heel cup grip used for the heel hook and transition to controlling the ankle and lower leg area. The foot gets secured against your chest or shoulder with both hands wrapping the ankle. This grip change must happen smoothly during the body rotation—any delay allows the opponent to retract their leg before you establish kneebar control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kneebar Setup?</p>
 
 The kneebar attacks the knee joint through hyperextension, which can cause severe ligament damage (ACL, PCL, MCL) if applied too quickly or without proper control. In training, apply pressure gradually and progressively—never explosively. Partners should tap early when they feel the extension begin, not wait for pain. The knee joint provides less warning than shoulder or elbow joints before injury occurs. Avoid this technique if your partner has pre-existing knee injuries. Never attempt to straighten a bent knee by force. When drilling, establish clear communication about pressure levels. In competition, be prepared for opponents who do not tap—release rather than cause permanent injury. This technique should only be trained in environments where leg locks are permitted and partners understand the risks involved.
 

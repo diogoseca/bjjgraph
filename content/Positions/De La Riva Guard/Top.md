@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 74% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 ## Position Definition
 
+<p class="section-subtitle">What is De La Riva Guard (Top)?</p>
+
 - Bottom player has DLR hook active behind top player's leg, creating off-balancing leverage with their shin or foot pressuring behind the knee or thigh, establishing the fundamental mechanical disadvantage for the top player
 - Bottom player maintains distance control through legs or grips, typically controlling the top player's ankle, pants, or belt with their hands while their free leg creates frames or distance management, preventing immediate passing pressure
 
@@ -180,6 +182,8 @@ The most effective DLR passers develop a systematic approach that addresses each
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing De La Riva Guard (Top)?</p>
 
 - Understanding of DLR guard mechanics and sweep threats including berimbolo, waiter sweep, and forward sweeps that exploit the hook's off-balancing power
 - Good base and balance to resist off-balancing, particularly against forward pressure from the DLR hook combined with ankle grip pulling force
@@ -192,11 +196,13 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from De La Riva Guard?</p>
+
 - Posture Maintenance: Stay upright with chest elevated and hips back to prevent forward sweeps and maintain balance against the DLR hook's off-balancing attempts
-- Grip Fighting: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism
+- Grips: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism
 - Hook Removal: Neutralize the DLR hook through pressure, leg positioning, or strategic movement to remove the bottom player's primary control point
 - Hip Control: Don't allow bottom player to maintain optimal hip angle perpendicular to you, as this angle maximizes their sweeping power and berimbolo entries
-- Pressure Application: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery
+- Pressure: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery
 - Distance Management: Choose decisively between extending distance to weaken the guard structure or collapsing space to nullify the hook's leverage
 
 
@@ -205,6 +211,8 @@ The most effective DLR passers develop a systematic approach that addresses each
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from De La Riva Guard (Top)?</p>
 
 **If opponent maintains strong DLR hook with ankle grip and perpendicular hip angle:**
 - Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
@@ -233,6 +241,8 @@ The most effective DLR passers develop a systematic approach that addresses each
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from De La Riva Guard?</p>
 
 ### 1. Leaning forward over opponent with poor posture and head position ahead of hips
 
@@ -272,6 +282,8 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train De La Riva Guard attacks?</p>
+
 ### DLR Hook Removal Drill
 
 Partner establishes DLR hook with ankle grip. Top player practices three different hook removal methods: backstep to remove hook, pressure non-hooked leg across body while circling away from hook, and forward pressure to flatten hips and strip hook. Focus on maintaining posture throughout. Reset after each successful removal.
@@ -279,7 +291,7 @@ Partner establishes DLR hook with ankle grip. Top player practices three differe
 **Duration**: 5 minutes per method
 
 
-### Grip Fighting Flow Drill
+### Grips Flow Drill
 
 Bottom player establishes DLR with various grips (ankle, pants, belt, collar). Top player drills grip strips, counter-grips, and grip-fighting sequences while maintaining good posture and base. Bottom player actively fights to maintain grips. Practice transitions from successful grip breaks into passing entries.
 

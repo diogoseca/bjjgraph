@@ -188,6 +188,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Zombie?</p>
+
 - Time the lockdown release to the moment when the opponent is least prepared to advance - during a grip adjustment, weight shift, or pause in their pressure sequence
 - Coordinate lockdown release with simultaneous frame establishment so that upper body control replaces lower body entanglement without a gap
 - Use the lockdown release motion to generate the hip escape momentum needed to create angle for closed guard closure
@@ -203,6 +205,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Zombie?</p>
+
 - Overhook or collar grip maintained on at least one side to retain upper body connection during the lockdown release transition
 - Opponent has not fully broken the Zombie configuration - some remnant of high guard or rubber guard control still exists
 - Hip mobility sufficient to transition from the Zombie's high guard leg position to a standard closed guard crossing at the lower back
@@ -214,6 +218,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Zombie step by step?</p>
 
 1. **Assess Zombie Deterioration Level**: Evaluate how compromised your Zombie position has become. If the opponent has broken your high guard configuration but you still maintain lockdown or overhook control, the position is in the recovery window. If both lockdown and overhook are compromised, the recovery must begin immediately before all control is lost.
 2. **Tighten Overhook Control**: Before releasing the lockdown, secure your overhook or collar grip as tightly as possible. This upper body control will be your primary connection to the opponent during the brief moment when your legs disengage from the Zombie configuration. In gi, grab deep collar behind the neck. In no-gi, cinch the overhook tight against your chest.
@@ -243,6 +249,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Zombie?</p>
+
 - **Opponent explosively postures up the moment the lockdown releases, creating distance before guard can close** (Effectiveness: High) - Your Response: Maintain the overhook grip as an anchor and use it to pull the opponent back down. If they posture out of overhook range, immediately transition to feet-on-hips open guard rather than attempting closed guard against a fully postured opponent. → Leads to [[Positions/Open Guard]]
 - **Opponent drives heavy forward pressure during the lockdown release, attempting to flatten you and advance past your legs** (Effectiveness: High) - Your Response: Use your shoulder frame to redirect their forward pressure past your centerline while hip escaping in the opposite direction. If they flatten you completely, abandon closed guard recovery and work for half guard by trapping their near leg before they can advance to side control. → Leads to [[Positions/Rubber Guard/Zombie]]
 - **Opponent strips your overhook grip during the transition, eliminating your primary upper body connection point** (Effectiveness: Medium) - Your Response: Immediately replace the overhook with a collar grip or wrist control to maintain upper body connection. Speed of guard closure becomes critical - close guard around their torso before they can exploit the grip break to create distance or begin passing. → Leads to [[Positions/Rubber Guard/Zombie]]
@@ -253,6 +261,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Zombie?</p>
 
 ### 1. Releasing the lockdown before establishing a strong overhook or collar grip as the replacement control mechanism
 
@@ -287,6 +297,8 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Zombie (Attacker)?</p>
+
 **Phase 1: Lockdown Release Mechanics** - Coordinating lockdown release with hip escape as a single fluid movement
 From the Zombie position against a stationary partner, practice releasing the lockdown and executing a simultaneous hip escape 20 times per side. Focus on the timing that makes the lockdown release and hip escape feel like one movement rather than two separate actions. No resistance initially - build the motor pattern first.
 
@@ -307,48 +319,12 @@ After successful recovery to closed guard, immediately chain into offensive sequ
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to secure the overhook or collar grip before releasing the lockdown during Zombie guard recovery?
-**A**: The overhook or collar grip provides the upper body control that bridges the transition between the lockdown-based Zombie control and standard closed guard. Without this grip established first, releasing the lockdown creates a moment where no limb controls the opponent - the lockdown legs are disengaged and the arms are not yet controlling. During this gap, the top player can freely posture up, drive forward, or begin passing. The overhook ensures continuous control throughout the transition, replacing lower body entanglement with upper body connection seamlessly.
-
-**Q2**: What is the optimal timing for initiating guard recovery from the Zombie position?
-**A**: The optimal timing is when the Zombie position is deteriorating but not yet fully compromised - specifically, when the opponent has broken the high guard configuration but you still maintain your lockdown and overhook control. At this point, you have sufficient control mechanisms to bridge the transition to closed guard. Waiting until all controls are broken makes recovery significantly harder, while attempting recovery too early abandons a still-functional offensive position unnecessarily. The trigger should be recognizing that the opponent is systematically addressing your controls and will break the position within the next few exchanges.
-
-**Q3**: How does the leg transition from Zombie high guard to standard closed guard differ from a standard guard closure?
-**A**: In the Zombie high guard, your legs are positioned high on the opponent's body - often around their shoulders or upper back - with the lockdown entangling their arm. Transitioning to standard closed guard requires moving your legs significantly downward to wrap around the opponent's waist at hip level. This downward repositioning is unique to Zombie recovery and creates an additional challenge because the legs must travel a greater distance than in standard guard closure. If the guard closes too high, at chest level rather than hip level, the opponent can immediately open it through posture extension.
-
-**Q4**: What should you do if the opponent postures up explosively the moment you release the lockdown?
-**A**: If the opponent creates significant postural distance before guard closure, attempting closed guard against a fully postured opponent is low percentage. Instead, maintain the overhook as an anchor and attempt to pull them back within closing range. If they break the overhook as well, immediately transition to feet-on-hips open guard, establishing distance management through leg extension rather than fighting for closed guard from a disadvantaged position. Open guard with active feet is a higher-percentage recovery position than a half-closed guard against a fully postured opponent.
-
-**Q5**: Why is proactive recovery from a deteriorating Zombie position more effective than reactive recovery from a fully broken position?
-**A**: Proactive recovery preserves control mechanisms - lockdown, overhook, high guard - that can bridge the transition to closed guard. When you initiate recovery while these controls still function, you have anchor points that maintain opponent connection throughout the leg repositioning. Reactive recovery from a fully broken position means all these controls are already gone, forcing you to rebuild connection from scratch against an opponent who is actively passing. The success rate drops dramatically because you must simultaneously establish control and close guard rather than transitioning between two established control systems.
-
-**Q6**: What adjustment should you make if you feel your guard closing too high around the opponent's chest rather than at hip level?
-**A**: If your guard is closing at chest level rather than hip level, actively push your hips away from the opponent while pulling your heels downward along their back. Use the overhook to keep their upper body close while your hips create distance below, which naturally shifts the guard closure point from their chest to their waist. You can also briefly extend your legs against their hips to push yourself lower before recrossing ankles at the correct height. Guard locked at chest level provides almost no hip control and the opponent can open it by simply extending their posture, so this adjustment is critical for a viable recovery.
-
-**Q7**: Your opponent posts their hand on the mat during the lockdown release to stabilize their base - how should you adjust your recovery sequence?
-**A**: A hand post creates a submission and sweep opportunity that you should capitalize on before completing your guard closure. The posted hand is vulnerable to a kimura grip or wrist control that can be maintained as you close guard. If you cannot immediately attack the posted hand, use it as an indicator that their weight is shifted toward that side, meaning your hip escape should go in the opposite direction where their base is weakest. The hand post also means they have less upper body defensive capability, making the overhook pull more effective at breaking their posture during guard closure.
-
-**Q8**: What are the specific grip requirements for the non-overhook arm during each phase of the guard recovery transition?
-**A**: The non-overhook arm serves different functions across the transition phases. During the pre-release phase, it frames on the opponent's shoulder or bicep to create structural distance. During the lockdown release phase, it must maintain the frame against the opponent's forward pressure to prevent being flattened during the vulnerable leg transition. During the guard closure phase, the frame transitions to an offensive grip - cross-collar in gi, head control in no-gi, or sleeve and wrist control. The grip should shift from defensive framing to offensive control within one to two seconds of completing the guard closure.
-
-**Q9**: In which direction should your hip escape move relative to your opponent when coordinating with the lockdown release?
-**A**: The hip escape should move laterally away from the side where your overhook is established, creating an angle that facilitates guard closure. If your overhook is on the opponent's right arm, hip escape to your left. This lateral movement serves three purposes: it creates the angular distance needed to swing your legs from the high guard Zombie position to a hip-level guard wrap, it loads the overhook side with tension that helps pull the opponent toward you during leg repositioning, and it creates a diagonal relationship between your hips and their torso that makes the guard closure shorter in distance than a straight-on closure would require.
-
-**Q10**: After successfully recovering closed guard, what offensive chain should you initiate within the first three seconds to prevent the opponent from resettling?
-**A**: Within the first three seconds, execute an immediate posture break using combined overhook pull and heel pressure into the opponent's lower back. The opponent is typically in a reactive state after failing to prevent the guard closure, creating a brief window where their defensive posture is not yet established. From the broken posture, threaten a triangle setup by controlling one arm across your centerline, or initiate a hip bump sweep by posting on one hand and driving your hips upward. The key is establishing offensive initiative immediately rather than settling into a neutral closed guard position, because the opponent will be motivated to immediately begin guard opening sequences.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Zombie?</p>
 
 Guard recovery from the Zombie position is generally low risk, but practitioners should be mindful of knee strain when releasing the lockdown entanglement quickly. The lockdown involves intertwining legs in a way that can stress the medial collateral ligament if released with a sudden jerking motion rather than a controlled uncrossing. During training, practice the lockdown release at controlled speed before adding explosiveness. Additionally, the high guard position can create hip flexor fatigue that affects the quality of the subsequent closed guard - if hip flexors are cramping, communicate with your partner and stretch before continuing drilling.
 

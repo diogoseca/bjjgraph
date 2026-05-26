@@ -89,7 +89,7 @@ Successful execution demands unbroken hip-to-hip connection throughout the entir
 
 - **Secure Far Hip Control**: Walk your near-side hand down to control the opponent's far hip, pants grip, or belt line while main...
 
-- **Shift Weight and Modify Head Control**: Transfer your weight forward through your hips while keeping chest pressure on the opponent's upper ...
+- **Shift Weight and Modify Head Position**: Transfer your weight forward through your hips while keeping chest pressure on the opponent's upper ...
 
 - **Execute Step-Over**: Swing your far leg over the opponent's body in a controlled arc, keeping your hips as low as possibl...
 
@@ -208,13 +208,13 @@ The Scarf Hold to Mount transition serves as a critical link in the top player's
 
 - [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variant with alternative arm positioning for mount entry
 
-- [[Transitions/Consolidation to Mount]] - Parallel mount entry transition from side control positions
+- [[Transitions/Side Control to Mount]] - Parallel mount entry transition from side control positions
 
 - [[Transitions/Modified Scarf to Mount]] - Similar transition from modified scarf hold variant
 
 - [[Transitions/Bridge from Scarf Hold Position]] - Primary defensive technique that counters this transition
 
-- [[Transitions/Americana]] - Submission threat that creates the opening for mount transition
+- [[Submissions/Americana]] - Submission threat that creates the opening for mount transition
 
 - [[Transitions/KOB to Mount]] - Alternative mount entry pathway through knee on belly
 

@@ -168,6 +168,8 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Shield Retention?</p>
+
 - Bottom player's shin is pressed horizontally across your chest or abdomen creating a rigid barrier preventing forward advancement
 - Bottom player is on their side facing you with active grips on your sleeve, collar, or wrist rather than flat on their back
 - Bottom player's foot is hooked on your hip or thigh on the far side, with their bottom leg controlling your trapped leg behind the knee
@@ -179,6 +181,8 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Shield Retention?</p>
 
 - Never drive straight into the knee shield - angle your body at 45 degrees to redirect the frame's force away from your centerline
 - Establish crossface control before attempting to collapse the shield, neutralizing their upper body mobility first
@@ -193,6 +197,8 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Shield Retention?</p>
 
 ### 1. Establish crossface and collapse shield with angled shoulder pressure
 
@@ -237,6 +243,8 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Shield Retention?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Establish crossface first to control their head and prevent them from maintaining their side-facing posture. Then angle your shoulder pressure at 45 degrees into their jaw while controlling their shield leg ankle, collapsing their structure by driving their knee toward the mat. Once flat, consolidate with chest-to-chest pressure and work to extract your trapped leg.
@@ -252,6 +260,8 @@ Win the grip fighting battle by establishing collar and pants control before att
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Shield Retention?</p>
 
 ### 1. Driving straight into the knee shield with your chest, creating a perfect frame for their defense
 
@@ -286,6 +296,8 @@ Win the grip fighting battle by establishing collar and pants control before att
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Shield Retention?</p>
+
 **Week 1-2: Shield Recognition and Grip Priorities** - Identifying knee shield structure and establishing dominant grips
 Partner holds knee shield at varying heights and angles while you practice identifying the shield type, establishing crossface control, and stripping their controlling grips. No passing yet - just drill the grip fighting sequence until it becomes automatic. Understand how different shield angles change your grip priorities.
 
@@ -302,29 +314,6 @@ Two-minute rounds starting from knee shield half guard. Top player must pass to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is angling your body at 45 degrees more effective than driving straight into the knee shield?
-**A**: The knee shield operates as a structural frame that is strongest when force is applied perpendicular to the shin. By angling at 45 degrees, you redirect the force vector so it slides along the shin rather than being stopped by it. This reduces the frame's structural advantage and allows your body weight to progress past the barrier rather than stacking directly into it. The oblique angle also creates passing lanes that don't exist when facing the shield head-on.
-
-**Q2**: What should your first priority be before attempting to collapse or bypass the knee shield?
-**A**: Your first priority is winning the upper body grip battle, specifically establishing crossface or collar control while stripping the bottom player's controlling grips on your sleeves or wrists. The knee shield works as part of a coordinated system where their arm control supports the shield structure. Without neutralizing their grips first, the bottom player can adjust their shield angle and recover from any progress you make against the physical barrier. Grip dominance transforms the shield from an active defense into a static frame you can systematically dismantle.
-
-**Q3**: Your opponent keeps redirecting their knee shield to intercept every angle you attack from - how do you break this pattern?
-**A**: A dynamically adjusting shield indicates strong hip mobility from the bottom player. To break this pattern, control their shield leg at the ankle or knee with one hand to physically limit their ability to redirect. Simultaneously apply crossface pressure to limit their ability to see and react to your movement. If they are tracking your movement with the shield, feint a pass in one direction to draw the shield that way, then explosively change direction to the opposite side before they can readjust. You can also grab their shield foot and physically redirect it rather than trying to go around it.
-
-**Q4**: When is it appropriate to stand up and disengage rather than continuing ground-based passing attempts?
-**A**: Stand up when repeated ground-based attempts have failed and the bottom player has established strong retention with coordinated shield and grip control. Standing changes the entire dynamic by removing your body from their shield's effective range and creating new passing angles. However, standing must be done with control of their legs to prevent X-guard or single leg X entries. Grab their pants or hook their legs before standing, and immediately threaten toreando or leg drag passes that exploit the new standing angle before they can adapt their retention system to the vertical threat.
-
-**Q5**: How do you prevent the bottom player from converting successful retention into an offensive sweep?
-**A**: Maintain a wide base at all times with your knees spread beyond their hip width to resist hip bump and elevation sweeps. Never fully commit your weight forward into the shield because the bottom player can redirect that momentum underneath them for sweeps like the Old School or lumberjack. Keep one hand posted or ready to post if you feel your base being compromised. If they begin threatening a sweep, immediately abandon the pass attempt and re-establish your base before they can complete the reversal. It is better to reset and try again than to lose the position entirely to a sweep.
-
-
-
-</section>
 
 
 </main>

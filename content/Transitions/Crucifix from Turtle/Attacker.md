@@ -188,6 +188,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crucifix from Turtle?</p>
+
 - Control the near-side arm before any other action - this is the non-negotiable foundation of the entire sequence
 - Maintain unbroken chest-to-back pressure throughout the transition to prevent sit-throughs and guard recovery
 - Insert the near-side hook first to establish a stable base before threading the far leg
@@ -203,6 +205,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crucifix from Turtle?</p>
+
 - Opponent in defensive turtle position with weight distributed on hands and knees
 - You have established turtle top with chest-to-back contact and stable base
 - At least one arm is accessible - opponent has posted a hand or created space between elbow and knee
@@ -216,6 +220,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crucifix from Turtle step by step?</p>
 
 1. **Secure near-side arm control**: From turtle top, identify which of the opponent's arms is most accessible. Grab their near-side wrist or triceps with your same-side hand while driving your chest firmly into their upper back. Your opposite hand establishes a cross-face or controls the far shoulder. This initial control prevents them from posting on that side and is the absolute prerequisite for everything that follows.
 2. **Insert near-side hook**: While maintaining the arm control grip, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip crease. Keep your knee tight against their ribs and use the hook to control their hip rotation. The hook depth should be moderate - deep enough to block them from sitting back to guard but shallow enough that you retain base for the subsequent leg threading step.
@@ -246,6 +252,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crucifix from Turtle?</p>
+
 - **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Follow them to seated position while maintaining initial arm control. Transition immediately to back control with seatbelt grip, or switch to front headlock if they turn to face you. Use the arm control to prevent them from establishing effective guard grips. → Leads to [[Positions/Turtle]]
 - **Opponent rolls forward into a somersault escape** (Effectiveness: Medium) - Your Response: Maintain arm control and follow the roll with your chest glued to their back. The somersault often stalls halfway when you maintain pressure, leaving them in a worse position. If they complete the roll, your arm control frequently converts directly into standard back control with hooks. → Leads to [[Positions/Turtle]]
 - **Opponent retracts trapped arm before leg thread completes** (Effectiveness: High) - Your Response: Immediately abandon the crucifix attempt and transition to traditional back control with both hooks, or switch to alternative attacks such as the bow and arrow choke setup or clock choke. Do not fight to re-establish crucifix grip on a retracted arm - the window has closed. → Leads to [[Positions/Back Control]]
@@ -257,6 +265,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crucifix from Turtle?</p>
 
 ### 1. Attempting to thread the leg before securing both arms
 
@@ -296,6 +306,8 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crucifix from Turtle (Attacker)?</p>
+
 **Week 1-2: Static Mechanics** - Learning the correct body positioning and sequence
 Practice the transition in slow motion with a fully cooperative partner who remains stationary in turtle. Focus on the exact sequence: near arm control, hook insertion, far arm swim, leg thread, perpendicular angle. Partner provides zero resistance. Perform 20+ repetitions per session on each side to build muscle memory for the correct angles and grip placements.
 
@@ -316,48 +328,12 @@ Integrate the crucifix from turtle into live rolling. Start from turtle top posi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical prerequisite that must be established before you attempt to thread your leg over the opponent's shoulder?
-**A**: You must have firm control of both of the opponent's arms before threading the leg. The near-side arm is controlled with your hand grip, and the far-side arm must be caught by swimming under the armpit. Attempting the leg thread without bilateral arm control allows the opponent to retract their far arm and turn into you, collapsing the entire attack. The arm control is the foundation that makes the leg thread viable.
-
-**Q2**: Your opponent posts their far hand on the mat while you have their near arm controlled from turtle top - how do you capitalize on this?
-**A**: The posted far hand is your entry signal for the crucifix. While maintaining your near-arm grip and chest pressure, immediately swim your free arm under their far armpit to catch the posted wrist or forearm. Pull their arm across their body toward you. The act of posting extends their arm away from their body, creating the exact opening you need. Speed is essential here because the post is temporary - they will retract the arm once they feel it being controlled.
-
-**Q3**: Why must the near-side hook be inserted before the far-side leg is threaded over the shoulder?
-**A**: The near-side hook provides the foundational base stability needed during the leg threading phase. Without it, you have no anchor point to prevent the opponent from sitting back to guard as you lift your far leg off the ground. The hook controls their hip rotation, keeps them in turtle, and gives you a stable platform. Threading the far leg requires temporarily reducing your base, so the near hook must be providing compensatory stability.
-
-**Q4**: You have the crucifix partially established but the opponent begins pulling their trapped arm free - should you fight to maintain the crucifix or transition?
-**A**: Transition immediately to an alternative position rather than fighting for a compromised crucifix. If the arm is slipping free, the mechanical advantage of the position is already lost. Switch to standard back control with hooks, or if the opponent has turned significantly, take front headlock position. Fighting to re-trap an escaping arm wastes energy and often results in losing the position entirely. The crucifix works because of complete arm isolation - partial control is not sufficient.
-
-**Q5**: What is the correct shin placement when threading the leg over the opponent's shoulder, and why does this matter?
-**A**: The shin must press against the back of the opponent's shoulder blade, not over their head or neck. Shoulder placement creates a mechanical lock where the leg acts as a lever pinning the arm against the opponent's own body. Head placement is unstable because the opponent can duck their head and the arm slides free. The shoulder is a fixed bony landmark that provides consistent leverage regardless of the opponent's head movement.
-
-**Q6**: How does the crucifix from turtle create a dilemma with standard back take attempts?
-**A**: When you threaten standard back hooks from turtle top, the opponent's primary defense is to use their arms to block hook insertion - posting, framing, or underhooking. But these arm movements expose the arms for crucifix entry. Conversely, if the opponent keeps their elbows tight to their knees to prevent crucifix, they cannot effectively block your hooks. This creates a binary defensive choice where defending one attack directly opens the other, making your turtle top attacks significantly harder to shut down.
-
-**Q7**: What grip should you use on the far arm after swimming under the armpit, and what determines your grip selection?
-**A**: The wrist grip is the highest-priority initial catch because it provides maximum control over arm positioning and prevents the opponent from retracting. In gi, the sleeve grip at the wrist is ideal. In no-gi, a C-grip on the wrist or a figure-four grip on the forearm provides security. The grip must allow you to pull the arm across the opponent's body while preventing retraction during the leg threading phase. Once the leg is over the shoulder, you can adjust to a wrist control or kimura grip for submission access.
-
-**Q8**: During the leg threading phase, the opponent explosively bridges and turns toward you - what is your response?
-**A**: Abandon the leg thread and use your existing arm control and hook to follow their turn, transitioning to standard back control. Their bridge and turn actually helps you establish back hooks if you flow with the movement rather than fighting it. Keep your chest connected to their back throughout their rotation. If they turn far enough to face you, switch to front headlock or guillotine control using the head position they have given you. Never try to force the crucifix against a committed directional escape.
-
-**Q9**: What is the perpendicular angle in the crucifix and why is it essential for control?
-**A**: The perpendicular angle means your body forms a T-shape relative to the opponent's spine, with your hips positioned alongside their ribs rather than parallel behind them. This angle is essential because it prevents rolling escapes in both directions - your weight blocks one side and your legs block the other. A parallel alignment allows the opponent to barrel roll and potentially end up on top. The perpendicular position also distributes your weight optimally across their torso and maximizes the leverage of both the leg trap and arm control.
-
-**Q10**: You have established crucifix control and want to attack the rear naked choke - which arm do you release and what is the risk?
-**A**: You release control of the hand-controlled far arm to thread your choking arm under the opponent's chin. The risk is that the freed arm can now defend the choke or create frames for escape. To mitigate this, ensure the leg-trapped arm is completely locked before releasing the far arm, and apply the choke quickly before the opponent can mount an effective defense with the freed hand. If they successfully defend the choke with the free arm, transition immediately to an armbar on that defending arm rather than fighting for the choke.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crucifix from Turtle?</p>
 
 When practicing the crucifix from turtle, execute all movements with deliberate control and awareness of your partner's joint integrity. The arm positions in crucifix place significant stress on the shoulder joints, particularly the far arm trapped by the leg - avoid yanking or jerking trapped arms at any point. When threading the leg over the partner's shoulder, move slowly and check that the shin is pressing against the shoulder blade rather than the neck, which could cause cervical strain. During submission attempts from crucifix, apply techniques progressively with steady pressure and release immediately upon tap. Partners should communicate about shoulder or neck discomfort before reaching the tapping threshold. Start all drilling at zero resistance and increase intensity gradually over multiple sessions. Be especially cautious with wrist locks and shoulder attacks from this position, as the trapped arm configuration makes injuries more likely if techniques are applied with speed or explosiveness.
 

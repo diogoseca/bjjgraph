@@ -158,13 +158,15 @@ Recognizing the early stages of shin shield recovery is essential because the te
 
 The most effective approach combines relentless forward pressure with strategic grip fighting that denies the bottom player the upper body connections they need to support their shin shield. Without an underhook or collar grip to anchor their frame, even a well-placed shin shield becomes structurally vulnerable. By controlling the upper body battle while simultaneously addressing the shin insertion, you create a systematic approach to defeating this common guard recovery technique and completing your half guard pass.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Shin Shield Recovery?</p>
 
 - Bottom player's inside knee begins rising and threading between your bodies, moving from below your hip line toward your chest or abdomen
 - You feel a hip escape or shrimping motion underneath you as the bottom player creates space to angle their body and insert the shield leg
@@ -178,6 +180,8 @@ The most effective approach combines relentless forward pressure with strategic 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Shin Shield Recovery?</p>
+
 - Maintain constant chest-to-chest pressure to deny the space required for shin shield insertion between your bodies
 - Control the shield leg early by gripping the ankle, pants, or knee before the shin establishes full horizontal structure across your torso
 - Win the upper body battle through crossface and near-arm control to deny the underhook that anchors the shin shield frame
@@ -190,6 +194,8 @@ The most effective approach combines relentless forward pressure with strategic 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin Shield Recovery?</p>
 
 ### 1. Drive shoulder pressure forward and drop hips to collapse the developing shin shield before it establishes full structure
 
@@ -227,6 +233,8 @@ The most effective approach combines relentless forward pressure with strategic 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin Shield Recovery?</p>
+
 ### → [[Positions/Side Control]]
 
 Complete your half guard pass by driving forward pressure through the developing shin shield before it stabilizes, controlling the shield ankle to redirect it, or accelerating your knee slice to bypass the recovery entirely. The key is acting during the insertion window before the shin establishes horizontal structure with active outward pressure.
@@ -242,6 +250,8 @@ Strip the supporting underhook or collar grip that anchors the shin shield, then
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin Shield Recovery?</p>
 
 ### 1. Allowing space between your chest and opponent's torso by posturing up or relaxing forward pressure
 
@@ -271,10 +281,12 @@ Strip the supporting underhook or collar grip that anchors the shin shield, then
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin Shield Recovery?</p>
+
 **Phase 1: Recognition and Immediate Response (Weeks 1-2)** - Identifying shin shield insertion attempts and developing automatic pressure responses
 Partner starts in compromised half guard bottom and attempts shin shield insertion at slow to moderate speed. Top player practices recognizing the first knee movement and immediately driving shoulder pressure forward. Focus on maintaining chest contact and hip heaviness throughout. Partner signals when shin shield is successfully prevented versus when it establishes. 20 repetitions per side, gradually increasing bottom player's speed.
 
-**Phase 2: Grip Fighting and Shield Leg Control (Weeks 3-4)** - Controlling the shield leg while maintaining upper body dominance
+**Phase 2: Grips and Shield Leg Control (Weeks 3-4)** - Controlling the shield leg while maintaining upper body dominance
 Partner attempts shin shield recovery with moderate resistance. Top player practices ankle and pants grips to redirect the shield leg while maintaining crossface with the other arm. Drill the coordination of simultaneous upper body control and shield leg management. Include scenarios where bottom player fights for underhook during the exchange. 15 repetitions per side with increasing bottom player resistance.
 
 **Phase 3: Pass Acceleration Through Developing Shield (Weeks 5-8)** - Completing passes when shin shield is partially established
@@ -287,29 +299,6 @@ Start in half guard top with bottom player's knee shield recently compromised. B
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for preventing shin shield recovery as the top player?
-**A**: The critical window is the moment you first feel the bottom player's inside knee beginning to rise between your bodies and thread upward toward your chest. This window closes once their shin reaches horizontal position across your torso with active outward pressure. During this brief period, driving forward with heavy shoulder pressure or controlling their ankle can prevent the shield from establishing. Once the shin is fully across your chest with supporting grips and proper hip angle, you must switch to a complete passing strategy rather than simple prevention.
-
-**Q2**: Your opponent begins threading their knee upward while you have crossface established - what is your immediate response?
-**A**: Immediately drive your shoulder forward and down into their upper chest, collapsing the space their knee is trying to occupy. Drop your hips heavy against their hips to prevent the hip escape that creates insertion angle. If the knee continues rising, use your free hand to control their shield ankle or pants grip and redirect the shin downward or laterally while maintaining crossface with your other arm. The crossface is your strongest asset here because it prevents them from turning their shoulder up to create the angle that supports the shield.
-
-**Q3**: Why is stripping the opponent's underhook more effective than directly fighting the shin shield?
-**A**: The underhook serves as the structural anchor that gives the shin shield its integrity. A shin shield without upper body support can be collapsed relatively easily through forward pressure because the bottom player cannot maintain the hip angle and outward force simultaneously without an anchor point. By stripping the underhook through overhook control or wrist pinning, you remove the foundation that makes the shield functional. The shin becomes a passive barrier rather than an active frame, and your shoulder pressure can then drive through it effectively.
-
-**Q4**: How should you adjust your hip position to prevent the space creation needed for shin shield insertion?
-**A**: Keep your hips as low and heavy as possible against the opponent's hips, distributing your weight through hip-to-hip contact rather than through your knees or hands. When you feel the bottom player begin to shrimp, follow their hip movement immediately by sliding your hips in the same direction to maintain contact and deny the angle they need. Avoid raising your hips to create base, as this opens the vertical space their knee needs to thread through. Your hips should feel like they are glued to the opponent's hips, eliminating the gap between bodies at the waist line.
-
-**Q5**: The bottom player has partially inserted their shin but has not yet secured an underhook - what is your best passing approach?
-**A**: This is the ideal moment to accelerate your knee slice pass. With their shin partially inserted but no upper body anchor, drive your crossface shoulder hard into their jaw while slicing your trapped knee across their thigh line. Their developing shin shield lacks the structural support to resist a committed knee slice without the underhook to maintain angle and outward pressure. Simultaneously control their near wrist to prevent the underhook from establishing during your pass. The goal is to complete the pass through the partially formed barrier before the bottom player can finalize their defensive structure.
-
-
-
-</section>
 
 
 </main>

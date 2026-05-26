@@ -14,7 +14,7 @@
   "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "High Elbow Guillotine",
       "probability": 58,
       "result": "success"
     },
@@ -216,7 +216,7 @@
         "description": "Apply the high elbow variation during positional sparring starting from Hindulotine. Focus on recognizing live opportunities and executing the technique against fully resisting opponents. Analyze failures to refine timing."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the high elbow configuration over a standard guillotine finish?",
         "answer": "The elevated elbow creates a longer lever arm that generates exponentially more pressure on the carotid arteries using skeletal structure rather than muscular effort. Combined with the hip angle pulling the head toward the opposite hip, this produces a scissoring blood choke that finishes rapidly with minimal energy expenditure compared to standard guillotine mechanics where the elbow stays low."
@@ -341,7 +341,7 @@
         "correction": "Never roll or spin while a tight guillotine grip is in place. Address the grip and angle first, then change position only when you have reduced the choking pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical moment to begin your defense against the high elbow transition?",
         "answer": "The moment you feel the attacker's elbow begin to rise above their shoulder line is the critical window. Before the elbow fully elevates and the hip angle is established, you have multiple viable defensive options. Once both components are in place, the scissoring pressure makes escape extremely difficult. Immediate reaction to the first sign of elbow elevation gives you the highest probability of successful defense."

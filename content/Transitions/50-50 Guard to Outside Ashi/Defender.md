@@ -166,6 +166,8 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Guard to Outside Ashi?</p>
+
 - Opponent releases or loosens their inside leg control - the first mechanical step of extraction that breaks normal 50-50 maintenance behavior
 - Opponent's hip begins rotating internally (knee pointing toward their opposite shoulder) indicating the circular extraction path is starting
 - Opponent establishes or strengthens two-handed heel grip on your leg while simultaneously loosening their own leg engagement
@@ -179,6 +181,8 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending 50-50 Guard to Outside Ashi?</p>
+
 - Maintain tight inside leg control to prevent opponent's leg extraction - your triangle configuration is your primary defensive tool
 - Monitor opponent's heel grip constantly and strip it aggressively at the first sign of transition initiation
 - Race to your own offensive transition when you recognize the extraction attempt rather than purely defending
@@ -191,6 +195,8 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Guard to Outside Ashi?</p>
 
 ### 1. Tighten inside leg control and re-establish deep triangle on opponent's extracting leg
 
@@ -228,6 +234,8 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Guard to Outside Ashi?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Prevent the extraction entirely by maintaining tight inside control, stripping opponent's heel grip, or driving forward to stack them during mid-extraction. Any of these responses returns you to 50-50 with the opportunity to establish top position through the resulting scramble.
@@ -243,6 +251,8 @@ Race to your own counter-transition when you recognize you cannot prevent their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Guard to Outside Ashi?</p>
 
 ### 1. Remaining passive and allowing opponent to complete the full extraction and figure-4 establishment without resistance
 
@@ -272,6 +282,8 @@ Race to your own counter-transition when you recognize you cannot prevent their 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Guard to Outside Ashi?</p>
+
 **Week 1-2** - Recognition drilling
 Partner initiates the transition at slow speed while you identify each recognition cue verbally before responding physically. Call out 'inside control release,' 'hip rotation,' or 'leg threading' as you detect each phase. Goal is instant recognition of early cues before progressing to physical responses.
 
@@ -288,29 +300,6 @@ Positional sparring from 50-50 where opponent actively works to transition to ou
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the 50-50 to outside ashi transition?
-**A**: The earliest cue is your opponent releasing or loosening their inside leg control. In normal 50-50, both practitioners maintain tight inside control. When your opponent deliberately relaxes their triangle configuration, it signals the first mechanical step of extraction. This cue precedes the hip rotation by one to two seconds, giving you the maximum defensive window.
-
-**Q2**: Your opponent's hip has already started rotating internally - is it too late to tighten inside control?
-**A**: Once the hip rotation has begun, tightening inside control becomes low-percentage because you are fighting against the circular extraction momentum. At this phase, switch your defensive strategy from prevention to either counter-offense (racing to your own outside ashi) or disruption (driving forward to stack). Attempting inside control at this stage wastes energy and typically fails against a committed transition.
-
-**Q3**: Why is stripping the opponent's heel grip an effective defensive strategy even if it doesn't stop the extraction?
-**A**: Without heel control on your leg, the opponent's transition to outside ashi loses most of its offensive purpose. Even if they complete the positional change, they arrive in outside ashi without the grip needed to immediately threaten heel hook. This forces them to re-establish grips from the new position, giving you time to work escapes or counter-entanglements. The heel grip is the bridge between positional control and submission threat.
-
-**Q4**: When is racing to your own outside ashi the correct defensive choice versus trying to prevent the extraction?
-**A**: Race to counter-transition when you recognize that inside control prevention has failed (opponent's hip rotation is underway) but their leg has not yet fully cleared the entanglement. This mid-phase window is when both practitioners are in transition and the position is maximally fluid. If you wait until their figure-4 is established, counter-transitioning becomes far more difficult because they have structural control.
-
-**Q5**: What makes passive defense the worst possible response to this transition attempt?
-**A**: Passive defense allows the opponent to complete every phase of the transition - release, rotation, threading, hook establishment, and angle achievement - without any disruption. The completed outside ashi gives them heel hook access, perpendicular angle, and tight figure-4 control. At that point, you are defending a submission rather than preventing a positional change. Any active response, even a partially successful one, degrades the quality of their resulting position.
-
-
-
-</section>
 
 
 </main>

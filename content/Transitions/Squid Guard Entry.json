@@ -221,7 +221,7 @@
         "description": "Integrate squid guard entry into full sparring. Start from open guard and work to establish lapel configurations against fully resisting opponents. Track success rate and identify patterns where entry succeeds or fails."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that indicates the optimal moment for squid guard entry?",
         "answer": "The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm."
@@ -359,7 +359,7 @@
         "correction": "Stay in constant motion through angle changes, level changes, or lateral movement to prevent the bottom player from optimizing their configuration"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?",
         "answer": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers."

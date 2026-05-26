@@ -63,7 +63,7 @@
       "relationship": "Follow-up attack after achieving half guard"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Offensive option available from half guard lockdown"
     },
     {
@@ -201,7 +201,7 @@
         "description": "Positional sparring starting from leg drag control. Rotate partners with varying body types and passing styles. Track success rate and identify common failure points for refinement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to attempt this escape from leg drag bottom?",
         "answer": "The optimal window is when the opponent shifts weight or adjusts grips—typically when transitioning from leg drag to side control, reaching for the back, or resetting their leg control. Static pressure makes escape nearly impossible; movement creates opportunity. You must train sensitivity to feel these micro-adjustments."
@@ -317,7 +317,7 @@
         "correction": "Swim through or collapse their frames immediately when you feel elbow pressure against your shoulder. Do not allow structural frames to set—they are harder to break once locked in."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt the half guard counter?",
         "answer": "The earliest cue is when the bottom player establishes a frame against your shoulder or bicep with their near-side elbow. This frame is the prerequisite for their hip escape—without it, they cannot generate the space needed for leg extraction. Collapsing this frame immediately shuts down the escape before it begins."

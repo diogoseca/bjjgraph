@@ -156,6 +156,8 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Squid Guard?</p>
+
 - Passer establishes rigid upright posture with hips back and wide base, indicating they are preparing to address the lapel rather than attempting to pressure through
 - Passer reaches for your free hand or sleeve with their non-stripping hand, signaling the beginning of the clearing sequence
 - Passer backsteps or shifts the entangled leg backward, creating slack in the lapel wrap to facilitate stripping
@@ -168,6 +170,8 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Squid Guard?</p>
 
 - Treat every passing attempt as a counter-attack opportunity rather than a purely defensive situation
 - Maintain constant lapel tension and be ready to re-grip or deepen the wrap whenever the passer creates slack
@@ -183,6 +187,8 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Squid Guard?</p>
 
 ### 1. Deepen the lapel wrap and reinforce grips when passer begins strip attempt
 
@@ -220,6 +226,8 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Squid Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Initiate inversion as the passer commits to the lapel strip, using their forward weight shift and narrowed base as the trigger. Thread under their body using your threading hook for leverage and complete the rotation to back control before they can sprawl.
@@ -235,6 +243,8 @@ Actively fight to maintain and deepen the lapel wrap throughout the passer's cle
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Squid Guard?</p>
 
 ### 1. Passively holding the guard position without actively countering the passer's clearing attempts
 
@@ -264,6 +274,8 @@ Actively fight to maintain and deepen the lapel wrap throughout the passer's cle
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Squid Guard?</p>
+
 **Phase 1: Grip Retention Under Pressure** - Maintaining lapel and hook control against stripping attempts
 Partner attempts systematic lapel clearing at 50% intensity while you focus exclusively on maintaining the entanglement. Practice re-gripping, deepening wraps, and using your free hand to resist the strip. No counter-attacks in this phase, pure retention development.
 
@@ -280,26 +292,6 @@ Timed rounds where the partner attempts to pass your Squid Guard at full competi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to initiate a back take attempt against a passer clearing your Squid Guard?
-**A**: The optimal moment is when the passer commits a hand to the lapel strip and leans their weight forward or to one side. This commitment narrows their base and removes one hand from defensive positioning, creating the postural compromise needed for a successful inversion. Attempting the back take before this commitment means the passer has full defensive capacity to sprawl and stuff your rotation.
-
-**Q2**: Your lapel grip has been partially stripped and you cannot re-establish it - what should you do?
-**A**: Immediately transition to a secondary guard rather than fighting to restore a compromised Squid Guard. If your threading hook is still in place, transition to standard De La Riva by adjusting your hook depth and establishing collar or sleeve grips. If the hook is also compromised, recover to Spider Guard or basic open guard using your upper body grips as anchors during the transition. A clean guard transition preserves defensive integrity.
-
-**Q3**: How does the threading hook function differently when the lapel is intact versus when it has been stripped?
-**A**: With the lapel intact, the threading hook works in combination with the fabric tension to create compound control that restricts the passer's mobility from multiple angles simultaneously. Without the lapel, the threading hook alone provides only single-directional control similar to a standard De La Riva hook. This reduced control means the passer can address the hook with standard leg pummeling techniques. You must compensate by increasing hook activity and establishing stronger upper body grips.
-
-**Q4**: What visual cue tells you the passer is about to commit to a directional pass after clearing your lapel?
-**A**: Watch for the passer's hips to lower and shift to one side while their chest angle changes from perpendicular to angled toward their chosen passing direction. Their hands will transition from grip fighting or lapel stripping to controlling your legs or hips for directional passing. This weight shift and hand transition is the critical window where you must either re-establish guard control or commit to a counter-attack, because once they begin the directional pass, defensive options narrow rapidly.
-
-
-
-</section>
 
 
 </main>

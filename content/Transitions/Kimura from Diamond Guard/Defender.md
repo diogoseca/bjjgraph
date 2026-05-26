@@ -162,6 +162,8 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura from Diamond Guard?</p>
+
 - Bottom player releases their head control grip from behind your neck — their hand moves away from your head toward your trapped arm
 - You feel a new grip on your wrist or forearm on the overhook side where previously only the overhook existed
 - The bottom player's body shifts and begins creating an angle by hip escaping to one side rather than pulling you straight down
@@ -174,6 +176,8 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura from Diamond Guard?</p>
 
 - React immediately to head control release — this is your primary escape window before the Kimura grip locks
 - Prioritize arm extraction over posture recovery during the initial transition moment
@@ -188,6 +192,8 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura from Diamond Guard?</p>
 
 ### 1. Immediate arm retraction during head control release window
 
@@ -225,6 +231,8 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura from Diamond Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Exploit the head control release window by driving your hips forward and recovering upright posture before the Kimura grip locks. Swim your trapped arm free by circling your elbow outward and pulling it to your body while your posture breaks the weakened diamond frame. This escape reduces the position from the dangerous diamond guard to standard closed guard where the offensive threat level is significantly lower.
@@ -240,6 +248,8 @@ Prevent the Kimura grip from fully locking by immediately tucking your elbow tig
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura from Diamond Guard?</p>
 
 ### 1. Freezing when head control is released instead of immediately reacting to extract the trapped arm
 
@@ -269,6 +279,8 @@ Prevent the Kimura grip from fully locking by immediately tucking your elbow tig
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura from Diamond Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the transition cues from diamond guard to Kimura
 Partner establishes diamond guard and randomly alternates between maintaining standard diamond controls and initiating the Kimura transition. Defender must call out when they detect the Kimura initiation based on head control release and grip changes. Build pattern recognition without physical defense first. 20 repetitions focusing on identification speed.
 
@@ -285,29 +297,6 @@ Positional sparring starting in diamond guard with attacker attempting any diamo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from diamond guard control to a Kimura attack?
-**A**: The earliest cue is the release of head control from behind your neck. In a standard diamond guard, the bottom player maintains both an overhook and head control simultaneously. When the head control hand releases and moves down toward your trapped arm rather than back to your neck, this signals the Kimura grip transition has begun. You have approximately one to two seconds from this release to react before the figure-four locks. Secondary cues include feeling a new grip on your wrist and the bottom player beginning to create an angle by hip escaping.
-
-**Q2**: How do you prevent the bottom player from completing the Kimura grip once they release head control?
-**A**: Immediately retract your trapped arm by pulling your elbow tight against your ribs and circling it inward toward your body. Simultaneously drive your hips forward to exploit the temporarily weakened diamond frame from the head control release. Your arm extraction must be fast and decisive — a half-committed pull that fails leaves you in a worse position with a partially locked grip. If you cannot extract the arm, immediately tuck your elbow as tight as possible to deny the figure-four grip depth needed for effective sweep and submission mechanics.
-
-**Q3**: Your opponent has secured the Kimura grip from diamond guard — what is your immediate priority?
-**A**: Your immediate priority is defending the sweep rather than fighting the grip or defending the submission. The Kimura from Diamond Guard functions primarily as a sweep mechanism — the attacker will hip bump to top position and finish from Kimura Trap Top where they have gravity and weight assisting the submission. Widen your base immediately, post your free hand, and lower your center of gravity by driving your hips toward the mat. A wide, low base prevents the hip bump from displacing you, which is more important than the arm position in the short term.
-
-**Q4**: Why is posture recovery particularly critical when defending the Kimura from Diamond Guard?
-**A**: Broken posture is what makes the Kimura from Diamond Guard effective in the first place. The diamond frame breaks your posture, which sets up the grip transition by positioning your arm within easy reach. Recovering posture during the head control release window simultaneously removes the arm from Kimura range, breaks the diamond frame's control structure, and re-establishes your defensive base. Posture recovery is the only defensive action that addresses all three threat vectors of the diamond guard system — Kimura, triangle, and omoplata — simultaneously.
-
-**Q5**: What defensive option provides the best risk-reward balance against the Kimura from Diamond Guard?
-**A**: Immediate arm retraction during the head control release window provides the best risk-reward balance because it addresses the threat at its source before it fully develops. The window is narrow but the reward is complete neutralization of the Kimura attack. If successful, you deny the entire technique chain. If unsuccessful, you are in the same position you would be in regardless — defending a locked Kimura grip. The alternative of posture recovery is also excellent but carries the risk that forward hip drive can be exploited by the attacker for the sweep if they already have the wrist grip. Arm retraction is a lower-risk first option before committing to posture recovery.
-
-
-
-</section>
 
 
 </main>

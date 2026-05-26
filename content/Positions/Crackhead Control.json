@@ -302,7 +302,7 @@
         "attempt_probability": 6
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal hip placement for maintaining crackhead control top, and why does this positioning matter?",
         "answer": "The hips should be loaded directly onto the opponent's lower back and sacrum area, not on the upper back or shoulder blades. This placement creates a fulcrum effect that severely limits the opponent's ability to generate forward movement or recover their base. Sitting too high allows granby rolls and forward escapes, while the lower hip position isolates their movement by placing your weight at their center of rotation."
@@ -483,7 +483,7 @@
         "duration": "5 rounds x 2 minutes"
       },
       {
-        "name": "Grip Fighting from Turtle",
+        "name": "Grips from Turtle",
         "description": "Starting from turtle bottom, partner attempts to establish seat belt control while practitioner fights all grip attempts. Focus on stripping grips, preventing cross-face, and defending underhooks. Reset whenever opponent successfully establishes both grips. Track time to successful control as progress metric.",
         "duration": "10 x 30-second rounds"
       },
@@ -582,7 +582,7 @@
         "attempt_probability": 6
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the fundamental defensive posture for crackhead control bottom, and why is each element important?",
         "answer": "The fundamental posture includes: head tucked with chin to chest creating a protective wedge between shoulders to deny chokes, elbows tight to ribs to prevent hook insertion, weight distributed evenly across hands and knees for explosive movement capability, and hips positioned to enable constant circular motion. Each element serves to deny the opponent the stable contact points they need for systematic back attacks."

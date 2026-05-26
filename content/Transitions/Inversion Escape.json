@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Inside Heel Hook",
       "probability": 10,
       "result": "counter"
     }
@@ -152,7 +152,7 @@
         "counter": "Opponent secures heel grip before or during your inversion attempt",
         "effectiveness": "High",
         "your_response": "If heel is secured, abort inversion immediately and transition to grip fighting defense while protecting knee alignment - do not invert with heel grip established",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Open Guard/Top"
       },
       {
         "counter": "Opponent posts hand on mat to prevent your rotation and maintains base",
@@ -221,7 +221,7 @@
         "description": "Positional sparring starting from Honey Hole position with full resistance. Goal is successful escape or proper tap recognition when escape window closes. Integrate escape into full rolling sessions with leg lock exchanges."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Inversion Escape from Honey Hole?",
         "answer": "The primary goal is to extract your trapped leg from the inside leg triangle configuration before your opponent can secure a heel hook grip. The inversion changes the angle of your leg relative to their entanglement, creating a brief window where extraction becomes mechanically possible. Secondary goal is establishing safe guard position immediately upon extraction."
@@ -287,7 +287,7 @@
       {
         "action": "Immediately secure heel hook grip with four-fingers-over, thumb-under configuration before opponent can initiate inversion",
         "when_to_use": "The moment you feel your inside leg triangle lock into place - do not wait to settle or adjust position before gripping the heel",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Open Guard/Top",
         "if_successful": "Opponent cannot safely invert with heel gripped. Apply controlled breaking pressure for submission finish or they tap recognizing the trapped position",
         "risk": "If you rush the grip and get only a partial hold, opponent may strip it during their inversion attempt and escape with momentum"
       },
@@ -301,7 +301,7 @@
       {
         "action": "Transition to kneebar attack as opponent's leg extends during the inversion rotation, targeting the hyperextension angle created by their movement",
         "when_to_use": "When opponent commits to inversion and their trapped leg straightens during the rotation - the extension creates kneebar opportunity",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Open Guard/Top",
         "if_successful": "The kneebar catches opponent in mid-rotation when they cannot easily curl their leg back, and the momentum of their own inversion drives into the hyperextension",
         "risk": "If opponent completes the inversion faster than you can secure the kneebar, they extract their leg and you lose the entanglement entirely"
       },
@@ -315,7 +315,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
+        "outcome": "50-50 Guard/Top",
         "how": "Secure heel hook grip before opponent initiates inversion, or catch the heel during their rotation when it becomes momentarily exposed due to the angle change. Apply controlled breaking pressure once grip is established. Alternatively, transition to kneebar when their leg extends during the inversion attempt, using their own rotational momentum to drive the hyperextension."
       },
       {
@@ -345,7 +345,7 @@
         "correction": "If the inversion has already begun, prioritize following with hip pressure or transitioning to kneebar rather than chasing the heel through rotation. Only grip the heel when the movement stabilizes or when you have clear control of their leg position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most effective way to prevent the Inversion Escape from succeeding?",
         "answer": "Secure the heel hook grip immediately upon establishing your inside leg triangle - before settling your weight or making any other positional adjustments. The entire Inversion Escape depends on the 1-2 second window between triangle establishment and heel grip. By training your heel grip as part of your Honey Hole entry sequence rather than a separate step, you eliminate the escape window entirely. An opponent cannot safely invert once you have proper heel control."

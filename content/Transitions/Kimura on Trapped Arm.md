@@ -39,7 +39,7 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Kimura]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
@@ -198,17 +198,17 @@ The Kimura on Trapped Arm integrates seamlessly into the Gift Wrap attack system
 
 - [[Transitions/Crucifix Transition]] - Follow-up option - use Kimura grip to advance to crucifix
 
-- [[Submissions/Armbar from Back]] - Alternative attack - targets free arm when Kimura is defended
+- [[Transitions/Armbar from Back Transition]] - Alternative attack - targets free arm when Kimura is defended
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Positional alternative - advance position using Kimura grip control
 
-- [[Transitions/Rear Naked Choke]] - Alternative attack - primary choke threat from Gift Wrap position
+- [[Submissions/Rear Naked Choke]] - Alternative attack - primary choke threat from Gift Wrap position
 
 - [[Positions/Back Control]] - Parent position - Gift Wrap is advanced back control variation
 
 - [[Positions/Kimura Trap]] - Related system - Kimura grip as control mechanism philosophy
 
-- [[Transitions/Kimura]] - Parent submission - fundamental shoulder lock mechanics apply
+- [[Submissions/Kimura]] - Parent submission - fundamental shoulder lock mechanics apply
 
 - [[Transitions/Armbar on Free Arm]] - Complementary attack - creates dilemma when combined with Kimura threat
 

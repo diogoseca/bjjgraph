@@ -162,6 +162,8 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Matrix?</p>
+
 - Bottom player tightens grip on your belt or hip with increased pulling tension, indicating they are preparing to load your weight onto their sweeping structure
 - Hip elevation from the bottom player where their hips rise above their shoulders, creating the fulcrum point necessary for the sweep's leverage mechanics
 - Shoulder posting changes where the bottom player plants one shoulder more firmly into the mat, establishing the pivot point for their rotational sweep
@@ -174,6 +176,8 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Matrix?</p>
 
 - Recognize early sweep indicators including hip elevation, grip tightening, and shoulder posting changes before the sweep develops momentum
 - Wide base with knees spread beyond shoulder width provides maximum resistance to directional sweeping forces
@@ -188,6 +192,8 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Matrix?</p>
 
 ### 1. Widen base and drop hips to maximize support polygon against sweeping force
 
@@ -225,6 +231,8 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Matrix?</p>
+
 ### → [[Positions/Side Control]]
 
 When the sweep attempt fails due to your forward driving pressure, follow through aggressively to consolidate side control. Use the opponent's compromised structure and wasted energy from the failed sweep to establish crossface and hip control, converting their offensive attempt into your dominant position.
@@ -240,6 +248,8 @@ Neutralize the sweep by widening base, stripping grips, or counter-rotating befo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Matrix?</p>
 
 ### 1. Maintaining narrow base that provides insufficient resistance to sweeping force
 
@@ -269,13 +279,15 @@ Neutralize the sweep by widening base, stripping grips, or counter-rotating befo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Matrix?</p>
+
 **Phase 1: Recognition** - Identifying sweep indicators versus back take setups
 Partner telegraphs both sweep setups and standard Matrix back take entries from bottom. Practice recognizing the differences in grip tension direction, hip elevation angle, and shoulder posting changes. Call out the specific attack type before it develops momentum.
 
 **Phase 2: Base Adjustment** - Reactive base widening and weight shifting responses
 Partner initiates sweep attempts from Matrix bottom while you practice immediate base widening and directional weight shifting. Focus on speed of defensive adjustment to prevent the sweep from developing meaningful momentum. Execute 15-20 repetitions per round.
 
-**Phase 3: Grip Fighting Defense** - Breaking grip connections before sweep initiation
+**Phase 3: Grips Defense** - Breaking grip connections before sweep initiation
 Partner establishes sweeping grips from Matrix bottom while you practice stripping belt and hip connections. Develop sensitivity to grip tension changes that indicate sweep setup and practice immediate grip breaking responses.
 
 **Phase 4: Counter-Offensive Transition** - Converting defensive wins into offensive opportunities
@@ -285,29 +297,6 @@ After successfully defending the sweep, practice immediately transitioning to pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is setting up a Sweep from Matrix rather than a standard back take?
-**A**: The sweep produces a directional pulling force through grips rather than the circular rotation of the standard Matrix back take. Watch for hip elevation combined with grip tightening on your belt or hip where the pulling direction is lateral or perpendicular rather than rotational. The shoulder posting is also different—the sweep uses the shoulder as a fixed fulcrum rather than a rolling contact point. These distinctions appear in the first fraction of a second and provide crucial reaction time.
-
-**Q2**: How should you adjust your base when you feel the sweep being initiated?
-**A**: Immediately widen your base by spreading knees beyond shoulder width and dropping hips lower toward the mat. This increases the distance your center of gravity must travel to cross outside your support boundary, making the sweep mechanically harder to complete. Simultaneously shift weight toward the direction opposite to the sweeping force. Quick base widening combined with directional weight shifting defeats most sweep attempts when executed before significant momentum develops.
-
-**Q3**: Your opponent has loaded your weight onto their sweeping structure—is it too late to defend?
-**A**: Not necessarily, but your response must be immediate and aggressive. Strip at least one grip to break the connection loading your weight. If you cannot strip grips, drive hips downward explosively to flatten their hip elevation—without the elevated fulcrum, their sweeping force collapses. As a last resort, match their rotation and scramble rather than accepting the completed sweep. Even partial defense creates scramble situations that are preferable to conceding full back control.
-
-**Q4**: Why does maintaining a narrow base make you especially vulnerable to this sweep?
-**A**: A narrow base creates a small support polygon around your center of gravity. The sweep only needs to displace your weight outside this polygon to succeed, which requires less force with a narrow base than a wide one. Additionally, narrow base provides fewer posting options when the sweep begins—you have less lateral range to shift weight in response to the directional force, making even moderate sweeping efforts effective against your structure.
-
-**Q5**: After successfully defending the sweep, what should your immediate next action be?
-**A**: Transition to offense immediately rather than resettling in your current position. A defended sweep leaves the bottom player momentarily vulnerable with their weight committed, grips broken, and structure compromised from the explosive failed attempt. Attack with a pass attempt, set up a submission if their arm is extended from grip fighting, or advance your position while they are recovering their structure and energy. Passively resettling gives them time to establish the next attack.
-
-
-
-</section>
 
 
 </main>

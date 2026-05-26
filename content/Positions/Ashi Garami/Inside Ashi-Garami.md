@@ -32,7 +32,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inside leg position across opponent's hip controls rotation and prevents defensive posturing
@@ -98,7 +98,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (5% of attempts)
+- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (5% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (35% of attempts)
 
@@ -108,7 +108,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (4% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (6% of attempts)
+- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (7% of attempts)
 
 - **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (4% of attempts)
 
@@ -126,11 +126,9 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Submissions/Achilles Lock/Attacker|Achilles Lock]]** (2% of attempts)
 
-- **[[Submissions/Inside Heel Hook/Attacker|Inside Heel Hook]]** (1% of attempts)
+- **[[Inside Heel Hook from Inside Ashi-Garami/Attacker|Inside Heel Hook from Inside Ashi-Garami]]** (1% of attempts)
 
-- **[[Submissions/Toe Hold from Top/Attacker|Toe Hold from Top]]** (1% of attempts)
-
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -191,9 +189,9 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (43% of attempts)
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (6% of attempts)
+- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (6% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (9% of attempts)
+- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (9% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (4% of attempts)
 

@@ -177,6 +177,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 ## Position Definition
 
+<p class="section-subtitle">What is Matrix (Top)?</p>
+
 - Wide base with knees and hands positioned outside shoulder width creates lateral stability against rotational forces—narrow base allows bottom player's rotation to easily overcome top player's structure and complete the back take
 - Weight distribution actively adjusted in response to bottom player's hip movement prevents them from generating sufficient rotational momentum—static weight positioning allows bottom player to use that fixed point as leverage for their rotation
 - Constant monitoring of bottom player's shoulder position and hip elevation provides early warning of Matrix entry attempts—failing to track these indicators means reacting after rotation has already begun, which is typically too late to defend effectively
@@ -187,6 +189,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Matrix (Top)?</p>
 
 - Top position relative to opponent (turtle top, passing position, or consolidated top control)
 - Awareness of opponent's Matrix proficiency and rotational attack tendencies
@@ -200,6 +204,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Matrix?</p>
 
 - Recognition of early Matrix indicators (hip elevation, shoulder posting) enables preventative defense
 - Wide base with dynamic adjustment prevents rotational momentum from overcoming structure
@@ -215,6 +221,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Matrix (Top)?</p>
 
 **Bottom player begins hip elevation for Matrix entry:**
 - Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Turtle]] (Probability: 65%)
@@ -243,6 +251,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Matrix?</p>
 
 ### 1. Maintaining narrow base in turtle top or passing positions
 
@@ -282,6 +292,8 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Matrix attacks?</p>
+
 ### Matrix Recognition Drill
 
 Partner alternates between normal turtle movement and Matrix entry setups. Top player identifies and calls out Matrix indicators (hip elevation, shoulder posting) while maintaining position. Focus on recognition speed and early response.
@@ -314,38 +326,6 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that your opponent is setting up a Matrix back take?
-**A**: The earliest indicators are hip elevation above normal turtle or guard level and shoulder posting where the opponent begins shifting weight to one shoulder. Additionally, watch for grip changes as they establish connection points to your body, and subtle weight shifts that create the leverage needed for rotation. Recognizing these micro-movements provides crucial reaction time before the rotation gains momentum.
-
-**Q2**: Your opponent elevates their hips and posts their shoulder—what immediate adjustment do you make?
-**A**: Immediately widen your base by spreading your knees and hands beyond shoulder width to create lateral stability against the rotational force. Simultaneously shift your weight distribution away from their intended rotation direction. If they're posting their right shoulder, shift weight toward their left side to deny them the leverage point they need. This must happen instantly as any delay allows their rotation to gain momentum.
-
-**Q3**: Why does static pressure fail against Matrix attempts while dynamic adjustment succeeds?
-**A**: Static pressure creates a fixed point that the bottom player can use as a fulcrum for their rotation—your immobile weight becomes leverage against you. The rotational momentum of the Matrix is specifically designed to overcome stationary resistance. Dynamic adjustment means constantly redistributing weight in response to their movement, denying them any stable leverage point. Moving with and against their rotation neutralizes the momentum before it builds.
-
-**Q4**: How does maintaining offensive pressure prevent Matrix entries better than focused defense?
-**A**: When you're actively threatening passes, submissions, or position advancement, the bottom player must dedicate attention and energy to defending your attacks rather than setting up the complex timing and positioning the Matrix requires. The Matrix needs specific conditions—static opponent, established grips, proper hip position—and offensive pressure denies all of these. A passive top player creates the ideal Matrix entry opportunity.
-
-**Q5**: Your opponent begins rotating but you've successfully blocked the initial movement—what's your immediate next action?
-**A**: Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset.
-
-**Q6**: What grip fighting priorities should you maintain to disrupt Matrix mechanics?
-**A**: Break any grips the opponent establishes on your belt, pants legs, or ankles immediately—these connection points allow them to pull their rotation around you. Prevent them from establishing underhooks or seatbelt-style grips on your torso. Strip grips before they can load weight onto them. Without strong connection points, their rotation becomes an isolated movement that doesn't affect your position, making the technique ineffective.
-
-**Q7**: How do you balance Matrix defense with maintaining passing efficiency?
-**A**: Wide base and constant weight adjustment can slow your passing progression, but this trade-off is necessary against Matrix-skilled opponents. Focus on incremental advancement—establish secure position, then progress step-by-step rather than explosive passing that creates the instability Matrix relies on. Chain your attacks so each passing attempt also functions as Matrix defense through constant pressure and movement.
-
-**Q8**: Your opponent has established strong grips and begun hip elevation—is it too late to defend?
-**A**: It's not too late but your response must be immediate and aggressive. Strip at least one grip while sprawling your hips back to flatten their hip elevation. If you can't strip grips, match their rotation by circling in the same direction they're rolling—this denies them the relative motion they need. Alternatively, immediately attack the exposed arm or neck that their rotation setup creates. Never accept the position passively.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

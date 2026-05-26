@@ -166,6 +166,8 @@ Your positional advantage as the back controller with body triangle is substanti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rolling Back Take Reversal?</p>
+
 - Opponent secures two-on-one grip on your choking arm and begins pulling it across their body toward the triangle lock side
 - Opponent shifts their hips toward the side where your triangle foot is locked behind your knee, creating an angled body position
 - Opponent plants their far-side hand on the mat in a posting position while simultaneously turning their shoulders toward the triangle side
@@ -178,6 +180,8 @@ Your positional advantage as the back controller with body triangle is substanti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Back Take Reversal?</p>
 
 - Maintain constant chest-to-back connection to prevent your opponent from creating the hip angle needed to initiate the roll
 - Keep at least one arm free and ready to post on the mat at all times - never allow both arms to be controlled simultaneously
@@ -192,6 +196,8 @@ Your positional advantage as the back controller with body triangle is substanti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Back Take Reversal?</p>
 
 ### 1. Post your free arm on the mat immediately when you feel opponent pulling your choking arm across their body
 
@@ -229,6 +235,8 @@ Your positional advantage as the back controller with body triangle is substanti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Back Take Reversal?</p>
+
 ### → [[Positions/Back Control/Body Triangle]]
 
 Shut down the roll attempt by posting your free arm on the mat, driving your chest forward to flatten opponent, and squeezing the body triangle tighter. Once the attempt fails, immediately increase submission pressure while opponent has depleted energy from the failed reversal.
@@ -244,6 +252,8 @@ If the rolling attempt develops dangerous momentum, preemptively release the bod
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Back Take Reversal?</p>
 
 ### 1. Allowing both arms to be controlled simultaneously while hunting for the choke, eliminating your posting ability
 
@@ -273,6 +283,8 @@ If the rolling attempt develops dangerous momentum, preemptively release the bod
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Back Take Reversal?</p>
+
 **Week 1-2** - Recognition and posting
 Partner slowly walks through the rolling setup from body triangle. Practice identifying the two-on-one grip, hip angle creation, and posting hand placement. Focus on developing the tactile sensitivity to feel rotational intent before it develops into full momentum. 30 reps each side.
 
@@ -289,29 +301,6 @@ Full resistance positional rounds starting in body triangle back control. Partne
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three sequential conditions your opponent needs to execute the Rolling Back Take Reversal?
-**A**: Your opponent needs arm control (two-on-one on your choking arm to prevent posting), a hip angle (hips turned toward the triangle lock side to create a rotation axis), and sufficient momentum (committed rolling motion through 180 degrees). Disrupting any single condition stops the technique entirely, so your defense should target whichever condition is earliest in development.
-
-**Q2**: You feel your opponent pulling your choking arm across their body with a strong two-on-one grip - what is your immediate response?
-**A**: Immediately post your opposite arm firmly on the mat to create an anchor that prevents the roll from completing. Simultaneously drive your chest forward into their back to flatten them and squeeze the body triangle tighter. If you cannot free your choking arm, the posted opposite arm becomes your primary defense against the rolling momentum. Do not attempt to finish the choke while your arm is being pulled across.
-
-**Q3**: Why is maintaining chest-to-back connection the most important preventive measure against this reversal?
-**A**: Chest-to-back connection prevents the opponent from creating the hip angle needed to initiate the roll. Without this angle, the rotation is mechanically impossible regardless of their arm control or commitment. When your chest is tight to their back and driving forward, their hips cannot turn toward the triangle side, eliminating the technique at its foundation. This is why the reversal typically succeeds only when the back controller lifts up to hunt for submissions.
-
-**Q4**: Your opponent has created a hip angle and you feel rotational momentum beginning - should you release the body triangle?
-**A**: Do not release the body triangle once the roll has initiated with momentum. Releasing mid-rotation removes your connection to the opponent and results in a worse scramble position. Instead, post your arm aggressively on the mat to block the rotation, drive your weight forward, and use the triangle lock itself to maintain connection. Only consider releasing the triangle preemptively before the roll begins, transitioning to mount or hooks as a preventive measure.
-
-**Q5**: How can you use a failed rolling attempt to your advantage offensively?
-**A**: A failed rolling attempt costs your opponent significant energy - the explosive effort of attempting the roll depletes their stamina rapidly, especially under body triangle breathing restriction. Immediately after they fail, tighten your body triangle squeeze, reestablish dominant upper body control, and increase your submission attack tempo. Their depleted energy state means weaker hand fighting defense and reduced ability to protect their neck, creating a prime finishing window.
-
-
-
-</section>
 
 
 </main>

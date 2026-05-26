@@ -47,10 +47,6 @@
       "relationship": "Target position - successful entry establishes mounted crucifix control"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Chain attack - failed armbar defense often creates crucifix entry opportunity"
-    },
-    {
       "name": "Gift Wrap",
       "relationship": "Alternative entry - gift wrap control can transition to crucifix"
     },
@@ -72,7 +68,7 @@
     },
     {
       "name": "Mount to Armbar",
-      "relationship": "Primary chain - armbar setup from mount creates crucifix entry windows"
+      "relationship": "Primary chain - armbar setup from mount creates crucifix entry windows when failed armbar defense exposes the far arm"
     }
   ],
   "attacker": {
@@ -202,7 +198,7 @@
         "description": "Implement crucifix entries during positional sparring starting from mount. Work through common defensive reactions and develop personal timing for the transition. Focus on maintaining mount when crucifix fails rather than losing position entirely."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Mounted Crucifix Entry transition?",
         "answer": "The primary goal is to advance from S Mount to Mounted Crucifix by trapping both of the opponent's arms with your legs. This removes their primary defensive tools (frames and grips), creating an extremely dominant control position with multiple high-percentage submission opportunities including chokes and armbars."
@@ -341,7 +337,7 @@
         "correction": "Combine arm protection with active hip escaping. Every defensive action should also move your hips toward recovering half guard or creating distance from the S Mount."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is reaching across your body to defend the armbar the most common mistake that leads to crucifix entry?",
         "answer": "When you reach across your body to grip your own wrist or the defender's arm during armbar defense, your far arm crosses your centerline directly into the path where the opponent will thread their leg. This motion essentially delivers your arm into the trap. The attacker does not need to hunt for your arm - your defensive instinct presents it. Instead, defend the armbar by gripping your own collar with the trapped hand and framing with your far arm on your side of the body."

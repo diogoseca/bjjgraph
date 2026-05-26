@@ -222,7 +222,7 @@
         "description": "Implement Inside Position Recovery during live rolling with full resistance. Focus on early recognition of leg drag entries and immediate defensive response. Track success rate and analyze failures for continued improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Inside Position Recovery?",
         "answer": "The primary goal is to escape leg drag control by extracting your trapped leg and establishing inside position with a butterfly hook, transitioning from a defensive compromised position to an offensive guard where you have active hooks and sweep/submission opportunities."
@@ -355,7 +355,7 @@
         "correction": "Read the earlier cues: the frame against your shoulder and the foot posting on the mat. Counter at the frame stage, not the extraction stage"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting Inside Position Recovery?",
         "answer": "The earliest cue is when they place their far-side forearm against your shoulder or neck to establish a frame. This is the prerequisite for their entire escape sequence—without this frame, they cannot generate the hip escape needed for leg extraction. Responding at this stage is far more effective than waiting for the hip movement or leg extraction."

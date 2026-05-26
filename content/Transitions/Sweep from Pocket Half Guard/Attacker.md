@@ -188,6 +188,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Pocket Half Guard?</p>
+
 - Underhook depth determines sweep power—grip must reach the opponent's far lat or shoulder blade, not just their near shoulder
 - The pocket frame foot against the opponent's near hip serves as the fulcrum around which the rotational sweep operates
 - Hip bridge direction must angle into the opponent's center of gravity, not straight upward, to create lateral displacement
@@ -202,6 +204,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Pocket Half Guard?</p>
+
 - Deep underhook secured with hand gripping opponent's far lat, armpit, or belt line—shallow underhook compromises all sweep power
 - Bottom foot firmly pressed against opponent's near hip creating active pocket frame with constant outward pressure
 - Half guard leg lock engaged trapping opponent's leg to prevent them from stepping over or extracting during sweep
@@ -214,6 +218,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Pocket Half Guard step by step?</p>
 
 1. **Confirm underhook depth and pocket frame**: Verify your underhook hand is gripping the opponent's far lat or shoulder blade with your elbow pulled tight to their body. Confirm your bottom foot is actively pressing against their near hip, creating the pocket space. Both control points must be solid before initiating the sweep—a shallow underhook or passive frame will cause the sweep to fail.
 2. **Read opponent's weight distribution**: Feel for the opponent's center of gravity through your underhook and pocket frame connections. Wait for them to shift weight forward—either through deliberate pressure or in response to a feinted Old School threat. The optimal timing window opens when their weight moves past the midline toward your underhook side, compromising their lateral base.
@@ -243,6 +249,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Pocket Half Guard?</p>
+
 - **Opponent posts far hand wide on the mat to base out against the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle or abandon and immediately threaten Old School by reaching under their far leg, forcing them to retract the posted hand to defend → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Opponent drops hips low and drives crossface pressure to flatten you before the sweep initiates** (Effectiveness: High) - Your Response: If flattened before sweep initiation, abandon the sweep and transition to Deep Half Guard entry by scooting hips underneath the opponent, using their forward pressure as entry momentum → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent circles hips away from underhook side to neutralize the rotational force** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your angle and re-threatening the sweep from the new position, or transition to a back take as their hip rotation exposes their back → Leads to [[Positions/Half Guard/Pocket Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Pocket Half Guard?</p>
 
 ### 1. Bridging straight upward instead of angling the hip drive toward the opponent
 
@@ -293,6 +303,8 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Pocket Half Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated bridge-and-underhook coordination
 Practice the hip bridge with underhook pull against a stationary partner. Focus on the angle of the bridge, the depth of the underhook grip, and the timing of the coordinated pull-and-bridge movement. Partner provides no resistance. Perform 20 repetitions per side until the movement feels natural.
 
@@ -313,42 +325,12 @@ Partner specifically defends the sweep with high-percentage counters (basing out
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating this sweep?
-**A**: The optimal timing window opens when the opponent shifts their weight forward past the midline, either through deliberate pressure or in response to a feinted Old School threat. Their forward weight commitment compromises lateral base stability, making them vulnerable to the rotational force generated by the underhook pull and angled hip bridge combination.
-
-**Q2**: What grip depth is required on the underhook for this sweep to generate sufficient rotational force?
-**A**: The underhook hand must reach completely across the opponent's back to grip their far lat, far armpit, or belt line. A grip on just the near shoulder or mid-back provides insufficient lever length for the rotation. The deeper the grip, the greater the mechanical advantage—think of the underhook arm as a lever where grip depth determines the moment arm length.
-
-**Q3**: Why must the hip bridge angle toward the opponent rather than driving straight upward?
-**A**: A vertical bridge lifts the opponent but does not displace them laterally, allowing them to simply ride the bridge and settle back down with base intact. Angling the bridge toward the underhook side creates lateral displacement that tips the opponent past their balance point. The angled bridge converts vertical force into the rotational force needed to complete the sweep.
-
-**Q4**: Your opponent posts their far hand wide to resist the sweep—how do you adjust?
-**A**: When the opponent bases out with their far hand, the direct sweep becomes very difficult. The best response is to immediately threaten the Old School Sweep by reaching under their far leg, which forces them to retract the posted hand to defend. This creates a chain attack dilemma—defending the sweep opens the Old School, and defending the Old School opens the sweep.
-
-**Q5**: What role does the pocket frame foot play in the mechanics of this sweep?
-**A**: The pocket frame foot pressed against the opponent's near hip serves as the fulcrum for the entire rotational sweep mechanism. It creates a fixed point around which the opponent rotates when the underhook pulls their far side down. Without this fulcrum, the sweep degenerates into a pushing match that favors the top player's weight and gravity advantage.
-
-**Q6**: What should you do if you feel the opponent beginning to strip your underhook before you can execute the sweep?
-**A**: Do not fight to maintain a compromised underhook and attempt the sweep anyway—this results in a failed sweep with no backup plan. Instead, immediately transition to Knee Shield Half Guard to reestablish a defensive frame, or if the stripping creates space, insert butterfly hooks for a guard transition. The key principle is never attempting the sweep without deep underhook control.
-
-**Q7**: How does this sweep integrate with the Old School Sweep as a chain attack from pocket half guard?
-**A**: The two sweeps create a directional dilemma for the top player. The Old School Sweep punishes opponents who sit back to prevent the pocket sweep, while this sweep punishes opponents who drive forward to prevent the Old School entry. By threatening both, the bottom player forces the top player to balance weight perfectly on the midline, which makes either sweep more effective when committed to explosively.
-
-**Q8**: Why is it critical to maintain the underhook connection throughout the sweep rather than posting your hand on the mat?
-**A**: Releasing the underhook during the sweep transition creates a gap in control that allows the opponent to turn into you, recover guard, or scramble to a neutral position. The underhook connection guides the opponent's landing position and prevents defensive rotation. Only transition to side control grips after your chest is on the opponent and positional control is fully established.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Pocket Half Guard?</p>
 
 The Sweep from Pocket Half Guard is a relatively low-risk technique since it involves no joint manipulation or choking mechanics. Primary safety concerns include controlling the sweep completion to prevent the opponent from landing awkwardly on their shoulder or neck. The sweeper must guide the opponent to the mat using the underhook connection rather than simply dumping them. During drilling, ensure adequate mat space for the full sweep arc and start with reduced speed until both partners understand the movement pattern. Partners should communicate about intensity level and the top player should tap or verbalize if they feel their neck is in a compromised position during the rotation.
 

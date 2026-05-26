@@ -164,6 +164,8 @@ The defender's primary strategy centers on denying the space required for the in
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X to Back Take?</p>
+
 - Guard player increases pull on your near sleeve or wrist while simultaneously elevating their hips higher than normal sweep positioning
 - Guard player's shoulders begin rotating away from you toward their far shoulder, indicating the start of the inversion motion
 - You feel the guard player's primary hook shifting from an upward lifting direction to a lateral pulling direction behind your knee
@@ -175,6 +177,8 @@ The defender's primary strategy centers on denying the space required for the in
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X to Back Take?</p>
 
 - Recognize that your own backstep or base widening triggers the back take - avoid reflexive retreat from sweep pressure
 - Maintain forward hip pressure rather than pulling away when you feel elevation from the guard player's hooks
@@ -188,6 +192,8 @@ The defender's primary strategy centers on denying the space required for the in
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X to Back Take?</p>
 
 ### 1. Drop hips and sit back immediately to deny inversion space
 
@@ -225,6 +231,8 @@ The defender's primary strategy centers on denying the space required for the in
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X to Back Take?</p>
+
 ### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Deny the inversion by sitting hips down and driving forward pressure before the guard player can rotate underneath you. Strip their sleeve grip to remove the pulling control they need for the inversion. You return to Reverse X-Guard top where you can resume passing.
@@ -240,6 +248,8 @@ If the inversion is partially completed, turn aggressively to face the guard pla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X to Back Take?</p>
 
 ### 1. Reflexively backstepping or widening base when feeling sweep pressure from Reverse X-Guard hooks
 
@@ -269,6 +279,8 @@ If the inversion is partially completed, turn aggressively to face the guard pla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X to Back Take?</p>
+
 **Week 1-2** - Recognition and early defense
 Partner initiates the back take at 50% speed from Reverse X-Guard. Practice identifying the recognition cues: sleeve pull increase, shoulder rotation, hook direction change. Focus on the immediate defensive response of sitting hips down and driving forward pressure. No live resistance - purely pattern recognition and muscle memory for the correct defensive direction.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting from Reverse X-Guard. Guard player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most common mistake that triggers the Reverse X to Back Take?
-**A**: The most common trigger is reflexively backstepping or widening your base when you feel sweep pressure from the Reverse X-Guard hooks. This backward weight shift is exactly what the guard player needs to initiate the inversion. Instead of retreating, you should drive your hips forward and address the hooks directly through controlled pressure, grip strips, or systematic passing that maintains your forward position.
-
-**Q2**: You feel the guard player beginning to rotate underneath you - which direction should you turn?
-**A**: You should immediately turn toward the guard player, not away from them. Turning toward them denies the chest-to-back connection they need to complete the back take. By facing them directly, you force a scramble situation where your top position and weight advantage work in your favor. Turning away is the worst possible response because it exposes your back and actually assists their rotational momentum toward back control.
-
-**Q3**: What grip should you prioritize stripping when you recognize the back take setup?
-**A**: Prioritize stripping the guard player's near sleeve or wrist grip. This grip is the primary control mechanism that allows them to pull your upper body into the inversion path and prevent you from posting your hand to stop the rotation. Without this grip, the guard player loses their steering ability and cannot effectively execute the inversion. Use your free hand to peel their grip while maintaining your base and forward pressure with your hips.
-
-**Q4**: Your opponent has already started inverting and their shoulders are rotating - is it too late to defend?
-**A**: It is not too late if they have not yet established chest-to-back connection. You have a critical window between the start of the inversion and the completion of back control. Immediately post your near hand on the mat and turn aggressively to face them. Drive your weight forward to flatten their inversion attempt. If you can deny the chest-to-back connection, you can force a scramble even from a partially completed inversion. The defense only becomes extremely difficult once they have both seatbelt grip and chest connection established.
-
-**Q5**: How does maintaining forward pressure help prevent the back take?
-**A**: Forward pressure denies the guard player the space they need underneath you to complete the inversion. The back take requires the guard player to thread their body beneath yours while rotating, which demands open space between your hips and the mat. By driving your weight forward and keeping your hips low, you compress this space and make the rotational movement physically impossible. Forward pressure also shifts your weight onto the guard player, making their hooks less effective for generating the elevation needed to initiate the movement.
-
-
-
-</section>
 
 
 </main>

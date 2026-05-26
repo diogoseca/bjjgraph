@@ -154,6 +154,8 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Hook to Half Guard?</p>
+
 - Top player's hooked leg begins disengaging or changing pressure direction, shifting from active hook tension to extraction movement
 - Chest and shoulder pressure intensifies suddenly as the top player compensates for reduced lower body control during the transition
 - Top player's free hand moves to control your far hip, signaling imminent leg repositioning and consolidation intent
@@ -166,6 +168,8 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Hook to Half Guard?</p>
 
 - Recognize the consolidation attempt early through changes in weight distribution and leg positioning before the top player completes the transition
 - Fight aggressively for the underhook during the transition window when the top player's control is momentarily weakened
@@ -180,6 +184,8 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Hook to Half Guard?</p>
 
 ### 1. Fight for underhook during transition window
 
@@ -217,6 +223,8 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Hook to Half Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Capitalize on the transition window to execute a sweep by timing your underhook or hip escape to coincide with the top player's leg repositioning phase. The brief instability in their base during the weight transfer creates a sweep opportunity that does not exist in either the stable leg hook or stable half guard top positions.
@@ -232,6 +240,8 @@ Disrupt the consolidation by maintaining active hook retention, aggressive frame
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Hook to Half Guard?</p>
 
 ### 1. Remaining passive during the transition instead of actively disrupting the consolidation
 
@@ -261,6 +271,8 @@ Disrupt the consolidation by maintaining active hook retention, aggressive frame
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Hook to Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying consolidation attempts through tactile cues
 Partner performs the consolidation at 50% speed while you focus on identifying the weight shift, hook disengagement, and upper body control changes that signal the transition. Call out each recognition cue as you feel it. Build pattern recognition before adding defensive responses.
 
@@ -277,26 +289,6 @@ Positional sparring starting from Leg Hook Bottom. Both players operate at full 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary tactical opportunity that the opponent's consolidation attempt creates for you?
-**A**: The consolidation requires the top player to momentarily reduce lower body control while repositioning their legs, creating a brief window where their base and control structure are weakened. This transitional instability can be exploited for underhook establishment, knee shield insertion, deep half entries, or sweep attempts that would not succeed against either a stable leg hook or stable half guard top position. Recognizing and acting during this window is the defender's primary opportunity.
-
-**Q2**: You feel your opponent's hooked leg begin to disengage - what is your immediate priority?
-**A**: Your immediate priority is to fight for the underhook on the trapped leg side before the top player can establish crossface control in the new half guard top position. The underhook is the single most important control for offensive half guard bottom play—it enables sweeps, back takes, and positional improvements. Establishing it during the transition window, when the top player's attention is split between upper and lower body control, is significantly easier than fighting for it against established half guard top pressure.
-
-**Q3**: Why is it sometimes better to allow the consolidation and focus on establishing good half guard bottom rather than disrupting it?
-**A**: If the transition window has already passed or the top player's upper body control is too strong to disrupt, attempting forced counter-attacks wastes energy and may result in worse positioning. In such cases, focusing on establishing strong half guard bottom fundamentals—maintaining side angle, fighting for underhook, establishing knee shield, keeping frames active—creates a sustainable defensive position from which you can launch offensive sequences. A well-organized half guard bottom is better than a failed counter-attack that leaves you flattened.
-
-**Q4**: How do you prevent being flattened during the consolidation phase?
-**A**: Use your bottom elbow as a posting point to maintain side angle, actively fight the crossface with your near-side hand by framing at the opponent's neck or shoulder, and keep your hips mobile through continuous micro-adjustments. If the opponent drives heavy pressure, use a butterfly hook with your free leg to create elevation and prevent chest-to-chest connection. The goal is to never allow both shoulders to touch the mat simultaneously during the transition.
-
-
-
-</section>
 
 
 </main>

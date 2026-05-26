@@ -28,7 +28,7 @@ From Guillotine Control Bottom, the finish requires precise coordination between
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
-**From Position**: [[Positions/Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -39,7 +39,7 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Guillotine Choke]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 

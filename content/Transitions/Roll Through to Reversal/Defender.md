@@ -156,6 +156,8 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Through to Reversal?</p>
+
 - Opponent tucks their hips underneath their body creating a compact ball shape rather than staying flat or extended
 - Opponent secures a firm grip on your choking arm at the wrist or elbow and pulls it tight to their chest
 - Opponent posts their inside hand on the mat in front of them with fingers pointing toward your base
@@ -168,6 +170,8 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Through to Reversal?</p>
 
 - Maintain wide base with hips back rather than driving weight directly forward over opponent's centerline
 - Keep downward pressure through chest rather than forward-driving pressure that creates rollable momentum
@@ -182,6 +186,8 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Through to Reversal?</p>
 
 ### 1. Sprawl hips back immediately while driving chest weight down to flatten opponent
 
@@ -219,6 +225,8 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Through to Reversal?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Sprawl hips back immediately upon sensing the roll setup, drive weight downward to flatten opponent, and re-establish attacking front headlock pressure with improved grip position
@@ -234,6 +242,8 @@ If the roll initiates and cannot be stopped, follow the rotation by circling wit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Through to Reversal?</p>
 
 ### 1. Driving forward with excessive weight over opponent's centerline while attacking submissions
 
@@ -268,6 +278,8 @@ If the roll initiates and cannot be stopped, follow the rotation by circling wit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Through to Reversal?</p>
+
 **Week 1-2** - Recognition and sprawl reaction
 Partner signals before each roll attempt. Practice reactive hip sprawling the moment you feel the pre-roll cues: arm grip tightening, body compaction, and hip loading. Focus on speed of sprawl reaction rather than maintaining any particular grip or submission setup. Build the automatic response pattern.
 
@@ -284,26 +296,6 @@ Live positional sparring from front headlock where partner has full freedom to a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution mistake makes you most vulnerable to the roll through reversal?
-**A**: Driving your weight forward over the opponent's centerline rather than keeping it downward through your chest. When your center of gravity moves forward of your base of support, you become rollable because the opponent can redirect your momentum through the rotation. The correction is maintaining sprawl-like hip positioning with downward chest pressure rather than forward-driving pressure, using skeletal alignment rather than muscular forward drive.
-
-**Q2**: You feel your opponent grip your choking arm tightly and begin to compact their body—what is your immediate response?
-**A**: Sprawl your hips back immediately while increasing downward chest pressure to flatten them. The arm grip and body compaction are the two primary pre-roll cues that indicate the roll attempt is imminent. Your sprawl must be reactive and automatic—waiting even one second after these cues appear may be too late. Simultaneously, widen your base by stepping your posting foot out to create a physical barrier against the roll direction. This two-part response of sprawling back and widening base defeats most roll attempts.
-
-**Q3**: The opponent's roll has already initiated and you cannot stop it—what is the best defensive strategy?
-**A**: Follow the roll direction and work to take the back rather than fighting the momentum. As the opponent rotates through, circle with their motion and look to insert hooks and establish back control. This converts their escape attempt into an even worse position for them. Fighting against an initiated roll with arm strength typically fails and results in a clean reversal to front headlock bottom. The ability to transition from counter-roll defense to back take requires practice but yields the best outcome from a bad situation.
-
-**Q4**: How does your front headlock attacking style need to change against opponents who threaten the roll through?
-**A**: You must shift from aggressive forward-driving pressure to controlled downward pressure with better base management. Keep your hips slightly further back than normal, maintain a wider stance, and use sprawl-like positioning even while attacking. Your submissions should come from grip manipulation and angle changes rather than driving your weight forward over the opponent. This more disciplined approach sacrifices some immediate submission pressure but eliminates the roll through vulnerability while still maintaining dominant control.
-
-
-
-</section>
 
 
 </main>

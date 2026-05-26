@@ -170,6 +170,8 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Peruvian Necktie Setup?</p>
+
 - Opponent releases gable grip from front headlock and begins threading their arm deep under your armpit for an overhook, indicating they are transitioning from standard front headlock control to the Peruvian Necktie configuration
 - You feel opponent dropping their weight to their outside hip while maintaining head pressure, shifting from a sprawled position to a perpendicular angle relative to your body
 - A leg begins threading underneath your torso as opponent inverts their body, with their shin sliding across the mat beneath your chest while head and overhook pressure remain constant
@@ -181,6 +183,8 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Peruvian Necktie Setup?</p>
 
 - Defend at the earliest phase possible - each completed phase dramatically reduces escape probability
 - Keep your near arm free at all costs, as the overhook trap is the structural foundation of the entire choke
@@ -195,6 +199,8 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Peruvian Necktie Setup?</p>
 
 ### 1. Posture up explosively and drive forward before the overhook is secured
 
@@ -232,6 +238,8 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Peruvian Necktie Setup?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Posture up explosively during the early setup phase before the overhook is secured, or strip the overhook by pulling your near arm down and across your body while circling laterally away from the choking side. Both actions deny the attacker the structural elements needed for the Peruvian Necktie and force them to reset or chain to a different front headlock attack.
@@ -247,6 +255,8 @@ Turn into the attacker and execute a sit-through during the leg threading phase 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Peruvian Necktie Setup?</p>
 
 ### 1. Remaining static in turtle and allowing the attacker to complete all setup phases without resistance
 
@@ -281,6 +291,8 @@ Turn into the attacker and execute a sit-through during the leg threading phase 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Peruvian Necktie Setup?</p>
+
 **Week 1-2: Recognition drilling** - Identifying each phase of the Peruvian Necktie setup by feel
 Partner walks through the Peruvian Necktie setup at slow speed, pausing at each phase: front headlock, overhook attempt, hip drop, leg thread, triangle lock. Practice identifying each phase with eyes closed and verbally calling out what you feel. Build automatic recognition of the transition from standard front headlock to Peruvian Necktie entry. Perform 15-20 slow repetitions until recognition is instinctive.
 
@@ -297,32 +309,6 @@ Positional sparring starting from front headlock. Attacker works to complete the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: At what phase of the Peruvian Necktie setup is your defense most likely to succeed, and why?
-**A**: Defense is most likely to succeed during the overhook establishment phase, before the attacker drops to their hip and threads the leg. At this stage you still have both arms available for hand fighting, your posture can be recovered explosively, and the attacker must manage their own balance while transitioning from gable grip to overhook. Once the overhook is secured and the hip drops, escape probability drops significantly because the structural foundation of the choke is in place. Defending the overhook means you are fighting a front headlock, not a necktie.
-
-**Q2**: You feel your near arm being trapped under your opponent's armpit - what is your immediate response?
-**A**: Immediately pull your arm down and across your body to strip it free from the overhook before it can be fully secured. Use your free hand to push against opponent's hip or shoulder to create separation while you extract the arm. Simultaneously begin circling away from the choking side to create an angle that makes the overhook harder to maintain. Speed is critical because once the overhook is fully locked and opponent drops to their hip, arm extraction becomes exponentially harder. If the arm comes free, immediately return to active turtle defense with elbows tight.
-
-**Q3**: Why is lateral movement more effective than pulling straight backward when defending the Peruvian Necktie?
-**A**: The Peruvian Necktie's choking force operates along the axis between attacker's chest and your neck, meaning pulling backward drives you directly into the choking pressure and actually tightens the configuration. Lateral movement disrupts the alignment the attacker needs by changing the angle of force application. Turning into the attacker can collapse their leg threading angle and create scramble opportunities, while turning away creates space to extract your arm. Both lateral directions are superior to backward movement because they address the choke's geometry rather than fighting against it.
-
-**Q4**: Your opponent has dropped to their hip and is beginning to thread their leg - what options remain?
-**A**: Your primary option is to sit through toward the attacker's side, using their compromised base during the inversion to create a scramble. Their weight is shifting underneath you, which temporarily reduces their control. Turn your hips and drive through to recover half guard or closed guard. A secondary option is to sprawl your hips backward explosively to prevent the leg from completing the thread. If the leg is already partially through, you can attempt to roll with their momentum to end up in a top scramble position. At this phase, acting immediately is critical because once the triangle locks, your defensive options narrow to a last-resort grip defense.
-
-**Q5**: What follow-up attacks should you expect if you successfully extract your arm from the overhook?
-**A**: Extracting your arm from the overhook forces the attacker to abandon the Peruvian Necktie, but they still have front headlock control and will immediately chain to alternative attacks. Expect a guillotine attempt as your neck is still exposed, a darce choke if they can underhook your now-freed arm from the other side, an anaconda choke by re-threading around the arm in a different configuration, or a back take if you turn away during the extraction. Continue active defense with chin tucked and elbows tight after freeing the arm rather than relaxing. The arm extraction is a critical step but not the end of the defensive sequence.
-
-**Q6**: How do you distinguish between a Peruvian Necktie setup and a standard front headlock attack early enough to apply the correct defense?
-**A**: The key tell is the overhook transition. In standard front headlock attacks like guillotines, the attacker maintains a gable grip or chin strap control with both hands on your head and neck. For the Peruvian Necktie, you will feel one arm release from the gable grip and begin threading deep under your armpit for the overhook. This is the critical differentiating moment. Additionally, the attacker's body angle shifts as they begin positioning to drop to their hip, moving from directly behind or above you to a more perpendicular alignment. Recognizing these two cues - overhook attempt and angle shift - tells you the Peruvian Necktie is coming and you need to prioritize arm extraction over standard front headlock escapes.
-
-
-
-</section>
 
 
 </main>

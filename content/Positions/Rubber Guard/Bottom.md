@@ -26,8 +26,8 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata",
-      "text": "From this position, attempt Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Omoplata from Rubber Guard",
+      "text": "From this position, attempt Omoplata from Rubber Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
@@ -165,6 +165,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Position Definition
 
+<p class="section-subtitle">What is Rubber Guard (Bottom)?</p>
+
 - Closed guard base maintained with one leg elevated high across opponent's back, shin positioned near or above shoulder line with foot secured by same-side hand creating locked configuration
 - Opponent's near-side arm trapped against practitioner's chest through leg pressure, preventing posture recovery and limiting posting ability while maintaining constant breaking pressure
 
@@ -174,6 +176,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Rubber Guard (Bottom)?</p>
 
 - Exceptional hip and hamstring flexibility to achieve high leg position
 - Strong closed guard fundamentals with understanding of posture control
@@ -185,6 +189,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rubber Guard?</p>
 
 - Establish and maintain strong posture control through leg pressure on trapped arm
 - Create high guard position using extreme hip flexibility and proper bridging mechanics
@@ -201,9 +207,11 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Rubber Guard (Bottom)?</p>
+
 **If opponent establishes strong posture and begins pulling trapped arm free:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
-- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Submissions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack:**
@@ -213,7 +221,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 **If opponent sits back and attempts to break open the guard:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Submissions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent successfully breaks leg grip but remains in guard:**
@@ -233,6 +241,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rubber Guard?</p>
 
 ### 1. Insufficient flexibility attempting position too early in development
 
@@ -271,6 +281,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Rubber Guard defense?</p>
 
 ### Rubber Guard Entry and Maintenance
 

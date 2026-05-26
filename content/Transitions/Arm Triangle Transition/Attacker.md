@@ -192,6 +192,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Triangle Transition?</p>
+
 - Wait for the opponent to create a near-side frame before initiating the grip change—the defensive arm is the trigger
 - Maintain head control throughout the entire transition from guillotine to arm triangle configuration
 - Trap the opponent's framing arm against their own neck before releasing the guillotine grip completely
@@ -206,6 +208,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Triangle Transition?</p>
+
 - Established bottom Hindulotine with guillotine grip secured and opponent's posture broken forward
 - Opponent has created a near-side defensive frame with their arm pressed between your bodies to relieve neck pressure
 - Your legs are in a configuration that allows sweeping action—butterfly hooks or feet on hips preferred
@@ -218,6 +222,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Triangle Transition step by step?</p>
 
 1. **Identify the frame**: Recognize the trigger: opponent pushes a near-side frame against your chest or shoulder to create space and relieve Hindulotine pressure. Their forearm or hand is now positioned between your bodies, crossing their own centerline toward their neck.
 2. **Secure the trapped arm**: While maintaining your guillotine grip, use your non-choking arm to clamp down on the opponent's framing arm, pinning it against their neck. Your elbow drives their wrist toward their ear, creating the head-and-arm configuration where their own bicep compresses one side of the neck.
@@ -247,6 +253,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Triangle Transition?</p>
+
 - **Opponent retracts the framing arm before it can be trapped, denying the head-and-arm configuration** (Effectiveness: High) - Your Response: Return to the Hindulotine guillotine attack since their frame is gone—the arm retraction reopens the guillotine finish → Leads to [[Positions/Closed Guard]]
 - **Opponent drives forward with maximum pressure to flatten you before the sweep, using bodyweight to prevent elevation** (Effectiveness: Medium) - Your Response: Use the forward pressure as energy for the butterfly sweep—their drive forward loads your hooks perfectly for elevation → Leads to [[Positions/Side Control]]
 - **Opponent circles their hips away to create distance and extract their head during the grip transition** (Effectiveness: Medium) - Your Response: Follow the hip escape with your legs and transition to a back take as their turning motion exposes the back → Leads to [[Positions/Closed Guard]]
@@ -258,6 +266,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Triangle Transition?</p>
 
 ### 1. Releasing the guillotine grip before the opponent's framing arm is fully trapped against their neck
 
@@ -297,6 +307,8 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Triangle Transition (Attacker)?</p>
+
 **Week 1-2** - Grip reconfiguration mechanics
 Drill the transition from guillotine grip to arm triangle grip in isolation. Partner holds a static frame while you practice the arm trap and grip switch sequence. Focus on maintaining head control throughout the change and ensuring the arm is fully trapped before releasing the guillotine. No resistance—purely mechanical repetition of the grip change.
 
@@ -314,48 +326,12 @@ Integrate the full sequence into positional sparring starting from bottom Hindul
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific defensive reaction from your opponent triggers the Arm Triangle Transition from bottom Hindulotine?
-**A**: The trigger is the opponent creating a near-side defensive frame by pushing their forearm or hand against your chest or shoulder to relieve guillotine pressure. This frame positions their arm across their own centerline and against their neck, creating exactly the head-and-arm configuration needed for the arm triangle. Without this frame, the transition lacks the structural element that makes the choke possible.
-
-**Q2**: Why must you sweep to side control before attempting to finish the arm triangle?
-**A**: The arm triangle requires top-side pressure to generate sufficient compression on both carotid arteries. From bottom position, you cannot drive your shoulder into the opponent's trapped arm with enough force to complete the choke. Side control provides gravity assistance, shoulder driving angle, and the ability to walk your hips toward the opponent's head to progressively tighten the squeeze. Bottom arm triangles are energy-intensive and low-percentage.
-
-**Q3**: Your opponent starts to retract their framing arm as you begin the grip change—what is your immediate response?
-**A**: Immediately abandon the arm triangle transition and return to the Hindulotine guillotine attack. The opponent retracting their frame removes the defensive barrier that was preventing the guillotine finish. Their arm retraction actually reopens the original submission. This creates the core dilemma: framing defends the guillotine but opens the arm triangle, while removing the frame defends the arm triangle but reopens the guillotine.
-
-**Q4**: What grip configuration is used for the arm triangle and where exactly should your forearm be positioned?
-**A**: Use a figure-four grip (palm-to-bicep) or gable grip (palm-to-palm) with your choking arm threaded deep under the opponent's neck. The blade of your forearm must contact the far-side carotid artery, with your hand extending well past the centerline of their neck. The opponent's own trapped arm compresses the near-side carotid. Both arteries must be compressed simultaneously for a blood choke rather than a neck crank.
-
-**Q5**: What is the critical timing relationship between releasing the guillotine grip and securing the arm triangle?
-**A**: You must trap the opponent's framing arm securely against their neck using your non-choking arm before releasing the guillotine. Test the trap by feeling resistance when they attempt to retract. Only then release the guillotine and thread the choking arm under their neck. Any gap between releasing one grip and establishing the other allows the opponent to extract their arm and posture up, losing both attacks.
-
-**Q6**: Your opponent drives forward aggressively to flatten you while you have the arm triangle grip locked from bottom—how do you use this energy?
-**A**: Their forward drive loads your butterfly hooks perfectly. Pull them forward with the arm triangle grip while inserting deep hooks inside their thighs. Use their momentum combined with your hook elevation to execute the butterfly sweep. The arm triangle grip provides superior upper body control during the sweep compared to standard butterfly sweep grips. Their aggression becomes the energy source for reaching side control.
-
-**Q7**: How does the direction of force differ between the Hindulotine guillotine finish and the arm triangle finish?
-**A**: The Hindulotine uses rotational torque generated by angling your hips perpendicular to the opponent's spine, creating a twisting force on the neck through core rotation. The arm triangle uses bilateral compression—squeezing both sides of the neck simultaneously by driving your shoulder into the trapped arm while your forearm compresses the opposite carotid. The guillotine is rotational; the arm triangle is compressive from opposing sides.
-
-**Q8**: After sweeping to top position, what specific body positioning consolidates side control for the arm triangle finish?
-**A**: Sprawl your legs back immediately to drive chest pressure into the opponent's trapped arm and neck. Position your hips perpendicular to their body with your choking-side hip close to their near-side hip. Walk your feet progressively toward their hips to increase downward pressure. Your head should be low on the choking side. Squeeze your elbows together rather than pulling with your arms to generate the final finishing pressure.
-
-**Q9**: What are the two sweep pathways available during the Arm Triangle Transition, and when do you choose each?
-**A**: The butterfly sweep works when the opponent's base is narrow or they drive forward—load hooks and elevate while turning. The hip escape pathway works when the opponent bases wide with a posted hand—shrimp away, come to your knees, and circle to side control while maintaining the grip. Choose butterfly sweep against forward pressure and narrow base; choose hip escape against wide base and posted hands. Both arrive at side control with the arm triangle locked.
-
-**Q10**: How does the Arm Triangle Transition create a submission dilemma when combined with the Hindulotine guillotine?
-**A**: The opponent faces a lose-lose scenario. Keeping arms tight to their body leaves the guillotine grip unobstructed for the Hindulotine finish. Creating a near-side frame to relieve guillotine pressure positions their arm perfectly for the arm triangle transition. Turning away to escape either choke exposes the back for a back take. Every common defense to one attack directly enables another, forcing the opponent to choose which threat to accept rather than neutralizing all attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Triangle Transition?</p>
 
 The Arm Triangle Transition involves a grip change around the opponent's neck that requires controlled execution to avoid injury. During the reconfiguration from guillotine to arm triangle, avoid explosive jerking motions on the neck. The arm triangle itself is a blood choke that can cause unconsciousness rapidly once locked—always respect tap signals immediately and release pressure within one second of the tap. During training, apply the sweep with controlled force to avoid slamming your partner. Partners defending should communicate if they feel excessive neck pressure during the grip transition phase. Practitioners with cervical spine issues should approach this technique cautiously and inform training partners of any limitations.
 

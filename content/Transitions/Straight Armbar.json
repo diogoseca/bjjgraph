@@ -11,7 +11,7 @@
     "arm-isolation",
     "advanced"
   ],
-  "from_position": "Mounted Crucifix/Top",
+  "from_position": "Armbar Control/Top",
   "outcomes": [
     {
       "to": "Armbar Control/Top",
@@ -41,8 +41,8 @@
       "relationship": "Success outcome position — where you finish or maintain submission threat"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related submission — shares finishing mechanics from different starting position"
+      "name": "Armbar from Crucifix",
+      "relationship": "Related technique — armbar variation from traditional crucifix sharing arm isolation mechanics"
     },
     {
       "name": "Armbar from Crucifix",
@@ -57,8 +57,8 @@
       "relationship": "Alternative transition — when armbar is defended, S-mount offers different attack angles"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Related technique — shares finishing mechanics from standard mount position"
+      "name": "Mount to Armbar",
+      "relationship": "Related technique — armbar entry from standard mount sharing finishing mechanics"
     },
     {
       "name": "Gift Wrap Transition",
@@ -214,7 +214,7 @@
         "description": "Apply the straight armbar from mounted crucifix in positional sparring rounds. Start from crucifix and work to finish against fully resisting partners. Track completion rates and identify where the technique breaks down. Refine timing, pressure, and grip details based on live feedback. Mix with other crucifix attacks to develop unpredictable offense."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Straight Armbar from Mounted Crucifix?",
         "answer": "The primary goal is to transition from the mounted crucifix control position into a secured armbar control position where you can apply hyperextension pressure to the opponent's elbow joint. The crucifix's arm isolation removes the opponent's ability to defend with clasped hands or frames, making this armbar entry significantly higher percentage than armbar attempts from standard mount or guard. The technique exploits the positional advantage already established by the crucifix to systematically attack the isolated limb."
@@ -348,7 +348,7 @@
         "correction": "Use your free hand to push the attacker's leg off your face as part of your escape sequence — removing this control element opens sit-up escapes and drastically improves your ability to turn into the attacker"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from choke threat to armbar from mounted crucifix?",
         "answer": "The earliest cue is feeling the attacker's hands shift from your neck or collar area toward your wrist or forearm. This grip change indicates they are abandoning the choke and targeting the arm instead. You may also feel their weight begin shifting laterally toward the arm they intend to attack. Recognizing this transition at the grip-change stage gives you the maximum time window for defensive response — waiting until you feel hip pressure on your elbow means the armbar is already partially secured and escape probability has dropped significantly."

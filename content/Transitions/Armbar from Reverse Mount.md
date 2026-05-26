@@ -202,7 +202,7 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 
 - [[Positions/Armbar Control]] - Target control position on successful arm isolation and pivot
 
-- [[Transitions/Armbar Finish]] - Follow-up transition from armbar control to complete the submission
+- [[Armbar from Armbar Control]] - Follow-up submission finish from armbar control to complete the submission
 
 - [[Transitions/Back Take]] - Primary alternative transition from reverse mount creating dilemma system
 
@@ -210,13 +210,13 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 
 - [[Positions/Mount]] - Related dominant position and primary alternative conversion from reverse mount
 
-- [[Submissions/Armbar from S Mount]] - Similar armbar setup from nearby mount variant with comparable pivot mechanics
+- [[Transitions/Armbar from North-South]] - Alternative positional armbar setup from different dominant position with distinct entry and pivot mechanics
 
 - [[Transitions/Belly Down Armbar Transition]] - Related armbar pathway for maintaining top pressure through the finish
 
 - [[Positions/Mount/S Mount]] - Related mount position commonly used for armbar setups with similar arm access
 
-- [[Submissions/Armbar from Technical Mount]] - Similar armbar from mount family with different entry angle and arm access pattern
+- [[Positions/Mount/Technical Mount]] - Related mount variant frequently used for armbar setups with different entry angle and arm access pattern
 
 
 </section>

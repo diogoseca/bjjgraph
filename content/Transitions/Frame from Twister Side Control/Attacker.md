@@ -188,6 +188,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame from Twister Side Control?</p>
+
 - Establish structural frames with bent elbows connected to the body rather than pushing with extended arms
 - Address control layers in strict sequence: spine protection first, then upper body frames, then leg extraction
 - Use incremental positional improvements rather than explosive escape attempts that risk energy depletion
@@ -203,6 +205,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame from Twister Side Control?</p>
+
 - Spinal integrity preserved with no active twister submission fully locked in place
 - At least one hand free from the opponent's grip control to begin establishing frames
 - Awareness of the top player's weight distribution and primary control points to identify framing targets
@@ -214,6 +218,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame from Twister Side Control step by step?</p>
 
 1. **Protect Spine**: Use both hands to block any spinal rotation by gripping your own knee, thigh, or the opponent's controlling grip. This is the absolute first priority and must be secured before any other escape action begins, as a fully locked twister can cause serious cervical and thoracic spine injury.
 2. **Establish Shoulder Frame**: Place your near-side forearm against the opponent's shoulder or collarbone with your elbow bent at approximately ninety degrees and connected to your hip, creating a structural barrier that redirects their weight without requiring sustained muscular effort from you.
@@ -243,6 +249,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame from Twister Side Control?</p>
+
 - **Top player drives heavy shoulder pressure to collapse frames before they become structurally established** (Effectiveness: High) - Your Response: Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience, or use the opponent's weight commitment to hip escape in the opposite direction → Leads to [[Positions/Twister Control/Twister Side Control]]
 - **Top player re-entangles legs into truck position when extraction creates space at the lower body** (Effectiveness: High) - Your Response: Immediately halt leg extraction and re-focus on upper body frames. Do not continue extraction until frames are re-secured. Consider abandoning extraction temporarily and resetting the escape sequence → Leads to [[Positions/Twister Control/Truck]]
 - **Top player attacks extended framing arm with kimura grip or wristlock when elbow straightens** (Effectiveness: Medium) - Your Response: Withdraw the endangered arm immediately by pulling the elbow tight to your body and tucking the hand against your chest. Re-establish a frame from the opposite side or use a shorter frame that does not expose the arm → Leads to [[Positions/Twister Control/Twister Side Control]]
@@ -254,6 +262,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame from Twister Side Control?</p>
 
 ### 1. Extending arms fully to push opponent away instead of building bent-elbow structural frames
 
@@ -293,6 +303,8 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame from Twister Side Control (Attacker)?</p>
+
 **Foundation** - Frame mechanics and positioning
 Practice solo frame drills against the wall and with a partner providing no resistance. Focus on correct elbow angle, hip connection, and structural placement. Build muscle memory for proper frame positioning and the sensation of redirecting weight through skeletal structure before adding any resistance.
 
@@ -310,39 +322,12 @@ Full positional sparring starting from twister side control bottom. Top player u
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct frame structure and why must elbows remain bent throughout the escape?
-**A**: Frames should be built with elbows bent at approximately ninety degrees and connected to the body, creating structural barriers rather than muscular pushing. Straight-arm frames create vulnerability to kimura, americana, and other arm attacks, and they fatigue rapidly because they rely on muscular endurance. Bent-elbow frames redirect force through bone structure, making them sustainable and resistant to collapse under heavy pressure.
-
-**Q2**: When is the optimal timing window to establish initial frames against the top player?
-**A**: The optimal window occurs when the top player shifts their weight forward to pursue twister submissions or choke attacks, momentarily reducing their base stability and leg entanglement effectiveness. This weight shift creates a brief period where shoulder pressure decreases slightly, allowing the bottom player to insert frames more easily than during settled, heavy positional control.
-
-**Q3**: Your opponent collapses your shoulder frame with heavy pressure - how do you respond?
-**A**: Do not repeatedly attempt the same frame that was collapsed. Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience. Alternatively, use the momentary weight commitment of their frame collapse to execute a hip escape in the opposite direction, creating space from a different angle. Adapting frame type to counter-pressure is essential.
-
-**Q4**: Why must leg extraction follow upper body frame creation rather than being attempted simultaneously?
-**A**: Attempting leg extraction without established upper body frames allows the top player to drive their shoulder into the space created by hip movement, worsening the position and potentially deepening the entanglement into truck. Upper body frames create the separation necessary for the hips to move freely during extraction. Without this separation, leg movement is countered by weight collapse into the torso.
-
-**Q5**: What grip should you establish immediately after recovering half guard and why is this critical?
-**A**: Immediately establish a knee shield or fight for the underhook on the trapped leg side. The knee shield creates a physical barrier preventing the opponent from re-establishing chest-to-chest pressure and transitioning back to twister side control. Failing to establish retention grips immediately leaves you vulnerable to being re-passed before the half guard position is consolidated.
-
-**Q6**: How do you prevent back exposure during the framing and hip escape sequence?
-**A**: Maintain facing toward the opponent's hips throughout all frame movements and hip escapes. Never turn your back during any phase of the escape, as this gifts back control and potentially deepens twister mechanics. The hip escape should move your hips away while your shoulders and chest continue facing the opponent. If back exposure begins, halt the escape and re-orient before continuing.
-
-**Q7**: Your opponent attacks your framing arm with a kimura grip - what is the correct response?
-**A**: Immediately withdraw the endangered arm by pulling the elbow tight to your body and tucking the hand against your chest. Do not fight the kimura grip with an extended arm. Once the arm is safe, re-establish a frame from the opposite side or use a shorter elbow-knee connection frame that does not expose the arm to isolation. No single frame is worth risking a submission.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame from Twister Side Control?</p>
 
 Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops.
 

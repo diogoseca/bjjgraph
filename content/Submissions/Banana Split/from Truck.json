@@ -1,0 +1,494 @@
+{
+  "name": "Banana Split from Truck",
+  "description": "Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate.",
+  "tags": [
+    "bjj",
+    "submission",
+    "compression",
+    "groin-stretch",
+    "deep-half-guard",
+    "truck",
+    "10th-planet",
+    "lockdown"
+  ],
+  "submission_category": "Compression",
+  "submission_type": "Groin Stretch",
+  "target_area": "Hip adductors, groin, and lower back",
+  "starting_position": "Deep Half Guard",
+  "from_position": "Truck/Top",
+  "success_rate": 48,
+  "overview": "The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from the truck position, deep half guard, or lockdown configurations, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions.\n\nUnlike traditional joint locks that attack a specific articulation point, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. The technique requires precise control of the opponent's legs and hips while maintaining a stable base. Understanding the biomechanics of hip rotation and groin flexibility is essential for safe application, as there is no clear structural stopping point before tissue damage occurs.\n\nThe Banana Split often works in combination with other attacks from half guard and truck positions, creating multiple offensive threats that force defensive errors. When an opponent defends the split by driving forward, they expose themselves to electric chair sweeps and back takes. When they pull their leg back, they compromise their base for other attacks. This dilemma-based approach makes the banana split threat valuable even when the finish itself is not achieved.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Groin muscle tear or strain",
+        "severity": "High",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Hip adductor strain",
+        "severity": "High",
+        "recovery_time": "3-6 weeks"
+      },
+      {
+        "injury": "Lower back strain",
+        "severity": "Medium",
+        "recovery_time": "2-4 weeks"
+      },
+      {
+        "injury": "Hip flexor damage",
+        "severity": "Medium",
+        "recovery_time": "3-5 weeks"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum. This submission creates intense pressure on muscle groups that can tear rapidly. There is no clear structural limit before tissue damage occurs, making controlled application essential.",
+    "tap_signals": [
+      "Verbal tap (most common due to position)",
+      "Physical hand tap on opponent's body or mat",
+      "Physical foot tap if hands unavailable",
+      "Any distress vocalization",
+      "Frantic movement or panic signals"
+    ],
+    "release_protocol": [
+      "Immediately stop all leg splitting pressure",
+      "Release the leg trap and allow opponent's legs to return to natural position",
+      "Maintain control but remove all stretching force",
+      "Allow opponent to assess their condition before continuing",
+      "Never release explosively - control the return to neutral position"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the leg split - apply pressure gradually",
+      "Never use competition speed or intensity in training",
+      "Always communicate with training partner about flexibility limitations",
+      "Stop immediately if partner shows signs of panic or distress",
+      "Avoid this submission with partners who have known groin or hip injuries",
+      "Beginners should practice mechanics without applying finishing pressure"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 48,
+      "result": "success"
+    },
+    {
+      "to": "Deep Half Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 22,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Deep Half Guard",
+    "Lockdown",
+    "Electric Chair",
+    "Half Guard",
+    "Turtle",
+    "Truck",
+    "Quarter Guard"
+  ],
+  "related_submissions": [
+    "Electric Chair",
+    "Calf Slicer",
+    "Twister",
+    "Crotch Ripper",
+    "Boston Crab",
+    "Estima Lock",
+    "Achilles Lock",
+    "Toe Hold",
+    "Kneebar"
+  ],
+  "related_content": [
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Primary starting position for banana split entries"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Essential control mechanism for near leg in classic variation"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Common transition point sharing similar leg controls and sweep mechanics"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Alternative entry position with similar leg trapping mechanics"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Core principle for controlling opponent's legs during setup"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard system from which banana split entries develop"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative target when opponent defends banana split by rolling"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related control position with similar leg entanglement mechanics from back"
+    }
+  ],
+  "attacker": {
+    "name": "Banana Split Attacker",
+    "description": "How to execute Banana Split in BJJ. Attacking perspective with setup from truck and deep half guard, execution mechanics, and finishing details.",
+    "overview": "The Banana Split attack requires establishing opposing forces on the opponent's legs to create splitting pressure through their groin and hip adductors. From the bottom position in deep half guard or lockdown, the attacker uses their lockdown to control one leg while isolating and pulling the far leg in the opposite direction. From the truck, the twister hook controls one leg while hands control the other. The attacker's body serves as a wedge between the opponent's legs, and hip extension amplifies the splitting force. This submission is uniquely dangerous because it attacks muscle groups with no clear structural stopping point - adductors simply tear when overstretched. The attacker must combine precise leg isolation, upper body control to prevent escape, and progressive pressure application. The banana split integrates naturally into the lockdown and truck attacking systems, creating dilemmas where defending the split opens electric chair sweeps, back takes, and twister entries.",
+    "key_principles": [
+      "Control opponent's upper body to prevent escape while splitting legs",
+      "Create opposing forces between near leg control and far leg isolation",
+      "Maintain stable base on bottom to generate splitting pressure through hip extension",
+      "Target groin and hip flexibility limitations rather than joint mechanics",
+      "Use progressive pressure application over minimum 5 seconds to allow tap opportunity",
+      "Combine with electric chair and twister threats to create submission chains",
+      "Assess individual flexibility variations before committing to the finish"
+    ],
+    "setup_requirements": [
+      "Establish deep half guard, lockdown, or truck position with one leg trapped",
+      "Secure lockdown or twister hook on near leg to create foundation control",
+      "Isolate opponent's far leg to prevent base recovery and wide posting",
+      "Control opponent's upper body via underhook, belt grip, or body lock to prevent forward escape",
+      "Create angular body position that enables leg splitting mechanics",
+      "Establish grip on opponent's far leg at ankle, knee, or thigh level",
+      "Prevent opponent from rolling or transitioning before split is loaded"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Deep Half Control",
+        "description": "From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneath opponent's hips. Your head should be on the far side, creating the foundation for the split. Ensure your lockdown is tight and opponent's weight is loaded onto your structure. From the truck, confirm your twister hook is deep with your calf behind their thigh.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Isolate the Far Leg",
+        "description": "Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations involve using your own far leg to hook their far leg for redundant control. The goal is to prevent them from posting or establishing a wide base. This isolation is critical for the splitting mechanics to function and must be secured before loading pressure.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Create the Splitting Angle",
+        "description": "While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away from their body. Simultaneously, use your lockdown to push the near leg in the opposite direction. Your body position should create a wedge that forces their legs apart. Maintain shoulder pressure under their hips to prevent them from rolling forward to relieve the stretch.",
+        "timing": "3-4 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Control Upper Body",
+        "description": "Use your free hand to control opponent's upper body, typically by grabbing their belt, pants, or establishing an underhook across their back. This prevents them from driving forward to relieve pressure or spinning out of the position. Upper body control is essential for maintaining the submission structure and creates the opposing force that amplifies leg splitting.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Extend Hips and Increase Split",
+        "description": "From your bottom position, extend your hips upward while maintaining the opposing forces on their legs. This hip extension creates additional splitting pressure by using your torso as a wedge between their thighs. The pressure should be applied progressively, not explosively. Monitor partner for tap signals as groin pressure increases rapidly once the split angle opens past their flexibility threshold.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply Finishing Pressure",
+        "description": "Continue to increase the leg split by pulling the far leg while maintaining lockdown pressure on the near leg. Your hip extension should create a banana-like bend in opponent's torso and hips. The submission comes from overstretching the groin, hip adductors, and lower back simultaneously. Apply pressure slowly over 5-7 seconds minimum, watching carefully for tap signals. Never jerk or spike the pressure - there is no structural limit before tissue tears.",
+        "timing": "5-7 seconds minimum"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Drive forward with pressure to collapse bottom player's structure",
+        "effectiveness": "Medium",
+        "your_response": "Maintain strong shoulder frame under hips and increase upper body control. Use your lockdown to prevent forward movement and redirect their pressure sideways. If they flatten you, consider transitioning to electric chair sweep using their forward momentum.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Attempt to free the trapped leg by pulling knee toward chest",
+        "effectiveness": "High",
+        "your_response": "Tighten lockdown immediately and establish secondary control on the far leg before they create defensive structure. If they escape the lockdown, transition to electric chair or deep half sweeps rather than chasing a compromised split.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Roll forward or cartwheel over to escape leg control and take back",
+        "effectiveness": "Medium",
+        "your_response": "Use upper body control to prevent the roll. If they commit to the roll, follow them to maintain leg control or transition to back control yourself. Do not release the far leg prematurely as this grants them the escape for free.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Widen base and post far leg to prevent isolation before split is loaded",
+        "effectiveness": "High",
+        "your_response": "Work to isolate the far leg before fully committing to the split. Use sweeps or other attacks from deep half to force reactions that compromise their base, then return to banana split mechanics once their posting leg is disrupted.",
+        "targets_outcome": "Deep Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying splitting pressure too quickly or explosively",
+        "consequence": "High risk of causing groin muscle tears or severe strains before partner can tap",
+        "correction": "Always apply pressure progressively over minimum 5-7 seconds. The banana split should feel like slowly increasing discomfort, not sudden pain. Communication with training partners is essential."
+      },
+      {
+        "error": "Failing to control opponent's upper body before loading the split",
+        "consequence": "Opponent drives forward with pressure and collapses your structure, escaping the position entirely",
+        "correction": "Establish upper body control (underhook, belt grip, or body lock) before fully committing to the leg split. Your shoulder frame under their hips must remain strong throughout."
+      },
+      {
+        "error": "Losing lockdown control on the near leg during far leg isolation",
+        "consequence": "Opponent frees their leg and escapes, potentially passing to dominant position",
+        "correction": "Maintain constant tension on the lockdown throughout the entire sequence. If lockdown loosens, re-tighten before continuing with far leg isolation. The near leg control is your foundation."
+      },
+      {
+        "error": "Releasing far leg grip prematurely when opponent resists",
+        "consequence": "Opponent recovers base and escapes the submission setup completely",
+        "correction": "Commit to the far leg control once established. Use multiple grip options (ankle, knee, thigh) and be prepared to adjust if they defend. Don't release until you're transitioning to another attack."
+      },
+      {
+        "error": "Not accounting for opponent's flexibility level before applying pressure",
+        "consequence": "Either ineffective submission on flexible opponents or injury to inflexible ones",
+        "correction": "Assess partner's flexibility during rolling. More flexible opponents may require additional control points or combination attacks. Less flexible partners require extra caution and slower pressure application."
+      },
+      {
+        "error": "Poor hip positioning creating insufficient wedge angle between legs",
+        "consequence": "Unable to generate meaningful splitting pressure despite having both leg controls secured",
+        "correction": "Focus on hip extension and creating the wedge with your torso between their legs. Your body should form the primary splitting force. Practice the mechanics without full pressure first to develop proper angles."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Without Pressure",
+        "focus": "Lockdown, far leg isolation, and body positioning",
+        "description": "Practice the full entry sequence from deep half guard and truck without applying any finishing pressure. Focus on establishing tight lockdown, isolating the far leg with multiple grip options, and creating the correct wedge angle with your body. Partner remains passive. Build muscle memory for the grip sequence and body positioning over 2-3 sessions."
+      },
+      {
+        "phase": "Phase 2: Controlled Splitting With Communication",
+        "focus": "Progressive pressure application and partner communication",
+        "description": "Apply light splitting pressure while maintaining constant verbal communication with your training partner about their comfort level and flexibility limits. Practice the 5-7 second progressive pressure application and immediate release on tap. Develop sensitivity for recognizing breaking point indicators. Partner provides feedback on pressure quality."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition and Chains",
+        "focus": "Defending common escapes and transitioning to alternative attacks",
+        "description": "Partner provides moderate resistance and attempts specific counters (forward drive, leg extraction, rolling escape). Practice maintaining control through defensive reactions and transitioning to electric chair sweeps, back takes, or other attacks when the banana split is defended. Develop the ability to chain submissions from similar positions."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Competition-realistic application and timing",
+        "description": "Positional sparring starting from deep half guard or truck. Work to establish and finish the banana split against full resistance while maintaining safety awareness. Practice recognizing when to commit to the finish versus when to transition to alternative attacks. Develop timing for isolating the far leg during live exchanges."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the minimum time you should take when applying finishing pressure in the banana split during training?",
+        "answer": "A minimum of 5-7 seconds with slow, progressive pressure application. The banana split targets muscle groups that can tear rapidly if pressure is applied too quickly. Unlike joint locks where you feel structural limits, compression submissions like the banana split create intense muscular pain that requires gradual application to allow safe tapping. Never spike or jerk the pressure.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the primary anatomical structures affected by the banana split submission?",
+        "answer": "The banana split primarily targets the hip adductor muscles (inner thigh), groin complex including the gracilis and adductor longus/brevis/magnus, and the lower back through forced leg splitting and spinal extension. It creates compression and overstretching of these muscle groups rather than attacking specific joints. The submission works by exceeding the opponent's flexibility limitations in hip abduction, which varies significantly between individuals.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is upper body control essential for successful banana split execution?",
+        "answer": "Upper body control prevents the opponent from driving forward with pressure to collapse your bottom structure and escape the position. Without controlling their upper body (via underhook, belt grip, or body control), they can simply pressure forward, negate your leg splitting mechanics, and potentially pass to dominant position. The upper body control works in opposition to the leg controls to create the splitting force that produces the submission.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do immediately upon receiving a tap signal during banana split application?",
+        "answer": "Immediately stop all leg splitting pressure and release the leg trap, allowing the opponent's legs to return to a natural position in a controlled manner. Never release explosively as this can cause injury during the release phase. Maintain positional control but remove all stretching force, and allow your partner to assess their condition before continuing. The release should be as controlled and gradual as the application.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the lockdown contribute to banana split mechanics from deep half guard?",
+        "answer": "The lockdown provides stable control of the opponent's near leg, creating one half of the splitting force. By locking your feet together around their leg in a figure-four configuration, you can push that leg in one direction while pulling their far leg in the opposite direction. The lockdown also prevents them from freeing that leg and recovering their base. It serves as the non-negotiable foundation that allows you to generate splitting pressure from the bottom position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive actions by the opponent have the highest effectiveness against the banana split?",
+        "answer": "Freeing the trapped leg early by pulling the knee toward the chest and posting the far leg wide to prevent isolation both have high effectiveness ratings. Once the opponent widens their base and establishes strong posts with both legs, the splitting mechanics become nearly impossible. This is why the attacker must work to isolate the far leg before the defender recognizes the threat and establishes defensive structure. Early defense is always more effective than late defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must you account for individual flexibility differences when applying the banana split?",
+        "answer": "The banana split targets flexibility limitations in hip abduction, which varies dramatically between individuals. More flexible opponents such as gymnasts or yoga practitioners may require additional control points or may not tap to the submission at all. Less flexible opponents will feel intense pressure much earlier and require extra caution with slower pressure application to prevent muscle tears. Always assess your training partner's flexibility level before applying finishing pressure and adjust your application speed accordingly.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins walking their hips toward you to reduce the splitting angle - what adjustment maintains finishing pressure?",
+        "answer": "When the opponent walks their hips toward you to close the splitting angle, simultaneously scoot your hips away while extending your lockdown leg to maintain the spread. Pull their far leg more aggressively toward you while using your underhook or upper body control to prevent them from advancing further. If they successfully close the angle significantly, transition to electric chair sweep mechanics before the position deteriorates rather than fighting a losing positional battle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What physical indicators suggest you are approaching the submission breaking point and must slow down?",
+        "answer": "Breaking point indicators include visible straining in the opponent's face, audible grunting or sharp breathing changes, involuntary muscle twitching in the inner thighs, significant resistance followed by sudden relaxation indicating they have hit their flexibility limit, and the opponent's body beginning to twist or contort to relieve pressure. Recognize these signs and pause or slow pressure application to give adequate time for tapping before the breaking point is reached. These signals demand immediate attention.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you adjust your grip if the opponent's far leg becomes sweaty or slippery during execution?",
+        "answer": "When grips become compromised due to sweat, switch from ankle control to deeper control points like behind the knee or the lower thigh where there is more surface area and friction. You can also hook their far leg with your own leg rather than relying solely on hand grips, creating a mechanical lock that does not depend on friction. The key is having redundant control mechanisms so losing one grip does not result in losing the position entirely.",
+        "safety_critical": false
+      },
+      {
+        "question": "What distinguishes the banana split's pressure mechanism from traditional joint locks like the armbar?",
+        "answer": "The banana split attacks muscular flexibility and compression rather than joint articulation. Traditional joint locks like the armbar hyperextend a joint past its natural range of motion, attacking ligaments and the joint capsule with a clear structural limit that both attacker and defender can feel approaching. The banana split overstretches muscle groups (adductors, groin, hip flexors) that have no clear structural limit - they simply tear when exceeded. This makes the banana split more dangerous because there is no obvious stopping point before injury occurs, requiring the attacker to rely on progressive application and partner communication.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, what strategic advantage does threatening the banana split create even if you do not finish?",
+        "answer": "Threatening the banana split forces the opponent into a defensive dilemma that opens other attacks. When they defend the split by driving forward, they become vulnerable to electric chair sweeps and back takes. When they defend by pulling their leg back, they compromise their base for other sweeps from deep half guard. The banana split threat also causes psychological pressure that can lead to panic-based mistakes and energy expenditure. Using it as a positional threat rather than always hunting the finish creates a more complete attacking system from deep half guard and truck.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Banana Split Defender",
+    "description": "How to defend against Banana Split in BJJ. Recognition cues, escape paths, and defensive strategies from truck and deep half guard.",
+    "overview": "Defending the Banana Split requires early recognition and immediate action, as this compression submission becomes exponentially harder to escape once the splitting angle is established. The defender's primary objective is preventing the attacker from isolating the far leg and creating the opposing forces that generate the split. Because the banana split targets muscle groups without a clear structural stopping point, late defense carries significant injury risk. Unlike defending a joint lock where you can feel the submission building incrementally, the banana split can go from uncomfortable to dangerous very quickly once the attacker achieves the correct angle. Defense begins with recognizing the lockdown or twister hook as the foundation of the attack, then systematically addressing the leg isolation and body positioning that enables the split. The best defensive window is before the far leg is fully controlled - once both legs are trapped and the attacker has established their wedge, escaping without conceding the tap becomes extremely difficult.",
+    "key_principles": [
+      "Deny far leg isolation at all costs - this is the critical defensive priority before the split loads",
+      "Drive forward with heavy pressure to collapse the attacker's bottom structure and negate their wedge angle",
+      "Free the trapped near leg from lockdown as early as possible to eliminate the foundation of the attack",
+      "Keep knees together and base wide to prevent the splitting mechanics from engaging",
+      "Tap early and without hesitation - there is no structural limit warning before muscle tissue tears",
+      "Recognize the setup before the split is loaded, when defense is still high-percentage",
+      "Use forward rolling or cartwheeling to escape the leg configuration when trapped late"
+    ],
+    "recognition_cues": [
+      "Opponent establishes lockdown on your near leg and begins reaching for your far ankle, knee, or thigh with their free hand",
+      "You feel your legs being pulled in opposite directions while opponent's body creates a wedge between your thighs from underneath",
+      "From truck position, opponent adjusts from twister or calf slicer grips to isolate your far leg and begins hip extension",
+      "Opponent secures underhook across your back while maintaining lockdown, then their free hand moves toward your far leg rather than staying on your hip",
+      "Increasing stretch sensation in your groin and inner thighs while opponent extends their hips upward from beneath you"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward with heavy chest pressure to collapse attacker's structure",
+        "when_to_use": "Early in the setup when attacker is still establishing far leg control and has not yet loaded the split. Most effective before the wedge angle is created.",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "Flatten the attacker and negate their ability to extend hips, returning to standard deep half guard top position where you can work to extract your leg",
+        "risk": "If attacker has strong underhook and upper body control, driving forward can increase their leverage for the electric chair sweep"
+      },
+      {
+        "action": "Pull trapped knee toward chest to break lockdown and extract near leg",
+        "when_to_use": "When lockdown is the primary control mechanism and attacker has not yet secured a deep grip on the far leg. Focus on breaking the figure-four ankle configuration first.",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "Breaking the lockdown eliminates the foundation of the banana split, allowing you to recover base and work toward passing",
+        "risk": "Pulling the knee in can momentarily compromise your base, making you vulnerable to other sweeps from deep half if you lose balance"
+      },
+      {
+        "action": "Cartwheel or forward roll over the attacker to escape the leg configuration",
+        "when_to_use": "When the split is partially loaded and you cannot free your legs through direct extraction. This is a late-stage escape that uses momentum to clear the leg entanglement.",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You clear the leg entanglement entirely but may end up with opponent on your back. Preferable to taking the submission.",
+        "risk": "Attacker may follow your roll and establish back control. The roll itself can cause injury if split is already deep and you roll against the stretching direction."
+      }
+    ],
+    "escape_paths": [
+      "Break lockdown by addressing the figure-four ankle configuration, then extract your near leg and establish wide base in deep half guard top to reset",
+      "Forward roll or cartwheel over the attacker's body to clear the leg entanglement, accepting potential back exposure rather than groin injury",
+      "Walk hips toward the attacker to close the splitting angle, then use your far leg to post and establish base before they can readjust their wedge position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Deep Half Guard/Top",
+        "how": "Break the lockdown by pulling knee to chest and creating space to extract your near leg. Once free, establish wide base with crossface pressure and work to pass from standard deep half guard top position."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Use a forward roll or cartwheel over the attacker to escape the leg entanglement. While this concedes back exposure, it eliminates the groin stretch immediately. Work standard back defense from the resulting position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to power out of the split by pulling legs together with strength alone",
+        "consequence": "Wastes energy and often increases injury risk, as the attacker's mechanical advantage through the lockdown and wedge exceeds raw muscular strength in the adductors",
+        "correction": "Address the control mechanisms systematically: break the lockdown first, then free the far leg grip. Use technique and positioning rather than strength to escape."
+      },
+      {
+        "error": "Waiting too long to defend, hoping the submission will not be effective",
+        "consequence": "Once the split is fully loaded with proper wedge angle and both legs controlled, escape becomes nearly impossible and injury risk escalates dramatically",
+        "correction": "Defend immediately upon recognizing the far leg isolation attempt. The best defense window is before the split loads. If the split is deep, tap rather than risk a groin tear."
+      },
+      {
+        "error": "Leaning backward away from attacker to create distance",
+        "consequence": "Leaning back actually increases the attacker's splitting leverage by extending the angle and loading more weight onto their wedge structure",
+        "correction": "Drive forward into the attacker with chest pressure to collapse their bottom structure. Forward pressure negates the wedge angle and reduces their ability to extend the split."
+      },
+      {
+        "error": "Ignoring the lockdown and focusing only on freeing the far leg",
+        "consequence": "The lockdown is the foundation of the entire attack. Even if you free your far leg momentarily, the attacker can re-isolate it as long as the lockdown remains intact",
+        "correction": "Address the lockdown first by working to break the figure-four ankle configuration. Once the near leg is free, the banana split mechanics collapse entirely regardless of far leg control."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most important defensive priority when you recognize the banana split being set up?",
+        "answer": "Deny far leg isolation. The banana split requires opposing forces on both legs to function. If the attacker cannot control your far leg, they cannot create the split regardless of how tight their lockdown is on your near leg. Post your far leg wide and heavy immediately when you recognize the threat, making it impossible for them to grip or hook your far ankle or knee.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to tap early when caught in a banana split rather than fighting through the pressure?",
+        "answer": "The banana split targets muscle groups (hip adductors and groin) that have no clear structural stopping point before tissue damage occurs. Unlike a joint lock where you can feel the ligament reaching its limit and have a brief window to tap, the adductors simply tear when overstretched with no warning sensation. The transition from severe discomfort to actual muscle tear can happen in less than a second, making early tapping essential for long-term training health.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has established the split from deep half guard and you feel increasing groin pressure - should you attempt the forward roll escape?",
+        "answer": "Only attempt the forward roll if you have enough mobility remaining in your legs to execute it without rolling directly against the splitting force. If the split is deeply loaded, the rolling motion can actually increase tearing force on the groin momentarily during the escape. If groin pressure is already significant, the safest option is to tap immediately and reset rather than risk a muscle tear attempting a late escape. Save the forward roll for situations where the split is partially loaded but not yet at dangerous pressure levels.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does driving forward with chest pressure help defend the banana split?",
+        "answer": "Driving forward collapses the attacker's bottom structure by compressing the space they need for hip extension. The banana split requires the attacker to extend their hips upward to create the wedge between your legs. Forward pressure flattens them to the mat, eliminates their hip extension leverage, and reduces the splitting angle. It also loads weight onto their upper body which they need mobile for the underhook control. However, be aware that forward driving can expose you to electric chair sweep if the attacker redirects your momentum.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct sequence for escaping the banana split when the lockdown is the primary control?",
+        "answer": "First, address the lockdown by working to break the figure-four ankle configuration - push their top foot off your ankle using your free hand or knee pressure. Second, once the lockdown loosens, pull your knee toward your chest to extract the near leg. Third, immediately establish a wide base with your newly freed leg to prevent re-engagement. Fourth, address any remaining far leg grips by posting the far leg wide and heavy. The lockdown is the foundation of the entire attack and must be broken first for any escape to succeed.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Tap Timing",
+        "focus": "Identifying banana split setups and practicing early tap responses",
+        "description": "Partner establishes banana split slowly from multiple positions (deep half, truck, electric chair). Focus on recognizing the far leg isolation as the critical warning sign. Practice tapping at appropriate pressure levels well before injury risk. Build the habit of early recognition and honest tapping during compression submissions."
+      },
+      {
+        "phase": "Phase 2: Early Defensive Responses",
+        "focus": "Far leg denial and lockdown breaking under controlled resistance",
+        "description": "Partner attempts to establish the banana split with moderate resistance. Practice the three primary defenses: denying far leg isolation by posting wide, breaking the lockdown ankle configuration, and driving forward to collapse the bottom structure. Focus on executing each defense before the split is loaded."
+      },
+      {
+        "phase": "Phase 3: Late Escape Mechanics",
+        "focus": "Forward roll escape and hip walking under pressure",
+        "description": "Partner establishes a partially loaded banana split. Practice the forward roll and cartwheel escapes with controlled intensity, learning to time the escape when the split has engaged but before dangerous pressure levels. Develop hip walking ability to close the splitting angle. Partner controls pressure carefully throughout."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense from deep half guard top and truck bottom",
+        "description": "Positional sparring starting in positions where the banana split threat exists. Defend against the full lockdown and truck attacking system including banana split, electric chair, and twister threats. Develop the ability to read which submission is being loaded and apply the correct defense in real time."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Lockdown Banana Split",
+      "description": "Classic entry from lockdown position where you establish the lockdown first, then isolate the far leg. This is the most common variation taught in the 10th Planet system. The lockdown provides excellent control of the near leg while you work to trap the far leg with your free hand.",
+      "when_to_use": "When opponent is heavily pressuring from top half guard and you have time to establish lockdown. Most effective against opponents who maintain narrow base."
+    },
+    {
+      "variation_name": "Electric Chair to Banana Split Transition",
+      "description": "Begin with electric chair setup (lockdown with far leg controlled) but instead of rolling for the crotch ripper finish, maintain bottom position and split the legs. This creates multiple submission threats that are difficult to defend simultaneously.",
+      "when_to_use": "When opponent defends the electric chair sweep by preventing the roll. The banana split becomes the backup attack from the same position."
+    },
+    {
+      "variation_name": "Reverse Banana Split from Turtle",
+      "description": "From opponent's turtle position, trap one leg while controlling the far leg, then roll to your back to apply splitting pressure. This variation requires excellent timing and is less common but highly effective against turtled opponents.",
+      "when_to_use": "When opponent turtles from your attacks and presents their legs in a vulnerable configuration. Requires quick leg trapping skills."
+    },
+    {
+      "variation_name": "Truck to Banana Split",
+      "description": "From truck position, if the twister or calf slicer are unavailable, transition to banana split mechanics by adjusting your leg controls and creating splitting pressure. The twister hook serves as one control point while hands isolate the far leg.",
+      "when_to_use": "When you have truck position but opponent defends the primary attacks. The banana split provides an alternative finish from similar positioning."
+    }
+  ]
+}

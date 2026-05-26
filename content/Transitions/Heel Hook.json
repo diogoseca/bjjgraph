@@ -14,7 +14,7 @@
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Heel Hook",
       "probability": 55,
       "result": "success"
     },
@@ -219,7 +219,7 @@
         "description": "Incorporate heel hooks into live positional sparring from Ashi Garami positions. Focus on timing, setup creation, and reading opponent reactions. Maintain safety protocols even at competition intensity."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary anatomical target of the heel hook and why does this make it uniquely dangerous?",
         "answer": "The heel hook primarily attacks the knee's ligaments (ACL, MCL, and meniscus) through rotational force. Unlike ankle locks or armbars, the heel hook targets structures with minimal pain receptors that don't stretch before failure—significant structural damage can occur before the defender feels adequate warning pain, making controlled application and early tapping essential."
@@ -349,7 +349,7 @@
         "correction": "Use systematic mechanical extraction: strip grips first, boot the leg, then extract with controlled hip movement. Explosive ripping is the worst possible response to a heel hook threat"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is tapping early to heel hooks more critical than tapping early to other submissions?",
         "answer": "Heel hooks attack knee ligaments (ACL, MCL, meniscus) that have minimal pain receptors and don't stretch before failure. Unlike chokes that cause gradual consciousness loss or armbars that produce escalating elbow pain, heel hooks can cause complete ligament rupture before the defender feels significant warning pain. The damage threshold arrives before the pain threshold, making late taps catastrophic."

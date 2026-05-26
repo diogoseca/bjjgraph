@@ -20,38 +20,38 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
       "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 61% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
       "text": "From this position, attempt Long Step Pass. This technique is attempted in 6% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
       "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
       "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 2% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
       "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step",
+      "text": "From this position, attempt Back Step. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ## Position Definition
 
+<p class="section-subtitle">What is X-Guard (Top)?</p>
+
 - Top player maintains upright or forward-leaning posture with base on at least one leg
 - Bottom player has established X-Guard structure with one leg hooking behind top player's knee
 - Top player's hips positioned above opponent's center of gravity creating downward pressure potential
@@ -178,6 +180,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing X-Guard (Top)?</p>
+
 - Opponent has successfully established X-Guard bottom position with hook behind knee
 - Top player has maintained standing or combat base posture rather than being swept
 - Bottom player has inverted their body underneath top player's base
@@ -190,6 +194,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from X-Guard?</p>
 
 - Maintain forward pressure and low center of gravity to prevent opponent from creating elevation
 - Control distance by managing opponent's sleeve grips and preventing arm extension
@@ -205,6 +211,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from X-Guard (Top)?</p>
 
 **If opponent has strong far leg hook behind knee and is creating elevation with near leg:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -233,6 +241,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from X-Guard?</p>
 
 ### 1. Standing fully upright with narrow base while opponent has established hooks
 
@@ -271,6 +281,8 @@ X-Guard Top represents the top player's position when facing an opponent who has
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train X-Guard attacks?</p>
 
 ### X-Guard Top Positional Sparring
 
@@ -327,7 +339,7 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard position with similar structure but different hook configuration requiring adapted passing
 - **[[Positions/Side Control]]** - Primary passing destination and dominant position after successful guard pass
-- **[[Transitions/Smash Pass]]** - Primary offensive technique for pressure-based passing through X-Guard structure
+- **[[Transitions/Smash Pass from X-Guard]]** - Primary offensive technique for pressure-based passing through X-Guard structure
 - **[[Transitions/X-Guard Sweep]]** - Primary defensive threat from bottom player that must be defended against
 - **[[Positions/Headquarters Position]]** - Intermediate control position during guard pass used to consolidate progress
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Counter-attack destination through leg entanglement when opponent inverts

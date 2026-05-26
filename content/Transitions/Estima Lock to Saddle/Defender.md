@@ -158,13 +158,15 @@ The core defensive strategy operates on two timelines. Before the backstep compl
 
 Successful defense requires balancing two competing demands: defending the original Estima Lock (preventing the footlock finish) and preventing the transition to Saddle (blocking the backstep). Sophisticated attackers exploit this dilemma by threatening the footlock to freeze the defender, then transitioning when the defender commits to ankle defense. The defender must develop the tactical awareness to recognize which threat is more immediate and allocate defensive resources accordingly, accepting that perfect defense against both simultaneously is rarely possible.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Estima Lock to Saddle?</p>
 
 - Attacker releases or loosens the figure-four footlock grip and shifts to controlling your calf or knee line—this grip change is the primary indicator the backstep is imminent
 - Attacker's hips begin rotating away from your trapped leg rather than driving into it, indicating they are initiating the circular backstep motion to get behind your knee
@@ -177,6 +179,8 @@ Successful defense requires balancing two competing demands: defending the origi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Estima Lock to Saddle?</p>
 
 - Prioritize preventing the backstep completion over defending the Estima Lock—Saddle is far more dangerous than the footlock
 - Keep the free leg active and posting at all times to deny the attacker's rotation pathway behind your knee line
@@ -192,10 +196,12 @@ Successful defense requires balancing two competing demands: defending the origi
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Estima Lock to Saddle?</p>
+
 ### 1. Post your free leg on the mat or against the attacker's hip to block their rotation pathway
 
 - **When to use**: As soon as you feel the attacker's grip shift from footlock configuration to calf or knee control—this must happen before the backstep rotation begins
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Attacker's backstep is blocked, forcing them to either reattempt the Estima Lock or disengage. You remain in the less dangerous footlock position with opportunity to work standard Estima Lock escapes.
 - **Risk**: If the post is late, the attacker may use your posted leg as leverage to complete the backstep faster, and you may end up in Saddle with your free leg compromised
 
@@ -209,7 +215,7 @@ Successful defense requires balancing two competing demands: defending the origi
 ### 3. Aggressive sit-up with frames on the attacker's hips to prevent them from completing the rotation
 
 - **When to use**: During the early phase of the backstep before the attacker's inside leg has threaded past your far hip—sitting up reduces available rotation space
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Your frames on their hips stall the backstep mid-rotation, leaving the attacker in a compromised half-completed position where they cannot establish the Saddle triangle. Forces them to restart or abandon the transition.
 - **Risk**: If your frames are weak or late, sitting up actually brings your thigh closer to their locking legs and can accelerate Saddle completion
 
@@ -228,7 +234,9 @@ Successful defense requires balancing two competing demands: defending the origi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Estima Lock]]
+<p class="section-subtitle">What is the best outcome when defending Estima Lock to Saddle?</p>
+
+### → [[Positions/Estima Lock Control]]
 
 Block the backstep rotation by posting your free leg early, framing on the attacker's hips, and counter-rotating your hips toward them. This forces the attacker back into the Estima Lock position where you face only the single footlock threat rather than the multi-attack Saddle. From here, execute standard Estima Lock escape protocols.
 
@@ -243,6 +251,8 @@ Straighten the trapped leg while the attacker is mid-backstep and their grip has
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Estima Lock to Saddle?</p>
 
 ### 1. Focusing exclusively on defending the Estima Lock while ignoring backstep indicators
 
@@ -272,6 +282,8 @@ Straighten the trapped leg while the attacker is mid-backstep and their grip has
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Estima Lock to Saddle?</p>
+
 **Week 1-2** - Recognition cue identification
 Partner performs the Estima Lock to Saddle transition at slow speed (25%) while you focus exclusively on identifying the grip change, hip rotation initiation, and inside leg threading. Call out each cue verbally as you recognize it. Do not attempt any defense yet—build pattern recognition first through 15-20 repetitions per side.
 
@@ -288,29 +300,6 @@ Full resistance positional rounds starting from Estima Lock bottom. Attacker wor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary recognition cue that the Estima Lock to Saddle transition is beginning?
-**A**: The primary cue is the attacker releasing or loosening their figure-four footlock grip and shifting to controlling your calf or knee line. This grip change indicates they are abandoning the footlock and preparing the backstep rotation. Simultaneously, you will feel their hip pressure shift from driving into your trapped leg to rotating away from it. Recognizing this grip change gives you the narrow defensive window to act before the backstep completes.
-
-**Q2**: Why is preventing the Saddle a higher priority than defending the Estima Lock?
-**A**: The Estima Lock threatens a single footlock submission with limited finishing mechanics, while the Saddle opens access to inside heel hooks, outside heel hooks, kneebars, and calf slicers—a multi-attack platform with far higher finishing rates. Additionally, Saddle defense is significantly more difficult than Estima Lock defense because the leg triangle restricts all hip movement. Allowing the Saddle transition converts a manageable defensive situation into a crisis-level one.
-
-**Q3**: Your attacker shifts their grip from your foot to your calf—what is your immediate defensive action?
-**A**: Immediately post your free leg on the mat or against the attacker's hip to block their rotation pathway, and begin counter-rotating your hips toward them. The grip shift from foot to calf is the clearest indicator the backstep is imminent, and you have approximately one to two seconds before the rotation begins. Your free leg post physically blocks the path their hips need to travel, while hip counter-rotation prevents them from achieving the perpendicular alignment required for Saddle.
-
-**Q4**: The attacker has completed the backstep and their inside leg is between yours but the triangle is not yet locked—what can you still do?
-**A**: Hook the attacker's far leg with your free foot to prevent them from closing the figure-four triangle, while simultaneously straightening your trapped leg to push their inside leg back out. Frame on their hips with both hands to create distance and prevent them from tightening the position. This narrow window between inside leg threading and triangle completion is your last opportunity to prevent full Saddle establishment before the position becomes significantly harder to escape.
-
-**Q5**: How do you balance defending the Estima Lock footlock threat while also preventing the backstep?
-**A**: Prioritize the backstep prevention over footlock defense because Saddle is a dramatically worse position than Estima Lock. Maintain basic ankle counter-rotation for footlock defense but keep your free leg active and ready to post against backstep attempts. When you detect the grip shift indicating transition, immediately abandon footlock-specific defense and commit fully to backstep prevention. Accept that perfect simultaneous defense of both threats is unrealistic and make the strategic choice to address the greater danger.
-
-
-
-</section>
 
 
 </main>

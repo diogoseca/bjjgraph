@@ -221,11 +221,11 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 **Reverse De La Riva Guard**: Reverse DLR in flow context enables exploration of various sweep variations and transitions to other leg entanglement positions, with top partner allowing appropriate off-balancing while maintaining realistic balance challenges
 
-**Guard Recovery**: Flow rolling emphasizes guard recovery mechanics through allowing bottom partner multiple attempts at re-establishing guard from various disadvantaged positions, with top partner providing realistic pressure without shutting down all recovery options
+**Quarter Guard**: Flow rolling through quarter guard emphasizes guard recovery mechanics and re-composition sequences, with top partner providing realistic pressure without shutting down all recovery options, allowing repeated practice of escaping to stronger guard positions
 
 **Turtle**: Turtle position flow allows exploration of various back-take defenses and guard recovery options while top partner attempts hooks and control without explosive force that would prevent bottom's technical responses
 
-**Scramble Position**: Scramble scenarios in flow rolling occur at reduced speed allowing both partners to develop transitional awareness and recognize positional opportunities that would be difficult to perceive at competitive intensity
+**Standing Position**: Standing transition scenarios in flow rolling occur at reduced speed allowing both partners to develop transitional awareness and recognize positional opportunities that would be difficult to perceive at competitive intensity
 
 **Clinch**: Flow rolling from standing clinch emphasizes smooth takedown entries and guard pulls without competitive resistance, allowing exploration of various gripping strategies and entry mechanics
 
@@ -342,26 +342,26 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 ### Related Principles
 - **[[Positional Sparring]]** (Complementary): Flow rolling and positional sparring serve complementary training functions, with flow rolling emphasizing movement exploration and positional sparring focusing on specific position mastery under competitive resistance
-- **[[Drilling Methodology]]** (Extension): Flow rolling represents advanced form of drilling where technical repetition occurs within dynamic, responsive environment rather than static, predetermined sequences
-- **[[Energy Management System]]** (Prerequisite): Understanding energy conservation principles is prerequisite for effective flow rolling, as practitioners must manage intensity levels throughout extended sessions to prevent fatigue and maintain training quality
+- **[[Position Chains]]** (Extension): Flow rolling extends position chain practice into a dynamic, responsive environment where chained positional sequences are explored through continuous movement rather than isolated repetition
+- **[[Energy Conservation]]** (Prerequisite): Understanding energy conservation principles is prerequisite for effective flow rolling, as practitioners must manage intensity levels throughout extended sessions to prevent fatigue and maintain training quality
 - **[[Timing and Rhythm]]** (Complementary): Flow rolling develops timing and rhythm awareness through continuous movement exposure, with reduced intensity allowing greater focus on movement patterns and technical timing
-- **[[Risk Assessment]]** (Prerequisite): Proper risk assessment skills enable practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment
-- **[[Competition Training]]** (Alternative): Flow rolling serves as alternative training methodology to high-intensity competition preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation
-- **[[Progressive Resistance Training]]** (Complementary): Flow rolling implements progressive resistance principles by allowing gradual intensity increases as technical proficiency develops, creating structured skill advancement pathway
-- **[[Guard Recovery]]** (Extension): Flow rolling provides ideal environment for developing guard retention mechanics through repeated exposure to passing attempts at manageable intensity
-- **[[Transition Sequences]]** (Extension): Smooth position transitions represent core element of flow rolling practice, with cooperative resistance enabling extensive repetition of transitional movements and sequenced positional chains
+- **[[Defensive Concepts]]** (Prerequisite): Sound defensive awareness enables practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment
+- **[[Competition Mindset]]** (Alternative): Flow rolling serves as alternative training methodology to competition-focused preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation
+- **[[Dealing with Pressure]]** (Complementary): Flow rolling develops pressure management skills by allowing gradual exposure to calibrated resistance, creating a structured pathway for learning to handle increasing pressure levels
+- **[[Escape Fundamentals]]** (Extension): Flow rolling provides ideal environment for developing escape mechanics through repeated exposure to control positions at manageable intensity, building muscle memory for guard recovery and reversal sequences
+- **[[Transition Management]]** (Extension): Smooth position transitions represent core element of flow rolling practice, with cooperative resistance enabling extensive repetition of transitional movements and sequenced positional chains
 
 
 ### Related Content
 - [[Positional Sparring]] (Principle) - Complementary training methodology focusing on specific position mastery under competitive resistance
-- [[Drilling Methodology]] (Principle) - Foundation practice method that flow rolling extends into dynamic, responsive environment
-- [[Energy Management System]] (Principle) - Underlying principle system governing intensity calibration and recovery optimization in flow rolling
+- [[Position Chains]] (Principle) - Foundation for flowing positional sequences that flow rolling extends into dynamic, responsive environment
+- [[Energy Conservation]] (Principle) - Underlying principle governing intensity calibration and recovery optimization in flow rolling
 - [[Timing and Rhythm]] (Principle) - Movement attribute developed through continuous exposure in flow rolling environment
-- [[Competition Training]] (Principle) - Alternative training approach with different objectives and intensity levels
-- [[Transition Sequences]] (Principle) - Core technical element emphasizing smooth positional chains developed through flow rolling practice
-- [[Risk Assessment]] (Principle) - Critical skill for maintaining appropriate intensity and preventing injury during flow sessions
-- [[Guard Recovery]] (Principle) - Position frequently practiced during flow rolling through multiple exposure opportunities
-- [[Progressive Resistance Training]] (Principle) - Training methodology that flow rolling implements through calibrated intensity progression
+- [[Competition Mindset]] (Principle) - Alternative training mindset with different objectives and intensity levels compared to flow rolling
+- [[Transition Management]] (Principle) - Core technical element emphasizing smooth positional transitions developed through flow rolling practice
+- [[Defensive Concepts]] (Principle) - Critical awareness framework for maintaining appropriate intensity and preventing injury during flow sessions
+- [[Escape Fundamentals]] (Principle) - Escape mechanics frequently practiced during flow rolling through multiple low-intensity exposure opportunities
+- [[Dealing with Pressure]] (Principle) - Training methodology that flow rolling implements through calibrated resistance and progressive pressure exposure
 - [[Mental Game Framework]] (System) - Psychological framework supporting ego management and cooperative mindset required for effective flow rolling
 
 

@@ -1,0 +1,626 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Submission Template Schema V4 - Attacker/Defender",
+  "description": "Standardized JSON schema for BJJ submission pages with attacker/defender role structure and required outcomes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "submission_category",
+    "submission_type",
+    "target_area",
+    "starting_position",
+    "success_rate",
+    "overview",
+    "safety_considerations",
+    "from_positions",
+    "related_submissions",
+    "related_content",
+    "outcomes",
+    "attacker",
+    "defender"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Submission name (must match filename without .json)",
+      "minLength": 3
+    },
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "submission_category": {
+      "type": "string",
+      "enum": [
+        "Choke",
+        "Joint Lock",
+        "Compression",
+        "Combination"
+      ]
+    },
+    "submission_type": {
+      "type": "string",
+      "description": "Specific type within category"
+    },
+    "target_area": {
+      "type": "string",
+      "description": "Anatomical target area"
+    },
+    "starting_position": {
+      "type": "string",
+      "description": "Position where submission can be attempted"
+    },
+    "from_position": {
+      "type": "string",
+      "description": "Position/Role this submission is executed from (format: Position/Role, e.g. 'Back Control/Top')"
+    },
+    "success_rate": {
+      "type": "integer",
+      "description": "Overall success rate percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph submission description with strategic context (400+ characters)",
+      "minLength": 400
+    },
+    "safety_considerations": {
+      "type": "object",
+      "description": "Mandatory safety content (shared at hub level)",
+      "additionalProperties": false,
+      "required": [
+        "injury_risks",
+        "application_speed",
+        "tap_signals",
+        "release_protocol",
+        "training_restrictions"
+      ],
+      "properties": {
+        "injury_risks": {
+          "type": "array",
+          "description": "Specific injuries with severity and recovery time (minimum 2)",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "injury",
+              "severity",
+              "recovery_time"
+            ],
+            "properties": {
+              "injury": {
+                "type": "string"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "Low",
+                  "Medium",
+                  "High",
+                  "CRITICAL"
+                ]
+              },
+              "recovery_time": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "application_speed": {
+          "type": "string"
+        },
+        "tap_signals": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "release_protocol": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "training_restrictions": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "Probabilistic outcomes of submission attempt (probabilities must sum to 100). REQUIRED.",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "to",
+          "probability",
+          "result"
+        ],
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Target Position/Role or 'game-over' for successful finish"
+          },
+          "probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "success",
+              "failure",
+              "counter"
+            ]
+          }
+        }
+      }
+    },
+    "variations_and_setups": {
+      "type": "array",
+      "description": "Different entries and variations (minimum 2)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variation_name",
+          "description"
+        ],
+        "properties": {
+          "variation_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "when_to_use": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "from_positions": {
+      "type": "array",
+      "description": "Positions where submission can be applied (2-12)",
+      "minItems": 2,
+      "maxItems": 12,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_submissions": {
+      "type": "array",
+      "description": "Related or chained submissions (3-15)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related submissions/positions/techniques (3-12 items)",
+      "minItems": 3,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "attacker": {
+      "type": "object",
+      "description": "Attacker perspective - the person executing the submission",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "overview",
+        "key_principles",
+        "setup_requirements",
+        "execution_steps",
+        "common_counters",
+        "common_errors",
+        "training_progressions",
+        "flashcards"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Attacker page name (e.g., 'Armbar from Mount Attacker')"
+        },
+        "description": {
+          "type": "string",
+          "description": "SEO meta description for attacker page"
+        },
+        "overview": {
+          "type": "string",
+          "description": "Attacker perspective overview (200+ characters)",
+          "minLength": 200
+        },
+        "key_principles": {
+          "type": "array",
+          "description": "5-7 fundamental attacking principles",
+          "minItems": 5,
+          "maxItems": 7,
+          "items": {
+            "type": "string"
+          }
+        },
+        "setup_requirements": {
+          "type": "array",
+          "description": "Prerequisites before executing (minimum 4)",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "execution_steps": {
+          "type": "array",
+          "description": "Step-by-step finishing sequence with timing (minimum 6)",
+          "minItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "step_number",
+              "action",
+              "description"
+            ],
+            "properties": {
+              "step_number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "action": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 50
+              },
+              "timing": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "common_counters": {
+          "type": "array",
+          "description": "Opponent's defensive responses from attacker POV (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "counter",
+              "effectiveness"
+            ],
+            "properties": {
+              "counter": {
+                "type": "string"
+              },
+              "effectiveness": {
+                "type": "string",
+                "enum": [
+                  "High",
+                  "Medium",
+                  "Low"
+                ]
+              },
+              "your_response": {
+                "type": "string"
+              },
+              "targets_outcome": {
+                "type": "string",
+                "description": "Which outcome this counter targets (must match an outcomes[].to value)"
+              }
+            }
+          }
+        },
+        "common_errors": {
+          "type": "array",
+          "description": "Common attacking mistakes with corrections (minimum 5)",
+          "minItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "error",
+              "consequence",
+              "correction"
+            ],
+            "properties": {
+              "error": {
+                "type": "string"
+              },
+              "consequence": {
+                "type": "string"
+              },
+              "correction": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "training_progressions": {
+          "type": "array",
+          "description": "Progressive training phases (minimum 4)",
+          "minItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "phase",
+              "focus",
+              "description"
+            ],
+            "properties": {
+              "phase": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "Understanding test questions including safety-critical items (minimum 5)",
+          "minItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question",
+              "answer"
+            ],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50
+              },
+              "safety_critical": {
+                "type": "boolean",
+                "description": "True if this question tests safety knowledge"
+              }
+            }
+          }
+        }
+      }
+    },
+    "defender": {
+      "type": "object",
+      "description": "Defender perspective - the person defending against the submission",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "overview",
+        "key_principles",
+        "recognition_cues",
+        "defensive_options",
+        "escape_paths",
+        "favorable_outcomes",
+        "common_errors",
+        "flashcards",
+        "training_progressions"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Defender page name (e.g., 'Armbar from Mount Defender')"
+        },
+        "description": {
+          "type": "string",
+          "description": "SEO meta description for defender page"
+        },
+        "overview": {
+          "type": "string",
+          "description": "Defender perspective overview (200+ characters)",
+          "minLength": 200
+        },
+        "key_principles": {
+          "type": "array",
+          "description": "5-7 fundamental defensive principles",
+          "minItems": 5,
+          "maxItems": 7,
+          "items": {
+            "type": "string"
+          }
+        },
+        "recognition_cues": {
+          "type": "array",
+          "description": "Visual/tactile cues indicating this submission is being attempted (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "defensive_options": {
+          "type": "array",
+          "description": "Available defensive responses from defender POV (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "action",
+              "when_to_use",
+              "targets_outcome"
+            ],
+            "properties": {
+              "action": {
+                "type": "string"
+              },
+              "when_to_use": {
+                "type": "string"
+              },
+              "targets_outcome": {
+                "type": "string",
+                "description": "Which outcome this defense targets (must match an outcomes[].to value)"
+              },
+              "if_successful": {
+                "type": "string"
+              },
+              "risk": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "escape_paths": {
+          "type": "array",
+          "description": "Escape techniques available to the defender",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "favorable_outcomes": {
+          "type": "array",
+          "description": "Best-case outcomes for the defender",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "outcome",
+              "how"
+            ],
+            "properties": {
+              "outcome": {
+                "type": "string",
+                "description": "Target Position/Role (must match an outcomes[].to value)"
+              },
+              "how": {
+                "type": "string",
+                "description": "How to achieve this favorable outcome"
+              }
+            }
+          }
+        },
+        "common_errors": {
+          "type": "array",
+          "description": "Common defensive mistakes with corrections (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "error",
+              "consequence",
+              "correction"
+            ],
+            "properties": {
+              "error": {
+                "type": "string"
+              },
+              "consequence": {
+                "type": "string"
+              },
+              "correction": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "Understanding test questions (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question",
+              "answer"
+            ],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50
+              },
+              "safety_critical": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "training_progressions": {
+          "type": "array",
+          "description": "Progressive training phases for defense (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "phase",
+              "focus",
+              "description"
+            ],
+            "properties": {
+              "phase": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

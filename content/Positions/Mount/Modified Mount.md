@@ -28,7 +28,7 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Asymmetric stability - Posted leg creates base anchor while across-body knee maintains control
@@ -181,17 +181,15 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (12% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (9% of attempts)
+- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (9% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (9% of attempts)
-
-- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
+- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (7% of attempts)
 
 - **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (11% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
-- **[[Transitions/Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (4% of attempts)
+- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (13% of attempts)
 
 
 ### Common Mistakes

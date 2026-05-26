@@ -208,7 +208,7 @@ The Electric Chair Entry from Deep Half sits at the intersection of two major bo
 
 - [[Positions/Half Guard]] - Parent guard system encompassing both deep half and lockdown
 
-- [[Submissions/Electric Chair Finish]] - Primary submission available from the target Electric Chair position
+- [[Positions/Half Guard/Electric Chair]] - Primary submission available from the target Electric Chair position
 
 - [[Positions/Twister Control/Truck]] - Alternative follow-up position when opponent defends the Electric Chair sweep
 

@@ -160,6 +160,8 @@ Defensive success depends on maintaining the momentum you created during your in
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Return to Outside Ashi?</p>
+
 - Attacker's outside leg releases its crossing position over your trapped knee, indicating they are beginning to reposition for the transition back to outside ashi
 - You feel the attacker driving your trapped knee away from your body and back toward neutral alignment, attempting to reverse the hip rotation you created through inversion
 - Attacker's hands shift to grip your heel or ankle more tightly while their inside leg increases pressure on your thigh, consolidating control before attempting the leg switch
@@ -171,6 +173,8 @@ Defensive success depends on maintaining the momentum you created during your in
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Return to Outside Ashi?</p>
 
 - Maintain continuous rotation momentum from your initial inversion to prevent the attacker from reversing your hip orientation back to standard alignment
 - Use your free leg actively to post, push, and resist the attacker's hip reversal attempts rather than leaving it passive during the transition
@@ -184,6 +188,8 @@ Defensive success depends on maintaining the momentum you created during your in
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Return to Outside Ashi?</p>
 
 ### 1. Accelerate rotation to turtle by committing fully to the inversion escape, using your free leg to push off the attacker's hip and complete the turn before they can reverse your hips
 
@@ -214,6 +220,8 @@ Defensive success depends on maintaining the momentum you created during your in
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Return to Outside Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain the ushiro configuration by continuously rotating away from the attacker and posting with your free leg to prevent hip reversal. The ushiro position, while still dangerous, gives you better escape angles and compromises the attacker's heel hook mechanics compared to outside ashi-garami.
@@ -229,6 +237,8 @@ Counter-rotate into the attacker's transition when they release their outside le
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Return to Outside Ashi?</p>
 
 ### 1. Stopping rotation momentum and remaining passive in ushiro when the attacker begins the transition
 
@@ -258,6 +268,8 @@ Counter-rotate into the attacker's transition when they release their outside le
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Return to Outside Ashi?</p>
+
 **Week 1-2** - Recognition and awareness
 Learn to identify when a training partner begins the Return to Outside Ashi transition from ushiro. Practice feeling the cues: outside leg release, knee line drive, and hand grip shifts. Partner performs the transition slowly with no resistance so you develop recognition sensitivity.
 
@@ -274,29 +286,6 @@ Apply defensive responses in positional sparring starting from ushiro ashi-garam
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending against Return to Outside Ashi?
-**A**: The most critical window is when the attacker releases their outside leg from the crossing position to reposition it for outside ashi. During this moment, their leg control is temporarily reduced to only inside leg and upper body grips, creating your best opportunity to accelerate escape, extract your trapped leg, or initiate counter-entanglement into 50-50.
-
-**Q2**: Why is maintaining rotation momentum essential when the attacker begins this transition?
-**A**: The attacker's transition relies on your inversion momentum stalling so they can reverse your hip orientation. Continuous rotation forces them to fight against moving hips rather than repositioning against a static target. Even small, constant hip movement makes the reversal significantly more difficult and often causes the attacker to abandon the attempt in favor of following to back control.
-
-**Q3**: Your opponent has begun driving your knee line back and you feel your hips rotating toward them - what should you do?
-**A**: Immediately post your free leg strongly against their hip or the mat to create a structural barrier preventing further hip reversal. Simultaneously increase your inversion effort by turning your shoulders and hips away. If the post is failing and they continue the reversal, transition your defense to counter-rotating into 50-50 by threading your free leg through their legs during the repositioning moment.
-
-**Q4**: When is accepting 50-50 a better defensive outcome than fighting to maintain ushiro?
-**A**: Accept 50-50 when your inversion has stalled and the attacker is successfully reversing your hips but has not yet fully consolidated outside ashi. The 50-50 neutralizes their positional advantage by creating symmetrical entanglement, whereas fighting to maintain a degrading ushiro position may result in ending up in outside ashi with the attacker already having optimal finishing angle and grips established.
-
-**Q5**: How should you use your free leg defensively during this transition?
-**A**: Your free leg is your primary defensive tool. Post it against the attacker's hip to create a frame preventing the hip reversal, push off the mat to generate rotation momentum for continued escape, or thread it through the attacker's legs to initiate 50-50 counter-entanglement. Never leave it passive. Be aware that the attacker may try to hook behind your posting knee, so maintain awareness of their outside leg position.
-
-
-
-</section>
 
 
 </main>

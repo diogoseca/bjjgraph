@@ -162,6 +162,8 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Scarf to Side Control?</p>
+
 - Hip pressure on your chest shifts laterally from the reverse-facing direction toward perpendicular alignment as opponent begins rotating
 - Opponent's far leg begins swinging around toward your head side, visibly changing their base configuration and weight distribution
 - Near-arm control loosens momentarily as opponent adjusts grip configuration during the rotational transition
@@ -174,6 +176,8 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Scarf to Side Control?</p>
 
 - Recognize the transition initiation through tactile cues—feel for the hip pressure shifting laterally across your chest before the rotation becomes visible
 - Pre-position defensive frames before the rotation begins by maintaining far-side forearm against opponent's shoulder or neck at all times
@@ -188,6 +192,8 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Scarf to Side Control?</p>
 
 ### 1. Drive far-side forearm into opponent's neck or shoulder as they begin rotating, creating a structural frame that blocks transition completion
 
@@ -225,6 +231,8 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Scarf to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape to the mid-rotation moment when opponent's hip pressure reduces below the level needed to pin you. Shrimp away from their rotating direction, insert your near knee between their legs, and establish half guard hooks before they can complete the crossface. Pre-position your far-side frame against their shoulder before the transition begins so you have immediate leverage when the pressure window opens.
@@ -236,6 +244,8 @@ Time your hip escape to the mid-rotation moment when opponent's hip pressure red
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Scarf to Side Control?</p>
 
 ### 1. Remaining flat and passive while opponent completes the full rotation without any defensive resistance
 
@@ -265,6 +275,8 @@ Time your hip escape to the mid-rotation moment when opponent's hip pressure red
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Scarf to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues through feel
 Partner alternates between maintaining static reverse scarf hold and initiating the transition to side control. Call out the transition the moment you feel the rotation beginning. Track detection speed over 20 repetitions, aiming to identify the movement within the first quarter of the rotation arc.
 
@@ -281,29 +293,6 @@ Begin every round in reverse scarf hold bottom. Partner can transition to side c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that tells you the opponent is beginning to transition from reverse scarf to side control?
-**A**: The first cue is a lateral shift in the hip pressure on your chest. In reverse scarf hold, the pressure comes from the opponent's hip pointing toward your legs. When they initiate the transition, you feel the pressure begin sliding sideways across your sternum as their hip rotates toward perpendicular alignment. This shift precedes any visible rotation and provides the maximum response window for defensive action.
-
-**Q2**: You successfully insert a frame against the opponent's neck during their rotation—what is your immediate next action?
-**A**: After establishing the frame, immediately shrimp your hips away from the opponent in the direction opposite their rotation. The frame prevents them from following your hip escape with their upper body. As space opens, insert your near knee between their legs to begin half guard recovery. The sequence is: frame holds them in place, hips escape to create distance, knee inserts to establish guard structure. Do not release the frame until your knee is fully inserted and half guard hooks are established.
-
-**Q3**: Why is the transition window from reverse scarf to side control your best escape opportunity from the pin?
-**A**: During static reverse scarf hold, the opponent has settled weight, wide base, and full arm control. During the transition, they must rotate their body which requires shifting hip pressure, changing base configuration, and switching grip points between arm trap and crossface. Each change creates momentary vulnerability. The hip pressure reduction is the most significant—it provides the mobility to shrimp, frame, and insert guard recovery structures that are impossible under full reverse scarf compression.
-
-**Q4**: If you fail to prevent the transition and the opponent establishes side control, how does your defensive strategy change?
-**A**: In side control you face a more versatile opponent with better submission chains and advancement pathways than reverse scarf hold offered. Your defensive priority shifts to preventing mount advancement while working systematic escape sequences. Establish forearm frames against their hips and shoulder, protect your near arm from isolation for americana or kimura, and work hip escapes toward half guard or full guard recovery. While the position is more dangerous, your defensive toolkit for side control escapes is broader and more practiced.
-
-**Q5**: Your near arm gets freed during the opponent's grip transition—should you reach for an underhook or protect the arm?
-**A**: This depends on the opponent's grip progress. If they have not yet established crossface, shoot for the underhook immediately—it provides your strongest offensive recovery tool and prevents crossface establishment entirely. If the opponent has already driven their forearm toward your face for crossface, prioritize arm protection by bringing your elbow tight to your ribs. An underhook attempt against an established crossface exposes your arm to kimura attack. Read the opponent's grip progress before committing to either option.
-
-
-
-</section>
 
 
 </main>

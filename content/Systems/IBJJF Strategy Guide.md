@@ -354,10 +354,10 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 - [[Bridge and Roll]] (Transition) - Mount escape preventing opponent's 4-point position retention
 - [[Positional Hierarchy]] (Principle) - Foundational principle underlying IBJJF point value assignments and strategic positioning
 - [[Position-Over-Submission Approach]] (Principle) - Core tactical principle for IBJJF competition where position secures points before submission attempts
-- [[Match Strategy]] (Principle) - Strategic principle for competition-specific tactical planning and execution
-- [[Game Planning]] (Principle) - Pre-match preparation principle essential for IBJJF tournament success
-- [[Energy Management System]] (Principle) - Critical principle for multi-match tournament performance and pacing
-- [[Risk Assessment]] (Principle) - Decision-making principle for score-based tactical adjustments during matches
+- [[Competition Mindset]] (Principle) - Mental framework for competition-specific strategic planning and match execution
+- [[Position Chains]] (Principle) - Sequential position planning essential for chaining scoring sequences in IBJJF matches
+- [[Energy Conservation]] (Principle) - Critical principle for multi-match tournament performance and pacing across bracket
+- [[Timing and Rhythm]] (Principle) - Decision-making principle for score-based tactical timing adjustments during matches
 - [[Guard Passing]] (Principle) - Technical principles underlying 3-point scoring through guard passing
 - [[Rear Naked Choke]] (Submission) - Highest-percentage submission from back control (4-point position)
 

@@ -216,7 +216,7 @@ Inside Ashi-Garami to Ushiro Ashi serves as a critical link in the leg entanglem
 
 - [[Submissions/Inside Heel Hook]] - Primary submission available from the ushiro ashi destination position
 
-- [[Transitions/Heel Hook from Saddle]] - Related submission pathway accessible through ushiro to saddle advancement
+- [[Heel Hook from Saddle]] - Related submission pathway accessible through ushiro to saddle advancement
 
 
 </section>

@@ -146,13 +146,15 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
 
 As the defender against the Z-Guard pass, your primary objective is maintaining the integrity of your knee shield defensive structure while threatening sweeps that keep the passer reactive and hesitant. The Z-Guard provides exceptional retention capabilities when actively managed, but it requires constant adjustment and awareness of the passer's grip progression and pressure angles. Your defense operates on multiple levels: maintaining the knee shield frame to prevent pass completion, threatening offensive sweeps to force the passer to defend rather than attack, and having contingency transitions—particularly to deep half guard—when the knee shield is compromised. The most common mistake defenders make is treating Z-Guard as a static hold rather than a dynamic defensive system that requires continuous movement and adjustment.
 
-**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Pass Z-Guard?</p>
 
 - Passer drops their weight low and angles their shoulder into your knee shield at a diagonal rather than pushing straight forward, indicating they understand correct passing mechanics
 - Passer fights aggressively for crossface or far-side underhook control, stripping your grips and swimming for dominant position on your far arm
@@ -167,6 +169,8 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Pass Z-Guard?</p>
+
 - Maintain active knee shield pressure into the passer's shoulder or collarbone, treating the shield as a loaded spring rather than a static frame
 - Win the underhook battle on the trapped-leg side to retain sweep threats and control the passer's posture
 - Keep hips angled at approximately 45 degrees and mobile, never allowing the passer to flatten you to your back
@@ -180,6 +184,8 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Z-Guard?</p>
 
 ### 1. Secure deep underhook and threaten old school sweep to force passer to defend
 
@@ -217,6 +223,8 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Z-Guard?</p>
+
 ### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Win the underhook battle, maintain active knee shield pressure, and threaten sweeps to keep the passer defensive. Strip their controlling grips immediately when established and continuously adjust hip angle to prevent being flattened.
@@ -232,6 +240,8 @@ When the knee shield is being successfully collapsed, proactively transition to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Z-Guard?</p>
 
 ### 1. Treating the knee shield as a static hold rather than actively managing pressure and angle
 
@@ -266,6 +276,8 @@ When the knee shield is being successfully collapsed, proactively transition to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Z-Guard?</p>
+
 **Shield Retention** - Maintaining knee shield integrity under pressure
 Partner applies progressive pressure from Z-Guard top while you focus solely on maintaining knee shield position and frame integrity. Practice micro-adjustments, hip angle maintenance, and grip fighting without attempting sweeps. Develop the foundational retention skills that make all offensive options possible.
 
@@ -282,26 +294,6 @@ Positional sparring from Z-Guard with full resistance. Focus on applying the com
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important grip for the defender to maintain from Z-Guard and why?
-**A**: The underhook on the trapped-leg side is the most critical grip because it serves dual purposes: defensively, it prevents the passer from establishing crossface control which would flatten you; offensively, it enables old school sweeps, back takes, and dogfight transitions. Without the underhook, the defender loses both their primary defensive structure and all high-percentage offensive options simultaneously.
-
-**Q2**: When should you abandon the knee shield and transition to deep half guard?
-**A**: Transition to deep half guard when the passer has successfully established either crossface control or far-side underhook AND has begun collapsing your knee shield with effective angular pressure. The key indicator is when maintaining the shield requires maximum muscular effort with diminishing returns. The transition must happen while you still have enough frame to create the diving angle—waiting until the shield is fully collapsed is too late.
-
-**Q3**: How do you prevent the passer from winning the crossface battle?
-**A**: Use your far-side hand to frame against the passer's shoulder or bicep, preventing them from driving their forearm across your face. Control their wrist or sleeve to limit their reaching range. Keep your chin tucked and head angled away from the crossface direction. If they begin establishing the crossface, immediately hip escape away while extending your frame to break their contact. Proactive frame maintenance is easier than reactive crossface defense.
-
-**Q4**: Your knee shield is partially collapsed and the passer has crossface control—what is your best course of action?
-**A**: With the shield partially collapsed and crossface established, continued Z-Guard retention has low probability of success. Your best option is an immediate deep half guard transition by diving underneath the passer's weight before they can fully consolidate the pass. Use whatever remaining frame you have to create the angle for entry, and use the passer's forward pressure to facilitate your movement underneath them. This is a committed transition—half-measures will result in being passed.
-
-
-
-</section>
 
 
 </main>

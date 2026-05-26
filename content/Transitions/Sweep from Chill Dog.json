@@ -120,7 +120,7 @@
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Assess Weight Distribution",
+        "action": "Assess Center of Gravity",
         "description": "From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your upper back and shoulders to map the opponent's weight distribution. Feel for forward chest pressure that indicates their center of gravity is over your back rather than behind you. The heavier their forward pressure, the more vulnerable they are to the reversal because their rearward base is compromised."
       },
       {
@@ -239,7 +239,7 @@
         "description": "Begin each round in Chill Dog with partner at full competition resistance. Score for achieving mount via sweep, and also track successful chains to other escapes when the sweep is countered. Develops the judgment for when to sweep versus when to use other escape options based on live opponent behavior and weight distribution."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What specific weight distribution must the opponent have for the sweep to be viable?",
         "answer": "The opponent must have their chest pressure committed forward onto your upper back, meaning their center of gravity is positioned over your torso rather than behind their own hips. This forward commitment compromises their rearward base, making them vulnerable to the rotational displacement of the sit-out. If the opponent's weight is centered over their own knees or sitting back, the sweep lacks the mechanical advantage needed to generate the reversal and should not be attempted."
@@ -356,7 +356,7 @@
         "correction": "Always maintain at least one hand ready to post on the mat. If both hands are fighting grips, release the less important one and keep it available as an emergency base. One grip with posting ability is safer than two grips without it."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What weight distribution should you maintain to prevent the sweep while still being able to attack from Chill Dog top?",
         "answer": "Distribute your weight primarily through your hips onto the bottom player's lower back and hip area rather than forward through your chest onto their upper back. This hip-heavy distribution provides attacking pressure without creating the forward weight commitment the sweep exploits. Keep your center of gravity behind the bottom player's body while maintaining enough forward contact to control their movement and attack with grip fighting. This balanced distribution allows offensive attacks while denying the fundamental mechanical vulnerability the sweep requires."
@@ -385,7 +385,7 @@
         "description": "Partner alternates between standard Chill Dog defensive grip fighting and actual sweep setups. You must identify and verbally call out when the sweep setup is happening versus normal defense. Do not counter - focus purely on recognition accuracy. Develop sensitivity to the far-side arm reach, loading weight shift, and breathing changes that distinguish sweep preparation from standard defense."
       },
       {
-        "phase": "Phase 2: Weight Distribution Management",
+        "phase": "Phase 2: Center of Gravity Management",
         "focus": "Maintaining safe pressure distribution while retaining attacking capability",
         "description": "Practice maintaining Chill Dog top pressure with deliberate focus on hip-heavy rather than chest-forward weight distribution. Partner provides feedback on whether your pressure feels exploitable for the sweep. Alternate between attacking grips and maintaining safe weight to build the habit of pressure awareness. Drill posting with the free hand while keeping one grip active."
       },

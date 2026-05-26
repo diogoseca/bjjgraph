@@ -1,0 +1,415 @@
+{
+  "name": "Belly Down Armbar from Spider Guard",
+  "description": "Master the belly down armbar finish from Spider Guard. Learn grip transitions, prone finishing mechanics, and defensive counters for this powerful arm lock.",
+  "tags": [
+    "bjj",
+    "submission",
+    "joint-lock",
+    "armbar",
+    "belly-down",
+    "arm-attack",
+    "prone-armbar",
+    "finishing-technique",
+    "spider-guard"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
+  "starting_position": "Spider Guard",
+  "from_position": "Spider Guard/Bottom",
+  "success_rate": 50,
+  "overview": "The belly down armbar finish from Spider Guard exploits the inherent arm isolation available when controlling both sleeves with feet on biceps. From the bottom of Spider Guard, the attacker already has the opponent's arms extended and controlled, providing the ideal starting point for an armbar transition. By releasing one bicep hook while maintaining the opposite sleeve grip, the attacker creates the hip angle necessary to swing their leg over the opponent's head and secure the initial armbar position.\n\nWhat distinguishes this entry from other armbar setups is the seamless conversion from pushing frames to rotational hip movement. The spider guard grip structure means the opponent's arm is already extended and isolated before the armbar rotation begins, eliminating the common problem of arm retraction during setup. The feet-on-biceps control acts as a launching platform for the hip pivot that initiates the armbar sequence.\n\nOnce the initial armbar position is secured, the attacker rotates to belly-down by turning toward the trapped arm. This prone finishing position removes the hitchhiker escape, eliminates stacking defense, and generates tremendous breaking pressure through hip extension against the pinned elbow. The attacker's entire body weight drives the extension rather than just hip elevation, making this finish particularly effective against larger or stronger opponents who might otherwise power out of a traditional supine armbar.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Elbow hyperextension with ligament damage to the ulnar collateral ligament",
+        "severity": "CRITICAL",
+        "recovery_time": "3-6 months, may require surgical reconstruction"
+      },
+      {
+        "injury": "Elbow joint capsule sprain or partial tear from forced extension",
+        "severity": "High",
+        "recovery_time": "4-12 weeks depending on severity"
+      },
+      {
+        "injury": "Biceps tendon strain or partial tear from resisting extension under load",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks with progressive rehabilitation"
+      },
+      {
+        "injury": "Distal humerus stress fracture from sustained pressure against locked elbow",
+        "severity": "High",
+        "recovery_time": "6-10 weeks with immobilization"
+      }
+    ],
+    "application_speed": "SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.",
+    "tap_signals": [
+      "Verbal tap saying 'tap' or any distress vocalization",
+      "Physical hand tap on partner, mat, or own body",
+      "Physical foot tap on mat with either leg",
+      "Any screaming, grunting, or unusual vocalization indicating distress"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal without waiting for confirmation or repetition",
+      "If in doubt whether a tap occurred, release immediately and re-establish the position if needed",
+      "Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely",
+      "Monitor training partner's arm mobility after release and check for signs of injury before continuing"
+    ],
+    "training_restrictions": [
+      "Beginners should practice mechanics at 50% pressure maximum until transition control is consistent",
+      "Always apply extension slowly in training and never jerk or spike the arm during the belly down finish",
+      "Do not apply this technique on training partners with known elbow injuries or recent arm submissions",
+      "Practice the transition rotation separately from the finishing pressure until both components are reliable"
+    ]
+  },
+  "from_positions": [
+    "Spider Guard",
+    "Lasso Guard"
+  ],
+  "related_submissions": [
+    "Belly Down Armbar",
+    "Far Side Armbar",
+    "Flying Armbar",
+    "Bicep Slicer"
+  ],
+  "related_content": [
+    {
+      "name": "Spider Guard",
+      "relationship": "Starting position providing the sleeve control and bicep hooks for this submission entry"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Control position securing the arm before transitioning to belly-down finish"
+    },
+    {
+      "name": "Belly Down Armbar",
+      "relationship": "Generic version of this submission applied from various positions"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category that Spider Guard belongs to"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Alternative submission attack from Spider Guard bottom using similar arm isolation"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Related guard position with similar sleeve control enabling armbar transitions"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Spider Guard/Bottom",
+      "probability": 32,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 18,
+      "result": "counter"
+    }
+  ],
+  "attacker": {
+    "name": "from Spider Guard Attacker",
+    "description": "Learn to execute the belly down armbar finish from Spider Guard. Step-by-step setup from bicep hooks, grip transitions, rotation technique, and prone finishing details.",
+    "overview": "Executing the belly down armbar finish from Spider Guard requires converting your existing sleeve control and bicep pressure into a rotational armbar entry. The spider guard provides natural arm isolation because your feet are already controlling the opponent's biceps, making the transition to armbar control more direct than from most other positions. The key challenge is maintaining arm control during the hip rotation while transitioning from the supine spider guard position to the prone belly-down finish, where your mechanical advantage becomes overwhelming. Success depends on precise timing of when to release the non-target bicep hook, maintaining constant tension on the target sleeve, and committing fully to the belly-down rotation once the leg clears over the opponent's head.",
+    "key_principles": [
+      "Isolate the target arm by pushing the opposite arm away with your foot before initiating the armbar rotation",
+      "Maintain unbroken sleeve grip tension on the target arm throughout the entire transition from spider guard to belly-down",
+      "Create a sharp hip angle toward the target arm side before swinging the leg over to ensure proper positioning",
+      "Pinch knees tightly together during and after the rotation to prevent the opponent from extracting the trapped arm",
+      "Commit fully to the belly-down rotation once your leg clears the opponent's head because hesitation creates escape windows",
+      "Apply finishing pressure through progressive hip extension driving into the back of the elbow rather than jerking the wrist"
+    ],
+    "setup_requirements": [
+      "Established Spider Guard with double sleeve grips and at least one foot on the opponent's bicep",
+      "Target arm isolated and extended by pushing the non-target arm away with your foot",
+      "Hips angled toward the target arm side with sufficient space to swing the attacking leg over",
+      "Strong four-finger sleeve grip on the target arm maintained at elbow level or above for maximum control",
+      "Opponent's posture disrupted so they cannot simply stand tall and retract the arm before the rotation begins"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Isolate the target arm",
+        "description": "From spider guard with double sleeve grips and feet on biceps, select the arm to attack. Push the non-target arm away by extending your foot forcefully into their opposite bicep while pulling the target arm across your centerline with your sleeve grip. This separation prevents the opponent from using both arms defensively.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Plant the non-attacking foot and angle hips",
+        "description": "Remove your foot from the non-target bicep and plant it firmly on the opponent's hip or the mat on that side. Simultaneously angle your hips sharply toward the target arm by scooting your bottom hip out. This hip angle is critical because it creates the rotational trajectory needed to swing your leg over the opponent's head cleanly.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 3,
+        "action": "Swing the leg over the opponent's head",
+        "description": "Using your planted foot as a pivot point, swing your attacking-side leg up and over the opponent's head in one fluid motion. The back of your thigh should land across their face and neck area. Keep the target arm pinched tightly against your chest throughout this movement to prevent any slack that would allow arm retraction.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure the armbar position and clamp the arm",
+        "description": "Once your leg is across the opponent's head, immediately squeeze your knees together to trap the arm between your thighs. The opponent's thumb should point toward the ceiling with their elbow positioned directly above your hip line. Pull the wrist tight to your chest with both hands, eliminating all space between your body and their arm.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate to belly-down position",
+        "description": "Turn your entire body toward the trapped arm by rolling onto your stomach. Maintain constant grip pressure on the wrist throughout the rotation and keep your knees squeezed together so the arm stays locked between your thighs. Your chest should end up facing the mat with the opponent's arm still controlled beneath you. This rotation eliminates the hitchhiker escape completely.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Finish with progressive hip extension",
+        "description": "In the belly-down position, extend your hips forward into the mat while lifting the opponent's wrist toward the ceiling with both hands. The fulcrum point is your hip bone pressing against the back of their elbow. Apply this pressure slowly and progressively because the prone position generates tremendous force. Your entire body weight drives the extension, making this finish extremely powerful even against larger opponents.",
+        "timing": "2-3 seconds, slow and controlled"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Stacking defense by driving forward before leg clears over head",
+        "effectiveness": "High",
+        "your_response": "If they stack early, switch to triangle entry by pulling the target arm across and throwing your leg over their neck instead of committing to the armbar rotation",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Arm retraction by bending the elbow and pulling the arm back during the hip angle phase",
+        "effectiveness": "Medium",
+        "your_response": "Maintain maximum sleeve tension and use your foot on their bicep to re-extend the arm, or transition to omoplata if they retract deeply by pivoting your hips further",
+        "targets_outcome": "Spider Guard/Bottom"
+      },
+      {
+        "counter": "Posture recovery by standing tall and creating distance before rotation begins",
+        "effectiveness": "Medium",
+        "your_response": "Follow their upward movement by extending your legs and maintaining bicep pressure, then use the extended position to re-enter the armbar setup or switch to triangle",
+        "targets_outcome": "Spider Guard/Bottom"
+      },
+      {
+        "counter": "Rolling through the belly-down position to relieve pressure and create scramble",
+        "effectiveness": "Low",
+        "your_response": "Keep your knees pinched tight and follow the roll by rotating with the opponent, maintaining the arm trapped position throughout the scramble to reapply the finish",
+        "targets_outcome": "Spider Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the sleeve grip during the hip rotation phase",
+        "consequence": "Opponent immediately retracts the arm and recovers posture, killing the entire submission attempt and potentially passing the guard",
+        "correction": "Treat the sleeve grip as non-negotiable throughout the entire sequence. Pull the wrist to your chest before rotating and maintain death-grip tension on the sleeve at every phase of the movement"
+      },
+      {
+        "error": "Insufficient hip angle before swinging the leg over",
+        "consequence": "Leg cannot clear the opponent's head cleanly, resulting in the foot catching on their shoulder and stalling the rotation in an exposed position",
+        "correction": "Scoot your bottom hip out aggressively toward the target arm side before attempting the leg swing. Your hips should be almost perpendicular to the opponent before the leg goes over"
+      },
+      {
+        "error": "Leaving space between the thighs during the arm trap",
+        "consequence": "Opponent extracts the arm through the gap between your legs, escaping the submission and often advancing to a passing position",
+        "correction": "Squeeze your knees together forcefully the moment the leg crosses over the head. Think of pinching a towel between your thighs with no daylight visible around the trapped arm"
+      },
+      {
+        "error": "Hesitating during the belly-down rotation instead of committing fully",
+        "consequence": "Opponent uses the pause to bridge, posture, or extract the arm while you are in a transitional position with reduced control",
+        "correction": "Once your leg is over the head and the arm is trapped, commit immediately to the belly-down rotation in one smooth movement. Hesitation between the supine armbar and belly-down finish creates the largest escape window"
+      },
+      {
+        "error": "Jerking or spiking the arm extension during the belly-down finish",
+        "consequence": "Risk of serious elbow injury to training partner because the belly-down position amplifies force dramatically and fast application does not allow time to tap",
+        "correction": "Apply extension pressure gradually through progressive hip extension. The belly-down position already provides overwhelming mechanical advantage, so slow controlled pressure is both safer and more effective"
+      },
+      {
+        "error": "Failing to push the non-target arm away before initiating the armbar sequence",
+        "consequence": "Opponent uses their free arm to frame against your hip or grab your leg, blocking the rotation and defending the armbar with both arms",
+        "correction": "Use your foot on the non-target bicep to forcefully push that arm away and create clear isolation on the target arm before removing the foot to plant on their hip"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Component Isolation",
+        "focus": "Individual movement mechanics",
+        "description": "Practice each component separately: sleeve grip maintenance during hip movement, hip angle creation from spider guard, leg swing over a stationary partner, and belly-down rotation with a training dummy. Build muscle memory for each piece before combining them."
+      },
+      {
+        "phase": "Phase 2: Full Sequence Drilling",
+        "focus": "Connecting the chain with a cooperative partner",
+        "description": "Run the complete sequence from spider guard to belly-down finish with a fully cooperative partner who maintains position but does not resist. Focus on smooth transitions between each step, maintaining grip tension throughout, and developing consistent timing of the rotation."
+      },
+      {
+        "phase": "Phase 3: Graduated Resistance",
+        "focus": "Adapting to defensive reactions",
+        "description": "Partner adds progressive resistance at specific checkpoints: grip fighting during isolation, posture recovery during hip angle, arm retraction during leg swing, and stacking during rotation. Practice adjusting your technique to overcome each defensive response individually."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Live application from spider guard",
+        "description": "Start in spider guard with full resistance. Attempt the belly down armbar finish along with other spider guard attacks. Integrate the armbar into your overall spider guard game, recognizing when the opportunity presents itself and chaining to alternative attacks when countered."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structure does the belly down armbar finish primarily attack?",
+        "answer": "The primary target is the elbow joint, specifically hyperextending it against its natural range of motion. The fulcrum of hip pressure against the posterior elbow stresses the ulnar collateral ligament and the joint capsule. Secondary stress falls on the biceps tendon as it resists forced extension. The belly-down position amplifies this force because the attacker's entire body weight drives the extension rather than just hip elevation.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent starts to retract their arm by bending the elbow during your hip angle phase - what adjustment prevents the escape?",
+        "answer": "Maintain maximum sleeve tension by pulling the wrist firmly toward your chest and use your foot still on their bicep to re-extend the arm by pushing outward. If they bend the elbow deeply despite these efforts, pivot your hips further toward the omoplata angle rather than forcing the armbar, converting their defensive arm retraction into an omoplata entry. Never abandon sleeve grip tension to chase the arm.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is the belly-down rotation considered the point of no escape in this submission?",
+        "answer": "Once the attacker achieves the belly-down position with the arm trapped between squeezed thighs, the three primary armbar escapes are eliminated. The hitchhiker escape requires rotating the thumb toward the mat, which the prone position blocks. Stacking requires lifting the attacker's hips, which is impossible when they are face-down. Arm extraction requires space between the thighs, which the belly-down squeeze maximizes. This is why defensive action must occur before the rotation completes.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical control requirements that must be established before committing to the belly-down rotation?",
+        "answer": "Three control checkpoints must be confirmed: the target arm is trapped between your thighs with knees squeezed and no visible gap, the wrist is pulled tight to your chest with both hands maintaining strong grip, and the opponent's elbow is positioned above your hip line so the fulcrum is aligned for extension. Missing any of these three elements creates an escape opportunity during the rotation when your control is temporarily reduced.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error in the belly-down armbar and what consequence does it carry?",
+        "answer": "The most common finishing error is applying extension too rapidly by jerking or spiking the arm. Because the belly-down position generates far more force than a standard supine armbar through full body weight leverage, rapid application can hyperextend the elbow before the defender has time to tap. This can cause ligament tears, joint capsule damage, or fractures. The correction is always progressive, controlled hip extension allowing adequate time for the tap signal.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you adjust your grip on the sleeve during the transition from spider guard control to the belly-down finish?",
+        "answer": "During spider guard, your grip is a standard four-finger sleeve grip at or above elbow level. As you begin the armbar rotation, transition to gripping the wrist with both hands by walking your grips down toward the wrist while maintaining tension. In the belly-down position, both hands control the wrist area with the arm pulled tight against your chest. The grip must never fully release during any transition between these control points.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific indicators tell you the elbow joint is approaching its breaking point during the belly-down finish?",
+        "answer": "Key indicators include the opponent's arm becoming rigid as they reflexively resist extension, visible straightening of the arm past its natural resting angle, the opponent's body tensing or lifting as they attempt to relieve pressure, and any vocalization of discomfort. When you feel the arm fully straighten against your hip fulcrum with no remaining bend, you are at the breaking threshold. At this point, hold steady pressure and wait for the tap rather than pushing further.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, your opponent is defending by gripping their own hands together to prevent arm extension - how do you break this grip and finish?",
+        "answer": "From the belly-down position, use progressive hip pressure against the joined arms to fatigue the grip. You can also walk your hands down to their wrist and peel fingers individually, or create a lever by pulling their wrist laterally while maintaining hip pressure to separate the hands. Another competition-proven method is to squeeze your knees tighter and slowly extend your hips in micro-increments, which gradually overcomes static grip strength through sustained mechanical advantage."
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Spider Guard Defender",
+    "description": "Defend and escape the belly down armbar finish from Spider Guard. Recognition cues, early prevention, escape techniques, and recovery strategies.",
+    "overview": "Defending the belly down armbar finish from Spider Guard requires recognizing the attack during the early isolation phase, well before the attacker achieves the belly-down position. The critical defensive window occurs when the attacker releases one bicep hook to create a hip angle, and again when they swing their leg over your head. Once the attacker completes the belly-down rotation with your arm trapped between their thighs, escape becomes extremely difficult due to the overwhelming mechanical advantage of the prone position. Effective defense prioritizes early recognition, immediate posture recovery, and arm retraction before the rotation completes. Understanding the attack sequence is essential because each phase has a specific counter, but the available defensive options narrow dramatically as the submission progresses.",
+    "key_principles": [
+      "Recognize the arm isolation attempt immediately when one bicep hook releases and the other sleeve grip intensifies",
+      "Recover posture and retract the targeted arm before the attacker can angle their hips for the leg swing",
+      "Never allow the arm to remain extended and isolated once the opponent begins rotating their hips toward it",
+      "If the leg comes over your head, address it immediately by stacking forward rather than pulling away",
+      "Keep the targeted elbow bent and tight to your body as your primary defensive structure throughout the sequence",
+      "Tap early if the belly-down position is achieved because the mechanical advantage makes escape nearly impossible and injury risk escalates rapidly"
+    ],
+    "recognition_cues": [
+      "One foot releases from your bicep and plants on your hip or the mat while the sleeve grip on the opposite arm tightens significantly",
+      "The opponent's hips angle sharply toward one side rather than remaining square, indicating they are creating rotational trajectory",
+      "A leg begins swinging upward toward your head from the angled hip position, targeting your neck and face line",
+      "Increased pulling tension on one sleeve combined with pushing pressure on the other arm creating clear arm isolation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Immediate posture recovery by standing tall and retracting the targeted arm",
+        "when_to_use": "As soon as you feel one bicep hook release and increased pulling on the opposite sleeve, before the hip angle is established",
+        "targets_outcome": "Spider Guard/Bottom",
+        "if_successful": "Return to neutral spider guard engagement where you can address grips and re-establish passing position",
+        "risk": "If too slow, the attacker may already have sufficient angle to throw the leg over despite your posture"
+      },
+      {
+        "action": "Stack forward by driving your weight into the attacker as the leg swings over your head",
+        "when_to_use": "When the attacker's leg is crossing over your head and you cannot retract the arm in time to prevent the armbar position",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Compress the attacker and prevent the belly-down rotation, potentially passing to side control or settling in closed guard",
+        "risk": "If the attacker has strong sleeve control, stacking may not prevent the finish and can compress you into a worse position"
+      },
+      {
+        "action": "Bend the elbow and grip your own wrist or lapel to create a defensive frame preventing extension",
+        "when_to_use": "When the arm is already trapped between the attacker's legs and the belly-down rotation is beginning or complete",
+        "targets_outcome": "Spider Guard/Bottom",
+        "if_successful": "Buy time and prevent the immediate finish, creating an opportunity to work the arm free or wait for the attacker to transition",
+        "risk": "This is a temporary delay, not an escape. The attacker can systematically break this grip from belly-down position, so you must combine it with other escape efforts"
+      }
+    ],
+    "escape_paths": [
+      "Retract the targeted arm by bending the elbow and pulling it tight to your body before the leg clears over your head",
+      "Stack forward and drive your weight into the attacker to prevent the belly-down rotation and work toward passing",
+      "Bridge and turn into the attacker during the rotation phase before belly-down is established to create a scramble"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Spider Guard/Bottom",
+        "how": "Recognize the isolation early, recover posture, and retract the targeted arm before the hip angle is established, resetting to neutral spider guard engagement"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Stack forward when the leg crosses over your head, driving your weight into the attacker to prevent rotation and settling into their closed guard where you can work to pass"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped arm straight back away from the attacker instead of bending the elbow",
+        "consequence": "Pulling straight back actually feeds the armbar extension by straightening the arm against the hip fulcrum, accelerating the submission",
+        "correction": "Always bend the elbow first and pull the arm tight to your body. The defensive priority is preventing arm extension, not creating distance from the attacker"
+      },
+      {
+        "error": "Waiting until the belly-down position is established before attempting to defend",
+        "consequence": "Once belly-down is achieved with the arm trapped, escape success rate drops below 10% and injury risk increases dramatically with each second of delay",
+        "correction": "Defend at the earliest recognition cue, ideally when the first bicep hook releases and you feel increased isolation on one arm. Each phase you delay reduces your escape options exponentially"
+      },
+      {
+        "error": "Attempting to stand and pull away rather than stacking forward when the leg is crossing over",
+        "consequence": "Standing and pulling away extends the arm and gives the attacker exactly the leverage they need to complete the armbar, often resulting in a faster finish",
+        "correction": "Drive forward into the attacker when the leg is coming over. Stack your weight onto them to compress the space they need for the rotation. Forward pressure defeats the armbar mechanics while backward movement amplifies them"
+      },
+      {
+        "error": "Ignoring the grip intensity change on one sleeve as a non-threatening adjustment",
+        "consequence": "Missing the earliest and most critical recognition cue allows the attacker to establish their hip angle unopposed, reducing available defensive time significantly",
+        "correction": "Any time you feel one sleeve grip tighten while the opposite bicep pressure decreases, immediately address it by recovering posture and retracting the targeted arm. Treat asymmetric grip changes as submission threats"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest recognition cue that a belly down armbar is being set up from Spider Guard?",
+        "answer": "The earliest cue is feeling one bicep hook release or decrease in pressure while the sleeve grip on the opposite arm intensifies simultaneously. This asymmetric change indicates the attacker is beginning arm isolation, which is the first step of the armbar sequence. Recognizing this moment gives you the maximum defensive window before the hip angle and leg swing make escape progressively more difficult.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why should you tap early if the belly-down position is fully established with your arm trapped?",
+        "answer": "The belly-down armbar generates extraordinary mechanical advantage because the attacker's entire body weight drives the extension against your elbow. Unlike a standard supine armbar where you can bridge, stack, or hitchhiker escape, the prone position eliminates all three primary escapes simultaneously. The force applied in belly-down can damage the elbow joint in under one second of committed extension, making it too fast to react to once fully locked. Tapping early prevents potentially career-ending ligament damage or fracture.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your arm is trapped and the attacker is beginning the belly-down rotation - what is your best remaining defensive option?",
+        "answer": "Your best option is to immediately bridge and turn into the attacker during the rotation before they complete the belly-down position. Drive your shoulder toward them and try to follow their rotation to prevent them from achieving the prone position. Simultaneously, bend your trapped elbow as much as possible and grip your own wrist or lapel. If the rotation completes to full belly-down, tap immediately rather than resisting extension with grip strength alone.",
+        "safety_critical": true
+      },
+      {
+        "question": "What makes stacking forward more effective than pulling away when defending this armbar?",
+        "answer": "Stacking forward compresses the space the attacker needs to complete the hip rotation to belly-down and loads your weight onto their chest, making it difficult for them to turn. Pulling away extends the targeted arm and straightens it against the hip fulcrum, which is exactly the finishing mechanic the attacker wants. Forward pressure fights the armbar geometry while backward pressure feeds it. Additionally, stacking can lead to passing opportunities if the attacker abandons the submission attempt.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying the attack at each phase",
+        "description": "Partner performs the belly down armbar setup from spider guard at slow speed, pausing at each phase. Identify the recognition cues at each checkpoint: bicep hook release, hip angle creation, leg swing initiation, and rotation. Build pattern recognition without resistance."
+      },
+      {
+        "phase": "Phase 2: Early Defense Practice",
+        "focus": "Posture recovery and arm retraction timing",
+        "description": "Partner initiates the armbar sequence at moderate speed. Practice the early defense of posture recovery and arm retraction during the isolation phase. Focus on reacting within the first recognition cue rather than waiting for later phases. Measure success by preventing the leg from crossing over your head."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Escape and Safety",
+        "focus": "Stacking defense, scramble creation, and knowing when to tap",
+        "description": "Start from progressively later defensive positions: leg already crossing over, arm already trapped, and rotation in progress. Practice stacking forward, bridging into the attacker, and grip defense. Critically, practice recognizing when the belly-down position is fully locked and tapping immediately rather than fighting a losing position."
+      }
+    ]
+  }
+}

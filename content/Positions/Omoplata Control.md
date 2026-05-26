@@ -28,7 +28,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant hip connection to opponent's shoulder to control posture and prevent escape
@@ -96,7 +96,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (13% of attempts)
+- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (13% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (30% of attempts)
 
@@ -106,7 +106,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (13% of attempts)
 
-- **[[Submissions/Rolling Omoplata/Attacker|Rolling Omoplata]]** (11% of attempts)
+- **[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Rolling Omoplata from Omoplata Control]]** (11% of attempts)
 
 - **[[Transitions/Cartwheel Escape from Omoplata/Attacker|Cartwheel Escape from Omoplata]]** (5% of attempts)
 
@@ -169,7 +169,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (19% of attempts)
+- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (19% of attempts)
 
 - **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (19% of attempts)
 
@@ -177,7 +177,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
-- **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** (17% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (17% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (14% of attempts)
 

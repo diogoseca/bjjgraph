@@ -164,6 +164,8 @@ The most effective defensive window occurs during the passer's setup phase, befo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cartwheel Pass?</p>
+
 - Passer begins circling laterally around the edge of your guard rather than engaging directly with your legs, stepping wide to create angle for the cartwheel entry
 - Passer drops one hand toward the mat beside your hip while their weight shifts to one side, indicating they are about to plant for the cartwheel rotation
 - Passer disengages from all leg contact and creates distance before moving laterally, signaling they intend to vault over rather than pass through your guard
@@ -175,6 +177,8 @@ The most effective defensive window occurs during the passer's setup phase, befo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cartwheel Pass?</p>
 
 - Track the passer's lateral movement continuously - rotate your inversion angle to always face the threat and deny clear passing lanes
 - Maintain at least one leg extended toward the passer as a barrier that forces them to either engage your legs or abort the pass attempt
@@ -188,6 +192,8 @@ The most effective defensive window occurs during the passer's setup phase, befo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cartwheel Pass?</p>
 
 ### 1. Rotate your inversion to track the passer's lateral movement, extending both legs toward their new angle to block the cartwheel lane
 
@@ -225,6 +231,8 @@ The most effective defensive window occurs during the passer's setup phase, befo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cartwheel Pass?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Track the passer's lateral movement early by rotating your inversion angle to face them continuously. Extend at least one leg toward their circling path to deny the passing lane. If they plant a hand, immediately shoot your near leg into their hip line to intercept the rotation. The key is reacting during their setup phase - once you block the lane, they must disengage and reset, returning you to your original grasshopper guard position with full offensive capability.
@@ -240,6 +248,8 @@ If the cartwheel is already in motion and cannot be stopped, immediately begin c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cartwheel Pass?</p>
 
 ### 1. Staying static in grasshopper guard without tracking the passer's lateral movement
 
@@ -274,6 +284,8 @@ If the cartwheel is already in motion and cannot be stopped, immediately begin c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cartwheel Pass?</p>
+
 **Week 1-2** - Recognition and tracking
 Partner circles laterally at walking speed while you practice rotating your inversion angle to follow their movement. No cartwheel attempts yet - purely develop the habit of tracking lateral movement and maintaining leg positioning toward the threat. Build the connection between seeing circling motion and automatically adjusting your guard angle.
 
@@ -290,29 +302,6 @@ Positional rounds starting in grasshopper guard where partner can attempt cartwh
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a cartwheel pass is being set up?
-**A**: The earliest cue is when the passer begins circling laterally around the edge of your guard rather than engaging directly with your legs. This wide circling movement, combined with disengagement from leg contact, signals they are looking for a clear lane beside your body to plant their hand and initiate the cartwheel rotation.
-
-**Q2**: Your opponent has already planted their hand and begun the cartwheel - what is your best defensive option at this point?
-**A**: At this late stage, your best option is to execute a Granby roll underneath their aerial trajectory, rolling to face them and reestablishing guard contact as they land. Alternatively, prepare to catch their hips with your legs as they land, wrapping closed guard before they consolidate side control. Attempting to intercept with legs at this point is usually too late.
-
-**Q3**: Why is maintaining hip elevation critical when defending the cartwheel pass?
-**A**: Hip elevation provides the mobility needed to rotate your inversion angle, extend legs toward the passer, and execute Granby rolls for recovery. When your hips drop to the mat, you lose all rotational ability and become a flat, stationary target that the passer can easily vault over and pin in side control without resistance.
-
-**Q4**: How should you position your legs to deny the cartwheel passing lane without overcommitting?
-**A**: Extend one leg toward the passer as a tracking barrier that follows their lateral movement, while keeping the other leg maintaining your inversion base and ready to switch sides. This split configuration blocks the most likely cartwheel trajectory while preserving your ability to adjust if they change direction or feint to the opposite side.
-
-**Q5**: The passer feints a cartwheel to one side then switches direction - how do you avoid being caught by this misdirection?
-**A**: Avoid committing both legs to one side when you detect lateral movement. Keep one leg as a mobile barrier and the other as a base leg, so you can quickly pivot your inversion angle when the direction changes. React to the hand plant rather than the initial circling - the actual cartwheel requires a committed hand on the mat, which is harder to fake than footwork.
-
-
-
-</section>
 
 
 </main>

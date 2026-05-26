@@ -162,6 +162,8 @@ Defending against float passing requires a fundamentally different approach than
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Float Passing?</p>
+
 - Passer stands upright or in combat base with both hands controlling your pants at the knees or ankles while maintaining light, mobile footwork
 - Passer begins circling laterally with quick shuffle steps rather than driving forward with pressure, frequently changing direction
 - You feel light, intermittent contact through their grips rather than heavy sustained pressure on your guard structure
@@ -173,6 +175,8 @@ Defending against float passing requires a fundamentally different approach than
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Float Passing?</p>
 
 - Maintain active leg engagement at all times, never let both feet drop to the mat while the passer is circling
 - Track the passer's lateral movement with constant hip adjustments to keep your legs between you and them
@@ -187,6 +191,8 @@ Defending against float passing requires a fundamentally different approach than
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Float Passing?</p>
 
 ### 1. Establish collar and sleeve grips to anchor the passer and limit their lateral freedom of movement
 
@@ -224,6 +230,8 @@ Defending against float passing requires a fundamentally different approach than
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Float Passing?</p>
+
 ### → [[Positions/Open Guard]]
 
 Maintain active guard retention by tracking the passer's movement with hip escapes, establishing controlling grips that limit their floating freedom, and threatening offensive attacks that force them to reset. Deny passing windows by keeping your legs active and hips angled throughout the floating phase.
@@ -239,6 +247,8 @@ Time a sweep during the passer's direction change when their base narrows and we
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Float Passing?</p>
 
 ### 1. Lying flat on your back with passive legs while the passer circles freely
 
@@ -273,6 +283,8 @@ Time a sweep during the passer's direction change when their base narrows and we
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Float Passing?</p>
+
 **Week 1-2: Movement Tracking Fundamentals** - Hip escape mechanics for tracking lateral movement
 Partner floats around your guard at 30% speed without attempting to pass. Focus exclusively on using hip escapes to keep your legs aligned with their position as they circle. No grips, no sweeps, just hip movement tracking. Build the muscle memory of following lateral movement with your hips rather than your hands.
 
@@ -289,29 +301,6 @@ Full-speed positional sparring where partner uses their best float passing game.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is defending float passing fundamentally different from defending pressure passing?
-**A**: Against pressure passing, the defender uses frames to create space against heavy weight and drives. Against float passing, there is no heavy pressure to frame against, so the defender must instead focus on tracking the passer's lateral movement with hip adjustments, maintaining connection points through grips and hooks, and creating offensive threats that disrupt the floating rhythm. The defensive priority shifts from space creation to movement matching and connection maintenance.
-
-**Q2**: What is the single most important body mechanic for tracking a float passer's lateral movement?
-**A**: Hip escaping to follow the passer's direction is the most critical mechanic. Your hips must lead all defensive adjustments because they position your legs between you and the passer. Upper body rotation alone cannot keep your guard structure aligned with a circling opponent. By hip escaping toward the side the passer is moving to, your legs naturally stay as barriers in their path. This is why float passers specifically look for moments when the defender's hips stop moving as their primary passing windows.
-
-**Q3**: When during the float passer's movement cycle is the best time to attempt a sweep?
-**A**: The optimal sweep timing is during the passer's direction change, when they transition from circling one direction to the other. At this moment, their base narrows as their feet come together, their weight shifts to redistribute for the new direction, and their grip adjustments may momentarily loosen. Attacking with a sweep that aligns with their existing momentum during this transition catches them at their most vulnerable. Attempting sweeps during their stable circling phase, when base is wide and balance is centered, has a much lower success rate.
-
-**Q4**: Your opponent is float passing and you cannot establish any upper body grips. What is your minimum viable defense?
-**A**: Your minimum viable defense without upper body grips is active feet on their hips combined with constant hip adjustment to track their movement. Place both feet on their hip bones with your knees slightly bent, creating a pushing frame that controls distance. As they circle, pivot your hips to keep both feet aimed at their centerline. This prevents them from closing distance for the pass. From this feet-on-hips position, you can work to re-establish grips on their sleeves or collar when they reach to adjust your legs, converting a survival position back into an active guard.
-
-**Q5**: How should you adjust your guard retention strategy when the float passer switches from standing to combat base?
-**A**: When the passer drops to combat base, their floating range decreases but their proximity increases. Shift from distance-management defense to close-range retention by inserting a knee shield or shin frame across their hip line. Establish collar and sleeve grips more aggressively since they are now within range. The combat base float is slower and more predictable than standing float, so you can use butterfly hooks or lasso guard to create entanglements that are harder for them to circle out of. Their lower position also makes them more vulnerable to collar drags and arm drags.
-
-
-
-</section>
 
 
 </main>

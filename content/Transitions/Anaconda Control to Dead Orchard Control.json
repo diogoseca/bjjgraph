@@ -235,7 +235,7 @@
         "description": "Positional sparring starting from anaconda control. Top player must establish dead orchard control against fully resisting opponent within 15 seconds or reset. Track success rate over multiple rounds. Bottom player scores for escaping to turtle or guard. Top player scores for establishing dead orchard or finishing the anaconda."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What conditions should exist before you decide to transition to dead orchard rather than finishing the anaconda directly?",
         "answer": "Transition to dead orchard when the opponent demonstrates solid neck defense that prevents immediate choking pressure from reaching critical levels, when their free arm is actively creating frames that reduce your finishing angle, or when their base remains strong enough that a roll-through attempt would likely fail. The key indicator is feeling that your squeeze is compressing against strong defensive structure rather than producing the blood choke symptoms that signal an imminent finish."
@@ -359,7 +359,7 @@
         "correction": "Escape laterally by scooting hips away or turning to scramble. Vertical movement aids the attacker. Horizontal movement disrupts their angle and creates the positional gaps needed for escape"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from anaconda finish to dead orchard setup?",
         "answer": "The earliest cue is feeling the grip begin to walk incrementally deeper past your far shoulder without a corresponding increase in squeezing pressure. An anaconda finish attempt involves maximal squeeze. Dead orchard transition involves deliberate positional deepening without maximum effort squeeze. The shift from squeezing to walking is the first signal that the attacker has changed strategy from immediate finish to extended control."

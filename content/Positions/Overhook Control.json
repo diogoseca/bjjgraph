@@ -94,12 +94,12 @@
       "Armpit Seal Creates Control: Keep armpit sealed tightly over opponent's shoulder with zero gap - the armpit connection creates the control more than the hand grip",
       "Upward and Backward Pressure: Constantly drive their arm upward and backward to break their structure, limit their mobility, and create submission opportunities",
       "Hip Connection Prevents Escape: Maintain close hip position to prevent opponent from circling away or creating the distance needed to escape the control",
-      "Head Control Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup",
+      "Head Position Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup",
       "Attack Within Seconds: Treat overhook as transitional control leading to back takes or submissions within 3-5 seconds rather than static holding position",
       "Read Defensive Reactions: When opponent attempts to escape or adjust, immediately capitalize on their movement to enter appropriate submission or advancement",
       "Systematic Decision Tree: Follow clear if/else logic - pull back triggers Kimura, drive forward triggers front headlock chokes, turn away triggers back takes"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts pulling their trapped arm backward forcefully - what immediate adjustment do you make?",
         "answer": "When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back."
@@ -316,11 +316,11 @@
     },
     "transitions": [
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Overhook Control",
         "attempt_probability": 16
       },
       {
-        "transition": "Darce Choke",
+        "transition": "Darce Choke from Overhook Control",
         "attempt_probability": 10
       },
       {
@@ -399,9 +399,9 @@
       "Base Removal: Elevated arm removes one of opponent's posting bases, making them vulnerable to directional sweeps and off-balancing attacks",
       "Reaction-Based Attacks: When opponent attempts to free their arm by pulling back, immediately transition to arm drags, triangles, or omoplata controls",
       "Active Bottom Position: Never allow overhook to become static holding position - constantly threaten sweeps, submissions, or positional improvements",
-      "Angle Creation: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position"
+      "Dominant Angles: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins driving forward with pressure into your overhook side - what sweep opportunity does this create?",
         "answer": "Forward driving pressure creates the ideal setup for the overhook sweep. As they drive in, their weight commits forward and their base becomes narrow. Use your outside leg to hook over their back while your inside foot pushes off their hip. Pull their trapped arm across your body while elevating with your legs. Their forward momentum combines with your sweeping motion to roll them directly into mount. Time the sweep with their pressure rather than fighting against it."

@@ -188,6 +188,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Seat Belt Peel Escape?</p>
+
 - Protect neck first before committing hands to grip breaking - chin must remain tucked throughout the entire peel sequence
 - Identify the over-arm hand connection point as your primary target since it provides the structural keystone of seat belt control
 - Use two-on-one mechanics with both hands to create overwhelming force advantage against one of the opponent's hands
@@ -203,6 +205,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Seat Belt Peel Escape?</p>
+
 - Neck defense established with chin tucked to chest preventing immediate choking threats
 - At least one hand free from defending neck to begin attacking the seat belt grip connection
 - Identification of which arm is the over-arm (over your shoulder) and which is the under-arm (under your armpit)
@@ -215,6 +219,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Seat Belt Peel Escape step by step?</p>
 
 1. **Secure neck defense and identify grip**: Tuck your chin firmly to your chest and use your near-side hand to control the opponent's choking arm wrist, preventing any choke attempts. With your defensive hand securing the neck, use your free hand to locate where the opponent's hands are connected across your torso. Feel whether they are using gable grip, palm-to-palm, or wrist grab to determine the weakest connection point for your peel attack.
 2. **Establish two-on-one control on the over-arm hand**: While maintaining chin tuck, bring both hands to the opponent's over-arm hand at the connection point. Grab their over-arm wrist with your far-side hand using a C-grip, and reinforce with your near-side hand grabbing the same wrist or their fingers. The two-on-one creates approximately a 2:1 force advantage against their single hand's grip strength, making separation mechanically achievable even against a strong opponent.
@@ -244,6 +250,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Seat Belt Peel Escape?</p>
+
 - **Opponent reinforces grip by switching to stronger connection (gable grip or wrist grab) when feeling peel attempt** (Effectiveness: High) - Your Response: Switch to attacking the under-arm instead using elbow wedge variant, or alternate between over-arm and under-arm attacks to create confusion and grip fatigue in the opponent's hands → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Opponent releases seat belt voluntarily and immediately attacks rear naked choke during the hand transition** (Effectiveness: High) - Your Response: Instantly abandon peel and return both hands to neck defense, tucking chin and controlling the choking arm with two-on-one before the choke can be established. This is the highest-risk counter. → Leads to [[Positions/Back Control]]
 - **Opponent drives hooks deeper and increases chest pressure to prevent hip escape during peel attempt** (Effectiveness: Medium) - Your Response: Focus on completing the grip separation first without hip escape, then use incremental shrimps once grip is broken rather than trying to do both simultaneously against heavy pressure → Leads to [[Positions/Back Control/Seat Belt Control Back]]
@@ -255,6 +263,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Seat Belt Peel Escape?</p>
 
 ### 1. Abandoning neck defense to commit both hands to grip peel before the neck is secure
 
@@ -299,6 +309,8 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Seat Belt Peel Escape (Attacker)?</p>
+
 **Phase 1: Grip Identification** - Learning to identify seat belt grip configuration by feel
 Partner establishes various seat belt grip configurations (gable grip, wrist grab, palm-to-palm) while you practice identifying the over-arm, under-arm, and connection point with your eyes closed. Develop tactile sensitivity for different grip types and their respective weak points. No resistance, pure identification drilling.
 
@@ -319,42 +331,12 @@ Positional sparring from seat belt back control bottom. Mix peel escape attempts
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is the over-arm targeted first rather than the under-arm in the standard seat belt peel escape?
-**A**: The over-arm is targeted first because it sits on top of your body with less structural support from your torso, making it more accessible to your hands and more vulnerable to peeling force. The under-arm sits against your ribcage where body contact reinforces its position and gravity helps it stay in place. Additionally, removing the over-arm first destroys the diagonal force vector of the seat belt grip, making the under-arm far less effective even if it remains in position.
-
-**Q2**: Your opponent has a gable grip for their seat belt connection - how does this change your peeling approach compared to a wrist grab?
-**A**: A gable grip (palm-to-palm with fingers interlocked) is stronger against direct pulling force but weaker against rotational peeling because the fingers can be individually addressed. Focus the peel on rotating their top hand rather than pulling straight away. Strip individual fingers starting with the pinky side while maintaining diagonal pull direction. A wrist grab is weaker overall but the wrist is harder to individually strip, so use steady progressive force on the entire wrist with emphasis on the diagonal shear angle.
-
-**Q3**: What is the critical timing window for executing the hip escape after breaking the seat belt grip?
-**A**: The hip escape must begin within approximately one second of grip separation. Any longer and the opponent will reconnect their hands or transition to an alternative grip. The hip escape should actually be pre-loaded during the peel attempt, meaning your hips are already positioned and tensioned to move the instant separation occurs. Think of the grip break as releasing a spring that was already compressed. The coordination between upper body grip work and lower body escape readiness is what makes this technique effective.
-
-**Q4**: Your opponent releases their seat belt voluntarily as you begin peeling - what does this indicate and how should you respond?
-**A**: A voluntary seat belt release during your peel attempt almost always indicates the opponent is transitioning to a direct choke attack, using the hand separation as an opportunity to slide their forearm under your chin. This is the most dangerous counter to the peel escape. Immediately abandon the peel and return both hands to neck defense, tucking your chin hard and establishing two-on-one control on whatever arm is moving toward your neck. Do not continue the escape sequence until the choking threat is neutralized.
-
-**Q5**: How does the direction of your peeling force exploit the biomechanics of the opponent's grip?
-**A**: The diagonal pull toward your far hip creates rotational shear stress on the grip connection rather than simple tensile pulling force. Most grip configurations are strongest against direct pulling where both hands can squeeze together, but much weaker against rotational or shearing forces that try to twist the hands apart at an angle. By pulling diagonally and downward, you attack the grip at its weakest resistance angle while also generating torque through your body rotation that amplifies the separation force beyond what your arms alone could produce.
-
-**Q6**: What should you do if your peel attempt partially succeeds - you weaken the grip but cannot fully separate the hands?
-**A**: A partial peel success is still valuable because it degrades the opponent's grip quality and forces them to expend energy rebuilding their connection. Maintain whatever grip degradation you achieved, execute a small hip escape to capitalize on the reduced control, then immediately attempt a second peel while their grip is still weakened. Multiple partial successes accumulate into full separation. The opponent's grip endurance is finite, and each peel attempt taxes their forearm muscles. Do not abandon partial progress to try a completely different escape.
-
-**Q7**: How do you prevent the opponent from transitioning to body triangle while you are working the seat belt peel?
-**A**: Monitor the opponent's leg activity through feel while working the peel. If you sense them unlocking their hooks to begin threading a body triangle, immediately shift priority from the peel to preventing the triangle lock by straightening your legs and creating space at your hips. A body triangle makes all escapes significantly harder, so preventing it takes temporary priority over the grip break. Once you have blocked the body triangle attempt and they return to hooks, resume the peel sequence.
-
-**Q8**: After successfully peeling the grip and escaping to half guard, what is your immediate positional priority?
-**A**: Your immediate priority is getting to your side facing the opponent and establishing either a knee shield or underhook before they can recover any back control. Many failed peel escapes occur because the practitioner arrives in half guard but stays flat on their back, allowing the opponent to re-take the back from the top half guard position. Get on your side, establish frames to prevent cross-face, and secure the leg entanglement tightly before the opponent can disengage and circle back to your back.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Seat Belt Peel Escape?</p>
 
 The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips.
 

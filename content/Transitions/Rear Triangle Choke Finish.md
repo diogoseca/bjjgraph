@@ -39,7 +39,7 @@ The finish integrates seamlessly with alternative submissions from the rear tria
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Rear Triangle Choke]] | 55% |
 | Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 

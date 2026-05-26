@@ -216,7 +216,7 @@ The arm drag sweep occupies a central position in the guard player's offensive s
 
 - [[Positions/Closed Guard]] - Starting position and reset position when technique fails
 
-- [[Submissions/Kimura from Guard]] - Submission attack available on opponent's posted arm when they defend the sweep
+- [[Submissions/Kimura]] - Submission attack available on opponent's posted arm when they defend the sweep
 
 - [[Transitions/Arm Drag]] - Foundational grip and motion that underlies this sweep variation
 

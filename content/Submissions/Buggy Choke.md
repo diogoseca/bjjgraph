@@ -3,24 +3,31 @@
 
 
 ---
-title: "Buggy Choke | BJJ Submission | BJJ Graph"
+title: "Buggy Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Buggy Choke/Attacker|Play as Attacker]]
-[[Buggy Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Buggy Choke/from Half Guard|Half Guard]] | 52% | Carotid artery compression leading to unconsciousness |  |
+| [[Buggy Choke/from Buggy Choke|Buggy Choke]] | 45% | Carotid artery compression causing loss of consciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +36,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and neck compression
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 52%
+**Success Rate**: 52% (average across variants)
 
 </section>
 
@@ -78,143 +83,10 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Half Guard]] | 30% |
-| Counter | [[Positions/Side Control]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Create a tight angle between your body and opponent's neck u... | Recognize the threat early by monitoring opponent's arm thre... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Buggy Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Create a tight angle between your body and opponent's neck using leg positioning
-
-- Trap the opponent's arm to prevent defensive hand fighting and neck protection
-
-- Drive shoulder pressure into the neck while pulling with the choking arm
-
-- Use your legs to control opponent's posture and prevent escape routes
-
-- Maintain connection between your chest and opponent's trapped shoulder throughout
-
-- Angle your body to maximize compression on the carotid arteries, not the windpipe
-
-- Squeeze with your entire core and back muscles, not just arm strength
-
-
-### Execution Steps
-
-
-- **Establish Half Guard Control**: From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatte...
-
-- **Create the Angle and Trap**: Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thr...
-
-- **Lock the Grip Configuration**: Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a ga...
-
-- **Adjust Head Position**: Position your head to the opposite side of where you're choking (if choking from the right, your hea...
-
-- **Drive Shoulder and Hip Pressure**: Begin applying the choke by driving your shoulder into the side of their neck while simultaneously p...
-
-- **Finish with Core Engagement**: Tighten the choke by squeezing your entire core, engaging your lats, and driving continuous pressure...
-
-
-### Common Mistakes
-
-
-- **Applying the choke with only arm strength instead of using whole body mechanics**
-  - Consequence: Premature fatigue, weak choke that opponent can defend, and potential injury to your own shoulder or elbow
-  - Correction: Focus on driving pressure through your shoulder and engaging your core and back muscles. The arms should maintain position while your body rotation creates the pressure.
-
-- **Losing the angle by staying too flat or parallel with opponent**
-  - Consequence: No compression on carotid arteries, opponent easily escapes or counters
-  - Correction: Maintain a sharp angle with your body turned into your opponent. Your shoulders should form approximately 45-90 degrees relative to their spine.
-
-- **Failing to trap opponent's arm securely before attempting the choke**
-  - Consequence: Opponent uses their free arm to defend their neck, making the choke impossible to finish
-  - Correction: Ensure the arm is deeply trapped across their neck or behind your head before applying pressure. Control their wrist with your free hand if needed.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Buggy Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize the threat early by monitoring opponent's arm threading and body angle changes from bottom half guard
-
-- Never allow your arm to be trapped across your own neck or behind opponent's head without immediate extraction
-
-- Maintain strong posture and avoid collapsing your weight forward into opponent's half guard, which feeds the choke angle
-
-- Keep at least one hand free to defend your neck at all times when in top half guard
-
-- Address the arm trap first before worrying about the choking pressure—free the arm and the choke dissolves
-
-- Use posture changes and hip movement to destroy the angle the attacker needs for carotid compression
-
-
-### Recognition Cues
-
-
-- Opponent begins threading their inside arm around or behind your head while you are in top half guard
-
-- Opponent turns sharply into you from bottom half guard, creating an angle with their torso rather than staying flat
-
-- You feel your arm being pulled across your own centerline or trapped against your neck by opponent's grip
-
-- Opponent's legs shift from standard half guard retention to actively controlling your posture and preventing you from backing away
-
-- Opponent secures a grip on their own leg or establishes a gable grip around your head and shoulder area
-
-
-### Escape Paths
-
-
-- Extract the trapped arm by turning your elbow down and swimming it back to your hip, then immediately posture up to reset in half guard top
-
-- Drive through to complete the half guard pass to side control, which removes the positional framework the Buggy Choke requires
-
-- Posture up explosively to break the compression angle, then re-establish dominant crossface and shoulder pressure from top half guard
-
-- Roll toward the choking side to relieve the angle, accepting a scramble to reset the position rather than remaining in the choke
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Buggy Choke from Lockdown**: Establish lockdown control with your legs before setting up the choke. The lockdown prevents opponent from posturing and creates additional breaking pressure on their posture, making the choke easier to secure. This is a high-percentage 10th Planet system variation. (When to use: When opponent is attempting to smash through your half guard with heavy pressure)
@@ -251,14 +123,14 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Related Submissions
 
-- [[Submissions/Electric Chair Submission]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Kimura]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Arm in Guillotine]]
+- [[Transitions/Anaconda Choke]] - Related head-and-arm compression choke with similar neck targeting mechanics from front headlock positions
+- [[Transitions/Darce Choke]] - Complementary compression choke that attacks similar angles when Buggy Choke position is unavailable
+- [[Transitions/Guillotine Choke]] - Alternative front-facing choke with similar carotid artery compression mechanism and blood choke finish
+- [[Transitions/Arm Triangle]] - Related head-and-arm choke using shoulder compression that shares defensive concepts and escape patterns
+- [[Submissions/Arm in Guillotine]] - Variation creating similar arm-trapped compression dynamics applicable from half guard transitions
+- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission from lockdown when Buggy Choke is defended and opponent frees trapped arm
+- [[Submissions/Kimura]] - Alternative submission threat from half guard bottom that chains with Buggy Choke setups through grip transitions
+- [[Submissions/Rear Naked Choke]] - Gold standard blood choke for comparison of carotid artery compression mechanics and finish timing
 
 
 </section>
@@ -269,7 +141,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 - [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
 - [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
-- [[Submissions/Electric Chair Submission]] - Primary follow-up submission when opponent defends the Buggy Choke
+- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission when opponent defends the Buggy Choke
 - [[Positions/Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
 - [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
 - [[Transitions/Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available

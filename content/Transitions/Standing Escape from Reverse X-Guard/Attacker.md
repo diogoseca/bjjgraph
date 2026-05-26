@@ -194,6 +194,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Escape from Reverse X-Guard?</p>
+
 - Break controlling grips before addressing hooks—grip control enables the bottom player's entire sweeping structure
 - Widen base with your free leg to create a stable tripod platform that resists directional sweeping pressure
 - Drive hips forward toward opponent's chest to flatten their elevation and neutralize lifting mechanics
@@ -209,6 +211,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Escape from Reverse X-Guard?</p>
+
 - At least one foot firmly planted on the mat with upright or semi-upright posture to generate forward pressure
 - Awareness of which leg is entangled and the specific hook configuration controlling your movement
 - Free hand available for grip breaking after establishing base with the other hand or through postural control
@@ -221,6 +225,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Escape from Reverse X-Guard step by step?</p>
 
 1. **Establish Grip Control**: Control the opponent's sleeves or wrists bilaterally to neutralize their pulling power and prevent them from establishing off-balancing grips that facilitate sweeps during your escape attempt. In no-gi, secure wrist control on both sides.
 2. **Widen Base for Stability**: Step your free leg wide and away from the entangled leg to create a stable tripod-like base structure that resists the opponent's directional sweeping pressure and provides a platform for weight shifting during hook removal.
@@ -251,6 +257,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Escape from Reverse X-Guard?</p>
+
 - **Bottom player increases hip elevation and attempts immediate sweep during base widening phase** (Effectiveness: High) - Your Response: Drive hips forward aggressively to flatten their elevation before committing to hook removal. If the sweep momentum is already strong, abandon the escape temporarily and focus on base recovery before reattempting. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to Single Leg X-Guard as hooks begin to slip during extraction** (Effectiveness: Medium) - Your Response: Recognize the transition early and address the Single Leg X configuration through backstep or long step pass rather than continuing the standing escape sequence against a fresh guard structure. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 - **Bottom player grabs ankle with both hands to prevent final leg extraction step** (Effectiveness: Medium) - Your Response: Use a sharp circular foot motion to strip the ankle grip rather than pulling straight back. Step your free leg forward to create an angle that makes their two-hand grip alignment ineffective, then extract laterally. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
@@ -262,6 +270,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Escape from Reverse X-Guard?</p>
 
 ### 1. Attempting to yank the entangled leg free without first breaking grips and weakening hooks
 
@@ -301,6 +311,8 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Escape from Reverse X-Guard (Attacker)?</p>
+
 **Mechanical Foundation** - Base positioning and weight distribution
 Practice fundamental base widening, forward hip pressure, and weight distribution against a compliant partner in Reverse X-Guard. Focus on feeling the correct tripod base structure and understanding how forward pressure flattens the opponent's elevation. No hook removal yet—master the defensive posture first.
 
@@ -321,42 +333,12 @@ Partner actively transitions between Reverse X, Single Leg X, and standard X-Gua
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent increases hip elevation and pulls your sleeve strongly as you start widening your base - how do you adjust?
-**A**: Drive your hips forward immediately to flatten their elevation while stripping the sleeve grip with your free hand. The increased elevation actually makes them more vulnerable to forward pressure because their shoulders are further from the mat. Maintain your widened base and apply downward pressure through your hips before attempting hook removal. If the elevation is too strong, consider switching to a backstep pass rather than continuing the standing escape.
-
-**Q2**: What is the most critical grip to break before attempting to extract your entangled leg?
-**A**: The sleeve or wrist grip on the same side as your entangled leg is the most critical grip to break first. This grip allows the bottom player to control your posture and time sweeps against your extraction attempts. Without this grip, their ability to generate off-balancing pressure drops significantly, and your hook removal becomes much safer. Break this grip using a two-on-one peel or circular grip break before addressing hooks.
-
-**Q3**: The bottom player begins transitioning to Single Leg X-Guard as you strip their primary hook - what should you do?
-**A**: Immediately address the Single Leg X entry by pushing their hooking foot down and stepping your free leg back to create a wider angle. Single Leg X requires less hook depth than Reverse X, so they can establish it quickly during your transition. Rather than continuing the standing escape, shift to a passing approach appropriate for Single Leg X, such as a backstep or long step. The key is recognizing the transition before they consolidate the new guard.
-
-**Q4**: What direction should you apply hip pressure during the escape and why?
-**A**: Apply hip pressure forward and slightly downward toward the opponent's chest. This direction counters the bottom player's primary sweeping mechanic, which relies on elevating your hips backward and to the side. Forward pressure flattens their hip elevation and compresses their structure against the mat, weakening both hooks simultaneously. Avoid driving pressure laterally, which can actually assist certain sweep angles by providing momentum the bottom player can redirect.
-
-**Q5**: Your opponent grabs your ankle with both hands as you attempt to step your extracted leg backward - how do you clear this grip?
-**A**: Use a sharp circular motion with your foot to strip their grip rather than pulling straight back, which allows them to maintain control. Rotate your foot outward while simultaneously shifting your weight to the free leg. If the grip is too strong to strip, step your free leg forward to create a new angle that makes their grip alignment ineffective, then extract laterally rather than straight back. Never try to muscle through an established two-hand ankle grip.
-
-**Q6**: What base position provides maximum stability during the initial phase of the escape sequence?
-**A**: A wide tripod base with your free leg stepped far to the side and slightly behind provides maximum stability. This positioning creates three effective support points—both feet and the entangled leg posting through the opponent's hooks. Your weight should distribute roughly sixty percent on the free leg and forty percent through the entangled leg, allowing you to absorb sweep attempts in multiple directions while maintaining forward pressure toward the opponent.
-
-**Q7**: The bottom player begins inverting underneath you during your escape attempt - how do you counter?
-**A**: Immediately sprawl your hips and drive your weight down onto their upper body to prevent the inversion from completing. Control their near arm or shoulder to prevent them from spinning through to your back. If they have already partially inverted, circle toward their head side rather than away from them, as circling away gives them the angle they need to complete the back take. Maintain heavy hip pressure and re-address the original hooks once the inversion threat is neutralized.
-
-**Q8**: What are the two primary hooks you must address in sequence, and why does the order matter?
-**A**: The primary hook behind your knee must be addressed first because it provides the main elevation point for sweeps. The secondary hook on your hip controls rotational movement and sweeping direction. Addressing the knee hook first removes the bottom player's primary leverage point, making the secondary hook much less effective on its own. Reversing this order leaves the stronger hook intact, and the bottom player can re-establish the secondary hook while retaining full sweep power through the primary hook.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Escape from Reverse X-Guard?</p>
 
 When extracting from Reverse X-Guard, avoid jerking movements that could strain knee ligaments in either practitioner. The entangled leg is vulnerable to hyperextension if hooks are cleared explosively while the opponent maintains grip control on the ankle or foot. Always address grips before forcefully extracting legs. If the opponent transitions to a leg lock entry during your escape, prioritize defending the submission over completing the escape. Communicate with training partners about knee sensitivity, especially when drilling hook removal sequences repeatedly.
 

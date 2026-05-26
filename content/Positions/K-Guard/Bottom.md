@@ -167,6 +167,8 @@ The position excels as both a retention platform and an offensive launching poin
 
 ## Position Definition
 
+<p class="section-subtitle">What is K-Guard (Bottom)?</p>
+
 - Bottom practitioner on their side with inside leg creating inverted hook across opponent's trapped leg, forming characteristic 'K' shape with knee pointing toward opponent's far hip while foot hooks behind near leg
 - Outside leg maintains active butterfly hook under opponent's free leg with foot positioned at hip level, creating elevation point and preventing opponent from settling weight
 - Upper body maintains active frames with inside underhook or cross-face control, keeping opponent's chest elevated and preventing flatten-out while maintaining connection to control distance
@@ -180,6 +182,8 @@ The position excels as both a retention platform and an offensive launching poin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing K-Guard (Bottom)?</p>
+
 - Successfully entering half guard bottom position with trapped leg control
 - Ability to invert hips and create crossed-leg hook configuration
 - Active outside butterfly hook established before opponent settles weight
@@ -192,6 +196,8 @@ The position excels as both a retention platform and an offensive launching poin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending K-Guard?</p>
 
 - Maintain active inverted hook tension pulling opponent's trapped leg across centerline to disrupt base and create off-balance opportunities
 - Use outside butterfly hook as constant elevation threat to prevent opponent settling weight and forcing reactive base adjustments
@@ -207,6 +213,8 @@ The position excels as both a retention platform and an offensive launching poin
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from K-Guard (Bottom)?</p>
 
 **If opponent drives forward pressure attempting to flatten and smash through position:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
@@ -235,6 +243,8 @@ The position excels as both a retention platform and an offensive launching poin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending K-Guard?</p>
 
 ### 1. Allowing both hooks to become passive without active tension pulling or lifting opponent
 
@@ -274,6 +284,8 @@ The position excels as both a retention platform and an offensive launching poin
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train K-Guard defense?</p>
+
 ### K-Guard Hook Retention Drill
 
 Partner attempts to flatten and pass while bottom practitioner maintains K-Guard hook structure focusing exclusively on retention without attacking. Reset when flattened or when retention maintained for 30 seconds. Develops core retention mechanics and hook maintenance under pressure.
@@ -288,7 +300,7 @@ Bottom practitioner flows between X-Guard, Single Leg X, and Deep Half entries f
 **Duration**: 6 minutes continuous flow
 
 
-### Angle Creation Movement Drill
+### Dominant Angles Movement Drill
 
 From K-Guard bottom, practice circular hip movement patterns while partner maintains steady forward pressure. Emphasize maintaining hook tension while creating 45-90 degree angle changes. Develops mobility and spatial awareness for retention under pressure.
 
@@ -306,38 +318,6 @@ Partner commits weight forward attempting various passing grips while bottom pra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct weight distribution for maintaining K-Guard Bottom against a pressure passer?
-**A**: Weight should be distributed primarily on your shoulder and hip rather than flat on your back. Keep your head elevated off the mat to maintain spine angle that enables hip mobility. Your hooks should be actively loaded with tension - the inverted hook pulling the trapped leg across centerline while the butterfly hook creates constant upward pressure. This positioning allows you to redirect their pressure rather than absorbing it directly.
-
-**Q2**: Your opponent starts driving heavy crossface pressure to flatten you - what adjustment do you make?
-**A**: Immediately increase angle by moving your hips in a circular motion away from the pressure while maintaining your hook connections. Frame with your inside arm against their crossface to create distance, and coordinate this with increased butterfly hook pressure to elevate their weight off you. If they continue driving, use their forward commitment to enter Deep Half Guard by diving under their weight rather than fighting the pressure directly.
-
-**Q3**: What are the essential hook mechanics that distinguish K-Guard from standard half guard?
-**A**: The defining characteristic is the inverted inside hook that crosses over the opponent's trapped leg with your knee pointing toward their far hip, combined with an active outside butterfly hook at hip level. Unlike standard half guard where hooks primarily retain, K-Guard hooks create dynamic off-balancing through simultaneous lateral pulling (inverted hook) and vertical elevation (butterfly hook). Both hooks must maintain active tension creating a push-pull system rather than static retention.
-
-**Q4**: How do you shut down the knee slice pass from K-Guard Bottom?
-**A**: The knee slice becomes difficult when you maintain your inverted hook pulling their trapped leg across centerline - this prevents them from driving their knee through. Coordinate this with active butterfly hook pressure to elevate their weight when they attempt to slice. Use your inside frame to prevent them from flattening your shoulders, and continuously create angle changes with hip movement. If they begin slicing successfully, transition to Deep Half Guard before they complete the pass.
-
-**Q5**: What are the grip priorities for maintaining effective K-Guard retention?
-**A**: Primary grip should be an inside underhook or cross-face frame to prevent them from establishing chest-to-chest pressure. Secondary grip controls their far sleeve or collar to limit their posting options during sweep attempts. All grips should be active and coordinated with your hook actions - pushing with frames while pulling with hooks creates the amplified off-balancing effect that makes K-Guard effective. Avoid death-gripping statically as this creates predictable defensive positions.
-
-**Q6**: Your opponent begins extracting their trapped leg and stepping back - what sequence do you follow?
-**A**: As they step back, maintain your butterfly hook connection and follow their movement by extending your hips toward them. This creates the perfect entry for Single Leg X-Guard or standard X-Guard transitions. Use their backward momentum against them by immediately threatening the elevation sweep - their defensive extraction actually gives you the angle and distance needed for these high-percentage sweeps. Key is maintaining hook connection throughout their extraction attempt.
-
-**Q7**: How do you manage energy when maintaining K-Guard against a persistent pressure passer?
-**A**: Use your skeletal structure rather than muscular effort for retention - proper spine angle and hook positioning should allow you to redirect pressure without constant effort. Move your hips in small, efficient circular patterns rather than large explosive movements. Let their forward pressure load your hooks for sweep opportunities rather than fighting it. Maintain active but not maximal tension in hooks, saving explosive effort for sweep execution rather than retention.
-
-**Q8**: Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?
-**A**: First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

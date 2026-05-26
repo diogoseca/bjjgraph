@@ -11,7 +11,7 @@
     "shoulder-lock-escape",
     "rolling-mechanics"
   ],
-  "from_position": "Kimura Trap/Bottom",
+  "from_position": "Carni/Top",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
@@ -68,8 +68,8 @@
       "relationship": "Common follow-up if opponent successfully follows your roll"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Understanding the attack improves defensive awareness"
+      "name": "North-South to Kimura",
+      "relationship": "Understanding this Kimura attack path improves defensive awareness and escape timing"
     },
     {
       "name": "Escape Fundamentals",
@@ -254,7 +254,7 @@
         "description": "Continue practicing the rolling escape periodically (once per week minimum) to maintain muscle memory and timing recognition. Focus on the decision-making aspect: when to use this escape versus other defensive options. Revisit earlier phases whenever timing feels off or confidence decreases."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary biomechanical principle that makes the rolling Kimura escape effective?",
         "answer": "The rolling motion temporarily changes the geometric angle of the shoulder lock by rotating your entire body in the direction of the force being applied. This rotation relieves direct pressure on the shoulder joint by transforming the locked position into a different geometric relationship between your shoulder, their grip, and the force vector. Rather than resisting against the lock's direction, you move with it in a way that creates momentary relief and allows repositioning into guard."
@@ -379,7 +379,7 @@
         "correction": "The moment you feel the grip breaking, immediately redirect your energy toward positional control: drive for back control by hooking their hips, or transition to mount by driving your weight over their center. Do not waste time trying to re-secure a failing grip."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to attempt a rolling Kimura escape?",
         "answer": "The earliest cues are: opponent tucks their chin sharply to their chest (protecting neck for the roll), places their free hand flat on the mat near their trapped shoulder (creating a push-off point), stops actively resisting the Kimura direction and begins shifting weight forward, and their breathing changes to a sharp preparatory exhale. These cues typically appear 1-2 seconds before the roll initiates, giving you a narrow but actionable window to adjust your base and prevent the escape."

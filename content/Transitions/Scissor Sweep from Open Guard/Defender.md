@@ -154,6 +154,8 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scissor Sweep from Open Guard?</p>
+
 - Opponent establishes a deep cross-collar grip and begins pulling your posture downward with increasing tension
 - Opponent grips your sleeve or wrist firmly on one side, particularly the side they intend to sweep toward
 - Opponent's top knee rises and begins threading horizontally across your midsection with deliberate shin contact at belt level
@@ -166,6 +168,8 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scissor Sweep from Open Guard?</p>
 
 - Maintain upright posture against the collar grip pull - the sweep cannot function if your weight stays behind your knees rather than forward
 - Monitor your same-side hand freedom constantly - the sleeve grip is the critical control point that prevents your life-saving base post
@@ -180,6 +184,8 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scissor Sweep from Open Guard?</p>
 
 ### 1. Widen base and post far hand on mat immediately when shin contacts your midsection
 
@@ -217,6 +223,8 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scissor Sweep from Open Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Maintain strong posture against the collar grip, strip the sleeve control early using a two-on-one grip break, and widen your base when you feel any shin contact across your midsection. Proactive grip fighting prevents the sweep from being fully loaded.
@@ -232,6 +240,8 @@ Recognize the sweep setup early and drive forward forcefully to flatten the oppo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scissor Sweep from Open Guard?</p>
 
 ### 1. Allowing posture to be broken by the collar grip without immediately fighting to re-establish upright alignment
 
@@ -261,6 +271,8 @@ Recognize the sweep setup early and drive forward forcefully to flatten the oppo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scissor Sweep from Open Guard?</p>
+
 **Phase 1: Recognition** - Identifying scissor sweep setup indicators in real time
 Partner establishes scissor sweep grips and positioning at slow speed while you practice identifying each stage of the setup. Verbally call out each recognition cue as you observe it to build conscious pattern recognition. Progress from static identification to recognizing cues during light movement and grip fighting.
 
@@ -277,26 +289,6 @@ Positional sparring starting in the opponent's open guard where they actively hu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical cue that indicates a scissor sweep is being set up from open guard?
-**A**: The earliest indicator is the opponent establishing a deep cross-collar grip combined with same-side sleeve or wrist control. These two grips together form the prerequisite configuration for the sweep. The next cue is their top knee rising to place the shin horizontally across your midsection. Recognizing the grip combination before the leg positioning begins provides the maximum defensive response window and allows you to strip grips before the sweep can be loaded.
-
-**Q2**: Why is maintaining upright posture the single most critical defense against the scissor sweep?
-**A**: Upright posture keeps your center of gravity behind your knees, which means the lateral scissoring force must overcome both your natural weight distribution and your active base width simultaneously. When posture is broken and weight shifts forward, the opponent only needs to redirect your already-forward momentum laterally, requiring far less force to complete the sweep. Every other defensive option becomes easier when posture is maintained, making it the foundation upon which all other defenses depend.
-
-**Q3**: Your opponent has established grips and placed their shin across your stomach - what is your immediate defensive priority?
-**A**: Your immediate priority is posting your far hand wide on the mat to create a tripod base, but only if your sleeve grip is free. If your sleeve is controlled, first strip that grip using your free hand with a two-on-one break before anything else. Simultaneously widen your knee base by stepping your far knee outward. The combination of a free posting hand and widened base makes the scissor sweep mechanically impossible to complete even with perfect timing from the attacker.
-
-**Q4**: How should you adjust your defensive approach when the opponent chains scissor sweep attempts with collar drags and triangles?
-**A**: When the opponent mixes scissor sweeps with collar drags and triangle entries, you cannot simply sit back to avoid the sweep because the collar drag exploits backward weight distribution and the triangle exploits arm isolation. Maintain a neutral center of gravity with hips directly above your base, addressing each threat as it appears rather than committing your weight in either direction. Focus on breaking the collar grip entirely rather than just resisting it, as removing the grip eliminates the foundation for all three attacks simultaneously.
-
-
-
-</section>
 
 
 </main>

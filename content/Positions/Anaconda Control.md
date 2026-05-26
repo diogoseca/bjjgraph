@@ -32,7 +32,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Arm-in configuration creates structural trap where trapped arm reinforces the choke

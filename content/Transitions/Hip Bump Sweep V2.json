@@ -46,23 +46,23 @@
       "relationship": "Follow-up sweep when opponent defends hip bump by driving weight backward"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Primary submission follow-up when opponent posts arm wide to defend sweep"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Secondary submission option when opponent posts arm during sweep defense"
+      "name": "Rolling Armbar from Closed Guard",
+      "relationship": "Submission option when opponent posts arm during sweep defense, attacking the extended limb"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Alternative attack when opponent pulls arm free during sweep attempt"
+      "name": "Kimura Sweep",
+      "relationship": "Alternative attack when opponent pulls arm free during sweep attempt, transitioning to kimura grip"
     },
     {
       "name": "Flower Sweep",
       "relationship": "Complementary sweep that works well in combination when opponent adjusts to hip bump"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Advanced follow-up when opponent defends by circling away from sweep direction"
     },
     {
@@ -225,7 +225,7 @@
         "description": "Use hip bump sweep during regular sparring and competition training. Focus on recognizing optimal timing windows and creating setups through grip fighting. Develop personal variations based on body type and game style. Continue drilling 10-15 reps per session for maintenance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the hip bump sweep effective?",
         "answer": "The hip bump sweep works by creating an angular off-balancing moment that eliminates the opponent's ability to post effectively. By driving your hips up and laterally while controlling their arm and shoulder, you create a rotational force perpendicular to their base, making it impossible to maintain structure even with one free hand. The angle disrupts their weight distribution and removes posting options."
@@ -356,7 +356,7 @@
         "correction": "When feeling off-balance, push away and create distance rather than pulling in. Drive chest up and hips back to restore posture and structural base before opponent can capitalize"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point at which you can prevent the hip bump sweep from developing?",
         "answer": "The earliest prevention point is maintaining strong posture and fighting wrist or sleeve grips before the opponent establishes arm control. The hip bump requires two prerequisites: broken posture and arm control on the sweep side. By maintaining upright posture with head over hips and immediately stripping any wrist grip attempts, you deny the fundamental setup conditions. This proactive defense is far more energy-efficient than reactive defense after the sweep is initiated."

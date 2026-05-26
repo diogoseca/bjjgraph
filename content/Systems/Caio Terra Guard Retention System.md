@@ -359,21 +359,21 @@ The Caio Terra guard retention system requires extensive solo drilling to build 
 - [[Single Leg X-Guard]] (Position) - Leg entanglement guard utilizing retention principles for hook maintenance
 - [[Seated Guard]] (Position) - Starting position for many retention sequences when standing opponent applies pressure
 - [[Knee Shield Half Guard]] (Position) - Half guard variation emphasizing frame-based retention with knee shield structure
-- [[Guard Recovery]] (Transition) - Core transition technique for recovering guard structure after partial pass attempts
+- [[Arm Recovery to Guard]] (Transition) - Core recovery transition for re-establishing guard structure after partial pass attempts
 - [[Hip Escape to Guard]] (Transition) - Fundamental movement pattern essential for all guard retention sequences
 - [[Shrimp Escape]] (Transition) - Primary hip movement technique used throughout retention system
 - [[Frame and Shrimp to Guard]] (Transition) - Combined technique integrating frames with hip escapes for effective retention
 - [[Technical Stand Up to Single Leg]] (Transition) - Emergency retention technique used when bottom retention fails
 - [[Granby Roll to Guard]] (Transition) - Advanced retention recovery technique for desperate guard replacement scenarios
-- [[Guard Recovery]] (Transition) - Family of techniques for returning to guard from compromised positions
+- [[Back Door Escape]] (Transition) - Recovery technique for escaping compromised positions and returning to guard
 - [[Elbow Escape to Guard]] (Transition) - Alternative hip escape method used in retention when opponent controls near-side space
-- [[Guard Retention]] (Principle) - Core principle that this system operationalizes into specific techniques and sequences
-- [[Frame Creation]] (Principle) - Fundamental defensive principle applied throughout retention system
-- [[Connection Breaking]] (Principle) - Critical principle for eliminating opponent control during retention battles
-- [[Defensive Framing]] (Principle) - Structural principle for creating barriers and managing distance
-- [[Space Management]] (Principle) - Foundational principle for controlling distance and preventing position consolidation
-- [[Frame Management]] (Principle) - Strategic principle for optimizing frame placement, timing, and energy efficiency
-- [[System Building]] (Principle) - Meta-principle explaining how individual techniques combine into coherent defensive system
+- [[Defensive Concepts]] (Principle) - Core defensive principle that this system operationalizes into specific retention techniques and sequences
+- [[Frames]] (Principle) - Fundamental defensive principle applied throughout retention system
+- [[Connection Principles]] (Principle) - Critical principle governing grip management and connection breaking during retention battles
+- [[Escape Fundamentals]] (Principle) - Structural principle for creating barriers and recovering position through systematic escapes
+- [[Distance Control]] (Principle) - Foundational principle for controlling distance and preventing opponent position consolidation
+- [[Dealing with Pressure]] (Principle) - Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency
+- [[Position Chains]] (Principle) - Meta-principle explaining how individual techniques combine into coherent defensive sequences
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary guard system emphasizing active retention through butterfly hooks
 - [[Dynamic Guard System]] (System) - Offensive guard framework that integrates retention as defensive component
 - [[Defensive Prioritization Framework]] (System) - Strategic system for deciding when to retain guard versus accept position and escape

@@ -13,7 +13,7 @@
   "from_position": "Ushiro Ashi-Garami/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inside Heel Hook",
       "probability": 55,
       "result": "success"
     },
@@ -206,7 +206,7 @@
         "description": "Full resistance positional sparring starting from ushiro ashi-garami. Partner attempts all realistic escapes and counter-attacks. Focus on completing the finish under competition conditions while managing energy and adapting to opponent's defensive reactions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Inside Heel Hook from Ushiro?",
         "answer": "The primary goal is to finish the match by applying rotational force to the opponent's knee through the heel, causing them to submit before ligament damage occurs. The ushiro configuration requires specific grip and body positioning adjustments due to the reversed entanglement geometry."
@@ -335,7 +335,7 @@
         "correction": "Use your free leg actively to either push the attacker's hip away or threaten counter-entanglement. Never let your free leg become passively controlled while your hands are occupied"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize a heel hook attempt from ushiro?",
         "answer": "Maintain maximum dorsiflexion by flexing your foot hard toward your shin and pulling your toes up. This pulls the heel closer to your lower leg, making it extremely difficult for the attacker to establish the cupping grip needed for the finishing rotation. This must be maintained without interruption throughout the entire defensive sequence, even during grip fighting and escape attempts."

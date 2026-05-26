@@ -23,7 +23,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Heel Hook",
       "probability": 20,
       "result": "counter"
     }
@@ -135,7 +135,7 @@
         "counter": "Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury",
         "effectiveness": "High",
         "your_response": "If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Inside Ashi-Garami/Top"
       },
       {
         "counter": "Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement",
@@ -147,7 +147,7 @@
         "counter": "Opponent transitions to saddle or honey hole before you establish inside position, deepening control",
         "effectiveness": "High",
         "your_response": "Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Inside Ashi-Garami/Top"
       },
       {
         "counter": "Opponent posts with free leg and creates distance, preventing your counter-entanglement entry",
@@ -205,7 +205,7 @@
         "description": "Apply technique in positional sparring starting from ushiro ashi-garami. Partner attacks with full intent while you choose between escape, counter, or acceptance of position. Develop situational awareness for when counter is viable."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Reverse Heel Hook Counter?",
         "answer": "The primary goal is to capitalize on opponent's heel hook commitment by entering your own leg entanglement on their attacking leg. This either creates a submission opportunity on them or forces them to abandon their attack to defend, allowing your escape."
@@ -280,7 +280,7 @@
       {
         "action": "Accelerate heel hook finish before counter-entanglement is established",
         "when_to_use": "When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Inside Ashi-Garami/Top",
         "if_successful": "You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
         "risk": "If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured"
       },
@@ -308,7 +308,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
+        "outcome": "Inside Ashi-Garami/Top",
         "how": "Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous."
       },
       {
@@ -338,7 +338,7 @@
         "correction": "Tuck your free leg behind opponent's thigh or keep it actively controlling their hip movement. Never let it hang loose where opponent can capture it during their counter entry."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "You are attacking from ushiro ashi-garami and feel your opponent's hips rotating toward your leg. What does this indicate?",
         "answer": "This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg."

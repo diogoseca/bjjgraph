@@ -188,6 +188,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Elbow Escape from Flattened Half?</p>
+
 - Use your elbow as a structural wedge rather than a push - skeletal alignment resists pressure more efficiently than muscular effort and can be maintained indefinitely
 - Every hip escape must be immediately consolidated with a frame insertion to prevent the top player from reclaiming the space you created
 - Move away from your opponent during escapes toward the trapped leg side rather than turning into them to prevent back exposure
@@ -202,6 +204,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Elbow Escape from Flattened Half?</p>
+
 - Maintain at least one leg hooked in half guard configuration to prevent immediate pass to side control
 - Identify which arm has sufficient mobility to create the initial elbow wedge between your body and opponent's torso
 - Establish mental composure through controlled breathing despite chest compression from sustained top pressure
@@ -214,6 +218,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Elbow Escape from Flattened Half step by step?</p>
 
 1. **Establish Defensive Foundation**: Turn slightly to your side toward the trapped leg by engaging your core and using your bottom elbow as an initial wedge against the mat. This small angular change shifts you from completely flat to a slight angle that restores minimal hip mobility and prevents the worst-case scenario of being fully pinned symmetrically under direct chest pressure.
 2. **Win the Underhook Battle**: Fight to insert your inside arm as an underhook on the opponent's far side, threading under their armpit while accepting the crossface on the near side. The underhook prevents the opponent from settling their full weight and creates the structural foundation for all subsequent escape movements in the sequence.
@@ -243,6 +249,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Elbow Escape from Flattened Half?</p>
+
 - **Opponent drives hips forward immediately to collapse the space created by the elbow wedge before it can be consolidated** (Effectiveness: High) - Your Response: Time your hip escape to coincide with their forward drive, using their committed momentum to amplify the space creation as they overextend their weight distribution → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent abandons crossface to whizzer the underhook arm, preventing structural recovery through overhook control** (Effectiveness: Medium) - Your Response: Use the momentary loss of crossface pressure to execute a larger hip escape and rapidly insert the knee shield before they re-establish head control with the new grip → Leads to [[Positions/Half Guard]]
 - **Opponent initiates knee slice pass during your hip escape movement, using your lateral motion to advance their passing angle** (Effectiveness: High) - Your Response: Immediately redirect your escape into a deep half entry by diving under their advancing knee, converting their passing energy into your positional recovery underneath them → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Elbow Escape from Flattened Half?</p>
 
 ### 1. Attempting an explosive bridge and roll rather than incremental elbow escape movements
 
@@ -293,6 +303,8 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Elbow Escape from Flattened Half (Attacker)?</p>
+
 **Phase 1: Elbow Wedge Mechanics** - Developing the structural elbow frame under static pressure
 Partner applies moderate chest pressure while you practice inserting your elbow as a wedge and maintaining the frame for ten-second holds. Focus on positioning the elbow point correctly and using skeletal alignment rather than muscular effort. Gradually increase partner pressure over sessions.
 
@@ -313,42 +325,12 @@ Practice the full chain from flattened half guard through elbow escape to immedi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes the elbow wedge effective against heavy top pressure?
-**A**: The elbow wedge uses skeletal alignment rather than muscular effort to resist the opponent's body weight. The point of the elbow creates a structural frame where bone supports bone, meaning the frame can be maintained indefinitely without significant energy expenditure. Pushing with arm muscles against body weight causes rapid fatigue, while the skeletal wedge leverages your body's structure against gravity and forward pressure.
-
-**Q2**: Your opponent senses your hip escape and immediately drives forward to close the space - how do you respond?
-**A**: Use their forward drive against them by timing your next hip escape to coincide with their weight commitment. As they drive forward, their weight shifts onto you in a predictable vector. Execute your hip escape perpendicular to their drive direction, using their momentum to amplify the space creation. The key is anticipating their reaction and having the next movement ready rather than pausing after each gain.
-
-**Q3**: Why must you hip escape toward the trapped leg side rather than the free leg side during this escape?
-**A**: Escaping toward the trapped leg side keeps your chest facing the opponent, maintaining defensive orientation and preventing back exposure. Moving toward the free leg side requires turning away from the opponent, which skilled top players recognize as a back take opportunity. They follow your rotation and secure hooks before you can complete the guard recovery, converting your escape into a worse positional outcome.
-
-**Q4**: What conditions signal the optimal moment to initiate the elbow escape from flattened half guard?
-**A**: The optimal initiation window occurs when the top player shifts weight during passing transitions, grip adjustments, or positional changes. Specifically, when they lighten chest pressure to begin a knee slice, adjust their crossface hand position, or shift hips for passing angle creation. These moments produce brief reductions in forward pressure that make the initial elbow wedge insertion significantly easier to establish.
-
-**Q5**: You successfully recover to half guard but your opponent immediately begins pressure passing again - what should your first action be?
-**A**: Immediately establish your knee shield or primary frame before the opponent can re-flatten you. The most common error is resting after the escape, which allows the opponent to re-initiate their pressure passing sequence. Your first action upon recovering half guard should be inserting the knee shield, securing the underhook, and threatening an immediate sweep or back take to force them into a defensive reaction rather than continued passing.
-
-**Q6**: What is the correct breathing technique during the elbow escape when chest compression restricts your diaphragm?
-**A**: Use tactical breathing by taking small controlled breaths timed with your hip escape movements. During each hip escape, the brief reduction in chest pressure as you create space provides a window for a small breath. Avoid attempting full deep breaths which are impossible under compression and trigger panic responses. Focus on maintaining steady oxygen flow through frequent small breaths rather than infrequent large ones.
-
-**Q7**: Your opponent switches from crossface to a whizzer on your underhook arm during your escape attempt - how do you capitalize?
-**A**: The switch from crossface to whizzer momentarily removes head control, creating a window for a larger hip escape. Use this instant to execute an aggressive hip escape and drive your knee up into a shield position before they re-establish head control with the new grip configuration. The whizzer alone cannot generate the same flattening pressure as crossface plus chest weight, so this grip change improves your escape prospects if you act immediately.
-
-**Q8**: How many hip escapes does the elbow escape typically require to recover functional half guard, and why does this matter for training?
-**A**: The complete escape typically requires four to eight individual hip escapes, each creating two to three inches of space that compounds with the previous gain. This matters for training because practitioners must develop the mental discipline to commit to this methodical process rather than expecting a single explosive movement to solve the position. Training drills should emphasize full repetition counts rather than practicing individual hip escapes in isolation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Elbow Escape from Flattened Half?</p>
 
 The elbow escape from flattened half guard is a low-risk positional recovery technique. However, practitioners should be aware that sustained chest compression can restrict breathing and elevate heart rate significantly. Partners drilling top pressure should communicate and immediately reduce pressure if the bottom player signals distress. Avoid using the elbow as a striking point against the opponent's body during wedge insertion, as this can cause rib injuries. During training, the top player should apply progressive resistance rather than full competition pressure when the bottom player is learning the technique to prevent unnecessary injury from panic responses under pressure.
 

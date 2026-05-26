@@ -154,6 +154,8 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Forward from Omoplata?</p>
+
 - Opponent shifts their hips forward toward your trapped shoulder and begins loading weight for a forward drive rather than rotating for the submission finish
 - Opponent secures or deepens their grip on your belt, pants, or hip, establishing the steering grip needed to control the roll direction
 - Opponent's free leg repositions to push off the mat behind them, preparing to generate forward momentum for the roll
@@ -166,6 +168,8 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Forward from Omoplata?</p>
 
 - Maintain a wide base with your free arm posted firmly to resist the forward rolling momentum and prevent being tipped over the trapped shoulder
 - Prevent the opponent from securing a deep belt or hip grip, which is their primary steering handle for controlling the roll direction and landing
@@ -181,6 +185,8 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Forward from Omoplata?</p>
 
 ### 1. Post free hand wide and sprawl hips back to resist the forward roll by creating a strong base that cannot be tipped
 
@@ -218,6 +224,8 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Forward from Omoplata?</p>
+
 ### → [[Positions/Open Guard]]
 
 Successfully counter the roll by stripping the opponent's belt grip and extracting your trapped arm during their setup phase. As the roll attempt fails and the opponent loses omoplata control, immediately establish distance and recover to open guard where you can work to pass without the submission threat on your shoulder.
@@ -233,6 +241,8 @@ Prevent the roll through strong base maintenance with a wide post and hip sprawl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Forward from Omoplata?</p>
 
 ### 1. Panicking and trying to stand up when feeling the roll initiate rather than basing low
 
@@ -262,6 +272,8 @@ Prevent the roll through strong base maintenance with a wide post and hip sprawl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Forward from Omoplata?</p>
+
 **Phase 1: Recognition** - Identifying roll forward initiation versus submission finish
 Partner drills where the omoplata controller alternates between finishing the omoplata and attempting the roll forward. Defender practices identifying which attack is coming based on grip changes, hip direction, and pressure shifts. No defensive response needed in this phase - focus purely on recognition accuracy and calling out the attack before it happens.
 
@@ -278,26 +290,6 @@ Start from the point where the roll forward is partially or fully succeeding. Pr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the roll forward rather than the omoplata finish?
-**A**: The earliest cue is the opponent shifting their grip from controlling your wrist or sleeve toward your belt or hip. The omoplata finish requires wrist control and lateral hip rotation, while the roll forward requires a belt grip for steering and forward hip drive. Additionally, you will feel the opponent's hips driving forward toward your shoulder rather than rotating away from you. The hip direction tells you their intent: forward drive means sweep, lateral rotation means submission finish.
-
-**Q2**: You feel your opponent securing a belt grip - should you prioritize stripping the grip or reinforcing your base?
-**A**: Prioritize stripping the grip if it is not yet fully secured, as preventing the steering grip eliminates the roll technique entirely. However, if the grip is already deep and secure, switching to base reinforcement with a wide post and hip sprawl is the safer option. A half-committed grip strip that fails leaves you with neither grip defense nor base, which is the worst possible scenario. Make a quick decision: strip early or base wide, but never get caught in between the two responses.
-
-**Q3**: How does defending the roll forward affect your vulnerability to the standard omoplata finish?
-**A**: There is a direct trade-off between the two defenses that creates the dilemma system. Sprawling your hips back and posting wide to resist the roll can increase the rotational angle on your trapped shoulder, making the omoplata finish more effective. Conversely, tucking your elbow and driving forward to defend the submission gives the opponent the forward momentum they need for the roll. The key is maintaining a neutral position that addresses both threats: hip positioning should be lateral rather than purely forward or backward, and your free arm must serve dual purpose as both posting base and grip-fighting tool.
-
-**Q4**: Your opponent has initiated the roll and your base is failing - what is your best damage control option?
-**A**: If the roll is succeeding and you cannot stop it, immediately shift your focus from preventing the sweep to recovering guard as quickly as possible after landing. As you go over, tuck your elbows tight and prepare to insert a knee between your bodies the moment you land. Keep your far elbow close to your body to prevent the crossface and begin hip escaping immediately upon landing. Accepting the sweep but recovering half guard right away is far better than fighting a lost cause and ending up in a fully controlled side control position where the opponent has settled their weight.
-
-
-
-</section>
 
 
 </main>

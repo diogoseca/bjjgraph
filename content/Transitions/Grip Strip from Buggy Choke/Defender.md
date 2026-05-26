@@ -162,6 +162,8 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Grip Strip from Buggy Choke?</p>
+
 - Top player's choking arm begins to loosen or withdraw from under your armpit, indicating they are abandoning the choke attempt and preparing to transition
 - Shift in the top player's body pressure angle from choke-focused perpendicular pressure to a more lateral side control alignment moving across your back
 - Top player's hands begin grip fighting your defensive frames rather than continuing to deepen the choke, signaling a strategic change from submission to position
@@ -173,6 +175,8 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Grip Strip from Buggy Choke?</p>
 
 - Maintain defensive grips and frames with maximum tenacity to force the top player into the transition, then exploit the grip change moment for escape
 - Recognize the exact moment when the top player releases their choking grip as the primary escape window requiring immediate action
@@ -187,6 +191,8 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Grip Strip from Buggy Choke?</p>
 
 ### 1. Maintain and strengthen defensive grips during the strip attempt through active re-gripping and frame reinforcement
 
@@ -224,6 +230,8 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Grip Strip from Buggy Choke?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the transitional gap when the top player releases their choking grips and shifts body angle. Time a sit-out or hip escape during this 1-2 second window to insert your knee and recover half guard before the crossface can be established. Move immediately when you feel the choking pressure release rather than waiting to confirm the transition visually.
@@ -235,6 +243,8 @@ Exploit the transitional gap when the top player releases their choking grips an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grip Strip from Buggy Choke?</p>
 
 ### 1. Waiting passively while the top player strips defensive grips one by one without actively fighting to maintain or re-establish them
 
@@ -264,6 +274,8 @@ Exploit the transitional gap when the top player releases their choking grips an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Grip Strip from Buggy Choke?</p>
+
 **Phase 1: Recognition** - Identifying transition cues
 Partner alternates between committing to the buggy choke finish and executing the grip strip transition. Develop the ability to distinguish between these two attacks through tactile cues including choking pressure changes, grip release patterns, and body angle shifts. Call out which attack you recognize before the partner completes it.
 
@@ -280,29 +292,6 @@ Positional sparring from buggy choke bottom against full resistance. Partner cho
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary escape window during the Grip Strip from Buggy Choke transition?
-**A**: The primary escape window occurs during the 1-2 second gap when the top player releases their choking grips and redirects their arms toward side control positioning. During this moment, the control structure transitions from choke-based to position-based, creating a brief period where neither system is fully established. This window is the highest-percentage opportunity for guard recovery.
-
-**Q2**: Why is recovering half guard a favorable outcome when defending the grip strip transition?
-**A**: Half guard represents a significant positional improvement from buggy choke bottom because it provides offensive sweep options, back take entries, and distance management through knee shield variations. In buggy choke bottom, your options are limited to survival and grip defense with high submission risk. In half guard bottom, you have a complete offensive system available with legitimate paths to sweeps, reversals, and submissions.
-
-**Q3**: Your opponent has released the choke and is driving toward crossface - what is your immediate defensive priority?
-**A**: Block the crossface before it establishes by getting your near-side forearm or hand against their bicep or shoulder, preventing their arm from crossing your face. Simultaneously begin hip escaping away to create space for knee insertion. The crossface is the control point that makes side control consolidation possible, so denying it takes priority over any other defensive action at this moment.
-
-**Q4**: How should you change your defensive frame orientation when you recognize the transition from choke to positional control?
-**A**: Shift frames from protecting your neck and collar area for choke defense to blocking the crossface path and preventing hip-to-hip connection for side control defense. Your near-side arm should frame against the opponent's shoulder to block crossface, while your far-side arm blocks their hip advancement. This reorientation must happen instantly upon recognizing the transition cues without delay.
-
-**Q5**: When is it better to attempt a granby roll versus sitting to half guard during the grip strip transition?
-**A**: Attempt the granby roll when the top player momentarily lifts their hips to reposition for side control, creating the rotational space needed for the roll to succeed. Sit to half guard when the top player maintains heavy hip pressure but releases choking grips, creating arm-based gaps but not hip-based gaps. The choice depends on which type of control gap the top player creates during their transition sequence.
-
-
-
-</section>
 
 
 </main>

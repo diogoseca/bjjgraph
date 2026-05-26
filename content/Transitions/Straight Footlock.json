@@ -15,7 +15,7 @@
   "from_position": "Straight Ankle Lock Control/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Straight Ankle Lock",
       "probability": 55,
       "result": "success"
     },
@@ -220,7 +220,7 @@
         "description": "Full-speed positional sparring starting from established Straight Ankle Lock Control. Attacker must assess control quality, decide whether to commit to the finish or transition, and execute within realistic time windows. Track finish rate versus transition rate across rounds. Integrate into full rolling where you hunt for ankle lock control entries specifically to practice the finishing sequence against unrestricted defense."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary power source for finishing the Straight Footlock, and what role do the arms play?",
         "answer": "Hip extension backward is the primary power source, engaging the entire posterior chain including glutes and hamstrings. The arms serve exclusively to compress and secure the foot in position, creating the rigid fulcrum point against the Achilles tendon. Arms do not generate finishing force. Pulling with the arms is the most common beginner error and wastes energy without producing sufficient pressure to overcome calf muscle resistance."
@@ -344,7 +344,7 @@
         "correction": "Before rotating, assess the attacker's leg configuration to determine which direction facilitates their transitions. Rotate in the direction that complicates their advancement rather than assists it. If unsure, the sit-up counter or boot defense are safer alternatives that do not risk positional deterioration"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "The attacker has their forearm seated behind your Achilles and begins hip extension - what is your highest priority defensive action?",
         "answer": "External hip rotation is the highest priority because it immediately changes the angle of dorsiflexion force, relieving Achilles pressure regardless of how strong the attacker's grip is. Rotate your hip outward aggressively while keeping your knee bent. If rotation is blocked by their leg control, explosively sit up to collapse their extension angle. Do not waste time on grip fighting once extension has begun, as the finishing window compresses to seconds."

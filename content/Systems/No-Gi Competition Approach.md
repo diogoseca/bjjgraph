@@ -167,7 +167,7 @@ The No-Gi Competition Approach is a comprehensive strategic framework designed s
 <section id="key-components" class="content-section">
 
 ## Key Components
-**No-Gi Grip Fighting Framework** (Establish and maintain dominant control positions without gi grips)
+**No-Gi Grips Framework** (Establish and maintain dominant control positions without gi grips)
 The foundation of no-gi competition success lies in establishing dominant body connections without fabric grips. This involves systematic underhook battles, collar tie control, wrist control, and bodylock establishment. Understanding the hierarchy of grips in no-gi (bodylock > double underhooks > single underhook > wrist control > collar tie) allows competitors to systematically improve position through grip advancement. The slippery nature of no-gi requires constant pressure and active maintenance of connections rather than static holding.
 
 **Leg Entanglement Integration** (Utilize leg entanglement as primary control and submission system)
@@ -282,7 +282,7 @@ Proficiency indicators:
 - Advanced: 1 finish per 3-4 attempts
 
 
-**Grip Fighting Success Rate**: Percentage of initial exchanges where dominant grips (underhooks, collar ties, body locks) are established before opponent
+**Grips Success Rate**: Percentage of initial exchanges where dominant grips (underhooks, collar ties, body locks) are established before opponent
 Proficiency indicators:
 - Beginner: 40-50% grip fighting exchanges won
 - Intermediate: 60-70% grip fighting exchanges won
@@ -348,11 +348,11 @@ No-gi competition training should emphasize specific situational drilling with p
 - [[Darce Choke]] (Submission) - Front headlock series finishing submission
 - [[Inside Heel Hook]] (Submission) - Primary leg lock finish from inside ashi-garami and saddle
 - [[Kimura]] (Submission) - Versatile shoulder lock applicable from multiple positions
-- [[Energy Management System]] (Principle) - Critical for pacing and performance across competition rounds
+- [[Energy Conservation]] (Principle) - Critical for pacing and performance across competition rounds
 - [[Positional Hierarchy]] (Principle) - Fundamental concept for systematic position advancement
-- [[Match Strategy]] (Principle) - Tactical decision-making framework for competition
-- [[Dilemma Creation]] (Principle) - Core offensive principle for forcing opponent errors
-- [[Pressure Application]] (Principle) - Essential control mechanism in no-gi environment
+- [[Competition Mindset]] (Principle) - Tactical and psychological decision-making framework for competition
+- [[Fork Attacks]] (Principle) - Core offensive principle for forcing opponent errors
+- [[Pressure]] (Principle) - Essential control mechanism in no-gi environment
 - [[Danaher Leg Lock System]] (System) - Foundational leg entanglement system for modern no-gi
 - [[Craig Jones Leg Lock System]] (System) - Practical competition-focused leg attack approach
 - [[Gordon Ryan Passing System]] (System) - Elite no-gi passing methodology

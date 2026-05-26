@@ -166,6 +166,8 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Duck Under?</p>
+
 - Opponent increases collar tie or head control pressure while their opposite hand moves to your elbow or tricep, indicating they are setting up the arm elevation needed for threading
 - Sudden level change where opponent bends knees and drops their head toward your sternum while maintaining close body contact, signaling the threading phase is imminent
 - You feel your arm being pushed upward or outward from your body while opponent simultaneously pulls your head down with their collar tie, creating the gap they need to duck through
@@ -177,6 +179,8 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Duck Under?</p>
 
 - Keep elbows tight to your body and avoid letting arms elevate above shoulder height, as elevated arms create the threading lane the attacker needs
 - Maintain balanced weight distribution with slight rearward bias to prevent being caught with weight committed forward during the level change
@@ -191,6 +195,8 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Duck Under?</p>
 
 ### 1. Sprawl hips back and drive opponent's head down to establish front headlock control
 
@@ -228,6 +234,8 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Duck Under?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Sprawl your hips back explosively the instant you feel the level change, driving your weight down on opponent's head and shoulders. Secure a front headlock by wrapping your arm around their neck as they duck, using their own forward momentum against them. This converts their offensive attempt into your dominant control position.
@@ -243,6 +251,8 @@ Apply an immediate whizzer on the ducking side to arrest their circle, then aggr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Duck Under?</p>
 
 ### 1. Allowing arms to elevate above shoulder height during grip fighting, creating a permanent ducking lane
 
@@ -277,6 +287,8 @@ Apply an immediate whizzer on the ducking side to arrest their circle, then aggr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Duck Under?</p>
+
 **Week 1-2** - Recognition and sprawl mechanics
 Partner executes slow-motion Duck Under setups while you practice identifying the collar tie plus elbow control pattern. Focus on explosive sprawl response the moment you feel the level change. Partner does not complete the technique, resetting after each sprawl attempt. Build the neural pathway connecting the recognition cue to the sprawl response.
 
@@ -293,29 +305,6 @@ Incorporate Duck Under defense into live clinch sparring with full resistance. F
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Duck Under is being set up?
-**A**: The earliest cue is opponent increasing collar tie pressure while their opposite hand moves to control your elbow or tricep. This arm manipulation sequence is the prerequisite for elevating your arm to create the ducking lane. Recognizing this grip configuration allows you to deny the setup by swimming your elbow back down before they can initiate the level change.
-
-**Q2**: Your opponent has already threaded past your arm and their head is at your ribcage - what is your best defensive option at this stage?
-**A**: At this late stage, your best option is an aggressive hip pivot to square up and face the attacker before they can complete the circle to your back. Simultaneously apply a whizzer on the closest arm to slow their progress while your feet reposition. The sprawl window has passed, so you must use rotation rather than hip retreat. If they are very deep, immediately establish underhook control on the far side to prevent them from locking rear clinch grips.
-
-**Q3**: Why is maintaining tight elbow position more important than grip strength when defending the Duck Under?
-**A**: Elbow position determines whether the ducking lane exists at all. No matter how strong your grips are, if your elbow is elevated above your shoulder, there is a clear path for the attacker to thread underneath. Conversely, with elbows pinned to your ribs, even a weak grip makes the duck under geometrically impossible because there is no space to pass through. Elbow discipline removes the technique entirely rather than merely making it harder.
-
-**Q4**: How does your weight distribution in the clinch affect your ability to defend the Duck Under?
-**A**: Forward weight commitment makes sprawling difficult because your hips are already loaded toward the attacker, and your momentum assists their level change. Slightly rearward weight bias with hips loaded underneath you allows explosive sprawl response and prevents the attacker from using your forward pressure as timing cue. The ideal defensive distribution is about 45% forward and 55% back, giving you the ability to react in either direction without telegraphing your intent.
-
-**Q5**: Your training partner consistently catches you with Duck Unders despite your sprawl attempts - what systematic adjustment should you make?
-**A**: If sprawls are consistently late, the issue is likely recognition timing rather than sprawl mechanics. Focus on identifying the collar-tie-plus-elbow-control setup pattern rather than waiting for the level change to react. Additionally, evaluate your arm positioning during grip fighting - if your elbows frequently rise above shoulder height, you are providing the opening. Drill maintaining elbow discipline under active grip fighting pressure, and add preemptive counter-attacks like snap downs when you read the setup pattern rather than waiting to defend the execution.
-
-
-
-</section>
 
 
 </main>

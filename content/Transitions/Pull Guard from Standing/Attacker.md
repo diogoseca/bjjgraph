@@ -188,6 +188,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pull Guard from Standing?</p>
+
 - Grip before sit — never initiate the guard pull without at least one strong anchor grip established on your opponent's upper body to maintain connection throughout the descent
 - Controlled descent with hips angled off opponent's centerline prevents them from driving straight forward into an immediate passing position during the transition
 - Close guard as a single coordinated action with both legs simultaneously rather than sequentially to eliminate the gap experienced opponents exploit for immediate passing
@@ -202,6 +204,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pull Guard from Standing?</p>
+
 - Cross collar grip or collar tie established as primary anchor point that prevents opponent from disengaging during the descent
 - Same-side sleeve or wrist grip controlling opponent's posting hand to prevent immediate framing or passing during your sit
 - Lead foot positioned outside opponent's same-side foot to create the angular path for a controlled descent rather than falling straight backward
@@ -213,6 +217,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pull Guard from Standing step by step?</p>
 
 1. **Establish dominant grips from standing**: From standing engagement, secure your primary controlling grips through active grip fighting. In gi, establish a strong cross collar grip with your dominant hand at chest level and a same-side sleeve grip at the wrist with your other hand. In no-gi, obtain a collar tie behind the head and wrist control or two-on-one arm configuration. These grips must be firm enough to maintain connection throughout the entire sitting motion without slipping, as any loss of contact during the descent allows the opponent to disengage or begin passing freely.
 2. **Load opponent's weight forward**: Use your established grips to pull your opponent's weight slightly forward and downward, compromising their upright standing posture. This forward weight commitment serves two purposes: it makes it significantly harder for them to sprawl or retreat when you initiate the sit, and it pre-loads their center of gravity in the direction that assists your guard closure. A subtle off-balance is sufficient — you do not need a dramatic pull that telegraphs your intention to the opponent.
@@ -243,6 +249,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pull Guard from Standing?</p>
+
 - **Opponent sprawls hips back and drives weight away as you begin sitting, creating separation** (Effectiveness: High) - Your Response: If the sprawl comes before you commit your hips, abort the pull by posting your foot and returning to standing to re-engage. If mid-pull, accelerate your leg closure and use maximum collar grip tension to pull them forward despite the sprawl. A strong collar grip makes pure sprawl defense alone insufficient to prevent the pull. → Leads to [[Positions/Standing Position]]
 - **Opponent drives a knee through the centerline during the transition before your guard closes** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee penetrates before you can close guard, transition immediately to half guard retention by clamping your legs around the intruding knee. From half guard, work to recover full guard rather than fighting a losing battle for closed guard closure. → Leads to [[Positions/Half Guard]]
 - **Opponent strips your controlling grips before you complete the descent to the mat** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on their remaining arm. If both grips are stripped before you sit, abort the pull entirely and return to standing rather than sitting without control. Never sit to guard without at least one controlling grip, as this gives a free passing opportunity. → Leads to [[Positions/Standing Position]]
@@ -254,6 +262,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pull Guard from Standing?</p>
 
 ### 1. Pulling guard without any established grips, simply sitting down from standing distance
 
@@ -298,6 +308,8 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pull Guard from Standing (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip sitting mechanics and leg closure coordination
 Practice the controlled sit from standing to closed guard position without a partner. Focus on sitting at an angle rather than straight back, landing on the hip rather than the tailbone, and coordinating simultaneous leg closure around an imaginary opponent. Perform 20 repetitions per side focusing on smooth, controlled descent with immediate upright posture on landing.
 
@@ -318,48 +330,12 @@ Full-speed guard pulls from standing followed immediately by the first offensive
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating a guard pull from standing?
-**A**: The optimal timing is when your opponent drives forward with their weight or commits to an offensive action like a grip establishment or level change. Their forward momentum assists your transition to the ground and makes it significantly harder for them to sprawl or disengage. Pulling against a retreating or neutral opponent requires more grip strength, creates separation, and gives them substantially more time to react with defensive measures like sprawling, stripping grips, or driving a knee through the centerline.
-
-**Q2**: What grip configurations must be established before attempting the guard pull and why are they critical?
-**A**: You must establish at least one dominant controlling grip before initiating the sit. In gi, a cross collar grip at chest level combined with a same-side sleeve grip at the wrist provides the strongest control configuration. The collar grip creates a pulling angle that loads the opponent's weight forward while giving immediate posture-breaking ability once guard is closed. The sleeve grip prevents their free hand from posting on your hip or establishing a frame that blocks guard closure — covering the two primary defensive responses to guard pull attempts.
-
-**Q3**: What is the most critical hip movement during the descent phase of the guard pull?
-**A**: The most critical movement is sitting at a 30-degree angle off the opponent's centerline rather than straight backward. This angular displacement prevents the opponent from driving straight forward over you into an immediate passing position during the transition. The angle forces them to change trajectory to follow, buying critical time for guard closure. Additionally, sitting at an angle naturally creates superior hip position for guard closure since your hips are already turned to accept the opponent's body between your legs, eliminating the flat-to-angled adjustment needed after a straight sit.
-
-**Q4**: Why do most guard pull attempts fail to reach closed guard at the purple belt level and above?
-**A**: The most common failure at higher levels is the opponent timing a knee slice or knee drive through the centerline during the transition gap. As you sit, there is a brief window where your legs are in motion and not yet locked. Experienced opponents recognize guard pull cues and immediately drive a knee through the gap before guard closure completes. The correction is ensuring your legs close as a single coordinated simultaneous action rather than sequentially, and using your sleeve grip to actively prevent their knee from advancing into the gap between your closing legs.
-
-**Q5**: How should grip tension change throughout the different phases of the guard pull?
-**A**: Grip tension follows a deliberate progression: moderate during initial establishment to avoid telegraphing intent, sharply increased during the sit phase to maintain connection and pull opponent's weight forward, then sustained at maximum through guard closure to prevent disengagement. After ankles lock, transition from pulling tension to posture-breaking tension by redirecting the collar grip downward while adding heel pressure into the lower back. Many practitioners make the error of relaxing grips once seated, which gives the opponent the moment they need to establish defensive posture.
-
-**Q6**: Your opponent posts their hand on your hip as you begin sitting — how do you adjust mid-pull?
-**A**: The posted hand is the immediate obstacle to guard closure. Use your sleeve grip to redirect their posting hand by pushing it across your body toward the opposite hip, clearing the path for your legs to close. If you cannot redirect the hand, accelerate your leg closure on the side where the hand is not blocking and use your far leg to hook around their waist first, then sweep the near leg around to complete closure while your grip controls the posting arm. The critical principle is that the sleeve grip exists specifically to prevent this scenario — if the post occurs despite sleeve control, it indicates your sleeve grip was too passive during the descent.
-
-**Q7**: If your guard pull lands you in open guard instead of closed guard, what is your immediate technical priority?
-**A**: Your immediate priority is preventing the opponent from establishing passing grips and posture before you can transition to a specific guard system. Establish feet on their hips to manage distance while maintaining at least one controlling upper body grip. From this temporary open guard, immediately transition to your strongest specific guard variation — De La Riva if they are standing, collar sleeve if you have gi grips, or butterfly if they are driving forward. Do not stay in generic open guard as it lacks the structural integrity of a specific guard system. The transition to a named guard variation must happen within three seconds of landing.
-
-**Q8**: Your opponent breaks your collar grip right as you begin sitting — what is your emergency response?
-**A**: Immediately redirect your freed hand to an alternative connection point: collar tie behind the neck, overhook on their near arm, or two-on-one control on their remaining arm. The critical principle is maintaining at least one strong connection throughout the transition. If both grips are lost simultaneously before your hips pass the point of no return, abort the guard pull by posting your foot and standing back up rather than sitting without any control. Sitting to guard with zero grip connection is the single worst outcome because the opponent gets a completely free passing opportunity against an uncontrolled bottom position.
-
-**Q9**: How does pulling guard differ mechanically when facing an opponent with a strong forward-driving posture versus one with a retreating stance?
-**A**: Against a forward-driving opponent, the guard pull is significantly easier because their momentum assists the transition. Time the pull as they step forward or drive with grips, using their own force to accelerate your descent and pull them into your closed guard. Against a retreating opponent, you must first close distance through forward pressure and grip fighting before initiating the sit. If they continue retreating as you begin sitting, either abort the pull to prevent separation, or convert to a sitting guard entry with feet on hips that allows you to scoot forward and re-establish connection from seated position before attempting to close your guard.
-
-**Q10**: What chain attacks are available if the opponent successfully defends your initial guard pull but you have retained one grip?
-**A**: With one remaining grip after a partially defended pull, you have several chain options depending on which grip survived. If you retain the collar grip, immediately transition to a seated guard with feet on hips and use the collar to manage distance while working to close guard or enter De La Riva. If you retain the sleeve grip, use it to arm drag from seated position for a back take attempt, or pull them into your butterfly hooks. The retained grip prevents complete disengagement and gives you a connection point to rebuild guard structure. The worst decision is abandoning the remaining grip to post defensively, which surrenders all offensive initiative.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pull Guard from Standing?</p>
 
 Guard pulling carries inherent risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent in training, as this can cause severe knee ligament damage to the standing partner when your weight lands on their posted leg. Always perform controlled sit-down mechanics where one hip contacts the mat first. During drilling, communicate with your training partner before initiating guard pulls so they can react safely rather than being caught off-balance. Ensure adequate mat space behind you before pulling to avoid contact with walls, other practitioners, or mat edges during the descent.
 

@@ -194,6 +194,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reguard to Butterfly Guard?</p>
+
 - Prioritize hook depth over upper body grips during recovery—hooks are the foundation of butterfly guard and must be rebuilt first
 - Use hip escape to create the space needed for hook reinsertion rather than trying to force hooks deep under opponent's weight
 - Frames on opponent's shoulders or biceps create the separation that enables hip escape and hook repositioning
@@ -208,6 +210,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reguard to Butterfly Guard?</p>
+
 - At least one butterfly hook still engaged inside opponent's inner thigh providing a connection point for rebuilding
 - Sufficient hip mobility to perform a hip escape under the opponent's pressure and weight
 - Ability to establish at least one frame on opponent's shoulder, bicep, or chest to create separation
@@ -220,6 +224,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reguard to Butterfly Guard step by step?</p>
 
 1. **Recognize position compromise**: Identify that your butterfly hook control has degraded—hooks have become shallow at knee level, your posture has broken backward, or opponent has stripped controlling grips. This recognition triggers the reguard sequence rather than attempting sweeps from a compromised structure that will likely fail.
 2. **Establish defensive frames**: Place both forearms against opponent's shoulders or biceps to create a structural frame that prevents them from driving chest-to-chest pressure. These frames are not pushes—they use your skeletal structure to maintain distance while you prepare the hip escape. Keep elbows tight to your body to prevent kimura attacks on extended arms.
@@ -250,6 +256,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reguard to Butterfly Guard?</p>
+
 - **Opponent drives heavy crossface pressure to prevent hip escape and flatten posture** (Effectiveness: High) - Your Response: Frame on the crossface arm with your near forearm while hip escaping in the opposite direction. If crossface is too strong, turn into it and establish an underhook on the crossface side, converting their pressure into your recovery tool. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **Opponent drives knee through center to split hooks and prevent reinsertion** (Effectiveness: High) - Your Response: Remove the threatened hook preemptively and transition to half butterfly or half guard rather than fighting the knee drive. Use the remaining hook as an anchor while recovering secondary position. → Leads to [[Positions/Open Guard]]
 - **Opponent stands up to disengage from hooks entirely and reset distance** (Effectiveness: Medium) - Your Response: Follow the opponent's rise by transitioning to X-guard or single leg X-guard entries. Their standing creates opportunities for under-the-leg entries rather than the standard butterfly reguard. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reguard to Butterfly Guard?</p>
 
 ### 1. Reaching for collar or underhook grips before securing deep hook placement
 
@@ -300,6 +310,8 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reguard to Butterfly Guard (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip escape and hook reinsertion movement pattern
 Practice the hip escape to hook reinsertion sequence without a partner. Focus on the lateral shrimp followed by scooping one hook deep, sitting up, then reinserting the second hook. Perform 20 repetitions each side, emphasizing smooth transitions between each step.
 
@@ -317,45 +329,12 @@ Begin positional sparring from a deliberately compromised butterfly hook positio
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attempting the reguard to butterfly guard?
-**A**: The best timing is immediately upon recognizing your hooks becoming shallow or your posture breaking—before the opponent can capitalize on the degraded position. Waiting allows the top player to establish passing grips and consolidate control. The moment you feel your hooks losing depth or your back approaching the mat is the trigger to initiate the reguard sequence rather than trying to sweep from a compromised structure that will likely fail.
-
-**Q2**: What conditions must exist before you can successfully attempt the reguard?
-**A**: At minimum, you need at least one hook still engaged inside the opponent's thigh and enough space between your hips and the opponent to perform a hip escape. If both hooks are completely cleared and the opponent has established chest-to-chest pressure, the reguard to butterfly is no longer viable—you should transition to half guard or closed guard recovery instead. The presence of even a shallow hook provides the connection point needed to rebuild the full guard structure.
-
-**Q3**: What is the most critical hip movement during the reguard sequence?
-**A**: The lateral hip escape is the most critical movement because it simultaneously creates space for hook reinsertion and generates the angle needed to recover seated posture. Without the hip escape, you are trying to rebuild butterfly guard directly underneath your opponent's weight, which is extremely difficult against any competent passer. The shrimp should be explosive and angled away from the opponent's pressure direction, creating a brief window where hooks can be driven deep into the inner thighs.
-
-**Q4**: Why do most reguard attempts fail at the intermediate level?
-**A**: The most common failure point is attempting to recover upper body grips before securing deep hooks. Practitioners reach for collar or underhook control while their hooks remain shallow, which telegraphs the reguard and gives the opponent time to drive pressure and flatten them. The correct sequence prioritizes hook depth first, posture second, then grips—building the guard from the foundation up rather than the top down. This sequencing error accounts for the majority of failed butterfly guard recoveries.
-
-**Q5**: What grips best support the reguard to butterfly guard transition?
-**A**: During the reguard itself, defensive frames on the opponent's shoulders or biceps are more important than offensive grips. Use forearm frames to create the space needed for hip escape and hook reinsertion. Only after hooks are deep and posture is recovered should you transition to offensive grips—collar grip, underhook, or sleeve control. Trying to establish butterfly sweep grips during the recovery phase compromises the structural rebuild and leaves you vulnerable.
-
-**Q6**: In which direction should you drive your hooks during reinsertion?
-**A**: Drive hooks upward and inward toward the opponent's hip crease, not just forward toward their knees. The hook should travel along the inner thigh with the instep making firm contact deep in the groin area. Shallow hooks at knee level provide minimal elevation leverage and are easily stripped. Think of scooping your foot deep under the opponent's thigh so the instep reaches the hip crease—this maximizes the lever arm for subsequent sweeps and ensures the hook resists being cleared.
-
-**Q7**: Your opponent drives heavy crossface pressure as you attempt to recover your guard—how do you adjust?
-**A**: Frame on the crossface arm with your near forearm, pushing it away from your face while simultaneously hip escaping in the opposite direction. The hip escape is more important than fighting the crossface directly—creating angle negates the pressure entirely. If the crossface is too strong to frame against, use the momentum of their drive to turn into them and establish an underhook on the crossface side, which converts their pressure into your recovery tool and opens an underhook-based reguard path.
-
-**Q8**: What options do you have if the reguard to butterfly guard is completely shut down?
-**A**: If you cannot reinsert hooks, transition to alternative guard recovery options based on what control you retain. With one hook remaining, transition to half butterfly or half guard. With no hooks but an underhook, enter deep half guard by getting your shoulder under their base. If flattened with no hooks, work closed guard recovery or frame and shrimp to establish any form of guard retention. The key is recognizing early when the butterfly reguard is failing and executing a plan B rather than continuing to fight for a position that is no longer available.
-
-**Q9**: How do you maintain your remaining hook connection while reinserting the second hook?
-**A**: Apply active upward pressure with the engaged hook throughout the recovery sequence—this maintains your connection to the opponent and prevents them from advancing past your guard. The engaged hook serves as an anchor point while your frames and hip escape create space on the other side for reinsertion. Never relax the engaged hook to focus on the other side, as this creates a window where the opponent can clear both hooks simultaneously and collapse your guard entirely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reguard to Butterfly Guard?</p>
 
 Reguard drilling involves dynamic hip movement and hook reinsertion that can stress the hip flexors and adductors if performed repeatedly without adequate warm-up. When training with progressive resistance, communicate with your partner about the intensity of knee pressure during hook clearing attempts. Avoid explosive hook reinsertion against a fully locked-out partner, as forcing the instep past a resisting knee can strain the MCL or LCL. Progress resistance gradually and use controlled repetitions to develop timing rather than relying on speed and power that increases injury risk for both training partners.
 

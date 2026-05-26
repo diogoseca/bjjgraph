@@ -188,6 +188,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Shoulder of Justice to Mount?</p>
+
 - Maintain continuous shoulder and chest pressure throughout the entire step-over to deny defensive space creation
 - Control the opponent's near-side arm before initiating the transition to prevent frame insertion during the step-over
 - Load weight forward through shoulder contact point to lighten legs for the step-over without telegraphing the transition
@@ -202,6 +204,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Shoulder of Justice to Mount?</p>
+
 - Established Shoulder of Justice with stable shoulder pressure at optimal 45-degree angle into opponent's jaw
 - Near-side arm controlled or trapped through underhook, chest weight, or deliberate arm weave
 - Far knee posted wide with stable base and near foot positioned close to opponent's hip line
@@ -214,6 +218,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Shoulder of Justice to Mount step by step?</p>
 
 1. **Consolidate Shoulder Pressure and Base**: Confirm your shoulder blade is driving into the opponent's jaw at the optimal 45-degree angle toward their far shoulder with full body weight engaged through connected hips. Your far knee should be posted wide for stability and your near foot positioned close to the opponent's hip. Verify base stability before initiating the transition.
 2. **Secure Near-Side Arm Control**: Pin the opponent's near-side arm using your underhook, chest weight, or a deliberate arm weave to prevent frame creation during the transition. This arm is the primary defensive tool the opponent uses to block the step-over, and without neutralizing it, they can insert an elbow frame that prevents your knee from clearing their body.
@@ -243,6 +249,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Shoulder of Justice to Mount?</p>
+
 - **Opponent inserts near-side elbow frame between your chest and their body as your weight shifts during the step-over** (Effectiveness: High) - Your Response: Collapse the frame using chest weight and forward pressure before completing the step-over, or abandon the transition and re-consolidate Shoulder of Justice control to try again → Leads to [[Positions/Shoulder of Justice]]
 - **Opponent times a hip escape to create angle and attempts knee shield insertion as you commit weight forward for the step-over** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, driving your near knee into their hip line to prevent knee shield insertion and maintain the passing angle for the step-over → Leads to [[Positions/Shoulder of Justice]]
 - **Opponent bridges explosively as your far leg crosses their body, attempting to reverse the position before you can establish mount base** (Effectiveness: Medium) - Your Response: Post your far hand on the mat and drive your hips low to ride the bridge, using the forward momentum to accelerate your mount establishment rather than fighting against it → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Shoulder of Justice to Mount?</p>
 
 ### 1. Lifting shoulder pressure prematurely before initiating the step-over
 
@@ -293,6 +303,8 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Shoulder of Justice to Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Step-over mechanics and weight transfer
 Drill the step-over motion with a compliant partner from established Shoulder of Justice. Focus on keeping the stepping leg arc tight, maintaining chest contact throughout, and settling mount weight properly. No resistance. Repeat 20 times per side until the movement pattern is automatic.
 
@@ -310,42 +322,12 @@ Start in Shoulder of Justice with increasing resistance from 50% to full. Integr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has been under Shoulder of Justice pressure for thirty seconds and suddenly stops resisting and flattens out — what does this signal about your timing for the mount transition?
-**A**: The opponent flattening out and stopping active resistance signals defensive fatigue and is the optimal window for initiating the mount transition. Their hips are stationary, their frames have collapsed, and their near arm is likely pinned under your chest weight. This is the highest-percentage moment to execute the step-over because they lack the energy and positioning to insert frames or time defensive escapes. Begin walking your base into position immediately while maintaining pressure.
-
-**Q2**: What are the critical prerequisites that must be confirmed before initiating the step-over to mount?
-**A**: Four prerequisites must be confirmed: stable shoulder pressure at the correct 45-degree angle with full body weight engaged, opponent's near-side arm controlled or trapped to prevent frame insertion, stable base with near foot positioned close to the opponent's hip for transition readiness, and opponent's defensive frames broken or suppressed. Attempting the step-over with any of these prerequisites missing significantly reduces success rate and increases counter risk.
-
-**Q3**: What is the most critical weight transfer principle during the step-over phase of this transition?
-**A**: The most critical principle is loading weight forward through the shoulder contact point to lighten your legs rather than rising your hips upward. Rising hips eliminates pressure control entirely and creates space for defensive reactions. Forward weight loading accomplishes two things simultaneously: it increases pressure on the opponent which further degrades their defensive capacity, and it makes your far leg light enough to swing over without a dramatic weight shift that telegraphs the transition.
-
-**Q4**: You begin stepping over and your opponent immediately inserts their near-side knee between your bodies — what went wrong in your setup?
-**A**: The near-side arm was not sufficiently controlled before initiating the step-over. When the near arm is free, the opponent can use it to create enough space to pump their knee upward and insert a knee shield or half guard entanglement. The correction is to always verify near-arm control before beginning the transition. If the knee does get inserted, switch to a knee slice pass to complete the transition rather than trying to force the mount step-over over the knee obstruction.
-
-**Q5**: Why must the opponent's near-side arm be controlled before initiating the mount transition?
-**A**: The near-side arm is the opponent's primary defensive tool for creating frames that block the step-over path. An uncontrolled near arm can insert an elbow frame between your chest and their body during the critical moment when your weight shifts for the step-over. This frame creates a structural wedge that prevents your knee from clearing their body and forces you to abort the transition. Additionally, an active near arm can initiate hip escape sequences that create angles for guard recovery.
-
-**Q6**: In which direction should you drive your weight during the step-over to maintain continuous pressure on the opponent?
-**A**: Drive your weight forward and slightly downward through the shoulder contact point into the opponent's jaw and upper chest. This forward vector maintains the pressure relationship throughout the transition and prevents the opponent from creating space. The forward drive also naturally lightens your legs for the step-over motion. Driving weight laterally or upward creates gaps in the pressure chain that allow defensive reactions. Think of your shoulder as a piston driving forward through the transition.
-
-**Q7**: Your opponent bridges explosively as you begin the step-over — how do you respond to maintain position and complete the transition?
-**A**: Post your far hand on the mat on the side you are stepping toward and drive your hips low to ride the bridge rather than resisting it. Use the forward momentum from the bridge to accelerate your step-over completion rather than fighting against the directional force. As the bridge exhausts and the opponent returns to the mat, you should already have your knee on the far side and can immediately settle into mount. The key is converting their explosive energy into your positional advantage rather than matching force against force.
-
-**Q8**: Your mount transition attempt fails because the opponent recovers half guard during the step-over — what is your immediate follow-up strategy?
-**A**: Immediately transition to half guard top passing mode rather than retreating to Shoulder of Justice. Apply a knee slice pass using the forward momentum from the failed mount attempt, driving your trapped knee through the half guard entanglement. Alternatively, re-establish crossface pressure from half guard top and begin working the standard half guard passing progression. Do not attempt to extract your leg and return to Shoulder of Justice, as this wastes the positional progress already achieved and gives the opponent time to consolidate their half guard defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Shoulder of Justice to Mount?</p>
 
 This transition involves sustained pressure on the temporomandibular joint and jaw area throughout the step-over phase. While not a joint lock or choke, the shoulder pressure can cause significant discomfort and potential jaw strain. In training, use controlled pressure that allows partners to practice defense without risk of dental or cervical injury. Reduce intensity immediately if training partners signal distress beyond normal positional discomfort. Avoid dropping knee weight onto the opponent's ribs or solar plexus during the step-over landing. Practitioners with pre-existing TMJ conditions, neck injuries, or dental work should communicate limitations before drilling this technique.
 

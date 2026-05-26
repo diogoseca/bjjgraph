@@ -166,6 +166,8 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Reset to Open Guard?</p>
+
 - Opponent posts their free leg in a wide combat base position with foot flat on the mat, signaling intent to drive upward to standing height
 - Opponent shifts weight dramatically to their free leg while their trapped leg becomes lighter, indicating the beginning of the elevation sequence
 - Opponent breaks or strips your secondary controls (collar grips, sleeve grips, shin-on-hip frames) before addressing the lapel wrap, which indicates a standing reset rather than a ground-based extraction
@@ -177,6 +179,8 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Reset to Open Guard?</p>
 
 - Maintain multiple control points beyond the lapel wrap, including hooks, frames, and collar ties that prevent clean standing
 - Load the opponent's weight forward during the standing attempt by pulling the lapel and collar simultaneously toward you
@@ -191,6 +195,8 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Reset to Open Guard?</p>
 
 ### 1. Pull collar and lapel simultaneously while driving your feet into their hips to load their weight forward, preventing them from achieving full standing height
 
@@ -228,6 +234,8 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Reset to Open Guard?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Prevent the stand entirely by maintaining multiple secondary controls (collar grip, shin-on-hip, sleeve grip) combined with the lapel wrap. Load the opponent's weight forward the moment you feel their free leg post. If they partially stand, attack with a single leg or pull them back down with the collar. The goal is to deny them the elevation that simplifies the extraction.
@@ -243,6 +251,8 @@ Allow the stand but follow with hip elevation and use the opponent's circular ex
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Reset to Open Guard?</p>
 
 ### 1. Relying solely on the lapel grip without maintaining secondary controls like collar ties, sleeve grips, and leg hooks
 
@@ -272,6 +282,8 @@ Allow the stand but follow with hip elevation and use the opponent's circular ex
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Reset to Open Guard?</p>
+
 **Week 1-2** - Recognition and prevention timing
 Partner initiates the standing reset at 50% speed while you practice recognizing the early cues (free leg posting, weight shift, posture straightening) and executing the forward-loading collar pull to prevent the stand. Focus on timing the pull to coincide with the first moment of upward drive rather than reacting after full standing is achieved.
 
@@ -288,29 +300,6 @@ Live rounds starting from Ringworm Guard where the partner works the complete st
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to attempt a sweep or back take against the standing reset?
-**A**: The optimal window is during the transition itself, in the first one to two seconds as the opponent drives from combat base to full standing. During this phase, their base is narrowed to a single leg, their hands are occupied with generating upward force rather than defending, and their weight is shifting through unstable intermediate positions. Once they achieve full standing with a wide base, your sweep leverage diminishes dramatically.
-
-**Q2**: Your opponent begins stripping your collar grip before standing. What does this signal and how should you respond?
-**A**: This signals an experienced passer who understands that the collar grip is the primary mechanism for loading their weight forward and preventing the stand. Respond by switching to a sleeve grip on the same arm they used to strip, which maintains upper body connection and creates a new pulling vector. Alternatively, immediately establish a foot-on-hip frame that replaces the collar grip's forward-loading function with mechanical pushing distance control.
-
-**Q3**: The opponent has achieved full standing height and begins circular stepping for extraction. What is your highest-percentage counter?
-**A**: The highest-percentage counter at this stage is following the rotation with a back-take entry. As the opponent circles away from your strong side, their far-side back angle opens progressively. Elevate your hips and thread a hook behind their far knee while using the remaining lapel tension to pull yourself toward their back. The rotation they need for extraction is mechanically identical to the rotation that exposes their back for the take. If the back take fails, you can still transition to De La Riva guard using the same hip elevation movement.
-
-**Q4**: You feel the lapel wrap loosening beyond recovery. What is the correct defensive sequence?
-**A**: Immediately release the failing lapel grip and use both hands to establish a new guard configuration. Priority order: first secure a De La Riva hook on their standing leg to maintain leg control, then establish a collar or sleeve grip to prevent them from immediately initiating a toreando or leg drag pass. The goal is not to maintain Ringworm Guard but to ensure you have meaningful grips and hooks established before they complete the transition to their passing game. A guard with established grips is far better than gripless open guard.
-
-**Q5**: How do secondary controls (hooks, frames, collar ties) prevent the standing reset from succeeding?
-**A**: Secondary controls force the opponent to solve multiple problems simultaneously before they can stand. A collar grip creates a forward-pulling force that counteracts their posterior hip drive. Foot-on-hip frames prevent them from closing distance for the stand. Butterfly hooks under their thighs block the upward driving motion. Each additional control point requires them to break or neutralize it before standing, extending the timeline and creating windows for sweeps and back takes during their attempts to clear each control.
-
-
-
-</section>
 
 
 </main>

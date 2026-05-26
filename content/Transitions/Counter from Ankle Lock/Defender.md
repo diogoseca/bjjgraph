@@ -162,6 +162,8 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter from Ankle Lock?</p>
+
 - Opponent plantarflexes their foot and tucks toes behind your armpit or under your forearm, establishing boot defense that removes the dorsiflexion finishing angle
 - Opponent's hands move to your wrist or forearm in a two-on-one configuration targeting your heel grip for systematic stripping
 - Opponent posts their free leg firmly on the mat and begins squaring their posture in preparation for forward driving pressure
@@ -174,6 +176,8 @@ As the person applying the straight ankle lock, defending against your opponent'
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter from Ankle Lock?</p>
 
 - Recognize counter attempts early through boot position changes and grip fighting initiation before forward pressure develops
 - Commit to finishing or transitioning within 3-5 seconds of recognizing the counter attempt rather than fighting a deteriorating position
@@ -189,10 +193,12 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Counter from Ankle Lock?</p>
+
 ### 1. Deepen grip and commit to immediate finish before boot defense completes
 
 - **When to use**: In the first 2-3 seconds of recognizing counter initiation, before boot defense is fully established and toes are securely tucked
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The ankle lock finishes before the counter can develop, ending the exchange immediately
 - **Risk**: If boot defense completes during your commitment, you have spent energy and time on a failed finish with no transition
 
@@ -213,7 +219,7 @@ As the person applying the straight ankle lock, defending against your opponent'
 ### 4. Switch to kneebar attack by rotating grip to the opponent's knee line as they extend during the forward drive
 
 - **When to use**: When the opponent straightens their trapped leg during the forward stacking phase, creating kneebar exposure that was not available during standard ankle lock positioning
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The submission attack switches to a kneebar that the opponent is not prepared to defend since they were focused on ankle lock counter mechanics
 - **Risk**: The kneebar requires releasing ankle control, and if the attack fails, you have no submission grip remaining
 
@@ -225,7 +231,9 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 ## Best-Case Outcomes for Defender
 
-### → [[game-over]]
+<p class="section-subtitle">What is the best outcome when defending Counter from Ankle Lock?</p>
+
+### → [[Positions/Side Control]]
 
 Commit to finishing the ankle lock in the first 2-3 seconds before boot defense completes, or switch to a kneebar attack when the opponent extends their leg during the forward stacking phase. The key is decisiveness: finish before the counter develops or exploit the new angles created by their counter movements.
 
@@ -244,6 +252,8 @@ Re-guard with active leg hooks before the opponent completes the pass, re-establ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter from Ankle Lock?</p>
 
 ### 1. Fighting to maintain the heel grip against two-on-one stripping instead of transitioning to a different attack or position
 
@@ -278,6 +288,8 @@ Re-guard with active leg hooks before the opponent completes the pass, re-establ
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter from Ankle Lock?</p>
+
 **Phase 1: Counter Recognition** - Identifying boot defense and counter initiation cues
 Partner begins counter sequence at slow speed while you practice recognizing each stage: boot defense establishment, grip fighting initiation, base posting, and forward drive. Call out each stage as you recognize it. Build pattern recognition that triggers automatic response selection rather than reactive scrambling.
 
@@ -294,29 +306,6 @@ Begin in straight ankle lock control with partner executing genuine counters at 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable indicator that your opponent is about to initiate a counter from your ankle lock control?
-**A**: The most reliable early indicator is plantarflexion of the trapped foot with toes tucking behind your armpit, establishing boot defense. This is typically the first defensive action and signals that a structured counter sequence is beginning rather than passive endurance. Secondary indicators include hands moving to two-on-one configuration and the free leg posting for forward base, but boot defense is the earliest reliable cue.
-
-**Q2**: When should you abandon the ankle lock finish and transition to inside ashi-garami instead?
-**A**: Transition when the opponent has established secure boot defense and begins driving forward pressure. Their forward drive creates the exact hip angle needed for inside ashi entry by bringing their knee toward you. Continuing to fight for the ankle lock finish against established boot defense wastes energy and time. The 3-5 second window after boot defense is established is optimal for the transition because the opponent is focused on grip fighting and may not recognize the leg threading.
-
-**Q3**: How does the opponent's forward stacking pressure create opportunities for you rather than just threatening your position?
-**A**: Forward stacking brings the opponent's hip and knee toward you, which is precisely the positioning needed to thread your inside leg for ashi-garami transitions. Their committed forward drive also creates momentum they cannot easily redirect, making the inside leg entry more fluid. Additionally, the forward lean extends their body and can create kneebar angles as their leg straightens during the drive. The counter movement itself contains the seeds of your next attack.
-
-**Q4**: Your heel grip is being stripped by two-on-one fighting. What alternative grip options can you switch to?
-**A**: Switch to a figure-four grip by clasping your hands together with the forearm still against the Achilles, which is structurally stronger against two-on-one stripping. Alternatively, use an S-grip that changes the stripping angle the opponent must address. If both hands are compromised, transition your offensive focus entirely from the ankle to leg entanglement advancement using your legs to enter inside ashi before hand grips are fully lost.
-
-**Q5**: What leg positioning adjustments should you make to prevent the opponent from completing the guard pass phase of their counter?
-**A**: Keep your legs actively wrapped around the opponent's trapped leg rather than allowing them to become passive. If you sense the opponent beginning to step over, use your outside leg to hook behind their knee or frame against their hip to prevent the step-over. Thread your inside leg deeper toward inside ashi positioning as a dual-purpose move that both prevents the pass and advances your entanglement. Active leg engagement is the foundation that makes all transitions possible even when hand grips are compromised.
-
-
-
-</section>
 
 
 </main>

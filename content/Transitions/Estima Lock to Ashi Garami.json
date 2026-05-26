@@ -10,7 +10,7 @@
     "positional-transition",
     "advanced"
   ],
-  "from_position": "Estima Lock/Top",
+  "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
       "to": "Ashi Garami/Top",
@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Top",
+      "to": "Estima Lock Control/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -134,7 +134,7 @@
         "counter": "Opponent sits up and establishes frames on your hips during transition",
         "effectiveness": "Medium",
         "your_response": "Use your free hand to push their chest back down while completing the leg thread; if they achieve strong posture, abandon transition and pursue top position through leg drag",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent rolls through the transition attempting back take or reversal",
@@ -146,7 +146,7 @@
         "counter": "Opponent bridges and creates space to recover guard before ashi garami consolidates",
         "effectiveness": "Low",
         "your_response": "Ride the bridge while keeping leg triangle tight; the bridge actually assists your hip positioning if you stay connected and follow their movement",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       }
     ],
     "common_errors": [
@@ -198,7 +198,7 @@
         "description": "Full resistance positional sparring starting from Estima Lock position. Both players pursue their objectives—top player works Estima Lock finish or transition to ashi garami, bottom player defends and escapes. Track success rate and identify patterns that lead to successful transitions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Estima Lock to Ashi Garami transition?",
         "answer": "The primary goal is to maintain offensive leg attack momentum when the Estima Lock finish is compromised by defensive action. Rather than forcing an incomplete footlock or returning to neutral, this transition converts the existing leg control into ashi garami position, which threatens the heel and knee through different mechanical vectors that the opponent cannot simultaneously defend."
@@ -285,7 +285,7 @@
       {
         "action": "Sit-up frame defense—sit up aggressively and post both hands on the attacker's shoulders or chest, driving them backward to prevent the forward weight commitment required for ashi garami consolidation while keeping your trapped leg bent",
         "when_to_use": "During the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami, exploiting the moment of reduced hand control on your foot",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Your frames prevent the attacker from consolidating ashi garami, stalling the transition and potentially allowing you to re-address the original Estima Lock position from a stronger defensive posture with frames established",
         "risk": "Sitting up exposes your upper body to potential guillotine or front headlock attacks if the attacker abandons the leg transition and changes to upper body control"
       }
@@ -296,7 +296,7 @@
         "how": "Extract your trapped leg during the transitional gap by pulling your knee to your chest while the attacker's grips are in flux between Estima Lock and ashi garami configurations. Combine knee retraction with free leg hip push and immediate guard recovery to establish open guard with both legs free and defensive frames in place."
       },
       {
-        "outcome": "Estima Lock/Top",
+        "outcome": "Estima Lock Control/Top",
         "how": "Disrupt the transition early by sitting up with strong frames on the attacker's shoulders before they can complete the leg thread. This stalls the transition and returns the exchange to the original Estima Lock dynamic where your established defenses (counter-rotation, heel hiding) remain effective and the attacker must restart their offensive sequence."
       }
     ],
@@ -322,7 +322,7 @@
         "correction": "Use controlled, technical movements with proper frames established first. Sit up, create frames, retract your knee, and push with your free leg—these sequential actions are slower but dramatically safer and more effective than explosive scrambling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary defensive window during the Estima Lock to Ashi Garami transition and why does it exist?",
         "answer": "The primary defensive window occurs during the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami. This window exists because the attacker must transition between two distinct control systems—the inverted foot grip and the leg triangle entanglement—and there is a brief period where neither system is fully secured. During this gap, the defender's leg is held only by partial control, making extraction significantly more achievable than from either consolidated position."

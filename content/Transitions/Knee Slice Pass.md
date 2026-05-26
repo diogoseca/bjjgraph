@@ -219,7 +219,7 @@ The knee slice pass is a cornerstone technique in any complete guard passing sys
 
 - [[Transitions/Crossface Pass]] - Alternative pressure pass from half guard top
 
-- [[Transitions/Kimura]] - Submission opportunity when opponent reaches to defend the pass
+- [[Submissions/Kimura]] - Submission opportunity when opponent reaches to defend the pass
 
 - [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into the passer
 

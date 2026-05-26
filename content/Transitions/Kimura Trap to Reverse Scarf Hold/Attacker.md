@@ -188,6 +188,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura Trap to Reverse Scarf Hold?</p>
+
 - Maintain constant chest-to-chest pressure throughout the entire rotation to prevent opponent from inserting frames or recovering guard
 - Use the Kimura grip as a fixed pivot point around which your body rotates, never releasing or loosening the figure-four during transition
 - Walk feet in small controlled steps rather than large hops to maintain base stability and prevent opponent from exploiting gaps in pressure
@@ -202,6 +204,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura Trap to Reverse Scarf Hold?</p>
+
 - Kimura Trap Top control established with deep figure-four grip near opponent's elbow, not wrist
 - Opponent actively defending Kimura by tucking elbow to ribs and keeping arm close to body
 - Top player has solid base with feet posted and hip weight settled on opponent's chest
@@ -214,6 +218,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura Trap to Reverse Scarf Hold step by step?</p>
 
 1. **Confirm Kimura defense and commit to transition**: Verify that the opponent has committed to the elbow-tucked Kimura defense by testing the submission with a brief rotational pull on the grip. When you feel strong resistance with the elbow pinned to their ribs, this confirms the defensive posture that makes the Reverse Scarf Hold transition optimal. Settle your chest weight heavily onto their torso and ensure your base is wide with both feet posted.
 2. **Shift weight to chest and begin foot walk**: Transfer your primary weight from your hips to your chest, pressing heavily into the opponent's upper torso. This weight transfer is critical because it frees your hips to rotate while maintaining crushing pressure. Begin walking your far-side foot in a small arc toward the opponent's head, keeping the step controlled and deliberate. Your near-side foot stays posted as an anchor point.
@@ -243,6 +249,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura Trap to Reverse Scarf Hold?</p>
+
 - **Opponent inserts far-side frame against neck during rotation** (Effectiveness: High) - Your Response: Drive your shoulder into their frame to collapse it while continuing the rotation. If the frame is strong, abandon the Reverse Scarf Hold transition and use the frame-creation to advance to mount instead, stepping over their body as they commit to the frame. → Leads to [[Positions/Kimura Trap]]
 - **Opponent bridges explosively during the mid-rotation vulnerable phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy and maintaining the grip. Use their upward momentum to complete the rotation faster, allowing their bridge to assist your hip switch. If they bridge strongly enough to compromise your base, settle back into Kimura Trap Top and reset. → Leads to [[Positions/Kimura Trap]]
 - **Opponent hip escapes and inserts knee during transition to recover half guard** (Effectiveness: High) - Your Response: If their knee enters before you complete the rotation, you must address the guard recovery immediately. Use the Kimura grip to control their arm while backstopping their knee insertion with your own hip. If half guard is recovered, transition to half guard top passing rather than forcing the Reverse Scarf Hold. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura Trap to Reverse Scarf Hold?</p>
 
 ### 1. Lifting chest off opponent's torso during hip rotation to create space for the turn
 
@@ -293,6 +303,8 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura Trap to Reverse Scarf Hold (Attacker)?</p>
+
 **Phase 1: Solo Hip Rotation Drill** - Developing smooth hip rotation mechanics without partner resistance
 Practice the foot-walking arc and hip rotation on a grappling dummy or heavy bag laid flat. Focus on maintaining chest contact throughout the rotation, keeping steps small, and completing the full 180-degree turn without lifting. Perform 20 repetitions per side, timing each rotation to build fluency.
 
@@ -313,42 +325,12 @@ Start in Kimura Trap Top with full resistance. The attacker must find or create 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific defensive reaction from the opponent signals that the Reverse Scarf Hold transition is the optimal choice from Kimura Trap Top?
-**A**: The opponent committing to an elbow-tucked defense where they pin their elbow to their ribs and keep their arm tight to their body to prevent the Kimura finish. This defensive posture, while effective against the submission, creates the ideal conditions for the positional transition because the opponent is focused on arm protection rather than frame creation or guard recovery. Testing the Kimura with a brief rotational pull confirms this defensive commitment.
-
-**Q2**: Why must you avoid stopping at the perpendicular (90-degree) angle during the rotation?
-**A**: The perpendicular position is a dead zone that provides neither the control mechanics of Kimura Trap nor the pinning power of Reverse Scarf Hold. Your base is at its narrowest and weakest point, your submission angles are compromised, and the opponent has maximum leverage for bridging escapes. Pausing here gives the opponent time to insert frames, adjust their defense, or initiate hip escapes. The perpendicular angle should be transitioned through quickly as part of the continuous rotation.
-
-**Q3**: Your opponent posts their far arm as a frame against your neck halfway through the rotation - how do you adjust?
-**A**: Drive your shoulder into their frame to collapse it while continuing the rotation if possible. If the frame is too strong to collapse, you have two options: abandon the Reverse Scarf Hold and use their framing commitment to advance to mount by stepping over their body, or return to Kimura Trap Top and threaten the submission again to force them to retract the frame. Never stall against a strong frame in the mid-rotation position.
-
-**Q4**: What is the critical mechanical detail that maintains pressure throughout the rotation?
-**A**: Transferring your primary weight from hips to chest before beginning the foot walk is the critical mechanical detail. By loading your chest heavily onto the opponent's torso first, your hips become free to rotate while the opponent continues to feel crushing pressure. Your chest slides across their torso like a rolling pin, never lifting off the surface. This weight-to-chest transfer is what distinguishes a successful transition from one that creates escape windows.
-
-**Q5**: What grip configuration should you use during the rotation, and when does it change?
-**A**: Maintain the full Kimura figure-four grip throughout the entire rotation. The grip serves as your pivot point and control anchor during the movement. Only transition from the figure-four to a standard arm-hugging control after your hips have fully settled into Reverse Scarf Hold and your base is established. Releasing the figure-four prematurely creates an arm-control gap that the opponent can exploit to recover frames or extract their arm.
-
-**Q6**: How should your feet move during the transition, and why does step size matter?
-**A**: Walk your feet in small, controlled increments in an arc around the opponent's head, maintaining hip-width or wider base at all times. Small steps matter because each step temporarily narrows your base and slightly shifts your weight distribution. Large steps create pronounced moments of instability where the opponent can bridge effectively or insert their knees. Three to four small steps through the arc maintain constant base width and pressure better than one or two large leaps.
-
-**Q7**: Your opponent explosively bridges during the most vulnerable phase of the rotation - what is your response?
-**A**: Ride the bridge by keeping your chest heavy and grip tight rather than fighting the upward force directly. Use their bridge momentum to accelerate your rotation, essentially letting their upward energy help complete your hip switch faster. If the bridge is powerful enough to genuinely compromise your position, abandon the transition and settle back into Kimura Trap Top, which is a safe default position. Never fight a powerful bridge from the mid-rotation position.
-
-**Q8**: After completing the transition, what are the first three things you verify to confirm proper Reverse Scarf Hold control?
-**A**: First, verify your hip bone is making direct contact with the opponent's sternum with heavy downward pressure that restricts their breathing. Second, confirm the opponent's near arm is trapped across their body with your near arm hugging it tightly, eliminating their primary framing tool. Third, check that your base is wide with your far leg extended and near leg posted, creating a stable triangular structure that resists bridging from multiple angles. Only after these three control points are confirmed should you begin offensive attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura Trap to Reverse Scarf Hold?</p>
 
 This transition involves significant chest compression and rotational pressure on the opponent's shoulder during the grip transfer. Maintain awareness of your partner's breathing, especially when settling hip weight into the final Reverse Scarf Hold position, as the crushing chest pressure can restrict breathing quickly. During training, perform the rotation at controlled speed rather than explosively to prevent accidentally cranking the trapped shoulder during the hip switch. If your partner taps during the transition itself, release immediately as the shoulder may be in a vulnerable rotational position. Always communicate with training partners about pressure tolerance and ensure they know to tap if breathing becomes seriously restricted under the pin.
 

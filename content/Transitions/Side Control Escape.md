@@ -214,7 +214,7 @@ Side control escape represents a fundamental component of the defensive hierarch
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common guard structure established after partial escape
 
-- [[Principles/Guard Recovery]] - Follow-up technique completing guard reestablishment after space creation
+- [[Transitions/Half Guard Recovery]] - Follow-up technique completing guard reestablishment after space creation
 
 - [[Transitions/Granby Roll to Guard]] - Advanced movement used in ghost escape variation
 

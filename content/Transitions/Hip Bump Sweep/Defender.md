@@ -158,6 +158,8 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Bump Sweep?</p>
+
 - Bottom player breaks your posture forward and secures a strong grip on your wrist or sleeve on one side while their other hand controls your head or collar
 - Bottom player unlocks their ankles and opens their guard while simultaneously planting one hand on the mat behind their hip as a posting base
 - Bottom player creates a visible angle by shrimping their hips to one side, with their body no longer square to yours but rotated 30-45 degrees
@@ -169,6 +171,8 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Bump Sweep?</p>
 
 - Maintain strong upright posture with head over hips to deny the fundamental setup condition for the sweep
 - Keep wide base with knees spread to resist lateral displacement from the diagonal hip bump angle
@@ -183,6 +187,8 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Bump Sweep?</p>
 
 ### 1. Drive hips back and re-establish strong upright posture before the bump reaches full power
 
@@ -220,6 +226,8 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Bump Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout by keeping head over hips, fighting grips immediately when they attempt to secure your wrist, and driving hips backward the moment you feel the guard open. Prevention through posture is the highest-percentage defense that avoids entering the chain attack triangle entirely.
@@ -235,6 +243,8 @@ When the bottom player opens their guard to attempt the sweep, use the opening t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Bump Sweep?</p>
 
 ### 1. Allowing posture to be broken and staying hunched forward without attempting to recover before the sweep is initiated
 
@@ -264,6 +274,8 @@ When the bottom player opens their guard to attempt the sweep, use the opening t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Bump Sweep?</p>
+
 **Week 1-2: Recognition and Posture Maintenance** - Identifying Hip Bump setups and maintaining defensive posture
 Partner telegraphs Hip Bump Sweep attempts at 30% speed while you practice recognizing the cues: guard opening, hand posting, hip angling, wrist grip establishment. Focus on maintaining strong posture and driving hips back as primary defense. 20-30 repetitions per session with partner increasing speed gradually.
 
@@ -280,26 +292,6 @@ Start in closed guard with full resistance. Partner uses Hip Bump Sweep as part 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining strong posture the most important defensive principle against the Hip Bump Sweep?
-**A**: Strong posture denies the fundamental prerequisite for the Hip Bump Sweep. The sweep requires the attacker to have broken your posture forward so your weight is distributed onto them, giving them something to bump against and redirect. With strong upright posture and hips back, there is insufficient forward weight to redirect, the bump angle becomes ineffective, and the attacker cannot generate the leverage needed. Posture maintenance prevents the entire attack triangle from being initiated.
-
-**Q2**: Your opponent opens their guard and you see them plant a hand behind their hip - what should your immediate reaction be?
-**A**: This is the primary recognition cue that a Hip Bump Sweep is being initiated. Your immediate reaction should be to drive your hips backward while simultaneously widening your base and fighting to strip their grip on your wrist or sleeve. Do not wait for the explosive bump before reacting. The posting hand behind their hip means they are committing to the sweep, and you have a narrow window between guard opening and full bump commitment to neutralize the threat through posture recovery.
-
-**Q3**: How should you defend differently against the Hip Bump when you know the attacker chains it with Kimura and Guillotine?
-**A**: Against an attacker who uses the full chain attack system, avoid predictable single-response defenses. If you always post your hand, they will exploit the Kimura. If you always pull your arm back, they will attack the Guillotine. The optimal defense is preventing the sweep from being initiated through posture maintenance. When the sweep is already in motion, vary between posting (but retracting quickly), sprawling, and grip stripping. The key is unpredictability - never give them the same defensive pattern twice in a row, and always be prepared for the follow-up attack corresponding to your chosen defense.
-
-**Q4**: What base adjustments should you make when you recognize the Hip Bump Sweep setup is being established?
-**A**: Immediately widen your knees beyond shoulder width to increase your base of support against the diagonal sweep force. Shift your weight slightly toward your heels rather than forward onto your knees. Drop your hips slightly to lower your center of gravity. If possible, angle your body so you are not perfectly square to the attacker, reducing the effectiveness of their diagonal bump angle. These adjustments transform your base from a narrow target easily displaced laterally into a wide, stable platform that absorbs the hip bump force.
-
-
-
-</section>
 
 
 </main>

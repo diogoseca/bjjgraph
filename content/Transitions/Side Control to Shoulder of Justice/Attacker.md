@@ -188,6 +188,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Side Control to Shoulder of Justice?</p>
+
 - Maintain hip-to-hip connection throughout the entire transition to prevent any shrimping escape during the positional adjustment
 - Drive shoulder blade, not deltoid, into the jaw line at approximately 45 degrees toward opponent's far shoulder for maximum pressure efficiency
 - Walk chest position forward incrementally rather than making one large movement that could create space
@@ -203,6 +205,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Side Control to Shoulder of Justice?</p>
+
 - Consolidated standard side control with stable crossface and chest-to-chest contact established
 - Opponent's near-side arm controlled, trapped, or pinned under your chest weight preventing active framing
 - Hip connection to opponent's near hip maintained with your hips low and heavy on the mat
@@ -215,6 +219,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Side Control to Shoulder of Justice step by step?</p>
 
 1. **Verify side control consolidation**: Before initiating the transition, confirm that your standard side control is fully consolidated: chest perpendicular to opponent's torso, crossface pressure established, hips connected to their near hip line, and far knee posted wide for base. Do not attempt this transition from an unstable or partially established side control position.
 2. **Secure near-arm control**: Ensure the opponent's near arm is controlled or trapped. Use your near-side hand to pin their wrist to the mat or trap their arm between your hip and their body. This is critical because an active near arm will create frames that block your shoulder insertion and may expose you to underhook escapes during the transition.
@@ -244,6 +250,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Side Control to Shoulder of Justice?</p>
+
 - **Opponent frames against your neck with near-side forearm before shoulder insertion completes** (Effectiveness: High) - Your Response: Use your body weight to collapse the frame by walking your pressure into it, or switch to a kimura attack on the extended framing arm. If the frame is structurally sound, retreat to standard side control and attempt the transition again when the arm retracts. → Leads to [[Positions/Side Control]]
 - **Opponent shrimps explosively during the chest walk-up when hip connection is momentarily lighter** (Effectiveness: Medium) - Your Response: Drop hips immediately back to their hip line and re-consolidate standard side control. If they created significant space, transition to knee on belly rather than forcing the Shoulder of Justice. Their shrimp timing was correct, so you must re-establish control before attempting again. → Leads to [[Positions/Half Guard]]
 - **Opponent turns into you during the shoulder angle rotation to prevent jaw pressure establishment** (Effectiveness: Medium) - Your Response: Capitalize on their turning movement by transitioning to north-south control or taking the back. Their turn away from the shoulder pressure creates space behind them that you can exploit. This counter actually opens higher-value transitions than the original Shoulder of Justice target. → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Side Control to Shoulder of Justice?</p>
 
 ### 1. Lifting hips during the chest walk-up to move forward faster
 
@@ -299,6 +309,8 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Side Control to Shoulder of Justice (Attacker)?</p>
+
 **Phase 1: Static Shoulder Angle Mechanics** - Learning the correct shoulder blade contact point and 45-degree pressure angle
 Partner lies flat and remains still. Practice finding the correct shoulder blade contact point on the jaw and establishing the 45-degree angle toward the far shoulder. Hold each position for 30 seconds and get partner feedback on pressure quality and location. No resistance, pure mechanical repetition.
 
@@ -319,42 +331,12 @@ Timed 3-minute rounds starting from guard passing. Pass to side control, transit
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal shoulder angle for establishing Shoulder of Justice pressure from the transition?
-**A**: The optimal angle is approximately 45 degrees directed toward the opponent's far shoulder, using the shoulder blade as the primary contact point against the jaw and temporomandibular joint. This angle prevents the opponent from turning their head back toward you and creates a pressure vector through their cervical spine. Driving straight down is less effective because it allows head rotation and escape initiation.
-
-**Q2**: Why must hip connection be maintained throughout the chest walk-up rather than just at the start and finish?
-**A**: Any momentary disconnection of your hips from the opponent's near hip line during the walk-up creates a window for shrimping escape. The chest walk-up is the most vulnerable phase of the transition because your weight is shifting forward, and if your hips lift even briefly, a skilled opponent will exploit that space to insert a knee for half guard recovery or begin a shrimping sequence that defeats the transition entirely.
-
-**Q3**: Your opponent creates a strong forearm frame against your neck as you begin the chest walk-up. How do you respond?
-**A**: You have two primary options depending on frame strength. First, use your body weight to collapse the frame by walking your pressure into it incrementally rather than trying to push through it with arm strength. Second, if the frame is structurally sound with elbow-to-knee connection, attack the extended arm with a kimura grip, converting their defensive frame into an offensive opportunity. Never try to muscle through a well-structured frame.
-
-**Q4**: What conditions must exist before you should attempt this transition?
-**A**: Four conditions must be verified: consolidated standard side control with stable crossface and chest contact, opponent's near arm controlled or trapped to prevent framing, hip connection to opponent's near hip line maintained with hips low and heavy, and far knee posted wide providing stable base. Attempting the transition without all four conditions significantly increases the risk of losing position during the adjustment.
-
-**Q5**: Why should the chest walk-up use incremental movements rather than one large positional shift?
-**A**: Incremental movements maintain constant chest-to-chest contact and pressure throughout the transition, preventing the creation of space that opponents can exploit. A single large movement creates a brief moment of instability and space where the opponent can frame, shrimp, or bridge effectively. Small steps ensure your weight stays on the opponent and your base remains stable at every point of the transition.
-
-**Q6**: Your opponent shrimps away explosively during your transition attempt. What is the correct response?
-**A**: Immediately drop your hips back to their hip line and assess the space created. If the space is minimal, re-consolidate standard side control and attempt the transition again when their near arm retracts. If they created significant distance, capitalize by transitioning to knee on belly or mount rather than forcing the Shoulder of Justice from a compromised angle. Their successful shrimp means your hip connection was insufficient during that attempt.
-
-**Q7**: What distinguishes driving pressure through your center of mass versus using shoulder muscles alone?
-**A**: Driving through your center of mass engages your core, hips, and legs to transfer your full body weight through the shoulder contact point, creating sustainable heavy pressure that can be maintained for minutes without fatigue. Using shoulder muscles alone generates only localized force that fatigues within 30 seconds, provides inadequate control, and allows the opponent to outlast your pressure by simply waiting for your muscles to tire.
-
-**Q8**: After establishing Shoulder of Justice, your opponent pushes your shoulder with their near arm to relieve pressure. What offensive chain does this open?
-**A**: Their extended near arm creates an immediate kimura opportunity. Secure a kimura grip on the extended wrist and elbow, then transition to the Kimura Trap control position. This is the highest-percentage submission pathway from Shoulder of Justice because the shoulder pressure specifically provokes this arm extension reaction. The opponent faces a dilemma: endure the jaw pressure or extend the arm and risk the kimura.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Side Control to Shoulder of Justice?</p>
 
 The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position.
 

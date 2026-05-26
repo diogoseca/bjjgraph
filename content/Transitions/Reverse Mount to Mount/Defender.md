@@ -164,6 +164,8 @@ The defender must balance two competing priorities: acting early enough to catch
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Mount to Mount?</p>
+
 - Feeling the attacker's weight shift to one side of your chest as they post their hand in the rotation direction
 - One of the attacker's knees pressing harder into your ribs while the other knee lifts slightly off the mat
 - The attacker's hands moving toward your head or shoulder area rather than controlling your hips or legs
@@ -176,6 +178,8 @@ The defender must balance two competing priorities: acting early enough to catch
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Mount to Mount?</p>
 
 - Monitor weight distribution changes through proprioception—the rotation begins with a subtle shift of pressure to one side
 - Time your defensive action to the midpoint of the rotation when the attacker's base is narrowest and most vulnerable
@@ -190,6 +194,8 @@ The defender must balance two competing priorities: acting early enough to catch
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Mount to Mount?</p>
 
 ### 1. Insert knee shield during the rotation gap
 
@@ -227,6 +233,8 @@ The defender must balance two competing priorities: acting early enough to catch
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Mount to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a knee shield insertion to the exact moment the attacker's weight lightens during mid-rotation. Drive your knee across their body into the gap created by their spinning leg. Establish the knee shield deeply across their hip line and immediately fight for the underhook to develop offensive half guard rather than defensive half guard.
@@ -238,6 +246,8 @@ Time a knee shield insertion to the exact moment the attacker's weight lightens 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Mount to Mount?</p>
 
 ### 1. Remaining completely passive during the rotation without attempting any counter
 
@@ -267,6 +277,8 @@ Time a knee shield insertion to the exact moment the attacker's weight lightens 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Mount to Mount?</p>
+
 **Phase 1: Recognition Development** - Identifying rotation cues through proprioception
 With eyes closed, have a partner alternate between settling in reverse mount and initiating the rotation. Defender calls out 'spinning' whenever they detect the weight shift indicating rotation. Build the ability to detect the cue reliably before training the physical counter. Track detection accuracy over 20 attempts.
 
@@ -283,29 +295,6 @@ Begin from live scramble positions that naturally create reverse mount. Defender
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What proprioceptive cue tells you the attacker is about to initiate the rotation from reverse mount?
-**A**: The primary cue is a weight shift to one side of your chest as the attacker posts their hand in the rotation direction. You will feel increased pressure from one knee against your ribs while the other knee lightens slightly. This asymmetric pressure change is the earliest detectable indicator that the spin is imminent and provides the maximum defensive reaction window.
-
-**Q2**: Why is the midpoint of the attacker's rotation the optimal moment for your defensive action?
-**A**: At the midpoint, the attacker is perpendicular to your body with their narrowest possible base. Their weight is distributed along their body's shortest axis, making them maximally vulnerable to any lateral force from bridging or hip movement. Before this point, they can easily abort the spin. After this point, they are nearly in standard mount. The midpoint provides the best ratio of attacker vulnerability to defensive leverage.
-
-**Q3**: If you successfully insert a knee shield during the rotation, what should your immediate follow-up be?
-**A**: Immediately fight for the underhook on the trapped leg side to establish offensive half guard rather than defensive half guard. The attacker will attempt to flatten you with crossface pressure, so establishing the underhook quickly converts the position from a survival situation into an offensive platform. Begin threatening sweeps and back takes immediately to prevent them from re-establishing a passing campaign from top half guard.
-
-**Q4**: What makes bridging too early against this transition a critical tactical error?
-**A**: Bridging before the attacker commits to the rotation means you are bridging against a stable reverse mount base where their weight is centered and their knees are wide. The bridge will be easily absorbed and you expend significant energy without effect. Worse, you will be flatter and more exhausted when they subsequently initiate the actual rotation, reducing your ability to counter at the critical moment. Patience in timing the bridge to the rotation's vulnerable midpoint is essential.
-
-**Q5**: Your frame attempt fails and the attacker successfully completes the rotation to standard mount—what is your immediate priority?
-**A**: Immediately establish defensive frames before the attacker settles their weight and consolidates control. Get your elbows connected to your knees, maintain a slight angle rather than lying flat, and protect your neck from choke entries. Begin the standard mount escape hierarchy: prevent advancement to high mount, create incremental space through hip escapes, and work toward knee insertion for half guard recovery. The key is not to freeze after the failed defense but to immediately transition to mount escape protocol.
-
-
-
-</section>
 
 
 </main>

@@ -50,8 +50,8 @@
       "relationship": "Alternative recovery strategy when bottom guard recovery is compromised"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Broader guard retention concept that includes RDLR-specific recovery"
+      "name": "Re-Guard from Headquarters",
+      "relationship": "Related guard recovery transition sharing hip escape and frame concepts for re-establishing guard from compromised positions"
     },
     {
       "name": "Butterfly Guard",
@@ -228,7 +228,7 @@
         "description": "Full positional sparring where partner scores points for successful passes and you score for successful recoveries or sweeps from recovered guard. Creates realistic pressure that forces recovery to work under fatigue and stress."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is maintaining at least one connection point critical during RDLR recovery?",
         "answer": "Maintaining at least one connection point (grip or hook) prevents complete guard passage and gives you a structural reference to work from during recovery. Once all connections are lost, the opponent can freely advance their pass because you have no ability to influence their movement or create the forces needed for hip escape. That single connection—even a pants grip at the knee—provides the anchor around which you rebuild your entire guard structure."
@@ -354,7 +354,7 @@
         "correction": "Instead of following their shrimp, cut the angle by driving your shoulder pressure across their centerline toward the direction they are escaping. This collapses their recovery space rather than chasing it"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical window for preventing RDLR recovery as the top player?",
         "answer": "The critical window is the moment immediately after you clear the RDLR hook or strip a primary grip. This is when the bottom player's guard structure is at its weakest, but they will immediately begin recovery movements (frames, hip escape, hook threading). You must accelerate your passing progression during this window rather than pausing to consolidate. Every second of delay increases their recovery probability significantly because the hip escape only needs a few inches of space to begin the hook reinsertion sequence."

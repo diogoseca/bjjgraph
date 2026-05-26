@@ -188,6 +188,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lasso Guard Backstep Pass?</p>
+
 - Initiate the backstep by stepping your free leg behind you and rotating your torso away from the lasso side—direction of rotation is critical for clearing the arm
 - Break or reduce sleeve grip tension before or simultaneously with the backstep to prevent the lasso from tightening during rotation
 - Maintain low hips and heavy base throughout the rotation to prevent being swept or having your back taken during the weight transfer
@@ -202,6 +204,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lasso Guard Backstep Pass?</p>
+
 - At least one foot posted firmly on the mat with the free leg (non-trapped side) ready to step behind in a deep arc
 - Some reduction in the opponent's sleeve grip tension achieved through grip fighting, posture change, or misdirection
 - Opponent's non-lasso leg position identified and accounted for to prevent reguarding during backstep rotation
@@ -214,6 +218,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lasso Guard Backstep Pass step by step?</p>
 
 1. **Establish passing posture**: Stand with combat base, posting your free-side foot firmly on the mat. Keep your trapped arm close to your body rather than extended, minimizing the lasso's leverage against your shoulder. Distribute weight through your hips to maintain stability against sweep attempts while preparing the base for rotation.
 2. **Reduce lasso grip tension**: Use your free hand to strip or loosen the opponent's sleeve grip on your trapped arm. This can be a direct grip peel, a posture change that slackens the sleeve, or a push on the opponent's knee that disrupts their leg extension. Full grip break is not required—reducing tension enough to allow arm rotation during the backstep is sufficient.
@@ -244,6 +250,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lasso Guard Backstep Pass?</p>
+
 - **Guard player pulls sleeve grip tight and extends lasso leg during backstep, re-locking the arm before rotation completes** (Effectiveness: High) - Your Response: Commit to a stronger initial grip break before backstep or use a pummel motion to circle your arm free during rotation rather than pulling linearly → Leads to [[Positions/Lasso Guard]]
 - **Guard player follows your rotation with hip movement and inserts a De La Riva hook on the stepping leg** (Effectiveness: Medium) - Your Response: Control non-lasso leg firmly before initiating backstep or accelerate the rotation to complete the pass before the hook can be established → Leads to [[Positions/Lasso Guard]]
 - **Guard player inverts and takes the back during the mid-rotation phase when your base is narrowest** (Effectiveness: High) - Your Response: Keep hips low and maintain forward pressure throughout rotation—do not allow weight to shift backward during the step—and use free hand to block hip inversion → Leads to [[Positions/Back Control]]
@@ -255,6 +263,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lasso Guard Backstep Pass?</p>
 
 ### 1. Stepping too shallow with the backstep, resulting in incomplete rotation
 
@@ -294,6 +304,8 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lasso Guard Backstep Pass (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Backstep rotation mechanics without resistance
 Practice the backstep rotation with no partner, focusing on maintaining low hips, completing the full rotation arc, and finishing in a consolidated side control position. Build muscle memory for the deep step and weight transfer.
 
@@ -314,42 +326,12 @@ Full positional sparring starting in lasso guard with complete freedom for both 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary direction of rotation during the backstep pass and why?
-**A**: You rotate away from the lasso side by stepping your free leg behind you. The rotation goes toward the side of your free arm, which removes the perpendicular angle that gives the lasso its control. Rotating toward the lasso would tighten the entanglement further, making the position worse.
-
-**Q2**: Why is reducing sleeve grip tension critical before initiating the backstep?
-**A**: If the opponent maintains full sleeve grip tension, the backstep rotation will tighten the lasso rather than freeing your arm. Even partial grip reduction allows the arm to slide free during rotation. Without addressing the grip first, the backstep can actually worsen your positional disadvantage significantly.
-
-**Q3**: Your opponent extends their lasso leg fully as you begin to backstep—how do you adjust?
-**A**: A fully extended lasso creates maximum leverage but also maximum commitment from the guard player. Use this against them by accelerating your backstep with an aggressive deep rotation that exploits their rigid leg position. Alternatively, push their extending knee inward to collapse the lasso structure before completing the backstep.
-
-**Q4**: What role does the non-lasso leg play in defending against the backstep, and how do you neutralize it?
-**A**: The non-lasso leg can follow your backstep rotation to establish a De La Riva hook, post on your hip to maintain distance, or create butterfly hooks for reguarding. Control it at the knee or ankle with your free hand before initiating the backstep to eliminate these defensive options and clear the rotation path.
-
-**Q5**: What is the optimal timing window for initiating the backstep pass?
-**A**: The optimal window opens when the opponent adjusts their lasso grip, reaches for a secondary grip like a collar, or shifts their hips to set up a sweep. These moments create brief lapses in lasso tension and attention that allow the backstep to succeed before they can re-establish full control and defensive readiness.
-
-**Q6**: Your backstep clears the lasso but the opponent immediately shoots their hips to recover guard—what do you do?
-**A**: Immediately drop your weight and drive crossface pressure to pin them to the mat. Do not pause or attempt to stand after clearing the arm. The transition from arm clearance to consolidated side control pressure must be seamless—any hesitation gives the opponent time to insert knee shields, reguard, or invert.
-
-**Q7**: What grip should your free hand establish during the backstep rotation?
-**A**: Your free hand should control the opponent's pants at the knee on the non-lasso side throughout the backstep. This grip prevents reguarding and provides a steering mechanism during rotation. After the arm clears, transition this grip to an underhook or crossface as you consolidate into side control or headquarters position.
-
-**Q8**: If your backstep attempt fails and you end up back in lasso guard, what should your immediate strategy be?
-**A**: Do not immediately reattempt the backstep—the opponent is now anticipating that direction. Instead, change levels or angles with a different passing approach such as a stack pass or knee cut to reset their defensive focus. Return to the backstep only after establishing a different threat that forces them to redistribute their attention and grip configuration.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lasso Guard Backstep Pass?</p>
 
 The backstep pass is generally low-risk from a safety perspective, but the rotation can place stress on the trapped arm's shoulder joint if the opponent maintains a tight lasso grip during the turn. Never force the rotation against locked resistance—reduce the grip first. Partners should release the lasso immediately if the passer reports shoulder discomfort during the backstep rotation. Avoid explosive backstep attempts when warming up or training with less experienced partners who may not release grips smoothly.
 

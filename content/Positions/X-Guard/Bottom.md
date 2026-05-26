@@ -21,7 +21,7 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Garami",
-      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
@@ -165,6 +165,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Position Definition
 
+<p class="section-subtitle">What is X-Guard (Bottom)?</p>
+
 - Bottom practitioner's inside leg hooks deeply behind opponent's near knee with foot positioned past the knee joint
 - Bottom practitioner's outside leg extends across opponent's hip or belt line creating distance control barrier
 - Opponent is standing or in combat base with one leg isolated and controlled by X-Guard configuration
@@ -178,6 +180,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing X-Guard (Bottom)?</p>
+
 - Opponent is standing or in combat base position
 - Bottom practitioner has isolated one of opponent's legs
 - Bottom practitioner's inside leg has access to hook behind opponent's knee
@@ -190,6 +194,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X-Guard?</p>
 
 - Maintain deep knee hook with inside leg to control opponent's base and create off-balancing leverage
 - Keep outside leg active and extended across opponent's hip to control distance and prevent smash
@@ -205,6 +211,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from X-Guard (Bottom)?</p>
 
 **If opponent maintains strong upright posture with both feet planted and good base:**
 - Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 65%)
@@ -233,6 +241,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X-Guard?</p>
 
 ### 1. Allowing hips to remain flat on the mat instead of elevating them off the ground
 
@@ -271,6 +281,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train X-Guard defense?</p>
 
 ### X-Guard Entry and Sweep Repetitions
 

@@ -54,7 +54,7 @@
       "when_to_use": "When the opponent repeatedly uses their free hand to grip the trapped arm's wrist or push your near leg, making standard setups difficult"
     }
   ],
-  "position_integration": "The S Mount Armbar Setup serves as the critical bridge between mount-based positional dominance and armbar submission mechanics. It connects the mount hierarchy (Mount to High Mount to S Mount) to the submission finishing sequence (Armbar Control to Armbar Finish to game-over). This transition is central to any mount-based submission game, as S Mount naturally evolves from mount when targeting arm attacks. Understanding this setup allows practitioners to flow seamlessly from positional control into submission finishing, creating a complete offensive chain that pressures opponents from mount acquisition through submission completion. The setup also creates branching opportunities: if the armbar is defended, the attacker can transition to mounted triangle, back take, or return to mount for another attempt.",
+  "position_integration": "The S Mount Armbar Setup serves as the critical bridge between mount-based positional dominance and armbar submission mechanics. It connects the mount hierarchy (Mount to High Mount to S Mount) to the submission finishing sequence (Armbar Control to Armbar from Armbar Control to game-over). This transition is central to any mount-based submission game, as S Mount naturally evolves from mount when targeting arm attacks. Understanding this setup allows practitioners to flow seamlessly from positional control into submission finishing, creating a complete offensive chain that pressures opponents from mount acquisition through submission completion. The setup also creates branching opportunities: if the armbar is defended, the attacker can transition to mounted triangle, back take, or return to mount for another attempt.",
   "related_content": [
     {
       "name": "S Mount",
@@ -77,12 +77,12 @@
       "relationship": "Alternative dominant position that flows into S Mount configuration"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Direct submission finish available from the same starting position"
+      "name": "Mount to Armbar",
+      "relationship": "Primary armbar transition from mount hierarchy that flows through S Mount as an intermediate attacking position"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Finishing technique executed from the armbar control position this setup creates"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Finishing submission executed from the armbar control position this setup creates"
     },
     {
       "name": "Frame and Shrimp from S Mount",
@@ -244,7 +244,7 @@
         "description": "Start in S Mount with full resistance from both players. Attacker works to complete armbar setup, defender works to survive and escape. Reset on submission or complete escape. Develops timing and execution under competitive pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical grip to maintain throughout the S Mount Armbar Setup transition?",
         "answer": "Two-on-one wrist control on the trapped arm is the non-negotiable grip maintained from S Mount through armbar control. Losing wrist control at any point during the transition allows the opponent to retract their arm and escape. Both hands should grip the wrist or forearm with thumbs on the inside, maintaining constant inward tension throughout the fall-back."
@@ -276,6 +276,14 @@
       {
         "question": "What distinguishes a successful S Mount Armbar Setup from one that fails?",
         "answer": "Successful setups maintain continuous pressure throughout the transition with no gaps in control. The arm stays trapped at every phase, hips never separate from the shoulder, and wrist control is never released. Failed setups typically have a moment where one control element is abandoned before the next is established, creating a window for arm retraction or escape. The setup should feel like tightening a system, not jumping between positions."
+      },
+      {
+        "question": "How do you adjust the setup when your opponent is significantly larger or stronger than you?",
+        "answer": "Focus on leverage and timing rather than matching their strength. Ensure the hip-to-shoulder seal is airtight before committing, as larger opponents can power through gaps. Use the controlled squeeze transition variant, confirming each control point before advancing. Time the fall-back to coincide with their exhaustion after a failed escape rather than fighting their fresh defensive strength. The S Mount's mechanical advantage is strength-independent when properly applied."
+      },
+      {
+        "question": "What signals indicate you should abandon the armbar setup and return to S Mount or standard mount?",
+        "answer": "Abandon when you lose wrist control and cannot immediately re-grip, when the opponent creates significant lateral space through hip escape that breaks your knee pinch, or when their bridge disrupts your base to the point where you risk being reversed. The key indicator is whether you still have redundant control: if only one control element remains such as just wrist control or just knee pinch but not both, the setup is compromised. Returning to mount preserves positional dominance rather than gambling on a deteriorating submission attempt."
       }
     ],
     "safety_considerations": "The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion."
@@ -362,7 +370,7 @@
         "correction": "Bridge diagonally toward the attacker's feet to create an angle that disrupts their base and generates usable escape space"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the S Mount Armbar Setup?",
         "answer": "The earliest cue is when the attacker shifts from single-hand or positional control to a deliberate two-on-one grip on your wrist. This grip change signals commitment to the arm attack rather than general S Mount maintenance. The moment you feel both hands securing your wrist, immediately reinforce your collar grip and prepare your free hand for defensive framing."
@@ -382,6 +390,10 @@
       {
         "question": "When should you tap rather than continue defending the S Mount Armbar Setup?",
         "answer": "Tap immediately if your arm reaches full extension with the attacker's hips tight against your shoulder and their legs controlling your upper body. At that point, the armbar is mechanically complete and further resistance risks serious elbow ligament damage. Also tap if you feel any sharp pain or popping sensation in the elbow joint. Training safety always takes absolute priority over positional survival."
+      },
+      {
+        "question": "How should you prioritize your free arm's defensive functions during the setup?",
+        "answer": "The free arm serves three defensive functions in priority order: first, reinforce the collar grip on the trapped arm if it is weakening under the attacker's grip-breaking attempts; second, frame against the attacker's hip to resist the fall-back transition and maintain defensive distance; third, control the attacker's leg over your head to prevent full step-over completion. Avoid using the free arm to push randomly or reach across your body, which can expose it to a second arm attack or mounted triangle entry."
       }
     ],
     "training_progressions": [

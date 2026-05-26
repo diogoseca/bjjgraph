@@ -154,6 +154,8 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Carni?</p>
+
 - Opponent's shoulder drives forward into your hips rather than sitting back or attempting leg extraction
 - Opponent's free foot posts wider and steps toward your head indicating setup for forward walking pressure
 - Opponent begins actively stripping your heel grip with increased urgency while driving chest weight forward
@@ -166,6 +168,8 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Carni?</p>
 
 - Recognize stacking pressure early through chest contact and hip weight changes before momentum builds
 - Maintain active heel and ankle grip throughout the opponent's pass attempt to preserve immediate submission threat
@@ -180,6 +184,8 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Carni?</p>
 
 ### 1. Thread inside leg deeper for saddle entry as opponent drives forward and opens space between knees
 
@@ -217,6 +223,8 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Carni?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's forward driving pressure to thread your inside leg deeper through the space created between their knees. Their forward momentum carries your hook past the retraction point, establishing saddle with deeper control than you had from Carni.
@@ -232,6 +240,8 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Carni?</p>
 
 ### 1. Fighting stacking pressure with arm frames instead of using leg hooks and hip mechanics
 
@@ -261,6 +271,8 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Carni?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stack pass attempts versus other escapes
 Partner alternates between stack pass, leg extraction, and rolling escape from Carni top at slow speed. Practice identifying which escape is being attempted based on pressure direction and body mechanics. Call out the recognition before the escape develops. 20 repetitions building pattern recognition.
 
@@ -277,26 +289,6 @@ Positional sparring from Carni bottom with partner actively working stack pass a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a stack pass rather than a standard leg extraction from Carni?
-**A**: The earliest cue is the opponent's shoulder driving forward into your hips combined with their free foot posting wider toward your head, indicating they are establishing a base for forward walking pressure rather than sitting back to extract their leg. Standard extraction involves backward movement and grip fighting; the stack pass involves forward commitment with chest weight. Recognizing this directional difference gives you a critical two-to-three second window to implement your counter.
-
-**Q2**: How do you use the opponent's forward stacking pressure to advance to saddle position?
-**A**: As the opponent drives forward with stacking pressure, their forward momentum creates space between their knees as their hips advance past your guard structure. Thread your inside leg deeper through this opening, using their own forward momentum to carry your hook past the retraction point. The timing window is narrow: you must thread the hook after they commit to the forward drive but before their chest weight compresses you flat, eliminating your hip mobility.
-
-**Q3**: When should you abandon Carni retention and close your guard instead?
-**A**: Close your guard when the opponent has achieved deep stacking compression with their chest heavy on your torso and your inside leg hook has been cleared or bypassed. At this point, attempting to maintain Carni or force a saddle transition carries high risk of being passed completely. Closing guard retains the opponent within your control system with sweep and submission options available, which is far preferable to being passed to side control where you must work a full positional escape.
-
-**Q4**: What is the risk of attempting an aggressive heel hook finish as the opponent drives forward with stack pass pressure?
-**A**: Attempting aggressive heel hook during dynamic forward stacking pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force creates sudden, potentially uncontrollable torque on the knee joint. The safer approach is to use the heel hook threat to stall forward pressure and create transition windows for saddle entry or inversion rather than attempting to finish during active forward movement. Reserve aggressive finishing pressure for static control positions.
-
-
-
-</section>
 
 
 </main>

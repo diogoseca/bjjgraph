@@ -186,6 +186,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse De La Riva Recovery?</p>
+
 - Maintain at least one point of contact (hook or grip) at all times during recovery to preserve a structural reference
 - Use hip escape mechanics to create the angle necessary for hook reinsertion before fighting for grips
 - Prioritize recovering the RDLR hook before re-establishing secondary controls like sleeve or collar grips
@@ -201,6 +203,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse De La Riva Recovery?</p>
+
 - Reverse De La Riva guard has been partially compromised through hook clearance, grip strip, or pressure advancement
 - At least one connection point remains (sleeve grip, pants grip, or partial hook) providing a structural reference
 - Opponent is attempting to advance position or consolidate a pass but has not yet achieved side control
@@ -213,6 +217,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse De La Riva Recovery step by step?</p>
 
 1. **Establish emergency frames**: The instant you recognize the RDLR position is compromised, establish defensive frames using your arms to arrest opponent's forward progress. Place your bottom arm frame against opponent's hip or knee line, and your top arm frame against their shoulder or crossface attempt. These frames must be active—locked elbows driving through the shoulder—not passive barriers that collapse under pressure.
 2. **Execute hip escape away from pressure**: Perform a strong hip escape (shrimp) away from the opponent while maintaining your frames. Push off your outside foot to generate power and create the angle necessary for hook recovery. Your hips should rotate approximately 45-90 degrees away from the opponent, opening the space between your legs where the RDLR hook needs to thread. The direction is always away from their pressure, never toward it.
@@ -241,6 +247,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse De La Riva Recovery?</p>
+
 - **Opponent drives forward with heavy shoulder pressure before you can hip escape** (Effectiveness: High) - Your Response: Switch to Granby Roll recovery or use the forward pressure to load a waiter sweep if any hook remains. If completely flattened, abandon RDLR recovery and transition to Technical Stand-up or Butterfly Guard transition → Leads to [[Positions/Side Control]]
 - **Opponent controls your RDLR leg at the knee and prevents hook reinsertion** (Effectiveness: Medium) - Your Response: Use your free leg to push their controlling hand away, or transition to butterfly hooks or opposite-side RDLR rather than forcing a compromised recovery on the blocked side → Leads to [[Positions/Open Guard]]
 - **Opponent establishes strong crossface and prevents hip escape movement** (Effectiveness: High) - Your Response: Fight the crossface with your near arm to create space, establish an underhook if possible, and use that connection to generate enough room for a smaller hip adjustment before attempting full recovery → Leads to [[Positions/Side Control]]
@@ -252,6 +260,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse De La Riva Recovery?</p>
 
 ### 1. Attempting to recover the position while remaining flat and stationary
 
@@ -291,6 +301,8 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse De La Riva Recovery (Attacker)?</p>
+
 **Week 1-2: Fundamental Movement Patterns** - Solo drilling of hip escape mechanics and hook reinsertion angles
 Practice hip escapes from bottom position without a partner, focusing on creating proper 45-90 degree angles. Add solo practice of threading the RDLR leg back to hook position from various compromised angles. Develop muscle memory for the core movements until they feel automatic.
 
@@ -314,48 +326,12 @@ Full positional sparring where partner scores points for successful passes and y
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining at least one connection point critical during RDLR recovery?
-**A**: Maintaining at least one connection point (grip or hook) prevents complete guard passage and gives you a structural reference to work from during recovery. Once all connections are lost, the opponent can freely advance their pass because you have no ability to influence their movement or create the forces needed for hip escape. That single connection—even a pants grip at the knee—provides the anchor around which you rebuild your entire guard structure.
-
-**Q2**: What is the correct direction for hip escape during RDLR recovery and why does it matter?
-**A**: You must hip escape away from the opponent, never toward them. Escaping away creates the angle and distance necessary for reinserting the RDLR hook by opening the space between your legs where the hook threads. Moving toward them collapses that space and actually assists their pass consolidation. The escape should create approximately 45-90 degrees of rotation, with power generated by pushing off your outside foot.
-
-**Q3**: Your opponent strips your ankle grip and immediately drives their knee forward to initiate a knee slice—what is your recovery sequence?
-**A**: Immediately establish a frame on their advancing knee with your near-side arm to arrest the knee slice. Simultaneously hip escape away from the slicing direction to create the angle for hook recovery. Your priority is getting your inside leg back underneath their near leg before their knee reaches the mat. If the knee slice is too advanced, transition your frame to their shoulder and switch to butterfly hook recovery or technical standup rather than forcing RDLR reinsertion from a severely compromised angle.
-
-**Q4**: When should you abandon RDLR recovery and transition to a different guard system?
-**A**: Transition to alternative guards when the opponent has established controls that prevent hip movement (heavy crossface with leg control), when they have cleared the RDLR hook completely and are driving forward with consolidated pressure, or when forcing recovery would exhaust you even if successful. Switching to butterfly guard, seated guard, or technical standup is more energy-efficient than fighting for a severely compromised RDLR. The decision point is whether your hook can realistically thread back underneath their leg given their current pressure and positioning.
-
-**Q5**: How do active frames differ from passive frames during recovery, and why does this distinction matter?
-**A**: Active frames generate real distance by driving through locked elbows and shoulder engagement, creating space for hip escape execution. Passive frames merely resist collapse without producing movement. During recovery, passive frames are insufficient because the opponent already has forward momentum—you need frames that push them back while you simultaneously shrimp away. The combination of pushing frame and retreating hips creates double the distance compared to either action alone.
-
-**Q6**: Why is hook depth more important than hook speed when recovering the RDLR position?
-**A**: A deep hook genuinely controls the opponent's leg and base, providing a functional platform for guard retention and offensive transitions. A shallow hook obtained quickly will be immediately cleared again, wasting your energy and allowing the opponent to continue their pass with minimal interruption. The extra half-second invested in threading a deep hook pays dividends by forcing the opponent to restart their entire passing sequence rather than simply brushing off a token recovery attempt.
-
-**Q7**: Your opponent has your RDLR leg controlled at the knee and is driving forward—how do you adjust your recovery approach?
-**A**: When your RDLR leg is controlled, do not fight to force the hook on the blocked side. Instead, use your free leg to either push their controlling hand away at the wrist or immediately transition to an alternative recovery path. Viable options include switching to opposite-side RDLR by threading through their other leg, sitting up to butterfly hooks using the hip escape momentum, or using their forward pressure to load a technical standup. The key principle is that recovery must flow around obstacles rather than crash through them.
-
-**Q8**: What is the optimal timing window for initiating RDLR recovery relative to the guard compromise?
-**A**: Recovery must begin the instant you feel your hook weakening or your grip being stripped—before the position is fully lost. Waiting until the opponent has cleared your hook and consolidated their pressure makes recovery exponentially harder because they now have established base and forward momentum. Advanced practitioners develop tactile sensitivity that triggers recovery movement preemptively, often beginning the hip escape while the hook is still partially engaged rather than waiting for complete clearance.
-
-**Q9**: How can you convert a defensive RDLR recovery into an offensive transition?
-**A**: The hip escape used for recovery naturally creates angles that feed into offensive techniques. As you shrimp away and recover your hook, the rotational angle can be extended into a Kiss of the Dragon entry by continuing underneath the opponent. The recovered hook position also creates immediate access to berimbolo entries, X-Guard transitions, and waiter sweep setups. The tactical insight is to treat recovery not as returning to neutral but as generating the momentum and angles that launch your next attack sequence.
-
-**Q10**: What grip should you prioritize first after recovering the RDLR hook?
-**A**: After recovering the hook, your first grip priority is controlling the opponent's near-side pants at the knee or ankle with your outside hand. This grip prevents them from stepping over your recovered guard and controls their base geometry. It also creates the push-pull dynamic essential for RDLR effectiveness—your hook pulls while your grip controls distance. Secondary grips (sleeve, collar) enhance the position but the near-leg grip is the structural foundation that makes the recovered hook functional rather than temporary.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse De La Riva Recovery?</p>
 
 RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has sufficient flexibility to curve around opponent's leg without forcing the position—tight ankles attempting deep hooks can result in sprains. During training, communicate with partners about pressure levels, particularly when they are driving forward during recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, do not sacrifice joint health to retain position—accepting a pass and resetting is always preferable to forcing movements that risk injury. Beginners should focus on slow, controlled technique rather than speed and power during initial learning phases.
 

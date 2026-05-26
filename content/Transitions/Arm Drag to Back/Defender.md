@@ -154,6 +154,8 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag to Back?</p>
+
 - Opponent grips your wrist with a same-side C-grip while their other hand reaches for your triceps or lat, establishing the two-point control needed for the drag
 - Opponent's hips begin to shift laterally away from your gripped arm side, indicating the hip escape that precedes the angular displacement
 - Sudden diagonal pulling force on your arm directed across your own centerline toward the opponent's opposite hip, turning your shoulders
@@ -166,6 +168,8 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag to Back?</p>
 
 - Maintain elbow-tight arm positioning to deny the attacker accessible grip targets on your wrist and triceps
 - Avoid excessive forward weight commitment that provides the momentum the attacker needs to pull you off balance
@@ -180,6 +184,8 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag to Back?</p>
 
 ### 1. Immediate arm retraction with elbow pull to hip
 
@@ -217,6 +223,8 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag to Back?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 React early to the grip establishment by retracting your arm before the diagonal pull crosses your centerline. Strip the wrist grip using your free hand, pull your elbow tight to your hip, and re-square your shoulders to face the attacker. Re-establish your own grips and postural control to return to neutral butterfly guard engagement.
@@ -232,6 +240,8 @@ When the attacker commits to the hip escape and rotation, aggressively turn into
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag to Back?</p>
 
 ### 1. Reaching arms forward with elbows away from body when engaging in butterfly guard
 
@@ -261,6 +271,8 @@ When the attacker commits to the hip escape and rotation, aggressively turn into
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag to Back?</p>
+
 **Week 1-2: Recognition and Reaction Drilling** - Identifying arm drag initiation cues and building reflexive responses
 Partner telegraphs arm drag setups at slow speed while you practice recognizing the two-point grip establishment and initial pull. Work on immediate elbow retraction when you feel the wrist grip, pulling your arm back to your hip before the diagonal pull begins. Drill 20 repetitions per side with increasing speed over the two-week period. Focus on reducing reaction time between feeling the grip and executing the retraction.
 
@@ -277,26 +289,6 @@ Focus on recognizing arm drag setups during full sparring rounds, not just posit
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the arm drag sequence where defensive intervention is most effective?
-**A**: The earliest and most effective intervention point is at the grip establishment phase, before the attacker has secured both the wrist grip and the triceps grip. By denying the two-point grip control through elbow retraction and active hand fighting, you prevent the attacker from generating the diagonal pulling force needed to cross your arm past your centerline. Once both grips are secured and the pull begins, your defensive options narrow significantly and require more energy to execute.
-
-**Q2**: Why should you turn into the attacker rather than away from them when defending a partially completed arm drag?
-**A**: Turning away from the attacker exposes more of your back and accelerates their circular path to back control, essentially completing their rotation for them. Turning into the attacker forces them back to a front-facing position where their angular advantage is neutralized. Your crossface and forward drive can collapse their guard structure and create a scramble that favors you since their hooks are disengaged during the rotation attempt. Additionally, turning in keeps you facing the attacker so you can see and defend any subsequent attacks.
-
-**Q3**: How does the whizzer counter work against the arm drag, and what is its primary risk?
-**A**: The whizzer establishes an overhook connection on the dragged arm that physically blocks the attacker's rotational path around your body. By driving your hip into theirs and clamping down with the overhook, you create a fixed point that prevents them from circling to your back. The primary risk is that a high or lazy whizzer without accompanying hip pressure can be exploited through a duck under, where the attacker dives beneath your whizzer arm to access back control from the opposite side. The whizzer must be accompanied by aggressive hip-to-hip contact and shoulder pressure to be effective.
-
-**Q4**: What weight distribution error makes you most vulnerable to the arm drag from butterfly guard top?
-**A**: Excessive forward weight commitment is the primary weight distribution error. When you lean forward into the opponent's butterfly hooks and extend your arms for grips, your center of mass shifts anterior to your base of support. This forward loading provides the exact momentum vector the attacker needs to pull you off balance with the diagonal arm drag. A balanced or slightly rear-weighted distribution allows you to retract your arms quickly and square your shoulders before the attacker can cross your arm past your centerline.
-
-
-
-</section>
 
 
 </main>

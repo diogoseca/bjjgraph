@@ -209,7 +209,7 @@ The turtle to back take serves as a critical connecting technique within the bro
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Key upper body control configuration used during transition
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
 - [[Positions/Crab Ride]] - Alternative intermediate control position for back take entry
 
@@ -219,13 +219,13 @@ The turtle to back take serves as a critical connecting technique within the bro
 
 - [[Transitions/Truck Entry]] - Alternative leg entanglement transition from turtle
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission from back control
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission from back control
 
 - [[Transitions/Rolling Back Take]] - Rolling variation of back take method
 
 - [[Positions/Back Control/Body Triangle]] - Back control leg configuration after successful take
 
-- [[Submissions/Armbar from Back]] - Submission option when opponent over-defends neck
+- [[Transitions/Armbar from Back Transition]] - Submission option when opponent over-defends neck
 
 
 </section>

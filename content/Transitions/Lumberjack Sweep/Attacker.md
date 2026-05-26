@@ -182,6 +182,8 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lumberjack Sweep?</p>
+
 - Establish and maintain deep underhook control on the opponent's far side
 - Create angle by turning your body toward the underhook side
 - Use your trapped leg to control opponent's base and prevent posting
@@ -196,6 +198,8 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lumberjack Sweep?</p>
+
 - Half guard bottom position with one leg controlling opponent's leg
 - Deep underhook established on opponent's far side armpit
 - Opponent's weight committed forward without strong crossface
@@ -209,6 +213,8 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lumberjack Sweep step by step?</p>
 
 1. **Establish underhook control**: From half guard bottom, swim your inside arm deep under opponent's armpit on the far side. Your hand should emerge near their far shoulder blade. Simultaneously cup your free hand around their near side wrist or grab their belt to prevent posting. Keep your head pressed against their ribs on the underhook side to block crossface attempts.
 2. **Create angle and hip out**: Turn your entire body toward the underhook side, creating a 45-degree angle relative to your opponent. Hip out away from them by pushing with your outside leg and pulling with your inside hook. This angle is critical as it positions your hips beneath theirs and sets up the sweeping leverage. Your shoulders should now be perpendicular to theirs.
@@ -237,6 +243,8 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lumberjack Sweep?</p>
+
 - **Opponent establishes strong crossface and flattens you** (Effectiveness: High) - Your Response: Abandon sweep and transition to deep half guard or electric chair position. Use your underhook to swim back to deep half, or switch to attacking the far knee for old school sweep variation. → Leads to [[Positions/Half Guard]]
 - **Opponent posts their free hand on the mat to block the sweep** (Effectiveness: Medium) - Your Response: Use your free hand to strip their posting arm while continuing sweeping pressure. Alternatively, transition to kimura attack on the posted arm, or switch to waiter sweep if they overextend their post. → Leads to [[Positions/Half Guard]]
 - **Opponent extracts their trapped leg and begins passing** (Effectiveness: High) - Your Response: If leg begins extracting, immediately switch to butterfly hook or transition to single leg x-guard. Use your underhook to prevent them from establishing side control and create frames to recover full guard. → Leads to [[Positions/Half Guard]]
@@ -248,6 +256,8 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lumberjack Sweep?</p>
 
 ### 1. Attempting sweep without proper angle
 
@@ -287,10 +297,12 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lumberjack Sweep (Attacker)?</p>
+
 **Week 1-2: Foundation and Positioning** - Underhook establishment and angle creation
 Practice establishing deep underhook from various half guard positions. Drill the hip out movement to create proper angle repeatedly. Partner remains passive, allowing you to feel correct positioning. Focus on achieving 45-degree angle and deep underhook connection before attempting any sweeping motion.
 
-**Week 3-4: Basic Sweep Mechanics** - Sweeping motion and hip extension
+**Week 3-4: Basic Kuzushi** - Sweeping motion and hip extension
 Add the sweeping motion with partner offering minimal resistance. Practice explosive hip extension and rotational momentum. Partner allows themselves to be swept but maintains awareness to prevent injury. Focus on smooth, continuous motion from angle creation through to sweep completion. Perform 20-30 repetitions per session.
 
 **Week 5-8: Timing and Entry Development** - Recognizing sweep opportunities and timing execution
@@ -310,54 +322,12 @@ Experiment with grip variations, timing adjustments, and combinations with submi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical positional requirement before attempting the lumberjack sweep?
-**A**: Establishing a deep underhook that reaches the opponent's far shoulder blade while creating a 45-degree angle with your body. Without this positional foundation, the sweep lacks the necessary leverage to elevate the opponent, and they can easily defend by establishing crossface control or posting their arms.
-
-**Q2**: Why is creating an angle by hipping out essential to the lumberjack sweep's effectiveness?
-**A**: The angle positions your hips beneath the opponent's center of gravity, creating the leverage necessary to elevate and rotate them. Without this angle, you're trying to lift them directly upward against gravity, which requires significantly more strength and is easily defended. The 45-degree angle also prevents them from driving their shoulder into your face for crossface control.
-
-**Q3**: How should you respond if your opponent establishes a strong crossface while you're attempting the lumberjack sweep?
-**A**: Immediately abandon the sweep attempt and transition to deep half guard or electric chair position. Use your underhook to swim deeper rather than fighting the crossface directly, as the crossface negates the sweeping leverage. Once in deep half, you can reset and attack with different techniques that work against the crossface pressure.
-
-**Q4**: What is the purpose of controlling the opponent's near side wrist or belt during the lumberjack sweep execution?
-**A**: Controlling their near side prevents them from posting that hand on the mat to block the sweep. If they can post their hand, they create a third point of contact with the ground, significantly strengthening their base and making the sweep extremely difficult to complete. Stripping or controlling this arm is essential for high-percentage sweep completion.
-
-**Q5**: How does the lumberjack sweep integrate into a comprehensive half guard system, and what techniques should it chain with?
-**A**: The lumberjack sweep functions as a primary sweeping option from half guard bottom that works particularly well against forward pressure. It chains naturally with deep half guard entries (when opponent defends with crossface), kimura attacks (when opponent posts their arm), electric chair submissions (when opponent sprawls back), and old school sweeps (when opponent shifts weight to defend lumberjack). Advanced players use the threat of the lumberjack sweep to create openings for these other techniques, developing a complete system where all options feed into each other based on opponent's defensive reactions.
-
-**Q6**: What timing cues indicate the optimal moment to initiate the lumberjack sweep?
-**A**: The sweep should be executed when the opponent commits their weight forward toward the pass, when they're actively trying to establish crossface and their weight shifts, or immediately after you establish the underhook before they can counter it. You want to catch them in motion rather than when they're statically based. Additionally, if they lift their trapped leg to extract it, this creates a moment of reduced base that's ideal for sweep initiation.
-
-**Q7**: Your opponent posts their hand on the mat to block your lumberjack sweep - what are your immediate options?
-**A**: You have three primary responses: First, use your free hand to aggressively strip their posting arm while maintaining sweeping pressure with your underhook. Second, transition to a kimura attack on the posted arm, as the post creates an excellent angle for the shoulder lock grip. Third, if they overextend their post, switch to a waiter sweep by elevating their far leg with your free arm while continuing the rotational momentum. The key is recognizing which option is available based on their exact posting position and weight distribution.
-
-**Q8**: What specific hip movement is required during the lumberjack sweep, and in which direction should force be applied?
-**A**: The hip movement involves an explosive extension upward and toward the underhook side in a diagonal trajectory. Your hips drive up to elevate opponent's trapped leg off the mat while simultaneously rotating toward the underhook side. The force direction is not straight up but at approximately a 45-degree angle toward where your underhook is established. This diagonal force vector is what creates the rotational momentum that rolls the opponent over your body.
-
-**Q9**: What grip requirements must be met for a high-percentage lumberjack sweep?
-**A**: The underhook must be deep enough that your hand reaches the opponent's far shoulder blade, creating a tight connection around their armpit. Your free hand should control their near side wrist, belt, or gi lapel to prevent posting. The underhook should have constant upward pressure to prevent the opponent from swimming their arm out and establishing a whizzer. If the underhook is shallow (only reaching their lat), the sweep loses significant leverage and the opponent can easily counter with crossface control.
-
-**Q10**: What entry requirements must exist before the lumberjack sweep can be successfully executed?
-**A**: Five conditions must be present: First, you must have half guard control with one leg trapping opponent's leg at or below the knee. Second, a deep underhook must be established on the far side with your hand at their shoulder blade. Third, you must have created at least a 30-45 degree angle by hipping out toward the underhook side. Fourth, the opponent's weight must be committed forward rather than sitting back. Fifth, their crossface control must be absent or weak, as strong crossface negates the sweep entirely. Missing any of these conditions significantly reduces success probability.
-
-**Q11**: If the lumberjack sweep is blocked but you maintain your underhook, which chain attacks become available?
-**A**: With the underhook maintained after a blocked sweep, several chain attacks open up: Transition to deep half guard by ducking your head under and swimming deeper when opponent posts to defend. Attack the kimura on their posting arm by releasing your underhook to secure the figure-four grip. Move to electric chair position if opponent sprawls back by threading your leg over their trapped leg. Come up to dogfight position using the underhook to elevate and work to single leg or back take. The underhook serves as the anchor point that enables all these transitions.
-
-**Q12**: What is the primary direction of force the opponent will use to defend the lumberjack sweep?
-**A**: Opponents primarily defend by driving their shoulder down into your face and chest to establish crossface control, sprawling their hips back to remove forward weight commitment, posting their near hand on the mat to create a third base point, or attempting to strip the underhook by swimming their arm through. The crossface defense is most effective because it flattens your angle and removes the leverage needed for the sweep. Recognizing which defense they're attempting determines whether to continue the sweep or transition to an alternative attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lumberjack Sweep?</p>
 
 When practicing the lumberjack sweep, execute the technique with control to avoid dropping your partner unexpectedly or causing them to land awkwardly. The sweeping motion should be smooth and controlled, especially during initial drilling phases. Partners should communicate if they feel uncomfortable with the speed or force of the sweep. Be particularly careful when transitioning to top position to avoid driving your knee into your partner's ribs or landing with full body weight on them. If you're being swept, don't post your arm rigidly to block the sweep as this can result in shoulder or wrist injuries; instead, learn to roll with the momentum and turtle if necessary. When drilling, start with slow, cooperative repetitions and gradually increase resistance as both partners become comfortable with the mechanics. Ensure adequate mat space around you as the sweep creates rotational movement that can carry both practitioners several feet from the starting position.
 

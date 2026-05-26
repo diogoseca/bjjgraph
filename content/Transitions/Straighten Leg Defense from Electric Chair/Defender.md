@@ -132,13 +132,15 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
 
 As the bottom player in Electric Chair, your opponent's most immediate defensive response is to straighten their trapped leg against your lockdown. Recognizing and countering this defense is essential for maintaining your attacking position and continuing your offensive sequence. The key to defeating the straighten leg defense lies in understanding the timing—the defense is most effective when attempted early before full extension, so accelerating your setup and maintaining constant pressure prevents the defense from developing. When the top player does attempt to straighten, you have multiple options including deepening the lockdown tension, transitioning to the Old School sweep using their forward pressure as fuel, or flowing to Truck entries when maintaining the Electric Chair is no longer viable.
 
-**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Straighten Leg Defense from Electric Chair?</p>
 
 - Top player's trapped leg begins extending and stiffening against the lockdown curl—you feel increasing resistance through your ankle hooks that was not present before
 - Top player drives forward chest pressure aggressively while simultaneously engaging hip extensors on the trapped side, creating a distinctive compound force pattern
@@ -151,6 +153,8 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Straighten Leg Defense from Electric Chair?</p>
 
 - Accelerate the Electric Chair setup to achieve full extension before the top player can initiate the straighten defense—speed of setup directly counters early defense attempts
 - Maintain maximum lockdown tension through constant hip extension and active ankle hook pressure to resist the straightening force
@@ -165,6 +169,8 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Straighten Leg Defense from Electric Chair?</p>
 
 ### 1. Deepen lockdown tension and actively re-curl the trapped leg by increasing hip extension and driving your knee upward into their inner thigh
 
@@ -195,6 +201,8 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Straighten Leg Defense from Electric Chair?</p>
+
 ### → [[Positions/Half Guard/Electric Chair]]
 
 Maintain maximum lockdown tension and re-curl the top player's leg by increasing hip extension and driving your knee upward into their inner thigh. Accelerate the Electric Chair setup to achieve full splitting pressure before the defense can fully develop, winning the timing battle.
@@ -210,6 +218,8 @@ Convert the top player's forward defensive pressure into an Old School sweep by 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Straighten Leg Defense from Electric Chair?</p>
 
 ### 1. Passively holding the lockdown without actively re-curling against the straightening force
 
@@ -239,6 +249,8 @@ Convert the top player's forward defensive pressure into an Old School sweep by 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Straighten Leg Defense from Electric Chair?</p>
+
 **Phase 1: Counter Recognition** - Identifying the straighten defense through tactile feedback
 Partner starts in Electric Chair top and practices the straighten leg defense at varying speeds and intensities. Focus solely on recognizing the defense through tactile cues—feeling the leg stiffen, hip engage, and weight shift forward. Build pattern recognition without attempting counter-techniques.
 
@@ -255,23 +267,6 @@ Start in Electric Chair bottom with all grips established. Attack with the full 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is attempting the Straighten Leg Defense?
-**A**: The earliest cue is feeling the top player's glutes and hip extensors engage on the trapped leg side, creating a stiffening resistance through your lockdown hooks that was not present before. This occurs before visible leg straightening and is primarily a tactile sensation through your ankle hooks and lockdown grip. The top player's forward weight shift and widened base of their free leg confirm the defense is being initiated.
-
-**Q2**: Your lockdown is beginning to fail against the straighten defense—what are your best transition options?
-**A**: When the lockdown is failing, your primary options are: convert to Old School sweep using the top player's forward pressure as directional momentum, release one hook and insert a crab ride hook for Truck entry, or use the underhook to dive underneath for Deep Half Guard entry. The worst option is continuing to fight a failing lockdown, as this wastes energy and gives the top player time to consolidate. Choose based on the top player's weight distribution—heavy forward pressure favors the sweep, neutral positioning favors the Truck transition.
-
-**Q3**: How does the top player's crossface pressure affect your ability to maintain the Electric Chair against their straighten defense?
-**A**: Strong crossface pressure prevents you from achieving the perpendicular angle needed for maximum Electric Chair splitting effectiveness. It limits your ability to extend your hips fully and create the splitting action because your upper body is being driven flat to the mat, reducing your mechanical advantage. To counter the crossface, use your underhook to pull yourself toward their far hip, creating the attack angle despite their pressure. If the crossface is too strong to overcome, transition to Deep Half by diving underneath rather than fighting for the angle.
-
-
-
-</section>
 
 
 </main>

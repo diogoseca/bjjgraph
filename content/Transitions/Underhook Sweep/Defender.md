@@ -154,13 +154,15 @@ description: "How to defend against the Underhook Sweep from Half Guard in BJJ. 
 
 Defending the Underhook Sweep from half guard top requires a proactive approach that begins well before the sweep is initiated. The moment the bottom player secures a deep underhook from half guard, the top player is already in a disadvantageous position that demands immediate corrective action. The defensive framework centers on three pillars: preventing the underhook from being established through crossface and shoulder pressure, neutralizing an established underhook through whizzer control and flattening techniques, and countering the sweep attempt itself through base management and weight distribution. The most effective defense is prevention - controlling the upper body battle so the bottom player never achieves the angle and underhook depth required for the sweep. When prevention fails, the defender must recognize the sweep initiation cues early and deploy the appropriate counter based on the specific variation being attempted. Understanding the attacker's mechanical requirements reveals the defensive solution: the sweep requires angle, underhook depth, far-base removal, and coordinated explosive movement. Disrupting any single element collapses the entire chain.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Underhook Sweep?</p>
 
 - Bottom player's inside arm drives deep under your armpit with hand reaching past your centerline toward your far hip or back
 - Bottom player rotates to their side facing you, coming off their back to create approximately 45-degree hip angle to the mat
@@ -175,6 +177,8 @@ Defending the Underhook Sweep from half guard top requires a proactive approach 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Underhook Sweep?</p>
+
 - Win the underhook battle proactively through crossface pressure and shoulder drive before the bottom player can establish the grip
 - Flatten the bottom player to their back using crossface and chest-to-chest pressure to eliminate their angle and mechanical advantage
 - Maintain wide base with far leg posted out to preserve balance when sweep is initiated and provide recovery platform
@@ -188,6 +192,8 @@ Defending the Underhook Sweep from half guard top requires a proactive approach 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Sweep?</p>
 
 ### 1. Establish crossface and flatten bottom player to their back before they secure underhook depth
 
@@ -225,6 +231,8 @@ Defending the Underhook Sweep from half guard top requires a proactive approach 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Sweep?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Establish crossface with forearm across their jaw and drive shoulder pressure forward to flatten them to their back. Once flat, their underhook loses all lifting leverage and their hips cannot generate the angle needed for the sweep. From here, work your half guard passing sequence.
@@ -240,6 +248,8 @@ Apply whizzer control on their underhook arm combined with hip sprawl to neutral
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Sweep?</p>
 
 ### 1. Allowing opponent to secure deep underhook without contesting or immediately countering
 
@@ -274,6 +284,8 @@ Apply whizzer control on their underhook arm combined with hip sprawl to neutral
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Sweep?</p>
+
 **Phase 1: Prevention Drilling** - Crossface establishment and underhook denial from half guard top
 Partner works to establish underhook from half guard bottom while you focus exclusively on preventing underhook depth through crossface pressure, shoulder drive, and underhook fighting. No passing attempts - purely focus on winning the upper body control battle and keeping the bottom player flat on their back. Drill for 30-second rounds with reset.
 
@@ -290,29 +302,6 @@ Positional sparring from half guard with focus on defending the underhook sweep 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most effective early defense against the underhook sweep and why?
-**A**: The most effective early defense is establishing crossface control and flattening the bottom player to their back before they can secure a deep underhook. This works because the underhook sweep requires three mechanical prerequisites: underhook depth past the centerline, body angle on the side at approximately 45 degrees, and far-base control. The crossface eliminates the angle component by driving their head away and forcing them flat, which simultaneously makes the underhook shallow and powerless. Prevention is far more energy-efficient than countering a fully set-up sweep.
-
-**Q2**: Your opponent has a deep underhook and is on their side with angle established - what is your emergency defensive sequence?
-**A**: First, immediately apply whizzer control on their underhook arm by clamping your arm over theirs and driving your forearm downward toward the mat. Second, simultaneously sprawl your hips backward to lower your center of gravity and reduce the effectiveness of their bridge. Third, post your far leg wide to create maximum base width against the sweep direction. Fourth, work to drive their shoulder back to the mat using the whizzer and your body weight to flatten them and remove their angle. The key is addressing all elements simultaneously rather than just one - whizzer alone without sprawl and base adjustment will still result in being swept or giving up the back.
-
-**Q3**: Why is forward weight commitment dangerous when the bottom player has the underhook sweep fully set up?
-**A**: Forward weight commitment is dangerous because it is the exact timing trigger the bottom player is waiting for. The underhook sweep works by redirecting the top player's forward momentum over their fulcrum point (the underhook shoulder). When you drive forward, your center of gravity moves past your base of support in the direction the bottom player wants to sweep you. Your own forward momentum does half their work for them, making the bridge and far-base pull far more effective. The correct response is lateral or backward weight adjustment combined with flattening pressure applied from the side, never from a forward driving position.
-
-**Q4**: How should you adjust your defense when the opponent switches from underhook sweep to old school sweep after your wide base post?
-**A**: When you post your far leg wide to defend the underhook sweep and the opponent begins rolling backward for the old school sweep, immediately shift your weight in the new sweep direction by driving your hips forward and down into the bottom player. Pull your posted leg back toward your body to remove the hook target, and use your whizzer or crossface to prevent their backward roll from completing. The key recognition cue is feeling them pull you backward rather than lifting you forward. You must redirect your defensive base within the first moment of the direction change, as the old school sweep relies on catching you overcommitted to defending the original direction.
-
-**Q5**: What are the three earliest recognition cues that an underhook sweep attempt is being set up from half guard bottom?
-**A**: The three earliest cues are: first, the bottom player's inside arm begins driving deep under your armpit with their hand reaching past your centerline toward your far hip - this is the underhook establishment that enables all sweep mechanics. Second, their body begins rotating from flat on their back to their side, creating the hip angle necessary for diagonal bridging power. Third, their outside hand begins reaching across your body toward your far leg or far posting arm, seeking the far-base control needed to prevent you from posting during the sweep. Recognizing and addressing the first cue (underhook depth) immediately is the highest-percentage defensive approach, as it prevents the second and third elements from ever developing.
-
-
-
-</section>
 
 
 </main>

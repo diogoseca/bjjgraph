@@ -165,6 +165,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Position Definition
 
+<p class="section-subtitle">What is Shin-to-Shin Guard (Bottom)?</p>
+
 - Bottom player's shin maintains perpendicular or diagonal contact across opponent's same-side shin at the lower third of the tibia, creating a biomechanical lever that compromises the opponent's base and provides constant feedback about their weight distribution and movement intentions
 - Bottom player's hips remain mobile and positioned at an angle that allows continuous adjustment of the shin connection pressure and angle, enabling dynamic responses to opponent clearing attempts while maintaining the ability to transition to related guard positions without first disengaging completely
 - Top player stands upright or adopts combat base with weight distributed between both legs, unable to safely pressure forward due to the shin connection that creates immediate off-balancing consequences if they attempt to drive their weight over the guard player's shin barrier
@@ -177,6 +179,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Shin-to-Shin Guard (Bottom)?</p>
 
 - Fundamental understanding of open guard distance management and the concept of using leg frames to control opponent positioning
 - Sufficient hip mobility and core strength to maintain seated or semi-reclined posture while actively managing shin connection
@@ -192,6 +196,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Shin-to-Shin Guard?</p>
+
 - Establish shin connection with proper perpendicular angle and active pressure that constantly threatens opponent's base
 - Maintain dynamic hip positioning that allows continuous angle adjustment and pressure modulation
 - Control opponent's upper body through strategic grips that manage distance and prevent dominant passing grips
@@ -206,6 +212,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Shin-to-Shin Guard (Bottom)?</p>
 
 **If opponent maintains upright standing posture with weight distributed evenly and attempts to control upper body without addressing shin connection:**
 - Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
@@ -229,7 +237,7 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 **If opponent secures strong upper body control with dominant grips and attempts to control posture for passing sequences:**
 - Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
-- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -239,6 +247,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin-to-Shin Guard?</p>
 
 ### 1. Passive shin connection with insufficient pressure and angle adjustment, treating the position as static holding pattern
 
@@ -283,6 +293,8 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Shin-to-Shin Guard defense?</p>
+
 ### Shin-to-Shin Maintenance Against Progressive Passing Pressure
 
 Partner attempts various passing approaches (knee slice, long step, smash, stack) while you maintain shin-to-shin connection and recover position whenever threatened. Partner progressively increases intensity from 30% to 70% resistance. Focus on angle adjustment, pressure maintenance, hip mobility, and recognizing when to transition versus when to maintain. Coach observes connection quality and provides feedback on pressure and angle.
@@ -315,38 +327,6 @@ Partner defends your first sweep attempt using one of several predetermined defe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal placement and angle for the shin connection in shin-to-shin guard?
-**A**: Position your shin across the lower third of the opponent's tibia at approximately 45 degrees perpendicular to their leg. This placement creates maximum leverage for off-balancing while making it mechanically difficult for them to clear without exposing themselves to transitions. Too high (near knee) reduces leverage; too low (near ankle) allows easy clearing; too shallow an angle provides insufficient control over their base.
-
-**Q2**: Your opponent begins circling to their right while attempting to strip your ankle grip—how do you maintain the shin connection?
-**A**: Follow their movement by adjusting your hip angle in the same direction, keeping your shin pressure constant while rotating to match their circle. Simultaneously reinforce your grip or establish a new control point on their leg before the original is stripped. If they continue circling aggressively, this often creates ideal timing for single leg X entry as their weight shifts over the trapped leg.
-
-**Q3**: What are the primary grips you should prioritize from shin-to-shin bottom and why?
-**A**: Prioritize sleeve grip on the same side as your shin connection to prevent them from posting and to assist with off-balancing, combined with either collar grip for posture control or pants/belt grip for distance management. These grips prevent the opponent from achieving dominant passing grips while allowing you to manage distance and set up sweeps. Without upper body control, the shin connection alone is insufficient to prevent being passed.
-
-**Q4**: Your opponent drops their weight and begins driving forward with pressure—what transition should you initiate?
-**A**: Their forward pressure actually creates the ideal setup for butterfly sweep or elevation to X-guard. Use their forward momentum against them by transitioning your shin-to-shin hook to a butterfly hook, then execute the butterfly sweep using their committed weight. Alternatively, if you can get underneath them, use the forward pressure to facilitate X-guard entry by getting your second hook in and elevating.
-
-**Q5**: How do you recognize when shin-to-shin has been neutralized and it's time to transition?
-**A**: Key indicators include: your shin pressure no longer affecting their base, opponent has established dominant upper body grips that control your posture, you cannot generate off-balancing force despite hip adjustment, opponent's weight is no longer threatened by your connection, or they've successfully changed the angle to make your shin contact ineffective. When these occur, immediately flow to single leg X, De La Riva, or butterfly rather than fighting a losing battle.
-
-**Q6**: What role does hip mobility play in maintaining effective shin-to-shin guard?
-**A**: Hip mobility is essential for creating dynamic pressure adjustments, maintaining the shin connection angle as opponents move, generating off-balancing force without relying solely on arm strength, enabling smooth transitions to related guards, and recovering position when partially cleared. Mobile hips allow you to constantly threaten while making your guard an active puzzle rather than a static barrier that can be systematically dismantled.
-
-**Q7**: Your opponent successfully clears your shin and begins their knee slice pass—what is your highest-percentage recovery option?
-**A**: As the shin is cleared during a knee slice, your best option is typically to pummel your inside leg to establish knee shield in their path while simultaneously establishing frames and recovering guard angle. If the knee slice is already past the initial stage, transition to half guard retention or consider using their forward momentum to enter deep half guard. The key is immediate recognition—the sooner you respond, the more options remain available.
-
-**Q8**: How should you manage your free leg (the one not creating the shin connection) to prevent it from being used against you?
-**A**: Keep your free leg active and positioned to serve multiple functions: use it to frame against their hip or shoulder to control distance, post it on the mat for base adjustments and hip mobility, use it to threaten secondary entries like De La Riva or butterfly, and most importantly, keep it moving so they cannot grip it and use it as a handle to break your structure. A static free leg is easily controlled and becomes a liability.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

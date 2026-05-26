@@ -161,6 +161,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Knot (Top)?</p>
+
 - Top player's legs are systematically crossed and woven through opponent's legs, creating multiple points of control and entanglement that restrict bottom player's movement
 - Top player maintains upper body posture with weight distributed forward, preventing opponent from sitting up or establishing upper body frames while controlling distance
 - Bottom player's legs are trapped in crossed configuration with limited ability to extract, rotate hips, or establish defensive positioning due to systematic leg weaving
@@ -174,6 +176,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Knot (Top)?</p>
+
 - Successful entry from outside ashi garami, inside ashi, or saddle position with deliberate leg crossing
 - Opponent's leg trapped and controlled with systematic weaving through top player's legs
 - Top player has established superior position with crossed leg configuration controlling opponent's mobility
@@ -186,6 +190,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Leg Knot?</p>
 
 - Maintain systematic leg crossing with deliberate pressure points that restrict opponent's hip rotation and leg extraction
 - Control distance through upper body posture, preventing opponent from sitting up while maintaining attacking range
@@ -202,6 +208,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Leg Knot (Top)?</p>
+
 **If opponent attempts to extract trapped leg by pulling knee toward chest:**
 - Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
 - Execute **[[Estima Lock Setup/Attacker|Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
@@ -214,7 +222,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 **If opponent rotates hip outward or straightens trapped leg defensively:**
 - Execute **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Leg Entanglement]] (Probability: 50%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Leg Entanglement]] (Probability: 50%)
 
 
 **If opponent maintains defensive posture with flexed knee and protected heel:**
@@ -229,6 +237,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Leg Knot?</p>
 
 ### 1. Forcing heel hook finish before establishing proper breaking mechanics and control
 
@@ -268,6 +278,8 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Leg Knot attacks?</p>
+
 ### Leg Knot Entry Flow Drill
 
 Partner starts in outside ashi or inside ashi position. Practitioner works through systematic leg crossing sequence to establish leg knot configuration, focusing on smooth transitions and maintaining control throughout. Partner provides progressive resistance as practitioner develops entry mechanics. Emphasize deliberate leg weaving and pressure point establishment.
@@ -301,38 +313,6 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins pumping their knee to create space for leg extraction - what adjustment maintains control?
-**A**: Apply increased knee pressure on opponent's trapped thigh while tightening leg crossing configuration. Simultaneously adjust hip angle to close any gaps created by the pumping motion, and consider transitioning to a tighter entanglement like Saddle if space is being created.
-
-**Q2**: What are the essential control points for maintaining Leg Knot Top position?
-**A**: The essential control points are: systematic leg crossing through opponent's legs creating multiple entanglement points, knee pressure on opponent's trapped thigh, upper body posture preventing opponent from sitting up, hip positioning at optimal distance for attacks, and awareness of opponent's free leg to prevent defensive frames.
-
-**Q3**: How do you shut down the opponent's primary escape of sitting up and establishing frames?
-**A**: Maintain forward upper body posture with hands actively blocking or controlling opponent's torso. Keep hips at proper distance so opponent cannot generate leverage to sit up. If they begin sitting up, drive forward with chest pressure while maintaining leg entanglement, or immediately transition to a submission attempt that capitalizes on their compromised posture.
-
-**Q4**: What grip priorities should you maintain from Leg Knot Top?
-**A**: Primary grip priority is controlling the trapped leg's foot and ankle to set up heel hook or toe hold finishes. Secondary priority is controlling opponent's far hip or belt to prevent hip rotation escapes. Tertiary priority is managing opponent's free leg to prevent defensive kicks. In no-gi, focus on controlling the heel, ankle, and using forearm pressure on the thigh.
-
-**Q5**: How should you apply pressure from Leg Knot Top to break down opponent's defense?
-**A**: Apply pressure through multiple vectors: knee pressure on trapped thigh restricts hip mobility, forward weight distribution prevents sitting up, systematic tightening of leg crossing eliminates slack. Create dilemmas by threatening multiple submissions simultaneously - if they defend the heel hook by flexing knee, attack the kneebar; if they extend to escape kneebar, expose the heel.
-
-**Q6**: Your opponent manages to establish a frame with their free leg against your hip - how do you recover control?
-**A**: Circle your hips away from the framing leg while maintaining leg entanglement, removing the leverage point. Use your own hands to clear the frame by pushing the leg down or swimming under it. If the frame is strong, consider transitioning to a different angle or advancing to Saddle position where their frame becomes less effective. Never simply drive into a solid frame as this wastes energy.
-
-**Q7**: What is the proper energy management strategy when controlling Leg Knot Top?
-**A**: Energy management focuses on using positioning rather than strength. Maintain entanglement through proper leg crossing rather than squeezing. Let body weight do the work of controlling distance rather than arm strength. Work submissions methodically with proper mechanics rather than forcing. Rest in controlling position while opponent expends energy escaping. Attack when opponent creates openings through their own movement.
-
-**Q8**: After a failed heel hook attempt, what is the proper recovery sequence to maintain position?
-**A**: Immediately reset leg crossing configuration before opponent can extract. Return hands to controlling opponent's hip and free leg. Re-establish proper distance and upper body posture. Assess what defensive adjustment opponent made and prepare alternative attack (toe hold if they're hiding heel, kneebar if they're flexing knee). The key is never completely abandoning position during attack attempts.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -357,8 +337,8 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and alternative entanglement configuration
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry position for leg knot development
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related advanced leg entanglement with similar control principles
-- **[[Transitions/Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
-- **[[Transitions/Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
+- **[[Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
+- **[[Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
 - **[[Positions/Kneebar Control]]** - Secondary submission option from leg knot configuration
 - **[[Transitions/Ashi Garami Escape]]** - Primary defensive response from bottom position
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option for bottom player

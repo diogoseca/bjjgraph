@@ -162,6 +162,8 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Pin from X-Guard?</p>
+
 - The top player's near-side hand reaches toward your inside hooking knee rather than fighting for upper body grips or controlling your sleeves
 - The top player establishes an upper body anchor with their free hand on your collar, head, or far shoulder, indicating preparation for a committed passing action
 - The top player shifts their weight forward and begins lowering their center of gravity while maintaining contact with your inside hook knee area
@@ -173,6 +175,8 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Pin from X-Guard?</p>
 
 - Maintain active inside hook depth by constantly driving your knee behind the opponent's knee, not passively holding position
 - Use upper body grips to control the opponent's posture and prevent them from freeing their near-side hand for the pin attempt
@@ -187,6 +191,8 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Pin from X-Guard?</p>
 
 ### 1. Re-pummel the inside hook by driving your knee back behind the opponent's knee before the pin is consolidated
 
@@ -224,6 +230,8 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Pin from X-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a hip bump or upper body pull sweep when the top player overcommits weight forward into the pin. Use the moment of their forward commitment to redirect their weight past your centerline, sweeping them into half guard bottom where you achieve the dominant top position.
@@ -239,6 +247,8 @@ Prevent the pin from completing by maintaining active hook depth through constan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Pin from X-Guard?</p>
 
 ### 1. Passively holding the inside hook position instead of actively driving the knee behind the opponent's leg
 
@@ -268,6 +278,8 @@ Prevent the pin from completing by maintaining active hook depth through constan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Pin from X-Guard?</p>
+
 **Phase 1: Recognition** - Identifying knee pin setup cues through tactile and visual awareness
 Partner slowly walks through the knee pin setup from X-Guard top while you practice recognizing the hand reaching for your knee, the weight shift forward, and the upper body anchor establishment. Call out each cue verbally as you detect it. Build automatic recognition speed through 30 repetitions per side.
 
@@ -284,29 +296,6 @@ Partner successfully collapses your inside hook through the knee pin. Practice f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the top player is setting up a knee pin?
-**A**: The earliest cues are the opponent's near-side hand reaching toward your inside hooking knee instead of fighting for upper body position, combined with them establishing a far-hand anchor on your collar or head. Additionally, you will feel a shift in their weight distribution as they prepare to commit bodyweight forward and downward into the pin.
-
-**Q2**: Your inside hook is being driven to the mat - what is your highest-priority defensive action?
-**A**: The highest priority is immediately re-pummeling the inside hook by driving your knee back behind the opponent's knee before they commit full bodyweight into the pin. If the re-pummel is blocked, immediately transition to a sweep attempt using the opponent's forward commitment against them, or flow to Single Leg X-Guard where the compromised hook becomes less critical.
-
-**Q3**: The top player has pinned your knee but has not yet extracted their leg - what sweep opportunity exists?
-**A**: The opponent's forward weight commitment into the pin creates vulnerability to hip bump sweeps and upper body pull sweeps. Because their hands are occupied with the pin and anchor, they have reduced ability to post defensively. Timing an explosive hip elevation or directional pull during this extraction phase can sweep them forward into half guard bottom.
-
-**Q4**: Why is maintaining upper body grip connections essential when defending the knee pin?
-**A**: Upper body grips serve three critical functions during knee pin defense: they disrupt the opponent's posture and balance, making it harder to commit stable bodyweight into the pin; they provide the pulling force needed to execute counter-sweeps when the opponent overcommits; and they prevent the opponent from freely establishing the upper body anchor grip that enables a controlled, committed pin.
-
-**Q5**: What position should you transition to if the knee pin partially succeeds and your inside hook cannot be recovered?
-**A**: Single Leg X-Guard is the highest-percentage transition because it requires only the outside leg frame and ankle control, which remain intact when the inside hook is compromised. Alternatively, Butterfly Guard offers a reset position if you can withdraw both legs and reconfigure hooks before the opponent consolidates their pass. The key is initiating the transition early rather than clinging to a collapsing X-Guard structure.
-
-
-
-</section>
 
 
 </main>

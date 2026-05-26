@@ -166,6 +166,8 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle?</p>
+
 - Attacker shifts shoulder pressure laterally across your face, driving your near-side arm toward your opposite shoulder with sustained cross-face pressure
 - Attacker begins threading their arm underneath your head while maintaining heavy chest-to-chest pressure from High Mount
 - Attacker's head drops down tight against your temple on the trapped arm side, acting as a wedge to prevent arm extraction
@@ -178,6 +180,8 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Triangle?</p>
 
 - Prevent the arm from crossing your centerline by keeping elbows pinched tight to your ribs and hands near your chin at all times in mount bottom
 - If the arm begins crossing, immediately fight to extract it by turning your shoulder inward and pulling your elbow back to your hip before the grip locks
@@ -192,6 +196,8 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle?</p>
 
 ### 1. Extract trapped arm by rotating shoulder inward and pulling elbow to hip before grip connects
 
@@ -229,6 +235,8 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle?</p>
+
 ### → [[Positions/Mount/High Mount]]
 
 Extract your trapped arm before the attacker connects their grip. Rotate your shoulder inward, pull your elbow tight to your hip, and push on the attacker's head with your free hand to create separation. Once the arm is free, immediately return to standard mount defense posture with elbows tight and hands protecting your neck.
@@ -244,6 +252,8 @@ Exploit the dismount transition by bridging explosively when the attacker steps 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle?</p>
 
 ### 1. Pushing the attacker away with extended arms when the arm triangle setup begins
 
@@ -278,6 +288,8 @@ Exploit the dismount transition by bridging explosively when the attacker steps 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner sets up the Arm Triangle slowly from High Mount with no finishing pressure. Practice identifying each recognition cue in sequence: lateral shoulder pressure, arm crossing centerline, head wedge, arm threading, grip connection. Focus on maintaining elbows tight and preventing the arm from crossing in the first place.
 
@@ -294,29 +306,6 @@ Defend the Arm Triangle in live rolling situations with full resistance. Practic
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most effective time to defend the Arm Triangle and why?
-**A**: The most effective defense window is before the arm crosses your centerline. At this stage, keeping elbows tight to your ribs completely eliminates the arm triangle threat because the attacker cannot create the arm-in choke structure. Once the arm crosses, each subsequent stage (grip connection, head wedge, dismount) makes defense progressively harder. Prevention requires less energy and has higher success than any escape.
-
-**Q2**: Your opponent has driven your arm across your face but has not yet connected the grip - what do you do?
-**A**: Immediately rotate your trapped shoulder inward toward your own chest while pulling your elbow back to your hip. Simultaneously push on the attacker's head with your free hand to create separation between their head wedge and your temple. The shoulder rotation is critical because it reverses the direction the attacker is trying to push your arm, and the gap between their head and yours allows the extraction. Speed is essential because once the grip locks, extraction becomes much harder.
-
-**Q3**: Why should you turn into the attacker rather than away when caught in the Arm Triangle?
-**A**: Turning into the attacker reduces the effective choking angle because the arm triangle requires perpendicular pressure across the neck. Facing them collapses this angle and reduces carotid compression. Turning away widens the angle and actually helps the choke tighten. Additionally, turning in creates scramble opportunities and may allow you to come to your knees, while turning away exposes your back.
-
-**Q4**: The attacker begins stepping over to dismount to side control - what is your defensive response?
-**A**: Bridge explosively at a 45-degree angle toward the trapped arm side as the attacker's leg swings over. This targets the exact moment their base is weakest during the weight transfer. Simultaneously frame on their hip with your free hand and shrimp away to create space for inserting your knee. The bridge must be timed precisely with their step-over, not before or after, because their weight is momentarily in transition and most vulnerable to destabilization.
-
-**Q5**: What are the earliest recognition cues that an Arm Triangle is being set up from High Mount?
-**A**: The first cue is sustained lateral shoulder pressure across your face, which is the attacker driving your arm toward your opposite shoulder. The second cue is the attacker's head dropping tight against your temple on one side, establishing the wedge position. The third is feeling their arm threading under your neck. Recognizing the shoulder pressure cue gives you the earliest and most effective defense window before any choke structure exists.
-
-
-
-</section>
 
 
 </main>

@@ -338,16 +338,17 @@ The Lachlan Giles framework emphasizes progressive resistance drilling that buil
 - [[Inside Ashi Entry]] (Transition) - High-danger entry pattern requiring specific prevention strategies
 - [[Ashi Entry from Leg Entanglement]] (Transition) - Common transition pathway creating leg entanglement opportunities that must be recognized and defended
 - [[Knee Slice Pass]] (Transition) - Passing technique that can expose legs to entanglement if performed without proper defense awareness
-- [[Defensive Strategy]] (Principle) - Overarching strategic framework that informs all defensive decision-making
+- [[Defensive Concepts]] (Principle) - Overarching defensive concepts that inform all defensive decision-making in leg lock scenarios
 - [[Submission Defense]] (Principle) - General defensive principles that apply specifically to leg lock scenarios
 - [[Leg Entanglement]] (Principle) - Core concept underlying understanding of how legs become trapped and controlled
-- [[Frame Creation]] (Principle) - Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways
-- [[Guard Retention]] (Principle) - Integration of guard retention principles with leg entanglement prevention strategies
+- [[Frames]] (Principle) - Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways
+- [[Escape Fundamentals]] (Principle) - Foundational escape principles including systematic prioritization of escape options based on position danger level
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional escape before attempting counter-attacks
-- [[Escape Hierarchy]] (Principle) - Systematic approach to prioritizing escape options based on position danger level
+- [[Positional Hierarchy]] (Principle) - Understanding of position danger levels that maps directly to leg entanglement risk assessment
 - [[Danaher Leg Lock System]] (System) - Primary offensive system this framework was developed to defend against
 - [[Craig Jones Leg Lock System]] (System) - Modern offensive leg lock approach requiring specific defensive adaptations
 - [[Defensive Prioritization Framework]] (System) - Broader defensive system that leg lock defense integrates within
+- [[Caio Terra Guard Retention System]] (System) - Guard retention system whose principles integrate with leg entanglement prevention strategies
 - [[Heel Hook]] (Submission) - Primary submission threat this defensive system addresses
 - [[Inside Heel Hook]] (Submission) - Specific heel hook variation from saddle and inside sankaku positions
 - [[Outside Heel Hook]] (Submission) - Heel hook variation requiring different defensive mechanics than inside variation

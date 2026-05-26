@@ -15,7 +15,7 @@
   "from_position": "Buggy Choke/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Buggy Choke",
       "probability": 58,
       "result": "success"
     },
@@ -209,7 +209,7 @@
         "description": "Full resistance positional sparring starting from buggy choke control. Top player attempts finish or positional advancement while bottom player uses complete defensive arsenal. Score based on submissions, escapes, and positional transitions. Develop finishing instincts under realistic competition pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Finish Buggy Choke?",
         "answer": "The primary goal is to complete the strangulation by compressing both carotid arteries using progressive collar pressure and body mechanics, forcing the opponent to tap or rendering them unconscious. This represents the final phase of the buggy choke attack sequence."
@@ -339,7 +339,7 @@
         "correction": "React immediately to the recognition cues of finishing commitment - body weight drop, wrist-on-neck contact, perpendicular angle establishment. Defend proactively, not reactively to symptoms."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important grip to address when defending the Finish Buggy Choke?",
         "answer": "The primary threading arm with the palm-up collar grip is the mechanical core of the entire choke. Even without the secondary grip, this arm maintains choking capability through radius bone pressure on the carotid. Use two-on-one grip fighting to strip this wrist from your collar rather than fighting the secondary supporting grip."

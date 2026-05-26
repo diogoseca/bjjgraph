@@ -244,7 +244,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Flattened Half Guard",
         "attempt_probability": 5
       },
       {
@@ -260,7 +260,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important control point to maintain when playing flattened half guard top?",
         "answer": "The crossface is the highest priority control point. It turns your opponent's head away from the action, creates a pressure point that multiplies your body weight's effect, and prevents them from using their near-side arm for framing. Losing the crossface opens multiple defensive pathways and allows frame recovery."
@@ -411,7 +411,7 @@
         "duration": "3 minutes"
       },
       {
-        "name": "Incremental Space Creation",
+        "name": "Incremental Distance Control",
         "description": "Start flattened with partner applying 50% pressure. Create space through tiny hip escapes, immediately filling space with elbow or knee. Count repetitions needed to recover knee shield. Gradually increase partner's pressure resistance.",
         "duration": "5 minutes"
       },
@@ -516,7 +516,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct breathing technique when pinned flat under heavy chest pressure?",
         "answer": "Practice tactical breathing by taking small, controlled breaths timed with your movements rather than attempting full deep breaths. The opponent's weight prevents full diaphragm expansion, so trying to breathe deeply creates oxygen debt and triggers panic. Small breaths coordinated with hip escapes allow you to maintain oxygenation while conserving energy."

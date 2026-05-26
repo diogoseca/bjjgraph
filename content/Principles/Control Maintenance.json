@@ -35,7 +35,7 @@
       "description": "The practice of maintaining and strengthening multiple contact points with opponent's body, redistributing connections when one is threatened, and establishing new control points preemptively before old ones are broken. Skilled practitioners maintain 3-5 simultaneous connections."
     },
     {
-      "skill_name": "Weight Distribution Management",
+      "skill_name": "Center of Gravity Management",
       "description": "The technical ability to position body weight optimally across opponent's frame, preventing specific escape movements while maintaining mobility for position adjustment. This involves understanding which body areas to weight heavily versus lightly based on opponent's escape vectors."
     },
     {
@@ -47,7 +47,7 @@
       "description": "The foundational skill of maintaining stable base and optimal posture while applying control pressure, preventing opponent from using practitioner's own imbalance as escape opportunity. This requires coordination between pressure application and structural stability."
     },
     {
-      "skill_name": "Grip Fighting and Hand Fighting",
+      "skill_name": "Grips and Hand Fighting",
       "description": "The tactical skill of controlling opponent's hands and establishing dominant grips while preventing opponent from securing grips that enable escape mechanics. This component is especially critical in gi training where fabric grips dramatically affect control effectiveness."
     },
     {
@@ -66,17 +66,17 @@
       "description": "Understanding which body areas provide highest-value control is prerequisite to effective control maintenance, as practitioners must know what connections to prioritize when forced to choose during opponent's escape attempts."
     },
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Complementary",
       "description": "Pressure application provides the mechanical means through which control maintenance is achieved, with both concepts working synergistically to prevent opponent movement and escape."
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Stable base is fundamental requirement for control maintenance, as practitioners cannot effectively maintain dominant position while defending their own structural stability from opponent's attacks."
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
       "description": "Optimal weight distribution enables effective control maintenance by preventing specific escape pathways while maintaining practitioner's mobility and structural integrity."
     },
@@ -86,9 +86,9 @@
       "description": "Control maintenance is practical application of position-over-submission philosophy, providing specific technical framework for prioritizing positional security before offensive attempts."
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Alternative",
-      "description": "From bottom position perspective, frame management represents opponent's primary tool against control maintenance, creating conceptual opposition where top player's control maintenance competes against bottom player's frame creation."
+      "description": "From bottom position perspective, frame creation represents opponent's primary tool against control maintenance, creating conceptual opposition where top player's control maintenance competes against bottom player's structural barriers and space generation."
     },
     {
       "principle_name": "Connection Principles",
@@ -101,14 +101,14 @@
       "description": "Shoulder pressure represents specific application of control maintenance principles in positions like side control where shoulder-based pressure prevents hip escape mechanics."
     },
     {
-      "principle_name": "Head Control",
+      "principle_name": "Head Position",
       "relationship_type": "Extension",
       "description": "Head control serves as high-value control point within control maintenance framework, often representing the primary connection that enables all other control mechanisms."
     },
     {
-      "principle_name": "Defensive Framing",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Alternative",
-      "description": "Defensive framing represents the bottom player's systematic approach to defeating control maintenance through space creation and structural barriers."
+      "description": "Defensive concepts represent the bottom player's systematic approach to defeating control maintenance through escape sequencing, space creation, and positional recovery."
     }
   ],
   "application_contexts": [
@@ -145,8 +145,8 @@
       "how_applied": "Control maintenance from turtle top position requires preventing opponent's stand-up or guard recovery through strategic weight distribution, establishing seatbelt or harness controls, and continuously adjusting to counter opponent's turning and scrambling attempts."
     },
     {
-      "context": "Mount Control",
-      "how_applied": "Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while S-mount prioritizes arm isolation and high mount focuses on shoulder pressure and posture control."
+      "context": "High Mount",
+      "how_applied": "Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while high mount prioritizes arm isolation, shoulder pressure, and posture control to set up collar chokes and armbars."
     },
     {
       "context": "Crucifix",
@@ -169,8 +169,8 @@
       "how_applied": "Ashi garami control maintenance requires precise leg positioning that prevents opponent's leg extraction, combined with upper body control that prevents postural recovery, while maintaining connection points that enable both control and submission opportunities."
     },
     {
-      "context": "Side Control Consolidation",
-      "how_applied": "Side control consolidation represents systematic application of control maintenance principles to secure side control before attempting transitions or submissions, emphasizing connection establishment and escape prevention over offensive actions."
+      "context": "Kesa Gatame",
+      "how_applied": "Kesa gatame control maintenance represents systematic application of head and arm control with hip-based weight distribution, emphasizing connection establishment and escape prevention through chest pressure and arm entrapment over offensive actions."
     }
   ],
   "decision_framework": [
@@ -338,17 +338,17 @@
       "relationship": "Prerequisite concept defining which connections to prioritize during control maintenance"
     },
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Complementary concept providing mechanical means for achieving control maintenance"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Prerequisite concept ensuring structural stability necessary for effective control"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Component skill enabling optimal pressure application and movement prevention"
     },
@@ -358,7 +358,7 @@
       "relationship": "Strategic philosophy that control maintenance practically implements"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Opposing concept from bottom position perspective against control maintenance"
     },

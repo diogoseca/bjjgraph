@@ -146,6 +146,8 @@ As the top player in side control, defending against the sit-out requires recogn
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sit Out from Side Control?</p>
+
 - Bottom player establishes a strong forearm frame specifically against your hip and begins generating focused pushing pressure to create space at their hips
 - Bottom player turns to their side and attempts to insert their near-side knee underneath their body to build a turtle-like base position
 - Bottom player plants a hand firmly on the mat with fingers pointing away from you, indicating they are establishing a pivot point for rotational movement
@@ -158,6 +160,8 @@ As the top player in side control, defending against the sit-out requires recogn
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sit Out from Side Control?</p>
 
 - Maintain hip-to-hip pressure to prevent the bottom player from creating the space needed to insert a knee and build base for the sit-out
 - Keep heavy crossface pressure across the opponent's face and neck to block the rotation path and limit their ability to turn toward turtle
@@ -172,6 +176,8 @@ As the top player in side control, defending against the sit-out requires recogn
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sit Out from Side Control?</p>
 
 ### 1. Sprawl and re-establish crossface pressure to flatten opponent before they complete base building
 
@@ -209,6 +215,8 @@ As the top player in side control, defending against the sit-out requires recogn
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sit Out from Side Control?</p>
+
 ### → [[Positions/Back Control]]
 
 When the opponent reaches turtle during their sit-out attempt, immediately secure a seatbelt grip with your over-arm across their chest and under-arm beneath their far armpit. Drive your chest into their upper back and begin inserting your near hook. The sit-out requires passing through this vulnerable turtle window, and reacting within the first second of their base-building gives you the highest percentage back take opportunity.
@@ -224,6 +232,8 @@ Maintain heavy hip-to-hip pressure throughout by keeping your hips low and spraw
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sit Out from Side Control?</p>
 
 ### 1. Allowing space to develop at the hips by positioning weight too high on the opponent's chest
 
@@ -253,6 +263,8 @@ Maintain heavy hip-to-hip pressure throughout by keeping your hips low and spraw
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sit Out from Side Control?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sit-out attempt indicators
 Partner performs the sit-out at 30% speed while you practice identifying the entry cues including framing against the hip, knee insertion, and hand posting. Call out each phase as you recognize it without attempting to counter, building pattern recognition for this specific escape.
 
@@ -269,23 +281,6 @@ Practice deliberately easing hip pressure slightly to invite the sit-out, then c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable early indicator that your opponent is about to attempt a sit-out from side control bottom?
-**A**: The most reliable indicator is the opponent creating a strong pushing frame specifically against your hip with their near-side forearm while simultaneously attempting to generate space at their own hips. This frame creates the separation they need to insert a knee and build base, which is the required precursor to any sit-out. When you feel this combination of hip-directed frame pressure and the opponent turning to their side, the sit-out is imminent. Secondary indicators include planting a hand firmly on the mat with fingers pointing away from you.
-
-**Q2**: Your opponent has reached turtle during a sit-out attempt - should you try to flatten them back to side control or attack the back?
-**A**: Attack the back immediately. Once the opponent has established a structural base in turtle with arms and knees supporting their weight, attempting to re-flatten them requires significant energy and has low success rate because the turtle structure resists downward pressure effectively. Instead, immediately establish a seatbelt grip with your chest driving into their upper back and begin inserting hooks. The turtle position that precedes the sit-out is exactly where back takes are highest percentage, and the opponent must pass through this vulnerable window to complete their escape.
-
-**Q3**: How should you adjust your side control positioning when you recognize your opponent relies on wrestling-based escapes like the sit-out?
-**A**: Preemptively address the sit-out by maintaining lower and heavier hip-to-hip contact than you would against a purely BJJ shrimping escape game. Keep your near-side hand actively controlling their far hip rather than focusing solely on head control, which directly blocks the knee insertion that precedes every sit-out. Position your hips slightly behind theirs rather than directly on top to remove the space needed for base building. Additionally, be prepared to immediately transition to back control if they reach turtle, because wrestling-trained opponents execute the sit-out rotation faster than you can re-flatten them.
-
-
-
-</section>
 
 
 </main>

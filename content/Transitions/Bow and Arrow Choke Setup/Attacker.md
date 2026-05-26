@@ -186,6 +186,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bow and Arrow Choke Setup?</p>
+
 - Maintain Gift Wrap arm control throughout the collar grip establishment phase to prevent defensive hand fighting
 - Secure collar grip depth before initiating hip transition - shallow grips will fail under finishing pressure
 - Use the trapped arm as an anchor preventing opponent from creating defensive frames or turning toward you
@@ -201,6 +203,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bow and Arrow Choke Setup?</p>
+
 - Gift Wrap control established with opponent's arm trapped high across their chest toward opposite shoulder
 - Back control fundamentals maintained with at least one hook secured or body positioning preventing hip escape
 - Opponent's gi collar accessible for deep four-finger grip on the choking side
@@ -214,6 +218,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bow and Arrow Choke Setup step by step?</p>
 
 1. **Consolidate Gift Wrap control**: Ensure the Gift Wrap arm trap is secure with the opponent's arm pulled high across their chest toward the opposite shoulder. Your threading arm should be controlling their wrist or forearm firmly. Verify your hooks or body control are preventing hip movement. This foundation must be solid before initiating the collar grip transition.
 2. **Establish collar grip with free hand**: While maintaining the Gift Wrap control with one arm, use your other hand to reach across and secure a deep four-finger grip inside the opponent's collar on the choking side. Your thumb stays outside while fingers penetrate as deep as possible toward the back of their neck. The Gift Wrap prevents them from hand fighting this grip establishment.
@@ -242,6 +248,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bow and Arrow Choke Setup?</p>
+
 - **Opponent fights to extract trapped arm during collar grip establishment** (Effectiveness: High) - Your Response: Maintain Gift Wrap pressure until collar grip is fully secured. If they begin recovering the arm, accelerate your collar grip depth and immediately start hip transition. The collar grip becomes your primary control replacing the arm trap. → Leads to [[Positions/Gift Wrap]]
 - **Opponent turns toward you aggressively during hip rotation** (Effectiveness: Medium) - Your Response: Use their turning momentum to accelerate your perpendicular angle. Tighten collar grip and use your hooks to follow their rotation. Their turn often assists rather than hinders the bow and arrow position establishment. → Leads to [[Positions/Back Control]]
 - **Opponent strips or prevents collar grip establishment with free hand** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control and wait for better opportunity. Attack the rear naked choke to occupy their free hand, then return to collar grip when they defend the RNC. The Gift Wrap gives you time to cycle between attack threats. → Leads to [[Positions/Gift Wrap]]
@@ -253,6 +261,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bow and Arrow Choke Setup?</p>
 
 ### 1. Releasing Gift Wrap control before collar grip is secured
 
@@ -292,6 +302,8 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bow and Arrow Choke Setup (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice collar grip establishment from Gift Wrap on a compliant partner. Focus on achieving maximum depth with four fingers. Drill the grip transfer from Gift Wrap arm control to collar control 20-30 times per session. No resistance, pure technical repetition.
 
@@ -309,54 +321,12 @@ Integrate the setup into regular rolling from Gift Wrap position. Chain with oth
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Bow and Arrow Choke Setup from Gift Wrap?
-**A**: The primary goal is to transition from Gift Wrap arm control dominance to collar grip dominance while establishing the perpendicular hip angle required for the Bow and Arrow Choke finish. The setup converts positional control advantage into submission threat by securing the deep collar grip while the opponent's defensive capability is compromised by the trapped arm.
-
-**Q2**: Why must the Gift Wrap arm control be maintained during the collar grip establishment phase?
-**A**: The Gift Wrap removes half of the opponent's defensive capability by trapping one arm. This prevents them from effectively hand fighting the collar grip as you establish it. Releasing the Gift Wrap prematurely restores their full defensive capability, turning the collar grip attempt into a 50/50 hand fight rather than a dominant position transition. The trapped arm creates the window for secure grip establishment.
-
-**Q3**: Your opponent begins extracting their trapped arm just as you secure the collar grip - how do you respond?
-**A**: Accelerate your hip transition immediately. The collar grip is now your primary control, so use it to prevent their defensive recovery. Begin rotating to perpendicular angle while pulling the collar tight. Their arm recovery attempt often creates momentum you can use to speed your transition. Do not try to re-establish the Gift Wrap - commit to the collar-based control instead.
-
-**Q4**: What collar grip depth is required before initiating the hip transition?
-**A**: Your four fingers must penetrate deep inside the collar with knuckles positioned near the back of the opponent's neck. This depth ensures the grip won't slip during the dynamic hip rotation. A shallow grip at the collar edge will pull out under the pressure of transition, requiring a reset and giving the opponent defensive recovery time. Test the grip by pulling firmly before committing to hip movement.
-
-**Q5**: How does the perpendicular hip angle contribute to the Bow and Arrow finish?
-**A**: The approximately 90-degree angle between your spine and the opponent's spine creates the mechanical framework for the 'bow' shape. This perpendicular position allows your legs to extend in opposing directions while your torso arches, generating tremendous leverage through the collar grip. Without this angle, you cannot create the bow tension that multiplies choking pressure. The setup must achieve this angle to enable the finish.
-
-**Q6**: Your opponent turns aggressively toward you during the hip transition - is this a problem or an opportunity?
-**A**: This is typically an opportunity. Their turning momentum often assists your perpendicular angle establishment. Rather than fighting the turn, follow it while tightening your collar grip and using hooks to control the rotation. Their defensive movement can accelerate your position achievement. However, you must maintain chest contact with their head to prevent them from completing a full turn that would lead to guard recovery.
-
-**Q7**: What hook management is critical during the Gift Wrap to Bow and Arrow transition?
-**A**: Maintain at least your top hook engaged throughout the entire transition. The hooks prevent the opponent from escaping back control during the vulnerable grip transfer phase. Your bottom hook can be more flexible as hips rotate, but losing both hooks during transition allows complete position escape. Use hooks to follow rotational defense and absorb bridging attempts while collar grip is established.
-
-**Q8**: When should you abandon the Bow and Arrow Setup and choose an alternative attack?
-**A**: Abandon the setup when the opponent successfully recovers their trapped arm and establishes active two-handed defense before you secure the collar grip. Also abandon if you cannot achieve collar depth after multiple attempts - a shallow grip will not finish. Alternative options include returning to rear naked choke attack, transitioning to armbar on the now-free arm, or advancing to crucifix if they expose positioning. The Gift Wrap position provides time to assess and select the highest-percentage option.
-
-**Q9**: How do you prevent the collar grip from slipping during hip transition?
-**A**: Establish grip depth with knuckles near the back of the neck before moving. Pull the collar tight toward your body to remove slack. During hip rotation, maintain constant pulling pressure on the grip rather than relaxing it. Keep your elbow close to their neck throughout transition. If you feel the grip loosening, pause hip movement and re-secure depth before continuing. The grip must withstand the dynamic forces of transition.
-
-**Q10**: Your opponent defends by flattening belly-down during your hip transition - what is your best response?
-**A**: The belly-down position actually improves your bow and arrow angle in many cases. Continue establishing perpendicular position while they flatten. Your collar grip and leg control create the same finishing mechanics whether they're on their side or belly-down. Alternatively, their flattening creates an excellent clock choke opportunity using the same collar grip you've established. Do not release the grip - both finishes remain available from their defensive posture.
-
-**Q11**: What is the relationship between chest-to-head contact and escape prevention?
-**A**: Your chest pressed against the back of the opponent's head prevents them from rotating to face you. Head rotation is the primary mechanism for building defensive frames and initiating guard recovery. By controlling head position with chest pressure, you eliminate the angle changes that enable escape. This control must be maintained throughout the entire transition - releasing chest contact even briefly creates rotation opportunities the opponent will exploit.
-
-**Q12**: How does the Bow and Arrow Setup chain with rear naked choke attacks from Gift Wrap?
-**A**: The attacks create a submission dilemma. When threatening the rear naked choke, opponents defend by hand fighting the choking arm and tucking their chin. This defense exposes the collar for Bow and Arrow grip establishment. Conversely, when you threaten the Bow and Arrow by securing collar grip, opponents often commit both hands to stripping it, exposing their neck for RNC. Cycling between these threats exhausts defensive capacity and eventually creates a finishing opportunity on one or the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bow and Arrow Choke Setup?</p>
 
 The Bow and Arrow Choke Setup itself carries minimal injury risk as it is a positional transition rather than a submission application. However, practitioners should be aware that the deep collar grip can create discomfort if jerked or applied roughly. Always establish collar grip smoothly without yanking. During training, communicate with your partner when transitioning to ensure they can adapt their defense safely. The subsequent Bow and Arrow Choke finish carries significant blood choke danger and requires progressive pressure application over 3-5 seconds minimum. Never train the full finish at competition speed. If transitioning to the choke, release immediately upon any tap signal.
 

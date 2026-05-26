@@ -188,6 +188,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Leg Hook?</p>
+
 - Establish dominant upper body control (crossface or underhook) before attempting any leg repositioning to prevent sweeps during the weight shift
 - Drive heavy shoulder pressure forward during hook insertion to pin the bottom player's upper body and prevent them from reacting to the leg movement
 - Use the hook as a wedge to separate the bottom player's knees rather than trying to extract the entire leg from the entanglement
@@ -202,6 +204,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Leg Hook?</p>
+
 - Crossface or underhook control established on the bottom player to limit their upper body mobility and prevent them from sitting up during the transition
 - Bottom player's knee shield cleared or neutralized so the path for hook insertion is open without obstruction
 - Sufficient angle created relative to bottom player's body (approximately 45 degrees) to allow mechanical advantage during hook threading
@@ -214,6 +218,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Leg Hook step by step?</p>
 
 1. **Establish Upper Body Dominance**: Secure a strong crossface with your near-side arm, driving your shoulder into the bottom player's jaw line to turn their head away. Your far-side hand controls their far hip or underhooks to prevent them from creating angles. Your chest pressure should pin their upper body to the mat, limiting their ability to establish defensive frames or sit up.
 2. **Neutralize Knee Shield**: If the bottom player has a knee shield, use your far-side hand to push their top knee toward the mat while driving your hip weight forward. Alternatively, backstep slightly to create the angle needed to collapse their shield. The knee shield must be cleared before hook insertion, as attempting to hook against an active shield will stall the transition and allow guard recovery.
@@ -243,6 +249,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Leg Hook?</p>
+
 - **Bottom player hip escapes and recovers knee shield during hook insertion attempt** (Effectiveness: High) - Your Response: Increase forward pressure and re-establish crossface control before reattempting. Consider switching to a direct knee slice if the bottom player consistently recovers their shield during hook attempts. → Leads to [[Positions/Half Guard]]
 - **Bottom player ducks underneath during weight shift and enters deep half guard** (Effectiveness: High) - Your Response: Sprawl hips back immediately and whizzer the near-side arm. If they complete the deep half entry, you must address the deep half position before reattempting the hook. Keep hips low throughout the insertion to prevent this counter. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Bottom player bridges and attempts to sweep during the leg repositioning phase** (Effectiveness: Medium) - Your Response: Post the free leg wide and drive chest weight down onto their upper body. The bridge is only effective if you have lifted your weight during insertion. Maintain low hips and heavy pressure to absorb the bridge force. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Leg Hook?</p>
 
 ### 1. Attempting hook insertion before establishing upper body control
 
@@ -293,6 +303,8 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Leg Hook (Attacker)?</p>
+
 **Phase 1: Isolated Hook Mechanics** - Hook insertion movement pattern
 Practice the hook insertion motion solo and with a compliant partner. Focus on hip rotation mechanics, foot path, and maintaining upper body pressure throughout. Drill the circular foot motion 20 repetitions per side, building muscle memory for the compact insertion path.
 
@@ -310,42 +322,12 @@ Full resistance positional sparring starting from half guard top. Chain the hook
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must upper body control be established before attempting the hook insertion?
-**A**: The hook insertion requires a brief weight shift that creates a vulnerability window. Without established crossface or underhook control, the bottom player can exploit this weight shift to sweep, recover full guard, or take the back. Upper body dominance pins the bottom player and limits their ability to react to the leg repositioning. The crossface specifically turns their head away, reducing their awareness of the hook insertion and slowing their defensive response.
-
-**Q2**: What hip movement pattern creates the most effective hook insertion?
-**A**: Hip rotation rather than hip elevation produces the most effective hook insertion. The foot should travel in a compact circular path, curling inward underneath the bottom player's knee through rotation of the hip joint. Lifting the hips to create space for the foot is a common error that exposes you to deep half entries and butterfly hook insertions. The rotation keeps your hips low and maintains forward pressure throughout the insertion.
-
-**Q3**: Your opponent establishes a strong knee shield as you begin the hook insertion. How do you adjust?
-**A**: Stop the hook insertion attempt and address the knee shield first. Use your far-side hand to push their top knee toward the mat while driving shoulder pressure forward, or switch to a long step approach to collapse the shield from the outside. Attempting to force the hook against an active knee shield will fail and waste positional advantage. Once the shield is cleared, restart the hook insertion sequence from the beginning.
-
-**Q4**: What are the three points of contact that create stable base during the transition?
-**A**: The three points are: the hooked leg providing lower body control and forward drive, the posted free leg with foot planted on the mat providing lateral stability and sweep resistance, and the upper body pressure through chest and shoulder maintaining top control and pinning the bottom player. Weight must be distributed dynamically across all three points, shifting emphasis based on the bottom player's reactions to maintain control throughout.
-
-**Q5**: How does the bottom player most commonly counter the hook insertion, and what is the optimal prevention?
-**A**: The most common high-percentage counter is ducking underneath during the weight shift to enter deep half guard. The bottom player uses the momentary space created during hook threading to swim their head under your body and establish deep half control. Prevention requires keeping hips low throughout insertion, maintaining heavy forward chest pressure, and using hip rotation rather than elevation for the hook motion. If you feel them beginning to duck, immediately sprawl your hips back and drive your weight down.
-
-**Q6**: Why should you treat the Leg Hook position as transitional rather than a destination?
-**A**: The Leg Hook position is mechanically unstable for long-term control because the bottom player retains enough mobility to develop counters over time, including frame establishment, deep half entries, and lockdown re-entanglement. The position's value lies in the temporary control advantage it provides for completing a specific guard pass. Settling into it without a clear passing plan gives the bottom player time to adapt, negating the positional advantage you worked to establish.
-
-**Q7**: Your opponent bridges hard during the weight shift phase of the insertion. What is your immediate response?
-**A**: Post the free leg wide immediately and drive your chest weight down onto their sternum or shoulder. The bridge requires space underneath your body to be effective, so eliminating that space by driving weight down absorbs the force. Do not attempt to balance on your knees or hands, as this elevates your center of gravity. If the bridge creates significant displacement, abandon the hook attempt, re-establish half guard top control with crossface, and restart the sequence once stability is restored.
-
-**Q8**: What grip or control should your far-side hand maintain during the hook insertion?
-**A**: The far-side hand should control the bottom player's far hip, gripping the hip bone or belt line to prevent hip escape during the hook insertion. This hip control is critical because it tethers the bottom player in place while your leg repositions. Without this grip, the bottom player can shrimp away from the hook, re-establish distance, and recover their guard structure. Some practitioners alternatively use an underhook with the far arm, but hip control is more reliable for preventing the specific escapes available during hook insertion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Leg Hook?</p>
 
 This transition involves controlled weight distribution and leg repositioning without significant joint stress or compression risk. The primary safety concern is maintaining awareness of your partner's neck and spine during the crossface application; avoid driving crossface pressure directly into the throat. During training, ensure gradual weight application during the consolidation phase to prevent rib compression injuries. Communicate with your partner about pressure tolerance and avoid explosive movements during the hook insertion that could torque the knee of either practitioner.
 

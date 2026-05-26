@@ -164,6 +164,8 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack from Chill Dog?</p>
+
 - Increased weight and pressure through your upper back between the shoulder blades, noticeably heavier than standard turtle top control
 - Opponent's feet begin walking forward behind you, creating incrementally increasing forward pressure that shifts your weight onto your hands
 - Your hands and wrists begin bearing significantly more weight than normal, with your knees becoming lighter as your center of gravity shifts forward
@@ -176,6 +178,8 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack from Chill Dog?</p>
 
 - Recognize stacking pressure early through the sensation of weight shifting forward onto your hands and wrists before the stack builds to full intensity
 - Resist the urge to fight the pressure head-on with muscular effort, which drains energy rapidly and delays your escape
@@ -190,6 +194,8 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack from Chill Dog?</p>
 
 ### 1. Execute Granby roll using the opponent's forward pressure as momentum for the inversion
 
@@ -227,6 +233,8 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack from Chill Dog?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time a Granby roll or sit-through escape when the opponent's weight is most committed forward during the stack. Use their forward momentum to accelerate your inversion or hip turn, recovering to closed guard where you have full offensive capability. The key is initiating the escape before your frame breaks completely, while you still have structural integrity to generate the movement.
@@ -242,6 +250,8 @@ Resist the stack through widened base posting or explosive backward hip drive ea
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack from Chill Dog?</p>
 
 ### 1. Trying to resist the stacking pressure through muscular effort by pushing back against the opponent's chest drive
 
@@ -271,6 +281,8 @@ Resist the stack through widened base posting or explosive backward hip drive ea
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack from Chill Dog?</p>
+
 **Phase 1: Pressure Familiarization** - Learning to feel and identify stacking pressure versus standard turtle pressure
 Partner applies various types of top turtle pressure including standard back control attempts, front headlock setups, and stacking sequences. Defender identifies which type of pressure is being applied through tactile awareness alone with eyes closed. Builds the sensory vocabulary needed for early recognition of the stack.
 
@@ -287,29 +299,6 @@ Partner attempts the stack at full competition intensity. Defender scores for su
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a stack is being initiated rather than standard turtle top pressure?
-**A**: The earliest cues are the opponent walking their feet forward behind you and a progressive shift of weight onto your hands and wrists. Standard turtle top pressure is relatively static, but stacking pressure involves incrementally increasing forward loading that you can feel through your wrist and hand contact with the mat. If your hands start bearing noticeably more weight than your knees, a stack is being built. Recognizing this early gives you the widest window for escape.
-
-**Q2**: Why should you escape preemptively rather than waiting until the frame is about to break?
-**A**: Waiting until the frame is about to break means your structural integrity is already compromised. Escape techniques like the Granby roll and sit-through require you to generate explosive rotational or turning movement, which demands intact structural positioning as a launch platform. Once your elbows have separated from your knees and your weight is loaded forward past your hands, you lack the mechanical base to generate the movement needed for these escapes. Early escape uses your intact frame as a springboard.
-
-**Q3**: You feel the opponent's chest pressure increasing on your upper back and your hands are bearing more weight - which escape do you choose and why?
-**A**: If the opponent's weight is heavily forward, the Granby roll is the highest-percentage escape because their forward commitment provides momentum for your inversion. Their base is weakest backward, so rolling under them exploits the direction they cannot easily recover. However, if you feel space on one side where the opponent's pressure is lighter, a sit-through to that side may be faster and more direct. The choice depends on which direction the opponent's weight is least supported.
-
-**Q4**: What is the risk of widening your base to resist the stack, and when is it appropriate?
-**A**: Widening your base breaks the elbow-to-knee connection that is the foundation of Chill Dog defense. This opens you to hook insertion for back takes, arm isolation for crucifix, and harness grip establishment. The trade-off is temporary resistance to the stack at the cost of exposing yourself to other attacks. It is appropriate only as a brief transitional measure while you set up a more decisive escape, not as a sustained defensive strategy. Use it to buy two to three seconds, then immediately execute your escape.
-
-**Q5**: How do you use the opponent's forward commitment during the stack to power your Granby roll escape?
-**A**: The opponent's forward weight commitment during the stack means their momentum is already moving in the direction of your Granby roll. Instead of generating all the rotational force yourself, you tuck your inside shoulder, turn your head away, and use the opponent's forward pressure as an accelerant for the inversion. Their body weight, which was working against you as stacking force, now drives the roll forward. The key timing is initiating the roll just as you feel their maximum forward commitment, when their base is weakest in the backward direction.
-
-
-
-</section>
 
 
 </main>

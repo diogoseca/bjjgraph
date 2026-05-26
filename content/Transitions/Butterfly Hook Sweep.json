@@ -85,7 +85,7 @@
       "relationship": "Transition alternative when opponent stands to escape butterfly hooks"
     },
     {
-      "name": "Guillotine from Butterfly Guard",
+      "name": "Guillotine Setup",
       "relationship": "Submission threat available when opponent's head drops during sweep defense"
     },
     {
@@ -238,7 +238,7 @@
         "description": "Positional sparring starting in butterfly hook control with full resistance. Attacker works to sweep while defender works to pass. Track success rate over rounds and identify which defensive patterns require additional drilling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the butterfly hook sweep?",
         "answer": "The optimal window opens when your opponent shifts weight forward over your hooks, typically as they reach for grips or attempt to establish an underhook. At this moment their center of gravity sits forward of their base, and hook elevation combined with grip pull creates maximum off-balancing force with minimal effort. Initiating before they load forward means you fight against backward-seated weight, dramatically reducing success probability."
@@ -368,7 +368,7 @@
         "correction": "Post with a bent arm keeping your elbow close to your body, using short strong posts from a wide base rather than reaching far out with extended limbs"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What visual cue gives the earliest warning that a butterfly hook sweep is being initiated?",
         "answer": "The most reliable early warning is the lateral hip scoot—when the bottom player moves their hips to one side while maintaining hook contact. This angular displacement always precedes the sweep because it creates the off-center fulcrum needed for the technique. Before the scoot, the hook can only lift vertically, which is easy to resist. Recognizing this movement gives you approximately one second to counter before the elevation begins."

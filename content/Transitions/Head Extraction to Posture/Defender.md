@@ -170,6 +170,8 @@ The critical window for defensive action occurs when the top player begins addre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Head Extraction to Posture?</p>
+
 - Opponent turns chin toward your shin rather than keeping throat perpendicular, indicating they are creating breathing space as the first step of systematic extraction
 - Opponent places both hands on your hips and begins driving forward pressure, signaling they are attempting to flatten your hip elevation and compromise shin angle
 - Opponent's hand moves to address the foot behind their head, pushing it laterally toward the mat rather than pulling backward, indicating they understand the extraction mechanics
@@ -180,6 +182,8 @@ The critical window for defensive action occurs when the top player begins addre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Head Extraction to Posture?</p>
 
 - Maintain hip elevation throughout the opponent's escape attempt to preserve perpendicular shin angle and compression on the trachea
 - Use both hands to control your own foot behind their head, pulling it deeper whenever the opponent creates even slight looseness
@@ -193,6 +197,8 @@ The critical window for defensive action occurs when the top player begins addre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Head Extraction to Posture?</p>
 
 ### 1. Elevate hips and pull foot deeper behind opponent's head using both hands to re-tighten the closed-loop configuration
 
@@ -237,6 +243,8 @@ The critical window for defensive action occurs when the top player begins addre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Head Extraction to Posture?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Maintain hip elevation and pull foot deeper behind their head whenever they create looseness. Control their posture by gripping the back of their head and curling them forward. Squeeze knees together to maintain perpendicular shin alignment. The moment they begin driving forward, elevate hips higher to restore compression angle.
@@ -252,6 +260,8 @@ As the shin begins sliding off the throat during their extraction, immediately t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Head Extraction to Posture?</p>
 
 ### 1. Allowing hips to drop flat to the mat when opponent drives forward pressure
 
@@ -281,6 +291,8 @@ As the shin begins sliding off the throat during their extraction, immediately t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Head Extraction to Posture?</p>
+
 **Week 1-2** - Hip elevation maintenance under pressure
 Partner drives forward pressure at 30-50% while you focus exclusively on maintaining hip elevation and foot depth. No transitions yet. Build core endurance and proprioceptive awareness of shin angle changes. Partner gradually increases pressure across sessions.
 
@@ -297,29 +309,6 @@ Partner attempts full-speed extraction while you work to either finish the gogop
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important structural element to protect when the opponent begins their extraction sequence?
-**A**: The foot-behind-head configuration is the structural foundation of gogoplata control. Without the foot locked behind their head, the shin cannot maintain its position across the throat regardless of squeeze pressure. Prioritize keeping this foot deep using both hands and re-pulling it whenever looseness occurs.
-
-**Q2**: Your opponent places both hands on your hips and begins driving forward - how should you respond?
-**A**: Elevate your hips higher by engaging your core and driving your pelvis toward the ceiling to counteract their forward flattening pressure. Simultaneously pull your foot deeper behind their head with both hands. Their hands on your hips means they are not addressing the foot, so use this window to strengthen the foot position before they switch targets.
-
-**Q3**: When should you abandon gogoplata maintenance and transition to triangle instead?
-**A**: Transition to triangle when you feel the foot slipping from behind their head and cannot re-secure it despite two-hand effort. The tipping point is when their lateral head movement has begun and your foot is displaced past the crown of their head. At this point, triangle transition success is much higher than attempting to rebuild a structurally compromised gogoplata.
-
-**Q4**: How does the opponent's chin turn toward your shin create a defensive opportunity for you?
-**A**: The chin turn is the earliest signal of their extraction attempt, giving you maximum reaction time. When you feel their chin rotating, immediately pull your foot deeper and elevate hips higher before they can progress to the next step. Responding at this early stage is far easier than countering later steps because the structural configuration is still intact.
-
-**Q5**: What mistake does the opponent make that opens the omoplata transition for you?
-**A**: When the opponent turns their shoulder toward the choking shin to relieve throat pressure, they expose their arm and shoulder for omoplata entry. Their rotation provides the angle you need. Release the gogoplata configuration and immediately capture their arm across your hip, using their own turning momentum to establish omoplata control before they can retract.
-
-
-
-</section>
 
 
 </main>

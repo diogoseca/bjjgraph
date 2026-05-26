@@ -154,6 +154,8 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Heel Drag Escape?</p>
+
 - Bottom player's feet begin repositioning laterally toward your ankles or feet rather than planting for a vertical bridge
 - Subtle controlled hip bump directed toward one side that creates targeted space at the foot level rather than full bridging for upa reversal
 - Bottom player's attention and eye focus shifts downward toward your feet and leg positioning rather than toward your upper body
@@ -166,6 +168,8 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Heel Drag Escape?</p>
 
 - Keep feet tucked tight against the opponent's hips with toes curled under rather than planted flat on the mat to minimize hooking access
 - Recognize the controlled hip bump as the primary precursor to a heel drag attempt, distinguishing it from bridge escape setups
@@ -180,6 +184,8 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Heel Drag Escape?</p>
 
 ### 1. Lift the threatened foot off the mat and drive that knee upward toward the opponent's armpit
 
@@ -217,6 +223,8 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Heel Drag Escape?</p>
+
 ### → [[Positions/Mount]]
 
 Recognize the heel drag attempt early through lateral foot movement cues, immediately lift the threatened foot and drive your knee upward, then re-settle your weight with adjusted foot positioning to prevent further attempts.
@@ -232,6 +240,8 @@ When the opponent's heel drag partially succeeds and their legs are actively wor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Drag Escape?</p>
 
 ### 1. Planting feet flat on the mat far from the opponent's hips, creating easy hooking targets
 
@@ -261,6 +271,8 @@ When the opponent's heel drag partially succeeds and their legs are actively wor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Heel Drag Escape?</p>
+
 **Phase 1: Recognition Training** - Identifying heel drag setups and distinguishing from other escapes
 Partner alternates between heel drag attempts, upa escapes, and elbow escapes from bottom mount. Top player calls out which escape is being attempted before it completes. Develop pattern recognition for the specific hip bump and lateral leg movement that signals a heel drag. 30 repetitions identifying correctly before progressing.
 
@@ -277,26 +289,6 @@ Positional sparring from mount top against opponents who use the heel drag as pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What foot positioning prevents the heel drag escape from being initiated?
-**A**: Keep your feet tucked tight against the opponent's hips with toes curled under rather than flat on the mat. Positioning feet close to the opponent's body reduces the angle available for their heel to hook over your ankle. Alternatively, drive your knees wide and maintain pressure through the balls of your feet rather than flat foot placement, which keeps your ankles elevated and inaccessible to the hooking motion.
-
-**Q2**: How do you distinguish a heel drag setup from a standard bridge escape attempt?
-**A**: The heel drag setup involves subtle lateral leg movement and a controlled directional hip bump rather than the explosive upward hip thrust of a bridge-based upa. Watch for the opponent's feet moving toward your ankles rather than planting flat for a vertical bridge. The preceding hip bump is typically smaller and directed toward one side, and the opponent's arms maintain hip-level frames rather than attempting to trap your arm and leg for a bridge reversal.
-
-**Q3**: When should you transition to technical mount rather than fighting to maintain standard mount against an active heel drag?
-**A**: Transition when the opponent's heel has partially caught your foot and their legs are actively closing. Rather than fighting to extract your foot from an increasingly tight entanglement, use the leg activity and space to insert your far hook behind their body. This converts their successful escape attempt into a more dominant position for you and threatens back control. The decision point is roughly one second after the heel catches; if you cannot free your foot in that window, transition immediately.
-
-**Q4**: What is your immediate priority when you feel your foot being hooked during a heel drag attempt?
-**A**: The immediate priority is to lift the threatened foot off the mat and drive that knee upward toward the opponent's armpit. Speed is critical because once the heel catches and the opponent begins the inward drag, the entanglement becomes progressively harder to break. Secondary priority is driving heavy downward hip pressure with your posted leg to flatten the opponent and eliminate their ability to close their legs around your trapped leg.
-
-
-
-</section>
 
 
 </main>

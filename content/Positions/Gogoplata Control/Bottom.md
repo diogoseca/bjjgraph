@@ -50,8 +50,8 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gogoplata Finish",
-      "text": "From this position, attempt Gogoplata Finish. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Gogoplata",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -177,6 +177,8 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Position Definition
 
+<p class="section-subtitle">What is Gogoplata Control (Bottom)?</p>
+
 - Bottom player's shin is positioned across opponent's throat with perpendicular alignment to the trachea, creating direct compression on the airway while the tibia contacts the front of the neck and the ankle hooks around the far side of the head
 - Bottom player's foot from the choking leg is secured behind opponent's head, with the practitioner's own hands controlling the foot position and pulling it deeper to tighten the shin-across-throat angle while preventing opponent from removing the leg
 - Bottom player maintains elevated hips with the pelvis higher than the shoulders, creating the necessary angle for the shin to compress the throat rather than slide off, with core engagement maintaining this hip elevation throughout the control phase
@@ -187,6 +189,8 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Gogoplata Control (Bottom)?</p>
 
 - Exceptional hip flexibility allowing for leg-behind-head positioning and sustained maintenance
 - Hamstring mobility sufficient to pull own foot behind opponent's head while maintaining shin pressure
@@ -200,6 +204,8 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gogoplata Control?</p>
 
 - Shin must be perpendicular to trachea with tibia creating direct compression on airway
 - Foot-behind-head configuration creates closed system preventing conventional escapes
@@ -216,8 +222,10 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Gogoplata Control (Bottom)?</p>
+
 **If opponent maintains static posture and attempts to hand-fight the foot behind their head:**
-- Execute **[[Submissions/Gogoplata Finish/Attacker|Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Gogoplata/Attacker|Gogoplata]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Triangle Transition/Attacker|Triangle Transition]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
@@ -243,6 +251,8 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gogoplata Control?</p>
 
 ### 1. Attempting gogoplata without sufficient hip flexibility or hamstring mobility
 
@@ -282,6 +292,8 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Gogoplata Control defense?</p>
+
 ### Hip Flexibility Development
 
 Partner-assisted stretching focusing on hip external rotation, hamstring lengthening, and leg-behind-head positioning. Start with static stretches, progress to dynamic movements, eventually achieving comfortable leg-behind-head while maintaining balance and control.
@@ -314,38 +326,6 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal shin alignment relative to the opponent's throat for maximum submission effectiveness?
-**A**: The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries.
-
-**Q2**: Your opponent creates a small gap - how do you use this to deepen your control?
-**A**: Use your hands to immediately pull your own foot deeper behind their head while maintaining shin pressure. The gap they created becomes an opportunity to tighten the configuration. Once deeper, re-establish hip elevation to lock the improved position.
-
-**Q3**: Why is hip elevation critical for maintaining gogoplata control?
-**A**: Elevated hips create the necessary angle for the shin to compress the throat rather than sliding off. When hips drop to mat level, the shin angle becomes parallel to the throat eliminating compression. Core engagement must keep pelvis higher than shoulders throughout control.
-
-**Q4**: What hand positioning maintains optimal control while setting up the finish?
-**A**: Use both hands initially to pull your own foot deep behind the opponent's head. Maintain at least one hand on your foot throughout to prevent removal. The hands control your foot position, not the opponent's head - the shin does the controlling work.
-
-**Q5**: Your opponent starts turning their shoulder away from the choking shin - what transition becomes available?
-**A**: The omoplata transition opens when they turn away. As their shoulder rotates toward you to escape throat pressure, redirect to omoplata control by releasing the gogoplata configuration and securing their arm across your hip. Their escape movement provides the rotation needed.
-
-**Q6**: What prerequisite flexibility must be developed before attempting gogoplata in live training?
-**A**: Hip external rotation and hamstring flexibility sufficient for sustained leg-behind-head positioning. Test by achieving mission control in rubber guard first. If you cannot comfortably maintain your leg across your own shoulder, the gogoplata flexibility requirements are not met.
-
-**Q7**: How do you transition to triangle when the opponent successfully removes your shin from their throat?
-**A**: As the shin slides off, immediately switch to triangle configuration by bringing your opposite leg over their shoulder and locking your ankles. The foot that was behind their head now assists in securing the triangle. The removed shin becomes the locking leg.
-
-**Q8**: Your opponent attempts a forward roll to escape - what position should you transition to?
-**A**: Follow them to back control. As they roll forward, maintain contact and ride the roll to end up on their back. The forward momentum they generate to escape actually assists your back take transition. Release the gogoplata grip to secure back control hooks.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

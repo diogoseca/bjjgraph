@@ -194,6 +194,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sit Out from Turtle?</p>
+
 - Post the near-side hand as a firm pivot point with fingers spread and positioned at shoulder width to anchor the entire rotation under full bodyweight
 - Time the sit out when opponent's weight shifts forward or commits to an attack, as attempting against settled heavy hips results in failed rotation and counter
 - Thread the far leg explosively and commit fully to the 180-degree rotation because half-committed sit outs leave hips exposed in the most vulnerable orientation
@@ -208,6 +210,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sit Out from Turtle?</p>
+
 - At least one arm must be free from opponent's control to establish the posting hand that serves as the rotation pivot point
 - Opponent's weight should be committed forward on your shoulders or shifted to one side, creating space at the hips for rotation initiation
 - Near-side knee must be loaded and positioned under the hip, ready to drive the initial weight transfer onto the posting hand
@@ -220,6 +224,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sit Out from Turtle step by step?</p>
 
 1. **Assess opponent weight distribution**: Read where opponent is placing their weight on your back. Feel whether pressure is forward on shoulders, centered on mid-back, or shifted to one side. The sit out works best when weight is forward or committed to one side, creating space at the hips for rotation.
 2. **Establish posting hand**: Plant the near-side hand firmly on the mat approximately shoulder-width from your body with fingers spread wide and pointed away from opponent. This hand becomes your anchor and pivot point, so position it where it can support your full bodyweight during the rotation phase.
@@ -251,6 +257,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sit Out from Turtle?</p>
+
 - **Opponent drives chest pressure forward and sprawls to flatten you before rotation completes** (Effectiveness: High) - Your Response: Accelerate the rotation using their forward momentum to complete the turn faster. If flattened, immediately frame on their shoulder and hip escape to create space for guard recovery. → Leads to [[Positions/Side Control]]
 - **Opponent follows hip rotation maintaining chest-to-back connection and stays behind you throughout the sit out** (Effectiveness: High) - Your Response: Chain immediately into a second escape such as a granby roll using generated momentum or an explosive standup. Never settle into a seated position with opponent behind you. → Leads to [[Positions/Turtle]]
 - **Opponent snaps head down toward the mat as posting hand is established, disrupting base before rotation begins** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm. If snap succeeds, transition to front headlock escape rather than continuing the sit out attempt. → Leads to [[Positions/Side Control]]
@@ -262,6 +270,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sit Out from Turtle?</p>
 
 ### 1. Telegraphing the sit out with an obvious weight shift or pause before committing to the movement
 
@@ -301,6 +311,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sit Out from Turtle (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip rotation and posting fundamentals
 Practice the sit out movement pattern solo, focusing on hand posting position, leg threading arc, and complete 180-degree hip rotation. Perform 20 repetitions each side, emphasizing smooth mechanics and proper chin tuck throughout the rotation.
 
@@ -321,42 +333,12 @@ Full resistance positional sparring starting from turtle position. Bottom player
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution from your opponent creates the optimal timing window for initiating the sit out?
-**A**: The sit out works best when opponent's weight is committed forward onto your shoulders or shifted predominantly to one side. Forward weight commitment means their hips are lighter on yours, creating the space needed for hip rotation. A side-heavy distribution means the opposite side has minimal pressure, allowing you to thread your leg through that opening. The worst time to attempt the sit out is when opponent has centered, heavy hip-to-hip pressure.
-
-**Q2**: Your opponent maintains heavy chest pressure centered on your upper back with hands controlling your hips - how do you create the conditions needed for a sit out?
-**A**: You need to displace their weight distribution before attempting the sit out. Use a feinted granby roll or hip switch to force them to shift their weight forward or to one side in reaction. When they adjust to counter your feint, the weight displacement creates the brief window needed for the sit out. Alternatively, use explosive hand fighting to strip one of their hip controls, then immediately initiate the sit out before they can re-establish the grip.
-
-**Q3**: What is the most critical mechanical detail about the posting hand position during the sit out?
-**A**: The posting hand must be planted approximately shoulder-width from the body with a slightly bent elbow and fingers spread wide, pointed away from the opponent. This position creates a stable tripod with the near-side knee that can support full bodyweight during rotation. Posting too wide creates a weak lever arm that collapses under load. Posting too close prevents the leg from threading through. The slight elbow bend absorbs the weight transfer dynamically rather than locking out and risking collapse.
-
-**Q4**: You initiate the sit out but feel your opponent immediately follow your hip rotation and stay connected to your back - what should you do?
-**A**: Do not continue the sit out into a seated position with the opponent still behind you. If you feel them following, immediately chain into a secondary escape: either complete a full granby roll using the momentum you have already generated, or reverse direction and hit an explosive technical standup since their weight has committed to following your original rotation direction. The key principle is never settling into a position where the opponent is behind you with connection maintained.
-
-**Q5**: Why is it critical to establish guard frames immediately after completing the hip rotation rather than securing grips first?
-**A**: Guard frames using your legs create structural barriers between you and the opponent that cannot be easily bypassed. If you try to secure grips first while your legs are not yet in position, the opponent can drive forward with chest pressure and achieve a pass to side control before your hands can create meaningful resistance. Legs between you and the opponent provide the strongest frames in grappling. Once leg frames are established, you have time to then secure complementary upper body grips.
-
-**Q6**: What grip must you address from the opponent before attempting the sit out, and why is it the highest priority?
-**A**: The seatbelt or harness grip with over-under control around your torso must be addressed first because it allows the opponent to follow every hip movement and maintain chest-to-back connection throughout the rotation. With seatbelt intact, the opponent simply rotates with you and ends up behind you in the same or worse position. Strip the choking hand first, then the underhook hand, before committing to the sit out movement.
-
-**Q7**: Your opponent reads your sit out and snaps your head down as you begin to post - how should you adjust?
-**A**: If the snap down occurs before you have committed to the leg thread, abort the sit out and immediately tuck your chin and circle away from the opponent's power hand while staying tight to prevent the front headlock from deepening. If the snap catches you mid-rotation, use the momentum to complete the rotation into a seated guard position rather than fighting the snap directly. The chin must stay tucked to the far shoulder throughout to minimize the snap down's effectiveness.
-
-**Q8**: How does the sit out from turtle differ mechanically from a wrestling sit out, and what BJJ-specific adjustments are necessary?
-**A**: The wrestling sit out emphasizes completing the rotation and immediately returning to a base or attacking position for a reversal. The BJJ adaptation must account for the opponent's ability to follow with submissions and back control attempts that do not exist in wrestling rulesets. BJJ-specific adjustments include immediate guard establishment after rotation rather than seeking top position, chin protection against choke entries during the rotation phase, and awareness of hook insertion attempts as you complete the turn. Guard recovery is the primary objective rather than the reversal.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sit Out from Turtle?</p>
 
 The sit out involves rapid hip rotation and weight bearing on the posted arm, creating potential for wrist, shoulder, and neck strain if performed with poor mechanics. Always warm up wrists and shoulders before drilling. Partners should provide graduated resistance rather than sudden explosive counters that could cause the posting arm to collapse. Keep chin tucked throughout to protect the cervical spine during rotation. In live sparring, avoid forcing the sit out when opponent has deep grips on your neck, as the rotation against neck control can cause cervical injury. Communicate with training partners about intensity level before positional rounds.
 

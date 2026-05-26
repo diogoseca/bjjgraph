@@ -133,7 +133,7 @@
       },
       {
         "step_number": 4,
-        "action": "Monitor Weight Distribution",
+        "action": "Monitor Center of Gravity",
         "description": "Read the opponent's hip connection and shoulder pressure angle for any momentary weight shift. Key indicators include the opponent adjusting their shoulder angle, reaching for grips, transitioning toward submissions, or shifting their far knee—any movement that temporarily lightens their hip-to-hip pressure connection."
       },
       {
@@ -237,7 +237,7 @@
         "description": "Attempt the complete escape against a partner who actively maintains Shoulder of Justice and counters escape attempts with mount transitions, kimura attacks, and pressure reestablishment. Start at 50% resistance and build to 100% over multiple rounds. Track success rate and identify which phase of the escape breaks down most frequently."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical error to avoid when the opponent increases shoulder pressure on your jaw?",
         "answer": "The most critical error is extending your near arm to push the opponent's shoulder away from your face. This is the reaction the Shoulder of Justice position is specifically designed to provoke, and it immediately exposes your arm to a high-percentage kimura attack that is nearly impossible to defend from flat on your back. Instead, keep your near arm tucked tight to your ribcage and create space only through forearm micro-frames that never extend beyond your chest centerline."
@@ -354,7 +354,7 @@
         "correction": "The moment you feel space opening from a hip escape, immediately decide between re-consolidating pressure or transitioning to mount and execute within one to two seconds"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing a planned escape rather than enduring passively?",
         "answer": "The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest."

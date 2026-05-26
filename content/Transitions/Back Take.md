@@ -204,7 +204,7 @@ The Back Take from Crackhead Control serves as the primary advancement pathway i
 
 - [[Transitions/Back Take from Top]] - Variant for countering granby escape
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission
 
 - [[Positions/Twister Control]] - Alternative advancement from crackhead control
 

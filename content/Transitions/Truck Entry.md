@@ -217,15 +217,15 @@ Truck Entry serves as a critical gateway technique in modern back attack systems
 
 - [[Transitions/Lockdown Recovery]] - Chain link from Half Guard system to turtle scenarios
 
-- [[Transitions/Twister Finish]] - Primary submission follow-up from Truck
+- [[Submissions/Banana Split]] - Primary submission follow-up from Truck
 
-- [[Submissions/Calf Slicer from Truck]] - Alternative submission from Truck position
+- [[Submissions/Calf Slicer]] - Alternative submission from Truck position
 
 - [[Transitions/Crucifix from Turtle]] - Alternative turtle attack when entry is blocked
 
 - [[Transitions/Front Headlock to Back]] - Alternative back attack pathway from turtle
 
-- [[Submissions/Electric Chair Submission]] - Related 10th Planet system submission
+- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet system submission
 
 
 </section>

@@ -162,6 +162,8 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Tripod Sweep?</p>
+
 - Opponent removes one foot from your bicep and places it on the mat while maintaining the other spider hook, transitioning from symmetrical control to asymmetric tripod structure
 - Opponent posts one hand behind themselves on the mat while maintaining collar or sleeve grip with the other hand, creating the triangulated base needed for the sweep
 - Opponent's free hand reaches toward your ankle or pant leg on the far side while pulling sharply with their collar grip to create forward off-balancing pressure
@@ -173,6 +175,8 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Tripod Sweep?</p>
 
 - Maintain low center of gravity with wide base to resist the off-balancing pull from collar and spider hook pressure
 - Prioritize breaking the sleeve grip above all else, as it restores your ability to post and catch yourself during sweep attempts
@@ -187,6 +191,8 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Tripod Sweep?</p>
 
 ### 1. Strip the sleeve grip using a two-on-one grip break and immediately step back to reset distance, denying the sweeper their primary control mechanism
 
@@ -224,6 +230,8 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Tripod Sweep?</p>
+
 ### → [[Positions/Spider Guard]]
 
 Break the sleeve grip early using a two-on-one break, then immediately step back and sit your weight onto your heels to remove all forward pressure. Once the sweeper loses sleeve control, their sweep has no mechanism to prevent your posting. From here, reset your base and re-engage grip fighting to begin your passing sequence from a neutral standing position.
@@ -239,6 +247,8 @@ When the opponent abandons the tripod structure after a failed sweep attempt, im
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Tripod Sweep?</p>
 
 ### 1. Leaning forward and reaching down to strip the ankle grip while the spider hook is still active on the bicep
 
@@ -268,6 +278,8 @@ When the opponent abandons the tripod structure after a failed sweep attempt, im
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Tripod Sweep?</p>
+
 **Phase 1: Recognition and Base Awareness (Weeks 1-2)** - Identifying tripod setup cues and maintaining proper defensive stance
 Partner establishes Spider Guard and slowly transitions to tripod setup while defender practices recognizing each stage: spider hook removal, mat post, collar pull, ankle reach. Defender calls out each cue verbally without resisting. Focus entirely on recognition speed and maintaining low athletic base with bent knees and centered weight distribution.
 
@@ -284,29 +296,6 @@ Start standing in partner's Spider Guard. Partner uses full attack repertoire in
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a Tripod Sweep from Spider Guard?
-**A**: The earliest cue is when the opponent removes one foot from your bicep and places it on the mat while maintaining the other spider hook active. This asymmetric transition from double spider hooks to single hook plus mat post is the defining setup motion for the Tripod Sweep. At this point, their free hand will soon reach for your ankle. Recognizing this transition gives you the maximum defensive window to strip grips, adjust base, or pressure forward before the tripod structure is complete.
-
-**Q2**: Why is breaking the sleeve grip more important than addressing the ankle grip when defending the Tripod Sweep?
-**A**: The sleeve grip prevents you from posting your hand to the mat, which is the primary mechanism for catching yourself during the sweep. Without the sleeve grip, even a perfectly executed sweep fails because you simply post your free hand and stabilize. The ankle grip only works in combination with sleeve control that removes your posting ability. If you strip the sleeve grip first, you restore your posting ability and make the ankle grip tactically meaningless, whereas stripping only the ankle grip leaves the sweeper able to re-attack it immediately.
-
-**Q3**: Your opponent has established the full tripod structure with spider hook, mat post, and is reaching for your ankle - what is your last-resort defensive option?
-**A**: At this late stage, your best option is to aggressively drive forward through the weakened guard by pushing the spider hook foot off your bicep and stepping over their posted leg on the mat. The opponent has sacrificed half their guard structure to build the tripod, leaving only one spider hook defending one side. By attacking the exposed side with a pressure pass, you convert their offensive setup into a passing opportunity. This is high-risk because if they secure the ankle grip during your forward drive, the sweep becomes more powerful, so commitment and speed are critical.
-
-**Q4**: How should you adjust your base and weight distribution when you feel the diagonal collar pull that precedes the Tripod Sweep?
-**A**: Immediately lower your center of gravity by bending your knees into an athletic crouch and shift your weight slightly onto your heels while widening your stance laterally. The diagonal pull is designed to load your weight forward past your base, so countering requires sitting back and spreading your support points wider. Do not stand tall or lock your knees. The wider base with lower hips increases the force required to tip you and gives you more time to address the grips before the sweep reaches the point of no return.
-
-**Q5**: After successfully defending a Tripod Sweep attempt, how should you capitalize on the opponent's compromised guard structure?
-**A**: The moment the sweep fails and the opponent begins retracting their posted leg and hand to re-establish Spider Guard, immediately pressure forward on the side where they removed their spider hook. They have momentarily weakened their guard by committing one leg and one hand to the mat, leaving that side undefended. Initiate a toreando pass or knee slice through the open lane before they can re-establish double spider hooks. This counterattack window is narrow, typically lasting only one to two seconds, so your forward pressure must be immediate and decisive.
-
-
-
-</section>
 
 
 </main>

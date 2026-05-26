@@ -164,6 +164,8 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X-Guard Entry?</p>
+
 - Opponent's hips begin rotating approximately 45 degrees while their shoulders remain anchored to the mat, creating a threading angle
 - You feel a leg shooting between or beneath your legs, targeting the space behind your far hip with directional intent
 - Opponent establishes or tightens a pants grip on your near-side ankle or cuff, anchoring your leg in position to prevent disengagement
@@ -175,6 +177,8 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X-Guard Entry?</p>
 
 - Recognize the threading motion early by monitoring opponent's hip rotation and leg movement beneath your base
 - Maintain low, wide base with hips driving forward to deny the space needed for leg insertion beneath you
@@ -188,6 +192,8 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X-Guard Entry?</p>
 
 ### 1. Apply immediate stack pressure by driving your weight forward onto opponent's shoulders and hips, compressing their inverted position and eliminating threading space
 
@@ -225,6 +231,8 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X-Guard Entry?</p>
+
 ### → [[Positions/Inverted Guard]]
 
 Shut down the entry before hooks establish by backstepping your far leg, stripping the pants grip, or applying stack pressure that forces opponent to abandon the attempt and return to basic inverted guard position
@@ -240,6 +248,8 @@ Convert your defensive pressure into a passing sequence by driving through the c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X-Guard Entry?</p>
 
 ### 1. Standing passively upright while opponent works beneath you, allowing unrestricted threading of legs
 
@@ -269,6 +279,8 @@ Convert your defensive pressure into a passing sequence by driving through the c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X-Guard Entry?</p>
+
 **Week 1-2** - Recognition and awareness drilling
 Partner slowly executes the Reverse X-Guard Entry sequence while you practice identifying each phase: grip establishment, hip rotation, leg threading, hook insertion. Focus on developing tactile awareness of the threading motion and visual recognition of the setup. No active defense yet, purely perception training.
 
@@ -285,29 +297,6 @@ Live sparring rounds starting from inverted guard top position with specific foc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that your opponent is attempting a Reverse X-Guard Entry rather than a standard berimbolo?
-**A**: The key differentiator is the direction of their threading leg. In a berimbolo, the opponent rotates underneath you and their leg hooks your far hip from the outside while pulling your body over theirs. In Reverse X-Guard Entry, their leg threads between your legs from underneath, traveling past your centerline to hook behind your far hip from the inside. The threading motion is more linear and directed upward rather than the circular rolling motion of berimbolo.
-
-**Q2**: Your opponent has threaded one leg but the crossing hook is not yet locked. What is the most effective immediate response?
-**A**: Backstep your far leg sharply at a 45-degree angle away from the threading direction while simultaneously driving your hips forward to flatten their position. This removes the target for the crossing hook and compresses the space they need to curl their leg into the hook position. Follow immediately with a passing attempt while their guard structure is compromised - a knee slice or smash pass is most effective in this window.
-
-**Q3**: Why is stripping the pants grip on your ankle a higher priority than fighting the threading leg directly?
-**A**: The pants grip on your ankle serves as the anchor that prevents you from disengaging entirely. Without this grip, you can simply step away and reset to a neutral passing position at any point during the entry. Fighting the threading leg while the grip remains means you are working against the mechanical constraint of your anchored leg, which dramatically reduces the effectiveness of backstepping, base widening, and all other defensive movements. Remove the anchor first and the rest of the defense becomes straightforward.
-
-**Q4**: Your opponent successfully establishes full Reverse X-Guard. What defensive priorities remain?
-**A**: Once full Reverse X-Guard is established, your priorities shift from preventing the position to surviving it. Immediately widen your base with your free leg, drive your hips forward to prevent elevation, and control their upper body grips to prevent off-balancing pulls. Do not try to rip your leg free as this usually results in losing balance. Instead, work to systematically address hooks by applying downward pressure to flatten their hip elevation while maintaining your own base. Look for opportunities to smash pass when they extend for a sweep.
-
-**Q5**: How should your defensive strategy change between gi and no-gi when facing Reverse X-Guard Entry?
-**A**: In gi, the opponent's pants grip is stronger and harder to strip, making early prevention even more critical. Use sleeve grips and collar control proactively to disrupt their upper body anchoring before they can establish the pants grip. In no-gi, the ankle grip is weaker (c-grip on Achilles) and can be stripped more easily by simple ankle rotation and pulling, so you have a larger window for reactive defense. However, in no-gi the transition is often faster because the opponent does not need to establish fabric grips, so your recognition and reaction time must compensate.
-
-
-
-</section>
 
 
 </main>

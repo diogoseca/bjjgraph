@@ -3,24 +3,30 @@
 
 
 ---
-title: "Chin Strap Guillotine | BJJ Submission | BJJ Graph"
+title: "Chin Strap Guillotine | BJJ Submission Family | BJJ Graph"
 description: "Master the Chin Strap Guillotine in BJJ. High-control choke targeting the neck from front headlock positions with figure-four grip and shoulder drive mechanics."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Chin Strap Guillotine targets the Carotid arteries and windpipe. Risk: Neck strain or cervical spine stress from excessive cranking. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Chin Strap Guillotine/Attacker|Play as Attacker]]
-[[Chin Strap Guillotine/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Chin Strap Guillotine/from Front Headlock|Front Headlock]] | 58% | Neck strain or cervical spine stress from excessive cranking |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +37,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -80,147 +84,10 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Front Headlock]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Secure front headlock control with opponent's head positione... | Protect the chin immediately by tucking it tightly to your c... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Chin Strap Guillotine/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Secure front headlock control with opponent's head positioned to one side of your body before attempting the chin strap thread
-
-- Thread the choking arm under the chin with palm facing up toward opponent's far ear, ensuring wrist blade crosses the front of the throat
-
-- Connect the choking hand to the bicep of the opposite arm creating a figure-four configuration with opposite hand behind opponent's head
-
-- Pull the chin toward your chest while simultaneously driving your shoulder into opponent's neck for bilateral carotid compression
-
-- Maintain hip pressure and prevent opponent from turning away or posturing out using sprawl weight or guard closure
-
-- Use your legs to control opponent's hips and prevent escape attempts throughout the finishing sequence
-
-- Apply pressure progressively by tightening the arm configuration and expanding your chest for the final finish
-
-
-### Execution Steps
-
-
-- **Establish front headlock control**: From standing, turtle attack, or guard pull scenario, secure a dominant front headlock position with...
-
-- **Thread the choking arm under the chin**: With your choking arm (the arm wrapped around their head), begin to slide your hand underneath their...
-
-- **Establish the chin strap grip**: Once your choking hand is threaded under the chin, reach across with that hand and grab the bicep of...
-
-- **Pull the chin toward your chest**: With the grip secured, begin to pull their chin in toward your chest using your choking arm. At the ...
-
-- **Drive shoulder pressure into the neck**: As you pull the chin, simultaneously drive your shoulder (on the choking arm side) forward and down ...
-
-- **Control hips and prevent escape**: While maintaining the upper body control and choke, use your legs to control opponent's hips. If in ...
-
-- **Finish with chest expansion**: For the final finishing pressure, expand your chest and pull your elbows tight to your body. This ti...
-
-
-### Common Mistakes
-
-
-- **Attempting to finish the choke with the chin on top of your forearm rather than under it**
-  - Consequence: This creates a painful but ineffective neck crank rather than a proper blood choke. Opponent can endure much longer and may not tap.
-  - Correction: Ensure your forearm is positioned under the chin with your wrist deep beneath their jaw. Your arm should be cutting across the front of their throat, not pushing their chin back. Take time in the setup to get the proper depth.
-
-- **Applying the choke with sudden jerking or spiking motion**
-  - Consequence: Can cause severe neck injury, cervical spine damage, or whiplash. This is extremely dangerous and unacceptable in training.
-  - Correction: Apply all pressure slowly and progressively over 3-5 seconds minimum. There should never be any sudden movements or jerking. Communicate with your partner and respect the tap immediately.
-
-- **Failing to secure the proper grip before attempting to finish**
-  - Consequence: Opponent easily escapes by turning away or creating frames. You waste energy and lose the dominant position.
-  - Correction: Take your time to establish the complete chin strap configuration with your hand secured to your bicep and proper chin position. Don't rush the finish - focus on control first, submission second.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Chin Strap Guillotine/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Protect the chin immediately by tucking it tightly to your chest to prevent the attacker from threading their forearm underneath - this is the single most important defensive action
-
-- Fight the choking arm at the wrist or elbow before the figure-four grip is secured, as stripping the grip becomes nearly impossible once the bicep connection is established
-
-- Create space between your neck and the attacker's shoulder by framing against their hip or chest to neutralize the shoulder drive component of the compression
-
-- Address hip control by fighting to free your legs or turning your body to create angles that reduce the attacker's ability to maintain both choke and positional control
-
-- Never pull straight back against the choking arm as this tightens the choke - instead move perpendicular to the force by circling, turning, or rolling
-
-- Recognize the difference between early-stage defense (preventing the grip) and late-stage defense (surviving the locked choke) and adjust your response accordingly
-
-- Stay calm under pressure and work systematically rather than panicking, as explosive uncontrolled movements often accelerate the choke and waste energy
-
-
-### Recognition Cues
-
-
-- Attacker's arm begins threading under your chin with palm facing upward rather than wrapping around the side of your neck in a standard guillotine position
-
-- You feel the attacker's hand reaching across under your jaw toward your far ear, indicating they are seeking the bicep grip for the figure-four configuration
-
-- Attacker's opposite hand moves to the back of your head while the choking arm is under your chin, confirming the chin strap grip is being established
-
-- You feel simultaneous pulling pressure on your chin toward the attacker's chest combined with their shoulder driving into the side of your neck
-
-- Attacker's legs begin actively controlling your hips through guard closure, hooks, or sprawl pressure while maintaining the front headlock grip
-
-
-### Escape Paths
-
-
-- Strip the choking arm grip at the wrist before the figure-four is secured, then tuck chin and work standard front headlock escapes including circling away, standing up, or shooting for a single leg
-
-- Turn into the attacker while framing on their hip to close the shoulder drive angle, then drive forward to scramble and recover closed guard or half guard
-
-- Posture up with explosive hip extension while using both hands to peel the choking arm off your chin, then immediately create distance and recover standing position
-
-- Roll through toward the choking arm side to disrupt the choking angle, then use the momentum to recover guard or create a scramble
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Standing Chin Strap Guillotine**: Applied from a standing front headlock position, often after sprawling on a takedown attempt or after securing a snap-down. The mechanics are identical, but you must use one leg to control opponent's near leg to prevent them from standing fully upright. This variation is common in wrestling-heavy no-gi competition. (When to use: When opponent shoots for a takedown and you sprawl, or after a successful snap-down to front headlock from standing.)
@@ -248,7 +115,6 @@ The submission works exceptionally well in no-gi situations where collar grips a
 - [[Positions/Closed Guard]]
 - [[Positions/Half Guard]]
 - [[Positions/Turtle]]
-- [[Positions/Standing Position]]
 - [[Positions/Clinch]]
 - [[Positions/Open Guard]]
 - [[Positions/Butterfly Guard]]
@@ -261,17 +127,17 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## Related Submissions
 
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/High Elbow Guillotine]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Ten Finger Guillotine]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Von Flue Choke]]
-- [[Transitions/North-South Choke]]
-- [[Submissions/Brabo Choke]]
+- [[Transitions/Guillotine Choke]] - Parent technique from which the chin strap variation derives
+- [[Submissions/High Elbow Guillotine]] - Alternative guillotine variation using elevated elbow angle for deeper choke
+- [[Submissions/Arm in Guillotine]] - Related guillotine variation trapping opponent's arm inside the choke
+- [[Submissions/Ten Finger Guillotine]] - Alternative grip variation using interlocked fingers for compression
+- [[Transitions/Darce Choke]] - Alternative front headlock choke when chin strap angle is defended
+- [[Transitions/Anaconda Choke]] - Alternative arm-in choke from same front headlock position
+- [[Submissions/Rear Naked Choke]] - Related blood choke sharing similar carotid compression mechanics
+- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke accessible from similar control positions
+- [[Submissions/Von Flue Choke]] - Counter-choke opponent may apply if guillotine is held from bottom guard
+- [[Transitions/North-South Choke]] - Alternative choke if position transitions to north-south control
+- [[Submissions/Brabo Choke]] - Related gi-based head-and-arm choke from front headlock family
 
 
 </section>

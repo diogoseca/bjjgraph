@@ -56,11 +56,11 @@
       "relationship": "Parent positional category from which harness and triangle attacks operate"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Alternative submission path when triangle entry is blocked"
     },
     {
-      "name": "Triangle Choke Back",
+      "name": "Rear Triangle Choke",
       "relationship": "Related technique - alternative triangle entry from body triangle control"
     },
     {
@@ -221,7 +221,7 @@
         "description": "Incorporate triangle from back into live rolling from back control positions. Start rounds from harness position and work to identify the correct timing window against fully resisting opponents. Track success rate and identify which defensive patterns trigger the triangle entry most reliably."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Triangle from Back?",
         "answer": "The primary goal is to transition from harness (seat belt) back control into the Rear Triangle control position by threading one leg over the opponent's shoulder and locking a figure-four around their head and one trapped arm. This establishes a dominant submission control position with multiple finishing options including the triangle choke squeeze and armbar on the trapped arm."
@@ -255,8 +255,8 @@
         "answer": "The most common failure after clearing the shoulder is taking too long to lock the figure-four, giving the opponent time to push the loose leg off. Second is failing to trap the correct arm inside the triangle, which eliminates choking pressure. Third is not adjusting hip angle after locking, resulting in a loose triangle that the opponent can posture out of. Fourth is neglecting to pull the trapped arm across the body, which is necessary to tighten the strangle and prevent the opponent from creating defensive frames inside the triangle."
       },
       {
-        "question": "How does the Triangle from Back differ from the Triangle Choke Back entry, and when would you choose one over the other?",
-        "answer": "The Triangle from Back is initiated from standard harness control and involves threading a leg over the opponent's shoulder in response to choke defense. The Triangle Choke Back typically involves transitioning from body triangle control with a different mechanical entry. Choose Triangle from Back when you have harness grip and the opponent defends the rear naked choke with both hands. Choose the body triangle variant when you already have body triangle established and want to transition your leg control into a triangle without giving up the body lock first."
+        "question": "How does the Triangle from Back differ from the Rear Triangle Choke entry, and when would you choose one over the other?",
+        "answer": "The Triangle from Back is initiated from standard harness control and involves threading a leg over the opponent's shoulder in response to choke defense. The Rear Triangle Choke typically involves transitioning from body triangle control with a different mechanical entry. Choose Triangle from Back when you have harness grip and the opponent defends the rear naked choke with both hands. Choose the body triangle variant when you already have body triangle established and want to transition your leg control into a triangle without giving up the body lock first."
       },
       {
         "question": "What entry requirements must exist before you can safely attempt the Triangle from Back without risking loss of position?",
@@ -345,7 +345,7 @@
         "correction": "Stay calm, protect the chin, and work methodically through the arm extraction sequence. Controlled technical movement conserves energy and creates more effective escape opportunities than explosive panic responses."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Triangle from Back is being attempted?",
         "answer": "The earliest cue is feeling the attacker withdraw one hook from your thigh while maintaining the harness grip. This hook removal is the first physical action required before the leg can be threaded over your shoulder. You may also feel their hips shift laterally as they create clearance for the leg arc. Recognizing this moment gives you the maximum defensive window to respond before the leg begins its arc over the shoulder."

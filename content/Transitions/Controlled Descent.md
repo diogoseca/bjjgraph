@@ -205,7 +205,7 @@ Controlled Descent occupies a crucial role in the defensive hierarchy from stand
 
 - [[Transitions/Hip Escape to Turtle]] - Related escape - alternative method to reach turtle from standing back control
 
-- [[Transitions/Rear Naked Choke]] - Primary threat - the submission this technique helps defend against
+- [[Submissions/Rear Naked Choke]] - Primary threat - the submission this technique helps defend against
 
 - [[Transitions/Peterson Roll]] - Follow-up technique - turtle escape option immediately after landing
 

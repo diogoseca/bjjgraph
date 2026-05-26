@@ -169,6 +169,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ringworm Guard (Bottom)?</p>
+
 - Practitioner on their back with opponent's lapel threaded around opponent's leg, creating a lapel wrap that connects the opponent's lower body to the bottom player's control points with the lapel tail secured in the bottom player's grip near their hip or chest
 - One or both of practitioner's legs engaging opponent's upper body or hips, typically with hooks, frames, or shin shields, preventing forward pressure while maintaining distance management and creating angles for off-balancing
 - Opponent in standing or combat base position with one leg compromised by the lapel wrap, limiting their mobility and base while forcing them to compensate with altered weight distribution and restricted passing options
@@ -179,6 +181,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Ringworm Guard (Bottom)?</p>
 
 - Opponent wearing a gi with accessible lapel
 - Ability to establish initial lapel grip and create space to thread the lapel
@@ -192,6 +196,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ringworm Guard?</p>
 
 - Maintain constant tension on the lapel wrap to restrict opponent's leg mobility and prevent them from escaping the configuration
 - Use leg frames and hooks to control distance and prevent opponent from establishing dominant grips or crushing forward
@@ -207,6 +213,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Ringworm Guard (Bottom)?</p>
 
 **If opponent stands upright and attempts to back away from the guard:**
 - Execute **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** → [[Positions/Mount]] (Probability: 55%)
@@ -235,6 +243,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ringworm Guard?</p>
 
 ### 1. Allowing the lapel wrap to become loose or slack during transitions
 
@@ -274,6 +284,8 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Ringworm Guard defense?</p>
+
 ### Lapel Threading Repetition Drill
 
 Partner in combat base while you repeatedly practice threading their lapel around their leg from various open guard positions, focusing on speed and efficiency of the threading motion. Work both sides and experiment with different entry angles. Emphasis on muscle memory for the lapel manipulation sequence.
@@ -299,38 +311,6 @@ With cooperative partner in Ringworm Guard configuration, flow through all avail
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element for maintaining Ringworm Guard control?
-**A**: Constant tension on the lapel wrap is the most critical element. The lapel must remain tight against the opponent's leg throughout all movements and transitions. Any slack allows the opponent to extract their leg and escape the position. The tension should be maintained by pulling the lapel tail toward your hip or chest while using your legs to control the opponent's upper body.
-
-**Q2**: Your opponent starts aggressively trying to strip the lapel grip - how do you respond?
-**A**: When the opponent attacks the lapel grip, immediately create an angle by hip escaping away from them while maintaining tension on the wrap. This makes their grip-breaking leverage less effective. Simultaneously, use your free hand to control their grip-fighting wrist or sleeve, preventing them from getting both hands on the lapel. If they persist, transition to a sweep or back take while they're focused on the grip.
-
-**Q3**: What are the essential secondary grips that complement the lapel wrap?
-**A**: The primary secondary grips are sleeve control on the opponent's far arm to prevent posting during sweeps, and collar grip to assist with posture breaking and angle creation. Pants grip at the knee on the non-wrapped leg can also control their base. These secondary grips create a multi-point control system that prevents escape and sets up offensive attacks.
-
-**Q4**: How should you position your hips to maintain the guard effectively?
-**A**: Your hips should be angled approximately 30-45 degrees off-center, not flat on the mat. This angle creates sweeping leverage and makes it harder for the opponent to drive forward into a smash pass. Keep your hips mobile and ready to shift further to either side based on the opponent's movements. Staying on your side or shoulder maintains mobility and offensive capability.
-
-**Q5**: Your opponent begins standing up to create distance - what adjustment do you make?
-**A**: When the opponent stands, immediately extend your hips upward and outward while maintaining the lapel tension. Use your leg frames to follow their elevation by placing feet on hips or a butterfly hook to control distance. The standing position actually creates sweeping opportunities - their base is narrower and the lapel wrap becomes even more restrictive. Prepare to attack with sweeps that capitalize on their elevated center of gravity.
-
-**Q6**: How do you prevent being flattened when the opponent drives pressure forward?
-**A**: Use leg frames aggressively - shin shields against their hips and butterfly hooks under their thighs create space and prevent forward pressure. Your free leg should always be working to frame, never passive. Additionally, maintain shoulder elevation by staying on your side rather than flat on your back. If they begin flattening you, immediately hip escape to recreate the angle before they consolidate.
-
-**Q7**: What energy management strategy keeps you effective during extended guard retention?
-**A**: Let the lapel wrap do the work rather than constantly muscling for control. The mechanical advantage of the wrap means minimal grip strength is needed once properly threaded. Use efficient hip movement and leg frames rather than constant pulling. When the opponent rests, you rest - match their energy output rather than burning yourself out with constant movement. Save explosive effort for the actual sweep or submission attempts.
-
-**Q8**: If you feel the opponent beginning to extract their leg from the wrap, how do you recover?
-**A**: Immediately retighten the wrap by pulling the lapel tail while using your legs to re-engage their body and disrupt their extraction motion. If the wrap is coming loose, consider transitioning to Squid Guard or Worm Guard before losing control completely - better to have a related lapel position than no control at all. You can also attempt an immediate sweep or back take while they're focused on extraction rather than defense.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

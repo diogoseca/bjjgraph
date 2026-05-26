@@ -208,7 +208,7 @@ Triangle Clear to Side is the primary lateral escape from body triangle back con
 
 - [[Transitions/Back Door Escape]] - Related system - broader back escape framework this technique belongs to
 
-- [[Transitions/Rear Naked Choke]] - Primary threat - submission you must defend during the clearing process
+- [[Submissions/Rear Naked Choke]] - Primary threat - submission you must defend during the clearing process
 
 - [[Transitions/Half Guard Recovery]] - Follow-up - alternative guard recovery if side control is not achieved
 

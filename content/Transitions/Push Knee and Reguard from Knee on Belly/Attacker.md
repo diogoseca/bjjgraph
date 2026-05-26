@@ -188,6 +188,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Push Knee and Reguard from Knee on Belly?</p>
+
 - Address the knee directly — push it off your torso rather than trying to escape around it
 - Coordinate the push with hip escape movement for maximum space creation in a single combined motion
 - Maintain elbow connection to your body throughout the push to prevent arm isolation and submission exposure
@@ -203,6 +205,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Push Knee and Reguard from Knee on Belly?</p>
+
 - Turn body to face toward the opponent's knee side, reducing torso surface area exposed to downward pressure
 - Establish near-side hand on opponent's knee with fingers gripping the inside of the knee joint for mechanical advantage
 - Position far-side hand to assist the push or control opponent's hip to prevent mount transition during escape
@@ -215,6 +219,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Push Knee and Reguard from Knee on Belly step by step?</p>
 
 1. **Turn to face the knee**: From flat on your back under Knee on Belly, immediately turn your body to face toward the side where the opponent's knee is placed on your torso. This reduces the surface area exposed to pressure and creates the angle needed for effective pushing mechanics and subsequent hip escape.
 2. **Establish hand grips on the knee**: Place your near-side hand on the inside of the opponent's knee with fingers curling around the kneecap. Your far-side hand grips the shin or outside of the knee, creating a two-handed pushing platform that can redirect the knee off your body with structural strength rather than arm extension.
@@ -245,6 +251,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Push Knee and Reguard from Knee on Belly?</p>
+
 - **Opponent immediately re-plants knee on torso before guard recovery completes** (Effectiveness: High) - Your Response: Maintain push pressure and continue hip escaping — chain into a second push attempt or immediately transition to frame-and-shrimp escape to keep momentum → Leads to [[Positions/Knee on Belly]]
 - **Opponent slides knee across to mount as you create space by pushing** (Effectiveness: High) - Your Response: Prioritize inserting your knee shield to block the mount transition path — if mount is partially established, immediately begin elbow escape sequence before they consolidate → Leads to [[Positions/Mount]]
 - **Opponent drops weight forward and attacks your pushing arm with armbar or americana setup** (Effectiveness: Medium) - Your Response: Withdraw the pushing arm quickly and keep elbows tight to body — the arm attack requires them to release some knee pressure, creating an escape opportunity through hip escape → Leads to [[Positions/Knee on Belly]]
@@ -256,6 +264,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Push Knee and Reguard from Knee on Belly?</p>
 
 ### 1. Pushing straight up against the knee instead of diagonally across the body
 
@@ -295,6 +305,8 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Push Knee and Reguard from Knee on Belly (Attacker)?</p>
+
 **Foundation** - Mechanics and coordination
 Practice the push-and-hip-escape coordination without resistance. Partner holds light knee on belly while you drill the sequence: turn, grip knee, push diagonally, hip escape, insert knee shield, close guard. 50 repetitions per side focusing on smooth, connected motion.
 
@@ -315,42 +327,12 @@ Positional sparring from KOB with full resistance. Top player scores by maintain
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What direction should you push the opponent's knee when executing this escape?
-**A**: Push the knee diagonally across your body toward the far-side mat, not straight up. Pushing upward fights gravity and the opponent's weight directly, which is inefficient and exhausting. The diagonal push redirects the knee off your centerline while your hips escape in the opposite direction, creating maximum separation with minimal force expenditure.
-
-**Q2**: Why must the hip escape happen simultaneously with the push rather than sequentially?
-**A**: The push only creates a momentary window where the knee is displaced from your torso. Without simultaneous hip escape, the opponent simply re-plants their knee before you have changed position. The combined motion ensures that by the time the opponent recovers their knee position, your hips have already moved far enough to insert a knee shield and begin guard recovery.
-
-**Q3**: Your opponent responds to your push by sliding their knee across toward mount — how do you prevent this?
-**A**: Insert your knee shield immediately as you push. The shin barrier between your bodies prevents the opponent from sliding their knee across to mount. If you feel them shifting toward mount, prioritize the knee shield over completing the guard closure — a knee shield half guard position is far better than ending up in full mount under consolidated control.
-
-**Q4**: When is this escape most effective versus when should you choose a different KOB escape?
-**A**: This escape works best when the opponent commits heavy, downward pressure through their knee — the committed weight provides a solid target to push against and displace. Against a light, mobile KOB where the opponent is actively transitioning and shifting weight, frame-and-shrimp escapes are more effective because there is less committed weight to push against and more movement-based space to exploit.
-
-**Q5**: What grip should your near-side hand use on the opponent's knee?
-**A**: Curl your fingers around the inside of the opponent's kneecap, gripping the soft tissue behind the knee joint. This grip allows you to both push and redirect the knee off your centerline. Avoid grabbing the top of the knee or the pants fabric above the knee, as these grips provide less mechanical advantage for displacing the knee from your torso.
-
-**Q6**: Why is it critical to keep your elbows close to your body during the push?
-**A**: Extended arms with locked elbows create an armbar opportunity for the top player, who can simply capture your straight arm and attack. Keeping elbows bent and tight to your ribs uses body structure rather than arm strength to generate pushing force, maintains protection against arm attacks, and allows you to retract quickly if the opponent attempts to isolate your limb.
-
-**Q7**: What should you do immediately after closing your guard following a successful escape?
-**A**: Immediately break the opponent's posture by pulling their collar down while driving your heels into their lower back. Establish dominant grips on collar and sleeve. The goal is to transition from defensive escape mode to offensive guard mode as quickly as possible, preventing the opponent from posturing up and potentially re-opening your guard to attempt another pass.
-
-**Q8**: How does this escape chain with other Knee on Belly escape techniques when the initial push fails?
-**A**: If the push is blocked and the opponent re-plants, immediately transition to a frame-and-shrimp escape using the frames already in place. If that is also blocked, turn to turtle as a last resort. Each attempt creates incremental space improvement even if the full escape fails. The key is maintaining continuous movement rather than repeating the same blocked technique, forcing the top player to solve multiple defensive problems in sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Push Knee and Reguard from Knee on Belly?</p>
 
 This escape involves explosive hip movement under significant compressive pressure on the torso. Avoid bridging hard directly against the knee as this can cause rib or costal cartilage injuries. If the opponent's knee is positioned on your sternum or directly on your ribs rather than the softer diaphragm area, be cautious about pushing forcefully against a bony contact point. Communicate with training partners about pressure levels during drilling to prevent rib injuries. During initial learning phases, have partners apply reduced pressure to allow proper mechanics development before adding resistance.
 

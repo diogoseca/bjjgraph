@@ -353,8 +353,8 @@ The system requires progressive drilling that builds from static technical work 
 - [[Smash Pass]] (Transition) - Aggressive pressure pass for collapsing butterfly and open guard structures
 - [[Guard Passing]] (Principle) - Fundamental concepts underlying all passing mechanics in system
 - [[Forward Pressure]] (Principle) - Constant offensive pressure principle maintaining passing initiative
-- [[Connection Breaking]] (Principle) - Essential skill for neutralizing defensive frames and grips
-- [[Frame Management]] (Principle) - Understanding and controlling defensive frames throughout passing sequences
+- [[Connection Principles]] (Principle) - Essential skill for managing defensive connections and establishing offensive grips
+- [[Frames]] (Principle) - Understanding defensive frames to systematically dismantle them during passing
 - [[Gordon Ryan Passing System]] (System) - Related modern passing framework with overlapping principles and techniques
 - [[No-Gi Tactical Framework]] (System) - Broader competitive strategy framework incorporating passing system elements
 - [[Bernardo Faria Pressure System]] (System) - Complementary pressure-based approach with applicable passing concepts

@@ -1,0 +1,392 @@
+{
+  "name": "Electric Chair from Electric Chair",
+  "description": "Master the Electric Chair finish from lockdown half guard. Complete guide to the groin-splitting submission with attacking execution and defense.",
+  "tags": [
+    "bjj",
+    "submission",
+    "electric-chair",
+    "lockdown",
+    "10th-planet",
+    "half-guard",
+    "groin-submission",
+    "no-gi"
+  ],
+  "from_position": "Electric Chair/Bottom",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Electric Chair/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "The Electric Chair is a devastating groin and hip-splitting submission executed from the lockdown half guard bottom position, serving as the terminal threat within the 10th Planet lockdown system. This technique converts the Electric Chair sweeping position into a direct submission by maximizing the splitting pressure on the opponent's trapped leg, targeting the groin, hip flexors, and inner thigh structures through coordinated extension of the lockdown, underhook pull, and ankle control. The submission shares mechanical similarities with the Banana Split but is distinguished by its specific entry from the lockdown configuration and the unique leverage angles created by the figure-four leg entanglement.\n\nThe finish relies on three synchronized control points working in concert: the lockdown maintaining downward pressure on the opponent's near leg, the deep underhook stretching their upper body in the opposite direction, and the far hand pulling their ankle outward to create the splitting action. When executed with proper timing and hip angle, the pressure builds progressively through the opponent's groin and hip flexor complex until it becomes overwhelming and forces a tap. The technique is most effective when the opponent has committed their weight forward to defend the Old School sweep, inadvertently limiting their ability to retract their trapped leg and close the split angle.\n\nAs a direct submission, the Electric Chair represents the ultimate threat that makes the entire lockdown sweeping game viable. Its primary strategic value lies in the dilemma it creates alongside the Old School sweep: opponents who base out to prevent being swept expose themselves to increased splitting pressure, while those who address the submission by pulling their leg back become light and vulnerable to positional reversals. This dual-threat dynamic forces opponents into a lose-lose situation that defines the tactical richness of the Electric Chair position.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard Lockdown Electric Chair",
+      "description": "The classic finish using full lockdown control with figure-four entanglement on the near leg. The bottom player secures a deep underhook, controls the far ankle, and extends their hips to create the splitting pressure. This is the highest-percentage variation when the lockdown is fully established.",
+      "when_to_use": "When you have a secure lockdown with deep underhook and your opponent's weight is committed forward, limiting their ability to retract the trapped leg."
+    },
+    {
+      "variant_name": "Rolling Electric Chair",
+      "description": "Instead of applying the split from a static position, the bottom player initiates a rolling motion similar to the Old School sweep but maintains the ankle grip to apply the submission during the roll. The rotational momentum amplifies the splitting pressure and can catch opponents who are prepared for the static version.",
+      "when_to_use": "When your opponent is defending the static split by keeping their hips low and base wide, the rolling motion creates unexpected angles and momentum that bypasses their defensive frame."
+    },
+    {
+      "variant_name": "Electric Chair to Banana Split Transition",
+      "description": "When the opponent partially defends the Electric Chair by extracting their leg from the lockdown, the attacker transitions to a conventional Banana Split by hooking both legs from behind in a crab ride position. This converts the lockdown-based split into a more traditional groin submission with different leverage mechanics.",
+      "when_to_use": "When the opponent begins to escape the lockdown but you still have control of their ankle, allowing you to transition to the crab ride hooks before they fully recover their leg position."
+    }
+  ],
+  "conditions": [
+    "Lockdown must be securely established with figure-four leg configuration trapping opponent's near leg",
+    "Deep underhook secured across opponent's back reaching to their far lat or belt",
+    "Control of opponent's near ankle or foot established with far hand",
+    "Hips angled approximately 45 degrees to opponent to create proper splitting leverage",
+    "Opponent's trapped leg sufficiently extended that splitting pressure can be applied progressively"
+  ],
+  "position_integration": "The Electric Chair occupies the terminal position within the lockdown half guard attacking hierarchy, serving as the primary submission threat that validates the entire system. Without this finishing capability, the Electric Chair position becomes purely a sweeping tool, and opponents can focus exclusively on base defense. The finish connects directly to the Banana Split submission family through shared groin-splitting mechanics and integrates with Truck transitions, Old School sweep attempts, and Deep Half Guard entries as part of a comprehensive chain attack system. Understanding this finish is essential for any practitioner developing a lockdown-based half guard game, as its mere threat forces opponents into defensive postures that open up all other attacking options from the position.",
+  "related_content": [
+    {
+      "name": "Electric Chair",
+      "relationship": "Source position from which this submission finish is executed"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Parent position system that enables the Electric Chair entry and control"
+    },
+    {
+      "name": "Banana Split",
+      "relationship": "Mechanically similar groin-splitting submission with different entry and control points"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Base guard system from which the lockdown and Electric Chair develop"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Alternative transition when opponent defends the finish by turning away"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Fallback transition when lockdown is compromised during finish attempt"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Primary sweep alternative that creates the sweep-or-submit dilemma with this finish"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Transition option when underhook is retained but lockdown breaks during the attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Electric Chair from Electric Chair Attacker",
+    "description": "How to execute the Electric Chair groin-splitting submission from lockdown half guard bottom. Complete attacking guide with setup, execution steps, and counter management.",
+    "overview": "The Electric Chair from the attacker's perspective is a methodical submission that converts the Electric Chair sweeping position into a fight-ending technique. As the bottom player, you leverage the lockdown's leg control, a deep underhook, and precise ankle manipulation to create an inescapable splitting pressure through your opponent's groin and hip flexors. Success requires patient setup, proper hip angle, and the ability to coordinate all three control points simultaneously while managing your opponent's defensive reactions. The finish rewards technical precision over raw strength, as the mechanical advantage of the position amplifies relatively small movements into devastating submission pressure.",
+    "key_principles": [
+      "Maintain constant lockdown tension throughout the entire finish sequence, as any loosening allows the opponent to close the split and neutralize the submission",
+      "Coordinate all three control points simultaneously: lockdown legs driving down, underhook pulling upper body, and hand controlling ankle outward",
+      "Apply splitting pressure progressively and steadily rather than in explosive bursts, allowing the mechanics to compound and preventing the opponent from timing an explosive escape",
+      "Angle your hips perpendicular to your opponent to maximize the splitting leverage, creating the widest possible base for the split",
+      "Use hip extension as the primary force generator rather than arm pulling, as your hips are far stronger and create more sustainable pressure",
+      "Time the finish attempt for when your opponent has committed their weight forward to defend the sweep, trapping themselves in the submission",
+      "Maintain head and shoulder contact with your opponent throughout to prevent them from creating the space needed to rotate out of the split"
+    ],
+    "setup_requirements": [
+      "Secure lockdown with proper figure-four configuration: bottom leg heel hooked on opponent's thigh, top leg triangled behind their knee with constant downward pressure",
+      "Deep underhook threaded across opponent's back with hand gripping their far lat or belt, creating maximum extension control and preventing posture",
+      "Far hand controlling opponent's near ankle or foot, pulling it toward your outside hip to initiate the splitting angle",
+      "Hips angled approximately 45 degrees relative to opponent, positioning your body to create perpendicular force on their trapped leg",
+      "Opponent's weight committed forward or their trapped leg sufficiently extended that retraction is mechanically difficult"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify lockdown integrity",
+        "description": "Confirm your lockdown is secure with your bottom leg's heel hooked firmly on your opponent's inner thigh and your top leg's foot triangled behind your own bottom knee. Apply downward pressure to test the hold and ensure there is no slack that would allow your opponent to extract their leg during the finish attempt."
+      },
+      {
+        "step_number": 2,
+        "action": "Deepen the underhook",
+        "description": "Drive your underhook arm deeper across your opponent's back until your hand reaches their far lat muscle or belt line. Pull yourself tight against their body, eliminating any space between your chest and their torso. This deep underhook serves dual purposes: it prevents them from posturing away and creates the upper body extension that amplifies the splitting pressure."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure ankle control",
+        "description": "Release your far hand from any existing grip and secure your opponent's near ankle or foot, wrapping your fingers around the ankle joint or cupping the heel. Begin pulling the ankle toward your outside hip with steady pressure, initiating the splitting action between their legs while maintaining lockdown tension with your legs."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish finishing angle",
+        "description": "Rotate your hips away from your opponent to achieve approximately a 45-degree angle relative to their body. This hip rotation is critical because it converts the split from a linear stretch into a perpendicular force that maximizes pressure on the groin and hip flexors. Keep your shoulders connected to your opponent throughout the rotation to prevent them from following your angle change."
+      },
+      {
+        "step_number": 5,
+        "action": "Apply coordinated splitting pressure",
+        "description": "Simultaneously extend your lockdown legs downward to push their trapped leg away, pull with your underhook to stretch their upper body in the opposite direction, and draw their controlled ankle outward toward your hip. These three vectors of force create a compound splitting effect that targets the groin, hip flexors, and adductor muscles from multiple angles, making the pressure inescapable."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive hips for the finish",
+        "description": "Bridge your hips upward while maintaining all three control points to add vertical force to the splitting pressure. This hip extension amplifies the submission exponentially, as your hip muscles generate far more force than your arms alone. Apply the pressure progressively, increasing the bridge height steadily rather than jerking, giving your opponent time to tap while making the pressure relentless and inescapable."
+      },
+      {
+        "step_number": 7,
+        "action": "Control the tap and release",
+        "description": "Maintain awareness of your opponent's tap signals throughout the finishing sequence, including hand taps, verbal taps, and foot taps. When you feel or hear the tap, immediately release all three control points simultaneously: relax the lockdown, release the ankle, and stop the underhook extension. Do not hold the split after the tap, as this submission can cause rapid damage to the groin and hip structures once the tolerance threshold is exceeded."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Straightening and internally rotating the trapped leg to close the split angle",
+        "effectiveness": "High",
+        "your_response": "Increase lockdown downward pressure to prevent leg straightening. If they begin to succeed, immediately transition to the Old School sweep by rolling backward, using their leg extension against them as momentum for the reversal.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Driving weight forward and establishing crossface to flatten the bottom player",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward pressure against them by extending your hips upward as they drive forward, amplifying the split. Their forward commitment actually makes leg retraction harder. If they flatten you, maintain lockdown and ankle control while working back to your side.",
+        "targets_outcome": "Electric Chair/Bottom"
+      },
+      {
+        "counter": "Hip rotation toward the attacker to close the splitting angle and stack",
+        "effectiveness": "Medium",
+        "your_response": "Pull with the underhook to prevent their rotation from completing. If they successfully rotate partially, adjust your hip angle to maintain perpendicular force. Consider transitioning to Truck entry if their rotation exposes their back.",
+        "targets_outcome": "Electric Chair/Bottom"
+      },
+      {
+        "counter": "Stripping the ankle grip by pulling foot free or pushing the controlling hand away",
+        "effectiveness": "High",
+        "your_response": "Regrip immediately if possible, switching between heel cup and ankle wrap grips. If ankle control is fully lost, the finish is no longer viable. Immediately transition to Old School sweep using the remaining lockdown and underhook control before opponent can fully recover.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the finish without establishing proper hip angle first",
+        "consequence": "The splitting pressure is directed linearly rather than perpendicularly, reducing effectiveness by 40-50% and allowing the opponent to resist with simple leg straightening",
+        "correction": "Always rotate your hips to approximately 45 degrees before applying significant splitting pressure, creating the perpendicular force angle that makes the submission mechanically overwhelming"
+      },
+      {
+        "error": "Releasing lockdown tension while focusing on the ankle grip",
+        "consequence": "Opponent extracts their trapped leg and immediately passes to side control, losing the entire Electric Chair position",
+        "correction": "Maintain constant lockdown downward pressure throughout all grip changes. Practice the transition from underhook-only to underhook-plus-ankle without any lockdown slack"
+      },
+      {
+        "error": "Using arm strength to pull the split rather than hip extension",
+        "consequence": "Arms fatigue quickly, pressure is insufficient against larger opponents, and the submission becomes a strength contest rather than a mechanical advantage",
+        "correction": "Drive your hips upward as the primary force generator for the split. Arms maintain position and direction while hips provide the power through bridging"
+      },
+      {
+        "error": "Applying the split with an explosive jerk rather than progressive pressure",
+        "consequence": "Risk of injuring your training partner's groin or hip flexors before they have time to tap, and the explosive movement may compromise your own grip positions",
+        "correction": "Apply the split steadily and progressively, increasing pressure over 2-3 seconds. This allows your partner to tap safely while also maintaining your control points throughout the finish"
+      },
+      {
+        "error": "Shallow underhook that only reaches opponent's near side",
+        "consequence": "Insufficient upper body extension means the split lacks the opposing force needed to maximize groin pressure, and opponent can posture up to relieve the submission",
+        "correction": "Thread the underhook deep until your hand reaches the opponent's far lat or belt. This creates the maximum possible extension and prevents them from creating distance"
+      },
+      {
+        "error": "Failing to time the finish with opponent's defensive commitment",
+        "consequence": "Opponent is balanced and prepared, making the submission significantly harder to complete as they can address all three control points simultaneously",
+        "correction": "Initiate the finish when opponent commits their weight forward to defend the sweep or when they attempt to break the lockdown, as these movements limit their ability to simultaneously address the splitting pressure"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Individual control point development",
+        "description": "Practice each component separately: lockdown maintenance under pressure, deep underhook threading, and ankle control acquisition. Drill the hip angle rotation without resistance. Focus on smooth transitions between grip positions without losing lockdown tension."
+      },
+      {
+        "phase": "Phase 2: Coordinated Application",
+        "focus": "Synchronizing all three control points",
+        "description": "With a compliant partner, practice the full finishing sequence from established Electric Chair position. Focus on coordinating lockdown extension, underhook pull, and ankle control simultaneously. Partner provides feedback on pressure distribution and tap timing. Perform 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Finishing against defensive reactions",
+        "description": "Partner defends with increasing intensity: first only leg straightening, then adding crossface, then full defensive reactions. Practice recognizing when the finish is available versus when to transition to sweeps or other attacks. Develop sensitivity to the point where the submission becomes effective."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Combining finish with sweep threats",
+        "description": "Drill the Old School sweep to Electric Chair chain and vice versa. Practice reading opponent's defensive choices and selecting the appropriate attack. Include transitions to Truck and Deep Half when the finish is fully defended. Focus on flow between options without resetting position."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Competition-speed application",
+        "description": "Start from established Electric Chair position with all grips. Bottom player works for sweep or submission finish. Top player works to escape lockdown and pass. Full resistance with controlled intensity. Track finish rate over multiple rounds to identify areas for improvement."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the optimal timing window for initiating the Electric Chair?",
+        "answer": "The optimal timing is when your opponent commits their weight forward to defend the Old School sweep or when they attempt to drive through with crossface pressure. This forward commitment makes it mechanically difficult for them to retract their trapped leg, and their defensive weight distribution actually amplifies the splitting pressure as they cannot simultaneously address the submission threat and maintain their base."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the Electric Chair?",
+        "answer": "Three conditions must be met: a secure lockdown with no slack in the figure-four configuration, a deep underhook reaching across the opponent's back to their far lat or belt, and control of the opponent's near ankle with your far hand. Additionally, your hips should be angled approximately 45 degrees to create perpendicular splitting force. Attempting the finish without any of these components reduces effectiveness dramatically."
+      },
+      {
+        "question": "What is the critical mechanical detail that makes the Electric Chair effective?",
+        "answer": "The perpendicular hip angle is the most critical mechanical detail. By rotating your hips approximately 45 degrees away from your opponent, you transform the splitting force from a linear pull into a perpendicular wedge that targets the groin and hip flexors at their weakest angle. This perpendicular force is what distinguishes an effective finish from a position that an opponent can simply resist through leg strength."
+      },
+      {
+        "question": "What are the most common failure points when attempting this submission?",
+        "answer": "The three most common failure points are: losing lockdown tension while securing the ankle grip, which allows leg extraction; using arm strength instead of hip extension to power the split, which fatigues quickly; and failing to establish the proper hip angle before applying pressure, which allows the opponent to resist through simple leg straightening. Each of these failures converts the submission attempt into a wasted effort that may expose you to guard passes."
+      },
+      {
+        "question": "What grip configuration provides the most secure ankle control during the finish?",
+        "answer": "The heel cup grip, where your palm wraps around the back of the heel with fingers curling under the Achilles tendon, provides the most secure hold because it captures the narrowest part of the ankle structure. This grip resists stripping better than a mid-foot grip and allows you to redirect the ankle pull direction throughout the finish. If the heel cup is not available, a C-grip around the ankle joint with thumb on one side serves as an effective alternative."
+      },
+      {
+        "question": "What is the primary direction of force application in this submission?",
+        "answer": "The primary force direction is a perpendicular split created by three opposing vectors: the lockdown drives the opponent's trapped leg downward and away, the underhook pulls their upper body toward you and upward, and the ankle control pulls their near leg outward toward your hip. The hip bridge adds a vertical component that amplifies all three vectors simultaneously. The result is a compound splitting force through the groin that cannot be resisted from a single defensive direction."
+      },
+      {
+        "question": "Your opponent begins straightening their trapped leg to resist the split - how do you adjust?",
+        "answer": "Increase lockdown downward pressure immediately by pulling your heel down harder on their thigh. If they continue straightening, their extension actually creates momentum you can redirect by transitioning to the Old School sweep, rolling backward while maintaining the underhook. Their straight leg becomes a lever that amplifies the sweep. If you want to maintain the submission attempt, re-angle your hips to find a new perpendicular vector against their straightened leg."
+      },
+      {
+        "question": "If the Electric Chair is blocked, what are the most effective chain attacks?",
+        "answer": "The primary chain attack is the Old School sweep, which uses the same lockdown and underhook control but redirects the energy from splitting into rolling reversal. If the opponent defends both, transitioning to the Truck by using their leg extraction attempt to insert crab ride hooks is highly effective. A third option is flowing to Deep Half Guard by diving underneath the opponent when the lockdown is partially compromised, maintaining offensive initiative rather than resetting to neutral half guard."
+      }
+    ],
+    "safety_considerations": "The Electric Chair targets the groin, hip flexors, and adductor muscles with intense splitting pressure that can cause severe injury if applied recklessly. Always apply the split progressively over 2-3 seconds rather than jerking or exploding into the finish, as the groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded. Release all control points immediately upon feeling or hearing any tap signal, including hand taps, verbal taps, and foot taps. Be especially cautious with training partners who have pre-existing hip, groin, or knee injuries, as the Electric Chair places significant stress on all of these structures simultaneously. In training, communicate with your partner about pressure levels and establish clear tap protocols before drilling this submission. Never hold the split after a tap, as even a few additional seconds of pressure can cause muscle tears or ligament damage."
+  },
+  "defender": {
+    "name": "Electric Chair from Electric Chair Defender",
+    "description": "How to defend and escape the Electric Chair groin-splitting submission in BJJ. Recognition cues, defensive options, and escape strategies from lockdown bottom attacks.",
+    "overview": "Defending the Electric Chair requires immediate recognition and decisive action, as this submission applies rapidly escalating pressure to the groin, hip flexors, and inner thigh once the attacker establishes their finishing angle. As the top player caught in the Electric Chair position, your primary defensive objective is to prevent the attacker from achieving the perpendicular hip angle that maximizes splitting force while working to strip their ankle grip or extract your trapped leg from the lockdown. Early recognition is critical because the submission becomes exponentially harder to defend once the attacker coordinates all three control points and begins their hip extension. Your defensive strategy should prioritize closing the split angle through hip rotation and leg retraction while maintaining enough base to prevent being swept, understanding that the attacker will attempt to exploit any sweep defense to amplify the submission pressure.",
+    "key_principles": [
+      "Recognize the transition from Electric Chair control to finish attempt immediately by monitoring for ankle grip acquisition and hip angle changes",
+      "Keep your trapped leg bent with internal rotation to resist the splitting force, never allowing full leg extension",
+      "Drive your weight forward and maintain chest-to-chest contact to limit the attacker's ability to create the perpendicular hip angle needed for the finish",
+      "Prioritize stripping the ankle grip as your primary defensive action, since the finish cannot be completed without ankle control",
+      "Rotate your hips toward the attacker to close the splitting angle rather than pulling away, which often worsens the stretch",
+      "Maintain composure and breathe steadily despite the uncomfortable pressure, as panicking leads to explosive movements that often result in worse positions"
+    ],
+    "recognition_cues": [
+      "Bottom player releases one hand from their underhook control to reach for your near ankle or foot, signaling the transition from sweep threat to submission attempt",
+      "You feel increasing splitting pressure through your groin and inner thigh as the bottom player extends their lockdown while controlling your ankle",
+      "Bottom player rotates their hips away from you to establish a perpendicular angle, which dramatically increases the mechanical advantage of the split",
+      "The lockdown pressure shifts from a lateral pull to a combined downward and outward force as the attacker coordinates all three control points for the finish"
+    ],
+    "defensive_options": [
+      {
+        "action": "Strip the ankle grip by pushing the attacker's controlling hand off your ankle using your free hand or knee pressure",
+        "when_to_use": "As soon as you detect the bottom player reaching for your ankle, before they can secure a deep grip. This is the highest-priority defense as the finish requires ankle control.",
+        "targets_outcome": "Electric Chair/Bottom",
+        "if_successful": "The attacker loses the ability to complete the finish and must either re-acquire the ankle grip or transition to a sweep attempt, giving you time to work on lockdown escape",
+        "risk": "If you overcommit your free hand to grip stripping, you lose your posting base and become vulnerable to the Old School sweep"
+      },
+      {
+        "action": "Internally rotate and bend your trapped leg while driving your knee toward the mat to close the split angle",
+        "when_to_use": "When you feel the splitting pressure beginning to increase and the attacker has established ankle control. This directly counters the perpendicular force angle.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You neutralize the splitting pressure and may create enough slack in the lockdown to begin leg extraction, transitioning back to regular half guard top",
+        "risk": "If the leg rotation is insufficient, you remain in the Electric Chair with the attacker maintaining all control points and able to re-attempt the finish"
+      },
+      {
+        "action": "Drive your weight forward with crossface pressure to flatten the bottom player and prevent hip angle rotation",
+        "when_to_use": "When the attacker begins rotating their hips to establish the perpendicular finishing angle. Your forward pressure limits their rotation range.",
+        "targets_outcome": "Electric Chair/Bottom",
+        "if_successful": "The attacker cannot achieve the perpendicular angle needed for maximum splitting force, reducing the finish to a manageable pressure that you can endure while working the lockdown escape",
+        "risk": "Excessive forward pressure can be redirected by the attacker into an Old School sweep, as your momentum commitment makes you vulnerable to being rolled"
+      },
+      {
+        "action": "Whizzer the underhooking arm and sprawl hips away to break the underhook connection",
+        "when_to_use": "When the attacker's underhook is the primary force preventing you from posturing up and relieving the split. Most effective early in the finish sequence.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Breaking the underhook eliminates one of the three control points, dramatically reducing the splitting pressure and opening opportunities to extract your trapped leg",
+        "risk": "Sprawling your hips can momentarily increase the split angle if your leg remains trapped, potentially worsening the submission before you break free"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Successfully strip the ankle grip and internally rotate your trapped leg while driving forward with crossface pressure. Once the split angle closes, work systematically to break the lockdown figure-four by addressing the foot triangle. Extract your leg by driving your knee toward the attacker's hip and transition to standard half guard top passing position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling your trapped leg straight back away from the attacker",
+        "consequence": "Linear pulling increases the torque on your knee and actually deepens the split angle, making the submission more effective and risking knee injury",
+        "correction": "Internally rotate your leg and bend the knee while driving it toward the mat, closing the split angle rather than fighting the lockdown tension directly"
+      },
+      {
+        "error": "Leaning back or posting hands behind you to create distance",
+        "consequence": "Gives the attacker the ideal perpendicular angle for maximum splitting pressure and removes your ability to apply forward pressure that limits their hip rotation",
+        "correction": "Drive your weight forward with chest and shoulder pressure against the attacker, keeping your center of gravity over their body to limit their hip extension range"
+      },
+      {
+        "error": "Ignoring the ankle grip while attempting to break the lockdown",
+        "consequence": "Even if you partially break the lockdown, the ankle grip allows the attacker to maintain the split and may lead to a Banana Split transition with different control points",
+        "correction": "Prioritize stripping the ankle grip first, as this single control point is essential for the finish. Use your free hand or knee to address the ankle before working the lockdown escape"
+      },
+      {
+        "error": "Panicking and making explosive movements to escape the split",
+        "consequence": "Explosive movements often result in giving up back control or being swept, and the jerking motion can cause self-injury to your groin and hip flexors",
+        "correction": "Stay calm and work methodically through the defensive sequence: strip ankle grip, close split angle with leg rotation, drive forward, then address lockdown. Controlled movements are both safer and more effective"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest recognition cue that the Electric Chair is being attempted?",
+        "answer": "The earliest cue is when the bottom player releases one hand from their underhook or other upper body control to reach for your near ankle. This grip change signals the transition from sweep threat to submission attempt and represents your best window for defense, as the finish requires ankle control to create the splitting action."
+      },
+      {
+        "question": "Why is stripping the ankle grip prioritized over breaking the lockdown when defending?",
+        "answer": "The ankle grip is the control point that creates the splitting action which defines the Electric Chair. Without ankle control, the attacker can only apply lockdown pressure and underhook extension, which creates sweep threats but not the perpendicular groin split needed for the submission. Breaking the lockdown is harder, takes longer, and the attacker can often re-engage it, whereas stripping the ankle grip immediately neutralizes the submission threat."
+      },
+      {
+        "question": "How should you rotate your hips to defend the Electric Chair?",
+        "answer": "Rotate your hips toward the attacker rather than away from them. Rotating toward the attacker closes the splitting angle by bringing your trapped leg closer to your free leg, reducing the perpendicular force on your groin. Rotating away from the attacker actually increases the split angle and makes the submission more effective. Combined with internal rotation of the trapped leg and forward driving pressure, hip rotation toward the attacker is the most effective way to neutralize the finish."
+      },
+      {
+        "question": "What is the risk of defending too aggressively with forward pressure against the Electric Chair?",
+        "answer": "Excessive forward pressure makes you vulnerable to the Old School sweep, which uses the same lockdown and underhook control but redirects your momentum into a backward roll. The attacker can exploit your committed forward weight by releasing the ankle grip and rolling you over. The key is to apply enough forward pressure to limit their hip angle without committing so much weight that you cannot recover base if they initiate the sweep."
+      },
+      {
+        "question": "When should you tap rather than continue defending the Electric Chair?",
+        "answer": "Tap immediately if you feel sharp pain in your groin, hip flexor, or inner thigh, or if the splitting pressure reaches a level where you cannot close the angle through any defensive action. The groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded, and the injury risk increases exponentially as the split deepens. In training, there is no benefit to enduring dangerous levels of splitting pressure. Tap early, reset, and work on earlier defensive recognition."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Response",
+        "focus": "Identifying the transition from Electric Chair control to finish attempt",
+        "description": "Partner establishes Electric Chair position and slowly transitions to the finish. Defender practices recognizing each stage: ankle grip acquisition, hip angle change, and splitting pressure initiation. Focus on identifying the earliest possible intervention point without resistance. Repeat until recognition becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Controlled Defense Drilling",
+        "focus": "Executing defensive techniques against progressive pressure",
+        "description": "Partner applies the Electric Chair with 50% intensity. Defender works through the defensive sequence: strip ankle grip, close split angle through leg rotation, drive forward, address lockdown. Partner provides feedback on timing and effectiveness. Gradually increase resistance as defender develops proficiency."
+      },
+      {
+        "phase": "Phase 3: Decision Training Under Pressure",
+        "focus": "Choosing between defensive options based on attacker's adjustments",
+        "description": "Partner varies their attacking approach: sometimes focusing on the finish, sometimes transitioning to the sweep when defense is offered. Defender must read the attacker's intent and select the appropriate defensive response without over-committing to any single option. Practice at 70-80% intensity with full positional resets."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Defending the finish under full competition conditions",
+        "description": "Start from established Electric Chair position with bottom player having all grips. Full resistance from both partners with controlled intensity. Defender works to escape the position entirely while managing the submission threat. Track escape rate and identify remaining defensive gaps over multiple rounds."
+      }
+    ]
+  }
+}

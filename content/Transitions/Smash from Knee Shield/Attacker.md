@@ -194,6 +194,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash from Knee Shield?</p>
+
 - Angle your body at 45 degrees to the knee shield rather than driving straight into it—this redirects the frame's force away from your centerline and reduces its structural effectiveness
 - Establish crossface control before attempting to collapse the shield—upper body dominance prevents sweeps during the smash sequence and controls the opponent's ability to turn
 - Control the knee shield leg at the ankle or pants to limit the bottom player's ability to adjust shield height, angle, and re-insertion after partial collapse
@@ -208,6 +210,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash from Knee Shield?</p>
+
 - Established in Knee Shield Half Guard top position with stable base and knees positioned wide on either side of opponent's hips
 - Crossface or collar grip secured to control opponent's head and prevent them from turning into you for underhook access
 - Grip on opponent's knee shield ankle or pants leg to control shield mobility and prevent angle adjustments
@@ -220,6 +224,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash from Knee Shield step by step?</p>
 
 1. **Establish crossface control**: Secure crossface control with your near arm by driving your shoulder into the opponent's jaw and chin line. Your forearm wraps behind their head, preventing them from turning toward you to establish an underhook. This upper body control is the foundation of the entire smash sequence and must be locked in before proceeding.
 2. **Grip the knee shield ankle**: With your far hand, reach down and grip the opponent's knee shield ankle or pants at the ankle. This grip limits their ability to adjust the shield's height and angle, and provides the handle you need to redirect the leg across their body. In no-gi, cup the heel or control the shin just above the ankle bone.
@@ -250,6 +256,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash from Knee Shield?</p>
+
 - **Hip escape to recreate distance and re-angle knee shield frame** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, maintaining crossface pressure and ankle grip. Do not allow space to open between your shoulder and their chest. Reset your angle if needed but never release both grips simultaneously. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Pummel for underhook and come up to knees for dogfight sweep** (Effectiveness: Medium) - Your Response: Immediately whizzer their underhook arm and drive your weight forward. Use your crossface shoulder to prevent them from turning their body upright. If they get the underhook, switch to overhook control and drive them back flat before they establish the dogfight. → Leads to [[Positions/Half Guard]]
 - **Frame on shoulder and bicep to block pressure descent into chest** (Effectiveness: High) - Your Response: Swim your arm inside their elbow frame to strip the secondary frame, then immediately re-apply shoulder pressure. Use short explosive bursts of pressure to overwhelm individual frames rather than grinding against both frames simultaneously. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
@@ -261,6 +269,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash from Knee Shield?</p>
 
 ### 1. Driving straight into the knee shield with chest facing directly into the shin barrier
 
@@ -300,6 +310,8 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Smash from Knee Shield (Attacker)?</p>
+
 **Phase 1: Mechanics** - Body angle and pressure vectors
 Practice the 45-degree angle and shoulder pressure mechanics with a compliant partner. Focus on feeling the difference between driving into the shield versus around it. Drill crossface establishment and ankle grip placement at slow speed until the body angle becomes automatic.
 
@@ -317,42 +329,12 @@ Positional sparring starting from knee shield half guard top. Apply the full sma
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the smash against an established knee shield?
-**A**: The optimal moment is after you have secured both crossface control and ankle grip on the knee shield leg. Initiating before both grips are established leaves you vulnerable to sweeps and allows the opponent to adjust their shield. Additionally, wait for a moment when the opponent's far arm is occupied with a grip rather than available for framing—this reduces their ability to resist the incoming pressure.
-
-**Q2**: Why should you angle your body at 45 degrees rather than driving straight into the knee shield?
-**A**: The knee shield is at maximum structural strength when force is applied perpendicular to the shin. At 45 degrees, you redirect the frame's resistance away from your centerline, reducing its effectiveness by approximately half. The angle also positions your shoulder to drive into the opponent's upper chest rather than into the shin bone, creating a compressive force that works from above the shield rather than against its strongest axis.
-
-**Q3**: What grips must be established before attempting to collapse the knee shield?
-**A**: Two primary grips are required: crossface control with the near arm to prevent the opponent from turning and establishing an underhook, and ankle or pants grip on the knee shield leg with the far hand to control shield mobility and enable redirection. In gi, a cross-collar grip can substitute for the crossface. Without both grips, the smash becomes a scramble rather than a systematic collapse.
-
-**Q4**: What happens if you attempt to smash without controlling the knee shield ankle?
-**A**: Without ankle control, the opponent can freely adjust their shield's height and angle in real time to counter your pressure direction. They can raise the shield higher to block your shoulder advance, lower it to threaten sweeps, or re-angle it to maintain maximum structural resistance. The ankle grip is what removes the opponent's ability to dynamically adapt the shield, making the collapse possible through a fixed target.
-
-**Q5**: In which direction should you redirect the knee shield leg to collapse the frame?
-**A**: Push the knee shield leg across the opponent's body toward their far hip. This direction collapses the shield by changing the shin angle from perpendicular (strongest) to parallel with their body (weakest). The lateral redirection works in concert with your downward shoulder pressure to create a scissoring effect that breaks the frame's structural integrity. Never push the leg upward or outward as this strengthens the shield.
-
-**Q6**: Your opponent hip escapes and re-angles their knee shield as you begin the smash. How do you adjust?
-**A**: Follow their hip movement with your own hips immediately—do not let them create distance between your bodies. Maintain your crossface control throughout the adjustment, as releasing it allows them to turn and establish an underhook. Re-establish your 45-degree angle relative to their new shield position and restart the progressive pressure. If they hip escape aggressively, consider switching to a knee slice or backstep that capitalizes on the angle they just created.
-
-**Q7**: If the initial smash attempt fails and the opponent recovers their shield, what follow-up techniques should you chain?
-**A**: Immediately chain into a knee slice attempt while maintaining your crossface—the opponent often over-commits their shield to a high defensive position after successfully defending a smash, creating space for the knee to slice through low. Alternatively, feint the smash again and backstep over the shield leg when they commit their frames forward. The long step pass is another effective follow-up as the opponent's defensive energy is directed toward forward smash defense rather than lateral passing threats.
-
-**Q8**: What is the role of crossface control during the entire smash sequence?
-**A**: The crossface serves three critical functions throughout the smash: it prevents the opponent from turning toward you to establish an underhook, it provides the primary pressure vector by driving your shoulder into their jawline and upper chest, and it controls their head position which dictates their overall body movement capabilities. Without crossface, the opponent can freely rotate their torso, adjust their hips, and counter the smash with underhook-based sweeps or back takes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash from Knee Shield?</p>
 
 The smash from knee shield involves significant compressive pressure on the opponent's torso and knee joint. Apply pressure gradually during training to allow your partner to tap or adjust position. Be particularly cautious when redirecting the knee shield leg laterally—forcing the knee beyond its natural range of motion can strain the MCL or LCL. Avoid dropping full bodyweight explosively onto a training partner's collapsed shield position. Always respect tap signals immediately and release pressure when your training partner indicates discomfort in their knee, ribs, or neck from the crossface pressure.
 

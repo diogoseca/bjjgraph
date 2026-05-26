@@ -194,6 +194,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bow and Arrow Setup from Standing Back?</p>
+
 - Obtain the collar grip before initiating the takedown to ensure the choking configuration is established during the most accessible phase of the attack
 - Maintain unbroken chest-to-back connection throughout the entire transition from standing to ground to prevent any separation that enables escape
 - Use the collar grip as both a positional control tool and a submission threat to create defensive dilemmas that split the opponent's attention
@@ -208,6 +210,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bow and Arrow Setup from Standing Back?</p>
+
 - Established standing back control with tight seat belt grip and consistent chest-to-back pressure
 - Gi collar accessible on the choking side with sufficient slack to insert four fingers deep into the fabric
 - At least one hook compromising the opponent's base or body positioning creating instability they must manage
@@ -220,6 +224,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bow and Arrow Setup from Standing Back step by step?</p>
 
 1. **Confirm seat belt control and chest connection**: Verify your seat belt grip is tight with your choking-side arm over the opponent's shoulder and your control arm under their armpit, hands clasped together. Your chest must be glued to their back with constant forward pressure. Hooks should be compromising their base. This confirmation prevents attempting the collar grip transition from an unstable starting position.
 2. **Threaten the rear naked choke**: Use your over-shoulder arm to actively threaten the rear naked choke by sliding toward the opponent's chin. This forces their hands up to defend the neck, diverting attention from their collar and reducing their ability to fight the upcoming grip change. The choke threat is genuine but also serves as a setup—when both their hands commit to your choking arm, the collar is undefended.
@@ -250,6 +256,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bow and Arrow Setup from Standing Back?</p>
+
 - **Opponent strips collar grip with two-on-one hand control before it is secured deep** (Effectiveness: High) - Your Response: Immediately return to seat belt control and threaten the rear naked choke again before reattempting the collar grip. Alternatively, if the opponent's grip stripping pulls them off balance, capitalize by converting directly to a rear naked choke attempt or taking them down without the collar grip. → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent drops weight and widens base to resist the sit-down takedown** (Effectiveness: Medium) - Your Response: Use the collar grip to break their posture forward rather than pulling backward. When their head drops, their base weakens regardless of stance width. Alternatively, transition to a trip or foot sweep using your hooks while maintaining the collar grip to off-balance them laterally. → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent turns into attacker during the descent, fighting to face and recover guard** (Effectiveness: Medium) - Your Response: Maintain the collar grip and follow their rotation—if they turn enough to face you, the collar grip converts into a cross-collar choke threat from front headlock. If they only partially turn, use the collar grip to pull them back to back exposure as you complete the takedown. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bow and Arrow Setup from Standing Back?</p>
 
 ### 1. Releasing the seat belt before the collar grip is secured, creating a window with no upper body control
 
@@ -300,6 +310,8 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bow and Arrow Setup from Standing Back (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Collar grip insertion and seat belt transition
 Practice the hand transition from seat belt to collar grip repeatedly with a stationary, cooperative partner. Focus on speed and depth of collar insertion, minimizing the time with no upper body control. Drill 50 repetitions per session until the grip change is fluid and automatic.
 
@@ -320,39 +332,12 @@ Integrate the bow and arrow setup into live sparring rounds starting from standi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for releasing the seat belt to obtain the collar grip?
-**A**: The optimal window is when the opponent commits both hands to defending the rear naked choke threat. At this moment, their hands are occupied above their neck and cannot interfere with the collar grip transition. The attacker should actively create this window by threatening the RNC first, then executing the grip change during the opponent's defensive reaction.
-
-**Q2**: Why must the collar grip be obtained before initiating the sit-down takedown?
-**A**: Obtaining the collar grip while standing provides a mechanical advantage because the collar is more accessible in the vertical position and the opponent's hand fighting is compromised by the need to maintain balance. Once on the ground, the opponent can flatten defensively and use both hands specifically to prevent collar access, making grip establishment significantly more difficult.
-
-**Q3**: Your opponent strips your collar grip immediately after you release the seat belt—how do you respond?
-**A**: Immediately return to the seat belt configuration by reclaiming the over-shoulder and under-armpit control. Do not persist with a lost collar grip attempt while lacking upper body control. Re-establish the seat belt, confirm chest-to-back pressure and hook security, then threaten the rear naked choke again to recreate the window for a second collar grip attempt.
-
-**Q4**: What is the critical difference between falling backward and sitting to the hip during the takedown?
-**A**: Falling straight backward lands you flat on your back with the opponent stacked on top, making hook maintenance difficult and allowing them to posture up and escape. Sitting to the choking-side hip creates a 45-degree angle that preserves hook position, prevents stacking, and immediately establishes the angular body position needed for the bow and arrow finishing mechanics.
-
-**Q5**: Your opponent widens their base and drops their weight when they feel the collar grip—what adjustment do you make?
-**A**: Rather than pulling them backward against their base, use the collar grip to break their posture forward and downward. When their head drops below their hips, their wide base becomes irrelevant because their center of gravity has shifted. Alternatively, use your hooks to execute a lateral trip while maintaining the collar grip to off-balance them sideways where their wide stance provides no resistance.
-
-**Q6**: What grip depth is required for an effective bow and arrow collar grip and how do you verify it?
-**A**: All four fingers must be inserted past the second knuckle into the collar fabric, with the grip positioned at jaw level or above on the far-side collar. Verify depth by applying a brief downward pull on the collar before initiating the takedown—if the fabric shifts or your fingers slide along the material, the grip is too shallow and must be re-established deeper before proceeding.
-
-**Q7**: Why is securing the opponent's pant leg essential after landing in grounded back control?
-**A**: The pant leg grip creates the counter-leverage that defines the bow and arrow choke mechanics. Without it, the collar grip alone produces only a simple collar choke with significantly less pressure. The leg grip prevents the opponent from turning toward the attacker, straightens their body to extend the choking line, and creates the opposing force that tightens the collar around the neck when both grips are pulled apart.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bow and Arrow Setup from Standing Back?</p>
 
 The bow and arrow choke applies extreme pressure to the trachea and carotid arteries, making it one of the most powerful chokes in BJJ. During the setup phase, the controlled takedown from standing carries inherent risk of impact injury if performed recklessly. Always practice the sit-down component slowly with cooperative partners before adding resistance. The collar grip can cause friction burns on the neck and jaw if yanked aggressively. When drilling, ensure training partners communicate clearly about neck pressure and tap immediately when the choke begins to engage. Never jerk or yank the collar grip explosively, as this can cause cervical spine injury. Release all pressure immediately upon tap—the bow and arrow choke can render a partner unconscious in under three seconds when fully applied.
 

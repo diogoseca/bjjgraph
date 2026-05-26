@@ -26,20 +26,20 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 13% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
       "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 18% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
       "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Dead Orchard to Anaconda Finish",
-      "text": "From this position, attempt Dead Orchard to Anaconda Finish. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Anaconda Choke from Dead Orchard",
+      "text": "From this position, attempt Anaconda Choke from Dead Orchard. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Dead Orchard Control (Top)?</p>
+
 - Deep anaconda grip secured around opponent's neck and nearside arm with gable or S-grip configuration, creating circular compression on carotid arteries and restricting opponent's movement while establishing submission mechanics
 - Top practitioner's shoulder driving into opponent's trapped shoulder, creating downward pressure that prevents posture recovery and maintains submission angle while systematically breaking down defensive structure
 - Opponent's trapped arm secured tightly against their own neck by the anaconda grip, eliminating space and creating structural weakness in their defensive frame that compounds with continued pressure application
@@ -178,6 +180,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Dead Orchard Control (Top)?</p>
+
 - Successful front headlock control establishment with opponent's posture broken down
 - Deep underhook secured on opponent's nearside arm with hand positioned past opponent's far shoulder
 - Opponent's head controlled and positioned appropriately for anaconda grip configuration
@@ -190,6 +194,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Dead Orchard Control?</p>
 
 - Maintain deep anaconda grip with constant circular pressure toward opponent's far shoulder to create blood choke mechanics
 - Drive shoulder pressure into opponent's trapped shoulder to prevent posture recovery and maintain submission angle
@@ -206,8 +212,10 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Dead Orchard Control (Top)?</p>
+
 **If opponent remains stationary with minimal defensive movement:**
-- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Increase shoulder pressure gradually/Attacker|Increase shoulder pressure gradually]]** → [[Positions/Dead Orchard Control]] (Probability: 30%)
 
 
@@ -238,6 +246,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Dead Orchard Control?</p>
 
 ### 1. Rushing the submission finish without establishing proper control and breaking down opponent's defensive structure
 
@@ -277,6 +287,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Dead Orchard Control attacks?</p>
+
 ### Anaconda Grip Maintenance Drill
 
 Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.
@@ -309,38 +321,6 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip adjustment maintains choke pressure when opponent attempts to create space at the neck?
-**A**: When opponent creates space at the neck, walk your gable grip deeper toward their far shoulder while simultaneously driving your shoulder harder into their trapped shoulder. This re-establishes the compression angle and tightens the blood choke mechanics. The key is maintaining circular pressure direction toward their far armpit rather than simply squeezing harder in place.
-
-**Q2**: Your opponent starts turning their body away from the choke - what adjustment prevents escape?
-**A**: Follow their turning motion by walking your hips around while maintaining chest pressure on their trapped shoulder. Use their turning momentum to transition to mount or back control rather than fighting to keep them flat. If they turn toward you, accelerate to back control. If they turn away, step over to mount. The dead orchard position naturally flows into these superior positions when opponents try to turn.
-
-**Q3**: What are the essential weight distribution points for maintaining dead orchard control?
-**A**: Primary weight drives through your shoulder into opponent's trapped shoulder, pinning it to the mat. Secondary weight distribution uses your hips to control their movement - keep hips low and connected to their body rather than floating. Your chest maintains constant contact with their upper back. The free hand posts or controls their far hip to prevent rolling. Weight should feel like a gradual crushing pressure, not static dead weight.
-
-**Q4**: How do you recognize when to finish the choke versus continue holding position?
-**A**: Finish attempts are optimal when opponent's defensive movements slow, their breathing becomes labored, their trapped arm relaxes, or their free arm stops actively fighting your grips. Continue holding when opponent is actively hand-fighting, has strong neck defense, or is explosively trying to escape. The dead orchard philosophy emphasizes patience - a tired opponent who has burned energy defending becomes much easier to finish than a fresh opponent with full defensive capacity.
-
-**Q5**: Your opponent manages to get their free hand inside the choking arm - how do you re-establish the strangle?
-**A**: Rather than fighting their grip directly, use body movement to re-establish control. Walk your hips slightly away to create angle, which naturally tightens the grip around their neck. Simultaneously, use your free arm to attack their defending hand by stripping it toward their hip or controlling their elbow. If the hand fight continues, transition to darce grip or advance to mount/back control where their defensive hand becomes irrelevant.
-
-**Q6**: What breathing pattern should you maintain during extended dead orchard control?
-**A**: Maintain slow, controlled nasal breathing that matches your pressure application rhythm. Exhale when increasing pressure, inhale during brief relaxation phases. This prevents tension buildup that causes premature fatigue and helps you remain sensitive to opponent's defensive patterns. Your breathing should reflect the patient, methodical nature of the position - not the rapid breathing of explosive attacks.
-
-**Q7**: How do you prevent opponent from recovering turtle base during the control sequence?
-**A**: Keep constant downward shoulder pressure that flattens their trapped shoulder to the mat. Your hip placement should block their ability to get their nearside knee underneath them. Use your free arm to control their far hip, preventing them from building base on that side. If they start to post on their far hand, immediately drive weight forward and walk your hips to take their angle away. The dead orchard position should progressively flatten them rather than allowing any base recovery.
-
-**Q8**: What indicates you should abandon the choke and transition to a different position?
-**A**: Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

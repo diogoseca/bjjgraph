@@ -190,6 +190,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ashi Garami Escape?</p>
+
 - Protect the heel by keeping toes pointed outward and foot flexed away from opponent throughout the entire escape sequence
 - Control distance with frames posted on opponent's hips or knees to prevent them from tightening their entanglement grip
 - Clear the opponent's legs in strict sequential order - bottom leg first, then top leg - before attempting extraction
@@ -205,6 +207,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ashi Garami Escape?</p>
+
 - Opponent has established ashi garami position controlling one of your legs between their legs
 - Your trapped leg is entangled with opponent maintaining inside hook and outside hook configuration
 - You have awareness of which ashi garami variation you are in (outside, inside, cross, or 50-50) to calibrate urgency
@@ -218,6 +222,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ashi Garami Escape step by step?</p>
 
 1. **Establish defensive posture and heel protection**: Immediately sit up and create upper body frames using both hands posted on opponent's hips or knees. Keep your trapped leg's toes pointed away from opponent and maintain active foot flexion to protect against immediate heel hook or toe hold. Control the distance to prevent opponent from collapsing space and securing tighter grips or advancing to a more dangerous hierarchy position.
 2. **Fight and break opponent's grips**: Use both hands to fight opponent's grips on your trapped leg and foot. If opponent has heel control, use a two-on-one grip break by peeling their hands apart at the thumbs, breaking the weakest point of the grip. If they control your ankle or pants, strip the grip with circular hand motions. Do not proceed to leg clearing until dangerous grips are neutralized, as movement with heel control risks ligament injury.
@@ -247,6 +253,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ashi Garami Escape?</p>
+
 - **Opponent transitions to inside sankaku or saddle as you attempt to clear legs** (Effectiveness: High) - Your Response: Abandon the extraction attempt and immediately defend the more dangerous position by addressing the new leg configuration. Focus on preventing the back step or leg triangle from completing by controlling opponent's free leg and denying inside space. → Leads to [[Positions/Ashi Garami]]
 - **Opponent secures heel hook grip during escape attempt** (Effectiveness: High) - Your Response: Stop all movement immediately and address the heel control with both hands using a two-on-one grip break. Break the grip completely before continuing the escape, as any movement with heel control secured creates catastrophic knee ligament injury risk. → Leads to [[Positions/Ashi Garami]]
 - **Opponent uses their free leg to hook your hip and pull you back into the entanglement** (Effectiveness: Medium) - Your Response: Maintain frames on opponent's hips and use your free hand to strip the hip hook before continuing leg clearance. May need to re-establish hip angle and address upper body control first before returning to the leg extraction sequence. → Leads to [[Positions/Ashi Garami]]
@@ -259,6 +267,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ashi Garami Escape?</p>
 
 ### 1. Straightening the trapped leg completely during escape attempt
 
@@ -298,6 +308,8 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ashi Garami Escape (Attacker)?</p>
+
 **Week 1-2: Fundamental Understanding** - Position recognition and defensive posture
 Partner establishes light ashi garami control. Practice identifying the position, establishing frames, and understanding which leg is bottom versus top. Work on maintaining defensive posture and foot positioning for heel protection. No resistance from partner during these drills.
 
@@ -321,48 +333,12 @@ Practice escaping from inside ashi, outside ashi, cross ashi, backside 50-50, an
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you clear the opponent's bottom leg before the top leg during the ashi garami escape?
-**A**: The bottom leg provides the foundational structure for the opponent's ashi garami control and creates the primary barrier preventing your leg from extracting. If you attempt to clear the top leg first, the bottom leg still maintains the entanglement base and the opponent can easily recompose their position by re-triangling their legs. Clearing the bottom leg first removes the structural foundation, making the top leg much easier to address and preventing the opponent from maintaining effective control.
-
-**Q2**: What is the primary danger of straightening your trapped leg during an ashi garami escape attempt?
-**A**: Straightening the trapped leg creates a direct line of force that makes heel hooks, kneebars, and ankle locks significantly more effective and dangerous. The straight leg provides optimal leverage for the opponent's rotational submissions and dramatically increases injury risk, particularly to the knee ligaments (ACL, MCL) and ankle. Keeping the leg slightly bent reduces submission leverage by preventing full extension of the knee joint. Only extend the leg during final extraction when the opponent's legs are completely cleared from the entanglement.
-
-**Q3**: Your opponent secures a heel hook grip while you are mid-escape and have already cleared their bottom leg - what do you do?
-**A**: You must immediately stop all extraction movement and address the heel control with both hands using a two-on-one grip break. Even though you have cleared the bottom leg, continuing the escape with heel control secured creates catastrophic injury risk because any rotational movement of your body while the heel is controlled applies torque directly to the knee ligaments. Break the grip completely by peeling at the thumbs, then reassess whether the bottom leg has been recomposed before continuing the clearing sequence.
-
-**Q4**: How does maintaining upper body frames contribute to the success of the ashi garami escape?
-**A**: Upper body frames posted on opponent's hips or knees control the distance between you and your opponent, preventing them from tightening their grip on your trapped leg and limiting their ability to generate rotational power for submissions. Frames prevent you from falling flat to your back, which would give the opponent superior angles for advancement to saddle or cross ashi. Frames also provide the stable base needed to execute hip rotation and leg clearing actions effectively. Without frames, the opponent can collapse the space, pull you into their hips, and nullify all escape attempts.
-
-**Q5**: What should you do immediately after successfully extracting your leg from ashi garami and why?
-**A**: Immediately create distance by standing up using a technical stand-up or by establishing a guard position with your feet between you and the opponent. Do not remain seated within leg reach of the opponent. This is critical because remaining close after extraction allows the opponent to immediately re-enter on your legs with a new entanglement from close range, negating all the energy and work invested in the escape. Creating distance forces them to re-establish grips and entries from scratch, giving you time to recover and choose your re-engagement strategy.
-
-**Q6**: You are escaping from outside ashi garami and your opponent backsteps to transition to saddle position - how do you adjust your escape approach?
-**A**: You must immediately abandon the standard ashi garami escape sequence and address the saddle position as the higher-priority threat. Saddle provides far superior heel exposure and finishing mechanics than outside ashi. Focus on preventing the position from fully establishing by controlling opponent's backstep leg and denying inside space through hip positioning. Address the new triangled leg configuration and defend the heel hook angle before returning to any extraction attempt. The urgency level escalates significantly because saddle has much higher finishing percentage than standard outside ashi.
-
-**Q7**: What is the most critical hip movement during the ashi garami escape and what does it accomplish?
-**A**: The most critical hip movement is rotating your hips away from the opponent after establishing frames and breaking grips. This hip rotation accomplishes three things simultaneously: it misaligns your leg from the opponent's optimal finishing angle for heel hooks and ankle locks, it creates space between your trapped leg and their entanglement by lengthening the distance your leg needs to travel, and it positions your free leg to post on the mat for base and to begin the leg clearing sequence. Without this hip angle, the clearing sequence is performed against maximum resistance because the opponent maintains their ideal biomechanical alignment.
-
-**Q8**: Why is grip fighting considered a priority before attempting major positional changes during the ashi garami escape?
-**A**: Strong grips from the opponent on your trapped leg, particularly heel control or ankle grips, provide the mechanical advantage necessary to maintain the position and finish submissions. If you attempt to clear legs or extract while the opponent maintains powerful grips, your movements will be nullified by their grip anchors and may even assist the opponent in tightening their control or securing finishing positions. Breaking grips first removes the opponent's primary control mechanism and makes the subsequent clearing and extraction steps significantly more effective and safer.
-
-**Q9**: Your opponent has ashi garami and attempts a straight ankle lock by extending your foot - how does this change your escape priorities?
-**A**: When the opponent attacks with a straight ankle lock, your immediate priority shifts to tucking your foot by curling your toes and pointing your foot downward to prevent the achilles compression. Simultaneously, use your free leg to push on their hip to create distance and relieve pressure on the ankle. Unlike heel hook defense where you must freeze, ankle lock defense allows continued movement because the rotational knee danger is lower. Use the space created by defending the ankle lock to accelerate your leg clearing sequence, as the opponent's commitment to the ankle lock grip often loosens their entanglement structure.
-
-**Q10**: What are the key differences in escaping outside ashi garami versus inside ashi garami?
-**A**: Outside ashi garami provides less control and less heel exposure, making the standard clearing sequence more straightforward because the opponent has inferior inside space control. Inside ashi garami is significantly more dangerous because the opponent controls inside space between your hip and their hip, providing better heel exposure angles and advancement pathways to saddle. When escaping inside ashi, you must first address inside space by rotating your knee inward to deny the opponent's inside hook before beginning the clearing sequence. The urgency is higher and the margin for error is smaller in inside ashi because the opponent can finish from this position without further advancement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ashi Garami Escape?</p>
 
 Ashi garami escapes must be practiced with controlled, deliberate movements to prevent knee and ankle injuries. Never make explosive or jerking motions with the trapped leg, as the entanglement creates mechanical disadvantage that can cause self-inflicted ligament damage, particularly to the ACL and MCL. Training partners should agree on clear tap protocols and release submissions immediately upon tap or verbal signal. When drilling, the bottom person should maintain moderate resistance that allows technique development without risking injury to either partner. Always protect the heel by keeping toes pointed away from opponent and foot actively flexed. If heel control is secured during live training, stop all movement and address the grip before continuing any escape motion. Beginners should drill this escape extensively at slow speed with cooperative partners before attempting against resistance. Never practice this escape while fatigued to the point where body control and awareness are compromised, as this is when training injuries most commonly occur.
 

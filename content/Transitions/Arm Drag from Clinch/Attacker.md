@@ -188,6 +188,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Drag from Clinch?</p>
+
 - Control the wrist with a cupping grip before initiating the drag - grip quality determines whether the arm moves with you or slips free
 - Step laterally past the opponent's shoulder line, not backward - the angle change is what creates access to the back, not distance
 - Power the drag with hip rotation rather than arm pulling - the hips generate force that arms alone cannot match and prevents telegraphing
@@ -202,6 +204,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Drag from Clinch?</p>
+
 - Clinch engagement with access to opponent's lead arm at the wrist, forearm, or tricep
 - Opponent's weight distributed forward or neutral rather than retreating or creating distance
 - Clear lateral space to step through during the drag without obstruction from walls or other practitioners
@@ -214,6 +218,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Drag from Clinch step by step?</p>
 
 1. **Establish wrist control**: Secure a cupping grip on the opponent's lead wrist with your same-side hand, wrapping your fingers around the outside of their wrist. The grip should be firm but not death-grip tight, allowing you to redirect the arm while maintaining sensitivity to their movements and reactions.
 2. **Control the tricep with second hand**: Bring your opposite hand to their tricep or upper arm, creating a two-on-one configuration that gives you mechanical advantage over the single limb. This second contact point prevents them from simply retracting their arm and provides the steering mechanism for the drag direction.
@@ -243,6 +249,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Drag from Clinch?</p>
+
 - **Opponent pummels underhook on drag side to deny back access** (Effectiveness: High) - Your Response: Release the drag immediately and re-engage grip fighting from the clinch, or switch to a duck under on the opposite side using their pummel momentum against them → Leads to [[Positions/Clinch]]
 - **Opponent snaps your head down during the drag as your posture breaks** (Effectiveness: Medium) - Your Response: Maintain posture by keeping chin tucked and head up during the drag. If caught, pummel inside immediately and circle toward their legs to prevent guillotine or front headlock establishment → Leads to [[Positions/Front Headlock]]
 - **Opponent circles away from the drag direction to deny the angle** (Effectiveness: Medium) - Your Response: Follow their circle with your feet, maintaining the grip connection. Convert the chase into a snap down or ankle pick opportunity if they over-rotate away from you → Leads to [[Positions/Clinch]]
@@ -254,6 +262,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Drag from Clinch?</p>
 
 ### 1. Pulling with arms only instead of using hip rotation to power the drag
 
@@ -293,6 +303,8 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Drag from Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Arm drag motion pattern
 Practice the grip-pull-step sequence without a partner using a resistance band or shadow drilling. Focus on hip rotation driving the pull, lateral stepping angles, and immediate reach for the far hip. Build the motor pattern until the sequence feels automatic and coordinated.
 
@@ -313,42 +325,12 @@ Start all rounds from the clinch with both players free to use any technique. Tr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the arm drag from the clinch?
-**A**: The optimal window opens when the opponent extends an arm to reach for a grip, pushes forward with pressure, or commits their weight to one side during grip fighting. This momentary extension creates the lever needed for redirection. Attempting the drag when the opponent's arms are retracted and elbows are tight eliminates the mechanical advantage and dramatically reduces success probability.
-
-**Q2**: Your opponent posts their hand on your shoulder as you begin the arm drag - how do you adjust?
-**A**: Drive through the post by accelerating your lateral step and keeping your level low. A posted hand on your shoulder lacks structural integrity to stop forward hip drive once you have cleared their centerline. Alternatively, use their posted arm as the new drag target since their extended arm is even more vulnerable to being redirected than the original target.
-
-**Q3**: What grip configuration provides the strongest mechanical advantage for the initial drag?
-**A**: A cupping grip on the wrist with your same-side hand combined with a C-grip on their tricep with your opposite hand creates the strongest two-on-one configuration. The wrist grip controls direction while the tricep grip provides pulling force. This allows you to redirect their entire arm using hip rotation as the power source, creating a mechanical advantage their single limb cannot resist.
-
-**Q4**: What is the most common reason arm drags fail against experienced grapplers?
-**A**: Telegraphing the grip setup is the most common failure point. Experienced grapplers recognize the two-on-one configuration forming and immediately retract their arm, pummel an underhook, or circle preemptively. The correction is to disguise grip acquisition within normal hand fighting sequences using feints and misdirection so the opponent cannot distinguish between routine grip fighting and an arm drag setup.
-
-**Q5**: Your opponent successfully defends the drag by pummeling an underhook - what chain attack do you execute?
-**A**: Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook.
-
-**Q6**: In which direction should force be applied during the drag relative to your opponent's body?
-**A**: Force should be applied diagonally across and past your own centerline, not straight backward or to the side. The drag pulls the opponent's arm past your midline toward your opposite hip while you simultaneously step in the direction their arm came from. This creates rotational force on their body that turns their shoulder away from you, opening the pathway to their back.
-
-**Q7**: Your opponent has a strong collar tie controlling your head and you cannot look up - can you still execute the arm drag?
-**A**: Yes, but you must address the collar tie first or incorporate it. Use a two-on-one break on the collar tie arm itself, converting their controlling grip into your drag target. Alternatively, swim your head free by dipping under the collar tie while simultaneously establishing your wrist grip on their other arm. The collar tie arm is actually an excellent drag target because it is already extended toward you.
-
-**Q8**: What are the grip requirements for executing the arm drag in no-gi versus gi clinch?
-**A**: In no-gi, use a cupping wrist grip and C-grip on the tricep for the two-on-one. The key challenge is sweat reducing grip security, requiring faster execution and more decisive commitment. In gi, you can grip the sleeve at the wrist and elbow area, which provides more friction and control, allowing slightly slower but more controlled drags. The sleeve grip also enables maintaining the grip longer after clearing the shoulder line.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Drag from Clinch?</p>
 
 Practice arm drags with controlled intensity, especially when transitioning behind the opponent at speed. Be mindful of footing during lateral movements to prevent ankle rolls or knee strain on uneven surfaces. Partners should communicate when they feel their shoulder being overextended during the drag. Avoid explosive arm pulls on partners with existing shoulder injuries. In standing work, ensure adequate mat space and awareness of surrounding training pairs to prevent collisions during angular movement patterns.
 

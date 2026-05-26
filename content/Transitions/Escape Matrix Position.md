@@ -215,7 +215,7 @@ The Escape Matrix Position serves as the essential safety valve within the Matri
 
 - [[Transitions/Rolling to Guard]] - Alternative guard recovery technique with overlapping movement patterns
 
-- [[Positions/Scramble Position]] - Potential intermediate state during scramble burst escape variant
+- [[Positions/Standing Position]] - Potential intermediate state during scramble burst escape variant
 
 - [[Positions/Crab Ride]] - Alternative position from which similar escape decisions occur
 

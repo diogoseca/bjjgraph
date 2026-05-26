@@ -164,6 +164,8 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 - Top player releases arm wrapped around your head while maintaining or increasing chest pressure, indicating they are freeing a limb for the rotation
 - Top player's hips begin shifting direction, moving from beside your head toward your legs in an arcing motion
 - You feel the top player's weight shift from your upper chest toward your sternum and lower chest as they pivot around the contact point
@@ -176,6 +178,8 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kesa Gatame to Reverse Kesa-Gatame?</p>
 
 - Recognize the rotation early by feeling the release of head control and the shift in hip direction
 - Act during the transitional window before the new pin consolidates, not after the rotation is complete
@@ -191,6 +195,8 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kesa Gatame to Reverse Kesa-Gatame?</p>
 
 ### 1. Bridge explosively during the rotation while the top player's base is compromised
 
@@ -228,6 +234,8 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 ### → [[Positions/Half Guard]]
 
 Use the transitional window created by the rotation to shrimp your hips away and insert a knee shield between your bodies. The momentary instability of the top player's position during the pivot provides enough space for hip escape that would not be available against a settled pin. Commit fully to the shrimp the instant you feel head control release.
@@ -243,6 +251,8 @@ Bridge explosively during the early phase of the rotation, before the top player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kesa Gatame to Reverse Kesa-Gatame?</p>
 
 ### 1. Failing to recognize the rotation until it is complete and Reverse Kesa-Gatame is established
 
@@ -272,6 +282,8 @@ Bridge explosively during the early phase of the rotation, before the top player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kesa Gatame to Reverse Kesa-Gatame?</p>
+
 **Cue Recognition Drilling** - Identifying transition cues through feel
 Partner alternates between maintaining standard Kesa Gatame and initiating the transition to Reverse Kesa. Bottom player calls out 'rotating' the moment they feel the cue. No escape attempts, just recognition practice. Goal is to identify the transition within the first second of initiation. 20 repetitions with eyes closed to develop tactile sensitivity.
 
@@ -288,29 +300,6 @@ Start every round in Kesa Gatame bottom. Top player must attempt transition to R
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning to Reverse Kesa-Gatame?
-**A**: The earliest cue is the release of head control, where you feel the arm unwrap from around your head while chest pressure simultaneously increases or maintains. This indicates the top player is freeing their arm to begin the rotation. The hip direction change follows shortly after, with their hips starting to swing from beside your head toward your legs. Feeling for this head control release is critical because it provides the maximum defensive response time.
-
-**Q2**: Your opponent has begun rotating and is at the midpoint of the transition. What is your best defensive option?
-**A**: At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority.
-
-**Q3**: Why should you protect your far arm even if you cannot prevent the transition from completing?
-**A**: The far arm isolated under the top player's armpit is the primary offensive weapon of Reverse Kesa-Gatame. Without arm isolation, Reverse Kesa-Gatame loses its major submission threats (Kimura, Americana, arm triangle) and becomes a standard pin that is escapable through conventional hip escape mechanics. Protecting your far arm essentially downgrades Reverse Kesa-Gatame from a dangerous attacking position to a controllable pinning position, dramatically improving your subsequent escape chances.
-
-**Q4**: How does the defensive strategy differ depending on whether you catch the transition early versus late?
-**A**: Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Reverse Kesa-Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires.
-
-**Q5**: Your opponent successfully completes the transition and has your far arm trapped. What is your immediate priority?
-**A**: Your immediate priority is to prevent submission attacks on the trapped arm by keeping your elbow bent and close to your body, grabbing your own wrist with your free hand if possible. Simultaneously, begin working hip escapes to create space for guard recovery. Do not attempt to forcefully extract the trapped arm against the top player's body weight, as this wastes energy and risks shoulder injury. Instead, use systematic shrimping to gradually relieve the pressure and create extraction opportunities.
-
-
-
-</section>
 
 
 </main>

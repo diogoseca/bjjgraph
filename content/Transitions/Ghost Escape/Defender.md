@@ -162,6 +162,8 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ghost Escape?</p>
+
 - Bottom player establishes a strong frame against your shoulder or neck with their far arm while posting their near hand on the mat
 - Bottom player's hips begin rotating away from you in a circular motion toward their stomach rather than shrimping laterally
 - Bottom player bridges into you followed by an immediate explosive hip turn, indicating they are using the bridge to create space for rotation
@@ -174,6 +176,8 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ghost Escape?</p>
 
 - Maintain heavy hip-to-hip pressure to deny the bottom player space for hip rotation
 - Keep a strong crossface to control head position and limit the ability to initiate shoulder rotation
@@ -188,6 +192,8 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ghost Escape?</p>
 
 ### 1. Sprawl hips back and drive chest weight down to flatten the bottom player before rotation develops
 
@@ -225,6 +231,8 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ghost Escape?</p>
+
 ### → [[Positions/Side Control]]
 
 Recognize the escape attempt early and sprawl your hips back while driving crossface pressure down to flatten the bottom player before their rotation develops momentum. Resettle heavy hip-to-hip contact and re-establish crossface control.
@@ -240,6 +248,8 @@ As the bottom player commits to the rotation and their hips turn away from you, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ghost Escape?</p>
 
 ### 1. Maintaining only upper body control without heavy hip pressure
 
@@ -274,6 +284,8 @@ As the bottom player commits to the rotation and their hips turn away from you, 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ghost Escape?</p>
+
 **Week 1-2: Recognition drilling** - Learn to identify the Ghost Escape initiation cues from side control top
 Partner attempts slow-speed Ghost Escapes while you maintain side control and focus solely on recognizing the hip rotation pattern, frame establishment, and bridge-to-rotation timing. Call out each cue verbally as you feel it. No countering yet, just developing recognition reflexes.
 
@@ -290,29 +302,6 @@ Full-resistance side control maintenance rounds where partner uses their complet
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical cue that indicates a Ghost Escape attempt is beginning?
-**A**: The earliest cue is feeling the bottom player's hips begin to rotate away from you in a circular motion toward their stomach, as opposed to the linear lateral shrimping movement of a standard hip escape. This rotational hip movement, often preceded by a short bridge, is the signature initiation of the Ghost Escape and your response window is extremely short once it begins.
-
-**Q2**: Why is hip-to-hip pressure more important than crossface control for preventing the Ghost Escape?
-**A**: While crossface controls the head and limits shoulder rotation, hip-to-hip pressure directly prevents the initial hip rotation that starts the Ghost Escape. The escape cannot begin without the bottom player turning their hips, and heavy hip pressure physically blocks this movement. Crossface alone does not stop hip rotation if there is space between your hips and theirs.
-
-**Q3**: Your opponent initiates a Ghost Escape and their hips have already rotated 90 degrees. What is your best counter at this stage?
-**A**: At this stage the rotation is too advanced to flatten them back to side control. Your best option is to step over to mount by swinging your far leg across their turning body, or to follow the rotation and immediately secure seatbelt control for a back take as they complete to turtle. Trying to push them flat at this point will likely fail and waste your positional opportunity.
-
-**Q4**: How should you adjust your side control maintenance when facing an opponent known to use the Ghost Escape?
-**A**: Against a known Ghost Escape practitioner, prioritize maximum hip-to-hip contact with your hips slightly behind theirs to block rotation. Actively strip any frames they attempt to establish. Stay alert for the bridge-to-rotation combination, and be prepared to immediately sprawl or step to mount at the first sign of circular hip movement. Keep your weight more distributed toward their hips than their upper body.
-
-**Q5**: When the bottom player completes the Ghost Escape to turtle, what should your immediate priorities be?
-**A**: Immediately pursue seatbelt or harness control by driving your chest onto their back and securing the over-under grip. Do not allow space between your chest and their back. Prevent them from standing by keeping your hips close to theirs and begin working to insert hooks for full back control. The first 2-3 seconds after they reach turtle are your best window before they can initiate guard recovery or a technical stand-up.
-
-
-
-</section>
 
 
 </main>

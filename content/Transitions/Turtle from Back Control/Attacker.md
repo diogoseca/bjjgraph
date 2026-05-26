@@ -188,6 +188,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle from Back Control?</p>
+
 - Neck defense is the absolute first priority - never sacrifice chin protection or two-on-one grip control to address hooks or attempt positional escape
 - Sequential escape methodology requires completing each control-stripping phase before progressing to the next rather than attacking multiple controls simultaneously
 - Hip movement and angle creation through hip escapes are the primary mechanical tools for clearing hooks, not hand-based hook removal
@@ -202,6 +204,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle from Back Control?</p>
+
 - Neck defense established through chin tuck and two-on-one grip control on the opponent's choking arm before any escape movement
 - Opponent's seatbelt grip partially neutralized or controlled through hand fighting to allow hip movement
 - Identification of the weaker hook or the side with less control for initial hook strip attempt
@@ -214,6 +218,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle from Back Control step by step?</p>
 
 1. **Secure Neck Defense**: Before initiating any escape movement, establish two-on-one grip control on the opponent's choking arm. Tuck your chin tightly to your chest and use both hands to control their wrist and forearm, preventing them from sinking a rear naked choke or collar choke during your escape attempt. This is non-negotiable and must be maintained throughout the escape.
 2. **Neutralize the Seatbelt Grip**: Strip the opponent's over-shoulder arm by peeling their grip from below using your top hand. Push their wrist toward your opposite hip while maintaining chin-to-chest protection with your bottom hand. This reduces their upper body control and prepares you for hip movement by loosening the harness connection that restricts your turning ability.
@@ -243,6 +249,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle from Back Control?</p>
+
 - **Opponent tightens hooks and re-secures seatbelt grip during hook strip attempt** (Effectiveness: High) - Your Response: Pause the escape, return to full neck defense, and wait for another opening. Attempting to force through tightened hooks wastes energy and exposes you to choke. Allow 3-5 seconds for the opponent to relax before reattempting. → Leads to [[Positions/Back Control]]
 - **Opponent follows your hip escape and transitions their weight to mount position** (Effectiveness: Medium) - Your Response: If you feel the opponent's weight shifting over your hips during the turn, immediately frame with your near-side elbow against their thigh and hip escape in the opposite direction to prevent mount establishment before they can settle. → Leads to [[Positions/Mount]]
 - **Opponent switches to body triangle configuration to prevent hook removal** (Effectiveness: High) - Your Response: Shift your escape strategy to address the body triangle first. Turn toward the locked-leg side to relieve triangle pressure, then use both hands to push the locking ankle down while driving your hips into the lock to create slack before reattempting the turtle transition. → Leads to [[Positions/Back Control]]
@@ -254,6 +262,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle from Back Control?</p>
 
 ### 1. Attempting to strip hooks before establishing neck defense
 
@@ -293,6 +303,8 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle from Back Control (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip escape and turtle formation movement patterns
 Practice the hip escape to turtle sequence without a partner, focusing on smooth transitions from flat to four-point base, proper elbow-to-knee positioning, and rounded back structure. Build muscle memory for the complete escape motion including chin tuck, hip escape, knee drive, and shell consolidation.
 
@@ -313,42 +325,12 @@ Practice flowing from back control escape to turtle to guard recovery or standin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive priority before initiating the turtle escape from back control?
-**A**: Securing neck defense through chin tuck and two-on-one grip control on the opponent's choking arm is the absolute first priority. Without neutralizing the choke threat, any escape movement exposes the neck and creates direct submission opportunities. The escape sequence cannot begin until the immediate choking danger is addressed through proper hand positioning and chin protection.
-
-**Q2**: Which hook should you strip first when escaping to turtle, and why?
-**A**: Strip the near-side hook first, meaning the hook on the side you intend to turn toward. This hook controls the hip movement needed for your escape direction. Removing it first creates the space for your hip escape and makes the second hook much easier to clear as your body angle changes and the opponent's alignment is disrupted.
-
-**Q3**: What is the primary hip movement that drives the transition from back control to turtle?
-**A**: The angular hip escape toward the cleared hook side is the mechanical key. Rather than simply rolling forward or turning in place, the hip escape creates lateral displacement that disrupts the opponent's chest-to-back alignment and makes their remaining hook ineffective. This angular motion combined with driving knees under the body establishes the turtle base structure.
-
-**Q4**: Your opponent tightens their body triangle as you begin stripping hooks - how should you adjust your escape strategy?
-**A**: Against a body triangle, shift your approach to address the triangle before the hooks. Turn toward the side of the opponent's locked leg, as this relieves pressure on the triangle and may allow you to straighten their locking leg. Use both hands to push the locked ankle down while driving your hips into the triangle to create slack. Only attempt the turtle transition after breaking the body triangle configuration.
-
-**Q5**: What are the key structural elements of the turtle position you must establish immediately after clearing hooks?
-**A**: The defensive turtle requires four key structural elements: knees under hips creating a stable four-point base, elbows tight against the inside of your knees to prevent underhook penetration, rounded back with chin tucked to chest protecting the neck from chokes, and active weight distribution across all four contact points. This shell must be formed immediately before the opponent can re-secure control.
-
-**Q6**: What grip configuration should you maintain on the opponent's choking arm during the escape?
-**A**: Maintain a two-on-one grip with both hands controlling the opponent's choking wrist and forearm. Your bottom hand should grip their wrist while your top hand reinforces by controlling their forearm near the elbow. Pull their arm across your centerline toward your far hip to reduce their leverage. Never release both hands simultaneously to address hooks.
-
-**Q7**: Your initial hook strip fails and the opponent re-secures the hook - what should your immediate follow-up be?
-**A**: Return to full neck defense and reassess rather than repeatedly attacking the same hook. Allow 3-5 seconds for the opponent to relax their re-tightened control, then attempt the strip again from a slightly different angle or timing. Alternatively, switch to a different escape direction such as the opposite side hip escape or a full turn-in toward the opponent to face them.
-
-**Q8**: How do you prevent the opponent from transitioning to mount as you begin turning during the escape?
-**A**: Maintain elbow and knee frames on the turning side to block the opponent's leg from crossing over your body. As you hip escape, keep your near-side elbow tight to your hip creating a physical barrier against mount. If you feel their weight shifting over your hips, immediately frame with your forearm against their thigh and hip escape in the opposite direction to prevent mount establishment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle from Back Control?</p>
 
 During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners.
 

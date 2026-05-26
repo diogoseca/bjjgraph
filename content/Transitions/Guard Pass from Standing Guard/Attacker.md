@@ -188,6 +188,8 @@ Executing the standing guard pass requires systematic progression through four d
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Pass from Standing Guard?</p>
+
 - Strip opponent's grips before establishing your own—never attempt to pass against active controlling connections
 - Control both legs or both hips bilaterally before committing to a passing direction to restrict guard retention
 - Generate lateral speed through explosive footwork rather than upper body pulling for directional passing
@@ -203,6 +205,8 @@ Executing the standing guard pass requires systematic progression through four d
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Pass from Standing Guard?</p>
+
 - Stable standing base with feet at least shoulder-width apart, knees bent, weight on balls of feet
 - At least one of opponent's controlling grips has been broken or neutralized through systematic grip fighting
 - Bilateral control established on opponent's legs at the knee, pants, or hips
@@ -215,6 +219,8 @@ Executing the standing guard pass requires systematic progression through four d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Pass from Standing Guard step by step?</p>
 
 1. **Establish athletic stance and posture**: Rise to a stable standing position with feet shoulder-width apart, knees bent, and hips slightly back. Distribute weight through the balls of your feet for quick directional changes. Maintain upright chest with chin slightly tucked to resist being pulled forward into the guard player's offensive range.
 2. **Strip opponent's controlling grips**: Systematically break the guard player's controlling grips using two-on-one grip breaks, circular wrist movements, or sharp directional pulls. Address the most dangerous grip first—typically collar grips that threaten to pull your posture down. Each grip break should immediately transition to establishing your own control rather than allowing re-gripping.
@@ -244,6 +250,8 @@ Executing the standing guard pass requires systematic progression through four d
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Pass from Standing Guard?</p>
+
 - **Opponent inserts shin shield or knee frame during pass attempt blocking lateral movement** (Effectiveness: High) - Your Response: Immediately redirect to the opposite side of the shin shield using quick directional change, or apply downward pressure on the shin and pass over it using smash pass mechanics → Leads to [[Positions/Standing Guard]]
 - **Opponent grips your sleeve and collar to pull you off balance during directional commitment** (Effectiveness: Medium) - Your Response: Strip the collar grip immediately using two-on-one break, maintain low center of gravity with hips back, then either continue the pass through remaining grips or reset to standing position → Leads to [[Positions/Standing Guard]]
 - **Opponent hip-escapes and re-establishes guard hooks during your directional commitment phase** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips maintaining pressure and connection rather than allowing space to develop, then chain to a secondary pass in the new direction their hips created → Leads to [[Positions/Standing Guard]]
@@ -255,6 +263,8 @@ Executing the standing guard pass requires systematic progression through four d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Pass from Standing Guard?</p>
 
 ### 1. Attempting to pass before breaking opponent's controlling grips
 
@@ -294,6 +304,8 @@ Executing the standing guard pass requires systematic progression through four d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Pass from Standing Guard (Attacker)?</p>
+
 **Phase 1: Grip Control Mechanics** - Grip breaking and bilateral leg control establishment
 Practice systematic grip breaking sequences against a compliant partner. Work on establishing bilateral leg control from standing, focusing on proper hand placement and weight distribution. No passing attempts—purely focus on the pre-pass control phase until grip sequences become automatic.
 
@@ -314,39 +326,12 @@ Simulate competition scenarios with time constraints. Three-minute rounds where 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical error that exposes you to sweeps during the commitment phase of a standing guard pass?
-**A**: Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment.
-
-**Q2**: Your opponent has established collar and sleeve grips while you are standing in their guard—what is the correct sequence to neutralize these grips before passing?
-**A**: Address the collar grip first as it represents the greater threat to your posture, using a two-on-one grip break where both hands work to peel their grip. Once the collar grip is stripped, immediately establish your own control on their leg before addressing the sleeve grip. Never attempt to break both grips simultaneously as this leaves you without defensive frames against being pulled forward into their guard.
-
-**Q3**: How do you determine which side to pass when facing a guard player with symmetric defensive positioning?
-**A**: Test both sides with small lateral feints, observing which direction generates a slower or weaker defensive response. Additionally, assess their grip configuration and pass toward the side where they have weaker grip control. If their defensive structure appears truly symmetric, commit to your stronger passing side and use the speed advantage of your preferred direction to create a timing edge over their reaction.
-
-**Q4**: What is the correct hand transition sequence when clearing the opponent's legs to establish side control?
-**A**: As your hips clear past the opponent's hip line, the near hand transitions from leg control to crossface position across their jaw and neck while the far hand moves from their other leg to their far hip to block guard recovery. This transition must overlap—maintain at least one point of leg control until upper body control is established, never releasing both legs simultaneously as this creates a window for guard re-insertion.
-
-**Q5**: Your initial passing direction is blocked by a strong shin shield—how do you adjust mid-pass without losing positional control?
-**A**: Immediately change direction rather than forcing through the shin shield. Maintain your existing grips on their legs while explosively redirecting your footwork to the opposite side. The shin shield takes a moment to reposition, creating a timing advantage for your redirection. If the second direction is also blocked, return to standing control position and reset rather than chaining multiple failed attempts that deplete energy and telegraph your patterns.
-
-**Q6**: What tactile and visual feedback tells you the optimal moment to commit to the passing direction?
-**A**: The key sensation is feeling the opponent's defensive weight shift to one side through your grip connection—their resistance becomes heavy and committed in one direction, making their opposite side light and vulnerable. Visually, watch for their hip angle committing to face one direction. Additionally, feeling a momentary relaxation in their grip pressure during a grip adjustment creates a timing window. The commitment must be immediate when these signals appear, as they last only fractions of a second.
-
-**Q7**: If you are swept to Half Guard Bottom during a passing attempt, what went wrong mechanically in your execution?
-**A**: Being swept to Half Guard Bottom indicates your weight was too far forward over your feet during the commitment phase, likely combined with insufficient awareness of the opponent's hook placement on your legs. The sweep succeeded because your center of gravity extended past your base while the guard player had a controlling hook or grip that redirected your momentum. The correction is maintaining lower hips, wider base, and constant monitoring of opponent's hooks that threaten sweeps during passing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Pass from Standing Guard?</p>
 
 Maintain controlled movements during passing sequences to avoid accidentally dropping weight onto the guard player's face or neck with your knee or shin during the leg clearing phase. When using pressure-based passing variations, apply weight gradually rather than slamming down to prevent rib injuries. Be particularly careful with directional changes near the guard player's knees, as sudden lateral forces while their foot is planted can stress the knee joint. In training, avoid explosive smash passes against significantly smaller partners and always establish clear communication about intensity levels before positional sparring from standing.
 

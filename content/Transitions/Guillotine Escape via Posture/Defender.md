@@ -148,6 +148,8 @@ As the guillotine holder defending against a posture escape attempt, your object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Escape via Posture?</p>
+
 - Opponent's spine begins to stiffen and straighten as they prepare to posture—you feel backward pressure building against your choking arm
 - Opponent's nearside hand grips your choking wrist or forearm, attempting to create a leverage point for stripping the grip
 - Opponent walks their knees forward past your hips, creating a wider base and changing the escape angle from vertical to forward-and-up
@@ -160,6 +162,8 @@ As the guillotine holder defending against a posture escape attempt, your object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Escape via Posture?</p>
 
 - Close guard immediately upon feeling the opponent's posture stiffening to add leg compression to the choke and prevent their knees from walking forward
 - Pull your choking elbow toward the ceiling to transition to high elbow mechanics that resist posture recovery more effectively than the standard grip
@@ -174,6 +178,8 @@ As the guillotine holder defending against a posture escape attempt, your object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Escape via Posture?</p>
 
 ### 1. Close guard immediately by locking ankles behind the opponent's back and pulling knees toward your chest to add leg compression to the choke
 
@@ -204,6 +210,8 @@ As the guillotine holder defending against a posture escape attempt, your object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Escape via Posture?</p>
+
 ### → [[Positions/Guillotine Control]]
 
 Close guard early before the opponent's knees pass your hip line, pull their head down with core engagement and leg compression, and transition to high elbow mechanics. Use your legs to break the opponent's posture by pulling your knees toward your chest while crunching your torso forward to close all space.
@@ -219,6 +227,8 @@ Time the hip bump sweep as the opponent drives upward during the posture attempt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Escape via Posture?</p>
 
 ### 1. Allowing the opponent to walk their knees past your hips without immediately closing guard
 
@@ -248,6 +258,8 @@ Time the hip bump sweep as the opponent drives upward during the posture attempt
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Escape via Posture?</p>
+
 **Phase 1: Recognition** - Identifying Posture Escape Cues
 Partner executes the posture escape at slow speed while you practice recognizing each cue: spine stiffening, wrist grip on your forearm, knee walking forward, chin tuck, and hand posting. Call out each cue as you feel it develop. No resistance from either partner—pure sensory recognition training.
 
@@ -264,26 +276,6 @@ Positional sparring starting in guillotine control bottom with the opponent atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you feel the opponent beginning to posture out of your guillotine?
-**A**: Close your guard immediately by locking your ankles behind their back. This is the highest-priority response because closed guard adds tremendous compression to the choke through leg pressure, prevents the opponent from walking their knees forward to create their escape angle, and establishes the platform needed for hip bump sweeps if the choke itself is successfully defended.
-
-**Q2**: Your opponent has begun posturing and your standard guillotine grip is being stripped—what adjustment maintains the submission threat?
-**A**: Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist so the blade of your forearm attacks behind the opponent's chin rather than across the front of the throat. This variation is significantly more resistant to posture escapes because it compresses the carotid arteries from a posterior angle that posture recovery cannot easily address.
-
-**Q3**: How do you recognize the optimal moment to execute a hip bump sweep against a posturing opponent?
-**A**: The optimal moment is when the opponent commits their weight upward and slightly backward during the posture attempt, typically right as they extend their spine after walking their knees forward. Their weight is momentarily elevated and their base is transitioning, making them vulnerable to lateral force. Bridge into them diagonally, using their upward momentum to amplify the sweep.
-
-**Q4**: What determines whether you should maintain the guillotine grip or release it and focus on guard retention?
-**A**: Evaluate grip depth and the opponent's posture level. If your forearm is still deep across the throat and the opponent has only partial posture, maintain the grip and adjust mechanics. If the grip has slipped to a shallow position and the opponent has near-full posture, release the grip and immediately transition to guard retention to prevent being passed. Holding a compromised guillotine wastes energy and delays the guard recovery that prevents positional loss.
-
-
-
-</section>
 
 
 </main>

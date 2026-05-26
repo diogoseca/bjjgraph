@@ -24,7 +24,7 @@
   ],
   "key_components": [
     {
-      "component_name": "Grip Fighting Hierarchy",
+      "component_name": "Grips Hierarchy",
       "description": "The systematic approach to establishing advantageous grips while denying opponent grips. Priority grips include cross-collar control, sleeve control at the wrist and elbow, and pant grips at the knee and ankle. Understanding which grips to fight for based on position and strategy is fundamental to gi success.",
       "purpose": "Establish control advantages before technical exchanges begin"
     },
@@ -130,7 +130,7 @@
   ],
   "assessment_metrics": [
     {
-      "metric_name": "Grip Fighting Win Rate",
+      "metric_name": "Grips Win Rate",
       "description": "Percentage of exchanges where you establish dominant grips before opponent establishes theirs, measured during positional sparring and competition.",
       "proficiency_indicators": [
         "Beginner: 40% grip establishment success",
@@ -230,19 +230,9 @@
       "relationship": "Modern guard system using lapel manipulation for control"
     },
     {
-      "name": "Worm Guard",
-      "content_type": "Position",
-      "relationship": "Complex lapel-based guard requiring gi-specific strategy"
-    },
-    {
       "name": "Cross Collar Choke",
       "content_type": "Submission",
       "relationship": "Fundamental gi-specific choke from multiple positions"
-    },
-    {
-      "name": "Loop Choke",
-      "content_type": "Submission",
-      "relationship": "Collar-based choke using lapel control"
     },
     {
       "name": "Baseball Bat Choke",
@@ -255,9 +245,9 @@
       "relationship": "Back control finishing sequence unique to gi"
     },
     {
-      "name": "Ezekiel Choke",
+      "name": "Clock Choke",
       "content_type": "Submission",
-      "relationship": "Gi sleeve-based choke from mount and other top positions"
+      "relationship": "Turtle attack using collar control unique to gi"
     },
     {
       "name": "Collar Control",
@@ -270,29 +260,24 @@
       "relationship": "Essential principle for distance management with gi"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Foundational skill for all gi-specific strategy"
     },
     {
-      "name": "Grip Strategy",
+      "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Strategic framework for prioritizing grip establishment"
+      "relationship": "Strategic framework for grip establishment and denial in standup and ground exchanges"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Collar and sleeve mechanics for destroying opponent posture"
     },
     {
-      "name": "Guard Retention",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive framework using gi grips to prevent passing"
-    },
-    {
-      "name": "Collar Drag",
-      "content_type": "Transition",
-      "relationship": "Gi-specific technique for taking the back from standing or guard"
+      "relationship": "Defensive framework using gi grips and structures to prevent guard passing"
     },
     {
       "name": "Berimbolo Entry",
@@ -300,29 +285,19 @@
       "relationship": "Modern gi-based back take using lapel and De La Riva control"
     },
     {
-      "name": "Flower Sweep",
+      "name": "Arm Drag",
       "content_type": "Transition",
-      "relationship": "Classic gi sweep using collar and sleeve grips"
+      "relationship": "Gi-enhanced technique for off-balancing and back takes"
     },
     {
-      "name": "Scissor Sweep",
+      "name": "Body Lock Pass",
       "content_type": "Transition",
-      "relationship": "Fundamental gi sweep from closed guard using sleeve control"
+      "relationship": "Pressure passing approach that integrates gi grip control"
     },
     {
-      "name": "Pendulum Sweep",
+      "name": "Back Step Pass",
       "content_type": "Transition",
-      "relationship": "Gi-dependent sweep using collar and sleeve grips"
-    },
-    {
-      "name": "Lasso Guard Pass",
-      "content_type": "Transition",
-      "relationship": "Specific passing strategy for lapel-based guards"
-    },
-    {
-      "name": "Spider Guard Pass",
-      "content_type": "Transition",
-      "relationship": "Technical approach to passing sleeve-grip dependent guards"
+      "relationship": "Specific passing strategy effective against lapel-based guards"
     },
     {
       "name": "Keenan Cornelius Lapel Guard System",

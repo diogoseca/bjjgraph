@@ -166,6 +166,8 @@ From a systems perspective, your defense against the step over should integrate 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Step Over to Mount?</p>
+
 - Top player shifts weight onto one leg and begins lifting the other foot off the mat, indicating they are preparing to step across your body rather than disengage or pass laterally
 - Top player's hand moves to pin or control your near-side hooking leg, pressing it toward the mat or trapping it against your body to neutralize your primary defensive tool
 - Top player's hips begin driving forward and downward rather than maintaining neutral distance, indicating commitment to a center-line pass rather than circling or back stepping
@@ -178,6 +180,8 @@ From a systems perspective, your defense against the step over should integrate 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Step Over to Mount?</p>
 
 - Maintain bilateral leg engagement at all times - never leave one leg idle while the other attacks, as this creates the asymmetric window the passer needs
 - Read the step-over initiation by watching the top player's hip height and weight shift to their posting leg, which precedes the stepping motion
@@ -193,6 +197,8 @@ From a systems perspective, your defense against the step over should integrate 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Step Over to Mount?</p>
 
 ### 1. Thread legs around the stepping leg to enter inside ashi garami before it clears your hips. As the top player lifts their lead leg, shoot your near-side leg between their legs and hook behind the knee of the stepping leg while your far-side leg closes the triangle around their thigh.
 
@@ -230,6 +236,8 @@ From a systems perspective, your defense against the step over should integrate 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Step Over to Mount?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Prevent the step over entirely by maintaining bilateral leg engagement and elevating hips to deny the passer a stable base. When you detect the step-over initiation, re-invert and elevate to knock them off balance, forcing them to post hands and reset. Alternatively, use hip frames and shrimp to create distance and re-establish your guard configuration before the pass completes.
@@ -249,6 +257,8 @@ Read the step-over initiation early and thread your legs around the stepping leg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Step Over to Mount?</p>
 
 ### 1. Allowing one leg to go idle while the other commits to an attack, creating the exact asymmetric window the passer needs for the step over
 
@@ -288,6 +298,8 @@ Read the step-over initiation early and thread your legs around the stepping leg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Step Over to Mount?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner initiates step-over attempts from standing against your grasshopper guard at slow speed with clear telegraphing. Practice identifying the weight shift and leg lift cues. Drill the three primary defensive responses in isolation: leg entanglement threading, hip elevation, and knee shield insertion. Partner pauses at each phase of the step over so you can practice the correct response for each timing window. 15 repetitions per defensive option per side.
 
@@ -304,29 +316,6 @@ Partner uses the full three-option passing system of step over, back step, and l
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is initiating a step over rather than a back step or leg drag?
-**A**: The earliest cue is the top player shifting weight onto one posting leg while their opposite foot begins lifting off the mat, combined with their hips driving forward and downward rather than stepping laterally or backward. A back step involves the top player moving away from you, and a leg drag redirects laterally - the step over is uniquely identified by the forward-and-over commitment through the center line. Additionally, you will often feel their hand pinning your near-side leg, which specifically sets up the step over rather than the other passing options.
-
-**Q2**: Your hips are still elevated and you detect the step-over initiation - should you attempt the leg entanglement or the hip elevation defense?
-**A**: With elevated hips, the leg entanglement into ashi garami is the higher-percentage and higher-reward option. Your elevated hip position means your legs are already in the optimal mechanical position to thread around the stepping leg before it clears your body. The hip elevation defense is a secondary option that merely resets to neutral, whereas the ashi garami entry converts their pass attempt into your offensive attack. Only default to the elevation defense if your legs are too fatigued or poorly positioned to execute the entanglement threading motion.
-
-**Q3**: The step over is already past the point of prevention and the passer's lead foot has landed on your far side - what is your immediate priority?
-**A**: Your immediate priority is inserting your top knee across the passer's hip or hooking their trailing leg before it clears your body to establish half guard. The window between the lead leg landing and the trailing leg clearing is your last opportunity to prevent full mount. Drive your knee aggressively into their hip crease and clamp down with your legs to trap their trailing leg. If this fails and both legs clear, transition immediately to mount escape frames rather than continuing to fight for guard - accept the position change and begin the mount escape hierarchy.
-
-**Q4**: How does maintaining bilateral leg engagement prevent the step over, and what does bilateral engagement look like in practice?
-**A**: Bilateral leg engagement means both legs maintain active defensive or offensive function simultaneously, denying the passer the asymmetric window where one leg is free to step over. In practice, this means when your right leg extends for a kneebar or ankle lock entry, your left leg maintains an active hook behind the passer's knee or frames against their hip. You cycle between configurations where both legs contribute rather than fully committing one leg while the other goes passive. This forces the passer to deal with two active threats simultaneously, making the step over too risky because your defensive leg can intercept during the stepping motion.
-
-**Q5**: You successfully catch the stepping leg in inside ashi garami - what are your immediate offensive priorities?
-**A**: Immediately close the triangle around their thigh by crossing your ankles or locking your legs in the ashi garami configuration to prevent the top player from simply retracting the leg. Control their foot by cupping the heel or gripping the ankle to prevent them from rotating out of the entanglement. From inside ashi garami, your primary attacks are the inside heel hook and the kneebar - begin by controlling their hip movement with your legs while isolating the foot for the heel hook entry. The psychological advantage is significant because the passer has just committed forward into your entanglement, and their momentum works against their ability to retreat.
-
-
-
-</section>
 
 
 </main>

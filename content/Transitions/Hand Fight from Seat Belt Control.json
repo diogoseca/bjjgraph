@@ -89,12 +89,12 @@
       "relationship": "Counter threat - opponent may switch to gift wrap when seat belt grip is compromised"
     },
     {
-      "name": "RNC from Seat Belt",
+      "name": "Rear Naked Choke",
       "relationship": "Primary submission threat - the choke that hand fighting is designed to prevent"
     },
     {
-      "name": "Bow and Arrow from Seat Belt",
-      "relationship": "Secondary submission threat - gi choke accessible from seat belt requiring grip defense"
+      "name": "Bow and Arrow Choke",
+      "relationship": "Secondary submission threat - gi choke accessible from back control requiring grip defense"
     },
     {
       "name": "Harness",
@@ -248,7 +248,7 @@
         "description": "Full-speed positional sparring from seat belt back control with partner attacking submissions while you execute hand fight sequences. Test ability to manage the defensive dilemma of neck protection versus grip fighting under real-time decision-making pressure and fatigue."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent has a strong gable grip connecting their seat belt - which arm should you prioritize stripping first and why?",
         "answer": "Prioritize the over-shoulder arm because it serves as both the primary choking platform and the structural keystone of the seat belt configuration. The over-arm provides the diagonal downward force that pins your shoulder and creates the angle needed for rear naked choke entry. Once the over-arm is stripped, the under-arm alone cannot maintain the same level of control or submission threat, making subsequent escape significantly easier. The under-arm without the over-arm becomes a single underhook with limited controlling power."
@@ -276,6 +276,14 @@
       {
         "question": "How do you manage energy during extended hand fighting sequences against a patient opponent who reinforces grips effectively?",
         "answer": "Use rhythmic pulsing rather than sustained maximum effort. Apply strong grip break attempts for 3-5 seconds, then reduce intensity briefly while maintaining chin tuck and passive arm control. This pulse-rest pattern preserves grip endurance over minutes rather than depleting it in seconds. Focus on wrist manipulation technique over raw pulling force. Control breathing deliberately - exhale during effort phases and inhale during recovery windows. Accept that multiple cycles may be needed and that each partially successful strip weakens opponent's grip endurance cumulatively."
+      },
+      {
+        "question": "Which grip connection type on the seat belt is most vulnerable to two-on-one wrist peel and how should you adjust your stripping technique against a gable grip versus a wrist-on-wrist grab?",
+        "answer": "The wrist-on-wrist grab is the most vulnerable to two-on-one peel because it relies on a single point of friction at the wrist contact. Attack it by rotating the captured wrist outward while pulling downward, peeling the grabbing hand off the wrist surface. Against a gable grip, which distributes force across interlocked fingers, direct peeling is less effective. Instead, target the weakest link by isolating and bending back individual fingers, or use rotational torque on the entire forearm to twist the palm-to-palm connection apart. Against gable grips, combining wrist rotation with a simultaneous hip escape generates enough angular disruption to separate the connection."
+      },
+      {
+        "question": "You have successfully broken the seat belt but your opponent still has both hooks in - what is the correct sequence of actions in the next three seconds?",
+        "answer": "In the first second, immediately execute a sharp hip escape to the side of the bottom hook, creating angular separation between your back and opponent's chest before they can re-grip. In the second second, use your near-side elbow to frame against their top leg while bringing your far-side hand to control their bottom hook ankle, preventing hook reinforcement. In the third second, drive your hips to the mat on the bottom hook side while stripping the bottom hook with your hand, initiating the transition to turtle or half guard. The critical principle is never pausing after the grip break - the window before re-establishment is approximately two to three seconds, and every moment spent stationary allows opponent to reconfigure control."
       }
     ],
     "safety_considerations": "Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements."
@@ -357,7 +365,7 @@
         "correction": "When opponent two-on-ones your over-arm, immediately advance your free under-arm toward their neck as a choke threat, creating the dilemma that forces them to choose between continuing the strip and defending the choke."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "When your opponent begins two-on-one attacking your over-shoulder arm, what counter-attack should you immediately threaten?",
         "answer": "Immediately advance your free under-armpit arm toward their throat as a choke threat. Since they've committed both hands to stripping your over-arm, their neck is completely undefended. This creates a defensive dilemma where they must either release the grip fight to defend the choke or accept the choke risk while continuing to strip. Even if the choke does not finish, it forces them to abandon the two-on-one attack and return to neck defense, resetting their progress."

@@ -165,6 +165,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Worm Guard (Bottom)?</p>
+
 - Opponent's lapel extracted and woven under their own leg (typically near-side leg), creating the foundational control mechanism with lapel passing from outside to inside under their thigh
 - Lapel wrapped tightly around your shin or foot with constant tension maintained through pulling grip, creating locked connection that restricts opponent's leg movement and prevents backward escape
 - Your leg threading through or hooking opponent's leg with lapel wrapped around it, pinning their leg in place and preventing extraction which would collapse entire guard structure
@@ -178,6 +180,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Worm Guard (Bottom)?</p>
 
 - Opponent wearing gi with accessible lapel that can be extracted and controlled
 - Open guard position established with sufficient space to access and manipulate opponent's lapel
@@ -193,6 +197,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Worm Guard?</p>
+
 - Lapel Weave Integrity: Maintain constant tension on the lapel wrapped through opponent's leg and around your shin to preserve primary control mechanism
 - Leg Pin Control: Use lapel-wrapped leg to pin opponent's leg in place, preventing backward escape or leg extraction which would break the guard
 - Opposite Side Disruption: Control opponent's opposite sleeve to break symmetry and posture, making it impossible for them to establish stable passing pressure
@@ -207,6 +213,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Worm Guard (Bottom)?</p>
 
 **If opponent establishes strong posture and attempts to break lapel grip by standing or pulling backward:**
 - Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
@@ -235,6 +243,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Worm Guard?</p>
 
 ### 1. Losing lapel tension during transitions or adjustment movements
 
@@ -274,6 +284,8 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Worm Guard defense?</p>
+
 ### Lapel Extraction and Weave Repetition Drill
 
 Start in open guard. Practice extracting opponent's lapel, feeding it under their leg at various depths, and wrapping around your shin. Reset and repeat 20 times per side. Focus on speed and precision of lapel manipulation. Partner provides light resistance, gradually increasing as proficiency improves.
@@ -295,7 +307,7 @@ Partner in worm guard, you attempt smooth chains: omoplata sweep to triangle set
 **Duration**: 10 minutes total
 
 
-### Grip Fighting for Worm Guard Establishment
+### Grips for Worm Guard Establishment
 
 Start in neutral open guard. Both partners grip fight—you attempt to establish worm guard (extract lapel, feed, wrap) while partner prevents it and attempts to establish passing grips. When worm guard is established or pass is initiated, reset. Develops realistic timing for worm guard entries under resistance.
 
@@ -306,38 +318,6 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element for maintaining worm guard retention against passing attempts?
-**A**: Constant tension on the lapel wrap is the most critical element. The moment tension is lost, the entire mechanical advantage of worm guard disappears and the position degrades to a standard open guard. Maintain pulling pressure on the lapel throughout all movements and transitions. If tension loosens, immediately re-tighten or transition to an alternative guard before the opponent can capitalize on the momentary weakness.
-
-**Q2**: How do you properly feed the lapel to establish the worm guard configuration?
-**A**: Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection.
-
-**Q3**: Your opponent begins closing distance aggressively to initiate a smash pass - what adjustment do you make?
-**A**: Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences.
-
-**Q4**: Why is opposite side sleeve or pant control essential in worm guard?
-**A**: The opposite side grip breaks the opponent's symmetry and prevents them from establishing a stable base for passing. Without this secondary control, opponents can posture freely, generate passing pressure with their uncontrolled side, and more easily strip your lapel grip. This grip creates a two-point control system that makes the position exponentially more difficult to escape than lapel control alone.
-
-**Q5**: How should you adjust your hip angle when you feel the opponent trying to establish passing pressure?
-**A**: Continuously adjust hip angles relative to the opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circular motions to generate momentum for sweeps and keep them off-balance. Static hip positioning makes your sweeps predictable and allows opponents to anchor their base. Dynamic hip movement is what transforms worm guard from a stalling position into an attacking platform.
-
-**Q6**: When should you transition away from worm guard to an alternative guard system?
-**A**: Transition immediately when you recognize the lapel control is truly compromised rather than temporarily loosened. Signs include significant slack in the lapel, inability to generate off-balancing pressure, or feeling the opponent's leg moving independently of your control. Forcing a broken worm guard wastes energy and allows position advancement. Common transitions include spider guard, lasso guard, or De La Riva guard depending on the grips you can maintain.
-
-**Q7**: What grip endurance strategies help maintain worm guard effectiveness during extended exchanges?
-**A**: Alternate between maximum tension when attacking and slightly reduced tension during neutral moments to prevent grip fatigue. Use your shin and foot to share the load rather than relying purely on hand strength. Train specific grip endurance exercises like dead hangs, farmer's carries, and gi pull-ups. During exchanges, if grip fatigue becomes critical, immediately transition to an alternative guard rather than fighting with compromised grips.
-
-**Q8**: How do you create sweep opportunities when the opponent maintains a stable, wide base?
-**A**: Use the lapel control to continuously apply off-balancing pressure in the direction their trapped leg cannot recover, forcing them to narrow their base to resist. Create angles with hip movement that expose gaps in their base structure. Chain multiple sweep threats together so their defensive reaction to one threat opens them to another. The key is persistent pressure that gradually degrades their base rather than single explosive attempts.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

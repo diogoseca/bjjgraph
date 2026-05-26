@@ -162,6 +162,8 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap from Back?</p>
+
 - Attacker grips your wrist or lower forearm with one hand rather than maintaining standard seatbelt clasp—this is the initial capture before threading
 - Attacker's seatbelt grip opens or loosens on one side as they free the arm that will thread under your armpit
 - You feel the attacker's arm beginning to slide underneath your armpit from the outside, pushing between your arm and torso
@@ -174,6 +176,8 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap from Back?</p>
 
 - Recognize the gift wrap attempt early through wrist capture and grip changes—early detection is the primary determinant of successful defense
 - Pin elbows tight to your ribs as the default defensive posture to deny the arm threading path under your armpit
@@ -188,6 +192,8 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap from Back?</p>
 
 ### 1. Pin elbow tight to ribs and rotate shoulder inward to close the armpit space
 
@@ -225,6 +231,8 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap from Back?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your escape to coincide with the attacker's seatbelt release during the arm threading transition. Bridge explosively and rotate your hips toward the attacker, using the momentary loosened upper body control to insert a knee between your bodies and establish half guard. This works best when combined with hook removal on the same side as your hip escape.
@@ -240,6 +248,8 @@ Prevent the gift wrap from completing by pinning your elbow to your ribs immedia
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap from Back?</p>
 
 ### 1. Failing to recognize the gift wrap attempt until the arm is already being pulled across the chest
 
@@ -274,6 +284,8 @@ Prevent the gift wrap from completing by pinning your elbow to your ribs immedia
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap from Back?</p>
+
 **Phase 1: Recognition** - Identifying gift wrap entry cues from back control bottom
 Partner alternates between rear naked choke attempts and gift wrap entries from back control. Defender focuses solely on correctly identifying which attack is coming based on grip changes, arm positioning, and pressure shifts. No escape attempts—purely recognition training. Call out the attack as soon as you detect it.
 
@@ -290,29 +302,6 @@ Three-minute rounds starting from back control bottom. Partner actively works to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Gift Wrap from Back is being attempted?
-**A**: The earliest cue is feeling the attacker's grip change on your wrist or forearm—specifically, one hand leaving the seatbelt clasp and gripping your wrist individually. This grip change precedes the actual threading motion and provides the maximum defensive reaction window. Training tactile sensitivity to distinguish between a wrist grip for the gift wrap versus a grip adjustment for the rear naked choke is essential for early recognition.
-
-**Q2**: Why is the attacker's seatbelt release during the threading transition the best moment to attempt escape?
-**A**: When the attacker releases the seatbelt to free the threading arm, their upper body control is at its weakest point during the entire back control sequence. They have transitioned from a connected two-arm control to a single-arm wrist grip plus a free arm that is mid-motion. This momentary gap in upper body control reduces the force they can apply to prevent your hip escape or bridge, creating the widest escape window before the gift wrap re-establishes superior control.
-
-**Q3**: Your opponent begins threading their arm under your armpit—what is the correct immediate defensive response?
-**A**: Immediately clamp your elbow tight to your ribs and rotate your shoulder inward to close the space under your armpit. This blocks the threading path and prevents the arm from passing through. Simultaneously, begin a hip escape away from the threading side to create distance and reduce the attacker's chest-to-back pressure. If the arm is already partially through, rotate your entire torso toward the attacker to shorten the threading path and prevent the arm from crossing your midline.
-
-**Q4**: How should you manage energy expenditure while defending the Gift Wrap from Back?
-**A**: Conserve energy by maintaining defensive posture through structural positioning—elbows tight to ribs, chin tucked, hips angled—rather than through constant muscular tension. Reserve explosive energy for properly timed escape attempts during the attacker's grip transitions. Avoid sustained pushing or pulling against the arm trap, which exhausts you without producing meaningful defensive progress. Time your explosive bursts to coincide with the attacker's movement or grip changes when their control is temporarily disrupted.
-
-**Q5**: What is the relationship between gift wrap defense and rear naked choke defense from back control?
-**A**: These defenses exist in direct tension with each other. Defending the choke requires keeping hands near the neck, which exposes the arms for gift wrap capture. Defending the gift wrap may require moving a hand away from the neck, which creates a choke opportunity. Skilled attackers exploit this dilemma by feinting one attack to create openings for the other. The defender must develop the ability to address both threats simultaneously through positional defense—elbow tight, chin tucked, hips active—rather than dedicating hands to only one threat at a time.
-
-
-
-</section>
 
 
 </main>

@@ -42,7 +42,7 @@ The learning curve for Twister Side Control is significant, requiring practition
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Lateral torque control prioritizes submission proximity over traditional positional stability
@@ -187,31 +187,29 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Twister Finish/Attacker|Twister Finish]]** (12% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (14% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (12% of attempts)
 
-- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (10% of attempts)
+- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (10% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
+- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (10% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
 - **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (7% of attempts)
+- **[[Arm Triangle from Twister Side Control/Attacker|Arm Triangle from Twister Side Control]]** (7% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
 
 - **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (5% of attempts)
+- **[[Calf Slicer from Twister Side Control/Attacker|Calf Slicer from Twister Side Control]]** (5% of attempts)
 
 - **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (4% of attempts)
 
 - **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (3% of attempts)
-
-- **[[Submissions/Twister from Twister SC/Attacker|Twister from Twister SC]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -188,6 +188,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inverted Lasso to Lasso Guard?</p>
+
 - Maintain constant lasso hook tension throughout the entire transition - even momentary slack enables arm extraction and complete guard loss
 - Drive the transition with hip rotation rather than upper body pulling - the hips generate the movement while grips maintain the connection
 - Use the free leg as a rudder to control the rotation speed and direction of the recovery
@@ -202,6 +204,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inverted Lasso to Lasso Guard?</p>
+
 - Established inverted lasso position with shin fully threaded through opponent's arm and foot hooking across their back
 - Secure same-side sleeve grip with sufficient grip strength remaining for the transition
 - Hips elevated on shoulders with mobility to rotate - not pinned flat by opponent pressure
@@ -214,6 +218,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inverted Lasso to Lasso Guard step by step?</p>
 
 1. **Assess and commit to recovery**: Evaluate whether the inverted position has attack potential remaining. If the opponent is defending inversions well, your energy is depleting, or your hips are being controlled, commit fully to the lasso guard recovery. Half-committed transitions create the most vulnerability.
 2. **Increase lasso hook tension**: Before initiating any body movement, actively increase the pulling pressure on your lasso hook by curling your toes and pressing your shin deeper against the opponent's tricep. This pre-loads tension that will be maintained through the transition. Simultaneously tighten your sleeve grip by adjusting hand position if needed.
@@ -243,6 +249,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inverted Lasso to Lasso Guard?</p>
+
 - **Opponent pulls arm back aggressively during the hip rotation phase to extract from the lasso** (Effectiveness: High) - Your Response: Anticipate the extraction attempt by increasing lasso hook curl and sleeve pull simultaneously. If extraction begins, immediately switch to an omoplata or triangle entry that uses their arm retraction momentum against them. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward pressure during the transition to stack and pin the bottom player** (Effectiveness: Medium) - Your Response: Use the foot posted on their hip to maintain distance and prevent the stack. If pressure overwhelms the frame, convert the forward drive into a pendulum sweep by using their momentum to roll them overhead. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **Opponent circles laterally to pass around the recovering guard during the unstable transition phase** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation, keeping your lasso leg between you and them. Use the sleeve grip to prevent them from creating the angle needed to complete the pass. If they gain an angle, transition to de la riva hook on their lead leg. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inverted Lasso to Lasso Guard?</p>
 
 ### 1. Releasing lasso hook tension during the hip rotation to facilitate faster movement
 
@@ -293,6 +303,8 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inverted Lasso to Lasso Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated transition movement with no resistance
 Practice the hip rotation from inverted to upright lasso guard with a compliant partner. Focus entirely on maintaining lasso hook tension and sleeve grip throughout the movement. Perform 30 repetitions per training session, emphasizing smooth controlled rotation without any slack in the lasso connection.
 
@@ -313,42 +325,12 @@ Practice flowing between inverted lasso and standard lasso guard continuously fo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary reason for maintaining constant lasso hook tension during the transition from inverted to upright guard?
-**A**: Any slack in the lasso hook, even momentarily, allows the opponent to extract their trapped arm. The lasso structure depends on continuous shin pressure against the tricep combined with the sleeve grip to create a closed system that cannot be escaped through linear pulling. Once slack appears, the opponent needs only 1-2 seconds to withdraw their arm completely, collapsing all guard control and leaving the bottom player in generic open guard with no grips.
-
-**Q2**: Your opponent begins driving forward with stacking pressure as you initiate the recovery from inverted lasso - how should you respond?
-**A**: Use the foot posted on their hip as a primary frame to maintain distance and prevent the stack from compressing your body. If the forward pressure is strong, convert their momentum into a sweep opportunity by redirecting their drive overhead using the pendulum return variant. Never abandon the transition attempt to fight the stack statically from the inverted position, as this plays into their pressure passing game while you remain in an energy-draining inverted posture.
-
-**Q3**: Why should you establish the free leg hip post before initiating the rotation back to standard lasso?
-**A**: The hip post creates a distance control frame that prevents the opponent from closing space and stacking you during the vulnerable rotation phase. Without this frame, the opponent can drive forward freely and pin your hips as you rotate, blocking the transition entirely. The posted foot also serves as a pivot point that guides the rotation speed and direction, making the movement controlled rather than chaotic.
-
-**Q4**: What determines the optimal timing for initiating the recovery from inverted to standard lasso guard?
-**A**: The optimal timing is when the opponent's weight is neutral or shifting rather than committed in any direction. Initiating during forward pressure makes stacking likely, while initiating when they pull back risks them creating distance to extract the arm. Watch for moments when they adjust their grips, shift stance, or reset their base since these windows of neutral weight distribution allow the smoothest transition with the least counterattack risk.
-
-**Q5**: How should you adjust your sleeve grip angle during the hip rotation from inverted to upright?
-**A**: As your body rotates from inverted to upright, your pulling angle on the sleeve must rotate correspondingly to maintain optimal mechanical advantage. Start with a pulling angle directed toward your inverted hips, then actively rotate the wrist and forearm to keep the pull directed toward your rotating centerline. Failing to adjust creates a suboptimal angle that weakens the grip and may allow the opponent to strip it during the transition.
-
-**Q6**: What is the critical difference between a passive recovery to lasso guard and an offensive recovery?
-**A**: A passive recovery simply returns to standard lasso guard and pauses, giving the opponent time to re-establish their base and defensive positioning. An offensive recovery connects the transition motion directly to a sweep or submission threat, capitalizing on the momentary off-balance created by the position change. The opponent must simultaneously adjust to your new body orientation and defend an incoming attack, creating cognitive overload that significantly increases sweep success rate.
-
-**Q7**: Your opponent strips your sleeve grip halfway through the recovery rotation - what is your immediate response?
-**A**: The lasso hook alone provides 1-2 seconds of residual control since the shin against their tricep still restricts arm movement even without the sleeve grip. Use this window to immediately re-grip the sleeve before completing the rotation. If re-gripping fails, do not continue the transition but instead use the remaining hook control to enter an alternative guard position such as de la riva or spider guard on the free arm before the lasso hook also fails.
-
-**Q8**: Why is this transition described as a reset mechanism rather than a defensive retreat?
-**A**: The transition maintains all control elements including lasso hook, sleeve grip, and distance management while changing the attack angle. Unlike a true retreat where you lose position and control, this recovery preserves offensive capability throughout and arrives in a position with different but equally dangerous attacking options. The standard lasso guard offers sickle sweeps, triangles, and omoplatas that complement the berimbolo and overhead sweeps available from inverted lasso, making the combination a complete offensive system.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inverted Lasso to Lasso Guard?</p>
 
 The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions.
 

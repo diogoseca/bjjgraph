@@ -188,6 +188,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from Scarf Hold?</p>
+
 - Bridge at a 45-degree angle toward opponent's back rather than straight up, exploiting the perpendicular configuration to roll them over their shoulder line
 - Trap opponent's head-wrapping arm before bridging to eliminate their primary posting base and create the structural weakness needed for the roll
 - Hook opponent's near leg with your bottom leg to remove their secondary posting base and prevent them from stepping out during the roll
@@ -202,6 +204,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from Scarf Hold?</p>
+
 - Free arm positioned to reach and control opponent's head-wrapping arm or their gi sleeve and collar material
 - Both feet planted flat on the mat as close to hips as possible with knees bent at approximately 90 degrees for maximum bridge power
 - Bottom leg in position to hook opponent's near leg at the ankle or calf level to eliminate their secondary posting base
@@ -214,6 +218,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from Scarf Hold step by step?</p>
 
 1. **Establish defensive frame**: Use your free arm to frame against opponent's neck and shoulder, creating minimal breathing space and preventing complete smothering. Tuck your chin to protect against deep crossface control. This frame buys time to set up the remaining control points without panicking under pressure.
 2. **Position feet for maximum bridge power**: Walk both feet as close to your hips as possible, planting them flat on the mat with knees bent at approximately 90 degrees. Avoid telegraphing by making small incremental adjustments rather than obvious repositioning. Your feet must be close enough to generate powerful hip extension when you commit to the bridge.
@@ -243,6 +249,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from Scarf Hold?</p>
+
 - **Opponent widens base by posting far arm wide and extending back leg to resist rotational force** (Effectiveness: High) - Your Response: If the full roll is blocked by their wide base, immediately convert the bridge into a hip escape by shrimping away during the space created by the upward bridge motion. Insert your knee for half guard recovery rather than forcing the roll against solid posting. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 - **Opponent steps over to mount as you lift your hips during the bridge, using your upward momentum to facilitate the transition** (Effectiveness: High) - Your Response: If you feel them stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block the mount transition. Redirect to elbow-knee escape frames to prevent mount consolidation. → Leads to [[Positions/Mount]]
 - **Opponent drops weight heavily and tightens head control to smother the bridge before it develops** (Effectiveness: Medium) - Your Response: When opponent drives weight down preemptively, use the pressure to load a deeper bridge by walking feet even closer. Wait for them to relax or shift weight to attack, then execute the bridge when their pressure momentarily decreases during the transition. → Leads to [[Positions/Side Control/Scarf Hold Position]]
@@ -254,6 +262,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from Scarf Hold?</p>
 
 ### 1. Bridging straight up vertically instead of at a 45-degree angle toward opponent's back
 
@@ -293,6 +303,8 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from Scarf Hold (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Isolated explosive bridge development
 Practice bridging mechanics without a partner, focusing on planting feet close to hips and generating maximum hip extension at a 45-degree angle. Progress to bridging with a partner sitting on your torso at light weight. Develop the specific rotational angle needed for scarf hold escapes as distinct from mount bridge escapes. Perform 20 bridges per side for 3 sets.
 
@@ -310,42 +322,12 @@ Partner maintains scarf hold at full resistance. Bottom player chains bridge esc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the bridge be directed at a 45-degree angle rather than straight up when escaping scarf hold?
-**A**: The 45-degree angle exploits the perpendicular configuration of scarf hold by directing force over the opponent's exposed shoulder line. A vertical bridge only lifts them momentarily before gravity returns them to position, while the angled bridge creates rotational momentum that displaces their base laterally. The angle converts vertical hip power into horizontal rolling force that the opponent cannot resist with simple downward pressure.
-
-**Q2**: Your opponent has tight head control and heavy hip pressure in scarf hold - what is the first thing you must establish before attempting the bridge escape?
-**A**: The first priority is establishing a defensive frame with your free arm against the opponent's neck and shoulder to create breathing space and prevent complete smothering. Without adequate breathing, you cannot generate the sustained energy needed for the explosive bridge. The frame also prevents the opponent from deepening their crossface control, which would further restrict your head mobility and eliminate the rotational movement needed for the escape.
-
-**Q3**: What happens if you attempt to bridge without trapping the opponent's head-wrapping arm?
-**A**: Without trapping the arm, the opponent immediately posts their free hand on the mat when they feel your hips rise, creating a solid structural base that completely negates the rotational force of your bridge. Their posted arm acts as a kickstand preventing the roll, and you waste significant energy on an escape that has zero chance of success. The arm trap is the single most critical control point that must be established before committing to the bridge.
-
-**Q4**: Your opponent widens their base when they feel you setting up the bridge - how do you adapt your escape strategy?
-**A**: When the opponent widens their base to resist the roll, convert the bridge into a frame bridge hip escape variant. Use the upward bridge motion to create momentary space between your torso and their weight, then immediately shrimp your hips away from them and insert your knee for half guard recovery. The wide base that resists the roll actually creates more space during the vertical portion of the bridge, making the hip escape follow-up more effective than the full roll would have been.
-
-**Q5**: What is the role of hooking the opponent's near leg during the bridge escape?
-**A**: Hooking the near leg eliminates the opponent's secondary posting base, preventing them from stepping wide to resist the rotational force of the bridge. Without the hook, the opponent can simply extend their near leg outward to create a tripod base that easily absorbs the rolling momentum. The hook also prevents the dangerous counter where the opponent steps over to mount as your hips elevate during the bridge, which is the most common way this escape fails catastrophically.
-
-**Q6**: When is the optimal timing window to execute the bridge escape from scarf hold?
-**A**: The optimal window occurs when the opponent shifts weight to initiate a submission attack or positional transition. When they release partial head control to attack an americana, or shift their hips to transition toward mount or north-south, their base is momentarily compromised. This weight shift reduces the structural resistance to the bridge and divides their attention between the attack and base maintenance, creating a window where the full bridge has maximum effect with minimum energy expenditure.
-
-**Q7**: Your bridge attempt is defended and you land back on the mat - what should your immediate next action be?
-**A**: Immediately chain into a follow-up escape rather than resting or resetting. The failed bridge will have created some positional disruption and space even if the full roll was blocked. Use the momentary space to shrimp your hips away for a frame-based hip escape, or transition to a ghost escape by turning into the opponent and coming to your knees. Never simply collapse back to the starting position after a failed bridge, as the opponent will tighten controls and your energy expenditure is wasted without follow-up.
-
-**Q8**: How does foot placement affect bridge power and what is the optimal position?
-**A**: Feet should be planted flat on the mat as close to the hips as possible with knees bent at approximately 90 degrees. This position maximizes the mechanical advantage of the hip extensors (glutes and hamstrings) during the explosive bridge. Feet placed too far from the hips reduce bridge height because the hip extension arc is flattened, generating primarily forward push rather than upward and rotational force. The close foot position also allows you to drive through the balls of your feet at the peak of the bridge for additional rotational momentum.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from Scarf Hold?</p>
 
 Bridge escapes from scarf hold involve explosive rotational force through the neck and spine. Practice with controlled intensity, particularly when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player should turn their head to the side during the bridge to protect cervical vertebrae from compression. Both partners should communicate throughout the drill to prevent injury from unexpected explosive movements. Gradually increase resistance across training sessions rather than jumping to full resistance before the mechanics are refined.
 

@@ -167,6 +167,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Position Definition
 
+<p class="section-subtitle">What is Shoulder of Justice (Bottom)?</p>
+
 - You are flat on your back with opponent's shoulder driven deeply into your jaw/chin area creating sustained pressure at approximately 45 degrees toward your far shoulder through temporomandibular joint
 - Opponent's chest positioned perpendicular to your torso with their weight distributed through shoulder blade and connected hips, pinning your near shoulder flat to mat
 - Your head turned away from pressure source with limited ability to rotate back, shoulders pinned to mat, and near-side arm typically trapped or controlled under opponent's weight
@@ -180,6 +182,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Shoulder of Justice (Bottom)?</p>
+
 - You have been passed to side control position
 - You are flat on your back with opponent achieving chest-to-chest connection
 - Opponent has control of your near-side shoulder and head position
@@ -192,6 +196,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shoulder of Justice?</p>
 
 - Breathe through nose despite jaw pressure to maintain composure and prevent panic reactions
 - Create micro-frames with forearms rather than extending arms fully to avoid kimura exposure
@@ -207,6 +213,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Shoulder of Justice (Bottom)?</p>
 
 **If you can create micro-frame with bottom forearm without extending arm fully:**
 - Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 35%)
@@ -230,6 +238,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shoulder of Justice?</p>
 
 ### 1. Extending near arm to push opponent's shoulder away from face
 
@@ -274,6 +284,8 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Shoulder of Justice defense?</p>
+
 ### Pressure Tolerance and Breathing Drill
 
 Partner establishes full Shoulder of Justice position with moderate pressure. Practice maintaining calm breathing through nose for 2-minute intervals while making no escape attempts. Focus entirely on composure, breathing rhythm, and not making reactive movements. Gradually increase pressure intensity over multiple rounds.
@@ -299,38 +311,6 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is breathing through your nose critical when trapped in Shoulder of Justice Bottom?
-**A**: Breathing through your nose maintains composure and prevents panic reactions that lead to desperate defensive movements. Jaw pressure naturally makes you want to breathe through your mouth, but this triggers a stress response that accelerates fatigue and causes reactive errors like extending your near arm or bringing your far arm across your face. Nasal breathing activates the parasympathetic nervous system, helping you stay calm and think systematically about escape timing.
-
-**Q2**: Your opponent increases shoulder pressure - what is the first thing you should NOT do?
-**A**: Do not extend your near arm to push their shoulder away from your face. This is the most common reactive error and immediately exposes your arm to a high-percentage kimura attack. The opponent is specifically applying pressure to provoke this reaction. Instead, keep your near arm tight to your body and create micro-frames with your forearm without any arm extension.
-
-**Q3**: What is the proper timing for attempting a shrimp escape from this position?
-**A**: Time your shrimp to coincide with opponent's weight shifts, not during maximum pressure application. Wait for moments when they adjust their shoulder angle, transition toward submissions, or shift their base. Attempting explosive shrimps while they have maximum pressure and stable base wastes energy, achieves no positional improvement, and creates fatigue that worsens your situation. The window opens when their weight moves, even momentarily.
-
-**Q4**: Why must your far arm stay tight to your body in this position?
-**A**: Bringing your far arm across your body to shield your face from shoulder pressure creates the perfect arm triangle setup. The opponent can immediately trap your arm across your own neck with their head and shoulder, creating a choking mechanism. Keep your far arm tight to your far-side ribs and never bring it across your body's centerline, even when the pressure is extremely uncomfortable.
-
-**Q5**: What are the three escape priorities in order from Shoulder of Justice Bottom?
-**A**: First, relieve the shoulder pressure through proper positioning and micro-frames. Second, create space through well-timed shrimping when opponent's weight shifts. Third, recover guard by inserting knee shields or returning to closed guard. Attempting to recover guard without first relieving pressure and creating space results in failed escapes and wasted energy.
-
-**Q6**: Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?
-**A**: When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle.
-
-**Q7**: What happens if you turn your face into the pressure to relieve jaw discomfort?
-**A**: Turning into the pressure opens north-south transition pathways and potential back-take opportunities for your opponent. They can follow your turn, spin to north-south control, or take your back as you expose it. Instead, maintain your head turned away from the pressure while working on hip escape and space creation - accept the jaw discomfort as temporary.
-
-**Q8**: How do you create effective frames without exposing yourself to submissions?
-**A**: Create micro-frames using your forearms positioned close to your body rather than extending your arms fully. Your near-side elbow should stay tight to your ribs with your forearm creating a small wedge. These subtle frames maintain distance without extending vulnerable limbs that can be attacked. The goal is structural resistance through bone alignment, not muscular pushing that fatigues you and creates openings.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

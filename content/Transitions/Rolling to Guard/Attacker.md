@@ -188,6 +188,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rolling to Guard?</p>
+
 - Create initial space with frames before committing to the roll
 - Use momentum and hip rotation rather than muscular force to power the movement
 - Maintain awareness of opponent's position throughout the entire rotation
@@ -203,6 +205,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rolling to Guard?</p>
+
 - Opponent positioned behind or to the side attempting to establish or maintain top control from turtle
 - Minimum 6-12 inches of space created through frames on opponent's hips, shoulders, or biceps
 - Body positioned on side with shoulder angled toward the mat rather than flat on stomach
@@ -216,6 +220,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rolling to Guard step by step?</p>
 
 1. **Establish frames and create space**: From turtle, place frames on opponent's hips, shoulders, or biceps and push away to generate 6-12 inches of separation. Your frames should be firm but responsive, allowing you to feel opponent's weight distribution and pressure direction. This space is non-negotiable - without it, the roll becomes a scramble the top player wins.
 2. **Turn to side and load rolling shoulder**: Rotate your body onto your side, dropping the shoulder you intend to roll across toward the mat at approximately 45 degrees to your opponent's centerline. This angle is critical - it creates the diagonal rolling path that separates you from the top player. Your bottom arm posts lightly on the mat for balance while your top arm maintains the final frame against the opponent.
@@ -246,6 +252,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rolling to Guard?</p>
+
 - **Opponent follows the roll and maintains chest-to-back pressure throughout rotation** (Effectiveness: High) - Your Response: Change rolling direction mid-rotation or abort into defensive turtle with tight elbows and immediate re-attempt in opposite direction. If they follow completely, their forward commitment opens sit-through or deep half entry opportunities. → Leads to [[Positions/Turtle]]
 - **Opponent grabs your legs or pants during the roll to prevent guard establishment** (Effectiveness: Medium) - Your Response: Kick legs away explosively using a piston motion, or use the grip as an anchor to pull yourself through the roll faster. If they control both legs, immediately frame on their shoulders and work hip escape mechanics to re-insert legs. → Leads to [[Positions/Open Guard]]
 - **Opponent circles to your back during the roll and secures seatbelt or harness control** (Effectiveness: Medium) - Your Response: Immediately begin hand fighting to strip the choking hand while turning your hips toward them. If they get one hook, address it before the second by kicking the hooked leg back. Prioritize facing them over completing the guard recovery. → Leads to [[Positions/Back Control]]
@@ -257,6 +265,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rolling to Guard?</p>
 
 ### 1. Rolling straight backward instead of at a 45-degree diagonal angle
 
@@ -296,6 +306,8 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rolling to Guard (Attacker)?</p>
+
 **Week 1-2: Solo Drilling** - Building rolling mechanics and neck safety habits
 Practice backward diagonal rolls without a partner, starting from seated position and progressing to rolls from knees. Focus on smooth continuous motion, consistent chin tuck, and controlled rotation across the shoulders. Perform 20-30 repetitions per side daily, alternating rolling shoulders. Ensure every repetition ends with legs extended forward as if establishing guard.
 
@@ -316,48 +328,12 @@ Incorporate rolling to guard into full sparring, chaining successful recoveries 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to tuck your chin during a rolling to guard movement?
-**A**: Tucking the chin protects the cervical spine by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. Without the chin tuck, body weight landing on the crown or back of the head creates dangerous compression forces on the cervical vertebrae. Additionally, a tucked chin keeps the neck muscles engaged as stabilizers throughout the rotation, prevents the opponent from accessing the neck for chokes during the transitional moment, and maintains better visual tracking of the opponent's position.
-
-**Q2**: What is the optimal timing window for initiating the roll from turtle?
-**A**: The optimal window occurs when the top player's weight shifts forward during a grip transition, when they reach for a new control point (such as switching from hip control to seatbelt), or when they commit their weight forward to flatten you. These moments create brief instability in their base that prevents them from following your rotation effectively. You should also have created sufficient space through frames (6-12 inches minimum). Initiating against fully settled, heavy pressure with hooks established is the worst timing - the opponent can simply ride the roll and maintain back control throughout.
-
-**Q3**: What conditions must exist before you can attempt Rolling to Guard?
-**A**: Four conditions are necessary: First, you must have created minimum 6-12 inches of space through frames against the opponent's body. Second, you must be positioned on your side with a shoulder loaded toward the mat rather than flat on your stomach. Third, the opponent's weight must be distributed or in transition rather than fully settled with hooks and harness control. Fourth, you must have a clear rolling path without collision risk from mat boundaries or other training pairs. Attempting without these conditions dramatically increases failure rate and back exposure risk.
-
-**Q4**: What is the critical hip movement that powers the rolling escape?
-**A**: The explosive upward hip drive initiated by the glutes and core muscles is the critical movement. The hips must generate sufficient upward momentum to carry the legs through the full rotation arc over the shoulders. This movement originates from a contraction of the glutes driving the pelvis toward the ceiling, then redirecting that momentum over the loaded shoulder. Weak or tentative hip drive results in stalled rotations where the practitioner gets stuck on their upper back with legs in the air - a position worse than turtle because the opponent can immediately advance to mount or side control.
-
-**Q5**: What grip setup optimizes your chances before initiating the roll?
-**A**: The optimal grip configuration involves controlling the opponent's sleeve or wrist on the side you are rolling toward - this prevents them from posting to follow your rotation. A secondary collar grip on the same side can pull them off-balance in the direction of your roll. These grips must be released at the moment of roll initiation because holding them through the rotation inhibits your rotational freedom and can tangle your arms. The release should be explosive, converting pulling energy into rotational momentum. Immediately upon completing the roll, seek new grips appropriate to the guard position you establish.
-
-**Q6**: Why must you roll at 45 degrees rather than straight backward?
-**A**: Rolling straight backward keeps you on the same line as the opponent, allowing them to simply follow your movement path and maintain chest-to-back pressure throughout the entire rotation. A 45-degree diagonal roll across your shoulder creates lateral separation from the opponent's centerline, forcing them to change direction to follow. This directional change buys you the fraction of a second needed to complete the roll and insert your legs. Additionally, the diagonal path naturally orients your body to face the opponent upon completion, whereas a straight backward roll tends to leave you facing away from them with your back exposed.
-
-**Q7**: Your opponent posts their hand on the mat as you initiate the roll - how do you adjust?
-**A**: When an opponent posts their hand, they commit that limb to a fixed point on the mat, simultaneously creating a structural anchor that blocks your roll in that direction and removing that hand from controlling your body. Immediately adjust your rolling angle away from the posted hand, rolling toward the opposite shoulder. Their posted arm also creates a temporary opening - you may be able to roll underneath the posted arm if it is extended wide. Use the committed post as information about their weight distribution and exploit the fact that one of their control hands is now occupied with the mat rather than controlling your movement.
-
-**Q8**: Your opponent is driving forward aggressively from turtle top - how does this affect your rolling timing?
-**A**: Aggressive forward pressure is actually the optimal trigger for the roll because the opponent's weight has committed past their base, making them unable to quickly change direction when you rotate. Time your roll initiation at the peak of their forward drive, using their own momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to redirecting force as you begin the roll. Less muscular effort is required when working with their energy rather than against it. The danger is rolling too early before they fully commit, which gives them time to abort and follow, or too late when they have already flattened you and eliminated your rolling space.
-
-**Q9**: How do you chain Rolling to Guard with other escapes when the initial roll is blocked?
-**A**: The key principle is that each escape attempt should load the next option rather than resetting to neutral. If the roll is blocked by hip pressure or sprawl, use the space your roll attempt created to immediately shrimp and re-guard using hip escape mechanics. If the opponent loads forward to stop your backward rotation, their weight commitment opens sit-through or deep half entry opportunities underneath them. If they grab your legs during the roll, transition to technical standup since your upper body is free. Recognize the block within the first quarter of the roll and redirect immediately - forcing a blocked roll results in worse position than intelligently transitioning mid-attempt.
-
-**Q10**: What distinguishes high-level execution of this technique from beginner-level execution?
-**A**: High-level practitioners execute three things that beginners do not. First, they maintain continuous motion from frame creation through roll completion to guard establishment as one seamless action with no pauses between phases. Second, they have superior spatial awareness, constantly tracking the opponent throughout the roll and making real-time directional adjustments mid-rotation. Third, they immediately threaten sweeps or submissions within 1-2 seconds of establishing guard, converting the defensive recovery into offensive pressure before the opponent can stabilize a passing position. Beginners typically pause between steps, roll without tracking the opponent, and remain passive after establishing guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rolling to Guard?</p>
 
 When practicing Rolling to Guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin firmly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners and mat boundaries during the dynamic movement - collisions during rolling are a significant injury source. Partners should provide progressive resistance and should never attempt to spike, compress, or drive the rolling player's head into the mat. Stop immediately if any neck discomfort, numbness, or tingling occurs. Practitioners with existing cervical spine issues, herniated discs, or shoulder injuries should consult medical professionals before practicing this technique.
 

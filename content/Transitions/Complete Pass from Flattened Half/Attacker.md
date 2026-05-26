@@ -188,6 +188,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Complete Pass from Flattened Half?</p>
+
 - Maintain chest-to-chest pressure throughout the entire extraction sequence - never lift your torso to free the leg
 - Create angular displacement rather than direct force to overcome the half guard hook
 - Use the crossface as an anchor point that pins your opponent while your lower body works the extraction
@@ -203,6 +205,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Complete Pass from Flattened Half?</p>
+
 - Crossface firmly established with forearm or bicep pressure turning opponent's head away from the pass direction
 - Chest-to-chest contact maintained with forward pressure through sternum and ribcage
 - Bottom player's frames collapsed with no active knee shield, forearm wedge, or elbow frame in place
@@ -216,6 +220,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Complete Pass from Flattened Half step by step?</p>
 
 1. **Consolidate upper body control**: Before initiating any leg extraction, verify that your crossface is secure with your forearm driving across your opponent's jaw line, your chest is heavy on their sternum, and your shoulder pressure is pinning their near shoulder to the mat. Your free hand should be controlling their far hip or posted on the mat for base. Settle your weight and take a controlled breath.
 2. **Block the far hip**: Place your free hand on your opponent's far hip, pushing it toward the mat. This prevents them from shrimping toward you when you begin the extraction and eliminates their primary defensive movement. The hip block is the critical preparation that makes the extraction possible by removing their ability to follow your leg movement.
@@ -245,6 +251,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Complete Pass from Flattened Half?</p>
+
 - **Re-hooking the leg during extraction by catching the ankle or calf** (Effectiveness: High) - Your Response: Curl your heel tight to your buttock during extraction to make re-hooking extremely difficult. If they catch your ankle, drive your hips forward and re-attempt the knee slice from the new angle rather than pulling the leg back. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Hip escape during extraction to create space for knee shield recovery** (Effectiveness: Medium) - Your Response: Block the far hip before initiating extraction to prevent the shrimp. If they manage to create space, immediately increase chest pressure and re-flatten before reattempting the extraction. Do not chase the leg - control the upper body first. → Leads to [[Positions/Half Guard]]
 - **Underhook recovery when pressure shifts during leg extraction** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure throughout the extraction to prevent underhook insertion. If they begin to establish an underhook, drive your shoulder into their chin and use a whizzer to neutralize it before continuing the pass. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Complete Pass from Flattened Half?</p>
 
 ### 1. Lifting chest to create space for leg extraction rather than maintaining pressure throughout
 
@@ -300,6 +310,8 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Complete Pass from Flattened Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Leg extraction technique without resistance
 Practice the complete extraction sequence with a cooperative partner. Focus on maintaining chest pressure while creating the hip angle, driving the knee through, curling the heel, and flowing into side control. Perform 20 repetitions on each side with emphasis on smooth, connected movement rather than speed.
 
@@ -320,42 +332,12 @@ Positional sparring starting from flattened half guard with full resistance. Top
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to block the far hip before initiating the leg extraction?
-**A**: Blocking the far hip prevents the bottom player from executing a hip escape (shrimp) that would follow your leg movement during extraction. Without the hip block, the opponent can shrimp toward you as you create the extraction angle, maintaining the hook or recovering enough space to re-establish frames and knee shield. The hip block removes their primary defensive movement and makes the extraction significantly higher percentage.
-
-**Q2**: What is the optimal direction to drive your knee during extraction and why?
-**A**: Drive your knee diagonally across the opponent's thigh toward their far hip rather than pulling straight back. This diagonal angle works with the geometry of the hook rather than against it, making extraction require minimal force. Pulling straight back tightens the hook through the opponent's reflexive clamping response and telegraphs your intention, while the diagonal slice changes the angle of your leg relative to the hook in a way that the hook cannot effectively grip.
-
-**Q3**: Your opponent catches your ankle with a re-hook as you attempt extraction. How do you respond?
-**A**: Do not pull the leg back and reset. Instead, drive your hips forward to maintain pressure and re-attempt the knee slice from the new angle created by your initial extraction attempt. The forward hip drive prevents the opponent from consolidating the re-hook, and the adjusted angle makes the second extraction attempt higher percentage. If re-hooking persists, switch to a hip switch extraction or backstep variant to change the extraction geometry entirely.
-
-**Q4**: Why should you curl your heel toward your buttock during extraction rather than extending the leg straight?
-**A**: Curling the heel makes your lower leg compact and spherical, which is extremely difficult for the opponent to catch with a last-ditch re-hook. An extended straight leg presents the ankle and calf as easy targets for re-hooking. Additionally, the curled position places your leg in the correct configuration for establishing side control base immediately upon clearing the hook, eliminating the pause between extraction and position consolidation.
-
-**Q5**: What is the primary risk of lifting your chest during the extraction attempt?
-**A**: Lifting the chest creates space between your torso and the opponent's body that they will immediately fill with frames, typically an elbow wedge or knee shield insertion. This single error can reset the entire passing sequence, returning the opponent to active half guard with defensive structure intact. All the work invested in winning the underhook battle, establishing the crossface, and flattening the opponent is lost in the moment you lift your chest.
-
-**Q6**: How do you time the extraction attempt for maximum success probability?
-**A**: Initiate the extraction when your opponent is focused on managing your upper body pressure rather than actively defending the leg hook. After establishing heavy crossface and chest pressure, wait for your opponent to adjust their breathing or attempt to move their head, then begin the extraction during that moment of divided attention. Avoid attempting extraction when the opponent has just settled into a defensive posture with full attention on maintaining the hook.
-
-**Q7**: Your opponent begins threading underneath you for a deep half guard entry during your extraction attempt. What adjustment do you make?
-**A**: Immediately sprawl your hips down toward the mat and increase forward chest pressure to collapse the deep half entry before it develops. The deep half requires the opponent to get their head underneath your hip line, which is only possible if your hips rise during the extraction. After stopping the deep half attempt, re-settle your pressure and reattempt the extraction with a more deliberate focus on keeping hips low throughout the movement.
-
-**Q8**: What distinguishes the knee slice completion variant from the hip switch extraction variant?
-**A**: The knee slice completion drives the trapped knee diagonally across the opponent's thigh in one continuous forward motion, relying on angular displacement and forward pressure to break the hook. The hip switch extraction shifts the hips from one side to the other while maintaining chest pressure, using the directional change to pop the leg free through a change in the angle of the leg relative to the hook. The knee slice is the primary option when you have strong crossface control and can create a diagonal angle. The hip switch is better against tight hooks that resist forward extraction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Complete Pass from Flattened Half?</p>
 
 The Complete Pass from Flattened Half Guard is a relatively low-risk transition from an injury perspective, as no joint locks or chokes are directly applied during the movement. However, the sustained chest pressure can be uncomfortable and restrict breathing for the bottom player, so training partners should be attentive to tapping for pressure and should release immediately when tapped. During the knee slice extraction, avoid driving your knee aggressively into the opponent's inner thigh as this can cause bruising or soft tissue injury. When drilling, establish clear communication about pressure intensity levels.
 

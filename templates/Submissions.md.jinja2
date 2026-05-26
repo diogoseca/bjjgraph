@@ -37,7 +37,7 @@ description: "{{description}}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for qa in knowledge_assessment[:6] %}
+    {%- for qa in flashcards[:6] %}
     {
       "@type": "Question",
       "name": "{{qa.question}}",
@@ -189,7 +189,7 @@ description: "{{description}}"
 <section id="knowledge-assessment" class="content-section">
 
 ## Test Your Knowledge
-{% for qa in knowledge_assessment -%}
+{% for qa in flashcards -%}
 **Q{{loop.index}}**: {{qa.question}}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
 **A**: {{qa.answer}}
 

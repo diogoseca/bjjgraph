@@ -31,7 +31,7 @@
       "purpose": "Establishes foundational control and creates the platform for all subsequent attacks in the system"
     },
     {
-      "component_name": "Electric Chair Submission",
+      "component_name": "Electric Chair",
       "description": "The Electric Chair is a crotch-ripper submission that applies pressure to the opponent's groin, hip, and knee simultaneously by extending the Lockdown while controlling the opponent's upper body and driving their trapped leg into an extreme split position. This submission can be finished from various configurations of the Lockdown position and serves as both a legitimate finishing technique and a powerful threat that forces opponents to defend, creating opportunities for sweeps and transitions to other positions like the back or mount.",
       "purpose": "Primary submission threat that creates defensive reactions enabling sweeps and positional advances"
     },
@@ -287,7 +287,7 @@
       "relationship": "Opponent's common defensive response that must be countered within the system"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "content_type": "Submission",
       "relationship": "Primary submission finish from the Lockdown position"
     },
@@ -302,9 +302,9 @@
       "relationship": "Possible transition when opponent posts arm during sweep defense"
     },
     {
-      "name": "Underhook Defense",
+      "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Critical principle for winning the underhook battle from bottom half guard"
+      "relationship": "Critical principle for winning the underhook battle and controlling grips from bottom half guard"
     },
     {
       "name": "Whizzer Control",
@@ -312,29 +312,29 @@
       "relationship": "Understanding opponent's whizzer defense to counter it effectively"
     },
     {
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Fundamental principles underlying all Lockdown-based sweeps"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Prevents opponent from smashing and flattening before Lockdown is established"
     },
     {
-      "name": "Creating Reactions",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Using Electric Chair threats to force defensive movements that enable sweeps"
+      "relationship": "Using Electric Chair threats to force defensive movements that open sweep and back take opportunities"
     },
     {
-      "name": "Guard Retention",
+      "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "The Lockdown as an ultimate guard retention tool that prevents passing"
+      "relationship": "The Lockdown as an ultimate guard retention tool that prevents passing and maintains bottom position control"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "How individual techniques connect to form a cohesive attacking system"
+      "relationship": "How individual techniques connect to form a cohesive attacking system with logical progressions"
     },
     {
       "name": "10th Planet Rubber Guard System",

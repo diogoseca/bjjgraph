@@ -208,7 +208,7 @@ The Rolling Kneebar is a primary submission weapon within the grasshopper guard 
 
 - [[Transitions/Kneebar]] - Parent submission category for knee hyperextension attacks
 
-- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee defensively
+- [[Submissions/Calf Slicer]] - Chain attack when opponent bends knee defensively
 
 - [[Submissions/Inside Heel Hook]] - Alternative attack when roll is stopped by sprawl
 

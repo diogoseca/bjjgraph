@@ -3,24 +3,38 @@
 
 
 ---
-title: "Bow and Arrow Choke | BJJ Submission | BJJ Graph"
+title: "Bow and Arrow Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety protocols, setup from back control, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Bow and Arrow Choke targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Bow and Arrow Choke/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Bow and Arrow Choke/from Back Control|Back Control]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Body Triangle|Body Triangle]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Harness|Harness]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Invisible Collar|Invisible Collar]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Rear Triangle|Rear Triangle]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Rodeo Ride|Rodeo Ride]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Russian Cowboy|Russian Cowboy]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Seat Belt Control Back|Seat Belt Control Back]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Bow and Arrow Choke/from Truck|Truck]] | 58% | Carotid artery compression leading to unconsciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +43,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control]]
-**From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 62%
+**Success Rate**: 62% (average across variants)
 
 </section>
 
@@ -78,145 +90,10 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Lapel control depth - deep collar grip with four fingers ins... | Prevent the deep collar grip - strip or block lapel access b... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Bow and Arrow Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Lapel control depth - deep collar grip with four fingers inside creates maximum leverage
-
-- Hip positioning - perpendicular angle to opponent's spine creates optimal choking geometry
-
-- Leg configuration - straightening the far leg while controlling near leg creates bow tension
-
-- Collar angle - pulling collar toward opposite shoulder targets both carotid arteries
-
-- Body extension - arching back while extending legs multiplies choking pressure exponentially
-
-- Head control - using your chest to control opponent's head prevents escape angles
-
-- Timing the finish - transitioning to bow and arrow when opponent defends rear naked choke
-
-
-### Execution Steps
-
-
-- **Secure deep collar grip**: From back control, establish a deep four-finger grip inside the opponent's collar on your choking-si...
-
-- **Transition hips to perpendicular angle**: Begin rotating your hips away from parallel alignment with the opponent's spine toward a perpendicul...
-
-- **Establish far leg control**: With your non-choking hand, secure a grip on the opponent's far-side pants at the knee or lower leg....
-
-- **Remove bottom hook and position leg**: Release your bottom hook (the leg closer to the mat) and begin extending it toward a straightened po...
-
-- **Create bow tension through extension**: Begin extending your bottom leg forcefully while pulling the collar grip toward your opposite should...
-
-- **Final adjustment and maximum pressure**: Make final adjustments by ensuring your collar grip pulls across their neck at an angle targeting bo...
-
-- **Maintain until tap and immediate release**: Hold the maximum pressure configuration while remaining alert for any tap signal - hand taps, foot t...
-
-
-### Common Mistakes
-
-
-- **Attempting the choke with shallow collar grip**
-  - Consequence: Insufficient pressure on carotid arteries, allowing opponent to defend indefinitely and potentially escape the position
-  - Correction: Always establish a deep four-finger grip with knuckles near the back of their neck before transitioning hips. If the grip is shallow, reset to back control and re-establish proper depth.
-
-- **Applying sudden jerking or spiking motion to the neck**
-  - Consequence: DANGER: Risk of neck strain, cervical spine injury, or TMJ damage even if the choke is successful
-  - Correction: Apply all pressure progressively over 3-5 seconds minimum. The bow and arrow is a leverage-based submission that works through proper positioning, not explosive force. Always prioritize partner safety over speed of finish.
-
-- **Releasing hooks too early before establishing perpendicular angle**
-  - Consequence: Opponent escapes to side control or turtle, completely nullifying the submission attempt
-  - Correction: Maintain at least your top hook until your hips are fully rotated to perpendicular position. Only then begin transitioning hooks to the bow configuration. The angle must be secured before removing primary back control.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Bow and Arrow Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent the deep collar grip - strip or block lapel access before the attacker can establish four-finger depth, as this is the foundation of the entire submission
-
-- Deny the perpendicular angle - keep your hips aligned with the attacker's hips to prevent the rotation that creates the bow configuration
-
-- Control the choking-side wrist - two-on-one grip on the collar hand prevents both grip deepening and the pulling angle needed for the finish
-
-- Turn into the attacker rather than away - rolling away assists their transition to perpendicular angle while turning toward them disrupts the bow geometry
-
-- Address leg control early - fight the pants grip or leg hook before the attacker can establish the stretching mechanism that multiplies choking pressure
-
-- Maintain chin tucked and shoulders tight - while less effective against bow and arrow than against RNC, chin defense buys time for grip stripping
-
-- Recognize the window is closing - escalate defensive urgency as each bow and arrow component is established, with collar grip depth as the critical threshold
-
-
-### Recognition Cues
-
-
-- Attacker's hand slides deep inside your collar with four fingers penetrating toward the far side of your neck, distinctly different from the over-under seatbelt grip
-
-- Attacker begins rotating their hips away from parallel alignment, creating an angle between their torso and your spine that was not present in standard back control
-
-- Attacker's free hand reaches toward your far-side pants at the knee or lower leg, or their top leg begins threading across your far hip
-
-- Attacker releases their bottom hook and begins extending their leg rather than maintaining standard hook position inside your thigh
-
-- You feel increasing tension across your neck from the collar being pulled at a diagonal angle toward the attacker's far shoulder rather than straight back
-
-
-### Escape Paths
-
-
-- Turn toward the attacker during the hip rotation transition to recover closed guard or half guard before the perpendicular angle is established
-
-- Strip the collar grip using two-on-one wrist control and immediately shrimp away to create distance for back escape sequences
-
-- Roll over the attacker's extending bottom leg toward the open side when the bow is partially formed, using their committed position against them to escape to turtle
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Modified Bow and Arrow without Pants Grip**: When the opponent defends their far leg or in no-gi situations, establish the bow configuration by placing your top leg straight across their far hip while your bottom leg extends against their near hip. Instead of pulling their leg, use your legs to create the bow tension by pushing in opposite directions while maintaining the collar or arm drag grip for the choke. (When to use: When opponent successfully defends pants grip or in no-gi contexts where lapel control is replaced with arm-triangle mechanics)
@@ -279,10 +156,10 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Positions/Back Control/Seat Belt Control Back]]
 - [[Positions/Mount]]
 - [[Positions/Mount/Technical Mount]]
-- [[Positions/Side Control]]
 - [[Positions/Turtle]]
 - [[Positions/Gift Wrap]]
 - [[Positions/Back Control/Body Triangle]]
+- [[Positions/Harness]]
 
 
 </section>
@@ -291,16 +168,15 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ## Related Submissions
 
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Clock Choke]]
-- [[Transitions/Short Choke]]
-- [[Transitions/Paper Cutter Choke]]
-- [[Submissions/Armbar from Back]]
-- [[Transitions/Baseball Bat Choke]]
-- [[Submissions/Loop Choke]]
-- [[Transitions/Cross Collar Choke]]
-- [[Submissions/Armbar from Back with Legs]]
-- [[Submissions/Triangle Choke Back]]
+- [[Submissions/Rear Naked Choke]] - Primary alternative back attack that creates bow and arrow opportunities when defended
+- [[Transitions/Clock Choke]] - Chains into bow and arrow when opponent rolls defensively from turtle
+- [[Submissions/Short Choke]] - Alternative back choke when bow and arrow collar grip is defended
+- [[Submissions/Cross Collar Choke]] - Complementary collar choke sharing similar deep lapel grip mechanics
+- [[Submissions/Gift Wrap Armbar]] - Alternative attack when arm is trapped during bow and arrow setup
+- [[Submissions/Baseball Bat Choke]] - Related collar choke using cross-grip lapel control from turtle
+- [[Submissions/Brabo Choke]] - Related lapel choke using opponent's gi as force multiplier
+- [[Transitions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost
+- [[Submissions/Ezekiel Choke]] - Alternative gi choke option from back control using sleeve mechanics
 
 
 </section>
@@ -312,12 +188,12 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Positions/Back Control]] - Primary starting position for bow and arrow choke entry
 - [[Positions/Back Control/Seat Belt Control Back]] - Fundamental back control configuration before transitioning to bow and arrow
 - [[Positions/Turtle]] - Alternative entry position via turtle breakdown with collar grip
-- [[Transitions/Rear Naked Choke]] - Primary attack that creates bow and arrow opportunities when defended
+- [[Submissions/Rear Naked Choke]] - Primary attack that creates bow and arrow opportunities when defended
 - [[Transitions/Clock Choke]] - Chains into bow and arrow when opponent rolls defensively
 - [[Positions/Crucifix]] - Alternative control position when bow and arrow entry is denied
 - [[Positions/Gift Wrap]] - Alternative arm control that can set up bow and arrow entry
 - [[Positions/Mount/Technical Mount]] - Transitional position for back control and bow and arrow entries
-- [[Transitions/Short Choke]] - Alternative back choke when bow and arrow grip is defended
+- [[Submissions/Short Choke]] - Alternative back choke when bow and arrow grip is defended
 - [[Positions/Back Control/Body Triangle]] - Back control variation that can transition to bow and arrow
 
 

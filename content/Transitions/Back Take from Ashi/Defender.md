@@ -166,6 +166,8 @@ At the competition level, the defender's goal is not merely survival but creatin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Ashi?</p>
+
 - Attacker reaches one arm toward your far shoulder, collar, or underhook while still maintaining leg control - this signals they are establishing the upper body connection prerequisite
 - Attacker's inside leg releases from across your hip and you feel reduced pressure on that side, indicating they are beginning the circling motion toward your back
 - Attacker shifts their weight from perpendicular leg control alignment to angling their body toward your back side, changing the direction of pressure you feel
@@ -177,6 +179,8 @@ At the competition level, the defender's goal is not merely survival but creatin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Ashi?</p>
 
 - Maintain low, compact posture when defending leg attacks to avoid exposing your back through forward weight commitment
 - Address heel defense through hip rotation and knee positioning rather than sitting up or reaching forward toward attacker
@@ -191,6 +195,8 @@ At the competition level, the defender's goal is not merely survival but creatin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Ashi?</p>
 
 ### 1. Immediately turn into the attacker and establish closed guard by facing them and closing your legs around their waist before they can complete the circle to your back
 
@@ -228,6 +234,8 @@ At the competition level, the defender's goal is not merely survival but creatin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Deny the back take trigger by maintaining low posture during leg lock defense, or turn into the attacker immediately when they release inside leg control to establish guard position. Alternatively, stand explosively before seatbelt is established to force a complete positional reset.
@@ -243,6 +251,8 @@ When the attacker has already begun circling and turning into guard is too late,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Ashi?</p>
 
 ### 1. Sitting up aggressively to address leg control without awareness of back exposure
 
@@ -272,6 +282,8 @@ When the attacker has already begun circling and turning into guard is too late,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Ashi?</p>
+
 **Week 1-2** - Recognition drilling
 Partner initiates back take from ashi at slow speed while you practice identifying each recognition cue: inside leg release, upper body grip attempt, directional pressure change. Call out each cue verbally as you feel it. No escape attempts yet - focus purely on sensory recognition and timing awareness.
 
@@ -288,29 +300,6 @@ Full resistance positional rounds starting from inside ashi. Attacker works comp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body position should you maintain while defending leg attacks to prevent the back take trigger?
-**A**: Maintain a low, compact posture without sitting up or reaching forward toward the attacker. Address heel hook and ankle lock defense through hip rotation, controlled knee positioning, and grip breaks executed from your existing low position. Your spine should remain rounded with your weight centered over your hips rather than shifted forward. This denies the forward weight commitment the attacker needs as the trigger for initiating the back take transition.
-
-**Q2**: You feel the attacker's inside leg release from your hip - what is your immediate priority?
-**A**: Your immediate priority is turning toward the attacker to prevent them from completing the circular arc to your back. Do not continue focusing on heel defense - the threat has shifted from leg attack to back take. Turn your shoulders and hips toward the attacker simultaneously while using your near arm to frame against their upper body. If you can face them before the seatbelt is established, you can recover to guard. Speed of recognition is everything here because the window between inside leg release and seatbelt establishment is typically only two to three seconds.
-
-**Q3**: When is turtling the correct defensive choice rather than attempting to turn into guard?
-**A**: Turtle when the attacker has already progressed past the midpoint of the transition - they have released your leg, established some upper body control, and are actively circling toward your back. At this point, turning into guard risks giving up your back even faster because the attacker can use your turning momentum. Dropping to tight turtle with elbows to knees resets the attacker's positional advantage by forcing them to work from turtle top, where they need to re-establish hooks and harness from scratch rather than flowing directly into back control.
-
-**Q4**: How can you create a counter-dilemma for the attacker attempting the back take?
-**A**: Threaten to stand, turn into guard, or re-engage leg entanglement simultaneously so the attacker cannot commit fully to the back take without risk. If they release leg control to circle, immediately threaten to stand or turn in. If they maintain leg control to prevent your stand, they cannot circle to your back. This forces them to choose one path, which gives you information to react. The counter-dilemma mirrors their offensive dilemma - just as they create leg attack versus back take choices for you, you create escape versus re-engagement choices for them.
-
-**Q5**: What is the most dangerous defensive mistake when the back take is already in progress?
-**A**: The most dangerous mistake is allowing the seatbelt to be established uncontested while focusing on preventing hooks. Hooks without harness are relatively escapable through hip movement and leg extraction. But once the seatbelt is locked with one arm over your shoulder and one under your armpit with hands clasped, the attacker controls your upper body rotation and can follow any escape attempt you make. Denying seatbelt establishment through active hand fighting on their arms is far more important than fighting the hook insertion during the transition.
-
-
-
-</section>
 
 
 </main>

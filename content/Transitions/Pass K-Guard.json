@@ -221,7 +221,7 @@
         "description": "Practice maintaining forward hip pressure against K-Guard for extended periods without attempting to pass. Partner holds position with active hooks while you develop awareness of proper weight placement, base width, and pressure angles. Build comfort staying low and connected against dynamic hook retention."
       },
       {
-        "phase": "Phase 2 - Grip Fighting Integration",
+        "phase": "Phase 2 - Grips Integration",
         "focus": "Establishing dominant grips under active resistance",
         "description": "Add grip fighting to pressure maintenance. Partner actively fights for their own grips while you work to break theirs and establish crossface, far hip control, and sleeve grips. Develop efficiency in grip transitions and the ability to maintain pressure while changing grips without creating space."
       },
@@ -241,7 +241,7 @@
         "description": "Full resistance positional sparring starting from K-Guard. Apply all previous phases against fully resisting partners of varying sizes and skill levels. Develop timing recognition for when passes are available and when to reset pressure. Track success rates to identify and refine weaknesses."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the K-Guard pass?",
         "answer": "The optimal window opens when you have broken the bottom player's dominant grips and partially neutralized at least one of their two hooks through pressure and angle manipulation. Look for the moment when the inverted hook tension weakens as you redirect it through hip pressure - this is when their retention system is most vulnerable. Attempting to pass while both hooks maintain active tension and their grips are intact consistently results in failed pass attempts and counter-sweeps."
@@ -358,7 +358,7 @@
         "correction": "Move your hips in small circular patterns away from pressure while maintaining hook connections. Continuous movement prevents the passer from settling into any single pressure angle and forces constant readjustment."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that a K-Guard pass attempt is beginning?",
         "answer": "The earliest cues are the passer dropping their hips forward to increase pressure, beginning to strip your dominant grips on their collar or sleeves, and driving their crossface arm across your jaw to control head position. These grip and pressure changes typically precede actual hook neutralization by several seconds, giving you a critical early warning window to reinforce your retention structure or prepare counter-attacks before the passer reaches the execution phase of their pass."

@@ -188,6 +188,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture from Chill Dog?</p>
+
 - Control the near hip first — hip control prevents the bottom player from re-turtling or executing rolling escapes during the lift
 - Use structural leverage from underhooks rather than muscular lifting force to conserve energy and maintain control throughout
 - Maintain chest-to-back pressure continuously — any gap during the transition creates space for the bottom player to recover turtle or take the back
@@ -202,6 +204,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture from Chill Dog?</p>
+
 - Chest-to-back contact established with weight driving through upper back of the Chill Dog defender
 - At least one underhook established (near hip or far armpit) to create lifting leverage
 - Near-side knee positioned against bottom player's hip to serve as post preventing re-turtling
@@ -213,6 +217,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture from Chill Dog step by step?</p>
 
 1. **Establish heavy chest pressure**: Drive your chest into the bottom player's upper back between the shoulder blades, distributing your weight forward. Your hips stay low and your knees control the space around their hips. This pressure platform prevents escape while you work for underhook access.
 2. **Secure near-side hip underhook**: Thread your near-side arm under the bottom player's hip, reaching across to control their far hip or belt line. This grip controls their hip rotation and prevents Granby roll escapes. Fight through the elbow-knee frame if needed by driving your forearm into the gap between their elbow and knee.
@@ -243,6 +249,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture from Chill Dog?</p>
+
 - **Bottom player re-tightens elbow-knee frame and compresses back into compact ball during underhook attempt** (Effectiveness: High) - Your Response: Maintain chest pressure and wait for the next loosening of the frame. Use short, sharp hip drives to create micro-gaps in the defensive shell rather than sustained pulling. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Bottom player uses the lifting momentum to barrel roll underneath and take the back** (Effectiveness: Medium) - Your Response: Keep your hips low and heavy throughout the lift. If you feel them rotating under you, immediately drop your weight and re-establish chest pressure rather than fighting the roll from a compromised position. → Leads to [[Positions/Back Control]]
 - **Bottom player threads near leg to catch half guard during the transition before full guard recovery** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately work to free your trapped leg using knee slide or hip switch mechanics. Half guard top is still a significant improvement over stalled Chill Dog for many practitioners. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture from Chill Dog?</p>
 
 ### 1. Attempting to lift the bottom player using upper body strength without establishing proper underhook leverage
 
@@ -288,6 +298,8 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture from Chill Dog (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Underhook placement and hip control from turtle top
 Partner holds static Chill Dog while you practice threading underhooks through the elbow-knee frame. Focus on finding the near hip underhook and far armpit underhook without losing chest contact. 20 repetitions each side with cooperative partner.
 
@@ -305,36 +317,12 @@ Start every round in Chill Dog top with full resistance. Practice reading when t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to establish before initiating the lift from Chill Dog top?
-**A**: The near-side hip underhook is the most critical grip because it controls the bottom player's hip rotation, preventing Granby roll escapes and providing the primary leverage point for the lifting and rotating mechanics. Without hip control, the bottom player can simply rotate away from your lift or execute their preferred escape during the transition. The hip underhook should be established before attempting any upward force.
-
-**Q2**: Your opponent maintains an airtight Chill Dog frame with both elbows locked to their knees — how do you create an opening for the underhook?
-**A**: Use short, sharp hip drives through your chest pressure to create micro-gaps in the defensive shell rather than sustained pulling. Each hip drive forces the bottom player to absorb impact, and their frame will momentarily loosen during the absorption phase. Time your underhook threading to coincide with these micro-gaps. Alternatively, fake a front headlock attack by shifting toward their head, which often causes them to adjust their frame and open the near-side hip momentarily.
-
-**Q3**: Why is the knee post against the near hip critical to the success of this transition?
-**A**: The knee post creates a structural block that prevents the bottom player from collapsing back into the Chill Dog shell once you begin the posture change. Without this block, the most common defensive response — simply re-tightening the frame and re-turtling — succeeds easily because there is nothing stopping the backward collapse. The knee post forces the transition to be one-directional, meaning once you begin opening their posture, they cannot reverse the movement.
-
-**Q4**: You feel the bottom player beginning to rotate underneath you during the lift — what is happening and how should you respond?
-**A**: The bottom player is using your lifting momentum to initiate a barrel roll for a back take. This is the highest-risk counter to the posture transition. Immediately drop your weight by driving your hips down and re-establishing heavy chest pressure rather than fighting the rotation from a compromised position. Trying to continue the lift while they rotate underneath creates a scramble that favors the bottom player. Reset to chest pressure, re-establish your controls, and wait for a cleaner opportunity.
-
-**Q5**: What determines whether you should attempt the posture transition versus continuing to pursue back control from Chill Dog top?
-**A**: The posture transition is the right choice when traditional turtle attacks have stalled against tight Chill Dog defense, when match time is limited and you need to create positional progress, or when your guard passing game is significantly stronger than your turtle attacking game. Continue pursuing back control when the defensive frame shows signs of breaking, when you have established hooks or near-hook positions, or when you have superior turtle attack systems. The posture transition is always a secondary option to back control.
-
-**Q6**: What is the most common reason practitioners fail at the final step of establishing posture in the resulting guard?
-**A**: The most common failure is treating the guard recovery as the end of the technique rather than the beginning of a new positional battle. Practitioners relax momentarily when they feel the legs close around their waist, and the bottom player uses that fraction of a second to establish collar ties or overhook control and break posture. The posture establishment must be explosive and immediate — hips back, spine straight, hands on hips — within the first two seconds of guard recovery. This requires conditioning the response as a reflexive continuation of the lift, not a separate action.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture from Chill Dog?</p>
 
 This transition involves lifting and rotating an opponent from turtle to guard, which places load on the lower back and shoulders of both practitioners. The top player should use hip and chest leverage rather than muscular pulling to avoid lower back strain. The bottom player can experience neck compression if the top player drives them forward while their head is tucked. Both practitioners should tap immediately if they feel any neck compression or spine loading in unexpected directions. In drilling, the bottom player should communicate clearly if they feel unstable during the rotation phase.
 

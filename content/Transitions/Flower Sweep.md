@@ -201,19 +201,19 @@ The Flower Sweep is a cornerstone technique in the closed guard attack system an
 
 - [[Transitions/Pendulum Sweep]] - Opposite-direction sweep that chains with Flower in some systems
 
-- [[Submissions/Triangle from Closed Guard]] - Follow-up submission when opponent defends sweep by tucking elbows
+- [[Transitions/Closed Guard to Triangle]] - Follow-up triangle entry when opponent defends sweep by tucking elbows
 
-- [[Submissions/Armbar from Guard]] - Direct attack on posted arm when opponent defends sweep
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Direct armbar attack on posted arm when opponent defends sweep
 
-- [[Submissions/Omoplata from Guard]] - Alternative shoulder lock when opponent turns away during sweep defense
+- [[Transitions/Closed Guard to Omoplata]] - Alternative shoulder lock transition when opponent turns away during sweep defense
 
-- [[Submissions/Kimura from Guard]] - Part of fundamental closed guard system - shares grip fighting concepts
+- [[Transitions/Kimura Sweep]] - Part of fundamental closed guard system - shares grip fighting concepts and sweep mechanics
 
 - [[Positions/Closed Guard]] - Starting position - foundational guard where sweep is executed from
 
 - [[Positions/Mount]] - Ending position - primary destination when sweep is completed successfully
 
-- [[Transitions/Butterfly Sweep]] - Related sweep using butterfly hook mechanics from open guard position
+- [[Transitions/Basic Butterfly Sweep]] - Related sweep using butterfly hook mechanics from open guard position
 
 
 </section>

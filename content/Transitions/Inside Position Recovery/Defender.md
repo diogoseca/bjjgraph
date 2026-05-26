@@ -164,6 +164,8 @@ Your defensive strategy centers on constant forward pressure through your should
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Position Recovery?</p>
+
 - Opponent places their far-side forearm against your shoulder or neck, establishing the primary frame needed for hip escape
 - Opponent posts their free foot flat on the mat near their hip, preparing to generate power for shrimping movement
 - Opponent begins moving their hips away from you while keeping shoulders relatively flat—the initial hip escape
@@ -176,6 +178,8 @@ Your defensive strategy centers on constant forward pressure through your should
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Position Recovery?</p>
 
 - Maintain constant shoulder pressure into opponent's near hip to eliminate space for hip escape
 - Control the far shoulder or crossface aggressively to prevent opponent from establishing structural frames
@@ -190,6 +194,8 @@ Your defensive strategy centers on constant forward pressure through your should
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Position Recovery?</p>
 
 ### 1. Drive shoulder pressure forward and sprawl hips into opponent's hip line when you feel them establish a frame
 
@@ -227,6 +233,8 @@ Your defensive strategy centers on constant forward pressure through your should
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Position Recovery?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Shut down the recovery at the frame stage by driving heavy shoulder pressure forward the moment you feel their forearm against your shoulder. Keep your hips low and heavy on their hip line, denying the space needed for hip escape. Maintain tight grip on their trapped leg and constantly threaten advancement to keep them defensive.
@@ -242,6 +250,8 @@ When the opponent creates sufficient angle that leg drag retention becomes diffi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Position Recovery?</p>
 
 ### 1. Staying static in leg drag control without advancing when opponent begins framing
 
@@ -271,6 +281,8 @@ When the opponent creates sufficient angle that leg drag retention becomes diffi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Position Recovery?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Practice identifying the specific cues that indicate your opponent is beginning Inside Position Recovery. Partner works the recovery at half speed while you focus on reading the frame establishment and foot posting. Drill maintaining constant shoulder pressure and tight leg control without advancing position.
 
@@ -287,29 +299,6 @@ Implement anti-recovery strategies during live rolling from leg drag top. Practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Inside Position Recovery?
-**A**: The earliest cue is when they place their far-side forearm against your shoulder or neck to establish a frame. This is the prerequisite for their entire escape sequence—without this frame, they cannot generate the hip escape needed for leg extraction. Responding at this stage is far more effective than waiting for the hip movement or leg extraction.
-
-**Q2**: Your opponent successfully creates hip angle but has not yet freed their leg—what is your best response?
-**A**: Backstep to follow their hip movement while maintaining tight leg control, re-angling your position to close the space they created. Simultaneously increase your crossface or shoulder pressure to prevent them from continuing the extraction. If the angle is too great, abandon the leg drag and immediately consolidate to side control with a strong crossface before they can insert hooks.
-
-**Q3**: Why is it more effective to advance position than to fight statically against your opponent's frames?
-**A**: Fighting statically against frames becomes an energy war that you will eventually lose because the bottom player can generate structural force through skeletal alignment while you must use muscular effort to resist. Advancing position changes the problem entirely—instead of holding them down, you threaten new attacks that force them to abandon their recovery sequence and address the new threat.
-
-**Q4**: Your opponent frees their trapped leg and is about to insert a butterfly hook—what can you still do?
-**A**: You have a narrow window to prevent the hook by immediately pinning their freed leg to the mat with your near knee or shin, then driving your weight forward to consolidate side control. Alternatively, if you can control their upper body with a strong crossface, you can attempt to backstep around their hook attempt and re-establish a passing position from headquarters.
-
-**Q5**: How should you manage the trade-off between maintaining leg drag control and advancing to side control?
-**A**: Leg drag is inherently transitional and should not be held longer than necessary. If your opponent is actively working recovery, you should be advancing rather than maintaining. The decision point is when they establish a frame—if you can collapse the frame with pressure, maintain the drag. If they create any hip angle, immediately transition to side control consolidation rather than fighting a losing battle for leg control.
-
-
-
-</section>
 
 
 </main>

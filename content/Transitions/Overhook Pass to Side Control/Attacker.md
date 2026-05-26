@@ -188,6 +188,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook Pass to Side Control?</p>
+
 - Maintain the armpit seal throughout the entire pass - the overhook grip is the foundation that makes all subsequent passing mechanics possible
 - Drive forward pressure to flatten the opponent before attempting to clear their legs, as passing against an opponent on their side is significantly harder
 - Walk hips incrementally rather than making large movements that create space for defensive reactions or guard recovery
@@ -202,6 +204,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook Pass to Side Control?</p>
+
 - Tight armpit seal established over opponent's shoulder with zero gap between your armpit and their shoulder joint
 - Opponent's arm elevated above their power generation line, preventing effective framing or posting on the overhook side
 - Your hips positioned close to the opponent with forward pressure already applied to limit their hip mobility
@@ -214,6 +218,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook Pass to Side Control step by step?</p>
 
 1. **Confirm Overhook Seal and Pressure**: Before initiating the pass, verify that your armpit seal is completely tight over the opponent's shoulder with no gap. Your grip should be high on their shoulder blade or behind their neck. Drive your weight forward through the overhook to begin flattening the opponent and compromising their guard structure. Your free hand should control their far hip to prevent them from shrimping away.
 2. **Flatten Opponent with Hip Pressure**: Drive your hips forward and downward into the opponent's body, forcing them from their side onto their back. Use the overhook to pull their trapped shoulder toward the mat while your chest weight drives into their upper body. The goal is to eliminate their side angle and put them flat, which removes most of their sweeping and guard recovery options. Do not rush past this phase.
@@ -243,6 +249,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook Pass to Side Control?</p>
+
 - **Opponent frames with free arm against your neck or shoulder to create distance and prevent flattening** (Effectiveness: High) - Your Response: Use your free hand to strip the frame by pulling their elbow toward their body, or swim your head under their arm to eliminate the frame. Increase hip pressure simultaneously to collapse their defensive structure before they can re-establish the frame. → Leads to [[Positions/Overhook Control]]
 - **Opponent hip escapes aggressively to create angle and recover guard before you can clear their legs** (Effectiveness: High) - Your Response: Follow their hip escape by adjusting your angle and maintaining the overhook seal. Use your free hand to block their far hip and prevent further shrimping. If they create significant angle, reset to overhook control and re-flatten them before attempting the pass again. → Leads to [[Positions/Overhook Control]]
 - **Opponent establishes an underhook on the non-overhook side and attempts to come up to dogfight position** (Effectiveness: Medium) - Your Response: Drive your shoulder weight down immediately to prevent them from sitting up. Use the overhook to pull their trapped arm across their body, disrupting their underhook leverage. If they achieve the underhook, transition to a crossface on that side or abandon the pass and work a Kimura on the trapped arm. → Leads to [[Positions/Overhook Control]]
@@ -254,6 +262,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook Pass to Side Control?</p>
 
 ### 1. Releasing the overhook too early before establishing side control grips
 
@@ -293,6 +303,8 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook Pass to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and grip transitions
 Practice the passing arc from overhook control to side control against a non-resisting partner. Focus on maintaining the armpit seal throughout, walking hips in small incremental steps, clearing legs systematically, and transitioning grips from overhook to crossface cleanly. Repeat 20-30 times per side until the movement pattern is fluid and automatic.
 
@@ -313,42 +325,12 @@ Begin rounds from overhook control with the top player working to pass and the b
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical connection point to maintain throughout the entire Overhook Pass to Side Control?
-**A**: The armpit seal over the opponent's shoulder is the most critical connection point throughout the entire pass. This seal is what creates the control advantage that makes the pass possible - it traps and elevates the opponent's arm, preventing them from framing or establishing underhooks. Without the armpit seal, the opponent regains bilateral arm function and the pass loses its mechanical advantage. The seal must be maintained from initial overhook control through the passing arc until you are ready to transition directly into the crossface grip in side control.
-
-**Q2**: Your opponent frames against your neck with their free arm as you begin walking your hips around - how do you address this without losing the passing sequence?
-**A**: Address the frame by using your free hand to strip their elbow downward toward their body, collapsing the frame structure. Simultaneously increase forward hip pressure to prevent them from re-establishing the frame. If the frame is too strong to strip with one hand, swim your head under their framing arm to eliminate the leverage point entirely. The key is to remove the frame without stopping your hip movement or releasing the overhook, maintaining the passing momentum while solving the defensive problem.
-
-**Q3**: Why is the flattening phase essential before attempting to clear the opponent's legs?
-**A**: The flattening phase is essential because an opponent on their side retains significant hip mobility, sweeping leverage, and frame creation ability that makes leg clearance nearly impossible. When flat on their back, the opponent loses the angular base needed for hip escapes, cannot generate the torque required for sweeps, and has reduced ability to insert knee shields or create guard recovery angles. Attempting to pass against an angled opponent creates a scramble situation where the overhook advantage is neutralized by their hip mobility.
-
-**Q4**: Your opponent successfully hip escapes as you are halfway through the passing arc - what are your recovery options?
-**A**: Three recovery options exist depending on how far the hip escape has progressed. If minor, increase overhook pressure while blocking their far hip and re-flatten them before continuing. If they have created significant angle, abandon the current passing arc and reset to the flattening phase, re-establishing forward pressure to put them flat again. If they have nearly recovered guard, maintain the overhook control and transition to an alternative attack such as a Kimura or Darce setup rather than forcing a compromised pass. Never chase a failing pass - reset or redirect.
-
-**Q5**: What grip transition occurs at the completion of the pass, and why is speed critical during this moment?
-**A**: At pass completion, the overhook releases and immediately transitions to a crossface grip with your near arm driving across the opponent's face and neck, while your far arm establishes underhook or hip control. Speed is critical because the moment between releasing the overhook and establishing the crossface represents a brief control gap where the opponent can insert frames, turn their head, or begin escape sequences. A slow transition gives them a window to undo your positional work. The crossface must land before they can react to the overhook release.
-
-**Q6**: When the pass is blocked and you are forced to reset to overhook control, what adjustment should you make before your next pass attempt?
-**A**: Before the next attempt, identify specifically what defensive mechanism stopped the pass - framing, hip escape, underhook, or knee shield insertion. Address that specific defense before re-attempting. If they framed, strip the grip first. If they hip escaped, re-flatten and improve far hip control. If they inserted a knee shield, smash it flat before initiating the arc. Also consider whether the pass is the right option at all - the reset may have created better opportunities for Kimura, back take, or Darce entries depending on their defensive positioning.
-
-**Q7**: How do you manage the direction of force throughout the three main phases of this pass?
-**A**: The direction of force changes across phases. During the flattening phase, force drives directly forward and downward into the opponent's body to put them flat. During the hip walking phase, force transitions to a lateral arc while maintaining constant downward pressure - you drive around rather than through. During the consolidation phase, force shifts to perpendicular chest pressure characteristic of side control, driving across the opponent's torso. The overhook provides the constant anchor throughout all three force direction changes.
-
-**Q8**: Your opponent begins bridging into your overhook side during the passing transition - how do you prevent the reversal?
-**A**: Counter the bridge by immediately posting your free hand on the mat to create a wider base, and stepping your far foot out to lower your center of gravity. The bridge exploits the narrow base inherent in the walking phase of the pass. If the bridge is powerful, momentarily pause the passing arc and drive your weight into the bridge to exhaust their explosive effort, then resume passing once they settle. If you feel the reversal is imminent, maintain the overhook and ride the roll, using the grip to prevent complete position loss and immediately fight to re-establish top position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook Pass to Side Control?</p>
 
 The Overhook Pass to Side Control is a low-risk positional transition with minimal injury potential compared to submissions or explosive techniques. The primary safety concern is maintaining controlled pressure on the trapped arm to avoid hyperextension of the opponent's shoulder during the overhook. When driving forward pressure through the whizzer, avoid cranking the arm beyond its natural range of motion. Communicate with training partners about shoulder sensitivity, particularly those with pre-existing shoulder injuries. During drilling, allow your partner to tap if shoulder pressure becomes uncomfortable. Control your body weight distribution during the passing arc to avoid dropping weight suddenly onto the opponent's ribcage or neck.
 

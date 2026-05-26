@@ -162,6 +162,8 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Double Jump?</p>
+
 - Opponent secures grip on your near wrist, sleeve, or establishes underhook on your near arm while in Double Jump bottom
 - Opponent's hips shift angle to approximately 45 degrees relative to your centerline, aligning their sweep direction
 - Feeling of upward leg pressure increasing underneath your hips as opponent prepares the elevator hip bridge
@@ -173,6 +175,8 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Double Jump?</p>
 
 - Protect posting arm at all costs—the sweep requires near arm control, so keeping your posting hand free is the primary defensive priority
 - Widen base immediately upon feeling leg hooks insert underneath your hips to create structural resistance against elevation
@@ -186,6 +190,8 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Double Jump?</p>
 
 ### 1. Post far hand wide on the mat and sprawl hips back to flatten base
 
@@ -223,6 +229,8 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Double Jump?</p>
+
 ### → [[Positions/Double Jump]]
 
 Strip near arm control early and widen base with far hand post to neutralize sweep angle. Once posting is secured, work to extract leg hooks systematically while maintaining crossface pressure to prevent re-establishment of sweep setup.
@@ -238,6 +246,8 @@ Use heavy crossface and hip pressure to flatten the opponent while systematicall
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Double Jump?</p>
 
 ### 1. Continuing to drive forward pressure after opponent establishes Double Jump hooks and near arm control
 
@@ -267,6 +277,8 @@ Use heavy crossface and hip pressure to flatten the opponent while systematicall
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Double Jump?</p>
+
 **Phase 1: Recognition Training** - Identifying sweep setup cues under controlled conditions
 Partner establishes Double Jump bottom and slowly sets up the sweep while you practice identifying each preparation cue: arm control, angle adjustment, hook deepening, and hip bridge initiation. Verbally call out each cue as you recognize it. No resistance initially—focus purely on sensory recognition and timing awareness.
 
@@ -283,29 +295,6 @@ Positional sparring starting with partner in established Double Jump bottom. You
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the Sweep from Double Jump?
-**A**: The earliest cue is the opponent securing control of your near arm through a wrist grip, sleeve grip, or underhook. This is the sweep's essential prerequisite—without near arm control, the sweep cannot succeed. The moment you feel your near arm being gripped or controlled while in Double Jump top, you must immediately prioritize freeing that arm before the opponent can establish the proper sweep angle and initiate the hip bridge.
-
-**Q2**: What is your primary defensive response when you feel your hips being elevated by the Double Jump hooks?
-**A**: Immediately post your far hand wide on the mat and sprawl your hips back to flatten your base and reduce the elevation effect. The wide post creates a tripod structure that resists the lateral redirect even if the elevation succeeds partially. Simultaneously, work to free your near arm if it is controlled, as the posting alone may not be sufficient if the sweep angle is properly aligned toward your trapped arm side.
-
-**Q3**: How do you convert a successful sweep defense into a guard passing opportunity?
-**A**: After neutralizing the sweep through base posting and arm recovery, transition to offensive passing by driving heavy crossface pressure while systematically extracting the opponent's leg hooks from underneath your hips. Use your freed near arm to control their hip and prevent re-insertion of hooks. As hooks release, drive your hips through their guard to complete the pass into side control, converting the defensive moment into two points and dominant position.
-
-**Q4**: Why should you avoid driving forward pressure when your opponent has established Double Jump hooks?
-**A**: Forward pressure is exactly what the sweep mechanics require to function. The opponent's hip bridge redirects your forward momentum upward and laterally, using your own driving force as the catalyst for the sweep. The harder you push forward with committed weight, the more effective their elevator lift and lateral redirect become. Instead, shift your weight back, widen your base, and work to extract hooks before re-engaging with forward pressure once the sweep threat is neutralized.
-
-**Q5**: What is the most dangerous defensive mistake when facing the Sweep from Double Jump?
-**A**: The most dangerous mistake is continuing to drive forward with heavy pressure while your near arm is controlled and the opponent has established proper sweep angle. This creates the perfect conditions for the sweep—forward committed weight, eliminated posting capability, and aligned sweep direction. The combination makes the sweep nearly indefensible regardless of strength or size advantage. Always prioritize freeing the near arm and adjusting weight distribution before anything else.
-
-
-
-</section>
 
 
 </main>

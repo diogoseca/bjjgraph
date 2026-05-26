@@ -39,7 +39,7 @@ The strategic timing for this variation is critical. The high elbow configuratio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
+| Success | [[Submissions/High Elbow Guillotine]] | 58% |
 | Failure | [[Positions/Hindulotine]] | 27% |
 | Counter | [[Positions/Side Control]] | 15% |
 

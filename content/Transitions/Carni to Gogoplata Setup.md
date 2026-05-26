@@ -208,7 +208,7 @@ The Carni to Gogoplata Setup connects two traditionally separate submission syst
 
 - [[Positions/Rubber Guard/Mission Control]] - Related control - rubber guard variation that parallels gogoplata setup mechanics
 
-- [[Submissions/Gogoplata Finish]] - Follow-up submission - finishing technique executed from gogoplata control position
+- [[Transitions/Gogoplata]] - Follow-up submission - finishing technique executed from gogoplata control position
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative advancement - primary transition target from Carni when gogoplata is unavailable
 

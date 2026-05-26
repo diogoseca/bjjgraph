@@ -34,7 +34,7 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the lapel wrap to restrict opponent's leg mobility and prevent escape

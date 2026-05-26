@@ -194,6 +194,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Snap Down from Standing?</p>
+
 - Timing supersedes strength: snap when the opponent's weight shifts forward, not when you feel strongest
 - The retreating step multiplies force: backward movement adds your body mass to the downward pull
 - Cup the back of the head, not the neck: proper hand placement creates rotational force on the skull that collapses posture
@@ -209,6 +211,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Snap Down from Standing?</p>
+
 - Established collar tie or cupping grip on the back of the opponent's head with palm covering the crown
 - Opponent's weight distributed forward or momentarily shifting onto their toes during grip engagement
 - Free hand controlling opponent's wrist, sleeve, or posted on their shoulder to prevent counter-grips
@@ -221,6 +225,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Snap Down from Standing step by step?</p>
 
 1. **Establish collar tie grip**: Secure a cupping grip behind the opponent's head with your dominant hand. Your palm cups the crown or back of the skull while fingers wrap naturally around the side. Simultaneously, your other hand controls their near wrist, sleeve, or posts on their shoulder to prevent them from establishing counter-grips or defensive frames.
 2. **Create forward weight shift**: Use subtle push-pull dynamics to shift the opponent's weight onto their toes. A brief push forward on their shoulder followed by preparation for the snap, or lateral movement that forces them to step and commit weight forward, creates the necessary forward momentum. Feints toward level changes or grip breaks can provoke the desired forward lean.
@@ -251,6 +257,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Snap Down from Standing?</p>
+
 - **Opponent maintains strong posture and actively circles away from the pull direction** (Effectiveness: High) - Your Response: Follow their circular movement and re-establish the collar tie from the new angle. Chain to a secondary attack such as an arm drag or level change for an ankle pick, using their lateral movement against them. → Leads to [[Positions/Standing Position]]
 - **Opponent level changes and shoots a takedown underneath the snap attempt** (Effectiveness: Medium) - Your Response: Sprawl immediately by driving your hips down and back to stuff the shot. Use the existing head control to redirect their shot offline and re-establish front headlock control from the sprawl position. → Leads to [[Positions/Open Guard]]
 - **Opponent posts a hand firmly on your hip or chest and frames to resist the posture break** (Effectiveness: High) - Your Response: Strip the posting hand with your free hand using a sharp wrist peel, or redirect the snap angle diagonally rather than straight down to bypass their frame. Alternatively, use the post as leverage to circle to their back. → Leads to [[Positions/Standing Position]]
@@ -262,6 +270,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Snap Down from Standing?</p>
 
 ### 1. Pulling with arms only without engaging the core, back, and body weight in the snap
 
@@ -301,6 +311,8 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Snap Down from Standing (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo movement pattern and grip mechanics
 Practice the snap down motion without a partner, focusing on the coordination between the downward pull and retreating step. Use a resistance band attached at head height to simulate the pull. Develop the muscle memory for the diagonal pulling angle and the immediate transition to front headlock arm position.
 
@@ -318,42 +330,12 @@ Practice the snap down as part of a standing attack chain. If the snap succeeds,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the snap down from standing?
-**A**: The optimal window is the moment the opponent's weight shifts onto their toes or their head extends past their base. This typically occurs when they reach forward for a grip, drive forward with a collar tie, or react to a feint by leaning in. At this instant, their center of gravity is forward of their feet, meaning a sharp downward pull encounters minimal structural resistance. Attempting the snap when they are balanced or retreating wastes energy and telegraphs your intention.
-
-**Q2**: What conditions must exist before you can successfully execute the snap down?
-**A**: Three conditions must be present: first, you need a controlling grip on the back of the opponent's head, neck, or a collar tie position that allows you to generate downward rotational force on their skull. Second, the opponent's weight must be forward or transitioning forward so the snap has momentum to redirect. Third, you need clear space behind you for the retreating step that amplifies the pulling force. Without any one of these three elements, the snap down's success probability drops dramatically.
-
-**Q3**: What is the most critical body mechanic that multiplies the snap down's effectiveness?
-**A**: The retreating step taken simultaneously with the downward pull is the single most important force multiplier. By stepping backward as you pull down, you add your entire body mass and backward momentum to the snap force. This transforms the technique from an arm-strength exercise into a full-body movement. The retreating step also creates the spatial angle needed to end up above the opponent as their posture breaks, positioning you perfectly for the front headlock transition rather than colliding with them face to face.
-
-**Q4**: Why do most snap down attempts fail at the intermediate level?
-**A**: The most common failure pattern is attempting the snap with arms only while standing still, without the retreating step or core engagement. Intermediate practitioners understand the concept but execute it as a pulling motion rather than a full-body directional change. The second most common failure is poor timing, specifically attempting the snap when the opponent is balanced or already retreating, which means there is no forward momentum to exploit. Both failures stem from treating the snap down as a strength technique rather than a timing and coordination technique.
-
-**Q5**: How should you position your hand when establishing the collar tie for a snap down?
-**A**: Your palm should cup the back crown of the opponent's skull, not grip the back of their neck. The cupping position on the crown creates a lever arm that generates rotational force, pulling the head forward and down along the spine's natural flexion path. Gripping the neck muscle directly provides less mechanical advantage because the force is absorbed by the neck musculature rather than creating rotation. Your fingers wrap around the side of the head naturally without squeezing. The grip should feel like you are steering their head directionally rather than crushing it.
-
-**Q6**: In what direction should the pulling force be applied during the snap down?
-**A**: The force should be directed at approximately a forty-five degree angle downward toward the mat, not horizontally toward your body or straight down toward their feet. This diagonal angle follows the natural flexion path of the cervical and thoracic spine, making it biomechanically efficient to collapse posture. Pulling horizontally brings the opponent toward you rather than breaking their posture. Pulling straight down is resisted by their vertical skeletal structure. The forty-five degree angle bypasses both of these resistances by attacking the spine's weakest angle.
-
-**Q7**: Your opponent has a strong base and resists your initial snap attempt by driving their hips forward and posturing up - how do you adjust?
-**A**: Do not attempt the same snap again immediately, as they are now prepared and postured defensively. Instead, use the failed snap as a setup for a secondary attack. Release the downward pressure and push them forward on their shoulder, which provokes a reflexive forward lean to resist the push. This recreated forward momentum sets up a second snap from a different angle. Alternatively, chain directly to an arm drag on the same side or a level change for an ankle pick, as their strong upright posture actually exposes them to lower-line attacks.
-
-**Q8**: Your snap down attempt is blocked and the opponent begins posturing aggressively upward - what chain attacks become available?
-**A**: Their aggressive upward posture opens several chain attacks. An arm drag becomes high percentage because their extended posture creates long lever arms you can redirect laterally. A level change to single leg or ankle pick exploits the fact that their weight is moving upward and backward, leaving their lead leg light and vulnerable. If they overcommit to posturing and drive their head backward, a duck under to their back becomes available as they create the space underneath that the technique requires. The principle is that their defensive reaction to the snap always opens something else.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Snap Down from Standing?</p>
 
 The snap down involves significant forces on the cervical spine and neck musculature. Always practice with controlled intensity, especially when drilling with less experienced partners. Avoid snapping with excessive force that could cause whiplash-type cervical strain. Partners should communicate clearly about any neck discomfort and stop immediately if pain occurs. Build up to full-speed snap downs gradually, starting with slow positional drilling before adding speed and resistance. Never execute a snap down on a partner who is looking upward with a fully extended neck, as this creates dangerous hyperextension potential. During competition preparation drilling, ensure both partners have adequately warmed up their necks before engaging in full-resistance snap down exchanges.
 

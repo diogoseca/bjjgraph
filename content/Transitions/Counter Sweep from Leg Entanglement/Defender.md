@@ -146,6 +146,8 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Sweep from Leg Entanglement?</p>
+
 - Opponent begins sitting up or generating forward hip drive from the bottom of the entanglement, shifting their weight toward you rather than remaining flat
 - Opponent frees one or both arms from your upper body control and begins posting on the mat or reaching for your far shoulder
 - Opponent's hips elevate or rotate toward you while their entangled leg begins to act as a fixed anchor rather than a defensive extraction point
@@ -158,6 +160,8 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Sweep from Leg Entanglement?</p>
 
 - Maintain upper body connection to the opponent's torso throughout your leg attack to prevent the sweep trigger—never fully release torso control to grab the foot
 - Keep your base low and wide with active posting readiness so you can respond instantly to any forward drive from the opponent
@@ -172,6 +176,8 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Sweep from Leg Entanglement?</p>
 
 ### 1. Post with free hand and sprawl hips back to re-establish base against the sweep force
 
@@ -209,6 +215,8 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Sweep from Leg Entanglement?</p>
+
 ### → [[Positions/Leg Entanglement]]
 
 Maintain base integrity through active posting and upper body control of the opponent. When you feel sweep initiation, immediately sprawl your hips back and post your free hand wide while keeping your entanglement hooks engaged. The opponent remains in bottom position and you can continue your leg attack sequence.
@@ -224,6 +232,8 @@ Use the opponent's forward sweep momentum against them by stepping over with you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Sweep from Leg Entanglement?</p>
 
 ### 1. Releasing all upper body control to grab the foot with both hands for a finishing attempt
 
@@ -253,10 +263,12 @@ Use the opponent's forward sweep momentum against them by stepping over with you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Sweep from Leg Entanglement?</p>
+
 **Phase 1: Sweep Recognition** - Identifying counter sweep initiation cues
 Practice maintaining leg entanglement while partner executes slow-motion counter sweeps. Focus on recognizing the timing triggers, arm positioning changes, and hip movement patterns that precede the sweep. Do not attempt to defend—purely develop recognition ability.
 
-**Phase 2: Base Maintenance Under Pressure** - Maintaining base while continuing leg attacks
+**Phase 2: Base Under Pressure** - Maintaining base while continuing leg attacks
 Partner attempts counter sweeps at moderate intensity while you practice posting, sprawling, and base adjustments without releasing your entanglement. Develop the ability to multitask between leg attack progression and sweep defense simultaneously.
 
 **Phase 3: Counter-to-Counter Transitions** - Converting sweep defense into positional advancement
@@ -269,23 +281,6 @@ Full-resistance positional sparring where you attack legs while partner has the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific grip transition during your leg attack creates the greatest vulnerability to the counter sweep?
-**A**: The most vulnerable moment is when you release upper body control of the opponent's torso to secure both hands on their foot for a finishing grip. This transition removes the primary barrier preventing the opponent from sitting up and driving forward. During this grip transition, the opponent's torso is uncontrolled and their posting arm is free, creating the ideal conditions for the counter sweep. To mitigate this, maintain at least one point of upper body contact until the absolute final moment of the finishing sequence.
-
-**Q2**: How can you use the opponent's sweep momentum to advance to a more dominant entanglement position?
-**A**: When the opponent drives forward for the counter sweep, step your far leg over their hip into a saddle configuration. Their forward hip drive actually facilitates this transition because it creates the hip elevation and angle you need to thread your leg through. The result is that their offensive sweep attempt delivers them into the most dangerous entanglement position, the saddle, from which you have access to inside heel hooks and multiple submission pathways. This requires recognizing the sweep early enough to execute the step-over before their momentum carries them past the transition point.
-
-**Q3**: What is the earliest recognition cue that indicates your opponent is preparing a counter sweep from bottom leg entanglement?
-**A**: The earliest cue is a change in the opponent's arm activity—specifically when they shift from defending the leg attack with their hands near their captured leg to freeing their arms and reaching toward the mat for a posting position. This arm repositioning precedes the hip drive by several seconds and indicates the opponent has mentally transitioned from defense to counter-offense. Recognizing this arm shift gives you the maximum response window to re-establish upper body control or adjust your base before the sweep is initiated.
-
-
-
-</section>
 
 
 </main>

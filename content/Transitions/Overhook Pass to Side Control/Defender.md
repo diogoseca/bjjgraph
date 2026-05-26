@@ -162,6 +162,8 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Pass to Side Control?</p>
+
 - Opponent increases forward hip pressure while maintaining the whizzer grip, indicating they are beginning the flattening phase before the pass
 - Opponent's free hand moves to control your far hip or belt, establishing the anchor needed to prevent your defensive hip escape
 - Opponent begins walking their feet in small steps toward your head while maintaining constant pressure through the overhook
@@ -174,6 +176,8 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Pass to Side Control?</p>
 
 - Recognize the pass initiation early through pressure and hip movement cues before the passer commits to the arc
 - Maintain side angle and resist flattening at all costs - once flat on your back, defensive options decrease dramatically
@@ -188,6 +192,8 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Pass to Side Control?</p>
 
 ### 1. Frame against passer's hip with free arm and hip escape to create angle for guard recovery
 
@@ -225,6 +231,8 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Pass to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a reversal when the passer is in the hip-walking phase with narrow base. Bridge explosively into the overhook side while hooking their far leg with your inside leg. The passer's committed forward weight and narrow stance during the arc make them vulnerable to directional sweeps. Use their momentum against them to complete the reversal to half guard top.
@@ -240,6 +248,8 @@ Prevent the pass from completing by maintaining active frames, resisting the fla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Pass to Side Control?</p>
 
 ### 1. Allowing the passer to flatten you without resistance, accepting the flat-on-back position passively
 
@@ -269,6 +279,8 @@ Prevent the pass from completing by maintaining active frames, resisting the fla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Pass to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying pass initiation cues
 Partner alternates between holding overhook control passively and initiating the pass. Practice identifying the specific cues that indicate the pass is beginning: increased forward pressure, far hip control, and hip movement. Call out the pass attempt verbally before reacting physically. Build pattern recognition through repetition.
 
@@ -285,29 +297,6 @@ Begin rounds with the passer in overhook control and the defender working to pre
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Overhook Pass to Side Control is being initiated?
-**A**: The earliest cue is increased forward hip pressure combined with the passer's free hand moving to control your far hip or belt. This combination indicates they are beginning the flattening phase that precedes the passing arc. The hip pressure increases gradually rather than suddenly, and the far hip control establishes the anchor that will prevent your defensive hip escape. Recognizing this combination before the flattening is complete gives you the maximum defensive window.
-
-**Q2**: Why is maintaining your side angle the single most important defensive priority against this pass?
-**A**: Maintaining side angle is critical because it preserves your hip mobility, sweep leverage, and frame creation ability. When flat on your back, your hips cannot generate the movement needed for shrimping or guard recovery, your legs lose the angular base for sweep initiation, and your torso cannot create the rotational force needed for frame-based defense. The passer specifically targets flattening because it eliminates all these defensive capabilities simultaneously. Every degree of angle you maintain exponentially increases your defensive options.
-
-**Q3**: Your free arm frame is being stripped repeatedly by the passer - what alternative defensive strategy should you employ?
-**A**: If frames are being consistently stripped, transition to leg-based defense by inserting a knee shield between your bodies or hooking the passer's far leg with your inside foot to disrupt their base. Alternatively, use the moment when they strip your frame to initiate a hip escape in the opposite direction, converting their grip-breaking effort into your defensive movement. If both arm and leg defenses are failing, focus on timing a bridge reversal during the hip-walking phase when their base is narrowest.
-
-**Q4**: At what point during the passing sequence is the passer most vulnerable to a sweep or reversal?
-**A**: The passer is most vulnerable during the hip-walking phase when their feet are close together and their weight is committed forward through the overhook. During this arc movement, their base is at its narrowest and a well-timed bridge into the overhook side can topple them. The transition moment when they release the overhook to establish crossface grip also creates a brief control gap that can be exploited for guard recovery or reversal attempts.
-
-**Q5**: How should you adjust your defensive approach if you have already been flattened and the passer is beginning to walk their hips?
-**A**: Once flattened with the passer walking their hips, shift from prevention to damage control. Attempt an explosive bridge directly into the overhook side to disrupt their arc, then immediately hip escape in the opposite direction during the recoil. If that fails, focus on retaining half guard by using your legs to entangle their near leg before they clear completely. As a last resort, time your defensive effort for the grip transition moment when they release the overhook to establish crossface, using that brief gap to insert frames or create enough space for minimal guard recovery.
-
-
-
-</section>
 
 
 </main>

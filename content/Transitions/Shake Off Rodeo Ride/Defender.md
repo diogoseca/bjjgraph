@@ -140,6 +140,8 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shake Off Rodeo Ride?</p>
+
 - Bottom practitioner tightens their turtle structure noticeably—pulling elbows tight, widening hands, and consolidating their base in preparation for explosive movement
 - A brief moment of stillness or reduced grip fighting from the bottom practitioner as they load their body for the explosive hip extension
 - Subtle weight shift onto the hands as the bottom practitioner prepares to drive force through their hips and knees
@@ -152,6 +154,8 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shake Off Rodeo Ride?</p>
 
 - Maintain constant heavy hip-to-back pressure to deny the lightness the bottom practitioner needs for explosive disruption
 - Recognize turtle base consolidation and stillness as precursors to explosive movement—increase pressure during these quiet moments
@@ -166,6 +170,8 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shake Off Rodeo Ride?</p>
 
 ### 1. Sink hips low and increase downward pressure proactively when recognizing base consolidation patterns
 
@@ -196,6 +202,8 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shake Off Rodeo Ride?</p>
+
 ### → [[Positions/Back Control]]
 
 When the bottom practitioner pops their hips upward, use the space created between their body and the mat to thread your near-side hook inside their thigh. Secure a seat belt grip simultaneously and work the far-side hook as the bottom practitioner settles back down. Their own escape movement creates the space you need for hook insertion.
@@ -211,6 +219,8 @@ Maintain heavy low hip pressure throughout the shake-off attempt by sinking your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shake Off Rodeo Ride?</p>
 
 ### 1. Riding with weight positioned high on the bottom practitioner's shoulders rather than loaded on the lower back and hip area
 
@@ -240,6 +250,8 @@ Maintain heavy low hip pressure throughout the shake-off attempt by sinking your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shake Off Rodeo Ride?</p>
+
 **Phase 1: Recognition Training** - Identifying shake-off preparation patterns through feel
 Partner attempts shake-offs from Rodeo Ride bottom at reduced speed while you focus exclusively on recognizing the preparatory cues—base consolidation, stillness, and weight loading. Call out when you detect the preparation phase. Build predictive awareness of the timing without yet working on physical counter responses.
 
@@ -256,23 +268,6 @@ Full resistance positional sparring from Rodeo Ride top where the bottom player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom practitioner is preparing a Shake Off attempt?
-**A**: The earliest cue is an unusual tightening and consolidation of their turtle structure—elbows pulling tight, hands widening slightly for base, and a brief moment of stillness or reduced grip fighting. This preparation phase is distinct from normal defensive posturing because it involves loading the body for explosive movement rather than simply protecting against attacks. When you feel the bottom practitioner become unusually still and solid after a period of active grip fighting, they are likely loading for the shake-off.
-
-**Q2**: Why can the bottom practitioner's hip elevation during the shake-off actually benefit you as the rider?
-**A**: The hip pop creates space between the bottom practitioner's body and the mat—the same space needed for hook insertion. When their hips elevate, there is a brief window where you can thread your near-side foot inside their thigh to establish the first hook for back control. Their escape attempt actually opens the pathway to the most dominant position in grappling. The key is recognizing this opportunity in real-time rather than fighting to prevent the elevation, converting their escape energy into your advancement.
-
-**Q3**: How should you adjust your pressure distribution when you anticipate a shake-off to prevent it from succeeding?
-**A**: Sink your hips lower and heavier onto the bottom practitioner's lower back and hip area rather than riding on their upper back and shoulders. Lower hip positioning creates a lower center of gravity that is harder to displace through vertical force. Additionally, widen your base by adjusting your posted leg to provide better lateral stability against the angular displacement the shake-off generates. Increase the downward component of your chest pressure during the quiet preparatory phase to load weight before the explosion occurs.
-
-
-
-</section>
 
 
 </main>

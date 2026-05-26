@@ -162,6 +162,8 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deep Half Entry from Flattened?</p>
+
 - Bottom player's near hip begins turning toward your legs instead of staying flat on the mat
 - Bottom player's near arm starts threading between your legs or reaching toward your far thigh
 - Sudden decrease in the bottom player's surface-level framing and escape attempts, suggesting commitment to an alternative escape path
@@ -174,6 +176,8 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half Entry from Flattened?</p>
 
 - Recognize the entry cues early since the bottom player's hip turn and arm thread are the first signals of the attempt
 - Maintain consistent forward pressure to deny the space underneath your hips that the entry requires
@@ -188,6 +192,8 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deep Half Entry from Flattened?</p>
 
 ### 1. Drive crossface pressure and sprawl hips back to remove entry space
 
@@ -225,6 +231,8 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deep Half Entry from Flattened?</p>
+
 ### → [[Positions/Side Control]]
 
 Recognize the entry attempt and backstep your trapped leg free during the bottom player's commitment phase when they release frames and half guard hook. Immediately consolidate side control before they can recover any guard structure.
@@ -240,6 +248,8 @@ Shut down the entry with early crossface pressure and hip sprawl, returning the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half Entry from Flattened?</p>
 
 ### 1. Failing to recognize the deep half entry attempt until the bottom player has already established the underhook and shoulder wedge
 
@@ -269,6 +279,8 @@ Shut down the entry with early crossface pressure and hip sprawl, returning the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deep Half Entry from Flattened?</p>
+
 **Phase 1: Recognition** - Identifying entry cues under controlled conditions
 Partner attempts deep half entry at slow speed from flattened half guard. Identify and verbally call out each recognition cue as it occurs: hip rotation, arm thread, head movement. No defensive action initially, just recognition. Build awareness of the sequential movement pattern.
 
@@ -285,29 +297,6 @@ Positional rounds starting in flattened half guard. Top player works to maintain
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a deep half entry is being attempted from flattened half guard?
-**A**: The earliest cue is the bottom player's near hip beginning to rotate toward your legs instead of staying flat against the mat. This hip rotation is the prerequisite for the entire entry movement. Without it, they cannot thread their arm or slide underneath your hips. Detecting this rotation before the arm thread begins gives you maximum time to counter with crossface pressure and hip sprawl.
-
-**Q2**: Why is dropping hip weight an effective counter when timed early but counterproductive when timed late?
-**A**: When timed early before the underhook is established, dropping hip weight removes the space underneath your hips that the bottom player needs to thread through, collapsing their entry path. When timed late after the underhook and shoulder wedge are in place, your descending weight loads directly onto their leverage system, effectively assisting their sweep mechanics. The shoulder wedge converts your downward pressure into horizontal sweep force.
-
-**Q3**: Your opponent has threaded their arm halfway but has not yet established the shoulder wedge - what is your best defensive response?
-**A**: Immediately whizzer the threading arm with your near arm to prevent it from reaching deeper around your far leg. Simultaneously drive your crossface pressure forward and sprawl your hips back to re-flatten the bottom player. The partial thread gives you a window. Once the shoulder clears your hip and the wedge is established, the position dramatically favors the bottom player. Address the arm control now while recovery is still possible.
-
-**Q4**: How does maintaining crossface pressure specifically prevent the deep half entry?
-**A**: Crossface pressure limits the bottom player's ability to rotate their hips, which is the essential first movement of the entry sequence. By driving their head away from the direction they need to turn, the crossface creates structural opposition to the hip rotation. Without the hip turn, the bottom player cannot achieve the angle needed to slide their body underneath your base, effectively shutting down the entry at its foundation.
-
-**Q5**: When is it appropriate to attempt a backstep pass rather than re-flattening the bottom player during a deep half entry attempt?
-**A**: The backstep is appropriate when the bottom player has committed significantly to the entry. Their frames are abandoned and their half guard hook is loosened. At this point, their commitment creates a vulnerability window where your leg can be extracted. Attempting the backstep too early before they commit gives them space without the positional compromise, and they may use the created space for frame recovery instead.
-
-
-
-</section>
 
 
 </main>

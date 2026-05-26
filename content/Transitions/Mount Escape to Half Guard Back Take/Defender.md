@@ -158,6 +158,8 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount Escape to Half Guard Back Take?</p>
+
 - Opponent recovers half guard with an immediate underhook rather than defensive framing
 - Half guard control feels intentionally loose, as if inviting leg extraction
 - Opponent's head is driving into your armpit side rather than protecting against crossface
@@ -169,6 +171,8 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount Escape to Half Guard Back Take?</p>
 
 - Deny the underhook immediately after the mount escape—crossface is your first priority
 - If underhook is established, apply heavy shoulder pressure to prevent the come-up
@@ -182,6 +186,8 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount Escape to Half Guard Back Take?</p>
 
 ### 1. Establish immediate crossface and deny the underhook by swimming your arm across their face and driving shoulder pressure
 
@@ -212,6 +218,8 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount Escape to Half Guard Back Take?</p>
+
 ### → [[Positions/Mount]]
 
 Re-establish mount by extracting the trapped leg while keeping heavy pressure forward, preventing the opponent from coming up. Step over their hip as you free the leg.
@@ -227,6 +235,8 @@ Settle into half guard top with strong crossface and begin systematic passing. D
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount Escape to Half Guard Back Take?</p>
 
 ### 1. Pulling your leg backward during extraction instead of driving your weight forward
 
@@ -251,6 +261,8 @@ Settle into half guard top with strong crossface and begin systematic passing. D
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount Escape to Half Guard Back Take?</p>
+
 **Phase 1: Crossface Priority Drilling** - Establishing immediate crossface after mount escape to half guard
 Partner escapes mount to half guard while you focus exclusively on establishing crossface before they can secure underhook. 20 repetitions per side with progressive resistance.
 
@@ -264,29 +276,6 @@ Partner randomly uses either defensive half guard or bait half guard. You must r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is crossface the first priority after your mount is escaped to half guard?
-**A**: The crossface serves two critical functions: it prevents the opponent from establishing the underhook by controlling their head and shoulder position, and it flattens their posture which makes the come-up phase of the back take impossible. Without crossface, the opponent can freely swim the underhook and begin rising to your hip. The crossface must be established in the same motion as the mount escape recovery—not as a separate action after settling.
-
-**Q2**: How do you recognize when the opponent is baiting your leg extraction for a back take?
-**A**: Key indicators: their half guard control feels intentionally loose rather than defensive, they have a deep underhook established with their head driving toward your armpit, and their body is angled toward your side rather than flat on their back. A defensive half guard player would be framing, fighting grips, and maintaining tight half guard—the opposite of what the back take chain requires. When you sense these indicators, slow down and consolidate rather than extracting.
-
-**Q3**: What specific body mechanics prevent the opponent from completing the come-up during your leg extraction?
-**A**: Drive your shoulder and chest weight forward into the opponent as you extract, keeping your hips low and heavy rather than lifting upward. Your crossface arm should maintain constant pressure across their jaw, turning their head away from the underhook side and breaking their spinal alignment. Post your free leg wide with the knee angled outward to create a stable base that resists their upward drive. The combined effect of forward pressure, head control, and wide base eliminates the space corridor they need to rise to your hip.
-
-**Q4**: If you feel the opponent start coming up on their underhook during extraction, what is the immediate counter?
-**A**: Stop the extraction immediately and drive your shoulder into them with a hard crossface, sprawling your hips back and down to create downward pressure. If they have already risen partially, use a whizzer (overhook) on their underhook arm and drive them back to the mat by circling toward their head. The whizzer counters the underhook directly and can be used to spin them back flat. If they are too far into the come-up for the whizzer to work, abandon the half guard entirely and re-mount by stepping your free leg over their hip while they are still transitioning.
-
-**Q5**: Why is settling into half guard top sometimes the best defensive choice even though it surrenders your mount?
-**A**: Half guard top with a strong crossface and underhook denial is a stable, low-risk position where you maintain clear passing pathways and the opponent has limited offensive options. Attempting to re-mount or aggressively extracting against an opponent with a deep underhook and back take setup carries significant risk of giving up back control—the worst possible outcome. By accepting half guard top and passing methodically, you trade a small positional concession for complete elimination of the back take threat. The scoring math supports this: losing mount costs no points if you already scored them, but giving up the back costs four points.
-
-
-
-</section>
 
 
 </main>

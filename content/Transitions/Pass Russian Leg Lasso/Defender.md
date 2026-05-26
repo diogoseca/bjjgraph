@@ -162,6 +162,8 @@ Defending against the Russian Leg Lasso guard pass requires the bottom player to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Russian Leg Lasso?</p>
+
 - Passer begins a two-on-one grip break targeting your collar grip, indicating the start of their systematic dismantling sequence
 - Passer grips your non-lasso leg at the knee or ankle, signaling they are preparing to neutralize your secondary control point before breaking upper body grips
 - Passer steps laterally and creates an angle rather than staying directly in front of you, indicating they are working to mechanically weaken the lasso configuration
@@ -173,6 +175,8 @@ Defending against the Russian Leg Lasso guard pass requires the bottom player to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Russian Leg Lasso?</p>
 
 - Maintain the collar grip as the highest priority control point, re-establishing it immediately if broken before the passer can progress
 - Time sweep attempts to coincide with the passer's grip-breaking movements when their base is most compromised and hands are occupied
@@ -187,6 +191,8 @@ Defending against the Russian Leg Lasso guard pass requires the bottom player to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Russian Leg Lasso?</p>
 
 ### 1. Re-establish collar grip immediately after the passer breaks it, using the brief window when their hands release your lapel
 
@@ -224,6 +230,8 @@ Defending against the Russian Leg Lasso guard pass requires the bottom player to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Russian Leg Lasso?</p>
+
 ### → [[Positions/Mount]]
 
 Time your strongest rotational sweep to coincide with the passer's grip-breaking attempts. When they commit both hands to stripping your collar grip, use the remaining lasso control and non-lasso leg to generate maximum rotational force, sweeping them to mount position.
@@ -239,6 +247,8 @@ Maintain active grip fighting throughout the exchange, immediately re-establishi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Russian Leg Lasso?</p>
 
 ### 1. Holding the guard statically without attacking while the passer methodically breaks grips one by one
 
@@ -268,6 +278,8 @@ Maintain active grip fighting throughout the exchange, immediately re-establishi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Russian Leg Lasso?</p>
+
 **Phase 1: Grip retention** - Maintaining controls under pressure
 Practice maintaining collar, sleeve, and lasso grips while partner attempts systematic grip breaks at increasing resistance levels. Develop grip endurance and the ability to re-establish broken grips quickly and efficiently before the passer can progress.
 
@@ -284,29 +296,6 @@ Positional sparring with full resistance from both players starting in Russian L
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest priority grip to maintain when defending against the Russian Leg Lasso pass?
-**A**: The collar grip is the highest priority because it controls the passer's posture and provides the lever through which rotational sweeps generate force. Without the collar grip, sweep effectiveness drops dramatically and the passer can maintain the upright posture that minimizes the lasso's mechanical advantage. Re-establishing this grip immediately after it is broken should take precedence over all other defensive actions.
-
-**Q2**: When is the optimal timing window to initiate a sweep during the passer's dismantling sequence?
-**A**: The optimal timing is during the exact moment the passer commits both hands to a grip break, because their base is most compromised when their hands are occupied stripping your grips rather than posting or maintaining balance. This window typically lasts one to two seconds and requires pre-loading your sweep mechanics so you can execute immediately when you feel both their hands engage your grip.
-
-**Q3**: The passer has broken your collar grip and is beginning to work on your sleeve grip - what are your options?
-**A**: You have three primary options: immediately re-establish the collar grip before they progress further in the sequence, initiate an offensive action such as a triangle or omoplata attempt that exploits the space created by their grip break, or begin transitioning to an alternative guard position such as De La Riva or Spider Guard if you assess that the Russian Leg Lasso is becoming untenable with only the lasso remaining.
-
-**Q4**: How do you recognize that the Russian Leg Lasso is compromised beyond recovery and you should transition to a different guard?
-**A**: The position is compromised beyond recovery when both the collar grip and sleeve grip have been broken and the passer has established a lateral passing angle. At this point, the lasso alone cannot generate sufficient control or sweep power to be effective. Key indicators include feeling the passer's weight shifting laterally past your hip line and losing the ability to create meaningful rotational force despite maintaining the lasso thread.
-
-**Q5**: What role does the non-lasso leg play in defending against the guard pass?
-**A**: The non-lasso leg serves as a secondary control point and sweep platform that prevents the passer from isolating the lasso as the only problem to solve. By maintaining active positioning with De La Riva hooks, butterfly hooks, or foot-on-hip frames, the non-lasso leg forces the passer to address multiple threats simultaneously and provides the secondary leverage point needed for combination sweep attacks.
-
-
-
-</section>
 
 
 </main>

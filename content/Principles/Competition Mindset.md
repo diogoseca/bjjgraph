@@ -233,7 +233,7 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 **Headquarters Position**: Strong mental state from headquarters prevents frustration with opponent's defensive posture, supporting patient passing approaches and grip fighting rather than forcing low-percentage passes driven by psychological impatience with tactical stalemate.
 
-**Scramble Position**: Competition mindset during scrambles enables rapid tactical assessment and decision-making in chaotic exchanges, maintaining composure and opportunistic awareness rather than panic-driven reactions that miss advantageous position opportunities.
+**Standing Position**: Competition mindset during standing exchanges enables rapid tactical assessment and decision-making in chaotic transitions, maintaining composure and opportunistic awareness rather than panic-driven reactions that miss advantageous position opportunities.
 
 
 
@@ -348,31 +348,31 @@ Structured review process after training sessions examining both technical execu
 ## Related
 
 ### Related Principles
-- **[[Game Planning]]** (Prerequisite): Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure.
-- **[[Energy Management System]]** (Complementary): Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches.
-- **[[Grip Fighting]]** (Complementary): Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure, and grip fighting represents the first tactical battleground where mental composure directly determines early match momentum and confidence.
+- **[[Transition Management]]** (Prerequisite): Effective transition management creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough positional planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure.
+- **[[Maximum Efficiency Principle]]** (Complementary): Competition mindset influences energy efficiency through psychological regulation of intensity levels and pacing decisions, while maximum efficiency supports sustained mental performance by preventing wasteful physical expenditure that degrades cognitive function and emotional control during matches.
+- **[[Grips]]** (Complementary): Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure, and grip fighting represents the first tactical battleground where mental composure directly determines early match momentum and confidence.
 - **[[Energy Conservation]]** (Complementary): Psychological arousal regulation directly influences pacing decisions and energy expenditure patterns, while effective energy conservation strategies prevent physical exhaustion that degrades mental performance and decision-making quality during extended matches.
-- **[[Defensive Strategy]]** (Extension): Competition mindset prevents psychological collapse during sustained offensive pressure from opponents, enabling persistent defensive execution across multiple cycles without cumulative psychological fatigue degrading technical performance.
-- **[[Creating Reactions]]** (Complementary): Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity.
+- **[[Defensive Concepts]]** (Extension): Competition mindset prevents psychological collapse during sustained offensive pressure from opponents, enabling persistent defensive execution across multiple cycles without cumulative psychological fatigue degrading technical performance.
+- **[[Action and Reaction]]** (Complementary): Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity.
 - **[[Control Maintenance]]** (Extension): Strong competition mindset prevents psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dangerous positions rather than mental resignation that precedes the tap.
-- **[[Competition Training]]** (Prerequisite): Systematic competition-focused training provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition.
-- **[[Drilling Methodology]]** (Prerequisite): Progressive exposure to increasing training intensity through structured drilling develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety.
-- **[[Dilemma Creation]]** (Complementary): Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic dilemma creation frameworks reduce cognitive load allowing mental resources for psychological regulation.
-- **[[Defensive Framing]]** (Extension): Competition mindset prevents panic when caught in inferior positions, enabling calm defensive framing and systematic escape execution rather than explosive reactions driven by anxiety that often worsen position or create submission opportunities for the opponent.
+- **[[Positional Sparring]]** (Prerequisite): Systematic positional sparring provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition.
+- **[[Flow Rolling]]** (Prerequisite): Progressive exposure to increasing training intensity through structured rolling develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety.
+- **[[Fork Attacks]]** (Complementary): Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic dilemma creation frameworks reduce cognitive load allowing mental resources for psychological regulation.
+- **[[Frames]]** (Extension): Competition mindset prevents panic when caught in inferior positions, enabling calm frame creation and systematic escape execution rather than explosive reactions driven by anxiety that often worsen position or create submission opportunities for the opponent.
 
 
 ### Related Content
-- [[Game Planning]] (Principle) - Thorough game planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
-- [[Energy Management System]] (Principle) - Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches
-- [[Grip Fighting]] (Principle) - Grip fighting is the first tactical battleground where competition mindset and composure directly determine early match momentum
+- [[Transition Management]] (Principle) - Thorough transition planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
+- [[Energy Conservation]] (Principle) - Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches
+- [[Grips]] (Principle) - Grip fighting is the first tactical battleground where competition mindset and composure directly determine early match momentum
 - [[Mental Game Framework]] (System) - Broader psychological skills system of which competition mindset is a specific competitive application
 - [[Competition Strategy]] (System) - Systematic framework for developing the physical, technical, and psychological readiness required for competition
-- [[Competition Training]] (Principle) - Systematic competition-focused training provides the pressure exposure necessary to develop competition mindset
-- [[Defensive Strategy]] (Principle) - Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions
+- [[Positional Sparring]] (Principle) - Systematic positional sparring provides the pressure exposure necessary to develop competition mindset
+- [[Defensive Concepts]] (Principle) - Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions
 - [[Back Control]] (Position) - Strong mental state prevents rushed finishing attempts from back control driven by anxiety about time expiration
-- [[Dilemma Creation]] (Principle) - Competition mindset enables execution of dilemma-based attack sequences that require composed tactical sequencing under pressure
+- [[Fork Attacks]] (Principle) - Competition mindset enables execution of dilemma-based attack sequences that require composed tactical sequencing under pressure
 - [[Competition Preparation System]] (System) - Comprehensive preparation system that integrates physical, technical, and psychological readiness for competitive events
-- [[Drilling Methodology]] (Principle) - Structured drilling builds the technical automaticity that frees cognitive resources for psychological regulation during competition
+- [[Flow Rolling]] (Principle) - Structured rolling builds the technical automaticity that frees cognitive resources for psychological regulation during competition
 - [[Control Maintenance]] (Principle) - Sustained control from dominant positions requires mental discipline to avoid complacency or premature attacks driven by anxiety
 
 

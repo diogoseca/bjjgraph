@@ -86,7 +86,7 @@
       "relationship": "Opponent attack position when snap down counters the posting hand"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Common transitional state during contested sit out attempts"
     },
     {
@@ -248,7 +248,7 @@
         "description": "Full resistance positional sparring starting from turtle position. Bottom player scores for successful guard recovery via sit out or any escape. Top player scores for back take or submission. Three-minute rounds with emphasis on reading live timing windows."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What weight distribution from your opponent creates the optimal timing window for initiating the sit out?",
         "answer": "The sit out works best when opponent's weight is committed forward onto your shoulders or shifted predominantly to one side. Forward weight commitment means their hips are lighter on yours, creating the space needed for hip rotation. A side-heavy distribution means the opposite side has minimal pressure, allowing you to thread your leg through that opening. The worst time to attempt the sit out is when opponent has centered, heavy hip-to-hip pressure."
@@ -365,7 +365,7 @@
         "correction": "Distribute weight centrally with pressure through your chest but hips staying relatively heavy and low. Avoid driving your shoulders past the opponent's shoulder line"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What early indicators should you watch for that signal a sit out attempt from turtle bottom?",
         "answer": "The primary indicators are: opponent shifting weight distinctly onto one hand while the other lightens, far-side leg lifting or repositioning underneath the body, sudden increase in hip activity after stillness, and aggressive grip stripping on your controlling hands. The posting hand placement is the most reliable early indicator because the sit out cannot initiate without a stable pivot point. Recognizing these cues within the first fraction of a second allows defensive intervention before the rotation begins."

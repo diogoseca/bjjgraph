@@ -169,6 +169,8 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Position Definition
 
+<p class="section-subtitle">What is Standing Back Control (Bottom)?</p>
+
 - Opponent's chest is connected to your back with direct torso-to-torso contact, limiting your mobility and exposing your neck to attack while preventing you from establishing facing position or defensive frames
 - Opponent has established some form of upper body control through harness grip (seat belt configuration with one arm over shoulder and one under armpit), body lock, or other gripping configuration that prevents your free rotation
 - Both practitioners are in standing position with feet on the ground, creating an inherently unstable base compared to grounded back control, which you can exploit through dynamic movement and direction changes
@@ -182,6 +184,8 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Standing Back Control (Bottom)?</p>
+
 - Opponent successfully achieved back control during scramble, failed takedown defense, or transition from another standing position
 - Loss of facing position allowing opponent to establish back exposure with chest-to-back connection
 - Failure to prevent opponent's harness or seat belt grip establishment during initial back take
@@ -193,6 +197,8 @@ Success in this position relies on understanding the mechanical principles of ba
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Back Control?</p>
 
 - Immediate hand fighting to address the neck - protect against choke attempts as the highest priority using chin tuck and hand placement to create defensive shell
 - Create distance and angles to prevent opponent from consolidating control - use hip movement and direction changes to exploit inherent instability of standing position
@@ -208,6 +214,8 @@ Success in this position relies on understanding the mechanical principles of ba
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Standing Back Control (Bottom)?</p>
 
 **If opponent has locked rear naked choke grip (hand on bicep, choking arm under chin):**
 - Execute **[[Chin tuck and two-on-one grip break/Attacker|Chin tuck and two-on-one grip break]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
@@ -242,6 +250,8 @@ Success in this position relies on understanding the mechanical principles of ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Back Control?</p>
 
 ### 1. Exposing the neck by lifting chin or turning head to look at opponent
 
@@ -281,6 +291,8 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Standing Back Control defense?</p>
+
 ### Standing Back Control Escape Drilling
 
 Partner establishes standing back control with harness grip. Practice systematic escape sequence: protect neck, fight grips, create hip angle, transition to turtle or guard. Start with compliant partner, gradually increase resistance. Focus on staying calm and working technical escapes.
@@ -288,7 +300,7 @@ Partner establishes standing back control with harness grip. Practice systematic
 **Duration**: 5 minutes per partner
 
 
-### Grip Fighting from Back Exposure
+### Grips from Back Exposure
 
 Partner behind you attempts to establish harness or seat belt grip. Practice hand fighting to prevent grip completion, strip grips that are established, and maintain neck protection throughout. Emphasize two-on-one grip breaks and controlling opponent's wrists.
 
@@ -314,38 +326,6 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the absolute first priority when you find yourself in standing back control bottom?
-**A**: Protect your neck immediately by tucking your chin tightly to your chest and bringing your hands up to create a defensive shell around the choking area. Your leading hand should control the opponent's choking arm wrist, and your chin should be buried into your chest. Nothing else matters until the neck is protected - escapes and position changes come after survival is secured.
-
-**Q2**: Your opponent begins sliding their choking arm under your chin - what immediate response is required?
-**A**: Use two-on-one grip control to strip the choking arm, grabbing their wrist with both hands and pulling it across your body while tucking your chin even tighter. If the arm is already partially under, turn your head toward the crook of their elbow to create space and buy time while fighting the grip. Simultaneously consider dropping to turtle to change the angle and make the choke harder to finish.
-
-**Q3**: How should you use your base and stance to create escape opportunities?
-**A**: Maintain a wide stance to prevent being easily broken down or taken off balance. Use sudden weight shifts and direction changes to exploit the inherent instability of standing back control. Your opponent must manage both their balance and yours, so unpredictable movement creates openings. When you feel their weight shift, move in the opposite direction to create separation or transition opportunities.
-
-**Q4**: When is it better to drop to turtle versus fighting to stay standing?
-**A**: Drop to turtle when the opponent has consolidated strong harness control and you cannot break their grips, when they have both hooks in deep making standing escapes difficult, or when they are attempting to take you down forcefully and you want to control the descent. Turtle offers better defensive frames against chokes and is a more stable defensive position than standing back exposure.
-
-**Q5**: Your opponent has the harness locked but no hooks secured yet - what escape opportunity does this present?
-**A**: Without hooks, the opponent cannot control your hip movement or prevent you from turning. Execute an immediate explosive hip turn to face them while simultaneously fighting their harness grip. This is your best window before they consolidate control. Use the turn to create a scramble situation or recover to a clinch position. Speed and commitment are critical here.
-
-**Q6**: What common mistake causes practitioners to exhaust themselves quickly in this position?
-**A**: Panicking and using wild, uncontrolled movements to escape burns energy rapidly without accomplishing anything. This frantic response also makes you easier to control because your movements become predictable and you lose your base. The correction is to stay calm, work systematic escapes by addressing grips first, and use controlled technical movements rather than explosive scrambling.
-
-**Q7**: How should you sequence your defensive priorities: grip fighting, hook clearance, or positional escape?
-**A**: First protect the neck and prevent immediate submission. Then fight the harness grips to reduce opponent's control. Next address hooks if present, as they control your hips. Only after reducing opponent's control points should you attempt major positional escapes like turning to face them or transitioning to turtle. Skipping steps in this sequence often results in failed escapes or worse positions.
-
-**Q8**: Your opponent is dragging you backward trying to take you down - how should you respond?
-**A**: Rather than fighting against their pull, use their energy by dropping your weight and transitioning to turtle on your terms. This controlled descent gives you positional advantages over being thrown or slammed. As you descend, keep your chin protected and begin positioning for ground escapes. Alternatively, explosive forward roll to guard recovery can work if you commit fully before they complete the takedown.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -368,7 +348,7 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 
 - **[[Positions/Back Control]]** - Grounded version - often the result if standing escape fails or opponent successfully takes you down
 - **[[Positions/Turtle]]** - Common transition target for defensive recovery, offers more defensive options than standing back exposure
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat to defend against from this position
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat to defend against from this position
 - **[[Transitions/Standing up in Base]]** - Key escape technique to return to standing neutral position
 - **[[Transitions/Hip Escape to Turtle]]** - Fundamental escape movement for creating angles and reaching turtle position
 - **[[Transitions/Grip Break and Face]]** - Essential technique for defeating harness control and preventing chokes

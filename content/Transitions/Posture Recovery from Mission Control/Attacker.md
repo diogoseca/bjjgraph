@@ -194,6 +194,8 @@ Executing posture recovery from Mission Control requires understanding that this
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Recovery from Mission Control?</p>
+
 - Head control is the keystone - strip the bottom player's head grips before attempting any postural changes, as head control sustains the entire Mission Control structure
 - Progressive movement over explosive escape - small incremental improvements in posture compound into full recovery without triggering submission entries
 - Weight redistribution precedes postural change - shift your center of gravity off the trapped shoulder before attempting to lift your torso
@@ -208,6 +210,8 @@ Executing posture recovery from Mission Control requires understanding that this
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Recovery from Mission Control?</p>
+
 - At least one free hand available for grip fighting on the bottom player's head control grips
 - Stable base with knees wide enough to resist sweep attempts during the recovery process
 - Mental composure to commit to a systematic multi-phase escape rather than explosive single-movement attempts
@@ -220,6 +224,8 @@ Executing posture recovery from Mission Control requires understanding that this
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Recovery from Mission Control step by step?</p>
 
 1. **Assess position and immediate threats**: Evaluate the bottom player's grip configuration, identify which arm is trapped, and assess immediate submission threats including triangle and omoplata angles. Determine whether the bottom player has full Mission Control with deep head control or a partially compromised version with weakened grips or dropped hips. This assessment dictates whether you begin with grip fighting or threat neutralization.
 2. **Fight head control grips**: Use your free hand to aggressively strip the bottom player's grip on the back of your head or neck. Target their wrist or forearm with repeated grip breaks, fighting for incremental head freedom. This step is non-negotiable - without degrading head control, no further posture recovery is possible because their pulling force maintains the entire broken posture structure.
@@ -250,6 +256,8 @@ Executing posture recovery from Mission Control requires understanding that this
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Recovery from Mission Control?</p>
+
 - **Bottom player re-pulls head control with renewed grip and re-establishes full posture break** (Effectiveness: High) - Your Response: Immediately re-strip the grip with your free hand. If they achieve deep two-handed head control, restart the grip fighting sequence entirely before attempting further posture recovery. Persistence wins this grip battle over time. → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Bottom player transitions to New York control using backward movement slack on the trapped arm** (Effectiveness: Medium) - Your Response: Drive your trapped elbow tight to your body and fight the deeper underhook that New York requires. If the New York transition begins, pause posture recovery and address the arm position first. Preventing the transition takes absolute priority. → Leads to [[Positions/Rubber Guard/New York]]
 - **Bottom player elevates hips higher and tightens high guard leg position across the back** (Effectiveness: High) - Your Response: Use your near-side hand to push down on their hip to reduce elevation. If their hips are fully re-elevated, focus on weight redistribution and grip fighting rather than direct posture change until their hip engagement fatigues. → Leads to [[Positions/Rubber Guard/Mission Control]]
@@ -261,6 +269,8 @@ Executing posture recovery from Mission Control requires understanding that this
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery from Mission Control?</p>
 
 ### 1. Attempting explosive posture recovery with a sudden spine extension and neck lift
 
@@ -300,7 +310,9 @@ Executing posture recovery from Mission Control requires understanding that this
 
 ## Training Progressions
 
-**Phase 1: Grip Fighting Mechanics** - Head control grip stripping and defensive hand positioning
+<p class="section-subtitle">How do you train Posture Recovery from Mission Control (Attacker)?</p>
+
+**Phase 1: Grips Mechanics** - Head control grip stripping and defensive hand positioning
 Partner establishes Mission Control at 50% resistance. Practice stripping head control grips using your free hand with proper wrist targeting and forearm leverage. Focus exclusively on grip fighting without attempting posture recovery. Build the automatic grip stripping responses that form the foundation of all subsequent phases.
 
 **Phase 2: Progressive Posture Recovery** - Gradual postural improvement through micro-movements
@@ -320,42 +332,12 @@ Once posture recovery is reliable, chain the escape directly into closed guard o
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical grip to fight when beginning posture recovery from Mission Control?
-**A**: The head control grip is the most critical. The bottom player's ability to pull your head down maintains the entire Mission Control structure - without head control, they cannot sustain shoulder isolation, break posture, or threaten submissions effectively. Use your free hand to constantly strip their grip on the back of your head or neck before attempting any postural changes.
-
-**Q2**: Why is explosive posturing up one of the worst possible responses when trapped in Mission Control?
-**A**: Explosive posturing creates the exact movement pattern the bottom player needs to complete a triangle choke - your upward extension helps them swing their leg across your face. The sudden movement telegraphs your intent, allowing them to time transitions to New York or other advanced controls. Failed explosive attempts also waste significant energy and often leave you in a worse position.
-
-**Q3**: Your opponent's hip elevation momentarily drops while you are trapped in Mission Control - how do you capitalize?
-**A**: Immediately drive your weight slightly backward while lifting your chin and chest to begin posture recovery. Dropped hips weaken the entire high guard structure. Simultaneously strip remaining head control grips and use the structural opening to begin extracting your trapped arm. This window is brief, so prioritize posture recovery over arm extraction if you can only accomplish one action.
-
-**Q4**: What is the correct sequencing of the three main phases for escaping Mission Control?
-**A**: The phases must follow strict order: first, fight head control grips and defend immediate submission threats by protecting your neck and maintaining arm positioning against triangle and omoplata entries. Second, recover posture progressively through weight redistribution and gradual chest elevation. Third, extract the trapped arm only once posture provides structural support for safe extraction. Skipping or reversing phases typically results in submission.
-
-**Q5**: Your opponent begins transitioning from Mission Control to New York as you attempt posture recovery - what adjustment do you make?
-**A**: Immediately pause posture recovery and address the New York transition before it completes. Drive your trapped elbow tight to your body to prevent the deeper underhook that New York requires. Use your free hand to fight the grip change occurring at your forearm. If the New York transition completes, you face an even more difficult escape, so preventing the transition takes absolute priority over continuing posture recovery.
-
-**Q6**: What role does base management play throughout the posture recovery sequence?
-**A**: Base management prevents the bottom player from sweeping you during recovery. Keep knees wide and weight distributed to create a stable triangular base. The bottom player threatens hip bump sweeps and lateral off-balancing when submissions are defended, creating a dual-threat situation. Narrowing your base or shifting weight too far in any direction creates the instability they need for sweep execution.
-
-**Q7**: What is the proper weight distribution strategy to reduce the cooking effect of Mission Control?
-**A**: Distribute weight evenly rather than loading onto the trapped shoulder. Shift some weight backward to reduce the mechanical advantage the bottom player gains from shoulder loading, but maintain enough forward connection to prevent them from using distance to reconfigure grips. Progressive reduction of the shoulder load is more effective than dramatic weight shifts that telegraph your escape intent.
-
-**Q8**: After successfully breaking Mission Control and arriving in closed guard, what should be your immediate priority?
-**A**: Immediately establish strong posture with hands on the bottom player's hips or biceps to prevent re-entry into rubber guard. Do not relax - the bottom player will immediately attempt to re-pull your head down and re-thread the high guard leg. Maintain defensive grips, keep posture upright, and begin working toward guard opening before they can reconfigure their attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Recovery from Mission Control?</p>
 
 Posture recovery from Mission Control involves significant neck and shoulder stress for the top player. Avoid explosive jerking movements that could strain cervical vertebrae or damage the shoulder joint under isolation pressure. If experiencing sharp neck pain or unusual shoulder discomfort, tap and reset rather than forcing through the escape. The bottom player should release Mission Control immediately if their partner signals distress, as prolonged shoulder isolation combined with resistance can cause joint strain. Both practitioners should communicate clearly about pain levels during drilling.
 

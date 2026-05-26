@@ -194,7 +194,7 @@ The critical decision in executing this setup is timing: commit too early before
 
 ## Position Integration
 
-The S Mount Armbar Setup serves as the critical bridge between mount-based positional dominance and armbar submission mechanics. It connects the mount hierarchy (Mount to High Mount to S Mount) to the submission finishing sequence (Armbar Control to Armbar Finish to game-over). This transition is central to any mount-based submission game, as S Mount naturally evolves from mount when targeting arm attacks. Understanding this setup allows practitioners to flow seamlessly from positional control into submission finishing, creating a complete offensive chain that pressures opponents from mount acquisition through submission completion. The setup also creates branching opportunities: if the armbar is defended, the attacker can transition to mounted triangle, back take, or return to mount for another attempt.
+The S Mount Armbar Setup serves as the critical bridge between mount-based positional dominance and armbar submission mechanics. It connects the mount hierarchy (Mount to High Mount to S Mount) to the submission finishing sequence (Armbar Control to Armbar from Armbar Control to game-over). This transition is central to any mount-based submission game, as S Mount naturally evolves from mount when targeting arm attacks. Understanding this setup allows practitioners to flow seamlessly from positional control into submission finishing, creating a complete offensive chain that pressures opponents from mount acquisition through submission completion. The setup also creates branching opportunities: if the armbar is defended, the attacker can transition to mounted triangle, back take, or return to mount for another attempt.
 
 </section>
 
@@ -214,9 +214,9 @@ The S Mount Armbar Setup serves as the critical bridge between mount-based posit
 
 - [[Positions/Mount/High Mount]] - Alternative dominant position that flows into S Mount configuration
 
-- [[Submissions/Armbar from S Mount]] - Direct submission finish available from the same starting position
+- [[Transitions/Mount to Armbar]] - Primary armbar transition from mount hierarchy that flows through S Mount as an intermediate attacking position
 
-- [[Transitions/Armbar Finish]] - Finishing technique executed from the armbar control position this setup creates
+- [[Armbar from Armbar Control]] - Finishing submission executed from the armbar control position this setup creates
 
 - [[Transitions/Frame and Shrimp from S Mount]] - Primary defensive technique opponents use to prevent this setup
 

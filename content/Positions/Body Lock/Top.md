@@ -169,6 +169,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 ## Position Definition
 
+<p class="section-subtitle">What is Body Lock (Top)?</p>
+
 - Both arms wrapped completely around opponent's torso with hands locked behind their back using gable grip, rear naked choke grip, or similar locked configuration that cannot easily be broken
 - Chest pressed firmly against opponent's back or upper torso, eliminating all space between bodies and preventing them from creating distance or turning to face you
 - Head positioned strategically to the side of opponent's head, typically on underhook side, with temple or ear against their shoulder area to prevent their head control attempts and enhance throwing angle
@@ -182,6 +184,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Body Lock (Top)?</p>
+
 - Successful grip fighting exchange resulting in ability to penetrate both arms around opponent's torso
 - Close proximity to opponent with no defensive frames separating your bodies
 - Opponent in standing or turtle position where back exposure is available
@@ -194,6 +198,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Body Lock?</p>
 
 - Lock hands immediately when both arms are around opponent - delay allows defensive hand fighting
 - Drive chest into opponent's back instantly to eliminate all space and prevent frame creation
@@ -209,6 +215,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Body Lock (Top)?</p>
 
 **If opponent maintains strong upright posture and resists backward pressure:**
 - Execute **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -237,6 +245,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Body Lock?</p>
 
 ### 1. Failing to drive hips forward immediately after locking hands
 
@@ -276,6 +286,8 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Body Lock attacks?</p>
+
 ### Body Lock Establishment Speed Drill
 
 Starting from neutral standing clinch position, partner provides progressive resistance as you work to establish body lock quickly from various grip fighting scenarios. Focus on speed of hand penetration, immediate lock establishment, and instant hip pressure. Reset after each successful lock and vary starting positions.
@@ -308,38 +320,6 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body connection point for maintaining body lock control?
-**A**: The chest-to-back connection is the most critical control point. Your chest must be pressed firmly against your opponent's back or upper torso, eliminating all space between bodies. This connection transfers your weight directly into their center of gravity and prevents them from creating frames, turning to face you, or establishing distance for escape. The locked hands become secondary insurance once proper chest connection is established.
-
-**Q2**: Your opponent begins posting their hands on your hips to create separation - what adjustment do you make?
-**A**: Immediately increase forward hip pressure while maintaining your locked grip and chest connection. Drive your hips forward with progressive pressure to collapse their arm posts. If they successfully create distance, transition to a single leg or double leg entry before they can fully disengage. The key is not allowing them time to establish strong frames by attacking their structure before their posts become load-bearing.
-
-**Q3**: Why must attacks be executed within 1-2 seconds of establishing the body lock?
-**A**: The body lock is an inherently transitional position that cannot be sustained indefinitely. Hesitation allows opponents to establish defensive measures including hand fighting to break your grip, lowering their base to resist throws, or positioning to sit to guard. The position's value lies in the immediate offensive pressure it creates - the dilemma of multiple threats that cannot all be defended. Delaying transforms a dominant control into a stalemate where the opponent has time to neutralize your advantages.
-
-**Q4**: What are the essential grip configurations for the body lock and when should each be used?
-**A**: The three primary grip configurations are: gable grip (palm-to-palm with fingers interlocked) which provides the strongest connection for mat returns and throws; rear naked choke grip (one hand gripping the opposite bicep with that arm securing the wrist) which allows quick transition to back control attacks; and butterfly grip (hands clasped with thumbs on top) which offers a balance of strength and transition ability. Use gable grip for immediate powerful finishes, RNC grip when anticipating back control, and butterfly grip when you need flexibility to adjust.
-
-**Q5**: How should your head be positioned during body lock control and why?
-**A**: Position your head tight to the underhook side with your temple or ear pressed against your opponent's shoulder area. This positioning serves multiple purposes: it prevents them from establishing head control or whizzer on that side, creates proper angle for executing throws, adds to the overall tightness of your body connection, and protects against them turning into you. Improper head position - too far back or forward - reduces control, makes you vulnerable to counters, and decreases throwing power.
-
-**Q6**: Your opponent begins sitting down to pull guard while you have body lock established - what is your response?
-**A**: Follow their descent immediately while maintaining your locked grip and chest connection. As they sit, you have two high-percentage options: follow them into closed guard top position with your body lock intact to immediately begin passing, or use their downward movement to transition to back control by driving through them as they sit and inserting hooks. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames. Keep driving forward pressure throughout their guard pull attempt.
-
-**Q7**: What stance fundamentals must be maintained throughout body lock control?
-**A**: Maintain an athletic stance with knees bent, weight distributed through the balls of your feet, and center of gravity low. This stance provides a stable base resistant to counter throws while enabling explosive movement for your own throws, mat returns, and transitions. Standing too upright with straight legs compromises your base, reduces hip driving power, and limits your ability to react to opponent's defensive movements. Your stance should allow instant level changes in any direction.
-
-**Q8**: When should you break your grip during the body lock sequence?
-**A**: Only break your locked grip after you have fully secured an alternative dominant position with its own control mechanisms established. Breaking the grip prematurely is a critical error that allows opponents to escape or counter-attack. The grip should be maintained throughout the entire attacking sequence - through the mat return, through the landing, and until back control hooks and seatbelt are fully secured, or until side control crossface and hip control are established. The locked hands are your primary control until replaced by position-specific controls.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

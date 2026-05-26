@@ -169,6 +169,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kesa Gatame (Bottom)?</p>
+
 - Bottom player is on their back or side with opponent's chest pressing heavily across their upper torso and shoulder area, creating intense cross-body pressure that restricts breathing and movement
 - Top player controls bottom player's head with their arm (typically threading under the head/neck) while sitting perpendicular or at an angle to bottom player's body with their hips positioned near bottom player's shoulder
 - Bottom player's near-side arm (closest to top player) is typically trapped or controlled by top player's grip, preventing easy posting or framing, while far-side arm may be free but has limited leverage from this angle
@@ -182,6 +184,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kesa Gatame (Bottom)?</p>
+
 - Opponent has successfully passed guard or transitioned from another top position
 - Opponent has secured head control with their arm threading under your neck or head
 - Opponent has established chest-to-chest pressure across your upper torso
@@ -194,6 +198,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kesa Gatame?</p>
 
 - Protect your neck immediately and prevent opponent from securing deep head control or transitioning to chokes
 - Create frames using your free arm to establish distance between opponent's chest and your face, preventing smothering pressure
@@ -209,6 +215,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kesa Gatame (Bottom)?</p>
 
 **If opponent maintains tight head control and heavy chest pressure without attacking submissions:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
@@ -240,6 +248,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kesa Gatame?</p>
 
 ### 1. Attempting standard side control shrimping escapes while opponent is perpendicular to your body
 
@@ -284,6 +294,8 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Kesa Gatame defense?</p>
+
 ### Timed Kesa Gatame Escape Drilling
 
 Partner establishes solid Kesa Gatame with controlled pressure. Bottom player works through systematic escape progressions for 2-minute rounds: first 30 seconds focus on head/arm frames, next 30 seconds on hip movement, next 30 seconds on bridge mechanics, final 30 seconds on full escape attempts. Partner increases pressure resistance each round. Perform 5 rounds with 1-minute rest between rounds.
@@ -316,38 +328,6 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent is applying crushing chest pressure and you're struggling to breathe - what's your immediate priority?
-**A**: Turn your head away from the pressure to create a small pocket of breathing space, and use your free arm to frame against their shoulder or face to create distance between their chest and your face. Do not panic or waste energy fighting the pressure directly. Establish controlled breathing through your nose if possible, and accept some discomfort while working methodically toward escape. Panic breathing and explosive struggling will exhaust you rapidly.
-
-**Q2**: What are the essential defensive frames you need to establish before attempting any escape?
-**A**: The primary frame is your free arm (far arm) pressing against opponent's face, neck, or shoulder to create distance and prevent smothering. Secondary is using your near elbow (if you can extract it) against their hip to prevent them from advancing. Tertiary is keeping your chin tucked to your chest to protect against chokes. These frames must be structural, using bone alignment rather than muscular pushing, so they don't exhaust you while you wait for escape opportunities.
-
-**Q3**: Why is standard shrimping ineffective from Kesa Gatame and what should you do instead?
-**A**: Standard shrimping is ineffective because the opponent's perpendicular angle means your hip escape pushes you directly into their hips rather than creating usable space. Instead, use bridge-and-turn mechanics where you bridge toward them while turning your body to face them, or turn away to reach turtle position. The escape direction must account for their perpendicular positioning rather than the parallel alignment of traditional side control.
-
-**Q4**: Your opponent's back is exposed because they're sitting heavily - how do you exploit this vulnerability?
-**A**: When opponent sits back heavily, immediately turn into them rather than away. Use your free arm to reach around their back while turning your hips to face them. Your goal is to get chest-to-chest facing them, which allows you to either take their back directly or transition to turtle and then attack their back from there. This is the highest-percentage escape unique to Kesa Gatame because their perpendicular positioning inherently exposes their back.
-
-**Q5**: How do you apply pressure against opponent's base to set up the bridge-and-roll escape?
-**A**: Before bridging, grab their far arm at the wrist or elbow to prevent them from posting when you bridge. If wearing gi, grip their far sleeve or lapel. Pull this arm across your body while simultaneously trapping their near leg with your legs. Then bridge explosively toward their trapped side at a 45-degree angle. Without controlling their posting arm first, they will simply base out and your bridge will be ineffective.
-
-**Q6**: Your opponent starts transitioning toward mount - what do you do to prevent advancement?
-**A**: Use your legs actively to hook their near leg, creating a barrier that prevents them from stepping over to mount. Your knee should be between your bodies, and your foot should be hooking behind their knee or thigh. If they persist in trying to mount, this leg entanglement creates an opportunity to either recover half guard or execute a bridge-and-roll as they lift their leg. Never let them freely step over without resistance.
-
-**Q7**: How do you manage your energy when you're unable to escape immediately?
-**A**: Accept that you're in a bad position and focus on survival rather than forcing escapes. Maintain your frames using structural alignment rather than muscular effort. Breathe through your nose in a controlled pattern. Wait for opponent to make a mistake - when they attempt submissions or transitions, that's when escape windows open. Conserve explosive effort for when opportunities arise rather than constantly fighting. Most people exhaust themselves within 30-60 seconds of panicked struggling.
-
-**Q8**: You partially escape and get space but opponent is re-engaging - how do you complete the guard recovery?
-**A**: Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

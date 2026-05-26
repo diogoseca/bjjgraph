@@ -188,6 +188,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Shin-to-Shin Guard?</p>
+
 - Establish upper body grip dominance before addressing the shin connection to disable the guard player's distance management system
 - Clear the shin connection through lateral movement and angle changes rather than forward pressure that feeds into sweep mechanics
 - Maintain stable base and weight distribution throughout the clearing sequence to resist off-balancing attempts
@@ -202,6 +204,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Shin-to-Shin Guard?</p>
+
 - Standing or combat base posture with stable base resistant to forward-pulling off-balancing attempts
 - At least one dominant upper body grip established (sleeve, collar, or lapel) to contest distance management
 - Assessment of shin connection strength and angle to determine optimal clearing approach (circle, backstep, or pressure)
@@ -214,6 +218,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Shin-to-Shin Guard step by step?</p>
 
 1. **Establish Upper Body Grips**: Contest and win the grip battle by securing same-side sleeve control and cross collar or lapel grip. This prevents the guard player from managing distance and controlling your posture, which is essential before any clearing attempt can safely proceed without feeding into sweep mechanics.
 2. **Assess Shin Connection**: Evaluate the strength, angle, and pressure of the opponent's shin contact across your lower leg. Determine whether the connection is active with strong perpendicular pressure or passive and weakening, as this dictates whether you use circling, backstep, or direct clearing approach.
@@ -244,6 +250,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Shin-to-Shin Guard?</p>
+
 - **Guard player shoots hips underneath during clearing sequence to establish Single Leg X-Guard hooks** (Effectiveness: High) - Your Response: Widen base immediately and drive hips back while controlling their far shoulder. If they get one hook in, sprawl your hips and work to extract the trapped leg before the second hook establishes full Single Leg X control. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 - **Guard player scoots hips back and reestablishes frames to recompose open guard after connection breaks** (Effectiveness: Medium) - Your Response: Follow their hip movement immediately rather than letting them create distance. Maintain sleeve grip and pressure forward to prevent recomposition while continuing your passing sequence without pause. → Leads to [[Positions/Open Guard]]
 - **Guard player inserts knee shield to catch half guard as you advance through their guard structure** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free. Maintain crossface and shoulder pressure throughout. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Shin-to-Shin Guard?</p>
 
 ### 1. Driving forward through the shin connection with direct pressure instead of clearing laterally
 
@@ -294,6 +304,8 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Shin-to-Shin Guard (Attacker)?</p>
+
 **Phase 1: Shin Clearing Mechanics** - Fundamental clearing technique and footwork
 Practice shin clearing mechanics against a cooperative partner in static position. Focus on proper foot placement, hip movement, and hand positioning during the clear. Partner maintains shin-to-shin with light pressure while you drill three different clearing methods (circle clear, backstep clear, pressure clear) for 20 repetitions each. Build muscle memory for each clearing pattern before adding resistance.
 
@@ -311,42 +323,12 @@ Full live rounds starting from shin-to-shin position. Practice entire sequence f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical error when attempting to pass shin-to-shin guard and why does it fail?
-**A**: Driving forward through the shin connection with direct pressure is the most critical error. The perpendicular shin lever converts your forward momentum into off-balancing force that feeds directly into butterfly sweeps, X-Guard entries, and Single Leg X transitions. The biomechanics of the position mean that forward pressure strengthens the guard player's control rather than weakening it. Instead, clear laterally through circling and angle changes before applying forward pressure.
-
-**Q2**: Your opponent's shin connection feels weak and their grips are loose—how should you capitalize?
-**A**: Immediately combine a quick clearing movement with direct advancement into your passing sequence without hesitation. A weak connection signals fatigue, lost angle, or preparation for a different attack. Move directly into the pass because any delay allows them to reset their guard structure, adjust their angle, or transition to a different position. This is your highest-percentage passing window.
-
-**Q3**: What upper body grips should you prioritize before attempting to clear the shin connection?
-**A**: Prioritize same-side sleeve control to prevent the guard player from managing distance and pulling you into sweep mechanics. Combine with cross collar, lapel, or pants grip for secondary control. These grips disable the guard player's upper body management system, making the shin connection alone insufficient for effective guard retention or transition initiation.
-
-**Q4**: How do you recognize whether the opponent is entering Single Leg X during your clearing attempt?
-**A**: Watch for hip elevation combined with angle adjustment toward your trapped leg, their free leg beginning to thread underneath your clearing leg, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These biomechanical cues indicate Single Leg X entry mechanics are building. Immediately widen your base and drive hips back at the first sign of elevation rather than waiting for hooks to establish.
-
-**Q5**: What is the optimal sequence for transitioning from shin clearing to passing pressure?
-**A**: The optimal sequence is grip dominance, then lateral movement to weaken the shin angle, then controlled shin clearing, then immediate forward advancement with chest pressure into the passing position, and finally side control consolidation. The critical principle is that clearing and passing must flow as one continuous action with no pause between them. Any gap creates a window for guard recomposition that negates your clearing work.
-
-**Q6**: Your opponent maintains strong sleeve and collar grips despite your grip fighting—how do you modify your approach?
-**A**: When the opponent maintains strong upper body grips, avoid forward-pressure passing entirely as it feeds into their sweep mechanics through the grip structure. Instead, use movement-based clearing through circling and backsteps that do not require driving into their grip control. Break grips methodically during movement rather than statically, and consider resetting to standing range if the grip battle is consistently lost to restart the exchange.
-
-**Q7**: When is a backstep clearing approach preferable to a circling approach?
-**A**: Backstep clearing is preferable when the guard player has strong forward-pulling grips that make circling difficult, when they have established deep shin penetration that circling alone cannot address, or when you want to change the engagement angle dramatically to create leg drag opportunities. Circling is better when their grips are weaker and you can systematically reduce the connection angle through incremental lateral movement without needing dramatic angle changes.
-
-**Q8**: What should you do if the opponent catches half guard during your pass attempt?
-**A**: Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free, which wastes energy and creates scramble situations. Maintain crossface and shoulder pressure throughout. Half guard represents a tactical detour with well-established passing chains, not a failure requiring you to restart the entire passing process from open guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Shin-to-Shin Guard?</p>
 
 Avoid explosive shin clearing movements that could hyperextend the knee or ankle of either player. Control all clearing sequences with measured pressure to prevent collision injuries. When the guard player is transitioning rapidly between positions, pause rather than force through configurations that could strain knee ligaments. Tap immediately if caught in any leg entanglement during pass attempts, and communicate with training partners about knee sensitivity.
 

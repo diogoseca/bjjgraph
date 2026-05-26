@@ -80,12 +80,12 @@
       "relationship": "Defensive counter-technique the opponent will attempt once truck is established"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "relationship": "High-percentage submission available immediately upon achieving truck position"
     },
     {
-      "name": "Twister Finish",
-      "relationship": "Primary submission attack accessible from both TSC and truck positions"
+      "name": "Twister Entry",
+      "relationship": "Primary submission entry transition accessible from both TSC and truck positions targeting spinal lock finish"
     },
     {
       "name": "Escape Twister Side Control",
@@ -244,7 +244,7 @@
         "description": "After successfully achieving truck, immediately flow into submission attempts (twister, calf slicer, banana split) or back control transitions. Develop the habit of attacking immediately upon consolidation rather than resting in the position, ensuring the transition serves offensive rather than merely positional purposes."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most critical control point to establish before beginning the rotation from Twister Side Control toward the truck?",
         "answer": "Boot pressure against the opponent's hip is the most critical control point to establish first. The boot creates the torque foundation that restricts the opponent's ability to square up, turn, or roll during your rotation. Without boot pressure, the figure-four and rotation lack the mechanical leverage needed to control the transition, and the opponent retains the hip mobility necessary to defend or escape."
@@ -276,6 +276,14 @@
       {
         "question": "When should you choose this transition over the Twister SC to Back Take as your advancement pathway?",
         "answer": "Choose the truck transition when the opponent's legs are accessible and their leg defense is compromised, and you want to maintain the leg entanglement submission threat matrix including calf slicers and banana splits. Choose the back take when the opponent exposes their back through turning away or when their upper body defense is weaker than their leg defense. The truck offers more submission diversity while the back take offers more positional stability."
+      },
+      {
+        "question": "You have established boot pressure but the opponent is actively hip escaping to prevent your rotation - what grip adjustment enables you to continue?",
+        "answer": "Secure a strong crossface or collar tie with your top arm to pin their upper body while your boot maintains hip torque. The crossface prevents their hip escape from generating meaningful distance because their upper body remains anchored. With their hip escape neutralized by the upper body anchor, use the boot torque to begin walking your hips behind them incrementally rather than attempting a single large rotation. The combination of upper body pin and lower body torque overcomes the hip escape defense."
+      },
+      {
+        "question": "What is the correct direction of force application through the boot during the rotation phase?",
+        "answer": "The boot should drive laterally into the opponent's hip bone, pushing their hips away from you and creating a corkscrew torque through their spine. The force vector is perpendicular to the opponent's spine, not pushing them forward or backward. This lateral pressure prevents them from squaring their hips to face you and simultaneously assists your rotation by creating a fulcrum point that your body pivots around. Pushing forward instead of laterally reduces torque and allows the opponent to absorb the pressure by flattening."
       }
     ],
     "safety_considerations": "While this transition is primarily positional rather than directly threatening injury, several safety concerns require attention during training. The rotational forces generated during the transition can stress the opponent's knee and hip joints through the trapped leg, particularly if the figure-four is tightened aggressively. Partners should communicate immediately if they feel joint pressure during the entanglement deepening. The transition into truck also creates proximity to dangerous submissions including the twister (spinal lock) and calf slicer, so practitioners should exercise control and avoid flowing directly into full submission pressure during drilling. Always allow the partner time to recognize and defend the new position before attacking."
@@ -365,7 +373,7 @@
         "correction": "Follow a clear defensive hierarchy: first clear the boot, then prevent the figure-four, then disrupt the rotation. Address each control point individually in order of priority."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single highest-priority defensive action when you feel the attacker inserting their foot against your hip?",
         "answer": "Immediately use your free hand to push the attacker's foot away from your hip while simultaneously hip escaping to create distance. Boot pressure is the foundational control mechanism of the truck - without it, the figure-four lacks torque and the perpendicular alignment lacks its fulcrum. Clearing the boot before it generates torque is far easier than removing it once the attacker has weight behind it. Accept temporary reduction in upper body defense to address this priority."

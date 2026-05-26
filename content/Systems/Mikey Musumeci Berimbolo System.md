@@ -26,7 +26,7 @@ description: "Master Mikey Musumeci's berimbolo system with technical precision.
     },
     {
       "@type": "HowToStep",
-      "name": "Base Disruption and Angle Creation",
+      "name": "Base Disruption and Dominant Angles",
       "text": "Use collar and sleeve grips to break opponent's posture forward while simultaneously elevating their base leg with the DLR hook. This creates the off-balance state necessary for berimbolo entry. Focus on making opponent heavy on their hands rather than trying to force immediate rotation.",
       "position": 2
     },
@@ -198,7 +198,7 @@ Key points:
 
 
 
-2. **Base Disruption and Angle Creation**: Use collar and sleeve grips to break opponent's posture forward while simultaneously elevating their base leg with the DLR hook. This creates the off-balance state necessary for berimbolo entry. Focus on making opponent heavy on their hands rather than trying to force immediate rotation.
+2. **Base Disruption and Dominant Angles**: Use collar and sleeve grips to break opponent's posture forward while simultaneously elevating their base leg with the DLR hook. This creates the off-balance state necessary for berimbolo entry. Focus on making opponent heavy on their hands rather than trying to force immediate rotation.
 Key points:
 - Pull collar grip down and across opponent's centerline
 - Elevate DLR hook while extending own hips away
@@ -344,13 +344,13 @@ The Musumeci berimbolo system requires progressive technical drilling that prior
 - [[Single Leg X Sweep]] (Transition) - Sweeping mechanism from Single Leg X backup position
 - [[De La Riva to X-Guard Transition]] (Transition) - Technical pathway connecting primary and backup systems seamlessly
 - [[Turtle to Back Take]] (Transition) - Back attack completion when opponent turtles during berimbolo sequence
-- [[Guard Retention]] (Principle) - Fundamental defensive skill preventing opponents from passing during berimbolo setups
-- [[Grip Fighting]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
+- [[Frames]] (Principle) - Fundamental defensive structure enabling guard retention during berimbolo setups and recovery
+- [[Grips]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
 - [[Timing and Rhythm]] (Principle) - Critical for recognizing optimal berimbolo entry moments and preventing telegraphing
 - [[Transition Management]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
-- [[Off-Balancing]] (Principle) - Fundamental requirement for creating berimbolo entry opportunities
-- [[Sweep Mechanics]] (Principle) - Governs technical execution of sweeps from backup X-Guard positions
-- [[System Building]] (Principle) - Framework for connecting berimbolo with backup options into cohesive attacking system
+- [[Posture]] (Principle) - Fundamental requirement for disrupting opponent's base to create berimbolo entry opportunities
+- [[Kuzushi]] (Principle) - Governs technical execution of sweeps from backup X-Guard positions
+- [[Position Chains]] (Principle) - Framework for connecting berimbolo with backup options into cohesive attacking sequences
 - [[Berimbolo]] (System) - General berimbolo system providing broader context for Musumeci's specific approach
 - [[Marcelo Garcia X-Guard System]] (System) - Complementary X-Guard system that integrates with berimbolo backup positions
 - [[Caio Terra Guard Retention System]] (System) - Guard retention methodology supporting berimbolo setup and defense

@@ -50,8 +50,8 @@ description: "Master closed guard top with defensive posture strategies, systema
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel from Closed Guard",
-      "text": "From this position, attempt Ezekiel from Closed Guard. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Ezekiel Choke from Closed Guard",
+      "text": "From this position, attempt Ezekiel Choke from Closed Guard. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Closed Guard (Top)?</p>
+
 - Opponent's legs wrapped completely around your waist or hips with ankles locked behind your back, creating closed circuit of control that restricts your mobility and creates constant pressure on your torso, compressing your breathing and limiting lateral movement options while threatening to break your posture.
 - You are positioned between opponent's guard with your torso trapped inside their leg control, typically on your knees or in low squat with your hips positioned between their thighs, with your weight distributed through your knees to the mat while maintaining enough mobility to defend sweeps and work toward guard opening.
 - Your spine position is critical - either maintaining upright posture with head over hips and chest elevated creating structural strength that prevents attacks, or compromised with opponent pulling your head and shoulders down toward their chest, breaking your structural integrity and creating immediate submission opportunities including triangle and armbar threats.
@@ -181,6 +183,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Closed Guard (Top)?</p>
 
 - Understanding of posture mechanics and spinal alignment principles with ability to recognize when structural integrity is compromised and how to recover it
 - Knowledge of guard passing principles and progression sequences from guard opening through completion of pass
@@ -196,10 +200,12 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Closed Guard?</p>
+
 - Posture Maintenance Priority: Keep spine straight and head over hips to prevent opponent from breaking you down for attacks - this is your primary defensive concern that enables all other technical work
 - Distance Management: Control distance with proper hand placement on hips, biceps, or collar to prevent opponent from closing space for submissions while maintaining enough connection to initiate passes
 - Base and Balance: Maintain wide base with knees spread to defend against sweeps while staying mobile for passing attempts, distributing weight through lower body rather than hands
-- Grip Fighting: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
+- Grips: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
 - Patient Progression: Work methodically toward guard opening without rushing into vulnerable passing attempts that expose you to counters, following systematic progression from posture to grips to opening to passing
 - Defensive Awareness: Constantly monitor threats including triangle, armbar, omoplata, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks
 
@@ -209,6 +215,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Closed Guard (Top)?</p>
 
 **If opponent has broken your posture and is pulling you down toward their chest with collar or head control:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 65%)
@@ -243,6 +251,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Closed Guard?</p>
 
 ### 1. Poor posture maintenance - allowing spine to round and head to drop below hip level creating structural weakness
 
@@ -292,6 +302,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Closed Guard attacks?</p>
+
 ### Posture Maintenance Drill
 
 Partner in closed guard attempts to break your posture while you maintain it for 2-minute rounds, focusing on spine position and head placement. Partner increases pressure progressively from 30% to 70%. Focus on recovering posture immediately when compromised using hip and chest positioning.
@@ -320,7 +332,7 @@ Partner in closed guard attacks with predetermined submissions (triangle, armbar
 **Duration**: 10 minutes
 
 
-### Grip Fighting from Closed Guard Top
+### Grips from Closed Guard Top
 
 Partner attempts to establish dominant grips for attacks while you fight grips and establish your own controlling grips. 3-minute rounds with focus on proactive grip fighting rather than reactive. Reset when one person establishes clearly dominant position.
 

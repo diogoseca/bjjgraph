@@ -216,7 +216,7 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 - [[Transitions/Collar Drag]] - Initial clinch technique that can create two-on-one opportunities
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from resulting back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from resulting back control position
 
 - [[Positions/Body Lock]] - Alternative control option if opponent turns in during back take attempt
 

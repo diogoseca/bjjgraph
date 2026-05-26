@@ -164,6 +164,8 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Hook Sweep?</p>
+
 - Opponent scoots hips laterally to one side while maintaining hook contact, creating the angular offset needed for the sweep
 - Strong collar or overhook grip established on the sweep side with pulling pressure directing your weight forward
 - Hook pressure increases noticeably as opponent curls their instep and begins loading your weight onto the hooking leg
@@ -176,6 +178,8 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Hook Sweep?</p>
 
 - Maintain low center of gravity with wide base positioned behind the hooks to resist lateral displacement
 - Fight all upper body grips immediately—the sweep requires directional grip control to function
@@ -190,6 +194,8 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Hook Sweep?</p>
 
 ### 1. Post near hand wide to create tripod base against the sweep direction
 
@@ -227,6 +233,8 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Hook Sweep?</p>
+
 ### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 Deny all three sweep requirements by keeping base wide and low, fighting grips before they establish directional control, and preventing angle creation by following opponent's hip movement. Post proactively on any elevation attempt to create an immediate tripod that the sweep cannot overcome.
@@ -242,6 +250,8 @@ When opponent over-commits to the sweep elevation, use their momentum shift and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Hook Sweep?</p>
 
 ### 1. Leaning forward with center of gravity past your knees and directly over opponent's hooks
 
@@ -276,6 +286,8 @@ When opponent over-commits to the sweep elevation, use their momentum shift and 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Hook Sweep?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sweep setup cues before the technique fires
 Partner slowly sets up the butterfly hook sweep while you call out each element as it appears: angle creation, grip establishment, weight loading, kickstand plant. Develop pattern recognition so defensive responses trigger automatically.
 
@@ -292,29 +304,6 @@ Positional sparring starting in opponent's butterfly guard with full resistance.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What visual cue gives the earliest warning that a butterfly hook sweep is being initiated?
-**A**: The most reliable early warning is the lateral hip scoot—when the bottom player moves their hips to one side while maintaining hook contact. This angular displacement always precedes the sweep because it creates the off-center fulcrum needed for the technique. Before the scoot, the hook can only lift vertically, which is easy to resist. Recognizing this movement gives you approximately one second to counter before the elevation begins.
-
-**Q2**: What base adjustment neutralizes the sweep threat before it develops?
-**A**: Lower your center of gravity by sinking hips back behind your knees and widening your base beyond shoulder width. This distributes weight behind the hooks rather than over them, removing the forward-loaded weight the sweep requires. Simultaneously drive your chest forward and down slightly to apply shoulder pressure, preventing the bottom player from sitting up into strong posture. The combination of low hips and forward shoulder pressure creates a configuration the sweep cannot overcome.
-
-**Q3**: Your opponent establishes an overhook and begins scooting their hips—what immediate defensive action do you take?
-**A**: Strip or pummel free from the overhook immediately because it traps your posting arm and removes your primary sweep defense. Circle your trapped arm downward and inward toward your hip while driving your shoulder forward into their chest. If you cannot free the arm, shift your base toward the overhook side so your weight sits behind their intended sweep direction, forcing them to sweep into your base rather than away from it.
-
-**Q4**: How should you distribute your weight to prevent being swept while maintaining passing options?
-**A**: Keep roughly sixty percent of your weight on your base behind the hooks and forty percent applied through forward upper body pressure. Your hips should sit behind your knees rather than over them. Weight applied through the upper body should go through your chest and shoulder into their torso, not through your hands which can be redirected by their grips. This distribution makes you heavy to sweep while maintaining enough forward engagement to set up passes.
-
-**Q5**: What is the critical error that makes you most vulnerable to being swept from butterfly guard top?
-**A**: Leaning forward with your center of gravity past your knees and directly over the opponent's hooks. When your weight sits above their hooks, even a small elevation combined with a directional pull creates an overwhelming sweeping force because you have already compromised your base. Fatigue often causes this error unconsciously as practitioners settle forward to rest. The fix is constant awareness of hip position relative to knees and periodic resetting of posture.
-
-
-
-</section>
 
 
 </main>

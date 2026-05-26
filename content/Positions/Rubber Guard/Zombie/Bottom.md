@@ -169,6 +169,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Position Definition
 
+<p class="section-subtitle">What is Zombie (Bottom)?</p>
+
 - Bottom practitioner positioned on their side with hip facing opponent, creating a defensive shell while maintaining mobility through shoulder and hip positioning that allows constant micro-adjustments
 - One leg (typically the bottom leg) entangled with opponent's leg using lockdown-style grip with foot hooking behind opponent's calf and thigh squeeze active, creating fulcrum point for sweeps
 - Near-side arm creating a defensive frame against opponent's chest or shoulder, preventing forward pressure and maintaining space for hip movement and guard recovery attempts
@@ -180,6 +182,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Zombie (Bottom)?</p>
 
 - Guard has been partially compromised but full pass not yet achieved
 - Bottom practitioner able to establish lockdown on one of opponent's legs
@@ -194,6 +198,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Zombie?</p>
+
 - Maintain active lockdown tension to restrict opponent's base and prevent them from completing the pass
 - Use near-side frame to create distance and prevent opponent from driving chest pressure into your upper body
 - Keep constant hip movement to prevent being flattened - staying on your side is crucial for escape options
@@ -207,6 +213,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Zombie (Bottom)?</p>
 
 **If opponent is heavy on your upper body with strong crossface pressure:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
@@ -235,6 +243,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Zombie?</p>
 
 ### 1. Allowing yourself to be flattened onto your back without maintaining side positioning
 
@@ -279,6 +289,8 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Zombie defense?</p>
+
 ### Zombie Position Retention Drill
 
 Partner starts in passing position with you in Zombie with lockdown established. Partner attempts to flatten you and complete the pass while you maintain side positioning and frames. Focus on constant hip movement, lockdown pressure, and defensive frames. Reset after each successful defense or pass completion.
@@ -311,38 +323,6 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution and hip positioning maintains the Zombie Bottom position effectively?
-**A**: Your weight should be primarily on your hip and shoulder, staying on your side rather than flat on your back. The hip closest to the opponent should be angled slightly upward to maintain mobility for shrimping and sweep attempts. Never allow both shoulders to touch the mat simultaneously - this signals you've been flattened and lost the position. Your lockdown leg carries the opponent's weight through the entanglement, which should feel like controlled tension rather than desperate gripping.
-
-**Q2**: What are the essential grips and frames for maintaining Zombie Bottom?
-**A**: The primary frame is your near-side arm, positioned with your forearm against the opponent's chest, shoulder, or neck to prevent them from driving forward and flattening you. Your far-side arm should be fighting for underhook position or controlling the opponent's far arm to prevent crossface establishment. The lockdown grip on their leg - foot hooked behind their calf with thigh squeeze active - is your primary lower body control. Secondary grips include collar ties or wrist control depending on the opponent's positioning.
-
-**Q3**: How do you shut down the crossface pass from Zombie Bottom?
-**A**: When you feel the opponent driving their shoulder toward your face for the crossface, immediately turn your head away and drive your near-side frame into their shoulder or chest. This creates a wedge that prevents them from completing the crossface connection. Simultaneously, maintain active underhook fighting with your far arm and use your lockdown to disrupt their base by stretching their trapped leg. If the crossface starts to establish, immediately shrimp your hips away to create space and prevent them from settling their weight.
-
-**Q4**: What grip priority should you follow when the opponent is attempting to smash pass?
-**A**: First priority is maintaining the lockdown - this is your anchor and primary disruption tool against smash passing. Second priority is your near-side frame, which must stay active against their chest pressure. Third priority is head positioning - turn your face away from their crossface and keep your chin tucked. Fourth priority is far-side underhook fighting. If you must choose, sacrifice the underhook before releasing the lockdown, as the lockdown is what keeps you from being completely smashed.
-
-**Q5**: Your opponent starts to drive heavy shoulder pressure into your face - what adjustment do you make?
-**A**: Turn your head away from the pressure while simultaneously shrimping your hips in the opposite direction. This creates an angle that reduces the effectiveness of their pressure. Simultaneously, activate your lockdown stretch to disrupt their base - when they're heavy on your upper body, their leg is more vulnerable to being stretched and off-balanced. Your near-side frame should be pushing against their shoulder rather than their face. If the pressure is overwhelming, consider a Granby Roll to completely reset the position.
-
-**Q6**: How do you apply lockdown tension effectively without exhausting yourself?
-**A**: Effective lockdown comes from proper positioning rather than muscular effort. Your foot should hook deep behind their calf with your instep, not just your toes. The squeeze comes from your thighs pressing together around their leg, using your adductor muscles which have great endurance. Apply constant moderate tension rather than intermittent maximum tension. When you need to stretch them for a sweep, combine hip extension with the lockdown stretch for maximum leverage. Think of it as controlling their mobility rather than trying to damage their knee.
-
-**Q7**: What do you do when the opponent starts to successfully extract their leg from your lockdown?
-**A**: The moment you feel your lockdown weakening, you have a critical decision point. If they're creating backward pressure to extract, immediately attempt the Old School Sweep while you still have some lockdown tension - their backward movement actually helps your sweep. If they're driving forward while extracting, transition immediately to Deep Half Guard by ducking under them. If neither is available, release the lockdown completely and immediately reframe with your legs, establishing knee shield or butterfly hooks to prevent the pass. Never hold a failing lockdown - transition before it's completely broken.
-
-**Q8**: How do you manage energy when the opponent is patiently pressuring without giving sweep opportunities?
-**A**: Accept that the position may require sustained defense before offensive opportunities appear. Maintain your frames with skeletal structure rather than muscular effort - your elbow should be anchored against your ribs with your forearm creating the frame. Keep your lockdown active but not maximal. Breathe steadily and wait for the opponent to make a committed passing attempt. The moment they shift their weight for a pass, that's when you need to explode into your counter. Patience is key - a controlled Zombie that doesn't waste energy will outlast an opponent who's burning energy trying to pass.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -156,6 +156,8 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ashi Garami Escape?</p>
+
 - Opponent sits up abruptly and posts hands on your hips or knees, establishing frames to create distance for the clearing sequence
 - Opponent begins two-on-one grip fighting on your hands controlling their trapped leg, indicating they are about to start the escape sequence
 - Opponent's hips rotate away from you while their free leg repositions to push on your bottom leg, signaling the clearing phase is beginning
@@ -168,6 +170,8 @@ Effective ashi garami retention demands active grip management, constant hip fol
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ashi Garami Escape?</p>
 
 - Maintain constant grip contact on the trapped leg's heel, ankle, or foot to prevent clean extraction and preserve finishing options
 - Follow opponent's hip rotation with your own hip adjustment to deny the angle they need for the clearing sequence
@@ -182,6 +186,8 @@ Effective ashi garami retention demands active grip management, constant hip fol
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ashi Garami Escape?</p>
 
 ### 1. Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape
 
@@ -219,6 +225,8 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ashi Garami Escape?</p>
+
 ### → [[Positions/Ashi Garami]]
 
 Maintain tight entanglement structure by keeping legs triangled, following opponent's hip rotation with your own adjustments, and immediately recomposing any cleared legs before opponent can complete the full extraction sequence. Time submission attacks for moments of heel exposure during escape attempts.
@@ -234,6 +242,8 @@ Use opponent's escape movements as advancement opportunities by backstep to sadd
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ashi Garami Escape?</p>
 
 ### 1. Maintaining a passive bottom position without actively hunting for grips or positional advancement during escape attempts
 
@@ -263,6 +273,8 @@ Use opponent's escape movements as advancement opportunities by backstep to sadd
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ashi Garami Escape?</p>
+
 **Week 1-2: Retention Fundamentals** - Maintaining entanglement against cooperative escape attempts
 Partner executes the ashi garami escape at slow speed with no resistance. Practice identifying each phase of the escape and maintaining your entanglement structure through grip adjustments, hip following, and leg recomposition. Focus on understanding the escape sequence from the retention perspective.
 
@@ -279,26 +291,6 @@ Positional sparring starting in ashi garami. Bottom player scores for retention,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important moment to attempt recomposition of your ashi garami entanglement during an opponent's escape?
-**A**: The critical recomposition window is immediately after the opponent clears your bottom leg but before they address the top leg. This is a brief transitional moment where their attention and free leg are focused on the bottom leg clearance, leaving a gap to re-triangle your legs and restore the full entanglement structure. Training this as an automatic response is essential because the window lasts less than a second against experienced escape artists.
-
-**Q2**: How can you use an opponent's ashi garami escape attempt as an opportunity for positional advancement?
-**A**: When the opponent rotates their hips away and begins the clearing sequence, they create space between their hips and yours that can be exploited for a backstep. As they rotate away, your outside leg can step behind their trapped leg to achieve inside ashi or saddle position, which provides superior heel exposure and finishing angles. The opponent's escape movement actually facilitates your advancement because they are creating the very space and angle you need to backstep into a dominant entanglement.
-
-**Q3**: Why is it risky to commit fully to a heel hook attempt while the opponent has strong frames established during their escape?
-**A**: Committing both hands to a heel hook grip while the opponent has strong frames means you cannot simultaneously maintain your entanglement structure with your legs and upper body grips. If the heel hook fails because of the opponent's distance and frame strength, you have no fallback position because your entanglement has loosened during the finishing attempt. The opponent can then extract through the weakened structure easily. Better strategy is to maintain entanglement integrity and wait for a moment when frames collapse or heel exposure occurs naturally during the escape sequence.
-
-**Q4**: What is the primary recognition cue that tells you an opponent is about to begin their ashi garami escape sequence?
-**A**: The most reliable early cue is the opponent sitting up abruptly and posting both hands on your hips or knees to establish frames. This posture change signals the beginning of the escape sequence because frames are the prerequisite for creating the hip angle and distance needed for the clearing sequence. Recognizing this cue early allows you to preemptively tighten your grips on the trapped leg, begin hunting for heel control, and prepare to follow their hip rotation before they can establish the angle needed for effective leg clearing.
-
-
-
-</section>
 
 
 </main>

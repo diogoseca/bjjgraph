@@ -224,7 +224,7 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 
 - [[Transitions/Closed Guard to Triangle]] - Chain submission when opponent defends sweep by recovering posture
 
-- [[Submissions/Armbar from Guard]] - Alternative attack when arm is isolated but sweep is defended
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative attack when arm is isolated but sweep is defended
 
 - [[Positions/Closed Guard]] - Starting position for this technique
 
@@ -232,7 +232,7 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 
 - [[Positions/Side Control]] - Alternative ending position if opponent turns away during sweep
 
-- [[Submissions/Kimura from Guard]] - Chain attack when opponent posts hand to defend sweep
+- [[Transitions/Kimura Sweep]] - Chain attack when opponent posts hand to defend sweep
 
 - [[Transitions/Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
 

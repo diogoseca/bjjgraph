@@ -30,7 +30,7 @@
   ],
   "component_skills": [
     {
-      "skill_name": "Weight Distribution Control",
+      "skill_name": "Center of Gravity Control",
       "description": "The ability to strategically distribute body weight across multiple contact points to create maximum forward force while maintaining balance and mobility. This involves understanding how to shift weight dynamically between hands, hips, chest, and shoulders to overcome defensive structures without becoming off-balanced or vulnerable to sweeps."
     },
     {
@@ -64,24 +64,19 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Prerequisite",
-      "description": "Forward Pressure is a specific directional application of the broader Pressure Application concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally."
+      "description": "Forward Pressure is a specific directional application of the broader Pressure concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally."
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
-      "description": "Forward Pressure effectiveness depends directly on proper Weight Distribution principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum."
+      "description": "Forward Pressure effectiveness depends directly on proper Center of Gravity principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum."
     },
     {
-      "principle_name": "Frame Management",
+      "principle_name": "Frames",
       "relationship_type": "Alternative",
-      "description": "While Forward Pressure focuses on offensive advancement, Frame Management represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing."
-    },
-    {
-      "principle_name": "Pressure Passing",
-      "relationship_type": "Extension",
-      "description": "Pressure Passing serves as a specific systematic application of Forward Pressure principles within guard passing contexts, building comprehensive passing systems around forward force application."
+      "description": "While Forward Pressure focuses on offensive advancement, Frames represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing."
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -89,14 +84,9 @@
       "description": "Forward Pressure must be coordinated with Control Point Hierarchy understanding to ensure pressure is applied through the most mechanically advantageous contact points for each positional context."
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
-      "description": "Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals."
-    },
-    {
-      "principle_name": "Pressure Passing Framework",
-      "relationship_type": "Extension",
-      "description": "Pressure Passing Framework represents a comprehensive systematic application of Forward Pressure principles within guard passing contexts, building entire passing methodologies around forward force application."
+      "description": "Effective Forward Pressure requires strong Base to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals."
     },
     {
       "principle_name": "Shoulder Pressure",
@@ -132,7 +122,7 @@
       "how_applied": "Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Modified Scarf Hold",
       "how_applied": "Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities."
     },
     {
@@ -317,22 +307,17 @@
   ],
   "related_content": [
     {
-      "name": "Pressure Passing",
-      "content_type": "Principle",
-      "relationship": "Direct application of Forward Pressure principles specifically within guard passing contexts"
-    },
-    {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Broader conceptual framework that encompasses Forward Pressure as one directional application"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Fundamental skill that enables effective Forward Pressure through proper force distribution"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Defensive counter-concept that Forward Pressure must overcome to achieve advancement"
     },
@@ -357,17 +342,12 @@
       "relationship": "Dominant position maintained and utilized through strategic Forward Pressure application"
     },
     {
-      "name": "Pressure Passing Framework",
-      "content_type": "Principle",
-      "relationship": "Comprehensive passing framework within which Forward Pressure serves as a foundational element"
-    },
-    {
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
       "relationship": "Conceptual framework determining which contact points provide optimal Forward Pressure application"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Prerequisite defensive skill necessary to apply Forward Pressure without creating counter vulnerabilities"
     },

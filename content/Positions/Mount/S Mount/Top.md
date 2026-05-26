@@ -21,7 +21,7 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Americana from S Mount",
+      "text": "From this position, attempt Americana from S Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura from S Mount",
+      "text": "From this position, attempt Kimura from S Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
@@ -173,6 +173,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Position Definition
 
+<p class="section-subtitle">What is S Mount (Top)?</p>
+
 - Top practitioner sits perpendicular to opponent's torso with hips positioned tight against their near shoulder, creating an S-shaped body configuration. The near leg extends over opponent's head with foot planted firmly on mat beyond their far shoulder, while the far leg crosses over their torso at chest level. This perpendicular positioning isolates opponent's near arm between the legs and creates optimal leverage for armbar attacks while maintaining structural control that prevents escape or reversal.
 - Opponent's near arm is isolated and controlled between top practitioner's legs, typically with the arm extended across the top person's body or trapped in armbar position. The top practitioner's hands grip the opponent's wrist and control the arm's position, preventing them from bending their elbow or pulling the arm back to safety. The arm isolation is the primary offensive element of S Mount, creating immediate submission threat while limiting the opponent's defensive options.
 - Top practitioner's weight is distributed through their posted leg (over the head) and controlling leg (across torso), creating a stable base that is difficult to disrupt despite the perpendicular body angle. Their upper body leans toward the isolated arm, positioning center of gravity to maximize control while preparing for submission finish. The hip-to-shoulder connection must remain tight throughout position maintenance, as any space between the hip and shoulder allows opponent to begin escape sequence.
@@ -183,6 +185,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing S Mount (Top)?</p>
 
 - You have achieved mount position and established dominant control over opponent
 - Opponent's near arm is exposed or vulnerable to isolation through their defensive reactions
@@ -196,6 +200,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from S Mount?</p>
 
 - S Mount is an attacking position - move to submission immediately or return to standard mount
 - Hip-to-shoulder connection is critical - any space allows opponent to begin escape sequence
@@ -211,6 +217,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from S Mount (Top)?</p>
 
 **If opponent's arm is isolated and extended with proper control established:**
 - Execute **[[Complete armbar immediately/Attacker|Complete armbar immediately]]** → [[Positions/Armbar Control]] (Probability: 85%)
@@ -246,6 +254,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from S Mount?</p>
 
 ### 1. Transitioning to S Mount too early before establishing solid mount control and arm isolation
 
@@ -290,6 +300,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train S Mount attacks?</p>
+
 ### Mount to S Mount Transition Flow
 
 Start in mount, partner offers their arm, smoothly transition to S Mount control. Focus on maintaining hip pressure throughout transition, controlling the arm continuously, and establishing solid base with legs. Reset to mount and repeat 10 times per side, gradually increasing speed as technique improves.
@@ -329,38 +341,6 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?
-**A**: Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced.
-
-**Q2**: What are the essential grips and leg positions for maintaining S Mount control?
-**A**: Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space.
-
-**Q3**: How do you shut down the primary escape where opponent tries to pull their arm back to their body?
-**A**: Maintain constant two-on-one control of their wrist, keeping their arm extended across your centerline. Drive your hip weight into their shoulder to pin it to the mat. If they start pulling, immediately transition to the armbar finish or switch to a mounted triangle by threading your leg under their chin as they expose the neck.
-
-**Q4**: What grip priorities should you maintain from S Mount top when the opponent is actively defending?
-**A**: Primary grip is wrist control on the isolated arm - never release this without transitioning to another control. Secondary grip pins their far arm or posts on the mat for base. If attacking armbar, add elbow control with your second hand. The wrist grip is non-negotiable; losing it typically means losing the position or submission opportunity.
-
-**Q5**: How should you apply pressure from S Mount to drain opponent's energy while maintaining control?
-**A**: Drive your hip bone into their shoulder joint, creating constant grinding pressure. Your weight should flow through this hip connection, not through your hands. The perpendicular body angle allows you to apply focused pressure on their shoulder while your legs control their movement. This pressure forces them to carry your weight through their trapped arm, fatiguing them rapidly.
-
-**Q6**: Your opponent creates a small hip escape and begins to recover space - what immediate adjustment prevents full escape?
-**A**: Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder connection. Do not chase with your upper body first - lead with hip pressure. If space opens, either complete the armbar immediately before they recover, or abandon S Mount and drop back to standard mount to reset. The worst option is staying in compromised S Mount with space.
-
-**Q7**: How do you manage energy expenditure when opponent is actively defending from S Mount bottom?
-**A**: Use structural control rather than muscular effort - let your skeletal frame and body weight do the work through proper positioning. Avoid death-gripping the wrist; instead, use body position to make escape mechanically difficult. If they're defending successfully, return to mount to rest rather than burning energy forcing a low-percentage finish. Patient pressure eventually creates openings.
-
-**Q8**: What should you do immediately after a partial escape where opponent frees their arm but you still have positional control?
-**A**: Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

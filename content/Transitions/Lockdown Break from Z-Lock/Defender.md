@@ -148,6 +148,8 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown Break from Z-Lock?</p>
+
 - Top player increases hip compression pressure onto your trapped leg and begins straightening their knee, indicating the start of a progressive extraction attempt
 - Top player's free leg moves to hook behind or step over your butterfly hook leg, signaling they are prioritizing the elimination of your elevation threat
 - Top player shifts crossface pressure deeper and pins your hip while simultaneously driving their trapped leg toward extension in a coordinated breaking sequence
@@ -159,6 +161,8 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown Break from Z-Lock?</p>
 
 - Recognize break attempts early through tactile cues like increased hip pressure, leg straightening, and changes in upper body weight distribution
 - Maintain active tension in both the lockdown hook and butterfly hook rather than holding static positions that are easier to systematically strip
@@ -173,6 +177,8 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown Break from Z-Lock?</p>
 
 ### 1. Immediately re-establish lockdown hooks by pulling heels together and re-securing the figure-four on their ankle before extraction completes
 
@@ -203,6 +209,8 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown Break from Z-Lock?</p>
+
 ### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Maintain active hip angle and immediately re-grip any stripped hooks before the top player can consolidate standard half guard. Keep upper body control active through underhook or collar grip to complement leg retention and prevent the pressure angles needed for successful extraction.
@@ -218,6 +226,8 @@ Time a counter-sweep when the top player commits weight to the leg extraction se
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown Break from Z-Lock?</p>
 
 ### 1. Holding lockdown hooks in a static death grip without actively adjusting angles and tension to match the top player's extraction pressure
 
@@ -247,6 +257,8 @@ Time a counter-sweep when the top player commits weight to the leg extraction se
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown Break from Z-Lock?</p>
+
 **Phase 1: Recognition** - Identifying break attempts by type and timing
 Drill with partner attempting various lockdown break entries (backstep, pressure, pummel) while you identify the break type and timing window without actively resisting. Build pattern recognition for each approach and its characteristic weight shifts.
 
@@ -263,26 +275,6 @@ Full positional sparring from Z-Lock bottom against partners who actively attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that the top player is beginning a lockdown break attempt?
-**A**: The earliest cue is increased compression pressure through their hips onto your trapped leg, combined with a subtle straightening of their knee. You may also feel them shift their weight distribution as they prepare to address your butterfly hook. This initial weight shift creates your best window for counter-attack because the top player has committed to the break but hasn't yet begun the extraction sequence.
-
-**Q2**: Why is immediate re-gripping more effective than waiting for the hooks to be fully stripped before attempting recovery?
-**A**: Re-gripping while the hooks still have partial contact requires significantly less energy and movement than recovering from scratch after full extraction. When hooks are partially stripped, you only need to tighten the configuration rather than re-establish it against an opponent actively preventing re-entry. Additionally, the moment of partial strip is when the top player is most focused on completing the extraction, making them less attentive to your upper body counter-attacks.
-
-**Q3**: How does maintaining your underhook assist in defending the lockdown break?
-**A**: The underhook prevents the top player from driving the crossface pressure angle they need for effective extraction, as your underhook forces them to address upper body control simultaneously with leg extraction. It also provides the lever you need for sweep counters if the top player overcommits to the break. Without the underhook, the top player can establish uncontested shoulder pressure that flattens you and makes both leg retention and sweeping significantly more difficult.
-
-**Q4**: When the top player successfully strips your butterfly hook, what is your immediate priority?
-**A**: Your immediate priority is to re-insert the butterfly hook before the top player can shift focus to the lockdown ankle hook. Without the butterfly hook, you lose your primary sweep threat and the top player can focus entirely on the lockdown strip without fear of being elevated. Hip escape to create the space needed for hook re-insertion, and use your underhook to prevent the top player from pinning your hook leg flat against the mat.
-
-
-
-</section>
 
 
 </main>

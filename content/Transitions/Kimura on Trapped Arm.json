@@ -14,7 +14,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Kimura",
       "probability": 55,
       "result": "success"
     },
@@ -52,7 +52,7 @@
       "relationship": "Follow-up option - use Kimura grip to advance to crucifix"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Alternative attack - targets free arm when Kimura is defended"
     },
     {
@@ -144,7 +144,7 @@
         "counter": "Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle",
         "effectiveness": "Medium",
         "your_response": "Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Kimura"
       },
       {
         "counter": "Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement",
@@ -213,7 +213,7 @@
         "description": "Integrate technique into positional sparring starting from back control. Focus on recognizing Gift Wrap opportunities and successfully transitioning to Kimura finish. Develop timing for when to commit to submission versus when to use grip for positional advancement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to transition from Gift Wrap to Kimura grip?",
         "answer": "The optimal window is when your Gift Wrap control is fully consolidated and the opponent is momentarily passive or focused on defending the neck from choke threats. Transitioning during their active escape attempts risks losing the arm trap. Wait until the trapped arm is high across their chest with stable elbow bend, then smoothly thread the figure-four before they redirect defensive effort toward the arm."
@@ -332,7 +332,7 @@
         "correction": "Bridge and rotate toward the attacker to turn and face them, not away. Turning toward them disrupts the back control alignment and can break the Gift Wrap arm trap. Bridging away only helps the attacker."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the highest-percentage defensive window against the Kimura on Trapped Arm?",
         "answer": "The highest-percentage window is during the grip transition from Gift Wrap to Kimura figure-four. When the attacker releases their free arm from seatbelt or neck control to reach over your trapped arm, their overall control momentarily weakens. This one-to-two-second window allows you to straighten the trapped arm, explosively bridge to rotate, or begin grip defense before the closed loop is fully established."

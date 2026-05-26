@@ -1,0 +1,452 @@
+{
+  "name": "Kneebar from Straight Ankle Lock Control",
+  "description": "Master the kneebar from straight ankle lock control in BJJ. Complete guide covering setup mechanics, finishing details, defensive counters, and safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "joint-lock",
+    "kneebar",
+    "ashi-garami",
+    "leg-entanglement",
+    "hub",
+    "finishing-guide",
+    "straight-ankle-lock-control"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
+  "starting_position": "Straight Ankle Lock Control",
+  "from_position": "Straight Ankle Lock Control/Bottom",
+  "success_rate": 60,
+  "overview": "The kneebar from straight ankle lock control represents one of the most important chain submissions in modern leg lock systems. When an opponent defends the straight ankle lock by straightening their leg, posting up, or attempting to create distance, they inadvertently expose their knee joint to hyperextension attack. This transition exploits a fundamental defensive dilemma: the movements that protect the ankle often compromise knee safety, creating a reliable two-attack sequence that forces the defender to address multiple threats simultaneously.\n\nThe mechanics of this transition require the attacker to shift their grip focus from the ankle to the thigh while repositioning their hips so the opponent's knee sits directly over the hip bone. The attacker's legs must transition from ankle-controlling configuration to a thigh-trapping triangle that prevents the opponent from pulling their leg free. This positional shift demands practiced fluidity, as any hesitation during the grip change creates an escape window that alert defenders will exploit.\n\nFrom a strategic perspective, the kneebar from straight ankle lock control transforms a moderate-threat position into a high-percentage finishing sequence. The initial ankle lock attempt forces a committed defensive response, and the kneebar transition punishes that defense. This creates a lose-lose dynamic where the defender must choose between accepting ankle lock pressure or making the movements that expose the kneebar. Advanced practitioners layer additional threats including heel hooks and calf slicers from the same control position, building a comprehensive leg attack system rooted in this fundamental transition.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Posterior cruciate ligament (PCL) tear",
+        "severity": "High",
+        "recovery_time": "6-12 months with surgical intervention"
+      },
+      {
+        "injury": "Medial collateral ligament (MCL) strain or tear",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks for grade 1-2, 3-6 months for grade 3"
+      },
+      {
+        "injury": "Joint capsule damage",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks"
+      },
+      {
+        "injury": "Meniscus tear (medial or lateral)",
+        "severity": "High",
+        "recovery_time": "3-6 months, may require surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training",
+    "tap_signals": [
+      "Verbal tap or verbal signal",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on opponent or mat",
+      "Any distress vocalization or signal"
+    ],
+    "release_protocol": [
+      "Immediately stop all hip extension the moment tap is received",
+      "Release hip pressure by dropping hips away from opponent's leg",
+      "Maintain positional control while releasing the leg slowly",
+      "Allow opponent to extract their leg at their own pace",
+      "Check with partner verbally after release"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission - always apply smooth, progressive pressure",
+      "Never use competition speed or intensity in training rolls",
+      "Always communicate with training partners about leg lock experience level",
+      "Never continue pressure after any tap signal",
+      "Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission"
+    ]
+  },
+  "from_positions": [
+    "Straight Ankle Lock Control",
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami"
+  ],
+  "related_submissions": [
+    "Achilles Lock",
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Calf Slicer",
+    "Flying Kneebar",
+    "Estima Lock"
+  ],
+  "related_content": [
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Starting position for this kneebar transition"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position established upon successful entry"
+    },
+    {
+      "name": "Achilles Lock",
+      "relationship": "Primary submission threat that sets up this transition"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement accessible from same control"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Symmetrical entanglement that may result from scrambles"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Governing principle for understanding leg attack chains"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Straight Ankle Lock Control/Bottom",
+      "probability": 26,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 14,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Leg Straightening Counter Kneebar",
+      "description": "The highest-percentage entry occurs when the defender straightens their leg to defend the ankle lock. As the leg extends, release the ankle grip and immediately hug the thigh, sliding your hips underneath the knee joint. The defender's own defensive movement provides the mechanical setup.",
+      "when_to_use": "When opponent extends their leg forcefully to strip your ankle grip or relieve Achilles pressure"
+    },
+    {
+      "variation_name": "Stand-Up Counter Kneebar",
+      "description": "When the defender attempts to stand and create vertical pressure to escape ankle lock control, use their upward momentum against them. As they post their free foot and drive upward, redirect their trapped leg across your hip by pulling the knee toward your centerline while scooting your hips underneath.",
+      "when_to_use": "When opponent tries to stand up or posture out of the ankle lock position"
+    },
+    {
+      "variation_name": "Hip Rotation Entry",
+      "description": "When the defender rotates their hip toward you attempting to come on top and pass, use the rotation to swing their leg across your body. Thread your outside leg over their thigh as they rotate, catching the kneebar position as their own momentum carries their knee past your hip line.",
+      "when_to_use": "When opponent rotates toward you to stack or pass rather than pulling away"
+    }
+  ],
+  "attacker": {
+    "name": "from Straight Ankle Lock Control Attacker",
+    "description": "Learn to execute the kneebar from straight ankle lock control. Step-by-step guide covering grip transitions, hip mechanics, and finishing details for this leg lock chain.",
+    "overview": "Attacking with the kneebar from straight ankle lock control requires reading defensive reactions and converting them into knee hyperextension opportunities. The attacker must maintain constant connection to the opponent's leg throughout the grip transition from ankle to thigh, because any disconnection allows the defender to retract their leg and escape. The key tactical advantage is that the ankle lock threat forces a committed defensive response, and the kneebar punishes the most common defensive movements. This makes the combination a reliable two-attack chain where the first threat creates the opening for the second. Successful execution demands smooth hip repositioning, tight thigh control, and patient progressive finishing pressure that prevents the defender from spinning free or straightening the attacking line.",
+    "key_principles": [
+      "Read the defensive reaction before committing to the kneebar transition - the opponent's movement dictates your entry angle",
+      "Maintain constant leg-to-leg contact throughout the transition to prevent the opponent from retracting their leg",
+      "Position the opponent's knee directly over your hip bone before applying any extension pressure",
+      "Triangle your legs tightly around the opponent's thigh to prevent them from pulling free or rotating out",
+      "Finish with hip extension and back arch, not arm pulling - your hips generate the breaking force",
+      "Control the foot to prevent the opponent from rotating their knee out of the hyperextension line"
+    ],
+    "setup_requirements": [
+      "Established straight ankle lock control with perpendicular hip positioning and secure leg configuration",
+      "Opponent initiates defensive movement that exposes the knee - leg straightening, standing attempt, or hip rotation toward you",
+      "Sufficient grip connection to the opponent's leg to maintain control during the transition from ankle to thigh",
+      "Your legs positioned to transition from ankle control wrap to thigh-trapping triangle without losing contact",
+      "Clear hip line to slide underneath the opponent's knee joint for proper finishing alignment"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the transition trigger",
+        "description": "Identify the opponent's defensive reaction that opens the kneebar. The primary trigger is leg straightening to defend the ankle lock, but standing attempts and hip rotation toward you also create viable entries. Commit to the transition only when you see a clear defensive movement, not preemptively.",
+        "timing": "0-1 seconds after defensive movement begins"
+      },
+      {
+        "step_number": 2,
+        "action": "Release ankle grip and secure the thigh",
+        "description": "Smoothly release the ankle lock grip and immediately wrap both arms around the opponent's thigh just above the knee. Hug the thigh tight to your chest with a gable grip or butterfly grip, ensuring no space exists between your chest and their leg. This grip transition must be fluid with zero hesitation.",
+        "timing": "1-2 seconds, must overlap with hip repositioning"
+      },
+      {
+        "step_number": 3,
+        "action": "Reposition hips under the knee",
+        "description": "Scoot your hips so the opponent's knee cap sits directly on top of your hip bone. Your hip acts as the fulcrum for the hyperextension lever. If the knee is too far above or below your hip line, the submission loses mechanical efficiency. Use your free leg to push off the mat and drive your hips into position.",
+        "timing": "Simultaneous with step 2, 1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Establish leg triangle around the thigh",
+        "description": "Cross your legs over the opponent's trapped thigh, creating a figure-four or triangle configuration that pins their leg against your body. Your inside leg hooks behind their thigh while your outside leg crosses over your inside ankle. This prevents them from pulling their leg free or rotating their knee out of the submission line.",
+        "timing": "1-2 seconds after hip positioning"
+      },
+      {
+        "step_number": 5,
+        "action": "Secure the foot and prevent rotation",
+        "description": "Trap the opponent's foot under your armpit or pin it against your shoulder. The foot must be controlled to prevent the opponent from rotating their knee medially or laterally, which would allow them to escape the hyperextension angle. Squeeze your elbow tight against your ribs to lock the foot position in place.",
+        "timing": "0.5-1 second, immediate after leg triangle"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply progressive hip extension",
+        "description": "Bridge your hips upward while pulling the thigh tight to your chest and arching your back. The force comes from hip extension driving the knee over your hip bone while your arms prevent the thigh from sliding away. Apply pressure slowly and progressively in training, allowing your partner time to tap before reaching dangerous hyperextension angles.",
+        "timing": "2-4 seconds of progressive pressure application"
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust finishing angle if needed",
+        "description": "If the opponent resists initial pressure by tightening their hamstring or attempting to bend the knee, micro-adjust your hip angle by turning slightly toward their centerline. This changes the vector of force and overcomes muscular resistance. Maintain steady progressive pressure throughout any adjustments rather than releasing and reapplying.",
+        "timing": "Ongoing adjustments during finishing pressure"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent bends knee aggressively and pulls heel toward their glute to prevent extension",
+        "effectiveness": "High",
+        "your_response": "Maintain thigh control and wait for the leg to fatigue, or switch back to ankle lock attacks on the now-bent leg. You can also insert your forearm behind their knee to prevent full flexion.",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom"
+      },
+      {
+        "counter": "Opponent rotates their body toward you and attempts to come on top to pass your legs",
+        "effectiveness": "Medium",
+        "your_response": "Use your leg triangle to control their rotation speed and adjust your hip angle to maintain the knee over your hip line. Their rotation often tightens the kneebar if you maintain proper thigh control.",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom"
+      },
+      {
+        "counter": "Opponent pushes your hips away with their free leg to create distance and extract the trapped leg",
+        "effectiveness": "Medium",
+        "your_response": "Pinch your knees together tightly and pull their thigh into your chest to counteract the pushing force. If they create significant distance, follow their movement by scooting your hips to maintain alignment.",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom"
+      },
+      {
+        "counter": "Opponent stands up explosively and attempts to stack or slam to break the control",
+        "effectiveness": "Low",
+        "your_response": "Hang your weight from the trapped leg while maintaining the thigh grip. Their standing position actually improves your leverage for the kneebar if you keep your hips attached to the knee. Gravity assists your finishing pressure.",
+        "targets_outcome": "Closed Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing ankle control before securing the thigh grip, creating a gap where the opponent retracts their leg",
+        "consequence": "Opponent pulls their leg free during the transition and escapes to standing or recovers guard, wasting the submission attempt entirely",
+        "correction": "Overlap the grip change by beginning to hug the thigh before fully releasing the ankle. Maintain leg-to-leg contact throughout the transition so the opponent never has a free leg."
+      },
+      {
+        "error": "Positioning the opponent's knee too high or too low on your body instead of directly over the hip bone",
+        "consequence": "The kneebar lacks mechanical efficiency because the fulcrum point is misaligned. The opponent can resist with hamstring strength or simply tolerate the pressure without tapping.",
+        "correction": "Scoot your hips deliberately until you feel the knee cap sitting directly on your hip bone. Use your free leg to push off the mat and drive your hips into the correct position before applying any extension."
+      },
+      {
+        "error": "Attempting to finish with arm strength by pulling the leg rather than using hip extension",
+        "consequence": "Arms fatigue quickly and generate insufficient force to overcome hamstring resistance. The opponent outlasts the submission attempt and eventually escapes when your grip fails.",
+        "correction": "Drive the finish through hip extension and back arch while your arms simply maintain the thigh-to-chest connection. Your hips generate far more force than your arms and can sustain pressure indefinitely."
+      },
+      {
+        "error": "Failing to control the opponent's foot, allowing them to rotate their knee out of the hyperextension line",
+        "consequence": "Opponent rotates their knee medially and the kneebar pressure shifts to a non-threatening angle, allowing them to work free from the position without tapping",
+        "correction": "Trap the foot under your armpit or pin it against your shoulder immediately after establishing the leg triangle. Squeeze your elbow against your ribs to lock the foot position and prevent any rotation."
+      },
+      {
+        "error": "Transitioning to the kneebar preemptively before the opponent commits to a defensive movement",
+        "consequence": "The opponent has not compromised their knee safety through defensive movement, so they can defend both the ankle lock and kneebar simultaneously from a neutral position",
+        "correction": "Wait for a clear defensive trigger - leg straightening, standing attempt, or rotation toward you - before committing to the transition. The opponent's defensive movement is what creates the opening."
+      },
+      {
+        "error": "Neglecting to establish the leg triangle around the thigh before applying finishing pressure",
+        "consequence": "Opponent pulls their thigh away from your chest during hip extension, escaping the kneebar before meaningful pressure is generated on the knee joint",
+        "correction": "Always cross your legs over the opponent's thigh in a figure-four configuration before beginning any hip extension. The leg triangle is what pins the thigh to your body and makes the finish possible."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Transition Mechanics",
+        "focus": "Grip change and hip repositioning",
+        "description": "Practice the ankle-to-thigh grip transition in isolation with a compliant partner. Focus on maintaining leg contact throughout, correct hip positioning under the knee, and establishing the leg triangle. No finishing pressure. 50+ repetitions per session until the movement is automatic."
+      },
+      {
+        "phase": "Phase 2: Chain Drilling",
+        "focus": "Ankle lock to kneebar flow",
+        "description": "Start from established straight ankle lock control, apply moderate ankle lock pressure, and have your partner perform each defensive trigger (leg straighten, stand up, rotate). Practice recognizing each trigger and flowing into the kneebar entry. Alternate triggers randomly."
+      },
+      {
+        "phase": "Phase 3: Positional Sparring",
+        "focus": "Live entries against progressive resistance",
+        "description": "Begin from straight ankle lock control with your partner defending at 50-70% intensity. Work the full chain from ankle lock threat through kneebar transition and controlled finish. Partner provides realistic defensive reactions while allowing you to practice reading and responding."
+      },
+      {
+        "phase": "Phase 4: Full Integration",
+        "focus": "Competition application in live rolling",
+        "description": "Incorporate the ankle lock to kneebar chain into live rolling. Focus on creating the straight ankle lock control entries and executing the full sequence against fully resisting opponents. Track success rate and identify which defensive triggers you exploit most effectively."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the kneebar from straight ankle lock control primarily attack?",
+        "answer": "The kneebar primarily attacks the posterior cruciate ligament and medial collateral ligament through knee hyperextension, with secondary stress on the joint capsule and menisci. The hyperextension force is generated by your hip extension driving the knee beyond its natural range of motion over the fulcrum of your hip bone, placing dangerous stress on the posterior stabilizing structures of the knee.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive reaction from your opponent creates the highest-percentage kneebar entry from ankle lock control?",
+        "answer": "The opponent straightening their leg to defend the ankle lock creates the highest-percentage entry because the extended leg provides an optimal lever arm for the kneebar while simultaneously removing the knee flexion that protects against hyperextension. Their own defensive movement eliminates their primary defense against the follow-up attack, making this a true dilemma-based chain.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must your hip bone be positioned directly under the opponent's knee for an effective finish?",
+        "answer": "Your hip bone serves as the fulcrum for the hyperextension lever. If the knee sits above or below your hip line, the extension force disperses across soft tissue instead of concentrating on the joint. Proper hip alignment creates a mechanical advantage where small hip movements generate large forces at the knee, while misalignment allows the opponent to resist through muscular strength alone.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts bending their knee aggressively to prevent the kneebar extension - what adjustment prevents this escape?",
+        "answer": "Insert your forearm behind their knee crease to prevent full flexion while maintaining the thigh-to-chest grip. If they persist in bending, switch back to attacking the ankle since the bent knee actually improves your ankle lock leverage. The ability to flow between kneebar and ankle lock based on knee angle is what makes this chain so effective - they cannot defend both simultaneously.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct finishing mechanic for the kneebar and why should you never rely on arm strength?",
+        "answer": "The finish comes from hip extension driving upward while arching your back, with your arms simply maintaining the thigh-to-chest connection. Hip extension generates far more sustainable force than arm pulling and can overcome hamstring resistance. Arms fatigue within seconds under load while hip drive can be maintained indefinitely, making arm-based finishing attempts both weak and unsustainable.",
+        "safety_critical": false
+      },
+      {
+        "question": "What role does foot control play in preventing the opponent from escaping the kneebar?",
+        "answer": "Controlling the foot under your armpit prevents the opponent from rotating their knee medially or laterally out of the hyperextension line. Without foot control, the opponent can spin their knee to an angle where the extension pressure becomes non-threatening, escaping the submission without addressing the thigh grip. The foot is the end of the lever that determines the direction of force on the knee.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the critical safety protocols when applying the kneebar from straight ankle lock control in training?",
+        "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission. Release immediately upon any tap signal including verbal, physical, or distress vocalization. After release, drop hips away from the leg and allow your partner to extract at their own pace. Always communicate about leg lock experience levels before rolling and never train kneebars with injured partners without explicit permission.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you determine the point of no escape when finishing the kneebar from this position?",
+        "answer": "The point of no escape occurs when three conditions are met simultaneously: the leg triangle is locked around the thigh preventing extraction, the foot is controlled preventing knee rotation, and your hips are positioned directly under the knee with extension pressure initiated. Once all three controls are established and hip extension begins, the opponent cannot escape through any single defensive movement and must tap or risk ligament damage.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Straight Ankle Lock Control Defender",
+    "description": "Defend the kneebar from straight ankle lock control. Recognition cues, escape sequences, and counter strategies to survive this dangerous leg lock transition.",
+    "overview": "Defending the kneebar from straight ankle lock control requires recognizing the transition before it completes and executing immediate preventive action. The defender's primary challenge is that they are already in a compromised position defending the ankle lock when the kneebar threat emerges, creating a layered problem where addressing one threat may expose the other. Successful defense depends on early recognition of the grip change from ankle to thigh, immediate knee flexion to prevent hyperextension, and intelligent hip rotation that denies the attacker proper finishing alignment. The window for effective defense narrows rapidly once the attacker establishes the leg triangle around the thigh, making proactive prevention far more reliable than reactive escape.",
+    "key_principles": [
+      "Recognize the grip transition from ankle to thigh immediately - the earlier you detect the switch, the more defensive options remain available",
+      "Maintain knee flexion as the primary structural defense - a bent knee cannot be hyperextended regardless of the attacker's hip position",
+      "Rotate your hip in the direction that takes your knee off the attacker's hip line, not the direction they want you to go",
+      "Address the leg triangle around your thigh before it locks - once both legs cross over your thigh, extraction becomes exponentially harder",
+      "Use your free leg actively for pushing, posting, and creating distance rather than leaving it passive on the mat",
+      "Tap early when caught - kneebar injuries occur suddenly and the damage threshold arrives before pain fully registers"
+    ],
+    "recognition_cues": [
+      "The attacker releases their grip on your ankle and immediately reaches for your thigh or knee area",
+      "You feel the attacker's hips scooting underneath your knee as they reposition for the kneebar fulcrum",
+      "The attacker's legs begin transitioning from wrapping your lower leg to crossing over your thigh",
+      "Your leg is being pulled tight against the attacker's chest with the knee pointed toward their hips"
+    ],
+    "defensive_options": [
+      {
+        "action": "Aggressive knee flexion - immediately bend the trapped knee and pull your heel toward your glute",
+        "when_to_use": "The moment you recognize the attacker transitioning from ankle grip to thigh grip, before they establish the leg triangle",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom",
+        "if_successful": "Prevents knee hyperextension and may allow you to pull your leg free from the incomplete thigh grip",
+        "risk": "Bending the knee while the attacker still has ankle control may tighten the original ankle lock"
+      },
+      {
+        "action": "Hip rotation toward the attacker - turn your body to face them and drive your knee across their body",
+        "when_to_use": "When the attacker has secured the thigh but has not yet established the leg triangle or controlled your foot",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom",
+        "if_successful": "Takes your knee off the attacker's hip line and may allow you to come on top to pass their legs",
+        "risk": "Rotation may expose your leg to different submission angles if the attacker adjusts"
+      },
+      {
+        "action": "Free leg push and standing escape - use your free leg to push the attacker's hips away while standing up",
+        "when_to_use": "When the attacker's leg triangle is incomplete and their hip connection to your knee is loose",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Creates enough distance to extract your leg entirely and recover to standing or top position",
+        "risk": "Standing with a partially trapped leg can result in the attacker using your upward momentum against you"
+      },
+      {
+        "action": "Counter-grip the attacker's far leg and threaten your own leg entanglement",
+        "when_to_use": "When extraction attempts have failed but the attacker has not yet applied finishing pressure",
+        "targets_outcome": "Straight Ankle Lock Control/Bottom",
+        "if_successful": "Forces the attacker to address your counter-threat, potentially releasing kneebar pressure to defend",
+        "risk": "Engaging in mutual leg entanglement while one of your legs is already trapped can deepen your positional disadvantage"
+      }
+    ],
+    "escape_paths": [
+      "Knee flexion to prevent hyperextension followed by leg extraction when the attacker's grip loosens during repositioning",
+      "Hip rotation toward the attacker to take the knee off the fulcrum line, then come on top and pass the legs",
+      "Free leg push to create distance and stand up, extracting the trapped leg as the attacker's control breaks down"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Use the free leg push and standing escape to create enough distance to extract your trapped leg completely, then recover to a top position where you can establish closed guard or begin passing"
+      },
+      {
+        "outcome": "Straight Ankle Lock Control/Bottom",
+        "how": "Defend the kneebar through aggressive knee flexion and hip rotation, forcing the attacker to abandon the kneebar attempt and return to the ankle lock position where you resume your original escape sequence"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the leg to try to pull it free from the attacker's thigh grip",
+        "consequence": "A straight leg is exactly what the attacker needs to finish the kneebar - the extension provides the lever arm for hyperextension and removes the primary structural defense of knee flexion",
+        "correction": "Keep the knee aggressively bent throughout all escape attempts. Pull the heel toward your glute and maintain flexion even while rotating or attempting to create distance."
+      },
+      {
+        "error": "Waiting too long to defend because you are still focused on the ankle lock threat",
+        "consequence": "The attacker completes the grip transition, establishes the leg triangle, and controls the foot before you begin defending the kneebar, leaving you in a nearly inescapable position",
+        "correction": "Train yourself to recognize the grip change immediately. The moment the attacker releases your ankle and reaches for your thigh, switch your defensive focus entirely to kneebar prevention."
+      },
+      {
+        "error": "Rotating your hip in the direction the attacker wants, inadvertently tightening the kneebar",
+        "consequence": "Your rotation brings your knee deeper over the attacker's hip bone and may actually complete their finishing alignment for them, making the submission tighter rather than escaping it",
+        "correction": "Analyze the attacker's body position before rotating. Rotate toward them to take the knee off the hip line, not away from them where the kneebar typically tightens."
+      },
+      {
+        "error": "Ignoring the leg triangle and only fighting the arm grip around the thigh",
+        "consequence": "Even if you break the arm grip momentarily, the leg triangle keeps your thigh pinned to the attacker's body and they quickly re-establish their arms while you remain trapped",
+        "correction": "Prioritize preventing or breaking the leg triangle. Use your free leg to kick down on the attacker's top crossing leg before it locks. Address leg control as the primary retention mechanism."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is transitioning from ankle lock to kneebar?",
+        "answer": "The earliest cue is feeling the attacker's grip release from your ankle followed by their hands reaching toward your thigh or knee area. Simultaneously, you will feel their hips scooting underneath your knee as they reposition for the kneebar fulcrum. Recognizing this grip change within the first second gives you the best window for successful defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to the kneebar from straight ankle lock control to prevent injury?",
+        "answer": "Tap immediately when you feel significant extension pressure on your knee and your primary defenses (knee flexion, hip rotation, leg triangle prevention) have failed. Kneebar injuries occur suddenly because the ligaments have a sharp failure threshold - the transition from uncomfortable to catastrophic damage happens faster than your pain response can warn you. When in doubt, always tap early and reset rather than risk a ligament tear.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is maintaining knee flexion the most important structural defense against the kneebar?",
+        "answer": "A bent knee physically cannot be hyperextended regardless of how much hip extension the attacker applies, because the flexed hamstring absorbs the force and the joint geometry prevents the lever arm from forming. Knee flexion removes the mechanical advantage the attacker relies on. As long as you maintain the bend, the attacker must either change technique or work to straighten your leg before they can finish, buying you time for other defensive actions.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive options are available when the attacker has fully established the kneebar position with leg triangle and foot control?",
+        "answer": "Once the position is fully established, your options narrow significantly. Maintain aggressive knee flexion as your primary defense while attempting to create rotation by turning your body toward the attacker. Use your free leg to push on their hips or hook behind their body for leverage. If the attacker begins applying progressive extension and your knee starts straightening despite your resistance, tap immediately rather than risking ligament damage trying to escape a fully locked position.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying the transition cues",
+        "description": "Partner alternates between maintaining the ankle lock and transitioning to the kneebar. Defender practices identifying the grip change and hip repositioning as early as possible. Call out the transition verbally when recognized. No finishing pressure applied."
+      },
+      {
+        "phase": "Phase 2: Escape Mechanics",
+        "focus": "Technical defense execution",
+        "description": "From established kneebar position at 30-50% control, practice each defensive response: knee flexion, hip rotation, free leg push, and leg triangle prevention. Focus on correct mechanics and sequence. Partner provides moderate resistance but allows successful escapes."
+      },
+      {
+        "phase": "Phase 3: Live Defense",
+        "focus": "Full resistance defensive scenarios",
+        "description": "Start from straight ankle lock control with partner attacking at 70-100% intensity. Practice the full defensive sequence from ankle lock defense through kneebar recognition and escape. Include tapping practice to calibrate safety thresholds under realistic pressure."
+      }
+    ]
+  }
+}

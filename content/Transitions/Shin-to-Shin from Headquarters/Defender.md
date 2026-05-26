@@ -154,6 +154,8 @@ As the defender (top player in headquarters), you must prevent the bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shin-to-Shin from Headquarters?</p>
+
 - Bottom player's free leg begins moving toward your posting shin rather than maintaining defensive framing position
 - Bottom player executes a hip escape angling their body toward your posting leg side, creating the diagonal angle needed for shin insertion
 - Bottom player establishes a grip on your posting-side sleeve, pant leg, or ankle — this grip often precedes the insertion attempt
@@ -166,6 +168,8 @@ As the defender (top player in headquarters), you must prevent the bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shin-to-Shin from Headquarters?</p>
 
 - Maintain heavy, consistent pressure on the controlled leg to limit the bottom player's hip mobility and angle creation needed for insertion
 - Keep your posting leg loaded with weight and positioned wide enough to resist shin insertion while maintaining stable triangulated base
@@ -180,6 +184,8 @@ As the defender (top player in headquarters), you must prevent the bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin-to-Shin from Headquarters?</p>
 
 ### 1. Drive knee forward through insertion attempt to collapse shin connection before it establishes
 
@@ -217,6 +223,8 @@ As the defender (top player in headquarters), you must prevent the bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin-to-Shin from Headquarters?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 Stuff the insertion early by driving your knee forward, stripping their preliminary grip, and applying cross-face pressure to flatten their angle. This keeps them in the disadvantageous headquarters bottom position where your systematic passing system remains intact.
@@ -232,6 +240,8 @@ If the insertion is well-timed, backstep your posting leg to deny the target, th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin-to-Shin from Headquarters?</p>
 
 ### 1. Ignoring the bottom player's free leg movement and focusing exclusively on advancing the pass
 
@@ -261,6 +271,8 @@ If the insertion is well-timed, backstep your posting leg to deny the target, th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin-to-Shin from Headquarters?</p>
+
 **Phase 1: Recognition** - Identifying insertion attempts early
 Partner attempts shin-to-shin insertions at slow speed from headquarters bottom while you practice identifying the cues: grip changes, hip angle shifts, and free leg movement. Call out 'insert' when you recognize the attempt beginning. No physical defense yet — purely developing pattern recognition and awareness of the threat timing.
 
@@ -277,26 +289,6 @@ Start with partner in established shin-to-shin guard and practice systematic cle
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a shin-to-shin insertion?
-**A**: The earliest cue is typically a grip change — the bottom player reaching for your posting-side sleeve, pant leg, or ankle. This grip precedes the hip escape and shin insertion because it provides the anchor point needed to pull themselves into position. Recognizing and stripping this grip before the hip escape begins is the most efficient defense because it removes the mechanical prerequisite for the insertion rather than fighting the insertion itself.
-
-**Q2**: Why is the moment of passing initiation the most vulnerable time for shin-to-shin insertion?
-**A**: When you initiate a specific pass from headquarters, you necessarily shift weight from your triangulated base toward the passing direction. This weight shift lightens pressure on your posting leg and often requires adjusting grips. Both of these changes create the exact window the bottom player needs — lighter posting leg pressure makes insertion easier, and grip adjustments remove upper body control that would otherwise prevent the hip escape. This is why maintaining consistent base pressure through passing transitions is critical for preventing shin-to-shin entries.
-
-**Q3**: Your opponent has successfully inserted their shin across yours — what is the highest-percentage immediate response?
-**A**: Immediately control their upper body by establishing collar grip or cross-face before they can complete their grip sequence. A shin connection without upper body control is significantly weaker. Simultaneously begin circling your posting leg toward the outside rather than driving forward or lifting. The circle motion changes the angle of the shin contact and can break the perpendicular connection. Do not panic and abandon position — a partially established shin-to-shin is still manageable if you deny them upper body grips and begin systematic clearing.
-
-**Q4**: How should you modify your headquarters passing approach against an opponent who frequently attempts shin-to-shin entries?
-**A**: Against a shin-to-shin specialist, minimize the weight shift windows by using explosive, committed passing transitions rather than slow positional adjustments. Keep your posting leg further from their free leg by widening your base. Prioritize upper body grip control to deny them the preliminary grip that anchors the insertion. Consider leading with passes that move your posting leg away from their reach, such as backstep passes or far-side leg drags, rather than knee cuts that keep your posting leg within range.
-
-
-
-</section>
 
 
 </main>

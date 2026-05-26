@@ -154,6 +154,8 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toreando from Double Sleeve?</p>
+
 - Opponent breaks one or both sleeve grips with aggressive wrist rotation or stepping movements and immediately reaches toward your legs
 - Opponent's hands transition from being controlled at the sleeves to gripping your pants at the knees or ankles
 - Opponent steps laterally while maintaining leg control, indicating the beginning of the toreando swing direction
@@ -166,6 +168,8 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toreando from Double Sleeve?</p>
 
 - Maintain maximum tension on sleeve grips to make each grip break costly in terms of the opponent's energy and time
 - Keep feet actively posted on the opponent's hips or biceps to maintain distance and create barriers against grip transitions to your pants
@@ -180,6 +184,8 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toreando from Double Sleeve?</p>
 
 ### 1. Immediately regrip sleeves when broken using the same hand or cross-gripping to the opposite sleeve
 
@@ -217,6 +223,8 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toreando from Double Sleeve?</p>
+
 ### → [[Positions/Double Sleeve Guard]]
 
 Regrip sleeves immediately when broken, maintaining constant tension and distance with active feet. Prioritize re-establishing bilateral sleeve control before the opponent can secure pants grips. Use the moment of failed pass to pull the opponent off-balance and set up sweep counters.
@@ -232,6 +240,8 @@ When the opponent compromises their posture during grip transitions by leaning f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toreando from Double Sleeve?</p>
 
 ### 1. Allowing both sleeve grips to be broken simultaneously without any backup framing or guard transition
 
@@ -261,6 +271,8 @@ When the opponent compromises their posture during grip transitions by leaning f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Toreando from Double Sleeve?</p>
+
 **Phase 1: Recognition Drill** - Identifying toreando setups early
 Partner alternates between genuine toreando setups and false grip breaks that transition to other passes. Practice identifying the specific hand-movement patterns and posture changes that indicate toreando intent. Call out the setup when you recognize it. Develop automatic recognition without conscious analysis.
 
@@ -277,26 +289,6 @@ Positional sparring where the top player specifically attempts toreando passes f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a toreando pass is being set up from double sleeve guard?
-**A**: The earliest cue is the opponent's hand movement after breaking a sleeve grip—if their freed hand immediately moves downward toward your legs rather than attempting to establish collar or lapel control, a toreando setup is likely. Watch for the combined pattern of grip break followed by downward hand redirection and posture change from being pulled forward to standing upright with hips back. Recognizing this pattern early gives you the maximum window to regrip or transition guards.
-
-**Q2**: When should you prioritize closing guard versus regripping sleeves as a defensive response?
-**A**: Prioritize regripping when the opponent's posture is still partially compromised and their hands have not yet secured your pants—regripping is always the superior option as it returns you to your preferred guard. Prioritize closing guard when the opponent has broken both grips and is within range but their posture has dropped forward, making guard closure mechanically available. Closing guard is an emergency defense when regripping is no longer viable, not a first-choice response.
-
-**Q3**: Your opponent has controlled both your legs at the knees and begins the lateral swing—what is your best defensive option?
-**A**: Hip escape aggressively in the opposite direction of the lateral swing while framing on the opponent's shoulder or bicep with both hands. Your hip movement must outpace their lateral circling to keep your legs between your body and theirs. Simultaneously work to free at least one leg by kicking through their grip or hooking their arm with your foot. If you can free one leg and insert it as a knee shield, you recover to half guard and prevent the complete pass.
-
-**Q4**: How do active feet prevent the toreando setup from developing?
-**A**: Active feet posted on the opponent's hips or biceps create physical barriers that the opponent must address before they can transition their hands to pants control. A foot on the hip prevents the opponent from stepping forward into range for pants grips, while a foot on the bicep controls their arm path and makes grip transitions difficult. Active feet also allow you to push the opponent away to create distance if they attempt to reach for your legs, buying time to regrip or adjust your guard structure.
-
-
-
-</section>
 
 
 </main>

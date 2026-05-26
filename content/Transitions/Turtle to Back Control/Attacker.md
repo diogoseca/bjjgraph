@@ -188,6 +188,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle to Back Control?</p>
+
 - Establish chest-to-back connection before attempting hooks to maintain control throughout transition
 - Control the near hip with your knee to prevent forward rolls, sit-back escapes, and granby rolls
 - Use seatbelt grip configuration for maximum upper body control during the entire transition sequence
@@ -203,6 +205,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle to Back Control?</p>
+
 - Opponent in turtle position with knees and hands on mat forming four-point base
 - Top position established with chest contact on opponent's upper back between shoulder blades
 - At least one grip secured on opponent's upper body, ideally beginning seatbelt thread
@@ -216,6 +220,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle to Back Control step by step?</p>
 
 1. **Establish chest pressure**: Place your chest directly on opponent's upper back with your sternum between their shoulder blades. Drive your weight forward and slightly downward to break their postural integrity and prevent them from exploding forward or standing up. Your head should be positioned to one side of their head, close to their ear. This forward pressure at approximately 45 degrees creates a collapsing force on their turtle structure.
 2. **Secure seatbelt control**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder and connects underneath. Lock your hands together in a seatbelt configuration with your choking arm on the underhook side. Your hands can interlock with a gable grip, S-grip, or wrist grab depending on opponent size and preference. The seatbelt creates your primary steering mechanism for the entire transition.
@@ -245,6 +251,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle to Back Control?</p>
+
 - **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Immediately transition to front headlock position or follow them to closed guard while maintaining upper body control. If they sit explosively, use their backward momentum to establish front headlock and threaten guillotine or anaconda choke. Your near-hip knee block should prevent this entirely if properly positioned. → Leads to [[Positions/Turtle]]
 - **Opponent executes granby roll toward your grip side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining seatbelt grip, transitioning to truck position or continuing rotation to complete back take from new angle. Your hip control with the knee block is critical to shut down this counter. If your knee is properly blocking their hip, this counter becomes very low percentage. Stay heavy and connected throughout their rotation. → Leads to [[Positions/Turtle]]
 - **Opponent drives forward and stands up before control is established** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. Immediately work to insert hooks while standing or transition to body lock position for a mat return to standing back control. Your chest pressure must be heavy enough to make standing difficult. If they do stand, you have standing back control which is still highly advantageous. → Leads to [[Positions/Turtle]]
@@ -257,6 +265,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle to Back Control?</p>
 
 ### 1. Attempting to insert hooks before establishing upper body control
 
@@ -301,6 +311,8 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle to Back Control (Attacker)?</p>
+
 **Week 1-2: Static Control Development** - Establishing proper body positioning and weight distribution from top turtle
 Partner maintains static turtle position while you practice establishing chest pressure, seatbelt control, and hip blocking. Focus on feeling proper weight distribution and connection points. Drill transitioning from various turtle approach angles: rear, side, and diagonal. Partner provides verbal feedback on pressure quality and connection tightness.
 
@@ -321,48 +333,12 @@ Practice flowing between turtle to back, truck entries, crucifix, front headlock
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?
-**A**: Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, the opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes from turtle.
-
-**Q2**: What is the primary purpose of blocking opponent's near hip with your knee during the transition?
-**A**: Blocking the near hip prevents the two highest-percentage turtle escapes: sitting back to guard and executing granby rolls toward your grip. The hip is the center of rotational movement, and by controlling this point with your knee, you eliminate the opponent's ability to generate the hip momentum necessary for these defensive movements. This single point of control dramatically increases your success rate by removing escape options before they can be initiated.
-
-**Q3**: Your opponent begins standing up from turtle before you secure hooks. How should you adjust?
-**A**: Maintain your seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. As they stand, immediately work to insert your hooks while both of you are upright, or transition to body lock position around their waist for a mat return. You can also drag them backward using your weight or transition to standing back control. The key is maintaining upper body connection through the seatbelt grip. Never release this grip as it is your primary control point regardless of whether you are on the ground or standing.
-
-**Q4**: What is the proper sequence for inserting hooks and why does it matter?
-**A**: Insert the near-side hook first, followed by the far-side hook, while maintaining seatbelt control and chest pressure throughout. The near-side hook is inserted first because your knee is already blocking that hip, making insertion easier and more stable. This sequential approach maintains your base and prevents giving opponent space to escape. Attempting both hooks simultaneously compromises your stability and often results in losing position entirely. The systematic near-then-far progression ensures positional security at each step of the transition.
-
-**Q5**: Your opponent executes a granby roll toward your grip during the transition. What is your optimal response?
-**A**: Follow their rolling motion while maintaining your seatbelt grip, allowing yourself to roll with them rather than resisting their rotation. As you complete the rotation together, you often end up in truck position or can continue the roll to complete the back take from a new angle. The key is maintaining connection through your grips and staying heavy on their back throughout the movement. If your hip control with your knee was properly positioned, this roll should not have been possible in the first place.
-
-**Q6**: What weight distribution principle makes the difference between successful and unsuccessful turtle breakdown?
-**A**: Your weight must be distributed forward and downward through your chest onto their upper back, not sitting back on their hips or buttocks. The pressure point is between their shoulder blades with your sternum, creating a collapsing force on their postural structure. This forward weight distribution breaks their turtle frame and prevents explosive forward or upward movement. Sitting too far back allows them to maintain their base and creates space for escapes. The angle of pressure should be approximately 45 degrees forward and down, combining horizontal and vertical force vectors.
-
-**Q7**: Your opponent posts one hand on the mat to create space during your back take attempt. What opportunities does this create?
-**A**: An extended posting arm opens multiple high-percentage attacks. The crucifix becomes available if you can trap their posted arm between your legs while maintaining upper body control. A kimura attack is possible by controlling their wrist and rotating the shoulder. You can also use their posted arm as an anchor to flatten them for an easier back take. The extended arm is a critical defensive error that should be immediately capitalized upon because it reduces their base from four points to three, making them structurally weaker.
-
-**Q8**: When is it appropriate to abandon the back take attempt and transition to an alternative attack from turtle top?
-**A**: Transition to an alternative attack when the opponent successfully disrupts your control progression and re-establishes a strong defensive turtle base that you cannot break down. If they strip your seatbelt, transition to front headlock and threaten anaconda or darce choke. If they extend an arm to post, transition to crucifix. If they sit to half guard, transition to passing. The principle is to always attack whatever the opponent gives you rather than forcing a back take against a fully defended position. Recognizing when to chain to alternative attacks is what separates intermediate from advanced practitioners.
-
-**Q9**: How does the turtle to back control transition differ between gi and no-gi grappling?
-**A**: In gi grappling, collar grips and sleeve controls provide additional anchoring points that make the seatbelt more secure and harder to strip. The gi fabric also increases friction, making it easier to maintain chest-to-back connection. In no-gi, the seatbelt grip becomes harder to maintain because of sweat and lack of fabric. The body lock variation around the waist becomes more important as a primary control method. Hook insertion technique remains the same, but no-gi requires tighter body positioning and faster execution because the opponent can slip out of controls more easily.
-
-**Q10**: What is the most common reason practitioners fail to complete this transition against resisting opponents?
-**A**: The most common failure is rushing to insert hooks before establishing complete upper body control and hip blocking. Practitioners feel the positional advantage of being on top of turtle and immediately try to get hooks in, skipping the seatbelt and hip block steps. This allows the opponent to easily defend with sit-backs, granby rolls, or standup attempts. The solution is disciplined adherence to the top-down control progression: chest pressure first, seatbelt second, hip block third, and only then begin hook insertion. Patience in each phase dramatically increases completion rate.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle to Back Control?</p>
 
 The turtle to back transition is generally safe for training at all levels as it involves positional control rather than direct joint manipulation or choking. However, practitioners should be mindful of knee pressure when blocking opponent's hip, as excessive outward pressure can stress knee ligaments. When falling to your side with hooks secured, control your descent to avoid dropping full body weight suddenly on opponent's ribcage or hip. Communication is important if opponent feels compressed or cannot breathe due to chest pressure on their back. For training partners with shoulder or back injuries, modify chest pressure intensity and ensure they can tap if experiencing discomfort. During the learning phase, avoid explosive movements that could cause both practitioners to roll uncontrollably. If opponent attempts a desperate escape by rolling, maintain controlled connection throughout the roll to prevent awkward landings or neck compression.
 

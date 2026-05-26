@@ -154,6 +154,8 @@ As the defender against this reversal, you are the top player in flattened half 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reversal from Flattened Half Guard?</p>
+
 - Bottom player threads their near arm under your far armpit and begins walking fingers up your back toward a deep underhook grip
 - Bottom player plants their far foot flat on the mat with knee bent, indicating preparation for an explosive bridging movement
 - Bottom player's hips begin shifting toward the underhook side as they position for the diagonal bridge angle
@@ -166,6 +168,8 @@ As the defender against this reversal, you are the top player in flattened half 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reversal from Flattened Half Guard?</p>
 
 - Deny the underhook proactively through sustained crossface pressure and hip positioning that limits the bottom player's arm threading
 - Maintain dynamic base awareness so you can post immediately when you feel a bridge initiating under you
@@ -180,6 +184,8 @@ As the defender against this reversal, you are the top player in flattened half 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reversal from Flattened Half Guard?</p>
 
 ### 1. Wizard the underhook arm by overhooking it and driving your shoulder down to neutralize the grip depth
 
@@ -217,6 +223,8 @@ As the defender against this reversal, you are the top player in flattened half 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reversal from Flattened Half Guard?</p>
+
 ### → [[Positions/Mount]]
 
 Capitalize on the bottom player's failed reversal by extracting your trapped leg while they are committed to the bridge. Their abandonment of defensive frames to pursue the sweep creates a window to step over and establish mount. Time the leg extraction to the peak of their bridge when their focus is on driving through the underhook rather than maintaining the hook.
@@ -232,6 +240,8 @@ Prevent the reversal through early underhook denial using wizard control or sust
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reversal from Flattened Half Guard?</p>
 
 ### 1. Ignoring the underhook acquisition and continuing to focus only on passing sequence
 
@@ -261,10 +271,12 @@ Prevent the reversal through early underhook denial using wizard control or sust
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reversal from Flattened Half Guard?</p>
+
 **Phase 1: Underhook Denial Drill** - Preventing the underhook from being established
 Partner fights for the underhook from flattened half guard bottom while you practice denying it through shoulder pressure, wizard control, and hip positioning. Focus on recognizing the threading attempt early and addressing it before depth is achieved. No bridge attempts in this phase.
 
-**Phase 2: Base Maintenance Under Bridge** - Reactive defense against the bridge-and-drive
+**Phase 2: Base Under Bridge** - Reactive defense against the bridge-and-drive
 Partner has a pre-established underhook and initiates bridges. Practice posting, hip sprawling, and maintaining base against diagonal bridge attempts. Develop automatic reactions to the bridge force and build the ability to resettle pressure after absorbing the sweep attempt.
 
 **Phase 3: Counter-Attack from Failed Reversals** - Capitalizing on failed sweep attempts to advance position
@@ -277,26 +289,6 @@ Partner alternates between reversal attempts and frame recovery from flattened h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a reversal attempt is developing rather than a frame recovery?
-**A**: The key distinguishing cue is the depth and direction of the underhook. Frame recovery underhooks stay relatively shallow at armpit depth, while reversal underhooks drive deep past your center line toward your lat or far hip. Additionally, the bottom player's free hand positioning reveals intent - framing on your shoulder indicates recovery, while gripping your hip or belt indicates sweep intent. Recognizing underhook depth early gives you the most time to implement preventive measures.
-
-**Q2**: Why is posting your far hand a reactive defense rather than a preventive one, and what are its limitations?
-**A**: Posting the far hand only becomes necessary after the bridge has initiated, meaning you have already failed to prevent the reversal prerequisites. While effective at stopping the sweep, posting removes your hand from hip control duties, potentially allowing the bottom player to insert their knee for guard recovery through a different pathway. The limitation is that you trade one defensive problem for another, which is why proactive underhook denial is the superior strategy.
-
-**Q3**: How should you adjust your base and pressure when you feel the bottom player tightening their half guard hook?
-**A**: A tightening hook signals sweep preparation. Respond by widening your base slightly on the underhook side, increasing your crossface pressure to limit their ability to generate bridge power, and beginning active leg extraction work. Do not wait for the bridge to start. The hook tightening is a preparatory action that gives you a window to deny the prerequisites before the explosive phase begins. Work to loosen the hook through hip circling and knee positioning while maintaining chest pressure.
-
-**Q4**: Your opponent executes the bridge and you feel yourself beginning to tip - what is the emergency recovery sequence?
-**A**: If the bridge catches you and you begin to tip, immediately post your far hand as wide as possible to create emergency base. Simultaneously drop your hips toward the mat on the posting side to lower your center of gravity. If the sweep continues despite the post, prepare to recover guard rather than fighting the reversal from a losing position. The worst response is going stiff and toppling - staying relaxed and posting gives you the best chance of maintaining position or at minimum recovering to a neutral guard position rather than being swept to full side control.
-
-
-
-</section>
 
 
 </main>

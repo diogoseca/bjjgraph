@@ -166,6 +166,8 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crossface to Combat Base?</p>
+
 - Opponent drives heavy crossface across your jaw and neck, actively turning your head away while dropping shoulder weight to flatten you
 - Opponent's free foot begins walking toward your head, shifting their body angle to create mechanical advantage for leg extraction
 - Opponent controls your far arm through underhook or wrist pin while maintaining crossface, eliminating your primary framing tool
@@ -178,6 +180,8 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crossface to Combat Base?</p>
 
 - Win the underhook battle before the crossface is established - the underhook is your primary offensive and defensive tool from half guard bottom
 - Never allow yourself to be flattened on your back; maintain side angle through constant hip escape motion and frame engagement
@@ -192,6 +196,8 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crossface to Combat Base?</p>
 
 ### 1. Establish deep underhook on trapped-leg side and drive into opponent to prevent flattening
 
@@ -229,6 +235,8 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crossface to Combat Base?</p>
+
 ### → [[Positions/Half Guard]]
 
 Win the underhook battle early and use it to come up to dogfight position or execute an underhook sweep, reversing the position entirely. This requires proactive engagement before the crossface is established and maintaining your side angle throughout.
@@ -244,6 +252,8 @@ If you cannot reverse position, focus on maintaining half guard with improved po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crossface to Combat Base?</p>
 
 ### 1. Remaining flat on your back and accepting the crossface without fighting to maintain side angle
 
@@ -278,6 +288,8 @@ If you cannot reverse position, focus on maintaining half guard with improved po
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crossface to Combat Base?</p>
+
 **Week 1-2** - Recognition and underhook battle
 Partner establishes half guard top at 30% intensity and slowly works toward crossface. Practice recognizing the crossface attempt and immediately fighting for the underhook. Focus on timing the underhook entry before the crossface locks in. Partner does not attempt leg extraction yet. Develop the automatic response of fighting for underhook whenever crossface pressure is felt.
 
@@ -294,29 +306,6 @@ Full resistance positional sparring starting from half guard bottom against part
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective defensive action against this transition?
-**A**: The earliest and most effective defense is winning the underhook battle on the trapped-leg side before the crossface is established. The underhook prevents flattening, enables you to turn into your opponent, and provides the offensive pathway for sweeps and back takes. Once the crossface is secured and you are flattened, all subsequent defensive actions become significantly harder and lower percentage.
-
-**Q2**: Why is maintaining your side angle critical when defending this transition?
-**A**: Maintaining your side angle prevents the crossface from achieving maximum effectiveness and keeps your hips mobile for following opponent's movement. When flat on your back, the crossface pins your head and shoulders to the mat with gravity assisting, making it nearly impossible to create frames or follow the extraction. On your side, you can generate hip escape motion, maintain frame structure, and threaten sweeps that force the top player to address your offense.
-
-**Q3**: What should you do if you recognize the leg extraction has already begun?
-**A**: If extraction has started, immediately hip escape in the same direction as your opponent's movement to follow their hips and prevent separation. Simultaneously tighten your leg clamp and try to re-entangle their leg by hooking your top foot behind their knee. If the leg clears despite your efforts, immediately insert your feet on their hips or establish butterfly hooks to prevent combat base consolidation and recover to an open guard position.
-
-**Q4**: When is lockdown the appropriate defensive response versus fighting for the underhook?
-**A**: Lockdown is appropriate when you have already lost the underhook battle and are partially flattened, making it impossible to recover the underhook in time. The lockdown serves as a last-resort entanglement that prevents leg extraction entirely and gives you time to work back to a better position. However, if you still have the ability to fight for the underhook, that is always the superior choice because underhook provides offensive options while lockdown is primarily a stalling mechanism that delays rather than reverses the position.
-
-**Q5**: Your opponent has crossface established and begins walking their free foot toward your head - what is happening and how do you respond?
-**A**: They are creating the extraction angle by shifting their body position to generate mechanical advantage for pulling their trapped leg free. Respond by immediately tightening your leg clamp, hip escaping toward them to close the angle they are creating, and using your far arm to frame on their bicep or shoulder to prevent them from driving forward. If possible, use the angle change to sneak your near-side knee in as a shield. The foot walk is the clearest signal that extraction is imminent.
-
-
-
-</section>
 
 
 </main>

@@ -20,8 +20,8 @@ description: "Offensive guillotine variation from bottom guard using rotational 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 32% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Hindulotine",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
@@ -171,6 +171,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Position Definition
 
+<p class="section-subtitle">What is Hindulotine (Bottom)?</p>
+
 - Your guillotine grip is secured around opponent's neck with your arm wrapped under their chin, hands locked together using gable grip or arm-in configuration, creating direct pressure on the carotid arteries and trachea while your forearm or wrist blade is positioned high under the chin for maximum choking efficiency
 - Your hips are positioned at an angle to your opponent's body rather than directly underneath them, creating the leverage angle necessary for rotational pressure on the neck, with your lower back and hips actively engaged to generate torque rather than relying solely on arm strength
 - Your legs are configured to control opponent's posture and prevent escape, either with closed guard controlling their hips, butterfly hooks allowing angle adjustments, or strategic foot placement preventing them from achieving the posture necessary to relieve neck pressure
@@ -184,6 +186,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Hindulotine (Bottom)?</p>
+
 - Opponent's head must be available for guillotine grip establishment, typically during takedown attempts, guard pulls, or scrambles where their head passes below your chest line
 - Your ability to secure the guillotine grip before opponent establishes defensive posture or gets their chin tucked and arms framed
 - Sufficient hip mobility and core strength to create and maintain the angled position necessary for rotational pressure rather than straight pulling mechanics
@@ -196,6 +200,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hindulotine?</p>
 
 - Grip must be established high on the neck under the chin before opponent can achieve defensive posture
 - Hip angle creates the mechanical advantage - position hips perpendicular to opponent's spine for rotational pressure
@@ -211,6 +217,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Hindulotine (Bottom)?</p>
 
 **If opponent maintains strong posture and prevents you from breaking them down:**
 - Execute **[[Closed Guard Recovery/Attacker|Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
@@ -239,6 +247,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hindulotine?</p>
 
 ### 1. Pulling straight back on the guillotine grip using only arm strength instead of creating rotational pressure through hip positioning
 
@@ -273,6 +283,8 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Hindulotine defense?</p>
+
 ### Guillotine Grip Establishment from Guard
 
 Partner starts in your closed guard. Practice catching the guillotine grip when they attempt to open your guard or posture up. Focus on grip speed and positioning high on the neck before they can defend. Reset every 30 seconds and alternate roles. Emphasize grip quality over finishing attempts.
@@ -305,38 +317,6 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What hip angle creates maximum rotational pressure from bottom Hindulotine?
-**A**: Position your hips at approximately 45-90 degrees perpendicular to opponent's spine rather than directly underneath them. This angle allows your core rotation to generate torque on the neck rather than relying on pulling straight back. The further you angle your hips toward their choking-arm side, the more rotational pressure you create.
-
-**Q2**: Your opponent begins driving forward to stack and flatten you - what adjustment maintains your attacking position?
-**A**: Use butterfly hooks or open your guard and plant your feet to create elevation under their hips. As they drive forward, load their weight onto your hooks and execute a butterfly sweep while maintaining the guillotine grip. Their forward pressure becomes the energy for the sweep, and you finish in mount with the choke still locked.
-
-**Q3**: What are the essential grip configurations for maintaining bottom Hindulotine control?
-**A**: Use either a gable grip with palms together or a chin strap where your choking hand grabs your opposite bicep. The blade of your wrist or forearm must be positioned high under opponent's chin, not on their throat. Your non-choking arm reinforces the grip while your elbows stay tight to prevent opponent from creating defensive space.
-
-**Q4**: How do you prevent the Von Flue counter when holding bottom Hindulotine?
-**A**: Keep your hips angled rather than flat on your back, which prevents opponent from driving shoulder pressure into your neck. Maintain closed guard or active butterfly hooks to control their hip movement. If they begin positioning for the Von Flue, immediately adjust your hip angle away from their pressure or transition to a sweep.
-
-**Q5**: What leg configuration provides the best control against an opponent trying to posture and circle out?
-**A**: Closed guard provides the strongest hip control against circling, but limits your angle adjustment ability. For more dynamic control, use butterfly hooks with your feet hooked inside their thighs, allowing you to follow their movement while restricting their posture. One hook high on the hip with the opposite foot posted can block circling while maintaining sweep threat.
-
-**Q6**: Your opponent turns their body away to relieve choking pressure - how do you capitalize on this movement?
-**A**: Their turn exposes their back. Release the guillotine grip and immediately establish a seat belt control, with your choking arm becoming the over-hook arm across their chest. Hook your legs for back control as they complete their turn. The turn that escapes the guillotine delivers them directly into your back take.
-
-**Q7**: How do you conserve energy during extended bottom Hindulotine control without losing submission pressure?
-**A**: Use your legs and core for control rather than squeezing with arms. Lock your grip and maintain constant but not maximum pressure - you only need to restrict blood flow, not crush. Let your body structure hold the position while making small adjustments. Save maximum squeezing effort for when you feel the finish is available.
-
-**Q8**: Your opponent partially breaks your grip and starts extracting their head - how do you recover?
-**A**: If they create significant space, abandon the guillotine attempt rather than chasing with diminishing grip. Transition immediately to closed guard control and reset. If they only partially escape, use your legs to pull them back down while re-establishing your grip higher on the neck. A partial grip is worse than controlled guard position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

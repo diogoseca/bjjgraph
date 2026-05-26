@@ -64,6 +64,8 @@ export default ((userOpts?: Partial<Options>) => {
     const slug = fileData.slug ?? ""
     const is404 = slug === "404"
     const isHomepage = slug === "index" || slug === ""
+    const slugLower = slug.toLowerCase()
+    const isNonEditable = is404 || slugLower === "training" || slugLower === "game-over"
 
     // Hide on homepage — clean Google-style landing
     if (isHomepage) return null
@@ -110,7 +112,7 @@ export default ((userOpts?: Partial<Options>) => {
           <span class="full-text">Found a Bug?</span>
           <span class="short-text">Bug?</span>
         </button>
-        {!is404 && (
+        {!isNonEditable && (
           <a
             href={editUrl}
             class="github-action edit-page"

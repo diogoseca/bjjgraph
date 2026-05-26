@@ -156,6 +156,8 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mat Return from Rear Clinch?</p>
+
 - Attacker shifts their hips to one side creating a noticeable angle change from directly behind you to approximately 45 degrees offset
 - Attacker's weight drops slightly as they bend their knees preparing for the sitting motion that initiates the descent
 - Attacker tightens their grip noticeably and pulls your upper body forward and down, breaking your posture in preparation for the takedown
@@ -168,6 +170,8 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mat Return from Rear Clinch?</p>
 
 - Prioritize hand fighting to strip the opponent's controlling grip before the descent begins, as the grip is the primary mechanism maintaining positional control
 - Maintain a wide, low base with hips dropped and weight centered to resist the sitting motion that initiates the mat return
@@ -182,6 +186,8 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mat Return from Rear Clinch?</p>
 
 ### 1. Two-on-one grip strip before descent begins
 
@@ -219,6 +225,8 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mat Return from Rear Clinch?</p>
+
 ### → [[Positions/Standing Rear Clinch]]
 
 Strip the attacker's grip through aggressive two-on-one hand fighting before the descent begins, or maintain a strong wide base that prevents the sitting motion from completing. Fight to remain standing where you have more escape options than on the ground.
@@ -234,6 +242,8 @@ If the takedown is inevitable, turn aggressively into the attacker during the de
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mat Return from Rear Clinch?</p>
 
 ### 1. Attempting to pull the attacker's arms off by reaching behind your own back rather than using two-on-one grip stripping in front
 
@@ -263,6 +273,8 @@ If the takedown is inevitable, turn aggressively into the attacker during the de
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mat Return from Rear Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Identifying mat return setup cues
 Partner establishes rear clinch and randomly alternates between maintaining position and setting up the mat return. Defender calls out 'mat return' when they recognize the setup cues. Partner confirms or corrects. Build pattern recognition for hip angle changes, grip tightening, and weight shifts that signal the mat return is coming.
 
@@ -279,26 +291,6 @@ Positional sparring starting from standing rear clinch. Attacker attempts mat re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is setting up a mat return from rear clinch?
-**A**: The earliest cues are the attacker shifting their hips from directly behind you to approximately 45 degrees to one side, combined with a noticeable tightening of their grip and increased forward pressure breaking your posture. You may also feel their knees begin to bend as they prepare for the sitting motion, and their outside leg positioning behind your near leg. Recognizing these cues before the descent begins gives you maximum time to execute defensive options such as grip stripping, base widening, or pre-emptive turning.
-
-**Q2**: When the mat return has been committed and you cannot prevent the takedown, what is your best defensive strategy during the descent?
-**A**: Once the takedown is committed, shift your defensive focus from preventing the descent to minimizing positional damage on landing. Immediately begin turning your shoulders and hips toward the attacker as you go to the ground. Keep your elbows tight to your body to prevent hooks from being inserted during the fall. Your goal is to land facing the attacker in half guard rather than with your back to them in back control. Even a partial turn that prevents one hook from being inserted dramatically improves your ground defensive position compared to landing flat in full back control.
-
-**Q3**: Why is the two-on-one grip strip more effective than simply trying to peel the attacker's hands apart from behind?
-**A**: The two-on-one grip strip works in front of your body where you have full visual feedback and maximum arm strength through proper biomechanics. You use two hands against one of the attacker's hands or wrists, creating a 2:1 strength advantage. Reaching behind to peel hands apart works against your own body mechanics, provides no visual feedback on grip position, and divides your force between both of the attacker's arms simultaneously. Additionally, reaching behind pulls your elbows away from your body, which opens space for the attacker to insert hooks and removes your hands from neck defense.
-
-**Q4**: How should you adjust your base when you feel your opponent setting up the mat return?
-**A**: Lower your center of gravity by bending your knees and dropping your hips while widening your stance laterally. Shift your weight away from the direction the attacker is angling toward, making their sitting motion travel a longer path. Keep your weight on the balls of your feet to maintain mobility and the ability to circle away from the attacker's angle. Avoid going completely flat-footed or locking your knees, as rigidity is easier to overcome than a dynamic, adjustable base. If the attacker changes angle, you must be able to readjust your base immediately to match the new threat direction.
-
-
-
-</section>
 
 
 </main>

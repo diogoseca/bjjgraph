@@ -205,9 +205,9 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Primary control configuration after completing the roll
 
-- [[Transitions/Rear Naked Choke]] - Primary submission from resulting back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission from resulting back control position
 
-- [[Transitions/Bow and Arrow Choke]] - Alternative submission after establishing back control
+- [[Submissions/Bow and Arrow Choke]] - Alternative submission after establishing back control
 
 - [[Positions/Crucifix]] - Alternative when opponent defends roll by posting arm
 
@@ -215,7 +215,7 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 
 - [[Transitions/Berimbolo Entry]] - Alternative dynamic back take from different starting position
 
-- [[Submissions/Armbar from Back]] - Submission option from achieved back control
+- [[Transitions/Armbar from Back Transition]] - Submission option from achieved back control
 
 - [[Positions/Gift Wrap]] - Alternative control position if arm is captured during roll
 

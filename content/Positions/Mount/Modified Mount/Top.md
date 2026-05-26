@@ -44,14 +44,14 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Modified Mount",
+      "text": "From this position, attempt Cross Collar Choke from Modified Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kimura from Modified Mount",
+      "text": "From this position, attempt Kimura from Modified Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Position Definition
 
+<p class="section-subtitle">What is Modified Mount (Top)?</p>
+
 - Top practitioner posts one leg out to side with foot flat on mat creating stability anchor point, toes pointing outward at roughly 45 degrees from the opponent's body centerline
 - Top practitioner's other knee crosses opponent's torso with shin blade pressing diagonally across their abdomen, maintaining constant downward control pressure through skeletal alignment
 - Asymmetric weight distribution places approximately 60-70% of pressure through across-body knee and hip while posted leg carries remaining load as a stability strut
@@ -178,6 +180,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Modified Mount (Top)?</p>
+
 - Understanding of standard mount mechanics and control principles as foundation
 - Knowledge of armbar entry mechanics and how Modified Mount naturally funnels to armbar
 - Ability to distribute weight asymmetrically while maintaining balance and control
@@ -190,6 +194,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Modified Mount?</p>
 
 - Posted leg stability - Extended leg creates base anchor preventing bridge-and-roll reversals
 - Armbar access - Position naturally positions body for armbar swing-over mechanics
@@ -206,6 +212,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Modified Mount (Top)?</p>
+
 **If opponent extends near-side arm to frame or defend:**
 - Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
 - Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
@@ -217,8 +225,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 
 **If opponent keeps arms tight and defends neck:**
-- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 50%)
+- Execute **[[Submissions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Americana Control]] (Probability: 50%)
 
 
 **If opponent turns to side or turtles:**
@@ -238,6 +246,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Modified Mount?</p>
 
 ### 1. Posting leg too far from body creating excessive space for opponent's hip escape
 
@@ -277,6 +287,8 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Modified Mount attacks?</p>
+
 ### Modified Mount Armbar Transition Drill
 
 Start in Modified Mount, partner gives different defensive frames and arm positions. Practice reading arm placement and executing smooth armbar transitions from Modified Mount structure. Focus on maintaining control throughout transition.
@@ -309,38 +321,6 @@ Partner gives specific defensive responses (arm frames, hip escapes, turtling). 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary advantage of posting one leg in Modified Mount versus keeping both knees on the mat?
-**A**: The posted leg creates a significantly wider base that prevents explosive bridge-and-roll reversals. When an opponent attempts to bridge and roll, the posted foot acts as a structural anchor that stops the momentum, whereas standard mount with both knees down is more vulnerable to being rolled. The trade-off is slightly less even weight distribution across the opponent's torso.
-
-**Q2**: Your opponent starts bridging explosively toward your posted leg side - what base adjustment do you make?
-**A**: Drive your posted foot into the mat and widen the base slightly while simultaneously dropping your chest pressure heavier through the across-body knee. The posted leg should absorb the bridge momentum like a buttress. If the bridge is particularly strong, shift your hips slightly toward the posted leg side to load more weight into the anchor point. Never lift off the across-body knee during the bridge - that connection prevents the turning momentum they need.
-
-**Q3**: What are the essential grips for maintaining Modified Mount control before attacking?
-**A**: Primary grip priorities are cross-face or collar control with your top hand to prevent the opponent from turning their head away, and an underhook or hip control with your bottom hand to block their elbow-knee reconnection. In gi, collar grips provide both control and choke threats. In no-gi, head-and-arm control serves the same function. The across-body knee and posted leg handle structural control while your arms manage upper body positioning and submission setups.
-
-**Q4**: How do you shut down the opponent's primary escape - hip escaping toward the posted leg?
-**A**: When you feel the opponent beginning to hip escape toward the posted leg, immediately follow their hip movement by sliding your posted foot laterally to cut off the escape angle. Simultaneously increase downward pressure through the across-body knee to pin their near-side hip. If they persist, transition to high mount by walking your knees toward their head, which removes the posted leg vulnerability entirely. The key is anticipating the escape direction and moving your base before they generate enough momentum.
-
-**Q5**: How should you apply pressure in Modified Mount to maximize control while minimizing your own energy expenditure?
-**A**: Settle your weight through skeletal alignment rather than muscular tension. The across-body knee should carry 60-70% of your weight through bone-on-bone contact with their ribcage, while the posted leg acts as a passive structural support. Keep your hips heavy and relaxed rather than elevated and tense. Use gravity as your primary tool - drop your chest toward their face to create claustrophobic pressure. This lets you maintain control for extended periods without fatigue.
-
-**Q6**: Your opponent gets their elbow inside your across-body knee and starts framing - how do you recover control?
-**A**: Immediately drive your across-body knee back over their elbow by circling it forward and downward, using your hip weight to crush the frame. If the frame is already established, switch tactics - use the frame as an invitation to attack the extended arm with an americana or kimura, or swim your knee back inside by momentarily lifting and re-inserting behind their elbow. Threaten submissions on the framing arm to force retraction, then re-establish knee position.
-
-**Q7**: When should you transition from Modified Mount to standard mount versus staying in Modified Mount?
-**A**: Stay in Modified Mount when the opponent has demonstrated strong bridge-and-roll escapes, when you are actively setting up armbars or triangles, or when you need maximum stability during grip fighting. Transition to standard mount when the opponent primarily uses hip escapes toward your posted leg, when you want even pressure distribution for cross chokes, or when the opponent has been flattened and is no longer threatening explosive reversals. Read escape tendencies in the first few seconds and choose accordingly.
-
-**Q8**: Your opponent is completely defensive with elbows tight and chin tucked - describe how you open them up?
-**A**: Begin by threatening the cross collar choke or applying collar pressure to their neck area, forcing them to bring hands up to defend. As they reach to strip your collar grip, immediately capture the extended arm and transition to armbar through S-mount. If they keep one arm defending choke and one tight, attack the americana on the tight arm - when they straighten to defend, switch to armbar. The principle is creating dilemmas where every defensive choice opens a different attack path.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

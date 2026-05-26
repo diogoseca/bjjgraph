@@ -3,24 +3,30 @@
 
 
 ---
-title: "Achilles Lock | BJJ Submission | BJJ Graph"
+title: "Achilles Lock | BJJ Submission Family | BJJ Graph"
 description: "Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Achilles Lock targets the Achilles tendon and ankle joint. Risk: Achilles tendon rupture or tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Achilles Lock/Attacker|Play as Attacker]]
-[[Achilles Lock/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Achilles Lock/from Inside Ashi-Garami|Inside Ashi-Garami]] | 58% | Achilles tendon rupture or tear |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,9 +35,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Achilles tendon and ankle joint
-**Starting Position**: [[Positions/Ashi Garami]]
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 58% (average across variants)
 
 </section>
 
@@ -78,139 +82,10 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Ashi Garami]] | 25% |
-| Counter | [[Positions/Open Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Hip extension creates the primary breaking mechanism - hips ... | Rotate your knee inward immediately to move the Achilles ten... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Achilles Lock/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Hip extension creates the primary breaking mechanism - hips must drive forward while controlling the heel
-
-- The fulcrum point (forearm or wrist bone) must be positioned precisely on the Achilles tendon, not the calf muscle
-
-- Foot position matters critically - opponent's toes must point toward you with heel controlled in your armpit
-
-- Your knees must stay tight together to prevent the opponent from extracting their leg through the gap
-
-- Head and shoulders should drive backward while hips extend forward, creating opposing forces
-
-- The grip must be configured to prevent the foot from turning - figure-four or gable grip with heel trapped
-
-- Control the leg before applying pressure - position first, then slowly extend hips for the finish
-
-
-### Execution Steps
-
-
-- **Secure the leg position**: From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the m...
-
-- **Grip configuration for heel control**: Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand g...
-
-- **Position the fulcrum point**: Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates ...
-
-- **Create the initial angle**: Begin to lean your upper body backward while keeping your hips close to the opponent. Your shoulders...
-
-- **Hip extension for breaking pressure**: While maintaining the backward lean, begin to slowly extend your hips forward and upward. Drive your...
-
-- **Final adjustment and finish**: Make micro-adjustments to maximize pressure: ensure toes are still pointed toward you, fulcrum is on...
-
-
-### Common Mistakes
-
-
-- **Applying pressure too quickly or spiking the submission**
-  - Consequence: High risk of Achilles tendon rupture, training partner injury, loss of trust
-  - Correction: Always apply pressure progressively over 3-5 seconds minimum. Build up slowly and give partner time to recognize the submission and tap safely.
-
-- **Positioning fulcrum on calf muscle instead of Achilles tendon**
-  - Consequence: Submission is ineffective, wastes energy, allows opponent to escape
-  - Correction: Ensure your wrist bone or forearm edge is placed 2-3 inches above the heel, directly on the Achilles tendon. You should feel the tendon - it's the hard cord-like structure, not the soft calf muscle.
-
-- **Leaving gap between knees allowing leg extraction**
-  - Consequence: Opponent easily escapes by pulling leg through the gap
-  - Correction: Squeeze your knees together tightly throughout the entire submission. Your legs should be creating a vice-like control on the opponent's leg with no space for extraction.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Achilles Lock/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Rotate your knee inward immediately to move the Achilles tendon away from the attacker's fulcrum point and change the pressure angle
-
-- Sit up aggressively and drive forward into the attacker to collapse their backward lean and eliminate the breaking angle
-
-- Never allow the attacker's knees to squeeze tight - constantly fight to create space between their legs for leg extraction
-
-- Address the grip before the position - if the heel is trapped deep in the armpit, break that grip before attempting leg extraction
-
-- Keep your foot active by curling your toes and flexing your ankle to create muscular tension that protects the Achilles tendon
-
-- Recognize the submission attempt early by feeling for the grip change and backward lean - defense becomes exponentially harder once hip extension begins
-
-
-### Recognition Cues
-
-
-- Attacker shifts grip from general leg control to specifically cupping or trapping your heel in their armpit
-
-- Attacker begins leaning their upper body backward while maintaining hip proximity - the precursor to the finishing angle
-
-- You feel the sharp edge of the attacker's wrist bone or forearm pressing directly against your Achilles tendon
-
-- Attacker squeezes their knees together tightly, creating vice-like pressure on your trapped leg with no gaps
-
-
-### Escape Paths
-
-
-- Knee rotation to inside heel hook defense posture, then systematic leg extraction through hip movement and space creation
-
-- Aggressive sit-up to forward pressure, collapsing attacker's angle, then leg extraction while maintaining top position
-
-- Grip break on heel control by stripping attacker's hands, followed by immediate leg extraction before they re-grip
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Figure-Four Achilles Lock**: Instead of gable grip, use one arm to thread under the ankle and grab your own wrist/forearm creating a figure-four configuration. This provides more leverage and a sharper fulcrum point. (When to use: Use when opponent has strong ankle flexibility or when you need maximum breaking power. Also effective when transitioning from other leg attacks.)
@@ -238,7 +113,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 - [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - [[Positions/X-Guard/Single Leg X-Guard]]
 - [[Positions/Ashi Garami/50-50 Guard]]
-- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Honey Hole]]
 - [[Positions/Half Guard/Deep Half Guard]]
 - [[Positions/Open Guard]]
 
@@ -249,14 +124,14 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Related Submissions
 
-- [[Submissions/Straight Ankle Lock]]
-- [[Transitions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
-- [[Transitions/Kneebar]]
-- [[Transitions/Toe Hold]]
-- [[Transitions/Calf Slicer]]
-- [[Positions/Estima Lock]]
+- [[Submissions/Straight Ankle Lock]] - Similar submission targeting same area with different grip configuration and finishing mechanics
+- [[Transitions/Heel Hook]] - Advanced rotational leg lock often threatened in combination from same Ashi Garami positions
+- [[Submissions/Inside Heel Hook]] - Rotational heel attack accessible from same leg entanglements when opponent defends Achilles Lock
+- [[Transitions/Outside Heel Hook]] - Complementary heel attack from outside angle positions sharing similar entries
+- [[Transitions/Kneebar]] - Alternative leg attack targeting knee hyperextension from similar leg entanglement positions
+- [[Submissions/Toe Hold]] - Foot lock often chained when Achilles Lock defense creates rotational opening
+- [[Submissions/Calf Slicer]] - Compression submission available from similar leg control when opponent bends knee to defend
+- [[Transitions/Estima Lock]] - Ankle compression lock with related foot control mechanics and shared positional entries
 
 
 </section>
@@ -270,9 +145,9 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 - [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position transitioning to Achilles Lock
 - [[Submissions/Straight Ankle Lock]] - Similar submission targeting same area with different mechanics
 - [[Transitions/Heel Hook]] - Advanced leg lock often threatened in combination with Achilles attacks
-- [[Transitions/Toe Hold]] - Alternative leg attack from similar positions, different target
+- [[Submissions/Toe Hold]] - Alternative leg attack from similar positions, different target
 - [[Transitions/Kneebar]] - Leg lock targeting different joint, often chained with Achilles Lock
-- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position including Achilles variations
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement position including Achilles variations
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dominant Ashi variation for Achilles Lock attacks
 - [[Positions/Leg Entanglement]] - Conceptual framework for understanding Ashi positions and controls
 

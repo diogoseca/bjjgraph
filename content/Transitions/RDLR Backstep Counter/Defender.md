@@ -162,6 +162,8 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting RDLR Backstep Counter?</p>
+
 - Top player shifts weight predominantly to their non-hooked posting leg, unloading the hooked leg in preparation for stepping
 - Top player breaks or begins stripping your ankle grip while tightening their upper body control through cross-face or collar
 - Top player's hooked leg begins lifting or rotating backward away from your hook with a circular movement pattern
@@ -174,6 +176,8 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending RDLR Backstep Counter?</p>
 
 - Maintain the ankle grip as your primary control tool—it steers the backstep and creates the pulling vector needed for sweeps and guard retention
 - Track the backstep with active hip rotation to follow the top player's movement and maintain hook engagement throughout their stepping motion
@@ -188,6 +192,8 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against RDLR Backstep Counter?</p>
 
 ### 1. Reinforce ankle grip and follow the backstep with hip rotation, re-hooking the leg as it attempts to clear
 
@@ -225,6 +231,8 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending RDLR Backstep Counter?</p>
+
 ### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 Track the backstep with active hip rotation and maintain your ankle grip throughout the stepping motion. As the top player's leg moves backward, follow with your hook by rotating your hips in the same direction, re-establishing the hook before they can settle into Headquarters. The key is recognizing the backstep early and matching their movement rather than holding a static hook position.
@@ -240,6 +248,8 @@ Capitalize on the single-leg balance moment during the backstep by inverting und
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending RDLR Backstep Counter?</p>
 
 ### 1. Releasing the ankle grip when the top player begins stripping it instead of fighting to maintain control
 
@@ -269,6 +279,8 @@ Capitalize on the single-leg balance moment during the backstep by inverting und
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against RDLR Backstep Counter?</p>
+
 **Phase 1: Recognition** - Identifying backstep initiation cues
 Partner performs backsteps from RDLR top at 25% speed. Bottom player focuses exclusively on recognizing the weight shift and grip changes that precede the backstep. Call out the cue verbally when detected. 20 repetitions per side without attempting any defensive response—pure pattern recognition development.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting from RDLR. Top player actively atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the top player is about to backstep?
-**A**: The earliest cue is a weight shift to the non-hooked posting leg combined with tightening of upper body control. Before the backstep begins, the top player must unload weight from the hooked leg, which you can feel as decreased pressure through your hook. Simultaneously, they typically increase their cross-face or collar grip pressure to anchor their upper body before the step. These two simultaneous changes—lighter hook pressure and tighter upper body grip—signal an imminent backstep and give you the maximum response time.
-
-**Q2**: Why is the ankle grip your most important defensive tool against the backstep?
-**A**: The ankle grip serves as a steering mechanism that controls the direction of the RDLR hook's rotational force. During a backstep, the ankle grip allows you to redirect the stepping leg's trajectory, pulling it back toward your hook rather than allowing it to arc freely away. Without the grip, you have no control over the stepping leg's path and can only passively hope your hook maintains contact. The grip also creates the pulling vector needed for sweep entries if you choose to capitalize on the backstep's single-leg balance moment.
-
-**Q3**: The backstep has partially cleared your hook but Headquarters is not yet established—what is your best response?
-**A**: This is the critical transitional window where you must commit to one of two strategies: either aggressively re-hook by following with hip rotation and ankle grip pulling to re-establish RDLR, or transition to an alternative guard by inserting feet on hips for X-Guard or Single Leg X before the top player can consolidate. The worst option is hesitating between the two—partial commitment to either strategy results in neither succeeding. Assess the top player's upper body control and remaining balance to determine which option has higher probability of success.
-
-**Q4**: When is the optimal timing window for attempting a berimbolo counter during the backstep?
-**A**: The optimal window is the moment the top player's weight is most committed to their posting leg and their hooked leg is mid-step, creating maximum single-leg instability. This typically occurs as the stepping leg lifts and begins its backward arc but before it has landed in the new position. Your inversion must begin during this airborne phase to exploit the balance compromise. If you wait until the step lands and weight redistributes, the window closes and the inversion becomes far more difficult against a stable two-legged base.
-
-**Q5**: How should you adjust your defensive strategy if the top player combines the backstep with a body lock?
-**A**: The body lock eliminates your inversion option by pinning your torso and removing rotational freedom. When you recognize the body lock grip forming, abandon berimbolo-based defenses entirely and focus on preventing the backstep from clearing your hook through aggressive ankle grip fighting and hip rotation. If the hook is cleared despite your resistance, frame against their arms to create space for hip escape rather than attempting to invert. Your best option becomes transitioning to half guard retention by inserting a knee shield as they settle into Headquarters.
-
-
-
-</section>
 
 
 </main>

@@ -66,8 +66,8 @@
       "relationship": "Target control position on successful arm isolation and pivot"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Follow-up transition from armbar control to complete the submission"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Follow-up submission finish from armbar control to complete the submission"
     },
     {
       "name": "Back Take",
@@ -82,8 +82,8 @@
       "relationship": "Related dominant position and primary alternative conversion from reverse mount"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Similar armbar setup from nearby mount variant with comparable pivot mechanics"
+      "name": "Armbar from North-South",
+      "relationship": "Alternative positional armbar setup from different dominant position with distinct entry and pivot mechanics"
     },
     {
       "name": "Belly Down Armbar Transition",
@@ -94,8 +94,8 @@
       "relationship": "Related mount position commonly used for armbar setups with similar arm access"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Similar armbar from mount family with different entry angle and arm access pattern"
+      "name": "Technical Mount",
+      "relationship": "Related mount variant frequently used for armbar setups with different entry angle and arm access pattern"
     }
   ],
   "attacker": {
@@ -239,7 +239,7 @@
         "description": "During regular sparring, when reverse mount is achieved naturally, practice the full decision tree: mount conversion, back take, or armbar. Develop pattern recognition for when each option is highest percentage based on the opponent's defensive choices. The armbar should emerge organically as part of the three-way threat system."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the armbar from reverse mount?",
         "answer": "The best moment to initiate is when the opponent extends an arm to push against your hips, posts a hand on the mat for a bridge attempt, or reaches behind your back to establish frames or grips. These natural defensive reactions create the arm extension necessary for isolation and entry. Attacking during these moments produces significantly higher success rates than trying to force an arm out of a tucked defensive position."
@@ -364,7 +364,7 @@
         "correction": "Treat any wrist or forearm grip from reverse mount as an emergency requiring immediate response. The first half-second after feeling the grip is the highest-percentage defensive window. Clasp hands, pull arm tight, or bridge immediately without waiting to confirm the attacker's intentions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive action you should take when you feel the attacker grip your wrist from reverse mount?",
         "answer": "Immediately clasp your hands together or grab your own wrist with your free hand, creating an interlocked defense that prevents arm extension. This must happen within the first half-second of feeling the grip, before the attacker can begin their pivot. The clasped hands buy critical time even if they cannot prevent the armbar entirely, creating opportunities for follow-up escape movements like bridging or turning."

@@ -19,7 +19,7 @@
   "overview": "The Twister System is Eddie Bravo's revolutionary submission chain that begins from the lockdown half guard position and progresses through a series of controlling positions (Electric Chair, Truck, Twister Side Control) to the signature Twister submission - a devastating spinal lock. This system represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than joints. The system is built on the principle of progressive control, where each position offers its own submission threats while also serving as a gateway to more dominant positions.\n\nWhat makes the Twister System unique is its emphasis on creating uncomfortable, flexibility-demanding positions that many traditionally-trained opponents struggle to defend. The lockdown provides exceptional control of the opponent's leg, preventing them from establishing traditional half guard passing mechanics. From there, the system offers multiple pathways: the Electric Chair attacks the groin and inner thigh, the Old School Sweep provides positional advancement, and the Truck Position opens the door to back attacks and the Twister itself. Each component of the system works synergistically, with transitions flowing naturally from one position to the next based on the opponent's defensive reactions.\n\nThe Twister System has proven effective at the highest levels of no-gi competition and has influenced modern BJJ by demonstrating that flexibility-based controls and spinal attacks can be systematically developed and applied. While the system has a reputation for being unorthodox, it's built on sound mechanical principles: controlling the hips, disrupting the opponent's base, and attacking structures (the spine) that are difficult to defend when proper control is established. The system requires dedicated practice to master the lockdown mechanics, body positioning for the truck, and the technical details of the Twister finish, but rewards practitioners with a comprehensive attack sequence that opponents often have limited experience defending.",
   "key_principles": [
     "Lockdown control establishes the foundation - secure leg entanglement prevents opponent's base and passing mechanics",
-    "Progressive control through positions - each step (Lockdown \u2192 Electric Chair \u2192 Truck \u2192 Twister) offers submission threats while advancing position",
+    "Progressive control through positions - each step (Lockdown → Electric Chair → Truck → Twister) offers submission threats while advancing position",
     "Flexibility requirements create defensive dilemmas - opponent must be flexible or risk injury, limiting defensive options",
     "Hip control is paramount - controlling opponent's hips throughout the sequence prevents escape and creates submission opportunities",
     "Whipup mechanics generate momentum - explosive hip movement from lockdown creates sweeping and transitional opportunities",
@@ -191,9 +191,9 @@
     },
     {
       "metric_name": "System Transition Flow",
-      "description": "Smoothness and technical precision when moving between system components (Lockdown \u2192 Electric Chair \u2192 Truck \u2192 Twister)",
+      "description": "Smoothness and technical precision when moving between system components (Lockdown → Electric Chair → Truck → Twister)",
       "proficiency_indicators": [
-        "Can chain together Lockdown \u2192 Whipup \u2192 Electric Chair \u2192 Truck in live rolling without losing positional control",
+        "Can chain together Lockdown → Whipup → Electric Chair → Truck in live rolling without losing positional control",
         "Successfully converts Old School Sweep defense (posted hand) into Truck Position in 70%+ of opportunities",
         "Maintains control during rolling transitions with minimal scrambling or position loss",
         "Can identify optimal timing for transitions based on opponent's weight shifts and defensive reactions",
@@ -354,39 +354,34 @@
       "relationship": "Signature submission finish of the entire system"
     },
     {
-      "name": "Twister Finish",
-      "content_type": "Submission",
-      "relationship": "Final submission application from Truck Position"
-    },
-    {
       "name": "Banana Split",
       "content_type": "Submission",
       "relationship": "Alternative submission from Truck Position when Twister is defended"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "content_type": "Submission",
       "relationship": "Alternative submission using leg entanglement in Truck Position"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "content_type": "Submission",
       "relationship": "Primary submission threat from Electric Chair position"
     },
     {
-      "name": "Flexibility Training",
+      "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Essential physical attribute development for system effectiveness"
+      "relationship": "Essential hip mobility principle underpinning lockdown control and system transitions"
     },
     {
-      "name": "Off-Balancing",
+      "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Core principle applied through whipup to create sweep and transition opportunities"
     },
     {
-      "name": "System Building",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Conceptual framework for understanding how individual techniques connect into coherent system"
+      "relationship": "Conceptual framework for understanding how individual techniques connect into coherent positional sequences"
     },
     {
       "name": "Submission Chains",

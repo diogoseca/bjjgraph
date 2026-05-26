@@ -3,7 +3,7 @@
 {# Input: attacker (full attacker section), name (hub name), from_position, outcomes, safety_considerations, target_area #}
 
 ---
-title: "{{ attacker.name }} | BJJ Submission Guide | BJJ Graph"
+title: "{{ name }} Attacker | BJJ Submission Guide | BJJ Graph"
 description: "{{ attacker.description }}"
 ---
 
@@ -40,7 +40,7 @@ description: "{{ attacker.description }}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for qa in attacker.knowledge_assessment[:6] %}
+    {%- for qa in attacker.flashcards[:6] %}
     {
       "@type": "Question",
       "name": "{{ qa.question }}",
@@ -59,7 +59,7 @@ description: "{{ attacker.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ attacker.name }}",
+  "name": "{{ name }} Attacker",
   "description": "{{ attacker.description }}",
   "isPartOf": {
     "@type": "WebSite",
@@ -120,6 +120,8 @@ description: "{{ attacker.description }}"
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing {{ name }}?</p>
+
 {% for principle in attacker.key_principles -%}
 - {{ principle }}
 {% endfor %}
@@ -130,6 +132,8 @@ description: "{{ attacker.description }}"
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting {{ name }}?</p>
+
 {% for req in attacker.setup_requirements -%}
 - {{ req }}
 {% endfor %}
@@ -139,6 +143,8 @@ description: "{{ attacker.description }}"
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute {{ name }} step by step?</p>
 
 {% for step in attacker.execution_steps -%}
 {{ step.step_number }}. **{{ step.action }}**: {{ step.description }}{% if step.timing %} (Timing: {{ step.timing }}){% endif %}
@@ -162,6 +168,8 @@ description: "{{ attacker.description }}"
 
 ## Opponent Defenses
 
+<p class="section-subtitle">How might your opponent defend against {{ name }}?</p>
+
 {% for counter in attacker.common_counters -%}
 - **{{ counter.counter }}** (Effectiveness: {{ counter.effectiveness }}){% if counter.your_response %} - Your Response: {{ counter.your_response }}{% endif %}{% if counter.targets_outcome %} → Leads to [[{{ resolve(counter.targets_outcome.split('/')[0] if '/' in counter.targets_outcome else counter.targets_outcome) }}]]{% endif %}
 {% endfor %}
@@ -171,6 +179,8 @@ description: "{{ attacker.description }}"
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing {{ name }}?</p>
 
 {% for error in attacker.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
@@ -186,6 +196,8 @@ description: "{{ attacker.description }}"
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train {{ name }} (Attacker)?</p>
+
 {% for progression in attacker.training_progressions -%}
 **{{ progression.phase }}** - {{ progression.focus }}
 {{ progression.description }}
@@ -194,18 +206,6 @@ description: "{{ attacker.description }}"
 
 </section>
 
-{% if attacker.knowledge_assessment %}
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-{% for qa in attacker.knowledge_assessment -%}
-**Q{{ loop.index }}**: {{ qa.question }}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
-**A**: {{ qa.answer }}
-
-{% endfor %}
-
-</section>
-{% endif %}
+{# Knowledge assessment rendered as interactive flashcards by TransitionFlashcard component #}
 
 </main>

@@ -11,7 +11,7 @@
     "no-gi",
     "advanced"
   ],
-  "from_position": "Outside Ashi-Garami/Bottom",
+  "from_position": "Outside Ashi-Garami/Top",
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
@@ -217,7 +217,7 @@
         "description": "Positional sparring starting from outside ashi. Partner works legitimate escapes and counters. Practice integrating kneebar into your complete leg lock game. Focus on recognizing live opportunities and chain attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Kneebar Setup from Outside Ashi-Garami?",
         "answer": "The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended."
@@ -347,7 +347,7 @@
         "correction": "Use at least one hand to fight grips on your ankle while the free leg actively posts, frames on their hip, or steps over their body to disrupt positioning"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar setup?",
         "answer": "The earliest cue is the attacker releasing their heel hook grip and beginning to shift both hands toward your ankle and lower leg. This grip transition happens before the body rotation and signals that they are abandoning the rotational attack in favor of an extension attack. Recognizing this grip change gives you the maximum defensive window to intervene."

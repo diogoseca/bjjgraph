@@ -194,6 +194,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Body Triangle Escape to Half Guard?</p>
+
 - Neck defense before triangle clearing: Always maintain chin protection and hand fighting on the choking arm before redirecting any energy to attacking the leg lock
 - Turn toward the triangle leg: Angling your torso toward the side where the opponent's leg crosses your body reduces squeeze pressure and creates access to the lock point
 - Attack the foot behind the knee: The figure-four lock's structural weakness is the foot tucked behind the opponent's knee – target this point with precise directional force
@@ -209,6 +211,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Body Triangle Escape to Half Guard?</p>
+
 - Neck defense established with chin tucked and at least one hand controlling the opponent's choking arm through two-on-one grip fighting
 - Identification of which side the triangle leg crosses your body to determine the correct turning direction for the escape
 - Sufficient energy reserves to execute the clearing sequence – do not attempt when completely exhausted from prolonged squeeze without first managing breathing
@@ -221,6 +225,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Body Triangle Escape to Half Guard step by step?</p>
 
 1. **Secure Neck Defense**: Before any escape attempt, ensure your chin is tucked deeply and at least one hand controls the opponent's choking arm through two-on-one grip fighting. This prevents the opponent from capitalizing on your escape attempt with an immediate rear naked choke. Establish this defense as a non-negotiable prerequisite before redirecting any energy toward the triangle lock.
 2. **Identify Triangle Side**: Determine which direction the opponent's leg crosses your body by feeling the position of their crossing thigh against your torso. The crossing leg enters from one side and the foot tucks behind the opposite knee. You will turn toward the side where the leg enters to reduce the squeeze angle and position your hand to access the lock point.
@@ -251,6 +257,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Body Triangle Escape to Half Guard?</p>
+
 - **Opponent tightens triangle squeeze and pulls you back flat when you begin turning toward the triangle side** (Effectiveness: High) - Your Response: Wait for squeeze to relax slightly during the opponent's next grip adjustment, then use a sharp explosive turn rather than gradual rotation. The opponent cannot maintain maximum squeeze indefinitely and brief relaxation windows always occur during upper body transitions. → Leads to [[Positions/Back Control/Body Triangle]]
 - **Opponent attacks neck with rear naked choke when you redirect your hand from neck defense to the triangle lock point** (Effectiveness: High) - Your Response: Immediately return to neck defense and abandon the clearing attempt. Alternate between brief clearing attempts and neck protection rather than committing both hands to the triangle for extended periods. Develop a rhythm of defend-clear-defend that limits your neck exposure window. → Leads to [[Positions/Back Control/Body Triangle]]
 - **Opponent transitions to standard hooks when the triangle is partially cleared, inserting feet inside your thighs** (Effectiveness: Medium) - Your Response: Accept this as a positional improvement – standard hooks are significantly easier to clear than body triangle. Immediately begin standard back escape sequences using hip escape and hook removal before the opponent can re-establish the triangle lock. → Leads to [[Positions/Back Control]]
@@ -262,6 +270,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Body Triangle Escape to Half Guard?</p>
 
 ### 1. Attempting to clear the triangle before establishing neck defense
 
@@ -301,6 +311,8 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Body Triangle Escape to Half Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Triangle lock clearing technique isolation
 Practice the specific mechanical sequence of turning toward the triangle leg and attacking the foot behind the knee. Partner applies light triangle with no upper body attacks. Focus entirely on precise hand placement, force direction, and clearing motion. Repetitions on both sides.
 
@@ -321,48 +333,12 @@ Practice alternating between body triangle escape to half guard, hip escape to t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attacking the body triangle lock?
-**A**: The best timing is when your opponent adjusts their upper body grips or transitions between submission setups. During these brief moments, their squeeze pressure naturally reduces slightly and their attention shifts to hand positioning, creating a window where the lock point is most vulnerable to your clearing attempt. Never attempt the clear while they are actively attacking your neck.
-
-**Q2**: What conditions must exist before you can attempt the triangle clearing sequence?
-**A**: You must have established basic neck defense with chin tucked and at least one hand controlling the choking arm. You must have identified which side the triangle crosses your body to determine the correct turning direction. Attempting the clear without neck defense invites immediate choke, and turning the wrong direction increases squeeze pressure rather than reducing it.
-
-**Q3**: What is the critical mechanical detail that makes the ankle push clearing technique effective?
-**A**: The figure-four lock depends entirely on the foot being tucked behind the opponent's knee. By pushing the ankle downward and away from the knee crease, you remove the structural anchor of the entire lock. The force direction must be perpendicular to the opponent's femur, pushing the foot outward rather than trying to pull the legs apart, which attacks the weakest angle of the figure-four configuration.
-
-**Q4**: Your opponent's triangle is locked tightly with the crossing leg entering from your left side – which direction do you turn and why?
-**A**: Turn toward your left side, toward the triangle leg. This reduces the effective squeezing angle by aligning your torso with the direction of the crossing leg rather than remaining perpendicular to it. Turning left also positions your left hand closer to the lock point behind your opponent's knee where the foot is tucked, enabling the clearing attempt.
-
-**Q5**: What grip do you use to attack the triangle lock point and where exactly do you apply force?
-**A**: Use a C-grip or palm push on the opponent's ankle or instep with the hand closest to the mat. Wrap your fingers behind or around the ankle and push it downward away from their knee crease. Apply force perpendicular to the femur line, driving the foot toward the mat and outward. Avoid grabbing the toes or foot sole as this provides insufficient mechanical advantage against the locked structure.
-
-**Q6**: Your opponent begins attacking a rear naked choke as you start clearing the triangle – how do you respond?
-**A**: Immediately abandon the clearing attempt and return both hands to neck defense. Tuck your chin deeply and establish two-on-one control on the choking arm. Never try to race the choke by rushing the clear – the choke finishes faster than the clear completes. Wait for the opponent's next grip transition to create a new window for resuming the clearing attempt.
-
-**Q7**: If the body triangle escape to half guard is blocked and the opponent re-locks the triangle, what alternatives do you pursue?
-**A**: Switch to hip escape toward turtle as an alternative destination, which attacks a different angle and forces the opponent to adjust their defensive positioning. If the opponent tightens to prevent all turning, attempt the bridge-and-roll variation which uses upward pressure instead of lateral movement. Alternating between escape directions prevents the opponent from settling into a single defensive pattern.
-
-**Q8**: Why is half guard a superior escape destination compared to turtle when escaping body triangle?
-**A**: Half guard immediately provides offensive options including underhook sweeps, deep half entries, and back take sequences that put pressure on the opponent and transition the dynamic from survival to engagement. Turtle leaves you in a defensive position where the opponent can immediately re-take the back. Half guard forces the opponent into a guard passing scenario rather than maintaining attacking dominance.
-
-**Q9**: What are your immediate priorities upon establishing half guard after the escape?
-**A**: Immediately secure the underhook on the trapped leg side and establish a knee shield or forearm frame to prevent flattening. The opponent will attempt to re-take back control or pass to side control in the first seconds after you reach half guard. Getting the underhook before they can re-establish crossface or seatbelt control is the critical transition point that determines whether the escape truly succeeds.
-
-**Q10**: How do you prevent the opponent from re-locking the triangle after you partially clear the ankle?
-**A**: The moment the foot clears from behind the knee, immediately insert your elbow or forearm into the space between your body and their locking leg as a structural wedge. This frame physically blocks the foot from returning to the lock position. Maintain this wedge while executing the hip escape – do not release it until your legs are threaded and half guard is established.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Body Triangle Escape to Half Guard?</p>
 
 This escape involves significant spinal rotation and breathing management under chest compression. Never practice triangle clearing techniques explosively, as sudden movements while the opponent's legs are locked around your torso can cause rib injuries or intercostal muscle strain. Partners should communicate clearly about squeeze pressure levels and release immediately if the bottom player signals distress or difficulty breathing. During initial learning phases, the back controller should apply light triangle pressure to allow safe repetition of clearing mechanics. Tap immediately if breathing becomes severely restricted during training – there is no benefit to training through dangerous levels of breathing restriction.
 

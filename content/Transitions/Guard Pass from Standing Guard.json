@@ -238,7 +238,7 @@
         "description": "Simulate competition scenarios with time constraints. Three-minute rounds where passer must complete the pass for points while guard player works sweeps and submissions. Track pass completion rate across rounds and identify weak points in the passing system for targeted improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical error that exposes you to sweeps during the commitment phase of a standing guard pass?",
         "answer": "Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment."
@@ -352,7 +352,7 @@
         "correction": "If you want closed guard, pull proactively before the pass attempt begins. During an active pass, focus on retention with frames and hip escapes rather than position changes"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the three most reliable recognition cues that a standing guard pass is about to be initiated?",
         "answer": "The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin."

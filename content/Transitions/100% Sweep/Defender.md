@@ -162,6 +162,8 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 100% Sweep?</p>
+
 - Opponent grabs your wrist or sleeve with two hands and begins pulling one arm across their body toward the opposite hip
 - Opponent shifts their hips laterally to one side while maintaining guard closure, creating an angle relative to your centerline
 - Opponent secures a deep overhook on one of your arms, clamping your tricep against their ribs with their armpit
@@ -174,6 +176,8 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 100% Sweep?</p>
 
 - Maintain strong upright posture with elbows tight to prevent the initial arm isolation that enables the sweep
 - Keep your arms close to your centerline and never allow one arm to cross the opponent's body without resistance
@@ -188,6 +192,8 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 100% Sweep?</p>
 
 ### 1. Posture recovery and arm extraction - drive your hips back, straighten your spine, and pull the trapped arm free using a circular motion toward your thumb
 
@@ -225,6 +231,8 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 100% Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout, deny the arm trap by keeping elbows tight and arms close to your centerline, and immediately retract any arm that gets pulled across their body. When you feel the hip shift, widen your base and drive your hips low to eliminate their angle. Return to your guard breaking sequence once the sweep threat is neutralized.
@@ -236,6 +244,8 @@ Maintain strong posture throughout, deny the arm trap by keeping elbows tight an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 100% Sweep?</p>
 
 ### 1. Allowing one arm to drift across opponent's centerline without resistance or awareness
 
@@ -270,6 +280,8 @@ Maintain strong posture throughout, deny the arm trap by keeping elbows tight an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 100% Sweep?</p>
+
 **Recognition Drilling** - Identifying the setup cues for 100% Sweep attempts
 Partner attempts the 100% Sweep setup at slow speed while you practice identifying each stage: arm isolation attempt, hip angle creation, guard unlock, and planted foot. Call out each stage verbally as you recognize it. Develop the ability to detect the technique within the first 1-2 seconds of setup before it reaches the point of commitment.
 
@@ -286,29 +298,6 @@ Start in closed guard top against a partner whose primary attack is the 100% Swe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a 100% Sweep is being set up?
-**A**: The earliest cue is feeling the opponent pull one of your arms across their body with two-handed control or establish an overhook clamping your tricep. This arm isolation always precedes the hip angle and planted foot, so recognizing and responding to the arm trap attempt gives you the maximum defensive window. Secondary cues include feeling their hips shift laterally and sensing their guard unlock on one side as they prepare to plant a foot.
-
-**Q2**: Why is base widening more effective than posture recovery once the arm is already trapped?
-**A**: Once the arm is trapped, posture recovery alone is insufficient because the opponent already has the fulcrum point established. Explosive posturing can even accelerate the sweep by lifting your center of gravity and making you easier to roll. Base widening directly addresses the mechanical requirement of the sweep by increasing the distance between your support points, which exponentially increases the force required to roll you. A low, wide base with hips driven forward makes the rolling motion structurally impossible even with a solid arm trap, buying you time to work on extracting the arm from a stable position.
-
-**Q3**: Your arm is trapped and you feel the hip drive beginning - what is your last-resort defensive response?
-**A**: When the sweep is already in deep execution, your last-resort defense is posting your free hand wide on the mat to the side opposite the sweep direction while simultaneously driving your weight over that posting arm. This creates a structural brace that can arrest the rolling momentum even mid-sweep. However, you must immediately recognize that this posting arm is now vulnerable to kimura attack, so as soon as the sweep momentum is stopped, you need to extract the trapped arm and retract the posting hand back to your body before the opponent can transition to the submission. This is a temporary emergency measure, not a sustainable defensive position.
-
-**Q4**: How does the defender's response to a 100% Sweep attempt differ between gi and no-gi?
-**A**: In gi, the opponent has stronger grip options for the arm trap through sleeve and collar control, making early grip fighting and grip breaking essential for prevention. The defender should prioritize stripping sleeve grips before they develop into arm isolation. In no-gi, the arm trap relies on overhooks and wrist control which are less secure but faster to establish due to the lack of friction. The defender can more easily extract a trapped arm through sweat and skin slip, but must respond faster because the opponent will use more explosive timing to compensate for reduced grip security. In both contexts, base widening and hip positioning remain the primary structural defenses.
-
-**Q5**: What submission threats should you be aware of when defending the 100% Sweep?
-**A**: The primary submission threats during defense are kimura on the posting arm if you brace against the sweep with your free hand, guillotine choke if you drive your head forward while trying to recover posture with your arm trapped, and triangle choke if you pull one arm free but leave the other in a compromised position creating the arm-in/arm-out configuration. Understanding these chains is critical because many defenders escape the sweep only to be submitted by the follow-up attack. Your defensive movements should keep both arms close to your body and your head position neutral to avoid feeding into these submission transitions.
-
-
-
-</section>
 
 
 </main>

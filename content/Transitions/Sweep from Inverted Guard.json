@@ -235,7 +235,7 @@
         "description": "Apply the sweep in positional sparring starting from inverted guard against fully resisting opponents. Track success rate and identify the most common defensive responses encountered in live training. Refine timing and grip selection based on real-time feedback from competition-intensity sparring rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the sweep from inverted guard?",
         "answer": "The optimal timing is when the opponent commits their weight forward while attempting to pass or control your inverted position. Their forward momentum creates the rotational inertia needed for the sweep. If the opponent maintains distance with a low, wide base, the sweep requires significantly more effort and has lower success probability. The window opens specifically when their weight shifts forward of their base of support."
@@ -351,7 +351,7 @@
         "correction": "Shift your weight away from the hook side and actively work to strip the hook before the sweep gains momentum. If the hook is deep, backstep to the opposite side to remove the sweeping angle"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest visual cues that an opponent is setting up a sweep from inverted guard?",
         "answer": "The earliest cues are the opponent beginning to thread their near-side leg behind your far leg while establishing a grip on your pants at knee level. You may also notice them gripping your belt or collar with their other hand while their hips elevate and rotate toward the sweep direction. The combination of grip establishment and leg threading is the clearest indicator that a sweep attempt is imminent and requires immediate defensive action."

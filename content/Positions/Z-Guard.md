@@ -32,7 +32,7 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain high knee shield placement targeting opponent's shoulder or collarbone to maximize distance and prevent weight consolidation

@@ -218,11 +218,11 @@ The Rodeo Ride to Back Control transition is the critical link between the turtl
 
 - [[Transitions/Escape from Rodeo Ride]] - Defender's primary escape transition that this back take must overcome
 
-- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that creates dilemma openings for hook insertion
+- [[Submissions/Calf Slicer]] - Submission threat from Rodeo Ride that creates dilemma openings for hook insertion
 
 - [[Transitions/Back Take]] - General back take transition category this technique belongs to
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control through this transition
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission after achieving back control through this transition
 
 
 </section>

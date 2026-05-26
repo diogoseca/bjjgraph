@@ -190,6 +190,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Extraction?</p>
+
 - Bent knee creates structural integrity - never allow full leg extension which maximizes submission leverage
 - Hip rotation direction matters - rotate away from attacker's leg triangle to complicate their control
 - Address leg control as equal priority to grip fighting - trapped leg must be freed simultaneously
@@ -204,6 +206,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Extraction?</p>
+
 - Opponent has established initial ankle control but leg triangle is incomplete
 - Defender maintains some degree of hip mobility and rotational freedom
 - Knee can still bend - full leg extension has not been forced
@@ -216,6 +220,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Extraction step by step?</p>
 
 1. **Recognize threat**: Immediately identify that your ankle has been captured and assess the attacker's leg positioning around your trapped leg - determine if their leg triangle is incomplete and identify which leg controls your thigh
 2. **Bend knee aggressively**: Pull your trapped knee toward your chest with maximum effort, bending at the hip and knee simultaneously to prevent the attacker from straightening your leg and increasing submission leverage on the ankle joint
@@ -246,6 +252,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Extraction?</p>
+
 - **Attacker completes leg triangle before knee clears** (Effectiveness: High) - Your Response: Transition to hip rotation defense or counter-entry to 50-50 guard rather than continuing extraction against consolidated control → Leads to [[Positions/Straight Ankle Lock Control]]
 - **Attacker follows hip rotation and transitions to inside ashi-garami** (Effectiveness: High) - Your Response: Recognize the transition early and change rotation direction or immediately address the new entanglement with appropriate escape sequence → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Attacker maintains strong heel grip despite two-on-one attack** (Effectiveness: Medium) - Your Response: Add wrist rotation to grip break, peel fingers individually, or create angle change through hip movement that reduces grip efficacy → Leads to [[Positions/Straight Ankle Lock Control]]
@@ -257,6 +265,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Extraction?</p>
 
 ### 1. Allowing leg to straighten completely before attempting escape
 
@@ -296,6 +306,8 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Extraction (Attacker)?</p>
+
 **Week 1-2** - Mechanics isolation
 Practice the knee bend and grip break sequence against a stationary partner who holds ankle control without resistance. Focus on proper hand positioning for two-on-one grip attack and coordinating knee bend with grip break timing.
 
@@ -313,48 +325,12 @@ Full resistance positional sparring starting from straight ankle lock control. P
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Knee Extraction?
-**A**: The primary goal is to free your trapped knee from the attacker's leg control before they can complete their leg triangle and consolidate position. By extracting the knee toward your chest, you eliminate their submission leverage and create space to escape to standing or guard recovery.
-
-**Q2**: Why must you keep your knee bent throughout the escape attempt?
-**A**: Keeping the knee bent maintains structural integrity that limits the attacker's submission pressure on your ankle joint. Full leg extension maximizes their mechanical advantage for the finish and eliminates your ability to use hip rotation for escape. The bent knee position preserves mobility options and reduces injury risk substantially.
-
-**Q3**: What is the optimal time window for attempting knee extraction?
-**A**: The optimal window is within 5-10 seconds of ankle control being established. Beyond this timeframe, the attacker typically secures tighter leg control through completed leg triangle, making extraction progressively more difficult. Immediate recognition and rapid technical execution dramatically improve success probability compared to delayed attempts.
-
-**Q4**: Your opponent begins closing their leg triangle around your thigh - how do you adjust your escape?
-**A**: Immediately shift priority to preventing the triangle completion by using your free leg to kick or push on their bottom leg. If you cannot prevent triangle completion, abandon extraction and transition to hip rotation defense or counter-entry to 50-50 guard. Continuing extraction against consolidated leg control wastes energy and time.
-
-**Q5**: How do you determine which direction to rotate your hip during extraction?
-**A**: Rotate in the direction that complicates the attacker's transition attempts. If rotating away would give them inside ashi-garami, rotate toward them instead. If rotating toward would give them outside ashi-garami, rotate away. The key is recognizing their leg configuration and deliberately choosing rotation that denies their preferred advancement.
-
-**Q6**: What grip breaking technique has highest priority when escaping ankle lock control?
-**A**: Two-on-one grip breaking targeting the hand controlling your heel has highest priority because the heel grip provides most of their finishing leverage. Attack along the thumb line while peeling fingers. Secondary priority is preventing them from deepening their forearm position against your Achilles tendon.
-
-**Q7**: The attacker follows your hip rotation and begins transitioning to inside ashi - what is your response?
-**A**: Immediately recognize the transition indicator and either change your rotation direction to deny the entry, or accept the position change and implement inside ashi-garami specific escape sequences. Do not continue the extraction motion that is facilitating their advancement to a more dangerous entanglement.
-
-**Q8**: After successfully extracting your knee, what must you do immediately?
-**A**: Create distance immediately by scooting hips away and establishing frames on the attacker's upper body. Then recover to standing position or establish open guard with feet on hips. Remaining close after extraction allows immediate re-engagement - the escape is not complete until you have established defensive position or returned to standing.
-
-**Q9**: Your two-on-one grip break is failing because the attacker has an exceptionally deep grip - what alternative approach do you take?
-**A**: When the standard two-on-one fails against a deep grip, shift to wrist rotation by turning their gripping wrist to break along the weakest axis. Alternatively, create a sharp angle change through hip movement that reduces the grip's structural effectiveness without needing to overpower it directly. You can also peel individual fingers starting with the pinky to progressively weaken the grip configuration.
-
-**Q10**: What role does the free leg play during the knee extraction sequence?
-**A**: The free leg serves dual critical functions: preventing the attacker from completing their leg triangle by pushing or kicking down on their bottom leg, and creating additional space for the trapped knee to clear by driving against the attacker's hips or thighs. Without active free leg management, the attacker consolidates leg control while you focus on grip breaking, making extraction nearly impossible.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Extraction?</p>
 
 Knee extraction is a relatively safe defensive technique when executed properly. The primary safety concern is avoiding the actual ankle lock submission by maintaining knee bend throughout - if you feel significant pressure on your ankle joint, tap immediately rather than forcing the extraction. Never allow full leg extension under load as this dramatically increases injury risk to the ankle and Achilles tendon. Practice grip breaking and leg positioning components separately before combining into the full sequence under resistance. Training partners should release immediately upon tap and avoid cranking submissions during extraction drilling.
 

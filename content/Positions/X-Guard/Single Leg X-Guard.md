@@ -28,7 +28,7 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant elevation of opponent's trapped leg to prevent them from establishing heavy pressure or stable base
@@ -193,7 +193,7 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (10% of attempts)
+- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (10% of attempts)
 
 - **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (8% of attempts)
 

@@ -164,6 +164,8 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Dogfight Position?</p>
+
 - Bottom player creates a strong frame on your neck or shoulder and begins hip escaping to create an angle—this is the preparatory phase before the rise attempt
 - You feel their near-side arm swimming aggressively for the underhook beneath your armpit, indicating they are about to commit to the dogfight entry
 - Bottom player's elbow drives into the mat as they begin shifting weight from their back onto their posting arm, creating the structural support for the rise
@@ -175,6 +177,8 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Dogfight Position?</p>
 
 - Maintain heavy chest-to-chest pressure with low hips to deny the space needed for frame establishment and hip escape angles
 - Fight the underhook battle proactively—when you feel their arm swimming inside, immediately counter with whizzer or crossface to kill the underhook before it deepens
@@ -188,6 +192,8 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Dogfight Position?</p>
 
 ### 1. Drive crossface and drop chest pressure immediately when you feel the frame or hip escape beginning
 
@@ -225,6 +231,8 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Dogfight Position?</p>
+
 ### → [[Positions/Leg Weave]]
 
 Shut down the dogfight entry early by driving crossface pressure into their frame attempt, collapsing their elbow post before structural support is established, and maintaining heavy low hips that deny the hip escape angle. Fight the underhook by swimming your arm back to crossface position every time they attempt to swim inside.
@@ -240,6 +248,8 @@ Capitalize on their failed rise attempt by stepping over the hook as it loosens 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Dogfight Position?</p>
 
 ### 1. Allowing the bottom player to establish a deep frame on your neck without immediately countering with crossface or shoulder pressure
 
@@ -269,6 +279,8 @@ Capitalize on their failed rise attempt by stepping over the hook as it loosens 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Dogfight Position?</p>
+
 **Week 1-2** - Recognition and early shutdown
 Partner attempts dogfight entries at 50% speed. Top player focuses on recognizing frame establishment, hip escape angles, and elbow posting attempts. Practice driving crossface and dropping hips the moment you feel the frame appear. Drill 15 repetitions each side.
 
@@ -285,29 +297,6 @@ Live rounds starting in leg weave. Top player works to either prevent the dogfig
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the bottom player's forearm driving into your neck as they begin creating the frame—what is your immediate response?
-**A**: Drive your crossface aggressively forward past their forearm while simultaneously dropping your hips lower and heavier onto their hips. The crossface must beat their frame establishment—if you can get your shoulder past their forearm and onto their jaw, their frame becomes ineffective. Combine this with your near hand pinning their far hip to prevent the hip escape that follows the frame.
-
-**Q2**: The bottom player has posted their elbow and is halfway up—is it better to drive them back down or capitalize on the scramble?
-**A**: This depends on your whizzer depth and their hook status. If you have a deep whizzer and their hook is loosening, capitalize by circling toward their back as they rise—their turning motion during the transition exposes their back. If your whizzer is shallow and their hook is still active, drive them back down immediately using heavy crossface combined with sprawl pressure before they establish full kneeling base.
-
-**Q3**: What are the earliest recognition cues that a dogfight entry is being attempted?
-**A**: The earliest cue is a strong frame appearing on your neck or shoulder combined with a hip escape creating an angle. This precedes the actual rise by several seconds. The next cue is feeling their near-side arm begin swimming toward your armpit for the underhook. By the time their elbow hits the mat in a posting position, you are already behind in the counter-timing. Effective defense requires responding to the frame and hip escape, not waiting for the elbow post.
-
-**Q4**: How do you use the whizzer effectively without creating space that helps the bottom player?
-**A**: The whizzer must be combined with forward driving pressure, not backward pulling force. Secure the whizzer by wrapping their underhook arm tightly while driving your chest into their shoulder. Use the whizzer to rotate their shoulder toward the mat rather than pulling their arm away from your body. Keep your hips driving forward throughout—the whizzer is a pinning tool, not a separation tool. If they begin circling into your whizzer side, follow their rotation and use it to take their back.
-
-**Q5**: The bottom player successfully achieves kneeling dogfight despite your defensive efforts—what is your best immediate strategy?
-**A**: If they achieve dogfight, immediately assess the underhook battle. If you have the whizzer, use it aggressively to threaten darce choke or drive them back down with a whizzer-assisted crossface. If neither player has clear underhook advantage, fight to secure your own underhook by swimming inside. As the top player, you can also disengage by sprawling your hips back and re-engaging from a standing position, which resets the passing exchange from a more favorable angle.
-
-
-
-</section>
 
 
 </main>

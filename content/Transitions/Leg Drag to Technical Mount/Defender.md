@@ -166,6 +166,8 @@ Understanding which phase of the transition the attacker is in determines your b
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Technical Mount?</p>
+
 - Attacker increases hip pressure significantly while tightening their crossface or underhook—this signals the transition is beginning
 - Attacker's near-side knee begins lifting off the mat and sliding toward the space behind your back rather than maintaining standard leg drag position
 - Attacker releases their leg drag grip on your hip or pants while maintaining upper body control—this indicates the knee is already inserted and they are moving to post the front leg
@@ -177,6 +179,8 @@ Understanding which phase of the transition the attacker is in determines your b
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Technical Mount?</p>
 
 - Act early—the defensive window closes rapidly once hip pressure increases and the knee begins sliding behind your back
 - Frame at the shoulder and hip simultaneously to create structural resistance against the transition
@@ -191,6 +195,8 @@ Understanding which phase of the transition the attacker is in determines your b
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Technical Mount?</p>
 
 ### 1. Frame on attacker's shoulder and hip, then hip escape to insert knee shield and recover half guard
 
@@ -228,6 +234,8 @@ Understanding which phase of the transition the attacker is in determines your b
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Technical Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Frame against the attacker's shoulder with your near arm and hip escape to create enough space to insert your knee between your bodies as a shield. Thread your bottom leg around their trapped leg to establish half guard entanglement before they can withdraw the leg and reposition. The key is inserting the knee shield before their front leg posts.
@@ -243,6 +251,8 @@ Bridge explosively during the moment the attacker releases their leg drag grip t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Technical Mount?</p>
 
 ### 1. Remaining passive and flat on back while the attacker completes each transition phase
 
@@ -272,6 +282,8 @@ Bridge explosively during the moment the attacker releases their leg drag grip t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Technical Mount?</p>
+
 **Week 1-2** - Recognition and framing fundamentals
 Partner slowly executes the Leg Drag to Technical Mount transition while you practice identifying each phase. Focus on building the frame response—shoulder and hip frames with hip escape—without resistance from the attacker. Drill 15 repetitions per side, pausing at each recognition cue to confirm you can identify the transition phase.
 
@@ -288,29 +300,6 @@ Begin positional sparring rounds starting from leg drag bottom. Defend all trans
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the Leg Drag to Technical Mount transition?
-**A**: The most critical window is before the attacker's knee slides behind your back. Once the knee is inserted deep with the shin against your back, your defensive options narrow significantly. The moment you feel increased hip pressure and tightening of the crossface, you must immediately frame and begin creating space. Waiting even one second past the knee insertion often means the transition is complete.
-
-**Q2**: Your attacker has already inserted their knee behind your back but has not yet posted their front leg—what is your best defensive option?
-**A**: At this stage, recovering guard is extremely difficult. Your best option is to turn away decisively and force a back take scramble. As you turn, immediately fight for underhooks and work to get to your knees in turtle position. From turtle, you can fight for underhooks and create scramble opportunities. This is preferable to lying still and allowing them to post the front leg and settle into technical mount with full submission access.
-
-**Q3**: Why is extending your arms to push the attacker away a critical defensive error during this transition?
-**A**: Any arm extension during this transition is immediately exploitable. The attacker is already positioned to slide into technical mount, and an extended arm becomes isolated the moment the knee settles behind your back. The arm triangle and armbar are the primary submissions from technical mount, and both require an extended or isolated arm. Frame with bent elbows and forearm structures instead, generating space through hip movement rather than arm pushing.
-
-**Q4**: How do you recover half guard as a defensive response to this transition?
-**A**: Frame against the attacker's shoulder with your near forearm while simultaneously hip escaping to create space between your bodies. Use the space to insert your near knee across their body as a shield, then wrap your bottom leg around their trapped leg to establish the half guard entanglement. The entire sequence must happen before the attacker posts their front leg—once the front leg is posted, the knee shield insertion becomes nearly impossible due to the blocking angle.
-
-**Q5**: What recognition cues indicate the Leg Drag to Technical Mount transition has begun?
-**A**: Four primary cues signal the transition: the attacker's hip pressure increases dramatically against your near hip, their crossface or underhook tightens simultaneously with the pressure increase, their near-side knee lifts off the mat and begins moving toward your back, and their weight shifts forward and diagonal rather than straight down. Recognizing any combination of these cues should trigger an immediate defensive response.
-
-
-
-</section>
 
 
 </main>

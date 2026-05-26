@@ -162,6 +162,8 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ten Finger Guillotine Variation?</p>
+
 - Opponent releases their current grip configuration—squeezing pressure briefly decreases as they reconfigure hands
 - Both of opponent's hands come together on the far side of your neck with individual finger pressure replacing previous palm or wrist contact
 - Increased forward hip pressure from opponent as they stabilize position before committing to the grip change
@@ -173,6 +175,8 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ten Finger Guillotine Variation?</p>
 
 - Tuck chin immediately upon recognizing the grip change to deny trachea access and reduce choking surface area
 - Create frames against the opponent's hips to generate space and prevent full compression of the interlaced cage
@@ -187,6 +191,8 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ten Finger Guillotine Variation?</p>
 
 ### 1. Explosive posture recovery during grip transition window
 
@@ -224,6 +230,8 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ten Finger Guillotine Variation?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the opponent releases their original grip. Drive your head upward and back while framing against their hips with both hands. If you create sufficient space, immediately close your guard to prevent the opponent from re-establishing guillotine control from top position.
@@ -239,6 +247,8 @@ Prevent the finish through chin tuck and active hand fighting against the interl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ten Finger Guillotine Variation?</p>
 
 ### 1. Waiting too long to defend—allowing the interlaced grip to fully lock before attempting escape
 
@@ -268,6 +278,8 @@ Prevent the finish through chin tuck and active hand fighting against the interl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ten Finger Guillotine Variation?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the grip transition moment
 Partner switches between standard guillotine grips and the ten finger interlace while you practice identifying the exact moment of grip release. Start with slow, telegraphed switches and progress to rapid transitions. Goal is to recognize the grip change within the first half-second.
 
@@ -284,29 +296,6 @@ Positional sparring starting from guillotine control with opponent free to use a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate your opponent is switching to a ten finger guillotine grip?
-**A**: The first cue is increased hip pressure from the top player as they stabilize position before the grip change. Next, you feel the original grip release—squeezing pressure briefly decreases as they reconfigure hands. Then both hands come together on the far side of your neck with individual finger pressure replacing the previous palm or wrist contact. This recognition window is your best opportunity to defend.
-
-**Q2**: When is the optimal moment to attempt your escape from the ten finger guillotine?
-**A**: The optimal escape window is during the grip transition itself—the one-to-two-second period when the opponent releases their original grip and has not yet completed the finger interlace. During this brief window, their control is at its weakest because neither grip is fully secured. Posture up explosively during this moment, as waiting until the interlaced grip locks makes escape significantly more difficult.
-
-**Q3**: What happens if you fail to defend before the ten finger grip is fully locked?
-**A**: Once the interlaced grip locks past the second knuckle, breaking the grip through hand fighting becomes extremely difficult because the structure strengthens under load. Your defense must shift from grip prevention to pressure mitigation—tuck your chin deeply, create frames against the opponent's hips, and work to close your guard to limit their ability to arch and apply finishing pressure. Survival becomes the priority while working for incremental improvements.
-
-**Q4**: How should you prioritize your defensive responses when caught in a ten finger guillotine?
-**A**: First priority is chin tuck to protect the trachea and reduce choking surface area. Second, frame against the opponent's hips to prevent full compression and create space. Third, work hand fighting to separate the interlaced fingers, targeting the weakest connection points. Fourth, use hip movement to change your angle relative to the choke. Layer these defenses in sequence rather than attempting all four simultaneously.
-
-**Q5**: Why is panicking particularly dangerous when caught in this choke variation?
-**A**: Panicked movement increases oxygen consumption and heart rate, accelerating the effect of any blood flow restriction to the brain from carotid compression. Explosive undirected escape attempts also tend to tighten the opponent's interlaced grip rather than create escape opportunities, as sudden movement causes the meshed fingers to cinch tighter. Calm, technical responses preserve energy and allow you to identify genuine openings.
-
-
-
-</section>
 
 
 </main>

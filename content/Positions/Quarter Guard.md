@@ -32,7 +32,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Quarter guard is fundamentally transitional—neither player should remain static, as the position deteriorates rapidly without active progression
@@ -195,7 +195,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (6% of attempts)
+- **[[Kimura from Quarter Guard/Attacker|Kimura from Quarter Guard]]** (6% of attempts)
 
 - **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (5% of attempts)
 

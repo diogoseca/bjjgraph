@@ -164,6 +164,8 @@ Your defensive framework centers on three priorities: maintaining the lockdown f
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Limp Leg Escape to Pass?</p>
+
 - Opponent's trapped leg suddenly loses all muscular tension - the leg feels noticeably lighter and thinner in your lockdown, indicating they are applying the limp leg concept
 - Opponent drives forward with increased chest and shoulder pressure against your face while their free hand reaches toward your feet, signaling they are establishing crossface before addressing the triangle
 - Opponent's free hand drops below your knee line toward your feet, indicating they are attempting to separate the foot triangle of your lockdown configuration
@@ -175,6 +177,8 @@ Your defensive framework centers on three priorities: maintaining the lockdown f
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Limp Leg Escape to Pass?</p>
 
 - Maintain constant lockdown tension by pulling your heel down and extending your hips - a tight lockdown is exponentially harder to escape than a loose one
 - Prevent crossface establishment by using your underhook arm to control their shoulder and maintain distance between their chest and your face
@@ -189,6 +193,8 @@ Your defensive framework centers on three priorities: maintaining the lockdown f
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Limp Leg Escape to Pass?</p>
 
 ### 1. Increase lockdown tension and hip extension immediately when you feel opponent's leg relax
 
@@ -226,6 +232,8 @@ Your defensive framework centers on three priorities: maintaining the lockdown f
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Limp Leg Escape to Pass?</p>
+
 ### → [[Positions/Half Guard/Electric Chair]]
 
 Maintain relentless lockdown pressure by squeezing the figure-four tightly and extending hips whenever you feel the opponent relax their leg. Prevent crossface by keeping your underhook deep and your head tight to their ribs. Continuously threaten the Electric Chair submission and Old School sweep to force them into defensive reactions that prevent them from working the systematic escape sequence.
@@ -241,6 +249,8 @@ When the lockdown begins failing despite your best efforts, immediately transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Limp Leg Escape to Pass?</p>
 
 ### 1. Maintaining a static lockdown without actively threatening sweeps or submissions
 
@@ -270,6 +280,8 @@ When the lockdown begins failing despite your best efforts, immediately transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Limp Leg Escape to Pass?</p>
+
 **Week 1-2** - Lockdown retention under pressure
 Partner applies limp leg mechanics from top while you focus on maintaining lockdown integrity. Practice feeling the moment their leg relaxes and responding with immediate hip extension. Work 20 repetitions per round focusing on squeezing the figure-four tighter when you sense their tension drop. No transitions yet - pure retention focus.
 
@@ -286,29 +298,6 @@ Live rounds starting in Electric Chair with you on bottom. Top player works the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning the limp leg escape?
-**A**: The earliest cue is a sudden loss of muscular tension in their trapped leg. The leg will feel noticeably lighter and thinner in your lockdown. This is the critical moment to respond because once they relax the leg, the lockdown loses its primary leverage point. You must increase hip extension and lockdown pressure immediately before they progress to breaking the foot triangle.
-
-**Q2**: Your opponent has relaxed their leg and their hand is reaching toward your feet - what is your highest priority action?
-**A**: Your highest priority is to prevent them from separating your foot triangle. Use your free hand to block their reaching hand while simultaneously increasing your hip extension and lockdown squeeze. If you cannot block their hand without sacrificing your underhook or ankle control, immediately transition to Old School sweep using their forward pressure commitment, or begin your Deep Half Guard entry before the lockdown fully fails.
-
-**Q3**: When should you abandon the Electric Chair and transition to Deep Half Guard instead?
-**A**: Transition to Deep Half Guard when the foot triangle of your lockdown has been compromised and you can no longer generate meaningful splitting pressure despite maximum hip extension. The trigger is feeling the opponent's knee begin circling toward your hip with decreasing resistance. At this point, immediately release the lockdown, dive your head and shoulders under their near hip, and establish the deep underhook on their far leg before they can complete extraction and establish a passing position.
-
-**Q4**: How do you use the Old School sweep as a defensive counter to the limp leg escape?
-**A**: When the opponent drives heavy forward pressure to establish crossface during the escape, their weight shifts forward and creates momentum you can redirect. Release the lockdown, maintain your deep underhook, grab their far leg or belt, and roll backward using their committed forward pressure to sweep them over your shoulder to mount. The timing must exploit their weight commitment - initiate the roll exactly when they are loading pressure forward, not when they are balanced.
-
-**Q5**: What grip adjustments should you make when you feel the lockdown weakening?
-**A**: When the lockdown weakens, prioritize tightening three things simultaneously: squeeze your heels together to compress the figure-four, pull your underhook deeper across their back to prevent them creating separation, and increase your grip on their near ankle to maintain the splitting action. If despite these adjustments the lockdown continues to fail, the ankle grip becomes your transitional handle for either the Old School sweep or your entry into Deep Half Guard. Never simply let all grips fail passively.
-
-
-
-</section>
 
 
 </main>

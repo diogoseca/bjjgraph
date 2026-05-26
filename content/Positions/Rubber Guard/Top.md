@@ -165,6 +165,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ## Position Definition
 
+<p class="section-subtitle">What is Rubber Guard (Top)?</p>
+
 - One arm trapped against opponent's chest by their elevated leg creating severe posture compromise and limiting defensive options
 - Posture broken with head pulled down toward opponent's chest, unable to establish strong base or create effective distance
 
@@ -174,6 +176,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Rubber Guard (Top)?</p>
 
 - Understanding of closed guard defensive principles and posture maintenance
 - Knowledge of Rubber Guard submission threats and defensive hierarchy
@@ -185,6 +189,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Rubber Guard?</p>
 
 - Prevent initial leg elevation by maintaining strong posture and tight elbow positioning in closed guard
 - Create frames with free hand to prevent advancement through positional hierarchy
@@ -200,6 +206,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Rubber Guard (Top)?</p>
 
 **If trapped in established Rubber Guard with posture severely compromised:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
@@ -228,6 +236,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Rubber Guard?</p>
 
 ### 1. Pulling trapped arm aggressively straight back without addressing leg control
 
@@ -266,6 +276,8 @@ The Rubber Guard from the top perspective represents one of the most challenging
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Rubber Guard attacks?</p>
 
 ### Rubber Guard Defensive Positioning
 

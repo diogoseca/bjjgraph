@@ -208,7 +208,7 @@ The Kneebar from Grasshopper fits into the broader leg entanglement system as a 
 
 - [[Positions/X-Guard]] - Sweep option when kneebar entry is denied but leg contact maintained
 
-- [[Transitions/Calf Slicer]] - Follow-up submission when opponent straightens leg to defend
+- [[Submissions/Calf Slicer]] - Follow-up submission when opponent straightens leg to defend
 
 - [[Positions/Inverted Guard]] - Parent guard category that grasshopper belongs to
 

@@ -188,6 +188,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bodylock Pass from Seated?</p>
+
 - Close distance explosively with a committed level change rather than gradually walking into the opponent's framing range
 - Establish the body lock at the lower rib to waist level where the torso is narrowest for maximum grip security
 - Maintain zero space between your chest and the opponent's torso throughout the entire passing sequence
@@ -202,6 +204,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bodylock Pass from Seated?</p>
+
 - Athletic stance within one explosive step of the seated guard player's torso
 - At least one grip advantage established through grip fighting to limit opponent's framing ability
 - Opponent's legs not actively controlling your hips or engaged in strong hook positions
@@ -214,6 +218,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bodylock Pass from Seated step by step?</p>
 
 1. **Establish passing stance and distance**: From standing or combat base facing the seated guard player, establish an athletic stance with knees bent and weight on the balls of your feet. Position yourself just outside the opponent's foot-to-hip pushing range where you can reach their torso with a single explosive step forward.
 2. **Win the grip exchange**: Engage in grip fighting to control at least one of the opponent's wrists, pulling it across their body to disrupt their posted hand base. This eliminates their primary framing arm and creates an unguarded entry lane on one side of their body for the level change.
@@ -243,6 +249,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bodylock Pass from Seated?</p>
+
 - **Opponent establishes strong forearm frame across neck and shoulder before lock is established** (Effectiveness: High) - Your Response: Change the angle of entry or redirect their framing arm by pulling it across their body with your grip fighting hand, then re-engage with the level change from a different angle → Leads to [[Positions/Seated Guard]]
 - **Opponent inserts butterfly hooks as you close distance and attempts to elevate and sweep** (Effectiveness: Medium) - Your Response: Keep hips low and heavy during entry, pinch knees together to neutralize hook leverage, and accelerate forward drive to flatten opponent before hooks generate lifting force → Leads to [[Positions/Half Guard]]
 - **Opponent executes technical standup during your approach before the level change reaches them** (Effectiveness: High) - Your Response: Time the entry to catch opponent during grip transitions or when both hands are posted behind them, and immediately chain with a snap-down to front headlock if they begin to stand → Leads to [[Positions/Seated Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bodylock Pass from Seated?</p>
 
 ### 1. Attempting the bodylock from too far away without closing distance through grip fighting first
 
@@ -293,6 +303,8 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bodylock Pass from Seated (Attacker)?</p>
+
 **Phase 1: Lock Mechanics** - Body lock grip placement and pressure connection
 Practice establishing gable grip and S-grip body locks from clinch range with a compliant partner. Focus on grip placement at the lower ribs, chest-to-chest connection with zero space, and head positioning on the near side. Drill the squeeze mechanics without resistance to build muscle memory for the lock configuration.
 
@@ -313,39 +325,12 @@ Incorporate the bodylock pass into live sparring from seated guard situations wi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal grip placement for the body lock, and why does this location provide maximum control?
-**A**: The optimal grip placement is at the lower rib to waist level where the opponent's torso is narrowest. This provides maximum mechanical advantage because your arms have the shortest circumference to control, creating the tightest possible squeeze. Placing the lock too high allows it to slide off during bridging, while placing it too low gives insufficient control over the opponent's upper body and posture.
-
-**Q2**: Your opponent posts both hands behind them for base as you approach - how do you exploit this positioning?
-**A**: When both hands are posted behind the opponent, their arms cannot frame against your incoming level change. This is the ideal timing window because they must choose between maintaining their base and defending the lock. Execute an explosive level change and shoot directly for the body lock, driving your head into their chest before they can bring their hands forward to create any defensive frame structure.
-
-**Q3**: What is the most critical hip movement during the leg-clearing phase of the pass?
-**A**: The windshield wiper hip rotation is the most critical movement. After driving the opponent flat with the body lock, your hips must rotate and slide laterally past their thigh line in a sweeping arc. This hip rotation combined with constant downward pressure on their legs prevents them from reinserting hooks or recovering guard. Without this hip movement, you remain stuck between their legs regardless of upper body control quality.
-
-**Q4**: The opponent inserts a butterfly hook just as you establish the lock - what is your immediate response?
-**A**: Immediately pinch your knees together to neutralize the hook's lifting power while driving your weight forward and downward. Do not try to remove the hook with your hands, as this would compromise the body lock. Instead, use your forward drive to flatten the opponent despite the hook, removing its leverage angle. As they go flat, the hook loses its mechanical effectiveness and you can complete the pass through continuous pressure.
-
-**Q5**: Why is grip fighting before the level change essential rather than shooting directly for the lock?
-**A**: Shooting against strong defensive frames leads to failed entries and wasted energy. Controlling one of the opponent's wrists and pulling it across their body eliminates that arm as a frame while disrupting their posted hand base. This creates an unguarded entry lane on one side of their body. The single-wrist control also prevents them from establishing collar ties or snap-downs that counter your level change effectively.
-
-**Q6**: What happens if you release the bodylock before fully clearing the opponent's legs, and how do you confirm it is safe to release?
-**A**: Releasing early allows the opponent to immediately reinsert their legs for half guard or full guard recovery, completely negating the pass. The bodylock should be maintained until your hips have cleared past the opponent's thigh line and you feel no leg contact between your hips and their guard structure. The safe release point is when you can establish crossface pressure and your hips are positioned on the far side of their body with no leg obstruction remaining.
-
-**Q7**: How does the bodylock pass chain with the toreando pass to create a passing dilemma against seated guard?
-**A**: When you threaten toreando passes by gripping pants or ankles, the seated guard player extends their legs to create distance and defensive frames. This leg extension creates the opening for a bodylock entry because their legs are occupied defending the toreando threat and cannot frame against your torso. Conversely, when they anticipate the bodylock and bring their arms forward to frame, their legs become available for toreando control. The two passes create a push-pull dilemma where defending one directly opens the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bodylock Pass from Seated?</p>
 
 The bodylock pass applies significant compressive force to the opponent's torso and ribcage during the squeeze and drive phases. Practitioners should be mindful of training partners with rib injuries or breathing difficulties and apply pressure progressively during drilling rather than explosively. When driving the opponent backward, control the descent to prevent their head from impacting the mat. Release the lock immediately if your partner signals distress or taps due to rib compression. Avoid cranking the lock upward toward the neck, which can create dangerous cervical spine pressure.
 

@@ -208,7 +208,7 @@ The Single Leg to Back Take represents a crucial link between standing wrestling
 
 - [[Transitions/Back Take]] - General back taking transition sharing core principles of climbing to back control
 
-- [[Transitions/Rear Naked Choke]] - Primary submission finish available from the resulting back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission finish available from the resulting back control position
 
 - [[Transitions/Arm Drag to Back]] - Alternative back taking technique from standing that exploits similar off-angle principles
 

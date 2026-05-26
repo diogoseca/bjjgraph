@@ -81,7 +81,7 @@
       "relationship": "Advanced positional target accessible through the progressive peel variant"
     },
     {
-      "name": "Buggy Choke Finish",
+      "name": "Buggy Choke",
       "relationship": "Primary submission alternative when the choke is progressing rather than stalling"
     },
     {
@@ -238,7 +238,7 @@
         "description": "Open sparring from turtle top incorporating the grip strip as part of the complete attack system including buggy choke finish, back take, crucifix entry, and side control transition. Develop real-time pathway selection based on defensive reactions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary indicator that you should abandon the buggy choke and execute the grip strip transition?",
         "answer": "When the choke has stalled for 3-5 seconds despite sustained pressure, with the bottom player maintaining effective defensive grips or frames that prevent the choking arm from deepening. Continued effort on the stalled choke burns energy without progress while the transition to side control preserves positional advantage and offensive momentum."
@@ -350,7 +350,7 @@
         "correction": "Keep elbows connected to your ribs and knees, using compact frames for defense. Create space through hip movement and shrimping rather than arm extension."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary escape window during the Grip Strip from Buggy Choke transition?",
         "answer": "The primary escape window occurs during the 1-2 second gap when the top player releases their choking grips and redirects their arms toward side control positioning. During this moment, the control structure transitions from choke-based to position-based, creating a brief period where neither system is fully established. This window is the highest-percentage opportunity for guard recovery."

@@ -21,19 +21,19 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 60% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 74% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
@@ -51,7 +51,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck Entry",
-      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Position Definition
 
+<p class="section-subtitle">What is Turtle (Top)?</p>
+
 - Top practitioner positioned behind or to the side of opponent who is on hands and knees, with access to back, hips, and upper body for attacking grips and control establishment
 - Bottom opponent maintaining defensive turtle posture with rounded back, tucked chin, and tight elbows, attempting to prevent control establishment and create escape opportunities
 - Top practitioner working to establish harness control, underhooks, or front headlock positioning while managing opponent's movement and preventing guard recovery or standup attempts
@@ -175,6 +177,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Turtle (Top)?</p>
 
 - Opponent has assumed turtle position after guard pass or scramble
 - Ability to establish and maintain dominant grips on opponent
@@ -188,6 +192,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Turtle?</p>
 
 - Establish dominant grips immediately before opponent can create movement
 - Use chest and shoulder pressure to flatten opponent and limit mobility
@@ -203,6 +209,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Turtle (Top)?</p>
 
 **If opponent maintains tight defensive structure with elbows to knees:**
 - Execute **[[Establish Seatbelt Control/Attacker|Establish Seatbelt Control]]** → [[Positions/Back Control]] (Probability: 60%)
@@ -236,6 +244,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Turtle?</p>
 
 ### 1. Committing too much weight forward allowing opponent to sit through
 
@@ -275,6 +285,8 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Turtle attacks?</p>
+
 ### Turtle Attack Flow Drill
 
 Partner assumes turtle position while top player flows through various attack options: back take, anaconda, darce, crucifix, flatten to side control. Partner provides graduated resistance. Focus on smooth transitions between attacks based on defensive reactions and maintaining pressure throughout.
@@ -308,38 +320,6 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?
-**A**: The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely.
-
-**Q2**: Your opponent starts shifting their hips to sit through - what adjustment should you make?
-**A**: Immediately drop your chest weight heavier onto their shoulders while using your near-side knee to block their hip movement. Simultaneously, sprawl your hips back slightly to create downward pressure that prevents their sit-through. If they continue the attempt, you can follow their movement into front headlock position or transition to crucifix if they expose an arm during the scramble.
-
-**Q3**: What determines whether you should attack the back versus transition to front headlock?
-**A**: The key determining factor is opponent's defensive posture and head position. If they maintain a tight turtle with elbows to knees, chin tucked, and rounded back, the back take is optimal as you can systematically break down their structure. If they lift their head to create space or look for escape opportunities, the front headlock becomes higher percentage because their neck is exposed. Weight distribution also matters - if they're heavy on their hands, front headlock; if they're sitting back toward their heels, back take.
-
-**Q4**: How should you sequence hook insertion to maximize control and minimize escape opportunities?
-**A**: Always insert the near-side hook first while maintaining seatbelt control. The near-side hook is safer because your knee is already blocking that hip and you can use your chest pressure to control their rotation. Only after the first hook is secure should you work to insert the far-side hook. Attempting both hooks simultaneously or the far hook first often results in the opponent escaping to guard or creating a scramble as you lose base and control.
-
-**Q5**: Your opponent begins a granby roll - should you follow or disengage?
-**A**: You should follow the roll while maintaining your seatbelt grip. As they rotate, use their momentum to continue around with them, often ending up in an even better position with hooks already partially inserted. The key is maintaining chest-to-back connection throughout the roll and keeping your hips close to theirs. Disengaging allows them to successfully recover guard, wasting your positional advantage.
-
-**Q6**: What is the proper weight distribution for maintaining turtle top control?
-**A**: Weight should be distributed primarily through your chest onto their upper back and shoulders, with approximately 70% of pressure through your upper body. Your hips should be relatively light and mobile, allowing you to adjust to their movements. Avoid putting too much weight on their lower back or hips as this allows them to sit through or stand. The angle of pressure should be forward and down at approximately 45 degrees, collapsing their turtle structure.
-
-**Q7**: Your opponent extends an arm to post during an escape attempt - what opportunities does this create?
-**A**: An extended posting arm opens multiple high-percentage attacks. The crucifix becomes available if you can trap their arm between your legs while maintaining upper body control. A kimura attack is possible by controlling their wrist and rotating the shoulder. You can also use their posted arm as an anchor to flatten them for an easier back take. The extended arm is a defensive error that should be immediately capitalized upon.
-
-**Q8**: How do you maintain pressure while transitioning between attacks from turtle top?
-**A**: The key principle is never releasing all control points simultaneously. Maintain at least one dominant grip or pressure point while establishing the next one. When moving from back attack to front headlock, keep chest pressure and transition hand controls systematically. Think of it as 'hand over hand' climbing - one connection always secure before releasing another. This continuous pressure prevents the opponent from creating movement or space during your transitions.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -366,7 +346,7 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 - **[[Transitions/Anaconda Choke]]** - Direct submission option from turtle top
 - **[[Transitions/Darce Choke]]** - Alternative front headlock submission
 - **[[Transitions/Guillotine Choke]]** - Submission option when opponent lifts head
-- **[[Transitions/Kimura]]** - Arm attack submission when opponent extends limb
+- **[[Submissions/Kimura]]** - Arm attack submission when opponent extends limb
 - **[[Positions/Twister Control/Truck]]** - Advanced back attack variation from turtle
 - **[[Positions/Side Control]]** - Alternative positional advancement from turtle
 - **[[Transitions/Turtle to Back Control]]** - Primary transition for securing back control

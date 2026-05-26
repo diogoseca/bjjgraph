@@ -162,6 +162,8 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lumberjack Sweep?</p>
+
 - Bottom player swims their inside arm deep under your armpit, hand reaching toward your far shoulder blade, establishing a tight underhook connection
 - Bottom player hip escapes away from you and turns their body to create a 45-degree angle, positioning their shoulders perpendicular to yours
 - You feel strong upward lifting pressure from the underhook combined with tightening squeeze on your trapped leg as they prepare to generate momentum
@@ -175,6 +177,8 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Lumberjack Sweep?</p>
+
 - Deny the underhook through aggressive crossface pressure and shoulder driving to flatten the bottom player before the sweep setup develops
 - Maintain low hip position with weight distributed forward to eliminate the space needed for the bottom player to create sweeping angles
 - Post the near hand immediately when you feel upward lifting pressure from the underhook to create a third base point that blocks rotation
@@ -187,6 +191,8 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lumberjack Sweep?</p>
 
 ### 1. Establish strong crossface and flatten opponent before underhook develops
 
@@ -224,6 +230,8 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lumberjack Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 Establish crossface before opponent completes angle creation. Drive your shoulder across their face, flattening them to their back. Strip or neutralize their underhook using whizzer pressure. Once flattened, resume systematic half guard passing with dominant upper body control.
@@ -239,6 +247,8 @@ When sweep attempt loosens opponent's leg control, explosively extract your trap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lumberjack Sweep?</p>
 
 ### 1. Allowing the underhook to establish without immediately contesting it with crossface or whizzer
 
@@ -273,6 +283,8 @@ When sweep attempt loosens opponent's leg control, explosively extract your trap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lumberjack Sweep?</p>
+
 **Week 1-2: Recognition and Early Prevention** - Identifying sweep setup cues and crossface timing
 Partner slowly sets up the lumberjack sweep while you practice recognizing the underhook attempt and angle creation. Focus on driving crossface the moment you feel the arm swim. Drill at 25% speed so you can identify each stage of the setup and learn the feel of the underhook developing. Reset and repeat 15-20 times per session.
 
@@ -289,29 +301,6 @@ Start in half guard top with partner using full resistance and their complete ha
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest opportunity to shut down the lumberjack sweep before it develops?
-**A**: The earliest intervention point is when the bottom player begins swimming for the underhook. Immediately drive crossface pressure with your shoulder across their face and neck to flatten them before they can establish the underhook depth. If you can prevent the underhook from reaching your far shoulder blade, the sweep cannot generate sufficient leverage to succeed.
-
-**Q2**: Why is sprawling your hips back more effective than driving forward when the sweep is already in motion?
-**A**: Driving forward adds your own momentum to the rotational force the bottom player is generating, effectively helping them complete the sweep. Sprawling back removes your weight from above their hips, eliminates the forward pressure they are redirecting, and widens your base to resist rotation. The sweep requires your weight committed forward over their hips to work, so pulling away neutralizes the core mechanic.
-
-**Q3**: You feel the bottom player's underhook lifting your armpit and their hips driving upward beneath you - what is your immediate defensive sequence?
-**A**: First, post your near hand on the mat to create a third base point that resists rotation. Second, sprawl your hips back hard to pull your weight away from their underhook side. Third, apply whizzer pressure with your far arm to crush down on their underhook. Fourth, if you can stabilize, drive crossface to flatten them. If the sweep continues despite these defenses, extract your trapped leg during the scramble and work to complete the pass rather than getting swept to bottom.
-
-**Q4**: What makes the posted hand vulnerable during lumberjack sweep defense, and how should you protect it?
-**A**: When you post your hand on the mat to block the sweep, the bottom player can release their sweep attempt and transition to a kimura attack on the posted arm, since the posting position exposes the shoulder joint. Protect against this by keeping your elbow slightly bent rather than locked straight, maintaining awareness of their free hand movement, and being prepared to retract the posted arm if you feel them shifting grip toward a shoulder lock. If they commit to the kimura, circle your hand toward their head and use your base to defend.
-
-**Q5**: How does the defender's crossface pressure mechanically prevent the lumberjack sweep from succeeding?
-**A**: The crossface drives the bottom player's head and shoulders flat to the mat, preventing them from turning onto their side to create the 45-degree angle essential for sweep leverage. Without this angle, their hips cannot position beneath your center of gravity, and the underhook cannot generate the diagonal lifting force needed for rotation. The crossface also creates discomfort that forces the bottom player to address the pressure rather than continuing the sweep setup, buying time to establish complete top control.
-
-
-
-</section>
 
 
 </main>

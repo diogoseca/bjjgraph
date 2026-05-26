@@ -3,24 +3,33 @@
 
 
 ---
-title: "Inside Heel Hook | BJJ Submission | BJJ Graph"
+title: "Inside Heel Hook | BJJ Submission Family | BJJ Graph"
 description: "Master Inside Heel Hook in BJJ. Complete guide with safety protocols, entry mechanics, and leg entanglement control. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Inside Heel Hook targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Inside Heel Hook/Attacker|Play as Attacker]]
-[[Inside Heel Hook/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Inside Heel Hook/from Honey Hole|Honey Hole]] | 50% | ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance |  |
+| [[Inside Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | 50% | ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance |  |
+| [[Inside Heel Hook/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | 52% | ACL, MCL, or LCL tear or rupture |  |
+| [[Inside Heel Hook/from Inside Sankaku|Inside Sankaku]] | 50% | MCL (medial collateral ligament) tear from rotational force on the knee |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +38,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle, knee ligaments, and surrounding connective tissue
-**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
-**Success Rate**: 52%
+**Success Rate**: 52% (average across variants)
 
 </section>
 
@@ -77,143 +85,10 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
-| Counter | [[Positions/Open Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control before submission: Establish dominant inside ashi-ga... | Protect the heel above all else: Rotate your knee inward tow... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Inside Heel Hook/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Control before submission: Establish dominant inside ashi-garami position with opponent's leg fully isolated before attempting finish
-
-- Hip position creates leverage: Your hip placement across opponent's hip prevents their escape and creates the fulcrum for rotational force
-
-- Heel control is everything: Five-finger grip on heel with thumb on Achilles tendon creates unbreakable connection to opponent's lower leg
-
-- Rotation comes from hips and core, not arms: Finishing power generates from hip extension and torso rotation, not muscular arm strength
-
-- Control opponent's free leg: Monitor and control opponent's free leg to prevent them from creating frames or escape angles
-
-- Pressure toward toes: The direction of force should be toward the opponent's toes while rotating externally, not pulling straight back
-
-- Maintain constant tension: Never allow slack in the system; continuous pressure prevents explosive escape attempts and maintains control
-
-
-### Execution Steps
-
-
-- **Secure inside ashi-garami control**: From leg entanglement or guard position, establish inside ashi-garami by placing your inside leg acr...
-
-- **Attack the heel grip**: Reach across your body with both hands and establish a five-finger grip on opponent's heel. Your thu...
-
-- **Clear opponent's defensive grips**: Before beginning rotation, ensure opponent cannot strip your heel control by breaking any grips they...
-
-- **Position hips for maximum leverage**: Adjust your hip position so your inside hip is tightly against opponent's hip or thigh, creating a f...
-
-- **Extend hips and begin external rotation**: Keeping the heel pulled tightly to your chest, extend your hips backward while simultaneously beginn...
-
-- **Control throughout finish or release**: Maintain constant awareness of partner's tap signals throughout the entire finishing sequence. In tr...
-
-
-### Common Mistakes
-
-
-- **Pulling heel straight back toward yourself instead of rotating externally**
-  - Consequence: Minimal pressure on knee joint, submission is ineffective, opponent easily defends
-  - Correction: Focus on external rotation motion (turning heel away from your body) rather than pulling motion. The heel should move toward opponent's toes in an arc, not straight back toward your chest.
-
-- **Using arm strength instead of hip extension and rotation for finishing pressure**
-  - Consequence: Weak submission that fatigues your grip quickly, opponent has time to escape
-  - Correction: Lock heel position to your chest/shoulder and generate all finishing pressure from hip extension and torso rotation. Your arms are connection points only, not the power source.
-
-- **Poor hip positioning with space between your hip and opponent's hip**
-  - Consequence: Opponent can rotate their leg with your rotation, dissipating pressure and enabling escape
-  - Correction: Ensure your inside hip is tightly connected to opponent's hip or thigh, creating fixed point that prevents their leg rotation. Eliminate all space in the system.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Inside Heel Hook/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Protect the heel above all else: Rotate your knee inward toward your centerline to hide the heel before attempting any other defensive action
-
-- Never pull your trapped leg away explosively: This adds rotational force to the submission and accelerates ligament damage rather than creating escape
-
-- Fight grips early and aggressively: Breaking opponent's heel control before they establish a strong grip is far easier than after they lock in
-
-- Move your body toward the attacker, not your leg away: Closing distance reduces the lever arm and diminishes the rotational force they can generate
-
-- Tap early and without hesitation: If heel control is established with proper rotation engaged, tap immediately—no submission is worth a destroyed knee
-
-- Use your free leg as a frame: Post your free foot on opponent's hip to prevent them from tightening their position and to create space for escape
-
-- Recognize the position before it is fully established: The best defense is preventing inside ashi-garami from being consolidated in the first place
-
-
-### Recognition Cues
-
-
-- Opponent threads their inside leg across your hip while their outside leg hooks behind your knee, establishing the characteristic inside ashi-garami figure-four configuration around your leg
-
-- You feel opponent's hands reaching for your heel or Achilles tendon area, attempting to establish the cupping or interlaced-finger grip that precedes the finishing rotation
-
-- Opponent's hips drive tightly against your hip or thigh while their body angles perpendicular to yours, creating the lever system needed for rotational force on your knee
-
-- Your knee begins to feel torque or rotational pressure even before significant pain develops, indicating the mechanical advantage is being established against your ligaments
-
-- Opponent pulls your heel tightly toward their chest or shoulder while beginning to extend their hips away from you, signaling the initiation of the finishing sequence
-
-
-### Escape Paths
-
-
-- Hide heel through knee rotation, strip opponent's grips with two-on-one grip fighting, frame on their hip with free leg, shrimp hips away to create space, extract trapped leg by moving body toward opponent rather than pulling leg away, recover to open guard or standing position
-
-- Rotate your entire body to follow the direction of opponent's rotation (turning into them), which can temporarily relieve rotational pressure on the knee while you work to clear their leg entanglement and establish counter-grips or recover guard position
-
-- Counter-entangle by hooking opponent's legs with your free leg to establish 50-50 position, neutralizing their dominant inside ashi-garami angle and creating bilateral entanglement where both practitioners face equal risk
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Inside Heel Hook from 50-50 Guard**: From 50-50 guard position where both legs are entangled symmetrically, transition to inside heel hook by controlling opponent's heel and rotating while breaking down their upper body posture. This variation requires adjusting hip angle from symmetrical position to create leverage for rotation. (When to use: When already engaged in 50-50 guard and opponent is defending traditional straight ankle lock or kneebar attacks. Effective when opponent has poor upper body position.)
@@ -252,16 +127,16 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ## Related Submissions
 
-- [[Transitions/Outside Heel Hook]]
-- [[Transitions/Heel Hook]]
-- [[Transitions/Kneebar]]
-- [[Submissions/Kneebar from 50-50]]
-- [[Transitions/Toe Hold]]
-- [[Submissions/Toe Hold from 50-50]]
-- [[Submissions/Calf Slicer from 50-50]]
-- [[Positions/Estima Lock]]
-- [[Submissions/Achilles Lock]]
-- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Outside Heel Hook]] - Complementary heel hook with opposite rotation direction, creates submission dilemma in leg lock exchanges
+- [[Transitions/Heel Hook]] - Parent submission family encompassing inside and outside heel hook variations
+- [[Transitions/Kneebar]] - Alternative leg attack when heel is hidden, chains from failed heel hook attempts
+- [[Submissions/Flying Kneebar]] - Dynamic entry variation to leg entanglement and kneebar attacks
+- [[Submissions/Toe Hold]] - Complementary foot lock that chains when heel hook defense exposes the ankle
+- [[Transitions/Aoki Lock]] - Advanced leg lock variation from similar ashi-garami entanglements
+- [[Submissions/Calf Slicer]] - Compression attack available when opponent straightens leg to defend heel hook
+- [[Transitions/Estima Lock]] - Foot lock alternative targeting the foot from guard engagement scenarios
+- [[Submissions/Achilles Lock]] - Foundational ankle lock from same positions, prerequisite technique in training progression
+- [[Heel Hook from Backside 50-50]] - Heel hook variation from backside 50-50 leg entanglement configuration
 
 
 </section>
@@ -280,7 +155,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 - [[Positions/Half Guard/Deep Half Guard]] - Guard position with transitions to leg entanglement attacks
 - [[Positions/Dogfight Position]] - Scramble position with leg entanglement entry opportunities
 - [[Transitions/Outside Heel Hook]] - Complementary heel hook attack with opposite rotation direction
-- [[Positions/Kneebar Control]] - Alternative leg attack when heel is hidden
+- [[Positions/Kneebar Control]] - Alternative leg attack position when heel is hidden
 
 
 </section>

@@ -188,6 +188,8 @@ As the attacker executing this transition, your objective is to systematically d
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Guard to Half Butterfly?</p>
+
 - Establish upper body control before attempting to clear any hook, as uncontrolled clearing invites sweeps
 - Target the weaker hook first, identified by which side the opponent's grips and weight favor less
 - Use bodyweight and skeletal alignment rather than muscular effort to collapse the hook's leverage
@@ -203,6 +205,8 @@ As the attacker executing this transition, your objective is to systematically d
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Guard to Half Butterfly?</p>
+
 - Establish at least one dominant grip: crossface, collar grip, or underhook on the clearing side
 - Achieve combat base or low kneeling posture with hips below opponent's hook line
 - Identify which hook is less supported by opponent's upper body grips and weight distribution
@@ -215,6 +219,8 @@ As the attacker executing this transition, your objective is to systematically d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Guard to Half Butterfly step by step?</p>
 
 1. **Establish upper body control**: Secure a crossface or collar grip on the side where you intend to clear the hook. Your other hand controls the opponent's far sleeve, lapel, or wrist. This upper body control prevents the opponent from turning into you and generating sweep angles during the clearing sequence. Without this control, any hook clearing attempt exposes you to immediate sweeps.
 2. **Load weight onto the clearing side**: Shift your center of gravity toward the side where you will clear the hook. Drive your chest forward and slightly toward that side, increasing the downward pressure on the target hook. This weight shift reduces the hook's ability to generate upward lifting force and compresses the space the hook occupies. Your hip on the clearing side drops toward the mat.
@@ -245,6 +251,8 @@ As the attacker executing this transition, your objective is to systematically d
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Guard to Half Butterfly?</p>
+
 - **Opponent elevates with both hooks as you begin weight shift** (Effectiveness: High) - Your Response: Immediately post both hands wide and sprawl hips back to kill the elevation. Reset upper body control before reattempting the clear. Do not fight the sweep mid-elevation. → Leads to [[Positions/Mount]]
 - **Opponent re-inserts hook immediately after clearing by scooting hips** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and pin their ankle or foot with your shin as you clear. If they re-insert, immediately re-drive the knee down rather than accepting the recovery. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent transitions to deep half guard during weight shift** (Effectiveness: Medium) - Your Response: If you feel them diving under, immediately sprawl hips back and drive crossface pressure to flatten them before they complete the deep half entry. Maintain head position above their shoulder line. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ As the attacker executing this transition, your objective is to systematically d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Guard to Half Butterfly?</p>
 
 ### 1. Attempting to clear hooks without establishing upper body control first
 
@@ -300,6 +310,8 @@ As the attacker executing this transition, your objective is to systematically d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Guard to Half Butterfly (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook clearing motion in isolation
 Partner holds butterfly guard with no resistance. Practice the knee drive and leg swim clearing motion repeatedly on both sides. Focus on the trajectory of the knee, the weight shift sequence, and maintaining upper body connection throughout. 20 repetitions per side.
 
@@ -320,42 +332,12 @@ Full resistance sparring where top player must clear hook and complete the pass 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you establish upper body control before attempting to clear a butterfly hook?
-**A**: Upper body control prevents the opponent from using your weight shift during the clearing sequence as a trigger for sweeps. Without a crossface, collar grip, or underhook controlling their posture and movement, the bottom player can turn into you, establish dominant grips, and redirect your forward momentum into a sweep. The upper body control also prevents them from scooting their hips to maintain hook depth as you attempt to clear.
-
-**Q2**: How do you identify which butterfly hook to clear first?
-**A**: Clear the hook on the side where the opponent has weaker upper body control. If they have a strong collar grip on your right side, their left hook is better supported for sweeps in that direction, so clear the right hook first where their grip support is weaker. Also assess weight distribution by applying light forward pressure and feeling which hook bears less resistance. The lighter hook indicates the opponent's weight favors the opposite side.
-
-**Q3**: What is the correct trajectory for driving your knee when clearing the hook?
-**A**: The knee drives forward and downward toward the mat, traveling between the opponent's legs on a diagonal path that collapses the space under your thigh where the hook sits. The direction is inside and down, not outward or backward. This trajectory uses your bodyweight and gravity to compress the hook rather than relying on muscular effort to pull or push the foot away, which is inefficient and strengthens the hook's connection.
-
-**Q4**: Your opponent scoots their hips back and re-inserts the hook immediately after you clear it. How do you prevent this?
-**A**: Maintain constant forward pressure throughout the clearing sequence so the opponent cannot create the hip distance needed to re-insert. As you clear the hook, your chest should be driving into their upper body and your cleared-side hip drops to the mat, pinning their ankle or foot with your shin. If they still re-insert, immediately re-drive the knee down rather than accepting the recovery. The key is eliminating space by staying tight and heavy.
-
-**Q5**: What is the most critical mechanical detail during the weight shift phase of this transition?
-**A**: The weight shift must load pressure onto the clearing side while maintaining lateral base on the opposite side. Your chest drives forward and toward the clearing side diagonally, not straight down, which would center your weight and leave both hooks functional. The hip on the clearing side drops toward the mat while the opposite knee posts wide for stability. This diagonal loading reduces the target hook's leverage while your wide base prevents the remaining hook from sweeping you.
-
-**Q6**: Your opponent initiates a butterfly sweep with both hooks as you begin the clearing sequence. What is your immediate response?
-**A**: Abandon the clearing attempt immediately and address the sweep threat. Post both hands wide on the mat, sprawl your hips backward to kill the elevation, and drive your chest down to re-flatten the bottom player. Do not try to complete the hook clear mid-sweep, as this commits your weight in the direction the opponent is trying to sweep you. After stabilizing, reset your upper body control and wait for the next clearing window when the opponent settles back to a neutral position.
-
-**Q7**: Why is the consolidation phase after clearing one hook so critical?
-**A**: The consolidation phase establishes the half butterfly top position as a stable platform for subsequent passes. Skipping it allows the opponent to immediately re-insert the cleared hook or transition to deep half guard before you have established control. During consolidation, you pin the cleared foot, settle your weight distribution, and establish your base. This 2-3 second investment converts a momentary positional advantage into a stable passing platform with dramatically higher success rates for the next technique.
-
-**Q8**: How does the remaining butterfly hook affect your passing options after clearing one hook?
-**A**: The remaining hook can still generate partial lifting force and disrupts your weight distribution on that side, but it cannot produce the coordinated dual-hook sweeps that make full butterfly guard dangerous. Your passing options shift toward the cleared side where you have full mobility. Knee slice and smash pass become high-percentage because you can drive weight through the cleared side. Address the remaining hook by keeping your hip low on that side and using it as a reference point for your passing direction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Guard to Half Butterfly?</p>
 
 This transition involves significant pressure application through the chest and shoulders onto the bottom player's upper body. The top player should apply weight gradually rather than dropping suddenly, especially during drilling. During the knee drive phase, be mindful of the bottom player's knee and ankle on the clearing side, as aggressive driving can compress joints uncomfortably. Both partners should communicate if pressure becomes excessive on the ribcage or neck area. When drilling repetitions, alternate sides to prevent overuse strain on one shoulder from repeated crossface applications.
 

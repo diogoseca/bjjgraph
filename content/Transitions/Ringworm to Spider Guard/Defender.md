@@ -154,6 +154,8 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ringworm to Spider Guard?</p>
+
 - Bottom player's free hand begins reaching toward your sleeve while their other hand still holds the lapel wrap
 - You feel reduced tension on the lapel wrap as the bottom player prepares to release it for the grip exchange
 - Bottom player repositions their feet toward your bicep area rather than maintaining Ringworm Guard framing positions
@@ -167,6 +169,8 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Ringworm to Spider Guard?</p>
+
 - Recognize the transition initiation cues early and react before the grip exchange is complete
 - Withdraw arms from sleeve access during the transition window to deny the bottom player Spider Guard grips
 - Apply forward pressure during the lapel release moment when the bottom player has the least control
@@ -179,6 +183,8 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ringworm to Spider Guard?</p>
 
 ### 1. Strip the attempted sleeve grip and withdraw arms immediately when you sense the transition initiating
 
@@ -216,6 +222,8 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ringworm to Spider Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Exploit the grip exchange window by stripping the sleeve grip attempt and immediately driving forward with pressure, or withdraw both arms and posture up when the lapel is released, preventing the bottom player from establishing any effective guard configuration.
@@ -231,6 +239,8 @@ Prevent the sleeve acquisition by controlling the bottom player's grip-fighting 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ringworm to Spider Guard?</p>
 
 ### 1. Focusing exclusively on lapel extraction without monitoring the bottom player's grip-fighting hand
 
@@ -260,6 +270,8 @@ Prevent the sleeve acquisition by controlling the bottom player's grip-fighting 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ringworm to Spider Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition initiation cues
 Partner repeatedly initiates the Ringworm to Spider transition at slow speed while you practice recognizing the key cues: free hand reaching for sleeve, reduced lapel tension, foot repositioning. Call out the cue verbally when you spot it. Build pattern recognition before adding defensive responses.
 
@@ -276,26 +288,6 @@ Begin with partner in established Ringworm Guard. Partner chooses when to initia
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary vulnerability in the bottom player's guard during the Ringworm to Spider Guard transition?
-**A**: The primary vulnerability is the grip exchange moment when the bottom player releases the lapel wrap to capture the second sleeve. During this brief window of approximately one to two seconds, neither the Ringworm Guard's lapel control nor Spider Guard's sleeve-and-bicep system is fully active, creating a control gap that the top player can exploit with forward pressure or grip prevention.
-
-**Q2**: Why is retreating and creating distance a poor defensive response when the bottom player attempts this transition?
-**A**: Spider Guard requires distance to function effectively since the bottom player needs space to extend their legs and place feet on your biceps. Retreating provides exactly the distance they need and makes Spider Guard establishment easier. Instead, closing distance by driving forward during the transition denies the space required for spider hooks and forces the bottom player into close-range positions where Spider Guard cannot be maintained.
-
-**Q3**: How should you adjust your hand positioning when you recognize the transition is being initiated?
-**A**: Immediately shift hand focus from lapel extraction to sleeve defense. Pull your elbows tight to your ribs to reduce sleeve accessibility, and if possible, grip the bottom player's wrists or forearms to prevent them from capturing your sleeves. Prioritize denying the second sleeve grip since the bottom player needs both sleeves for full Spider Guard. One sleeve grip alone produces a much weaker hybrid guard.
-
-**Q4**: Your opponent has secured one sleeve grip and is reaching for the second - what is your best response?
-**A**: Address the immediate threat of the second sleeve grip by controlling their reaching hand with your free arm while simultaneously driving your trapped arm downward toward their hip to reduce the effectiveness of their single spider hook. If you prevent the second grip, you face a half-spider configuration that is much easier to pass than full Spider Guard. You can then systematically address the single grip and begin your passing sequence.
-
-
-
-</section>
 
 
 </main>

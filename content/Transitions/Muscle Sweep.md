@@ -199,11 +199,11 @@ The Muscle Sweep serves as a fundamental component of the Closed Guard Bottom at
 
 - [[Transitions/Flower Sweep]] - Related fundamental sweep that uses similar angle creation principles
 
-- [[Submissions/Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
+- [[Submissions/Kimura]] - Follow-up submission when opponent posts to defend sweep
 
 - [[Transitions/Closed Guard to Triangle]] - Alternative attack from broken posture setup position
 
-- [[Submissions/Armbar from Guard]] - Chain attack when opponent's arm is extended during sweep defense
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Chain attack when opponent's arm is extended during sweep defense
 
 - [[Transitions/Butterfly Sweep]] - Similar explosive sweeping mechanics from different guard position
 

@@ -7,9 +7,13 @@
   }
 
   & > h3 {
-    font-size: 1rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
     margin: 0 0 0.75rem 0;
     color: var(--dark);
+    opacity: 0.35;
   }
 }
 
@@ -34,10 +38,13 @@
     & > li > a {
       color: var(--dark);
       opacity: 0.35;
-      transition:
-        0.15s ease opacity,
-        0.3s ease color;
+      font-size: 0.82rem;
+      transition: 0.3s ease color;
       // Opacity is now set dynamically via JS based on viewport coverage
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     // Top-level items (h2) get more spacing

@@ -28,7 +28,7 @@
       "purpose": "Enables fluid position changes that prevent opponents from establishing stable passing positions"
     },
     {
-      "component_name": "Grip Fighting Hierarchy",
+      "component_name": "Grips Hierarchy",
       "description": "A prioritized system for controlling opponent's grips and establishing your own advantageous grips. This includes primary grips that enable guard retention, secondary grips that set up attacks, and grip-breaking sequences that deny opponent's passing attempts. The hierarchy adapts based on gi versus no-gi contexts.",
       "purpose": "Dominates the grip battle to control distance and dictate engagement parameters"
     },
@@ -73,7 +73,7 @@
     },
     {
       "step_number": 3,
-      "phase": "Grip Fighting Integration",
+      "phase": "Grips Integration",
       "description": "Integrate grip fighting principles into guard play, learning to control opponent's hands while establishing your own grips.",
       "key_points": [
         "Develop grip-breaking techniques for common passing grips",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "metric_name": "Grip Fighting Dominance",
+      "metric_name": "Grips Dominance",
       "description": "Success rate in establishing your preferred grips while denying opponent's passing grips",
       "proficiency_indicators": [
         "Break opponent's grips within 2-3 seconds of establishment",
@@ -261,27 +261,27 @@
       "relationship": "Inverted guard option for back exposure and sweeps"
     },
     {
-      "name": "Guard Retention",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Core defensive principle underlying entire system"
+      "relationship": "Core defensive principle underlying guard retention and recovery"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Essential skill for controlling engagement and creating opportunities"
     },
     {
-      "name": "Frame Management",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Critical for maintaining distance during transitions"
+      "relationship": "Critical for maintaining distance and structural integrity during transitions"
     },
     {
-      "name": "Distance Creation",
+      "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Key principle for preventing pressure establishment"
+      "relationship": "Key principle for preventing pressure establishment and enabling guard recovery"
     },
     {
-      "name": "Angle Creation",
+      "name": "Dominant Angles",
       "content_type": "Principle",
       "relationship": "Essential for off-balancing and creating sweep opportunities"
     },

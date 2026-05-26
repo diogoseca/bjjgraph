@@ -28,7 +28,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Triangle Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
@@ -51,12 +51,12 @@
       "relationship": "Foundational escape movement that supports armbar defense mechanics"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Understanding offensive technique improves defensive recognition"
+      "name": "Armbar from Armbar Control",
+      "relationship": "The submission finish being defended against - understanding finishing mechanics informs defensive timing and priorities"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Studying guard armbar mechanics enhances defensive options"
+      "name": "Back Take from Armbar",
+      "relationship": "Transition opportunity when opponent overcommits to armbar finish during your escape"
     },
     {
       "name": "Bridge and Roll",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Triangle Control",
-      "relationship": "Common transition threat during armbar defense"
+      "relationship": "Common transition threat during armbar defense when opponent switches submissions"
     },
     {
       "name": "Omoplata Control",
@@ -154,7 +154,7 @@
         "counter": "Opponent switches to triangle choke as you turn toward them",
         "effectiveness": "High",
         "your_response": "Maintain posture by keeping head up and posting free hand on opponent's hip. Stack aggressively to prevent triangle lock and work to extract trapped arm while defending the choke. If necessary, stand up to eliminate both submission angles.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Triangle Control/Bottom"
       },
       {
         "counter": "Opponent transitions to omoplata when you rotate shoulder forward",
@@ -166,13 +166,13 @@
         "counter": "Opponent applies wrist control and breaks your defensive grip",
         "effectiveness": "High",
         "your_response": "Focus on keeping elbow bent even if hands separate. Turn thumb upward into hitchhiker position while continuing rotation toward opponent's head to reduce joint angle and maintain defensive posture.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Opponent elevates hips explosively to finish before you can stack",
         "effectiveness": "Medium",
         "your_response": "Accelerate your rotation and drive weight laterally across opponent's hips rather than straight forward. Use lateral pressure to compromise their hip elevation angle and buy time to re-establish defensive structure.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Closed Guard/Top"
       }
     ],
     "common_errors": [
@@ -239,7 +239,7 @@
         "description": "Dedicate focused training time to defending specific armbar types: mount armbar, guard armbar, back armbar, flying armbar. Study subtle mechanical differences and optimal defensive responses for each variation. Work with higher-level training partners who can apply these submissions at high proficiency."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you rotate your shoulder toward opponent's head during armbar defense rather than pulling straight back?",
         "answer": "Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force."
@@ -314,14 +314,14 @@
       {
         "action": "Break opponent's gable grip by isolating one wrist with both hands and peeling fingers apart while maintaining hip pressure and leg control",
         "when_to_use": "Immediately when you feel opponent clasp their hands together - this is the highest priority counter as the grip is the foundation of their entire defensive sequence",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "Opponent's arm is re-extended and vulnerable to immediate armbar finish with hip elevation",
         "risk": "If grip break fails, opponent gains time to initiate rotation and stacking, making the finish progressively harder"
       },
       {
         "action": "Transition to triangle choke by swinging leg over opponent's head as they rotate toward you and drive forward for the stack",
         "when_to_use": "When opponent has begun rotating and stacking but you still have leg positioning across their head - their forward drive actually facilitates the triangle entry",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Triangle Control/Bottom",
         "if_successful": "Opponent is caught in triangle choke from their own escape attempt, creating a new submission threat from their defensive movement",
         "risk": "If opponent maintains strong posture during the transition, they may stack out of the triangle attempt and pass to side control"
       },
@@ -335,15 +335,15 @@
       {
         "action": "Switch to omoplata by threading opponent's arm through your legs as they rotate their shoulder forward during the escape",
         "when_to_use": "When opponent has successfully rotated to their side and their shoulder is driving forward past your hip line, making armbar angle suboptimal",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "Opponent's rotational defense feeds directly into omoplata position, converting their escape momentum into a new submission angle",
         "risk": "Opponent may posture up and roll through the omoplata if they recognize the transition early"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
-        "how": "Maintain constant wrist control and break opponent's defensive grip before they can initiate rotation. Keep knees pinched, hips elevated, and finish with coordinated hip thrust and arm pull. Alternatively, transition to triangle or omoplata when their defensive movements create openings for alternative submissions."
+        "outcome": "Triangle Control/Bottom",
+        "how": "When opponent drives forward to stack your hips or rotates toward you during the escape, swing your top leg over their head and lock a triangle. Their stacking momentum feeds directly into the triangle entry. Use submission chains to capitalize on their defensive reactions rather than fighting exclusively for a deteriorating armbar position."
       },
       {
         "outcome": "Armbar Control/Bottom",
@@ -372,7 +372,7 @@
         "correction": "Keep feet uncrossed with knees pinched together. This allows full hip elevation for finishing and dynamic adjustment to escape attempts while eliminating the ankle lock counter opportunity"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent clasps their hands in a gable grip and begins turning toward you - what is your highest priority response?",
         "answer": "Your highest priority is breaking the gable grip before the rotation develops momentum. Isolate their bottom wrist with both of your hands and peel it away while simultaneously squeezing your knees together and elevating your hips to maintain extension pressure. If you cannot break the grip within two to three seconds, transition your top leg over their head for a triangle entry, as their forward rotation facilitates this transition."

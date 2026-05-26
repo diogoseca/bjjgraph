@@ -188,6 +188,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gogoplata?</p>
+
 - Hip elevation must be maintained throughout the attack to generate sufficient shin pressure on the throat
 - Head control through hand grips is essential - pull opponent's head into your shin rather than pushing shin into throat
 - The choking leg must cross deep behind opponent's head, shin positioned directly across the anterior throat
@@ -203,6 +205,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gogoplata?</p>
+
 - Mission Control established with high overhook controlling opponent's posture
 - Opponent's posture broken forward with their head below your chest level
 - Sufficient hip flexibility to bring foot behind opponent's head while maintaining control
@@ -215,6 +219,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gogoplata step by step?</p>
 
 1. **Secure Mission Control**: From closed guard or rubber guard, establish Mission Control with your same-side hand reaching over opponent's shoulder and grabbing your own shin. Your shin should be pressed across their upper back and shoulder blade area. Break their posture completely by pulling with your overhook grip while driving your shin down.
 2. **Release shin grip**: Release your grip on your shin while maintaining the overhook control on their arm. Your attacking leg remains high across their shoulder. Use your free hand to push on the back of their head, driving it toward the mat and further breaking posture. This creates the angle needed for the foot to travel behind their head.
@@ -243,6 +249,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gogoplata?</p>
+
 - **Posture recovery by stacking weight forward and standing up through the guard** (Effectiveness: High) - Your Response: Transition immediately to omoplata or triangle before they complete the posture recovery - attempting to force a Gogoplata against strong posture typically fails → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Stripping the grip behind the head by pulling the choking foot away** (Effectiveness: Medium) - Your Response: If they grab your foot, transition to armbar on that arm or switch to omoplata by releasing the leg and following their arm movement → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Turning their chin into the crook of your knee to relieve throat pressure** (Effectiveness: Medium) - Your Response: Pull harder on the back of their head while simultaneously angling your shin to maintain throat contact - if they successfully turn, switch to triangle or armbar → Leads to [[Positions/Rubber Guard/Mission Control]]
@@ -254,6 +262,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gogoplata?</p>
 
 ### 1. Attempting the Gogoplata without fully breaking opponent's posture first
 
@@ -293,6 +303,8 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gogoplata (Attacker)?</p>
+
 **Week 1-2** - Hip flexibility and foot placement
 Solo drilling focused on developing the hip flexibility to bring your foot behind a training dummy or cooperative partner's head. Practice the motion of threading the foot from Mission Control position without resistance. Include hip stretching and mobility work specifically targeting external rotation and flexion.
 
@@ -310,48 +322,12 @@ Implement Gogoplata in positional sparring starting from Mission Control. Focus 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary choking mechanism in the Gogoplata?
-**A**: The Gogoplata uses your shin bone pressed directly across the opponent's trachea while your hands pull their head down into this pressure. This creates both airway obstruction and blood choke elements as the shin compresses the anterior throat structures. The combination of pulling and pressing creates a scissoring action that accelerates the submission timeline compared to pure blood or air chokes.
-
-**Q2**: Why is Mission Control the preferred entry position for Gogoplata?
-**A**: Mission Control breaks the opponent's posture completely while controlling their arm, which prevents them from framing against your Gogoplata attempt. The overhook position also creates the shoulder angle needed for your foot to travel behind their head. Without Mission Control's postural control, opponents can simply stand up or stack during your attempt. The position essentially pre-loads all the control elements needed for successful execution.
-
-**Q3**: Your opponent begins to posture up during your Gogoplata attempt - what is your best response?
-**A**: Immediately transition to omoplata or triangle rather than forcing the Gogoplata against strong posture. If they're posturing toward the choking leg side, release the leg and spin for omoplata on the arm you were controlling with your overhook. If they're posturing straight back, swing the choking leg across for triangle. A Gogoplata against an opponent with good posture rarely finishes and often results in guard loss.
-
-**Q4**: What hip position is critical for finishing the Gogoplata?
-**A**: Your hips must remain elevated throughout the attack with an angle away from your choking leg side. Flat hips on the mat eliminate the pressing component of the choke and make stacking escapes easy. The hip elevation comes from core engagement and the angle prevents opponents from driving their weight directly over you. Think of pushing your hip up into their throat while pulling their head into that pressure.
-
-**Q5**: Where should your finishing grip be positioned and why does this matter?
-**A**: Your grip should be interlocked behind the opponent's head on the occipital bone, not on their neck. This position provides maximum leverage for pulling their head down and keeps the technique legal under most rulesets. Gripping the neck creates poor leverage angles and may be considered an illegal choke grip in some competitions. The skull grip creates a fulcrum point that maximizes the force transmission to your shin across their throat.
-
-**Q6**: Your opponent grabs your choking foot and begins to strip it from behind their head - what are your options?
-**A**: If they grab your foot with their far arm, that arm is now extended and vulnerable - release the Gogoplata and attack the armbar on that arm. If they use their near arm, transition to omoplata as their shoulder is already compromised from the original Mission Control position. Never fight to maintain a Gogoplata that's being actively stripped - the transitions available are often higher percentage than forcing the original attack.
-
-**Q7**: How does the Mounted Gogoplata differ from the guard version in terms of finishing mechanics?
-**A**: In the Mounted Gogoplata, gravity assists your finishing pressure rather than working against you. You can drive your weight down through the shin into their throat while pulling their head up into that pressure. The opponent also has fewer escape options as they cannot post their arms or use their hips as effectively from bottom mount. The mount version often finishes faster but requires following their bridge and roll successfully to achieve.
-
-**Q8**: What physical attributes most affect Gogoplata success rate, and how should practitioners adapt?
-**A**: Hip flexibility (particularly external rotation and flexion) is the primary limiting factor. Practitioners with limited hip mobility should focus on the omoplata and triangle entries from Mission Control rather than forcing Gogoplata attempts. Long-legged practitioners typically find the technique easier as they have more range to thread the foot. Practitioners with shorter legs or limited flexibility can still use Gogoplata threats to set up other attacks without needing to finish the submission itself.
-
-**Q9**: Your shin is positioned across opponent's face rather than throat - how do you correct this mid-attempt?
-**A**: Thread your foot deeper behind their head by pulling their head further down while simultaneously elevating your hip. The foot needs to travel further so the shin crosses at throat level rather than the face. You may need to momentarily release head pressure to adjust the foot position, then re-establish your grip. If they begin to posture during this adjustment, immediately transition to an alternative attack rather than continuing repositioning attempts.
-
-**Q10**: What makes the Gogoplata particularly effective against opponents unfamiliar with Rubber Guard attacks?
-**A**: The unconventional appearance of the position causes many opponents to misjudge the threat level - they see what looks like a flexible guard position rather than recognizing the imminent choke threat. This creates hesitation in their defensive response. Additionally, conventional guard escape methods (posture, stack, pass around the legs) don't translate well against Mission Control and Gogoplata. By the time unfamiliar opponents recognize the danger, the submission is often already locked.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gogoplata?</p>
 
 The Gogoplata is a particularly dangerous submission that can cause unconsciousness very rapidly due to its dual attack on both airway and blood supply. Training partners must tap early as the finish can accelerate from uncomfortable to unconscious within seconds. Practitioners should never attempt to 'tough out' a locked Gogoplata as tracheal damage is possible under extreme pressure. When drilling, apply pressure gradually and release immediately upon tap. Be especially cautious when working with the mounted variation as the added gravity pressure increases injury risk. Practitioners with cervical spine issues should avoid this technique as both attacker and defender, given the significant neck loading involved. Always ensure training partners understand the tap-out protocol before drilling Gogoplata sequences.
 

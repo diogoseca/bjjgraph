@@ -166,6 +166,8 @@ Defensive success depends on understanding which element of the control system t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Progression to Zombie?</p>
+
 - Feeling the opponent's hip begin rotating toward the overhook side - this is the earliest indicator that Zombie progression is initiating
 - Sensing decreased shin pressure across your back as the attacker's leg begins to slide upward from its static New York position
 - Opponent's shin-gripping hand shifts position or releases momentarily to guide the leg to a higher elevation around your shoulder
@@ -178,6 +180,8 @@ Defensive success depends on understanding which element of the control system t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Progression to Zombie?</p>
 
 - Recognize transition cues early - defense during the leg repositioning phase is far more effective than defense after Zombie is consolidated
 - Drive forward pressure during the transition to collapse the space needed for hip rotation and leg elevation
@@ -192,6 +196,8 @@ Defensive success depends on understanding which element of the control system t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Progression to Zombie?</p>
 
 ### 1. Explosive posture recovery - drive hips forward and lift head aggressively the moment you feel shin pressure decrease
 
@@ -229,6 +235,8 @@ Defensive success depends on understanding which element of the control system t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Progression to Zombie?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 Prevent the transition by disrupting the leg elevation during the repositioning window. Drive forward pressure to collapse hip rotation space, strip the shin grip to remove leg guidance, or time posture recovery to coincide with decreased shin pressure. Successfully keeping the position in New York rather than allowing advancement to Zombie maintains your current defensive options without the position worsening.
@@ -244,6 +252,8 @@ Extract the trapped arm from the overhook during the transition window when the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Progression to Zombie?</p>
 
 ### 1. Waiting passively in New York hoping the opponent will not advance to Zombie
 
@@ -278,6 +288,8 @@ Extract the trapped arm from the overhook during the transition window when the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Progression to Zombie?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner establishes New York and initiates Progression to Zombie at slow speed. Focus exclusively on identifying the tactile and visual cues that signal the transition is beginning. Do not attempt to defend yet - simply call out each recognition cue as you feel it. Build the sensory awareness that enables timely defensive responses.
 
@@ -294,29 +306,6 @@ Full positional sparring starting from New York with partner attempting all rubb
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating Progression to Zombie?
-**A**: The earliest cue is feeling the opponent's hip begin rotating toward the overhook side. This hip rotation precedes any visible leg movement and signals that they are creating the mechanical platform for leg elevation. The secondary cue is sensing decreased shin pressure across your back as the leg begins to slide, and feeling the overhook arm pull slightly more forward as they compensate for reduced shin control.
-
-**Q2**: Why is defense during the transition window dramatically more effective than defense after Zombie is established?
-**A**: During the transition, the attacker's control system is temporarily weakened in three ways: shin pressure across your back decreases as the leg moves, the attacker's attention is divided between maintaining the overhook and guiding the leg, and their grip on the shin may need to adjust position. This creates a window where their control is at approximately 60-70% of full strength. Once Zombie consolidates, all three control elements are re-established at full strength with the added mechanical advantage of the higher leg position.
-
-**Q3**: You feel your opponent's shin beginning to slide up your back - what is your immediate defensive response?
-**A**: Immediately drive forward pressure with your hips and chest to collapse the space needed for hip rotation and leg elevation. Simultaneously, use your free hand to strip their shin grip if accessible, targeting the moment when their hand is repositioning on the moving leg. If the forward drive stalls their transition, follow up with overhook extraction attempts while their control system is disrupted. Do not pull backward as this creates the space they need to complete the transition.
-
-**Q4**: What makes the overhook the highest-priority target for your defensive efforts?
-**A**: The overhook is the anchor of the entire rubber guard system - without it, neither New York nor Zombie can exist. While disrupting the shin grip or hip rotation only prevents the specific Zombie transition (the attacker can re-attempt), extracting the overhook defeats the entire control framework and forces the attacker to rebuild from closed guard. Every moment you spend weakening the overhook compounds into positional advantage, whereas defending only the leg elevation is a temporary delay that must be repeated indefinitely.
-
-**Q5**: Your overhook extraction attempt partially succeeds but the arm is not fully free - what is the risk and how do you manage it?
-**A**: A partial extraction where your arm is sliding out but not fully clear creates a dangerous triangle entry for the attacker. They can redirect their transitioning leg over your shoulder instead of around it, catching your partially-extracted arm inside the triangle. To manage this, commit fully to the extraction - once you start pulling, do not stop halfway. Drive your elbow tight to your ribs and rotate your forearm toward your hip in a corkscrew motion. If you feel them shooting for the triangle, immediately stuff your head forward and drive into them to prevent the leg from clearing your shoulder.
-
-
-
-</section>
 
 
 </main>

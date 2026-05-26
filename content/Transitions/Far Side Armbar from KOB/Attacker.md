@@ -188,6 +188,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Far Side Armbar from KOB?</p>
+
 - Maintain constant knee pressure on the diaphragm throughout the setup to keep the opponent reactive and unable to mount coherent defense
 - Secure far wrist control before initiating the leg swing — premature commitment to the transition without arm control results in a scramble
 - Use the knee as a pivot point during the transition, transferring weight smoothly from knee on belly to armbar position without creating space for escape
@@ -202,6 +204,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Far Side Armbar from KOB?</p>
+
 - Established knee on belly position with knee placed on opponent's solar plexus and stable base leg posted wide
 - Collar or lapel grip with the near hand to control opponent's upper body and prevent turning away
 - Opponent's far arm accessible — either pushing against your knee, framing across their body, or reaching toward you
@@ -214,6 +218,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Far Side Armbar from KOB step by step?</p>
 
 1. **Establish Knee on Belly Pressure**: Position your knee firmly on the opponent's solar plexus with your shin perpendicular to their centerline. Post your far foot wide for base stability. Grip the near collar with your inside hand and control the far hip or belt with your outside hand. Drive your weight downward through the knee to create intense diaphragm pressure that forces a defensive reaction from the bottom player.
 2. **Provoke Far Arm Defensive Reaction**: Increase downward pressure through the knee to force the opponent to react with their arms. Watch for the far arm to extend — either pushing against your knee, reaching across their body to frame, or posting on the mat. This defensive movement exposes the far arm and creates the window for your attack entry. Threatening the near-side collar choke can accelerate this reaction.
@@ -243,6 +249,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Far Side Armbar from KOB?</p>
+
 - **Opponent tucks far elbow tight against their body, preventing wrist capture** (Effectiveness: High) - Your Response: Increase knee pressure to force a reaction, or threaten the near-side arm first with a collar choke or near armbar to bait the far arm extension, then switch back to the far side attack → Leads to [[Positions/Knee on Belly]]
 - **Opponent bridges and turns toward you during the leg swing transition** (Effectiveness: Medium) - Your Response: Follow their turning motion by maintaining wrist control and adjusting your leg swing angle — their turn may actually assist your transition to armbar or expose their back for a back take → Leads to [[Positions/Knee on Belly]]
 - **Opponent grabs their own wrist or lapel with the free hand to prevent arm isolation** (Effectiveness: High) - Your Response: Use two-on-one grip breaking to peel their defensive connection apart, or switch to an Americana attack that exploits the bent arm position they have created by linking their hands → Leads to [[Positions/Knee on Belly]]
@@ -254,6 +262,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Far Side Armbar from KOB?</p>
 
 ### 1. Releasing knee pressure before securing the far wrist
 
@@ -293,6 +303,8 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Far Side Armbar from KOB (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual movement patterns
 Practice the wrist capture and leg swing mechanics with a fully cooperative partner from static knee on belly. Focus on smooth weight transfer, proper knee pivot, and accurate hip placement next to the shoulder. Perform 20 repetitions per side with emphasis on correct body positioning at each stage.
 
@@ -313,48 +325,12 @@ Apply the far side armbar during live rolling from knee on belly against fully r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the far side armbar from knee on belly?
-**A**: The optimal timing is when the opponent extends their far arm to push against your knee or reaches across their body to frame. This defensive reaction exposes the far wrist and momentarily commits their arm away from their torso. Initiating before this reaction means the arm is tucked and inaccessible. Waiting too long allows the opponent to retract the arm after relieving pressure. The window is typically one to two seconds of arm extension.
-
-**Q2**: What conditions must exist before you can successfully attempt the far side armbar from knee on belly?
-**A**: You need established knee on belly with your knee on the solar plexus and a stable base, a collar or upper body grip with your near hand to prevent turning, the opponent's far arm extended or accessible rather than tucked tight, and sufficient balance to release your far hand and reach across without losing the position. If the opponent is already turned significantly to their side, the far arm angle makes this attack very difficult to execute.
-
-**Q3**: What is the most critical hip movement during the transition from knee on belly to armbar control?
-**A**: The most critical movement is using the knee on belly as a pivot point while swinging the leg over the head, then dropping your hips directly next to the opponent's shoulder with zero gap. Your hip bone should contact their deltoid immediately upon sitting back. If your hips land even a few inches away from the shoulder, the opponent can retract their arm or create enough space to begin an escape sequence that compromises the entire position.
-
-**Q4**: What is the most common reason practitioners fail the far side armbar from knee on belly?
-**A**: The most common failure is initiating the leg swing before establishing secure wrist control on the far arm. Without the wrist locked down, the leg swing becomes a positional sacrifice — you abandon knee on belly's dominant pressure without securing the submission pathway. The opponent can easily turn, recover guard, or scramble during the transition when their arm remains free and they have no reason to stay flat.
-
-**Q5**: What specific grips are required at each phase of the far side armbar execution?
-**A**: Phase one requires a collar grip with the near hand and belt or hip grip with the far hand for KOB stability. Phase two requires the near hand to release the collar and reach across to capture the far wrist while the far hand can briefly post for balance. Phase three requires both hands on the captured arm — one at the wrist and one supporting above the elbow — as you sit back into armbar control. The grip transitions must be smooth and deliberate to avoid creating defensive windows.
-
-**Q6**: In which direction should you apply force when finishing the armbar after transitioning from knee on belly?
-**A**: In the finishing position, force is applied in two coordinated vectors: hips drive upward against the back of the elbow while both hands pull the wrist downward toward your sternum. These opposing forces create the hyperextension leverage across the elbow joint. During the initial wrist capture, pull the far arm toward your body and across the opponent's centerline to begin isolation. During the leg swing, rotational momentum carries you perpendicular to the opponent's body.
-
-**Q7**: Your opponent sees the far side armbar coming and immediately grabs their own wrist with their free hand — how do you adjust?
-**A**: When the opponent links their hands defensively, you have several options. First, attempt a two-on-one break by controlling their defensive wrist and peeling it away. Second, switch to an Americana by keeping their arms bent and rotating the wrist toward the mat. Third, maintain armbar control and wait patiently — the defensive grip is energy-intensive and will fatigue, creating an opening. Fourth, use the arm connection as a handle to adjust your angle and break the grip through hip pressure and repositioning.
-
-**Q8**: If the opponent successfully defends the far side armbar and you cannot complete the technique, what chain attacks are available?
-**A**: If the armbar is blocked, you can transition to a triangle by releasing the arm and threading your leg under their neck. The Americana becomes available if their arm is bent in a defensive clasp. You can switch to a mounted triangle if you maintain leg control over their head. You can also abandon the submission entirely and return to knee on belly to re-establish pressure and attack again from a position of control. Reconsolidating to side control is the safest fallback option.
-
-**Q9**: Why is the far side armbar more effective as a secondary attack rather than a first-option attack from knee on belly?
-**A**: The far side armbar is most effective as a secondary attack because it exploits the defensive patterns created by primary threats. When the opponent focuses on defending the baseball bat choke or near-side armbar, they often extend or expose their far arm without realizing the danger. As a first option, the far arm is typically tucked and well-protected. The element of surprise and the opponent's divided attention between multiple threats creates the opening that makes this technique high-percentage when used in combination.
-
-**Q10**: How does the angle of your knee placement on the opponent's torso affect the availability of the far side armbar?
-**A**: Your knee should be positioned perpendicular to the opponent's centerline with your body angled slightly toward their far side. If your knee points toward their head, reaching across for the far wrist becomes difficult. If your knee points toward their hips, you lose the diaphragm pressure that forces the defensive arm reactions you need. The perpendicular angle provides the optimal balance between maintaining intense pressure and having the reach to capture the far arm without losing your base.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Far Side Armbar from KOB?</p>
 
 The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught.
 

@@ -166,6 +166,8 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from 50-50?</p>
+
 - Opponent's near-side arm reaches over your shoulder blade or begins threading under your far armpit instead of controlling your foot or ankle
 - Opponent stops actively attacking your heel and shifts their weight forward toward your upper body while loosening their leg triangle configuration
 - You feel opponent's hip control hand grip your near-side hip, belt, or waistband while their leg entanglement pressure decreases
@@ -177,6 +179,8 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from 50-50?</p>
 
 - Maintain at least one arm free for framing against upper body approaches while defending your heel with the other hand and your knee rotation
 - Turn your hips toward your opponent immediately when you detect the shift from leg attack to back take intent to prevent them from circling behind you
@@ -190,6 +194,8 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from 50-50?</p>
 
 ### 1. Turn hips toward opponent and frame on their shoulder to prevent chest-to-back connection while re-engaging legs into 50-50
 
@@ -227,6 +233,8 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from 50-50?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Turn your hips toward your opponent at the first sign of back take attempt and use frames on their shoulder to prevent chest-to-back connection. As they release their leg entanglement, re-engage your legs into the 50-50 configuration and use the momentum of your turn to sweep to top position, capitalizing on their compromised base from abandoning leg control.
@@ -242,6 +250,8 @@ When opponent begins extracting their legs to pursue the back take, immediately 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from 50-50?</p>
 
 ### 1. Focusing entirely on heel defense with both hands, leaving no arm available to frame against the back take approach
 
@@ -271,6 +281,8 @@ When opponent begins extracting their legs to pursue the back take, immediately 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from 50-50?</p>
+
 **Week 1-2** - Recognition and early response
 Partner announces when they will attempt the back take from 50-50 top position. Practice identifying the grip changes and weight shifts that signal the transition. Focus on the immediate hip turn and frame placement response. No resistance from attacker during defensive movement practice.
 
@@ -287,29 +299,6 @@ Full-speed 50-50 exchanges where partner freely chooses between leg attacks and 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from leg attacks to a back take attempt?
-**A**: The earliest cue is when your opponent's near-side arm shifts from controlling your foot, ankle, or heel to reaching over your shoulder blade or threading under your armpit. This grip change indicates they are abandoning the leg attack in favor of establishing upper body control for the back take. You may also feel their leg entanglement tension decrease simultaneously as they prepare to extract.
-
-**Q2**: Why is turning toward your opponent rather than away from them the correct defensive response?
-**A**: Turning toward your opponent closes the angle they need to reach your back and allows you to establish defensive frames on their shoulders and chest. Turning away presents your back directly and accelerates their circling motion, effectively doing their work for them. By facing your opponent, you force them to work through your frames and arm defenses to achieve chest-to-back connection, dramatically reducing their success rate.
-
-**Q3**: Your opponent has already secured a partial harness grip but has not yet extracted their legs - what is your best defensive option?
-**A**: Immediately re-attack their legs with a counter heel hook or ankle lock. Since they still have their legs entangled in the 50-50, their own legs are vulnerable. By threatening a counter-submission, you force them to choose between completing the back take while risking a leg lock finish, or releasing the harness grip to defend their own legs. This dilemma typically causes them to abandon the back take attempt and return to leg lock defense.
-
-**Q4**: How should you distribute your defensive attention between heel protection and back take prevention?
-**A**: Use your knee rotation as the primary heel defense mechanism rather than committing both hands to grip fighting on your foot. By tucking your heel through inward knee rotation, you free at least one arm to frame against the upper body approach. When you detect the back take intent, shift both arms to framing and upper body defense since your opponent has abandoned the heel attack anyway. The key insight is that you cannot defend both threats with your hands simultaneously, so structural heel defense through knee position is essential.
-
-**Q5**: What counter-offensive opportunities does the opponent's back take attempt create for you?
-**A**: When your opponent commits to the back take by releasing leg entanglement and reaching for upper body control, their own legs become momentarily unprotected. This creates opportunities for counter heel hooks, ankle locks, and re-entanglement. Additionally, the weight shift required for the back take can compromise their base, creating sweep opportunities. The most effective defenders use these counter-offensive windows to force the attacker back into the leg lock exchange rather than purely defending the positional transition.
-
-
-
-</section>
 
 
 </main>

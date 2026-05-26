@@ -175,6 +175,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Position Definition
 
+<p class="section-subtitle">What is Straight Ankle Lock Control (Top)?</p>
+
 - Defender's ankle is controlled by attacker's hands with varying grip configurations, defender must constantly assess grip security and identify which specific grip pattern attacker has established to choose appropriate escape sequence based on grip vulnerabilities
 - Defender's trapped leg is targeted by attacker's leg wrapping attempts that seek to prevent hip rotation and facilitate control, defender must actively prevent attacker from completing leg triangle or achieving inside position that eliminates escape options
 - Defender maintains hip mobility and rotational freedom as primary defensive resource, any position adjustment that restricts hip movement substantially increases danger and reduces escape probability requiring immediate corrective action
@@ -185,6 +187,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Straight Ankle Lock Control (Top)?</p>
 
 - Attacker has secured initial ankle control from standing guard, leg drag, or guard passing sequence
 - Defender's leg is extended or extending across attacker's hip line
@@ -200,6 +204,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Straight Ankle Lock Control?</p>
+
 - Immediate recognition and rapid response - every second allows attacker to improve control
 - Hip rotation is primary defensive tool - proper rotation direction reduces leverage and facilitates escape
 - Knee must remain bent and protected - full leg extension greatly increases submission danger
@@ -214,6 +220,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Straight Ankle Lock Control (Top)?</p>
 
 **If attacker has not yet completed leg triangle and grip security is moderate:**
 - Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
@@ -247,6 +255,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Straight Ankle Lock Control?</p>
 
 ### 1. Panicking and making explosive uncontrolled movements attempting to rip foot out of control
 
@@ -286,6 +296,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Straight Ankle Lock Control attacks?</p>
+
 ### Progressive Resistance Escape Drilling
 
 Partner establishes straight ankle lock control at varying levels of security (loose grip only, grip plus partial leg control, full control). Defender practices appropriate escape sequence for each control level. Progress from minimal to full resistance over 5-minute round.
@@ -318,38 +330,6 @@ Partner establishes straight ankle lock control and applies moderate submission 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive resource you must protect when caught in straight ankle lock control?
-**A**: Hip mobility and rotational freedom is your primary defensive resource. Any position adjustment that restricts hip movement substantially increases danger and reduces escape probability. Your ability to rotate your hip in the correct direction creates angles that reduce submission leverage and facilitate foot extraction, making this the foundation of all successful escape sequences.
-
-**Q2**: Your opponent begins tightening their leg triangle around your trapped leg - what immediate adjustment do you make?
-**A**: Immediately use your free leg to kick or push down on their bottom leg while simultaneously rotating your hip away from their control. You must prevent the leg triangle from completing because once full leg control is established, escape becomes exponentially harder. Address leg control as equal priority to grip fighting, never allowing them to consolidate position.
-
-**Q3**: Why should you keep your trapped knee bent rather than letting your leg straighten during escape attempts?
-**A**: Full leg extension eliminates your ability to use hip rotation for escape while maximizing the attacker's submission leverage, dramatically increasing injury risk. Keeping the knee bent and pulled toward your chest maintains structural integrity that limits submission pressure on the ankle joint while preserving the mobility needed for technical escapes and hip rotation.
-
-**Q4**: What are the essential grip fighting priorities when defending straight ankle lock control?
-**A**: Two-on-one grip breaking on the attacker's hand controlling your heel is the primary priority, as the heel grip provides most of their finishing leverage. Secondary priority is preventing them from deepening their forearm position against your Achilles. Use constant pressure against their thumb line while creating frames with your free arm to generate distance.
-
-**Q5**: How do you determine which direction to rotate your hip during escape?
-**A**: Rotate in the direction that complicates the attacker's transition attempts rather than facilitating them. If rotating hip away would give them inside ashi-garami, rotate toward them instead. If rotating toward would give them outside ashi-garami, rotate away. The key is understanding what position they want to achieve and deliberately choosing the opposite rotation direction.
-
-**Q6**: The attacker commits heavily to a submission attempt and temporarily sacrifices their leg positioning - what opportunity does this create?
-**A**: When the attacker over-commits to the finish, they often sacrifice upper body positioning and leg control to maximize breaking pressure. This creates a window to pass to top control by circling around their guard or to establish frames and distance that facilitate standing escape. Their focused commitment to finishing opens counter-attack and escape opportunities that disappear once they recompose.
-
-**Q7**: What is the optimal time window for escape before the attacker typically advances to a more dangerous position?
-**A**: The optimal escape window is 5-12 seconds from when ankle control is established. Beyond this timeframe, the attacker has had sufficient time to consolidate grips, complete leg triangle control, and begin transitioning to more dominant entanglements. Immediate aggressive escape sequences dramatically improve success probability compared to passive waiting.
-
-**Q8**: How do you recover if your initial escape attempt fails but you've partially freed your leg?
-**A**: Immediately re-establish frames on the attacker's upper body while keeping your partially freed knee bent and protected. Use the momentum of your escape attempt to create additional distance before the attacker can recompose their control. If complete extraction is still impossible, prevent progression to worse positions by blocking their leg advancement while preparing your next escape sequence.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

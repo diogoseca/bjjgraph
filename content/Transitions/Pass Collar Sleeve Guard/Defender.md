@@ -162,6 +162,8 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Collar Sleeve Guard?</p>
+
 - Passer brings both hands toward your collar-gripping wrist, establishing two-on-one control for a grip break
 - Passer drives hips backward explosively while controlling your wrist, indicating committed grip-breaking attempt
 - Passer's posture becomes more upright and rigid as they prepare to absorb your pulling forces during the grip-breaking sequence
@@ -174,6 +176,8 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Collar Sleeve Guard?</p>
 
 - Grip retention through active re-gripping whenever the passer breaks your collar or sleeve control
 - Hip mobility to create angles that prevent the passer from driving through the centerline
@@ -188,6 +192,8 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Collar Sleeve Guard?</p>
 
 ### 1. Re-grip collar immediately through any available window during the passer's grip-breaking sequence
 
@@ -225,6 +231,8 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Collar Sleeve Guard?</p>
+
 ### → [[Positions/Mount]]
 
 Execute a pendulum sweep, flower sweep, or collar drag during the passer's forward drive phase when their weight is committed and their hands are occupied with grip control rather than base
@@ -244,6 +252,8 @@ When grips are being stripped, immediately wrap your legs around the passer's wa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Collar Sleeve Guard?</p>
 
 ### 1. Passively allowing grips to be broken without attempting to re-establish them
 
@@ -273,6 +283,8 @@ When grips are being stripped, immediately wrap your legs around the passer's wa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Collar Sleeve Guard?</p>
+
 **Phase 1: Grip Retention Drills** - Maintaining collar and sleeve grips under breaking pressure
 Partner attempts two-on-one grip breaks while you focus purely on grip retention techniques including wrist rotation, re-gripping speed, and grip switching. No passing or sweeping, just develop the ability to maintain grip control against systematic breaking attempts.
 
@@ -289,29 +301,6 @@ Partner attempts the full direct pass sequence at increasing resistance levels. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a direct collar sleeve guard pass?
-**A**: The earliest cue is when the passer brings both hands toward your collar-gripping wrist, establishing two-on-one control. This telegraph indicates they are prioritizing grip elimination over lateral movement, signaling a direct pass attempt rather than a toreando or leg drag. Recognizing this two-on-one setup gives you maximum time to prepare defensive responses, either by strengthening your collar grip or positioning your legs for counter-attacks.
-
-**Q2**: When is the best moment to attempt a counter-sweep against this pass?
-**A**: The optimal moment is during the forward drive phase after the passer has broken both grips and committed their weight forward through the centerline. At this point, their hands are occupied with establishing crossface and hip control rather than maintaining base, and their center of gravity is elevated and moving forward. A well-timed pendulum sweep or collar drag at this exact moment uses their own forward momentum to amplify the sweep, making it significantly higher percentage than a sweep attempted during the grip-breaking phase.
-
-**Q3**: How should you prioritize your defensive responses when your collar grip is broken first?
-**A**: Immediately attempt to re-grip the collar with the freed hand while the passer transitions to address the sleeve grip. This re-gripping window is typically one to two seconds and represents your highest-value defensive action. If re-gripping fails, shift priority to using your freed hand to frame on the passer's shoulder or bicep, creating a physical barrier that slows their forward drive. Simultaneously elevate your hips and prepare your legs for guard transition to De La Riva, lasso, or closed guard.
-
-**Q4**: What is the most effective guard transition when both collar sleeve grips are broken?
-**A**: Closing your guard around the passer's waist is the highest-percentage emergency transition because it requires only leg movement and no grip re-establishment. As the passer drives forward after breaking grips, their forward motion actually helps you close the distance needed to lock your ankles behind their back. This resets the engagement to closed guard where you have strong defensive structure and new attack options. The key is timing the leg closure to coincide with their forward drive rather than trying to close guard while they are still at distance.
-
-**Q5**: How do you prevent the passer from controlling your freed wrist after they break your collar grip?
-**A**: Immediately retract your freed hand toward your own chest or chin rather than leaving it extended where the passer can pin it. From the retracted position, you can rapidly re-deploy it to re-grip the collar, frame against their shoulder, or post on the mat for hip escapes. The worst response is allowing your freed hand to stay in the space between your bodies where the passer can easily trap it against your own torso. Keep the hand active and moving rather than static and available for their control.
-
-
-
-</section>
 
 
 </main>

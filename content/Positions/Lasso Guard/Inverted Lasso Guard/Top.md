@@ -173,6 +173,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 ## Position Definition
 
+<p class="section-subtitle">What is Inverted Lasso Guard (Top)?</p>
+
 - Top player's arm remains threaded through opponent's leg with their sleeve gripped, creating the lasso connection that defines the position - maintaining awareness of this trapped arm's position is critical as it determines available defensive options and movement patterns
 - Bottom player is inverted with shoulders on mat and hips elevated, using their lassoed leg as a fulcrum point - recognizing this inverted posture immediately is essential as it signals the shift from standard passing approaches to specialized inversion counters
 - Top player maintains upright or forward-leaning posture while managing balance against rotational forces from inverted opponent - balance and base are constantly challenged by angular momentum, requiring dynamic weight adjustments rather than static positioning
@@ -183,6 +185,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Inverted Lasso Guard (Top)?</p>
 
 - Bottom player has established lasso hook with leg threaded through top player's arm
 - Bottom player has initiated inversion, rolling onto shoulders with hips elevated
@@ -196,6 +200,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Inverted Lasso Guard?</p>
 
 - Recognize inversion immediately and respond within 1-2 seconds - delayed reactions allow bottom player to establish angle and initiate attacks
 - Maintain forward pressure angle while preventing shoulder rotation - pressure must be directional, not purely downward
@@ -211,6 +217,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Inverted Lasso Guard (Top)?</p>
 
 **If bottom player commits to berimbolo rotation with leg threading behind back:**
 - Execute **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** → [[Positions/Back Control]] (Probability: 60%)
@@ -239,6 +247,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Inverted Lasso Guard?</p>
 
 ### 1. Driving forward pressure directly into inverted opponent's hips
 
@@ -283,6 +293,8 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Inverted Lasso Guard attacks?</p>
+
 ### Inversion Recognition Drill
 
 Partner plays inverted lasso while top player practices recognizing the transition from upright to inverted. As soon as shoulders touch mat, top player calls out position and implements chosen counter (arm extraction, stack, or cartwheel). Focus on reducing reaction time to under 1 second. 20 repetitions with varied speeds.
@@ -315,38 +327,6 @@ Start in established inverted lasso guard. Top player has 2 minutes to systemati
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for countering the inverted lasso guard?
-**A**: The most critical timing window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle. Once the inversion is complete and they have proper hip elevation with maintained lasso tension, defensive options narrow significantly. Responding within 1-2 seconds of recognizing the inversion initiation allows for cartwheel counters, immediate arm extraction, or preventive pressure that disrupts the technique.
-
-**Q2**: Why does driving forward pressure directly into an inverted opponent's hips actually help their sweep?
-**A**: Forward pressure into an inverted opponent's hips adds momentum to their overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point - your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. Instead, pressure should be angled toward their shoulders and chest while keeping your hips back and base wide to prevent becoming a lever arm for their technique.
-
-**Q3**: What are the three primary strategic approaches for defending inverted lasso guard from top?
-**A**: The three primary strategies are: arm extraction (systematically removing the lassoed limb by addressing the ankle grip first, creating slack, then withdrawing the arm), pressure passing (establishing heavy shoulder and chest control to prevent hip mobility and make the inverted position uncomfortable), and counter-inversions (following the bottom player's rotational movement with cartwheels or back steps that match their angle and neutralize their geometric advantage). Each has specific timing requirements and risk profiles.
-
-**Q4**: Your opponent inverts into lasso guard and begins hip rotation for a berimbolo. What immediate adjustment should you make?
-**A**: When the opponent begins berimbolo rotation by threading their leg behind your back, you should immediately initiate a cartwheel pass by following their rotational direction while maintaining connection. Your free hand controls their far hip while you cartwheel over their rotating body, using their momentum to establish back control or side control on the other side. Fighting against their rotation allows them to complete the back take, but matching it with a counter-rotation neutralizes their advantage.
-
-**Q5**: How should you approach extracting your lassoed arm, and why is explosive pulling ineffective?
-**A**: Arm extraction requires a systematic approach: first control their free leg to prevent them from using it for angles, then address the ankle grip on your lassoed arm to create slack in the lasso, finally withdraw the arm in a controlled pulling motion once slack exists. Explosive pulling fails because the lasso structure creates mechanical advantage that increases with sudden force - their leg wrapped around your arm acts like a finger trap that tightens with jerky movement. Controlled, sequential extraction defeats the mechanical structure rather than fighting against it.
-
-**Q6**: What common error allows the bottom player to successfully initiate berimbolo or sweeps unopposed?
-**A**: The most common enabling error is ignoring the free leg that isn't involved in the lasso. When you fail to control this leg, the bottom player can post it on your hip to control distance, thread it behind your back to initiate berimbolo, or use it to create the angles necessary for overhead sweeps. The free leg is their steering mechanism and attacking tool - controlling it with your hand or pinning it with your hip prevents them from converting the inverted position into offensive techniques.
-
-**Q7**: Why should you stay connected to an inverted lasso guard player rather than creating distance?
-**A**: Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to thread their legs more easily and rotate behind your back. Space also permits them to reset with better angles or chain the inversion with other guard positions. Staying connected with strategic pressure points while controlling their hips prevents rotation without giving them room to maneuver. Connection limits their options to defending your pressure rather than freely attacking.
-
-**Q8**: How can you make the inverted position itself uncomfortable enough to force the bottom player to abandon it?
-**A**: Apply strategic pressure on their inverted shoulders and upper back (not their hips), forcing them to support your weight while maintaining their inverted posture. Control their hips with your free hand to prevent the rotation necessary for techniques. Threaten submissions or passes that force them to use their grips defensively rather than offensively. The goal is making the energy cost of maintaining the inversion exceed the potential benefit, converting their offensive position into an exhausting defensive struggle that they must abandon.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -242,7 +242,7 @@
         "description": "Apply technique during normal sparring when opportunities arise. Start from turtle top position in positional sparring and hunt for guillotine setups. Track success rate and identify which variations work best for your body type and style. Refine based on what works against resisting opponents of various skill levels."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary control position you must establish before attempting the guillotine from turtle?",
         "answer": "Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip."
@@ -367,7 +367,7 @@
         "correction": "Only attempt standup in the early phase before grip is consolidated. If grip is already locked, prioritize hand fighting to break the grip or granby roll to create scramble rather than standing into the choke."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a guillotine from turtle is being attempted, and what should your immediate response be?",
         "answer": "The earliest cue is the attacker's weight shifting from behind you toward your head and shoulder area, with their chest pressure migrating from your lower back to your upper back. Your immediate response must be to aggressively tuck your chin to your chest and rotate your near shoulder toward where you feel the arm threading. This pre-emptive chin tuck and rotation must become a trained reflex, not a conscious decision, because the window for effective prevention is only 1-2 seconds."
@@ -396,7 +396,7 @@
         "description": "Partner starts in turtle top and slowly initiates guillotine setup at 30% speed. Defender practices recognizing the weight shift and arm threading, responding with immediate chin tuck and shoulder rotation. No grip stripping or escape attempts yet. Focus entirely on making the chin tuck reflexive and identifying the moment the attack begins. Drill 30 repetitions per session."
       },
       {
-        "phase": "Phase 2: Grip Fighting and Stripping (Weeks 3-4)",
+        "phase": "Phase 2: Grips and Stripping (Weeks 3-4)",
         "focus": "Two-on-one grip strip mechanics and timing",
         "description": "Partner establishes front headlock control and begins threading for guillotine at 50% speed. Defender practices two-on-one grip strip on the choking wrist, focusing on the timing window between arm threading and hand connection. Partner provides moderate grip resistance. Add the head drive-through motion after grip strip. Alternate between successful strips and scenarios where strip fails to build decision-making."
       },

@@ -34,7 +34,7 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg weave disrupts guard structure by threading through defensive frames, creating asymmetric control that favors the passer

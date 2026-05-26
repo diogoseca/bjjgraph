@@ -350,11 +350,11 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 - [[Triangle Choke]] (Submission) - High-percentage submission from Chill Dog position
 - [[Omoplata]] (Submission) - Primary submission from Meathook and chain progression
 - [[Gogoplata]] (Submission) - Signature submission from New York position
-- [[Armbar from Guard]] (Submission) - Chain progression option from various control positions
+- [[Inverted Triangle]] (Submission) - Chain progression option from high guard control positions
 - [[Baratoplata]] (Submission) - Advanced submission option from Rubber Guard controls
-- [[Guard Retention]] (Principle) - Fundamental principle maintained throughout system application
-- [[Flexibility Training]] (Principle) - Essential physical prerequisite for effective system use
-- [[Posture Breaking]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
+- [[Defensive Concepts]] (Principle) - Fundamental guard retention principles maintained throughout system application
+- [[Hip Escape Mechanics]] (Principle) - Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning
+- [[Posture]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
 - [[Submission Chains]] (Principle) - Strategic framework connecting all system submissions
 - [[10th Planet No-Gi Guard System]] (System) - Broader system framework containing Rubber Guard as component
 - [[Rubber Guard to Triangle System]] (System) - Specific subsystem focusing on Triangle pathways

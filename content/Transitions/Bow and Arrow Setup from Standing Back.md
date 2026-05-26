@@ -206,13 +206,13 @@ The Bow and Arrow Setup from Standing Back Control occupies a critical juncture 
 
 - [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes during the transition to ground
 
-- [[Submissions/Bow and Arrow from Seat Belt]] - The finishing submission this setup directly feeds into from grounded back control
+- [[Rear Naked Choke from Standing Back Control]] - Alternative standing back attack that shares the same starting position and creates the choke threat used to set up the collar grip
 
-- [[Transitions/Bow and Arrow Choke]] - The choking technique this transition specifically configures the attacker to execute
+- [[Submissions/Bow and Arrow Choke]] - The choking technique this transition specifically configures the attacker to execute from grounded back control
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration used as the starting control before transitioning to collar grip
 
-- [[Submissions/RNC from Seat Belt]] - Alternative submission from the same starting position when collar is unavailable
+- [[Submissions/Rear Naked Choke]] - Alternative submission threat from back control when collar access is unavailable or when grips are defended
 
 - [[Positions/Back Control/Body Triangle]] - Advanced leg control option that can be combined with bow and arrow setup for enhanced control
 

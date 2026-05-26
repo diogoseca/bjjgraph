@@ -188,6 +188,8 @@ Executing the turn into opponent escape from back control requires systematic di
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turn into Opponent from Back?</p>
+
 - Neck defense takes absolute priority over all rotation attempts; never begin turning until chin is tucked and choking arm is controlled
 - Two-on-one grip control on the choking arm must be maintained throughout the entire rotation sequence to prevent submission during the vulnerable turning phase
 - Hip angle creation through scooting toward the underhook side provides the mechanical foundation for the rotational turn
@@ -202,6 +204,8 @@ Executing the turn into opponent escape from back control requires systematic di
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turn into Opponent from Back?</p>
+
 - Chin tucked with neck protected against immediate choking attacks through hand positioning
 - Two-on-one grip established on opponent's choking arm with top hand on wrist and bottom hand on forearm
 - Hip angle created by scooting laterally toward the underhook side of opponent's seatbelt
@@ -214,6 +218,8 @@ Executing the turn into opponent escape from back control requires systematic di
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turn into Opponent from Back step by step?</p>
 
 1. **Secure Neck Defense**: Immediately tuck your chin tightly to your chest and bring both hands to your neck area, establishing primary protection against rear naked choke and other choking attacks before initiating any escape movement sequence.
 2. **Establish Two-on-One Grip Control**: Grip the opponent's choking arm with both hands in a two-on-one configuration, placing your top hand on their wrist and your bottom hand controlling their forearm or elbow, creating a lever that prevents choke entry and assists rotation.
@@ -243,6 +249,8 @@ Executing the turn into opponent escape from back control requires systematic di
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turn into Opponent from Back?</p>
+
 - **Opponent re-establishes hooks by driving feet back inside thighs during rotation attempt** (Effectiveness: High) - Your Response: Pause the rotation and return to hook clearing phase; use hip bridge to create space against the re-inserted hook before reattempting, or switch to back door escape direction → Leads to [[Positions/Back Control]]
 - **Opponent follows the turn and swings leg over to transition to mount as you rotate** (Effectiveness: Medium) - Your Response: Accelerate guard closure by immediately clamping knees together and wrapping legs before opponent's leg clears your body; use elbow frame on their hip to block the mount transition → Leads to [[Positions/Mount]]
 - **Opponent tightens seatbelt grip and drives chest forward to eliminate rotation space** (Effectiveness: High) - Your Response: Continue hand fighting to strip the seatbelt rather than forcing the turn; create hip angle through persistent scooting, or switch to back door escape when they overcommit chest pressure forward → Leads to [[Positions/Back Control]]
@@ -254,6 +262,8 @@ Executing the turn into opponent escape from back control requires systematic di
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turn into Opponent from Back?</p>
 
 ### 1. Attempting to turn before defending neck and establishing two-on-one grip control
 
@@ -293,6 +303,8 @@ Executing the turn into opponent escape from back control requires systematic di
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turn into Opponent from Back (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated movement pattern and grip sequence
 Practice the complete sequence with a compliant partner: neck defense, two-on-one grip, hip scoot, hook clear, rotation, guard closure. Perform 20 repetitions per side focusing on smooth transitions between each stage. Partner provides zero resistance to allow muscle memory development.
 
@@ -310,42 +322,12 @@ Positional sparring starting from back control with full resistance. Apply the t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the turn into your opponent from back control?
-**A**: The best timing is when your opponent loosens their seatbelt grip to attempt a choke entry or switches between grip configurations. During the transition between one grip and another, their control is momentarily weakened, creating a window where your rotation faces less resistance. Additionally, when they shift weight to attack your neck, their hook control often loosens as they commit their upper body to the choke attempt, opening the window for hip movement and hook clearing.
-
-**Q2**: What conditions must be established before attempting to turn into your opponent?
-**A**: You must have your neck defense secured with chin tucked and at least one hand controlling the opponent's choking arm in a two-on-one configuration. The bottom hook should be cleared or neutralized, and you should have created a hip angle by scooting toward the underhook side. Attempting to turn without these prerequisites exposes your neck during rotation and dramatically increases submission risk, making the escape attempt more dangerous than remaining in back control.
-
-**Q3**: What is the critical hip movement that enables successful rotation during this escape?
-**A**: The hip escape toward the underhook side is the foundational movement. You must scoot your hips toward the side where your opponent's arm passes under your armpit, creating an angle that allows your shoulders and torso to rotate toward them. Without this initial hip angle, your rotation is blocked by their chest-to-back connection and hook leverage, making the turn mechanically impossible against a connected opponent who maintains proper positioning.
-
-**Q4**: What is the most common reason this escape fails at the moment of rotation?
-**A**: Failing to clear the bottom hook before rotating is the primary failure point. When the bottom hook remains engaged inside your thigh during the turn attempt, it acts as an anchor that prevents your hips from completing the rotation and allows your opponent to follow your movement while maintaining back control. The hook must be stripped or bypassed through hip elevation before committing to the rotational turn to avoid this common mechanical failure.
-
-**Q5**: What grip configuration must you maintain throughout the turning sequence?
-**A**: Maintain two-on-one control on the opponent's choking arm throughout the entire rotation. Your top hand grips their wrist while your bottom hand controls their forearm or elbow. This grip prevents them from sinking a choke during the vulnerable rotation phase and provides a lever to assist your turn. Releasing this grip prematurely to post or frame is the most common error leading to submission during the escape attempt.
-
-**Q6**: In which direction should you drive your rotation and why?
-**A**: Rotate toward the underhook side, turning your body to face the arm that passes under your armpit. This direction is mechanically advantageous because it works against the weaker axis of their seatbelt control and brings you toward their arm that has less leverage to resist your rotation. Turning toward the overhook side drives into their stronger controlling arm and often exposes your neck directly to the choking hand, significantly increasing submission risk.
-
-**Q7**: Your opponent feels you beginning to rotate and tightens both hooks while driving their chest forward - how do you adjust?
-**A**: Pause the rotation attempt and return to the hand fighting phase. Use your hips to create pressure against their top hook by bridging slightly, then work to strip the re-tightened hook with your foot or knee while maintaining your two-on-one grip. Do not force the rotation against tightened hooks as this wastes energy and may expose your neck. Wait for the next window when they loosen control to attack, then resume the sequence with fresh hip escape and hook clearing.
-
-**Q8**: If your initial turn attempt is stopped and you are pushed back to full back control, what follow-up escape should you chain?
-**A**: Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turn into Opponent from Back?</p>
 
 This escape involves rotational movement of the neck and spine under load from your opponent's body weight and control pressure. Never jerk your head or neck explosively during the turn; maintain controlled movement throughout the rotation. If you feel your opponent has a deep choking grip during the rotation, pause and return to hand fighting rather than forcing the turn with a partially locked choke. During training, communicate with your partner about resistance levels and tap immediately if any neck compression occurs during the rotation phase. Avoid this technique if you have existing cervical spine injuries without medical clearance.
 

@@ -103,6 +103,19 @@ def build_position_path_index(positions_dir: Path) -> dict[str, str]:
     return index
 
 
+def dedupe_flashcards(cards: list[dict]) -> list[dict]:
+    """Return flashcards with duplicate questions removed, preserving order."""
+    seen: set[str] = set()
+    out: list[dict] = []
+    for card in cards:
+        q = (card.get('question') or '').strip()
+        if not q or q in seen:
+            continue
+        seen.add(q)
+        out.append(card)
+    return out
+
+
 def is_neutral_position(slug: str) -> bool:
     base_slug = slug.split('/')[0] if '/' in slug else slug
     return base_slug in NEUTRAL_POSITIONS
@@ -141,10 +154,9 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
 
     state_props = role_data.get('state_properties', {})
 
-    ka_source = role_data.get('knowledge_assessment', [])
-    knowledge_assessment = [
+    flashcards = [
         {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
-        for qa in ka_source
+        for qa in role_data.get('flashcards', [])
     ]
 
     return {
@@ -157,7 +169,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         'riskLevel': state_props.get('risk_level', 'Medium'),
         'energyCost': state_props.get('energy_cost', 'Medium'),
         'transitions': transitions,
-        'knowledgeAssessment': knowledge_assessment
+        'flashcards': flashcards,
     }
 
 
@@ -204,6 +216,19 @@ def process_positions(content_dir: Path) -> dict:
         if bottom:
             positions[f"{hub_slug}/bottom"] = bottom
 
+        # Dual-role hub entry: aggregates top + bottom flashcards for the hub page
+        if top or bottom:
+            hub_flashcards = dedupe_flashcards(
+                (top or {}).get('flashcards', []) + (bottom or {}).get('flashcards', [])
+            )
+            positions[hub_slug] = {
+                'name': pos_data['name'],
+                'hub': hub_slug,
+                'role': 'hub',
+                'path': hub_path,
+                'flashcards': hub_flashcards,
+            }
+
         # Neutral positions (no top/bottom - SINGLE template)
         if not top and not bottom:
             transitions = []
@@ -234,6 +259,21 @@ def process_positions(content_dir: Path) -> dict:
                     'transitions': transitions
                 }
 
+    # Ensure terminal positions exist even without a source JSON file
+    for terminal_slug in TERMINAL_POSITIONS:
+        if terminal_slug not in positions:
+            positions[terminal_slug] = {
+                'name': terminal_slug.replace('-', ' ').title(),
+                'hub': terminal_slug,
+                'role': 'terminal',
+                'path': terminal_slug.replace('-', ' ').title(),
+                'pointValue': 0,
+                'positionType': 'Terminal',
+                'riskLevel': 'None',
+                'energyCost': 'None',
+                'transitions': []
+            }
+
     return positions
 
 
@@ -256,18 +296,24 @@ def process_transitions(content_dir: Path) -> dict:
 
         # Support both flat and attacker/defender structures
         attacker = trans_data.get('attacker', {})
-        ka_source = attacker.get('knowledge_assessment', trans_data.get('knowledge_assessment', []))
-        knowledge_assessment = [
+        attacker_flashcards = [
             {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
-            for qa in ka_source
+            for qa in attacker.get('flashcards', trans_data.get('flashcards', []))
         ]
 
         defender = trans_data.get('defender', {})
-        defender_ka_source = defender.get('knowledge_assessment', [])
-        defender_knowledge_assessment = [
+        defender_flashcards = [
             {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
-            for qa in defender_ka_source
+            for qa in defender.get('flashcards', [])
         ]
+
+        # Read from_position (the correct field name from source JSON)
+        from_position_raw = trans_data.get('from_position', '')
+        if from_position_raw:
+            starting_pos_name = from_position_raw.split('/')[0]
+            starting_position_slug = slugify(starting_pos_name)
+        else:
+            starting_position_slug = ''
 
         effectiveness_map = {'High': 70, 'Medium': 50, 'Low': 30}
         cc_source = attacker.get('common_counters', trans_data.get('common_counters', []))
@@ -275,30 +321,74 @@ def process_transitions(content_dir: Path) -> dict:
             {
                 'technique': c.get('counter', 'Defense'),
                 'effectiveness': effectiveness_map.get(c.get('effectiveness', 'Medium'), 50),
-                'resultPosition': slugify(trans_data.get('starting_position', ''))
+                'resultPosition': starting_position_slug
             }
             for c in cc_source
         ]
 
         success_rate = trans_data.get('success_rate', 50)
 
-        ending_pos = trans_data.get('ending_position', '')
-        ending_slug = slugify(ending_pos)
-        ending_path = path_index.get(ending_slug, ending_slug)
+        # Derive endingPosition from first success outcome in outcomes[]
+        ending_slug = ''
+        ending_path = ''
+        outcomes_raw = trans_data.get('outcomes', [])
+        for outcome in outcomes_raw:
+            if outcome.get('result') == 'success':
+                to_raw = outcome.get('to', '')
+                if to_raw:
+                    # Split "Position/Role" format (e.g., "Mount/Top")
+                    to_parts = to_raw.split('/')
+                    pos_name = to_parts[0]
+                    pos_slug = slugify(pos_name)
+                    ending_path = path_index.get(pos_slug, pos_slug)
 
-        if ending_slug and not is_neutral_position(ending_slug) and not is_terminal_position(ending_slug):
-            ending_slug = f"{ending_slug}/top"
+                    if is_terminal_position(pos_slug):
+                        ending_slug = pos_slug
+                    elif is_neutral_position(pos_slug):
+                        ending_slug = pos_slug
+                    elif len(to_parts) > 1:
+                        role = to_parts[1].lower()
+                        ending_slug = f"{pos_slug}/{role}"
+                    else:
+                        ending_slug = f"{pos_slug}/top"
+                break
 
-        transitions[slug] = {
+        # Build outcomes array — slugify each path segment separately to preserve "/"
+        outcomes = []
+        for o in outcomes_raw:
+            to_raw = o.get('to', '')
+            to_parts = to_raw.split('/')
+            to_slug = '/'.join(slugify(part) for part in to_parts) if to_raw else ''
+            outcomes.append({
+                'to': to_slug,
+                'probability': o.get('probability', 0),
+                'result': o.get('result', 'success')
+            })
+
+        # Extract starting position role and path for outcome card navigation
+        starting_position_role = ''
+        starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+        if from_position_raw and '/' in from_position_raw:
+            starting_position_role = from_position_raw.split('/')[1].lower()
+
+        trans_entry = {
             'name': trans_data['name'],
-            'startingPosition': slugify(trans_data.get('starting_position', '')),
+            'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': starting_position_role,
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
-            'knowledgeAssessment': knowledge_assessment,
-            'defenderKnowledgeAssessment': defender_knowledge_assessment,
-            'commonCounters': common_counters
+            'attackerFlashcards': attacker_flashcards,
+            'defenderFlashcards': defender_flashcards,
+            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
+            'commonCounters': common_counters,
         }
+
+        if outcomes:
+            trans_entry['outcomes'] = outcomes
+
+        transitions[slug] = trans_entry
 
     return transitions
 
@@ -307,38 +397,53 @@ def process_transitions(content_dir: Path) -> dict:
 # Submission processing
 # ---------------------------------------------------------------------------
 
-def process_submissions(content_dir: Path) -> dict:
+def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
+    """Process submissions. Returns (submissions_dict, hub_slugs_set, family_hubs_dict)."""
     submissions_dir = content_dir / 'Submissions'
+    positions_dir = content_dir / 'Positions'
     submission_files = load_json_files(submissions_dir)
+    path_index = build_position_path_index(positions_dir)
     submissions = {}
+    hub_slugs = set()
+
+    family_hub_metadata: dict[str, dict] = {}
 
     for sub_data in submission_files:
         if 'name' not in sub_data:
+            continue
+        if sub_data.get('is_family', False):
+            family_slug = slugify(sub_data['name'])
+            hub_slugs.add(family_slug)
+            family_hub_metadata[family_slug] = {
+                'name': sub_data['name'],
+                'description': sub_data.get('description', ''),
+                'category': sub_data.get('submission_category', 'Unknown'),
+                'type': sub_data.get('submission_type', 'Unknown'),
+                'targetArea': sub_data.get('target_area', 'Unknown'),
+            }
             continue
 
         slug = slugify(sub_data['name'])
 
         # Support both flat and attacker/defender structures
         attacker = sub_data.get('attacker', {})
-        ka_source = attacker.get('knowledge_assessment', sub_data.get('knowledge_assessment', []))
-        knowledge_assessment = [
+        attacker_flashcards = [
             {
                 'question': qa.get('question', ''),
                 'answer': qa.get('answer', ''),
-                'safetyCritical': qa.get('safety_critical', False)
+                'safetyCritical': qa.get('safety_critical', False),
             }
-            for qa in ka_source
+            for qa in attacker.get('flashcards', sub_data.get('flashcards', []))
         ]
 
         defender = sub_data.get('defender', {})
-        defender_ka_source = defender.get('knowledge_assessment', [])
-        defender_knowledge_assessment = [
+        defender_flashcards = [
             {
                 'question': qa.get('question', ''),
                 'answer': qa.get('answer', ''),
-                'safetyCritical': qa.get('safety_critical', False)
+                'safetyCritical': qa.get('safety_critical', False),
             }
-            for qa in defender_ka_source
+            for qa in defender.get('flashcards', [])
         ]
 
         from_positions = [slugify(p) for p in sub_data.get('from_positions', [])]
@@ -355,6 +460,15 @@ def process_submissions(content_dir: Path) -> dict:
             starting_position_slug = slugify(sub_data.get('starting_position', ''))
             from_position_slug = ''
 
+        # Extract starting position role and path for outcome card navigation
+        starting_position_role = ''
+        starting_position_path = ''
+        if from_position_raw and '/' in from_position_raw:
+            starting_position_role = from_position_raw.split('/')[1].lower()
+            starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+        elif starting_position_slug:
+            starting_position_path = path_index.get(starting_position_slug, starting_position_slug)
+
         sub_entry = {
             'name': sub_data['name'],
             'isTerminal': True,
@@ -362,10 +476,13 @@ def process_submissions(content_dir: Path) -> dict:
             'type': sub_data.get('submission_type', 'Unknown'),
             'targetArea': sub_data.get('target_area', 'Unknown'),
             'startingPosition': starting_position_slug,
+            'startingPositionPath': starting_position_path,
+            'startingPositionRole': starting_position_role,
             'fromPositions': from_positions,
             'successRate': success_rate,
-            'knowledgeAssessment': knowledge_assessment,
-            'defenderKnowledgeAssessment': defender_knowledge_assessment
+            'attackerFlashcards': attacker_flashcards,
+            'defenderFlashcards': defender_flashcards,
+            'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
         }
 
         # Add from_position and outcomes if present (graph edge data)
@@ -376,7 +493,7 @@ def process_submissions(content_dir: Path) -> dict:
         if outcomes_raw:
             sub_entry['outcomes'] = [
                 {
-                    'to': slugify(o.get('to', '')),
+                    'to': '/'.join(slugify(part) for part in o.get('to', '').split('/')) if o.get('to') else '',
                     'probability': o.get('probability', 0),
                     'result': o.get('result', 'success')
                 }
@@ -385,7 +502,67 @@ def process_submissions(content_dir: Path) -> dict:
 
         submissions[slug] = sub_entry
 
-    return submissions
+    # Build family-hub entries separately (keyed by family slug e.g. "americana").
+    # Aggregates flashcards from all <family>-from-* variants. These are merged into
+    # the submissions dict by the caller AFTER variant-level enrichment runs, so
+    # downstream logic (successRate enrichment, outcome rewriting, ending rewriting)
+    # continues to operate only on real variants.
+    family_hubs: dict[str, dict] = {}
+    for family_slug, meta in family_hub_metadata.items():
+        prefix = f"{family_slug}-from-"
+        aggregated: list[dict] = []
+        for key, variant in submissions.items():
+            if not key.startswith(prefix):
+                continue
+            aggregated.extend(variant.get('flashcards', []))
+        family_hubs[family_slug] = {
+            **meta,
+            'isFamily': True,
+            'isTerminal': True,
+            'flashcards': dedupe_flashcards(aggregated),
+        }
+
+    return submissions, hub_slugs, family_hubs
+
+
+# ---------------------------------------------------------------------------
+# Principle and System processing (flat content — no roles, no graph edges)
+# ---------------------------------------------------------------------------
+
+def _process_flat_content(content_dir: Path, subdir: str) -> dict:
+    """Build a {slug: {name, flashcards}} dict from a flat content directory.
+
+    Shared by Principles and Systems — both are single-page-per-file content types
+    with a top-level flashcards array (no role splitting, no transitions/outcomes).
+    """
+    target_dir = content_dir / subdir
+    files = load_json_files(target_dir)
+    entries: dict[str, dict] = {}
+    for data in files:
+        name = data.get('name')
+        if not name:
+            continue
+        slug = slugify(name)
+        flashcards = [
+            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+            for qa in data.get('flashcards', [])
+            if qa.get('question') and qa.get('answer')
+        ]
+        entries[slug] = {
+            'name': name,
+            'description': data.get('description', ''),
+            'tags': data.get('tags', []),
+            'flashcards': flashcards,
+        }
+    return entries
+
+
+def process_principles(content_dir: Path) -> dict:
+    return _process_flat_content(content_dir, 'Principles')
+
+
+def process_systems(content_dir: Path) -> dict:
+    return _process_flat_content(content_dir, 'Systems')
 
 
 # ---------------------------------------------------------------------------
@@ -506,8 +683,14 @@ def generate_state_graph(project_root: Path) -> dict:
     transitions = process_transitions(content_dir)
     print(f"  Processed {len(transitions)} transitions")
 
-    submissions = process_submissions(content_dir)
-    print(f"  Processed {len(submissions)} submissions")
+    submissions, hub_slugs, family_hubs = process_submissions(content_dir)
+    print(f"  Processed {len(submissions)} submission variants + {len(family_hubs)} family hubs")
+
+    principles = process_principles(content_dir)
+    print(f"  Processed {len(principles)} principles")
+
+    systems = process_systems(content_dir)
+    print(f"  Processed {len(systems)} systems")
 
     # Override success rates with community votes
     if vote_rates:
@@ -525,12 +708,12 @@ def generate_state_graph(project_root: Path) -> dict:
         if vote_overrides:
             print(f"  Applied {vote_overrides} community vote rate override(s)")
 
-    # Mark position transitions that target submissions (Problem 3)
-    submission_slugs = set(submissions.keys())
+    # Mark position transitions that target submissions (including family hubs)
+    all_submission_slugs = set(submissions.keys()) | hub_slugs
     marked_count = 0
     for pos_data in positions.values():
         for t in pos_data.get('transitions', []):
-            if t.get('target', '') in submission_slugs:
+            if t.get('target', '') in all_submission_slugs:
                 t['isSubmission'] = True
                 marked_count += 1
     if marked_count:
@@ -543,25 +726,140 @@ def generate_state_graph(project_root: Path) -> dict:
             target_slug = t.get('target', '')
             if target_slug in transitions:
                 t['successRate'] = transitions[target_slug].get('successRate', 50)
-            elif target_slug in submission_slugs:
+            elif target_slug in all_submission_slugs and target_slug in submissions:
                 t['successRate'] = submissions[target_slug].get('successRate', 50)
             else:
                 t['successRate'] = 50
             enriched += 1
     print(f"  Enriched {enriched} position transition(s) with successRate")
 
-    all_position_slugs = sorted(positions.keys())
+    # Build path index for opponent transition outcome lookups
+    positions_dir = content_dir / 'Positions'
+    path_index = build_position_path_index(positions_dir)
+
+    # Add opponentTransitions: for each position role, copy the opposite role's transitions
+    opponent_count = 0
+    for pos_key, pos_data in positions.items():
+        role = pos_data.get('role')
+        hub = pos_data.get('hub')
+        if role not in ('top', 'bottom') or not hub:
+            continue
+
+        opposite_role = 'bottom' if role == 'top' else 'top'
+        opposite_key = f"{hub}/{opposite_role}"
+        opposite_data = positions.get(opposite_key)
+        if not opposite_data:
+            continue
+
+        opponent_transitions = []
+        for t in opposite_data.get('transitions', []):
+            opp_t = {
+                'technique': t.get('technique', ''),
+                'target': t.get('target', ''),
+                'targetPath': t.get('targetPath', ''),
+                'isSubmission': t.get('isSubmission', False),
+                'attemptProbability': t.get('attemptProbability', 0),
+                'successRate': t.get('successRate', 50),
+            }
+            # Embed the success outcome from the transition's outcomes array
+            target_slug = t.get('target', '')
+            if target_slug in transitions:
+                trans_outcomes = transitions[target_slug].get('outcomes', [])
+                for outcome in trans_outcomes:
+                    if outcome.get('result') == 'success':
+                        outcome_to = outcome.get('to', '')
+                        opp_t['successOutcome'] = outcome_to
+                        # Look up path for the outcome position (use first segment as position name)
+                        outcome_pos = outcome_to.split('/')[0] if outcome_to else ''
+                        if outcome_pos:
+                            opp_t['successOutcomePath'] = path_index.get(outcome_pos, outcome_pos) if not t.get('isSubmission', False) else ''
+                        break
+            elif target_slug in submissions:
+                opp_t['successOutcome'] = 'game-over'
+                opp_t['successOutcomePath'] = ''
+
+            opponent_transitions.append(opp_t)
+
+        if opponent_transitions:
+            pos_data['opponentTransitions'] = opponent_transitions
+            opponent_count += 1
+
+    if opponent_count:
+        print(f"  Added opponentTransitions to {opponent_count} position role(s)")
+
+    # Diagnostic: check for opponentTransitions with successOutcome=game-over but isSubmission=False
+    mismarked = 0
+    for pos_key, pos_data in positions.items():
+        for opp_t in pos_data.get('opponentTransitions', []):
+            if opp_t.get('successOutcome') == 'game-over' and not opp_t.get('isSubmission', False):
+                mismarked += 1
+                print(f"  WARNING: opponentTransition '{opp_t.get('technique')}' on {pos_key} "
+                      f"has successOutcome=game-over but isSubmission=False")
+                # Auto-fix: mark as submission
+                opp_t['isSubmission'] = True
+    if mismarked:
+        print(f"  Auto-fixed {mismarked} mismarked submission opponentTransition(s)")
+
+    # Rewrite generic submission outcomes to position-specific variants when available
+    rewrite_count = 0
+    for t_key, t_data in transitions.items():
+        start_path = t_data.get('startingPositionPath', '')
+        if not start_path:
+            continue
+        # Use the leaf position name (e.g., "Side-Control" from "Side-Control/Top")
+        leaf = start_path.split('/')[-1] if '/' in start_path else start_path
+        leaf_slug = slugify(leaf)
+
+        for outcome in t_data.get('outcomes', []):
+            to_slug = outcome.get('to', '')
+            if to_slug == 'game-over' or '-from-' in to_slug:
+                continue
+            # Match both active submissions and hub slugs (hubs excluded from graph)
+            if to_slug not in submissions and to_slug not in hub_slugs:
+                continue
+            variant_slug = f'{to_slug}-from-{leaf_slug}'
+            if variant_slug in submissions:
+                outcome['to'] = variant_slug
+                rewrite_count += 1
+    if rewrite_count:
+        print(f"  Rewrote {rewrite_count} outcome(s) to position-specific submission variants")
+
+    # Post-process endingPosition: submission targets → game-over
+    # (process_transitions runs before submissions are known, so it can't
+    # detect submission slugs and incorrectly appends /top)
+    ending_rewrite_count = 0
+    for t_data in transitions.values():
+        ending = t_data.get('endingPosition', '')
+        if not ending:
+            continue
+        base = ending.rsplit('/top', 1)[0] if ending.endswith('/top') else ending
+        if base in all_submission_slugs:
+            t_data['endingPosition'] = 'game-over'
+            t_data['endingPositionPath'] = 'Game-Over'
+            ending_rewrite_count += 1
+    if ending_rewrite_count:
+        print(f"  Rewrote {ending_rewrite_count} endingPosition(s) from submission to game-over")
+
+    # Merge family-hub entries into submissions AFTER variant-only processing has run
+    # (successRate enrichment, outcome rewriting, ending rewriting only operate on variants).
+    for family_slug, family_entry in family_hubs.items():
+        if family_slug not in submissions:
+            submissions[family_slug] = family_entry
 
     return {
         'positions': positions,
         'transitions': transitions,
         'submissions': submissions,
+        'principles': principles,
+        'systems': systems,
         'meta': {
             'generated': datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             'positionCount': len(positions),
             'transitionCount': len(transitions),
-            'submissionCount': len(submissions)
-        }
+            'submissionCount': len(submissions),
+            'principleCount': len(principles),
+            'systemCount': len(systems),
+        },
     }
 
 
@@ -590,6 +888,8 @@ def main():
     print(f"  Positions: {len(state_graph['positions'])}")
     print(f"  Transitions: {len(state_graph['transitions'])}")
     print(f"  Submissions: {len(state_graph['submissions'])}")
+    print(f"  Principles: {len(state_graph['principles'])}")
+    print(f"  Systems: {len(state_graph['systems'])}")
 
     if args.strict and report['missing_count'] > 0:
         print(f"\n  STRICT MODE: {report['missing_count']} missing node(s) found. Exiting with error.")

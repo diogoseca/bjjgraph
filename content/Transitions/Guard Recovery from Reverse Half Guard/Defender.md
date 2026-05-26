@@ -162,6 +162,8 @@ As the top player in reverse half guard, you hold a significant positional advan
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Reverse Half Guard?</p>
+
 - Bottom player tucks their far elbow tight to their ribs and chins their far shoulder, indicating preparation for rotation with back protection
 - Bottom player places their near hand on your knee or hip, creating a pushing frame to generate rotation space
 - Bottom player bridges upward and begins turning their shoulders toward you, signaling the start of the rotation sequence
@@ -173,6 +175,8 @@ As the top player in reverse half guard, you hold a significant positional advan
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Reverse Half Guard?</p>
 
 - Deny rotation by maintaining heavy crossface or shoulder pressure on the back of the bottom player's head, preventing them from turning to face you
 - Threaten the back constantly by working for the seatbelt grip whenever the bottom player creates space with their bridge or rotation attempt
@@ -187,6 +191,8 @@ As the top player in reverse half guard, you hold a significant positional advan
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Reverse Half Guard?</p>
 
 ### 1. Drive heavy crossface or shoulder-of-justice pressure on the back of the bottom player's head to flatten their rotation attempt and maintain the reverse orientation
 
@@ -224,6 +230,8 @@ As the top player in reverse half guard, you hold a significant positional advan
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Reverse Half Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 Extract your trapped leg during the bottom player's bridge by sliding your knee through the loosened half guard hook, or establish seatbelt grip during their rotation and advance to dominant back control position from which you can transition to side control
@@ -239,6 +247,8 @@ Deny the rotation through sustained crossface or shoulder pressure on the back o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Reverse Half Guard?</p>
 
 ### 1. Allowing the bottom player to complete the rotation without resistance, passively accepting the transition to standard half guard
 
@@ -263,6 +273,8 @@ Deny the rotation through sustained crossface or shoulder pressure on the back o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Reverse Half Guard?</p>
+
 **Phase 1: Rotation Denial Through Pressure** - Maintaining chest-on-back pressure to prevent rotation initiation
 Partner attempts rotation from reverse half guard at 30% resistance while you practice maintaining constant pressure on their back. Focus on crossface positioning, hip control, and denying the bridge space needed for rotation. Develop sensitivity to the early rotation cues.
 
@@ -279,29 +291,6 @@ Start each round in reverse half guard with the bottom player working recovery a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is reverse half guard such an advantageous position for the top player compared to standard half guard?
-**A**: In reverse half guard, the bottom player's back is partially exposed and their guard frames face the wrong direction—they cannot establish the knee shield or underhook that make standard half guard defensively strong. This gives the top player three offensive options that are not available in standard half guard: back take via seatbelt from the exposed back, easier leg extraction because the bottom player's guard frames are misoriented, and sustained pressure on a position where the bottom player's defensive tools are limited.
-
-**Q2**: How can you use the bottom player's bridge rotation attempt to extract your trapped leg from their half guard hook?
-**A**: The bottom player's bridge creates vertical space and often loosens their half guard hook because their focus shifts from hook maintenance to rotation mechanics. During the bridge, slide your knee toward the gap created by their upward hip movement, windshield-wipering your foot through the loosened hook. The timing is critical—extract during the peak of their bridge when the hook is weakest, not during the settling when they re-tighten. This converts their recovery attempt into your advancement opportunity.
-
-**Q3**: The bottom player has successfully established an underhook after partial rotation—what is your best response to prevent full recovery?
-**A**: Once the underhook is established, address it immediately through a whizzer (overhook) on the underhooking arm, driving your shoulder into their face to limit further rotation. If you cannot strip the underhook, switch your strategy from maintaining reverse half guard to an aggressive passing approach—use the whizzer to flatten them and work a knee slice or crossface pass before they can insert the knee shield. The underhook means they have passed the most critical rotation threshold, so maintaining reverse position is no longer viable.
-
-**Q4**: What are the three primary strategic options available to the top player when the bottom player initiates guard recovery from reverse half guard?
-**A**: The three options are: first, deny the rotation entirely through crossface and shoulder pressure on the back of the head to maintain the reverse half guard advantage; second, escalate to back control by establishing a seatbelt grip during the bottom player's turning attempts when their far arm lifts away from their body; third, advance past the half guard by extracting your trapped leg during the bottom player's bridge when their hook loosens. The choice depends on the bottom player's specific recovery method and which opportunities their movement creates.
-
-**Q5**: How do you determine whether to pursue a back take versus denying rotation when the bottom player begins their recovery?
-**A**: Pursue the back take when the bottom player's far arm lifts away from their body during rotation, creating a clear seatbelt entry point, and when you can secure the grip without extending your base beyond recovery. Deny rotation through pressure when the bottom player keeps their elbows tight and does not expose seatbelt entries, or when you do not have a secure enough base to reach for back control without risking the top position. The key indicator is the bottom player's elbow position—tucked means stay with pressure, floating means attack the back.
-
-
-
-</section>
 
 
 </main>

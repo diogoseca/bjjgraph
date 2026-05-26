@@ -169,6 +169,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Position Definition
 
+<p class="section-subtitle">What is Harness (Bottom)?</p>
+
 - Opponent positioned behind the practitioner's back with chest pressure against the back, maintaining upper body control through the harness grip configuration with one arm over shoulder and one under opposite armpit
 - One opponent arm wrapped over the shoulder (typically the choking-side arm) while the other arm threads under the opposite armpit, creating the classic seatbelt or harness control pattern that connects at practitioner's centerline
 - Practitioner's back exposed to opponent with limited visual contact, requiring defensive awareness and tactile sensitivity to opponent's weight distribution and grip adjustments to anticipate offensive actions
@@ -182,6 +184,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Harness (Bottom)?</p>
+
 - Opponent has successfully achieved back position through transition, scramble, or failed guard retention
 - Opponent has established harness (seatbelt) grip with one arm over shoulder and one under armpit
 - Practitioner's back is exposed to opponent with upper body control secured
@@ -193,6 +197,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Harness?</p>
 
 - Immediately address the choking arm by controlling the wrist or hand with both defensive hands to prevent rear naked choke completion
 - Maintain chin protection by tucking chin to chest and using shoulder pressure to block choking arm from sliding across neck
@@ -208,6 +214,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Harness (Bottom)?</p>
 
 **If opponent has tight harness grip but no hooks established yet:**
 - Execute **[[Control choking arm with both hands/Attacker|Control choking arm with both hands]]** → [[Positions/Harness]] (Probability: 90%)
@@ -240,6 +248,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Harness?</p>
 
 ### 1. Reaching back or trying to grab opponent's head without controlling the choking arm first
 
@@ -279,6 +289,8 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Harness defense?</p>
+
 ### Harness Escape Positional Sparring
 
 Partner establishes harness grip from back without hooks. Bottom player practices systematic defense: control choking arm, fight grips, create space, and escape to turtle or guard. Start with 30-second rounds and gradually increase resistance. Reset if choke is secured or full back control is established. Focus on staying calm under pressure and working through defensive hierarchy.
@@ -286,7 +298,7 @@ Partner establishes harness grip from back without hooks. Bottom player practice
 **Duration**: 5 minutes per partner
 
 
-### Two-on-One Grip Fighting Drill
+### Two-on-One Grips Drill
 
 Partner has harness grip and actively attempts to bring choking arm across neck for rear naked choke. Bottom player uses two-on-one control on choking arm to prevent choke while maintaining chin protection. Practice controlling the wrist, elbow, and tricep area. Partner slowly increases pressure over multiple rounds. Emphasize grip endurance and proper hand positioning.
 
@@ -311,38 +323,6 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to bring their choking arm across your neck - what immediate adjustment do you make?
-**A**: Immediately grab the attacking wrist or forearm with both hands using a two-on-one grip before it crosses your centerline. Simultaneously tuck your chin tight to your chest to create a barrier. Pull the arm down toward your chest while turning your shoulder into the arm to prevent it from sliding across your throat. If the arm is already partially across, grab the wrist and pull it down while turning your chin toward the inside of their elbow to create space and prevent the choke from being locked.
-
-**Q2**: What are the essential grips for surviving this position?
-**A**: The primary defensive grip is two-on-one control on the opponent's choking arm, grabbing their wrist with one hand and controlling near their elbow or tricep with the other. This prevents the rear naked choke from being secured. Secondary grips include controlling their underhook arm to prevent full grip completion, and using a collar tie or grip on their head if they're positioned to the side. Never release control of the choking arm to grab anything else unless the choke threat is neutralized.
-
-**Q3**: How do you shut down your opponent's primary attack of the rear naked choke?
-**A**: Defense starts before the choke is locked. Control the choking arm with both hands while keeping chin tucked and shoulder raised toward the choking side. If they attempt to pry your hands apart to insert the choke, maintain wrist control and use your elbow to create a frame against their bicep. If the arm does get across your neck, grab the choking hand and pull it below your chin while turning your body toward the trapped arm side. The key is addressing the threat early and maintaining two-on-one control throughout.
-
-**Q4**: What is the grip priority hierarchy when fighting your opponent's hands?
-**A**: First priority is always controlling the choking arm with two-on-one grip to prevent rear naked choke. Second priority is preventing the opponent from locking their hands together by fighting their underhook arm before it connects to the over-arm. Third priority is clearing hooks once hand control is established. Never abandon choking arm control to fight hooks - hooks without a tight grip are far less dangerous than a partially defended choke. Work hands first, then hooks, then escape.
-
-**Q5**: How should you manage your breathing and energy when defending this position?
-**A**: Stay calm and breathe steadily through your nose to prevent panic. Focus your energy on the immediate threat (choking arm) rather than explosive escape attempts that burn energy. Use isometric tension in your hands and arms to maintain grip control, but keep your body relaxed between defensive actions. Time your explosive escape attempts for moments when opponent shifts weight or adjusts grips. Frantic movement wastes energy and creates openings - methodical defense that addresses one problem at a time is more effective and sustainable.
-
-**Q6**: Your opponent successfully clears one hook and is working to insert the second - how do you prevent this?
-**A**: Keep your knees squeezed together and legs heavy on the mat to deny space for hook insertion. Use your feet to push against their feet or shins when they attempt to thread the hook. Maintain hip pressure by keeping your hips low and heavy. If they're close to inserting, hip escape in the opposite direction to create angle and deny the entry point. The key is staying connected to the mat and not allowing space between your thighs for the hook to enter.
-
-**Q7**: You've successfully stripped the choking arm and created some space - how do you complete the escape?
-**A**: Once the choking arm is controlled and you've created angle, turn toward the underhook side while hip escaping to create more space. Keep the choking arm controlled throughout the turn. Options include: escaping to turtle by getting to all fours and immediately working to stand or recover guard; sliding down and turning to face opponent for closed guard; or using a technical standup if you've created significant space. Maintain defensive awareness throughout as opponent may counter your escape attempt with submission attempts or positional recovery.
-
-**Q8**: Your opponent has both hooks in and a tight harness - what is your escape sequence?
-**A**: Start by securing two-on-one on the choking arm while tucking chin. Once the choke is defended, work to clear one hook by using your same-side foot to push their hook off while hip escaping slightly. With one hook cleared, increase your hip escape toward the cleared side while maintaining hand control. Turn toward the underhook side to disrupt their position. As you create angle, look to clear the second hook and continue turning to face them or escape to turtle. The sequence is: defend choke, clear hook, create angle, escape. Don't skip steps.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -369,7 +349,7 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 - **[[Positions/Turtle]]** - Common escape target position - defensive position with better escape options
 - **[[Positions/Half Guard]]** - Escape target position after successful defense and angle creation
 - **[[Positions/Back Control/Body Triangle]]** - Worse position if opponent establishes body triangle from harness
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat from this position
 - **[[Positions/Open Guard]]** - Possible escape destination after granby roll or forward roll
 - **[[Positions/Closed Guard]]** - Escape destination if successful turn to face opponent
 - **[[Positions/Clinch]]** - Escape destination via technical standup

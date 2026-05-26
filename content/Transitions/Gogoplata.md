@@ -216,7 +216,7 @@ The Gogoplata exists as a cornerstone attack within the Rubber Guard system, spe
 
 - [[Positions/Rubber Guard/New York]] - Alternative rubber guard control
 
-- [[Submissions/Armbar from Guard]] - Available when opponent reaches to strip foot
+- [[Transitions/Armbar on Free Arm]] - Available when opponent reaches to strip foot
 
 
 </section>

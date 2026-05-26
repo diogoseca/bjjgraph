@@ -40,7 +40,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Ankle control must be secured before attempting submission - position before submission
@@ -203,7 +203,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 - **[[Transitions/Counter from Ankle Lock/Attacker|Counter from Ankle Lock]]** (4% of attempts)
 
-- **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** (2% of attempts)
+- **[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|Straight Ankle Lock from Straight Ankle Lock Control]]** (2% of attempts)
 
 
 ### Common Mistakes

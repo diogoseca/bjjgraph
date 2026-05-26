@@ -194,6 +194,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Defense from Rear Triangle?</p>
+
 - Protect the chin immediately by tucking to chest and turning toward the non-choking side before attempting any posture recovery
 - Use skeletal structure and frames rather than muscular force to resist the triangle's forward compression
 - Attack the locking mechanism by controlling the opponent's ankle to prevent triangle tightening
@@ -209,6 +211,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Defense from Rear Triangle?</p>
+
 - Chin tucked to chest with face turned toward the non-choking leg side for initial survival
 - Free hand positioned to control the choking leg ankle or establish a frame against the shin
 - Awareness of opponent's hip angle and triangle tightness to assess escape viability
@@ -221,6 +225,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Defense from Rear Triangle step by step?</p>
 
 1. **Secure chin protection**: Immediately tuck your chin tightly to your chest and turn your face toward the non-choking leg side. This creates a protective barrier against full carotid compression by interposing your jaw and chin between the choking leg and your neck, buying critical seconds for the escape sequence to begin.
 2. **Establish grip on locking ankle**: With your free hand, reach behind your head to grip the opponent's locking ankle where it hooks behind their knee. Secure a strong grip on the ankle or the foot itself. This grip serves dual purposes: preventing the opponent from tightening the triangle further and providing the primary lever for breaking the figure-four lock.
@@ -251,6 +257,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Defense from Rear Triangle?</p>
+
 - **Opponent squeezes knees together and tightens triangle lock during posture attempt** (Effectiveness: High) - Your Response: Accelerate the ankle strip before they can fully compress. If the lock retightens, return to chin protection and wait for them to adjust before attempting again. Do not fight a fully compressed triangle with posture alone. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 - **Opponent attacks rear naked choke with free hands while you focus on posture recovery** (Effectiveness: Medium) - Your Response: Immediately shift your free hand from the ankle to defend the choking arm using two-on-one grip control. Neck defense always takes priority over posture recovery. Re-establish chin protection before resuming the ankle strip sequence. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 - **Opponent traps your free arm during posture attempt, transitioning to crucifix** (Effectiveness: High) - Your Response: Keep your free elbow tight to your body and avoid reaching across your centerline where it can be trapped. If you feel the opponent controlling your free wrist, immediately retract the arm and reset your posture defense approach from a safer arm position. → Leads to [[Positions/Crucifix]]
@@ -262,6 +270,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Defense from Rear Triangle?</p>
 
 ### 1. Using pure neck strength to posture up without addressing the triangle lock first
 
@@ -301,6 +311,8 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Defense from Rear Triangle (Attacker)?</p>
+
 **Phase 1: Static Recognition** - Position awareness and basic survival mechanics
 Partner applies rear triangle at 30% pressure while you practice identifying the triangle structure, establishing chin protection, and locating the locking ankle with your free hand. Hold defensive positions for 30-second intervals, focusing on calm breathing and positional awareness. No escape attempts yet—just survival and recognition.
 
@@ -321,42 +333,12 @@ Partner specifically drills counters to your posture defense: re-tightening the 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when caught in a rear triangle and why does it take precedence over posture recovery?
-**A**: Chin protection takes absolute first priority. Tuck your chin tightly to your chest and turn your face toward the non-choking leg side. This must happen before any posture recovery because an unprotected neck under full triangle compression can lead to unconsciousness within seconds, whereas broken posture without neck exposure gives you time to work systematic escape sequences.
-
-**Q2**: Why should you attack the locking ankle before attempting to drive your shoulders back for posture?
-**A**: The figure-four lock created by the ankle behind the knee is the triangle's primary compression mechanism. Fighting posture against an intact lock pits your back and neck muscles against the opponent's entire leg structure, which you cannot win. Disrupting the lock first reduces the compressive force significantly, making subsequent posture recovery achievable with sustainable effort rather than exhausting muscular force.
-
-**Q3**: Your opponent angles their hips aggressively toward your trapped arm during your posture attempt—how do you adjust?
-**A**: Do not posture directly backward, as this drives your neck deeper into the optimized choking angle. Instead, angle your posture recovery toward the non-choking leg side, directing your shoulder drive away from the opponent's hip orientation. This changes the force vector so your posture movement reduces rather than increases the carotid pressure, and creates a rotational component that can further disrupt the triangle alignment.
-
-**Q4**: What grip should your free hand prioritize and why is grip placement on the locking ankle critical?
-**A**: Grip the locking ankle where it hooks behind the opponent's knee, targeting the foot or ankle bone itself. This grip must be on the ankle rather than the shin or calf because the ankle is the fulcrum of the figure-four lock. Pulling the ankle out of the knee crook breaks the entire locking mechanism, whereas gripping the shin only creates a pushing match against the full triangle structure without disrupting the lock point.
-
-**Q5**: You feel the opponent starting to trap your free arm with their hands during your posture defense—what is your immediate response?
-**A**: Immediately retract your free arm to your body, keeping the elbow tight to your ribs on its own side. Never reach across your centerline where both arms become vulnerable. If the opponent secures your free arm, they transition to crucifix where you have zero defensive options. Sacrifice the ankle grip temporarily if needed—losing the grip is recoverable, but losing your free arm is catastrophic.
-
-**Q6**: What is the optimal direction of force when driving shoulders back for posture recovery?
-**A**: Drive the crown of your head toward the ceiling rather than pulling your head backward. This engages the stronger erector spinae and trapezius muscles rather than just the cervical extensors. Simultaneously press your shoulders into the choking leg as a wedge, creating a structural resistance point. The upward vector also naturally tucks the chin, maintaining neck protection while recovering posture.
-
-**Q7**: Your posture defense succeeds and the triangle structure loosens—what is the immediate follow-up?
-**A**: Post your free hand on the opponent's top knee or hip to maintain the recovered space and prevent them from re-breaking your posture. Then begin working arm extraction by rotating the trapped shoulder inward and pressing the elbow tight to your ribs. Do not celebrate the space—immediately transition to the next escape phase because the opponent will fight to re-establish the triangle within seconds.
-
-**Q8**: How do you manage breathing and energy expenditure during posture defense from rear triangle?
-**A**: Breathe through your nose in controlled patterns using diaphragmatic breathing rather than chest breathing, which is restricted by the triangle compression. Apply steady progressive pressure rather than explosive bursts, as the opponent's legs can absorb and counter sudden force more easily than sustained structural pressure. Accept that escape will take 15-30 seconds of methodical work rather than one explosive movement. Conserve muscular energy by letting your skeleton do the structural work wherever possible.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Defense from Rear Triangle?</p>
 
 Rear triangle training carries inherent choking risks due to direct carotid compression. Always tap immediately when feeling blood flow restriction, lightheadedness, or visual changes during training. Begin posture defense drilling with partners applying minimal triangle pressure and gradually increase intensity across sessions. Never attempt to fight through a fully locked choke to practice the escape, as loss of consciousness can occur within seconds of full carotid occlusion. Establish clear tap signals before drilling and ensure training partners release immediately upon feeling any tap. Monitor training partners for signs of confusion or unresponsiveness that may indicate impaired blood flow even without a verbal or physical tap signal.
 

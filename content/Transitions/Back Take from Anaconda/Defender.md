@@ -162,6 +162,8 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Anaconda?</p>
+
 - The choking pressure from the anaconda grip suddenly decreases or changes angle, indicating the attacker is releasing the submission grip
 - You feel the attacker's arms shifting from around your neck and arm to over your shoulder and under your armpit in seatbelt configuration
 - The attacker's hips begin walking behind your hips rather than staying beside you, indicating they are positioning for hook insertion
@@ -174,6 +176,8 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Anaconda?</p>
 
 - Recognize the grip transition window immediately when you feel the anaconda pressure change from choking to controlling, as this signals the back take attempt
 - Turn to face the attacker during the grip exchange rather than turning away, which only accelerates back exposure and hook insertion
@@ -188,6 +192,8 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Anaconda?</p>
 
 ### 1. Turn immediately to face the attacker during grip transition
 
@@ -225,6 +231,8 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Anaconda?</p>
+
 ### → [[Positions/Half Guard]]
 
 Execute a hip switch and sit-through during the attacker's grip transition window, rotating your hips through their position to end up in half guard top. Time the sit-through when you feel the anaconda release but before hooks are inserted, using the brief moment of reduced control to generate the hip movement needed for the rotation.
@@ -236,6 +244,8 @@ Execute a hip switch and sit-through during the attacker's grip transition windo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Anaconda?</p>
 
 ### 1. Continuing to defend the anaconda choke after the attacker has already released the grip and transitioned to back take
 
@@ -265,6 +275,8 @@ Execute a hip switch and sit-through during the attacker's grip transition windo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Anaconda?</p>
+
 **Phase 1: Cue Recognition** - Identifying grip transition indicators
 Partner establishes anaconda control and alternates between continuing the choke and initiating the back take transition. Defender calls out which action the partner is taking based on tactile cues alone, without visual input. Eyes closed preferred. Develop the ability to distinguish between choke tightening and grip release instantly.
 
@@ -281,29 +293,6 @@ Positional sparring starting from anaconda control. Partner attempts either chok
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from anaconda choke to back take?
-**A**: The earliest cue is a change in the quality of the choking pressure. The anaconda choke creates compressive pressure around your neck and trapped arm, while the back take transition involves the attacker loosening or releasing this compression to reposition their arms. You will feel the constriction around your neck decrease before you feel the arms moving to seatbelt position. This pressure change precedes the visible arm movement by a fraction of a second, giving the alert defender a head start on their defensive response.
-
-**Q2**: Your opponent releases the anaconda grip and you feel their arm sliding over your shoulder for seatbelt - what immediate action prevents back control?
-**A**: Immediately turn your body toward the arm that is threading over your shoulder, driving your near shoulder into their chest while posting your free hand on the mat for base. This rotation faces you toward the attacker and denies back exposure. Simultaneously, use your far hand to strip the overhook arm off your shoulder before they can clasp their hands. The combination of turning in and grip stripping breaks the back take attempt at its most vulnerable point.
-
-**Q3**: Why is turning to face the attacker during the grip transition window more effective than trying to pull away?
-**A**: Turning to face the attacker directly addresses the fundamental requirement of back control: having your back exposed. By facing them, you eliminate the back exposure entirely, forcing the attacker to restart their attack from a front-facing position where back control is impossible. Pulling away, by contrast, maintains the back exposure while creating distance that the attacker can close with hip movement and chest drive. Additionally, pulling away often involves extending arms and straightening posture, which actually improves the attacker's seatbelt leverage.
-
-**Q4**: The attacker has inserted one hook but has not secured the second - what specific hip movement gives you the best chance of preventing full back control?
-**A**: Execute a hip escape (shrimp) toward the side of the inserted hook, driving your hips away from the attacker on that side. This movement simultaneously loads weight onto the hook making it harder to use for control, creates an angle that makes the second hook insertion difficult, and positions your far hip away from the attacker's free leg. Follow the hip escape immediately by turning your shoulders toward the attacker to begin facing them, using the momentum of the shrimp to facilitate the rotation.
-
-**Q5**: What position should you aim to recover if you successfully prevent the back take during the grip transition?
-**A**: The optimal recovery target is half guard or closed guard, as both positions allow you to face the attacker and establish a defensive framework. Half guard is the most realistic target because you are already in close contact with the attacker's legs during the scramble. If you can trap one of their legs between yours as you turn to face them, you immediately establish half guard with frames and can begin working toward sweeps or guard recovery. Avoid trying to stand up or disengage completely, as the attacker retains upper body proximity that makes re-engagement likely.
-
-
-
-</section>
 
 
 </main>

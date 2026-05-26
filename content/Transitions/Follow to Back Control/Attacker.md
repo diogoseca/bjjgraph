@@ -186,6 +186,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Follow to Back Control?</p>
+
 - Recognize when opponent's inversion momentum makes leg attacks low-percentage and back take becomes optimal
 - Release leg entanglement at the correct moment—too early loses position, too late allows complete escape
 - Follow opponent's hip rotation continuously rather than reaching across their body for grips
@@ -201,6 +203,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Follow to Back Control?</p>
+
 - Established Ushiro Ashi-Garami position with leg entanglement on opponent
 - Opponent has committed to inversion escape by rotating their hips away and turning their back
 - Recognition that heel hook finishing position has degraded below acceptable success threshold
@@ -212,6 +216,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Follow to Back Control step by step?</p>
 
 1. **Read the rotation**: Identify when opponent's inversion has crossed the commitment threshold—their hips have rotated past 90 degrees and they are actively turning toward turtle rather than defending the heel. This is your trigger to abandon leg attacks.
 2. **Release leg entanglement**: Uncross your legs and release the figure-four configuration. Do not simply let go—actively push off their trapped leg with your feet to generate momentum toward their upper body. Your legs should clear their hips.
@@ -240,6 +246,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Follow to Back Control?</p>
+
 - **Opponent accelerates rotation to complete turtle before you can establish grips** (Effectiveness: High) - Your Response: Anticipate this by releasing leg entanglement earlier when you see strong rotational commitment. If they reach turtle, transition to turtle attack series rather than forcing back control against solid defensive structure. → Leads to [[Positions/Turtle]]
 - **Opponent reaches back to block your underhook or seat belt establishment** (Effectiveness: Medium) - Your Response: Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm and expose their back, then establish seat belt on the cleared side. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent re-guards by shooting their hips back and inserting a knee shield before you establish hooks** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent hip escape. If they begin re-guarding, immediately switch to passing position by driving your shoulder across their face and securing crossface control. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -250,6 +258,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Follow to Back Control?</p>
 
 ### 1. Reaching for grips with arms before hips have followed the rotation
 
@@ -284,6 +294,8 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Follow to Back Control (Attacker)?</p>
+
 **Week 1-2** - Rotation recognition and release timing
 Partner performs slow inversion escapes from Ushiro Ashi-Garami. Practice identifying the commitment point and releasing leg entanglement at the correct moment. No resistance—focus purely on reading the rotation trigger.
 
@@ -301,54 +313,12 @@ Positional sparring from Ushiro Ashi-Garami where attacker must choose between l
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Follow to Back Control?
-**A**: The primary goal is to capitalize on an opponent's committed inversion escape by abandoning low-percentage leg attacks and transitioning to the dominant back control position. Rather than forcing heel hooks against a rapidly rotating opponent, you follow their defensive momentum to secure a position with multiple high-percentage submission threats.
-
-**Q2**: What position do you start Follow to Back Control from?
-**A**: This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where you have maintained control despite the opponent's inversion attempt. The position is characterized by your outside leg crossing over their knee line with inside leg underneath, creating a figure-four from a reversed angle.
-
-**Q3**: Your opponent's hips have rotated 45 degrees and they are hand fighting—should you release the leg entanglement?
-**A**: No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing.
-
-**Q4**: What are the key grips needed for Follow to Back Control?
-**A**: The critical grip is the seat belt (over-under): one arm over the opponent's shoulder with hand reaching toward opposite pectoral, one arm under their opposite armpit with hand clasping the over-arm hand at sternum level. The underhook must be deep with elbow tight to ribcage to prevent peeling.
-
-**Q5**: Why must the bottom hook be inserted before the top hook?
-**A**: The bottom hook controls the opponent's hip movement and prevents granby roll escapes. Without bottom hook control, the opponent can granby roll over the attempted top hook insertion, escaping back control entirely. The bottom hook anchors your position, making top hook insertion safe.
-
-**Q6**: How do you counter an opponent who reaches back to block your underhook?
-**A**: Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm laterally, exposing their back on the cleared side. Once the arm is controlled, establish the seat belt grip before they can retract the arm for another defensive attempt.
-
-**Q7**: When is the best time to attempt Follow to Back Control?
-**A**: The optimal timing is when the opponent's hip rotation has crossed the commitment threshold (past 90 degrees) and they are actively rotating toward turtle position. Their defensive attention is focused on clearing the leg entanglement rather than defending upper body control, creating a window for back access.
-
-**Q8**: Your opponent is faster than you and always reaches turtle before you establish grips—how do you adjust?
-**A**: Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take.
-
-**Q9**: What indicates the opponent may be baiting the back take to re-guard?
-**A**: Watch for opponents who rotate past 90 degrees but keep their elbows connected to their knees, maintain strong frames with their hands, or rotate without urgency. These signs suggest they are creating false commitment to draw you off the legs, then will shoot their hips back as you release to re-establish guard. Maintain leg control longer against these opponents.
-
-**Q10**: You have seat belt but cannot flatten your opponent to insert hooks—what options do you have?
-**A**: If the opponent maintains a strong turtle, shift to turtle attack variations: attempt clock choke, transition to crucifix by threading over their near arm, or insert a single hook and work for body triangle from three-quarter back. Alternatively, maintain seat belt and hip pressure until they fatigue and flatten naturally.
-
-**Q11**: What is the critical direction of force when following your opponent's rotation?
-**A**: The force should be directed forward and around, following the arc of the opponent's rotation rather than cutting across it. Drive your sternum toward their far shoulder blade while your hips track their hip line. Lateral force (reaching across) creates space, while rotational force (following the arc) maintains chest-to-back connection throughout the transition.
-
-**Q12**: Your opponent has partially cleared your legs but their back is still exposed—do you continue to back take or re-engage the legs?
-**A**: Continue to back take. Once the opponent has partially cleared the leg entanglement, attempting to re-establish the figure-four is lower percentage than following through to back control. Their partial clearing has already committed their rotation, and their back exposure is at maximum. Abandoning the back take to chase legs wastes the positional opportunity their escape created.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Follow to Back Control?</p>
 
 Follow to Back Control is a relatively safe transition with low injury risk when practiced correctly. The primary safety concern is avoiding neck cranking during seat belt establishment—apply chest pressure to opponent's upper back rather than pulling backward on their neck. During training, allow partners to tap early if the transition traps their arm in an uncomfortable position. Beginners should avoid explosive hip driving that could cause training partner's face to contact the mat. When drilling at high speeds, communicate clearly about commitment levels to prevent collisions during the rotation phase.
 

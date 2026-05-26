@@ -87,7 +87,7 @@ This escape forms the cornerstone of mount defense and is typically the first es
 
 - **Identify the weak side**: Feel for which direction opponent's weight is shifted or where they are reaching for attacks. The we...
 
-- **Trap the arm**: Cup your hand behind the tricep or elbow on the weak side, pulling their arm tight across your chest...
+- **Trap the arm**: Cup your hand behind the tricep or elbow crease on the weak side, pulling their arm tight across you...
 
 - **Trap the foot**: On the same side as the trapped arm, hook your foot over opponent's ankle or instep, pinning their f...
 
@@ -223,7 +223,7 @@ The upa escape serves as the foundational mount escape and entry point to unders
 
 - [[Transitions/Explosive Bridge to Guard Recovery]] - Related explosive bridging escape from mount using similar hip mechanics
 
-- [[Principles/Guard Recovery]] - Alternative defensive strategy when upa and other primary escapes are unavailable
+- [[Transitions/Scramble to Guard]] - Alternative defensive strategy when upa and other primary escapes are unavailable
 
 
 </section>

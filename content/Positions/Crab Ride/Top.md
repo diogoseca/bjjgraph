@@ -173,6 +173,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crab Ride (Top)?</p>
+
 - Top practitioner positioned on the side of opponent's turtle with hips oriented perpendicular to opponent's spine, maintaining lateral control rather than directly on top
 - One leg (typically near leg) hooks under opponent's hip or thigh with foot positioned inside opponent's legs, creating an anchor point for control and preventing forward movement
 - Upper body control established through grips on opponent's far side, typically controlling the far arm, shoulder, or collar while maintaining chest pressure against opponent's ribs and shoulder blade
@@ -186,6 +188,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Crab Ride (Top)?</p>
+
 - Opponent in bottom turtle position with defensive posture
 - Ability to establish side control relative to opponent's turtle
 - At least one controlling grip on opponent's body or gi
@@ -197,6 +201,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Crab Ride?</p>
 
 - Maintain perpendicular hip orientation to opponent's spine to maximize control and create attacking angles
 - Use the hooking leg as an anchor to control opponent's hip movement and prevent forward or lateral escapes
@@ -212,6 +218,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Crab Ride (Top)?</p>
 
 **If opponent keeps strong turtle posture with head up and elbows tight:**
 - Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 70%)
@@ -235,7 +243,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 **If opponent extends far arm to post or defend neck:**
 - Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 
@@ -245,6 +253,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Crab Ride?</p>
 
 ### 1. Positioning too far forward over opponent's shoulders instead of staying perpendicular to the spine
 
@@ -283,6 +293,8 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Crab Ride attacks?</p>
 
 ### Crab Ride Establishment Drill
 
@@ -323,38 +335,6 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution principle for maintaining Crab Ride Top control?
-**A**: Weight should be distributed through your chest pressing into the opponent's shoulder blade and ribs, with your hooking leg serving as an anchor under their hip. The majority of pressure comes from your upper body driving into their back rather than sitting heavily on your base leg. This creates the flattening pressure that limits their mobility while keeping you mobile enough to follow their movements and adjust position.
-
-**Q2**: Your opponent begins turning their shoulders toward you while in Crab Ride - how do you adjust?
-**A**: Increase chest pressure immediately while driving your hooking leg deeper to prevent the turn. Control their far arm by securing an overhook or wrist grip to eliminate their posting ability. If they continue turning, follow their rotation and transition to back control as their turn creates the opening for your second hook. Never resist the turn by pulling backward - instead, use their momentum to advance position.
-
-**Q3**: What are the essential grip priorities from Crab Ride Top?
-**A**: Primary grip should control the opponent's far side - either their far arm, far shoulder, or far collar in gi. This prevents them from turning toward you and sets up back attacks. Secondary control comes from the underhook or overhook on the near side to manage their posture. The hooking leg provides the third control point. Never rely solely on near-side grips as this allows opponents to turn into you and escape.
-
-**Q4**: How do you prevent an opponent from sitting through to guard from Crab Ride?
-**A**: The hooking leg must stay actively engaged under their hip, preventing forward hip movement that initiates the sit-through. Keep your hook foot positioned inside their legs rather than floating outside. Maintain forward chest pressure to keep their weight over their hands rather than allowing them to shift backward. If you feel them loading for a sit-through, drive your weight forward and lower your hips to increase the anchor effect of your hook.
-
-**Q5**: What is the relationship between pressure application and submission opportunities from Crab Ride Top?
-**A**: Constant pressure creates the defensive reactions that open submission pathways. When you drive chest pressure into their back, opponents typically respond by dropping their head (opening darce/anaconda), extending their far arm (opening crucifix), or trying to turn (opening back take). The key is maintaining enough pressure to force a reaction while staying mobile enough to capitalize on it. Static pressure without attacking intent allows opponents to build defensive frames.
-
-**Q6**: Your opponent posts their far hand and begins driving forward - what adjustments maintain control?
-**A**: Follow their forward drive by walking your base leg forward while maintaining hook depth. Simultaneously work to break their far hand post by driving your chest weight through their shoulder blade angle toward their posting arm. If you can collapse the post, immediately threaten darce or anaconda. If they maintain the post strongly, use their extended arm to set up crucifix by trapping it under your knee as you adjust position.
-
-**Q7**: How should you manage your base leg position for optimal Crab Ride Top control?
-**A**: The base leg should maintain a wide posting position with your knee and foot angled to allow quick adjustments in any direction. Keep it mobile rather than planted heavily - your primary weight goes through your chest and hooking leg, not your base. The base leg functions as a rudder for following opponent movement and as a launching point for transitions. Position it far enough from opponent that they cannot trap or attack it, but close enough to maintain balance.
-
-**Q8**: What are the warning signs that your Crab Ride Top control is failing?
-**A**: Key warning signs include: opponent successfully elevating their hips off the mat (losing flattening pressure), your hook becoming shallow or sliding out of the hip crease, opponent's far arm becoming free and framing effectively, your chest lifting off their back creating space, and opponent successfully turning their shoulders past 45 degrees toward you. When you feel any of these developing, immediately adjust by deepening the hook, increasing pressure, or transitioning to a more secure position before the escape completes.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

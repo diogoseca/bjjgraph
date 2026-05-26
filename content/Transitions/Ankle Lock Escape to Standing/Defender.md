@@ -146,13 +146,15 @@ description: "Master preventing the ankle lock escape to standing. Complete guid
 
 From the perspective of the ankle lock attacker, preventing the escape to standing requires reading the defender's escape initiation cues and immediately tightening the appropriate control elements before the escape gains momentum. The primary defensive challenge is maintaining grip security on the ankle while simultaneously preventing the hip rotation and framing that precede standing attempts. Effective prevention begins at the earliest indicators, addressing free-hand posting and weight shifting rather than reacting to a fully committed standing attempt. The ankle lock attacker who waits until their opponent is mid-stand has already conceded the positional battle and must shift to counter-transition strategies rather than control retention.
 
-**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Ankle Lock Escape to Standing?</p>
 
 - Opponent's free hand moves to post against your hip, chest, or shoulder to establish framing distance
 - Opponent's free leg begins actively pushing against your controlling legs rather than remaining passive
@@ -167,6 +169,8 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Ankle Lock Escape to Standing?</p>
+
 - Recognize escape initiation cues within the first one to two seconds before the escape builds momentum that becomes difficult to stop
 - Tighten grip security and leg wrapping immediately upon detecting any escape preparation rather than waiting for committed movement
 - Complete the leg triangle around the opponent's trapped leg as the primary mechanism for preventing both hip rotation and standing drive
@@ -180,6 +184,8 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ankle Lock Escape to Standing?</p>
 
 ### 1. Deepen Achilles grip and increase submission pressure to force tap or disrupt escape mechanics
 
@@ -217,6 +223,8 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ankle Lock Escape to Standing?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Maintain ankle grip security through dynamic re-gripping that defeats two-on-one breaks while simultaneously completing the leg triangle to prevent hip rotation. Address escape cues at their earliest appearance rather than waiting for full commitment. The combination of unbreakable grip and complete leg control eliminates the standing escape as a viable option.
@@ -232,6 +240,8 @@ When grip retention fails and the opponent begins standing, follow their upward 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ankle Lock Escape to Standing?</p>
 
 ### 1. Ignoring early escape cues and continuing to focus exclusively on finishing the ankle lock submission
 
@@ -261,6 +271,8 @@ When grip retention fails and the opponent begins standing, follow their upward 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ankle Lock Escape to Standing?</p>
+
 **Phase 1: Escape Recognition** - Identifying early escape cues and developing sensitivity to preparatory movements
 Partner announces then executes escape preparations at slow speed. Defender practices identifying each specific cue and naming the appropriate response. Progress from verbal announcement to silent execution. Build pattern recognition before training physical responses.
 
@@ -274,26 +286,6 @@ Partner commits to full standing escape attempts. Defender practices reading the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing to escape to standing?
-**A**: The earliest cues are the opponent's free hand posting against your hip or chest to create framing distance, their free leg beginning to push against your controlling legs, and subtle weight shifting from their back toward their posting foot. These preparatory movements occur one to two seconds before the actual escape attempt and provide the critical window for preventive tightening of control before escape momentum builds.
-
-**Q2**: Your opponent breaks your ankle grip but has not yet stood up - what is your highest percentage recovery?
-**A**: Immediately re-grip the ankle before they create distance, targeting their heel with your cupping hand while your forearm re-establishes Achilles contact. Simultaneously close your legs tighter to prevent the standing drive that follows grip breaks. If re-gripping fails, transition immediately to hooking their far leg with your inside foot to establish inside ashi garami before they disengage completely. The worst option is allowing them to stand without any remaining leg engagement.
-
-**Q3**: How do you use your opponent's standing attempt to transition to a more dominant leg entanglement?
-**A**: When the opponent commits upward force to stand, thread your inside leg deeper to establish inside ashi garami, using their vertical movement to create the space your leg needs to penetrate to the far side. Their standing attempt temporarily opens the gap between their legs that is normally closed. This counter-offensive approach transforms their escape into your advancement, requiring you to read the standing commitment and act within one to two seconds.
-
-**Q4**: What grip adjustment maintains maximum control against two-on-one grip breaking attempts?
-**A**: Switch from a static grip to a dynamic re-gripping strategy where you maintain pressure through constant hand positioning changes rather than fighting the two-on-one break directly. Release and re-grip at slightly different angles on the ankle, targeting the heel cup from varying directions. The two-on-one break defeats stationary grips but struggles against a moving target. Combine grip adjustments with increasing leg pressure to compound defensive requirements.
-
-
-
-</section>
 
 
 </main>

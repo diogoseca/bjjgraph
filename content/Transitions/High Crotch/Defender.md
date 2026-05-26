@@ -156,13 +156,15 @@ Defending the high crotch requires reading pre-shot cues, reacting with proper s
 
 The key defensive principle is that earlier recognition leads to easier defense. If you read the shot before the attacker's lead foot lands between your feet, a simple sprawl ends the exchange. If you react after they have locked their grip and established shoulder position, you are fighting from a significant disadvantage and must chain multiple defensive techniques together to avoid being taken down into bottom side control.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting High Crotch?</p>
 
 - Opponent suddenly breaks all grips and drops their level by bending their knees while maintaining eye contact with your hips
 - Opponent's lead shoulder drops and their body angle tilts forward as they initiate the penetration step toward your lead leg
@@ -177,6 +179,8 @@ The key defensive principle is that earlier recognition leads to easier defense.
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending High Crotch?</p>
+
 - Recognize level change cues early - watch for shoulder drops, grip breaks, and weight shifts that precede the shot
 - Sprawl explosively by driving hips down and back while posting hands on opponent's head and shoulders to kill forward momentum
 - Establish a whizzer overhook immediately if the attacker secures the leg, to limit their finishing options and create turning angles
@@ -190,6 +194,8 @@ The key defensive principle is that earlier recognition leads to easier defense.
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against High Crotch?</p>
 
 ### 1. Sprawl by driving hips down and back while posting hands on opponent's head and shoulders
 
@@ -227,6 +233,8 @@ The key defensive principle is that earlier recognition leads to easier defense.
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending High Crotch?</p>
+
 ### → [[Positions/Standing Position]]
 
 Sprawl early and explosively by driving hips down and back the moment you recognize the level change. Post hands on the attacker's head and shoulders to kill their forward momentum. Once the shot is stuffed, circle toward their head to establish front headlock control or disengage by pushing their head down and stepping away. The sprawl must be timed before deep penetration occurs - react to the level change, not to the grip being established.
@@ -242,6 +250,8 @@ When the attacker has inside head position during their shot, wrap a guillotine 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Crotch?</p>
 
 ### 1. Backing straight up in response to the shot instead of sprawling hips down and back
 
@@ -271,6 +281,8 @@ When the attacker has inside head position during their shot, wrap a guillotine 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against High Crotch?</p>
+
 **Week 1-2: Sprawl Mechanics and Reaction Drills** - Building automatic sprawl response to level changes
 Practice sprawl mechanics without a partner, focusing on explosively driving hips to the mat while maintaining hand posts. Progress to partner drills where the attacker shoots at 50% speed and the defender practices sprawl timing. Emphasize hip-down-and-back motion rather than stepping backward. Execute 20-30 sprawl repetitions per session, gradually increasing attacker speed over the two weeks.
 
@@ -287,29 +299,6 @@ Implement high crotch defense in full sparring sessions with all standing techni
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important factor that determines whether your sprawl defense will successfully stop a high crotch attempt?
-**A**: Timing is the most important factor. A sprawl executed before the attacker achieves deep penetration will completely stuff the shot, while a sprawl attempted after they have locked their grip and established shoulder position in your hip will be largely ineffective. You must react to the level change cue, not wait until you feel the grip on your leg. Early recognition and immediate hip-drop response is what separates effective sprawlers from those who get taken down consistently.
-
-**Q2**: Your opponent shoots a high crotch with their head on the inside of your body rather than the outside - what defensive opportunity does this create?
-**A**: Inside head position creates an immediate guillotine choke opportunity because their neck is exposed and accessible between your arm and body. Wrap your near arm over their head, clasp your hands in a gable grip under their chin, and squeeze while pulling their head down and driving your hips into their shoulders. Inside head position is a technical error by the attacker that puts them at submission risk, so you should capitalize immediately. Even if the guillotine does not finish, it will stop the takedown.
-
-**Q3**: When should you choose to pull guard rather than continue fighting the high crotch defensively?
-**A**: Pull guard when the attacker has achieved deep penetration with locked grip and strong forward drive that your sprawl and whizzer cannot stop. At this point, the takedown is likely inevitable and the question becomes where you end up. Pulling guard by sitting back into closed guard or butterfly guard gives you a defensible bottom position with sweep and submission options, whereas allowing the takedown to land in side control puts you in a much worse position. The decision point is when you feel your hips being driven backward despite defensive efforts.
-
-**Q4**: How do you combine a whizzer defense with circling footwork to neutralize a high crotch attack?
-**A**: Establish the whizzer by overhooking the attacker's near arm as deep as possible, driving your elbow toward the mat to create downward pressure on their shoulder. Simultaneously begin circling your feet away from the side where the attacker's head is positioned, taking your captured leg further from their reach with each step. The whizzer prevents them from driving forward effectively while the circling motion removes the angle they need to run the pipe or lift and return. Continue circling until you can strip their grip on your leg or establish a front headlock position.
-
-**Q5**: What visual cues should you watch for during grip fighting to anticipate a high crotch shot before it launches?
-**A**: Key pre-shot cues include: the opponent suddenly breaking all grips rather than fighting for new ones, which clears their arms for the shot; their eyes dropping from your face to your hips or legs indicating they are measuring distance; a slight bending of their knees that lowers their center of gravity in preparation for the level change; a snap or pull attempt designed to get your weight forward before they reverse direction into the shot; and any sudden explosive movement after a period of relatively calm hand fighting. Recognizing these cues even half a second early gives you enough time to initiate a sprawl before penetration occurs.
-
-
-
-</section>
 
 
 </main>

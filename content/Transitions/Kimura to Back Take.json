@@ -11,7 +11,7 @@
     "submission-to-position",
     "positional-advancement"
   ],
-  "from_position": "Kimura Trap/Top",
+  "from_position": "Kimura Trap/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -51,12 +51,12 @@
       "relationship": "Submission threat that creates defensive reaction enabling transition"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Common entry point - primary context for initiating transition"
+      "name": "North-South",
+      "relationship": "Alternative position context where Kimura grip can be established before transitioning to back take"
     },
     {
-      "name": "Kimura from Turtle",
-      "relationship": "Alternative entry - variation from top turtle position"
+      "name": "Turtle",
+      "relationship": "Alternative entry position - Kimura grip established against turtled opponent enables direct back take"
     },
     {
       "name": "Rear Naked Choke",
@@ -67,8 +67,8 @@
       "relationship": "Follow-up position - control system established after transition"
     },
     {
-      "name": "Armbar from Back",
-      "relationship": "Alternative finish - submission option from achieved back position"
+      "name": "Armbar from Back Transition",
+      "relationship": "Alternative finish - submission option from achieved back control position"
     },
     {
       "name": "Back Take",
@@ -229,7 +229,7 @@
         "description": "Use technique actively during live training sessions. Start from side control and turtle positions and work for Kimura opportunities with explicit goal of taking the back. Track success rates and identify personal sticking points for additional drilling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is the Kimura grip maintained throughout the entire transition to back control?",
         "answer": "The Kimura grip serves multiple essential functions during the transition: it provides a secure connection point to the opponent that prevents separation during movement, it creates the initial submission threat that forces their defensive roll, it acts as a steering mechanism to control their rotation direction, and it prevents them from turning back into you once you begin taking the back. Releasing the grip prematurely eliminates all these control elements and typically results in losing position entirely."
@@ -368,7 +368,7 @@
         "correction": "Begin fighting the Kimura grip immediately when you feel the attacker threading their arm under yours. Early intervention when the grip is shallow is far more effective than late-stage grip fighting against a locked figure-four"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important early defensive action when you feel a Kimura grip being established?",
         "answer": "The most important early action is to immediately begin two-on-one grip fighting to prevent the figure-four from being locked or to strip a shallow grip before the attacker can deepen their control near your elbow. Early grip prevention is exponentially more effective than fighting a fully established Kimura because the mechanical advantage of the figure-four increases dramatically with depth. Use both hands to peel the attacker's grip hand off your wrist while keeping your elbow tight to your body."

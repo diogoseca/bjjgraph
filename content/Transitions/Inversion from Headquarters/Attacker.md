@@ -188,6 +188,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inversion from Headquarters?</p>
+
 - Time the inversion to coincide with the passer's weight shift during passing initiation, never against settled heavy pressure
 - Roll diagonally over the shoulder toward your free leg side, keeping chin tucked and body compact throughout the rotation
 - Thread the DLR hook during the roll rather than after, using the rotation momentum to wrap your leg behind the passer's knee
@@ -202,6 +204,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inversion from Headquarters?</p>
+
 - At least one arm free to create a frame against the passer's chest, shoulder, or bicep for initial space creation
 - Free leg (non-trapped leg) positioned to push on the passer's hip or knee to manage distance and initiate momentum
 - Shoulders off the mat with weight on upper back, creating the angled starting position necessary for the shoulder roll
@@ -214,6 +218,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inversion from Headquarters step by step?</p>
 
 1. **Establish Frames and Create Space**: Place your inside arm frame against the passer's chest or shoulder and your outside hand on their bicep or sleeve. Push firmly to create separation between your body and the passer's pressure, generating the initial space needed for the shoulder roll. Your frames should prevent the passer from collapsing their weight onto you.
 2. **Hip Escape to Create Angle**: Execute a small hip escape toward your free leg side, angling your body approximately 30-45 degrees from the passer's centerline. This angle is critical because it creates the diagonal rolling path that the shoulder roll will follow. Your weight should shift onto your upper back and the shoulder you will roll over.
@@ -243,6 +249,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inversion from Headquarters?</p>
+
 - **Passer drives heavy crossface to flatten and block the shoulder roll path** (Effectiveness: High) - Your Response: Abandon the inversion and use the crossface pressure to hip escape in the opposite direction, recovering to knee shield half guard instead. Forcing an inversion against crossface is the most common cause of getting flattened and passed. → Leads to [[Positions/Headquarters Position]]
 - **Passer sprawls hips back and increases downward pressure on the trapped leg** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the inversion. Use frames to maintain position and look for the passer to re-initiate a passing sequence that creates the weight shift needed for your inversion. Consider alternative guard recovery through hip escape sequences. → Leads to [[Positions/Headquarters Position]]
 - **Passer backsteps during the inversion to circle toward your exposed back** (Effectiveness: Medium) - Your Response: Redirect the inversion toward Single Leg X-Guard or Reverse De La Riva by adjusting your hook placement to account for the passer's changed angle. The backstep changes the geometry but also removes their forward pressure, giving you time to establish an alternative guard configuration. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inversion from Headquarters?</p>
 
 ### 1. Initiating the inversion without first creating space through frames
 
@@ -293,6 +303,8 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inversion from Headquarters (Attacker)?</p>
+
 **Phase 1: Solo Inversion Mechanics** - Shoulder roll technique and body positioning
 Drill the granby shoulder roll solo on the mat, focusing on rolling diagonally over the shoulder with chin tucked. Start from a seated position, progress to lying flat, then add hip escape entries. Perform 20-30 repetitions per side per session until the movement is smooth and automatic without any weight on the neck.
 
@@ -313,42 +325,12 @@ Positional sparring starting from headquarters with full resistance. Track succe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the inversion from headquarters?
-**A**: The best timing window is when the passer shifts weight to initiate a passing sequence such as a knee cut or toreando. This weight transfer creates a momentary reduction in downward pressure on the trapped leg and shifts the passer's base to one side, providing the space and angle needed for the shoulder roll. Attempting the inversion against settled, heavy headquarters pressure dramatically reduces success rates because the passer's full weight pins you in place.
-
-**Q2**: What body position must you establish before initiating the shoulder roll?
-**A**: You need an initial frame against the passer's chest or shoulder while hip escaping slightly to angle your body toward the free leg side. Shoulders should be off the mat with weight on the upper back, and the free leg should be actively pushing on the passer's hip or knee. This angled starting position allows the shoulder roll to travel underneath the passer rather than stalling against their base. Without this preparatory angle, the roll has no path to complete.
-
-**Q3**: Your opponent drives heavy crossface pressure as you begin the inversion - how do you adjust?
-**A**: Abandon the inversion attempt and instead use the crossface pressure to frame and hip escape in the opposite direction, recovering to knee shield half guard. Forcing an inversion against heavy crossface is the most common cause of getting flattened and passed. If the crossface is moderate, you can redirect by inverting toward the opposite shoulder, but this requires advanced timing and should only be attempted when you have enough space to complete the full roll safely.
-
-**Q4**: What grip must you establish first after completing the inversion to secure De La Riva Guard?
-**A**: The ankle or pant grip on the passer's lead leg is the absolute first priority because it prevents them from simply stepping away from your newly established DLR hook. Without this grip, the hook alone cannot maintain connection and the passer will extract their leg before you can build your full guard structure. Once the ankle grip is secured, immediately pursue the cross grip on the far sleeve or collar to create the diagonal control system that powers DLR.
-
-**Q5**: The passer backsteps during your inversion - what alternative recovery do you pursue?
-**A**: If the passer backsteps, your inversion angle changes and full DLR recovery may not be possible. Redirect toward Single Leg X-Guard by threading your bottom hook between their legs and securing their near leg with both of your legs. Alternatively, if the backstep creates enough space, recover to Reverse De La Riva Guard by hooking their stepping leg from the inside. The key is recognizing the backstep early and adjusting your target guard rather than forcing DLR against the changed angle.
-
-**Q6**: What is the most critical mechanical detail that separates successful inversions from failed ones?
-**A**: The shoulder must bear all weight during the roll, never the neck or head. The rolling path should travel diagonally across the upper back from one shoulder toward the opposite hip, creating a smooth arc that maintains momentum throughout the rotation. Rolling straight over the spine or neck stalls the inversion and creates injury risk. The chin stays tucked toward the chest throughout, and the arms guide the body through the rotation rather than bearing weight.
-
-**Q7**: Your inversion stalls halfway through and you are upside down - what is your recovery sequence?
-**A**: Immediately bring your knees to your chest to create a compact turtle-like position that protects against the passer establishing control over your exposed back. From this inverted position, you can either complete the roll if space permits or reverse direction and recover to a seated guard position. Do not remain inverted with legs extended, as this exposes you to leg drag passes and back takes. The compact ball position gives you time to assess and choose the safest recovery direction.
-
-**Q8**: How does the direction of your inversion relate to which leg the passer has trapped?
-**A**: You should invert toward the side of your free leg, rolling over the shoulder on that same side. Inverting toward the trapped leg side is mechanically blocked because the passer's weight and leg control prevent the rolling path. The free leg initiates the movement by swinging across your body during the roll, creating rotational momentum that carries you through the inversion. After completing the roll, this free leg becomes the DLR hooking leg that wraps behind the passer's lead knee.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inversion from Headquarters?</p>
 
 Cervical spine loading during inversion requires proper shoulder roll technique at all times. Never invert by rolling directly over the neck or head. Practitioners with neck injuries or limited cervical mobility should drill inversions slowly and build flexibility gradually before attempting at speed. The shoulder blade should bear all weight during the roll, with the chin firmly tucked toward the chest throughout the rotation. Stop immediately if you feel any compression, pinching, or pain in the cervical spine. Warm up the neck and shoulders thoroughly before drilling inversions, and avoid high-repetition inversion training when fatigued, as form degradation under fatigue increases neck injury risk.
 

@@ -164,6 +164,8 @@ The most dangerous moment for the defender is the transition window when the bot
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Open Guard to Deep Half?</p>
+
 - Opponent executes a strong hip escape from open guard, rotating their hips 45 degrees to create an angle underneath your base
 - Opponent grips your pants at the knee or ankle with one hand and reaches for your belt or far hip with the other
 - Opponent's head begins dropping below your hip line as they initiate the dive underneath your near leg
@@ -176,6 +178,8 @@ The most dangerous moment for the defender is the transition window when the bot
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Open Guard to Deep Half?</p>
 
 - Recognize the entry early — once deep half is fully established, the bottom player holds the advantage
 - Maintain upright posture with hips back to deny the pathway underneath your base
@@ -191,6 +195,8 @@ The most dangerous moment for the defender is the transition window when the bot
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Open Guard to Deep Half?</p>
 
 ### 1. Sprawl back and establish crossface pressure to flatten opponent's angle before they complete the dive
 
@@ -228,6 +234,8 @@ The most dangerous moment for the defender is the transition window when the bot
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Open Guard to Deep Half?</p>
+
 ### → [[Positions/Open Guard]]
 
 Recognize the entry early through grip and angle cues, then sprawl with crossface or step your near leg back before their head passes under your leg. Strip their controlling grips to deny them the pulling power needed to complete the dive. Maintain upright posture with hips back throughout your open guard passing sequences to deny the entry pathway from developing.
@@ -243,6 +251,8 @@ If the dive has partially succeeded but they haven't established the deep underh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard to Deep Half?</p>
 
 ### 1. Ignoring the entry attempt and continuing to pass as if nothing is happening
 
@@ -272,6 +282,8 @@ If the dive has partially succeeded but they haven't established the deep underh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Open Guard to Deep Half?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying entry cues and developing early awareness
 Partner slowly performs the deep half entry from open guard while you focus solely on recognizing the three main cues: hip escape angle, grip establishment, and head drop. Call out each cue as you observe it. No active defense yet — build pattern recognition first. 20-30 slow repetitions per session.
 
@@ -288,29 +300,6 @@ Full positional sparring from open guard top. Integrate deep half prevention int
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the open guard to deep half entry?
-**A**: The earliest cue is the combination of a strong hip escape creating a 45-degree angle with their hips and simultaneous gripping of your pants at the knee or ankle. This setup precedes the dive by one to two seconds and is your best intervention window. If you wait until their head begins dropping below your hip line, the entry is already significantly progressed and harder to prevent.
-
-**Q2**: Why is driving your weight forward the wrong response when you feel your opponent diving underneath?
-**A**: Forward pressure loads your weight directly onto the frame your opponent is building underneath you, which is exactly what powers their sweep mechanics from deep half. Their deep underhook and shoulder wedge are designed to redirect your downward force into lateral sweeping leverage. By driving forward, you are essentially providing the energy they need to complete high-percentage sweeps like the old school and waiter variations.
-
-**Q3**: Your opponent has partially completed the entry but has not yet secured the deep underhook — what is the optimal response?
-**A**: This is the critical window to prevent deep half from being established. Immediately drive crossface pressure into their face and jaw to flatten their upper body against the mat. Simultaneously drop your near knee toward the mat to block further threading and widen your base with your free leg. Focus on preventing the deep underhook from being secured — without it, the position has no offensive foundation and you can begin passing from half guard top.
-
-**Q4**: How should you extract your trapped leg after your opponent fully establishes deep half guard?
-**A**: Use a slow, circular extraction motion rather than explosive pulling. First establish strong crossface pressure and widen your base with your free leg. Then work your trapped knee upward, backward, and then out in a circular path while maintaining constant crossface and hip pressure. Explosive straight-back pulling creates the momentum shifts that facilitate their sweeps. The methodical circular extraction denies them the dynamic energy they need.
-
-**Q5**: What defensive grip is the highest priority once your opponent reaches deep half guard?
-**A**: Crossface control is the absolute highest priority. Whether using your forearm across their jaw or your shoulder driving into their face, crossface limits their ability to look up, adjust angles, and generate the rotation needed for sweeps. Without crossface, all other defensive measures become significantly less effective because the bottom player can freely position and time their attacks. Establish crossface before attempting any leg extraction.
-
-
-
-</section>
 
 
 </main>

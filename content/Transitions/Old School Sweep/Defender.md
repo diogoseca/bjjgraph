@@ -168,6 +168,8 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Old School Sweep?</p>
+
 - Opponent turns to their side toward the underhook, positioning shoulder under your center of gravity
 - Lockdown tension increases with rhythmic pumping extensions attempting to break your base incrementally
 - Opponent's head control arm pulls your head down and across while underhook tightens simultaneously
@@ -180,6 +182,8 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School Sweep?</p>
 
 - Establish deep whizzer immediately upon recognizing lockdown to control the underhook's rotational power
 - Drive heavy crossface pressure with your shoulder to flatten the bottom player and destroy their side angle
@@ -194,6 +198,8 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Old School Sweep?</p>
 
 ### 1. Drive deep whizzer and sprawl hips back to block rotation
 
@@ -238,6 +244,8 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Old School Sweep?</p>
+
 ### → [[Positions/Half Guard/Old School]]
 
 Defend the sweep by establishing strong whizzer control, driving heavy crossface pressure to flatten the bottom player, and posting your free leg wide for maximum base stability. Once the sweep threat is neutralized, work systematically to strip the lockdown through hip pressure and ankle manipulation.
@@ -253,6 +261,8 @@ Counter the sweep attempt by timing your forward drive with the moment the oppon
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School Sweep?</p>
 
 ### 1. Raising hips high to try to escape the lockdown by pulling the trapped leg out forcefully
 
@@ -282,6 +292,8 @@ Counter the sweep attempt by timing your forward drive with the moment the oppon
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Old School Sweep?</p>
+
 **Phase 1: Recognition** - Identifying Sweep Setup and Timing Cues
 Partner establishes Old School position at slow speed while you identify each control point as it is established. Practice recognizing lockdown tension changes, underhook depth, and the critical moment when opponent turns to their side. No resistance—focus purely on sensory awareness and cue identification.
 
@@ -298,29 +310,6 @@ Start in Old School top position against full resistance sweep attempts. Practic
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the Old School Sweep is being initiated?
-**A**: The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion.
-
-**Q2**: How should you distribute your weight to maximize sweep resistance from Old School top?
-**A**: Drive your weight forward and downward through your chest into the opponent's sternum, keeping hips low and heavy against their hips. Your crossface shoulder should create uncomfortable pressure across their face and neck. The free leg posts wide with knee out at 45 degrees for base. Weight should come from body positioning and gravity rather than muscular effort—this creates sustainable pressure that exhausts the bottom player while conserving your own energy for defensive adjustments.
-
-**Q3**: Your opponent has deep underhook and head control with tight lockdown - what is your highest-priority defensive action?
-**A**: Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt.
-
-**Q4**: When is the critical moment to sprawl your hips during sweep defense?
-**A**: The critical moment to sprawl is when you feel the lockdown pump—the extension of their legs that precedes the sweep initiation. This pump is the bottom player generating the off-balance that makes the sweep possible. By sprawling your hips back at the moment of the pump, you remove the leverage they need and prevent the weight shift they are trying to create. Sprawling too early wastes energy, while sprawling too late means the sweep momentum may already be unstoppable.
-
-**Q5**: If you successfully defend the Old School Sweep, what offensive opportunity opens up?
-**A**: Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls.
-
-
-
-</section>
 
 
 </main>

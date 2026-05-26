@@ -89,7 +89,7 @@
       "relationship": "Primary defensive technique the bottom player uses to prevent this transition from succeeding"
     },
     {
-      "name": "Consolidation to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Alternative mount entry from side control that shares similar principles of weight transfer and control"
     }
   ],
@@ -233,7 +233,7 @@
         "description": "Start from established KOB in positional sparring rounds. Top player scores by achieving mount, bottom player scores by recovering guard. Full resistance with focus on selecting the right moment for the transition based on real-time defensive reactions. Alternate roles every 2 minutes for 10-minute rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the KOB to Mount transition?",
         "answer": "The optimal window opens when the bottom player's arms are committed to defending KOB pressure rather than establishing positional frames. Specifically, when they push against your knee, bridge reactively, or retract their arms after a submission threat. These moments leave the transition path unobstructed and their hip escape mechanics compromised by their current defensive commitment."
@@ -351,7 +351,7 @@
         "correction": "Maintain composure through controlled breathing. Follow the defensive hierarchy: recognize the transition cue, frame on the hip, time your hip escape with the step-over, insert knee shield."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that signals a KOB to Mount transition attempt?",
         "answer": "The earliest cue is the top player securing a far-hip grip in addition to their collar control. This bilateral grip setup is unnecessary for maintaining KOB but essential for controlling the step-over. A secondary early cue is the base foot repositioning closer to your body, which shortens the arc the swinging leg needs to travel and indicates imminent transition commitment."

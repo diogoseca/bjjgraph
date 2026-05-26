@@ -188,6 +188,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash Pocket Half?</p>
+
 - Prioritize collapsing the pocket space before attempting to strip the underhook - removing the hip frame first weakens underhook effectiveness
 - Use skeletal alignment and body weight rather than muscular effort to generate sustained crushing pressure throughout the technique
 - Maintain constant crossface pressure to prevent the bottom player from turning into the underhook and generating sweep angles
@@ -203,6 +205,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash Pocket Half?</p>
+
 - Established Pocket Half Guard Top position with chest connected to opponent's upper torso
 - Head positioned on the crossface side opposite the underhook, with forehead or temple driving into opponent's jaw
 - Free arm controlling opponent's near arm or posted for base, ready to transition to crossface grip
@@ -215,6 +219,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash Pocket Half step by step?</p>
 
 1. **Establish heavy chest connection**: Lower your entire chest weight directly onto the opponent's upper torso, driving your sternum into their chest. Eliminate any gap between your bodies by sinking your weight through your ribs and pectoral muscles rather than supporting yourself on your elbows or hands. This initial pressure begins collapsing the pocket space.
 2. **Drive crossface pressure**: Position your head on the opposite side from the opponent's underhook and drive your forehead or temple into their jaw, turning their head away from the underhook side. This disrupts their ability to reinforce the underhook with head pressure and begins separating their shoulder connection to your body.
@@ -244,6 +250,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash Pocket Half?</p>
+
 - **Bottom player deepens underhook and threatens Old School sweep during pressure application** (Effectiveness: High) - Your Response: Immediately widen your base on the far side and lower your hips to prevent the sweep angle. If the underhook is too deep, abandon the smash and address the sweep threat before re-attempting. → Leads to [[Positions/Half Guard]]
 - **Bottom player scoots hips underneath for Deep Half Guard entry as you commit weight forward** (Effectiveness: High) - Your Response: Sprawl your hips back immediately and drive your trapped knee to the mat. If they establish deep half, you must abandon the smash and address the new guard position before it becomes established. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Bottom player frames with free arm against your shoulder or hip to maintain pocket distance** (Effectiveness: Medium) - Your Response: Use your free hand to pin their framing arm to their body before continuing the smash sequence. Control their wrist or elbow to prevent re-establishment of the frame. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash Pocket Half?</p>
 
 ### 1. Attempting to strip the underhook before collapsing the pocket space and hip frame
 
@@ -294,6 +304,8 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Smash Pocket Half (Attacker)?</p>
+
 **Phase 1: Pressure Mechanics** - Developing proper chest pressure and weight distribution
 Practice sinking chest weight onto a cooperative partner from Pocket Half Guard Top. Focus on using skeletal alignment rather than muscular effort. Partner provides feedback on pressure quality. Drill 3-minute rounds maintaining constant heavy pressure without using arms for support.
 
@@ -314,39 +326,12 @@ Positional sparring starting from Pocket Half Guard Top. Top player's primary ob
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you collapse the pocket space before attempting to strip the opponent's underhook?
-**A**: The pocket space created by the bottom player's hip frame provides the structural foundation for their underhook-based sweeps. If you try to strip the underhook while the hip frame is intact, you must lift or shift your weight to fight the grip, which gives the bottom player leverage to execute sweeps like the Old School. Collapsing the hip frame first removes the sweeping foundation, making the underhook progressively weaker and safer to strip without exposing yourself to counters.
-
-**Q2**: Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?
-**A**: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath your center of gravity. If you feel their hips shifting under you, abandon the smash temporarily and address the deep half threat by maintaining your hips above their centerline. Once you have prevented the entry, re-establish chest pressure and restart the smash sequence from the chest connection step.
-
-**Q3**: What is the optimal direction of force application during the crossface pressure step?
-**A**: The crossface force should be directed diagonally - simultaneously pushing the opponent's jaw away from the underhook side while driving their head toward the mat. This diagonal vector is more effective than purely lateral pressure because it turns the head away, which structurally weakens the shoulder connection powering the underhook, while also contributing to the overall flattening objective of the smash.
-
-**Q4**: What grip does the opponent need to maintain for their pocket structure, and how does this inform your stripping strategy?
-**A**: The bottom player needs their underhook hand gripping your far lat, armpit, or belt line behind your back. This deep grip gives them rotational control and sweeping power. When stripping, target their wrist or forearm rather than trying to peel their hand off your back. Push their elbow toward their body to shorten the lever arm of the underhook, reducing its effectiveness before fully removing it.
-
-**Q5**: How should you adjust your base if the opponent bridges explosively during the smash?
-**A**: Do not fight the bridge directly with downward force, as this creates a strength contest that wastes energy and may compromise your position. Instead, widen your base immediately in the direction of the bridge by posting your free leg further out. Maintain chest-to-chest connection and ride the bridge rather than resisting it. Bridges are energetically expensive and self-limiting, typically lasting one to two seconds before the opponent must return to the mat, at which point you re-apply the smash.
-
-**Q6**: What are the critical differences between the Smash Pocket Half and a general smash pass from standard half guard?
-**A**: The Smash Pocket Half specifically addresses the pocket half guard's unique threats: the deep underhook and the hip frame creating the pocket space. A standard smash pass assumes the bottom player lacks a deep underhook and focuses primarily on flattening and leg extraction. The Smash Pocket Half adds the preliminary steps of collapsing the pocket space and neutralizing the underhook before the flattening can occur, making it a more specialized and sequential technique.
-
-**Q7**: After successfully smashing to Flattened Half Guard, what follow-up error most commonly allows the opponent to recover pocket position?
-**A**: The most common error is immediately attempting to extract the trapped leg and complete the pass without first consolidating the flattened position. When you rush to pass, you must shift your weight, which creates momentary space the opponent can use to re-establish their hip frame and swim the underhook back in. Instead, spend several seconds settling into the flattened half guard, ensuring shoulders are pinned flat, underhook is neutralized, and crossface is dominant before beginning any pass attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash Pocket Half?</p>
 
 The Smash Pocket Half involves significant pressure application to the opponent's torso and face. Be mindful of the crossface pressure on the jaw and neck area, avoiding excessive force that could cause cervical strain. Apply pressure progressively rather than explosively to give training partners time to tap if uncomfortable. Be aware that chest compression on smaller training partners can restrict breathing, so maintain communication and respond immediately to taps or verbal signals of distress.
 

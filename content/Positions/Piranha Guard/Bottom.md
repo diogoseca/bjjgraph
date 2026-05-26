@@ -169,6 +169,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 ## Position Definition
 
+<p class="section-subtitle">What is Piranha Guard (Bottom)?</p>
+
 - Bottom player threads opponent's collar through their own legs creating direct connection from collar material through leg triangle to hips, establishing pulley-like mechanical advantage for posture breaking
 - Bottom player controls the fed-through collar with both hands using strategic grip placements on the gi material, maintaining constant tension to prevent opponent from extracting lapel from leg configuration
 - Bottom player maintains at least one hook or foot contact on opponent's hip, leg, or shoulder to control distance and create angle opportunities, often using De La Riva hook variations or collar tie configurations for positional control
@@ -182,6 +184,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Piranha Guard (Bottom)?</p>
+
 - Successful lapel grip establishment and feed through own legs
 - Opponent in standing or combat base attempting to pass guard
 - Control of collar with both hands after threading process complete
@@ -194,6 +198,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Piranha Guard?</p>
 
 - Maintain constant tension on the lapel through your legs to restrict opponent's movement and create mechanical disadvantage in their base structure
 - Use lapel configuration in combination with hooks to create sweep angles and off-balancing opportunities through coordinated tension and direction changes
@@ -209,6 +215,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Piranha Guard (Bottom)?</p>
 
 **If opponent establishes strong base and attempts to clear lapel with both hands:**
 - Execute **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
@@ -227,7 +235,7 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 **If opponent commits to one side to clear hooks or posts arm defensively:**
 - Execute **[[Transitions/Collar Drag/Attacker|Collar Drag]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Arm Drag/Attacker|Arm Drag]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent maintains low posture attempting to control your legs and hips:**
@@ -242,6 +250,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Piranha Guard?</p>
 
 ### 1. Losing lapel tension and allowing opponent to easily extract collar from leg configuration
 
@@ -286,6 +296,8 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Piranha Guard defense?</p>
+
 ### Collar Threading Flow Drill
 
 Partner in combat base. Practice feeding collar through legs from various open guard positions (seated, De La Riva, Spider), focusing on speed and efficiency of thread while maintaining guard retention throughout the transition. Reset and repeat from different angles and starting grips to develop adaptability.
@@ -293,7 +305,7 @@ Partner in combat base. Practice feeding collar through legs from various open g
 **Duration**: 5 minutes
 
 
-### Posture Breaking with Lapel Control
+### Posture with Lapel Control
 
 Start with collar already threaded through legs. Partner attempts to maintain good posture and strong base while you work collar grips and leg positioning to break them down progressively. Focus on creating maximum breaking power with minimal effort through proper mechanics, angles, and leverage understanding.
 
@@ -318,38 +330,6 @@ Partner attempts various guard passes (knee slice, toreando, long step, stack pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips for maintaining Piranha Guard and why is their placement critical?
-**A**: The essential grips are a deep collar grip on the lapel that has been threaded through your legs, controlled by both hands at strategic points along the material. One hand should grip close to where the lapel exits your legs to maintain the threading, while the other grips further along to create tension and pulling leverage. Thumb-inside grips provide maximum retention strength. The placement is critical because gripping too close to the opponent's body reduces leverage, while gripping too far from your legs allows them to extract the lapel by pulling it back through.
-
-**Q2**: How do you maintain proper lapel tension when your opponent begins pulling backward to extract the collar?
-**A**: When the opponent pulls backward, immediately follow with your hips by scooting toward them while maintaining grip tension. Use your hooks on their hips or legs to create an anchor point that prevents them from simply backing away. Simultaneously, angle your hips to one side to change the direction of the pulling force, which disrupts their extraction mechanics. If they create significant distance, consider transitioning to a seated guard position where you can re-establish the lapel feed from a closer range.
-
-**Q3**: Your opponent begins stripping your grips systematically starting with your outside hand—what adjustment prevents guard failure?
-**A**: When the outside grip is being stripped, immediately transfer primary control to your inside hand while using your outside hand to establish a secondary control point such as a collar tie, sleeve grip, or pant grip at their knee. Simultaneously increase hip activity to create an attack threat that forces them to defend rather than continue grip stripping. If they successfully strip both lapel grips, immediately transition to De La Riva, Spider, or Collar Sleeve Guard before your guard structure completely collapses—never wait until all grips are gone to transition.
-
-**Q4**: What is the fundamental weight distribution principle that makes Piranha Guard sweeps effective?
-**A**: Effective Piranha Guard sweeps work by using the lapel tension to disrupt the opponent's weight distribution in one direction while using hooks and hip movement to attack from the perpendicular angle. The lapel pull breaks their forward-backward base while a hook sweep attacks their side-to-side balance. This compound off-balancing creates sweeps where the opponent must choose which direction to defend, making one direction inevitably vulnerable. Always attack the direction they are NOT defending with the lapel.
-
-**Q5**: How do you shut down the knee slice pass, which is the primary threat against Piranha Guard?
-**A**: To defend the knee slice, use your inside hook to frame on their slicing knee's hip, preventing them from driving their knee across your thigh. Simultaneously pull the lapel toward your opposite hip to rotate their shoulders away from the passing direction—their hips cannot pass where their shoulders cannot face. If they commit strongly to the slice, redirect to Berimbolo or back take as their weight commitment creates back exposure. Never try to hold static frames; use the lapel to constantly redirect their pressure rather than absorbing it.
-
-**Q6**: Your opponent drives forward aggressively with pressure—how do you use their momentum for a sweep?
-**A**: When the opponent drives forward, redirect their energy by angling your hips 45 degrees to one side while pulling the lapel diagonally toward your same-side hip. This converts their forward drive into rotational momentum around your hip pivot point. Extend your opposite leg as a pendulum while pulling strongly with the lapel, timing the sweep as their weight commits over the top of you. Their forward aggression becomes the fuel for the sweep—the harder they drive, the easier the sweep executes when properly timed.
-
-**Q7**: When should you transition from Piranha Guard to an alternative guard, and what are the primary backup positions?
-**A**: Transition when the opponent successfully strips both primary lapel grips, when they create enough distance that the lapel thread loses tension, or when their grip fighting prevents you from establishing attack sequences for more than 10-15 seconds. Primary backup positions are De La Riva Guard (when you still have hook contact), Spider Guard (when they're standing with arms extended), or Collar Sleeve Guard (when you can maintain upper body grips). Recognize early that your lapel configuration is being cleared and transition before you're in a compromised position with nothing.
-
-**Q8**: How do you manage energy in Piranha Guard during extended guard battles?
-**A**: Energy management requires active periods of attack followed by brief consolidation phases where you maintain strong grip tension with minimal movement. Avoid constant maximal effort; instead, create threat sequences that force the opponent to react while you conserve energy during their defensive movements. Use the lapel configuration as a passive barrier during rest phases—the opponent must work to clear it even when you're not actively attacking. Choose efficient attacks like collar drags and berimbolo entries that use their movement rather than pure strength-based sweeps that deplete your energy faster.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

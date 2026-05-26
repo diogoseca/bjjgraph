@@ -214,7 +214,7 @@ The Transition to Pocket Half Guard occupies a critical position in the Half Gua
 
 - [[Transitions/Darce Choke]] - Submission opportunity when bottom player turns into underhook during transition
 
-- [[Transitions/Kimura]] - Submission threat on bottom player's defending arm during underhook battle
+- [[Submissions/Kimura]] - Submission threat on bottom player's defending arm during underhook battle
 
 - [[Positions/Half Guard/Flattened Half Guard]] - Related flattening concept that shares pressure mechanics with this transition
 

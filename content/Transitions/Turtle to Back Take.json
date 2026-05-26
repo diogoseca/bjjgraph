@@ -77,7 +77,7 @@
       "relationship": "Back control leg configuration after successful take"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Submission option when opponent over-defends neck"
     }
   ],
@@ -231,7 +231,7 @@
         "description": "Free rolling with emphasis on creating and capitalizing on turtle position opportunities. Award points for successful back takes. Partner uses all escape methods available. This phase integrates the technique into your overall game and tests it under maximum pressure and fatigue."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must the bottom hook be inserted before the top hook when taking the back from turtle?",
         "answer": "The bottom hook serves as your anchor point and base. It prevents opponent from rolling you over and provides the stability needed to safely work for the top hook. Inserting the top hook first compromises your base and makes you vulnerable to being swept or reversed. The bottom hook also blocks opponent's ability to sit back to guard, which is their most common escape from this position."
@@ -362,7 +362,7 @@
         "correction": "Keep chin tucked to chest throughout all escape sequences. When executing sit-throughs or standups, protect the neck by leading with the shoulder rather than the head."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the correct priority sequence for defending the back take from turtle?",
         "answer": "The priority sequence is: first, prevent seatbelt grip establishment by keeping elbows tight and fighting any arm that threads under your armpit; second, deny hook insertion by maintaining tight hip-to-elbow connection and actively kicking back against hook attempts; third, execute an explosive escape toward guard recovery or standing before the attacker can build additional control layers. This sequence addresses threats in order of severity, as the seatbelt enables everything else the attacker wants to do."

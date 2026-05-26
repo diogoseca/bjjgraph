@@ -162,6 +162,8 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bull Pass from Seated?</p>
+
 - Opponent reaches for both of your knees or shins simultaneously with pronated grips while in standing or kneeling position
 - Opponent drops their hips and loads weight backward in preparation for an explosive forward drive
 - Opponent breaks your upper body grips and immediately targets your legs rather than reengaging the grip fighting exchange
@@ -174,6 +176,8 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bull Pass from Seated?</p>
 
 - Keep feet active and pushing on the opponent's hips or thighs to prevent them from closing distance for leg grips
 - Recognize the bull pass setup early by reading the opponent's grip targeting and stance loading before the drive begins
@@ -188,6 +192,8 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bull Pass from Seated?</p>
 
 ### 1. Push feet into opponent's hips and scoot hips backward to maintain distance
 
@@ -225,6 +231,8 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bull Pass from Seated?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sweep using the opponent's committed forward momentum. Hook their lead leg as they drive, elevate with your hips, and redirect their weight to the side. The bull pass's full forward commitment makes it inherently vulnerable to elevation-based counters when the timing is correct.
@@ -240,6 +248,8 @@ Prevent the pass through early frame deployment before the drive connects. Push 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bull Pass from Seated?</p>
 
 ### 1. Remaining passive with feet flat on the mat instead of actively managing distance
 
@@ -269,6 +279,8 @@ Prevent the pass through early frame deployment before the drive connects. Push 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bull Pass from Seated?</p>
+
 **Phase 1: Recognition** - Distinguishing bull pass from other passing setups visually and by feel
 Partner alternates between bull pass and toreando setups from standing over your seated guard. Call out which pass they are setting up based on their grip placement and posture changes. No live passing yet - focus purely on pattern recognition and distinguishing the two techniques.
 
@@ -285,29 +297,6 @@ Full-resistance positional sparring from seated guard where the top player has c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that your opponent is setting up a Bull Pass rather than a Toreando?
-**A**: The key distinction is the opponent's posture and hand positioning. For the bull pass, the opponent drops their hips lower and reaches for your knees with palms down in a driving grip, whereas the toreando features a more upright posture with hands gripping your pants or ankles for lateral redirection. The bull pass setup shows a loaded coiled stance with weight shifted slightly backward in preparation for forward explosion.
-
-**Q2**: Your opponent has secured grips on both your knees and is about to drive forward - what is your highest-percentage defensive response?
-**A**: Immediately pull one knee free using a sharp hip rotation while simultaneously scooting your hips backward to create distance. If you cannot free a leg in time, turn to your side toward the direction your legs are being pushed and work to insert a knee shield between you and the advancing opponent. The worst response is to remain flat and try to push back with both legs, as this loses the direct strength exchange.
-
-**Q3**: How does defending the Bull Pass differ from defending the Toreando Pass?
-**A**: The toreando is defended primarily with hip scooting and leg pummeling to prevent lateral leg redirection, keeping feet engaged and following the opponent's lateral movement. The bull pass requires more forward resistance through frames on hips and the ability to redirect explosive forward energy into sweeps. Against the toreando, match their lateral movement. Against the bull pass, create preemptive distance or redirect their forward momentum.
-
-**Q4**: What training drill best develops the reflexes needed to defend the Bull Pass?
-**A**: Positional sparring starting from seated guard where the top player specifically attempts bull pass and toreando combinations at progressive resistance levels. The bottom player practices maintaining active feet, reading the grip placement that distinguishes the two passes, and deploying the correct defensive response for each. Start at 50% speed and progressively increase intensity to build pattern recognition before speed.
-
-**Q5**: When your opponent's Bull Pass partially succeeds and you retain only half guard, what is your immediate priority?
-**A**: Immediately turn to your side facing the opponent and fight for the underhook on the trapped leg side. The opponent's bull pass momentum often carries them slightly past optimal half guard top positioning, creating a window for the underhook before they consolidate. Establish knee shield if possible to manage distance. Do not remain flat on your back because the transition from bull pass to half guard gives you a brief adjustment window.
-
-
-
-</section>
 
 
 </main>

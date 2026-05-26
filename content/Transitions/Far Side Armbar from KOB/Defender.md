@@ -162,6 +162,8 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Far Side Armbar from KOB?</p>
+
 - Attacker releases their collar grip with their near hand and reaches across your body toward your far arm or wrist
 - Attacker shifts weight forward through the knee while their far leg begins lifting off the mat to prepare for the swing over your head
 - Attacker's hips begin rotating as they pivot on the knee, turning their body perpendicular to yours in preparation for the armbar position
@@ -173,6 +175,8 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Far Side Armbar from KOB?</p>
 
 - Keep your far elbow tight against your body at all times under knee on belly — an extended far arm is the primary invitation for this attack
 - Recognize the far arm grab attempt immediately and pull your arm back before the attacker can establish secure wrist control
@@ -187,6 +191,8 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Far Side Armbar from KOB?</p>
 
 ### 1. Immediately tuck your far elbow tight to your ribs and grip your own collar or belt with your far hand
 
@@ -224,6 +230,8 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Far Side Armbar from KOB?</p>
+
 ### → [[Positions/Half Guard]]
 
 Bridge and turn into the attacker during their leg swing transition. The weight shift required for the far side armbar creates a window where their base is compromised. A well-timed bridge combined with catching their swinging leg with your legs pulls the attacker off balance and into a half guard scramble where you recover to a more defensible position with the attacker in your half guard.
@@ -239,6 +247,8 @@ Deny the arm isolation by keeping your far elbow pinned to your body and grippin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Far Side Armbar from KOB?</p>
 
 ### 1. Extending the far arm to push against the knee on belly pressure
 
@@ -268,6 +278,8 @@ Deny the arm isolation by keeping your far elbow pinned to your body and grippin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Far Side Armbar from KOB?</p>
+
 **Phase 1: Recognition** - Identifying attack cues
 Partner establishes knee on belly and alternates between standard control and far side armbar attempts without announcing which. Defender calls out 'armbar' when they recognize the attack initiation. No physical defense yet — focus entirely on visual and tactile recognition of the grip change, weight shift, and leg lift that signal the far side armbar attempt.
 
@@ -284,29 +296,6 @@ Partner attempts the far side armbar with full commitment. Defender practices no
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates a far side armbar attempt from knee on belly?
-**A**: The earliest cue is the attacker releasing their collar grip with their near hand and reaching across your body. This grip transition happens before the leg swing and represents the point where prevention is easiest. If you see the attacker's hand leave your collar and cross your centerline toward your far arm, immediately tuck your far elbow and begin your defensive response before they can establish wrist control.
-
-**Q2**: Why does bridging toward the attacker work as a defense during the leg swing phase?
-**A**: During the leg swing, the attacker is balanced on their knee with one leg in the air and their weight shifting. This is their most unstable moment in the entire technique sequence. Bridging toward them puts force directly into their compromised base, disrupting their balance before they can establish the armbar control position. The bridge must be timed during the swing — too early and they have not committed yet, too late and they have already secured the position.
-
-**Q3**: What should you prioritize if the attacker has already captured your far wrist and is beginning to sit back?
-**A**: If the attacker is sitting back with your wrist captured, immediately bend your elbow and rotate your thumb toward the ceiling to strengthen the joint structure. Simultaneously reach your free hand to grip your own wrist, creating a two-hand defensive connection. Then focus on controlling the leg across your face by pushing it toward the attacker's body. Finally, bridge your hips and begin turning toward the trapped arm to initiate a stack defense or hitchhiker escape sequence.
-
-**Q4**: How does keeping your elbows tight to your body prevent the far side armbar from developing?
-**A**: Elbows-tight positioning eliminates the first requirement of the far side armbar: arm accessibility. The attacker needs your far arm extended or away from your body to capture the wrist and begin isolation. With your elbows pinned to your ribs and hands near your chest or gripping your own gi, the attacker cannot establish the wrist control needed to initiate the transition. They must either force your arm out through pressure changes, wasting time and energy, or abandon this attack for a different option.
-
-**Q5**: What escape opportunities become available if you successfully prevent the far side armbar but remain under knee on belly?
-**A**: After blocking the armbar attempt, the attacker's grip structure has been disrupted and they need to re-establish collar and belt control. This grip transition creates a window for standard knee on belly escapes: frame on the knee and hip escape to recover guard, turn into the attacker for an underhook, or use the momentary instability to initiate a technical stand-up. The failed armbar attempt actually improves your escape chances because the attacker must rebuild their entire control framework from scratch.
-
-
-
-</section>
 
 
 </main>

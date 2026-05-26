@@ -210,7 +210,7 @@ The Leg Drag Counter to Half Guard serves as a critical bridge in your guard ret
 
 - [[Transitions/Half Guard to Back Take]] - Follow-up attack after achieving half guard
 
-- [[Submissions/Electric Chair Submission]] - Offensive option available from half guard lockdown
+- [[Positions/Half Guard/Electric Chair]] - Offensive option available from half guard lockdown
 
 - [[Positions/Side Control]] - Worst-case outcome if counter fails and opponent consolidates
 

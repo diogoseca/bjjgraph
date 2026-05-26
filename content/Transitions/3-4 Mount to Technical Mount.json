@@ -76,12 +76,12 @@
       "relationship": "Key follow-up transition when opponent turns away to defend armbar from Technical Mount"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Primary submission available after successful transition to Technical Mount"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Primary submission finish available through Technical Mount to Armbar Control pathway"
     },
     {
-      "name": "Americana from Technical Mount",
-      "relationship": "Alternative submission when opponent defends armbar by keeping elbow tight"
+      "name": "Americana",
+      "relationship": "Alternative submission when opponent defends armbar by keeping elbow tight from Technical Mount"
     },
     {
       "name": "Half Guard",
@@ -237,7 +237,7 @@
         "description": "Begin from standing or open guard, work to mount, establish 3-4 Mount, and execute the Technical Mount transition under full resistance. Add time pressure and fatigue simulation through consecutive rounds. Focus on maintaining technique quality when physically and mentally taxed."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "When is the optimal timing window for initiating the 3-4 Mount to Technical Mount transition?",
         "answer": "The optimal window opens when the bottom player commits to turning their shoulders away from the mounted side or extends an arm defensively against your chest or hip. These reactions create the arm exposure needed for isolation and the body alignment that facilitates leg repositioning. Never initiate when the opponent is settled with elbows tight and shoulders flat—wait for or force a reaction first."
@@ -265,6 +265,18 @@
       {
         "question": "The transition is blocked because your opponent frames against your hip with their free arm—what chain attack opens up?",
         "answer": "Their framing arm is now extended and exposed. Swim your hand underneath their forearm to establish a gift wrap control, trapping their arm across their own body. This gift wrap gives you superior control for completing the Technical Mount transition with both arms now controlled, or you can redirect to attack the newly exposed framing arm with an Americana. Their defensive frame becomes your offensive opportunity—this is the cascading dilemma principle in action."
+      },
+      {
+        "question": "What specific wrist grip configuration provides maximum control during the arm isolation phase?",
+        "answer": "In the gi, grip the sleeve at the wrist with four fingers inside the cuff, thumb outside, creating a rotational lock that prevents the opponent from spinning their arm free. In no-gi, use a deep C-grip wrapping around the wrist with your thumb on top and fingers curling underneath the wrist bone. The wrist grip hand should be your hand closest to the opponent's feet, while your head-side hand controls the elbow or tricep. This configuration prevents both rotation and retraction simultaneously."
+      },
+      {
+        "question": "You successfully reach Technical Mount but your inside hook is shallow and the opponent begins sliding their hips away—how do you recover?",
+        "answer": "Immediately drive your inside hook deeper by scooping your foot underneath their lower back or hip, pulling their body back toward you with the hook. Simultaneously increase forward pressure with your chest onto their shoulder to pin them in place while you adjust. If the hook cannot be recovered, abandon Technical Mount and drop your weight back into consolidated mount or knee on belly before they complete the escape. A shallow hook that allows hip movement will progressively worsen—fix it immediately or transition out."
+      },
+      {
+        "question": "How do you determine whether to pursue the armbar or the back take once Technical Mount is established?",
+        "answer": "Read the opponent's shoulder orientation. If they remain flat or turn toward you with their shoulder on the mat, the armbar is available—their arm is extended and their body is aligned for the swing-over finish. If they turn away from you, exposing their back and pulling their arm toward their body, abandon the armbar immediately and transition to back control by following their rotation with seat belt grip and hook insertion. The opponent's defensive choice determines your attack—never force one option when the other is clearly presented."
       }
     ],
     "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed."
@@ -349,7 +361,7 @@
         "correction": "The transition moment is your best defensive opportunity—intervene during the movement, not after it completes. Establish frames, bridge, or clamp elbows the instant you recognize transition cues."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?",
         "answer": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal."
@@ -369,6 +381,14 @@
       {
         "question": "How does turning away from the attacker create vulnerability to Technical Mount entry?",
         "answer": "Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate."
+      },
+      {
+        "question": "The attacker has already secured arm control and begun sliding their knee—what is your last-resort defensive option?",
+        "answer": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount."
+      },
+      {
+        "question": "How should you adjust your defensive strategy if the attacker uses the turn-chase variant with heavy crossface pressure?",
+        "answer": "When the attacker drives crossface to force you to turn, resist the urge to turn away. Instead, frame against their crossface shoulder with your near-side forearm and use the opposite hand to control their wrist or sleeve on the crossface side. Bridge into the crossface pressure rather than away from it, which disrupts their ability to generate the turning force. If you are forced to turn despite resistance, turn into the attacker to establish an underhook rather than away, which denies the arm exposure they need and creates a path to recover half guard with offensive underhook control."
       }
     ],
     "training_progressions": [

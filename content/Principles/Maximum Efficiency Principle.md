@@ -356,29 +356,29 @@ Extended duration rounds (10-15 minutes) where goal is to maintain technical cap
 ## Related
 
 ### Related Principles
-- **[[Leverage Principles]]** (Complementary): Leverage Principles provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage
+- **[[Levers]]** (Complementary): Levers provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage
 - **[[Energy Conservation]]** (Complementary): Energy Conservation represents the practical outcome of applying maximum efficiency, as proper mechanical application directly reduces unnecessary energy expenditure during training and competition
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanics is essential for identifying which body positions and movements create maximum efficiency through optimal force transfer and structural alignment
+- **[[Connection Principles]]** (Prerequisite): Understanding connection principles is essential for identifying how body contact points and mechanical linkages create maximum efficiency through optimal force transfer and structural alignment
 - **[[Timing and Rhythm]]** (Complementary): Proper timing allows techniques to succeed with minimum force by capitalizing on moments when opponent structure is compromised, multiplying the effect of mechanical advantage
-- **[[Base Maintenance]]** (Extension): Base maintenance applies maximum efficiency principles specifically to stability and defensive positioning, using optimal structure to resist attacks with minimal effort
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution enables maximum efficiency by positioning mass optimally to create pressure and control through gravitational advantage rather than muscular force
-- **[[Off-Balancing]]** (Extension): Off-balancing techniques apply maximum efficiency by using minimal force to disrupt opponent equilibrium, creating opportunities for positional advancement
-- **[[Frame Management]]** (Complementary): Effective framing creates structural efficiency by using skeletal positioning to manage distance and pressure without relying on muscular strength
-- **[[Hip Movement]]** (Extension): Hip movement techniques embody efficiency by generating large positional changes through core mechanics rather than limb-based muscular effort
+- **[[Base]]** (Extension): Base maintenance applies maximum efficiency principles specifically to stability and defensive positioning, using optimal structure to resist attacks with minimal effort
+- **[[Center of Gravity]]** (Complementary): Proper weight distribution enables maximum efficiency by positioning mass optimally to create pressure and control through gravitational advantage rather than muscular force
+- **[[Kuzushi]]** (Extension): Sweep mechanics apply maximum efficiency by using minimal force to disrupt opponent equilibrium through precise timing and leverage, creating opportunities for positional advancement
+- **[[Frames]]** (Complementary): Effective framing creates structural efficiency by using skeletal positioning to manage distance and pressure without relying on muscular strength
+- **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics embody efficiency by generating large positional changes through core-driven movement rather than limb-based muscular effort
 
 
 ### Related Content
-- [[Leverage Principles]] (Principle) - Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice
+- [[Levers]] (Principle) - Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice
 - [[Energy Conservation]] (Principle) - Represents the practical training outcome and strategic implementation of maximum efficiency principles
-- [[Biomechanical Principles]] (Principle) - Foundational understanding of body mechanics that informs optimal positioning for efficiency maximization
+- [[Pressure]] (Principle) - Foundational understanding of force application mechanics that informs optimal positioning for efficiency maximization
 - [[Timing and Rhythm]] (Principle) - Critical complementary concept that multiplies efficiency through optimal technique execution timing
-- [[Base Maintenance]] (Principle) - Specific application of maximum efficiency principles to defensive positioning and stability
-- [[Weight Distribution]] (Principle) - Tactical implementation of efficiency through optimal mass positioning for control and pressure
+- [[Base]] (Principle) - Specific application of maximum efficiency principles to defensive positioning and stability
+- [[Center of Gravity]] (Principle) - Tactical implementation of efficiency through optimal mass positioning for control and pressure
 - [[Hip Bump Sweep]] (Transition) - Classic example of using minimal force and optimal timing to achieve maximum positional change through leverage
 - [[Closed Guard]] (Position) - Position that exemplifies efficiency through structural control allowing attacks while remaining relaxed
 - [[Triangle Choke]] (Submission) - Submission demonstrating maximum efficiency through using leg structure to create finishing pressure without arm strength
-- [[Frame Management]] (Principle) - Application of efficiency principles to defensive structure and space management
-- [[Off-Balancing]] (Principle) - Demonstrates efficiency through minimal force application to disrupt opponent equilibrium
+- [[Frames]] (Principle) - Application of efficiency principles to defensive structure and space management
+- [[Kuzushi]] (Principle) - Demonstrates efficiency through minimal force application to disrupt opponent equilibrium and achieve positional advancement
 
 
 </section>

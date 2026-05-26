@@ -154,6 +154,8 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Modified Scarf to Kesa Gatame?</p>
+
 - Attacker begins threading their arm around the back of your neck while maintaining chest pressure - this is the earliest and most reliable indicator
 - Attacker's weight shifts slightly toward your head-side as they prepare to rotate hips from prone to seated
 - Attacker squeezes your near arm tighter against their ribs, clamping down with their elbow as setup for maintaining control through rotation
@@ -166,6 +168,8 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Modified Scarf to Kesa Gatame?</p>
 
 - Recognize the transition telegraphs early - arm threading and weight shifting are the primary indicators
 - The hip rotation phase is your best escape window - the attacker's pressure is at its lowest during this movement
@@ -180,6 +184,8 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Modified Scarf to Kesa Gatame?</p>
 
 ### 1. Insert far knee between bodies during hip rotation
 
@@ -217,6 +223,8 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Modified Scarf to Kesa Gatame?</p>
+
 ### → [[Positions/Half Guard]]
 
 Insert your far knee between your bodies during the attacker's hip rotation phase when chest pressure is momentarily reduced. Drive the knee shield in firmly and immediately establish defensive frames with your free arm. This knee insertion is most effective when timed to the exact moment the attacker lifts their hips to rotate, as they cannot simultaneously apply downward pressure and rotate their body.
@@ -228,6 +236,8 @@ Insert your far knee between your bodies during the attacker's hip rotation phas
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Modified Scarf to Kesa Gatame?</p>
 
 ### 1. Failing to recognize the transition until kesa gatame is already established
 
@@ -257,6 +267,8 @@ Insert your far knee between your bodies during the attacker's hip rotation phas
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Modified Scarf to Kesa Gatame?</p>
+
 **Phase 1: Recognition Training** - Identifying transition telegraphs
 Partner alternates between maintaining modified scarf hold and initiating the kesa gatame transition. You call out the moment you feel the transition beginning. Partner confirms whether your recognition timing is early enough to counter. Build until you can consistently identify the arm threading within the first second of initiation.
 
@@ -273,26 +285,6 @@ Start in modified scarf hold bottom with full resistance. Partner attempts the k
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from Modified Scarf Hold to Kesa Gatame?
-**A**: The earliest cue is feeling your opponent threading their arm around the back of your neck while still maintaining chest pressure. This arm movement precedes the hip rotation and is the attacker's first committed step toward kesa gatame. The secondary cue is a subtle weight shift toward your head-side as they prepare to rotate. Recognizing the arm thread gives you the maximum response window before the transition progresses to the hip rotation phase.
-
-**Q2**: Why is the hip rotation phase the best defensive window, and how do you exploit it?
-**A**: During hip rotation, the attacker must lift or shift their hips from prone to seated, which momentarily reduces the downward pressure that pins you to the mat. This pressure reduction creates the space needed to insert your far knee as a shield, execute a hip escape, or bridge effectively. You exploit this window by having your defensive response pre-loaded - the moment you feel chest pressure lighten, execute your chosen counter immediately without hesitation. Waiting even one second allows the attacker to complete the rotation and settle into kesa gatame.
-
-**Q3**: If the transition to Kesa Gatame is completed successfully, what should you immediately focus on?
-**A**: Immediately abandon any attempts to reverse the transition and switch to kesa gatame-specific escape protocols. Priority one is protecting your trapped arm by keeping the elbow connected to your ribs. Priority two is establishing a frame with your free arm against their hip or face. Priority three is beginning bridge-and-turn escape mechanics specific to kesa gatame rather than the shrimping escapes used against modified scarf hold. The positional geometry has changed and your defensive responses must change with it.
-
-**Q4**: How does blocking the head wrap early compare to countering during the hip rotation phase?
-**A**: Blocking the head wrap is a prevention strategy that stops the transition before it starts, while countering during hip rotation is a disruption strategy that exploits the transition's vulnerability. Prevention is lower energy but requires earlier recognition and may not create a positional improvement since you remain in modified scarf hold. Disruption is higher energy but offers the opportunity to recover guard. Ideally, attempt prevention first by tucking your chin and framing against the threading arm, and if that fails, shift immediately to disruption by targeting the hip rotation window with knee insertion or bridging.
-
-
-
-</section>
 
 
 </main>

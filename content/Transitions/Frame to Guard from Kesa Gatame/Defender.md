@@ -148,6 +148,8 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame to Guard from Kesa Gatame?</p>
+
 - Opponent's far arm begins moving toward your face, neck, or shoulder to establish a frame rather than remaining defensive
 - Opponent's hips start angling away from you with feet planted flat, indicating preparation for hip escape movement
 - Opponent's breathing becomes more controlled and deliberate rather than panicked, suggesting preparation for a systematic escape
@@ -160,6 +162,8 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame to Guard from Kesa Gatame?</p>
 
 - Recognize frame attempts early and neutralize them before skeletal alignment is established
 - Maintain constant chest pressure to prevent the bottom player from positioning their arms for effective frames
@@ -174,6 +178,8 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame to Guard from Kesa Gatame?</p>
 
 ### 1. Drive chest forward to collapse frames before they establish structural alignment
 
@@ -204,6 +210,8 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame to Guard from Kesa Gatame?</p>
+
 ### → [[Positions/Side Control/Kesa Gatame]]
 
 Drive chest pressure through their frame attempts before they establish skeletal alignment, re-pin their near arm, and maintain tight head control to prevent any sustained space creation. React to the first sign of framing rather than waiting for full establishment.
@@ -219,6 +227,8 @@ When their hip escape creates space that cannot be closed through forward pressu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame to Guard from Kesa Gatame?</p>
 
 ### 1. Allowing frames to establish full skeletal alignment before attempting to counter them
 
@@ -248,6 +258,8 @@ When their hip escape creates space that cannot be closed through forward pressu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame to Guard from Kesa Gatame?</p>
+
 **Recognition Training** - Early detection of frame escape attempts
 Partner attempts frame escape at half speed while you focus on recognizing the initial arm movement and body positioning that signals the escape. Practice immediate response to the first frame attempt without waiting for full establishment. Build pattern recognition for escape setup movements across multiple training rounds.
 
@@ -264,26 +276,6 @@ Start in Kesa Gatame with partner attempting any escape at full resistance. Prac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest indicator that your opponent is about to attempt a frame escape from Kesa Gatame?
-**A**: The earliest cue is their far arm beginning to move toward your face or neck rather than remaining in a defensive position. You may also notice them planting their feet flat with bent knees, their hips beginning to angle away, or their breathing becoming more controlled and deliberate rather than panicked. React to the arm movement immediately before the frame achieves structural alignment that makes it much harder to defeat.
-
-**Q2**: How should you adjust your weight distribution when you feel frames beginning to push against your face?
-**A**: Drive your chest and shoulder forward through the frame rather than pulling away from it, increasing the pressure angle that makes the frame harder to sustain. Simultaneously lower your hips to prevent space creation at the hip line. Your weight should shift forward and downward, using gravity to collapse the frame before it achieves the skeletal alignment that would make it structurally sound and nearly impossible to defeat with pressure alone.
-
-**Q3**: When should you abandon Kesa Gatame and transition to mount during your opponent's escape attempt?
-**A**: Transition to mount when the opponent has created irreversible hip space that you cannot close by driving forward. The specific trigger is when their knee begins entering between your bodies for a knee shield. At this point, Kesa Gatame is functionally lost, and your best option is stepping over their near knee before it fully establishes as a barrier, converting their escape movement into your mount advancement rather than losing the position entirely.
-
-**Q4**: What is the risk of over-committing forward pressure to collapse your opponent's frames?
-**A**: Over-committing forward shifts your center of gravity past the tipping point, allowing the opponent to redirect to a bridge-and-roll escape that uses your forward momentum against you for a reversal. They can grab your far arm, bridge into your committed weight, and roll you over. The solution is measured forward pressure that collapses frames without shifting weight so far forward that a coordinated bridge becomes an effective counter.
-
-
-
-</section>
 
 
 </main>

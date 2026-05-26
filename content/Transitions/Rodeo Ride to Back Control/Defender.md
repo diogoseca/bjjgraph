@@ -162,6 +162,8 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rodeo Ride to Back Control?</p>
+
 - Attacker shifts from perpendicular to diagonal positioning relative to your spine, indicating alignment for hook insertion
 - Increased forward chest pressure combined with near-arm control tightening, signaling preparation for the transition sequence
 - Attacker's near-side knee lifts off the mat and begins moving toward your hip, indicating imminent first hook insertion attempt
@@ -174,6 +176,8 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rodeo Ride to Back Control?</p>
 
 - Protect hips by keeping knees tight and thighs pressed together to eliminate hook insertion space between legs and mat
 - Fight every grip transition actively—strip near-arm control and prevent seat belt establishment before controls become layered
@@ -188,6 +192,8 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rodeo Ride to Back Control?</p>
 
 ### 1. Explosively sit back and thread legs to establish guard during attacker's weight shift for hook insertion
 
@@ -225,6 +231,8 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rodeo Ride to Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your sit-back or granby roll to coincide with the attacker's weight shift during hook insertion. The moment they lift hip pressure to insert a hook, explosively sit back while threading your legs between theirs. Their forward commitment prevents easy retraction to re-establish Rodeo Ride, and your leg insertion creates the half guard entanglement that neutralizes their back take. Commit fully to the sit-back direction rather than hesitating, which allows the attacker to adjust mid-transition.
@@ -236,6 +244,8 @@ Time your sit-back or granby roll to coincide with the attacker's weight shift d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rodeo Ride to Back Control?</p>
 
 ### 1. Staying completely passive in turtle waiting for attacker to make a mistake
 
@@ -265,6 +275,8 @@ Time your sit-back or granby roll to coincide with the attacker's weight shift d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rodeo Ride to Back Control?</p>
+
 **Phase 1: Recognition** - Identifying the back take sequence initiation cues
 Partner executes the Rodeo Ride to Back Control transition at half speed while you focus on identifying each step: near-arm control, angle change, first hook, seat belt, second hook. Call out each step as you recognize it to develop awareness of the transition timeline without defensive pressure.
 
@@ -281,29 +293,6 @@ Start from Rodeo Ride bottom against a partner working full-speed back takes. Ap
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most dangerous moment for the defender during the Rodeo Ride to Back Control transition?
-**A**: The most dangerous moment is the transition between the first and second hook insertion. Once the first hook is in, the attacker has an anchor point that significantly limits escape options. However, before the second hook, the attacker must execute a major weight shift that temporarily compromises their balance. If you fail to exploit this window, the second hook locks in full back control. This is your best and possibly last realistic escape opportunity before the position becomes fully consolidated.
-
-**Q2**: Why is the granby roll particularly effective between the first and second hook insertion?
-**A**: The attacker's body is asymmetrically loaded during this phase—one leg is hooked in, anchoring them on one side, while their free leg must shift for the second hook. This creates rotational vulnerability on the free side because the attacker cannot easily follow an inversion without abandoning their hooked leg. The granby toward the free side exploits this asymmetry by moving in the direction of least control, and the rolling motion helps strip the single hook during the inversion.
-
-**Q3**: How should you prioritize your defensive actions when you feel the attacker beginning the back take sequence?
-**A**: First, tighten your turtle by squeezing elbows to knees and pressing thighs together to eliminate hook insertion space. Second, fight the near-arm control by stripping grips before the attacker can layer additional controls. Third, feel for the weight shift indicating hook insertion is imminent—this is your escape window. Fourth, if the first hook enters, immediately commit to your escape direction before seat belt and second hook are established. The sequence is: structure, grips, timing, commitment.
-
-**Q4**: What is the difference between defending the transition early versus late, and why does timing matter?
-**A**: Early defense before any hooks focuses on grip fighting, posture maintenance, and preventing the attacker's angle change. You have maximum options and lowest urgency. Late defense after the first hook requires explosive, committed escape attempts because options are narrowing rapidly. Early defense is proactive and maintenance-based, while late defense is reactive and must be decisive. Waiting too long transforms defense from a manageable positional battle into a desperate escape where success probability drops with each control point established.
-
-**Q5**: Your attacker inserts their first hook and begins reaching for the seat belt grip—what is your immediate response?
-**A**: Immediately commit to your best available escape before the seat belt and second hook layer together. If the seat belt is not yet clasped, use your hands to fight the over-arm and prevent the grip from closing. Simultaneously begin your sit-back or granby roll—you cannot afford to wait for perfect timing because the attacker is actively closing the control loop. If you successfully strip the seat belt attempt, the single hook alone is manageable for a methodical escape. But allowing both seat belt and first hook to consolidate makes the second hook nearly inevitable.
-
-
-
-</section>
 
 
 </main>

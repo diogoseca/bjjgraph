@@ -188,6 +188,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Closed Guard to Omoplata?</p>
+
 - Control opponent's arm at the shoulder before initiating rotation
 - Use hip movement to create proper angle for leg threading
 - Maintain constant shoulder pressure throughout the transition
@@ -203,6 +205,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Closed Guard to Omoplata?</p>
+
 - Guard position established with opponent in front
 - Control of opponent's arm (sleeve, wrist, or overhook)
 - Opponent's posture broken or compromised
@@ -216,6 +220,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Closed Guard to Omoplata step by step?</p>
 
 1. **Establish arm control**: Secure control of opponent's arm using overhook, sleeve grip, or wrist control. Break their posture forward and prevent them from posting their free hand on the mat. The controlled arm should be isolated and pulled across your centerline.
 2. **Create angle with hip escape**: Perform a hip escape movement to create approximately 45-degree angle to your opponent's body. This angle is crucial for threading your leg over their shoulder. Your hips should be perpendicular to their torso while maintaining arm control.
@@ -245,6 +251,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Closed Guard to Omoplata?</p>
+
 - **Opponent rolls forward to escape shoulder pressure** (Effectiveness: High) - Your Response: Follow their roll and take back control, securing seat belt grip as they give up their back. Alternatively, use their momentum to complete a sweep to mount position. → Leads to [[Positions/Omoplata Control]]
 - **Opponent withdraws their arm before leg is secured** (Effectiveness: High) - Your Response: Immediately transition to triangle setup by bringing your other leg across their face, or switch to arm drag and take their back. Their withdrawal creates space for alternative attacks. → Leads to [[Positions/Closed Guard]]
 - **Opponent maintains strong posture and prevents angle creation** (Effectiveness: Medium) - Your Response: Use grip breaks and hip bump movements to disrupt their base, then reestablish angle. Consider alternative attacks like hip bump sweep or kimura to force defensive reactions. → Leads to [[Positions/Closed Guard]]
@@ -257,6 +265,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Closed Guard to Omoplata?</p>
 
 ### 1. Threading leg over shoulder without proper angle
 
@@ -296,6 +306,8 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Closed Guard to Omoplata (Attacker)?</p>
+
 **Phase 1: Movement Fundamentals (Weeks 1-2)** - Hip escape mechanics and leg threading
 Practice hip escape movements and threading leg over stationary partner's shoulder from closed guard. Partner remains completely static. Focus on creating proper angle and smooth leg positioning without resistance. Drill 20 repetitions per training session, alternating sides.
 
@@ -319,54 +331,12 @@ Attempt omoplata transitions during normal rolling without pre-arrangement. Focu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip angle needed before threading your leg over opponent's shoulder for omoplata entry?
-**A**: Approximately 45 degrees perpendicular to opponent's torso. Your hips should be angled so that your body forms an 'L' shape with the opponent's body. This angle allows proper leg threading while maintaining arm control and base breaking capability. Without this angle, the leg cannot be effectively positioned over the shoulder.
-
-**Q2**: Why is maintaining continuous arm control critical throughout the omoplata transition?
-**A**: Continuous arm control prevents the opponent from withdrawing their arm before the leg position is secured, which would completely defeat the technique. The arm control also helps break their posture and prevents them from posting to maintain base. Once arm control is lost, the opponent can easily defend, escape, or even counter with guard passes. The grip serves as your anchor point for the entire transition sequence.
-
-**Q3**: How should you respond if your opponent begins rolling forward to escape the omoplata shoulder pressure?
-**A**: Follow their forward roll momentum and transition to back control by releasing the omoplata lock and securing seat belt grip as they expose their back. Alternatively, you can use their roll to complete a sweep to mount position by maintaining hip control and riding their momentum. The key is to never fight against their roll direction but rather use it to advance your position. This is why omoplata is considered a high-percentage position even if the submission doesn't finish.
-
-**Q4**: What is the primary biomechanical purpose of the figure-four leg configuration in omoplata control?
-**A**: The figure-four leg lock traps the opponent's arm between your legs creating a wedge that prevents arm withdrawal, while simultaneously controlling their head and posture with the top leg. The bottom leg acts as a barrier against arm escape while the top leg creates downward pressure on their neck and shoulder. This configuration allows you to control both their arm and their entire upper body posture using just your leg positioning, freeing your hands for grip fighting and position adjustments.
-
-**Q5**: Describe the relationship between omoplata and triangle attacks in terms of creating offensive dilemmas?
-**A**: Omoplata and triangle create complementary attacks where defense against one naturally sets up the other. When opponent defends triangle by tucking their arm and hiding it close to their body, they create the perfect arm position for omoplata entry. Conversely, when they defend omoplata by withdrawing their arm, they expose their neck for triangle entry. This dual threat forces opponents into positional dilemmas where any defensive choice leads to another attack, exemplifying high-level guard strategy.
-
-**Q6**: What are the three primary finishing options available from established omoplata control position?
-**A**: The three primary options are: 1) Finishing the shoulder lock submission by sitting up and creating rotational pressure on the shoulder joint, 2) Transitioning to back control when opponent rolls forward to escape the shoulder pressure, or 3) Completing a sweep to mount or side control by controlling their hips and using their compromised base. Advanced practitioners seamlessly flow between these options based on opponent's defensive reactions, making omoplata position extremely high percentage even without the submission finish.
-
-**Q7**: Why is the omoplata transition particularly effective from spider guard compared to other guard variations?
-**A**: Spider guard provides natural arm extension and isolation with feet on biceps, creating excellent control and preventing arm withdrawal. The feet-on-biceps grips already position the opponent's arms in vulnerable extension, and the guard configuration naturally breaks their posture forward. When swinging leg over shoulder from spider guard, the other foot maintains pressure preventing compensatory movements. The spider guard structure essentially pre-loads many of the positional requirements needed for successful omoplata entry, making it one of the highest percentage entry systems.
-
-**Q8**: Your opponent posts their hand on the mat to prevent being swept during your omoplata attempt - how do you adjust?
-**A**: When opponent posts their hand, immediately target that posting arm for a wrist lock or kimura attack, or use the opening to complete the sweep by lifting their far hip with your free leg while pulling their trapped arm. Their posting hand cannot serve both purposes simultaneously. Alternatively, if their post is strong, shift your attack to the back take by following the space they create on the opposite side. The post reveals their weight distribution and defensive commitment, which you exploit by attacking the opposite direction.
-
-**Q9**: What grip control is most critical when initiating the omoplata transition from closed guard?
-**A**: The overhook or sleeve grip on the attacking side arm is most critical because it prevents arm withdrawal during the leg threading phase. Without this grip, opponents simply pull their arm back as you attempt to swing your leg over. The grip should be deep with your arm wrapped over their tricep pulling their elbow toward your hip. Secondary grips on the collar or far sleeve help control posture but are less essential than the primary arm control that anchors the entire transition.
-
-**Q10**: How do you recognize the optimal timing window for initiating the omoplata transition?
-**A**: The optimal window occurs when opponent's arm is positioned across your centerline with their elbow pointing outward, combined with their posture being broken forward. Look for moments when they reach across your body to grip your collar or lapel, when they attempt to establish hand position on your hip, or when they defend a triangle attempt by hiding their arm. Their weight should be forward rather than sitting back. Initiating when they are posted back with strong posture significantly reduces success rate.
-
-**Q11**: What is the correct direction of hip rotation during the omoplata transition and why does it matter?
-**A**: Your hips should rotate toward the opponent's head, not away from them. This rotation direction accomplishes three things: it increases the angle on their shoulder joint creating submission pressure, it helps break their base by pulling them off-center, and it positions your body to follow them if they attempt the forward roll escape. Rotating away from their head reduces shoulder pressure and allows them to recover posture. The rotation should continue until your chest is perpendicular to their spine with your weight pressing down on their upper back.
-
-**Q12**: Your opponent is successfully maintaining strong posture and you cannot break them down for the omoplata - what chain attacks do you transition to?
-**A**: Against strong posture, switch to attacks that exploit their upright position. Hip bump sweep becomes highly effective because their weight is centered and slightly back. Kimura grip can be established on the same arm you were targeting for omoplata, using their posture against them. If they keep their arms tight, overhook sweep or elevator sweep attacks their base from a different angle. The key principle is recognizing when the omoplata setup conditions don't exist and flowing to attacks where their current posture is a vulnerability rather than strength.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Closed Guard to Omoplata?</p>
 
 The omoplata primarily attacks the shoulder joint through rotational pressure, which can cause serious injury if applied suddenly or without control. When training, apply pressure gradually and communicate clearly with your partner. Tap early when caught in omoplata as shoulder injuries can have long recovery times and may require surgery in severe cases. Practitioners should develop hip mobility gradually to avoid forcing the technique with inadequate flexibility, which leads to poor technique and potential injury to both partners. Never spike or drive the opponent's head into the mat during the transition, as this can cause neck injuries. Focus on controlled rotation and proper positioning rather than explosive force. Beginners should practice the movement patterns extensively before attempting submissions during live training.
 

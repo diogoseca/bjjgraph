@@ -188,6 +188,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bull Pass from Collar Sleeve?</p>
+
 - Break the sleeve grip before all else since it controls your posting hand and distance management
 - Speed of transition from grip break to pant grips determines success more than any other factor
 - Commit fully to the lateral direction once you begin because hesitation allows grip re-establishment
@@ -203,6 +205,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bull Pass from Collar Sleeve?</p>
+
 - Stable upright posture with hips back resisting the collar pull from collar sleeve guard
 - Free hand positioned to initiate two-on-one grip break on opponent's sleeve grip
 - Weight distributed to allow explosive lateral step without losing base
@@ -215,6 +219,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bull Pass from Collar Sleeve step by step?</p>
 
 1. **Establish stable base against collar sleeve grips**: From collar sleeve guard top, sit your hips back and widen your knees to create a tripod base that resists the collar pull. Keep your chest elevated and look forward rather than down. Your posture must be solid before initiating the pass because a broken posture eliminates the explosive hip drive needed for the lateral step.
 2. **Initiate two-on-one grip break on sleeve grip**: Use your free hand to control the opponent's sleeve-gripping hand at the wrist from the outside, creating a two-on-one advantage. Position your thumb on top of their gripping fingers to create maximum leverage for the break. Do not telegraph this by reaching slowly—establish the controlling grip with a quick, precise grab.
@@ -245,6 +251,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bull Pass from Collar Sleeve?</p>
+
 - **Hip escape and re-guard when legs are redirected to one side** (Effectiveness: High) - Your Response: Accelerate your lateral step and drive the legs further past the recovery angle. If they begin hip escaping, follow their hip movement with your body and cut your knee through the space they create to intercept the reguard. → Leads to [[Positions/Collar Sleeve Guard]]
 - **Insert knee shield during lateral step to block the pass completion** (Effectiveness: Medium) - Your Response: Accept the knee shield and transition to half guard top rather than fighting through it. Immediately establish crossface pressure and begin systematic half guard passing from the improved position you achieved. → Leads to [[Positions/Half Guard]]
 - **Invert and insert hooks to recover to open guard or De La Riva** (Effectiveness: Medium) - Your Response: Maintain pant grips and continue forward pressure to prevent their inversion from completing. If they begin to invert, stuff their near hip to the mat with your knee and redirect to a leg drag passing angle. → Leads to [[Positions/Open Guard]]
@@ -256,6 +264,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bull Pass from Collar Sleeve?</p>
 
 ### 1. Breaking the collar grip instead of the sleeve grip first
 
@@ -295,6 +305,8 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bull Pass from Collar Sleeve (Attacker)?</p>
+
 **Grip Break Isolation** - Two-on-one sleeve grip break mechanics
 Partner maintains strong sleeve grip while you practice the two-on-one grip break with hip drive. Focus on speed and efficiency of the break. Perform 20 repetitions per side, gradually increasing partner resistance from light to moderate.
 
@@ -315,42 +327,12 @@ Practice transitioning between bull pass and knee slice, toreando, and pressure 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to break before attempting the bull pass from collar sleeve guard?
-**A**: The sleeve grip must be broken first because it is the opponent's primary distance management tool that prevents you from establishing the pant grips needed for leg redirection. The collar grip, while providing posture control, cannot alone prevent lateral passing movement. Breaking the sleeve grip creates the momentary vulnerability window that the entire pass depends on.
-
-**Q2**: What happens if you hesitate between breaking the sleeve grip and establishing pant grips?
-**A**: Even a one to two second pause allows the opponent to re-establish their sleeve grip or adjust their guard structure, completely resetting the passing opportunity. The grip break to pant grip transition must flow as a single continuous motion. Drilling this transition until it becomes automatic is essential because conscious decision-making during this window is too slow.
-
-**Q3**: How do you prevent the opponent from catching half guard during your lateral step?
-**A**: Keep your trailing foot tight to your lead foot during the lateral movement rather than taking a wide straddled stance. If your feet are separated, the opponent can easily hook the trailing leg with their near leg to establish half guard. Think of the lateral movement as sliding both feet together rather than stepping with one foot and leaving the other behind.
-
-**Q4**: When is the optimal timing window to initiate the bull pass from collar sleeve guard?
-**A**: The optimal window opens immediately after successfully breaking the sleeve grip when the opponent has not yet re-established any controlling grip on your arm or sleeve. This window typically lasts one to two seconds. Secondary timing opportunities occur when the opponent overcommits to a sweep attempt that extends their legs, or when they loosen grips to adjust their guard angle.
-
-**Q5**: Your opponent consistently hip escapes to follow your lateral movement and recovers guard - how do you adjust?
-**A**: Use the bull pass as a feint by initiating the lateral movement in one direction to draw their hip escape, then immediately reverse direction with a knee slice through the center. Their hip escape in the wrong direction creates a clear passing lane for the knee slice. This combination turns their successful defense of the bull pass into vulnerability for a complementary technique.
-
-**Q6**: What direction of force should you apply when redirecting the opponent's legs?
-**A**: Push the knees at approximately forty-five degrees laterally and slightly downward toward the mat rather than purely sideways. The downward angle pins their hips and prevents elevation for guard recovery. The lateral angle must drive their legs past the point where hip escape alone can recover guard position. Continuous pressure is more effective than a single explosive push.
-
-**Q7**: If the opponent pulls hard on your collar grip as you transition to pant grips, what should you do?
-**A**: If the collar pull breaks your posture before you secure pant grips, abort the bull pass attempt immediately. Forcing the pass with compromised posture creates sweep vulnerability because your weight is forward and your base is narrow. Re-establish upright posture and stable base, then either re-attempt the grip break or transition to a pressure-based passing approach that works with the collar grip.
-
-**Q8**: How does the bull pass create passing dilemmas when combined with other techniques from collar sleeve guard top?
-**A**: The bull pass threatens lateral passing while techniques like knee slice and pressure pass threaten direct forward passing. When you alternate between these threats, the opponent cannot commit their defensive structure in a single direction. Defending the lateral bull pass by turning their hips sideways exposes them to direct knee slice. Defending the knee slice by squaring up their hips makes lateral passing more available. This multi-directional threat forces defensive compromises.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bull Pass from Collar Sleeve?</p>
 
 The bull pass involves explosive lateral movement that can strain the passer's knees if performed with poor mechanics. Avoid over-rotation of the knee joint when stepping laterally by keeping feet pointed in the direction of movement. The opponent's legs should be redirected with controlled continuous force rather than violent jerking to prevent hyperextension of their hip or knee joints. In training, communicate with partners about the speed and intensity of leg redirection. When drilling at full speed, ensure adequate warm-up of the knees, hips, and ankles for both practitioners.
 

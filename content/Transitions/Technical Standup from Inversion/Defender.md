@@ -166,6 +166,8 @@ The key defensive principle is maintaining forward pressure readiness without ov
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Standup from Inversion?</p>
+
 - Bottom player retracts both legs toward their chest, breaking all hooks and leg contact with your lower body - this compact position signals the loaded spring for the upcoming hip rotation
 - Bottom player's hips begin rotating from elevated inverted position toward the mat on one side, with their shoulder blades rolling from flat to angled contact as they shift from inverted to side-facing orientation
 - Bottom player's hand reaches behind their body to plant on the mat as a posting base, indicating they are committing to the standup rather than re-engaging the inversion
@@ -178,6 +180,8 @@ The key defensive principle is maintaining forward pressure readiness without ov
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Standup from Inversion?</p>
 
 - Recognize leg disengagement as the primary trigger that a standup attempt is beginning - react before the hip rotation completes
 - Maintain forward pressure readiness without overcommitting weight, so you can drive in when the standup begins or retreat if they re-engage legs
@@ -192,6 +196,8 @@ The key defensive principle is maintaining forward pressure readiness without ov
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Standup from Inversion?</p>
 
 ### 1. Drive forward with controlled pressure pass as the hip rotation begins, using your bodyweight to flatten their rotating hips back to the mat before they can establish the posting base
 
@@ -229,6 +235,8 @@ The key defensive principle is maintaining forward pressure readiness without ov
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Standup from Inversion?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Grab the near ankle during the leg retraction phase before the hip rotation begins. This prevents the standup while keeping them grounded. Maintain the ankle grip and begin your own passing sequence, or use the grip to initiate a leg drag that advances you past their guard. The ankle control forces them back into the inversion where their energy expenditure continues.
@@ -244,6 +252,8 @@ Time a controlled forward pressure drive to coincide with the mid-rotation phase
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Standup from Inversion?</p>
 
 ### 1. Rushing forward too early before the bottom player has committed to the standup, while their legs are still capable of re-engaging hooks and entanglements
 
@@ -273,6 +283,8 @@ Time a controlled forward pressure drive to coincide with the mid-rotation phase
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Standup from Inversion?</p>
+
 **Week 1-2** - Recognition drill with cooperative partner
 Partner performs the technical standup from grasshopper at half speed while you practice identifying each recognition cue in sequence: leg retraction, hip rotation initiation, posting hand plant. Call out each cue as you see it. No countering yet - purely develop the ability to read the standup attempt in real time. Perform 15-20 repetitions per round.
 
@@ -289,29 +301,6 @@ Begin each round with partner in grasshopper guard and you standing. Engage the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a technical standup from grasshopper guard?
-**A**: The earliest cue is the retraction of both legs toward their chest, breaking all hooks and leg contact with your lower body. This compact leg position signals they are loading for the hip rotation. Additional confirmation comes from their hips beginning to rotate from elevated inverted position toward one side of the mat, and their hand reaching behind their body to prepare the posting base.
-
-**Q2**: Why is it dangerous to rush forward the instant you see your opponent's legs disengage?
-**A**: Rushing forward before they fully commit to the standup is dangerous because they may be feinting the standup to draw your forward pressure into their sweep or guard recovery mechanics. If their legs are still capable of re-engaging, your forward momentum feeds directly into elevation sweeps or butterfly hook conversions. You should wait for confirmed hip rotation before driving in, as this confirms they have abandoned the inversion structure and cannot easily redirect back to leg attacks.
-
-**Q3**: Your opponent has planted their posting hand and is beginning to drive upward - what is the highest-percentage counter at this stage?
-**A**: At this stage, sprawling heavily on their hips is the highest-percentage counter. Their posting hand is bearing weight and cannot be used defensively, and their hip structure is at its most vulnerable during the drive phase before full standing base is achieved. Drive your bodyweight downward through their center of mass to collapse the posting structure. This also prevents the sit-through escape because your sprawl pressure pins their hips to the mat.
-
-**Q4**: How should you position yourself relative to the grasshopper guard player to best prevent the standup attempt?
-**A**: Maintain a medium-range distance where you are close enough to reach their legs or hips within one step but far enough that their inverted leg attacks cannot reach you without full extension. Stay centered on their body rather than offset to one side, as this gives you the ability to react to rotation in either direction. Keep your weight slightly forward on the balls of your feet with knees bent so you can drive forward explosively when the standup begins.
-
-**Q5**: What should you do if you arrive late and your opponent has already reached a half-standing position?
-**A**: If they are already half-standing, an ankle pick or snap-down is more effective than a sprawl. Target their lead leg with an inside trip or ankle pick to collapse the base they just established, rather than trying to drive them back down through hip pressure at this stage. Alternatively, shoot for a low single leg on the posted foot, as their weight is committed forward through that foot and they cannot easily retract it. The goal shifts from preventing the standup to immediately attacking the newly established base before they can settle into stable standing guard.
-
-
-
-</section>
 
 
 </main>

@@ -1,0 +1,472 @@
+{
+  "name": "Kneebar from Half Guard",
+  "description": "Master the Kneebar from Half Guard in BJJ. Complete guide covering setup, execution, defense, and safety protocols for this powerful leg lock submission.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "kneebar",
+    "half-guard",
+    "joint-lock",
+    "no-gi",
+    "leg-entanglement"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint and posterior cruciate ligament",
+  "starting_position": "Half Guard",
+  "from_position": "Half Guard/Bottom",
+  "success_rate": 60,
+  "overview": "The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Posterior cruciate ligament (PCL) tear",
+        "severity": "High",
+        "recovery_time": "6-12 months with surgery"
+      },
+      {
+        "injury": "Medial collateral ligament (MCL) damage",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      },
+      {
+        "injury": "Patellar tendon strain or rupture",
+        "severity": "High",
+        "recovery_time": "3-6 months"
+      },
+      {
+        "injury": "Meniscus tear",
+        "severity": "Medium",
+        "recovery_time": "6-12 weeks, may require surgery"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum with constant communication",
+    "tap_signals": [
+      "Verbal tap (loudly say 'tap' or 'stop')",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap on mat",
+      "Any distress vocalization or signal"
+    ],
+    "release_protocol": [
+      "Immediately release hip extension and stop arching back",
+      "Return leg to neutral position without jerking",
+      "Release all leg controls and allow partner to extract their leg",
+      "Check with partner verbally before resuming training"
+    ],
+    "training_restrictions": [
+      "Never spike or jerk the submission—apply smooth, progressive pressure only",
+      "Never use competition speed in training—always give partner minimum 3-5 seconds to tap",
+      "Always maintain communication and watch for tap signals",
+      "Never practice on partners with existing knee injuries without explicit permission",
+      "Lower belts should only practice under supervision with experienced partners"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Half Guard",
+    "Knee Shield Half Guard",
+    "Lockdown",
+    "Deep Half Guard",
+    "Old School",
+    "Butterfly Half Guard"
+  ],
+  "related_submissions": [
+    "Inside Heel Hook",
+    "Heel Hook",
+    "Achilles Lock",
+    "Calf Slicer",
+    "Banana Split",
+    "Estima Lock"
+  ],
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Primary starting position for this submission—understanding half guard structure and controls is prerequisite"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Complementary technique from half guard that creates kneebar opportunity when defended"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Leg entanglement that enhances control during transition to kneebar position"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative leg entanglement position that shares similar kneebar finishing mechanics"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Common transition target if opponent defends kneebar by sitting back"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Advanced position accessible if opponent rolls during kneebar defense"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Foundational principle for understanding control mechanics in this submission"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Control position that precedes the finish when kneebar is not immediately available"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative half guard position with direct rolling kneebar entry"
+    }
+  ],
+  "attacker": {
+    "name": "from Half Guard Attacker",
+    "description": "How to execute Kneebar from Half Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.",
+    "key_principles": [
+      "Hip control prevents opponent rotation and escape—secure the hip before attacking the leg",
+      "Leg isolation through half guard structure—use your existing leg entanglement as foundation",
+      "Extension angle across the knee joint must be perpendicular to create proper leverage",
+      "Hip thrust generates submission force—arch your hips up rather than pulling the leg down",
+      "Connection maintenance throughout the sequence—never allow gaps between your body and opponent's leg",
+      "Progressive pressure application—build tension gradually to allow tap opportunity",
+      "Chest-to-thigh connection creates the fulcrum point for knee hyperextension"
+    ],
+    "setup_requirements": [
+      "Established half guard position with opponent's leg controlled between your legs",
+      "Opponent committed forward with weight on their trapped leg side",
+      "Control of opponent's near side arm or underhook to prevent posting",
+      "Hip mobility to transition from guard position to leg attack angle",
+      "Clear path to transition to kneebar position without opponent extracting their leg"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure underhook and create off-balancing angle",
+        "description": "From bottom half guard, establish a deep underhook on the trapped leg side. Drive your underhook hand toward the opponent's far shoulder while using your bottom leg hook to elevate their trapped leg. This off-balances them forward and loads their weight onto their hands, preventing them from sitting back to defend the leg attack. Your free hand should control their wrist or tricep to prevent them from posting and creating base.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Transition hips to perpendicular angle",
+        "description": "Shrimp your hips out toward the trapped leg side while maintaining your leg entanglement. Your goal is to create a 90-degree angle between your torso and the opponent's body. As you shrimp, begin to swing your top leg (the leg not in the half guard lockdown) over the opponent's back or shoulder. This rotation is critical—you must achieve perpendicular alignment to create proper kneebar mechanics. Keep the bottom leg (half guard hook) tight to prevent them from pulling their leg free during the transition.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Establish leg isolation with both legs",
+        "description": "Complete your hip rotation so your body is perpendicular to your opponent. Your bottom leg (the original half guard hook) should now be positioned behind their knee, while your top leg swings over their hip or back to prevent them from rolling forward or standing. Create a figure-four position with your legs if possible—bottom leg behind their knee, top leg crossed over, locking at the ankles. This isolation is crucial: their trapped leg should be completely immobilized between your legs with no ability to rotate or pull free.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Control opponent's hip and secure position",
+        "description": "With your legs controlling the knee and preventing rotation, immediately address their hip with your hands. Your primary objective is to prevent them from rotating toward you (which would relieve pressure on the knee) or away from you (which could allow them to roll out). Cup their hip or belt with both hands, or use one hand on the hip and one controlling their far leg. Pull their hip toward you slightly to flatten them and eliminate rotation potential. This hip control is often the difference between a successful finish and a failed attempt.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Position the knee joint on your centerline",
+        "description": "Adjust your body so the opponent's knee joint sits directly on your body's centerline—typically this means their knee is positioned between your chest and hip. The back of their knee should be pressed against your torso, creating the fulcrum point for the submission. Your legs should be squeezing their lower leg toward your hips, creating tension on the joint. Ensure their toes are pointed away from you (preventing knee rotation) and their leg is straight or slightly bent. Curl their foot toward their shin using your arm if needed to increase pressure.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply progressive hip extension to finish",
+        "description": "With all controls in place, initiate the finish by arching your hips upward while maintaining the opponent's leg position. Drive your hips up toward the ceiling while simultaneously pulling their ankle or foot toward your chest. The combination creates hyperextension at the knee joint across the fulcrum point of your body. Apply pressure SLOWLY and progressively—this is not a sudden jerk but a steady increase in tension. Watch for the tap signal and be prepared to release immediately. The finish comes from hip thrust, not from pulling the leg down with your arms.",
+        "timing": "3-5 seconds progressive application"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent rotates their knee inward (heel toward you) to relieve pressure",
+        "effectiveness": "High",
+        "your_response": "Immediately use your hands to grab their foot and rotate it back outward (toes away from you). You can also transition to a toe hold by catching their foot as they rotate. Maintain tight leg control to prevent full rotation.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent sits back and pulls their leg toward their chest",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement by crunching forward and maintaining chest-to-thigh connection. Don't allow space to open. Use your leg hooks to prevent them from fully retracting the leg. If they successfully create space, you may need to transition to a different leg entanglement like 50-50 or Ashi Garami.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent rolls forward over their trapped leg to escape",
+        "effectiveness": "Medium",
+        "your_response": "Anticipate this by maintaining strong top leg control over their hip/back. If they begin to roll, you can either finish the kneebar during their roll (they're adding force to the submission) or transition to the truck position as they rotate, maintaining leg control throughout.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Opponent stands up on their free leg to relieve pressure",
+        "effectiveness": "Low",
+        "your_response": "Standing actually helps you finish—their own body weight adds force to the submission. Maintain your position and continue the finish. Use your top leg to kick their base leg if needed to return them to the mat.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Opponent grabs their own leg/shin to create frame and postures up to pass",
+        "effectiveness": "Medium",
+        "your_response": "This creates a temporary defense but doesn't address the fundamental mechanics. Continue applying hip pressure while working to break their grip using your hands. If they successfully posture and begin to pass, they may advance to side control. Focus on pulling their foot/ankle toward you to break the frame before they can extract.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attacking the leg before controlling the hip",
+        "consequence": "Opponent easily rotates their body to escape, spinning into top position or extracting their leg completely",
+        "correction": "Always establish hip control first—cup the hip or belt with your hands before initiating the finish. The hip control prevents rotation, which is the primary escape mechanism."
+      },
+      {
+        "error": "Pulling the leg down with arms instead of driving hips up",
+        "consequence": "Insufficient pressure on the knee joint, wasted energy, and increased injury risk from improper mechanics",
+        "correction": "The submission comes from hip extension (arching your back), not arm strength. Your arms hold position while your hips create the force. Think 'push hips to ceiling' not 'pull leg to floor.'"
+      },
+      {
+        "error": "Allowing the knee joint to slip off your centerline",
+        "consequence": "Loss of the fulcrum point, failed submission, and potential for opponent to escape or counter",
+        "correction": "Keep the back of their knee pinned to your torso centerline throughout the finish. Adjust your body position, not just their leg position, to maintain alignment."
+      },
+      {
+        "error": "Jerking or spiking the submission rapidly in training",
+        "consequence": "High risk of severe knee injury including PCL tears, meniscus damage, or patellar tendon rupture requiring surgery",
+        "correction": "ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Save explosive finishes for competition only. Your training partner's safety is more important than the tap."
+      },
+      {
+        "error": "Failing to secure leg isolation before finishing",
+        "consequence": "Opponent easily extracts their leg, passes your guard, or counters with their own submission",
+        "correction": "Establish complete leg control with both of your legs (figure-four if possible) before attempting the finish. Their leg should have zero mobility before you apply pressure."
+      },
+      {
+        "error": "Losing connection during transition from half guard to kneebar position",
+        "consequence": "Opponent pulls their leg free during the transition, passes to dominant position",
+        "correction": "Maintain constant tension with your bottom leg hook throughout the entire hip rotation. Never release the half guard until your perpendicular position is fully established and your top leg is in place."
+      },
+      {
+        "error": "Attempting kneebar when opponent has strong whizzer or overhook",
+        "consequence": "Opponent uses the overhook to roll you into bad position, or uses it to base and stand up",
+        "correction": "Before transitioning to kneebar, strip the whizzer/overhook or use it against them by rolling them forward. Never attempt this submission when opponent has strong upper body control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolation Drilling",
+        "focus": "Positional mechanics and body alignment",
+        "description": "Practice the transition from bottom half guard to perpendicular kneebar position with a fully cooperative partner. Focus on the hip rotation sequence, achieving proper perpendicular alignment, and establishing the figure-four leg configuration. Drill 20-30 repetitions per side without attempting the finish. Emphasis on maintaining bottom leg connection throughout the rotation and finding the correct fulcrum placement on centerline."
+      },
+      {
+        "phase": "Phase 2: Finishing Mechanics",
+        "focus": "Hip extension, pressure application, and safety protocols",
+        "description": "With a cooperative partner already in kneebar position, practice the finishing sequence exclusively. Focus on hip thrust mechanics (arching up, not pulling down), maintaining centerline alignment under slight resistance, and developing sensitivity for progressive pressure application. Partner provides verbal feedback on pressure buildup. Drill safe release protocol after every repetition. Introduce grip adjustments for gi versus no-gi configurations."
+      },
+      {
+        "phase": "Phase 3: Entry Chains and Counter Response",
+        "focus": "Live entries from half guard and handling defensive reactions",
+        "description": "Partner provides 50-70% resistance from half guard top position. Practice entering the kneebar against realistic defensive reactions including knee rotation, leg retraction, and forward rolling. Develop responses to each common counter: transitioning to toe hold when they rotate, following hip movement when they retract, maintaining control when they roll. Chain the kneebar entry with Old School sweep attempts and deep half transitions to create offensive dilemmas."
+      },
+      {
+        "phase": "Phase 4: Competition Simulation",
+        "focus": "Full-speed application with timing and decision-making",
+        "description": "Positional sparring starting from bottom half guard with full resistance. Top player's objective is to pass; bottom player integrates kneebar attempts into complete half guard offense including sweeps and back takes. Develop recognition of optimal entry timing based on opponent's weight distribution and posture. Practice abandoning failed attempts and returning to guard retention. Measure success rate and identify patterns in defensive reactions that signal high-percentage finishing windows."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the primary mechanical principle that creates the kneebar submission, and why is hip positioning critical?",
+        "answer": "The kneebar creates hyperextension of the knee joint by using your torso as a fulcrum point. Your body (positioned at their knee) acts as the pivot, while your hips driving upward on one side and your arms controlling the ankle on the other side create opposing forces that hyperextend the joint. Hip positioning is critical because only by achieving perpendicular alignment can you create this leverage system—if you're not perpendicular, you're pulling against their leg strength rather than using mechanical advantage to attack the joint structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is controlling the opponent's hip essential before finishing the kneebar, and what happens if you neglect this control?",
+        "answer": "Hip control prevents the opponent from rotating their body, which is the primary escape mechanism from kneebar positions. The knee joint can only be hyperextended when the leg is relatively straight and unable to rotate. If you neglect hip control, the opponent can rotate their knee inward (toward you) or rotate their entire body, which either removes pressure from the joint or allows them to extract their leg entirely. Many failed kneebar attempts result from attacking the leg without first securing the hip to prevent rotation.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the minimum safety protocols that must be followed when practicing kneebars in training?",
+        "answer": "Minimum safety protocols include: (1) Apply pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission; (2) Constantly monitor your partner for tap signals including verbal, hand taps, foot taps, or any distress signals; (3) Release immediately upon tap by stopping hip extension and returning the leg to neutral position; (4) Never practice at competition speed in training; (5) Only practice with partners who understand and can perform the technique safely; (6) Avoid practicing on partners with existing knee injuries without explicit permission. The knee joint is particularly vulnerable to rapid force application, and PCL tears can occur before the pain response allows for tapping.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct transition sequence from bottom half guard to kneebar position, and what must be maintained throughout?",
+        "answer": "The sequence is: (1) Establish underhook and off-balance opponent forward; (2) Shrimp hips out to begin rotation toward perpendicular angle; (3) Swing top leg over opponent's back/hip while maintaining bottom leg control; (4) Complete rotation to perpendicular position with both legs isolating the trapped leg; (5) Secure hip control with hands; (6) Position knee joint on centerline; (7) Apply progressive hip extension. Throughout this entire sequence, you must maintain constant tension with your bottom leg hook—never release the half guard until your new position is fully established. Loss of connection during transition allows the opponent to extract their leg and pass your guard.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you respond if your opponent begins to rotate their knee inward during the kneebar, and what alternative submission might this defense open?",
+        "answer": "If the opponent rotates their knee inward (bringing their heel toward you), immediately use your hands to grab their foot and forcibly rotate it back outward (toes away from you) to restore proper kneebar alignment. Maintain tight leg control to prevent full rotation. However, this inward rotation defense also creates an opportunity to transition to a toe hold—as they rotate their foot toward you, you can catch it and transition to the toe hold grip (figure-four grip on their foot) and finish that submission instead. This demonstrates the interconnected nature of leg lock systems where one defense opens another attack.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific injuries can result from improperly applied kneebars, and why is progressive pressure application critical?",
+        "answer": "Improperly applied kneebars (particularly when jerked or spiked rapidly) can cause: posterior cruciate ligament (PCL) tears requiring 6-12 months recovery with surgery, medial collateral ligament (MCL) damage requiring 4-8 weeks recovery, patellar tendon strains or ruptures requiring 3-6 months recovery, and meniscus tears that may require surgery. Progressive pressure application (3-5 seconds minimum) is critical because knee ligaments have relatively poor proprioception compared to other joints—the pain response is delayed, meaning injury can occur before the person realizes they need to tap. Slow application gives the nervous system time to register danger and allows the training partner adequate time to recognize the submission and tap safely.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins to posture up and straighten their back during your kneebar attempt—what adjustment prevents escape and why does this work?",
+        "answer": "When the opponent postures up, immediately pull your top leg tighter across their hip or lower back to prevent them from creating distance. Simultaneously, squeeze your knees together harder to maintain the figure-four configuration on their leg. Use your grip on their hip to pull them back toward you rather than letting them create space. This works because the kneebar relies on maintaining the fulcrum position—if they can posture up and pull their knee away from your torso centerline, the leverage system fails. Your top leg acts as a barrier preventing their weight from shifting backward.",
+        "safety_critical": false
+      },
+      {
+        "question": "What anatomical structure is the primary target of the kneebar, and what are the warning signs that you're approaching the breaking point?",
+        "answer": "The primary anatomical targets are the posterior cruciate ligament (PCL), the patellar tendon, and the surrounding ligaments of the knee joint. The kneebar attacks the knee through hyperextension. Warning signs approaching the breaking point include: (1) Visible straightening or hyperextension of the leg beyond normal range; (2) Partner beginning to panic or show distress before tapping; (3) Feeling the leg become increasingly rigid as ligaments reach their limit; (4) Any popping or clicking sounds during application. In training, you should never approach these indicators—the goal is to reach the 'tap threshold' where pressure is felt but no damage is imminent.",
+        "safety_critical": true
+      },
+      {
+        "question": "During competition, when is the optimal moment to accelerate your kneebar finish, and what factors indicate a high-percentage finishing window?",
+        "answer": "The optimal moment to accelerate the finish in competition is when: (1) Your hip control is completely secured and the opponent cannot rotate; (2) Your leg isolation is locked tight with both legs and the figure-four configuration is established; (3) Their knee joint is perfectly centered on your torso; (4) The opponent's hands are occupied defending or trapped (not protecting their knee). High-percentage indicators include: opponent's weight committed in a direction that assists your finish, their free leg is unable to post or base, and they're focused on upper body escapes rather than addressing the leg attack. Never rush the finish until all control points are secured.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you adjust your grip configuration if your opponent is wearing a gi versus in no-gi competition, and why does this matter for the finish?",
+        "answer": "In gi, you can grip the belt or pants at the hip for superior hip control—the fabric provides excellent purchase for preventing rotation. For the finish, you can also grip their pants leg near the ankle to control foot rotation. In no-gi, you must cup the hip bone directly with your palm or hook behind their far thigh, which requires more precise positioning and stronger grip strength. The ankle control in no-gi typically involves cupping the heel or wrapping your arm around the ankle/foot. Gi grips allow more margin for error in positioning because the friction and material control compensate for small adjustments. No-gi requires tighter body-to-body connection throughout.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape for your opponent during a properly executed kneebar, and what should happen immediately before reaching this point?",
+        "answer": "The point of no escape occurs when: (1) Your hips have begun the extension arch; (2) Their knee joint is centered on your torso with the back of their knee pressed against your body; (3) Your legs are locked in figure-four with their leg completely isolated; and (4) Their hip rotation has been eliminated through your hand control. Before reaching this point in training, the opponent should have ample opportunity to tap—you should be applying pressure gradually over 3-5 seconds minimum. The 'point of no escape' should coincide with the tap, not precede it. In competition, this is when you can accelerate pressure knowing the submission is mechanically complete.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your leg control starts slipping during the transition from half guard—what immediate grip adjustment maintains the attack and prevents your opponent from escaping?",
+        "answer": "If leg control slips, immediately pinch your knees together tightly while using your near-side hand to grab their ankle or heel and pull it toward your hip. This emergency grip replaces the leg isolation temporarily. Simultaneously, use your free hand to re-establish hip control to prevent them from rotating out. If you cannot recover the leg isolation quickly, consider abandoning the kneebar attempt and transitioning to either: (1) A toe hold by catching their foot as it rotates; (2) Return to half guard by re-establishing your bottom hook; or (3) Transition to 50-50 position if they're extracting backward. Never chase a submission with compromised control—either recover your position or transition intelligently.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from Half Guard Defender",
+    "description": "How to defend against Kneebar from Half Guard in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the kneebar from half guard requires early recognition and decisive action before the attacker completes their perpendicular rotation and establishes leg isolation. The defender's primary advantage is that they start in top half guard—a position of relative superiority—and the attacker must execute a multi-step transition to reach the kneebar. Every phase of that transition presents defensive windows. The critical defensive principle is preventing the attacker from achieving perpendicular alignment and controlling your hip. Once full leg isolation and hip control are established, escape becomes exponentially more difficult and injury risk increases significantly. Early-stage defense focuses on posture maintenance, base recovery, and preventing the hip rotation that initiates the kneebar sequence. Late-stage defense shifts to knee rotation, grip fighting against the fulcrum, and controlled extraction of the trapped leg. Understanding the attacker's mechanical requirements—perpendicular angle, centerline fulcrum, hip control—allows the defender to systematically deny each element and force the attacker back to guard retention.",
+    "key_principles": [
+      "Recognize kneebar entries early by monitoring opponent's hip rotation and underhook angle changes from bottom half guard",
+      "Maintain heavy forward pressure and crossface control to prevent the attacker from achieving perpendicular body alignment",
+      "Rotate your trapped knee inward (toward the attacker) to eliminate the hyperextension angle required for the submission",
+      "Never allow the attacker to control your hip with their hands—fight grips immediately when they reach for your hip or belt",
+      "Keep your base wide and weight distributed forward to prevent being off-balanced during the transition phase",
+      "If caught in late-stage kneebar, address the most dangerous element first: bend your knee and rotate it inward before fighting grips",
+      "When extracting your leg, drive your hips toward the attacker rather than pulling away, which actually strengthens their control"
+    ],
+    "recognition_cues": [
+      "Opponent begins shrimping their hips out laterally while maintaining their bottom leg hook on your trapped leg—this is the initiation of the perpendicular rotation",
+      "Opponent swings their top leg over your back, hip, or shoulder while releasing their underhook grip on your upper body—they are transitioning from guard retention to leg attack",
+      "Opponent's hands shift from controlling your upper body (collar, sleeve, underhook) to reaching for your hip, belt, or far leg—this signals they are securing the kneebar position rather than attempting a sweep"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward pressure and re-establish crossface before attacker completes rotation",
+        "when_to_use": "Early-stage defense when you recognize the hip rotation beginning but attacker has not yet achieved perpendicular alignment or leg isolation",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You flatten the attacker back to bottom half guard, denying the perpendicular angle needed for the kneebar, and resume your passing sequence from top position",
+        "risk": "If you drive forward too aggressively without controlling their top leg, they may use your momentum to complete the rotation faster"
+      },
+      {
+        "action": "Rotate trapped knee inward and bend leg to deny hyperextension angle",
+        "when_to_use": "Mid-to-late stage defense when attacker has achieved partial or full leg isolation but has not yet applied finishing pressure to the knee joint",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Knee rotation eliminates the hyperextension angle, buying time to fight grips and extract your leg back to top half guard position",
+        "risk": "If attacker catches your rotating foot, they can transition to a toe hold submission instead of the kneebar"
+      },
+      {
+        "action": "Step over attacker's body with free leg and drive hips forward to extract trapped leg while establishing top control",
+        "when_to_use": "When attacker has partial leg isolation but weak hip control—particularly effective when their hands are still transitioning from upper body grips to hip control",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "You pass the attacker's guard entirely by stepping over their body and extracting your leg, landing in side control or a dominant top position",
+        "risk": "Requires committing your base forward—if attacker maintains strong leg hooks, stepping over can expose you to being rolled into an inferior position"
+      }
+    ],
+    "escape_paths": [
+      "Rotate your knee inward while bending the trapped leg, then drive your hips forward toward the attacker to collapse the fulcrum point and extract your leg back to top half guard",
+      "Step your free leg over the attacker's body toward their far hip, using the step-over to create rotation that breaks their figure-four leg configuration and allows you to advance to side control"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Deny the attacker's perpendicular rotation through early crossface pressure and forward drive, then resume top half guard passing sequence with your leg re-established between their guard"
+      },
+      {
+        "outcome": "Side Control/Top",
+        "how": "When attacker commits to the leg attack and releases upper body control, step over their body with your free leg while extracting the trapped leg to advance directly to side control"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped leg straight backward away from the attacker to escape",
+        "consequence": "Pulling backward actually strengthens the kneebar by extending your leg and loading more force onto the hyperextension fulcrum—this is the worst possible defensive reaction and dramatically increases injury risk",
+        "correction": "Drive your hips TOWARD the attacker to collapse the fulcrum distance while simultaneously bending your knee and rotating it inward. Forward pressure removes the space the attacker needs for the hyperextension mechanism."
+      },
+      {
+        "error": "Ignoring early rotation signals and continuing to pass without addressing the leg attack",
+        "consequence": "Attacker completes the full transition to perpendicular alignment with figure-four leg isolation and hip control, making late-stage escape extremely difficult and increasing injury risk",
+        "correction": "As soon as you feel the opponent's hips begin to rotate out and their top leg start to swing, immediately stop your passing attempt and address the leg attack by driving crossface pressure forward and controlling their rotating leg with your free hand."
+      },
+      {
+        "error": "Attempting to stand up to escape the kneebar once leg isolation is established",
+        "consequence": "Standing adds your own body weight to the hyperextension force on your knee—you are essentially finishing the submission on yourself by straightening and loading the trapped leg",
+        "correction": "Stay low and address the kneebar on the ground. Bend your trapped knee, rotate it inward, and fight the attacker's hip grips before attempting any upward movement. Only stand after you have broken the figure-four configuration and eliminated the fulcrum."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most dangerous defensive mistake when caught in a kneebar from half guard, and why does it increase injury risk?",
+        "answer": "The most dangerous mistake is pulling your trapped leg straight backward away from the attacker. This is catastrophically counterproductive because it extends your knee further into the hyperextension plane, loads more force onto the fulcrum point (the attacker's torso), and removes the bend in your knee that provides structural protection. Instead, you must drive your hips toward the attacker to collapse the space needed for the lever system while simultaneously bending your knee and rotating it inward to deny the extension angle.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what stage of the kneebar sequence is defense most effective, and what specific actions should you take at that stage?",
+        "answer": "Defense is most effective during the early transition phase when the attacker begins rotating their hips to perpendicular alignment but has not yet established full leg isolation or hip control. At this stage, immediately drive heavy crossface pressure forward to flatten them back to the mat, use your free hand to control their top leg (preventing it from swinging over your back), and re-establish your base by widening your free leg. The goal is to deny perpendicular alignment entirely, which eliminates the kneebar threat at its source.",
+        "safety_critical": false
+      },
+      {
+        "question": "If the attacker has fully locked the kneebar position with figure-four leg isolation and hip control, what is the correct emergency defense sequence before tapping?",
+        "answer": "The emergency sequence is: (1) Immediately bend your trapped knee as much as possible by engaging your hamstring—a bent knee cannot be hyperextended; (2) Rotate your knee inward toward the attacker to misalign the hyperextension angle; (3) Use your hands to fight their hip grip, specifically prying their fingers off your hip or belt; (4) Drive your hips forward toward them to collapse the fulcrum distance; (5) If these actions create any slack in their leg isolation, immediately work to extract your leg. If at any point you feel sharp pain or cannot bend your knee, TAP IMMEDIATELY—the kneebar can cause ligament damage before pain fully registers.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Denial",
+        "focus": "Identifying kneebar entry cues and preventing perpendicular rotation",
+        "description": "Partner slowly initiates kneebar entry from bottom half guard at 25% speed. Defender practices recognizing the three key cues (hip rotation, top leg swing, grip transition) and immediately applying crossface pressure and forward drive to deny the rotation. Drill 20 repetitions focusing on reaction timing. Partner provides verbal feedback on whether defensive reaction was early enough to prevent the transition."
+      },
+      {
+        "phase": "Phase 2: Late-Stage Escape Mechanics",
+        "focus": "Escaping after attacker achieves partial or full leg isolation",
+        "description": "Partner establishes kneebar position with figure-four leg isolation but does not apply finishing pressure. Defender practices the escape sequence: knee rotation inward, hip drive forward, grip fighting against hip control, and leg extraction. Drill at 50% resistance. Emphasis on never pulling the leg backward and always driving hips toward the attacker. Include emergency tap drilling to build appropriate safety reflexes."
+      },
+      {
+        "phase": "Phase 3: Integrated Defense with Counter-Offense",
+        "focus": "Combining kneebar defense with guard passing and position advancement",
+        "description": "Positional sparring from top half guard at 70-80% resistance. Bottom player freely attempts kneebars, sweeps, and other attacks. Top player integrates kneebar defense into their passing game—recognizing threats, defending appropriately, and immediately resuming passing or advancing to side control after successful defense. Track how often the kneebar entry is denied at the early stage versus requiring late-stage escape."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Kneebar from Lockdown Half Guard",
+      "description": "From lockdown position (bottom foot hooked over opponent's ankle), the leg entanglement provides even stronger control during the transition. Use the lockdown to stretch their leg and prevent them from sitting back as you rotate into the kneebar position. The lockdown can be maintained through the initial rotation, then opened to complete the submission.",
+      "when_to_use": "When opponent is driving hard into your half guard and you have deep lockdown control established"
+    },
+    {
+      "variation_name": "Kneebar off Failed Old School Sweep",
+      "description": "When attempting the old school sweep from half guard, if the opponent bases hard with their free leg and blocks the sweep, transition directly to the kneebar. You're already in the perpendicular position with your leg over their back—simply adjust to capture their trapped leg and finish the kneebar instead of completing the sweep.",
+      "when_to_use": "When opponent defends old school sweep by posting their far leg and creating strong base"
+    },
+    {
+      "variation_name": "Rolling Kneebar Entry from Deep Half",
+      "description": "From deep half guard position, when opponent attempts to limp leg escape or pull their leg free, use the momentum of their leg extraction to roll into the kneebar. As they pull back, maintain your grip on their leg and roll with them into the perpendicular kneebar position. This variation uses their defensive energy against them.",
+      "when_to_use": "When in deep half guard and opponent is actively trying to remove their leg from your control"
+    }
+  ]
+}

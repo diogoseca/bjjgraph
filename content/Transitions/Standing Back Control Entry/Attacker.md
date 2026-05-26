@@ -188,6 +188,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Back Control Entry?</p>
+
 - Maintain all three control points simultaneously throughout the transition: hooks for hip control, seatbelt for upper body control, and chest-to-back connection for weight distribution
 - Anticipate the stand-up by reading hip loading cues and begin your upward engagement before the opponent fully commits to standing
 - Use hip-to-hip connection as the primary mechanism for following vertical movement rather than relying on arm strength or grip alone
@@ -202,6 +204,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Back Control Entry?</p>
+
 - Established back control with seatbelt or harness grip securely locked with hands clasped together
 - At least one hook positioned inside opponent's inner thigh with secure foot placement and active heel engagement
 - Chest-to-back connection intact with no space between your torso and opponent's spine allowing direct weight transfer
@@ -214,6 +218,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Back Control Entry step by step?</p>
 
 1. **Recognize opponent's intention to stand**: Monitor your opponent's hips and leg positioning for signs of a stand-up attempt. Key indicators include feet planted flat on the mat, hips loading forward, and hands pushing against the ground. Early recognition allows you to preemptively tighten your controls before the upward movement begins.
 2. **Tighten seatbelt grip and lock controls**: Before the transition begins, cinch your seatbelt grip tighter by pulling your elbows into your body and squeezing your forearms against opponent's chest. Ensure your choking arm is positioned high across the collarbone and your underhook arm is deep under the armpit with hands clasped firmly together.
@@ -243,6 +249,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Back Control Entry?</p>
+
 - **Opponent strips hooks during vertical transition by straightening legs and pushing feet outward with hands** (Effectiveness: High) - Your Response: Immediately transition to body lock around waist if hooks are stripped, then retake hooks once standing or execute mat return before losing all lower body control → Leads to [[Positions/Half Guard]]
 - **Opponent breaks seatbelt grip by stripping the underhook arm during stand-up when torso angle shifts** (Effectiveness: Medium) - Your Response: Reattach seatbelt immediately by swimming the underhook arm back through or transition to body lock grip while maintaining chest connection and hook control → Leads to [[Positions/Back Control]]
 - **Opponent drops hips explosively back to seated position to prevent standing transition** (Effectiveness: Low) - Your Response: Follow their hips back down maintaining all controls and return to standard grounded back control, then be prepared for their next escape attempt with tighter hooks → Leads to [[Positions/Back Control]]
@@ -254,6 +262,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Back Control Entry?</p>
 
 ### 1. Releasing seatbelt grip to post hands on the ground during the standing transition
 
@@ -293,6 +303,8 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Back Control Entry (Attacker)?</p>
+
 **Phase 1: Solo Movement Patterns** - Hip follow mechanics and coordination
 Practice the hip engagement and vertical follow movement without a partner. Start seated with legs extended, then practice rising while maintaining a forward hip drive. Build muscle memory for the coordinated hip and leg movement required during the transition.
 
@@ -313,42 +325,12 @@ During positional sparring from back control, look for standing transition oppor
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three primary control points that must be maintained throughout the Standing Back Control Entry?
-**A**: The three control points are hooks inside the opponent's thighs for hip control, seatbelt or harness grip for upper body control, and chest-to-back connection for weight distribution and positional dominance. All three must be maintained simultaneously throughout the transition from horizontal to vertical, as losing any single control point during the transition creates escape windows the opponent will exploit.
-
-**Q2**: At what phase of the transition is back control most vulnerable to defensive escape?
-**A**: Back control is most vulnerable during the mid-transition phase when the angle changes from approximately horizontal to forty-five degrees. At this angle, hook depth is compromised by leg straightening, the seatbelt must adapt to the changing torso angle, and chest connection is hardest to maintain because the body alignment shifts significantly between horizontal and vertical positions.
-
-**Q3**: Your opponent plants their feet and begins loading their hips to stand - what is your immediate response?
-**A**: Immediately tighten your seatbelt grip by pulling elbows in, drive hooks deeper inside their thighs, and engage your hips flush against their lower back to eliminate any space. Begin your upward hip engagement before they fully commit to the stand-up so you are synchronized with their movement rather than reacting to it after they have already created separation.
-
-**Q4**: How does hook position need to change between grounded and standing back control?
-**A**: In grounded back control, hooks are positioned with feet inside the opponent's thighs at a comfortable angle supported by the ground. When transitioning to standing, hooks must be deepened with heels curled tighter against the inner thighs because gravity now works to pull your legs downward away from the control position. Stronger hamstring engagement and a wider foot placement inside the thighs prevents hooks from sliding down during vertical transition.
-
-**Q5**: When should you choose to follow your opponent to standing versus pulling them back down?
-**A**: Follow to standing when your opponent has committed to the stand-up and has their feet solidly planted, as fighting their upward momentum wastes energy and often creates the separation you are trying to prevent. Pull them back down only in the early phase before they have established base with their feet, when a simple hip pull and hook drive can collapse their stand-up attempt before it develops momentum.
-
-**Q6**: What grip adjustment is most important if your seatbelt loosens during the standing transition?
-**A**: If the seatbelt loosens during transition, immediately switch to a body lock by clasping your hands around the opponent's waist or lower ribcage. The body lock provides a temporary but secure control point that prevents separation while you work to reestablish the proper seatbelt configuration. Never chase the seatbelt grip with extended arms, as this creates space and vulnerability to escape.
-
-**Q7**: Your opponent strips one hook during the mid-transition - how do you prevent losing position entirely?
-**A**: Immediately tighten the remaining hook by driving it deeper and curling your heel inward while increasing chest-to-back pressure. Use your free leg to either reinsert the hook from a different angle or transition to a body triangle by wrapping that leg around the opponent's waist. Simultaneously consider executing an immediate mat return while you still have partial control rather than continuing the standing transition with compromised leg control.
-
-**Q8**: Why is hip-to-hip connection more important than arm grip strength during the standing transition?
-**A**: Hip-to-hip connection transfers your entire body weight to the opponent and creates a mechanical bond that is far stronger than any grip. Arms fatigue quickly under load and can be stripped through hand fighting, but hip connection uses your core and structural alignment to maintain position. The hips also serve as the primary following mechanism during the vertical transition, allowing you to track the opponent's upward movement through physical contact rather than chasing them with your upper body.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Back Control Entry?</p>
 
 Standing back control transitions involve significant fall risk for both practitioners. Never attempt to slam or suplex the opponent during the transition, which is illegal in most rulesets and extremely dangerous. Both practitioners should be aware of their surroundings and mat space to avoid falling off elevated surfaces or into other training pairs. When drilling, start with slow cooperative movement before adding resistance, and always ensure adequate mat coverage beneath the training area. The attacker should never hang their full weight on the opponent's neck or use excessive force to prevent standing.
 

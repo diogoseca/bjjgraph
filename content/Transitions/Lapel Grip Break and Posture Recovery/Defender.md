@@ -166,6 +166,8 @@ Defensive success depends on reading the top player's weight distribution and ti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Grip Break and Posture Recovery?</p>
+
 - Top player widens their base and lowers their hips, shifting weight away from the trapped leg toward their free leg to establish a stable extraction platform
 - Top player's free hand reaches for your wrist or sleeve controlling the lapel tail, indicating the beginning of the two-on-one grip break sequence
 - Top player brings their second hand to join the first on your grip hand, committing both hands to the strip and temporarily abandoning upper body control and base posting
@@ -177,6 +179,8 @@ Defensive success depends on reading the top player's weight distribution and ti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Grip Break and Posture Recovery?</p>
 
 - Maintain constant tension on the lapel wrap throughout all defensive exchanges - any slack gives the top player extraction opportunities
 - Layer multiple control points so that breaking one grip still leaves you with secondary connections through legs, hooks, and sleeve grips
@@ -191,6 +195,8 @@ Defensive success depends on reading the top player's weight distribution and ti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Grip Break and Posture Recovery?</p>
 
 ### 1. Re-grip and retighten the lapel wrap while using free leg to create a butterfly hook under their thigh to prevent posture recovery
 
@@ -228,6 +234,8 @@ Defensive success depends on reading the top player's weight distribution and ti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Grip Break and Posture Recovery?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Re-secure the lapel grip by immediately re-gripping the tail when the top player's strip attempt stalls or when they release momentarily to adjust hands. Simultaneously retighten by pulling the lapel toward your hip while re-engaging leg frames to restore the full guard configuration.
@@ -243,6 +251,8 @@ Time a sweep attempt when the top player commits both hands to the grip break. U
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Grip Break and Posture Recovery?</p>
 
 ### 1. Holding a single grip statically without adjusting angles or creating secondary controls
 
@@ -272,6 +282,8 @@ Time a sweep attempt when the top player commits both hands to the grip break. U
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Grip Break and Posture Recovery?</p>
+
 **Week 1-2** - Grip retention mechanics
 Practice maintaining the Ringworm Guard lapel grip while a partner applies progressive grip stripping attempts. Focus on feeling when tension is being compromised, re-gripping timing, and secondary control establishment. Partner uses single-hand strips only at first.
 
@@ -288,29 +300,6 @@ Positional sparring starting in Ringworm Guard where partner attempts full grip 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing to attempt a sweep when the top player is breaking your Ringworm Guard grip?
-**A**: The optimal sweep window is when the top player commits both hands to the two-on-one grip strip. At this moment, they have sacrificed their posting ability and base integrity, making them maximally vulnerable to off-balancing. Use the remaining lapel tension combined with leg elevation to direct the sweep toward their trapped leg side where their base is weakest.
-
-**Q2**: Your opponent has partially stripped the lapel grip but has not yet secured the tail - what should you prioritize?
-**A**: Immediately re-grip and retighten the lapel before they complete the strip and secure the tail themselves. Pull the lapel tail back toward your hip while simultaneously using your legs to create distance or frames that disrupt their hand positioning. Speed of re-gripping is critical because once they control the tail, your Ringworm Guard is effectively neutralized.
-
-**Q3**: Why should you maintain secondary controls beyond just the lapel grip when defending against this technique?
-**A**: The top player's grip break is specifically designed to address the lapel control. If the lapel is your only control point, its removal leaves you with nothing. Secondary controls through sleeve grips, butterfly hooks, shin shields, and hip positioning create a layered defense where losing the lapel still leaves you with functional guard retention. These layers also create the offensive threats that disrupt their systematic extraction.
-
-**Q4**: The top player begins standing up during their grip break - how does this change your defensive strategy?
-**A**: Standing creates distance and height advantage that favors their grip strip, so you must counter by following their elevation. Extend your hips upward, place feet on their hips, and maintain close connection through leg engagement. Their elevated center of gravity actually makes them more vulnerable to sweeps if you can maintain the lapel connection. Use the standing posture against them by loading their weight forward through the lapel.
-
-**Q5**: When should you abandon the Ringworm Guard configuration and switch to an alternative lapel guard?
-**A**: Switch when the grip is compromised beyond easy recovery - specifically when the top player has broken your primary grip and is actively working to secure the lapel tail. Rather than fighting a losing battle, transition to Worm Guard or Squid Guard while you still control the lapel material. A fresh guard configuration resets their extraction progress and forces them to develop a new counter. The key is making this decision early rather than after complete grip loss.
-
-
-
-</section>
 
 
 </main>

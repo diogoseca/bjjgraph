@@ -28,7 +28,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension in lockdown by pulling opponent's heel toward hip while flexing outside foot
@@ -110,7 +110,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (4% of attempts)
+- **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (4% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 

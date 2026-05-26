@@ -216,7 +216,7 @@ The cross face pass from flattened half guard occupies a critical position in th
 
 - [[Positions/Half Guard/Lockdown]] - Leg control system the defender may employ to prevent leg extraction during the pass
 
-- [[Transitions/Americana]] - Submission opportunity when defender extends arm to fight the crossface during pass attempt
+- [[Submissions/Americana]] - Submission opportunity when defender extends arm to fight the crossface during pass attempt
 
 
 </section>

@@ -224,7 +224,7 @@
         "duration": "5 minutes per configuration level"
       },
       {
-        "name": "Dynamic Base Maintenance Against Off-Balancing",
+        "name": "Dynamic Base Against Off-Balancing",
         "description": "Bottom player uses lapel grips to create off-balancing pressure in multiple directions while top player maintains base and posture. Top player practices weight shifting, base widening, and recovery movements without losing structural integrity. Emphasize staying calm under pressure and making micro-adjustments to base. Build from 50% to 75% resistance.",
         "duration": "4 minutes per round, 3 rounds"
       },
@@ -331,7 +331,7 @@
         "attempt_probability": 3
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the hierarchy of threat assessment when your collar is entangled in Piranha Guard?",
         "answer": "The threat hierarchy prioritizes neck and back lapel wraps as most dangerous since they create immediate choke threats and complete posture collapse. Second priority is clearing lapel configurations that cross your centerline, as these enable powerful sweeps. Third is addressing leg entanglements and secondary grips. Always address higher-level threats before attempting to pass, even if it means temporarily retreating to reset your base and posture."
@@ -465,9 +465,9 @@
             "probability": 60
           },
           {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
-            "probability": 45
+            "technique": "Arm Drag",
+            "target": "Back Control",
+            "probability": 50
           }
         ]
       },
@@ -531,7 +531,7 @@
         "duration": "5 minutes"
       },
       {
-        "name": "Posture Breaking with Lapel Control",
+        "name": "Posture with Lapel Control",
         "description": "Start with collar already threaded through legs. Partner attempts to maintain good posture and strong base while you work collar grips and leg positioning to break them down progressively. Focus on creating maximum breaking power with minimal effort through proper mechanics, angles, and leverage understanding.",
         "duration": "3 minutes per person"
       },
@@ -630,7 +630,7 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Arm Drag",
         "attempt_probability": 10
       },
       {
@@ -642,7 +642,7 @@
         "attempt_probability": 3
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the essential grips for maintaining Piranha Guard and why is their placement critical?",
         "answer": "The essential grips are a deep collar grip on the lapel that has been threaded through your legs, controlled by both hands at strategic points along the material. One hand should grip close to where the lapel exits your legs to maintain the threading, while the other grips further along to create tension and pulling leverage. Thumb-inside grips provide maximum retention strength. The placement is critical because gripping too close to the opponent's body reduces leverage, while gripping too far from your legs allows them to extract the lapel by pulling it back through."

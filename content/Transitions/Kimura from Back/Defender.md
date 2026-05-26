@@ -166,6 +166,8 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura from Back?</p>
+
 - Attacker's bottom hand reaches for your trapped arm's wrist while their triangle legs remain locked, indicating the transition from choke to shoulder attack
 - You feel the attacker threading their top arm under your trapped arm near the tricep, which signals figure-four grip establishment is imminent
 - Attacker shifts hip angle toward your trapped arm side and reduces choke pressure momentarily, redirecting their attack from neck to shoulder
@@ -177,6 +179,8 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura from Back?</p>
 
 - Protect your wrist immediately when you feel the attacker's hand reaching for your trapped arm to prevent C-grip establishment
 - Keep your trapped arm's elbow tight to your own body to deny the attacker the leverage needed for rotational finishing pressure
@@ -191,6 +195,8 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura from Back?</p>
 
 ### 1. Strip wrist control early by using your free hand to peel the attacker's C-grip off your trapped wrist before the figure-four connects
 
@@ -228,6 +234,8 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura from Back?</p>
+
 ### → [[Positions/Triangle Control/Rear Triangle]]
 
 Strip the attacker's kimura grip before they can establish the figure-four or begin rotation. Use your free hand to peel their wrist control while keeping your elbow tight. Once the kimura grip is broken, return to standard rear triangle defense focusing on chin protection and arm extraction.
@@ -243,6 +251,8 @@ Rotate into the attacker while they are focused on the kimura grip rather than m
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura from Back?</p>
 
 ### 1. Straightening the trapped arm to pull it away from the attacker's grip
 
@@ -272,6 +282,8 @@ Rotate into the attacker while they are focused on the kimura grip rather than m
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura from Back?</p>
+
 **Week 1-2** - Recognition and grip prevention
 Partner initiates kimura grip sequence slowly from rear triangle. Practice identifying the wrist reach and immediately stripping with your free hand. Focus on reaction speed and maintaining chin protection during grip fighting. 15-20 repetitions per side with progressive speed increases.
 
@@ -288,29 +300,6 @@ Positional sparring starting in rear triangle with partner attacking kimura, cho
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you feel the attacker reaching for your trapped arm wrist?
-**A**: Immediately use your free hand to strip or block the attacker's C-grip on your wrist before they can thread their other arm to complete the figure-four. The window for prevention is small but far easier than escaping a fully locked kimura. Simultaneously pull your trapped arm tight to your body to reduce the attacker's access to the wrist.
-
-**Q2**: Why is straightening your arm a dangerous response to the kimura from back?
-**A**: Straightening the arm creates the exact configuration needed for an armbar finish. The attacker already controls your wrist through the kimura grip, so straightening your elbow gives them a direct armbar by simply extending their hips against the back of your elbow. You must keep the arm bent at all times, using elbow-to-ribcage pinning and grip anchors as your primary defense rather than arm extension.
-
-**Q3**: How do you defend the kimura without exposing yourself to the triangle choke?
-**A**: Maintain your chin tucked to your chest as the baseline posture throughout all kimura defense. Use your free hand for grip fighting against the kimura rather than reaching to defend your neck, since your chin tuck provides passive choke defense. If you must rotate, turn your face toward the non-choking leg. The key principle is that your legs and chin handle choke defense while your free hand handles kimura defense.
-
-**Q4**: The attacker has a fully locked figure-four on your trapped arm - what is your escape sequence?
-**A**: First, anchor your trapped arm by gripping your own lapel, belt, or waistband to prevent rotation. Second, use your free hand to attack the weakest link in the figure-four, which is the attacker's wrist-to-wrist connection. Third, simultaneously rotate your body toward the attacker to reduce shoulder torque while working grip strips. Fourth, once the grip loosens, pull your elbow tight and work to extract the trapped arm from the triangle entirely.
-
-**Q5**: When the attacker shifts from triangle choke to kimura, what defensive window does this create?
-**A**: The transition from choke to kimura requires the attacker to release seatbelt or harness control to establish the kimura grip, momentarily reducing their upper body control. During this window, the triangle legs still control your torso, but the attacker's hands are occupied with grip work rather than choking. This is the optimal moment to attempt rotation or bridging escapes, as the attacker cannot simultaneously establish the new grip and resist your movement.
-
-
-
-</section>
 
 
 </main>

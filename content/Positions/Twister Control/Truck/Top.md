@@ -26,32 +26,32 @@ description: "Dominant back-attack position combining leg entanglement with perp
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer",
-      "text": "From this position, attempt Calf Slicer. This technique is attempted in 12% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Roll to Truck",
       "text": "From this position, attempt Roll to Truck. This technique is attempted in 5% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
       "text": "From this position, attempt Rolling Back Take. This technique is attempted in 21% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "name": "Execute Bow and Arrow Choke from Truck",
+      "text": "From this position, attempt Bow and Arrow Choke from Truck. This technique is attempted in 8% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
       "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crucifix from Turtle",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Position Definition
 
+<p class="section-subtitle">What is Truck (Top)?</p>
+
 - Boot (foot) pressed firmly against opponent's hip or thigh, creating constant lateral pressure that prevents them from squaring up or rolling through to escape, acting as fulcrum point generating torque through opponent's spine and lower body
 - Opponent positioned on their side with back exposed to top player, unable to face forward or achieve neutral posture due to leg entanglement and boot pressure controlling their hip orientation and rotational movement
 - Legs entangled with opponent's legs in configuration that restricts their ability to straighten, separate, or use legs for escape movements, typically one leg hooked or controlled while other leg's foot provides boot pressure
@@ -181,6 +183,8 @@ Advanced practitioners use the truck as a transitional position, flowing between
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Truck (Top)?</p>
 
 - Understanding of back take mechanics and rear control principles
 - Knowledge of leg entanglement systems and boot control methodology
@@ -195,12 +199,14 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Truck?</p>
+
 - Boot Pressure Maintenance: Constant hip/thigh pressure controls opponent orientation and prevents rotation
 - Leg Entanglement Control: Tangled legs restrict opponent mobility and create submission opportunities
 - Multiple Threat System: Chain between twister, calf slicer, banana split, and back control
 - Upper-Lower Body Connection: Coordinate leg control with arm attacks for maximum effectiveness
 - Slow Methodical Attacks: Position rewards patience and systematic progression over rushing
-- Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities
+- Fork Attacks: Force opponent to choose which attack to defend, opening other opportunities
 - Back Control Option: Always maintain ability to transition to traditional back control as fallback
 
 
@@ -210,14 +216,16 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Truck (Top)?</p>
+
 **If opponent defends upper body by hiding arms and protecting neck:**
-- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Submissions/Banana Split/Attacker|Banana Split]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Submissions/Calf Slicer/Attacker|Calf Slicer]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Banana Split/Attacker|Banana Split]]** → [[game-over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
 - Execute **[[Transitions/Twister Entry/Attacker|Twister Entry]]** → [[Positions/Twister Control]] (Probability: 50%)
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 50%)
 
 
 **Else if opponent attempts to roll through or forward roll escape:**
@@ -242,6 +250,8 @@ Advanced practitioners use the truck as a transitional position, flowing between
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Truck?</p>
 
 ### 1. Losing boot pressure during submission attempts
 
@@ -281,6 +291,8 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Truck attacks?</p>
+
 ### Boot Control Maintenance Drill
 
 Partner attempts to clear your boot while you maintain pressure, practicing adjustment angles and pressure. Start with 30% resistance and progressively increase. Focus on keeping boot pressure constant while partner uses various clearing methods (hand fighting boot, hip movement, leg straightening).
@@ -314,38 +326,6 @@ Start in established truck position. Top player works for submissions and positi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary control mechanism that makes the truck position effective?
-**A**: The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks.
-
-**Q2**: Your opponent starts defending their neck and hiding their arms - what adjustment do you make?
-**A**: When the opponent prioritizes upper body defense by hiding arms and protecting their neck from the twister, immediately redirect your attack to the lower body. Target the calf slicer by extending their trapped leg and applying compression pressure, or set up the banana split by controlling both legs and creating separation. This creates the core dilemma of the truck position.
-
-**Q3**: How should you distribute your weight to maintain truck position against an escaping opponent?
-**A**: Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously.
-
-**Q4**: What are the essential grips for maintaining truck position?
-**A**: Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses.
-
-**Q5**: Your opponent begins a granby roll escape from truck bottom - what is your counter?
-**A**: When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it.
-
-**Q6**: How do you prevent your opponent from straightening their trapped leg to escape?
-**A**: Maintain constant inward pressure with your entangling leg, keeping their knee bent by hooking behind their knee joint or locking your feet together. If they begin straightening, immediately attack the calf slicer or transition to the banana split, which uses their straightening motion against them. You can also increase boot pressure to restrict their hip movement needed for leg extension.
-
-**Q7**: What determines when to transition from truck to traditional back control?
-**A**: Transition to back control when: submissions aren't presenting due to effective defense, the opponent's escape attempts are creating scramble situations, you're losing boot pressure and need to consolidate control, or when you've created enough rotation to easily insert hooks. The truck should flow into back control rather than being an isolated position.
-
-**Q8**: How do you manage energy expenditure while maintaining truck position?
-**A**: Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -371,7 +351,7 @@ Start in established truck position. Top player works for submissions and positi
 - **[[Positions/Turtle]]** - Entry position - turtle attacks lead to truck
 - **[[Positions/Twister Control]]** - Submission position - primary attack from truck
 - **[[Positions/Crucifix]]** - Transition target - alternative control position
-- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission attacking trapped leg
+- **[[Submissions/Calf Slicer]]** - Secondary submission attacking trapped leg
 - **[[Submissions/Banana Split]]** - Alternative submission from truck position
 - **[[Transitions/Rolling Back Take]]** - Transition technique when opponent rolls
 - **[[Positions/Half Guard/Lockdown]]** - 10th Planet position feeding into truck system

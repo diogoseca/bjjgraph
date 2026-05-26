@@ -166,6 +166,8 @@ Defensive success depends on reading the transition early through hip rotation c
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mounted Crucifix to S Mount?</p>
+
 - Top player initiates hip rotation toward the trapped arm side while their weight shifts laterally across your torso
 - One of the controlling legs begins lifting off your arm as the knee draws upward toward the opponent's chest
 - You feel reduced pinching pressure on your trapped arm as the crucifix configuration loosens during leg reconfiguration
@@ -177,6 +179,8 @@ Defensive success depends on reading the transition early through hip rotation c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Crucifix to S Mount?</p>
 
 - The transition phase is your best escape window - the moment between crucifix and S Mount has the weakest arm control
 - React to hip rotation immediately rather than waiting for the leg to thread across your neck
@@ -191,6 +195,8 @@ Defensive success depends on reading the transition early through hip rotation c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mounted Crucifix to S Mount?</p>
 
 ### 1. Explosive bridge toward the extracting leg side timed with the hip rotation
 
@@ -228,6 +234,8 @@ Defensive success depends on reading the transition early through hip rotation c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mounted Crucifix to S Mount?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Disrupt the transition early through explosive bridging during the hip rotation phase before S Mount establishes. The goal is to force opponent back into settled crucifix where you can then work standard crucifix escapes, or to create enough disruption that arm extraction becomes possible during the scramble.
@@ -243,6 +251,8 @@ If arm extraction succeeds during the transition, immediately hip escape and ins
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Crucifix to S Mount?</p>
 
 ### 1. Waiting passively for the transition to complete before attempting defense
 
@@ -277,6 +287,8 @@ If arm extraction succeeds during the transition, immediately hip escape and ins
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mounted Crucifix to S Mount?</p>
+
 **Week 1-2** - Recognition and reaction timing
 Partner executes the transition at half speed repeatedly while you practice identifying the hip rotation cue. Focus solely on recognizing the transition initiation and beginning your defensive response (bridge or arm pull) within one second of the cue. No resistance from partner - pure pattern recognition development.
 
@@ -293,29 +305,6 @@ Positional sparring starting from mounted crucifix with partner attempting the S
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is the transition phase between crucifix and S Mount your best escape opportunity?
-**A**: During the transition, the top player must extract one leg from the crucifix configuration, temporarily leaving only a single leg controlling your trapped arm. This single-leg control is mechanically weaker than the full two-leg crucifix. Additionally, the top player's balance is compromised as they rotate their hips and rethread their leg. This combination of reduced arm control and compromised balance creates the widest escape window before S Mount locks in with potentially stronger submission threats.
-
-**Q2**: Your opponent begins rotating their hips while in mounted crucifix - what is your immediate defensive response?
-**A**: The instant you detect hip rotation, bridge explosively toward the side of the extracting leg. This direction attacks their weakest balance point during the transition. Simultaneously pull your trapped arm toward your centerline, exploiting the reduced pressure from the departing leg. If the bridge disrupts their balance enough to prevent the transition, immediately attempt arm extraction. If the bridge fails, transition to collar grip defense on the trapped arm before S Mount consolidates.
-
-**Q3**: What is the most dangerous mistake you can make when defending this transition?
-**A**: The most dangerous mistake is straightening your trapped arm during extraction attempts. If you pull the arm straight while the opponent completes the S Mount transition, you have essentially set up the armbar for them - the arm is already extended across their hip line in the exact position needed for the finish. Keep the elbow bent at all times during extraction attempts, using rotational force from your shoulders and hips rather than linear arm extension to free the limb.
-
-**Q4**: If you fail to prevent S Mount establishment, what is your immediate defensive priority?
-**A**: Immediately grip your own collar or lapel with the trapped hand to lock the arm in a bent position. This is non-negotiable - a bent arm with collar grip from S Mount bottom is defensible, while an exposed straight arm is not. Simultaneously use your free hand to control the opponent's near leg to prevent full armbar setup. From this defensive posture, work hip escapes to create space rather than trying to rip the arm free, which only extends it into submission range.
-
-**Q5**: How should you position your hips when attempting the hip escape defense during the transition?
-**A**: Shrimp your hips away from the opponent toward the side where their leg is threading across your neck. This direction creates maximum space for knee insertion because the opponent's weight is shifting the opposite direction during their transition. The shrimp must be tight and controlled - a large dramatic hip escape may create too much space and actually help the opponent complete their perpendicular alignment. Insert your knee across their thigh line immediately after the shrimp to establish half guard before they can adjust.
-
-
-
-</section>
 
 
 </main>

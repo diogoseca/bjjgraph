@@ -35,7 +35,7 @@
       "relationship": "Advanced attacking position from turtle top"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Escape target via technical standup from turtle bottom"
     },
     {
@@ -287,15 +287,15 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 60
+        "attempt_probability": 74
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Crucifix from Turtle",
@@ -307,50 +307,46 @@
       },
       {
         "transition": "Turtle to Truck Entry",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Front Headlock to Guillotine",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Kimura",
         "attempt_probability": 2
       },
       {
         "transition": "Arm Triangle from Turtle",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Turtle Attack Sequence",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Turtle to Matrix",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Turtle to Rodeo Ride",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Belly Down Armbar from Turtle",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Belly Down Armbar",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Kimura from Turtle",
-        "attempt_probability": 2
       },
       {
         "transition": "Boston Crab",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Clock Choke",
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?",
         "answer": "The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely."
@@ -360,12 +356,12 @@
         "answer": "Immediately drop your chest weight heavier onto their shoulders while using your near-side knee to block their hip movement. Simultaneously, sprawl your hips back slightly to create downward pressure that prevents their sit-through. If they continue the attempt, you can follow their movement into front headlock position or transition to crucifix if they expose an arm during the scramble."
       },
       {
-        "question": "What determines whether you should attack the back versus transition to front headlock?",
-        "answer": "The key determining factor is opponent's defensive posture and head position. If they maintain a tight turtle with elbows to knees, chin tucked, and rounded back, the back take is optimal as you can systematically break down their structure. If they lift their head to create space or look for escape opportunities, the front headlock becomes higher percentage because their neck is exposed. Weight distribution also matters - if they're heavy on their hands, front headlock; if they're sitting back toward their heels, back take."
+        "question": "Your opponent begins a technical standup attempt from turtle - what immediate actions prevent them from reaching their feet?",
+        "answer": "As soon as you feel the opponent shift their weight to post a hand and begin elevating their hips, immediately drive your chest weight forward and down at a 45-degree angle to collapse their posting base. Simultaneously, use your near-side knee to block their hip from rising by wedging it tight against their hip bone. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant. Prevention through constant heavy pressure is always preferable to reacting after they initiate."
       },
       {
-        "question": "How should you sequence hook insertion to maximize control and minimize escape opportunities?",
-        "answer": "Always insert the near-side hook first while maintaining seatbelt control. The near-side hook is safer because your knee is already blocking that hip and you can use your chest pressure to control their rotation. Only after the first hook is secure should you work to insert the far-side hook. Attempting both hooks simultaneously or the far hook first often results in the opponent escaping to guard or creating a scramble as you lose base and control."
+        "question": "How should you manage energy expenditure while maintaining offensive pressure from turtle top?",
+        "answer": "Use your body weight and skeletal structure for pressure rather than muscular effort. Your chest pressure on their back should come from proper positioning and gravity, not from pushing with your arms. Cycle through attacks at a measured pace rather than explosively attempting multiple techniques in quick succession. Focus your grip energy on maintaining the most important control point, typically the seatbelt or harness, and only intensify effort when executing specific techniques. Rest between attack attempts by settling your weight and re-establishing base. Recognize that turtle is a time-limited position for the bottom player, so sustained pressure works in your favor."
       },
       {
         "question": "Your opponent begins a granby roll - should you follow or disengage?",
@@ -427,7 +423,7 @@
           },
           {
             "technique": "Explosive Standup",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 40
           }
         ]
@@ -467,7 +463,7 @@
         "actions": [
           {
             "technique": "Kick Back Hook Out",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 45
           },
           {
@@ -487,7 +483,7 @@
           },
           {
             "technique": "Technical Standup",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 35
           }
         ]
@@ -577,8 +573,8 @@
         "relationship": "Submission threat when turtle defense fails"
       },
       {
-        "name": "Defensive Posture",
-        "relationship": "Fundamental concept for turtle bottom structure"
+        "name": "Escape Fundamentals",
+        "relationship": "Fundamental concept for turtle bottom defensive structure"
       },
       {
         "name": "Rolling to Guard",
@@ -645,7 +641,7 @@
         "attempt_probability": 6
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?",
         "answer": "The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes."

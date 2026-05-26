@@ -170,6 +170,8 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Leg Setup?</p>
+
 - Opponent establishes a collar tie combined with wrist control and begins subtle lateral footwork to position their lead foot outside your stance - this two-grip plus angle combination is the classic pre-shot configuration
 - Opponent's posture begins to lower incrementally through their knees bending, shoulders dropping, or their eye line shifting downward toward your hips - these micro-adjustments indicate an imminent level change even before it becomes obvious
 - Opponent creates a sudden push-pull reaction through their grips followed by an immediate pause or tension change - this feinting pattern is designed to freeze your defensive response and create the split-second window needed for their penetration step
@@ -182,6 +184,8 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Leg Setup?</p>
 
 - Maintain distance and upright posture to deny the attacker the close range needed for effective level changes and penetration steps
 - Fight for dominant grips proactively - collar ties and wrist control prevent the attacker from establishing their preferred setup configuration
@@ -197,6 +201,8 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Leg Setup?</p>
 
 ### 1. Sprawl defense by driving hips back and down while posting hands on opponent's head and shoulders to stuff the shot
 
@@ -234,6 +240,8 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Leg Setup?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the setup before the shot is launched by maintaining distance through active footwork, breaking opponent's grip configurations before they can complete the collar tie plus wrist control setup, and using lateral movement to prevent them from establishing the outside foot angle. This is the highest-percentage defensive outcome because it requires the least energy and keeps you in a neutral position to launch your own attacks.
@@ -249,6 +257,8 @@ Execute a well-timed sprawl as the opponent commits to their penetration step, d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Leg Setup?</p>
 
 ### 1. Retreating straight backward when sensing the shot rather than sprawling or moving laterally
 
@@ -283,10 +293,12 @@ Execute a well-timed sprawl as the opponent commits to their penetration step, d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Leg Setup?</p>
+
 **Week 1-2: Recognition and Stance** - Identifying setup cues and maintaining defensive-ready athletic stance
 Practice maintaining proper athletic stance (knees bent, weight forward, hips loaded) during extended standing periods. Partner demonstrates each phase of the double leg setup at slow speed while you verbally identify each recognition cue: grip establishment, angle creation, level change. Develop the habit of staying in sprawl-ready position rather than standing upright. No live defense yet - focus entirely on recognition and stance maintenance.
 
-**Week 3-4: Grip Fighting Defense** - Denying and breaking the attacker's grip configurations before the shot
+**Week 3-4: Grips Defense** - Denying and breaking the attacker's grip configurations before the shot
 Partner attempts to establish collar tie and wrist control setup grips while you actively hand fight to deny them. Practice two-on-one grip breaks for collar ties, wrist stripping techniques, and re-gripping for your own dominant positions. Start at 50% intensity and gradually increase. The goal is to prevent the attacker from ever completing their grip setup, eliminating the shot before it begins. Combine grip fighting with lateral footwork to deny angles simultaneously.
 
 **Week 5-8: Sprawl Mechanics and Timing** - Executing technically sound sprawls against progressively faster and more committed shots
@@ -299,32 +311,6 @@ Engage in live standing rounds where partner uses full setup sequences at high i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the double leg setup sequence where you can disrupt the attack with the lowest energy expenditure?
-**A**: The earliest and most energy-efficient disruption point is during the grip fighting phase, before the attacker establishes their preferred collar tie and wrist control configuration. By actively stripping grips as they form and denying the two-grip setup, you prevent the entire attack sequence from beginning. This costs far less energy than sprawling against a committed shot because you're addressing the cause rather than the effect. Effective hand fighting at this stage forces the attacker to repeatedly restart their setup, burning their energy while you remain in a neutral ready position.
-
-**Q2**: Your opponent has established a collar tie and is stepping their lead foot to the outside of your stance - what immediate actions should you take?
-**A**: This footwork indicates the classic pre-shot positioning. Immediately address both threats simultaneously: use your same-side hand to fight the collar tie by gripping their wrist and peeling it away while sidestepping your lead foot to re-square your stance, denying them the outside angle. If you cannot strip the collar tie, circle away from their lead foot direction to prevent them from completing the angle. Simultaneously lower your center of gravity slightly and load your hips for a potential sprawl. The critical mistake would be allowing both the grip and the angle to persist, which gives them all prerequisites for the shot.
-
-**Q3**: Why is sprawling the primary defense once the shot is launched rather than attempting a guillotine counter?
-**A**: Sprawling is the primary defense because it addresses the fundamental mechanic of the double leg - forward penetration - by removing the target (your hips) from the attack line. A sprawl works regardless of the opponent's head position, grip depth, or shooting angle. The guillotine counter, while effective when available, requires a specific condition: the opponent's head must be poorly positioned in front of your centerline rather than tight to your hip. Attempting a guillotine against a technically sound entry with good head position typically results in the attacker driving through while you fail to secure the choke, ending up on bottom with wasted energy. Sprawl first, assess head position, then decide whether to transition to front headlock chokes or positional control.
-
-**Q4**: How should you adjust your defensive stance when facing an opponent who has already demonstrated effective double leg setups earlier in the match?
-**A**: After an opponent has shown effective double leg setups, make these adjustments: lower your overall stance by increasing knee bend to reduce your center of gravity, making sprawling faster and more powerful. Shift weight slightly more forward onto the balls of your feet to pre-load the hip sprawl mechanism. Increase your grip fighting intensity to deny them the setup configurations that worked previously. Use more lateral movement and circling to prevent them from establishing the angles they prefer. Consider pulling guard proactively to control how the match goes to the ground rather than being taken down on their terms. Most importantly, pay attention to which specific setup variant they used successfully and address that pattern directly.
-
-**Q5**: Your opponent shoots and you sprawl successfully, stuffing their penetration - what is your immediate next action?
-**A**: Immediately transition from defensive sprawl to offensive front headlock control. As their shot dies underneath your sprawl, wrap your arm around their neck while your other hand controls their far shoulder or tricep to prevent them from circling out. Drive your chest weight down onto their upper back to collapse their posture further. Do not simply hold the sprawl position and wait, as this allows them to reshoot, stand back up, or circle to a better position. The sprawl must convert immediately into an attacking position. From front headlock you can threaten guillotine, snap down, or begin working toward back control depending on their defensive response.
-
-**Q6**: What role does lateral movement play in double leg defense compared to backward movement?
-**A**: Lateral movement is fundamentally superior to backward movement for double leg defense because it removes you from the attacker's shooting lane without giving them additional forward space to penetrate. When you move backward, the attacker can continue driving forward on their original angle, and your backward momentum actually makes it harder to sprawl because your hips are already moving in the wrong direction. Lateral movement forces the attacker to redirect mid-shot, which is extremely difficult once committed to forward penetration. Additionally, lateral movement creates angles for counter-attacks: as they shoot past where you were, you gain access to their back or side for snap downs and front headlock entries. The only time backward movement is acceptable is a slight backstep combined with a sprawl, never a full retreat.
-
-
-
-</section>
 
 
 </main>

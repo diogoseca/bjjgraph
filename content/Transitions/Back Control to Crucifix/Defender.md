@@ -164,6 +164,8 @@ The defensive framework operates on three principles: deny the arm extension tha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Control to Crucifix?</p>
+
 - Attacker removes the top-side hook while maintaining bottom hook, creating asymmetric leg configuration that signals crucifix entry
 - Attacker's knee begins to rise over your near-side shoulder and arm, threading across your upper back toward the far side
 - Attacker shifts weight from bilateral hook control to a side-heavy distribution with increased chest pressure on one side of your back
@@ -176,6 +178,8 @@ The defensive framework operates on three principles: deny the arm extension tha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control to Crucifix?</p>
 
 - Keep elbows tight to ribcage when defending chokes to deny the space needed for knee insertion over the arm
 - Recognize hook removal as the primary early warning signal that crucifix entry is being attempted
@@ -190,6 +194,8 @@ The defensive framework operates on three principles: deny the arm extension tha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Control to Crucifix?</p>
 
 ### 1. Clamp elbow tight to ribcage and tuck arm before knee can cross over
 
@@ -227,6 +233,8 @@ The defensive framework operates on three principles: deny the arm extension tha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Control to Crucifix?</p>
+
 ### → [[Positions/Back Control]]
 
 Prevent crucifix consolidation by keeping elbows tight, denying knee insertion, or extracting the trapped arm before the far arm is captured. Any successful disruption of the crucifix sequence returns you to standard back control bottom, which is still a bad position but has significantly more escape options and lower submission rates than established crucifix.
@@ -242,6 +250,8 @@ If the crucifix is partially established but you manage to reverse or roll to a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control to Crucifix?</p>
 
 ### 1. Extending both arms to defend the choke while leaving elbows flared away from the body
 
@@ -276,6 +286,8 @@ If the crucifix is partially established but you manage to reverse or roll to a 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Control to Crucifix?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying crucifix entry cues and building defensive reflexes
 Partner establishes back control and slowly initiates crucifix entry. Practice recognizing the hook removal and knee threading cues. When you feel the cue, immediately clamp your elbow and tuck your arm. Partner provides no resistance to your defensive reaction. Build the stimulus-response association between hook removal and arm protection.
 
@@ -292,29 +304,6 @@ Full sparring rounds starting from back control where partner actively hunts cru
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to transition from back control to crucifix?
-**A**: The earliest cue is the removal of the top-side hook. When the attacker extracts one hook while keeping the other inserted, they are creating the asymmetric leg configuration needed to thread the knee over your arm. This hook removal is the most reliable early warning because it must occur before the knee can cross. Feeling this change should trigger immediate elbow clamping and arm retraction to deny the entry window.
-
-**Q2**: Why should you avoid extending both arms to defend the rear naked choke when the attacker might be setting up a crucifix?
-**A**: Extending both arms away from your body creates the exact spacing the attacker needs for crucifix entry. The gap between your elbow and ribcage becomes the insertion point for their knee. Instead, defend the choke primarily with chin position, shoulder raise, and one hand on the choking arm while keeping the near-side elbow clamped tight to your ribcage. This denies the space needed for the knee to cross over the arm while still addressing the choke threat.
-
-**Q3**: Your opponent has their shin partially across your near arm but has not captured your far arm yet. What is the optimal escape strategy?
-**A**: This is the last high-percentage escape window. Use your free hand to push against the attacker's trapping knee while simultaneously shrimping your hips to change the angle of the shin trap. The combination of pushing the knee and changing your hip angle creates slack in the trap that allows arm extraction. Act quickly because the attacker is about to reach for your far arm. Once both arms are controlled, escape difficulty increases dramatically. If pushing the knee fails, immediately return the free hand to neck defense.
-
-**Q4**: How does hip movement help free a trapped arm from the crucifix shin trap more effectively than direct arm pulling?
-**A**: Direct pulling works against the mechanical advantage of the shin bone perpendicular to your arm. Hip movement changes the angle of the entire trap by shifting your body relative to the attacker's leg configuration. Shrimping creates slack in the trap that direct pulling cannot achieve because it addresses the root cause of the pin: the angle between your arm and the shin. Small hip adjustments can make the difference between an arm that is mechanically locked and one that can slide free.
-
-**Q5**: When defending from back control, how do you balance choke defense with crucifix prevention?
-**A**: Use a split defensive strategy: one hand stays on the choking arm for neck defense while the other arm stays tight to the body with the elbow clamped to the ribcage. Chin tuck and shoulder raise handle the primary choke defense load, reducing how much hand fighting you need. This configuration addresses both threats simultaneously. If you feel the hook being removed, immediately prioritize elbow clamping on the near side while maintaining single-hand choke defense. The choke requires the arm under the chin, which takes time to set; the crucifix entry window is much shorter.
-
-
-
-</section>
 
 
 </main>

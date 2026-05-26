@@ -188,6 +188,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Up from Mounted Triangle?</p>
+
 - Frame before you posture - establish structural frames against opponent's hips before attempting to rise, as frames provide the mechanical foundation for all posture creation
 - Use skeletal structure over muscular effort - align forearms and elbows to create sustainable pushing force that does not fatigue rapidly under the opponent's weight
 - Address the triangle lock angle before committing to full posture - partial disruption through shoulder rotation reduces choking danger during the escape
@@ -202,6 +204,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Up from Mounted Triangle?</p>
+
 - Chin is aggressively tucked toward the trapped arm shoulder to reduce immediate choking pressure
 - Trapped arm is bent tight against your body with hand gripping own collar or opponent's leg to prevent extension
 - Free arm retains mobility and can reach the opponent's hip to establish the primary frame
@@ -214,6 +218,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Up from Mounted Triangle step by step?</p>
 
 1. **Establish defensive foundations**: Tuck chin aggressively toward the trapped arm side and bend the trapped arm tight against your body, gripping your own collar or the opponent's leg. These two actions address both the immediate choking threat and the armbar vulnerability simultaneously, buying the time needed to begin the escape sequence.
 2. **Place primary hip frame**: Position your free hand flat against the opponent's far hip with fingers pointing away from your body, establishing a structural frame using forearm and skeletal alignment. The frame should push against the bony hip structure rather than soft tissue, providing maximum mechanical advantage for creating the initial distance.
@@ -243,6 +249,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Up from Mounted Triangle?</p>
+
 - **Opponent pulls head down and re-tightens triangle lock using both hands behind the skull** (Effectiveness: High) - Your Response: Do not fight the pull directly with neck strength. Reset chin tuck, maintain frame contact, and wait for the next opportunity when opponent adjusts their grip or shifts weight → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent pivots hips toward the framing arm and transitions to armbar attack on the extended limb** (Effectiveness: High) - Your Response: Immediately retract the framing arm and bend it tight to your body. If caught mid-extension, turn toward the opponent and grip your own wrist to create a two-on-one defense → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent releases triangle deliberately and drives hips down to consolidate standard mount control** (Effectiveness: Medium) - Your Response: Exploit the triangle release moment by immediately inserting knee shield and frames before they can settle mount. The leg movement required to release the triangle creates a brief window for escape → Leads to [[Positions/Mount]]
@@ -254,6 +262,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Up from Mounted Triangle?</p>
 
 ### 1. Extending arms fully to push opponent away with straight-arm force
 
@@ -293,6 +303,8 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Up from Mounted Triangle (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Hip frame placement and structural alignment
 Practice establishing and maintaining frames against the opponent's hips from mounted triangle bottom. Partner applies light triangle pressure while you focus on hand placement, forearm angle, and skeletal structure without muscular effort. Repeat until the frame placement becomes automatic.
 
@@ -313,42 +325,12 @@ Incorporate the posture up escape into live rolling from mounted triangle starti
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins tightening their triangle lock while you are in mounted triangle - what is your immediate priority before attempting to posture?
-**A**: Address the immediate choking threat by tucking your chin aggressively toward your trapped arm shoulder and bending the trapped arm tight to your body. This buys time by reducing the choking angle and protecting against armbar. Only after establishing these defensive foundations should you begin frame placement and posture work, as attempting to posture without chin tuck accelerates the choke and reduces your survival window.
-
-**Q2**: What is the correct hand placement for the primary frame used in this escape?
-**A**: Place your free hand flat against the opponent's far hip with fingers pointing away from your body, creating a structural frame using your forearm and skeletal alignment. The frame should push against the bony hip structure rather than soft tissue. This position provides maximum mechanical advantage for creating distance while keeping your elbow bent to prevent armbar exposure on the framing arm.
-
-**Q3**: You have established a frame and begun posturing, but the opponent pulls your head back down forcefully - how do you respond?
-**A**: Do not fight the head pull directly with neck strength as this wastes energy against their leverage advantage. Instead, reset your chin tuck, maintain frame contact against their hip, and wait for the next opportunity. The opponent must shift weight or adjust grip to execute the pull, and the moment after completion creates a brief window where their control is lighter. Use that moment to re-initiate the posture attempt with a simultaneous hip escape in the opposite direction.
-
-**Q4**: In which direction should you drive your hips during the posture up escape?
-**A**: Drive your hips laterally away from the triangle side, specifically hip escaping toward the side where your free arm is framing. This lateral movement is critical because it disrupts the triangle's choking mechanics by changing the angle of your neck relative to the squeezing thighs. Moving straight backward is less effective because it maintains the triangle angle and the opponent can simply follow with their hips to maintain pressure.
-
-**Q5**: Your opponent releases the triangle and starts consolidating standard mount as you posture up - how do you capitalize on this transition?
-**A**: The moment the opponent releases the triangle lock is your best escape window. Immediately insert your knee as a shield between your bodies before they can settle their mount. The triangle release requires them to move their legs, creating a brief moment where their base is compromised. Drive your hip frame hard to create additional space and begin a full hip escape sequence toward half guard. Speed is critical because every fraction of a second of delay allows them to re-establish mount pressure.
-
-**Q6**: Why must you avoid extending your arms fully during the posture up attempt?
-**A**: Fully extending your arms creates immediate armbar vulnerability from the mounted position. The opponent can trap your extended arm against their hip or thigh and pivot into an armbar faster than you can retract. Instead, use bent-arm frames that keep your elbows close to your body. The frame's effectiveness comes from skeletal structure and proper angle rather than arm length, so full extension provides minimal additional benefit while dramatically increasing submission risk.
-
-**Q7**: You have successfully disrupted the triangle angle but your trapped arm is still caught between the opponent's legs - what is the extraction technique?
-**A**: With the triangle angle disrupted but the arm still trapped, rotate your shoulder on the trapped arm side forward into the opponent's inner thigh to create additional slack. Then slide your elbow past their thigh by retracting it along your own ribcage in a pulling motion. Maintain the hip frame throughout to prevent the opponent from re-closing the distance. If the arm will not come free in one motion, use small pulsing hip escapes to incrementally walk it free rather than one explosive pull that could expose you to a re-locked triangle.
-
-**Q8**: The posture up is not working because the opponent's triangle lock is too tight - what alternative escape should you pursue?
-**A**: If the triangle is fully locked with proper angle, posturing becomes extremely low percentage. Transition to alternative escapes: fight the ankle-behind-knee connection to disrupt the lock configuration, attempt bridge-based escapes that attack the opponent's base stability rather than the triangle structure directly, or work a frame-and-shrimp escape that prioritizes lateral movement. The key recognition is that different escape techniques work at different stages of triangle tightness, and posture up is most effective before the lock is fully cinched.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Up from Mounted Triangle?</p>
 
 The mounted triangle involves cervical spine compression and shoulder pressure that can cause serious neck injury. Never explosively jerk your head free from the triangle as this risks straining cervical vertebrae. If you feel numbness, tingling, or sharp pain in the neck or trapped arm, tap immediately rather than continuing the escape. Practice this escape with controlled and progressive resistance initially, and communicate with training partners about pressure intensity. Be especially careful with the trapped arm during extraction, as forced removal against a locked triangle can hyperextend the elbow joint.
 

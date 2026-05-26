@@ -160,6 +160,8 @@ The most effective defense combines constant forward pressure with active hook m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sit Through Escape?</p>
+
 - Bottom player shifts weight forward onto their hands and you feel reduced pressure on your hooking leg, indicating they are loading their base for rotation
 - Bottom player's far-side knee draws underneath their body toward their centerline, creating the pivot point they need for the rotational escape
 - Bottom player's near-side hip drops toward the mat while their near knee pulls toward their chest, the immediate precursor to the leg swing through your hook
@@ -170,6 +172,8 @@ The most effective defense combines constant forward pressure with active hook m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sit Through Escape?</p>
 
 - Maintain deep hook insertion with your foot actively crossed past their midline, preventing the clearance space needed for the sit through rotation
 - Apply constant forward chest pressure against their upper back to keep their weight over their hands and prevent the backward weight shift that initiates the escape
@@ -183,6 +187,8 @@ The most effective defense combines constant forward pressure with active hook m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sit Through Escape?</p>
 
 ### 1. Drive chest pressure forward and deepen hook insertion as soon as you feel weight shift onto their hands
 
@@ -213,6 +219,8 @@ The most effective defense combines constant forward pressure with active hook m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sit Through Escape?</p>
+
 ### → [[Positions/Crab Ride]]
 
 Shut down the escape attempt early by increasing forward chest pressure and deepening your hook the moment you feel their weight shift forward onto their hands. Keep your hooking foot actively driving across their thigh so there is no clearance for the leg swing. This preventive approach stops the escape before the rotation phase begins.
@@ -228,6 +236,8 @@ When the rotation begins despite your initial defense, follow their movement by 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sit Through Escape?</p>
 
 ### 1. Allowing the hooking leg to become passive and shallow, with foot barely crossing opponent's thigh
 
@@ -257,6 +267,8 @@ When the rotation begins despite your initial defense, follow their movement by 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sit Through Escape?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner telegraphs sit through attempts at slow speed while you practice recognizing the weight shift cues and responding with increased forward pressure and hook deepening. Focus on feeling the preparatory movements through your chest and hooking leg rather than relying on visual cues.
 
@@ -273,29 +285,6 @@ Full resistance positional rounds from crab ride. Top player works to maintain c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical cue that your opponent is preparing a sit through escape from crab ride?
-**A**: The earliest cue is feeling their weight shift forward onto their posted hands, which reduces the pressure you feel through your hooking leg. This weight transfer is the necessary first step before they can load their far-side knee and initiate the hip drop. Reacting at this stage by increasing forward pressure and deepening your hook stops the escape before the rotation mechanics can develop.
-
-**Q2**: Your opponent begins rotating through a sit through and your hook is clearing—what should you do?
-**A**: Do not try to re-establish the original hook position. Instead, follow their rotation by driving forward and circling in the same direction they are rotating. Keep your chest glued to their back throughout the movement. As they complete the rotation, look to insert your hook on the opposite side of their body and transition to full back control. Fighting the rotation statically almost always fails against a committed sit through.
-
-**Q3**: How does maintaining seat belt control change your defensive approach against the sit through?
-**A**: Seat belt control fundamentally changes the defensive dynamic because it connects your upper body to theirs, preventing independent torso rotation. With a solid seat belt grip, the bottom player cannot rotate their shoulders and hips independently of your body, which is the core mechanic of the sit through. This means the escape becomes mechanically impossible without them first stripping your upper body control, giving you a clear defensive hierarchy: maintain seat belt first, then manage hook depth.
-
-**Q4**: Your opponent fakes a sit through then immediately attempts a Granby roll—how do you adapt?
-**A**: This combination attack exploits your tendency to drive forward in reaction to the sit through cue. When you feel the directional change from sit through to Granby, immediately shift your weight laterally rather than continuing forward pressure. Keep your hooking leg active and look to re-establish your perpendicular position as they roll. The key is not over-committing in either direction—maintain balanced pressure that allows you to follow either escape path without losing your base.
-
-**Q5**: What is the most important defensive principle when facing a skilled opponent who chains sit through with other escapes?
-**A**: The most important principle is maintaining constant chest-to-back connection above all else. Individual hook and grip adjustments will vary as you react to different escape directions, but as long as your chest stays connected to their back, you maintain positional authority regardless of which escape they attempt. This connection gives you the tactile feedback to read their movements and the physical platform to follow any directional change. Losing chest contact is the common denominator in all successful escapes from crab ride.
-
-
-
-</section>
 
 
 </main>

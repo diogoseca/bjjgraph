@@ -174,6 +174,8 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown Break and Pass?</p>
+
 - Opponent suddenly relaxes their trapped leg completely, removing all muscular tension—this indicates they are employing the limp leg concept as the first step of the escape
 - Opponent reaches down with their free hand toward your feet or the foot triangle junction behind your knee—they are attempting to manually separate the figure-four
 - Opponent drives their trapped knee downward toward your hip with increased forward chest pressure—this is the knee pressure method of breaking the foot triangle
@@ -186,6 +188,8 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown Break and Pass?</p>
 
 - Maintain constant tension on the lockdown by actively pulling your heel down and extending your hips to prevent the limp leg concept from creating extraction space
 - Keep the foot triangle tight by pressing your triangling foot firmly behind your own knee, making hand separation extremely difficult for the opponent
@@ -200,6 +204,8 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown Break and Pass?</p>
 
 ### 1. Increase hip extension and pull heel deeper while threatening Old School sweep by gripping opponent's far arm and initiating backward roll
 
@@ -237,6 +243,8 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown Break and Pass?</p>
+
 ### → [[Positions/Half Guard/Electric Chair]]
 
 Maintain maximum lockdown tension by pulling your heel down and extending hips whenever you feel the opponent's leg relax. Threaten the Old School sweep or Electric Chair submission each time they reach for the foot triangle, forcing them to abandon break attempts. Keep your underhook deep and active to prevent them from establishing the forward pressure needed for extraction.
@@ -252,6 +260,8 @@ When you recognize the lockdown is failing—foot triangle partially open, oppon
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown Break and Pass?</p>
 
 ### 1. Passively holding the lockdown without actively extending hips or threatening attacks
 
@@ -286,6 +296,8 @@ When you recognize the lockdown is failing—foot triangle partially open, oppon
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown Break and Pass?</p>
+
 **Week 1-2** - Lockdown retention and tension management
 Practice maintaining the lockdown against progressive resistance. Partner attempts basic limp leg and hand separation while you focus on keeping the foot triangle tight, extending hips, and pulling heel down. Develop sensitivity to when the lockdown is weakening versus when it is secure.
 
@@ -302,32 +314,6 @@ Positional sparring starting in Electric Chair bottom against partners actively 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your primary goal as the defender when your opponent begins the Lockdown Break and Pass sequence?
-**A**: Your primary goal is to maintain the lockdown's figure-four configuration by keeping the foot triangle tight and hip extension active, while simultaneously threatening sweeps and submissions that force the opponent to abandon their extraction attempt. If the lockdown cannot be maintained, transitioning to Deep Half Guard before the leg fully clears is the secondary objective.
-
-**Q2**: You feel your opponent completely relax their trapped leg—what does this indicate and how do you respond?
-**A**: This indicates they are employing the limp leg concept to reduce the lockdown's grip effectiveness. Respond by increasing your hip extension to compensate for the reduced rigidity. Pull your heel down harder and actively squeeze the foot triangle tighter. Immediately threaten the Old School sweep to force them to re-engage their leg muscles for base, which restores the lockdown's control.
-
-**Q3**: Your opponent reaches down with their free hand to separate your feet at the foot triangle—what is your counter?
-**A**: When they release upper body control to reach for the foot triangle, immediately capitalize by threatening the Old School sweep or pulling their far ankle for the Electric Chair submission. Their hand being committed downward means they cannot defend the sweep or maintain crossface. This creates a dilemma: abandon the foot break to defend the sweep, or risk being swept while breaking the lock.
-
-**Q4**: How do you recognize the point of no return when the lockdown is failing and you should transition to Deep Half Guard?
-**A**: The critical indicator is when the foot triangle opens and the opponent's knee begins driving successfully toward your hip. At this point, re-engaging the lockdown becomes increasingly unlikely. Additionally, if the opponent has established strong forward pressure with crossface control and you feel their heel clearing your legs, the lockdown is mechanically compromised. Transition to Deep Half Guard immediately by diving under toward their far hip.
-
-**Q5**: What role does the underhook play in defending against the Lockdown Break and Pass?
-**A**: The underhook is essential for maintaining offensive pressure that deters the escape. It controls the opponent's posture, prevents them from settling full forward pressure, and provides the leverage needed for sweep threats. Without the underhook, you can only passively hold the lockdown without threatening attacks, which allows the opponent to work the break sequence methodically and unopposed.
-
-**Q6**: Your opponent has broken the foot triangle but hasn't fully extracted their leg yet—what is your best option?
-**A**: Immediately transition to Deep Half Guard by releasing the compromised lockdown, diving underneath toward their far hip, and securing a deep underhook around their far thigh. This must happen before their leg fully clears—the partially extracted position actually facilitates the Deep Half entry because their leg is already loosened from your control. Waiting any longer results in a completed pass to side control.
-
-
-
-</section>
 
 
 </main>

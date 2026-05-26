@@ -188,6 +188,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reversal from Triangle Escape?</p>
+
 - Maintain unbroken forward pressure throughout the entire escape-to-pass sequence without any pause between phases
 - Recognize the triangle's structural weakness by feeling the loosening of leg pressure around the neck and the decrease in choking compression
 - Redirect escape momentum laterally into a passing vector rather than pulling backward to disengage
@@ -202,6 +204,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reversal from Triangle Escape?</p>
+
 - Triangle lock has been partially compromised through sustained stacking pressure with measurable decrease in neck compression
 - Sufficient space exists at the neck to breathe and maintain full consciousness while executing the lateral movement
 - Strong base has been established through proper knee positioning with weight distributed forward over the opponent
@@ -214,6 +218,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reversal from Triangle Escape step by step?</p>
 
 1. **Establish deep stacking pressure**: Drive forward from your legs, compressing the opponent's hips toward their shoulders while maintaining vertical spine alignment. Your weight should transfer through your chest and shoulders into their torso, folding them and reducing the triangle's choking angle. Continue driving until you feel the leg pressure around your neck decrease meaningfully.
 2. **Secure hip control with free hand**: Place your free hand firmly on the opponent's far hip, pressing it toward the mat to prevent them from scooting their hips away or re-establishing the optimal triangle angle. This anchor point becomes your primary control reference throughout the entire reversal sequence and must not be released at any point during execution.
@@ -243,6 +249,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reversal from Triangle Escape?</p>
+
 - **Opponent re-locks triangle tighter and pulls head back down during lateral stepping** (Effectiveness: High) - Your Response: Reset stacking pressure by driving forward more aggressively before reattempting the circular movement. The triangle was not sufficiently compromised. Rebuild the stack until neck pressure decreases before initiating the lateral pass again. → Leads to [[Positions/Triangle Escape Position]]
 - **Opponent transitions to armbar on the trapped arm during the extraction phase** (Effectiveness: Medium) - Your Response: Keep the elbow pinned tight to your ribs and drive forward into the armbar rotation rather than pulling away. Your forward pressure prevents full arm extension while your continued lateral movement carries you past the submission threat. → Leads to [[Positions/Mount]]
 - **Opponent hip scoots and recovers guard before the lateral pass completes** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on their far hip with your free hand and accelerate the lateral movement. Never release hip control during the transition. If they begin scooting, increase your passing speed rather than resetting. → Leads to [[Positions/Triangle Escape Position]]
@@ -254,6 +262,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reversal from Triangle Escape?</p>
 
 ### 1. Pausing between arm extraction and lateral pass attempt
 
@@ -293,6 +303,8 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reversal from Triangle Escape (Attacker)?</p>
+
 **Phase 1: Stack Mechanics** - Building effective stacking pressure from triangle position
 Practice the stacking sequence from triangle position against a compliant partner. Focus on driving from the legs, compressing the opponent's hips toward their shoulders, and maintaining vertical spine alignment. Develop sensitivity to the feeling of the triangle loosening under sustained stacking pressure. Reset and repeat until the movement is automatic.
 
@@ -310,42 +322,12 @@ Execute the complete reversal against progressively increasing resistance from 5
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary indicator that the triangle structure is weakened enough to attempt the reversal?
-**A**: The primary indicator is a noticeable decrease in leg pressure around your neck combined with your opponent's hips being elevated and loaded onto their shoulders from your stacking pressure. You should be able to breathe comfortably and feel space between the choking leg and your neck. If the squeeze is still tight and your blood flow is compromised, the triangle has not been sufficiently weakened and you must continue stacking before attempting the lateral pass.
-
-**Q2**: Why must you step toward the trapped arm side rather than the free arm side during the circular movement?
-**A**: Stepping toward the trapped arm side opens the triangle structure by widening the angle between your shoulder and the opponent's locking leg, creating space for arm extraction. Moving toward the free arm side tightens the triangle by driving your neck deeper into the choking angle the opponent needs to finish the submission. The direction of circular movement is biomechanically critical and getting it wrong accelerates the choke rather than defeating it.
-
-**Q3**: Your opponent begins re-locking their triangle as you initiate the lateral step - how do you respond?
-**A**: Immediately increase your forward stacking pressure before continuing the lateral movement. Drive your weight more aggressively onto their shoulders to compromise their hip mobility and prevent them from re-establishing the tight leg configuration. Do not continue the lateral pass against a re-tightening triangle. Reset to deeper stacking and only reattempt the circular movement when you feel the pressure decrease again around your neck.
-
-**Q4**: What grip must you maintain throughout the reversal to prevent guard recovery?
-**A**: Your free hand must maintain constant control on the opponent's far hip, pressing it toward the mat. This grip prevents them from scooting their hips away, re-establishing the optimal triangle angle, or recovering any form of guard position during your passing movement. It serves as your primary anchor point throughout the entire sequence and should never be released, only adjusted in position as needed.
-
-**Q5**: How should you extract the trapped arm during the reversal?
-**A**: Extract the arm in a circular sweeping motion outward and down, not by pulling it straight back toward your body. The circular extraction works with the opening created by your lateral movement rather than fighting against the remaining leg pressure. Time the extraction precisely with the moment you feel maximum loosening of the triangle structure during your circular stepping. Straight-back extraction fights the triangle's structure and often tightens the choke.
-
-**Q6**: What is the critical difference between simply escaping the triangle and executing this reversal?
-**A**: In a standard escape, you extract yourself and disengage, often returning to a neutral guard position where the opponent can re-attack. In the reversal, you redirect escape momentum laterally into a guard pass, arriving directly in side control. The key difference is that you never pull backward or create distance. Instead, you convert forward stacking pressure into lateral passing movement, treating defense and offense as one unified continuous action.
-
-**Q7**: Your opponent switches to an armbar attempt as you begin extracting your arm - what adjustment preserves your reversal?
-**A**: Keep your elbow pinned tight to your ribs and drive forward into the armbar rotation rather than pulling away. By following their hip movement with your body weight and forward pressure, you prevent them from extending your arm for the finish while simultaneously continuing your lateral passing trajectory. The same forward pressure that makes the reversal effective also serves as your primary defense against the armbar transition.
-
-**Q8**: What happens if you pause between extracting your arm and driving laterally to pass?
-**A**: Even a brief pause allows your opponent to recover hip position, re-establish leg grips, insert butterfly hooks, or transition to open guard. The pause breaks the mechanical advantage created by your continuous pressure chain and gives the opponent time to reorganize their defense. The reversal's effectiveness depends entirely on the unbroken flow from stack pressure through arm extraction into lateral passing movement without any interruption.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reversal from Triangle Escape?</p>
 
 Triangle escape scenarios involve active choking pressure on the neck and carotid arteries. Never continue attempting the reversal if you feel lightheaded, experience vision changes, or notice decreased awareness. Tap immediately if the triangle tightens beyond your ability to maintain adequate blood flow and breathing. During training, communicate clearly with your partner about pressure levels and always prioritize safety over completing the technique. Partners applying the triangle should release immediately upon tap and monitor for signs of consciousness changes. When drilling the reversal, begin with light triangle pressure and increase gradually as the escaping practitioner develops proficiency with the stacking and lateral passing mechanics.
 

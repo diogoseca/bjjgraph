@@ -28,7 +28,7 @@ The pass centers on three interconnected battles that must be won in sequence: c
 
 This transition is essential for any serious competitor because Z-Guard has become the default retention position for skilled half guard players across all belt levels and rulesets. The ability to efficiently break down the knee shield and complete the pass to side control separates competent grapplers from elite passers. The pass rewards patience and technical precision over athleticism, making it a technique that improves with experience and understanding of weight distribution principles.
 
-**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 **Success Rate**: 45%
 
 </section>

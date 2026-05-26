@@ -172,6 +172,8 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Japanese Necktie Setup?</p>
+
 - Attacker releases standard front headlock grip and begins reaching their arm deeper under your neck from one side, changing from control to submission-hunting configuration
 - Attacker's free hand shifts from controlling your shoulder to reaching across for your far wrist or forearm, indicating they want to pin your primary defensive tool
 - Attacker repositions their head from beside yours to pressing firmly into your upper back between shoulder blades, signaling they are loading weight for the rolling finish
@@ -183,6 +185,8 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Japanese Necktie Setup?</p>
 
 - Tuck chin immediately and drive it toward your chest to block arm threading depth under your neck
 - Keep elbows tight to your body to prevent the attacker from isolating and capturing your far arm
@@ -198,6 +202,8 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Japanese Necktie Setup?</p>
 
 ### 1. Strip the threading arm at the wrist before it passes under your chin, then circle away to re-establish turtle defensive posture
 
@@ -235,6 +241,8 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Japanese Necktie Setup?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Strip the threading arm early before the grip locks by using two hands on their wrist to peel the arm away from your neck, then immediately tuck chin and re-establish tight turtle defensive posture with elbows to knees. This resets to standard front headlock defense where you have more time and options.
@@ -250,6 +258,8 @@ Create angular displacement by turning your body toward the attacker and driving
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Japanese Necktie Setup?</p>
 
 ### 1. Pulling straight backward away from the attacker when feeling the arm thread
 
@@ -284,6 +294,8 @@ Create angular displacement by turning your body toward the attacker and driving
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Japanese Necktie Setup?</p>
+
 **Phase 1: Recognition Drilling (Week 1-2)** - Identifying Japanese Necktie setup cues from front headlock
 Partner establishes front headlock and alternates between maintaining control, setting up Darce, and setting up Japanese Necktie. Defender calls out which attack is being initiated based on hand movement and body positioning changes. Build pattern recognition without escape attempts initially.
 
@@ -303,32 +315,6 @@ Start from front headlock position. Attacker attempts any front headlock attack 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Japanese Necktie is being set up rather than a standard front headlock hold?
-**A**: The earliest cue is the attacker releasing their standard front headlock grip and beginning to thread one arm deeper under your neck from the side rather than maintaining the controlling wraparound grip. In standard front headlock, both arms work together for control. When one arm starts reaching under your neck independently with the elbow pointing down, the attacker is transitioning from positional control to submission setup. This change in grip purpose is the critical early warning sign.
-
-**Q2**: Why is defending the far arm capture more important than fighting the choking arm once threading has begun?
-**A**: Once the arm is partially threaded, fighting it requires reaching across your body, which exposes your far arm and compromises your base. The far arm is your primary posting tool for blocking the roll—without it, the attacker can complete the roll freely regardless of choking arm depth. Keeping your far hand free to post on the mat is the single most important defensive priority because it physically prevents the roll that the entire technique depends on. A blocked roll means a failed Japanese Necktie.
-
-**Q3**: Your attacker has threaded their arm and is beginning to step their far leg over your back - what is your last-resort defensive response?
-**A**: At this late stage, your best option is an explosive sit-through toward the side opposite the attacker's stepping leg. Drive your hips hard through the space underneath and turn to face them. This disrupts the rolling path and may extract your head from the threading arm during the directional change. If the sit-through fails, immediately tuck your chin as hard as possible, grab the choking arm with both hands, and attempt to walk your body laterally to break the rolling angle before the choke locks in fully.
-
-**Q4**: How does the defensive strategy differ between early-stage and late-stage Japanese Necktie defense?
-**A**: Early-stage defense focuses on prevention: stripping the threading arm at the wrist, keeping elbows tight to deny access, and maintaining standard turtle defensive posture. The goal is to stop the setup before it starts. Late-stage defense shifts to disruption: posting to block the roll, creating angular displacement to break the attacker's body alignment, or explosive positional changes like sit-throughs. Early defense uses precision hand fighting; late defense requires committed explosive movement to escape a nearly completed submission setup.
-
-**Q5**: Why should you turn toward the attacker rather than away when defending the Japanese Necktie?
-**A**: Turning toward the attacker reduces the perpendicular angle they need for the rolling finish and compresses the space available for their choking arm to work. Turning away extends your neck and aligns your body with their desired rolling direction, essentially helping complete the technique. Moving into the attacker also puts your far shoulder closer to their chest, making it harder for them to thread the arm deeper, and may expose opportunities to recover guard by getting your chest facing theirs.
-
-**Q6**: What defensive adjustments should you make when you recognize a Japanese Necktie attempt from a standing bent-over position versus turtle?
-**A**: From standing bent-over, your primary advantage is the ability to stand up and posture explosively, which eliminates the setup entirely since the attacker cannot roll you from standing posture. Drive your legs straight, lift your head (briefly accepting shallow arm contact to gain posture), and circle away. From turtle, standing up is harder because you start on hands and knees with the attacker's weight on your back. In turtle, focus on lateral hip movement and posting rather than standing, using the mat for base that standing position doesn't require.
-
-
-
-</section>
 
 
 </main>

@@ -212,7 +212,7 @@ Leg Extraction to Combat Base serves as the critical bridge between being trappe
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter position - where opponent may transition if extraction is telegraphed
 
-- [[Submissions/Electric Chair Submission]] - Threat to avoid - opponent's primary attack if extraction performed incorrectly
+- [[Positions/Half Guard/Electric Chair]] - Threat to avoid - opponent's primary attack if extraction performed incorrectly
 
 - [[Transitions/Old School Sweep]] - Threat to avoid - sweep opponent attempts during failed extraction
 

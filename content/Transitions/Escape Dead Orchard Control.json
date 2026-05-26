@@ -34,7 +34,7 @@
       "result": "counter"
     },
     {
-      "to": "Game Over",
+      "to": "Anaconda Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
@@ -89,7 +89,7 @@
       "relationship": "Related escape - similar grip-breaking mechanics from standard anaconda"
     },
     {
-      "name": "Dead Orchard to Anaconda Finish",
+      "name": "Anaconda Choke from Dead Orchard",
       "relationship": "Primary threat - submission the escape must prevent"
     },
     {
@@ -185,7 +185,7 @@
         "counter": "Opponent walks hips toward your head to accelerate anaconda finishing angle",
         "effectiveness": "High",
         "your_response": "Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard",
-        "targets_outcome": "Game Over"
+        "targets_outcome": "Anaconda Control/Bottom"
       },
       {
         "counter": "Opponent releases dead orchard to take back control when you create hip angle",
@@ -270,7 +270,7 @@
         "description": "Full resistance positional sparring starting from dead orchard control bottom. Measure success rate across rounds and identify patterns. Work on timing escape attempts to opponent's weight shifts and grip adjustments. Target 30%+ escape rate against training partners of similar skill level before considering the technique functional."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first physical action you take when trapped in Dead Orchard Control?",
         "answer": "Establish a forearm wedge with your free arm at the crook of the opponent's choking arm elbow joint. This frame prevents the grip from tightening further and creates a mechanical stop that provides the foundation for all subsequent escape movements. Do not attempt hip escapes, rolls, or arm extraction before this frame is secure. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body to minimize choke effectiveness."
@@ -302,6 +302,14 @@
       {
         "question": "What are the risks of attempting to stand directly from Dead Orchard Control without completing the escape sequence?",
         "answer": "Standing drives your neck upward into the opponent's grip, which can accelerate the choke by giving them an angle to hang their weight on your neck. It also exposes you to standing guillotine if they switch grips, and gives them easy back control access if they release one side. The standing escape should only be attempted after the grip has been significantly compromised through frame work and hip escaping, or from a recovered front headlock position where the specific dead orchard mechanics have already been broken."
+      },
+      {
+        "question": "What specific forearm placement and skeletal alignment maximizes your frame effectiveness at the choking arm elbow?",
+        "answer": "Place the blade of your forearm (the ulna bone) directly across the crook of the opponent's elbow, perpendicular to their choking arm. Your elbow should be tight against your own ribcage, and your wrist should contact their bicep on the far side. This alignment uses bone-on-bone structure rather than muscular force to block the grip from tightening. If you push outward with muscular effort, you fatigue rapidly and create space when your arms tire. The skeletal wedge can be maintained indefinitely with minimal energy expenditure because the structure does the work, not the muscles."
+      },
+      {
+        "question": "Your frame and hip escape have stalled but the opponent has not finished the choke - what chain of alternative escape paths should you attempt?",
+        "answer": "If the primary frame-and-shrimp sequence stalls, transition to the forward roll escape by matching the opponent's hip direction and rolling through to invert the position. If that path is blocked because the opponent has their hips low, switch to the arm extraction variant by pulling your trapped elbow in a circular arc toward your hip while maintaining whatever angle you created. If arm extraction fails, use the space from your existing angle to work a knee insertion between your bodies for knee shield recovery. The key is never remaining static in a stalled position - cycle through escape variants continuously, as each attempt forces the opponent to adjust and creates micro-openings for the next attempt in the chain."
       }
     ],
     "safety_considerations": "Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable."
@@ -336,8 +344,8 @@
       {
         "action": "Walk hips toward bottom player's head to accelerate anaconda finishing angle",
         "when_to_use": "When bottom player's hip escape has stalled or when they are focused on arm extraction rather than angle defense",
-        "targets_outcome": "Game Over",
-        "if_successful": "Anaconda choke finishes as the rotation creates full blood choke compression",
+        "targets_outcome": "Anaconda Control/Bottom",
+        "if_successful": "Anaconda choke tightens as the rotation creates full blood choke compression, transitioning to locked anaconda control",
         "risk": "If bottom player matches your rotation or forward rolls, you may lose the grip entirely"
       },
       {
@@ -361,8 +369,8 @@
         "how": "Maintain constant shoulder pressure, follow hip escape movements with your own adjustments, and re-tighten grip whenever the bottom player pauses between escape attempts"
       },
       {
-        "outcome": "Game Over",
-        "how": "When bottom player's escape stalls or they focus on arm extraction, walk hips toward their head to achieve the anaconda finishing angle and complete the blood choke"
+        "outcome": "Anaconda Control/Bottom",
+        "how": "When bottom player's escape stalls or they focus on arm extraction, walk hips toward their head to achieve the anaconda finishing angle and transition to locked anaconda control with full blood choke compression"
       },
       {
         "outcome": "Back Control/Bottom",
@@ -391,7 +399,7 @@
         "correction": "Absorb minor movements with subtle pressure adjustments and save large counters for committed escape attempts"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most reliable indicator that the bottom player is about to attempt a committed escape?",
         "answer": "The most reliable indicator is when the bottom player's breathing shifts from panicked or labored to controlled and rhythmic. This signals they have composed themselves and are preparing to execute a technical escape sequence. Additionally, feeling their free hand establish a firm frame at your elbow crook rather than grabbing randomly indicates a structured escape attempt. Respond by pre-emptively increasing pressure and preparing your counter-transition options."
@@ -403,6 +411,14 @@
       {
         "question": "How do you prevent the bottom player from establishing a defensive frame at your choking arm elbow?",
         "answer": "Drive your shoulder aggressively into the bottom player's trapped shoulder, pinning it and their head to the mat. This creates so much pressure at the contact point that their free hand must focus on survival rather than reaching for your elbow. Additionally, keep your choking arm elbow tight against your own body rather than flared, reducing the available space for them to wedge their forearm. If you feel them attempting to frame, immediately increase the shoulder drive to collapse the attempt before it stabilizes."
+      },
+      {
+        "question": "How should you adjust your hip position when the bottom player begins their hip escape movement away from the trapped arm?",
+        "answer": "Walk your hips in the same direction as their hip escape to maintain the compression angle between your chest and their back. Use small stepping adjustments rather than large jumps that create momentary space. Your chest must stay connected to their upper back throughout the adjustment. If they shrimp away from the trapped arm side, step your far hip toward their head while keeping your near hip heavy on their body. This preserves the circular compression angle that makes the choke effective and prevents the angular separation they need to reduce choke pressure."
+      },
+      {
+        "question": "You have been maintaining Dead Orchard Control for 30 seconds and feel your grip fatiguing while the bottom player continues working escapes - what is the correct strategic decision?",
+        "answer": "Transition to positional advancement rather than continuing to fight with a weakening grip. A fatigued grip becomes progressively easier for the bottom player to escape, and the energy differential widens with each passing second. Your best options are releasing the dead orchard to take back control by stepping over and inserting hooks, or transitioning to a darce grip which uses different muscle groups. If neither is available, flatten the bottom player and advance to side control or north-south while you still have enough grip strength to control the transition. Fighting to maintain a compromised grip is the worst option because it burns your remaining energy while the bottom player's escape probability increases with each rep."
       }
     ],
     "training_progressions": [

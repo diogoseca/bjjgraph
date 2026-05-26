@@ -12,7 +12,7 @@
     "back-take",
     "no-gi"
   ],
-  "from_position": "Turtle/Top",
+  "from_position": "Kimura Trap/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -105,7 +105,7 @@
       "relationship": "Related shoulder lock with similar mechanics from different angle"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Submission option from back control achieved via rolling kimura"
     },
     {
@@ -275,7 +275,7 @@
         "description": "Integrate rolling kimura into your overall game as part of a systematic turtle attack sequence. Develop the ability to read opponent's defensive patterns and select the highest percentage option. Study high-level competition footage and analyze successful applications across gi and no-gi formats."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the rolling motion in the Rolling Kimura technique?",
         "answer": "The rolling motion uses your entire body weight and rotational momentum to amplify the leverage on the opponent's shoulder joint, making it far more effective than relying on arm strength alone. The rotation also creates a dynamic situation where the opponent must move with you or risk serious shoulder injury, limiting their defensive options while simultaneously advancing your position toward back control or submission finish."
@@ -406,7 +406,7 @@
         "correction": "After the roll completes, immediately turn toward the attacker and work to face them. Getting to a position where you can see them dramatically improves your defensive options and often leads to guard recovery."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for defending the Rolling Kimura?",
         "answer": "The most critical defensive window is during the initial grip establishment phase, before the attacker has locked the figure-four kimura configuration. Once you feel contact on your wrist or the threading of their arm under yours, you have approximately two seconds to strip the grip before it becomes structurally sound. After the figure-four is locked and the arm isolated, your defensive success rate drops significantly because the attacker now controls your shoulder joint and can initiate the roll at their chosen moment."

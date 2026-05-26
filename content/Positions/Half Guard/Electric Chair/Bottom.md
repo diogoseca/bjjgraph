@@ -21,37 +21,37 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 72% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 76% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Escape from Electric Chair",
-      "text": "From this position, attempt Hip Rotation Escape from Electric Chair. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Rotation Escape from Electric Chair. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straighten Leg Defense from Electric Chair",
-      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep from Electric Chair",
-      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Finish",
-      "text": "From this position, attempt Electric Chair Finish. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Electric Chair",
+      "text": "From this position, attempt Electric Chair. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Position Definition
 
+<p class="section-subtitle">What is Electric Chair (Bottom)?</p>
+
 - Bottom practitioner's legs configured in lockdown position with figure-four leg entanglement trapping opponent's near leg, heel pulling down on opponent's thigh while instep hooks behind opponent's calf
 - Bottom practitioner maintains deep underhook on opponent's far side, with underhooking arm reaching across opponent's back and gripping their far lat or belt region for maximum extension control
 - Bottom practitioner's free hand controls opponent's near ankle or foot, pulling it toward their own hip to create the splitting action that defines the electric chair mechanism
@@ -181,6 +183,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Electric Chair (Bottom)?</p>
 
 - Established lockdown half guard position with figure-four leg configuration secure
 - Deep underhook control on opponent's far side with arm reaching across their back
@@ -196,6 +200,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Electric Chair?</p>
+
 - Maintain constant tension on the lockdown to prevent opponent from extracting their leg and establish baseline control
 - Secure deep underhook that reaches across opponent's back to their far side, maximizing extension and preventing them from posturing away
 - Control opponent's near ankle with precision, pulling it toward your hip to create the splitting mechanism that defines the position
@@ -210,6 +216,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Electric Chair (Bottom)?</p>
 
 **If opponent maintains heavy forward pressure and low posture defending the electric chair:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
@@ -238,6 +246,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Electric Chair?</p>
 
 ### 1. Releasing lockdown tension while attempting to secure ankle control
 
@@ -277,6 +287,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Electric Chair defense?</p>
+
 ### Lockdown Control and Ankle Grip Sequence Drill
 
 Partner starts in half guard top position. Bottom practitioner establishes lockdown, then works through systematic grip progression: secure lockdown, establish underhook, control ankle. Practice maintaining each stage for 30 seconds before advancing. Partner provides progressive resistance. Focus on maintaining lockdown tension throughout all grip changes.
@@ -310,38 +322,6 @@ Start in electric chair bottom position with all grips established. Bottom pract
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving their weight forward to flatten you - what adjustment do you make to maintain the Electric Chair?
-**A**: Use the underhook to pull yourself toward their far hip while simultaneously extending the lockdown to prevent them from settling their weight. Angle your hips further perpendicular to create more splitting pressure. If they commit too far forward, immediately transition to the Old School sweep using their momentum.
-
-**Q2**: What are the essential grips for maintaining Electric Chair Bottom?
-**A**: Three primary controls: 1) Lockdown leg configuration trapping opponent's near leg with heel on thigh and figure-four behind their calf, 2) Deep underhook reaching across opponent's back to their far lat or belt, 3) Far hand controlling opponent's near ankle, pulling it toward your hip. All three must work in coordination.
-
-**Q3**: How do you shut down your opponent's primary lockdown escape attempt?
-**A**: When opponent tries to extract their leg by driving knee toward your hip, increase lockdown tension by pulling your heel down harder and extending your hips. Simultaneously pull with the underhook to prevent them from creating space. If they persist, immediately transition to Truck entry as their leg extraction motion exposes the crab ride hook position.
-
-**Q4**: What is the correct grip sequence when establishing the Electric Chair from lockdown?
-**A**: First establish tight lockdown with proper heel and instep positioning. Second, secure deep underhook reaching to opponent's far lat before they can establish crossface. Third, once underhook is secure, release near hand to control opponent's ankle. Never sacrifice lockdown tension for grip changes.
-
-**Q5**: How should you apply pressure to maximize both sweep and submission threat?
-**A**: Extend your lockdown while pulling opponent's ankle toward your hip, creating a splitting action through their groin and hip. Pull with underhook to stretch their upper body in opposite direction. This creates a dilemma: if they resist the stretch, they become light for the sweep; if they base to prevent sweep, they take more submission pressure.
-
-**Q6**: Your opponent postures up to relieve the pressure - what do you do?
-**A**: Their posturing increases effectiveness of the Electric Chair submission. Immediately extend your hips powerfully while pulling the ankle to maximize the split. If they posture high enough, the submission becomes available. If they try to drop back down, use the momentum shift to hit the Old School sweep.
-
-**Q7**: How do you manage energy when maintaining Electric Chair against a defensive opponent?
-**A**: Apply consistent but not maximal pressure through lockdown and underhook. Use opponent's resistance against them by timing sweep attempts with their defensive movements. Rest between attacking cycles by maintaining position without full extension. Force opponent to carry your weight through the underhook.
-
-**Q8**: Your opponent partially escapes the lockdown but you still have the underhook - how do you recover or transition?
-**A**: If lockdown is compromised but underhook remains, immediately transition to Deep Half Guard by diving underneath opponent toward their far hip. Alternatively, if they've created space, use the underhook to sit up toward Dogfight position. Never try to re-engage a broken lockdown against a moving opponent - flow to the next available position.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -367,7 +347,7 @@ Start in electric chair bottom position with all grips established. Bottom pract
 - **[[Positions/Twister Control/Truck]]** - Common transition target when opponent defends electric chair
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition when electric chair is defended
 - **[[Positions/Half Guard/Old School]]** - Primary sweeping technique from this position
-- **[[Submissions/Electric Chair Submission]]** - Primary submission threat from this position
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from this position
 - **[[Submissions/Banana Split]]** - Alternative name for electric chair submission finish
 - **[[Positions/Half Guard]]** - Base guard system
 - **[[Positions/Dogfight Position]]** - Transition option when underhook is strong

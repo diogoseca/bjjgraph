@@ -12,7 +12,7 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "overview": "Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.\n\nThe foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizes control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.\n\nWhat distinguishes this system is its adaptability to different guard types while maintaining core principles of pressure and control. Whether facing butterfly guard, half guard, or open guard variations, the system provides clear decision trees and transitional sequences that maintain offensive pressure throughout. The emphasis on grip fighting, posture control, and strategic weight distribution creates a comprehensive framework that works across skill levels and body types.",
+  "overview": "Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.\n\nThe foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizing control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.\n\nWhat distinguishes this system is its adaptability to different guard types while maintaining core principles of pressure and control. Whether facing butterfly guard, half guard, or open guard variations, the system provides clear decision trees and transitional sequences that maintain offensive pressure throughout. The emphasis on grip fighting, posture control, and strategic weight distribution creates a comprehensive framework that works across skill levels and body types.",
   "key_principles": [
     "Pressure over speed - establish dominant control before initiating passing movements",
     "Systematic removal of defensive frames through strategic grip placement and weight distribution",
@@ -69,7 +69,7 @@
     },
     {
       "step_number": 3,
-      "phase": "Pressure Application",
+      "phase": "Pressure",
       "description": "Apply strategic pressure to compress opponent's defensive space and limit their mobility. Use shoulder pressure, cross-face control, and strategic weight distribution to make their guard retention increasingly difficult.",
       "key_points": [
         "Drive shoulder pressure into their face or chest",
@@ -267,7 +267,7 @@
       "relationship": "Advanced position target after establishing passing dominance"
     },
     {
-      "name": "Pressure Passing",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Core principle underlying entire passing system approach"
     },
@@ -282,9 +282,9 @@
       "relationship": "Essential pressure application principle for maintaining offensive control"
     },
     {
-      "name": "Connection Breaking",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Strategy for removing opponent's defensive frames and grips"
+      "relationship": "Strategy for managing connections and breaking opponent's defensive frames and grips"
     },
     {
       "name": "Control Point Hierarchy",

@@ -166,6 +166,8 @@ Strategically, your best outcomes come from early recognition and proactive defe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag Pass to Side Control?</p>
+
 - Passer's free arm begins reaching across your face or neck, signaling the crossface attempt that precedes the consolidation sequence
 - Passer's hip pressure increases and shifts forward off the dragged leg toward your centerline, indicating they are beginning the weight transfer to side control
 - Passer's leg-control hand releases or adjusts grip on your hip or pants, creating the brief window where your trapped leg has maximum freedom to recover guard
@@ -177,6 +179,8 @@ Strategically, your best outcomes come from early recognition and proactive defe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag Pass to Side Control?</p>
 
 - Act during the transition—your defensive window closes once side control is fully consolidated with crossface and hip pressure
 - Prevent the crossface at all costs by framing against their shoulder and bicep before they can drive across your face
@@ -191,6 +195,8 @@ Strategically, your best outcomes come from early recognition and proactive defe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag Pass to Side Control?</p>
 
 ### 1. Frame against shoulder and insert knee during leg clearance
 
@@ -228,6 +234,8 @@ Strategically, your best outcomes come from early recognition and proactive defe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag Pass to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your knee insertion to the exact moment the passer releases their leg grip to transition to hip blocking. Hip escape explosively while driving your near knee between your bodies, then immediately establish a knee shield to prevent re-passing. This requires sensitivity to the passer's grip changes and pre-loaded hip escape positioning.
@@ -243,6 +251,8 @@ Prevent the crossface from being established by maintaining a strong forearm fra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag Pass to Side Control?</p>
 
 ### 1. Waiting until side control is fully established before attempting to escape
 
@@ -277,6 +287,8 @@ Prevent the crossface from being established by maintaining a strong forearm fra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag Pass to Side Control?</p>
+
 **Week 1-2** - Recognition and framing
 Partner establishes leg drag control and slowly begins the consolidation sequence. Practice recognizing each phase (crossface attempt, hip block, leg clearance) and establishing the correct frame for each. No escape attempts yet—focus purely on positioning your frames at the right time.
 
@@ -293,29 +305,6 @@ Start from leg drag control with partner attempting any consolidation path (side
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window during the Leg Drag Pass to Side Control consolidation?
-**A**: The primary defensive window occurs when the passer releases or adjusts their leg grip to transition to hip blocking. This is the moment where your trapped leg has maximum freedom and the passer has temporarily reduced their control points. Timing your hip escape and knee insertion to this grip change offers the highest-percentage guard recovery opportunity.
-
-**Q2**: Why is preventing the crossface more important than freeing the trapped leg?
-**A**: The crossface is the linchpin of the entire consolidation sequence. Without crossface, the passer cannot safely release the leg grip because you retain the ability to face them, sit up, and recover guard. Even if your leg is still controlled, denying the crossface stalls the pass indefinitely. Conversely, freeing the leg while the crossface is established often still results in a completed pass because you cannot turn to complete guard recovery.
-
-**Q3**: Your opponent has established the crossface but has not yet cleared your leg—what is your best defensive option?
-**A**: With crossface established but leg still in play, fight for the near-side underhook and attempt to turn into the passer rather than away. The underhook creates a scramble dynamic that disrupts their sequential consolidation. Simultaneously use your free leg to post on the mat for leverage and create enough space to recover your trapped knee inside their body. This is your secondary defensive layer after the crossface prevention fails.
-
-**Q4**: How do you distinguish between the passer consolidating to side control versus transitioning to back take?
-**A**: Watch the direction of their chest rotation and hip pressure. For side control consolidation, their chest rotates toward perpendicular alignment across your torso and their hips drive forward. For back take, they maintain their angled position and begin circling behind you, often releasing shoulder control to reach over your back. Recognizing this distinction is critical because the defensive responses are opposite—side control defense requires facing them, while back take defense requires preventing rotation.
-
-**Q5**: What specific body positioning should you maintain to maximize your defensive options during the consolidation?
-**A**: Stay on your side facing the passer with your near-side elbow connected to your knee, creating a structural frame. Your forearm should be positioned across their shoulder or bicep to block the crossface. Your far arm posts on the mat behind you for base. Your free leg posts on the mat with foot flat for hip escape power. This position preserves both the crossface denial and the loaded hip escape needed for knee insertion during the transition.
-
-
-
-</section>
 
 
 </main>

@@ -42,7 +42,7 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 | Success | [[Positions/Turtle]] | 40% |
 | Success | [[Positions/Half Guard]] | 25% |
 | Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[game-over]] | 10% |
+| Counter | [[Submissions/Rear Naked Choke]] | 10% |
 
 
 </section>
@@ -201,7 +201,7 @@ Hand fighting from back represents the foundational defensive layer in the back 
 
 - [[Positions/Back Control]] - Starting position requiring this defensive technique
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that hand fighting defends against
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that hand fighting defends against
 
 - [[Transitions/Back Door Escape]] - Comprehensive escape system that hand fighting enables
 
@@ -209,7 +209,7 @@ Hand fighting from back represents the foundational defensive layer in the back 
 
 - [[Positions/Half Guard]] - Alternative escape position reachable through hand fighting and hip movement
 
-- [[Transitions/Bow and Arrow Choke]] - Gi choke threat requiring modified hand fighting approach
+- [[Submissions/Bow and Arrow Choke]] - Gi choke threat requiring modified hand fighting approach
 
 - [[Transitions/Elbow Escape to Remove Hooks]] - Follow-up technique after establishing hand control
 

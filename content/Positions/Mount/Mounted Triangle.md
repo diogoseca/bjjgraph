@@ -36,7 +36,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Mounted triangle sacrifices mount stability for immediate submission access
@@ -185,9 +185,9 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** (22% of attempts)
+- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (22% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
 - **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (8% of attempts)
 
@@ -209,7 +209,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (2% of attempts)
 
-- **[[Submissions/Mounted Triangle Finish/Attacker|Mounted Triangle Finish]]** (2% of attempts)
+- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (2% of attempts)
 
 
 ### Common Mistakes

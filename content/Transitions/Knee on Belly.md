@@ -200,9 +200,9 @@ Knee on Belly serves as a critical transitional hub in the top game, connecting 
 
 - [[Positions/Back Control]] - Available when opponent turns away to escape the pressure
 
-- [[Submissions/Armbar from Side Control]] - Submission option when opponent pushes the knee with extended arms
+- [[Transitions/Far Side Armbar from KOB]] - Submission chain available when opponent pushes the knee with extended arms
 
-- [[Transitions/Baseball Bat Choke]] - Choke attack available when opponent turns to escape
+- [[Submissions/Baseball Bat Choke]] - Choke attack available when opponent turns to escape
 
 - [[Positions/North-South]] - Alternative transition when standard Knee on Belly is defended
 

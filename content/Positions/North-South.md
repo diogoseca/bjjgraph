@@ -36,7 +36,7 @@ The position demands different strategic approaches based on whether you're esta
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - North-South control relies on chest-to-chest pressure distributed across opponent's upper body
@@ -183,27 +183,27 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (13% of attempts)
+- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (12% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (14% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (21% of attempts)
 
-- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (12% of attempts)
+- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (10% of attempts)
+- **[[Americana from North-South/Attacker|Americana from North-South]]** (9% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (7% of attempts)
 
-- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (7% of attempts)
 
-- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (7% of attempts)
+- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
 
-- **[[Submissions/Kimura from North-South/Attacker|Kimura from North-South]]** (1% of attempts)
+- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -154,6 +154,8 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Kesa Gatame?</p>
+
 - Bottom player's far arm begins pressing firmly against your face, shoulder, or jaw with increasing directional force toward your back rather than simply maintaining defensive space
 - Bottom player's hips begin rotating toward you rather than shrimping away—you feel their belt line turning to face your body instead of the ceiling
 - Bottom player reaches for your far arm, wrist, sleeve, or belt with their framing hand, attempting to eliminate your posting ability
@@ -166,6 +168,8 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Kesa Gatame?</p>
 
 - Maintain low hip position with weight distributed forward through your chest to prevent the bottom player from generating rotation underneath you
 - Monitor and control the bottom player's far arm to eliminate their framing and rotation capability
@@ -180,6 +184,8 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Kesa Gatame?</p>
 
 ### 1. Drop weight and sprawl hips backward to re-establish heavy chest-to-chest pressure
 
@@ -217,6 +223,8 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Kesa Gatame?</p>
+
 ### → [[Positions/Side Control/Kesa Gatame]]
 
 Recognize the back take attempt early through hip rotation cues and immediately respond by dropping your weight, sprawling your hips, and driving your shoulder into the opponent's face to flatten them back down before the rotation develops. Maintaining heavy forward pressure with low hips is the most reliable prevention method.
@@ -232,6 +240,8 @@ When the bottom player commits to turning their hips toward you, use their rotat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Kesa Gatame?</p>
 
 ### 1. Sitting too high with hips elevated, creating space underneath for the bottom player to rotate
 
@@ -261,6 +271,8 @@ When the bottom player commits to turning their hips toward you, use their rotat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Kesa Gatame?</p>
+
 **Recognition Drilling** - Identifying back take cues under controlled conditions
 Partner repeatedly initiates back take attempts from Kesa Gatame bottom at 30% speed. Top player focuses exclusively on recognizing the cues: hip rotation, far arm framing, posting arm attacks. Call out each cue verbally as you detect it. No counter-transitions yet—only recognition. Build the pattern recognition that enables early defensive responses.
 
@@ -277,26 +289,6 @@ Integrate back take defense into live rolling from Kesa Gatame. Top player must 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a back take attempt is being initiated from Kesa Gatame bottom?
-**A**: The earliest cue is the bottom player's hips beginning to rotate toward you rather than remaining flat or shrimping away. You feel their belt line turning to face your body rather than the ceiling. This hip rotation precedes the bridge and framing that power the back take, making it the first detectable signal. Secondary cues include increased pressure from their far arm frame directed toward your back and attempts to grip your far posting arm.
-
-**Q2**: How does your hip position directly affect your vulnerability to the back take from Kesa Gatame?
-**A**: When your hips are elevated or sitting back away from the opponent, you create space underneath your body that the bottom player exploits for rotation. The higher your hips sit, the less bridging force they need to initiate the turn. Keeping your hips sunk low with weight driven forward through your chest eliminates this space, forcing the bottom player to generate significantly more force to create any rotational momentum. Low hips also bring your center of gravity closer to the mat, making you harder to displace.
-
-**Q3**: What is the optimal counter-transition when the bottom player has committed to turning into you and is approaching chest-to-chest?
-**A**: The optimal counter is transitioning to mount by stepping your far leg over their body, using their own turning momentum to facilitate the mount establishment. At the chest-to-chest phase, they have already created the hip angle that makes maintaining Kesa Gatame difficult, but their turn also creates the space for your mount transition. Attempting to force them back into Kesa Gatame at this stage is less effective than accepting the positional evolution and advancing to mount, which is worth more points and maintains your dominance.
-
-**Q4**: Why is proactively controlling the bottom player's far arm an effective preventive defense?
-**A**: The far arm is the bottom player's primary tool for both framing space against your shoulder and controlling your far posting arm. Without the far arm, they cannot create the initial space needed for hip rotation, cannot eliminate your posting base, and cannot pull themselves through the rotation. Controlling it proactively removes the mechanical prerequisites for the back take before the attempt even begins, making it significantly more effective than reactive defense after the rotation has started.
-
-
-
-</section>
 
 
 </main>

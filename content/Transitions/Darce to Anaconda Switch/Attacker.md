@@ -194,6 +194,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Darce to Anaconda Switch?</p>
+
 - Maintain constant chest-to-back pressure throughout the entire grip transition to eliminate escape windows
 - Release the lock hand before the choking arm to preserve the threading position and minimize exposed time
 - Re-thread the arm along the Anaconda path in one committed motion rather than incremental adjustments that telegraph intent
@@ -208,6 +210,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Darce to Anaconda Switch?</p>
+
 - Darce control grip established with arm threaded under opponent's armpit and across back of neck
 - Opponent demonstrating effective Darce defense through arm positioning, chin tuck, or angle denial that prevents the finish
 - Chest and shoulder pressure driving into opponent's upper back preventing posture recovery or explosive escape
@@ -220,6 +224,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Darce to Anaconda Switch step by step?</p>
 
 1. **Assess Darce Grip Effectiveness**: Evaluate whether the current Darce angle is producing meaningful choking pressure. If the opponent has successfully tucked their chin, rotated their shoulder, or extracted enough arm to prevent the finish, the switch becomes the higher-percentage option. Recognize that persisting with a defended Darce wastes energy and time.
 2. **Intensify Chest Pressure**: Before releasing any grip component, drive maximum shoulder and chest pressure into the opponent's upper back and trapped shoulder. This pins them in place and prevents any explosive escape attempt during the transition. Your body weight must compensate for the temporary loss of grip control that follows.
@@ -250,6 +256,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Darce to Anaconda Switch?</p>
+
 - **Opponent extracts trapped arm during the grip release window when neither choke is fully locked** (Effectiveness: High) - Your Response: If the arm begins extracting, immediately abandon the switch and secure front headlock control with a crossface or snap-down to prevent full posture recovery. Re-evaluate whether to re-enter Darce or attempt a different attack. → Leads to [[Positions/Half Guard]]
 - **Opponent tucks chin deep and blocks the re-threading path by pressing shoulder to jaw, preventing Anaconda arm from circling the neck** (Effectiveness: Medium) - Your Response: Drive the opponent's head down with your free hand to open the threading channel between their chin and shoulder. If the path remains blocked, maintain chest pressure and settle for Darce control until a better switching opportunity arises. → Leads to [[Positions/Darce Control]]
 - **Opponent explosively bridges and hip escapes during the momentary pressure reduction of the grip transition** (Effectiveness: High) - Your Response: Ride the bridge by sprawling your hips back and maintaining chest connection. If they create significant space, immediately secure whichever grip is closer to completion rather than continuing the switch. Prioritize maintaining any form of head control over completing the reconfiguration. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Darce to Anaconda Switch?</p>
 
 ### 1. Lifting chest off opponent's back during the grip transition to create space for arm re-threading
 
@@ -300,6 +310,8 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Darce to Anaconda Switch (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Understanding the mechanical differences between Darce and Anaconda arm threading paths
 Practice the grip release and re-thread sequence on a compliant partner in turtle position. Focus on the arm path differences: Darce threads under armpit and behind neck, while Anaconda threads under the near arm and around the front of the neck. Perform 20 repetitions per side with no resistance, building muscle memory for the re-threading motion.
 
@@ -320,48 +332,12 @@ Full-resistance positional sparring rounds starting from front headlock or turtl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal timing window to initiate the Darce to Anaconda switch?
-**A**: The optimal timing is when the opponent has committed to a Darce-specific defense that inadvertently exposes the Anaconda angle. This includes when they successfully rotate their trapped shoulder toward you to reduce Darce compression, tuck their chin to block the Darce forearm, or begin extracting their arm in a way that opens space under their near-side arm for the Anaconda threading path. Switching while the Darce is still viable wastes a working submission. The key indicator is feeling the Darce pressure plateau or diminish despite your best adjustments.
-
-**Q2**: What conditions must exist in the Darce control position before you should attempt the switch?
-**A**: Four conditions must be present: your chest pressure must be heavy enough to pin the opponent during the grip transition, the opponent's posture must remain broken with their head below their hips, the threading path under their near-side arm must be accessible for the Anaconda configuration, and you must have a secondary control point available through your free hand on their head or shoulder. If any of these conditions is absent, the switch carries too much risk and you should either persist with the Darce or transition to a different attack entirely.
-
-**Q3**: What is the most critical mechanical detail during the grip release phase of the switch?
-**A**: The most critical detail is maintaining constant chest-to-back pressure while releasing the lock hand. Your upper body weight must compensate for the temporary loss of grip control. The lock hand should release first while the choking arm stays threaded in position momentarily, creating a sequence rather than a simultaneous release. This ensures there is never a moment where both the grip and the body pressure are absent, which would create an inescapable window for the opponent to escape.
-
-**Q4**: Your opponent begins extracting their trapped arm as you release the Darce grip to switch - how do you respond?
-**A**: Immediately abandon the switch and secure front headlock control using a crossface or snap-down with your free hand. Do not chase the arm extraction while in the middle of a grip transition, as this creates a scramble you are likely to lose. Once front headlock control is re-established with their head controlled, reassess whether to re-enter the Darce, attempt the Anaconda from a fresh entry, or pursue a different front headlock attack like a guillotine or go-behind to back control.
-
-**Q5**: How does the arm threading path differ between the Darce and Anaconda configurations during this switch?
-**A**: The Darce arm threads under the opponent's armpit from behind, crosses the back of the neck, and the hand locks on the far side near the opposite shoulder. The Anaconda arm threads under the opponent's near-side arm from the front, circles around the front and side of the neck, and the hand locks on the far side. The key difference is the direction of approach to the neck: Darce attacks from behind the neck while Anaconda attacks from the front. During the switch, the arm must withdraw from the behind-neck path and re-enter along the front-neck path.
-
-**Q6**: In which direction should you maintain primary pressure throughout the switch?
-**A**: Pressure should be maintained driving forward and downward through your chest and shoulder into the opponent's upper back and trapped shoulder. This vector is perpendicular to the opponent's spine and prevents them from posturing up or creating the space needed to escape. The pressure direction remains largely consistent between the Darce and Anaconda configurations, which is why the switch is viable. Your hips may need to shift laterally to adjust the finishing angle, but the chest-to-back pressure vector should never change.
-
-**Q7**: If the Anaconda configuration is also successfully defended after completing the switch, what chain attacks should you pursue?
-**A**: If the Anaconda is also defended, you have several high-percentage chain options: initiate the Anaconda roll-through to achieve side control and continue attacking from a dominant position, transition to Dead Orchard control by stepping over the opponent's back for an enhanced finishing angle, switch back to the Darce if the opponent's Anaconda defense has re-exposed the Darce angle, or abandon the choke entirely and take the back by sliding your hooks in as the opponent turtles defensively. The key principle is never staying in a defended position - always flow to the next attack.
-
-**Q8**: How does your hip position need to change when transitioning from the Darce finishing angle to the Anaconda finishing angle?
-**A**: The Darce typically finishes with your hips positioned on the same side as your choking arm, driving perpendicular to the opponent's spine. The Anaconda finish requires your hips to move toward the opponent's far side, creating a more perpendicular angle from the opposite direction. During the switch, walk your hips around the opponent's body toward their far hip after locking the Anaconda grip. This hip repositioning is often neglected, resulting in practitioners attempting the Anaconda finish from the Darce angle, which lacks the compression needed to complete the choke.
-
-**Q9**: What is the most common reason the Darce to Anaconda switch fails in live training?
-**A**: The most common failure is lifting chest pressure off the opponent's back during the re-threading motion. Practitioners instinctively create space by lifting their torso to give their arm room to re-thread along the new path. This pressure reduction gives the opponent the opportunity to posture, extract their arm, or scramble to a safer position. The solution is to keep the chest welded to the opponent's back and thread the arm using only shoulder and arm movement without changing your upper body's connection to their back.
-
-**Q10**: Your opponent commits to a deep chin tuck defending both Darce and Anaconda angles - what alternative approach should you consider?
-**A**: When the opponent's chin tuck is neutralizing both choke angles, shift your strategy from choke finishing to positional advancement. Use the existing front headlock control to transition to mount by walking your hips over the opponent's body, take the back by circling behind them and inserting hooks, or advance to north-south for new attacking angles. A committed chin tuck often compromises the opponent's ability to defend positional advances because their arms are occupied protecting their neck. Recognize when submission persistence becomes counterproductive and capitalize on the positional control your grip provides.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Darce to Anaconda Switch?</p>
 
 Both the Darce and Anaconda configurations create significant pressure on the cervical spine and carotid arteries. During training, communicate clearly with your partner before switching grips, as the new choking angle can produce unexpected pressure that catches the defender off guard. Partners should establish a clear tap signal before drilling. Release immediately upon any tap signal, even if you believe the choke is not yet tight. Never crank or twist the neck during the transition - maintain controlled, steady pressure throughout. Be especially cautious when drilling the rolling switch variant, as the dynamic movement combined with grip changes can produce sudden choking pressure.
 

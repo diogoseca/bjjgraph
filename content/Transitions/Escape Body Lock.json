@@ -96,8 +96,8 @@
       "relationship": "Opponent's highest-value transition that this escape aims to prevent"
     },
     {
-      "name": "Scramble Position",
-      "relationship": "Possible intermediate position during escape scramble"
+      "name": "Standing Position",
+      "relationship": "Possible intermediate position during escape"
     },
     {
       "name": "Half Guard",
@@ -245,7 +245,7 @@
         "description": "Simulate competition conditions with body lock entries from live wrestling exchanges. Practice recognizing body lock establishment early and executing escapes under accumulated fatigue. Include penalty consequences for failed escapes to develop urgency and decision-making under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the body lock escape?",
         "answer": "The optimal window is within the first 1-2 seconds of your opponent locking their grip, before they can establish full chest-to-back connection and drive hip pressure. During this brief window, their grip has not yet fully tightened and their body positioning may still be adjusting. Every additional second they maintain the body lock increases their control and decreases your escape probability significantly. If the initial window passes, you must create your own window through explosive movement rather than waiting."
@@ -362,7 +362,7 @@
         "correction": "Recognize that every escape attempt creates movement, and movement creates hook insertion opportunities. Practice converting body lock to back control during opponent's hip switches."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt an escape from body lock?",
         "answer": "The earliest cue is aggressive hand fighting against your locked grip, specifically when you feel their hands reaching behind to peel at your fingers or wrists. This precedes all physical escape movements and indicates they are targeting your grip as the first step. Secondary early cues include sudden base widening and level dropping, which signal preparation for explosive hip movement. Recognizing these pre-escape indicators allows you to increase pressure and tighten control before the escape develops momentum."

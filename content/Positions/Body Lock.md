@@ -32,7 +32,7 @@ The position is inherently transitional and requires immediate attack execution.
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Lock hands tightly at opponent's centerline and maintain grip throughout entire attack sequence

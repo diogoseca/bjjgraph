@@ -16,7 +16,7 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Matrix Back Take in BJJ",
-  "description": "Step-by-step guide for executing Matrix Back Take from Turtle/Top.",
+  "description": "Step-by-step guide for executing Matrix Back Take from Matrix/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,13 +184,15 @@ This technique demands excellent body awareness, precise timing, and the ability
 
 The Matrix Back Take integrates naturally with truck entries, crab ride transitions, and traditional seat belt back takes, allowing the attacker to chain multiple options based on the defender's reactions. Practitioners who invest in developing this technique gain a significant advantage in turtle top situations, particularly against experienced defenders who have neutralized conventional back take entries.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Matrix Back Take?</p>
 
 - Maintain constant connection to opponent's hips and upper body throughout the entire transition to prevent them from turning or escaping
 - Use dynamic angular movement to bypass defensive frames rather than fighting through them with static pressure
@@ -207,6 +209,8 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Matrix Back Take?</p>
+
 - Opponent is in turtle position with tight defensive posture, elbows close to knees, and good base
 - You have established chest pressure on the opponent's upper back with control of their near-side shoulder or lat
 - Your far hand has secured a grip on the opponent's far-side hip to control their orientation
@@ -220,6 +224,8 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Matrix Back Take step by step?</p>
 
 1. **Establish initial control from turtle top**: Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability.
 2. **Create angle and insert near-side arm deeply**: Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. Thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. Insert the arm deeply enough that your shoulder presses against their ribs, creating a strong connection point that will anchor you throughout the hip slide phase.
@@ -249,6 +255,8 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Matrix Back Take?</p>
+
 - **Opponent sits back heavily onto their heels as you attempt to insert your leg through the elbow-knee gap** (Effectiveness: High) - Your Response: Immediately switch to a traditional seat belt back take or truck entry. Use your near-side arm control to pull the opponent forward and off their base, then re-attempt the matrix entry or transition to an alternative back take path. → Leads to [[Positions/Turtle]]
 - **Opponent turns into you aggressively during the hip slide phase, attempting to face you** (Effectiveness: Medium) - Your Response: Maintain your arm and leg connections and follow the turn, transitioning to front headlock or darce control. From there you can finish a submission or re-establish turtle top to re-attempt the technique from a fresh angle. → Leads to [[Positions/Turtle]]
 - **Opponent pulls their near elbow tight to their body, eliminating the gap needed for leg insertion** (Effectiveness: Medium) - Your Response: Switch to attacking from the far side by circling in the opposite direction for a standard back take, or use a harness grip to lift the opponent's hips and create the space needed. Alternatively, transition to crucifix by controlling the trapped near arm with your legs. → Leads to [[Positions/Turtle]]
@@ -260,6 +268,8 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Matrix Back Take?</p>
 
 ### 1. Failing to maintain the threading arm connection to the opponent's shoulder during the hip slide
 
@@ -299,6 +309,8 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Matrix Back Take (Attacker)?</p>
+
 **Week 1-2: Isolated Movement Drilling** - Master the matrix slide movement pattern without resistance
 Practice the hip slide motion in isolation, focusing on smooth weight transfer and maintaining connection points. Partner remains stationary in turtle while you drill the arm insertion, leg threading, and hip slide as one continuous motion. Emphasis on developing the motor pattern and body awareness needed for the sliding movement.
 
@@ -319,48 +331,12 @@ Flow between the matrix back take and other back take options from turtle: seat 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical connection point to maintain throughout the entire matrix back take transition?
-**A**: The near-side arm threaded under the opponent's armpit and anchored against their ribs is the most critical connection point. This arm acts as the anchor that prevents the opponent from turning into you while your body slides around them during the hip slide phase. Without maintaining this connection, the opponent can easily rotate toward you and eliminate the back take opportunity entirely, potentially recovering guard or achieving top position.
-
-**Q2**: Why must you establish the bottom hook before attempting to secure the top hook?
-**A**: The bottom hook is the primary control point that prevents the opponent from turning into you or recovering guard as you emerge on their far side. Attempting to establish both hooks simultaneously creates instability and gives the opponent the opportunity to sit back onto their heels or rotate away. By securing the bottom hook first, you create a stable control point from which to safely bring the top hook over without risking the entire position.
-
-**Q3**: Your opponent sits back heavily onto their heels as you attempt to thread your leg through the elbow-knee gap. How should you respond?
-**A**: You should immediately abandon the matrix entry and switch to a traditional seat belt back take or truck entry rather than forcing the slide. Use your near-side arm control to pull the opponent forward and off their base, which will either create the space needed to re-attempt the matrix entry from a better angle or set up an alternative back take method. Forcing the technique when the opponent has closed the entry gap will result in loss of position.
-
-**Q4**: What makes the matrix back take particularly effective against experienced turtle defenders compared to traditional back take entries?
-**A**: The matrix back take bypasses traditional defensive frames through dynamic angular movement rather than attempting to fight through them with static pressure. Experienced turtle defenders excel at maintaining tight elbow-to-knee structure and defending against direct seat belt entries, but the matrix slide creates an entirely different angle of attack that circumvents their usual defensive structures. The fluid, continuous movement through the elbow-knee gap makes it very difficult for defenders to counter once the sequence has begun.
-
-**Q5**: What is the proper weight distribution during the matrix hip slide phase and why does it matter?
-**A**: During the hip slide, your weight should transfer smoothly from chest pressure on the opponent's upper back to a controlled connection that maintains their structure without pinning your own hips. Your chest should remain heavy enough to prevent them from posturing up, while your hips stay light and mobile enough to slide smoothly underneath their center of gravity. Too much weight makes you slow and stuck mid-slide; too little weight allows the opponent to turn or escape. The threading arm and far-hand hip grip maintain your connection during this critical phase.
-
-**Q6**: Your opponent begins turning aggressively toward you during the hip slide. What is your immediate response?
-**A**: Maintain your arm and leg connections and allow the turn to happen while staying connected. Their turning motion can transition you naturally into front headlock or darce control position, where you can either finish a submission or re-establish turtle top for another entry attempt. The key is that your threading arm stays anchored against their ribs, which means their turn pulls you with them rather than separating you. Never release your connections to try to fight the turn with static resistance.
-
-**Q7**: What conditions must exist before you should attempt the matrix entry rather than a traditional seat belt back take?
-**A**: The matrix entry is optimal when the opponent has a tight defensive turtle with elbows close to knees, good base width, and is actively hand-fighting against direct seat belt attempts. Space must exist between the near-side elbow and knee for arm and leg insertion. You need stable turtle top control with chest pressure and a far-hip grip already established. If the opponent's turtle is loose or their elbow is separated from their knee, a traditional back take is higher percentage and should be attempted first.
-
-**Q8**: How does the far-hand hip grip contribute to the success of the matrix back take?
-**A**: The far-hand hip grip serves three critical functions: it prevents the opponent from rotating their hips away as you thread your arm and leg through, it guides your own circular movement path as you slide around their body, and it provides proprioceptive feedback about the opponent's weight shifts and defensive reactions throughout the transition. Without this grip, the opponent has free hip rotation which makes the slide underneath nearly impossible to complete, and you lose the directional control needed to emerge on the correct side.
-
-**Q9**: You have successfully established the bottom hook but the opponent is actively fighting your top hook insertion. What should you prioritize?
-**A**: Prioritize consolidating your bottom hook and establishing seatbelt control rather than forcing the top hook. With a deep bottom hook and strong upper body control through the seatbelt, you already have functional back control. The opponent's defensive energy spent fighting the top hook often opens their neck for choke entries or exposes their arms for armbar transitions. You can work the top hook in patiently once upper body control is secure, or transition to body triangle if the top hook remains contested.
-
-**Q10**: What chain attacks should you have ready if the matrix entry is blocked at the leg insertion phase?
-**A**: If the leg insertion is blocked, you have several high-percentage chains available. First, switch to the opposite side for a traditional seat belt back take since the opponent has committed their defense to one side. Second, attack the crucifix if their defensive arm trapping has isolated their near arm. Third, drop to a truck entry by threading your leg differently and rotating toward their hips rather than sliding underneath. Fourth, re-establish heavy turtle top pressure and probe for front headlock submissions like the darce or anaconda if they lift their head during the exchange.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Matrix Back Take?</p>
 
 The matrix back take is generally safe when practiced with proper control and awareness. The primary safety concern is during the hip slide phase, where both practitioners are in transitional positions and coordination matters. Always ensure your partner is comfortable with the movement before adding speed or resistance. When drilling, communicate clearly if you feel off-balance or unstable during the transition. Avoid slamming or dropping your weight suddenly during the slide, as this can cause neck or shoulder injuries to the person in turtle. For the person in turtle, be aware that the matrix entry can feel disorienting initially, so tap early if pressure on your neck becomes uncomfortable. When back control is established, both practitioners should be mindful of proper hook placement to avoid knee or ankle injuries. Progress slowly through the resistance levels in training progressions to allow both practitioners to develop the necessary body awareness and control.
 

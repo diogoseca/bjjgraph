@@ -212,7 +212,7 @@ The Escape from Truck integrates with the broader defensive hierarchy in BJJ by 
 
 - [[Positions/Crab Ride]] - Related back attack position with similar escape challenges
 
-- [[Submissions/Calf Slicer from Truck]] - Submission threat during leg extraction phase of escape
+- [[Submissions/Calf Slicer]] - Submission threat during leg extraction phase of escape
 
 - [[Submissions/Banana Split]] - Submission threat from truck creating escape urgency
 

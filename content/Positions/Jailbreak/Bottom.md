@@ -169,6 +169,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Position Definition
 
+<p class="section-subtitle">What is Jailbreak (Bottom)?</p>
+
 - Bottom player maintains underhook on the same side as their trapped leg, with elbow tight to their own hip creating a structural frame that prevents top player from driving flattening pressure through the connection
 - Bottom player's hips are turned toward their trapped leg side with shoulders beginning to invert toward the mat, creating the angular momentum necessary for the explosive rolling motion to generate separation
 - Bottom player's free leg (non-trapped leg) is actively posting against the mat or creating frames against opponent's hips to prevent being completely flattened while generating additional propulsion for the escape
@@ -182,6 +184,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Jailbreak (Bottom)?</p>
+
 - Bottom player is in bottom half guard with top player establishing dominant forward pressure
 - Bottom player has secured underhook on the same side as trapped leg with elbow connection to hip
 - Top player has compromised traditional half guard retention through crossface, overhook, or heavy shoulder pressure eliminating standard framing escapes
@@ -194,6 +198,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Jailbreak?</p>
 
 - Maintain underhook throughout the entire escape sequence to prevent top player from re-establishing control or following to mount
 - Generate explosive momentum through hip movement and inversion to overcome top player's base and forward pressure commitment
@@ -209,6 +215,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Jailbreak (Bottom)?</p>
 
 **If top player has heavy crossface pressure and is driving forward with weight committed:**
 - Execute **[[Explosive Jailbreak Roll/Attacker|Explosive Jailbreak Roll]]** → [[Positions/Turtle]] (Probability: 65%)
@@ -237,6 +245,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Jailbreak?</p>
 
 ### 1. Attempting jailbreak without securing underhook first
 
@@ -276,6 +286,8 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Jailbreak defense?</p>
+
 ### Jailbreak Repetition Drill
 
 Partner holds bottom half guard with underhook, applies moderate crossface pressure. Bottom player executes jailbreak roll to turtle repeatedly, focusing on speed and technique. 10 reps per side, alternating.
@@ -308,38 +320,6 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important control point that must be maintained throughout the Jailbreak escape?
-**A**: The underhook on the same side as your trapped leg is the essential control point. This underhook serves as the connection that prevents the top player from separating from you during the roll, enables you to control the direction of the escape, and provides the leverage needed to complete the inversion. Without maintaining this underhook, the top player can easily disengage, follow to mount, or re-establish dominant top position during your escape attempt.
-
-**Q2**: The top player drives their chest forward to flatten you - what adjustment do you make?
-**A**: When the top player commits weight forward to flatten you, this is actually the optimal moment to execute the jailbreak. Use their forward momentum against them by immediately initiating the explosive roll. Their forward weight commitment means their base is compromised and vulnerable to being rolled through. The key is recognizing this moment and reacting explosively rather than trying to frame against the pressure. Tighten your underhook, tuck your chin, and roll through the pressure.
-
-**Q3**: What are the essential body mechanics for executing the Jailbreak roll safely and effectively?
-**A**: Essential mechanics include: chin tucked to chest to protect neck and enable smooth rolling, shoulders actively inverting toward the mat while maintaining underhook connection, free leg posting against mat to generate propulsion, hips turned toward trapped leg side to create angular momentum, and elbow of underhook arm tight to your hip to maintain structural connection. The movement should be explosive and committed - partial execution results in getting stuck in worse position.
-
-**Q4**: How do you shut down the primary counter (top player following to mount) when executing Jailbreak?
-**A**: The primary defense against the follow-to-mount counter is maintaining underhook connection and reading the opponent's reaction. If they follow your roll, continue the momentum rather than stopping at turtle - chain directly into a back take by using your underhook to pull yourself behind them while they chase. If you feel them loading weight to follow, accelerate your roll and keep moving. The worst outcome is stopping mid-roll which allows them to establish mount.
-
-**Q5**: What determines whether you should attempt the Jailbreak versus switching to Deep Half entry?
-**A**: The decision depends on the top player's weight distribution and base width. Jailbreak is optimal when they commit weight forward onto your upper body with a narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this creates space to dive underneath them. Read their pressure - forward commitment means jailbreak, wide defensive base means deep half. Both options use the underhook as the entry point.
-
-**Q6**: Your underhook gets stripped mid-escape attempt - what is your recovery protocol?
-**A**: When the underhook is lost mid-escape, immediately abort the jailbreak attempt and switch to emergency defense. You have two options: establish frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes. Never try to complete the jailbreak without the underhook as this guarantees they follow to mount or side control. The underhook is your lifeline - without it, the escape mechanics don't work.
-
-**Q7**: How do you manage energy expenditure when the top player is preventing your escape attempts?
-**A**: Energy management in Jailbreak Bottom requires strategic patience combined with explosive execution. Don't continuously fight for the escape against a well-based opponent. Instead, maintain your underhook defensively while waiting for them to commit weight forward for their pass. When they don't commit, consider switching to lockdown to recover energy, or threatening other attacks to force reactions. Save your explosive energy for moments when their weight is forward and the escape mechanics will work.
-
-**Q8**: Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?
-**A**: If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -10,7 +10,7 @@
     "no-gi",
     "gi"
   ],
-  "from_position": "Open Guard/Top",
+  "from_position": "De La Riva Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -243,7 +243,7 @@
         "description": "For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Develop alternative leg controls using wrist control and underhooks. Study competition footage of high-level grapplers using the pass. Experiment with using the pass to set up leg attacks or back takes when opponent defends effectively."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is it important to push the opponent's legs in the opposite direction of your lateral movement?",
         "answer": "Pushing the legs opposite to your movement creates a separation that prevents the opponent from following you with their hips. If you only move laterally without controlling the legs, they can simply rotate their hips to track your movement and maintain guard. The opposing forces (you moving one way, legs going the other) create the space needed to pass. This is the fundamental mechanical principle that makes the pass work."
@@ -378,7 +378,7 @@
         "correction": "Bridge with purpose and direction. If you bridge, combine it with a hip escape toward the passer to insert a knee shield or frame, not a straight upward bridge that leaves you in the same position"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest cue that tells you a Bullfighter Pass is being initiated rather than another standing pass?",
         "answer": "The defining early cue is bilateral grip establishment on your legs (both hands gripping at the knees or shins) combined with compression of your knees toward each other and toward your chest. This grip pattern is specific to the toreando family. Other standing passes like the long step typically use asymmetric grips or single-side control. When you feel both knees being pushed together, you know the lateral throw is coming and should immediately begin contesting one grip before the explosive step launches."
@@ -402,7 +402,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Recognition and Grip Fighting",
+        "phase": "Week 1-2: Recognition and Grips",
         "focus": "Identifying toreando setup cues and contesting leg grips",
         "description": "Partner establishes toreando grips at various intensities while you practice recognizing the bilateral grip pattern and executing two-on-one grip breaks. No passing attempted yet. Focus entirely on the grip fighting exchange: how quickly can you strip one grip and re-insert a foot on the hip? Drill both gi and no-gi grip fighting sequences."
       },

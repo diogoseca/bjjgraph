@@ -194,6 +194,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Pass from Spider?</p>
+
 - Wait for the trigger: never force the stack pass while spider guard hooks are intact—let the bottom player create the opening through their own attacks
 - Drive forward with your hips, not your hands—the stacking force must come from hip extension and forward walking pressure to generate sufficient compression
 - Control the legs immediately after establishing the stack to prevent guard recovery or defensive hip escapes
@@ -208,6 +210,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Pass from Spider?</p>
+
 - Standing or combat base position with upright posture and weight centered over both feet
 - Recognition that bottom player is initiating a submission entry or sweep that releases foot pressure from biceps
 - At least one sleeve grip broken or breakable during the forward drive
@@ -220,6 +224,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Pass from Spider step by step?</p>
 
 1. **Recognize the trigger**: Watch for the bottom player releasing foot pressure from your biceps to initiate a triangle, omoplata, or aggressive sweep. The moment one or both feet leave your biceps and their hips begin to elevate, this is your window to attack with the stack pass.
 2. **Strip remaining sleeve grips**: As you begin your forward drive, aggressively strip any remaining sleeve grip using your free hand with a sharp downward pulling motion. The bottom player cannot effectively stack-defend while also maintaining sleeve control, so this grip break should coincide with your initial forward pressure.
@@ -251,6 +257,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Pass from Spider?</p>
+
 - **Bottom player hip escapes and re-establishes foot-on-bicep hooks during initial forward drive** (Effectiveness: High) - Your Response: Accelerate your forward drive and strip grips simultaneously rather than pausing. If they re-establish hooks, disengage and return to systematic grip breaking before reattempting. → Leads to [[Positions/Spider Guard]]
 - **Bottom player shoots triangle during the stacking transition by catching your head and arm before full stack is established** (Effectiveness: Medium) - Your Response: Keep your head high and posture strong during the initial drive. If caught in triangle position, immediately posture up inside the triangle and use the stacking pressure to begin triangle escape sequences rather than pulling backward. → Leads to [[Positions/Half Guard]]
 - **Bottom player frames against your shoulders or hips to prevent full compression and creates distance to recover guard** (Effectiveness: Medium) - Your Response: Swim your arms inside their frames to collapse them, then re-drive the stack. Alternatively, switch to a leg drag pass if the frames prevent stacking by controlling one leg and dragging it across their body. → Leads to [[Positions/Spider Guard]]
@@ -262,6 +270,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Pass from Spider?</p>
 
 ### 1. Attempting the stack pass while spider guard hooks are still intact on both biceps
 
@@ -301,6 +311,8 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Pass from Spider (Attacker)?</p>
+
 **Phase 1: Stacking Mechanics** - Forward hip drive and compression fundamentals
 Practice the stacking motion against a cooperative partner. Bottom player holds spider guard position and releases one foot on command. Top player drives forward to establish the stack, focusing on hip extension, chest-to-thigh contact, and proper head positioning. Perform 20 repetitions per side with no resistance.
 
@@ -318,39 +330,12 @@ Start from spider guard with full resistance. Top player uses systematic grip br
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal timing window to initiate the stack pass from spider guard?
-**A**: The optimal window is the moment the bottom player releases foot pressure from your biceps to initiate a submission entry such as a triangle or omoplata. Their hips elevate off the mat and their legs transition from pushing against your arms to attacking, creating a brief period where the primary defensive tools of spider guard—distance control through foot-on-bicep pressure—are voluntarily removed. You must recognize and react to this trigger instantly, as the window closes quickly if the bottom player completes their submission entry or recovers guard.
-
-**Q2**: What grip must you address before or during the forward drive for the stack?
-**A**: You must strip any remaining sleeve grips during or immediately before the forward drive. Retained sleeve grips allow the bottom player to redirect your forward momentum laterally, creating sweep angles or facilitating triangle and omoplata entries. The grip strip should be integrated into the initial forward drive motion using a sharp downward pull, timed so that the grip breaks as your hips begin driving forward. Attempting the stack with grips intact converts your aggressive forward movement into an exploitable momentum vector for the guard player.
-
-**Q3**: Where should your hips be positioned relative to the opponent when establishing the stack?
-**A**: Your hips should be driven forward and low, getting underneath the opponent's elevated hips so that your hip extension lifts their hips up and over their shoulders. The power of the stack comes from hip extension driving forward and upward, not from pushing with your arms. Your chest should maintain constant contact with the back of the opponent's thighs, and your hips should be below the level of their hips so that your forward drive creates an upward stacking angle that compresses them onto their upper back and neck.
-
-**Q4**: If the opponent frames against your shoulders to prevent the stack, how do you respond?
-**A**: Swim your arms inside their frames to collapse the defensive structure, then re-drive the stack with renewed hip extension. If the frames are too strong to collapse, switch to an alternative pass rather than fighting through them—a leg drag pass works well here because you can control one leg and drag it across their body while their arms are committed to framing. The key is not to stall in a frame battle, which favors the guard player's energy conservation and allows them time to re-establish guard structure.
-
-**Q5**: What is the most critical mechanical detail of the walk-around phase after establishing the stack?
-**A**: Maintaining constant chest-to-thigh contact and low forward driving pressure throughout the walk-around. Many practitioners stand upright during this phase, which creates space for the bottom player to drop their hips and recover defensive position. Each step toward the head should increase the compression angle while your chest stays glued to the back of their thighs. Walk in small steps, keeping your center of gravity low and your hip pressure continuously applied to the stack.
-
-**Q6**: How do you prevent a triangle entry when driving forward for the stack pass?
-**A**: Keep your head high and positioned to one side rather than diving straight forward between the opponent's legs. Press your ear against the outside of their thigh as you drive, which prevents them from capturing your head inside a triangle position. Additionally, your forward drive should be explosive enough that you pass through the triangle danger zone before the bottom player can close their legs. If you feel their leg coming over your shoulder, immediately posture up and drive the stack deeper rather than pulling backward, which would load the triangle.
-
-**Q7**: Your stack pass attempt is blocked and the opponent recovers spider guard—what should you chain to next?
-**A**: Return to systematic grip breaking and proactive passing rather than forcing another stack pass attempt. The bottom player is now alert to the stacking threat and will be more conservative with their attacks. Use toreando or leg drag passes to create pressure and force them to react. If they commit to another attack after you re-establish systematic passing pressure, the stack pass window will reopen. Repeatedly attempting the stack pass without the proper trigger telegraphs your intention and allows the bottom player to bait and counter your forward drives.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Pass from Spider?</p>
 
 Stack passes generate significant compressive force on the bottom player's cervical spine and neck. Apply stacking pressure gradually and progressively rather than slamming or dropping weight suddenly. Be alert to signs of neck discomfort from your training partner—grimacing, tapping the mat, or verbal signals. If the bottom player taps or signals any pain during the stack, release pressure immediately. Practitioners with pre-existing neck or cervical spine conditions should communicate their limitations before training this technique. The top player should also protect their own lower back during the initial forward drive by maintaining proper spinal alignment and generating force through hip extension rather than spinal flexion.
 

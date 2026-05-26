@@ -36,7 +36,7 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Elbows must remain connected tight to knees to prevent hooks and harness control

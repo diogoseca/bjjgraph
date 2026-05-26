@@ -213,7 +213,7 @@ Single Leg X Entry serves as a crucial hub transition in modern guard systems, p
 
 - [[Transitions/Technical Stand Up to Single Leg]] - Setup technique — uses technical stand-up movement to bait opponent into entry range
 
-- [[Submissions/Kneebar from Guard]] - Submission option — direct attack available from established Single Leg X position
+- [[Transitions/Kneebar]] - Submission option — direct attack available from established Single Leg X position
 
 - [[Transitions/Elevator Sweep]] - Related sweep mechanics — similar off-balancing principles applied from different guard
 

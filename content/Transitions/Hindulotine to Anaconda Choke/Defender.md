@@ -158,13 +158,15 @@ The defender's primary challenge is managing the dilemma between relieving guill
 
 Defensive success depends on early recognition and decisive action during the transition window. If you feel the attacker's arm beginning to slide under your armpit rather than continuing to squeeze the guillotine, you must immediately retract your frame and re-establish tight defensive posture. Waiting even one second too long allows the anaconda grip to lock, at which point your defensive options narrow significantly to grip fighting and hip escape rather than outright denial of the position.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Hindulotine to Anaconda Choke?</p>
 
 - Attacker's choking arm begins sliding deeper under your armpit rather than maintaining standard guillotine squeeze across your throat
 - You feel the attacker release their guillotine grip hand momentarily to rethread for a figure-four configuration on the far side of your neck
@@ -177,6 +179,8 @@ Defensive success depends on early recognition and decisive action during the tr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hindulotine to Anaconda Choke?</p>
 
 - Recognize the arm threading motion early - the attacker's forearm sliding under your armpit is the primary danger signal
 - Control the space under your near-side armpit by keeping your elbow tight to your body when framing against the guillotine
@@ -191,6 +195,8 @@ Defensive success depends on early recognition and decisive action during the tr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hindulotine to Anaconda Choke?</p>
 
 ### 1. Retract defensive frame and re-tuck arm tight to body before attacker can thread under armpit
 
@@ -228,6 +234,8 @@ Defensive success depends on early recognition and decisive action during the tr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hindulotine to Anaconda Choke?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Retract your defensive frame immediately when you recognize the arm threading motion, keeping your elbow pinched tight to your body to block the under-armpit path. This denies the anaconda entry and returns to standard Hindulotine, where you still face the guillotine but have removed the anaconda threat.
@@ -243,6 +251,8 @@ Time an explosive posture-up during the grip transition window when the attacker
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hindulotine to Anaconda Choke?</p>
 
 ### 1. Maintaining the defensive frame after recognizing the anaconda threading motion
 
@@ -272,6 +282,8 @@ Time an explosive posture-up during the grip transition window when the attacker
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hindulotine to Anaconda Choke?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner establishes Hindulotine and slowly transitions to anaconda at 20-30% speed. Focus on recognizing the feeling of the arm threading under your armpit and identifying the transition window. No active defense yet - simply identify the cues and verbalize when you feel the transition beginning.
 
@@ -288,29 +300,6 @@ Defend the transition in live rolling from established Hindulotine positions. Tr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from Hindulotine to Anaconda?
-**A**: The earliest cue is feeling the attacker's forearm begin sliding deeper under your armpit rather than maintaining the standard guillotine squeeze across your throat. This subtle directional change in arm pressure indicates they are threading for the anaconda configuration. You may also feel a brief loosening of the guillotine grip as they reposition their hand for the figure-four lock.
-
-**Q2**: Why is retracting your defensive frame the highest-priority defensive action during the transition?
-**A**: Your defensive frame is the exact opening the attacker needs to thread the anaconda grip. By retracting it and pinching your elbow tight to your ribs, you physically block the threading path under your armpit. While this re-exposes you to the guillotine, the guillotine is a known threat you were already managing, whereas allowing the anaconda to lock creates a much more dangerous position with your own arm trapped against your neck.
-
-**Q3**: Your opponent has locked the anaconda figure-four but has not yet started the hip walk - what is your best defensive action?
-**A**: Use your free hand to attack the figure-four grip at the point where the attacker's hand grabs their bicep. Pull on their choking wrist to create space between your neck and their forearm. Simultaneously move your hips away from them to reduce compression and prevent the hip walk from tightening the strangle. Keep your chin tucked to your free-side shoulder to protect the carotid arteries while you fight the grip.
-
-**Q4**: When during the transition is posturing up most likely to succeed as a defensive option?
-**A**: Posturing up is most effective during the brief moment when the attacker releases their guillotine grip to rethread for the anaconda, as this creates a momentary gap in neck control. This window typically lasts less than one second. If the anaconda grip is already locked, posturing becomes counterproductive because driving your head upward actually tightens the constricting loop around your neck and trapped arm.
-
-**Q5**: How should you modify your defensive frames against the Hindulotine to avoid giving the anaconda entry?
-**A**: Instead of posting your hand or elbow away from your body to create space against the guillotine, keep your defensive frames tight with elbows pinched to your ribs. Use your forearms and wrists to create smaller frames that relieve guillotine pressure without opening the space under your armpit needed for the anaconda. Alternatively, frame on the attacker's hip rather than against their chest, as this creates distance without exposing the armpit path.
-
-
-
-</section>
 
 
 </main>

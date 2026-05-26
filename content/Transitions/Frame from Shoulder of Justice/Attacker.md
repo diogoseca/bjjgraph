@@ -188,6 +188,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame from Shoulder of Justice?</p>
+
 - Target the pressure vector, not the weight: disrupt the 45-degree shoulder angle rather than trying to lift the opponent's body mass off you
 - Use skeletal frame alignment through the ulna bone rather than muscular pushing to create sustainable barriers that resist collapse under heavy pressure
 - Keep the near arm within your body's centerline at all times to prevent kimura exposure during frame insertion
@@ -202,6 +204,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame from Shoulder of Justice?</p>
+
 - Established nasal breathing rhythm to maintain composure and prevent panic-driven arm extensions under jaw pressure
 - Near-side elbow positioned tight against your own ribs with forearm available for wedge insertion without arm extension
 - Far arm kept tight against far-side ribs and never crossing body centerline to prevent arm triangle setup
@@ -213,6 +217,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame from Shoulder of Justice step by step?</p>
 
 1. **Establish breathing control under pressure**: Force steady nasal breathing despite the jaw pressure. The Shoulder of Justice is designed to provoke panic and reactive arm extensions. Accept the discomfort as temporary and focus on controlled breathing cycles to maintain the composure required for precise frame mechanics.
 2. **Assess the pressure vector direction**: Identify the angle at which the opponent's shoulder blade is driving into your jaw. Determine whether the pressure is directed primarily toward your far shoulder, downward into the mat, or slightly toward your head. This assessment determines where your frame must be positioned to redirect the pressure most effectively.
@@ -242,6 +248,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame from Shoulder of Justice?</p>
+
 - **Opponent collapses the frame by driving body weight through shoulder and reconnecting hip-to-hip pressure** (Effectiveness: High) - Your Response: Maintain the frame through skeletal alignment rather than muscular resistance. If the frame collapses fully, reset by tucking the arm tight and waiting for the next micro-adjustment to re-insert the wedge. Do not escalate to arm extension. → Leads to [[Positions/Shoulder of Justice]]
 - **Opponent catches the near arm in a kimura grip when the forearm separates from the body during frame insertion** (Effectiveness: High) - Your Response: Immediately retract the arm to your ribcage, clamp the elbow tight, and grip your own shorts or belt to prevent isolation. Abandon the frame attempt and reset. The kimura window is brief if you react quickly to the grip attempt. → Leads to [[Positions/Kimura Trap]]
 - **Opponent adjusts shoulder pressure angle to bypass the frame and re-establish jaw contact from a different direction** (Effectiveness: Medium) - Your Response: Follow the opponent's shoulder angle adjustment with your frame, repositioning the wedge to continue disrupting their new pressure vector. The opponent's adjustment itself is a weight shift that may create additional escape opportunities. → Leads to [[Positions/Shoulder of Justice]]
@@ -253,6 +261,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame from Shoulder of Justice?</p>
 
 ### 1. Extending the near arm beyond the body centerline to push the opponent's shoulder away from the jaw
 
@@ -292,6 +302,8 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame from Shoulder of Justice (Attacker)?</p>
+
 **Phase 1: Frame Mechanics Isolation** - Forearm wedge positioning and skeletal alignment
 Partner establishes light Shoulder of Justice pressure. Practice inserting the forearm wedge against the shoulder junction using bone alignment only. No escape attempts. Focus on finding the optimal contact point, maintaining the frame without arm extension, and developing the rotation mechanics that create the wedge from a protected elbow-to-rib position.
 
@@ -312,42 +324,12 @@ Positional sparring starting from Shoulder of Justice. Bottom player works to de
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How does the Frame from Shoulder of Justice differ from the Frame Escape from Shoulder of Justice in terms of objective?
-**A**: The Frame from Shoulder of Justice aims to degrade the position to standard side control bottom by disrupting the 45-degree shoulder pressure angle, giving access to the full range of side control escapes. The Frame Escape from Shoulder of Justice aims for complete guard recovery to half guard. This technique is a partial improvement that serves as the first step in a multi-technique escape chain rather than a standalone escape.
-
-**Q2**: Why should the forearm frame target the opponent's shoulder junction rather than their chest?
-**A**: The shoulder junction where the deltoid meets the trapezius is a narrow bony contact point where a forearm wedge can redirect the shoulder pressure vector with minimal force. The chest provides a large flat surface that absorbs and distributes frame pressure without disrupting the shoulder angle. Targeting the junction creates maximum mechanical disruption of the specific pressure alignment that defines the Shoulder of Justice.
-
-**Q3**: Your opponent collapses your frame by driving heavier weight through their shoulder. What is the correct response?
-**A**: Maintain the frame through skeletal alignment rather than escalating to muscular resistance. If the frame fully collapses, retract the arm tight to your ribs and wait for the next micro-adjustment to re-insert the wedge. Do not extend the arm further as a reaction to the increased pressure, as this is precisely the kimura-exposing response the pressure is designed to provoke.
-
-**Q4**: What is the optimal amount of hip escape needed for this technique, and why is a large hip escape counterproductive?
-**A**: Only two to four inches of hip escape is needed to reinforce the frame's disruption of the shoulder pressure angle. A large hip escape creates significant space that the opponent can use to advance to mount before you have established a knee shield, which is not part of this technique's objective. The small hip escape changes the angle without creating the space that invites mount transition.
-
-**Q5**: How do you confirm that the Shoulder of Justice has been successfully degraded to standard side control?
-**A**: The jaw is no longer under direct shoulder blade attack from a concentrated 45-degree angle. The opponent's pressure feels diffused across your chest rather than focused through a single point on your jaw. Their shoulder may still be heavy but has lost the specific alignment into your temporomandibular joint that creates the intense discomfort and dilemma system of the Shoulder of Justice.
-
-**Q6**: Your opponent reaches for a kimura grip when your forearm separates slightly during frame insertion. How fast must you react?
-**A**: You must retract the arm to your ribcage within one to two seconds before the opponent secures a two-on-one grip on your wrist. The kimura window is brief if you react quickly because the opponent must release their pressure base to reach for the grip. Immediately clamp your elbow to your ribs and grip your own shorts or belt. Abandoning one frame attempt is far better than losing the arm to a kimura from this position.
-
-**Q7**: After successfully framing to standard side control, what should you do next and why?
-**A**: Immediately begin preparing for your preferred side control escape technique such as elbow escape, hip escape to guard, or ghost escape. The frame technique has converted an extremely difficult escape scenario into a standard one, but you remain in side control bottom which is still a disadvantageous position. Do not rest or celebrate the improvement, as the opponent will either re-establish Shoulder of Justice or begin attacking from standard side control.
-
-**Q8**: Why is skeletal alignment through the ulna bone more effective than muscular pushing for frame maintenance?
-**A**: Skeletal alignment creates a structural barrier that transfers load through bone rather than through muscle contraction. Bones can sustain compressive forces indefinitely without fatigue, while muscles fatigue rapidly under sustained isometric contraction. A frame built on ulna-to-bone contact maintains structural integrity for the duration needed without energy cost, while muscular pushing exhausts the forearm within seconds under heavy Shoulder of Justice pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame from Shoulder of Justice?</p>
 
 The Frame from Shoulder of Justice involves sustained jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity and establish tap signals for pressure reduction. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should inform partners before drilling. Begin with light pressure and increase gradually across sessions. Never attempt to power through neck pain during frame insertion, as cervical strain can result from improper head positioning under heavy shoulder pressure.
 

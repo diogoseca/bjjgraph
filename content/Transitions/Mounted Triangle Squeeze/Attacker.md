@@ -57,7 +57,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
     {
       "@type": "HowToStep",
       "name": "Assess squeeze effectiveness and transition decision",
-      "text": "After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Mounted Triangle Finish. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm.",
+      "text": "After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Triangle Choke. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm.",
       "position": 7
     }
   ],
@@ -188,6 +188,8 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mounted Triangle Squeeze?</p>
+
 - Angle before pressure: correct hip angle creates mechanical advantage that multiplies squeeze effectiveness
 - Use skeletal structure and gravity rather than muscular squeezing for sustainable pressure
 - Break posture with hands pulling head down before committing to maximum leg squeeze
@@ -203,6 +205,8 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mounted Triangle Squeeze?</p>
+
 - Mounted triangle established with figure-four lock at least partially closed
 - Opponent's posture partially broken with head below the attacker's chest line
 - At least one arm trapped inside the triangle between the attacker's thighs
@@ -216,13 +220,15 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Mounted Triangle Squeeze step by step?</p>
+
 1. **Confirm triangle lock integrity**: Verify the figure-four lock is secure with your ankle tucked behind your opposite knee. Squeeze your knees together briefly to test compression quality. If the lock feels loose or your ankle slips, re-establish the lock before proceeding with the squeeze sequence.
 2. **Establish head control**: Place both hands behind the opponent's skull and pull their head firmly downward toward their trapped arm side. This posture break drives their trapped shoulder deeper into the carotid artery and prevents them from creating space with upward posture. Maintain constant downward pressure throughout the squeeze.
 3. **Adjust hip angle**: Walk your hips to create a perpendicular angle relative to the opponent's spine. The ideal angle places your cutting thigh directly across the lateral neck while the trapped arm shoulder presses into the opposite carotid. Small hip adjustments dramatically change choking effectiveness, so experiment with micro-movements until you feel the choke bite.
 4. **Initiate progressive leg squeeze**: Begin contracting your legs in a controlled, progressive manner. Squeeze your knees toward each other while pulling your heels toward your hips to tighten the figure-four lock. Apply pressure in ratcheting increments rather than one sustained maximum effort, holding each new level of tightness before increasing further.
 5. **Eliminate remaining defensive space**: As the squeeze tightens, identify any remaining gaps where the opponent has space for their chin, fingers, or frames. Use your free hand to strip defensive grips, tuck away their chin space by pulling their head tighter, and close any gap between your inner thigh and their neck. Every millimeter of space elimination increases choking pressure exponentially.
 6. **Consolidate base during squeeze**: Throughout the squeezing process, maintain awareness of your bottom leg position and base stability. Post your bottom leg wide enough to absorb any bridge attempts while keeping enough connection to the opponent's torso to prevent hip escapes. A successful squeeze that costs you the position accomplishes nothing.
-7. **Assess squeeze effectiveness and transition decision**: After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Mounted Triangle Finish. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm.
+7. **Assess squeeze effectiveness and transition decision**: After completing the squeeze sequence, evaluate whether the triangle is now tight enough to proceed to the finish or whether additional adjustment is needed. Check for signs of effective compression: opponent's face color change, reduced defensive movement, weakening frame pressure. If the squeeze has achieved sufficient tightening, proceed to the Triangle Choke. If not, repeat the squeeze cycle or transition to armbar if the opponent's defensive adjustments expose the arm.
 
 
 </section>
@@ -244,6 +250,8 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mounted Triangle Squeeze?</p>
+
 - **Opponent creates defensive frame with free arm against attacker's hip to prevent angle adjustment** (Effectiveness: High) - Your Response: Strip the frame by controlling their wrist and pinning it to their chest or the mat. Alternatively, switch to gift wrap control on the free arm before resuming the squeeze. The frame must be eliminated before meaningful squeeze pressure can be applied. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent tucks chin aggressively and turns head away from choking angle** (Effectiveness: Medium) - Your Response: Use the head pull to rotate their chin back toward the trapped arm side. The chin tuck reduces choking pressure but cannot fully prevent it if your angle is correct. Increase hip angle adjustment to find the line where the squeeze bites despite the chin tuck. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent attempts explosive bridge during squeeze to disrupt lock and create escape** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your bottom leg post and shifting your weight slightly backward. Maintain the triangle lock throughout the bridge. The bridge costs the opponent significant energy and often makes the subsequent squeeze easier as they fatigue. If the bridge is powerful enough to compromise position, transition back to high mount or S mount. → Leads to [[Positions/Mount]]
@@ -255,6 +263,8 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mounted Triangle Squeeze?</p>
 
 ### 1. Squeezing with maximum muscular effort from the start rather than progressive tightening
 
@@ -294,10 +304,12 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mounted Triangle Squeeze (Attacker)?</p>
+
 **Phase 1: Squeeze Mechanics Isolation** - Figure-four compression and angle adjustment fundamentals
 Practice the squeeze mechanics with a compliant partner. Focus on finding the optimal angle, progressive ratcheting compression, and head control coordination. No resistance. Repeat 20 times per side, focusing on smooth technique.
 
-**Phase 2: Posture Breaking Integration** - Combining head pull with leg squeeze in coordinated sequence
+**Phase 2: Posture Integration** - Combining head pull with leg squeeze in coordinated sequence
 Partner provides moderate posture resistance. Practice breaking posture first, then transitioning to squeeze. Develop the timing of when to pull the head and when to initiate leg compression. 10 repetitions per side with increasing resistance.
 
 **Phase 3: Counter Management** - Maintaining squeeze against specific defensive reactions
@@ -314,45 +326,12 @@ Positional sparring starting from established mounted triangle. Attacker works s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is hip angle adjustment more important than raw squeezing force for the mounted triangle squeeze?
-**A**: Hip angle determines the vector along which compression is applied to the carotid arteries. A perpendicular angle to the opponent's spine positions the thigh directly across the lateral neck while the trapped shoulder presses the opposite carotid. Without proper angle, even maximum leg compression creates pressure that misses the arteries and compresses non-vital structures. Correct angle provides mechanical advantage that multiplies the effectiveness of every unit of squeezing force applied.
-
-**Q2**: What is the optimal timing window for initiating the squeeze after establishing the mounted triangle?
-**A**: The squeeze should begin immediately after confirming three prerequisites: secure figure-four lock, at least partial posture break, and stable base. Delaying the squeeze gives the opponent time to build defensive frames and establish defensive grip sequences. However, rushing the squeeze before the lock is properly configured wastes energy on ineffective compression. The window opens the moment the triangle lock is verified and closes as the opponent establishes organized defense, typically within 5-8 seconds of triangle establishment.
-
-**Q3**: Your opponent is defending the squeeze with an aggressive chin tuck - how do you adjust your approach?
-**A**: Pull their head more aggressively toward the trapped arm side using both hands behind the skull. The chin tuck reduces available choking angle but cannot fully prevent carotid compression if the hip angle is correct. Simultaneously, adjust your hip angle to find the line where the inner thigh clears the chin and contacts the lateral neck. If the chin tuck remains effective, consider transitioning to the armbar, as the chin tuck defense often leaves the trapped arm more exposed.
-
-**Q4**: What are the critical grip requirements for maintaining effective squeeze pressure?
-**A**: The primary grip is the figure-four lock configuration with the ankle secured behind the opposite knee. Secondary grip is head control with both hands clasped behind the opponent's skull or one hand behind the head and one controlling the trapped arm's wrist. In gi, grabbing your own shin or pant leg adds additional lock security. The figure-four must be confirmed before any squeeze attempt, as grip failure during maximum compression creates an immediate escape window.
-
-**Q5**: How do you diagnose whether your squeeze is applying effective carotid compression versus just muscular pressure?
-**A**: Effective carotid compression produces visible signs within 5-10 seconds: the opponent's face changes color toward red or purple, their defensive movements become less coordinated, and their frame strength diminishes noticeably. If you are squeezing hard but the opponent shows no distress, the angle is incorrect and the pressure is compressing muscles or non-vital structures. The diagnostic step is to adjust angle in small increments while maintaining squeeze and observing for these effectiveness indicators.
-
-**Q6**: What common failure point causes the figure-four lock to slip during the squeeze?
-**A**: The most common cause is beginning the squeeze before the ankle is fully secured behind the opposite knee. Sweat, friction loss, or the opponent's head movement can dislodge a loosely positioned ankle. The correction is to over-hook the ankle deeper behind the knee, pulling it past the minimum lock position before squeezing. Additionally, squeezing too explosively can create a shearing force that pushes the ankle out, which is why progressive ratcheting is mechanically superior to one sustained maximum contraction.
-
-**Q7**: Your opponent posts their free arm as a frame against your hip during the squeeze - how do you respond?
-**A**: The frame must be eliminated before effective squeeze tightening can continue. Strip the frame by controlling their wrist with your hand and pinning it to their chest or the mat. If they re-establish the frame, switch to gift wrap control by threading their free arm across their body and trapping it under your armpit. Once the frame is neutralized, resume the squeeze sequence. Never attempt to squeeze through an active frame, as it wastes energy and the frame prevents the angle adjustment needed for effective compression.
-
-**Q8**: What is the primary direction of force application during the mounted triangle squeeze?
-**A**: The primary force vector is medial bilateral compression directed inward toward the opponent's centerline from both sides of the neck simultaneously. The cutting thigh applies force from the lateral neck toward the midline, while the trapped shoulder acts as a counter-force from the opposite side. Secondary force is the downward pull on the head, which drives the trapped shoulder deeper and shortens the choking circumference. These two force vectors combine to create a compression effect greater than either alone.
-
-**Q9**: If the squeeze is fully defended and the opponent is surviving with organized defense, what chain attacks should you consider?
-**A**: The primary chain attack is the armbar on the trapped arm, especially if the opponent has loosened it during defense. The arm extraction defense often leaves the arm extended and vulnerable. Secondary is the back take when the opponent turns to relieve squeeze pressure. Their turning motion exposes the back for seat belt grip and hook insertion. Third is transitioning to S mount if the triangle configuration is too compromised for finishing but you want to maintain high mount attacking position. Never persist with a fully defended squeeze for more than 15-20 seconds without transitioning.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mounted Triangle Squeeze?</p>
 
 The mounted triangle squeeze involves significant cervical compression and carotid artery pressure. Apply squeeze progressively and never explosively jerk or spike the compression. In training, squeeze incrementally and give your partner time to tap. Be aware that the combination of mount weight and triangle squeeze can create tracheal pressure in addition to carotid compression. Release immediately upon tap, verbal submission, or any sign of loss of consciousness. Avoid cranking the neck laterally during angle adjustments. Partners should tap early when they feel the squeeze take effect rather than fighting through significant pressure.
 

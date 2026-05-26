@@ -179,6 +179,8 @@ From a learning progression standpoint, developing effective New York Top defens
 
 ## Position Definition
 
+<p class="section-subtitle">What is New York (Top)?</p>
+
 - Top player's arm is trapped in opponent's deep overhook with limited posting capacity and compromised base on the trapped arm side
 - Top player's posture is broken forward by opponent's shin across the back, preventing upright positioning and limiting ability to generate pressure or pass guard
 - Top player must maintain defensive awareness against multiple simultaneous submission threats including triangles, omoplatas, and armbars while attempting to escape position
@@ -189,6 +191,8 @@ From a learning progression standpoint, developing effective New York Top defens
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing New York (Top)?</p>
 
 - Opponent has established deep overhook control around top player's arm with shoulder tight against armpit
 - Opponent's leg is wrapped high around top player's back with shin positioned across shoulder blades
@@ -201,6 +205,8 @@ From a learning progression standpoint, developing effective New York Top defens
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from New York?</p>
 
 - Base establishment is the first priority - without stable base, all escape attempts fail
 - Posture recovery must precede overhook extraction - attempting extraction without posture is ineffective
@@ -216,6 +222,8 @@ From a learning progression standpoint, developing effective New York Top defens
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from New York (Top)?</p>
 
 **If opponent maintains static New York control without immediate attack:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
@@ -234,7 +242,7 @@ From a learning progression standpoint, developing effective New York Top defens
 
 **If opponent's grip on shin momentarily weakens or releases:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 70%)
-- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** → [[Positions/Side Control]] (Probability: 30%)
 
 
 
@@ -244,6 +252,8 @@ From a learning progression standpoint, developing effective New York Top defens
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from New York?</p>
 
 ### 1. Attempting to explosively extract trapped arm without first establishing base and posture
 
@@ -288,6 +298,8 @@ From a learning progression standpoint, developing effective New York Top defens
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train New York attacks?</p>
+
 ### New York Escape Sequence
 
 Partner establishes full New York control with deep overhook and shin position. Practice systematic escape sequence: widen base, fight for posture, extract overhook, pass guard. Partner offers moderate then increasing resistance. Complete full sequence 8-10 times per round focusing on technical precision rather than speed.
@@ -320,38 +332,6 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving their shin deeper across your back - what immediate adjustment should you make?
-**A**: Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions.
-
-**Q2**: What is the correct sequence for escaping New York Top and why does order matter?
-**A**: The correct sequence is: base first, posture second, overhook extraction third, guard pass fourth. Order matters because each step creates the structural foundation for the next. Without base, posture attempts result in sweeps. Without posture, overhook extraction fails because the shin leverage keeps the arm pinned. Attempting to skip steps or address elements out of sequence allows the bottom player to counter and advance to more dominant positions or submissions.
-
-**Q3**: What are the essential grips and frames you need to establish when beginning your escape?
-**A**: Your free hand should establish a frame on their hip or belt to prevent them from following your hip movement. The trapped arm should focus on blocking their overhook from deepening rather than immediately extracting. Your knees need to create a wide base for stability. Grip-fighting the opponent's shin-gripping hand is essential for creating the opening needed to begin posture recovery. These frames prevent advancement while you work systematically toward escape.
-
-**Q4**: How do you shut down the primary submission threat (triangle) during your escape attempt?
-**A**: Keep your trapped elbow tight to your body and pointed downward rather than flaring out. When you feel them attempting to elevate their hips or shoot their leg over your shoulder, immediately posture toward the trapped arm side while driving your weight forward to flatten their hips. If the triangle is already being locked, stack them immediately by driving forward and up while turning toward the choking leg to relieve pressure and create extraction opportunities.
-
-**Q5**: What adjustments should you make when the opponent drives forward aggressively trying to advance to Chill Dog or Gogoplata?
-**A**: When they drive forward, use their momentum against them by accepting the forward pressure momentarily while stacking them. Drive your shoulder into their hips and begin to walk your knees forward to flatten them. This stacking defense neutralizes both Chill Dog and Gogoplata threats because it removes the hip elevation they need. From the stacked position, you can begin working to extract your arm and pass to side control.
-
-**Q6**: How should you apply pressure to prevent being swept while maintaining base in New York Top?
-**A**: Apply downward pressure through your hips and chest while keeping your base wide with knees spread. Your weight should be distributed across both knees rather than concentrated on the trapped arm side where your base is compromised. Drive your hips down and back slightly rather than forward, which prevents them from using hip bumps. Keep your free hand posted or framing on their hip to feel for hip movement that signals sweep attempts.
-
-**Q7**: You've managed to partially recover posture but your arm remains trapped - what do you do next?
-**A**: With partial posture recovered, immediately grip-fight their shin-controlling hand while maintaining your posture through core engagement. Circle your trapped elbow downward and toward your hip in a corkscrew motion rather than pulling straight back. As you extract, keep your weight on your knees and be ready to immediately address their guard retention attempts. Have your passing grip ready to control their legs the moment your arm comes free.
-
-**Q8**: How do you manage energy expenditure during an extended engagement in New York Top?
-**A**: Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -210,11 +210,11 @@ The Leg Drag to Knee on Belly transition sits at a critical junction in the pres
 
 - [[Transitions/Leg Drag to Mount]] - Alternative advancement option
 
-- [[Transitions/Baseball Bat Choke]] - Follow-up submission from knee on belly
+- [[Submissions/Baseball Bat Choke]] - Follow-up submission from knee on belly
 
-- [[Submissions/Armbar from Side Control]] - Follow-up attack from knee on belly
+- [[Transitions/Far Side Armbar from KOB]] - Follow-up armbar attack from knee on belly
 
-- [[Transitions/Cross Collar Choke]] - Follow-up submission from knee on belly
+- [[Submissions/Cross Collar Choke]] - Follow-up submission from knee on belly
 
 - [[Positions/Half Guard]] - Common recovery position if transition fails
 

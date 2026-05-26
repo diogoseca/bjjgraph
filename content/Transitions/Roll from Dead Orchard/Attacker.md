@@ -194,6 +194,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll from Dead Orchard?</p>
+
 - Use the opponent's forward pressure commitment as your escape fuel rather than fighting against their weight directly
 - Time the roll during the opponent's maximum forward drive when their weight is most committed and least recoverable
 - Roll toward the choking arm side to maximize disruption of the anaconda grip's circular compression angle
@@ -208,6 +210,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll from Dead Orchard?</p>
+
 - Create initial space at the neck with the free hand by wedging the forearm between your neck and the opponent's choking arm at the elbow crook
 - Shift hips toward the choking arm side to load the rotation direction and create the angle for the forward roll
 - Tuck the chin tightly to the chest to protect the neck during the rolling motion and prevent the choke from deepening mid-roll
@@ -220,6 +224,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll from Dead Orchard step by step?</p>
 
 1. **Create space at the neck**: Use your free hand to wedge your forearm between your neck and the opponent's choking arm at the elbow crook. This creates a momentary pocket of space that prevents the choke from finishing during the roll setup phase. Do not push outward with force, instead use skeletal framing to maintain the space efficiently.
 2. **Load hips toward the choking arm side**: Shift your hips slightly toward the side of the opponent's choking arm, angling your body to load the rotation direction. This hip adjustment should be subtle enough that the opponent reads it as a standard hip escape attempt rather than a roll setup. Your near knee should slide forward slightly to create the rotational axis.
@@ -250,6 +256,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll from Dead Orchard?</p>
+
 - **Opponent follows the roll maintaining chest-to-back contact and inserts hooks during rotation** (Effectiveness: High) - Your Response: Accelerate through the roll faster than they can follow, and immediately begin hand-fighting their harness grips upon landing in turtle rather than allowing hooks to settle → Leads to [[Positions/Back Control]]
 - **Opponent sprawls hips back and drives shoulder weight down to prevent rotation from initiating** (Effectiveness: High) - Your Response: If the roll is completely blocked, abandon the attempt and return to frame-based defense at the neck, waiting for the next forward pressure commitment before reattempting → Leads to [[Positions/Dead Orchard Control]]
 - **Opponent releases anaconda grip during the roll and transitions to harness or seatbelt control** (Effectiveness: Medium) - Your Response: The grip release is actually a partial success since the choke threat is eliminated. Focus on preventing hook insertion by keeping elbows tight and immediately initiating turtle escape sequences → Leads to [[Positions/Back Control]]
@@ -261,6 +269,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll from Dead Orchard?</p>
 
 ### 1. Rolling in the wrong direction, away from the choking arm instead of toward it
 
@@ -300,6 +310,8 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll from Dead Orchard (Attacker)?</p>
+
 **Phase 1: Solo Rolling Mechanics** - Forward roll technique and body positioning
 Practice forward rolls in both directions on the mat without a partner, focusing on tucking the chin, rounding the shoulders, and landing in tight turtle posture. Perform 20 rolls per side per session, gradually increasing speed while maintaining form. Add the posting hand guide rail and practice loading hips to one side before rolling.
 
@@ -320,42 +332,12 @@ Start in established dead orchard control bottom with partner at full resistance
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you roll toward the choking arm side rather than away from it?
-**A**: Rolling toward the choking arm side disrupts the circular compression angle of the anaconda grip. The anaconda choke works by creating circular pressure around the neck and trapped arm toward the far shoulder. Rolling toward the choking arm reverses this compression direction, breaking the structural alignment needed for the blood choke. Rolling away from the choking arm actually tightens the grip because the rotation reinforces the choke's compression angle.
-
-**Q2**: What is the optimal timing window for initiating the roll escape?
-**A**: The optimal window is the moment when the opponent commits their weight forward to finish the choke. During this forward drive, their weight is maximally committed and they cannot easily retract or change direction to follow your roll. You feel this as increased shoulder pressure and their hips driving forward simultaneously. Initiating before this commitment allows them to follow easily, and waiting too long means the choke is already finishing.
-
-**Q3**: Your opponent blocks the standard forward roll by sprawling their hips back - how do you adjust?
-**A**: If the opponent sprawls to block the forward roll, do not force through the blocked direction. Instead, immediately return to frame-based defense at the neck and reset. Wait for their next forward pressure commitment before reattempting. Alternatively, if their sprawl creates space at the hips, you may be able to execute a hip escape or granby-style inversion roll at a diagonal angle that bypasses their sprawled hip position. The key is never fighting a blocked roll path.
-
-**Q4**: What is the critical mechanical detail that makes or breaks this escape?
-**A**: The rotation must come from hip drive, not neck movement. The hips generate the rotational force while the head stays tucked and protected. Practitioners who lead with the head or try to rotate primarily through the upper body end up with the choke tightening mid-roll because the neck extends under load. Proper hip-driven rotation keeps the chin tucked, protects the cervical spine, and generates enough force to break through the grip alignment without relying on neck extension.
-
-**Q5**: Your roll succeeds but the opponent follows and reaches for your hips as you land in turtle - what is your immediate response?
-**A**: Immediately tuck elbows tight to knees and begin active movement rather than settling into static turtle. The opponent reaching for your hips means they have not yet secured upper body control or hooks. Prioritize a granby roll, sit-through, or technical standup before they can establish seatbelt control. The window between landing in turtle and the opponent re-establishing dominant grips is approximately 2-3 seconds, and you must use that window to initiate the next escape in the chain.
-
-**Q6**: What grip configuration should your free hand use when framing before the roll?
-**A**: The free hand should wedge the forearm between your neck and the opponent's choking arm at the elbow crook, using skeletal framing rather than muscular pushing. The forearm creates a structural block that prevents the choke from tightening further during the roll setup. Do not try to peel the hands apart, as this wastes energy and is rarely effective against a committed grip. The frame at the elbow joint disrupts the squeeze mechanics at the weakest structural point of the choke configuration.
-
-**Q7**: Why is this technique positioned as a last resort in the dead orchard escape hierarchy?
-**A**: The roll carries significant risk of giving up back control because the rotation temporarily exposes the back to the opponent who can follow the movement. Frame-based escapes and arm extractions maintain a more defensive posture throughout and carry lower risk of positional deterioration. The roll should only be used when the choke is actively tightening and higher-percentage methods have been denied. Using the roll as a first option bypasses safer alternatives and introduces unnecessary risk of ending up in back control bottom.
-
-**Q8**: How does the opponent's body type affect your roll direction and speed?
-**A**: Against a heavier, slower opponent, the standard forward roll is more effective because their committed weight provides more rotational energy and they are slower to follow the movement. Against a lighter, more athletic opponent, consider the diagonal roll variation that changes the angle to deny the follow, since lighter opponents can more easily match your rotational speed. Against opponents with very long arms, the grip disruption during the roll may be less effective, so you need to be more explosive and commit to stripping the trapped arm during the rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll from Dead Orchard?</p>
 
 The roll from dead orchard involves cervical spine rotation under significant pressure from the anaconda grip. Never force the roll if you experience sharp neck pain during the setup or rotation. Tap immediately if the choke tightens during the roll attempt rather than continuing through, as the rotational forces combined with choke compression can cause cervical injury. In training, communicate with your partner about neck pressure thresholds before drilling this technique. The rolling motion must come from hip rotation, not neck twisting. Practitioners with pre-existing cervical spine conditions, disc injuries, or neck instability should avoid this technique and focus on frame-based escapes instead. Always warm up the neck thoroughly before drilling roll escapes from choke positions.
 

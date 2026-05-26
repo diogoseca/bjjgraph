@@ -211,7 +211,7 @@
         "duration": "5 rounds x 3 minutes"
       },
       {
-        "name": "Grip Fighting from Turtle Top",
+        "name": "Grips from Turtle Top",
         "description": "Start with partner in Chill Dog and you behind them. Engage in pure grip fighting for control of hips, arms, and neck while partner defends with compact frame. No position advancement - only grip establishment and maintenance. Emphasizes feel and strategic grip work.",
         "duration": "10 minutes continuous"
       },
@@ -330,7 +330,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical grip priority when attacking Chill Dog from top?",
         "answer": "Hip control must be established first before attacking the upper body. Controlling the near-side hip with your knee or underhook prevents the bottom player from executing hip-based escapes like Granby rolls or sit-throughs. Without hip control, even if you secure upper body controls like a front headlock, the opponent can use hip movement to escape. The sequence should always be: hip control, then shoulder/arm control, then back hooks or submission attacks."
@@ -650,7 +650,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the three critical elements that must be maintained simultaneously in Chill Dog Bottom?",
         "answer": "The three critical elements are: tight elbow-to-knee connection (creates closed defensive frame preventing hooks and harness), rounded back with tucked head (removes leverage points and protects neck), and forward weight distribution on hands (prevents rolling or flipping). When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls. All three must be maintained continuously until you execute your escape."

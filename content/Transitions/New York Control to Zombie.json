@@ -51,7 +51,7 @@
       "relationship": "Primary sweep from established Zombie"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Primary submission from established Zombie"
     },
     {
@@ -202,7 +202,7 @@
         "description": "Full positional sparring starting from New York Control. Partner works to escape and pass while you work complete rubber guard system including New York attacks and Zombie transitions. Track success rate and refine timing."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that indicates you should transition from New York to Zombie?",
         "answer": "The trigger is feeling the opponent's shoulder rotating forward and their arm beginning to slip from your overhook. This extraction movement - not its completion - signals the transition. You must recognize this within the first moment of shoulder rotation to have time to complete the transition before they achieve full posture recovery."
@@ -331,7 +331,7 @@
         "correction": "The moment lockdown catches, your immediate priority is denying the underhook through aggressive crossface pressure or whizzer control - winning the upper body battle neutralizes most of Zombie's offensive power"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most dangerous moment for the defender during this transition?",
         "answer": "The most dangerous moment is the 1-2 second window between beginning shoulder extraction from New York and achieving full posture recovery. During this phase, your posture is compromised, your base is transitional, and the bottom player's legs are actively repositioning from high guard wrap to lockdown configuration. Any pause or hesitation in this window gives the attacker time to establish full Zombie structure with lockdown and underhook."

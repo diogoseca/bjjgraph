@@ -188,6 +188,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kosoto Gari?</p>
+
 - Break opponent's balance to rear corner (45-degree angle)
 - Control opponent's upper body with strong collar and sleeve grips
 - Attack the weight-bearing leg at precisely the right moment
@@ -203,6 +205,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kosoto Gari?</p>
+
 - Establish strong collar grip with pulling hand
 - Control opponent's sleeve or tricep with opposite hand
 - Opponent's weight must be committed to rear leg
@@ -216,6 +220,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kosoto Gari step by step?</p>
 
 1. **Establish grips**: Secure deep collar grip with your right hand, fingers inside opponent's collar at neck level. Left hand controls opponent's right sleeve at elbow or tricep. Grips must be tight enough to control movement but relaxed enough to allow explosive pulling action.
 2. **Create initial off-balance**: Pull opponent forward and slightly to their right front corner using both grips. This creates initial reaction where opponent posts weight backward to resist. Watch for their weight to shift predominantly to their right leg - this is your attack signal.
@@ -245,6 +251,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kosoto Gari?</p>
+
 - **Opponent steps back with attacked leg before sweep makes contact** (Effectiveness: High) - Your Response: Chain immediately to Kouchi Gari (attacking opposite leg) or Deashi Harai (pursuing their retreating foot). Maintain collar grip and continue off-balancing pattern. → Leads to [[Positions/Standing Position]]
 - **Opponent drives forward aggressively to counter backward pull** (Effectiveness: Medium) - Your Response: Switch to forward throw like Tai Otoshi or Uchi Mata, using their forward momentum against them. This is reactive rather than resistant - flow with their energy. → Leads to [[Positions/Standing Position]]
 - **Opponent widens stance and lowers center of gravity to create stable base** (Effectiveness: Medium) - Your Response: Create multiple off-balancing attempts in different directions to force weight shifts. Attack when they inevitably transfer weight to make adjustment. Alternatively, drop for single leg or ankle pick. → Leads to [[Positions/Standing Position]]
@@ -256,6 +264,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kosoto Gari?</p>
 
 ### 1. Attempting sweep before opponent's weight is committed to rear leg
 
@@ -295,6 +305,8 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kosoto Gari (Attacker)?</p>
+
 **Week 1-2: Static Drilling** - Mechanical understanding and grip establishment
 Partner stands with weight deliberately on rear leg. Practice grip placement, foot positioning, and coordinated pull-sweep motion at slow speed. Focus on feeling the correct body mechanics. Partner should fall gently and reset. Perform 20-30 repetitions per training session, alternating sides.
 
@@ -318,54 +330,12 @@ Continually refine technique based on body type and competition experience. Deve
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes Kosoto Gari effective?
-**A**: The primary mechanical principle is removing the weight-bearing support (heel) while simultaneously pulling opponent's upper body toward their rear corner, creating a rotation with no base to prevent falling. The opposing forces of forward upper body pressure and backward lower body sweep create the throw's power.
-
-**Q2**: Why must the sweep target the heel specifically rather than higher on the leg?
-**A**: Targeting the heel provides maximum mechanical advantage because it is the lowest point of support and creates the longest lever arm for the sweep. Sweeping higher on the leg allows opponent to resist with leg strength and maintain balance by adjusting foot position. The heel must be lifted and pulled backward to eliminate the base of support completely.
-
-**Q3**: How should you adjust Kosoto Gari when opponent widens their stance defensively?
-**A**: When opponent widens stance, create multiple directional off-balancing attempts to force weight shifts between legs. Attack the moment they transfer weight to make an adjustment. Alternatively, switch to Kosoto Gake (hooking variation) which can reach a wider base, or abandon the foot sweep for wrestling-based attacks like single leg or ankle pick that work well against wide stances.
-
-**Q4**: What is the correct positional follow-through after successfully executing Kosoto Gari?
-**A**: Immediately follow opponent to the ground while maintaining collar grip, stepping over or around their legs to establish side control or knee on belly. The collar grip prevents escape attempts and controls their upper body. Land with pressure on their chest, establish cross-face or underhook, and immediately begin working toward positional advancement or submissions. Never stop at the throw - the takedown points are worthless if you give up position.
-
-**Q5**: How does Kosoto Gari fit into a broader standing attack system?
-**A**: Kosoto Gari is most effective when chained with other techniques in the ashi-waza (foot sweep) family and forward throws. If opponent defends by stepping back, follow with Kouchi Gari or Deashi Harai. If they drive forward, switch to Tai Otoshi or Uchi Mata. The threat of Kosoto Gari forces defensive reactions that open other attacks. Use grip-fighting to create the specific weight distribution that makes Kosoto Gari available. It should be one arrow in a quiver of 4-5 standing attacks.
-
-**Q6**: What timing indicator signals the optimal moment to execute Kosoto Gari?
-**A**: The optimal timing is when opponent's weight commits to their rear leg, typically in response to your initial forward pushing action or their defensive reaction to prevent a forward throw. You should feel their heel become weighted through their base change. Visual cue is slight backward lean of their upper body. Attack the moment between their weight commitment and their ability to adjust - this window is typically 0.5-1 second.
-
-**Q7**: What are the key differences between gi and no-gi execution of Kosoto Gari?
-**A**: In gi, strong collar grip provides primary pulling control and allows execution from longer range. No-gi requires closer engagement with control from overhooks, underhooks, or head control. The sweep motion is identical, but no-gi version demands tighter body positioning and more reliance on body weight than arm pulling. Grip-fighting is replaced by handfighting and inside position battles. No-gi Kosoto Gari often requires setting up through other attacks first, while gi version can be executed more directly from neutral.
-
-**Q8**: Your opponent posts their hand on the mat as you initiate Kosoto Gari - how do you adjust?
-**A**: When opponent posts their hand, they are attempting to create a tripod base to prevent the throw. Increase your forward driving pressure through your chest while accelerating the sweep. The posted hand cannot support their weight if you drive their upper body past the point where the arm can provide meaningful resistance. Alternatively, if they commit heavily to the post, release sleeve grip momentarily to strip their posting arm, then immediately re-engage and complete the throw.
-
-**Q9**: What grip configuration provides the strongest kuzushi for Kosoto Gari in gi?
-**A**: The standard configuration is deep collar grip at neck level with your pulling hand (typically right hand to their left collar) combined with sleeve grip at elbow or tricep with your other hand. The collar grip must be deep enough to pull their head and shoulders toward the floor, not just their lapel. The sleeve grip prevents them from posting and allows you to create circular pulling motion toward their rear corner. Both grips work together in a coordinated pulling action.
-
-**Q10**: What are the three most critical body mechanics that must happen simultaneously during Kosoto Gari execution?
-**A**: The three simultaneous mechanics are: (1) pulling opponent's upper body down and toward their rear corner with both hands, creating rotation and forward-downward pressure; (2) sweeping your foot against their heel in a low, hooking motion that drives backward and upward; and (3) driving your chest forward through their centerline to maintain pressure throughout the throw. Any delay between these creates space for opponent to recover. The coordination of opposing forces - upper body pulling down/forward while lower body sweeps backward - generates the rotational power.
-
-**Q11**: When opponent defends by stepping back, which follow-up attack has the highest success rate and why?
-**A**: Kouchi Gari (minor inner reap) has the highest success rate as a follow-up because the opponent's retreating step naturally loads weight onto their opposite leg, which becomes the new target. Additionally, your grips remain intact and positioned correctly from the Kosoto Gari attempt. The transition is seamless - maintain pulling pressure while redirecting your sweeping leg to attack the inner heel of their newly weighted leg. This exploits the defensive reaction rather than fighting against it.
-
-**Q12**: What entry conditions must exist before you should attempt Kosoto Gari?
-**A**: Four conditions must be present: (1) you have established controlling grips on both collar and sleeve that allow pulling action; (2) opponent's weight has shifted predominantly to their rear leg, either through your pushing action or their defensive posture; (3) you have stepped to the correct angle (approximately 45 degrees) with your base foot stable; and (4) opponent's posture is broken forward or they are resisting backward pressure. Attempting Kosoto Gari without these conditions results in low-percentage execution and potential counter-throws.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kosoto Gari?</p>
 
 When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws.
 

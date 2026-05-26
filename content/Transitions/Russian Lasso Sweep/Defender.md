@@ -162,6 +162,8 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Russian Lasso Sweep?</p>
+
 - Opponent pulls collar grip aggressively downward, attempting to break your upright posture and shift your weight forward over the lasso fulcrum
 - Guard player elevates hips off the mat and drives the lasso leg upward into your trapped arm, loading the fulcrum mechanism
 - Non-lasso leg repositions to your far hip or hooks behind your thigh, preparing the secondary push force
@@ -174,6 +176,8 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Russian Lasso Sweep?</p>
 
 - Maintain upright posture with hips driven back to prevent the forward weight shift that the sweep mechanics require to function
 - Grip fight aggressively against the collar grip as first priority—without it, the sweeper loses directional control and the sweep cannot generate sufficient force
@@ -188,6 +192,8 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Russian Lasso Sweep?</p>
 
 ### 1. Post free hand on the mat on the sweep side to create a structural block against the rotation
 
@@ -225,6 +231,8 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Russian Lasso Sweep?</p>
+
 ### → [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 Maintain upright posture with hips back, aggressively strip or prevent the collar grip, and keep a wide stable base that absorbs rotational forces. Post immediately when rotation begins rather than fighting the sweep force directly.
@@ -240,6 +248,8 @@ Strip the collar grip and extract arm from the lasso during the defensive sequen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Russian Lasso Sweep?</p>
 
 ### 1. Leaning forward into the sweep direction to try to pressure through the lasso and flatten the guard player
 
@@ -269,6 +279,8 @@ Strip the collar grip and extract arm from the lasso during the defensive sequen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Russian Lasso Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner establishes Russian Leg Lasso and loads sweep at 50% speed. Focus solely on identifying the visual and tactile cues that indicate sweep initiation—collar pull, hip elevation, angle shift, and increased lasso pressure. Call out each cue as you recognize it without attempting defensive responses yet.
 
@@ -285,29 +297,6 @@ Full positional sparring from Russian Leg Lasso where you combine sweep defense 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important grip to prevent or break when defending the Russian Lasso Sweep?
-**A**: The far-side collar grip is the highest priority because it provides both posture control and directional force for the sweep. Without the collar grip, the sweeper cannot break your posture forward over the lasso fulcrum or direct the rotational force in a specific sweep direction. Strip this grip before addressing the lasso—a lasso without a collar grip is a control tool, not a sweep threat.
-
-**Q2**: Why is posting with the free hand more effective than trying to resist the sweep with core strength?
-**A**: Once the sweep is loaded with broken posture, hip elevation, and initiated rotation, the mechanical advantage of the lasso fulcrum combined with the collar pull generates more torque than core muscles can resist. Posting creates a structural block—your arm becomes a pillar that physically prevents rotation regardless of the force applied. The post should come immediately when rotation begins, not after failed muscular resistance has depleted energy.
-
-**Q3**: You feel the guard player begin to elevate their hips while pulling your collar down—what should your immediate response be?
-**A**: Immediately sprawl your hips back and down to counter the forward pull, removing your weight from over the lasso fulcrum. Simultaneously work to break or strip the collar grip using your free hand in a two-on-one grip break. Widen your stance to increase base stability. These actions must happen together in the first one to two seconds—waiting longer allows the sweep to reach the point where only posting can save you.
-
-**Q4**: What are the earliest recognition cues that a Russian Lasso Sweep is being loaded?
-**A**: The earliest cues are an aggressive downward pull on your collar grip combined with increased upward pressure on your trapped arm through the lasso. The guard player's hips will begin lifting off the mat and their body angle will shift toward the sweep direction. Recognizing these loading cues before the sweep is fully committed gives you the widest range of defensive options including sprawl, grip break, or lateral movement.
-
-**Q5**: How should you adjust your base when you recognize you are caught in Russian Leg Lasso with sweep threats?
-**A**: Widen your stance immediately to create the broadest possible base against rotational forces. Keep weight distributed evenly through both legs rather than favoring one side. Drive hips back to maintain upright posture and keep your center of gravity behind your base of support. Your feet should be positioned with the toes pointing slightly outward for maximum stability, and you should be prepared to post with your free hand at the first sign of rotation.
-
-
-
-</section>
 
 
 </main>

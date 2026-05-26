@@ -99,7 +99,7 @@
       "Base Management: Maintain solid base to prevent sweeps while working attacks, never sacrificing stability for submission attempts",
       "Timing Recognition: Identify when to commit to submissions versus when to advance position based on opponent's defensive priorities"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?",
         "answer": "Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels. Let skeletal structure and gravity do the work rather than muscular effort."
@@ -335,52 +335,56 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
-        "attempt_probability": 18
+        "transition": "Heel Hook from Backside 50-50",
+        "attempt_probability": 36
       },
       {
-        "transition": "Outside Heel Hook",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Toe Hold",
-        "attempt_probability": 10
+        "transition": "Toe Hold from Backside 50-50",
+        "attempt_probability": 8
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 5
+        "attempt_probability": 3
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
-        "transition": "Kneebar",
-        "attempt_probability": 7
+        "transition": "Kneebar from Backside 50-50",
+        "attempt_probability": 5
       },
       {
         "transition": "50-50 Pass",
-        "attempt_probability": 6
+        "attempt_probability": 4
       },
       {
         "transition": "Back Take from 50-50",
-        "attempt_probability": 16
+        "attempt_probability": 14
       },
       {
-        "transition": "Calf Slicer",
-        "attempt_probability": 4
+        "transition": "Calf Slicer from Backside 50-50",
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Counter heel hook",
         "attempt_probability": 4
       },
       {
-        "transition": "Outside Heel Hook from Backside 50-50",
+        "transition": "Counter heel hook",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Outside Heel Hook from Backside 50-50",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Outside Heel Hook",
+        "attempt_probability": 1
       }
     ]
   },
@@ -426,9 +430,9 @@
       "Sweeping Mechanics Application: Use leg entanglement and hip movement to off-balance opponent and reverse position",
       "Leg Lock Awareness: Understand available leg attacks for both players and defend appropriately while seeking opportunistic finishes",
       "Position Before Submission: Prioritize improving position over forcing submissions from inferior position",
-      "Space Creation Through Frames: Use frames and movement to prevent opponent from flattening you completely"
+      "Distance Control Through Frames: Use frames and movement to prevent opponent from flattening you completely"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important thing to prevent when playing Backside 50-50 Bottom?",
         "answer": "Prevent being completely flattened with your back fully on the mat. Once flattened, hip mobility disappears, sweeps become impossible, and opponent can attack your legs or back freely. Always stay active on your side with your top arm posting, constantly adjusting hip angles to maintain movement capability."
@@ -644,11 +648,7 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Outside Heel Hook",
+        "transition": "Outside Heel Hook from Backside 50-50",
         "attempt_probability": 5
       },
       {
@@ -685,7 +685,7 @@
       },
       {
         "transition": "Heel Hook from Backside 50-50",
-        "attempt_probability": 2
+        "attempt_probability": 8
       }
     ]
   }

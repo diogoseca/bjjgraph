@@ -156,13 +156,15 @@ Defending the Kneebar entry from 50-50 Guard requires understanding the attacker
 
 Your defensive priority hierarchy is: first, prevent the foot trap by maintaining a bent knee and controlling your own ankle; second, if the foot is trapped, prevent the leg triangle above your knee by keeping your thigh tight and rotating toward the attacker; third, if both controls are established, address the finish by straightening your body line and creating distance. Early intervention is exponentially more effective than late-stage defense, so recognizing the entry cues and reacting within the first one to two seconds determines whether you return to neutral 50-50 or find yourself fighting a fully locked kneebar.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Kneebar entry?</p>
 
 - Attacker shifts grip from cupping your heel to controlling your ankle and lower shin, indicating they are abandoning heel hook for kneebar
 - Attacker shrimps their hips away from you to create an angle change, moving perpendicular to your leg line rather than staying aligned
@@ -176,6 +178,8 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Kneebar entry?</p>
+
 - Keep your knee bent and foot retracted whenever you sense the attacker shifting from heel hook to kneebar - a straight leg is a vulnerable leg
 - Rotate your hips toward the attacker rather than away, as turning toward them collapses the perpendicular angle they need for the kneebar
 - Fight the foot trap aggressively with your free hand - once your foot is secured in their armpit, defensive options decrease dramatically
@@ -188,6 +192,8 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar entry?</p>
 
 ### 1. Bend knee and retract leg immediately upon recognizing the angle change, pulling your foot away from their armpit trap
 
@@ -225,6 +231,8 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar entry?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Bend your knee and retract your leg before the attacker secures the foot trap, returning to neutral 50-50 entanglement. Immediately re-establish grip fighting on their heel to resume your own offensive options and prevent them from re-attempting the entry.
@@ -240,6 +248,8 @@ Turn your hips aggressively toward the attacker to collapse their perpendicular 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar entry?</p>
 
 ### 1. Keeping the leg straight while focusing exclusively on heel defense, inadvertently presenting the knee for attack
 
@@ -269,6 +279,8 @@ Turn your hips aggressively toward the attacker to collapse their perpendicular 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar entry?</p>
+
 **Week 1-2** - Recognition and early defense
 Partner performs the kneebar entry at 30% speed from 50-50. Focus on identifying the grip change and hip angle shift. Practice the knee bend retraction response and hip rotation toward the attacker. No resistance from the attacker on your defensive movements.
 
@@ -285,29 +297,6 @@ Start in 50-50 with partner attacking freely. Defend kneebar entries in live rol
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is switching from heel hook to kneebar entry?
-**A**: The earliest cue is the grip change - when the attacker shifts from cupping your heel to controlling your ankle and lower shin, they are repositioning for the foot trap. Simultaneously, you will feel them shrimping their hips away to create a perpendicular angle. React to the grip change immediately by bending your knee.
-
-**Q2**: Your opponent has trapped your foot in their armpit but has not yet triangled their legs - what is the highest percentage defense?
-**A**: Turn your hips aggressively toward the attacker while using your free hand to post on their hip and push. This combines hip rotation to collapse their angle with hand pressure to create space for foot extraction. The key is acting before the leg triangle closes above your knee, as once both controls are set, escape probability drops significantly.
-
-**Q3**: Why is pulling your leg backward a dangerous defensive response to kneebar entry?
-**A**: Pulling backward extends your knee joint toward the attacker's hips, which is exactly the direction of force they need for hyperextension. The attacker is positioned to use your rearward pull as additional force for the finish. Instead, drive forward toward the attacker to collapse the angle and reduce hyperextension leverage.
-
-**Q4**: The kneebar is fully locked with both foot trap and leg triangle established - what emergency defense gives you the best chance of survival?
-**A**: Clasp both hands around your own knee to resist the extension, then drive your hips forward toward the attacker to reduce the hyperextension angle. Simultaneously try to peel their top leg off your thigh by pushing at the knee. This is a survival position only - if you cannot create meaningful improvement within a few seconds, tap immediately to protect your knee ligaments.
-
-**Q5**: How does defending the kneebar entry affect your vulnerability to heel hook attacks?
-**A**: Bending your knee to defend the kneebar often exposes your heel, which the attacker can exploit by switching back to heel hook. This creates the core dilemma of 50-50 defense: protecting the knee exposes the heel and vice versa. Manage this by maintaining a moderate knee bend rather than full flexion, and keep active grip fighting to prevent the attacker from capitalizing on either exposure.
-
-
-
-</section>
 
 
 </main>

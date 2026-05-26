@@ -188,6 +188,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Vaporizer Position?</p>
+
 - Address lockdown and upper body control simultaneously rather than isolating one control point at a time
 - Use controlled leg circulation with knee-toward-mat orientation rather than explosive yanking that tightens the lockdown reflexively
 - Maintain heavy shoulder pressure throughout extraction to limit bottom player's ability to re-adjust controls or generate whip-up power
@@ -202,6 +204,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Vaporizer Position?</p>
+
 - Stable wide base established despite lockdown entanglement, with free leg posted wide for lateral stability
 - Whizzer or crossface control established against bottom player's underhook to neutralize whip-up leverage
 - Shoulder pressure driving into bottom player's chest or face to limit their hip mobility and offensive adjustments
@@ -213,6 +217,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Vaporizer Position step by step?</p>
 
 1. **Establish defensive base**: Widen your base by sprawling your free leg out to the side and lowering your hips. Drive heavy shoulder pressure into the bottom player's chest using your crossface arm. This creates the stable platform needed to resist whip-up attempts while you work the extraction.
 2. **Neutralize the underhook**: Counter the bottom player's underhook with a deep whizzer, threading your arm over theirs and driving your weight through the overhook position. Alternatively, establish a strong crossface that prevents them from using the underhook effectively. The underhook is the engine of their whip-up motion and must be addressed before lockdown clearance.
@@ -243,6 +249,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Vaporizer Position?</p>
+
 - **Bottom player re-establishes lockdown by hooking foot behind knee during extraction** (Effectiveness: High) - Your Response: Immediately return to knee-toward-mat orientation and restart the circulation process. Increase shoulder pressure to limit their ability to reposition the lock. Consider switching to the backstep extraction variant if they successfully re-lock multiple times. → Leads to [[Positions/Vaporizer]]
 - **Bottom player executes Old School sweep during weight shift, using posted hand as fulcrum** (Effectiveness: Medium) - Your Response: Widen base in the opposite direction of their sweep and drive crossface pressure harder. If sweep begins completing, post your free hand wide and work to re-establish top position in half guard rather than fighting the full sweep. → Leads to [[Positions/Half Guard]]
 - **Bottom player inserts knee for half guard retention as lockdown clears** (Effectiveness: Medium) - Your Response: Immediately transition to standard half guard passing sequence. Use crossface and underhook to flatten them before attempting knee slice or pressure pass. The critical window is preventing the knee shield from being established. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Vaporizer Position?</p>
 
 ### 1. Attempting explosive leg extraction instead of controlled circulation
 
@@ -293,6 +303,8 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Vaporizer Position (Attacker)?</p>
+
 **Phase 1: Lockdown Mechanics Understanding** - Understanding the lockdown configuration and how it generates control
 Partner establishes full lockdown and you practice identifying the figure-four configuration, understanding where the control surfaces are, and feeling how the lock tightens and loosens based on leg orientation. No pass attempts yet, purely tactile awareness development.
 
@@ -310,42 +322,12 @@ Partner increases resistance to 75-100% and actively counters with re-locking, s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal knee orientation for loosening the lockdown during leg circulation?
-**A**: Point the trapped knee toward the mat. This narrows the leg profile by reducing the surface area available for the lockdown's figure-four configuration to grip. A narrow leg profile makes the lock progressively looser with each circulation movement, whereas keeping the knee pointed outward maintains the wide profile that the lockdown is designed to control.
-
-**Q2**: Why must the underhook be neutralized before committing to lockdown clearance?
-**A**: The underhook provides the leverage engine for the whip-up motion and sweep threats. If you clear the lockdown while the underhook remains active, the bottom player can re-establish the lockdown during your transition, execute an Old School sweep using underhook leverage, or advance to back control. Neutralizing the underhook with a whizzer or crossface removes the upper body manipulation that makes the Vaporizer dangerous.
-
-**Q3**: Your opponent successfully re-locks the lockdown after your first extraction attempt - how do you adjust your approach?
-**A**: Return to knee-toward-mat orientation and increase shoulder pressure to limit their ability to reposition. Consider switching to the backstep extraction variant, which changes the extraction angle and often catches the bottom player off-guard. Also evaluate whether your underhook neutralization was sufficient - re-locking often indicates the bottom player retained enough upper body control to manipulate your leg back into the figure-four.
-
-**Q4**: What conditions must exist before transitioning from lockdown clearance to the passing phase?
-**A**: Both the lockdown leg entanglement and the upper body control (underhook or overhook) must be neutralized. Your crossface or whizzer must be established firmly enough that the bottom player cannot re-establish their underhook during the pass. Your base must be wide enough to resist any last-moment sweep attempt. Only when all three conditions are met should you commit to the knee-across-hip passing motion.
-
-**Q5**: Your opponent begins increasing whip-up pressure and threatening the Electric Chair as you start extraction - what is your immediate response?
-**A**: Abandon the extraction temporarily and drive your weight back with hips heavy and low. The Electric Chair requires hip elevation and leg separation, so keeping hips heavy directly counters the setup. Widen your base to resist the lateral rolling that accompanies the Electric Chair entry. Once the immediate threat subsides, restart extraction from this more stable defensive position rather than trying to rush through the danger.
-
-**Q6**: What is the critical timing window between lockdown clearance and pass completion?
-**A**: The window is immediate and cannot tolerate any pause. The moment your foot clears the figure-four configuration, you must drive your knee across their hip line while maintaining crossface pressure. Any delay allows the bottom player to re-insert their knee for half guard retention, re-engage the lockdown, or transition to a different guard. The extraction-to-pass must be one continuous flowing motion.
-
-**Q7**: How does the direction of force differ between the lockdown clearing phase and the pass completion phase?
-**A**: During lockdown clearing, the primary force direction is downward and circular. You drive weight down through shoulder pressure while circulating the leg in small rotational movements to loosen the figure-four. During pass completion, the force shifts to lateral and forward. You drive your knee across their hip line laterally while moving your chest forward into perpendicular side control alignment. The transition between these force vectors must be smooth and immediate.
-
-**Q8**: Your opponent posts their outside hand on the mat during your weight shift - what does this indicate and how do you respond?
-**A**: The outside hand post signals an Old School sweep setup. They need this post as a fulcrum to drive the rolling sweep. Immediately widen your base in the direction opposite to their intended roll and increase crossface pressure to limit their bridging power. Do not post your own hand near their hip as this gives them an additional leverage point. If you sense the sweep momentum beginning, reset your base completely rather than fighting through it.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Vaporizer Position?</p>
 
 This pass involves controlled leg extraction from an entanglement that places stress on the knee and ankle joints. Avoid explosive twisting motions that could strain the trapped knee. If the lockdown creates sharp pain in the knee joint, tap and reset rather than forcing through the extraction. Partners should release lockdown pressure immediately upon tap. During training, communicate about knee sensitivity before drilling and use gradual progressive resistance rather than starting at full intensity.
 

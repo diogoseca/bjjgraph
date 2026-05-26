@@ -148,6 +148,8 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scarf Hold to Side Control?</p>
+
 - Top player's far arm begins sliding from behind your head toward your face, indicating crossface establishment attempt
 - Top player's near arm loosens its grip on your trapped arm, suggesting imminent release for hip control switch
 - Top player's hip pressure shifts as they begin rotating from perpendicular scarf hold angle toward side control alignment
@@ -160,6 +162,8 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scarf Hold to Side Control?</p>
 
 - Recognize grip change initiation immediately - the moment the top player begins adjusting their head control or arm trap, your escape window is opening
 - Insert frames aggressively during the rotation gap before new control points are established
@@ -174,6 +178,8 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scarf Hold to Side Control?</p>
 
 ### 1. Insert knee shield during grip change window to recover half guard
 
@@ -204,6 +210,8 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scarf Hold to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your knee insertion to coincide with the top player's hip rotation. As their near-side pressure shifts during the turn, drive your inside knee between their legs and immediately establish knee shield. The rotation creates a brief gap in hip control that is your best opportunity for guard recovery throughout the entire sequence.
@@ -215,6 +223,8 @@ Time your knee insertion to coincide with the top player's hip rotation. As thei
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scarf Hold to Side Control?</p>
 
 ### 1. Failing to recognize the transition initiation and missing the escape window entirely
 
@@ -244,6 +254,8 @@ Time your knee insertion to coincide with the top player's hip rotation. As thei
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scarf Hold to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues through tactile awareness
 Partner performs the transition at slow speed while you focus on feeling the specific grip changes, weight shifts, and pressure adjustments. Call out each cue as you feel it. Perform 20 repetitions, building pattern recognition for the transition's tactile signature without attempting escapes.
 
@@ -260,26 +272,6 @@ Full resistance positional sparring starting from scarf hold. Top player may tra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important tactile cue that the Scarf Hold to Side Control transition is beginning?
-**A**: The most reliable cue is the loosening or repositioning of the far arm around your head. When the top player begins sliding their arm from behind your head toward your face to establish crossface, this is the definitive signal that the transition is initiating. This grip change is the first action in the sequence and provides the earliest warning, giving you maximum time to prepare and execute your defensive response.
-
-**Q2**: Why is the transition window more valuable for escape than either the established scarf hold or established side control?
-**A**: During the transition, the top player temporarily lacks the full mechanical advantage of either position. Their grips are in flux, their hip pressure is shifting, and their base is compromised by the rotation. In established scarf hold or side control, all control points work together as an integrated system. During transition, these control points are being disassembled and reassembled, creating gaps that do not exist in either settled position. This makes defensive actions significantly more likely to succeed.
-
-**Q3**: Your opponent begins the transition but you fail to recover guard - what should your immediate priority be?
-**A**: Immediately switch to side control defensive mechanics: establish forearm frames against the crossface and hip, protect your neck from choke threats, and begin working systematic side control escape sequences. Do not continue attempting scarf hold escapes or try to force the top player back into scarf hold. Accept the positional change and adapt your defensive strategy to the new position's specific requirements and available escape pathways.
-
-**Q4**: How do you chain defensive actions during the brief transition window for maximum escape probability?
-**A**: Start with the highest-percentage action first: bridge explosively as the head control loosens. If the bridge is absorbed, immediately flow to knee insertion during the hip rotation phase. If the knee is blocked, immediately frame against the shoulder and hip escape to create enough space for guard recovery. Each action should flow into the next without resetting, taking no more than 2-3 seconds total. The key is pre-planning this sequence so reactions are automatic rather than deliberative.
-
-
-
-</section>
 
 
 </main>

@@ -171,6 +171,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ## Position Definition
 
+<p class="section-subtitle">What is North-South (Bottom)?</p>
+
 - Bottom player's back remains flat on the mat with chest facing upward, head aligned roughly perpendicular to opponent's body with skulls near each other, creating the characteristic head-to-head alignment that defines North-South positioning
 - Top player's chest creates continuous downward pressure across bottom player's chest and shoulder area, with their body weight distributed to restrict rib expansion and limit breathing capacity while maintaining heavy control
 - Bottom player's arms are either controlled by top player's grips, trapped beneath top player's body weight, or actively fighting to establish defensive frames against the chest and shoulder pressure to create escape space
@@ -181,6 +183,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing North-South (Bottom)?</p>
 
 - Top player has established chest-to-chest pressure from perpendicular alignment
 - Bottom player's back is flat on mat with limited hip mobility
@@ -193,6 +197,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending North-South?</p>
 
 - Create frames using forearms against opponent's chest to establish breathing room
 - Generate hip mobility through small shrimping movements to create cumulative space
@@ -208,6 +214,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from North-South (Bottom)?</p>
 
 **If opponent maintains heavy chest pressure with arms controlled:**
 - Execute **[[Create frames with forearms/Attacker|Create frames with forearms]]** → [[Breathing space]] (Probability: 60%)
@@ -236,6 +244,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending North-South?</p>
 
 ### 1. Attempting explosive full-body scrambles under heavy pressure
 
@@ -280,6 +290,8 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train North-South defense?</p>
+
 ### Positional Sparring from North-South Bottom
 
 Start in North-South bottom with training partner maintaining control. Work escapes for 3-minute rounds with fresh partner each round. Reset to North-South each time you escape or get submitted. Focus on systematic escape sequences rather than explosive movements.
@@ -312,38 +324,6 @@ Partner alternates between maintaining North-South control and setting up submis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself in North-South bottom?
-**A**: The immediate priority is establishing controlled breathing and creating basic frames with your forearms against your opponent's chest. Panic breathing leads to rapid fatigue and poor decision-making. Place your forearms perpendicular to their chest to create structural frames, not pushing with muscle strength. This creates the minimum space needed for breathing while you assess your escape options.
-
-**Q2**: Your opponent's weight is crushing your chest and you're struggling to breathe - what adjustment do you make?
-**A**: Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area.
-
-**Q3**: What are the essential frames needed to begin your escape sequence?
-**A**: The primary frame is your forearm positioned perpendicular to your opponent's chest, creating a skeletal brace rather than a muscular push. Your elbow should be tight to your ribs for structural integrity. The secondary frame uses your other forearm against their far shoulder to prevent them from driving chest pressure. These frames work together to create and maintain the minimum space necessary for hip mobility and eventual guard recovery.
-
-**Q4**: How do you prevent your opponent from isolating your arm for a kimura attack?
-**A**: Keep your elbows tight to your body at all times - never let your arm extend away from your torso or cross your centerline. When creating frames, your elbows should remain within the width of your shoulders. If they begin isolating an arm, immediately pull that elbow back tight to your ribs and fight for inside wrist control. Use your hip escape to angle away from the threatened arm, making the kimura grip more difficult to secure.
-
-**Q5**: Your opponent begins transitioning toward mount - what is your immediate response?
-**A**: This is actually your best escape opportunity. As they shift weight to step over, their chest pressure momentarily decreases. Immediately insert your knee between your bodies, creating a knee shield. Your knee should reach their hip or chest line, with your shin perpendicular to their body. If you're too slow for the knee shield, turn to turtle position rather than accepting mount - turtle is more escapable than mount.
-
-**Q6**: When is the optimal timing to attempt a bridge and roll escape from North-South?
-**A**: The optimal timing is when your opponent reaches for a submission, particularly the kimura. As they isolate your arm and shift their weight to one side for the grip, their base becomes compromised. Bridge explosively toward the side they're reaching, trapping their posted arm if possible. This timing is critical - bridging against a settled opponent with proper base wastes energy and fails. Wait for their weight commitment to create the vulnerability.
-
-**Q7**: How do you manage energy to avoid exhaustion while escaping North-South?
-**A**: Focus on small, technical movements rather than explosive scrambles. Chain multiple small hip escapes together, moving inches at a time. Rest between escape attempts by establishing frames and controlling your breathing. Never fight directly against their weight - use timing and technique to escape during their movements or transitions. Recognize that one hip escape rarely succeeds; plan for 3-5 connected shrimps. Patience and systematic effort beats panic and exhaustion.
-
-**Q8**: Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?
-**A**: Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

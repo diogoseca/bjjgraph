@@ -16,7 +16,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Chair Sit to Back in BJJ",
-  "description": "Step-by-step guide for executing Chair Sit to Back from Turtle/Top.",
+  "description": "Step-by-step guide for executing Chair Sit to Back from Matrix/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,13 +186,15 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 
 The Chair Sit to Back Take is a systematic transition from attacking turtle position to establishing dominant back control. The technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while you climb onto their back through a controlled intermediate position. The chair sit creates a mechanical barrier with your leg across the opponent's thigh, preventing them from turning into you while you establish the seatbelt grip. This intermediate control station is what separates the chair sit from direct back climbing attempts that often fail against experienced defenders. The technique requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. When executed correctly, the chair sit creates a near-inescapable funnel toward back control or truck position.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Chair Sit to Back?</p>
 
 - Control opponent's near hip to prevent forward escape before establishing leg barrier
 - Use your shin as a rigid barrier across opponent's thigh to block rotation toward you
@@ -209,6 +211,8 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Chair Sit to Back?</p>
+
 - Opponent in defensive turtle position with weight distributed on hands and knees
 - You have secured control of opponent's near-side hip, waist, or belt
 - Sufficient space exists to thread your near leg across opponent's thigh
@@ -222,6 +226,8 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Chair Sit to Back step by step?</p>
 
 1. **Establish hip control**: From attacking turtle position, secure a firm grip on opponent's near hip using your near hand. Your other hand controls their far shoulder or collar to prevent posting. This dual control limits their ability to move forward, turn into you, or stand up explosively.
 2. **Insert blocking leg**: Thread your near leg across opponent's near thigh, positioning your shin as a horizontal barrier that prevents them from turning into you. Your foot should hook around their far thigh, creating a strong structural frame that controls their hip mobility and limits escape directions.
@@ -252,6 +258,8 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Chair Sit to Back?</p>
+
 - **Opponent sits through to blocking leg side, rotating their hips away** (Effectiveness: High) - Your Response: Maintain seatbelt grip and follow their rotation rather than fighting it. Thread your blocking leg through to establish truck position, which offers twister, calf slicer, and continued back take opportunities. → Leads to [[Positions/Turtle]]
 - **Opponent drives forward explosively to flatten you or escape** (Effectiveness: Medium) - Your Response: Use your blocking leg as a rudder to redirect their momentum laterally while maintaining chest contact. If seatbelt is established, their forward drive actually helps you climb onto their back as they extend. → Leads to [[Positions/Turtle]]
 - **Opponent rolls over their far shoulder attempting to invert and face you** (Effectiveness: Medium) - Your Response: Keep your base leg posted firmly and follow the roll, maintaining seatbelt control throughout. As they complete the rotation, you often end up in an improved back control position with hooks partially inserted. → Leads to [[Positions/Turtle]]
@@ -263,6 +271,8 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Chair Sit to Back?</p>
 
 ### 1. Attempting to climb onto back before establishing seatbelt grip
 
@@ -307,6 +317,8 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Chair Sit to Back (Attacker)?</p>
+
 **Phase 1: Static positioning (Week 1-2)** - Chair sit mechanics and blocking leg placement
 Practice establishing chair sit position with partner in static turtle. Focus on correct shin placement across the thigh, hip control grip, and maintaining forward-weighted balance. Partner remains stationary while you drill entry and exit 20 repetitions per side.
 
@@ -330,51 +342,12 @@ Apply chair sit to back take during positional sparring starting from turtle. In
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you establish the seatbelt grip before attempting to climb onto the opponent's back?
-**A**: The seatbelt grip provides the structural control necessary to prevent opponent escape during the transition to back mount. Without this grip, the opponent can simply drive forward or turn into you as you attempt to climb, completely neutralizing the position. The seatbelt acts as your anchor point, allowing you to break their structure and control their movement while inserting hooks. Attempting to climb first creates unnecessary space and escape opportunities that even moderately skilled opponents will exploit immediately.
-
-**Q2**: What is the primary function of the blocking leg in chair sit position?
-**A**: The blocking leg serves as a mechanical barrier that prevents the opponent from turning into you or escaping toward your near side. By positioning your shin across their thigh, you create a structural frame that controls their hip mobility and limits their defensive options to either sitting through (which leads to truck) or attempting forward movement (which you control with your grips). This barrier is what makes chair sit a dominant control position rather than just a temporary transition point.
-
-**Q3**: Your opponent begins sitting through toward your blocking leg side during chair sit - how do you respond?
-**A**: Maintain your seatbelt grip and follow their rotation rather than fighting it. As they sit through, thread your blocking leg through to transition to truck position, which offers twister, calf slicer, and continued back take opportunities. The key is never releasing your upper body connection during their movement. This exemplifies the principle of using the opponent's defensive reactions to flow into alternative attacks rather than forcing a single pathway to back control.
-
-**Q4**: What is the optimal timing window for transitioning from hip control to seatbelt grip?
-**A**: The optimal moment to transition grips is immediately after your blocking leg is securely positioned across the opponent's thigh and they are unable to turn. The leg barrier temporarily replaces hip control as the primary control mechanism, creating a brief window where you can release the hip grip and thread your arm under their armpit. If you attempt the grip change before the leg is secure, the opponent can escape during the transition. If you wait too long, they may find a way to dislodge the blocking leg.
-
-**Q5**: What are the entry requirements that must exist before you can attempt the chair sit?
-**A**: Four conditions must be present: the opponent is in turtle position on hands and knees, you have secured near-side hip or waist control from behind or beside them, there is sufficient space between their body and the mat to thread your leg across their thigh, and your chest is maintaining pressure on their back preventing them from standing. If any of these conditions are missing, you should establish them first or choose an alternative turtle attack like front headlock or direct back climbing.
-
-**Q6**: Why is breaking the opponent's turtle structure essential before attempting your first hook?
-**A**: A strong turtle structure gives the opponent the base and posting ability needed to explosively escape or counter your back take attempt. By collapsing them onto their side using your seatbelt grip, you eliminate their ability to generate power from their four-point base and create the angular positioning necessary for hook insertion. Attempting to insert hooks while they maintain strong turtle means they can sprawl their hips away, turn into you, or explosively stand, defeating the back take entirely.
-
-**Q7**: Your opponent grabs your blocking leg with both hands during chair sit - what opportunity does this create?
-**A**: When the opponent uses both hands to attack your blocking leg, they have completely abandoned defense of their upper body and neck. This is a significant tactical error that you should exploit immediately by establishing the seatbelt grip unopposed. With their hands occupied on your leg, you can thread your arms into position without any grip fighting resistance. Even if they successfully strip your blocking leg, you now have dominant upper body control that allows you to complete the back take through alternative pathways.
-
-**Q8**: What weight distribution should you maintain in chair sit position and why?
-**A**: Keep your weight forward with chest pressure on the opponent's back while using your far leg as a dynamic base post. Forward weight at roughly 60-70% through your upper body maintains downward pressure that prevents escape attempts while keeping you balanced and mobile enough to follow their movements. Weight too far back allows them to roll you over backward or simply drive forward explosively. Your posted far leg acts as a stabilizer that prevents backward rolls while allowing rapid position adjustment.
-
-**Q9**: How does the chair sit connect to the broader turtle attack system if the back take is unsuccessful?
-**A**: The chair sit integrates into a decision tree of turtle attacks. If the opponent sits through, you flow to truck position and the twister system. If they drive forward explosively, you can transition to front headlock for guillotine, anaconda, or darce attacks. If they create enough space to partially stand, you can switch to a body lock or standing back control. If they flatten, you can advance to side control. The chair sit is not an isolated technique but a hub position that branches into multiple high-percentage attacking pathways based on the opponent's reaction.
-
-**Q10**: What is the critical mechanical detail in how the blocking leg should be positioned across the opponent's thigh?
-**A**: The shin must be positioned low across the opponent's thigh near their knee line, creating a horizontal barrier with your shin bone as the rigid structure. The foot should hook around their far thigh to prevent the leg from being easily dislodged. Placing the leg too high near their waist allows them to step over it, and placing it too low below the knee provides insufficient rotational control. The shin angle should be roughly perpendicular to their thigh, maximizing the mechanical advantage of the barrier against their turning attempts.
-
-**Q11**: What is the correct sequence for inserting hooks when transitioning from chair sit to full back control?
-**A**: After breaking the opponent onto their side with your seatbelt grip, insert the far-side hook first by swinging your free leg over their hip and threading your foot inside their top thigh. This hook is inserted first because your far leg is unencumbered and the opponent's side position naturally creates the opening. Only after this first hook is secure should you extract your blocking leg from across their thigh and insert it as the second hook underneath. Progressive insertion maintains control throughout the transition rather than creating a vulnerable moment with no hooks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Chair Sit to Back?</p>
 
 Chair sit to back take is generally a low-risk technique when practiced correctly, but practitioners should be aware of potential knee stress on the blocking leg. Avoid forcing your blocking leg position if the opponent is much larger or driving significant pressure into your shin, as this can cause knee ligament strain. When your training partner is transitioning to your back from chair sit, avoid explosive rolling movements backward, as this can injure their posted leg or torque their knee. During drilling, communicate clearly if hip or shoulder pressure becomes uncomfortable during the structure-breaking phase. For practitioners with previous knee injuries, consider using alternative back take methods that do not require the shin-across-thigh blocking position. Always tap early if caught in any submission during failed back take attempts, and respect your partner's tap immediately when practicing from the attacking side.
 

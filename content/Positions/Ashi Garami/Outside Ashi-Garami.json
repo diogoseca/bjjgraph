@@ -308,7 +308,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first priority when you find yourself trapped in Outside Ashi-Garami Top?",
         "answer": "Your first priority is protecting your heel by keeping it hidden from your opponent's grip. The heel must remain tucked inward with toes pointing toward your body. Heel exposure is the most immediate danger as it enables the opponent to secure a heel hook grip and finish the submission rapidly. All other defensive actions are secondary to heel protection."
@@ -558,7 +558,7 @@
     },
     "transitions": [
       {
-        "transition": "Outside Heel Hook",
+        "transition": "Outside Heel Hook from Outside Ashi-Garami",
         "attempt_probability": 31
       },
       {
@@ -590,7 +590,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution and body angle for maintaining control in Outside Ashi-Garami Bottom?",
         "answer": "Your body should maintain a perpendicular or diagonal angle (45-90 degrees) to your opponent's leg line, with your torso facing toward their trapped leg. Weight distribution centers on your hips, which should be slightly elevated off the mat to create tension. The figure-4 leg configuration bears most of the positional load, with constant squeezing pressure through both legs to eliminate space."

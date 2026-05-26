@@ -188,6 +188,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Worm to Squid Guard?</p>
+
 - Maintain lapel tension throughout the entire reconfiguration by pulling the lapel toward your hip rather than releasing it
 - Secure a reliable secondary grip on the opponent's sleeve or collar before initiating any lapel manipulation
 - Time the reconfiguration during moments of opponent stability when they are not actively passing
@@ -202,6 +204,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Worm to Squid Guard?</p>
+
 - Established worm guard with tight lapel wrapped around shin or foot maintaining consistent pulling tension on the opponent's leg
 - Strong secondary grip on the opponent's sleeve or collar that can independently maintain partial control during the lapel reconfiguration
 - Opponent in a stable posture such as standing or combat base rather than actively mid-pass or driving forward
@@ -214,6 +218,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Worm to Squid Guard step by step?</p>
 
 1. **Secure secondary grip control**: Before initiating any lapel reconfiguration, confirm you have a strong secondary grip on the opponent's sleeve or collar. This grip serves as your insurance policy throughout the transition, maintaining partial control even when the lapel connection is at its weakest during the reconfiguration. Without this grip, any hesitation during the transition gives the opponent a free window to strip your lapel and advance position.
 2. **Create hip angle for threading**: Rotate your hips away from the opponent to create the angle needed for your leg to thread through their base. This hip movement should be subtle and controlled, not telegraphed with large motions. Use your free leg on the opponent's hip to push and create the rotational momentum needed. The angle change also begins to loosen the worm guard lapel path naturally, preparing it for reconfiguration without active releasing.
@@ -243,6 +249,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Worm to Squid Guard?</p>
+
 - **Opponent strips lapel during the reconfiguration window when tension is reduced** (Effectiveness: High) - Your Response: If you feel them reaching for the lapel, abort the transition and re-secure worm guard first. Alternatively, threaten a sweep to force them to use their hands defensively rather than for stripping the lapel connection. → Leads to [[Positions/Open Guard]]
 - **Opponent drives heavy forward pressure when they sense the guard structure changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame on their hip and push back, creating space. If they commit heavily forward, convert their momentum into an off-balancing sweep rather than forcing the squid guard entry against pressure. → Leads to [[Positions/Open Guard]]
 - **Opponent steps back to disengage and create distance during the transition** (Effectiveness: Medium) - Your Response: Follow their retreat with hip scooting and maintain lapel tension throughout. If they create enough distance to neutralize the transition, return to worm guard attacks using the still-connected lapel rather than chasing. → Leads to [[Positions/Worm Guard]]
@@ -254,6 +262,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Worm to Squid Guard?</p>
 
 ### 1. Releasing lapel tension completely during reconfiguration instead of maintaining gradual control throughout
 
@@ -293,6 +303,8 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Worm to Squid Guard (Attacker)?</p>
+
 **Phase 1: Solo Lapel Mechanics** - Lapel manipulation and path reconfiguration
 Practice extracting, feeding, and reconfiguring lapel paths on a hanging gi or drill dummy. Focus on the hand mechanics of shortening the lapel, maintaining tension during repositioning, and re-feeding into the squid guard path. Build grip endurance for sustained lapel control through repeated reconfiguration cycles.
 
@@ -313,42 +325,12 @@ During regular rolling, specifically seek opportunities to establish worm guard 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element to maintain throughout the entire worm to squid guard transition?
-**A**: Lapel tension must be maintained continuously throughout the transition. The moment tension drops, the opponent can strip the lapel and reduce you to basic open guard. Even as you reconfigure the lapel path, you should be pulling the lapel toward your hip to keep it loaded rather than letting it hang slack. Losing lapel tension during the transition is the single most common cause of failure and guard loss.
-
-**Q2**: When is the optimal timing window to initiate this transition from worm guard?
-**A**: Initiate the transition when the opponent has settled into a stable, defensive posture against your worm guard rather than during their active passing attempts. The ideal moment is when they are weight-settled and stationary, as this gives you the most secure window to reconfigure without compounding the transition vulnerability with passing pressure. Attempting the transition during an active pass almost always results in guard loss.
-
-**Q3**: What secondary grip must be established before beginning the lapel reconfiguration?
-**A**: A strong sleeve grip or collar grip on the opponent provides essential backup control during the transition. This grip serves as your insurance when the lapel connection is at its weakest during reconfiguration. Without it, you have no control mechanism during the brief gap between worm and squid guard configurations, leaving you entirely vulnerable to passing or disengagement by the opponent.
-
-**Q4**: Your opponent pinches their knees together to prevent your leg from threading through - how do you create the necessary space?
-**A**: Use your free foot on their hip to push and create lateral pressure that forces their stance to widen. Alternatively, pull the lapel sharply to off-balance them to one side, which naturally opens a gap between their legs as they adjust their base to maintain balance. If neither approach works, abort the transition and return to worm guard attacks rather than forcing the thread against strong resistance, which usually results in a compromised position.
-
-**Q5**: What determines the quality of the resulting squid guard after completing the transition?
-**A**: The depth of the threading hook behind the opponent's knee is the primary quality determinant. A deep hook with your foot curled behind their knee and shin pressing against their inner thigh creates strong structural control that enables sweeps and back takes. A shallow hook that barely reaches past their knee provides minimal leverage and degrades quickly under pressure. Always prioritize hook depth over transition speed when completing the reconfiguration.
-
-**Q6**: How should you adjust if you feel the opponent beginning to strip your lapel mid-transition?
-**A**: Immediately decide whether to abort or accelerate. If the hook is not yet established, abort by pulling the lapel tight and returning to worm guard before you lose all control. If the hook is already set but the lapel is being stripped, accelerate the reconfiguration by pulling the lapel through its new path with urgency while using the hook to prevent them from creating distance. Never continue a half-committed transition against active stripping.
-
-**Q7**: What is the correct direction of force when pulling the lapel during the reconfiguration phase?
-**A**: Pull the lapel toward your near-side hip rather than across your body or away from the opponent. This direction shortens the lapel path while maintaining tension and naturally guides the fabric along the squid guard reconfiguration route. Pulling across your body creates slack in the system, while pulling away from the opponent straightens the lapel and makes it significantly easier for them to strip the grip entirely.
-
-**Q8**: If the transition to squid guard is blocked, what chain attack sequence should you pursue?
-**A**: Return to worm guard attacks if the hook fails to set, targeting the sweeps and back takes available from worm guard's established structure. If the lapel is partially reconfigured but the full squid guard cannot be established, consider transitioning to lasso guard or De La Riva guard using whatever lapel connection remains. The key principle is never staying in the failed transition state. Either complete the reconfiguration, return to worm guard, or flow to another guard system entirely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Worm to Squid Guard?</p>
 
 This transition carries minimal injury risk as it involves guard reconfiguration rather than joint manipulation or submission attempts. The primary safety concern is protecting your own knees during the leg threading motion, particularly if the opponent drives forward pressure while your leg is in a compromised position between guard configurations. Avoid forcing the leg thread against strong resistance, as lateral pressure on the knee during threading can strain the medial collateral ligament. If you feel joint stress during the threading motion, abort the transition and return to worm guard. Communicate with training partners about appropriate resistance levels when drilling this transition.
 

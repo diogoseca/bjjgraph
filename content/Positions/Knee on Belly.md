@@ -28,7 +28,7 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Knee on Belly combines mobility with pressure, requiring dynamic weight shifts rather than static settling
@@ -179,29 +179,23 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (33% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (13% of attempts)
 
-- **[[Transitions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** (11% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (11% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
+- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
+
+- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (9% of attempts)
-
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (2% of attempts)
-
 - **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (1% of attempts)
 
 - **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (1% of attempts)
-
-- **[[Submissions/Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (2% of attempts)
-
-- **[[Submissions/Cross Collar Choke from KOB/Attacker|Cross Collar Choke from KOB]]** (2% of attempts)
 
 
 ### Common Mistakes

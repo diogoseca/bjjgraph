@@ -166,6 +166,8 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take?</p>
+
 - Attacker shifts weight forward from hips to chest onto your upper back, reducing the heavy chair-sit pressure on your lower back - this weight transfer signals they are creating mobility for the rotation
 - You feel the attacker establishing a seatbelt configuration with one arm threading over your shoulder and the other driving under your armpit, hands seeking to clasp together on your chest or collarbone area
 - The attacker's inside leg hook begins to change angle or the attacker starts pivoting their hips around your body rather than maintaining the static chair-sit position directly on top of your lower back
@@ -177,6 +179,8 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take?</p>
 
 - Deny the seatbelt grip at all costs - strip hand grips aggressively before the attacker can clasp hands together, as the seatbelt is the gateway to the rotation
 - Maintain constant hip movement with circular and directional changes to prevent the attacker from settling weight and establishing the stable platform needed for rotation
@@ -191,6 +195,8 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take?</p>
 
 ### 1. Explosive sit-through toward the attacker's rotation direction, turning your hips to face them and pulling your knees toward your chest to deny hook insertion while stripping the seatbelt with both hands
 
@@ -228,6 +234,8 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take?</p>
+
 ### → [[Positions/Crackhead Control]]
 
 Strip the seatbelt grip with aggressive two-on-one hand fighting before the attacker can clasp hands. Combine grip stripping with explosive hip movement - sit through or turn into the attacker during the weight transfer phase when they shift from chair-sit to rotation. The goal is to reset the position so the attacker must re-establish the prerequisites for the back take, buying time and burning their energy on repeated failed attempts.
@@ -243,6 +251,8 @@ Execute a granby roll or explosive forward roll when the attacker commits weight
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take?</p>
 
 ### 1. Remaining passive and static while the attacker methodically establishes seatbelt grip and prepares for rotation
 
@@ -272,6 +282,8 @@ Execute a granby roll or explosive forward roll when the attacker commits weight
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take?</p>
+
 **Week 1-2** - Recognition and grip denial
 Partner establishes crackhead control and slowly works through the back take preparation sequence while you focus on recognizing the seatbelt grip attempt and weight shift signals. Practice two-on-one grip stripping on the choking arm with no resistance on escape attempts. Build pattern recognition for the transition setup cues at slow speed.
 
@@ -288,29 +300,6 @@ Full-resistance positional sparring starting from crackhead control. Partner wor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to deny when defending the back take from crackhead control?
-**A**: The seatbelt grip (choking arm over shoulder, underhook under armpit, hands clasped) is the most critical grip to deny. Without the seatbelt, the attacker cannot maintain chest-to-back connection during rotation and cannot control your upper body throughout the back take sequence. Preventing the seatbelt forces the attacker to rely on inferior grip configurations that are easier to strip during the rotation, dramatically reducing their success rate.
-
-**Q2**: You feel the attacker's hip pressure suddenly lighten on your lower back - what does this signal and how should you respond?
-**A**: Lightening hip pressure signals the attacker is shifting weight forward to their chest in preparation for rotation. This is your highest-percentage defensive window because their base is temporarily compromised during the weight transfer. Respond with an explosive directional change - either sit through toward them, execute a standup if their grips are loose, or granby roll if their weight is committed forward. The key is recognizing this weight shift as the trigger for your defensive action rather than waiting for the rotation to begin.
-
-**Q3**: Why should you turn toward the attacker rather than away from them when defending the rotation?
-**A**: Turning toward the attacker converts back exposure into a front-facing position where you have significantly better defensive options including guard recovery, framing, and scramble positioning. Turning away from the attacker gives them additional rotational space, accelerates their movement around your body, and makes hook insertion easier because you are moving in the same direction they want to go. Facing the threat is always preferable to exposing more back.
-
-**Q4**: The attacker has already inserted one hook during the rotation - what is your immediate defensive priority?
-**A**: Your immediate priority is preventing the second hook rather than stripping the first. A single hook is manageable and leaves significant escape options, but two hooks establishes back control with dramatically reduced escape probability. Use your same-side hand to block the path of the second foot while simultaneously turning your hips toward the hook side. If you can prevent the second hook, you maintain viable escape routes through sit-through, granby roll, or hip escape to half guard.
-
-**Q5**: How does energy management factor into defending the back take from crackhead control?
-**A**: Energy management is critical because crackhead control bottom is already a high-energy-expenditure position. Defensive actions should be efficient and targeted rather than panicked and random. Use structural defense (tight elbows, rounded back, tucked chin) as your baseline energy-conservation posture, and save explosive movements for genuine defensive windows when the attacker commits weight for rotation. Continuous maximum-effort thrashing depletes your reserves without effectively preventing the back take, while calculated explosive responses at the right moments provide higher-percentage defense at lower energy cost.
-
-
-
-</section>
 
 
 </main>

@@ -145,6 +145,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 ## Position Definition
 
+<p class="section-subtitle">What is Clamp Guard (Top)?</p>
+
 - One of the opponent's arms is trapped between the guard player's legs with shin pressing across the bicep, isolating it from their defensive framework
 - The other leg reinforces the trap by clamping from the opposite side, creating bilateral pressure that prevents simple arm withdrawal from the position
 - Both hands of the guard player remain free for grip fighting, controlling the opponent's posture, and initiating submissions or sweeps independently
@@ -157,6 +159,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Clamp Guard (Top)?</p>
+
 - Understanding of shin-on-bicep mechanics and how to establish the clamp from various open guard positions
 - Knowledge of armbar, triangle, and omoplata entries from arm isolation configurations
 - Hip mobility sufficient to maintain angles and adjust clamp positioning under dynamic opponent movement
@@ -168,6 +172,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Clamp Guard?</p>
 
 - Shin-across-bicep positioning is the foundation — maintain active pressure on the trapped arm at all times to prevent extraction
 - Both hands remain free for grip fighting, submission setups, and sweep assistance, creating a numerical advantage
@@ -183,6 +189,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Clamp Guard (Top)?</p>
 
 **If opponent attempts to pull their trapped arm straight back to escape the clamp:**
 - Execute **[[Transitions/Armbar from Clamp Guard/Attacker|Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 60%)
@@ -211,6 +219,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Clamp Guard?</p>
 
 ### 1. Maintaining flat hips instead of angling toward the trapped arm side during clamp retention
 
@@ -250,6 +260,8 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Clamp Guard attacks?</p>
+
 ### Clamp Establishment from Open Guard
 
 From various open guard positions (collar-sleeve, feet on hips, seated), practice establishing the clamp when the opponent reaches inside your guard. Focus on timing the shin-on-bicep placement with their arm extension. 15 repetitions per side with progressive resistance from 40% to 70%.
@@ -282,38 +294,6 @@ Focus specifically on sweep opportunities from clamp guard. When partner commits
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How should you distribute your weight and angle your hips to maintain maximum clamp effectiveness against an opponent who is actively fighting to extract?
-**A**: Angle your hips approximately 30-45 degrees toward the trapped arm side, keeping your weight shifted slightly onto the shoulder blade on that side rather than flat on your back. This creates a wedge effect where the shin-on-bicep pressure increases as the opponent pulls rather than decreases. Your bottom hip should be off the mat, generating structural tension through your core that maintains the clamp without relying on muscular leg squeeze. The hip angle also pre-loads your body for submission entries, meaning maintaining the position and attacking share the same biomechanical alignment.
-
-**Q2**: What are the essential grip priorities with your free hands when maintaining clamp guard, and in what order should you establish them?
-**A**: First priority is wrist or sleeve control on the trapped arm to prevent the opponent from rotating their hand and creating the angle needed for extraction. Second priority is head or collar control on the opposite side to keep the opponent's posture broken and prevent them from generating upward leverage. Third priority is far shoulder or tricep control to limit their ability to circle their body around the clamp. In no-gi, the wrist grip uses a C-clamp on the trapped hand while the other hand cups behind the neck. Never sacrifice both hand controls simultaneously — always maintain at least one grip anchor while transitioning the other.
-
-**Q3**: Your opponent begins rotating their trapped arm in a circular motion to slip past the shin pressure — what adjustment maintains the trap?
-**A**: Follow their rotation by adjusting your hip angle in the same direction, keeping the bony edge of your shin pressed firmly across the thickest part of their bicep. As they circle outward, your hips rotate slightly further away from them, which maintains or increases shin-on-bicep contact. Simultaneously, tighten your wrist grip and pull their hand toward your hip to counter the rotational force. If their arm is already past the bicep and reaching the forearm, immediately re-hip-escape to deepen the clamp back onto the bicep before they complete the extraction. The circular escape is also the trigger for triangle entry — if re-clamping fails, shoot your leg over their shoulder.
-
-**Q4**: How does shin-on-bicep pressure differ from shin-on-forearm placement, and why does this distinction matter for clamp retention?
-**A**: The bicep is the thickest part of the upper arm with the largest cross-sectional diameter, making it physically difficult to slide through a tight leg clamp. Shin-on-bicep also pins the arm at its strongest structural point, meaning the opponent must overcome maximum mechanical disadvantage to extract. The forearm is progressively thinner toward the wrist, creating a natural taper that allows the arm to slip free with minimal effort. Additionally, shin-on-bicep controls the elbow joint angle, preventing the opponent from bending their arm to create extraction leverage. When the clamp slides to the forearm, it loses approximately 60% of its retention capacity and most submission setups become impossible.
-
-**Q5**: Your opponent suddenly drives forward aggressively while you have the clamp established — what do you anticipate and how do you adjust?
-**A**: The forward drive signals either a stacking attempt to nullify your guard or an effort to close distance and strip the clamp through compression. Immediately elevate your hips by bridging slightly and pulling your knees toward your chest to absorb the forward pressure. Use one hand to push on their shoulder or hip to redirect the drive laterally rather than letting them stack you. The forward commitment removes their free arm from base — this is the optimal moment for a hip bump sweep or scissor sweep because they have only one arm available and their weight is moving forward past their center of gravity. If the drive is too powerful to redirect, transition to closed guard by wrapping your legs around their torso before they can flatten you.
-
-**Q6**: How do you manage energy expenditure when maintaining clamp guard against an opponent who is continuously fighting to extract for extended periods?
-**A**: Use skeletal structure rather than muscular effort as the primary retention mechanism. Position the bony edge of your tibia across the bicep and use hip angle to wedge the arm in place, which requires minimal sustained muscular effort. Reserve active muscular clamping for brief moments when the opponent makes explosive extraction attempts, then immediately return to structural holding. Keep your legs heavy and relaxed between extraction attempts rather than maintaining constant squeeze tension. Alternate between threatening submissions and maintaining the clamp — each submission attempt forces the opponent to pause their extraction to defend, giving your legs recovery time while keeping them under threat.
-
-**Q7**: The opponent has partially freed their arm and your shin has slid from their bicep to their forearm — how do you recover the full clamp position?
-**A**: Execute an immediate hip escape away from the opponent to create the space needed to re-seat your shin back onto the bicep. As you hip escape, pull their wrist toward your hip with your hand grip to prevent further extraction during the adjustment. Simultaneously lift your clamping leg higher by driving your knee toward the ceiling, which slides your shin back up the arm from forearm to bicep. If the arm has slipped too far for re-clamping, transition immediately to the submission that the partial escape creates: a near-forearm position often opens triangle entry because the arm is partially extended, or use the space to switch to a different guard configuration like spider guard where your foot repositions on their bicep from the front.
-
-**Q8**: What base fundamentals prevent the opponent from simply standing up to disengage from the clamp guard entirely?
-**A**: Maintain constant downward pressure on the opponent's posture through a combination of wrist grip pulling their trapped arm toward your hip and head or collar control pulling their upper body forward. This posture-breaking force prevents them from straightening their spine, which is a prerequisite for standing. Additionally, use your free leg (the non-clamping leg) as a hook behind their far knee or inside their thigh to disrupt their base and prevent the leg drive needed to stand. If they begin to posture despite your controls, immediately threaten an armbar by extending your hips — the armbar threat forces them to drop back down rather than risk the submission by standing into full arm extension.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -166,6 +166,8 @@ The most successful defenders combine heavy pressure with positional awareness, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Extraction?</p>
+
 - Bottom player begins rotating their trapped-side shoulder upward and away from the mat, creating a visible gap between their shoulder blade and the ground
 - Bottom player establishes frames against your hip or shoulder with their free arm and begins pushing to create separation at the chest level
 - Bottom player pulls their elbow tight to their ribs and begins a circular threading motion with their forearm across their own centerline
@@ -178,6 +180,8 @@ The most successful defenders combine heavy pressure with positional awareness, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Extraction?</p>
 
 - Maintain constant chest-to-chest pressure to eliminate the space needed for shoulder rotation and arm threading
 - Control the bottom player's near-side hip with your hand or knee to prevent shrimping that creates extraction angles
@@ -192,6 +196,8 @@ The most successful defenders combine heavy pressure with positional awareness, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Extraction?</p>
 
 ### 1. Drive crossface pressure and flatten opponent's shoulders back to the mat by dropping your shoulder weight across their neck and face while sprawling your hips low
 
@@ -229,6 +235,8 @@ The most successful defenders combine heavy pressure with positional awareness, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Extraction?</p>
+
 ### → [[Positions/Side Control]]
 
 Maintain constant chest-to-chest pressure and follow opponent's shoulder rotation with your own weight. When you feel frames being established, immediately drive your crossface shoulder down to flatten their shoulders back to the mat. Control their near-side hip to prevent shrimping. Re-settle your weight and re-establish full pin control after each failed extraction attempt.
@@ -244,6 +252,8 @@ When opponent creates space during their extraction attempt and begins working t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Extraction?</p>
 
 ### 1. Remaining static and allowing gradual space creation without adjusting pressure or position
 
@@ -273,6 +283,8 @@ When opponent creates space during their extraction attempt and begins working t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Extraction?</p>
+
 **Week 1-2: Pressure Maintenance and Recognition** - Developing sensitivity to escape initiation cues and maintaining constant pressure
 From side control top, partner attempts arm extraction at slow speed while you focus on feeling the early cues: shoulder rotation, frame insertion, hip movement. Practice maintaining chest-to-chest connection and following partner's movement without losing contact. Do not attempt counters yet—focus purely on recognition and pressure maintenance. 10 repetitions per side with partner performing the full extraction sequence at 30% speed.
 
@@ -289,29 +301,6 @@ Full positional sparring rounds from side control with both players at 100% inte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning an arm extraction attempt from bottom side control?
-**A**: The earliest cue is the bottom player beginning to rotate their trapped-side shoulder upward and away from the mat, even by just a few degrees. This subtle shoulder rotation precedes the actual arm extraction by several movements and indicates they are creating the space pathway needed to thread their elbow through. You may also feel a change in their body tension—increased rigidity in their frames combined with small hip adjustments that signal a deliberate escape sequence is beginning. Recognizing this early allows you to apply counter-pressure before meaningful space is created.
-
-**Q2**: Why is transitioning to mount during an arm extraction attempt often more effective than simply trying to maintain side control?
-**A**: When the bottom player creates space for arm extraction, they are simultaneously creating the space you need to transition to mount. Their shrimping motion moves their hips away from you, which opens the pathway for your leg to step over. Attempting to maintain side control against strong frames requires constant energy expenditure and is a holding action at best. Transitioning to mount converts their escape energy into your positional advancement, puts them in a worse position than they started, and scores additional points in competition. The key is timing the step-over to coincide with their hip escape movement.
-
-**Q3**: Your opponent has established a strong frame against your shoulder and is beginning to rotate—what is your immediate priority?
-**A**: Your immediate priority is to eliminate the frame before it becomes load-bearing. Drive your crossface shoulder into their neck and face while simultaneously sprawling your hips low and heavy against their hips. This dual pressure from above (crossface) and below (hip pressure) collapses the space their frame is trying to create. If the frame is already too strong to collapse directly, switch your approach: either transition to north-south to change the angle and render their frame ineffective, or step over to mount using the space their frame created. Never engage in a static pushing contest against a well-established frame—change the angle or change the position.
-
-**Q4**: How do you prevent the bottom player from inserting their knee after they have partially extracted their arm?
-**A**: Once partial extraction occurs, your near-side hand must immediately drop to control their far-side hip, blocking the hip escape that precedes knee insertion. Simultaneously drive your hips forward and low, closing the gap between your hips and theirs that the knee needs to pass through. If their knee is already beginning to enter, use your own knee to pin their thigh to the mat and prevent the shield from establishing. The critical principle is denying hip escape—without the shrimping motion, they cannot create the angle needed to insert their knee regardless of arm position.
-
-**Q5**: When is it appropriate to abandon side control maintenance and instead attack submissions during opponent's escape attempt?
-**A**: Attack submissions when your opponent's escape movements expose their arms in vulnerable positions—specifically when their arm is mid-extraction and extended between bodies, or when they push with extended arms creating isolation opportunities. The americana is available when their near-side arm pushes against your neck with the elbow flared. The kimura presents when they reach across their body during the threading motion. The arm triangle becomes available when their far arm crosses their own neck during framing. The key timing indicator is when they commit their arm to a specific escape pathway—this commitment temporarily fixes the arm in a position you can attack before they complete the extraction.
-
-
-
-</section>
 
 
 </main>

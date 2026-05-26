@@ -166,6 +166,8 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Explosive Bridge to Turtle?</p>
+
 - Bottom player drives heels close to buttocks and digs toes into the mat, indicating they are loading their legs for an explosive bridge
 - Subtle hip adjustments or weight shifting from the bottom player as they test which direction offers the best bridge angle
 - Chin tuck and shoulder elevation from bottom player signals imminent escape attempt with neck protection priority
@@ -177,6 +179,8 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Explosive Bridge to Turtle?</p>
 
 - Maintain low hip pressure and forward weight distribution to absorb bridging force before it generates momentum
 - Tight knee squeeze on trapped arms is the primary mechanism preventing arm extraction during bridge attempts
@@ -191,6 +195,8 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Explosive Bridge to Turtle?</p>
 
 ### 1. Drop chest weight forward and sprawl hips down to flatten bottom player's bridge potential
 
@@ -228,6 +234,8 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Explosive Bridge to Turtle?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Absorb the bridge by dropping weight forward and sprawling hips, maintaining tight knee squeeze on trapped arms throughout the explosion. Time your weight adjustment to arrive heavy just as their bridge peaks. The failed attempt drains their energy significantly, making subsequent escape attempts weaker and opening submission windows.
@@ -243,6 +251,8 @@ When bridge partially succeeds and arm extraction begins, immediately transition
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Explosive Bridge to Turtle?</p>
 
 ### 1. Sitting upright with weight too high when opponent shows pre-bridge indicators
 
@@ -272,6 +282,8 @@ When bridge partially succeeds and arm extraction begins, immediately transition
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Explosive Bridge to Turtle?</p>
+
 **Week 1-2** - Control maintenance fundamentals
 Practice maintaining mounted crucifix against cooperative partner who performs slow, telegraphed bridge attempts. Focus on weight distribution adjustments, knee squeeze maintenance, and recognizing pre-bridge indicators. Build the habit of dropping weight preemptively when escape cues appear.
 
@@ -288,29 +300,6 @@ Full resistance rounds starting from mounted crucifix. Top player works to maint
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing an explosive bridge from mounted crucifix bottom?
-**A**: The earliest cues are foot positioning changes - specifically, the bottom player driving their heels close to their buttocks and digging toes into the mat to load their legs for explosive power. Additional indicators include subtle hip adjustments testing bridge angles, chin tucking with shoulder elevation for neck protection, and a pause in active resistance suggesting energy conservation for a single committed effort. Recognizing these pre-bridge signals gives you time to preemptively adjust weight distribution before the explosion.
-
-**Q2**: Your opponent's bridge succeeds in creating space but their arm is not yet fully extracted - what is your optimal response?
-**A**: Immediately re-squeeze your knees on the partially freed arm while driving your weight back down onto their torso. The arm extraction window is brief - if the bridge disrupted your balance but the arm is still partially trapped, aggressively re-clamping your knees can re-secure the crucifix before they complete extraction. Simultaneously adjust your hips to re-center your weight over their chest. If the arm does come free despite this effort, immediately transition to back control rather than attempting to re-trap the arm.
-
-**Q3**: Why is flowing to back control often preferable to fighting for mounted crucifix re-establishment during a partially successful escape?
-**A**: Once the escape generates sufficient momentum for arm extraction and rotation, the physics favor the escaping player - their rotational momentum is difficult to reverse without releasing control points. Fighting against this momentum wastes your energy and risks losing all control. Conversely, following their rotation into back control uses their movement to assist your transition, maintains chest-to-back contact throughout, and preserves a dominant position worth 4 points. Back control offers comparable submission opportunities while being a natural continuation of the escape's trajectory.
-
-**Q4**: How should you adjust your weight distribution when you detect pre-bridge indicators from the bottom player?
-**A**: Shift weight forward and downward by driving your chest onto their upper chest and face area while sprawling your hips down toward the mat. This creates a heavy, low center of gravity that is extremely difficult to displace with a bridge. The forward angle directs their bridge force into the mat rather than lifting you vertically. Simultaneously tighten knee squeeze on trapped arms to prevent any extraction. Avoid the mistake of posting with hands, which sacrifices arm control for balance that should come from hip and chest positioning.
-
-**Q5**: Your opponent fakes a bridge in one direction then explosively commits the opposite way - how do you counter this feint?
-**A**: The key is not overcommitting your weight to counter the initial fake. Instead of shifting laterally to block the first direction, maintain centered weight distribution with forward pressure. React to the fake by dropping heavier through your center rather than chasing their direction. When the real bridge comes, your centered base can absorb force from any direction. Advanced practitioners learn to feel the difference between a committed bridge and a feint through the quality of hip engagement - a fake typically involves less full-body commitment than a genuine explosive attempt.
-
-
-
-</section>
 
 
 </main>

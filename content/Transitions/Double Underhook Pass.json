@@ -61,11 +61,11 @@
       "relationship": "Alternative outcome when driving toward head"
     },
     {
-      "name": "Americana from Side Control",
+      "name": "Americana",
       "relationship": "Follow-up submission from pass completion"
     },
     {
-      "name": "Kimura from Side Control",
+      "name": "Kimura",
       "relationship": "Follow-up submission from pass completion"
     },
     {
@@ -200,7 +200,7 @@
         "description": "Begin rounds from Crackhead Control with full resistance. Track pass completion percentage and identify most common failure points. Integrate pass into turtle attack game alongside back takes and truck entries."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Double Underhook Pass?",
         "answer": "The primary goal is to transition from Crackhead Control to Side Control by using bilateral underhook control to flatten the turtle defender. The pass eliminates their defensive base through chest pressure and arm leverage, collapsing the quadruped position and advancing to a dominant controlling position."
@@ -323,7 +323,7 @@
         "correction": "Wait for the attacker to begin the forward drive phase before initiating the granby. You need their committed forward momentum to fuel the escape. The roll should redirect their existing force, not create movement against a balanced opponent."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical defensive window during the Double Underhook Pass sequence?",
         "answer": "The most critical window is during the transition from single to double underhook, when the attacker must shift their hip pressure to create the threading angle. At this moment, the attacker has only one underhook established and their weight distribution is temporarily compromised. Defensive actions like sitting back or stripping the first underhook are most effective here because the attacker cannot simultaneously maintain hip pressure, control the first underhook, and thread the second."

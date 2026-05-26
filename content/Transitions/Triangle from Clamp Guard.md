@@ -216,7 +216,7 @@ The Triangle from Clamp Guard functions as the primary submission-entry pathway 
 
 - [[Positions/Spider Guard]] - Related guard system sharing shin-on-arm mechanics with different control configuration
 
-- [[Submissions/Triangle from Open Guard]] - Alternative triangle entry from less controlled open guard position for comparison
+- [[Transitions/Triangle Setup]] - Alternative triangle entry pathway for comparison with the clamp guard-specific entry
 
 
 </section>

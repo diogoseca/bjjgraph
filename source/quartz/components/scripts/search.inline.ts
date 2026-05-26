@@ -146,13 +146,28 @@ function highlightHTML(searchTerm: string, el: HTMLElement) {
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
-  const data = await fetchData
+
+  // Lazy-load contentIndex: only fetch when search is first opened (saves ~3MB on page load)
+  let data: { [key: string]: ContentDetails } | null = null
+  let idDataMap: FullSlug[] = []
+  let searchIndexBuilt = false
+
+  async function ensureSearchData() {
+    if (data) return
+    const loadContentIndex = (window as any).loadContentIndex
+    data = loadContentIndex ? await loadContentIndex() : await (window as any).fetchData
+    idDataMap = Object.keys(data!) as FullSlug[]
+    if (!searchIndexBuilt) {
+      await fillDocument(data!)
+      searchIndexBuilt = true
+    }
+  }
+
   const container = document.getElementById("search-container")
   const sidebar = container?.closest(".sidebar") as HTMLElement
   const searchButton = document.getElementById("search-button")
   const searchBar = document.getElementById("search-bar") as HTMLInputElement | null
   const searchLayout = document.getElementById("search-layout")
-  const idDataMap = Object.keys(data) as FullSlug[]
 
   const appendLayout = (el: HTMLElement) => {
     if (searchLayout?.querySelector(`#${el.id}`) === null) {
@@ -203,6 +218,8 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
     container?.classList.add("active")
     searchBar?.focus()
+    // Lazy-load search data on first open
+    ensureSearchData()
   }
 
   let currentHover: HTMLInputElement | null = null
@@ -275,14 +292,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   const formatForDisplay = (term: string, id: number) => {
     const slug = idDataMap[id]
-    const rawTitle = data[slug].title ?? ""
+    const entry = data?.[slug]
+    const rawTitle = entry?.title ?? ""
     const displayTitle = stripTitleSuffix(rawTitle)
     return {
       id,
       slug,
       title: searchType === "tags" ? displayTitle : highlight(term, displayTitle),
-      content: highlight(term, data[slug].content ?? "", true),
-      tags: highlightTags(term.substring(1), data[slug].tags),
+      content: highlight(term, entry?.content ?? "", true),
+      tags: highlightTags(term.substring(1), entry?.tags ?? []),
     }
   }
 
@@ -405,6 +423,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   async function onType(e: HTMLElementEventMap["input"]) {
     if (!searchLayout || !index) return
+    await ensureSearchData()
     currentSearchTerm = (e.target as HTMLInputElement).value
     searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
@@ -469,7 +488,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   window.addCleanup(() => searchBar?.removeEventListener("input", onType))
 
   registerEscapeHandler(container, hideSearch)
-  await fillDocument(data)
+  // contentIndex loading deferred to ensureSearchData() — called on first search open
 })
 
 /**
@@ -503,8 +522,9 @@ function handleRoll() {
 
   const position = positions[Math.floor(Math.random() * positions.length)]
 
-  // Clear any existing journey to start fresh
+  // Clear any existing journey and roll history to start fresh
   localStorage.setItem("bjj-journey", "[]")
+  sessionStorage.removeItem("bjj-roll-ids")
 
   // Set snackbar for arrival
   sessionStorage.setItem(

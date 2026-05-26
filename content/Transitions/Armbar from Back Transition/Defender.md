@@ -172,6 +172,8 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar from Back Transition?</p>
+
 - Attacker's hand shifts from attempting to slide under your chin to gripping your wrist or forearm, indicating a change from choke to arm attack
 - You feel the attacker's leg begin to lift and swing over your shoulder on the side of your defending arm, signaling the rotational entry
 - Pressure on your back changes from chest-to-back compression to a rotational pull as the attacker begins pivoting their hips away from you
@@ -183,6 +185,8 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar from Back Transition?</p>
 
 - Keep elbows tight to your body at all times - arm isolation is the entry point for this entire attack, and denying wrist access prevents the transition from starting
 - Recognize the shift from choke to armbar early through tactile cues, particularly when the attacker's hand moves from your neck to your wrist or forearm
@@ -197,6 +201,8 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar from Back Transition?</p>
 
 ### 1. Retract arm and re-tuck to body the moment you feel wrist control being established, pulling elbow tight to ribs and dropping your chin back to defensive position
 
@@ -241,6 +247,8 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar from Back Transition?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Retract the targeted arm early by pulling your elbow tight to your ribs the instant you feel the attacker shift from choke to wrist control. Simultaneously turn your shoulders toward the attacker to disrupt their angle. The goal is to deny the arm isolation that initiates the entire sequence, forcing the attacker to either reset to choke attacks or abandon the transition attempt.
@@ -256,6 +264,8 @@ When the transition is already in progress and arm retraction has failed, immedi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar from Back Transition?</p>
 
 ### 1. Extending the arm to push the attacker's leg away instead of retracting the arm to the body
 
@@ -290,6 +300,8 @@ When the transition is already in progress and arm retraction has failed, immedi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar from Back Transition?</p>
+
 **Week 1-2** - Recognition and arm retraction
 Partner simulates the transition at slow speed. Practice recognizing the tactile shift from choke to wrist control and immediately retracting the arm. Focus on the defensive reflex of pulling elbow to ribs the instant you feel the grip change. Perform 20-30 repetitions per side at walking speed.
 
@@ -306,29 +318,6 @@ Full resistance positional sparring starting from standing back control. Defend 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is transitioning from choke to armbar?
-**A**: The earliest cue is feeling the attacker's hand shift from attempting to slide under your chin to gripping your wrist or forearm. This tactile change indicates they have abandoned the choke threat and are beginning the arm isolation phase. Recognizing this shift immediately gives you the largest defensive window to retract your arm before the leg swing begins.
-
-**Q2**: Your attacker secures your wrist and begins swinging their leg over your shoulder - what is your best defensive option at this point?
-**A**: At this stage, your best option is to turn explosively into the attacker while the leg swing creates structural instability in their back control. The act of swinging the leg requires them to shift their weight and momentarily reduce chest-to-back pressure. Rotate your shoulders toward them aggressively to disrupt the perpendicular angle they need. If the turn fails, immediately drop to turtle to change the transition dynamics.
-
-**Q3**: Why is clasping your hands together a temporary defense rather than a long-term solution?
-**A**: Clasping hands prevents immediate arm isolation but commits both hands to grip defense, leaving your neck completely undefended. A skilled attacker will either break the grip through leverage techniques or switch back to the choke since your hands are occupied. The grip buys time - use those seconds to plan a more complete defensive action like turning in or dropping to turtle, rather than hoping to hold the grip indefinitely.
-
-**Q4**: How does dropping to turtle help defend against this specific transition?
-**A**: Dropping to turtle fundamentally changes the geometry of the transition. The attacker's rotational mechanics are designed for a standing opponent - when you drop, the angle of their leg swing is disrupted, the descent trajectory changes, and your curled turtle posture makes it much harder to maintain the arm extension needed for the armbar. Additionally, your knees and elbows can close tight to your body, providing structural protection for the trapped arm.
-
-**Q5**: What is the critical difference between defending this standing armbar transition versus a grounded armbar from back control?
-**A**: The standing transition provides a unique defensive advantage: the attacker must manage balance and momentum during a standing-to-ground movement, which creates structural instability you can exploit. In the grounded version, the attacker has a stable base throughout. Use the standing instability by timing defensive turns or drops to the exact moment the attacker commits to the rotation, when their control is weakest. However, the standing version also carries higher injury risk due to the momentum of the descent.
-
-
-
-</section>
 
 
 </main>

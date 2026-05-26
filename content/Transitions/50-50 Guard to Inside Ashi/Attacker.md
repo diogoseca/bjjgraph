@@ -186,6 +186,8 @@ This transition is particularly valuable against opponents who play defensive 50
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing 50-50 Guard to Inside Ashi?</p>
+
 - Timing over force: execute when opponent's hip pressure decreases or their grip momentarily loosens rather than muscling through their control
 - Hip mobility first: create space by hip escaping away before attempting to extract your inside leg from the entanglement
 - Maintain heel control: never release your grip on their heel during the transition - this is your anchor throughout the movement
@@ -200,6 +202,8 @@ This transition is particularly valuable against opponents who play defensive 50
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting 50-50 Guard to Inside Ashi?</p>
+
 - Established 50-50 position with your legs entangled in mirror configuration with opponent
 - Two-handed control on opponent's heel or ankle preventing them from extracting their leg
 - Recognition that opponent has momentarily relaxed hip pressure or is focused on defensive grip fighting
@@ -212,6 +216,8 @@ This transition is particularly valuable against opponents who play defensive 50
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute 50-50 Guard to Inside Ashi step by step?</p>
 
 1. **Secure heel control**: Establish strong two-handed control on opponent's heel with C-grip configuration. Four fingers wrap the heel while thumb secures the Achilles tendon. This grip anchors the entire transition and must not be released.
 2. **Create hip angle**: Hip escape away from opponent by driving your hips toward the ceiling and then away from their body. This creates the space needed to extract your inside leg from the entanglement while maintaining heel control throughout the movement.
@@ -240,6 +246,8 @@ This transition is particularly valuable against opponents who play defensive 50
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter 50-50 Guard to Inside Ashi?</p>
+
 - **Opponent hip escapes simultaneously to maintain mirror position and re-establish 50-50 entanglement** (Effectiveness: High) - Your Response: Accelerate your transition and drive your inside leg aggressively across their hip before they can mirror your movement. If they match your timing, consider switching to back take as they expose their back during the hip escape. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent attacks your exposed heel as your inside leg extracts from the entanglement** (Effectiveness: Medium) - Your Response: Maintain strong hip escape angle to keep your heel away from their grip range. If they secure your heel, immediately hide it by rotating your knee inward while continuing to drive toward inside ashi - their focus on your heel often means they lose control of their own position. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent drives forward aggressively to collapse distance and prevent inside leg from establishing frame** (Effectiveness: Medium) - Your Response: Use their forward drive against them by extending your inside leg forcefully and using the collision to create space. Their forward momentum often creates sweep opportunities if you redirect it with your outside leg hook. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -251,6 +259,8 @@ This transition is particularly valuable against opponents who play defensive 50
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing 50-50 Guard to Inside Ashi?</p>
 
 ### 1. Releasing heel control during the transition to use hands for base
 
@@ -285,6 +295,8 @@ This transition is particularly valuable against opponents who play defensive 50
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train 50-50 Guard to Inside Ashi (Attacker)?</p>
+
 **Week 1-2** - Movement mechanics
 Practice the hip escape to leg extraction motion without resistance. Focus on the continuous flow from hip escape to inside leg drive. Partner holds static 50-50 position while you drill the movement pattern 20-30 repetitions per side.
 
@@ -302,48 +314,12 @@ Incorporate into live sparring starting from 50-50 position. Work on executing u
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary strategic goal of transitioning from 50-50 to Inside Ashi-Garami?
-**A**: The primary goal is breaking the symmetrical parity of 50-50 to establish dominant control with your inside leg across opponent's hip. This gives you superior heel access for attacks, better hip control to prevent their defense, and direct pathways to more dominant positions like saddle or honey hole that are difficult to access from standard 50-50.
-
-**Q2**: What grips must you maintain throughout the entire 50-50 to Inside Ashi transition?
-**A**: Two-handed heel control must be maintained throughout. The C-grip with four fingers wrapped around opponent's heel and thumb on the Achilles tendon anchors the entire movement. Never release both hands simultaneously - if adjustment is needed, maintain at least one hand on heel while the other repositions. Releasing heel control during transition allows immediate escape.
-
-**Q3**: Your opponent drives forward pressure as you begin extracting your inside leg - how do you respond?
-**A**: Use their forward momentum against them by extending your inside leg forcefully into the collision. This often creates a rebound effect that gives you the space needed to complete the transition. Alternatively, redirect their forward drive with your outside leg hook to create sweep opportunities - their aggressive pressure commits their weight forward and exposes balance vulnerabilities.
-
-**Q4**: What is the optimal timing window for executing this transition?
-**A**: Execute when opponent's hip pressure momentarily decreases - this typically happens when they adjust grips, attempt submissions, or defend your attacks on their heel. You can create this window by threatening straight ankle locks which force them to rotate their knee away and adjust positioning. Never attempt the transition against fully established hip pressure.
-
-**Q5**: How should your body angle change from the start to completion of this transition?
-**A**: You start in 50-50 with bodies relatively parallel in mirror configuration. During transition, you hip escape to create angle. Upon completion, your body should be perpendicular (approximately 90 degrees) to opponent's trapped leg with your chest connected to their leg. This perpendicular alignment maximizes mechanical advantage for all subsequent attacks and position advancements.
-
-**Q6**: What immediate follow-up attacks become available after successfully completing this transition?
-**A**: After establishing inside ashi, you have direct access to straight ankle lock by controlling above the ankle and extending your hips. If they rotate knee inward to defend, inside heel hook becomes available. If they try to extract their leg, kneebar presents as they extend. You can also advance to honey hole or saddle for superior finishing position if submissions are defended.
-
-**Q7**: Your opponent begins mirroring your hip escape to maintain 50-50 symmetry - how do you counter?
-**A**: Accelerate your transition by driving your inside leg more aggressively across their hip, trying to beat their mirror timing. If they match your speed perfectly, recognize that their hip escape exposes their back - abandon the inside ashi pursuit and immediately pursue back control by releasing your leg entanglement and circling behind them as they hip escape away from you.
-
-**Q8**: Why is it critical to drive your inside leg across opponent's hip immediately after extraction?
-**A**: The extraction creates a momentary gap in your control structure. If there's any pause between extraction and hip drive, opponent can collapse that gap to re-establish 50-50 or even pass to side control. The extraction and hip drive must be one continuous motion - your inside leg should already be moving toward their hip before it fully clears the entanglement.
-
-**Q9**: What is the most critical hip movement in this technique and why does it determine success or failure?
-**A**: The initial hip escape away from opponent is the most critical movement. This shrimp creates the space between your bodies that allows your inside leg to thread free from the entanglement. Without sufficient hip escape distance, your inside leg physically cannot clear their leg structure. The quality and timing of this hip escape directly determines whether the extraction succeeds - too shallow and your leg stays trapped, too slow and opponent re-clamps before you clear.
-
-**Q10**: How do you differentiate between when to attempt this transition versus accepting the 50-50 position?
-**A**: Attempt the transition when you have clear timing windows (opponent adjusting grips, decreased hip pressure, failed submission defense on their part). Accept the 50-50 when opponent has strong inside control and heavy hip pressure with no defensive reactions to exploit. In competition, consider point implications - sometimes maintaining 50-50 control is tactically preferable to risking the transition against a well-defended opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for 50-50 Guard to Inside Ashi?</p>
 
 This transition involves rapid leg repositioning within leg entanglements and carries inherent knee and ankle injury risk. Always practice initially at slow speed with cooperative partners, gradually increasing resistance only after movement patterns are established. Never jerk or explosive movements while legs are entangled - smooth, controlled motion protects both practitioners. Tap immediately if you feel knee rotation pressure during the transition. Communicate clearly with training partners about intensity level. If either practitioner's knee becomes trapped at an awkward angle during the movement, stop immediately and reset rather than forcing through. This technique should only be practiced after establishing proficiency in both 50-50 position maintenance and basic inside ashi-garami controls.
 

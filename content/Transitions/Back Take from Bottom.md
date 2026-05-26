@@ -204,7 +204,7 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 
 - [[Positions/Guillotine Control]] - Parent position for Hindulotine variations
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
 - [[Transitions/Back Take from Top]] - Similar transition executed from top Hindulotine
 

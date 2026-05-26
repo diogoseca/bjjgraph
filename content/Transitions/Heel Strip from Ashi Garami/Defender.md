@@ -138,13 +138,15 @@ description: "Counter the heel strip defense when attacking from Ashi Garami. Gr
 
 As the person attacking from Ashi Garami, your opponent's heel strip attempt represents a critical defensive sequence that threatens to neutralize your submission control. Your primary objectives are maintaining heel control through grip retention, capitalizing on the strip attempt to advance position, and re-establishing control if the strip partially succeeds. The heel strip defense creates a window where the opponent commits both hands to grip fighting, temporarily abandoning other defensive options like boot defense or positional escape. Recognizing this window and exploiting it—through grip adjustments, positional advances to Saddle or Cross Ashi, or submission acceleration—separates elite leg lock attackers from one-dimensional finishers who lose exchanges the moment their grip is challenged.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Heel Strip from Ashi Garami?</p>
 
 - Opponent reaches down with both hands toward your wrist controlling the heel, abandoning upper body frames and boot defense
 - Opponent straightens trapped leg and points toes in boot defense, indicating preparation for the strip attempt that typically follows
@@ -159,6 +161,8 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Heel Strip from Ashi Garami?</p>
+
 - Maintain layered grip control—use secondary grip on the foot or ankle to reinforce primary heel grip, making a single strip insufficient for escape
 - Recognize strip attempts early through tactile cues—the two-on-one pressure on your wrist signals immediate grip fighting that requires instant response
 - Use grip switches and re-grips to counter strip attempts rather than fighting the strip head-on with pure grip strength that depletes forearm endurance
@@ -172,6 +176,8 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Heel Strip from Ashi Garami?</p>
 
 ### 1. Switch grips before strip completes—release and immediately re-grip the heel from a different angle or with different hand configuration
 
@@ -209,6 +215,8 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Heel Strip from Ashi Garami?</p>
+
 ### → [[Positions/Ashi Garami]]
 
 Maintain grip integrity through layered control and grip switches. When strip attempt begins, immediately reinforce primary grip with secondary foot or ankle control and use grip intelligence rather than pure strength to retain heel position.
@@ -224,6 +232,8 @@ Capitalize on opponent's hand commitment to stripping by advancing leg entanglem
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Strip from Ashi Garami?</p>
 
 ### 1. Fighting the strip with pure grip strength rather than grip intelligence and switching
 
@@ -253,6 +263,8 @@ Capitalize on opponent's hand commitment to stripping by advancing leg entanglem
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Heel Strip from Ashi Garami?</p>
+
 **Phase 1: Grip Retention Under Progressive Pressure** - Maintaining heel control against strip attempts with increasing intensity
 Partner performs heel strip attempts with gradually increasing intensity. Practice grip switches, angle adjustments, and reinforcement techniques. Focus on grip intelligence and efficient response patterns rather than pure grip strength endurance.
 
@@ -269,23 +281,6 @@ Positional sparring from Ashi Garami where attacker practices maintaining comple
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that your opponent is about to attempt a heel strip from Ashi Garami?
-**A**: The earliest cue is the opponent straightening their trapped leg and pointing their toes in boot defense, which typically precedes the strip by one to two seconds. This boot defense reduces your finishing mechanics and signals preparation for active grip fighting. Recognize this cue and immediately make a decision: reinforce your grip, switch grip angle, or accelerate your finish before the two-on-one materializes on your wrist.
-
-**Q2**: Your opponent has established two-on-one control on your heel-controlling wrist—what is your best response?
-**A**: Release and immediately re-grip from a different angle rather than fighting the two-on-one with strength. Let go of the heel with the targeted hand, circle your wrist free from their control, and re-establish your heel grip from behind their hands. Alternatively, use the moment they are focused on your wrist to advance your leg position to Saddle or Cross Ashi, where the stronger entanglement compensates for temporary grip loss.
-
-**Q3**: How should you maintain offensive pressure when your heel grip has been partially stripped by the opponent?
-**A**: Transition immediately to an alternative submission—straight ankle lock or toe hold—using the same leg entanglement that remains intact. The stripped heel grip means the heel hook is temporarily unavailable, but your positional control through leg entanglement remains. Apply the alternative submission to maintain offensive pressure while simultaneously working to re-establish heel control for the primary attack.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Old School Pass?</p>
+
 - Opponent establishes deep whizzer under your underhooking arm with hand gripping their own thigh or your hip, indicating they are setting up their primary passing control structure
 - Heavy crossface pressure increases significantly with shoulder driving into your jaw, attempting to force your head away and flatten your body angle
 - Opponent begins small angular hip movements and heel curling against your lockdown rather than explosive pulling, indicating a systematic extraction approach
@@ -174,6 +176,8 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School Pass?</p>
 
 - Maintain all three control points simultaneously: lockdown tension, deep underhook, and head control form an interconnected defensive system
 - Actively pump the lockdown when feeling extraction pressure to prevent systematic degradation of the figure-four configuration
@@ -188,6 +192,8 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Old School Pass?</p>
 
 ### 1. Pump lockdown and execute Old School Sweep during extraction attempt
 
@@ -225,6 +231,8 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Old School Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time the Old School Sweep during the opponent's extraction attempt. When they commit weight forward and begin pulling their leg free, their base is compromised. Pump the lockdown explosively, pull with the underhook and head control, and rotate them over you using their forward momentum against them. The extraction attempt creates the exact weight distribution vulnerability that the Old School Sweep exploits.
@@ -240,6 +248,8 @@ Maintain all three control points by actively pumping the lockdown against extra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School Pass?</p>
 
 ### 1. Allowing opponent to flatten you onto your back without resisting through lockdown pumping and angle maintenance
 
@@ -274,6 +284,8 @@ Maintain all three control points by actively pumping the lockdown against extra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Old School Pass?</p>
+
 **Phase 1: Recognition and Maintenance** - Identifying pass initiation and maintaining controls
 Partner establishes Old School top position and begins the passing sequence. Defender focuses on recognizing the whizzer, crossface, and extraction signals while maintaining all three control points under graduated pressure. No sweep attempts yet - pure control retention with emphasis on lockdown pumping, underhook depth, and preventing flattening for 60-second intervals.
 
@@ -290,29 +302,6 @@ Partner works the Old School Pass at full intensity including crossface pressure
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel your opponent's whizzer deepening and crossface pressure increasing - what is the earliest defensive response that prevents the pass sequence from progressing?
-**A**: Immediately deepen your underhook by driving your elbow tighter to your ribs and gripping higher on their back. Simultaneously pump the lockdown to create space and pull their head down with your control arm to break the crossface angle. The goal is to prevent flattening before it starts - once you are flat, the defensive task becomes dramatically harder. If the crossface is already winning, begin positioning for deep half entry as a contingency.
-
-**Q2**: When is the optimal timing window to attempt the Old School Sweep as a counter to the pass?
-**A**: The optimal window is during the opponent's leg extraction phase, specifically when they commit weight forward and begin angular hip displacement to break the lockdown. At this moment their weight distribution shifts forward, their base narrows as they focus on their trapped leg, and their attention divides between extraction and base maintenance. This creates the forward weight vulnerability that the Old School Sweep requires. Attempting the sweep during settled pressure with no extraction activity has much lower success probability.
-
-**Q3**: Your lockdown is being systematically broken through angular pressure and you cannot maintain it - what is your best contingency transition?
-**A**: Transition to deep half guard by diving your head underneath the opponent's hips before the lockdown fully breaks. This requires releasing the head control and using that arm to underhook their far leg while simultaneously threading your body underneath them. The deep half entry must happen while you still have some lockdown tension remaining to control their movement during the transition. If deep half is not available, insert a knee shield immediately upon lockdown release to establish distance before they can drive through.
-
-**Q4**: How do you maintain the effectiveness of your lockdown against angular hip displacement extraction?
-**A**: Actively extend the lockdown by driving your knees away while pulling with the hooking ankle, maintaining constant tension in the figure-four. When you feel the opponent shift their hip angle, mirror the angular change by adjusting your own hip position to maintain the lockdown's strongest resistance axis. Pump the lockdown rhythmically to prevent the opponent from finding a stable extraction angle. The lockdown is strongest when you actively work it rather than holding it statically.
-
-**Q5**: What three signals indicate you should abandon Old School position and transition to an alternative guard?
-**A**: Transition when: 1) Your body has been flattened onto your back and you cannot recover side angle despite lockdown pumping, meaning your sweep leverage is eliminated; 2) Your underhook has been fully neutralized by the whizzer and you cannot re-establish it within two attempts, removing your primary offensive pathway; 3) The lockdown tension has degraded below the threshold needed to control the opponent's leg movement, meaning extraction is imminent. Any one of these signals warrants immediate transition to deep half, knee shield, or closed guard recovery.
-
-
-
-</section>
 
 
 </main>

@@ -67,7 +67,7 @@
       "relationship": "Transitional control point during leg extraction"
     },
     {
-      "name": "Kneebar from 50-50",
+      "name": "Kneebar entry",
       "relationship": "Chain attack option before committing to pass"
     },
     {
@@ -206,7 +206,7 @@
         "description": "Implement in positional sparring starting from 50-50. Partner provides full resistance with all counters available. Track success rate and identify which situations favor passing versus continued leg attacks. Refine decision-making process."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Pass to Side Control from 50-50?",
         "answer": "The primary goal is to abandon the leg entanglement exchange in favor of establishing a dominant pinning position. This is strategic when leg attacks are defended well (opponent hiding heel), when ruleset restricts heel hooks, or when positional points outweigh continued leg lock hunting. Success yields 3 points for passing."
@@ -328,7 +328,7 @@
         "correction": "Prioritize leg retention through grip control and re-hooking over explosive reversal attempts. Leg re-capture is higher percentage and lower risk than bridge-and-roll reversals from this specific position."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important grip to maintain when defending against the pass from 50-50 bottom?",
         "answer": "Two-handed control on opponent's ankle or foot is the most critical grip. This grip directly prevents leg extraction, which is the fundamental mechanism of the pass. Without ankle control, you cannot re-hook their leg or prevent extraction. Maintaining this grip forces opponent to spend time and energy grip fighting before they can begin any extraction sequence."

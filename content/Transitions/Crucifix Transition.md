@@ -202,9 +202,9 @@ The Crucifix Transition fits into the standing back control attack system as a p
 
 - [[Positions/Crucifix]] - Target position achieved on successful completion
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that forces defensive grip fighting which creates the opportunity
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that forces defensive grip fighting which creates the opportunity
 
-- [[Transitions/Choke from Crucifix]] - Follow-up submission from completed crucifix position
+- [[Submissions/Choke from Crucifix]] - Follow-up submission from completed crucifix position
 
 - [[Transitions/Armbar from Crucifix]] - Alternative submission from completed crucifix position
 

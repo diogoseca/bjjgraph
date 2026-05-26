@@ -36,7 +36,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep Kimura grip with figure-four positioned near opponent's elbow for maximum control and leverage
@@ -185,8 +185,6 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (30% of attempts)
-
 - **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (13% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (15% of attempts)
@@ -197,13 +195,13 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (6% of attempts)
+- **[[Americana from Kimura Trap/Attacker|Americana from Kimura Trap]]** (6% of attempts)
 
 - **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
 
 - **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Submissions/Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (2% of attempts)
+- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (32% of attempts)
 
 
 ### Common Mistakes

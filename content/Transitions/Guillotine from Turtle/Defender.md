@@ -164,6 +164,8 @@ The defensive framework operates on a timeline: early recognition allows posture
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine from Turtle?</p>
+
 - Attacker shifts weight from behind you toward your head and shoulder area, with chest pressure moving from your lower back to upper back or shoulders
 - You feel an arm threading around the front of your neck or under your chin, with the attacker's forearm making contact across your throat or jawline
 - Attacker's free hand releases control of your hip or waist and moves to grab their own wrist or forearm, indicating grip consolidation for the choke
@@ -176,6 +178,8 @@ The defensive framework operates on a timeline: early recognition allows posture
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine from Turtle?</p>
 
 - Tuck chin aggressively to chest the moment you feel any pressure near your neck, eliminating the primary choking angle before grip is established
 - Rotate your shoulders toward the choking arm side to close the space the attacker needs to thread their arm deep around your neck
@@ -190,6 +194,8 @@ The defensive framework operates on a timeline: early recognition allows posture
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine from Turtle?</p>
 
 ### 1. Chin tuck with shoulder rotation toward the choking arm, then sit through to guard recovery
 
@@ -227,6 +233,8 @@ The defensive framework operates on a timeline: early recognition allows posture
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine from Turtle?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the guillotine from being established through early chin tuck and shoulder rotation, strip the grip with two-on-one hand fighting before hands connect, or explode to standing when attacker has not yet committed weight forward. The key is acting during the setup phase before the grip is locked, making prevention the primary defensive strategy.
@@ -242,6 +250,8 @@ Execute a well-timed granby roll when attacker commits weight forward for the ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine from Turtle?</p>
 
 ### 1. Panicking and lifting the head to look around when feeling pressure near the neck
 
@@ -271,10 +281,12 @@ Execute a well-timed granby roll when attacker commits weight forward for the ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine from Turtle?</p>
+
 **Phase 1: Recognition and Prevention (Weeks 1-2)** - Developing automatic chin tuck reflex and early recognition of guillotine setup
 Partner starts in turtle top and slowly initiates guillotine setup at 30% speed. Defender practices recognizing the weight shift and arm threading, responding with immediate chin tuck and shoulder rotation. No grip stripping or escape attempts yet. Focus entirely on making the chin tuck reflexive and identifying the moment the attack begins. Drill 30 repetitions per session.
 
-**Phase 2: Grip Fighting and Stripping (Weeks 3-4)** - Two-on-one grip strip mechanics and timing
+**Phase 2: Grips and Stripping (Weeks 3-4)** - Two-on-one grip strip mechanics and timing
 Partner establishes front headlock control and begins threading for guillotine at 50% speed. Defender practices two-on-one grip strip on the choking wrist, focusing on the timing window between arm threading and hand connection. Partner provides moderate grip resistance. Add the head drive-through motion after grip strip. Alternate between successful strips and scenarios where strip fails to build decision-making.
 
 **Phase 3: Escape Chaining (Weeks 5-8)** - Combining defensive options into fluid escape sequences against increasing resistance
@@ -287,29 +299,6 @@ Positional sparring starting from turtle with partner hunting guillotine as prim
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a guillotine from turtle is being attempted, and what should your immediate response be?
-**A**: The earliest cue is the attacker's weight shifting from behind you toward your head and shoulder area, with their chest pressure migrating from your lower back to your upper back. Your immediate response must be to aggressively tuck your chin to your chest and rotate your near shoulder toward where you feel the arm threading. This pre-emptive chin tuck and rotation must become a trained reflex, not a conscious decision, because the window for effective prevention is only 1-2 seconds.
-
-**Q2**: Why is the two-on-one grip strip the preferred hand fighting technique against the guillotine setup, and what is the correct timing?
-**A**: Two-on-one is preferred because a single hand rarely generates sufficient force to break a committed guillotine grip, while two hands on the choking wrist creates a decisive mechanical advantage. The correct timing is after the attacker threads their arm around your neck but before they connect their hands together to consolidate the grip. This window is typically 2-4 seconds. Both hands grab the choking wrist and pull it forward and away from your neck while you simultaneously drive your head through to the opposite side.
-
-**Q3**: Your opponent has a shallow guillotine grip and is attempting to stand for the finish. What is the correct defensive sequence?
-**A**: With a shallow grip that has not achieved deep placement across the throat, their standing creates an opportunity rather than increasing danger. As they begin to stand, immediately hand fight the choking wrist with both hands while stepping your near leg forward to base out. Drive your head into their chest to prevent them from creating the arching pressure needed to finish. If you can break their posture by driving forward into them as they stand, the shallow grip will fail and you can recover to a neutral standing position or pull them into your guard.
-
-**Q4**: When is a granby roll escape appropriate against the guillotine from turtle, and when does it become dangerous?
-**A**: The granby roll is appropriate when the attacker's weight is committed forward and high on your back during the base-breaking phase, because their forward commitment prevents them from following your rotation. It becomes dangerous when the attacker has a deep, consolidated grip and is not committed forward, because rolling while a tight grip is locked feeds your neck directly into the choke. The test is whether you feel their weight driving forward or whether they are sitting back and squeezing. Forward weight means roll; sitting back means hand fight the grip instead.
-
-**Q5**: After successfully defending the guillotine attempt and returning to turtle, what should your immediate positional priority be?
-**A**: Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again.
-
-
-
-</section>
 
 
 </main>

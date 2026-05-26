@@ -162,6 +162,8 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Russian Cowboy to Back Control?</p>
+
 - The attacker's free leg moves from a posted position on the mat to a position close against your body with their knee oriented toward your far hip
 - Increased seatbelt squeeze or sudden choke threat designed to force your hands to your neck and away from your legs
 - The attacker shifts their weight forward and adjusts their hip angle, creating space between their pelvis and your back to allow the leg to swing across
@@ -173,6 +175,8 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Russian Cowboy to Back Control?</p>
 
 - Monitor the attacker's free leg position constantly through tactile awareness, recognizing when it draws close to your body as the primary signal of an impending insertion attempt
 - Use your far hand to actively block the threading path across your hip, denying the free leg access to your far thigh
@@ -187,6 +191,8 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Russian Cowboy to Back Control?</p>
 
 ### 1. Block the threading leg with your far hand by posting it on their knee or shin as it arcs toward your far hip
 
@@ -224,6 +230,8 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Russian Cowboy to Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the attacker's compromised base during the hook threading attempt by executing an explosive hip escape and turn-in toward the attacker. Time the movement for the exact moment their free leg commits to the arc, when their weight is shifted and their base is narrowest. Drive your far elbow to the mat, bridge into them, and rotate to face them while trapping their leg between yours to establish half guard.
@@ -239,6 +247,8 @@ Prevent the hook insertion entirely by maintaining active far-hand blocking on t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Russian Cowboy to Back Control?</p>
 
 ### 1. Ignoring the free leg position and focusing exclusively on neck defense while the hook threads uncontested
 
@@ -268,6 +278,8 @@ Prevent the hook insertion entirely by maintaining active far-hand blocking on t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Russian Cowboy to Back Control?</p>
+
 **Phase 1: Recognition** - Identifying hook insertion attempts through tactile awareness
 Partner establishes Russian Cowboy and slowly initiates hook threading at 25% speed. Defender practices identifying the free leg movement, seatbelt tightening, and hip shifts that signal insertion. Call out each recognition cue verbally as you feel it. 10 slow repetitions per side.
 
@@ -281,29 +293,6 @@ Partner attempts full-speed hook insertion with legitimate choke threats. Defend
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the attacker's free leg beginning to move toward your far hip while their seatbelt tightens - what is your immediate response?
-**A**: Immediately post your far hand on the attacker's incoming knee to block the threading path while keeping your near hand protecting your neck against the seatbelt squeeze. The combined seatbelt tightening and free leg movement indicates a choke-baited insertion attempt. By blocking with the far hand, you deny the leg access while maintaining neck defense. If the choke threat intensifies, clamp your thighs together as a secondary barrier while keeping the far hand blocking for as long as possible.
-
-**Q2**: What are the three most important tactile cues that indicate a second hook insertion attempt is imminent?
-**A**: First, the attacker's free leg transitions from a posted position on the mat to resting against your body with knee pressure toward your far hip. Second, the seatbelt grip tightens or the choking hand advances toward your neck, signaling a diversion designed to occupy your hands. Third, the attacker's hip angle shifts as they create space between their pelvis and your back to allow the leg to swing across. Recognizing any one of these cues should trigger immediate defensive preparation.
-
-**Q3**: The attacker threatens a choke to distract from the hook insertion - how do you prioritize your defense?
-**A**: Defend the choke with your near hand using chin tuck and two-on-one grip fighting only if the choke is already deep. If the choke is still in the setup phase, maintain your far hand on the threading path to block the hook while your near hand addresses the developing choke. The key insight is that a blocked hook keeps you in Russian Cowboy where escape is possible, while allowing the second hook in exchange for temporarily better neck position puts you in full back control where the choke will come eventually anyway.
-
-**Q4**: Why is turning away from the attacker a poor defensive choice when they attempt the second hook?
-**A**: Turning away from the attacker widens the threading path across your far hip, making it easier for their free leg to arc over and insert the second hook. Additionally, the turning-away motion feeds directly into the attacker's truck entry if they redirect their leg entanglement, which leads to twister and calf slicer threats. It also increases the rotational control provided by their existing hook, as your momentum assists their pulling direction. Turning into the attacker instead closes the threading path and disrupts their mechanical advantage.
-
-**Q5**: You successfully block the threading leg with your hand but the attacker maintains tight seatbelt - what is your next move?
-**A**: Do not settle for simply holding the blocked position, as the attacker will adjust and reattempt. Use the successful block as a springboard for escape by immediately driving your blocking hand into their knee to push it away while executing a hip escape toward the side you are facing. The goal is to convert the defensive success into an active escape before the attacker can reset for another attempt. If you cannot create enough separation for a full escape, at minimum use the moment to improve your hip position and build a frame that makes subsequent insertion attempts more difficult.
-
-
-
-</section>
 
 
 </main>

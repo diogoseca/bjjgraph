@@ -51,8 +51,8 @@
       "relationship": "Available when opponent turns away to escape the pressure"
     },
     {
-      "name": "Armbar from Side Control",
-      "relationship": "Submission option when opponent pushes the knee with extended arms"
+      "name": "Far Side Armbar from KOB",
+      "relationship": "Submission chain available when opponent pushes the knee with extended arms"
     },
     {
       "name": "Baseball Bat Choke",
@@ -204,7 +204,7 @@
         "description": "Implement Knee on Belly in positional sparring starting from Side Control. Focus on recognizing opportunities to transition and executing submission chains under full resistance. Track success rate and adjust technique based on failures."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of establishing Knee on Belly from Side Control?",
         "answer": "The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking."
@@ -341,7 +341,7 @@
         "correction": "Chain multiple escape attempts together without pausing. Each attempt creates incremental space improvement. Use the momentum from a failed hip escape to immediately transition into a bridge or alternate-side shrimp."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first thing you should do when your opponent establishes Knee on Belly?",
         "answer": "Immediately create frames using your near elbow against the opponent's knee and your far hand on their hip. Do not push with extended arms. Simultaneously begin turning to your side facing away from the knee to reduce pressure surface area and enable hip escape mechanics. Speed of initial response is critical because the opponent is waiting for panicked reactions to exploit."

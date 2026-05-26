@@ -154,6 +154,8 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Saddle?</p>
+
 - Bottom player establishes frames against your hips or shoulders instead of fighting the leg entanglement directly
 - Bottom player repositions their free foot flat on the mat close to their hip, creating a bridging platform
 - Bottom player's hips begin shifting directionally rather than simply defending against the entanglement pressure
@@ -166,6 +168,8 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Saddle?</p>
 
 - Maintain wide base with at least one hand ready to post during all submission attempts from saddle
 - Recognize pre-sweep indicators including frame establishment, foot repositioning, and directional hip angle changes
@@ -180,6 +184,8 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Saddle?</p>
 
 ### 1. Post hand on mat to block sweep direction
 
@@ -217,6 +223,8 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Saddle?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Recognize sweep indicators early—frame establishment, foot repositioning, directional weight shifts—and preemptively adjust base by posting or lowering hips before the sweep generates momentum. Maintain at least one hand ready to post during all submission sequences, and control the opponent's free leg when possible to eliminate their bridging platform at its mechanical source.
@@ -228,6 +236,8 @@ Recognize sweep indicators early—frame establishment, foot repositioning, dire
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Saddle?</p>
 
 ### 1. Overcommitting weight to one side during submission attempts without maintaining posting ability
 
@@ -257,6 +267,8 @@ Recognize sweep indicators early—frame establishment, foot repositioning, dire
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Saddle?</p>
+
 **Phase 1: Recognition** - Identifying pre-sweep indicators from saddle top
 Partner establishes saddle bottom and sets up sweeps with clear telegraphing at slow speed. Top player practices identifying frame establishment, foot repositioning, and weight shift indicators. Verbal callouts when indicators are recognized to build pattern awareness.
 
@@ -273,26 +285,6 @@ Both players start in saddle at 80-100% intensity. Top player works to maintain 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that your opponent is setting up a sweep from saddle bottom?
-**A**: Watch for frame establishment against your hips or shoulders, repositioning of the free foot flat on the mat near their hip, directional hip shifts rather than standard escape movements, and changes in grip pattern from defensive heel protection to offensive body gripping. These indicators typically appear one to three seconds before the sweep attempt, giving you time to adjust base or strip frames preemptively.
-
-**Q2**: How should you balance submission commitment with sweep defense from saddle top?
-**A**: Maintain at least one hand ready to post at all times during submission sequences. Develop techniques that allow attacking with distributed weight rather than fully committed weight. If you recognize pre-sweep indicators, pause your submission attempt and re-establish base before continuing. The saddle position is sustainable enough that momentarily pausing attacks to reset base is always preferable to being swept to bottom.
-
-**Q3**: Your opponent successfully bridges and begins rotating you—what is your recovery protocol?
-**A**: If the sweep is already in motion, your first priority is posting your hand on the mat to stop the rotation. If posting fails, consider releasing the leg entanglement to facilitate a scramble rather than being swept cleanly to bottom side control. Once the sweep completes, immediately establish guard frames rather than attempting to re-enter the leg entanglement. Focus on landing in the best possible defensive position.
-
-**Q4**: Why is controlling the opponent's free leg a critical defensive priority against sweeps?
-**A**: The free leg provides the posting platform that generates all bridging force for the sweep. Without the ability to plant their foot and drive through their hip, the bottom player cannot generate sufficient force for a successful sweep regardless of their timing or technique quality. Controlling the free leg neutralizes the sweep threat at its mechanical root rather than trying to reactively stop the completed sweeping motion.
-
-
-
-</section>
 
 
 </main>

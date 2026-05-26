@@ -13,11 +13,14 @@
     "hub",
     "finishing-guide"
   ],
+  "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Mount",
+  "from_position": "Mount/Top",
   "success_rate": 68,
+  "variant_uniqueness": "Fundamental shoulder lock with mechanical simplicity from dominant positions",
   "overview": "The Americana, also known as the keylock or ude garami, is a fundamental shoulder lock that attacks the glenohumeral joint through external rotation and hyperextension. This submission is one of the first joint locks taught to beginners due to its mechanical simplicity and high-percentage nature from dominant positions like mount and side control. The Americana works by isolating the opponent's arm at a 90-degree angle and applying rotational pressure that forces the shoulder joint beyond its natural range of motion. The technique's effectiveness stems from leverage advantage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics.\n\nHistorically, the Americana has been a staple of Brazilian Jiu-Jitsu competition and self-defense applications, particularly effective in gi and no-gi contexts. The submission creates a powerful control position before the finish, allowing the attacker to maintain dominant position even if the submission attempt fails. This dual-purpose nature makes it invaluable for positional advancement and securing finishes. The Americana also serves as an excellent entry point for understanding shoulder mechanics, which translates to more advanced submissions like the Kimura and omoplata.\n\nFrom a strategic perspective, the Americana exemplifies positional control before submission. Practitioners learn to isolate the arm, control the wrist, and apply measured pressure while maintaining base and preventing escapes. The submission teaches essential concepts of leverage, angle creation, and systematic pressure application that form the foundation for more complex attacking sequences. Understanding the Americana deeply enhances overall submission awareness and defensive recognition.",
   "safety_considerations": {
     "injury_risks": [
@@ -72,23 +75,6 @@
       "Avoid repeated submissions on the same shoulder in a single training session"
     ]
   },
-  "outcomes": [
-    {
-      "to": "game-over",
-      "probability": 60,
-      "result": "success"
-    },
-    {
-      "to": "Mount/Top",
-      "probability": 25,
-      "result": "failure"
-    },
-    {
-      "to": "Closed Guard/Bottom",
-      "probability": 15,
-      "result": "counter"
-    }
-  ],
   "from_positions": [
     "Mount",
     "Side Control",
@@ -102,16 +88,46 @@
     "Modified Mount"
   ],
   "related_submissions": [
-    "Kimura",
-    "Kimura from Mount",
-    "Kimura from Side Control",
-    "Kimura from North-South",
-    "Armbar from Mount",
-    "Armbar from Side Control",
-    "Americana from Mount",
-    "Americana from Side Control",
-    "Arm Triangle",
-    "Ezekiel from Mount"
+    {
+      "name": "Kimura",
+      "relationship": "Sister shoulder lock attacking same joint with reverse rotation; practitioners flow between both based on opponent arm positioning"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Complementary choke from same positions; available when opponent brings arm across body defending Americana"
+    },
+    {
+      "name": "Ezekiel Choke",
+      "relationship": "Complementary mount attack; available when opponent tucks elbows defending arm isolation for Americana"
+    },
+    {
+      "name": "Far Side Armbar",
+      "relationship": "Alternative arm attack; transition target when opponent straightens arm to defend Americana rotation"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Complementary gi attack from mount that forces hands to neck defense, exposing arms for Americana"
+    },
+    {
+      "name": "Bicep Slicer",
+      "relationship": "Advanced compression lock targeting same limb when opponent defends traditional shoulder lock"
+    },
+    {
+      "name": "Gift Wrap Armbar",
+      "relationship": "Arm isolation technique creating Americana setup opportunities from gift wrap control position"
+    },
+    {
+      "name": "Arm Crush",
+      "relationship": "Alternative joint attack from side control targeting similar near-arm positioning"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Complementary gi choke from knee on belly that chains with Americana threats in attack sequences"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Primary chain submission when opponent straightens arm defending Americana rotation"
+    }
   ],
   "related_content": [
     {
@@ -135,16 +151,16 @@
       "relationship": "Sister submission - attacks same joint (shoulder) with reverse rotation; practitioners often flow between Americana and Kimura based on opponent's defensive hand positioning"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Alternative attack from same position - when opponent defends Americana by straightening arm, immediate transition to armbar becomes available"
+      "name": "High Mount",
+      "relationship": "Advanced mount variation providing superior angle for Americana when opponent begins defending by turning or bridging from standard mount"
     },
     {
-      "name": "Kimura from Mount",
-      "relationship": "Combination attack - if opponent turns their hand away from head to defend Americana, reverse grip and enter Kimura mechanics"
+      "name": "Ezekiel Choke",
+      "relationship": "Complementary choke from mount - when opponent tucks elbows to defend Americana, Ezekiel choke becomes available without needing arm isolation"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Positional combination - both attacks available from side control; switching between them based on opponent's arm positioning creates submission dilemmas"
+      "name": "Far Side Armbar",
+      "relationship": "Alternative arm attack - when opponent straightens arm to defend Americana, transition to armbar mechanics targeting the extended elbow joint"
     },
     {
       "name": "Gift Wrap",
@@ -152,378 +168,17 @@
     },
     {
       "name": "S Mount",
-      "relationship": "Advanced position - provides superior angle for Americana when opponent begins to defend by turning or bridging from standard mount"
+      "relationship": "Advanced position - provides superior angle for Americana and armbar threats when opponent begins to defend from standard mount"
     },
     {
       "name": "Arm Triangle",
       "relationship": "Complementary choke from same positions - when opponent defends Americana by pulling arm across their body, arm triangle opportunity opens"
     },
     {
-      "name": "Omoplata",
-      "relationship": "Related shoulder attack - different mechanism but targets same joint complex, often chained together in shoulder lock systems"
+      "name": "Cross Collar Choke",
+      "relationship": "Complementary attack from mount - forces opponent to bring hands to neck defense, exposing arms for Americana isolation"
     }
   ],
-  "attacker": {
-    "name": "Americana Attacker",
-    "description": "How to execute Americana in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The Americana, also known as the keylock or ude garami, is a fundamental shoulder lock that attacks the glenohumeral joint through external rotation and hyperextension. This submission is one of the first joint locks taught to beginners due to its mechanical simplicity and high-percentage nature from dominant positions like mount and side control. The Americana works by isolating the opponent's arm at a 90-degree angle and applying rotational pressure that forces the shoulder joint beyond its natural range of motion. The technique's effectiveness stems from leverage advantage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics.\n\nHistorically, the Americana has been a staple of Brazilian Jiu-Jitsu competition and self-defense applications, particularly effective in gi and no-gi contexts. The submission creates a powerful control position before the finish, allowing the attacker to maintain dominant position even if the submission attempt fails. This dual-purpose nature makes it invaluable for positional advancement and securing finishes. The Americana also serves as an excellent entry point for understanding shoulder mechanics, which translates to more advanced submissions like the Kimura and omoplata.\n\nFrom a strategic perspective, the Americana exemplifies positional control before submission. Practitioners learn to isolate the arm, control the wrist, and apply measured pressure while maintaining base and preventing escapes. The submission teaches essential concepts of leverage, angle creation, and systematic pressure application that form the foundation for more complex attacking sequences. Understanding the Americana deeply enhances overall submission awareness and defensive recognition.",
-    "key_principles": [
-      "Isolate the arm at approximately 90 degrees from the body to maximize leverage and minimize opponent's defensive options",
-      "Control both the wrist and elbow simultaneously using figure-four grip mechanics to prevent escape or rotation",
-      "Maintain heavy chest pressure and base throughout the submission to prevent bridging or rolling escapes",
-      "Apply rotational pressure toward the opponent's head in a smooth arc rather than forcing straight down",
-      "Keep your own elbows tight to your body to maximize leverage efficiency and prevent the opponent from straightening their arm",
-      "Use incremental pressure increases to feel for resistance and allow partner time to tap safely",
-      "Secure the position completely before applying finishing pressure - control precedes submission"
-    ],
-    "setup_requirements": [
-      "Dominant top position established (mount, side control, or knee on belly)",
-      "Opponent's arm isolated and extended away from their body at approximately 90-degree angle",
-      "Your chest weight distributed over opponent's upper body to prevent bridging or shrimping escapes",
-      "Opponent's elbow controlled and pinned to the mat or their own body",
-      "Clear figure-four grip established on opponent's wrist with your forearm creating the lock",
-      "Your base is stable with knees driven into opponent's sides (from mount) or hip pressure applied (from side control)",
-      "Opponent's free hand is monitored or controlled to prevent defensive frames or grips"
-    ],
-    "execution_steps": [
-      {
-        "step_number": 1,
-        "action": "Isolate and extend the target arm",
-        "description": "From mount or side control, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames.",
-        "timing": "1-2 seconds"
-      },
-      {
-        "step_number": 2,
-        "action": "Establish figure-four wrist control",
-        "description": "Thread your other hand under their wrist and grab your own wrist, creating a figure-four configuration. Your bottom hand controls their wrist while your top hand reinforces by gripping your own wrist. The opponent's hand should be trapped between your forearms. Ensure your grip is tight enough to prevent slipping but not so tight that you fatigue quickly. Your forearms should form a 'C' shape around their wrist.",
-        "timing": "1 second"
-      },
-      {
-        "step_number": 3,
-        "action": "Pin the elbow to create the fulcrum",
-        "description": "Drive your chest weight down onto their upper arm, pinning their elbow to the mat (from mount) or to their own ribcage/body (from side control). This pinned elbow becomes the fulcrum for the lever arm that creates the shoulder lock. The opponent should feel pressure on their elbow but not pain at this stage. Ensure your own elbows are tucked tight to your sides to maximize mechanical advantage.",
-        "timing": "1 second"
-      },
-      {
-        "step_number": 4,
-        "action": "Adjust angle and prepare for rotation",
-        "description": "Slightly adjust your body position to create the optimal angle for rotation. From mount, this may mean sitting slightly toward the trapped arm side. From side control, ensure your hips are heavy and your chest is covering their shoulder. The opponent's hand should be positioned near their own head with the forearm perpendicular to the mat. Check that their elbow remains pinned and that you have solid base with your legs.",
-        "timing": "1-2 seconds"
-      },
-      {
-        "step_number": 5,
-        "action": "Apply rotational pressure toward their head",
-        "description": "Begin rotating their hand in a smooth arc toward the mat near their head, as if painting a rainbow from their waist toward their ear. The rotation should be steady and controlled, not sudden. Keep your elbows tight to your body and use your entire upper body to create the rotation rather than just arm strength. The opponent's shoulder will begin to experience external rotation and hyperextension. Apply pressure incrementally, pausing to allow your partner to tap.",
-        "timing": "2-3 seconds progressive"
-      },
-      {
-        "step_number": 6,
-        "action": "Maintain control and pressure until tap",
-        "description": "Continue the controlled rotation while maintaining all other points of control: chest pressure, elbow pin, wrist grip, and base. The opponent should tap when their shoulder reaches the limit of its range of motion. Never crank suddenly or force through resistance. If you feel significant resistance or hear any popping sounds, release immediately. Upon receiving the tap, follow the release protocol carefully to avoid injury during the release phase.",
-        "timing": "1-2 seconds to tap"
-      },
-      {
-        "step_number": 7,
-        "action": "Controlled release and position maintenance",
-        "description": "Upon tap, immediately stop rotational pressure but maintain positional control. Slowly guide their arm back to neutral position before releasing the figure-four grip. Keep your chest heavy to maintain mount or side control. Check verbally with your partner that they are okay. Use this controlled release as an opportunity to reinforce safe training practices and build trust with training partners.",
-        "timing": "2-3 seconds release"
-      }
-    ],
-    "common_counters": [
-      {
-        "counter": "Keeping arm glued to body with defensive frames",
-        "effectiveness": "High",
-        "your_response": "Use progressive pressure and weight distribution to gradually extend the arm. Consider transitioning to other attacks like the armbar or gift wrap to create reactions, then return to the Americana when they extend to defend. Alternatively, attack the far arm to draw their attention away from the near side.",
-        "targets_outcome": "Mount/Top"
-      },
-      {
-        "counter": "Grabbing own gi pants, belt, or creating a gable grip to prevent arm isolation",
-        "effectiveness": "High",
-        "your_response": "Apply heavy cross-face pressure and shoulder pressure to break their grip strength. Use your body weight rather than trying to muscle the grip break. Consider transitioning to mount to armbar or Ezekiel choke, forcing them to release their defensive grip to address the new threat.",
-        "targets_outcome": "Mount/Top"
-      },
-      {
-        "counter": "Bridging explosively to create space or attempt to roll",
-        "effectiveness": "Medium",
-        "your_response": "Anticipate the bridge by maintaining wide base and posting with your free hand. As they bridge, ride the movement and step over to technical mount or S Mount, which provides better angle for the Americana while neutralizing their bridging power. Lower your hips and widen your base preventatively.",
-        "targets_outcome": "Closed Guard/Bottom"
-      },
-      {
-        "counter": "Straightening the trapped arm forcefully to prevent the 90-degree angle",
-        "effectiveness": "Medium",
-        "your_response": "If they successfully straighten the arm, transition immediately to straight armbar mechanics or switch to a Kimura by reversing your grip. Use their straightening force against them by following the movement and attacking the extended arm. Do not fight strength with strength.",
-        "targets_outcome": "Mount/Top"
-      },
-      {
-        "counter": "Using free hand to push your head, create frames, or strip grips",
-        "effectiveness": "Low",
-        "your_response": "Control the free hand by trapping it with your knee (from mount), using head position to pin it, or establishing a gift wrap position. If their push creates distance, maintain the Americana grip and follow their movement while keeping pressure constant. Consider transitioning to crucifix position if you can trap both arms.",
-        "targets_outcome": "Mount/Top"
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Applying sudden jerking or spiking motion during the finish",
-        "consequence": "High risk of severe rotator cuff tear, labral damage, or shoulder dislocation with potential for permanent injury",
-        "correction": "Apply smooth, progressive pressure over 3-5 seconds minimum. Think 'painting a rainbow' with their hand rather than forcing it down. Pause at resistance to allow tap."
-      },
-      {
-        "error": "Releasing chest pressure and base while attempting the submission",
-        "consequence": "Opponent can easily bridge, roll, or escape, resulting in lost position and potentially ending up in opponent's guard or worse",
-        "correction": "Keep chest heavy throughout the entire sequence. Your weight distribution should be 70% on their upper body. Maintain wide base with knees driven into their sides from mount or hip pressure from side control."
-      },
-      {
-        "error": "Failing to pin the elbow before applying rotational pressure",
-        "consequence": "The submission loses effectiveness as the opponent can rotate their entire arm, distribute pressure across the shoulder girdle, and potentially escape or counter",
-        "correction": "Ensure the elbow is completely pinned to the mat or their body before beginning rotation. The pinned elbow is the fulcrum - without it, you have no lever arm and no submission."
-      },
-      {
-        "error": "Using arm strength alone rather than body weight and positioning",
-        "consequence": "Rapid fatigue, loss of leverage advantage, and opportunity for stronger opponents to muscle out of the submission or reverse position",
-        "correction": "Keep your elbows tight to your sides and use your entire upper body rotation to create the submission. Your arms should maintain the figure-four shape while your torso does the work. Think 'whole body rotation' not 'arm curl.'"
-      },
-      {
-        "error": "Allowing the opponent's hand to point away from their head during setup",
-        "consequence": "The angle becomes wrong for shoulder lock mechanics, pressure disperses ineffectively, and the opponent can easily defend or escape by rolling their shoulder",
-        "correction": "Ensure their palm faces toward their own head throughout the submission. The proper angle creates external rotation - if their hand points away, you're creating internal rotation which is much weaker and ineffective."
-      },
-      {
-        "error": "Gripping too high on the opponent's wrist or hand",
-        "consequence": "The grip can slip during pressure application, reducing control and potentially losing the submission entirely as they pull free",
-        "correction": "Grip directly on the wrist bones (radius and ulna) rather than the hand. Your figure-four should trap their wrist between your forearms, creating a secure vice that cannot slip during rotation."
-      },
-      {
-        "error": "Continuing to apply pressure after feeling or hearing popping in the shoulder",
-        "consequence": "Catastrophic shoulder injury including dislocation, complete rotator cuff tears, or labral destruction requiring surgical repair",
-        "correction": "Any popping, clicking, or grinding sensation requires immediate release of all pressure. These sounds often indicate structural damage is occurring. Release immediately and check partner's condition. Never assume popping is normal."
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Isolation Mechanics",
-        "focus": "Grip placement, elbow pin, and figure-four structure",
-        "description": "Drill the figure-four grip on a compliant partner from mount and side control at zero resistance. Focus exclusively on correct wrist bone placement, forearm C-shape formation, and pinning the elbow as a fulcrum. Repeat each grip entry 20 times per side before adding any rotational pressure. Partner provides verbal feedback on grip tightness and elbow pin quality."
-      },
-      {
-        "phase": "Phase 2: Controlled Finishing Arc",
-        "focus": "Smooth rotational pressure with progressive resistance",
-        "description": "With grip mechanics established, practice the full finishing arc at 10-20% pressure. Partner taps early so the attacker develops the muscle memory of the 'painting a rainbow' rotation path. Gradually increase to 30-40% resistance as partner begins offering light defensive tension. Emphasize maintaining chest pressure and base throughout the entire arc without lifting or shifting weight."
-      },
-      {
-        "phase": "Phase 3: Positional Chain Integration",
-        "focus": "Entering Americana from live positional transitions",
-        "description": "Begin from guard passing or mount acquisition and chain directly into Americana attempts. Partner defends with realistic reactions: keeping arm tight, bridging, grabbing belt. Practice reading which counter the partner uses and selecting the correct response: re-isolate, switch to Kimura, or transition to armbar. Drill at 50-60% resistance with emphasis on maintaining position during failed attempts."
-      },
-      {
-        "phase": "Phase 4: Live Specific Training",
-        "focus": "Full-speed positional sparring with Americana as primary threat",
-        "description": "Positional rounds starting from mount or side control. Top player works the Americana as their primary weapon while bottom player uses full defensive effort. Top player must demonstrate the ability to maintain position when the Americana fails, chain to secondary attacks, and finish with controlled pressure at full resistance. Track success rate across rounds to measure progression."
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "What is the primary anatomical structure being attacked in the Americana submission?",
-        "answer": "The Americana primarily attacks the glenohumeral joint (shoulder joint) through external rotation and hyperextension, placing stress on the rotator cuff muscles (particularly supraspinatus, infraspinatus, and teres minor), the shoulder capsule, and associated ligaments. The submission creates rotational force that exceeds the joint's natural range of motion.",
-        "safety_critical": false
-      },
-      {
-        "question": "Why is it CRITICAL to pin the opponent's elbow before applying rotational pressure in the Americana?",
-        "answer": "Pinning the elbow creates the fulcrum for the lever arm mechanism that makes the Americana effective. Without a pinned elbow, the opponent can rotate their entire arm to distribute pressure across the shoulder girdle, eliminating the focused joint lock. The pinned elbow ensures that rotational pressure is concentrated on the glenohumeral joint rather than being dispersed. This is fundamental to the mechanical efficiency of the submission.",
-        "safety_critical": false
-      },
-      {
-        "question": "What is the minimum application time for an Americana in training, and what injuries can occur if sudden force is applied?",
-        "answer": "The minimum application time should be 3-5 seconds of progressive, smooth pressure from initial rotation to expected tap. Sudden or jerking force can cause severe rotator cuff tears, labral tears, shoulder capsule damage, or even glenohumeral dislocation - all of which may require surgical intervention and result in 3-6 months recovery time or permanent shoulder instability. Progressive pressure allows the partner to recognize the submission and tap safely.",
-        "safety_critical": true
-      },
-      {
-        "question": "If you hear or feel popping or clicking in the opponent's shoulder during an Americana, what should you do immediately?",
-        "answer": "Immediately release ALL pressure on the shoulder, release the figure-four grip, and carefully return the arm to neutral position. Popping or clicking often indicates structural damage is occurring (labral tear, capsule damage, or beginning dislocation). You must stop instantly and check your partner's condition verbally. Never continue pressure or assume the popping is normal. Partner safety always takes absolute priority over completing the submission.",
-        "safety_critical": true
-      },
-      {
-        "question": "What is the correct direction of rotation for the Americana from mount, and why is the angle important?",
-        "answer": "From mount, rotate the opponent's hand in a smooth arc toward the mat near their head, as if 'painting a rainbow' from their waist toward their ear. The opponent's palm should face toward their own head throughout the rotation. This angle creates external rotation of the shoulder joint, which is the weakest direction for the shoulder's range of motion. If the hand points away from their head, you create internal rotation which is much stronger and ineffective for the submission.",
-        "safety_critical": false
-      },
-      {
-        "question": "What are the proper grip mechanics for the figure-four wrist control in the Americana?",
-        "answer": "The figure-four grip involves threading one hand under the opponent's wrist and gripping your own wrist, creating a reinforced lock. Your bottom hand controls their wrist directly on the wrist bones (radius and ulna), not on the hand. Your top hand grips your own wrist to reinforce and prevent slipping. The opponent's wrist should be trapped between your forearms, creating a secure vice. Your forearms form a 'C' shape around their wrist. The grip should be firm enough to prevent slipping but not so tight that you fatigue quickly.",
-        "safety_critical": false
-      },
-      {
-        "question": "What are the key differences in Americana execution from mount versus side control positions?",
-        "answer": "From mount, the elbow is pinned to the mat and rotation is toward the mat near their head with chest weight distributed over their torso. From side control, the elbow is pinned to their own ribcage or body, and rotation is toward their face. Mount provides better base and allows more direct downward pressure, while side control requires more hip pressure and careful angle management. From mount, your knees drive into their sides for base; from side control, your hips are heavy and chest covers their shoulder. Both require maintaining pressure throughout, but weight distribution and rotation angles differ.",
-        "safety_critical": false
-      },
-      {
-        "question": "Your opponent begins posturing up and attempting to straighten their trapped arm - what adjustment do you make to secure the finish?",
-        "answer": "When the opponent straightens their arm, you have two primary options. First, you can transition immediately to a straight armbar by following their extension and attacking the elbow joint instead of the shoulder. Second, you can switch to a Kimura by reversing your grip direction. Do not fight their straightening force with arm strength - this creates a losing battle. Instead, use their movement as an invitation to attack the newly exposed extended arm or reverse the submission direction. The key is flowing with their defense rather than resisting it.",
-        "safety_critical": false
-      },
-      {
-        "question": "What indicates the 'point of no escape' in the Americana where the opponent must tap or suffer injury?",
-        "answer": "The point of no escape occurs when the elbow is fully pinned to the mat or body, the wrist is secured in the figure-four with palm facing toward the opponent's head, and rotation has begun past approximately 45 degrees toward the mat. At this point, the shoulder is in external rotation beyond its comfortable range, and any further movement will stress the joint capsule and rotator cuff. The opponent will feel intense pressure in the front of the shoulder and may experience the beginning of sharp pain. This is the moment they must tap - continuing past this point risks structural damage even with slow application.",
-        "safety_critical": true
-      },
-      {
-        "question": "How do you maintain positional control while finishing the Americana in competition to prevent losing position during the submission attempt?",
-        "answer": "Maintain at least 70% of your weight on the opponent's upper body throughout the submission. From mount, keep your knees squeezed against their sides and use grapevines if needed to prevent bridging. Your chest stays heavy on their chest even as you work the submission mechanics. From side control, keep your hips low and heavy with constant crossface pressure. Never lift your base to create more rotation - instead, use your entire upper body rotation while maintaining hip and chest contact. If you feel your position becoming unstable, abandon the submission attempt and re-establish control before trying again.",
-        "safety_critical": false
-      },
-      {
-        "question": "What grip adjustments should you make during the finish if your initial grip begins slipping under sweat or resistance?",
-        "answer": "If the grip slips, immediately re-grip on the wrist bones (radius and ulna) rather than the hand. In no-gi, consider using a monkey grip where all four fingers wrap on the same side rather than a traditional thumb wrap. You can also adjust by sliding your forearm deeper under their wrist, trapping more of their forearm between your arms. If in the gi, you may grip the sleeve material for additional friction. Never continue applying pressure with a compromised grip - this risks sudden slip and potential injury from uncontrolled movement. Re-establish grip security before continuing.",
-        "safety_critical": false
-      },
-      {
-        "question": "What common finishing error allows opponents to escape the Americana at the last moment, and how do you correct it?",
-        "answer": "The most common error is lifting your chest pressure to create more rotation angle, which simultaneously gives the opponent space to bridge, turn, or pull their arm free. The correction is to maintain downward chest pressure while using whole-body rotation rather than arm strength. Another frequent error is rushing the finish with jerky motion - the opponent can use the momentum change to explosively escape. Apply pressure in one smooth, continuous arc while keeping your body heavy. The finish should feel like controlled, inevitable pressure rather than a sudden attack.",
-        "safety_critical": false
-      }
-    ]
-  },
-  "defender": {
-    "name": "Americana Defender",
-    "description": "How to defend against Americana in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the Americana requires early recognition and immediate action before the attacker completes the figure-four grip and pins your elbow. The shoulder lock's mechanical simplicity means it can be applied quickly from mount or side control, but this same simplicity creates predictable entry patterns that a prepared defender can identify and disrupt. The critical defensive window exists between the attacker's initial wrist grab and the moment they pin your elbow to the mat or your body. Once the elbow is pinned and rotation begins, escape options narrow dramatically and the risk of injury escalates with each degree of rotation.\n\nEffective Americana defense follows a strict priority hierarchy. First, prevent the arm isolation by keeping your elbows tight to your body and avoiding extended frames that expose your wrist to control. Second, if the attacker captures your wrist, immediately work to prevent the elbow pin by pulling your elbow toward your own hip or turning it inward. Third, if the figure-four is established but rotation has not begun, use explosive bridging combined with arm retraction to break the grip structure before pressure is applied. The defender must understand that once rotation passes approximately 30-40 degrees, the safest option is to tap rather than risk structural damage to the shoulder.\n\nFrom a strategic perspective, Americana defense integrates with overall bottom position escapes. The attacker must compromise their base and weight distribution to isolate your arm and establish the figure-four, which creates momentary windows for positional escapes. A skilled defender uses the Americana attempt as an opportunity to bridge, shrimp, and recover guard rather than simply fighting the grip. This approach transforms the submission threat into a positional escape catalyst, turning the attacker's offense into your defensive advantage.",
-    "key_principles": [
-      "Keep elbows tight to your body at all times from bottom mount and side control to prevent arm isolation and wrist capture",
-      "Recognize the Americana threat early by monitoring the attacker's hand position relative to your wrist and tricep area",
-      "Fight the grip before the pin - once the figure-four is locked and elbow pinned, escape difficulty increases exponentially",
-      "Use the attacker's commitment to the submission as a window for positional escapes by bridging when they shift weight to isolate your arm",
-      "Never extend your arm to push or frame against the attacker's head or chest, as this creates the exact isolation the Americana requires",
-      "If rotation has begun past the point of comfortable resistance, tap immediately rather than risk permanent shoulder damage",
-      "Chain defensive movements together - grip fighting into bridging into hip escape creates compound defensive actions that overwhelm the attacker's control"
-    ],
-    "recognition_cues": [
-      "Attacker swims their hand under your tricep and grabs your wrist, pulling your arm away from your body toward a 90-degree angle",
-      "Attacker's second hand threads under your wrist to grip their own wrist, forming the distinctive figure-four configuration around your forearm",
-      "Attacker shifts chest weight onto your upper arm near the elbow, pinning it to the mat or your ribcage to establish the rotational fulcrum",
-      "From side control, attacker abandons crossface position to use both hands on your near arm, signaling commitment to the shoulder lock"
-    ],
-    "defensive_options": [
-      {
-        "action": "Retract arm to body and establish T-Rex arms (elbows tight, hands near chin)",
-        "when_to_use": "Before the attacker establishes wrist control. This is the earliest and most effective defense - preventing the initial arm isolation entirely.",
-        "targets_outcome": "Mount/Top",
-        "if_successful": "Attacker cannot establish the figure-four grip and must abandon the Americana attempt, returning to positional control or seeking a different attack",
-        "risk": "Low - maintaining tight elbows is a strong defensive posture with no positional cost"
-      },
-      {
-        "action": "Bridge explosively toward the trapped arm side while pulling elbow to hip",
-        "when_to_use": "When the attacker has captured your wrist but has not yet fully pinned your elbow. The bridge disrupts their base while the arm retraction breaks the emerging figure-four structure.",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "The bridge creates space to recover guard or reverse the position entirely, escaping both the submission and the dominant position",
-        "risk": "Medium - if the bridge fails, the attacker may advance to a tighter position or accelerate the submission"
-      },
-      {
-        "action": "Straighten the trapped arm forcefully and turn elbow inward toward your own centerline",
-        "when_to_use": "When the figure-four is partially established but the elbow is not yet fully pinned. Straightening the arm defeats the 90-degree angle requirement for the Americana's rotational mechanics.",
-        "targets_outcome": "Mount/Top",
-        "if_successful": "Breaks the Americana mechanics entirely, though the attacker may transition to armbar or Kimura on the now-extended arm",
-        "risk": "Medium - straightening the arm creates armbar vulnerability, so you must immediately re-bend and retract once the Americana grip is broken"
-      },
-      {
-        "action": "Grab your own belt, gi pants, or clasp hands together to anchor the trapped arm",
-        "when_to_use": "When the figure-four grip is established and you need to buy time to set up a positional escape. This creates a structural anchor that the attacker must break before finishing.",
-        "targets_outcome": "Mount/Top",
-        "if_successful": "Stalls the submission and forces the attacker to invest energy breaking your grip, creating windows for bridging or hip escape during their grip-breaking attempts",
-        "risk": "Low to Medium - effective stalling tactic, but does not create escape on its own and attacker can use weight and pressure to systematically strip the grip"
-      }
-    ],
-    "escape_paths": [
-      "Bridge toward the trapped arm side to off-balance the attacker, then hip escape to recover half guard or closed guard before the figure-four is re-established",
-      "Pull the trapped elbow tight to your hip while simultaneously shrimping away, creating enough angle to insert a knee shield and recover to half guard",
-      "Use the attacker's weight commitment to the submission to execute a trap-and-roll (upa) escape by trapping their same-side foot and bridging over the trapped arm shoulder"
-    ],
-    "favorable_outcomes": [
-      {
-        "outcome": "Closed Guard/Bottom",
-        "how": "Time an explosive bridge with the attacker's weight shift during the Americana setup. As they commit both hands to the figure-four grip, they lose one point of base control. Bridge toward the trapped arm side and use the momentum to hip escape and insert your legs between your bodies, recovering to closed guard."
-      },
-      {
-        "outcome": "Mount/Top",
-        "how": "Execute a trap-and-roll reversal during the Americana attempt. When the attacker commits both hands to the figure-four, trap their same-side foot with yours and bridge explosively over the shoulder of the trapped arm. The attacker cannot post with their hands because they are committed to the grip, allowing you to complete the reversal to mount."
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Extending arm to push attacker's face or chest away, exposing the arm for isolation",
-        "consequence": "Creates the exact arm position the Americana requires - extended away from the body at an angle where the attacker can immediately capture the wrist and establish the figure-four",
-        "correction": "Keep elbows glued to your ribcage and frame on the attacker's hips rather than their upper body. If you need to create space, use hip movement (bridging and shrimping) rather than arm extension."
-      },
-      {
-        "error": "Waiting too long to defend, only reacting once rotation has already begun",
-        "consequence": "Once the elbow is pinned and rotation starts, the mechanical advantage favors the attacker overwhelmingly. Defensive options narrow to tapping or risking serious shoulder injury.",
-        "correction": "React at the earliest recognition cue - the moment you feel their hand swim under your tricep or grab your wrist. Early defense is ten times more effective than late defense. The fight is won or lost during the grip establishment phase."
-      },
-      {
-        "error": "Bridging away from the trapped arm instead of toward it during escape attempts",
-        "consequence": "Bridging the wrong direction actually assists the Americana rotation by moving your body while the arm remains pinned, accelerating the shoulder lock rather than disrupting it",
-        "correction": "Always bridge toward the trapped arm side. This direction off-balances the attacker by loading their weight onto the side they are already committed to, and reduces the rotational angle by bringing your body closer to your trapped hand."
-      },
-      {
-        "error": "Panicking and attempting to yank the arm free with explosive force once the lock is set",
-        "consequence": "Explosive pulling against an established figure-four can cause self-inflicted shoulder injury. The figure-four grip is structurally stronger than a single arm's pulling force, so the shoulder absorbs the stress.",
-        "correction": "If the figure-four is fully locked, focus on bridging and positional escapes rather than trying to rip your arm free. Use whole-body movement to create escape angles rather than isolated arm strength. If rotation has progressed significantly, tap and reset."
-      },
-      {
-        "error": "Focusing exclusively on the trapped arm while ignoring overall positional escape",
-        "consequence": "Tunnel vision on the submission defense causes the defender to remain flat on their back under mount or side control, making repeated Americana attempts easy for the attacker even after one defense succeeds",
-        "correction": "Integrate submission defense with positional escapes. Every grip fight or bridge should simultaneously advance your guard recovery. Defending the Americana without escaping the position means you will face the same threat again within seconds."
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "What is the earliest point at which you should begin defending the Americana, and why is timing critical?",
-        "answer": "Defense should begin the moment you feel the attacker's hand swim under your tricep or grab your wrist. This is the arm isolation phase, before the figure-four grip is established. At this stage, simply retracting your elbow to your hip or turning your arm inward defeats the setup entirely. Once the figure-four is locked and the elbow is pinned, escape requires significantly more effort and energy. Once rotation begins past 30-40 degrees, the safest option becomes tapping rather than risking structural shoulder damage.",
-        "safety_critical": true
-      },
-      {
-        "question": "Why should you bridge toward the trapped arm side rather than away from it when defending the Americana?",
-        "answer": "Bridging toward the trapped arm side off-balances the attacker by loading their weight onto the side they are already committed to, disrupting their base. It also reduces the rotational distance between your body and your trapped hand, relieving pressure on the shoulder joint. Bridging away from the trapped arm actually assists the rotation by moving your torso while the arm stays pinned, which accelerates the shoulder lock and increases injury risk. Correct bridging direction is essential for both escape effectiveness and shoulder safety.",
-        "safety_critical": true
-      },
-      {
-        "question": "Your attacker has established the figure-four grip but has not yet pinned your elbow - what is your highest-percentage defensive response?",
-        "answer": "Pull your elbow forcefully toward your own hip while simultaneously bridging toward the trapped arm side. The combination of elbow retraction and bridge disrupts two requirements of the Americana: the 90-degree arm angle and the elbow pin. Without both of these established, the attacker cannot generate effective rotational pressure. As you bridge, use the space created to begin hip escaping toward guard recovery. The key is combining the grip disruption with a positional escape rather than simply fighting the grip in isolation.",
-        "safety_critical": false
-      },
-      {
-        "question": "When is the correct moment to tap during an Americana, and what injuries can result from defending too long?",
-        "answer": "You should tap when you feel the rotation pass the point of comfortable resistance and sharp pressure begins in the front of the shoulder. This typically occurs around 40-50 degrees of rotation past the initial position. Defending beyond this point risks rotator cuff tears (3-6 months recovery), labral tears (4-8 months, often surgical), shoulder capsule damage, or glenohumeral dislocation (3-6 months with chronic instability risk). There is no competition match worth a permanent shoulder injury. Tap early, learn from the positional error that led to the submission, and train the earlier defensive windows.",
-        "safety_critical": true
-      },
-      {
-        "question": "How does defending the Americana from side control differ from defending it from mount?",
-        "answer": "From mount, the attacker pins your elbow to the mat and rotates toward the mat near your head. Your primary defense is bridging toward the trapped arm and recovering guard. From side control, the attacker pins your elbow to your own ribcage and rotates toward your face. The side control defense has an additional option: turning into the attacker to reduce the rotation angle, since the fulcrum is your body rather than the mat. However, from side control you have less bridging power because the attacker's perpendicular position distributes their weight differently. In both cases, early grip prevention is far more effective than late-stage escape.",
-        "safety_critical": false
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Recognition and Prevention",
-        "focus": "Identifying Americana setup cues and maintaining preventive arm position",
-        "description": "Partner attempts Americana entries from mount and side control at 30% speed. Defender practices keeping elbows tight, recognizing the wrist grab and tricep swim, and immediately retracting the arm before the figure-four is established. Focus on developing automatic elbow retraction reflexes rather than reactive defense. Drill 20 repetitions per side with partner providing verbal feedback on recognition speed."
-      },
-      {
-        "phase": "Phase 2: Grip Fighting and Disruption",
-        "focus": "Breaking the figure-four before the elbow pin completes",
-        "description": "Partner establishes the figure-four grip at controlled speed. Defender practices pulling elbow to hip, straightening the arm, and turning the elbow inward to break the lock structure. Partner provides 40-50% resistance. Emphasize timing the disruption before the elbow pin rather than fighting established locks. Drill transitions from grip disruption into immediate guard recovery rather than returning to static bottom position."
-      },
-      {
-        "phase": "Phase 3: Integrated Positional Escape",
-        "focus": "Combining Americana defense with bridge-and-escape sequences",
-        "description": "Partner attempts Americana at 60-70% resistance from mount and side control. Defender chains together grip prevention, bridge toward trapped arm, hip escape, and guard recovery into fluid sequences. Practice using the attacker's submission commitment as the trigger for escape. Track how many escape attempts chain together before either defending successfully or needing to tap."
-      },
-      {
-        "phase": "Phase 4: Live Defensive Sparring",
-        "focus": "Full-resistance positional rounds with Americana as primary threat",
-        "description": "Positional rounds starting from bottom mount or side control against partners who prioritize the Americana. Defender must demonstrate early recognition, effective grip prevention, and integrated escapes under full resistance. Include rounds where the attacker can switch between Americana, Kimura, and armbar to develop the ability to identify and respond to the correct threat. Emphasize tapping at the appropriate moment when defense fails rather than risking injury."
-      }
-    ]
-  },
   "variations_and_setups": [
     {
       "variation_name": "Americana from Side Control",
@@ -546,39 +201,95 @@
       "when_to_use": "When you've secured scarf hold and the opponent's near arm is trapped. Particularly effective in no-gi where traditional grips are harder to maintain. Also useful when opponent is defending traditional Americana grips by keeping their arm close to their body."
     },
     {
-      "variation_name": "Reverse Americana (Kimura Direction from Americana Position)",
-      "description": "If opponent successfully defends the traditional Americana by turning their hand away from their head, immediately switch to a Kimura by reversing your grip and rotating their arm in the opposite direction (toward their back). This variation demonstrates the interconnection between shoulder locks and the importance of being able to flow between submissions. The grip transition must be smooth to maintain control throughout the switch.",
-      "when_to_use": "When opponent actively defends the Americana rotation by turning their hand away. Rather than fighting their defensive rotation, use their movement to enter the Kimura. This demonstrates the principle of using opponent's defense to enter new attacks."
-    },
-    {
-      "variation_name": "Figure-Four Americana",
-      "description": "Traditional Americana grip where you thread your hand through the crook of opponent's bent arm, grabbing your own wrist to create figure-four configuration. Provides maximum leverage and control.",
-      "when_to_use": "Primary variation from mount and side control when opponent's arm is clearly isolated at 90-degree angle. Most mechanically sound when you have strong positional control."
-    },
-    {
       "variation_name": "Palm-to-Palm Grip Americana",
-      "description": "Both hands grip opponent's wrist/hand in palm-to-palm configuration without threading through. Allows faster transitions and adaptation to defensive grips. Use rotational wrist control to overcome defensive holding.",
-      "when_to_use": "When opponent is grip fighting or you need to transition quickly between submission attempts. Especially effective when opponent grabs their own gi or belt defensively."
+      "description": "Both hands grip opponent's wrist or hand in palm-to-palm configuration without threading through. Allows faster transitions and adaptation to defensive grips. Use rotational wrist control to overcome defensive holding. This variation trades some mechanical advantage for speed and flexibility in grip transitions.",
+      "when_to_use": "When opponent is grip fighting or you need to transition quickly between submission attempts. Especially effective when opponent grabs their own gi or belt defensively and you need to break their grip while maintaining wrist control."
     },
     {
       "variation_name": "Reverse Americana",
-      "description": "Apply external rotation with opponent's arm extended rather than bent. Hand rotates away from head instead of toward head. Bypasses many traditional Americana defenses.",
-      "when_to_use": "When opponent successfully straightens their arm to defend standard Americana, or from positions like north-south where arm naturally extends. Creates unexpected angle of attack."
+      "description": "If opponent successfully defends the traditional Americana by turning their hand away from their head, immediately switch to a reverse grip and rotate their arm in the opposite direction toward their back. This variation demonstrates the interconnection between shoulder locks and the importance of flowing between submissions. The grip transition must be smooth to maintain control throughout the switch.",
+      "when_to_use": "When opponent actively defends the Americana rotation by turning their hand away. Rather than fighting their defensive rotation, use their movement to enter the reverse direction. Also effective from positions like north-south where arm naturally extends."
     },
     {
       "variation_name": "Standing Americana from Turtle",
-      "description": "Control opponent's far arm from turtle position, lift them partially up, and apply Americana mechanics while standing. Combines submission threat with back take opportunity.",
+      "description": "Control opponent's far arm from turtle position, lift them partially up, and apply Americana mechanics while standing. Combines submission threat with back take opportunity. Requires strong grip maintenance and body awareness throughout the standing transition.",
       "when_to_use": "When opponent turtles defensively and extends arm to post. High-level technique that creates serious dilemma between defending submission and preventing back take."
     },
     {
       "variation_name": "Rolling Americana",
-      "description": "Maintain Americana control while rolling with opponent's escape attempt, finishing the submission during or after the roll. Advanced technique requiring strong grip and body awareness.",
+      "description": "Maintain Americana control while rolling with opponent's escape attempt, finishing the submission during or after the roll. Advanced technique requiring strong grip and body awareness. The key is following the opponent's momentum rather than resisting it.",
       "when_to_use": "When opponent bridges and attempts to roll out of standard Americana. Rather than resisting their roll, follow and maintain control throughout, finishing in new position."
     },
     {
       "variation_name": "3-4 Mount Americana",
-      "description": "Americana variation from technical mount (3-4 mount) position where one leg is threaded through opponent's guard. Uses unique angle and additional control from leg position.",
-      "when_to_use": "Natural opportunity when opponent turtles from mount and you secure technical mount. The leg position prevents many escapes while isolating the arm."
+      "description": "Americana variation from technical mount (3-4 mount) position where one leg is threaded through opponent's guard. Uses unique angle and additional control from leg position. The threaded leg prevents many standard escapes while isolating the arm.",
+      "when_to_use": "Natural opportunity when opponent turtles from mount and you secure technical mount. The leg position prevents many escapes while isolating the arm for the shoulder lock."
+    }
+  ],
+  "variations": [
+    {
+      "name": "from 3-4 Mount",
+      "slug": "from-3-4-mount"
+    },
+    {
+      "name": "from High Mount",
+      "slug": "from-high-mount"
+    },
+    {
+      "name": "from Kesa Gatame",
+      "slug": "from-kesa-gatame"
+    },
+    {
+      "name": "from Kimura Trap",
+      "slug": "from-kimura-trap"
+    },
+    {
+      "name": "from Kuzure Kesa-Gatame",
+      "slug": "from-kuzure-kesa-gatame"
+    },
+    {
+      "name": "from Modified Mount",
+      "slug": "from-modified-mount"
+    },
+    {
+      "name": "from Modified Scarf Hold",
+      "slug": "from-modified-scarf-hold"
+    },
+    {
+      "name": "from Mount",
+      "slug": "from-mount"
+    },
+    {
+      "name": "from North-South",
+      "slug": "from-north-south"
+    },
+    {
+      "name": "from Reverse Kesa-Gatame",
+      "slug": "from-reverse-kesa-gatame"
+    },
+    {
+      "name": "from Reverse Scarf Hold",
+      "slug": "from-reverse-scarf-hold"
+    },
+    {
+      "name": "from S Mount",
+      "slug": "from-s-mount"
+    },
+    {
+      "name": "from Scarf Hold Position",
+      "slug": "from-scarf-hold-position"
+    },
+    {
+      "name": "from Shoulder of Justice",
+      "slug": "from-shoulder-of-justice"
+    },
+    {
+      "name": "from Side Control",
+      "slug": "from-side-control"
+    },
+    {
+      "name": "from Technical Mount",
+      "slug": "from-technical-mount"
     }
   ]
 }

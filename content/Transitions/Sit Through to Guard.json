@@ -77,8 +77,8 @@
       "relationship": "Alternative rolling escape from turtle that chains with sit through"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Parent concept this technique serves"
+      "name": "Hip Escape to Guard",
+      "relationship": "Related guard recovery transition sharing core hip movement mechanics"
     },
     {
       "name": "Hip Escape Mechanics",
@@ -212,7 +212,7 @@
         "description": "Incorporate sit through into live rolling from turtle bottom. Focus on recognizing opportunities during scrambles and pass attempts. Track success rate and identify which opponent reactions give you trouble."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the sit through from turtle?",
         "answer": "The optimal timing is when your opponent commits their weight forward, typically when attempting a front headlock, driving into you for a flatten attempt, or circling aggressively for back control. This forward commitment prevents them from easily following your lateral movement and creates the space needed for your leg to thread through. Initiating when their weight is neutral or back allows them to follow your rotation and establish back control."
@@ -343,7 +343,7 @@
         "correction": "Defend with body positioning and pressure rather than hand grabs. Use your hips and chest to stay connected, and your arms for upper body control like underhooks and crossfaces that prevent the setup entirely."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a sit through from turtle?",
         "answer": "The earliest cue is the bottom player shifting weight onto one arm and planting it firmly forward of their shoulder as a posting point. This weight shift is necessary before they can lift the near knee to thread the leg through. Simultaneously, watch for their far arm breaking the tight defensive shell and beginning to push against your shoulder or hip to create a frame. These setup actions precede the actual sit through by one to two seconds, giving you time to respond."

@@ -164,6 +164,8 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inverted Triangle?</p>
+
 - Opponent releases their head control grip and reaches across your body toward your far hip or belt—this grip change signals the rotation is about to begin
 - You feel the opponent's hips begin to swing laterally underneath you while their legs maintain the triangle lock around your neck and shoulder
 - After turning your shoulder inward to defend the standard triangle, you notice the opponent's body rotating toward your back rather than continuing to attack from the front
@@ -176,6 +178,8 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inverted Triangle?</p>
 
 - Recognize the rotation early—the moment you feel your opponent's hips begin swinging underneath you, the inverted triangle attempt has started and you must react immediately
 - Recover posture aggressively during the rotation phase when the attacker's head control is weakest and their grip is transitioning between positions
@@ -190,6 +194,8 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inverted Triangle?</p>
 
 ### 1. Posture recovery during rotation—straighten your spine and drive your head upward the moment you feel the opponent's hips begin to swing, using both hands to push against their hips or legs
 
@@ -227,6 +233,8 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inverted Triangle?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Recover posture during the rotation phase before the opponent completes the inversion, or stack them to flatten the rotation and stall the attack, returning to the standard triangle defense position where systematic escape sequences apply
@@ -242,6 +250,8 @@ Extract your trapped arm during the momentary loosening of the triangle lock mid
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inverted Triangle?</p>
 
 ### 1. Continuing to turn your shoulder inward after feeling the opponent's rotation begin
 
@@ -271,6 +281,8 @@ Extract your trapped arm during the momentary loosening of the triangle lock mid
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inverted Triangle?</p>
+
 **Week 1-2** - Recognition and early intervention
 Partner initiates inverted triangle rotation from triangle control at slow speed. Practice recognizing the grip change to the far hip and the initial hip swing. Work only on posture recovery response during the first half of the rotation. 15-20 repetitions per session focusing on reaction speed.
 
@@ -287,29 +299,6 @@ Positional sparring from triangle control where the attacker can choose standard
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting an inverted triangle rather than continuing the standard triangle attack?
-**A**: The earliest cue is when the opponent releases their head control grip and reaches across your body toward your far hip or belt line. This grip change is the necessary precursor to the rotation—they cannot rotate without an anchor point on your far side. Recognizing this grip switch gives you the maximum defensive window before the rotation begins.
-
-**Q2**: Why is the rotation phase the best window for defensive intervention against the inverted triangle?
-**A**: During the rotation phase, the attacker's triangle lock is at its loosest because their legs must adjust to accommodate the 180-degree body swing. Their head control grip is transitioning, their base is unstable, and they cannot simultaneously rotate and tighten the submission. This transitional state creates the highest probability window for posture recovery, arm extraction, or stacking defense.
-
-**Q3**: Your opponent has completed the inverted triangle rotation and is pulling your head down from the reverse angle—what is your escape priority sequence?
-**A**: First, tuck your chin and create space between your neck and shoulder to reduce immediate choking pressure. Second, address the angle by squaring your hips to the attacker to disrupt the perpendicular geometry they need. Third, work to extract your trapped arm by tucking the elbow tight and driving it toward your hip. Fourth, once the arm is free or the angle is disrupted, posture up and disengage. Do not attempt head extraction until the triangle structure is compromised.
-
-**Q4**: You feel the opponent's hips swinging but their rotation is already past 90 degrees—what is the most effective defensive response at this late stage?
-**A**: At this late stage, posture recovery and stacking are less effective because the rotation has too much momentum. Your best option is to spin with their rotation to nullify the angle change, matching their movement to prevent them from achieving the reverse choking position. Simultaneously work to extract your trapped arm during the dynamic scramble that results from both bodies rotating.
-
-**Q5**: Why does continuing to turn your shoulder inward accelerate the inverted triangle finish rather than helping your defense?
-**A**: Turning your shoulder inward is the standard triangle defense that works against the front choke, but it is precisely the movement the inverted triangle exploits. Your shoulder turn moves your neck deeper into the reverse choking angle the attacker is creating. The correct response is to reverse direction—square your shoulders back and drive posture upward to fight the new angle rather than feeding into it.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Switch from Rear Clinch?</p>
+
 - Sense opponent's weight distribution through chest-to-back contact before initiating, timing the switch when their weight shifts laterally or they reach for a new grip
 - Lower your center of gravity before pivoting by bending knees and dropping hips to create a stable base for the rotation
 - Commit fully to the rotation once initiated—partial switches are worse than no switch because they create openings for the opponent
@@ -208,6 +210,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Switch from Rear Clinch?</p>
+
 - Tactile awareness of opponent's weight distribution and grip pressure through your back and hips
 - At least one arm with sufficient freedom to reach back and create the pivot anchor point
 - Feet positioned under your hips rather than too far forward, allowing explosive hip rotation
@@ -220,6 +224,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Switch from Rear Clinch step by step?</p>
 
 1. **Read opponent's weight and grip configuration**: Before initiating, feel where the opponent's weight is concentrated through the pressure on your back. Identify their grip configuration—bodylock, seatbelt, or collar ties—and determine which direction offers the best pivot path. Wait for a moment when their weight shifts laterally or they reach to adjust grips.
 2. **Drop your center of gravity below opponent's grip line**: Bend your knees and sink your hips below the opponent's hip level. This creates a lower pivot point and makes it harder for them to maintain chest-to-back connection as you begin the rotation. Your weight should be on the balls of your feet, ready for explosive movement.
@@ -251,6 +257,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Switch from Rear Clinch?</p>
+
 - **Opponent re-squares their hips and re-establishes bodylock before rotation completes** (Effectiveness: High) - Your Response: If you feel the opponent clamping down during your rotation, immediately abandon the switch and transition to a different escape like hand fighting or pummeling rather than forcing a blocked pivot. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent drops weight and executes mat return during your switch initiation** (Effectiveness: High) - Your Response: If the opponent times a mat return against your switch, prioritize turning into them and fighting for underhooks on the way down to prevent ground back control establishment. Use your rotational momentum to stay angled toward them. → Leads to [[Positions/Back Control]]
 - **Opponent widens stance and drives forward pressure to prevent hip rotation** (Effectiveness: Medium) - Your Response: Against heavy forward pressure, redirect their momentum by pulling them forward past your center line while you pivot underneath. The more they commit forward, the more you can channel that energy into your rotation arc. → Leads to [[Positions/Standing Rear Clinch]]
@@ -262,6 +270,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Switch from Rear Clinch?</p>
 
 ### 1. Attempting the switch with hips too high and no preliminary level change
 
@@ -301,6 +311,8 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Switch from Rear Clinch (Attacker)?</p>
+
 **Phase 1: Solo Hip Switch Mechanics** - Developing the hip rotation movement pattern without resistance
 Practice the hip switch pivot motion repeatedly without a partner, focusing on dropping the hips, reaching back, and completing the full rotation. Build muscle memory for the foot positioning, weight transfer, and arm reaching sequence until the motion becomes automatic and fluid.
 
@@ -321,42 +333,12 @@ During regular sparring, actively seek opportunities to use the switch whenever 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When should you initiate the standing switch relative to your opponent's grip transitions?
-**A**: Initiate the switch during the brief moment when the opponent is transitioning between grip configurations—for example, when they release their bodylock to reach for a seatbelt grip, or when they adjust their hand lock. During these transitions, their controlling pressure drops momentarily and their grip structure is weakest. This timing window typically lasts less than one second, requiring you to be pre-loaded and ready to pivot explosively the instant you feel the grip pressure change through tactile feedback on your torso.
-
-**Q2**: Why must you lower your center of gravity before initiating the hip switch, and what specific body positioning achieves this?
-**A**: Lowering your center of gravity creates a pivot point below the opponent's hip level, which generates mechanical advantage for the rotation. You achieve this by bending your knees deeply, sinking your hips toward the mat, and slightly rounding your lower back to drop below their bodylock or seatbelt line. This lower position also makes it harder for the opponent to maintain chest-to-back connection because their arms must now control at a downward angle rather than straight across, reducing their grip efficiency.
-
-**Q3**: Your opponent has a tight bodylock with locked hands and heavy forward pressure—how do you adjust the switch to handle this grip?
-**A**: Against a tight bodylock with locked hands, use the inside switch variant where you reach back deep between your bodies and hook behind their near-side thigh for maximum leverage. The key adjustment is using their forward pressure against them by initiating the pivot suddenly, causing their momentum to carry them past your center line as you rotate underneath. You may also need to create a small frame with your elbow against their locked hands to generate enough separation for the hip pivot to begin.
-
-**Q4**: What are the primary grip requirements for the reaching arm during the switch, and what happens if you cannot reach deep enough?
-**A**: The reaching arm must hook deep enough behind the opponent's near-side hip, thigh, or waist to create a genuine anchor point for the rotation. Ideally, your hand reaches past their hip to hook behind the far side of their thigh, creating a firm lever. If you cannot reach deep enough due to their grip configuration or body type, the pivot lacks sufficient rotational leverage and will stall midway. In this case, do not force the switch—use preliminary hand fighting to create space for a deeper reach, or transition to the outside duck-under variant.
-
-**Q5**: What is the most common defensive response you will encounter when executing the switch, and how do you overcome it?
-**A**: The most common response is the opponent re-squaring their hips by widening their stance and driving their hips forward into your back the moment they feel your rotation beginning. This kills the pivot by adding resistance directly against your rotational force. To overcome this, initiate with explosive speed from a pre-loaded position rather than building gradually. Use feint movements like small hand fighting motions to desensitize the opponent before the real switch. Changing the direction of your initial movement before pivoting can also disrupt their reactive hip drive.
-
-**Q6**: How does the direction of force application differ between the inside switch and the outside duck-under switch?
-**A**: In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked.
-
-**Q7**: Your opponent posts their near-side leg wide the moment you begin pivoting—how do you adjust mid-technique?
-**A**: A wide near-side leg post creates a structural barrier against your rotation. Adjust by changing your pivot angle to go slightly under their posted leg, hooking your reaching arm lower to their ankle or calf instead of their thigh. Alternatively, use the wide post as an opportunity to change to an outside switch, ducking under their far-side arm since their wide stance has compromised their ability to drive forward pressure. If neither adjustment works, abandon the attempt cleanly and transition to pummeling or hand fighting before the opponent capitalizes.
-
-**Q8**: After completing a successful switch, what are the first three actions you should take and in what order?
-**A**: First, immediately drive your chest into the opponent's back to establish firm chest-to-back contact before they can begin counter-rotating. Second, secure a controlling grip—preferably seatbelt with your choking arm over their shoulder—by wrapping your arms around their upper body and locking your hands. Third, angle your hips to one side at approximately 45 degrees to prevent them from executing their own switch reversal. The order is critical because chest contact prevents separation, the grip prevents escape, and the hip angle prevents the counter-switch.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Switch from Rear Clinch?</p>
 
 The standing switch involves rapid rotational forces on the spine and hips that require gradual training progression. Practice the pivot motion at low intensity initially and build toward explosive speed over time. Avoid forcing the rotation against extremely tight grips as this can strain the lower back or shoulder of the reaching arm. When drilling with partners, communicate clearly before explosive switch attempts to prevent collision injuries. On hard surfaces, be cautious of the mat return counter where the opponent drives you down during the switch—falling awkwardly during rotation can cause neck or shoulder injuries. Always warm up the hips, lower back, and shoulders thoroughly before switch practice.
 

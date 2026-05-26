@@ -16,7 +16,7 @@ description: "How to execute Estima Lock in BJJ. Attacking perspective with setu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Estima Lock in BJJ",
-  "description": "Step-by-step guide for executing Estima Lock from Estima Lock/Top.",
+  "description": "Step-by-step guide for executing Estima Lock from Estima Lock Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,13 +184,15 @@ This technique functions as a Type A direct submission where a successful applic
 
 The Estima Lock integrates into comprehensive leg attack chains where defending one submission opens vulnerability to another. When the opponent counter-rotates to defeat the lock, toe hold opportunities appear. When they sit up and frame, backstep transitions to saddle become available. This chain attack philosophy means the Estima Lock functions both as a terminal threat and as a positional lever that forces defensive reactions you can exploit.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Estima Lock?</p>
 
 - Secure the heel as an immovable fixed point before applying rotational pressure to maximize mechanical advantage
 - Position forearm blade across the top of the foot to create the lever arm for ankle rotation and torque generation
@@ -207,6 +209,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Estima Lock?</p>
+
 - Estima Lock control position established with figure-four grip around opponent's foot and ankle
 - Opponent's heel secured as fixed point with hands controlling directional pressure on the forefoot
 - Opponent's leg extended away from their body preventing guard recovery or defensive framing
@@ -220,6 +224,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Estima Lock step by step?</p>
 
 1. **Consolidate grip**: Ensure figure-four grip is fully secured with both hands controlling the opponent's foot. Your primary hand cups the heel from below while your secondary hand reinforces the forearm position across the top of the foot. The heel must be immovable as this is your fixed point for all rotational pressure.
 2. **Establish hip pressure**: Drive your hips forward and down against the opponent's calf muscle, creating a fulcrum point approximately mid-shin. This pressure prevents them from retracting their leg and creates the mechanical foundation for the submission. Your body weight should flow through this contact point.
@@ -238,8 +244,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Estima Lock]] | 27% |
+| Success | [[Transitions/Estima Lock]] | 58% |
+| Failure | [[Positions/Estima Lock Control]] | 27% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
@@ -249,10 +255,12 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 
 ## Opponent Counters
 
-- **Opponent counter-rotates ankle and turns foot away from lock angle to reduce rotational pressure** (Effectiveness: High) - Your Response: When they turn the foot away, immediately transition to toe hold attack since their toes are now exposed and accessible for the alternative submission grip → Leads to [[Positions/Estima Lock]]
-- **Opponent sits up and establishes frames on your hips to create space and reduce hip pressure fulcrum** (Effectiveness: Medium) - Your Response: Drive forward to flatten them back down or transition to saddle position through backstep if they create significant space and you cannot maintain hip pressure → Leads to [[Positions/Estima Lock]]
+<p class="section-subtitle">How might your opponent counter Estima Lock?</p>
+
+- **Opponent counter-rotates ankle and turns foot away from lock angle to reduce rotational pressure** (Effectiveness: High) - Your Response: When they turn the foot away, immediately transition to toe hold attack since their toes are now exposed and accessible for the alternative submission grip → Leads to [[Positions/Estima Lock Control]]
+- **Opponent sits up and establishes frames on your hips to create space and reduce hip pressure fulcrum** (Effectiveness: Medium) - Your Response: Drive forward to flatten them back down or transition to saddle position through backstep if they create significant space and you cannot maintain hip pressure → Leads to [[Positions/Estima Lock Control]]
 - **Opponent uses free leg to push your hips away and create distance for leg extraction** (Effectiveness: Medium) - Your Response: Use your legs to control their free leg mobility or transition to ashi garami where you can triangle their legs together and neutralize the pushing threat → Leads to [[Positions/Ashi Garami/50-50 Guard]]
-- **Opponent grabs your hands or forearm attempting to strip the figure-four grip configuration** (Effectiveness: Low) - Your Response: Maintain hip pressure and continue submission pressure since grip fighting rarely succeeds when positional control is established—their energy expenditure favors you → Leads to [[Positions/Estima Lock]]
+- **Opponent grabs your hands or forearm attempting to strip the figure-four grip configuration** (Effectiveness: Low) - Your Response: Maintain hip pressure and continue submission pressure since grip fighting rarely succeeds when positional control is established—their energy expenditure favors you → Leads to [[Positions/Estima Lock Control]]
 
 
 </section>
@@ -260,6 +268,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Estima Lock?</p>
 
 ### 1. Releasing heel control with one hand to increase perceived pressure on the submission
 
@@ -299,6 +309,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Estima Lock (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice figure-four grip configuration on stationary partner. Focus on heel control as fixed point, forearm blade positioning across top of foot, and understanding the rotational direction of the submission. No resistance—pure technical repetition.
 
@@ -319,48 +331,12 @@ Apply Estima Lock in positional sparring starting from leg entanglement position
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical difference between an Estima Lock and a traditional straight ankle lock?
-**A**: The Estima Lock uses an inverted foot orientation where the heel is positioned higher than the toes, creating rotational torque on the ankle joint. Traditional straight ankle locks attack the ankle in its natural position with compression. The Estima Lock's rotation attacks both the ankle ligaments and Achilles tendon simultaneously through twisting pressure rather than pure hyperextension.
-
-**Q2**: What are the three mechanical elements that must be coordinated to finish the Estima Lock?
-**A**: The three elements are: the heel secured as an immovable fixed point by the cupping hand, the forearm blade positioned across the top of the foot acting as the lever arm for rotation, and hip pressure against the opponent's calf creating the fulcrum that prevents leg retraction. All three must work as a unified system—removing any one element collapses the submission mechanics.
-
-**Q3**: Your opponent starts counter-rotating their ankle to reduce pressure—how do you capitalize on this defensive movement?
-**A**: When the opponent counter-rotates to defend the Estima Lock, their toes become exposed and accessible for a toe hold attack. Maintain control while adjusting your grip configuration to attack the now-available angle. Their defensive movement that defeats one submission often opens another in the leg attack chain.
-
-**Q4**: What role does hip pressure against the opponent's calf play in the Estima Lock submission?
-**A**: Hip pressure against the calf creates the fulcrum point for the entire submission system. It prevents the opponent from retracting their leg, allows your body weight to contribute to control, and creates the fixed point around which the rotational pressure of the lock operates. Without this pressure, opponents can create slack and escape.
-
-**Q5**: Your opponent sits up and establishes frames on your hips while you have the Estima Lock grip—what adjustment should you make?
-**A**: When the opponent sits up with frames, you have two primary options: drive forward aggressively to flatten them back down and re-establish hip pressure, or transition to saddle position through a backstep if they create significant space. The sitting up motion indicates they are building defensive structure, so you must either finish quickly or transition before they fully establish defensive positioning.
-
-**Q6**: When is the optimal timing window to begin applying finishing pressure on the Estima Lock?
-**A**: The optimal window is immediately after all three mechanical elements are consolidated: heel fixed, forearm blade across the foot, and hip pressure against the calf. Delaying allows the opponent to begin building defensive frames. However, rushing before all elements are set results in incomplete mechanics. The key indicator is when you feel structural resistance through the grip—the foot cannot rotate freely and the leg cannot retract.
-
-**Q7**: Your opponent's free leg hooks your hip and starts pushing you away—how do you maintain the submission?
-**A**: Address the free leg immediately by using your own legs to trap or redirect it, or adjust your body angle so their push moves you along the submission axis rather than away from it. If the push creates significant space, transition to ashi garami where you can triangle both legs together, neutralizing the free leg threat while maintaining offensive control of the trapped limb.
-
-**Q8**: Why is it critical to apply gradual pressure rather than explosive cranking when finishing the Estima Lock?
-**A**: The Estima Lock attacks vulnerable ankle ligaments and the Achilles tendon through rotational force. Explosive cranking can cause serious injury before the opponent has time to tap, potentially ending their training for weeks or months. Gradual pressure allows clear communication, gives time to tap, and achieves the same submission result safely.
-
-**Q9**: The opponent partially extracts their foot but you still have grip contact—what is the correct decision?
-**A**: Assess whether you can immediately re-secure the figure-four before full extraction. If the heel is still accessible and your forearm can re-establish the lever, drive hips forward to close the space and reconsolidate. If extraction is too far progressed, transition immediately to toe hold on the partially freed foot or flow to ashi garami rather than chasing a deteriorating grip.
-
-**Q10**: How does the Estima Lock integrate into a comprehensive leg attack system?
-**A**: The Estima Lock functions within leg entanglement systems alongside toe holds, straight ankle locks, heel hooks, and kneebars. Entry typically comes from 50-50 guard or outside ashi positions. When defended, natural transitions flow to toe hold (opponent turns foot away), ashi garami (opponent creates space), or saddle (backstep when frames are established). This creates attack chains where defending one submission opens another.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Estima Lock?</p>
 
 The Estima Lock attacks vulnerable ankle ligaments and the Achilles tendon through rotational pressure, creating significant injury risk if applied carelessly. Always apply pressure gradually with clear verbal communication during training—never crank explosively. Partners should tap early when they feel the rotational pressure engage rather than waiting for pain, as the mechanism can cause damage quickly once mechanical completion occurs. Practitioners with previous ankle or Achilles injuries should exercise extreme caution and may need to tap earlier than normal. When finishing in competition, maintain awareness that the submission can complete faster than opponents expect due to the unique rotational angle. Release immediately upon any tap signal—verbal, physical, or distress indication. Never continue applying pressure to demonstrate the submission after the tap. Training the Estima Lock requires mutual trust and should be introduced only after fundamentals of leg attack safety are well established.
 

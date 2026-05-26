@@ -166,6 +166,8 @@ Successful defense requires reading the telegraphed signs of the escape—change
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inversion to Turtle?</p>
+
 - Opponent's hands shift from defending the heel to gripping your inside knee, indicating they are setting up the push-pull mechanics for rotation
 - Opponent's free leg repositions to contact your hip rather than staying neutral, showing they are loading the push that drives rotational momentum
 - Opponent's trapped foot transitions to strong dorsiflexion and their hips begin shifting away from you, signaling commitment to the inversion rather than in-place defense
@@ -178,6 +180,8 @@ Successful defense requires reading the telegraphed signs of the escape—change
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inversion to Turtle?</p>
 
 - Maintain constant inside leg pressure on the opponent's thigh to prevent rotational escape initiation
 - Monitor opponent's hands—when they reach for your inside knee, an escape attempt is imminent
@@ -193,6 +197,8 @@ Successful defense requires reading the telegraphed signs of the escape—change
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inversion to Turtle?</p>
 
 ### 1. Step your inside leg through to deepen entanglement toward saddle configuration
 
@@ -230,6 +236,8 @@ Successful defense requires reading the telegraphed signs of the escape—change
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inversion to Turtle?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Block the rotation before it develops momentum by maintaining heavy inside leg pressure and pinning their free hip. When you detect the escape setup, preemptively tighten your leg configuration and address their hand position on your knee. Forcing them to remain in Ushiro means they must attempt a different, potentially less effective escape.
@@ -245,6 +253,8 @@ When the opponent commits to rotation, use their movement as an opportunity to s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inversion to Turtle?</p>
 
 ### 1. Releasing leg entanglement to chase the back take too early, abandoning submission position prematurely
 
@@ -274,6 +284,8 @@ When the opponent commits to rotation, use their movement as an opportunity to s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inversion to Turtle?</p>
+
 **Week 1-2** - Recognition and reaction
 Partner executes Inversion to Turtle at slow speed from Ushiro Ashi-Garami. Practice identifying the setup cues—hands on inside knee, free leg positioning, hip shifting—and choosing appropriate responses. Focus on reading the telegraph rather than reacting to the rotation itself.
 
@@ -290,29 +302,6 @@ Full resistance rounds starting from Ushiro Ashi-Garami. Bottom player attempts 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent places both hands on your inside knee while in Ushiro Ashi-Garami—what does this signal and how should you respond?
-**A**: Both hands on your inside knee is the primary telegraph for an Inversion to Turtle attempt. They are establishing the pulling grip needed for push-pull rotational mechanics. Respond by immediately tightening your inside leg pressure on their thigh, considering a step-through to saddle to deepen entanglement, or accelerating your heel hook attack before they can redirect focus from defense to escape. Do not ignore this grip change.
-
-**Q2**: When should you abandon the leg entanglement and follow to back control instead?
-**A**: Follow to back control when the rotation has developed sufficient momentum that your leg entanglement is degrading beyond recovery, when their dorsiflexion has been maintained and your heel hook probability is low, or when you have already lost your outside leg position. The key indicator is whether your inside leg can still advance to saddle—if it cannot, the back take becomes the higher-percentage option.
-
-**Q3**: How do you convert an opponent's inversion attempt into a saddle transition?
-**A**: As the opponent initiates rotation, their movement actually creates space between their trapped leg and your advancing inside leg. Step your inside leg deeper through this gap while maintaining outside leg pressure across their knee line. Their rotational energy helps your leg advance if timed correctly. The saddle configuration should be established before they complete quarter-rotation, at which point their momentum works against your advancement.
-
-**Q4**: What is the risk of committing fully to a heel hook finish during an active inversion escape?
-**A**: Committing to the finish during rotation means you are prioritizing grip closure over position retention. If the finish fails—because their dorsiflexion holds, the angle changes, or they accelerate through your grip—you lose both the submission and the entanglement simultaneously. This creates a worst-case scenario where you end up with no offensive position at all. Only commit when heel exposure is clear and your grip is locked.
-
-**Q5**: Your opponent's free leg contacts your hip—what does this mean for your defensive timing?
-**A**: Their free foot on your hip means they have loaded the pushing force that will drive rotational momentum. The inversion attempt is seconds away. You have a narrow window to respond before the push-pull mechanics activate. Options include pinning their free hip with your hand to deny the push, immediately stepping through to saddle before they can generate momentum, or tightening your overall entanglement to increase the resistance their push must overcome.
-
-
-
-</section>
 
 
 </main>

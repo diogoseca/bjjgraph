@@ -41,7 +41,7 @@ Strategically, this technique serves as the gateway to all other back control es
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 55% |
 | Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
-| Counter | [[game-over]] | 15% |
+| Counter | [[Submissions/Cross Collar Choke]] | 15% |
 
 
 </section>
@@ -208,7 +208,7 @@ Hand Fighting to Remove Collar Grip serves as the essential first step in all ba
 
 - [[Transitions/Hip Escape to Guard]] - Common escape chain after neutralizing collar threat
 
-- [[Transitions/Rear Naked Choke]] - Alternative attack opponent may switch to during defense
+- [[Submissions/Rear Naked Choke]] - Alternative attack opponent may switch to during defense
 
 - [[Transitions/Granby Roll to Guard]] - Alternative escape option once hooks are addressed
 

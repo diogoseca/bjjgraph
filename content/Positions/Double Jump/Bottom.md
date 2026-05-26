@@ -169,6 +169,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Jump (Bottom)?</p>
+
 - Bottom player's body positioned on their side with hips oriented perpendicular to opponent's centerline, creating the angle necessary for leg insertion underneath opponent's base
 - Both of bottom player's legs actively shooting underneath opponent's hips in synchronized motion, with knees driving toward opponent's far hip while feet hook behind near leg
 - Top player's weight distributed forward over bottom player's torso, creating the pressure that makes the explosive entry possible through their commitment to the pass
@@ -181,6 +183,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Double Jump (Bottom)?</p>
 
 - Opponent applying forward pressure from top position (side control, headquarters, or knee slice)
 - Bottom player has inside space to initiate hip movement
@@ -196,6 +200,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Double Jump?</p>
+
 - Explosive hip extension is critical - the jump must be committed and fast to prevent opponent from sprawling back
 - Both legs must shoot simultaneously underneath opponent's hips to create the destabilizing effect
 - Maintain angle of your body perpendicular to opponent's centerline throughout the entry
@@ -210,6 +216,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Jump (Bottom)?</p>
 
 **If opponent's weight is heavily committed forward and their base is narrow:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
@@ -243,6 +251,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Jump?</p>
 
 ### 1. Jumping with legs at different timing or angles
 
@@ -287,6 +297,8 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Double Jump defense?</p>
+
 ### Static Entry Repetition Drill
 
 Partner maintains heavy top pressure from side control or headquarters position. Bottom player executes 10 consecutive double jump entries, focusing on synchronized leg insertion and immediate deep half hook establishment. Reset to starting position after each repetition. Emphasize explosive hip extension and proper head positioning throughout.
@@ -326,38 +338,6 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body position must you establish before initiating the Double Jump Bottom entry?
-**A**: You must establish a side position with your body perpendicular to the opponent's centerline before initiating the double jump sequence. Being flat on your back lacks the angular momentum and leverage needed for explosive leg insertion. The side position creates the proper angle for your legs to shoot underneath the opponent's hips and provides the hip mobility necessary for the explosive entry.
-
-**Q2**: How do you know when the timing is right to execute the Double Jump entry?
-**A**: The optimal timing is when your opponent's weight is clearly committed forward in their passing attempt. This forward pressure is actually what makes the technique work - the harder they drive forward, the more effective your entry becomes. Do not attempt Double Jump when opponent's weight is posted back or they maintain a wide, defensive base, as the entry requires their forward momentum to succeed.
-
-**Q3**: Your opponent sprawls back as you attempt the Double Jump - what do you do?
-**A**: If opponent sprawls back, immediately transition to deep half guard by establishing hooks on their near leg, or switch to lockdown half guard to recapture control. Their backward movement actually helps you access deep half position more easily. Use their defensive sprawl as an opportunity to secure leg control rather than trying to force the original entry against their retreat.
-
-**Q4**: What are the essential controls you must establish immediately after a successful Double Jump entry?
-**A**: Immediately after entry, you must establish deep half hooks by curling your inside leg to hook opponent's far leg while your outside leg controls their near hip. You should also maintain control of opponent's near arm with your outside hand to prevent posting and base recovery. The entry and hook establishment must be one continuous motion - stopping after entry without hooks allows immediate escape.
-
-**Q5**: How do you protect against guillotine attacks during the Double Jump entry?
-**A**: Keep your head positioned away from opponent's hips on the outside throughout the entry, actively turning your head away from their hips toward the outside. Maintaining safe head position while establishing deep half hooks prevents guillotine and front headlock opportunities. Never allow your head to drift toward their hips during the explosive leg insertion.
-
-**Q6**: Your opponent stands up after you enter Double Jump - what is your response?
-**A**: When opponent stands to create distance, immediately transition your legs to X-Guard configuration or single leg X-Guard. Their standing actually opens up these powerful sweeping positions. Use the elevation change to reconfigure your hooks into butterfly-style foot placement on their hips, maintaining the underhook on their leg as you flow into the standing guard attack system.
-
-**Q7**: Why is it important that both legs shoot simultaneously in the Double Jump?
-**A**: Both legs must shoot together like a single explosive unit because synchronized bilateral insertion creates the destabilizing effect that makes the technique work. Jumping with legs at different timing creates predictable movement that opponent can easily sprawl against. The synchronized motion generates enough momentum and disruption to prevent opponent from reacting defensively to incremental leg placement.
-
-**Q8**: How do you manage the high energy cost of Double Jump Bottom position?
-**A**: Double Jump Bottom is inherently a high-energy transition position meant to be held only 3-8 seconds. Once you achieve the entry, immediately work toward sweep completion rather than consolidating in place. Chain your attacks (deep half entry to old school sweep to back take) in continuous flow rather than pausing between techniques. The energy expenditure is justified by the high percentage improvement over incremental guard recovery methods.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

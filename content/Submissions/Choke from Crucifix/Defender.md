@@ -163,6 +163,8 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 ## How to Recognize This Submission
 
+<p class="section-subtitle">How do you know when someone is attempting Choke from Crucifix?</p>
+
 - Attacker releases upper body grip or harness to begin snaking arm toward your neck while maintaining leg traps on both arms
 - Attacker shifts weight forward and flattens you onto your side or back, repositioning to expose your neck and create choking angle
 - Attacker's free hand begins manipulating your chin position upward or pulling your head back, indicating imminent choking arm insertion
@@ -174,6 +176,8 @@ Energy management is paramount because the crucifix is inherently exhausting for
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Choke from Crucifix?</p>
 
 - Protect the neck immediately through aggressive chin tuck and shoulder elevation before addressing positional escape
 - Prioritize freeing at least one arm from the leg traps - arm freedom is prerequisite to effective choke defense
@@ -189,6 +193,8 @@ Energy management is paramount because the crucifix is inherently exhausting for
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Choke from Crucifix?</p>
 
 ### 1. Aggressive chin tuck with shoulder elevation to deny forearm insertion under the chin
 
@@ -219,6 +225,8 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 ## Escape Paths
 
+<p class="section-subtitle">How do you escape Choke from Crucifix?</p>
+
 - Extract near-side arm from leg control through hip rotation and angle change, then use freed hand to strip choking grip and fight to turtle or back escape position
 - Explosive bridge toward attacker's top side to disrupt base, creating momentary space to pull trapped arm free and transition to standard back control defensive sequence
 - Forward roll when attacker's hips are high, tumbling through to break the crucifix structure entirely and scrambling to recover guard or turtle position
@@ -229,6 +237,8 @@ Energy management is paramount because the crucifix is inherently exhausting for
 <section id="favorable-outcomes" class="content-section">
 
 ## Best-Case Outcomes for Defender
+
+<p class="section-subtitle">What is the best outcome when defending Choke from Crucifix?</p>
 
 ### → [[Positions/Crucifix]]
 
@@ -245,6 +255,8 @@ Successfully extract one or both arms during the attacker's choke attempt throug
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Choke from Crucifix?</p>
 
 ### 1. Attempting to strip the choking grip with trapped arms instead of addressing the arm traps first
 
@@ -274,6 +286,8 @@ Successfully extract one or both arms during the attacker's choke attempt throug
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Choke from Crucifix?</p>
+
 **Phase 1: Recognition and Neck Protection** - Identifying choke setup cues and immediate chin defense
 From established crucifix bottom, partner slowly initiates choke attempts while you focus exclusively on recognizing the setup cues and implementing immediate chin tuck and shoulder elevation. No escape attempts. Build the automatic defensive reflex of neck protection upon crucifix choke recognition. Partner varies between RNC grip, short choke, and arm-in attempts to develop recognition across all variations.
 
@@ -290,29 +304,6 @@ Positional sparring starting from crucifix bottom with partner attacking at comp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when you recognize a choke attempt from crucifix bottom? **[SAFETY-CRITICAL]**
-**A**: The first priority is immediate neck protection through aggressive chin tuck to the chest and shoulder elevation toward the ears. This creates physical barriers that prevent the attacker's forearm from sliding under your chin. Because both arms are trapped, you cannot use traditional grip-fighting defense, so your neck positioning is your primary and often only line of defense against the choke. This must happen instantly upon recognition - every second of delay allows the attacker to improve their choking angle and insertion depth.
-
-**Q2**: Why is freeing a trapped arm more important than directly fighting the choking grip?
-**A**: With both arms trapped by the attacker's legs, you lack the range of motion and leverage to effectively reach or strip the choking grip. Attempting to fight the choke with trapped arms wastes energy on an impossible task. Freeing even one arm restores your ability to create defensive frames, strip grips, protect your neck with your hand, and execute standard back escape sequences. Arm freedom is the prerequisite that enables all other defensive options. The correct hierarchy is: protect neck with chin, extract an arm, then fight the choke with your freed hand.
-
-**Q3**: When is the optimal moment to attempt an escape from the crucifix during a choke attempt?
-**A**: The optimal escape window occurs when the attacker commits both hands to the choking sequence and shifts their weight forward to insert their arm under your chin. During this transition, their leg pressure on your trapped arms often decreases momentarily as their focus and body mechanics shift toward the choke finish. This brief reduction in leg control creates the highest-probability window for arm extraction through hip rotation and angle change. Timing your defensive movement to this weight shift rather than fighting against fully consolidated control dramatically increases escape success rates.
-
-**Q4**: What should you do if you feel the choke beginning to take effect with dimming vision or lightheadedness? **[SAFETY-CRITICAL]**
-**A**: If you feel the choke taking effect - indicated by dimming vision, tunnel vision, warmth spreading through your face, or lightheadedness - you must tap immediately. Do not attempt to tough it out or wait for an escape opportunity. Blood chokes can produce unconsciousness within 4-8 seconds of full bilateral carotid compression. The window between feeling the effects and losing consciousness is extremely narrow and unreliable. Tap using whatever method is available: verbal tap, foot tap on mat, or any vocalization. Continuing to resist at this point risks unconsciousness and potential injury. In training, there is zero shame in tapping to a properly applied choke from crucifix.
-
-**Q5**: How does the forward roll escape work against a crucifix choke, and what are its risks?
-**A**: The forward roll involves using your hips and legs to generate momentum rolling toward the attacker and over your own shoulder, aiming to tumble through the crucifix structure and break the arm traps. This works best when the attacker has a high base with their hips elevated above your shoulder line, as their elevated position provides space for the rolling motion. The primary risk is that a well-positioned attacker can follow the roll and transition to mounted crucifix, which provides even greater control and choking angles. The roll should only be attempted when the attacker's base is compromised and before the choke is deeply seated. It is a high-commitment escape that either works decisively or worsens your position.
-
-
-
-</section>
 
 
 </main>

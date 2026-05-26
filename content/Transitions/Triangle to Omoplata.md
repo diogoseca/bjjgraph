@@ -206,9 +206,9 @@ The triangle to omoplata transition is a cornerstone of modern guard attack syst
 
 - [[Positions/Omoplata Control]] - Target control position upon successful execution
 
-- [[Submissions/Triangle from Closed Guard]] - Primary submission setup leading to this transition
+- [[Transitions/Closed Guard to Triangle]] - Primary submission setup leading to this transition
 
-- [[Submissions/Omoplata from Guard]] - Alternative direct entry to omoplata without triangle
+- [[Transitions/Closed Guard to Omoplata]] - Alternative direct entry to omoplata without triangle
 
 - [[Transitions/Triangle to Armbar]] - Alternative transition from same starting position
 
@@ -222,7 +222,7 @@ The triangle to omoplata transition is a cornerstone of modern guard attack syst
 
 - [[Positions/Spider Guard]] - Alternative guard position for triangle entry
 
-- [[Submissions/Triangle Choke Front]] - Primary submission threat that forces the defensive reaction
+- [[Submissions/Triangle Choke]] - Primary submission threat that forces the defensive reaction
 
 
 </section>

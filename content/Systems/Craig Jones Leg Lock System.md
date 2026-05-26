@@ -44,7 +44,7 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
     },
     {
       "@type": "HowToStep",
-      "name": "Dilemma Creation Framework",
+      "name": "Fork Attacks Framework",
       "text": "Integrate dual-threat attack sequences that force opponent to choose between defending near leg heel hook or far leg straight ankle lock. Develop systematic protocols for switching between submission targets based on opponent's defensive priorities. Master backside 50-50 transitions when opponent successfully defends primary attacks.",
       "position": 5
     },
@@ -242,7 +242,7 @@ Key points:
 
 
 
-5. **Dilemma Creation Framework**: Integrate dual-threat attack sequences that force opponent to choose between defending near leg heel hook or far leg straight ankle lock. Develop systematic protocols for switching between submission targets based on opponent's defensive priorities. Master backside 50-50 transitions when opponent successfully defends primary attacks.
+5. **Fork Attacks Framework**: Integrate dual-threat attack sequences that force opponent to choose between defending near leg heel hook or far leg straight ankle lock. Develop systematic protocols for switching between submission targets based on opponent's defensive priorities. Master backside 50-50 transitions when opponent successfully defends primary attacks.
 Key points:
 - Recognize which leg opponent prioritizes defending
 - Develop seamless transitions between heel hook and ankle lock attacks
@@ -338,7 +338,7 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 ### Progression Path
 **Foundation Phase** (Focus: Develop comfort maintaining outside ashi and cross ashi-garami positions. Master basic entry sequences from seated guard. Build hip mobility and core strength for leg entanglement control.) - Months 1-2: 3-4 sessions per week
 **Technical Development Phase** (Focus: Refine saddle position transitions from cross ashi-garami. Develop systematic finishing mechanics for outside heel hook. Integrate single leg x-guard entries into existing game.) - Months 3-5: 4-5 sessions per week
-**Dilemma Creation Phase** (Focus: Implement dual-threat attack sequences between heel hooks and ankle locks. Master backside 50-50 transitions as backup position. Develop 50-50 dominance protocols through systematic grip fighting.) - Months 6-8: 5-6 sessions per week with competition sparring
+**Fork Attacks Phase** (Focus: Implement dual-threat attack sequences between heel hooks and ankle locks. Master backside 50-50 transitions as backup position. Develop 50-50 dominance protocols through systematic grip fighting.) - Months 6-8: 5-6 sessions per week with competition sparring
 **Integration Phase** (Focus: Seamlessly integrate leg lock system with passing game and top position strategies. Develop strategic decision-making for when to pursue legs vs positional advancement. Refine competition-specific applications for various rule sets.) - Months 9-12: Competition preparation with specialized training camps
 **Mastery Phase** (Focus: Innovate personal variations based on body type and athletic attributes. Develop coaching ability to identify and correct common technical errors. Compete successfully at high level with leg lock system as primary offensive framework.) - Year 2+: Ongoing refinement and coaching development
 
@@ -370,8 +370,8 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 - [[Outside Heel Hook]] (Submission) - Primary finishing mechanism from saddle position utilizing rotational knee attack mechanics
 - [[Inside Heel Hook]] (Submission) - Alternative heel hook variation targeting inside knee structures from modified saddle configurations
 - [[Straight Ankle Lock]] (Submission) - Secondary attack on far leg used to create submission dilemmas and force defensive errors
-- [[Kneebar from 50-50]] (Submission) - Direct attack option when saddle transition is defended, maintaining offensive pressure from symmetrical position
-- [[Toe Hold from 50-50]] (Submission) - Alternative submission attack from 50-50 and backside configurations when heel hook defended
+- [[Calf Slicer]] (Submission) - Direct compression attack from leg entanglement positions, maintaining offensive pressure when heel hook is defended
+- [[Achilles Lock]] (Submission) - Straight foot lock attack applicable from 50-50 and backside configurations as alternative when heel hook defended
 - [[Saddle Entry from Top]] (Transition) - Entry sequence accessing saddle position from top game and passing positions
 - [[Inside Ashi Entry]] (Transition) - Direct entry pathway to saddle position from seated guard and k-guard configurations
 - [[Outside Ashi Entry]] (Transition) - Foundational entry technique establishing outside leg control before advancing to cross ashi
@@ -380,8 +380,8 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 - [[Back Take from Ashi]] (Transition) - Critical transition converting leg entanglement control to back control when opponent successfully defends submissions
 - [[50-50 Entry from Standing]] (Transition) - Entry method for accessing 50-50 position from standing exchanges and guard pulls
 - [[Leg Entanglement]] (Principle) - Fundamental concept governing leg position control and submission mechanics throughout system
-- [[Dilemma Creation]] (Principle) - Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats
-- [[System Building]] (Principle) - Conceptual framework for organizing interconnected techniques into cohesive offensive system
+- [[Fork Attacks]] (Principle) - Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats
+- [[Position Chains]] (Principle) - Conceptual framework for organizing interconnected techniques into cohesive offensive sequences
 - [[Control Maintenance]] (Principle) - Essential principle for sustaining dominant positions before attempting submission finishes
 - [[Submission Chains]] (Principle) - Concept of linking multiple submission attempts to prevent opponent's defensive success
 - [[Danaher Leg Lock System]] (System) - Foundational systematic approach to leg locks that Craig Jones methodology builds upon and modernizes

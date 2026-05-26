@@ -229,7 +229,7 @@
         "description": "Practice the full decision tree: if opponent stays close, recover closed guard; if opponent stands and creates distance, transition to alternative open guard; if knee penetrates, recover half guard. Develop real-time decision-making about which recovery path matches the situation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing to initiate closed guard recovery from spider guard?",
         "answer": "Initiate recovery at the moment of grip compromise—when the opponent strips one sleeve grip or begins successfully defeating your foot-on-bicep placement—rather than waiting until both grips are broken and the opponent has advanced. This early timing preserves your remaining grip as a pulling handle for guard closure and catches the opponent in the forward momentum they generated to break your grip, which you can redirect into closed guard range."
@@ -339,7 +339,7 @@
         "correction": "Either stand to create vertical distance that makes guard wrapping difficult, or drive forward into combat base to split their guard before it closes. Do not remain in kneeling no-man's-land where closure is easiest"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is it sometimes better to create distance rather than drive forward when the bottom player abandons spider guard for closed guard recovery?",
         "answer": "The bottom player's closed guard recovery relies on using your forward momentum as the energy source for pulling you into closure range. If you drive forward, you accelerate their recovery rather than preventing it. Creating distance denies the close range needed for guard closure and forces the bottom player to recompose an open guard at a range where your passing options are stronger. The exception is when you can drive a knee through their centerline before legs wrap, which converts forward drive into a passing opportunity."

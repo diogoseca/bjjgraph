@@ -164,6 +164,8 @@ Defending this transition requires balancing two competing demands: maintaining 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crackhead Control to Carni?</p>
+
 - Bottom player's hip movement shifts from horizontal circling to angling underneath your body toward your near leg
 - Bottom player aggressively strips your grip on their inside arm, freeing it for the inversion assist
 - You feel the bottom player's shoulder dip as they begin rotating underneath rather than pushing outward
@@ -176,6 +178,8 @@ Defending this transition requires balancing two competing demands: maintaining 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control to Carni?</p>
 
 - Monitor bottom player's hip movement direction for signs of inversion rather than standard defensive circling
 - Maintain weight distribution awareness to avoid over-committing forward into the chair-sit position
@@ -191,6 +195,8 @@ Defending this transition requires balancing two competing demands: maintaining 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crackhead Control to Carni?</p>
 
 ### 1. Sprawl hips back immediately and retract near leg away from bottom player's threading attempt
 
@@ -228,6 +234,8 @@ Defending this transition requires balancing two competing demands: maintaining 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crackhead Control to Carni?</p>
+
 ### → [[Positions/Crackhead Control]]
 
 React early to the inversion attempt by sprawling hips back, stepping over to block, or disengaging to standing. The bottom player returns to defensive turtle and you maintain or re-establish top control. Early recognition is the key factor.
@@ -243,6 +251,8 @@ If the bottom player commits to a poorly timed inversion, drive forward aggressi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control to Carni?</p>
 
 ### 1. Maintaining heavy forward chair-sit pressure without monitoring bottom player's hip movement direction
 
@@ -277,6 +287,8 @@ If the bottom player commits to a poorly timed inversion, drive forward aggressi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crackhead Control to Carni?</p>
+
 **Week 1-2** - Recognition drilling
 Partner alternates between standard crackhead defense movement and carni transition attempts from bottom. Practice identifying the directional change in hip movement that signals the transition. Call out the attempt before partner completes it. Build pattern recognition without defensive reaction initially.
 
@@ -293,29 +305,6 @@ Full positional sparring from crackhead control. Both players pursue their objec
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is attempting the Crackhead Control to Carni transition rather than standard defensive movement?
-**A**: The earliest cue is a directional change in the bottom player's hip movement. Standard crackhead defense uses horizontal circling, while the carni transition setup angles the hips underneath your body toward your near leg. You may also feel them aggressively strip your grip on their inside arm, which is a prerequisite for the inversion. Recognizing this directional shift within the first moment is what allows early prevention.
-
-**Q2**: Why does your forward weight commitment in the chair-sit position create vulnerability to this transition?
-**A**: The forward weight commitment loads your mass onto the bottom player's lower back, but simultaneously creates space underneath your hips and compromises your ability to retract quickly. This space is exactly what the bottom player threads through during the inversion. The more forward you commit, the larger the window for their entry and the slower your defensive reaction because your hips must travel further to retract.
-
-**Q3**: Your opponent has partially established the inside leg hook but has not yet completed the full carni entanglement - what is your best response?
-**A**: Step your free leg over their body to block the completion of the entanglement while simultaneously driving your trapped leg's knee toward the mat to prevent them from locking the figure-four. If the step-over is successful, immediately transition to back control by following their partially inverted body. Do not try to simply pull your leg free against the partial hook as this often feeds deeper into the entanglement.
-
-**Q4**: When is it better to disengage entirely from crackhead control rather than defend the transition in place?
-**A**: Disengage when the transition is partially established and your defensive options are limited, meaning they have inside positioning but you have not yet been fully captured. Losing crackhead control top to return to standing is far preferable to being caught in a completed carni where you face heel hook, saddle, and back take threats. Accept the positional loss and re-engage from standing on your terms.
-
-**Q5**: How should you manage your near leg positioning to prevent the carni entry throughout the crackhead control exchange?
-**A**: Keep your near leg retracted and compact rather than posted wide or forward. A wide-posted leg is easier for the bottom player to capture during their inversion. When you sense increased hip activity from the bottom player, pull your near leg even closer to your body or shift it behind their hip line entirely. The less accessible your near leg is, the harder the carni entry becomes regardless of their timing.
-
-
-
-</section>
 
 
 </main>

@@ -206,9 +206,9 @@ The Transition to Scarf Hold Position occupies a critical junction in the side c
 
 - [[Positions/Side Control/Modified Scarf Hold]] - Alternative scarf hold variation accessible from similar transition mechanics
 
-- [[Transitions/Americana]] - Primary submission available from the resulting scarf hold position
+- [[Submissions/Americana]] - Primary submission available from the resulting scarf hold position
 
-- [[Transitions/Kimura]] - Secondary submission threat from scarf hold exploiting isolated arm
+- [[Submissions/Kimura]] - Secondary submission threat from scarf hold exploiting isolated arm
 
 - [[Transitions/Arm Triangle]] - Choke option when opponent defends arm isolation during transition
 

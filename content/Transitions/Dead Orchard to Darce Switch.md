@@ -206,7 +206,7 @@ The Dead Orchard to Darce Switch occupies a critical position within the front h
 
 - [[Transitions/Darce to Anaconda Switch]] - Reverse direction grip switch - complementary technique in opposite direction
 
-- [[Transitions/Dead Orchard to Anaconda Finish]] - Alternative offensive path from the same starting position
+- [[Anaconda Choke from Dead Orchard]] - Alternative offensive path from the same starting position
 
 - [[Transitions/Darce Control Maintenance]] - Follow-up technique for maintaining darce position after successful switch
 

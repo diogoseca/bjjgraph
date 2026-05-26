@@ -164,6 +164,8 @@ The defender's advantage lies in understanding that the roll to guard requires s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll to Guard?</p>
+
 - Opponent aggressively secures two-on-one control on your choking arm and begins pulling it across their body toward the opposite hip
 - Opponent tucks their chin firmly to chest and rounds their spine, creating the curved surface needed for a smooth forward roll
 - Opponent's feet plant flat on the mat and their hips begin loading upward, generating the forward drive momentum needed to initiate rotation
@@ -176,6 +178,8 @@ The defender's advantage lies in understanding that the roll to guard requires s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll to Guard?</p>
 
 - Maintain constant forward chest pressure against opponent's back to eliminate the space needed for forward roll initiation
 - Keep harness grip tight with hands clasped high on opponent's chest, preventing the two-on-one grip break that precedes the roll
@@ -191,6 +195,8 @@ The defender's advantage lies in understanding that the roll to guard requires s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll to Guard?</p>
 
 ### 1. Flatten opponent by driving hips forward and spreading weight wide across their back to eliminate rolling space
 
@@ -228,6 +234,8 @@ The defender's advantage lies in understanding that the roll to guard requires s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll to Guard?</p>
+
 ### → [[Positions/Harness]]
 
 Deny the roll before it starts by maintaining constant forward pressure, keeping harness grip tight with hands clasped high, and using hooks to control opponent's hip rotation. When you feel the two-on-one grip fight intensify, immediately drive hips forward and widen your base to eliminate rolling space.
@@ -243,6 +251,8 @@ If the roll initiates, follow the rotation by driving your hips forward into opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll to Guard?</p>
 
 ### 1. Pulling backward on opponent's shoulders when they initiate the roll instead of driving forward with hips
 
@@ -277,6 +287,8 @@ If the roll initiates, follow the rotation by driving your hips forward into opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll to Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner performs Roll to Guard at 30% speed with full telegraphing while you focus on identifying the recognition cues - two-on-one grip fight, chin tuck, hip loading. Practice the immediate response of driving hips forward without worrying about maintaining position through the roll.
 
@@ -293,29 +305,6 @@ Full-speed positional sparring where partner works all back escape methods inclu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is setting up a Roll to Guard escape?
-**A**: The earliest cues are aggressive two-on-one grip fighting on your choking arm combined with chin tucking and spine rounding. You will feel them pulling your choking arm across their body while their feet plant flat on the mat. These preparatory movements must precede the roll, giving you a window to react by driving forward and tightening your harness before they generate momentum.
-
-**Q2**: Your opponent has already initiated the forward roll - what is your best defensive response?
-**A**: Drive your hips forward into their hips and commit to following their rotation rather than resisting it. Maintain chest-to-back contact throughout the roll by matching their speed and direction. Keep your hooks engaged and harness tight. The goal is to arrive at the end of their roll still attached to their back, preventing the guard recovery that makes this escape successful.
-
-**Q3**: How does maintaining proper hook pressure prevent the Roll to Guard from succeeding?
-**A**: Active hooks that pull your heels toward your body and dig insteps into opponent's inner thighs resist the hip extension and forward drive needed to generate rolling momentum. The hooks also allow you to feel when opponent loads their hips for the roll, providing tactile recognition cues. Without hip freedom, the opponent cannot create the forward rotation required, forcing them to address your hooks before attempting the escape.
-
-**Q4**: Why is driving your hips forward more effective than pulling your opponent backward when defending this escape?
-**A**: Pulling backward uses arm strength against the opponent's entire body momentum and core power, which is a losing leverage exchange. Driving your hips forward uses your body weight and leg drive to eliminate the space needed for rotation while keeping you connected to their back. Forward hip pressure also makes it natural to follow their movement if they do initiate, maintaining back control through the transition rather than getting separated.
-
-**Q5**: Your opponent completes a partial roll but hasn't established guard yet - what is your immediate recovery sequence?
-**A**: Immediately drive forward to re-establish chest-to-back contact before they can turn to face you. Re-insert hooks if they were cleared during the roll, starting with the hook on the side they rolled toward. Tighten your harness grip and pull them back into full back control position. If they are already partially turned, transition to a gift wrap or crucifix to capitalize on their exposed arm rather than fighting to return to standard back control.
-
-
-
-</section>
 
 
 </main>

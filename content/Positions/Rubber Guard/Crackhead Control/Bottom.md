@@ -26,14 +26,14 @@ description: "Master the bottom perspective of 10th Planet's Crackhead Control -
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata",
-      "text": "From this position, attempt Omoplata. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Omoplata from Crackhead Control",
+      "text": "From this position, attempt Omoplata from Crackhead Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Triangle Choke from Crackhead Control",
+      "text": "From this position, attempt Triangle Choke from Crackhead Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master the bottom perspective of 10th Planet's Crackhead Control -
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Baratoplata",
-      "text": "From this position, attempt Baratoplata. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Baratoplata from Crackhead Control",
+      "text": "From this position, attempt Baratoplata from Crackhead Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crackhead Control (Bottom)?</p>
+
 - Bottom player's right arm (assuming right-sided Crackhead) must maintain deep overhook past opponent's left shoulder blade, with elbow pointing toward ceiling and hand gripping behind opponent's tricep or lat. The overhook depth is critical - insufficient depth allows arm extraction and position collapse. The grip should feel like the arm is "hooked" around the opponent's arm rather than simply controlling it.
 - Bottom player's right leg must be positioned across opponent's upper back or neck, with the shin applying downward pressure to break posture forward. The leg placement creates a lever system where any attempt by the opponent to posture up increases pressure on their trapped arm. The knee should be actively pulling toward the chest to maintain tension.
 - Bottom player's left leg maintains active hip connection through hook, butterfly hook, or posting on opponent's hip to prevent back exposure completion. This leg serves as the primary safety mechanism - if it loses connection, the opponent can begin passing to back control. The left leg must remain dynamic and ready to adjust based on opponent movement patterns.
@@ -175,6 +177,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Crackhead Control (Bottom)?</p>
 
 - Established rubber guard control with leg across opponent's back and broken posture
 - Deep overhook secured past opponent's shoulder blade with hand gripping behind shoulder
@@ -188,6 +192,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control?</p>
 
 - Overhook depth determines position sustainability - shallow overhooks collapse under pressure
 - Leg across back must maintain constant downward pressure to prevent opponent posturing
@@ -204,6 +210,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Crackhead Control (Bottom)?</p>
+
 **If opponent drives weight forward attempting to smash through position or establish double underhooks:**
 - Execute **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
 - Execute **[[Transitions/Gogoplata/Attacker|Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
@@ -211,14 +219,14 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 
 **If opponent attempts to extract trapped arm by pulling it back toward their body:**
-- Execute **[[Transitions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 60%)
+- Execute **[[Submissions/Omoplata/Attacker|Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 60%)
 - Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent postures up attempting to create distance and reduce submission threat:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
-- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 - Execute **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
 
 
@@ -235,6 +243,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control?</p>
 
 ### 1. Overhook too shallow - hand gripping at elbow rather than behind shoulder blade
 
@@ -274,6 +284,8 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Crackhead Control defense?</p>
+
 ### Overhook Depth Development Drill
 
 Partner establishes closed guard and breaks opponent's posture. Focus exclusively on achieving maximum overhook depth - hand behind shoulder blade, elbow pointing up. Opponent provides progressive resistance attempting arm extraction. Goal is maintaining depth for 30 seconds against increasing pressure.
@@ -306,38 +318,6 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the minimum overhook depth required for sustainable Crackhead Control?
-**A**: The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely.
-
-**Q2**: How do you maintain constant downward pressure with the leg across the opponent's back?
-**A**: Actively pull the knee toward your chest while keeping the shin pressed across the opponent's upper back or neck. The leg should feel like it's constantly dragging their posture down rather than passively resting on them. This creates a lever system where their posturing attempts actually increase pressure on the trapped arm.
-
-**Q3**: Your opponent starts circling toward your exposed back side - what immediate adjustment do you make?
-**A**: Immediately engage your free leg more actively - either by establishing a strong butterfly hook on their hip, posting on the mat, or hooking behind their leg to arrest the hip rotation. If they continue the movement, abandon the submission hunting and transition to closed guard or technical standup before the back exposure becomes critical.
-
-**Q4**: What are the grip priorities for maintaining Crackhead Control?
-**A**: The deep overhook is the primary anchor and must never be compromised. Hand placement behind the shoulder blade with elbow pointing up is critical. Secondary priority is the leg position across their back maintaining downward pressure. The free leg connection for hip control comes third but becomes first priority if back exposure danger emerges.
-
-**Q5**: How do you recognize when to transition from gogoplata attempt to omoplata?
-**A**: When the opponent defends the gogoplata by keeping their head posture strong and pulling back rather than driving forward, the omoplata becomes available. Their arm pulling back motion actually sets up the omoplata rotation. Recognize this through the direction of their weight shift - backward momentum favors omoplata, forward momentum favors gogoplata continuation.
-
-**Q6**: Your opponent achieves double underhooks while you're hunting a submission - what's your immediate response?
-**A**: Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks.
-
-**Q7**: How do you manage energy expenditure to make Crackhead Control sustainable?
-**A**: The deep overhook maintains control without constant grip fighting, so let it do the work rather than squeezing hard. Cycle through submission attempts smoothly rather than forcing individual techniques. Keep the leg across the back engaged but not cramping by pulling with hip flexors rather than just the leg muscles. The position should feel sustainable - if it requires maximum effort to maintain, the mechanics are wrong.
-
-**Q8**: What flexibility requirements must be developed to safely use Crackhead Control?
-**A**: Hip flexor and external rotation flexibility are essential for maintaining the leg across the opponent's back without excessive strain. If you experience cramping or discomfort in the hip area, your flexibility is insufficient and you should use Mission Control or New York instead while developing mobility. Forcing the position with inadequate flexibility leads to unsustainable positions and potential injury.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

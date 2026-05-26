@@ -154,6 +154,8 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame Escape from Shoulder of Justice?</p>
+
 - Bottom player positions their near forearm against your hip bone, indicating frame setup for hip escape
 - Bottom player's breathing becomes controlled and rhythmic through the nose, signaling preparation for systematic escape
 - Bottom player's far arm moves to create a secondary frame against your chest or shoulder area
@@ -166,6 +168,8 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame Escape from Shoulder of Justice?</p>
 
 - Maintain constant shoulder pressure at the optimal 45-degree angle toward the opponent's far shoulder to prevent jaw relief
 - Keep hips heavy and connected to the opponent's near hip line to prevent effective shrimping movements
@@ -180,6 +184,8 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame Escape from Shoulder of Justice?</p>
 
 ### 1. Collapse frames by driving body weight through shoulder and re-settling hips heavier onto opponent's hip line
 
@@ -217,6 +223,8 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame Escape from Shoulder of Justice?</p>
+
 ### → [[Positions/Shoulder of Justice]]
 
 Recognize frame attempts early and collapse them with increased body weight pressure before the opponent can establish structural alignment. Keep hips permanently connected to their hip line and control the near arm proactively to eliminate framing opportunities.
@@ -232,6 +240,8 @@ When the opponent commits to a hip escape and creates separation, immediately st
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame Escape from Shoulder of Justice?</p>
 
 ### 1. Allowing frames to establish without immediately countering with pressure adjustment or frame collapse
 
@@ -261,6 +271,8 @@ When the opponent commits to a hip escape and creates separation, immediately st
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame Escape from Shoulder of Justice?</p>
+
 **Phase 1: Pressure Maintenance** - Sustaining Shoulder of Justice control under escape attempts
 Partner attempts frame escapes at 50% effort while you focus exclusively on maintaining shoulder pressure and hip connection. No submissions or transitions, only pressure retention and frame collapse. Build the habit of immediate pressure response to frame attempts.
 
@@ -274,26 +286,6 @@ Full positional sparring from Shoulder of Justice. Chain together pressure maint
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a systematic frame escape rather than a panic reaction?
-**A**: Controlled nasal breathing is the earliest indicator. When the bottom player shifts from mouth breathing or erratic breathing to steady nasal breathing patterns, they have regained composure and are preparing a systematic escape sequence. This is the optimal time to preemptively increase pressure, control the near arm, or begin transitioning to prevent the structured escape attempt.
-
-**Q2**: Your opponent successfully establishes a forearm frame against your hip. What is the highest-priority counter?
-**A**: Immediately drive your body weight heavier through your shoulder and settle your hips lower onto their hip line to collapse the frame before it develops structural integrity. Do not reach for the arm or try to remove it with your hands, as this reduces your pressure. Use your entire body weight directed through the shoulder and hip connection to crush the frame flat against their body.
-
-**Q3**: The bottom player hip escapes and creates space. Should you re-settle to Shoulder of Justice or advance to mount?
-**A**: Advance to mount by stepping your near leg over their body. Once the bottom player has created significant space through a hip escape, attempting to re-settle Shoulder of Justice requires closing distance against established frames, which is energy-intensive and may fail. Advancing to mount capitalizes on the space they created. Only re-settle if they have already inserted a knee shield that blocks the step-over.
-
-**Q4**: How do you maintain shoulder pressure while preventing the opponent from timing your weight shifts for escape attempts?
-**A**: Minimize unnecessary adjustments that create weight shift timing windows. When adjustments are required, make them through small upper-body movements while keeping hips permanently connected to the opponent's hip line. Vary the timing and rhythm of your adjustments unpredictably rather than settling into patterns the opponent can read and exploit.
-
-
-
-</section>
 
 
 </main>

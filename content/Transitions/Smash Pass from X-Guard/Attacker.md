@@ -188,6 +188,8 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash Pass from X-Guard?</p>
+
 - Commit weight decisively through the hooks rather than attempting to step around them, using gravity and body mass as the primary passing tools
 - Establish crossface or head control before driving hips forward to prevent the bottom player from creating sweeping angles during the pass
 - Drop center of gravity below the bottom player's hook line to eliminate their ability to generate upward elevation for sweeps
@@ -202,6 +204,8 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash Pass from X-Guard?</p>
+
 - Secure at least one upper body control point such as crossface, collar grip, or underhook before committing to the pass
 - Ensure your base foot is firmly planted with weight distributed to resist lateral sweep attempts during the commitment phase
 - Identify the depth of the bottom player's inside hook to gauge whether direct pressure or preliminary hook weakening is needed
@@ -214,6 +218,8 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash Pass from X-Guard step by step?</p>
 
 1. **Establish upper body control**: Before committing any weight, establish crossface pressure or collar control with your lead hand. Drive your shoulder into the bottom player's jaw line, turning their head away from you. This prevents them from creating the angular momentum needed for sweeps and begins the process of flattening their defensive structure. Your other hand controls the bottom player's far hip or pants to prevent re-angling.
 2. **Lower center of gravity**: Begin dropping your hips toward the mat, lowering your center of gravity below the bottom player's hook line. Bend your trapped knee slightly to reduce the angle of the inside hook, making it less effective as an elevation tool. Your weight should shift from being primarily on your base foot to being distributed across your hips and the bottom player's body. This is the critical transition point where the guard's mechanical advantage begins to fail.
@@ -243,6 +249,8 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash Pass from X-Guard?</p>
+
 - **Bottom player elevates hips explosively during weight commitment to execute a sweep** (Effectiveness: High) - Your Response: Maintain wide base with your free foot and keep weight distributed across both legs during the initial commitment. If you feel the elevation, post your hand on the mat on the far side and drive your shoulder deeper into the crossface to kill the sweep angle. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to Single Leg X-Guard by retracting the far leg and converting to ankle control** (Effectiveness: Medium) - Your Response: Accelerate your forward pressure before the transition completes. The moment you feel the outside leg withdrawing, immediately drive your hips past the remaining hook and begin clearing the inside leg. The transition to Single Leg X requires momentary hook adjustment that creates a passing window. → Leads to [[Positions/X-Guard]]
 - **Bottom player frames with arms against your shoulders to prevent forward drive and create distance** (Effectiveness: Medium) - Your Response: Strip the frames by swimming your arms inside and re-establishing underhook or crossface control. Use your chest weight to compress through the frames rather than trying to pass around them. Arm frames against smash pressure are weaker than leg-based guard structure. → Leads to [[Positions/X-Guard]]
@@ -254,6 +262,8 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash Pass from X-Guard?</p>
 
 ### 1. Attempting the smash pass with an upright posture and high center of gravity
 
@@ -293,7 +303,9 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 ## Training Progressions
 
-**Phase 1: Weight Distribution Mechanics** - Understanding how to lower center of gravity and commit weight through X-Guard hooks
+<p class="section-subtitle">How do you train Smash Pass from X-Guard (Attacker)?</p>
+
+**Phase 1: Center of Gravity Mechanics** - Understanding how to lower center of gravity and commit weight through X-Guard hooks
 Partner holds X-Guard with minimal resistance. Practice dropping hips below the hook line and feeling the correct angle of forward pressure that collapses the guard structure. Focus on balance maintenance throughout weight commitment. No passing completion, just the weight drop and pressure application.
 
 **Phase 2: Hook Destruction Sequence** - Systematic flattening of inside hook followed by outside leg clearance
@@ -313,42 +325,12 @@ Begin in X-Guard top position with partner at full resistance. Apply smash pass 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the center of gravity drop below the bottom player's hook line before committing to the forward drive?
-**A**: The X-Guard's sweeping power comes from the bottom player's ability to elevate through their hooks. When the top player's center of gravity is above the hook line, the bottom player can use their legs as levers to lift and sweep. By dropping the center of gravity below this line, the hooks lose their mechanical advantage because they can no longer generate the upward force needed for elevation sweeps, converting the position from a dynamic guard exchange into a static pressure scenario favoring the top player.
-
-**Q2**: What is the most critical upper body control to establish before committing weight to the smash pass?
-**A**: The crossface is the most critical upper body control because it prevents the bottom player from turning their head and shoulders to create sweeping angles. Without crossface control, the bottom player can redirect the top player's committed weight into sweeps by re-angling their body. The crossface also creates psychological discomfort that forces the bottom player to address head control rather than focusing on maintaining their hooks, splitting their defensive attention.
-
-**Q3**: Your opponent attempts to elevate you for a sweep as you begin the smash pass. How do you respond?
-**A**: Immediately widen your base by posting your free foot further to the side and drive your shoulder deeper into the crossface to kill the sweeping angle. If the elevation is already generating momentum, post your far hand on the mat to prevent being rolled while maintaining hip pressure on the hooks. The key is to feel the elevation attempt early during your progressive pressure application and react by widening base rather than trying to resist the sweep with upper body strength alone.
-
-**Q4**: Why is progressive pressure application more effective than an explosive forward drive for the smash pass?
-**A**: Progressive pressure allows the top player to maintain balance and react to the bottom player's defensive adjustments throughout the pass. An explosive forward drive creates momentum that the bottom player can redirect into sweeps, similar to how a judoka uses an opponent's forward momentum for throws. Progressive pressure also prevents the top player from overcommitting past the point of balance recovery, maintaining the ability to abort and reset if the pass is well-defended.
-
-**Q5**: Which hook must be neutralized first during the smash pass, and why?
-**A**: The inside hook behind the knee must be neutralized first because it is the load-bearing structural element of X-Guard that creates the primary elevation and sweeping force. The outside leg serves primarily as a distance management frame, which becomes ineffective once the inside hook is flattened. Attacking the outside leg first leaves the more dangerous inside hook active, maintaining the bottom player's ability to execute high-amplitude sweeps during the passing attempt.
-
-**Q6**: The bottom player releases their hooks and attempts to recover butterfly guard during your smash pass. What should you do?
-**A**: Immediately accelerate your forward pressure through the gap created by the released hooks, driving directly to side control before any new guard structure can form. Released hooks represent the optimal passing window because the bottom player has voluntarily abandoned their primary control mechanism. Following their hip movement with continuous forward pressure prevents the space creation needed to establish butterfly hooks, and maintaining crossface throughout ensures they cannot re-angle for guard recovery.
-
-**Q7**: What grip or control should your free hand maintain during the smash pass execution?
-**A**: The free hand should control the bottom player's far hip or pants grip to prevent them from re-angling their body or inserting their knee for guard recovery. During the hook destruction phase, the free hand transitions to pushing the outside leg past your hip once the inside hook is flattened. The critical principle is that the free hand addresses whatever the bottom player's legs are doing while the crossface arm maintains upper body control, creating a coordinated two-point control system.
-
-**Q8**: How do you determine whether to attempt a smash pass versus a knee slice when on top of X-Guard?
-**A**: The smash pass is optimal when the bottom player has deep hooks and strong grips that would make lateral movement difficult, because downward pressure neutralizes hook depth advantage. The knee slice is better when hooks are shallow or partially compromised, allowing the top player to slice through with less resistance. If your initial knee slice attempt is stuffed by strong hooks, transitioning to the smash pass is a high-percentage chain because the bottom player has committed their defensive structure to lateral defense rather than downward pressure defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash Pass from X-Guard?</p>
 
 The Smash Pass from X-Guard involves significant forward weight commitment that can strain the bottom player's knee joints if excessive rotational force is applied while their legs are entangled. Apply pressure progressively rather than explosively to allow the bottom player time to release hooks safely. Be particularly careful when driving through the inside hook, as the bottom player's knee is vulnerable to lateral stress in this configuration. In training, communicate with your partner about pressure levels and immediately reduce force if they indicate any joint discomfort.
 

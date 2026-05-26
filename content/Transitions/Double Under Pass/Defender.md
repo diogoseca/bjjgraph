@@ -166,6 +166,8 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Under Pass?</p>
+
 - Passer drops their level and begins swimming one arm under your thigh, typically breaking your sleeve or collar grip simultaneously—this signals the initial underhook attempt
 - Passer's head drops below your shoulder line and drives toward one side of your body while their arms work beneath your legs—this indicates they are committing to the double under entry
 - You feel your hips being lifted or compressed as the passer clasps hands behind your lower back and begins dropping chest weight—this means both underhooks are established and immediate action is required
@@ -177,6 +179,8 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Under Pass?</p>
 
 - Prevent underhook establishment through early frames on the passer's biceps and shoulders before they can swim underneath
 - Maintain active hip movement at all times—never accept a flat, square position under double under pressure
@@ -192,6 +196,8 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Under Pass?</p>
 
 ### 1. Frame on biceps and push hips away to prevent underhook establishment
 
@@ -229,6 +235,8 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Under Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Create early frames on the passer's biceps and maintain feet on hips to prevent underhook entry. If underhooks are partially established, hip escape aggressively to one side while pushing their head to the opposite side, breaking their alignment and forcing them to release one or both underhooks to recover base. Re-establish grips on sleeves or collar and recover open guard structure with active legs.
@@ -244,6 +252,8 @@ As the passer attempts to swim their second underhook, immediately overhook one 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Under Pass?</p>
 
 ### 1. Staying flat on your back with square hips while the passer establishes control
 
@@ -278,6 +288,8 @@ As the passer attempts to swim their second underhook, immediately overhook one 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Under Pass?</p>
+
 **Phase 1: Recognition and Prevention (Week 1-2)** - Identifying double under entry attempts and preventing underhook establishment
 Partner attempts to establish double under position at 40% speed and intensity. Practice recognizing the cues—arm swimming, level change, head drop—and responding with bicep frames and feet-on-hips distance management. Focus on timing your defensive reaction to the earliest possible moment. Reset after each attempt rather than letting the partner fully establish position.
 
@@ -294,29 +306,6 @@ Positional sparring starting from open guard where partner actively pursues doub
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive window when facing the double under pass, and why does timing matter so critically?
-**A**: The most important defensive window is during the transition between the passer's first underhook and their consolidation of the second underhook with clasped hands. At this moment, they have committed their body forward but have not yet established the bilateral control that makes escape extremely difficult. Once both underhooks are deep with hands locked and chest pressure settled, defensive success rates drop dramatically because the passer has neutralized your hip movement and leg frames simultaneously.
-
-**Q2**: Your opponent has established both underhooks and is beginning to step laterally—what is your highest-percentage defensive response at this stage?
-**A**: Insert your near-side knee across their hip line as they step, hip escaping simultaneously to create the angle needed for the knee to penetrate. This recovers half guard or knee shield position, which creates a barrier they cannot simply walk through. The timing is critical—as they lift their hips slightly to take lateral steps, a small window opens where your knee can slide between your bodies. Combine this with pushing their head to the far side to weaken their pressure on your escaping hip.
-
-**Q3**: Why is pushing the passer's head to the side more effective than pushing it away or down when defending double under pressure?
-**A**: Pushing the head laterally breaks the passer's alignment and weight distribution asymmetry, making it impossible for them to apply even chest pressure across your torso. When their head is displaced to one side, their weight shifts to that side, creating space on the opposite side where you can hip escape and insert defensive barriers. Pushing down or away does not break their alignment and they can power through it because their chest pressure drives along the same vector as your push.
-
-**Q4**: What framing configuration gives you the best defensive structure against double under pressure without exposing your arms to submissions?
-**A**: Position your forearms across the passer's biceps with elbows tight to your ribs, creating a structural frame that uses your skeletal alignment rather than muscular effort. Your hands should grip their gi at the biceps or control their wrists. This bent-arm configuration is collapse-resistant because the force transfers through your bones to the mat rather than requiring you to push against their body weight. Extended arms expose you to americana and kimura attacks, while this compact frame protects your joints while still creating space.
-
-**Q5**: How do you decide between attempting to lock closed guard versus hip escaping to half guard when the passer is establishing double under control?
-**A**: The deciding factor is the depth of their underhooks and whether their hands are clasped. If you can still wrap your legs high on their back with ankles crossing before they lock their grip, closing guard is the better option because it completely neutralizes the pass and returns you to an offensive position. If their underhooks are already deep with hands clasped, attempting closed guard will result in a loose, ineffective guard they can stack through. In that case, hip escape to half guard is higher percentage because it requires less space and works even against deep underhook control.
-
-
-
-</section>
 
 
 </main>

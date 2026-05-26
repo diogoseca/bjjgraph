@@ -32,7 +32,7 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
     },
     {
       "@type": "HowToStep",
-      "name": "Sweep Mechanics",
+      "name": "Kuzushi",
       "text": "Develop technical proficiency in primary sweeping sequences including standard X-Guard sweep, technical stand variations, and elevation sweeps. Practice against progressive resistance to understand leverage points and timing.",
       "position": 3
     },
@@ -216,7 +216,7 @@ Key points:
 
 
 
-3. **Sweep Mechanics**: Develop technical proficiency in primary sweeping sequences including standard X-Guard sweep, technical stand variations, and elevation sweeps. Practice against progressive resistance to understand leverage points and timing.
+3. **Kuzushi**: Develop technical proficiency in primary sweeping sequences including standard X-Guard sweep, technical stand variations, and elevation sweeps. Practice against progressive resistance to understand leverage points and timing.
 Key points:
 - Master fundamental X-Guard sweep mechanics and angles
 - Develop technical stand-up variations for different defensive postures
@@ -363,11 +363,11 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 - [[Back Take]] (Transition) - Standard back take sequence when sweeps are defended
 - [[Arm Drag to Back]] (Transition) - Upper body connection to back takes from X-Guard
 - [[Guillotine Setup]] (Transition) - Submission entry when opponent defends by lowering posture
-- [[Sweep Mechanics]] (Principle) - Core principle governing all X-Guard sweeping techniques
-- [[Off-Balancing]] (Principle) - Fundamental concept behind X-Guard's elevation and disruption
-- [[Guard Retention]] (Principle) - Essential for maintaining X-Guard against passing attempts
-- [[Butterfly Hook Retention]] (Principle) - Hook management principles that apply to X-Guard control
-- [[Timing Sweeps]] (Principle) - Critical timing concepts for successful sweep execution
+- [[Kuzushi]] (Principle) - Core principle governing all X-Guard sweeping techniques
+- [[Center of Gravity]] (Principle) - Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard
+- [[Frames]] (Principle) - Essential framing principles for maintaining X-Guard against passing attempts
+- [[Control Maintenance]] (Principle) - Hook management and control retention principles applied to X-Guard positioning
+- [[Timing and Rhythm]] (Principle) - Critical timing concepts for successful sweep and transition execution
 - [[Connection Principles]] (Principle) - Governs smooth flow between X-Guard and other positions
 - [[Submission Chains]] (Principle) - Framework for connecting sweeps to submission opportunities
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system that shares entry mechanics and philosophy

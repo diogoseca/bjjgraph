@@ -194,6 +194,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Feet on Hips to De La Riva?</p>
+
 - Remove one foot from the hip only after identifying the target leg and having a clear plan for immediate hook placement to minimize the vulnerable transition window
 - Thread the hooking leg outside-to-inside behind the opponent's lead knee using a circular motion rather than a direct linear stab that is easily read and defended
 - Maintain the remaining foot on the opponent's far hip throughout the transition to preserve distance control and prevent forward pressure collapse
@@ -208,6 +210,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Feet on Hips to De La Riva?</p>
+
 - Both feet established on opponent's hip bones with active pushing frames creating controllable distance
 - At least one upper body grip secured (cross sleeve, collar, or wrist control) to prevent opponent from rushing forward during the transition
 - Opponent presenting a clear lead leg by stepping one foot forward or shifting weight asymmetrically to one side
@@ -220,6 +224,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Feet on Hips to De La Riva step by step?</p>
 
 1. **Identify the lead leg**: Observe which leg the opponent has advanced forward or carries more weight on. If their stance is squared, use asymmetric foot pressure to provoke a lead leg by pushing harder with one foot, forcing the opponent to step one foot forward to maintain balance and creating the target for your DLR hook.
 2. **Secure controlling grip**: Confirm your upper body grip is solid before initiating the transition. Ideally grip the cross sleeve on the opposite side from the leg you will hook, or establish a collar grip to control their posture and prevent them from diving forward when you remove one foot from their hip during the vulnerable transition phase.
@@ -250,6 +256,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Feet on Hips to De La Riva?</p>
+
 - **Opponent strips ankle grip and circles lead leg away from hook attempt** (Effectiveness: High) - Your Response: Immediately retract the hooking leg and replace your foot on their hip to restore the feet-on-hips structure. If they advance during the grip break, transition to butterfly guard or closed guard rather than re-attempting DLR against a prepared opponent. → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent drives forward with heavy pressure to flatten guard before hook threads** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by pulling with your remaining foot on their hip and your collar or sleeve grip. Convert the failed DLR attempt into a scissor sweep or pendulum sweep opportunity, exploiting the committed weight distribution they created by driving forward. → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent backsteps over the hooking leg and initiates a pass** (Effectiveness: High) - Your Response: Follow their backstep with your hips, converting the DLR hook attempt into a reverse De La Riva position or recovering to shin-on-shin guard. Keep your grips active to prevent them from achieving a dominant passing position and immediately re-engage with an alternative guard system. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Feet on Hips to De La Riva?</p>
 
 ### 1. Removing both feet from the opponent's hips simultaneously to thread the DLR hook
 
@@ -300,6 +310,8 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Feet on Hips to De La Riva (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hook threading motion and hip coordination
 Practice the leg threading motion solo, lying on your back and simulating the circular foot movement from hip to hook position. Focus on the hip rotation that accompanies the hook and developing smooth, coordinated movement between your leg and same-side arm reaching for the imaginary ankle grip.
 
@@ -320,39 +332,12 @@ Integrate the feet-on-hips-to-DLR transition into your full guard game during fr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the De La Riva hook from feet on hips guard?
-**A**: The ideal entry window opens when the opponent advances one leg forward, creating a clear lead-trail leg distinction. This typically occurs when they attempt to control your ankle, initiate a pass, or shift their weight to establish a passing grip. The moment one hip is advanced beyond the other, the lead leg becomes vulnerable to the DLR hook because the opponent cannot easily retract it without compromising their balance and base.
-
-**Q2**: Why must you maintain one foot on the opponent's far hip during the transition?
-**A**: The remaining foot on the far hip serves as your primary distance control mechanism during the most vulnerable phase of the transition. When you remove the hooking-side foot, you temporarily lose half of your pushing frame. Without the remaining foot anchoring the opponent at distance, they can drive forward into your guard and achieve chest-to-chest pressure before you establish the DLR hook, effectively passing your guard during the transition attempt.
-
-**Q3**: What grip should you prioritize securing before removing your foot to thread the DLR hook?
-**A**: The cross sleeve grip on the opposite side from the leg you intend to hook is the highest-priority grip because it creates a diagonal control line that prevents the opponent from circling away and provides the foundation for the DLR offensive structure. A collar grip is an acceptable alternative offering posture control. The critical point is having an upper body connection that anchors the opponent in place during the transition.
-
-**Q4**: Your opponent has a squared stance with no clear lead leg - how do you create the conditions for the DLR entry?
-**A**: Use asymmetric foot pressure to provoke a lead-leg presentation. Push harder with one foot on their hip while reducing pressure with the other, creating a rotational force that encourages them to step one foot forward to maintain balance. Alternatively, pull their sleeve or collar to one side while pushing the opposite hip, creating the angular displacement that forces one leg ahead of the other. Never attempt the DLR entry against a perfectly squared stance.
-
-**Q5**: The opponent grabs your hooking ankle mid-transition and prevents the hook from fully threading - what is your immediate response?
-**A**: Circle your foot sharply outward to strip their ankle grip using the rotational leverage of your hip movement. If the grip holds, abandon the DLR attempt and immediately replace your foot on their hip to restore the feet-on-hips structure. From there, either re-attempt after establishing a stronger upper body grip that limits their hand availability, or transition to spider guard or lasso guard where your already-engaged upper body grips can support an alternative guard system.
-
-**Q6**: What is the most critical mechanical detail that distinguishes a successful DLR hook from one that is easily cleared?
-**A**: The depth and angle of the hook determine its retention power. A properly set DLR hook has the instep or shin pressed firmly against the back of the opponent's knee, with your own knee pointing outward and your hips angled away from the hooked leg. Combined with the ankle grip, this creates a two-point control system with strong structural integrity. A shallow hook where only the foot curls behind the calf lacks the mechanical advantage to resist extraction and provides minimal off-balancing leverage.
-
-**Q7**: After establishing DLR from feet on hips, what should be your immediate chain attack if the opponent begins to strip your ankle grip?
-**A**: When the opponent commits a hand to stripping your ankle grip, they temporarily reduce their posting ability and upper body defense. Use this moment to either enter a sweep such as the waiter sweep or basic DLR sweep while they are grip fighting, transition to X-Guard by threading your bottom leg between theirs while they focus on your hook, or establish a lasso or spider guard variation on the arm they are using to strip your grip, converting their defensive action into your offensive setup.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Feet on Hips to De La Riva?</p>
 
 The primary injury risk during this transition involves the hooking knee, which can experience valgus stress if the opponent drives forward aggressively while the hook is partially threaded. Practitioners should ensure the hooking leg maintains a slight bend and never locks out straight against resistance. If the opponent applies sudden lateral pressure to the hooked knee, release the hook immediately rather than fighting to maintain it. During training, communicate with partners about knee sensitivity and avoid explosive passing movements during cooperative drilling phases. The ankle of the hooking foot can also be vulnerable to being trapped or twisted during failed entries, so maintain awareness of foot position throughout.
 

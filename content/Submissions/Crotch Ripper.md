@@ -3,24 +3,30 @@
 
 
 ---
-title: "Crotch Ripper | BJJ Submission | BJJ Graph"
+title: "Crotch Ripper | BJJ Submission Family | BJJ Graph"
 description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submission from lockdown with safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Crotch Ripper targets the Hip flexors, groin muscles, and inner thigh adductors. Risk: Groin strain or muscle tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Crotch Ripper/Attacker|Play as Attacker]]
-[[Crotch Ripper/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Crotch Ripper/from Lockdown|Lockdown]] | 42% | Groin strain or muscle tear |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +37,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 **Category**: Compression
 **Type**: Groin Compression
 **Target Area**: Hip flexors, groin muscles, and inner thigh adductors
-**Starting Position**: [[Positions/Half Guard/Lockdown]]
-**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
-**Success Rate**: 42%
+**Success Rate**: 42% (average across variants)
 
 </section>
 
@@ -79,137 +83,10 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Lockdown security must be established before attempting subm... | Drive weight forward through crossface and shoulder pressure... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Crotch Ripper/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Lockdown security must be established before attempting submission pressure
-
-- Hip angle and underhook control determine submission effectiveness
-
-- Knee positioning on the groin creates the compression point
-
-- Progressive pressure application allows partner time to tap safely
-
-- Opponent's weight distribution affects submission angle and power
-
-- Flexibility in your own hips enhances control and finishing ability
-
-- Combination with Electric Chair sweep creates powerful dilemma
-
-
-### Execution Steps
-
-
-- **Secure the lockdown position**: From half guard bottom, thread your inside leg underneath opponent's trapped leg and establish the l...
-
-- **Establish underhook control**: Secure a deep underhook on the same side as your lockdown, driving your shoulder into opponent's arm...
-
-- **Create the angle and turn to your side**: Use your underhook to turn your body toward the underhook side, rotating onto your side rather than ...
-
-- **Position attacking knee on groin**: Your free leg (top leg, not the one in lockdown) now becomes the attacking tool. Bring your knee acr...
-
-- **Extend hips and apply compression**: While maintaining lockdown control and underhook, extend your hips forward and slightly upward. This...
-
-- **Adjust and finish with controlled pressure**: Make micro-adjustments to your knee position to find the most sensitive area of opponent's groin and...
-
-
-### Common Mistakes
-
-
-- **Attempting submission without proper lockdown security first**
-  - Consequence: Opponent easily escapes their leg and passes your guard, losing position control
-  - Correction: Always establish tight lockdown with figure-four secured before attempting any compression. Test lockdown by trying to extend opponent's leg - if it moves easily, lockdown is not secure enough.
-
-- **Staying flat on your back instead of creating angle with underhook**
-  - Consequence: No compression is generated because angle is wrong, and opponent easily flattens you to pass
-  - Correction: Turn onto your side toward underhook, creating 45-90 degrees of rotation. Your shoulder should be off the mat, and you should be looking at opponent's far hip, not straight up at ceiling.
-
-- **Placing knee on opponent's thigh or hip bone instead of groin muscle**
-  - Consequence: No pain compliance achieved, wasted energy, opponent is not threatened by submission
-  - Correction: Position knee specifically on the soft tissue of groin where inner thigh meets hip. You should feel muscular tissue, not bone. Adjust position based on opponent's reaction - sensitive area will cause immediate discomfort.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Crotch Ripper/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Drive weight forward through crossface and shoulder pressure to prevent attacker from rotating onto their side - the flat angle kills the compression mechanics
-
-- Address the underhook first before worrying about the knee - without the underhook the attacker cannot create the body angle needed for the submission
-
-- Never pull your trapped leg straight backward against the lockdown as this actually increases groin exposure and opens Electric Chair entries
-
-- Recognize the submission attempt early through tactile cues and shut it down before all three control elements are established simultaneously
-
-- Tap early rather than late when caught - compression submissions have no mechanical warning before tissue damage, so ego tapping risks weeks of recovery
-
-
-### Recognition Cues
-
-
-- Attacker begins rotating onto their side toward their underhook while maintaining lockdown - this angle change is the clearest early warning of Crotch Ripper setup
-
-- Attacker's free leg (top leg) begins moving across your body toward your groin area, with their knee tracking toward the crease between your inner thigh and hip
-
-- Attacker deepens their underhook grip and pulls you closer while simultaneously extending the lockdown to stretch your trapped leg, creating the dual-control structure needed for the finish
-
-- You feel increasing pressure on the soft tissue of your inner thigh and groin as the attacker's knee makes contact and their hips begin extending forward
-
-
-### Escape Paths
-
-
-- Strip the underhook and drive forward with crossface to flatten attacker, then work systematic lockdown extraction using circular knee motion combined with hip pressure to free trapped leg
-
-- Push attacking knee away while simultaneously sprawling hips back to create distance from the compression point, then transition to lockdown top defense and methodical leg extraction
-
-- If attacker commits deeply to the side angle, use their commitment against them by stepping over with your free leg to begin a backstep pass, though this requires releasing lockdown pressure simultaneously
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Crotch Ripper to Electric Chair combination**: Set up Crotch Ripper compression, and when opponent defends by grabbing your attacking leg or sprawling hips back, immediately transition to Electric Chair sweep by loading their weight onto your hip and rolling them over. This creates a powerful submission/sweep dilemma. (When to use: When opponent is defensive and attempts to prevent knee pressure by controlling your attacking leg)
@@ -242,16 +119,16 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## Related Submissions
 
-- [[Submissions/Electric Chair Submission]]
-- [[Submissions/Banana Split]]
-- [[Submissions/Boston Crab]]
-- [[Submissions/Twister]]
-- [[Transitions/Toe Hold]]
-- [[Transitions/Kneebar]]
-- [[Transitions/Kimura]]
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/Straight Ankle Lock]]
-- [[Transitions/Calf Slicer]]
+- [[Positions/Half Guard/Electric Chair]] - Primary combination - defending Crotch Ripper opens Electric Chair sweep/submission
+- [[Submissions/Banana Split]] - Related groin and hip flexibility submission from similar leg entanglement positions
+- [[Submissions/Boston Crab]] - Related compression submission targeting lower back and hips from top control
+- [[Submissions/Twister]] - 10th Planet system submission accessible from shared lockdown and truck entries
+- [[Submissions/Toe Hold]] - Complementary leg lock from similar leg entanglement configurations
+- [[Transitions/Kneebar]] - Alternative leg lock option when Crotch Ripper angle is unavailable
+- [[Submissions/Kimura]] - Upper body submission threat from lockdown when leg attacks are defended
+- [[Transitions/Guillotine Choke]] - Alternative submission when opponent postures up to escape compression
+- [[Submissions/Straight Ankle Lock]] - Basic leg lock from related guard positions sharing leg control principles
+- [[Submissions/Calf Slicer]] - Related compression submission targeting calf muscle from leg entanglement
 
 
 </section>

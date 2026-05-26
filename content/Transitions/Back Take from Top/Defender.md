@@ -160,6 +160,8 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Top?</p>
+
 - Attacker's chest pressure follows your rotation instead of maintaining the original guillotine angle, indicating they are pursuing the back rather than the choke
 - Guillotine grip pressure decreases or shifts as attacker begins releasing the choke to transition hands toward seat belt configuration across your chest
 - You feel the attacker's legs moving from sprawl base to a position alongside your hips, attempting to thread hooks inside your thighs as you turn
@@ -171,6 +173,8 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Top?</p>
 
 - Control the speed and depth of your turning escape to avoid giving the attacker momentum to follow into back control
 - Block seat belt establishment immediately by keeping elbows tight to your body and framing against the attacker's arms during the grip transition
@@ -185,6 +189,8 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Top?</p>
 
 ### 1. Complete the turn explosively and re-face opponent before hooks are inserted, using frames on their biceps and hips to create distance and recover to guard or combat base
 
@@ -215,6 +221,8 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Top?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Exploit the grip transition window by turning fully through before seat belt is secured, using frames on attacker's arms and hips to create enough distance to re-face them and recover guard or stand to combat base
@@ -230,6 +238,8 @@ When full escape is not possible, achieve a tight defensive turtle by collapsing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Top?</p>
 
 ### 1. Turning too fast and explosively without controlling the rotation speed
 
@@ -259,6 +269,8 @@ When full escape is not possible, achieve a tight defensive turtle by collapsing
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Top?</p>
+
 **Week 1-2** - Recognition and framing
 Partner initiates back take from Hindulotine at slow speed. Practice recognizing the grip transition from guillotine to seat belt and immediately establishing frames with elbows tight. Focus on feeling when the choke releases and shifting defensive priority to back prevention. No live resistance.
 
@@ -275,29 +287,6 @@ Full resistance positional sparring starting from Hindulotine. Partner works com
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical window of vulnerability during the attacker's transition that you should exploit?
-**A**: The critical window occurs when the attacker releases their guillotine grip to transition to seat belt control. During this brief moment, neither the choke nor the positional control is fully established, creating your best opportunity to frame, create distance, and either complete your turn to face the opponent or establish a tight defensive turtle.
-
-**Q2**: Your opponent follows your turn with chest pressure and begins threading their arm over your shoulder - what is your immediate response?
-**A**: Immediately clamp your elbow tight to your ribs on the side where they are threading their arm, creating a physical barrier to seat belt establishment. Simultaneously drop your hips low to the mat and bring your knees together to deny hook entry. Use your opposite hand to grip fight their reaching arm, preventing them from locking their hands together across your chest.
-
-**Q3**: Why is controlling the speed of your turning escape critical to preventing the back take?
-**A**: Explosive turning generates rotational momentum that the attacker uses to follow you into back control. The faster you turn, the more energy you provide for them to ride your rotation and establish position behind you. A controlled, measured turn with constant framing denies the attacker this free momentum and forces them to generate their own energy to pursue the back take.
-
-**Q4**: You feel the bottom hook being inserted as you turn - what adjustment prevents the second hook?
-**A**: Immediately turn toward the hook side rather than away from it, which pins the inserted hook against the mat and prevents it from controlling your hip. Simultaneously bring your top knee over to trap their hooking leg between your thighs. This one-hook position is far more escapable than two hooks. From here, work to strip the single hook while preventing the second through active hip movement and leg positioning.
-
-**Q5**: What body position should you achieve if you cannot complete the full turn to face your opponent?
-**A**: Achieve a compact defensive turtle with elbows pinched tight to the inside of your knees, chin tucked to chest, back rounded, and hips low to the mat. This structure denies seat belt access because your elbows block arm threading, denies hooks because your hips are too low for leg entry, and protects your neck through the tucked chin and rounded spine. From this turtle, immediately begin working dynamic escapes.
-
-
-
-</section>
 
 
 </main>

@@ -22,7 +22,9 @@ import path from "path"
 import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide } from "d3-force"
 
 // === Build-time graph data injection ===
-// Eliminates all runtime fetches of the 3.5MB graph.json
+// Per-page slices are inlined here (page-graph-data, roll positions, content
+// stats). Large blobs (questionBank, graphAdjacency, contentIndex, graph.json)
+// go through static emitters and are fetched lazily at runtime.
 
 // Cached content stats (computed once at build time by counting .json files)
 let _contentStatsJson: string | null = null
@@ -79,12 +81,23 @@ let _allSimpleSlugs: Set<string> | null = null
 // Adjacency index for fast BFS: slug → set of connected slugs
 let _adjacency: Map<string, Set<string>> | null = null
 
+// Title lookup: slug → display title (computed once)
+let _titleIndex: Map<string, string> | null = null
+// Tags lookup: slug → tags array (computed once)
+let _tagsIndex: Map<string, string[]> | null = null
+
 function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
   if (_allSimpleSlugs !== null) return
 
   _allSimpleSlugs = new Set<string>()
+  _titleIndex = new Map()
+  _tagsIndex = new Map()
   for (const f of allFiles) {
-    _allSimpleSlugs.add(simplifySlug((f.slug ?? "") as FullSlug))
+    const slug = simplifySlug((f.slug ?? "") as FullSlug)
+    _allSimpleSlugs.add(slug)
+    const title = (f.frontmatter?.title as string) ?? slug.split("/").pop() ?? slug
+    _titleIndex.set(slug, title.split(" | ")[0])
+    _tagsIndex.set(slug, (f.frontmatter?.tags as string[]) ?? [])
   }
 
   _adjacency = new Map()
@@ -105,7 +118,12 @@ function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
 // Hub slug helper (mirrors client-side getHubSlug — only bottom/top)
 function getHubSlug(nodeId: string): string {
   const lower = nodeId.toLowerCase()
-  if (lower.endsWith("/bottom") || lower.endsWith("/top")) {
+  if (
+    lower.endsWith("/bottom") ||
+    lower.endsWith("/top") ||
+    lower.endsWith("/attacker") ||
+    lower.endsWith("/defender")
+  ) {
     return nodeId.split("/").slice(0, -1).join("/")
   }
   return nodeId
@@ -156,7 +174,9 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
       if (
         lower.startsWith(prefix) &&
         !lower.endsWith("/bottom") &&
-        !lower.endsWith("/top")
+        !lower.endsWith("/top") &&
+        !lower.endsWith("/attacker") &&
+        !lower.endsWith("/defender")
       ) {
         neighbourhood.add(nodeSlug)
       }
@@ -166,19 +186,29 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     const wl: (string | "__SENTINEL")[] = [simpleSlug, "__SENTINEL"]
     let depth = 1
 
-    // For position hubs, also seed with role pages
+    // For hub pages, also seed BFS with their role pages to aggregate links
     const isPositionHub =
       slugLower.startsWith("positions/") &&
       !slugLower.endsWith("/bottom") &&
       !slugLower.endsWith("/top")
+    const isTransitionOrSubmissionHub =
+      (slugLower.startsWith("transitions/") || slugLower.startsWith("submissions/")) &&
+      !slugLower.endsWith("/attacker") &&
+      !slugLower.endsWith("/defender")
 
+    const roleSuffixes: string[] = []
     if (isPositionHub) {
-      const bottomToFind = slugLower + "/bottom"
-      const topToFind = slugLower + "/top"
+      roleSuffixes.push("/bottom", "/top")
+    } else if (isTransitionOrSubmissionHub) {
+      roleSuffixes.push("/attacker", "/defender")
+    }
+
+    if (roleSuffixes.length > 0) {
       const rolePagesToAdd: string[] = []
+      const roleSlugsToFind = roleSuffixes.map((s) => slugLower + s)
       for (const nodeSlug of allSlugs) {
         const lower = nodeSlug.toLowerCase()
-        if (lower === bottomToFind || lower === topToFind) {
+        if (roleSlugsToFind.includes(lower)) {
           rolePagesToAdd.push(nodeSlug)
         }
       }
@@ -206,11 +236,16 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
     }
   }
 
-  // Filter out Bottom/Top role pages from final nodes (mirrors client-side)
+  // Filter out role pages from final nodes (mirrors client-side)
   const nodeIds: string[] = []
   for (const url of neighbourhood) {
     const lower = url.toLowerCase()
-    if (!lower.endsWith("/bottom") && !lower.endsWith("/top")) {
+    if (
+      !lower.endsWith("/bottom") &&
+      !lower.endsWith("/top") &&
+      !lower.endsWith("/attacker") &&
+      !lower.endsWith("/defender")
+    ) {
       nodeIds.push(url)
     }
   }
@@ -267,20 +302,26 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
       id: n.id,
       x: Math.round((n.x ?? 0) * 10) / 10,
       y: Math.round((n.y ?? 0) * 10) / 10,
+      t: _titleIndex!.get(n.id) || n.id.split("/").pop() || n.id,
+      tags: _tagsIndex!.get(n.id) || [],
     })),
+    links: graphLinks,
   })
 
   _pageGraphPositionsCache[simpleSlug] = result
   return result
 }
 
+// Note: Global graph layout (background graph node positions) is now computed by
+// scripts/regenerate_graph_layout.py via node2vec + UMAP. The output file at
+// source/quartz/static/globalGraphLayout.json is copied through the build to
+// public/static/ and fetched at runtime by backgroundGraph.inline.ts.
+
 // Cached graph.json data and lookup index (read once at build time)
 let _graphJson: any = null
+type GraphSection = "positions" | "transitions" | "submissions" | "principles" | "systems"
 // Maps lowercase slug (without section prefix) → { section, key }
-let _slugIndex: Record<
-  string,
-  { section: "positions" | "transitions" | "submissions"; key: string }
-> = {}
+let _slugIndex: Record<string, { section: GraphSection; key: string }> = {}
 
 function loadGraphData(): any {
   if (_graphJson !== null) return _graphJson
@@ -318,80 +359,163 @@ function loadGraphData(): any {
     }
   }
 
+  if (_graphJson.principles) {
+    for (const key of Object.keys(_graphJson.principles)) {
+      _slugIndex[key] = { section: "principles", key }
+    }
+  }
+
+  if (_graphJson.systems) {
+    for (const key of Object.keys(_graphJson.systems)) {
+      _slugIndex[key] = { section: "systems", key }
+    }
+  }
+
   return _graphJson
 }
+
+type RoleFilter = "attacker" | "defender" | "top" | "bottom" | null
 
 function getPageGraphData(slug: FullSlug): string | null {
   const graph = loadGraphData()
   if (!graph || Object.keys(graph).length === 0) return null
 
   // Strip section prefix and lowercase to match index
-  // e.g. "Positions/Mount/Top" → "mount/top"
-  // e.g. "Transitions/Hip-Bump-Sweep" → "hip-bump-sweep"
+  // e.g. "Positions/Mount/Top"          → "mount/top"
+  // e.g. "Transitions/Hip-Bump-Sweep"   → "hip-bump-sweep"
+  // e.g. "Submissions/Americana/from-Mount" → "americana/from-mount" → normalized to "americana-from-mount"
+  // e.g. "Principles/Base"              → "base"
   const slugLower = slug.toLowerCase()
+  const SECTIONS: Array<{ prefix: string; section: GraphSection }> = [
+    { prefix: "positions/", section: "positions" },
+    { prefix: "transitions/", section: "transitions" },
+    { prefix: "submissions/", section: "submissions" },
+    { prefix: "principles/", section: "principles" },
+    { prefix: "systems/", section: "systems" },
+  ]
+
   let lookupKey: string | null = null
+  let urlSection: GraphSection | null = null
+  for (const s of SECTIONS) {
+    if (slugLower.startsWith(s.prefix)) {
+      lookupKey = slugLower.slice(s.prefix.length)
+      urlSection = s.section
+      break
+    }
+  }
+  if (!lookupKey || !urlSection) return null
 
-  if (slugLower.startsWith("positions/")) {
-    lookupKey = slugLower.slice("positions/".length)
-  } else if (slugLower.startsWith("transitions/")) {
-    lookupKey = slugLower.slice("transitions/".length)
-  } else if (slugLower.startsWith("submissions/")) {
-    lookupKey = slugLower.slice("submissions/".length)
+  // Detect role suffix and strip to find parent entry.
+  // Positions: /top, /bottom
+  // Transitions & Submissions: /attacker, /defender
+  let role: RoleFilter = null
+  if (urlSection === "positions") {
+    if (lookupKey.endsWith("/top")) {
+      // Keep slash — position role entries are keyed "mount/top"
+      role = "top"
+    } else if (lookupKey.endsWith("/bottom")) {
+      role = "bottom"
+    }
+  } else if (urlSection === "transitions" || urlSection === "submissions") {
+    if (lookupKey.endsWith("/attacker")) {
+      role = "attacker"
+      lookupKey = lookupKey.slice(0, -"/attacker".length)
+    } else if (lookupKey.endsWith("/defender")) {
+      role = "defender"
+      lookupKey = lookupKey.slice(0, -"/defender".length)
+    }
   }
 
-  if (!lookupKey) return null
-
-  // Detect attacker/defender role suffix and strip to find parent entry
-  let role: "attacker" | "defender" | null = null
-  if (lookupKey.endsWith("/attacker")) {
-    role = "attacker"
-    lookupKey = lookupKey.slice(0, -"/attacker".length)
-  } else if (lookupKey.endsWith("/defender")) {
-    role = "defender"
-    lookupKey = lookupKey.slice(0, -"/defender".length)
+  // Submission variant URL normalization: "americana/from-mount" → "americana-from-mount"
+  // (family hub keys like "americana" are unchanged)
+  if (urlSection === "submissions" && lookupKey.includes("/")) {
+    const hyphenated = lookupKey.replace(/\//g, "-")
+    if (graph.submissions?.[hyphenated]) {
+      lookupKey = hyphenated
+    }
   }
 
-  const entry = _slugIndex[lookupKey]
+  // Prefer the section matching the URL prefix (avoids slug collisions
+  // where e.g. both transitions["americana"] and submissions["americana"] exist)
+  let entry = _slugIndex[lookupKey]
+  if (entry && entry.section !== urlSection && graph[urlSection]?.[lookupKey]) {
+    entry = { section: urlSection, key: lookupKey }
+  }
+  // Fall back to direct lookup in the URL-matching section (handles position
+  // hub entries like "mount" that the index may not cover).
+  if (!entry && graph[urlSection]?.[lookupKey]) {
+    entry = { section: urlSection, key: lookupKey }
+  }
   if (!entry) return null
 
   const data = graph[entry.section]?.[entry.key]
   if (!data) return null
+
+  const toUrlPath = (p: string) => p.replace(/\s+/g, "-")
 
   // Return only the fields each page type needs
   if (entry.section === "positions") {
     return JSON.stringify({
       type: "position",
       name: data.name,
+      role: data.role || null,
       transitions: data.transitions,
       defenses: data.defenses,
-      knowledgeAssessment: data.knowledgeAssessment || [],
+      opponentTransitions: data.opponentTransitions || [],
+      flashcards: data.flashcards || [],
     })
-  } else if (entry.section === "transitions") {
-    const ka =
-      role === "defender"
-        ? data.defenderKnowledgeAssessment || []
-        : role === "attacker"
-          ? data.knowledgeAssessment || []
-          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
-    return JSON.stringify({
-      type: "transition",
+  } else if (entry.section === "transitions" || entry.section === "submissions") {
+    // Role-filtered flashcard selection
+    let flashcards: Array<{ question: string; answer: string }> = []
+    if (role === "attacker") {
+      flashcards = data.attackerFlashcards || []
+    } else if (role === "defender") {
+      flashcards = data.defenderFlashcards || []
+    } else {
+      flashcards = data.flashcards || []
+    }
+
+    // Resolve outcome slugs to display names and URL-safe paths (spaces → hyphens)
+    const resolvedOutcomes = (data.outcomes || []).map((o: any) => {
+      const toSlug: string = o.to || ""
+      if (toSlug === "game-over") {
+        return { ...o, toName: "Game Over", toPath: "Game-Over" }
+      }
+      const posData = graph.positions?.[toSlug]
+      if (posData) {
+        return { ...o, toName: posData.name, toPath: toUrlPath(posData.path) }
+      }
+      const subSlug = toSlug.includes("/") ? toSlug.split("/")[0] : toSlug
+      const subData = graph.submissions?.[subSlug]
+      if (subData) {
+        return { ...o, toName: subData.name, toPath: `Submissions/${toUrlPath(subData.name)}` }
+      }
+      return { ...o, toName: toSlug, toPath: toUrlPath(toSlug) }
+    })
+
+    const result: any = {
+      type: entry.section === "transitions" ? "transition" : "submission",
       name: data.name,
       endingPosition: data.endingPosition,
       endingPositionPath: data.endingPositionPath,
-      knowledgeAssessment: ka,
-    })
-  } else if (entry.section === "submissions") {
-    const ka =
-      role === "defender"
-        ? data.defenderKnowledgeAssessment || []
-        : role === "attacker"
-          ? data.knowledgeAssessment || []
-          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
+      startingPosition: data.startingPosition || null,
+      startingPositionPath: toUrlPath(data.startingPositionPath || ""),
+      startingPositionRole: data.startingPositionRole || null,
+      outcomes: resolvedOutcomes,
+      flashcards,
+    }
+
+    if (entry.section === "submissions") {
+      result.isTerminal = data.isTerminal
+      if (data.isFamily) result.isFamily = true
+    }
+
+    return JSON.stringify(result)
+  } else if (entry.section === "principles" || entry.section === "systems") {
     return JSON.stringify({
-      type: "submission",
+      type: entry.section === "principles" ? "principle" : "system",
       name: data.name,
-      isTerminal: data.isTerminal,
-      knowledgeAssessment: ka,
+      flashcards: data.flashcards || [],
     })
   }
 
@@ -416,28 +540,66 @@ export function pageResources(
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexGzPath = joinSegments(baseDir, "static/contentIndex.json.gz")
+  const questionBankPath = joinSegments(baseDir, "static/questionBank.json")
+  const questionBankGzPath = joinSegments(baseDir, "static/questionBank.json.gz")
+  const graphAdjacencyPath = joinSegments(baseDir, "static/graphAdjacency.json")
+  const graphAdjacencyGzPath = joinSegments(baseDir, "static/graphAdjacency.json.gz")
 
-  // Try to load gzipped version first (much smaller), fallback to uncompressed
+  // Lazy content index: only fetched when search opens, global graph opens, or 404 page loads
   const contentIndexScript = `
-    const fetchData = (async () => {
+    let __contentIndexPromise = null;
+    const fetchData = new Promise(() => {});
+    fetchData.__isLazy = true;
+    window.loadContentIndex = function() {
+      if (__contentIndexPromise) return __contentIndexPromise;
+      __contentIndexPromise = (async () => {
+        try {
+          const gzResponse = await fetch("${contentIndexGzPath}");
+          if (gzResponse.ok) {
+            const compressed = await gzResponse.arrayBuffer();
+            const ds = new DecompressionStream('gzip');
+            const decompressedStream = new Response(compressed).body.pipeThrough(ds);
+            const decompressed = await new Response(decompressedStream).text();
+            return JSON.parse(decompressed);
+          }
+        } catch (e) {
+          console.warn('Failed to load compressed content index, falling back to uncompressed:', e);
+        }
+        return fetch("${contentIndexPath}").then(data => data.json());
+      })();
+      return __contentIndexPromise;
+    }`
+
+  // Lazy training data: question bank + graph adjacency. Only fetched when the
+  // user starts a training session or opens DecksModal.
+  const trainingDataScript = `
+    let __questionBankPromise = null;
+    let __graphAdjacencyPromise = null;
+    async function __fetchLazyJson(gzPath, plainPath) {
       try {
-        // Try gzipped version first (saves ~70-80% bandwidth)
-        const gzResponse = await fetch("${contentIndexGzPath}")
+        const gzResponse = await fetch(gzPath);
         if (gzResponse.ok) {
-          const compressed = await gzResponse.arrayBuffer()
-          // Use browser's native DecompressionStream API (supported in modern browsers)
-          const ds = new DecompressionStream('gzip')
-          const decompressedStream = new Response(compressed).body.pipeThrough(ds)
-          const decompressed = await new Response(decompressedStream).text()
-          return JSON.parse(decompressed)
+          const compressed = await gzResponse.arrayBuffer();
+          const ds = new DecompressionStream('gzip');
+          const decompressedStream = new Response(compressed).body.pipeThrough(ds);
+          const decompressed = await new Response(decompressedStream).text();
+          return JSON.parse(decompressed);
         }
       } catch (e) {
-        console.warn('Failed to load compressed content index, falling back to uncompressed:', e)
+        console.warn('Failed to load compressed lazy JSON, falling back:', e);
       }
-
-      // Fallback to uncompressed version
-      return fetch("${contentIndexPath}").then(data => data.json())
-    })()`
+      return fetch(plainPath).then(r => r.json());
+    }
+    window.loadQuestionBank = function() {
+      if (__questionBankPromise) return __questionBankPromise;
+      __questionBankPromise = __fetchLazyJson("${questionBankGzPath}", "${questionBankPath}");
+      return __questionBankPromise;
+    }
+    window.loadGraphAdjacency = function() {
+      if (__graphAdjacencyPromise) return __graphAdjacencyPromise;
+      __graphAdjacencyPromise = __fetchLazyJson("${graphAdjacencyGzPath}", "${graphAdjacencyPath}");
+      return __graphAdjacencyPromise;
+    }`
 
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
@@ -452,6 +614,12 @@ export function pageResources(
         contentType: "inline",
         spaPreserve: true,
         script: contentIndexScript,
+      },
+      {
+        loadTime: "beforeDOMReady",
+        contentType: "inline",
+        spaPreserve: true,
+        script: trainingDataScript,
       },
       ...staticResources.js,
       {
@@ -480,16 +648,16 @@ export function renderPage(
     script: `window.__rollPositions=${rollData}`,
   })
 
-  // Inject content stats on homepage (build-time counts of .json files per category)
-  if (slug === ("index" as FullSlug)) {
-    const stats = getContentStatsJson()
-    pageResources.js.push({
-      loadTime: "beforeDOMReady",
-      contentType: "inline",
-      spaPreserve: true,
-      script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-stat]").forEach(el=>{const k=el.getAttribute("data-stat");if(k&&s[k]!=null)el.textContent=s[k]})})`,
-    })
-  }
+  // Inject content stats on every page (build-time counts of .json files per
+  // category). Populates `[data-folder-count]` spans next to top-level Explorer
+  // folder titles (Positions / Transitions / Submissions / Principles / Systems).
+  const stats = getContentStatsJson()
+  pageResources.js.push({
+    loadTime: "beforeDOMReady",
+    contentType: "inline",
+    spaPreserve: true,
+    script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
+  })
 
   // Only deep-clone the tree if transclusions exist (saves ~1-15ms per page)
   let hasTransclusions = false
@@ -684,9 +852,211 @@ export function renderPage(
             dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
           />
         )}
+        <div id="background-graph" data-persist></div>
+        <div id="graph-overlay" data-persist></div>
+        <button id="panel-toggle" data-persist aria-label="Reveal graph">
+          {/* Content mode: wide chevron up — "swipe/scroll up to reveal graph" */}
+          <svg
+            class="toggle-icon-up"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="3 16 12 7 21 16"></polyline>
+          </svg>
+          {/* Graph mode: wide chevron down — "swipe/scroll down to bring back content" */}
+          <svg
+            class="toggle-icon-down"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="3 8 12 17 21 8"></polyline>
+          </svg>
+        </button>
+        <button id="fit-all-btn" data-persist aria-label="Fit entire graph in view">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="4 14 4 20 10 20"></polyline>
+            <polyline points="20 10 20 4 14 4"></polyline>
+            <line x1="14" y1="10" x2="21" y2="3"></line>
+            <line x1="3" y1="21" x2="10" y2="14"></line>
+          </svg>
+        </button>
+        <button id="tree-toggle" data-persist aria-label="Toggle explorer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M3 3h6l2 2h10v4"></path>
+            <path d="M3 7v12h18v-8"></path>
+            <line x1="9" y1="13" x2="17" y2="13"></line>
+            <line x1="9" y1="17" x2="13" y2="17"></line>
+          </svg>
+        </button>
+        {/* Search trigger + fullscreen modal — wrapped in .search so the
+            existing search.scss styles apply (modal positioning, hidden state).
+            Our custom.scss #search-button rule overrides the button's position
+            to make it a top-level floating button at top-left. */}
+        <div class="search" data-persist>
+          <button
+            class="search-button"
+            id="search-button"
+            aria-label={i18n(cfg.locale).components.search.title}
+          >
+            <p>{i18n(cfg.locale).components.search.title}</p>
+            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+              <title>Search</title>
+              <g class="search-path" fill="none">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                <circle cx="8" cy="8" r="7" />
+              </g>
+            </svg>
+          </button>
+          <div id="search-container">
+            <div id="search-space">
+              <input
+                autocomplete="off"
+                id="search-bar"
+                name="search"
+                type="text"
+                aria-label={i18n(cfg.locale).components.search.searchBarPlaceholder}
+                placeholder={i18n(cfg.locale).components.search.searchBarPlaceholder}
+              />
+              <div id="search-layout" data-preview="true"></div>
+            </div>
+          </div>
+        </div>
+        <div id="sidebar-overlay" data-persist>
+          {LeftComponent}
+        </div>
+        {/* Top-row buttons hoisted out of `.page` so they don't slide with the
+            content card's transform when entering graph mode. */}
+        <div id="flashcards-header" class="flashcards-header" data-persist>
+          <button
+            type="button"
+            class="flashcards-header-label"
+            id="flashcards-header-label"
+            aria-label="Open flashcard decks"
+          >
+            <span class="flashcards-header-icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+            </span>
+            <span class="flashcards-header-text">Flashcards</span>
+            <span class="flashcards-header-badge" aria-hidden="true"></span>
+          </button>
+        </div>
+        <div id="topbar-auth" data-persist aria-label="Account"></div>
+        <button
+          id="roll-session-btn"
+          data-persist
+          type="button"
+          aria-label="Start a roll — simulate a journey through positions"
+          title="Roll — start a session"
+        >
+          {/* Outline play triangle */}
+          <svg
+            class="roll-session-icon-play"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <polygon points="6 4 20 12 6 20"></polygon>
+          </svg>
+          {/* Outline stop square (active session) */}
+          <svg
+            class="roll-session-icon-stop"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <rect x="6" y="6" width="12" height="12" rx="1"></rect>
+          </svg>
+        </button>
+        {slug === ("index" as FullSlug) && (
+          <button
+            id="home-roll-fab"
+            class="roll-trigger"
+            data-persist
+            aria-label="Roll — find a random position"
+          >
+            <img src="/static/dice-icon.svg" alt="" class="home-roll-fab-icon" />
+            <span class="home-roll-fab-label">Roll a position</span>
+          </button>
+        )}
+        <button id="graph-close-btn" data-persist aria-label="Close graph view">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
-            {LeftComponent}
             <div class="center">
               <div class="page-header">
                 <Header {...componentData}>

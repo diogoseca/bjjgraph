@@ -129,7 +129,7 @@
       },
       {
         "step_number": 2,
-        "action": "Assess Opponent Weight Distribution",
+        "action": "Assess Opponent Center of Gravity",
         "description": "Using proprioception and feel, determine where the opponent's weight is concentrated. Identify whether they are heavy on your upper back, centered on your torso, or leaning toward your hips. This assessment determines whether to bridge, shrimp, or combine both movements for the escape initiation."
       },
       {
@@ -253,7 +253,7 @@
         "description": "Start from various scramble positions that lead to reverse mount. Practice recognizing the position during live rolling and immediately initiating the escape sequence. Integrate escape with follow-up half guard offense including sweeps and back takes. Build the complete chain from defensive crisis to offensive platform."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What must be your absolute first priority when you find yourself in reverse mount bottom before initiating any escape?",
         "answer": "Protect your neck immediately by tucking your chin and bringing both hands to defend the collar and throat area with elbows tight to your ribs. This defensive posture must be established before any escape movement because the rear naked choke is the most immediate and dangerous threat from this position. Sacrificing neck defense for escape speed can result in a tap."
@@ -370,7 +370,7 @@
         "correction": "Develop recognition-to-action speed through drilling. The window for hook insertion during the turn is brief — typically one to two seconds. Train to insert hooks immediately upon recognizing shoulder rotation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most effective counter when the bottom player begins hip escaping from reverse mount?",
         "answer": "Drop your weight immediately and sprawl your hips to flatten their escape angle. Your weight should drive through your hips directly onto their lower back and torso, making it difficult for them to continue creating lateral space. Simultaneously, use your hands to control their hip movement by posting on the mat near their hips. This counters the early stages of the escape before momentum builds."

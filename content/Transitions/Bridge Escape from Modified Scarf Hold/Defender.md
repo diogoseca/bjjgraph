@@ -148,6 +148,8 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from Modified Scarf Hold?</p>
+
 - Bottom player plants both feet flat on the mat and draws heels close to their buttocks, establishing a strong base for hip extension
 - Bottom player's free arm shifts from passive framing to actively gripping your body, gi, or belt in preparation for directional force
 - Sudden tension in the bottom player's core and lower back, detectable through chest-to-chest contact as their abdominals tighten
@@ -160,6 +162,8 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from Modified Scarf Hold?</p>
 
 - Maintain dynamic chest pressure with hips ready to sprawl rather than settling static weight that can be displaced by a directional bridge
 - Stay on your toes for mobility so you can adjust base angles in response to bridge direction changes
@@ -174,6 +178,8 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from Modified Scarf Hold?</p>
 
 ### 1. Sprawl hips forward and drive chest pressure downward at the moment the bridge initiates
 
@@ -204,6 +210,8 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from Modified Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Modified Scarf Hold]]
 
 Absorb the bridge by sprawling hips and maintaining chest pressure, then resettle with tighter arm control once the bridge peaks and the opponent's hips return to the mat. Focus on driving pressure at a downward angle that pins them flat rather than simply settling weight on top.
@@ -219,6 +227,8 @@ When the bridge successfully creates space, convert the escape attempt into a po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from Modified Scarf Hold?</p>
 
 ### 1. Remaining completely static with weight fully settled, ignoring bridge setup cues
 
@@ -248,6 +258,8 @@ When the bridge successfully creates space, convert the escape attempt into a po
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from Modified Scarf Hold?</p>
+
 **Phase 1: Recognition** - Identifying bridge escape setup cues in real time
 Maintain Modified Scarf Hold while partner slowly sets up bridge attempts at 25% speed. Call out each setup cue as you detect it: foot repositioning, core tensing, breathing change, head turn. Develop the habit of monitoring these indicators while maintaining pressure.
 
@@ -261,26 +273,6 @@ Partner performs committed bridge escapes at high intensity. Practice the decisi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest indicator that your opponent is preparing a bridge escape from Modified Scarf Hold?
-**A**: The earliest indicator is foot repositioning - the bottom player drawing their heels close to their buttocks and planting feet flat on the mat. This is the mechanical prerequisite for any effective bridge and typically occurs before core tensing or breathing changes. Monitoring foot position through peripheral awareness or feeling the mat vibration through your own base allows preemptive counter-adjustment.
-
-**Q2**: How should you adjust your base when you feel your opponent beginning to bridge explosively?
-**A**: Immediately sprawl your hips backward and downward while driving your chest forward at a descending angle into the opponent's sternum. Stay on your toes rather than settling flat, as dynamic pressure is far more effective at absorbing directional bridges than static weight. The sprawl counters the upward force while the forward chest drive counters the directional component of the bridge.
-
-**Q3**: Your opponent bridges powerfully toward your head side and creates significant space - how do you convert this into a mount transition?
-**A**: Ride the bridge momentum rather than fighting it. As the opponent's hips rise and your chest lifts, immediately step your far knee over to the opposite side of their body, using the space they created for your mount transition. Drive your hips down into their midsection as you complete the step-over and establish low mount with grapevines before they can react to the position change.
-
-**Q4**: What is the critical difference between defending a directional bridge versus a straight-up bridge?
-**A**: A straight-up bridge can be absorbed by simply maintaining settled weight and spreading base. A directional bridge requires active counter-movement because the lateral force component displaces your weight to one side. Against a directional bridge, you must sprawl in the opposite direction of the bridge force while simultaneously driving chest pressure. Failing to counter the directional component is the primary reason bridges succeed against experienced top players.
-
-
-
-</section>
 
 
 </main>

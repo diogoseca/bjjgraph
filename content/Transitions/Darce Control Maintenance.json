@@ -211,7 +211,7 @@
         "description": "Partner assumes turtle position and remains passive. Practice establishing and holding the darce grip with correct figure-four lock, elbow pinch, and shoulder pressure placement. Focus on finding the body weight distribution that allows you to hold the position with minimal arm tension. Hold for 60-second intervals, checking grip depth and pressure angle."
       },
       {
-        "phase": "Phase 2: Pressure Application",
+        "phase": "Phase 2: Pressure",
         "focus": "Developing effective shoulder pressure and hip positioning",
         "description": "With partner providing 30% resistance, practice driving shoulder pressure into the side of their head while maintaining grip. Walk hips to different angles and note how each position affects choking tightness and opponent mobility. Partner gives verbal feedback on pressure intensity and where they feel the most restricted."
       },
@@ -231,7 +231,7 @@
         "description": "Start from front headlock or turtle and establish darce control against fully resisting partner. Maintain the position and work toward finish or advancement for 3-minute rounds. Track maintenance duration and success rate. Debrief after each round to identify maintenance failures and their causes."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical factor in maintaining darce control and why does it matter more than grip strength?",
         "answer": "Grip depth is the most critical factor. The choking arm must be threaded deep with the elbow past the opponent's spine and the hand reaching toward their far hip. Depth matters more than grip strength because a deep grip creates mechanical advantage where body weight compression alone can maintain the choke threat, while a shallow grip requires constant muscular squeezing that fatigues rapidly and allows arm extraction."
@@ -348,7 +348,7 @@
         "correction": "Use your free hand to frame against opponent's hip or shoulder to prevent them from flattening you and to create the space needed for arm extraction or rolling escapes."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why should you move toward the darce choke rather than pulling away from it when defending?",
         "answer": "Moving toward the choke by turning your body into the opponent reduces the angle needed for carotid compression, effectively loosening the choke. It also creates space on the opposite side of your neck where you can work to extract the trapped arm. Pulling away stretches your neck into the compression and gives the opponent additional space to drive their grip deeper, paradoxically making the choke tighter and more dangerous."

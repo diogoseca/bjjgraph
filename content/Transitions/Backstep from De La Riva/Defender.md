@@ -156,6 +156,8 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from De La Riva?</p>
+
 - The passer grips both of your pants legs simultaneously near the knees, establishing bilateral lower body control that precedes the rotational movement
 - The passer's weight shifts noticeably to their free (non-hooked) leg as they prepare to lift and rotate the hooked leg backward
 - The passer aggressively strips or fights for your ankle or pants grip on their trapped leg, indicating they intend to remove the anchor before stepping
@@ -169,6 +171,8 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Backstep from De La Riva?</p>
+
 - Maintain constant tension on your DLR hook by actively pulling your knee toward your chest and driving your foot into the back of their knee, making the hook resistant to rotational clearing.
 - Protect your ankle grip as the primary anchor point. If the passer cannot strip this grip, they cannot effectively backstep because you can track their rotation through the grip-hook connection.
 - Develop Reverse De La Riva as your automatic contingency guard. When you feel the DLR hook clearing, immediately insert the opposite-side RDLR hook rather than fighting to maintain a compromised DLR position.
@@ -181,6 +185,8 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from De La Riva?</p>
 
 ### 1. Maintain DLR hook tension and chase with hip rotation to follow the passer's backstep and re-establish the hook angle
 
@@ -211,6 +217,8 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from De La Riva?</p>
+
 ### → [[Positions/Back Control]]
 
 Time your inversion or hip chase to coincide with the moment of maximum back exposure during the passer's rotation. Secure a seatbelt grip as they rotate and come up behind them before they can square back toward you. This requires anticipating the backstep rather than reacting after it completes.
@@ -230,6 +238,8 @@ As soon as you feel the DLR hook beginning to disengage, immediately insert your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from De La Riva?</p>
 
 ### 1. Allowing the ankle grip to be stripped without fighting for re-grip or transitioning to an alternative grip immediately
 
@@ -259,6 +269,8 @@ As soon as you feel the DLR hook beginning to disengage, immediately insert your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from De La Riva?</p>
+
 **Phase 1: Recognition and Hook Retention** - Identifying backstep cues and maintaining DLR hook under rotational pressure
 Partner performs slow-motion backsteps from your DLR guard while you focus on recognizing the movement pattern and maintaining hook tension through hip rotation. No counter-attacks yet, just hook retention. Build awareness of the specific feeling when the hook begins to clear versus when it can be maintained.
 
@@ -275,29 +287,6 @@ Positional sparring from DLR guard where the passer mixes backstep attempts with
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing to backstep from your De La Riva Guard?
-**A**: The earliest cues include the passer gripping both of your pants legs simultaneously near the knees, aggressive attempts to strip your ankle grip, a noticeable weight shift to their free (non-hooked) leg, and their shoulders beginning to turn away from you before the hips rotate. A toreando threat followed by sudden directional change can also signal an incoming backstep.
-
-**Q2**: How should you use your ankle grip to prevent a successful backstep?
-**A**: The ankle grip serves as the anchor that allows you to track the passer's rotation with your DLR hook. Maintain a strong grip and use it to pull their trapped leg back toward you as they attempt to step backward, creating resistance that slows or prevents the hook clearance. If they attempt to strip the grip, fight immediately for re-grip or transition to a belt or pants grip that maintains the connection. The ankle grip combined with active hook tension creates a two-point system that resists rotational clearing.
-
-**Q3**: Your DLR hook is being cleared by the backstep despite your best efforts. What is your optimal defensive transition?
-**A**: Immediately transition to Reverse De La Riva Guard by inserting your opposite leg as a hook behind their stepping leg. This transition should happen during the hook clearance, not after the passer consolidates position. Do not waste time trying to re-establish a compromised DLR hook. The RDLR transition maintains your guard structure and presents the passer with a new set of defensive obstacles that require a different passing approach. Train this transition until it is reflexive.
-
-**Q4**: Why is hip mobility critical when defending the backstep from your DLR Guard?
-**A**: Hip mobility determines whether you can track the passer's rotational movement and maintain hook engagement. The backstep works by changing the angle between the passer's shin and your hook, and your hip rotation is the primary mechanism for adjusting the hook angle to match. Static hips on the mat cannot follow a rotational pass, while mobile hips that chase the movement keep the hook geometry intact. Additionally, hip mobility is required for the RDLR transition and for inversion-based back take attempts.
-
-**Q5**: What is the primary risk of attempting to take the back during an opponent's backstep rotation?
-**A**: The primary risk is mistiming the inversion or hip chase. If you attempt the back take too late, after the passer has completed the rotation and begun consolidating, you move toward a squared-up opponent with established base rather than an exposed back. This can leave you underneath them with your own back exposed and guard completely passed. If the passer maintains strong hip pressure during rotation, your inversion can be stuffed, leaving you in an inverted position with the passer driving weight on top. The back take requires anticipation of the backstep, not reaction after the fact.
-
-
-
-</section>
 
 
 </main>

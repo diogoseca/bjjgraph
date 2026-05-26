@@ -39,7 +39,7 @@ Strategically, the sit-out carries higher risk than standard escapes due to the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Scramble Position]] | 50% |
+| Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 20% |
 
@@ -200,7 +200,7 @@ The sit-out from side control occupies a critical niche in the bottom escape hie
 
 - [[Positions/Side Control]] - Starting position where the technique is initiated from the bottom
 
-- [[Positions/Scramble Position]] - Primary target position reached upon successful sit-out completion
+- [[Positions/Turtle]] - Primary target position reached upon successful sit-out completion
 
 - [[Positions/Back Control]] - Counter position opponent may achieve if sit-out rotation exposes the back
 
@@ -208,11 +208,11 @@ The sit-out from side control occupies a critical niche in the bottom escape hie
 
 - [[Transitions/Ghost Escape from Side Control]] - Alternative side control escape using similar initial space creation but different exit direction
 
-- [[Transitions/Escape Side Control Consolidation]] - Standard escape framework that the sit-out supplements as an alternative pathway
+- [[Transitions/Side Control Escape]] - Standard escape framework that the sit-out supplements as an alternative pathway
 
-- [[Transitions/Hip Escape from Side Control Consolidation]] - Complementary lateral escape technique contrasting the sit-out rotational approach
+- [[Transitions/Hip Escape from Side Control]] - Complementary lateral escape technique contrasting the sit-out rotational approach
 
-- [[Transitions/Scramble to Top Position]] - Follow-up transition available after reaching the scramble from a successful sit-out
+- [[Transitions/Technical Stand Up from Open Guard]] - Follow-up transition available after reaching turtle from a successful sit-out
 
 
 </section>

@@ -62,8 +62,8 @@
       "relationship": "Fundamental movement component used during rotation phase"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Broader defensive concept this technique belongs to"
+      "name": "Rolling to Guard",
+      "relationship": "Related guard recovery transition from turtle sharing defensive context"
     },
     {
       "name": "Back Take from Top",
@@ -226,7 +226,7 @@
         "description": "Partner maintains light top position in turtle. Practice rotation with partner allowing the movement but providing light resistance. Focus on immediately establishing guard frames and hooks upon rotation. Partner gradually increases resistance as technique improves. Drill 10 repetitions per side per session with emphasis on the continuous chain from rotation through guard establishment."
       },
       {
-        "phase": "Phase 3: Grip Fighting Integration",
+        "phase": "Phase 3: Grips Integration",
         "focus": "Defensive hand fighting before rotation under realistic conditions",
         "description": "Partner actively attempts to establish seat belt and hooks from turtle. Practice grip stripping, hand fighting, and timing the rotation when opponent's grips are weak or weight shifts. Include hook removal techniques and recognize when rotation is available versus when alternative escapes are needed. Drill specific scenarios: opponent has one hook, opponent has seat belt grip, opponent riding high weight."
       },
@@ -241,7 +241,7 @@
         "description": "Specific sparring starting from turtle position. Bottom player works to recover guard while top player works to secure back control or submissions. Set time limits of 2-3 minutes and track success rates. Bottom player scores for successful guard recovery, top player scores for back control or submission attempts. This builds realistic timing, decision-making under stress, and reveals which phases of the technique need additional drilling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is hand fighting and grip prevention critical before attempting the turtle to guard rotation?",
         "answer": "Hand fighting prevents opponent from establishing seat belt control or harness grips that would allow them to follow your rotation and secure back control. If opponent has strong grips, especially the seat belt, they can maintain their position as you rotate, converting your escape attempt into their back control. Stripping grips first ensures you can rotate freely without opponent maintaining dominant control. Additionally, controlling opponent's hands prevents them from establishing hooks that would make the position even more dangerous and the rotation mechanically impossible."
@@ -372,7 +372,7 @@
         "correction": "Respond proportionally to initial movement rather than fully committing. Wait for the explosive committed rotation before matching with full weight. A partial response to a feint keeps you balanced, while over-committing to a feint leaves you vulnerable to the true escape direction."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt a turtle to guard rotation?",
         "answer": "The earliest cue is a subtle lateral hip shift where the bottom player pushes their hips away from your primary weight. This creates a small gap that precedes any rotational movement. You may feel this as a slight decrease in pressure contact on one side of your chest. This hip shift is mechanically necessary before rotation can occur, so recognizing it gives you the maximum time window to counter by matching their shift with your own weight adjustment or by driving forward to collapse their base before the rotation can develop."

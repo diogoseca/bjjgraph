@@ -156,6 +156,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Switch to Triangle?</p>
+
 - Opponent's hips shift laterally 45-90 degrees off centerline during or immediately after you defend their initial submission attempt
 - You feel an overhook tightening on one arm or a hand cupping behind your head pulling your posture down as you retract from the initial attack
 - Opponent uncrosses their ankles from closed guard and one leg begins climbing high on your shoulder or across the back of your neck
@@ -168,6 +170,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Switch to Triangle?</p>
 
 - Maintain strong upright posture throughout the initial attack defense to deny the broken posture the triangle requires
 - Defend the initial attack (armbar, kimura) without isolating your arm on one side or collapsing your base forward
@@ -182,6 +186,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Switch to Triangle?</p>
 
 ### 1. Posture aggressively and stack before triangle locks by driving your trapped shoulder into opponent's thigh
 
@@ -219,6 +225,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Switch to Triangle?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Deny the triangle switch by maintaining posture during the initial attack defense and blocking the leg before it crosses your neck. Keep both arms symmetrically positioned and prevent the hip angle change. The opponent returns to closed guard without achieving the triangle configuration.
@@ -234,6 +242,8 @@ If the triangle partially develops, drive forward with strong posture while circ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Switch to Triangle?</p>
 
 ### 1. Pulling the arm back explosively from the initial attack defense without maintaining posture or controlling distance
 
@@ -263,6 +273,8 @@ If the triangle partially develops, drive forward with strong posture while circ
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Switch to Triangle?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying switch cues during controlled practice
 Partner attacks with armbar then switches to triangle at slow speed. Defender practices identifying the specific cues: hip angle shift, overhook tightening, leg climbing the shoulder. No resistance from defender - purely developing pattern recognition and awareness of the transition timing.
 
@@ -279,26 +291,6 @@ During regular sparring, focus on defending initial closed guard attacks in ways
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is the moment of successfully defending the initial attack actually the most dangerous moment for the triangle switch?
-**A**: Successfully defending the initial attack is most dangerous because your defensive movement creates the exact conditions the triangle requires. Pulling your arm back from the armbar isolates it on one side of your body (one-arm-in). Your focus shifts to relief that the first attack failed, creating a cognitive gap. Your posture often collapses forward from the effort of arm extraction. The opponent has already established their angle from the initial attack setup. All these factors combine to make the transition between defending one attack and recognizing the next the highest-vulnerability window for the triangle switch.
-
-**Q2**: What defensive arm positioning prevents the opponent from establishing the triangle configuration during the switch?
-**A**: The key is maintaining arm symmetry - never allowing one arm inside the triangle frame while the other stays outside. During initial attack defense, keep both elbows tight to your ribcage and recover your arm toward your own centerline rather than pulling it to the outside. If one arm is inside the opponent's legs, immediately push the other arm inside as well or extract the trapped arm before the opponent can capitalize. The triangle specifically requires one arm in and one arm out, so denying this asymmetric configuration eliminates the submission threat regardless of the opponent's hip angle or leg position.
-
-**Q3**: How should you modify your armbar defense to prevent the triangle switch from being available?
-**A**: Instead of simply pulling your arm back from the armbar, which isolates it and collapses your posture, defend by first driving your posture upward and stacking the opponent. Then extract your arm by pushing your elbow toward their hip (not pulling it toward your body), keeping the arm on their centerline rather than isolating it to one side. Simultaneously step your knee up on the side of the trapped arm to create a wedge that prevents hip angle changes. This modified defense addresses the armbar through posture and positioning rather than arm strength, denying the broken posture and arm isolation that the triangle switch requires.
-
-**Q4**: At what stage of the triangle switch is defense most effective, and why does effectiveness decrease at each subsequent stage?
-**A**: Defense is most effective at the earliest stage - preventing the hip angle change during the initial attack defense. At this point, you have full posture, both arms available, and the opponent has not yet achieved the geometric prerequisites. Once the angle is established, defense becomes harder because the opponent's leverage improves with perpendicular positioning. After the leg crosses the neck, you lose access to posture-based defenses and must rely on grip fighting and stacking. Once the figure-four locks, you are fighting against the full mechanical advantage of their leg muscles compressing your carotid arteries with decreasing time before unconsciousness. Each stage reduces your options and increases urgency.
-
-
-
-</section>
 
 
 </main>

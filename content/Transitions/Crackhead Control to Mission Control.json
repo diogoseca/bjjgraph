@@ -208,7 +208,7 @@
         "description": "Full resistance drilling starting from Crackhead Control. Execute transitions opportunistically based on opponent responses. Develop recognition of optimal transition timing in live scrambles and integrate with Mission Control attack sequences."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Crackhead Control to Mission Control transition?",
         "answer": "The primary goal is to reset from a high-risk, high-reward attacking position to a more stable rubber guard control platform. This transition allows you to escape back exposure danger, consolidate when submission chains stall, or attack from a different angle when opponents have adapted to Crackhead Control offense."
@@ -339,7 +339,7 @@
         "correction": "Recognize when the transition is complete and Mission Control is locked in. Immediately switch to Mission Control defensive protocols - posture recovery, grip fighting on head control, and systematic arm extraction rather than trying to undo a completed transition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary escape window during the Crackhead Control to Mission Control transition and why does it exist?",
         "answer": "The primary escape window occurs during the grip transition when the bottom player releases the deep overhook but has not yet established head control for Mission Control. This window exists because the bottom player cannot simultaneously maintain Crackhead Control and establish Mission Control - they must temporarily sacrifice their primary control mechanism, creating a brief period where neither control is fully active."

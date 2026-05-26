@@ -194,6 +194,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crackhead Control Entry?</p>
+
 - Maintain constant posture control throughout the transition to prevent the opponent from creating space or recovering base
 - Secure grip transitions sequentially rather than releasing all control points simultaneously—overlap old and new grips
 - Use hip angle adjustment to generate the mechanical advantage needed for cross-body arm isolation
@@ -209,6 +211,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crackhead Control Entry?</p>
+
 - Established Rubber Guard position with shin across opponent's back and foot secured by same-side hand
 - Opponent's posture fully broken with head pulled below practitioner's shoulder line
 - Near-side arm trapped against practitioner's chest through controlling leg pressure
@@ -221,6 +225,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crackhead Control Entry step by step?</p>
 
 1. **Confirm Control Position**: Verify that your Rubber Guard (Mission Control) is secure with shin across opponent's back, foot controlled by same-side hand, opponent's near-side arm trapped against your chest, and posture broken with their head below your shoulder line. Do not proceed until all four checkpoints are confirmed.
 2. **Secure Wrist Control**: Use your free hand to grip the opponent's trapped wrist or forearm on the controlled side. This secondary control point ensures the arm cannot be withdrawn during the transition phase and provides a handle for the cross-body pull that follows. Grip firmly with fingers wrapping the wrist.
@@ -251,6 +257,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crackhead Control Entry?</p>
+
 - **Explosive posture recovery by driving upward with both arms before grip transfer completes** (Effectiveness: High) - Your Response: Increase leg pressure on the back and pull head down with your free hand. If they begin posturing before you initiate the entry, delay and maintain Mission Control rather than forcing the transition against active resistance. → Leads to [[Positions/Rubber Guard]]
 - **Arm extraction by circling the elbow outward during the grip transfer phase** (Effectiveness: Medium) - Your Response: Follow the circular arm extraction with your wrist grip, maintaining contact rather than fighting the direction. If they create significant space, immediately switch to triangle setup since their arm movement creates the exact space needed for leg insertion across the neck. → Leads to [[Positions/Rubber Guard]]
 - **Stack pass by driving forward aggressively to fold the bottom player and relieve leg pressure** (Effectiveness: Medium) - Your Response: Use their forward stacking momentum to load the omoplata angle. Frame on their hip with your free hand and rotate your body underneath them into omoplata control rather than fighting the stack directly. Their aggressive pressure assists the rotation. → Leads to [[Positions/Open Guard]]
@@ -262,6 +270,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crackhead Control Entry?</p>
 
 ### 1. Releasing shin control before securing the wrist grip on the opponent's trapped arm
 
@@ -301,6 +311,8 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crackhead Control Entry (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip sequence and leg positioning
 Practice the full entry sequence on a non-resisting partner, focusing on smooth grip transitions and proper leg repositioning. Perform 20-30 repetitions per side, emphasizing the overlap of control points during transition. Verify each checkpoint before proceeding to the next step.
 
@@ -321,48 +333,12 @@ Partner applies specific counters (posture recovery, arm extraction, stacking) i
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the Crackhead Control Entry from Mission Control?
-**A**: The optimal moment is when the opponent's head is below your shoulder line and their trapped arm has relaxed slightly from active resistance. Look for moments when they stop fighting the Mission Control grip and either freeze or attempt a slow controlled escape rather than an explosive posture recovery. Initiating during active posture attempts dramatically reduces success rate because the opponent's resistance provides the structural tension needed to extract their arm.
-
-**Q2**: What grip must you establish before releasing your shin control during the entry?
-**A**: You must secure a wrist or forearm grip on the opponent's trapped arm with your free hand before releasing the foot or shin grip that maintains Mission Control. This overlap of control points ensures continuous arm isolation throughout the transition. Without this secondary control established first, the opponent can extract their arm during the brief moment of reduced control when the shin grip is released.
-
-**Q3**: How do you adjust your hip angle to facilitate the arm pull across the opponent's centerline?
-**A**: Shift your hips approximately 20-30 degrees toward the side of the trapped arm before initiating the pull. This rotation creates a mechanical pathway that allows the arm to travel further across the opponent's body past the structural resistance at their centerline. Without this hip angle adjustment, the arm meets the opponent's skeletal resistance at the midline and cannot be isolated deeply enough for effective Crackhead Control compression.
-
-**Q4**: Your opponent begins circling their elbow outward during your grip transfer—how do you respond?
-**A**: Follow their elbow movement with your wrist grip, maintaining constant contact rather than fighting the circular motion directly. If they succeed in creating significant space through the circular extraction, immediately pivot to a triangle setup since their arm extraction movement has created the exact space needed for your leg to insert across their neck. The counter becomes your submission entry rather than a positional loss.
-
-**Q5**: What is the critical difference between the leg position in Mission Control versus Crackhead Control?
-**A**: In Mission Control, the shin runs horizontally across the opponent's upper back with the foot secured by the same-side hand, functioning primarily as a posture control tool. In Crackhead Control, the leg repositions higher to apply direct downward pressure on the opponent's shoulder of the isolated arm. The leg transitions from a back-control tool to a shoulder-compression tool, fundamentally changing the mechanical function from general posture management to specific arm isolation and shoulder loading.
-
-**Q6**: What direction of force does your controlling leg apply in the final Crackhead Control position?
-**A**: The controlling leg applies force directly downward into the opponent's shoulder, perpendicular to the mat surface. This downward compression pins the shoulder while your hands maintain the cross-body arm position through structural locking on your own shin. The combination of downward leg pressure and cross-body arm pull creates a wedge effect that immobilizes the entire shoulder girdle and prevents the opponent from rotating or posturing.
-
-**Q7**: Your opponent stacks you during the entry attempt—what is your immediate tactical response?
-**A**: Use their forward stacking momentum to load the omoplata angle rather than fighting the stack directly. Frame on their hip with your free hand and rotate your body underneath them to establish omoplata control. Their aggressive forward pressure actually assists the rotation needed for omoplata entry, converting their defensive action into your offensive advantage. Only use this response when you can maintain arm control throughout the rotation.
-
-**Q8**: What submission chains become available once Crackhead Control is fully established?
-**A**: The primary chains are: first, triangle entry by releasing the arm and inserting your leg across their neck using the space created by the isolation; second, omoplata by rotating underneath while maintaining shoulder pressure on the trapped arm; third, gogoplata by repositioning your shin across their throat from the elevated leg position; and fourth, advancing to Carni position for combined submission threats. The extreme arm isolation makes each of these substantially higher percentage than from standard Rubber Guard.
-
-**Q9**: How do you manage energy expenditure during the entry to avoid premature fatigue?
-**A**: Use structural holds rather than muscular tension throughout the sequence. Once your leg is positioned, lock it in place with skeletal alignment by grabbing your own shin with both hands instead of squeezing with hip flexors. The grip transfer should be smooth and efficient, not rushed. Maintain the entry attempt only when genuine windows present themselves rather than forcing against active resistance. If the opponent is actively defending with strong posture, maintain Mission Control and wait for a better opportunity.
-
-**Q10**: What are the flexibility prerequisites for this entry, and how do you compensate if your flexibility is limited?
-**A**: The entry requires sufficient hip flexion and external rotation to maintain an elevated leg across the opponent's upper back and shoulder while simultaneously adjusting hip angle for the arm pull. If flexibility is limited, compensate by breaking the opponent's posture more aggressively before attempting the entry, which reduces the range of motion needed for leg repositioning by bringing their body closer to yours. Long-term, develop hamstring and hip flexor flexibility through a dedicated stretching program targeting these specific ranges.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crackhead Control Entry?</p>
 
 The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively.
 

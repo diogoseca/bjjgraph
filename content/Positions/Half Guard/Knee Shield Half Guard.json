@@ -93,7 +93,7 @@
       "Switch between passing approaches based on opponent's defensive adjustments",
       "Never allow opponent to establish strong underhook connection on near side"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent is pushing their knee shield strongly into your chest. What adjustment should you make?",
         "answer": "Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself."
@@ -233,7 +233,7 @@
         "duration": "6 minutes continuous flow"
       },
       {
-        "name": "Grip Fighting Battle Drill",
+        "name": "Grips Battle Drill",
         "description": "Both players focus exclusively on establishing dominant grips from knee shield top position. Top player works for crossface and ankle control while bottom player fights for underhook and collar grips. Reset after one player achieves dominant control position. Develops grip fighting awareness and hand speed specific to knee shield battles.",
         "duration": "4 minutes rapid reset format"
       },
@@ -386,7 +386,7 @@
       "Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position",
       "Maintain ready position for quick transitions to deep half, x-guard, or other guard systems when opportunities present"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts driving heavy pressure into your knee shield. What adjustment maintains your frame?",
         "answer": "Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support."
@@ -521,7 +521,7 @@
         "duration": "5 minutes per round, 3 rounds"
       },
       {
-        "name": "Grip Fighting Flow from Knee Shield",
+        "name": "Grips Flow from Knee Shield",
         "description": "Both practitioners work for dominant grips from knee shield half guard. Top player seeks crossface and underhook, bottom player prevents these while establishing sleeve/collar control. Reset when dominant position achieved. Develops grip awareness and hand fighting essential for position maintenance.",
         "duration": "3 minutes per round, 4 rounds"
       },
@@ -612,7 +612,7 @@
         "attempt_probability": 5
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Knee Shield Half Guard",
         "attempt_probability": 4
       },
       {

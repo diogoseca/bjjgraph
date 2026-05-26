@@ -1,0 +1,508 @@
+{
+  "name": "Outside Heel Hook from Leg Entanglement",
+  "description": "Master the outside heel hook from leg entanglement positions. Expert finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "heel-hook",
+    "outside-heel-hook",
+    "ashi-garami",
+    "advanced",
+    "dangerous",
+    "finishing-guide",
+    "no-gi",
+    "leg-entanglement"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint, ankle joint, and surrounding ligaments",
+  "starting_position": "Leg Entanglement",
+  "from_position": "Leg Entanglement/Top",
+  "success_rate": 45,
+  "overview": "The outside heel hook from leg entanglement is one of the highest-percentage finishing techniques in modern no-gi grappling. Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the medial collateral ligament and anterior cruciate ligament. The technique requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "ACL tear (anterior cruciate ligament rupture)",
+        "severity": "CRITICAL",
+        "recovery_time": "9-12 months with surgical reconstruction"
+      },
+      {
+        "injury": "MCL tear (medial collateral ligament damage)",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months depending on grade"
+      },
+      {
+        "injury": "Meniscus tear",
+        "severity": "High",
+        "recovery_time": "3-6 months with potential surgery"
+      },
+      {
+        "injury": "LCL damage (lateral collateral ligament)",
+        "severity": "High",
+        "recovery_time": "6-8 weeks to 6 months"
+      },
+      {
+        "injury": "PCL strain (posterior cruciate ligament)",
+        "severity": "High",
+        "recovery_time": "3-6 months"
+      },
+      {
+        "injury": "Ankle ligament damage",
+        "severity": "Medium",
+        "recovery_time": "4-8 weeks"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation",
+    "tap_signals": [
+      "Verbal tap (primary)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any vocal distress signal",
+      "Frantic movement or panic response",
+      "Any indication of discomfort"
+    ],
+    "release_protocol": [
+      "Immediately release rotational pressure on heel",
+      "Release the figure-four grip or heel cup",
+      "Remove hip pressure and extension",
+      "Allow opponent to straighten leg naturally",
+      "Check partner's condition before continuing",
+      "Never apply rotation while releasing"
+    ],
+    "training_restrictions": [
+      "NEVER apply sudden rotational force - always slow and progressive",
+      "NEVER practice at competition speed during training",
+      "NEVER continue past first sign of discomfort",
+      "Only train with experienced partners who understand leg locks",
+      "Always ensure clear communication before training leg locks",
+      "Tap early and often - do not test flexibility limits",
+      "Prohibited for white and blue belts in most IBJJF competitions",
+      "Never practice on injured knees or with prior knee injuries without medical clearance"
+    ]
+  },
+  "from_positions": [
+    "Leg Entanglement",
+    "Outside Ashi-Garami",
+    "Cross Ashi-Garami",
+    "Backside 50-50",
+    "Ashi Garami"
+  ],
+  "related_submissions": [
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Inside Heel Hook",
+    "Calf Slicer",
+    "Achilles Lock",
+    "Aoki Lock Control"
+  ],
+  "related_content": [
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Primary starting position for this submission variant"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Dominant finishing position providing optimal outside heel hook angle"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Alternative entanglement offering cross-body outside heel hook access"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Common position where outside heel hook becomes primary attack"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Complementary heel hook attacking opposite rotation direction"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Foundational leg entanglement position and entry point for outside heel hook setups"
+    }
+  ],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Leg Entanglement/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Lateral Rotation Finish",
+      "description": "Classic outside heel hook applied from basic ashi garami by adjusting to an outside angle. The attacker positions their body to the lateral side of the trapped leg, cups the heel, and applies outward rotation through hip extension. Works best when the opponent's foot is already pointing slightly outward.",
+      "when_to_use": "When you have established basic ashi garami and the opponent's heel is accessible from the outside angle"
+    },
+    {
+      "variation_name": "Backstep to Outside Heel Hook",
+      "description": "Transitioning from an inside ashi garami position by backstepping over the opponent's leg to establish the outside angle. The backstep movement naturally repositions your body for outward rotation on the heel. Requires releasing the inside hook momentarily and re-establishing control on the outside.",
+      "when_to_use": "When the inside heel hook is being defended and the opponent is hiding the inside angle, making the backstep to outside a higher percentage option"
+    },
+    {
+      "variation_name": "Rolling Outside Hook from Neutral Exchange",
+      "description": "From a neutral 50-50 or scramble position, barrel rolling to expose the outside heel by rotating your entire body around the opponent's trapped leg. The rolling motion creates the outside angle while maintaining heel cup control throughout the transition. Requires strong grip retention during the roll.",
+      "when_to_use": "During dynamic exchanges where neither player has established dominant positioning, using the roll to create the outside angle from a neutral entanglement"
+    }
+  ],
+  "attacker": {
+    "name": "Outside Heel Hook from Leg Entanglement Attacker",
+    "description": "Learn to attack with the outside heel hook from leg entanglement. Step-by-step execution, grip mechanics, and finishing sequences for advanced practitioners.",
+    "overview": "Attacking with the outside heel hook from leg entanglement requires establishing proper outside positioning on the trapped leg before committing to the finish. The key sequence involves securing the entanglement, adjusting to an outside angle, cupping the heel with precise grip placement, and applying controlled outward rotation through hip extension. Unlike arm-based submissions where finishing force comes from isolating a single joint, the outside heel hook generates torsional force through your entire body rotating as a unit while your legs anchor the opponent's knee in place. Mastery requires understanding when the outside angle is available versus when you should transition to inside heel hook or other attacks based on your positioning within the entanglement. The finishing window is narrow and demands commitment once the heel cup is secured.",
+    "key_principles": [
+      "Control the knee line before attempting any heel grip - your body must be positioned below the opponent's knee with hips tight against their thigh to maintain finishing access",
+      "Cup the heel with the blade of your wrist pressing across the Achilles tendon, fingers wrapping around the heel bone for maximum rotational leverage on the joint",
+      "Generate finishing torque through hip extension and full-body rotation rather than arm strength alone - the power comes from your hips driving forward as your torso turns",
+      "Maintain outside leg positioning by threading your far leg across the opponent's hip line to prevent them from turning into you and neutralizing the rotational angle",
+      "Apply rotational force progressively in a controlled arc over 5-7 seconds minimum in training - never jerk, snap, or suddenly accelerate the rotation on the heel",
+      "Clamp your knees together around the trapped leg to isolate the knee joint and prevent the opponent from spinning or rotating their leg to relieve torsional pressure"
+    ],
+    "setup_requirements": [
+      "Established leg entanglement with opponent's leg trapped between your legs and your body positioned below the knee line",
+      "Outside positioning secured with your body oriented to the lateral side of opponent's trapped leg, creating the mechanical pathway for outward heel rotation",
+      "Opponent's heel exposed and accessible for cupping grip - foot not hidden through boot defense or tucked behind your body",
+      "Knee line control maintained with your hips below opponent's knee joint, preventing extraction and creating proper finishing angle",
+      "Free leg controlled or neutralized through hooking with your outside leg, cross-facing, or pinning with hip pressure to prevent push-off escapes"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure the leg entanglement",
+        "description": "Establish a stable leg entanglement with your inside hook behind the opponent's knee and your outside leg controlling their hip or free leg. Your hips must be tight against their thigh with zero space for extraction. This foundation determines whether you can develop the outside angle and finish the submission.",
+        "timing": "0-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Establish the outside angle",
+        "description": "Adjust your body positioning so you are oriented to the lateral side of the opponent's trapped leg. Thread your outside leg across their hip or use your knee to block their ability to turn into you. This angle is what makes the outward rotation mechanically sound and distinguishes the outside heel hook from the inside variation.",
+        "timing": "3-5 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Cup the heel with proper grip",
+        "description": "Slide your cupping hand under the heel with the blade of your wrist pressing firmly against the Achilles tendon. Your fingers wrap around the heel bone itself, not the toes or midfoot. The heel cup must be deep and secure before any rotation begins. A shallow or misplaced grip will slip under rotational force.",
+        "timing": "5-7 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Reinforce with figure-four lock",
+        "description": "Lock a figure-four or S-grip behind the heel cup by bringing your second hand over or under the wrist of your cupping hand. This reinforcement prevents the grip from slipping during the rotation phase and distributes the force across both arms. The figure-four structure creates a mechanical amplifier for your rotational torque.",
+        "timing": "7-8 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Clamp the knee and align the rotation axis",
+        "description": "Squeeze your knees together to clamp the opponent's leg and stabilize the knee joint as the fixed point against which rotation will occur. Align your forearms with the rotational axis so the force travels cleanly through the heel into the knee ligaments. Your elbows should be tucked tight to your torso for structural integrity.",
+        "timing": "8-9 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled outward rotation",
+        "description": "Extend your hips forward while simultaneously rotating the heel outward, away from the opponent's centerline. The force comes from your entire body rotating as a unit - hips driving forward, torso turning, shoulders pulling the heel laterally. Apply pressure progressively over 5-7 seconds minimum until you feel the tap signal.",
+        "timing": "9-14 seconds minimum"
+      },
+      {
+        "step_number": 7,
+        "action": "Complete the finish and release protocol",
+        "description": "Maintain constant rotational pressure and hip extension until you feel or hear a definitive tap signal. Do not release and reapply pressure in pulses. Upon receiving any tap signal, immediately release all rotational force first, then release the grip, then allow the opponent to straighten their leg naturally. Check on your partner before continuing.",
+        "timing": "Until tap, then immediate release"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Boot defense - opponent curls toes and rotates foot inward to hide the heel from cupping access",
+        "effectiveness": "High",
+        "your_response": "Use your free hand to fight for the heel by prying the foot open, or transition to a straight ankle lock that attacks the exposed ankle. Alternatively, switch to an inside heel hook angle where the foot rotation actually exposes the opposite side.",
+        "targets_outcome": "Leg Entanglement/Top"
+      },
+      {
+        "counter": "Knee line clearing - opponent hip escapes and pushes your body above their knee to remove submission access",
+        "effectiveness": "High",
+        "your_response": "Chase their hips by scooting forward and re-pummeling your hooks below the knee line. If they fully clear, immediately transition to kneebar on the straightening leg or disengage to pass their guard from the top position.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Rolling with rotation - opponent barrel rolls in the direction of heel rotation to relieve torsional pressure on the knee",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll by adjusting your body angle to maintain the rotational vector. If they roll far enough to expose their back, release the heel hook and transition to back control instead. Keep the heel cup tight throughout their movement.",
+        "targets_outcome": "Leg Entanglement/Top"
+      },
+      {
+        "counter": "Counter leg entanglement - opponent grabs your exposed foot and initiates their own heel hook or ankle lock attack",
+        "effectiveness": "Medium",
+        "your_response": "If you have positional superiority (deeper entanglement, better heel access), accelerate your finish before their counter develops. If in neutral position, disengage your endangered leg by pulling your knee to your chest and circling free, then re-enter with dominant angle.",
+        "targets_outcome": "Leg Entanglement/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Gripping the foot or toes instead of cupping the actual heel bone",
+        "consequence": "Insufficient rotational leverage on the knee joint because the force dissipates through the flexible midfoot rather than transmitting directly into the knee ligaments",
+        "correction": "Place the blade of your wrist across the Achilles tendon with fingers wrapping around the heel bone. The deepest part of the cup should sit directly on the calcaneus."
+      },
+      {
+        "error": "Generating rotation through arm strength rather than hip extension and body rotation",
+        "consequence": "Weak finishing pressure that experienced opponents can outlast, rapid forearm fatigue, and inconsistent rotational force that allows defensive adjustments",
+        "correction": "Drive your hips forward while your entire torso rotates as a unit. Your arms maintain the grip structure while your body generates the actual torque through the kinetic chain."
+      },
+      {
+        "error": "Allowing space to develop between your hips and the opponent's thigh during the finishing attempt",
+        "consequence": "Opponent can straighten their leg, clear the knee line, and extract from the entanglement before the submission is applied",
+        "correction": "Keep your hips glued to their thigh throughout the entire finishing sequence. If you feel space developing, re-close the distance before continuing to apply rotation."
+      },
+      {
+        "error": "Rotating the heel inward instead of outward from the outside position",
+        "consequence": "Attacking the wrong ligament structures with poor mechanical advantage from the outside angle, resulting in a failed submission and wasted positional opportunity",
+        "correction": "Verify your outside positioning and confirm the rotation direction. The heel must move laterally away from the opponent's centerline. The outside position means outward rotation."
+      },
+      {
+        "error": "Jerking or suddenly accelerating rotational force on the heel",
+        "consequence": "Catastrophic knee ligament damage to training partner with potential career-ending injury occurring faster than they can tap",
+        "correction": "Always apply progressive, controlled pressure over 5-7 seconds minimum in training. Build the rotation gradually and give your partner time to recognize and respond to the pressure."
+      },
+      {
+        "error": "Neglecting to control the opponent's free leg before committing to the finish",
+        "consequence": "Opponent uses their free leg to push off your hip, create distance, and begin an escape sequence that disrupts your finishing mechanics",
+        "correction": "Hook, pin, or actively control the free leg with your outside leg or hand before committing both arms to the heel cup and figure-four grip."
+      },
+      {
+        "error": "Attempting the finish without first establishing the outside angle on the trapped leg",
+        "consequence": "The rotational vector is misaligned, producing a hybrid attack that neither effectively targets inside nor outside ligaments and is easily defended",
+        "correction": "Ensure your body is clearly positioned to the lateral side of the trapped leg before cupping the heel. If you cannot establish the outside angle, transition to inside heel hook instead."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics and Rotation Direction",
+        "focus": "Solo and partner drilling of heel cup placement and outward rotation",
+        "description": "Practice heel cup grip placement on a stationary partner with zero resistance. Focus on wrist blade positioning across the Achilles, finger wrap around the heel bone, and figure-four reinforcement. Drill the rotation direction slowly to build correct motor patterns. 50 repetitions per session until the grip becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Controlled Finishing Sequence",
+        "focus": "Full sequence execution with cooperative partner",
+        "description": "Execute the complete 7-step finishing sequence from established leg entanglement with a cooperative partner providing no resistance. Focus on smooth transitions between steps, proper timing of hip extension with rotation, and immediate response to tap signals. Partner provides verbal feedback on grip depth and pressure distribution."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Drilling",
+        "focus": "Finishing against increasing defensive pressure",
+        "description": "Partner provides gradually increasing resistance using specific defenses: boot defense, knee line clearing, and rolling escapes. Attacker practices recognizing each defense and applying the appropriate counter-response while maintaining controlled application speed. Start at 30% resistance and increase by 10% each round."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring from Leg Entanglement",
+        "focus": "Live application with full resistance in controlled rounds",
+        "description": "Begin rounds from established leg entanglement with both partners working at full resistance. Attacker works for the outside heel hook finish while defender works for escape. 2-minute rounds with mandatory tap-early culture. Focus on recognizing when the outside angle is available versus when to transition to alternative attacks."
+      },
+      {
+        "phase": "Phase 5: Entry-to-Finish Integration",
+        "focus": "Connecting entries from various positions to the complete finishing sequence",
+        "description": "Start from standing, guard passing, or guard playing positions and work the full sequence of entry, entanglement establishment, outside angle development, and controlled finish. Builds the complete attacking chain from initial engagement through submission. Only with experienced training partners who have completed phases 1-4."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the outside heel hook primarily attack and how does the rotational direction determine which ligaments are stressed?",
+        "answer": "The outside heel hook primarily attacks the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the medial side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the lateral collateral ligament (LCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent is hiding their heel using boot defense with toes curled and foot rotated inward - what adjustments do you make to expose the heel?",
+        "answer": "When the opponent uses boot defense, you have several options. First, use your free hand to fight for the heel by gripping the top of their foot and prying it open to expose the heel bone. Second, transition to a straight ankle lock that attacks the exposed Achilles tendon and ankle joint without requiring heel access. Third, consider switching to the inside heel hook angle, because the foot rotation that hides the outside heel actually exposes the inside heel. Fourth, you can advance your entanglement to a tighter position like the saddle, where the increased control makes boot defense much harder to maintain.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper heel cup grip placement and why is gripping the toes or midfoot insufficient for finishing?",
+        "answer": "The proper heel cup places the blade of the wrist directly across the Achilles tendon with fingers wrapping around the calcaneus (heel bone). This creates a rigid rotational lever that transmits force directly into the knee joint through the tibia. Gripping the toes or midfoot is insufficient because the foot's many small joints and flexible ligaments absorb and dissipate rotational force before it reaches the knee. The midfoot bends and flexes under pressure rather than transmitting rotation, resulting in a weak finish that experienced grapplers can outlast. The heel bone is the only rigid structure that creates a direct mechanical connection to the knee through the ankle.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your hips have drifted several inches away from your opponent's thigh during the finishing attempt - what is the consequence and how do you correct it?",
+        "answer": "When your hips drift away from the opponent's thigh, you lose knee line control and create space that allows them to straighten their leg and begin extracting from the entanglement. The increased distance also reduces your rotational leverage because your body is no longer in tight mechanical connection with their trapped leg. To correct this, immediately stop applying rotation and re-close the distance by scooting your hips forward until they are pressed firmly against their thigh again. Re-establish your knee clamp and verify your hooks are deep before resuming the finishing sequence. Never try to finish from a loose position.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins clearing the knee line by pushing your hips above their knee during your finishing attempt - how do you respond?",
+        "answer": "When the opponent clears the knee line, your heel hook access is lost because your body is now positioned above the knee rather than below it. Immediately re-pummel your inside hook deeper behind their knee and scoot your hips back below the knee line. If they are actively straightening their leg during the clearance, recognize the opportunity to transition to a kneebar attack that capitalizes on the extended leg. If they fully clear and begin recovering guard, you can disengage and accept the Open Guard/Top position rather than fighting for a submission from a mechanically disadvantaged angle. The worst response is to increase rotation pressure from above the knee line, which is both ineffective and potentially dangerous.",
+        "safety_critical": false
+      },
+      {
+        "question": "What role does hip extension play in generating finishing force for the outside heel hook and why is arm strength alone insufficient?",
+        "answer": "Hip extension is the primary force generator for the outside heel hook because it engages the largest muscle groups in the body (glutes, hamstrings, core) to create rotational torque through the entire kinetic chain. Your arms and grip function as the structural connection between your body and the opponent's heel, but the actual rotational power comes from your hips driving forward while your torso rotates as a unit. Arm strength alone is insufficient because the forearm muscles fatigue rapidly under sustained isometric load, producing inconsistent pressure that experienced opponents can outlast. The body-rotation method also produces smoother, more controlled pressure that is safer for training partners.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must rotational force be applied progressively over 5-7 seconds minimum rather than suddenly in training?",
+        "answer": "Rotational force must be applied progressively because knee ligaments, unlike elbow joints, provide minimal pain feedback before structural failure. A sudden rotational force can tear the MCL or ACL before the opponent has time to recognize the danger and tap. The 5-7 second minimum gives your training partner adequate time to feel the pressure building, assess whether they can defend, and tap before any structural damage occurs. Ligament tears from heel hooks often happen in fractions of a second once the failure threshold is reached, and there is no reliable warning sensation. Progressive application is the only responsible approach in training and must never be compromised regardless of competitive pressure or frustration.",
+        "safety_critical": true
+      },
+      {
+        "question": "What should you do immediately when you feel or hear any tap signal during an outside heel hook?",
+        "answer": "Upon receiving any tap signal - verbal, physical hand tap, foot tap, vocal distress, or frantic movement - you must immediately release all rotational pressure first, then release the figure-four grip, then release the heel cup, and finally allow your opponent to straighten their leg naturally. The sequence matters because releasing the grip while maintaining rotational body pressure can cause additional damage. Never continue applying pressure to test whether the tap was genuine. Never release and then immediately reapply to check your position. After full release, check on your partner's condition before continuing training. A split-second delay in release can mean the difference between a controlled training exchange and a career-ending knee injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent initiates a counter leg entanglement by grabbing your exposed foot while you have the heel cup secured - what is your priority?",
+        "answer": "Your response depends on your positional advantage. If you have a clearly superior entanglement - deeper hooks, better heel access, and body positioned below the knee line while their counter is still developing - accelerate your finish by immediately applying controlled rotation before their counter becomes dangerous. If you are in a neutral or uncertain position, disengage your endangered leg first by pulling your knee to your chest and circling it free from their grip, then re-enter with a dominant angle. The worst response is to accept a bilateral 50-50 exchange from a previously superior position, because this trades a near-finish for a neutral reset. Recognize the counter early and commit to either finishing fast or disengaging cleanly.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the critical difference between the outside angle and inside angle for heel hook application, and how do you verify your positioning before committing to the finish?",
+        "answer": "The outside angle positions your body to the lateral side of the opponent's trapped leg, enabling outward (lateral) heel rotation that attacks the MCL and ACL. The inside angle positions you medially, enabling inward rotation that attacks the LCL. You verify your positioning by checking which direction the opponent's toes are pointing relative to your body - for the outside heel hook, their toes should point away from you toward the outside. Your outside leg should be threading across their hip line on the far side. If you find yourself on the medial side of their leg, you are set up for an inside heel hook instead. Applying outward rotation from an inside angle or vice versa produces a mechanically weak attack that is easily defended.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Outside Heel Hook from Leg Entanglement Defender",
+    "description": "Defend against the outside heel hook from leg entanglement. Recognition cues, escape techniques, and safety-first defensive strategies for all BJJ practitioners.",
+    "overview": "Defending against the outside heel hook from leg entanglement demands early recognition of the attack setup and immediate protective action before rotational force is applied to the knee. The critical window for effective defense occurs before the opponent secures the heel cup grip and locks a reinforcing figure-four. Once rotation begins, the primary concern shifts from escape to injury prevention through immediate tapping. Successful defense involves hiding the heel through boot defense, clearing the knee line to remove submission access, and understanding when to accept a positional concession rather than risk catastrophic knee damage. The defender must internalize that there is no ego-based reason to resist a locked-in heel hook - the consequences of delayed tapping include 6-12 month recovery from ligament reconstruction. Every defensive strategy prioritizes joint preservation first and positional recovery second.",
+    "key_principles": [
+      "Tap early and without hesitation the moment you feel rotational pressure on your knee - knee ligaments provide almost no pain warning before structural failure occurs",
+      "Hide the heel as your first line of defense by curling toes and rotating your foot inward, making it mechanically difficult for the attacker to secure a deep heel cup",
+      "Clear the knee line by pushing the opponent's hips above your knee joint to eliminate their submission access before they establish the finishing angle",
+      "Never straighten your trapped leg under rotational threat - a straight leg provides the attacker with maximum leverage and eliminates your defensive structure",
+      "Maintain composure and avoid explosive, panicked movements that can create unpredictable forces on already-stressed ligaments and worsen potential injury",
+      "Recognize the transition from defensible to inescapable positions and choose to tap rather than fight through a fully locked heel hook"
+    ],
+    "recognition_cues": [
+      "Opponent adjusts their body to the lateral side of your trapped leg, repositioning their hips and torso to establish the outside angle",
+      "Feeling a hand sliding under your heel with wrist pressure against your Achilles tendon as the opponent establishes the heel cup grip",
+      "Opponent's knees clamping together around your trapped leg with their hips driving forward against your thigh",
+      "Sensing the beginning of outward rotational pressure on your heel as the opponent starts extending their hips and turning their torso",
+      "Opponent releasing control of your free leg or upper body to commit both hands to the heel cup and figure-four reinforcement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Boot defense - curl toes and rotate foot inward to hide the heel from cupping access",
+        "when_to_use": "Early in the attack sequence before the opponent has secured a deep heel cup grip. Most effective when you can feel them reaching for your heel but have not yet established the wrist-on-Achilles position.",
+        "targets_outcome": "Leg Entanglement/Top",
+        "if_successful": "Opponent cannot secure the heel cup and must either transition to a different submission or fight to expose your heel, buying you time to work other escapes",
+        "risk": "Boot defense alone does not escape the entanglement - you remain in danger and must follow up with knee line clearing or leg extraction"
+      },
+      {
+        "action": "Clear the knee line by hip escaping away and pushing opponent's body above your knee joint",
+        "when_to_use": "Before rotation begins and while you still have enough hip mobility to create the pushing motion. Prioritize this when boot defense is failing and you feel the heel cup deepening.",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Full escape from submission danger as opponent loses access to all leg submissions when positioned above the knee line, allowing you to recover open guard",
+        "risk": "Requires significant energy expenditure and the pushing motion can be countered if the opponent has strong hip control"
+      },
+      {
+        "action": "Roll with the rotation direction to relieve torsional stress on the knee joint",
+        "when_to_use": "During the rotation phase when pressure is already being applied and boot defense or knee clearing is no longer viable. This is a last-resort defensive measure before tapping.",
+        "targets_outcome": "Leg Entanglement/Top",
+        "if_successful": "Reduces rotational force on knee ligaments and may create a scramble opportunity where the attacker's grip loosens during the transition",
+        "risk": "Experienced attackers will follow your roll and maintain rotational pressure throughout. If the roll fails to relieve pressure, you must tap immediately."
+      },
+      {
+        "action": "Immediate tap when rotational pressure reaches the knee",
+        "when_to_use": "The moment you feel any rotational pressure transmitting through your heel into your knee joint. This is not a failure - this is the correct defensive response when other options have been exhausted.",
+        "targets_outcome": "Leg Entanglement/Top",
+        "if_successful": "Joint preservation - you avoid catastrophic ligament damage and can continue training",
+        "risk": "None. Tapping is always the correct choice when rotational pressure is applied to the knee."
+      }
+    ],
+    "escape_paths": [
+      "Clear knee line by hip escaping away and pushing opponent's body above your knee, then extract your trapped leg and recover to open guard before they can re-establish the entanglement",
+      "Strip the heel cup grip early before the figure-four reinforcement is locked by using both hands to fight the cupping hand off your heel, then immediately pummel your leg free from the entanglement",
+      "Roll with the rotation direction to momentarily relieve torsional stress, then use the scramble momentum to pummel your leg free and disengage completely from the leg entanglement"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Clear the knee line by pushing the opponent's hips above your knee joint using hip escaping motion and hand frames, then extract your trapped leg from the entanglement and recover to open guard before they can re-engage your legs"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the trapped leg in an attempt to create distance and escape the entanglement",
+        "consequence": "A straight leg provides the attacker with maximum rotational leverage and removes the defensive bend that protects the knee ligaments, making the heel hook significantly more dangerous",
+        "correction": "Keep your knee bent throughout the defense and work to clear the knee line through hip movement and pushing motions rather than leg extension. The bend in your knee is your primary structural defense."
+      },
+      {
+        "error": "Turning away from the opponent to escape, exposing the back",
+        "consequence": "Turning away increases the rotational angle available to the attacker for the outside heel hook and also exposes your back for a potential back take if they release the leg attack",
+        "correction": "Turn toward the opponent to reduce the available angle for outside rotation. If you must rotate, roll with the direction of the heel hook rotation, not away from the attacker."
+      },
+      {
+        "error": "Waiting too long to tap when rotational pressure is being applied to the knee",
+        "consequence": "Catastrophic knee ligament damage including ACL and MCL tears requiring 6-12 months of surgical recovery and rehabilitation with no guarantee of full return",
+        "correction": "Tap immediately at the first sign of rotational pressure reaching the knee joint. There is no flexibility to test and no safe margin for delayed tapping. Knee ligaments fail without warning pain."
+      },
+      {
+        "error": "Making explosive, panicked movements when caught in a deep heel hook position",
+        "consequence": "Unpredictable forces on already-stressed ligaments can cause injury even if the attacker is controlling their pressure, and explosive movement may tighten the entanglement rather than creating escape",
+        "correction": "Stay calm and work systematically through your defensive options. If boot defense and knee clearing have failed and rotation is being applied, tap cleanly and deliberately rather than thrashing."
+      },
+      {
+        "error": "Focusing only on the heel grip while ignoring the opponent's leg entanglement control",
+        "consequence": "Even if you strip one grip attempt, the opponent maintains positional control and can immediately re-attack with the same or different submission because the entanglement is still intact",
+        "correction": "Address the entanglement structure first by clearing the knee line and extracting your leg. Grip fighting the heel cup buys time but does not solve the positional problem."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What are the earliest recognition cues that an outside heel hook is being set up from leg entanglement?",
+        "answer": "The earliest cues include the opponent repositioning their body to the lateral side of your trapped leg, establishing the outside angle. You may feel them releasing control of your upper body or free leg as they commit both hands toward your foot. The most tactile cue is feeling a hand sliding under your heel with wrist pressure against your Achilles tendon. Their knees will begin clamping together around your trapped leg and their hips will drive forward against your thigh. Recognizing these cues early gives you the critical seconds needed to implement boot defense or begin clearing the knee line before the heel cup is fully secured.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is straightening your trapped leg a dangerous response to an outside heel hook attempt?",
+        "answer": "Straightening the trapped leg is dangerous because it provides the attacker with maximum rotational leverage on the knee joint. A bent knee has some structural resistance to rotation because the angle creates a mechanical disadvantage for the attacker's torque application. A fully extended knee removes this protective geometry and places the MCL and ACL under direct rotational stress with no structural buffer. Additionally, a straight leg is harder to extract from an entanglement because you lose the ability to use the bend as a pummeling tool. The extended position also makes kneebar attacks immediately available, exposing you to a second submission threat.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the safest way to tap when caught in an outside heel hook from leg entanglement?",
+        "answer": "The safest tapping method is a clear verbal tap saying 'tap' loudly enough for your partner to hear, combined with a physical hand tap on their body or the mat. Use your free hand to tap firmly and repeatedly rather than a single light touch. If both hands are trapped, use your free foot to tap on the mat or your partner's body. Any vocal distress signal should also be treated as a tap by both partners. The critical point is to tap before rotational pressure reaches the point of ligament stress - do not wait to see if you can escape. Tap at the first sign of rotational force transmitting through your heel into your knee.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has secured the heel cup but has not yet applied rotation - what is your highest priority action?",
+        "answer": "Your highest priority is to strip the heel cup grip before the figure-four reinforcement is locked. Use both hands to attack their cupping hand - grab their wrist and peel the grip off your heel while simultaneously working to hide your heel through boot defense (curling toes, rotating foot inward). If you cannot strip the grip within 2-3 seconds, immediately shift to clearing the knee line through hip escaping, because once the figure-four locks you will not be able to strip the grip with hand fighting alone. This is the last high-percentage defensive window - once rotation begins, your options narrow dramatically to rolling with the pressure or tapping.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive options are available at each stage of the outside heel hook attack from leg entanglement?",
+        "answer": "During the entanglement phase before heel cup: boot defense to hide the heel, knee line clearing through hip escape, and leg extraction to escape entirely. During the heel cup phase before figure-four: aggressive hand fighting to strip the grip, combined with boot defense and knee clearing. During the figure-four lock phase before rotation: last chance for knee line clearing and rolling preemptively with the anticipated rotation direction. During active rotation: roll with the rotation to relieve pressure, and if rolling fails, tap immediately without hesitation. The defensive window shrinks dramatically at each stage, which is why early recognition and immediate action are essential.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you choose to tap rather than continue attempting to escape an outside heel hook?",
+        "answer": "You should tap the moment you feel rotational pressure transmitting from your heel through to your knee joint. Unlike arm submissions where increasing pain gives you a progressive warning, heel hooks can cause catastrophic ligament tears with minimal pain preceding the structural failure. You should also tap if your boot defense and knee clearing have both failed and the opponent has a reinforced figure-four grip with hip extension developing. There is no safe margin for testing whether you can escape from a fully locked position. The principle is simple: if you are uncertain whether you can escape, tap. A round of training lost is infinitely better than months of surgical rehabilitation.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Tap Awareness",
+        "focus": "Learning to identify outside heel hook setups and developing immediate tap response",
+        "description": "Partner slowly demonstrates the full outside heel hook sequence while you practice identifying each recognition cue. Focus on feeling the transitions from entanglement to outside angle to heel cup to rotation. Practice tapping at progressively earlier stages until you can reliably tap before rotation begins. Build the habit of early tapping through 30+ repetitions per session."
+      },
+      {
+        "phase": "Phase 2: Boot Defense and Grip Stripping",
+        "focus": "Developing automatic heel hiding and grip fighting responses",
+        "description": "Partner attempts to secure the heel cup at 30-50% speed while you practice boot defense mechanics (toe curl, foot rotation) and grip stripping with both hands. Build automatic responses so that boot defense activates the moment you feel a hand approaching your heel. Progress to partner attempting at higher speeds as your defensive reflexes develop."
+      },
+      {
+        "phase": "Phase 3: Knee Line Clearing Under Pressure",
+        "focus": "Escaping the entanglement through hip movement and positional recovery",
+        "description": "Partner establishes the leg entanglement and works toward the heel cup while you practice clearing the knee line through hip escaping, pushing frames, and leg extraction. Train the full escape sequence from recognition through guard recovery. Partner increases resistance gradually from 30% to 70% over multiple training sessions."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Applying all defensive tools under full resistance with tap-early culture",
+        "description": "Full resistance rounds starting from leg entanglement where the attacker works for the outside heel hook and you work for escape. Maintain strict tap-early culture - tap the moment you feel rotation reaching the knee. Review each round to identify where defensive opportunities were missed and which stage your defense broke down. Progress to starting from earlier positions as defensive skills improve."
+      }
+    ]
+  }
+}

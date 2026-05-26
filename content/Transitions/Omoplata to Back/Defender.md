@@ -154,13 +154,15 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
 
 Defending the Omoplata to Back transition requires understanding that your own forward roll escape from the omoplata is what creates the back take opportunity. As the person caught in the omoplata, you face a dilemma: staying in place allows the shoulder lock to finish, but rolling forward exposes your back. Effective defense starts before the roll by recognizing when the attacker is prepared to follow, and continues through the roll with specific actions to prevent hook insertion and seatbelt establishment. The defender's primary goals are to complete the roll while creating separation from the attacker's shoulder connection, immediately turn to face the attacker after the roll, and prevent the seatbelt grip from being established. Understanding the attacker's sequence of shoulder ride, first hook, seatbelt, second hook allows you to disrupt the chain at its most vulnerable link. Advanced defenders learn to time their roll to break the shoulder connection, use their free arm to block hook insertion, and turn explosively into the attacker before back control is consolidated.
 
-**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Omoplata to Back?</p>
 
 - The attacker's outside leg remains heavy on your shoulder as you begin loading weight for the forward roll, indicating they intend to follow rather than finish the lock
 - The attacker releases their belt or hip grip and shifts their hand toward your far shoulder, pre-positioning for the seatbelt as you roll
@@ -173,6 +175,8 @@ Defending the Omoplata to Back transition requires understanding that your own f
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Omoplata to Back?</p>
 
 - Create maximum separation from the attacker's shoulder connection during the forward roll by rolling explosively and at an angle
 - Immediately turn to face the attacker the moment the roll completes rather than remaining with back exposed
@@ -188,6 +192,8 @@ Defending the Omoplata to Back transition requires understanding that your own f
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Omoplata to Back?</p>
 
 ### 1. Roll explosively at an angle to break shoulder connection and immediately turn to face attacker
 
@@ -225,6 +231,8 @@ Defending the Omoplata to Back transition requires understanding that your own f
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Omoplata to Back?</p>
+
 ### → [[Positions/Omoplata Control]]
 
 Roll explosively at a diagonal angle while keeping elbows tight to break the attacker's shoulder connection, then immediately turn to face them and establish guard before they can re-enter the omoplata or take your back. The angular roll is key because rolling straight forward is what the attacker expects and has drilled to follow.
@@ -240,6 +248,8 @@ If the attacker partially establishes back control, use two-on-one grip fighting
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Omoplata to Back?</p>
 
 ### 1. Rolling forward slowly and in a straight line directly over the trapped shoulder
 
@@ -274,6 +284,8 @@ If the attacker partially establishes back control, use two-on-one grip fighting
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Omoplata to Back?</p>
+
 **Phase 1: Controlled Roll and Turn Drill** - Developing explosive angled rolling and immediate turn-to-face after the roll
 Partner establishes omoplata and follows the roll at 50% speed. Practice rolling at a diagonal angle and immediately turning to face. Focus on speed of the turn rather than fighting for position. 20 repetitions per side, gradually increasing partner's follow speed over sessions.
 
@@ -290,29 +302,6 @@ Partner varies between attempting the shoulder lock finish and following for the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action immediately after completing the forward roll?
-**A**: Immediately turning to face the attacker. The moment the roll completes, you must explosively drive your inside shoulder down and rotate your hips to face them. Every fraction of a second spent flat on your stomach with your back exposed gives the attacker time to insert hooks and establish the seatbelt. The turn must be explosive and committed. Even with partial hooks in, facing the attacker dramatically reduces their control and submission options.
-
-**Q2**: Why is rolling at a diagonal angle more effective than rolling straight forward when defending this transition?
-**A**: Rolling straight forward follows the exact trajectory the attacker has drilled to follow. Their outside leg rides your shoulder perfectly when you roll in the direction they expect. Rolling at a diagonal angle forces the attacker's hip to disconnect from your shoulder because the angle change pulls their leg off your shoulder line. This creates the separation needed to turn and face before they can re-establish connection and insert hooks.
-
-**Q3**: If the attacker has already established one hook and the seatbelt after your roll, what is your defensive priority sequence?
-**A**: First, protect your neck immediately using chin tuck and two-on-one grip control on the choking arm. Second, strip the seatbelt by fighting the choking arm away from your neck. Third, turn toward the hook side to begin facing the attacker, which naturally disrupts their hook. Do not skip straight to fighting hooks because the seatbelt is what prevents your rotation, and an undefended neck means submission before escape. Address threats from most to least immediate.
-
-**Q4**: What recognition cue tells you the attacker plans to follow your roll rather than finish the omoplata?
-**A**: The attacker's hip staying glued to your shoulder rather than shifting away to finish the shoulder lock. When they plan to follow, their outside leg remains heavy on your shoulder and their weight shifts forward onto you. When they plan to finish the omoplata, they sit back, create distance from your shoulder, and apply rotational pressure. Recognizing this distinction before committing to the roll allows you to choose between explosive angled rolling or posturing up to escape the omoplata directly.
-
-**Q5**: How can you prevent the need for the forward roll entirely and eliminate the back take threat?
-**A**: Posture up aggressively before you are forced to roll. Use your free arm to post on the mat, drive your hips forward, and work to stand or create enough posture to extract your trapped arm. If you can escape the omoplata without rolling, the back take opportunity never arises. This requires early recognition that you are in the omoplata and immediate postural recovery before the attacker's leg pressure breaks your base completely. The later you recognize the omoplata, the less viable this option becomes.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Diamond Guard?</p>
+
 - The attacker releases their head control grip behind your neck — the sudden decrease in downward pulling force on your head is the primary alert signal
 - You feel the attacker's hand shifting from behind your neck to gripping your wrist or sleeve on the trapped arm side
 - The attacker's hips begin shifting laterally toward the overhook side, creating an angled position rather than square to your body
@@ -175,6 +177,8 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Triangle from Diamond Guard?</p>
+
 - Defend early during the grip switch window — once the triangle is locked, escape probability drops significantly
 - Address posture recovery as the first priority when head control is released, driving hips backward and straightening the spine
 - Keep the trapped arm's elbow tight to your ribs to prevent wrist grip establishment and maintain structural connection
@@ -187,6 +191,8 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Diamond Guard?</p>
 
 ### 1. Posture recovery during grip switch
 
@@ -224,6 +230,8 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Diamond Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time your posture recovery for the exact moment head control is released. Drive hips backward explosively while straightening your spine, creating enough space to strip the overhook with your free hand. Once the diamond frame is broken, the attacker falls back to standard closed guard without the enhanced controls. Focus on addressing the grip switch window within the first half-second of head control release.
@@ -239,6 +247,8 @@ If you cannot fully escape the diamond, preventing the triangle lock is still a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Diamond Guard?</p>
 
 ### 1. Waiting until the triangle is locked before attempting to defend
 
@@ -268,6 +278,8 @@ If you cannot fully escape the diamond, preventing the triangle lock is still a 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Diamond Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the grip switch initiation
 Partner establishes diamond guard and initiates the grip switch at slow speed. Practice recognizing the head control release and the accompanying hip angle shift. React with a simple posture recovery each time. Build pattern recognition through 30+ repetitions before adding timing pressure.
 
@@ -284,29 +296,6 @@ Partner establishes diamond guard and attacks freely with triangle, omoplata, an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the highest-percentage moment to defend the triangle from Diamond Guard?
-**A**: The highest-percentage defensive moment is during the grip switch when the attacker releases head control to establish wrist control on the trapped arm. This creates a brief window where one of the two diamond control points is absent, reducing the total control on your posture. Reacting within this window with immediate posture recovery or arm extraction has the highest success rate because the attacker cannot simultaneously switch grips and prevent your defensive movement.
-
-**Q2**: Why is turning your shoulder inward more effective than turning away when the choking leg approaches?
-**A**: Turning inward blocks the choking leg from crossing behind the neck by creating a physical barrier with the shoulder and reducing the space the leg can travel through. Turning away opens the space behind the neck wider, making the leg shoot easier, and simultaneously exposes the back for a potential back take. The inward turn also maintains your ability to drive forward into the attacker's guard, while turning away compromises your base and forward driving ability.
-
-**Q3**: Your opponent has locked a loose triangle but has not yet established the finishing angle — what is your escape priority?
-**A**: Immediately square your hips directly to the attacker's hips to prevent them from achieving the 30-45 degree finishing angle. A squared position significantly reduces choking pressure because the arterial compression requires an angled alignment. Once squared, begin posture recovery by driving your hips backward and straightening your spine. With posture established and hips squared, you can then work the trapped arm free or begin a systematic stack-based escape sequence.
-
-**Q4**: How does defending the triangle from Diamond Guard differ from defending a standard closed guard triangle?
-**A**: The primary difference is that the overhook in diamond guard eliminates your ability to post with the trapped arm, which is the most common triangle defense in standard closed guard. This means you must rely more heavily on posture recovery, shoulder turning, and free-hand defenses rather than arm-based frames. The defensive window is also narrower because the arm is already isolated by the overhook before the attack begins, removing the arm-isolation defense phase that exists in standard triangle setups.
-
-**Q5**: What should you do if you successfully prevent the triangle but remain in Diamond Guard?
-**A**: A failed triangle attempt often leaves the attacker with a compromised grip configuration — their wrist control may be incomplete, their overhook may have loosened during the leg shoot attempt, or their guard legs may not have fully re-closed. Exploit these openings immediately by addressing whichever control is weakest. If the overhook loosened, drive your trapped arm through to strip it. If guard legs are still open, begin passing or create distance. Do not allow the attacker to calmly re-establish the full diamond frame.
-
-
-
-</section>
 
 
 </main>

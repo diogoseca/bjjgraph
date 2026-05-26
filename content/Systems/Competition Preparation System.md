@@ -385,10 +385,10 @@ Competition preparation training follows progressive periodization with distinct
 - [[Mental Game Framework]] (System) - Psychological preparation methodology integrated into competition prep
 - [[IBJJF Strategy Guide]] (System) - Ruleset-specific preparation for IBJJF format tournaments
 - [[Competition Mindset]] (Principle) - Foundational psychological principles for competitive performance
-- [[Game Planning]] (Principle) - Core tactical planning concepts applied during match strategy development
-- [[Energy Management System]] (Principle) - Multi-match energy conservation and recovery protocols
-- [[Grip Fighting]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
-- [[Defensive Strategy]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
+- [[Positional Hierarchy]] (Principle) - Position value framework applied to strategic game plan development and scoring priorities
+- [[Maximum Efficiency Principle]] (Principle) - Energy expenditure optimization across multi-match tournament formats
+- [[Grips]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
+- [[Defensive Concepts]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
 - [[Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
 - [[Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
 - [[Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
@@ -404,7 +404,7 @@ Competition preparation training follows progressive periodization with distinct
 - [[Butterfly Guard]] (Position) - Dynamic guard system effective for aggressive competition approaches
 - [[Rear Naked Choke]] (Submission) - Highest-percentage submission finish requiring competition drilling
 - [[Triangle Choke]] (Submission) - Fundamental submission threat integrated into guard game plans
-- [[Armbar from Guard]] (Submission) - Essential offensive submission from bottom positions
+- [[Armbar from Armbar Control]] (Submission) - Essential offensive armbar completion integrated into competition game plans from multiple positions
 
 
 </section>

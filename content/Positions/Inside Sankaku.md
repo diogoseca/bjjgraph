@@ -28,7 +28,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain tight hip-to-hip connection to prevent opponent from creating escape space
@@ -173,9 +173,9 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (40% of attempts)
+- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (40% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (10% of attempts)
+- **[[Toe Hold from Inside Sankaku/Attacker|Toe Hold from Inside Sankaku]]** (10% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
 
@@ -185,7 +185,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (8% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (3% of attempts)
+- **[[Calf Slicer from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (3% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
@@ -195,7 +195,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 - **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (1% of attempts)
 
-- **[[Submissions/Inside Sankaku Heel Hook Finish/Attacker|Inside Sankaku Heel Hook Finish]]** (2% of attempts)
+- **[[Inside Heel Hook from Inside Sankaku/Attacker|Inside Heel Hook from Inside Sankaku]]** (2% of attempts)
 
 
 ### Common Mistakes

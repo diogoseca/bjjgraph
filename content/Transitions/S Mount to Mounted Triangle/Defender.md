@@ -162,6 +162,8 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting S Mount to Mounted Triangle?</p>
+
 - The attacker stops actively trying to extend your arm for the armbar and begins adjusting their hip angle forward toward your head
 - The attacker's head-side leg begins sliding downward from its posted position over your head toward your neck and chin
 - The attacker shifts from two-handed wrist pulling to one-handed arm control, freeing a hand to assist the leg threading or control your head
@@ -174,6 +176,8 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending S Mount to Mounted Triangle?</p>
 
 - Recognize the triangle setup before the leg threads under your chin by reading the attacker's hip adjustment and leg movement
 - Keep your chin tucked aggressively toward your chest to deny the space needed for the leg to slide under your neck
@@ -188,6 +192,8 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against S Mount to Mounted Triangle?</p>
 
 ### 1. Frame against attacker's hip with free arm to block leg threading path
 
@@ -225,6 +231,8 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending S Mount to Mounted Triangle?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's hip adjustment phase when their base is compromised between S Mount and triangle configurations. Bridge at a 45-degree angle toward their posting leg to attack their weakest base point. Follow through with hip escape to recover half guard as they are displaced.
@@ -240,6 +248,8 @@ Frame against the attacker's hip with your free arm to physically block the leg 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending S Mount to Mounted Triangle?</p>
 
 ### 1. Failing to recognize the triangle setup and continuing to focus exclusively on armbar defense
 
@@ -269,6 +279,8 @@ Frame against the attacker's hip with your free arm to physically block the leg 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against S Mount to Mounted Triangle?</p>
+
 **Phase 1: Recognition** - Identifying the transition cues from S Mount to triangle
 Partner performs the S Mount to triangle transition at 25% speed while you practice identifying each recognition cue: hip adjustment, leg movement, weight shift, grip change. Call out each cue as you feel it. Build the pattern recognition so that the hip scoot immediately triggers your defensive awareness. Repeat 20 times per side.
 
@@ -285,29 +297,6 @@ Start in S Mount bottom with partner attacking at full intensity. Defend the arm
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from armbar to triangle from S Mount?
-**A**: The earliest cue is the forward hip scoot where the attacker shifts their hips toward your head. This precedes the leg threading by one to two beats and represents the angle adjustment needed to slide the leg under your chin. You will feel their weight shift forward along your torso and their head-side leg begin to move downward from its posted position. This hip adjustment is the trigger for your defensive response, giving you the maximum time to act before the leg threads.
-
-**Q2**: Why is bridging during the transition phase more effective than bridging against an established mounted triangle?
-**A**: During the transition phase, the attacker's legs are between configurations, meaning neither the S Mount base nor the triangle lock is fully established. Their weight is shifting forward and their structural control is temporarily compromised. A bridge during this window attacks an unstable base. Once the triangle locks in figure-four, the leg structure creates a stable frame that absorbs bridge force effectively, making the bridge an energy-wasting exercise rather than a viable escape technique.
-
-**Q3**: Your opponent has partially threaded their leg under your chin but has not yet locked the figure-four - what defensive actions are still available?
-**A**: Several options remain in this critical window. First, use your free hand to push their calf off your neck and back over your head, reversing the threading motion before the lock establishes. Second, turn your head aggressively toward your trapped arm and tuck your chin to deny the choking angle while the lock is incomplete. Third, bridge explosively while the leg configuration is loose to displace their base. Fourth, extract your trapped arm during this moment when the attacker's grip focus is divided between arm control and leg positioning. Act immediately because the window closes once the figure-four locks.
-
-**Q4**: How should your defensive priorities change when transitioning from armbar defense to triangle defense in this position?
-**A**: In armbar defense, your priority is keeping the trapped arm bent and preventing extension. In triangle defense, your priority shifts to protecting your neck by blocking the leg thread and tucking your chin. The critical challenge is that the arm defense posture, specifically the bent arm, is what enables the triangle entry. You must simultaneously maintain arm protection while adding neck protection through chin tuck and leg-blocking frames. Your free arm transitions from a secondary role in armbar defense to the primary defensive tool against the triangle by framing against the attacker's hip.
-
-**Q5**: What should you do if the mounted triangle locks fully with the figure-four secured around your neck?
-**A**: Once the triangle is fully locked, the priority shifts from preventing the position to surviving and systematically dismantling it. Tuck your chin toward the trapped arm side to reduce choking pressure. Frame with your free arm against their hip to prevent them from adjusting the angle tighter. Work to create space by small hip escapes rather than explosive bridges. Attempt to walk your trapped arm deeper through the triangle to relieve the choking angle on your neck. If you cannot escape and the choke is tightening, tap before losing consciousness, as the mounted triangle is an extremely high-percentage finishing position.
-
-
-
-</section>
 
 
 </main>

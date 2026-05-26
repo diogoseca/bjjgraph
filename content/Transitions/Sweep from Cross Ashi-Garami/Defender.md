@@ -162,6 +162,8 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Cross Ashi-Garami?</p>
+
 - Opponent reaches across with their free hand toward your far arm, collar, or head, attempting to establish upper body control for the sweep fulcrum
 - Opponent plants their free foot firmly on the mat with knee bent, creating a posting base for a hip bridge or sit-up motion
 - Opponent's hips begin elevating or their torso starts rising from the mat, indicating the initiation of a bridge or sit-up sweep attempt
@@ -174,6 +176,8 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Cross Ashi-Garami?</p>
 
 - Monitor the opponent's free hand constantly—any attempt to establish upper body control (underhook, collar tie, sleeve grip) signals a sweep setup in progress
 - Maintain awareness of your base width and weight distribution, avoiding leaning too far forward or committing all weight to one direction
@@ -188,6 +192,8 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Cross Ashi-Garami?</p>
 
 ### 1. Post free hand on the mat in the direction of the sweep to maintain base and absorb the rotational force
 
@@ -225,6 +231,8 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Cross Ashi-Garami?</p>
+
 ### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Shut down the sweep early by denying upper body control. Strip any underhook, collar tie, or sleeve grip before the opponent can combine it with a hip bridge. Maintain a compact seated posture with awareness of posting options. When the sweep attempt fizzles, immediately re-engage with submission threats to punish the failed attempt and prevent the opponent from resetting for another try.
@@ -240,6 +248,8 @@ If the sweep begins to succeed and maintaining cross ashi becomes untenable, use
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Cross Ashi-Garami?</p>
 
 ### 1. Committing both hands fully to heel grips without maintaining base awareness or posting capability
 
@@ -269,10 +279,12 @@ If the sweep begins to succeed and maintaining cross ashi becomes untenable, use
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Cross Ashi-Garami?</p>
+
 **Phase 1: Sweep Recognition Drills** - Identifying sweep setup cues before the motion begins
 Partner establishes cross ashi bottom position and alternates between passive defense and sweep setup attempts. Focus exclusively on recognizing the cues: free hand reaching for upper body control, foot planting on the mat, hip elevation beginning. Call out each cue as you identify it without attempting any counter initially. Build the pattern recognition that enables early intervention.
 
-**Phase 2: Base Maintenance Under Pressure** - Maintaining cross ashi control while the opponent actively attempts sweeps
+**Phase 2: Base Under Pressure** - Maintaining cross ashi control while the opponent actively attempts sweeps
 Partner attempts sweep from cross ashi bottom at 50-70% intensity. Practice posting to maintain base, stripping upper body grips, and pushing the opponent's shoulder back to the mat. Focus on maintaining leg entanglement control throughout the defensive sequence. Reset and repeat for 20 sweep attempts, tracking how many you successfully defend while retaining the position.
 
 **Phase 3: Counter-Attack Integration** - Punishing sweep attempts with immediate submission acceleration or Saddle transitions
@@ -285,29 +297,6 @@ Begin rounds in cross ashi top position with the partner's primary objective bei
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a sweep from Cross Ashi-Garami bottom?
-**A**: The earliest cue is the opponent's free hand reaching toward your upper body—specifically toward your far arm for an underhook, your collar or neck for a collar tie, or your sleeve or wrist for grip control. This upper body connection attempt precedes the actual sweep motion and is the critical setup phase. Shutting down this grip establishment prevents the sweep from being mechanically possible, making it the optimal intervention point.
-
-**Q2**: Why is transitioning to Saddle often a better defensive response than simply fighting the sweep?
-**A**: Transitioning to Saddle converts a defensive moment into a positional advancement. If the sweep is gaining momentum and maintaining cross ashi is becoming difficult, fighting the sweep directly risks losing position entirely. The Saddle position offers superior control with your legs crossed more deeply around the opponent's leg, better heel hook finishing mechanics, and greater resistance to future sweep attempts. Using the opponent's upward hip motion to thread into Saddle turns their offense into your advancement.
-
-**Q3**: Your opponent plants their free foot on the mat and starts sitting up—what is your immediate defensive response?
-**A**: Immediately strip any upper body grip the opponent has established, as this is the critical connection enabling the sweep. Push their free-side shoulder or chest back down to the mat to prevent the sit-up from completing. If the sit-up motion has too much momentum to stop, post your near hand on the mat in the sweep direction to maintain base while accelerating your heel hook attack with the remaining grip. The combination of base maintenance and submission threat forces the opponent to choose between completing the sweep and defending the heel hook.
-
-**Q4**: How does the opponent's hip bridge actually create an opportunity for you to advance to Saddle?
-**A**: When the opponent bridges their hips upward, they create space between their legs and the mat that did not exist when they were lying flat. This vertical space allows you to thread your legs deeper into the entanglement and cross your feet in the Saddle configuration. Their elevation also momentarily reduces the downward pressure on your controlling legs, giving you freedom to adjust your leg positioning. Essentially, the opponent's sweep effort lifts the obstacle (their body weight pressing on your legs) that normally makes transitioning to Saddle more difficult from cross ashi.
-
-**Q5**: When should you choose to post a hand for base versus attacking the heel hook during a sweep attempt?
-**A**: Post for base when the sweep has already generated significant momentum and your balance is genuinely compromised—losing the position entirely is worse than temporarily reducing submission pressure. Attack the heel hook when you detect the sweep setup early (opponent reaching for upper body control, planting foot) and your base is still stable enough that the submission threat will force them to abandon the sweep before it develops. The earlier you recognize the sweep attempt, the more likely you can punish it with a submission rather than needing to defend reactively.
-
-
-
-</section>
 
 
 </main>

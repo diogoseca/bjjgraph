@@ -198,6 +198,8 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rear Naked Choke Setup?</p>
+
 - Maintain constant chest-to-back pressure throughout the setup to prevent opponent from creating escape space or turning to face you
 - Control the choking-side shoulder before attempting arm insertion by pulling it back with your harness grip to expose the neck
 - Use your non-choking hand to strip opponent's defensive grips before committing your choking arm beneath the chin
@@ -213,6 +215,8 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rear Naked Choke Setup?</p>
+
 - Back control established with chest-to-back connection and at least one hook or body triangle controlling opponent's hips
 - Harness grip (seatbelt) secured with one arm over opponent's shoulder and one under their armpit, hands connected
 - Opponent's defensive posture identified—noting which hand protects the neck and which defends lower controls
@@ -226,6 +230,8 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rear Naked Choke Setup step by step?</p>
 
 1. **Secure harness control**: From back control, establish the seatbelt grip with your choking arm over the opponent's shoulder and your supporting arm under their armpit. Lock your hands together by gripping your own wrist or clasping hands. Ensure your chest is pressed firmly against their back with forward pressure.
 2. **Strip defensive grips**: Use your non-choking hand to systematically peel away your opponent's defensive grips. Target the hand protecting their neck by cupping their wrist and pulling it down toward their waist. Control this arm by pinning it to their body or trapping it with your leg hook.
@@ -256,6 +262,8 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rear Naked Choke Setup?</p>
+
 - **Opponent two-on-one grips your choking arm and pulls it away from their neck before you can insert beneath the chin** (Effectiveness: High) - Your Response: Use your free hand to strip their top grip first, then reinsert. Alternatively, switch to attacking their exposed arm for an armbar from back or transition to crucifix to trap their defending arms → Leads to [[Positions/Back Control]]
 - **Opponent tucks chin tightly to chest creating a barrier that prevents your forearm from sliding beneath** (Effectiveness: High) - Your Response: Attack the jaw line instead—slide your forearm across their face forcing the chin up, or use your free hand to cup their forehead and lift. The discomfort of the forearm on the jaw often opens the neck → Leads to [[Positions/Back Control]]
 - **Opponent turns their body toward your choking arm, facing partially toward you and potentially recovering guard** (Effectiveness: Medium) - Your Response: Follow their turn while maintaining chest contact. If they commit to turning, transition to gift wrap control or technical mount. Use their turn momentum to take the opposite side back control → Leads to [[Positions/Turtle]]
@@ -268,6 +276,8 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rear Naked Choke Setup?</p>
 
 ### 1. Inserting the choking arm with palm facing up or elbow flared away from your body
 
@@ -312,10 +322,12 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rear Naked Choke Setup (Attacker)?</p>
+
 **Week 1-2: Mechanics Drilling** - Grip insertion and figure-four configuration
 Practice the arm insertion sequence and figure-four grip formation with a completely compliant partner. Focus on palm-down insertion with tight elbow, proper hand placement on bicep, and correct head control positioning. Perform 50+ repetitions per session until the movement pattern is automatic.
 
-**Week 3-4: Grip Fighting Integration** - Defensive grip stripping before insertion
+**Week 3-4: Grips Integration** - Defensive grip stripping before insertion
 Partner provides realistic hand fighting defense while you practice stripping their grips before inserting your choking arm. Develop your systematic approach to clearing defenses. Partner does not attempt escapes but maintains stubborn grip defense throughout.
 
 **Week 5-6: Positional Sparring** - Complete setup from back control
@@ -332,54 +344,12 @@ Develop your complete back attack system by drilling transitions between RNC att
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal palm orientation when inserting your choking arm beneath the opponent's chin?
-**A**: The palm should face down toward the opponent's chest, not up toward the ceiling. Palm-down insertion keeps your elbow tight against your own ribs, making it extremely difficult for the opponent to trap your arm with their hands or by tucking their chin. Palm-up insertion creates space between your elbow and body that opponents exploit to secure two-on-one control of your attacking arm.
-
-**Q2**: Your opponent has excellent chin-tucking defense and you cannot slide your forearm beneath their chin—what adjustment opens the neck?
-**A**: Attack the jaw line by sliding your forearm across their face rather than trying to go under the chin. The discomfort of your forearm bone pressing against their jaw typically forces them to turn their head or lift their chin to escape the pressure. Alternatively, use your free hand to cup their forehead and physically lift their chin, or create an angle change by shifting your hips to the choking side while pulling their far shoulder toward you with the harness grip.
-
-**Q3**: Where should your choking hand be placed when establishing the figure-four grip, and why?
-**A**: Your choking hand should grip your own opposite bicep, not be placed behind the opponent's head. The bicep grip creates the mechanical structure that makes the choke effective—your forearm and bicep form a V-shape that closes around both carotid arteries when you squeeze. Placing your hand behind their head before gripping your bicep leaves you with a much weaker configuration that relies on arm strength rather than proper leverage.
-
-**Q4**: Your opponent successfully two-on-ones your choking arm before you can insert it beneath their chin—how do you recover?
-**A**: Use your free hand to strip their top grip first, targeting their wrist and peeling it away from your arm. Once you clear the top hand, their bottom grip becomes much weaker and easier to strip. Alternatively, abandon the choke temporarily and attack their now-exposed arm—the same arm they're using to defend is vulnerable to armbar from back or can be trapped in crucifix position. Their defensive commitment creates offensive openings elsewhere.
-
-**Q5**: What creates the finishing pressure in a properly executed rear naked choke—arm flexion or chest expansion?
-**A**: Chest expansion and back muscle engagement create the finishing pressure, not arm flexion. The finish comes from pulling your shoulders back and expanding your chest while squeezing your elbows together toward your centerline. This uses your much stronger back and chest muscles rather than your biceps and forearms, resulting in faster finishes, less energy expenditure, and more consistent success against larger opponents.
-
-**Q6**: Your choking arm is beneath the opponent's chin but feels shallow—how do you deepen your position without losing what you have?
-**A**: Walk your arm deeper by rotating your choking shoulder forward while pulling your elbow tight across your own body. This motion slides your forearm further across their neck without creating the space that would allow them to escape or trap your arm. Simultaneously pull their head into the choke with your non-choking hand. Never accept a shallow position—a properly deep choke finishes in 3-5 seconds while a shallow choke may not finish at all.
-
-**Q7**: Opponent starts escaping their hips to put their back on the mat while you have the choke partially set—what is your response?
-**A**: Follow their movement with your body while maintaining your grip structure and chest contact. If they successfully get their back to the mat, you transition to mounted crucifix or S-mount position. The choke can often still be finished from this modified position as long as you maintained your arm configuration. Do not release the choke to chase the back control—your grip is already partially established and worth preserving.
-
-**Q8**: What is the most common positional error practitioners make when focusing intensely on getting the RNC setup?
-**A**: Losing chest-to-back connection while focusing on the arm insertion and grip fighting. When your chest separates from their back, you create space that allows them to turn toward you, escape your hooks, or recover to turtle. The solution is to maintain constant forward pressure through your chest throughout the entire setup sequence—if you feel space developing, re-establish chest contact immediately before continuing the choke work.
-
-**Q9**: Your opponent reaches back to grab your head while you're setting up the choke—is this a threat or an opportunity?
-**A**: This is an opportunity. When they reach back for your head, they remove one or both hands from defending their neck and expose their arm for attacks. Keep your head tight to their shoulder where they cannot effectively grip it, then strip any grip they do establish immediately. Their reaching arm becomes vulnerable to armbar from back or can be trapped for crucifix. Meanwhile, their neck defense is now compromised by their positional choice.
-
-**Q10**: In what order should you address the opponent's defenses when setting up the RNC—strip their grips first or create angle first?
-**A**: Strip their grip defenses first, then create the angle for insertion. If you create angle before stripping grips, their defending hands are still in position to catch your arm during insertion. By stripping grips first while maintaining the neutral harness position, you eliminate their primary defense. Then the angle change exposes the neck, and your clean insertion meets minimal resistance. This sequence also ensures you maintain positional control throughout rather than compromising your position for angle.
-
-**Q11**: What are the optimal timing cues that indicate your opponent's neck is exposed and ready for arm insertion?
-**A**: The optimal timing window opens when you've successfully stripped their defending grip and their chin lifts momentarily—either from your angle change pulling their shoulder back, or from their attempt to reposition their defense. Watch for the gap appearing between their chin and chest, and for the moment when their defending hand moves away from their neck. Insert immediately when you see daylight under the chin, as this window closes quickly once they recognize the exposure.
-
-**Q12**: What hook adjustments should you make during the RNC setup to maintain back control while freeing your arms to work?
-**A**: During the setup, your hooks should actively clamp inward with your heels driving into their inner thighs rather than passively resting. If you need additional stability, consider transitioning to body triangle before committing heavily to the choke setup—this frees both hands for grip fighting without risking hook escapes. If using hooks, keep them deep with toes pointed outward and maintain constant inward pressure throughout the hand fighting sequence to prevent clearance attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rear Naked Choke Setup?</p>
 
 The Rear Naked Choke is a blood choke that restricts blood flow to the brain through compression of the carotid arteries. Unconsciousness can occur within 8-15 seconds of a properly applied choke, making immediate tap recognition and release essential. Training partners must tap clearly and early when the choke is secured—do not attempt to fight through a locked RNC to prove toughness. The choking practitioner must release immediately upon feeling the tap, as even a few additional seconds of pressure after unconsciousness begins can cause harm. When practicing, use controlled pressure and communicate clearly with your partner. If a partner goes unconscious, immediately release all pressure, position them on their side, and monitor their breathing—most will regain consciousness within 10-20 seconds. In training, establish clear tap protocols and never apply finishing pressure at full intensity unless your partner has explicitly consented to live finishing attempts.
 

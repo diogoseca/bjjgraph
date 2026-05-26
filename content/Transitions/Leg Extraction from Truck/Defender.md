@@ -156,6 +156,8 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction from Truck?</p>
+
 - Trapped ankle begins rotating or circling within your figure-four hooks, indicating the bottom player is searching for the path of least resistance through the entanglement
 - Bottom player's knee drives outward against your controlling leg, creating angular separation that widens the gap in the figure-four configuration
 - Bottom player's hip rotates sharply inward toward the mat on the trapped leg side, amplifying the angular separation from the knee drive
@@ -167,6 +169,8 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction from Truck?</p>
 
 - Maintain constant awareness of the trapped leg's movement within your figure-four—any rotation or circling signals an extraction attempt
 - Tighten hooks preemptively when you detect ankle rotation or knee drive rather than waiting for significant loosening to develop
@@ -181,6 +185,8 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction from Truck?</p>
 
 ### 1. Squeeze hooks and tighten figure-four entanglement around the trapped leg
 
@@ -218,6 +224,8 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction from Truck?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 Recognize extraction attempts early through ankle rotation and knee drive cues, immediately tighten figure-four hooks, maintain boot pressure to restrict hip rotation, and use calf slicer threats to force the bottom player back to defensive mode.
@@ -233,6 +241,8 @@ When the entanglement is irreversibly loosening, proactively transition to back 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction from Truck?</p>
 
 ### 1. Not recognizing ankle rotation within the entanglement as an early extraction attempt
 
@@ -262,6 +272,8 @@ When the entanglement is irreversibly loosening, proactively transition to back 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction from Truck?</p>
+
 **Phase 1: Recognition Sensitivity** - Developing tactile awareness of extraction movements within the entanglement
 Partner performs slow ankle rotation and knee drive movements while you focus exclusively on feeling these movements through your hooks. Call out each movement as you detect it. Build sensitivity to the subtle early-stage extraction cues before they develop into full extraction spirals.
 
@@ -278,26 +290,6 @@ Start in truck with both players at full resistance. Top player works to maintai
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that the bottom player is attempting a leg extraction from truck?
-**A**: The earliest cue is feeling the trapped ankle begin rotating or circling within your figure-four hooks. This rotation precedes the more obvious knee drive and hip rotation phases of the extraction. Recognizing this subtle movement and immediately squeezing your hooks tighter prevents the bottom player from finding the path of least resistance through your entanglement and shuts down the extraction before it develops momentum.
-
-**Q2**: When should you abandon the truck entanglement and transition to back control during an extraction attempt?
-**A**: Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion.
-
-**Q3**: How do you use the calf slicer threat to counter extraction attempts without losing positional control?
-**A**: Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available.
-
-**Q4**: Why is maintaining boot pressure critical specifically for preventing leg extraction?
-**A**: Boot pressure restricts the bottom player's hip rotation, which is the third and most critical component of the extraction spiral. Without hip rotation, the ankle rotation and knee drive alone cannot generate sufficient angular separation to free the leg from a properly configured figure-four entanglement. The boot effectively eliminates one dimension of the three-dimensional spiral, reducing the extraction to a two-dimensional movement that the figure-four can resist.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ When prevention fails and the arm wrap is partially or fully established, the de
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Squid Guard Entry?</p>
+
 - Bottom player extracts your lapel from your gi and begins feeding it toward your posting arm rather than your leg
 - You feel lapel fabric threading underneath your tricep from the inside while your arm is extended forward in pressure passing
 - Bottom player shifts their hips toward your posting arm side and establishes a collar grip anchoring you in place
@@ -178,6 +180,8 @@ When prevention fails and the arm wrap is partially or fully established, the de
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Squid Guard Entry?</p>
 
 - Recognize lapel extraction early and deny the feed path before the wrap begins
 - Retract the posting arm immediately when you feel lapel fabric threading underneath
@@ -192,6 +196,8 @@ When prevention fails and the arm wrap is partially or fully established, the de
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Squid Guard Entry?</p>
 
 ### 1. Retract posting arm and create distance before wrap completes
 
@@ -229,6 +235,8 @@ When prevention fails and the arm wrap is partially or fully established, the de
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Squid Guard Entry?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel wrap before it locks by retracting the arm early, circling the arm to shed the fabric, or creating distance that breaks the bottom player's secondary collar grip. Return to standard lapel guard passing where you can address the lapel configuration with your preferred approach.
@@ -244,6 +252,8 @@ Drive a decisive knee cut pass through the bottom player's legs before they esta
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Squid Guard Entry?</p>
 
 ### 1. Leaving posting arm extended forward while bottom player has extracted lapel
 
@@ -278,6 +288,8 @@ Drive a decisive knee cut pass through the bottom player's legs before they esta
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Squid Guard Entry?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner attempts squid guard entry at slow speed. Focus on recognizing the lapel feed direction and trigger. Practice immediate arm retraction and posture recovery the moment you feel fabric threading under your arm. Build the reflexive response to withdraw the posting arm.
 
@@ -294,29 +306,6 @@ Start with partner in established lapel guard with instruction to enter squid gu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?
-**A**: The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers.
-
-**Q2**: Why is it critical to address the collar grip before attempting to strip the arm wrap?
-**A**: The collar grip serves as an anchor that prevents you from creating the distance needed to escape the arm wrap. Without the collar grip, the bottom player cannot maintain the tension needed to keep the wrap effective—you can simply posture away and the fabric falls slack. Stripping the arm wrap while the collar grip remains means the bottom player can immediately re-feed the lapel.
-
-**Q3**: Your arm is already wrapped but the bottom player has not yet angled their hips—what defensive window exists?
-**A**: This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder.
-
-**Q4**: When is driving a knee cut pass through squid guard entry the correct defensive choice?
-**A**: Drive the knee cut when the bottom player has committed to the arm wrap but neglected their leg frames—meaning their legs are not actively blocking your knee from cutting through. If you have a clear path between their legs and they are focused on completing the upper body wrap, advancing past their legs makes the arm wrap irrelevant. Never attempt this when they have an active knee shield or lasso hook blocking the pass.
-
-**Q5**: What is the primary risk of backstep defense against squid guard entry?
-**A**: The backstep rotates your body and can expose your back to the bottom player. If they recognize the backstep early and follow your rotation aggressively, they can pursue a back take using the lapel grip as an anchor. To mitigate this risk, maintain shoulder pressure during the backstep and strip the lapel grip as you rotate to prevent them from following you to your back.
-
-
-
-</section>
 
 
 </main>

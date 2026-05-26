@@ -192,6 +192,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll to Guard?</p>
+
 - Time the roll during opponent's weight shifts or grip adjustments when their base is momentarily compromised
 - Commit fully to the forward rotation once initiated - partial attempts allow opponent to ride and recover
 - Tuck chin to chest and round spine completely to create a smooth rolling surface and protect the neck
@@ -207,6 +209,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll to Guard?</p>
+
 - Opponent's weight is shifted forward or to one side creating rolling space beneath
 - At least partial control of the choking arm has been achieved through grip fighting
 - Chin is protected and tucked with spine ready to round for the roll
@@ -220,6 +224,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll to Guard step by step?</p>
 
 1. **Secure choking arm**: Establish two-on-one control on opponent's choking arm by gripping their wrist with your same-side hand and controlling their elbow or tricep with your other hand. This prevents choke completion and sets up grip break.
 2. **Create forward space**: Push opponent's controlled arm across your body toward your opposite hip while simultaneously tucking your chin tight to your chest. This action disrupts their harness structure and creates the angle needed for forward rotation.
@@ -250,6 +256,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll to Guard?</p>
+
 - **Opponent flattens you before roll by driving hips forward and spreading weight wide to eliminate rolling space** (Effectiveness: High) - Your Response: Abort the roll attempt and return to systematic grip fighting escape. Wait for next timing opportunity when their weight shifts or they attack. → Leads to [[Positions/Harness]]
 - **Opponent follows the roll and maintains back control by driving their hips into yours throughout the rotation** (Effectiveness: High) - Your Response: If they follow successfully, immediately work to clear hooks before they re-establish full control. Use the momentum to continue fighting rather than settling into worse position. → Leads to [[Positions/Back Control]]
 - **Opponent releases harness and transitions to front headlock as you roll forward** (Effectiveness: Medium) - Your Response: Continue the roll through to guard rather than stopping in turtle. If caught in front headlock, immediately fight for underhook and work to recover posture or sit through to guard. → Leads to [[Positions/Harness]]
@@ -261,6 +269,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll to Guard?</p>
 
 ### 1. Initiating roll without first establishing control of the choking arm
 
@@ -305,6 +315,8 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll to Guard (Attacker)?</p>
+
 **Week 1-2** - Rolling mechanics
 Practice forward rolls in isolation focusing on tucking chin, rounding spine, and smooth rotation. Add the diagonal angle component. Partner provides harness grip without resistance while you drill the rolling motion and timing.
 
@@ -322,54 +334,12 @@ Implement in positional sparring from back control starting position. Partner wo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Roll to Guard?
-**A**: The primary goal is to escape back control by executing a controlled forward roll that reverses the positional hierarchy, ending with the defender facing their opponent in a guard position. This converts a highly disadvantageous position (giving up back) into a neutral or slightly advantageous position (playing guard).
-
-**Q2**: What position do you start Roll to Guard from?
-**A**: This technique starts from Harness Bottom position, where the opponent has established back control with a seat belt grip configuration (one arm over your shoulder, one under your opposite armpit). You may or may not have hooks in, but the harness grip must be present.
-
-**Q3**: What are the key grips needed for Roll to Guard?
-**A**: The essential grip is two-on-one control on the opponent's choking arm - grip their wrist with your same-side hand and control their elbow or tricep with your other hand. This grip must be maintained throughout the entire roll to prevent choke completion and ensure you can pull opponent into guard upon completion.
-
-**Q4**: How do you counter Roll to Guard if you are the top player?
-**A**: The most effective counter is preventing the roll by flattening the bottom player - drive hips forward and spread weight wide to eliminate rolling space beneath them. If they initiate the roll, follow their rotation by driving your hips into theirs throughout the motion to maintain back control. Alternatively, release the harness early and transition to front headlock as they roll.
-
-**Q5**: When is the best time to attempt Roll to Guard?
-**A**: Optimal timing windows include: when opponent shifts their weight forward or to one side compromising their base, when they adjust their grip structure creating momentary looseness, after successful grip fighting that weakens their harness connection, or when they attack a choke and over-commit their weight. Avoid attempting when opponent has tight body triangle or fully flattened position.
-
-**Q6**: Your opponent begins following your roll by driving their hips - how do you adjust?
-**A**: If you feel opponent following, immediately accelerate the roll and exaggerate the diagonal angle to create separation. Upon completion, do not try to close guard - instead establish open guard frames with feet on hips to create distance. If they successfully maintain back control, immediately address hooks before they re-tighten the harness and look for next escape opportunity.
-
-**Q7**: What is the most critical hip movement in this technique?
-**A**: The critical hip movement is driving your hips up and forward to initiate the roll while simultaneously rotating them diagonally toward your underhook side. This creates the momentum needed to complete the rotation while maximizing your escape angle. Your hips lead the movement - the upper body follows.
-
-**Q8**: Why must the roll be directed diagonally rather than straight forward?
-**A**: Rolling diagonally toward the underhook side creates a 45-degree escape angle that makes it significantly harder for the opponent to follow your rotation and re-take your back. A straight forward roll gives them a direct tracking path. The diagonal angle also positions you better for immediate guard recovery with proper alignment.
-
-**Q9**: Your roll completes but opponent immediately begins passing - what is your recovery sequence?
-**A**: Immediately establish frames with feet on hips to create distance while retaining grip on their arm. Use the controlled arm to off-balance them and disrupt their passing attempt. Hip escape to create angle and insert knee shield or recompose closed guard. The arm control you maintained through the roll is your primary tool for disrupting their pass.
-
-**Q10**: How does body triangle presence affect your decision to attempt this escape?
-**A**: Body triangle significantly compromises roll to guard because the locked legs prevent the hip freedom needed for rotation and allow opponent to easily follow any attempted motion. Address body triangle first using specific body triangle escapes (turning into triangle, attacking the lock) before attempting roll to guard. Only employ this technique once legs are freed.
-
-**Q11**: Your grip fighting has weakened the harness but opponent still has one hook deep - should you attempt the roll?
-**A**: One remaining hook is manageable if the harness grip is substantially weakened. The key factor is whether the hook will prevent your rotation or allow them to follow. If the hook is on the side you are rolling toward, clear it first or redirect your roll angle. If it is on the opposite side, proceed with the roll as the rotation naturally strips that hook during the forward momentum.
-
-**Q12**: What chain attacks are available if the initial roll attempt stalls mid-rotation?
-**A**: If the roll stalls, immediately transition to alternative escapes rather than forcing completion. From a partial roll position, you can hip escape toward turtle and work technical standup, switch to a granby roll using the opposite shoulder angle, or use the partial momentum to create enough space to turn into half guard. The worst option is trying to complete a stalled roll against a prepared opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll to Guard?</p>
 
 Practice roll mechanics on mats with adequate padding before adding partners. During partner drilling, communicate clearly and tap immediately if neck is compromised during rotation. The rolling motion can cause neck strain if chin is not properly tucked - always tuck chin firmly to chest before initiating. Beginners should drill at slow speed until mechanics are ingrained. Avoid this technique if you have existing neck or cervical spine injuries. When drilling with resistance, ensure partner understands to release grips if you become stuck mid-roll to prevent neck compression injuries.
 

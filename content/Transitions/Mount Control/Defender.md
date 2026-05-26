@@ -162,6 +162,8 @@ Defending against Mount Control requires understanding that the top player's pri
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount Control?</p>
+
 - Top player's hips are heavy and centered on your solar plexus with chest-to-chest connection, indicating they have settled into active control mode rather than transitioning to attacks
 - Grapevine hooks are engaged inside your thighs, restricting your ability to bridge or create hip rotation for escapes
 - Top player is actively swimming hands inside your frames and controlling your wrists rather than reaching for submissions, indicating a control-first strategy
@@ -173,6 +175,8 @@ Defending against Mount Control requires understanding that the top player's pri
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount Control?</p>
 
 - Protect your neck and arms first - tuck elbows tight and keep hands in a defensive position near your collar to deny submission grips before attempting any escape
 - Create and preserve space incrementally through chained hip escapes rather than single explosive movements that exhaust energy reserves
@@ -187,6 +191,8 @@ Defending against Mount Control requires understanding that the top player's pri
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount Control?</p>
 
 ### 1. Elbow-knee escape (shrimp) to insert knee shield and recover half guard
 
@@ -224,6 +230,8 @@ Defending against Mount Control requires understanding that the top player's pri
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Execute a hip escape sequence by first establishing a forearm frame on the top player's hip, then shrimping your hips away to create enough space to insert your inside knee across their thigh. Lock your legs around their trapped leg to establish half guard. Chain multiple small hip escapes rather than one large movement - each shrimp creates incremental space that your frame preserves until the next movement.
@@ -239,6 +247,8 @@ Set up the upa by first trapping the top player's arm on one side (overhook or w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount Control?</p>
 
 ### 1. Attempting explosive full-body bridges without first trapping the top player's arm and leg on the same side
 
@@ -273,6 +283,8 @@ Set up the upa by first trapping the top player's arm on one side (overhook or w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount Control?</p>
+
 **Week 1-2** - Frame establishment and maintenance
 Partner holds mount with moderate pressure while you practice establishing forearm frames on hips, maintaining elbow-knee connections, and breathing under pressure without attempting escapes
 
@@ -289,29 +301,6 @@ Full resistance positional sparring starting from mount where partner actively m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct escape hierarchy when defending against active Mount Control?
-**A**: First, prevent further advancement to high mount or technical mount by keeping elbows tight and hands defensive. Second, establish structural frames using forearms on hips and elbow-knee connections to create a barrier against full weight settlement. Third, execute hip escapes timed to weight shifts, chaining small shrimps to insert a knee and recover half guard. Skipping steps - such as attempting an explosive escape without frames established - dramatically reduces success rate and wastes energy.
-
-**Q2**: Your opponent has heavy grapevines engaged and you cannot generate any bridging power. What is your primary escape pathway?
-**A**: When grapevines eliminate bridging power, focus entirely on the elbow-knee escape. Frame your forearm on their hip on your escape side and begin micro-shrimps to create incremental space. Since their legs are committed to grapevines, their base is narrower than with knees posted wide. Target the moment they adjust grapevine pressure or shift weight to address your upper body frames - that brief lightening of hip control is your window to execute a larger hip escape and insert your knee.
-
-**Q3**: How should you time your escape attempts against a top player who is actively reading and countering your movements?
-**A**: Time escapes to coincide with the top player's own movements rather than initiating from static positions. When they reach for a grip, shift weight to attack, or adjust their base after countering a previous attempt, their weight distribution changes momentarily. The bridge works best when they reach forward, shifting weight to their hands. The hip escape works best when they shift laterally to address your movement on one side, lightening pressure on the opposite hip. Create the opening with a feint, then exploit the reaction.
-
-**Q4**: You have established a forearm frame on your opponent's hip but they begin swimming their elbow inside to strip it. What do you do?
-**A**: Do not fight to maintain a frame that is being stripped - this becomes a strength battle you will lose from bottom position. Instead, use their commitment to stripping your frame as a timing window. As they drive their elbow inside, their weight shifts toward that side and their opposite hip lightens. Immediately hip escape toward the side they are not pressuring, using the frame-strip as your trigger for the escape movement. Alternatively, switch your frame to the other hip before theirs is fully eliminated, keeping them in a constant frame-chasing cycle.
-
-**Q5**: Why is chaining a bridge into a hip escape more effective than either technique alone against active Mount Control?
-**A**: The bridge forces the top player to post a hand and shift weight to counter the roll direction, which is the correct defensive response for them. However, this posting action necessarily lightens their hip pressure on the opposite side and commits their weight laterally. The immediate hip escape exploits exactly this weight shift - you shrimp away from the direction they posted toward, moving into the space their base adjustment just vacated. Neither technique alone overcomes active control, but together they create a dilemma where the correct defense to the bridge creates the opening for the hip escape.
-
-
-
-</section>
 
 
 </main>

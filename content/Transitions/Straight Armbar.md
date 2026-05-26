@@ -28,7 +28,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -204,15 +204,15 @@ The Straight Armbar is a core component of the Mounted Crucifix attack system, f
 
 - [[Positions/Armbar Control]] - Success outcome position — where you finish or maintain submission threat
 
-- [[Submissions/Armbar from Guard]] - Related submission — shares finishing mechanics from different starting position
+- [[Transitions/Armbar from Crucifix]] - Related technique — armbar variation from traditional crucifix sharing arm isolation mechanics
 
 - [[Transitions/Armbar from Crucifix]] - Related technique — armbar variation from traditional (non-mounted) crucifix
 
-- [[Transitions/Choke from Crucifix]] - Complementary attack — choke threat creates armbar openings and vice versa
+- [[Submissions/Choke from Crucifix]] - Complementary attack — choke threat creates armbar openings and vice versa
 
 - [[Transitions/Mounted Crucifix to S Mount]] - Alternative transition — when armbar is defended, S-mount offers different attack angles
 
-- [[Submissions/Armbar from Mount]] - Related technique — shares finishing mechanics from standard mount position
+- [[Transitions/Mount to Armbar]] - Related technique — armbar entry from standard mount sharing finishing mechanics
 
 - [[Transitions/Gift Wrap Transition]] - Recovery option — when arm control is partially lost during armbar attempt
 

@@ -64,8 +64,8 @@
       "relationship": "Fallback position if transition fails and Meathook cannot be re-established"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack when opponent prioritizes arm defense over head protection"
+      "name": "Armbar on Free Arm",
+      "relationship": "Alternative attack from Meathook when opponent prioritizes arm defense over head protection"
     }
   ],
   "attacker": {
@@ -142,7 +142,7 @@
       {
         "counter": "Arm pummel to create inside position and block shin path",
         "effectiveness": "Low",
-        "your_response": "Their arm pummel opens armbar angle—switch to Armbar from Guard if they prioritize arm positioning over head protection",
+        "your_response": "Their arm pummel opens armbar angle—switch to Armbar on Free Arm if they prioritize arm positioning over head protection",
         "targets_outcome": "Meathook/Bottom"
       }
     ],
@@ -195,7 +195,7 @@
         "description": "Full resistance positional sparring starting from Meathook. Partner attempts all viable escapes while you work transition timing and backup attacks. Track success rate and identify remaining technical gaps."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary trigger that signals you should attempt the Meathook to Gogoplata Control transition?",
         "answer": "The trigger is opponent's committed forward pressure—when they drive their head and shoulders toward your chest with their weight shifting forward off their knees. This forward commitment places their throat directly into the path of your transitioning shin and prevents them from posturing out during the movement."
@@ -230,7 +230,7 @@
       },
       {
         "question": "Your opponent blocks the shin path by pummeling their arm to inside position—what alternative attack opens?",
-        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar from Guard by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack."
+        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar on Free Arm by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack."
       },
       {
         "question": "What specific hip flexibility prerequisites must be met before attempting this transition in live rolling?",
@@ -320,7 +320,7 @@
         "correction": "Hands should focus on creating frames against opponent's hips or on the mat for base. Your posture and head position are the primary defensive tools—use structural defense rather than hand-fighting the leg."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most reliable defensive action when you feel the shin hook release from your tricep in Meathook?",
         "answer": "Explosive posture recovery is the highest-percentage defense. The moment the shin pressure lifts from your arm, drive your hips back and chest upward simultaneously. This must be immediate and explosive because the defensive window between shin release and throat contact is only one to two seconds. Hesitation allows the shin to reach your throat where defensive options become severely limited."

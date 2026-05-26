@@ -184,7 +184,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 **Space Recognition and Exploitation**: The ability to identify minimal space opportunities created by opponent's weight shifts or positional adjustments and immediately exploit them through insertion of frames or body repositioning. This skill involves heightened positional awareness and rapid decision-making under pressure.
 
-**Angle Creation and Maintenance**: Developing perpendicular or angular positions relative to opponent's pressure vectors, redirecting force rather than meeting it directly. This includes understanding how small angular adjustments compound into larger positional improvements and how to maintain gained angles against opponent's recorrection attempts.
+**Dominant Angles and Maintenance**: Developing perpendicular or angular positions relative to opponent's pressure vectors, redirecting force rather than meeting it directly. This includes understanding how small angular adjustments compound into larger positional improvements and how to maintain gained angles against opponent's recorrection attempts.
 
 **Sequential Movement Execution**: The capacity to execute multi-stage escape sequences where each movement prepares for the next, rather than attempting single-step escapes. This requires understanding proper sequencing order, recognizing when to progress to the next stage, and adapting sequences based on opponent's responses.
 
@@ -352,30 +352,30 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 ## Related
 
 ### Related Principles
-- **[[Frame Creation]]** (Prerequisite): Frame Creation forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts.
+- **[[Frames]]** (Prerequisite): Frames forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip movement patterns are essential mechanical components of escape fundamentals, providing the primary means of generating distance and creating angles from bottom positions.
-- **[[Escape Hierarchy]]** (Extension): Escape Hierarchy builds upon escape fundamentals by providing positional priority system for determining which escapes to attempt based on current position's relative danger and opportunity.
-- **[[Pin Escape Methodology]]** (Extension): Pin Escape Methodology applies escape fundamentals specifically to pinning positions, providing position-specific implementations of the universal escape principles.
-- **[[Defensive Strategy]]** (Complementary): Defensive Strategy works synergistically with escape fundamentals by providing overall defensive framework within which specific escape mechanics are deployed based on strategic objectives.
-- **[[Space Management]]** (Complementary): Space Management principles directly support escape fundamentals by providing conceptual framework for understanding how space is created, maintained, and exploited during defensive sequences.
-- **[[Shrimping]]** (Prerequisite): Shrimping mechanics form the foundational movement pattern for executing hip escapes that create the space and angles necessary for all escape sequences.
-- **[[Bridging Mechanics]]** (Prerequisite): Bridging provides essential explosive movement capability for creating vertical space and disrupting opponent's base during critical escape moments.
-- **[[Mount Escape Series]]** (Extension): Mount Escape Series represents specific application of escape fundamentals to mount position with detailed technical sequences and position-specific variations.
-- **[[Side Control Escapes]]** (Extension): Side Control Escapes apply escape fundamentals specifically to side control scenarios with techniques optimized for this particular pin structure.
-- **[[Guard Retention]]** (Complementary): Guard Retention principles complement escape fundamentals by preventing the need for escapes through proactive defensive positioning before pins are established.
+- **[[Positional Hierarchy]]** (Extension): Positional Hierarchy builds upon escape fundamentals by providing a priority system for determining which escapes to attempt based on current position's relative danger and opportunity.
+- **[[Dealing with Pressure]]** (Extension): Dealing with Pressure applies escape fundamentals specifically to pinning scenarios, providing position-specific methods for managing and redirecting opponent's weight during escape sequences.
+- **[[Defensive Concepts]]** (Complementary): Defensive Concepts works synergistically with escape fundamentals by providing overall defensive framework within which specific escape mechanics are deployed based on strategic objectives.
+- **[[Distance Control]]** (Complementary): Distance Control principles directly support escape fundamentals by providing conceptual framework for understanding how space is generated, maintained, and exploited during defensive sequences.
+- **[[Bridge and Shrimp]]** (Prerequisite): Bridge and shrimp mechanics form the foundational movement patterns for executing hip escapes and explosive displacements that create the space and angles necessary for all escape sequences.
+- **[[Levers]]** (Prerequisite): Leverage principles provide the mechanical foundation for generating maximum force from inferior positions, enabling effective frame pressure and hip movement without relying on muscular strength alone.
+- **[[Position Chains]]** (Extension): Position Chains represents the systematic linking of escape sequences where each recovery position creates opportunities for subsequent positional improvements or offensive transitions.
+- **[[Transition Management]]** (Extension): Transition Management applies escape fundamentals to the critical moments between positions, ensuring smooth progression from inferior pins through escape sequences to recovered guard positions.
+- **[[Control Maintenance]]** (Complementary): Control Maintenance complements escape fundamentals by providing the framework for stabilizing recovered positions after successful escapes, preventing opponent from immediately reestablishing dominant control.
 - **[[Energy Conservation]]** (Complementary): Energy Conservation principles integrate with escape fundamentals to ensure sustainable defensive effort over extended periods without premature exhaustion.
 
 
 ### Related Content
-- [[Frame Creation]] (Principle) - Core prerequisite skill that provides structural foundation for all escape fundamentals applications
+- [[Frames]] (Principle) - Core prerequisite skill that provides structural foundation for all escape fundamentals applications
 - [[Hip Escape Mechanics]] (Principle) - Essential mechanical component providing primary space and angle generation during escapes
-- [[Escape Hierarchy]] (Principle) - Strategic framework that determines which escape fundamentals to apply based on positional priority
-- [[Pin Escape Methodology]] (Principle) - Position-specific application of universal escape fundamentals to various pinning scenarios
-- [[Mount Escape Series]] (Principle) - Specific implementation of escape fundamentals from mount position with detailed technical sequences
-- [[Side Control Escapes]] (Principle) - Application of escape fundamentals specifically to side control with position-specific variations
-- [[Back Door Escape]] (Principle) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
-- [[Defensive Strategy]] (Principle) - Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives
-- [[Space Management]] (Principle) - Complementary concept explaining how space is created, maintained, and exploited during defensive sequences
+- [[Positional Hierarchy]] (Principle) - Strategic framework that determines which escape fundamentals to apply based on positional priority
+- [[Dealing with Pressure]] (Principle) - Position-specific application of universal escape fundamentals to managing opponent's weight and control in pinning scenarios
+- [[Elbow Escape from Mount]] (Transition) - Specific implementation of escape fundamentals from mount position using elbow-knee connection to recover guard
+- [[Hip Escape to Guard]] (Transition) - Core escape transition applying hip movement fundamentals to recover guard from side control and similar pins
+- [[Back Door Escape]] (Transition) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
+- [[Defensive Concepts]] (Principle) - Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives
+- [[Distance Control]] (Principle) - Complementary concept explaining how space is generated, maintained, and exploited during defensive sequences
 - [[Elbow Escape to Guard]] (Transition) - Primary technical application of escape fundamentals from side control and mount positions
 - [[Shrimp Escape]] (Transition) - Fundamental hip escape movement that operationalizes space and angle creation principles
 - [[Bridge and Roll]] (Transition) - Explosive escape technique that applies fundamental principles through bridging mechanics and timing

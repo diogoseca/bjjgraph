@@ -186,6 +186,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sprawl and Disengage?</p>
+
 - Hip extension is the primary escape mechanism—drive hips backward and down simultaneously
 - Speed of recognition determines success—sprawl at the first sign of leg threading, not after contact
 - Maintain visual tracking of opponent's legs throughout the disengagement
@@ -200,6 +202,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sprawl and Disengage?</p>
+
 - Standing or combat base position with at least one leg partially engaged with opponent's guard
 - Recognition that opponent is attempting to establish grasshopper guard or similar inverted position
 - No existing deep leg entanglement or hook already secured behind knee
@@ -211,6 +215,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sprawl and Disengage step by step?</p>
 
 1. **Recognize threat**: Identify that your opponent is inverting and beginning to thread their legs toward yours. Look for shoulder contact with mat, hip elevation, and legs actively seeking hooks behind your knees or around your ankles.
 2. **Post and base**: Plant your hands on opponent's hips or thighs to create a posting structure. This frames against their elevation attempt and provides the base needed to drive your hips backward without losing balance.
@@ -239,6 +245,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sprawl and Disengage?</p>
+
 - **Opponent follows with inversion roll to reestablish contact** (Effectiveness: High) - Your Response: Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins. → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent shoots for single leg as you disengage** (Effectiveness: Medium) - Your Response: Sprawl deeper and crossface to prevent them from getting underneath your hips. Their transition from inversion to shot creates vulnerability. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 - **Opponent grabs ankle before you can fully extract** (Effectiveness: Medium) - Your Response: Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle. → Leads to [[Positions/Grasshopper Guard]]
@@ -250,6 +258,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sprawl and Disengage?</p>
 
 ### 1. Initiating sprawl too late after opponent has established deep hook
 
@@ -284,6 +294,8 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sprawl and Disengage (Attacker)?</p>
+
 **Week 1-2** - Sprawl mechanics
 Practice sprawl motion in isolation—partner elevates hips while you focus on explosive hip extension, hand posting, and leg extraction. No resistance, pure mechanics drilling.
 
@@ -301,54 +313,12 @@ Implement in full sparring against inverted guard players. Focus on when disenga
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Sprawl and Disengage?
-**A**: The primary goal is to safely remove your legs from an opponent's inverted guard attack range before they can establish hooks or leg entanglements. It prioritizes position reset and safety over direct passing, allowing you to re-engage on more favorable terms.
-
-**Q2**: What position do you start Sprawl and Disengage from?
-**A**: This technique starts from Grasshopper Guard/Top, when you are standing or in combat base facing an opponent who is inverting into grasshopper guard or similar inverted guard position.
-
-**Q3**: What visual cues indicate you should initiate the sprawl?
-**A**: Initiate when you see opponent's shoulders make contact with the mat, their hips begin elevating above their torso, and their legs start actively threading toward your knees or ankles. The key is recognizing the inversion before leg contact is established.
-
-**Q4**: Why is pulling your leg straight up a mistake during this technique?
-**A**: Pulling straight up feeds directly into the opponent's sweeping mechanics and often completes their hook for them by lifting your leg into their entanglement path. The correct motion is driving hips backward and down first, then extracting legs in a circular path away from their body.
-
-**Q5**: How should you respond if opponent follows with an inversion roll after your sprawl?
-**A**: Continue circling away and maintain distance, making them expend energy chasing. Their inverted position is extremely taxing on core muscles and unsustainable—patience and measured distance management will exhaust them faster than direct engagement.
-
-**Q6**: What hand positioning should you establish before driving your hips back?
-**A**: Post your hands on opponent's hips or thighs to create a framing structure. This frames against their elevation attempt and provides the stable base needed to drive your hips backward without losing balance or falling forward.
-
-**Q7**: When is sprawl and disengage preferable to fighting through the guard?
-**A**: It is preferable when the opponent has skilled leg entanglement abilities, when you recognize the threat late and partial contact has been made, in competition where sweep points matter more than engagement time, or when fatigue makes risky engagement inadvisable.
-
-**Q8**: How do you convert the sprawl into a leg drag passing opportunity?
-**A**: Use the sprawl to clear their hooks but maintain some leg contact rather than fully disengaging. As their inversion collapses from your hip pressure, immediately transition to controlling their near leg and dragging it across your body into leg drag position.
-
-**Q9**: Your opponent catches your ankle mid-extraction—what grip-breaking mechanics do you use?
-**A**: Continue driving your hips backward to maintain structural advantage while using your opposite hand to address their grip. Strip the ankle grip using a circular peeling motion that attacks the weakest point of their grip—typically their thumb side. Avoid pulling straight back against their grip strength, as the circular motion breaks their grip angle more efficiently.
-
-**Q10**: What base width should you establish after completing the disengagement?
-**A**: Establish a wide athletic stance with feet at least hip-width apart or wider. A narrow base makes you vulnerable to being pulled off balance if they maintain any grip or shoot forward. The wide base provides stability for either re-engagement or continued movement.
-
-**Q11**: How does the sprawl timing differ when opponent grabs your ankle versus threading for a hook?
-**A**: With an ankle grab, you have slightly more time since they need to convert grip to entanglement. Continue hip extension while stripping grip with opposite hand in circular motion. With a threading hook attempt, timing is more critical—you must sprawl before they complete the hook behind your knee, as extraction becomes much harder after.
-
-**Q12**: Your opponent abandons the inversion and starts coming up aggressively after your sprawl—how do you capitalize?
-**A**: As they transition from inverted to upright, there is a vulnerable window where their base is compromised and head position is exposed. If they drive forward with head down, snap down to a front headlock to capitalize on their poor posture. If they come up to seated guard, re-engage with a standing pass like toreando or bull fighter while they are still establishing grips.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sprawl and Disengage?</p>
 
 The Sprawl and Disengage is inherently a safety-focused technique designed to avoid dangerous leg entanglements. However, proper execution requires attention to several safety factors. When sprawling explosively, avoid hyperextending your own knees by maintaining slight bend throughout. If opponent has any grip on your ankle, do not attempt to explosively rip away as this can cause ankle or knee injury—instead use controlled circular extraction. Be aware of training partners' faces when posting hands, as errant hand placement during explosive sprawl can cause accidental contact. In drilling, start with controlled speed until both partners understand the timing and spacing involved.
 

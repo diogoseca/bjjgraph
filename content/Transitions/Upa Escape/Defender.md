@@ -162,6 +162,8 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Upa Escape?</p>
+
 - Opponent cups their hand behind your tricep or elbow crease and pulls your arm across their chest — this is the arm trap initiation
 - Opponent hooks their foot over your ankle on the same side where they are controlling your arm — the foot trap confirms upa setup is complete
 - Opponent turns their head to one side and walks their feet close to their buttocks — this signals they are loading the bridge angle and generating hip power
@@ -173,6 +175,8 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Upa Escape?</p>
 
 - Maintain at least three points of base contact with the mat at all times — never allow same-side arm and leg to be simultaneously trapped
 - Distribute weight through hips onto opponent's torso rather than forward onto hands, keeping center of gravity low and stable
@@ -187,6 +191,8 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Upa Escape?</p>
 
 ### 1. Post free hand wide on the mat at 45 degrees on the escape side to create a tripod that arrests the rolling momentum
 
@@ -224,6 +230,8 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Upa Escape?</p>
+
 ### → [[Positions/Mount]]
 
 Maintain at least three base points at all times by posting your free hand wide at 45 degrees whenever you feel the bridge initiate. Proactively strip their arm trap by circling your elbow down before they can secure the grip. Clear foot traps by extending your leg and stepping wide. Keep your weight through your hips rather than forward on your hands to deny them the forward weight shift they need.
@@ -239,6 +247,8 @@ When the upa bridge is committed and you cannot post in time to prevent the roll
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Upa Escape?</p>
 
 ### 1. Allowing both arm and leg on the same side to be trapped simultaneously without recognizing the danger
 
@@ -273,6 +283,8 @@ When the upa bridge is committed and you cannot post in time to prevent the roll
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Upa Escape?</p>
+
 **Phase 1: Recognition and Posting Drill (Week 1-2)** - Develop reflexive posting response to bridge force and learn to identify trap setups
 Partner executes cooperative upa attempts at 30-50% speed and power from bottom mount. Focus on recognizing the arm trap, foot trap, and bridge initiation in sequence. Practice posting your free hand wide at 45 degrees the instant you feel hip elevation. Build the posting reflex until it becomes automatic — 20-30 repetitions per side per session.
 
@@ -289,29 +301,6 @@ Positional sparring starting from mount with partner attempting all escape combi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is setting up an upa escape from bottom mount?
-**A**: The earliest cues appear in sequence: first, the opponent cups their hand behind your tricep or elbow crease and begins pulling your arm across their chest, which is the arm trap initiation. Second, they hook their foot over your ankle on the same side, completing the structural setup. Third, they turn their head toward the escape direction and walk their feet close to their buttocks for bridge power. The arm trap is the first and most reliable indicator — the moment you feel your tricep being cupped, you should immediately begin defensive countermeasures by withdrawing the arm or stepping your same-side leg wide to prevent the foot trap.
-
-**Q2**: Why is maintaining three base points more important than simply being heavy on top when defending the upa?
-**A**: Weight alone does not prevent the upa because the escape exploits structural weakness, not weight insufficiency. A 100kg person can be rolled by a 70kg person if both arm and leg are trapped on the same side, because the rotational bridge eliminates the geometric ability to resist force in that direction regardless of mass. Three base points — typically two knees and one posting hand — create a triangular support structure that provides resistance to force from any direction. Even enormous weight concentrated above two trapped limbs on one side cannot resist angular momentum when there is no structural element to absorb it. The defense is about geometry and base, not about mass.
-
-**Q3**: How do you use your opponent's upa attempt as a trigger for offensive transition rather than purely defensive reaction?
-**A**: When the opponent commits to the bridge, their arms are occupied with the trap, their hips are extended upward, and their core is fully engaged in the bridging motion — they have no defensive resources available. If you successfully post and absorb the bridge, immediately transition to a submission or positional advancement while they are recovering from the failed explosive effort. Their trapped arm is extended and vulnerable to americana or kimura. Their energy is depleted from the failed bridge. Most effectively, if the bridge is strong enough to begin rolling you, switch hips and flow into back control rather than fighting the reversal, converting their escape into the worst possible outcome for them.
-
-**Q4**: What adjustments should you make to your mount maintenance when facing an opponent who chains upa attempts with elbow escape and hip escape?
-**A**: Against a combination escape game, you cannot commit to defending one escape without opening another. The solution is dynamic base management: when they threaten upa by trapping your arm, step your same-side leg wide and shift weight slightly back — this kills the upa but may open elbow escape space. As they switch to elbow escape by hip escaping laterally, follow their hips and slide your knee up into their armpit area, which closes the elbow escape but shifts your weight forward where upa becomes available again. The key is recognizing the escape chain and staying one adjustment ahead. Grapevines can temporarily slow the cycling by eliminating their bridging power, giving you time to establish dominant grips and launch submissions before they build escape momentum.
-
-**Q5**: When is it better to flow with the upa and take the back versus posting and maintaining mount?
-**A**: Take the back when: the bridge has already generated enough momentum that your post will be marginal or late, the opponent has exceptional hip power that makes absorption unreliable, or you are already being rolled past 45 degrees and posting will only delay the reversal without preventing it. Maintain mount when: you can post early and wide with a strong arm, the bridge is weak or poorly angled, or you detect the setup early enough to strip the arm trap entirely. The decision must be made instantly based on how much rotational momentum you feel. If there is any doubt about whether your post will hold, flow to the back — back control is a superior position to mount, so converting their escape into a back take is actually an upgrade.
-
-
-
-</section>
 
 
 </main>

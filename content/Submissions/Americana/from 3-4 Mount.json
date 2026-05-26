@@ -1,0 +1,494 @@
+{
+  "name": "Americana from 3-4 Mount",
+  "description": "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder lock setup, grip mechanics, finishing details, defensive counters, and safety protocols.",
+  "tags": [
+    "bjj",
+    "submission",
+    "americana",
+    "shoulder-lock",
+    "3-4-mount",
+    "joint-lock",
+    "keylock",
+    "mount-submission"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff and glenohumeral complex)",
+  "starting_position": "3-4 Mount",
+  "from_position": "3-4 Mount/Top",
+  "from_positions": [
+    "3-4 Mount",
+    "Mount",
+    "Modified Mount",
+    "Technical Mount"
+  ],
+  "success_rate": 45,
+  "overview": "The Americana from 3-4 Mount exploits the asymmetric weight distribution of the three-quarter mount configuration to isolate and attack the near-side shoulder through forced external rotation using a figure-four grip. Unlike the Americana from standard mount where the top player must manage symmetric bridging threats during the finish, the 3-4 Mount's posted leg provides a stable base that absorbs escape attempts while the mounted knee pins the opponent's torso, creating an ideal platform for the figure-four shoulder lock.\n\nThe submission follows classic keylock mechanics: pin the opponent's wrist to the mat, thread your arm beneath their elbow, secure the figure-four grip, and apply rotational pressure by painting the wrist toward the hip while elevating the elbow. The 3-4 Mount configuration enhances each phase of this sequence. The asymmetric pressure pins the near shoulder flat, reducing the opponent's ability to rotate defensively. The chest weight immobilizes the torso during the critical threading phase. The posted leg base allows the attacker to commit fully to the finish without fear of being swept.\n\nStrategically, the Americana from 3-4 Mount functions as the centerpiece of a submission dilemma system. When the opponent straightens their arm to prevent the figure-four, the armbar becomes immediately available from the asymmetric mount angle. When they bridge toward the attacking side, the 3-4 configuration absorbs the force through the posted leg. When they turn away to deny the rotation, the transition to back control follows naturally through technical mount. This branching attack structure makes the Americana from 3-4 Mount a high-percentage finishing tool at competition level, particularly effective against opponents who have strong standard mount defense but struggle with the unique angles created by asymmetric positioning.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits",
+        "severity": "High",
+        "recovery_time": "3-6 months, potential surgical intervention required"
+      },
+      {
+        "injury": "Glenohumeral joint capsule sprain or dislocation from excessive rotational force",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 weeks for sprain, 4-6 months for dislocation"
+      },
+      {
+        "injury": "Medial collateral ligament strain of the elbow from secondary torque during rotation",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks"
+      },
+      {
+        "injury": "Pectoral or deltoid muscle strain from resisting the lock under load",
+        "severity": "Low",
+        "recovery_time": "1-3 weeks"
+      }
+    ],
+    "application_speed": "SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress vocalization)",
+      "Physical hand tap on partner or mat (minimum 2 taps)",
+      "Physical foot tap on mat with free leg",
+      "Any unusual screaming, crying out, or distress vocalization",
+      "Head shake or nodding if hands are trapped and verbal tap is unclear"
+    ],
+    "release_protocol": [
+      "Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure",
+      "Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally",
+      "Do not force the arm back to starting position—let opponent move it themselves to assess range of motion",
+      "Maintain mount position control during release to prevent further positional conflict",
+      "Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range",
+      "Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established",
+      "Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed",
+      "Ensure training partner has at least one hand free to tap at all times during drilling and sparring",
+      "Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "3-4 Mount/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Paint-the-Mat Americana",
+      "description": "Classic finish where the wrist slides in an arc toward the opponent's hip while the elbow lifts away from the mat. Works best when the opponent's arm is pinned flat beside their head with a clean wrist grip and no defensive anchoring.",
+      "when_to_use": "When you have a clean wrist pin and the opponent's arm is flat on the mat with no defensive grip established"
+    },
+    {
+      "variation_name": "Bait Americana from Cross-Collar Threat",
+      "description": "Threaten a cross-collar choke or Ezekiel to force the opponent to bring their hands to their neck, then redirect to pin the near-side wrist as it extends during the choke defense. The choke threat creates the arm exposure needed for the Americana setup.",
+      "when_to_use": "When the opponent keeps elbows tight defending arm attacks and you need to generate a reaction to expose the near arm"
+    },
+    {
+      "variation_name": "High-Elbow Americana Finish",
+      "description": "Modified finish where you drive the opponent's elbow higher toward their head before initiating the rotation, increasing the shoulder rotation angle and reducing the available space for defensive grip anchoring. Particularly effective against flexible opponents.",
+      "when_to_use": "When the opponent has flexible shoulders and the standard paint-the-mat angle generates insufficient tap pressure at normal range"
+    }
+  ],
+  "related_submissions": [
+    "Americana",
+    "Kimura",
+    "Ezekiel Choke",
+    "Cross Collar Choke",
+    "Far Side Armbar",
+    "Arm Triangle",
+    "Gift Wrap Armbar",
+    "Flying Armbar"
+  ],
+  "related_content": [
+    {
+      "name": "3-4 Mount",
+      "relationship": "Starting position providing asymmetric base for this submission"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position family from which 3-4 Mount derives"
+    },
+    {
+      "name": "Technical Mount",
+      "relationship": "Related mount variation with similar arm isolation opportunities for shoulder locks"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Parent submission family sharing grip mechanics and finishing sequence across all mount variations"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Complementary control position when opponent inverts the grip or straightens their arm during defense"
+    },
+    {
+      "name": "Mount to Armbar",
+      "relationship": "Primary alternative transition when Americana defense creates arm extension"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Related asymmetric mount variation providing submission angles complementary to 3-4 Mount"
+    }
+  ],
+  "attacker": {
+    "name": "from 3-4 Mount Attacker",
+    "description": "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, figure-four mechanics, finishing angles, and responses to common defensive reactions in this complete attacking guide.",
+    "overview": "The Americana from 3-4 Mount attacks the shoulder through forced external rotation using a figure-four grip while the asymmetric mount provides exceptional stability throughout the finishing sequence. The 3-4 configuration pins the near shoulder to the mat more effectively than standard mount, reducing the opponent's rotational defense and eliminating their most common escape angle. Your mounted knee drives into their ribs to prevent hip escape while the posted leg absorbs bridging attempts, allowing you to focus entirely on securing the grip and applying progressive rotational pressure. The key to finishing is patience—pin the wrist firmly before threading, lock the figure-four tight with zero slack, then apply steady pressure through the paint-the-mat arc rather than jerking or spiking the joint. The submission chain from this position branches naturally: Americana when the arm is bent, armbar when it straightens, back take when they turn away.",
+    "key_principles": [
+      "Pin the wrist to the mat with authority before threading—a loose wrist pin allows the opponent to retract their arm and reset the entire defensive sequence",
+      "Use chest weight to immobilize the opponent's torso during the figure-four setup, preventing them from generating the hip movement needed for escape",
+      "Eliminate all slack in the figure-four grip by squeezing elbows together before initiating rotation—slack allows the opponent to create space and work free",
+      "Keep the opponent's elbow connected to the mat during the initial phase, then paint the wrist toward the hip in a controlled arc to generate external rotation",
+      "The asymmetric mount base absorbs bridging through the posted leg—trust this stability and commit to the finish rather than abandoning at the first defensive reaction",
+      "Apply progressive, steady pressure through the rotation rather than jerking—controlled application prevents injury and allows proper tap recognition"
+    ],
+    "setup_requirements": [
+      "Established 3-4 Mount with stable base—mounted knee tight to ribs, posted leg providing solid triangular base against bridging attempts",
+      "Chest-to-chest pressure maintained with weight distributed forward through hips onto opponent's sternum, restricting their breathing and movement capacity",
+      "Near-side arm identified and within reach—the arm on the mounted-knee side is the primary target due to shoulder pinning from asymmetric pressure",
+      "Opponent's far arm accounted for—either controlled, trapped beneath your leg, or positioned where it cannot interfere with the figure-four threading",
+      "Head positioned on the opposite side of the target arm to prevent sit-up attempts and maintain downward pressure angle during the grip sequence"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Consolidate chest pressure and identify target arm",
+        "description": "From 3-4 Mount, settle your weight forward through your chest onto the opponent's sternum. Drive your mounted knee tight into their ribs while posting your outside leg for base stability. Identify the near-side arm as your primary target—this is the arm closest to your mounted knee where shoulder pinning is strongest.",
+        "timing": "2-3 seconds to establish stable pressure before initiating"
+      },
+      {
+        "step_number": 2,
+        "action": "Pin opponent's wrist to the mat",
+        "description": "Control the opponent's near-side wrist with your same-side hand and drive it firmly to the mat beside their head. Your grip should be on the wrist joint itself with thumb wrapped around, not on the hand or forearm. The wrist must be pinned flat—any elevation gives them leverage to retract the arm.",
+        "timing": "Immediate—secure wrist pin before opponent recognizes the threat"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread attacking arm under opponent's elbow",
+        "description": "Slide your far-side arm under the opponent's elbow from the outside, threading between their upper arm and their torso until your hand clears to the other side. Keep your elbow tight to their body during threading to prevent them from clamping their arm down and blocking the path. Your threading arm should travel close to the mat.",
+        "timing": "1-2 seconds—smooth continuous motion without pausing"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure the figure-four grip",
+        "description": "Connect your threading hand to your own wrist that controls the opponent's wrist, creating the classic figure-four lock configuration. Immediately squeeze both elbows together to eliminate all slack in the grip. The figure-four should feel tight and locked before you proceed—any looseness allows defensive grip breaking.",
+        "timing": "Immediate connection—grip must lock within 1 second of completing the thread"
+      },
+      {
+        "step_number": 5,
+        "action": "Pin opponent's elbow to the mat at 90 degrees",
+        "description": "Using downward pressure from the figure-four configuration, lower the opponent's elbow toward the mat. Their arm should be positioned at approximately 90 degrees of elbow flexion with forearm pointing upward. This angle creates the optimal lever for shoulder rotation. If the elbow floats off the mat, the opponent can create defensive space.",
+        "timing": "1-2 seconds to establish the pinned elbow position"
+      },
+      {
+        "step_number": 6,
+        "action": "Shift weight onto opponent's shoulder",
+        "description": "Transfer additional chest weight onto the opponent's near shoulder to pin it flat against the mat. This weight transfer is critical—a shoulder that can lift or rotate absorbs the rotational force and prevents the submission from reaching the breaking point. Your chest should feel heavy directly over their deltoid.",
+        "timing": "Simultaneous with elbow pin—continuous pressure throughout"
+      },
+      {
+        "step_number": 7,
+        "action": "Paint the wrist toward the hip in a controlled arc",
+        "description": "Maintaining the wrist pinned to the mat surface, slowly slide the opponent's hand in an arc toward their hip while simultaneously lifting their elbow away from the mat with steady upward pressure. This creates external rotation of the shoulder joint through the lever system of the figure-four grip. The motion should trace a smooth arc on the mat surface.",
+        "timing": "3-5 seconds minimum—slow progressive pressure"
+      },
+      {
+        "step_number": 8,
+        "action": "Apply finishing rotation until tap",
+        "description": "Continue the arc motion, externally rotating the shoulder joint by driving the wrist further toward the hip and the elbow toward the ceiling. Apply steady, progressive pressure—never spike or jerk. Monitor for tap signals throughout the rotation. The breaking point is reached when the wrist approaches hip level and the elbow is elevated significantly above the mat surface.",
+        "timing": "Progressive—stop immediately upon tap signal"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent straightens arm to prevent figure-four grip from locking",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to armbar—the straight arm is perfectly positioned for armbar attack from the 3-4 Mount angle. Maintain wrist control and swing your leg over their face.",
+        "targets_outcome": "Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively toward the attacking side to disrupt grip angle",
+        "effectiveness": "Medium",
+        "your_response": "Absorb the bridge through your posted leg base—the 3-4 Mount configuration is specifically designed to resist this direction of force. Ride the bridge, resettle weight, and continue the finish.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent grabs own belt, lapel, or shorts to anchor against rotational pressure",
+        "effectiveness": "High",
+        "your_response": "Strip the grip by driving their elbow higher toward their head first, then peel their fingers using your threading hand while maintaining wrist control. Alternatively, switch to the high-elbow variation to bypass the anchor point.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent hip escapes during the wrist pin phase before figure-four is established",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hips and resettle mount pressure before reattempting. If they create significant space, transition to side control or knee on belly rather than forcing a compromised Americana.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lifting own elbow off the mat during figure-four setup, creating slack in the grip",
+        "consequence": "Slack in the figure-four allows the opponent to retract their arm, strip the grip, or create rotational space that prevents the submission from reaching the breaking point",
+        "correction": "Keep both elbows squeezed tight together throughout the figure-four—the grip should feel like a solid clamp with zero space between your elbows and the opponent's arm"
+      },
+      {
+        "error": "Not pinning the wrist to the mat before threading the arm under the elbow",
+        "consequence": "Without a firm wrist pin, the opponent retracts their arm as soon as they feel the threading motion, resetting the entire Americana sequence and wasting the setup",
+        "correction": "Pin the wrist firmly with thumb wrapped and drive it flat to the mat before beginning the threading motion. The wrist should not move during the thread."
+      },
+      {
+        "error": "Sitting upright during the finish instead of maintaining chest pressure on the shoulder",
+        "consequence": "Upright posture lifts weight off the opponent's shoulder, allowing them to rotate the shoulder defensively and absorb the figure-four pressure without the joint reaching its limit",
+        "correction": "Stay heavy with chest weight directly over the opponent's near shoulder throughout the entire finishing sequence—your sternum should press into their deltoid"
+      },
+      {
+        "error": "Rushing the rotational finish by jerking or spiking the shoulder joint",
+        "consequence": "Rapid application risks serious injury to the opponent's rotator cuff and shoulder capsule before they can tap, and may result in disqualification in competition",
+        "correction": "Apply slow, progressive rotational pressure over 3-5 seconds minimum. The paint-the-mat motion should be smooth and continuous, never explosive or sudden."
+      },
+      {
+        "error": "Attacking the far arm instead of the near arm from the 3-4 Mount position",
+        "consequence": "The far arm lacks the shoulder pinning advantage of the 3-4 configuration, making the Americana significantly less effective and requiring more effort to control and finish",
+        "correction": "Always target the near-side arm closest to your mounted knee—this arm's shoulder is pinned flat by the asymmetric weight distribution of 3-4 Mount"
+      },
+      {
+        "error": "Losing mounted knee connection to ribs during the threading and grip phase",
+        "consequence": "Space created at the ribs allows the opponent to hip escape, shrimp, and begin recovering guard during the critical grip-building phase when your attention is on the arm",
+        "correction": "Maintain mounted knee pressure against the ribs throughout—use your leg as a constant wedge even while your upper body works the figure-four mechanics"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four grip isolation and wrist control",
+        "description": "Partner lies flat with arm extended beside their head. Practice the wrist pin, threading motion, figure-four connection, and elbow squeeze in isolation. Focus on eliminating all slack in the grip and achieving proper hand placement. Drill 20 repetitions per side until the grip sequence is automatic."
+      },
+      {
+        "phase": "Phase 2: Position Integration",
+        "focus": "Americana from 3-4 Mount with compliant partner",
+        "description": "Establish 3-4 Mount on a compliant partner and practice the full sequence from mount consolidation through wrist pin, threading, figure-four lock, to finishing rotation. Focus on maintaining chest pressure throughout and not lifting weight during the grip phases. Partner does not resist."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Submission branching from Americana defense reactions",
+        "description": "Partner applies specific defenses: straighten arm (switch to armbar), bridge toward attacking side (absorb and continue), grab own belt (strip and reattempt), turn away (transition to back take). Develop recognition of each defensive reaction and the correct offensive response."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Finishing under increasing defensive pressure",
+        "description": "Apply the Americana from 3-4 Mount against increasing resistance—start at 30% and build to 80%. Partner uses varied defenses including grip anchoring, bridging, straightening arm, and hip escaping. Adjust finishing mechanics in real-time based on defensive responses."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Live implementation and success rate tracking",
+        "description": "Focused sparring rounds starting from 3-4 Mount. Track Americana attempt rate and finishing success. Identify which defensive patterns you encounter most frequently and refine your chain attacks. Apply under time pressure with realistic resistance and competition intensity."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Americana from 3-4 Mount primarily attack, and how does the figure-four create the submission mechanism?",
+        "answer": "The Americana primarily attacks the shoulder joint through forced external rotation, stressing the rotator cuff complex (supraspinatus, infraspinatus, teres minor, subscapularis) and the glenohumeral joint capsule. The figure-four grip creates a lever system where the pinned wrist acts as a fulcrum and the elbow as the lever arm. As the wrist paints toward the hip and the elbow lifts, the shoulder is forced into external rotation beyond its natural range, creating increasing stress on the rotator cuff tendons and joint capsule until the opponent taps.",
+        "safety_critical": false
+      },
+      {
+        "question": "What physical indicators tell you the opponent's shoulder joint is approaching its breaking point during the Americana finishing sequence?",
+        "answer": "Key indicators include: the opponent's facial expression changes to show genuine distress rather than competitive discomfort, their body stiffens and becomes rigid rather than continuing defensive movement, you feel a progressive tightening and resistance in the joint that indicates end-range, and often the opponent begins verbal distress before a formal tap. You should also feel the elbow approaching maximum elevation relative to the pinned wrist. Never push through sudden resistance jumps—these indicate the joint is at its structural limit. Always apply pressure slowly enough to recognize these indicators before injury occurs.",
+        "safety_critical": true
+      },
+      {
+        "question": "What control must be established before attempting the Americana figure-four grip from 3-4 Mount?",
+        "answer": "Before attempting the figure-four, you need: stable 3-4 Mount with mounted knee tight to ribs and posted leg providing base, chest-to-chest pressure with weight on the opponent's sternum restricting breathing and movement, a firm wrist pin with the target arm flat on the mat beside the opponent's head, the opponent's far arm accounted for (controlled or unable to interfere), and your head positioned on the opposite side of the target arm. Attempting the figure-four without these prerequisites results in either a failed grip attempt or losing mount position during the setup.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point in the Americana sequence does escape become nearly impossible for the defender?",
+        "answer": "Escape becomes extremely difficult once the figure-four grip is fully locked with zero slack and the opponent's elbow is pinned to the mat at approximately 90 degrees. Before this point, the defender can retract the arm, strip the grip, or create rotational space. After the grip locks and elbow pins, the mechanical advantage shifts decisively to the attacker—the lever system of the figure-four prevents arm retraction, and the mounted weight prevents the shoulder rotation needed to relieve pressure. The defender's only remaining options are grip anchoring and explosive bridging, both of which have low success rates against a properly locked Americana.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent straightens their arm as you attempt to secure the figure-four grip—what adjustment do you make?",
+        "answer": "A straightened arm is a gift from the 3-4 Mount position. Immediately maintain your wrist control and transition to an armbar attack. The straight arm is perfectly positioned for the armbar from the asymmetric mount angle—your posted leg is already in position to swing over their face, and the arm extension provides the elbow hyperextension angle needed for the finish. Keep the wrist grip, shift your hips toward their head, swing the posted leg over their face, and sit back to complete the armbar. This Americana-to-armbar chain is one of the highest-percentage transitions in mount offense.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error that allows opponents to escape the Americana from 3-4 Mount?",
+        "answer": "The most common finishing error is lifting your chest weight off the opponent's shoulder during the rotation phase. When the attacker sits upright to apply more arm force, the opponent's shoulder lifts off the mat and gains rotational freedom. This rotational freedom absorbs the external rotation force of the figure-four, preventing the submission from reaching the breaking point. The opponent can then rotate their shoulder enough to relieve pressure and work their arm free. The correction is maintaining heavy chest pressure directly on the near shoulder throughout the entire finishing arc—your sternum should stay pressed into their deltoid from grip lock through tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must you release the Americana immediately upon feeling a tap, and what specific injuries can result from delayed release?",
+        "answer": "Immediate release is mandatory because the Americana attacks the shoulder joint through external rotation, and the transition from discomfort to structural damage is extremely rapid once the joint reaches end-range. Delayed release of even 1-2 seconds can cause rotator cuff tears requiring 3-6 months of rehabilitation and potential surgery, glenohumeral joint capsule damage causing chronic instability, and AC joint sprains that limit training for weeks. The shoulder joint lacks the gradual warning signs of other submissions like chokes—once the rotator cuff begins tearing, the damage is immediate and often irreversible. Release the figure-four grip completely at the first tap signal, every time.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent grabs their own belt to anchor against the Americana rotation—how do you strip this grip and complete the finish?",
+        "answer": "First, drive their elbow higher toward their head rather than continuing to paint toward the hip—this changes the angle and may break the grip by exceeding their reach to the belt. If that fails, use your threading hand to peel their fingers off the belt one at a time while maintaining your wrist control grip. You can also switch to the high-elbow Americana variation, positioning the elbow above their head rather than painting toward the hip, which attacks the shoulder from a different angle that the belt grip cannot protect. If the grip remains unbreakable, abandon the Americana and transition to an armbar or Kimura, using the arm extension created by their reaching as the entry point.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the 3-4 Mount configuration specifically enhance Americana finishing mechanics compared to standard symmetric mount?",
+        "answer": "The 3-4 Mount enhances the Americana in three critical ways. First, the asymmetric weight distribution pins the near shoulder flat to the mat more effectively than standard mount—the mounted-side pressure concentrates force onto the shoulder, reducing defensive rotation. Second, the posted leg provides a stable base that absorbs bridging attempts without requiring you to adjust your upper body, meaning you can maintain grip pressure through the opponent's explosive escape movements. Third, the directional nature of the 3-4 configuration naturally angles your body toward the near arm, creating a more efficient line of force for the paint-the-mat motion without the awkward torso repositioning sometimes needed from standard mount.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins bridging toward your attacking side as you apply the Americana rotation—how do you respond without losing the submission?",
+        "answer": "The bridge toward the attacking side is absorbed by the 3-4 Mount's posted leg—this is a fundamental advantage of the position. As they bridge, your posted leg drives into the mat and your body weight settles through the posted side, preventing the roll. Simultaneously, maintain your figure-four grip pressure and chest weight on their shoulder. Often the bridge actually assists the finish because the upward hip movement drives their shoulder deeper into the mat upon landing, increasing the shoulder pinning effect. If the bridge is exceptionally powerful, briefly ride it by shifting weight to the posted leg, then resettle and continue the rotation once they return to the mat.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from 3-4 Mount Defender",
+    "description": "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip prevention, escape timing, and guard recovery techniques to survive this shoulder lock attack.",
+    "overview": "Defending the Americana from 3-4 Mount requires recognizing the attack early and acting before the figure-four grip locks. Once the figure-four is secured with your elbow pinned, escape options narrow dramatically—the asymmetric mount pressure makes bridging less effective than from standard mount, and the attacker's posted leg provides a stable base that resists your defensive movement. Your primary defensive window occurs during the wrist pin and arm threading phases, when the attacker's grip is not yet complete and their attention shifts from mount maintenance to submission setup.\n\nKeep your elbows tight to your ribs at all times, never allowing your near arm to be pinned flat beside your head. Use the attacker's focus on the submission to create hip movement for escape. If the figure-four locks, your remaining options are gripping your own lapel to anchor against the rotation, bridging explosively toward the attacking side to disrupt their finishing angle, or turning into the attacker to close the rotational space needed for the paint-the-mat motion. Early recognition and immediate defensive action determine whether you survive this position or concede the tap.",
+    "key_principles": [
+      "Keep elbows glued to your ribs at all times—never allow your near arm to extend or be pinned flat beside your head where it becomes isolated",
+      "Recognize the wrist pin as the first warning signal and immediately retract or anchor the threatened arm before the attacker can begin threading",
+      "Bridge toward the attacking side to disrupt the figure-four angle rather than away from it, which only creates space for the attacker to settle deeper",
+      "Use the attacker's focus on grip work as a window for hip escape—their attention shifts from mount maintenance during the threading phase",
+      "Grip your own lapel, collar, or belt with the threatened hand as a last-resort anchor if the figure-four begins locking",
+      "Turn your body into the attacker rather than away to close the rotational space needed for the paint-the-mat finishing motion"
+    ],
+    "recognition_cues": [
+      "Attacker's same-side hand reaches for your wrist with controlling intent rather than posting for base—this is the initial setup indicator",
+      "Attacker shifts chest weight onto your near shoulder specifically, pinning it flat to the mat with concentrated pressure",
+      "Attacker's far-side arm begins threading motion under your elbow, creating the path for the figure-four connection",
+      "You feel your arm being flattened to the mat beside your head with your wrist being driven down and controlled"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract elbow tight to ribs before figure-four locks, pulling wrist away from mat and denying the pin",
+        "when_to_use": "Immediately upon feeling the wrist pin attempt—this is your highest-percentage defense window before the grip establishes",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "Americana attempt is fully denied and attacker must reset or choose a different attack from mount",
+        "risk": "If retraction fails, you may inadvertently straighten the arm, creating an armbar opportunity for the attacker"
+      },
+      {
+        "action": "Bridge explosively toward the attacking side during the threading phase to disrupt figure-four setup",
+        "when_to_use": "When the attacker begins threading their arm under your elbow—their base is slightly compromised during this transitional movement",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "Disrupts the threading motion and may create enough space to retract the arm or begin hip escape sequence",
+        "risk": "If bridge lacks sufficient power, the attacker absorbs it through the posted leg and you've wasted energy"
+      },
+      {
+        "action": "Hip escape toward the posted leg side during the wrist pin phase to recover half guard",
+        "when_to_use": "When the attacker's attention shifts to securing the wrist pin—they must reduce hip pressure to reach for your arm",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Create enough space to insert knee and recover half guard, removing yourself from the submission threat entirely",
+        "risk": "Hip escape requires significant energy and may expose your back if timing is off"
+      },
+      {
+        "action": "Grab own lapel, belt, or shorts with threatened hand to anchor against rotational pressure",
+        "when_to_use": "Last-resort option when the figure-four is already locked—creates an anchor point that prevents the paint-the-mat finishing motion",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "Stalls the submission and forces the attacker to strip the grip, buying time and potentially opening other defensive windows",
+        "risk": "Anchoring is temporary—skilled attackers will eventually strip the grip through elbow repositioning or angle changes"
+      }
+    ],
+    "escape_paths": [
+      "Hip escape toward the posted leg side during the wrist pin or threading phase to recover half guard before the figure-four establishes",
+      "Bridge toward the attacking side combined with arm retraction to disrupt the setup and create space for elbow escape",
+      "Grab own lapel to anchor against rotation, then use the attacker's grip-stripping attempts as windows for bridging and turning to recover guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time hip escape during the wrist pin phase when attacker is focused on grip setup rather than mount maintenance, creating enough space to insert knee and recover half guard"
+      },
+      {
+        "outcome": "3-4 Mount/Top",
+        "how": "Deny the figure-four grip through early elbow retraction and defensive anchoring, forcing the attacker to abandon the submission attempt and reset from mount"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending arm straight to push the attacker away or frame on their chest",
+        "consequence": "Straightened arm is immediately available for armbar attack from the 3-4 Mount angle—this is the attacker's preferred chain attack when the Americana is denied",
+        "correction": "Keep elbows bent at all times with forearms as frames. Never push with straight arms from bottom mount—use bent-elbow frames against the hip and cross-face"
+      },
+      {
+        "error": "Waiting until the figure-four is fully locked before attempting to defend",
+        "consequence": "Once the figure-four locks with zero slack and the elbow is pinned, escape probability drops below 20%. The mechanical advantage is overwhelmingly in the attacker's favor",
+        "correction": "Defend during the wrist pin and threading phases—your defensive window is before the figure-four connects. React to the wrist control immediately, not to the figure-four"
+      },
+      {
+        "error": "Bridging away from the attacking side instead of toward it",
+        "consequence": "Bridging away creates space on the attacking side that allows the attacker to settle deeper into the submission angle and increases the rotational range available for the finish",
+        "correction": "Bridge toward the attacking side to collapse the angle the attacker needs for the paint-the-mat motion. This disrupts their base on the relevant side"
+      },
+      {
+        "error": "Panicking and making large uncontrolled movements that expose both arms",
+        "consequence": "Wild defensive movements create multiple submission opportunities—the attacker can switch between Americana, armbar, and Ezekiel based on whichever arm becomes exposed",
+        "correction": "Defend with controlled, deliberate movements. Protect both arms with elbows tight, then execute specific defensive techniques based on the phase of the attack"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What are the earliest recognition cues that an Americana is being set up from 3-4 Mount?",
+        "answer": "The earliest cues are: the attacker's same-side hand reaches for your wrist with controlling intent rather than posting for base, their chest weight shifts specifically onto your near shoulder to pin it flat, and you feel your arm being flattened to the mat beside your head. The wrist pin attempt is the critical first signal—once you feel the attacker controlling your wrist and driving it toward the mat, the Americana sequence has begun. React immediately to this cue by retracting your elbow tight to your ribs before the threading motion starts.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is straightening your arm a risky defensive response to the Americana, and when is it the correct choice?",
+        "answer": "Straightening the arm prevents the figure-four grip from locking because the Americana requires a bent arm at approximately 90 degrees. However, a straightened arm from 3-4 Mount is perfectly positioned for an armbar attack—the attacker already has wrist control and their posted leg is ready to swing over your face. Straightening is only appropriate when you are certain you can immediately retract the arm after straightening (denying both Americana and armbar) or when you have simultaneously created enough hip movement that the attacker cannot transition to the armbar in time. It is a high-risk, high-reward defense.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what stage of the Americana should you tap to prevent injury, and what are the consequences of tapping too late?",
+        "answer": "Tap as soon as you feel significant rotational pressure on your shoulder that you cannot escape through technique. Do not wait for pain—the transition from discomfort to rotator cuff tear happens within 1-2 seconds once the joint reaches end-range under the figure-four's leverage. Late tapping can result in rotator cuff tears requiring 3-6 months of recovery and potential surgery, glenohumeral joint capsule damage causing chronic shoulder instability, and AC joint injuries that limit training for weeks. In training, tap early and often—you can always rework the escape from the earlier phases. No training session is worth a torn rotator cuff.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has secured the figure-four grip but has not begun the rotational finish—what escape options remain?",
+        "answer": "With the figure-four locked but rotation not yet started, you have a narrow window: immediately grab your own lapel or belt with the trapped hand to create an anchor point that resists the painting motion. Simultaneously bridge explosively toward the attacking side to disrupt their finishing angle and compromise their chest pressure on your shoulder. If the bridge creates space, use it to hip escape toward the posted leg side. You can also attempt to turn your body into the attacker, closing the rotational space needed for the paint-the-mat motion. These options have moderate success rates but are your best remaining defenses.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct defensive body position when trapped in 3-4 Mount to minimize Americana vulnerability?",
+        "answer": "Keep both elbows tight to your ribs with arms bent—never allow the near arm to extend or flatten beside your head. Turn your body slightly toward the mounted knee side to reduce the shoulder pinning effect. Maintain frames with forearms against the attacker's hip and cross-face area using bent elbows, never straight-arm pushes. Keep your chin tucked toward the far shoulder to protect your neck. Your near-side hand should either grip your own collar for anchoring or maintain a defensive position against the attacker's wrist-controlling hand. This position minimizes all arm attack angles while preserving your ability to hip escape.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying Americana setup cues from 3-4 Mount",
+        "description": "Partner goes through the Americana setup slowly at 25% speed while you practice recognizing the wrist pin attempt, threading motion, and figure-four connection. Call out each phase as it happens. Focus on developing tactile awareness of when each phase begins. Drill 15-20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Denying the figure-four grip before it establishes",
+        "description": "Partner attempts the Americana setup at 50% speed and resistance. Practice elbow retraction, grip anchoring, and arm positioning to prevent the figure-four from locking. Focus on reacting during the wrist pin phase, not after the grip establishes. Track prevention success rate."
+      },
+      {
+        "phase": "Phase 3: Escape Under Pressure",
+        "focus": "Escaping with figure-four partially or fully established",
+        "description": "Partner applies the Americana with progressive resistance from 50% to 80%. Practice bridging toward the attacking side, hip escaping during setup, and arm extraction after figure-four locks. Build timing between the attacker's weight shifts and your escape movements."
+      },
+      {
+        "phase": "Phase 4: Counter-Positioning",
+        "focus": "Combining defense with positional improvement",
+        "description": "Full-speed defensive drilling where successful defense must lead to immediate positional improvement—recover half guard, insert knee shield, or begin hip escape sequence. Never defend and stay flat. Every successful defense transitions into an escape attempt. Track which defensive responses create the best positional outcomes."
+      }
+    ]
+  }
+}

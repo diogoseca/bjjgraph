@@ -194,6 +194,8 @@ Energy management considerations make this transition particularly valuable duri
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crackhead Control to New York?</p>
+
 - Maintain overhook depth throughout the transition - never allow the arm to slip during angle adjustment
 - Control the hip connection with your free leg as primary safety mechanism during transition
 - Use your shin grip hand to guide leg repositioning from neck pressure to shoulder blade position
@@ -209,6 +211,8 @@ Energy management considerations make this transition particularly valuable duri
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crackhead Control to New York?</p>
+
 - Established Crackhead Control with deep overhook past opponent's shoulder blade
 - Opponent's posture broken forward with leg pressure across upper back or neck
 - Free leg maintaining active hip connection preventing back exposure
@@ -221,6 +225,8 @@ Energy management considerations make this transition particularly valuable duri
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crackhead Control to New York step by step?</p>
 
 1. **Secure overhook anchor**: Confirm your deep overhook is locked with hand gripping behind opponent's shoulder blade or lat, elbow pointing toward ceiling. This grip must remain constant throughout the entire transition.
 2. **Engage free leg**: Establish strong butterfly hook or hip post with your non-controlling leg to maintain hip connection and prevent back exposure during the transitional moment when your primary leg repositions.
@@ -250,6 +256,8 @@ Energy management considerations make this transition particularly valuable duri
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crackhead Control to New York?</p>
+
 - **Opponent drives forward explosively during leg repositioning to flatten and pass** (Effectiveness: High) - Your Response: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York - their momentum assists these transitions → Leads to [[Positions/Crackhead Control]]
 - **Opponent postures up during the brief moment shin grip is released** (Effectiveness: Medium) - Your Response: Pull with overhook to break posture and either complete New York transition or abandon to closed guard if posture recovery is too strong → Leads to [[Positions/Closed Guard]]
 - **Opponent begins circling toward back exposure side during transition** (Effectiveness: Medium) - Your Response: Intensify free leg hip connection and either complete transition quickly or return to Crackhead Control to address back exposure threat first → Leads to [[Positions/Crackhead Control]]
@@ -261,6 +269,8 @@ Energy management considerations make this transition particularly valuable duri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crackhead Control to New York?</p>
 
 ### 1. Releasing overhook depth during leg repositioning
 
@@ -300,6 +310,8 @@ Energy management considerations make this transition particularly valuable duri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crackhead Control to New York (Attacker)?</p>
+
 **Week 1-2** - Isolated mechanics
 Practice the leg repositioning motion with compliant partner in static position. Focus on maintaining overhook depth while sliding leg from Crackhead position to New York position. No resistance - develop smooth movement pattern.
 
@@ -317,48 +329,12 @@ Full positional sparring starting from Crackhead Control. Partner defends with r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must remain absolutely constant throughout the Crackhead Control to New York transition?
-**A**: The deep overhook must remain locked with hand gripping behind the opponent's shoulder blade or lat muscle throughout the entire transition. The overhook is the positional anchor that keeps the opponent's arm trapped and posture controlled - if it slips during leg repositioning, the entire rubber guard structure collapses and the opponent can extract their arm and pass.
-
-**Q2**: Your opponent drives forward aggressively as you begin repositioning your leg - how do you adapt?
-**A**: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York. Their forward momentum actually assists these transitions by bringing their head closer and compressing the space needed for gogoplata setups. Fighting against their momentum to complete New York wastes energy and creates unnecessary positional risk.
-
-**Q3**: What is the primary mechanical difference between Crackhead Control and New York that this transition creates?
-**A**: Crackhead Control positions the controlling leg across the opponent's neck or upper back with maximum downward pressure and deep overhook penetration, creating high submission density but significant back exposure. New York positions the shin across the shoulder blades with slightly less aggressive pressure but improved stability. The transition trades immediate submission threat for positional sustainability and access to different attack chains like Invisible Collar, Zombie, and Carni.
-
-**Q4**: How do you prevent back exposure during the transitional moment when your primary leg is repositioning?
-**A**: Your free leg must maintain active hip connection through butterfly hook, posting on opponent's hip, or hooking behind their leg. This leg becomes the primary safety mechanism during transition. Establish this connection before releasing the shin grip and maintain it throughout the leg repositioning movement. If the hip connection is lost, the opponent can immediately begin circling toward back control.
-
-**Q5**: Why would you choose to transition to New York rather than continuing to hunt submissions from Crackhead Control?
-**A**: Strategic reasons include: opponent has developed defensive timing for Crackhead submissions and is threatening back takes during your extensions; your hip flexors are fatiguing from the aggressive Crackhead positioning; you want access to attack chains more easily accessed from New York like Invisible Collar or Zombie; or the opponent's posture recovery is making Crackhead submissions difficult but they remain vulnerable to New York attacks.
-
-**Q6**: What is the correct grip position when re-establishing shin control after the leg repositions to New York?
-**A**: Grip the shin between the ankle and lower calf with a full hand wrap. Gripping too low near the knee allows the opponent to easily strip the control and restore posture. The ankle-adjacent grip provides maximum leverage and makes grip stripping significantly more difficult. The hand should wrap fully around the shin rather than just grabbing with fingers.
-
-**Q7**: You notice your opponent attempting to establish double underhooks as you transition - what is your immediate response?
-**A**: Double underhooks during transition signal critical danger requiring immediate position abandonment regardless of transition progress. Stop the New York transition and either return to closed guard by releasing the overhook and closing your legs, or initiate technical standup. Double underhooks make stack passes and back takes extremely high percentage, overriding any offensive considerations.
-
-**Q8**: How do you manage energy expenditure when cycling between Crackhead Control and New York during extended guard exchanges?
-**A**: Use Crackhead Control for aggressive submission bursts requiring maximum hip flexor and core engagement, then transition to New York for positional consolidation and brief recovery periods. New York's more sustainable control structure allows reduced muscular tension while maintaining offensive threat. This cycling prevents the fatigue that occurs from maintaining Crackhead Control continuously while keeping the opponent under constant pressure.
-
-**Q9**: The opponent strips your shin grip as you attempt to re-establish it in New York - what attack opportunity does this create?
-**A**: Their grip fighting to strip your shin control creates the perfect opening for a triangle setup. As they reach toward your leg, shoot your repositioning leg over their shoulder while the overhook keeps their arm trapped inside. Their defensive hand movement actually positions their arm inside your guard, creating the triangle angle. Never fight the grip battle when you can immediately threaten a submission.
-
-**Q10**: What hip adjustment must occur immediately after completing the leg repositioning to establish proper New York control?
-**A**: Rotate your hips slightly toward the overhook side to establish the characteristic New York angle. This hip rotation opens pathways to Invisible Collar, Zombie, and Carni transitions that are not available from a flat hip position. Without this adjustment, the position becomes unstable closed guard rather than proper New York, losing access to the advanced attack chains that make the transition valuable.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crackhead Control to New York?</p>
 
 This transition involves dynamic hip movement and leg repositioning that can strain the hip flexors and external rotators if performed without adequate warm-up or flexibility. Practitioners should develop specific hip mobility before attempting the transition with resistance. The brief moment when the shin grip is released creates transitional vulnerability - never force the transition against strong posture or if the opponent has begun establishing back control. If cramping or discomfort occurs in the hip region during drilling, stop and address flexibility limitations before continuing. Both training partners should communicate clearly during positional sparring, as unexpected transitions can cause the top player to post awkwardly. Build proficiency gradually from static drilling to live application.
 

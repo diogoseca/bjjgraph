@@ -184,6 +184,8 @@ The most critical defensive window occurs before the passer's knee crosses the t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice Pass?</p>
+
 - Passer's lead hand secures collar grip or cross-face control while their trailing hand reaches for your far hip, establishing the two primary control points needed to initiate the slice
 - Passer's knee begins to rise and angle diagonally across your thigh line, shifting from a vertical shin position to a 45-degree cutting trajectory with weight loading forward
 - Passer drives their head to the far side of their slicing knee, positioning for crossface pressure that will pin your shoulder to the mat
@@ -196,6 +198,8 @@ The most critical defensive window occurs before the passer's knee crosses the t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice Pass?</p>
 
 - Establish knee shield or frame before the passer can begin the slicing motion to create a structural barrier they must overcome
 - Fight for the underhook on the trapped-leg side as the primary offensive weapon that enables sweeps, back takes, and guard recovery
@@ -211,6 +215,8 @@ The most critical defensive window occurs before the passer's knee crosses the t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice Pass?</p>
 
 ### 1. Establish knee shield frame by inserting your shin across the passer's chest and hip before the slice begins
 
@@ -269,6 +275,8 @@ The most critical defensive window occurs before the passer's knee crosses the t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Establish a knee shield frame before the slice begins, then fight for the underhook to regain offensive half guard position. Use the knee shield to create distance, deny the crossface, and transition to an active half guard with sweep and back take options available.
@@ -284,6 +292,8 @@ Time an underhook sweep or deep half sweep to coincide with the passer's forward
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice Pass?</p>
 
 ### 1. Lying flat on your back without any frames or knee shield when you recognize the knee slice setup
 
@@ -318,6 +328,8 @@ Time an underhook sweep or deep half sweep to coincide with the passer's forward
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice Pass?</p>
+
 **Week 1-2: Recognition and Framing** - Identifying knee slice setup cues and establishing defensive frames
 Partner slowly sets up the knee slice while you practice recognizing the grip sequence and immediately establishing knee shield or forearm frames. Focus on reading the collar grip and far hip control as triggers for defensive action. No resistance from either side, purely pattern recognition and frame insertion timing.
 
@@ -334,35 +346,6 @@ Positional sparring starting from half guard bottom against passer's free choice
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee slice pass is about to be initiated from half guard top?
-**A**: The earliest cue is the passer establishing a collar grip or crossface with their lead hand while their trailing hand reaches for your far hip or pant leg. This dual grip setup is the prerequisite for the slice and should trigger immediate defensive framing. Additionally, watch for their head positioning to the far side and their knee beginning to angle diagonally across your thigh.
-
-**Q2**: Why is the knee shield the most important initial defensive structure against the knee slice?
-**A**: The knee shield creates a structural barrier across the passer's chest and hip line that physically prevents the knee from completing its diagonal cut. Unlike arm frames which can be driven through with pressure, a properly positioned shin frame creates a bone-on-bone barrier that requires the passer to either smash through it or switch to an entirely different pass. This buys the defender time to establish offensive grips and threaten sweeps.
-
-**Q3**: Your opponent has begun the knee slice and their knee is halfway across your thigh. What are your best options at this point?
-**A**: At the halfway point, your best options are a deep half guard entry by ducking under their hips as they drive forward, or an aggressive underhook on the trapped-leg side combined with a hip escape to create enough angle to re-insert your knee. A direct knee shield is likely too late at this stage. If neither option is available, prepare to turn to turtle as a last resort to avoid conceding side control, then immediately work to stand or reguard from turtle.
-
-**Q4**: When is the optimal timing window to attempt a sweep against a knee slice pass?
-**A**: The optimal sweep timing is during the passer's forward driving phase when they have committed their body weight forward and their base is compromised. As they load forward to complete the slice, their trailing leg is light and their center of gravity is ahead of their support base. This is when underhook sweeps and deep half sweeps have maximum effectiveness because you are redirecting their already-committed momentum rather than fighting against a stable base.
-
-**Q5**: What is the danger of attempting an underhook recovery when the passer has already established crossface control?
-**A**: When the passer has an established crossface, reaching for the underhook exposes your arm to kimura attacks because the crossface pins your shoulder and limits your ability to withdraw the reaching arm. The passer can catch the reaching arm with their far hand while maintaining crossface with the near arm, isolating your shoulder in a vulnerable position. You must first address the crossface by framing against it or pummeling your head free before committing to the underhook battle.
-
-**Q6**: How do you prevent the passer from re-establishing the knee slice after you successfully recover your knee shield?
-**A**: After recovering knee shield, immediately establish offensive grips that keep the passer reactive: collar grip to threaten collar drags, sleeve grip to prevent them re-establishing their own grips, and use the knee shield to create distance for angle creation. Threatening sweeps from the knee shield position forces the passer to defend rather than re-setup. A purely defensive knee shield without offensive threat will eventually be passed as the passer methodically works to smash or circumvent it.
-
-**Q7**: What makes the deep half guard entry an effective counter to the knee slice, and when does it become too late to attempt it?
-**A**: Deep half guard works because the passer's forward driving pressure during the knee slice actually assists your entry underneath their hips. You redirect their downward momentum to shoot underneath them, establishing sweeping angles that negate the slice entirely. It becomes too late when the passer's knee has fully cleared your thigh line and they have begun consolidation, as you will be diving under someone who is no longer above you but beside you, resulting in being flattened in a worse position.
-
-
-
-</section>
 
 
 </main>

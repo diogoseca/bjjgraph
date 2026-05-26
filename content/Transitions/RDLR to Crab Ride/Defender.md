@@ -162,6 +162,8 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting RDLR to Crab Ride?</p>
+
 - RDLR player elevates hips significantly higher than normal guard maintenance, engaging core to create vertical space for the inversion pathway
 - Ankle grip tightens and pulls inward across the attacker's centerline, loading the defender's weight onto the hook-side leg
 - Far leg releases its frame on the defender's near hip, indicating the attacker is preparing to commit to the rotation
@@ -173,6 +175,8 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending RDLR to Crab Ride?</p>
 
 - Maintain low hip positioning with weight distributed back to prevent the attacker from loading your base onto the hook side
 - Address the ankle grip as the highest priority—without the steering mechanism, the inversion loses its directional control
@@ -187,6 +191,8 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against RDLR to Crab Ride?</p>
 
 ### 1. Sprawl hips to the mat and drive forward pressure to flatten the RDLR player
 
@@ -224,6 +230,8 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending RDLR to Crab Ride?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the ankle grip early using a two-on-one break while backstepping away from the RDLR hook. This dismantles the guard structure entirely, leaving the opponent in open guard where you have immediate passing opportunities. Combine the grip strip with lateral movement to prevent re-establishment of the RDLR configuration.
@@ -239,6 +247,8 @@ Sprawl your hips to the mat when you detect hip elevation and shoulder rotation,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending RDLR to Crab Ride?</p>
 
 ### 1. Staying upright with hips high when the RDLR player begins elevating their hips
 
@@ -268,6 +278,8 @@ Sprawl your hips to the mat when you detect hip elevation and shoulder rotation,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against RDLR to Crab Ride?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying inversion setup cues and developing immediate defensive responses
 Partner establishes RDLR and performs the inversion setup at 50% speed while you practice recognizing hip elevation, ankle grip loading, and shoulder rotation. Focus on timing your sprawl or grip strip to the correct moment. Perform 15 repetitions per side, gradually increasing the partner's speed as recognition improves.
 
@@ -281,29 +293,6 @@ Positional sparring starting from RDLR where the bottom player works to achieve 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate an RDLR player is setting up a crab ride entry rather than other RDLR attacks?
-**A**: The key distinguishing cues are hip elevation combined with the far leg releasing its frame on your near hip. While waiter sweeps and kiss of the dragon also use hip elevation, the far leg release specifically indicates commitment to threading underneath you rather than executing a direct sweep. Additionally, the ankle grip pulling strongly across their centerline and their shoulders beginning to rotate toward the mat on the hook side confirm the inversion pathway to crab ride rather than other RDLR offensive options.
-
-**Q2**: Your opponent has initiated the inversion and is threading underneath you—what is your immediate defensive priority?
-**A**: Once the inversion is committed, your immediate priority shifts from prevention to damage control. Drive your hips down hard while sprawling forward to compress the available space and slow or stall the inversion. Simultaneously, address the hook by working to strip it before they can emerge on the far side. If they complete the thread, your priority becomes preventing the crab ride hook insertion by keeping your near-side hip tight to the mat and turning toward them before they can establish perpendicular control.
-
-**Q3**: The RDLR player has partially established crab ride but hasn't secured upper body control yet—how do you escape?
-**A**: This is a critical escape window before full consolidation. Immediately turn your shoulders toward the attacker rather than away, which prevents them from establishing the perpendicular chest pressure that completes crab ride. Simultaneously work to strip the single hook by cupping their ankle and pushing it toward the mat while driving your hip to the ground. The combination of turning in and hook stripping creates the space to sit through to guard recovery before they can add upper body control. Speed is essential—this window closes within two to three seconds.
-
-**Q4**: What weight distribution adjustment prevents the RDLR player from loading you for the inversion?
-**A**: Shift your weight backward by sitting your hips behind the line of the RDLR hook rather than over it. Your center of gravity should remain behind your knee line on the hook side, which prevents the attacker from pulling your weight forward onto the hook. Widen your base laterally and keep your posting leg active. If you feel your weight being drawn across their centerline through the ankle grip, immediately post on the opposite side and circle away from the pull direction.
-
-**Q5**: Your ankle grip is being pulled strongly across the attacker's centerline from RDLR—what defensive options do you have?
-**A**: First, fight the grip immediately with a two-on-one break using your same-side hand and opposite hand to peel their fingers or redirect their wrist. If the grip is too deep to break cleanly, backstep your hook-side leg away from the pull while widening your base to resist the directional force. As a third option, accept the pull direction but drop your hips low and sprawl in the same direction, converting their pull into your pressure and eliminating the space they need for inversion. Never remain static when your ankle is being controlled—address it within two seconds or concede the positional advantage.
-
-
-
-</section>
 
 
 </main>

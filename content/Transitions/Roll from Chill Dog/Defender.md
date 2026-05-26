@@ -162,6 +162,8 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll from Chill Dog?</p>
+
 - Bottom player subtly shifts weight forward onto their hands, testing the available rolling space ahead of them
 - Bottom player's shoulders dip or angle to one side, indicating the direction of the intended diagonal roll
 - Brief increase in bottom player's muscular tension through their back followed by a gathering of energy before explosive motion
@@ -174,6 +176,8 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll from Chill Dog?</p>
 
 - Maintain consistent chest pressure on the bottom player's upper back to limit their available forward rolling space
 - Control at least one hip at all times to prevent the explosive push-off needed to initiate the forward roll
@@ -188,6 +192,8 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll from Chill Dog?</p>
 
 ### 1. Sprawl and drive hips down to flatten the bottom player before the roll builds momentum
 
@@ -225,6 +231,8 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll from Chill Dog?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the roll with tight chest-to-back pressure, maintaining physical contact throughout the rotation. As the bottom player lands from the roll, immediately insert your near hook and reach for seatbelt grip. Their rolling momentum actually helps you secure the back position if you stay connected through the entire movement.
@@ -240,6 +248,8 @@ Sprawl your hips down and drive chest pressure forward as you feel the roll init
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll from Chill Dog?</p>
 
 ### 1. Releasing all grips when the roll initiates to try to catch the bottom player after they land
 
@@ -269,6 +279,8 @@ Sprawl your hips down and drive chest pressure forward as you feel the roll init
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll from Chill Dog?</p>
+
 **Phase 1: Roll Recognition** - Identifying roll initiation cues through tactile awareness
 Partner attempts forward rolls from Chill Dog at various speeds and angles while you focus solely on recognizing the pre-roll weight shifts and telegraph movements. Do not attempt to counter initially - just identify and verbally call out when you feel the roll beginning. Develops the tactile pattern recognition needed for effective defense.
 
@@ -285,29 +297,6 @@ Positional sparring from Chill Dog top where the bottom player can use any escap
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing to roll forward from Chill Dog?
-**A**: The earliest cue is a subtle forward weight shift onto the hands, often accompanied by a slight widening of hand placement on the mat. The bottom player needs to test whether forward space exists before committing to the roll. You may also feel a momentary increase in muscular tension through their back as they prepare for the explosive push-off. When you detect this forward shift, immediately increase your downward chest pressure and tighten your grip on their near hip to shut down the roll before it starts.
-
-**Q2**: Your opponent initiates the roll and has already begun rotating - is it better to try to stop the roll or follow it?
-**A**: Once the roll has genuinely begun with momentum, it is almost always better to follow it than to try to stop it mid-rotation. Attempting to stop a roll in progress usually results in losing contact entirely as the bottom player's momentum carries them through and away from you. Following the roll with tight chest-to-back contact positions you to insert hooks and establish back control as they land. The key is committing to following within the first quarter-rotation - hesitation results in losing the physical connection entirely.
-
-**Q3**: How should you position your weight to preemptively discourage roll attempts without overcommitting forward?
-**A**: Distribute your weight primarily through your chest onto the bottom player's upper back between the shoulder blades, angled slightly downward at approximately 45 degrees rather than directly forward. Keep your hips low and close to their body rather than elevated above them. This downward angle makes forward rolling extremely difficult because the bottom player cannot generate the upward lift needed to initiate rotation. Avoid pushing straight forward as this actually assists their roll by providing forward momentum they can redirect into the rotation.
-
-**Q4**: The bottom player's roll attempt fails and they immediately chain to a Granby roll - how do you counter the chain?
-**A**: When a forward roll transitions to a lateral Granby, immediately shift your weight to the side they are rolling toward and drop your hip to block their rotation path. Your near arm should reach under their rolling shoulder to stop the inversion while your far hand controls their hip. The key insight is that the failed forward roll leaves them momentarily displaced from their proper Chill Dog defensive structure, making the chain escape less powerful than a fresh Granby attempt from a settled position. Use this structural disadvantage to drive them flat before the Granby builds momentum.
-
-**Q5**: What is the most reliable method to prevent the roll before it even begins?
-**A**: Maintaining constant hip control with at least one hand on or near the bottom player's near hip combined with heavy chest pressure on their upper back. This combination removes both prerequisites for the roll: hip control prevents the explosive push-off needed for initiation, and chest pressure eliminates the forward space required for rotation. When you feel any forward weight shift, increase both simultaneously. The bottom player cannot generate sufficient force to roll against properly positioned chest pressure combined with active hip control.
-
-
-
-</section>
 
 
 </main>

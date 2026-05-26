@@ -164,6 +164,8 @@ The defensive strategy centers on preventing the bottom player from completing t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Squid Guard Sweep?</p>
+
 - Bottom player pulls lapel grip taut while simultaneously extending their threading hook, creating combined tension on your lower and upper body
 - Bottom player hip escapes to create a lateral angle — this angle creation is the final setup step before sweep initiation
 - Your weight shifts forward involuntarily as the lapel pull draws your upper body toward the mat while the hook prevents you from stepping back
@@ -176,6 +178,8 @@ The defensive strategy centers on preventing the bottom player from completing t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Squid Guard Sweep?</p>
 
 - Maintain vertical posture with weight centered over your base to deny the weight-loading that powers the sweep
 - Address the lapel wrap as the highest priority — the sweep cannot function without restrictive lapel tension
@@ -190,6 +194,8 @@ The defensive strategy centers on preventing the bottom player from completing t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Squid Guard Sweep?</p>
 
 ### 1. Strip the lapel wrap before the sweep develops by using both hands to unwrap the fabric from your leg
 
@@ -227,6 +233,8 @@ The defensive strategy centers on preventing the bottom player from completing t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Squid Guard Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 When the sweep partially succeeds but you manage to insert a knee and recover to half guard top rather than conceding full mount. Use the backstep and posting mechanics to slow the sweep rotation enough to insert a defensive frame before mount is established. This is damage control rather than full prevention but is significantly better than conceding mount.
@@ -242,6 +250,8 @@ Strip the lapel grip or extract the threading hook before the sweep develops, ne
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Squid Guard Sweep?</p>
 
 ### 1. Attempting to resist the sweep by stiffening your legs and fighting the rotation with muscular force
 
@@ -271,6 +281,8 @@ Strip the lapel grip or extract the threading hook before the sweep develops, ne
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Squid Guard Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues from Squid Guard
 Partner establishes Squid Guard and works through the sweep setup phases at slow speed. Defender focuses on identifying the tactile and visual cues for each phase — lapel tightening, angle creation, weight loading, rotation initiation. No active defense yet, purely developing pattern recognition. 15 repetitions with partner narrating each phase.
 
@@ -284,29 +296,6 @@ Positional sparring starting from established Squid Guard with full resistance f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Squid Guard Sweep is being set up?
-**A**: The earliest cue is the bottom player hip escaping to create a lateral angle while maintaining or increasing lapel tension. This angle creation is the final prerequisite before the sweep — it positions the threading hook for maximum lateral force and creates the rotational axis for the sweep. Recognizing this hip escape gives you the maximum response window to backstep, strip the lapel, or adjust your base before the weight-loading phase begins.
-
-**Q2**: Your opponent begins loading your weight forward with lapel tension — what immediate base adjustment prevents the sweep?
-**A**: Shift your hips backward and drop your center of gravity by bending your knees while maintaining upright spinal posture. This counters the forward pull by moving your center of gravity behind your base rather than in front of it. Simultaneously, widen your base laterally on the side opposite the sweep direction to create a broader platform that resists the rotational force. Avoid leaning forward to compensate for the pull, as this accelerates the weight-loading that powers the sweep.
-
-**Q3**: How do you differentiate between a Squid Guard Sweep setup and a back take setup when the initial configuration looks identical?
-**A**: Watch the bottom player's hip angle and non-threading leg position. For the sweep, they hip escape to create a lateral angle with the non-threading leg driving across your body. For the back take, they begin inverting underneath you with the non-threading leg swinging behind your hip line. The critical moment of differentiation is the hip movement direction — lateral for sweep, rotational underneath for inversion. Your defensive response must match: widen base for sweep defense, sprawl and pressure for inversion defense.
-
-**Q4**: What grip should you prioritize stripping to shut down the sweep threat from Squid Guard?
-**A**: The lapel wrap around your leg is the highest-priority grip to strip. Without the lapel restriction, the Squid Guard degenerates into standard De La Riva where the threading hook alone generates insufficient off-balancing force for a reliable sweep. The lapel wrap multiplies the hook's effectiveness by restricting your posting and base recovery options. Strip it using a two-handed unwrapping sequence when possible, accepting temporary vulnerability to upper body attacks in exchange for eliminating the sweep's primary mechanism.
-
-**Q5**: The sweep has already begun and you are mid-rotation — what recovery action minimizes positional loss?
-**A**: Post your free hand wide on the mat in the direction you are being swept and drive your weight over the posting arm while simultaneously pulling your near knee toward your chest to insert a knee shield. If you cannot stop the rotation entirely, the goal shifts to damage control — recover to half guard rather than conceding full mount. This requires accepting the partial positional loss while preventing the worst outcome. Frame immediately upon landing to prevent the sweeper from consolidating mount.
-
-
-
-</section>
 
 
 </main>

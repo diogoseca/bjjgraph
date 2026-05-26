@@ -97,7 +97,7 @@
       "relationship": "Related control concept sharing overhook mechanics"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Rolling Armbar from Closed Guard",
       "relationship": "Submission available from closed guard after successful transition"
     }
   ],
@@ -244,7 +244,7 @@
         "description": "Perform the transition during the final minutes of hard sparring rounds when fatigue is a factor. Test whether your mechanics hold up under cardiovascular stress and against fully resisting opponents who know your intent. Develop automatic execution that does not degrade under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the guard closure from overhook guard?",
         "answer": "The optimal window is immediately after a successful posture break when the opponent's forehead is near your chest and their hips are driven forward by your heel pressure. At this moment, their waist is closest to your hips, their base is compromised, and their arm is restricted by the overhook, making it the lowest-resistance opportunity to wrap and lock your legs."
@@ -366,7 +366,7 @@
         "correction": "Coordinate arm framing with hip distance creation. Push off with your free hand while simultaneously driving your hips back. The distance must come from your entire body structure, not just arm frames."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is attempting to close their guard from overhook position?",
         "answer": "The earliest cue is the bottom player beginning to shoulder walk or hip scoot upward toward your waist while simultaneously increasing their overhook pulling pressure. You will feel their hips shifting incrementally closer through subtle changes in leg pressure against your ribcage. Their free hand will also shift to firmly controlling your arm rather than attacking, indicating they are prioritizing guard consolidation over sweeps or submissions."

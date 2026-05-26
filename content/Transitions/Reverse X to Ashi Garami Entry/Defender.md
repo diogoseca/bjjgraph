@@ -164,6 +164,8 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X to Ashi Garami Entry?</p>
+
 - Attacker's hips begin elevating noticeably higher than normal Reverse X-Guard maintenance, indicating preparation for leg transfer
 - Attacker's secondary leg (hip hook) disengages from your hip and begins traveling across your body toward your far side
 - Attacker's body rotates to face your trapped leg more directly rather than maintaining the standard inverted angle of Reverse X-Guard
@@ -176,6 +178,8 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X to Ashi Garami Entry?</p>
 
 - Recognize the transition early by monitoring the attacker's secondary leg movement and hip elevation
 - Maintain forward pressure to deny the attacker space for hip elevation and leg reconfiguration
@@ -190,6 +194,8 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X to Ashi Garami Entry?</p>
 
 ### 1. Backstep and extract the controlled leg by stepping your trapped leg backward and away from the attacker's hooks while maintaining upper body posture
 
@@ -227,6 +233,8 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X to Ashi Garami Entry?</p>
+
 ### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Time your backstep or leg extraction during the window when the attacker releases their secondary hook to begin the transfer. Their control is weakest during this transition phase, so aggressive leg extraction combined with base maintenance breaks the entanglement before Ashi forms.
@@ -242,6 +250,8 @@ Drive forward with heavy hip pressure as the attacker begins elevating for the t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X to Ashi Garami Entry?</p>
 
 ### 1. Turning away from the attacker during the defense, exposing the back
 
@@ -271,6 +281,8 @@ Drive forward with heavy hip pressure as the attacker begins elevating for the t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X to Ashi Garami Entry?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner executes the Reverse X to Ashi Garami transition at slow speed without resistance. Defender practices identifying the five recognition cues in real time and verbalizing what they see. No defensive action yet, just pattern recognition from the top position.
 
@@ -287,29 +299,6 @@ Full positional sparring starting from Reverse X-Guard. Defender works to preven
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to initiate your defense against the Reverse X to Ashi Garami Entry?
-**A**: The most critical defensive window is when the attacker's secondary leg disengages from your hip to begin the transfer across your body. At this moment, only the primary hook behind your knee maintains their control, making it the weakest point in the transition. Immediate backstep or forward pressure during this window has the highest success rate.
-
-**Q2**: Why should you never turn away from the attacker when defending this transition?
-**A**: Turning away from the attacker exposes your back and creates rotational momentum that the attacker follows with an inversion. This leads to either a back take or a deeper entanglement like Honey Hole, both of which are significantly worse positions than the original Ashi Garami you were defending against.
-
-**Q3**: Your opponent has established the cross-body clamp but not yet secured knee line control - what is your immediate priority?
-**A**: Immediately straighten your trapped leg and turn your knee outward to deny heel exposure. Without knee line control, the attacker cannot threaten submissions even if the Ashi structure is partially established. Simultaneously begin systematic leg extraction by addressing the primary hook behind your knee with downward knee pressure to create slack for lateral extraction.
-
-**Q4**: How does maintaining forward pressure prevent the Reverse X to Ashi Garami transition?
-**A**: Forward pressure denies the attacker the hip elevation they need to create space for secondary leg transfer. Without that elevation, their secondary leg cannot travel across your body to complete the Ashi Garami structure. Forward pressure also keeps their shoulders pinned, reducing their ability to rotate and reconfigure their leg positioning.
-
-**Q5**: What defensive adjustment should you make if you see the attacker's grip shift from collar or belt to heel cup or ankle grip?
-**A**: A grip shift to heel cup or ankle indicates the attacker is transitioning from sweep mode to leg entanglement mode. Immediately strip the new grip before it consolidates and either backstep your trapped leg or drive forward with heavy pressure. The grip change is a reliable indicator that the Ashi entry is imminent and demands an immediate defensive response.
-
-
-
-</section>
 
 
 </main>

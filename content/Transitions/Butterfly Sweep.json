@@ -63,8 +63,8 @@
       "relationship": "Alternative Position - transition when opponent removes weight"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Counter to Defense - attacks posted arm"
+      "name": "Kimura",
+      "relationship": "Counter to Defense - attacks posted arm when opponent bases out"
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",
@@ -241,7 +241,7 @@
         "description": "Regular drilling of fundamental mechanics to maintain technical sharpness. Experiment with grip variations, different starting positions, and creative transitions. Analyze personal footage to identify technical gaps. Work with training partners of various sizes and skill levels to develop universal application. Integrate butterfly sweep seamlessly into overall guard game."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the butterfly sweep effective against larger opponents?",
         "answer": "The butterfly sweep uses leverage and rotational momentum rather than pure strength. By establishing a fulcrum with the posted base hand and using the butterfly hook to break opponent's base while pulling them across your centerline, you create a wheel-like rotation that multiplies force. The technique redirects opponent's weight and uses their own mass against them, making size difference less relevant. Proper execution requires coordination of multiple components (hook elevation, upper body pull, hip rotation) occurring simultaneously to generate circular momentum that opponent cannot resist with base alone."
@@ -366,7 +366,7 @@
         "correction": "Address sweeps by posting or sprawling while maintaining contact and control. Stay engaged and immediately convert your defensive action into a passing attempt rather than retreating to neutral distance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important body position detail for preventing the butterfly sweep from being initiated?",
         "answer": "Keeping your hips back and low with weight distributed through your knees rather than leaning forward over opponent's hooks. When your hips are behind your shoulders, opponent cannot load your weight onto their hooks effectively, which is the prerequisite for any butterfly sweep variation. This hip position simultaneously limits how much elevation the hooks can generate and reduces the forward momentum available for the bottom player to redirect. Maintaining this posture requires active awareness because natural grappling instincts often lead to leaning forward to apply pressure, which is exactly what feeds the sweep."
@@ -395,7 +395,7 @@
         "description": "Partner in butterfly guard initiates sweeps at 30% speed. Defender focuses on recognizing the loading phase (forward pull, hook elevation, directional commitment) and practicing the hand post response. Partner announces sweep direction initially to build recognition. Progress to partner sweeping without announcement. Drill 15-20 reps per side focusing on post timing. Separately drill sprawl defense against forward-loading sweeps at controlled speed."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Posture Maintenance",
+        "phase": "Week 3-4: Grips and Posture Maintenance",
         "focus": "Preventing sweep prerequisites through active grip denial and positional awareness",
         "description": "Partner works from butterfly guard attempting to establish underhooks and collar grips while defender focuses purely on grip fighting and posture maintenance. No passing attempts, just grip denial and base management. Partner increases grip fighting intensity to 60%. Introduce rounds where defender must maintain base for 2 minutes against sweep attempts while actively fighting grips. Focus on keeping hips back and at least one hand free to post at all times."
       },

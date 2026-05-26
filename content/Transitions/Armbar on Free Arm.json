@@ -47,8 +47,8 @@
       "relationship": "Target position - successful attack leads to armbar control"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related submission sharing armbar finishing mechanics"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Finishing submission - completes the armbar after establishing control position"
     },
     {
       "name": "Rear Naked Choke",
@@ -67,16 +67,16 @@
       "relationship": "Positional option for mounted armbar variant"
     },
     {
-      "name": "Armbar from Back",
-      "relationship": "Related technique - similar mechanics from different back control"
+      "name": "Armbar from Back Transition",
+      "relationship": "Related technique - similar armbar mechanics from standard back control"
     },
     {
       "name": "Body Triangle",
       "relationship": "Leg control that combines with Gift Wrap for armbar setup"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Finishing transition from armbar control position"
+      "name": "Gift Wrap Armbar",
+      "relationship": "Related submission - armbar finish from Gift Wrap position"
     },
     {
       "name": "Belly Down Armbar",
@@ -216,7 +216,7 @@
         "description": "Apply technique in positional sparring starting from Gift Wrap. Chain with choke attacks based on opponent's defensive choices. Full resistance rounds with focus on recognition, timing, and flowing between rear naked choke and armbar threats."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the armbar attack from Gift Wrap?",
         "answer": "The optimal timing is when the opponent extends their free arm to defend choke attempts, create framing distance, or break grips. These defensive actions necessarily extend and expose the arm, creating the vulnerability needed for armbar attack. Attacking before they extend makes arm isolation difficult, so you should threaten the choke first to bait the arm extension."
@@ -346,7 +346,7 @@
         "correction": "Use any pause in attacks to work on recovering the trapped arm through shoulder rotation and hip movement. Two-handed defense eliminates the core dilemma that makes this attack effective."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that an armbar on your free arm is being attempted?",
         "answer": "The earliest cue is feeling the attacker's non-Gift-Wrap hand grab your free arm's wrist or forearm while still in Gift Wrap position. This secondary arm control precedes the hip pivot and leg swing. If you can deny this initial grip by keeping your arm retracted with elbow tight, the attacker cannot initiate the armbar sequence effectively."

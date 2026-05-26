@@ -214,7 +214,7 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 
 - [[Transitions/Berimbolo Entry]] - Related inversion-based transition from DLR guard system
 
-- [[Submissions/Kneebar from Guard]] - Submission threat available from X-Guard after transition
+- [[Transitions/X-Guard to Ashi Garami]] - Leg entanglement pathway available from X-Guard after successful transition
 
 - [[Submissions/Straight Ankle Lock]] - Leg attack option if opponent defends elevation poorly
 

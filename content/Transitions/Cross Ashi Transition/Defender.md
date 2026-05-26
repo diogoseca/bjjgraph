@@ -166,6 +166,8 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cross Ashi Transition?</p>
+
 - Attacker's outside leg begins retracting from the Ushiro configuration, creating a momentary reduction in leg pressure on your trapped limb
 - Attacker's hips begin rotating to face more directly toward your trapped leg, signaling the shift from reversed to crossed body alignment
 - Attacker tightens their heel or ankle grip noticeably, indicating they are securing submission control before initiating the leg switch
@@ -177,6 +179,8 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Ashi Transition?</p>
 
 - Protect your heel by maintaining dorsiflexion and hiding heel exposure throughout the entire transition sequence
 - Exploit the momentary loosening of leg control during the switch as your primary escape window
@@ -192,6 +196,8 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cross Ashi Transition?</p>
 
 ### 1. Explosive leg retraction during outside leg switch
 
@@ -229,6 +235,8 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cross Ashi Transition?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time your leg extraction to the exact moment the attacker's outside leg disengages from Ushiro. Pull your trapped leg sharply toward your hip while pushing their body away with your free leg. Maintain dorsiflexion throughout to protect heel. The key is explosive movement during the 1-2 second window when their leg control is weakest.
@@ -244,6 +252,8 @@ Prevent the Cross Ashi configuration from completing by rotating your hips away 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Ashi Transition?</p>
 
 ### 1. Remaining passive during the transition and allowing the attacker to complete the switch unopposed
 
@@ -278,6 +288,8 @@ Prevent the Cross Ashi configuration from completing by rotating your hips away 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cross Ashi Transition?</p>
+
 **Week 1-2** - Recognition and timing awareness
 Partner performs slow Cross Ashi Transitions from Ushiro while you focus on identifying recognition cues (outside leg retraction, hip rotation, grip tightening). Do not attempt escapes yet - simply call out when you feel the transition beginning. Develop sensitivity to the control changes that signal the escape window. 20 repetitions per session.
 
@@ -294,29 +306,6 @@ Full-speed leg lock exchanges starting from Ushiro Ashi-Garami where attacker ha
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to attempt your escape during the Cross Ashi Transition?
-**A**: The optimal escape window occurs during the 1-2 seconds when the attacker's outside leg disengages from the Ushiro configuration and before it crosses into the Cross Ashi position. During this phase, the attacker has only their inside hook and grip controlling you. This is when their leg control is at its absolute weakest, making leg extraction most likely to succeed.
-
-**Q2**: What foot position must you maintain throughout your defense against this transition?
-**A**: Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped leg throughout the entire defensive sequence. This position pulls the heel closer to your calf, making it significantly harder for the attacker to establish the grip needed for heel hook finishing mechanics. Never point your toes or relax your foot, as even momentary relaxation creates heel exposure.
-
-**Q3**: Your attacker begins tightening their heel grip before initiating the leg switch - what does this signal and how should you respond?
-**A**: The grip tightening signals the attacker is about to begin the transition and is securing their submission control as insurance before loosening leg position. Respond by immediately engaging aggressive hand fighting to strip or weaken their heel grip before the leg switch begins. If you can compromise their grip before the transition starts, the escape window becomes significantly larger when their legs reconfigure.
-
-**Q4**: Why is rotating your hips away from the attacker an effective defense, and what risk does it carry?
-**A**: Hip rotation away from the attacker denies them the perpendicular alignment they need for Cross Ashi-Garami. Without this angle, they cannot achieve optimal finishing leverage even if they complete the leg cross. The risk is that your rotation may expose a different heel angle that the attacker can exploit from an intermediate position between Ushiro and Cross Ashi, potentially creating a submission opportunity that did not exist before.
-
-**Q5**: Your escape attempt fails and the attacker completes the Cross Ashi configuration - what is your immediate priority?
-**A**: Immediately shift to Cross Ashi-Garami defensive positioning: keep your trapped knee bent with heel toward your hip, sit up to create frames on the attacker's body, and begin aggressive hand fighting to prevent them from locking a heel hook grip. Do not continue attempting the same escape that just failed. Instead, settle into proper defensive structure and look for the next escape opportunity when the attacker adjusts their position or attempts a submission.
-
-
-
-</section>
 
 
 </main>

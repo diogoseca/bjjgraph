@@ -188,6 +188,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from Knee Shield?</p>
+
 - Establish crossface control before attempting to collapse the knee shield—head control neutralizes the shield's structural integrity
 - Control the shield leg at the ankle to pin it down and prevent re-insertion after collapse
 - Angle your body at 45 degrees to the opponent rather than driving straight into the shield's strongest axis
@@ -203,6 +205,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from Knee Shield?</p>
+
 - Crossface grip or shoulder pressure established controlling opponent's head position and preventing them from turning into you
 - Grip on opponent's knee shield leg at the ankle, pants, or shin to control and redirect the frame
 - Body angled at approximately 45 degrees to the opponent's centerline rather than square
@@ -216,6 +220,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from Knee Shield step by step?</p>
 
 1. **Establish crossface control**: Drive your shoulder or forearm across the opponent's jaw and neck, forcing their head to turn away from you. This breaks the alignment between their head, shoulders, and hips that gives the knee shield its structural power. In gi, grab the far collar to lock the crossface. In no-gi, cup the far shoulder or underhook the head. The crossface must be heavy and uncomfortable enough to demand a defensive reaction.
 2. **Control the knee shield ankle**: With your free hand, grip the opponent's ankle on their knee shield leg. In gi, grab the pants at the ankle. In no-gi, cup the heel or grip behind the ankle. This grip prevents the opponent from adjusting their shield angle or re-inserting it once you begin collapsing it. The ankle control is the mechanical key that makes the entire pass work—without it, the opponent can continuously readjust their frame.
@@ -245,6 +251,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from Knee Shield?</p>
+
 - **Opponent frames on bicep and hip escapes to re-insert knee shield** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and do not release the ankle grip. If they begin re-inserting, immediately drive your weight forward and re-collapse the shield before it reaches full extension. If the shield is fully re-established, reset your grips and begin the sequence again rather than fighting a strong frame. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Opponent dives underneath for deep half guard as you commit forward** (Effectiveness: Medium) - Your Response: Sprawl your hips back and drive your weight down through your chest to prevent them from getting underneath you. Control their head with a crossface or whizzer to prevent the rotation needed for deep half entry. If they establish deep half, immediately transition to backstep pass or smash pass rather than continuing the knee slice. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Opponent uses underhook to initiate old school sweep during your weight commitment** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your shoulder into their armpit to kill the sweep angle. Post your free hand on the mat for base if you feel your balance compromised. Re-establish crossface control before continuing the pass. If the sweep is well-timed, you may need to abandon the pass and reset to avoid being swept. → Leads to [[Positions/Half Guard]]
@@ -257,6 +265,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from Knee Shield?</p>
 
 ### 1. Driving straight into the knee shield rather than angling at 45 degrees
 
@@ -301,6 +311,8 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from Knee Shield (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated grip sequences and body positioning
 Practice the crossface-to-ankle-control-to-shield-collapse sequence with a cooperative partner. Focus on proper body angle, hand placement, and weight distribution. Perform 20 repetitions per side, emphasizing smooth transitions between each phase of the pass. Partner holds knee shield without resistance.
 
@@ -321,39 +333,12 @@ During open rolling, actively seek knee shield half guard top positions and atte
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to establish before initiating the knee slice from knee shield?
-**A**: The crossface is the most critical grip to establish first. Without controlling the opponent's head, they can turn into you, establish an underhook, and initiate sweeps as you commit forward. The crossface breaks the alignment between the opponent's head, shoulders, and hips that gives the knee shield its structural power. In gi, grab the far collar to lock the crossface. In no-gi, underhook the head or cup the far shoulder. Only after the crossface is secure should you address the ankle and begin collapsing the shield.
-
-**Q2**: Why must you angle your body at 45 degrees rather than driving straight into the knee shield?
-**A**: The knee shield's maximum strength is along its horizontal axis when you push directly into it. At 45 degrees, your force vector bypasses the shield's strongest plane and redirects along its weakest axis. This angle also positions your shoulder pressure above the shield line into the opponent's upper chest and jaw, which breaks their posture and alignment without fighting the shin frame directly. Additionally, the 45-degree angle positions your passing knee at the correct trajectory to slice diagonally across their thigh rather than getting stuck on the shield.
-
-**Q3**: Your opponent pushes their knee shield strongly into your chest as you attempt the slice—how do you adjust?
-**A**: Do not push back into the shield with matching force. Instead, angle your body to redirect the shield's force away from your centerline. Control their ankle to limit the shield's range of adjustment. Increase crossface pressure to break their postural alignment, which weakens the shield from the foundation. If the shield remains impenetrable, switch to a complementary pass like the long step or backstep that changes the angle of attack entirely rather than burning energy fighting a strong frame.
-
-**Q4**: What is the optimal timing window for driving the knee across during the pass?
-**A**: The optimal timing is immediately after the knee shield collapses and before the opponent can re-insert it. This window is typically 1-2 seconds after the ankle is pinned and the shield is flattened. You can also create timing by applying pressure waves—heavy pressure followed by slight release. When the opponent pushes back against your pressure wave, their reaction creates a momentary gap where their shield is transitioning and vulnerable. The knee drive should coincide with your weight shifting forward over the passing knee.
-
-**Q5**: Your opponent frames on your bicep and begins hip escaping during the knee slice—what is your immediate response?
-**A**: Immediately strip or swim past the bicep frame using your elbow to clear their hand, then re-establish forward pressure. Do not allow the hip escape to create distance—follow their hip movement with your own hips and maintain chest connection. If they create significant angle through the hip escape, consider switching to a long step pass that capitalizes on the new angle rather than fighting to return to the original passing line. Control their far hip with your free hand to limit further hip escape distance.
-
-**Q6**: What direction should the force of your knee drive travel during the slice?
-**A**: The knee should travel diagonally from the opponent's hip crease toward the mat on the far side of their body, approximately 45 degrees relative to their centerline. The force is directed forward and downward through the thigh, not straight down toward the mat. Your shin slides across their thigh surface rather than driving into their knee or shin. This diagonal vector makes it mechanically difficult for the opponent to block because they would need to redirect their defensive structure to match the angle, which requires abandoning their current shield position.
-
-**Q7**: If the knee slice is blocked and the opponent begins transitioning to deep half guard, how do you chain your attacks?
-**A**: When the opponent dives for deep half, immediately sprawl your hips back to prevent them from getting underneath you. Control their head with a crossface or whizzer to stop the deep half rotation. If they establish deep half, transition to a backstep pass or smash pass that capitalizes on their committed position. Alternatively, if they abandon deep half and return to knee shield, restart the knee slice sequence with adjusted grips. The key is having at least three passing options ready: knee slice, smash pass, and backstep, and flowing between them based on defensive reactions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from Knee Shield?</p>
 
 The knee slice pass involves significant pressure through the opponent's torso and can strain the bottom player's hip and knee joints, particularly when the shield leg is pinned and rotated. Apply pressure progressively rather than explosively, especially when driving the knee across the thigh. Be aware of your partner's knee position throughout the pass to avoid hyperextending their trapped leg. In training, communicate about pressure levels and release immediately if your partner indicates discomfort in their knee, hip, or lower back. Avoid explosive weight drops onto a compromised knee shield, as this can cause MCL or meniscus injuries to the bottom player.
 

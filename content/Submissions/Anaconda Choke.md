@@ -3,24 +3,31 @@
 
 
 ---
-title: "Anaconda Choke | BJJ Submission | BJJ Graph"
+title: "Anaconda Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and front headlock, finishing mechanics, safety protocols, and defensive strategies."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Anaconda Choke targets the Carotid arteries and trachea. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Anaconda Choke/Attacker|Play as Attacker]]
-[[Anaconda Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Anaconda Choke/from Anaconda Control|Anaconda Control]] | 65% | Loss of consciousness from carotid artery compression |  |
+| [[Anaconda Choke/from Dead Orchard|Dead Orchard Control]] | 50% | Carotid artery compression causing unconsciousness |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +40,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 65% (average across variants)
 
 </section>
 
@@ -82,145 +87,10 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Positions/Anaconda Control]] | 30% |
-| Counter | [[Positions/Front Headlock]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Head and arm control must be established before attempting t... | Recognize the Anaconda setup during the arm threading phase ... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Anaconda Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Head and arm control must be established before attempting the choke - the trapped arm is structurally essential, not optional
-
-- The figure-four configuration creates leverage by using opponent's trapped shoulder against their own neck for bilateral carotid compression
-
-- Hip pressure after the roll drives the choke deeper by compressing the figure-four grip into both carotid arteries simultaneously
-
-- The choking arm must thread deep under the neck, crossing fully to the opposite side past the far shoulder for maximum effectiveness
-
-- Body positioning perpendicular to opponent maximizes pressure vectors and prevents escape angles
-
-- Gable grip or rear naked choke grip completes the figure-four more securely than palm-to-palm and transfers hip force efficiently
-
-- The finish requires squeezing elbows together while expanding chest and driving hips forward - three simultaneous pressure vectors
-
-
-### Execution Steps
-
-
-- **Establish front headlock control**: From opponent's turtle position or as they shoot a takedown, secure your arm around their neck in a ...
-
-- **Thread choking arm deep under neck**: With your controlling arm already around their neck, begin threading it deeper, aiming to get your f...
-
-- **Trap opponent's arm against their neck**: As your choking arm threads through, ensure the opponent's near-side arm is trapped tightly against ...
-
-- **Complete figure-four grip**: Once your choking arm has threaded through and their arm is trapped, bring your free hand to meet yo...
-
-- **Roll to side and bring knees to chest**: With the figure-four established, perform a controlled roll to your side (the side of your choking a...
-
-- **Apply finishing pressure with hip extension and elbow squeeze**: From the rolled position, apply the finish by doing three simultaneous actions: (1) Squeeze your elb...
-
-- **Maintain control and monitor for tap**: As you apply finishing pressure, keep your body tight and compact. Your knees should stay near your ...
-
-
-### Common Mistakes
-
-
-- **Applying the choke from top position without rolling to side**
-  - Consequence: From top position, your body weight blocks the opponent's rolling escape path, but you cannot generate the hip pressure needed to finish. Opponent can often hand fight effectively and escape the choke.
-  - Correction: After establishing the figure-four grip, commit to the roll to your side. Bring knees to chest immediately and use hip pressure to drive the choke. The roll is not optional - it's essential to the finish.
-
-- **Shallow threading of choking arm under opponent's neck**
-  - Consequence: Shallow arm position fails to reach the far-side carotid artery and creates a weak, ineffective choke that opponent can defend easily. Results in wasted energy and lost submission opportunity.
-  - Correction: Thread your arm as deep as possible, aiming to get your entire forearm across their neck with your hand emerging well past their far shoulder. Use your free hand to guide your elbow deeper during the threading phase.
-
-- **Failing to trap opponent's arm against their neck**
-  - Consequence: Without their trapped arm creating pressure on their opposite carotid, you only have single-sided pressure which is insufficient for a clean finish. Opponent can also use their free arm to defend and create space.
-  - Correction: Before completing figure-four, ensure opponent's near arm is tightly folded against their neck and shoulder. Pull their wrist toward opposite shoulder if needed. Their arm should be immobilized and contributing to the choke.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Anaconda Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Recognize the Anaconda setup during the arm threading phase and defend before the figure-four is locked - early defense is ten times more effective than late escape
-
-- Address the choking pressure first by fighting the grip with your free hand before attempting any positional escape or scramble
-
-- Straighten your trapped arm to remove the shoulder-to-neck compression that creates bilateral carotid pressure - this eliminates half the choke
-
-- Keep your chin tucked toward your free-side shoulder to minimize choking surface and protect the exposed carotid
-
-- Move your hips away from your opponent's chest to reduce the driving pressure that tightens the figure-four grip
-
-- Never remain static under Anaconda control - constant defensive movement prevents your opponent from settling into the finishing position
-
-- If the figure-four is locked and the roll is initiated, focus on surviving the transition and attacking the grip during the positional chaos of the roll
-
-
-### Recognition Cues
-
-
-- Opponent's arm begins threading under your neck from front headlock position, reaching deeper than standard headlock control toward your far shoulder
-
-- You feel your near-side arm being pulled or folded against your own neck and shoulder, trapping it between your neck and opponent's encircling arm
-
-- Opponent shifts their weight to one side and their free hand reaches to meet their choking hand, indicating figure-four grip completion is imminent
-
-- Opponent begins walking their hips to one side while maintaining head control, which signals the pre-roll positioning phase
-
-- You feel constricting pressure around both your neck and trapped arm simultaneously, distinct from a standard guillotine which only targets the neck
-
-
-### Escape Paths
-
-
-- Straighten trapped arm to break bilateral compression, then circle away from the choke to recover turtle or half guard position
-
-- Hand fight the choking wrist with your free hand to create neck space, then drive forward to posture up and disengage from front headlock
-
-- If rolled to the finishing position, bridge explosively toward opponent while attacking their grip with both hands, then scramble to top position or guard
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Anaconda from Failed Sprawl**: When opponent shoots a takedown and you sprawl, but they maintain head-down position with arm between your legs, secure front headlock control and thread your arm under their neck from the sprawl position. This is a common MMA and no-gi entry. (When to use: When defending takedowns against wrestlers or when opponent drives forward with poor posture)
@@ -264,7 +134,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Positions/Front Headlock]]
 - [[Positions/Turtle]]
 - [[Positions/Anaconda Control]]
-- [[Positions/Scramble Position]]
 - [[Positions/Standing Position]]
 - [[Positions/Clinch]]
 - [[Positions/Combat Base]]
@@ -277,13 +146,13 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## Related Submissions
 
-- [[Transitions/Darce Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Brabo Choke]]
-- [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Darce Choke]] - Sister arm-in choke with reversed arm threading direction sharing identical setups
+- [[Transitions/Guillotine Choke]] - Front headlock choke family sharing common entries from turtle and sprawl
+- [[Transitions/Arm Triangle]] - Arm-in choke family with similar bilateral carotid compression mechanics
+- [[Submissions/Rear Naked Choke]] - Blood choke targeting same carotid arteries from rear control position
+- [[Submissions/Brabo Choke]] - Gi-specific arm-in choke variation from front headlock and passing positions
+- [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation with shared front headlock entries and transitions
+- [[Anaconda Choke from Dead Orchard]] - Advanced finishing variation accessed through Dead Orchard control pathway
 
 
 </section>

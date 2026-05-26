@@ -10,7 +10,7 @@
     "offensive",
     "guard"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Butterfly Hook Control/Bottom",
   "outcomes": [
     {
       "to": "Mount/Top",
@@ -60,8 +60,8 @@
       "relationship": "Chain technique - option when opponent defends by withdrawing hips"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Counter technique - submission attack on posted arm instead of pistol break"
+      "name": "Kimura Sweep",
+      "relationship": "Chain technique - kimura grip attack on posted arm as alternative when pistol break fails"
     },
     {
       "name": "Lockdown",
@@ -226,7 +226,7 @@
         "description": "Free rolling with emphasis on using John Wayne Sweep as part of larger guard retention and sweeping system. Combine with arm drags, back takes, and submission threats. Focus on reading opponent's defensive patterns and selecting optimal technique."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is establishing two-on-one sleeve control essential before attempting the John Wayne Sweep?",
         "answer": "Two-on-one sleeve control serves multiple critical functions: it breaks your opponent's ability to post on that side, creates an angle by pulling their arm across their centerline which disrupts their base, provides a steering mechanism to guide them through the sweep, and prevents them from establishing underhooks or grips on that side. Without this control, opponent can easily post and maintain their base throughout your sweep attempt."
@@ -357,7 +357,7 @@
         "correction": "Strip or at least partially compromise the two-on-one grip before standing. If you must stand with grip intact, immediately circle the controlled arm free as you create distance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action against the John Wayne Sweep and at what stage should it occur?",
         "answer": "The most important defensive action is stripping the two-on-one grip on your sleeve before the attacker can establish angular positioning. This should occur immediately when you feel both of the opponent's hands securing your sleeve or wrist. The two-on-one grip is the foundation of the entire sweep; without it, the attacker cannot isolate your arm, create the rotational axis, or execute the pistol grip break. Every subsequent defensive option has a lower success rate than preventing this initial grip."
@@ -386,7 +386,7 @@
         "description": "Partner slowly works through the John Wayne Sweep setup phases while you practice recognizing each stage. Focus exclusively on stripping the two-on-one grip using elbow circles and wrist extraction. No passing or countering yet - just recognition and grip prevention at various stages of the setup."
       },
       {
-        "phase": "Phase 2: Base Maintenance Under Sweep Pressure",
+        "phase": "Phase 2: Base Under Sweep Pressure",
         "focus": "Maintaining posting structure during active sweep attempts",
         "description": "Partner establishes the full John Wayne Sweep setup including two-on-one grip and angle. Practice maintaining base through strong posting, hip positioning, and weight distribution as partner attempts the full sweep with increasing intensity. Focus on staying balanced through the rotation attempt rather than stripping grips."
       },

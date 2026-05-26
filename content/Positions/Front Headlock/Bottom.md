@@ -175,6 +175,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Position Definition
 
+<p class="section-subtitle">What is Front Headlock (Bottom)?</p>
+
 - Your head and neck are controlled by opponent's arm(s), with opponent's chest driving downward pressure into your upper back and shoulders, creating bent-over posture that limits your mobility and vision while exposing you to multiple submission threats
 - Your torso is bent forward at the waist, typically with your hands and knees on the mat or attempting to stand with compromised posture, while opponent maintains superior position above and around your head with ability to sprawl their hips back or step around to different angles
 - Your chin must remain tucked tightly to your chest (defensive positioning) to prevent neck extension and submission completion, while your hands work defensively to either control opponent's choking arm, create frames against their body, or post on the mat for base and escape leverage
@@ -186,6 +188,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Front Headlock (Bottom)?</p>
+
 - Opponent has secured head control with at least one arm wrapped around your head/neck
 - Your posture is compromised into a bent-forward position (hands and knees, bent at waist, or failing takedown)
 - Opponent has chest pressure driving down into your upper back, preventing easy postural recovery
@@ -196,6 +200,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Front Headlock?</p>
 
 - Chin protection is paramount - keep chin tucked to chest at all times to prevent neck extension and submission
 - Never stay static in front headlock bottom - must constantly work to improve position while maintaining defensive frames
@@ -211,6 +217,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Front Headlock (Bottom)?</p>
 
 **If opponent has guillotine grip with hands locked and is pulling up on neck:**
 - Execute **[[Guillotine Defense - Chin Tuck and Arm Control/Attacker|Guillotine Defense - Chin Tuck and Arm Control]]** → [[Positions/Front Headlock]] (Probability: 60%)
@@ -239,6 +247,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Front Headlock?</p>
 
 ### 1. Lifting head up or extending neck while attempting to escape
 
@@ -278,6 +288,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Front Headlock defense?</p>
+
 ### Front Headlock Escape Positioning Drill
 
 Partner establishes front headlock control, you work solely on maintaining proper defensive positioning (chin tucked, hand fighting, mobile hips) without attempting escape. Focus on staying safe under pressure for extended periods.
@@ -310,38 +322,6 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the absolute first priority when you find yourself in front headlock bottom?
-**A**: Protect your neck by tucking your chin tightly to your chest. This is non-negotiable and must happen before any escape attempt. The chin tuck prevents neck extension which is required for most front headlock chokes to finish. If you extend your neck while escaping, you're likely to get caught in a guillotine, anaconda, or darce. Secure the chin tuck first, then begin hand fighting and working your escape. Many practitioners get submitted because they prioritize escape over protection.
-
-**Q2**: How should you distribute your hands defensively when trapped in front headlock bottom?
-**A**: One hand must always be fighting the opponent's choking arm, controlling at the wrist or elbow to limit their ability to deepen their grip or tighten the choke. The other hand can frame against their hip, post on the mat for base, or prepare for an escape movement. Never use both hands to push their body while leaving the choking arm uncontrolled - this gives them free access to lock up submissions. The hand fighting the choking arm is your primary defensive tool after the chin tuck.
-
-**Q3**: Your opponent is setting up an anaconda choke - you feel your arm getting trapped. What is your immediate response?
-**A**: Circle away from the trapped arm side immediately. The anaconda requires your arm trapped against your neck, so moving toward that side makes the choke tighter. By circling away, you create the angle that makes it harder for them to finish while potentially extracting your trapped arm. As you circle, keep fighting the choking arm and look to recover guard or stand. If the grip is too deep to circle out, consider rolling through toward the trapped arm side to invert and potentially recover guard, though this is riskier.
-
-**Q4**: When is the optimal time to attempt a technical standup escape from front headlock bottom?
-**A**: The optimal time is when the opponent's weight shifts forward or their base narrows - typically when they're reaching to deepen a grip or transitioning between attacks. At this moment, their pressure on you temporarily lessens and their ability to follow your movement is compromised. Post your hands, explosively drive up while keeping chin tucked, and control their choking arm throughout the standup. Do not attempt the standup when they have heavy, settled pressure with wide base - in that case, work to create the opening first by hand fighting or forcing them to adjust.
-
-**Q5**: Why is remaining static in front headlock bottom one of the worst defensive choices?
-**A**: Static defense allows your opponent unlimited time to perfect their position, adjust their grips, and choose their optimal attack. Every second you stay still, they can improve their angle, deepen their choking arm, or set up a transition to back control. The front headlock is designed to be an attacking position, so a static defender will eventually succumb to submission or positional loss. Constant movement and escape attempts, even small ones, force the opponent to react rather than attack, creating windows for escape. Even failed escape attempts are better than no movement because they prevent the opponent from settling.
-
-**Q6**: How do you defend against your opponent flattening you from front headlock to set up chokes or back take?
-**A**: Maintain space between your chest and the mat at all costs. Keep your knees under your hips in a ready position rather than letting your legs extend behind you. If they drive forward, you can post with your hands and create the base needed to stand or circle. Your hips must remain mobile and ready to move. If you feel yourself getting flattened, immediately work to get your knees back under you and either stand up or circle to create angle. Once fully flattened with legs extended, your escape options become extremely limited.
-
-**Q7**: Your opponent has loose front headlock control but you're fatigued - should you rest or continue working to escape?
-**A**: Continue working to escape, but do so efficiently rather than explosively. Loose control means their submission threat is reduced, but it also represents your best opportunity to escape before they retighten. Use technical escapes rather than explosive ones to conserve energy - steady circling, methodical hand fighting, and patient positioning. Resting allows them to recover their control and energy while you remain in a dangerous position. The concept of 'resting' in front headlock bottom is largely a myth - you're burning energy just surviving, so you might as well direct that energy toward escape.
-
-**Q8**: What is the relationship between your escape direction and the opponent's submission attempts from front headlock?
-**A**: Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

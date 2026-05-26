@@ -293,11 +293,11 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 28
+        "attempt_probability": 30
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 12
+        "attempt_probability": 14
       },
       {
         "transition": "Turtle to Truck",
@@ -308,11 +308,11 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Clock Choke",
+        "transition": "Clock Choke from Rodeo Ride",
         "attempt_probability": 8
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Rodeo Ride",
         "attempt_probability": 6
       },
       {
@@ -334,17 +334,9 @@
       {
         "transition": "Rodeo Ride to Turtle",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Calf Slicer from Rodeo Ride",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Rear Naked Choke from Rodeo",
-        "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution pattern that distinguishes Rodeo Ride from static turtle control?",
         "answer": "Rodeo Ride uses dynamic, asymmetric weight distribution where the hips are loaded onto the opponent's torso while one leg remains posted for base. Unlike static control where you try to pin the opponent with consistent pressure, Rodeo Ride requires constant micro-adjustments that shift responsively with opponent movement. Your chest maintains contact with their back while your posted leg serves as a stabilizing tripod point, allowing you to ride their escape attempts rather than fighting against them with static pressure."
@@ -589,46 +581,46 @@
     "transitions": [
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 34
+        "attempt_probability": 52
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Sit Through Escape",
         "attempt_probability": 7
       },
       {
+        "transition": "Sit Through Escape",
+        "attempt_probability": 2
+      },
+      {
         "transition": "Standing up in Base",
-        "attempt_probability": 5
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Escape from Rodeo Ride",
+        "attempt_probability": 0
       },
       {
         "transition": "Roll from Rodeo Ride",
-        "attempt_probability": 2
+        "attempt_probability": 0
       },
       {
         "transition": "Shake Off Rodeo Ride",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Escape from Rodeo Ride",
-        "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical defensive priority when caught in Rodeo Ride bottom?",
         "answer": "The most critical priority is preventing back exposure and the establishment of hooks and seat belt control. While neck protection and arm control are important, giving up back control with hooks leads to the highest-percentage finishing position in BJJ. All defensive decisions should be filtered through this priority—if you must choose between defending a choke attempt and preventing hook insertion, prevent the hooks first, as back control without the choke is more dangerous long-term than a defended choke attempt without full back control."

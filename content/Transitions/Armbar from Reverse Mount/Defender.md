@@ -162,6 +162,8 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar from Reverse Mount?</p>
+
 - Attacker reaches behind their body and grips your wrist or forearm, which you feel as sudden pulling pressure on your arm toward their hip line
 - Attacker's weight shifts dramatically to one side, with noticeably more pressure on one side of your chest than the other
 - You feel the attacker's leg begin to lift off the mat on one side, reducing the knee pressure against your ribs on that side
@@ -174,6 +176,8 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar from Reverse Mount?</p>
 
 - Keep elbows tight to ribs at all times in reverse mount bottom to deny arm isolation opportunities
 - React immediately to any wrist grip by clasping hands together or pulling the arm tight to your body before the pivot begins
@@ -188,6 +192,8 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar from Reverse Mount?</p>
 
 ### 1. Clasp hands together immediately upon feeling wrist grip, creating interlocked defense that prevents arm extension
 
@@ -225,6 +231,8 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar from Reverse Mount?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Use the attacker's overcommitment to the armbar pivot to bridge and turn into them, following their rotation to establish closed guard. Their focus on the arm control and pivot mechanics creates a window where they cannot defend the reguard. Time your bridge to coincide with their leg swing when their base is most compromised.
@@ -240,6 +248,8 @@ Deny arm isolation entirely by keeping elbows clamped tight to your ribs and imm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar from Reverse Mount?</p>
 
 ### 1. Extending arms away from the body in a panic response when feeling the attacker shift weight, pushing against their hips or back
 
@@ -269,6 +279,8 @@ Deny arm isolation entirely by keeping elbows clamped tight to your ribs and imm
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar from Reverse Mount?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying armbar setup cues from reverse mount bottom through tactile awareness
 Partner establishes reverse mount and slowly executes the armbar setup sequence while you focus on identifying each tactile cue: wrist grip, weight shift, leg lift. Practice with eyes closed to develop proprioceptive awareness. Name each cue aloud as you feel it. 15 repetitions at slow speed, progressing to normal speed.
 
@@ -285,29 +297,6 @@ Positional sparring starting in reverse mount with attacker specifically hunting
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive action you should take when you feel the attacker grip your wrist from reverse mount?
-**A**: Immediately clasp your hands together or grab your own wrist with your free hand, creating an interlocked defense that prevents arm extension. This must happen within the first half-second of feeling the grip, before the attacker can begin their pivot. The clasped hands buy critical time even if they cannot prevent the armbar entirely, creating opportunities for follow-up escape movements like bridging or turning.
-
-**Q2**: Why is turning toward the attacker critical when defending the armbar from reverse mount?
-**A**: The armbar requires a perpendicular angle between the attacker's body and your arm for effective hyperextension. Turning toward the attacker collapses this angle, preventing them from establishing the proper lever arm for the submission. Additionally, turning creates a scramble dynamic where you can potentially reguard to closed guard or create sufficient space to establish defensive frames. Staying flat preserves the exact body alignment the attacker needs.
-
-**Q3**: What are the key tactile cues that indicate an armbar attempt from reverse mount rather than a mount conversion or back take?
-**A**: The primary distinguishing cues are: a grip on your wrist or forearm with pulling pressure toward the attacker's hip, a lateral weight shift to one side of your chest rather than rotational movement toward your head, and the sensation of one leg lifting off your ribs while the other maintains pressure. Mount conversions involve rotational weight movement toward your head, while back takes involve the attacker sliding off laterally. The armbar specifically involves wrist control plus perpendicular pivot, which creates a distinctly different pressure pattern.
-
-**Q4**: When is the best moment to attempt a bridge escape during an armbar from reverse mount?
-**A**: The optimal bridging moment is when the attacker lifts their far leg to swing it over your body. At this instant, they have only one knee on the mat for base, their hips are mid-rotation, and their attention is divided between maintaining the arm grip and completing the leg swing. An explosive bridge timed to this moment has the highest probability of disrupting the armbar and creating a scramble opportunity for reguarding.
-
-**Q5**: Why should you avoid extending your arms to push against the attacker when defending from reverse mount bottom?
-**A**: Extended arms are precisely what the attacker is targeting for the armbar. Pushing against their body places your arms in the exact position needed for isolation, making their job significantly easier. The pushing force you generate is insufficient to move the attacker off your torso but provides them with perfectly positioned limbs to attack. Instead, keep elbows clamped tight to your ribs and use hip and core movements for defense, saving arm movements for direct grip defense and clasping.
-
-
-
-</section>
 
 
 </main>

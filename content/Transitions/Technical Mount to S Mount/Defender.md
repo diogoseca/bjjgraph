@@ -162,6 +162,8 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Mount to S Mount?</p>
+
 - Opponent shifts weight decisively to their posted leg, lightening their inside leg in preparation for the swing across your torso
 - Opponent's hips begin turning away from parallel alignment, indicating the start of the perpendicular rotation around your controlled arm
 - The opponent's inside leg lifts or unhooks from underneath you, preparing to cross over your chest to establish the S-shape configuration
@@ -174,6 +176,8 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Mount to S Mount?</p>
 
 - Recognize the rotation initiation immediately—the opponent shifting weight to their posted leg and beginning hip turn signals the S Mount transition
 - Prioritize arm retraction above all else—if you can bend your elbow and pull your arm back before the rotation completes, the transition fails
@@ -188,6 +192,8 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Mount to S Mount?</p>
 
 ### 1. Explosive arm retraction—bend elbow forcefully and pull arm tight to chest, gripping own collar
 
@@ -225,6 +231,8 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Mount to S Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the opponent's mid-rotation weight shift. As their balance is compromised between Technical Mount and S Mount base positions, drive hips upward and toward their posted leg side to displace them. Follow the bridge by immediately hip escaping and inserting a knee to recover half guard.
@@ -240,6 +248,8 @@ Retract the isolated arm before the rotation completes by explosively bending th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Mount to S Mount?</p>
 
 ### 1. Waiting until the rotation is complete before attempting defensive action
 
@@ -269,6 +279,8 @@ Retract the isolated arm before the rotation completes by explosively bending th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Mount to S Mount?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition initiation cues
 Partner alternates between maintaining Technical Mount and initiating the S Mount transition. The defender calls out when they feel the transition beginning. No escape attempts—focus purely on recognizing the weight shift and rotation initiation. Build the pattern recognition that enables timely defensive response.
 
@@ -285,29 +297,6 @@ Start in Technical Mount with arm controlled. Full resistance from both players.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the Technical Mount to S Mount transition?
-**A**: The earliest cue is the opponent shifting their weight decisively to their posted leg, which lightens their inside leg in preparation for swinging it across your torso. You may also feel a decrease in chest pressure as they begin rotating their hips away from parallel alignment. This weight shift occurs 1-2 seconds before the rotation completes, giving you a narrow but exploitable window for defensive action. Reacting at this moment rather than after the legs are positioned gives you the best chance of preventing S Mount establishment.
-
-**Q2**: Why is arm retraction more important than disrupting the opponent's leg movement during this transition?
-**A**: S Mount without arm isolation is functionally useless for the attacker—they cannot threaten the armbar, which is the entire purpose of the perpendicular position. Even if the opponent completes the full body rotation and establishes the S-shaped leg configuration, a bent arm pulled tight to your chest with a collar grip forces them to either work to re-extend the arm from a less advantageous angle or abandon S Mount entirely. Disrupting their legs addresses the symptom while arm retraction addresses the root cause of the threat.
-
-**Q3**: When is the optimal moment to bridge defensively during the Technical Mount to S Mount transition?
-**A**: The optimal moment is during the mid-rotation when the opponent's weight is transitioning between their Technical Mount base and their S Mount base. At this instant, they are neither fully stable in Technical Mount nor established in S Mount, creating a window where their balance is most vulnerable to disruption. Bridge toward their posted leg side where their base is weakest. Bridging too early wastes energy against a stable Technical Mount. Bridging too late faces the structural barriers of the S-shaped leg configuration.
-
-**Q4**: If the opponent successfully completes the rotation to S Mount despite your defensive efforts, what should you do immediately?
-**A**: Immediately transition to S Mount bottom defensive protocols: grip your own collar with the trapped hand to keep the arm bent, control the opponent's near leg with your free hand to prevent full armbar completion, and begin hip escaping toward their legs to create distance. Do not continue fighting as if you are still in Technical Mount—the threats and defensive priorities differ in S Mount. Accepting that the transition succeeded and immediately activating appropriate defense is more effective than continuing to fight an already-completed rotation.
-
-**Q5**: How does the hip escape direction differ when defending this transition versus standard Technical Mount escapes?
-**A**: During the transition specifically, you should hip escape toward the opponent's legs—the direction their body is rotating away from. This creates distance that makes completing the perpendicular angle mechanically impossible because their hips cannot reach your shoulder. In contrast, standard Technical Mount escapes often involve hip escaping toward the posted leg side to recover half guard. The directional difference matters because during the transition, the opponent's commitment to rotation means they cannot easily follow your hip escape in the opposite direction without abandoning their rotational movement entirely.
-
-
-
-</section>
 
 
 </main>

@@ -164,6 +164,8 @@ The key defensive concept is weight management during transitions. Every time yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Roll to Top?</p>
+
 - Opponent plants both feet flat on the mat with knees bent, loading position for explosive bridge
 - Opponent's free hand moves to grip the arm threading under their armpit rather than defending neck or fighting other grips
 - Sudden tensing of opponent's core and legs indicating preparation for explosive upward movement
@@ -176,6 +178,8 @@ The key defensive concept is weight management during transitions. Every time yo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Roll to Top?</p>
 
 - Maintain heavy hip pressure and low center of gravity to prevent bridge from generating lift
 - Distribute weight evenly rather than committing fully forward during attacks or transitions
@@ -190,6 +194,8 @@ The key defensive concept is weight management during transitions. Every time yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Roll to Top?</p>
 
 ### 1. Drop hips and sprawl weight flat onto opponent's back to kill bridge momentum
 
@@ -227,6 +233,8 @@ The key defensive concept is weight management during transitions. Every time yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Roll to Top?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Maintain heavy hip pressure and immediately drop weight when bridge is detected. Keep the arm trap tight while sprawling hips flat onto opponent's back. The settled weight makes the bridge insufficient to generate rotation. After stuffing the attempt, advance your own attacks while opponent has wasted energy.
@@ -242,6 +250,8 @@ If the roll attempt creates genuine danger, release the Gift Wrap arm trap to fr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Roll to Top?</p>
 
 ### 1. Over-committing weight forward during choke attacks without maintaining base awareness
 
@@ -271,6 +281,8 @@ If the roll attempt creates genuine danger, release the Gift Wrap arm trap to fr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Roll to Top?</p>
+
 **Week 1-2** - Recognition cue identification
 Partner drills Counter Roll attempts at 30% speed while you practice identifying the preparatory cues: foot planting, grip acquisition on controlling arm, and core tensing. Call out each cue verbally before partner completes the roll. Develops early detection reflexes without physical countering.
 
@@ -287,29 +299,6 @@ Positional sparring from Gift Wrap Top against partners who have been trained in
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a Counter Roll attempt?
-**A**: The earliest cue is when the opponent plants both feet flat on the mat with knees bent while simultaneously moving their free hand to grip the arm you have threaded under their armpit. This combination of bridge loading position and grip acquisition on your controlling arm indicates imminent roll attempt. React immediately by dropping hip weight rather than waiting for the bridge itself.
-
-**Q2**: Why does over-committing weight forward during choke attacks create vulnerability to Counter Roll?
-**A**: When you commit weight forward to attack the neck, your center of gravity shifts above your opponent and your hips become light against their back. This creates the directional imbalance the Counter Roll exploits. The opponent only needs to redirect your already-forward momentum laterally with the bridge. Maintaining hip heaviness even while attacking requires practice but eliminates this vulnerability.
-
-**Q3**: When should you release the Gift Wrap rather than try to maintain it during a roll attempt?
-**A**: Release the Gift Wrap when the roll has generated enough momentum that your posting and hip pressure cannot stop the rotation. Maintaining the arm trap during a successful roll means you end up on bottom in the reversed Gift Wrap position. It is far better to release the trap and retain standard back control or disengage to guard than to be reversed into the most disadvantaged position in the exchange.
-
-**Q4**: How does switching to body triangle help defend against Counter Roll attempts?
-**A**: Body triangle locks your legs around the opponent's waist in a figure-four configuration that anchors your lower body mass to their hips. This significantly increases the force required for a bridge to generate rotational lift because your entire lower body weight must be moved as a unit. Standard hooks can be more easily displaced during the bridge, but a locked body triangle acts as a structural anchor that makes the roll mechanically far more difficult.
-
-**Q5**: Your opponent stuffs your choke attempt and immediately bridges explosively - what is your immediate response?
-**A**: Drop your hips flat and sprawl your weight onto their back as the absolute first response. Simultaneously post your free hand toward the direction they are rolling. If the bridge has already generated significant rotation, be prepared to release the Gift Wrap to maintain back control rather than being reversed. After stopping the roll, resettle your weight and consider transitioning to body triangle to prevent future attempts.
-
-
-
-</section>
 
 
 </main>

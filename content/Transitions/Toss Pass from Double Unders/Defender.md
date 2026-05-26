@@ -154,6 +154,8 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toss Pass from Double Unders?</p>
+
 - Opponent's grip behind your back shifts subtly to one side, pre-loading the lateral redirection direction
 - Opponent's head position moves to the opposite side of the intended toss, counterbalancing for the explosive rotation
 - Forward stacking pressure briefly lightens or changes angle as the opponent loads their hips for rotational power
@@ -166,6 +168,8 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toss Pass from Double Unders?</p>
 
 - Maintain diagonal frame orientation that resists both vertical stacking and lateral redirection rather than committing frames to a single plane
 - Recognize pre-toss cues early including grip shifts, head repositioning, and changes in pressure direction to prepare defensive adjustments
@@ -180,6 +184,8 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toss Pass from Double Unders?</p>
 
 ### 1. Insert butterfly hook on the anticipated toss side before the toss initiates, blocking clean leg clearance
 
@@ -217,6 +223,8 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toss Pass from Double Unders?</p>
+
 ### → [[Positions/Open Guard]]
 
 Create maximum frames during the toss transition phase when the opponent's grip loosens. Hip escape aggressively during the directional change, using the brief moment of instability to create separation distance. Immediately establish feet on hips or butterfly hooks before the opponent can re-engage.
@@ -232,6 +240,8 @@ Insert a butterfly hook or knee shield on the toss side before or during the leg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toss Pass from Double Unders?</p>
 
 ### 1. Committing all defensive frames to vertical resistance against the stacking pressure, leaving no lateral coverage
 
@@ -261,6 +271,8 @@ Insert a butterfly hook or knee shield on the toss side before or during the leg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Toss Pass from Double Unders?</p>
+
 **Recognition Training** - Identifying toss pass cues versus stack pass cues
 Partner announces whether they will attempt toss pass or stack pass from double unders. Practice identifying the pre-toss cues including grip shifts, head repositioning, and pressure changes. Build pattern recognition without defensive action first, then add frame adjustments once cues are reliably detected.
 
@@ -274,26 +286,6 @@ Partner completes the toss at progressively increasing intensity and speed. Prac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate a toss pass is being attempted rather than a standard stack pass?
-**A**: The key differentiators are a shift in the opponent's grip behind your back toward one side, a change in their head position toward the opposite side of the intended toss, and a momentary lightening of pure downward pressure as they prepare to redirect laterally. If you feel the pressure change from purely vertical to slightly angled, the toss is likely imminent. The opponent's feet may also reposition to allow hip rotation.
-
-**Q2**: Your opponent has begun the toss motion and your legs are being redirected to the left - what is your best immediate defensive response?
-**A**: As your legs are being swept left, immediately fight to insert your right knee across their body to establish a knee shield or hook their left leg for half guard. Simultaneously, your left hand should frame against their right shoulder or hip to create space on the landing side. Do not try to resist the toss direction - use the momentum to turn your hips and begin guard recovery on the side where they will attempt to establish side control.
-
-**Q3**: How should you adjust your defensive frame orientation when you suspect the opponent may attempt a toss pass?
-**A**: Shift from bilateral vertical frames to diagonal frames that can resist lateral force from either direction. Instead of both hands pushing against their shoulders, position one forearm across their neck and the other on their hip, creating a diagonal frame structure that resists force from multiple directions. This diagonal orientation means that whether they continue stacking vertically or redirect laterally, at least one of your frames maintains structural integrity.
-
-**Q4**: What is the most common defensive mistake when the toss pass is initiated, and how do you avoid it?
-**A**: The most common mistake is attempting to hold onto the opponent's body during the toss, which results in being dragged along with the motion and ending up flat with no defensive structure. Instead of resisting the directional change, accept it and immediately work to establish new frames and hooks on the landing side. Fighting the toss direction wastes energy and delays the critical frame creation needed to prevent side control consolidation.
-
-
-
-</section>
 
 
 </main>

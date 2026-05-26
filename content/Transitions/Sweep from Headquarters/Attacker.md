@@ -188,6 +188,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Headquarters?</p>
+
 - Attack during weight transitions—initiate sweeps when the passer shifts weight between passing attempts rather than against settled base
 - Establish the underhook or grip before creating the sweep angle, as the grip is the anchor that makes the sweep mechanically possible
 - Use the free leg actively as either a butterfly hook, shin contact point, or frame rather than leaving it passive on the mat
@@ -202,6 +204,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Headquarters?</p>
+
 - Free leg must retain mobility to create hooks or frames on opponent's body despite headquarters pressure
 - At least one hand must be freed from defensive framing to establish an underhook or controlling grip
 - Hips must maintain enough mobility to create angle through hip escape despite trapped leg restriction
@@ -214,6 +218,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Headquarters step by step?</p>
 
 1. **Establish defensive frames**: Create initial space by framing against the opponent's shoulders and hips with your forearms, preventing them from settling full weight and flattening you completely to the mat. This space is essential for all subsequent sweep mechanics and must be fought for immediately.
 2. **Mobilize the free leg**: Use hip movement to position your free leg actively rather than leaving it flat on the mat. Insert a butterfly hook under the opponent's far thigh or establish shin-to-shin contact on their posting leg to create an elevation control point for the sweep.
@@ -243,6 +249,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Headquarters?</p>
+
 - **Opponent widens base and drops weight low to neutralize sweep angle** (Effectiveness: High) - Your Response: Switch to guard recovery since their wide base creates space for knee insertion and half guard recovery, or chain to deep half entry → Leads to [[Positions/Headquarters Position]]
 - **Opponent drives forward aggressively with crossface pressure to flatten you and pass** (Effectiveness: High) - Your Response: Use their forward momentum against them by timing the butterfly hook elevation as they drive in, converting their committed energy into sweep power → Leads to [[Positions/Mount]]
 - **Opponent backsteps away from the hook to avoid the sweep angle entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip movement to maintain hook connection, or transition to shin-to-shin or De La Riva guard as they create distance → Leads to [[Positions/Headquarters Position]]
@@ -254,6 +262,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Headquarters?</p>
 
 ### 1. Attempting the sweep without first establishing a controlling grip or underhook
 
@@ -293,6 +303,8 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Headquarters (Attacker)?</p>
+
 **Phase 1: Mechanics** - Sweep movement pattern isolation
 Practice the sweep motion against a compliant partner from static headquarters. Focus on proper hook placement, underhook depth, hip angle creation, and directional sweep force. No resistance—build muscle memory for the complete movement pattern.
 
@@ -313,42 +325,12 @@ Live rounds starting from headquarters with full resistance and competitive inte
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate a sweep from headquarters position?
-**A**: The optimal timing window is during the opponent's weight transitions—specifically when they shift weight to initiate a passing attempt such as a knee cut or toreando. At this moment, their base is directionally committed and temporarily vulnerable to forces perpendicular to their movement direction. Attempting sweeps against a settled, balanced headquarters base has significantly lower success rates because the triangulated structure can absorb force from any direction.
-
-**Q2**: What conditions must exist before you can effectively attempt a sweep from headquarters?
-**A**: Four conditions must be present: your free leg must retain enough mobility to create a hook or contact point, at least one hand must be available for an underhook or controlling grip, your hips must maintain sufficient mobility to create angle despite the trapped leg, and the opponent's weight must be directionally committed rather than perfectly centered. Missing any of these prerequisites significantly reduces sweep effectiveness and may expose you to guard passes.
-
-**Q3**: What is the most critical mechanical detail that determines sweep success or failure?
-**A**: The direction of sweep force is the most critical mechanical detail. The force must travel diagonally across the opponent's centerline rather than directly sideways or forward. This diagonal vector targets the gap in the opponent's base between their posting leg and the trapped leg side, where they have minimal structural resistance. A purely lateral sweep is easily absorbed by the wide headquarters base because the triangulated posting structure resists lateral forces effectively.
-
-**Q4**: What is the most common reason sweep attempts from headquarters fail?
-**A**: The most common failure is attempting the sweep without first establishing a controlling grip or underhook. Without this anchor, the sweep generates force but has no mechanism to translate it into the opponent's displacement. The grip or underhook connects your hip and leg mechanics to the opponent's body, creating the closed kinetic chain necessary for effective force transfer. Without it, the opponent simply adjusts their base and continues passing.
-
-**Q5**: What grips should you prioritize when setting up the sweep from headquarters?
-**A**: The near-side underhook is the highest priority grip, providing direct control of the opponent's center of mass and preventing them from posting on the sweep side. If the underhook is unavailable due to crossface pressure, the far-side collar grip or cross-sleeve grip serves as an effective alternative by creating pulling control that redirects the opponent's weight. Regardless of which grip is used, it must be established before committing to sweep mechanics to ensure force transfer.
-
-**Q6**: Your opponent widens their base significantly when they feel your sweep setup—how do you adjust?
-**A**: When the opponent widens their base to neutralize the sweep, they necessarily reduce pressure on your trapped leg and create more space between their hips and yours. Exploit this by transitioning from the sweep attempt to guard recovery—use the increased space to insert a knee shield, recover half guard, or transition to butterfly guard. Their wide base sacrifices passing pressure for sweep defense, which is a favorable trade for the bottom player that should be capitalized on immediately.
-
-**Q7**: If your initial sweep attempt is blocked, what follow-up options are available from headquarters bottom?
-**A**: Failed sweep attempts create several follow-up chains: reattempt with a different variant exploiting the opponent's adjusted base, transition to guard recovery by using the disrupted rhythm to insert a knee shield or recover half guard, chain into a deep half guard entry by diving under the opponent's hips while they focus on sweep defense, or use the sweep threat as a setup for an inversion to attack the posting leg for a leg entanglement entry. The key is never accepting a stalled position after a failed attempt.
-
-**Q8**: How do you keep the trapped leg active during the sweep attempt rather than accepting the pin?
-**A**: Push against the trapping pressure with the trapped leg using small pulsing movements rather than one sustained push. This prevents complete flattening and maintains the hip mobility necessary for sweep mechanics. Even partial trapped leg mobility creates the hip angle needed for the sweep. If the leg is completely immobilized, focus on creating maximum angle with hip escape on the free side to compensate for the restricted trapped side and generate sweep leverage from the available movement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Headquarters?</p>
 
 Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance.
 

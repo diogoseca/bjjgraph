@@ -154,6 +154,8 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Guard Backstep Pass?</p>
+
 - Passer shifts weight onto their trapped-side leg and lifts or repositions their free foot behind them in preparation for the arc step
 - Passer begins fighting your sleeve grip with increased urgency or uses their free hand to peel your fingers
 - Passer's shoulders begin rotating away from your lasso side while their hips drop lower for base during rotation
@@ -166,6 +168,8 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Guard Backstep Pass?</p>
 
 - Maintain constant sleeve grip tension on the trapped arm—this is your primary anchor against backstep rotation and must not slacken
 - Follow the passer's rotation with your hips, turning to maintain the perpendicular angle to their body as they backstep
@@ -180,6 +184,8 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Guard Backstep Pass?</p>
 
 ### 1. Tighten sleeve grip and extend lasso leg to re-lock the arm before rotation completes
 
@@ -217,6 +223,8 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Guard Backstep Pass?</p>
+
 ### → [[Positions/Back Control]]
 
 Invert under the passer during mid-backstep rotation when their back is exposed. Thread your hooks as they rotate away from you, converting their passing attempt into a back take opportunity.
@@ -232,6 +240,8 @@ Maintain tight sleeve grip and follow the passer's rotation with active hip move
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard Backstep Pass?</p>
 
 ### 1. Keeping hips flat on the mat instead of following the passer's rotation
 
@@ -261,6 +271,8 @@ Maintain tight sleeve grip and follow the passer's rotation with active hip move
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Guard Backstep Pass?</p>
+
 **Phase 1: Recognition** - Identifying backstep indicators early
 Partner telegraphs backstep at slow speed while you practice identifying pre-movement cues—weight shifts, foot repositioning, grip changes—and calling out the pass attempt verbally before it initiates.
 
@@ -277,26 +289,6 @@ Partner performs backstep at increasing speed while you practice timing inversio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that a backstep pass is being initiated from lasso guard?
-**A**: The earliest cue is the passer repositioning their free foot and shifting weight onto the trapped-side leg. This weight shift precedes the actual backstep rotation and indicates the rotational direction. Recognizing this pre-movement allows you to tighten your sleeve grip and prepare your defensive hip movement before full rotation begins.
-
-**Q2**: Why is following the passer's rotation with your hips more effective than pulling them back with grips?
-**A**: Pulling against the backstep direction fights the passer's momentum and overextends your arms, compromising structural frames. Following the rotation with hip movement maintains the perpendicular angle between your shin and their arm—the angle that gives the lasso its power. Hip movement preserves mechanical advantage while pulling creates a strength contest the top player typically wins.
-
-**Q3**: Your lasso has been cleared mid-backstep—what is your immediate defensive priority?
-**A**: Immediately abandon lasso recovery and establish an alternative guard. Priority is hip escape and knee insertion to create a barrier against the passer's consolidation attempt. Butterfly guard, De La Riva, or closed guard are all viable transitions depending on distance and the passer's position after the backstep clears your control.
-
-**Q4**: When is the optimal moment to attempt an inversion back take during the backstep?
-**A**: The peak vulnerability occurs during the mid-rotation phase when the passer's weight is transitioning between their two feet and their back becomes partially exposed as they rotate away. Inverting at this moment catches the passer mid-turn before they can consolidate. Attempting too early meets their stable base, and too late encounters their settled post-pass side control position.
-
-
-
-</section>
 
 
 </main>

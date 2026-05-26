@@ -169,6 +169,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Old School (Bottom)?</p>
+
 - Bottom player on their side with one leg trapped between opponent's legs in half guard configuration, with lockdown controlling the trapped leg by hooking opponent's ankle with bottom foot and extending the leg
 - Deep underhook established on one side with bottom player's arm threaded under opponent's armpit and hand gripping high on their back or shoulder, creating sweeping leverage
 - Head control established with opposite arm wrapping around opponent's head, with hand gripping behind the neck or back of the head, pulling opponent's posture down and forward
@@ -182,6 +184,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Old School (Bottom)?</p>
+
 - Established half guard bottom position with one opponent's leg trapped between both of bottom player's legs
 - Lockdown control secured on trapped leg with bottom foot hooking opponent's ankle and top knee driving into back of their thigh
 - Successful underhook established on one side with arm threaded deep under opponent's armpit
@@ -194,6 +198,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School?</p>
 
 - Maintain deep underhook with elbow tight to ribs and hand gripping high on opponent's back to maximize sweeping leverage
 - Control opponent's head by pulling it down and across toward the underhook side, breaking their posture and preventing defensive posting
@@ -209,6 +215,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Old School (Bottom)?</p>
 
 **If opponent maintains low posture and drives weight forward with heavy shoulder pressure:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 75%)
@@ -237,6 +245,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School?</p>
 
 ### 1. Shallow underhook with elbow away from body
 
@@ -281,6 +291,8 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Old School defense?</p>
+
 ### Old School Entry and Control Drill
 
 Partner starts in top half guard with neutral posture. Bottom player establishes lockdown, secures underhook, and controls head in proper Old School position. Hold position for 30 seconds maintaining all controls while partner applies moderate resistance. Focus on deep underhook depth, head control tightness, and lockdown extension. Repeat 5 times per side.
@@ -320,38 +332,6 @@ Start in Old School position with full controls established. Bottom player attem
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving heavy crossface pressure to flatten you - what adjustment maintains your sweeping position?
-**A**: Immediately pump the lockdown by extending your legs to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat, transition to deep half guard entry rather than fighting a losing battle. The angle is everything - once flat, your sweep leverage disappears entirely.
-
-**Q2**: What are the essential grips for maintaining Old School Bottom position?
-**A**: Three essential grips work together: 1) Deep underhook with elbow tight to your ribs and hand gripping high on opponent's back or shoulder, 2) Head control with opposite arm wrapping around their head and hand gripping behind their neck, 3) Lockdown figure-four configuration with bottom foot hooking their ankle and legs actively extending. All three must work in concert - losing any one significantly reduces sweep effectiveness.
-
-**Q3**: How do you shut down the opponent's primary escape of freeing their trapped leg?
-**A**: Actively extend the lockdown by driving your knees away while pulling with your hooked foot on their ankle. This creates constant tension that prevents leg extraction. When you feel them trying to pull their leg out, increase lockdown extension immediately and pull their head down harder to prevent them from generating the posture needed for extraction. The leg can only come free if you allow slack in the figure-four configuration.
-
-**Q4**: What grip priority sequence should you follow when establishing Old School from half guard?
-**A**: First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything.
-
-**Q5**: How should you apply pulling pressure to break opponent's posture without losing your angle?
-**A**: Pull their head down and across toward the underhook side using a combination of arm pull and hip rotation. Your hips should stay angled toward the underhook, not flatten to accommodate the pull. Think of creating a spiral motion - as you pull their head down, your body coils tighter on your side, building sweep tension. Never pull straight down as this flattens you and loses geometric advantage.
-
-**Q6**: Your opponent begins to posture up strongly - how do you anticipate and prevent this escape?
-**A**: Feel for the moment their weight starts shifting backward and immediately respond by extending your lockdown while pulling harder on both head and underhook. If they're already partially up, pump the lockdown aggressively to off-balance them forward, then re-secure controls as they compensate. You can also transition the sweep timing - their posture attempt often creates the forward weight shift you need for the actual sweep.
-
-**Q7**: How do you manage energy in extended Old School battles without abandoning sweep attempts?
-**A**: Use structural holds rather than muscular squeezing. Your lockdown should hold through leg position, not calf strength. Your underhook pulls using back engagement, not bicep burn. Rest in the tension rather than fighting through it. When you feel opponent relaxing or adjusting, that's when to explode with the sweep - save energy for the right moment rather than constantly pulling at 100%.
-
-**Q8**: Opponent partially breaks your head control and begins establishing crossface - what recovery sequence maintains your attacking position?
-**A**: Immediately frame against their crossface shoulder with your freed arm to prevent full establishment. Simultaneously pump lockdown to create space and prevent flattening. If their crossface is too strong, accept the transition to deep half guard by diving under their hips rather than getting flattened and passed. The key is maintaining hip mobility - any position where you're on your side with active hips is better than flat on your back.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

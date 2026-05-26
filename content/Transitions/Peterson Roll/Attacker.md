@@ -182,6 +182,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Peterson Roll?</p>
+
 - Capture opponent's attacking arm at the wrist before initiating the roll to prevent them from posting and stopping your momentum
 - Timing is critical - execute when opponent drives forward and commits weight over your hips, using their pressure as fuel for the reversal
 - Hip positioning determines success - shoot your near hip through the space under your body while maintaining arm control throughout the rotation
@@ -196,6 +198,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Peterson Roll?</p>
+
 - Opponent positioned behind you in turtle attacking position with forward weight pressure
 - Opponent's attacking arm within reach for wrist capture (typically reaching for underhook or harness)
 - Sufficient space to execute the rolling motion without hitting walls or other training partners
@@ -208,6 +212,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Peterson Roll step by step?</p>
 
 1. **Identify attacking arm**: From defensive turtle position, recognize when opponent reaches for underhook or harness control with their near arm. This reaching motion creates the opening you need for the reversal.
 2. **Capture the wrist**: Reach back with your near arm and grip opponent's attacking wrist firmly, pulling it tight to your hip. Maintain this grip throughout the entire roll - losing the wrist allows them to post and stop your reversal.
@@ -237,6 +243,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Peterson Roll?</p>
+
 - **Opponent posts with free hand to stop rolling momentum before you complete the rotation** (Effectiveness: High) - Your Response: Switch to granby roll in the opposite direction or immediately attempt technical standup while opponent is off-balance from defending → Leads to [[Positions/Turtle]]
 - **Opponent sprawls hips back and removes forward pressure, eliminating the momentum needed for the roll** (Effectiveness: High) - Your Response: If opponent removes pressure, immediately transition to technical standup or sit-through since their weight is no longer pinning you → Leads to [[Positions/Turtle]]
 - **Opponent circles toward your back as you initiate, maintaining back position despite the roll attempt** (Effectiveness: Medium) - Your Response: Chain immediately into a second roll in the same direction or hip escape to create separation for guard recovery → Leads to [[Positions/Back Control]]
@@ -248,6 +256,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Peterson Roll?</p>
 
 ### 1. Attempting the roll without first capturing opponent's attacking wrist
 
@@ -287,6 +297,8 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Peterson Roll (Attacker)?</p>
+
 **Week 1-2** - Mechanics and hip movement
 Drill the rolling motion without partner resistance, focusing on hip threading mechanics and maintaining compact body position. Practice wrist capture timing with compliant partner who allows the grip. Execute 20-30 repetitions per session on each side.
 
@@ -304,48 +316,12 @@ Apply Peterson Roll in positional sparring starting from turtle. Identify person
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Peterson Roll?
-**A**: The primary goal of the Peterson Roll is to reverse position from turtle bottom to a dominant top position (typically side control or half guard top) by using the opponent's forward weight commitment against them. Unlike guard recovery techniques, the Peterson Roll is an offensive reversal that scores points and puts you in an attacking position.
-
-**Q2**: What are the key grips needed for Peterson Roll?
-**A**: The essential grip is capturing opponent's attacking wrist (the arm reaching for underhook or harness) with your near-side hand. This wrist control must be maintained throughout the entire rolling motion to prevent opponent from posting and stopping your reversal. The grip should pull their wrist tight to your hip.
-
-**Q3**: When is the optimal timing window to attempt the Peterson Roll?
-**A**: The optimal timing is when opponent commits their weight forward while reaching for an underhook or harness grip. This forward pressure provides the momentum necessary for the roll. If opponent is sitting back or has heavy hip-to-hip contact without driving forward, the Peterson Roll will fail - choose technical standup or sit-through instead.
-
-**Q4**: Your opponent posts their free hand as you initiate the Peterson Roll - what should you do?
-**A**: If opponent successfully posts to stop your roll, immediately chain to an alternative escape. Switch to a granby roll in the opposite direction using their posting commitment against them, or if they've lifted their weight to post, explode into a technical standup. Never continue fighting for a Peterson Roll that has been defended - flow to the next option in your escape chain.
-
-**Q5**: What is the critical hip movement that makes the Peterson Roll work?
-**A**: The critical movement is explosively threading your near-side hip underneath your body and through to the far side. Your hip leads the technique while your trapped arm pulls the opponent over with you. Think of shooting your hip through a small gap between your body and the mat. This hip drive creates the rotational momentum that carries both you and your opponent through the roll.
-
-**Q6**: How does the Peterson Roll differ from the Granby Roll in purpose and execution?
-**A**: The Granby Roll aims for guard recovery by rolling away from the opponent and creating separation, typically landing in closed or open guard. The Peterson Roll is an offensive reversal that brings you to top position by rolling with the opponent trapped. The Peterson requires capturing opponent's arm and uses their forward pressure, while the Granby uses explosive shoulder roll mechanics to create distance. Peterson scores points; Granby escapes to neutral.
-
-**Q7**: Your opponent has seatbelt control and is driving forward - should you attempt Peterson Roll or a different escape?
-**A**: With seatbelt control established, the Peterson Roll becomes riskier because opponent can follow the roll and end up in back mount. Better options include hand fighting to break the seatbelt grip first, or executing a sit-through to the choking arm side. Only attempt Peterson Roll against seatbelt control if you can isolate and trap their arm during the capture phase, converting their control grip into your reversal grip.
-
-**Q8**: What adjustments should you make to the Peterson Roll in no-gi situations?
-**A**: In no-gi, wrist grips are less secure due to sweat. Use a two-on-one grip for additional control security, or trap opponent's arm in the crook of your elbow rather than relying on wrist grip alone. You can also use an overhook on their arm to secure the trap. Execute with even more explosive commitment since any slippage in grip will cause the technique to fail.
-
-**Q9**: What direction of force must your hips generate during the Peterson Roll?
-**A**: Your hips must generate force in a diagonal downward-and-through direction, threading your near hip underneath your torso toward the far side. The force direction is not purely lateral or purely forward - it is a combined motion that uses the ground as a surface to slide against while pulling the opponent's trapped arm across your center line. The hip drives perpendicular to the opponent's pressure vector, redirecting their forward energy into rotational momentum.
-
-**Q10**: You attempt the Peterson Roll but get stuck halfway through the rotation - what went wrong and how do you recover?
-**A**: Getting stuck mid-roll typically results from insufficient explosive commitment, attempting without adequate forward pressure from the opponent, or losing wrist control during rotation. To recover, do not try to complete the stalled roll. Instead, immediately abandon the attempt and use the inverted position to either granby roll the rest of the way through to guard recovery, or post and scramble back to turtle. Staying stuck mid-roll exposes your back and neck to attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Peterson Roll?</p>
 
 The Peterson Roll is generally a low-risk technique, but practitioners should be aware of several safety factors. During the rolling motion, protect your neck by keeping chin tucked tight to your shoulder - exposing the neck during rotation can allow guillotine or front headlock attacks. Practice the rolling mechanics slowly before adding speed to ensure you're not landing on your head or neck. When drilling with a partner, ensure they know to release grips if you get stuck mid-roll to prevent shoulder strain. Be cautious executing this technique near walls or other training pairs, as the roll requires space. If you have existing shoulder or neck injuries, modify training intensity and avoid this technique until cleared, as the rotation places stress on these areas.
 

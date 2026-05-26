@@ -3,24 +3,45 @@
 
 
 ---
-title: "Toe Hold | BJJ Submission | BJJ Graph"
+title: "Toe Hold | BJJ Submission Family | BJJ Graph"
 description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety protocols, setup from leg entanglements, execution mechanics, and defense strategies."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Toe Hold targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Toe Hold/Attacker|Play as Attacker]]
-[[Toe Hold/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Toe Hold/from 50-50 Guard|50-50 Guard]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from 50-50|50-50 Guard]] | 60% | Lateral ankle ligament tears (anterior talofibular, calcaneofibular) |  |
+| [[Toe Hold/from Ashi Garami|Ashi Garami]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Backside 50-50|Backside 50-50]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Cross Ashi-Garami|Cross Ashi-Garami]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Estima Lock|Estima Lock Control]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Honey Hole|Honey Hole]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Inside Ashi-Garami|Inside Ashi-Garami]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Inside Sankaku|Inside Sankaku]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Kneebar Control|Kneebar Control]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Leg Entanglement|Leg Entanglement]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Outside Ashi|Outside Ashi-Garami]] | 40% | Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments) |  |
+| [[Toe Hold/from Saddle|Saddle]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Toe Hold Control|Toe Hold Control]] | 60% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+| [[Toe Hold/from Top|Inside Ashi-Garami]] | 58% | Ankle ligament tears (lateral collateral ligament complex) |  |
+| [[Toe Hold/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | 50% | Ankle ligament tears (lateral and medial collateral ligaments) |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +54,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Ashi Garami]]
-**From Position**: [[Positions/Toe Hold Control]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 60% (average across variants)
 
 </section>
 
@@ -84,141 +103,10 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 48% |
-| Failure | [[Positions/Toe Hold Control]] | 30% |
-| Counter | [[Positions/Ashi Garami]] | 22% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Heel control is primary - the heel must be secured against y... | Prevent the toe grip above all else - once the attacker secu... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Toe Hold/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Heel control is primary - the heel must be secured against your torso before attempting the toe grip
-
-- Rotation and extension work together - neither alone creates the submission, both are required
-
-- Grip the entire forefoot, not individual toes - this distributes pressure and prevents toe fractures
-
-- Your chest/shoulder becomes the fulcrum - the heel stays pinned while the foot rotates around it
-
-- Hip position controls escape options - proper hip placement prevents opponent from rolling out
-
-- The submission tightens as you fall back - lying back increases the extension component
-
-- Opponent's knee must be controlled - free knee movement allows escapes
-
-
-### Execution Steps
-
-
-- **Establish heel control**: From your leg entanglement position, use both hands to grip the opponent's heel firmly. Pull the hee...
-
-- **Transition to toe grip**: Maintaining heel control with one arm, reach your other hand across your body to grip the opponent's...
-
-- **Adjust your torso angle**: Lean slightly back and angle your upper body so that the opponent's heel is pinned securely against ...
-
-- **Begin internal rotation**: With your toe grip secure, start rotating the foot inward (toward the opponent's centerline) very sl...
-
-- **Add extension component**: While maintaining the rotational pressure, begin to extend the ankle by pulling the toes back toward...
-
-- **Final pressure adjustment**: If the tap has not occurred, make a final small adjustment by slightly falling back (this increases ...
-
-- **Immediate release on tap**: The instant you feel or hear the tap, release the rotational pressure completely and let the toe gri...
-
-
-### Common Mistakes
-
-
-- **Gripping individual toes instead of the entire forefoot**
-  - Consequence: High risk of breaking toes, loss of rotational control, ineffective submission
-  - Correction: Always use a cupping grip that encompasses all toes and the ball of the foot. Your palm should be on the ball of the foot with fingers wrapping around from the inside.
-
-- **Attempting the submission before heel control is fully established**
-  - Consequence: Opponent escapes easily by pulling foot away, you lose the position entirely
-  - Correction: Heel control is non-negotiable. The heel must be locked against your torso before you even think about gripping the toes. Test your heel control by pulling - if the heel moves at all, it's not secure enough.
-
-- **Applying rotation too quickly or explosively**
-  - Consequence: Severe ankle ligament damage, toe fractures, broken training partnerships
-  - Correction: Rotation must be smooth, progressive, and take a minimum of 3-5 seconds. In training, apply even slower. Speed is only acceptable in competition and even then must be controlled.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Toe Hold/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent the toe grip above all else - once the attacker secures the cupping grip on the forefoot, your escape window shrinks dramatically
-
-- Keep your foot flexed and toes curled toward your shin to reduce the available grip surface and resist rotation
-
-- Never explosively pull your leg straight - this can accelerate the rotational damage if the attacker maintains any grip
-
-- Address grips in reverse order - strip the toe grip first (most dangerous), then work to free the heel, then extract the leg
-
-- Use your free leg actively to frame against the attacker's hips, preventing them from achieving optimal torso angle for the fulcrum
-
-- Roll toward the attacker when rotation begins to relieve pressure on the ankle ligaments rather than pulling away
-
-
-### Recognition Cues
-
-
-- Attacker transitions one hand from general heel/ankle control to specifically cupping the ball of your foot and wrapping around your toes
-
-- Attacker adjusts their torso angle backward, pulling your heel tight against their shoulder or chest to create a fulcrum point
-
-- You feel your foot begin to rotate inward (internally) while the heel remains fixed against the attacker's body
-
-- Attacker's forearm slides along the sole of your foot from heel toward toes, indicating they are establishing the blade-of-forearm control
-
-
-### Escape Paths
-
-
-- Strip the toe grip with two-on-one grip fighting, then cross your foot over your free knee to create a defensive triangle, and systematically extract your leg from the entanglement while controlling the attacker's hips with your free leg
-
-- Roll toward the attacker to relieve rotational pressure, use the momentum to scramble into a neutral leg entanglement or 50-50 position, then disengage by standing and clearing legs
-
-- Frame against the attacker's hips with your free leg to prevent them from achieving the optimal torso angle, strip the toe grip, then push off their hips to create space for heel extraction
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Toe Hold from 50-50 Guard**: From the 50-50 position where both players have their legs entangled symmetrically, the Toe Hold can be applied by securing the opponent's heel with both hands, then transitioning one hand to the toe grip while using your shoulder as the fulcrum. This variation requires excellent weight distribution to prevent the opponent from rolling you. (When to use: When in a 50-50 stalemate and opponent is defending heel hooks. The Toe Hold offers a different angle of attack.)
@@ -269,15 +157,15 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ## Related Submissions
 
-- [[Transitions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
-- [[Submissions/Achilles Lock]]
-- [[Transitions/Kneebar]]
-- [[Transitions/Calf Slicer]]
-- [[Positions/Estima Lock]]
-- [[Submissions/Calf Slicer from 50-50]]
-- [[Positions/Aoki Lock]]
+- [[Transitions/Heel Hook]] - Primary leg lock attacking knee through rotational pressure, often combined in leg attack sequences from identical entanglements
+- [[Submissions/Inside Heel Hook]] - Inside heel attack frequently chained with Toe Hold when opponent defends one to expose the other
+- [[Transitions/Outside Heel Hook]] - Outside heel attack creating submission dilemmas when combined with Toe Hold threats from shared positions
+- [[Submissions/Achilles Lock]] - Alternative ankle attack using compression rather than rotation, common fallback when Toe Hold is defended
+- [[Transitions/Kneebar]] - Complementary leg lock attacking knee hyperextension, creates submission dilemmas in leg entanglement exchanges
+- [[Submissions/Calf Slicer]] - Compression-based leg attack combinable with Toe Hold from overlapping leg entanglement positions
+- [[Transitions/Estima Lock]] - Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions
+- [[Transitions/Estima Lock]] - Finishing variation of Estima Lock from overlapping positional setups during leg attack sequences
+- [[Transitions/Aoki Lock]] - Advanced leg submission with unique rotational mechanics, combinable in leg attack chains from shared entanglements
 
 
 </section>
@@ -294,7 +182,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 - [[Transitions/Kneebar]] - Complementary leg lock attacking knee joint, creates submission dilemmas when combined with Toe Hold threats
 - [[Submissions/Inside Heel Hook]] - Primary heel attack from inside positions, often chained with Toe Hold in submission sequences
 - [[Transitions/Outside Heel Hook]] - Heel attack from outside positions, creates dilemmas when combined with Toe Hold threats
-- [[Transitions/Calf Slicer]] - Compression-based leg attack that can be combined with Toe Hold in certain leg entanglement positions
+- [[Submissions/Calf Slicer]] - Compression-based leg attack that can be combined with Toe Hold in certain leg entanglement positions
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Inside leg entanglement providing strong Toe Hold setups with superior hip control
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Cross-body leg entanglement offering unique Toe Hold angles and enhanced control
 

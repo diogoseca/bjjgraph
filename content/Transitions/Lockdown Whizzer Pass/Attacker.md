@@ -188,6 +188,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lockdown Whizzer Pass?</p>
+
 - Accept the underhook rather than fighting it directly, then immediately counter with a tight whizzer to convert their offensive grip into a control point
 - Drive the whizzer elbow downward and toward the mat to rotate the bottom player's shoulder flat, eliminating their ability to come up to their side
 - Maintain heavy chest-to-chest shoulder pressure throughout the entire sequence to prevent the bottom player from recovering hip mobility
@@ -202,6 +204,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lockdown Whizzer Pass?</p>
+
 - One leg trapped in opponent's lockdown figure-four with bottom player actively controlling the leg
 - Bottom player has established an underhook on the trapped-leg side, providing the arm to overhook
 - Sufficient upper body proximity to cinch the whizzer tightly over the bottom player's underhook arm
@@ -214,6 +218,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lockdown Whizzer Pass step by step?</p>
 
 1. **Accept and overhook the underhook**: When the bottom player secures their underhook on the trapped-leg side, immediately overhook their arm by wrapping your same-side arm over and around their bicep. Cinch the whizzer tight by gripping your own thigh or hip, ensuring there is no slack in the overhook. This converts their offensive grip into a control point you can use against them.
 2. **Drive whizzer elbow and shoulder pressure downward**: With the whizzer secured, drive your elbow downward toward the mat while simultaneously dropping heavy shoulder pressure across the bottom player's chest and jaw line. This rotational force pushes their underhook shoulder flat to the mat, eliminating the angle they need to come up for sweeps. Your chest should be driving into their upper torso with maximum weight transfer.
@@ -243,6 +249,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lockdown Whizzer Pass?</p>
+
 - **Bottom player deepens underhook and drives into top player before whizzer is fully established** (Effectiveness: High) - Your Response: If the underhook is too deep for the whizzer to control, immediately switch to crossface and heavy shoulder pressure to stop their forward drive, then re-attempt the overhook from a stronger position → Leads to [[Positions/Half Guard/Lockdown]]
 - **Bottom player times a whip-up sweep during the leg extraction phase when top player's weight shifts** (Effectiveness: Medium) - Your Response: Keep the whizzer tight and maintain forward shoulder pressure throughout extraction. If they begin the whip-up, abandon extraction, drive weight forward immediately, and re-flatten before trying again → Leads to [[Positions/Half Guard]]
 - **Bottom player releases lockdown and transitions to deep half guard by going underneath** (Effectiveness: Medium) - Your Response: When they release the lockdown to go deep half, sprawl hips back and use the whizzer to prevent them from getting underneath. If they succeed, switch to deep half guard passing strategy → Leads to [[Positions/Half Guard/Lockdown]]
@@ -254,6 +262,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lockdown Whizzer Pass?</p>
 
 ### 1. Attempting leg extraction before fully flattening the bottom player with whizzer pressure
 
@@ -293,6 +303,8 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lockdown Whizzer Pass (Attacker)?</p>
+
 **Phase 1: Whizzer Mechanics** - Overhook establishment and flattening pressure
 Practice establishing the whizzer from lockdown top position against a cooperative partner. Focus on cinching the overhook tight, driving elbow downward, and flattening the bottom player completely. No leg extraction yet, just develop the feel for proper whizzer pressure and weight distribution.
 
@@ -310,42 +322,12 @@ Positional sparring starting in lockdown. Top player works to pass using whizzer
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to establish the whizzer against a lockdown bottom player?
-**A**: The optimal timing is immediately after the bottom player commits to the underhook and before they use it to initiate a whip-up or Old School sweep. The window opens when their arm is reaching deep but they haven't yet generated upward force. Establishing the whizzer during this commitment phase catches their arm in the overhook before they can retract or convert the underhook into a sweep.
-
-**Q2**: What conditions must exist before you can attempt the leg extraction phase of the whizzer pass?
-**A**: The bottom player must be fully flattened with both shoulders on the mat. Their underhook must be neutralized by tight whizzer pressure with no ability to generate upward force. Your shoulder pressure must be heavy enough to prevent them from hip escaping or creating angles. Your free leg must be posted wide for stable base. Only when all these conditions are met should you initiate the circular extraction.
-
-**Q3**: Why must the trapped leg extraction use circular motion rather than a straight backward pull?
-**A**: The lockdown figure-four triangle is biomechanically strongest against linear backward force because both of the bottom player's legs resist in the same direction. Circular outward motion attacks the triangle at its weakest angle where the ankle cross has minimal holding power. The arc also creates a shearing force that separates the lockdown configuration rather than fighting it directly, requiring significantly less effort to free the knee.
-
-**Q4**: Your opponent begins a whip-up sweep as you start extracting your trapped leg. How do you respond?
-**A**: Immediately abandon the extraction attempt and drive your weight forward through the whizzer and shoulder pressure to re-flatten them. The whip-up requires the bottom player to come up to their side, so forward pressure directly counters this motion. Re-cinch the whizzer tight, drive your shoulder across their face, and wait for them to settle back flat before re-attempting extraction. Never fight the whip-up from an upright position.
-
-**Q5**: What specific grip configuration creates the tightest whizzer control for this pass?
-**A**: Wrap your arm over and around the bottom player's bicep with your elbow pinching tight against their arm. Grip your own hip or upper thigh with the whizzer hand to eliminate all slack in the overhook. Your forearm should be pressing against the back of their arm with the elbow driving downward. This closed-circuit grip prevents them from withdrawing the underhook while maximizing the rotational force that flattens their shoulder to the mat.
-
-**Q6**: What direction of force should your shoulder pressure apply during the flattening phase?
-**A**: The shoulder pressure should drive diagonally downward and across the bottom player's body, angled from their far shoulder toward the mat on their near side. This creates a torque that works with the whizzer rotation to pin their back flat. Your head drives past their ear on the crossface side, adding weight on that vector. The combined force should feel like you are trying to press their far shoulder through the mat.
-
-**Q7**: The bottom player releases their lockdown and dives for deep half guard during your whizzer pressure. What do you do?
-**A**: Immediately sprawl your hips back and away to prevent them from getting underneath you. Use the whizzer to control their upper body and prevent them from completing the deep half entry. If your hips are sprawled and heavy, they cannot get deep enough underneath to establish the position. If they do manage the entry, release the whizzer and transition to deep half guard passing strategy using hip pressure and crossface to prevent their sweeps.
-
-**Q8**: If the whizzer pass stalls and the bottom player begins recovering their lockdown tension, what chain attacks are available?
-**A**: If the whizzer pass stalls, you can transition to a crossface-based flattening pass by releasing the whizzer and immediately establishing a crossface with that arm. Alternatively, if the bottom player turns aggressively into you to fight the whizzer, their exposed neck creates a Darce choke opportunity. You can also abandon the whizzer entirely and switch to a backstep pass or combat base recovery to reset the passing sequence from a neutral half guard top position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lockdown Whizzer Pass?</p>
 
 The whizzer overhook applies significant rotational pressure on the bottom player's shoulder joint. Apply pressure gradually during training and be attentive to tap signals or verbal indication of discomfort. During leg extraction, avoid sudden jerking motions that could strain either player's knee ligaments, particularly the bottom player's ankles which are crossed in the lockdown triangle. Communicate with training partners about shoulder discomfort from sustained whizzer pressure, and release immediately if they indicate any pain. When drilling at higher intensities, ensure both players have warmed up their shoulders adequately.
 

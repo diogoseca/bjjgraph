@@ -85,6 +85,22 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
         "@type": "Answer",
         "text": "In the immediate moment of head extraction, you have a narrow window before the opponent consolidates side control. Your highest-percentage option is to immediately hip-escape away and insert your knee to recover half guard or closed guard. If their weight is still transitioning, you can attempt to re-pummel an underhook and recover to a seated guard or dogfight position. If you still have any grip on their head or neck, use it to redirect their base and create space for the hip escape. The critical error is freezing — any movement toward guard recovery is better than remaining flat."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent's head begins circling away from the choking arm — should you transition to an anaconda or darce, and what determines which one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The direction of your opponent's rotation and their arm position determine the optimal transition. If they circle their body away while keeping their near arm posted on the mat and exposed between your bodies, thread your choking arm deeper and secure a darce grip by connecting your hands around their neck and far arm. If they tuck their near arm tight and drive their shoulder into you while circling, the anaconda is more accessible — release the guillotine, shoot your choking arm under their neck and through the far armpit, and lock your grip. The key distinction is near arm position: darce when exposed, anaconda when you can thread under the neck. Both transitions must happen before the opponent completes the circular escape."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does adjusting your guard height on the opponent's back affect your ability to maintain the guillotine during a counter attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guard height directly controls the opponent's posture and your choking leverage. Closed guard locked high on the opponent's upper back near the shoulder blades maximizes your ability to break their posture downward and prevents them from driving forward effectively, as their hips cannot generate power when their upper body is pulled down. Conversely, guard locked low around the opponent's waist provides minimal posture control and allows them to posture up and drive forward easily. When you feel the counter initiate, immediately climb your guard higher by unlocking your ankles, repositioning your legs, and re-locking as high as possible. This single adjustment can nullify the forward pressure that makes the guillotine counter effective."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Counter?</p>
+
 - Opponent tucks chin tightly and drives head toward the non-choking side, indicating they are initiating the standard circular escape pattern
 - Opponent's same-side hand grips your choking wrist or forearm, signaling they are establishing the hand control needed to prevent you from tightening or adjusting
 - Opponent begins driving forward pressure through their shoulders and hips, flattening your torso and reducing your ability to arch and generate choking force
@@ -166,6 +184,8 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Counter?</p>
 
 - Recognize the counter initiation early through tactile cues before the opponent builds momentum with forward pressure
 - Maintain closed guard or high guard position to prevent opponent from breaking free and advancing past your legs
@@ -180,6 +200,8 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Counter?</p>
 
 ### 1. Elevate elbow and switch to high elbow guillotine variation while closing guard higher on opponent's back
 
@@ -217,6 +239,8 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Counter?</p>
+
 ### → [[Positions/Guillotine Control]]
 
 Maintain or deepen guillotine grip by immediately switching to high elbow variation when you feel the counter begin. Close guard higher on opponent's back, squeeze knees together, and pull their head down before they can build forward pressure momentum. The key is reacting to the first tactile cue rather than waiting for the escape to develop.
@@ -232,6 +256,8 @@ When the top guillotine grip is compromised beyond recovery, use the opponent's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Counter?</p>
 
 ### 1. Simply squeezing harder on a guillotine that has been structurally compromised by forward pressure
 
@@ -261,6 +287,8 @@ When the top guillotine grip is compromised beyond recovery, use the opponent's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Counter?</p>
+
 **Week 1-2: Counter Recognition Drilling** - Learning to feel the early tactile cues of the guillotine counter through repetition
 Partner secures guillotine from various positions and you apply the choke. Partner then initiates the counter at 25% speed. Focus on identifying the chin tuck, head drive, hand control, and forward pressure cues. Practice immediate grip adjustments to high elbow variation. No live resistance — purely pattern recognition.
 
@@ -277,26 +305,6 @@ Start each round with guillotine grip established. Partner attempts full counter
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that your opponent is initiating a guillotine counter, and what should your immediate response be?
-**A**: The earliest cue is the opponent tucking their chin tightly and driving their head toward the non-choking side while their same-side hand reaches for your choking wrist. Your immediate response should be to elevate your choking elbow toward the ceiling and close your guard higher on their back before they can establish forward pressure. This transitions you to a high elbow guillotine variation that is more resistant to the standard counter mechanics. Reacting at this early stage is far more effective than waiting for the forward pressure to develop.
-
-**Q2**: When should you release the guillotine and transition to guard recovery instead of fighting for the finish?
-**A**: You should release when three conditions are met simultaneously: the opponent has established strong hand control on your choking wrist preventing adjustment, their forward pressure has flattened your posture eliminating your arching leverage, and they have begun circling to the safe side. At this point the choke is structurally compromised beyond recovery. Releasing allows you to use both hands for framing and guard retention before the opponent completes the pass to side control. Holding longer only wastes energy and guarantees a worse final position.
-
-**Q3**: How does the hip bump sweep integrate with guillotine defense when the opponent drives heavy forward pressure?
-**A**: The opponent's committed forward pressure creates ideal conditions for a hip bump sweep because their weight is already driving over your center of gravity. As they drive forward, bridge your hips upward on the non-choking side while maintaining whatever grip remains on the neck. Their forward momentum carries them over and you follow to mount. This works because the opponent cannot simultaneously drive heavy forward pressure for the guillotine counter and maintain a low defensive base against sweeps. The sweep converts their offensive momentum into your positional advantage.
-
-**Q4**: Your opponent successfully extracts their head — what are your options in the next two seconds?
-**A**: In the immediate moment of head extraction, you have a narrow window before the opponent consolidates side control. Your highest-percentage option is to immediately hip-escape away and insert your knee to recover half guard or closed guard. If their weight is still transitioning, you can attempt to re-pummel an underhook and recover to a seated guard or dogfight position. If you still have any grip on their head or neck, use it to redirect their base and create space for the hip escape. The critical error is freezing — any movement toward guard recovery is better than remaining flat.
-
-
-
-</section>
 
 
 </main>

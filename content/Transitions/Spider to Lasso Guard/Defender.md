@@ -154,6 +154,8 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Spider to Lasso Guard?</p>
+
 - Sudden release of foot pressure on one bicep while the sleeve grip on the same arm tightens or remains firmly maintained
 - Bottom player's knee pulls toward their chest on one side as the foot leaves the bicep, preparing for the circular threading motion
 - Sleeve grip tension increases noticeably on one arm as the bottom player reinforces control before initiating the threading sequence
@@ -165,6 +167,8 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Spider to Lasso Guard?</p>
 
 - Recognize the transition early by monitoring for the release of foot pressure on one bicep combined with tightening of the sleeve grip on the same arm
 - React within the first second of the transition attempt before the shin clears underneath your arm and the lasso begins to seat
@@ -179,6 +183,8 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Spider to Lasso Guard?</p>
 
 ### 1. Strip the sleeve grip immediately using a two-on-one break or thumb strip
 
@@ -216,6 +222,8 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Spider to Lasso Guard?</p>
+
 ### → [[Positions/Spider Guard]]
 
 React quickly to strip the sleeve grip or retract your arm before the lasso threads, forcing the bottom player to remain in Spider Guard where you have more passing options and their control is bilateral rather than asymmetric
@@ -231,6 +239,8 @@ Apply immediate forward pressure or aggressive grip breaking during the transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Spider to Lasso Guard?</p>
 
 ### 1. Pulling arm straight back when feeling the lasso threading beginning
 
@@ -260,6 +270,8 @@ Apply immediate forward pressure or aggressive grip breaking during the transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Spider to Lasso Guard?</p>
+
 **Phase 1: Recognition** - Identifying lasso transition attempts from spider guard
 Partner drills where the bottom player alternates between maintaining spider guard and attempting lasso transitions at slow speed. Defender focuses solely on recognizing the transition cues without attempting to counter. Build automatic pattern recognition for the foot release, sleeve tightening, and leg threading motion.
 
@@ -276,26 +288,6 @@ Positional sparring starting from spider guard with the bottom player actively p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is attempting to transition from Spider Guard to Lasso Guard?
-**A**: The earliest cue is the bottom player releasing foot pressure on one of your biceps while maintaining or tightening their sleeve grip on that same arm. You will feel a sudden reduction in pushing force against your arm accompanied by their foot beginning to circle downward rather than maintaining contact with your bicep. The sleeve grip often tightens just before the transition begins, as they prepare to guide your arm into position for the lasso threading.
-
-**Q2**: What is the most critical defensive priority when you recognize the lasso transition is being attempted?
-**A**: Your most critical priority is either stripping the sleeve grip on the targeted arm or withdrawing your arm completely before the shin threads across your tricep. Once the lasso is fully established, you face a significantly more difficult guard passing scenario. The brief moment when their foot leaves your bicep is your best opportunity to act, as their control is temporarily reduced. Pull your arm toward your body while pushing their leg away, or step back sharply to create distance that prevents completion.
-
-**Q3**: How should you adjust your weight distribution when defending against the Spider to Lasso transition?
-**A**: Shift your weight slightly toward the side being attacked to make it harder for the bottom player to manipulate your arm into position. Dropping your elbow toward your hip on the threatened side closes the space beneath your arm that they need to thread their leg through. Simultaneously drive your hips forward slightly to compress the distance, preventing them from generating the circular motion needed for threading. Avoid leaning away from the lasso side, as this extends your arm and creates more space for the threading.
-
-**Q4**: When should you choose to apply forward pressure versus stepping back as your defensive response?
-**A**: Apply forward pressure when you recognize the transition early, before the foot has cleared underneath your arm, as driving forward compresses the space and prevents the threading motion from completing. Step back when you recognize the transition late, after their foot has already begun passing under your arm, because stepping back may pull your arm free of the developing lasso while maintaining your base. Forward pressure works best from combat base, while stepping back works better from standing where you have more freedom of movement.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the snap down from standing demands constant postural awareness, activ
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Snap Down from Standing?</p>
+
 - Opponent establishes a firm collar tie or deliberately cups the back of your head with focused grip intent rather than casual contact
 - Opponent's weight shifts backward or their rear foot steps back as they create pulling distance and angle for the snap
 - Sudden sharp increase in downward pressure on your head or neck after a period of neutral collar tie contact
@@ -173,6 +175,8 @@ Defending the snap down from standing demands constant postural awareness, activ
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Snap Down from Standing?</p>
 
 - Posture is your primary weapon: maintain head above hips with chin level and shoulders back to deny the snap angle entirely
 - Active hand fighting prevents the collar tie grip that enables the snap down from being established in the first place
@@ -187,6 +191,8 @@ Defending the snap down from standing demands constant postural awareness, activ
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Snap Down from Standing?</p>
 
 ### 1. Posture hard and strip the collar tie grip with a two-on-one peel or circular wrist break
 
@@ -224,6 +230,8 @@ Defending the snap down from standing demands constant postural awareness, activ
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Snap Down from Standing?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip the collar tie grip early before the snap develops full force, maintain strong upright posture with head above hips, and circle laterally to deny the pulling angle. Active hand fighting that prevents the grip establishment in the first place is the highest-percentage path to this outcome.
@@ -239,6 +247,8 @@ When posture recovery is no longer viable and front headlock appears imminent, p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Snap Down from Standing?</p>
 
 ### 1. Pulling the head straight backward against the snap direction using neck strength
 
@@ -268,6 +278,8 @@ When posture recovery is no longer viable and front headlock appears imminent, p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Snap Down from Standing?</p>
+
 **Phase 1: Recognition** - Identifying snap down setups and timing
 Partner establishes various collar tie positions and announces whether they will snap or not. Defender practices recognizing the pre-snap cues: grip tightening, weight shift, retreating step. Start at slow speed and increase gradually. The goal is developing automatic recognition of the snap setup before the pull initiates.
 
@@ -284,29 +296,6 @@ Partner attempts snap downs at full intensity while defender works to not only d
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that a snap down is being set up from standing?
-**A**: The earliest indicators are the opponent deliberately establishing a collar tie with focused cupping grip on the back of your head rather than casual contact, their free hand stripping your defensive grips or posting on your shoulder, and their rear foot stepping backward to create pulling distance. The transition from neutral grip fighting to intentional head control with a specific pulling angle is the key recognition pattern. By the time you feel strong downward pressure, the snap is already mid-execution.
-
-**Q2**: What is your immediate physical response when you feel sudden downward pressure on your head from a collar tie?
-**A**: Drive your hips forward and extend your spine upward while simultaneously beginning to circle laterally. Do not pull your head straight back against the force. Your hips moving forward counteracts the forward weight shift the opponent is trying to exploit, while the lateral circle moves you perpendicular to their pulling direction. Simultaneously, your hands should address the grip: one hand fights the collar tie at the wrist while the other maintains your own offensive grip or frames on their shoulder.
-
-**Q3**: Your opponent snaps your head down and is beginning to establish front headlock control - what are your immediate recovery priorities?
-**A**: First priority is protecting your neck by tucking your chin to your chest to prevent guillotine access. Second priority is getting one hand on their choking arm at the wrist or elbow to prevent them from locking up a submission grip. Third priority is movement: either drive forward to stand up if their weight is high, or circle to the side to prevent them from settling their chest on your back. Speed is critical because every second in transition favors the opponent's control consolidation.
-
-**Q4**: How do you prevent an opponent from establishing the collar tie grip needed for a snap down?
-**A**: Proactive hand fighting is the primary prevention tool. Keep your hands active in the inside position, controlling the opponent's wrists and biceps before they can reach the back of your head. When they attempt to swim their hand inside for the collar tie, immediately pummel with your elbow to block the path. If they do establish contact, strip the grip immediately with a two-on-one peel before they can set their fingers. Maintaining inside position with active elbows makes collar tie establishment extremely difficult.
-
-**Q5**: Your posture has been broken by the snap and you are bent forward with the opponent's arm around your head - should you try to stand back up or accept the position change?
-**A**: The decision depends on how deep their control is. If their arm is loosely around your head and they have not yet established chest pressure on your back, explosively drive upward by extending your hips and posting your hands on their body to create separation. Standing removes most front headlock submissions. However, if they have deep arm control with chest-to-back connection and far shoulder control, attempting to stand will likely result in a tighter guillotine or choke. In that case, accept the position change and immediately begin proper front headlock bottom defense: chin tucked, hand fighting the choking arm, and working to circle or sit to guard.
-
-
-
-</section>
 
 
 </main>

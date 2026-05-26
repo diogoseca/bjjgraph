@@ -164,6 +164,8 @@ The defender must understand the three critical windows for defense: before the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass?</p>
+
 - Opponent secures bilateral grips on your pants at the knees or behind your calves while maintaining upright posture inside your guard
 - Opponent begins standing up or stepping forward with their weight shifting onto the balls of their feet, driving their hips toward your chest
 - You feel your knees being pushed toward your face and your hips beginning to lift off the mat as forward pressure increases
@@ -176,6 +178,8 @@ The defender must understand the three critical windows for defense: before the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass?</p>
 
 - Prevent the guard break entirely through active ankle lock maintenance and grip fighting to deny initial stacking opportunity
 - Create angles with hip movement before the stack compresses your spine - shrimping early is exponentially more effective than shrimping late
@@ -191,6 +195,8 @@ The defender must understand the three critical windows for defense: before the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass?</p>
 
 ### 1. Frame on the passer's hips with both hands and shrimp your hips away to create distance before the stack is established
 
@@ -228,6 +234,8 @@ The defender must understand the three critical windows for defense: before the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Create strong frames on the passer's hips early in the stack attempt and shrimp your hips laterally to break their forward pressure angle. Once distance is created, immediately re-close your guard by locking your ankles behind their back, or transition to an active open guard if re-closing is not possible. The key is acting before your hips leave the mat.
@@ -243,6 +251,8 @@ Threaten a guillotine choke or triangle submission as the passer drives forward,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass?</p>
 
 ### 1. Waiting too long to defend, allowing the passer to fully stack your hips before attempting any defensive action
 
@@ -277,6 +287,8 @@ Threaten a guillotine choke or triangle submission as the passer drives forward,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass?</p>
+
 **Week 1-2: Recognition and Early Defense** - Identifying stack pass initiation cues and responding with frames
 Partner establishes grips and begins slow forward pressure. Practice recognizing the bilateral grip setup and immediately responding with hip frames and lateral shrimping. Partner works at 30% speed and resets after each defensive attempt. Focus on timing the frame placement before forward pressure develops.
 
@@ -293,29 +305,6 @@ Positional sparring starting from closed guard top with partner actively attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a stack pass is being initiated?
-**A**: The earliest cue is when the top player secures bilateral grips on your pants at the knees or behind your calves while maintaining upright posture. This grip establishment is the prerequisite for the stack, and defending at this stage by stripping grips and re-establishing your own control is far more effective than defending once forward pressure has begun. Secondary cues include the passer standing up in base or shifting their weight onto the balls of their feet.
-
-**Q2**: Why is early hip movement more effective than late hip movement when defending the stack?
-**A**: Early hip movement works because your hips are still on the mat with full range of motion and your spine is in a neutral position that allows powerful shrimping. Once the stack elevates your hips and inverts your spine, the same shrimping motion becomes mechanically impossible because your weight is on your shoulders, your core is compressed, and your legs cannot generate the lateral force needed to move your hips. The defensive window closes progressively as the stack deepens, making each second of delay exponentially more costly.
-
-**Q3**: Your opponent has you fully stacked with your knees near your ears - what is your best remaining defensive option?
-**A**: At full stack depth, your best option is a dynamic escape through Granby roll or inversion rather than fighting the pressure statically. Turn to one side and use the momentum of your elevated hips to roll through, aiming to recover guard on the opposite side or transition to turtle. You can also attempt to walk your shoulders backward on the mat to gradually reduce the stack angle. Threatening a guillotine or triangle during the roll can slow the passer's follow-through and create the space needed to complete the inversion.
-
-**Q4**: How should you use the guillotine threat defensively without overcommitting?
-**A**: The guillotine should be used primarily as a deterrent that forces the passer to address their head position before continuing the stack. Reach for the neck with your lead hand as they drive forward, making them redirect their head to the side and slow their advance. If you get a shallow grip, use it to stall their forward progress while your other hand frames on their hip and your hips create an angle. Only fully commit both hands to the guillotine if you achieve a deep grip with the blade of your forearm across their throat and can close your guard around their body to complete the submission.
-
-**Q5**: What defensive frame structure is most effective against the initial stacking pressure?
-**A**: The most effective frame uses both forearms positioned against the passer's hip bones and lower abdomen, with elbows kept tight to your own ribs. This creates a structural bridge that redirects their forward drive upward and off your center line rather than absorbing it through your torso. Your forearms should be angled slightly outward so the pressure is distributed across the bone rather than collapsing inward. Combined with lateral hip movement, this frame creates enough space and angular disruption to prevent the stack from reaching full depth.
-
-
-
-</section>
 
 
 </main>

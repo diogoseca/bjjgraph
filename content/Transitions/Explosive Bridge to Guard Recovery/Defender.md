@@ -164,6 +164,8 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Explosive Bridge to Guard Recovery?</p>
+
 - Opponent plants both feet flat on the mat with knees bent, loading their hips for an explosive upward drive
 - Opponent tucks elbows tight to their ribcage and tenses their core, preparing to redirect arms to hip frames after bridging
 - You feel a subtle weight shift as opponent tests your pressure or waits for you to initiate a transition or submission
@@ -175,6 +177,8 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Explosive Bridge to Guard Recovery?</p>
 
 - Maintain constant chest-to-chest pressure with weight distributed forward over opponent's upper body to minimize space for bridging
 - Keep a wide base with knees spread and hips low to absorb explosive bridge attempts without being elevated
@@ -189,6 +193,8 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Explosive Bridge to Guard Recovery?</p>
 
 ### 1. Sprawl hips back and widen base during the bridge to ride it out and re-consolidate pressure
 
@@ -226,6 +232,8 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Explosive Bridge to Guard Recovery?</p>
+
 ### → [[Positions/North-South]]
 
 Absorb the bridge by sprawling hips back, widening your base, and driving chest pressure downward as their bridge collapses. Immediately re-consolidate by tightening arm control and settling heavy weight across their chest before they can attempt another escape.
@@ -241,6 +249,8 @@ Use the elevation created by their bridge as an opportunity to slide your knees 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Explosive Bridge to Guard Recovery?</p>
 
 ### 1. Sitting weight back toward opponent's hips instead of keeping it forward over their chest
 
@@ -275,6 +285,8 @@ Use the elevation created by their bridge as an opportunity to slide your knees 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Explosive Bridge to Guard Recovery?</p>
+
 **Week 1-2** - Pressure maintenance fundamentals
 Practice maintaining heavy North-South control while partner bridges at 30-50% power. Focus on base width, weight distribution, and the sprawl reaction to upward force. Reset and repeat each time partner creates any meaningful space.
 
@@ -291,29 +303,6 @@ Full resistance positional rounds starting from North-South. Top player works to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable base adjustment to absorb an explosive bridge from North-South bottom?
-**A**: Sprawl your hips back and widen your knees immediately when you feel upward force. This lowers your center of gravity and creates a broad base that disperses the rotational force of the 45-degree bridge. Drive your chest weight downward rather than fighting the upward force directly. Your goal is to make the bridge feel like pushing against a heavy, wide platform rather than a narrow post.
-
-**Q2**: Your opponent repeatedly plants their feet and loads their hips - how do you prevent the bridge before it happens?
-**A**: When you feel them plant their feet, immediately shift your weight forward and drive chest pressure harder into their upper body. Consider transitioning toward a submission or mount attempt to force them to use their legs defensively rather than offensively. You can also control one of their legs by hooking it with your foot to disrupt their foot placement and eliminate the stable platform they need for an effective bridge.
-
-**Q3**: How do you convert a failed bridge attempt into a positional advancement or submission opportunity?
-**A**: As their bridge collapses and they return to the mat, they are momentarily exhausted and their arms may be extended from the failed frame attempt. Use this window to slide your knees past their hips for mount, or isolate an extended arm for a kimura or armbar. The post-bridge moment is when their defenses are weakest because they have committed energy to the escape and failed, creating a brief vulnerability you can exploit.
-
-**Q4**: What role does arm control play in preventing the bridge to guard recovery specifically?
-**A**: Arm control is the single most important factor beyond base width. Even if the opponent achieves a strong bridge, they cannot complete the guard recovery without establishing hip frames with their arms. By controlling at least one arm through an underhook or wrist pin, you deny them the bilateral hip frames needed to maintain space after the bridge peaks. Without frames, the space created by the bridge collapses as soon as you drive your weight back down.
-
-**Q5**: Your opponent bridges powerfully and gets both hands on your hips as frames - what is your immediate recovery?
-**A**: Do not try to push through their frames with upper body strength. Instead, windshield-wiper your hips to one side to collapse one of their arm frames, then immediately drive your weight down on the side where the frame collapsed. Simultaneously walk your knees forward past their hip line to transition toward mount. If both frames are strong, circle to one side and attack the near arm with a kimura grip, which forces them to release the frame to defend the submission.
-
-
-
-</section>
 
 
 </main>

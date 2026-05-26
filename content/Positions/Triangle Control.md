@@ -34,7 +34,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain tight triangle lock with ankles crossed behind opponent's neck, squeezing knees together to compress carotid arteries while using full leg engagement rather than just ankle pressure
@@ -94,19 +94,21 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke Front/Attacker|Triangle Choke Front]]** (29% of attempts)
+- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (32% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (22% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (21% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (13% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (12% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (9% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (8% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (7% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (6% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (6% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (5% of attempts)
 
-- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (14% of attempts)
+- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (13% of attempts)
+
+- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -175,7 +177,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 - **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (5% of attempts)
 
-- **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** (37% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (37% of attempts)
 
 - **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (2% of attempts)
 

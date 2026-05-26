@@ -30,7 +30,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system
@@ -104,7 +104,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (4% of attempts)
+- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (4% of attempts)
 
 - **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
 

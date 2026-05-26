@@ -165,6 +165,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crackhead Control (Top)?</p>
+
 - Top player's left arm (assuming left arm trapped) remains controlled in deep overhook past shoulder blade, with mobility significantly restricted. The arm cannot generate effective frames or establish passing grips until extracted from overhook. Attempting to pull arm out without proper mechanics typically results in omoplata vulnerability.
 - Top player's posture remains broken forward with bottom player's leg across upper back or neck applying downward pressure. Head position must stay low to prevent additional pressure on neck, but not so low that gogoplata threats become immediate. Posture recovery is primary defensive priority but must be approached systematically.
 - Top player's base must remain wide and mobile with free arm posted to prevent sweeps and provide counter-pressure. Weight distribution becomes critical - too much forward pressure enables gogoplata setups, insufficient pressure allows bottom player to freely adjust angles for submissions. Base adjustments must be constant and reactive to bottom player's movements.
@@ -175,6 +177,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Crackhead Control (Top)?</p>
 
 - One arm trapped in deep overhook with limited mobility for frame establishment
 - Posture broken forward with bottom player's leg across back applying downward pressure
@@ -188,6 +192,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Crackhead Control?</p>
 
 - Arm extraction must precede passing attempts - trapped arm severely limits passing mechanics
 - Posture recovery requires systematic approach rather than explosive pulling against leg pressure
@@ -203,6 +209,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Crackhead Control (Top)?</p>
 
 **If bottom player extends legs setting up triangle or omoplata, creating temporary back exposure:**
 - Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
@@ -235,6 +243,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Crackhead Control?</p>
 
 ### 1. Explosively attempting to pull trapped arm out by straightening it against overhook pressure
 
@@ -274,6 +284,8 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Crackhead Control attacks?</p>
+
 ### Arm Extraction Mechanics Drill
 
 Start with arm trapped in deep overhook while bottom player maintains static position. Practice systematic arm extraction using circular motions, posture establishment, and hip pressure without explosive pulling. Partner gradually increases resistance as technique improves. Goal is smooth extraction within 10-15 seconds.
@@ -306,38 +318,6 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive priority when trapped in Crackhead Control from top?
-**A**: The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries.
-
-**Q2**: How should you adjust your weight distribution to avoid triggering gogoplata setups?
-**A**: Maintain moderate forward pressure through your hips and chest rather than diving your head forward. Excessive forward pressure triggers gogoplata and Carni transitions because it provides the bottom player with the momentum needed to thread their shin across your throat. Keep pressure steady but not overwhelming.
-
-**Q3**: Your opponent's hip angle suddenly changes as they shift weight to their left hip - what does this signal?
-**A**: Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established.
-
-**Q4**: What are the essential base fundamentals for surviving Crackhead Control from top?
-**A**: Keep feet wide with knees slightly bent to create a stable platform that resists sweeps. The free arm must remain posted to provide counter-pressure and prevent being rolled. Weight distribution should be balanced - not too far forward (triggers gogoplata) or too far back (allows free hip movement). Base must be mobile and reactive to opponent's movements.
-
-**Q5**: When is it appropriate to attempt a back take from top position in Crackhead Control?
-**A**: The back take window opens when the bottom player commits aggressively to submission finishes, particularly when they extend their legs for triangle or omoplata setups. This extension creates temporary back exposure. The key is recognizing these moments rather than forcing the back take, as premature attempts result in the opponent simply returning to closed guard.
-
-**Q6**: What should you do immediately if your opponent establishes double underhooks from Crackhead Control?
-**A**: If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass.
-
-**Q7**: How do you recover position after partially escaping but still having posture broken?
-**A**: Work incrementally rather than trying to fully posture in one movement. First, establish your free arm as a strong post. Then begin small arm circles to reduce overhook depth while maintaining base. Use hip pressure combined with gradual posture elevation. The goal is systematic improvement of your position rather than explosive escape attempts.
-
-**Q8**: Why is passive defense particularly dangerous in Crackhead Control top position?
-**A**: Passive defense allows the bottom player to freely cycle through their submission chain without time pressure or positional degradation. They can optimize their offense by making incremental angle adjustments until finding a successful entry. Active defense forces mistakes and prevents the bottom player from establishing their preferred submission sequence.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

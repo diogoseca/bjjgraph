@@ -90,11 +90,11 @@
       "relationship": "Opponent's primary counter transition when they follow the roll and capitalize on back exposure"
     },
     {
-      "name": "Calf Slicer from Rodeo Ride",
+      "name": "Calf Slicer",
       "relationship": "Submission threat from Rodeo Ride that motivates attempting this escape"
     },
     {
-      "name": "Rear Naked Choke from Rodeo",
+      "name": "Rear Naked Choke",
       "relationship": "Back control submission threat that escalates if the roll fails into back control"
     },
     {
@@ -123,7 +123,7 @@
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Assess Opponent Weight Distribution",
+        "action": "Assess Opponent Center of Gravity",
         "description": "From defensive turtle under Rodeo Ride, use tactile feedback to determine where the opponent's weight is concentrated—forward on your shoulders, laterally to one side, or loaded on your hips. Identify the direction of least resistance for your roll by detecting which side has the lightest pressure. This assessment must happen through feel rather than visual confirmation, as your head should remain tucked throughout."
       },
       {
@@ -237,7 +237,7 @@
         "description": "Start from Rodeo Ride bottom with full resistance. Integrate the roll with other escape options including sit-through, technical stand-up, and the rotation to side control escape. Develop tactical judgment to select the roll when conditions favor it and recognize when alternative escapes carry lower risk."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Roll from Rodeo Ride?",
         "answer": "The optimal timing window occurs when the opponent shifts their weight forward for hook insertion or choke attacks, momentarily reducing hip pressure on your back. This forward commitment creates a rotational imbalance that your roll can exploit. Secondary windows include moments when the opponent adjusts grips or transitions between attacks, as their weight distribution becomes unsettled during these transitions. Feel for changes in hip pressure intensity as the primary timing indicator."
@@ -269,6 +269,14 @@
       {
         "question": "When should you choose this roll escape over the Escape from Rodeo Ride rotation to side control?",
         "answer": "Choose the roll when the opponent's weight is committed forward or high on your shoulders with minimal hip control, creating clear rotational opportunity but insufficient base disruption for the full side control rotation. The Escape from Rodeo Ride to side control requires collapsing the rider's base and driving through to top position, which demands more time and grip fighting. The roll is faster and requires less grip establishment but yields a bottom guard position rather than dominant side control. Select the roll when speed of extraction is the priority, and the side control escape when you have the grip advantage to achieve a top position."
+      },
+      {
+        "question": "The roll is blocked and you reset to turtle—what chain of follow-up escapes should you attempt next?",
+        "answer": "After a blocked roll resets you to turtle, immediately chain into the sit-through escape toward the side the opponent just sprawled from, as their sprawl typically leaves that hip elevated and creates space underneath. If the sit-through is also denied, transition to a technical stand-up on the opposite side, using the posting arm that was already free for the roll attempt. The key principle is that each failed escape should feed information about the opponent's defensive tendencies into your next attempt—a sprawl-heavy defender is vulnerable to sit-throughs, while a lateral-pressure defender opens windows for the Escape from Rodeo Ride rotation."
+      },
+      {
+        "question": "How do you read whether the opponent's weight is forward enough to attempt the roll versus too settled for success?",
+        "answer": "Assess through hip pressure intensity on your lower back and sacrum. When the opponent's weight is forward enough, you will feel reduced pressure on your hips and increased pressure on your upper back and shoulders—their center of gravity has moved above your rotational axis, making them top-heavy and vulnerable to the roll. If you feel heavy, evenly distributed pressure across both your hips and back, the opponent is settled and centered. Test with small hip shifts: if a subtle lateral hip movement meets immediate heavy resistance, the weight is too centered. If the hip shift moves freely with the pressure staying on your shoulders, the roll window is open."
       }
     ],
     "safety_considerations": "Maintain chin protection throughout the rolling motion to prevent neck compression or stacking injuries. Control the roll's speed and direction rather than throwing yourself wildly, especially when training with partners of different sizes. Tap immediately if your neck position becomes compromised during the rotation. Avoid forcing the roll against fully settled pressure, as this can result in neck strain when the opponent drives weight into your shoulders during an incomplete rotation. Progress from slow-speed drilling to full resistance gradually, ensuring the rotational mechanics are sound before adding intensity. The granby-style variant carries particular cervical spine risk—master the basic lateral roll before progressing to inversion-based variations."
@@ -354,7 +362,7 @@
         "correction": "When following the roll, keep your chest physically glued to their back throughout the entire rotation arc. Match their speed and direction precisely, using your grip on their near arm or collar as an anchor that keeps you connected through the movement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing to roll from Rodeo Ride?",
         "answer": "The earliest cue is a subtle hip angle change where the bottom player shifts their hips away from your primary pressure side, loading their body for rotational movement. This hip adjustment precedes the actual roll by a fraction of a second and indicates they are preparing for explosive rotation. Other early cues include intensified grip fighting on the near arm with increased urgency, or small weight shifts onto one shoulder as they build rotational potential."

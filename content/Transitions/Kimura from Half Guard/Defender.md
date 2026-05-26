@@ -85,6 +85,22 @@ description: "Complete guide to defending the Kimura from Half Guard Top. Learn 
         "@type": "Answer",
         "text": "When the bottom player commits both hands to the Kimura attempt, they sacrifice their primary frames and underhook control. This creates an immediate passing window because they have no defensive structure remaining to prevent your weight from settling. Drive your chest forward and down while working to free your trapped leg, as their lack of frames allows you to complete the pass to side control. Their failed Kimura attempt often leaves them flat on their back without the hip angle needed for guard retention."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is driving weight forward more effective than retreating when defending the Kimura grip establishment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forward pressure flattens the bottom player's hip angle, which is the structural foundation they need for threading their arm and completing the figure-four. When you retreat or lean back, you create the exact space they need to deepen their grip and access sweeping leverage. Forward pressure also pins their shoulders and reduces their ability to turn to their side, which is essential for the Kimura entry mechanics. Additionally, your forward weight makes their cross-body arm pull ineffective because your mass resists the directional force of the Kimura system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent has established a full Kimura grip and begins threatening a sweep - what is your defensive priority?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your immediate priority is preventing the sweep rather than stripping the grip, because losing top position with the Kimura grip intact puts you in a far worse situation. Widen your base by posting your free hand far to the side and sprawling your hips to lower your center of gravity. Simultaneously drive your chest into their torso to flatten their hips and reduce their sweeping leverage. Once your base is stabilized against the sweep, begin working the grip break through controlled circular elbow movement combined with sustained forward pressure to degrade the figure-four structure."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura from Half Guard?</p>
+
 - Bottom player releases their primary frame or underhook to reach toward your arm with their outside hand
 - Bottom player creates exaggerated hip angle by turning sharply to their side, positioning their inside arm for the tricep thread
 - Your posting hand or crossface arm feels wrist contact from the bottom player's outside hand attempting to secure initial control
@@ -165,6 +183,8 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura from Half Guard?</p>
 
 - Maintain strict arm discipline with elbows tight to your body as the default position in half guard top
 - Recognize early indicators of Kimura attacks—the bottom player releasing frames or reaching for your arm
@@ -179,6 +199,8 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura from Half Guard?</p>
 
 ### 1. Retract the targeted arm forcefully to your own hip while driving chest pressure forward
 
@@ -216,6 +238,8 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura from Half Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Strip the opponent's grip before the figure-four is completed by pulling your arm back forcefully while driving chest forward. The failed Kimura attempt leaves them without frames, allowing you to consolidate top half guard control and resume passing.
@@ -231,6 +255,8 @@ When the bottom player commits both hands to the Kimura attempt, their defensive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura from Half Guard?</p>
 
 ### 1. Posting your hand carelessly on the mat near the bottom player's centerline during half guard
 
@@ -260,6 +286,8 @@ When the bottom player commits both hands to the Kimura attempt, their defensive
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura from Half Guard?</p>
+
 **Phase 1: Recognition and Prevention** - Identifying Kimura entry attempts and maintaining arm discipline
 Partner attempts Kimura entries from half guard bottom at 25% speed. Focus on recognizing the earliest cues—frame release, wrist contact, arm threading—and practicing immediate arm retraction. Build awareness of which arm positions create vulnerability and develop default elbow-tight positioning habits.
 
@@ -276,26 +304,6 @@ Positional sparring from half guard top against a partner who actively hunts for
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Kimura from half guard bottom?
-**A**: The earliest cue is when the bottom player releases their underhook or primary frame to reach for your arm, typically your posting hand or the arm establishing crossface. You may also feel their inside hand beginning to thread under your tricep or their body angle shifting aggressively to their side. Recognizing these early movements before the figure-four is locked gives you the widest window for prevention through arm retraction or forward pressure.
-
-**Q2**: Your opponent has secured wrist control but has not completed the figure-four - what is your best immediate response?
-**A**: Immediately pull your arm back toward your own hip while simultaneously driving your chest forward and down into the opponent's torso. The combination of arm retraction with forward pressure makes it nearly impossible for them to thread their inside arm under your tricep. If you cannot retract the arm, circle your elbow inward toward your own body to close the space under your tricep that they need for the thread. Speed is critical because once the figure-four locks, extraction becomes exponentially harder.
-
-**Q3**: How does maintaining proper arm discipline prevent the Kimura from half guard?
-**A**: Keep your elbows connected to your body as the default position, never posting your hand near the opponent's centerline where it becomes vulnerable. When you must post for base, use the hand on the far side away from the opponent's reach. If establishing crossface, drive your arm across with your elbow tight rather than reaching with an extended arm. This discipline eliminates the arm exposure that creates the Kimura entry window entirely.
-
-**Q4**: What positional advancement opportunity exists when you successfully defend the Kimura attempt from half guard top?
-**A**: When the bottom player commits both hands to the Kimura attempt, they sacrifice their primary frames and underhook control. This creates an immediate passing window because they have no defensive structure remaining to prevent your weight from settling. Drive your chest forward and down while working to free your trapped leg, as their lack of frames allows you to complete the pass to side control. Their failed Kimura attempt often leaves them flat on their back without the hip angle needed for guard retention.
-
-
-
-</section>
 
 
 </main>

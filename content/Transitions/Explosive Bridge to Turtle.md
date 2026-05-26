@@ -206,7 +206,7 @@ The Explosive Bridge to Turtle fits into the bottom game as an emergency escape 
 
 - [[Transitions/Arm Extraction]] - Component technique - arm extraction is critical element of this escape sequence
 
-- [[Principles/Guard Recovery]] - Follow-up option - can transition from turtle to guard after successful escape
+- [[Transitions/Rolling to Guard]] - Follow-up option - can transition from turtle to guard after successful escape
 
 - [[Positions/Crucifix]] - Related position - shares arm-trapping mechanics with mounted crucifix
 

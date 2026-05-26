@@ -182,6 +182,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rodeo Ride to Turtle?</p>
+
 - Maintain at least one secure anchor grip throughout the entire transition to prevent escape during repositioning
 - Keep chest-to-back contact continuous and unbroken while walking hips from perpendicular angle to directly behind
 - Replace grips sequentially rather than simultaneously to eliminate windows where no control exists
@@ -197,6 +199,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rodeo Ride to Turtle?</p>
+
 - Established Rodeo Ride position with functional chest-to-back contact and at least one controlling grip
 - Assessment that current Rodeo Ride attacks are being effectively defended or position stability is degrading
 - Opponent in defensive turtle with hands and knees on mat rather than actively scrambling or standing
@@ -209,6 +213,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rodeo Ride to Turtle step by step?</p>
 
 1. **Assess position and commit to transition**: Evaluate your current Rodeo Ride control by testing opponent's base through subtle pressure shifts. Determine whether your asymmetric grips are degrading, whether the opponent is successfully defending your attacks, or whether a more systematic turtle top approach would yield better results. Make a definitive decision to transition rather than half-committing, which creates the worst of both positions.
 2. **Secure primary anchor grip**: Before initiating any repositioning movement, establish a secure anchor grip that will maintain control throughout the entire transition. This is typically a deep collar grip on the far side, a seatbelt hand position over the far shoulder, or firm near-arm wrist control. This grip must be strong enough to prevent the opponent from creating distance, turning to face you, or sitting back to guard during your movement phase.
@@ -237,6 +243,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rodeo Ride to Turtle?</p>
+
 - **Opponent explosively sits back to guard during grip transition** (Effectiveness: High) - Your Response: Anticipate the sit-back by keeping hip pressure heavy and forward throughout the transition. If they begin sitting, follow their hips down while maintaining your anchor grip and drive your weight forward to flatten them back to turtle. Your chest connection should be tight enough that their sit-back pulls you with them rather than creating separation. → Leads to [[Positions/Half Guard]]
 - **Opponent performs granby roll during repositioning phase** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your anchor grip, using their rotational momentum to accelerate your own repositioning behind them. The granby roll actually assists your transition if you stay connected. Drive your chest into their back as they complete the roll and immediately establish seatbelt control on the far side. Do not release your grip or disengage during the roll. → Leads to [[Positions/Half Guard]]
 - **Opponent stands up explosively when lateral pressure decreases during repositioning** (Effectiveness: High) - Your Response: Prevent standing by keeping your hips loaded on their lower back throughout the transition. If they begin to rise, immediately snap them back down using your anchor grip on the collar or shoulder while driving your hip weight forward into their lower back. If they achieve a partial stand, transition immediately to standing back clinch rather than trying to pull them back to turtle. → Leads to [[Positions/Half Guard]]
@@ -248,6 +256,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rodeo Ride to Turtle?</p>
 
 ### 1. Releasing all grips simultaneously to reposition both hands at once
 
@@ -287,6 +297,8 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rodeo Ride to Turtle (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic transition movement pattern
 Practice the hip walk from perpendicular to behind with a compliant partner. Focus on maintaining chest contact throughout the arc of movement. No resistance from partner. Repeat 20 times per side until the movement pattern is automatic and chest contact is never lost during repositioning.
 
@@ -307,36 +319,12 @@ Start from Rodeo Ride with full resistance. Include the transition as one option
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why would you deliberately transition from Rodeo Ride to standard turtle top rather than continuing to attack from Rodeo Ride?
-**A**: Rodeo Ride excels at dynamic, explosive attacks but becomes less effective when the bottom player defends those specific attacks well or when the asymmetric control starts degrading. Standard turtle top provides a more methodical platform for the conventional seatbelt-to-hooks back take sequence, systematic front headlock entries, and measured submission setups. The transition preserves dominant position when staying in Rodeo Ride would mean diminishing returns or risking position loss through continued forcing of defended attacks.
-
-**Q2**: What is the single most critical principle during the grip transition phase?
-**A**: Never release all control points simultaneously. Maintain at least one secure anchor grip throughout the entire transition. This hand-over-hand principle ensures that no complete control gap exists for the opponent to exploit. Whether using collar control, wrist control, or a partial seatbelt, one grip must always be actively restraining the opponent's movement before the other grip is released and repositioned.
-
-**Q3**: Your opponent suddenly tenses and you feel them coiling to explode as you begin the transition. What should you do?
-**A**: Abort the transition attempt and re-establish full Rodeo Ride control immediately. An opponent who is coiled and ready to explode will capitalize on any grip change or weight shift during your transition. Wait for them to expend their stored energy through a defensive attempt, then initiate the transition during the recovery moment when they are depleted and less reactive. Timing the transition during low-energy windows is critical for success.
-
-**Q4**: What body part serves as the primary continuous control mechanism throughout the entire transition?
-**A**: The chest serves as the primary continuous control mechanism. Chest-to-back contact must be maintained without interruption from start to finish of the transition. The chest provides constant downward pressure that compresses the opponent's turtle structure, prevents standing attempts, and allows tactile feedback about the opponent's movements and intentions. While grips change and hips reposition, the chest remains the one control point that never disconnects.
-
-**Q5**: How does the spiral walk variant differ from the controlled seatbelt reset variant, and when would you choose each?
-**A**: The spiral walk maintains existing Rodeo Ride grips while walking the hips in an arc to reposition behind the opponent, only changing grips at the final position. The controlled seatbelt reset replaces grips to seatbelt first while still at the perpendicular angle, then repositions with seatbelt already established. Choose the spiral walk when the opponent is actively hand-fighting and any grip release would trigger escape attempts. Choose the controlled reset when the opponent is relatively passive and the grip change can happen safely before repositioning.
-
-**Q6**: The opponent begins a granby roll halfway through your transition. Should you disengage and reset, or follow the roll?
-**A**: Follow the roll while maintaining your anchor grip and chest contact. The granby roll during your transition actually assists your repositioning because the opponent's rotation moves them further under your body. Stay connected and use their momentum to accelerate your own movement behind them. Disengaging would waste your transitional progress and allow them to recover guard. The key is keeping your grip tight through the rotation and immediately establishing seatbelt control when the roll completes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rodeo Ride to Turtle?</p>
 
 The Rodeo Ride to Turtle transition involves controlled repositioning that generally poses minimal acute injury risk compared to submission techniques. However, practitioners should be mindful of knee or shin pressure on the bottom player's ribs and spine during weight shifts. Avoid dropping full body weight suddenly when completing the repositioning behind the opponent. The primary safety concern during training is accidental elbow strikes to the bottom player's head or face during grip transitions, as hands move rapidly around the opponent's torso. Communicate with training partners during grip changes and maintain controlled movements rather than explosive hand fighting that could cause inadvertent contact with eyes or jaw.
 

@@ -194,6 +194,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing KOB to Mount?</p>
+
 - Maintain constant downward pressure through the driving knee during the entire transition to prevent space creation and frame insertion
 - Control the opponent's far hip with your grip hand to prevent them from turning into you or shrimping away during the step-over
 - Time the transition when the opponent is reacting defensively to KOB pressure rather than actively establishing frames
@@ -208,6 +210,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting KOB to Mount?</p>
+
 - Established Knee on Belly with stable base, driving knee on solar plexus, and posted leg extended wide
 - Near-side collar grip or head control preventing the opponent from sitting up or turning toward you
 - Far-side hip or pants grip preventing the opponent from turning away or shrimping to create distance
@@ -219,6 +223,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute KOB to Mount step by step?</p>
 
 1. **Secure controlling grips**: Establish a strong collar grip with your near hand and a far-side hip or pants grip with your far hand. These grips serve dual purpose: they prevent the opponent from turning or sitting up while providing anchor points for your weight transfer during the step-over.
 2. **Increase forward pressure**: Drive additional weight through your knee into the opponent's solar plexus by shifting your hips forward and dropping your chest slightly. This increased pressure forces the opponent to commit their arms to defensive frames, occupying their hands and preventing them from blocking the incoming leg swing.
@@ -249,6 +255,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter KOB to Mount?</p>
+
 - **Bottom player frames on the knee and executes a strong hip escape to create distance** (Effectiveness: High) - Your Response: Anticipate the shrimp by controlling the far hip tightly. When they begin to shrimp, follow their hip movement and accelerate the step-over to beat their guard recovery timing. → Leads to [[Positions/Half Guard]]
 - **Bottom player times an explosive bridge during the leg swing to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat on the far side to absorb the bridge. Keep your driving knee pressure and wait for the bridge to collapse before completing the step-over. If the bridge is strong, settle back to KOB rather than forcing a compromised mount entry. → Leads to [[Positions/Knee on Belly]]
 - **Bottom player inserts a knee shield as the leg swings over, blocking mount establishment** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat before they can establish the shield. If the shield is already in, abort the mount entry and re-establish KOB pressure, then attack submissions to force them to abandon the shield. → Leads to [[Positions/Half Guard]]
@@ -260,6 +268,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing KOB to Mount?</p>
 
 ### 1. Lifting the driving knee off the opponent's torso before initiating the step-over
 
@@ -299,6 +309,8 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train KOB to Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Weight transfer fundamentals
 Practice the step-over motion from KOB to mount against a compliant partner. Focus on maintaining knee pressure during the swing, keeping hips low, and settling heavy into mount. Perform 20 repetitions per side with no resistance, concentrating on smooth weight transfer and grip maintenance throughout the movement.
 
@@ -316,42 +328,12 @@ Start from established KOB in positional sparring rounds. Top player scores by a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the KOB to Mount transition?
-**A**: The optimal window opens when the bottom player's arms are committed to defending KOB pressure rather than establishing positional frames. Specifically, when they push against your knee, bridge reactively, or retract their arms after a submission threat. These moments leave the transition path unobstructed and their hip escape mechanics compromised by their current defensive commitment.
-
-**Q2**: What grip configuration provides the most control during the step-over?
-**A**: Near-side collar grip combined with far-side hip or pants grip provides optimal control. The collar grip anchors your upper body position and prevents the opponent from sitting up during the transition. The far-hip grip prevents defensive turning and shrimping that would create space for guard recovery. At least one grip must be maintained throughout the entire step-over movement.
-
-**Q3**: Why is maintaining driving knee pressure throughout the transition critical for success?
-**A**: Lifting the knee before the step-over completes creates immediate space between your weight and the opponent's torso. This space allows frame insertion, knee shield recovery, or hip escape—all of which defeat the transition. Continuous knee pressure keeps the opponent pinned and their defensive options limited during the vulnerable weight transfer phase when your base is temporarily compromised.
-
-**Q4**: Your opponent pushes hard against your knee as you prepare to transition to mount—how do you capitalize on this reaction?
-**A**: Their extended arms pushing against your knee are committed to vertical force rather than positional defense. This creates two opportunities: immediately initiate the step-over while their arms are occupied and unable to block the incoming leg, or attack the extended arms with a far-side armbar to punish the push and force them to retract, creating an even better transition window on the next attempt.
-
-**Q5**: What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?
-**A**: The most common failure is swinging the leg too slowly or hesitantly, giving the bottom player time to insert a knee shield between your legs before mount is established. This slow swing creates an extended window where the opponent can thread their knee across your body and establish half guard. The correction is committing fully to the step-over with speed and clearing any knee insertion attempts with your swinging leg.
-
-**Q6**: How does the direction of your weight transfer affect the success of the transition?
-**A**: Weight must transfer forward and downward through the hips, never upward or backward. Forward hip drive maintains pressure on the opponent's torso during the transition and makes the mount landing heavy and immediate. Sitting upward or shifting weight backward during the step-over creates a tall center of gravity vulnerable to bridges and provides space for hip escapes underneath you.
-
-**Q7**: Your opponent bridges explosively as your leg swings over their body—what adjustment do you make?
-**A**: Post your free hand on the mat on the far side of the opponent to absorb the bridge force and stabilize your base. Keep your driving knee pressure and wait for the bridge to collapse before settling into mount. If the bridge is strong enough to truly threaten your balance, abort the mount entry and settle back to KOB rather than landing in a compromised mount position that can be immediately reversed.
-
-**Q8**: Why should you control the far hip before initiating the step-over rather than just using collar control?
-**A**: The far-hip grip prevents the opponent's most effective counter: turning away during the step-over to recover guard or escape to turtle. Collar control alone anchors the upper body but leaves the opponent's hips free to rotate and create angles. Without far-hip control, the opponent can turn away as your leg swings over and thread their legs into half guard or turtle before you can consolidate mount. The hip grip eliminates this defensive rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for KOB to Mount?</p>
 
 This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely.
 

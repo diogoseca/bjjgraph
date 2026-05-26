@@ -202,11 +202,11 @@ The Mat Return to Back Mount serves as the critical bridge between standing back
 
 - [[Positions/Back Control]] - Target position upon successful completion
 
-- [[Transitions/Rear Naked Choke]] - Primary submission follow-up after establishing grounded back control
+- [[Submissions/Rear Naked Choke]] - Primary submission follow-up after establishing grounded back control
 
 - [[Transitions/Body Triangle Lock]] - Control enhancement option after landing in back mount
 
-- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission option from grounded back control
+- [[Submissions/Bow and Arrow Choke]] - Gi-specific submission option from grounded back control
 
 - [[Positions/Turtle]] - Common defensive transition if opponent escapes during descent
 

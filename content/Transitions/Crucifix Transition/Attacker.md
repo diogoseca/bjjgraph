@@ -192,6 +192,8 @@ The transition requires precise timing and commitment. You must recognize when t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crucifix Transition?</p>
+
 - Recognize when opponent's defensive grip fighting exposes their arm for capture rather than treating their hand fighting as purely problematic
 - Maintain chest-to-back connection throughout the transition to prevent opponent from turning to face you during the arm capture
 - Capture the extended arm above the elbow using your leg or hip to create the initial trap before securing the full crucifix position
@@ -206,6 +208,8 @@ The transition requires precise timing and commitment. You must recognize when t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crucifix Transition?</p>
+
 - Established standing back control with harness or seat belt grip configuration maintaining chest-to-back connection
 - Opponent actively fighting your harness grip with one hand, extending their arm away from their body during defensive movement
 - Your control arm positioned under opponent's armpit, allowing you to redirect their extended arm during capture
@@ -217,6 +221,8 @@ The transition requires precise timing and commitment. You must recognize when t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crucifix Transition step by step?</p>
 
 1. **Threaten the choke to force grip fighting**: Before attempting the crucifix entry, actively threaten the rear naked choke by advancing your choking arm toward opponent's chin. This forces them to prioritize hand fighting against the choke, which creates the arm extension you need for the capture.
 2. **Identify arm exposure**: Recognize when opponent's defensive grip fighting extends their arm away from their body, typically when they reach back to strip your choking arm or push away your control hand. This extension creates the window for arm capture.
@@ -246,6 +252,8 @@ The transition requires precise timing and commitment. You must recognize when t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crucifix Transition?</p>
+
 - **Opponent keeps elbow tight and refuses to extend arm during grip fighting, denying the capture opportunity** (Effectiveness: High) - Your Response: Attack the neck directly since they are not defending it, or use their tight arm position to break them down to grounded back control → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent drops weight explosively when they feel the arm capture beginning, pulling you down before you can consolidate** (Effectiveness: Medium) - Your Response: Follow them down and transition to truck position or standard back control, using their descent to establish hooks → Leads to [[Positions/Turtle]]
 - **Opponent turns aggressively into you during the transition, attempting to face you and escape back exposure** (Effectiveness: Medium) - Your Response: Maintain the arm trap and follow their rotation, converting to mounted crucifix or transitioning to armbar if they complete the turn → Leads to [[Positions/Turtle]]
@@ -257,6 +265,8 @@ The transition requires precise timing and commitment. You must recognize when t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crucifix Transition?</p>
 
 ### 1. Releasing harness control to reach for the arm capture
 
@@ -296,6 +306,8 @@ The transition requires precise timing and commitment. You must recognize when t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crucifix Transition (Attacker)?</p>
+
 **Week 1-2** - Arm capture mechanics
 Practice the arm redirect and leg step through from static standing back control. Partner extends arm on command while you drill the capture motion. Focus on maintaining chest connection and proper leg placement without resistance.
 
@@ -316,51 +328,12 @@ Incorporate crucifix transition into live rolling from standing back control. Wo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Crucifix Transition?
-**A**: The primary goal is to advance from standing back control to the crucifix position by capturing one of opponent's arms when they extend it during defensive grip fighting. This creates a dominant control position with both arms isolated and multiple high-percentage submission options available.
-
-**Q2**: What position do you start Crucifix Transition from?
-**A**: This technique starts from Standing Back Control with you in the top position, meaning you have chest-to-back connection with harness or seat belt grip while both practitioners are standing. The opponent's grip fighting creates the opening for the transition.
-
-**Q3**: What creates the opportunity to attempt the crucifix transition?
-**A**: The opportunity arises when the opponent extends their arm away from their body during defensive grip fighting attempts. When they reach back to strip your choking arm or push away your control hand, they expose their arm for capture. This is why you should threaten chokes first to force defensive reactions.
-
-**Q4**: Your opponent extends their arm but keeps their elbow bent at ninety degrees - can you still capture it?
-**A**: A bent arm at ninety degrees with a tight elbow is difficult to capture for the crucifix transition. You need the arm sufficiently extended where the elbow moves away from their body. If they maintain tight elbows while grip fighting, attack the neck directly since they are not defending it, or use this positioning to break them down to grounded back control.
-
-**Q5**: Which arm do you use to redirect opponent's extended arm - the choking arm or the control arm?
-**A**: Use the control arm, which is the arm positioned under opponent's armpit in the harness configuration. This arm redirects their extended arm across their body while your choking arm maintains threat to the neck. Releasing the harness to grab with both hands creates escape opportunities.
-
-**Q6**: How do you prevent opponent's arm from escaping once you initiate the capture?
-**A**: Create redundant control points by both trapping their upper arm between your leg and hip and controlling their wrist with your hand. The leg trap alone is not secure enough during the dynamic mat transition. Wrist control ensures they cannot slip free even if the leg trap loosens momentarily.
-
-**Q7**: Your opponent drops their weight explosively when you begin the arm capture - what is your response?
-**A**: Follow them down and transition to truck position rather than fighting to maintain standing. Their dropping creates momentum you can use to establish leg entanglement. From truck, you can work back to crucifix or pursue alternative attacks like calf slicer entries. The key is not to fight their descent but to use it.
-
-**Q8**: What is the finishing position after completing the mat return in the crucifix transition?
-**A**: After the mat return, you should land with opponent on their side, your legs triangled around their trapped arm and torso, and your arms controlling both of their arms (one trapped by your legs, one controlled over their head). Their neck should be exposed for rear naked choke variations or the armbar should be available on either arm.
-
-**Q9**: Your opponent posts their free hand on the ground to resist the takedown - how do you adjust?
-**A**: A posted hand creates a new opportunity rather than a problem. You can attack the posted arm with a kimura grip since it is extended and bearing weight, making it vulnerable to shoulder lock entries. Alternatively, sweep the posting hand away using your free hand to collapse their base and complete the mat return. Never ignore a posted hand as it also means they have stopped defending their neck.
-
-**Q10**: Why is threatening the choke before the crucifix entry critical to the technique's success?
-**A**: Threatening the rear naked choke forces your opponent into a defensive dilemma. If they do not grip fight, you finish the choke. If they do grip fight, they extend their arms and create the opening for the crucifix entry. Without the initial choke threat, the opponent has no reason to extend their arms and can maintain a tight defensive shell that denies the crucifix opportunity entirely. The choke threat is the catalyst that makes the entire transition possible.
-
-**Q11**: What is the correct direction of force when driving the trapped arm across opponent's centerline?
-**A**: The force should be directed diagonally across and slightly downward, pushing opponent's elbow across their midline toward the opposite hip. This diagonal angle prevents them from simply pulling the arm straight back and uses the mechanical disadvantage of their shoulder joint at that angle. Your control arm pushes from underneath while your chest pressure from behind prevents them from rotating to follow the arm.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crucifix Transition?</p>
 
 The crucifix transition involves taking an opponent to the ground from standing, which carries inherent impact risks. Practice the mat return on appropriate surfaces with mats thick enough to absorb the fall. The partner being taken down should understand how to safely receive the takedown by not posting with extended arms which risks wrist and elbow injuries. During training, communicate clearly about the timing of the takedown so your partner can prepare. The arm trap itself is not dangerous when properly applied, but the crucifix position leads to submissions that can cause injury if applied too quickly. Always allow sufficient time for training partners to tap when applying finishes from the completed crucifix. Avoid this transition on hard surfaces or when fatigued, as the dynamic movement requires precise control.
 

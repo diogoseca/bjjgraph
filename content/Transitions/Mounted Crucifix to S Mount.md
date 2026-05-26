@@ -200,13 +200,13 @@ The Mounted Crucifix to S Mount transition fits within the mount attack hierarch
 
 - [[Positions/Mount/Technical Mount]] - Alternative target position and intermediate checkpoint
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission from S Mount
+- [[Transitions/Mount to Armbar]] - Follow-up submission setup from S Mount
 
 - [[Transitions/Gift Wrap Transition]] - Setup technique providing additional arm security during transition
 
 - [[Transitions/High Mount Transition]] - Alternative transition from mounted crucifix
 
-- [[Transitions/Choke from Crucifix]] - Alternative attack from starting position
+- [[Submissions/Choke from Crucifix]] - Alternative attack from starting position
 
 - [[Transitions/Armbar from Crucifix]] - Alternative attack from starting position
 

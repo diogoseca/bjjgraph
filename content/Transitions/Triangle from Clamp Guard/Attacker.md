@@ -188,6 +188,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle from Clamp Guard?</p>
+
 - The clamp has already done the hardest work — use the existing arm isolation as the foundation rather than trying to re-isolate during the transition
 - Read the extraction direction to time the leg shoot — circular outward extraction opens the triangle window while straight-back pulling favors armbar
 - Commit fully to the leg shoot in one motion — incremental attempts allow the opponent to posture and close the gap between neck and shoulder
@@ -203,6 +205,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle from Clamp Guard?</p>
+
 - Shin-on-bicep clamp firmly established with the bony edge of the tibia pressing across the thickest part of the opponent's bicep, not the forearm
 - At least one hand controlling the opponent's posture through head, collar, or neck grip to prevent them from posturing away during the leg shoot
 - Hips angled at least 20-30 degrees toward the trapped arm side, pre-loading the body for the choking leg to clear the opponent's shoulder
@@ -215,6 +219,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle from Clamp Guard step by step?</p>
 
 1. **Confirm clamp integrity and monitor extraction direction**: Verify that your shin is firmly positioned across the opponent's bicep with structural pressure maintained through hip angle rather than muscular squeeze. Monitor the opponent's arm movement — you are waiting for a circular outward rotation or withdrawal attempt that creates space between their neck and shoulder. Maintain wrist control on the trapped hand and head control with your other hand. Do not rush; the clamp is a sustainable position.
 2. **Recognize the triangle window**: The moment the opponent circles their arm outward, attempts to rotate past the shin, or creates upward space by partially posturing, the gap between their neck and shoulder widens. This is your trigger. The window is typically open for less than one second, so recognition must be instantaneous. The cue is feeling the arm move laterally rather than straight back — lateral movement means triangle, straight back means armbar.
@@ -244,6 +250,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle from Clamp Guard?</p>
+
 - **Opponent postures up explosively and stacks forward before the triangle can be locked** (Effectiveness: High) - Your Response: If the posture is caught early, abort the triangle and return to clamp guard by reclamping the shin on the bicep. If the leg is already over but unlocked, use both hands on the head to fight the posture while locking as fast as possible. If stacked, transition to omoplata by rotating your hips under the driving pressure. → Leads to [[Positions/Clamp Guard]]
 - **Opponent tucks chin and grabs the shooting leg with their free hand to prevent it from crossing the neck** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your leg by peeling their fingers or redirecting their wrist. Simultaneously use your bottom leg to push their trapped arm further across their body, making it harder for them to dedicate their free hand to leg defense. If the grip is too strong, switch to armbar on the trapped arm — their defensive focus on the leg leaves the arm vulnerable. → Leads to [[Positions/Clamp Guard]]
 - **Opponent drives forward aggressively to flatten the guard player and close all space for the triangle entry** (Effectiveness: Medium) - Your Response: Frame on their shoulder with your free hand to redirect the forward drive laterally. Use the forward momentum against them by attempting a hip bump sweep — their weight is committed forward past their center of gravity with only one arm available for base. If they flatten you completely, transition to closed guard and reset for a new guard cycle. → Leads to [[Positions/Open Guard]]
@@ -255,6 +263,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle from Clamp Guard?</p>
 
 ### 1. Shooting the choking leg before the opponent creates sufficient space between their neck and shoulder through extraction movement
 
@@ -294,6 +304,8 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle from Clamp Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Leg shoot path and triangle locking from static clamp
 Partner holds static clamp guard position. Practice shooting the choking leg over the shoulder, locking the triangle, and adjusting angle. No resistance from partner — focus purely on the biomechanical path of the leg, foot placement behind the knee, and the hip escape for angle. 20 repetitions per side.
 
@@ -311,48 +323,12 @@ Start in clamp guard and spar live from the position with full resistance. Attac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins pulling their trapped arm straight back rather than circling outward — how does this change your attack selection from clamp guard?
-**A**: A straight-back pull extends the arm along its length, which deepens the armbar angle rather than opening the triangle window. The triangle requires lateral space between the neck and shoulder, which circular extraction creates but straight-back pulling does not. When you feel the straight-back pull, redirect your attack to the armbar from clamp guard by extending your hips into the arm while controlling the wrist. The straight-back extraction actually makes the armbar higher-percentage because the opponent is voluntarily straightening the arm you need extended.
-
-**Q2**: What is the critical hip angle adjustment needed immediately after shooting the choking leg over the opponent's shoulder?
-**A**: You must hip escape to angle your body approximately 30-45 degrees off the opponent's centerline, with the choking leg's knee directed toward the trapped arm's shoulder. This perpendicular angle aligns the compression vectors so that the choking leg presses one carotid artery while the trapped arm presses the other. Without this angle, the squeeze creates pressure on the front of the throat rather than the arteries, which is uncomfortable but not a blood choke and can be endured indefinitely.
-
-**Q3**: You have shot your leg over the shoulder but the opponent immediately postures up before you can lock the triangle — what is your response?
-**A**: Immediately grab the back of the opponent's head with both hands and pull it down into your chest while curling your leg tighter across their neck. If you can reach the lock, even loosely, close it and then work the angle and tightness afterward — a locked triangle with bad angle is recoverable, but an unlocked triangle against posture is not. If the head pull fails and they achieve full posture, retract your leg and re-establish the clamp rather than fighting a losing battle for a triangle against extended posture.
-
-**Q4**: What grip should your non-shooting hand maintain during the leg shoot phase of the transition?
-**A**: The non-shooting hand must maintain wrist or C-clamp control on the trapped arm throughout the entire leg shoot. This grip serves three purposes: it prevents the opponent from retracting the arm to the safe side during the transition, it guides the arm across the neck for choking amplification after the lock, and it provides a tactile reference for the opponent's arm position so you know the arm is correctly inside the triangle without looking. Releasing this grip to grab the head prematurely is one of the most common errors in this technique.
-
-**Q5**: Your opponent turns their shoulder inward to reduce the choking pressure after you lock the triangle — how do you adapt your attack?
-**A**: The inward shoulder turn creates an excellent omoplata entry because the opponent has voluntarily rotated the shoulder joint toward the overhook position. Pivot your hips to swing your leg over their turned shoulder and transition to omoplata control. Alternatively, the turned shoulder exposes the back of the arm for an armbar by extending your hips while maintaining the triangle lock. The key insight is that the shoulder turn solves the choke but opens two other submissions — let the opponent's defense select your next attack.
-
-**Q6**: Why is the triangle from clamp guard considered higher-percentage than triangle entries from standard closed guard?
-**A**: In closed guard, the triangle requires three steps: breaking posture, isolating one arm, and then shooting the leg over the shoulder. In clamp guard, the arm is already isolated with the shin-on-bicep control, and the leg is already near the shoulder. This eliminates the two most difficult and failure-prone steps, reducing the entry to a single leg shoot when the window opens. The clamp also prevents the opponent from symmetrically defending with both arms since one arm is already trapped and unable to contribute to the posture battle.
-
-**Q7**: You have locked the triangle but your angle is shallow and the choke is not tight despite squeezing — what adjustment corrects this?
-**A**: Perform a hip escape by pushing off the opponent's hip with your free foot and scooting your hips laterally until the choking leg's knee points directly at the trapped shoulder. Simultaneously pull the opponent's head deeper into the triangle by gripping the back of their skull. If the angle is still insufficient, walk your shoulders backward on the mat to create additional angular offset. Test the tightness by squeezing your knees together — if you feel arterial pulse in your opponent's neck against your inner thigh, the angle is correct.
-
-**Q8**: How does clamp depth — bicep level versus forearm level — affect the viability of the triangle entry?
-**A**: A bicep-level clamp positions your shin approximately 4-6 inches from the opponent's shoulder, meaning the choking leg only needs to travel a short distance to clear the shoulder and cross the neck. A forearm-level clamp places the shin 10-14 inches from the shoulder, requiring a much larger and slower leg movement that is easily scouted and defended. Additionally, the bicep-level clamp provides superior arm control during the transition because the elbow joint is immobilized, preventing the opponent from bending their arm to create extraction angles. Always re-establish bicep depth before attempting the triangle.
-
-**Q9**: Your opponent is stacking you after you lock the triangle — they are driving forward and lifting your hips off the mat. What is your counter?
-**A**: Use the stacking momentum to transition to an omoplata by releasing the triangle lock and swinging your leg over the opponent's shoulder as they drive forward. The forward drive actually assists the omoplata rotation because the opponent's weight shifts over their shoulders, making it difficult for them to posture backward. Alternatively, if you can maintain the triangle lock, scoot your upper body sideways to prevent being stacked directly over your spine — a lateral angle under the stack preserves the choke while making the stack less effective at relieving pressure.
-
-**Q10**: What are the two primary grip controls needed during the leg shoot phase and what happens if either is lost?
-**A**: The two critical grips are wrist control on the trapped arm and head or posture control with the other hand. If wrist control is lost during the leg shoot, the opponent can retract their arm to the outside of the triangle, converting your triangle attempt into a loose head-and-arm position with no choking threat. If head control is lost, the opponent can posture up before the lock closes, creating enough vertical space to begin their escape sequence. Losing both grips simultaneously is catastrophic — it typically results in the opponent standing completely out of the guard and resetting to neutral.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle from Clamp Guard?</p>
 
 The triangle choke compresses the carotid arteries and can cause unconsciousness within seconds when fully locked with correct angle. Always practice the leg shoot and locking mechanics with controlled pressure during drilling. Release immediately when your training partner taps — verbal, physical, or any signal of distress. Monitor your partner for signs of reduced blood flow including facial color changes and decreased responsiveness. During training progressions, apply the choking leg gradually and allow your partner time to work their defensive technique before increasing pressure. Never hold a locked triangle with full pressure on a partner who has stopped defending.
 

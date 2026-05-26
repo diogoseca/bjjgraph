@@ -146,6 +146,8 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Defend Vaporizer Sweep?</p>
+
 - Top player widens base and sprawls free leg laterally, indicating they have identified the sweep direction and are establishing defensive stability against lateral rolling
 - Top player drives heavy shoulder pressure into your chest while maintaining low hips, signaling direct counter to the whip-up mechanism
 - Top player begins circulating trapped leg or pointing knee toward the mat, indicating active lockdown clearing attempt that will eventually free their leg
@@ -158,6 +160,8 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Defend Vaporizer Sweep?</p>
 
 - Read the top player's defensive response and immediately transition to the attack that exploits their specific positional commitment
 - Maintain lockdown control throughout the defensive exchange as the primary anchor for all offensive options from the Vaporizer
@@ -172,6 +176,8 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Defend Vaporizer Sweep?</p>
 
 ### 1. Transition to Electric Chair by releasing lockdown and controlling far leg when top player widens base to defend sweep
 
@@ -209,6 +215,8 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Defend Vaporizer Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 Chain sweep attempts by reading the top player's defensive commitment direction and attacking the opposite side. When they widen base for Old School defense, transition to Electric Chair. When they drive forward pressure, redirect into rolling back take. Force them to choose which sweep to defend, then execute the complementary attack they cannot simultaneously counter.
@@ -224,6 +232,8 @@ Maintain lockdown integrity and re-establish whip-up pressure from an adjusted a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Defend Vaporizer Sweep?</p>
 
 ### 1. Abandoning the lockdown to chase a sweep that is being successfully defended
 
@@ -253,6 +263,8 @@ Maintain lockdown integrity and re-establish whip-up pressure from an adjusted a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Defend Vaporizer Sweep?</p>
+
 **Phase 1: Attack Recognition** - Reading defensive reactions
 Partner defends Vaporizer sweeps using specific defensive patterns at 50% resistance. Practice identifying which defense is being used and verbally calling out the appropriate counter-attack before executing. Build the recognition-to-response connection that enables rapid transitions between sweep attempts.
 
@@ -269,23 +281,6 @@ Full resistance positional sparring starting from Vaporizer. Bottom player works
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The top player widens their base and lowers their hips to defend your Old School sweep - what attack does this defensive reaction expose?
-**A**: The wide base with lowered hips directly exposes the top player to the Electric Chair submission and sweep. When their knees are spread apart for lateral stability, their far leg becomes accessible for capture. Release the lockdown deliberately, secure their far leg, and drive your hips upward to split their legs. Their wide defensive stance, which protects against the lateral sweep, becomes a liability against the vertical leg split of the Electric Chair.
-
-**Q2**: How should you adjust your attack strategy when you feel the top player beginning to clear your lockdown?
-**A**: When you detect lockdown clearing through leg circulation or knee positioning changes, immediately escalate offensive urgency. Either tighten the lockdown by squeezing your legs together and extending their leg further, or commit to an immediate sweep attempt before the lockdown degrades to the point where it no longer provides leverage. A partially cleared lockdown still provides enough control for one committed sweep attempt, but waiting longer eliminates remaining offensive options entirely.
-
-**Q3**: Why is chaining attacks more effective than committing fully to a single sweep from the Vaporizer?
-**A**: A committed single sweep can be identified and defended with focused attention. By chaining attacks, you force the top player to defend in multiple directions, and each defensive commitment opens the complementary attack. Defending the Old School sweep requires widening base laterally, which opens the Electric Chair. Defending the Electric Chair requires squeezing knees together, which enables the lateral Old School sweep. This creates an unsolvable dilemma where defending one threat guarantees vulnerability to another.
-
-
-
-</section>
 
 
 </main>

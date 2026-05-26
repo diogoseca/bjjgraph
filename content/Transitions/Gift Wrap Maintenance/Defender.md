@@ -162,6 +162,8 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap Maintenance?</p>
+
 - Feeling the attacker tighten their wrist grip on your trapped forearm with increased squeeze pressure
 - Attacker's hips driving forward into your lower back with renewed wedge pressure
 - Attacker adjusting hook depth by pulling heels deeper into your inner thighs
@@ -174,6 +176,8 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap Maintenance?</p>
 
 - Patience over panic—forced escape attempts against settled maintenance waste energy and create submission openings
 - Protect the neck with your free arm at all times; arm recovery is secondary to choke defense
@@ -188,6 +192,8 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap Maintenance?</p>
 
 ### 1. Shoulder rotation arm recovery: rotate trapped shoulder forward while shrimping hips in same direction to withdraw arm along threading path
 
@@ -225,6 +231,8 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap Maintenance?</p>
+
 ### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Time shoulder rotation during the attacker's grip adjustment phase. Rotate your trapped shoulder forward while shrimping your hips in the same direction. The key is exploiting the brief moment when the attacker loosens their wrist control to readjust—this window lasts less than a second but provides enough slack to withdraw the arm along its threading path.
@@ -240,6 +248,8 @@ Bridge explosively when the attacker shifts their weight for a hook adjustment o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap Maintenance?</p>
 
 ### 1. Continuously pulling trapped arm against the control with maximum strength between escape windows
 
@@ -269,6 +279,8 @@ Bridge explosively when the attacker shifts their weight for a hook adjustment o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap Maintenance?</p>
+
 **Phase 1: Recognition** - Identifying maintenance adjustment phases and escape windows
 Partner maintains Gift Wrap and cycles through control adjustments at slow speed. Defender focuses on recognizing each adjustment type—grip changes, hook shifts, weight transfers—without attempting escape. Build sensory awareness for the tactile cues that signal reduced control moments.
 
@@ -285,29 +297,6 @@ Partner maintains Gift Wrap and attacks at full resistance. Defender works compl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to attempt arm recovery against Gift Wrap Maintenance?
-**A**: The optimal moment is during the attacker's transition between control phases—specifically when they adjust their wrist grip, shift hooks, or initiate a submission threat. Each of these actions requires the attacker to momentarily reduce pressure on at least one control point, creating a window of reduced resistance. The worst time is when the attacker has just re-established full control after their own adjustment.
-
-**Q2**: What should your free arm prioritize during Gift Wrap Maintenance defense?
-**A**: The free arm must prioritize neck defense above all other tasks. The rear naked choke is the most immediate finishing threat from Gift Wrap, and the trapped arm cannot help defend it. Keep the free hand positioned near your chin and jaw line, ready to grip-fight any choking arm that approaches your neck. Only repurpose the free arm for escape mechanics when you are certain no choke threat is imminent.
-
-**Q3**: Why is hip positioning more important than arm strength for escaping Gift Wrap control?
-**A**: Hip positioning generates the torso angles and rotational mechanics needed for arm recovery, while arm strength alone cannot overcome the mechanical lock of a properly threaded arm trap. Shrimping creates the shoulder rotation angle that allows the trapped arm to withdraw along its entry path. Without hip movement, the arm must fight directly against the threading angle, which requires far more force than the defensive position allows.
-
-**Q4**: Your attacker begins threatening a rear naked choke between maintenance cycles—how does this change your escape strategy?
-**A**: The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance.
-
-**Q5**: How do you prevent energy depletion while defending Gift Wrap Maintenance over extended periods?
-**A**: Keep your trapped arm completely relaxed between escape attempts—constant pulling accomplishes nothing against a locked position and drains energy rapidly. Breathe steadily through your nose to prevent respiratory fatigue. Focus movement energy into short, precise escape attempts during identified windows rather than continuous struggling. Accept that Gift Wrap defense is a patience game where one well-timed attempt succeeds more often than twenty poorly-timed ones.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing S Mount Armbar Setup?</p>
+
 - Maintain unbroken wrist control from S Mount through the entire fall-back into armbar control
 - Keep hips sealed against opponent's shoulder throughout the transition to prevent arm retraction
 - Pinch knees together before committing to the lean-back to secure the arm between your thighs
@@ -209,6 +211,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting S Mount Armbar Setup?</p>
+
 - Established S Mount with perpendicular body position and both legs properly configured as structural posts
 - Secure two-on-one wrist control on the isolated arm with constant inward tension
 - Hip-to-shoulder pressure maintained with zero gap between your hip bone and opponent's shoulder joint
@@ -221,6 +225,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute S Mount Armbar Setup step by step?</p>
 
 1. **Confirm arm isolation and wrist control**: Verify that the trapped arm is securely between your legs with both hands maintaining firm wrist control. The arm should be extended or semi-extended across your body with your hip bone pressing directly into the opponent's shoulder joint to prevent retraction.
 2. **Pin the free arm with knee pressure**: Drive your near knee into the opponent's free arm or chest, limiting their ability to reach across and grip the trapped arm for defense. This removes their primary tool for preventing the armbar setup and simplifies the transition.
@@ -251,6 +257,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter S Mount Armbar Setup?</p>
+
 - **Opponent bends trapped arm and grips own collar or lapel to prevent extension** (Effectiveness: High) - Your Response: Break the grip by prying fingers from collar one at a time, or wedge your forearm under their wrist to lever the grip open. If grip is unbreakable, transition to mounted triangle by threading your leg under their chin. → Leads to [[Positions/Mount/S Mount]]
 - **Opponent bridges explosively and hip escapes during the fall-back transition window** (Effectiveness: Medium) - Your Response: Follow their hip movement while maintaining wrist control and complete the armbar from the adjusted angle. If they create too much space, abandon the attempt and recover mount position immediately. → Leads to [[Positions/Half Guard]]
 - **Opponent turns into you and attempts to come to knees during the transition** (Effectiveness: Medium) - Your Response: Use your leg over their head to block the turn, driving your shin across their face to prevent rotation. If they successfully turn, transition to back take as their turning movement exposes the back. → Leads to [[Positions/Mount/S Mount]]
@@ -262,6 +270,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing S Mount Armbar Setup?</p>
 
 ### 1. Falling back before establishing secure two-on-one wrist control on the trapped arm
 
@@ -301,6 +311,8 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train S Mount Armbar Setup (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Fall-back movement pattern and body coordination
 Practice the fall-back motion from S Mount on a grappling dummy, focusing on maintaining hip contact, proper leg positioning, and the controlled lean-back sequence. Build muscle memory for the transition without a resisting partner.
 
@@ -321,42 +333,12 @@ Start in S Mount with full resistance from both players. Attacker works to compl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to maintain throughout the S Mount Armbar Setup transition?
-**A**: Two-on-one wrist control on the trapped arm is the non-negotiable grip maintained from S Mount through armbar control. Losing wrist control at any point during the transition allows the opponent to retract their arm and escape. Both hands should grip the wrist or forearm with thumbs on the inside, maintaining constant inward tension throughout the fall-back.
-
-**Q2**: Your opponent grips their own collar with the trapped hand as you begin the fall-back - how do you respond?
-**A**: Address the collar grip before continuing the transition. Use both hands to pry their fingers off the collar one at a time, or wedge your forearm under their wrist to lever the grip open. If the grip is too strong to break, switch to a mounted triangle by threading your leg under their chin, as the bent arm creates the necessary opening for the triangle configuration.
-
-**Q3**: Why must you pinch your knees together before leaning back into armbar control?
-**A**: Pinching knees creates a secondary control mechanism trapping the arm between your thighs independently of hand grips. During the fall-back, your body changes angle and hands may need to readjust. Without the knee pinch, the arm can slip out laterally through this adjustment window. The compression also makes arm retraction mechanically more difficult for the defender.
-
-**Q4**: What should you do if the opponent bridges and creates significant space during your transition?
-**A**: Immediately assess whether you can complete the armbar from the adjusted position. If wrist control is intact and the arm remains between your legs, follow their movement and finish from the new angle. If space is too great and control is compromised, abandon the armbar attempt and recover mount position before the opponent can fully escape. Remaining in a compromised half-committed position is the worst option.
-
-**Q5**: How do you prevent the opponent's free arm from interfering with the armbar setup?
-**A**: Before committing to the fall-back, use your near knee to pin the opponent's free arm against their body or the mat. Apply downward pressure through your shin across their chest to limit arm mobility. If their free hand reaches despite knee pressure, use your near hand momentarily to deflect it before re-gripping the wrist. Neutralizing the free arm eliminates the opponent's primary defensive tool.
-
-**Q6**: What is the optimal body positioning during the fall-back transition from S Mount to armbar control?
-**A**: Your hips should maintain constant contact with the opponent's shoulder throughout, serving as a pivot point. Lead the lean-back with your hips rather than shoulders, allowing weight to transfer gradually. Your legs tighten during descent: the leg over the head drops snug against the face while the leg across the torso maintains chest control. The transition should feel like a controlled descent with the arm locked between your legs.
-
-**Q7**: When is the optimal timing window to initiate the S Mount Armbar Setup?
-**A**: The optimal window is when the opponent's defensive resources are depleted: after a failed escape attempt, during a pause to rest, or when they commit their free hand to pushing your base rather than defending the arm. Initiate when all control points are confirmed: wrist control secure, hip sealed against shoulder, knees pinched, and free arm neutralized. Never initiate during an active bridge or explosive escape attempt.
-
-**Q8**: What distinguishes a successful S Mount Armbar Setup from one that fails?
-**A**: Successful setups maintain continuous pressure throughout the transition with no gaps in control. The arm stays trapped at every phase, hips never separate from the shoulder, and wrist control is never released. Failed setups typically have a moment where one control element is abandoned before the next is established, creating a window for arm retraction or escape. The setup should feel like tightening a system, not jumping between positions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for S Mount Armbar Setup?</p>
 
 The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion.
 

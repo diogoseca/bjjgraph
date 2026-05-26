@@ -188,6 +188,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Matrix to Back Control?</p>
+
 - Read the Matrix entry early through hip elevation and shoulder posting indicators to gain maximum reaction time
 - Follow the rotation rather than resist it, using the opponent's momentum to deliver you to their back
 - Maintain chest-to-back proximity throughout the entire rotational movement to prevent space creation
@@ -202,6 +204,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Matrix to Back Control?</p>
+
 - Top position relative to opponent with at least one connection point maintained through grip, hip contact, or chest pressure
 - Early recognition of Matrix entry indicators including hip elevation, shoulder posting, and grip establishment by the bottom player
 - Sufficient reaction time to shift from defensive base to rotational follow-through before the opponent's roll gains full momentum
@@ -214,6 +218,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Matrix to Back Control step by step?</p>
 
 1. **Recognize Matrix Entry**: Identify the Matrix entry indicators: opponent elevates hips above shoulder level, posts one shoulder on the mat, shifts weight for rotation, and establishes grips on your belt or pants. These micro-movements provide the critical recognition window before the rotation begins.
 2. **Decide to Follow Rotation**: Make the split-second tactical decision to follow the rotation rather than sprawl or widen base. This decision must occur before the opponent's roll gains full momentum. Shift your weight forward and toward the direction of their rotation to prepare for the follow-through movement.
@@ -243,6 +249,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Matrix to Back Control?</p>
+
 - **Bottom player aborts Matrix mid-rotation and returns to turtle** (Effectiveness: High) - Your Response: If they abort early, immediately switch to conventional turtle attacks such as seatbelt establishment, hook insertion from standard turtle top, or front headlock transitions. Their aborted rotation often leaves them in a compromised turtle with reduced base. → Leads to [[Positions/Matrix]]
 - **Bottom player accelerates rotation to complete Matrix before you can follow** (Effectiveness: Medium) - Your Response: Match their acceleration by driving forward explosively and prioritizing chest contact over hook insertion. Even if they complete the roll first, arriving at their back within one second still allows hook establishment before they can face you. → Leads to [[Positions/Back Control]]
 - **Bottom player redirects rotation into guard recovery rather than completing back take** (Effectiveness: Medium) - Your Response: When they shift from back take to guard recovery, immediately switch from following the rotation to passing. Their guard recovery from a failed Matrix typically leaves them in half guard with compromised frames. Transition to your passing game. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Matrix to Back Control?</p>
 
 ### 1. Hesitating between sprawling and following the rotation
 
@@ -293,6 +303,8 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Matrix to Back Control (Attacker)?</p>
+
 **Phase 1: Pattern Recognition** - Identifying Matrix entry indicators
 Partner alternates between normal turtle movement and Matrix entry setups. Top player identifies and verbally calls out Matrix indicators (hip elevation, shoulder posting, grip establishment) without attempting the follow-through. Build recognition speed to under one second response time.
 
@@ -313,42 +325,12 @@ After successful follow-through to back control, immediately transition to submi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that your opponent is setting up a Matrix rotation from bottom?
-**A**: The earliest indicators are hip elevation above normal turtle level, shoulder posting where one shoulder drives into the mat as a pivot point, and grip changes as they establish connection points on your belt, pants, or legs. Weight shifting to one side signals the rotation direction. Recognizing these micro-movements provides the critical one-to-two second window needed to decide between sprawl defense and follow-through counter.
-
-**Q2**: Why is following the rotation more effective than resisting it when the Matrix entry is fully committed?
-**A**: Once the Matrix rotation has sufficient momentum, resisting directly often fails because the rotational force is designed to overcome static resistance. Following the rotation uses the opponent's own momentum to deliver you to their back, converting their offensive energy into your positional advantage. Resistance keeps you in front of them, while following places you behind them. The opponent's commitment to the roll means their back is necessarily exposed during the inversion phase.
-
-**Q3**: At what point during the opponent's Matrix rotation must you begin inserting your first hook?
-**A**: Begin threading the first hook as soon as the opponent's hips pass their centerline and their back becomes exposed during the inversion phase. This occurs while they are still mid-rotation and inverted, before they complete the roll and can establish defensive structure. Waiting until after the rotation completes gives them time to tuck elbows, block hook entry, and begin turning to face you, dramatically reducing success rate.
-
-**Q4**: Your opponent starts a Matrix roll but you hesitate between sprawling and following - what is the consequence?
-**A**: Hesitation is the worst possible outcome because you end up with neither a strong defensive base nor a committed follow-through. Your weight is uncommitted and your position is transitional, making you vulnerable to the Matrix completing successfully, to being off-balanced if the opponent aborts and attacks, or to ending up in an awkward scramble where neither player has positional advantage. The decision must be immediate and fully committed.
-
-**Q5**: How do you maintain chest-to-back contact during a fast Matrix rotation without being pulled over the opponent?
-**A**: Lead with your hips rather than your head and shoulders during the follow. Your center of gravity stays controlled through core engagement while your chest drives forward into their back. Keep your arms ready to post if you begin to go over. The key is controlled forward pressure rather than diving or lunging. Your hip connection provides the anchor that prevents you from being pulled over while your chest maintains the contact that prevents separation.
-
-**Q6**: Your opponent aborts their Matrix mid-rotation after sensing your follow - what do you do?
-**A**: Immediately transition to conventional turtle top attacks since their aborted rotation typically leaves them in a compromised turtle position with weakened base and disrupted grips. Options include establishing seatbelt from standard turtle top, transitioning to front headlock if their head is exposed, or attacking with darce or anaconda chokes if their arm positioning allows. Do not continue the follow-through motion if the rotation has stopped, as you will arrive at empty space.
-
-**Q7**: What grip or connection point is most important to maintain throughout the follow-through?
-**A**: Hip-to-hip contact or a belt grip is the most critical connection point because it keeps you physically attached to the opponent's rotational path. Without this connection, your follow-through happens independently of their position, meaning you arrive behind them without actual contact or control. The hip connection ensures that as they rotate, your body follows the same arc and arrives directly against their back rather than offset to one side.
-
-**Q8**: If the follow-through succeeds but you only get one hook in, what should you prioritize next?
-**A**: Prioritize establishing the seatbelt grip before inserting the second hook. Upper body control through the seatbelt prevents the opponent from turning to face you and provides structural stability that makes the second hook insertion much easier. With seatbelt control and one hook, you have sufficient control to methodically work the second hook in. Attempting the second hook without upper body control often results in the opponent turning into you and escaping to guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Matrix to Back Control?</p>
 
 This transition involves dynamic rotational movement where both practitioners are in motion simultaneously. Maintain awareness of surrounding mat space to avoid collisions with other training partners. When following the rotation, control your forward momentum to prevent driving your opponent's face or neck into the mat. During training, reduce speed until both partners are comfortable with the timing and movement pattern. Avoid cranking the neck or applying excessive downward pressure during the follow-through phase. Communicate with your training partner about intensity level before drilling.
 

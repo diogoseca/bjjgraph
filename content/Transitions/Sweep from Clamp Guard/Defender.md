@@ -162,6 +162,8 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Clamp Guard?</p>
+
 - Bottom player shifts hips underneath your center of gravity and angles their body to load the sweep direction
 - Bottom player's grip pattern changes from submission-oriented wrist control to posture-pulling grips on your collar, head, or far shoulder
 - You feel increased upward hip pressure from the bottom player driving into your torso, indicating they are loading a hip bump or scissor motion
@@ -173,6 +175,8 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Clamp Guard?</p>
 
 - Keep your free arm available for basing at all times — never commit it to extraction or offense when sweep threat is active
 - Maintain low hips with a wide stance to create maximum base stability against directional off-balancing attempts
@@ -187,6 +191,8 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Clamp Guard?</p>
 
 ### 1. Post free arm wide on the mat in the anticipated sweep direction
 
@@ -224,6 +230,8 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Clamp Guard?</p>
+
 ### → [[Positions/Clamp Guard]]
 
 Maintain base by posting the free arm wide or keeping hips low with wide stance, absorbing the sweep force without being rolled. This keeps you in top position but still trapped in clamp guard, requiring continued extraction work.
@@ -239,6 +247,8 @@ Counter the sweep attempt by sprawling through the opponent's momentum, extracti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Clamp Guard?</p>
 
 ### 1. Driving weight forward into the clamp while trying to pressure pass or flatten the guard player
 
@@ -268,6 +278,8 @@ Counter the sweep attempt by sprawling through the opponent's momentum, extracti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Clamp Guard?</p>
+
 **Phase 1: Recognition** - Identifying sweep setups from clamp guard
 Partner establishes clamp guard and cycles through sweep setups without completing them. Practice recognizing the pre-sweep cues: hip shifts underneath, grip changes to posture control, free leg repositioning. Call out each cue verbally as you recognize it. Build pattern recognition before adding defensive responses.
 
@@ -281,29 +293,6 @@ Partner executes sweeps at 60-80% resistance. Practice not only defending the sw
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when trapped in clamp guard and facing sweep threats?
-**A**: The single most important priority is maintaining the free arm's availability for posting and basing. With one arm trapped, the free arm is your only structural defense against directional sweeps. Committing it to extraction, offense, or any non-basing function when the opponent is threatening sweeps leaves you with zero posting ability and guarantees being swept. All other defensive concerns — extraction, passing, submission defense — are secondary to ensuring the free arm can post in the sweep direction at any moment.
-
-**Q2**: Your opponent threatens an armbar from clamp guard and you instinctively widen your base to defend — what sweep vulnerability does this create?
-**A**: Widening your base to defend the armbar shifts your weight laterally and extends your trapped arm further from your torso, which increases the opponent's clamp leverage. More critically, the wide base creates a lower center of gravity that is harder to lift but easier to redirect laterally — the exact vector that the scissor sweep variation attacks. The opponent can read your wide defensive posture and switch from armbar to sweep, using the wider stance against you. The solution is to tighten the elbow rather than widening the base, defending the armbar through arm position rather than base adjustment that opens sweep vulnerability.
-
-**Q3**: How do you differentiate between the opponent setting up a submission versus loading a sweep from clamp guard?
-**A**: Submission setups from clamp guard typically involve the opponent pulling your trapped wrist toward their hip, adjusting their leg angle to isolate the elbow joint, and shifting their hips away from you to create extension leverage. Sweep setups involve the opposite movement pattern — the opponent shifts their hips underneath your center of gravity, changes their grips from wrist control to posture-pulling grips on your head or collar, and repositions their free leg from neutral clamping to an active sweeping position. The key tell is hip direction: hips moving away signal submissions, hips driving underneath signal sweeps. Reading this distinction allows you to choose the correct defensive response.
-
-**Q4**: When is the safest moment to attempt extracting your trapped arm from the clamp without opening yourself to the sweep?
-**A**: The safest extraction window occurs immediately after the opponent has committed to and failed a sweep or submission attempt, when they are resetting their hips and regripping. During this transitional moment, their offensive structure is temporarily disorganized and they cannot immediately launch a new sweep. Begin extraction by rotating your elbow toward the mat while pulling your arm along the line of your body, keeping your free arm posted for base throughout. If the opponent begins reloading a sweep during extraction, immediately abandon extraction and return to defensive base. Never extract against an opponent who has settled grips and loaded hips.
-
-**Q5**: Your opponent loads the sweep and you feel your weight tipping past the balance point — what is your best recovery option?
-**A**: Once past the balance point, resisting the sweep is counterproductive and wastes energy that could be redirected toward recovery. Instead, accept the sweep momentum but use it to your advantage by immediately posting on the far side as you roll, establishing a frame before the opponent can settle mount. As you are being rolled, extract your trapped arm during the dynamic movement when the clamp naturally loosens from the rotational force. If you can free the arm during the roll, insert a knee immediately to establish half guard rather than allowing full mount. The roll itself often creates enough space and movement to break the clamp — prioritize arm recovery and guard insertion over fighting the sweep momentum.
-
-
-
-</section>
 
 
 </main>

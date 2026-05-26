@@ -34,7 +34,7 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles
@@ -102,7 +102,7 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (12% of attempts)
+- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (12% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (17% of attempts)
 
@@ -110,7 +110,7 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (12% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (11% of attempts)
+- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (11% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 

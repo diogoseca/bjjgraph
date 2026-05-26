@@ -32,7 +32,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Deep underhook control is the primary mechanism for sweeps and back takes
@@ -106,7 +106,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Submissions/Electric Chair Submission/Attacker|Electric Chair Submission]]** (6% of attempts)
+- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (6% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
 
@@ -159,7 +159,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Key Principles
 
 
-- Weight Distribution Management: Maintain balanced weight to prevent both waiter and old school sweeps
+- Center of Gravity Management: Maintain balanced weight to prevent both waiter and old school sweeps
 
 - Trapped Leg Extraction Priority: Systematically work to free your trapped leg as it's the key to escaping
 
@@ -169,7 +169,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - Base Widening: Use free leg to establish wide base that makes you difficult to off-balance
 
-- Grip Fighting: Prevent opponent from establishing sweep grips on belt or pants
+- Grips: Prevent opponent from establishing sweep grips on belt or pants
 
 - Patience Under Pressure: Recognize this is dangerous position requiring methodical escape
 

@@ -162,6 +162,8 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Tomoe Nage?</p>
+
 - Opponent establishes deep collar grip and sleeve grip simultaneously with obvious pulling tension forward
 - Opponent steps their lead foot between your feet or very close to your centerline, shortening distance for the drop
 - Sudden downward and backward motion of opponent's body as they begin sitting, with their hips dropping below yours
@@ -174,6 +176,8 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Tomoe Nage?</p>
 
 - Maintain hip position behind your feet to prevent your weight from being pulled forward over your toes
 - Fight grips aggressively to deny the collar and sleeve combination that powers the throw
@@ -189,6 +193,8 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Tomoe Nage?</p>
 
 ### 1. Sprawl hips backward and widen base as opponent drops, denying foot placement on your hip
 
@@ -226,6 +232,8 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Tomoe Nage?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the throw through early recognition and hip withdrawal. Strip the dominant collar grip before the attacker can commit to the drop. Sprawl hips backward when you sense the sacrifice beginning, keeping your weight behind your feet. Once the throw fails, maintain standing position and immediately pressure the downed opponent or disengage to reset grips on your terms.
@@ -241,6 +249,8 @@ If you cannot prevent the throw entirely, redirect the arc by circling to one si
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Tomoe Nage?</p>
 
 ### 1. Leaning forward with weight over your toes when feeling the grip pull, which loads your weight onto their foot
 
@@ -275,6 +285,8 @@ If you cannot prevent the throw entirely, redirect the arc by circling to one si
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Tomoe Nage?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying Tomoe Nage setup cues during standing grip exchanges
 Partner alternates between normal grip fighting, guard pulls, and Tomoe Nage setups. You call out which technique you think is coming before they execute. Focus on reading the forward pulling tension, foot placement changes, and weight commitment cues. No physical defense yet, pure pattern recognition development.
 
@@ -291,29 +303,6 @@ Positional sparring starting from standing where partner is specifically hunting
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up Tomoe Nage, and how does this differ from a standard guard pull?
-**A**: The earliest cue is the combination of a deep collar grip with strong forward pulling tension plus the opponent stepping their lead foot close to your centerline. This differs from a guard pull where the opponent typically shifts their weight backward and sits down without the forward pulling or foot placement setup. In Tomoe Nage, you feel a distinct forward load through the grips because they need your momentum to power the throw. A guard puller releases tension as they sit, while a Tomoe Nage attacker increases tension. Recognizing this difference gives you the critical one-second window to react.
-
-**Q2**: Why is sprawling hips backward more effective than posting your hands forward when defending Tomoe Nage?
-**A**: Sprawling hips backward removes your center of mass from over the attacker's foot, denying the fulcrum they need to complete the throw. Your weight moves away from their lever rather than adding to it. Posting hands forward, by contrast, keeps your center of mass in the same position while committing your arms, which are your primary grip-fighting tools. Forward hand posts also create a rigid structure that the attacker can pull through their grips. Hip withdrawal addresses the root cause of the throw's mechanics while hand posting only adds temporary resistance that a well-timed extension can overcome.
-
-**Q3**: Your opponent has already dropped and placed their foot on your hip but has not yet extended their leg - what defensive option offers the best outcome?
-**A**: In this narrow window, drive forward and down with your chest while widening your base and pinning their hips to the mat with your body weight. Their foot is placed but their leg is still bent, meaning they lack the extension force to complete the throw. Your forward pressure flattens them and prevents the extension. Simultaneously, fight to clear their foot off your hip by shifting your hips laterally. If successful, you end up in top position inside their guard. This is the last effective counter before the throw loads fully. You must commit to this option immediately without hesitation, as the extension window is very brief.
-
-**Q4**: How should your weight distribution change when you sense your opponent is hunting for Tomoe Nage during a standing grip exchange?
-**A**: Shift your weight distribution from the standard 50/50 balanced stance to approximately 60% on your rear foot and 40% on your front foot, sitting your hips slightly behind your shoulders. Lower your center of gravity by bending your knees more deeply. This back-weighted stance denies the forward momentum Tomoe Nage requires while maintaining enough mobility to initiate your own attacks. Keep your hips behind your feet at all times. If they pull you, let your arms absorb the tension with bent elbows rather than letting the pull transfer to your hips. This postural adjustment makes the throw significantly less effective while still allowing you to engage offensively.
-
-**Q5**: After successfully defending a Tomoe Nage attempt, your opponent is now on their back with feet on your hips - what is the highest-priority action?
-**A**: Immediately control their legs by gripping their pants at the knees or shins, preventing them from establishing active open guard grips or hooks. Do not rush forward into their guard frames. Strip any remaining grips they have on your collar or sleeves using your newly dominant position. Establish your preferred passing grips while they are still recovering from the failed throw. The attacker is momentarily disoriented from the failed sacrifice, and this transition window is your best opportunity to initiate a guard pass before they can establish a structured guard system. Pin one knee to the mat and begin your passing sequence immediately.
-
-
-
-</section>
 
 
 </main>

@@ -10,7 +10,7 @@
     "pressure-passing",
     "top-game"
   ],
-  "from_position": "Z-Lock Half Guard/Top",
+  "from_position": "Z-Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -237,7 +237,7 @@
         "description": "Execute Z-Guard passing sequences after fatigue-inducing exercise to simulate competition conditions. Practice maintaining technical precision when physically tired, developing the mental discipline to follow the systematic approach under stress."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is direct forward pressure ineffective against a well-established Z-Guard knee shield?",
         "answer": "The elevated knee shield positioned against the shoulder creates a mechanical lever that redirects forward force laterally, converting the passer's forward drive into rotational energy that loads the bottom player's sweeping mechanism. The shin angle creates a wedge effect that makes it impossible to compress through direct pressure alone. The correct approach is angular pressure at approximately 45 degrees toward the far hip, which the shield geometry cannot effectively redirect."
@@ -359,7 +359,7 @@
         "correction": "Establish underhook depth, control the passer's far arm, and create proper hip angle before committing to any sweep. Use sweep threats as feints to create grip-fighting opportunities rather than always committing fully."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most important grip for the defender to maintain from Z-Guard and why?",
         "answer": "The underhook on the trapped-leg side is the most critical grip because it serves dual purposes: defensively, it prevents the passer from establishing crossface control which would flatten you; offensively, it enables old school sweeps, back takes, and dogfight transitions. Without the underhook, the defender loses both their primary defensive structure and all high-percentage offensive options simultaneously."

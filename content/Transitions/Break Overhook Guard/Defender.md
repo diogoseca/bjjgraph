@@ -154,6 +154,8 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Break Overhook Guard?</p>
+
 - Top player's free hand reaches across to grip your overhooking wrist or forearm, indicating they are establishing control for a strip attempt
 - Top player begins driving posture upward with exaggerated hip extension, creating increasing tension on the overhook as distance grows between your chest and their shoulder
 - Top player starts rotating their trapped elbow outward in a circular motion rather than pulling straight back, indicating the elbow circle break variant
@@ -166,6 +168,8 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Break Overhook Guard?</p>
 
 - Maintain deep overhook with hand gripping the lat or shoulder blade, never allowing the grip to become shallow around the tricep
 - Keep elbow pinned tight to your hip to maximize mechanical advantage and minimize the gap available for elbow circulation
@@ -180,6 +184,8 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Break Overhook Guard?</p>
 
 ### 1. Deepen overhook and re-break posture by pulling elbow to hip while driving heels into lower back
 
@@ -217,6 +223,8 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Break Overhook Guard?</p>
+
 ### → [[Positions/Overhook Guard]]
 
 Maintain deep overhook throughout the break attempt by keeping your elbow pinned to your hip, hand gripping the lat, and legs actively pulling the top player's hips toward you. When you feel the break attempt beginning, immediately re-break their posture and control their free wrist with your opposite hand to deny them the grip needed for the strip.
@@ -232,6 +240,8 @@ When the top player commits both hands to the grip fight during the break attemp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Break Overhook Guard?</p>
 
 ### 1. Allowing overhook to become shallow with hand gripping only around the tricep instead of deep on the lat
 
@@ -261,6 +271,8 @@ When the top player commits both hands to the grip fight during the break attemp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Break Overhook Guard?</p>
+
 **Grip Retention Drilling** - Overhook depth maintenance under pressure
 Partner attempts to strip your overhook using all three variants while you focus exclusively on maintaining grip depth and tension. No counter-attacks allowed in this phase, just pure retention mechanics. Track how long you can maintain the overhook per round and work to increase the time.
 
@@ -277,26 +289,6 @@ Start from situations where the overhook is partially compromised (shallow grip,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important grip depth indicator that determines whether your overhook is vulnerable to a standard elbow circle break?
-**A**: The critical indicator is where your overhooking hand grips. If your hand is on the opponent's lat or shoulder blade, the overhook is deep enough to resist standard elbow circulation because there is minimal gap between your arm and their torso. If your hand has slipped to the tricep area, the overhook is shallow and the top player can easily find space to circulate their elbow through. Continuously monitoring and re-deepening your grip is essential for maintaining defensible overhook control.
-
-**Q2**: Why is counter-attacking during break attempts more effective than purely defensive grip retention?
-**A**: Counter-attacking exploits the fundamental vulnerability of the break attempt: the top player must commit attention and physical resources to the grip fight, which compromises their base, divides their focus, and creates openings. Purely defensive retention eventually fails because the top player can methodically work through their breaking mechanics without consequence. Counter-attacks create a dilemma where attempting the break carries risk of being swept or submitted, making the top player hesitant and allowing you to maintain the overhook for longer offensive sequences.
-
-**Q3**: You feel the top player beginning to drive their hips forward for a posture-first break - what is your immediate response?
-**A**: Pull your overhook elbow tighter to your hip and drive your heels into their lower back to prevent hip separation. Use your free hand to grab behind their head or collar to create a second anchor point pulling them forward. If they continue generating posture despite these adjustments, transition immediately to a hip bump sweep while their weight is elevated, using their upward momentum against them. The posture-first break requires them to create distance, so keeping them tight with combined arm and leg pressure denies the separation they need.
-
-**Q4**: How should you adjust your leg engagement when defending against overhook break attempts?
-**A**: Increase active leg engagement by squeezing your knees together against their ribs and pulling your heels firmly into their lower back. This creates a closed kinetic chain that complements the overhook by preventing the hip extension the top player needs for posture. Periodically pulse your leg squeeze to break any postural separation they establish. If they manage partial posture, use one leg to hook behind their knee on the overhook side to prevent them from widening their base for the break.
-
-
-
-</section>
 
 
 </main>

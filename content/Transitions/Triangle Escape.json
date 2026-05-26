@@ -35,7 +35,7 @@
       "relationship": "Starting position - the attack being defended"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Scramble to Guard",
       "relationship": "Follow-up transition to re-establish guard after escape"
     },
     {
@@ -43,7 +43,7 @@
       "relationship": "Primary position where triangle threats originate and common escape destination"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Primary submission finish being escaped from triangle control"
     },
     {
@@ -51,11 +51,11 @@
       "relationship": "Alternative escape using similar hip movement principles"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Common counter-submission when defender escapes triangle poorly"
+      "name": "Triangle to Armbar",
+      "relationship": "Common counter-transition opponent uses when defender escapes triangle poorly"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Triangle to Omoplata",
       "relationship": "Alternative attack opponent transitions to when defender circles predictably"
     },
     {
@@ -224,7 +224,7 @@
         "description": "During regular rolling, focus on identifying triangle setups and aborting them before leg lock completion. Practice maintaining proper arm positioning and posture management in guard to prevent triangle opportunities. Develop sensitivity to when your arm is in danger and immediate defensive habits. Work toward never being fully caught in locked triangles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is maintaining posture the single most important factor in triangle escape?",
         "answer": "Posture creates distance between your shoulder and neck, preventing the choking mechanism from compressing the carotid arteries. Without posture, the triangle completes its function regardless of other defensive efforts. Posture also provides the structural foundation needed for all subsequent escape movements including stacking and circling. Losing posture typically results in rapid submission."
@@ -348,7 +348,7 @@
         "correction": "Recognize when the triangle has been compromised beyond recovery and immediately transition to armbar, omoplata, or back take. Set clear mental triggers: if posture is fully recovered and the arm is pinned to the body, the triangle is effectively neutralized and you must attack differently."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first priority when you feel the escaper beginning to drive their head upward to recover posture?",
         "answer": "Your first priority is to immediately increase downward pressure on their head by gripping behind the skull or deep collar and pulling them forward while simultaneously extending your hips upward. This creates opposing forces that counteract their posture recovery. You must address the posture attempt within the first one to two seconds, because once they establish full spinal alignment with a posted arm, breaking them back down becomes exponentially more difficult and energy-intensive."

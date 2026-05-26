@@ -164,6 +164,8 @@ The critical insight for the defender is that the Defensive Roll requires specif
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Defensive Roll?</p>
+
 - Bottom player tucks their chin and brings free hand toward their neck, indicating preparation for the rolling motion
 - Bottom player's free arm plants on the mat in a posting position oriented in the direction they intend to roll
 - Sudden increase in hip tension and core engagement from the bottom player, signaling they are loading energy for an explosive movement
@@ -176,6 +178,8 @@ The critical insight for the defender is that the Defensive Roll requires specif
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Defensive Roll?</p>
 
 - Maintain constant leg entanglement pressure to deny the rolling momentum the bottom player needs
 - Control or neutralize the bottom player's free posting arm to eliminate their roll guidance mechanism
@@ -190,6 +194,8 @@ The critical insight for the defender is that the Defensive Roll requires specif
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Defensive Roll?</p>
 
 ### 1. Tighten leg entanglement and increase rotational pressure immediately upon sensing roll preparation
 
@@ -227,6 +233,8 @@ The critical insight for the defender is that the Defensive Roll requires specif
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Defensive Roll?</p>
+
 ### → [[Positions/Twister Control]]
 
 Prevent the roll entirely by maintaining tight leg entanglement and controlling the posting arm. Recognize preparation cues early and tighten your controls before the bottom player can commit to the rolling motion. Keep constant rotational pressure so they never find the timing window.
@@ -242,6 +250,8 @@ If the roll initiates, ride the momentum by keeping chest-to-back connection thr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Defensive Roll?</p>
 
 ### 1. Allowing the bottom player to plant their posting arm freely without contesting it
 
@@ -271,6 +281,8 @@ If the roll initiates, ride the momentum by keeping chest-to-back connection thr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Defensive Roll?</p>
+
 **Week 1-2** - Recognition and control maintenance
 From established Twister Control, partner telegraphs the Defensive Roll slowly. Practice recognizing the preparation cues - chin tuck, arm posting, hip loading - and responding by tightening leg control and increasing chest pressure. No live escape attempts yet.
 
@@ -287,29 +299,6 @@ Full resistance positional rounds starting from Twister Control. Top player work
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three conditions the bottom player needs for a successful Defensive Roll, and how do you deny each one?
-**A**: The three conditions are: momentary loosening of leg control (deny by maintaining constant tight leg entanglement even during grip transitions), a free posting arm (deny by controlling or pinning their free arm), and committed hip drive in the rolling direction (deny by maintaining heavy chest pressure that compresses their ability to load their hips). Removing any single condition prevents the roll.
-
-**Q2**: You feel the bottom player tuck their chin and begin tensing their core. What should your immediate response be?
-**A**: These are classic preparation signals for the Defensive Roll. Immediately tighten your leg entanglement, drive your chest pressure heavier into their upper back, and look to control their free arm. If possible, accelerate your own attack sequence - either commit to the Twister finish or transition to an alternative submission. The goal is to either finish before they roll or remove the conditions needed for the escape.
-
-**Q3**: The bottom player initiates the roll and you cannot stop it. What is the optimal follow-up strategy?
-**A**: Ride the roll by maintaining chest-to-back connection throughout the rotational movement. As they complete the roll into Turtle, immediately work to insert your hooks and establish a seatbelt harness for conventional back control. Do not release and reset - the brief scramble during the roll is your best window to secure back control before they can establish defensive Turtle frames.
-
-**Q4**: Why is it dangerous to loosen leg control while reaching for the Twister finish grip?
-**A**: Loosening leg control to reach for the finish creates the exact timing window the bottom player is waiting for to initiate the Defensive Roll. The leg entanglement is the foundation of Twister Control - without it, the rotational constraint that makes the position dangerous disappears. Always maintain leg control as the top priority and adjust upper body grips incrementally rather than sacrificing leg pressure for the finish.
-
-**Q5**: How does maintaining chest pressure specifically prevent the Defensive Roll?
-**A**: Chest pressure compresses the bottom player's torso against the mat, eliminating the hip elevation they need to generate rolling momentum. The Defensive Roll requires the bottom player to drive their hips forcefully in the rolling direction, which is only possible if they have space to load and explode. Heavy chest pressure removes this space, keeping them flat and unable to create the directional force needed for the escape.
-
-
-
-</section>
 
 
 </main>

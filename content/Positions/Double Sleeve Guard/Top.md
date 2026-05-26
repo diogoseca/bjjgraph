@@ -165,6 +165,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Sleeve Guard (Top)?</p>
+
 - Top player maintains upright posture with hips elevated above opponent's guard, preventing lower body from being pulled into bottom player's offensive range while maintaining balance through posted hands or controlled grips
 - Bottom player controls both of top player's sleeves at wrist or forearm level with bilateral grips, creating a frame that maintains distance and prevents top player from achieving dominant grips or closing distance effectively
 - Bottom player's legs are positioned either with feet on hips, knees bent with shins across, or in dynamic movement patterns to prevent top player from achieving knee cut, leg drag, or other passing entries while maintaining the sleeve control framework
@@ -175,6 +177,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Double Sleeve Guard (Top)?</p>
 
 - Opponent has established both sleeve grips while maintaining guard position
 - Top player has achieved standing or combat base posture above the guard
@@ -188,6 +192,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Double Sleeve Guard?</p>
 
 - Maintain strong upright posture with chest forward and hips back to prevent being pulled forward into submissions or sweeps
 - Systematically break grips using proper grip breaking mechanics rather than relying purely on strength
@@ -203,6 +209,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Sleeve Guard (Top)?</p>
 
 **If opponent maintains strong double sleeve grips with feet on hips creating maximum distance:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -232,6 +240,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Double Sleeve Guard?</p>
 
 ### 1. Allowing posture to break forward while opponent maintains strong sleeve grips
 
@@ -271,6 +281,8 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Double Sleeve Guard attacks?</p>
+
 ### Progressive Grip Breaking Drill
 
 Partner maintains double sleeve grips with varying intensity (30%, 50%, 70%, 100%) while you practice different grip breaking techniques including wrist rotation breaks, elbow posting breaks, and hip movement breaks. Focus on mechanics over strength.
@@ -292,7 +304,7 @@ Positional sparring starting from double sleeve guard top where top player must 
 **Duration**: 5 minutes per position, switch roles, 6 rounds total
 
 
-### Grip Fighting to Knee Slice Drill
+### Grips to Knee Slice Drill
 
 Start with opponent holding double sleeve grips. Practice breaking one grip, establishing your own control on their pants or belt, then immediately entering knee slice position. Partner provides progressive resistance. Focus on smooth transitions from grip break to passing entry.
 
@@ -303,38 +315,6 @@ Start with opponent holding double sleeve grips. Practice breaking one grip, est
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has strong double sleeve grips and you feel yourself being pulled forward - what immediate adjustment should you make?
-**A**: Immediately widen your base by stepping your feet wider apart, sit your hips back while keeping your chest up, and engage your core to resist the forward pull. Rather than fighting the grips with your arms, use your entire body structure to maintain posture. Think about driving your hips away from your opponent while keeping your shoulders over your knees to maintain balance.
-
-**Q2**: What are the essential grip breaking mechanics for defeating double sleeve control?
-**A**: Effective grip breaking uses leverage and hip rotation rather than arm strength. The primary techniques include: rotating your wrist toward opponent's thumb (weakest part of grip), posting your elbow on their hip to create a fulcrum for breaking, stepping laterally while rotating your arm to create angular force, and two-on-one breaks where you grip your own sleeve and pull while stepping. Hip movement multiplies breaking power significantly.
-
-**Q3**: How should you distribute your weight when attempting to pass against double sleeve guard?
-**A**: Keep your weight centered between both feet with hips back and chest slightly forward. Avoid leaning too far forward as this makes you vulnerable to forward-pulling sweeps. Your weight should be dynamic, ready to shift based on their reactions. When initiating a pass, commit your weight decisively in one direction rather than staying neutral, but only after breaking at least one grip or creating a favorable angle.
-
-**Q4**: Your opponent begins to insert their feet on your biceps as you attempt to break grips - how do you respond?
-**A**: Address the feet immediately before they establish bicep control, as this strengthens their position significantly. Options include: swimming your elbows inside their feet to knock them down, stepping back quickly to remove the contact point and reset, or committing to a quick toreando pass before they can settle the bicep hooks. Never allow them to establish both bicep hooks with sleeve grips simultaneously.
-
-**Q5**: What common posture error leads to triangles and omoplatas from double sleeve guard?
-**A**: Allowing your shoulders to dip below hip level while your head is pulled forward creates the primary submission window. When you lean forward with bent posture, your head enters the triangle zone and your shoulders become vulnerable to omoplata rotations. Additionally, reaching forward with one arm while the other stays back creates the arm isolation needed for these submissions. Maintain symmetrical posture with both shoulders at the same height.
-
-**Q6**: How do you maintain forward passing pressure after successfully breaking one sleeve grip?
-**A**: Immediately establish your own grip on their leg, belt, or collar with your freed hand - don't leave it empty. Step toward the freed side to create an angle that diminishes their remaining grip's effectiveness. Your new grip should be controlling their leg on the passing side, preventing them from re-establishing their guard structure. Continue moving forward without pausing, as any hesitation allows them to re-grip.
-
-**Q7**: Your opponent is cycling their legs dynamically between your arms - what passing strategy should you employ?
-**A**: Dynamic leg movement indicates they're defending reactively rather than attacking. Time your grip break and pass initiation to coincide with their leg movement, attacking when legs are in transition between positions. The knee slice pass is particularly effective here because you can enter during the movement window. Alternatively, control both legs simultaneously with a toreando grip to freeze their movement before passing.
-
-**Q8**: What energy management strategy allows sustained pressure against a skilled double sleeve guard player?
-**A**: Avoid extended grip fighting battles where both players are pulling constantly. Instead, use cycles of pressure and release: apply grip breaking pressure for 3-5 seconds, then maintain position without fighting if unsuccessful, then try a different angle. Stay mobile with your feet while keeping your arms relaxed between attempts. Chain grip breaks with passing attempts so energy expenditure directly contributes to position advancement rather than isolated grip battles.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

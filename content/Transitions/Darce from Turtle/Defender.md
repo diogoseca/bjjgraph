@@ -164,6 +164,8 @@ The defender must understand that the Darce works by trapping their own far-side
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce from Turtle?</p>
+
 - Opponent's arm begins threading under your armpit and across the front of your neck while maintaining heavy chest pressure on your back
 - You feel opponent's bicep pressing against one side of your neck while their forearm slides across the other side toward your far shoulder
 - Opponent shifts their weight to one side and begins walking their hips around your body while maintaining head and neck control
@@ -176,6 +178,8 @@ The defender must understand that the Darce works by trapping their own far-side
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce from Turtle?</p>
 
 - Recognize the Darce threat early by monitoring opponent's arm position relative to your neck - prevention is far easier than escape
 - Tuck chin immediately and press it to your chest to block the choking arm from sliding deeper across your throat
@@ -190,6 +194,8 @@ The defender must understand that the Darce works by trapping their own far-side
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce from Turtle?</p>
 
 ### 1. Sit through to guard before grip locks
 
@@ -227,6 +233,8 @@ The defender must understand that the Darce works by trapping their own far-side
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce from Turtle?</p>
+
 ### → [[Positions/Turtle]]
 
 Extract your trapped far-side arm using your free hand to grab your own wrist and pull it clear of opponent's encircling arm, then immediately tighten your turtle defense with elbows to knees and chin tucked, which returns the position to basic turtle top versus bottom without submission threat
@@ -242,6 +250,8 @@ Execute a sit-through or granby roll before opponent locks their grip, using the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce from Turtle?</p>
 
 ### 1. Pulling away from the choke by extending the neck or trying to create distance
 
@@ -276,6 +286,8 @@ Execute a sit-through or granby roll before opponent locks their grip, using the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce from Turtle?</p>
+
 **Week 1-2: Recognition and Early Defense** - Identifying Darce setups and executing preventive responses
 Partner slowly works the Darce entry from turtle top at 25% speed while you practice recognizing each stage of the setup. Focus on chin tuck timing, elbow tightness, and learning to feel when the arm begins threading. Partner pauses at each stage so you can identify the threat level. Practice the sit-through escape and arm extraction individually as isolated movements before combining them.
 
@@ -292,29 +304,6 @@ Incorporate Darce defense into positional sparring starting from turtle bottom. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Darce attempt is beginning from turtle, and what should you do immediately?
-**A**: The earliest cue is feeling opponent's arm begin to swim under your armpit while their chest pressure increases on your back. The immediate response is to tuck your chin hard to your chest, clamp your elbows tight to your knees to prevent deeper penetration, and begin pulling your far-side arm toward your centerline to prevent it from being trapped. Early recognition and response dramatically increases escape probability because the threading has not yet achieved the depth needed for an effective choke.
-
-**Q2**: Why should you move toward the Darce choke rather than pulling away from it?
-**A**: Moving toward the choke (turning your body into the opponent) reduces the angle of compression on your carotid arteries because it closes the space that the figure-four configuration needs to create bilateral pressure. Pulling away stretches your neck into the choke and actually improves opponent's choking angle by creating more space for their arm to compress. Turning in also creates the possibility of establishing inside position where you face your opponent, which eliminates the Darce angle entirely and creates scramble opportunities.
-
-**Q3**: Your opponent has locked the Darce grip and is walking their hips to adjust their finishing angle - what escape do you prioritize?
-**A**: When the grip is already locked, your best option is to move with their hip walk in the same direction while working to extract your trapped arm. Use your free hand to grip your own wrist and pull the trapped arm toward your centerline. As they walk around, the movement can create momentary looseness in the grip that aids extraction. If extraction fails, attempt a granby roll in the direction of their hip movement to create a scramble before they settle into finishing position. Time is critical - every second they adjust brings you closer to submission.
-
-**Q4**: How should you manage breathing when caught in a partially locked Darce control?
-**A**: Breathe slowly and deliberately through your nose in controlled cycles to conserve oxygen and maintain mental composure. Avoid mouth breathing which accelerates panic and oxygen depletion. Take controlled inhales during moments when the compression slightly lessens, such as when opponent adjusts position. Never hold your breath as this depletes oxygen faster and triggers a panic response. Calm breathing allows you to think clearly and execute systematic escape sequences rather than explosive movements that waste energy and may tighten the choke.
-
-**Q5**: What is the primary defensive objective against the Darce from turtle and why?
-**A**: The primary defensive objective is extracting your trapped far-side arm from the choke configuration. The Darce choke requires your arm trapped against your neck to create compression on one carotid artery while opponent's forearm compresses the other. Without the trapped arm, the choke mechanics fail entirely - it becomes a loose headlock with no bilateral compression. Once the arm is free, opponent is left with a simple front headlock that you can defend through standard turtle escapes, sit-throughs, or guard recovery movements.
-
-
-
-</section>
 
 
 </main>

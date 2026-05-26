@@ -162,6 +162,8 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from DLR?</p>
+
 - Passer begins actively stripping your ankle or pants grip with their free hand while maintaining upright posture and base
 - Passer pushes their hooked knee forward and away from your hooking foot, attempting to clear the DLR hook through direct force or angular movement
 - Passer's weight shifts forward and downward as they begin dropping their lead knee toward the mat across your thigh line
@@ -174,6 +176,8 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from DLR?</p>
 
 - Maintain DLR hook tension and ankle grip as the primary defensive barrier—these two connections must be preserved together to keep the guard structure intact and threatening
 - Use your non-hooking leg actively to frame on the passer's hip or bicep, preventing them from closing distance and establishing the crossface that powers the knee slice
@@ -188,6 +192,8 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from DLR?</p>
 
 ### 1. Re-establish DLR hook before the knee touches the mat by immediately re-hooking when the passer clears your foot
 
@@ -225,6 +231,8 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from DLR?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Re-establish your DLR hook and ankle grip during the passer's grip-fighting phase, before they can initiate the knee slice. Use your non-hooking foot on their hip to create distance and prevent them from establishing the crossface needed to drive the knee through. Actively threaten sweeps during the grip fight to force the passer to abandon their passing sequence and defend.
@@ -240,6 +248,8 @@ Time your berimbolo or inversion entry to coincide with the passer's forward com
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from DLR?</p>
 
 ### 1. Passively holding DLR hook without threatening sweeps or transitions during the grip fighting phase
 
@@ -274,6 +284,8 @@ Time your berimbolo or inversion entry to coincide with the passer's forward com
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from DLR?</p>
+
 **Phase 1: Recognition** - Identifying knee slice entry cues from DLR
 Partner demonstrates the knee slice entry sequence at slow speed. Practice identifying each phase: grip strip, hook removal, knee drive, crossface establishment. Recognize which phase the passer is in and verbalize your intended defensive response before acting.
 
@@ -290,29 +302,6 @@ Full resistance rounds starting from DLR guard bottom against a partner who is a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that indicates a knee slice attempt from your DLR guard?
-**A**: The earliest indicator is the passer actively stripping your ankle or pants grip while beginning to push their hooked knee forward. This grip-stripping phase signals they are preparing to clear your DLR hook, which is the necessary precursor to any knee slice attempt. React to the grip strip rather than waiting for the knee movement.
-
-**Q2**: Your DLR hook has been cleared and the passer is beginning to drive their knee across - what is your best remaining defensive option?
-**A**: Insert a knee shield by bringing your top knee across their body to block the cutting knee from completing its path. If the knee shield cannot be established in time, hip escape away from the pass direction and work to catch half guard with your legs. Fighting to re-establish the DLR hook at this stage is too late and wastes critical defensive time that should be used for damage control.
-
-**Q3**: Which grip is most important to maintain when defending against the knee slice from DLR?
-**A**: The ankle or pants grip on the passer's lead leg is the most critical grip to maintain because it powers the DLR hook's structural integrity and off-balancing leverage. Without this grip, the DLR hook becomes easy to clear and the entire guard framework collapses. Fight aggressively to maintain this grip and re-grip immediately if it is broken.
-
-**Q4**: The passer has stripped your ankle grip but has not yet cleared your DLR hook - what should you do?
-**A**: Immediately escalate your offensive pressure by attempting a sweep or inversion entry before the passer can complete the hook removal phase. The ankle grip loss means your guard structure is weakened but still partially functional. Use the remaining hook leverage to threaten a berimbolo, basic DLR sweep, or transition to X-Guard before the passer can establish the knee line.
-
-**Q5**: How does your defensive strategy change if the passer uses a backstep approach to clear your DLR hook instead of a direct strip?
-**A**: Against a backstep, the passer creates space behind your hooking leg rather than pushing through it directly. Follow their movement with your hips by turning toward the backstep direction and immediately work to insert your legs into a butterfly guard or reverse De La Riva configuration. The backstep creates a momentary disconnect you can exploit by establishing a different guard framework rather than chasing the original DLR hook.
-
-
-
-</section>
 
 
 </main>

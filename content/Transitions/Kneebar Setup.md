@@ -28,7 +28,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -210,7 +210,7 @@ The Kneebar Setup represents a critical branch in the leg lock system tree from 
 
 - [[Submissions/Inside Heel Hook]] - Chain attack when opponent defends kneebar by rotating
 
-- [[Transitions/Calf Slicer]] - Alternative when opponent bends knee to defend
+- [[Submissions/Calf Slicer]] - Alternative when opponent bends knee to defend
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative advancement from outside ashi
 

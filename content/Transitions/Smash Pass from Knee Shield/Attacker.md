@@ -188,6 +188,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash Pass from Knee Shield?</p>
+
 - Drive the knee shield across the opponent's body at an angle rather than pushing it straight down—angled pressure exploits the shield's structural weakness
 - Establish crossface control before attempting to collapse the shield to prevent the bottom player from turning into you or creating underhook threats
 - Hip switch decisively once the shield begins to collapse—half-committed hip switches allow recovery
@@ -202,6 +204,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash Pass from Knee Shield?</p>
+
 - Crossface or shoulder pressure established against opponent's upper chest and jaw line
 - Controlling grip on the knee shield leg at ankle, pants, or behind the knee
 - Base established with knees wide enough to absorb sweep attempts during the pass
@@ -214,6 +218,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash Pass from Knee Shield step by step?</p>
 
 1. **Establish controlling grips**: Secure crossface with your near arm, driving your forearm or bicep across the opponent's jaw and neck to turn their head away from you. With your far hand, grip the knee shield leg at the ankle, pants, or behind the knee. These two control points form the foundation of the entire pass—without them, the subsequent steps will fail.
 2. **Angle your body relative to the shield**: Rotate your torso approximately 45 degrees relative to the knee shield rather than facing it squarely. This angling redirects the force of the shield away from your centerline, immediately reducing its effectiveness as a barrier. Your shoulder should now be driving into their chest at an angle rather than directly into the shin.
@@ -243,6 +249,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash Pass from Knee Shield?</p>
+
 - **Bottom player frames on shoulder and hip escapes to re-establish knee shield distance** (Effectiveness: High) - Your Response: Follow their hip escape with your own forward pressure, maintain crossface throughout, and re-angle to continue the collapse sequence. Do not allow any separation between your shoulder and their chest. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Bottom player threads underhook and comes up to dogfight or sweep position** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your weight down and forward. If the underhook is too deep, switch to a front headlock or crossface cradle to prevent them from completing the elevation to dogfight. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Bottom player dives underneath for deep half guard entry during the collapse** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish a whizzer on the deep half arm. Prevent them from getting underneath your center of gravity by keeping your hips low and heavy. If they establish deep half, transition to deep half passing rather than trying to re-initiate the smash. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash Pass from Knee Shield?</p>
 
 ### 1. Pushing the knee shield straight down instead of driving it across the opponent's body
 
@@ -293,6 +303,8 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Smash Pass from Knee Shield (Attacker)?</p>
+
 **Phase 1: Mechanics** - Shield collapse and hip switch fundamentals
 Practice the grip establishment, angled pressure, and hip switch sequence against a compliant partner. Focus on the feeling of driving the shield across the body rather than down. Drill the hip switch in isolation until it becomes a single fluid motion. No resistance—pure mechanical repetition.
 
@@ -310,42 +322,12 @@ Positional sparring starting from knee shield half guard top. Top player attempt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent frames against your shoulder with both hands as you begin the smash pass—how do you adjust?
-**A**: Do not fight the frames directly by pushing through them. Instead, swim your crossface arm underneath their near frame to re-establish shoulder-to-jaw contact. Use your controlling grip on the shield leg to continue the lateral collapse while your upper body works past their frames. If both frames are strong, adjust your angle further to redirect their pushing force away from your centerline, then re-engage the collapse from the new angle.
-
-**Q2**: What is the critical hip movement that enables the smash pass to clear the knee shield?
-**A**: The hip switch is the critical movement—rotating your hips from facing the opponent to facing their legs as the shield collapses past their centerline. This rotation pins the collapsed shield knee to the mat with your hip weight, converting the shield from a defensive barrier into a trapped position. The hip switch must be decisive and complete; partial hip switches allow the bottom player to spring the shield back into position.
-
-**Q3**: The bottom player gets an underhook as you attempt to collapse the shield—what is your immediate response?
-**A**: Immediately whizzer their underhook arm by threading your arm over theirs and clamping your elbow tight to your body. Drive your weight forward and down to prevent them from elevating to dogfight position. If the whizzer is secure, you can continue the smash sequence while controlling the underhook. If they achieve a deep underhook that you cannot whizzer, switch to a crossface cradle or front headlock position rather than continuing the pass with a compromised position.
-
-**Q4**: What grip on the knee shield leg is most important for controlling the shield during the pass?
-**A**: The ankle or pants grip at the lower shin of the knee shield leg provides the greatest mechanical advantage for redirecting the shield. Controlling the distal end of the lever (ankle) requires less force than controlling the proximal end (knee). In gi, a strong pants grip at the ankle allows you to steer the entire shield. In no-gi, cupping the ankle or hooking behind the Achilles provides similar control. The grip must be maintained throughout the collapse and hip switch until hip weight replaces hand control.
-
-**Q5**: Your opponent hip escapes as you drive the shield across—how do you follow and maintain pressure?
-**A**: Follow their hip escape by walking your knees in the same direction, maintaining your chest connection to their upper body. Do not allow any gap between your shoulder and their chest. Use your crossface to drive their head further away, which limits the effectiveness of their hip escape. If they create significant space, re-angle and re-engage the collapse rather than reaching with your arms. Your forward pressure must track their movement—if they move left, you follow left while continuing the shield collapse.
-
-**Q6**: In what direction should you drive the knee shield to collapse it most effectively?
-**A**: Drive the knee shield laterally across the opponent's body toward the far side, not straight down toward the mat. Angled force exploits the structural weakness of the shield—the shin is strongest when resisting perpendicular force but weak against lateral redirection. The ideal driving angle is approximately 45 degrees across and down, which both flattens the bottom player and moves the shield out of your passing path simultaneously.
-
-**Q7**: The defender transitions to deep half guard as you attempt the smash—what is your best response?
-**A**: If they successfully dive to deep half, abandon the smash sequence and transition to deep half passing. Establish a whizzer on their underhook arm, sprawl your hips back to prevent them from getting fully underneath you, and begin working the deep half passing sequence (either backstep, hip switch, or limp leg extraction). Trying to force the smash pass after they have established deep half is counterproductive and wastes energy against a position designed to absorb pressure.
-
-**Q8**: What conditions must exist before you can successfully attempt the smash pass from knee shield?
-**A**: Four conditions are essential: crossface or shoulder pressure controlling the opponent's upper body must be established first; a controlling grip on the knee shield leg at the ankle or pants must be secured; your base must be wide and stable enough to absorb sweep attempts during the pass; and the bottom player's underhook arm must be controlled or blocked. Attempting the smash without all four conditions dramatically reduces success rate and exposes you to sweeps and guard recoveries.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash Pass from Knee Shield?</p>
 
 The smash pass applies significant compressive pressure to the opponent's ribcage, spine, and jaw through shoulder driving and body weight. Apply pressure progressively rather than explosively to prevent rib injuries and intercostal strains. Be mindful of your training partner's breathing—if they signal distress or tap from pressure alone, release immediately. During the hip switch phase, be careful not to torque the opponent's trapped leg at an unnatural angle, as this can stress the knee and ankle joints. In training, communicate with your partner about pressure intensity and build gradually to full pressure over multiple repetitions.
 

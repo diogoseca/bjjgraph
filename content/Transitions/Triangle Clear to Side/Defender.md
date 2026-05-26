@@ -166,6 +166,8 @@ Successful defense requires understanding when to prioritize re-locking the tria
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle Clear to Side?</p>
+
 - Opponent begins turning their torso toward the side where your triangle leg crosses, reducing the squeeze angle and positioning their body for lateral escape rather than staying flat
 - Opponent's hand moves from throat defense down toward your locked ankle behind your knee, indicating they are transitioning from passive survival to active clearing
 - Opponent executes a directional bridge angled toward the triangle side rather than straight up, creating space specifically targeted at loosening the figure-four configuration
@@ -178,6 +180,8 @@ Successful defense requires understanding when to prioritize re-locking the tria
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Clear to Side?</p>
 
 - Maintain chest-to-back connection throughout their escape attempts to limit the space they can generate with bridging and to preserve your upper body control for submission threats
 - Monitor your ankle position behind your knee constantly, pulling it deeper and tightening the figure-four the moment you feel any loosening from their clearing attempts
@@ -192,6 +196,8 @@ Successful defense requires understanding when to prioritize re-locking the tria
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle Clear to Side?</p>
 
 ### 1. Re-lock the triangle by pulling your ankle deeper behind your knee the moment you feel any loosening, using your free hand to assist repositioning the foot if necessary
 
@@ -229,6 +235,8 @@ Successful defense requires understanding when to prioritize re-locking the tria
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle Clear to Side?</p>
+
 ### → [[Positions/Back Control/Body Triangle]]
 
 Re-lock the triangle immediately when you feel loosening by pulling your ankle deeper behind your knee and tightening the figure-four. Use your free hand to assist foot repositioning if needed. Increase squeeze pressure after re-locking to punish the failed escape attempt and accelerate their fatigue. Combine with aggressive upper body control to reduce future clearing opportunities.
@@ -244,6 +252,8 @@ If the body triangle is irreversibly compromised, transition proactively to stan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Clear to Side?</p>
 
 ### 1. Focusing exclusively on re-locking the triangle while neglecting upper body submission threats when opponent exposes their neck during clearing attempts
 
@@ -273,6 +283,8 @@ If the body triangle is irreversibly compromised, transition proactively to stan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle Clear to Side?</p>
+
 **Week 1-2** - Triangle re-locking mechanics and recognition
 Partner attempts slow, telegraphed clearing sequences while you practice recognizing the escape initiation cues and re-locking the triangle by pulling the ankle deeper behind your knee. Focus on maintaining chest-to-back connection while adjusting the lock. No submission attempts yet, purely positional retention against cooperative clearing efforts.
 
@@ -289,29 +301,6 @@ Partner uses full resistance clearing attempts in live rolling scenarios. Practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent redirects their hand from neck defense to attack your triangle ankle - what is your immediate priority?
-**A**: Your immediate priority is a dual response: attack their now-exposed neck with your choking arm while simultaneously tightening your triangle by pulling the ankle deeper behind your knee with leg strength. The exposed throat is a higher-value target than simply re-locking the triangle. If you can force them to abandon the clearing and return their hand to neck defense, you have reset their escape while advancing your choke position. The clearing attempt itself is the opening you should exploit offensively.
-
-**Q2**: How should you modulate your body triangle squeeze pressure during their escape sequence?
-**A**: Maintain moderate baseline squeeze that conserves your leg energy while keeping the opponent uncomfortable and breathing-restricted. Reserve maximum squeeze pressure for two specific moments: when they bridge to create space for the clearing hand, and when you feel the ankle beginning to shift out of the locked position. Pulsing pressure at these critical moments is far more effective than constant maximum effort, which fatigues your legs and actually makes the triangle looser over time as your muscles tire.
-
-**Q3**: Your opponent has wedged their elbow between your legs and their torso after a partial clear - how do you prevent them from completing the escape?
-**A**: The elbow wedge is a critical frame that prevents re-locking. Your best response is to shift your hip angle to stay behind them while increasing upper body pressure through your seatbelt grip to limit their ability to rotate further. Simultaneously, use your top leg to press down on their elbow frame, collapsing the space they created. If the frame is too established to collapse, transition to hooks immediately to maintain back control rather than fighting a losing battle to re-establish the full triangle around their now-framed torso.
-
-**Q4**: What adjustment should you make when your opponent bridges at a 45-degree angle toward the triangle side?
-**A**: The directional bridge is the most dangerous moment for your triangle because it creates space precisely where they need it. Counter by driving your hips forward and downward into the bridge, using your body weight to collapse the space they are trying to create. Simultaneously increase your squeeze pressure during the bridge to make the space creation more difficult. Follow their lateral movement by shifting your own hips to maintain the position directly behind them rather than allowing them to rotate past you during the bridge.
-
-**Q5**: When is it strategically correct to abandon the body triangle and transition to hooks rather than fighting to maintain it?
-**A**: Transition to hooks when the triangle is partially cleared and the opponent has an established frame preventing re-locking, particularly when their elbow or forearm is wedged between your legs and their torso. Also transition when continuing to fight for the triangle would require you to sacrifice chest-to-back connection or upper body control. A proactive transition to hooks preserves your back control position, whereas stubbornly fighting for the triangle risks losing both the triangle and the position entirely when they complete the lateral escape.
-
-
-
-</section>
 
 
 </main>

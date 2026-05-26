@@ -162,6 +162,8 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Hook to Side Control?</p>
+
 - Top player's crossface and shoulder pressure suddenly intensifies beyond their normal holding pattern, signaling they are compensating for upcoming lower body movement
 - The hooked leg begins changing pressure direction—from holding to extracting—with a subtle rotational or lateral force shift against your leg clamp
 - Top player's free hand moves decisively to your far hip, establishing the grip that enables the extraction sequence
@@ -174,6 +176,8 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Hook to Side Control?</p>
 
 - Recognize the pass attempt through changes in weight distribution and leg positioning before the extraction gains momentum
 - Maintain active leg clamp tension on the hooked leg to resist extraction and force the top player to commit more energy to clearing
@@ -188,6 +192,8 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Hook to Side Control?</p>
 
 ### 1. Tighten leg clamp and actively resist extraction while fighting for underhook
 
@@ -225,6 +231,8 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Hook to Side Control?</p>
+
 ### → [[Positions/Leg Hook]]
 
 Retain the leg entanglement through active leg clamp and combined underhook fighting during the extraction phase. Force the top player to abandon the pass attempt and return to the Leg Hook position where your offensive options are preserved. The key is acting early when the first recognition cues appear, before the extraction builds momentum.
@@ -240,6 +248,8 @@ Capitalize on the extraction phase instability to execute a sweep reversal. Time
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Hook to Side Control?</p>
 
 ### 1. Remaining passive during the extraction instead of actively fighting the pass with leg clamp, frames, and hip movement
 
@@ -269,6 +279,8 @@ Capitalize on the extraction phase instability to execute a sweep reversal. Time
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Hook to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying extraction cues through tactile feedback
 Partner performs the Leg Hook to Side Control pass at 50% speed while you close your eyes and focus on identifying each recognition cue: pressure intensification, leg movement initiation, hip grip establishment, weight shift. Call out each cue as you feel it. Build pattern recognition before adding defensive responses.
 
@@ -285,29 +297,6 @@ Positional sparring starting from Leg Hook Bottom with the top player attempting
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that the top player is about to attempt the leg extraction?
-**A**: The earliest cue is a sudden intensification of crossface and shoulder pressure beyond the top player's normal holding pattern. This increase signals that they are preloading upper body control to compensate for the lower body control they are about to sacrifice during the extraction. Feeling this pressure spike should trigger immediate defensive preparation—tighten your leg clamp, prepare your frames, and ready your chosen counter-response.
-
-**Q2**: Why is the extraction phase the best moment to attempt a sweep counter?
-**A**: During the extraction, the top player's base is at its narrowest and most vulnerable because their weight is transitioning between two distinct control structures. They have partially released leg hook control but have not yet established side control base, creating a brief positional void where a well-timed sweep or bridge meets minimal resistance. This window does not exist in either the stable leg hook or stable side control positions, making the extraction your highest-percentage opportunity.
-
-**Q3**: Your knee shield insertion attempt is blocked and the top player's leg is clearing - what is your fallback?
-**A**: Immediately transition to survival frames for side control: near-side forearm frame against the top player's neck or shoulder, far-side arm protecting against crossface deepening, inside elbow tight to your body to prevent arm isolation. The goal shifts from preventing the pass to establishing the best possible defensive structure within side control so that escape sequences can begin immediately. A well-framed side control bottom is recoverable; a pinned flat side control bottom is not.
-
-**Q4**: How does maintaining hip angle affect your ability to defend this pass?
-**A**: Staying on your side preserves hip mobility for escapes and sweeps, maintains the mechanical advantage of your leg clamp against extraction, allows your frames to generate pushing force rather than simply absorbing weight, and keeps sweep pathways viable. A flattened defender loses all of these advantages simultaneously because both shoulders contacting the mat eliminates rotational force generation and hip escape mechanics. Hip angle is the single most important structural element for pass defense.
-
-**Q5**: When should you abandon the leg clamp and redirect your defensive energy to other options?
-**A**: Abandon the clamp when the hooked leg has cleared past the midpoint of extraction and continued clamping is burning energy without preventing progress. At this point, redirect energy immediately to the next defensive layer—knee shield insertion, butterfly hook establishment, or hip escape for guard recovery. Holding a failing clamp past the point of effectiveness exhausts your legs and delays establishing the defensive structures needed for the next phase. Early recognition of when the clamp has failed is crucial for preserving defensive resources.
-
-
-
-</section>
 
 
 </main>

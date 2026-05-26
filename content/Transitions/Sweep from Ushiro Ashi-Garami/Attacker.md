@@ -194,6 +194,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Ushiro Ashi-Garami?</p>
+
 - Time the sweep to coincide with opponent's forward weight commitment during heel hook finishing attempts, exploiting their compromised base
 - Control the opponent's far posting hand before initiating the sweep to eliminate their primary base recovery mechanism
 - Generate sweeping force through hip drive and free leg posting rather than upper body pulling, maximizing power from the inverted position
@@ -208,6 +210,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Ushiro Ashi-Garami?</p>
+
 - Opponent has established ushiro ashi-garami from top with their weight distribution shifted forward toward the heel hook finish
 - You have controlled or are positioned to control the opponent's far-side posting hand to prevent base recovery
 - Your trapped heel is protected through dorsiflexion and the opponent's finishing grip has been neutralized or is not yet established
@@ -220,6 +224,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Ushiro Ashi-Garami step by step?</p>
 
 1. **Control opponent's posting hand**: From ushiro ashi-garami bottom, reach across with your near-side hand to grip the opponent's far wrist or sleeve. This is the single most important setup detail—without controlling their posting hand, the opponent will simply post and base out during the sweep attempt, wasting your energy and potentially exposing your heel.
 2. **Strip or redirect heel hook grip**: Using your free hand, strip or redirect the opponent's grip on your heel while maintaining dorsiflexion. You must neutralize the active submission threat before committing to the sweep motion. If you cannot fully break the grip, redirect their hand away from the finishing angle so the grip becomes mechanically weak during rotation.
@@ -250,6 +256,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Ushiro Ashi-Garami?</p>
+
 - **Opponent posts far hand to maintain base during sweep initiation** (Effectiveness: High) - Your Response: If the posting hand was not controlled before initiating, abort the sweep attempt and re-establish grip control. Alternatively, redirect to an inside hook elevation sweep that generates upward force independent of their posting. Never continue forcing a sweep against a posted base. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent sits back and withdraws weight to eliminate forward commitment** (Effectiveness: High) - Your Response: When the opponent sits back, the sweep window closes but escape opportunities improve. Immediately transition to turtle recovery or leg extraction since their withdrawn weight reduces control depth. Use the space created by their retreat to clear your legs entirely. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent transitions to saddle by stepping their outside leg through during the sweep attempt** (Effectiveness: High) - Your Response: Recognize the saddle transition early by monitoring their outside leg movement. If they begin stepping through, immediately abandon the sweep and switch to saddle-specific defense, controlling their inside knee to prevent full saddle establishment. Boot defense and hip positioning become priority over sweeping. → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -261,6 +269,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Ushiro Ashi-Garami?</p>
 
 ### 1. Attempting the sweep without first controlling the opponent's far posting hand
 
@@ -300,6 +310,8 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Ushiro Ashi-Garami (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated sweep motion and hip drive development
 Practice the sweep motion from a static ushiro ashi-garami position with a compliant partner. Focus on the hip drive mechanics, free leg posting position, and rotational angle without resistance. Develop the muscle memory for coordinating arm pull, hip extension, and leg drive simultaneously. Perform 20-30 repetitions per side.
 
@@ -320,42 +332,12 @@ Begin positional sparring rounds starting in ushiro ashi-garami bottom against p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important prerequisite to establish before initiating the sweep from ushiro ashi-garami?
-**A**: Controlling the opponent's far posting hand is the most critical prerequisite. Without this control, the opponent will simply post on the mat when the sweeping force is applied, completely negating the off-balance. This grip must be established before any hip movement begins, as attempting to control the posting hand during the sweep is too late—the opponent will have already detected the sweep intention and reinforced their base.
-
-**Q2**: Your opponent is driving forward aggressively to finish a heel hook—how do you determine if the timing is right for the sweep?
-**A**: The sweep timing is optimal when you can feel the opponent's weight has shifted forward past their base center through the pressure in the entangled legs. Confirm three conditions: their far posting hand is controlled or reachable, their heel hook grip has been neutralized or is mechanically weak, and your free leg has mat contact for posting. If all three conditions are met during their forward commitment, initiate immediately—the window is typically only 1-2 seconds before they either finish or readjust their base.
-
-**Q3**: What foot position must you maintain on your trapped leg throughout the entire sweep rotation and why?
-**A**: Maintain strict dorsiflexion with toes pulled toward the shin throughout the entire sweep. This position protects the heel by pulling it close to the lower leg, preventing the opponent from establishing or tightening a heel hook grip during the rotation. The rotational forces during the sweep can actually amplify heel hook leverage if the foot is relaxed, making dorsiflexion a safety-critical requirement rather than just a technical preference.
-
-**Q4**: Why is hip angle critical before initiating the sweep, and what happens if you sweep from flat hips?
-**A**: The hips must be angled toward the opponent to convert hip extension into rotational sweeping force. When hips are flat, hip extension generates vertical lift rather than rotation—the opponent can redistribute weight to counter a lift but cannot easily counter rotational off-balancing through the entangled legs. The angle creates a lever arm that amplifies force through the figure-four configuration, making the sweep effective even against significantly larger opponents.
-
-**Q5**: You initiate the sweep but feel the opponent stepping their outside leg through during your rotation—what should you do?
-**A**: Immediately abandon the sweep attempt and switch to saddle defense. The opponent stepping their outside leg through indicates a transition to saddle, which is a worse position than ushiro ashi-garami bottom. Control their inside knee with your hands to prevent full saddle establishment, begin boot defense on the trapped foot, and redirect your movement toward turtle recovery rather than continuing a sweep that will land you in deeper entanglement.
-
-**Q6**: What is the primary force generator for the sweep—the arms or the hips?
-**A**: The hips and free leg drive are the primary force generators. The arm controlling the opponent's posting hand serves as a redirect mechanism that prevents base recovery, but the actual off-balancing force comes from explosive hip extension combined with free leg pushing against the mat. Attempting to sweep using primarily arm strength generates insufficient force against the opponent's full body weight and exhausts the practitioner's upper body, which is already compromised from the inverted position.
-
-**Q7**: After completing the sweep and arriving on top, what is your immediate priority before establishing mount grips?
-**A**: Immediately extract the trapped leg from the reversed figure-four entanglement. If you establish mount grips without first clearing the leg entanglement, the opponent retains the ability to counter-sweep or attack with heel hooks from bottom. Use your free hand to peel apart the figure-four while keeping heavy hip pressure on the opponent's torso to prevent them from using the remaining entanglement offensively.
-
-**Q8**: When should you choose the sweep over safer escape options like inversion to turtle or leg extraction to guard?
-**A**: Choose the sweep when the opponent's forward weight commitment is pronounced, their posting hand is controllable, and their heel grip has been neutralized. The sweep is the highest-reward option but also the highest-risk. If the opponent maintains cautious base positioning without overcommitting forward, safer options like turtle recovery or systematic leg extraction provide more reliable escape with less risk of ending up in saddle. Use the sweep as a weapon against aggressive finishers, not as a default escape against patient leg lock players.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Ushiro Ashi-Garami?</p>
 
 The Sweep from Ushiro Ashi-Garami involves rapid rotational forces through the knee and ankle joints of both practitioners during the sweeping motion. Always strip or neutralize the opponent's heel hook grip before initiating the sweep—rotational forces during the sweep can amplify existing heel hook leverage and cause serious knee ligament damage. Maintain dorsiflexion throughout the entire rotation to protect the heel. Both practitioners should agree on tap protocols before drilling, as the transition from bottom to top can cause unexpected torque on entangled joints. Begin training at slow, controlled speeds and increase intensity only after both partners are comfortable with the rotational mechanics. If either partner feels any torsional stress in the knee during rotation, stop immediately and reset.
 

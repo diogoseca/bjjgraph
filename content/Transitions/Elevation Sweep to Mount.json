@@ -59,12 +59,12 @@
       "relationship": "Recovery position when opponent sprawls"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission from achieved position"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission setup from achieved position"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up submission from achieved position"
+      "name": "Americana",
+      "relationship": "Follow-up submission from achieved mount position"
     },
     {
       "name": "Back Take from Top",
@@ -198,7 +198,7 @@
         "description": "Positional sparring starting from Reverse X-Guard Bottom. Full resistance with goal of completing sweep or transitioning to advantageous position. Integrate with full guard system including entries from De La Riva and butterfly positions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Elevation Sweep to Mount?",
         "answer": "The primary goal is to use the hook configuration of Reverse X-Guard to lift the opponent's base entirely off the ground, toppling them backward while you follow to land directly in mount position. This bypasses intermediate positions and achieves maximum positional advancement in a single movement."
@@ -336,7 +336,7 @@
         "correction": "Actively address hooks through forward pressure to collapse them, stepping over or around to clear them, or backstep passing to disengage from the entanglement entirely."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that an Elevation Sweep is being set up?",
         "answer": "The earliest cue is the opponent sliding their hips underneath your center of gravity while angling their body diagonally away from you. This hip loading precedes any pulling or elevation and represents the setup phase where defensive intervention is most effective. You will also feel their hooks adjusting to create a bilateral platform rather than maintaining a guard retention position."

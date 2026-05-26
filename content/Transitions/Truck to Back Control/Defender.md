@@ -72,7 +72,7 @@ description: "Defend against the Truck to Back Control transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases boot pressure and begins threading a hook inside your thigh—what is your immediate response?",
+      "name": "Your opponent releases boot pressure and begins threading a hook inside your thigh - what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble."
@@ -162,6 +162,8 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Truck to Back Control?</p>
+
 - Opponent's chest pressure begins sliding from your side toward directly behind your back, indicating the perpendicular-to-parallel alignment shift
 - Boot pressure on your hip decreases or changes angle as the opponent prepares to reposition their legs from entanglement to hooks
 - You feel the opponent's legs loosening from the truck entanglement configuration, with their foot disengaging from your hip
@@ -174,6 +176,8 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck to Back Control?</p>
 
 - Recognize the transition initiation early through changes in chest pressure direction, boot pressure reduction, and alignment shift from perpendicular to parallel
 - Exploit the vulnerability window between leg entanglement release and hook establishment, which is the narrowest control gap in the transition
@@ -188,6 +192,8 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Truck to Back Control?</p>
 
 ### 1. Frame against opponent's chest with both hands and bridge to prevent alignment shift from perpendicular to parallel
 
@@ -225,6 +231,8 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Truck to Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the vulnerability window during the leg switch by executing a well-timed hip escape or granby roll before hooks are established. The key is acting during the brief moment when the opponent has released truck entanglement but has not yet secured back control hooks, creating enough distance to insert your knee and recover half guard.
@@ -240,6 +248,8 @@ Prevent the transition entirely by framing against the opponent's chest during t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck to Back Control?</p>
 
 ### 1. Failing to recognize the transition initiation and reacting only after hooks are already inserted
 
@@ -269,6 +279,8 @@ Prevent the transition entirely by framing against the opponent's chest during t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Truck to Back Control?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues at slow speed
 Partner slowly executes the truck to back control transition at 25% speed while you focus exclusively on recognizing the early indicators: boot pressure changes, alignment shifts, and leg entanglement loosening. Call out each cue verbally as you feel it. No escape attempts in this phase, just building sensory awareness of transition precursors.
 
@@ -285,29 +297,6 @@ Start in truck bottom with partner at full resistance. Partner may attempt back 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent is initiating the transition from truck to back control?
-**A**: The primary indicators are a reduction or change in boot pressure on your hip, the opponent's chest sliding from a perpendicular angle toward directly behind your back, their leg entanglement beginning to loosen, and their arm control tightening into a more defined seatbelt configuration. These cues typically appear in sequence as the opponent shifts their alignment from truck to back control positioning.
-
-**Q2**: What is the critical timing window for your best escape opportunity during this transition?
-**A**: The critical window is the brief moment when the opponent has released their truck leg entanglement but has not yet established both back control hooks. During this phase, the opponent's lower body control is at its weakest point in the entire sequence, as they have neither the truck boot pressure nor the back control hooks providing hip restraint. This window typically lasts only one to two seconds, making immediate action essential.
-
-**Q3**: Your opponent releases boot pressure and begins threading a hook inside your thigh—what is your immediate response?
-**A**: Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble.
-
-**Q4**: Why is preventing the alignment shift from perpendicular to parallel behind your back the most important early defensive action?
-**A**: The perpendicular-to-parallel alignment shift is the prerequisite for hook insertion. From a perpendicular angle, the opponent cannot effectively thread hooks between your thighs because the geometry is wrong. By framing against their chest and preventing this shift, you force them to remain in truck position where their hook insertion pathways are blocked. This early defense is more energy-efficient than fighting individual hooks after the alignment shift has already occurred.
-
-**Q5**: What body positioning minimizes your vulnerability during the transition phase?
-**A**: Maintain an active defensive posture with hips slightly elevated rather than flat on the mat, chin tucked with one hand defending your neck, the other hand available for framing or hook defense. Keep your legs active and ready to straighten or kick to prevent hook insertion. Stay on your side rather than allowing the opponent to flatten you onto your stomach, as the side position provides better hip mobility for escape movements during the control gap.
-
-
-
-</section>
 
 
 </main>

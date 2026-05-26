@@ -162,6 +162,8 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Meathook?</p>
+
 - Top player tucks their chin firmly against their chest and turns their head away from your hooking leg, indicating preparation for forward drive
 - Top player posts their free arm wide on the mat at an angle, establishing the driving base needed for stacking pressure
 - Top player's weight shifts forward with shoulder pressing into your hip crease rather than attempting to posture upward or extract arm laterally
@@ -174,6 +176,8 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Meathook?</p>
 
 - The stack pass drives the opponent forward, which feeds directly into your gogoplata and triangle setups if you maintain proper shin positioning
 - Hip mobility preservation is essential because the stack only works when your hips are compressed and immobilized over your shoulders
@@ -188,6 +192,8 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Meathook?</p>
 
 ### 1. Redirect shin to opponent's throat as they drive forward for gogoplata entry
 
@@ -225,6 +231,8 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Meathook?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Read the stack initiation early through chin tuck and base widening cues. As they drive forward, adjust your shin hook from tricep position to throat position by rotating your hip slightly and extending the hooking leg. Their forward momentum carries their throat directly into your shin, establishing gogoplata control. Works best when their chin tuck is imperfect or when they lead with head rather than shoulder.
@@ -240,6 +248,8 @@ When the stack compresses your hips, hip escape laterally to prevent direct comp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Meathook?</p>
 
 ### 1. Remaining passive and allowing the stack to compress hips without counter-movement or framing
 
@@ -269,6 +279,8 @@ When the stack compresses your hips, hip escape laterally to prevent direct comp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Meathook?</p>
+
 **Phase 1: Recognition and framing** - Identifying stack initiation cues and immediate framing response
 Partner telegraphs stack pass with clear cues while you practice reading the initiation and immediately framing against their driving shoulder. No counter-attacks yet, just recognition speed and frame placement. Reset after frame is established.
 
@@ -285,29 +297,6 @@ Partner freely chooses between stack pass, arm extraction, posture recovery, or 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does the stack pass actually create opportunities for the bottom Meathook player rather than purely threatening their position?
-**A**: The stack pass drives the top player forward, which is the exact direction that feeds into gogoplata, triangle, and omoplata setups from Meathook. Their forward momentum carries them deeper into submission range while their commitment to the stack limits their ability to retreat or change direction. A properly countered stack attempt is more dangerous for the passer than maintaining neutral Meathook.
-
-**Q2**: What are the earliest recognition cues that your opponent is about to attempt a stack pass from your Meathook?
-**A**: The top player tucks their chin firmly and turns their head away from the hooking leg, posts their free arm wide at approximately 45 degrees for driving base, and shifts weight forward with shoulder pressing into your hip. Their trapped arm stops individual extraction attempts and tucks tight. Recognizing these cues early gives you time to pre-position for counter-attacks before their momentum builds.
-
-**Q3**: Your opponent has begun stacking you with good chin protection preventing gogoplata. What alternative defensive response should you employ?
-**A**: Hip escape laterally before full compression immobilizes your hips. Lateral movement prevents the direct compression angle needed for arm extraction and creates angles for triangle or omoplata transitions. Maintain hook control during the lateral escape if possible, but prioritize hip mobility over hook retention. The angle change opens new submission pathways that bypass their chin protection.
-
-**Q4**: How should you adjust your shin hook positioning when you recognize a stack attempt versus a standard arm extraction attempt?
-**A**: During a stack attempt, consider transitioning the shin from tricep isolation position toward the throat for gogoplata entry, rotating your hip slightly and extending the hooking leg to intercept their forward drive. During standard arm extraction, maintain the tricep position for maximum isolation leverage. The attack angle changes based on the opponent's escape direction: forward drive feeds gogoplata, lateral pull maintains arm isolation.
-
-**Q5**: What role does your non-hooking leg play in defending against the stack pass?
-**A**: The non-hooking leg must actively control the opponent's hip or wrap their back to prevent them from walking laterally during the stack. If they can walk their hips to the side while stacking, they create the passing angle that bypasses your guard. Keeping the non-hooking leg active as a secondary anchor prevents lateral drift and maintains the guard structure that supports your counter-attack options.
-
-
-
-</section>
 
 
 </main>

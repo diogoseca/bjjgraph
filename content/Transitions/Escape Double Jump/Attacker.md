@@ -188,6 +188,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Double Jump?</p>
+
 - Recognize early when the double jump entry has stalled—waiting too long to retreat increases the risk of being flattened or passed
 - Extract the inside leg first while maintaining outside leg contact to preserve some form of leg entanglement throughout the retreat
 - Establish forearm frames on the opponent's shoulder and hip before committing to leg extraction to create protective space
@@ -202,6 +204,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Double Jump?</p>
+
 - Double jump entry has been attempted but failed to achieve deep half guard position
 - Bottom player retains some form of leg contact with opponent's near leg
 - Upper body is not completely flattened—some ability to create forearm frames remains
@@ -214,6 +218,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Double Jump step by step?</p>
 
 1. **Recognize the stalled entry**: Identify that the double jump entry has been defended by feeling the opponent's sprawl, base widening, or upper body control establishment. The key indicators are inability to advance your hips further underneath, increasing chest pressure from the top player, and their hands establishing grips on your upper body. If the entry has not progressed within 2-3 seconds, commit to the escape immediately.
 2. **Establish arm frames**: Before withdrawing any leg, create defensive frames by placing your outside forearm against the opponent's shoulder and your inside hand on their hip or bicep. These frames prevent the opponent from collapsing their weight onto your chest during the leg extraction phase. The frames must be established first because once leg extraction begins, you need structural protection against the opponent's forward drive.
@@ -244,6 +250,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Double Jump?</p>
+
 - **Opponent drives heavy crossface pressure during leg extraction to flatten you** (Effectiveness: High) - Your Response: Prioritize forearm frame on their shoulder before starting extraction. If crossface lands, use the pressure to hip escape to the opposite side and accelerate knee shield insertion to create structural barrier against the drive. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent backsteps or steps over during the transition window to complete a pass** (Effectiveness: Medium) - Your Response: Maintain leg contact throughout extraction. If they begin stepping, immediately clamp both legs on their nearest leg and pull knees to chest to prevent clearance. Use their stepping motion to accelerate your guard recovery. → Leads to [[Positions/Side Control]]
 - **Opponent sprawls weight forward to pin you flat during extraction phase** (Effectiveness: High) - Your Response: Use the knee shield insertion as your primary defense against the sprawl. The shin across their body prevents their hips from driving through even against strong forward pressure. Combine with hip escape to maintain side angle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -255,6 +263,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Double Jump?</p>
 
 ### 1. Attempting to extract both legs simultaneously
 
@@ -294,6 +304,8 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Double Jump (Attacker)?</p>
+
 **Foundation** - Solo leg extraction mechanics
 Practice the sequential leg withdrawal motion without a partner. Focus on the curling retraction of the inside leg followed by knee shield insertion and outside leg reconfiguration. Build the motor pattern of maintaining side angle throughout the movement sequence.
 
@@ -314,42 +326,12 @@ After executing escape to half guard, immediately work offensive sequences inclu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important thing to establish before beginning leg extraction from a failed double jump?
-**A**: Forearm frames on the opponent's shoulder and hip must be established before starting any leg extraction. Without these frames, the opponent will collapse their weight onto your chest during the extraction phase, flattening you and converting the retreat into a worse position than the failed entry. The frames create the space buffer that makes sequential leg extraction possible.
-
-**Q2**: Why is it critical to extract the inside leg before the outside leg?
-**A**: The inside leg is deepest underneath the opponent's base and most vulnerable to being trapped. Extracting it first while maintaining outside leg contact preserves some form of entanglement throughout the transition. If the outside leg is extracted first, you lose your last point of defensive contact and the opponent can freely advance to side control during the gap in control.
-
-**Q3**: Your double jump entry stalls and the opponent begins driving heavy crossface pressure—what do you do?
-**A**: Immediately prioritize your forearm frame against their shoulder to manage the crossface pressure. Use the pressure as a cue to begin the escape rather than fighting to complete the entry. The crossface indicates the opponent has defended successfully, and continuing the entry against established crossface will only result in being flattened. Begin sequential leg extraction while the frame holds their weight at distance.
-
-**Q4**: How do you determine whether to continue the double jump entry or begin the escape?
-**A**: If the entry has not progressed meaningfully within 2-3 seconds, or if the opponent has established upper body control through crossface, sprawl, or base widening, the escape should begin immediately. Key indicators of a stalled entry include inability to advance hips further underneath, increasing chest pressure from the top player, and the opponent's hands establishing grips on your upper body.
-
-**Q5**: What role does the knee shield play in the escape sequence?
-**A**: The knee shield serves as the critical intermediate frame between extracting the inside leg and completing the transition to half guard. After the inside leg is retracted, inserting your shin across the opponent's torso creates a structural barrier that prevents them from collapsing their hips forward during the remaining extraction. Without this intermediate frame, there is a dangerous gap where both legs are partially committed and vulnerable to being passed.
-
-**Q6**: What is the most common counter an opponent will attempt during your escape, and how do you address it?
-**A**: The most common counter is driving heavy crossface pressure during the leg extraction phase to flatten you and prevent frame maintenance. Address this by ensuring your shoulder frame is established before extraction begins, using hip escape motion to angle away from the crossface, and inserting the knee shield as early as possible to create a structural barrier that their crossface pressure cannot bypass.
-
-**Q7**: After successfully escaping to half guard, what should your immediate priority be?
-**A**: Your immediate priority is establishing an offensive half guard configuration—either securing the underhook on the trapped leg side or reinforcing your knee shield to create distance. Do not rest after reaching half guard. The opponent has just successfully defended your attack and will look to capitalize with passing pressure. Transition immediately to an active guard that threatens sweeps and prevents their pass.
-
-**Q8**: When should you choose the knee shield recovery variant over the standard half guard escape?
-**A**: Choose the knee shield recovery variant when the opponent is applying very heavy forward pressure that threatens to flatten you during the extraction. The knee shield provides superior structural defense against forward drive compared to standard half guard hooks. It is also preferable when you need more time to consolidate because the knee shield creates greater distance and prevents the immediate chest-to-chest pressure that makes standard half guard difficult to hold against aggressive passers.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Double Jump?</p>
 
 Escape Double Jump is a low-risk positional transition that does not involve joint locks or chokes. The primary safety concern is neck strain from heavy crossface pressure during the escape. If your training partner applies excessive crossface force during drilling, communicate immediately. During the leg extraction phase, be mindful of knee positioning to avoid catching your foot or ankle in an awkward angle as you retract from underneath your partner's base. When drilling with significant resistance, ensure both partners understand the escape sequence to prevent inadvertent knee torque from unexpected movements.
 

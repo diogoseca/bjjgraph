@@ -154,6 +154,8 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deep Half Entry from Half Guard?</p>
+
 - Bottom player executes a sharp hip escape creating diagonal angle rather than maintaining square positioning underneath you
 - Bottom player's head begins dropping toward the mat and turning to face your hips rather than looking up
 - Bottom player fights aggressively for the underhook on the trapped leg side while simultaneously creating angle
@@ -166,6 +168,8 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half Entry from Half Guard?</p>
 
 - Maintain strong crossface control to prevent the bottom player from threading their head underneath your hips
 - Keep your weight distributed evenly rather than committing entirely forward, which enables the entry
@@ -181,6 +185,8 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deep Half Entry from Half Guard?</p>
 
 ### 1. Drive crossface and flatten bottom player with heavy shoulder pressure
 
@@ -218,6 +224,8 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deep Half Entry from Half Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive strong crossface pressure and sprawl your hips back at the first sign of entry. Pin the bottom player's shoulders flat to the mat, eliminating the angle they need. Maintain heavy shoulder pressure while working to extract your trapped leg for a complete pass.
@@ -233,6 +241,8 @@ Contest the underhook battle aggressively with whizzer control or by fighting fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half Entry from Half Guard?</p>
 
 ### 1. Driving all weight forward when feeling the bottom player attempt the entry
 
@@ -262,6 +272,8 @@ Contest the underhook battle aggressively with whizzer control or by fighting fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deep Half Entry from Half Guard?</p>
+
 **Phase 1: Recognition Drill** - Identifying entry cues from half guard top
 Partner signals deep half entry attempts through hip escape and angle creation while you practice recognizing the cues and calling them out verbally. No defensive movement yet - focus purely on developing pattern recognition for entry attempts from the top position.
 
@@ -278,26 +290,6 @@ Positional sparring from half guard top where partner actively attempts deep hal
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Deep Half Entry is being attempted?
-**A**: The earliest cue is the bottom player executing a sharp hip escape that creates a diagonal angle rather than remaining square underneath you. This hip escape creates the entry pathway and is the foundational movement of the entire entry sequence. Recognizing this angle creation before the head threading begins gives you maximum time to apply defensive measures and shut down the entry.
-
-**Q2**: Why is driving weight forward a poor response to a deep half entry attempt?
-**A**: Forward weight commitment is exactly what the bottom player needs to complete the entry. The deep half entry exploits forward pressure by redirecting it underneath, using the top player's momentum to facilitate the slide into deep half position. The correct response is to sprawl hips backward and apply pressure through the shoulder and crossface rather than driving your center of gravity forward into their entry path.
-
-**Q3**: What defensive grip should be your highest priority when preventing the Deep Half Entry?
-**A**: The crossface is your highest priority defensive control. By driving your shoulder or forearm across the bottom player's face and into the mat, you prevent them from turning their head to thread underneath your hips. The crossface also flattens their shoulders, eliminating the angle they need for the entry. Without the ability to turn their head and create angle, the entry becomes mechanically impossible.
-
-**Q4**: Your opponent has already threaded their head halfway underneath - what is your best recovery option?
-**A**: If the head is already partially underneath, a hip switch combined with backstep is your best recovery. Shift your hips to the opposite side by rotating your body, which changes the angle and can dislodge their head from underneath. Simultaneously work to establish a whizzer on their underhook arm to prevent them from completing the far leg control. If the entry is too far progressed, accept the deep half position and immediately transition to deep half top defense.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ When the entry is partially established, the defender must act decisively rather
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg X Entry?</p>
+
 - Opponent in seated guard reaches for your ankle or lower pant leg with a committed overhand grip while their hips begin scooting toward you
 - Opponent's inside leg begins threading underneath and behind your lead leg, with their foot seeking the back of your knee
 - Opponent's outside foot starts pressing into your hip bone while they simultaneously grip your ankle, creating the two-point frame that precedes full entry
@@ -177,6 +179,8 @@ When the entry is partially established, the defender must act decisively rather
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg X Entry?</p>
 
 - Deny the ankle grip early — without ankle control the entire entry collapses
 - Maintain wide athletic base with weight centered to prevent forward toppling
@@ -191,6 +195,8 @@ When the entry is partially established, the defender must act decisively rather
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg X Entry?</p>
 
 ### 1. Backstep and extract the targeted leg before inside hook is established
 
@@ -228,6 +234,8 @@ When the entry is partially established, the defender must act decisively rather
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg X Entry?</p>
+
 ### → [[Positions/Seated Guard]]
 
 Extract your leg early by backstopping or circling away before the inside hook is established, stripping the ankle grip simultaneously. This resets the exchange to neutral seated guard where you retain standing advantage and passing initiative.
@@ -243,6 +251,8 @@ Sprawl forward with committed chest pressure to flatten opponent's hips and coll
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg X Entry?</p>
 
 ### 1. Standing still and allowing opponent to build grips and hooks without moving or creating distance
 
@@ -277,13 +287,15 @@ Sprawl forward with committed chest pressure to flatten opponent's hips and coll
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg X Entry?</p>
+
 **Week 1-2: Recognition and Early Prevention** - Identifying entry attempts and executing immediate backstep defense
 Partner drills the Single Leg X Entry at slow speed while you practice recognizing the ankle grip and inside hook threading. Focus on backstopping the targeted leg and stripping the ankle grip as a coordinated two-part defense. Reset after each attempt. Build the reflex of moving your leg the instant you feel a grip below your knee. 20-30 repetitions per side per session.
 
 **Week 3-4: Multi-Option Defense Drilling** - Practicing backstep, sprawl, and circling defenses against progressive resistance
 Partner attempts the entry with increasing speed and commitment while you practice selecting between backstep, sprawl forward, and circling defense based on how far the entry has progressed. If caught early, backstep. If hook is partially in, circle. If they have hooks but not angle, sprawl. Build decision-making speed by randomizing partner's entry timing and setup variations.
 
-**Week 5-8: Grip Fighting and Counter-Offense** - Integrating grip stripping with passing opportunities off failed entries
+**Week 5-8: Grips and Counter-Offense** - Integrating grip stripping with passing opportunities off failed entries
 Partner attempts entries with full resistance while you practice stripping grips and immediately transitioning to passing sequences when the entry fails. Focus on converting defensive success into offensive position — when you sprawl successfully, immediately begin a pressure pass. When you backstep and strip grip, advance with toreando or knee slice. Build the habit of treating every failed entry as a passing opportunity.
 
 **Week 9+: Positional Sparring Integration** - Defending entries during live positional rounds from standing over seated guard
@@ -293,29 +305,6 @@ Start in standing position over partner's seated guard. Partner has full freedom
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip for the attacker that you must deny or strip to prevent the entry?
-**A**: The ankle or lower leg grip is the foundational control that enables the entire Single Leg X Entry sequence. Without this grip, the attacker cannot prevent you from stepping back, cannot anchor their inside hook, and cannot generate the pulling angle needed for the entry. Strip this grip immediately upon feeling it — use your free hand to peel their fingers while simultaneously backstopping your leg. Every second the grip remains is time they use to build the next link in their entry chain.
-
-**Q2**: Your opponent has gripped your ankle and is threading their inside leg — what is the optimal timing window for defense?
-**A**: The critical window is between ankle grip and inside hook completion. Once both are established, defensive difficulty increases dramatically. In this window, you should simultaneously strip the ankle grip with your hand while backstopping or circling the targeted leg away from their threading direction. This two-action defense attacks both their primary control point and their hook insertion at the same time, maximizing your chance of derailing the entry before it locks in.
-
-**Q3**: Why is circling away from the inside hook more effective than pulling straight backward?
-**A**: Circling creates a lateral angle that the inside hook cannot follow efficiently, because the hook is designed to prevent linear backward escape. When you circle, the hook's clamping force is directed into empty space rather than against your retreating leg. Additionally, circling changes the angle between your knee and their shin, making the hook less mechanically effective. Pulling straight back, conversely, loads directly into the hook's strongest gripping direction, often tightening their control rather than loosening it.
-
-**Q4**: Your opponent has fully established Single Leg X with deep hooks and ankle grip — what is your best remaining option?
-**A**: Once the position is fully established, your best option is to immediately address the bottom hook (behind your knee) by pressing your trapped knee toward the mat and angling it inward to create space for extraction. Simultaneously establish upper body control through collar tie or cross-face to prevent them from elevating their hips and completing sweeps. If you can neutralize the bottom hook, the remaining control becomes manageable. Avoid simply standing tall and hoping to step free, as this gives them maximum sweeping leverage. Lowering your base and working systematically is essential.
-
-**Q5**: How should your stance change when you recognize an opponent is playing seated guard and threatening leg entries?
-**A**: Widen your stance beyond shoulder width with knees bent and weight distributed evenly between both feet. Keep your hips low rather than standing fully upright, reducing the leverage available if they do obtain grips. Position your feet at angles rather than parallel, making it harder for them to line up a clean ankle grip on either side. Actively manage distance so their feet cannot reach your hips, and keep your hands low to intercept any reaching grips toward your ankles before they connect.
-
-
-
-</section>
 
 
 </main>

@@ -154,6 +154,8 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Vaporizer?</p>
+
 - The lockdown pressure on your trapped leg decreases noticeably or the figure-four configuration loosens around your ankle
 - Bottom player's underhook becomes less aggressive, shifting from pulling you down to pushing or framing against your shoulder
 - Bottom player begins scooting their hips backward or angling away from you rather than driving the whip-up motion forward
@@ -166,6 +168,8 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Vaporizer?</p>
 
 - Recognize the early signs of lockdown release and prepare to advance position rather than passively accepting the transition to open guard
 - Drive forward pressure the instant you feel the figure-four loosening to prevent the bottom player from establishing foot frames on your hips
@@ -180,6 +184,8 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Vaporizer?</p>
 
 ### 1. Drive forward immediately with heavy chest-to-chest pressure before foot frames can be established on your hips
 
@@ -217,6 +223,8 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Vaporizer?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Capitalize on the lockdown release by driving immediate forward pressure before foot frames are established. Use the previously trapped leg to cut through the transitional gap with a knee slice or drive forward for a pressure pass. Maintain chest-to-chest contact throughout to prevent the bottom player from creating the distance needed for open guard recovery.
@@ -232,6 +240,8 @@ Prevent the escape by controlling the bottom player's legs as they attempt to re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Vaporizer?</p>
 
 ### 1. Passively allowing the bottom player to complete the full transition to open guard without attempting to capitalize on the release
 
@@ -261,6 +271,8 @@ Prevent the escape by controlling the bottom player's legs as they attempt to re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Vaporizer?</p>
+
 **Phase 1: Recognition Training** - Identifying lockdown release cues through tactile sensitivity
 Partner repeatedly establishes and loosens the lockdown while the top player practices recognizing the early signs of release. Focus on feeling the figure-four loosen, sensing hip movement changes, and detecting shifts from pulling to pushing in the underhook. No passing attempts—purely sensory training.
 
@@ -277,26 +289,6 @@ Start in Vaporizer with both players at full resistance. Top player must defend 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate forward pressure when defending against the Escape Vaporizer?
-**A**: The optimal moment is when you first feel the figure-four loosening but before the bottom player has placed their foot on your hip. This is the critical vulnerability window—the lockdown is releasing but no defensive frame has been established yet. Driving forward at this precise moment catches the bottom player between positions, preventing them from completing the transition to open guard. Waiting even two seconds too long allows frame establishment that makes passing significantly harder.
-
-**Q2**: Why should you advance your previously trapped leg forward rather than pulling it backward when the lockdown releases?
-**A**: Advancing the leg forward maintains pressure on the bottom player and immediately positions you for passing. The leg should become a passing tool—cutting through for a knee slice or driving forward for a pressure pass. Pulling the leg backward creates space between you and the opponent, which is exactly what they need to establish open guard frames and distance. Your previously trapped leg transitions from liability to weapon in one smooth forward motion.
-
-**Q3**: How do you balance capitalizing on the lockdown release with defending against the underhook the bottom player still maintains?
-**A**: Address the underhook simultaneously with your forward pressure. As you drive forward, establish a whizzer or crossface with your near arm to neutralize the underhook's pulling power. Do not ignore the underhook to chase ankle grips—a live underhook during a positional scramble gives the bottom player sweep opportunities that can reverse the position entirely. The correct sequence is: feel release, drive forward, establish crossface or whizzer, then advance passing position.
-
-**Q4**: Your opponent releases the lockdown and successfully places both feet on your hips—what passing sequence should you initiate?
-**A**: Once feet are on your hips, the transition to open guard is largely complete and you must shift to standard open guard passing strategy. Strip one foot off your hip by pushing the knee to the side while maintaining your other hand on their collar or wrist for posture control. Alternatively, grip both pant legs at the knees and initiate a toreando pass by directing their legs to one side while stepping around. Act quickly before they establish upper body grips that complete the full open guard configuration.
-
-
-
-</section>
 
 
 </main>

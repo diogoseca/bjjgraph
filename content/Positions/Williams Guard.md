@@ -32,7 +32,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant shoulder lock pressure to create submission threat and control opponent movement
@@ -100,7 +100,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Transitions/Williams Shoulder Lock/Attacker|Williams Shoulder Lock]]** (13% of attempts)
+- **[[Williams Shoulder Lock from Williams Guard/Attacker|Williams Shoulder Lock from Williams Guard]]** (13% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (15% of attempts)
 
@@ -112,7 +112,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (13% of attempts)
+- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (13% of attempts)
 
 - **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (6% of attempts)
 

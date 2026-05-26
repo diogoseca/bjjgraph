@@ -192,6 +192,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Control Maintenance?</p>
+
 - Position before submission—prioritize maintaining control over rushing attacks that risk losing the position entirely
 - Use threat cycling to force defensive reactions that create opportunities for tighter control or alternative submissions
 - Maintain chest-to-back connection as the primary anchor point that all other control elements support
@@ -207,6 +209,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Control Maintenance?</p>
+
 - Established back control position with both hooks inserted under opponent's legs with heels driving toward hips
 - Seatbelt grip secured with one arm over opponent's shoulder and one arm under opposite armpit creating diagonal control
 - Chest connected firmly to opponent's upper back with no space between your torso and their shoulder blades
@@ -219,6 +223,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Control Maintenance step by step?</p>
 
 1. **Verify hook security**: Check both hooks are inserted deeply with your heels driving toward opponent's hips, not floating near their knees. The hooks should create a figure-four like structure that limits their hip mobility in all directions.
 2. **Tighten chest connection**: Drive your chest forward into opponent's upper back, eliminating any gap between your torso and their shoulder blades. This connection serves as the anchor for all control—if they create space here, all other elements become vulnerable.
@@ -248,6 +254,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Control Maintenance?</p>
+
 - **Explosive bridge and turn toward the underhook side attempting to face the attacker** (Effectiveness: Medium) - Your Response: Anticipate the turn direction and insert your underhook deeper while simultaneously driving your choking arm toward their far shoulder. Use their turning momentum to transition to mount or maintain back control on the opposite side. → Leads to [[Positions/Half Guard]]
 - **Two-on-one grip fighting on the seatbelt arm to break choking grip** (Effectiveness: High) - Your Response: When they commit both hands to fighting your top arm, immediately threaten the armbar from back by controlling their defending arm. Their commitment to grip fighting exposes the arm attack while their hips remain controlled by hooks. → Leads to [[Positions/Back Control]]
 - **Dropping hips to the mat and scooting backward to remove hooks** (Effectiveness: Medium) - Your Response: Follow their hip drop by dropping your own hips and driving hooks deeper toward their centerline. Increase chest pressure as they flatten out—this actually improves your choking angle as their neck becomes more accessible. → Leads to [[Positions/Turtle]]
@@ -259,6 +267,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Control Maintenance?</p>
 
 ### 1. Rushing submission attempts before establishing secure positional control with proper hook placement
 
@@ -293,6 +303,8 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Control Maintenance (Attacker)?</p>
+
 **Week 1-2** - Static position holding
 Practice maintaining back control against completely passive partner for 2-minute rounds. Focus exclusively on proper hook depth, chest connection, and seatbelt grip structure. No submissions attempted—pure positional discipline.
 
@@ -310,48 +322,12 @@ Positional sparring starting from back control against fully resisting opponent.
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Back Control Maintenance?
-**A**: The primary goal is to preserve the dominant back control position through systematic micro-adjustments rather than rushing submissions. By maintaining control, you create cumulative pressure that breaks down opponent's defensive structure over time, opening higher-percentage submission opportunities while eliminating escape possibilities.
-
-**Q2**: Your opponent begins aggressively straightening their legs to remove your hooks—what is your immediate response?
-**A**: Drive your hooks deeper toward their hip crease rather than fighting their leg extension. Simultaneously increase chest-to-back pressure and consider transitioning to body triangle by bringing your top leg over their hip. Their leg straightening actually creates the opening for body triangle entry.
-
-**Q3**: What are the key grips needed for Back Control Maintenance?
-**A**: The foundational grip is the seatbelt—one arm over opponent's shoulder (choking arm), one arm under opposite armpit (underhook arm), hands clasped together. This creates diagonal control across their upper body. Secondary options include collar grips in gi, gift wrap control, and harness grip modifications based on defensive responses.
-
-**Q4**: Your opponent commits both hands to fighting your choking arm—how do you exploit this opening?
-**A**: Their two-on-one grip fighting exposes their other arm for attack. Immediately transition to armbar from back by controlling the arm they've committed to defending, then rotate to the armbar position. Alternatively, use your now-free underhook arm to trap their defending arm in gift wrap position, eliminating their primary defensive tool entirely.
-
-**Q5**: Why is head positioning critical in back control maintenance?
-**A**: Your head should be positioned on the same side as your choking arm. This blocks opponent's ability to turn toward that side and forces all escape attempts toward your underhook side where you have structural advantage. Wrong-side head positioning allows opponent to turn into you and begin successful escape sequences.
-
-**Q6**: What is threat cycling and how does it enhance back control maintenance?
-**A**: Threat cycling is the continuous rotation between different submission threats—rear naked choke, collar chokes, armbar from back, crucifix transitions—without fully committing to any single attack. This forces opponent into perpetual defensive reactions, each of which creates opportunities to tighten positional control or attack newly exposed targets. The cycle creates a feedback loop where defense leads to tighter control.
-
-**Q7**: Your opponent successfully creates space between your chest and their back—what is your priority response?
-**A**: Immediately close the chest-to-back gap before addressing any other concern. Drop your hips lower and drive chest forward until contact is re-established. Without this anchor connection, hooks become easier to remove and escape angles open. The chest connection is the foundational element that supports all other control components.
-
-**Q8**: When should you transition from double hooks to body triangle?
-**A**: Transition to body triangle when opponent demonstrates strong hook defense, during extended positional battles where hook fatigue becomes a factor, or when you achieve dominant angle where body triangle entry is available. Body triangle is harder to remove than hooks and allows you to focus more attention on upper body attacks rather than hook maintenance.
-
-**Q9**: How do you maintain back control when opponent stands up?
-**A**: Convert your hooks to climbing hooks that ride their hips as they stand. Establish body lock grip around their waist for stability. From standing back control, you have additional options including mat returns, standing choke threats, and suplex-style takedowns. Maintain your weight slightly forward to prevent them from sitting back to remove your control.
-
-**Q10**: What distinguishes high-percentage back control maintenance from common beginner patterns?
-**A**: High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Control Maintenance?</p>
 
 Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits.
 

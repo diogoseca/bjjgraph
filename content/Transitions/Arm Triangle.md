@@ -206,9 +206,9 @@ The Arm Triangle from High Mount integrates seamlessly into the mount submission
 
 - [[Transitions/Arm Triangle from Top]] - Alternative entry - same submission from side control starting position
 
-- [[Submissions/Americana from Mount]] - Chain attack - option when opponent defends arm triangle by keeping elbows tight
+- [[Submissions/Americana]] - Chain attack - option when opponent defends arm triangle by keeping elbows tight
 
-- [[Submissions/Armbar from Mount]] - Chain attack - option when opponent extends arm attempting to frame
+- [[Transitions/Mount to Armbar]] - Chain attack - option when opponent extends arm attempting to frame from mount
 
 - [[Positions/Gift Wrap]] - Setup control - arm control position that facilitates arm triangle entry
 

@@ -188,6 +188,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Anaconda Control to Dead Orchard Control?</p>
+
 - Maintain continuous chest-to-shoulder pressure throughout all grip adjustments to prevent any defensive space creation
 - Deepen the anaconda grip incrementally by walking your hands further past the opponent's far shoulder with each micro-adjustment
 - Redistribute weight from a finishing-oriented forward lean to a control-oriented downward drive through the trapped shoulder
@@ -202,6 +204,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Anaconda Control to Dead Orchard Control?</p>
+
 - Anaconda grip secured with gable or S-grip locked and opponent's arm trapped inside the loop
 - Chest pressure established on opponent's trapped shoulder with no gap between your chest and their upper back
 - Opponent's head pulled down and to the side by the grip configuration, breaking their posture and limiting their vision
@@ -214,6 +218,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Anaconda Control to Dead Orchard Control step by step?</p>
 
 1. **Assess defensive structure**: Before initiating the transition, evaluate the opponent's defensive state. Check whether their free hand is actively fighting your grip, whether their base is strong, and whether their neck defense is solid. The decision to transition to dead orchard rather than finish the anaconda should be made deliberately based on this assessment, not as a panic response to a failed squeeze.
 2. **Increase shoulder pressure**: Drive your shoulder deeper into the opponent's trapped shoulder while maintaining your grip. This increased pressure serves two purposes: it further breaks down their posture and defensive structure, and it creates a compression reaction where their body naturally curls tighter, allowing your grip to slide deeper without actively pulling. Think of driving your shoulder through their shoulder into the mat.
@@ -243,6 +249,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Anaconda Control to Dead Orchard Control?</p>
+
 - **Opponent explosively bridges and turns into the grip during the hip repositioning phase, attempting to scramble free before dead orchard is established** (Effectiveness: High) - Your Response: If caught during the hip walk, abandon the dead orchard transition and follow their turning momentum to maintain anaconda control or take the back. Do not fight against an explosive turn with a half-completed transition. Reset to anaconda control and attempt the transition again once control is re-consolidated. → Leads to [[Positions/Anaconda Control]]
 - **Opponent uses free arm to create a strong frame against your shoulder, preventing the grip deepening by maintaining space at the neck** (Effectiveness: Medium) - Your Response: Address the framing arm by driving your shoulder pressure through their frame rather than trying to remove it with your grip hand. Alternatively, use your free arm to strip their framing arm toward their hip, removing the structural support. Once the frame collapses, continue the grip deepening sequence. → Leads to [[Positions/Dead Orchard Control]]
 - **Opponent turtles tighter and begins scooting their hips away during the transition, creating distance that loosens the grip** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining the perpendicular angle while closing any distance they create. Use your chest pressure to prevent them from fully retreating. If they create significant distance, consider transitioning to a front headlock reset rather than chasing with a compromised grip. → Leads to [[Positions/Anaconda Control]]
@@ -254,6 +262,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Anaconda Control to Dead Orchard Control?</p>
 
 ### 1. Releasing chest pressure during grip adjustments to create room for hand repositioning
 
@@ -293,6 +303,8 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Anaconda Control to Dead Orchard Control (Attacker)?</p>
+
 **Week 1-2** - Grip deepening mechanics
 From established anaconda control on a compliant partner, practice the incremental grip deepening sequence. Focus on walking your hands past the far shoulder in small steps while maintaining chest pressure. Partner provides no resistance. Execute 20 repetitions per side, emphasizing the ratcheting grip walk and continuous pressure.
 
@@ -310,48 +322,12 @@ Positional sparring starting from anaconda control. Top player must establish de
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What conditions should exist before you decide to transition to dead orchard rather than finishing the anaconda directly?
-**A**: Transition to dead orchard when the opponent demonstrates solid neck defense that prevents immediate choking pressure from reaching critical levels, when their free arm is actively creating frames that reduce your finishing angle, or when their base remains strong enough that a roll-through attempt would likely fail. The key indicator is feeling that your squeeze is compressing against strong defensive structure rather than producing the blood choke symptoms that signal an imminent finish.
-
-**Q2**: Your grip feels secure but the opponent is actively scooting their hips away during the transition. How do you maintain control?
-**A**: Follow their hip movement by walking your own hips in the same direction, maintaining your perpendicular angle throughout. Use your chest pressure as the anchor point that prevents them from fully retreating. Your upper body stays heavy on their shoulder while your lower body tracks their movement. If they create more than 6 inches of distance, pause the deepening sequence and re-establish tight anaconda control before continuing the dead orchard transition.
-
-**Q3**: What is the most critical mechanical detail during the grip deepening phase?
-**A**: The most critical detail is maintaining the ratcheting principle: your grip should only move in one direction, deeper past the far shoulder, and should never loosen between adjustments. Each micro-walk of your hands should be followed by a momentary re-tightening of the grip before the next adjustment. This prevents the momentary loosening that experienced defenders exploit for arm extraction or head escape. Think of it as a socket wrench that only turns one way.
-
-**Q4**: The opponent posts their free hand against your shoulder to create a frame. How do you adjust your approach?
-**A**: Drive your shoulder pressure through their frame rather than trying to move around it. Your body weight behind the shoulder drive exceeds what their single arm can resist when applied correctly. Simultaneously, use your free arm to attack their framing arm at the elbow, stripping it toward their hip. Once the frame collapses under combined shoulder pressure and arm stripping, immediately advance the grip depth while they are recovering defensive structure.
-
-**Q5**: What grip configuration provides the best foundation for transitioning from anaconda to dead orchard depth?
-**A**: The gable grip with palms pressed flat, fingers interlocked, provides the strongest structure for the deepening walk because it distributes tension across both hands equally and resists the opponent's attempt to create space. During the transition, keep wrists straight and forearms parallel to maintain structural integrity. The S-grip is acceptable but provides slightly less depth control during the walking phase because it allows more play between the hands.
-
-**Q6**: How do you know when the dead orchard position is fully established versus still in transition?
-**A**: Dead orchard is fully established when three conditions are met simultaneously: your grip has passed the midline of the opponent's far shoulder, your hips are perpendicular to their spine with your weight driving downward rather than forward, and your free arm has established secondary control on their far side. Test by briefly increasing pressure. If the opponent's defensive reactions are limited to small adjustments rather than positional escape attempts, the dead orchard is locked in.
-
-**Q7**: Your opponent attempts an explosive bridge and turn during the hip repositioning phase. What is your immediate response?
-**A**: Do not fight the turn. Abandon the dead orchard transition and follow their momentum. If they turn toward you, maintain anaconda control and use their rotation to tighten the grip. If they turn away, release the grip deepening and transition to back control by following their turning hips. The worst response is trying to hold your hip position against an explosive turn with a partially completed transition. Reset to anaconda control or flow to an alternative attack based on their direction of movement.
-
-**Q8**: What is the correct direction of force during the shoulder pressure phase of this transition?
-**A**: The shoulder pressure should drive downward at approximately 45 degrees into the mat through the opponent's trapped shoulder, not forward into their head or backward along their spine. This downward angle compresses the opponent's defensive structure most effectively because it works with gravity rather than requiring muscular effort, and it pins the trapped shoulder to the mat which prevents the postural recovery needed for most escape sequences. Adjust the angle by walking your hips further perpendicular to achieve the correct downward vector.
-
-**Q9**: When in the transition sequence should you address the opponent's free arm, and why is the timing important?
-**A**: Address the free arm after grip depth and hip angle are established but before settling your weight into dead orchard. If you address the free arm too early, you sacrifice either grip hand or body position to control it. If you address it too late, the opponent uses the settling phase to establish frames that prevent the dead orchard from fully locking. The correct timing is step 5 in the sequence: grip is deep, hips are perpendicular, and now your free arm secures their remaining defensive tool before you commit your weight to the finished position.
-
-**Q10**: If the opponent manages to extract their trapped arm during your grip adjustment, what chain attacks become available?
-**A**: Arm extraction opens two primary chain attacks. First, the darce choke becomes immediately available because the freed arm creates the space your choking arm needs to slide deeper across their neck into darce configuration. Slide your arm through without hesitation. Second, if their arm extraction pulls toward you rather than away, the guillotine becomes available by releasing your far hand and securing their chin. Never attempt to re-trap the arm. Flow instantly to whichever submission the extraction direction creates.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Anaconda Control to Dead Orchard Control?</p>
 
 The transition to dead orchard control involves sustained compression on the opponent's neck and shoulder that can restrict breathing and blood flow even before a submission is fully applied. During training, partners should establish clear tap signals and top players should release immediately upon feeling a tap. The incremental nature of this transition means choking pressure builds gradually, so the bottom player may not recognize critical compression levels until they are already compromised. Monitor your training partner for signs of discomfort, labored breathing, or color changes in the face. When drilling the grip deepening sequence, use controlled pressure and communicate regularly. Practitioners with cervical spine injuries should approach this position with particular caution as the combined shoulder and neck compression can aggravate pre-existing conditions.
 

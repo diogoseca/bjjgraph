@@ -32,7 +32,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces

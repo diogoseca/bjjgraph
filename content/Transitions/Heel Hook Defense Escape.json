@@ -12,7 +12,7 @@
     "survival",
     "no-gi"
   ],
-  "from_position": "Honey Hole/Bottom",
+  "from_position": "Cross Ashi-Garami/Bottom",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
@@ -255,7 +255,7 @@
         "description": "Positional sparring starting from Honey Hole bottom against a skilled leg lock practitioner at 100% intensity. 30-second rounds with reset on escape or submission. Track escape success rate across rounds to measure progression. Mandatory tap protocol when escape fails — no exceptions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the heel hook defense escape?",
         "answer": "The optimal window is within the first 1-2 seconds of feeling the inside leg triangle begin to form, before the opponent has secured their heel grip. Once the triangle is locked and heel is cupped with four fingers on top, escape probability drops dramatically. The escape must be initiated as an immediate reaction to the triangle sensation, not after conscious assessment of the position."
@@ -380,7 +380,7 @@
         "correction": "Your hips must follow your opponent's rotation like a mirror — when they rotate left, you adjust left to maintain the same relative angle. Practice hip following drills to build this reactive movement pattern"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What visual and tactile cues indicate your opponent is about to attempt the rotational escape?",
         "answer": "Primary cues include: opponent suddenly curling their toes into boot defense position, both hands moving to grip fight your heel cup, free foot posting firmly on your hip creating a push frame, and a sudden increase in full-body tension and breathing rate. The most reliable early indicator is the free foot posting on your hip, as this precedes the rotation by about half a second."

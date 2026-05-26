@@ -162,6 +162,8 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Tani Otoshi?</p>
+
 - Opponent takes a distinct lateral step approximately 45 degrees to your side while tightening their grip pressure
 - You feel a sudden increase in pulling force on your collar or upper body combined with opponent's hips beginning to lower
 - Opponent's blocking-side leg begins to extend across your stance line as their weight drops below your center of gravity
@@ -174,6 +176,8 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Tani Otoshi?</p>
 
 - Maintain balanced stance with weight centered or slightly back to deny the forward loading that Tani Otoshi exploits
 - Recognize the lateral stepping pattern and grip tightening that signal the throw setup
@@ -189,6 +193,8 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Tani Otoshi?</p>
 
 ### 1. Sprawl hips back and widen base the instant you feel the opponent dropping
 
@@ -226,6 +232,8 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Tani Otoshi?</p>
+
 ### → [[Positions/Standing Position]]
 
 Recognize the setup early through the lateral step and grip tightening cues. Circle away from the throwing direction while breaking the dominant collar grip with a two-on-one grip strip. Maintain balanced stance with hips slightly back throughout. If the opponent commits to the drop anyway, sprawl your hips back to deny the rotational pull and step over their blocking leg to remain standing with positional advantage.
@@ -241,6 +249,8 @@ If caught late in the throw but able to post your hand and partially arrest the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Tani Otoshi?</p>
 
 ### 1. Leaning forward into the opponent's grips with weight on the front foot
 
@@ -275,6 +285,8 @@ If caught late in the throw but able to post your hand and partially arrest the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Tani Otoshi?</p>
+
 **Week 1-2: Recognition Training** - Identifying setup cues and developing reaction patterns
 Partner demonstrates Tani Otoshi setups at slow speed, pausing at the lateral step, grip tightening, and drop initiation phases. Defender practices identifying each phase verbally, then adds physical defensive reactions. Focus on recognizing the lateral angle step as the primary trigger. Drill circling away from the angle and grip breaking as immediate responses to the setup cues.
 
@@ -291,29 +303,6 @@ Begin from standing with partner actively hunting for Tani Otoshi while defender
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up Tani Otoshi, and how should you respond?
-**A**: The earliest cue is the lateral angle step - when your opponent takes a distinct step approximately 45 degrees to your side while maintaining or tightening their grip pressure. This step positions them for the blocking leg and creates the rotational angle. Your immediate response should be to circle in the same direction they stepped, denying them the angle advantage. Simultaneously, work to break their dominant grip (especially the collar grip) since the throw requires strong upper body pulling connection to generate rotational force.
-
-**Q2**: Why is maintaining a slightly rear-weighted stance the best preventive defense against Tani Otoshi?
-**A**: Tani Otoshi specifically exploits forward weight distribution - when your weight is loaded onto the front foot, the blocking leg below your knee creates an immovable obstacle and the rotational pull sends your upper body over it. A slightly rear-weighted stance keeps your center of gravity behind the blocking leg line, meaning the pull has to overcome your rear-loaded weight rather than amplify your forward momentum. This gives you significantly more time to react to the drop and either sprawl, step over, or circle away before the mechanical advantage develops.
-
-**Q3**: Your opponent has already begun dropping and their blocking leg is contacting your shin - what is your best defensive option at this late stage?
-**A**: At this late stage with the block already in contact, your best option is to immediately post your free hand (the hand not being controlled by their grips) on the mat on the opposite side of the throw direction. This arrests the rotational momentum and prevents the full fall. Simultaneously, bend the blocked knee aggressively to try to step over or around the blocking leg. If you can arrest the rotation even partially, you can scramble to a position where the attacker is seated and you are partially standing, then work to extract your leg and establish top position.
-
-**Q4**: How does the defense against Tani Otoshi differ from defending a traditional forward throw like Seoi Nage?
-**A**: Against forward throws like Seoi Nage, the primary defense is to circle toward the throwing direction, drive your hips into the opponent, or hop over their hip entry. Against Tani Otoshi, you must circle away from the throw direction since the attack is lateral and low rather than rotational and high. Sprawling is more effective against Tani Otoshi because the attacker is dropping their base rather than loading you onto their hips. Additionally, the blocking leg is low (shin/knee level) rather than at hip level, so the defensive movement emphasizes stepping over or away rather than driving forward into the thrower.
-
-**Q5**: What opportunities does a successfully defended Tani Otoshi create for you as the defender?
-**A**: A failed Tani Otoshi leaves the attacker seated on the mat with compromised base and often with weakened grip control. This creates several offensive opportunities: you can immediately pass their seated guard to establish side control since they sacrificed their standing base; you can snap down into a front headlock if they are reaching up; you can disengage and force them to stand back up while you maintain superior position; or you can attack with your own takedown since they must rebuild their stance from the ground. The key is recognizing that a defended sacrifice throw is one of the best counter-attacking opportunities in standing grappling.
-
-
-
-</section>
 
 
 </main>

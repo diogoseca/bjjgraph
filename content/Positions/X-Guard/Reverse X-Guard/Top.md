@@ -169,6 +169,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse X-Guard (Top)?</p>
+
 - Top player maintains standing or combat base position with at least one foot on the ground, preventing complete takedown while defending leg entanglement
 - Bottom player has at least one hook controlling top player's leg, typically with far leg hooking behind top player's near knee while near leg controls hip or thigh
 - Top player's hips remain elevated above bottom player's hips, preventing sweep completion and maintaining ability to generate downward pressure
@@ -182,6 +184,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse X-Guard (Top)?</p>
+
 - Opponent has established Reverse X-Guard from standing, seated, or transitional position
 - Top player has at least one leg entangled by opponent's hooks
 - Top player maintains upright posture with base on at least one foot
@@ -194,6 +198,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Reverse X-Guard?</p>
 
 - Maintain elevated hip position above opponent's hips to prevent sweep completion and control weight distribution
 - Keep hands active in controlling opponent's upper body, sleeves, or collar to prevent off-balancing grips
@@ -209,6 +215,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse X-Guard (Top)?</p>
 
 **If opponent has strong elevation and is actively attempting to sweep backward:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Half Guard]] (Probability: 55%)
@@ -237,6 +245,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Reverse X-Guard?</p>
 
 ### 1. Allowing hips to drop too low, bringing center of gravity down toward opponent
 
@@ -276,6 +286,8 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Reverse X-Guard attacks?</p>
+
 ### Reverse X-Guard Top Retention Drill
 
 Partner establishes Reverse X-Guard while top player works on maintaining elevated hips, wide base, and preventing sweep for 2-minute rounds. Bottom player attempts various sweep angles while top player focuses on base maintenance and pressure application. Reset after each sweep or successful defense.
@@ -301,38 +313,6 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to elevate their hips strongly - what immediate adjustment do you make?
-**A**: Immediately widen your base by stepping your free leg further out while simultaneously driving your hips forward toward their chest. This forward pressure counters their elevation by flattening their structure. You should also lower your center of gravity slightly while maintaining upright posture to prevent being pushed backward. Control their sleeves or collar to prevent them from establishing off-balancing grips.
-
-**Q2**: What are the essential grips for maintaining control from Reverse X-Guard Top?
-**A**: The essential grips are controlling the opponent's upper body through collar, sleeves, or wrist control on both sides. In gi, collar grips provide excellent posture control while sleeve grips prevent them from establishing off-balancing holds. In no-gi, wrist control and head control become primary. Secondary grips on their pants at the knee help control the entangled leg and prevent transitions to leg locks.
-
-**Q3**: How do you shut down the opponent's primary sweep attempt from Reverse X-Guard?
-**A**: The primary sweep relies on elevation and rotation, so counter by driving forward pressure through your hips while maintaining elevated hip position. Keep your free leg wide as a tripod base point. Control their upper body to prevent the rotation needed for sweep completion. If they begin to elevate, immediately apply smash pass pressure to flatten their structure rather than allowing them to complete the lifting motion.
-
-**Q4**: What should your weight distribution be when defending against sweeps from this position?
-**A**: Weight should be distributed forward over your base with hips elevated above the opponent's hips. Approximately 60% of your weight should drive forward toward their chest while 40% maintains your base through the free leg positioned wide. Never allow weight to shift backward as this gives the opponent the mechanical advantage they need for elevation sweeps.
-
-**Q5**: When the opponent starts transitioning toward leg lock entries, what is your immediate response?
-**A**: Immediately backstep with your entangled leg while clearing their control. This disengages you from the dangerous leg entanglement before they can secure heel hook or toe hold grips. As you backstep, maintain upper body control to prevent them from following your movement. Reset to a neutral passing position like headquarters rather than remaining in the compromised leg entanglement.
-
-**Q6**: Your opponent's hooks are starting to weaken - how do you capitalize on this opening?
-**A**: When hooks weaken, immediately initiate a passing sequence before they can re-establish control. The knee slice pass is highly effective as you can drive your knee through their weakened hook structure. Alternatively, execute a long step pass to create angle and clear the legs entirely. The key is immediate action - any hesitation allows them to reset their hooks and control.
-
-**Q7**: How do you manage energy expenditure while defending Reverse X-Guard?
-**A**: Use efficient body positioning rather than muscular effort. Keep your skeletal structure aligned with hips over base and weight distributed forward through proper posture. Avoid death-gripping sleeves - use active but relaxed hand fighting. When defending sweeps, use angular movement and base adjustments rather than fighting straight back against their power. This conserves energy while maintaining effective defense.
-
-**Q8**: Your opponent begins rotating to take your back during a sweep attempt - how do you recover?
-**A**: Immediately turn toward the direction they're rotating while establishing upper body control. If they're inverting, sprawl your hips and drive your weight down to flatten them. Control their near arm to prevent them from completing the back take. If they've already partially taken the back, focus on defending the seatbelt by controlling their choking arm and working to re-face them before they can establish hooks.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

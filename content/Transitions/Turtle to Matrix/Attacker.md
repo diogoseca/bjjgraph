@@ -190,6 +190,8 @@ The key challenge is maintaining constant pressure and connection while changing
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle to Matrix?</p>
+
 - Maintain constant chest-to-back pressure throughout the entire angular transition to prevent opponent movement
 - Create angle incrementally through small directional shifts rather than one large committed movement
 - Control the opponent's far-side hip with your free hand to prevent defensive rotation throughout the entry
@@ -205,6 +207,8 @@ The key challenge is maintaining constant pressure and connection while changing
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle to Matrix?</p>
+
 - Stable turtle top position with chest pressure on opponent's upper back and control of at least one shoulder
 - Far-side hip grip or control established to prevent opponent's defensive hip rotation
 - Identification of space between opponent's near-side elbow and knee, or a plan to create it through pressure
@@ -217,6 +221,8 @@ The key challenge is maintaining constant pressure and connection while changing
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle to Matrix step by step?</p>
 
 1. **Establish heavy turtle top control**: Position your chest heavily on the opponent's upper back with your weight driving downward at a 45-degree angle. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Establish a wide knee base on both sides of the opponent's hips. This starting control must be solid before any angular movement begins.
 2. **Probe and manipulate defensive structure**: Test the tightness of the opponent's turtle by shifting pressure directionally. Push forward toward their head to see if elbows separate from knees, then shift laterally to see if the near-side gap opens. Use crossface pressure or collar ties to force postural adjustments that create or widen the elbow-knee gap you need for entry. Note which defensive reactions create the most space.
@@ -246,6 +252,8 @@ The key challenge is maintaining constant pressure and connection while changing
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle to Matrix?</p>
+
 - **Opponent sits back heavily onto heels, closing the elbow-knee gap before leg insertion** (Effectiveness: High) - Your Response: Immediately switch to heavy forward pressure on their shoulders to drive them off their heels and back onto hands and knees. If they remain seated, transition to traditional seat belt back take from the new angle, or use their lowered posture to establish a front headlock by circling toward their head. → Leads to [[Positions/Turtle]]
 - **Opponent turns aggressively into you as they feel the arm threading under their armpit** (Effectiveness: Medium) - Your Response: Maintain your threading arm connection and follow their turn. Their rotation often delivers you into a front headlock or darce control position. If they turn completely to face you, use the momentum to establish a new attacking angle or pull guard if top position is lost. The key is keeping the arm anchor so their turn moves you with them. → Leads to [[Positions/Turtle]]
 - **Opponent explosively stands up during the angular movement phase before arm is fully threaded** (Effectiveness: Medium) - Your Response: Follow them to standing with your far-hip grip intact and convert to a standing rear clinch or body lock. From standing you can drag them back to the mat, execute a standing back take, or trip them to establish a new top position. Do not release the hip grip during their standup attempt. → Leads to [[Positions/Turtle]]
@@ -257,6 +265,8 @@ The key challenge is maintaining constant pressure and connection while changing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle to Matrix?</p>
 
 ### 1. Releasing chest pressure while creating angle, allowing opponent to feel the weight come off
 
@@ -296,7 +306,9 @@ The key challenge is maintaining constant pressure and connection while changing
 
 ## Training Progressions
 
-**Week 1-2: Angle Creation Drilling** - Master the angular movement from turtle top while maintaining pressure
+<p class="section-subtitle">How do you train Turtle to Matrix (Attacker)?</p>
+
+**Week 1-2: Dominant Angles Drilling** - Master the angular movement from turtle top while maintaining pressure
 Partner holds static turtle while you practice walking your knees to create angle, maintaining chest pressure throughout. Focus on smooth weight transfer from behind the opponent to an angled position. No arm or leg threading yet, just the angular movement with consistent pressure. Drill 20 repetitions per side.
 
 **Week 3-4: Threading Sequence** - Connect the arm threading and leg insertion into one fluid movement
@@ -316,42 +328,12 @@ Flow between Matrix entry, traditional back take, crab ride, crucifix, and front
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Transition to Matrix from turtle top?
-**A**: The optimal timing window occurs when the opponent's base is momentarily static or during a weight shift that temporarily freezes their defensive adjustments. Specific triggers include: after they defend a traditional back take attempt and settle into their defensive posture, during the brief pause after they complete a grip fight, or when they shift weight to one side in response to your pressure manipulation. The entry should never be attempted against an actively moving opponent whose base is dynamically adjusting.
-
-**Q2**: Why must the arm be threaded before the leg during the Matrix entry sequence?
-**A**: The threaded arm serves as the primary rotation control that prevents the opponent from turning to face you during the leg insertion. Without this anchor, inserting the leg through the elbow-knee gap exposes you to the opponent simply rotating toward the inserted leg, which eliminates the back-take angle and creates a scramble. The arm anchored against their ribs with your shoulder pressing in restricts their ability to rotate, making the subsequent leg insertion safe and controlled.
-
-**Q3**: Your opponent maintains an extremely tight turtle with elbows welded to knees and no gap for entry. How do you create the space needed?
-**A**: Use directional pressure changes to force defensive reactions that open gaps. Push heavy forward pressure toward their head to force them to post hands wider, then immediately redirect laterally. Use crossface pressure to rotate their shoulders, which naturally separates the near-side elbow from the knee. Feint a front headlock approach by circling toward their head, forcing them to tuck their chin and adjust posture, which often opens the far-side gap. The gap is created through pressure manipulation, not by forcing through a closed structure.
-
-**Q4**: What is the critical mechanical detail that determines whether the arm threading provides sufficient control?
-**A**: The critical detail is the depth of insertion measured by whether your shoulder presses against the opponent's ribs. If only your hand or forearm reaches past the armpit, the anchor is too shallow and the opponent can easily rotate against it. When your shoulder contacts their ribs, the entire weight of your upper body can resist their rotation attempts. The shoulder-to-rib contact creates a structural block rather than a grip-dependent control, which is far more reliable under pressure.
-
-**Q5**: How does the far-side hip grip contribute to each phase of the transition?
-**A**: During angle creation, the hip grip prevents the opponent from rotating their hips away as you walk your knees to the side. During arm threading, it anchors their torso in place so the threading arm can penetrate deeply without the opponent sliding away. During leg insertion, it controls their hip orientation to maintain the elbow-knee gap long enough for the leg to pass through. After establishing Matrix position, it prevents last-resort hip escapes. The grip serves a different but critical function at every phase of the entry.
-
-**Q6**: Your opponent begins turning into you aggressively as you thread your arm under their armpit. Should you abandon the Matrix entry?
-**A**: Not necessarily. If your arm is already deeply threaded with shoulder-to-rib contact, maintain the anchor and follow their turn. Their rotation often brings you into front headlock or darce control position, which are strong attacking positions. Only abandon if the arm is shallow and losing connection. The decision depends on threading depth: deep arm means follow and transition to a new attack; shallow arm means disengage and re-establish turtle top control before the opponent completes their escape.
-
-**Q7**: What grip configuration provides the strongest control during the angular movement phase?
-**A**: The strongest configuration uses the far hand gripping the opponent's far-side hip or belt line, and the near hand controlling their near-side shoulder, lat, or collar. The hip grip is the more critical of the two because it directly controls the opponent's ability to rotate away from your angle creation. The shoulder control manages their forward-backward movement. Together these grips create a two-point control system that restricts movement in all directions while your knees walk to create the entry angle.
-
-**Q8**: After establishing the Matrix position, what determines whether you should proceed to Matrix Back Take versus transitioning to truck or crucifix?
-**A**: The decision depends on the opponent's defensive reaction once you achieve Matrix position. If they remain relatively static with their base intact, proceed to Matrix Back Take by initiating the hip slide. If they begin rolling or inverting in response to your perpendicular pressure, follow their roll into truck position for leg attack options. If they extend an arm to post or push against your entry, exploit the exposed arm for crucifix. The Matrix position is a decision point, and reading the opponent's reaction in the first one to two seconds determines the highest-percentage follow-up.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle to Matrix?</p>
 
 The Transition to Matrix involves angular body movements around a turtled opponent that require controlled execution to prevent injury. The primary risk is during the leg threading phase, where an overly aggressive or poorly timed entry can cause the attacker's knee to impact the defender's ribs or hip. Always drill the threading motion slowly before adding speed. The defender in turtle should communicate immediately if they feel pressure on their neck or spine from the angular weight transfer. When practicing the pressure manipulation phase, avoid dropping full body weight suddenly, as the turtled opponent's spine is vulnerable to compressive forces. Progress through resistance levels gradually and ensure both partners understand the entry mechanics before live drilling.
 

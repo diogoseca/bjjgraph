@@ -162,6 +162,8 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Old School Sweep from Bottom?</p>
+
 - Opponent secures lockdown on your trapped leg and begins actively extending their legs to create tension and prevent your leg extraction
 - Opponent fights aggressively for an underhook on one side while you feel them angling their body onto their side rather than remaining flat
 - Opponent wraps their free arm around your head and begins pulling your posture down toward their chest on the underhook side
@@ -174,6 +176,8 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School Sweep from Bottom?</p>
 
 - React immediately to lockdown recognition. Every second of delay allows the bottom player to deepen controls and strengthen their sweeping position.
 - Establish the whizzer as first priority. Controlling the underhook eliminates the primary sweeping lever and is more impactful than addressing head control or lockdown first.
@@ -188,6 +192,8 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Old School Sweep from Bottom?</p>
 
 ### 1. Establish deep whizzer immediately and clamp elbow tight to your body to control opponent's underhook arm
 
@@ -225,6 +231,8 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Old School Sweep from Bottom?</p>
+
 ### → [[Positions/Half Guard/Old School]]
 
 Establish whizzer and crossface immediately upon recognizing the lockdown setup. Maintain wide base and heavy hips while systematically working to free your trapped leg through ankle manipulation and hip pressure. Patience and pressure prevent the sweep without feeding into chain attacks.
@@ -240,6 +248,8 @@ Drive aggressive crossface to flatten the bottom player while working to strip t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School Sweep from Bottom?</p>
 
 ### 1. Pulling trapped leg forcefully to escape the lockdown during an active sweep attempt
 
@@ -274,6 +284,8 @@ Drive aggressive crossface to flatten the bottom player while working to strip t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Old School Sweep from Bottom?</p>
+
 **Phase 1: Recognition** - Identifying Old School setup patterns
 Partner establishes lockdown and works toward Old School position at half speed. Top player focuses on recognizing each stage of the setup: lockdown establishment, underhook fight, head control attempt. Call out each stage verbally as it occurs. No sweep attempts, pure pattern recognition training.
 
@@ -290,29 +302,6 @@ After successfully defending the sweep, top player transitions immediately to pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the first three warning signs that indicate your opponent is setting up the Old School Sweep from bottom?
-**A**: First, you feel the lockdown tighten on your trapped leg with active extension tension. Second, the opponent begins fighting aggressively for an underhook on one side while turning onto their side. Third, their free arm reaches for your head, attempting to wrap around and pull your posture down. Recognizing this sequence early allows you to intervene at the underhook stage before all three controls are established, which is far easier than defending a fully loaded sweep.
-
-**Q2**: Your opponent has lockdown and underhook established but not yet head control. What is the highest-priority defensive action?
-**A**: Immediately establish heavy crossface pressure with your shoulder driving into their jaw to turn their head away from the underhook side. This prevents head control establishment and simultaneously breaks the angle they need for the sweep. Secondary priority is deepening your whizzer to control their underhook arm. With strong crossface pressure, the opponent cannot complete the third control point, and the sweep remains structurally incomplete.
-
-**Q3**: How should you position your base when defending against the lockdown-based Old School Sweep?
-**A**: Post your free leg wide with the knee angled outward at approximately 45 degrees, creating maximum distance from your trapped leg. Your weight should be distributed through your chest onto the opponent's torso, not through your hands. Keep hips low and heavy against the opponent. This tripod structure with wide base resists rotational force from any direction. Never narrow your base or elevate your hips, as both create the vulnerability the sweep exploits.
-
-**Q4**: Your crossface is being bypassed as the opponent secures head control. What recovery sequence maintains your top position?
-**A**: Increase whizzer pressure immediately to control the underhook arm and prevent sweep initiation. Simultaneously sprawl your hips back slightly to remove your weight from the sweeping fulcrum point. If head control is fully established, focus on maintaining the whizzer and wide base rather than fighting for crossface recovery. You can survive without crossface if your whizzer and base are strong. Only re-establish crossface when the opponent relaxes head control to pump the lockdown.
-
-**Q5**: When is the safest time to attempt breaking the lockdown without feeding into the sweep mechanics?
-**A**: The safest time is when the opponent's underhook is shallow or not yet established, as they cannot punish your lockdown breaking attempt with a sweep. Work to break the lockdown by pushing their hooking foot off your ankle with your free hand while maintaining whizzer and crossface. Avoid breaking lockdown when all three controls are established, as the movement required often shifts your weight forward and creates the exact timing window the sweep exploits.
-
-
-
-</section>
 
 
 </main>

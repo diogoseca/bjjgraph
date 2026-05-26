@@ -182,6 +182,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Quarter Guard?</p>
+
 - Establish crossface control before attempting any leg extraction to prevent bottom player from turning into you or recovering frames
 - Advance hips incrementally rather than explosively—each inch of forward pressure compounds your positional advantage while minimizing sweep risk
 - Neutralize the bottom player's underhook through whizzer, shoulder pressure, or arm pinning before committing to the transition
@@ -197,6 +199,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Quarter Guard?</p>
+
 - Established half guard top position with weight distributed through chest and hips into opponent's upper body
 - Crossface or head control secured preventing bottom player from turning into you or creating defensive angles
 - Bottom player's underhook neutralized through whizzer, shoulder drive, or arm pinning—active underhook prevents this transition
@@ -210,6 +214,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Quarter Guard step by step?</p>
 
 1. **Establish upper body dominance**: Secure crossface by driving your shoulder into the bottom player's far cheek or jaw, flattening their head away from you. Simultaneously control their near-side arm by pinning it with your chest weight or trapping it against your body. If they have an active underhook, apply a whizzer or heavy shoulder pressure to strip it before proceeding. Your chest should be heavy on their upper body with hips pressing forward.
 2. **Collapse the knee shield**: Use your free hand to control the bottom player's top knee, pushing it toward the mat while driving your hip forward into the space created. If they maintain a knee shield, use your shin or knee to pressure it down rather than trying to go around it. The goal is to get your hip past the line of their knee shield so they can no longer generate effective frame pressure against your torso.
@@ -238,6 +244,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Quarter Guard?</p>
+
 - **Bottom player fights to recover underhook during hip advancement** (Effectiveness: High) - Your Response: Immediately apply heavy shoulder pressure or whizzer to strip the recovering underhook. If they secure it before you can counter, pause advancement and re-establish upper body dominance before continuing. An active underhook gives them sweep and back take options that make continued advancement dangerous. → Leads to [[Positions/Half Guard]]
 - **Bottom player hip escapes to create angle and recover knee shield** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle to match, maintaining chest contact throughout. Use your free hand to control their far hip and prevent further rotation. If they recover a partial knee shield, use smash pass pressure to re-collapse it before continuing the transition. → Leads to [[Positions/Half Guard]]
 - **Bottom player drops underneath for deep half guard entry during weight commitment** (Effectiveness: High) - Your Response: If you feel them diving underneath, immediately sprawl your hips back and apply downward pressure to prevent them from getting their head beneath your hips. Post your hand on the mat on the far side and drive weight down. If they achieve deep half, you must address that position specifically rather than continuing the quarter guard transition. → Leads to [[Positions/Half Guard/Deep Half Guard]]
@@ -249,6 +257,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Quarter Guard?</p>
 
 ### 1. Attempting explosive leg extraction instead of systematic incremental advancement
 
@@ -288,6 +298,8 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Quarter Guard (Attacker)?</p>
+
 **Foundation - Static Pressure Drilling** - Weight distribution and crossface mechanics
 Practice establishing and maintaining crossface pressure from half guard top with partner providing zero resistance. Focus on correct shoulder placement, weight transfer through chest, and hip positioning. Hold each position for thirty seconds while partner provides feedback on pressure quality and placement.
 
@@ -308,42 +320,12 @@ Partner deliberately cycles through specific counters—underhook recovery, deep
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must be established before initiating hip advancement in the Transition to Quarter Guard?
-**A**: Crossface control must be established first with your shoulder driving into the bottom player's far cheek, and their underhook must be neutralized through whizzer or shoulder pressure. Without these two prerequisites, hip advancement exposes you to sweeps, back takes, and guard recovery that make the transition fail. Upper body dominance is the foundation that makes leg extraction possible.
-
-**Q2**: Your opponent recovers their underhook while you are mid-transition—what is the correct response?
-**A**: Immediately stop hip advancement and address the underhook before continuing. Apply heavy shoulder pressure or whizzer to strip it. If the underhook is deeply established, you may need to retreat slightly to reset upper body control. Continuing to advance with an active opponent underhook exposes you to old school sweeps, back takes, and dogfight entries that convert your passing attempt into a defensive scramble.
-
-**Q3**: What is the critical mechanical detail that determines whether the knee wedge technique succeeds or fails?
-**A**: The knee must drive forward and slightly outward against the inside of the opponent's thigh to create progressive separation in their leg entanglement. Driving straight forward without the outward angle allows their legs to maintain grip strength. The outward wedge creates a prying action that mechanically weakens their leg control regardless of squeeze strength. The angle of the wedge should be approximately thirty degrees outward from the forward direction.
-
-**Q4**: How should weight be distributed during the Transition to Quarter Guard to balance pressure and base?
-**A**: Approximately seventy percent of weight should drive forward through your chest and shoulder into the opponent's upper body, creating the pressure that degrades their defensive structure. The remaining thirty percent stays on your base leg and posting hand to resist sweep attempts during the transitional movement. This ratio provides enough pressure to prevent defensive recovery while maintaining sufficient base to avoid being swept during the advancement.
-
-**Q5**: Your opponent begins hip escaping to create angle during your advancement—how do you adjust?
-**A**: Follow their hip escape by adjusting your angle to match their movement, maintaining chest-to-chest contact throughout the adjustment. Use your free hand to control their far hip and pin it to prevent further rotation. If they create significant angle, you may need to temporarily increase crossface pressure to flatten them before resuming hip advancement. The key is that you move with them rather than letting them escape to a new angle while you stay static.
-
-**Q6**: Why is it critical to transition immediately to a passing sequence once quarter guard is established rather than consolidating?
-**A**: Quarter guard is inherently unstable—the bottom player retains enough leg contact to recover knee shield, fight for underhook, or enter deep half within five to ten seconds. Pausing allows them to rebuild defensive structures that you just spent energy destroying. The momentum and pressure advantage from the transition should carry directly into pass completion while their defense is still compromised and disorganized.
-
-**Q7**: What are the primary grip requirements for maintaining control throughout this transition?
-**A**: The crossface shoulder against their far cheek is the primary control, requiring no grip but proper shoulder blade positioning. The free hand must control their near-side hip or knee to prevent rotation and angle creation. If available, an underhook on the far side provides additional control. Avoid gripping their gi or arms in ways that extend your own elbows away from your body, as this creates submission vulnerability and reduces pressure efficiency.
-
-**Q8**: Your opponent drops underneath for a deep half guard entry as you commit weight forward—what went wrong and how do you respond?
-**A**: The deep half entry indicates insufficient hip control—your weight was too far forward without controlling their ability to dive underneath. Immediately sprawl hips back and drive downward pressure to prevent them from completing the entry. If they achieve deep half, you must address that position specifically with whizzer and hip pressure rather than continuing the quarter guard transition. Prevention requires maintaining hip awareness and not overcommitting weight past the tipping point where they can get underneath you.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Quarter Guard?</p>
 
 The Transition to Quarter Guard involves sustained pressure application that can be uncomfortable for the bottom player, particularly crossface pressure against the face and jaw. In training, modulate crossface intensity to avoid cervical spine strain or TMJ discomfort in your partner. Avoid explosive jerking movements during leg extraction that could torque the bottom player's knee or hip. Communicate with training partners about pressure levels and be prepared to ease off immediately if they indicate pain or discomfort in their knee, hip, or neck.
 

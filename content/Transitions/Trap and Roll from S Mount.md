@@ -212,7 +212,7 @@ The Trap and Roll from S Mount serves as the primary explosive escape within the
 
 - [[Transitions/S Mount Armbar Setup]] - Primary offensive threat being escaped — understanding this attack improves escape timing
 
-- [[Submissions/Armbar from S Mount]] - Submission danger motivating escape — the consequence of failed defense from this position
+- [[Armbar from Armbar Control]] - Submission finish that motivates escape — the consequence of failed arm defense leading to armbar completion from control position
 
 - [[Transitions/Trap and Roll from Mount]] - Related technique from regular mount — similar mechanics but different bridging angles
 

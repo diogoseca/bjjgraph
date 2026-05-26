@@ -186,6 +186,8 @@ The transition requires precise weight management and timing. Moving from North-
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Mount Transition?</p>
+
 - Maintain continuous pressure throughout the transition by sliding weight from chest to hips without ever lifting off the opponent
 - Secure hip control with your legs before releasing North-South chest pressure to eliminate the vulnerability window
 - Use a spinning motion rather than stepping over to maintain balance and continuous contact
@@ -201,6 +203,8 @@ The transition requires precise weight management and timing. Moving from North-
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Mount Transition?</p>
+
 - Established North-South control with chest pressure consolidated on opponent's sternum and upper torso
 - Opponent's arms are controlled or at least one arm is isolated to prevent immediate frame establishment
 - Your base is stable with wide knee positioning providing a solid foundation for the spinning motion
@@ -213,6 +217,8 @@ The transition requires precise weight management and timing. Moving from North-
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Mount Transition step by step?</p>
 
 1. **Consolidate North-South control**: Ensure your North-South control is fully established with heavy chest pressure on the opponent's sternum. Your hips should be near their head, your head near their hips, with a wide base from your knees. Secure control of at least one arm through underhook or wrist control to prevent immediate framing.
 2. **Shift weight toward opponent's hips**: Begin transferring your weight from your chest toward your hips by sliding your body toward the opponent's waist. Maintain constant downward pressure throughout this shift without lifting up. Your chest slides across their torso as you progress toward their hip line, keeping continuous contact.
@@ -241,6 +247,8 @@ The transition requires precise weight management and timing. Moving from North-
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Mount Transition?</p>
+
 - **Bridge and hip escape during the spin: Opponent times their bridge to coincide with your weight shift, creating space to escape hips and recover half guard** (Effectiveness: High) - Your Response: Maintain heavy hip pressure throughout the transition. If they begin bridging, pause the spin and re-consolidate North-South before attempting again, or follow their movement to standard mount instead → Leads to [[Positions/Half Guard]]
 - **Frame establishment with arms: Opponent creates strong forearm frames against your hips as you transition, preventing you from completing the mount and maintaining distance** (Effectiveness: Medium) - Your Response: Control at least one arm before initiating the transition. During the spin, use your hands to actively strip frames and pin arms to the mat as you settle into position → Leads to [[Positions/North-South]]
 - **Sit-up escape: Opponent sits up explosively as you complete the spin, attempting to off-balance you forward or achieve a scramble position** (Effectiveness: Medium) - Your Response: Keep your legs tight against their shoulders and head to block the sit-up. Lean your weight forward and use your hands to push their chest back down if they begin sitting up → Leads to [[Positions/North-South]]
@@ -252,6 +260,8 @@ The transition requires precise weight management and timing. Moving from North-
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Mount Transition?</p>
 
 ### 1. Lifting off the opponent during the transition
 
@@ -291,6 +301,8 @@ The transition requires precise weight management and timing. Moving from North-
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Mount Transition (Attacker)?</p>
+
 **Week 1-2** - Movement mechanics
 Practice the spinning transition from North-South to reverse mount with a non-resisting partner. Focus on maintaining continuous pressure throughout the movement and landing in the correct position on the opponent's hips. Drill both directions of the spin to develop bilateral comfort.
 
@@ -311,54 +323,12 @@ Incorporate the transition into live rolling situations. Focus on recognizing op
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Reverse Mount Transition?
-**A**: The primary goal is to advance from North-South control to reverse mount, a position where you sit on the opponent's torso facing their legs. This provides immediate access to armbar attacks on both arms while maintaining superior hip control that prevents standard bridge-and-roll escapes.
-
-**Q2**: What is the critical mechanical principle during the spinning motion?
-**A**: The critical principle is maintaining continuous pressure throughout the transition without ever lifting off the opponent. Your weight should transfer from chest pressure to hip pressure as you spin, sliding across their body rather than creating space. Any lift allows the opponent to bridge, insert frames, or escape.
-
-**Q3**: Where exactly should you land when completing the transition to reverse mount?
-**A**: You should land on the opponent's lower abdomen or hip line, not high on their chest. Landing low provides stability against forward rolls where they could dump you over their head. Your legs frame against their shoulders and head while your weight pins their hips to the mat.
-
-**Q4**: Your opponent begins bridging as you initiate the spin - how do you respond?
-**A**: Pause the transition immediately and re-consolidate your North-South control. Do not try to force through an active bridge. Alternatively, if their bridge creates enough momentum, follow their movement and transition to standard mount instead of reverse mount, then return to North-South or re-attempt the entry when stable.
-
-**Q5**: What are the key grips or control points needed before initiating the transition?
-**A**: Before initiating, you need stable North-South chest pressure with a wide base from your knees. Control of at least one arm through underhook, overhook, or wrist control is essential to prevent immediate frames during the transition. If both arms are free and active, establish arm control first before attempting the spin.
-
-**Q6**: When is the optimal timing window to attempt the Reverse Mount Transition from North-South?
-**A**: The optimal timing is when the opponent has stopped actively defending North-South submissions like the kimura or North-South choke and has shifted to passive survival under pressure. Also effective when they are fatigued from defending and their arms are weakened from frame attempts. The transition capitalizes on defensive passivity by changing the attack angle entirely.
-
-**Q7**: Your opponent establishes strong forearm frames against your hips mid-transition - what is your response?
-**A**: If frames are established during the spin, use your hands to actively strip them by pinning their wrists or elbows to the mat as you continue the rotation. If the frames are too strong to overcome, abort the transition entirely and return to North-South to re-establish control and isolate an arm before attempting the spin again.
-
-**Q8**: What are the primary submission options available immediately after achieving reverse mount?
-**A**: The primary submissions are armbars on either arm, as the opponent's arms naturally reach toward you to defend, creating immediate armbar opportunities. You can attack the near arm by falling to that side, or the far arm by transitioning across. Secondary options include converting to S-mount for belly-down armbar finishes.
-
-**Q9**: How do you prevent the opponent from sitting up once you achieve reverse mount?
-**A**: Keep your legs tight against their shoulders and head to create a structural frame that blocks the sit-up. Maintain a slight forward lean with your weight centered over your hips rather than leaning back. If they begin sitting up, use your hands to push their chest back down while keeping your leg frames actively pressed against their upper body.
-
-**Q10**: What determines whether you should spin left or right when initiating the transition?
-**A**: The spin direction is determined by which arm you have controlled and the opponent's defensive posture. Spin toward the side of the controlled arm, as this allows you to maintain that arm trap throughout the transition. If you have a wrist control or underhook on their right arm, spin clockwise so the controlled arm stays on your dominant side upon landing.
-
-**Q11**: Your opponent inserts a knee between your bodies as you complete the spin - what adjustment do you make?
-**A**: If they insert a knee, the reverse mount completion is compromised. Rather than forcing the position, immediately transition to a half guard passing sequence by addressing the knee insertion with crossface pressure and working to extract your trapped leg. Alternatively, use the partial position to set up a knee slice pass or switch to standard mount by rotating over their knee shield.
-
-**Q12**: How does the Reverse Mount Transition chain with other attacks from North-South?
-**A**: The transition integrates into a North-South attack system where threats create openings for other attacks. If the opponent defends the North-South choke by tucking their chin, their arms often become exposed for the kimura. If they defend the kimura by keeping elbows tight, they become passive, creating the ideal window for the reverse mount spin. The reverse mount itself opens armbars, S-mount entries, and back take opportunities based on their defensive reactions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Mount Transition?</p>
 
 The Reverse Mount Transition is generally low-risk for both practitioners when performed with control. The primary safety concern is ensuring the spinning motion is controlled to avoid accidentally striking the opponent with knees during the transition. When drilling, communicate with your partner about the pace of the spin and gradually increase speed. Once in reverse mount, be mindful that armbar attacks can develop quickly from this position, so maintain controlled transitions and give partners adequate time to tap. Avoid dropping your full weight suddenly when landing in the position, as this can wind an unprepared training partner. Always settle into the position gradually rather than crashing down.
 

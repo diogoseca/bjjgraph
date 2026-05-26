@@ -166,6 +166,8 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag While Clearing Lapel?</p>
+
 - Opponent secures sleeve or wrist control on your lapel-gripping hand while simultaneously reaching for your shin or ankle with their free hand
 - Opponent begins stepping laterally while maintaining control of both your grip hand and your pant leg, creating a passing angle
 - You feel rotational pressure on your lapel wrap combined with lateral pulling force on your legs—the simultaneous nature distinguishes this from standard lapel clearing
@@ -177,6 +179,8 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag While Clearing Lapel?</p>
 
 - Recognize the passing attempt before the drag motion begins—the sleeve and pant grip combination is the primary telegraph
 - Maintain active lapel grip retention rather than passive holding, adjusting the wrap depth in response to clearing attempts
@@ -191,6 +195,8 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag While Clearing Lapel?</p>
 
 ### 1. Frame on passer's shoulder and hip escape toward the drag direction to re-face them
 
@@ -228,6 +234,8 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag While Clearing Lapel?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Disrupt the drag early by framing on the passer's shoulder and hip escaping to re-face them before the lateral motion completes. Simultaneously, fight to maintain or re-establish your lapel grip with your free hand. The key timing is before the passer achieves shoulder-to-hip contact.
@@ -243,6 +251,8 @@ If the drag is partially completed, accept the positional loss of lapel guard an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag While Clearing Lapel?</p>
 
 ### 1. Focusing exclusively on maintaining the lapel grip while ignoring the leg drag motion
 
@@ -272,6 +282,8 @@ If the drag is partially completed, accept the positional loss of lapel guard an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag While Clearing Lapel?</p>
+
 **Week 1-2** - Recognition drilling
 Partner telegraphs the grip setup (sleeve control plus pant grip) repeatedly. Practice identifying the cues and initiating shoulder frame before the drag begins. No resistance from attacker—focus purely on recognition speed and defensive reflexes.
 
@@ -288,29 +300,6 @@ Start in lapel guard with partner attempting the Leg Drag While Clearing Lapel a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt Leg Drag While Clearing Lapel?
-**A**: The primary telegraph is when your opponent secures both sleeve or wrist control on your lapel-gripping hand and a low pant grip on your shin simultaneously. This dual-grip setup is the prerequisite for the technique and should trigger immediate defensive action before the drag motion begins.
-
-**Q2**: Why is turning away from the passer particularly dangerous when defending this technique?
-**A**: Turning away exposes your back to the passer who already has lateral control of your legs. The leg drag position naturally creates back-taking angles, and turning away accelerates this transition. Instead, you should always turn toward the passer to face them, using hip escape and frames to prevent the drag from completing.
-
-**Q3**: Your opponent has partially completed the drag but has not established shoulder contact on your hip—what is your best defensive option?
-**A**: Frame immediately on their lead shoulder with your near-side hand and hip escape aggressively toward them to re-face. Simultaneously use your free leg to post on their hip or insert between your bodies as a barrier. This window before shoulder contact is your highest-percentage recovery moment because the passer lacks the pressure to pin you down.
-
-**Q4**: When should you abandon lapel guard recovery and transition to half guard defense instead?
-**A**: Transition to half guard defense when the passer has stripped your lapel grip and your legs have been dragged past center line. At this point, re-establishing the lapel configuration requires too much time and the passer will consolidate during your attempt. Focus on trapping their lead leg with a scissoring motion and establishing knee shield before they achieve full leg drag control.
-
-**Q5**: How do you prevent the passer from stripping your lapel grip using the rotational force of the drag?
-**A**: Deepen your lapel wrap before they initiate by feeding more fabric through the configuration, making it harder to strip through rotation alone. Simultaneously, control their pant-gripping hand with your free hand to prevent the low grip that anchors the drag. Without the shin grip, the rotational force has no anchor point and the clearing motion loses most of its effectiveness.
-
-
-
-</section>
 
 
 </main>

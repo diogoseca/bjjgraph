@@ -162,6 +162,8 @@ Defending against seat belt establishment from back control is a critical skill 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Control to Seat Belt Control Back?</p>
+
 - Opponent releases one or both existing grips from general back control position, signaling the beginning of grip reconfiguration
 - Feeling of an arm threading over your shoulder toward your opposite chest, indicating the over-arm establishment attempt
 - Opponent's chest pressure increases momentarily as they stabilize position before releasing grips for the transition
@@ -173,6 +175,8 @@ Defending against seat belt establishment from back control is a critical skill 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control to Seat Belt Control Back?</p>
 
 - Fight each arm individually as it attempts to thread, preventing the over-under configuration from completing
 - Maintain elbows tight to ribs to block the under-arm pathway while using hands to strip the over-arm
@@ -187,6 +191,8 @@ Defending against seat belt establishment from back control is a critical skill 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Control to Seat Belt Control Back?</p>
 
 ### 1. Two-on-one strip the threading over-arm before it crosses your chest
 
@@ -224,6 +230,8 @@ Defending against seat belt establishment from back control is a critical skill 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Control to Seat Belt Control Back?</p>
+
 ### → [[Positions/Turtle]]
 
 Time your escape attempt during the moment when opponent releases existing grips to begin the seat belt transition. Execute explosive hip escape combined with hook clearing to reach turtle before the new grip configuration is established. The grip transition window is brief—commit fully when you feel the grip release.
@@ -239,6 +247,8 @@ Prevent the seat belt through persistent hand fighting and tight elbow positioni
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control to Seat Belt Control Back?</p>
 
 ### 1. Allowing over-arm to thread across chest without any resistance
 
@@ -268,6 +278,8 @@ Prevent the seat belt through persistent hand fighting and tight elbow positioni
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Control to Seat Belt Control Back?</p>
+
 **Recognition** - Identifying transition attempts through feel
 Partner slowly performs the seat belt transition from back control while you focus on recognizing the cues: grip release, arm threading motion, chest pressure changes, and hook depth adjustments. No resistance—purely developing tactile awareness of the transition timing and movement patterns.
 
@@ -284,29 +296,6 @@ Incorporate seat belt prevention into live back control escape rounds. Combine g
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the tactile cues that indicate your opponent is attempting to establish a seat belt from general back control?
-**A**: You will feel the opponent release one or both of their existing grips, followed by an arm sliding over your shoulder toward the opposite side of your chest. Their chest pressure may briefly increase as they stabilize before the transition. You may also feel their hooks drive deeper or their body angle shift as they create a platform for the grip change. The key recognition window is the moment between grip release and new grip establishment—this is both your danger zone and your opportunity for escape.
-
-**Q2**: Your opponent has successfully threaded the over-arm but has not connected hands yet—what is your priority action?
-**A**: Immediately two-on-one grip the threading over-arm at the wrist and pull it toward your hip to prevent it from staying across your chest. Simultaneously, tuck your opposite elbow tight to your ribs to block the under-arm from threading underneath. If you can strip the over-arm before hands connect, the seat belt attempt fails completely. The seconds between arm threading and hand connection represent your last high-percentage prevention window—once hands are connected, the structural integrity makes grip breaking exponentially harder.
-
-**Q3**: Why is the seat belt grip specifically more dangerous than other back control grips, and how does this inform your defensive priorities?
-**A**: The seat belt creates opposing diagonal force vectors—the over-arm pushes down while the under-arm pushes up—which prevents rotation in either direction. Other grips like double underhooks only control in one vector, allowing rotational escapes. This means once the seat belt is established, your escape options narrow dramatically because the primary escape mechanism of turning to face your opponent is precisely what the grip is designed to prevent. This informs your priorities: preventing seat belt establishment should be treated as nearly as important as defending the choke itself.
-
-**Q4**: When should you prioritize preventing the seat belt versus prioritizing an escape attempt?
-**A**: Prioritize preventing the seat belt when your opponent begins the grip transition but you still have existing defensive frames intact and your neck is not under immediate threat. Prioritize escape when the opponent releases existing grips to thread the seat belt, creating a momentary window of reduced upper body control that you can exploit with explosive movement. If the seat belt is already fully established with connected hands, shift focus entirely to escape sequences rather than grip breaking, as stripping a connected seat belt requires more energy than escaping during the transition window.
-
-**Q5**: How does recognizing the grip transition window change your escape strategy compared to defending against established seat belt control?
-**A**: During the transition window, the opponent has voluntarily weakened their own control by releasing existing grips. This creates a brief period where their upper body control is at its lowest point, making explosive escapes like hip escape to turtle or turning to face significantly more viable. Against established seat belt control, these same escapes require breaking a connected structural grip first, which costs far more energy and has lower success rates. The practical implication is that you should be prepared to attack the transition window aggressively even if you have been playing patient defense up to that point.
-
-
-
-</section>
 
 
 </main>

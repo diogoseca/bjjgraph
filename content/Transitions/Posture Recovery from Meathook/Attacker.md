@@ -194,6 +194,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Recovery from Meathook?</p>
+
 - Arm extraction is the singular priority—all energy and attention must focus on freeing the trapped limb before any other objective
 - Base widening with the free arm creates the triangular leverage structure essential for generating extraction force against the shin hook
 - Rotational extraction mechanics exploit weakness in the hook angle that straight-line pulling cannot overcome
@@ -208,6 +210,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Recovery from Meathook?</p>
+
 - Free arm posted wide to create stable triangular base structure for leverage generation
 - Recognition that Meathook is established and immediate shift from passing mindset to escape mode
 - Identification of the bottom player's controlling grip type on head or collar for targeted stripping
@@ -219,6 +223,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Recovery from Meathook step by step?</p>
 
 1. **Recognize Meathook and shift to escape mode**: Immediately identify that the bottom player has established shin hook over your arm with controlling grip on your head or collar. Stop all guard passing attempts and mentally commit to escape sequence. Every second of delay increases submission danger as the bottom player consolidates control and begins attack transitions.
 2. **Widen base with free arm**: Post your free arm wide on the mat, creating a triangular base structure that generates mechanical leverage for the coming extraction. The posting hand should be placed far enough from your body to create significant opposing force against the shin hook. A narrow base provides zero mechanical advantage and guarantees failed extraction attempts regardless of strength.
@@ -249,6 +255,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Recovery from Meathook?</p>
+
 - **Bottom player re-establishes shin hook during extraction by tightening legs and pulling shoulder forward** (Effectiveness: High) - Your Response: Reset base position and wait for next transitional moment. Attempting repeated extraction against a re-tightened hook wastes energy. Instead, use grip fighting to loosen the system incrementally before the next explosive attempt. → Leads to [[Positions/Rubber Guard/Meathook]]
 - **Bottom player pivots hips to take the back as top player creates space during posture recovery** (Effectiveness: Medium) - Your Response: Keep hips low and maintain hip-to-hip connection during recovery. If you feel the bottom player's hips rotating behind you, immediately sit back and address hooks before they establish back control. Prioritize denying the back over completing posture recovery. → Leads to [[Positions/Back Control]]
 - **Bottom player transitions to triangle setup as the arm comes free by throwing leg over the neck** (Effectiveness: High) - Your Response: As the arm extracts, keep your head posture high and chin up. If the leg comes over your head, immediately posture up with both hands on their hips before the triangle locks. Speed of posture recovery determines whether the triangle materializes or collapses. → Leads to [[Positions/Rubber Guard/Meathook]]
@@ -260,6 +268,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery from Meathook?</p>
 
 ### 1. Attempting to pass guard while still trapped in Meathook rather than prioritizing arm extraction
 
@@ -299,6 +309,8 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Recovery from Meathook (Attacker)?</p>
+
 **Phase 1: Extraction Mechanics** - Rotational arm extraction technique
 Partner establishes Meathook with light resistance. Practice the spiral extraction motion focusing on internal shoulder rotation, elbow path, and corkscrew timing. No resistance on the hook—focus purely on building the correct movement pattern. 10 repetitions per side with reset between each.
 
@@ -316,36 +328,12 @@ Partner establishes Meathook with full resistance and actively pursues submissio
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your arm is trapped in Meathook and the bottom player has a deep collar grip pulling your head down—what is your immediate first action?
-**A**: Post your free arm wide on the mat to create a triangular base structure before attempting anything else. Without base, you have no leverage for extraction and no platform for posture recovery. The wide post creates opposing force against the shin hook's lever system. Only after base is established should you begin addressing the collar grip and preparing for arm extraction.
-
-**Q2**: Why is rotational arm extraction mechanically superior to straight pulling against the Meathook shin hook?
-**A**: The shin hook creates a lever that resists force in the direct pull-back plane most effectively. Straight pulling aligns with this maximum resistance angle, wasting energy and risking shoulder strain. Rotational extraction—internally rotating the shoulder and spiraling the elbow—applies force along the hook's weaker diagonal angles, exploiting gaps in the lever mechanics that straight pulling cannot access. The corkscrew motion also changes the cross-section of the arm passing through the hook.
-
-**Q3**: The bottom player begins adjusting their hip angle while you are trapped in Meathook—what does this signal and how should you respond?
-**A**: Hip adjustment signals a transition between control maintenance and submission setup. During hip repositioning, the shin hook pressure briefly decreases as the bottom player redistributes weight and changes angles. This transitional moment is your optimal extraction window. Load your rotational pre-tension and execute the explosive spiral extraction timed precisely to their hip movement. Missing this window means waiting for the next transition.
-
-**Q4**: After successfully extracting your trapped arm, what is the critical next action and why must it happen immediately?
-**A**: Immediately recover posture by planting both hands and driving upward through the spine. There must be zero pause between extraction and posture recovery. The bottom player will instantly attempt to re-capture your arm, re-establish Rubber Guard, or transition to traditional Closed Guard attacks. Every fraction of a second with broken posture and a free arm is wasted opportunity—the window for posture recovery closes rapidly as the bottom player adapts.
-
-**Q5**: You feel the bottom player's hips rotating behind you as you create space during posture recovery—what is happening and how do you respond?
-**A**: The bottom player is attempting to take your back by following your space creation with hip rotation. This is the primary counter risk during posture recovery. Immediately sit your hips back and low to prevent them from threading hooks behind you. Address this back take threat before continuing posture recovery—losing the back is worse than remaining in Meathook temporarily. Re-establish hip-to-hip connection and restart the recovery sequence.
-
-**Q6**: Why is accepting Closed Guard after arm extraction strategically correct compared to forcing an immediate pass?
-**A**: Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Recovery from Meathook?</p>
 
 Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range.
 

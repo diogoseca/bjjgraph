@@ -205,11 +205,11 @@ Stack defense integrates into the broader guard retention system as one of sever
 ## Related Techniques
 
 
-- [[Principles/Guard Recovery]] - Core principle applied throughout stack defense
+- [[Transitions/Hip Escape to Guard]] - Core guard recovery movement applied throughout stack defense
 
-- [[Principles/Frame Creation]] - Essential technique for creating defensive space against stacking pressure
+- [[Principles/Frames]] - Essential technique for creating defensive space against stacking pressure
 
-- [[Principles/Shrimping]] - Primary hip escape method used in angle creation during defense
+- [[Transitions/Shrimp Escape]] - Primary hip escape method used in angle creation during defense
 
 - [[Transitions/Double Under Pass]] - Specific stack pass variation this defense counters
 
@@ -221,7 +221,7 @@ Stack defense integrates into the broader guard retention system as one of sever
 
 - [[Transitions/Hip Bump Sweep]] - Offensive follow-up available after defending the stack
 
-- [[Principles/Defensive Framing]] - Core principle governing frame placement against pressure passes
+- [[Principles/Defensive Concepts]] - Core principle governing frame placement against pressure passes
 
 - [[Principles/Bridge and Shrimp]] - Combined movement pattern for creating explosive space under stack pressure
 

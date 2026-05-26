@@ -166,6 +166,8 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Explosive Forward Roll?</p>
+
 - Opponent suddenly grips your wrist or sleeve with both hands, establishing two-on-one control on your choking arm or underhook arm - this is the most reliable pre-roll indicator
 - Opponent bends sharply forward at the waist while simultaneously dropping their level, loading your weight onto their back in preparation for the roll
 - Sudden shift in opponent's energy from grip fighting or static resistance to explosive forward movement with full body commitment
@@ -179,6 +181,8 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Explosive Forward Roll?</p>
+
 - Maintain tight hip-to-hip connection with chest pressure to minimize space the opponent needs to initiate the roll
 - Secure hooks or body triangle before opponent can build the momentum needed for inversion
 - Control at least one of opponent's wrists to prevent them from establishing the grip control needed to safely execute the roll
@@ -191,6 +195,8 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Explosive Forward Roll?</p>
 
 ### 1. Sprawl hips back and sit weight down immediately when you feel opponent bend forward, driving your hips away from the roll direction while maintaining harness grip
 
@@ -228,6 +234,8 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Explosive Forward Roll?</p>
+
 ### → [[Positions/Back Control]]
 
 Sprawl immediately when you feel the forward bend, driving hips back while maintaining harness grip. Keep your weight low and heavy rather than following the opponent forward. Alternatively, ride the roll through while maintaining chest-to-back connection and immediately re-establish hooks on landing.
@@ -243,6 +251,8 @@ When the roll is already in motion and cannot be stopped, release the harness, p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Explosive Forward Roll?</p>
 
 ### 1. Following the opponent forward when they bend, leaning your weight over their back instead of sprawling hips away
 
@@ -277,6 +287,8 @@ When the roll is already in motion and cannot be stopped, release the harness, p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Explosive Forward Roll?</p>
+
 **Week 1-2** - Recognition and sprawl mechanics
 Partner telegraphs the forward roll setup with slow, cooperative movements. Practice recognizing the two-on-one wrist grip and forward bend cues, then executing immediate hip sprawl. Build automatic sprawl response to forward bending motion.
 
@@ -293,29 +305,6 @@ Full resistance sparring starting from standing back control top. Partner uses e
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt an Explosive Forward Roll?
-**A**: The earliest cue is when the opponent establishes two-on-one wrist control on your choking arm or underhook arm. This grip change is necessary before they can safely initiate the roll, and it typically happens 1-2 seconds before the forward bend. Recognizing and disrupting this grip establishment prevents the roll before it begins.
-
-**Q2**: Why is sprawling the primary defensive response rather than tightening your harness grip?
-**A**: Tightening the harness without moving your hips actually helps the opponent because your grip becomes the anchor that lets them pull you forward into the roll. Sprawling moves your center of gravity behind theirs, which removes the momentum they need for the inversion. Your hips going backward is what stops the roll, not your arms squeezing tighter.
-
-**Q3**: Your opponent has already initiated the roll and you are being carried over - what is the optimal response?
-**A**: Ride the roll rather than resisting it. Maintain your harness grip and chest connection through the motion. As you land, immediately post one hand on the mat and drive your hips forward toward mount position. The key is to transition from back control to mount during the scramble rather than trying to maintain back control through an already-committed roll.
-
-**Q4**: How does establishing a body triangle prevent the Explosive Forward Roll from succeeding?
-**A**: The body triangle locks your legs around the opponent's waist in a figure-four configuration that eliminates the hip mobility required for the forward inversion. The opponent cannot bend forward sufficiently or generate the rotational momentum needed because their hips are locked to yours. This forces them to address the body triangle through other escape methods before any rolling technique becomes viable.
-
-**Q5**: What hand fighting strategy should you use when you feel the opponent reaching for two-on-one wrist control?
-**A**: Immediately circle your threatened wrist out of their grip attempt by rotating your hand and pulling your elbow toward your hip. If they establish partial control, use your free hand to peel their fingers or push their controlling hand away. Keep your choking arm elbow tight to your body rather than extended, which makes it harder for them to isolate and control your wrist for the roll setup.
-
-
-
-</section>
 
 
 </main>

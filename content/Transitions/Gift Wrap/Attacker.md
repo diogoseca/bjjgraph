@@ -192,6 +192,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gift Wrap?</p>
+
 - Isolate the target arm before attempting to wrap—chasing the arm without isolation leads to failure
 - Thread your controlling arm under opponent's armpit from outside to inside for maximum mechanical advantage
 - Pull trapped arm high across opponent's chest toward opposite shoulder—high positioning prevents recovery
@@ -206,6 +208,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gift Wrap?</p>
+
 - Mount position established with solid base and weight distribution
 - Opponent's arm has become isolated through defensive movement or your submission feints
 - At least one of opponent's arms is positioned away from their centerline
@@ -218,6 +222,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gift Wrap step by step?</p>
 
 1. **Identify target arm**: From Mount, identify which arm is most isolated or exposed through opponent's defensive positioning. Look for the arm that is furthest from centerline or being used to push against your hips or chest defensively.
 2. **Control the wrist**: Secure grip control on the target arm's wrist or lower forearm using your same-side hand. This initial grip prevents the opponent from retracting the arm while you establish the threading position for the wrap.
@@ -247,6 +253,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gift Wrap?</p>
+
 - **Opponent retracts arm before wrap is established by pulling elbow tight to ribs and keeping arm close to centerline** (Effectiveness: High) - Your Response: Feint toward collar choke or Ezekiel to force defensive arm extension, then immediately attack the Gift Wrap entry on their extended defending arm → Leads to [[Positions/Mount]]
 - **Opponent bridges explosively during the arm threading to disrupt your base and create space** (Effectiveness: Medium) - Your Response: Post with free hand toward their head, drive hips down to absorb bridge, and use their settling movement to complete threading before they can bridge again → Leads to [[Positions/Mount]]
 - **Opponent rotates shoulder forward aggressively to slip out of the developing wrap before it locks** (Effectiveness: Medium) - Your Response: Keep constant pulling pressure on trapped wrist while driving chest forward—their rotation should actually help bring the arm across their body → Leads to [[Positions/Mount]]
@@ -259,6 +267,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gift Wrap?</p>
 
 ### 1. Attempting to force the wrap without first isolating the target arm through setup or feints
 
@@ -298,6 +308,8 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gift Wrap (Attacker)?</p>
+
 **Week 1-2** - Arm threading mechanics
 Practice the arm threading motion with cooperative partner. Focus on the path from outside the armpit to gripping the opposite wrist. Drill grip transfers between hands. Partner offers no resistance, allowing focus on proper mechanics.
 
@@ -315,51 +327,12 @@ Full resistance positional sparring starting from Mount. Execute Gift Wrap again
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Gift Wrap transition from Mount?
-**A**: The primary goal is to trap one of the opponent's arms across their own body, eliminating half of their defensive capability. This creates a dominant control position that serves as a gateway to back takes, rear naked chokes, and armbars on the free arm. The Gift Wrap transforms Mount into a systematic attack platform where defensive options are progressively eliminated.
-
-**Q2**: What is the optimal height to maintain the trapped arm across the opponent's body?
-**A**: The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements.
-
-**Q3**: Your opponent keeps both arms tight to their body from mount bottom—how do you create the Gift Wrap entry?
-**A**: Use submission feints to force defensive arm extension. Attack an Ezekiel choke, collar choke, or americana—any threat that forces them to use their arms defensively. As they push on your attacking arm or extend to create frames, immediately abandon the submission attempt and attack the exposed arm for the Gift Wrap entry. Their defensive reaction creates the arm isolation you need.
-
-**Q4**: What is the critical relationship between mount control and the Gift Wrap transition?
-**A**: Mount control must be maintained throughout the transition—the Gift Wrap is an enhancement to mount, not a replacement for it. Your knees must stay tight, your weight must stay forward, and your hips must stay heavy. If you neglect mount fundamentals while focusing on the arm trap, you risk losing the entire position. Establish solid mount first, then add the arm trap while maintaining all mount control principles.
-
-**Q5**: Your threading arm is in position but opponent is grip-fighting your wrist control—what adjustment do you make?
-**A**: Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side—this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens opportunity: if they release your wrist to defend neck, complete the wrap immediately; if they continue grip fighting, attack the neck.
-
-**Q6**: How do you respond when the opponent bridges explosively during the Gift Wrap entry?
-**A**: Post your free hand wide toward their head to create a stable tripod base while driving your hips down into their chest. The key is anticipating the bridge and loading your weight forward before they complete the explosive movement. If already committed to threading, continue the wrap—your forward pressure should absorb their bridge. Use their settling movement after the bridge fails to complete the arm trap.
-
-**Q7**: After establishing Gift Wrap, your opponent begins turning toward you—how do you capitalize?
-**A**: Their turn toward you is an opportunity rather than an escape. Follow their rotation while maintaining the Gift Wrap arm control and transition to Technical Mount or back control. Use your hooks to guide their rotation rather than fighting it. The arm trap remains intact throughout, and you end in an even more dominant position. Flow with their movement to advance position.
-
-**Q8**: What creates the mechanical leverage to thread your arm across a resistant opponent's body?
-**A**: First control their wrist to prevent retraction, then use your chest weight pressing down on their upper arm and shoulder to pin their elbow. This creates a lever where the pinned elbow is the fulcrum. Without this elbow pressure, you're trying to muscle their entire arm across. With elbow controlled, you only need to guide their forearm, requiring far less force.
-
-**Q9**: Your opponent straightens their arm explosively as you begin the wrap—what is the correct response?
-**A**: Convert immediately to armbar attack. Their defensive straightening actually exposes the arm for submission. Do not chase the Gift Wrap against an extended arm—the straightening is a mistake that creates a better submission opportunity. Secure the extended wrist, control the elbow, and transition to the armbar appropriate for their arm angle. Take what the opponent gives you.
-
-**Q10**: What determines when to attack Gift Wrap versus maintaining mount pressure?
-**A**: Attack Gift Wrap when opponent creates arm isolation through defensive movement—when they push on your hips or chest, when they reach across their body, or when they defend submission attempts with extended arms. Maintain mount pressure when both of their arms are tucked tight to their body. Use submission threats to create the defensive reactions that expose arms for Gift Wrap entries.
-
-**Q11**: What grip configuration provides the strongest Gift Wrap control during the consolidation phase?
-**A**: The threading arm grips opponent's wrist or lower forearm on the far side of their chest, with the arm running diagonally under their armpit. Your free hand controls behind their head or cups the back of their neck, creating a clamp between the head control and the arm trap. This configuration prevents both arm recovery and the head turn needed to initiate escapes. The diagonal line of the threading arm is the structural backbone of the entire control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gift Wrap?</p>
 
 The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners.
 

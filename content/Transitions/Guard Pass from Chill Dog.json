@@ -225,7 +225,7 @@
         "description": "Drill each phase of the pass in isolation with a cooperative partner. Practice breaking the elbow-knee connection using underhook rotation, driving crossface to control head position, flattening hips to mat, and sliding to perpendicular position. Partner maintains static Chill Dog and allows each movement. 30 repetitions per side."
       },
       {
-        "phase": "Phase 2: Pressure Application",
+        "phase": "Phase 2: Pressure",
         "focus": "Weight distribution and sequential control under light resistance",
         "description": "Partner maintains Chill Dog with light resistance, re-closing frames when possible but not initiating escapes. Focus on maintaining constant chest pressure throughout all phases and smooth transitions between each step without lifting weight. Develop the feel of keeping heavy while advancing position. 5-minute rounds."
       },
@@ -245,7 +245,7 @@
         "description": "Start every round in Chill Dog top and attempt to reach side control within 60 seconds against full resistance. Partner uses all available escapes and counter-attacks. Score points for side control establishment and deduct for guard recovery. Develop competition-realistic timing and decision-making under pressure."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical first step when initiating the Guard Pass from Chill Dog?",
         "answer": "Establishing heavy chest pressure on the opponent's upper back between the shoulder blades before attempting to break the defensive frame. Without this initial pressure foundation, any attempt to break the elbow-knee connection will be easily defended as the opponent can simply reset their frame. The chest pressure pins their upper body and limits their ability to adjust or execute explosive escapes, creating the control platform from which all subsequent passing mechanics operate."
@@ -359,7 +359,7 @@
         "correction": "If your hips are already flat, transition immediately to side control escape protocols: create frames, shrimp to create space, and work to insert a knee for guard recovery rather than attempting turtle-based escapes"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a guard pass to side control is being attempted rather than a back take?",
         "answer": "The earliest cue is the direction of the attacker's hip pressure. During a back take attempt, the attacker drives their hips toward your back to insert hooks. During the guard pass, the attacker shifts their hips laterally toward your side while driving downward pressure to flatten. You will also feel the crossface pressure increase as they try to turn your head away rather than reaching under your arms for the seatbelt. The lateral hip movement combined with crossface is the definitive signal distinguishing the pass from the back take."

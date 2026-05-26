@@ -158,13 +158,15 @@ From the top position in half guard, your primary defensive objective against th
 
 Effective defense integrates crossface pressure, grip fighting, and tactical hip positioning. Maintaining heavy shoulder pressure and denying the underhook neutralizes the setup. If the attacker achieves the angle, strong posting combined with driving your weight forward can nullify the elevation. Skilled defenders also use the attacker's commitment against them by timing guard passes during the rotation attempt, capitalizing on the momentary vulnerability created when the bottom player fully commits to the sweep.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting John Wayne Sweep?</p>
 
 - Opponent secures deep underhook and two-on-one grip on your far sleeve, pulling your arm across their body toward their opposite hip
 - Opponent's body begins angling approximately 45 degrees to the underhook side while maintaining half guard hook control on your leg
@@ -178,6 +180,8 @@ Effective defense integrates crossface pressure, grip fighting, and tactical hip
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending John Wayne Sweep?</p>
 
 - Deny the underhook by maintaining strong crossface and shoulder pressure from half guard top
 - Prevent two-on-one grip establishment by maintaining elbow connection and active grip fighting
@@ -193,6 +197,8 @@ Effective defense integrates crossface pressure, grip fighting, and tactical hip
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against John Wayne Sweep?</p>
 
 ### 1. Strip the two-on-one grip by circling your controlled elbow back toward your hip and pulling your wrist free using a strong circular motion
 
@@ -230,6 +236,8 @@ Effective defense integrates crossface pressure, grip fighting, and tactical hip
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending John Wayne Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 Strip the two-on-one grip early by circling your elbow back to your hip, then re-establish crossface and passing posture. Alternatively, drive your weight forward to flatten them and nullify the underhook angle.
@@ -245,6 +253,8 @@ Time a counter-pass during the opponent's sweep commitment. When they fully comm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending John Wayne Sweep?</p>
 
 ### 1. Allowing the two-on-one grip to establish without immediately contesting it through active grip fighting
 
@@ -279,10 +289,12 @@ Time a counter-pass during the opponent's sweep commitment. When they fully comm
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against John Wayne Sweep?</p>
+
 **Phase 1: Recognition and Grip Prevention** - Identifying John Wayne Sweep setups and preventing the two-on-one grip
 Partner slowly works through the John Wayne Sweep setup phases while you practice recognizing each stage. Focus exclusively on stripping the two-on-one grip using elbow circles and wrist extraction. No passing or countering yet - just recognition and grip prevention at various stages of the setup.
 
-**Phase 2: Base Maintenance Under Sweep Pressure** - Maintaining posting structure during active sweep attempts
+**Phase 2: Base Under Sweep Pressure** - Maintaining posting structure during active sweep attempts
 Partner establishes the full John Wayne Sweep setup including two-on-one grip and angle. Practice maintaining base through strong posting, hip positioning, and weight distribution as partner attempts the full sweep with increasing intensity. Focus on staying balanced through the rotation attempt rather than stripping grips.
 
 **Phase 3: Counter-Passing and Tactical Hip Movement** - Converting defensive survival into offensive passing opportunities
@@ -295,29 +307,6 @@ Positional sparring starting in butterfly guard with partner specifically huntin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action against the John Wayne Sweep and at what stage should it occur?
-**A**: The most important defensive action is stripping the two-on-one grip on your sleeve before the attacker can establish angular positioning. This should occur immediately when you feel both of the opponent's hands securing your sleeve or wrist. The two-on-one grip is the foundation of the entire sweep; without it, the attacker cannot isolate your arm, create the rotational axis, or execute the pistol grip break. Every subsequent defensive option has a lower success rate than preventing this initial grip.
-
-**Q2**: Why is withdrawing your hips backward a more effective defense than driving forward when you feel the sweep developing?
-**A**: Withdrawing hips removes your center of gravity from the attacker's hook elevation range, which neutralizes the mechanical advantage their butterfly hooks provide. Driving forward is counterproductive because the John Wayne Sweep specifically exploits forward momentum. Your forward pressure becomes the energy source the attacker uses for elevation and rotation. By pulling hips back, you deny the sweep its required mechanical input while creating distance that makes the two-on-one grip less effective as a steering mechanism.
-
-**Q3**: You feel the opponent's free hand forming the pistol shape and moving toward your posted hand - what is your immediate response?
-**A**: Immediately shift your weight distribution to widen your base and strengthen the posting arm. Bend your elbow slightly to create a more resilient post that cannot be easily broken by the pistol strike. Simultaneously, start circling your controlled arm free from the two-on-one grip using the momentary distraction of the pistol attempt. If the pistol break connects, you need a secondary posting option ready, so prepare to post with your head or opposite hand to maintain base while recovering structure.
-
-**Q4**: How can you use the attacker's full commitment to the sweep rotation as a counter-passing opportunity?
-**A**: When the attacker fully commits to the rotation by extending hooks and pulling strongly on your arm, their guard structure is temporarily compromised because both legs are occupied with elevation rather than retention. If you can maintain base through the initial rotation attempt by posting strongly, you can immediately drive forward through their opened guard with a smash pass, over-under pass, or body lock pass. The key timing window is when the sweep fails but the attacker's legs have not yet recovered to a defensive configuration.
-
-**Q5**: What are the recognition cues that distinguish a John Wayne Sweep setup from a standard butterfly sweep setup?
-**A**: The defining recognition cue is the two-on-one grip configuration on a single arm, which differs from the standard butterfly sweep's typical underhook plus collar/head control. Additionally, the John Wayne Sweep involves a more pronounced angular body rotation to approximately 45 degrees before elevation, whereas the standard butterfly sweep attacks more laterally. The signature pistol grip break motion is unique to this sweep. If you feel both of the opponent's hands on one of your arms combined with angular hip movement, you are facing a John Wayne Sweep rather than a standard butterfly sweep.
-
-
-
-</section>
 
 
 </main>

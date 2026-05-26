@@ -14,7 +14,7 @@ body,
 section {
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--light);
+  background-color: transparent;
   font-family: var(--bodyFont);
   color: var(--darkgray);
   letter-spacing: 0.01em;
@@ -197,10 +197,57 @@ a {
       gap: 1rem;
       top: 0;
       box-sizing: border-box;
-      padding: calc(#{$topSpacing} * 1.5) 3rem 0 3rem;
+      // `margin-top` creates an initial offset below the viewport top.
+      // Combined with `position: sticky; top: 0`, this gives the
+      // "scroll-then-pin" reveal: main-content scroll moves the sidebar
+      // up until its top hits the viewport, then it pins.
+      // 3rem aligns the first sidebar item roughly with the article title.
+      margin-top: 6.75rem;
+      padding: 0 3rem 4rem 3rem;
       display: flex;
       height: 100vh;
       position: sticky;
+      overflow-y: auto;
+      // One-way street: main-content scroll moves the sidebar (via sticky),
+      // but scrolling inside the sidebar never moves the main content.
+      overscroll-behavior-y: contain;
+
+      // Bottom-edge fade: explorer content dissolves before the sidebar ends
+      mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
+      -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
+
+      // Subtle scrollbar
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: var(--lightgray);
+        border-radius: 4px;
+      }
+      &:hover::-webkit-scrollbar-thumb {
+        background: var(--gray);
+      }
+
+      // Search bar pinned to the top of the sidebar's scroll viewport.
+      // A fade overlay below it softens the transition into explorer content.
+      & > .search {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background: transparent;
+        padding-top: 1.5rem;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 100%;
+          height: 1rem;
+          background: transparent;
+          pointer-events: none;
+        }
+      }
     }
 
     & .sidebar.left {
@@ -222,6 +269,8 @@ a {
       grid-area: grid-sidebar-right;
       margin-right: 0;
       flex-direction: column;
+      // Match the left sidebar's visual start (search has 1.5rem padding-top)
+      padding-top: 1.5rem;
       @media all and ($mobile) {
         display: none;
       }

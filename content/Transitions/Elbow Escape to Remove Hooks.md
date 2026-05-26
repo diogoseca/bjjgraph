@@ -214,7 +214,7 @@ The Elbow Escape to Remove Hooks is a critical defensive transition in the back 
 
 - [[Transitions/Back Door Escape]] - Parent escape system containing multiple back escape options
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that must be defended during escape
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that must be defended during escape
 
 - [[Transitions/Hand Fighting from Back]] - Prerequisite defensive transition establishing neck safety before hook removal
 

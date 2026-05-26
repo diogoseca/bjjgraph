@@ -20,8 +20,8 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 39% of exchanges from this position.",
+      "name": "Execute Outside Heel Hook from Cross Ashi-Garami",
+      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,8 +32,8 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Toe Hold from Cross Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Cross Ashi-Garami. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -169,6 +169,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 ## Position Definition
 
+<p class="section-subtitle">What is Cross Ashi-Garami (Top)?</p>
+
 - Top player sits facing opponent with their inside leg (same side as trapped leg) hooking inside opponent's trapped leg, with the foot positioned near or behind opponent's hip, creating inside leg control that prevents opponent from squaring up or turning into the position
 - Top player's outside leg crosses over opponent's trapped leg at shin level, with the shin or calf making contact across the outside of opponent's lower leg, completing the crossed configuration that gives this position its name and mechanical advantage
 - Opponent's trapped leg is extended and isolated between top player's legs with the foot captured and controlled, preventing opponent from retracting the leg or creating defensive frames with their knee
@@ -182,6 +184,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Cross Ashi-Garami (Top)?</p>
+
 - Successful entry from standing position, single leg X-guard, or another leg entanglement position
 - Control of opponent's leg with inside hook established before completing cross configuration
 - Opponent's trapped leg extended and isolated away from their body
@@ -194,6 +198,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Cross Ashi-Garami?</p>
 
 - Maintain constant tension on the trapped leg by keeping it extended and preventing opponent from retracting the knee toward their body
 - Control opponent's hip rotation by angling your body perpendicular to their torso, limiting their ability to turn into or away from the entanglement
@@ -210,6 +216,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Cross Ashi-Garami (Top)?</p>
+
 **If opponent attempts to turn toward entanglement to hide heel:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
@@ -217,7 +225,7 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 **If opponent attempts to clear outside leg cross by kicking or pushing:**
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent establishes strong inside position with free leg:**
@@ -226,13 +234,13 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 
 **If opponent attempts to sit up or establish upper body frames:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
 
 
 **If opponent flexes knee strongly to defend heel:**
 - Execute **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 60%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 50%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 50%)
 
 
 
@@ -242,6 +250,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Cross Ashi-Garami?</p>
 
 ### 1. Allowing too much space between your body and opponent's, creating separation in the entanglement
 
@@ -281,6 +291,8 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Cross Ashi-Garami attacks?</p>
+
 ### Cross Ashi Entry Repetitions
 
 Partner starts in standing or seated position. Practice entering Cross Ashi-Garami from various positions (single leg X, standing, standard Ashi) focusing on establishing inside hook first, then completing outside cross. Drill 10 entries from each position, emphasizing smooth transitions and proper leg placement. Partner provides light resistance to simulate realistic entry conditions.
@@ -313,38 +325,6 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of crossing your outside leg over the opponent's trapped leg in Cross Ashi-Garami?
-**A**: The crossed leg creates a wedge effect that prevents the opponent from sitting up or rotating their hips effectively. This configuration generates superior mechanical advantage for heel hook applications by controlling both hip rotation and lower leg movement simultaneously, while also limiting the opponent's escape options by trapping the leg between two points of control.
-
-**Q2**: Your opponent begins sitting up aggressively to create frames - what adjustment should you make to maintain the position?
-**A**: Drive your inside hook deeper behind their hip while pulling their heel tighter to your chest, creating increased tension that pulls them back down. Simultaneously, consider attacking with the heel hook to punish their attempt to sit up, as their upward movement often exposes the heel more clearly. The threat of immediate submission forces them to abandon the sit-up attempt.
-
-**Q3**: What are the essential grip configurations for maintaining Cross Ashi-Garami control?
-**A**: The primary grip is a cup grip on the heel with both hands, palm across the Achilles tendon and fingers pointing toward the toes. This controls heel rotation completely. The elbows should stay tight to the body for maximum leverage. Secondary control comes from your legs - inside hook behind their hip and outside leg crossing at shin level create a pinching effect that traps the leg.
-
-**Q4**: How should you position your hips relative to your opponent's body for optimal control?
-**A**: Your hips should be perpendicular (90 degrees) to your opponent's hip line, creating an L-shape between your bodies. This angle maximizes your control over their hip rotation and provides optimal leverage for both maintaining the position and finishing submissions. Being square to them allows forward pressure and easier escape.
-
-**Q5**: Your opponent attempts to kick their outside leg free by straightening it forcefully - how do you counter this?
-**A**: Use their straightening motion as an opportunity to transition to Saddle by crossing your feet and securing deeper control. Their extension actually helps you enter a more dominant position. Alternatively, if your heel grip is strong, their straightening creates optimal finishing mechanics for the heel hook since full leg extension increases rotational force on the knee.
-
-**Q6**: What is the correct weight distribution and body positioning for maintaining Cross Ashi-Garami?
-**A**: Maintain an elevated upper body position by sitting up rather than lying flat - this provides better control and offensive options. Your weight should be centered over your hips with slight forward pressure toward the opponent. Keep your core engaged to prevent being pulled off-balance when the opponent attempts to create space or frame.
-
-**Q7**: Your opponent turns their knee toward you to hide their heel - what is your response?
-**A**: Their inward rotation exposes the opportunity to transition to Inside Ashi-Garami by adjusting your leg position to the inside. Follow their rotation by scooting your hips and maintaining constant pressure. You can also use the rotation to enter the Saddle position, which provides even greater control and submission options from their turned position.
-
-**Q8**: How do you manage energy expenditure while maintaining Cross Ashi-Garami over extended periods?
-**A**: Focus on structural control rather than muscular tension. Let your leg positioning and body angle do the work rather than gripping excessively hard. Maintain just enough tension to prevent escape while staying relaxed enough to flow between submission attempts. Attack in waves rather than constant pressure, using submission threats to keep opponent defensive without burning energy.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

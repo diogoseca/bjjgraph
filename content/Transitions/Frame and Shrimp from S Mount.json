@@ -74,8 +74,8 @@
       "relationship": "Alternative escape technique - reversal-based approach using opponent's weight against them"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Primary submission threat - the attack that motivates this escape"
+      "name": "Mount to Armbar",
+      "relationship": "Primary submission threat - the armbar attack that motivates this escape"
     },
     {
       "name": "Armbar Control",
@@ -252,7 +252,7 @@
         "description": "Positional sparring starting from S Mount at full competition resistance. Integrate the Frame and Shrimp with bridge escapes and trap-and-roll attempts based on what the top person gives you. Track escape success rate over multiple rounds and identify which timing windows produce the highest percentage escapes."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?",
         "answer": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise."
@@ -373,7 +373,7 @@
         "correction": "Only commit to armbar when you have clear arm extension opportunity. If the collar grip is still solid and the arm is bent, maintain S Mount position first and wait for a better submission opening."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?",
         "answer": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins."

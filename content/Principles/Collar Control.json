@@ -36,7 +36,7 @@
       "description": "Using collar grips to pull opponent off-balance and create angles by dragging them laterally or diagonally. This involves timing the drag with opponent's forward pressure, understanding leverage points, and combining drags with footwork or hip movement to maximize displacement effect."
     },
     {
-      "skill_name": "Posture Breaking Through Collar",
+      "skill_name": "Posture Through Collar",
       "description": "Pulling opponent forward and down through collar grips to break their upright posture and compromise their base. This requires understanding the biomechanics of spinal flexion, using both hands on collar when needed, and maintaining broken posture despite opponent's recovery attempts."
     },
     {
@@ -44,7 +44,7 @@
       "description": "Identifying when collar grip configurations create immediate choking opportunities such as cross collar, loop choke, or bow and arrow setups. This involves recognizing grip depth requirements, hand positioning for choke application, and transitioning from control grip to submission grip."
     },
     {
-      "skill_name": "Grip Fighting for Collar Priority",
+      "skill_name": "Grips for Collar Priority",
       "description": "Winning the battle to establish collar grips before opponent can establish their preferred grips or break your collar control. This includes hand fighting tactics, grip breaking defenses, and strategic decision-making about when collar grips take priority over other grip objectives."
     },
     {
@@ -62,17 +62,17 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Grip Fighting",
+      "principle_name": "Grips",
       "relationship_type": "Prerequisite",
       "description": "Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips"
     },
     {
-      "principle_name": "Posture Breaking",
+      "principle_name": "Posture",
       "relationship_type": "Complementary",
       "description": "Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control"
     },
     {
-      "principle_name": "Head Control",
+      "principle_name": "Head Position",
       "relationship_type": "Extension",
       "description": "Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull"
     },
@@ -82,14 +82,14 @@
       "description": "Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other"
     },
     {
-      "principle_name": "Guard Retention",
+      "principle_name": "Frames",
       "relationship_type": "Complementary",
-      "description": "Collar control from guard positions serves as both offensive attack foundation and defensive retention mechanism by controlling opponent's posture and pressure application"
+      "description": "Collar control from guard positions complements frame creation by controlling opponent's posture and weight distribution, while frames maintain defensive structure when collar grips are temporarily lost"
     },
     {
-      "principle_name": "Grip Strategy",
+      "principle_name": "Hand Fighting",
       "relationship_type": "Extension",
-      "description": "Collar control represents a specific strategic grip priority within the broader grip strategy framework, often taking precedence in gi-specific game plans"
+      "description": "Collar control represents a specific strategic grip priority within the broader hand fighting framework, where winning collar access often determines the tactical direction of an exchange"
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -102,7 +102,7 @@
       "description": "Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes"
     },
     {
-      "principle_name": "Leverage Principles",
+      "principle_name": "Levers",
       "relationship_type": "Extension",
       "description": "Collar grips provide powerful leverage for manipulating opponent's upper body, head position, and overall base through biomechanical advantage"
     }
@@ -270,7 +270,7 @@
       "focus": "Understanding when opponent's movement creates collar drag opportunities and developing ability to off-balance and create angles through collar manipulation"
     },
     {
-      "approach_name": "Grip Fighting Games",
+      "approach_name": "Grips Games",
       "description": "Engage in grip fighting-only rounds where objective is establishing and maintaining collar grips while preventing opponent from doing same",
       "focus": "Developing grip fighting tactics specific to collar control, learning to prioritize collar grips strategically, and building grip endurance"
     },
@@ -362,27 +362,27 @@
       "relationship": "Primary collar-based submission that depends entirely on deep collar grip penetration"
     },
     {
-      "name": "Ezekiel Choke",
-      "content_type": "Submission",
-      "relationship": "Collar-based choke utilizing sleeve grip to supplement collar control"
-    },
-    {
       "name": "Bow and Arrow Choke",
       "content_type": "Submission",
       "relationship": "Advanced collar-based submission from back control combining collar grip with pants grip"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Baseball Bat Choke",
+      "content_type": "Submission",
+      "relationship": "Collar-based choke utilizing baseball grip configuration from side control and knee on belly"
+    },
+    {
+      "name": "Grips",
       "content_type": "Principle",
       "relationship": "Prerequisite skill for establishing collar control against resisting opponent"
     },
     {
-      "name": "Posture Breaking",
+      "name": "Posture",
       "content_type": "Principle",
       "relationship": "Primary tactical application of collar control in guard positions"
     },
     {
-      "name": "Head Control",
+      "name": "Head Position",
       "content_type": "Principle",
       "relationship": "Advanced form of control that extends from deep collar grip penetration"
     }

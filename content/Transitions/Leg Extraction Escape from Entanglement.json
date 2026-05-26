@@ -249,7 +249,7 @@
         "description": "Partner establishes loose outside ashi garami with no resistance. Practice identifying each connection point (foot grip, inside hook, hip pressure) and clearing them in sequence. Perform 20 slow-motion extractions per side, focusing on maintaining straight leg alignment throughout. No timing pressure, purely mechanical repetition."
       },
       {
-        "phase": "Phase 2: Grip Fighting Integration",
+        "phase": "Phase 2: Grips Integration",
         "focus": "Two-on-one grip strips under light resistance",
         "description": "Partner holds grips at 50% strength while you practice two-on-one wrist peels on the foot grip and hand clearing on the inside hook. Add the push-kick with the free leg and practice the full extraction sequence against graduated resistance. 10 repetitions per side with increasing grip strength each round."
       },
@@ -269,7 +269,7 @@
         "description": "Intentionally allow training partners to establish leg entanglements during live rolling to practice recognition and escape selection under full competition conditions. Track which configurations you encounter most frequently and which escape methods succeed most often. Adjust training focus based on data."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical body alignment to maintain throughout the entire leg extraction sequence?",
         "answer": "Straight leg alignment on the trapped leg is the single most critical factor. The knee must remain extended or at most slightly bent with the heel pointing away from the opponent throughout the extraction. Any significant bending of the trapped knee during extraction creates the exact finishing angle the opponent needs for heel hooks. The extraction motion should feel like pulling a straight rod through a gap rather than navigating a bent leg around obstacles. If your heel becomes visible to the opponent at any point during the escape, you have created a more dangerous situation than the original entanglement."
@@ -394,7 +394,7 @@
         "correction": "Proactively manage the free leg by hooking it with your arm, trapping it with your leg, or blocking it from reaching your body. The free leg is the extraction's engine."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most effective moment to advance your entanglement when the opponent attempts leg extraction?",
         "answer": "The optimal advancement window is when the opponent commits both hands to stripping your foot or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting rather than managing your hooks or blocking your hip advancement. Step your outside leg over their hip or re-pummel your inside hook deeper while their attention is focused on their hands. This creates the paradox where their grip-stripping success on one connection point results in deeper entanglement on another, effectively punishing the escape attempt."

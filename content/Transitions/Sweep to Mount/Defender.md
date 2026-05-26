@@ -166,6 +166,8 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep to Mount?</p>
+
 - Attacker walks their feet toward their hips and plants them flat on the mat, shifting from hooking legs to a bridging platform configuration
 - Attacker's hips shift laterally 30-45 degrees off center toward their choking arm side, loading the directional angle for the sweep
 - Increased upward pressure from the guillotine grip pulling your head toward the attacker's choking arm side, indicating they are loading your weight for the off-balance
@@ -178,6 +180,8 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep to Mount?</p>
 
 - Maintain a wide, low base with weight distributed evenly to resist directional off-balancing from any angle
 - Prioritize head extraction and posture recovery as the ultimate solution that eliminates both choke and sweep simultaneously
@@ -193,6 +197,8 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep to Mount?</p>
 
 ### 1. Post your far-side hand wide on the mat and drive your weight backward, creating a wide tripod base that resists the directional bridge
 
@@ -230,6 +236,8 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep to Mount?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Stall the sweep by maintaining a wide base and active posting hand, then systematically work on extracting your head from the guillotine through chin tuck, hand fighting on the choking wrist, and incremental posture recovery. Each failed sweep attempt by the attacker burns their energy while you work toward full grip removal.
@@ -245,6 +253,8 @@ Time a sprawl during the attacker's loading phase to break the guillotine grip e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep to Mount?</p>
 
 ### 1. Keeping a narrow base with knees close together while the attacker loads the sweep angle
 
@@ -279,6 +289,8 @@ Time a sprawl during the attacker's loading phase to break the guillotine grip e
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep to Mount?</p>
+
 **Week 1-2** - Recognition and base maintenance
 Partner establishes Hindulotine bottom and goes through the sweep loading phase at slow speed. Practice recognizing the hip shift, foot plant, and weight loading cues. Focus on maintaining a wide base with active posting hand and responding to the loading phase by widening base before the bridge fires. Partner does not fire the bridge explosively, allowing you to feel the setup repeatedly.
 
@@ -295,29 +307,6 @@ Full resistance rounds starting from Hindulotine bottom where partner attacks wi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending against the Sweep to Mount?
-**A**: The best defensive window is during the attacker's loading phase, when they shift their hips laterally and plant their feet for the bridge, but before the explosive bridge fires. Recognizing hip shifts and foot plants gives you time to widen your base or sprawl before the sweep generates full momentum. Once the bridge fires with proper angle and power, defensive recovery becomes extremely difficult.
-
-**Q2**: Why does posting your far-side hand wide to block the sweep create a defensive dilemma?
-**A**: The wide post effectively blocks the sweep by creating a structural base that resists the directional bridge. However, extending that arm pulls it away from defending the guillotine grip, leaving less hand-fighting capacity to address the choke. The attacker can exploit this by abandoning the sweep and tightening the guillotine, or by using the space your extended arm creates to transition to a Darce choke.
-
-**Q3**: Your training partner fires the sweep bridge and you feel yourself tipping - what is your last-resort recovery option?
-**A**: If you are past the balance point and the sweep is completing, immediately tuck your chin and bring both hands to your neck to defend the mounted guillotine that will follow. Do not waste energy trying to stop a sweep that has already succeeded. Your priority shifts to surviving the choke in mount rather than preventing the positional change, since the guillotine is the immediate finishing threat.
-
-**Q4**: How do you distinguish between the attacker setting up the Sweep to Mount versus the Butterfly Sweep with Guillotine?
-**A**: The key difference is foot positioning. For the Sweep to Mount, the attacker plants both feet flat on the mat near their hips in a bridging configuration. For the Butterfly Sweep with Guillotine, the attacker hooks their feet inside your thighs as butterfly hooks. Recognizing flat-planted feet versus hooking feet tells you which sweep variant is coming and determines whether you need to resist a bridge or avoid being elevated.
-
-**Q5**: What makes flattening your body against the attacker a high-risk defensive choice despite eliminating the bridge space?
-**A**: Flattening your body removes the bridging space needed for the sweep, but it simultaneously compresses your neck deeper into the guillotine grip. This increases choking pressure because your own body weight drives you into the forearm blade under your chin. The strategy only works if your chin tuck and grip fighting are strong enough to survive the increased choke pressure while the sweep threat is neutralized.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar from Crucifix?</p>
+
 - Threaten the choke first to force the opponent's free arm into a defensive position that exposes it for the armbar
 - Maintain the leg triangle on the near arm throughout the entire armbar transition—losing this control collapses the position
 - Secure wrist control on the target arm before repositioning your body, as the arm must be captured before you commit to the attack angle
@@ -208,6 +210,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar from Crucifix?</p>
+
 - Full crucifix control established with near arm trapped securely in leg triangle configuration
 - Opponent's free arm extended or elevated in neck defense position, creating accessibility for wrist capture
 - Stable chest-to-back connection maintained with sufficient weight distribution to prevent opponent from rolling
@@ -220,6 +224,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar from Crucifix step by step?</p>
 
 1. **Confirm Crucifix Control**: Verify that the near arm is securely trapped in your leg triangle with constant inward squeeze, your chest is tight to the opponent's back, and your base is stable. Check that the opponent cannot extract the trapped arm by testing with a slight squeeze. This foundation must be solid before initiating the armbar sequence.
 2. **Threaten the Choke**: Attack the opponent's neck with your free hand, working toward a rear naked choke or collar choke entry. This forces the opponent to bring their free arm up to defend the neck, pulling it away from their body and into a position where you can capture it. The choke threat must be credible enough to demand a committed defensive response.
@@ -239,7 +245,7 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
+| Success | [[Positions/Armbar Control]] | 65% |
 | Failure | [[Positions/Crucifix]] | 25% |
 | Counter | [[Positions/Back Control]] | 10% |
 
@@ -249,6 +255,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Armbar from Crucifix?</p>
 
 - **Opponent clasps hands together to prevent arm isolation** (Effectiveness: High) - Your Response: Use a grip break by wedging your forearm between their clasped hands and peeling fingers, or transition back to choke threat to force them to release the clasp and defend the neck again → Leads to [[Positions/Crucifix]]
 - **Opponent tucks free arm tight against body and refuses to extend for neck defense** (Effectiveness: Medium) - Your Response: Increase choke pressure to force a defensive response, or transition to attacking the near arm trapped in the leg triangle using a near-arm armbar variation → Leads to [[Positions/Crucifix]]
@@ -261,6 +269,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar from Crucifix?</p>
 
 ### 1. Releasing leg triangle control on the near arm while transitioning to armbar
 
@@ -300,6 +310,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar from Crucifix (Attacker)?</p>
+
 **Phase 1: Positional Recognition** - Identifying the armbar opportunity window from crucifix
 Drill the crucifix position statically, focusing on recognizing when the opponent's free arm is committed to neck defense. Practice the choke-to-armbar transition slowly with a cooperative partner, emphasizing the moment the arm becomes available. Repeat 20-30 times per session until the recognition becomes automatic.
 
@@ -320,48 +332,12 @@ Begin rounds from established crucifix or practice entering crucifix from back c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to transition from choke threat to armbar attack in the crucifix?
-**A**: The optimal timing is when the opponent has fully committed their free arm to neck defense—their hand is at or above the collar/chin level and they are actively fighting your choking arm. At this moment, the arm is extended away from their body and their mental focus is on the choke threat, making wrist capture easiest and their defensive reaction to the armbar slowest. Transitioning before the arm is fully committed means the arm is still protected against their body.
-
-**Q2**: What grip should you use when capturing the opponent's wrist for the armbar setup?
-**A**: Use a C-grip or monkey grip around the opponent's wrist, wrapping your fingers around the wrist with your thumb on top. This grip allows you to control wrist rotation and pull the arm across your centerline. Avoid a thumbless grip as it provides less rotational control. If the wrist is sweaty, transition to a two-on-one grip with both hands controlling the wrist and forearm for redundant control during the hip repositioning phase.
-
-**Q3**: Why must the leg triangle on the near arm be maintained throughout the entire armbar transition?
-**A**: The leg triangle trapping the near arm is the foundation of the entire crucifix control structure. If it loosens or releases during the armbar transition, the opponent immediately gains use of both arms—one to defend the armbar and one to create frames for escape. The position collapses from crucifix to a compromised back control where the armbar attempt becomes far lower percentage. The leg triangle must maintain constant inward pressure even while the hips reposition for the armbar angle.
-
-**Q4**: In which direction should you drive your hips to create maximum hyperextension on the elbow?
-**A**: Drive your hips upward toward the ceiling in a bridge motion while the opponent's arm is trapped between your thighs with the thumb pointing up. The upward hip drive creates hyperextension force against the natural bend of the elbow joint. Your hip line should be perpendicular to the opponent's forearm, with the elbow crease positioned directly against your hip crease or lower abdomen. The force vector must be straight up against the elbow, not at an angle.
-
-**Q5**: Your opponent clasps their hands together as you attempt to isolate the arm—how do you break this defensive grip?
-**A**: Use a grip break by wedging your forearm between their clasped hands, applying a peeling motion to separate the fingers. Alternatively, use a two-on-one wrist pull to overcome the grip strength. If the grip is too strong to break directly, transition back to threatening the choke—the opponent must release the clasp to defend the neck, which recreates the armbar opportunity. The most effective approach is cycling between threats rather than fighting the grip directly.
-
-**Q6**: What is the most critical hip adjustment when transitioning from crucifix control to armbar configuration?
-**A**: The most critical adjustment is walking your hips toward the opponent's head to create perpendicular alignment between your hip line and the target arm's elbow joint. Without this adjustment, the armbar lacks the mechanical leverage for a clean finish because the extension force is not directed properly against the elbow. The hip walk must be incremental—small scooting movements that don't telegraph the transition or create space for the opponent to escape.
-
-**Q7**: The opponent begins to bridge explosively while you are repositioning for the armbar—what adjustment do you make?
-**A**: Stay tight to the opponent's back and ride the bridge rather than posting your hands on the mat, which would create space. Maintain your grip on the wrist and keep the leg triangle squeezed. As the opponent returns from the bridge, they are momentarily vulnerable—use this window to advance your hip position or commit to the armbar finish. If the bridge significantly disrupts your position, abort the armbar and return to stable crucifix control before attempting again.
-
-**Q8**: If the opponent successfully retracts their arm to defend the armbar, what should your immediate follow-up be?
-**A**: Immediately transition back to the choke threat. When the opponent retracts their arm from armbar defense, they necessarily pull it away from defending the neck. This reopens the choking lane that was previously blocked. The power of the crucifix attack system lies in this binary dilemma—every defensive action against one threat creates vulnerability to the other. Flow between armbar and choke attempts without releasing core positional controls until one attack succeeds.
-
-**Q9**: Why is knee pinch critical to the armbar finish from crucifix?
-**A**: Knee pinch traps the opponent's arm between your thighs and prevents them from rotating the arm, pulling the elbow past your hip line, or creating slack in the extension. Without tight knees, the opponent can bend the elbow and stack or rotate to relieve hyperextension pressure. The pinch also controls the wrist rotation angle, keeping the thumb pointed up so the elbow remains in the vulnerable hyperextension plane. Loose knees are the most common reason crucifix armbars fail at the finishing stage.
-
-**Q10**: What entry requirements must exist before you can initiate the armbar from crucifix?
-**A**: Four conditions must exist: (1) the crucifix position must be fully consolidated with the near arm securely trapped in the leg triangle, (2) the opponent's free arm must be accessible—either committed to neck defense or extended away from their body, (3) your chest-to-back connection must be stable enough to prevent rolling during the transition, and (4) you must have enough hip mobility remaining to reposition for the armbar angle without compromising the leg triangle. Attempting the armbar without all four conditions leads to position loss.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar from Crucifix?</p>
 
 The crucifix armbar applies sudden hyperextension force to the elbow joint in a position where the defender has severely limited ability to resist or create space. In training, always apply the finishing extension gradually and progressively—never use explosive hip bridges against your partner's arm. Allow training partners adequate time to recognize the submission and tap before increasing pressure. The trapped position means the defender may have difficulty reaching to tap with their free hand; establish verbal tap signals and immediately release upon any tap indication. Monitor your partner's arm position throughout and abort if the angle becomes dangerous. Competition practitioners should drill the finish with controlled intensity to develop proper mechanics without relying on explosive force.
 

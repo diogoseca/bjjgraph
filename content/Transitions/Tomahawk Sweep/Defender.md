@@ -154,6 +154,8 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Tomahawk Sweep?</p>
+
 - Attacker begins rotating their hips 30-45 degrees off center-line toward one side while maintaining both hooks in place
 - Attacker secures a strong sleeve or collar grip on the same side as their top hook and begins pulling your weight forward
 - Attacker's top hook shifts from a static holding position to an active pushing motion across your hip line with increasing pressure
@@ -166,6 +168,8 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Tomahawk Sweep?</p>
 
 - Deny the angular setup by maintaining forward pressure and preventing the attacker from rotating their hips off center-line
 - Prioritize stripping the top hook first since it generates the primary chopping force that powers the sweep
@@ -180,6 +184,8 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Tomahawk Sweep?</p>
 
 ### 1. Strip the top hook by pushing the knee outward and stepping your trapped leg backward to break the X-configuration
 
@@ -217,6 +223,8 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Tomahawk Sweep?</p>
+
 ### → [[Positions/X-Guard]]
 
 Strip the top hook early in the setup phase by pushing the knee outward while simultaneously driving your hips forward to flatten the attacker's angular structure. Once the top hook is removed, the Tomahawk Sweep is mechanically impossible and you can begin systematic X-Guard passing sequences.
@@ -232,6 +240,8 @@ Time a backstep around the committed sweep angle when the attacker overcommits t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Tomahawk Sweep?</p>
 
 ### 1. Standing upright with narrow base while the attacker establishes the angular setup for the Tomahawk Sweep
 
@@ -261,6 +271,8 @@ Time a backstep around the committed sweep angle when the attacker overcommits t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Tomahawk Sweep?</p>
+
 **Week 1-2: Recognition and awareness** - Identifying Tomahawk Sweep setup cues
 Partner establishes X-Guard and slowly sets up the Tomahawk Sweep while defender practices identifying the angular hip rotation, grip establishment, and top hook loading that distinguish this sweep from standard X-Guard attacks. No resistance from defender initially, just recognition and verbal callouts of each setup phase.
 
@@ -277,26 +289,6 @@ Full positional sparring starting from X-Guard top against a partner who mixes T
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that distinguishes a Tomahawk Sweep setup from a standard X-Guard elevation sweep?
-**A**: The earliest distinguishing cue is the attacker rotating their hips 30-45 degrees off center-line while maintaining both hooks. Standard elevation sweeps maintain a perpendicular hip position for vertical lifting, while the Tomahawk requires this angular setup for its diagonal chopping mechanics. Feeling the hip shift combined with increased lateral pressure from the top hook signals the Tomahawk setup specifically.
-
-**Q2**: Why is stripping the top hook the highest-priority defensive action against the Tomahawk Sweep?
-**A**: The top hook generates the primary chopping force that creates the rotational momentum powering the sweep. Without the top hook, the attacker can only generate vertical elevation through the bottom hook, which converts the attack to a standard X-Guard sweep that is easier to defend with simple base adjustments. Removing the top hook eliminates the scissoring action that makes the Tomahawk Sweep uniquely difficult to resist with posting alone.
-
-**Q3**: When defending the Tomahawk Sweep, why might sprawling backward expose you to leg entanglement entries?
-**A**: Sprawling backward shifts your weight away from the attacker's hooks, which can loosen their X-Guard structure. However, this backward movement also extends your legs toward the attacker and changes the angle of engagement in a way that facilitates entries to Inside Ashi Garami or Saddle positions. The attacker can maintain their bottom hook control during the sprawl and use your backward momentum to pull into leg entanglement configurations where heel hooks and kneebars become available.
-
-**Q4**: What specific defensive posture should you maintain to minimize Tomahawk Sweep effectiveness from X-Guard top?
-**A**: Maintain a low stance with bent knees, hips back, and weight distributed across both legs with a slightly wider-than-shoulder base. Keep constant forward pressure into the X-Guard structure to prevent the attacker from elevating their hips or creating angular rotation. Actively fight grips to prevent sleeve or collar control on the sweep side. This posture reduces the effectiveness of the rotational force by lowering your center of gravity and making the angular setup more difficult to establish.
-
-
-
-</section>
 
 
 </main>

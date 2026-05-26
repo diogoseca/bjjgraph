@@ -224,7 +224,7 @@
         "description": "Execute sweep attempts during live rolling from clamp guard at full resistance. Focus on identifying real-time sweep opportunities, managing failed attempts without losing the clamp, and immediately consolidating mount after successful sweeps. Track success rate and analyze which variations work best against different body types and defensive styles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Clamp Guard?",
         "answer": "The optimal timing window occurs when the opponent's center of gravity shifts forward past their base or when their free arm commits to a non-basing action such as extraction attempts, grip fighting, or submission defense. These moments reduce their available posting points to zero on the trapped arm side, meaning the sweep encounters no structural resistance in that direction. Attempting the sweep when the opponent is settled with their free arm posted and hips low produces dramatically lower success rates because they can resist the directional force with their remaining base."
@@ -340,7 +340,7 @@
         "correction": "Break posture grips and loosen the clamp before attempting to stand, or if standing is necessary, keep the arm tight to your body and posture incrementally rather than explosively"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive priority when trapped in clamp guard and facing sweep threats?",
         "answer": "The single most important priority is maintaining the free arm's availability for posting and basing. With one arm trapped, the free arm is your only structural defense against directional sweeps. Committing it to extraction, offense, or any non-basing function when the opponent is threatening sweeps leaves you with zero posting ability and guarantees being swept. All other defensive concerns — extraction, passing, submission defense — are secondary to ensuring the free arm can post in the sweep direction at any moment."

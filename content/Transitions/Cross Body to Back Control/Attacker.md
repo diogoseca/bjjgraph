@@ -194,6 +194,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Cross Body to Back Control?</p>
+
 - Maintain unbroken chest-to-back contact throughout the entire rotation—any daylight between your chest and their back is an escape opportunity
 - Establish the seatbelt grip before initiating any hip rotation to anchor your upper body control during the transition
 - Insert hooks sequentially rather than simultaneously, using each established hook as a new control point before threading the next
@@ -209,6 +211,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Cross Body to Back Control?</p>
+
 - Established perpendicular chest-to-back contact with weight loaded onto opponent's upper back from cross body ride position
 - Seatbelt grip secured with one arm threaded under the opponent's armpit and the other over their shoulder, hands clasped
 - Opponent's near-side arm controlled or neutralized through pressure, overhook, or wrist control to prevent posting
@@ -221,6 +225,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Cross Body to Back Control step by step?</p>
 
 1. **Secure Seatbelt Grip**: From perpendicular cross body position, thread your near arm under the opponent's armpit and your far arm over their shoulder, clasping hands together to establish the seatbelt control configuration. The choking arm goes over the shoulder while the underhook arm threads deep. This grip anchors the entire transition and must be established before any rotation begins.
 2. **Load Weight Forward**: Drive your chest weight forward and downward into the opponent's upper back, collapsing their turtle structure and preventing them from posting or creating space. Your sternum should press firmly into their spine. This forward pressure pins them in place and reduces their ability to react explosively during the rotation phase.
@@ -251,6 +257,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Cross Body to Back Control?</p>
+
 - **Opponent tucks elbows tight to ribs and balls up defensively, denying seatbelt establishment** (Effectiveness: High) - Your Response: Maintain heavy perpendicular pressure and threaten crucifix entries to force them to post an arm. When they extend even slightly to prevent flattening, immediately thread the seatbelt through the gap created. → Leads to [[Positions/Cross Body Ride]]
 - **Opponent executes explosive granby roll during the rotation phase when pressure momentarily shifts** (Effectiveness: High) - Your Response: Follow the roll direction with your chest, using the seatbelt to stay connected. If they complete the roll, you may end up in front headlock or scramble position. Prevent the granby by keeping weight extremely heavy and forward during rotation. → Leads to [[Positions/Half Guard]]
 - **Opponent sits through toward your hips during rotation, attempting to recover guard** (Effectiveness: Medium) - Your Response: When you feel the sit-through attempt, immediately switch your hip angle to follow them. Drive your near hook deeper and use the seatbelt to pull their upper body back toward you. The sit-through often exposes their back more if you stay attached. → Leads to [[Positions/Half Guard]]
@@ -263,6 +271,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Cross Body to Back Control?</p>
 
 ### 1. Lifting chest off opponent's back to create room for hook insertion
 
@@ -302,6 +312,8 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Cross Body to Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Rotation pathway and pressure maintenance
 Practice the hip rotation from perpendicular to parallel on a cooperative partner, focusing exclusively on maintaining chest-to-back contact throughout the movement. No hook insertion yet—just the rotation with seatbelt. Repeat until the rotation feels automatic without any pressure loss.
 
@@ -322,42 +334,12 @@ Practice the back take as part of the broader turtle attack system. If the direc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to begin the rotation from perpendicular to parallel?
-**A**: The optimal window opens when the opponent's turtle structure shows signs of collapse under your sustained perpendicular pressure—specifically when their elbows begin widening, their head drops, or their hips sag toward the mat. These indicators mean they are absorbing your weight rather than maintaining defensive structure, reducing their capacity for explosive escape during the transition. Never initiate rotation when the opponent is freshly set in a strong, tight turtle.
-
-**Q2**: What entry requirements must be met before initiating the Cross Body to Back Control transition?
-**A**: Four conditions must be met: established perpendicular chest-to-back contact with weight loaded onto the opponent's back, seatbelt grip secured with one arm over the shoulder and one under the armpit with hands clasped, control or neutralization of the opponent's near-side arm to prevent posting, and sufficient base through your far-side leg to support controlled rotation. Missing any one of these prerequisites significantly reduces success rate and increases counter opportunities.
-
-**Q3**: What is the most critical mechanical detail that determines success or failure of this transition?
-**A**: Maintaining unbroken chest-to-back contact throughout the entire rotation is the single most critical mechanical detail. Any separation between your chest and the opponent's back—even momentarily to insert hooks—creates the space necessary for granby rolls, sit-throughs, and turns that defeat the transition. The chest connection functions as continuous compression that pins the opponent's defensive options. Every other element of the technique serves this principle.
-
-**Q4**: Your opponent posts their near arm outward as you begin rotating—how do you adjust?
-**A**: An extended near arm is actually an opportunity rather than an obstacle. Use your underhook arm to scoop under their posted arm and begin trapping it for a crucifix entry, which is often higher percentage than continuing the back take. Alternatively, use heavy shoulder pressure to collapse the post inward, then immediately resume the rotation before they can re-establish the frame. The posted arm signals that they are prioritizing blocking your rotation over protecting their limbs—exploit this defensive commitment.
-
-**Q5**: What grip configuration is required before initiating the rotation, and why?
-**A**: The seatbelt grip is required—one arm threaded over the opponent's shoulder (the choking arm) and the other under their armpit (the control arm), with hands clasped together at the sternum. This grip is mandatory because it serves as the upper body anchor that prevents the opponent from spinning away during rotation. Without the seatbelt, your rotation causes you to slide off the opponent's back since there is no connection preventing lateral separation. The grip must be established before any hip movement begins.
-
-**Q6**: What is the primary direction of force you apply during the transition?
-**A**: The primary force vector is downward and forward through your chest into the opponent's upper back. During the rotation phase, this vector shifts from purely downward perpendicular pressure to a diagonal downward-and-forward compression as you move behind them. You should never pull the opponent toward you during the transition—instead, you drive yourself into them. This forward pressure prevents them from creating distance, standing, or generating the space needed for any escape attempt.
-
-**Q7**: Your opponent executes a sit-through toward your near hip as you begin inserting the first hook—what is your response?
-**A**: Follow the sit-through direction with your seatbelt control, keeping your chest attached to their back as they rotate. The sit-through often exposes their back more than it defends it if you stay connected. Use your seatbelt to redirect their upper body back toward your hooks while your near-side leg follows their hip rotation. If they complete the sit-through fully, you may end up in a modified back control or transition to the opposite side. Never release the seatbelt to re-establish the perpendicular position—commit forward with them.
-
-**Q8**: If the direct back take is blocked and you cannot complete the rotation, what chain attacks are available?
-**A**: Three primary chains branch from a blocked back take: First, if the opponent posts their near arm to block rotation, transition to crucifix by trapping that arm with your legs. Second, if they ball up tightly, maintain cross body pressure and begin crab ride hook insertion on their near hip for an alternative back take pathway. Third, if they flatten to belly, thread for a clock choke or darce choke from the perpendicular position. The key principle is that every defensive reaction to the back take opens a different offensive pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Cross Body to Back Control?</p>
 
 Cross Body to Back Control is a positional transition without direct submission threat, making it relatively low risk for training partners. However, practitioners should be mindful of neck strain during the rotation phase, particularly if the opponent's head gets trapped between the top player's chest and the mat. Avoid driving excessive weight onto the opponent's cervical spine. During drilling, ensure the bottom player can tap or verbally communicate discomfort from pressure. When practicing with significant size mismatches, the larger player should moderate chest pressure to prevent rib compression injuries on the bottom player.
 

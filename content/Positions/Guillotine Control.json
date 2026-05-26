@@ -98,7 +98,7 @@
       "Use the threat of the choke to facilitate position advancement when direct finish is not immediately available",
       "Keep your own posture strong and base wide to prevent opponent from sweeping or reversing while you work the submission"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the essential grips for maintaining Guillotine Control Top?",
         "answer": "The primary grips include palm-to-palm (Marcelo grip), gable grip, and S-grip configurations. The choking arm wraps around the neck with the blade of the forearm or bicep crossing the front of the throat, while the supporting hand clasps to create a closed loop. Grip selection depends on arm-in versus no-arm variations and opponent's defensive reactions."
@@ -325,43 +325,47 @@
     },
     "transitions": [
       {
-        "transition": "Guillotine Choke",
-        "attempt_probability": 44
+        "transition": "Guillotine Choke from Guillotine Control",
+        "attempt_probability": 52
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Arm in Guillotine Variation",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Guillotine Counter",
         "attempt_probability": 1
       },
       {
+        "transition": "Guillotine Counter",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Ten Finger Guillotine Variation",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Guillotine Choke",
         "attempt_probability": 1
       }
     ]
@@ -409,7 +413,7 @@
       "Maintain constant threat of submission finish while remaining prepared to transition to sweep attempts or alternative submissions if opponent successfully defends primary attack",
       "Protect against counter-passes by maintaining active guard structure and being ready to transition to different guard variations or re-establish position if opponent begins advancing"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the essential grips for maintaining Guillotine Control Bottom?",
         "answer": "The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip."
@@ -640,7 +644,7 @@
     },
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": 50
       },
       {

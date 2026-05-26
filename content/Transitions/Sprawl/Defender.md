@@ -162,6 +162,8 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sprawl?</p>
+
 - Sudden heavy downward pressure on your shoulders and upper back as opponent's chest drives down onto you
 - Your forward momentum is abruptly stopped and your hips are being forced toward the mat as opponent drives their hips back
 - Loss of grip connection to opponent's legs as they circle their hips away from your reach
@@ -174,6 +176,8 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sprawl?</p>
 
 - Protect your neck immediately by tucking your chin and keeping your elbows tight to deny choke access
 - Maintain connection to at least one of your opponent's legs to preserve takedown options or prevent them from circling freely
@@ -188,6 +192,8 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sprawl?</p>
 
 ### 1. Switch to single leg by redirecting to one leg and driving laterally while maintaining tight grip
 
@@ -225,6 +231,8 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sprawl?</p>
+
 ### → [[Positions/Standing Position]]
 
 Complete the takedown by switching to a single leg, re-shooting after disengaging, or powering through the sprawl. The key is either changing your angle of attack to work around the sprawl or creating enough separation to reset and attack again before your opponent can settle their stance.
@@ -240,6 +248,8 @@ If front headlock control is imminent and you cannot complete the takedown, pull
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sprawl?</p>
 
 ### 1. Continuing to drive forward into the sprawl on the same angle after the shot has been stuffed
 
@@ -274,6 +284,8 @@ If front headlock control is imminent and you cannot complete the takedown, pull
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sprawl?</p>
+
 **Phase 1: Positional Awareness and Neck Protection** - Learning to maintain safe defensive posture when caught under a sprawl
 Partner establishes sprawl position with moderate pressure. Practice maintaining chin tuck, elbow positioning, and base with knees under hips for extended periods under pressure. No escape attempts yet, purely developing comfort and safety in the position. Build the habit of automatic neck protection as the first response when a sprawl lands.
 
@@ -290,29 +302,6 @@ Engage in live takedown sparring where you initiate shots against a partner who 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your double leg shot gets sprawled on and you feel heavy chest pressure collapsing your posture - what is your first defensive priority?
-**A**: Your first priority is to tuck your chin tightly to your chest and bring your elbows close to your body to protect your neck from submission attempts. The opponent's immediate goal after sprawling is to establish front headlock control and attack with guillotines, darce chokes, or anacondas. If your neck is exposed during this transition, you are likely to be caught in a choke before you can execute any recovery. Secure the chin tuck first, then assess your remaining grip connections and available recovery options.
-
-**Q2**: When should you attempt to re-shoot after your initial takedown is stuffed by a sprawl rather than continuing to fight from underneath?
-**A**: Re-shooting is best attempted when you can create enough separation to stand up and the opponent has not yet locked up a front headlock grip. The window typically exists in the first two to three seconds after the sprawl lands, before the opponent transitions their hands from the mat to your head and neck. If you can push off their hips, circle away, and stand to an athletic stance, an immediate re-shot catches them while they are still recovering from the sprawl position. If the opponent already has front headlock grips, attempting to disengage and re-shoot is dangerous because they will snap you down as you try to stand.
-
-**Q3**: How do you convert a stuffed double leg into a single leg finish after being sprawled on?
-**A**: When your double leg is sprawled, immediately redirect by releasing one leg and tightening your grip on the other. Change your angle by stepping your outside foot to the far side of their body while driving your head across to the opposite hip. This converts the straight-line double leg into an angled single leg that is much harder to defend with a sprawl alone. Drive laterally rather than forward, using the new angle to off-balance them in a direction their sprawl does not defend. From there, use standard single leg finishes such as the trip, the run the pipe, or the dump.
-
-**Q4**: Your shot gets stuffed and the opponent begins circling to establish front headlock - what is the most critical thing to prevent?
-**A**: The most critical thing to prevent is allowing the opponent to get their arm deep around your neck while simultaneously controlling your far shoulder. This dual control is what makes front headlock dangerous, because it locks you in place and sets up all their submission chains. Use your hands to fight their incoming arm at the wrist or elbow, preventing them from threading under your chin. Simultaneously, circle in the opposite direction from where they are stepping to deny them the angle they need. If you can prevent the neck grip from being established, the front headlock remains loose and your escape options stay viable.
-
-**Q5**: When is pulling guard the correct response to getting sprawled on versus continuing to fight for the takedown?
-**A**: Pulling guard is the correct response when the opponent has consolidated front headlock control with deep grips and active submission threats, making continued standing engagement more dangerous than conceding bottom position. Specifically, if their arm is already deep around your neck and their chest pressure is heavy, attempting to fight through creates high risk of guillotine or darce finishes. In this scenario, sitting through to closed guard or half guard while controlling their arms neutralizes the front headlock threats and puts you in a guard position you can work from. However, pulling guard should be a last resort when other recovery options have failed, not a default response to any sprawl.
-
-
-
-</section>
 
 
 </main>

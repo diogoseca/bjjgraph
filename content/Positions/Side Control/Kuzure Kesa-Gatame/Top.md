@@ -20,20 +20,20 @@ description: "Offensive guide for controlling and attacking from modified scarf 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Americana from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -50,8 +50,8 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Paper Cutter Choke",
-      "text": "From this position, attempt Paper Cutter Choke. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ The position also serves a critical strategic role in competition and training s
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kuzure Kesa-Gatame (Top)?</p>
+
 - Top practitioner sits beside opponent with hip pressed into opponent's lower ribs, their weight channeled through this contact point while chest stays low over opponent's upper body, one of opponent's arms trapped between top practitioner's armpit and chest extending across their torso
 - Top practitioner's base leg (far from opponent) posts wide to prevent being rolled, knee bent and foot flat on mat creating stable tripod with hip and sitting bone, while near leg can hook over opponent's hip or extend for additional base depending on control requirements
 - Opponent's trapped arm is controlled at both shoulder (by top practitioner's armpit pressure) and wrist (by top practitioner's grip or arm position), preventing arm recovery while creating immediate submission access, opponent's free arm limited in effectiveness by top practitioner's low chest position and hip pressure
@@ -182,6 +184,8 @@ The position also serves a critical strategic role in competition and training s
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kuzure Kesa-Gatame (Top)?</p>
+
 - Side control has been achieved with opponent flattened to their side
 - One of opponent's arms has been isolated and can be trapped across top practitioner's torso
 - Top practitioner can establish hip pressure into opponent's ribs while maintaining low chest position
@@ -192,6 +196,8 @@ The position also serves a critical strategic role in competition and training s
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Kuzure Kesa-Gatame?</p>
 
 - Hip pressure is the foundation—all control and submissions flow from maintaining this pressure vector
 - Chest stays low and heavy, using body weight efficiently rather than muscular tension
@@ -208,18 +214,20 @@ The position also serves a critical strategic role in competition and training s
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Kuzure Kesa-Gatame (Top)?</p>
+
 **If opponent keeps trapped arm bent and defensive while attempting hip escapes:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 **Else if opponent extends trapped arm attempting to create frame or push:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 68%)
+- Execute **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 **Else if opponent bridges and attempts to roll you over posting leg:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
 - Execute **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 58%)
 
 
@@ -235,6 +243,8 @@ The position also serves a critical strategic role in competition and training s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Kuzure Kesa-Gatame?</p>
 
 ### 1. Sitting too upright with torso vertical rather than maintaining low chest position
 
@@ -279,6 +289,8 @@ The position also serves a critical strategic role in competition and training s
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Kuzure Kesa-Gatame attacks?</p>
+
 ### Pressure Maintenance Under Movement
 
 Establish position, partner attempts only hip escapes (no submissions). Focus solely on maintaining hip pressure and chest position through their movement. Partner increases resistance progressively. Develops pressure sensitivity and adjustment timing.
@@ -319,38 +331,6 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?
-**A**: Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction.
-
-**Q2**: What are the two critical control points for the trapped arm and why are both necessary?
-**A**: You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery.
-
-**Q3**: Your opponent uses their free arm to push against your chest and create space - how do you shut this down?
-**A**: Stay low with your chest parallel to the mat rather than sitting upright. Their push has no leverage point when your weight is already distributed low across their torso. If needed, use your head position on their far side to redirect any pushing force. The key is preventing them from getting their elbow underneath their push - keep your chest heavy and deny the space needed for effective framing.
-
-**Q4**: What is the proper weight distribution through your body to maintain maximum control with minimum energy expenditure?
-**A**: Channel approximately 70% of your weight through your hip into their ribs and 30% through your chest onto their upper body. Your posting leg should be weight-bearing only for balance, not for pressure generation. Relax your upper body muscles and let skeletal alignment maintain the chest position - tension in your arms and shoulders wastes energy and actually reduces control effectiveness.
-
-**Q5**: How do you use hip pressure directionally rather than just applying downward weight?
-**A**: Direct your hip pressure at a 45-degree angle toward their far hip, not straight down into the mat. This angular pressure prevents them from turning into you or away from you - it pins their torso in place. Think of driving your hip through their body toward their far hip bone. This directional pressure is far more controlling than simply being heavy.
-
-**Q6**: Your opponent starts attempting to recover guard by turning into you - what immediate action prevents this while creating offensive opportunity?
-**A**: Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement.
-
-**Q7**: What are the essential grips for maintaining this position against a strong opponent?
-**A**: The primary grip is your armpit clamp on their trapped upper arm, reinforced by your same-side hand controlling their wrist or forearm. Your free hand posts on the mat near their far hip for base, or controls their far-side lapel in gi to prevent turning. In no-gi, your free hand can crossface or underhook their far-side neck. The grip hierarchy prioritizes armpit clamp first, wrist control second, and far-side control third.
-
-**Q8**: How do you recover position after your opponent partially escapes by inserting a knee shield between your bodies?
-**A**: Do not fight the knee shield directly by trying to smash through it. Instead, maintain your arm control and use your hip to backstep around the knee shield, re-angling your body to re-establish chest-to-chest contact from a new angle. Alternatively, transition to North-South to bypass the knee entirely while keeping arm control. The knee shield only works if you engage it head-on - lateral movement defeats it while preserving your dominant grip on the trapped arm.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -373,9 +353,9 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 - **[[Positions/Side Control/Kesa Gatame]]** - Parent position—traditional scarf hold without arm isolation
 - **[[Positions/Side Control]]** - Position family sharing control principles
-- **[[Transitions/Americana]]** - Primary submission transition from trapped arm
-- **[[Transitions/Armbar Finish]]** - High-percentage submission when arm extends
-- **[[Transitions/Kimura]]** - Alternative shoulder lock transition from same arm control
+- **[[Submissions/Americana]]** - Primary submission transition from trapped arm
+- **[[Submissions/Far Side Armbar]]** - High-percentage submission when trapped arm extends
+- **[[Submissions/Kimura]]** - Alternative shoulder lock transition from same arm control
 - **[[Positions/Mount]]** - Common advancement when opponent turns in
 - **[[Positions/North-South]]** - Transitional position for maintaining control
 - **[[Positions/Gift Wrap]]** - Alternative control when arm trapping opportunities arise

@@ -162,6 +162,8 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Seat Belt to Body Triangle?</p>
+
 - Attacker's top hook begins withdrawing from inside your thigh while seat belt pressure increases — the pressure increase compensates for reduced leg control during threading
 - You feel one leg sliding across your abdomen or lower ribs rather than maintaining hook position inside your thigh
 - Attacker's hip pressure shifts as they position their hips more firmly on the mat in preparation for the threading base
@@ -173,6 +175,8 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Seat Belt to Body Triangle?</p>
 
 - Monitor the attacker's leg positioning constantly — recognizing the threading attempt early is the single most important defensive factor
 - Exploit the single-hook vulnerability window with immediate hip movement the moment one hook is withdrawn for threading
@@ -187,6 +191,8 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Seat Belt to Body Triangle?</p>
 
 ### 1. Explosive hip escape during single-hook phase
 
@@ -224,6 +230,8 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Seat Belt to Body Triangle?</p>
+
 ### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Exploit the single-hook vulnerability window by executing an immediate hip escape the moment you recognize one hook being withdrawn. The combination of your hip movement and the attacker's reduced leg control frequently forces them to abort the threading and re-insert the hook, returning to standard back control where your hook-clearing escape sequences remain viable.
@@ -239,6 +247,8 @@ If you cannot prevent the threading but can turn into the attacker before the lo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seat Belt to Body Triangle?</p>
 
 ### 1. Failing to recognize the threading attempt until the body triangle is already locked
 
@@ -268,6 +278,8 @@ If you cannot prevent the threading but can turn into the attacker before the lo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Seat Belt to Body Triangle?</p>
+
 **Phase 1: Recognition Training** - Identifying threading attempts through tactile awareness
 Partner alternates between normal hook adjustments and actual body triangle threading attempts from seat belt control. Defender calls out 'threading' each time they recognize a genuine transition attempt versus a normal adjustment. No escape execution — purely recognition development. Build to 90% correct identification rate before progressing.
 
@@ -284,29 +296,6 @@ Positional sparring starting from seat belt back control. Attacker's explicit go
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is attempting the body triangle transition rather than just adjusting their hooks?
-**A**: The earliest cue is feeling one hook begin to withdraw from inside your thigh while simultaneously experiencing increased seat belt pressure and chest compression. Normal hook adjustments maintain the hook inside your thigh — they shift position but don't withdraw. The threading attempt requires the hook to come completely out of your thigh to cross your torso. Additionally, the attacker's hip pressure often increases against the mat as they establish a stable threading base, which feels different from the dynamic hip movement of standard back control.
-
-**Q2**: Why is defending during the threading phase far more effective than defending after the body triangle locks?
-**A**: During the threading phase, the attacker has voluntarily reduced their leg control from two independent hooks to a single hook plus a crossing leg that provides no control until locked. This is the weakest point of their back control during the entire transition. After the lock closes, you face a unified mechanical structure that eliminates your primary escape pathways — hook clearing — and adds breathing restriction that compounds over time. Defending during threading requires one well-timed hip escape; escaping an established body triangle requires sustained technical work under physiological stress.
-
-**Q3**: Your hands are already defending your neck when you feel the threading begin — how do you defend without compromising neck protection?
-**A**: Use your hips and legs as the primary defense rather than your hands. Execute an immediate hip escape away from the remaining hook, which creates distance that prevents the crossing leg from completing its path. Simultaneously bring your knees together and tuck them toward your chest, which physically blocks the threading leg's path across your torso without requiring any hand involvement. Your hands remain on neck defense throughout. This hip-and-knee defense is actually more effective than hand blocking because it addresses the root mechanic of the transition.
-
-**Q4**: The body triangle has just locked but the attacker has not yet established full squeeze pressure — what immediate action gives you the best escape chance?
-**A**: Attack the figure-four lock immediately before the attacker settles their weight and begins squeezing. Target the foot tucked behind their knee — push it out of the knee crease using your nearest hand while simultaneously turning your hips toward the triangle leg side. The first 3-5 seconds after the lock closes offer the best clearing opportunity because the attacker is still adjusting their position and the lock has not yet been reinforced by sustained squeeze pressure. Once they settle and squeeze, clearing becomes exponentially more difficult.
-
-**Q5**: How should you adjust your overall escape strategy when you realize the attacker is likely to attempt the body triangle transition?
-**A**: Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply.
-
-
-
-</section>
 
 
 </main>

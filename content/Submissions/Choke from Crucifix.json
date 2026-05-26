@@ -85,14 +85,13 @@
   ],
   "related_submissions": [
     "Rear Naked Choke",
-    "Armbar from Crucifix",
     "Clock Choke",
-    "Triangle Choke",
+    "Arm Triangle",
     "Kimura",
     "Ezekiel Choke",
-    "Arm Triangle",
     "Bow and Arrow Choke",
-    "Short Choke"
+    "Bicep Slicer",
+    "Darce Choke"
   ],
   "related_content": [
     {
@@ -124,8 +123,8 @@
       "relationship": "Alternative back control position with crucifix entry options"
     },
     {
-      "name": "Rear Naked Choke",
-      "relationship": "Related choke sharing similar mechanics from back position"
+      "name": "Rear Naked Choke from Gift Wrap",
+      "relationship": "Related choke sharing similar arm-control mechanics from back position"
     },
     {
       "name": "Back Control",
@@ -272,7 +271,7 @@
         "description": "Full-speed positional sparring starting from crucifix. Partner uses realistic defensive responses: chin tuck, rolling attempts, bridging, arm extraction. Attacker must chain between choke variations and adjust to defensive reactions. Include rounds where partner is told to defend only neck (forcing armbar threats) and defend only arms (forcing choke). Develop the multi-threat attack flow that makes this position so dangerous in competition."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What must be established before attempting any choke from crucifix position?",
         "answer": "Complete crucifix control with both of the opponent's arms fully trapped and neutralized must be established first. This means your top leg securely hooks their far arm, your bottom leg controls their near arm, and they are flattened onto their side or back. Position dominates submission - attempting the choke before securing this control will result in escape or defensive hand fighting. The crucifix arm traps are what make this choke defenseless.",
@@ -414,7 +413,7 @@
         "correction": "Address the hierarchy of threats in order: first defend the choke through chin and shoulder positioning, then work arm extraction, then attempt positional escape. Skipping steps leads to submission."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive priority when you recognize a choke attempt from crucifix bottom?",
         "answer": "The first priority is immediate neck protection through aggressive chin tuck to the chest and shoulder elevation toward the ears. This creates physical barriers that prevent the attacker's forearm from sliding under your chin. Because both arms are trapped, you cannot use traditional grip-fighting defense, so your neck positioning is your primary and often only line of defense against the choke. This must happen instantly upon recognition - every second of delay allows the attacker to improve their choking angle and insertion depth.",

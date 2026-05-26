@@ -21,37 +21,37 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from High Mount",
+      "text": "From this position, attempt Cross Collar Choke from High Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Americana from High Mount",
+      "text": "From this position, attempt Americana from High Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kimura from High Mount",
+      "text": "From this position, attempt Kimura from High Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Arm Triangle from High Mount",
+      "text": "From this position, attempt Arm Triangle from High Mount. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Position Definition
 
+<p class="section-subtitle">What is High Mount (Top)?</p>
+
 - Knees positioned high near opponent's armpits or shoulders, creating a wedge that eliminates space and prevents bridge leverage. The knee placement should be tight enough to feel pressure on the opponent's upper ribs while restricting arm movement and creating constant compression on the torso.
 - Hips elevated and positioned on opponent's upper chest or sternum, with weight distributed forward through the pelvis. The elevated hip position removes the opponent's ability to generate upward force through bridging while maintaining mobility for transitions to S-Mount or Technical Mount.
 - Weight centered over opponent's torso with forward lean towards their head, creating constant downward pressure. The top player's chest should be positioned over the opponent's chest with hands controlling the head, neck, or arms to prevent defensive framing and maintain forward pressure distribution.
@@ -183,6 +185,8 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing High Mount (Top)?</p>
 
 - Solid mount control fundamentals including weight distribution and base maintenance principles
 - Understanding of armbar mechanics and arm isolation principles for submission finishing
@@ -197,6 +201,8 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from High Mount?</p>
 
 - Walk knees progressively higher towards armpits to eliminate bridge leverage and restrict opponent's arm movement
 - Maintain forward weight distribution for maximum control, leaning chest over opponent's chest rather than sitting upright
@@ -213,14 +219,16 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from High Mount (Top)?</p>
+
 **If opponent keeps arms extended for frames or defensive postures with straight arms:**
 - Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent tucks elbows tight to body and protects neck defensively with bent arms:**
-- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Submissions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent attempts to bridge or turn to side for escape with explosive movement:**
@@ -234,7 +242,7 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 
 **If opponent exposes neck while defending arms or attempting to protect upper body:**
-- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Submissions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 65%)
 
 
@@ -245,6 +253,8 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from High Mount?</p>
 
 ### 1. Sitting too low on hips instead of positioning weight on upper chest
 
@@ -289,6 +299,8 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train High Mount attacks?</p>
+
 ### High Mount Establishment Drill
 
 Practice walking knees up from standard mount against progressive resistance (0%, 25%, 50%, 75%), focusing on maintaining balance and forward pressure throughout transition. Partner provides increasing resistance by attempting to create frames and prevent knee advancement.
@@ -328,38 +340,6 @@ Hold high mount position for extended periods while partner attempts to survive 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal weight distribution for maintaining High Mount Top?
-**A**: Weight should be distributed forward with your chest positioned over the opponent's chest, driving pressure through your hips onto their upper sternum and chest area. Avoid sitting upright as this shifts your center of gravity backward, allowing bridge escapes. The forward lean should feel like you're trying to pin their shoulders to the mat with your torso weight while your knees act as wedges near the armpits.
-
-**Q2**: Your opponent starts to bridge explosively - what adjustment do you make?
-**A**: When they bridge, immediately post your hands wide toward their head to create a tripod base, spread your knees slightly for stability, and drive your hips down into their chest. If the bridge is strong enough to create space, flow with their movement by transitioning to S-Mount (if they push on your hips) or Technical Mount (if they turn to the side). Never fight the bridge rigidly - use their movement to advance position.
-
-**Q3**: What are the essential grips for maintaining High Mount position?
-**A**: Primary grip options include cross-face control (hand behind their head pulling them into your chest), collar grips (if in gi, deep grip on the same-side collar), wrist control (pinning one arm to the mat or their body), or head-and-arm control (controlling the head while isolating an arm). The specific grip depends on your submission setup, but maintaining at least one form of upper body control is critical for preventing frame creation.
-
-**Q4**: How do you shut down the primary elbow escape from High Mount?
-**A**: The elbow escape requires the bottom player to create space at their hip to insert their knee. Prevent this by keeping your knees tight to their armpits (eliminating hip space), maintaining forward pressure (making it difficult for them to turn), and controlling their near-side arm (preventing the frame needed to create turning leverage). When you feel them begin to hip escape, immediately drive your hip into the space they're creating and consider transitioning to Technical Mount on that side.
-
-**Q5**: What grip priorities should you establish before attempting submissions from High Mount?
-**A**: Before attacking, establish control of at least one arm to prevent defensive frames. Ideal grip progression: first, control their ability to frame on your chest or hips (wrist pin or underhook their arm); second, isolate the target arm for your submission; third, secure your finishing grip only after the arm is properly isolated. Rushing to submission grips before controlling the defensive arm is the most common cause of failed mount submissions.
-
-**Q6**: How do you apply pressure effectively in High Mount without exhausting yourself?
-**A**: Effective pressure comes from structure, not muscular effort. Position your weight forward so gravity does the work - your torso should compress their upper chest while your knees wedge against their armpits. Stay relaxed in your core and legs, only tensing when countering specific escape attempts. The pressure should feel heavy and constant to them but sustainable for you. If you're getting tired maintaining mount, you're likely sitting too upright and using muscle instead of body positioning.
-
-**Q7**: Your opponent creates frames on your hips and starts pushing - how do you capitalize on this?
-**A**: Frames on your hips are submission opportunities. Their arms are now extended and exposed. Options include: swim your hand under their elbow to break the frame and immediately attack armbar, step over to S-Mount making their frames useless while threatening the armbar, or secure a two-on-one grip on one of their framing arms and isolate it for americana or armbar. The key is recognizing that their frames, while creating momentary space, also commit their arms in predictable positions.
-
-**Q8**: How do you recover position after your opponent partially escapes to half guard?
-**A**: If they manage to insert a knee and recover half guard, immediately establish crossface control and drive your shoulder into their jaw to flatten them. Underhook their far arm to prevent them from getting to their side. Work to free your trapped leg by applying a knee slice or backstep while maintaining heavy upper body pressure. The key is not to rush - maintain top pressure and systematically work to re-pass rather than frantically trying to re-establish mount, which often creates more scramble opportunities for them.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

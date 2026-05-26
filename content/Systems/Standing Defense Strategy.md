@@ -26,7 +26,7 @@ description: "Master standing defense with systematic framework for takedown pre
     },
     {
       "@type": "HowToStep",
-      "name": "Grip Fighting Integration",
+      "name": "Grips Integration",
       "text": "Develop systematic grip fighting habits to prevent opponent from establishing dominant grips. In gi, focus on preventing cross-collar grips and sleeve control. In no-gi, prevent wrist control and body lock attempts.",
       "position": 2
     },
@@ -171,7 +171,7 @@ Mastery of standing defense is essential for both gi and no-gi competition, as i
 <section id="key-components" class="content-section">
 
 ## Key Components
-**Grip Fighting Framework** (Prevent opponent from establishing grips necessary for high-percentage takedown attacks)
+**Grips Framework** (Prevent opponent from establishing grips necessary for high-percentage takedown attacks)
 Systematic approach to controlling opponent's grips in both gi and no-gi contexts. In gi, this involves preventing dominant sleeve and collar grips that enable powerful throws and takedowns. In no-gi, focus shifts to controlling opponent's wrists, preventing body lock grips, and maintaining distance through strategic hand fighting. The framework emphasizes proactive grip breaking rather than reactive defense.
 
 **Sprawl Defense Protocol** (Neutralize leg attack takedowns and create opportunities for counter-offense)
@@ -180,7 +180,7 @@ Technical system for defending single leg and double leg takedown attempts throu
 **Distance Management System** (Control when and how opponent can initiate takedown attacks through spatial awareness)
 Strategic framework for controlling engagement distance through footwork, circling patterns, and range awareness. Teaches practitioners to recognize three critical distances: out of range (safe), engagement range (hand fighting), and danger zone (opponent can shoot). System includes protocols for maintaining preferred distance, using angles to create escape paths, and tactical retreating without being driven to boundaries.
 
-**Base Maintenance Principles** (Create structural stability that makes takedowns mechanically difficult to complete)
+**Base Principles** (Create structural stability that makes takedowns mechanically difficult to complete)
 Technical framework for maintaining strong defensive base through proper stance width, knee bend, weight distribution, and hip positioning. Addresses common errors such as standing too upright, crossing feet, or having stance too narrow. Includes protocols for lowering center of gravity when opponent initiates attack, widening base under pressure, and recovering balance when compromised. Emphasizes connection between base quality and takedown resistance.
 
 
@@ -199,7 +199,7 @@ Key points:
 
 
 
-2. **Grip Fighting Integration**: Develop systematic grip fighting habits to prevent opponent from establishing dominant grips. In gi, focus on preventing cross-collar grips and sleeve control. In no-gi, prevent wrist control and body lock attempts.
+2. **Grips Integration**: Develop systematic grip fighting habits to prevent opponent from establishing dominant grips. In gi, focus on preventing cross-collar grips and sleeve control. In no-gi, prevent wrist control and body lock attempts.
 Key points:
 - Proactively fight for inside position with hands
 - Break opponent grips immediately when established
@@ -271,7 +271,7 @@ Proficiency indicators:
 - Expert: 85%+ defense rate against higher-skilled wrestlers with strategic guard pulling when appropriate
 
 
-**Grip Fighting Effectiveness**: Assess ability to prevent opponent from establishing dominant grips and maintain preferred hand positioning
+**Grips Effectiveness**: Assess ability to prevent opponent from establishing dominant grips and maintain preferred hand positioning
 Proficiency indicators:
 - Consistently break opponent grips within 2-3 seconds of establishment
 - Prevent opponent from securing body lock or double sleeve control
@@ -340,7 +340,7 @@ Standing defense training should integrate technical drilling, reaction training
 - [[Butterfly Guard]] (Position) - Guard option when pulling from standing defense
 - [[Sprawl]] (Transition) - Primary defensive technique against leg attack takedowns
 - [[Sprawl Defense]] (Transition) - Comprehensive technique for defending double and single leg attacks
-- [[Takedown Entry]] (Principle) - Understanding takedown entries is essential for recognizing and defending against them
+- [[Connection Principles]] (Principle) - Understanding connection and contact principles is essential for recognizing and defending takedown setups
 - [[Guard Pull]] (Transition) - Strategic alternative to standing defense when tactically appropriate
 - [[Single Leg Entry]] (Transition) - Common attack this system defends against
 - [[Double Leg Finish]] (Transition) - Common attack this system defends against
@@ -348,13 +348,13 @@ Standing defense training should integrate technical drilling, reaction training
 - [[Whizzer]] (Transition) - Defensive control used in sprawl defense protocol
 - [[Technical Stand-up]] (Transition) - Offensive transition to return to standing when taken down
 - [[Snap Down to Front Headlock]] (Transition) - Counter-offensive technique from standing defense exchanges
-- [[Base Maintenance]] (Principle) - Fundamental principle for maintaining structural stability in standing defense
-- [[Defensive Posture]] (Principle) - Postural principles applied throughout standing defensive exchanges
-- [[Grip Fighting]] (Principle) - Essential skill for preventing takedown setups and controlling engagement
-- [[Distance Creation]] (Principle) - Strategic principle for controlling engagement distance
-- [[Defensive Strategy]] (Principle) - Overarching strategic framework for defensive decision-making
-- [[Weight Distribution]] (Principle) - Biomechanical principle for maintaining balance and base in standing
-- [[Risk Assessment]] (Principle) - Decision-making framework for evaluating when to defend vs pull guard
+- [[Base]] (Principle) - Fundamental principle for maintaining structural stability in standing defense
+- [[Posture]] (Principle) - Postural principles applied throughout standing defensive exchanges
+- [[Grips]] (Principle) - Essential skill for preventing takedown setups and controlling engagement
+- [[Distance Control]] (Principle) - Strategic principle for controlling engagement distance and creating separation
+- [[Defensive Concepts]] (Principle) - Overarching conceptual framework for defensive decision-making
+- [[Center of Gravity]] (Principle) - Biomechanical principle for maintaining balance and base in standing
+- [[Competition Mindset]] (Principle) - Decision-making framework for evaluating when to defend standing vs pull guard in competition context
 - [[Competition Strategy]] (System) - Broader strategic framework within which standing defense operates
 - [[No-Gi Tactical Framework]] (System) - No-gi specific strategic approach incorporating standing defense principles
 

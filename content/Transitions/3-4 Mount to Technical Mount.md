@@ -206,9 +206,9 @@ The 3-4 Mount to Technical Mount transition sits at the heart of the mount offen
 
 - [[Transitions/Back Take]] - Key follow-up transition when opponent turns away to defend armbar from Technical Mount
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission available after successful transition to Technical Mount
+- [[Armbar from Armbar Control]] - Primary submission finish available through Technical Mount to Armbar Control pathway
 
-- [[Submissions/Americana from Technical Mount]] - Alternative submission when opponent defends armbar by keeping elbow tight
+- [[Submissions/Americana]] - Alternative submission when opponent defends armbar by keeping elbow tight from Technical Mount
 
 - [[Positions/Half Guard]] - Counter position reached by defender if transition attempt fails and mount is lost
 

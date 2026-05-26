@@ -154,6 +154,8 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown to Z-Lock Half Guard?</p>
+
 - Top player drives unusually heavy crossface and shoulder pressure to flatten you before any leg work - this suppression phase precedes the Z-Lock attempt
 - Top player's trapped knee begins a subtle inward rotation or circular motion rather than the usual straight backward pull of standard leg extraction
 - Top player posts their free leg unusually wide, creating a stable base that signals they are preparing to shift weight off the trapped leg
@@ -166,6 +168,8 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown to Z-Lock Half Guard?</p>
 
 - Maintain active lockdown tension at all times - flex ankles, squeeze knees, and extend periodically to prevent the trapped knee from circling inward
 - Fight for underhook control constantly, as the opponent needs upper body dominance before they can attempt the knee transition
@@ -180,6 +184,8 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown to Z-Lock Half Guard?</p>
 
 ### 1. Squeeze and extend lockdown forcefully when sensing knee rotation
 
@@ -217,6 +223,8 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown to Z-Lock Half Guard?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Maintain maximum lockdown tension through active ankle crossing and knee squeezing. The moment you feel the knee rotation attempt, extend your lockdown forcefully while pulling their heel toward your hip. Combine with underhook fighting to prevent the upper body pressure that enables the transition. A re-established lockdown after a failed Z-Lock attempt often leaves the top player fatigued and more vulnerable to your sweep attacks.
@@ -232,6 +240,8 @@ Time an explosive whip-up or underhook-to-dogfight transition during the opponen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown to Z-Lock Half Guard?</p>
 
 ### 1. Maintaining passive lockdown without actively extending or attacking
 
@@ -261,6 +271,8 @@ Time an explosive whip-up or underhook-to-dogfight transition during the opponen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown to Z-Lock Half Guard?</p>
+
 **Phase 1: Z-Lock Recognition Drill** - Identifying Z-Lock transition attempts early
 Partner alternates between standard lockdown leg extraction attempts and Z-Lock transition attempts. Bottom player calls out which technique is being attempted as early as possible. Develops pattern recognition for the subtle differences between linear extraction and rotational Z-Lock entry.
 
@@ -277,26 +289,6 @@ Full positional sparring from lockdown with both players working at 100% intensi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the top player is attempting Z-Lock transition rather than standard leg extraction?
-**A**: The earliest cue is an unusual increase in crossface and shoulder pressure combined with the trapped knee beginning an inward circular rotation rather than a straight backward pull. Standard leg extraction involves pulling backward against the lockdown, while the Z-Lock transition uses rotational force. Additionally, the top player will post their free leg wider than normal and pin your inside arm more aggressively - these setup actions distinguish Z-Lock attempts from general pressure passing.
-
-**Q2**: Why is the upper body grip battle more important than leg tension for preventing the Z-Lock transition?
-**A**: The Z-Lock transition requires the top player to first suppress lockdown attacks through heavy crossface and shoulder pressure. Without upper body dominance, they cannot safely shift weight to attempt the knee circle. By winning the underhook battle and preventing crossface control, you force the top player to address upper body threats before they can work their legs, effectively denying them the prerequisite conditions for the Z-Lock entry. Leg tension alone cannot prevent the transition if the opponent has complete upper body control.
-
-**Q3**: Your lockdown has been broken and the opponent's knee is crossing your hip - what is your best last-resort defensive option?
-**A**: Once the lockdown is broken and the knee is crossing, hip escape aggressively away from the direction of the crossing knee while threading your inside arm for an underhook. The shrimping motion can prevent the knee from reaching full Z-Lock position, and the underhook gives you leverage to come up to dogfight or at minimum create enough space to recover knee shield. If the Z-Lock consolidates fully, transition your mindset from lockdown defense to half guard bottom escape sequences - attempting to re-establish lockdown against a consolidated Z-Lock wastes energy.
-
-**Q4**: How should you adjust your lockdown tension pattern to make the Z-Lock transition as difficult as possible?
-**A**: Vary your lockdown tension dynamically rather than maintaining static pressure. Alternate between strong extensions that off-balance the opponent and tight squeezes that prevent knee rotation. The variation in tension makes it impossible for the opponent to time their knee circle because the resistance pattern keeps changing. Additionally, periodically pulse strong squeeze-and-extend combinations that snap their leg back into deep lockdown, resetting any progress they made toward the knee circle.
-
-
-
-</section>
 
 
 </main>

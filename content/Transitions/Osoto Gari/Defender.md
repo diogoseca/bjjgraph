@@ -162,6 +162,8 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Osoto Gari?</p>
+
 - Opponent secures a deep collar grip near your collarbone and begins pulling your head and upper body forward and to the side - this is the primary kuzushi setup for Osoto Gari
 - Opponent steps their lead foot forward and to the outside of your lead foot while closing hip-to-hip distance - this alignment is the essential positioning step before the reap
 - You feel a distinct forward and lateral pull through the grips combined with opponent's chest driving into yours - this is the commitment point where the throw is imminent
@@ -174,6 +176,8 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Osoto Gari?</p>
 
 - Deny the collar grip through active grip fighting - without deep collar control, Osoto Gari loses most of its upper body driving force
 - Maintain a low athletic stance with bent knees and weight distributed across both feet to resist off-balancing in any direction
@@ -189,6 +193,8 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Osoto Gari?</p>
 
 ### 1. Retract the targeted leg by stepping it backward and laterally the moment you feel the opponent's step-in and hip alignment, removing the leg from the reaping path before contact
 
@@ -226,6 +232,8 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Osoto Gari?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the throw at the setup phase through grip fighting and leg retraction. Strip the collar grip with a two-on-one break before opponent can close distance, or retract your targeted leg the moment you feel the step-in. Maintain your stance integrity and immediately re-establish your own grips to take the offensive initiative. The most reliable path to this outcome is proactive grip denial that prevents the throw from ever being initiated.
@@ -241,6 +249,8 @@ Execute a counter-throw at the moment of opponent's maximum commitment. When you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Osoto Gari?</p>
 
 ### 1. Stiffening the upper body and trying to resist the throw through pure strength rather than technical defense
 
@@ -275,6 +285,8 @@ Execute a counter-throw at the moment of opponent's maximum commitment. When you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Osoto Gari?</p>
+
 **Phase 1: Recognition Training (Weeks 1-2)** - Learning to identify Osoto Gari setups through visual and tactile cues
 Partner slowly demonstrates the complete Osoto Gari sequence at 25% speed while you practice identifying each setup phase: grip establishment, distance closure, hip alignment, and reap initiation. Call out each phase as you recognize it. Then practice with eyes closed, identifying the throw purely through tactile feedback in the grips and body contact. Build automatic recognition patterns before adding any defensive movements.
 
@@ -291,29 +303,6 @@ Full-speed standing sparring where partner prioritizes Osoto Gari attacks. Pract
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most effective proactive defense against Osoto Gari before the throw sequence begins?
-**A**: The most effective proactive defense is denying the deep collar grip through active grip fighting. Without a strong collar grip, the attacker cannot generate the upper body driving force needed to off-balance you backward. Use a two-on-one grip break to strip any collar grip as soon as it is established, and maintain inside hand position to block their reaching hand. By addressing the grip rather than the throw itself, you prevent the entire sequence from initiating and force the opponent to work for a new setup each time.
-
-**Q2**: Why is leaning backward a dangerous instinctive response when you feel the initial pull of Osoto Gari?
-**A**: Leaning backward shifts your weight directly onto the leg the attacker intends to reap, which is exactly the weight distribution they need for the throw to succeed. The backward lean loads the target leg with your full body weight, making it impossible to retract quickly and giving the reaping motion maximum effect. Instead, you should drive your hips forward and lower your center of gravity, which keeps your weight centered or slightly forward and allows you to retract the targeted leg without it being weight-bearing.
-
-**Q3**: Your opponent has stepped in and you feel their chest against yours with a strong collar grip - what is your best defensive option at this late stage?
-**A**: At this late stage with chest contact established, your best option depends on timing. If the reap has not yet begun, immediately retract your targeted leg backward and laterally while posting your near hand against their hip to create distance. If the reap is already in motion, your highest-percentage option is to turn into the throw direction by pivoting and stepping through, converting the backward force into rotation that can expose their back. A counter-throw like Tani Otoshi is also viable if you can drop your hips below theirs before the reap reaches full extension. The worst option is to try to resist with upper body strength alone.
-
-**Q4**: How can you convert a failed Osoto Gari defense into an offensive opportunity?
-**A**: When an opponent commits fully to Osoto Gari, they have their weight forward on one supporting leg with their reaping leg off the ground. If you successfully nullify the reap through leg retraction, the attacker is temporarily off-balance and exposed. Immediately counter-attack by snapping their head down to a front headlock position, circling to take their back as they recover, or executing your own throw on their now-weighted supporting leg. The key insight is that their commitment to the throw creates a predictable recovery pattern you can exploit - they must replant the reaping leg and re-center their weight, giving you a timing window.
-
-**Q5**: What are the earliest physical cues that distinguish an Osoto Gari setup from other standing attacks?
-**A**: The distinctive cues for Osoto Gari include: the attacker seeking a deep collar grip specifically near the collarbone rather than a lower lapel grip; their step placing their lead foot outside your lead foot rather than between your feet (which would indicate a hip throw); a lateral pull through the grips rather than a straight downward pull (which would indicate a snap-down); and hip alignment that positions them beside you rather than squared up (which would indicate a double leg). The combination of collar grip depth, outside foot placement, and perpendicular body angle is unique to Osoto Gari and related outer reaping techniques.
-
-
-
-</section>
 
 
 </main>

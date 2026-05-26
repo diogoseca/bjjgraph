@@ -192,6 +192,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Step Over to Mount?</p>
+
 - Time the step over during the bottom player's leg transition, not when both legs are actively controlling
 - Pin or control the near-side leg before committing the step over to prevent re-guard
 - Keep hips low and heavy through the transition to deny hip elevation for sweeps
@@ -207,6 +209,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Step Over to Mount?</p>
+
 - Top position established against opponent's grasshopper guard with at least one leg free from entanglement
 - Bottom player has committed one leg to an attack or transition, creating asymmetric leg configuration
 - Sufficient base and balance to lift one leg without being swept by opponent's remaining hook
@@ -220,6 +224,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Step Over to Mount step by step?</p>
 
 1. **Identify the window**: Recognize the moment when the bottom player's legs are in transition between configurations - one leg hooks or controls your near-side leg while the other extends or repositions for an entanglement attempt. This asymmetry is your trigger to initiate the pass.
 2. **Control the near-side leg**: Use your hip pressure or hand to pin the bottom player's primary hooking leg against the mat or against their own body. This prevents them from using that leg to block your step over or to recover guard. Drive your knee or shin across their thigh to flatten their hook.
@@ -250,6 +256,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Step Over to Mount?</p>
+
 - **Bottom player catches the stepping leg mid-transition and enters inside ashi garami by threading their legs around the committed leg before it clears their hips** (Effectiveness: High) - Your Response: If caught mid-step, immediately retract the leg and back step away rather than forcing the pass. Reset to standing and re-engage with a different passing option such as leg drag or back step pass. → Leads to [[Positions/Ashi Garami]]
 - **Bottom player re-inverts and elevates hips to knock you off balance as you attempt to step over, using the remaining hook to generate upward force** (Effectiveness: Medium) - Your Response: Drive your weight forward and down through the step rather than pausing. Post your hand on the mat on the far side for base. The forward momentum through the step over counters their upward elevation if you commit fully. → Leads to [[Positions/Grasshopper Guard]]
 - **Bottom player shrimps away and re-establishes open guard or De La Riva hook as you step across, using frames on your hips to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining pressure. If they successfully create distance, immediately transition to knee on belly rather than chasing mount, which gives you a dominant position while they are partially recovered. → Leads to [[Positions/Grasshopper Guard]]
@@ -261,6 +269,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Step Over to Mount?</p>
 
 ### 1. Standing tall to step over instead of keeping hips low throughout the transition
 
@@ -300,6 +310,8 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Step Over to Mount (Attacker)?</p>
+
 **Week 1-2** - Mechanics and positioning
 Practice the step-over motion from a static position with a cooperative partner in grasshopper guard. Focus on hip height, foot placement, weight transfer, and the continuous motion from step to mount consolidation. Drill 20 repetitions per side with zero resistance to build muscle memory for the movement pattern.
 
@@ -317,51 +329,12 @@ Begin from standing against partner's grasshopper guard at full resistance durin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Step Over to Mount from Grasshopper Guard?
-**A**: The primary goal is to bypass the bottom player's inverted guard entirely by stepping over their legs during a transition window and establishing mount, the most dominant top position. Rather than engaging with the leg entanglement game the grasshopper guard player wants, you advance directly to a position where their guard is completely nullified.
-
-**Q2**: What specific window must you identify before attempting the step over?
-**A**: You must identify the asymmetric leg configuration window - the moment when the bottom player has committed one leg to an attack or transition while their remaining leg alone cannot block the step over. This occurs when they extend a leg for a kneebar entry, reposition for an ankle lock, or transition between leg configurations. Attempting the step over when both legs are actively engaged is the most common cause of failure.
-
-**Q3**: Your opponent posts their hand on your hip as you begin stepping over - how do you adjust?
-**A**: Continue driving forward with your hips low and heavy rather than stopping. Their hand frame will collapse under committed forward pressure if your hips stay low. Use your free hand to swim inside their frame or pin their wrist to the mat as you complete the step. The worst response is to pause or stand taller, which gives their frame time to become effective and allows them to shrimp away or re-guard.
-
-**Q4**: What is the most critical mechanical detail of the stepping motion itself?
-**A**: The stepping foot must land tight against the bottom player's far hip, not wide or extended away from their body. A tight foot placement eliminates the gap that the bottom player needs to insert a knee shield, recover half guard, or grab the ankle for a leg lock entry. The step and the weight drop must be one continuous motion with no pause between foot placement and hip settling.
-
-**Q5**: Why must you control the near-side leg before initiating the step over?
-**A**: The near-side leg is the bottom player's primary tool for re-guarding, re-hooking, or following your movement to reestablish grasshopper configuration. Without pinning it via hip pressure, knee control, or hand placement, the bottom player will simply re-hook as you step and either reset their guard or use the hook to redirect you into a worse position. Neutralizing this leg is the essential prerequisite that makes the step over possible.
-
-**Q6**: The bottom player catches your stepping leg in an inside ashi garami entry - what is the correct response?
-**A**: Immediately retract the leg and initiate a back step to create separation rather than forcing the pass forward into the entanglement. Pulling straight back often completes the entanglement for them, so step your free leg backward and away at an angle while keeping your weight low. Once you have cleared the entanglement, reset to standing and re-engage with a different pass option such as a leg drag or back step pass. Never try to power through a developing leg entanglement.
-
-**Q7**: What grip or control should your hands prioritize during the step over?
-**A**: Your hands should prioritize base and leg control rather than upper body grips. One hand pins or controls the near-side leg, while the other posts on the mat for balance during the step. Reaching for collar grips, underhooks, or wrist control during the step compromises your balance and slows the transition. Upper body controls are established after mount is consolidated, not during the passing motion itself.
-
-**Q8**: How does the step over integrate with the back step pass and leg drag as a passing system?
-**A**: The three passes form a complementary system where each covers the defense to the others. When the bottom player pulls their legs in tight to prevent the step over, the leg drag becomes available on their compressed legs. When they extend legs to prevent the leg drag, the step-over window opens. When they over-commit hooks to prevent both, the back step clears the entanglement laterally. Cycling between these three options based on the bottom player's leg configuration is more effective than committing to any single passing approach.
-
-**Q9**: What are the first three actions you take immediately after landing in mount from the step over?
-**A**: First, drop your hips fully onto their torso to establish heavy weight distribution and pin their hips to the mat. Second, squeeze your knees tight against their ribs and slide your feet back to hook against their thighs, establishing the mount retention structure. Third, establish chest-to-chest contact with head pressure and arm controls to prevent framing. These three actions must happen within 2-3 seconds to deny the bottom player's initial escape window before they can establish frames or generate a bridge.
-
-**Q10**: Your opponent's hips are still elevated and they maintain one hook as you step - should you commit or abort?
-**A**: Abort the attempt. If the bottom player still has elevated hips and one active hook during your step, you are stepping into a high-risk position where they can redirect your momentum into an elevation sweep or catch your stepping leg for a leg entanglement. An elevated hip indicates they still have the core engagement and positioning to counter. Wait for their hips to drop or for the hook to disengage before attempting the step over. Patience against grasshopper guard is rewarded because the position is unsustainable for the bottom player.
-
-**Q11**: In what direction should your force be applied during the step over?
-**A**: Force should be directed forward and downward, driving your hips across and onto the bottom player's torso. The common mistake is to direct force upward (standing tall to step over) or laterally (stepping around). Forward-and-down force serves two purposes: it loads your weight onto the bottom player's midsection which prevents re-inversion, and it creates the continuous motion needed to land in mount without pausing. Think of driving through the bottom player rather than stepping over them.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Step Over to Mount?</p>
 
 The Step Over to Mount involves rapid weight transfer onto the bottom player's torso, which can cause rib compression or breathing difficulty if performed with excessive force during training. The bottom player's inverted position makes their neck vulnerable if the top player's weight drives their shoulders into the mat at an awkward angle. During drilling, the top player should control their descent speed and not slam into mount. The bottom player should tap or signal if they feel neck compression during the transition. When the bottom player attempts to catch legs for entanglements mid-step, both players should avoid explosive movements that could hyperextend the knee of the stepping leg. In live rolling, be aware that the step-over motion places your knee near the bottom player's face - control your movement to avoid accidental strikes.
 

@@ -162,6 +162,8 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Modified Scarf to Mount?</p>
+
 - Top player's weight shifts laterally or forward as they load their base leg in preparation for the swing
 - Top player repositions their far leg closer to your body, shortening the arc needed for the step-over
 - Increased forward chest pressure as the top player loads weight before initiating the transition movement
@@ -174,6 +176,8 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Modified Scarf to Mount?</p>
 
 - Recognize the transition intent early by monitoring weight shifts, leg repositioning, and grip changes before the step-over begins
 - Frame against the hip rather than the chest—hip frames directly obstruct the leg clearance path while chest pushing wastes energy
@@ -188,6 +192,8 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Modified Scarf to Mount?</p>
 
 ### 1. Insert far knee shield between bodies during the leg swing gap
 
@@ -225,6 +231,8 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Modified Scarf to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your far knee insertion during the leg swing when chest pressure momentarily decreases. Drive the knee shield across the top player's hip line before they can clear it with the swinging leg. Even a partial knee shield that prevents full mount consolidation recovers half guard, which is dramatically more defensible than mount and offers legitimate offensive sweep and back take opportunities.
@@ -236,6 +244,8 @@ Time your far knee insertion during the leg swing when chest pressure momentaril
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Modified Scarf to Mount?</p>
 
 ### 1. Waiting until mount is fully established before attempting defensive action
 
@@ -270,6 +280,8 @@ Time your far knee insertion during the leg swing when chest pressure momentaril
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Modified Scarf to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition telegraphs
 Partner alternates between maintaining Modified Scarf Hold and initiating the mount transition at slow speed. Call out the moment you feel the transition beginning. Partner confirms whether your recognition timing is early enough to counter effectively. Build until you can consistently identify the preparation cues within the first second of initiation.
 
@@ -286,29 +298,6 @@ Start from Modified Scarf Hold bottom with full resistance. Partner attempts mou
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that signals a Modified Scarf to Mount transition attempt?
-**A**: The earliest cue is the top player driving their near hip into your far hip to preemptively block your knee insertion path. This blocking action serves no purpose for maintaining Modified Scarf Hold but is essential preparation for the mount entry. A secondary early cue is the far leg repositioning closer to your body, shortening the swing arc. Recognizing these preparation actions gives you the maximum response window before the leg actually swings.
-
-**Q2**: Why is the leg swing phase the best defensive window, and how do you exploit it?
-**A**: During the leg swing, the top player must commit their weight to one side while their leg travels, momentarily reducing the bilateral chest pressure that pins you. This pressure reduction creates the space needed to insert your far knee as a shield or execute a hip escape. Exploit this window by pre-loading your defensive response—the moment you feel chest pressure lighten during the swing, execute your knee insertion immediately without hesitation. Waiting even one second allows the mount landing.
-
-**Q3**: Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?
-**A**: Insert a knee shield immediately by driving your far knee across the top player's hip line during the swing. The step-over momentarily reduces downward pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer phase, not after the top player has already landed.
-
-**Q4**: If the transition to mount completes successfully, what should be your immediate priority?
-**A**: Immediately abandon attempts to reverse the completed transition and switch to mount-specific escape protocols. Priority one is protecting your neck and collar from choke entries by keeping hands close. Priority two is establishing elbow-to-knee frames using skeletal structure rather than muscular effort. Priority three is beginning systematic hip escape mechanics for knee insertion and guard recovery. Do not waste energy trying to undo the mount—accept the position change and execute the appropriate escape hierarchy.
-
-**Q5**: How does framing on the hip compare to framing on the chest for preventing this transition?
-**A**: Hip frames are dramatically more effective because they directly obstruct the leg clearance path. Your forearm against the top player's hip physically blocks the angle needed for the leg to swing over. Chest frames, by contrast, only create vertical distance without blocking the horizontal leg path, and require more energy to maintain against gravity. Additionally, extended arms pushing the chest create submission vulnerability to americanas and arm triangles, while tight hip frames keep your elbows protected close to your body.
-
-
-
-</section>
 
 
 </main>

@@ -192,6 +192,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Cut Pass?</p>
+
 - Establish dominant grips on collar and pants before initiating the pass
 - Drive knee across opponent's thigh line at perpendicular angle to their hips
 - Maintain constant forward pressure with chest and shoulder throughout the pass
@@ -207,6 +209,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Cut Pass?</p>
+
 - Open guard position established with opponent's legs not crossed
 - Dominant grip secured on opponent's collar or cross-collar
 - Pants grip or underhook established on passing side
@@ -220,6 +224,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Cut Pass step by step?</p>
 
 1. **Establish grips and posture**: From open guard top, establish a dominant cross-collar grip with your lead hand (thumb inside) and control the opponent's same-side pants at the knee with your other hand. Maintain upright posture with your chest forward, preventing them from breaking your posture down. Your weight should be centered over your hips, ready to drive forward.
 2. **Step up to combat base**: Bring your passing-side leg up into combat base position (foot flat on the mat, knee up). Your other leg remains posted with knee down for stability. The standing leg should be positioned slightly wide for balance. Drive your hips forward slightly to begin pressuring their guard structure and neutralizing their foot placement on your hips.
@@ -250,6 +256,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Cut Pass?</p>
+
 - **Opponent frames on your hip and bicep to create space and recover guard** (Effectiveness: High) - Your Response: Switch to underhook control before they can frame, or transition to long step position to clear their frames. Maintain constant forward pressure so frames cannot extend fully. If their frame locks out, circle your hips to a different angle rather than driving straight into the frame. → Leads to [[Positions/Open Guard]]
 - **Opponent establishes knee shield and blocks the knee cut path** (Effectiveness: High) - Your Response: Use your collar grip to break down their posture and flatten the knee shield, or transition to knee shield pass variations. Alternatively, switch to other passing angles like over-under or leg drag rather than forcing the knee cut through their shield. → Leads to [[Positions/Open Guard]]
 - **Opponent rolls to their knees and turtles as you cut through** (Effectiveness: Medium) - Your Response: Follow their movement and transition to turtle attacks. Maintain your grips and take back control or establish front headlock position. Do not abandon your forward pressure - the turtle is a worse position for them than open guard. → Leads to [[Positions/Side Control]]
@@ -262,6 +270,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Cut Pass?</p>
 
 ### 1. Cutting the knee too shallow or parallel to opponent's body instead of perpendicular
 
@@ -301,6 +311,8 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Cut Pass (Attacker)?</p>
+
 **Phase 1: Static Entry (Weeks 1-2)** - Grip establishment and knee positioning
 Partner maintains open guard with legs flat. Practice establishing collar and pants grips, stepping to combat base, and driving knee across thigh line. Focus on proper angle (perpendicular) and keeping knee tight to hip. No resistance from bottom player initially.
 
@@ -324,48 +336,12 @@ Practice transitioning between knee cut and other passes (leg drag, toreando, ov
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct angle for your cutting knee relative to the opponent's body during the knee cut pass?
-**A**: The cutting knee should drive perpendicular (90 degrees) to the opponent's centerline, bisecting their guard structure. This perpendicular angle creates maximum separation between their legs and prevents them from closing their guard or creating effective frames. A parallel or shallow angle allows space for guard recovery and lets the bottom player insert defensive hooks.
-
-**Q2**: Why is controlling the opponent's far leg critical to the success of the knee cut pass?
-**A**: The far leg is the primary tool the opponent has to recover guard once you begin cutting your knee through. If uncontrolled, they can use this leg to establish half guard, create defensive hooks, insert butterfly hooks, or establish frames that prevent the pass. Controlling and clearing this leg past your hips is essential to completing the pass to side control.
-
-**Q3**: How should your weight distribution change throughout the knee cut pass from initiation to completion?
-**A**: Initially, your weight is centered over your hips in combat base. As you cut your knee through, weight shifts forward onto the cutting knee while maintaining chest pressure. Finally, as the far leg clears, weight transitions from your knees to your chest, settling heavy into side control. The transition should be smooth and continuous, never lightening up or sitting back at any point.
-
-**Q4**: Your opponent posts a strong frame on your hip as you begin the knee cut - how do you adjust?
-**A**: Rather than driving directly into the frame, angle your hips slightly to change the direction of pressure so the frame loses structural integrity. Simultaneously swim your underhook deeper or transition to collar control to break down their upper body posture. If the frame is fully locked out, circle to a different angle and consider switching to a long step or leg drag to bypass the frame entirely rather than forcing through it.
-
-**Q5**: What is the optimal timing window for initiating the knee cut from open guard?
-**A**: The optimal timing is immediately after winning the grip exchange when you have collar and pants control established but before the opponent can set their defensive frames or establish a specific guard configuration like knee shield or de la riva. The pass should be initiated in the transition moment when opponent is between guard positions, as this is when their defensive structure is weakest and most disorganized.
-
-**Q6**: What specific grip configuration provides the strongest control for the knee cut pass in the gi?
-**A**: The strongest configuration is a cross-collar grip with the thumb inside on the passing side combined with a pants grip at the knee on the same side as the cutting knee. The collar grip controls posture and enables crossface pressure as you pass, while the pants grip controls the far leg to prevent half guard recovery. Some practitioners substitute the collar grip for a deep underhook, which provides stronger back control but less ability to flatten the opponent.
-
-**Q7**: Your opponent catches half guard as your knee cuts through - what is your immediate response?
-**A**: Do not try to explosively rip your leg free, as this wastes energy and often fails. Instead, immediately establish a crossface with your free arm to flatten them and prevent them from achieving an underhook. Drive your trapped knee toward the mat to flatten their half guard lock, then use a knee slice motion combined with shoulder pressure to free your leg. Alternatively, backstep to free the leg or transition to a smash pass position from the half guard top.
-
-**Q8**: What is the most critical hip movement during the knee cut pass?
-**A**: The most critical hip movement is the forward drive of your hips as your knee cuts through the thigh line. Your hips must project forward and downward simultaneously, creating a wedge effect that separates the opponent's legs while loading your weight onto their body. If your hips stay back or rise up during the cut, you lose the pressure that makes the pass effective and create space for the opponent to recover defensive positioning.
-
-**Q9**: How do you chain the knee cut into other passes when the initial attempt is blocked by knee shield?
-**A**: When knee shield blocks your knee cut, you have three primary chain options. First, switch to a leg drag on the opposite side by redirecting their blocking knee across their body. Second, transition to an over-under pass by dropping your shoulder and threading under their far leg. Third, use the backstep to clear the knee shield and enter from a different angle. The key is reading their shield angle - if their knee points outward, leg drag is strongest; if it points upward, over-under is preferred.
-
-**Q10**: What direction of force should your shoulder pressure apply as you complete the knee cut?
-**A**: Your shoulder pressure should drive diagonally across the opponent's body - forward and slightly toward their far shoulder. This diagonal vector turns their head away from you (preventing them from turning into you), flattens their upper body to the mat, and creates a crossface effect that limits their ability to frame or bridge. Driving straight down is less effective because it does not control their head angle and allows them to turn into you for guard recovery.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Cut Pass?</p>
 
 The knee cut pass is generally a safe technique with minimal injury risk when practiced correctly. The primary safety concern involves knee pressure on the opponent's thigh - avoid driving your knee with excessive force into their thigh muscle, which can cause bruising or muscle strain. When receiving the knee cut, tap if you feel excessive pressure on your knee joints or hip joints, particularly if your leg is trapped in an awkward position. When drilling, start with light pressure and gradually increase resistance as both partners develop familiarity with the technique. Beginners should avoid forcing the pass when encountering strong resistance, as this can lead to loss of balance and potential injury. Always maintain control of your weight distribution to avoid collapsing onto your partner's legs or knees. When defending, do not explosively bridge or roll while your partner's weight is committed to the pass, as this can cause both partners to fall awkwardly.
 

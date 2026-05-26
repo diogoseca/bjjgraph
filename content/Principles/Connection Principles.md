@@ -190,7 +190,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 **Hook Management and Retention**: Establishing and maintaining butterfly hooks, de la riva hooks, leg entanglements, and other lower-body connections that control opponent's base and movement. This skill encompasses both offensive hook usage for sweeps and submissions, plus defensive hook retention when opponent attempts to clear connections.
 
-**Grip Fighting Intelligence**: The tactical awareness to engage in grip exchanges strategically, knowing when to fight for grips versus when to disengage, which grips to prioritize in specific positions, and how to sequence grip fighting within broader positional objectives. This includes recognizing grip fighting windows and exploiting opponent's grip commitments.
+**Grips Intelligence**: The tactical awareness to engage in grip exchanges strategically, knowing when to fight for grips versus when to disengage, which grips to prioritize in specific positions, and how to sequence grip fighting within broader positional objectives. This includes recognizing grip fighting windows and exploiting opponent's grip commitments.
 
 **Distance Control Through Connection**: Using connection points to manage the distance between yourself and opponent, either closing distance for attacks or maintaining distance for defense and recovery. This skill integrates understanding of connection ranges (pocket, mid-range, long-range) with tactical objectives and includes using connections to prevent opponent's distance management attempts.
 
@@ -239,7 +239,7 @@ Connection principles extend beyond simple grip fighting to encompass the entire
 
 **Lasso Guard**: Bottom player threads leg around opponent's arm to create lasso connection, combining this with sleeve grip and opposite leg positioning for control. Connection system prevents opponent from posturing while creating sweeping opportunities.
 
-**Standing Position**: Both players engage in grip fighting to establish preferred connections for takedown attempts or takedown defense. Connection battles at standing range determine tactical advantages before any throwing techniques are executed.
+**Clinch**: Both players engage in grip fighting to establish preferred connections for takedown attempts or takedown defense. Connection battles at standing range determine tactical advantages before any throwing techniques are executed.
 
 
 
@@ -297,7 +297,7 @@ Isolated practice focusing on establishing, maintaining, and breaking specific c
 **Connection Positional Sparring** (Focus: Tactical adaptation to connection constraints. Develops creativity in finding alternative connections when preferred ones are unavailable. Reveals connection dependencies and builds versatile connection strategies.)
 Positional drilling where specific connection configurations are mandated or prohibited, forcing practitioners to develop connection awareness within realistic resistance. Examples include no-gi guard with grips only above waist, or passing with no sleeve grips allowed.
 
-**Grip Fighting Specific Training** (Focus: Develops grip fighting timing, sensitivity to opponent's grip attempts, and strategic decision-making about when to fight for grips versus when to accept and counter. Builds grip strength and endurance specifically.)
+**Grips Specific Training** (Focus: Develops grip fighting timing, sensitivity to opponent's grip attempts, and strategic decision-making about when to fight for grips versus when to accept and counter. Builds grip strength and endurance specifically.)
 Dedicated practice sessions focused exclusively on grip fighting exchanges in standing or guard positions. Partners compete for optimal grips without progressing to techniques, resetting when one achieves dominant grip configuration.
 
 **Connection Flow Drilling** (Focus: Develops connection transition skills and connection chain awareness. Builds understanding of how connections evolve through positional sequences. Creates sensitivity to connection opportunities throughout grappling exchanges.)
@@ -357,33 +357,33 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 ## Related
 
 ### Related Principles
-- **[[Grip Strategy]]** (Complementary): Grip Strategy provides the tactical framework for which grips to pursue in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes
-- **[[Frame Management]]** (Complementary): Frame Management represents the defensive application of connection principles, focusing specifically on creating and maintaining space-preserving connections rather than control-establishing ones
+- **[[Grips]]** (Complementary): Grips provides the tactical framework for winning grip exchanges in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes
+- **[[Frames]]** (Complementary): Frames represents the defensive application of connection principles, focusing specifically on building and maintaining space-preserving connections rather than control-establishing ones
 - **[[Control Point Hierarchy]]** (Extension): Control Point Hierarchy builds on connection principles by ranking which connection points provide greatest control value in specific positions, adding tactical prioritization to fundamental connection mechanics
-- **[[Base Maintenance]]** (Prerequisite): Solid base provides the foundation from which effective connections can be established and maintained; without stable base, connections become liabilities rather than assets
-- **[[Pressure Application]]** (Complementary): Pressure Application depends on proper connections to transmit force effectively; connections without pressure provide awareness but not control, while pressure without connections dissipates uselessly
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics is fundamental to using connections efficiently; proper connection points aligned with leverage principles multiply force effectiveness exponentially
-- **[[Grip Fighting]]** (Extension): Grip Fighting represents the competitive application of connection principles, focusing on winning grip battles through superior timing, positioning, and tactical awareness
-- **[[Defensive Framing]]** (Alternative): Defensive Framing emphasizes using connections to create space and prevent opponent control, representing the defensive counterpart to offensive connection establishment
-- **[[Space Management]]** (Complementary): Space Management and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension
-- **[[Off-Balancing]]** (Extension): Off-Balancing techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi application
-- **[[Posture Breaking]]** (Extension): Breaking opponent's posture depends on establishing superior connections that allow pulling them out of structural alignment; connection quality determines posture-breaking success
+- **[[Base]]** (Prerequisite): Solid base provides the foundation from which effective connections can be established and maintained; without stable base, connections become liabilities rather than assets
+- **[[Pressure]]** (Complementary): Pressure depends on proper connections to transmit force effectively; connections without pressure provide awareness but not control, while pressure without connections dissipates uselessly
+- **[[Levers]]** (Prerequisite): Understanding leverage mechanics is fundamental to using connections efficiently; proper connection points aligned with leverage principles multiply force effectiveness exponentially
+- **[[Hand Fighting]]** (Extension): Hand Fighting represents the close-range competitive application of connection principles, focusing on winning hand position battles through superior timing, positioning, and tactical awareness
+- **[[Defensive Concepts]]** (Alternative): Defensive Concepts encompasses using connections to create space, prevent opponent control, and preserve positional integrity, representing the defensive counterpart to offensive connection establishment
+- **[[Distance Control]]** (Complementary): Distance Control and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish or break
+- **[[Center of Gravity]]** (Complementary): Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension
+- **[[Posture]]** (Extension): Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application
+- **[[Sleeve Control]]** (Extension): Sleeve Control applies connection principles to specific arm management, using sleeve grips to neutralize opponent's offensive and defensive capabilities through targeted connection dominance
 
 
 ### Related Content
-- [[Grip Strategy]] (Principle) - Provides tactical framework for which connections to establish in different scenarios
-- [[Frame Management]] (Principle) - Applies connection principles specifically to defensive space-creation through frames
+- [[Collar Control]] (Principle) - Applies connection principles to specific collar grip strategies for posture control and attack setup
+- [[Frames]] (Principle) - Applies connection principles specifically to building defensive space-preserving structures through frames
 - [[Control Point Hierarchy]] (Principle) - Ranks connection points by control value in specific positions
 - [[Closed Guard]] (Position) - Primary training ground for developing offensive connection management skills
 - [[Spider Guard]] (Position) - Advanced application of connection principles using distance-control grips and foot connections
 - [[Back Control]] (Position) - Demonstrates high-level connection maintenance against opponent's breaking attempts
 - [[Hip Escape to Guard]] (Transition) - Fundamental escape that relies on breaking opponent's connections while creating space
-- [[Grip Breaking]] (Principle) - Specific technical skill set for destroying opponent's connection attempts
-- [[Pressure Application]] (Principle) - Requires proper connections to transmit control force effectively
-- [[Base Maintenance]] (Principle) - Provides stable foundation from which effective connections can be established
-- [[Grip Fighting]] (Principle) - Competitive application of connection principles in establishing grip dominance
-- [[Defensive Framing]] (Principle) - Defensive counterpart focusing on space-preserving connections
+- [[Hand Fighting]] (Principle) - Close-range application of connection breaking and establishment through hand position battles
+- [[Pressure]] (Principle) - Requires proper connections to transmit control force effectively
+- [[Base]] (Principle) - Provides stable foundation from which effective connections can be established
+- [[Grips]] (Principle) - Competitive application of connection principles in establishing grip dominance
+- [[Defensive Concepts]] (Principle) - Defensive counterpart encompassing space-preserving connections and escape frameworks
 
 
 </section>

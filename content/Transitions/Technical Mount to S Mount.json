@@ -73,12 +73,12 @@
       "relationship": "Parent position from which Technical Mount is entered before this transition"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Primary submission available after successfully reaching S Mount"
+      "name": "S Mount Armbar Setup",
+      "relationship": "Primary submission setup available after successfully reaching S Mount"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Alternative submission from the starting position if S Mount entry is unnecessary"
+      "name": "Mount to Armbar",
+      "relationship": "Alternative submission pathway from the starting position if S Mount entry is unnecessary"
     },
     {
       "name": "3-4 Mount to S Mount",
@@ -87,10 +87,6 @@
     {
       "name": "High Mount to S Mount",
       "relationship": "Another pathway to S Mount sharing similar rotation mechanics"
-    },
-    {
-      "name": "S Mount Armbar Setup",
-      "relationship": "Follow-up technique commonly executed after completing this transition"
     },
     {
       "name": "Back Turn from Technical Mount",
@@ -246,7 +242,7 @@
         "description": "Practice the complete sequence from Technical Mount through S Mount transition to armbar finish or alternative attacks. Partner provides full resistance, requiring the practitioner to make real-time decisions about committing to the rotation, abandoning for back take, or returning to mount. Build the complete offensive chain."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical grip to maintain throughout the entire Technical Mount to S Mount rotation?",
         "answer": "The wrist grip on the isolated arm is the non-negotiable priority throughout the entire rotation. Without wrist control, the opponent will immediately retract their arm during any weight shift, eliminating the purpose of the transition entirely. The wrist grip should be maintained from initial Technical Mount arm isolation through S Mount establishment and into the armbar finish. If you must sacrifice one point of control during the rotation, sacrifice balance or secondary grips—never the wrist."
@@ -274,6 +270,18 @@
       {
         "question": "How does the weight distribution change from Technical Mount to S Mount, and why does this matter for the transition?",
         "answer": "In Technical Mount, weight distributes between the posted leg and hooked inside leg, with the upper body providing chest or shoulder pressure. In S Mount, weight shifts to the hip-to-shoulder connection, with both legs serving as structural barriers rather than primary weight-bearing platforms. During the transition, the weight must transfer smoothly between these distributions. This matters because the mid-transition moment where weight is shifting is the opponent's best escape window—if the weight transfer is jerky or creates a momentary lightness, the opponent can bridge or hip escape during that instant."
+      },
+      {
+        "question": "If you are unable to complete the transition to S Mount and must remain in Technical Mount, what offensive chains are available to you?",
+        "answer": "From Technical Mount with arm control maintained, you have several high-percentage options. The armbar can be attacked directly from Technical Mount without needing S Mount by swinging the posted leg over the opponent's head and sitting back. If the opponent turns away to defend, immediately transition to back control by following their rotation and establishing seat belt grip and hooks. The mounted triangle becomes available if the opponent pulls their arm back but leaves their head exposed. Gift wrap control can be established if their free arm crosses their body defensively. Technical Mount itself is a powerful attacking position, and the S Mount transition is one option among several rather than the only viable path forward."
+      },
+      {
+        "question": "In which direction should you drive your hips during the rotation, and what happens if you drive in the wrong direction?",
+        "answer": "Drive your hips toward the opponent's shoulder on the attacked arm side, sliding along the shoulder as a rail throughout the rotation. The hips should move in an arc that keeps them sealed against the shoulder joint at all times. If you drive your hips away from the shoulder—upward or laterally—you create space between your body and the controlled arm that the opponent will immediately exploit to retract their elbow. If you drive too far past the shoulder toward their head, you over-rotate and compromise your base. The correct direction keeps the hip bone in constant contact with their deltoid throughout the entire rotational movement."
+      },
+      {
+        "question": "How should you adjust your Technical Mount to S Mount transition when facing a significantly larger or stronger opponent?",
+        "answer": "Against larger opponents, prioritize the Pressure Slide variant over the Explosive Rotation. Larger opponents generate more powerful bridges during weight shifts, so maintaining constant grinding pressure throughout the rotation minimizes the moments of instability they can exploit. Ensure your arm control is exceptionally secure before initiating, as stronger opponents can power through marginal grip positions. Keep your hips lower and tighter to their shoulder than you would against a similarly-sized opponent, reducing the space available for their defensive movements. The fundamental advantage of S Mount is mechanical leverage that negates size differences, but reaching S Mount against a larger opponent demands more patience and pressure during the transition."
       }
     ],
     "safety_considerations": "The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement."
@@ -359,7 +367,7 @@
         "correction": "Stay facing the opponent and use structural defense—bent arm, collar grip, hip frame—rather than positional avoidance through turning. Address the arm isolation directly."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the Technical Mount to S Mount transition?",
         "answer": "The earliest cue is the opponent shifting their weight decisively to their posted leg, which lightens their inside leg in preparation for swinging it across your torso. You may also feel a decrease in chest pressure as they begin rotating their hips away from parallel alignment. This weight shift occurs 1-2 seconds before the rotation completes, giving you a narrow but exploitable window for defensive action. Reacting at this moment rather than after the legs are positioned gives you the best chance of preventing S Mount establishment."

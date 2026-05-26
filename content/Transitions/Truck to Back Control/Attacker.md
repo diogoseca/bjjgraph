@@ -62,7 +62,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Weight Distribution for Back Control",
+      "name": "Establish Center of Gravity for Back Control",
       "text": "Settle your weight through your hips and chest into the opponent's back, establishing the cooking pressure that characterizes dominant back control. Angle slightly toward the choking arm side to pre-position for rear naked choke entries. Your weight should pin the opponent's shoulders slightly forward, preventing them from getting their back flat to the mat which would facilitate escape attempts.",
       "position": 8
     }
@@ -194,6 +194,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Truck to Back Control?</p>
+
 - Maintain constant chest-to-back connection throughout the entire transition to prevent opponent from creating space or turning to face you
 - Thread hooks progressively rather than releasing all leg control simultaneously to minimize the vulnerability window during the switch
 - Use upper body control as the anchor point while legs transition from entanglement to hooks, never abandoning seatbelt or harness during leg switch
@@ -208,6 +210,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Truck to Back Control?</p>
+
 - Established truck position with boot pressure firmly controlling opponent's hip orientation and preventing them from squaring up
 - Seatbelt, harness, or equivalent upper body control maintaining chest-to-back connection that will persist through the transition
 - Opponent's back exposed and accessible for hook threading between their thighs
@@ -221,6 +225,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Truck to Back Control step by step?</p>
+
 1. **Verify Upper Body Control**: Before initiating the transition, confirm your seatbelt or harness grip is secure with one arm over the opponent's shoulder and one under their armpit, hands clasped tightly. Your chest must be firmly pressed against their upper back. This upper body control is the anchor that persists through the entire transition, so it must be solid before you begin modifying your leg position.
 2. **Begin Alignment Shift**: Start sliding your body from the perpendicular truck alignment toward a parallel position behind the opponent's back. Drive your chest forward and slightly upward along their spine while maintaining constant pressure. This shift should feel like you are crawling over their back from the side to directly behind them, using your seatbelt grip to pull yourself into position.
 3. **Release Boot and Thread Bottom Hook**: As your alignment shifts toward parallel, release your boot pressure on the opponent's hip and immediately thread your bottom foot between their thighs to establish the first hook. The bottom hook goes in first because it is closest to insertion position and provides foundational hip control. Keep your top leg maintaining partial entanglement to retain control during this critical phase.
@@ -228,7 +234,7 @@ As the attacker executing the Truck to Back Control transition, your objective i
 5. **Extract Top Leg from Entanglement**: With the bottom hook secured, begin extracting your top leg from the remaining truck entanglement. Use a circular motion to free your leg rather than pulling straight back, which can create space the opponent exploits. Maintain heavy chest pressure throughout this extraction to compensate for the momentary reduction in lower body control as you switch configurations.
 6. **Insert Top Hook**: Thread your freed top leg inside the opponent's opposite thigh to establish the second hook. Drive this hook deep with the same mechanics as the bottom hook, crossing their midline with your foot and squeezing your heel toward their hip. With both hooks now established, you have converted from truck leg entanglement to traditional back control leg configuration.
 7. **Consolidate Seatbelt and Hook Position**: Tighten your seatbelt grip and adjust both hooks to optimal depth and angle. Your heels should be pressing into the opponent's inner thighs near the hip crease, your chest glued to their back, and your seatbelt grip secure with elbows tight to their body. Squeeze your knees together slightly to close any gaps between your legs and their hips.
-8. **Establish Weight Distribution for Back Control**: Settle your weight through your hips and chest into the opponent's back, establishing the cooking pressure that characterizes dominant back control. Angle slightly toward the choking arm side to pre-position for rear naked choke entries. Your weight should pin the opponent's shoulders slightly forward, preventing them from getting their back flat to the mat which would facilitate escape attempts.
+8. **Establish Center of Gravity for Back Control**: Settle your weight through your hips and chest into the opponent's back, establishing the cooking pressure that characterizes dominant back control. Angle slightly toward the choking arm side to pre-position for rear naked choke entries. Your weight should pin the opponent's shoulders slightly forward, preventing them from getting their back flat to the mat which would facilitate escape attempts.
 
 
 </section>
@@ -250,6 +256,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Truck to Back Control?</p>
+
 - **Opponent frames against chest and turns to face you during alignment shift** (Effectiveness: High) - Your Response: Increase chest pressure and drive your weight forward to prevent the turn. If they begin to rotate, immediately abandon the transition and re-establish truck position with boot pressure, then reattempt when they refocus on truck defenses. → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent strips the first hook before the second hook is inserted by straightening their leg and pushing your foot away** (Effectiveness: Medium) - Your Response: Re-thread the stripped hook immediately using a circular motion while maintaining seatbelt control. If hook reinsertion fails, return to partial truck entanglement and use the leg fighting to set up a calf slicer threat that reopens the back take opportunity. → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent executes a granby roll during the leg transition phase to create a scramble** (Effectiveness: High) - Your Response: Follow the roll with your upper body control intact, using the rolling momentum to accelerate your hook insertion as their legs naturally separate during rotation. If you lose seatbelt during the roll, transition to crab ride or re-engage turtle top control. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Truck to Back Control?</p>
 
 ### 1. Releasing all leg entanglement simultaneously before establishing any hooks
 
@@ -300,6 +310,8 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Truck to Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and hook insertion sequence
 Practice the complete transition sequence with a non-resisting partner, focusing on smooth alignment shift from perpendicular to parallel, progressive hook insertion starting with the bottom hook, and maintaining seatbelt throughout. Repeat 20 times per side with emphasis on keeping chest-to-back connection constant.
 
@@ -320,48 +332,12 @@ Flow rolling emphasizing smooth transitions between truck attacks, back take att
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing to initiate the truck to back control transition?
-**A**: The optimal timing is when the opponent is actively defending a truck-specific submission such as the calf slicer or twister. Their defensive attention is focused on the immediate submission threat, reducing their awareness of positional changes and their readiness to counter the back take. Initiating during a defensive reaction creates the best window because the opponent's hands and hips are committed to submission defense rather than escape positioning.
-
-**Q2**: What conditions must exist in the truck position before you should attempt this transition?
-**A**: Four conditions must be present: secure seatbelt or harness grip providing reliable upper body control, stable boot pressure on the opponent's hip maintaining their orientation, the opponent's back sufficiently exposed for hook insertion pathways, and the opponent in a defensive posture rather than mid-escape. Attempting the transition without all four conditions significantly increases the risk of losing position entirely during the leg switch.
-
-**Q3**: What is the most critical mechanical detail during the hook insertion phase?
-**A**: The most critical detail is threading the bottom hook first while maintaining partial leg entanglement with the top leg. The bottom hook provides foundational hip control that prevents the opponent from rotating away or executing a hip escape during the transition. Releasing all leg entanglement before any hook is established creates a complete control gap that skilled opponents will immediately exploit.
-
-**Q4**: What is the most common reason this transition fails at the intermediate level?
-**A**: The most common failure is releasing seatbelt grip or lifting chest off the opponent's back during the leg switch to facilitate hook threading. This creates upper body separation that allows the opponent to turn, frame, or execute a hip escape. The seatbelt must be maintained throughout the entire transition, and hooks must be threaded using leg movement alone without any upper body compromise.
-
-**Q5**: What grips must be maintained throughout the entire transition from truck to back control?
-**A**: The seatbelt grip with one arm over the opponent's shoulder and one under their armpit, hands clasped together, must be maintained throughout the entire transition without interruption. This grip provides the only continuous control point during the leg switch phase. Additionally, chest-to-back connection must be constant, serving as both a weight distribution mechanism and a positional anchor that prevents the opponent from creating space.
-
-**Q6**: In which direction should your weight shift during the transition from perpendicular to parallel alignment?
-**A**: Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle toward a position directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery.
-
-**Q7**: Your opponent frames against your chest as you begin the alignment shift—how do you adjust?
-**A**: When the opponent frames against your chest during the alignment shift, increase your forward pressure and drive your weight into the frames to collapse them. If the frames are strong enough to stall your transition, abandon the back take attempt temporarily and re-establish full truck control with boot pressure. Threaten a calf slicer or twister to force the opponent to remove their frames for submission defense, then reattempt the transition during their defensive reaction.
-
-**Q8**: If the opponent successfully strips your first hook insertion, what options are available?
-**A**: If the first hook is stripped, you have three options: immediately reattempt hook insertion using a circular threading motion while maintaining seatbelt control, return to truck entanglement and re-establish boot pressure to reset the position for another attempt, or use the leg fighting to set up a calf slicer on the opponent's leg that stripped your hook, converting their defensive action into a submission opportunity. The worst response is to chase the hook with both legs while abandoning upper body control.
-
-**Q9**: Why is the bottom hook inserted before the top hook during this transition?
-**A**: The bottom hook is inserted first because it is geometrically closest to the insertion pathway during the perpendicular-to-parallel shift, and because the bottom hook provides the foundational control point that prevents the opponent from hip escaping away from you toward the mat. With the bottom hook established, your weight settles naturally behind the opponent, making the top hook insertion significantly easier. Reversing this order would require lifting your weight to insert the top hook first, creating instability.
-
-**Q10**: How does threatening truck submissions create the opening for this back control transition?
-**A**: Truck submissions like the calf slicer and twister require the opponent to commit specific defensive actions: defending the calf slicer involves straightening their trapped leg and fighting the lockdown, while defending the twister involves hiding their far arm and protecting their neck. Both defensive postures redirect the opponent's hands and attention away from preventing hook insertion and framing against the back take. The submission threat creates a dilemma where defending one threat opens vulnerability to the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Truck to Back Control?</p>
 
 The Truck to Back Control transition involves releasing leg entanglement under tension, which can create unexpected torque on the opponent's knee or ankle if their leg is caught at an awkward angle during the switch. Always execute the leg transition with controlled, deliberate movements rather than explosive jerking motions. If the opponent's leg is tightly entangled, work to gradually release the entanglement before threading hooks rather than forcing through. Be aware that the transition can create momentary compression on the opponent's spine during the alignment shift. In training, communicate with your partner during the leg exchange phase and release immediately if they indicate discomfort in the knee or lower back.
 

@@ -188,6 +188,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Collar Drag from Worm Guard?</p>
+
 - Maintain lapel tension throughout the entire drag to prevent the opponent from stepping backward or disengaging
 - Obtain a deep collar grip behind the neck rather than a shallow grip on the collar fold for maximum pulling leverage
 - Coordinate the collar pull with a hip sit-up to simultaneously move yourself forward as the opponent comes down
@@ -202,6 +204,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Collar Drag from Worm Guard?</p>
+
 - Established worm guard with lapel wrapped around opponent's leg and constant tension maintained through the lapel grip
 - Deep collar grip obtained on the near-side collar or behind the opponent's neck with the free hand
 - Opponent's weight centered or slightly elevated, not driving forward with heavy smash passing pressure
@@ -214,6 +218,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Collar Drag from Worm Guard step by step?</p>
 
 1. **Secure deep collar grip**: While maintaining your worm guard lapel control with one hand, use your free hand to obtain a deep grip on the opponent's near-side collar, reaching behind their neck whenever possible. A shallow collar grip provides insufficient leverage. The grip should be at the collar crease behind the neck, allowing you to pull their head forward and down with maximum mechanical advantage.
 2. **Verify lapel tension**: Before initiating the drag, confirm that your lapel wrap is tight and maintaining structural control of the opponent's lead leg. Pull slightly on the lapel to ensure there is no slack in the system. If the lapel has loosened, re-tighten it before proceeding, as a slack lapel allows the opponent to step backward and defeat the drag entirely.
@@ -243,6 +249,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Collar Drag from Worm Guard?</p>
+
 - **Opponent postures up explosively and strips the collar grip before the drag is completed** (Effectiveness: High) - Your Response: If you feel the collar grip slipping, immediately switch to an arm drag on whatever arm the opponent uses to strip your grip. Their stripping motion exposes that arm for a drag to back exposure. → Leads to [[Positions/Worm Guard]]
 - **Opponent steps their free leg forward and drives weight down to prevent being pulled forward** (Effectiveness: Medium) - Your Response: Redirect the drag angle laterally rather than straight forward. The free leg base only resists linear forward pulls. An angled drag combined with hip movement can still off-balance them despite the wider base. → Leads to [[Positions/Worm Guard]]
 - **Opponent strips the lapel wrap during the collar drag attempt, removing leg immobilization** (Effectiveness: High) - Your Response: If the lapel is stripped mid-drag, you lose the primary advantage. Immediately transition to a standard collar drag or arm drag from open guard rather than trying to re-establish worm guard during the scramble. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Collar Drag from Worm Guard?</p>
 
 ### 1. Attempting the collar drag with a shallow collar grip on the lapel fold rather than deep behind the neck
 
@@ -293,6 +303,8 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Collar Drag from Worm Guard (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Collar grip acquisition from worm guard
 Practice obtaining deep collar grips from established worm guard with a cooperating partner. Focus on reaching behind the neck while maintaining lapel tension. Perform 20 repetitions per side until the grip acquisition feels natural and fast.
 
@@ -313,42 +325,12 @@ Practice using the collar drag as part of the broader worm guard attack system. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does the worm guard lapel wrap make the collar drag significantly more effective than the same drag from standard open guard?
-**A**: The lapel wrap immobilizes the opponent's lead leg, preventing them from stepping backward to resist the forward pulling force. In standard open guard, the opponent can simply step back when pulled, absorbing the drag energy. With the leg trapped by the lapel, their only options are to post with their hands or try to strip the grip, both of which create exploitable reactions for the attacker.
-
-**Q2**: What is the optimal timing window for initiating the collar drag from worm guard?
-**A**: The optimal timing is when the opponent attempts to posture up against the worm guard tension or shifts their weight backward after defending a sweep attempt. Their upward or backward energy reduces their forward resistance, making the collar drag more effective. Additionally, the moment they attempt to strip the lapel with one hand, they are down to single-hand base, creating another ideal timing window for the drag.
-
-**Q3**: What grip depth is required on the collar and why does a shallow grip fail?
-**A**: The collar grip must be deep behind the neck at the collar crease where it meets the shoulder. A shallow grip on the lapel fold provides insufficient leverage because the pulling angle is too far from the opponent's center of mass. The deep grip behind the neck allows you to pull their head directly downward with maximum mechanical advantage, making the drag difficult to resist.
-
-**Q4**: Your opponent posts both hands on the mat as you execute the collar drag - how do you capitalize on this defensive response?
-**A**: Both hands posting on the mat means the opponent has no hands available to defend their neck or control your body. Continue the drag motion while circling to the side to establish front headlock. Their posted hands actually help you because they cannot frame against your sit-up or control your head. Once you arrive at front headlock, their posted position is already the bent-over posture you need them in for choke attacks.
-
-**Q5**: What is the primary direction of force during the collar drag execution?
-**A**: The primary force direction is diagonally forward and slightly to the side rather than straight down. The diagonal angle makes it harder for the opponent to resist because they cannot simply brace forward. The lateral component creates the angle you need to come around to front headlock on the side. Pulling straight down tends to collapse the opponent on top of you rather than beside you, which is tactically inferior.
-
-**Q6**: How does the collar drag function as a chain attack within the worm guard sweep system?
-**A**: The collar drag threatens on a different plane than standard worm guard sweeps, which primarily attack laterally. When an opponent successfully defends lateral sweeps by widening their base, they become more vulnerable to the forward collar drag because their weight is distributed sideways rather than forward-backward. This multi-directional threat system forces the opponent to defend all planes simultaneously, weakening their defense on every plane.
-
-**Q7**: What should you do if the opponent successfully strips your collar grip mid-drag?
-**A**: If the collar grip is stripped but you still have lapel control, immediately transition to an alternative attack from worm guard rather than attempting to re-establish the collar grip. Options include an arm drag on the stripping arm, a sweep attempt using the opponent's momentary distraction, or re-setting the collar grip from a different angle. The worst response is to freeze and allow them to reset their defensive posture.
-
-**Q8**: What distinguishes the collar drag from worm guard from a sit-up sweep, and when should you choose one over the other?
-**A**: The collar drag aims to achieve front headlock top position by pulling the opponent forward and circling to their side, while a sit-up sweep aims to reverse position by getting underneath and elevating. Choose the collar drag when the opponent has wide base making elevation sweeps unlikely, when you want access to the front headlock submission tree, or when the opponent's posture is elevated. Choose sweeps when the opponent's weight is forward and they are more easily elevated.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Collar Drag from Worm Guard?</p>
 
 The collar drag from worm guard is a positional transition rather than a submission, so the primary safety concerns relate to collision during the explosive movement. When drilling, the attacker should control the speed of the pull to prevent the opponent from face-planting into the mat. Both partners should communicate clearly during initial practice to avoid neck strain from unexpected jerking forces on the collar grip. The transition to front headlock should be controlled to prevent inadvertent neck cranking. Always practice on matted surfaces and ensure the opponent can tap if any submission threat develops during the scramble to front headlock.
 

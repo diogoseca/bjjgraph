@@ -165,6 +165,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Position Definition
 
+<p class="section-subtitle">What is Feet on Hips Guard (Top)?</p>
+
 - Bottom player's feet are placed on top player's hips, creating a pushing frame that maintains distance between the two practitioners and prevents chest-to-chest contact
 - Top player maintains upright posture with strong base, typically in combat base or standing position, preventing forward collapse or off-balancing from leg frames
 - Top player controls one or both of bottom player's pants at the knees or ankles, working to break the foot-on-hip frames and establish dominant passing grips
@@ -177,6 +179,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Feet on Hips Guard (Top)?</p>
+
 - Bottom player has established open guard with feet on hips creating distance
 - Top player has disengaged from closed guard or is approaching from standing position
 - Sufficient space exists between both players for the frame to function
@@ -188,6 +192,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Feet on Hips Guard?</p>
 
 - Control the knees before attempting to pass - grip fighting at the pants is essential foundation
 - Maintain constant forward pressure to prevent bottom player from recovering better guards or establishing sleeve control
@@ -203,6 +209,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Feet on Hips Guard (Top)?</p>
 
 **If bottom player has both feet on hips with strong frames and no sleeve grips established:**
 - Execute **[[Grip pants at knees/Attacker|Grip pants at knees]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -236,6 +244,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Feet on Hips Guard?</p>
 
 ### 1. Attempting to pass without controlling the knees first
 
@@ -280,6 +290,8 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Feet on Hips Guard attacks?</p>
+
 ### Frame Breaking Drill
 
 Bottom player establishes feet on hips frames. Top player practices controlling knees and systematically breaking frames one at a time. Focus on grip fighting and maintaining pressure. Switch roles every 3 minutes. Emphasize technical precision over speed.
@@ -301,7 +313,7 @@ Top player cycles through different passing options (toreando, knee cut, leg dra
 **Duration**: 4 minutes per person
 
 
-### Grip Fighting Specific
+### Grips Specific
 
 Isolated drill focusing only on grip fighting from feet on hips position. Top player tries to secure pants grips, bottom player tries to establish sleeve or collar grips. Reset every 30 seconds and alternate who achieves grips first. Builds grip fighting awareness and hand speed.
 
@@ -319,38 +331,6 @@ Start with bottom player in feet on hips position with grips already established
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first step you should take before attempting any pass against feet on hips guard?
-**A**: Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete.
-
-**Q2**: Your opponent starts extending their legs forcefully to push you away - what adjustment do you make?
-**A**: Lower your center of gravity by bending your knees and driving your hips forward while maintaining your knee grips. Keep your weight driving into the opponent rather than leaning back against the pressure. Use their extension as an opportunity to step laterally and create a passing angle, since fully extended legs are more vulnerable to lateral passing attacks like the toreando or leg drag.
-
-**Q3**: Why should you break one frame at a time rather than attempting to clear both feet simultaneously?
-**A**: Clearing both frames simultaneously requires releasing your grips and creates a moment where the opponent can freely adjust their position, re-establish frames, or attack with sweeps. Breaking one frame at a time maintains constant control and forward pressure. Once one foot is cleared past your hip, you can pin that leg while addressing the second frame, creating a systematic progression toward the pass rather than a chaotic exchange.
-
-**Q4**: What are the essential grips for maintaining pressure and control against feet on hips guard?
-**A**: The priority grips are bilateral pants control at the knees, which neutralizes the pushing frames. Secondary grips include collar control to prevent the opponent from sitting up and establishing offensive grips, and ankle grips when transitioning to specific passes. Avoid reaching for sleeve grips initially as this exposes your posture and allows the bottom player to threaten spider guard or lasso transitions.
-
-**Q5**: How do you shut down the opponent's primary escape attempt of transitioning to De La Riva guard?
-**A**: Maintain awareness of your knee line and keep your lead knee tight and low, preventing the opponent from threading their leg underneath to establish the DLR hook. When you see them attempt to rotate their hips or reach for your ankle, immediately backstep or circle your lead leg away from their hooking leg. Drive forward pressure through your grips to keep their hips flat, reducing their ability to create the angle needed for DLR entry.
-
-**Q6**: The bottom player begins hip-escaping laterally to face you during your pass - how do you respond?
-**A**: Follow their hip movement with your own lateral movement, keeping your chest aimed at their centerline. Use your knee grips to pull their legs back toward your centerline as they try to rotate. If they successfully create an angle, immediately transition to the passing direction they've exposed rather than fighting back to your original line. Their hip escape often creates an opportunity for knee cut or leg drag on the side they've opened.
-
-**Q7**: What is the optimal weight distribution when maintaining top position against feet on hips guard?
-**A**: Weight should be distributed forward and low, with your hips driving toward the opponent rather than staying elevated or sitting back. Keep approximately 60% of your weight driving forward through your grips while maintaining a stable base with wide feet. Your shoulders should be slightly ahead of your hips. This forward pressure makes it difficult for the bottom player to create distance while your low center of gravity prevents them from off-balancing you with push sweeps.
-
-**Q8**: How do you manage energy while systematically breaking down feet on hips frames?
-**A**: Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

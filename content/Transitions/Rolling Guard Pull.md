@@ -28,7 +28,7 @@ The rolling guard pull works by combining forward momentum with a controlled bac
 
 Mastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement. The rotational mechanics developed here transfer directly to berimbolo entries, inversions, and other advanced guard techniques.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>

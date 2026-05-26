@@ -182,6 +182,8 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Muscle Sweep?</p>
+
 - Break opponent's posture completely before initiating the sweep
 - Control opponent's upper body with strong grips on collar and sleeve
 - Create a 45-degree angle with your body relative to opponent's centerline
@@ -197,6 +199,8 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Muscle Sweep?</p>
+
 - Closed guard established with ankles locked securely
 - Opponent's posture broken with head pulled down below shoulder line
 - Strong collar grip with one hand (typically same-side as sweep direction)
@@ -211,6 +215,8 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Muscle Sweep step by step?</p>
 
 1. **Establish control grips**: From closed guard, secure a deep collar grip with your right hand, pulling the opponent's head down and breaking their posture forward. Simultaneously grip their left sleeve or wrist with your left hand, preventing them from posting to that side.
 2. **Create hip angle**: Shift your hips approximately 45 degrees to your left, moving your body off-center relative to the opponent. This angle is critical as it allows your right shoulder to get under their centerline while creating space for the sweep. Keep your guard closed throughout this movement.
@@ -239,6 +245,8 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Muscle Sweep?</p>
+
 - **Opponent posts hard with free arm to prevent rollover** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with Kimura or armbar, or transition to alternative sweep like Hip Bump Sweep if they post too wide → Leads to [[Positions/Closed Guard]]
 - **Opponent maintains strong posture and prevents forward weight distribution** (Effectiveness: High) - Your Response: Chain to different attacks like Triangle or Omoplata that work from upright posture, or use hip bump to break posture again → Leads to [[Positions/Closed Guard]]
 - **Opponent sprawls legs back as you attempt to sweep** (Effectiveness: Medium) - Your Response: Transition to Guillotine control or follow to Turtle position for back take opportunity → Leads to [[Positions/Closed Guard]]
@@ -251,6 +259,8 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Muscle Sweep?</p>
 
 ### 1. Attempting sweep while opponent maintains strong upright posture
 
@@ -290,10 +300,12 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Muscle Sweep (Attacker)?</p>
+
 **Week 1-2: Foundational Movement** - Learn basic mechanics and hip angle creation
 Practice creating 45-degree angle from closed guard and understanding grip positions. Drill hip escape movement while maintaining guard. Partner provides zero resistance, focusing on smooth positional changes and proper angle creation.
 
-**Week 3-4: Sweep Mechanics** - Coordinate upper body control with hip elevation
+**Week 3-4: Kuzushi** - Coordinate upper body control with hip elevation
 Add the actual sweeping motion, combining collar/sleeve control with hip drive. Partner maintains broken posture but does not actively resist the sweep. Focus on timing of guard opening and explosive hip movement coordinated with arm pulls.
 
 **Week 5-8: Timing and Base Breaking** - Learn to break opponent's base before sweep attempt
@@ -310,48 +322,12 @@ Apply technique during positional sparring from closed guard and eventually free
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip angle to create before executing the muscle sweep?
-**A**: Approximately 45 degrees off-center from the opponent's centerline. This angle allows your shoulder to get underneath their centerline while creating the proper sweeping vector. The angle is critical because it determines the direction and mechanical advantage of the sweep, making it much more effective than attempting to sweep from directly underneath the opponent.
-
-**Q2**: Why is it important to control the opponent's sleeve or wrist during the muscle sweep?
-**A**: Controlling the sleeve or wrist prevents the opponent from posting with that arm to stop the sweep. If they can post with their free arm, they can base out and completely shut down the sweep while potentially beginning their guard passing sequence. Effective sleeve control eliminates this defensive option and ensures the sweep's success.
-
-**Q3**: When should you open your closed guard during the muscle sweep sequence?
-**A**: Open the guard only at the moment of explosive execution, not during the setup phase. Opening too early gives the opponent opportunity to stand, stack, or begin passing. The guard should remain closed through grip establishment and angle creation, opening only when ready to drive the hips upward for the sweep.
-
-**Q4**: Your opponent successfully posts their hand to block the sweep - how do you adjust?
-**A**: Immediately transition to attacking the posted arm with techniques like Kimura or armbar, or switch to alternative sweeps like the Hip Bump Sweep if they post too wide. The posted arm becomes an exposed target because the opponent has committed structural support to that limb. Alternatively, if they post very strong and square up, this creates opportunities for Triangle or Omoplata setups as their defensive posture shifts.
-
-**Q5**: What is the relationship between posture breaking and muscle sweep success rate?
-**A**: Complete posture breaking is essential for muscle sweep success - the opponent's head must be pulled below shoulder line before attempting the sweep. When posture is maintained, the opponent has strong base and can easily defend. Breaking posture loads their weight forward, compromises their base structure, and creates the necessary conditions for the sweeping mechanics to work effectively.
-
-**Q6**: How can the muscle sweep be effectively integrated into a closed guard attack sequence?
-**A**: The muscle sweep works best when chained with other closed guard attacks like Triangle, Kimura, or Hip Bump Sweep. Use the muscle sweep setup to break posture and create reactions - if they defend by posting, attack the arm; if they posture up strongly, switch to Triangle; if they base wide, transition to Hip Bump. The muscle sweep becomes more effective when it's one option in a systematic attack sequence rather than an isolated technique.
-
-**Q7**: What specific grip configuration do you need before initiating the muscle sweep?
-**A**: You need a deep collar grip with one hand, typically the same side as your sweep direction, pulling the opponent's head down and controlling their posture. The opposite hand controls the opponent's sleeve or wrist on the side you are sweeping toward to prevent posting. The collar grip must be deep enough to generate pulling power across the opponent's body, not just downward. Both grips must be established and tested before committing to the explosive phase.
-
-**Q8**: What is the primary direction of force during the explosive phase of the muscle sweep?
-**A**: The force is directed upward through the hips and diagonally across the opponent's body, not straight backward. Your hips drive upward while your arms pull the opponent's upper body down and across your centerline toward the mat on the far side. This diagonal vector is what creates the rotational momentum that rolls the opponent over. Pushing straight up without the lateral pull component results in the opponent simply settling back down into your guard.
-
-**Q9**: Your opponent begins standing up in your closed guard as you set up the muscle sweep - what do you do?
-**A**: Abandon the muscle sweep setup and immediately transition to sweeps designed for a standing opponent, such as the Pendulum Sweep or ankle pick variations. If they are only partially standing with one knee up, you can accelerate the sweep attempt using their elevated center of gravity against them. The key recognition is that the muscle sweep requires the opponent's weight forward and low - a standing opponent has removed both conditions. Maintaining your grips during the transition preserves offensive initiative.
-
-**Q10**: What are the conditions that must exist before you can realistically attempt the muscle sweep?
-**A**: Four conditions must be present: closed guard with ankles locked, opponent's posture broken with head below shoulder line, controlling grips established on collar and sleeve, and your hips shifted to approximately 45 degrees creating the sweeping angle. Additionally, the opponent's weight must be distributed forward rather than sitting back on their heels. Attempting the sweep without all conditions met dramatically reduces success rate and may expose you to guard passes or submission counters from the opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Muscle Sweep?</p>
 
 When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts.
 

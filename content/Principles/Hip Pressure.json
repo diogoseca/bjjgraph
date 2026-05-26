@@ -32,7 +32,7 @@
       "description": "The ability to place hips in optimal positions relative to opponent's hips, creating contact points that maximize control while maintaining personal mobility. This includes understanding which hip placement angles prevent specific escape movements and how to adjust position based on opponent's defensive posture."
     },
     {
-      "skill_name": "Weight Distribution",
+      "skill_name": "Center of Gravity",
       "description": "The skill of allocating bodyweight through the hips while maintaining balance and stability in the upper body. This involves knowing how much weight to commit through hip pressure versus retaining in base points, adjusting distribution dynamically as opponent attempts escapes."
     },
     {
@@ -62,7 +62,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Prerequisite",
       "description": "General pressure principles provide the foundation for hip-specific pressure application, including understanding weight distribution, base maintenance, and pressure timing that enables effective hip pressure development."
     },
@@ -72,12 +72,12 @@
       "description": "Hip pressure works synergistically with shoulder pressure to create comprehensive pinning control. While shoulder pressure controls upper body and prevents frames, hip pressure eliminates lower body mobility, together creating complete positional dominance."
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Stable base structure is essential for generating effective hip pressure, as applying weight through hips requires secure upper body positioning that prevents opponent from destabilizing the top position through sweeps or reversals."
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Complementary",
       "description": "Proper weight distribution principles determine how effectively hip pressure can be applied while maintaining mobility. Understanding weight allocation between hips and base points enables maximum pressure with minimum compromise to stability."
     },
@@ -105,11 +105,6 @@
       "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Hip control ranks as high-priority control point in positional dominance hierarchy, with hip pressure serving as primary mechanism for establishing and maintaining this critical control."
-    },
-    {
-      "principle_name": "Pressure Passing",
-      "relationship_type": "Extension",
-      "description": "Hip pressure is the core mechanism in pressure passing systems, where sustained hip contact and weight transfer collapse guard structures and enable position advancement through dominant control."
     },
     {
       "principle_name": "Control Maintenance",
@@ -349,7 +344,7 @@
   ],
   "related_content": [
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Parent concept providing general pressure principles that hip pressure specializes for lower body control"
     },
@@ -374,14 +369,9 @@
       "relationship": "Position where hip pressure maintains stability and prevents bridge escapes while enabling attacks"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Foundational concept determining how bodyweight is allocated through hips for pressure generation"
-    },
-    {
-      "name": "Pressure Passing",
-      "content_type": "Principle",
-      "relationship": "Strategic framework where hip pressure serves as essential tool for controlling opponent's lower body during passes"
     },
     {
       "name": "Bernardo Faria Pressure System",
@@ -394,7 +384,7 @@
       "relationship": "Defensive framework focused on preventing or removing hip pressure to create escape opportunities"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Prerequisite concept ensuring stable structure needed to generate effective hip pressure safely"
     },

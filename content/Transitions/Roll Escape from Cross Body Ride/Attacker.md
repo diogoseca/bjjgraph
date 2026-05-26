@@ -194,6 +194,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll Escape from Cross Body Ride?</p>
+
 - Commit fully to the roll direction once initiated—half-measures expose the back without creating separation
 - Time the roll with the rider's weight transition, grip adjustment, or positional shift to exploit momentary instability
 - Protect the neck throughout the entire rolling motion by maintaining a tight chin tuck and defensive hand positioning
@@ -208,6 +210,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll Escape from Cross Body Ride?</p>
+
 - Sufficient turtle base structure to generate the initial rotational force for the roll
 - Chin tucked with hands positioned near the neck to protect against choke entries during rotation
 - Identification of the rider's weight distribution to determine the optimal roll direction
@@ -220,6 +224,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll Escape from Cross Body Ride step by step?</p>
 
 1. **Assess rider's weight distribution and commit to roll direction**: Feel where the rider's chest pressure is heaviest across your back through tactile awareness. Identify whether their weight favors your head side, hip side, or is centered. Choose to roll toward the side where their weight is most committed, as this direction uses their own pressure against them and prevents them from following the rotation.
 2. **Secure neck protection and tighten defensive posture**: Tuck your chin firmly to your chest and bring both hands to your collar and neck area. Pin your elbows tightly against your ribs to prevent arm isolation during the upcoming rotation. This defensive shell must be established before initiating any rolling motion, as the neck is maximally exposed during the transition between turtle and guard.
@@ -250,6 +256,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll Escape from Cross Body Ride?</p>
+
 - **Rider follows the roll momentum and immediately inserts hooks for back control** (Effectiveness: High) - Your Response: If you feel hooks entering during the roll, immediately switch priority to hand fighting the choking hand and stripping the near-side hook. Abandon the half guard insertion and transition to dedicated back escape protocol with hip escapes and hook clearing. → Leads to [[Positions/Back Control]]
 - **Rider sprawls heavy and drives chest pressure down to kill the roll before it generates momentum** (Effectiveness: High) - Your Response: If the roll is killed before generating sufficient rotation, immediately redirect to a hip escape in the opposite direction. The rider's forward sprawl commitment creates lateral space that hip escapes can exploit. → Leads to [[Positions/Cross Body Ride]]
 - **Rider shifts weight to the opposite side to block the roll direction and maintain perpendicular control** (Effectiveness: Medium) - Your Response: If the rider adjusts weight to block your intended roll direction, use their weight shift as an opening for a hip escape in the direction they just vacated. Their defensive adjustment to block the roll necessarily compromises their coverage on the opposite side. → Leads to [[Positions/Cross Body Ride]]
@@ -261,6 +269,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll Escape from Cross Body Ride?</p>
 
 ### 1. Initiating the roll without fully committing to the direction, stalling halfway through the rotation
 
@@ -305,6 +315,8 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll Escape from Cross Body Ride (Attacker)?</p>
+
 **Solo Rolling Mechanics** - Rotational movement patterns and neck protection
 Practice the rolling motion without a partner on soft mats. Focus on maintaining chin-tucked posture, keeping elbows tight, and generating hip-driven rotation rather than upper body momentum. Drill both directions, emphasizing smooth continuous rotation that ends in a half guard recovery position.
 
@@ -325,42 +337,12 @@ Positional rounds starting from cross body ride bottom at full resistance. Botto
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the roll escape from cross body ride?
-**A**: The optimal timing is during the rider's weight transitions—when they adjust grips, shift chest pressure to set up a back take or transition attempt, or begin inserting hooks. These micro-adjustments momentarily disrupt the rider's perpendicular pressure and create directional instability that the roll can exploit. Rolling during settled, heavy pressure wastes energy and has a much lower success rate. The key is developing the tactile sensitivity to feel pressure changes through your back and exploding the moment instability appears.
-
-**Q2**: Which direction should you roll relative to the rider's weight distribution?
-**A**: Roll toward the side where the rider's weight is most committed. If their chest pressure is heavy on your right shoulder, roll to the right. The rider's committed weight acts as an anchor that prevents them from following the rotation in that direction. Rolling away from their committed weight allows them to follow freely because their balance is already oriented to move in that direction. Think of it as pulling the rug out from under their pressure point rather than running away from it.
-
-**Q3**: Your opponent has blocked your lateral hip escapes and is threatening a back take—how does this scenario make the roll escape more viable?
-**A**: When the rider blocks lateral hip movement and begins transitioning toward back control, they typically shift their weight from perpendicular chest pressure to a more diagonal or rear-oriented position to insert hooks. This weight shift creates the exact rotational instability that the roll escape requires. The rider's commitment to the back take means their weight is moving in one direction, making it impossible for them to simultaneously resist a roll that exploits their transitional movement. The blocked hip escape actually sets up the roll by channeling the rider into a vulnerable weight distribution.
-
-**Q4**: What is the most critical mechanical detail that distinguishes a successful roll from one that stalls mid-rotation?
-**A**: Hip drive generates the primary rotational force, not upper body movement. Practitioners who try to roll using their shoulders and upper back as the engine produce insufficient momentum and stall at the halfway point. The correct mechanic is a powerful hip thrust in the roll direction with the near shoulder dropping to create the rotational axis. The hips drive over and the upper body follows. This hip-first sequencing generates enough force to carry the body through the full rotation even against significant rider weight.
-
-**Q5**: Your first roll attempt is blocked and you feel the rider adjusting to prevent a second attempt in the same direction—what is your immediate response?
-**A**: Do not attempt a second roll in the same direction. The rider's adjustment to block that direction creates an opening in the opposite direction, either for a hip escape or a roll in the reverse direction. The rider cannot simultaneously defend both rotational directions and lateral movement. Use the information from the failed attempt to redirect immediately: if they loaded weight to block your right-side roll, hip escape left or attempt a left-side roll. Chain escapes that force the rider into a defensive reaction loop rather than allowing them to settle and consolidate after stopping one attempt.
-
-**Q6**: What grip configuration must you maintain on your defensive hands during the roll?
-**A**: Both hands should be positioned near your collar and neck area with elbows pinned to ribs. One hand cups the back of your neck while the other protects the collar area to prevent choke entries. During the roll, this hand position naturally protects the neck through all rotational angles. After completing the roll and clamping half guard, the hands transition to framing against the opponent's chest and fighting for the underhook, but during the roll itself, neck protection takes absolute priority over any other grip consideration.
-
-**Q7**: How do you prevent the rider from inserting hooks as you complete the roll and begin establishing half guard?
-**A**: Speed and leg activity are the primary defenses against hook insertion during the transition. Thread your inside leg between the rider's legs during the roll itself rather than after—your legs should be searching for the half guard entanglement before the rotation completes. Once you clamp the half guard with both legs pinching the rider's thigh, their ability to insert hooks is structurally blocked by your leg entanglement. The gap between completing the roll and establishing guard is the vulnerability window, so eliminating that gap through continuous leg movement is essential.
-
-**Q8**: In what scenario would you choose the roll escape over a hip escape from cross body ride?
-**A**: Choose the roll escape when the rider has effectively neutralized lateral hip movement through tight hip control or hip-to-hip connection but has left the rotational axis unguarded. This typically occurs when the rider has adapted to your hip escape pattern by keeping their weight centered and following lateral displacement. The roll escape introduces a vector that their centered weight cannot counter. Also choose the roll when the rider is in transition between control configurations, as their momentary weight shift provides the instability that the roll requires for success.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll Escape from Cross Body Ride?</p>
 
 Practice rolling escapes on properly padded mats to prevent shoulder and neck injuries from the rotational impact. Start with slow, controlled repetitions at minimal resistance before adding speed or partner pressure. The neck is the primary injury concern during this technique—maintain a strict chin-tuck throughout all training phases and never force a roll if you feel compression or strain on the cervical spine. If a training partner establishes a choke during the roll, tap immediately rather than attempting to power through the rotation. Gradually increase partner resistance over multiple sessions rather than jumping to full intensity. Warm up the neck, shoulders, and hips thoroughly before dedicated rolling escape drilling sessions.
 

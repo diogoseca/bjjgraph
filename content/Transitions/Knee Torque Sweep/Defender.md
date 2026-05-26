@@ -154,6 +154,8 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Torque Sweep?</p>
+
 - Bottom player repositions their legs from standard half guard hooks to a scissors-like configuration with one leg behind and one in front of your trapped knee
 - Bottom player fights aggressively for the underhook while simultaneously turning sharply onto their side to create leverage angle
 - You feel inward rotational pressure on your trapped knee as the bottom player's legs begin squeezing in a twisting motion
@@ -166,6 +168,8 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Torque Sweep?</p>
 
 - Maintain wide base and heavy hip pressure distributed through the trapped leg to resist rotational forces on the knee
 - Recognize early setup cues before full torque is applied, as defense becomes exponentially harder once the scissors configuration is established
@@ -180,6 +184,8 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Torque Sweep?</p>
 
 ### 1. Drive heavy crossface and flatten opponent to eliminate side angle
 
@@ -217,6 +223,8 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Torque Sweep?</p>
+
 ### → [[Positions/Side Control]]
 
 Use the bottom player's commitment to the sweep to time a leg extraction and guard pass. When they loosen their legs to adjust the torque angle or when they bridge and create momentary space in the entanglement, drive your hip forward and swim your knee free to advance directly to side control.
@@ -232,6 +240,8 @@ Flatten the bottom player with heavy crossface pressure to eliminate their side 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Torque Sweep?</p>
 
 ### 1. Failing to recognize the setup until full torque is already applied to the knee
 
@@ -261,6 +271,8 @@ Flatten the bottom player with heavy crossface pressure to eliminate their side 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Torque Sweep?</p>
+
 **Phase 1: Recognition Training** - Identifying setup patterns and timing cues
 Partner drills the knee torque sweep setup repeatedly at slow speed while you focus on identifying each stage of the setup: side angle achievement, leg repositioning, underhook deepening, and torque initiation. Call out each cue verbally as you recognize it. Build pattern recognition without attempting defensive responses initially.
 
@@ -274,26 +286,6 @@ Positional sparring starting from half guard top where the bottom player activel
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that your opponent is setting up a knee torque sweep from half guard bottom?
-**A**: The earliest cue is the opponent repositioning their legs from standard half guard hooks into a scissors-like configuration around your trapped knee, with one leg moving behind and one in front of the knee joint. This is typically accompanied by the opponent turning sharply onto their side and fighting aggressively for the underhook, signaling they are creating the structural foundation needed for the rotational sweep.
-
-**Q2**: How should you adjust your base when you feel rotational pressure on your trapped knee?
-**A**: Immediately widen your base by posting your free leg out to the side and driving your free-side hip toward the mat, creating a wide triangular base structure. Simultaneously post your free hand on the mat for additional lateral stability. This widened base provides structural resistance against the lateral sweeping force while you work to neutralize the torque through crossface pressure or leg extraction.
-
-**Q3**: What is the primary risk of posting your hand wide to defend the sweep?
-**A**: The primary risk is that the posted arm becomes vulnerable to a kimura attack. When you post your hand wide to brace against the sweep, the opponent can transition from the sweep attempt to grip your wrist and thread their far arm behind your elbow, establishing a kimura grip that forces you to choose between defending the submission and maintaining your posted base against the sweep.
-
-**Q4**: When should you attempt to extract your trapped leg during the knee torque sweep defense?
-**A**: The optimal extraction timing is when you have successfully neutralized the torque threat through crossface pressure or when the opponent loosens their leg grip during a torque angle adjustment. Attempting extraction while the scissors configuration is tight and active will likely fail and may leave you more off-balanced. Wait for a gap in their entanglement control, then drive your hip forward and swim the knee free in one committed motion.
-
-
-
-</section>
 
 
 </main>

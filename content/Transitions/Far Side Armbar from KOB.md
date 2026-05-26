@@ -202,19 +202,19 @@ The far side armbar from knee on belly integrates into the KOB attack system as 
 
 - [[Positions/Half Guard]] - Counter destination — where the attacker may end up if the opponent successfully disrupts the transition
 
-- [[Submissions/Armbar from Knee on Belly]] - Related near-side armbar submission from the same starting position
+- [[Armbar from Armbar Control]] - Follow-up finish submission executed from armbar control after successfully completing this transition
 
-- [[Transitions/Armbar Finish]] - Follow-up finish transition from the armbar control position achieved by this technique
+- [[Submissions/Baseball Bat Choke]] - Complementary attack from KOB that creates the defensive reactions exploited by the far side armbar
 
-- [[Transitions/Baseball Bat Choke]] - Complementary attack from KOB that creates the defensive reactions exploited by the far side armbar
-
-- [[Submissions/Cross Collar Choke from KOB]] - Alternative choke attack from KOB that forces arm extension when defended
+- [[Submissions/Cross Collar Choke]] - Alternative choke attack from KOB that forces arm extension when defended
 
 - [[Positions/Side Control]] - Adjacent position — common fallback if KOB is lost during setup
 
 - [[Transitions/Back Take from Top]] - Alternative transition from KOB when the opponent turns away instead of pushing
 
 - [[Positions/Mount]] - Alternative advancement target from KOB that shares the attack-from-pressure philosophy
+
+- [[Submissions/Far Side Armbar]] - Parent submission family — the far side armbar finish executed from armbar control
 
 
 </section>

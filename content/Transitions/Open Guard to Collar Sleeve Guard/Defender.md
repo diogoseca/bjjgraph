@@ -154,6 +154,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Open Guard to Collar Sleeve Guard?</p>
+
 - Bottom player reaches across your body toward your far collar with one hand while framing with feet on your hips
 - Bottom player pulls you forward with one hand already inside your collar and their free hand begins tracking your sleeve
 - Bottom player transitions from flat back to angled hips with one foot placed specifically on your bicep or hip on one side
@@ -165,6 +167,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Open Guard to Collar Sleeve Guard?</p>
 
 - Deny the collar grip above all else - without it, collar sleeve guard cannot function
 - Maintain upright posture with hips back to keep your collar out of easy reaching range
@@ -179,6 +183,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Open Guard to Collar Sleeve Guard?</p>
 
 ### 1. Strip the collar grip immediately using a two-on-one grip break before the sleeve grip is added
 
@@ -216,6 +222,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Open Guard to Collar Sleeve Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the collar grip early using a decisive two-on-one break before the sleeve grip completes the guard structure. Immediately establish your own grips on their pants to control the re-engagement and prevent them from simply re-reaching for your collar.
@@ -231,6 +239,8 @@ When you detect the collar reach, drive forward with a knee slice or pressure pa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard to Collar Sleeve Guard?</p>
 
 ### 1. Ignoring the initial collar grip and allowing it to deepen while focusing on your own passing setup
 
@@ -255,6 +265,8 @@ When you detect the collar reach, drive forward with a knee slice or pressure pa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Open Guard to Collar Sleeve Guard?</p>
+
 **Phase 1: Grip Recognition and Reaction** - Identifying collar sleeve establishment attempts
 Partner slowly reaches for collar and sleeve grips from open guard while you practice recognizing the reaching motion and executing two-on-one grip breaks. Focus on timing - identify the reach as early as possible and initiate the grip strip before their hand seats deeply. No passing or sweeping, purely defensive grip fighting awareness.
 
@@ -268,26 +280,6 @@ Partner attempts to establish collar sleeve guard while you use their grip-reach
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when facing a bottom player attempting to establish collar sleeve guard?
-**A**: Denying the cross-collar grip is the single most important priority because without it, collar sleeve guard cannot function as an attacking system. The collar grip provides posture control and rotational leverage that powers all subsequent attacks. The sleeve grip alone without collar control is easily managed and does not create the off-balancing forces that make collar sleeve dangerous. All defensive resources should prioritize collar grip prevention and stripping.
-
-**Q2**: Why is early grip stripping more effective than late grip stripping against collar sleeve establishment?
-**A**: Early grip stripping targets a partially seated collar grip that lacks full leverage, making two-on-one breaks highly reliable with minimal energy expenditure. Late grip stripping must overcome a deep, set collar grip where the bottom player's fingers are fully engaged and their arm is positioned for maximum retention strength. Additionally, late stripping gives the bottom player time to capture the sleeve, meaning you must break two grips instead of one. The energy cost and difficulty increase exponentially with each second the grip remains.
-
-**Q3**: Your opponent has secured the collar grip and is reaching for your sleeve - what is your immediate response?
-**A**: Retract the arm they are reaching for by pulling your elbow tight to your ribs and turning your wrist inward, making the sleeve fabric harder to capture. Simultaneously use your free hand to begin a two-on-one break on the collar grip while driving your hips backward to create distance that reduces the collar grip's effectiveness. The combination of sleeve denial and collar strip forces the bottom player to restart their grip sequence from zero rather than completing the collar sleeve structure.
-
-**Q4**: How does your posture affect the bottom player's ability to establish collar sleeve guard?
-**A**: Upright posture with hips back places your collar at maximum distance from the bottom player's reaching hand, forcing them to extend fully to make contact. This extended reach is slower, more telegraphed, and results in a shallower initial grip that is easier to strip. Conversely, forward-bent posture brings your collar directly into their optimal grip zone and allows them to establish deep collar grips with minimal effort. Posture is your first line of defense before any active grip fighting begins.
-
-
-
-</section>
 
 
 </main>

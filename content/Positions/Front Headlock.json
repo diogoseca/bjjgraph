@@ -334,7 +334,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Front Headlock",
         "attempt_probability": 4
       },
       {
@@ -346,15 +346,15 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Peruvian Necktie",
+        "transition": "Peruvian Necktie from Front Headlock",
         "attempt_probability": 2
       },
       {
-        "transition": "Arm in Guillotine",
+        "transition": "Arm in Guillotine from Front Headlock",
         "attempt_probability": 1
       },
       {
-        "transition": "High Elbow Guillotine",
+        "transition": "High Elbow Guillotine from Front Headlock",
         "attempt_probability": 1
       },
       {
@@ -362,11 +362,11 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Ten Finger Guillotine",
+        "transition": "Ten Finger Guillotine from Front Headlock",
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary weight distribution strategy for maintaining front headlock control?",
         "answer": "Your chest weight should drive directly down into the opponent's upper back and neck, with hips kept low and forward. The majority of your body weight should be transmitted through your chest onto their shoulders and upper back, not supported by your own legs. This creates constant downward pressure that collapses their posture and prevents them from standing or improving position. Your arms provide secondary control but should not bear the primary burden of maintaining the position."
@@ -638,7 +638,7 @@
         "attempt_probability": 4
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the absolute first priority when you find yourself in front headlock bottom?",
         "answer": "Protect your neck by tucking your chin tightly to your chest. This is non-negotiable and must happen before any escape attempt. The chin tuck prevents neck extension which is required for most front headlock chokes to finish. If you extend your neck while escaping, you're likely to get caught in a guillotine, anaconda, or darce. Secure the chin tuck first, then begin hand fighting and working your escape. Many practitioners get submitted because they prioritize escape over protection."

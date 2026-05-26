@@ -154,6 +154,8 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shin-to-Shin Sweep?</p>
+
 - Guard player sits up from reclined position, loading their hips for explosive extension — the shift from passive to active shin pressure accompanies this postural change
 - Increased upward and forward pressure through the shin connection as the guard player prepares the elevation phase of the sweep
 - Guard player establishes or tightens collar and sleeve grips (gi) or collar tie and wrist control (no-gi) with deliberate pulling tension breaking your posture downward
@@ -166,6 +168,8 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shin-to-Shin Sweep?</p>
 
 - Recognize the sweep setup early through changes in shin pressure direction and opponent sitting up to load hips
 - Maintain at least one free hand available for posting — never allow both hands to be controlled simultaneously
@@ -180,6 +184,8 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin-to-Shin Sweep?</p>
 
 ### 1. Strip upper body grips before sweep initiation using two-on-one breaks or elbow circling
 
@@ -217,6 +223,8 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin-to-Shin Sweep?</p>
+
 ### → [[Positions/Shin-to-Shin Guard]]
 
 Strip opponent's upper body grips early and maintain wide base with hips back, preventing the sweep while working to clear the shin connection through systematic passing. The grip fight is your primary avenue — without pulling grips, the sweep cannot generate sufficient force to topple you.
@@ -232,6 +240,8 @@ Step laterally to disengage from the shin connection entirely when you recognize
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin-to-Shin Sweep?</p>
 
 ### 1. Leaning forward with weight over the shin connection when feeling sweep pressure
 
@@ -261,6 +271,8 @@ Step laterally to disengage from the shin connection entirely when you recognize
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin-to-Shin Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues from top position
 Partner cycles between passive shin-to-shin guard and active sweep setup. Defender calls out when they recognize the sweep preparation (postural change, grip establishment, shin pressure shift). No actual sweeping occurs — focus purely on recognition speed and accuracy.
 
@@ -277,26 +289,6 @@ After successfully defending the sweep, immediately transition to guard passing.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Shin-to-Shin Sweep is being set up?
-**A**: The earliest cue is the guard player transitioning from a reclined or semi-reclined posture to an upright seated position while simultaneously increasing upward pressure through the shin connection. This postural change indicates they are loading their hips for the explosive extension phase. Recognizing this shift before they establish upper body grips gives you the maximum defensive window to address the threat through grip fighting or base adjustment.
-
-**Q2**: Why is grip fighting more important than base widening for defending this sweep?
-**A**: Grip fighting removes the pulling force component that breaks your posture and prevents posting — without upper body grips, the shin elevation alone is mechanically insufficient to complete the sweep against a based opponent. Excessive base widening without addressing grips only trades the direct sweep threat for a single leg X-guard entry, which may be a worse outcome. The grip fight addresses the root cause while base widening only treats a symptom.
-
-**Q3**: Your opponent attempts the sweep and you post your hand to stop it — what follow-up attack should you expect?
-**A**: Expect an arm drag on your posted hand. The guard player will redirect their sleeve grip or free hand to pull your posted arm across your body, eliminating the post and creating a rotational off-balance. This simultaneously opens back take opportunities as you turn to recover the dragged arm. To counter, post with a bent arm rather than a straight arm, keeping your elbow close to your body and your weight back so the arm drag lacks the leverage to rotate you.
-
-**Q4**: When is it appropriate to use forward pressure as a sweep defense, and what is the risk?
-**A**: Forward pressure is appropriate preemptively — when you see the opponent beginning to sit up but before they have established grips and loaded their hips. The goal is to flatten them before they achieve the power position. However, once the guard player is loaded with grips established, forward pressure is extremely dangerous because it drives your weight directly into the shin lever, amplifying the very forces you are trying to resist. The timing distinction is critical: early forward pressure prevents the setup, late forward pressure accelerates the sweep.
-
-
-
-</section>
 
 
 </main>

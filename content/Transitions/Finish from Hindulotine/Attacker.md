@@ -190,6 +190,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Finish from Hindulotine?</p>
+
 - Generate finishing pressure through hip rotation and body weight rather than arm squeeze to preserve grip endurance and create stronger compression
 - Maintain constant baseline pressure through the grip while making incremental adjustments to angle and positioning
 - Position the choking arm blade high under the chin targeting the carotid groove for blood choke rather than tracheal pressure
@@ -204,6 +206,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Finish from Hindulotine?</p>
+
 - Established Hindulotine grip from top position with hands locked in gable grip or chin strap configuration
 - Choking arm blade positioned high on the neck directly under opponent's chin, not near the shoulders or trachea
 - Hips angled at 45-90 degrees perpendicular to opponent's spine for rotational torque generation
@@ -216,6 +220,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Finish from Hindulotine step by step?</p>
 
 1. **Confirm grip position and lock**: Verify that the blade of your forearm is positioned directly under opponent's chin with hands locked in a tight gable grip or chin strap configuration. The grip should be high on the neck targeting the carotid groove, not near the shoulders. Ensure your elbows are tight to your body and the grip is secure before committing to the finish.
 2. **Establish finishing hip angle**: Rotate your hips to create a perpendicular angle relative to opponent's spine, positioning your body at approximately 45-90 degrees. This angle transforms your entire body into a rotational lever that generates torque through the grip. Your hip bone should be driving into the opponent's upper back or shoulder area to create a fulcrum point.
@@ -234,7 +240,7 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Positions/Hindulotine]] | 55% |
 | Failure | [[Positions/Hindulotine]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -244,6 +250,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Finish from Hindulotine?</p>
 
 - **Opponent tucks chin tightly to block forearm from reaching carotid arteries** (Effectiveness: Medium) - Your Response: Walk your choking arm higher through incremental adjustments while increasing hip rotation angle. The rotational torque works around the chin tuck by compressing from the sides. Alternatively, apply pressure directly through the chin, creating enough discomfort to force an opening or a tap from jaw compression. → Leads to [[Positions/Hindulotine]]
 - **Opponent hand-fights aggressively to break or loosen the choking grip** (Effectiveness: High) - Your Response: Maintain grip lock integrity by keeping elbows tight and driving weight through the grip rather than fighting individual hand battles. If their grip fighting creates space, use your non-choking arm to control their wrist. Increase rotational pressure to force them to choose between grip fighting and defending the choke. → Leads to [[Positions/Hindulotine]]
@@ -256,6 +264,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Finish from Hindulotine?</p>
 
 ### 1. Squeezing with arms only instead of generating pressure through hip rotation and body weight
 
@@ -295,6 +305,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Finish from Hindulotine (Attacker)?</p>
+
 **Phase 1: Grip and Angle Mechanics** - Grip placement and hip angle fundamentals
 Drill proper forearm blade positioning under the chin and hip angle establishment with a compliant partner. Focus on feeling the difference between arm-squeeze pressure and rotational torque pressure. Partner provides feedback on choking effectiveness at different angles. No resistance, pure mechanics.
 
@@ -315,42 +327,12 @@ Positional sparring starting from established Hindulotine control. Top player wo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip angle relative to the opponent's spine for generating maximum rotational torque during the Hindulotine finish?
-**A**: Position your hips at approximately 45-90 degrees perpendicular to the opponent's spine. This perpendicular angle transforms your body into a rotational lever, allowing core rotation to generate torque through the grip. The exact angle depends on your body proportions and the opponent's neck size, but the key principle is creating an angle where hip rotation directly translates into choking pressure rather than pulling the opponent toward you.
-
-**Q2**: Your opponent tucks their chin tightly during your finishing attempt - how do you adjust to complete the choke?
-**A**: Walk your choking arm higher on the neck through incremental adjustments while maintaining constant baseline pressure. Simultaneously increase your hip angle to generate more rotational torque. The rotation works around the chin tuck by compressing from the sides rather than pulling straight into the chin. If the chin tuck persists, apply pressure through the jaw itself, which creates enough discomfort to force a tap or create an opening for the forearm to slide deeper.
-
-**Q3**: What grip configuration provides the strongest finishing pressure for the Hindulotine?
-**A**: The gable grip with palms pressed together provides the strongest structural connection for the finish. Position the blade of your choking wrist directly under the opponent's chin, targeting the groove between chin and adam's apple. Your non-choking hand reinforces the grip while elbows stay tight to your body. The chin strap grip where the choking hand grabs the opposite bicep is an alternative that sacrifices some power for additional control over grip height adjustment during the finishing sequence.
-
-**Q4**: Your opponent begins to roll through your base during the finishing sequence - what is your immediate response?
-**A**: Drive your hip into their shoulder on the rolling side and sprawl your weight backward to remove their rolling leverage. Your wide tripod base should already have one leg posted on their rolling side to prevent this. If the roll succeeds despite your defense, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base positioning is always more reliable than reacting to a roll already in progress.
-
-**Q5**: What is the most critical body part for generating finishing pressure in the Hindulotine, and why?
-**A**: The hips are the most critical body part because they serve as the rotational fulcrum that generates torque through the grip. While the arms maintain the choking connection, the actual finishing power comes from hip rotation and weight transfer through those hips. Practitioners who rely on arm strength fatigue rapidly and apply less effective pressure compared to those who drive the finish through hip mechanics and core rotation, which engages the largest muscle groups in the body.
-
-**Q6**: How do you recognize the optimal moment to transition from Hindulotine control to active finishing?
-**A**: The optimal finishing window opens when the opponent's defensive structures begin to fatigue, indicated by weakening grip-fighting attempts, reduced bridging power, or slight relaxation in their chin tuck. Additionally, look for moments when you achieve a particularly strong hip angle or when your weight shift creates a visible compression response in the opponent's body. Starting the finish prematurely against fresh defenses wastes grip energy, while waiting too long allows the opponent to engineer an escape.
-
-**Q7**: Your opponent posts their hand on the mat to create a frame during your finishing attempt - how do you capitalize?
-**A**: A posted hand means that arm is committed to framing rather than defending the neck. Use your non-choking arm to swim past their frame or collapse it by driving your shoulder into their posted arm. Once the frame is removed, their defensive structure weakens significantly. Alternatively, the posted arm creates an opening for transitioning to a Darce if the Hindulotine finish stalls, as their arm is already partially positioned across their neck line.
-
-**Q8**: What are the key differences in finishing mechanics between the Hindulotine and a standard high-elbow guillotine?
-**A**: The standard high-elbow guillotine generates pressure through linear pulling with the elbow rising toward the ceiling, compressing the trachea and carotids in a straight line. The Hindulotine generates pressure through rotational torque where hip angle creates a perpendicular force vector on the neck. This means the Hindulotine is more effective against opponents who can resist straight pulling pressure, uses less grip strength for sustained attempts, and offers better control from top position where gravity assists the rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Finish from Hindulotine?</p>
 
 The Hindulotine finish applies both blood choke pressure on the carotid arteries and cranking force on the cervical spine due to its rotational mechanics. Always release immediately when your training partner taps or their body goes limp, as unconsciousness can occur rapidly with bilateral carotid compression. Never apply rotational pressure explosively in training, as the combined choke and cervical crank can cause injury before the partner has time to signal a tap. Monitor for signs of unconsciousness including cessation of defensive movement, body going limp, and unusual sounds. Beginners should drill the finishing sequence at significantly reduced intensity until the rotational mechanics are understood. Communicate with your partner about pressure levels throughout the drill.
 

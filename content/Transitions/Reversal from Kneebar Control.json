@@ -234,7 +234,7 @@
         "description": "Start from kneebar control bottom against a fully resisting partner. Attacker wins by reaching side control top. Defender wins by escaping to guard or extracting their leg. Develop realistic decision-making about when to pursue the kneebar versus when to attempt the reversal."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary setup for the reversal from kneebar control?",
         "answer": "The primary setup involves threatening the kneebar finish first to force the opponent into a defensive posture. By pulling the leg tight and driving hips forward as if committing to the submission, the opponent must react by bending their knee, posting hands, or shifting weight. Each reaction creates specific openings for different reversal variants. Without this initial submission threat, the opponent maintains an active offensive base that makes sweeping significantly harder."
@@ -347,7 +347,7 @@
         "correction": "Establish stable base and remove hooks before attempting to stand. Extract the leg through hip movement and grip fighting while maintaining low center of gravity"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is transitioning from kneebar attack to sweep attempt?",
         "answer": "The earliest cue is a change in hip movement direction. During a kneebar attack, the bottom player drives their hips forward into your knee for extension. When transitioning to a sweep, their hips begin moving rotationally or laterally. You may also feel the arm grip pressure shift from a downward pull toward your feet to a lateral pull across their body. These changes typically precede the sweep by one to two seconds, providing a critical defensive window."
@@ -376,7 +376,7 @@
         "description": "Partner alternates between committed kneebar attacks and reversal attempts while defender focuses purely on recognizing which is occurring. No defensive actions taken initially - build pattern recognition for hip movement changes, grip shifts, and body positioning that signal the transition."
       },
       {
-        "phase": "Phase 2: Base Maintenance",
+        "phase": "Phase 2: Base",
         "focus": "Maintaining defensive base during kneebar defense",
         "description": "Practice defending the kneebar while maintaining a strong base that resists sweeping. Partner attempts reversals at 50% resistance while defender works on keeping weight centered, free leg active, and hands posted. Focus on not compromising base during kneebar defense."
       },

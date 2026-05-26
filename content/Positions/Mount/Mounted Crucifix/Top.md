@@ -20,14 +20,14 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Armbar from Crucifix",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Mounted Crucifix",
+      "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -50,8 +50,8 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Neck Crank from Mounted Crucifix",
+      "text": "From this position, attempt Neck Crank from Mounted Crucifix. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -177,6 +177,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mounted Crucifix (Top)?</p>
+
 - Top player maintains mount position with knees on mat on either side of opponent's torso, weight distributed forward to prevent bridging escapes, while simultaneously controlling one or both of opponent's arms through leg entanglement - typically threading leg over opponent's arm near shoulder or bicep area creating mechanical trap that prevents defensive framing
 - Opponent's arms are isolated and controlled by top player's legs with knees tight to maintain arm entanglement, while top player's upper body remains mobile and positioned to attack neck, free arm, or transition to back control, creating asymmetric control where opponent cannot effectively defend or escape
 - Top player's weight distribution balances between maintaining mount stability to prevent bridging and positioning upper body to attack submissions or advance position, with hips staying low and forward to control opponent's movement while hands remain free to attack neck, isolate additional limbs, or establish grips for positional transitions
@@ -187,6 +189,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Mounted Crucifix (Top)?</p>
 
 - Mount position must be established with stable weight distribution and opponent on their back
 - Opponent's arms become exposed or extended creating opportunity for leg-based isolation
@@ -200,6 +204,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Mounted Crucifix?</p>
 
 - Establish mount stability first before attempting arm isolation to prevent losing position during transition
 - Thread legs over arms using hip movement and weight shifts rather than force
@@ -216,13 +222,15 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Mounted Crucifix (Top)?</p>
+
 **If opponent's neck is exposed and both arms are trapped:**
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Transitions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Submissions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
 
 
@@ -248,6 +256,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Mounted Crucifix?</p>
 
 ### 1. Attempting to trap arms before establishing solid mount foundation
 
@@ -292,6 +302,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Mounted Crucifix attacks?</p>
+
 ### Crucifix Entry Repetitions
 
 From established mount position, practice threading legs over partner's arms to achieve crucifix control. Focus on weight distribution, timing the entry with partner's movements, and maintaining balance throughout transition. Reset to mount and repeat 10 times per side.
@@ -331,38 +343,6 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential weight distribution principles for maintaining mounted crucifix control?
-**A**: Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust.
-
-**Q2**: How should you adjust your knee pressure when opponent attempts to extract their trapped arm?
-**A**: When opponent initiates arm extraction, immediately squeeze knees tighter together while driving your shin bone across their upper arm or bicep. Simultaneously shift weight slightly toward the escaping arm side to add pressure. The pinching motion with knees creates a vice-like trap that tightens as they pull. Avoid widening your knees or lifting your hips, as this creates the space they need. Think of your legs as a closing gate rather than a static barrier.
-
-**Q3**: Your opponent starts bridging explosively while you have mounted crucifix - what adjustment prevents them from creating escape space?
-**A**: Drop your chest pressure immediately onto their face or shoulder while driving hips forward and down into their midsection. Time your weight shift to land heavy just as their bridge peaks, using their own momentum against them. Keep knees tight and ride their movement rather than fighting against it. If the bridge is toward your trapped-arm side, you may transition to that side's submission attack while they are committed to the explosive movement.
-
-**Q4**: What grip priorities should you establish from mounted crucifix top position?
-**A**: Primary grip priority is controlling the opponent's far-side collar or underhook for choke setup. Secondary is wrist control on any free arm to prevent defensive framing. In no-gi, prioritize a cross-face or head control with one hand while the other threatens submissions. Avoid gripping both arms simultaneously as this reduces your attack options. Your legs provide the primary arm control, freeing your hands for offense rather than grip-fighting.
-
-**Q5**: How do you apply pressure to drain opponent's energy while maintaining mounted crucifix?
-**A**: Settle your weight through your pelvis directly onto their diaphragm area, making each breath difficult and energy-intensive. Keep constant forward pressure that forces them to carry your weight. Maintain the arm traps tight so their attempts to create space require full-body effort rather than efficient technical movements. The psychological pressure of being unable to defend with trapped arms accelerates fatigue. Avoid unnecessary movement that gives them recovery windows.
-
-**Q6**: Your opponent partially extracts one arm but remains pinned - how do you recover full control?
-**A**: Immediately re-establish control before they complete extraction by driving your knee back over their arm while shifting weight to that side. If the arm is too far extracted, transition to Gift Wrap control by capturing their escaping arm across their face with your hand and re-securing. Alternatively, abandon that arm entirely and attack the remaining trapped arm with an immediate submission threat, using their escape effort against them as they're now committed to one direction.
-
-**Q7**: What signals indicate you should transition to back control rather than continuing submission attempts from mounted crucifix?
-**A**: Transition to back when opponent consistently turns their face away exposing the back of their head, when they start turtling their upper body to defend chokes, when your submission attempts are being effectively defended but they're opening their back during defense, or when fatigue has reduced your ability to maintain tight crucifix control. The back take preserves your dominant position if you sense control slipping, and opponents often give their back more readily than expected when defending crucifix submissions.
-
-**Q8**: How do you recover mounted crucifix control if your base is disrupted during a submission attempt?
-**A**: Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

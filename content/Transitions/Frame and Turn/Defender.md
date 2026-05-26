@@ -166,6 +166,8 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Turn?</p>
+
 - Bottom player establishes a forearm frame against your neck or shoulder, creating a structural barrier that signals the beginning of the escape sequence
 - Bottom player begins working their trapped leg with small pushing movements against your controlling leg, angling their knee outward to weaken your hook
 - Bottom player tucks chin firmly and positions free hand defensively near their neck, indicating preparation for the turning phase where neck exposure increases
@@ -177,6 +179,8 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Turn?</p>
 
 - Maintain leg control as the highest priority - this preserves the spinal rotation that makes Twister Control effective
 - Prevent effective frame creation by staying heavy and adjusting pressure angles when opponent posts their arm
@@ -191,6 +195,8 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Turn?</p>
 
 ### 1. Increase rotational pressure and deepen leg control when opponent begins framing
 
@@ -228,6 +234,8 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Turn?</p>
+
 ### → [[Positions/Twister Control]]
 
 Shut down the escape early by maintaining heavy chest pressure and reinforcing leg control as soon as framing begins. Increase rotational pressure to collapse their frame before they can begin the turning phase. Recapture any leg space immediately with reinforced hooks.
@@ -243,6 +251,8 @@ If the turn cannot be prevented, follow the rotation and transition to back cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Turn?</p>
 
 ### 1. Allowing opponent to establish frames without increasing pressure or adjusting angle
 
@@ -272,6 +282,8 @@ If the turn cannot be prevented, follow the rotation and transition to back cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Turn?</p>
+
 **Week 1-2** - Escape recognition and pressure maintenance
 From established Twister Control, partner performs Frame and Turn at 30% speed. Practice recognizing each phase of the escape (framing, leg work, turn initiation) and responding with appropriate pressure adjustments. Focus on maintaining leg control throughout.
 
@@ -288,29 +300,6 @@ Incorporate Twister Control defense against Frame and Turn into full rolling. Pr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating Frame and Turn?
-**A**: The earliest cue is when the bottom player establishes a forearm frame against your neck or shoulder rather than purely defending the neck. This structural posting indicates they are shifting from survival mode to systematic escape, and it signals that they will next begin working their trapped leg. Intervening at this stage by increasing pressure is far more effective than waiting for the turn.
-
-**Q2**: Why is leg control the highest defensive priority against Frame and Turn?
-**A**: Leg control preserves the spinal rotation that defines Twister Control. The trapped leg serves as the anchor that keeps the bottom player's hips rotated away from their shoulders. Once the leg is freed, the rotational constraint disappears and the bottom player can turn freely into Turtle or Half Guard. No amount of upper body pressure compensates for lost leg control.
-
-**Q3**: Your opponent has begun turning their hips toward you and you cannot stop the rotation - what is the best response?
-**A**: Follow the turn and transition to back control by maintaining chest-to-back connection throughout their rotation. As they arrive in Turtle position, immediately work to insert hooks and establish seatbelt control. This is an acceptable positional trade because back control remains an offensive dominant position, and attempting to fight the committed turn often results in losing all control entirely.
-
-**Q4**: How should you adjust your pressure when the bottom player's breathing becomes controlled and deliberate?
-**A**: Controlled breathing signals that the bottom player has shifted from panic to systematic escape execution, which means they are more dangerous. Increase your offensive pressure by hunting submissions more aggressively to force them back into reactive defense. Alternate between Twister finish threats, guillotine setups, and calf slicer entries to prevent them from settling into a calm, methodical escape rhythm.
-
-**Q5**: What is the risk-reward calculation of attempting a guillotine as the opponent turns into you?
-**A**: The guillotine attempt during the turn is moderate risk, high reward. If successful, you either finish the submission or force the opponent to abort the turn and return to defensive posture. If it fails, the opponent likely completes the turn to Turtle since you may lose leg control while adjusting for the choke. The decision depends on the depth of your guillotine grip - only commit if you achieve a clean chin strap or high elbow position during the turn.
-
-
-
-</section>
 
 
 </main>

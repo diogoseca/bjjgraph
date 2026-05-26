@@ -32,7 +32,7 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain Z-configuration geometry with one leg creating lockdown pressure while the other leg provides angular control and mobility for transitions

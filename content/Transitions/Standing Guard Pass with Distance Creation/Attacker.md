@@ -198,6 +198,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Guard Pass with Distance Creation?</p>
+
 - Stand fully upright before attempting lapel extraction to eliminate the bottom player's secondary control points and minimize sweeping leverage
 - Commit both hands to the grip-breaking sequence rather than leaving one hand passively defending, as incomplete extraction allows immediate re-wrapping
 - Circle away from the bottom player's strong side during extraction to reduce their ability to load sweeps or initiate back takes
@@ -212,6 +214,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Guard Pass with Distance Creation?</p>
+
 - Opponent has established Ringworm Guard with their lapel threaded around your leg and is maintaining tension on the wrap
 - You have achieved at least a combat base position with your free leg posted wide for stability
 - Your posture is partially recovered with shoulders above hips, not collapsed forward into the guard player's control
@@ -224,6 +228,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Guard Pass with Distance Creation step by step?</p>
 
 1. **Establish combat base**: From kneeling in Ringworm Guard, post your free leg (non-wrapped) wide to the side with foot flat on the mat, keeping your hips heavy and center of gravity low. Control the opponent's nearest sleeve or wrist with your free hand to limit their grip-fighting ability during the transition to standing.
 2. **Stand to full height**: Drive upward through your free leg to a full standing position while keeping your wrapped leg slightly forward and bent. Keep your hips back and chest upright to prevent the opponent from using the lapel tension to pull you forward and off-balance. Maintain the sleeve grip throughout the elevation.
@@ -256,6 +262,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Guard Pass with Distance Creation?</p>
+
 - **Opponent pulls lapel tighter and hip escapes to load a sweep as you begin standing, using your upward momentum against you** (Effectiveness: High) - Your Response: Pause the standing motion and re-settle your base if you feel the sweep loading. Reset to combat base with hips heavy and address the tightened lapel before re-attempting the stand. Do not fight through the sweep momentum. → Leads to [[Positions/Ringworm Guard]]
 - **Opponent releases the lapel voluntarily and immediately reguards with collar-sleeve or De La Riva hooks as you stand, transitioning to a different guard system** (Effectiveness: Medium) - Your Response: Accept the position change as an improvement over Ringworm Guard and immediately address the new guard with appropriate passing techniques. Collar-sleeve and DLR are more neutral positions than Ringworm. → Leads to [[Positions/Open Guard]]
 - **Opponent uses the lapel tension to invert and attack with a berimbolo or back take attempt during the extraction process** (Effectiveness: High) - Your Response: Keep your hips back and low throughout extraction. If you feel the opponent inverting, immediately sprawl your hips back and use downward pressure on their hips to flatten them. Do not allow them to get underneath you. → Leads to [[Positions/Back Control]]
@@ -267,6 +275,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Guard Pass with Distance Creation?</p>
 
 ### 1. Attempting to stand while leaning forward with weight over the trapped leg
 
@@ -306,6 +316,8 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Guard Pass with Distance Creation (Attacker)?</p>
+
 **Week 1-2** - Standing mechanics from Ringworm Guard
 Practice the combat base to standing sequence with a cooperative partner holding a loose Ringworm configuration. Focus on maintaining posture during the stand, keeping hips back, and proper weight distribution through the free leg. Repeat the standing motion 20-30 times per side without any extraction attempt, building the movement pattern.
 
@@ -326,54 +338,12 @@ Start from full Ringworm Guard in live rolling situations with the specific goal
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary strategic advantage of standing up when trapped in Ringworm Guard?
-**A**: Standing eliminates the bottom player's secondary control points such as leg hooks, hip control, and angular off-balancing. On the ground, the lapel wrap works in concert with these additional controls to create powerful sweeping forces. Standing isolates the lapel grip as the sole problem, making extraction significantly more manageable and reducing sweep danger.
-
-**Q2**: Your opponent tightens the lapel wrap as you begin to stand - should you continue standing or reset?
-**A**: Reset to combat base immediately if you feel the wrap tightening during the initial standing phase. A tightened lapel during upward movement creates a loaded sweep where your own momentum works against you. Settle your base heavy, address the increased tension by loosening the wrap from kneeling first, and then re-attempt the stand once the lapel configuration is less threatening. Forcing through a loaded position is the primary cause of failed passes from this sequence.
-
-**Q3**: Why must both hands be committed to the lapel extraction rather than keeping one hand on sleeve control?
-**A**: A properly secured Ringworm Guard lapel wrap generates significant friction and mechanical advantage that one hand alone cannot overcome. The two-handed approach uses one hand to control the lapel tail near the opponent's grip, preventing re-securing, while the second hand provides the peeling force underneath the wrap. Single-handed attempts typically result in incomplete extraction where the opponent can immediately re-tighten the configuration.
-
-**Q4**: What direction should you circle during the extraction phase and why?
-**A**: Circle away from the opponent's strong side, which is the side where their free hand has established secondary grips or where their hips are angled. This direction reduces their ability to load sweeps because sweeping mechanics require the top player to move into the bottom player's angle of attack. Circling away forces the bottom player to chase with hip movement, which loosens the lapel wrap and compromises their base.
-
-**Q5**: You have cleared the lapel but your opponent immediately shoots their feet to your hips - what should you do?
-**A**: Immediately grip both pant legs at the knees and push them down and to one side for a toreando pass. Feet-on-hips guard is significantly weaker than Ringworm Guard, so this is a net positive exchange. Do not allow them time to establish collar or sleeve grips that would create a more structured open guard. The window between lapel clearance and new grip establishment is the highest-percentage moment for the pass.
-
-**Q6**: What is the most critical hip position during the standing phase of this technique?
-**A**: Your hips must stay behind your base, not over or in front of your feet. The lapel wrap acts as a connection between your trapped leg and the opponent's body, and any forward hip commitment converts directly into sweeping leverage for the bottom player. Keep your center of gravity slightly posterior with a slight backward lean, using your free leg as the primary base while your wrapped leg remains relatively unloaded.
-
-**Q7**: The opponent begins inverting as you strip the lapel - how do you respond?
-**A**: Immediately sprawl your hips back and drive downward pressure onto their hips with your hands to flatten them out of the inversion. An inverting opponent is attempting a berimbolo or back take entry that uses the remaining lapel connection as a pivot point. Sprawling removes the angle they need to complete the rotation. Once they are flattened, resume the extraction from the improved position with their inversion attempt neutralized.
-
-**Q8**: Why is it essential to pass immediately after clearing the lapel rather than establishing a neutral standing position?
-**A**: The moment after lapel clearance is the opponent's weakest guard position. They have lost their primary control system and have not yet established replacement grips or hooks. Every second of delay allows them to insert De La Riva hooks, establish collar-sleeve grips, or re-thread the lapel entirely. The extraction-to-pass transition must be drilled as one continuous movement to exploit this window before the opponent can rebuild their guard structure.
-
-**Q9**: How does your weight distribution change between the standing phase and the passing phase?
-**A**: During the standing phase, weight is distributed posteriorly with hips behind the base to resist the forward pull of the lapel wrap. During the passing phase after lapel clearance, weight shifts forward and laterally as you drive through the opponent's legs. This shift must be deliberate and timed with the passing grip establishment. Maintaining posterior weight during the pass would make the lateral movement too slow, while premature forward weight during extraction would result in being swept.
-
-**Q10**: What are the key differences between this standing extraction and a ground-based Ringworm Guard pass?
-**A**: Ground-based passes like the smash pass or stack pass attempt to neutralize the lapel wrap through pressure and compression while remaining on the knees. These work against weaker configurations but fail against deep, well-secured wraps because the bottom player retains all secondary control points. The standing extraction removes secondary controls by elevation, makes the pass a two-phase problem rather than one, and allows the use of footwork and distance that are unavailable from kneeling. The trade-off is greater back exposure during the standing transition.
-
-**Q11**: Your opponent grabs your belt or back collar as you stand - how does this change your extraction approach?
-**A**: A belt or back collar grip is a high-priority threat that must be addressed before the lapel extraction. This grip gives the opponent direct access to back take attempts and significantly increases sweep leverage during the standing phase. Strip this grip first by reaching behind with one hand and peeling the fingers off, or by rotating your torso to break the angle. Only resume the two-handed lapel extraction once the back grip is cleared. Attempting to extract the lapel while the opponent controls your back invites a simultaneous inversion and back take.
-
-**Q12**: During step 6, what specific grip sequence maximizes your passing success rate after lapel clearance?
-**A**: The highest-percentage grip sequence is to first secure both pant legs at the knee line with a pistol grip, which provides immediate control of the opponent's hip movement and leg position. From there, either push both knees laterally for a toreando or pull one leg across the centerline for a leg drag. Gripping the collar first is a common error because it only controls the upper body while leaving the legs free to re-establish guard hooks. The legs are the immediate threat after lapel clearance, so they must be controlled first.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Guard Pass with Distance Creation?</p>
 
 When drilling this technique, be aware that the standing phase creates fall risk if the bottom player executes a sweep during the transition. Practice on mats with adequate padding and ensure training partners communicate during sweep attempts to prevent uncontrolled falls. The lapel extraction involves pulling forces near the knee joint area, so avoid aggressive yanking motions that could hyperextend training partners' fingers or wrists. If the lapel is deeply wrapped, work the extraction slowly rather than explosively to prevent fabric burns on the trapped leg. During the passing phase, control your descent into side control to avoid dropping full weight onto the opponent's ribs or face. Practitioners with knee injuries should be cautious during the standing phase, as the wrapped leg bears unusual lateral forces from the lapel tension.
 

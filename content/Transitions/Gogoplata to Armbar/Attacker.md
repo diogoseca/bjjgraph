@@ -188,6 +188,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gogoplata to Armbar?</p>
+
 - Secure wrist control on the target arm before releasing the gogoplata foot configuration to maintain offensive continuity throughout the transition
 - Execute a decisive hip pivot of approximately ninety degrees to create the perpendicular angle required for armbar control
 - Recognize defensive arm extension as the primary trigger for initiating the transition from gogoplata to armbar
@@ -202,6 +204,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gogoplata to Armbar?</p>
+
 - Established gogoplata control from bottom position with shin across opponent's throat and foot secured behind their head
 - Opponent extending at least one arm defensively, either posting on the mat, pushing against your body, or reaching to remove your shin
 - Sufficient hip flexibility to pivot from gogoplata angle to armbar angle while maintaining continuous control over the opponent
@@ -214,6 +218,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gogoplata to Armbar step by step?</p>
 
 1. **Recognize the trigger**: From established gogoplata control with shin across the opponent's throat, identify when the opponent extends an arm to defend. Common triggers include posting a hand on the mat for base, pushing against your hips to create distance, or reaching across their body to remove your shin. This arm extension creates the opening for the armbar transition and signals the optimal moment to initiate the chain attack.
 2. **Secure wrist control**: With your near-side hand, grip the opponent's wrist firmly using a thumb-in or C-grip. Simultaneously reinforce control with your far-side hand on their triceps or elbow area. This dual control must be established while you still maintain the gogoplata foot configuration behind their head, creating a brief but critical moment of overlapping control between the two submissions.
@@ -243,6 +249,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gogoplata to Armbar?</p>
+
 - **Opponent tucks arm tight against their body and denies wrist control before the transition can begin** (Effectiveness: High) - Your Response: Return to gogoplata pressure and increase hip elevation to tighten the choke. The increased shin compression forces either a tap or an arm extension. Do not release the gogoplata without wrist control established. → Leads to [[Positions/Gogoplata Control]]
 - **Opponent stacks forward with heavy pressure during the hip pivot phase to collapse the armbar angle** (Effectiveness: Medium) - Your Response: If stacking pressure is strong, underhook their far leg and use their forward momentum to complete a sweep to top position. Alternatively, abandon the armbar and convert to triangle control by catching their head between your legs as their forward drive assists the triangle angle. → Leads to [[Positions/Gogoplata Control]]
 - **Opponent postures explosively and extracts head before the leg swings over to establish armbar control** (Effectiveness: Medium) - Your Response: Speed up the hip pivot and commit to the leg swing earlier in the sequence. If they create too much distance, immediately re-close your guard and work to re-establish rubber guard control for another chain attack attempt. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gogoplata to Armbar?</p>
 
 ### 1. Releasing gogoplata foot from behind opponent's head before securing wrist control on the target arm
 
@@ -293,6 +303,8 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gogoplata to Armbar (Attacker)?</p>
+
 **Phase 1: Hip Pivot Mechanics** - Developing the ninety-degree hip rotation with proper elevation and timing
 Practice the hip pivot from gogoplata position with a non-resisting partner. Focus on maintaining hip elevation throughout the rotation and achieving perpendicular alignment relative to the partner's shoulder. Perform 20 repetitions per side, emphasizing smooth controlled movement rather than speed. Build the foundational muscle memory for the rotation pattern.
 
@@ -310,42 +322,12 @@ Positional sparring starting from gogoplata control. Partner provides 50-75% res
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals the optimal moment to initiate the gogoplata to armbar transition?
-**A**: The primary trigger is the opponent extending an arm defensively, whether posting on the mat for base, pushing against your hips to create distance, or reaching to remove your shin from their throat. This arm extension creates the necessary target for wrist control and exposes the elbow joint for the armbar attack. Without arm extension, there is no viable target and the transition should not be attempted.
-
-**Q2**: Your opponent defends the gogoplata by tucking both arms tight with elbows against their ribs - how do you create the opening for the armbar?
-**A**: Maintain the gogoplata pressure and increase hip elevation to tighten the shin-across-throat compression. The increased pressure forces one of two reactions: they tap to the gogoplata, or they extend an arm to create space and relieve the choking pressure. You cannot force the armbar transition without arm extension, so use the primary submission threat to manufacture the opening through patient pressure escalation.
-
-**Q3**: Why must wrist control be established before releasing the gogoplata foot from behind the opponent's head?
-**A**: The foot behind the head is your primary control mechanism keeping the opponent trapped in the submission chain. Releasing it without wrist control allows the opponent to posture away freely with nothing preventing their escape. Wrist control creates a new control anchor that maintains offensive continuity during the transition between submissions, ensuring there is never a moment without at least one control point active.
-
-**Q4**: What angle should your hips achieve relative to the opponent's body during the pivot, and why is this specific angle critical?
-**A**: Your hips should achieve approximately ninety degrees perpendicular to the opponent's shoulder line. This perpendicular angle maximizes leverage for arm extension by positioning the elbow joint directly over your hip fulcrum. Any angle less than ninety degrees reduces mechanical advantage significantly and allows the opponent to bend the arm, turn into the position, or stack forward to escape the armbar.
-
-**Q5**: During the transition, your opponent begins stacking forward with heavy pressure as you release the gogoplata - what is your best response?
-**A**: If the opponent drives forward during the pivot, you have two primary options. First, underhook their far leg and use their forward momentum to complete a sweep to top position. Second, abandon the armbar and immediately convert to triangle control by catching their head between your legs, as their forward drive actually assists the triangle angle. Do not continue fighting for the armbar against heavy stacking pressure as it deteriorates your position.
-
-**Q6**: What role does the free leg play during the hip pivot phase of the transition?
-**A**: The free leg acts as a pendulum to generate rotational momentum for the hip pivot. Swing it away from the opponent to initiate the rotation, then bring it across their body and over their head to complete the leg-over-face control. Without this pendulum action, the hip pivot relies solely on core rotation which is slower and more telegraphed, giving the opponent additional time to mount a defensive reaction.
-
-**Q7**: If your armbar is partially established but the opponent clasps their hands together to prevent extension, what chain attacks become available?
-**A**: With the opponent's hands clasped in armbar defense, you can transition to triangle by releasing the arm and catching their head between your legs. Alternatively, attack the defending arm configuration with a kimura grip to break the clasp, or switch to omoplata by rotating your hips to catch their shoulder. The clasped hands defense actually opens multiple alternative submissions because it commits both of the opponent's hands to a single static defensive action.
-
-**Q8**: What is the most critical mechanical detail that determines whether the hip pivot succeeds or fails?
-**A**: Hip elevation throughout the pivot is the single most critical factor. If your hips drop to mat level during the rotation, you lose the mechanical advantage needed for both the pivot motion itself and the subsequent armbar control. The pivot should rotate around an elevated axis maintained by continuous core engagement. Dropping hips makes the rotation sluggish and allows the opponent to create distance and recover posture.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gogoplata to Armbar?</p>
 
 The gogoplata to armbar transition involves moving between two joint-threatening positions in rapid succession. During training, partners should apply the armbar finish slowly and incrementally after the transition is complete. The rapid change from throat compression to elbow hyperextension can catch defenders off guard, significantly increasing injury risk. Always establish clear tap protocols before drilling this chain, and release immediately upon any tap signal regardless of which phase the technique is in. Practitioners with limited hip flexibility should not force the gogoplata component, as hip and hamstring injuries can result from attempting positions beyond current mobility range. Drill at reduced speed until the full transition sequence is comfortable for both partners.
 

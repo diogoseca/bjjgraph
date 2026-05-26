@@ -188,6 +188,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hip Rotation Escape from Electric Chair?</p>
+
 - Commit fully to the rotation once initiated - half-measures leave you in the worst possible position with no lockdown and an exposed back
 - Use the underhook as the primary pivot point for the entire rotation, maintaining grip depth throughout the movement
 - Release the lockdown cleanly and quickly rather than letting it gradually deteriorate, which telegraphs the escape
@@ -202,6 +204,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hip Rotation Escape from Electric Chair?</p>
+
 - Recognition that the electric chair attack is failing - top player is neutralizing the lockdown, breaking the underhook, or establishing effective forward pressure
 - Retention of at least partial underhook depth across the opponent's back to serve as the rotational pivot point
 - Sufficient space to post the free hand on the mat after releasing ankle control
@@ -214,6 +218,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hip Rotation Escape from Electric Chair step by step?</p>
 
 1. **Assess position viability**: Recognize that the electric chair attack is being effectively defended. Key indicators include the top player breaking lockdown tension through limp leg technique, loss of underhook depth as the opponent establishes crossface pressure, or the top player driving forward heavily enough to neutralize your splitting angle. Make the decision to bail out before the position deteriorates further.
 2. **Secure underhook depth**: Before initiating any release, confirm your underhook arm is positioned as deep as possible across the opponent's back with your hand gripping their far lat or belt region. This arm becomes the primary pivot point for the entire rotation and must be solidly anchored before you release other controls. Pull yourself slightly toward the opponent to create rotational momentum.
@@ -243,6 +249,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hip Rotation Escape from Electric Chair?</p>
+
 - **Top player drives heavy forward pressure to flatten bottom player during lockdown release** (Effectiveness: High) - Your Response: Accelerate the hip rotation and use the forward pressure momentum to help power your rotation. If completely flattened before rotation starts, abandon the escape and re-engage lockdown if possible. → Leads to [[Positions/Half Guard]]
 - **Top player backsteps during the transition to establish passing position** (Effectiveness: Medium) - Your Response: Complete the rotation to turtle as quickly as possible and immediately address the passing threat with frames and hip movement. The backstep is dangerous but takes time to execute, and a fast rotation can beat it. → Leads to [[Positions/Side Control]]
 - **Top player maintains deep crossface to block the rotation direction** (Effectiveness: High) - Your Response: If crossface blocks the primary rotation direction, consider the granby roll variation which goes over the opposite shoulder, or re-engage the lockdown and attack from a different angle before attempting escape again. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hip Rotation Escape from Electric Chair?</p>
 
 ### 1. Releasing the lockdown before initiating the hip rotation
 
@@ -288,6 +298,8 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hip Rotation Escape from Electric Chair (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Hip rotation movement pattern
 Practice the hip rotation from electric chair position with no resistance. Focus on the coordination of lockdown release, underhook pivot, posting hand placement, and arriving in proper turtle. Perform 20 repetitions per side until the movement is smooth and automatic.
 
@@ -305,42 +317,12 @@ Practice the full chain: electric chair attack failing, hip rotation to turtle, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the key indicators that tell you the electric chair attack is failing and it is time to initiate the hip rotation escape?
-**A**: The primary indicators are: the top player successfully applying the limp leg technique to neutralize your lockdown tension, loss of underhook depth as the opponent establishes crossface or whizzer control, the top player driving heavy forward pressure that flattens your splitting angle, or the opponent beginning to systematically address the foot triangle of your lockdown. When two or more of these indicators are present simultaneously, the electric chair attack has diminishing returns and the bail-out should be executed before the position deteriorates further.
-
-**Q2**: Why must the underhook be deep before initiating the rotation, and what happens if it is shallow?
-**A**: The underhook serves as the primary pivot point for the entire hip rotation movement. A deep underhook reaching to the opponent's far lat or belt provides a solid anchor that your body can rotate around with power and control. If the underhook is shallow, the rotation lacks a fixed pivot point and becomes an uncontrolled roll that the top player can easily follow, stop, or exploit. A shallow underhook also means the opponent can easily strip it during the rotation, leaving you mid-transition with no control and an exposed back.
-
-**Q3**: What is the most critical mechanical detail in the hip rotation that determines success or failure?
-**A**: The synchronization of the lockdown release with the hip rotation initiation is the single most critical mechanical detail. If the lockdown is released before the rotation begins, there is a static window where you have neither control nor movement, and the top player can immediately capitalize. The lockdown release and hip drive must happen as one coordinated motion so that you are always either controlling the opponent through the lockdown or moving through the rotation. There should never be a pause between releasing control and generating movement.
-
-**Q4**: Your opponent drives heavy forward pressure as you begin releasing the lockdown - how do you adjust your rotation?
-**A**: Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts.
-
-**Q5**: What are the specific grip requirements throughout each phase of the hip rotation escape?
-**A**: Phase one requires deep underhook across the opponent's back and ankle control on their near leg with your free hand. Phase two involves releasing the ankle grip and posting that hand on the mat while maintaining the deep underhook. Phase three requires the underhook to serve as the rotation pivot while the posting hand provides base. Phase four transitions the underhook to a mat post as you arrive in turtle. At no point should both hands be free simultaneously, as this creates a moment without any control or base.
-
-**Q6**: In which direction should the primary force be applied during the hip rotation?
-**A**: The primary force direction is lateral and slightly upward, driving your hips toward the underhook side and underneath your body. The force is not directed away from the opponent but rather perpendicular to the line between you and them, using the underhook as an anchor point. Think of your hips as swinging around the underhook arm like a pendulum. Secondary force comes from the posting hand pushing off the mat to help power the rotation. The force should never be directed straight backward, as this simply creates distance without achieving the positional change to turtle.
-
-**Q7**: Your opponent maintains a deep crossface that blocks your primary rotation direction - what is your response?
-**A**: A deep crossface blocks the standard rotation toward the underhook side. You have two primary options: first, attempt the granby roll variation which goes over the opposite shoulder and defeats the crossface angle entirely. Second, abandon the escape attempt momentarily, work to clear the crossface by framing with your free hand and creating space, then re-attempt the rotation once the blocking force is removed. Do not try to power through a deep crossface, as this wastes energy and typically fails.
-
-**Q8**: After reaching turtle, what are your immediate chain attack options and how do you select between them?
-**A**: From turtle, the primary options are: granby roll to guard recovery if the opponent's weight is high on your back, technical standup if the opponent has poor hip control, sit-through to half guard if the opponent is committed to one side, and Peterson roll if they have a loose harness grip. Selection depends on the opponent's weight distribution and grip establishment in the first two seconds after arrival. If their weight is forward and high, granby roll is highest percentage. If they are still adjusting their position and grips are loose, the technical standup provides the cleanest exit.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hip Rotation Escape from Electric Chair?</p>
 
 The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury.
 

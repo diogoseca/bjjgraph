@@ -162,6 +162,8 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Leg Knot?</p>
+
 - Opponent's upper body weight shifts forward and they establish a grip on your far hip, collar, or head, indicating preparation for the passing sequence
 - Opponent begins rotating their hips away from the entangled side, changing the angle of pressure on your trapped legs
 - You feel one of the opponent's legs beginning to straighten and slide free from the knot configuration
@@ -174,6 +176,8 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Leg Knot?</p>
 
 - Recognize backstep attempts early by monitoring changes in opponent's hip angle and upper body weight distribution
 - Maintain active leg hooks throughout the entanglement to make extraction as difficult as possible
@@ -189,6 +193,8 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Leg Knot?</p>
 
 ### 1. Re-hook the extracting leg with your inside hook and pull it back into the entanglement
 
@@ -226,6 +232,8 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Leg Knot?</p>
+
 ### → [[Positions/Leg Knot]]
 
 React immediately to the first signs of leg extraction by re-hooking with your inside hook and pulling the opponent's leg back into the entanglement. The earlier you catch the extraction attempt, the higher the success rate of maintaining the knot.
@@ -241,6 +249,8 @@ When re-entanglement fails and the backstep progresses past the point of no retu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Leg Knot?</p>
 
 ### 1. Remaining passive and flat on the mat when the backstep is initiated
 
@@ -270,6 +280,8 @@ When re-entanglement fails and the backstep progresses past the point of no retu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Leg Knot?</p>
+
 **Phase 1: Recognition Drilling** - Identifying backstep initiation cues and developing immediate defensive reactions
 Partner alternates between attacking leg locks and attempting backsteps from leg knot. Defender practices recognizing the switch in strategy and immediately activating the appropriate defensive response. No resistance from defender initially, focus purely on reading the opponent's intentions.
 
@@ -286,29 +298,6 @@ Start in leg knot with full resistance from both players. Bottom player works to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a backstep rather than continuing to attack leg locks?
-**A**: The earliest cue is a shift in grip strategy from leg control to upper body control. When the opponent releases heel grips or ankle control and reaches for your collar, far hip, or establishes a crossface, they are transitioning from submission hunting to passing. Additionally, you will feel their hips begin to rotate away from the entangled side, changing the pressure vector on your trapped legs.
-
-**Q2**: Your opponent has extracted one leg and is mid-backstep - is it better to fight for re-entanglement or insert your knee for half guard?
-**A**: At this stage, inserting your knee for half guard is the higher-percentage option. Once the leg has cleared your hooks, re-entanglement requires catching a moving target while the opponent has forward momentum. The knee insertion works with their forward motion rather than against it, and half guard provides a stable defensive position with known escape and sweep sequences. Fighting for re-entanglement at this stage typically results in a failed attempt that delays your guard recovery.
-
-**Q3**: Why is it important to stay on your side rather than flat on your back when defending the backstep?
-**A**: Staying on your side preserves hip mobility, which is essential for both re-entanglement and guard recovery. A flat position locks your hips to the mat, eliminating the rotation needed to follow the opponent's movement or create escape angles. Additionally, being on your side makes it mechanically harder for the opponent to establish a crossface, as your shoulder positioning creates a natural frame that they must work around.
-
-**Q4**: What should your hand priorities be when you feel the backstep beginning?
-**A**: Primary hand priority shifts from controlling the opponent's legs to defending your neck and creating upper body frames. Your near hand should frame against the opponent's shoulder or bicep to prevent crossface establishment. Your far hand should either control the opponent's far arm to prevent the underhook or reach for their far hip to help with your own hip escape. Maintaining leg grips at the expense of upper body defense results in being passed and pinned.
-
-**Q5**: How do you create the optimal conditions for recovering open guard after a backstep attempt?
-**A**: Create distance with a strong hip escape away from the opponent while simultaneously framing against both shoulders with your forearms. As the distance increases, immediately insert both feet onto the opponent's hips before they can close the gap. The key is committing fully to the guard recovery rather than splitting your effort between re-entangling and recovering guard. Speed and decisiveness matter more than technique quality in this transitional moment.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crucifix Transition?</p>
+
 - Opponent's control arm (under your armpit) shifts from holding the harness to pushing your elbow across your centerline, indicating redirection for capture
 - You feel your opponent's leg beginning to step through between your arm and torso on the side where your arm is extended
 - Opponent's chest pressure increases on one side as they angle their body to thread the leg trap while maintaining back connection
@@ -178,6 +180,8 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crucifix Transition?</p>
 
 - Maintain elbow discipline during grip fighting - keep elbows close to your body even while stripping the choking hand to deny arm capture opportunities
 - Recognize the crucifix entry early by feeling for your opponent's control arm redirecting your elbow across your centerline
@@ -192,6 +196,8 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crucifix Transition?</p>
 
 ### 1. Retract arm and clamp elbow tight to ribs immediately upon feeling the redirect
 
@@ -229,6 +235,8 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crucifix Transition?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Retract the exposed arm early before the leg step through by clamping your elbow tight to your ribs and using two-on-one grip control to strip opponent's hold on your wrist. Resume defensive grip fighting with improved elbow discipline.
@@ -244,6 +252,8 @@ Drop weight explosively to your knees when you feel the arm capture beginning bu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crucifix Transition?</p>
 
 ### 1. Extending the arm fully during grip fighting without maintaining elbow proximity to the body
 
@@ -278,6 +288,8 @@ Drop weight explosively to your knees when you feel the arm capture beginning bu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crucifix Transition?</p>
+
 **Week 1-2** - Recognition and elbow discipline
 From standing back control bottom, partner slowly initiates crucifix entries while you practice recognizing the arm redirect cue and retracting your elbow immediately. Focus on maintaining compact grip fighting posture and developing the automatic retraction response without resistance.
 
@@ -294,29 +306,6 @@ Incorporate crucifix defense into live rolling from standing back control bottom
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a crucifix entry rather than continuing a standard choke attack?
-**A**: The earliest cue is feeling your opponent's control arm shift from maintaining the harness to actively pushing your elbow across your centerline. In a standard choke attack, the control arm stays locked in the harness while the choking arm advances toward your chin. When the control arm begins redirecting your arm instead, this signals the transition to crucifix entry and you must react immediately.
-
-**Q2**: Why is dropping to turtle considered a favorable defensive outcome when facing a crucifix entry?
-**A**: Turtle is favorable compared to full crucifix because in turtle you retain defensive frames (elbows to knees), your arms are not isolated, and you have established escape pathways including granby rolls, sit-throughs, and technical stand-ups. The full crucifix eliminates all defensive frames by trapping both arms, making escape extremely difficult. Accepting turtle early denies your opponent the standing leverage needed for the crucifix mat return.
-
-**Q3**: Your opponent has captured your arm and is stepping their leg through - is it too late to defend?
-**A**: It is not too late but the window is closing rapidly. During the leg step through, you can still turn aggressively into your opponent before the leg locks around your arm and torso. Use a two-on-one grip to strip their wrist control while rotating your torso toward them. If the leg is already past your arm, drop your weight immediately to turtle rather than allowing the standing mat return. The critical threshold is when both the leg trap and wrist control are secured simultaneously.
-
-**Q4**: How should you modify your grip fighting approach to defend both the choke and the crucifix simultaneously?
-**A**: Fight the choking hand using short, compact movements with your elbows staying within six inches of your ribs at all times. Use wrist rotation and two-on-one grip breaks at close range rather than reaching fully behind your head to grab opponent's hands. This compact grip fighting style addresses the choke threat while keeping your elbows close enough to deny the arm extension needed for crucifix entry. Accept that this style is slightly less effective against the choke but dramatically reduces crucifix vulnerability.
-
-**Q5**: Your opponent abandons the crucifix attempt and returns to threatening the choke - how should you adjust your defense?
-**A**: Maintain heightened elbow awareness even after the crucifix attempt fails. Your opponent has now shown you they hunt for the crucifix, meaning future grip fighting must be even more disciplined. Continue using compact movements near your ribs. Recognize that they may cycle between choke threats and crucifix attempts to catch you in a moment of extended grip fighting. Consider dropping to turtle preemptively if you cannot maintain both choke defense and elbow discipline simultaneously.
-
-
-
-</section>
 
 
 </main>

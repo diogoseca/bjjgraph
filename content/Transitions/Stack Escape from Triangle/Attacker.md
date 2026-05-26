@@ -194,6 +194,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Escape from Triangle?</p>
+
 - Establish grips on opponent's hips or pants before initiating any upward movement to control their position throughout the stack sequence
 - Drive hips forward and upward rather than pulling backward—the escape works by collapsing the triangle's angle, not by creating distance from it
 - Tuck chin toward the trapped arm shoulder immediately upon being caught to reduce arterial compression and buy time for the escape sequence
@@ -208,6 +210,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Escape from Triangle?</p>
+
 - Assess triangle tightness and identify which arm is trapped versus free before committing to the escape
 - Establish grips on both of opponent's hips, pants, or belt with trapped and free hands
 - Tuck chin toward trapped arm shoulder to create neck space and reduce choking pressure
@@ -220,6 +224,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Escape from Triangle step by step?</p>
 
 1. **Immediate chin tuck and posture assessment**: The moment you recognize the triangle is locked, tuck your chin firmly toward the trapped arm shoulder. This creates space between your neck and the opponent's thigh, reducing arterial compression. Assess the tightness of the lock, note which arm is trapped, and identify your free hand position. Begin controlled breathing to manage blood flow restriction and maintain cognitive function throughout the escape.
 2. **Establish hip and pants grips**: With your free hand, grip the opponent's same-side hip or pant leg at the hip crease. Walk your trapped hand down to grip the opponent's opposite pant leg or hip. These bilateral grips are essential for controlling the opponent's hip angle throughout the stack and preventing them from adjusting their perpendicular finishing angle as you drive forward. Without these grips, the opponent can follow your movement and maintain choking pressure.
@@ -250,6 +256,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Escape from Triangle?</p>
+
 - **Angle re-adjustment through hip escaping to maintain perpendicular choking geometry** (Effectiveness: High) - Your Response: Pin their far shoulder to the mat with your free hand to prevent hip rotation and maintain constant forward driving pressure to override their angle adjustment before it completes → Leads to [[Positions/Triangle Control]]
 - **Omoplata transition by releasing triangle lock and pivoting hips to capture trapped arm** (Effectiveness: High) - Your Response: Keep trapped elbow tight to your ribcage, immediately pin their far shoulder to deny the rotation, and if the pivot begins, circle away from the omoplata direction while maintaining forward stack pressure → Leads to [[Positions/Omoplata Control]]
 - **Head pull with both hands to break posture and re-establish triangle choking pressure before stack develops** (Effectiveness: Medium) - Your Response: Drive chin into their sternum and use your posted leg to generate upward force through your entire body with core engaged, walk posted foot closer to their hip for stronger mechanical angle → Leads to [[Positions/Triangle Control]]
@@ -260,6 +268,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Escape from Triangle?</p>
 
 ### 1. Pulling trapped arm out before establishing stack position
 
@@ -299,6 +309,8 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Escape from Triangle (Attacker)?</p>
+
 **Phase 1: Stack Mechanics** - Basic standing and driving movement patterns
 Practice standing from triangle position and driving hips forward with no resistance. Focus on proper foot placement, weight transfer forward rather than backward, and hip drive mechanics. Build muscle memory for the forward compression motion that collapses the triangle angle.
 
@@ -319,42 +331,12 @@ After breaking the triangle, immediately transition to half guard passing or sid
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive action you should take when caught in a triangle before attempting the stack escape?
-**A**: Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack.
-
-**Q2**: Why is driving your hips forward and upward the critical mechanical movement in the stack escape rather than pulling backward?
-**A**: Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend.
-
-**Q3**: Your opponent begins rotating their hips to transition to an omoplata as you initiate the stack—how do you respond?
-**A**: Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot.
-
-**Q4**: What grip configuration should you establish before standing up to initiate the stack?
-**A**: Grip both of the opponent's hips or pants at hip level with both hands. The trapped hand grabs the same-side pant leg or hip, while the free hand controls the opposite hip. These bilateral grips allow you to control the opponent's hip angle and prevent them from scooting away or adjusting their perpendicular finishing position as you drive forward into the stack.
-
-**Q5**: Why should you avoid attempting to extract your trapped arm before establishing the stack position?
-**A**: Pulling the trapped arm creates additional space inside the triangle that allows the opponent to tighten the lock further. The arm extraction attempt also uses the arm as a lever against your own neck, amplifying choking pressure temporarily. Instead, establish the stack first to loosen the overall structure—the arm will come free more easily as the triangle geometry collapses under stacking pressure.
-
-**Q6**: What determines whether you end up in half guard top or side control after a successful stack escape?
-**A**: The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further.
-
-**Q7**: Your opponent pulls your head down with both hands as you attempt to posture for the stack—what is your immediate adjustment?
-**A**: Drive your chin into their sternum and use your posted leg to generate upward force through your entire body with your core fully engaged. Keep your spine straight rather than fighting the pull with just neck muscles. Walk your posted foot closer to their hip to create a stronger mechanical angle for posture recovery, using your leg strength rather than upper body alone to overcome their head control.
-
-**Q8**: What is the most important action immediately after clearing the triangle lock?
-**A**: Immediately establish positional control by driving into crossface or underhook on the pass side. Do not pause after clearing the triangle—the opponent is momentarily disorganized from being stacked and this window is critical for consolidating half guard top or side control before they recover their defensive framing and guard retention reflexes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Escape from Triangle?</p>
 
 Stack escapes involve driving significant weight onto an opponent's neck and spine. Always control stacking pressure gradually and never slam or drop weight explosively onto a stacked opponent. Monitor your own neck throughout for signs of blood flow restriction including lightheadedness, tunnel vision, or tingling—tap immediately if you experience these symptoms before the escape is established. Communicate with training partners about neck discomfort during drilling. Partners being stacked should tap if they experience pain in the cervical spine, and the stacking player must release pressure immediately upon any tap signal.
 

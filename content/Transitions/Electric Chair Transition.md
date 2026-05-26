@@ -204,7 +204,7 @@ The Electric Chair Transition is the cornerstone movement of the 10th Planet loc
 
 - [[Positions/Half Guard/Electric Chair]] - Target position - successful transition establishes Electric Chair control
 
-- [[Submissions/Electric Chair Submission]] - Follow-up submission - primary finish from completed transition
+- [[Positions/Half Guard/Electric Chair]] - Follow-up submission - primary finish from completed transition
 
 - [[Positions/Half Guard/Old School]] - Alternative attack - available when opponent defends elevation
 

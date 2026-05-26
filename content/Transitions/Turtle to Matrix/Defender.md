@@ -166,6 +166,8 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Matrix?</p>
+
 - Attacker begins walking their knees laterally while maintaining chest pressure, shifting from directly behind you to an angled position on your near side
 - You feel the attacker's weight shifting from centered on your upper back to angled pressure against your near-side ribs and shoulder
 - The attacker's far hand establishes or tightens a grip on your far-side hip, restricting your ability to rotate your hips away
@@ -178,6 +180,8 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Matrix?</p>
 
 - Maintain elbows tight to knees at all times to deny the threading gap the attacker needs for entry
 - Monitor the attacker's lateral movement and match their angle changes by adjusting your own base direction
@@ -192,6 +196,8 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Matrix?</p>
 
 ### 1. Sit back onto heels and clamp elbows tight to knees to eliminate the threading gap
 
@@ -229,6 +235,8 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Matrix?</p>
+
 ### → [[Positions/Turtle]]
 
 Sit back onto your heels and clamp elbows tight to knees at the first sign of lateral movement. This denies the entry gap and forces the attacker back to standard turtle top, where all your normal escape options remain available. Combine with active grip fighting on the far-hip grip to make re-attempts more difficult.
@@ -244,6 +252,8 @@ When the attacker commits their weight to the angular entry and their base becom
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Matrix?</p>
 
 ### 1. Allowing elbows to flare away from knees, creating the gap the attacker needs for arm and leg threading
 
@@ -273,6 +283,8 @@ When the attacker commits their weight to the angular entry and their base becom
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Matrix?</p>
+
 **Week 1-2: Recognition Training** - Learn to identify Matrix entry cues from turtle bottom at slow speed
 Partner performs the Transition to Matrix at slow speed while you focus on recognizing each phase: the lateral knee walking, the pressure direction change, the arm threading, and the leg insertion. Call out each phase as it happens. No active defense yet, just building awareness of the specific sensations that distinguish Matrix entry from other turtle top attacks.
 
@@ -289,29 +301,6 @@ Partner attacks from turtle top using Matrix entry alongside traditional back ta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is setting up a Matrix entry rather than a standard back take?
-**A**: The earliest cue is the attacker walking their knees laterally to create angle while maintaining chest pressure, rather than staying centered behind you and working for hooks or seatbelt directly. A standard back take involves the attacker staying behind you; the Matrix involves them moving perpendicular to your torso. Feeling the pressure shift from centered on your upper back to angled against your near-side ribs confirms the Matrix entry is being set up.
-
-**Q2**: Why is sitting back onto your heels one of the highest-percentage defenses against Matrix entry?
-**A**: Sitting back eliminates the space between your elbow and knee that the attacker absolutely must have to thread their leg through. Without this gap, the attacker cannot position their body to achieve the perpendicular alignment the Matrix requires. It also lowers your center of gravity, making their angular pressure less effective. This single structural adjustment removes the primary mechanical requirement of the technique.
-
-**Q3**: The attacker has established a deep arm anchor under your armpit and is beginning to insert their leg. What is your best option?
-**A**: Your best option at this late stage is an aggressive turn into the attacker before the leg insertion completes. Rotate your torso forcefully toward the attacker's body to eliminate the back-take angle. The deeply threaded arm becomes a liability in a face-to-face position. If turning is not possible due to the arm anchor's depth, execute an explosive granby roll away from the entry direction to separate from their connections and recover guard.
-
-**Q4**: How does the attacker's commitment to Matrix entry create counter-attacking opportunities for the defender?
-**A**: The attacker's angular movement shifts their weight distribution to one side and compromises their base. When they commit to threading their arm and creating the perpendicular angle, their ability to follow you in the opposite direction is reduced. This creates opportunities for granby rolls away from the entry direction, technical standups exploiting the unbalanced top pressure, and guard recovery through the space created on the side they moved away from. Their offensive commitment is your defensive opportunity.
-
-**Q5**: What role does the far-hip grip play in the attacker's entry, and how does stripping it affect the transition?
-**A**: The far-hip grip controls your ability to rotate your hips away from the entry direction. It anchors your orientation so the attacker can thread arm and leg without you simply turning away. Stripping this grip restores your hip rotation freedom, which means you can turn to face the attacker, adjust your base angle, or rotate away from the entry. Without hip control, the attacker's angular movement becomes disconnected from your body position, making the entry far less effective.
-
-
-
-</section>
 
 
 </main>

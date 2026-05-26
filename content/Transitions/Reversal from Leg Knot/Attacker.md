@@ -194,6 +194,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reversal from Leg Knot?</p>
+
 - Time the reversal during opponent's submission transitions when their posting ability is most compromised by grip commitment
 - Use the leg entanglement as a fulcrum rather than fighting to disengage before sweeping
 - Hip rotation drives the sweep mechanics while the free leg provides the driving force vector
@@ -208,6 +210,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reversal from Leg Knot?</p>
+
 - Free leg positioned to post against opponent's hip or mat for driving leverage
 - Opponent's weight shifted forward or laterally during active submission attempt
 - Opponent's heel grip on trapped leg stripped, redirected, or momentarily loosened
@@ -220,6 +224,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reversal from Leg Knot step by step?</p>
 
 1. **Assess Timing Window**: Monitor the top player's weight distribution and hand positioning, identifying the moment when they shift forward or laterally to set up a heel hook or toe hold attempt, creating the optimal window where their posting ability is most compromised by grip commitment.
 2. **Secure Heel Protection**: Before committing to the reversal, confirm your trapped leg's heel is tucked and protected by turning toes toward the opponent's hip, preventing a last-second submission finish during your transition movement that could end the match.
@@ -250,6 +256,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reversal from Leg Knot?</p>
+
 - **Opponent posts free hand on mat to resist rotational sweep force** (Effectiveness: High) - Your Response: Redirect sweeping direction toward the posting arm side to load their arm with your body weight, or switch to secondary sweep angle that bypasses the post entirely. → Leads to [[Positions/Leg Knot]]
 - **Opponent tightens leg entanglement and drops weight to neutralize hip rotation** (Effectiveness: Medium) - Your Response: Abandon the reversal and immediately transition to counter-entanglement options such as 50-50 Guard entry or reverse entanglement to Outside Ashi-Garami. → Leads to [[Positions/Leg Knot]]
 - **Opponent advances to Saddle configuration using the reversal movement's leg loosening** (Effectiveness: High) - Your Response: Immediately address the new positional threat by protecting heel and fighting the knee line crossing before opponent consolidates the Saddle. → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -261,6 +269,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reversal from Leg Knot?</p>
 
 ### 1. Attempting reversal without first stripping opponent's heel grip on trapped leg
 
@@ -300,6 +310,8 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reversal from Leg Knot (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip rotation and free leg posting fundamentals
 Solo hip rotation drills followed by partner drilling of the basic sweep mechanics with no resistance. Focus on the coordination between grip strip, leg post, and hip turn as a unified sequence. Repetitions prioritize smooth mechanics over speed.
 
@@ -320,42 +332,12 @@ Positional sparring starting from Leg Knot Bottom with reversal as primary objec
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attempting the Reversal from Leg Knot?
-**A**: The optimal timing window occurs when the top player shifts weight forward or laterally to set up a submission attempt, particularly during transitions between heel hook and toe hold grips. During these moments, the opponent's posting ability is compromised because their hands are occupied controlling your foot, creating the base vulnerability necessary for a successful sweep.
-
-**Q2**: What conditions must exist before you can safely attempt this reversal?
-**A**: The bottom player needs a free leg capable of posting against the opponent's hip or mat, sufficient upper body mobility to strip grips, a protected heel position on the trapped leg, and the opponent's weight shifted away from neutral base with at least one hand committed to leg control. Without all conditions present, the reversal attempt will fail and potentially expose you to accelerated submission attacks.
-
-**Q3**: What is the most critical hip movement during the reversal execution?
-**A**: The explosive hip rotation toward the sweeping direction is the most critical movement. This rotation uses the entangled legs as a fulcrum, converting rotational force into sweeping momentum. The hip turn must be committed and decisive rather than tentative, as partial rotation allows the opponent to post and recover base while your position has already been compromised by the attempt.
-
-**Q4**: Your opponent posts their hand to prevent the sweep mid-attempt - how do you adjust?
-**A**: Redirect your sweeping direction toward the posting arm side to load their arm with your body weight, or immediately switch to a secondary sweep angle that bypasses the post. Alternatively, use the momentum of your hip rotation to transition to guard recovery or counter-entanglement rather than fighting a stalled sweep that wastes energy and timing.
-
-**Q5**: What grip must you address before initiating the reversal?
-**A**: You must address the opponent's controlling grip on your trapped foot or ankle before initiating the reversal. If they maintain heel control during your sweep attempt, they can finish a heel hook or toe hold as your rotation actually accelerates the breaking mechanics. Strip or redirect this grip as a prerequisite step, not something to handle during the sweep itself.
-
-**Q6**: In which direction should the primary sweeping force be applied?
-**A**: Force should be applied diagonally across the opponent's body toward the side where their base is weakest, typically the side where their hands are occupied with grips rather than posting. The driving force comes from hip extension through the posted free leg combined with rotational momentum from the hip turn, creating a compound force vector the opponent cannot resist with a single posting hand.
-
-**Q7**: Your opponent defends the reversal by tightening the leg knot - what is your chain attack?
-**A**: If the opponent defends by tightening the entanglement and dropping weight, abandon the reversal and immediately transition to counter-entanglement options. Attempt to establish 50-50 Guard by weaving your free leg through their legs, or work a reverse entanglement to Outside Ashi-Garami where you become the attacker. Recognizing the failed reversal early and pivoting to alternative positions is essential.
-
-**Q8**: How do you protect your trapped leg from submission during the reversal transition?
-**A**: Maintain heel protection throughout by keeping toes pointed toward the opponent's hip and the knee flexed to prevent heel exposure. Before initiating the sweep, confirm your heel is tucked and the opponent cannot access a clean grip on it. During the rotation, the sweeping motion should turn your trapped leg away from the opponent's finishing mechanics rather than toward them, using the sweep direction itself as a protective mechanism.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reversal from Leg Knot?</p>
 
 The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements.
 

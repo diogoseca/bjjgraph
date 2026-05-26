@@ -162,6 +162,8 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Up from Mounted Triangle?</p>
+
 - Bottom player begins placing their free hand flat against your hip to establish a structural pushing frame
 - Bottom player starts driving their hips backward or laterally to create distance from the triangle squeeze
 - Bottom player rotates their shoulder into your inner thigh to disrupt the triangle angle and create neck slack
@@ -174,6 +176,8 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Up from Mounted Triangle?</p>
 
 - Maintain constant downward pressure on the opponent's head to prevent posture creation, using both hand control and triangle squeeze to keep their neck compressed
 - Adjust triangle angle continuously in response to lateral hip escape attempts, following the opponent's movement to preserve the choking geometry
@@ -188,6 +192,8 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Up from Mounted Triangle?</p>
 
 ### 1. Pull head down and re-tighten triangle lock by cupping behind the skull and squeezing knees
 
@@ -225,6 +231,8 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Up from Mounted Triangle?</p>
+
 ### → [[Positions/Mount/Mounted Triangle]]
 
 Pull the head down immediately when posture begins and re-angle your hips to tighten the triangle. Strip any frame attempts on contact. Use the opponent's energy expenditure against them, as each failed escape drains their reserves while you maintain position with minimal effort through gravity and triangle mechanics.
@@ -240,6 +248,8 @@ If the triangle becomes unsustainable due to angle disruption, release it delibe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Up from Mounted Triangle?</p>
 
 ### 1. Allowing the bottom player to establish a frame against your hip without addressing it immediately
 
@@ -269,6 +279,8 @@ If the triangle becomes unsustainable due to angle disruption, release it delibe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Up from Mounted Triangle?</p>
+
 **Phase 1: Recognition and Early Response** - Identifying posture up attempts at their earliest stage
 Partner signals posture up attempts with increasing subtlety. Practice recognizing the initial frame placement and hip shift that indicate an escape is beginning. Focus on timing your head control pull and frame strip to intercept the posture before it develops rather than reacting after posture is already established.
 
@@ -285,29 +297,6 @@ Begin in mounted triangle and defend all escape attempts during live rolling. Tr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The bottom player has established a strong frame against your hip and is beginning to create posture - what is your immediate response?
-**A**: First attempt to strip the frame by controlling their wrist and pushing it past your hip. If you cannot strip it within two seconds, transition to attacking the extended arm with an armbar by pivoting your hips toward that arm. Simultaneously use your free hand to maintain head control and prevent further posture development. The frame represents the foundation of their entire escape structure and removing it collapses their escape before it can develop.
-
-**Q2**: What is the primary defensive adjustment when the bottom player begins hip escaping laterally during their posture attempt?
-**A**: Follow their hip escape by re-angling your own hips in the same direction to maintain the triangle's choking geometry. Your triangle effectiveness depends on the angle between your squeezing thighs and their neck, so when they move laterally you must rotate to preserve that angle. Simultaneously pull the head down toward the side they are escaping from to prevent them from creating the space needed for arm extraction and guard recovery.
-
-**Q3**: You feel your triangle lock beginning to loosen as the bottom player disrupts the ankle-behind-knee connection - should you fight to maintain it or transition?
-**A**: Make one quick attempt to re-lock the triangle by adjusting your ankle position and squeezing your knees together. If the re-lock fails within two to three seconds, immediately transition to either armbar if their arm is accessible or consolidate standard mount. Fighting a losing triangle battle wastes energy and creates increasingly dangerous escape windows for the bottom player. A deliberate transition to mount maintains positional dominance rather than losing the position entirely through attrition.
-
-**Q4**: The bottom player is making small incremental frame adjustments rather than explosive escape attempts - how do you prevent their systematic escape?
-**A**: Recognize that systematic escapes are more dangerous than explosive ones because they preserve the bottom player's energy while steadily degrading your control. Counter by actively tightening your triangle angle through hip adjustments, increasing squeeze pressure in pulses to force defensive reactions, and threatening submissions such as armbar or tighter choke that demand their immediate attention. The goal is to make them react to your attacks rather than methodically executing their escape plan.
-
-**Q5**: When should you deliberately release the mounted triangle and transition to standard mount?
-**A**: Release the triangle when the bottom player has disrupted both the choking angle and the ankle-behind-knee lock to the point where reestablishing the triangle would require more energy than the position justifies. Also transition if you have been working the triangle for over sixty seconds without finishing and the bottom player is systematically improving their posture. The key is making this a deliberate tactical decision with immediate mount consolidation rather than having the bottom player force you out of the position uncontrollably.
-
-
-
-</section>
 
 
 </main>

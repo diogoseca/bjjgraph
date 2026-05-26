@@ -158,13 +158,15 @@ The defender must address two concurrent threats during this transition: the mom
 
 Strategically, the best defense against this transition operates at the prevention level. Recognizing the attacker's intent before the grip change occurs allows the defender to retract their frame, deny the threading path, or create enough distance to fully escape the head control. When prevention fails, the defender must work systematically through escape sequences that address the Darce grip while maintaining awareness of the guillotine fallback threat.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Hindulotine to Darce Choke?</p>
 
 - Attacker releases guillotine grip pressure momentarily while maintaining head control with their other arm - the sudden reduction in choking pressure paired with continued head control signals the transition
 - You feel the attacker's arm sliding under your armpit toward the back of your neck rather than pulling across the front of your throat as in a standard guillotine
@@ -177,6 +179,8 @@ Strategically, the best defense against this transition operates at the preventi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hindulotine to Darce Choke?</p>
 
 - Recognize the grip change early - the release of guillotine pressure signals the transition attempt and your best escape window
 - Retract the near-side arm immediately to deny the arm-in configuration that makes the Darce mechanically effective
@@ -191,6 +195,8 @@ Strategically, the best defense against this transition operates at the preventi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hindulotine to Darce Choke?</p>
 
 ### 1. Retract near-side arm and posture up during grip change
 
@@ -228,6 +234,8 @@ Strategically, the best defense against this transition operates at the preventi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hindulotine to Darce Choke?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Retract your near-side arm the moment you feel guillotine pressure release, then posture up explosively while the attacker lacks a secure grip configuration. Frame against their head control arm to break the remaining connection and return to defending the Hindulotine rather than the Darce.
@@ -243,6 +251,8 @@ Drive forward aggressively when you feel the grip change, using your bodyweight 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hindulotine to Darce Choke?</p>
 
 ### 1. Pulling away from the attacker to create distance during the transition
 
@@ -272,6 +282,8 @@ Drive forward aggressively when you feel the grip change, using your bodyweight 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hindulotine to Darce Choke?</p>
+
 **Week 1-2** - Recognition drilling
 Partner alternates between maintaining the Hindulotine and initiating the Darce transition at random intervals. Practice identifying the grip change by feel with eyes closed. Focus on recognizing the reduction in guillotine pressure paired with increased head control as the primary trigger for defensive response.
 
@@ -288,29 +300,6 @@ Start from Hindulotine with attacker free to attempt Darce, Anaconda, or guillot
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from Hindulotine to Darce?
-**A**: The earliest cue is a sudden reduction in guillotine choking pressure on the front of your neck while the attacker's non-choking arm clamps tighter around your head. This signals they are releasing the primary grip to rethread for the Darce while maintaining head control as an anchor. This moment is your best escape window.
-
-**Q2**: Why is retracting your near-side arm the highest priority defensive action?
-**A**: The Darce choke requires your near-side arm trapped against your own neck to create the compression mechanism. Without the arm-in configuration, the Darce is mechanically impossible regardless of how deep the opponent threads their arm. Retracting your arm eliminates the structural element that makes the choke work, converting a submission threat into a loose headlock.
-
-**Q3**: Your opponent has partially threaded the Darce arm but has not locked the grip - what is your best defensive action?
-**A**: Drive forward aggressively to flatten the attacker while simultaneously working to extract your trapped arm. The forward pressure denies them the hip angle needed to lock the figure-four grip and generate finishing torque. Use your free hand to push against their hip or threading arm while walking your knees past their hips to establish a passing position.
-
-**Q4**: Why should you turn into the attacker rather than pulling away when defending the Darce transition?
-**A**: Pulling away extends your neck and creates space for the threading arm to reach deeper, actually tightening the choke. Turning into the attacker compresses the space between your bodies, reducing the angle available for the Darce mechanics and creating opportunities to extract your trapped arm. The counter-intuitive movement toward the threat is the mechanically correct defensive response.
-
-**Q5**: How does the attacker's hip angle change telegraph the transition from Hindulotine to Darce?
-**A**: During the Hindulotine, the attacker's hips are positioned to pull straight back for guillotine pressure. When transitioning to Darce, they shift their hips laterally to create the perpendicular angle needed for arm threading and rotational torque. This hip angle change is a tactile cue you can feel through body contact before the arm begins threading.
-
-
-
-</section>
 
 
 </main>

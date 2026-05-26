@@ -29,7 +29,7 @@
   ],
   "component_skills": [
     {
-      "skill_name": "Weight Distribution",
+      "skill_name": "Center of Gravity",
       "description": "The ability to transfer body weight efficiently through the shoulder into the opponent while maintaining balance and preventing the opponent from creating frames or space. This involves understanding how to position the hips and core to maximize downward force while remaining mobile enough to adjust to defensive movements."
     },
     {
@@ -63,7 +63,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Pressure Application",
+      "principle_name": "Pressure",
       "relationship_type": "Prerequisite",
       "description": "Shoulder pressure is a specific application of the broader pressure application concept, requiring understanding of general pressure principles before mastering shoulder-specific techniques"
     },
@@ -73,7 +73,7 @@
       "description": "Shoulder pressure works synergistically with crossface control, often using the same shoulder to apply both forces simultaneously for enhanced head and body control"
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Center of Gravity",
       "relationship_type": "Prerequisite",
       "description": "Effective shoulder pressure requires mastery of weight distribution principles to transfer force efficiently through the shoulder without compromising balance or mobility"
     },
@@ -83,12 +83,12 @@
       "description": "Shoulder and hip pressure create a two-point control system that prevents shrimping escapes by controlling both upper and lower body simultaneously"
     },
     {
-      "principle_name": "Frame Creation",
+      "principle_name": "Frames",
       "relationship_type": "Alternative",
       "description": "From the bottom position, frame creation is the primary counter to shoulder pressure, making understanding of framing essential for both applying and defending shoulder pressure"
     },
     {
-      "principle_name": "Base Maintenance",
+      "principle_name": "Base",
       "relationship_type": "Complementary",
       "description": "Maintaining stable base while applying shoulder pressure prevents counters and allows sustained control without vulnerability to sweeps or reversals"
     },
@@ -103,7 +103,7 @@
       "description": "Shoulder pressure occupies a high position in the control point hierarchy as it simultaneously controls head movement and chest expansion"
     },
     {
-      "principle_name": "Leverage Principles",
+      "principle_name": "Levers",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage allows practitioners to maximize shoulder pressure efficiency by optimizing body positioning and mechanical advantage"
     }
@@ -158,7 +158,7 @@
       "how_applied": "Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities"
     },
     {
-      "context": "Side Control Consolidation",
+      "context": "Side Control",
       "how_applied": "Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points"
     },
     {
@@ -332,7 +332,7 @@
   ],
   "related_content": [
     {
-      "name": "Pressure Application",
+      "name": "Pressure",
       "content_type": "Principle",
       "relationship": "Parent concept providing theoretical foundation for shoulder pressure applications"
     },
@@ -347,7 +347,7 @@
       "relationship": "Primary position for developing and applying shoulder pressure fundamentals"
     },
     {
-      "name": "Weight Distribution",
+      "name": "Center of Gravity",
       "content_type": "Principle",
       "relationship": "Foundational principle determining effectiveness of shoulder pressure application"
     },
@@ -362,7 +362,7 @@
       "relationship": "Complementary pressure concept creating two-point control system with shoulder pressure"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "content_type": "Principle",
       "relationship": "Primary defensive counter to shoulder pressure from bottom position"
     },
@@ -387,7 +387,7 @@
       "relationship": "Framework placing shoulder pressure within hierarchy of control mechanisms"
     },
     {
-      "name": "Base Maintenance",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Essential principle for maintaining stability while applying shoulder pressure"
     }

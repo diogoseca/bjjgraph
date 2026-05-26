@@ -186,6 +186,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Smash Pass Counter?</p>
+
 - Collapse forward into the guard rather than pulling away, removing the space the bottom player needs for sweeps and transitions
 - Drive your shoulder into the opponent's sternum while simultaneously working to strip the lapel grip with your hands
 - Keep your hips heavy and low to prevent any elevation or off-balancing from the bottom player
@@ -200,6 +202,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Smash Pass Counter?</p>
+
 - Opponent has established Ringworm Guard with lapel wrapped around your leg but has not yet secured multiple secondary grips
 - You have identified that the opponent's lapel grip is the primary control point rather than sleeve or collar controls
 - Your posture allows you to collapse forward without immediately exposing your back to attacks
@@ -212,6 +216,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Smash Pass Counter step by step?</p>
 
 1. **Collapse forward**: Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep your head on the side opposite the trapped leg to prevent guillotine attempts while establishing crossface pressure against their jaw.
 2. **Secure crossface**: Drive your forearm across the opponent's face and neck, turning their head away from you. This prevents them from turning into you and taking your back while you work the lapel extraction. Keep constant pressure - this is your primary defensive anchor.
@@ -240,6 +246,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Smash Pass Counter?</p>
+
 - **Bottom player elevates hips and loads for sweep as you collapse forward** (Effectiveness: High) - Your Response: Widen your base immediately by stepping your free leg out, drop your hips lower, and drive your weight into their chest rather than staying elevated where they can redirect you → Leads to [[Positions/Ringworm Guard]]
 - **Bottom player abandons lapel grip and transitions to collar grip for choke attempts** (Effectiveness: Medium) - Your Response: Continue forward pressure and immediately secure head position - if their hand goes to your collar, your head should be past their shoulder making chokes difficult. Proceed with pass without needing to strip lapel → Leads to [[Positions/Side Control]]
 - **Bottom player turns toward you and begins back take sequence as you work crossface** (Effectiveness: Medium) - Your Response: Drive crossface harder and sprawl your hips back - if they continue turning, disengage completely and reset to standing rather than chasing the pass into back exposure → Leads to [[Positions/Back Control]]
@@ -250,6 +258,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Smash Pass Counter?</p>
 
 ### 1. Collapsing forward without securing crossface first
 
@@ -284,6 +294,8 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Smash Pass Counter (Attacker)?</p>
+
 **Week 1-2** - Collapse and crossface mechanics
 Practice the initial collapse into Ringworm Guard with partner providing no resistance. Focus on proper shoulder drive placement, crossface angle, and head positioning to prevent guillotine exposure. Drill the collapse entry fifty times per side.
 
@@ -301,51 +313,12 @@ Full resistance rounds starting from Ringworm Guard position. Partner works full
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Smash Pass Counter from Ringworm Guard?
-**A**: The primary goal is to nullify the guard player's leverage by collapsing forward with heavy pressure rather than creating distance, extracting the trapped leg from the lapel wrap through systematic grip-breaking, and transitioning to side control while maintaining constant forward pressure throughout.
-
-**Q2**: What position do you start Smash Pass Counter from?
-**A**: This technique starts from Ringworm Guard/Top, specifically when you are the passer caught with your leg trapped in the opponent's lapel wrap configuration. The technique is designed for the scenario where the guard player has established the ring configuration but hasn't yet secured multiple secondary control points.
-
-**Q3**: What are the key grips needed for Smash Pass Counter?
-**A**: The primary control is crossface pressure with your forearm across the opponent's face and neck rather than traditional grips. Your free hand works to strip the opponent's lapel grip, initially locating where they hold the lapel tail and then breaking that grip finger by finger or through wrist levering. Grip fighting is secondary to body pressure and positioning.
-
-**Q4**: How does the opponent most effectively counter Smash Pass Counter?
-**A**: The highest percentage counter is elevating hips and loading for a sweep the moment you begin collapsing forward, using your committed weight against you. Another effective counter is abandoning the lapel grip to attack your collar or underhook while your hands are occupied with the pass, or turning aggressively toward you to initiate back take before crossface is established.
-
-**Q5**: When is the best time to attempt Smash Pass Counter?
-**A**: The optimal timing window is after the opponent has established the lapel wrap around your leg but before they secure secondary controls on your sleeves, collar, or hips. If attempted too early, there's no guard to pass. If attempted too late, the opponent has too many control points making smash pressure insufficient to neutralize their offensive options.
-
-**Q6**: Your opponent loads their hips as you collapse forward - how do you adjust?
-**A**: Immediately widen your base by stepping your free leg out to the side, drop your hips lower toward the mat rather than staying elevated, and drive your shoulder weight into their sternum rather than their hips. This lowers your center of gravity below theirs and removes the elevation they need to complete the sweep. Do not pull away - this gives them the space to execute.
-
-**Q7**: Why is crossface the first priority when collapsing into Ringworm Guard?
-**A**: The crossface prevents the opponent from turning their head and shoulders toward you, which is the prerequisite for all back-taking sequences from Ringworm Guard. Without crossface, your collapse forward actually assists their back take by bringing you closer. The crossface also creates psychological pressure and discomfort that disrupts their ability to coordinate complex guard attacks.
-
-**Q8**: What is the correct motion for extracting your leg from the lapel wrap?
-**A**: Circle the leg backward and upward in an arc rather than pulling straight back. Pulling straight backward re-tensions the wrap against your knee, making extraction harder. The circular motion allows the lapel to slide off naturally once the opponent's grip is broken and tension is released. Think of stepping over an obstacle behind you rather than dragging through resistance.
-
-**Q9**: The opponent re-grips the lapel tail with their other hand mid-extraction - what do you do?
-**A**: Increase forward pressure immediately to limit their ability to manipulate the new grip. Use your free hand to strip the fresh grip before they can re-tension the wrap. If they have secured a strong re-grip, you may need to reset the extraction by re-establishing your crossface anchor and restarting the grip-breaking sequence rather than forcing through with a partially loosened wrap.
-
-**Q10**: What direction of force should your shoulder drive create during the collapse phase?
-**A**: Your shoulder drive should be directed diagonally downward toward the mat and slightly toward the opponent's far hip, pinning their sternum and driving their shoulders flat. Purely forward pressure allows them to redirect you laterally for sweeps. The downward angle compresses their ribcage, restricts breathing, and makes it mechanically difficult for them to elevate their hips or create the angles needed for back takes and sweeping attacks.
-
-**Q11**: If the smash pass stalls and you cannot break the grip after sustained effort, what chain attacks are available?
-**A**: If the grip proves unbreakable from collapsed position, transition to the Standing Smash Pass Hybrid by posting up and using standing leverage to break the initial tension before immediately re-collapsing. Alternatively, convert to a knee slice pass if your leg gains partial freedom, or disengage entirely and attempt Backstep Around Worm Guard to attack from a completely different angle that bypasses the lapel configuration.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Smash Pass Counter?</p>
 
 This technique involves significant forward pressure and crossface contact, which can create neck strain for training partners if applied explosively. When drilling, collapse with controlled speed and apply crossface pressure gradually rather than slamming your weight forward. Partners should tap immediately if neck becomes compromised during the collapse phase. The grip-breaking portion carries risk of finger injuries - if partner's grip doesn't release with moderate pressure, reset rather than forcing the break. Both practitioners should communicate clearly about pressure levels, especially when training the stacking variant which can compress the spine.
 

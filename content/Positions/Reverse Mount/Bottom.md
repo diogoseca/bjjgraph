@@ -169,6 +169,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Mount (Bottom)?</p>
+
 - Opponent's hips positioned on defender's lower back, lumbar region, or glutes with weight distributed downward through their pelvis, creating heavy pressure on the spine and restricting torso mobility
 - Defender face-down or on their side with back exposed to opponent, shoulders pressed toward mat, unable to establish visual contact or traditional defensive frames against upper body attacks from behind
 - Opponent has access to defender's back, neck, and arms from behind, with ability to establish hooks or seat belt control points without defender's direct visual awareness of hand positioning
@@ -181,6 +183,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse Mount (Bottom)?</p>
+
 - Opponent successfully achieved reverse mount through scramble, turtle attack, or failed escape attempt
 - Defender's back is exposed with opponent achieving top position from behind
 - Opponent has established hip-to-back contact with weight distribution favoring control
@@ -192,6 +196,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Mount?</p>
 
 - Immediately protect neck with chin tucked and hands defending collar/throat area to prevent rear naked choke
 - Prevent opponent from establishing hooks or seat belt control by keeping elbows tight and hips heavy
@@ -207,6 +213,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse Mount (Bottom)?</p>
 
 **If opponent is establishing seat belt control or attempting rear naked choke:**
 - Execute **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 40%)
@@ -235,6 +243,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Mount?</p>
 
 ### 1. Staying flat on stomach without attempting to turn or create angle
 
@@ -274,6 +284,8 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Reverse Mount defense?</p>
+
 ### Reverse Mount Escape Flow Drill
 
 Partner establishes reverse mount with light pressure. Bottom practitioner practices continuous hip escapes, shoulder rolls, and bridging movements to escape to turtle or guard. Focus on movement patterns rather than strength. Reset when escape is achieved or opponent transitions to back control.
@@ -306,38 +318,6 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What should be your immediate first action upon finding yourself in reverse mount bottom?
-**A**: Immediately protect your neck by tucking your chin and bringing your hands to defend the collar and throat area. This prevents the rear naked choke, which is the most dangerous immediate threat from this position. Neck defense takes absolute priority over any escape attempt.
-
-**Q2**: Why is staying flat on your stomach considered the worst possible response in reverse mount bottom?
-**A**: Staying flat allows the opponent to completely control your torso, establish hooks easily, and transition to full back control with minimal resistance. It eliminates all escape angles and gives them full access to your neck for chokes. Maintaining at least one shoulder off the mat preserves escape options and prevents complete flattening.
-
-**Q3**: Your opponent is attempting to flatten you completely while in reverse mount - what counter movement should you use?
-**A**: Use continuous hip movement and shoulder rolls to prevent flattening. Keep one shoulder off the mat at all times, create angles with your hips, and work to turn into your opponent. Frame against their hips or knees when possible. Never stop moving - constant defensive motion prevents them from settling their weight and establishing complete control.
-
-**Q4**: What is the escape hierarchy from reverse mount bottom?
-**A**: Priority one is preventing back control by stopping hook insertion and seat belt establishment. Priority two is turning to face the opponent while establishing frames. Priority three is recovering guard through hip escapes and guard replacement movements. Throughout all priorities, neck defense remains constant - never sacrifice neck protection for an escape attempt.
-
-**Q5**: How should you time your explosive bridge and turn from reverse mount bottom?
-**A**: Time your explosive movement when the opponent's weight shifts or becomes unbalanced - typically when they reach for arm control, attempt to secure grips, or adjust their position. Create angles with hip movement first to set up the escape, then execute the bridge when their weight distribution favors your escape direction. Bridging without creating angles first wastes energy.
-
-**Q6**: Your opponent shifts their weight forward to attack your neck with a rear naked choke - how do you use this against them?
-**A**: Their forward weight shift creates an opportunity for explosive bridge and turn. As they commit forward, bridge explosively toward their posted hands, using their own momentum against them. This can create space to turn into them or escape to deep half guard. Their commitment to the attack compromises their base.
-
-**Q7**: Why should you keep your elbows tight to your ribs rather than extending your arms when defending from reverse mount bottom?
-**A**: Extended arms are vulnerable to kimura attacks, arm triangles, and wrist control that leads to back control. Keeping elbows tight to ribs creates a compact defensive shell that protects your arms while keeping hands available for neck defense. The compact posture also makes it harder for the opponent to isolate and attack individual limbs.
-
-**Q8**: How do you manage energy expenditure while defending from reverse mount bottom?
-**A**: Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

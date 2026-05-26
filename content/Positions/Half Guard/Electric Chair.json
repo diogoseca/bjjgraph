@@ -90,7 +90,7 @@
       "Stay patient and methodical - rushing the escape often leads to giving up back control or being swept",
       "Use the limp leg concept to reduce the effectiveness of the stretch on your trapped leg"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts extending their hips to increase the Electric Chair pressure - what immediate adjustment do you make?",
         "answer": "Drive your chest weight forward onto opponent while simultaneously relaxing your trapped leg (limp leg). This prevents them from achieving the perpendicular angle needed for maximum submission pressure. Use your free leg to push their hips flat to the mat, reducing their extension leverage."
@@ -354,7 +354,7 @@
       "Keep opponent's weight distributed forward and off-balance to prevent them from establishing defensive base or extracting their leg",
       "Maintain active offensive pressure throughout, never allowing opponent to settle or establish counters to your control"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts driving their weight forward to flatten you - what adjustment do you make to maintain the Electric Chair?",
         "answer": "Use the underhook to pull yourself toward their far hip while simultaneously extending the lockdown to prevent them from settling their weight. Angle your hips further perpendicular to create more splitting pressure. If they commit too far forward, immediately transition to the Old School sweep using their momentum."
@@ -526,7 +526,7 @@
         "relationship": "Primary sweeping technique from this position"
       },
       {
-        "name": "Electric Chair Submission",
+        "name": "Electric Chair",
         "relationship": "Primary submission threat from this position"
       },
       {
@@ -557,27 +557,31 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 72
+        "attempt_probability": 76
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Hip Rotation Escape from Electric Chair",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Straighten Leg Defense from Electric Chair",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Sweep from Electric Chair",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
-        "transition": "Electric Chair Finish",
-        "attempt_probability": 2
+        "transition": "Electric Chair",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Electric Chair from Electric Chair",
+        "attempt_probability": 1
       }
     ]
   }

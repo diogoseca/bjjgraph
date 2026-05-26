@@ -208,9 +208,9 @@ The Twister Side Control to Truck transition occupies a critical node within the
 
 - [[Transitions/Escape from Truck]] - Defensive counter-technique the opponent will attempt once truck is established
 
-- [[Submissions/Calf Slicer from Truck]] - High-percentage submission available immediately upon achieving truck position
+- [[Submissions/Calf Slicer]] - High-percentage submission available immediately upon achieving truck position
 
-- [[Transitions/Twister Finish]] - Primary submission attack accessible from both TSC and truck positions
+- [[Transitions/Twister Entry]] - Primary submission entry transition accessible from both TSC and truck positions targeting spinal lock finish
 
 - [[Transitions/Escape Twister Side Control]] - Defensive technique the opponent uses to prevent this transition from initiating
 

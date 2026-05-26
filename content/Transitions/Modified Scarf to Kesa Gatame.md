@@ -214,9 +214,9 @@ This transition sits at the heart of the side control family's internal flow sys
 
 - [[Transitions/Side Control to Mount]] - Advancement option from the same starting territory
 
-- [[Transitions/Americana]] - Submission available from both source and target positions
+- [[Submissions/Americana]] - Submission available from both source and target positions
 
-- [[Transitions/Kimura]] - Submission that can bait the transition or follow from kesa gatame
+- [[Submissions/Kimura]] - Submission that can bait the transition or follow from kesa gatame
 
 - [[Transitions/Escape Modified Scarf Hold]] - Defensive technique this transition can preempt
 

@@ -198,11 +198,11 @@ The Back Take from 50-50 represents a critical junction point in the modern leg 
 
 - [[Submissions/Inside Heel Hook]] - Primary alternative attack when back take is unavailable
 
-- [[Submissions/Kneebar from 50-50]] - Secondary leg attack option before transitioning
+- [[Transitions/Kneebar entry]] - Secondary leg attack option before transitioning to back take
 
 - [[Positions/Crab Ride]] - Alternative control position during back take transition
 
-- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from achieved back control
+- [[Submissions/Rear Naked Choke]] - Primary submission follow-up from achieved back control
 
 - [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition when back take is defended
 

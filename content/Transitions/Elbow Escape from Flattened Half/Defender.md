@@ -154,6 +154,8 @@ As the top player defending against the elbow escape from flattened half guard, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape from Flattened Half?</p>
+
 - Opponent begins turning their bottom elbow toward the mat and inserting it between your bodies at the hip or shoulder line
 - Opponent's hips begin small lateral movements toward their trapped leg side, indicating hip escape initiation under your pressure
 - Opponent fights aggressively for the underhook on your far side, indicating they are establishing the structural foundation for the escape sequence
@@ -166,6 +168,8 @@ As the top player defending against the elbow escape from flattened half guard, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape from Flattened Half?</p>
 
 - Maintain dynamic forward pressure that follows opponent's hip escape movements rather than remaining static in one fixed position
 - The crossface is your highest-priority control point, preventing the opponent from turning to their side and initiating the escape sequence effectively
@@ -180,6 +184,8 @@ As the top player defending against the elbow escape from flattened half guard, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape from Flattened Half?</p>
 
 ### 1. Drive hips forward to collapse the elbow wedge before it can be consolidated with a hip escape
 
@@ -217,6 +223,8 @@ As the top player defending against the elbow escape from flattened half guard, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape from Flattened Half?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain maximum pressure by following escape attempts with increased forward hip drive, re-establishing chest-to-chest contact whenever the opponent creates space. Use the crossface to prevent them from achieving the side angle needed for the escape sequence to progress.
@@ -232,6 +240,8 @@ Capitalize on the opponent's hip escape movement by timing your knee slice pass 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape from Flattened Half?</p>
 
 ### 1. Remaining static with heavy pressure instead of actively following opponent's hip escape movements with your own positional adjustments
 
@@ -261,6 +271,8 @@ Capitalize on the opponent's hip escape movement by timing your knee slice pass 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape from Flattened Half?</p>
+
 **Phase 1: Pressure Maintenance Under Movement** - Following opponent's hip escapes without losing chest contact
 Partner performs slow hip escapes while you practice following their movement with your hips and chest. Focus on maintaining constant pressure throughout the movement rather than alternating between heavy and light contact. Develop sensitivity to directional changes and the ability to adjust weight distribution in real time.
 
@@ -277,26 +289,6 @@ Begin in flattened half guard and engage in full-resistance positional sparring.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating an elbow escape from flattened half guard?
-**A**: The earliest cue is feeling the opponent's bottom elbow begin to turn toward the mat and press into the space between your hip and their body. This subtle movement precedes the visible hip escape and represents the initial structural wedge insertion. Recognizing this tactile cue through your chest and hip contact allows you to counter before the escape gains momentum by immediately driving your hips forward to collapse the developing frame.
-
-**Q2**: Your opponent successfully creates a small space with their elbow wedge and begins a hip escape - what is your highest-percentage response?
-**A**: Immediately initiate your knee slice pass by driving your trapped knee across their thigh line in the direction of their hip escape. Their lateral movement creates the exact angle you need for the knee slice, and their commitment to the escape means their attention and defensive structure are oriented toward space creation rather than pass defense. This converts their escape attempt into your passing opportunity, which is more effective than simply trying to re-flatten them.
-
-**Q3**: Why is maintaining dynamic pressure more effective than maximum static pressure when defending against the elbow escape?
-**A**: Maximum static pressure allows the opponent to map the pressure distribution and systematically work around it through incremental adjustments. Dynamic pressure that flows and follows their movements prevents them from establishing a predictable escape pattern. When you follow their hip escapes with your own positional adjustments, you deny them the space consolidation that the technique requires, while also preserving your own energy more efficiently.
-
-**Q4**: How do you prevent the opponent from winning the underhook battle during their escape attempt?
-**A**: Drive your near-side shoulder forward and down into their chest while maintaining crossface control with your far arm. If they begin threading their arm for the underhook, immediately apply a whizzer by overhooking their arm and driving your weight through the whizzer to flatten their shoulder back to the mat. The whizzer combined with crossface creates a double control point that makes the underhook functionally useless even if they achieve the grip.
-
-
-
-</section>
 
 
 </main>

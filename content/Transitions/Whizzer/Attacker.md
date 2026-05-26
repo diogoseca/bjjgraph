@@ -188,6 +188,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Whizzer?</p>
+
 - Deep overhook with elbow control creates maximum leverage against opponent's shoulder
 - Hip positioning away from opponent prevents them from completing takedowns or back takes
 - Active shoulder pressure drives opponent's head down and disrupts their base
@@ -203,6 +205,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Whizzer?</p>
+
 - Opponent has established or is attempting to establish an underhook on your body
 - Your arm is free to thread over opponent's underhooking arm at the shoulder
 - Hip mobility to create angle away from opponent's pressure direction
@@ -216,6 +220,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Whizzer step by step?</p>
 
 1. **Identify underhook threat**: Recognize when opponent is establishing or has established an underhook on your torso. This is most common during scrambles, turtle defense, single-leg defense, or standing clinch exchanges. Feel their arm reaching deep around your body or under your armpit.
 2. **Thread the overhook**: Drive your arm over the top of opponent's underhooking arm, threading it through the gap between their arm and their body. Your bicep should connect with the back of their shoulder. Reach as deep as possible, aiming to get your hand past their far shoulder blade for maximum control depth.
@@ -245,6 +251,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Whizzer?</p>
+
 - **Opponent switches to opposite underhook, abandoning their trapped arm** (Effectiveness: High) - Your Response: Follow their rotation and establish front headlock position, or transition to the new Whizzer on their switching arm. Don't hold the abandoned Whizzer - flow with their movement. → Leads to [[Positions/Overhook Control]]
 - **Opponent drives forward aggressively with their legs, using forward pressure to negate Whizzer control** (Effectiveness: Medium) - Your Response: Use their forward momentum to pull them over you into a rolling back take or sweep. Alternatively, sit to butterfly guard and use the Whizzer to control them in your guard structure. → Leads to [[Positions/Back Control]]
 - **Opponent drops their weight and flattens their body, making it difficult to maintain Whizzer leverage** (Effectiveness: Medium) - Your Response: Transition to kimura grip on their trapped arm, or use the Whizzer to roll them to their back. Low posture makes them vulnerable to rolling attacks and leg entanglements. → Leads to [[Positions/Overhook Control]]
@@ -256,6 +264,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Whizzer?</p>
 
 ### 1. Overcommitting weight onto the Whizzer and losing base or mobility
 
@@ -295,6 +305,8 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Whizzer (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Establishing and maintaining basic Whizzer control
 Partner drills starting from standing clinch or turtle position. Partner establishes underhook, you respond with Whizzer. Focus on proper threading depth, elbow position, and hip angle creation. Hold position for 30 seconds while partner attempts light extraction. Repeat 10 times per side.
 
@@ -315,54 +327,12 @@ Training partner uses sophisticated counters: switching underhooks, dropping wei
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage created by a properly executed Whizzer?
-**A**: The Whizzer creates a lever system where your overhook controls the opponent's shoulder joint while your hip angle prevents them from using their underhook to complete their technique. By controlling the top of their arm structure at the shoulder, you have superior leverage over their attempt to control your body with an underhook. The combination of shoulder control and hip angle makes it mechanically impossible for them to finish most underhook-based attacks.
-
-**Q2**: Why must you create a hip angle away from your opponent when establishing a Whizzer?
-**A**: Creating a hip angle (45-90 degrees away from their underhook direction) prevents your opponent from using their underhook to complete takedowns, back takes, or passes. If your hips remain square to them, they can still drive through your Whizzer and finish their technique using their legs and forward pressure. The angle turns your Whizzer from a simple arm tie into a true defensive structure by removing their ability to drive into your center line and generate power through their underhook.
-
-**Q3**: When defending a single-leg takedown with a Whizzer, what are the three key elements that must work together?
-**A**: First, the deep overhook on their shoulder that prevents them from driving forward or lifting your leg. Second, your hip movement backward and away from their grip, creating distance and angle that makes completing the takedown mechanically difficult. Third, your free hand controlling their head or cross-facing to break their posture and further limit their mobility. All three elements working together create an escape system where the Whizzer is the foundation but not the complete solution.
-
-**Q4**: What is the most common mistake when transitioning from Whizzer control to taking the back?
-**A**: The most common mistake is releasing the Whizzer too early before establishing proper back control grips, allowing the opponent to turn into you or recover their defensive posture. The correct sequence is to maintain the Whizzer while stepping your leg behind theirs, controlling their head with your free hand, and establishing your first back control grip (typically the far arm or neck control) before releasing the Whizzer and completing your second grip for full back control. Releasing the Whizzer prematurely loses all the control you worked to establish.
-
-**Q5**: How should you respond if your opponent switches their underhook to the opposite side while you have a Whizzer established?
-**A**: Do not hold onto the abandoned Whizzer. Instead, immediately follow their rotation and either establish a new Whizzer on their switching arm, or transition to a front headlock position as they turn. Holding a Whizzer on an arm they've abandoned gives them free movement and often leads to them taking your back. Flowing with their switch and maintaining connection through the transition is key - treat their switch as an opportunity to advance position rather than a defensive reset.
-
-**Q6**: Why is the Whizzer considered a transitional control rather than a dominant position?
-**A**: The Whizzer is transitional because it primarily neutralizes opponent's attacks and creates opportunities but does not score points or provide submission opportunities by itself. It is a control that should lead to back takes, kimuras, sweeps, or returning to neutral rather than being held statically. Holding a Whizzer indefinitely expends energy without advancing your position and gives your opponent time to find counters. The most effective use is recognizing when the Whizzer has achieved its purpose (stopping their attack, breaking their base) and immediately transitioning to a dominant position or submission setup.
-
-**Q7**: What is the optimal timing window for establishing the Whizzer against a single-leg takedown attempt?
-**A**: The optimal window is the moment the opponent's arm commits to the underhook or single-leg grip, before they have loaded your weight onto their shoulder and driven their hips underneath you. If you establish the Whizzer while they are still reaching or in the initial penetration step, you catch them with their base extended and their posture vulnerable. Waiting until they have fully secured the single-leg and loaded your weight makes the Whizzer far less effective because they already have mechanical advantage through hip positioning. Early recognition and immediate threading of the overhook before they consolidate their grip is the critical timing element.
-
-**Q8**: Your opponent has their head on the inside during your Whizzer - how does this change your grip requirements?
-**A**: When the opponent's head is on the inside (between your Whizzer arm and your body), your free hand should immediately control the back of their head by cupping it or cross-facing to prevent them from posturing. Your Whizzer grip should be deeper than normal, reaching past their shoulder blade to maximize control since their head position gives them a stronger base. The inside head position also opens guillotine and front headlock opportunities with your free hand, so your grip should be ready to transition from head control to a choking grip if they drop their head lower. Never allow inside head position without active head control from your free hand.
-
-**Q9**: What direction of force should the Whizzer arm apply, and why is downward pressure more important than lateral pulling?
-**A**: The Whizzer arm should apply force primarily downward and slightly backward, driving the opponent's shoulder toward the mat rather than pulling laterally across your body. Downward pressure breaks their posture by collapsing their shoulder structure, forcing their head down and removing their ability to drive forward with power. Lateral pulling creates a tug-of-war that the opponent can resist with their body weight and often pulls you off-balance as well. The downward vector exploits gravity and your skeletal alignment, requiring minimal muscular effort while producing maximum structural disruption in the opponent's base.
-
-**Q10**: Your Whizzer is established but your opponent posts their far hand on the mat to prevent the back take - how do you adjust?
-**A**: When the opponent posts their far hand, they have committed that arm to base rather than defense. Use your free hand to control or trap their posting arm by reaching underneath and grabbing their wrist or elbow. Alternatively, increase downward Whizzer pressure to collapse their posting arm, then immediately step your far leg behind them as their base crumbles. You can also switch to a two-on-one grip by releasing the Whizzer and catching their posting arm for an arm drag, since they cannot retract the posting arm quickly without losing their base entirely. The post creates a temporary obstacle but exposes their arm to multiple attacks.
-
-**Q11**: If your initial back take attempt from the Whizzer is blocked, what chain attacks are available without releasing the overhook?
-**A**: Without releasing the Whizzer, you can transition to a kimura by adjusting your grip to catch their wrist while your overhook maintains shoulder control. You can increase downward pressure and switch to a front headlock or snap-down if they posture against your back take. From the front headlock position, darce and anaconda choke entries become available. You can also use the Whizzer to execute a lateral sweep by stepping your near leg behind their knee while driving their shoulder sideways. The key is maintaining the overhook as your base control while cycling through different finishing directions based on where the opponent distributes their weight in response to each threat.
-
-**Q12**: During a scramble, you establish a Whizzer but your opponent immediately begins circling toward their trapped arm side - what does this indicate and how should you respond?
-**A**: Circling toward the trapped arm side indicates the opponent is trying to rotate their shoulder out of the Whizzer by decreasing the angle of your overhook. This is a limp-arm escape in motion. You must follow their circle by stepping with them and maintaining hip angle relative to their movement direction, not relative to the ground. As they circle, use your free hand to control their far hip or head to prevent the full rotation. If they commit to the circle, accelerate past them and transition directly to back control by stepping behind them as they turn. Their circling motion actually exposes their back if you move faster than they rotate. Never let them circle without matching or exceeding their movement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Whizzer?</p>
 
 The Whizzer is generally a safe technique when applied properly, as it focuses on positional control rather than joint manipulation or choking. However, practitioners should be aware that over-rotating the opponent's shoulder while maintaining the Whizzer can place stress on their rotator cuff and shoulder joint. Release pressure if your partner taps or indicates discomfort in their shoulder. When drilling Whizzer transitions to kimura, ensure smooth transition between controls without cranking the shoulder suddenly. In live training, avoid using the Whizzer to force opponent's arm into dangerous positions - the control should be based on leverage and position, not raw shoulder torque. Be particularly careful when combining Whizzer control with leg entanglements, as this can create unusual joint angles.
 

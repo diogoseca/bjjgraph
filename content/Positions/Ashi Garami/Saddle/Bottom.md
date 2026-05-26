@@ -173,6 +173,8 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Position Definition
 
+<p class="section-subtitle">What is Saddle (Bottom)?</p>
+
 - Your leg is entangled by opponent's legs with your heel exposed toward their chest, creating immediate submission danger to the heel, knee, and ankle joints through mechanical rotation and extension
 - Opponent is positioned perpendicular to your body with their hips pressuring into your trapped leg, preventing hip rotation and limiting your ability to face them or turn away from the entanglement
 - Your mobility is severely restricted with one leg completely controlled, forcing all defensive actions to come from your upper body, free leg, and limited hip movement while avoiding actions that further expose vulnerable joints
@@ -183,6 +185,8 @@ Understanding common submission mechanics from Saddle is essential for defensive
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Saddle (Bottom)?</p>
 
 - Opponent has achieved perpendicular positioning to your body while controlling one of your legs
 - Your heel is exposed and oriented toward opponent's chest or armpit
@@ -195,6 +199,8 @@ Understanding common submission mechanics from Saddle is essential for defensive
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Saddle?</p>
 
 - Protect the heel above all else—any heel exposure dramatically increases submission probability
 - Never explosively pull the leg away—creates kinetic energy that magnifies joint damage
@@ -210,14 +216,16 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Saddle (Bottom)?</p>
+
 **Opponent has established heel control with figure-four grip but hasn't yet extended the heel:**
 - Execute **[[Hide the heel by rotating knee inward/Attacker|Hide the heel by rotating knee inward]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 - Execute **[[Attack opponent's grips systematically/Attacker|Attack opponent's grips systematically]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Tap if rotation begins/Attacker|Tap if rotation begins]]** → [[Positions/Game Over]] (Probability: 25%)
+- Execute **[[Tap if rotation begins/Attacker|Tap if rotation begins]]** → [[game-over]] (Probability: 25%)
 
 
 **Opponent is actively extending the heel with rotation:**
-- Execute **[[Tap immediately to prevent injury/Attacker|Tap immediately to prevent injury]]** → [[Positions/Game Over]] (Probability: 90%)
+- Execute **[[Tap immediately to prevent injury/Attacker|Tap immediately to prevent injury]]** → [[game-over]] (Probability: 90%)
 - Execute **[[Emergency hip clear with frame/Attacker|Emergency hip clear with frame]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 10%)
 
 
@@ -239,6 +247,8 @@ Understanding common submission mechanics from Saddle is essential for defensive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Saddle?</p>
 
 ### 1. Explosively pulling trapped leg away from opponent when heel is controlled
 
@@ -273,6 +283,8 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Saddle defense?</p>
+
 ### Saddle Escape Hierarchy Drill
 
 Partner establishes saddle with progressively tighter control (loose, medium, tight). Practice systematic defense protocol: hide heel, clear hip, create frame, extract leg. Reset between each level.
@@ -280,7 +292,7 @@ Partner establishes saddle with progressively tighter control (loose, medium, ti
 **Duration**: 5 minutes
 
 
-### Grip Fighting from Bottom Saddle
+### Grips from Bottom Saddle
 
 Start in saddle with specific grip configurations. Defender practices breaking grips and preventing reestablishment while partner maintains position without advancing to submission.
 
@@ -305,38 +317,6 @@ Partner alternates between heel hook and ankle lock threats. Practice transition
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins extending your heel with rotational pressure—what is your immediate response?
-**A**: If the submission is locked with rotation already applied, tap immediately to prevent knee ligament damage. If you still have some heel protection or the rotation is just beginning, attempt an emergency hip clear by posting with your free leg and explosively moving your body toward the opponent rather than pulling your leg away. This reduces joint stress while creating angles. However, recognize that once heel hook mechanics are engaged, the window for escape is extremely small—prioritize safety over ego.
-
-**Q2**: What are the essential defensive grips for preventing heel hook finishes from bottom saddle?
-**A**: Your primary grip defense involves using both hands to control your own foot and ankle, preventing the opponent from rotating your heel. Grab your own shin or ankle to create a barrier. If the opponent has already established heel grip, use two-on-one grip fighting to strip their control at the thumbs. Secondary defense involves framing on their hip with your free leg to prevent them from tightening the position.
-
-**Q3**: How do you shut down an opponent's ability to finish when they have saddle but haven't yet secured the heel?
-**A**: Hide the heel by rotating your knee inward toward your centerline while keeping your foot flexed. This makes the heel difficult to access but exposes your ankle to straight ankle lock. Use your hands to protect the ankle/foot area while your free leg frames on their hip to prevent them from improving position. The goal is to create a defensive stalemate where they cannot finish, buying time to work escapes.
-
-**Q4**: What is the correct sequence for escaping saddle without exposing yourself to greater danger?
-**A**: The hierarchy is: 1) Protect heel by hiding it, 2) Address opponent's grips with systematic grip fighting, 3) Clear their hip pressure by framing and creating angles, 4) Only after hip pressure is reduced, begin leg extraction by moving your body toward them, not pulling leg away. Violating this sequence—especially attempting extraction before clearing hip pressure—dramatically increases injury risk.
-
-**Q5**: How should you use your free leg defensively while trapped in saddle?
-**A**: Your free leg should frame on the opponent's hip to prevent them from achieving optimal perpendicular positioning. Push against their hip to reduce their ability to apply pressure and rotation. The free leg can also be used to create posts that help you shift your body position. Never use the free leg to push explosively without purpose, as this wastes energy and may help them tighten control.
-
-**Q6**: Your opponent switches from heel hook attack to straight ankle lock after you hide your heel—what adjustment do you make?
-**A**: When defending ankle lock, pull your toes back and rotate your foot to point your toes away from their armpit. This reduces the lever arm for the ankle lock. However, recognize this re-exposes your heel—you're managing a submission dilemma. Continue working grip breaks and hip clears while managing which attack you're exposed to. The goal is to survive long enough to escape, not to create perfect defense against any single attack.
-
-**Q7**: How do you manage energy expenditure when trapped in saddle against a patient opponent?
-**A**: Avoid the trap of continuously fighting explosively against superior control. Make deliberate, technical movements rather than panicked struggles. Focus on incremental improvements: small grip fights, minor angle changes, gradual hip movement. Accept that escape may take time and conserve energy for moments when opportunities arise. Explosive movements should be reserved for when you've created genuine escape openings, not as constant resistance.
-
-**Q8**: What recovery protocol do you use if your escape attempt fails and the opponent re-tightens control?
-**A**: Return to the defensive hierarchy immediately: re-protect the heel, address any grips they've re-established, and frame to prevent further tightening. Do not compound a failed escape with continued movement that could worsen your position. Recognize that you may need to restart the escape sequence from the beginning. Each failed attempt teaches you about this specific opponent's control and reactions—use that information in subsequent attempts.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

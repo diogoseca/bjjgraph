@@ -162,6 +162,8 @@ As the defender against the Double Sleeve to Spider transition, your objective i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Sleeve to Spider?</p>
+
 - Opponent's foot begins sliding upward from your hip along the inside of your arm toward the bicep or elbow crease
 - Increased pulling tension on your sleeves as the opponent attempts to extend your arms and bring biceps within foot range
 - Opponent's hips angle to one side, indicating they are preparing to transition the foot on that side first
@@ -174,6 +176,8 @@ As the defender against the Double Sleeve to Spider transition, your objective i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve to Spider?</p>
 
 - Recognize early indicators of the transition attempt—foot sliding upward from hip, increased sleeve tension, hip angle adjustments
 - Keep elbows tight to your body to prevent foot placement on biceps, denying the bottom player the contact points they need
@@ -188,6 +192,8 @@ As the defender against the Double Sleeve to Spider transition, your objective i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Sleeve to Spider?</p>
 
 ### 1. Strip sleeve grip during foot transition
 
@@ -225,6 +231,8 @@ As the defender against the Double Sleeve to Spider transition, your objective i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Sleeve to Spider?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time a grip strip during the transition window when the opponent's feet are between positions. Break one sleeve grip using a two-on-one break or wrist rotation, then immediately establish your own grips on their pants and begin a passing sequence before they can re-establish sleeve control.
@@ -240,6 +248,8 @@ Prevent the transition entirely by keeping elbows tight, maintaining strong post
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve to Spider?</p>
 
 ### 1. Allowing arms to extend forward when opponent pulls sleeves
 
@@ -269,6 +279,8 @@ Prevent the transition entirely by keeping elbows tight, maintaining strong post
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Sleeve to Spider?</p>
+
 **Phase 1: Recognition** - Identifying transition cues
 Partner performs the Double Sleeve to Spider transition at slow speed while you identify the visual and tactile cues. Call out each cue as you feel it—sleeve tension changes, foot sliding, hip adjustments. Build pattern recognition before adding defensive responses.
 
@@ -285,29 +297,6 @@ Positional sparring where the bottom player starts in double sleeve guard and at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the Double Sleeve to Spider transition?
-**A**: The earliest cue is a change in sleeve pulling direction—shifting from horizontal pulls toward their hips to slightly downward pulls that aim to extend your arms. This precedes the foot movement and signals their intention to bring your biceps into foot range. The foot sliding upward from the hip is a secondary cue that confirms the transition, but by then you have less time to react preemptively.
-
-**Q2**: Why is the transition window your most effective defensive opportunity?
-**A**: During the transition window, the opponent's feet are between positions—no longer controlling your hips and not yet established on your biceps. Their defensive structure has a momentary gap because they have reduced their contact points from two (feet on hips plus sleeve grips) to one (sleeve grips only). This is when grip strips and forward pressure are most effective because there are no leg frames to stop your advancement.
-
-**Q3**: How should you adjust your arm position when you feel increased pulling tension on your sleeves?
-**A**: Immediately pin your elbows to your ribs and engage your back muscles to retract your arms. Sit your hips back and straighten your spine to create posture-based resistance rather than arm-based resistance. This positions your biceps behind your forearms and beyond the reach of their feet, requiring them to pull significantly harder to create the arm extension they need for foot placement.
-
-**Q4**: Your opponent successfully places one foot on your bicep—what immediate action prevents full spider guard establishment?
-**A**: Circle toward the hooked side while simultaneously working to strip the sleeve grip on that side. Circling reduces the hook's effectiveness because the angle change shortens their leg line and compromises their extension. While addressing that hook, keep your other elbow pinned to prevent the second hook. If you can strip the grip on the hooked side, the foot loses its controlling connection and can be pushed off easily.
-
-**Q5**: What passing strategy should you employ if you successfully strip grips during the transition window?
-**A**: Immediately establish your own grips on their pants at the knees and drive forward with controlled pressure. The opponent is in a transitional state with feet between positions and at least one grip broken—this is the optimal passing window. Toreando pass or leg drag pass are the highest-percentage options because you can redirect their legs before they re-establish any guard structure. Do not pause after the grip strip—immediate forward advancement is critical.
-
-
-
-</section>
 
 
 </main>

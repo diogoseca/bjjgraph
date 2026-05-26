@@ -15,7 +15,7 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Clock Choke",
       "probability": 58,
       "result": "success"
     },
@@ -207,7 +207,7 @@
         "description": "Apply Clock Choke in positional sparring starting from turtle. Progress to full sparring where you must create the turtle situation and execute the technique against fully resisting opponents. Track success rate and identify patterns in failed attempts."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is thumb-inside collar grip essential for the Clock Choke?",
         "answer": "The thumb-inside grip positions the gi material correctly against the opponent's neck to compress the carotid arteries. With thumb outside, the grip tends to slide or create an air choke rather than a blood choke. The thumb-inside placement also provides a more secure grip that resists being stripped during the rotation, which is critical since the choke depends on maintaining collar tension throughout the walking arc."
@@ -337,7 +337,7 @@
         "correction": "Tap early when you feel the sprawl land and the collar tighten across both sides of your neck—if the grip is deep and the angle is perpendicular, the choke is likely finishing and further defense wastes safety margin"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical defensive window for preventing the Clock Choke?",
         "answer": "The most critical window is during initial collar grip establishment, before the attacker's thumb sinks deep inside the collar. At this stage, a two-on-one grip strip can completely nullify the attack. Once the grip is deep and the attacker begins walking perpendicular, escape probability drops significantly because the choking mechanism is already in place and only needs body weight to finish."

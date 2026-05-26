@@ -16,7 +16,7 @@
   "from_position": "North-South/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "North-South Choke",
       "probability": 55,
       "result": "success"
     },
@@ -235,7 +235,7 @@
         "description": "Implement in positional sparring starting from side control or North-South. Focus on recognizing when opponents create the opening for the choke by defending arm attacks. Test against fully resisting partners of varying skill levels and body types."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanism of the North-South Choke and how does it differ from air chokes?",
         "answer": "The North-South Choke is a bilateral blood choke that compresses both carotid arteries simultaneously, cutting off blood flow to the brain. Your bicep compresses one carotid from below while your chest pressure on the opponent's face seals the other side. Unlike air chokes that restrict breathing through tracheal compression and take longer to produce unconsciousness, this blood choke can render an opponent unconscious within 5-10 seconds when both carotids are fully sealed."
@@ -360,7 +360,7 @@
         "correction": "Keep your chin tucked firmly toward your chest throughout North-South defense. Use tactile cues from the attacker's arm movement rather than visual confirmation to guide your defensive timing."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a North-South Choke is being set up and why must you act immediately?",
         "answer": "The earliest cue is feeling the attacker begin sliding one arm under your neck from the side while their other hand moves to control your far arm. You must act immediately because the window for effective defense is extremely short. Once the arm is threaded deep and the attacker drops their ear to your chest, the choke can be sealed within 2-3 seconds. Defending during the threading phase requires far less energy and has a much higher success rate than defending after the compression begins."

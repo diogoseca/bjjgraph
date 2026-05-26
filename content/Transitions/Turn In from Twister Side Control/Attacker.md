@@ -188,6 +188,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turn In from Twister Side Control?</p>
+
 - Frame before rotating - establish structural barriers at opponent's shoulder and hip before initiating any hip movement to prevent re-flattening
 - Hip rotation must lead shoulder movement - driving the far hip to the mat initiates the turn while maintaining frame integrity
 - Protect the near arm throughout the turn - the near arm must either create frames or swim for an underhook, never dangling free where it can be trapped
@@ -202,6 +204,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turn In from Twister Side Control?</p>
+
 - At least one arm positioned to create a structural frame against opponent's shoulder or hip
 - Sufficient hip mobility remaining to initiate inward rotation despite leg entanglement
 - Opponent's twister finish not fully locked - spine still has rotational freedom to turn inward
@@ -214,6 +218,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turn In from Twister Side Control step by step?</p>
 
 1. **Establish Initial Frames**: Position your forearms against the opponent's shoulder and hip to create structural barriers that prevent them from driving weight forward and consolidating control. Use bent-elbow frames connected to your own body for maximum structural integrity rather than pushing with extended arms.
 2. **Create Space with Controlled Bridge**: Execute a controlled bridge, elevating your hips slightly off the mat to disrupt the opponent's weight distribution and create the initial separation needed to begin hip rotation. This is not a reversal bridge but a space-creation tool that temporarily lifts you off the mat.
@@ -243,6 +249,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turn In from Twister Side Control?</p>
+
 - **Opponent increases shoulder pressure and drives near shoulder to mat to prevent frame establishment** (Effectiveness: High) - Your Response: Use forearm wedge frames connected to your own hip rather than extended arms, creating compact barriers that resist heavy pressure through structural alignment rather than muscular strength → Leads to [[Positions/Twister Control/Twister Side Control]]
 - **Opponent steps over to mount as you create space during the rotation** (Effectiveness: High) - Your Response: Immediately insert knee shield the moment any leg comes free, prioritizing the knee barrier over completing the full turn. If mount is imminent, abandon the turn-in and address mount defense directly → Leads to [[Positions/Mount]]
 - **Opponent deepens leg entanglement by re-hooking during extraction attempt** (Effectiveness: Medium) - Your Response: Pause leg extraction and refocus on maintaining frames and facing position, then reattempt extraction with smaller incremental movements that give less space for re-hooking → Leads to [[Positions/Twister Control/Twister Side Control]]
@@ -254,6 +262,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turn In from Twister Side Control?</p>
 
 ### 1. Attempting to turn in without establishing frames first, rotating directly into the opponent's pressure
 
@@ -293,6 +303,8 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turn In from Twister Side Control (Attacker)?</p>
+
 **Phase 1: Solo Movement Mechanics** - Hip rotation and frame placement
 Practice the turn-in movement without a partner, focusing on the hip rotation sequence, frame positioning, and knee shield insertion timing. Drill the movement pattern until each step flows naturally and the hip-leading rotation becomes automatic.
 
@@ -313,42 +325,12 @@ Practice flowing between the turn-in, frame escape, and rolling escape based on 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent drives heavy shoulder pressure as you begin to create frames for the turn-in - how do you establish frames despite this resistance?
-**A**: Use compact forearm wedge frames with bent elbows connected directly to your own hip and ribcage rather than extending arms against the pressure. These structural frames redirect force through skeletal alignment rather than fighting muscular pressure directly. The shortened frame length makes them significantly harder to collapse. Once the compact frame is established, use small hip movements to incrementally widen the space rather than trying to push the opponent away.
-
-**Q2**: What conditions must exist before attempting the turn-in escape from twister side control?
-**A**: Four conditions must be present: at least one arm must be free to create frames, sufficient hip mobility must remain to initiate inward rotation despite the leg entanglement, the opponent must not have fully locked the twister finish with maximum spinal torque, and you must have enough energy reserves for the sustained multi-step sequence. If the twister is fully locked, you should tap rather than force the escape and risk spinal injury.
-
-**Q3**: Why must hip rotation lead shoulder movement during the turn-in rather than the reverse?
-**A**: When the hips lead, the rotation generates structural change in the body's position relative to the opponent, moving the center of mass and creating genuine mechanical separation. When shoulders lead without hip involvement, the result is a twisted spine that actually worsens twister vulnerability by creating the exact rotation the opponent needs for the submission. Hip-first rotation maintains spinal alignment throughout the turn and generates the base change needed for leg extraction.
-
-**Q4**: You have successfully turned to face your opponent but your near leg is still entangled - what is your immediate priority?
-**A**: Maintain your underhook and frames to hold the facing position while working on incremental leg extraction using small circular hip movements and knee extension. Do not attempt a single explosive leg pull, as this often results in the opponent re-hooking deeper. Use the improved hip angle from the turn to create small spaces in the entanglement, systematically working the hook loose while preserving your upper body position. The leg will come free through persistence, not force.
-
-**Q5**: What is the critical frame placement that prevents the opponent from re-flattening you during the rotation?
-**A**: The primary frame goes against the opponent's near shoulder, blocking their ability to drive their chest into yours and collapse you back flat. The secondary frame controls the hip or ribcage to manage distance. Both frames must use bent elbows connected to your own body for structural integrity. The shoulder frame is the more critical of the two because re-flattening begins with the opponent driving shoulder pressure, so blocking this vector preserves your facing position.
-
-**Q6**: Your opponent begins stepping over to mount as you create space during the turn-in - how do you counter this advancement?
-**A**: Immediately abandon completing the turn-in and prioritize inserting your knee across the opponent's midsection as a barrier. The knee shield is the critical tool for preventing mount advancement. If you can get your shin across their body before their leg clears, you block the mount transition and establish a knee shield half guard position. If they are already committed to the step-over, use your frames to push their hips back and create space for the knee insertion.
-
-**Q7**: What grip or underhook should you establish during the turning motion and why is it essential?
-**A**: The near-side underhook is the primary grip priority during the turn. As your body rotates inward, swim your near arm underneath the opponent's arm to establish an underhook that serves three critical functions: it anchors your new facing position preventing re-flattening, it creates a structural control point that limits the opponent's ability to drive forward, and it establishes the foundation for offensive half guard play once the escape is completed. Without the underhook, the opponent can easily collapse you back flat.
-
-**Q8**: Your first turn-in attempt is blocked and you are pushed back flat - what is your recovery sequence?
-**A**: First, protect your spine by re-establishing hand positioning that blocks rotational torque. Second, assess why the attempt failed and whether the opponent has tightened their control. Third, rebuild your frames using the compact forearm wedge position. Fourth, consider whether the turn-in remains viable or whether switching to an alternative escape direction such as the rolling escape or frame escape would exploit the opponent's current positioning. Alternate between escape directions to prevent the opponent from anticipating your next attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turn In from Twister Side Control?</p>
 
 The turn-in escape involves significant pressure on the neck, shoulders, and spine throughout the rotation. Never force the rotation if you feel sharp or shooting pain in the cervical spine, as the twister position inherently stresses spinal structures. If the opponent has achieved a deep twister grip with full spinal torque, tap immediately rather than attempting the escape and risking disc injury. During training, communicate clearly with your partner about resistance levels and use incremental resistance progression. Practice the turn-in movement slowly before adding resistance to develop proper hip-leading mechanics and avoid neck strain from shoulder-first rotation.
 

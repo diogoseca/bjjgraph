@@ -244,7 +244,7 @@
         "description": "Integrate the sweep into live rolling from Matrix bottom. Chain with back take attempts and guard recovery options based on opponent reactions. Focus on decision-making between sweep, back take, and guard pull based on real-time feedback from opponent's defensive responses."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Matrix?",
         "answer": "The optimal timing window occurs when the opponent settles into a static top position or during their weight transition between movements. Watch for moments when they stop adjusting their base, commit weight to one direction, or reach for grips. Their momentary stability or directional commitment creates the leverage window needed. Attempting the sweep while they are actively adjusting base makes the technique significantly harder as they can shift weight in real-time to counter the sweeping force."
@@ -369,7 +369,7 @@
         "correction": "Immediately transition to offense after successful defense—attack with passes, submissions, or position advancement while the opponent is structurally compromised and energy-depleted from their failed sweep"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is setting up a Sweep from Matrix rather than a standard back take?",
         "answer": "The sweep produces a directional pulling force through grips rather than the circular rotation of the standard Matrix back take. Watch for hip elevation combined with grip tightening on your belt or hip where the pulling direction is lateral or perpendicular rather than rotational. The shoulder posting is also different—the sweep uses the shoulder as a fixed fulcrum rather than a rolling contact point. These distinctions appear in the first fraction of a second and provide crucial reaction time."
@@ -403,7 +403,7 @@
         "description": "Partner initiates sweep attempts from Matrix bottom while you practice immediate base widening and directional weight shifting. Focus on speed of defensive adjustment to prevent the sweep from developing meaningful momentum. Execute 15-20 repetitions per round."
       },
       {
-        "phase": "Phase 3: Grip Fighting Defense",
+        "phase": "Phase 3: Grips Defense",
         "focus": "Breaking grip connections before sweep initiation",
         "description": "Partner establishes sweeping grips from Matrix bottom while you practice stripping belt and hip connections. Develop sensitivity to grip tension changes that indicate sweep setup and practice immediate grip breaking responses."
       },

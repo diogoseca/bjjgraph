@@ -3,35 +3,56 @@
 
 
 ---
-title: "Belly Down Armbar | BJJ Submission | BJJ Graph"
-description: "Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle/scrambles, and finishing mechanics. Success: 30/50/70%."
+title: "Belly Down Armbar | BJJ Submission Family | BJJ Graph"
+description: "Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle and scrambles, and finishing mechanics for this high-percentage joint lock."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Belly Down Armbar targets the Elbow joint and shoulder girdle. Risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Belly Down Armbar/Attacker|Play as Attacker]]
-[[Belly Down Armbar/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Belly Down Armbar/from Armbar Control|Armbar Control]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Kesa Gatame|Kesa Gatame]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Knee on Belly|Knee on Belly]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Lasso Guard|Lasso Guard]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Mission Control|Mission Control]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Modified Scarf Hold|Modified Scarf Hold]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Mounted Crucifix|Mounted Crucifix]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Mounted Triangle|Mounted Triangle]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from New York|New York]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Open Guard|Open Guard]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Scarf Hold Position|Scarf Hold Position]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Side Control|Side Control]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Spider Guard|Spider Guard]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+| [[Belly Down Armbar/from Turtle|Turtle]] | 60% | Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears) |  |
+| [[Belly Down Armbar/from Williams Guard|Williams Guard]] | 50% | Elbow hyperextension with ligament damage to the ulnar collateral ligament |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
-The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable. The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.
+The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable.
+
+The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.
 
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint and shoulder girdle
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 60% (average across variants)
 
 </section>
 
@@ -74,139 +95,10 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Turtle]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Arm isolation and control - secure the wrist and upper arm b... | Prevent arm isolation above all else - keep elbows tight to ... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Belly Down Armbar/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Arm isolation and control - secure the wrist and upper arm before committing to the finish
-
-- Hip pressure against opponent's shoulder - prevents rolling escape and maintains arm extension
-
-- Body connection maintenance - keep your chest/torso connected to opponent's back/side throughout
-
-- Elbow orientation control - ensure opponent's elbow faces upward before applying extension
-
-- Progressive pressure application - gradually increase extension allowing time for tap response
-
-- Angle management - position your hips perpendicular to opponent's arm for maximum leverage
-
-- Shoulder immobilization - control the shoulder girdle to prevent defensive rotation
-
-
-### Execution Steps
-
-
-- **Arm isolation from turtle position**: As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defe...
-
-- **Drop weight across shoulder**: While maintaining wrist control with your outside hand, drop your chest and bodyweight across the op...
-
-- **Hip positioning and leg configuration**: Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but...
-
-- **Elbow orientation and final grip adjustment**: Ensure the opponent's thumb is pointing upward and their elbow joint is facing toward the ceiling - ...
-
-- **Hip drive and arm extension initiation**: With grips secured and elbow properly oriented, begin driving your hips down and forward toward the ...
-
-- **Finish and control maintenance**: Continue hip pressure and wrist pull until you feel the arm reach full extension or the opponent tap...
-
-
-### Common Mistakes
-
-
-- **Attempting the submission without proper shoulder control**
-  - Consequence: Opponent easily rolls through the position, escaping to safety or reversing position while you lose the isolated arm
-  - Correction: Always establish heavy chest and shoulder pressure before committing to the arm extension. Your bodyweight should pin their shoulder blade to the mat, making rolling nearly impossible.
-
-- **Incorrect elbow orientation (thumb pointing down or to the side)**
-  - Consequence: Submission becomes ineffective and places dangerous torque on the shoulder joint instead of controlled pressure on the elbow. Can cause shoulder injury instead of clean tap from elbow pressure.
-  - Correction: Before applying extension, verify the thumb points toward the ceiling and the elbow pit faces upward. Adjust the arm orientation before committing to the finish. The natural completion should feel like straightening the arm, not twisting it.
-
-- **Explosive or jerking application of the arm extension**
-  - Consequence: High risk of serious elbow injury including complete ligament tears, dislocations, or bone damage. Opponent may not have time to tap before injury occurs.
-  - Correction: Apply pressure progressively over 3-5 seconds minimum in training. Think 'squeeze and extend' not 'snap and break.' Competition application can be faster but still must allow tap response time. This is a joint lock, not a strike.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Belly Down Armbar/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent arm isolation above all else - keep elbows tight to your body and avoid posting with extended arms when in turtle
-
-- Recognize the attack early by feeling chest weight landing on your shoulder blade and hands gripping your wrist
-
-- Move immediately when you feel arm isolation beginning - static defense accelerates submission completion
-
-- Roll toward the attacker rather than away to disrupt their hip angle and create space for arm recovery
-
-- Keep the elbow bent and pull the wrist toward your body to deny the straight-arm position needed for the finish
-
-- Use your free arm to post and create bridging power to disrupt the attacker's base and weight distribution
-
-
-### Recognition Cues
-
-
-- Opponent secures two-on-one grip on your wrist while positioned behind or beside you in turtle
-
-- Heavy chest pressure lands on your shoulder blade as opponent drops their bodyweight across your upper back
-
-- Your arm is being pulled away from your body at an angle while your shoulder becomes pinned to the mat
-
-- Opponent's hips shift perpendicular to your extended arm as they transition from back control to armbar position
-
-
-### Escape Paths
-
-
-- Roll through toward the attacker while keeping elbow bent, transitioning to closed guard or half guard where the belly down mechanics no longer apply
-
-- Explosive arm retraction combined with hip movement to return to tight turtle, then immediately work to recover guard or stand up before attacker resets
-
-- Sit-through escape by threading the near-side leg and turning to face the attacker, converting to a guard position that neutralizes the arm attack
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **From failed back take or seatbelt control**: When attacking the back and opponent defends by turtling, they often post an arm to prevent you from securing the second hook. This posted arm becomes an ideal target for the belly down armbar. Transition from your back attack attempt by releasing your lower hook, dropping your weight across their shoulder, and immediately attacking the posted arm with both hands. (When to use: When back control is defended and opponent turtles with an extended posting arm)
@@ -227,13 +119,29 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 ## From Which Positions?
 
 - [[Positions/Turtle]]
-- [[Positions/Scramble Position]]
+- [[Positions/Standing Position]]
 - [[Positions/Front Headlock]]
 - [[Positions/Crucifix]]
 - [[Positions/Back Control]]
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
+- [[Positions/Armbar Control]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Mount/Mounted Triangle]]
+- [[Positions/Rubber Guard/New York]]
+- [[Positions/Open Guard]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Spider Guard]]
+- [[Positions/Williams Guard]]
 
 
 </section>
@@ -242,17 +150,15 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 ## Related Submissions
 
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Armbar from Guard]]
-- [[Submissions/Armbar from Side Control]]
-- [[Submissions/Armbar from Back]]
-- [[Submissions/Far Side Armbar]]
-- [[Transitions/Kimura]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Americana]] - Alternative shoulder lock from similar top control positions
+- [[Submissions/Flying Armbar]] - Dynamic armbar variation that can transition to belly down when defended
+- [[Submissions/Bicep Slicer]] - Compression lock that chains when opponent bends arm to defend armbar
+- [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
+- [[Submissions/Kimura]] - Alternative arm lock from same position creating submission combinations
+- [[Transitions/Guillotine Choke]] - Choke option from front headlock that chains with armbar attempts
+- [[Transitions/Arm Triangle]] - Head and arm choke accessible from similar turtle attack positions
+- [[Transitions/Anaconda Choke]] - Alternative submission from front headlock and turtle top positions
+- [[Transitions/Darce Choke]] - Arm-in choke that chains from similar turtle attack sequences
 
 
 </section>
@@ -262,15 +168,12 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 ## Additional Related Content
 
 - [[Positions/Turtle]] - Primary starting position where opponent is most vulnerable to this submission
-- [[Submissions/Armbar from Mount]] - Traditional armbar variation that can transition to belly down position if defended with stacking
-- [[Transitions/Kimura]] - Alternative arm lock from same position creating submission combinations
-- [[Positions/Back Control]] - Common attack when this position is defended; back take opportunities emerge if armbar fails
-- [[Positions/Crucifix]] - Alternative control position when attacking turtle; can transition between crucifix and belly down armbar
+- [[Positions/Mount]] - Position where traditional armbars can transition to belly down variant when defended with stacking
+- [[Positions/Back Control]] - Common alternative attack when belly down armbar is defended from turtle
+- [[Positions/Crucifix]] - Alternative control position when attacking turtle that can transition to armbar
 - [[Positions/Front Headlock]] - Setup position where opponent's defensive reactions expose arms for belly down armbar
-- [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
-- [[Positions/Armbar Control]] - Control position for maintaining arm isolation before finishing
-- [[Positions/Scramble Position]] - Dynamic transitional state where belly down armbar opportunities frequently emerge
-- [[Transitions/Anaconda Choke]] - Alternative submission from front headlock that can chain with armbar attempts
+- [[Positions/Armbar Control]] - Control position for maintaining arm isolation before finishing belly down armbar
+- [[Positions/Standing Position]] - Dynamic transitional state where belly down armbar opportunities frequently emerge
 
 
 </section>

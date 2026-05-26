@@ -179,6 +179,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ## Position Definition
 
+<p class="section-subtitle">What is Collar Sleeve Guard (Top)?</p>
+
 - Top player maintains upright posture with hips back and chest elevated, preventing the bottom player's collar grip from pulling them forward into broken posture where their base becomes compromised and sweep vulnerabilities increase dramatically
 - Top player distributes weight between both legs and both hands when posted, never allowing weight to shift entirely onto the leg on the sleeved-arm side where posting is prevented, ensuring stable base regardless of pulling direction
 - Top player maintains awareness of free hand position, keeping it either posted for base or controlling opponent's grips, never allowing it to float freely where bottom player can attack triangle by capturing the arm
@@ -189,6 +191,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Collar Sleeve Guard (Top)?</p>
 
 - Opponent has established collar sleeve guard grips or is attempting to establish them
 - You are in kneeling or standing position facing opponent's guard
@@ -202,6 +206,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Collar Sleeve Guard?</p>
 
 - Posture maintenance prevents collar grip from creating forward imbalance
 - Proactive grip fighting prevents opponent from establishing preferred grips
@@ -217,6 +223,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Collar Sleeve Guard (Top)?</p>
 
 **If opponent has established both collar and sleeve grips with strong tension:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
@@ -250,6 +258,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Collar Sleeve Guard?</p>
 
 ### 1. Allowing posture to break forward when opponent pulls collar grip
 
@@ -289,6 +299,8 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Collar Sleeve Guard attacks?</p>
+
 ### Posture Maintenance vs. Collar Pull
 
 Partner establishes collar sleeve guard with strong grips. They continuously pull your collar trying to break your posture forward. You must maintain upright posture with hips back and stable base for continuous 2-minute rounds. Focus on core engagement and base distribution that resists pulling forces without muscling through.
@@ -321,38 +333,6 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has established strong collar and sleeve grips and starts pulling your posture forward - what immediate adjustment do you make?
-**A**: Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion.
-
-**Q2**: What are the essential grips you should prioritize when facing collar sleeve guard?
-**A**: Prioritize controlling their collar-gripping wrist with your free hand to neutralize their posture control, then establish your own pants grips at the knees or pant cuffs on both legs. These grips allow you to control their leg positioning for passing while preventing them from using their legs to create frames. If you cannot immediately break their collar grip, establishing your own cross-collar grip provides a counter-balance and opens passing opportunities.
-
-**Q3**: How do you shut down the primary triangle threat from collar sleeve guard?
-**A**: Keep your controlled arm's elbow tight to your ribs rather than letting it float forward where they can capture it with their legs. Maintain strong upright posture so your head stays out of triangle range. When you feel them load their leg to shoot the triangle, immediately drive your free hand to the mat on the opposite side and drive your hips back. The combination of posture, elbow position, and base distribution makes triangle entries extremely difficult.
-
-**Q4**: What grip priorities should guide your approach to breaking collar sleeve guard structure?
-**A**: Break the collar grip first since it provides the most control over your posture and positioning. Use a two-on-one grip break where your free hand controls their gripping wrist while you explosively drive your hips back. Once the collar grip is broken, the sleeve grip becomes much less dangerous as they cannot effectively combine it with posture control for attacks. After breaking grips, immediately establish your own controlling grips before they can re-establish.
-
-**Q5**: How should you apply pressure when passing collar sleeve guard without exposing yourself to sweeps?
-**A**: Apply pressure in controlled bursts of 15-20 seconds rather than constant grinding. When pressuring forward, keep your base wide and hips low with weight distributed to both legs. Drive your chest and shoulder into their upper body to flatten their hips while maintaining the ability to post your free hand. If you feel them loading for a sweep, immediately sit your hips back and widen your base rather than trying to muscle through the sweep attempt.
-
-**Q6**: Your opponent starts to hip escape and angle away as you pressure forward - what adjustment prevents guard recovery?
-**A**: Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure.
-
-**Q7**: What indicators tell you an opponent is about to attempt a pendulum or flower sweep from collar sleeve guard?
-**A**: Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum.
-
-**Q8**: How do you manage energy when facing an opponent with very active collar sleeve guard?
-**A**: Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -26,14 +26,14 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Heel Hook from Inside Ashi-Garami",
+      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Toe Hold from Inside Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Inside Ashi-Garami. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
@@ -169,6 +169,8 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Position Definition
 
+<p class="section-subtitle">What is Inside Ashi-Garami (Top)?</p>
+
 - One opponent leg trapped between your legs with tight control from hip to ankle, preventing extraction through clamping pressure from both your legs squeezing inward
 - Inside leg positioned across opponent's near hip with foot planted on far side of their body, creating rotational control and preventing opponent from squaring their hips to you or turning to face you directly
 - Outside leg hooking behind opponent's trapped knee with instep or ankle engaged against the back of their knee joint, securing leg position and preventing straightening or extraction of their leg
@@ -181,6 +183,8 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Inside Ashi-Garami (Top)?</p>
 
 - Basic leg lock mechanics and safety protocols including proper tap recognition and submission release procedures
 - Understanding of leg entanglement hierarchy and progression from basic to advanced positions within ashi garami system
@@ -196,6 +200,8 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Inside Ashi-Garami?</p>
+
 - Inside Leg Control: Maintain inside leg across opponent's hip to prevent rotation and maintain inside position, blocking their ability to face you and create defensive frames
 - Outside Leg Hook: Keep outside leg hooked behind opponent's knee to prevent leg extraction and control knee flexion, ensuring trapped leg cannot straighten
 - Hip Elevation: Elevate hips to create pressure and improve submission leverage while maintaining connection to opponent's leg through both your legs
@@ -210,9 +216,11 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Inside Ashi-Garami (Top)?</p>
+
 **If opponent remains stationary with leg trapped and shows little defensive movement or awareness:**
 - Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 75%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 65%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 65%)
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
@@ -242,6 +250,8 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Inside Ashi-Garami?</p>
 
 ### 1. Loose leg control allowing space between your legs and opponent's trapped leg
 
@@ -281,6 +291,8 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Inside Ashi-Garami attacks?</p>
+
 ### Entry to Control Drill
 
 From various positions (standing, seated guard, failed guard pass), practice entering inside ashi with proper leg configuration and body angle. Partner provides 25% resistance initially, increasing to 75% as technique improves. 15 repetitions focusing on smooth entry and immediate control establishment. This builds entry timing and recognition.
@@ -313,38 +325,6 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts bridging explosively to clear your inside leg from their hip - what adjustment do you make?
-**A**: Drop your weight into the inside leg, driving your shin deeper across their hip while simultaneously pulling their trapped leg tighter into your body. Use the bridging momentum against them by switching your angle toward their head slightly, which loads more weight onto the inside leg and makes it harder to clear. If they continue bridging, this often exposes their heel for immediate attack opportunities.
-
-**Q2**: What are the essential grips and leg positions for maintaining Inside Ashi-Garami from top?
-**A**: The inside leg must be positioned across opponent's near hip with your foot planted on their far side. The outside leg hooks behind their knee with your instep engaged against the back of their knee joint. Hands should secure their heel with a C-grip (fingers on heel, thumb on Achilles) or prepare for figure-four grip. Your chest stays connected to their trapped leg while maintaining perpendicular body alignment at approximately 90 degrees to their body.
-
-**Q3**: How do you shut down the primary escape where opponent tries to extract their heel by pulling their leg back?
-**A**: Immediately clamp your legs tighter together and pull their heel toward your chest with increased grip pressure. Simultaneously drive your inside leg deeper across their hip to prevent them from creating space. If they continue pulling, follow their leg by scooting your hips forward to maintain connection. This defensive reaction often sets up a transition to Outside Ashi-Garami or Saddle as you follow their movement.
-
-**Q4**: What grip should you prioritize first when establishing Inside Ashi-Garami from top?
-**A**: Prioritize controlling opponent's heel before anything else. Secure the C-grip with four fingers wrapped around the heel and thumb positioned on the Achilles tendon. This grip prevents them from rotating their knee away and establishes the foundation for all attacks. Secondary priority is ensuring your inside leg is across their hip - without heel control, all other positioning becomes meaningless as they can simply extract their leg.
-
-**Q5**: How do you apply pressure in Inside Ashi-Garami without burning excessive energy?
-**A**: Use structural pressure rather than muscular tension. Elevate your hips off the mat and let gravity create downward pressure on their trapped leg. Keep your legs clamped but rely on body positioning rather than constant squeezing. Maintain chest-to-leg connection to transfer your body weight into control. The perpendicular body angle naturally creates leverage without requiring continuous muscular effort - this allows you to sustain the position for extended periods while threatening submissions.
-
-**Q6**: Your opponent rotates their knee inward toward you to defend the ankle lock - how do you respond?
-**A**: This is actually an opportunity rather than a problem. When they rotate their knee inward, their heel becomes exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel, with your wrist behind their Achilles. Use this moment to advance to Honey Hole or Saddle by threading your outside leg deeper into the entanglement. Their defensive reaction has opened a more dominant position - don't chase the ankle lock, flow to the better position.
-
-**Q7**: How do you manage energy when an opponent is actively fighting to escape for an extended period?
-**A**: Relax between their escape attempts rather than maintaining maximum tension constantly. Use positional structure - perpendicular alignment, hip elevation, inside leg across hip - to hold position efficiently. When they rest, you rest. When they explode, match their intensity briefly then return to structural control. If they're burning significant energy on escapes, let them tire themselves while you maintain efficient positioning. Consider whether threatening a submission forces them to burn even more energy defending.
-
-**Q8**: Your opponent partially extracts their leg and creates space - how do you recover control?
-**A**: Immediately reconnect your chest to their leg and re-clamp your legs around their trapped limb. Drive your inside leg back across their hip while pulling their heel back toward your torso. If they've created significant space, consider transitioning rather than forcing the original position - Outside Ashi-Garami or Saddle may now be more accessible than re-establishing pure Inside Ashi. Follow their leg movement rather than fighting against it, converting their escape attempt into a position advancement for you.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -45,7 +45,7 @@
       "relationship": "Alternative attack - threat of back take creates opening for arm extraction"
     },
     {
-      "name": "Kimura from Side Control",
+      "name": "Kimura",
       "relationship": "Follow-up submission available when opponent posts arm during extraction"
     },
     {
@@ -199,7 +199,7 @@
         "description": "Apply the technique in full positional sparring and rolling. Focus on recognizing optimal timing windows during live exchanges. Track success rate and identify specific failure patterns for targeted correction."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Arm Extraction and Pass?",
         "answer": "The primary goal is to clear a trapped arm that blocks the path from Crackhead Control to side control. By extracting the arm and transitioning, you convert a dynamic turtle control position into stable side control with its associated point value and extensive submission options."
@@ -330,7 +330,7 @@
         "correction": "Defense is a continuous sequence - if the arm extraction succeeds, immediately shift priority to knee insertion and half guard recovery rather than accepting side control as inevitable."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest and most effective moment to defend against the Arm Extraction and Pass?",
         "answer": "The earliest and most effective defensive window is before the shoulder pin is established. When you feel the attacker's chest weight shifting forward onto your shoulder blade, immediately widen your base, circle your hips away from the pressure, and clamp your elbow tighter to your ribs. Defending at this stage prevents the entire extraction chain from developing."

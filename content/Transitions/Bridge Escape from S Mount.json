@@ -82,7 +82,7 @@
       "relationship": "Similar technique - bridge escape applied from modified mount configuration"
     },
     {
-      "name": "Armbar from S Mount",
+      "name": "S Mount Armbar Setup",
       "relationship": "Primary submission threat - the attack this escape is designed to prevent"
     },
     {
@@ -246,7 +246,7 @@
         "description": "Full positional sparring from S Mount bottom where you attempt bridge escape and, if countered, immediately chain into trap-and-roll or frame-and-shrimp. Develop the ability to flow between escape options based on opponent reactions at competition intensity."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the bridge escape from S Mount?",
         "answer": "The optimal timing is when the top player shifts their weight forward toward your trapped arm to begin the armbar extension. This forward weight shift lifts pressure from their posted leg side, creating the widest gap in their base. Bridging before they shift creates minimal disruption since their weight is centered. Bridging after they have fully committed to the armbar is too late because your arm may already be extended."
@@ -278,6 +278,14 @@
       {
         "question": "Why is it dangerous to attempt consecutive bridge escapes without switching techniques?",
         "answer": "Each bridge attempt expends significant energy from the high-twitch muscle groups that power the explosive hip extension. A failed first bridge alerts the opponent to your escape strategy, allowing them to lower their center of gravity and tighten their base specifically against bridges. Repeated bridges drain your reserves while the opponent becomes progressively better positioned to counter. After a failed bridge, switching to frame-and-shrimp or trap-and-roll catches the opponent adjusting their defense and maintains unpredictability."
+      },
+      {
+        "question": "When should you avoid attempting the bridge escape from S Mount entirely?",
+        "answer": "Avoid the bridge escape when your trapped arm is already partially extended or your collar grip has been broken, as the bridge movement will accelerate arm exposure into armbar. Also avoid it when you cannot plant both feet flat on the mat, since a single-foot bridge lacks the force to displace the opponent. If you are severely fatigued and cannot generate an explosive committed bridge, choose the frame-and-shrimp escape instead, which relies more on incremental hip movement than explosive power and carries less counter-risk."
+      },
+      {
+        "question": "Your bridge successfully displaces the opponent but they scramble to re-mount rather than falling to the side - how do you prevent the re-mount?",
+        "answer": "As soon as you feel the opponent scrambling to recover mount, accelerate your hip escape and get your near knee across their hip line as a barrier. This knee shield prevents them from settling their hips back onto your torso. Frame against their chest with both arms to maintain distance while threading your far leg around their waist. If they are persistent, use the knee shield to create enough space to insert butterfly hooks rather than closed guard, as butterfly guard provides immediate sweep threats that discourage them from pressing forward into mount."
       }
     ],
     "safety_considerations": "Bridge escapes from S Mount carry inherent risk of accelerating arm submission if timing or arm protection fails. Never attempt to bridge with a straightened or partially extended arm, as the bridge movement can provide the opponent with the force needed to complete the armbar. If your arm becomes fully extended during any phase of the escape, tap immediately rather than continuing the bridge movement, which would increase hyperextension force on the elbow joint. Train this escape with progressive resistance, beginning at low intensity to develop proper arm protection habits before adding explosive bridge mechanics. Communicate clearly with training partners about submission thresholds."
@@ -364,7 +372,7 @@
         "correction": "Stay committed to S Mount unless the displacement is severe enough that you are genuinely losing the position. If you must transition, go to standard mount or armbar rather than disengaging."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What early indicators signal that the bottom player is preparing a bridge escape from your S Mount?",
         "answer": "Watch for the bottom player planting both feet flat on the mat close to their hips with knees bent, which creates the biomechanical platform for the bridge. Their free hand moving to control your near leg indicates they are establishing the frame needed for the escape. A shift in their breathing to deeper inhalation signals preparation for explosive effort. Their body tension will increase and they may stop actively defending the arm, redirecting focus to positioning."

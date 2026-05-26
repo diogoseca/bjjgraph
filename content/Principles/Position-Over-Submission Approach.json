@@ -72,24 +72,24 @@
       "description": "Control point hierarchy works synergistically with position-over-submission philosophy by identifying specific control mechanics that must be established before submissions become high-percentage options from each position."
     },
     {
-      "principle_name": "Risk Assessment",
+      "principle_name": "Submission Defense",
       "relationship_type": "Complementary",
-      "description": "Risk assessment frameworks inform position-over-submission decisions by evaluating the potential consequences of submission attempts versus the security offered by positional advancement and consolidation."
+      "description": "Submission defense frameworks inform position-over-submission decisions by illustrating how failed attacks create vulnerabilities, reinforcing why positional security must precede offensive commitments."
     },
     {
-      "principle_name": "Energy Management System",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Extension",
-      "description": "The position-first approach extends energy management principles by reducing wasted energy on premature submission attempts, instead channeling effort into efficient positional advancement that creates sustainable control."
+      "description": "The position-first approach extends energy conservation principles by reducing wasted energy on premature submission attempts, instead channeling effort into efficient positional advancement that creates sustainable control."
     },
     {
-      "principle_name": "Escape Hierarchy",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Complementary",
-      "description": "Understanding escape hierarchy complements position-over-submission by illustrating how defensive strategy also prioritizes positional recovery over offensive gambles when in inferior positions."
+      "description": "Understanding escape fundamentals complements position-over-submission by illustrating how defensive strategy also prioritizes positional recovery over offensive gambles when in inferior positions."
     },
     {
-      "principle_name": "Match Strategy",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Extension",
-      "description": "Position-over-submission philosophy serves as a foundational element of broader match strategy, particularly in point-scoring competition formats where positional advancement directly contributes to winning while reducing counter-attack risks."
+      "description": "Position-over-submission philosophy serves as a foundational element of competition mindset, particularly in point-scoring formats where positional advancement directly contributes to winning while reducing counter-attack risks."
     },
     {
       "principle_name": "Control Maintenance",
@@ -102,14 +102,14 @@
       "description": "Guard passing principles exemplify position-over-submission philosophy by prioritizing systematic pass completion and consolidation before attempting submissions from top positions."
     },
     {
-      "principle_name": "Submission Control Position",
+      "principle_name": "Submission Chains",
       "relationship_type": "Extension",
-      "description": "Understanding submission control positions demonstrates how position-over-submission philosophy manifests in practice, defining the specific positional criteria that must be met before submission attempts become high-percentage."
+      "description": "Understanding submission chains demonstrates how position-over-submission philosophy manifests in practice, using positional dominance to create sequential submission threats that compound pressure on the opponent."
     },
     {
-      "principle_name": "Defensive Strategy",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
-      "description": "Defensive strategy aligns with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure."
+      "description": "Defensive concepts align with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure."
     },
     {
       "principle_name": "Position Chains",
@@ -117,9 +117,9 @@
       "description": "Position chains exemplify the systematic positional advancement that position-over-submission philosophy advocates, showing how positions link together to create pathways to dominance."
     },
     {
-      "principle_name": "Progressive Resistance Training",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Complementary",
-      "description": "Progressive resistance training methodologies support position-over-submission development by allowing practitioners to build positional control under gradually increasing resistance before adding submission finishing."
+      "description": "Positional sparring methodologies support position-over-submission development by allowing practitioners to build positional control under gradually increasing resistance before adding submission finishing."
     }
   ],
   "application_contexts": [
@@ -367,27 +367,27 @@
       "relationship": "Represents highest position in hierarchy where position-first approach emphasizes hook and grip security before choke attempts"
     },
     {
-      "name": "Defensive Strategy",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Illustrates the defensive application of position-over-submission where positional recovery takes absolute priority over offensive actions from inferior positions"
     },
     {
-      "name": "Match Strategy",
+      "name": "Competition Mindset",
       "content_type": "Principle",
       "relationship": "Broader strategic framework that incorporates position-over-submission as fundamental principle for competition success"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Submission Defense",
       "content_type": "Principle",
-      "relationship": "Provides analytical framework for evaluating when submission attempts justify potential position loss risks"
+      "relationship": "Provides analytical framework for understanding why failed attacks create positional vulnerabilities, reinforcing position-first philosophy"
     },
     {
-      "name": "Energy Management System",
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Complements position-first approach by demonstrating energy efficiency gained through positional control versus submission chasing"
     },
     {
-      "name": "Escape Hierarchy",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Shows defensive parallel to position-over-submission where positional recovery precedes offensive considerations"
     },

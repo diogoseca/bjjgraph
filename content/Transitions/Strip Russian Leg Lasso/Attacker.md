@@ -188,6 +188,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Strip Russian Leg Lasso?</p>
+
 - Address reinforcing grips before the lasso itself - the sleeve and collar grips amplify lasso effectiveness and must be broken first
 - Use two-on-one grip breaks rather than single-hand attempts against reinforced lasso grips
 - Maintain base and posture throughout the stripping sequence to prevent sweep counters during transitions
@@ -202,6 +204,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Strip Russian Leg Lasso?</p>
+
 - Stable base maintained despite Russian Leg Lasso controls - either standing or combat base
 - Identification of opponent's specific grip configuration including collar grip location and sleeve grip depth
 - At least one free hand available to begin two-on-one grip fighting sequence
@@ -214,6 +218,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Strip Russian Leg Lasso step by step?</p>
 
 1. **Establish base and assess grip configuration**: Before initiating the strip, secure your base by widening your stance and lowering your center of gravity. Identify exactly where the opponent's collar grip, sleeve grip, and lasso leg are positioned. Determine which grip is most threatening and plan your stripping sequence accordingly. This assessment phase prevents wasted effort on incorrect sequencing.
 2. **Break the collar grip using two-on-one**: Address the collar grip first as it controls your posture and enables the opponent's sweep mechanics. Grab their gripping wrist with both hands and strip it toward their centerline while simultaneously posturing your torso upright. Breaking the collar grip immediately reduces the sweep threat by approximately sixty percent and makes subsequent steps safer to execute.
@@ -243,6 +249,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Strip Russian Leg Lasso?</p>
+
 - **Opponent immediately re-grips collar and sleeve during strip sequence** (Effectiveness: High) - Your Response: Maintain two-on-one control on the grip you just broke and do not release until you have progressed to the next step. If they re-grip collar, address it again before continuing. Speed up the sequence to reduce re-gripping windows. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **Opponent initiates sweep during grip break by pulling with lasso and driving hips** (Effectiveness: Medium) - Your Response: Immediately widen base and sprawl hips back. Abandon the current grip break and focus entirely on base recovery. Once stable, restart the stripping sequence from the beginning. → Leads to [[Positions/Open Guard]]
 - **Opponent transitions to alternative guard as lasso weakens** (Effectiveness: Medium) - Your Response: Control their legs immediately when you feel the lasso loosening to prevent guard transitions. Pin both knees together or grip pants to limit their ability to reconfigure. Use the transitional moment to launch a passing attempt while they lack established guard structure. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
@@ -254,6 +262,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Strip Russian Leg Lasso?</p>
 
 ### 1. Attempting to yank the arm straight out of the lasso using brute force
 
@@ -293,6 +303,8 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Strip Russian Leg Lasso (Attacker)?</p>
+
 **Grip Breaking Isolation** - Two-on-one grip breaks against lasso reinforcing grips
 Partner establishes full Russian Leg Lasso. Practice only the collar and sleeve grip breaks with no passing or lasso extraction. Build muscle memory for the specific hand positioning and force angles needed to break lasso-reinforcing grips. Reset after each successful or failed grip break.
 
@@ -313,42 +325,12 @@ Positional sparring starting from Russian Leg Lasso. Top player must strip the l
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct order for breaking the control points of a Russian Leg Lasso?
-**A**: The correct sequence is collar grip first, then sleeve grip, then create slack through hip distance, then extract the arm from the lasso using rotation. Each step weakens the subsequent control point. Breaking the collar grip reduces sweep threat and makes the sleeve grip less reinforced. Breaking the sleeve grip eliminates the rotational force that keeps the lasso tight. Creating slack through hip distance makes the physical extraction possible without excessive force.
-
-**Q2**: Why should you never pull your arm straight back when trying to extract it from the lasso?
-**A**: Pulling straight back tightens the lasso binding rather than releasing it because the lasso functions as a loop around your arm. The binding effect increases with linear force applied against the direction of the loop. Instead, rotate your arm in a spiral motion toward the outside, following the natural path through which the loop can be opened. This rotational extraction uses geometry rather than force to clear the leg.
-
-**Q3**: Your opponent re-grips your collar immediately after you strip it - how do you adjust your approach?
-**A**: Maintain two-on-one control on the collar grip for an extra beat after breaking it to prevent immediate re-gripping. If they do re-grip, break it again but this time pin their wrist to their chest or redirect their hand toward their own body. Consider speeding up the subsequent steps to reduce the window for re-gripping. If they consistently re-grip, switch to the angle-based strip variant to make their collar grip mechanically less useful.
-
-**Q4**: What should your first action be the instant your arm clears the lasso?
-**A**: Both hands must immediately control the opponent's legs by gripping their pants at the knees or pinning their shins together. This is the single highest-priority action after extraction. Skilled guard players can re-establish Russian Leg Lasso or transition to an alternative guard within one to two seconds of losing the lasso, so leg control must happen before any other consideration including posture adjustment or passing setup.
-
-**Q5**: Your opponent begins elevating their hips for a sweep as you start breaking their sleeve grip - what do you do?
-**A**: Immediately abandon the sleeve grip break and focus entirely on base recovery. Widen your stance, sprawl your hips back and down, and drive weight through your legs. A failed strip attempt is vastly preferable to being swept. Once your base is re-established and the sweep threat neutralized, restart the stripping sequence from step one. Never sacrifice base stability for grip break completion.
-
-**Q6**: How does the standing posture strip differ from the combat base strip in terms of risk and reward?
-**A**: The standing posture strip offers greater leverage for grip breaks and more natural hip distance for creating slack, but carries higher sweep risk because the elevated center of gravity is less stable. The combat base strip provides superior stability against sweeps through the posted knee but requires working closer to the opponent where the lasso has more binding force. Choose standing when the opponent's sweep threats are manageable and you want faster execution, choose combat base when sweep threats are high and you need maximum stability.
-
-**Q7**: What role does controlling the non-lasso leg play during the strip sequence?
-**A**: The non-lasso leg is the opponent's primary tool for creating secondary control and sweep threats during the strip. If left uncontrolled, the opponent uses it to establish butterfly hooks, De La Riva hooks, or shin-to-shin contact that generates sweep opportunities precisely when you are most vulnerable during grip transitions. Controlling or pinning the non-lasso leg eliminates these secondary threats and isolates the lasso as the only problem to solve, dramatically increasing strip success rate.
-
-**Q8**: Why is it important to chain the strip directly into a passing attempt rather than pausing after extraction?
-**A**: The window between a successful lasso extraction and the opponent re-establishing a guard system is extremely narrow, typically one to three seconds for a skilled guard player. Pausing after extraction allows them to insert hooks, establish new grips, and rebuild their defensive structure. Immediately chaining into a pass exploits the brief period where the opponent has no established guard, dramatically increasing passing success rate compared to stripping and then setting up a separate passing sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Strip Russian Leg Lasso?</p>
 
 Strip Russian Leg Lasso is a low-injury-risk technique as it involves grip fighting and positional adjustments rather than joint manipulation or compression. However, practitioners should be aware that aggressive arm extraction against a tight lasso can strain the shoulder joint of the trapped arm. Always create slack before extracting rather than forcing through resistance. The bottom player should release the lasso if the top player's shoulder is being stressed in an unnatural direction. During training, communicate clearly when beginning the strip sequence so the bottom player can adjust grip tension appropriately.
 

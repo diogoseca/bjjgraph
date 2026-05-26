@@ -49,8 +49,8 @@
       "relationship": "Follow-up transition when opponent sits to counter the sweep"
     },
     {
-      "name": "Kneebar from Guard",
-      "relationship": "Alternative submission finish from same position"
+      "name": "Kneebar",
+      "relationship": "Alternative leg attack from same position targeting trapped leg"
     },
     {
       "name": "Butterfly Sweep",
@@ -240,7 +240,7 @@
         "description": "Develop a complete attack system from Single Leg X Guard with the Heel Grab Sweep as a primary option alongside leg locks, guard transitions, and alternative sweeps. Practice flowing between techniques based on opponent reactions, creating dilemmas where defending one attack opens another."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical mechanical component that makes the Heel Grab Sweep effective?",
         "answer": "The simultaneous coordination of leg extension and heel pull creates the most effective sweep. The leg extension elevates and extends the opponent's trapped leg while the heel pull rotates and pulls it backward, generating opposing forces that no single base adjustment can neutralize. Performing these movements separately reduces effectiveness dramatically because the opponent can counter each individual force in isolation."
@@ -370,7 +370,7 @@
         "correction": "Follow the opponent's hip movements with your own base adjustments, circling your free leg to stay ahead of their angle creation and deny them their optimal sweep trajectory"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive priority when you recognize the opponent is setting up a Heel Grab Sweep?",
         "answer": "The first priority is breaking their heel grips before they can coordinate the sweep. Both hands on your heel bone is the critical control point that enables the rotational pull component of the sweep. Strip their grips by pushing their hands off with your free hand or peeling their fingers, then immediately address your base positioning. Without heel control, the opponent can only push with their legs, which is far less effective as a sweeping mechanism."
@@ -399,7 +399,7 @@
         "description": "Partner establishes Single Leg X Guard and slowly sets up the Heel Grab Sweep without executing. Practice recognizing the heel grip, hip angle shift, and leg tension cues. Work on establishing wide base with free leg and proper knee alignment. No live sweep attempts yet, focus purely on defensive posture and recognition speed."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Base Recovery",
+        "phase": "Week 3-4: Grips and Base Recovery",
         "focus": "Stripping heel grips and recovering base after partial disruption",
         "description": "Partner secures heel grips and you practice breaking them systematically. Partner executes slow-speed sweeps while you practice grip stripping, base widening, and hip-down defense. Build automatic response patterns for each recognition cue. Practice recovering base when partially off-balanced."
       },

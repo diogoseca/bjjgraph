@@ -206,17 +206,17 @@ The Gift Wrap Transition is a critical link in the mount attack system, connecti
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Alternative advancement while maintaining arm trap
 
-- [[Submissions/Armbar from Mount]] - Setup feint that creates Gift Wrap entry opportunities
+- [[Transitions/Mount to Armbar]] - Setup feint that creates Gift Wrap entry opportunities
 
-- [[Submissions/Ezekiel from Mount]] - Submission threat that forces defensive arm extension
+- [[Submissions/Ezekiel Choke]] - Submission threat that forces defensive arm extension
 
-- [[Transitions/Cross Collar Choke]] - Complementary attack that creates arm isolation opportunities
+- [[Submissions/Cross Collar Choke]] - Complementary attack that creates arm isolation opportunities
 
 - [[Positions/Mount/Technical Mount]] - Alternative position if opponent turns during transition
 
 - [[Transitions/Back Take from Top]] - Synergistic technique - Gift Wrap facilitates back take entries
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap position
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap position
 
 
 </section>

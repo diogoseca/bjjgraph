@@ -20,14 +20,14 @@ description: "Master Invisible Collar from top position with grip concealment ta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke Finish",
-      "text": "From this position, attempt Cross Collar Choke Finish. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Invisible Collar",
+      "text": "From this position, attempt Cross Collar Choke from Invisible Collar. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Invisible Collar",
+      "text": "From this position, attempt Rear Naked Choke from Invisible Collar. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Invisible Collar from top position with grip concealment ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Invisible Collar",
+      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Clock Choke",
-      "text": "From this position, attempt Clock Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Clock Choke from Invisible Collar",
+      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ## Position Definition
 
+<p class="section-subtitle">What is Invisible Collar (Top)?</p>
+
 - Practitioner positioned on opponent's back with chest connected to opponent's upper back and shoulder blades, maintaining close body-to-body contact that prevents opponent from creating escape space
 - At least one hook inserted deep under opponent's leg with foot crossing to opposite side, establishing lower body control that limits opponent's mobility and prevents forward or rotational escape attempts
 - Seatbelt grip structure maintained with one arm over opponent's shoulder and one arm under opposite armpit, creating the characteristic diagonal grip pattern that provides upper body control while setting up collar entry
@@ -181,6 +183,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Invisible Collar (Top)?</p>
 
 - Established back control position with at least one hook secured
 - Opponent wearing gi with sufficient collar material available
@@ -196,6 +200,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Invisible Collar?</p>
+
 - Conceal submission intention by making grip appear positional rather than attacking
 - Establish collar grip depth gradually while opponent is distracted by other threats
 - Maintain seatbelt structure throughout to preserve back control while setting up submissions
@@ -210,6 +216,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Invisible Collar (Top)?</p>
 
 **If opponent is unaware of invisible collar and not defending the grip:**
 - Execute **[[Continue Deepening Collar Grip/Attacker|Continue Deepening Collar Grip]]** → [[game-over]] (Probability: 80%)
@@ -240,6 +248,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Invisible Collar?</p>
 
 ### 1. Telegraphing submission intention by gripping collar too aggressively or obviously from the start
 
@@ -274,6 +284,8 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Invisible Collar attacks?</p>
+
 ### Invisible Collar Grip Establishment Drill
 
 Partner starts with basic back control and seatbelt grip. Practice establishing the invisible collar grip incrementally while partner provides 25% resistance initially, gradually increasing to 50%. Focus on concealing intention and achieving maximum depth without alerting partner to submission setup. Reset and repeat 10 times per side, tracking recognition time.
@@ -307,38 +319,6 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you maintain the invisible collar grip when your opponent starts aggressively hand fighting your choking arm?
-**A**: Keep your elbow tight to your body and use your seatbelt arm to control their defending hand. Rather than fighting grip-to-grip, use your chest pressure to pin their shoulders while incrementally deepening your collar penetration during moments when they shift focus to hook defense. The key is patience—every time they move one hand to address another threat, advance your collar depth slightly.
-
-**Q2**: What are the essential grips for maintaining invisible collar position?
-**A**: The primary grip is the deep collar grip with all four fingers inside the gi material, knuckles pressed against the opponent's neck with thumb on the outside of the collar. The secondary grip is the seatbelt underhook that controls the far shoulder. Both grips work together—the seatbelt prevents forward escape and creates the platform for collar grip maintenance and eventual finishing pressure.
-
-**Q3**: Your opponent begins bridging explosively while you have invisible collar established—what adjustment prevents them from creating escape space?
-**A**: Drop your hips lower and drive your chest weight forward into their upper back during the bridge. Use your hooks actively by driving your heels toward their hips to counter the upward momentum. The bridge actually helps you if you ride it correctly—their movement can be used to sink your hooks deeper and tighten your chest-to-back connection rather than create separation.
-
-**Q4**: What are the grip priorities when transitioning from seatbelt to invisible collar?
-**A**: First, ensure your seatbelt underhook is secure and controlling the far shoulder. Second, begin walking your over-hook hand toward the collar in small increments while opponent focuses elsewhere. Third, achieve thumb-outside collar contact before committing fingers inside. Fourth, drive fingers deep with gradual penetration rather than sudden movement. Never sacrifice seatbelt integrity for collar depth—the seatbelt maintains position while collar develops.
-
-**Q5**: How do you apply finishing pressure from invisible collar without telegraphing the choke?
-**A**: The finish comes from rotating your choking forearm toward your own chest while simultaneously pulling your elbow toward your hip. This creates a tightening effect that compresses the carotid arteries. Avoid the common mistake of pulling the collar away from the neck—instead, fold the gi material against the neck and rotate. The pressure should feel like a gradual squeeze rather than a sudden jerk.
-
-**Q6**: Your opponent successfully tucks their chin tightly—how do you recover offensive momentum?
-**A**: A strong chin tuck opens the armbar pathway because they must commit both hands to defending the collar, exposing their arms. You can also transition to bow and arrow by grabbing their far lapel and rotating to the armbar side while maintaining collar control. Alternatively, maintain your position and wait—the chin tuck is exhausting and their defense will eventually fatigue, allowing you to work back to the choke.
-
-**Q7**: What weight distribution maintains invisible collar stability while preventing escape?
-**A**: Keep approximately 70% of your weight driving forward through your chest into their upper back and shoulders. Your hips should be slightly lower than theirs to prevent them from creating rotational momentum. Avoid sitting too high on their back which allows them to sit back into you. Your hooks provide lateral stability while your chest pressure handles forward-backward control.
-
-**Q8**: How do you recover position if your opponent partially removes one hook while you have invisible collar?
-**A**: Immediately bring your freed leg over to establish a body triangle if possible, or replant the hook from a different angle before they can turn completely. Use your collar grip to prevent their rotation—they cannot turn into you if you maintain forward collar pressure. If they create enough space to threaten a full escape, prioritize maintaining back control over finishing the collar choke by transitioning to seat belt and resetting your hooks.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -361,11 +341,11 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 - **[[Positions/Back Control]]** - Primary position from which invisible collar is established
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Fundamental grip structure used before invisible collar transition
-- **[[Transitions/Rear Naked Choke]]** - Primary alternative submission when collar is defended
-- **[[Transitions/Cross Collar Choke]]** - Direct finishing technique from invisible collar position
+- **[[Submissions/Rear Naked Choke]]** - Primary alternative submission when collar is defended
+- **[[Submissions/Cross Collar Choke]]** - Direct finishing technique from invisible collar position
 - **[[Positions/Crucifix]]** - Common transition target when opponent turns into collar
-- **[[Submissions/Armbar from Back]]** - Alternative submission when opponent extends arms to defend
-- **[[Transitions/Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
+- **[[Transitions/Armbar from Back Transition]]** - Alternative submission when opponent extends arms to defend
+- **[[Submissions/Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
 - **[[Positions/Back Control/Body Triangle]]** - Enhanced control position often combined with invisible collar
 
 

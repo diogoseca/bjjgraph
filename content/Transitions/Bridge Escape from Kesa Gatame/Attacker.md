@@ -188,6 +188,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from Kesa Gatame?</p>
+
 - Control the opponent's far arm before bridging to eliminate their ability to post and absorb your bridge force
 - Bridge directionally toward your trapped arm side at a 45-degree angle where the opponent's base is weakest
 - Plant feet close to your hips with knees bent to maximize bridge height and explosive power generation
@@ -202,6 +204,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from Kesa Gatame?</p>
+
 - Free your far arm from any control and establish it as your primary tool for controlling the opponent's posting arm
 - Plant both feet flat on the mat as close to your buttocks as possible with knees bent at approximately 90 degrees
 - Secure a grip on the opponent's far wrist, elbow, or sleeve to prevent them from posting during the bridge
@@ -214,6 +218,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from Kesa Gatame step by step?</p>
 
 1. **Establish Defensive Frame**: Use your free arm (far arm) to create a frame against the opponent's face, neck, or shoulder. This frame prevents smothering pressure and gives you breathing room to prepare the escape. If your far arm is being controlled, fight to free it first—the bridge escape requires at least one free arm for controlling the opponent's posting ability.
 2. **Plant Feet and Load Hips**: Bring both feet flat on the mat as close to your buttocks as possible, with knees bent at approximately 90 degrees. This foot positioning maximizes bridge height and explosive power. Avoid extending your legs or planting feet too far from your hips, as this reduces the mechanical advantage of your bridge and may telegraph the escape attempt to an attentive opponent.
@@ -244,6 +250,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from Kesa Gatame?</p>
+
 - **Opponent drops hips and widens base when feeling feet plant** (Effectiveness: High) - Your Response: If the opponent preemptively widens their base, the bridge becomes less effective. Chain to a ghost escape or back take attempt instead, as their widened base exposes their back. Alternatively, wait for them to narrow their base again before reattempting. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Opponent steps over to mount during the bridge rotation** (Effectiveness: Medium) - Your Response: Use your inside leg to hook their near leg as you bridge, creating a barrier that prevents them from stepping over. If they begin the mount transition, immediately redirect your knee insertion to block their leg and recover half guard rather than allowing full mount. → Leads to [[Positions/Mount]]
 - **Opponent floats to north-south position as bridge creates space** (Effectiveness: Medium) - Your Response: If the opponent releases Kesa Gatame and circles toward your head during the bridge, immediately follow them with your hips and work to insert frames before they can settle north-south. Turn to face them and get your arms inside to create distance for guard recovery. → Leads to [[Positions/North-South]]
@@ -255,6 +263,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from Kesa Gatame?</p>
 
 ### 1. Bridging straight up instead of at a 45-degree angle toward the trapped arm side
 
@@ -294,6 +304,8 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from Kesa Gatame (Attacker)?</p>
+
 **Solo Bridge Mechanics** - Hip extension power and directional bridging
 Practice bridging drills without a partner, focusing on explosive hip extension, directional bridging at 45-degree angles, and immediate hip rotation at the apex. Perform sets of 10 bridges in each direction, emphasizing the connection between leg drive and hip lift.
 
@@ -314,42 +326,12 @@ Start from Kesa Gatame with full resistance from both players. Bottom player wor
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the bridge escape from Kesa Gatame?
-**A**: The optimal window opens when the top player shifts weight to attempt a submission (such as reaching for an Americana), adjusts their position by lifting their hips, or momentarily reduces chest pressure to reposition their head control. These moments create brief reductions in downward pressure that allow your bridge to generate maximum displacement. Attempting the bridge against a fully settled, heavily based opponent dramatically reduces success probability.
-
-**Q2**: Why is controlling the opponent's far arm the most critical preparatory step?
-**A**: The opponent's far arm is their primary posting tool for absorbing bridge force. Without this arm available to post, a well-directed bridge displaces their entire weight because they have no structural support on the weak side. With the posting arm free, even a powerful bridge is easily absorbed—the opponent simply extends their arm to the mat and maintains their base throughout your bridge attempt, making the escape nearly impossible regardless of your bridge power.
-
-**Q3**: What direction should you bridge and why does it matter?
-**A**: Bridge at a 45-degree angle toward your trapped arm side—this is the direction where the opponent's base is weakest due to their perpendicular alignment in Kesa Gatame. The opponent has their weight distributed along a line from their posted leg to their head control side. Bridging toward the trapped arm side attacks perpendicular to their base line, where they have the least structural resistance. Bridging straight up or toward their posted leg attacks into their strongest base.
-
-**Q4**: Your opponent widens their base after feeling your feet plant—how do you adjust your escape strategy?
-**A**: When the opponent widens their base preemptively, the bridge escape becomes significantly less effective because their spread legs can absorb lateral force. Immediately chain to a ghost escape or back take attempt instead, as their widened base opens their back for turning escapes. You can also feint the bridge to draw the base-widening response, then immediately chain to the ghost escape while their attention is directed at defending the bridge direction.
-
-**Q5**: What must happen immediately after the bridge creates space?
-**A**: You must insert your near-side knee across the opponent's hip line within the fraction of a second that space exists at the bridge apex. The space window is extremely brief—the opponent's weight begins returning as soon as your bridge peaks. The knee insertion and bridge should feel like one continuous movement rather than two distinct actions. Any pause between the bridge peak and knee insertion allows the opponent to resettle and close the space.
-
-**Q6**: How does the bridge escape complement the ghost escape from Kesa Gatame?
-**A**: The bridge escape attacks the opponent's base by driving into them (turning toward the opponent), while the ghost escape attacks their exposed back by turning away. This creates a two-directional escape dilemma: if the opponent sits back heavily to defend ghost escapes, they become lighter on your chest and more vulnerable to bridges. If they drive forward with heavy pressure to prevent bridges, they expose their back further for ghost escapes. Training both escapes together forces the opponent to defend two opposing threats simultaneously.
-
-**Q7**: Your bridge attempt fails and the opponent drives you flat again—what is your immediate follow-up?
-**A**: Do not attempt a second immediate bridge as you will be exhausted and the opponent will be prepared. Instead, immediately chain to an alternative escape—attempt a ghost escape by turning away from the opponent, or use frames to create space for a hip escape toward guard recovery. The failed bridge may have created slight positional changes that make other escapes more viable. Return to your frame, recover your breathing briefly, and attack from a different angle rather than repeating the same failed attempt.
-
-**Q8**: What grip should you prioritize on the opponent's far arm and why?
-**A**: In gi, grip the sleeve at the wrist for maximum control over the posting arm with minimal effort—the sleeve grip provides a secure mechanical advantage that is difficult to strip. In no-gi, a two-on-one grip on the wrist gives the best control, though a single wrist grab works if the bridge is timed well. Avoid gripping above the elbow as this still allows the forearm and hand to post effectively. The further down toward the hand you control, the more completely you eliminate their posting ability.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from Kesa Gatame?</p>
 
 Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury.
 

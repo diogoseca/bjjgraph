@@ -288,7 +288,7 @@
     },
     "transitions": [
       {
-        "transition": "Kneebar",
+        "transition": "Kneebar from Kneebar Control",
         "attempt_probability": 25
       },
       {
@@ -304,7 +304,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Kneebar Control",
         "attempt_probability": 10
       },
       {
@@ -320,7 +320,7 @@
         "attempt_probability": 4
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining top kneebar control against an opponent who tries to create distance?",
         "answer": "The primary mechanism is maintaining constant hip connection to the opponent's knee joint while using your body weight to drive pressure downward. Keep your hips tight against their knee, use your arms to pull the leg close to your torso, and distribute weight to prevent them from creating space. If they push, follow their movement while maintaining the grip connection."
@@ -592,7 +592,7 @@
         "attempt_probability": 41
       },
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Kneebar Control",
         "attempt_probability": 11
       },
       {
@@ -604,7 +604,7 @@
         "attempt_probability": 7
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Kneebar Control",
         "attempt_probability": 6
       },
       {
@@ -644,7 +644,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining bottom kneebar control when opponent attempts to pull their leg free?",
         "answer": "The primary mechanism combines three elements: maintaining a tight leg entanglement with your inside or outside leg hooked behind their knee, keeping constant pulling pressure with your arms around their lower leg, and staying hip-connected to their knee joint. When they pull, follow with your hips rather than just your arms - use your entire body to stay connected. The leg hook prevents extraction while arms control the angle."

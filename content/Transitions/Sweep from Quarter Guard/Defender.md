@@ -154,6 +154,8 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Quarter Guard?</p>
+
 - Bottom player aggressively deepens underhook rather than using it defensively, driving elbow toward ceiling with increased urgency
 - Bottom player hip escapes to create angle away from you rather than attempting to turn into you for guard recovery
 - Bottom player's free leg posts flat on the mat near their hip rather than hooking or framing against your body
@@ -166,6 +168,8 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Quarter Guard?</p>
 
 - Maintain wide base and low hips to resist underhook-driven elevation attempts throughout the entire passing sequence
 - Crossface pressure must be constant and heavy to prevent the angle creation that is prerequisite for all sweep variations from quarter guard
@@ -180,6 +184,8 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Quarter Guard?</p>
 
 ### 1. Sprawl hips backward and drive crossface shoulder into opponent's neck to flatten their angle completely
 
@@ -217,6 +223,8 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Quarter Guard?</p>
+
 ### → [[Positions/Quarter Guard]]
 
 Maintain constant crossface pressure and wide base to neutralize underhook leverage, then continue systematic pass progression by eliminating remaining defensive frames and leg engagement before completing the pass
@@ -232,6 +240,8 @@ Recognize sweep setup as signal to immediately commit to pass completion, drivin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Quarter Guard?</p>
 
 ### 1. Ignoring underhook depth increase and allowing bottom player to establish full sweep setup without response
 
@@ -261,6 +271,8 @@ Recognize sweep setup as signal to immediately commit to pass completion, drivin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Quarter Guard?</p>
+
 **Phase 1: Recognition** - Sweep setup identification
 Partner sets up the sweep at various speeds while you practice identifying the four key recognition cues—underhook deepening, hip angle creation, leg posting, and far hip control—calling them out verbally before partner completes the sweep attempt
 
@@ -277,26 +289,6 @@ Defend sweep attempts during live sparring from quarter guard top, integrating r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is setting up a sweep from quarter guard?
-**A**: The earliest cues include the bottom player fighting aggressively for underhook depth rather than defending the pass, their hips escaping away to create an angle rather than staying flat, their free leg posting on the mat with foot flat rather than hooking or framing, and their free hand reaching for your far hip rather than framing against your chest. These combined actions indicate sweep preparation rather than guard recovery.
-
-**Q2**: How should you distribute your weight to prevent the sweep while maintaining pass progression?
-**A**: Distribute weight in a wide base with approximately sixty percent on your far side to resist the underhook-driven lift direction. Keep your hips low and heavy against the bottom player's body rather than elevated. Your far hand should be ready to post on the mat to absorb sweep force, and your crossface shoulder should be driving pressure into their neck to prevent angle creation and maintain flattening control.
-
-**Q3**: Your opponent has a deep underhook and begins driving upward—what is your immediate defensive priority?
-**A**: Your immediate priority is to sprawl your hips backward and drive your crossface shoulder into their neck to flatten them back down. This removes your center of gravity from the sweep arc and uses your weight advantage to counter their underhook leverage. Simultaneously begin stripping the underhook by overhooking their arm and driving their elbow toward the mat. If sweep momentum is already committed, base out with your far hand and post wide to absorb force.
-
-**Q4**: When is it better to commit to completing the pass rather than defending the sweep from quarter guard top?
-**A**: Commit to pass completion when you recognize sweep setup indicators but still have a clear passing lane available before the sweep can be fully initiated. If the bottom player's underhook is still developing and their angle is minimal, aggressive pass completion is often the highest-percentage defensive option. However, if all sweep prerequisites are established, focus on neutralizing the sweep first before resuming pass progression to avoid being caught mid-transition.
-
-
-
-</section>
 
 
 </main>

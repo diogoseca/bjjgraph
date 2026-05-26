@@ -162,6 +162,8 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing to Single Leg X?</p>
+
 - Opponent secures a strong same-side sleeve or wrist grip and begins tightening tension on the pull
 - Opponent's hips start dropping or their knees begin bending in preparation for level change
 - Opponent steps their lead foot forward between your feet or toward your lead leg
@@ -174,6 +176,8 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing to Single Leg X?</p>
 
 - Recognize pre-entry cues early and react before hooks are established
 - Maintain strong upright posture with active grip fighting to deny control points
@@ -189,6 +193,8 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing to Single Leg X?</p>
 
 ### 1. Sprawl hips back and strip grips immediately upon recognizing level change
 
@@ -226,6 +232,8 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing to Single Leg X?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip opponent's grips early and sprawl hips back before hooks are inserted. Maintain strong posture and circle away from their entry angle. Breaking their sleeve or wrist grip removes the connection they need to pull you into the position. Once grips are broken and you maintain distance, they must restart the entire entry sequence.
@@ -241,6 +249,8 @@ If opponent has partially entered but their hooks are loose, drive forward aggre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing to Single Leg X?</p>
 
 ### 1. Allowing opponent to maintain strong sleeve or wrist grip without fighting it
 
@@ -270,10 +280,12 @@ If opponent has partially entered but their hooks are loose, drive forward aggre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing to Single Leg X?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying pre-entry cues and timing windows
 Partner performs slow-motion Single Leg X entries while you practice identifying the recognition cues: grip tightening, hip drop initiation, foot stepping in, and shoulder rounding. Call out each cue verbally as you see it. Progress to partner performing entries at increasing speed while you maintain recognition accuracy. No defensive action yet - pure recognition training.
 
-**Week 3-4: Grip Fighting Defense** - Preventing the initial grip establishment
+**Week 3-4: Grips Defense** - Preventing the initial grip establishment
 Partner attempts to establish the sleeve or wrist grip needed for entry while you focus exclusively on grip stripping and prevention. Practice two-on-one breaks, circular wrist escapes, and proactive hand fighting. Partner increases grip fighting intensity progressively. Measure success by how long you can deny them a solid control grip.
 
 **Week 5-8: Active Defense Responses** - Sprawling, forward pressure, and angle changes against entries
@@ -286,29 +298,6 @@ Start standing with partner who can freely attempt Single Leg X entries, Shin-to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action you can take before the opponent initiates their entry?
-**A**: The most important pre-entry defense is active grip fighting to prevent the opponent from establishing the sleeve or wrist grip they need for the entry. Without this grip, the opponent cannot maintain connection during their level change and descent, meaning they risk falling to an unconnected seated position with no control. Strip grips immediately using two-on-one breaks or circular wrist movements. If you can deny the initial grip, the entire technique chain is disrupted before it begins.
-
-**Q2**: Your opponent has already inserted their inside hook behind your knee but has not yet placed their outside foot on your hip - what do you do?
-**A**: This is the critical defensive window where you still have significant options. Immediately drive forward with heavy pressure while controlling their upper body with a crossface or collar tie. Without the outside foot frame on your hip, they cannot regulate distance or prevent your forward drive. Your goal is to flatten them before they can establish that foot. Simultaneously use your free leg to widen your base for stability. If you can collapse their structure before the outside foot is placed, you can often pass directly to side control.
-
-**Q3**: Why is circling and changing angles effective against Single Leg X entry attempts?
-**A**: The Single Leg X entry requires specific alignment between the attacker's body and your lead leg. Their inside hook must travel a specific path behind your knee, and their sitting angle must match where your leg is positioned. By circling laterally, you constantly change the target location and force them to readjust their entry angle. This makes timing the entry significantly harder because the angle they prepared for no longer exists by the time they commit to sitting. Continuous movement also prevents them from establishing the stable grip connection needed for a controlled descent.
-
-**Q4**: After successfully defending an entry attempt and the opponent is now seated with no hooks, what should your immediate priority be?
-**A**: Your immediate priority is to establish a passing position before they can recover guard or re-attempt the entry. Step forward with strong posture and begin a passing sequence - a toreando or bullfighter pass works well against a seated opponent with no hooks. Secure grips on their legs or pants to control their hip movement and prevent them from re-inserting hooks. Do not stand back and reset to neutral standing, as this simply gives them another opportunity to attempt the entry with adjusted timing. Capitalize on your successful defense by advancing to top control.
-
-**Q5**: What weight distribution should you maintain when you recognize your opponent is threatening a Single Leg X entry?
-**A**: Shift your weight slightly toward your back foot, approximately 60-40 rear-favoring distribution. This positions your hips further from the opponent's entry path and allows you to sprawl backward quickly when they commit to the level change. Forward weight distribution is the worst possible scenario because it provides exactly the weight shift the opponent needs to time their entry and prevents you from moving your hips backward. Keep knees slightly bent and ready to spring backward. This stance may feel counterintuitive to aggressive grapplers, but against guard pull specialists, defensive posture preservation is essential.
-
-
-
-</section>
 
 
 </main>

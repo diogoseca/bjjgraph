@@ -188,6 +188,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lockdown Break from Z-Lock?</p>
+
 - Establish dominant upper body control before attempting any leg extraction to prevent sweep counters during the breaking process
 - Drive heavy hip pressure into the trapped leg to compress the space the bottom player needs for the Z-Lock configuration to function
 - Straighten the trapped leg progressively rather than explosively to maintain base and prevent the bottom player from using your momentum against you
@@ -202,6 +204,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lockdown Break from Z-Lock?</p>
+
 - Crossface or underhook control established to prevent bottom player from turning into you during the break
 - Weight distributed through hips and shoulder into opponent rather than posted on hands
 - Free leg posted with solid base to resist sweep attempts during the extraction sequence
@@ -214,6 +218,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lockdown Break from Z-Lock step by step?</p>
 
 1. **Establish Upper Body Control**: Secure crossface with your nearside arm driving your shoulder into opponent's jaw or chest, while your far arm controls their inside elbow or wrist. This prevents them from turning toward you or establishing the underhook that powers their sweep game. Your head should be low and heavy, adding to the shoulder pressure that limits their hip mobility.
 2. **Drive Hip Pressure Down**: Sink your hips heavily into your trapped leg, compressing the space between your leg and the mat. This pressure makes it difficult for the bottom player to maintain tension in their lockdown hooks and limits the hip mobility they need to adjust their Z-Lock configuration. Focus on making your trapped leg as heavy as possible against the mat.
@@ -243,6 +249,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lockdown Break from Z-Lock?</p>
+
 - **Bottom player immediately re-grips lockdown hooks during the extraction attempt by pulling heels together and re-securing the figure-four** (Effectiveness: High) - Your Response: Increase hip pressure to compress the space before re-attempting extraction and address both hooks simultaneously rather than sequentially to prevent the re-grip window → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 - **Bottom player uses the weight shift during extraction to initiate an old school sweep by threading their arm under your far leg** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure and widen base with free leg to resist the sweep angle, ensuring your weight stays centered rather than shifting during the extraction → Leads to [[Positions/Half Guard]]
 - **Bottom player activates butterfly hook to elevate and sweep during the extraction sequence when your weight shifts forward** (Effectiveness: High) - Your Response: Prioritize neutralizing the butterfly hook completely before addressing the lockdown, as the elevation creates the most dangerous counter-sweep opportunities → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lockdown Break from Z-Lock?</p>
 
 ### 1. Attempting to yank the trapped leg free explosively without establishing upper body control first
 
@@ -293,6 +303,8 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lockdown Break from Z-Lock (Attacker)?</p>
+
 **Phase 1: Mechanics** - Leg straightening and hook stripping fundamentals
 Solo and partner drilling of leg straightening mechanics, hook stripping motions, and weight distribution. Practice without resistance to build proper movement patterns and sequencing for each step of the extraction.
 
@@ -313,42 +325,12 @@ Combine lockdown break with immediate passing sequences. Practice break to knee 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you address the butterfly hook before the lockdown ankle hook when breaking the Z-Lock?
-**A**: The butterfly hook poses the more immediate tactical threat because it enables elevation-based sweeps that capitalize on any weight shift during the extraction process. If you strip the lockdown first while the butterfly hook remains active, the bottom player can use the resulting space and your committed weight to execute a butterfly sweep. Neutralizing the butterfly element first removes the highest-danger counter-attack, making the subsequent lockdown strip significantly safer.
-
-**Q2**: What is the critical difference between attempting an explosive pull-out versus a progressive straightening when breaking the Z-Lock?
-**A**: An explosive pull generates momentum that the bottom player can redirect into sweep attempts, particularly the old school sweep where they use your upward energy to come on top. Progressive straightening maintains constant pressure and base throughout the extraction, never creating the acceleration that enables dynamic counters. The steady approach also preserves your upper body control connections, whereas explosive movement typically breaks your crossface or shoulder pressure.
-
-**Q3**: Your opponent re-grips the lockdown immediately after you strip it - what adjustment improves your next attempt?
-**A**: Increase hip pressure before re-attempting to compress the space available for their hooks to function. Pin their far hip with your knee before straightening your leg, and control their hooking foot with your free hand as you extract to prevent the re-grip. You may also need to address their upper body grips first, as their hands may be assisting the re-establishment by pulling your leg back into position through sleeve or ankle grips.
-
-**Q4**: How should you distribute your weight during the lockdown break to prevent being swept?
-**A**: Weight should be driven primarily through your shoulder into the opponent's chest and through your hips into your trapped leg, with your free leg posted wide for base. Avoid posting on your hands, which removes pressure and creates exploitable space. The center of gravity should remain low and forward, so that any sweep attempt by the bottom player meets maximum resistance from your skeletal structure rather than requiring muscular effort to counter.
-
-**Q5**: What are the first two actions you should take immediately after successfully extracting your leg from the Z-Lock?
-**A**: First, drive your freed knee tight against the opponent's hip to prevent any space for hook re-insertion, establishing standard half guard top control. Second, increase shoulder pressure to flatten the bottom player and prevent them from creating the angles needed to recover knee shield or re-establish the Z-Lock. These two actions must happen immediately because the bottom player will be actively working to recover a defensive guard configuration during this transitional moment.
-
-**Q6**: Your opponent transitions to deep half as you begin the lockdown break - how should you respond?
-**A**: Immediately drive your hips forward and sprawl to prevent them from getting underneath you, which is the fundamental requirement for deep half. Maintain your crossface to block the head movement needed for the underduck entry. If they partially achieve deep half, switch your strategy from lockdown break to deep half passing by driving your underhook deep and threatening to backstep. Do not continue the lockdown break sequence once they have changed the positional structure.
-
-**Q7**: Why is maintaining crossface pressure throughout the entire extraction sequence critical to success?
-**A**: The crossface prevents the bottom player from turning their hips toward you, which is essential for both their sweep mechanics and their ability to readjust Z-Lock hooks. Without the crossface, the bottom player can turn to face you, re-establish their underhook, and either re-grip the lockdown or transition to a more advantageous half guard variation. The crossface also adds to the overall pressure that compresses the space needed for the Z-Lock to function effectively.
-
-**Q8**: During positional sparring, you notice opponents consistently re-establishing the Z-Lock after your break - what training adjustment addresses this?
-**A**: Focus on the consolidation phase after the break rather than the break itself. Drill the immediate transition from extraction to tight half guard top control with emphasis on closing all space against the opponent's hip. Practice chaining the break directly into a passing attempt so the opponent never has a window to reconfigure. Also examine whether your upper body pressure drops during the final extraction phase, as this commonly allows the re-establishment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lockdown Break from Z-Lock?</p>
 
 The lockdown break involves controlled leg straightening and hook stripping that places stress on both players' knees and ankles. Apply progressive force when straightening rather than explosive jerking motions that can strain the bottom player's knee ligaments, particularly the MCL. If either player reports sharp knee pain during drilling, stop immediately and assess the angle of force application. Ensure adequate warm-up of hip flexors and hamstrings before practicing this technique, and communicate with your training partner about pressure intensity throughout the drill.
 

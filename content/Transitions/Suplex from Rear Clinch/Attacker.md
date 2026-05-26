@@ -188,6 +188,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Suplex from Rear Clinch?</p>
+
 - Commit fully to the lift once initiated—half-hearted suplex attempts are the most dangerous for both practitioners and have the lowest success rate
 - Generate lifting force through hip extension and leg drive rather than pulling with the arms and back, which causes premature fatigue and reduces throwing power
 - Control the landing angle by directing the throw laterally or diagonally rather than straight overhead to minimize injury risk and ensure you land in side control
@@ -202,6 +204,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Suplex from Rear Clinch?</p>
+
 - Secure high body lock with hands clasped around opponent's midsection, ideally with seatbelt configuration or both arms around the waist for maximum control
 - Position hips directly behind and slightly below opponent's hips to create optimal lifting angle with legs loaded for explosive extension
 - Establish chest-to-back pressure with head tight against opponent's back or shoulder to prevent them from creating separation during the lift
@@ -214,6 +218,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Suplex from Rear Clinch step by step?</p>
 
 1. **Tighten body lock grip**: Squeeze your clasped hands tight against the opponent's midsection, eliminating any slack in the body lock. Drive your chest firmly into their back and ensure your head is positioned tight against their shoulder blade or neck area. This compression removes space and prevents the opponent from inserting defensive frames or twisting during the lift.
 2. **Drop hips and load legs**: Bend your knees and drop your hips below the opponent's center of gravity while maintaining the tight body lock. Your thighs should be loaded like springs with your weight on the balls of your feet. This level change is critical—the lifting power comes from your legs and hip extension, not your arms or back muscles.
@@ -243,6 +249,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Suplex from Rear Clinch?</p>
+
 - **Opponent drops weight and widens base before lift initiates** (Effectiveness: High) - Your Response: Switch to a lateral suplay variation that uses their lowered center of gravity against them, or abandon the suplex and transition to a mat return or body lock takedown that works better against a lowered base → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent hooks your leg with their foot during the lift attempt** (Effectiveness: High) - Your Response: If you feel the hook before committing, abort the lift and re-establish position. If already mid-lift, drive through the hook by committing to a lateral direction that neutralizes the leg entanglement, accepting potential scramble → Leads to [[Positions/Half Guard]]
 - **Opponent peels your grip open during the setup phase** (Effectiveness: Medium) - Your Response: Immediately re-establish the grip in a different configuration—switch from body lock to seatbelt or vice versa. Use the grip fighting exchange to create a timing window when they relax after breaking the grip, then re-lock and initiate the lift during that momentary relaxation → Leads to [[Positions/Standing Rear Clinch]]
@@ -255,6 +263,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Suplex from Rear Clinch?</p>
 
 ### 1. Attempting to lift using arm and back strength instead of hip and leg drive
 
@@ -294,6 +304,8 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Suplex from Rear Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip extension and lifting movement pattern
 Practice the hip drive and level change mechanics without a partner using resistance bands or medicine ball lifts that replicate the suplex movement pattern. Focus on loading the legs, driving hips forward and upward, and developing explosive power from the ground up. Build foundational strength and movement fluency before adding a training partner.
 
@@ -314,42 +326,12 @@ Apply the suplex in live rolling and positional sparring from the standing rear 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary power source for the suplex lift, and why is this important?
-**A**: The primary power source is hip extension and leg drive, not arm or back strength. This is important because the legs generate far more force than the arms, the spinal loading from arm-based lifting risks back injury, and leg-driven lifts are sustainable across multiple attempts without premature fatigue. The arms serve only as the connection point to transmit leg power into the opponent's body.
-
-**Q2**: Why must the throwing arc be directed laterally rather than straight overhead?
-**A**: Lateral throwing direction ensures the opponent lands on their upper back or side rather than their head or neck, dramatically reducing the risk of cervical spine injuries. Many competition rulesets penalize or disqualify overhead throws that result in head-first landings. Additionally, the lateral arc naturally positions the attacker for side control establishment upon landing, making the transition to ground control more efficient.
-
-**Q3**: Your opponent drops their weight and widens their base as you begin to lift—how do you adapt?
-**A**: Abandon the direct overhead lift and switch to a lateral suplay or lateral drop variation that uses their lowered center of gravity against them. Alternatively, use the failed suplex attempt as a setup for a mat return or body lock takedown, which are more effective against a lowered base. The key is recognizing immediately when the opponent's defense has neutralized the primary lift and transitioning to a complementary technique rather than forcing.
-
-**Q4**: What grip configuration provides the most secure control for executing the suplex?
-**A**: A high body lock with hands clasped using a gable grip or S-grip around the opponent's lower ribcage provides the most secure control. The lock should be positioned high enough to control the opponent's torso but low enough to maintain mechanical advantage for the lift. The seatbelt grip offers more submission threats but is easier to strip during the lift, making the locked body lock the preferred configuration for suplex execution specifically.
-
-**Q5**: At what moment during the rear clinch exchange is the optimal timing window for initiating the suplex?
-**A**: The optimal timing window is when the opponent shifts their weight forward during grip fighting, takes a step that momentarily narrows their base, or relaxes briefly after successfully defending a different takedown attempt. The suplex is most effective when the opponent's center of gravity is already moving in a direction that complements your lifting vector, requiring less force to break their connection to the ground.
-
-**Q6**: What should you do if you feel the opponent hook your leg during the lift attempt?
-**A**: If you feel the hook before full commitment to the lift, abort immediately and re-establish your position by stepping your hooked leg free and resetting the body lock. If already mid-lift, commit to a lateral direction that drives through the hook, accepting a potential scramble but maintaining forward pressure. Never attempt to complete a vertical lift with a hooked leg, as this almost certainly results in falling underneath the opponent.
-
-**Q7**: How does the suplex threat integrate with other takedown options from the rear clinch?
-**A**: The suplex creates a high-low takedown dilemma. When you threaten the suplex, opponents lower their base, which makes the mat return and body lock takedown more effective. Conversely, when opponents maintain upright posture to defend the mat return, they become more vulnerable to the explosive suplex lift. This complementary relationship means you should chain these techniques together, using the threat of one to create openings for the others.
-
-**Q8**: What are the critical safety considerations when drilling the suplex with a training partner?
-**A**: Always use adequate mat padding and ensure sufficient clear space around the drilling area. Begin with cooperative partners who assist the lift and practice controlled landings before adding resistance. Communicate clearly about intensity level and landing direction before each repetition. Never attempt overhead throws onto hard surfaces. The thrower must maintain grip throughout the landing to control descent speed and protect both practitioners from impact injuries.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Suplex from Rear Clinch?</p>
 
 The suplex carries significant injury risk for both practitioners and demands strict safety protocols. Always direct throws laterally rather than overhead to prevent head and cervical spine injuries. Use crash mats or adequate padding during initial drilling phases. Maintain grip throughout the throw to control the opponent's landing—never release mid-air. Both practitioners should warm up thoroughly with emphasis on neck, shoulders, and spine mobility. Communicate clearly about intensity and direction before each repetition. In competition, verify ruleset legality as some organizations restrict or penalize suplexes. Never attempt suplexes on concrete, thin mats, or near walls and boundaries. The thrower bears responsibility for their partner's safe landing at all times.
 

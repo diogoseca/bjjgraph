@@ -42,9 +42,11 @@ function showSnackbar(options: SnackbarOptions) {
 
   container.appendChild(snackbar)
 
-  // Auto-dismiss after 5 seconds
+  // Auto-dismiss after 5 seconds using transform transition (not animation replay)
   setTimeout(() => {
-    snackbar.style.animation = "slideUp 0.3s ease-out reverse"
+    snackbar.style.transition = "transform 0.3s ease-out, opacity 0.3s ease-out"
+    snackbar.style.transform = "translateY(100%)"
+    snackbar.style.opacity = "0"
     setTimeout(() => snackbar.remove(), 300)
   }, 5000)
 }
@@ -52,12 +54,18 @@ function showSnackbar(options: SnackbarOptions) {
 // Expose globally for other scripts
 ;(window as any).showSnackbar = showSnackbar
 
-// Check for pending snackbar from navigation
+// Check for pending snackbar from navigation, and clear lingering snackbars
 document.addEventListener("nav", () => {
+  // Remove any lingering snackbars from previous page
+  const container = document.getElementById("snackbar-container")
+  if (container) {
+    while (container.firstChild) container.firstChild.remove()
+  }
+
+  // Then show pending snackbar
   const pending = sessionStorage.getItem("snackbar")
   if (pending) {
     sessionStorage.removeItem("snackbar")
-    const data = JSON.parse(pending)
-    showSnackbar(data)
+    showSnackbar(JSON.parse(pending))
   }
 })

@@ -204,15 +204,15 @@ The Seat Belt to Body Triangle transition occupies a pivotal role within the bac
 
 - [[Transitions/Body Triangle Squeeze]] - Follow-up submission — body triangle compression can be used as a direct finishing technique once established
 
-- [[Submissions/Body Triangle RNC]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
+- [[Rear Naked Choke from Body Triangle]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
 
 - [[Positions/Half Guard]] - Counter outcome — defender may recover half guard if they exploit the hook release during transition
 
 - [[Transitions/Back Control Maintenance]] - Alternative strategy — maintaining hooks rather than upgrading to body triangle when transition risk is too high
 
-- [[Transitions/Rear Naked Choke]] - Primary attack from destination — body triangle amplifies RNC effectiveness through breathing restriction
+- [[Submissions/Rear Naked Choke]] - Primary attack from destination — body triangle amplifies RNC effectiveness through breathing restriction
 
-- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade
+- [[Submissions/Bow and Arrow Choke]] - Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade
 
 - [[Transitions/Escape Seat Belt Control]] - Defensive context — understanding defender's escape options informs optimal timing for the transition
 

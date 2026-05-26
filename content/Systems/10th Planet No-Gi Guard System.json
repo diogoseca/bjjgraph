@@ -298,9 +298,9 @@
       "relationship": "Primary submission finish from rubber guard"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Secondary submission from rubber guard"
+      "relationship": "Alternative submission from rubber guard positions"
     },
     {
       "name": "Gogoplata",
@@ -313,24 +313,24 @@
       "relationship": "Signature submission finish from truck"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "content_type": "Submission",
       "relationship": "Alternative finish from truck position"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "content_type": "Submission",
       "relationship": "Primary submission from lockdown system"
     },
     {
-      "name": "Guard Retention",
+      "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Fundamental principle underlying all guard work"
+      "relationship": "Fundamental principle enabling guard maintenance and recovery"
     },
     {
-      "name": "Flexibility Training",
+      "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Essential physical preparation for system execution"
+      "relationship": "Hip mobility foundation enabling rubber guard and inverted positions"
     },
     {
       "name": "Submission Chains",
@@ -338,9 +338,9 @@
       "relationship": "Strategic framework connecting system attacks"
     },
     {
-      "name": "System Building",
+      "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Methodology for integrating techniques into cohesive system"
+      "relationship": "Methodology for forcing opponents to choose between losing options"
     },
     {
       "name": "10th Planet Rubber Guard System",

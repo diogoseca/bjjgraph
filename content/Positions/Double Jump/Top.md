@@ -169,6 +169,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Jump (Top)?</p>
+
 - Top practitioner's legs hooked inside bottom opponent's thighs bilaterally, with feet controlling hip positioning and preventing base recovery
 - Top practitioner maintains upper body control through harness grips (seatbelt), crossface, or overhook positioning to prevent opponent's escape to guard
 - Bottom opponent remains in turtle base position (hands and knees) but with compromised hip control due to leg hooks eliminating lower body stability
@@ -182,6 +184,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Double Jump (Top)?</p>
+
 - Opponent in defensive turtle position with hands and knees on mat
 - Top practitioner has positional dominance from previous guard pass, scramble, or turtle attack
 - Sufficient space and timing to establish first leg hook without immediate counter
@@ -194,6 +198,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Double Jump?</p>
 
 - Establish leg hooks progressively or explosively depending on opponent's base strength and defensive awareness
 - Maintain constant upper body pressure to prevent opponent sitting to guard or rolling through escapes
@@ -209,6 +215,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Jump (Top)?</p>
 
 **If opponent maintains strong turtle base and resists hook insertion:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
@@ -240,6 +248,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Double Jump?</p>
 
 ### 1. Establishing leg hooks without securing upper body control first
 
@@ -279,6 +289,8 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Double Jump attacks?</p>
+
 ### Progressive Hook Insertion Drill
 
 Partner maintains defensive turtle while you practice inserting first hook, establishing control, then adding second hook. Partner provides 50% resistance, gradually increasing to 75% as technique improves. Focus on maintaining upper body control throughout hook insertion sequence. Drill both progressive insertion (one hook at a time) and explosive double hook entry.
@@ -304,38 +316,6 @@ Start each round with you in Double Jump Top position with both hooks establishe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct sequence for establishing Double Jump Top position?
-**A**: The correct sequence is: first establish upper body control through crossface, overhook, or harness grip, then insert the first leg hook while maintaining chest pressure, and finally add the second hook once base control is secured. Upper body control must always precede leg hook insertion to prevent opponent from sitting to guard or performing roll escapes.
-
-**Q2**: How do you maintain weight distribution to prevent being rolled over in Double Jump Top?
-**A**: Weight distribution should be balanced between chest pressure on opponent's upper back and active leg control through the hooks. Avoid overcommitting weight forward onto their back, as this creates the momentum needed for forward roll escapes. Keep your own base by maintaining hip connection and being ready to follow any defensive movements without losing balance.
-
-**Q3**: Your opponent starts to sit back toward butterfly guard - what adjustment do you make?
-**A**: As soon as you feel opponent beginning the sitting motion, immediately transition to crab ride or begin taking the back by following their movement. Use their sitting action as momentum to slide into back control position. Do not try to prevent the sit - instead, use it as an opportunity to advance position by staying connected and moving with their motion.
-
-**Q4**: What are the essential grip configurations for controlling from Double Jump Top?
-**A**: The primary grip options are: seatbelt/harness grip (one arm over shoulder, one under armpit with hands connected), crossface control (forearm across opponent's face with shoulder pressure), or overhook on the near arm combined with head control. The seatbelt is most effective for transitioning to back control, while crossface maintains pressure during hook insertion.
-
-**Q5**: How do you apply pressure correctly in Double Jump Top position?
-**A**: Pressure is applied through chest-to-back connection with weight distributed forward and downward into opponent's upper back or shoulder region. The leg hooks should actively pull opponent's hips while your chest drives them toward the mat. Pressure should be constant but controlled, preventing defensive reactions while maintaining your own stability to follow any escape attempts.
-
-**Q6**: Your opponent tries to roll away from your pressure - how do you respond?
-**A**: When opponent rolls away, maintain your hook control and follow their rotation while transitioning to truck position. Their rolling motion actually facilitates your entry into truck by creating the necessary momentum. Keep your hooks deep and your upper body connected throughout the roll, using their escape attempt to advance to an even more dominant leg entanglement.
-
-**Q7**: How do you manage energy in Double Jump Top since it is a transitional position?
-**A**: Double Jump Top should not be held statically for extended periods. Commit to advancing within 5-10 seconds of establishing hooks by transitioning to back control, truck, or crab ride. The position requires active work to maintain, so staying too long allows opponent to recover and extract hooks. Use the position as a launching pad for attacks rather than a holding position.
-
-**Q8**: What do you do if opponent successfully extracts one of your hooks?
-**A**: If one hook is extracted, immediately transition to a single-hook attacking position like crab ride, or use the remaining hook to establish half back control. Do not try to force the second hook back in against a defended position. Instead, use the remaining control points to advance to an alternative dominant position or attack the exposed side with upper body submissions.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

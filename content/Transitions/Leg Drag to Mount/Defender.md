@@ -166,6 +166,8 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Mount?</p>
+
 - Opponent releases their grip on your crossed leg or loosens leg control while maintaining heavy upper body pressure—this signals the step-over is imminent
 - Opponent's far leg begins lifting or swinging in a wide arc over your torso—the physical movement of stepping over is visible and creates a brief weight shift
 - Increased forward pressure through the shoulder or chest as opponent drives you flat before initiating the mount transition—this flattening pressure precedes every mount attempt
@@ -177,6 +179,8 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Mount?</p>
 
 - Act during the step-over window—the moment they release leg control to step over is your best opportunity to insert frames or recover guard
 - Your near-side knee is your primary defensive weapon—inserting it as a shield blocks the mount transition completely
@@ -191,6 +195,8 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Mount?</p>
 
 ### 1. Insert near-side knee shield during the step-over phase by hip escaping slightly and driving your knee between your body and the passer's torso
 
@@ -228,6 +234,8 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Mount?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Frame aggressively at the passer's shoulder and hip before they can initiate the step-over. Use hip escape to create distance and prevent them from releasing leg control. If successful, you force them to remain in leg drag rather than advancing, and from there you can work standard leg drag escapes to recover guard or stand up.
@@ -243,6 +251,8 @@ Time your knee shield insertion to the exact moment the passer releases leg cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Mount?</p>
 
 ### 1. Waiting until the passer has completed the step-over before attempting any defensive action
 
@@ -272,6 +282,8 @@ Time your knee shield insertion to the exact moment the passer releases leg cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Mount?</p>
+
 **Week 1-2** - Recognition and timing drills
 Partner establishes leg drag control and slowly initiates the mount transition. Practice identifying the recognition cues (leg release, weight shift, far leg movement) and responding with a basic knee shield insertion. No resistance from passer—focus purely on reading the cues and timing your response correctly.
 
@@ -288,29 +300,6 @@ Incorporate defense into live positional sparring starting from leg drag control
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the leg drag to mount transition?
-**A**: The most critical window is the moment the passer releases their grip on your crossed leg and begins stepping their far leg over your torso. During this brief phase, they must shift weight and temporarily lose their primary control point. This is when knee shield insertion or a well-timed hip escape has the highest success rate because the passer is mid-transition and cannot easily abort.
-
-**Q2**: Your opponent begins stepping their far leg over while driving heavy crossface pressure—what is your immediate defensive sequence?
-**A**: First, use your far hand to block or redirect the crossface to prevent being flattened completely. Simultaneously, hip escape slightly away from the passer to create space at your near hip. Then drive your near knee between your body and the passer's torso as they step over, establishing a knee shield. The frame buys time, the hip escape creates space, and the knee shield stops the mount. All three happen nearly simultaneously.
-
-**Q3**: Why is turning away from the passer a dangerous defensive choice during the mount transition?
-**A**: Turning away exposes your back and gives the passer a clear path to abandon the mount attempt in favor of back control, which is an even more dominant and dangerous position. Skilled passers build their leg drag system around this exact dilemma—turn away and they take the back, stay flat and they take mount. The correct response is to turn slightly toward them with frames, denying both options.
-
-**Q4**: What are the primary recognition cues that tell you the mount transition is about to begin?
-**A**: The key cues are: the passer loosens or releases their grip on your crossed leg while increasing upper body pressure; the passer shifts their hands from leg control to head or shoulder control positions; you feel increased flattening pressure through the crossface or shoulder; and most visibly, the passer's far leg begins lifting off the mat to initiate the step-over arc. Any of these cues should trigger immediate defensive action.
-
-**Q5**: If the mount has already been partially completed with one leg over, what is your best remaining defensive option?
-**A**: If one leg is already over but they haven't settled their weight, immediately begin your mount escape rather than trying to prevent the mount. Bridge toward the side where they stepped over to disrupt their settling, then hip escape to insert a knee before they establish grapevines or hooks. The transition from partial mount to settled mount is itself a window—act before they consolidate. Waiting for them to settle makes escape significantly harder.
-
-
-
-</section>
 
 
 </main>

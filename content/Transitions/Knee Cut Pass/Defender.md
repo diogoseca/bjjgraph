@@ -172,6 +172,8 @@ Successful defense requires understanding the passer's sequential dependencies: 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Cut Pass?</p>
+
 - Opponent secures cross-collar grip with thumb inside and grabs your pants at the knee, establishing the two key grips for the pass
 - Opponent steps one foot up into combat base position with the passing-side knee raised, signaling the pass is about to initiate
 - Opponent begins driving their knee forward and across your thigh line while pulling your far leg with their pants grip
@@ -184,6 +186,8 @@ Successful defense requires understanding the passer's sequential dependencies: 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Cut Pass?</p>
 
 - Deny the cross-collar grip and pants grip early through active hand fighting before the pass sequence begins
 - Insert knee shield or shin frame before the cutting knee crosses your thigh line to create a structural barrier
@@ -199,6 +203,8 @@ Successful defense requires understanding the passer's sequential dependencies: 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Cut Pass?</p>
 
 ### 1. Insert knee shield by placing your shin across opponent's chest or hip before their knee cuts through
 
@@ -243,6 +249,8 @@ Successful defense requires understanding the passer's sequential dependencies: 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Cut Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Insert knee shield early, frame on shoulder and hip, then shrimp your hips away to re-establish feet-on-hips distance. Strip their collar grip with a two-on-one break and push their knee back to reset the engagement. Focus on disrupting their grip sequence before the knee cut initiates.
@@ -258,6 +266,8 @@ Time the underhook entry to the passer's forward weight shift. As their chest dr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Cut Pass?</p>
 
 ### 1. Staying flat on your back without turning to your side as the knee cut initiates
 
@@ -292,6 +302,8 @@ Time the underhook entry to the passer's forward weight shift. As their chest dr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Cut Pass?</p>
+
 **Phase 1: Recognition and Framing (Weeks 1-2)** - Identifying the pass and establishing defensive frames
 Partner executes slow knee cut passes while you practice recognizing the setup cues (grip combination, combat base, knee drive) and immediately establishing frames on shoulder and hip. Focus on turning to your side and maintaining hip mobility. No active defense beyond framing - just building recognition patterns and frame placement muscle memory.
 
@@ -308,29 +320,6 @@ Partner uses knee cut as part of a complete passing system with full resistance.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee cut pass is being initiated?
-**A**: The earliest cue is the grip combination - opponent secures a cross-collar grip with thumb inside and grabs your pants at the knee. This specific grip pair is the prerequisite for the knee cut and should trigger immediate defensive grip fighting. The next cue is stepping to combat base with one knee up, which confirms the pass direction and should prompt knee shield insertion.
-
-**Q2**: Your opponent has already driven their knee through your thigh line but has not cleared your far leg - what is your best remaining defensive option?
-**A**: At this late stage, your best option is to lock half guard by triangling your legs around their cutting leg before they clear your far leg past their hips. Immediately after catching half guard, establish an underhook on the passing side or insert a knee shield to prevent them from completing a half guard pass. While not ideal, this prevents the full pass to side control and gives you a structured position to work from.
-
-**Q3**: Why is turning to your side critical when defending the knee cut pass?
-**A**: Turning to your side preserves hip mobility, which is essential for shrimping, inserting knee shields, and recovering guard. A flat-on-your-back position eliminates hip escape angles, makes your frames structurally weak because they have no skeletal backing, and allows the passer to pin you with chest pressure. Side positioning also enables you to threaten underhooks and sit-up counters that are impossible from flat.
-
-**Q4**: How should you coordinate your upper body frames with your lower body defense against the knee cut?
-**A**: Your arms and legs must work as a unified system. As your forearm frames on the passer's shoulder to prevent chest pressure, your near leg should simultaneously be inserting a knee shield across their hip or chest. Your far hand controls their pants grip or hip while your far leg creates distance by pushing on their far hip. Disconnected defense where upper body frames while legs are passive allows the passer to simply work around your arms.
-
-**Q5**: When is the optimal moment to attempt an underhook counter against the knee cut pass?
-**A**: The optimal moment is when the passer commits their weight forward during the cutting motion. At this point their base is compromised because their weight is projecting forward over the cutting knee, making them vulnerable to being driven sideways or lifted. You must time the underhook entry precisely - too early and they can whizzer to counter, too late and their shoulder pressure is already established making it impossible to get underneath them.
-
-
-
-</section>
 
 
 </main>

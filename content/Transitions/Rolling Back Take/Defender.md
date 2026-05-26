@@ -162,6 +162,8 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rolling Back Take?</p>
+
 - Attacker's chest pressure shifts from centered on your back to loading heavily onto one shoulder, indicating the rolling direction
 - Attacker secures an over-under grip configuration with one arm threading under your far armpit and the other wrapping over your near shoulder or head
 - Attacker's head drops tight against your shoulder blade with chin tucked, positioning for the forward roll
@@ -174,6 +176,8 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Back Take?</p>
 
 - Recognize weight loading on your upper back as the primary pre-attack cue and react before the roll initiates
 - Maintain active hands that strip grips rather than staying in passive defensive turtle shell
@@ -188,6 +192,8 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Back Take?</p>
 
 ### 1. Post far arm wide and base out to block the rolling path
 
@@ -225,6 +231,8 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Back Take?</p>
+
 ### → [[Positions/Turtle]]
 
 Block the roll by posting your far arm wide and basing out when you feel the attacker loading weight onto your shoulder. Strip their under-arm grip with your near hand while maintaining structural integrity in your turtle. The attacker returns to standard top turtle without having advanced position.
@@ -240,6 +248,8 @@ Time your turn to coincide with the attacker's committed rotation. As they roll 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Back Take?</p>
 
 ### 1. Remaining completely static in turtle without reacting to the weight shift
 
@@ -274,6 +284,8 @@ Time your turn to coincide with the attacker's committed rotation. As they roll 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Back Take?</p>
+
 **Week 1-2: Recognition Drill** - Identifying rolling back take setup cues from turtle bottom
 Partner telegraphs the rolling back take setup at slow speed, loading weight and establishing grips. Bottom player calls out each recognition cue as they feel it: weight shift, grip threading, head positioning. No actual roll execution. Build the sensory vocabulary for recognizing the attack before it happens.
 
@@ -290,29 +302,6 @@ Positional sparring from turtle bottom against partner using full-speed rolling 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a rolling back take is being set up?
-**A**: The earliest cue is a shift in chest pressure from centered on your back to loading heavily onto one shoulder. This weight shift indicates the attacker is preparing to roll in that direction. You may also feel their arm threading under your far armpit, which is the grip they need to maintain connection during the roll. Recognizing this weight shift gives you the critical 1-2 second window to deploy your primary defense before momentum becomes irrecoverable.
-
-**Q2**: Why is posting the far arm the most effective primary defense against the rolling back take?
-**A**: Posting the far arm creates a structural barrier in the path of the roll. The attacker needs a clear arc over your shoulder to complete the rotation, and a posted arm blocks this path entirely. The post also widens your base, making it much harder for the attacker to generate enough momentum to roll you. However, you must be aware that the posted arm can be targeted for armbar or crucifix transitions, so this defense should be paired with active grip fighting on your near side.
-
-**Q3**: Your attacker commits to the roll and you feel yourself being pulled over - what is the best mid-roll defensive action?
-**A**: Once the roll is committed and you are being pulled over, your best action is to aggressively turn your hips and shoulders toward the attacker during the rotation. Use their rolling momentum to help you face them rather than ending up with your back to them. This is essentially converting their back take attempt into a scramble where you recover guard. The key is turning toward the attacker, never away, and keeping your arms tight to prevent them from maintaining the connection needed to establish hooks upon landing.
-
-**Q4**: How does lateral movement in turtle help prevent the rolling back take setup?
-**A**: Lateral movement disrupts the attacker's ability to center their weight on your upper back, which is the prerequisite for loading the roll. By constantly shifting laterally, you prevent the attacker from establishing the stable platform they need to generate forward rolling momentum. Lateral movement also forces them to continuously readjust their grips and alignment, creating opportunities for you to strip grips or transition to escape sequences. The attacker needs you to be relatively stationary for the technique to work.
-
-**Q5**: What is the risk of attempting to stand up when you feel the rolling back take being initiated?
-**A**: Attempting to stand during the roll initiation is extremely dangerous because your upward momentum gets redirected by the attacker's forward force, creating a compounding effect that pulls you backward with even greater momentum. The attacker essentially uses your standup energy to accelerate their roll. Additionally, standing raises your center of gravity, making you less stable and easier to rotate. The standup defense must be deployed before the attacker loads weight, not during or after the roll begins.
-
-
-
-</section>
 
 
 </main>

@@ -103,7 +103,7 @@
       "relationship": "Related control position with different escape mechanics for comparison"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Possible outcome when escape creates contested 50-50 situation"
     }
   ],
@@ -248,7 +248,7 @@
         "description": "Positional sparring starting in scarf hold with full resistance. Bottom player works complete escape system while top player defends. 3-minute rounds with position reset if escape succeeds or submission is achieved. Track escape success rate across rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why are standard side control shrimping escapes ineffective against scarf hold and what movement pattern replaces them?",
         "answer": "The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest."
@@ -365,7 +365,7 @@
         "correction": "Actively feel for and counter each element of escape setup: collapse frames immediately, remove leg hooks promptly, re-tighten head control after any adjustment"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the three pillars of scarf hold control that you must maintain to prevent escapes?",
         "answer": "The three pillars are heavy hip pressure through the ribcage restricting breathing and movement, tight head control with the far arm preventing rotational angles necessary for bridge-and-turn escapes, and firm near arm isolation that eliminates the bottom player's strongest defensive tool. When one pillar is temporarily compromised, the remaining two must compensate while you restore full control."

@@ -352,13 +352,13 @@ Competition strategy development requires three-phase drilling methodology: isol
 - [[Mental Game Framework]] (System) - Psychological preparation system addressing competition anxiety and performance under pressure
 - [[IBJJF Strategy Guide]] (System) - Rule-set specific strategic framework for International Brazilian Jiu-Jitsu Federation competitions
 - [[No-Gi Competition Approach]] (System) - Tactical adaptations for submission-only and no-gi tournament formats
-- [[Match Strategy]] (Principle) - Core principle of in-match tactical decision-making and adaptive planning
+- [[Timing and Rhythm]] (Principle) - Core principle governing in-match tactical timing, tempo control, and recognizing windows for attacks and transitions
 - [[Competition Mindset]] (Principle) - Psychological framework for maintaining composure and confidence under competitive pressure
-- [[Game Planning]] (Principle) - Strategic principle for developing comprehensive pre-match tactical approaches
+- [[Position Chains]] (Principle) - Strategic principle for planning sequential positional advances and linking techniques into coherent game plans
 - [[Positional Hierarchy]] (Principle) - Fundamental principle defining position quality and advancement priorities for scoring optimization
-- [[Energy Management System]] (Principle) - Principle governing effort distribution and pacing throughout match duration and tournament day
+- [[Energy Conservation]] (Principle) - Principle governing effort distribution and pacing throughout match duration and tournament day
 - [[Position-Over-Submission Approach]] (Principle) - Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk
-- [[Risk Assessment]] (Principle) - Decision-making framework for evaluating when to accept technical risk versus maintaining conservative control
+- [[Defensive Concepts]] (Principle) - Decision-making framework for evaluating defensive options, risk tolerance, and maintaining composure in inferior positions
 - [[Guard Pull]] (Transition) - Strategic opening technique allowing immediate ground engagement and avoidance of takedown exchanges
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position and early point scoring in standing phase
 - [[Knee Slice Pass]] (Transition) - Fundamental guard pass providing reliable route to side control and point accumulation
@@ -374,7 +374,7 @@ Competition strategy development requires three-phase drilling methodology: isol
 - [[Turtle]] (Position) - Defensive position commonly used when avoiding guard pass, requires strong defense to prevent back take and point concession
 - [[Rear Naked Choke]] (Submission) - Highest-percentage submission from back control, ultimate finishing objective in many competitive game plans
 - [[Triangle Choke]] (Submission) - High-percentage submission from guard positions providing strong finishing threat while maintaining positional control
-- [[Armbar from Guard]] (Submission) - Fundamental submission attack from guard offering reliable finishing opportunity when opponent posts arms
+- [[Armbar from Armbar Control]] (Submission) - Fundamental armbar completion applicable from multiple dominant positions, high-percentage finish when opponent exposes arms during guard retention or escape attempts
 - [[Kimura]] (Submission) - Versatile submission available from multiple positions, often used to force reactions and create advancement opportunities
 
 

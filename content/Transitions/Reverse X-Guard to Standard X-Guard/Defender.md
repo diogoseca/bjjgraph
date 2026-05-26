@@ -166,6 +166,8 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X-Guard to Standard X-Guard?</p>
+
 - Bottom player's hips begin rotating from the inverted Reverse X angle toward a more squared-up position facing you directly
 - Primary hook behind your knee loosens or begins sliding as the bottom player starts repositioning it to the far hip
 - Bottom player tightens sleeve or collar grip noticeably, pulling your posture forward to mask the hook exchange
@@ -178,6 +180,8 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X-Guard to Standard X-Guard?</p>
 
 - Recognize the hip rotation and hook movement that signals the transition is beginning before hooks fully disengage
 - Attack during the window of reduced hook pressure rather than waiting for the new guard configuration to settle
@@ -192,6 +196,8 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X-Guard to Standard X-Guard?</p>
 
 ### 1. Backstep and extract the controlled leg during hook exchange, driving hips away from bottom player
 
@@ -229,6 +235,8 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X-Guard to Standard X-Guard?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 Time your backstep or leg extraction to coincide with the hook exchange window. When the primary hook releases from behind your knee, immediately drive your hips back and step your leg free while maintaining upper body control. Transition directly to Headquarters by establishing knee-line control on the now-freed leg.
@@ -244,6 +252,8 @@ Apply heavy forward pressure during the transition to collapse the bottom player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X-Guard to Standard X-Guard?</p>
 
 ### 1. Waiting passively for the transition to complete before attempting to defend or counter
 
@@ -273,6 +283,8 @@ Apply heavy forward pressure during the transition to collapse the bottom player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X-Guard to Standard X-Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner performs the Reverse X to Standard X transition at slow speed while you practice identifying each recognition cue: hip rotation, grip tightening, hook loosening, and elevation increase. Call out each cue verbally as you feel it without attempting to counter yet.
 
@@ -289,29 +301,6 @@ Positional sparring starting from Reverse X-Guard Top. Bottom player has full fr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary window of opportunity for the defender during this transition?
-**A**: The primary window occurs when the bottom player's hooks are between positions during the reconfiguration. The primary hook releases from behind the knee to reposition to the far hip, and the secondary hook transitions from the hip to a butterfly position. During this exchange, the scissoring structure that generates sweep power is temporarily broken, creating the best opportunity for backstep extraction or smash pressure.
-
-**Q2**: How do you recognize that the bottom player is about to attempt this transition?
-**A**: The earliest cue is the bottom player's hips beginning to rotate from the inverted Reverse X angle toward a squared-up position. They will also tighten their sleeve grip noticeably and increase elevation pressure to create space for hook movement. Feeling the primary hook behind your knee begin to loosen or slide is the definitive signal that the transition has started and your counter window is open.
-
-**Q3**: Your opponent begins rotating their hips and you feel the primary hook loosening - what is your immediate response?
-**A**: Immediately backstep your controlled leg at an angle, driving your hips away from the bottom player while stripping their sleeve grip with your free hand. The angular backstep is critical because straight backward movement loads their remaining hook. As you extract your leg, transition directly to Headquarters Position by driving your knee to the mat and establishing control over their now-freed leg before they can recover guard.
-
-**Q4**: Why is stripping the sleeve grip important before or during your defensive action?
-**A**: The sleeve grip is the anchor that freezes your posture during the transition. It prevents you from establishing the distance needed for backstep extraction and allows the bottom player to pull you back into guard even if you partially disengage hooks. Without it, their ability to control the timing and direction of the exchange collapses, and your escape becomes significantly higher percentage.
-
-**Q5**: What is the risk of attempting a backstep too early before the hooks have actually begun transitioning?
-**A**: If you backstep while the bottom player still has fully engaged Reverse X-Guard hooks, their strong hook configuration can redirect your backward movement into a sweep. The primary hook behind your knee combined with their hip elevation creates a powerful fulcrum, and your backstep momentum can be used against you. Wait for the definitive loosening of the primary hook before committing to the extraction.
-
-
-
-</section>
 
 
 </main>

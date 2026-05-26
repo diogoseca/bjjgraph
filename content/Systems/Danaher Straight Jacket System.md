@@ -354,12 +354,12 @@ The Straight Jacket System requires progressive drilling that emphasizes muscle 
 - [[Two-on-One to Back Take]] (Transition) - Standing clinch entry using two-on-one grip control to access back position
 - [[Matrix Back Take]] (Transition) - Advanced back take entry from specific guard positions using matrix movement pattern
 - [[Rear Naked Choke]] (Submission) - Primary submission finish from straight jacket and gift wrap control positions
-- [[Armbar from Back]] (Submission) - Alternative submission when opponent defends neck from straight jacket position
-- [[Kimura from Turtle]] (Submission) - Arm attack option when transitioning from turtle attack to back control
+- [[Armbar from Back Transition]] (Transition) - Alternative arm attack from back control when opponent defends neck from straight jacket position
+- [[Kimura on Trapped Arm]] (Transition) - Arm attack targeting immobilized limbs during back control and turtle-to-back transitions
 - [[Control Maintenance]] (Principle) - Fundamental principle underlying all system control levels - maintaining position before advancing
 - [[Position Chains]] (Principle) - Theoretical framework for understanding how positions connect - critical for system progression logic
 - [[Positional Hierarchy]] (Principle) - Concept explaining relative value of different control levels within back attack system
-- [[System Building]] (Principle) - Methodology for developing interconnected techniques into coherent strategic frameworks
+- [[Fork Attacks]] (Principle) - Core methodology for developing interconnected techniques into coherent strategic frameworks where every defense opens an alternative attack
 - [[Submission Chains]] (Principle) - Framework for creating submission sequences where defensive reactions open alternative finishes
 - [[Back Attack System]] (System) - Broader systematic framework for attacking from back positions that complements straight jacket methodology
 

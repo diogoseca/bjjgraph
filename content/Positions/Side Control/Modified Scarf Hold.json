@@ -39,8 +39,8 @@
       "relationship": "Opposite-side variation"
     },
     {
-      "name": "Scarf Hold Position",
-      "relationship": "Traditional variant with different chest placement"
+      "name": "Knee on Belly",
+      "relationship": "Alternative controlling position in side control family"
     }
   ],
   "top": {
@@ -81,7 +81,7 @@
       "Dynamic pressure beats static weight - adjust pressure angles as opponent moves",
       "Transition readiness is essential - be prepared to move to mount or north-south when opponent turns"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts to bridge explosively - what adjustment do you make to maintain position?",
         "answer": "Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact."
@@ -130,7 +130,7 @@
             "probability": 55
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar on Free Arm",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -262,16 +262,12 @@
     },
     "transitions": [
       {
-        "transition": "Americana",
-        "attempt_probability": 12
+        "transition": "Americana from Modified Scarf Hold",
+        "attempt_probability": 14
       },
       {
-        "transition": "Kimura",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Armbar Finish",
-        "attempt_probability": 10
+        "transition": "Armbar on Free Arm",
+        "attempt_probability": 14
       },
       {
         "transition": "Side Control to Mount",
@@ -282,15 +278,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "North-South Choke",
+        "transition": "North-South Choke from Modified Scarf Hold",
         "attempt_probability": 9
       },
       {
-        "transition": "Armbar on Free Arm",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Modified Scarf Hold",
         "attempt_probability": 9
       },
       {
@@ -303,7 +295,7 @@
       },
       {
         "transition": "Kimura from Modified Scarf Hold",
-        "attempt_probability": 2
+        "attempt_probability": 15
       }
     ]
   },
@@ -345,7 +337,7 @@
       "Hip movement becomes available only after creating upper body space",
       "Turtle is often the safest immediate escape destination from this position"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent increases chest pressure and you feel your breathing becoming restricted - what immediate adjustment do you make?",
         "answer": "Turn your head to the side away from the pressure and tuck your chin toward your far shoulder to protect your airway. Create micro-space by pressing your free hand against their hip or shoulder - not pushing up, but creating a frame to prevent them from settling deeper. Take shallow breaths using your diaphragm rather than trying to expand your chest against their weight."
@@ -460,7 +452,7 @@
         "duration": "3 minutes"
       },
       {
-        "name": "Frame Creation Sequence",
+        "name": "Frames Sequence",
         "description": "From Modified Scarf Hold bottom, practice creating frames with free arm at specific points (hip, shoulder, head) while partner maintains position",
         "duration": "5 minutes"
       },
@@ -518,35 +510,27 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Bridge and Roll",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Roll to Turtle",
-        "attempt_probability": 45
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Ghost Escape",
         "attempt_probability": 7
       },
       {
-        "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 2
+        "transition": "Bridge and Roll",
+        "attempt_probability": 4
       },
       {
-        "transition": "Side Control Escape",
-        "attempt_probability": 0
+        "transition": "Roll to Turtle",
+        "attempt_probability": 75
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Arm Extraction",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Ghost Escape",
+        "attempt_probability": 1
       },
       {
         "transition": "Bridge Escape from Modified Scarf Hold",

@@ -259,7 +259,7 @@
         "description": "Start in K-Guard bottom position with full resistance. Objective is to successfully transition to SLX and score a sweep or submission within 90 seconds. Track success rates to identify patterns and areas for improvement. Winner stays in preferred role."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary timing trigger that signals the optimal moment to initiate the K-Guard to SLX transition?",
         "answer": "The primary trigger is when the opponent shifts their weight backward, stands upright, or begins attempting to extract their trapped leg from K-Guard. This backward or upward weight shift creates the space needed for hook reconfiguration and simultaneously compromises their ability to prevent the transition because their weight is moving away from the control zone. Initiating during forward pressure is incorrect—that timing favors Deep Half entries instead."
@@ -376,7 +376,7 @@
         "correction": "Maintain crossface or collar tie control throughout your defensive response to prevent the bottom player from using upper body pulls to assist their transition"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating the K-Guard to SLX transition?",
         "answer": "The earliest cue is the inverted inside hook beginning to release from its crossed position over your trapped leg. In standard K-Guard, this hook maintains lateral pulling tension across your leg—when that tension changes or the hook begins unwinding, the bottom player is beginning the hook reconfiguration needed for SLX. Responding at this stage gives you the maximum prevention window before the transition gains momentum."

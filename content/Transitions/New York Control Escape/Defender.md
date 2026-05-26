@@ -162,6 +162,8 @@ Defending against the New York Control Escape requires the bottom player to reco
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York Control Escape?</p>
+
 - Top player widens their knees and drops their hips lower to the mat, establishing the wide base needed for escape
 - Top player's trapped shoulder begins rotating forward and their elbow drives toward their hip, initiating overhook extraction
 - Top player shifts weight laterally rather than driving forward, indicating systematic escape protocol rather than passing attempt
@@ -174,6 +176,8 @@ Defending against the New York Control Escape requires the bottom player to reco
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Control Escape?</p>
 
 - Monitor overhook depth constantly and immediately re-engage when extraction begins before the arm clears your armpit
 - Maintain active leg pressure across opponent's back to prevent the postural changes needed for escape
@@ -188,6 +192,8 @@ Defending against the New York Control Escape requires the bottom player to reco
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York Control Escape?</p>
 
 ### 1. Deepen overhook by driving arm further under opponent's armpit and clasping shoulder or own leg
 
@@ -225,6 +231,8 @@ Defending against the New York Control Escape requires the bottom player to reco
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York Control Escape?</p>
+
 ### → [[Positions/Rubber Guard/New York Control]]
 
 Immediately deepen overhook control when you feel the opponent's shoulder rotate or elbow pull toward hip. Keep active leg pressure across their back and threaten submissions to force them to abandon escape attempts and return to defensive positioning.
@@ -240,6 +248,8 @@ Time a hip bump sweep to coincide with the opponent's lateral weight shift durin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Control Escape?</p>
 
 ### 1. Allowing passive leg pressure without actively pulling knee toward opponent's far shoulder
 
@@ -269,6 +279,8 @@ Time a hip bump sweep to coincide with the opponent's lateral weight shift durin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York Control Escape?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues
 Partner telegraphs escape attempts by widening base and beginning shoulder rotation at slow speed. Practice recognizing these cues and immediately deepening overhook control. Focus on developing sensitivity to the base changes and shoulder movements that precede extraction attempts.
 
@@ -285,29 +297,6 @@ Full resistance from New York Control with bottom player working to maintain pos
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is initiating a New York Control Escape?
-**A**: The first reliable cue is the top player widening their knees and dropping their hips lower toward the mat, establishing the wide base needed for the lateral angle creation phase. This precedes the shoulder rotation and is your best window for proactive defense. Immediately deepen your overhook and increase active leg pressure when you observe this base change, as it indicates the escape protocol has begun before the arm extraction becomes the primary threat.
-
-**Q2**: How should you adjust when you feel the opponent's shoulder beginning to rotate forward under your overhook?
-**A**: Immediately drive your controlling arm deeper under their armpit while pulling your elbow toward your own hip to increase overhook depth. Simultaneously increase active leg pressure by pulling your knee more aggressively toward their far shoulder. If the rotation continues despite deepening, begin transitioning your leg toward their neck for a triangle setup, converting their extraction movement into submission vulnerability. The shoulder rotation is the critical extraction mechanic and stopping it early is far easier than countering a completed extraction.
-
-**Q3**: When is the optimal moment to attempt a sweep against someone escaping New York Control?
-**A**: The optimal sweep timing is during the lateral weight shift phase when the top player moves their center of gravity off-center to create angle for overhook extraction. Their base is transitionally compromised during this movement, making hip bump sweeps and overhook-assisted off-balancing most effective. Attempting the sweep too early before they shift means fighting against a stable base, while attempting too late after arm extraction means you have lost the overhook leverage needed to power the sweep.
-
-**Q4**: Your overhook is failing and you cannot prevent arm extraction - what transition preserves offensive pressure?
-**A**: Immediately transition to Mission Control or Crackhead Control by bringing your leg to their head and controlling posture with your shin before they can clear the leg wrap. Alternatively, if their arm is partially free, shoot for a triangle by threading your leg around their neck and freed arm. The key is recognizing overhook failure early enough to transition proactively rather than clinging to a lost grip. Any rubber guard control that maintains leg engagement preserves your offensive framework better than attempting to re-establish a compromised overhook.
-
-**Q5**: What prevents the top player from simply standing up explosively to escape New York Control?
-**A**: Active leg pressure across their back combined with the deep overhook creates a structural connection that tracks upward movement and converts their elevation into submission angles. When they stand, the leg wrap tightens across their shoulder and the overhook pulls their posture forward, creating improved gogoplata and triangle angles. To defend against standing escapes specifically, drive your leg wrap deeper and pull your overhook arm downward as they begin to elevate, loading their posture forward while their base lifts away from them.
-
-
-
-</section>
 
 
 </main>

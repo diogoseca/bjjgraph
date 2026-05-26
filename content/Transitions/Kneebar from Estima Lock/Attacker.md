@@ -16,7 +16,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kneebar from Estima Lock in BJJ",
-  "description": "Step-by-step guide for executing Kneebar from Estima Lock from Estima Lock/Top.",
+  "description": "Step-by-step guide for executing Kneebar from Estima Lock from Estima Lock Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,13 +180,15 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
 
 As the attacker executing the Kneebar from Estima Lock, your objective is to capitalize on the opponent's footlock defense by redirecting your attack from the ankle to the knee joint. The transition requires recognizing specific defensive patterns—counter-rotation of the foot, leg straightening for extraction, or frame creation with the free leg—and responding with a decisive hip switch that repositions your body perpendicular to the opponent's thigh. The key mechanical insight is that you never fully release leg control during the transition; instead, you slide your control point from the foot up to the knee while maintaining continuous pressure that prevents the opponent from recovering guard or creating distance. Success depends on timing the transition to coincide with the opponent's defensive commitment, precise hip placement across the front of the knee joint, and rapid consolidation of kneebar control before the opponent can adjust their defense to address the new threat vector.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Kneebar from Estima Lock?</p>
 
 - Maintain continuous leg control throughout the entire transition—never create a gap where the opponent can extract their leg completely
 - Time the transition to coincide with the opponent's peak defensive commitment to the Estima Lock, when they are most vulnerable to redirection
@@ -203,6 +205,8 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kneebar from Estima Lock?</p>
+
 - Established Estima Lock control with figure-four grip on opponent's inverted foot and hip pressure against their calf
 - Opponent actively defending the Estima Lock through counter-rotation, foot extraction attempt, or frame creation
 - Opponent's leg sufficiently straightened or accessible for kneebar hip placement across the knee joint
@@ -215,6 +219,8 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kneebar from Estima Lock step by step?</p>
 
 1. **Recognize the defensive trigger**: Identify that the opponent is successfully neutralizing your Estima Lock through counter-rotation of their foot, active foot extraction, or strong framing with their free leg. The key signal is diminishing rotational pressure despite maintained grip—this means the lock's effectiveness is fading and transition timing is optimal.
 2. **Neutralize the free leg**: Before committing to the hip switch, use your nearside leg to pin, hook, or push the opponent's free leg away from the transition path. If their free leg is actively pushing your hips, address this first by trapping it between your legs or posting against it. Failing to control the free leg is the most common reason this transition fails.
@@ -234,7 +240,7 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kneebar Control]] | 50% |
-| Failure | [[Positions/Estima Lock]] | 30% |
+| Failure | [[Positions/Estima Lock Control]] | 30% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
 
@@ -244,9 +250,11 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 
 ## Opponent Counters
 
-- **Opponent bends their knee sharply to prevent hyperextension during the hip switch** (Effectiveness: High) - Your Response: Thread your shin behind their calf to create a calf slicer threat that forces them to straighten, or maintain thigh control and work to pry the knee straight using hip pressure and forearm leverage against their ankle → Leads to [[Positions/Estima Lock]]
+<p class="section-subtitle">How might your opponent counter Kneebar from Estima Lock?</p>
+
+- **Opponent bends their knee sharply to prevent hyperextension during the hip switch** (Effectiveness: High) - Your Response: Thread your shin behind their calf to create a calf slicer threat that forces them to straighten, or maintain thigh control and work to pry the knee straight using hip pressure and forearm leverage against their ankle → Leads to [[Positions/Estima Lock Control]]
 - **Opponent uses free leg to push your hips away and create distance before you complete the transition** (Effectiveness: High) - Your Response: Trap their free leg with an underhook or by threading your arm under their knee before committing to the hip switch, or use a rolling entry that bypasses the free leg push entirely → Leads to [[Positions/Open Guard]]
-- **Opponent sits up and establishes grips on your body during the grip change** (Effectiveness: Medium) - Your Response: Accelerate through the transition rather than pausing—the sitting up motion actually brings their knee closer to your hips, making the kneebar easier if you complete the hip switch quickly before they can establish meaningful control → Leads to [[Positions/Estima Lock]]
+- **Opponent sits up and establishes grips on your body during the grip change** (Effectiveness: Medium) - Your Response: Accelerate through the transition rather than pausing—the sitting up motion actually brings their knee closer to your hips, making the kneebar easier if you complete the hip switch quickly before they can establish meaningful control → Leads to [[Positions/Estima Lock Control]]
 - **Opponent rolls toward you during the transition to alleviate kneebar angle** (Effectiveness: Medium) - Your Response: Follow their roll and maintain leg control throughout, using their rotational momentum to arrive in a belly-down kneebar position which is actually stronger than the standard position. Keep your grip locked on the thigh regardless of the rolling direction. → Leads to [[Positions/Kneebar Control]]
 
 
@@ -255,6 +263,8 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kneebar from Estima Lock?</p>
 
 ### 1. Releasing the Estima Lock grip before securing thigh control, creating a gap in leg control
 
@@ -299,6 +309,8 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kneebar from Estima Lock (Attacker)?</p>
+
 **Phase 1: Grip Change Mechanics** - Isolated grip transition from Estima Lock to thigh control
 Partner holds static Estima Lock position while you practice releasing the figure-four foot grip and immediately wrapping their thigh in one fluid motion. Focus on eliminating the gap between grips. No resistance, no hip switch yet—just the hand and arm mechanics of transitioning control points from foot to thigh.
 
@@ -319,42 +331,12 @@ Start from established Estima Lock top position. Opponent defends the footlock a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent counter-rotates their foot to neutralize the Estima Lock pressure—what specific signals tell you the kneebar transition is available?
-**A**: The key signals are: diminishing rotational pressure on the ankle despite your maintained grip, the opponent's foot angle flattening as they counter-rotate, their leg beginning to straighten as they prepare to extract their foot, and their defensive focus shifting to the foot rather than maintaining overall guard structure. When the Estima Lock's effectiveness fades despite maintained grip, the opponent's defensive posture has created the alignment needed for kneebar entry. Their straightened leg provides the hyperextension pathway, and their focused foot defense creates a gap in knee protection.
-
-**Q2**: What is the critical hip placement for the kneebar and why does positioning a few inches too high completely negate the submission?
-**A**: Your hip bone must land directly on the crease of the opponent's knee joint—the exact point where the femur meets the tibia. If you position even a few inches too high on the thigh, your hip acts as a fulcrum above the joint rather than across it, which means your bridging motion compresses the thigh muscle rather than hyperextending the knee. The opponent can freely bend their knee when the fulcrum is above the joint, completely eliminating any submission threat. Precise hip-to-knee alignment is non-negotiable for a functional kneebar.
-
-**Q3**: During the grip change from foot control to thigh control, your opponent begins pulling their leg back aggressively—how do you prevent losing the leg entirely?
-**A**: Overlap your control points during the grip change rather than creating a sequential release-then-grab pattern. Begin wrapping your arms around the thigh while your original grip is still partially on the foot, using your body against their leg as a third contact point. If they pull aggressively, clamp your knees together around their leg to create friction that slows extraction while you complete the thigh grip. The key principle is maintaining at least two points of contact at all times during the transition—never allow a moment where only one hand is touching their leg.
-
-**Q4**: What is the optimal timing window for initiating the kneebar transition from Estima Lock?
-**A**: The optimal window occurs when the opponent has committed fully to their Estima Lock defense but has not yet completed their escape. Specifically, this is the moment when they have successfully counter-rotated their foot to reduce ankle pressure, their leg has straightened as part of the extraction effort, and their free leg is engaged in pushing or framing rather than available for new defensive tasks. Transitioning too early abandons a still-viable footlock; transitioning too late means the opponent has already extracted and recovered guard. The sweet spot is when their defensive movement is at peak commitment and their structural alignment favors kneebar entry.
-
-**Q5**: Your opponent uses their free leg to push your hips forcefully during the hip switch—what immediate adjustment prevents the transition from failing?
-**A**: If the free leg push catches you mid-transition, you have two primary options depending on the push direction. If they push your hips directly away, switch to a rolling kneebar entry that uses the momentum of their push to roll through to the far side while maintaining thigh control—their push actually assists the roll. If they push laterally, underhook their free leg with your nearside arm to pin it before re-attempting the hip switch. The fundamental lesson is that the free leg must be addressed before committing to the transition; if you are already mid-switch when the push lands, convert to the rolling variant rather than fighting the push statically.
-
-**Q6**: What grip configuration provides the strongest thigh control during the transition and why?
-**A**: A gable grip (palm-to-palm) behind the opponent's knee while hugging their thigh tightly to your chest provides the strongest control during the transition. This grip is superior to a clasped-hand or S-grip because it distributes force across both forearms equally and is harder to strip. The thigh should be pulled tight against your sternum so that your entire torso acts as a clamp rather than relying solely on arm strength. Your forearms should cross behind the knee with your elbows squeezing inward, creating a structural lock that maintains control even if one hand is partially disrupted during the hip switch.
-
-**Q7**: You have completed the hip switch but the opponent is aggressively trying to bend their knee before you can establish the leg clamp—what is your priority?
-**A**: Your immediate priority is clamping your legs around their limb before perfecting any other detail. Triangle your legs around their leg with your top leg crossing over their hip and your bottom leg hooking behind their thigh, then squeeze your knees together forcefully. The leg clamp is the single most important control element of the kneebar because it prevents knee bending—without it, no amount of hip pressure creates submission threat. Even if your hip placement is slightly off, establish the leg clamp first, then adjust your hip position while the clamp prevents their escape.
-
-**Q8**: How does the direction of force application differ between the Estima Lock finish and the kneebar from the same position?
-**A**: The Estima Lock applies rotational force to the ankle joint—twisting the inverted foot toward the opponent's body while the forearm acts as a fulcrum across the top of the foot. The force vector is primarily rotational around the ankle's axis. The kneebar applies linear hyperextension force to the knee joint—bridging your hips forward into the knee crease while pulling the foot and ankle toward your chest. The force vector is perpendicular to the leg's natural bending direction. This fundamental difference in force direction is what makes the chain attack effective: defending the rotation exposes the leg to hyperextension, and defending the hyperextension may re-expose the ankle to rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kneebar from Estima Lock?</p>
 
 The kneebar attacks the knee joint through hyperextension, which can cause catastrophic injury to the ACL, PCL, and surrounding ligaments if applied explosively or without control. Always apply kneebar pressure gradually and steadily after establishing full control—never crank during the transition itself when the opponent may not yet recognize the new threat. In training, communicate clearly with your partner when transitioning from the Estima Lock to the kneebar, as the change in attack vector can catch defenders off-guard. Honor tap signals immediately and be especially cautious with less experienced training partners who may not recognize kneebar danger cues as quickly. The transition itself should be practiced at slow speed before increasing to competition tempo. Check your gym's ruleset regarding kneebar legality at your belt level before drilling in live sparring.
 

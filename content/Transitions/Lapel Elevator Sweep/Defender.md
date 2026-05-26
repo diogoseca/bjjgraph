@@ -164,6 +164,8 @@ The most important defensive principle is addressing the lapel configuration ear
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Elevator Sweep?</p>
+
 - Opponent feeds your lapel around your thigh or through their guard structure and establishes a persistent grip with constant pulling tension on the fabric
 - Opponent inserts a butterfly hook high on your inner thigh on the same side as the lapel grip while maintaining the lapel tension—this signals the elevation platform is set
 - Opponent reaches for your sleeve or wrist on the sweep side with their secondary hand while pulling you forward with the lapel—this is the final setup element before execution
@@ -175,6 +177,8 @@ The most important defensive principle is addressing the lapel configuration ear
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Elevator Sweep?</p>
 
 - Address the lapel configuration before it is fully established—prevention is far more effective than reactive defense once the compound lever is assembled
 - Maintain wide base and low center of gravity to resist the diagonal lifting vector of the sweep
@@ -188,6 +192,8 @@ The most important defensive principle is addressing the lapel configuration ear
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Elevator Sweep?</p>
 
 ### 1. Strip the lapel grip early by controlling opponent's gripping hand and systematically unwinding the fabric from your leg or torso before the full configuration is established
 
@@ -225,6 +231,8 @@ The most important defensive principle is addressing the lapel configuration ear
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Elevator Sweep?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip or create enough distance to neutralize the sweep threat, forcing the exchange back to a neutral lapel guard position where you can begin your passing sequence. The key is removing at least one of the three elements (lapel tension, hook placement, sleeve control) to disarm the compound lever system.
@@ -240,6 +248,8 @@ If the sweep is partially initiated but you manage to insert your knee and drive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Elevator Sweep?</p>
 
 ### 1. Ignoring the lapel configuration and attempting to pass as if it were a standard open guard
 
@@ -269,6 +279,8 @@ If the sweep is partially initiated but you manage to insert your knee and drive
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Elevator Sweep?</p>
+
 **Week 1-2** - Recognition and early intervention
 Partner slowly establishes lapel configurations from open guard. Practice recognizing each setup phase (lapel extraction, feeding, hook placement, sleeve grip) and intervening with grip strips at the earliest possible moment. Focus on reaction speed to the initial lapel feed rather than defending completed setups.
 
@@ -285,29 +297,6 @@ Defend the Lapel Elevator Sweep in live positional sparring starting from lapel 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three elements your opponent must establish before the Lapel Elevator Sweep becomes dangerous?
-**A**: The three elements are lapel tension (fabric wrapped around your body with constant pulling force), butterfly hook placement (positioned high on your inner thigh as the elevation fulcrum), and sleeve or wrist control (preventing your posting hand from basing out). If you remove any single element, the compound lever system cannot function and the sweep loses most of its effectiveness.
-
-**Q2**: Why is pulling backward to escape the sweep a common but critical defensive mistake?
-**A**: Pulling backward plays directly into the opponent's lapel guard strategy. The backward retreat creates the distance and angle they need to sit up and threaten a back take, or it re-loads the sweep by pulling you into their lapel tension from a worse angle. The correct response is driving weight forward to kill the elevation angle, or posting wide and backstep passing around the barrier.
-
-**Q3**: Your opponent has established the full lapel configuration with hook and sleeve grip—what is your last-resort defensive option?
-**A**: Post your free hand as wide as possible on the non-controlled side and drive your hips forward and down into the opponent to flatten the elevation angle. Simultaneously begin a backstep motion to navigate around the lapel barrier. Accept that you may expose your posting arm to omoplata—this is a calculated risk preferable to being swept cleanly to mount, which is a significantly worse positional outcome.
-
-**Q4**: At what stage is it easiest to defend the Lapel Elevator Sweep and why?
-**A**: The easiest stage to defend is during the initial lapel extraction and feeding, before the opponent has established the wrap around your body. At this point, a simple grip strip or forward pressure prevents the entire configuration from forming. Once the lapel is wrapped, each additional element (hook, sleeve grip) makes defense exponentially harder because you must solve multiple problems simultaneously under increasing mechanical disadvantage.
-
-**Q5**: How does your base width affect your vulnerability to the Lapel Elevator Sweep?
-**A**: A narrow base dramatically increases your vulnerability because the sweep uses a diagonal lifting vector—it tips you sideways, not straight backward. Wide base provides lateral stability that resists this diagonal force. When fighting lapel grips, always maintain your free leg posted far to the side as insurance against being swept during the grip exchange. Narrowing your base even momentarily during grip fighting creates the opening the sweep needs.
-
-
-
-</section>
 
 
 </main>

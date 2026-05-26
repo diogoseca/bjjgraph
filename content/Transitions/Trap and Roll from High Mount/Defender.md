@@ -154,6 +154,8 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Trap and Roll from High Mount?</p>
+
 - Bottom player uses both hands to grip your wrist and elbow on the same arm, pulling it diagonally across their chest
 - Bottom player's heel slides along the mat toward your ankle on the same side as the gripped arm
 - Bottom player plants their opposite foot flat on the mat close to their hip, loading the leg for an explosive bridge
@@ -166,6 +168,8 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Trap and Roll from High Mount?</p>
 
 - Never allow both your posting arm and same-side foot to be controlled simultaneously by the bottom player
 - Maintain awareness of hand and arm position relative to your base during all submission attempts
@@ -181,6 +185,8 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Trap and Roll from High Mount?</p>
 
 ### 1. Post free hand wide on the mat to create tripod base that prevents the roll
 
@@ -218,6 +224,8 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Trap and Roll from High Mount?</p>
+
 ### → [[Positions/Mount/High Mount]]
 
 Maintain awareness of arm position during submissions and immediately strip grips or post wide when you feel the two-on-one trap developing. Keep at least one foot mobile and ready to step wide for base when bridging pressure is detected. Re-settle heavy hips after neutralizing the attempt.
@@ -233,6 +241,8 @@ When you detect the arm trap setup, transition to S Mount by swinging your leg o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Trap and Roll from High Mount?</p>
 
 ### 1. Posting both hands forward for submissions without maintaining foot positioning awareness
 
@@ -262,6 +272,8 @@ When you detect the arm trap setup, transition to S Mount by swinging your leg o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Trap and Roll from High Mount?</p>
+
 **Phase 1: Recognition Drills** - Identifying trap and roll setups through tactile and visual cues
 Partner in high mount bottom attempts trap and roll at 50% speed. Top player practices recognizing the two-on-one grip fight, foot hook, and bridge preparation cues. Pause when recognized, discuss timing, and reset. Build pattern recognition before adding defensive responses.
 
@@ -278,26 +290,6 @@ Positional sparring from high mount where the bottom player specifically targets
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Trap and Roll attempt is developing?
-**A**: The earliest cue is the bottom player using both hands to grip your wrist or forearm on one side, pulling it diagonally across their chest. This two-on-one grip fight on a single arm is the distinctive first step that differentiates the trap and roll from other defensive movements like framing or submission defense. Secondary cues include feeling their heel sliding toward your ankle and noticing their opposite foot planting flat for bridging power.
-
-**Q2**: How should you modify your submission approach from High Mount to prevent Trap and Roll opportunities?
-**A**: Avoid extending both arms forward simultaneously, which shifts weight to your hands and creates bridging windows. Instead, maintain hip pressure while reaching with one hand at a time, keeping the other hand ready to post or retract. For collar chokes, advance your hips forward as your hands advance to keep weight on their chest. Alternate which arm reaches to prevent the bottom player from establishing the sustained two-on-one grip needed for the trap.
-
-**Q3**: Your opponent successfully traps your arm and hooks your foot—what is your best response?
-**A**: If both your arm and foot are trapped before the bridge, immediately post your free hand as wide as possible on the mat and drive your weight forward into cross-face pressure. If the bridge is too powerful to stop with the post alone, flow with the movement by transitioning to technical mount during the positional change rather than fighting the roll from a losing mechanical position. Accepting a transition to a slightly less dominant position is better than being fully reversed.
-
-**Q4**: Why is the transition to S Mount an effective counter when you detect the arm trap setup?
-**A**: The transition works because it uses the bottom player's arm control against them. When they grip your arm with both hands for the trap, that arm is already isolated in the perfect position for an S Mount armbar. By swinging your leg over, you remove your foot from their hooking range while simultaneously threatening a high-percentage submission on the arm they have committed both hands to controlling. They face the dilemma of releasing the trap to defend the armbar or maintaining the trap while being submitted.
-
-
-
-</section>
 
 
 </main>

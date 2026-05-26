@@ -14,7 +14,7 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Scramble Position",
+      "to": "Turtle/Top",
       "probability": 50,
       "result": "success"
     },
@@ -62,7 +62,7 @@
       "relationship": "Starting position where the technique is initiated from the bottom"
     },
     {
-      "name": "Scramble Position",
+      "name": "Turtle",
       "relationship": "Primary target position reached upon successful sit-out completion"
     },
     {
@@ -78,16 +78,16 @@
       "relationship": "Alternative side control escape using similar initial space creation but different exit direction"
     },
     {
-      "name": "Escape Side Control Consolidation",
+      "name": "Side Control Escape",
       "relationship": "Standard escape framework that the sit-out supplements as an alternative pathway"
     },
     {
-      "name": "Hip Escape from Side Control Consolidation",
+      "name": "Hip Escape from Side Control",
       "relationship": "Complementary lateral escape technique contrasting the sit-out rotational approach"
     },
     {
-      "name": "Scramble to Top Position",
-      "relationship": "Follow-up transition available after reaching the scramble from a successful sit-out"
+      "name": "Technical Stand Up from Open Guard",
+      "relationship": "Follow-up transition available after reaching turtle from a successful sit-out"
     }
   ],
   "attacker": {
@@ -231,7 +231,7 @@
         "description": "Full live rounds focusing on the complete chain from side control escape through sit-out to scramble engagement and position advancement. Build follow-up attacks from the scramble including back takes and front headlock entries."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the sit-out compared to standard shrimping escapes from side control?",
         "answer": "The sit-out generates rotational force around a posted hand pivot point, creating a completely different escape vector than lateral shrimping. While shrimping moves the hips laterally to create space for guard recovery, the sit-out rotates the entire body 180 degrees to face the opponent directly. This rotational movement is harder for the top player to follow because it requires them to change their entire control orientation, whereas they can easily chase lateral shrimps by following hip movement along the same plane."
@@ -348,7 +348,7 @@
         "correction": "Follow their movement with controlled chest pressure rather than lunging forward. Maintain your own base with knees wide and toes posted so you can redirect if they change direction."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most reliable early indicator that your opponent is about to attempt a sit-out from side control bottom?",
         "answer": "The most reliable indicator is the opponent creating a strong pushing frame specifically against your hip with their near-side forearm while simultaneously attempting to generate space at their own hips. This frame creates the separation they need to insert a knee and build base, which is the required precursor to any sit-out. When you feel this combination of hip-directed frame pressure and the opponent turning to their side, the sit-out is imminent. Secondary indicators include planting a hand firmly on the mat with fingers pointing away from you."

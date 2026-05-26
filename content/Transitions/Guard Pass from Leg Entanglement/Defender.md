@@ -154,6 +154,8 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from Leg Entanglement?</p>
+
 - Opponent begins reaching for upper body grips such as collar tie, wrist control, or underhook rather than engaging in leg attacks or adjusting their entanglement positioning
 - Opponent's hips begin driving forward and upward, creating space above your hooks and shifting their weight toward your head and chest rather than staying level with your lower body
 - Opponent's knee begins retracting and pulling away from your entanglement structure while their free hand reaches down to address your hooking foot
@@ -165,6 +167,8 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pass from Leg Entanglement?</p>
 
 - Re-pummel hooks immediately when stripped—the window for re-entry is brief and every second of delay makes re-establishment exponentially harder as the passer advances
 - Threaten submissions during extraction attempts to slow the pass and force the passer to address leg safety before continuing, creating defensive tempo advantages
@@ -179,6 +183,8 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from Leg Entanglement?</p>
 
 ### 1. Re-pummel hooks immediately after each strip by circling your foot back inside and re-establishing the hook behind their knee or across their hip
 
@@ -216,6 +222,8 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from Leg Entanglement?</p>
+
 ### → [[Positions/Leg Entanglement]]
 
 Maintain entanglement control through persistent hook re-pummeling, active grip fighting on the opponent's foot, and submission threats that slow the extraction sequence. Each time the passer strips a hook, immediately re-enter with the same or an alternative hook before they can advance to the next extraction phase. Force them into a cycle of strip-and-re-pummel that eventually exhausts their passing effort.
@@ -231,6 +239,8 @@ Time a sweep during the drive-through phase when the passer commits their weight
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from Leg Entanglement?</p>
 
 ### 1. Passively allowing hooks to be stripped without fighting for re-pummeling or re-engagement
 
@@ -260,6 +270,8 @@ Time a sweep during the drive-through phase when the passer commits their weight
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from Leg Entanglement?</p>
+
 **Phase 1: Recognition** - Identifying pass versus leg attack intentions from the entanglement
 Partner alternates between setting up leg attacks and setting up guard passes from the same entanglement. Practice identifying which intention they have based on their grip seeking patterns, hip direction, and attention focus. Call out the recognition cue verbally each time. Build pattern recognition before adding defensive motor skills.
 
@@ -276,26 +288,6 @@ Positional sparring starting in leg entanglement with partner at 100% effort to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical recognition cue that your opponent is about to attempt a guard pass rather than continuing leg attacks?
-**A**: The most reliable cue is when your opponent begins reaching for upper body grips—collar tie, wrist control, underhook, or lapel grip—rather than fighting for heel control or adjusting their leg positioning within the entanglement. When an opponent shifts their attention upward to establish an anchor on your upper body, they are setting up the prerequisite for extraction. This grip-seeking behavior typically precedes the actual hook-stripping by several seconds, providing a window to preemptively deepen your hooks, threaten a submission, or transition to a more dominant entanglement.
-
-**Q2**: Your opponent strips your primary inside hook during their pass attempt—what is your first response within the critical window?
-**A**: Your first response is immediate re-pummeling of the stripped hook by circling your foot back inside their leg and re-establishing the hook behind their knee or across their thigh. This must happen within the first one to two seconds of losing the hook, as any delay allows the passer to occupy the space with their wedging knee or advance to the next extraction phase. Simultaneously pull their trapped foot toward your chest using your grip to prevent them from creating additional separation. If re-pummeling the same hook fails, immediately transition to an alternative entanglement variant rather than fighting for the same position from a deteriorating angle.
-
-**Q3**: When during the opponent's pass attempt is the highest-percentage moment to execute a counter sweep?
-**A**: The optimal sweep timing is during the drive-through phase when the opponent commits their weight forward to pass your leg line. At this moment their base is compromised because their weight is transitioning from the entanglement to a passing position, their posted free leg bears most of their weight in an extended stance, and their upper body is committed forward rather than centered over their base. A well-timed leg hook or hip bump during this weight transition redirects their forward momentum into a lateral or overhead roll, landing you in top position. Attempting the sweep too early while they have stable base in the entanglement wastes energy and telegraphs your defensive intention.
-
-**Q4**: How should you modify your defensive strategy when your opponent uses the smash pass extraction variant with heavy downward pressure?
-**A**: Against the smash pass variant, your hooks cannot withstand sustained heavy pressure through raw strength alone. Modify your strategy by using active hip movement to create angles that redirect the pressure rather than absorbing it directly. Shrimp your hips laterally to prevent being pinned flat, which changes the pressure vector from directly down into a diagonal that your hooks can manage. Simultaneously work to insert a knee shield or butterfly hook that creates a structural frame between your body and theirs, converting the exchange from a pressure battle into a framing battle where leverage advantages shift to the bottom player.
-
-
-
-</section>
 
 
 </main>

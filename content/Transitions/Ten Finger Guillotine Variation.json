@@ -14,7 +14,7 @@
   "from_position": "Guillotine Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Ten Finger Guillotine",
       "probability": 55,
       "result": "success"
     },
@@ -219,7 +219,7 @@
         "description": "Positional sparring starting from established guillotine control. Integrate the ten finger variation into your guillotine finishing chain alongside high elbow, arm-in, and standard variations. Develop the ability to read opponent reactions and select the appropriate grip variation in real time."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for switching from a standard guillotine grip to the ten finger configuration?",
         "answer": "The best window occurs when the opponent is momentarily focused on defending the existing choke rather than improving position. Transition during a squeeze attempt that draws their hand-fighting attention upward, or immediately after they exhaust energy on a failed posture attempt. The grip change should be completed in under one second to minimize vulnerability during the transition."
@@ -335,7 +335,7 @@
         "correction": "Maintain active leg engagement throughout your defensive sequence. Your legs control the opponent's ability to advance position and apply finishing pressure. Balance hand fighting with guard structure maintenance."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate your opponent is switching to a ten finger guillotine grip?",
         "answer": "The first cue is increased hip pressure from the top player as they stabilize position before the grip change. Next, you feel the original grip release—squeezing pressure briefly decreases as they reconfigure hands. Then both hands come together on the far side of your neck with individual finger pressure replacing the previous palm or wrist contact. This recognition window is your best opportunity to defend."

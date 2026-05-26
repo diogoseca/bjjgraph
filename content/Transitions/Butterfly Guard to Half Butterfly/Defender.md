@@ -154,6 +154,8 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Guard to Half Butterfly?</p>
+
 - Top player establishes crossface or collar grip on one side, indicating they are setting up to clear the hook on that same side
 - Top player shifts weight diagonally toward one hip, loading pressure onto one hook more than the other
 - Top player's knee on one side begins driving downward between your legs, compressing the space your hook occupies
@@ -166,6 +168,8 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Guard to Half Butterfly?</p>
 
 - Maintain active upward pressure through both hooks at all times, never allowing hooks to become passive anchors
 - Fight upper body grips aggressively, as the passer's crossface or collar control is the prerequisite for successful hook clearing
@@ -180,6 +184,8 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Guard to Half Butterfly?</p>
 
 ### 1. Elevate and sweep in the direction of weight shift
 
@@ -217,6 +223,8 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Guard to Half Butterfly?</p>
+
 ### → [[Positions/Mount]]
 
 Time a butterfly sweep to coincide with the passer's weight shift during the clearing attempt. As they commit weight toward the clearing side, use the hook on that side to elevate while pulling with your upper body grips, directing them over your body and into a mounted position for you.
@@ -232,6 +240,8 @@ Maintain active hook pressure and fight grips to prevent the passer from establi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Guard to Half Butterfly?</p>
 
 ### 1. Allowing hooks to become passive without active upward pressure
 
@@ -261,6 +271,8 @@ Maintain active hook pressure and fight grips to prevent the passer from establi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Guard to Half Butterfly?</p>
+
 **Phase 1: Awareness** - Recognizing clearing attempts early
 Partner executes slow-motion hook clearing sequences while you focus solely on identifying the recognition cues: grip changes, weight shifts, and knee drives. Call out each cue as you feel it without attempting to defend. Builds pattern recognition before adding defensive responses.
 
@@ -277,26 +289,6 @@ Full resistance sparring starting in butterfly guard. Bottom player's goal is to
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the passer is about to attempt a hook clearing sequence?
-**A**: The earliest cue is the passer establishing a crossface or collar grip on one side while breaking your grip on that same side. This asymmetric grip advantage is the prerequisite for the clearing attempt. Before they shift weight or drive their knee, the grip establishment tells you which side they will target. Immediately fight the grip and threaten a sweep on that side to disrupt their setup before it develops.
-
-**Q2**: Why is timing your sweep to coincide with the passer's weight shift more effective than sweeping at a random moment?
-**A**: When the passer shifts weight to clear a hook, they have committed their center of gravity to one side. This commitment means they cannot effectively resist a sweep in the same direction because they would need to reverse their weight distribution mid-motion. A sweep timed with their shift requires far less force to execute because you are redirecting existing momentum rather than creating momentum against a balanced opponent. This is the fundamental principle of using the opponent's force against them.
-
-**Q3**: Your left butterfly hook has been partially cleared but the passer has not yet consolidated. What is your immediate recovery sequence?
-**A**: Frame on the passer's shoulder or bicep with your left arm to create separation space. Simultaneously shrimp your hips backward to increase the distance between your foot and the passer's cleared position. Slide your left foot back under their thigh to re-engage the hook while your frame prevents them from following your hip movement with pressure. Once the hook is re-inserted, immediately re-establish your upper body grips and return to active butterfly guard posture.
-
-**Q4**: How does maintaining active hook pressure differ from simply having your feet positioned under the opponent's thighs?
-**A**: Active hook pressure means your feet are driving upward with constant muscular engagement through hip extension, creating a loaded-spring effect that resists any downward force the passer applies. Passive hooks are simply positioned under the thighs with no upward drive, making them easily compressed and cleared by the passer's knee drive. Active hooks force the passer to overcome your lifting force before they can clear, buying you time to react and counter. The difference is between a hook that fights to stay engaged and one that simply occupies space.
-
-
-
-</section>
 
 
 </main>

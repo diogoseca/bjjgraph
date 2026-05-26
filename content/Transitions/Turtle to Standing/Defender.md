@@ -146,13 +146,15 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
 
 As the top player in turtle, your objective when the bottom player attempts to stand is to maintain control and either keep them on the mat or capitalize on their movement to advance to a superior position such as back control. The defender in this context is the turtle top player who must recognize the stand-up attempt early through specific physical cues and respond with the appropriate counter-strategy. The critical defensive principle is that preventing the stand-up requires forward pressure and grip establishment before the explosive phase begins. Once the bottom player commits to the explosive upward drive, your ability to stop them drops dramatically. Therefore, early recognition and pre-emptive grip and weight management are the foundation of effective defense. The secondary principle is converting failed prevention into position advancement: if the bottom player partially stands, their movement creates opportunities for seatbelt control, front headlock transitions, or leg attacks that would not be available against a static turtle.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Standing?</p>
 
 - Bottom player shifts weight onto one hand and one knee, creating a posting base indicating directional commitment for the stand-up
 - Bottom player's hips begin to rise or coil, loading the legs for an explosive upward drive
@@ -166,6 +168,8 @@ As the top player in turtle, your objective when the bottom player attempts to s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Standing?</p>
 
 - Maintain continuous heavy chest pressure on opponent's upper back to compress their turtle and limit explosive hip extension
 - Establish grips proactively, securing seatbelt or harness control before stand-up attempts begin
@@ -181,6 +185,8 @@ As the top player in turtle, your objective when the bottom player attempts to s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Standing?</p>
 
 ### 1. Drive weight forward and down to collapse their posting base before explosive phase
 
@@ -218,6 +224,8 @@ As the top player in turtle, your objective when the bottom player attempts to s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Standing?</p>
+
 ### → [[Positions/Turtle]]
 
 Drive forward weight onto their upper back the instant you feel their hips begin to load for the stand-up. Collapse their posted arm by pushing diagonally downward through their shoulder on the posting side. Once they are flat, reestablish heavy chest-to-back pressure and begin your attacking sequence of seatbelt establishment, hook insertion, or front headlock transition.
@@ -233,6 +241,8 @@ When you feel the stand-up initiate, immediately lock seatbelt control by shooti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Standing?</p>
 
 ### 1. Reacting too late to the stand-up attempt and trying to pull them back down after they reach their feet
 
@@ -262,6 +272,8 @@ When you feel the stand-up initiate, immediately lock seatbelt control by shooti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Standing?</p>
+
 **Phase 1: Recognition Training (Weeks 1-2)** - Identifying pre-stand cues and reaction timing
 Partner alternates between staying in turtle and initiating stand-up attempts while you practice identifying the cues. Call out when you see the stand-up beginning and which direction they are going before they commit. No active prevention yet, focus purely on recognition speed. Track your recognition accuracy across sessions to measure improvement.
 
@@ -278,26 +290,6 @@ Situational sparring starting from turtle top where the bottom player can attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate a bottom player is about to attempt a turtle to standing escape?
-**A**: The earliest cues are weight redistribution from four evenly distributed points to loading onto one hand and one knee in preparation for posting. You will feel the bottom player's hips begin to coil as their knees draw under their hips rather than staying wide. They may also initiate aggressive grip stripping on one side to clear space for their posting arm, or subtly shift their head position to look toward their intended escape direction. These pre-commitment cues occur one to two seconds before the explosive phase and represent your primary defensive window.
-
-**Q2**: Why is upper body control more effective than lower body control for preventing the turtle to standing escape?
-**A**: The stand-up is powered by explosive hip extension and leg drive, which generates far more force than you can counter by holding legs or hips alone. Upper body control through seatbelt, harness, or front headlock grips prevents the bottom player from extending their spine and completing the upward movement even if their legs drive successfully. Additionally, upper body control keeps you connected to the most dangerous part of their movement, allowing you to follow them to back control if they partially stand, whereas lower body grips often break under the explosive force and leave you disconnected.
-
-**Q3**: Your opponent partially stands with one foot planted but you still have chest pressure on their back - how do you convert this to back control?
-**A**: Lock the seatbelt immediately by shooting your choking arm under their chin and clasping your harness grip. Stay glued to their back with your chest maintaining contact and insert the near-side hook by threading your foot inside their planted leg's thigh. Use your body weight to pull them backward and down to the mat, or if they continue rising, ride their movement to standing back control. The critical action is securing the harness before they create distance, because once the seatbelt is locked, their standing does not escape your control but rather transitions the position from turtle back control to standing back control.
-
-**Q4**: How should you adjust your strategy if the bottom player repeatedly feints stand-ups to set up alternative escapes?
-**A**: Against a player using stand-up feints, shift your defensive priority from reactive weight driving to proactive grip establishment. If they keep feinting, use that time to systematically lock seatbelt control, which prevents both the genuine stand-up and most alternative escapes. Keep your pressure controlled rather than lunging forward on each feint, maintaining base with at least one knee grounded. Read the difference between a feint and a genuine attempt by the degree of hip commitment: genuine stand-ups involve full hip loading while feints involve only upper body movement. Once you have seatbelt secured, their feinting becomes irrelevant as you control the position.
-
-
-
-</section>
 
 
 </main>

@@ -27,7 +27,7 @@ description: "How to defend against Crab Ride to Back in BJJ. Recognition cues, 
     {
       "@type": "HowToStep",
       "name": "Strip the hooking leg by cupping the ankle and driving it toward the mat while explosively shifting your hips away from the hook side",
-      "text": "When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinsetting the hook immediately. If successful: You remove the primary anchor of the Crab Ride, returning to standard turtle where escape options are significantly better",
+      "text": "When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinserting the hook immediately. If successful: You remove the primary anchor of the Crab Ride, returning to standard turtle where escape options are significantly better",
       "position": 2
     },
     {
@@ -166,6 +166,8 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crab Ride to Back?</p>
+
 - Feeling a leg hook being inserted under your near hip from the side while chest pressure increases on your back, indicating the attacker is establishing the primary Crab Ride anchor
 - Opponent's arm reaching over your far shoulder toward your chest or opposite armpit, signaling the beginning of seat belt grip establishment and imminent back take attempt
 - Loss of near arm freedom as the attacker secures an underhook, overhook, or wrist control on your posting arm, removing your ability to frame and defend
@@ -178,6 +180,8 @@ Advanced defenders can create counter-attacking opportunities from this position
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crab Ride to Back?</p>
 
 - Address the earliest control point first - preventing near arm control is easier than stripping an established seat belt
 - Maintain strong turtle base with wide knees and active posting to prevent being flattened, as a flat opponent cannot defend effectively
@@ -194,6 +198,8 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Crab Ride to Back?</p>
+
 ### 1. Sit through to guard by dropping your near hip to the mat and turning into the attacker before the seat belt is completed
 
 - **When to use**: Early in the transition when the attacker has only one hook and has not yet secured the seat belt grip. Most effective when the attacker releases near arm control to establish the over-shoulder grip.
@@ -203,7 +209,7 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 ### 2. Strip the hooking leg by cupping the ankle and driving it toward the mat while explosively shifting your hips away from the hook side
 
-- **When to use**: When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinsetting the hook immediately.
+- **When to use**: When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinserting the hook immediately.
 - **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You remove the primary anchor of the Crab Ride, returning to standard turtle where escape options are significantly better
 - **Risk**: Reaching for the hook exposes your near arm and can open space for the attacker to deepen their seat belt grip
@@ -230,6 +236,8 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crab Ride to Back?</p>
+
 ### → [[Positions/Crab Ride]]
 
 Strip the attacker's hooking leg by cupping the ankle from the inside and driving it to the mat while explosively shifting your hips away. Combine with strong posting on your near arm to prevent the attacker from reestablishing control. Once the hook is cleared, immediately move to rebuild your turtle base or stand up before the attacker can re-engage.
@@ -245,6 +253,8 @@ Execute a well-timed sit-through or Granby roll when the attacker transitions be
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crab Ride to Back?</p>
 
 ### 1. Staying passive in turtle and allowing the attacker to methodically establish each control point without resistance
 
@@ -279,7 +289,9 @@ Execute a well-timed sit-through or Granby roll when the attacker transitions be
 
 ## Training Progressions
 
-**Phase 1: Recognition and Base Maintenance (Weeks 1-2)** - Identifying the Crab Ride entry and maintaining defensive turtle posture
+<p class="section-subtitle">How do you train defense against Crab Ride to Back?</p>
+
+**Phase 1: Recognition and Base (Weeks 1-2)** - Identifying the Crab Ride entry and maintaining defensive turtle posture
 Partner establishes Crab Ride at 30-40% intensity while you focus on recognizing each control point as it develops: hook insertion, near arm control, seat belt reaching, second hook attempt. Practice maintaining strong turtle base with elbows tight and chin tucked. No escape attempts yet - build awareness of the sequence and the sensation of each control point being established.
 
 **Phase 2: Individual Defensive Techniques (Weeks 3-5)** - Drilling specific defensive responses to each phase of the transition
@@ -295,29 +307,6 @@ Positional rounds starting from established Crab Ride with full resistance from 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to attempt an escape from the Crab Ride to Back transition?
-**A**: The most critical escape window occurs when the attacker releases near arm control to establish the seat belt grip. During this brief transition, the attacker has reduced control over your posting ability and their weight shifts to accommodate the grip change. A well-timed sit-through, Granby roll, or explosive stand-up during this moment has the highest success rate because you exploit the gap between control configurations rather than fighting against fully established control points.
-
-**Q2**: Why is it a mistake to focus all defensive effort on stripping hooks while ignoring the seat belt?
-**A**: The seat belt provides the upper body dominance that allows the attacker to reinsert hooks at will. Even if you temporarily strip a hook, a completed seat belt means the attacker maintains chest-to-back connection and arm control sufficient to simply thread the hook back in. Effective defense must address both control layers simultaneously: use your elbows tight to deny the underhook for the seat belt while using active hip movement and leg defense to manage hook depth. Stripping hooks without addressing the seat belt is like bailing water without plugging the hole.
-
-**Q3**: How should you manage your energy when defending the Crab Ride to Back over an extended sequence?
-**A**: Defend actively but conserve explosive energy for specific escape windows rather than maintaining constant maximum effort. Between escape attempts, focus on maintaining strong turtle base, keeping elbows tight, and chin tucked with controlled breathing. When you identify a grip transition or weight shift by the attacker, commit fully to a single explosive technique with clear directional purpose. If the escape attempt fails, immediately return to active defense and recovery rather than chaining multiple weak attempts that drain energy without creating meaningful escape opportunities.
-
-**Q4**: Your opponent has one hook and is reaching over your far shoulder for the seat belt - what is your defensive priority?
-**A**: Your immediate priority is preventing the seat belt completion by using your far hand to fight their reaching arm while simultaneously initiating a sit-through toward the hook side. The reaching motion creates a momentary weight shift forward and upward that compromises their hook anchor. By dropping your near hip to the mat and turning into them during this reach, you exploit the window where their control is divided between maintaining the hook and establishing the new grip. This is the highest-percentage defensive timing in the entire transition sequence.
-
-**Q5**: What defensive body position should you maintain throughout the Crab Ride sequence even before escape attempts?
-**A**: Maintain a tight turtle with knees wide enough for base but not so wide that you lose hip mobility. Keep your elbows pinched to your sides to deny underhook access, chin tucked to your chest to preemptively protect the neck, and shoulders slightly shrugged to reduce the space available for the over-shoulder grip. Your weight should be actively distributed through all four posting points rather than passively sitting. This defensive posture does not escape the position but significantly slows the attacker's progression through the control sequence, buying you time to identify escape windows.
-
-
-
-</section>
 
 
 </main>

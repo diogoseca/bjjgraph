@@ -162,6 +162,8 @@ As the defender against the snap down from dogfight, your primary challenge is m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Snap Down from Dogfight?</p>
+
 - Opponent releases their whizzer or overhook grip suddenly during the underhook battle, creating a momentary absence of pressure on your underhook arm that signals a grip conversion
 - You feel the opponent's hand slide from your shoulder or arm toward the back of your neck, indicating transition from body control to head control for the snap
 - Opponent's hip pressure shifts backward as they prepare to sprawl, creating a brief lightening of chest contact that precedes the snap-and-sprawl combination
@@ -174,6 +176,8 @@ As the defender against the snap down from dogfight, your primary challenge is m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Snap Down from Dogfight?</p>
 
 - Maintain head position at or above your opponent's shoulder level throughout the dogfight exchange, preventing them from ever establishing the downward pulling angle needed for the snap
 - Keep at least one hand ready to post on the mat or frame against the opponent's body at all times, ensuring you have structural defense against sudden postural disruption
@@ -188,6 +192,8 @@ As the defender against the snap down from dogfight, your primary challenge is m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Snap Down from Dogfight?</p>
 
 ### 1. Post hands on mat and drive head upward against the snap, maintaining posture through skeletal structure rather than muscular resistance
 
@@ -225,6 +231,8 @@ As the defender against the snap down from dogfight, your primary challenge is m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Snap Down from Dogfight?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your forward underhook drive to coincide with the opponent's snap initiation. As they pull downward and sprawl their hips back, their base becomes temporarily unstable. Drive explosively forward through their center line with your underhook, using the momentum differential between your forward drive and their backward sprawl to reverse the position and establish top control in half guard.
@@ -240,6 +248,8 @@ Recognize the snap setup through the whizzer release cue and immediately tuck yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Snap Down from Dogfight?</p>
 
 ### 1. Keeping head elevated and neck extended during the dogfight exchange without tucking chin as a defensive habit
 
@@ -269,6 +279,8 @@ Recognize the snap setup through the whizzer release cue and immediately tuck yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Snap Down from Dogfight?</p>
+
 **Phase 1: Recognition Drilling** - Identifying snap down setup cues from dogfight bottom
 Partner randomly alternates between maintaining whizzer, executing crossface, re-flattening, and initiating snap down from dogfight top. You call out which technique you think is coming the moment you feel the grip change. No physical defense yet—purely sensory recognition training to build automatic identification of snap down cues versus other dogfight top attacks.
 
@@ -285,29 +297,6 @@ Full positional sparring from dogfight where partner freely mixes snap down with
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a snap down is being initiated from dogfight?
-**A**: The earliest cue is the release of the whizzer or overhook grip. In dogfight, the top player's whizzer is their primary defensive tool against your underhook. When they voluntarily release it, they are converting to a different attack—most commonly the snap down via collar tie. The moment you feel the whizzer pressure disappear from your underhook arm without a corresponding crossface or re-flatten attempt, you should immediately assume a snap is coming and activate your defensive posture by tucking your chin and preparing to post.
-
-**Q2**: Why is driving forward with the underhook an effective counter to the snap down rather than a risky overcommitment?
-**A**: The snap down requires the opponent to pull you downward while simultaneously sprawling their hips backward. This backward hip movement weakens their base in the forward direction precisely when you drive forward. Your underhook drive exploits the direction they are weakest because their weight is moving away from you. The key is timing—you must drive forward at the moment they initiate the snap, not after it has already broken your posture. If timed correctly, your forward momentum combined with their backward sprawl creates a force differential that reverses the position.
-
-**Q3**: What defensive posture adjustment should you maintain as a default in dogfight to reduce snap down vulnerability?
-**A**: Keep your forehead pressed into your opponent's shoulder with a slightly tucked chin as your default head position. This accomplishes three things: it denies the collar tie depth needed for an effective snap because your head is pressed against their body rather than exposed in space, it loads your weight forward through your head which increases your resistance to downward pulls, and it keeps your neck in a structurally strong flexed position rather than an extended vulnerable position. This single adjustment reduces snap down effectiveness dramatically even without active defensive responses.
-
-**Q4**: Your opponent's snap attempt partially breaks your posture and you are now on your hands with your head below shoulder level. What is your immediate priority?
-**A**: Your immediate priority is tucking your chin tightly to your chest to prevent neck extension and deny the front headlock from consolidating into submission position. Do not attempt to stand up or escape until your chin is secured. Once chin is tucked, use your posting hands to create base and begin circling laterally away from the opponent's chest pressure. If they have not yet secured your far shoulder, this is your window to escape. If they have secured far shoulder control, you must hand-fight to remove that control before circling out. The worst action is attempting to lift your head straight up, as this extends your neck directly into their control.
-
-**Q5**: How should your knee base width change when you detect snap down threat in dogfight compared to sweep threat?
-**A**: When defending against a snap down, you should widen your knee base slightly and sit your weight back toward your heels rather than leaning forward. This wider, slightly rear-weighted base provides greater resistance to the downward diagonal pull of the snap because your center of gravity is lower and your posting distance is shorter. In contrast, when defending against sweeps in dogfight, your base should be narrower and your weight more forward to prevent being driven backward. Recognizing whether the primary threat is snap down versus sweep allows you to adjust your base proactively rather than reactively.
-
-
-
-</section>
 
 
 </main>

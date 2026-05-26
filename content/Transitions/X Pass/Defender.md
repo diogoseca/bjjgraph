@@ -162,6 +162,8 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting X Pass?</p>
+
 - Passer drives aggressive crossface pressure while simultaneously widening their base by stepping their free leg away from your body at an angle
 - Passer's chest pressure shifts from directly downward to a diagonal direction, moving from your near shoulder toward your far hip, indicating the angular drive
 - Passer's free hand reaches to control your bottom knee or shin, signaling they are preparing to pin your leg and begin the extraction sequence
@@ -174,6 +176,8 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X Pass?</p>
 
 - Maintain active knee shield or frames to prevent the passer from establishing chest-to-chest pressure that initiates the X Pass sequence
 - Never allow your shoulders to be flattened to the mat; stay on your side facing the passer to preserve hip mobility and guard structure
@@ -188,6 +192,8 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against X Pass?</p>
 
 ### 1. Establish or recover strong knee shield by inserting shin across passer's torso and extending to create distance before the crossface is locked
 
@@ -225,6 +231,8 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending X Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Disrupt the passer's sequence early by maintaining strong knee shield, following their angle with hip escapes, or re-establishing frames before the diagonal drive commits. This forces them back to neutral top half guard where they must restart their pass attempt.
@@ -240,6 +248,8 @@ Win the underhook battle to convert the X Pass attempt into your offensive oppor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X Pass?</p>
 
 ### 1. Remaining flat on your back without fighting to stay on your side when the passer initiates crossface pressure
 
@@ -274,6 +284,8 @@ Win the underhook battle to convert the X Pass attempt into your offensive oppor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against X Pass?</p>
+
 **Phase 1: Recognition and Frame Maintenance** - Identifying X Pass setups and maintaining defensive structure under pressure
 Partner initiates X Pass at 30% speed. Focus on recognizing the three setup cues (crossface deepening, wide step, diagonal weight shift) and maintaining knee shield and frames throughout. No escape attempts, just hold defensive structure for 30 seconds while partner slowly works the pass sequence. Build pattern recognition and frame endurance.
 
@@ -290,29 +302,6 @@ Positional sparring from half guard bottom against partner using X Pass as prima
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the X Pass and why?
-**A**: The most critical defensive window occurs between the passer's wide step and their diagonal drive. During this transition, the passer's weight is momentarily shifting from their base to the new wide stance, making them vulnerable to disruption. If you hip escape to follow their step or fight for the underhook during this window, you can prevent the angular pressure from being established. Once the diagonal drive is committed with full crossface pressure, defensive options become severely limited.
-
-**Q2**: Why do standard linear frames fail against the X Pass and how should you adjust?
-**A**: Standard linear frames (pushing straight against the passer's chest) fail because the X Pass attacks from a diagonal angle that bypasses linear resistance. The passer drives around your frames rather than through them. To counter this, angle your frames to match the passer's diagonal pressure line, directing your forearm against the crossface shoulder rather than the chest center. Using an angled knee shield that matches their lateral movement is far more effective than a straight-across frame.
-
-**Q3**: Your opponent has begun the X Pass and you feel their crossface deepening. What defensive priority should you focus on first?
-**A**: Your first priority is preventing your shoulders from being flattened to the mat. Fight to stay on your side by turning into the passer using your bottom elbow as a post and hip escaping to maintain your side-facing position. If your shoulders flatten, your entire defensive structure collapses and the passer can freely drive the angle and clear your legs. Staying on your side preserves hip mobility, frame effectiveness, and access to the underhook that can convert the exchange to your offensive advantage.
-
-**Q4**: When is transitioning to deep half guard the best defensive response against the X Pass?
-**A**: Deep half guard is the best response when the passer has already committed heavily to forward pressure and you cannot maintain your knee shield or win the underhook battle. Their forward weight commitment creates the opening to go underneath them by threading your head under their hips. However, this must be initiated before you are completely flattened; you need enough hip mobility to dive underneath. If the passer recognizes the entry early, they can sprawl to prevent it, so timing and commitment are essential.
-
-**Q5**: Why is winning the underhook battle considered the decisive exchange when defending the X Pass?
-**A**: The underhook on the trapped leg side is the single most important grip because it serves both defensive and offensive functions simultaneously. Defensively, it prevents the passer from establishing the deep crossface that initiates the flattening sequence. Offensively, it allows you to come to your side, threaten sweeps, and create back take opportunities that force the passer to abandon the X Pass entirely. Winning this exchange converts a defensive situation into an offensive one, which is far more effective than simply surviving the pass attempt.
-
-
-
-</section>
 
 
 </main>

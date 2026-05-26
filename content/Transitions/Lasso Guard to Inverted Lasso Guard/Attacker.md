@@ -188,6 +188,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lasso Guard to Inverted Lasso Guard?</p>
+
 - Maintain continuous lasso hook tension throughout the entire inversion - any momentary slack allows arm extraction and destroys the transition
 - Use the opponent's forward pressure as the catalyst for the backwards roll rather than generating all momentum independently
 - Roll diagonally across your shoulder blade toward the lasso side, not straight backwards, to maintain optimal angle and connection
@@ -203,6 +205,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lasso Guard to Inverted Lasso Guard?</p>
+
 - Established lasso hook with shin pressed firmly across the opponent's tricep and foot crossing behind their shoulder or lat
 - Secure same-side sleeve grip with palm-up control that can withstand the rotational forces of the inversion
 - Hips angled perpendicular to the opponent to create the diagonal rolling path needed for smooth inversion
@@ -215,6 +219,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lasso Guard to Inverted Lasso Guard step by step?</p>
 
 1. **Confirm lasso integrity and grip security**: Before initiating the inversion, verify that your lasso hook is deeply threaded with your shin pressing firmly against the opponent's tricep and your foot crossing their back. Confirm your sleeve grip is strong with a palm-up hold. Pull the sleeve grip toward your chest to take up any slack in the system. If either the hook or grip feels compromised, reset them before attempting the inversion.
 2. **Angle hips and establish rolling path**: Rotate your hips so they face approximately 45 degrees toward the lasso side rather than pointing straight at the ceiling. This angling creates the diagonal rolling path across your shoulder blade that allows smooth inversion while maintaining connection. Your non-lasso leg should be posted on the opponent's hip to control distance and prevent them from stepping around during the transition.
@@ -244,6 +250,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lasso Guard to Inverted Lasso Guard?</p>
+
 - **Opponent drives forward pressure onto inverted shoulders to pin hips and prevent rotation** (Effectiveness: High) - Your Response: If caught with hips pinned, immediately abandon the inversion and return to upright lasso guard rather than fighting from a compromised position. Use the lasso hook to create a frame that prevents full pressure, then hip escape back to standard guard. → Leads to [[Positions/Lasso Guard]]
 - **Opponent strips sleeve grip during the roll by explosively pulling their arm back** (Effectiveness: Medium) - Your Response: If sleeve grip breaks mid-inversion, immediately transition to inverted guard or recover to open guard. Do not continue the inversion without sleeve control as it eliminates all subsequent attack options and leaves you exposed. → Leads to [[Positions/Open Guard]]
 - **Opponent steps over the lasso leg during the inversion transition to extract their arm** (Effectiveness: High) - Your Response: Recognize the step-over early and convert to a different attack before the extraction completes. The step-over motion often exposes their back - use your free leg to hook their far hip and follow their rotation to take the back, or abandon the inversion and attack with an omoplata on the stepping leg. → Leads to [[Positions/Lasso Guard]]
@@ -255,6 +263,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lasso Guard to Inverted Lasso Guard?</p>
 
 ### 1. Rolling straight backwards instead of diagonally across the shoulder blade toward the lasso side
 
@@ -294,6 +304,8 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lasso Guard to Inverted Lasso Guard (Attacker)?</p>
+
 **Solo Inversion Mechanics** - Body movement and weight distribution
 Practice backwards shoulder rolls on the mat without a partner, focusing on landing across shoulder blades with chin tucked and hips elevated. Simulate maintaining grip position with hands throughout the roll. Build comfort with the inverted position and develop the core strength needed to control hip elevation. Perform 20-30 repetitions per session until the rolling path feels natural.
 
@@ -311,42 +323,12 @@ Begin each round in established lasso guard with the partner actively working to
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the transition to inverted lasso guard?
-**A**: The optimal window occurs when the opponent commits forward pressure toward your guard or is in a neutral weight position while engaging with grips. Their forward momentum assists the backwards roll and ensures sufficient connection for maintaining the lasso through the inversion. Attempting the transition when the opponent has disengaged and created distance will fail because there is insufficient connection to keep the lasso tight during the roll. Watch for moments when they drive into you, attempt grip breaks, or try to establish passing grips - these actions create the forward weight commitment that makes the inversion most effective.
-
-**Q2**: Why must the inversion roll travel diagonally across the shoulder blade rather than straight backwards?
-**A**: A diagonal roll toward the lasso side maintains constant tension on the lasso hook throughout the movement because your body stays close to the connection point on the opponent's arm. Rolling straight backwards pulls your body away from the trapped arm, creating momentary slack that allows the opponent to retract their arm and escape the lasso entirely. The diagonal path also produces a better final angle for berimbolo entries and overhead sweeps because your hips end up oriented toward the opponent's centerline rather than pointing away from them.
-
-**Q3**: Your opponent posts their free hand on the mat as you begin inverting. How should you adjust?
-**A**: A posted hand indicates the opponent is trying to establish base against your inversion. This is actually an offensive opportunity - their posted arm is now weight-bearing and temporarily unable to defend. Continue the inversion and use your free leg to hook behind their posted-arm side, initiating a berimbolo entry. The posted hand roots them to that spot, making the rotational back take more effective. Alternatively, if their post is directly on your body, redirect your inversion angle slightly to move away from the post and complete the transition on the other side of their arm.
-
-**Q4**: What grip configuration must be maintained throughout the inversion, and what happens if the sleeve grip breaks mid-roll?
-**A**: You must maintain a palm-up sleeve grip on the same side as the lasso hook, pulling continuously toward your chest to keep the system under tension. If the sleeve grip breaks mid-roll, the entire inversion loses its offensive potential because you cannot control the opponent's arm trajectory or prevent them from retracting the lassoed limb. In this scenario, do not continue fighting for the inversion. Immediately recover to open guard by using your legs to create distance and re-establish grips from a stable position. Continuing inverted without sleeve control leaves you exposed with no guard retention.
-
-**Q5**: What is the most critical mechanical detail that determines whether the lasso hook tightens or loosens during the inversion?
-**A**: The shin must maintain continuous pressing contact against the opponent's tricep throughout the roll, with the foot hooked behind their shoulder or lat. During a properly executed inversion, the lasso should actually tighten because your body weight now assists the downward pulling force on the hook. The critical mechanical detail is keeping the lasso leg extended and the shin actively pressing outward against the arm during the roll. If you allow the leg to bend or retract toward your body during the transition, the hook loosens and the opponent can extract their arm. Think of the lasso leg as a rigid lever that the inversion amplifies.
-
-**Q6**: What are the primary differences between the rolling inversion entry and the hip switch inversion entry?
-**A**: The rolling inversion is a full backwards roll using momentum to carry you onto the shoulders in one fluid motion. It requires more space behind you but produces the strongest initial angle for immediate berimbolo entries. The hip switch inversion is a two-step process where you first rotate your hips to the opposite side before inverting, creating an angular change that precedes the full roll. The hip switch is slower but maintains tighter lasso control throughout and works when the opponent is applying heavy forward pressure that would block a full rolling entry. The hip switch also disguises the inversion because the initial movement looks like a standard sweep setup.
-
-**Q7**: Your opponent begins stepping over your lasso leg as you initiate the inversion. What is your best response?
-**A**: The step-over during inversion is one of the highest-effectiveness counters because it directly addresses the lasso hook. Recognize it immediately and abandon the inversion path. Instead, use the fact that the opponent is mid-step and has committed weight to one leg. Hook their far hip with your free leg and follow their stepping rotation to take the back, converting their counter into a back take opportunity. If the step-over is too far advanced for a back take, immediately transition to an omoplata attempt on the stepping leg, which is now extended and vulnerable due to the stepping motion.
-
-**Q8**: How long should you remain in the inverted position after completing the transition, and why?
-**A**: Maximum 2-3 seconds. The inverted position is transitional, not a holding position. Staying inverted longer than necessary drains energy rapidly because you are supporting your weight on the shoulders while maintaining elevated hips and constant lasso tension. Extended inversion also gives the opponent time to establish counter-grips, apply shoulder pressure, and adapt to your limited positional options. The goal is to use the inverted angle to immediately initiate a technique - berimbolo, overhead sweep, or kiss of the dragon - and then either complete it or return to upright lasso guard where energy expenditure is lower.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lasso Guard to Inverted Lasso Guard?</p>
 
 The primary safety concern is cervical spine protection during the backwards roll. Always tuck the chin firmly to the chest before initiating the inversion and ensure weight lands across the shoulder blades, never on the neck. If you feel neck compression at any point, immediately abandon the technique and return to upright guard. Practitioners with existing neck injuries or limited cervical mobility should consult with their instructor before training this transition. Additionally, the lasso hook creates significant torque on the opponent's shoulder joint during the inversion - apply the movement smoothly rather than explosively to avoid injuring your training partner's shoulder. During drilling, communicate with your partner about the intensity of the lasso pressure.
 

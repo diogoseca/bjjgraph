@@ -159,7 +159,7 @@ Submission Chains represent the systematic linking of multiple submission attemp
 
 The fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.
 
-At the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like Gordon Ryan and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.
+At the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.
 
 </section>
 
@@ -195,7 +195,7 @@ At the highest levels of competition, submission chains represent the difference
 
 **Distance and Angle Management**: Controlling the spatial relationship with your opponent throughout the chain to optimize each submission setup while preventing escapes. This includes understanding how to close distance for chokes, create space for joint locks, and adjust angles to maximize mechanical advantage at each transition point in the sequence.
 
-**Psychological Pressure Application**: Using the relentless nature of chains to create mental fatigue and panic in opponents, forcing rushed defensive decisions that create larger offensive opportunities. This skill involves maintaining composure and systematic pressure even when individual submissions fail, demonstrating to the opponent that escaping one attack only leads to another.
+**Psychological Pressure**: Using the relentless nature of chains to create mental fatigue and panic in opponents, forcing rushed defensive decisions that create larger offensive opportunities. This skill involves maintaining composure and systematic pressure even when individual submissions fail, demonstrating to the opponent that escaping one attack only leads to another.
 
 
 
@@ -349,26 +349,26 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 ### Related Principles
 - **[[Position-Over-Submission Approach]]** (Complementary): Submission chains integrate with position-first philosophy by using submission attempts as position improvement tools—failed submissions often result in better control points
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create
-- **[[Offensive Combinations]]** (Extension): Submission chains represent the most advanced form of offensive combinations, extending combination principles from strikes and sweeps into the submission domain
+- **[[Forward Pressure]]** (Extension): Submission chains extend forward pressure principles into the submission domain, maintaining continuous offensive momentum through linked attack sequences that never allow the opponent to rest or reset
 - **[[Control Point Hierarchy]]** (Prerequisite): Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved
 - **[[Timing and Rhythm]]** (Complementary): Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities
-- **[[Energy Management System]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
-- **[[Dilemma Creation]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
+- **[[Energy Conservation]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
+- **[[Fork Attacks]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
 - **[[Position Chains]]** (Complementary): Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement
-- **[[Transition Sequences]]** (Extension): Submission chains are specialized transition sequences focused specifically on linking finishing attempts rather than positional movements
-- **[[System Building]]** (Advanced form): Developing comprehensive chain systems represents systematic approach to building interconnected offensive frameworks
+- **[[Transition Management]]** (Extension): Submission chains are specialized transition management focused specifically on linking finishing attempts, requiring precise control of the transitional windows between submissions
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy informs chain construction by identifying which positions offer the best platforms for chain attacks and where chain attempts should be abandoned in favor of positional advancement
 
 
 ### Related Content
 - [[Triangle from Guard]] (Submission) - Central submission in most guard chain systems, connects to armbar, omoplata, and kimura
-- [[Armbar from Mount]] (Submission) - Primary attack in mount chains, creates reactions that open triangle and opposite-side armbar opportunities
+- [[Armbar from Armbar Control]] (Submission) - Core finishing mechanic in mount and guard submission chains, defensive reactions to the armbar open triangle and opposite-side armbar opportunities
 - [[Rear Naked Choke]] (Submission) - Anchor submission in back attack chains, hand-fighting defense creates armbar and triangle setups
 - [[Kimura]] (Submission) - Versatile chain connector from multiple positions, leads to back takes, armbars, and positional advancements
-- [[Omoplata from Guard]] (Submission) - Common endpoint in guard chains when opponent defends triangle or armbar by turning
+- [[Omoplata Control]] (Position) - Chain hub position reached when opponent defends triangle or armbar by turning, enabling further submission transitions including sweeps, wristlocks, and back takes
 - [[Position-Over-Submission Approach]] (Principle) - Foundational philosophy that integrates with chain thinking by viewing submission attempts as position improvement tools
 - [[Mount]] (Position) - Optimal platform for submission chains due to high control and multiple attack angles
 - [[Back Control]] (Position) - Highest-percentage position for submission chains in competition contexts
-- [[Offensive Combinations]] (Principle) - Broader combination concept that submission chains represent the highest expression of within the submission domain
+- [[Fork Attacks]] (Principle) - Chain systems create systematic dilemmas where defending one submission opens another, representing the highest expression of combination thinking
 - [[Action and Reaction]] (Principle) - Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions
 - [[Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
 

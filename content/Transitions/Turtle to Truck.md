@@ -211,7 +211,7 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 - [[Transitions/Crab Ride to Back]] - Related back attack - alternative approach from turtle position
 
-- [[Submissions/Calf Slicer from Truck]] - Follow-up submission - leg attack option from the Truck position
+- [[Submissions/Calf Slicer]] - Follow-up submission - leg attack option available from the Truck position
 
 - [[Transitions/Turtle to Back Control]] - Alternative transition - traditional back attack when Truck is defended
 

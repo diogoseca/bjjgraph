@@ -166,6 +166,8 @@ The most dangerous moment for the defender is the transition between recognizing
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Truck Entry?</p>
+
 - Attacker shifts from standard turtle top pressure to a perpendicular angle against your ribs, indicating they are positioning for lateral leg access rather than a traditional back take
 - You feel the attacker's far arm reaching under your torso toward your far knee or shin, which is the anchor grip required before they can thread their leg
 - The attacker's chest pressure changes from central (on your spine) to lateral (on your ribs), combined with their hips dropping low against your near hip to create the threading angle
@@ -178,6 +180,8 @@ The most dangerous moment for the defender is the transition between recognizing
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Truck Entry?</p>
 
 - Maintain a tight elbow-to-knee connection on both sides to deny the attacker access paths for the far leg grip and hook threading
 - Keep weight distributed rearward toward your heels rather than forward on your hands, as this gives you explosive backward and standing options that deny the entry window
@@ -192,6 +196,8 @@ The most dangerous moment for the defender is the transition between recognizing
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Truck Entry?</p>
 
 ### 1. Explosive sit-back: drive your hips backward and sit your weight onto your heels, crushing the attacker's reaching arm between your thigh and calf while removing the forward weight distribution they need for the entry
 
@@ -229,6 +235,8 @@ The most dangerous moment for the defender is the transition between recognizing
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Truck Entry?</p>
+
 ### → [[Positions/Turtle]]
 
 Deny the initial hook thread through early recognition and explosive reaction. Use sit-back, far leg extraction, or elbow block to prevent the attacker from establishing the far leg grip or threading their near-side leg. Maintaining a tight defensive turtle with rearward weight distribution is the foundation. Once the entry is stuffed, the attacker returns to standard turtle top and you can proceed with normal turtle escapes.
@@ -244,6 +252,8 @@ Execute a well-timed granby roll or sit-through when the attacker commits to the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Truck Entry?</p>
 
 ### 1. Remaining static in turtle and hoping the attacker will not find the entry angle instead of proactively adjusting position
 
@@ -278,6 +288,8 @@ Execute a well-timed granby roll or sit-through when the attacker commits to the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Truck Entry?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner alternates between standard back take attempts and Truck entry attempts from turtle top. Defender practices identifying the entry cue (perpendicular shift, reaching arm) and calling out 'Truck' when they recognize it. No physical defense yet - focus purely on pattern recognition. Target 90% correct identification rate before progressing to physical responses.
 
@@ -294,29 +306,6 @@ Full speed positional sparring from turtle bottom against a partner hunting for 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Truck entry rather than a standard back take?
-**A**: The earliest cue is the attacker shifting from central chest pressure on your spine to lateral pressure against your ribs while dropping their hips low against your near hip. A standard back take maintains central pressure and seeks seatbelt control, while the Truck entry requires a perpendicular angle and lateral hip contact. The secondary cue is feeling their far arm diving underneath your torso toward your far knee rather than reaching over your shoulder for harness grips.
-
-**Q2**: Why is keeping your weight slightly rearward in turtle the most important preventive measure against the Truck entry?
-**A**: Rearward weight distribution gives you explosive backward movement options (sit-back, standup) that directly counter the entry requirements. The Truck entry requires the defender's weight to be forward on their hands, which loads the front of the base and limits backward reactions. With rearward weight, you can instantly sit back to crush the reaching arm, stand explosively to both feet, or drive your hips backward to destroy the perpendicular angle the attacker needs. Forward weight commits you to the exact position the attacker is exploiting.
-
-**Q3**: Your opponent has gripped your far leg but has not yet threaded their hook - what is your best defensive action?
-**A**: Immediately straighten and pull your far leg away from their grip while simultaneously driving your far knee toward the mat. This removes the target limb from the threading path. Simultaneously use your near-side elbow to block or push against their reaching arm. If you cannot break the grip, execute an explosive sit-back to crush their arm between your legs and remove the forward base they need. The critical window is narrow: once the threading leg begins moving, these defenses become significantly harder to execute successfully.
-
-**Q4**: How does the defensive dilemma work from the defender's perspective, and how can you exploit it?
-**A**: The attacker creates a fork where defending the leg entanglement opens the back and defending the back opens the leg entry. As a defender, you can exploit this by refusing to commit fully to either defense. Instead of choosing between tight turtle (defending back but allowing leg access) or leg extraction (defending entry but opening back), use explosive directional changes that disrupt both attack paths simultaneously. The sit-back defends the leg entry while keeping your back protected, and the granby roll addresses both threats through positional change rather than static defense.
-
-**Q5**: Your opponent has completed the hook thread and is beginning to lock the triangle - is it too late to defend?
-**A**: It is not too late but the defensive options have narrowed significantly. You must immediately fight the triangle lock by straightening your trapped leg explosively before the figure-four completes, while simultaneously driving your hips away from the attacker to create tension that makes locking difficult. If the triangle begins to close, transition your defense from entry prevention to Truck bottom escape: protect your neck, fight the boot pressure on your hip, and work toward granby roll or leg extraction escapes. The key is recognizing that the defense has shifted from entry denial to position escape and adapting your response accordingly.
-
-
-
-</section>
 
 
 </main>

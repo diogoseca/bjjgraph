@@ -154,6 +154,8 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from K-Guard?</p>
+
 - Top player shifts weight visibly toward their free posting leg, creating noticeably lighter pressure on the trapped leg side
 - Top player's crossface pressure changes angle from forward-driving to lateral or angled away as they prepare the directional change
 - Top player's trapped leg begins small rotational movements testing hook tension before committing to the full backstep motion
@@ -166,6 +168,8 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from K-Guard?</p>
 
 - Maintain constant active tension in the inverted hook to maximize the force required for backstep extraction throughout the engagement
 - Recognize the backstep initiation through weight transfer and hip movement cues before the extraction motion begins
@@ -180,6 +184,8 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from K-Guard?</p>
 
 ### 1. Increase inverted hook tension and pull trapped leg aggressively across centerline to resist extraction
 
@@ -217,6 +223,8 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from K-Guard?</p>
+
 ### → [[Positions/K-Guard]]
 
 Recognize the backstep early through weight transfer cues and immediately increase inverted hook tension while loading butterfly hook with elevation pressure. The combination of lateral pull and vertical force makes the extraction nearly impossible if applied before the backstep motion begins. Maintain upper body frames to prevent the top player from anchoring your torso during repeated attempts.
@@ -232,6 +240,8 @@ When the backstep extraction begins to succeed and the inverted hook loses conta
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from K-Guard?</p>
 
 ### 1. Waiting too long to recognize the backstep and only reacting after hooks are already cleared
 
@@ -261,6 +271,8 @@ When the backstep extraction begins to succeed and the inverted hook loses conta
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from K-Guard?</p>
+
 **Recognition Drilling** - Identifying backstep initiation cues
 Partner alternates between genuine backstep attempts and feints from K-Guard top. Bottom player calls out when they detect the backstep initiation. Builds pattern recognition for weight shift, angle change, and hip control setup cues without requiring physical defensive response.
 
@@ -277,26 +289,6 @@ Start in K-Guard bottom against full-resistance top player who may or may not at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a backstep from K-Guard is being attempted?
-**A**: The earliest cue is a weight shift toward the top player's free posting leg, which manifests as reduced pressure on the trapped leg side. This is often accompanied by their hand moving to control your far hip, which is a critical setup requirement for the backstep. Recognizing this preparatory weight transfer gives you the maximum time window to reinforce hooks or prepare a transition before the extraction motion begins.
-
-**Q2**: When should you abandon K-Guard retention and transition to Single Leg X-Guard?
-**A**: The transition point is when your inverted hook has been cleared from the trapped leg despite your defensive efforts. Once the inverted hook loses contact, K-Guard's primary retention mechanism is gone and attempting to re-hook becomes a low-percentage action. At this point, immediately redirect your legs to catch the backstepping leg at the hip for Single Leg X-Guard, where you have legitimate offensive sweep options rather than fighting a losing retention battle.
-
-**Q3**: How does loading the butterfly hook during a backstep attempt help your defense?
-**A**: The butterfly hook creates upward elevation force that compromises the top player's base during the weight transfer phase of the backstep. Since the backstep requires stable posting on the free leg, elevation pressure destabilizes this posting position and can abort the backstep attempt entirely. Even if it does not prevent the backstep, the elevation forces the top player to address the butterfly hook threat before continuing, buying you additional reaction time to reinforce your hooks.
-
-**Q4**: What is the risk of over-committing to hip escape when following the backstep direction?
-**A**: Over-rotation during the hip escape can expose your back to the top player, potentially giving them a back-take opportunity if they abandon the backstep and capitalize on your turning motion. The hip escape should be controlled and proportional - move enough to maintain your guard angle but keep awareness of your shoulder position relative to the mat. If you feel yourself turning past perpendicular, arrest the motion and re-establish frames before continuing.
-
-
-
-</section>
 
 
 </main>

@@ -79,6 +79,14 @@ description: "Guide to countering the back turn from technical mount top. Recogn
         "@type": "Answer",
         "text": "Over-committing to blocking the rotation by driving all your weight onto the opponent's far shoulder creates vulnerability on the opposite side. The opponent can use your forward weight commitment as leverage for a hip escape in the direction you are not blocking, potentially recovering guard or creating scramble opportunities. Additionally, forcing prevention of the turn burns your energy against their rotation while following the turn into back control gives you a superior position with less effort expended."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent initiates the turn but stops halfway and attempts to recover guard instead—how do you capitalize?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A half-turn is the worst position for the bottom player because it simultaneously exposes the back and leaves the arm vulnerable. If they stall mid-rotation, immediately re-establish arm control on the now-extended limb and drive your weight back into technical mount. Their half-turned position weakens their framing ability on both sides. If the arm is available, commit to the armbar finish since their rotated torso actually improves your attacking angle. Never allow them to settle in the half-turned position—attack immediately before they can choose a direction."
+      }
     }
   ]
 }
@@ -148,6 +156,8 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Turn from Technical Mount?</p>
+
 - Opponent's far shoulder drops toward the mat as they begin rotating away from the stepped leg side
 - Opponent's threatened arm suddenly tucks tight with elbow driving toward their opposite hip and hand gripping their own collar
 - Hip movement away from the stepped leg side creating rotational momentum that signals the turn is imminent
@@ -159,6 +169,8 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Turn from Technical Mount?</p>
 
 - Anticipate the turn by monitoring the opponent's far shoulder and hip movement—rotation always begins with shoulder drop before hips follow
 - Maintain arm control throughout the opponent's rotation to preserve the armbar option—their turn does not automatically end your submission threat
@@ -173,6 +185,8 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Turn from Technical Mount?</p>
 
 ### 1. Follow the turn and establish back control with seatbelt grip and hooks
 
@@ -203,6 +217,8 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Turn from Technical Mount?</p>
+
 ### → [[Positions/Armbar Control]]
 
 Maintain death grip on opponent's wrist throughout their rotation. As they turn, their arm naturally extends creating optimal armbar angle. Follow the rotation with your hips while keeping the arm controlled and transition directly to belly-down armbar finish position for highest percentage completion.
@@ -218,6 +234,8 @@ Release arm grip smoothly as opponent turns, immediately establish seatbelt cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Turn from Technical Mount?</p>
 
 ### 1. Allowing space between chest and opponent's back during the rotation transition
 
@@ -247,6 +265,8 @@ Release arm grip smoothly as opponent turns, immediately establish seatbelt cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Turn from Technical Mount?</p>
+
 **Recognition Drill** - Reading the turn initiation cues
 Partner attempts turns from technical mount at varying speeds and timings. Practice identifying shoulder drops, arm tucks, and hip movements that signal the turn. Call out the recognition cue before the turn completes. 15 repetitions with partner mixing genuine turns with feints.
 
@@ -263,26 +283,6 @@ Positional sparring starting from technical mount. Bottom player attempts full r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical cue that tells you the bottom player is about to turn from technical mount?
-**A**: The earliest cue is the far shoulder dropping toward the mat, typically accompanied by the opponent's head turning away from you. This shoulder rotation precedes hip movement and gives you a critical half-second advantage for response. The arm tuck follows immediately after, with the opponent pulling their threatened elbow tight to their body. Recognizing the shoulder drop gives you maximum time to decide between following to back control or maintaining arm control for armbar.
-
-**Q2**: When should you commit to the armbar catch versus following to back control during the opponent's turn?
-**A**: Commit to armbar if you maintain solid wrist control through the first quarter of the opponent's rotation—their turning motion actually creates better armbar mechanics by extending the arm as the body rotates away from it. Commit to back take if wrist control slips during the initial rotation or if the opponent has tucked the arm so tightly that armbar angle is lost. The decision point occurs within the first one to two seconds of rotation and must be made decisively—straddling both options results in achieving neither.
-
-**Q3**: How do you transition your leg position from technical mount to back control when following the opponent's turn?
-**A**: Your stepped leg (the one over the opponent's body) becomes your first hook as they rotate—as their body turns, your leg naturally falls into hook position on the near side. Use this leg immediately as an anchor while your other leg swings around to establish the second hook on the far side. The key is that the stepped leg transitions smoothly from mount control to hook control without requiring you to reposition—the opponent's rotation does the positioning work for you if you maintain hip contact throughout.
-
-**Q4**: What is the risk of over-committing to preventing the turn rather than following it?
-**A**: Over-committing to blocking the rotation by driving all your weight onto the opponent's far shoulder creates vulnerability on the opposite side. The opponent can use your forward weight commitment as leverage for a hip escape in the direction you are not blocking, potentially recovering guard or creating scramble opportunities. Additionally, forcing prevention of the turn burns your energy against their rotation while following the turn into back control gives you a superior position with less effort expended.
-
-
-
-</section>
 
 
 </main>

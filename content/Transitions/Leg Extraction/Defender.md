@@ -158,13 +158,15 @@ Your primary tools for preventing extraction are hip pressure consolidation agai
 
 Advanced defense against Leg Extraction involves recognizing which phase the opponent has reached and selecting the appropriate counter. Early-phase counters focus on re-establishing hip pressure and grip consolidation. Mid-phase counters involve following their hip escape to maintain angle. Late-phase counters require transitioning to alternative submissions like toe hold or saddle entry when extraction becomes likely, converting their escape energy into new attacking opportunities rather than fighting a losing positional battle.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction?</p>
 
 - Opponent begins rotating their trapped ankle in the opposite direction of your submission pressure, indicating counter-rotation initiation
 - Opponent places both hands on your hips with elbows tight, establishing the structural frames that precede hip escape movement
@@ -178,6 +180,8 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction?</p>
 
 - Maintain constant hip pressure against the opponent's calf to preserve the fulcrum necessary for Estima Lock mechanics throughout their escape attempts
 - Follow the opponent's hip escape movement by adjusting your body angle rather than relying solely on static grip strength to hold position
@@ -193,17 +197,19 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Leg Extraction?</p>
+
 ### 1. Drive hips forward and increase rotational pressure to re-consolidate Estima Lock control before extraction progresses
 
 - **When to use**: Early phase when opponent has just begun counter-rotating their ankle and establishing frames but has not yet hip escaped
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Opponent's escape resets completely, you maintain full submission threat with consolidated grip and hip pressure
 - **Risk**: Over-committing forward pressure without grip security can allow opponent to use your momentum for sweep or accelerated extraction
 
 ### 2. Follow opponent's hip escape by adjusting your body angle and maintaining pressure vector on the trapped leg
 
 - **When to use**: Mid phase when opponent has begun hip escaping and creating angular separation but has not yet retracted their knee
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Neutralizes the space created by hip escape, maintains submission angle despite positional adjustment
 - **Risk**: Following too aggressively without maintaining base can expose you to butterfly hook elevation or rolling back take
 
@@ -217,7 +223,7 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 ### 4. Control opponent's free leg by trapping it with your legs or pinning it with body weight to eliminate their primary escape lever
 
 - **When to use**: Any phase when opponent's free leg becomes active and begins creating push-off leverage against your hips or body
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Removes opponent's most important escape tool, dramatically reducing extraction success probability and buying time to finish
 - **Risk**: Diverting attention to free leg control may loosen primary grip on trapped foot if not executed with proper body positioning
 
@@ -229,7 +235,9 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Estima Lock]]
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction?</p>
+
+### → [[Positions/Estima Lock Control]]
 
 Re-consolidate grip and hip pressure during early escape phases by driving forward, adjusting forearm placement across the top of the foot, and following the opponent's hip movement to maintain your submission angle. Address their counter-rotation by increasing rotational pressure and pinning their free leg when possible.
 
@@ -244,6 +252,8 @@ When extraction becomes likely in late phases, backstep while maintaining leg co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction?</p>
 
 ### 1. Relying solely on grip strength to prevent extraction without adjusting body position or hip pressure
 
@@ -273,6 +283,8 @@ When extraction becomes likely in late phases, backstep while maintaining leg co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Partner performs Leg Extraction sequence at slow speed. Practice identifying each escape phase and maintaining hip pressure and grip consolidation throughout. Focus on following hip escape movement rather than static holding. Zero resistance from the escaping partner on your counters.
 
@@ -289,29 +301,6 @@ Full competition-intensity positional rounds starting from established Estima Lo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the sequential stages of Leg Extraction that you should learn to recognize as the Estima Lock holder?
-**A**: The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence.
-
-**Q2**: Your opponent establishes frames on your hips and begins pushing—what is your optimal response?
-**A**: Drive your hips forward aggressively to collapse the frames before they generate meaningful space. Simultaneously increase rotational pressure on their trapped ankle to re-establish submission threat. If their frames are structurally strong, address their free leg to remove their secondary lever while maintaining grip consolidation on the trapped foot.
-
-**Q3**: Why is transitioning to toe hold or saddle preferable to holding a compromised Estima Lock?
-**A**: A compromised Estima Lock where extraction is well advanced provides diminishing submission threat while consuming significant energy to maintain. Transitioning to toe hold or saddle converts the opponent's escape momentum into a new positional advantage, maintains offensive initiative, and exploits the grip transition moment when they expect to be escaping rather than defending a new attack.
-
-**Q4**: How do you effectively follow an opponent's hip escape without losing your submission angle?
-**A**: Shift your entire body in the same direction as their hip escape rather than simply reaching with your arms. Keep your chest positioned over their trapped leg and adjust your hip pressure angle to match their new body position. The goal is maintaining the same relative relationship between your forearm fulcrum and their ankle despite their movement.
-
-**Q5**: Your opponent's free leg hooks behind your knee during their escape attempt—how do you address this?
-**A**: The knee hook is one of the most effective extraction tools because it breaks your forward driving ability. Address it by posting your hooked leg wider to reduce the hook's leverage, driving your knee forward to strip the hook, or transitioning your body weight to your other leg while maintaining grip. Do not ignore this hook as it will progressively destabilize your entire control structure.
-
-
-
-</section>
 
 
 </main>

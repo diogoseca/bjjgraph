@@ -10,7 +10,7 @@
     "counter",
     "leg-entanglement-defense"
   ],
-  "from_position": "Estima Lock/Bottom",
+  "from_position": "Estima Lock Control/Bottom",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Bottom",
+      "to": "Estima Lock Control/Bottom",
       "probability": 35,
       "result": "failure"
     },
@@ -60,7 +60,7 @@
       "relationship": "Source position where this counter is initiated from the bottom"
     },
     {
-      "name": "Estima Lock Finish",
+      "name": "Estima Lock",
       "relationship": "The submission threat being escaped through this counter technique"
     },
     {
@@ -156,13 +156,13 @@
         "counter": "Opponent re-tightens grip and increases rotational pressure when sensing counter-rotation",
         "effectiveness": "High",
         "your_response": "Maintain counter-rotation and re-establish frames rather than fighting the grip directly; if pressure becomes dangerous, tap immediately and reset",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent follows hip escape movement to maintain hip-to-calf contact",
         "effectiveness": "Medium",
         "your_response": "Change direction of hip escape or use free leg to create a hook that prevents them from following; angle changes disrupt their tracking ability",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent releases grip and transitions to guard pass when sensing imminent escape",
@@ -174,7 +174,7 @@
         "counter": "Opponent switches to toe hold grip when your counter-rotation exposes toes",
         "effectiveness": "Medium",
         "your_response": "Recognize the grip change and apply boot defense by pointing toes and flexing ankle; address the new submission threat before continuing escape sequence",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       }
     ],
     "common_errors": [
@@ -231,7 +231,7 @@
         "description": "Positional sparring starting from established Estima Lock at full resistance. Bottom player works to escape, top player fights to maintain control and finish. Integrate tap awareness and safety decision-making under realistic pressure. Track escape success rate to measure improvement over training cycles."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first mechanical action you should take when you recognize an Estima Lock has been secured on your foot?",
         "answer": "Immediately counter-rotate your ankle by turning your toes outward and driving your heel downward. This reduces the rotational pressure on the ankle joint and Achilles tendon that makes the Estima Lock dangerous. Counter-rotation must happen before any extraction attempt because pulling the foot out without addressing rotation can increase torque and cause injury."
@@ -288,14 +288,14 @@
       {
         "action": "Re-tighten grip and increase rotational pressure while driving hips forward",
         "when_to_use": "When opponent begins counter-rotation but has not yet established frames or activated free leg",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Opponent's escape attempt fails and submission pressure deepens toward tap",
         "risk": "Over-committing to rotation may allow opponent to use momentum for a rolling counter escape"
       },
       {
         "action": "Follow hip escape movement and re-establish hip-to-calf contact by adjusting body position",
         "when_to_use": "When opponent hip escapes to create space but your grip remains intact",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Space creation is negated and lock control is maintained with renewed fulcrum contact",
         "risk": "Chasing movement may compromise your own base stability and create opportunities for sweep"
       },
@@ -309,14 +309,14 @@
       {
         "action": "Transition to toe hold grip when opponent's counter-rotation exposes metatarsals",
         "when_to_use": "When opponent's counter-rotation changes the foot angle to expose toe hold opportunity",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "New submission threat forces opponent to address different defensive angle, resetting their escape progress",
         "risk": "Grip transition creates momentary vulnerability where opponent may extract foot completely"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Estima Lock/Bottom",
+        "outcome": "Estima Lock Control/Bottom",
         "how": "Maintain tight figure-four grip, follow opponent's hip movement to prevent space creation, and gradually increase rotational pressure when counter-rotation weakens to force the tap"
       },
       {
@@ -346,7 +346,7 @@
         "correction": "Apply submission pressure gradually and in a controlled manner, allowing the opponent time to tap while maintaining stable base and grip structure throughout the application"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is beginning to counter your Estima Lock?",
         "answer": "The earliest cues are counter-rotation of their trapped ankle with toes turning outward, hands moving to your hips to establish frames, and their free leg activating from a passive position to push against your body. Counter-rotation is usually the very first indicator because it is the instinctive protective response to rotational ankle pressure and occurs before any other escape action."

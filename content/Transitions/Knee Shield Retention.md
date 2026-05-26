@@ -225,9 +225,9 @@ Knee Shield Retention serves as the central hub of modern half guard systems and
 
 - [[Principles/Hip Escape Mechanics]] - Essential movement pattern for maintaining shield
 
-- [[Principles/Shrimping]] - Fundamental movement used to create angles
+- [[Transitions/Hip Escape to Guard]] - Fundamental movement used to create angles and recover guard structure
 
-- [[Principles/Guard Recovery]] - Broader defensive system this technique belongs to
+- [[Principles/Escape Fundamentals]] - Broader defensive principles this technique builds upon
 
 - [[Transitions/Knee Shield Retention]] - Self-reference for retention drilling context
 

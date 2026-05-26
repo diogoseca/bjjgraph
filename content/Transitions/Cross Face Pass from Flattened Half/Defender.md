@@ -162,6 +162,8 @@ Defending the cross face pass from flattened half guard requires immediate recog
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cross Face Pass from Flattened Half?</p>
+
 - Opponent drives increased crossface pressure while their feet begin walking laterally toward the trapped leg side
 - Top player's hip drops heavy onto your thigh on the trapped leg side, pinning it to the mat to prepare for extraction
 - Opponent's chest weight shifts from centered to angled across your body, indicating they are creating the extraction angle
@@ -173,6 +175,8 @@ Defending the cross face pass from flattened half guard requires immediate recog
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Face Pass from Flattened Half?</p>
 
 - Prevent angle creation by fighting to maintain hip alignment with the passer's hips throughout the passing sequence
 - Protect the underhook side as the primary defensive priority - recovering the underhook eliminates the passer's ability to create the wedge needed for extraction
@@ -187,6 +191,8 @@ Defending the cross face pass from flattened half guard requires immediate recog
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cross Face Pass from Flattened Half?</p>
 
 ### 1. Recover underhook on far side and create defensive angle against the crossface
 
@@ -224,6 +230,8 @@ Defending the cross face pass from flattened half guard requires immediate recog
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cross Face Pass from Flattened Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a deep half guard entry or underhook sweep during the passer's angle creation phase when their weight shifts laterally and their base narrows. The foot-walking movement creates a window where their weight is transitioning between stable positions, making them vulnerable to being swept or displaced from top position.
@@ -239,6 +247,8 @@ Recover underhook and fight to re-center your hips, preventing the passer from c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Face Pass from Flattened Half?</p>
 
 ### 1. Attempting to push the crossface away by extending arms toward opponent's head or shoulder
 
@@ -268,6 +278,8 @@ Recover underhook and fight to re-center your hips, preventing the passer from c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cross Face Pass from Flattened Half?</p>
+
 **Phase 1: Recognition** - Identifying Pass Initiation Cues
 Practice recognizing the difference between static flattened half guard maintenance and active cross face pass setup. Partner alternates between holding position and initiating the pass. Defender calls out when they detect the pass beginning based on foot-walking and pressure shifts. Build pattern recognition awareness before drilling defensive responses.
 
@@ -284,29 +296,6 @@ Full resistance positional sparring starting from flattened half guard with oppo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a cross face pass rather than simply maintaining flattened half guard?
-**A**: The earliest cue is their feet beginning to walk laterally toward the trapped leg side while maintaining or increasing crossface pressure. Simple position maintenance involves static pressure without lateral movement, while the pass setup involves deliberate foot-walking creating the angle needed for leg extraction. Detecting this lateral movement early provides the maximum window for defensive action before the angle becomes sufficient.
-
-**Q2**: Your opponent drives heavy crossface pressure during the pass - where should your defensive hands be positioned?
-**A**: Your near-side hand should fight for the underhook on their far side, providing structural resistance against further flattening. Your far-side hand should frame against their hip or bicep to create minimal space for hip movement. Avoid extending either hand toward their head or chest, which exposes your arms to kimura and americana submissions without improving your defensive positioning against the pass.
-
-**Q3**: At what point during the cross face pass is the defender's window for recovery most favorable?
-**A**: The most favorable window occurs during the foot-walking phase when the passer's base narrows and their weight transitions laterally between stable positions. At this moment, their pressure is shifting rather than settled, and a well-timed hip escape can disrupt their angle creation significantly. The window closes once they pin your thigh with their hip and begin the leg extraction, at which point defensive options become severely limited.
-
-**Q4**: How does the direction of your hip escape affect your ability to prevent the cross face pass?
-**A**: Shrimping toward the trapped leg side is most effective because it moves your hips in the opposite direction of the passer's intended angle creation, closing the space they need for leg extraction. Shrimping toward the free leg side or away from the opponent can expose your back and actually assist the passer's angle creation by separating your hips from their pressure control point and opening the extraction path.
-
-**Q5**: Your opponent begins extracting their trapped leg with a windshield-wiper motion - what is the highest priority defensive action?
-**A**: Immediately clamp your leg hook tighter by squeezing your knees together and pulling your heels toward your buttocks to increase hook grip strength. Simultaneously execute a sharp hip escape toward the trapped leg side to remove the angle the passer created for extraction. If the hook is already significantly compromised, transition immediately to inserting your knee for a knee shield before they complete the pass, as recovering full hook control once extraction has begun is rarely successful.
-
-
-
-</section>
 
 
 </main>

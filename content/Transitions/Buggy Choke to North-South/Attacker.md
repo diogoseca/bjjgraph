@@ -188,6 +188,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Buggy Choke to North-South?</p>
+
 - Recognize stalled choke indicators early — persistent grip defense, maintained posture despite pressure, or controlled breathing — and transition before wasting energy
 - Maintain continuous chest and shoulder pressure throughout the grip release to prevent the opponent from recovering turtle structure or creating space
 - Use the momentum of releasing grips to immediately begin hip rotation rather than pausing between releasing the choke and initiating the slide
@@ -202,6 +204,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Buggy Choke to North-South?</p>
+
 - Buggy choke grips established from turtle top with sufficient depth for the threading arm under the near armpit
 - Chest pressure and hip weight applied to opponent's back creating postural breakdown in their turtle structure
 - Recognition that the buggy choke is stalling — opponent successfully defending grips, maintaining chin tuck, or preventing collar access for five or more seconds
@@ -214,6 +218,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Buggy Choke to North-South step by step?</p>
 
 1. **Assess choke viability**: Evaluate whether the buggy choke is progressing toward a finish. If the opponent is successfully defending grips, maintaining posture, or neutralizing choking pressure for more than five seconds without meaningful progress, commit to the north-south transition rather than continuing to burn energy on a stalling submission.
 2. **Increase flattening pressure**: Before releasing grips, drive your chest weight down heavily onto the opponent's back and shoulders while dropping your hips onto their near hip. This pre-loads the flattening force that will carry through the transition and prevents the opponent from posturing up or sitting to guard when you release the choke grips.
@@ -243,6 +249,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Buggy Choke to North-South?</p>
+
 - **Opponent sits to guard during grip release, recovering half guard or closed guard before north-south is established** (Effectiveness: High) - Your Response: Maintain heavy hip pressure on their near hip during the grip release to prevent sitting motion. If they begin sitting, immediately hook their near leg and convert to a back take rather than continuing to north-south. → Leads to [[Positions/Half Guard]]
 - **Opponent drives up to turtle base and recovers posture during the hip walk, reestablishing defensive turtle structure** (Effectiveness: Medium) - Your Response: Increase chest weight and drive downward pressure continuously during the transition. If they recover turtle, re-enter the buggy choke or switch to an alternative turtle attack rather than forcing the north-south slide against a posted opponent. → Leads to [[Positions/Buggy Choke]]
 - **Opponent granby rolls away during the transition gap, creating distance and recovering to open guard or standing** (Effectiveness: Medium) - Your Response: Anticipate the granby by keeping your head heavy and connected to the opponent's body. If the roll begins, follow with your hips and convert to a truck entry or sprawl to re-engage on their turtle before they complete the roll to guard. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Buggy Choke to North-South?</p>
 
 ### 1. Pausing between releasing buggy choke grips and initiating the north-south transition
 
@@ -298,6 +308,8 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Buggy Choke to North-South (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and body positioning
 Practice the hip walk and chest slide on a compliant partner in turtle. Focus on maintaining continuous chest contact while walking hips around the opponent's head. Perform 15-20 repetitions per side with zero resistance, building muscle memory for the arc path and pressure maintenance.
 
@@ -318,42 +330,12 @@ Practice the full chain: buggy choke attempt to north-south transition to north-
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the primary indicators that the buggy choke is stalling and you should transition to north-south?
-**A**: The primary stalling indicators are: the opponent has successfully fought your collar grip to a shallow depth for more than five seconds, they are maintaining chin tuck that prevents choking pressure from advancing, their breathing remains controlled rather than labored, or they have begun systematic grip stripping that is progressively reducing your control. When any combination of these indicators is present, the choke is unlikely to finish and continuing wastes energy that could be invested in positional advancement.
-
-**Q2**: Why is it critical to maintain continuous chest contact during the hip walk to north-south?
-**A**: Continuous chest contact serves as both a control mechanism and a flattening force throughout the transition. If you lift your chest off the opponent's body, you create a pressure gap that allows them to recover turtle posture, sit to guard, granby roll away, or initiate a scramble. Your chest sliding across their shoulder blades maintains the downward force that prevents these defensive reactions while simultaneously progressing the transition toward perpendicular alignment.
-
-**Q3**: Your opponent begins sitting to guard as you release the buggy choke grips — how do you adjust?
-**A**: Immediately abort the north-south transition and capitalize on their sitting motion by hooking their near leg and following them down to establish back control. Their hip exposure during the sit creates the ideal entry for hooks. If you cannot secure the back take, drive them flat again with shoulder pressure and re-enter the buggy choke or transition to side control rather than forcing north-south against an opponent who is already partially sitting.
-
-**Q4**: What is the most critical grip change during the transition from buggy choke to north-south?
-**A**: The most critical moment is the release of the choking collar grip and immediate redirection of both hands to shoulder control. This grip change must happen in a single fluid motion without any pause between releasing the old grips and establishing new control points. The threading arm should redirect to underhook or shoulder control on the near side while the other hand controls the far shoulder. Any delay between these actions creates a window where the opponent has neither choking pressure nor shoulder control restricting their movement.
-
-**Q5**: How does flattening the opponent from turtle to prone contribute to establishing north-south?
-**A**: A prone opponent has dramatically fewer escape options than one maintaining turtle posture. In turtle, the opponent can sit to guard, granby roll, stand up, or re-establish defensive frames. Once flattened prone, they lose access to all hip-based escape movements and must fight from a position where your chest pressure directly compresses their ribcage. The flattening also naturally orients their body for the perpendicular alignment that defines north-south, making the final positioning significantly easier to complete.
-
-**Q6**: What arm control priorities should you establish immediately upon arriving in north-south?
-**A**: Priority one is preventing both arms from creating frames against your chest. Secure at least one arm through an underhook or overhook immediately upon completing the rotation. Priority two is controlling the near arm to prevent frame-based escape sequences. If the opponent's arms are free and framing when you arrive, use your shoulder weight to collapse one frame while your hand controls the other. Never settle into static north-south pressure without first addressing the opponent's arm positioning.
-
-**Q7**: Your opponent attempts a granby roll as you walk your hips around their head — what is your counter?
-**A**: Keep your head heavy and connected to the opponent's body as an anchor point that resists the granby roll's rotational momentum. Drive your hips down to increase downward pressure against their rolling attempt. If the granby is initiated, follow their roll with your hips and look to convert into a truck entry by inserting a hook as they rotate. If you cannot follow the roll, sprawl immediately to prevent them from completing the rotation to guard and re-engage from a chest-on-back position.
-
-**Q8**: When should you choose north-south versus side control as the transition target from a stalled buggy choke?
-**A**: Choose north-south when the opponent is already partially flattened and your hips can clear their head smoothly, or when you want to access north-south specific submissions like the north-south choke or kimura. Choose side control when the opponent maintains strong turtle posture that resists flattening, when you need to maintain back exposure for back take options, or when the opponent's arm positioning makes side control arm attacks more available. North-south requires more complete flattening to be effective, while side control works against opponents who maintain some turtle structure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Buggy Choke to North-South?</p>
 
 This transition involves significant pressure application through chest-to-chest contact and body weight distribution. When drilling, the top player should be mindful of the crushing pressure applied during the flattening phase, as it can restrict the bottom player's breathing significantly. Allow training partners to tap for pressure at any time, not just submissions. Avoid explosive dropping of body weight during the transition — use controlled, progressive pressure. Be especially careful when flattening opponents from turtle to prone, as sudden forced flattening can strain the lower back and neck. Communication between training partners about pressure tolerance is essential for safe practice.
 

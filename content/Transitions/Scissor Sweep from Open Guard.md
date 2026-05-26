@@ -204,11 +204,11 @@ The Scissor Sweep from Open Guard occupies a foundational role in the BJJ positi
 
 - [[Transitions/Collar Drag from Open Guard]] - Complementary attack using similar collar grip that chains when scissor sweep is defended
 
-- [[Transitions/Butterfly Hook Sweep]] - Alternative sweep from open guard using different mechanics against forward pressure
+- [[Transitions/Butterfly Sweep]] - Alternative sweep from open guard using different mechanics against forward pressure
 
-- [[Submissions/Triangle from Open Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
+- [[Transitions/Triangle from Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
 
-- [[Transitions/Collar Sleeve Sweep]] - Related sweep technique using similar grip configuration from collar sleeve guard
+- [[Positions/Collar Sleeve Guard]] - Related guard position using similar grip configuration for sweeps and submissions
 
 - [[Positions/Half Guard]] - Recovery position commonly reached during partially countered sweep attempts
 

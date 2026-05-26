@@ -217,9 +217,9 @@ Hand fighting from seat belt control occupies a pivotal position in the back esc
 
 - [[Positions/Gift Wrap]] - Counter threat - opponent may switch to gift wrap when seat belt grip is compromised
 
-- [[Submissions/RNC from Seat Belt]] - Primary submission threat - the choke that hand fighting is designed to prevent
+- [[Submissions/Rear Naked Choke]] - Primary submission threat - the choke that hand fighting is designed to prevent
 
-- [[Submissions/Bow and Arrow from Seat Belt]] - Secondary submission threat - gi choke accessible from seat belt requiring grip defense
+- [[Submissions/Bow and Arrow Choke]] - Secondary submission threat - gi choke accessible from back control requiring grip defense
 
 - [[Positions/Harness]] - Related grip concept - shares upper body control mechanics with seat belt configuration
 

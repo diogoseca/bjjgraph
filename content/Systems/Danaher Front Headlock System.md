@@ -38,7 +38,7 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
     },
     {
       "@type": "HowToStep",
-      "name": "Dilemma Creation and Chaining",
+      "name": "Fork Attacks and Chaining",
       "text": "As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.",
       "position": 4
     },
@@ -231,7 +231,7 @@ Key points:
 
 
 
-4. **Dilemma Creation and Chaining**: As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.
+4. **Fork Attacks and Chaining**: As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.
 Key points:
 - Recognize defensive patterns that signal transition opportunities
 - Maintain primary control points during transitions
@@ -379,11 +379,11 @@ The front headlock system requires layered drilling that progressively builds fr
 - [[Anaconda Choke]] (Submission) - Primary finishing technique in anaconda pathway
 - [[Darce Choke]] (Submission) - Primary finishing technique in darce pathway
 - [[Rear Naked Choke]] (Submission) - Finishing technique from back control after successful back exposure
-- [[Head Control]] (Principle) - Fundamental principle underlying all front headlock control mechanics
+- [[Head Position]] (Principle) - Fundamental principle underlying all front headlock control mechanics
 - [[Control Maintenance]] (Principle) - Core principle for retaining dominant position throughout attack sequences
 - [[Positional Hierarchy]] (Principle) - Guides decision-making about when to pursue submissions vs position advancement
 - [[Submission Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
-- [[Dilemma Creation]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
+- [[Fork Attacks]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
 
 
 </section>

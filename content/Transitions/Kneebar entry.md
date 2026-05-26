@@ -28,7 +28,7 @@ From the bottom 50-50 position, you use hip movement and leg control to isolate 
 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
-**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -198,7 +198,7 @@ The Kneebar entry from 50-50 represents a critical branch in the leg lock decisi
 
 - [[Submissions/Inside Heel Hook]] - Primary attack that this entry complements
 
-- [[Submissions/Calf Slicer from 50-50]] - Chain attack when opponent bends knee to defend
+- [[Submissions/Calf Slicer]] - Chain attack when opponent bends knee to defend kneebar
 
 - [[Transitions/Back Take from 50-50]] - Alternative transition when submissions are fully defended
 

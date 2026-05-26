@@ -194,6 +194,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Dead Orchard to Darce Switch?</p>
+
 - Maintain constant shoulder and chest pressure throughout the grip switch to prevent any escape opportunity during the transition window
 - Time the switch to coincide with your opponent's active anaconda defense, using their defensive movement to create the darce threading path rather than forcing the transition
 - Keep your chest connected to the opponent's upper back during the entire reconfiguration to prevent them from creating distance or building base
@@ -208,6 +210,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Dead Orchard to Darce Switch?</p>
+
 - Established Dead Orchard Control with deep anaconda grip secured around opponent's head and nearside arm
 - Opponent actively creating space on the trapped arm side through defensive movement, arm extraction, or shoulder rotation
 - Shoulder pressure maintained firmly against opponent's trapped shoulder and head providing anchor control during transition
@@ -220,6 +224,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Dead Orchard to Darce Switch step by step?</p>
 
 1. **Identify the switch trigger**: Recognize the opponent's defensive reaction creating the darce entry path. Key triggers include the opponent pulling their trapped arm away from the anaconda grip, rotating their shoulder outward, or actively creating space between their arm and neck. Do not initiate the switch until this gap is clearly present.
 2. **Anchor shoulder pressure**: Before releasing any part of the anaconda grip, drive your shoulder deeper into the opponent's trapped shoulder and head. This shoulder pressure serves as your primary control anchor throughout the transition. Your chest must remain connected to their upper back, and your weight should be committed forward to prevent any positional recovery.
@@ -250,6 +256,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Dead Orchard to Darce Switch?</p>
+
 - **Opponent tucks chin and clamps elbow tight to ribs, preventing the darce arm from threading under the armpit** (Effectiveness: High) - Your Response: If the opponent successfully blocks the darce threading, return to the anaconda dead orchard configuration while their arm is still accessible, or advance to mount or north-south using the stalled transition as a positional advancement trigger → Leads to [[Positions/Dead Orchard Control]]
 - **Opponent frames against your shoulder and creates distance during the grip switch window, building base and posturing up** (Effectiveness: High) - Your Response: Drive your weight forward and re-establish chest connection before attempting to complete the switch. If distance is too great, abandon the switch and either reset dead orchard control or transition to a front headlock snap-down to break their posture again → Leads to [[Positions/Half Guard]]
 - **Opponent rolls through explosively during the momentary grip release, using the reduced control to scramble free** (Effectiveness: Medium) - Your Response: Follow the rolling motion and look to take the back as they expose it during the roll. If back take is not available, maintain top position and work to re-establish front headlock control from the resulting scramble rather than chasing the darce grip → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Dead Orchard to Darce Switch?</p>
 
 ### 1. Releasing the anaconda grip before establishing sufficient shoulder pressure as an anchor
 
@@ -300,6 +310,8 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Dead Orchard to Darce Switch (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Learning the physical motion of the grip switch
 Practice the arm re-threading motion from anaconda to darce configuration on a compliant partner or grappling dummy. Focus on the correct path: withdraw from over-head anaconda, thread under armpit, reach across neck, lock grip. Perform 20 repetitions per side with no resistance, emphasizing smooth arm movement and grip depth.
 
@@ -320,39 +332,12 @@ Positional sparring starting from dead orchard control. Practitioner flows betwe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that indicates it is time to switch from Dead Orchard to Darce grip?
-**A**: The primary trigger is when the opponent creates space on the trapped arm side, typically by pulling their arm away from your anaconda grip or rotating their shoulder to defend the choke. This defensive movement creates a gap between their arm and neck that serves as the insertion point for the darce arm threading. Attempting the switch without this trigger means fighting against a closed structure, which dramatically reduces success rate and wastes the transition window.
-
-**Q2**: How do you maintain control during the brief window when neither the anaconda nor darce grip is fully secured?
-**A**: During the grip transition window, maintain control through constant shoulder pressure driving into the opponent's trapped shoulder and head. Your chest must remain connected to their upper back to prevent distance creation. Use your free hand to control their far hip or post for base. The shoulder pressure serves as your primary anchor point while your choking arm re-threads from anaconda to darce configuration.
-
-**Q3**: What is the correct arm threading path when switching from anaconda to darce configuration?
-**A**: In the anaconda configuration, your arm wraps over the opponent's head and under their nearside armpit. For the darce switch, you withdraw the choking arm from the anaconda position and re-thread it under the opponent's nearside armpit first, then reach across behind their neck toward the far shoulder. Your hand should pass the opponent's far shoulder before you lock the figure-four grip, ensuring sufficient depth for effective choke mechanics.
-
-**Q4**: Your opponent successfully defends the switch by tucking their chin and clamping their elbow - what is your best follow-up?
-**A**: When the opponent defends with chin tuck and elbow clamp, do not force the darce grip deeper. Instead, use their defensive shell against them by transitioning to mount or north-south where their tight defensive posture becomes a liability since they cannot frame effectively. Alternatively, return to the dead orchard anaconda configuration if your arm is still positioned to re-establish that grip. Maintain offensive momentum rather than stalling on a defended transition.
-
-**Q5**: How does hip positioning change during the transition from dead orchard to darce control?
-**A**: In dead orchard control, your hips are typically positioned to the side or slightly behind the opponent to support the anaconda compression angle. During the switch to darce, you need to walk your hips slightly more toward the opponent's far side to create the perpendicular pressure angle the darce requires. Your chest should end up driving into the side of the opponent's head rather than the back of their shoulder, establishing the wedge effect that closes the darce choke.
-
-**Q6**: What grip configuration should you use when completing the darce lock after the switch?
-**A**: After threading your arm under the opponent's armpit and across behind their neck, secure a figure-four grip by catching your own bicep with the free hand and placing the free hand behind the opponent's head or on your own chest. This creates the strongest compression angle for the darce choke. Use a gable grip for initial security if the figure-four is not immediately accessible, then transition to figure-four once the position is stabilized.
-
-**Q7**: What distinguishes a switch attempt worth committing to from one that should be abandoned in favor of maintaining dead orchard?
-**A**: Commit to the switch when there is clear space between the opponent's trapped arm and their neck, they are actively creating distance from the anaconda grip, and you can maintain shoulder pressure throughout. Abandon the switch if the opponent's arm stays tight without creating a threading gap, if you lose shoulder pressure during re-threading, or if the opponent begins building base and creating distance. Returning to dead orchard anaconda pressure is safer than committing to a poor darce entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Dead Orchard to Darce Switch?</p>
 
 The Dead Orchard to Darce Switch involves neck compression mechanics that can cause cervical injury or unconsciousness if applied explosively. Always transition grips with controlled pressure and communicate with training partners about intensity levels. The darce choke can produce unconsciousness rapidly once the figure-four is locked. Release instantly upon tap or signs of distress including facial color changes, loss of muscle tone, or cessation of defensive movement. During drilling, practice the grip transition at reduced speed and intensity before adding resistance. Partners should tap early when caught in the darce rather than fighting through excessive pressure that risks neck injury.
 

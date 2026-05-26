@@ -190,6 +190,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hip Escape to Turtle?</p>
+
 - Maintain calm breathing despite rib compression - take shallow chest breaths and avoid panic that wastes energy and oxygen
 - Turn your body toward the triangle leg side to reduce squeeze effectiveness and position yourself to attack the lock
 - Create incremental space through controlled hip escapes rather than explosive movements that waste energy
@@ -205,6 +207,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hip Escape to Turtle?</p>
+
 - You are being controlled in body triangle with opponent's legs locked around your torso
 - Your chin is protected and neck is defensively positioned against immediate choke threats
 - You have identified which side the triangle is locked on (which leg crosses over)
@@ -217,6 +221,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hip Escape to Turtle step by step?</p>
 
 1. **Protect neck and assess**: Tuck your chin deep and use one hand to defend against the choking arm. Identify which direction the triangle is locked - note which leg crosses over your body. Take controlled breaths to stabilize before initiating escape sequence.
 2. **Turn toward triangle leg**: Rotate your shoulders and hips toward the side where the triangle leg crosses over your body. This reduces the squeezing surface area and begins positioning you to attack the lock. Use your elbow to post on the mat and create the turning angle.
@@ -246,6 +252,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hip Escape to Turtle?</p>
+
 - **Opponent increases squeeze pressure when you turn toward the triangle leg, crushing your ribs harder** (Effectiveness: High) - Your Response: Pause the escape attempt and focus on breathing management. Wait for them to adjust their grip or relax slightly before continuing. The increased squeeze is metabolically costly for them and cannot be maintained at maximum indefinitely. → Leads to [[Positions/Back Control/Body Triangle]]
 - **Opponent attacks your neck aggressively as soon as you redirect attention to clearing the triangle** (Effectiveness: High) - Your Response: Immediately return to neck defense with chin tucked and hands protecting. Accept that escapes from body triangle require iterative attempts - defend the choke first, then resume triangle clearing work when the neck threat is neutralized. → Leads to [[Positions/Back Control/Body Triangle]]
 - **Opponent follows your hip escape by adjusting their hip position to maintain optimal squeezing angle** (Effectiveness: Medium) - Your Response: Continue hip escaping in the same direction - they cannot follow indefinitely without compromising their own base and chest-to-back connection. Each adjustment they make creates micro-opportunities and fatigues their positioning. → Leads to [[Positions/Back Control/Body Triangle]]
@@ -257,6 +265,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hip Escape to Turtle?</p>
 
 ### 1. Panicking from breathing restriction and attempting explosive escape without technical precision
 
@@ -296,6 +306,8 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hip Escape to Turtle (Attacker)?</p>
+
 **Week 1-2** - Breathing and body positioning
 Partner locks body triangle with light pressure. Practice maintaining calm breathing, identifying triangle orientation, and executing turning movement toward triangle leg. No resistance on escape attempts - focus purely on mechanics and breathing management.
 
@@ -313,54 +325,12 @@ Full resistance positional sparring starting in body triangle. Partner uses all 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Hip Escape to Turtle from body triangle?
-**A**: The primary goal is to escape the body triangle lock and reach turtle position, which offers significantly more mobility and escape options than remaining trapped. Turtle removes the immediate breathing restriction and neck attack danger, allowing you to continue working toward guard recovery or standing.
-
-**Q2**: Why do you turn toward the triangle leg side rather than away from it?
-**A**: Turning toward the triangle leg reduces the squeezing surface area against your ribs and positions you to attack the figure-four lock mechanism. Turning away actually increases squeeze effectiveness and moves you further from being able to clear the lock. The triangle's power comes from perpendicular pressure, so angling toward it diminishes this mechanical advantage.
-
-**Q3**: What is the structural weakness in the body triangle that you target during this escape?
-**A**: The figure-four lock's weakness is the foot tucked behind the opponent's own knee. Unlike the interlocked legs which have bone-on-bone contact, this foot position relies on muscular tension and positioning. By creating space through hip escape and then pushing the ankle out of its tucked position, you break the entire locking mechanism.
-
-**Q4**: Your opponent increases their squeeze dramatically when you begin turning - what adjustment should you make?
-**A**: Pause the escape attempt temporarily and focus on breathing management. The increased squeeze is metabolically costly for them and cannot be maintained indefinitely. Wait for them to adjust their grip or need to relax slightly, then resume your escape. Forcing the escape against maximum squeeze wastes your energy under breathing restriction.
-
-**Q5**: Why is it critical to insert your elbow or forearm immediately after breaking the lock?
-**A**: The elbow frame prevents the opponent from immediately re-establishing the body triangle. Without this frame, the space you created will be quickly reclaimed as they squeeze their legs back together. The frame must be inserted as a continuous part of the escape movement, not as a separate action after pausing.
-
-**Q6**: How should you manage your breathing while trapped in body triangle?
-**A**: Take controlled, shallow breaths using your chest rather than trying to breathe deeply with your diaphragm which is compressed. Avoid holding your breath or breathing erratically as this accelerates panic and oxygen depletion. Accept that full breaths are not possible and work efficiently with reduced oxygen, saving explosive efforts for critical escape moments.
-
-**Q7**: When your opponent attacks your neck as you work on the triangle, what is the correct response?
-**A**: Immediately prioritize neck defense by tucking chin deeply and bringing hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once the immediate choke threat is defended, resume systematic escape work. Accept that body triangle escapes require iterative alternation between neck defense and lock clearing.
-
-**Q8**: What follow-up options do you have after successfully reaching turtle position?
-**A**: From turtle you can work toward: guard recovery by sitting through to half guard or closed guard, technical standup to reach standing position, granby roll to invert and recover guard, or standard back escape sequences if opponent maintains hooks. Turtle is an intermediate position that requires continued escape work but offers significantly more options than body triangle.
-
-**Q9**: Why is turtle considered a successful outcome even though it is not a dominant position?
-**A**: Turtle removes the breathing restriction and concentrated neck attack danger of body triangle. While turtle still has defensive requirements, it offers multiple escape pathways, more mobility, and does not have the physiological stress of rib compression. The escape strategy prioritizes getting out of the most dangerous situation first, then continuing to improve position from turtle.
-
-**Q10**: Your opponent transitions to hooks when they feel the body triangle failing - should you continue toward turtle?
-**A**: Yes, accept the transition to hooks as a partial victory. Hooks are significantly easier to clear than body triangle using standard back escape sequences such as elbow escape, shoulder walk, and hand fighting. Continue to turtle and immediately begin working standard back escapes, which have higher success rates than body triangle escapes.
-
-**Q11**: What grip configuration must you establish before attempting to attack the triangle lock?
-**A**: You need at least one hand dedicated to neck defense at all times, typically controlling the opponent's choking wrist with a two-on-one grip or maintaining chin tuck with hand blocking the collar. The free hand works on the triangle lock only after neck defense is secured. Never commit both hands to the triangle simultaneously as this leaves your neck completely exposed to finishing attacks.
-
-**Q12**: What is the optimal direction of force when pushing the opponent's foot out of the figure-four lock?
-**A**: Push the foot perpendicular to the line of their shin, directing force outward away from behind their knee. The foot is wedged in a pocket created by the knee bend, so pushing along the shin accomplishes nothing. The perpendicular push leverages the weakest axis of the lock. Combine this push with your hip escape movement for maximum effect, as the space created by the shrimp reduces the clamping force holding the foot in position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hip Escape to Turtle?</p>
 
 Practice body triangle escapes with clear communication about pressure levels, especially regarding breathing restriction. Partners should use moderate squeeze pressure during drilling rather than competition-level compression to allow technical learning. If the bottom person taps or signals distress, immediately release all pressure. Build up intensity gradually over training sessions as the defender develops comfort with restricted breathing. Avoid drilling this escape when fatigued as judgment and timing suffer under oxygen restriction. The neck attack component requires careful training - partners should not apply full choke pressure during escape drilling. Those with rib injuries or breathing conditions should modify training intensity and communicate limitations before starting.
 

@@ -194,6 +194,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hand Fight from Seat Belt Control?</p>
+
 - Two-on-one methodology: always fight one grip at a time with both hands to create mechanical advantage over opponent's single-arm grip strength
 - Protect neck while fighting: never leave throat undefended during grip breaks, maintaining chin tuck as the non-negotiable baseline throughout
 - Address the over-arm first: the over-shoulder arm is both the choking platform and the structural keystone of the seat belt configuration
@@ -209,6 +211,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hand Fight from Seat Belt Control?</p>
+
 - Opponent has established seat belt grip with one arm over your shoulder and one arm under your opposite armpit, hands connected
 - You have identified which arm is the over-arm (choking platform) and which is the under-arm (control anchor)
 - Your chin is firmly tucked to your chest and basic neck defense posture is established before committing hands to grip fighting
@@ -221,6 +225,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hand Fight from Seat Belt Control step by step?</p>
 
 1. **Identify grip configuration**: Determine which of opponent's arms crosses over your shoulder and which threads under your armpit by feeling the pressure angles and grip position across your torso. The over-shoulder arm typically provides more downward diagonal pressure and is closer to your neck, while the under-arm presses upward into your armpit area.
 2. **Secure neck defense baseline**: Tuck your chin firmly to your chest and bring your near-side hand to your collar line, creating a protective barrier that prevents opponent from sliding their forearm under your jaw while you prepare to redirect your hands toward grip fighting. This defensive posture must remain intact throughout the entire sequence.
@@ -252,6 +258,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hand Fight from Seat Belt Control?</p>
+
 - **Opponent immediately re-grips after partial strip by switching to gable grip or wrist-on-wrist connection before you can pin the arm** (Effectiveness: High) - Your Response: Maintain constant downward pressure on the stripped arm rather than releasing to address the second arm. Keep the broken grip pinned while working continuous strip attempts, and coordinate hip escapes to prevent opponent from settling into the new grip. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Opponent advances choking arm toward neck during the grip fight window when your hands leave neck defense to strip grips** (Effectiveness: High) - Your Response: Immediately abandon grip break and return both hands to neck defense, re-establishing chin tuck and collar line protection. The hand fight can always be restarted, but allowing a choke to lock during grip fighting ends the match. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Opponent switches to alternative grip configuration such as gift wrap or double underhooks when seat belt is compromised** (Effectiveness: Medium) - Your Response: Recognize the grip transition as a window of reduced control. Use the moment when opponent releases one configuration to establish another as your primary escape opportunity, since their positional control is weakest during the switch. → Leads to [[Positions/Back Control]]
@@ -263,6 +271,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hand Fight from Seat Belt Control?</p>
 
 ### 1. Fighting both arms of the seat belt simultaneously with one hand on each
 
@@ -302,6 +312,8 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hand Fight from Seat Belt Control (Attacker)?</p>
+
 **Isolation Drilling** - Grip identification and stripping mechanics
 Partner holds seat belt grip at 25% resistance. Practice identifying over-arm versus under-arm, establishing two-on-one wrist control, and executing clean grip strips with proper finger isolation and wrist rotation. Focus purely on mechanical technique without time pressure or defensive concerns.
 
@@ -322,39 +334,12 @@ Full-speed positional sparring from seat belt back control with partner attackin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has a strong gable grip connecting their seat belt - which arm should you prioritize stripping first and why?
-**A**: Prioritize the over-shoulder arm because it serves as both the primary choking platform and the structural keystone of the seat belt configuration. The over-arm provides the diagonal downward force that pins your shoulder and creates the angle needed for rear naked choke entry. Once the over-arm is stripped, the under-arm alone cannot maintain the same level of control or submission threat, making subsequent escape significantly easier. The under-arm without the over-arm becomes a single underhook with limited controlling power.
-
-**Q2**: During your hand fight attempt, your opponent begins sliding their forearm toward your neck - what is your immediate response?
-**A**: Immediately abandon the grip break and return both hands to neck defense. Tuck your chin harder to your chest and use a two-on-one grip on their advancing forearm to pull it away from your throat. Only resume hand fighting once the choke threat is fully neutralized and your neck defense is re-established. The hand fight can always be restarted from zero, but allowing a choke to lock in during the grip fight may end the match within seconds as the rear naked choke compresses carotid arteries rapidly.
-
-**Q3**: What role does hip movement play in effective hand fighting from seat belt control?
-**A**: Hip movement creates angles that mechanically weaken the seat belt grip structure by changing the force vectors through which the grip operates. When you hip escape or shrimp, your torso rotates slightly, which misaligns the diagonal over-under configuration and reduces its structural integrity. This mechanical weakening means grip strips require significantly less force, transforming what would be a pure strength contest into a technical sequence where timing and angles overcome grip endurance. Hip movement also creates space between your back and opponent's chest, further reducing their control leverage.
-
-**Q4**: How do you prevent your opponent from immediately re-gripping after you strip one arm of the seat belt?
-**A**: After stripping the over-arm, immediately pin it against your body by trapping it between your elbow and hip or by controlling the wrist against your torso with one hand. Maintain constant downward pressure on the stripped arm while transitioning your remaining free hand to begin attacking the under-arm. The critical error is releasing the stripped arm entirely to address the second grip with both hands, which allows instant re-connection. Keep the first arm physically controlled throughout the entire remaining sequence until you transition to an escape.
-
-**Q5**: Your opponent switches from seat belt to a gift wrap grip when you begin hand fighting - how should you adjust your defense?
-**A**: Recognize that the transition between grip configurations creates a brief window of reduced control where opponent must release one or both connection points to reconfigure. This transition moment offers the best escape opportunity - use it to immediately initiate hip escape or begin turning into your opponent. If they complete the gift wrap before you can escape, address this new configuration with arm extraction and rotation toward the trapped arm side, which is a different technical sequence than seat belt stripping.
-
-**Q6**: What is the ideal timing for initiating hand fighting from seat belt back control?
-**A**: Initiate hand fighting when opponent is in a maintenance phase rather than actively advancing a submission. If they are driving their forearm toward your neck, your hands must defend rather than attack grips. Wait for moments when their grip focus shifts to holding control rather than progressing attacks. Also time hand fight attempts with your own hip movement - begin the strip when you shrimp, as the combined directional forces of your hip escape and your grip pull multiply the effectiveness of the strip against a grip weakened by angular displacement.
-
-**Q7**: How do you manage energy during extended hand fighting sequences against a patient opponent who reinforces grips effectively?
-**A**: Use rhythmic pulsing rather than sustained maximum effort. Apply strong grip break attempts for 3-5 seconds, then reduce intensity briefly while maintaining chin tuck and passive arm control. This pulse-rest pattern preserves grip endurance over minutes rather than depleting it in seconds. Focus on wrist manipulation technique over raw pulling force. Control breathing deliberately - exhale during effort phases and inhale during recovery windows. Accept that multiple cycles may be needed and that each partially successful strip weakens opponent's grip endurance cumulatively.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hand Fight from Seat Belt Control?</p>
 
 Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements.
 

@@ -171,6 +171,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crackhead Control (Top)?</p>
+
 - Top practitioner's hips positioned on opponent's lower back/hip area in a seated chair-like position, with bodyweight distributed through the gluteal muscles directly onto opponent's lumbar spine and sacrum creating fulcrum effect
 - At least one leg (typically inside leg) hooked around opponent's near hip or thigh, with the foot controlling inside position while the other leg may be posted wide for base or also hooked for additional control
 - Opponent in defensive turtle position with hands and knees on mat, head tucked, upper back rounded to protect neck from rear attacks while struggling against hip isolation
@@ -183,6 +185,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Crackhead Control (Top)?</p>
+
 - Opponent in turtle position with defensive posture
 - Successful establishment of initial turtle control from pass, scramble, or transition
 - At least one hip hook established to prevent opponent from sitting through
@@ -194,6 +198,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Crackhead Control?</p>
 
 - Maintain heavy hip pressure on opponent's lower back to prevent forward movement and base recovery
 - Use chair sit mechanics to isolate opponent's hips while keeping your own center of gravity mobile
@@ -209,6 +215,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Crackhead Control (Top)?</p>
 
 **If opponent remains static in defensive turtle with strong base:**
 - Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
@@ -237,6 +245,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Crackhead Control?</p>
 
 ### 1. Sitting too high on opponent's upper back instead of hips
 
@@ -276,6 +286,8 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Crackhead Control attacks?</p>
+
 ### Chair Sit Entry Drill
 
 Partner starts in defensive turtle. Practice entering crackhead control from various angles (side, behind, three-quarter position), focusing on establishing hip pressure and inside leg hook before committing full weight. Work on smooth entry mechanics and proper weight distribution.
@@ -308,38 +320,6 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip placement for maintaining crackhead control top, and why does this positioning matter?
-**A**: The hips should be loaded directly onto the opponent's lower back and sacrum area, not on the upper back or shoulder blades. This placement creates a fulcrum effect that severely limits the opponent's ability to generate forward movement or recover their base. Sitting too high allows granby rolls and forward escapes, while the lower hip position isolates their movement by placing your weight at their center of rotation.
-
-**Q2**: Your opponent starts circling their hips trying to create space - how do you adjust your weight distribution to maintain control?
-**A**: Follow their hip movement by keeping your hips connected to theirs while shifting your upper body weight in the opposite direction to counterbalance. Your inside leg hook should tighten to prevent them from completing the rotation, and you should drive your hips forward momentarily to break their momentum before resettling your weight. The key is maintaining the hip-to-hip connection rather than trying to anchor your upper body.
-
-**Q3**: What are the essential grips for maintaining crackhead control, and in what order of priority should you establish them?
-**A**: The inside leg hook is the primary control point, not the upper body grips. First establish the leg hook controlling the space between opponent's legs. Second, secure an overhook or underhook on the near arm to prevent posting. Third, establish a collar tie or cross-face to control head position. The upper body grips are supplementary - they redirect movement rather than providing primary control. If forced to choose, maintain the leg hook over any hand grip.
-
-**Q4**: How do you shut down the opponent's primary escape - sitting through to guard - from crackhead control?
-**A**: The inside leg hook is the primary prevention mechanism. Keep your foot controlling the space between their legs, which physically blocks them from sitting their hips back toward you. Additionally, maintain forward weight pressure through your hips onto their lower back to prevent them from generating backward momentum. If they begin sitting through, immediately transition to back take by following their rotation while maintaining upper body control.
-
-**Q5**: What is the correct pressure application for crackhead control - where should your weight be distributed?
-**A**: Approximately 70% of your weight should be on your hips pressing into their lower back/sacrum, with 30% distributed between your posted leg and upper body. Your upper body should remain mobile while your hips stay heavy. Avoid putting excessive weight forward onto their upper back as this compromises your ability to follow their movement and makes you vulnerable to forward rolls. The glutes should be the primary weight-bearing surface, creating the characteristic 'chair sit' position.
-
-**Q6**: Your opponent creates a brief moment of space by explosively bridging - how do you recover control without losing position?
-**A**: Follow their bridge by staying connected through your hip pressure rather than trying to anchor down. As they bridge, your hips should ride with the movement while your inside leg hook tightens. When they return from the bridge, immediately resettle your weight and look to advance - their energy expenditure from bridging creates an opportunity for back take or truck entry. Never disconnect your hips from their body during the recovery.
-
-**Q7**: How do you manage energy expenditure from crackhead control top to avoid fatigue while maintaining offensive pressure?
-**A**: Use positional weight rather than muscular tension for control. Your skeletal structure and gravity should do the work, not your grip strength. Keep hands relaxed unless actively redirecting movement, and use your hips as the primary anchor. Threaten transitions constantly to keep opponent reactive - their defensive efforts burn far more energy than your offensive positioning. Maintain the position for 30-90 seconds before committing to advancement rather than fighting for immediate submissions.
-
-**Q8**: Your opponent successfully strips your overhook grip - what is your immediate recovery priority and why?
-**A**: First verify your inside leg hook is still secure, as this is your primary control mechanism. If the leg hook is intact, immediately re-establish upper body control by swimming for an underhook on the same side or transitioning to a cross-face. Do not chase the grip if they're pulling the arm away - instead, use their arm extension as an opportunity to threaten crucifix entry or transition to crab ride position. The leg hook matters more than any single arm grip.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

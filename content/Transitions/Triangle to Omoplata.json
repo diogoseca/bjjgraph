@@ -42,11 +42,11 @@
       "relationship": "Target control position upon successful execution"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Primary submission setup leading to this transition"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Alternative direct entry to omoplata without triangle"
     },
     {
@@ -74,7 +74,7 @@
       "relationship": "Alternative guard position for triangle entry"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Primary submission threat that forces the defensive reaction"
     }
   ],
@@ -228,7 +228,7 @@
         "description": "Begin sparring from open guard and work to establish triangle, then transition to omoplata based on opponent's reactions. Develop the ability to create the opportunity for the chain from various guard entries—closed guard, spider guard, collar sleeve. Focus on recognizing when the chain is available versus when other attacks are higher percentage."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary defensive reaction from the triangle that creates the opportunity for the omoplata transition?",
         "answer": "The opponent posturing up, stacking, or driving forward to relieve triangle choke pressure. This defensive movement elevates their posture and creates the space needed to swing the leg over their back. The forward pressure that relieves triangle compression naturally feeds into the omoplata setup because the opponent's weight shift forward extends their trapped arm and exposes the shoulder to rotational attack. This is why the transition should be reactive rather than forced."
@@ -268,6 +268,14 @@
       {
         "question": "What are the three primary follow-up attacks if the omoplata submission itself is defended after a successful transition?",
         "answer": "First, the omoplata sweep—when the opponent maintains strong base but leans forward, use your leg across their back to drive them forward and sweep to mount or side control. Second, the back take—when the opponent attempts the forward roll escape, follow them through the roll and establish hooks for back control. Third, return to triangle or armbar—if the opponent partially escapes the omoplata by creating distance but remains in your guard, re-establish leg attacks using the arm isolation you maintained. These three options ensure that defending the omoplata itself creates new vulnerabilities."
+      },
+      {
+        "question": "Your opponent clasps their hands together and flattens their hips to the mat while you are mid-transition—what sequence breaks this defense?",
+        "answer": "First, consolidate your leg position across their back and establish the perpendicular hip angle even though they are defending the finish. Second, use your free hand to attack the grip by prying fingers or inserting your hand between their clasped hands. Third, if the grip holds, transition to sweep mechanics by driving your weight forward over their flattened body—their defensive posture eliminates their base, making the omoplata sweep high-percentage. The flat hip position that defends the shoulder lock simultaneously eliminates their ability to resist being driven forward."
+      },
+      {
+        "question": "What specific leg positioning ensures maximum control during the swing phase of the transition?",
+        "answer": "The attacking leg (previously behind the opponent's head) must complete a full arc over their back, landing with the shin crossing their shoulder blades at the scapula level—not lower on the mid-back where control diminishes. The bottom leg simultaneously drives into the opponent's hip on the far side, serving two functions: generating rotational momentum for the swing and preventing the opponent from backing away. The knee of the swinging leg should point toward the mat to create downward pressure, and the heel should hook toward their far armpit to secure the position."
       }
     ],
     "safety_considerations": "The triangle to omoplata transition involves two distinct joint and blood flow threats that require careful management during training. The triangle phase can restrict blood flow to the brain and cause unconsciousness without warning—partners should communicate immediately if they feel lightheaded. The omoplata phase attacks the shoulder joint, which is particularly vulnerable to injury from sudden rotational force. During training, both partners must maintain clear communication about pressure levels and tap immediately when shoulder discomfort occurs. The practitioner applying the technique should increase pressure gradually and release immediately upon feeling a tap. Beginners should focus exclusively on positioning and control rather than finishing pressure until the complete transition mechanics are thoroughly understood. Explosive movements during the leg swing phase can inadvertently apply sudden force to the shoulder—emphasize smooth, controlled transitions rather than speed. Partners should agree on resistance levels appropriate for their skill level and injury history before beginning each round."
@@ -354,7 +362,7 @@
         "correction": "The forward roll is only appropriate once the omoplata leg is fully established across your back. If the attacker is still transitioning, arm extraction or backward drive are safer options. Reserve the forward roll for when the omoplata is fully locked and other options have been exhausted."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical transition window for escape and how do you recognize it?",
         "answer": "The critical window occurs between the moment the attacker unlocks their triangle ankle lock and the moment their leg completes the swing over your back to establish omoplata control. This window typically lasts 1-2 seconds. You recognize it by feeling the triangle pressure release on your neck, the attacker's hip rotation beginning, and increased pulling pressure on your trapped wrist. This is your highest-percentage escape opportunity because neither submission is fully secured during this phase."

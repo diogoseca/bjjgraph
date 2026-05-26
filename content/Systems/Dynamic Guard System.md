@@ -32,7 +32,7 @@ description: "Master Dynamic Guard System in BJJ. Comprehensive framework for ma
     },
     {
       "@type": "HowToStep",
-      "name": "Grip Fighting Integration",
+      "name": "Grips Integration",
       "text": "Integrate grip fighting principles into guard play, learning to control opponent's hands while establishing your own grips.",
       "position": 3
     },
@@ -170,7 +170,7 @@ The Dynamic Guard System represents a modern approach to guard play that priorit
 **Guard Switching Matrix** (Enables fluid position changes that prevent opponents from establishing stable passing positions)
 A systematic approach to transitioning between open guard positions based on opponent grips, posture, and pressure direction. The matrix provides decision trees for when to switch from one guard type to another, ensuring smooth transitions that maintain defensive integrity while creating offensive opportunities.
 
-**Grip Fighting Hierarchy** (Dominates the grip battle to control distance and dictate engagement parameters)
+**Grips Hierarchy** (Dominates the grip battle to control distance and dictate engagement parameters)
 A prioritized system for controlling opponent's grips and establishing your own advantageous grips. This includes primary grips that enable guard retention, secondary grips that set up attacks, and grip-breaking sequences that deny opponent's passing attempts. The hierarchy adapts based on gi versus no-gi contexts.
 
 **Distance Management Framework** (Prevents opponent pressure while maintaining position to launch attacks)
@@ -207,7 +207,7 @@ Key points:
 
 
 
-3. **Grip Fighting Integration**: Integrate grip fighting principles into guard play, learning to control opponent's hands while establishing your own grips.
+3. **Grips Integration**: Integrate grip fighting principles into guard play, learning to control opponent's hands while establishing your own grips.
 Key points:
 - Develop grip-breaking techniques for common passing grips
 - Learn to establish dominant grips quickly
@@ -276,7 +276,7 @@ Proficiency indicators:
 - Successfully chain 4+ different guard types in single sequence
 
 
-**Grip Fighting Dominance**: Success rate in establishing your preferred grips while denying opponent's passing grips
+**Grips Dominance**: Success rate in establishing your preferred grips while denying opponent's passing grips
 Proficiency indicators:
 - Break opponent's grips within 2-3 seconds of establishment
 - Establish dominant grips within first 5 seconds of guard engagement
@@ -333,11 +333,11 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 - [[Collar Sleeve Guard]] (Position) - Gi-specific guard for grip-based control and sweeps
 - [[Lasso Guard]] (Position) - Advanced guard for controlling posture and limiting mobility
 - [[Reverse De La Riva Guard]] (Position) - Inverted guard option for back exposure and sweeps
-- [[Guard Retention]] (Principle) - Core defensive principle underlying entire system
-- [[Grip Fighting]] (Principle) - Essential skill for controlling engagement and creating opportunities
-- [[Frame Management]] (Principle) - Critical for maintaining distance during transitions
-- [[Distance Creation]] (Principle) - Key principle for preventing pressure establishment
-- [[Angle Creation]] (Principle) - Essential for off-balancing and creating sweep opportunities
+- [[Defensive Concepts]] (Principle) - Core defensive principle underlying guard retention and recovery
+- [[Grips]] (Principle) - Essential skill for controlling engagement and creating opportunities
+- [[Frames]] (Principle) - Critical for maintaining distance and structural integrity during transitions
+- [[Distance Control]] (Principle) - Key principle for preventing pressure establishment and enabling guard recovery
+- [[Dominant Angles]] (Principle) - Essential for off-balancing and creating sweep opportunities
 - [[Scissor Sweep]] (Transition) - Classic sweep integrated into guard switching sequences
 - [[Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
 - [[De La Riva Sweep]] (Transition) - Primary offensive technique from DLR position

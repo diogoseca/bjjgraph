@@ -190,6 +190,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Collar Drag from Open Guard?</p>
+
 - Timing supersedes strength: initiate the drag at the peak of opponent's forward weight commitment, not against a balanced, posted opponent
 - The collar grip must be deep with fingers inside the collar at the nape of the neck before initiating any pulling motion
 - Hip rotation and sit-up motion generate the primary pulling force, not isolated arm strength
@@ -204,6 +206,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Collar Drag from Open Guard?</p>
+
 - Establish a deep collar grip with fingers inside the collar fabric, knuckles pressing against the nape of the opponent's neck
 - Opponent's weight must be forward or actively shifting forward, which can be provoked through foot frames on hips followed by release
 - Your free hand must be positioned to post behind your hip, ready to assist the explosive sit-up motion
@@ -216,6 +220,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Collar Drag from Open Guard step by step?</p>
 
 1. **Establish deep collar grip**: Secure a deep cross-collar grip with your lead hand, threading fingers inside the collar at the back of the opponent's neck. Your knuckles should press firmly against the nape, creating maximum leverage for the subsequent pull. Fight for this grip with purpose but without telegraphing the drag attempt.
 2. **Bait forward weight commitment**: Use your feet on the opponent's hips or thighs to push them slightly away, then release the frames. This creates space that aggressive passers instinctively close by stepping or leaning forward. Alternatively, pull with your collar grip subtly to draw their weight toward you. The goal is getting their center of gravity ahead of their base.
@@ -245,6 +251,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Collar Drag from Open Guard?</p>
+
 - **Opponent posts hand and sprawls hips back immediately upon feeling the drag** (Effectiveness: High) - Your Response: If the post is strong, release the drag and immediately transition to an arm drag on the posting arm, or reset your guard and re-establish foot frames. The posted arm is vulnerable because it is extended and weight-bearing. → Leads to [[Positions/Open Guard]]
 - **Opponent strips the collar grip before you can initiate the drag by two-on-one grip breaking** (Effectiveness: High) - Your Response: Immediately re-grip or switch to a same-side collar grip. If they consistently strip grips, feint the collar drag and attack with a different technique when their hands are occupied with grip fighting. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward aggressively through the drag attempt, using their momentum to smash past your guard** (Effectiveness: Medium) - Your Response: If they drive too hard, use their forward momentum to pull them into a guillotine or convert to butterfly hooks and elevate for a sweep. Their aggressive forward drive can be redirected if you maintain hip connection. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Collar Drag from Open Guard?</p>
 
 ### 1. Pulling straight back toward yourself instead of diagonally downward
 
@@ -295,6 +305,8 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Collar Drag from Open Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip placement and sit-up motion
 Solo and partner drilling focused on establishing the deep collar grip, executing the sit-up with posting hand, and practicing the diagonal pulling angle. Partner remains static while you perfect the mechanical sequence. Emphasize the torso rotation that powers the pull.
 
@@ -315,48 +327,12 @@ Partner deliberately uses common counters (posting, sprawling, grip stripping, l
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the collar drag from open guard?
-**A**: The optimal timing window is the moment when the opponent's weight shifts forward past their base, typically when they step in to initiate a pass, reach down to establish grips, or lean forward to apply pressure. The drag should be initiated at the peak of their forward commitment, not before they commit and not after they have re-established base. You can feel this moment through your collar grip as increased tension and through your feet as increased pressure against your frames.
-
-**Q2**: What entry requirements must exist before you can successfully attempt the collar drag?
-**A**: Four conditions must be present: a deep collar grip with knuckles at the nape of the neck, forward weight commitment from the opponent, your hips must be mobile and unweighted so you can sit up, and you need at least one free foot to post and drive your body forward during the circular motion. Without the deep grip, the drag slides off. Without forward commitment, you are fighting a stable structure. Without hip mobility, you cannot generate the sit-up force.
-
-**Q3**: What is the critical mechanical detail that differentiates an effective collar drag from an ineffective one?
-**A**: The diagonal pulling angle is the critical mechanical differentiator. The grip must be pulled toward the mat beside your opposite hip, not straight toward your chest. This diagonal vector combines downward force with lateral redirection, preventing the opponent from posting effectively because they would need to resist in two directions simultaneously. The torso rotation amplifies this diagonal force by recruiting your entire core rather than relying on isolated arm strength.
-
-**Q4**: What are the most common failure points that cause the collar drag to fail mid-execution?
-**A**: The three most common failure points are: grip depth insufficient to maintain control under load, causing the hand to slide off the collar during the pull; failure to sit up before pulling, resulting in the drag being powered only by arm strength from a supine position; and failure to circle after the drag connects, allowing the opponent to recover posture because you remain directly in front of them rather than moving to a dominant angle.
-
-**Q5**: What specific grip configuration provides maximum leverage for the collar drag?
-**A**: The optimal grip is a deep cross-collar grip where the fingers thread inside the collar on the opposite side of the opponent's neck. Your four fingers should be inside the collar with your knuckles pressing against the nape of their neck, while your thumb remains outside the collar fabric for additional purchase. The cross-collar configuration creates a longer lever arm than a same-side grip, generating more rotational force during the diagonal pull.
-
-**Q6**: What is the primary direction of force application during the collar drag execution?
-**A**: The primary force direction is diagonal: downward and laterally across your body toward the mat beside your opposite hip. This is not a horizontal pull toward you or a vertical pull downward, but a combined vector at approximately forty-five degrees. The downward component uses gravity as an ally, while the lateral component prevents the opponent from posting directly against the force. Your torso rotation determines the lateral component while your sit-up determines the downward component.
-
-**Q7**: Your opponent posts their hand firmly on the mat as you initiate the collar drag - how do you adapt?
-**A**: A strong hand post indicates the opponent has recognized the drag and is defending effectively. Rather than fighting the post with more pulling force, transition to an arm drag on the posting arm since it is extended and weight-bearing, making it vulnerable to redirection. Alternatively, release the failed drag entirely and use the posting reaction to attack with a different open guard technique, since the opponent's hand is occupied with the post rather than grip fighting or passing.
-
-**Q8**: The collar drag is blocked and the opponent recovers posture - what chain attacks do you pursue?
-**A**: If the drag fails but you maintain the collar grip, immediately threaten a sit-up sweep or transition to collar-sleeve guard where the grip becomes an offensive weapon. If you lose the grip entirely, use the sitting-up position to establish butterfly hooks for a butterfly sweep or to execute an arm drag on their near arm. The key principle is that the sit-up motion itself creates opportunities regardless of whether the collar drag succeeds, because you have changed your body angle and closed distance.
-
-**Q9**: How should you adjust the collar drag against an opponent who consistently keeps their weight back and refuses to commit forward?
-**A**: Against a weight-back opponent, you must create the forward commitment artificially. Push them away with your feet on their hips to create distance, then pull them back in with your collar grip and leg hooks. As they return toward you, their momentum provides the forward commitment you need. Alternatively, threaten other attacks that force them to engage forward, such as sit-up guard entries or technical stand-ups, then catch the collar drag when they close distance to prevent your escape.
-
-**Q10**: What role does the non-gripping hand play throughout the collar drag sequence?
-**A**: The non-gripping hand performs three distinct functions across the drag sequence. First, it posts behind your hip to power the explosive sit-up, providing the structural base your body rises from. Second, after the sit-up, it releases the post and begins reaching toward the opponent's far shoulder or over their back as you circle. Third, it secures the front headlock by wrapping over the opponent's near shoulder to establish the chest-to-back connection. The transition between these three functions must be fluid and continuous.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Collar Drag from Open Guard?</p>
 
 The collar drag is a relatively low-risk technique for both practitioners. Primary safety concern is the transition to front headlock, where excessive rotational force on the neck can cause strain. During training, use controlled pulling force and avoid explosive head-snapping motions. Partners should communicate clearly about neck discomfort during front headlock entries. When drilling, allow the training partner to absorb the drag gradually rather than crashing them into the mat, particularly when working with less experienced practitioners who may not know how to fall safely from the bent-over position.
 

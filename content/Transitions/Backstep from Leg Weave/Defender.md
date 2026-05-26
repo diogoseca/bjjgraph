@@ -154,6 +154,8 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Leg Weave?</p>
+
 - The top player shifts weight noticeably onto the weaved leg side, lightening pressure on the opposite hip and creating an asymmetric weight distribution
 - Forward chest pressure briefly decreases or redirects as the passer loads the pivot point for rotation
 - The passer's free leg lifts or begins swinging laterally behind your body instead of driving forward
@@ -166,6 +168,8 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Leg Weave?</p>
 
 - Avoid over-committing defensive frames against forward pressure, which creates the timing window for the backstep
 - Maintain awareness of the passer's hip orientation - any rotation away signals a backstep or angular pass attempt
@@ -180,6 +184,8 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Leg Weave?</p>
 
 ### 1. Hook the stepping leg with your far-side foot as it swings behind you
 
@@ -217,6 +223,8 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Leg Weave?</p>
+
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
 Recognize the weight transfer onto the pivot leg and immediately turn under the passer, threading your body beneath their center of gravity. The backstep's hip elevation creates the space needed for deep half entry. Secure the passer's far leg with both arms and establish deep half hooks before they can sprawl back.
@@ -232,6 +240,8 @@ Catch the stepping leg early with your far-side hook, stalling the rotation mid-
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Leg Weave?</p>
 
 ### 1. Over-committing frames against forward pressure, creating the exact defensive orientation the backstep exploits
 
@@ -261,6 +271,8 @@ Catch the stepping leg early with your far-side hook, stalling the rotation mid-
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Leg Weave?</p>
+
 **Phase 1: Recognition Drilling** - Identifying backstep initiation cues from leg weave bottom
 Partner alternates between forward-driving passes and backstep attempts from leg weave. Bottom player calls out which direction the pass is going as early as possible, without attempting to defend. Develop the ability to read weight shifts and hip rotation through contact feedback. Ten pass attempts per round, track correct identification rate.
 
@@ -277,26 +289,6 @@ Start in leg weave with top player using all available passes including backstep
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that a backstep is being attempted from leg weave?
-**A**: The earliest cue is an asymmetric weight shift where the passer loads their pivot leg side noticeably heavier while their forward chest pressure briefly lightens or redirects. This weight transfer happens before any visible leg movement and provides the maximum defensive reaction time. Experienced defenders learn to feel this pressure change through their chest and hip contact before seeing the stepping leg begin its arc.
-
-**Q2**: Why is the deep half entry the strongest counter to the backstep, and when must it be initiated?
-**A**: Deep half is the strongest counter because the backstep inherently creates the conditions deep half requires: the passer's hips elevate during rotation and their weight shifts onto one leg, opening space beneath their center of gravity. The entry must be initiated during the weight transfer phase, the brief moment when the passer loads the pivot leg and before their rotation builds momentum. Once the rotation is in progress, the passer's chest pressure re-engages and closes the deep half entry window.
-
-**Q3**: How do you prevent back exposure when following the backstep rotation with hip movement?
-**A**: Keep your inside shoulder connected to the passer's chest as you hip-escape in the direction of their rotation. Never turn away from the passer during the follow. Your hip escape should move your hips while your shoulders stay facing the passer, creating an angled position rather than a turned-away position. If you feel yourself rotating past 45 degrees away from the passer, flatten back to the mat and reset your defensive structure rather than continuing the follow and exposing your back.
-
-**Q4**: Your far-side hook catches the stepping leg but the passer is still applying heavy upper body pressure - what do you do?
-**A**: Holding the hook alone is not sustainable because the passer will strip it while maintaining their upper body anchor. You must address the upper body control simultaneously. Frame against their crossface shoulder to create head space, then use the stalled moment to re-establish your near-side frames. The hook buys you time but does not resolve the position - use that time to rebuild your full defensive structure including frames, hip angle, and underhook battle rather than just holding the hook and hoping.
-
-
-
-</section>
 
 
 </main>

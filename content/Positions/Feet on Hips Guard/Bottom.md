@@ -165,6 +165,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Feet on Hips Guard (Bottom)?</p>
+
 - Both feet placed firmly on opponent's hip bones (anterior superior iliac spine landmarks) with ball of foot contact creating maximum pushing surface and connection stability, preventing opponent from settling weight or closing distance
 - Bottom practitioner's hips elevated off mat with lower back curved, creating space and mobility for hip movement and angle adjustment while maintaining defensive frame integrity and preventing opponent from flattening guard structure
 - Bottom practitioner's shoulders remain on mat with head neutral or slightly tucked, maintaining base and preventing opponent from driving forward pressure to collapse frames or achieve chest-to-chest contact
@@ -178,6 +180,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Feet on Hips Guard (Bottom)?</p>
+
 - Guard opening from closed guard or initial guard pull position
 - Opponent standing or in combat base with hips elevated above bottom player
 - Successful foot placement on opponent's hip bones before they establish dominant ankle or pant grips
@@ -190,6 +194,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Feet on Hips Guard?</p>
 
 - Maintain feet on hip bones (not thighs or stomach) with ball of foot providing maximum pushing surface and directional control
 - Keep hips mobile and elevated to create constant angle adjustment and prevent opponent from settling weight or achieving static grips
@@ -205,6 +211,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Feet on Hips Guard (Bottom)?</p>
 
 **If opponent stands tall with upright posture and reaches for pant grips while maintaining distance:**
 - Execute **[[Spider Guard Sweeps/Attacker|Spider Guard Sweeps]]** → [[Positions/Spider Guard]] (Probability: 65%)
@@ -224,12 +232,12 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 **If opponent circles laterally attempting Toreando pass or leg drag:**
 - Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
-- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent grabs both ankles and attempts to stack or control legs:**
 - Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 55%)
-- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 
@@ -239,6 +247,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Feet on Hips Guard?</p>
 
 ### 1. Placing feet on opponent's thighs instead of hip bones
 
@@ -283,6 +293,8 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Feet on Hips Guard defense?</p>
+
 ### Feet-on-Hips Distance Management
 
 Partner stands or kneels while bottom player maintains feet-on-hips position. Top partner attempts various grips and passing entries while bottom player focuses on maintaining optimal distance, hip mobility, and foot placement. Emphasize constant adjustment and prevention of ankle control. Start at 50% intensity and gradually increase resistance.
@@ -304,7 +316,7 @@ From feet-on-hips position, bottom player flows through transitions to Spider Gu
 **Duration**: 4-6 minutes continuous flow
 
 
-### Grip Fighting from Feet-on-Hips
+### Grips from Feet-on-Hips
 
 Partner attempts to establish passing grips (ankle control, pant grips, sleeve control) while bottom player fights grips and maintains feet-on-hips structure. Focus on breaking opponent's grips immediately while establishing offensive grips for sweeps. Reset when either player achieves dominant grip position.
 
@@ -322,38 +334,6 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal foot placement for maintaining feet on hips guard and why?
-**A**: Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement.
-
-**Q2**: Your opponent grabs both of your ankles - what immediate adjustment do you make?
-**A**: React instantly by retracting both legs toward your chest while simultaneously pulling your hips back and creating an angle to one side. As you retract, fight to strip at least one ankle grip by circling your foot and pulling sharply. Immediately transition to an alternative guard position such as butterfly guard by placing hooks inside their thighs, or create enough distance to reset your feet back on their hips. Never allow them to control both ankles while your hips remain flat and stationary.
-
-**Q3**: What are the essential grips for maintaining an effective feet on hips guard?
-**A**: Prioritize sleeve grips at the wrists or elbows, which allow you to control the opponent's ability to grab your legs and provide pulling power to coordinate with your leg frames. Secondary options include collar grips for posture control and to threaten chokes, or pants grips at the knees to prevent them from stepping around your frames. Always fight to establish grips before the opponent can secure their own passing grips on your ankles or pants.
-
-**Q4**: How do you maintain hip elevation and why is this critical for guard retention?
-**A**: Maintain hip elevation by engaging your core muscles and keeping a curved lower back, creating space between your lower back and the mat. This elevated position preserves your ability to rotate, angle, and move your hips freely. When hips flatten to the mat, you lose mobility and the opponent can settle their weight, pin your legs, and systematically advance their pass. The curved spine position also generates stronger pushing power through your leg frames.
-
-**Q5**: The opponent begins circling laterally to your left side - how do you track their movement?
-**A**: Walk your hips in the same direction they're moving by using your shoulders and feet to scoot your body, keeping your feet centered on their hips and your chest facing them squarely. Adjust your foot pressure by pushing slightly harder with your right foot to track their leftward movement. If you have sleeve grips, use them to pull their upper body back toward your centerline while your legs redirect their hips. Never allow them to achieve a perpendicular angle to your body.
-
-**Q6**: What is the primary escape when the opponent begins driving forward with heavy pressure into your frames?
-**A**: Use their forward momentum against them by pulling them even further forward with your grips while extending your legs to load their weight onto your feet. This creates the setup for sweeps like the scissor sweep or pendulum sweep. If the sweep opportunity passes, redirect their forward pressure to one side by angling your hips and extending one leg more than the other, creating space to recover to closed guard or transition to De La Riva guard on the side they're now committed toward.
-
-**Q7**: How do you recover position after the opponent partially passes one foot off your hip?
-**A**: Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover.
-
-**Q8**: You have been in feet on hips guard for over a minute and your legs are beginning to fatigue from constant pushing - how do you manage energy while maintaining guard effectiveness?
-**A**: Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

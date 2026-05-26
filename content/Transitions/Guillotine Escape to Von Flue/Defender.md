@@ -85,6 +85,22 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
         "@type": "Answer",
         "text": "Closed guard with legs locked high on the opponent's back provides the strongest prevention against the lateral pass required for Von Flue. If closed guard is not possible, a butterfly hook on the choking arm side combined with an overhook prevents lateral movement in that critical direction. Your legs must create barriers specifically on the choking arm side where the Von Flue requires the pass."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What should your free arm be doing while you hold the guillotine to prevent the Von Flue counter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your free arm—the one reinforcing the choke or controlling the opponent's body—should actively block the opponent's hip on the choking arm side to prevent their lateral movement. If they begin walking their hips, use your free arm as a frame against their shoulder on the passing side to stall the pass. This arm is your early warning system and first line of defense against the lateral pass that enables the Von Flue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "You are attacking a guillotine from butterfly guard and your opponent begins passing laterally—why is this more dangerous than from closed guard and how do you respond?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Butterfly guard provides less lateral pass prevention than closed guard because butterfly hooks primarily resist forward and upward movement, not lateral passing. When you feel the lateral pass beginning from butterfly, you must either immediately close your guard around their waist to lock them in place, or release the guillotine and use your butterfly hooks to elevate and create distance for guard recovery. The open nature of butterfly guard means the window between pass initiation and Von Flue danger is much shorter than from closed guard."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Escape to Von Flue?</p>
+
 - Opponent tucks chin and begins walking hips laterally toward your choking arm side instead of trying to posture up or strip your grip
 - Opponent stops attempting to break your guillotine grip and instead redirects all effort toward passing your guard laterally
 - Feeling opponent's weight shifting perpendicular to your body as they transition from inside your guard to beside you
@@ -166,6 +184,8 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Escape to Von Flue?</p>
 
 - Recognize when your opponent begins passing toward your choking arm side—this directional change is the critical signal that Von Flue is being set up
 - Release the guillotine grip proactively when the guard pass becomes imminent rather than stubbornly holding and exposing yourself to bilateral neck compression
@@ -180,6 +200,8 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Escape to Von Flue?</p>
 
 ### 1. Release guillotine grip immediately and frame for guard recovery using both arms
 
@@ -217,6 +239,8 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Escape to Von Flue?</p>
+
 ### → [[Positions/Guillotine Control]]
 
 Prevent the guard pass entirely by closing your guard tightly, maintaining active hip positioning, and either finishing the guillotine choke or transitioning to a higher-percentage variation like the high elbow guillotine before the opponent can establish side control.
@@ -232,6 +256,8 @@ Release the guillotine grip early when you recognize the Von Flue setup developi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Escape to Von Flue?</p>
 
 ### 1. Holding guillotine grip stubbornly after opponent has passed to side control
 
@@ -261,6 +287,8 @@ Release the guillotine grip early when you recognize the Von Flue setup developi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Escape to Von Flue?</p>
+
 **Phase 1: Recognition Training** - Identifying Von Flue setup cues versus standard guillotine defense
 Partner alternates between standard guillotine defense responses (grip stripping, posturing) and Von Flue setup movements (lateral passing). Practice identifying which approach the opponent is taking and making the correct defensive decision—maintain guillotine against grip stripping, prepare to release against lateral passing.
 
@@ -277,26 +305,6 @@ Partner commits to the Von Flue passing sequence at full intensity. Practice fin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a Von Flue counter to your guillotine?
-**A**: The earliest cue is when your opponent stops trying to strip your guillotine grip and instead begins walking their hips laterally toward your choking arm side. This directional change indicates they have accepted your grip and plan to weaponize it against you. Most practitioners instinctively try to strip the grip first, so the shift to pass-focused lateral movement is the critical warning signal.
-
-**Q2**: You are holding a guillotine from closed guard and feel your opponent's shoulder pressing into your neck—what should you do immediately?
-**A**: Release the guillotine grip immediately without hesitation—the Von Flue choke is already in progress and every second you maintain the grip increases the bilateral compression on your neck. After releasing, use both arms to frame against the opponent's shoulders and hips, turn your head away from the shoulder pressure, and begin working standard side control bottom escape sequences.
-
-**Q3**: How does understanding the Von Flue counter change your overall approach to guillotine attacks from bottom guard?
-**A**: Understanding the Von Flue counter means you must always monitor your guard integrity simultaneously with your choke progress. The guillotine is only safe while your guard prevents the lateral pass. If you sense the guard weakening, you must either finish the choke immediately or release and recover guard rather than stubbornly holding a compromised grip that could be turned into a weapon against you.
-
-**Q4**: What leg positioning best prevents the lateral guard pass that enables the Von Flue setup?
-**A**: Closed guard with legs locked high on the opponent's back provides the strongest prevention against the lateral pass required for Von Flue. If closed guard is not possible, a butterfly hook on the choking arm side combined with an overhook prevents lateral movement in that critical direction. Your legs must create barriers specifically on the choking arm side where the Von Flue requires the pass.
-
-
-
-</section>
 
 
 </main>

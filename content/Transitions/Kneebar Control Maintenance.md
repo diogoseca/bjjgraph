@@ -176,7 +176,7 @@ From a systems perspective, kneebar control maintenance serves as the stabilizat
 **Saddle-Threatening Maintenance**: Maintain kneebar control while actively threatening to thread your legs into saddle position. This forces the opponent to defend two attacks simultaneously - the kneebar extension and the saddle entry - making their escape decisions more complex and creating openings to retighten control. (When to use: Against technically skilled opponents who have a systematic kneebar escape but may be less prepared for saddle transitions)
 
 
-**Standing Base Maintenance**: Rise to a standing or posting position while maintaining arm control on the leg, using gravity and downward weight distribution to intensify pressure. The elevated position makes it harder for the bottom practitioner to generate the hip movement needed for rotation escapes. (When to use: When opponent consistently bridges or generates explosive hip movement from a flat position, and you need gravitational advantage to suppress their escapes)
+**Standing Base**: Rise to a standing or posting position while maintaining arm control on the leg, using gravity and downward weight distribution to intensify pressure. The elevated position makes it harder for the bottom practitioner to generate the hip movement needed for rotation escapes. (When to use: When opponent consistently bridges or generates explosive hip movement from a flat position, and you need gravitational advantage to suppress their escapes)
 
 
 

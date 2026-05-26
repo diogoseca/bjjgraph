@@ -45,7 +45,7 @@
       "when_to_use": "When opponent keeps elbows wide or posts on your chest, giving easy access to the overhook before posture is fully broken."
     },
     {
-      "variant_name": "No-Gi Head Control Entry",
+      "variant_name": "No-Gi Head Position Entry",
       "description": "Uses a collar tie or head snap to control posture instead of collar grip, relying on wrist control and head manipulation to maintain the broken posture during the guard climb. The free hand cups behind the opponent's neck rather than gripping collar fabric.",
       "when_to_use": "In no-gi situations where collar grips are unavailable and you must rely on head and wrist control to manage posture."
     },
@@ -244,7 +244,7 @@
         "description": "Incorporate the High Guard to Rubber Guard transition into live rolling, selecting appropriate moments based on opponent posture and positioning. Track success rate across sessions and identify patterns in defensive reactions that require adjustment to your setup or timing."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the high guard climb from closed guard?",
         "answer": "The optimal window opens immediately after successfully breaking the opponent's posture, when their head and chest are pulled close to your torso and their weight is committed forward. Attempting the climb while opponent has strong posture allows them to sit back and create distance. You need their posture collapsed and base compromised before beginning the guard climb."
@@ -361,7 +361,7 @@
         "correction": "Maintain forward engagement with controlled pressure while working actively on posture recovery and overhook prevention rather than disengaging and hoping distance solves the problem."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the High Guard to Rubber Guard transition?",
         "answer": "The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window."

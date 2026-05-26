@@ -171,6 +171,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Drag Control (Bottom)?</p>
+
 - Bottom player's near-side leg is controlled and pulled across their body by the top player, typically with the top player's arm threading under or over the leg and gripping the hip or pants. This crossed leg configuration creates the fundamental control mechanism of the position and limits the bottom player's ability to use their legs for guard retention.
 - Top player maintains significant hip control through the trapped leg position, with their chest or shoulder driving pressure into the bottom player's near hip. This pressure prevents the bottom player from turning fully toward the top player and creates a constant threat of back exposure as the bottom player's natural defensive reaction is to turn away.
 - Bottom player's far shoulder is typically pressured or controlled by the top player's free arm, either through direct shoulder pressure, a crossface, or head control. This upper body control prevents the bottom player from sitting up or turning into the top player, completing the control system that the leg drag creates.
@@ -181,6 +183,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Leg Drag Control (Bottom)?</p>
 
 - Opponent has achieved control of one leg and pulled it across your body during guard passing sequence
 - You have not yet been turned completely to your side or onto your stomach
@@ -193,6 +197,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag Control?</p>
 
 - Your first priority is preventing back exposure—never turn completely away from opponent
 - Create frames at shoulder and hip to generate space before attempting leg recovery
@@ -208,6 +214,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Drag Control (Bottom)?</p>
 
 **If opponent has strong shoulder control and is driving toward back take:**
 - Execute **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
@@ -236,6 +244,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag Control?</p>
 
 ### 1. Turning away from opponent to protect guard, exposing back
 
@@ -275,6 +285,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Leg Drag Control defense?</p>
+
 ### Timed Leg Drag Escape
 
 Partner establishes leg drag control with light pressure. Bottom player has 5 seconds to escape to guard or turtle. Reset and repeat with increasing pressure resistance.
@@ -307,38 +319,6 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts advancing toward your back while you're in leg drag bottom—what immediate adjustment do you make?
-**A**: Immediately fight for an underhook on the side they're advancing toward and drive your shoulder toward them, not away. This counters their back take angle. Simultaneously, use your free leg to create a frame against their hip or post on the mat to generate space. Never turn your back to them—stay chest-to-chest as much as possible while you work to free your leg.
-
-**Q2**: What are the essential frames for preventing advancement when caught in leg drag bottom?
-**A**: Your primary frame is against their shoulder or bicep with your near-side arm, keeping them from settling their weight. Your secondary frame uses your far-side arm to control their head or crossface them back. Your free leg frames against their hip to create space or posts on the mat for leverage. All frames work together—losing one compromises the others.
-
-**Q3**: How do you shut down the opponent's primary attack of taking your back from leg drag bottom?
-**A**: Stay flat on your back as long as possible rather than turning away. When you feel them start to come around, fight aggressively for the underhook on that side and turn INTO them, not away. Your goal is to face them, not give them your back. If they're committed to the back take, immediately sit up and face them, accepting half guard rather than giving up back control.
-
-**Q4**: What are your grip priorities when trying to escape leg drag bottom?
-**A**: First priority is breaking or preventing their shoulder or head control—this is what keeps you pinned. Second priority is controlling their hip or pants on the side controlling your leg to prevent them from settling weight. Third is fighting to reclaim control of your trapped leg. Without breaking their upper body control, leg recovery is nearly impossible.
-
-**Q5**: How should you create space in leg drag bottom without exposing your back?
-**A**: Use a shrimping motion away from them while keeping your shoulders flat—never turn onto your side. Push against their shoulder and hip simultaneously while hip escaping to create angle. Your free leg can push against their hip or hook behind their knee to generate space. The key is moving your hips away while keeping your chest facing them.
-
-**Q6**: Your opponent shifts their weight to consolidate to side control—how do you anticipate and exploit this moment?
-**A**: The transition from leg drag to side control is when they must release or adjust their leg control. This is your window. As they shift weight, immediately extract your trapped leg by pulling your knee to your chest. Time your hip escape to their weight shift. If you can get a knee inside before they settle, you can recover half guard or establish a knee shield.
-
-**Q7**: How do you manage energy when defending leg drag bottom against an aggressive passer?
-**A**: Don't waste energy trying to escape when they have full control—you'll exhaust yourself. Instead, maintain minimum frames to prevent advancement and wait for them to attack or transition. Escape windows open when they move. Stay relaxed between escape attempts, keeping frames tight but not rigid. One well-timed explosive escape attempt is better than constant ineffective movement.
-
-**Q8**: Your partial escape attempt fails and they re-secure leg drag control—how do you recover your defensive position?
-**A**: Immediately re-establish your primary frames at shoulder and hip before they can capitalize on your movement. Return to a flat position on your back rather than staying on your side. Assess where your failed escape left you—if they advanced, address the new threat first. Do not immediately attempt another escape; reset your breathing and frames, then look for the next opportunity when they adjust.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

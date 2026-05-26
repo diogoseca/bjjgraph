@@ -194,6 +194,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Matrix Position?</p>
+
 - Recognize the stall within the first half-second of blocked rotation—delayed recognition exponentially increases risk of back take
 - Commit fully to the escape direction once initiated, as hesitation mid-recovery creates the same vulnerability as hesitation mid-Matrix
 - Protect the neck throughout the entire transition by maintaining chin-to-chest posture and controlling the opponent's nearest arm
@@ -208,6 +210,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Matrix Position?</p>
+
 - Recognition that the Matrix rotation has been blocked or has insufficient momentum to complete
 - Chin tucked to chest with awareness of opponent's arm position relative to your neck
 - At least one hand free to post on the mat for base establishment
@@ -220,6 +224,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Matrix Position step by step?</p>
 
 1. **Recognize the stall**: Identify that your Matrix rotation has been blocked through the opponent's base widening, sprawling, or counter-pressure. The key indicators are loss of rotational momentum, feeling the opponent's weight settling on top of you, and inability to continue threading your legs around their body. This recognition must happen within the first half-second of the block.
 2. **Protect the neck immediately**: Tuck your chin tightly to your chest and bring your nearest hand to your collar or jawline to create a frame against potential choke attempts. The opponent will likely seek front headlock control or seatbelt grips as your rotation stalls, and neck protection must be your first physical response before any positional recovery begins.
@@ -251,6 +257,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Matrix Position?</p>
+
 - **Opponent sprawls heavy and drives hips into your back during retraction** (Effectiveness: High) - Your Response: Use the downward pressure to accelerate your hip retraction rather than fighting against it. Thread your hips underneath their weight and use the compressive force to speed your turtle establishment. If their sprawl is too heavy to move through, redirect laterally and attempt a guard pull recovery instead of fighting the vertical pressure. → Leads to [[Positions/Matrix]]
 - **Opponent follows the transition and inserts hooks during the roll to turtle** (Effectiveness: High) - Your Response: Accelerate the roll and immediately begin kicking legs free before settling into turtle. If hooks are partially inserted, do not stop in turtle—continue the motion directly into a guard recovery where you can address the hooks from a better angle. Fight the deeper hook first by extending your leg explosively. → Leads to [[Positions/Back Control]]
 - **Opponent crossfaces hard to prevent the shoulder roll** (Effectiveness: Medium) - Your Response: Use the crossface pressure as a pivot point, rolling toward the pressure rather than away from it. The crossface creates a fixed point you can rotate around. Alternatively, frame against the crossfacing arm with your near hand and use hip escape movement to create the angle needed to complete the turtle recovery. → Leads to [[Positions/Matrix]]
@@ -262,6 +270,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Matrix Position?</p>
 
 ### 1. Continuing to force the Matrix rotation after it has clearly been blocked
 
@@ -301,6 +311,8 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Matrix Position (Attacker)?</p>
+
 **Recognition Drilling** - Identifying stalled rotations and triggering the escape response
 Partner blocks Matrix attempts at varying points in the rotation. Practitioner focuses exclusively on recognizing the exact moment the attack has failed and verbally calling out the stall before physically responding. Build the mental trigger that initiates the escape sequence.
 
@@ -321,42 +333,12 @@ Begin rounds with practitioner in a stalled Matrix position. Both players go liv
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important indicator that your Matrix rotation has stalled and you need to initiate the escape?
-**A**: The most important indicator is loss of rotational momentum combined with feeling the opponent's weight settling onto your body. When your hips stop moving through the rotation arc and you feel downward pressure from the opponent rather than the free space of continued rotation, the attack has been successfully defended. Secondary indicators include inability to thread your legs further around the opponent and feeling their base widen against your rotation. The critical skill is recognizing this within the first half-second.
-
-**Q2**: Why must hip retraction precede hand posting during the escape sequence?
-**A**: If you post hands while your hips are still elevated, you create a suspended bridge position with no stable base. The opponent can easily collapse this structure by driving into you or circling around the elevated hips. Your arms alone cannot support your weight against an active opponent pushing from above. By retracting hips first, you lower your center of gravity and create a platform from which your hands can provide meaningful structural support. The correct sequence—hips down, then hands post—is biomechanically sound and creates progressive stability.
-
-**Q3**: Your rotation stalls and you feel the opponent beginning to slide their arm under your chin—what is your immediate response?
-**A**: Immediately tuck your chin to your chest and bring your nearest hand to your jawline to create a frame blocking further penetration of their arm. Do not attempt any positional escape until the neck is secured. Once chin protection is established, use the hand that is framing your jaw to strip or redirect their choking arm while simultaneously beginning hip retraction with your core. The neck must be the absolute first priority because a choke grip established during the escape transition is extremely difficult to defend while also trying to recover position.
-
-**Q4**: When should you choose the guard pull redirect variant over the standard turtle recovery?
-**A**: Choose the guard pull redirect when you have residual rotational momentum from the stalled Matrix and the opponent has not yet applied heavy downward pressure. The remaining momentum can be channeled into a continuous roll that threads directly into closed guard or butterfly guard, skipping the turtle waypoint entirely. If the opponent is sprawling heavily or has already established strong top pressure, the guard pull redirect lacks sufficient momentum to complete and you should default to the turtle recovery, which requires less momentum and works against downward pressure.
-
-**Q5**: What grip should you maintain on the opponent during the escape and why?
-**A**: Maintain at least one grip on the opponent's nearest arm, sleeve, or collar throughout the escape to accomplish two objectives. First, the grip prevents them from freely circling to your back while you transition, as they must deal with your connection before repositioning. Second, the grip gives you information about their movement and weight distribution through tactile feedback, allowing you to adjust your escape path in real-time. Releasing all grips during the recovery gives the opponent complete freedom to choose their attack angle, which dramatically increases the probability of back take.
-
-**Q6**: How does training a reliable Matrix escape actually improve your Matrix attack success rate?
-**A**: A reliable escape removes the psychological hesitation that undermines Matrix effectiveness. The Matrix requires full commitment to the rotation—any hesitation mid-roll creates the worst possible outcome of being stuck inverted without momentum. When practitioners know they have a trained bail-out option, they commit more aggressively to rotations, which paradoxically makes the rotations harder to defend. Additionally, the escape creates a second-layer threat: opponents who over-commit to blocking the rotation become vulnerable to the escape redirecting into guard recovery, forcing them to moderate their defense.
-
-**Q7**: You feel the opponent insert one hook during your transition to turtle—do you complete the turtle or change strategy?
-**A**: Do not complete the turtle. One hook already inserted means turtle is no longer a viable waypoint because the opponent is already halfway to full back control. Instead, immediately redirect into a guard recovery by continuing the rolling motion and using the momentum to turn and face the opponent. Address the hook by extending your trapped leg explosively while turning into the opponent. Stopping in turtle with one hook inserted gives them a stable platform to fight for the second hook, which is much harder to prevent from turtle than from a guard recovery position.
-
-**Q8**: What is the optimal energy expenditure strategy for the escape sequence?
-**A**: The escape should use one controlled burst of energy rather than sustained effort. The recognition phase costs no energy—it is purely perceptual. The physical escape from hip retraction through turtle establishment should be one explosive but directed movement lasting one to two seconds. Sustained scrambling after this initial burst indicates the escape has partially failed and you are now in a secondary situation requiring different tactics. Save remaining energy for the guard recovery or standup from turtle rather than fighting extended battles during the transition itself.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Matrix Position?</p>
 
 Matrix escapes involve rapid directional changes from partially inverted positions, creating meaningful risk of neck strain and cervical spine compression. Practitioners should develop comfort with inversions progressively through months of dedicated drilling before attempting the Matrix system in live training. Never force the escape against strong resistance in unfamiliar positions, and communicate immediately with training partners if neck pressure becomes excessive. Drill at controlled speeds before adding resistance. Partners applying top pressure during escape drilling should be attentive to the practitioner's neck position and avoid driving into a compromised cervical spine.
 

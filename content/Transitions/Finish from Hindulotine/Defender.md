@@ -164,6 +164,8 @@ The defender's strategic priorities are layered: first prevent the finish throug
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Finish from Hindulotine?</p>
+
 - Increased downward pressure through the choking arm as the attacker shifts from positional control to active finishing weight transfer
 - Attacker's hips rotating to create a perpendicular angle relative to your spine, felt as a twisting force on your neck beyond simple downward pressure
 - Attacker's legs widening into a tripod base, indicating they are preparing to stabilize against your escape attempts during the finishing sequence
@@ -176,6 +178,8 @@ The defender's strategic priorities are layered: first prevent the finish throug
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Finish from Hindulotine?</p>
 
 - Defend immediately upon recognizing the transition from control to active finish - early intervention is exponentially more effective than late escapes
 - Align your spine parallel to the attacker's body to eliminate the perpendicular angle that generates rotational torque on your neck
@@ -190,6 +194,8 @@ The defender's strategic priorities are layered: first prevent the finish throug
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Finish from Hindulotine?</p>
 
 ### 1. Insert hands into choking grip as a wedge and fight to break the lock
 
@@ -227,6 +233,8 @@ The defender's strategic priorities are layered: first prevent the finish throug
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Finish from Hindulotine?</p>
+
 ### → [[Positions/Half Guard]]
 
 Break the choking grip through persistent hand fighting to create a wedge, then execute a timed hip escape while hooking the attacker's near leg to establish Half Guard. The key is timing the escape during the attacker's grip readjustment rather than fighting against full finishing pressure. Once the leg is hooked and the grip is broken, immediately establish frames to prevent the attacker from reapplying the choke.
@@ -242,6 +250,8 @@ Neutralize the finishing attempt by tucking your chin firmly, inserting hands in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Finish from Hindulotine?</p>
 
 ### 1. Driving forward directly into the attacker's pressure in an attempt to stack and escape
 
@@ -271,6 +281,8 @@ Neutralize the finishing attempt by tucking your chin firmly, inserting hands in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Finish from Hindulotine?</p>
+
 **Phase 1: Recognition and Survival** - Identifying the transition to finish and establishing survival posture
 Partner establishes Hindulotine control and slowly increases pressure toward the finish. Practice recognizing the pressure shift, immediately tucking chin, inserting hands as a wedge, and aligning body to reduce torque. No escape attempts, pure survival and recognition drilling at controlled intensity.
 
@@ -287,29 +299,6 @@ Positional sparring starting from established Hindulotine control. Attacker work
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the opponent is transitioning from Hindulotine control to an active finishing attempt?
-**A**: The earliest cue is a shift in the opponent's weight distribution from maintaining positional control to driving downward and forward through the choking arm. You will feel increased pressure on your neck, often accompanied by their hip angle changing as they rotate perpendicular to your spine. Their legs may also widen for base stability, signaling commitment to the finish rather than continued positional maintenance.
-
-**Q2**: Why is bridging directly into the opponent's pressure ineffective as a primary escape from the Hindulotine finish?
-**A**: Bridging directly into the opponent's pressure is ineffective because their weight is already positioned to drive downward through the choke, and the rotational mechanics mean your forward energy increases their torque. Your bridge lifts your hips but does not address the rotational pressure on your neck. Instead, bridge at an angle toward the choking arm side to change your spine alignment, using the bridge as a setup for directional escape rather than a direct counter to the choking force.
-
-**Q3**: Your opponent has the Hindulotine locked and begins rotating their hips to finish - what is your highest-priority defensive action?
-**A**: Your highest priority is to get your hands inside the choking grip to create a wedge between their forearm and your neck. Even a partial hand insertion reduces choking pressure significantly and buys critical time. Simultaneously, begin turning your body toward their choking arm side to align your spine with their rotation, which reduces the rotational torque. These two actions together can reduce finish pressure substantially and create opportunities for grip-breaking escapes.
-
-**Q4**: What body position minimizes the effectiveness of the Hindulotine finish when you cannot immediately escape?
-**A**: Turn to face the same direction as the attacker's choking arm, aligning your spine as parallel to their body as possible. This eliminates the perpendicular angle that generates rotational torque. Tuck your chin firmly and establish hand contact with the choking grip as a wedge. Keep your body connected to theirs rather than creating space, as space allows them to readjust their angle. This survival position requires transitioning to active escape before you fatigue.
-
-**Q5**: How do you create the conditions to escape from Hindulotine finish to Half Guard top position?
-**A**: The escape to Half Guard requires first breaking or significantly weakening the choking grip through persistent hand fighting to create a wedge. Then time a hip escape to slide underneath the attacker while hooking their near leg between yours. The key timing element is executing the hip movement during the opponent's grip readjustment, when their focus shifts from squeezing to repositioning. Once you secure Half Guard with the grip broken, immediately establish frames to prevent reapplication of the choke.
-
-
-
-</section>
 
 
 </main>

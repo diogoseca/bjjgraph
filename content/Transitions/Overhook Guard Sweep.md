@@ -208,7 +208,7 @@ The Overhook Guard Sweep sits at the center of the overhook guard offensive syst
 
 - [[Transitions/Triangle Setup]] - Chain attack when opponent posts hand to defend the sweep
 
-- [[Submissions/Omoplata from Guard]] - Alternative attack accessible from the same overhook angle
+- [[Transitions/Closed Guard to Omoplata]] - Alternative attack accessible from the same overhook angle when opponent drives forward
 
 - [[Positions/Kimura Trap]] - Related control position when overhook converts to kimura grip
 

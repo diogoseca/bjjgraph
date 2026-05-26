@@ -344,22 +344,22 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 ## Related
 
 ### Related Principles
-- **[[Creating Reactions]]** (Complementary): The proactive application of generating specific opponent responses through calculated stimuli
-- **[[Dilemma Creation]]** (Extension): Creates forced-choice scenarios where all defensive options lead to strategic disadvantage
-- **[[Grip Fighting]]** (Complementary): Grips serve as both actions (threats) and indicators of opponent's reactions
-- **[[Space Management]]** (Complementary): Opponent's reaction to space creation/closure reveals defensive priorities
-- **[[Energy Management System]]** (Complementary): Efficient attacking exploits reactions rather than forcing through resistance
-- **[[Offensive Combinations]]** (Extension): Technique chains built on reaction-based transitions between attacking sequences
+- **[[Pressure]]** (Complementary): Applying pressure generates specific defensive reactions that create exploitable attacking opportunities
+- **[[Fork Attacks]]** (Extension): Creates forced-choice scenarios where all defensive options lead to strategic disadvantage
+- **[[Grips]]** (Complementary): Grips serve as both actions (threats) and indicators of opponent's reactions
+- **[[Distance Control]]** (Complementary): Opponent's reaction to space creation or closure reveals defensive priorities and commitment patterns
+- **[[Energy Conservation]]** (Complementary): Efficient attacking exploits reactions rather than forcing through resistance, conserving energy
+- **[[Submission Chains]]** (Extension): Linked submission sequences built on reaction-based transitions between attacking positions
 - **[[Timing and Rhythm]]** (Complementary): Critical timing windows determine when reactions can be exploited most effectively
-- **[[Off-Balancing]]** (Complementary): Reactions to balance disruption create sweep and transition opportunities
-- **[[Posture Breaking]]** (Complementary): Posture attacks generate postural recovery reactions that open attack sequences
-- **[[Connection Breaking]]** (Complementary): Opponent's reconnection attempts create predictable movement patterns to exploit
+- **[[Kuzushi]]** (Complementary): Sweep attempts generate balance recovery reactions that create secondary attack and transition opportunities
+- **[[Posture]]** (Complementary): Posture attacks generate postural recovery reactions that open attack sequences
+- **[[Connection Principles]]** (Complementary): Opponent's reconnection attempts after connection disruption create predictable movement patterns to exploit
 
 
 ### Related Content
-- [[Creating Reactions]] (Principle) - Direct application of generating specific opponent responses through calculated stimuli
-- [[Dilemma Creation]] (Principle) - Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage
-- [[Offensive Combinations]] (Principle) - Technique chaining framework that relies on reaction-based transitions
+- [[Pressure]] (Principle) - Applying pressure generates defensive reactions that create exploitable attacking opportunities
+- [[Fork Attacks]] (Principle) - Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage
+- [[Submission Chains]] (Principle) - Linked submission sequences that rely on reaction-based transitions between attacking positions
 - [[Timing and Rhythm]] (Principle) - Critical for identifying optimal exploitation moment when reaction creates maximum vulnerability
 - [[Hip Bump Sweep]] (Transition) - Classic exploitation of forward commitment reaction from collar grip threat in closed guard
 - [[Scissor Sweep]] (Transition) - Exploits base-widening reaction from ankle pick or distance management threats
@@ -368,7 +368,7 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 - [[X-Guard Sweep]] (Transition) - Exploits weight distribution reactions from technical standup threats
 - [[Triangle Choke]] (Submission) - Often finished by exploiting defensive posturing reactions to initial triangle setup
 - [[Kimura]] (Submission) - Creates multiple reaction-based opportunities including sweeps and back takes
-- [[Energy Management System]] (Principle) - Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques
+- [[Energy Conservation]] (Principle) - Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques
 
 
 </section>

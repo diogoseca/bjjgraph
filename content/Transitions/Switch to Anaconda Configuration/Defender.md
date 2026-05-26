@@ -166,6 +166,8 @@ The defender must also understand that remaining passive in turtle during this t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Switch to Anaconda Configuration?</p>
+
 - The collar tension from the buggy choke threading arm suddenly releases as the attacker withdraws their hand from the far-side collar, creating a distinctive pressure change on the neck and shoulder area
 - An arm begins curling around your neck from the near side with the forearm blade settling across your throat, distinct from the original buggy choke collar grip which pulled laterally rather than wrapping circumferentially
 - The attacker's chest pressure shifts from directly downward to slightly angled as they reposition their body to achieve the perpendicular angle needed for anaconda compression mechanics
@@ -177,6 +179,8 @@ The defender must also understand that remaining passive in turtle during this t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Switch to Anaconda Configuration?</p>
 
 - Recognize the collar release as the earliest cue that the anaconda switch is beginning and respond immediately rather than waiting for the grip to develop further
 - Tuck chin aggressively toward the chest and drive forehead into the mat to block the threading arm from encircling the neck before the figure-four connects
@@ -191,6 +195,8 @@ The defender must also understand that remaining passive in turtle during this t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Switch to Anaconda Configuration?</p>
 
 ### 1. Tuck chin hard and drive forward explosively to block neck encirclement, using forehead pressure into the mat to create a structural barrier against the threading arm wrapping around the neck
 
@@ -228,6 +234,8 @@ The defender must also understand that remaining passive in turtle during this t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Switch to Anaconda Configuration?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Disrupt the grip transition before the figure-four locks by tucking chin and driving forward to block neck encirclement, extracting the near arm to eliminate trapped-arm compression, or turning into the attacker to destroy the perpendicular angle. Any of these actions forces the attacker back to the original buggy choke control or into a less threatening front headlock position.
@@ -243,6 +251,8 @@ Exploit the momentary reduction in chest pressure during the grip transition by 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Switch to Anaconda Configuration?</p>
 
 ### 1. Remaining static in turtle posture while the attacker completes the entire anaconda grip change overhead without resistance
 
@@ -272,6 +282,8 @@ Exploit the momentary reduction in chest pressure during the grip transition by 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Switch to Anaconda Configuration?</p>
+
 **Week 1-2** - Recognition and immediate chin tuck response
 Partner establishes buggy choke top and performs the anaconda switch at slow speed. Defender practices recognizing the collar release through feel and immediately implementing the chin tuck and forward drive. Focus on reaction time between feeling the collar release and executing the chin tuck. Drill 15-20 repetitions per side with gradually increasing transition speed from the attacker.
 
@@ -288,29 +300,6 @@ Start from buggy choke bottom in turtle with full resistance. Attacker uses comp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest proprioceptive cue that the attacker is initiating the anaconda switch from buggy choke?
-**A**: The earliest cue is the sudden release of collar tension from the threading arm. During the buggy choke, you feel lateral pulling pressure on your far-side collar. When this pressure disappears, it means the attacker has released the collar grip and is redirecting the arm toward a neck encirclement. This collar release precedes the actual neck wrap by a fraction of a second and represents your earliest defensive window.
-
-**Q2**: Why is sitting to half guard a viable defensive option during the anaconda switch but not during consolidated buggy choke control?
-**A**: During consolidated buggy choke control, the attacker's chest pressure and hip weight are fully committed to flattening the turtle. During the anaconda switch, the attacker must momentarily shift their weight and arm positioning to execute the grip change, which creates a 1-2 second window of reduced chest pressure. This pressure reduction allows the hip movement needed to drop to half guard, which is not possible when the full buggy choke control is maintained.
-
-**Q3**: Your attacker releases the collar and you feel their arm beginning to curl around your neck—should you tuck your chin or extract your near arm first?
-**A**: Tuck your chin first. The chin tuck is faster to execute and immediately blocks the neck encirclement from achieving choking depth. Arm extraction takes longer and requires more complex movement. If you tuck first, you buy time for the arm extraction as a secondary action. If you attempt arm extraction first without chin protection, the attacker may complete the neck wrap before the arm escapes, leaving you choked with the arm still trapped.
-
-**Q4**: Why is rolling away from the attacker during the anaconda switch counterproductive to your defense?
-**A**: Rolling away provides the exact rotational movement the attacker needs to complete the anaconda configuration and may deliver you directly into the gator roll finishing position on your back. The attacker's anaconda switch requires getting perpendicular to you with the arm wrapped around the neck—rolling away accelerates both by rotating your neck into the grip and providing momentum for the gator roll. Instead, roll toward the attacker to eliminate the choking angle or drive forward to block the grip entirely.
-
-**Q5**: The attacker has the choking arm around your neck but has not yet connected the support arm under your far armpit—what is your highest percentage escape at this stage?
-**A**: Extract your near arm from the head-and-arm trap while simultaneously driving forward with a chin tuck. Without the support arm connected, the figure-four cannot lock, which means the grip is structurally incomplete. By extracting the near arm at this stage, you remove the bilateral compression element entirely. The attacker is left with a loose neck wrap that cannot generate submission-level pressure and must abandon the anaconda to pursue a guillotine or front headlock instead.
-
-
-
-</section>
 
 
 </main>

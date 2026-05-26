@@ -166,6 +166,8 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Escape?</p>
+
 - Top player's trapped shoulder begins rotating forward toward the mat, indicating the start of the spiral extraction motion
 - Top player widens their base laterally and lowers hips, establishing the stable platform needed before attempting extraction
 - Top player's elbow on the trapped arm compresses toward their hip rather than remaining neutral or extended
@@ -178,6 +180,8 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Escape?</p>
 
 - Maintain maximum overhook depth at all times - the deeper your arm threads under their armpit, the harder extraction becomes
 - Use leg pressure across their back as a secondary control that compounds the difficulty of arm extraction
@@ -192,6 +196,8 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Escape?</p>
 
 ### 1. Deepen overhook grip by pulling arm further across their centerline and clasping your own shin or ankle
 
@@ -229,6 +235,8 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Escape?</p>
+
 ### → [[Positions/Rubber Guard/New York Control]]
 
 Deepen overhook grip the moment you feel shoulder rotation beginning. Pull your arm further across their centerline and clasp your own shin or the back of their neck. Simultaneously increase leg pressure across their back by actively pulling your knee toward their far shoulder. The combination of deeper overhook and increased leg pressure defeats the spiral extraction motion and returns them to fully controlled position.
@@ -244,6 +252,8 @@ When their elbow separates from their ribs during the spiral motion, immediately
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Escape?</p>
 
 ### 1. Maintaining passive overhook without actively deepening grip when extraction begins
 
@@ -273,6 +283,8 @@ When their elbow separates from their ribs during the spiral motion, immediately
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Escape?</p>
+
 **Week 1-2** - Grip deepening response
 Partner slowly initiates extraction motion while you practice actively deepening overhook grip in response. Focus on feeling the shoulder rotation and immediately pulling your arm deeper across their centerline. Develop automatic grip deepening reflex when tactile cues are detected.
 
@@ -289,29 +301,6 @@ Full resistance positional sparring from New York Control. Bottom player works t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that signals an Overhook Escape attempt?
-**A**: The earliest cue is the top player's trapped shoulder beginning to rotate forward toward the mat. This subtle rotation precedes the full spiral motion and indicates they are initiating the extraction sequence. Feeling this rotation before they commit to the full elbow-to-hip drive gives you maximum time to respond with grip deepening or submission transition.
-
-**Q2**: Why is it critical to initiate triangle entry during the extraction rather than after?
-**A**: During extraction, the top player's arm is in motion and their elbow separates from their ribs, creating the space your leg needs to enter for the triangle. Once extraction completes, both their arms are free and their elbows return tight to their body, making triangle entry far more difficult. The extraction motion itself generates your best submission window.
-
-**Q3**: Your overhook is being extracted despite deepening your grip - what systematic transition preserves your offensive position?
-**A**: Transition to Crackhead Control by bringing your controlling leg to their head and establishing shin pressure across their face and shoulder. From Crackhead Control, you can re-enter Mission Control and rebuild your rubber guard structure. The key is recognizing when overhook retention is failing and transitioning before the arm is fully free, rather than fighting a losing grip battle.
-
-**Q4**: How does your free hand contribute to preventing the Overhook Escape?
-**A**: Your free hand should actively control the top player's posture by gripping behind their head or controlling their free arm. When they attempt extraction, use your free hand to push their far shoulder away, disrupting the structural alignment they need for the spiral motion. A controlled far shoulder prevents them from generating the rotation angle required for successful extraction.
-
-**Q5**: What defensive adjustment should you make when the top player establishes a wide, low base before extraction?
-**A**: Increase leg pressure across their back by actively pulling your knee toward their far shoulder, and use your free hand to control their head and pull it down toward your chest. The wide base stabilizes them against sweeps but does not protect against increased downward pressure that collapses their posture. Forcing their head and shoulders down reduces the space and leverage available for the spiral extraction motion.
-
-
-
-</section>
 
 
 </main>

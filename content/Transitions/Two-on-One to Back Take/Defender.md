@@ -162,6 +162,8 @@ Defending the two-on-one to back take requires immediate recognition that your a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Two-on-One to Back Take?</p>
+
 - Both of opponent's hands contact the same arm, typically one on your wrist and one on your tricep or elbow, creating an immediate 2-on-1 mechanical disadvantage
 - You feel lateral pulling force across your centerline as opponent begins dragging your controlled arm toward their opposite hip, rotating your shoulders
 - Opponent steps laterally off your centerline while maintaining arm control, creating an angle where they are no longer directly in front of you
@@ -174,6 +176,8 @@ Defending the two-on-one to back take requires immediate recognition that your a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Two-on-One to Back Take?</p>
 
 - Recognize the two-on-one grip establishment immediately and begin defensive action before the cross-body pull disrupts your structure
 - Prioritize stripping the wrist grip first as it provides the attacker's primary rotational control over your arm
@@ -189,6 +193,8 @@ Defending the two-on-one to back take requires immediate recognition that your a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Two-on-One to Back Take?</p>
 
 ### 1. Immediate wrist grip strip using your free hand to peel their lead hand off your wrist while simultaneously re-squaring your hips
 
@@ -226,6 +232,8 @@ Defending the two-on-one to back take requires immediate recognition that your a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Two-on-One to Back Take?</p>
+
 ### → [[Positions/Clinch]]
 
 Strip the wrist grip immediately upon recognition using your free hand, then re-square your hips and re-establish your own clinch grips before the opponent can re-attack. The key is speed of recognition combined with aggressive grip fighting to return to neutral clinch engagement.
@@ -241,6 +249,8 @@ Exploit the opponent's hand commitment to the two-on-one by dropping level and s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Two-on-One to Back Take?</p>
 
 ### 1. Freezing when the two-on-one is established instead of immediately beginning defensive grip fighting
 
@@ -275,6 +285,8 @@ Exploit the opponent's hand commitment to the two-on-one by dropping level and s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Two-on-One to Back Take?</p>
+
 **Week 1-2: Recognition and Grip Stripping** - Identifying the two-on-one establishment and developing automatic grip fighting response
 Partner establishes two-on-one grip at varying speeds while you practice immediately recognizing the grip and stripping the wrist control with your free hand. Start with static grip establishment and progress to partner obtaining the grip during light hand fighting. Focus on developing the reflexive response of attacking their wrist grip the instant both hands contact your arm.
 
@@ -291,29 +303,6 @@ Incorporate defense into positional sparring from standing clinch. Partner activ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Which grip should you prioritize stripping first when defending the two-on-one, and why?
-**A**: Prioritize stripping the wrist grip first because it provides the attacker's primary rotational control over your entire arm. The wrist grip controls the endpoint of the lever (your hand and forearm), giving them precise directional control over where your arm goes. The tricep grip alone provides less rotational control and is easier to manage once the wrist is free. With the wrist grip stripped, you can rotate your forearm to break the tricep grip using elbow rotation mechanics.
-
-**Q2**: Your opponent has established a two-on-one and begins the cross-body pull - which direction should you circle and why?
-**A**: Circle toward the controlled arm side, not away from it. Circling toward the controlled arm closes the angle the attacker is trying to create, brings your hips back to square with their centerline, and reduces the leverage of the cross-body pull by shortening the distance your arm can be dragged. Circling away from the controlled arm is the most common defensive error because it intuitively feels like you are moving away from danger, but it actually opens the angle and brings your back closer to the attacker's chest.
-
-**Q3**: At what point in the two-on-one sequence does defense become significantly harder, and what should you do before reaching that point?
-**A**: Defense becomes significantly harder once the cross-body pull has rotated your shoulders past approximately 30-45 degrees and the attacker has cleared their head past your controlled arm. Before this point, simple grip stripping and hip re-squaring can neutralize the position. After this point, the attacker has structural advantage and multiple pathway options. The critical defensive window is the first one to two seconds after grip establishment, when immediate grip fighting and hip adjustment can prevent the position from deteriorating to the point where back access becomes likely.
-
-**Q4**: How can you exploit the attacker's hand commitment to the two-on-one for a counter-attack?
-**A**: Because the attacker has committed both hands to controlling one of your arms, they have no free hands available for sprawling, posting, or defensive framing. This makes them vulnerable to level changes and takedown entries, particularly single leg and double leg shots executed with your free arm. Time the shot when they initiate the cross-body pull, as their pulling momentum helps your level change and their grip commitment prevents effective sprawl defense. The takedown attempt must be explosive and well-timed to succeed before they can release grips to defend.
-
-**Q5**: What is the defensive body position you should maintain throughout the two-on-one exchange to minimize back exposure?
-**A**: Maintain a low center of gravity with knees bent and hips loaded underneath your shoulders, keeping your hips square to the attacker at all times. Your chin should be slightly tucked with your controlled arm's elbow pulled tight toward your centerline rather than extended away from your body. Your free arm stays active in front of your chest ready to strip grips, frame, or counter-attack. Feet should be shoulder-width apart with weight balanced to allow quick lateral movement toward the controlled arm side. This compact, squared position minimizes the angles available for back access.
-
-
-
-</section>
 
 
 </main>

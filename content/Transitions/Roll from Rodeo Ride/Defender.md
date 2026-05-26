@@ -154,6 +154,8 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll from Rodeo Ride?</p>
+
 - Bottom player creates subtle hip angle away from your primary pressure side, loading their body for lateral or diagonal rotation
 - Free arm reaches across or underneath the body to establish a posting position on the mat rather than staying tucked defensively
 - Explosive hip movement initiating lateral rotation away from your control side with sudden force
@@ -166,6 +168,8 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll from Rodeo Ride?</p>
 
 - Maintain constant hip-to-back pressure that eliminates the rotational space the bottom player needs for roll initiation
 - Control the near arm to remove the posting capability required for guiding the rolling escape direction
@@ -180,6 +184,8 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll from Rodeo Ride?</p>
 
 ### 1. Sprawl hips backward and drive chest weight downward onto opponent's upper back to kill rotational momentum
 
@@ -217,6 +223,8 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll from Rodeo Ride?</p>
+
 ### → [[Positions/Back Control]]
 
 When the bottom player initiates the roll, follow their rotational movement while maintaining chest-to-back connection. Use the space created by their rotation to insert the bottom hook first, then secure a seat belt grip before working the top hook. Their rolling escape actually opens the path to full back control if you can match their rotation speed with hook insertion timing.
@@ -232,6 +240,8 @@ At the first sign of hip angle change or posting arm movement, immediately spraw
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll from Rodeo Ride?</p>
 
 ### 1. Reaching for submissions or grips during the rolling scramble instead of maintaining base and chest-to-back connection
 
@@ -261,6 +271,8 @@ At the first sign of hip angle change or posting arm movement, immediately spraw
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll from Rodeo Ride?</p>
+
 **Phase 1: Recognition Pattern Training** - Identifying rolling setup cues before the explosive movement
 Partner attempts rolls from Rodeo Ride bottom at reduced speed while you practice reading the preparatory hip angle changes, arm movements, and weight shifts. Call out when you recognize the setup phase to build predictive awareness. Develop pattern recognition before working on physical counter responses.
 
@@ -277,26 +289,6 @@ Specifically practice converting followed rolls into back control with hooks and
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing to roll from Rodeo Ride?
-**A**: The earliest cue is a subtle hip angle change where the bottom player shifts their hips away from your primary pressure side, loading their body for rotational movement. This hip adjustment precedes the actual roll by a fraction of a second and indicates they are preparing for explosive rotation. Other early cues include intensified grip fighting on the near arm with increased urgency, or small weight shifts onto one shoulder as they build rotational potential.
-
-**Q2**: When should you choose to follow the roll for back control rather than sprawling to prevent it?
-**A**: Following the roll is the better choice when the rotation has already built significant momentum and your sprawl would arrive too late to stop it cleanly. It is also strategically superior when you are confident in your ability to maintain chest contact through the rotation and immediately insert hooks, as this converts a defensive position into the most dominant finishing position in grappling. The key is making this decision within the first fraction of a second of the roll initiating—delayed decisions produce the worst outcomes.
-
-**Q3**: How do you maintain chest-to-back contact while following a fast rolling escape attempt?
-**A**: Match the opponent's rotational speed by keeping your hips close to their body and allowing your legs to trail behind as your torso follows their movement. Use your grip on their near arm or collar as an anchor point that keeps you connected through the rotation. Your posted leg must come off the mat to allow your body to follow the arc of their roll. Focus on keeping your chest physically pressed against their shoulder blade throughout rather than trying to control with arms and grips alone.
-
-**Q4**: Your opponent successfully rolls to half guard—what was your most likely defensive failure point?
-**A**: The most likely failure was either delayed recognition of the roll initiation allowing too much momentum to build before your response, or disconnection of chest contact during the middle phase of the rotation. If you recognized the roll but failed to prevent it, the sprawl timing was late. If you chose to follow but they established guard, your chest disconnected during the rotation. Review whether your decision or your execution was flawed—correct decision with poor execution requires drilling, while incorrect decision requires better recognition training.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kouchi Gari?</p>
+
 - Opponent pulls your collar or neck diagonally while simultaneously pushing your arm across your body, creating a twisting kuzushi toward your rear corner
 - Opponent steps their base foot deep between your legs or to the outside of your lead leg, closing distance rapidly with a bent knee
 - You feel your weight shifting unexpectedly onto one foot as opponent's grip configuration changes from neutral fighting to committed pulling
@@ -173,6 +175,8 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kouchi Gari?</p>
 
 - Maintain upright posture and active grip fighting to deny the diagonal kuzushi needed for the throw
 - Keep weight distributed evenly across both feet rather than loading heavily onto one leg
@@ -186,6 +190,8 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kouchi Gari?</p>
 
 ### 1. Retract the targeted leg by stepping it back quickly while simultaneously pushing opponent's shoulder to break their grip angle
 
@@ -223,6 +229,8 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kouchi Gari?</p>
+
 ### → [[Positions/Clinch]]
 
 Deny the kuzushi through active grip fighting and postural control, then capitalize on the opponent's failed throw attempt to establish your own dominant grips. When they miss the reap, they are momentarily off-balance forward—use this window to pummel for underhooks or initiate your own takedown entry.
@@ -238,6 +246,8 @@ Time a counter throw (Kouchi Gari, Kosoto Gari, or Tani Otoshi) against the oppo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kouchi Gari?</p>
 
 ### 1. Reacting to the leg reap instead of the initial upper body pull
 
@@ -267,6 +277,8 @@ Time a counter throw (Kouchi Gari, Kosoto Gari, or Tani Otoshi) against the oppo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kouchi Gari?</p>
+
 **Week 1-2: Recognition drilling** - Reading the kuzushi cues
 Partner executes Kouchi Gari setup at 30% speed without completing the throw. Defender focuses solely on identifying the moment the diagonal pull begins and the base leg steps in. Call out 'now' when you recognize the attack. Build pattern recognition before adding defensive actions.
 
@@ -283,29 +295,6 @@ Integrate Kouchi Gari defense into live stand-up sparring rounds. Partner active
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that your opponent is setting up Kouchi Gari, and why is early recognition critical?
-**A**: The earliest cue is a change in their grip angle combined with a diagonal pull on your collar or neck toward your rear corner. This kuzushi phase precedes the actual reap by roughly half a second. Early recognition is critical because once the base leg steps in and the reap initiates, defensive options drop dramatically—the technique's execution window is extremely short and the off-balance is already established.
-
-**Q2**: Why is leaning backward a poor defensive response to Kouchi Gari?
-**A**: Leaning backward shifts your center of gravity in the exact direction the opponent wants you to fall and loads more weight onto the leg being reaped, making it harder to retract. The opponent's kuzushi is designed to pull you diagonally backward, so any backward lean actually assists the throw. The correct response is to drive your hips forward and resist diagonally into the opponent to counter the off-balance direction.
-
-**Q3**: Your opponent attempts Kouchi Gari and you successfully step your targeted leg back—what counter opportunity does this create?
-**A**: When you successfully retract the targeted leg, the opponent is left committed forward with their base leg deep and their reaping leg extended behind them. They are momentarily on one leg with forward momentum. This creates an excellent window for Osoto Gari on their base leg, a snap down to front headlock using their forward lean, or simply re-engaging grips from a now superior angle while they recover their stance.
-
-**Q4**: How should your weight distribution change when you recognize Kouchi Gari is being set up?
-**A**: You should immediately equalize your weight distribution to approximately 50/50 across both feet if it was previously loaded on one side. Simultaneously, lower your center of gravity slightly by bending your knees and drive your hips subtly forward rather than allowing them to drift backward. This makes any single leg harder to attack and ensures you can quickly retract whichever leg is targeted without losing balance.
-
-**Q5**: What makes counter Kouchi Gari on the attacker's base leg an effective but high-risk defensive option?
-**A**: It is effective because the attacker has committed their weight forward onto their base leg and their reaping leg is occupied, meaning their base leg is loaded and stationary—the ideal condition for Kouchi Gari. It is high-risk because the timing must be precise: too early and you lack the commitment to read, too late and the original throw lands first. Mistiming can result in both practitioners falling uncontrolled with neither having positional advantage on landing.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ The defender must balance between maintaining the lapel wrap tension that provid
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Pass Counter?</p>
+
 - Passer drops their shoulder level and begins driving chest forward toward your sternum rather than maintaining upright posture or backing away
 - Passer's free hand reaches toward your face or jaw line, indicating they are about to establish crossface pressure as their primary anchor
 - Passer stops attempting to stand or create distance and instead lowers their hips and base, committing to forward pressure rather than extraction
@@ -177,6 +179,8 @@ The defender must balance between maintaining the lapel wrap tension that provid
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Pass Counter?</p>
 
 - Recognize the collapse early by monitoring the passer's shoulder angle and weight shift, reacting before crossface is established
 - Maintain lapel wrap tension throughout the defense to preserve your primary control mechanism and restrict the passer's leg mobility
@@ -190,6 +194,8 @@ The defender must balance between maintaining the lapel wrap tension that provid
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Pass Counter?</p>
 
 ### 1. Elevate hips and load for sweep as passer commits weight forward, using butterfly hook or shin frame to redirect their momentum over your head
 
@@ -227,6 +233,8 @@ The defender must balance between maintaining the lapel wrap tension that provid
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Pass Counter?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Maintain lapel wrap tension and use hip elevation to disrupt the passer's forward drive before crossface is established. Frame with your free hand against their shoulder to prevent them from settling weight, then hip escape laterally to re-create the guard angle. Re-establish any secondary grips that were broken during the exchange.
@@ -242,6 +250,8 @@ Time your turn toward the passer during the moment they collapse forward but bef
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Pass Counter?</p>
 
 ### 1. Waiting too long to respond to the collapse, allowing crossface to be fully established before attempting any defense
 
@@ -271,6 +281,8 @@ Time your turn toward the passer during the moment they collapse forward but bef
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Pass Counter?</p>
+
 **Week 1-2** - Recognition and timing drills
 Partner collapses from various starting positions while you practice recognizing the smash pass initiation cue and reacting with hip elevation. No resistance on the sweep - focus purely on the recognition-to-reaction timing chain. Drill fifty reps per side until the hip elevation response becomes automatic upon seeing the shoulder drop.
 
@@ -287,29 +299,6 @@ Start in established Ringworm Guard with partner free to attempt any passing met
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the passer is about to attempt a Smash Pass Counter?
-**A**: The earliest cue is the passer's shoulder angle dropping and their weight shifting forward onto their toes and front knee rather than maintaining upright posture or backing away. This forward commitment is the prerequisite for the collapse, and recognizing it before the shoulder drive contacts your sternum gives you the maximum defensive window to elevate hips or begin turning.
-
-**Q2**: Why is maintaining the lapel wrap critical even while being smash passed?
-**A**: The lapel wrap restricts the passer's trapped leg mobility, which limits their base options and creates predictable movement patterns you can exploit. Even under pressure, the wrap forces them to address the grip before completing the pass, buying you time for defensive reactions. Releasing the grip eliminates your primary mechanical advantage and gives the passer unrestricted mobility to finish the pass immediately.
-
-**Q3**: The passer has established crossface and is stripping your lapel grip - what is your best remaining option?
-**A**: Your best option is to transition your guard configuration before the lapel grip is fully broken. Begin inserting a knee shield while transitioning your grip hand to the passer's collar or sleeve. Accept that Ringworm Guard is compromised and focus on establishing knee shield half guard or another functional guard position that can resist their forward pressure. Attempting to re-establish Ringworm at this stage is lower percentage than transitioning to a new defensive structure.
-
-**Q4**: How should you position your hips to maximize sweep potential against the smash pass collapse?
-**A**: Your hips should be elevated and angled approximately 30-45 degrees off-center, loaded on the side opposite the crossface direction. This angle creates mechanical advantage for redirecting the passer's forward momentum laterally into a sweep. Keep your hips high rather than flat on the mat, using butterfly hooks or shin frames against their hips to maintain the elevation needed for the sweep loading position.
-
-**Q5**: What is the critical timing difference between a successful back take and getting flattened during the turning defense?
-**A**: The critical timing difference is whether you initiate the turn before or after the crossface is established. Turning before crossface gives you a free path to the underhook and back take, while turning after crossface means you are fighting against a structural anchor that pins your head and shoulders. The turn must begin at the instant you recognize the collapse, not after you feel the crossface pressure. Even a half-second delay converts a viable back take into a failed turning attempt.
-
-
-
-</section>
 
 
 </main>

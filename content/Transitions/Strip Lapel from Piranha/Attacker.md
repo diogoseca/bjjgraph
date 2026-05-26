@@ -188,6 +188,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Strip Lapel from Piranha?</p>
+
 - Maintain wide athletic base throughout all grip-fighting exchanges to prevent sweeps during the stripping process
 - Prioritize threat hierarchy when clearing grips: address neck wraps first, then back controls, then leg-threaded configurations
 - Use two-on-one grip breaks targeting the opponent's wrist and forearm rather than trying to muscle through established grips
@@ -202,6 +204,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Strip Lapel from Piranha?</p>
+
 - Stable base established in standing or combat base position with weight distributed for balance against sweep attempts
 - Bottom player's hip movement partially controlled through pant grip at the knee or shin to limit angle creation
 - Lapel threading path identified showing where material enters and exits the opponent's leg configuration
@@ -213,6 +217,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Strip Lapel from Piranha step by step?</p>
 
 1. **Establish stable base**: Plant feet wide in an athletic stance with knees bent and hips low, distributing weight evenly through both feet to create a stable platform that resists sweep attempts during the grip-fighting exchange that follows.
 2. **Secure hip control**: Establish a controlling grip on the bottom player's pants at the knee or shin with your non-dominant hand, limiting their ability to create angles, adjust hip position, or generate the momentum needed to execute sweeps during your strip attempt.
@@ -242,6 +248,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Strip Lapel from Piranha?</p>
+
 - **Bottom player immediately re-grips the lapel with their opposite hand before extraction is complete** (Effectiveness: High) - Your Response: Maintain continuous pressure on the stripping action without pausing between grip break and extraction. If they re-grip, immediately target the new grip with another two-on-one break, treating the strip as a flowing sequence rather than discrete steps. → Leads to [[Positions/Piranha Guard]]
 - **Bottom player executes sweep during the grip-fighting exchange when both your hands are committed to stripping** (Effectiveness: Medium) - Your Response: Never release your hip-controlling grip and strip-hand simultaneously. If you feel your base shifting, abandon the strip attempt immediately, widen your stance, and re-establish base before resuming. → Leads to [[Positions/Open Guard]]
 - **Bottom player squeezes knees together and pulls lapel deeper through legs, increasing threading friction and resistance** (Effectiveness: High) - Your Response: Use your hip control grip to push their top knee outward, opening the channel between their legs. Alternatively, change your extraction angle to pull the lapel diagonally rather than straight back through the tightened channel. → Leads to [[Positions/Piranha Guard]]
@@ -252,6 +260,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Strip Lapel from Piranha?</p>
 
 ### 1. Attempting to strip the lapel before establishing a stable base and hip control
 
@@ -286,6 +296,8 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Strip Lapel from Piranha (Attacker)?</p>
+
 **Isolated Grip Breaking** - Two-on-one grip break mechanics against static resistance
 Practice two-on-one grip breaks against a partner holding lapel grips in static Piranha Guard positions. Focus on wrist rotation direction, hand placement, and peeling mechanics without movement or resistance. Build muscle memory for the fundamental grip-breaking motion that forms the core of the technique.
 
@@ -303,42 +315,12 @@ Positional sparring starting from Piranha Guard Top. Execute strip attempts agai
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct sequence for stripping lapel grips when the bottom player has both hands controlling the material?
-**A**: Break the strongest grip first—typically the hand closest to where the lapel exits through their legs, as this grip anchors the entire threading configuration. Use a two-on-one grip break by controlling their wrist and peeling fingers outward while pushing their forearm away from the material. Only then address the secondary grip, as removing the anchor point weakens the entire control system and makes the second break significantly easier.
-
-**Q2**: Why is it critical to control the bottom player's hips before initiating the lapel strip?
-**A**: Without hip control, the bottom player can freely adjust angles, create sweep momentum, and use your grip-fighting commitment against you. A pant grip at the knee or shin limits their ability to rotate, scoot toward you, or generate the off-balancing forces needed for sweeps. This creates a stable environment for your grip-fighting work and reduces counter-attack opportunities significantly.
-
-**Q3**: Your opponent re-grips the lapel immediately after you break their primary grip—how do you adjust your approach?
-**A**: Switch to a continuous pressure approach rather than sequential grip breaks. Maintain constant downward pressure on their re-gripping hand with your forearm while using your other hand to extract the lapel in a single motion. Alternatively, change levels by dropping your weight into the strip, making it harder for them to re-establish grips while they are bearing your pressure and dealing with the mechanical disadvantage.
-
-**Q4**: What directional force should you apply when extracting the lapel from the leg threading?
-**A**: Pull the lapel back along its original threading path rather than perpendicular to the legs. This means pulling toward your own hip on the same side the lapel was fed through, following the natural curve of the material around the opponent's legs. Pulling at wrong angles creates friction and jamming that makes extraction significantly harder, wastes energy, and gives the opponent more time to re-grip.
-
-**Q5**: How do you prevent the bottom player from sweeping you during the grip-fighting exchange?
-**A**: Maintain a wide athletic base with bent knees throughout the entire exchange, distributing weight through the balls of your feet for mobility. Never commit both hands to grip fighting simultaneously—always keep one hand or forearm controlling the opponent's hip or knee as an anchor. If you feel your base shifting or weight being redirected, immediately stop grip fighting and re-establish your stance before continuing the strip.
-
-**Q6**: What is the optimal timing window for initiating the lapel strip?
-**A**: The best window opens when the bottom player adjusts their grips or transitions between attacks, as these moments create brief periods where their tension on the lapel decreases. Watch for their hands releasing momentarily to reposition, their hips shifting to set up a different attack, or their feet adjusting hook placement. These transition moments reduce their ability to resist the strip and create openings for decisive grip breaks.
-
-**Q7**: After successfully stripping the lapel, what should you do in the first three seconds?
-**A**: Immediately establish passing grips on the opponent's pants and collar, close distance with controlled forward pressure, and begin your preferred passing sequence before they can establish a new guard system. The three-second window after a successful strip is critical because the opponent has lost their primary control mechanism and needs time to reorganize. Wasting this window allows them to set up Spider, De La Riva, or other guards that present entirely new passing challenges.
-
-**Q8**: The bottom player squeezes their knees together tightly during your extraction attempt—what mechanical adjustment overcomes this resistance?
-**A**: Use your hip-controlling grip to push their top knee outward or downward, opening the channel between their legs through which the lapel is threaded. Alternatively, change your extraction angle to pull diagonally rather than straight back, which reduces the surface area of contact between the lapel and their legs. You can also apply brief pressure on their far knee with your shin to create space while simultaneously extracting with your hands.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Strip Lapel from Piranha?</p>
 
 The Strip Lapel from Piranha technique involves sustained grip fighting that can strain finger joints and wrist ligaments over time. Avoid yanking or jerking motions when breaking grips, as sudden force can injure both practitioners' fingers. Release pressure immediately if either player reports hand or finger pain during the exchange. Use controlled, directional force rather than explosive pulling throughout the stripping process. In training, communicate with your partner about grip intensity to prevent the chronic finger injuries that are common in gi-based grip fighting exchanges.
 

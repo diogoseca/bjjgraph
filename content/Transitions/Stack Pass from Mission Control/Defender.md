@@ -162,6 +162,8 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Mission Control?</p>
+
 - Opponent's hands move from defensive positions to gripping your hips or upper thighs
 - Forward pressure increases dramatically as opponent drives weight through their hips rather than trying to posture up
 - Opponent tucks their chin to their chest and aligns their spine for forward driving
@@ -174,6 +176,8 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Mission Control?</p>
 
 - Recognize the stack early through tactile cues before the forward pressure builds critical momentum
 - Do not fight the stacking pressure directly—redirect it into offensive transitions that exploit forward weight commitment
@@ -188,6 +192,8 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Mission Control?</p>
 
 ### 1. Transition to omoplata by redirecting the forward stacking momentum into hip rotation and arm isolation
 
@@ -225,6 +231,8 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Mission Control?</p>
+
 ### → [[Positions/Rubber Guard/Mission Control]]
 
 Shrimp hips laterally during the early phase of the stack to create enough distance to re-establish your high guard leg position and head control grips. The key timing is before the stacking pressure reaches critical momentum—once your hips are folded past your shoulders, re-establishment becomes nearly impossible.
@@ -240,6 +248,8 @@ Redirect the opponent's forward momentum into either an omoplata rotation or a h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Mission Control?</p>
 
 ### 1. Fighting the stacking pressure head-on by trying to push the opponent backward with arms
 
@@ -269,6 +279,8 @@ Redirect the opponent's forward momentum into either an omoplata rotation or a h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Mission Control?</p>
+
 **Phase 1: Recognition Drilling** - Identifying stack pass initiation cues
 Partner alternates between posture recovery attempts and stack pass initiation from Mission Control. Bottom player calls out which technique is being attempted as early as possible. Develops the tactile and visual recognition that enables early defensive reactions.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting in Mission Control. Top player uses
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest tactile cues that your opponent is initiating a stack pass rather than a posture recovery attempt?
-**A**: The earliest cues are the opponent's hands moving to your hips or upper thighs rather than fighting your head control grips, their chin tucking to their chest, their elbows drawing tight against their body, and forward pressure increasing through their hips rather than upward extension through their spine. Posture recovery involves upward driving; stacking involves forward compression—the force vector direction is the key differentiator.
-
-**Q2**: Why is it counterproductive to resist the stacking pressure directly with arm frames?
-**A**: The stacking pressure is driven by the opponent's full bodyweight through hip extension, which generates far more force than your arms can resist from a supine position. Direct resistance wastes energy rapidly and prevents you from executing the lateral transitions—omoplata, triangle, sweep—that actually capitalize on the opponent's forward commitment. The correct strategy is redirection, not opposition.
-
-**Q3**: How do you convert a stack pass attempt into an omoplata entry?
-**A**: As the opponent drives forward, use their momentum to assist your hip rotation toward the trapped arm side. The forward stacking motion naturally extends their arm past the balance point where you can rotate your hips over the shoulder for omoplata entry. The key timing is during the early-to-middle phase of the stack when the arm is still inside your guard structure but the forward pressure provides the rotational energy you need.
-
-**Q4**: When should you abandon Mission Control entirely rather than attempting to defend the stack?
-**A**: Abandon Mission Control when your hips have been folded past your shoulders and re-establishment of hip elevation is physically impossible from the compressed position. At that point, transition to alternative guards—butterfly guard, half guard, or closed guard—by releasing your high guard hooks and creating distance through framing. Holding a collapsed Mission Control only wastes energy and delays your guard recovery.
-
-**Q5**: What makes the hip bump sweep effective specifically against the stack pass?
-**A**: The stack pass requires the opponent to commit their weight forward and elevate their center of gravity above their base. This forward weight commitment makes them vulnerable to lateral forces that their narrow, forward-oriented base cannot absorb. The hip bump targets this structural weakness by generating lateral sweeping force at the exact moment when their weight is most committed forward and their posting options are most limited.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Guard Pull?</p>
+
 - Opponent tightens collar and sleeve grips simultaneously with a noticeable increase in pulling tension, shifting from grip fighting to grip anchoring
 - Opponent steps one foot between your legs or positions a foot behind your lead leg, creating the anchor point for their descent
 - Opponent drops their center of gravity noticeably and rounds their shoulders forward, breaking their own posture in preparation for sitting
@@ -174,6 +176,8 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Guard Pull?</p>
 
 - Recognize guard pull initiation cues instantly—grip tightening, posture dropping, and foot placement between your legs all signal an imminent pull
 - Drive forward with heavy hip pressure the moment the pull begins to deny the space needed for guard structure establishment
@@ -188,6 +192,8 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Guard Pull?</p>
 
 ### 1. Strip grips before the descent completes using two-on-one grip breaks
 
@@ -225,6 +231,8 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Guard Pull?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip the opponent's controlling grips before they commit to the descent, forcing them to abort the pull and re-engage in standing grip fighting. Use two-on-one grip breaks on their strongest grip the moment you detect tightening and posture-dropping cues. Alternatively, circle laterally to deny the pulling angle entirely.
@@ -240,6 +248,8 @@ Drive forward aggressively during the opponent's descent to crash through their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Guard Pull?</p>
 
 ### 1. Backing away from the guard pull instead of driving forward or circling
 
@@ -269,6 +279,8 @@ Drive forward aggressively during the opponent's descent to crash through their 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Guard Pull?</p>
+
 **Phase 1: Recognition Drilling** - Identifying guard pull cues before the descent begins
 Partner performs various standing actions—grip changes, level changes, shot fakes, and guard pull setups—while you call out whether each action is a guard pull initiation or not. Develop the pattern recognition to distinguish pull setups from takedown setups and general grip fighting. 5-minute rounds with alternating roles.
 
@@ -285,29 +297,6 @@ Start standing rounds where the partner is specifically trying to pull guard and
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to pull guard from standing?
-**A**: The three earliest cues are: grip tightening on collar and sleeve with a shift from active hand fighting to anchored holding, a foot stepping between your legs to create the descent anchor point, and a visible drop in their center of gravity as they round their shoulders and break their own posture. These cues typically occur in sequence over one to two seconds, and recognizing the first cue—grip anchoring—gives you the maximum response window. The most reliable single indicator is the combination of deepened grips with a foot repositioning between your stance.
-
-**Q2**: How should your body weight distribution change the moment you recognize a guard pull is being initiated?
-**A**: Immediately shift your weight slightly forward onto the balls of your feet and engage your core to resist the pulling force. Lower your center of gravity by bending your knees to maintain base while preparing to drive forward. Do not sit your hips back or lean away—this creates the distance the puller needs. Your weight should be distributed to enable an explosive forward drive that can crash through the developing guard structure. Think of loading your hips to spring forward rather than bracing backward against the pull.
-
-**Q3**: What is the biggest mistake defenders make immediately after their opponent pulls guard?
-**A**: The biggest mistake is standing passively in a neutral posture without immediately initiating a passing sequence. Defenders often pause to assess the situation, re-establish their own grips, or wait for the guard player to move first. This passivity gives the guard player the critical seconds needed to insert hooks, adjust angles, establish grip configurations, and set up offensive threats. The correct response is to begin passing within two seconds of the opponent's landing—the window before hooks are consolidated is the highest-percentage passing opportunity you will have in the entire guard exchange.
-
-**Q4**: Your opponent has pulled guard and established sleeve grips but has not yet inserted hooks—what is your immediate priority?
-**A**: Your immediate priority is advancing your hips past the opponent's leg line before they insert hooks. Drive your lead knee forward between their thighs and drop your weight to pin their hips while stripping or pummeling past their sleeve grips. The hooks are more dangerous than the grips—sleeve grips without hooks create pulling force but no structural guard, while hooks without grips still create a functional guard framework. Address the legs first by advancing past them, then deal with the grip fighting from a dominant half guard or headquarters position.
-
-**Q5**: How do you prevent your opponent from establishing De La Riva guard after a standing guard pull?
-**A**: The moment you recognize DLR hook insertion on your lead leg, retract that leg backward and push their hooking knee across their centerline with your hand. Simultaneously step your lead leg to the outside of their hip, denying the angle needed for the DLR hook to function. If the hook is already established, circle toward their back and apply downward pressure on their hooking knee while stripping their far-side sleeve grip. The DLR guard requires both the hook and a controlling grip to function—eliminating either one collapses the guard structure.
-
-
-
-</section>
 
 
 </main>

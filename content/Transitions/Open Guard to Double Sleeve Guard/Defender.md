@@ -154,6 +154,8 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Open Guard to Double Sleeve Guard?</p>
+
 - Bottom player shoots one or both hands toward your wrists or cuffs while maintaining feet on your hips
 - Bottom player breaks posture diagonally using one sleeve grip combined with foot pressure, indicating they are setting up the second grip
 - Bottom player's feet shift from neutral hip placement to more active pushing patterns designed to extend your arms forward into gripping range
@@ -165,6 +167,8 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Open Guard to Double Sleeve Guard?</p>
 
 - Prevent the first grip from being established, as the first grip creates the conditions for the second through postural manipulation
 - Maintain upright posture with elbows pinched to ribs to minimize exposed sleeve surface for the bottom player to grip
@@ -179,6 +183,8 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Open Guard to Double Sleeve Guard?</p>
 
 ### 1. Strip the first sleeve grip immediately using wrist rotation toward the thumb and hip movement
 
@@ -216,6 +222,8 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Open Guard to Double Sleeve Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip sleeve grips using proper wrist rotation breaks (turn toward opponent's thumb) combined with hip movement. After breaking grips, immediately establish your own control on their legs or belt to prevent re-gripping. The goal is to force them back to neutral open guard where you hold the grip advantage.
@@ -231,6 +239,8 @@ Collapse distance during the grip-fighting phase by driving forward when opponen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard to Double Sleeve Guard?</p>
 
 ### 1. Allowing opponent to secure the first sleeve grip without contesting it
 
@@ -260,6 +270,8 @@ Collapse distance during the grip-fighting phase by driving forward when opponen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Open Guard to Double Sleeve Guard?</p>
+
 **Phase 1: Grip Prevention Drilling** - Developing proactive hand fighting to prevent initial sleeve grips
 Partner attempts to grip your sleeves from open guard while you practice keeping elbows pinched, using wrist rotation to deny grips, and controlling their gripping hands. No passing attempts - purely defensive hand fighting to build recognition and reaction patterns.
 
@@ -273,26 +285,6 @@ Positional sparring from open guard where top player must prevent double sleeve 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is preventing the first sleeve grip more important than breaking it after establishment?
-**A**: The first grip provides the bottom player with a lever to manipulate your posture through diagonal pulling combined with foot pressure. This postural manipulation naturally brings your second arm forward and into gripping range, making the second grip acquisition far easier. By preventing the first grip entirely, you deny the cascading effect that makes bilateral control almost inevitable once the sequence begins.
-
-**Q2**: What mechanical principle makes wrist rotation more effective than straight pulling for breaking cuff grips?
-**A**: Cuff grips with four fingers inside the sleeve opening are strongest against linear pulling forces because the grip wraps around the cylindrical wrist. Wrist rotation toward the opponent's thumb attacks the weakest axis of their grip, where only the thumb opposes the breaking force. Combined with hip movement and stepping, the rotational break uses your entire body against their isolated grip strength rather than matching forearm against forearm.
-
-**Q3**: Your opponent has one sleeve grip and is using diagonal force to set up the second grip. What is your immediate priority?
-**A**: Your immediate priority is preventing the postural break rather than fighting the grip directly. Widen your base, sit your hips back, and engage your core to resist the diagonal pull. Post your free hand on the mat briefly if needed to maintain balance. Once your posture is stabilized, address the grip using wrist rotation while the opponent's diagonal force strategy has been neutralized. Fighting the grip while your posture is compromised leads to worse positions.
-
-**Q4**: How should you exploit the moment when your opponent reaches for your second sleeve?
-**A**: When the opponent reaches for your second sleeve, they momentarily have only one hand contributing to guard retention and one foot may come off your hip to create the extending angle. This creates a passing window. Drive forward aggressively toward the side of their reaching arm, using their overextension against them. Their reaching arm cannot defend the pass and their compromised foot positioning reduces their ability to retain guard. This is the highest-percentage moment for passing during the entire double sleeve establishment sequence.
-
-
-
-</section>
 
 
 </main>

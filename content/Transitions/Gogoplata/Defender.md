@@ -166,6 +166,8 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gogoplata?</p>
+
 - Opponent releases their shin grip in Mission Control and begins pushing your head down with their free hand while their attacking foot starts circling upward over your shoulder
 - You feel the opponent's shin bone sliding from your shoulder blade area toward your neck and throat as their foot arcs behind your head
 - Opponent's hands shift from overhook and head control to reaching behind your head with both hands, indicating they are securing the pulling grip for the finish
@@ -177,6 +179,8 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gogoplata?</p>
 
 - Address the submission immediately - the Gogoplata's dual airway and blood supply attack creates a compressed defense timeline compared to other submissions
 - Turn chin toward the knee crook of the choking leg as the first survival action to create breathing space before attempting full escape
@@ -191,6 +195,8 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gogoplata?</p>
 
 ### 1. Posture recovery and stacking pressure before the foot threads behind the head
 
@@ -228,6 +234,8 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gogoplata?</p>
+
 ### → [[Positions/Rubber Guard/Mission Control]]
 
 Successfully strip the foot from behind your head or recover posture before the choke is fully locked. Focus on early recognition during the foot-threading phase and commit to posture recovery with your hands fighting the opponent's head control. Once the foot is removed or posture is recovered, you return to defending standard Mission Control which has significantly more escape options.
@@ -243,6 +251,8 @@ If caught in a fully locked Gogoplata, the emergency tuck and roll can break the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gogoplata?</p>
 
 ### 1. Pulling head straight backward to escape the shin pressure across the throat
 
@@ -277,6 +287,8 @@ If caught in a fully locked Gogoplata, the emergency tuck and roll can break the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gogoplata?</p>
+
 **Week 1-2** - Recognition and chin positioning
 Partner establishes Mission Control and slowly works through the Gogoplata setup at 30% speed. Defender focuses exclusively on recognizing setup cues - the shin grip release, the foot threading motion, the hand shift to behind-head grip - and immediately implementing chin-to-knee-crook positioning. No full escapes attempted; purely developing recognition speed and automatic chin defense.
 
@@ -293,29 +305,6 @@ Full positional sparring starting from Mission Control with partner free to atta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when you feel a shin sliding across your throat from Mission Control?
-**A**: Turn your chin immediately toward the crook of the choking leg's knee to reduce direct tracheal compression. This single action buys critical seconds by shifting pressure from the windpipe to the less vulnerable chin and jaw area. Only after establishing this breathing space should you commit to a full escape sequence - whether that is foot stripping, posture recovery, or emergency rolling.
-
-**Q2**: Why does pulling your head straight backward fail as a Gogoplata escape?
-**A**: The opponent's foot secured behind your head creates a closed-loop system. When you pull backward, the foot acts as a backstop that prevents extraction while simultaneously driving your throat harder into the shin bone. The backward pulling motion actually increases tracheal compression rather than relieving it. You must address the foot position first or use lateral movement to change the angle before any backward extraction becomes viable.
-
-**Q3**: Your opponent is threading their foot behind your head from Mission Control but has not yet secured it - what should you do?
-**A**: This is the highest percentage defense window. Immediately drive your posture upward and backward using your base hand while your other hand fights the grip controlling your head. If you can prevent the foot from completing its arc behind your head, the Gogoplata cannot be established. Alternatively, strip the foot with your free hand before it locks behind your skull. Every second you delay during this threading phase makes the subsequent defense exponentially harder.
-
-**Q4**: Your opponent has a fully locked Gogoplata and you cannot breathe - what is your emergency escape option?
-**A**: Execute an emergency tuck and roll, accepting the positional concession to mount or back exposure. Tuck your chin as much as possible, commit to rolling toward the choking leg side, and use your arms to post through the roll. This explosive movement breaks both the shin angle and foot position simultaneously. You will likely end up in mount bottom or give up back exposure, but both are survivable positions with established escape methodologies, unlike a locked Gogoplata where unconsciousness is imminent.
-
-**Q5**: Where should you direct your hands when defending a partially locked Gogoplata and why?
-**A**: Direct your hands to two targets in order of priority: first, the opponent's hips to drive them flat and eliminate the hip elevation that creates the perpendicular choke angle. Second, reach behind your own head to locate and strip the opponent's foot that is anchored there. Never waste hand effort pulling at the shin across your throat - your arms cannot overcome your opponent's leg strength in that configuration, and the effort removes your hands from productive defensive work.
-
-
-
-</section>
 
 
 </main>

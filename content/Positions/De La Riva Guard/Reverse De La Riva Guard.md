@@ -34,7 +34,7 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inverted hook orientation creates rotational off-balancing mechanics that differ fundamentally from traditional De La Riva

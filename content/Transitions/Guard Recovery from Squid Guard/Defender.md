@@ -156,6 +156,8 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Squid Guard?</p>
+
 - Bottom player's threading leg begins to withdraw and bend at the knee, indicating they are abandoning the Squid Guard configuration
 - Bottom player releases the lapel voluntarily or loosens their threading, signaling acceptance that the Squid Guard has failed
 - Bottom player's hips shift laterally during or after the leg withdrawal, indicating the hip escape needed for guard closure initiation
@@ -166,6 +168,8 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Squid Guard?</p>
 
 - Capitalize immediately on the lapel strip by advancing before the bottom player can withdraw the threading leg and reposition for guard closure
 - Redirect the freed threading leg to one side for a leg drag or toreando pass rather than allowing it to withdraw cleanly to the centerline
@@ -180,6 +184,8 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Squid Guard?</p>
 
 ### 1. Redirect the threading leg to one side as it withdraws from the Squid Guard position, initiating a leg drag or toreando pass through the disorganized leg configuration
 
@@ -210,6 +216,8 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Squid Guard?</p>
+
 ### → [[Positions/Combat Base]]
 
 Strip the lapel grip and immediately redirect the freed threading leg to one side for a leg drag pass, capitalizing on the disorganized leg positioning during the transition from Squid Guard to prevent the symmetric leg repositioning needed for guard closure
@@ -221,6 +229,8 @@ Strip the lapel grip and immediately redirect the freed threading leg to one sid
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Squid Guard?</p>
 
 ### 1. Celebrating the lapel strip rather than immediately advancing into the passing opportunity
 
@@ -245,6 +255,8 @@ Strip the lapel grip and immediately redirect the freed threading leg to one sid
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Squid Guard?</p>
+
 **Phase 1: Lapel Strip to Immediate Advancement** - Connecting the lapel grip strip with immediate passing action as one continuous sequence
 Partner holds Squid Guard at 30% resistance. Practice stripping the lapel and immediately advancing with one of three options—leg drag, forward pressure, or standing disengage. Drill each option 15 times to build the habit of treating the strip as a passing trigger rather than a standalone action.
 
@@ -261,29 +273,6 @@ Positional sparring starting in Squid Guard with full resistance. Top player wor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is redirecting the threading leg more effective than simply trying to push it away during Squid Guard recovery prevention?
-**A**: Redirecting the threading leg to one side disrupts the symmetric leg positioning needed for closed guard closure and simultaneously creates a passing lane. Simply pushing the leg away only delays the withdrawal temporarily—the bottom player will attempt again with the same leg on the same path. Redirection forces the leg past the centerline to one side, meaning the bottom player must first pummel the leg back to center before attempting guard closure, which takes significantly more time and effort than simply re-extending a pushed leg.
-
-**Q2**: What makes the Squid Guard structure particularly vulnerable to passing once the lapel grip is stripped?
-**A**: The Squid Guard structure depends on the lapel thread creating a connection point that anchors the guard configuration. Without the lapel, the threading leg has no purpose in its current position and must be withdrawn—but this withdrawal repositions the leg from an offensive position to a transitional position with no defensive value until it reaches center. This mandatory repositioning creates a predictable window where the bottom player's legs are disorganized and in transit, making them vulnerable to redirection and passing. Other guard styles can maintain defensive function when a grip is stripped, but Squid Guard's reliance on the lapel makes the strip catastrophic.
-
-**Q3**: Should you stand up or drive forward when preventing Squid Guard recovery—how do you decide?
-**A**: Stand up when the bottom player's legs are already approaching closure position around your waist—standing creates the vertical distance that prevents ankle crossing. Drive forward when the legs are still withdrawing and in transit, because forward pressure pins the hips flat and prevents the hip escape needed for closure angle. The decision point is whether the legs have reached your torso: if yes, stand; if still withdrawing, drive forward. Driving forward when the legs are closing results in being pulled into closed guard, while standing when the legs are still in transit wastes the forward pressure opportunity.
-
-**Q4**: How do you recognize the difference between a genuine guard recovery attempt and a feint to re-establish Squid Guard?
-**A**: A genuine guard recovery involves the bottom player releasing the lapel completely and withdrawing the threading leg by bending the knee toward their body. A feint to re-establish Squid Guard keeps the gripping hand near the lapel and the threading leg extended or only slightly withdrawn while the bottom player looks to re-feed the lapel. Watch the bottom player's gripping hand—if it releases the lapel and moves to collar or sleeve control, they are committing to recovery and you should advance immediately. If the hand stays near the lapel or reaches back toward it, they are attempting to re-thread, and you should focus on grip prevention and lapel denial rather than aggressive passing.
-
-**Q5**: Your opponent successfully closes their guard during the recovery—what should your immediate priority be?
-**A**: Once the guard closes, your window for passing through the recovery transition has ended and you must shift to closed guard top defensive priorities. Immediately establish strong posture by sitting your hips back, straightening your spine, and placing hands on their hips to create distance. Prevent them from breaking your posture in the first five seconds—the bottom player will try to capitalize on the chaos of the transition to immediately pull you down and attack. Your posture establishment in the first moments of the recovered guard determines whether you face an organized closed guard attack or can begin working toward systematic guard opening from a stable base.
-
-
-
-</section>
 
 
 </main>

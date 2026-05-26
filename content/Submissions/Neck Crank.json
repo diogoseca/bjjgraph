@@ -1,0 +1,137 @@
+{
+  "name": "Neck Crank",
+  "description": "Master the Neck Crank submission in BJJ. A cervical spine compression applied from Twister Control that forces the tap through spinal pressure.",
+  "tags": [
+    "submission",
+    "compression",
+    "neck-crank",
+    "twister-control",
+    "spinal-lock",
+    "advanced",
+    "no-gi",
+    "gi",
+    "cervical-spine"
+  ],
+  "is_family": true,
+  "submission_category": "Compression",
+  "submission_type": "Spinal Compression",
+  "target_area": "Cervical spine and neck muscles",
+  "starting_position": "Twister Control",
+  "from_position": "Twister Control/Top",
+  "success_rate": 40,
+  "variant_uniqueness": "Cervical spine compression bypasses chin tuck defenses",
+  "overview": "The Neck Crank is a cervical spine compression submission applied primarily from Twister Control. Unlike chokes that target the carotid arteries or trachea, the neck crank generates a tap through direct mechanical pressure on the cervical vertebrae and surrounding musculature. The attacker uses the body triangle to lock the opponent's torso in place while applying lateral or rotational force to the head, creating a shearing effect on the spine that becomes rapidly unbearable.\n\nThis submission occupies a unique space in the grappling hierarchy. While some competition rulesets restrict or ban neck cranks, they remain a legitimate and high-percentage finish in no-gi grappling, particularly from twister control where the opponent's movement is severely limited. The key strategic advantage of the neck crank is that it requires less precision than many other submissions\u2014once the body is locked and the head is controlled, the finishing mechanics are straightforward. However, this same potency demands exceptional training discipline, as the cervical spine is vulnerable to permanent injury when force is applied carelessly.\n\nFrom a game planning perspective, the neck crank pairs naturally with the twister and banana split as finishing threats from the truck position. The defender must choose which attack to prioritize defending, and each defensive commitment opens vulnerability to the others. Advanced practitioners use the neck crank as both a primary finish and a setup tool to create submission chains from twister control.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Cervical disc herniation or vertebral fracture from excessive rotational force",
+        "severity": "CRITICAL",
+        "recovery_time": "3-12 months, may require surgical intervention"
+      },
+      {
+        "injury": "Neck muscle strain or ligament sprain from sudden force application",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks with rest and physical therapy"
+      },
+      {
+        "injury": "Cervical nerve compression causing radiating pain or numbness in extremities",
+        "severity": "High",
+        "recovery_time": "4-8 weeks, requires medical evaluation"
+      }
+    ],
+    "application_speed": "SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.",
+    "tap_signals": [
+      "Physical tap on partner's body, legs, or the mat (minimum two distinct taps)",
+      "Verbal submission ('tap', 'stop', or any verbal indication of distress)",
+      "Any sign of distress including grunting, gasping, or going limp\u2014treat as an immediate tap"
+    ],
+    "release_protocol": [
+      "Release ALL pressure immediately and completely upon any tap signal\u2014do not 'finish the rep'",
+      "Gently return the opponent's head to neutral alignment before disengaging the body triangle",
+      "Check on your training partner verbally after every neck crank attempt, even if they did not tap"
+    ],
+    "training_restrictions": [
+      "Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended",
+      "Never apply full force in training\u2014use controlled progressive pressure at 50-70% intensity maximum",
+      "Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain"
+    ]
+  },
+  "variations": [
+    {
+      "name": "from Mounted Crucifix",
+      "slug": "from-mounted-crucifix"
+    },
+    {
+      "name": "from Twister Control",
+      "slug": "from-twister-control"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Chin Strap Crank",
+      "description": "Thread the top arm under the opponent's chin and lock a chin strap grip. Pull the head laterally while the body triangle anchors the torso. This is the highest-percentage variation because the grip under the jaw provides maximum rotational leverage on the cervical spine.",
+      "when_to_use": "When you can access the chin and thread your arm underneath\u2014the default finishing grip from twister control"
+    },
+    {
+      "variation_name": "Forehead Push Crank",
+      "description": "Place the palm on the opponent's forehead or crown and push the head forward and down, compressing the cervical spine into flexion rather than rotation. This bypasses chin tuck defenses entirely since the force direction works regardless of jaw position.",
+      "when_to_use": "When the opponent tucks the chin aggressively to block the chin strap grip"
+    },
+    {
+      "variation_name": "Crossface Crank",
+      "description": "Drive the forearm across the opponent's jaw from the side, creating lateral cervical flexion. The forearm blade sits on the jawline and the pulling direction is perpendicular to the spine. Effective as a transition grip when switching between crank angles.",
+      "when_to_use": "When traditional chin access is blocked but the jaw remains exposed from the side"
+    }
+  ],
+  "from_positions": [
+    "Twister Control",
+    "Truck",
+    "Back Control",
+    "Crucifix",
+    "Mounted Crucifix"
+  ],
+  "related_submissions": [
+    {
+      "name": "Spine Lock",
+      "relationship": "Similar spinal compression submission targeting the thoracic and lumbar spine"
+    },
+    {
+      "name": "Can Opener",
+      "relationship": "Related cervical compression applied from closed guard top position"
+    },
+    {
+      "name": "Banana Split",
+      "relationship": "Alternative lower body finish from the same twister control and truck positions"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Alternative submission from truck and twister control targeting the groin and inner thigh"
+    },
+    {
+      "name": "Boston Crab",
+      "relationship": "Related spinal compression submission targeting the lumbar spine from a standing position"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Primary control position for setting up the neck crank"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative position from which neck cranks can be applied"
+    },
+    {
+      "name": "Spine Lock",
+      "relationship": "Similar spinal compression submission targeting the thoracic and lumbar spine"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Comprehensive control position that includes the neck crank as a finishing option"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Alternative finish from the same twister control position"
+    }
+  ]
+}

@@ -208,7 +208,7 @@ The Kimura from Crab Ride fits within the broader turtle attack system as a seco
 
 - [[Positions/Turtle]] - Parent position category for crab ride attacks
 
-- [[Submissions/Kimura from Kimura Trap]] - Follow-up submission finish from the target control position
+- [[Submissions/Kimura]] - Follow-up submission finish from the target control position
 
 - [[Submissions/Reverse Kimura]] - Related shoulder lock variation using opposite rotational direction
 

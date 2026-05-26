@@ -219,7 +219,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Grip Fighting Mechanics",
+        "phase": "Phase 1: Grips Mechanics",
         "focus": "Head control grip stripping and defensive hand positioning",
         "description": "Partner establishes Mission Control at 50% resistance. Practice stripping head control grips using your free hand with proper wrist targeting and forearm leverage. Focus exclusively on grip fighting without attempting posture recovery. Build the automatic grip stripping responses that form the foundation of all subsequent phases."
       },
@@ -244,7 +244,7 @@
         "description": "Once posture recovery is reliable, chain the escape directly into closed guard opening and passing sequences. Practice transitioning from broken Mission Control to standing guard break or kneeling guard opening without allowing the bottom player time to reconfigure grips or re-enter rubber guard."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most critical grip to fight when beginning posture recovery from Mission Control?",
         "answer": "The head control grip is the most critical. The bottom player's ability to pull your head down maintains the entire Mission Control structure - without head control, they cannot sustain shoulder isolation, break posture, or threaten submissions effectively. Use your free hand to constantly strip their grip on the back of your head or neck before attempting any postural changes."
@@ -354,7 +354,7 @@
         "correction": "Maintain active hip elevation throughout all grip fighting exchanges. If your core fatigues, transition offensively rather than accepting dropped hips. The position becomes indefensible without hip elevation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that the top player is beginning a posture recovery attempt from Mission Control?",
         "answer": "The earliest cues include the top player stiffening their free arm against your body, beginning to strip your head control grips with deliberate motions, and driving their weight slightly backward away from the trapped shoulder. You may also feel them widening their base by spreading their knees, which signals preparation for sustained escape effort. Recognizing these micro-adjustments before full posture recovery begins gives you the maximum counter window."

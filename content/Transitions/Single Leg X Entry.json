@@ -61,7 +61,7 @@
       "relationship": "Setup technique — uses technical stand-up movement to bait opponent into entry range"
     },
     {
-      "name": "Kneebar from Guard",
+      "name": "Kneebar",
       "relationship": "Submission option — direct attack available from established Single Leg X position"
     },
     {
@@ -192,7 +192,7 @@
         "description": "Practice entry from seated guard with partner in standing position offering no resistance. Focus on clean execution of each step: grip, inside hook, outside frame, hip elevation, angle adjustment. Repeat 20-30 repetitions per training session, alternating sides. Partner should allow you to complete full entry and hold position for 5 seconds before resetting."
       },
       {
-        "phase": "Week 3-4: Timing and Grip Fighting",
+        "phase": "Week 3-4: Timing and Grips",
         "focus": "Developing timing awareness and grip security",
         "description": "Partner begins adding light resistance by attempting to pull their leg away when you reach for ankle grip. Practice grip fighting and re-gripping while maintaining position pursuit. Work on timing entry when partner shifts weight forward or sideways. Begin chaining entry with follow-up sweeps or transitions to build muscle memory for offensive sequences."
       },
@@ -217,7 +217,7 @@
         "description": "Develop multiple entry pathways to Single Leg X from standing, kneeling, and various guard positions. Create systematic connections between Single Leg X and other leg entanglement positions. Study high-level competition footage to identify advanced timing cues and setup sequences. Build personalized combinations that flow naturally with your existing guard game and body type."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary function of the inside leg hook in Single Leg X Entry?",
         "answer": "The inside leg hook serves multiple critical functions: it prevents opponent from stepping backward to escape, creates clamping pressure by pulling their leg toward you, compromises their base by attacking one pillar of their stance, and works in conjunction with your ankle grip to create two-point control on the same leg. The hook should be positioned deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness."
@@ -346,7 +346,7 @@
         "correction": "Widen your stance and keep your weight centered between both feet when facing a seated guard player. A wide, athletic base makes it harder for them to isolate one leg and forces them to over-commit to reach your ankle, which creates defensive windows for you."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important grip for the attacker that you must deny or strip to prevent the entry?",
         "answer": "The ankle or lower leg grip is the foundational control that enables the entire Single Leg X Entry sequence. Without this grip, the attacker cannot prevent you from stepping back, cannot anchor their inside hook, and cannot generate the pulling angle needed for the entry. Strip this grip immediately upon feeling it — use your free hand to peel their fingers while simultaneously backstopping your leg. Every second the grip remains is time they use to build the next link in their entry chain."
@@ -380,7 +380,7 @@
         "description": "Partner attempts the entry with increasing speed and commitment while you practice selecting between backstep, sprawl forward, and circling defense based on how far the entry has progressed. If caught early, backstep. If hook is partially in, circle. If they have hooks but not angle, sprawl. Build decision-making speed by randomizing partner's entry timing and setup variations."
       },
       {
-        "phase": "Week 5-8: Grip Fighting and Counter-Offense",
+        "phase": "Week 5-8: Grips and Counter-Offense",
         "focus": "Integrating grip stripping with passing opportunities off failed entries",
         "description": "Partner attempts entries with full resistance while you practice stripping grips and immediately transitioning to passing sequences when the entry fails. Focus on converting defensive success into offensive position — when you sprawl successfully, immediately begin a pressure pass. When you backstep and strip grip, advance with toreando or knee slice. Build the habit of treating every failed entry as a passing opportunity."
       },

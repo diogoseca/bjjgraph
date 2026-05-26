@@ -89,7 +89,7 @@
       "relationship": "Alternative guard recovery technique with overlapping movement patterns"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Potential intermediate state during scramble burst escape variant"
     },
     {
@@ -247,7 +247,7 @@
         "description": "Begin rounds with practitioner in a stalled Matrix position. Both players go live—attacker attempts escape while defender attempts to capitalize. Reset after escape completion or back take establishment. Track success rate across sessions to measure improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important indicator that your Matrix rotation has stalled and you need to initiate the escape?",
         "answer": "The most important indicator is loss of rotational momentum combined with feeling the opponent's weight settling onto your body. When your hips stop moving through the rotation arc and you feel downward pressure from the opponent rather than the free space of continued rotation, the attack has been successfully defended. Secondary indicators include inability to thread your legs further around the opponent and feeling their base widen against your rotation. The critical skill is recognizing this within the first half-second."
@@ -364,7 +364,7 @@
         "correction": "Read the hip direction—downward retraction indicates turtle recovery while continued rotation indicates guard pull redirect. Match your response to their actual escape path rather than assuming a single pattern."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical timing window for capitalizing on a stalled Matrix escape?",
         "answer": "The most critical window is during the roll from stalled Matrix to turtle—approximately one to two seconds when the opponent's legs are in transit and their defensive structure is incomplete. Once they establish tight turtle with elbows to knees and chin tucked, your advantage drops significantly because you now face standard turtle attack challenges rather than exploiting a compromised opponent. Insert hooks and establish upper body control during this transition window before the turtle shell closes."

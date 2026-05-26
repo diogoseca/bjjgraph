@@ -162,6 +162,8 @@ Defending against the Russian Lasso to De La Riva transition requires recognizin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Russian Lasso to De La Riva?</p>
+
 - Lasso pressure on your trapped arm begins to decrease as the guard player relaxes the threading to prepare for extraction
 - Guard player's hip angle shifts as they begin rotating toward your lead leg side to facilitate the DLR hook placement
 - Sleeve grip on your lasso-side arm loosens or releases as the guard player prepares to transition that hand to an ankle or pant grip
@@ -174,6 +176,8 @@ Defending against the Russian Lasso to De La Riva transition requires recognizin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Russian Lasso to De La Riva?</p>
 
 - Recognize transition intent early through tactile and visual cues rather than waiting for the DLR hook to be fully established before reacting
 - Exploit the vulnerability window during leg extraction by immediately advancing or stripping the collar grip that anchors the guard player's control
@@ -188,6 +192,8 @@ Defending against the Russian Lasso to De La Riva transition requires recognizin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Russian Lasso to De La Riva?</p>
 
 ### 1. Backstep immediately when lasso pressure decreases to remove lead leg from DLR hook range
 
@@ -225,6 +231,8 @@ Defending against the Russian Lasso to De La Riva transition requires recognizin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Russian Lasso to De La Riva?</p>
+
 ### → [[Positions/Open Guard]]
 
 Exploit the transition vulnerability window by backsteping when lasso pressure decreases or stripping the collar grip during the guard player's grip transition phase. Aggressive reaction during the 1-2 second window when the lasso leg is extracted but the DLR hook is not yet established disrupts the guard change and leaves the bottom player in generic open guard without specific controlling hooks.
@@ -240,6 +248,8 @@ Drive forward with pressure when the guard player begins the extraction to force
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Russian Lasso to De La Riva?</p>
 
 ### 1. Waiting until the DLR hook is fully established before attempting to counter the transition
 
@@ -269,6 +279,8 @@ Drive forward with pressure when the guard player begins the extraction to force
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Russian Lasso to De La Riva?</p>
+
 **Phase 1: Recognition Training** - Identifying transition cues without reacting
 Partner performs the Russian Lasso to DLR transition at slow speed while you focus exclusively on recognizing the cues: lasso pressure decrease, hip angle change, collar grip tightening. Call out the cue verbally when you detect it. Do not attempt to counter yet. Build pattern recognition through 20-30 repetitions per round.
 
@@ -285,29 +297,6 @@ Start in Russian Leg Lasso top against a training partner who actively works to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that indicates the guard player is about to transition from Russian Lasso to De La Riva?
-**A**: The earliest cue is a decrease in lasso pressure on your trapped arm. When the guard player relaxes the threading to prepare for leg extraction, you will feel the binding effect on your arm loosen. This happens before any visible hip movement or leg repositioning and provides the maximum reaction time for counter-measures. Simultaneously, you may notice the collar grip tightening as they reinforce their anchor before the switch.
-
-**Q2**: Why is the backstep defense more effective during the extraction phase than after the DLR hook is established?
-**A**: During the extraction phase, the guard player's leg is in transit between two positions and cannot exert controlling force in either the lasso or DLR configuration. A backstep at this moment removes your lead leg from the hook's path while the guard player has no mechanism to follow your movement. Once the DLR hook is established behind your knee, backsteping actually strengthens the hook by loading the opponent's leg against the back of your knee joint.
-
-**Q3**: Your opponent's lasso pressure decreases but their collar grip tightens simultaneously - what does this indicate and how should you respond?
-**A**: This combination strongly indicates an imminent guard transition. The collar grip tightening is the guard player reinforcing their anchor before extracting the lasso leg. Respond immediately by either stripping the collar grip with a two-on-one break while their attention is on the leg transition, or backstep your lead leg while posting your hand on their hip to create distance. Do not wait for the leg extraction to confirm the transition.
-
-**Q4**: What foot positioning prevents DLR hook establishment during the guard player's transition attempt?
-**A**: Maintain a staggered stance with your lead foot angled slightly outward and your weight distributed through the back foot. When you detect the transition, pull your lead foot back and turn your knee outward to eliminate the hooking angle behind your knee. Stepping your lead leg laterally away from the guard player's redirecting leg removes the target entirely. Never stand square with parallel feet, as this presents both knees as viable hook targets.
-
-**Q5**: After successfully preventing the DLR transition and landing in open guard top, what should your immediate priority be?
-**A**: Immediately establish passing grips before the guard player can re-establish a specific guard system. Control their legs by gripping pants at the knees or ankles to prevent them from inserting hooks or frames. The guard player is momentarily in their weakest configuration without specific guard controls. Drive into a passing sequence immediately rather than allowing them time to recover Russian Lasso, DLR, or any other specific guard structure.
-
-
-
-</section>
 
 
 </main>

@@ -43,20 +43,20 @@
       "relationship": "Opposite-direction sweep that chains with Flower in some systems"
     },
     {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Follow-up submission when opponent defends sweep by tucking elbows"
+      "name": "Closed Guard to Triangle",
+      "relationship": "Follow-up triangle entry when opponent defends sweep by tucking elbows"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Direct attack on posted arm when opponent defends sweep"
+      "name": "Rolling Armbar from Closed Guard",
+      "relationship": "Direct armbar attack on posted arm when opponent defends sweep"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative shoulder lock when opponent turns away during sweep defense"
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Alternative shoulder lock transition when opponent turns away during sweep defense"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Part of fundamental closed guard system - shares grip fighting concepts"
+      "name": "Kimura Sweep",
+      "relationship": "Part of fundamental closed guard system - shares grip fighting concepts and sweep mechanics"
     },
     {
       "name": "Closed Guard",
@@ -67,7 +67,7 @@
       "relationship": "Ending position - primary destination when sweep is completed successfully"
     },
     {
-      "name": "Butterfly Sweep",
+      "name": "Basic Butterfly Sweep",
       "relationship": "Related sweep using butterfly hook mechanics from open guard position"
     }
   ],
@@ -209,7 +209,7 @@
         "description": "Work on entering the Flower Sweep from different guard positions and grips. Practice no-gi variations. Develop your own timing preferences and setups. Work the sweep against different body types and defensive styles. Focus on the smallest details: grip adjustments, hip angles, and explosive timing."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary purpose of creating an angle with your hips before executing the Flower Sweep?",
         "answer": "Creating an angle (approximately 30-45 degrees) changes the sweeping direction from straight back to diagonal, which makes it much harder for the opponent to defend. When you sweep diagonally, the opponent must defend in multiple directions simultaneously - they can't simply post their knee or hand straight back. The angle also allows you to use your butterfly hook more effectively as a lever and generates the circular, rotating momentum that characterizes the sweep."
@@ -338,7 +338,7 @@
         "correction": "Train to recognize the early setup cues - the specific grip combination, the guard opening, and the hip angle creation. Address the sweep at the grip fighting stage where your defensive options are numerous and safe."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest point in the Flower Sweep sequence where you can intervene defensively, and what action should you take?",
         "answer": "The earliest intervention point is during grip establishment, specifically when the opponent reaches for your same-side sleeve. Actively fight this grip by circling your wrist, pulling your elbow back, or using your free hand to strip their grip before it solidifies. Without the sleeve grip, the opponent cannot prevent you from posting, which eliminates the sweep's primary finishing mechanism. This is far more effective than any defense attempted after grips, angles, and hooks are established."
@@ -367,7 +367,7 @@
         "description": "Partner executes the Flower Sweep at slow speed while you practice identifying each setup phase: grip establishment, guard opening, angle creation, hook insertion. Call out each phase verbally as it happens. No active defense yet - the goal is building pattern recognition so you can detect the sweep before it develops."
       },
       {
-        "phase": "Week 3-4: Proactive Grip Fighting",
+        "phase": "Week 3-4: Proactive Grips",
         "focus": "Preventing the grip establishment that enables the sweep",
         "description": "Partner attempts to establish Flower Sweep grips while you practice stripping the sleeve grip using two-on-one breaks, elbow retraction, and wrist circles. Work at 40% speed. Track how many times per round the partner successfully establishes both grips versus how many times you strip them. Target is preventing complete grip establishment in 70%+ of attempts."
       },

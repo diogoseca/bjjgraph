@@ -154,6 +154,8 @@ As the defender against posture recovery, you are the triangle player working to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture in Triangle?</p>
+
 - Opponent spreads knees wide and begins driving upward from their legs rather than pulling with arms
 - Opponent places free hand on your hip and presses down to control your angle adjustment
 - Opponent's spine begins straightening from rounded to vertical alignment with head lifting away from your hips
@@ -166,6 +168,8 @@ As the defender against posture recovery, you are the triangle player working to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture in Triangle?</p>
 
 - Maintain constant downward pulling pressure on the opponent's head and posture through your legs, arms, and hip engagement rather than relying on the lock alone
 - Control the angle by keeping your hips turned perpendicular to the opponent's centerline to maximize choking pressure and minimize their ability to stack
@@ -180,6 +184,8 @@ As the defender against posture recovery, you are the triangle player working to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture in Triangle?</p>
 
 ### 1. Clasp hands behind opponent's head and pull down with full body engagement while squeezing triangle tighter
 
@@ -217,6 +223,8 @@ As the defender against posture recovery, you are the triangle player working to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture in Triangle?</p>
+
 ### → [[Positions/Triangle Escape Position]]
 
 Maintain constant downward pulling pressure on the head, keep hips elevated and angled perpendicular, and actively resist every posture recovery attempt by squeezing legs and pulling with clasped hands. Regrip and tighten the triangle lock during any pause in their escape efforts.
@@ -232,6 +240,8 @@ When opponent overcommits to posture recovery with forward drive, transition to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture in Triangle?</p>
 
 ### 1. Relying solely on the triangle lock to hold broken posture without active pulling engagement
 
@@ -261,6 +271,8 @@ When opponent overcommits to posture recovery with forward drive, transition to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture in Triangle?</p>
+
 **Phase 1: Posture Control Fundamentals** - Maintaining broken posture through active engagement
 Lock triangle on partner who drives posture at 30% resistance. Practice pulling head down with clasped hands, maintaining hip elevation, and squeezing legs to resist upward movement. Focus on developing the coordination between arm pulling, leg squeezing, and hip angling that creates sustained posture control.
 
@@ -277,26 +289,6 @@ Full resistance rounds starting in locked triangle. Triangle player must finish 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that your opponent is about to attempt posture recovery?
-**A**: The earliest cues are the opponent spreading their knees wider to establish a broader base, curling their toes under for drive, and placing their free hand on your hip to control your angle. You may also feel a shift in their weight distribution as they prepare to drive upward from their legs. Recognizing these preparatory adjustments before the actual posture drive begins gives you time to preemptively increase pulling pressure and tighten your triangle.
-
-**Q2**: Why is maintaining perpendicular hip angle critical when the opponent attempts to posture up?
-**A**: The perpendicular angle maximizes the choking pressure by aligning the choking leg directly across the carotid arteries. When hips remain square to the opponent, the triangle becomes more of a head squeeze with reduced blood restriction. The angle also creates a mechanical advantage for pulling pressure because your legs can extend and contract along the optimal force vector. Losing this angle during posture recovery attempts often means losing the submission entirely.
-
-**Q3**: Your opponent recovers posture to approximately 70% vertical - what is your highest-percentage response?
-**A**: At 70% posture recovery, the triangle finish becomes unlikely through direct choking pressure alone. Transition to a secondary attack by threatening the armbar on the trapped arm or pivoting to an omoplata attempt. These transitions exploit the space created by their posture recovery and force them to re-engage defensively. If they defend the secondary attack, use the defensive reaction to re-break their posture and re-establish the triangle's finishing position.
-
-**Q4**: How do you time triangle readjustments to tighten the lock without creating escape windows?
-**A**: Readjust the triangle only during moments of opponent passivity when they pause between escape attempts or when you have successfully re-broken their posture. Use your pulling pressure to create a brief moment of control, then quickly unlock and re-lock the figure-four in a tighter configuration. The entire readjustment should take less than one second. Never readjust while the opponent is actively driving upward, as this creates the looseness they need to escape.
-
-
-
-</section>
 
 
 </main>

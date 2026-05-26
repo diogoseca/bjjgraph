@@ -188,6 +188,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ouchi Gari?</p>
+
 - Control opponent's posture through collar and sleeve grips before initiating throw
 - Break opponent's balance to their rear corner (backward and slightly to their supporting leg side)
 - Reap the inside of opponent's lead leg with your corresponding leg in a sweeping motion
@@ -203,6 +205,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ouchi Gari?</p>
+
 - Establish standing clinch position with proper gripping (collar and sleeve or double collar)
 - Opponent must be in relatively upright posture with weight distributed or forward
 - Sufficient distance closed to allow leg contact for the reaping action
@@ -217,6 +221,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ouchi Gari step by step?</p>
 
 1. **Establish dominant grips**: Secure a high collar grip with your right hand (on opponent's left lapel or behind their neck in no-gi) and a sleeve grip with your left hand on their right arm. In no-gi, establish an overhook or underhook position. These grips provide the control necessary to break posture and prevent escape.
 2. **Break opponent's posture**: Pull down and backward with your collar grip while pushing or pulling with your sleeve grip to bend opponent forward and break their upright posture. Their weight should shift slightly backward onto their heels. This postural break is critical—without it, they maintain balance too easily.
@@ -246,6 +252,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ouchi Gari?</p>
+
 - **Opponent steps back with attacked leg to avoid the reap** (Effectiveness: High) - Your Response: Follow their backward step and chain into Kouchi Gari (minor inner reap) on the same leg, or switch to Kosoto Gari attacking their other leg. Alternatively, use their backward movement to enter for a different forward throw like Seoi Nage. → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls and creates distance by pushing hips back** (Effectiveness: High) - Your Response: If they sprawl early, switch to a front headlock position or snap them down to a turtle position. If already committed to the throw, maintain your reaping leg behind theirs and drive harder forward, turning the technique into more of a trip than a sweep. → Leads to [[Positions/Standing Position]]
 - **Opponent bases out with their free leg and posts hand to prevent fall** (Effectiveness: Medium) - Your Response: Transition to a different attack on the posted leg (such as a single leg) or continue driving through the original technique with increased forward pressure. You can also release and immediately re-attack with a combination. → Leads to [[Positions/Standing Position]]
@@ -258,6 +266,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ouchi Gari?</p>
 
 ### 1. Attempting the throw from too far away without proper entry step
 
@@ -302,6 +312,8 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ouchi Gari (Attacker)?</p>
+
 **Phase 1: Static Drilling (Weeks 1-2)** - Proper mechanics and body positioning without resistance
 Practice the entry step, grip establishment, and reaping motion with a compliant partner. Focus on foot placement, hip positioning, and coordinating upper body pull with leg sweep. Partner should allow themselves to be thrown gently to build muscle memory for the thrower. Emphasize the feeling of proper distance, posture breaking, and the reaping arc.
 
@@ -325,48 +337,12 @@ Full sparring rounds that start standing and continue on the ground. Score taked
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary direction of off-balancing in Ouchi Gari?
-**A**: The primary direction of off-balancing in Ouchi Gari is to the rear corner—backward and slightly to the side of opponent's supporting leg. This breaks their base by removing weight from the leg you're about to reap while making it difficult for them to step back with that leg to recover. The off-balancing is achieved through pulling down and back with the collar grip while the leg reap simultaneously removes their support.
-
-**Q2**: Which leg reaps which leg in standard Ouchi Gari, and why is this important?
-**A**: In Ouchi Gari, you use your inside leg to reap opponent's corresponding leg—right leg to their right leg from the inside position. This is critical because it defines the technique (using the outside leg would make it Osoto Gari instead). The inside position allows you to attack while maintaining better balance on your supporting leg and creates a more powerful sweeping arc. Getting this wrong fundamentally changes the mechanics and effectiveness of the throw.
-
-**Q3**: How should you coordinate your upper body action with your reaping leg to maximize effectiveness?
-**A**: The upper body and reaping leg must work in perfect synchronization. As your leg sweeps backward through opponent's leg, you simultaneously pull down and toward you with your collar grip while driving your chest forward and down into theirs. This creates opposing forces—their upper body is being pulled/driven down and back while their leg is swept out from under them. Without this coordination, the technique becomes only a leg attack that can be easily resisted. Think of it as 50% leg sweep and 50% upper body pull/drive.
-
-**Q4**: What is the most effective combination when opponent steps back to defend Ouchi Gari?
-**A**: The most effective combination is transitioning to Kouchi Gari (minor inner reap) on the same leg they're stepping back with. As they pull their leg back to avoid the major inner reap, they're typically in mid-step or shifting weight to that leg, making them vulnerable to the minor inner reap. This combination (Ouchi Gari to Kouchi Gari) is one of judo's fundamental attacking sequences because the defensive movement against the first technique sets up the second perfectly. Other options include switching to Osoto Gari if they circle, or entering for a front headlock if they sprawl.
-
-**Q5**: How does the execution of Ouchi Gari differ between gi and no-gi, and what adjustments must be made?
-**A**: In gi, Ouchi Gari benefits from traditional collar and sleeve grips that provide powerful leverage for posture breaking and control through the throw. In no-gi, you must adapt to collar ties, underhooks, or overhooks which provide less direct control over opponent's posture. The no-gi version typically requires getting closer to opponent's body, using more body-to-body pressure, and often emphasizes the underhook position. The reaping action itself remains similar, but the setup and grip fighting change significantly. No-gi practitioners often combine Ouchi Gari with wrestling techniques like snap downs or front headlocks more naturally than gi practitioners would.
-
-**Q6**: Describe the optimal timing window for executing Ouchi Gari and how to recognize it during live grappling?
-**A**: The optimal timing for Ouchi Gari occurs when opponent either: (1) steps forward with their lead leg, momentarily committing weight to it before establishing base, (2) stands with weight distributed evenly between both legs without active movement, making them vulnerable to the off-balancing, or (3) responds to your grip fighting by pulling back slightly, loading their weight onto their heels. You recognize these moments through feeling their weight distribution through your grips and observing their foot positioning. Advanced practitioners can create the timing by using feints and grip fighting to provoke the desired response. The key is attacking during weight transfer or static positioning—not when opponent is actively moving away or laterally circling.
-
-**Q7**: What are the key differences in how Ouchi Gari is finished in judo versus BJJ, and why do these differences exist?
-**A**: In judo, Ouchi Gari is finished with emphasis on making opponent land flat on their back with force and control (ippon), often requiring the thrower to maintain upright posture throughout and create a clean throwing motion. In BJJ, the finish prioritizes landing in a dominant position like side control, so the thrower typically follows opponent to the ground more aggressively, sometimes even sacrificing perfect throwing form to ensure they achieve top position. BJJ practitioners are less concerned with the aesthetics of the throw and more focused on the positional outcome. This reflects the different scoring systems and objectives—judo values the throw itself as potentially match-ending, while BJJ treats it as a means to achieve positional dominance for continued grappling.
-
-**Q8**: Your opponent posts their hand on the mat as they feel the Ouchi Gari taking effect - how do you adjust your execution?
-**A**: When the opponent posts their hand, they are attempting to create a tripod base to prevent the full throw. You should immediately increase your forward driving pressure through your grips while maintaining the reaping action on their leg. The posted hand means their weight is now distributed across three points instead of two, but the reaping leg is still compromised. Drive your chest weight over their posted arm to collapse it, or transition to attacking the posted arm side by switching to a single leg pickup on the leg nearest the posting hand. The post also exposes them to a potential wrist or arm attack if you can isolate it while maintaining forward pressure.
-
-**Q9**: You attempt Ouchi Gari but your opponent successfully sprawls and your reaping leg is now behind their leg without completing the throw - what are your immediate options?
-**A**: With your leg still behind theirs after a failed reap, you have several options depending on their position. If they sprawled but you maintained grips, convert the position into a trip by driving forward and using your leg as a block while pulling them over it. If they have created significant distance, withdraw your reaping leg and secure a front headlock by snapping their head down, which opens paths to guillotine, anaconda, or darce entries. A third option is to immediately re-attack by pulling your leg back and switching to a different throw like Osoto Gari on the opposite leg while they are still recovering from the sprawl. The worst option is staying committed to the original Ouchi Gari—once the sprawl is established, the original attack vector is dead.
-
-**Q10**: What grip configuration gives you the strongest mechanical advantage for Ouchi Gari in the gi, and why?
-**A**: The strongest configuration is a high collar grip (behind the neck on the gi collar) with your dominant hand combined with a sleeve grip at the elbow or wrist with your other hand. The high collar grip provides maximum leverage for breaking posture backward and downward—the higher the grip, the greater the moment arm for kuzushi. The sleeve grip controls the opponent's ability to post or frame defensively. This combination allows you to pull their head and shoulders down and to the rear corner while simultaneously controlling their arm to prevent defensive posting. A double lapel grip can also work but provides less lateral control. The underhook can substitute in scramble situations but does not give the same precision of directional control as collar and sleeve.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ouchi Gari?</p>
 
 When training Ouchi Gari, controlled execution is paramount to prevent injury to both partners. The person being thrown should practice proper ukemi (breakfall techniques) before drilling this technique extensively, as improper landing can result in head injury or impact trauma. Start all drilling at slow speed with cooperative partners and gradually increase intensity only as both partners become comfortable with the mechanics. The thrower must be prepared to support their partner's weight and control the descent to the mat, especially during initial learning phases. In live training, be mindful of the training surface—always practice takedowns on proper grappling mats, never on hard surfaces. When defending against Ouchi Gari, avoid posting with a straight arm to break your fall, as this can lead to shoulder, elbow, or wrist injury; instead, use proper breakfall techniques. Communication between training partners is essential, particularly when one partner is learning or when fatigue sets in. Both practitioners should agree on the intensity level before each round and should not hesitate to tap or verbally signal if they feel unsafe during the technique's execution or landing.
 

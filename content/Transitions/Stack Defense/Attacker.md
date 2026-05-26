@@ -188,6 +188,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Defense?</p>
+
 - Establish frames early before opponent achieves full stacking position to maintain space
 - Maintain active hip mobility to prevent complete spinal compression and preserve escape options
 - Use lateral angle creation rather than linear backward movement to escape stacking pressure
@@ -203,6 +205,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Defense?</p>
+
 - Opponent initiating stack pass by driving knees toward shoulders with forward pressure
 - Guard position established where legs are still engaged around or near opponent's body
 - Recognition of stacking pressure beginning to compress spine before full consolidation
@@ -216,6 +220,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Defense step by step?</p>
 
 1. **Recognize stack initiation**: As opponent begins driving your knees toward your shoulders to initiate the stack pass, immediately recognize the threat through the characteristic forward pressure that aims to fold your body and compress your spine. Feel for the weight shifting onto your legs and the increasing pressure on your lower back. This early recognition is critical for timely defensive response before the stack becomes fully established and your options narrow.
 2. **Establish primary frames**: Create strong frames using both hands against opponent's hips, shoulders, or biceps to prevent them from achieving full stacking position. Push your palms into their hip bones or cup your hands over their shoulders, creating maximum distance between your torso and theirs. Keep your elbows slightly bent to maintain structural integrity rather than locking out, which can be collapsed. These frames are your first line of defense against the crushing pressure of the stack.
@@ -247,6 +253,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Defense?</p>
+
 - **Opponent switches to knee cut pass when you create angle** (Effectiveness: High) - Your Response: Anticipate the direction change and immediately establish knee shield or butterfly hook on the side they are cutting to. Use your frames to redirect their momentum laterally and recover full guard structure or initiate a sweep from the new angle. → Leads to [[Positions/Half Guard]]
 - **Opponent maintains forward pressure despite frames, crushing through with weight** (Effectiveness: Medium) - Your Response: Combine frames with explosive bridging motion to create momentary space, then immediately shrimp hard to the side while using frames to maintain the gap created. Multiple smaller escapes are often more effective than one large movement against heavy pressure. → Leads to [[Positions/Side Control]]
 - **Opponent grabs your pants or ankles to prevent hip escape** (Effectiveness: High) - Your Response: If legs are controlled, focus on upper body frames and use granby roll or shoulder roll to invert and create a completely different angle, making their grips ineffective and forcing them to abandon the stack pass entirely. → Leads to [[Positions/Side Control]]
@@ -258,6 +266,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Defense?</p>
 
 ### 1. Waiting too long to establish frames, allowing opponent to achieve full stacking position
 
@@ -302,6 +312,8 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Defense (Attacker)?</p>
+
 **Week 1-2: Frame Recognition and Positioning** - Developing sensitivity to stack pass initiation and establishing proper defensive frames
 Partner drills where opponent slowly initiates stack pass and you practice recognizing the pressure immediately and establishing frames on hips, shoulders, and biceps. Focus on hand placement, arm extension angles, and creating maximum distance between torsos. Practice identifying optimal frame positions for different body types and stack pass variations.
 
@@ -322,48 +334,12 @@ Live rolling with emphasis on stack pass defense, where you start in guard and p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing element for successful stack defense?
-**A**: The most critical timing element is recognizing the stack pass initiation immediately, as soon as you feel forward driving pressure toward your shoulders, and establishing defensive frames before the opponent achieves full stacking position. Once the stack is fully consolidated with your spine compressed, defense becomes exponentially more difficult and risky. Early recognition allows you to implement frames, hip escapes, and angle creation while you still have mobility, rather than trying to create space from a fully compromised position.
-
-**Q2**: Why is hip escape angle more important than hip escape distance in stack defense?
-**A**: Hip escape angle is more important than distance because moving perpendicular (45-90 degrees) to the opponent's forward pressure creates a mechanical disadvantage for them that linear backward movement cannot achieve. When you escape straight back, the opponent can simply follow your movement maintaining their stacking pressure. However, when you create a lateral angle, they must change their entire body orientation to follow, which breaks their pressure structure and gives you time to recover guard position. A small angled escape is more effective than a large linear one.
-
-**Q3**: Your opponent secures double underhooks and begins stacking you hard. Your hips are already elevated. What is your immediate sequence of actions?
-**A**: First, cup both hands over their shoulders and push to prevent them from driving deeper into the stack. Second, use your core to turn your hips 45 degrees to one side while pushing against their shoulder on that same side. Third, as the angle opens, insert your bottom knee as a shield between your bodies. Fourth, continue shrimping to recover full guard position or transition to half guard with the knee shield already in place. The double underhook stack requires addressing the shoulder pressure first before hip escaping because their underhooks prevent simple frame-on-hip defense.
-
-**Q4**: What are the three primary frame positions against a stack pass and when would you use each?
-**A**: The three primary frame positions are: (1) Hands on opponent's hips, used when the stack is just initiating to create maximum distance and prevent them from getting close to your upper body; (2) Hands cupped over opponent's shoulders, used when they have closed distance but have not yet driven you fully into the stack, providing strong structural frames that are hard to collapse; (3) Hands posted on their biceps, used when they are driving very hard and you need to redirect their pressure to the side rather than absorb it directly. The choice depends on how far the stack has progressed and where their weight is distributed.
-
-**Q5**: How should you coordinate upper body frames with lower body hip escape mechanics?
-**A**: Effective coordination requires establishing frames first to create initial space, then executing hip escape movements while actively maintaining those frames to keep the space open. The frames push the opponent's upper body away, creating a gap between torsos, while simultaneously your hips shrimp to the side, moving your lower body into that newly created space. Think of it as a push-pull mechanic: frames push their torso away while hip escape pulls your body laterally into the space. If you lose frame pressure during the hip escape, the opponent's weight crashes back down and negates your movement.
-
-**Q6**: Your opponent grabs both your ankles during a stack pass attempt, preventing hip escape. What alternative escape do you use?
-**A**: When both ankles are controlled, transition to a granby roll (shoulder roll) by tucking your chin, rolling over one shoulder, and inverting to create a completely different plane of movement. The rotational momentum breaks their grip structure because hands cannot maintain strong grips on an object rotating away from them. Even if they maintain partial grips, the radical angle change eliminates all their passing momentum and forces a complete reset. After the inversion, immediately re-face your opponent and establish guard from the new angle.
-
-**Q7**: Why is it essential to transition immediately to offense after successfully defending a stack pass?
-**A**: Transitioning immediately to offense is essential because remaining passive after a successful defense allows the opponent to simply re-initiate the same passing sequence or switch to an alternative pass, keeping you in a perpetual defensive cycle that drains energy. By attacking immediately with sweeps or submissions, you punish their failed pass attempt, force them to defend, and create the psychological pressure that makes them more hesitant on subsequent attempts. The moment after a defended pass is when the opponent is most vulnerable, as they are often off-balance and have not yet reset their defensive posture.
-
-**Q8**: Your opponent begins a stack pass but then switches to a leg drag as you hip escape to the right. How do you adjust your defense?
-**A**: As soon as you feel the directional change from stacking pressure to lateral leg drag control, immediately establish a reverse De La Riva hook with your right foot on their far hip to prevent them from consolidating the drag. Simultaneously, use your left hand to frame on their near-side knee or hip to create distance. If they have already secured the drag, turn into them by posting your left hand and coming up to your knees to face them, preventing the back exposure that makes leg drags dangerous. The key is recognizing the transition point between stack and drag, which occurs when their pressure shifts from forward to lateral.
-
-**Q9**: What is the optimal knee shield insertion point during stack defense recovery?
-**A**: The optimal insertion point for the knee shield is across the opponent's hip line, with your shin angled diagonally from their far hip to their near shoulder. Insert the knee as your hip escape creates the first meaningful gap between your bodies, using the momentum of your shrimp to drive the knee into position. The knee shield should be placed before attempting to fully re-establish guard, as it creates a structural barrier that prevents the opponent from re-collapsing the distance even if your frames momentarily weaken. A knee shield placed too high (across chest) gets easily smashed, while one too low (across thighs) does not prevent upper body pressure.
-
-**Q10**: How does stack defense differ between gi and no-gi, and what adjustments are necessary?
-**A**: In gi, the opponent can use collar and pant grips to maintain the stack, making grip breaking an additional prerequisite before hip escape. However, you can use their lapel or sleeve for lasso guard recovery, creating mechanical barriers. In no-gi, the opponent cannot grip fabric, making their stack less stable but harder to control with frames because skin is slippery. Focus more on overhook and underhook control rather than collar frames. Hip escapes become more effective in no-gi because without gi grips the opponent has fewer anchoring options, but you must be faster because they can also transition between passes more fluidly without grip entanglements.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Defense?</p>
 
 Stack defense requires careful attention to spinal safety, particularly protecting the cervical spine from excessive compression. Never allow your neck to bear the full weight of the opponent's stack. If you feel intense pressure on your neck vertebrae, immediately tap or use explosive bridging to create emergency space. When drilling stack defense, partners must apply progressive resistance rather than full power, as the stacked position can cause serious neck injury if weight is applied suddenly or without control. Practitioners with pre-existing neck, upper back, or shoulder injuries should consult with medical professionals before training this defensive sequence and should consider using the granby roll variation which reduces spinal compression. Always communicate clearly with training partners about pressure levels, and establish a verbal signal such as 'ease up' to indicate when pressure is approaching unsafe levels before a formal tap becomes necessary.
 

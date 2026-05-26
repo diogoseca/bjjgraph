@@ -105,7 +105,7 @@ def classify_technique(name):
 def build_transition_index():
     """Build map: transition_name -> file_path from all transition JSON files."""
     index = {}
-    for path in sorted(TRANSITIONS_PATH.glob("*.json")):
+    for path in sorted(TRANSITIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if not data:
             continue
@@ -185,7 +185,7 @@ def build_reachable_positions(position_names):
     reachable.add("Standing Position")
 
     # Scan all transition outcomes
-    for path in sorted(TRANSITIONS_PATH.glob("*.json")):
+    for path in sorted(TRANSITIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if not data:
             continue
@@ -195,7 +195,7 @@ def build_reachable_positions(position_names):
                 reachable.add(to_pos)
 
     # Scan all submission outcomes
-    for path in sorted(SUBMISSIONS_PATH.glob("*.json")):
+    for path in sorted(SUBMISSIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if not data:
             continue
@@ -206,7 +206,7 @@ def build_reachable_positions(position_names):
 
     # Also check from_position fields (positions that have outgoing transitions)
     for cat_path in [TRANSITIONS_PATH, SUBMISSIONS_PATH]:
-        for path in sorted(cat_path.glob("*.json")):
+        for path in sorted(cat_path.rglob("*.json")):
             data = load_json(path)
             if not data:
                 continue
@@ -420,7 +420,7 @@ def check_targets_outcome_consistency():
     issues = []
 
     for cat_path, cat_name in [(TRANSITIONS_PATH, "Transitions"), (SUBMISSIONS_PATH, "Submissions")]:
-        for path in sorted(cat_path.glob("*.json")):
+        for path in sorted(cat_path.rglob("*.json")):
             data = load_json(path)
             if not data or 'attacker' not in data or 'defender' not in data:
                 continue
@@ -497,7 +497,7 @@ def check_minimum_connectivity(position_names, transition_index):
 
     # Count incoming connections from transition and submission outcomes
     for cat_path in [TRANSITIONS_PATH, SUBMISSIONS_PATH]:
-        for path in sorted(cat_path.glob("*.json")):
+        for path in sorted(cat_path.rglob("*.json")):
             data = load_json(path)
             if not data:
                 continue
@@ -527,7 +527,7 @@ def check_from_position_validity(position_names):
     issues = []
 
     for cat_path, cat_name in [(TRANSITIONS_PATH, "Transition"), (SUBMISSIONS_PATH, "Submission")]:
-        for path in sorted(cat_path.glob("*.json")):
+        for path in sorted(cat_path.rglob("*.json")):
             data = load_json(path)
             if not data:
                 continue
@@ -549,6 +549,95 @@ def check_from_position_validity(position_names):
                     "from_position": from_pos,
                     "message": f"{cat_name} '{name}': from_position '{from_pos}' references unknown position '{base_pos}'",
                 })
+
+    return issues
+
+
+def check_from_position_bidirectional(position_names):
+    """Validate bidirectional consistency between position refs and technique from_position.
+
+    For each position → technique reference, checks if the technique's from_position
+    matches the referencing position. Only flags single-ref mismatches as errors;
+    multi-ref generics are acceptable (INFO).
+    """
+    issues = []
+
+    # Build position reference map: technique_name -> [(position, role, file)]
+    ref_map = defaultdict(list)
+    for path in sorted(POSITIONS_PATH.rglob("*.json")):
+        data = load_json(path)
+        if not data:
+            continue
+        pos_name = data.get("name", path.stem)
+        for role in ("top", "bottom"):
+            role_data = data.get(role)
+            if not role_data:
+                continue
+            for entry in role_data.get("transitions", []):
+                t_name = entry.get("transition", "")
+                if t_name:
+                    ref_map[t_name].append({
+                        "position": pos_name,
+                        "role": role,
+                        "expected_from": f"{pos_name}/{role.capitalize()}",
+                        "file": str(path),
+                    })
+
+    # Build technique from_position index
+    tech_from = {}
+    for cat_path in (TRANSITIONS_PATH, SUBMISSIONS_PATH):
+        for path in sorted(cat_path.rglob("*.json")):
+            data = load_json(path)
+            if not data:
+                continue
+            name = data.get("name", path.stem)
+            from_pos = data.get("from_position", "")
+            if name not in tech_from:  # transitions take priority over submissions
+                tech_from[name] = {"from_position": from_pos, "file": str(path)}
+
+    # Check all technique names that also exist as position-specific variants
+    all_tech_names = set(tech_from.keys())
+
+    for tech_name, refs in ref_map.items():
+        if tech_name not in tech_from:
+            continue
+        actual_from = tech_from[tech_name]["from_position"]
+        if not actual_from:
+            continue
+
+        for ref in refs:
+            expected = ref["expected_from"]
+            if actual_from.strip().lower() == expected.strip().lower():
+                continue  # match
+
+            # Mismatch found — determine severity
+            is_single_ref = len(refs) == 1
+
+            # Check if a position-specific variant exists
+            variant_name = f"{tech_name} from {ref['position']}"
+            has_variant = variant_name in all_tech_names
+
+            if is_single_ref:
+                severity = "error"
+                msg = (f"Single-ref mismatch: '{tech_name}' referenced by "
+                       f"{ref['position']}/{ref['role']} but from_position is '{actual_from}'")
+            elif has_variant:
+                severity = "warning"
+                msg = (f"Use specific variant: '{ref['position']}/{ref['role']}' references "
+                       f"'{tech_name}' but '{variant_name}' exists")
+            else:
+                continue  # multi-ref generic, acceptable
+
+            issues.append({
+                "type": "from_position_mismatch",
+                "severity": severity,
+                "name": tech_name,
+                "file": tech_from[tech_name]["file"],
+                "expected_from": expected,
+                "actual_from": actual_from,
+                "referencing_position": ref["file"],
+                "message": msg,
+            })
 
     return issues
 
@@ -661,7 +750,7 @@ def main():
                         help="Only report error-severity issues (suppress warnings/info)")
     args = parser.parse_args()
 
-    total_steps = 12
+    total_steps = 13
     print("=" * 70)
     print("BJJ GRAPH INTEGRITY AUDIT")
     print("=" * 70)
@@ -679,7 +768,7 @@ def main():
 
     # Step 2b: Build submission file index
     submission_index = {}
-    for path in sorted(SUBMISSIONS_PATH.glob("*.json")):
+    for path in sorted(SUBMISSIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if data and data.get("name"):
             submission_index[data["name"]] = str(path)
@@ -740,8 +829,15 @@ def main():
     # Step 11b: Auto-suggest fixes for orphaned transitions
     orphan_suggestions = suggest_fixes_for_orphans(orphaned, transition_index, position_files)
 
-    # Step 12: Summary
-    print(f"[12/{total_steps}] Compiling report...")
+    # Step 12: Bidirectional from_position consistency
+    print(f"[12/{total_steps}] Checking bidirectional from_position consistency...")
+    bidir_issues = check_from_position_bidirectional(position_names)
+    bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
+    bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
+    print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")
+
+    # Step 13: Summary
+    print(f"[13/{total_steps}] Compiling report...")
 
     # === Collect all issues with severity ===
     all_issues = []
@@ -810,6 +906,9 @@ def main():
 
     # from_position validation issues (error)
     all_issues.extend(from_pos_issues)
+
+    # Bidirectional from_position consistency (error/warning)
+    all_issues.extend(bidir_issues)
 
     # Outcome issues (mixed severity)
     all_issues.extend(outcome_issues)

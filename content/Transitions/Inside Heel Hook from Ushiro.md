@@ -39,7 +39,7 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Inside Heel Hook]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 

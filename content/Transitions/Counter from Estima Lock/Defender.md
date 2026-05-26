@@ -154,13 +154,15 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
 
 Defending against the Counter from Estima Lock means maintaining your submission control when your opponent initiates a systematic escape from the bottom Estima Lock position. As the practitioner holding the Estima Lock, your defensive priority is recognizing early escape indicators such as counter-rotation, frame establishment, and free leg activation, then responding with appropriate adjustments to maintain grip integrity, positional pressure, and submission threat. When the primary lock becomes compromised, transitioning to alternative attacks or positional advancement preserves offensive momentum rather than wasting energy forcing an ineffective submission. The defender must balance between finishing the submission and maintaining positional control, choosing the option that offers the highest probability of success based on the current state of the exchange.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Counter from Estima Lock?</p>
 
 - Opponent begins turning their foot outward, counter-rotating against the inverted position to relieve ankle and Achilles tendon pressure
 - Opponent places hands on your hips or torso, establishing structural frames designed to generate pushing distance and prevent consolidation
@@ -173,6 +175,8 @@ Defending against the Counter from Estima Lock means maintaining your submission
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter from Estima Lock?</p>
 
 - Maintain two-handed grip control throughout all escape attempts, never releasing one hand to chase secondary control points
 - Follow the opponent's hip movement with your own body position to prevent space creation and maintain hip-to-calf fulcrum contact
@@ -187,17 +191,19 @@ Defending against the Counter from Estima Lock means maintaining your submission
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Counter from Estima Lock?</p>
+
 ### 1. Re-tighten grip and increase rotational pressure while driving hips forward
 
 - **When to use**: When opponent begins counter-rotation but has not yet established frames or activated free leg
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Opponent's escape attempt fails and submission pressure deepens toward tap
 - **Risk**: Over-committing to rotation may allow opponent to use momentum for a rolling counter escape
 
 ### 2. Follow hip escape movement and re-establish hip-to-calf contact by adjusting body position
 
 - **When to use**: When opponent hip escapes to create space but your grip remains intact
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Space creation is negated and lock control is maintained with renewed fulcrum contact
 - **Risk**: Chasing movement may compromise your own base stability and create opportunities for sweep
 
@@ -211,7 +217,7 @@ Defending against the Counter from Estima Lock means maintaining your submission
 ### 4. Transition to toe hold grip when opponent's counter-rotation exposes metatarsals
 
 - **When to use**: When opponent's counter-rotation changes the foot angle to expose toe hold opportunity
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: New submission threat forces opponent to address different defensive angle, resetting their escape progress
 - **Risk**: Grip transition creates momentary vulnerability where opponent may extract foot completely
 
@@ -223,7 +229,9 @@ Defending against the Counter from Estima Lock means maintaining your submission
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Estima Lock]]
+<p class="section-subtitle">What is the best outcome when defending Counter from Estima Lock?</p>
+
+### → [[Positions/Estima Lock Control]]
 
 Maintain tight figure-four grip, follow opponent's hip movement to prevent space creation, and gradually increase rotational pressure when counter-rotation weakens to force the tap
 
@@ -238,6 +246,8 @@ When grip is compromised beyond recovery, immediately release and drive forward 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter from Estima Lock?</p>
 
 ### 1. Releasing one hand to control opponent's free leg while maintaining lock with single hand
 
@@ -267,6 +277,8 @@ When grip is compromised beyond recovery, immediately release and drive forward 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter from Estima Lock?</p>
+
 **Phase 1: Grip Maintenance** - Maintaining figure-four grip under escape pressure
 Partner attempts counter-rotation and grip breaks at 40-50% resistance while you focus exclusively on maintaining tight figure-four grip and hip-to-calf contact. Build grip endurance and learn the feeling of proper grip structure under dynamic pressure without worrying about finishing the submission.
 
@@ -283,29 +295,6 @@ Positional sparring from established Estima Lock at full resistance. Practice th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is beginning to counter your Estima Lock?
-**A**: The earliest cues are counter-rotation of their trapped ankle with toes turning outward, hands moving to your hips to establish frames, and their free leg activating from a passive position to push against your body. Counter-rotation is usually the very first indicator because it is the instinctive protective response to rotational ankle pressure and occurs before any other escape action.
-
-**Q2**: Your opponent establishes strong frames on your hips and begins creating space—how do you maintain Estima Lock control?
-**A**: Follow their hip movement by adjusting your own body position to maintain hip-to-calf contact, which is the fulcrum for the lock's mechanical advantage. Increase rotational pressure gradually rather than trying to out-muscle their frames. If significant space has been created despite your adjustments, consider transitioning to a guard pass rather than forcing the submission from a compromised position.
-
-**Q3**: When should you abandon the Estima Lock and transition to a guard pass instead of continuing to fight for the submission?
-**A**: Transition when the opponent has successfully disrupted your grip configuration, created significant space through hip movement, and their free leg is actively preventing you from re-establishing control. Continuing to force a submission from a compromised position wastes energy and allows the opponent to complete their escape to open guard. Transitioning to a pass while you still have positional proximity preserves offensive momentum and scoring opportunity.
-
-**Q4**: Your opponent begins pulling their foot free after partially breaking your grip—what is the correct response to prevent complete extraction?
-**A**: Re-address the foot control immediately by clearing any defensive frames with your legs or free hand, closing the space gap by driving your hips forward toward their trapped leg, and re-establishing the figure-four grip before they can complete extraction. The key is recognizing partial extraction early and committing to either re-securing the grip or transitioning to a guard pass before the foot is completely free.
-
-**Q5**: How does releasing one hand to control the opponent's free leg typically compromise your Estima Lock position?
-**A**: Releasing one hand breaks the figure-four grip structure, which is the mechanical foundation of the Estima Lock's rotational pressure. A single-handed grip cannot generate sufficient torque to maintain a real submission threat, and the opponent can immediately exploit the weakened grip to extract their foot. The free leg should be managed through your body positioning and your own legs rather than sacrificing the hand control that makes the lock effective.
-
-
-
-</section>
 
 
 </main>

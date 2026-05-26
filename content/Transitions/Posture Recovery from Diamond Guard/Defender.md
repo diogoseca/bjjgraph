@@ -154,6 +154,8 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery from Diamond Guard?</p>
+
 - Top player spreads their knees wider and digs toes into the mat, indicating base establishment for a recovery attempt
 - You feel their free hand gripping your wrist or forearm on the head-controlling arm, signaling they are about to strip head control
 - Top player begins circling their head with chin rotating toward the overhook side, attempting to extract from head control
@@ -166,6 +168,8 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Recovery from Diamond Guard?</p>
 
 - Maintain constant downward pull through both the overhook and head control simultaneously — losing either control point triggers rapid posture recovery
 - Use heel pressure pulling into their lower back to reinforce upper body controls with lower body anchoring
@@ -181,6 +185,8 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery from Diamond Guard?</p>
 
 ### 1. Deepen head control by switching from neck grip to deep collar or crown-of-head cup when you feel them address your wrist
 
@@ -218,6 +224,8 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery from Diamond Guard?</p>
+
 ### → [[Positions/Closed Guard/Diamond Guard]]
 
 Maintain diamond frame by immediately reinforcing any control point the top player addresses. Switch head control grip to deeper position when they target your wrist. Increase leg squeeze when they drive hips back. Re-sink overhook when slack develops. Patient maintenance eventually exhausts the top player's recovery attempts.
@@ -233,6 +241,8 @@ When the top player commits to head circle or arm extraction, they create predic
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery from Diamond Guard?</p>
 
 ### 1. Maintaining passive diamond control without threatening submissions during recovery attempts
 
@@ -262,6 +272,8 @@ When the top player commits to head circle or arm extraction, they create predic
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery from Diamond Guard?</p>
+
 **Phase 1: Frame Maintenance** - Holding diamond guard under increasing posture recovery pressure
 Establish diamond guard and maintain it while partner attempts posture recovery at progressive resistance levels of 30%, 50%, and 70%. Focus on recognizing which control point is being targeted and reinforcing it. Track how long the diamond can be maintained at each resistance level. 2-minute rounds, 4 rounds per resistance level.
 
@@ -278,26 +290,6 @@ Positional sparring starting in diamond guard with full resistance from both pla
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is about to attempt posture recovery?
-**A**: The earliest cue is the top player spreading their knees wider and digging their toes into the mat. This base establishment precedes all grip fighting and indicates they are preparing to generate backward hip drive. Recognizing this base change gives you a 1-2 second head start to preemptively deepen your controls, increase leg squeeze, or threaten a submission that disrupts their preparation before the actual recovery sequence begins.
-
-**Q2**: When should you convert from diamond guard to a triangle attempt during the opponent's posture recovery?
-**A**: Convert to a triangle when the top player has successfully begun circling their head past your head control and their chin is rotating toward the overhook side. At this moment their head is in a predictable arc, their posture is partially recovering, and their neck is exposed on the non-overhook side. Release head control and swing your leg from the overhook side over their neck while they are mid-circle. Their own head movement carries them into the triangle path. Converting too early (before they commit to the circle) wastes the diamond position.
-
-**Q3**: How do you prevent the top player from successfully using a standing posture recovery variant?
-**A**: When you feel the top player posting a foot to stand, immediately uncross your ankles and transition to open guard hooks or climb to high guard. The standing recovery works because closed guard leg squeeze is less effective vertically. By transitioning to a guard system that controls their standing posture — such as sleeve and collar grips with feet on hips — you maintain offensive capability from the new position. Alternatively, time a hip bump sweep as they post one foot, exploiting the momentary balance compromise during the transition.
-
-**Q4**: Why does the diamond guard create an energy advantage for the bottom player and how do you exploit this?
-**A**: The diamond frame uses structural alignment and skeletal connection rather than muscular effort, so maintaining it costs minimal energy. The top player must actively fight two converging control points using significant muscular effort against a closed geometric structure. Exploit this by being patient and cycling through low-energy submission threats that force continued defensive responses. Each recovery attempt drains the top player's resources while your energy expenditure stays low. After 2-3 failed recovery attempts, the top player's grip fighting becomes weaker and submissions become higher percentage.
-
-
-
-</section>
 
 
 </main>

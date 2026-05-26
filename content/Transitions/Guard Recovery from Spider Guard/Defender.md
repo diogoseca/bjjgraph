@@ -162,6 +162,8 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Spider Guard?</p>
+
 - Bottom player transitions one hand from sleeve grip to your collar or lapel, indicating preparation for the pulling motion that closes distance
 - Bottom player's feet begin releasing from your biceps and retracting toward their body, signaling the start of the guard wrapping trajectory
 - Bottom player's hips shift toward you and their knees begin bending, indicating they are abandoning the extended spider position for close-range guard
@@ -172,6 +174,8 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Spider Guard?</p>
 
 - Modulate your distance based on the bottom player's guard recovery intent—do not drive forward into their pulling grip when they are trying to close guard
 - Strip or control the collar grip that serves as their primary pulling handle for guard closure before it can accelerate the transition
@@ -186,6 +190,8 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Spider Guard?</p>
 
 ### 1. Stand up and create maximum vertical distance when you feel the bottom player retracting their legs, denying the close range needed for guard closure around your torso
 
@@ -223,6 +229,8 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Spider Guard?</p>
+
 ### → [[Positions/Combat Base]]
 
 Drive a knee through the bottom player's centerline during the leg retraction gap, establishing combat base with passing grips before their legs can complete the guard wrap around your torso
@@ -238,6 +246,8 @@ Strip the collar grip and create distance by standing, resetting the engagement 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Spider Guard?</p>
 
 ### 1. Driving forward aggressively the moment spider grips break, walking directly into the bottom player's guard closure trap
 
@@ -262,6 +272,8 @@ Strip the collar grip and create distance by standing, resetting the engagement 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Spider Guard?</p>
+
 **Phase 1: Grip Strip and Distance Creation** - Removing the collar grip and standing to deny guard closure range
 Partner attempts guard closure from spider guard at 30% resistance while you practice stripping their collar grip and creating distance by standing. Focus on identifying the collar grip establishment as the trigger for your defensive response. Drill 20 repetitions.
 
@@ -278,29 +290,6 @@ Start each round in spider guard with you working to break grips and pass while 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it sometimes better to create distance rather than drive forward when the bottom player abandons spider guard for closed guard recovery?
-**A**: The bottom player's closed guard recovery relies on using your forward momentum as the energy source for pulling you into closure range. If you drive forward, you accelerate their recovery rather than preventing it. Creating distance denies the close range needed for guard closure and forces the bottom player to recompose an open guard at a range where your passing options are stronger. The exception is when you can drive a knee through their centerline before legs wrap, which converts forward drive into a passing opportunity.
-
-**Q2**: What is the significance of the leg retraction neutral zone during spider guard to closed guard recovery?
-**A**: The neutral zone is the brief period when the bottom player's legs have released from spider position but have not yet wrapped behind your back in closed guard. During this zone, their legs are not controlling you in either configuration, creating a window where you can advance a knee through their centerline, control their legs for passing, or create distance. This neutral zone is the top player's highest-percentage opportunity to prevent guard closure, and it is the same gap the bottom player tries to eliminate through the semicircular arc retraction.
-
-**Q3**: The bottom player has wrapped one leg behind your back during the guard closure attempt—how do you prevent the second leg from completing the closure?
-**A**: Control the second leg at the knee or ankle with your free hand, pushing it down toward the mat or redirecting it across your body. Simultaneously, drive your hip forward into the gap between their legs to prevent the second leg from meeting the first behind your back. If you can keep the second leg from wrapping, you can work to extract into half guard passing position or redirect into a leg drag. Once both legs lock behind your back, prevention shifts to immediate posture establishment inside closed guard.
-
-**Q4**: Your grip break has created distance but the bottom player begins retracting their legs for guard closure—should you advance forward or create more distance?
-**A**: Evaluate the bottom player's remaining grips before committing direction. If they still have a strong collar grip, advancing forward feeds directly into their pulling mechanism—they will use your forward momentum to accelerate guard closure. Instead, strip the collar grip first or create vertical distance by standing. However, if you can clearly drive a knee through their centerline before legs wrap, forward advancement into combat base is the correct choice. The critical factor is whether you can split their legs before they complete the wrapping arc.
-
-**Q5**: How do you prevent the bottom player from converting a failed closed guard recovery into an alternative guard like lasso or De La Riva?
-**A**: After denying closed guard closure, immediately control the bottom player's legs to prevent them from repositioning feet for alternative guard hooks. Grip their pants at the knee and push their legs toward the mat to flatten their hip mobility. If you see a foot threading toward your arm for lasso, strip it by circling your arm before the wrap completes. Maintain forward pressure to deny the space needed for guard recomposition. The window between failed closed guard recovery and alternative guard establishment is brief—you must capitalize by advancing your passing position immediately.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar from Clamp Guard?</p>
+
 - Wrist control is the bridge between clamp and armbar — never release the trapped wrist during the transition or the opponent will retract instantly
 - The leg swing must be explosive and committed — a slow or hesitant swing gives the opponent time to posture, duck under, or extract
 - Hip angle determines armbar quality — hips must arrive perpendicular to the opponent's shoulder to create proper hyperextension leverage
@@ -208,6 +210,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar from Clamp Guard?</p>
+
 - Secure C-clamp wrist grip on the trapped arm with your near hand, pulling the wrist toward your hip to lock the arm in position
 - Establish head or collar control with your far hand to break opponent's posture and prevent them from posturing during the transition
 - Angle hips 30-45 degrees toward the trapped arm side to pre-load the rotation needed for the armbar entry
@@ -220,6 +224,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar from Clamp Guard step by step?</p>
 
 1. **Secure wrist control**: Establish a firm C-clamp grip on the trapped wrist with your near hand, wrapping your thumb around the wrist and pulling it firmly toward your hip. This grip prevents the opponent from rotating their arm or retracting it during the upcoming transition and serves as your primary control throughout the entire sequence.
 2. **Break opponent's posture**: Use your far hand to grip behind the opponent's head, their collar, or their far shoulder and pull them forward and down. Their head should be driven below the level of their hips. Breaking posture eliminates their ability to resist the leg swing with postural strength and removes their free arm from an effective blocking position.
@@ -250,6 +256,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Armbar from Clamp Guard?</p>
+
 - **Opponent clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by wedging your forearm between their clasped hands and prying apart. Alternatively, transition to a triangle by shooting your outside leg under their chin, as their clasped hands remove one arm from defending the choke. You can also attack the kimura by controlling their wrist and rotating the trapped arm behind their back. → Leads to [[Positions/Clamp Guard]]
 - **Opponent stacks forward during or after the leg swing to compress your guard** (Effectiveness: Medium) - Your Response: Frame against their shoulder with your free hand and angle your body away from the stack. If stacking continues, transition to a triangle by swinging your leg over their head — their forward posture actually facilitates this entry. You can also underhook their far leg and sweep them over the top if their weight commits too far forward. → Leads to [[Positions/Clamp Guard]]
 - **Opponent explosively retracts arm during the leg swing transition window** (Effectiveness: High) - Your Response: If the arm is partially extracted, immediately re-establish clamp guard by clamping both legs back down on whatever portion of the arm remains accessible. If the arm is fully extracted, transition your legs to open guard frames on their hips and re-engage grip fighting to re-establish position rather than chasing the lost arm. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar from Clamp Guard?</p>
 
 ### 1. Releasing wrist control before the outside leg has fully cleared the opponent's head
 
@@ -300,6 +310,8 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar from Clamp Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated leg swing and hip positioning
 Practice the leg swing motion from established clamp guard with a fully cooperative partner. Focus on explosive hip turn, maintaining wrist grip throughout the swing, and arriving with hips perpendicular to the shoulder. Perform 20 repetitions per side with zero resistance, emphasizing technical precision and speed of the transition.
 
@@ -320,42 +332,12 @@ Positional sparring starting from clamp guard with full resistance. Score succes
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the armbar transition from clamp guard?
-**A**: The optimal moment is when the opponent pulls their trapped arm straight back in an extraction attempt. This rearward pull naturally extends their arm in the direction you need for the armbar, and their retraction effort means they are already committed to moving away from you. Their pulling force actually assists your transition by pre-extending the elbow. Initiating during a static moment or when the opponent is driving forward makes the transition significantly harder because you are working against their momentum rather than with it.
-
-**Q2**: What grip and body conditions must be established before attempting the armbar from clamp guard?
-**A**: Four conditions must exist simultaneously: a secure C-clamp wrist grip on the trapped hand pulling toward your hip, shin-on-bicep placement confirmed at the thickest part of the upper arm, opponent's posture broken with their head below hip level through collar or head control, and hips angled 30-45 degrees toward the trapped arm side to pre-load the rotational path. If any one of these conditions is missing, the transition success rate drops substantially and you should address the missing element before committing.
-
-**Q3**: What role does hip angle play in the transition from clamp to armbar control?
-**A**: Hip angle determines both the path of the leg swing and the quality of the final armbar position. A 30-45 degree pre-angle toward the trapped arm creates the rotational arc your outside leg needs to clear the opponent's head efficiently. Without this angle, the leg must travel a longer path, giving the opponent more time to react. After the swing, your hips must arrive perpendicular to the opponent's shoulder — this 90-degree alignment is what creates the fulcrum for hyperextension. Insufficient angle means reduced leverage and easier defense.
-
-**Q4**: What is the most common reason the armbar from clamp guard fails during the leg swing?
-**A**: The most common failure is releasing or loosening the wrist grip during the leg swing. The swing requires significant hip rotation and body movement, and many practitioners unconsciously relax their grip hand as their attention shifts to the leg motion. This creates a split-second window where the opponent can retract the arm through the opening. The correction is to consciously tighten the wrist grip at the moment of the swing, treating it as the anchor point that everything else rotates around.
-
-**Q5**: How should you manage wrist control during the transition from clamp to armbar?
-**A**: Your near hand maintains a C-clamp grip on the wrist throughout the entire transition without interruption. The thumb wraps around the wrist with fingers on the opposite side, and you pull the wrist toward your near hip continuously. As the leg swings over, the wrist pull actually accelerates the arm extension needed for armbar control. Once the leg clears the head, your far hand joins the wrist control, creating a two-handed grip that pulls toward your chest centerline. The grip transfer from one-hand to two-hands happens only after both legs are in position.
-
-**Q6**: In which direction should you drive your hips during the final phase of the armbar entry?
-**A**: Your hips drive upward toward the ceiling and inward toward the opponent's shoulder simultaneously. The upward vector creates the hyperextension pressure on the elbow joint, while the inward vector closes the gap between your hips and their shoulder to maximize leverage. Think of driving your pelvis toward the junction of their shoulder and neck. This combined vector ensures that your body weight and hip thrust translate directly into finishing pressure rather than pushing the opponent away or creating space.
-
-**Q7**: Your opponent begins stacking forward as you swing your leg over their head — how do you adjust?
-**A**: Post your free hand on their shoulder or chest to create a frame that absorbs the forward pressure and prevents your spine from being compressed. Angle your body slightly away from the stack rather than fighting it head-on. If the stack continues and you cannot complete the armbar, immediately transition to a triangle by allowing their forward momentum to carry their head past your leg, then lock your legs in triangle position. Their stacking posture actually facilitates the triangle entry because their head is already driving forward into the triangle space. Never fight a committed stack from the armbar position — redirect it into the chain attack instead.
-
-**Q8**: Your opponent successfully defends the armbar by clasping their hands together — what chain attack do you pursue?
-**A**: You have three primary options depending on their body position. First, attack the grip directly by inserting your wrist between their clasped hands and prying them apart using a figure-four grip break. Second, transition to a triangle by releasing one leg from armbar position and threading it under their chin while their clasped hands remove one arm from choke defense. Third, attack the kimura on the trapped arm by controlling their wrist and rotating their arm behind their back while maintaining leg control over their head. The triangle is generally highest percentage because the opponent has voluntarily removed one hand from neck defense to clasp the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar from Clamp Guard?</p>
 
 The armbar from clamp guard applies significant hyperextension force to the elbow joint. Always apply finishing pressure gradually in training, allowing your partner adequate time to recognize the danger and tap. Release immediately upon receiving any tap signal — verbal, physical, or foot tap. Be especially cautious during the transition phase, as the momentum of swinging the leg over can accelerate arm extension unexpectedly. Never apply explosive or jerking force to the elbow. When drilling, communicate with your partner about pressure levels and establish clear tap protocols before beginning.
 

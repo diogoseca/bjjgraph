@@ -198,6 +198,8 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle from Mount?</p>
+
 - Isolate one arm before attempting the leg swing—the triangle requires a clear arm-in, arm-out configuration to be effective
 - Maintain heavy chest pressure throughout the setup phase to prevent the opponent from creating defensive frames or generating hip movement
 - Use the posted leg of 3-4 Mount as the swinging leg—it already has mobility and the mounted knee stays as an anchor point during transition
@@ -212,6 +214,8 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle from Mount?</p>
+
 - Established 3-4 Mount with stable base and chest-to-chest pressure controlling the opponent's upper body
 - One of the opponent's arms isolated on the inside (between your body and theirs) while the other arm is on the outside—this arm-in, arm-out configuration is essential
 - The opponent's posture is broken with their shoulders flat on the mat and chin tucked or turned, preventing explosive bridging during the leg transition
@@ -224,6 +228,8 @@ At competition level, the mounted triangle is devastating because it combines po
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle from Mount step by step?</p>
 
 1. **Isolate the arm**: From 3-4 Mount, use cross-face pressure and wrist control to push one of the opponent's arms across their centerline while keeping the other arm trapped between your hip and their torso. The goal is a clear arm-in, arm-out separation where one arm is inside your triangle space and one is outside.
 2. **Secure wrist control**: Grip the wrist of the arm that will remain inside the triangle with your opposite hand, pinning it to the opponent's chest or the mat beside their head. This prevents them from withdrawing the arm during your leg transition and maintains the arm-in configuration.
@@ -254,6 +260,8 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle from Mount?</p>
+
 - **Opponent tucks both elbows tight and refuses to allow arm isolation, maintaining a compact defensive shell** (Effectiveness: High) - Your Response: Switch to Americana or Ezekiel choke attacks that force them to extend an arm, then capitalize on the arm-out reaction to re-enter the triangle setup → Leads to [[Positions/Mount/3-4 Mount]]
 - **Opponent bridges explosively during the leg transition when your base is momentarily compromised** (Effectiveness: High) - Your Response: Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to anchor. If the bridge is too powerful, abandon the triangle and resettle into mount rather than forcing a compromised position → Leads to [[Positions/Mount/3-4 Mount]]
 - **Opponent grabs your swinging leg with both hands to prevent it from clearing their shoulder** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip off your ankle while maintaining chest pressure. Alternatively, switch to an armbar on the arm that reached up to grab your leg, as they have exposed it by reaching high → Leads to [[Positions/Mount/3-4 Mount]]
@@ -265,6 +273,8 @@ At competition level, the mounted triangle is devastating because it combines po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle from Mount?</p>
 
 ### 1. Attempting the triangle without first isolating one arm inside and one arm outside
 
@@ -304,6 +314,8 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle from Mount (Attacker)?</p>
+
 **Week 1-2** - Arm isolation and leg mechanics
 Practice the arm isolation sequence and leg swing from 3-4 Mount against a stationary partner. Focus on establishing the arm-in, arm-out configuration, maintaining chest pressure during the leg transition, and locking the triangle immediately after the leg clears. Perform 20-30 repetitions per side with emphasis on smooth, continuous motion rather than speed.
 
@@ -321,48 +333,12 @@ Apply the triangle from mount in positional sparring starting from 3-4 Mount. Pa
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Triangle from Mount as a transition?
-**A**: The primary goal is to transition from 3-4 Mount into Mounted Triangle control—a position that combines the dominant top pressure of mount with the submission threat of triangle mechanics. This is a submission setup (Type B transition) that leads to a control position from which triangle choke finishes, armbars, and back takes become available. The mounted triangle is the hub position, not the finish itself.
-
-**Q2**: What arm configuration must exist before you attempt to swing your leg over the opponent's shoulder?
-**A**: You must have a clear arm-in, arm-out configuration: one of the opponent's arms trapped between your body and theirs (the arm that will stay inside the triangle), and the other arm pushed to the outside or across their body. Without this separation, both arms end up inside the triangle and the choking mechanism is eliminated. The arm isolation is the most critical setup element and should never be skipped.
-
-**Q3**: Your opponent is defending mount by keeping both elbows glued to their ribs. How do you create the arm isolation needed for the triangle entry?
-**A**: Attack with Americana or Ezekiel choke setups that force them to move their arms defensively. When they push against your chest to stop the Americana, one arm naturally extends outside while the other remains trapped. Alternatively, use cross-face pressure to force their head to turn, which typically opens one arm for isolation. The triangle entry comes from their defensive reaction to another attack, not from directly trying to separate their arms.
-
-**Q4**: Which leg should you swing over the opponent's shoulder from 3-4 Mount, and why?
-**A**: Swing the posted (outside) leg over the shoulder while keeping the mounted knee tight against the opponent's ribs as your anchor point. The posted leg already has freedom of movement since it is not bearing weight on the opponent's torso. Swinging the mounted leg instead removes your primary anchor, leaving no base on either side during the transition and making you extremely vulnerable to bridges and escapes.
-
-**Q5**: You have locked the triangle from mount but the opponent is not tapping. What is the most likely mechanical error?
-**A**: The most likely error is squeezing straight-on without adjusting your hip angle. A triangle locked with hips parallel to the opponent compresses the trachea (an airway choke that is painful but survivable) rather than the carotid arteries (a blood choke that causes unconsciousness). Rotate your hips 30-45 degrees perpendicular to the opponent so your inner thighs compress across both carotid arteries. Also ensure you are pulling the opponent's head down to eliminate defensive space.
-
-**Q6**: During the leg swing, your opponent bridges hard and you feel your base destabilizing. What should you do?
-**A**: Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to re-anchor. If the bridge is too powerful to maintain position, abandon the triangle attempt immediately and resettle into 3-4 Mount or side control. Forcing a compromised triangle entry against an active bridge is the most common way to lose mount entirely. It is always better to retain mount and restart the setup than to lose position chasing a half-locked triangle.
-
-**Q7**: What are the primary chain attacks available if the opponent successfully defends the triangle lock from mount?
-**A**: If the opponent defends the triangle by posturing or extracting the trapped arm, the three main chain attacks are: (1) armbar on the arm they extended to defend, since reaching up exposes the elbow; (2) back take if they turn away from the triangle side, exposing their back; (3) Americana or wrist lock on the isolated arm if they keep it trapped but prevent the leg from closing. The triangle attempt forces reactions that open these secondary attacks.
-
-**Q8**: How does the direction of force differ between a triangle applied from closed guard versus a triangle applied from mount?
-**A**: From closed guard, the attacker pulls the opponent's head down into the triangle using hip elevation and hamstring squeeze against gravity—the opponent can use posture and stacking to resist. From mount, gravity works in the attacker's favor: body weight drives the opponent flat while the triangle compresses laterally. The mounted attacker does not need to fight gravity to maintain head control, making the mounted triangle significantly harder to defend through posture alone. The primary defensive options shift from stacking and posture to frame creation and rolling escapes.
-
-**Q9**: What grip should you maintain on the trapped arm during the leg transition, and when can you release it?
-**A**: Maintain wrist or sleeve control with your opposite-side hand throughout the entire leg transition. Pin the wrist to the opponent's chest or to the mat beside their head to prevent them from withdrawing the arm during the transition window. Only release the grip after the triangle is fully locked—ankle hooked behind the opposite knee with knees squeezed together. At that point, the arm is mechanically trapped by the triangle structure and the grip can be redirected to head control for finishing.
-
-**Q10**: Your opponent grabs your swinging leg with both hands to prevent the triangle from locking. How do you exploit this defensive reaction?
-**A**: When the opponent reaches up with both hands to grab your leg, they have removed both arms from their defensive frame against your upper body and exposed both elbows. Immediately switch your attack to an armbar on whichever arm is most extended—typically the far arm that reached highest. The act of reaching for your leg while mounted creates the exact arm extension and postural compromise that makes armbar entries from mount high-percentage. This is a core chain-attack principle: the triangle threat creates armbar openings.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle from Mount?</p>
 
 Triangle from Mount involves significant neck compression and should be trained with careful communication between partners. The mounted triangle applies blood choke pressure to the carotid arteries, which can cause unconsciousness within seconds if the bottom player cannot or does not tap. Always apply the choke gradually during training and release immediately upon tap or verbal submission. The leg swing transition carries risk of knee collision with the opponent's face—control the speed of the swing during drilling. Bottom players should tap early when caught in mounted triangle, as the top player's weight makes the choke substantially tighter than guard triangles. Partners with cervical spine issues should avoid this technique or train with minimal finishing pressure. Never crank the neck laterally while in the triangle—the submission works through bilateral carotid compression, not neck torque.
 

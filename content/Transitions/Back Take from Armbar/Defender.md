@@ -27,7 +27,7 @@ description: "Learn to defend the back take from armbar position in BJJ. Recogni
     {
       "@type": "HowToStep",
       "name": "Explosive hip escape away from attacker during grip transition",
-      "text": "During the brief window when the attacker has released armbar grips but has not yet established seatbelt control, typically as they shift from wrist to shoulder grip If successful: You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on bottom",
+      "text": "During the brief window when the attacker has released armbar grips but has not yet established seatbelt control, typically as they shift from wrist to shoulder grip If successful: You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on top",
       "position": 2
     },
     {
@@ -92,6 +92,14 @@ description: "Learn to defend the back take from armbar position in BJJ. Recogni
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective position is a tight turtle with elbows pinched firmly to your hips, knees drawn close to your chest, and chin tucked. This creates a compact defensive shell that eliminates the space between your torso and thighs where the attacker needs to thread hooks. Combined with active hand fighting on any leg that attempts to enter, this position makes full back control establishment significantly more difficult for the attacker."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent has secured one hook but not the seatbelt - what is your best defensive response?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Focus on preventing the seatbelt establishment since that is the control point that will lock you into back control. Use both hands to fight the attacker's arms and prevent them from clasping hands at your chest. Simultaneously, address the single hook by trapping it with your legs or using one hand to strip it while the other maintains upper body defense. A single hook alone provides limited control, so denying the seatbelt keeps the position recoverable and prevents the attacker from consolidating full back control."
       }
     }
   ]
@@ -164,6 +172,8 @@ The transition window between armbar control and back control represents a brief
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Armbar?</p>
+
 - Attacker releases wrist control or shifts grip from your forearm to your far shoulder or collar
 - Attacker lifts or removes the leg that was positioned across your face and neck area
 - Weight distribution shifts from extension pressure on your arm to lateral movement toward your back
@@ -175,6 +185,8 @@ The transition window between armbar control and back control represents a brief
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Armbar?</p>
 
 - Recognize grip changes and weight shifts that signal the attacker is transitioning from armbar to back take
 - Control the depth of your own turning to defend the armbar without fully exposing your back
@@ -189,6 +201,8 @@ The transition window between armbar control and back control represents a brief
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Back Take from Armbar?</p>
+
 ### 1. Stop rotation and flatten back to mat to deny back access
 
 - **When to use**: As soon as you feel the attacker release the leg across your face and shift grip to your shoulder, indicating back take intent
@@ -200,7 +214,7 @@ The transition window between armbar control and back control represents a brief
 
 - **When to use**: During the brief window when the attacker has released armbar grips but has not yet established seatbelt control, typically as they shift from wrist to shoulder grip
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on bottom
+- **If successful**: You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on top
 - **Risk**: If mistimed or too slow, the attacker follows your hip escape and secures back control during your movement
 
 ### 3. Block hook insertion by pinching elbows to hips and turtling tight
@@ -225,9 +239,11 @@ The transition window between armbar control and back control represents a brief
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Armbar?</p>
+
 ### → [[Positions/Half Guard]]
 
-Time a powerful hip escape during the attacker's grip transition window when they have released armbar grips but have not yet established seatbelt control. Use the momentary gap in control to shrimp away forcefully, create distance, and recover to half guard top position where you have significantly better defensive and offensive options.
+Time a powerful hip escape during the attacker's grip transition window when they have released armbar grips but have not yet established seatbelt control. Use the momentary gap in control to shrimp away forcefully, create distance, and recover to half guard where you have significantly better defensive and offensive options.
 
 ### → [[Positions/Armbar Control]]
 
@@ -240,6 +256,8 @@ Recognize the back take attempt early through grip and weight changes, then imme
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Armbar?</p>
 
 ### 1. Continuing to turn aggressively when the attacker is already threading hooks
 
@@ -269,6 +287,8 @@ Recognize the back take attempt early through grip and weight changes, then imme
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Armbar?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from armbar to back take
 Partner alternates between finishing the armbar and transitioning to back take. Defender must verbally call out which attack is coming based on grip changes and weight shifts. No physical defense yet, purely recognition drilling to develop sensitivity to the transition indicators.
 
@@ -285,29 +305,6 @@ Positional sparring from armbar control. Defender must simultaneously manage arm
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable indicator that your opponent is transitioning from armbar to back take?
-**A**: The most reliable indicator is feeling the leg across your face lift or lighten combined with a grip change from your wrist or forearm to your far shoulder or collar. These two simultaneous changes indicate the attacker is abandoning the armbar finish in favor of positional transition. Weight distribution also shifts from perpendicular extension pressure to lateral movement tracking toward your back.
-
-**Q2**: During the back take transition, what should your primary defensive priority be?
-**A**: Your primary defensive priority shifts from arm protection to preventing hook insertion at your hips. Once the attacker abandons the armbar, your arm is no longer the primary target. Block hook insertion by pinching your elbows to your hips, keeping your knees tight, and preventing the attacker's legs from threading between your thighs. Denying hooks prevents full back control establishment.
-
-**Q3**: How can you use the grip transition window to improve your position?
-**A**: The grip transition window occurs when the attacker releases armbar grips but has not yet established seatbelt control. During this brief moment, execute an explosive hip escape away from the attacker to create distance. Because the attacker has neither armbar control nor back control during this window, your escape faces minimal resistance. A well-timed hip escape during this gap can recover you to half guard or even open guard.
-
-**Q4**: Why is it dangerous to continue turning once you recognize the back take attempt?
-**A**: Continuing to turn provides the exact rotational momentum the attacker needs to access your back. Your turning was originally appropriate for armbar defense, but once the attacker shifts to back take, your rotation directly assists their transition by exposing your spine and creating space for hook insertion. Stopping or reversing your rotation forces the attacker to generate all the positional change themselves, dramatically reducing their success rate.
-
-**Q5**: What body position best prevents successful hook insertion during the back take?
-**A**: The most effective position is a tight turtle with elbows pinched firmly to your hips, knees drawn close to your chest, and chin tucked. This creates a compact defensive shell that eliminates the space between your torso and thighs where the attacker needs to thread hooks. Combined with active hand fighting on any leg that attempts to enter, this position makes full back control establishment significantly more difficult for the attacker.
-
-
-
-</section>
 
 
 </main>

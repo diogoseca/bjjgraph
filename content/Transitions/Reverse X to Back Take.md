@@ -200,7 +200,7 @@ The Reverse X to Back Take fits into the modern leg entanglement guard system as
 
 - [[Positions/X-Guard]] - Related guard position with similar back take options through inversion mechanics
 
-- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from achieved back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission follow-up from achieved back control position
 
 - [[Transitions/Reverse X-Guard Sweep]] - Complementary attack that creates the defensive reaction enabling the back take
 

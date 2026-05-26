@@ -186,6 +186,8 @@ This technique has become increasingly important in high-level competition as le
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from 50-50?</p>
+
 - Release leg entanglement control only when upper body connection is secured to prevent opponent from escaping to neutral
 - Use opponent's defensive reactions to leg attacks as the trigger for back take initiation
 - Maintain constant forward pressure through the transition to prevent opponent from sitting up or turning to face you
@@ -200,6 +202,8 @@ This technique has become increasingly important in high-level competition as le
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from 50-50?</p>
+
 - Established 50-50 Guard top position with inside control and hip pressure advantage
 - Opponent has successfully defended heel hook by hiding their heel or establishing strong grip defense
 - Clear path to opponent's back without significant obstacles or frames blocking upper body access
@@ -212,6 +216,8 @@ This technique has become increasingly important in high-level competition as le
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from 50-50 step by step?</p>
 
 1. **Secure upper body connection**: While maintaining 50-50 position, reach your near-side arm over opponent's shoulder blade and begin establishing harness grip by threading under their far armpit. This initial connection must be secured before releasing any leg control.
 2. **Control near-side hip**: Use your far-side hand to control opponent's near-side hip, gripping their belt, pants, or hip bone directly. This prevents them from rotating toward you during the transition and creates an anchor point for your movement.
@@ -240,6 +246,8 @@ This technique has become increasingly important in high-level competition as le
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from 50-50?</p>
+
 - **Opponent turns into you as you release legs, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Anticipate the turn and continue circling in the same direction, using their momentum to accelerate your transition to their back rather than fighting the rotation → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent posts their far hand and sits up aggressively during transition window** (Effectiveness: Medium) - Your Response: Drive forward pressure through your chest and use your hip control grip to pull their hip toward you, collapsing their posting arm and flattening them → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent re-attacks your legs with heel hook attempt as you begin extracting** (Effectiveness: Medium) - Your Response: Only initiate extraction when your upper body control is secure enough to pull away; if they attack, abort the back take and return to 50-50 top to re-establish control → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -251,6 +259,8 @@ This technique has become increasingly important in high-level competition as le
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from 50-50?</p>
 
 ### 1. Releasing leg control before securing any upper body connection
 
@@ -285,6 +295,8 @@ This technique has become increasingly important in high-level competition as le
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from 50-50 (Attacker)?</p>
+
 **Week 1-2** - Movement pattern isolation
 Practice the leg extraction to back take motion without resistance. Focus on the timing of upper body connection before leg release. Partner remains static in 50-50 bottom. Drill 50 repetitions per training session to develop muscle memory.
 
@@ -302,51 +314,12 @@ Include back take attempts in live rolling from 50-50 positions. Track success r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Back Take from 50-50?
-**A**: The primary goal is to convert a neutral leg entanglement position where leg attacks are being successfully defended into the most dominant control position in BJJ. This bypasses the opponent's leg lock defense entirely and creates high-percentage submission opportunities from back control.
-
-**Q2**: What must be secured before releasing your leg control from the 50-50 position?
-**A**: Upper body connection must be established before releasing leg control. Specifically, you need to have your harness grip initiated (arm over shoulder and under armpit) and control of opponent's near-side hip. Without this connection, releasing legs allows opponent to escape to neutral or counter-attack.
-
-**Q3**: When is the optimal timing window to initiate the back take from 50-50?
-**A**: The optimal timing is when your opponent has committed to defending their heel from heel hook attacks - either by hiding their heel aggressively or by establishing strong grip defense. This defensive commitment typically opens their back by occupying their arms with leg defense and reducing their ability to turn or frame against your upper body approach.
-
-**Q4**: Your opponent starts turning into you as you extract your legs - how should you respond?
-**A**: Continue circling in the same direction they are turning rather than fighting their rotation. Use their momentum to accelerate your movement around their body. Their turn actually helps you reach their back faster if you flow with it. Maintain your upper body control throughout and keep driving forward pressure to prevent them from completing the turn to face you.
-
-**Q5**: Why is hip control critical during the back take transition?
-**A**: Hip control prevents your opponent from rotating to face you during the vulnerable transition window between releasing leg control and establishing back control. Without hip control, opponents can freely turn their hips toward you, recover guard, or create angles to escape. The hip grip also serves as an anchor point that accelerates your movement around their body.
-
-**Q6**: What distinguishes a successful back take attempt from a failed one at the decision point?
-**A**: A successful attempt requires that your upper body control is solid enough to maintain connection through the transition. If opponent has strong frames, active hand fighting, or hasn't committed to leg defense, the back take will likely fail. The decision point requires honest assessment: can you maintain connection while releasing legs? If uncertain, continue leg attacks or disengage to standing rather than attempting a low-percentage transition.
-
-**Q7**: How does the back take threat change the strategic dynamics of 50-50 exchanges?
-**A**: The back take creates a fundamental dilemma for opponents: aggressive heel defense (hiding heel, grip fighting on your hands) opens the back by occupying their arms and attention. Conversely, defending the back take by maintaining frames and readiness to turn exposes their heel. This forces opponents to choose which threat to prioritize, creating openings for whichever attack they defend less. Elite practitioners constantly threaten both to keep opponents defensive.
-
-**Q8**: What is the correct sequence priority: harness grip or hooks first?
-**A**: Harness grip must be prioritized before hooks. Upper body control through the harness serves as your anchor that makes everything else possible. Without the harness, hooks can be peeled easily. The correct sequence is: partial harness, leg extraction, complete harness, then hooks. Inserting hooks before harness security is a common error that results in losing back position when opponent strips the hooks.
-
-**Q9**: Your opponent posts their far hand and begins sitting up during your transition - what grip adjustment prevents this?
-**A**: Immediately use your hip control hand to pull their near-side hip toward you while driving your chest forward into their shoulder blade. This collapses their posting arm by removing the structural base underneath it. If they continue sitting up, switch your harness arm to a deep collar tie or front headlock to maintain head control, which prevents them from completing the sit-up and redirects their movement back toward the mat.
-
-**Q10**: What are the chain attack options if the direct back take is blocked but you have maintained upper body contact?
-**A**: If the direct back take stalls with upper body contact maintained, you have several chain options: transition to crab ride by threading your far leg over their hip for incremental control, drop back to re-engage the 50-50 and threaten heel hook again since their attention shifted to back defense, or if they turtle during defense, flow to spiral ride and complete the back take from turtle. The key is never releasing upper body connection while exploring these alternatives.
-
-**Q11**: What direction of force should you apply through your chest during the circling phase of the transition?
-**A**: Force should be applied diagonally forward and downward through your chest into opponent's shoulder blade, driving them flat to the mat while you rotate around their body. This is not a straight push but a spiraling pressure that keeps them pinned while you advance your angle. If you push purely forward, they can frame and resist; the downward component removes their ability to post and sit up, while the rotational component accelerates your movement toward their back.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from 50-50?</p>
 
 The Back Take from 50-50 is generally a low-injury-risk technique when practiced with proper awareness. The primary safety concern occurs during the transition phase: if you attempt the back take while an active heel hook is being applied to your leg, you risk significant knee damage by pulling against the submission. Always ensure your own legs are safe before initiating the transition. During drilling, partners should communicate clearly about resistance levels and avoid explosive movements during the learning phase. The transition involves rapid position change, so be aware of training area boundaries to prevent rolling into other practitioners or obstacles. When training the technique at higher intensities, maintain awareness of your partner's ability to safely receive the back control position.
 

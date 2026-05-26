@@ -186,6 +186,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Drag to Darce Setup?</p>
+
 - Attack the escape rather than chase the position—the turtle attempt creates the Darce opportunity
 - Thread the choking arm immediately as opponent begins to turtle, before they can flatten
 - Maintain hip control with your trailing arm throughout the transition to prevent guard recovery
@@ -201,6 +203,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Drag to Darce Setup?</p>
+
 - Established leg drag control with opponent's leg pulled across their body
 - Opponent initiating turtle escape by turning away and posting on the mat
 - Clear access to opponent's near armpit as they rotate to turtle position
@@ -214,6 +218,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Drag to Darce Setup step by step?</p>
 
 1. **Recognize the trigger**: As you maintain leg drag control, watch for the opponent beginning to turn away toward turtle. Their weight shift, arm posting, and hip rotation signal the Darce opportunity is opening.
 2. **Release shoulder control**: Release your crossface or shoulder control hand and immediately shoot it toward the opponent's far armpit. Your arm travels under their near armpit in a threading motion, palm facing up initially.
@@ -243,6 +249,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Drag to Darce Setup?</p>
+
 - **Opponent keeps elbow tight and refuses to post, denying arm threading space** (Effectiveness: High) - Your Response: Transition to traditional back take or switch to anaconda grip if their arm is tighter to their body → Leads to [[Positions/Leg Drag Control]]
 - **Opponent immediately flattens to stomach rather than posting to turtle** (Effectiveness: Medium) - Your Response: Consolidate to side control or mount; if partial arm access exists, switch to arm triangle setup → Leads to [[Positions/Leg Drag Control]]
 - **Opponent rolls through your Darce attempt toward open space** (Effectiveness: Medium) - Your Response: Follow the roll maintaining grip and finish from the opposite side, or release and take top position → Leads to [[Positions/Turtle]]
@@ -254,6 +262,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Drag to Darce Setup?</p>
 
 ### 1. Threading the choking arm too shallow, with hand ending at opponent's jaw
 
@@ -288,6 +298,8 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Drag to Darce Setup (Attacker)?</p>
+
 **Week 1-2** - Arm threading mechanics
 Partner holds static turtle position. Practice threading arm smoothly under armpit and around neck, focusing on depth and palm orientation. Drill grip connection without resistance.
 
@@ -305,54 +317,12 @@ Incorporate into full sparring from leg drag positions. Focus on creating the tu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Leg Drag to Darce Setup?
-**A**: The primary goal is to capitalize on the opponent's turtle escape attempt from leg drag by threading your arm under their armpit and around their neck to establish Darce Control. This transforms their defensive movement into a high-percentage submission opportunity.
-
-**Q2**: What position do you start Leg Drag to Darce Setup from?
-**A**: This technique starts from Leg Drag Control with you in the top position. You must have your opponent's leg dragged across their body with established hip and shoulder control before the Darce opportunity presents itself.
-
-**Q3**: What specific opponent reaction triggers the Darce entry opportunity?
-**A**: The trigger is when the opponent begins turning away from you toward turtle position. Their weight shift, arm posting on the mat, and hip rotation create the space between their arm and torso needed to thread the choking arm through.
-
-**Q4**: What are the key grips needed for Leg Drag to Darce Setup?
-**A**: The Darce grip requires your choking arm to thread under opponent's armpit and around their neck until your hand reaches their far shoulder. You then grab your own bicep with that hand while your other hand slides behind their head, creating the figure-four configuration.
-
-**Q5**: Your opponent keeps their elbow clamped tight as they turtle—how do you adapt?
-**A**: When the elbow stays tight, the Darce entry is blocked. Switch to anaconda grip by circling around their head first, or abandon the choke and take traditional back control. Do not force the arm through when space is not available.
-
-**Q6**: How do you counter an opponent who attempts to roll through your Darce setup?
-**A**: Follow the roll while maintaining your grip connection. Your body rotates with them, often allowing you to finish from the opposite side. If the grip breaks during the roll, release and immediately secure top position from wherever you land.
-
-**Q7**: When is the best time to attempt Leg Drag to Darce Setup?
-**A**: The optimal timing is the instant the opponent begins their turtle escape, before they can settle their base or clamp their elbow. Thread the arm during their movement phase when their arm naturally posts wide and creates space. Waiting until they complete the turtle position significantly reduces success probability.
-
-**Q8**: How deep must your choking arm thread for a successful Darce grip?
-**A**: Your arm must thread deep enough that your hand reaches the opponent's far shoulder or trapezius muscle. Your elbow should pass the centerline of their spine. If your hand only reaches their jaw or chin, the grip is too shallow and they will easily posture out.
-
-**Q9**: What body part maintains hip control while you thread the Darce arm?
-**A**: Your chest maintains pressure on their near hip during the transition. Additionally, your legs sprawl or hook their hips to prevent guard recovery. Never sacrifice hip control entirely when pursuing the choke—it is the anchor that prevents escape.
-
-**Q10**: How does your head position affect this transition?
-**A**: Your head must stay low and tight to the opponent's shoulder throughout the transition. Your ear should contact their scapula. If your head rises, you create space that allows them to turn into you, face you, and recover guard or establish effective frames.
-
-**Q11**: Your opponent flattens to their stomach mid-transition instead of completing the turtle—what is the correct chain attack?
-**A**: When the opponent flattens, the Darce window closes because their arm tucks against their body and you lose the necessary angle. Immediately abandon the Darce attempt and consolidate to side control. From there, look for arm triangle setups since their flattened posture often leaves their near arm exposed across their face.
-
-**Q12**: What is the primary direction of force you apply when establishing the Darce grip from this transition?
-**A**: The primary force direction is perpendicular to the opponent's spine, driving your chest and shoulder into their trapped shoulder while your choking arm pulls upward and across the back of their neck. This creates a shearing force that closes both sides of the neck. Your hips walk toward their head to increase the angle and tighten the compression.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Drag to Darce Setup?</p>
 
 The Darce choke is a blood strangle that compresses both carotid arteries when applied correctly. Training partners must tap early and clearly, as unconsciousness can occur within seconds once the choke is fully locked. When drilling, apply pressure gradually and release immediately upon the tap—do not hold the position to demonstrate control. Practitioners with neck injuries or cervical spine issues should avoid this technique or practice only the entry mechanics without pressure. The arm threading motion can also stress the shoulder joint of the person being choked if they resist incorrectly, so ensure training partners understand proper tap responses. Never crank or twist the neck during this technique.
 

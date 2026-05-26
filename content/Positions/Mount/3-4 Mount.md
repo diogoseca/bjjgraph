@@ -34,7 +34,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Recognize asymmetric weight distribution immediately—identify heavier and lighter sides to plan attacks or escapes
@@ -189,13 +189,13 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 - **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (8% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (6% of attempts)
+- **[[Cross Collar Choke from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (6% of attempts)
 
 - **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (3% of attempts)
 
 - **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (2% of attempts)
 
-- **[[Submissions/Americana from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (2% of attempts)
+- **[[Americana from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

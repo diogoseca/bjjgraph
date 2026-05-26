@@ -39,7 +39,7 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Straight Ankle Lock]] | 55% |
 | Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 

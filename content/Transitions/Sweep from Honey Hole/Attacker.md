@@ -194,6 +194,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Honey Hole?</p>
+
 - Use the entanglement connection as leverage rather than fighting against it—the leg triangle that traps you also tethers your opponent to you
 - Time sweep attempts exclusively during opponent's grip transitions or weight shifts when their base is momentarily compromised
 - Commit fully and explosively to the sweep direction—half-measures fail against any competent leg lock player and waste critical energy
@@ -208,6 +210,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Honey Hole?</p>
+
 - Opponent has not captured your heel with a finishing grip—once heel hook grip is established, sweep becomes extremely dangerous to attempt
 - Free leg is mobile and can post on the mat or against opponent's body for leverage generation
 - Upper body has sufficient freedom to establish grips on opponent's far arm, collar, belt, or shorts
@@ -220,6 +224,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Honey Hole step by step?</p>
 
 1. **Defend and assess heel exposure**: Before initiating any sweep mechanics, actively fight any heel hook grip attempts with both hands. Strip opponent's fingers from your heel, hide your toes by pointing them toward the opponent, and verify that no breaking pressure exists on your knee. This assessment must happen in under one second—you are determining whether sweep is viable or whether you need to tap.
 2. **Establish upper body control grips**: Reach across to grip opponent's far arm at the wrist or elbow, or secure their collar, belt, or shorts near their far hip. This grip serves two purposes: it prevents them from posting their hand to stop the sweep, and it provides a pull point to amplify your sweep momentum. Prioritize the far-side grip—near-side grips provide less mechanical advantage for the sweep direction.
@@ -250,6 +256,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Honey Hole?</p>
+
 - **Opponent drives hips down and tightens inside leg triangle immediately upon sensing sweep initiation** (Effectiveness: High) - Your Response: Abort the sweep attempt and transition to grip fighting or counter-entanglement to 50-50 guard instead. Do not force the sweep against a locked-down base—it wastes energy and may expose your heel. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent posts far hand on the mat to base out against the sweep direction** (Effectiveness: Medium) - Your Response: If you have their far arm controlled, this counter is neutralized. If they free the arm to post, redirect your sweep angle or immediately switch to pulling their posting arm to remove the base before re-attempting the sweep. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent accelerates heel hook attempt using your sweep momentum to create rotational force on your knee** (Effectiveness: High) - Your Response: This is the most dangerous counter. If you feel any heel hook grip tightening during the sweep, abandon the sweep instantly and prioritize heel defense. Tap immediately if rotational pressure reaches your knee. Never fight through a heel hook to complete a sweep. → Leads to [[Positions/Ashi Garami/Honey Hole]]
@@ -261,6 +269,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Honey Hole?</p>
 
 ### 1. Attempting the sweep while opponent has a secured heel hook grip on your foot
 
@@ -300,6 +310,8 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Honey Hole (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic sweep motion and body coordination
 Practice the bridge-pull-pendulum coordination with a cooperative partner at zero resistance. Focus on synchronizing hip bridge, upper body pull, and free leg swing into one unified motion. Drill 20 repetitions per side, emphasizing smooth mechanics over power. Partner maintains Honey Hole position without gripping heel.
 
@@ -317,42 +329,12 @@ Positional sparring from Honey Hole bottom with full resistance. Chain the sweep
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from Honey Hole?
-**A**: The optimal timing window opens when the opponent reaches for your heel with one or both hands, lifts their hips to adjust the triangle configuration, or shifts their weight laterally during a grip transition. These moments temporarily compromise their base and remove their ability to resist sweep force. This window typically lasts under one second, requiring preloaded mechanics and instant recognition to exploit successfully.
-
-**Q2**: What conditions must exist before you can safely attempt this sweep?
-**A**: Four conditions must be verified: your heel must be free from opponent's heel hook grip, your free leg must retain mobility for posting and pendulum generation, you must have sufficient upper body freedom to establish a far-side control grip, and your trapped knee must not be under any active rotational pressure. If any of these conditions is absent, the sweep attempt carries unacceptable injury risk or has near-zero success probability.
-
-**Q3**: What is the critical mechanical detail that makes the bridge-pull-pendulum work as a unified sweep?
-**A**: All three components—hip bridge, upper body pull, and free leg pendulum—must fire simultaneously as a coordinated burst rather than sequentially. The bridge creates upward force, the pull creates lateral force against the opponent's upper body, and the pendulum generates rotational momentum through the free leg's arc. The entanglement connection transmits these combined forces directly into the opponent's center of gravity, making the whole greater than the sum of its parts.
-
-**Q4**: Why do half-committed sweep attempts fail and what is the consequence?
-**A**: Half-committed attempts fail because the opponent's triangle and hip pressure create a stability threshold that requires maximum explosive force to overcome. Partial force merely shifts the opponent slightly without breaking their balance, wasting critical energy reserves. Worse, the failed attempt telegraphs your intention, allowing the opponent to tighten their control and preemptively shut down subsequent attempts. Each failed attempt reduces the probability of the next attempt succeeding.
-
-**Q5**: What grip should you prioritize on the opponent's upper body and why?
-**A**: Prioritize a far-side grip—controlling the opponent's far arm at the wrist or elbow, or gripping their collar, belt, or shorts near their far hip. Far-side grips provide superior mechanical advantage for the sweep direction because they prevent the opponent from posting their far hand to base against the sweep. Near-side grips provide less leverage and leave the opponent's far arm free to stabilize, making the sweep significantly harder to complete.
-
-**Q6**: What is the primary direction of force during the sweep execution?
-**A**: The primary force direction is upward and diagonally toward the opponent's weak side—the side where their base is least stable. The bridge provides the vertical component lifting the opponent off their base, while the pull and pendulum provide the horizontal component that tips them over. The exact angle depends on the opponent's weight distribution, but generally targets the space between their far hip and far shoulder where they have the least ability to post or resist.
-
-**Q7**: Your opponent posts their far hand on the mat to stop your sweep—how do you adjust?
-**A**: If your far-side grip failed to control their posting arm, you have two options. First, immediately redirect your upper body grip to their posted arm, pulling it off the mat to remove the base before re-attempting the sweep at a slightly different angle. Second, if their post is too strong to strip, abort the sweep attempt entirely and chain into a counter-entanglement to 50-50 guard or a different escape route, since their weight commitment to the post may create different openings.
-
-**Q8**: If your initial sweep attempt is stuffed but you remain in Honey Hole bottom, what should your next action be?
-**A**: Immediately chain into an alternative escape rather than resting or reattempting the same sweep. The failed sweep may have created micro-adjustments in the opponent's position that open other escape paths—check if counter-entanglement to 50-50 is available, attempt inversion if space exists underneath, or revert to grip fighting and heel defense. Do not attempt the identical sweep twice consecutively, as the opponent is now specifically defending against it and your energy reserves are diminished.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Honey Hole?</p>
 
 The Sweep from Honey Hole involves significant knee injury risk on the trapped leg throughout the entire sweep motion. During execution, maintain strict alignment between your knee and toes on the trapped leg—any independent knee rotation while the leg is entangled in the opponent's triangle can cause catastrophic ligament damage including ACL and MCL tears. If you feel any sharp pain, clicking, or unusual pressure in your knee during the sweep attempt, abandon the technique immediately and tap if necessary. Never initiate the sweep while the opponent has an active heel hook grip—the sweep motion under those conditions amplifies rotational forces on the knee exponentially. In training, start with cooperative drilling at zero resistance before progressing to live application. Communicate clearly with training partners about intensity levels.
 

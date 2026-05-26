@@ -169,6 +169,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 ## Position Definition
 
+<p class="section-subtitle">What is Knee Shield Half Guard (Bottom)?</p>
+
 - Bottom player's shin is pressed horizontally across opponent's torso/chest, creating a rigid barrier that prevents forward pressure and maintains critical distance between bodies
 - Bottom player's trapped leg remains positioned between opponent's legs in traditional half guard configuration, with the foot typically hooking behind opponent's far leg for additional control
 - Bottom player maintains at least one grip on opponent's sleeve, collar, or body, preventing them from controlling both arms and establishing dominant grips for passing sequences
@@ -180,6 +182,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Knee Shield Half Guard (Bottom)?</p>
 
 - One leg trapped between opponent's legs in half guard configuration
 - Ability to create sufficient space to insert knee shield barrier
@@ -193,6 +197,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Shield Half Guard?</p>
 
 - Maintain constant pressure outward with knee shield to create maximum distance and prevent opponent from settling weight
 - Keep hips mobile and ready to adjust angles—never allow hips to become completely flat or static against the mat
@@ -208,6 +214,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Knee Shield Half Guard (Bottom)?</p>
 
 **If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
 - Execute **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
@@ -225,7 +233,7 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 
 **If opponent establishes underhook and attempts to consolidate position:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 42%)
 
 
@@ -236,6 +244,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Shield Half Guard?</p>
 
 ### 1. Allowing knee shield to collapse toward chest, reducing structural barrier
 
@@ -275,6 +285,8 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Knee Shield Half Guard defense?</p>
+
 ### Knee Shield Retention Against Progressive Pressure
 
 Partner applies increasing pressure attempting to flatten knee shield. Practitioner maintains frames, adjusts angles, and uses hip movement to prevent collapse. Start at 50% pressure, increase to 100% over 5-minute rounds. Focus on maintaining structural integrity of knee shield under maximum pressure.
@@ -282,7 +294,7 @@ Partner applies increasing pressure attempting to flatten knee shield. Practitio
 **Duration**: 5 minutes per round, 3 rounds
 
 
-### Grip Fighting Flow from Knee Shield
+### Grips Flow from Knee Shield
 
 Both practitioners work for dominant grips from knee shield half guard. Top player seeks crossface and underhook, bottom player prevents these while establishing sleeve/collar control. Reset when dominant position achieved. Develops grip awareness and hand fighting essential for position maintenance.
 
@@ -307,38 +319,6 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving heavy pressure into your knee shield. What adjustment maintains your frame?
-**A**: Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support.
-
-**Q2**: What are the essential grips for maintaining knee shield half guard bottom?
-**A**: Primary grip should control opponent's near arm—sleeve grip in gi, wrist control in no-gi—preventing them from establishing crossface. Secondary grip controls far collar or behind their head to manage distance and prevent posture. In no-gi, an overhook on their near arm combined with head control provides excellent retention. Never allow both your arms to be controlled simultaneously.
-
-**Q3**: How do you shut down the opponent's knee slice attempt through your knee shield?
-**A**: As they begin the knee slice, lower your knee shield and drive your shin into their hip or thigh rather than their chest—this blocks the slice angle. Simultaneously frame on their shoulder with your hand to prevent forward pressure. Hip escape away from the direction of their slice while maintaining your bottom leg hook. If they persist, transition to deep half by diving under their weight as they commit forward.
-
-**Q4**: What grip priorities should you establish when entering knee shield from flat half guard?
-**A**: First establish frame with near arm on their bicep or shoulder to create space for shield insertion. Second, hip escape and insert knee shield as high as possible across their chest. Third, establish collar or sleeve grip to prevent them from collapsing the newly established shield. Finally, secure your bottom leg hook behind their far leg. The sequence must be quick—any delay allows them to smash the shield before it's established.
-
-**Q5**: How do you effectively threaten sweeps while maintaining defensive integrity?
-**A**: Use your grips and hip movement to create sweep angles without fully committing your weight. Threaten the underhook sweep by attempting to swim for underhook, which forces opponent to defend and creates passing hesitation. Keep one hand ready to frame if the sweep fails. The threat of sweeps is often more valuable than the sweep itself—it prevents opponent from committing fully to passing, buying time for better opportunities.
-
-**Q6**: Your opponent successfully flattens your knee shield slightly. What immediate recovery do you make?
-**A**: Immediately frame on their shoulder with both hands and explosive hip escape away from them to recreate space. As space opens, re-insert your knee shield at the highest position possible. If they maintain pressure preventing re-insertion, transition to alternative guards—deep half if they're committed forward, butterfly or closed guard if they create distance. Never fight to maintain a compromised knee shield position.
-
-**Q7**: How do you manage energy when defending persistent passing pressure from knee shield?
-**A**: Rely on skeletal structure rather than muscle tension—your shin bone does the work, not your leg muscles. Use efficient hip escapes rather than pushing against their weight. Time your defensive movements to their pressure waves rather than maintaining constant tension. Create micro-rests by establishing strong frames then relaxing muscles while maintaining frame position. Attack periodically to make them defensive, creating recovery opportunities.
-
-**Q8**: Your opponent stands up from knee shield top position. How do you immediately transition?
-**A**: This is an opportunity, not a defensive crisis. Immediately hook their standing leg with your bottom leg and swim to X-guard or single leg X-guard by inverting your hips and establishing double hooks on their standing leg. Alternatively, elevate their standing leg with your knee shield while grabbing their ankle to enter technical stand-up or single leg attack. Standing creates space you can exploit—follow their hips with your hooks as they rise.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

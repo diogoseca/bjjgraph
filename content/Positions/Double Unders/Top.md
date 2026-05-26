@@ -26,32 +26,32 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
       "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
       "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
       "text": "From this position, attempt Over-Under Pass. This technique is attempted in 6% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
       "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -167,6 +167,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Unders (Top)?</p>
+
 - Both arms positioned under opponent's legs with hands meeting behind their back or gripping the belt/pants, creating a tight control loop that restricts hip movement and leg separation
 - Chest making heavy contact with opponent's thighs or knees, driving forward pressure that stacks their weight onto their shoulders and upper back while limiting their ability to create space
 - Top player's posture angled forward with hips driving into opponent's legs, creating downward pressure vector that prevents guard recovery and forces defensive player into compromised spinal alignment
@@ -178,6 +180,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Double Unders (Top)?</p>
 
 - Successful engagement with opponent's open guard (butterfly, seated, half guard variations)
 - Control of opponent's legs with both arms positioned underneath
@@ -191,6 +195,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Double Unders?</p>
 
 - Maintain tight connection between both arms under opponent's legs, keeping hands clasped or gripped to prevent leg separation
 - Drive constant forward pressure through the chest into opponent's thighs, stacking their weight onto shoulders to limit mobility
@@ -206,6 +212,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Unders (Top)?</p>
 
 **If opponent keeps legs together and attempts to frame with hands on chest maintaining flat back:**
 - Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 75%)
@@ -223,7 +231,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 
 **If opponent extends arms to create frames or push away from chest pressure:**
-- Execute **[[Submissions/Kimura from Side Control/Attacker|Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
@@ -234,6 +242,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Double Unders?</p>
 
 ### 1. Allowing space between chest and opponent's legs, reducing forward pressure
 
@@ -273,6 +283,8 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Double Unders attacks?</p>
+
 ### Double Unders Pressure Drill
 
 Partner starts in seated guard or butterfly guard. Practice establishing double underhooks, securing grip behind back, and applying progressive stacking pressure. Focus on maintaining tight elbows and constant chest pressure. Partner provides 50% resistance, attempting to frame and create space. Reset when pass completes or guard is recovered.
@@ -298,38 +310,6 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins bridging explosively while you have double unders established - what adjustment prevents you from being off-balanced?
-**A**: Widen your base immediately by stepping one foot out laterally while maintaining your grip behind their back. Drop your chest weight lower onto their thighs to ride out the bridge momentum. Keep your head positioned on the side opposite to their bridge direction to maintain balance. The bridge will exhaust them quickly, so maintain pressure and wait for them to return to the mat before advancing the pass.
-
-**Q2**: What are the essential grip configurations for maintaining double unders control against a resisting opponent?
-**A**: The primary grip options are: hands clasped together (gable grip or S-grip) behind opponent's lower back, gripping their belt or pants waistband, or in no-gi, securing a body lock with hands meeting on their far hip. The grip must be deep enough that your forearms are fully under their legs. Shallow grips allow leg separation and escape. Your elbows must stay tight to your ribs throughout to prevent frame insertion.
-
-**Q3**: How do you shut down the opponent's primary escape attempt of diving to deep half guard from double unders?
-**A**: Prevent deep half entry by keeping your hips low and connected to their body rather than creating space underneath you. When you sense them trying to dive under, immediately walk your knees forward to pin their hips and eliminate the space they need to rotate. You can also switch your head position to the opposite hip to block their rotation direction. If they start getting under, sprawl your hips back slightly while maintaining underhook control to flatten them back out.
-
-**Q4**: What grip adjustments should you prioritize when opponent begins to separate their legs during double unders control?
-**A**: The moment you feel leg separation beginning, tighten your elbow connection to your ribcage and squeeze your arms together to compress their legs. If one leg begins to escape, immediately transition to controlling that leg individually while maintaining underhook on the other - this shifts you toward a leg weave or over-under passing configuration. Never chase both legs simultaneously as this creates space. Commit to controlling whichever leg they're exposing more.
-
-**Q5**: How should you distribute your weight to maximize control pressure while maintaining the ability to advance the pass?
-**A**: Weight should be primarily forward through your chest into their thighs, with approximately 70% of your pressure driving downward and forward. Your hips stay low but mobile, knees bent with feet positioned to push forward. The key is keeping weight on your toes rather than flat-footed, allowing you to walk knees forward progressively. Your head provides additional downward pressure on their chest or hip depending on their defensive posture.
-
-**Q6**: Your opponent creates a frame with their forearms against your face while you have double unders - how do you address this without releasing control?
-**A**: Drive your forehead into their forearms while continuing forward pressure through your chest. The frame cannot generate enough force to overcome your full body weight if you keep advancing. Walk your knees forward progressively, which increases stacking pressure and makes their frame less effective as their spine compresses. You can also angle your head to one side to slip past the frame while maintaining continuous forward progression. Never back away or release pressure in response to frames.
-
-**Q7**: What indicators tell you the optimal moment to begin completing the pass from double unders to side control?
-**A**: Key indicators include: opponent's legs going limp or losing active resistance, their breathing becoming labored indicating fatigue, failed escape attempts leaving them momentarily static, or their hips flattening to the mat. When you feel their defensive energy drop, immediately walk your knees past their hips while keeping chest pressure, then release one underhook to establish crossface as you slide into side control. Timing this transition during their recovery pause is critical.
-
-**Q8**: How do you manage energy expenditure to maintain double unders pressure over an extended period against a defensive opponent?
-**A**: Rather than constant muscular tension, use skeletal alignment to maintain pressure - stack your body weight onto their legs rather than actively pushing. Keep your arms connected but not straining, letting the grip configuration hold rather than squeezing constantly. Breathe steadily and avoid holding your breath. Make small progressive adjustments rather than explosive movements. The goal is transferring your body weight through structure rather than generating force through muscular effort, allowing you to maintain pressure indefinitely while they exhaust defending.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

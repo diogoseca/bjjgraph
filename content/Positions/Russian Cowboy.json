@@ -88,7 +88,7 @@
       "Create angles with your body position to expose submission attacks without compromising positional control",
       "Use pressure through the hook to stretch opponent's body and expose vulnerability in their defense"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins to bridge and turn their shoulders toward you - what immediate adjustment should you make to maintain control?",
         "answer": "When opponent bridges toward you, immediately drive your chest weight forward and down into their upper back while simultaneously deepening your leg hook by pulling your heel toward your buttock. Use your seatbelt grip to pull their shoulder back toward the mat and angle your hips away from their turning direction. This combination of increased chest pressure and hook engagement creates a counter-rotation force that prevents them from completing the turn and reestablishes your dominant angle."
@@ -147,7 +147,7 @@
             "probability": 70
           },
           {
-            "technique": "Twister Finish",
+            "technique": "Twister from Russian Cowboy",
             "target": "Twister Control",
             "probability": 50
           }
@@ -312,7 +312,7 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Twister Finish",
+        "transition": "Twister from Russian Cowboy",
         "attempt_probability": 10
       },
       {
@@ -320,15 +320,15 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Russian Cowboy",
         "attempt_probability": 11
       },
       {
-        "transition": "Calf Slicer",
+        "transition": "Calf Slicer from Russian Cowboy",
         "attempt_probability": 10
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Russian Cowboy",
         "attempt_probability": 10
       },
       {
@@ -344,7 +344,7 @@
         "attempt_probability": 5
       },
       {
-        "transition": "Russian Cowboy RNC",
+        "transition": "Rear Naked Choke from Russian Cowboy",
         "attempt_probability": 2
       }
     ]
@@ -390,7 +390,7 @@
       "Use hip movement to relieve pressure on the hooked leg and create mobility",
       "Never allow opponent to consolidate position - constant defensive movement required"
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent begins setting up the rear naked choke while maintaining Russian Cowboy - what is your immediate defensive priority sequence?",
         "answer": "Immediately address the choking arm using two-on-one grip fighting before any positional escape attempts. Pull the choking arm below your chin line while tucking your chin to your chest. Grip their wrist with both hands and pull it toward your sternum while turning your chin away from the choking arm. Only after you've neutralized the immediate choke threat should you begin working on the leg hook and creating escape angles. Attempting positional escape while the choke is being set will likely result in finishing the choke during your movement."

@@ -162,6 +162,8 @@ As the defender against Escape Chill Dog, you are the top player working to main
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Chill Dog?</p>
+
 - Bottom player's hips begin shifting laterally underneath your chest pressure, creating a sliding sensation on your contact points
 - Bottom player's inside arm posts on the mat with increased tension, preparing to drive the hip escape
 - Bottom player's breathing pattern changes from controlled to held breath, signaling preparation for explosive movement
@@ -174,6 +176,8 @@ As the defender against Escape Chill Dog, you are the top player working to main
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Chill Dog?</p>
 
 - Maintain constant hip-to-hip connection to prevent the lateral space creation needed for the hip escape
 - Follow opponent's hip movement immediately rather than trying to hold static position against their escape
@@ -188,6 +192,8 @@ As the defender against Escape Chill Dog, you are the top player working to main
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Chill Dog?</p>
 
 ### 1. Drive hips forward and sink weight through chest to prevent hip escape initiation
 
@@ -225,6 +231,8 @@ As the defender against Escape Chill Dog, you are the top player working to main
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Chill Dog?</p>
+
 ### → [[Positions/Rubber Guard/Chill Dog]]
 
 Prevent the escape by maintaining heavy chest pressure and hip-to-hip connection. When you feel the escape initiate, immediately drive your weight forward and down while controlling their near-side hip with your hand. This removes the space they need for the hip escape and forces them back into the defensive turtle shell.
@@ -240,6 +248,8 @@ Use the escape attempt as your opportunity to advance. When the bottom player be
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Chill Dog?</p>
 
 ### 1. Holding a rigid static position instead of following opponent's hip movement
 
@@ -269,6 +279,8 @@ Use the escape attempt as your opportunity to advance. When the bottom player be
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Chill Dog?</p>
+
 **Phase 1: Escape Recognition** - Identifying hip escape setup and initiation cues
 Partner telegraphs the escape with obvious preparation movements while you focus on identifying the tactile and visual cues that precede the attempt. No countering required - simply call out when you detect the escape setup. Develop sensitivity to weight shifts, arm posting, and breathing changes that signal the escape.
 
@@ -285,29 +297,6 @@ Start in Chill Dog top with partner at full resistance attempting any escape. Yo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What tactile cue tells you the bottom player is about to attempt the hip escape rather than a Granby roll?
-**A**: The hip escape is preceded by the bottom player posting strongly on their inside arm and loading weight onto their hands, preparing for a lateral drive. In contrast, a Granby roll is preceded by tucking the inside shoulder and loading weight onto the upper back and shoulder. The arm posting sensation through your chest contact is distinct - during hip escape setup you feel them pushing outward and laterally, while during Granby setup you feel them collapsing inward and beginning to rotate.
-
-**Q2**: Your opponent has successfully threaded their inside leg between yours but has not yet turned to face you - what is your best counter?
-**A**: This is the critical window for back control. Their leg is committed to the thread, which means they have limited ability to retreat back to full Chill Dog. Immediately drive your near-side hook inside their thigh above the threading leg and reach over-under for the seatbelt grip. Their half-completed escape has given you a partially turned back that is easier to control than a fully tucked Chill Dog. Do not try to extract your leg from the thread - instead accept the half guard leg position and focus on establishing upper body back control.
-
-**Q3**: How do you maintain control when the bottom player creates small hip movements to test your reactions?
-**A**: Small probing movements are designed to map your pressure and find weaknesses before committing to the full escape. Respond with proportional adjustments rather than large reactions. If they shift slightly left, shift your weight slightly left to follow. Do not overreact by sprawling or driving hard - this reveals your reaction patterns and creates the opening they are probing for. Maintain steady chest pressure and hip connection while making micro-adjustments to stay centered on their movement.
-
-**Q4**: What is the fundamental difference between countering a hip escape to half guard versus countering a Granby roll?
-**A**: A hip escape moves laterally and requires you to follow sideways while preventing the leg thread - your counter is lateral pursuit and hip control. A Granby roll moves rotationally forward and requires you to either drive weight forward to prevent the roll or follow the roll to maintain back exposure. The hip escape counter emphasizes staying connected laterally, while the Granby counter emphasizes vertical pressure or rotational following. Misidentifying the escape type leads to applying the wrong counter at the worst possible moment.
-
-**Q5**: When should you choose to follow the escape for back control versus shutting it down to maintain Chill Dog top?
-**A**: Follow for back control when the escape has already created significant lateral space and the bottom player is beginning to rotate - at this point shutting it down requires more energy than capitalizing on the movement. Shut it down when you detect the escape early in the setup phase and can prevent the hip escape with a simple pressure adjustment. The decision point is whether they have already created the space: if space exists, follow and attack the back; if no space yet, prevent the space from being created.
-
-
-
-</section>
 
 
 </main>

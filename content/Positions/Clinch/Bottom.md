@@ -21,37 +21,37 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull from Clinch",
-      "text": "From this position, attempt Guard Pull from Clinch. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull from Clinch. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 18% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pummeling from Clinch",
       "text": "From this position, attempt Underhook Pummeling from Clinch. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Break Clinch",
       "text": "From this position, attempt Break Clinch. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag from Clinch",
       "text": "From this position, attempt Arm Drag from Clinch. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Duck Under from Clinch",
       "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Drag from Clinch Bottom",
+      "text": "From this position, attempt Arm Drag from Clinch Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -167,6 +167,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Position Definition
 
+<p class="section-subtitle">What is Clinch (Bottom)?</p>
+
 - Close-range upper body engagement with both practitioners upright or slightly bent at the waist, maintaining face-to-face or chest-to-chest proximity within arm's reach, creating a dynamic control environment where grip exchanges and positional adjustments occur continuously
 - Active grip fighting with hands and arms engaged in various control configurations such as underhooks, overhooks, collar ties, or body locks around the opponent's neck, shoulders, or torso, with constant hand fighting to establish and deny dominant grip positions
 - Head position critical and contested, typically pressed against opponent's shoulder, chest, or side of head to control posture and prevent opponent from gaining dominant leverage angles, with forehead pressure creating structural control that influences entire body positioning
@@ -181,6 +183,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Clinch (Bottom)?</p>
+
 - Strong neck and upper body development to maintain posture under pressure and resist opponent's attempts to control head position
 - Understanding of grip fighting mechanics and hand fighting sequences to establish dominant controls while denying opponent's grips
 - Balance and stability in standing scenarios with good base awareness and ability to maintain equilibrium under dynamic pressure
@@ -194,6 +198,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Clinch?</p>
 
 - Establish and maintain advantageous head position by keeping forehead pressed to opponent's shoulder or controlling their head placement to dictate engagement angles
 - Create dominant grip configurations prioritizing underhooks and controlling ties while denying opponent the same advantages through active hand fighting
@@ -210,6 +216,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Clinch (Bottom)?</p>
+
 **If opponent establishes strong underhooks and begins driving forward with pressure:**
 - Execute **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 60%)
 - Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
@@ -221,7 +229,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 
 **If opponent secures body lock or double underhooks with head control:**
-- Execute **[[Principles/Frame Creation/Attacker|Frame Creation]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Principles/Frames/Attacker|Frames]]** → [[Positions/Standing Position]] (Probability: 45%)
 - Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
@@ -247,6 +255,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Clinch?</p>
 
 ### 1. Poor head positioning by allowing opponent to control head placement or failing to maintain forehead pressure on opponent's shoulder
 
@@ -291,6 +301,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Clinch defense?</p>
+
 ### Pummeling Sequences for Inside Position
 
 Practice pummeling sequences with partner, focusing on establishing underhooks and inside control while opponent attempts same. Work on transitioning smoothly between different grip configurations including underhooks, overhooks, and collar ties. Emphasize maintaining connection while fighting for dominant positions. Start slow to develop proper mechanics, then increase speed and resistance progressively.
@@ -298,7 +310,7 @@ Practice pummeling sequences with partner, focusing on establishing underhooks a
 **Duration**: 5-7 minutes per round
 
 
-### Clinch Grip Fighting with Progressive Resistance
+### Clinch Grips with Progressive Resistance
 
 Drill clinch grip fighting starting at 50% resistance and progressively increasing intensity. Focus on establishing dominant grips like underhooks, collar ties, and body locks while denying opponent same advantages. Work on grip breaking, hand fighting sequences, and maintaining advantageous head position throughout exchanges. Partner provides realistic resistance appropriate to skill level.
 
@@ -330,38 +342,6 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important factor for maintaining a dominant clinch position against an equally skilled opponent?
-**A**: Head position is the single most important factor. Whoever controls the head controls the clinch. Keep your forehead pressed firmly into your opponent's shoulder or the side of their neck, which structurally disrupts their posture, limits their offensive angles, and gives you the leverage advantage needed to dictate grip exchanges and takedown entries. Without dominant head position, even superior grips become difficult to exploit.
-
-**Q2**: Your opponent pummel-wins an underhook and starts driving into you with forward pressure - what adjustment do you make?
-**A**: Immediately address the underhook by either re-pummeling to recover inside position or transitioning to an overhook (whizzer) on the same side to neutralize their leverage. Simultaneously lower your hips and widen your base to absorb the drive. If the pressure is too strong to re-pummel, use the overhook to redirect their momentum laterally rather than absorbing it head-on, which opens snap down opportunities or allows you to circle to a better angle. Avoid pulling backward, which accelerates their forward pressure advantage.
-
-**Q3**: What are the three primary grip configurations in the clinch and when should each be prioritized?
-**A**: The three primary configurations are: (1) Double underhooks - prioritized when you want to drive forward for body lock takedowns or lifts, giving maximum inside control but requiring strong head position to prevent snap downs; (2) Over-under (one overhook, one underhook) - the most common neutral exchange position, offering balanced offensive and defensive options while neither player has clear dominance; (3) Collar tie with underhook - prioritized when you want to control distance and set up snap downs, knee taps, or single leg entries, giving excellent head control combined with inside access.
-
-**Q4**: Your opponent breaks your collar tie grip and creates a few inches of separation while you still have one underhook - what do you do?
-**A**: Use the remaining underhook as your anchor point and immediately re-engage before the opponent can fully disengage. Step your underhook-side foot closer to close the gap, then re-establish head contact by swimming your free hand to either a new collar tie or a second underhook. The critical principle is that partial separation with one remaining connection point is a transition opportunity, not a reset. The underhook gives you inside access to shoot for a single leg or high crotch if they continue creating distance, so the opponent must respect your offensive threat while you work to re-establish full clinch control.
-
-**Q5**: How should you distribute your weight in the clinch to maintain control without overcommitting?
-**A**: Weight should be distributed approximately 55-60% on your lead foot with slight forward pressure, keeping your center of gravity over your base rather than leaning into your opponent. Knees stay bent with hips loaded underneath you, not extended behind. This forward bias creates pressure your opponent must manage while keeping your hips available for level changes and takedown entries. The key error to avoid is pushing weight into your opponent through your arms or chest, which telegraphs your pressure direction and makes you vulnerable to snap downs and lateral movement. Your weight control comes from hip and leg positioning, not upper body pushing.
-
-**Q6**: Your opponent secures double underhooks and locks hands behind your back - how do you prevent the takedown and recover position?
-**A**: Immediately lower your hips by bending your knees and widening your stance to create a strong base that resists lifting and driving. Simultaneously establish a strong overhook on one side by clamping your elbow tight to your ribs and begin working a cross-face or chin strap with your free hand to disrupt their head position. From here, pummel the overhook side back to an underhook by circling toward that side while using your cross-face pressure to create the space needed. If re-pummeling fails and they maintain the body lock, pulling guard to closed guard or butterfly guard is a legitimate tactical option rather than getting taken down on their terms.
-
-**Q7**: What is the biggest energy management mistake practitioners make in the clinch and how should it be corrected?
-**A**: The biggest mistake is treating the clinch as a strength contest by maintaining constant isometric tension in the arms, shoulders, and grip. This burns through energy rapidly and actually reduces technical effectiveness because stiff arms are slower to transition between grip configurations. The correction is to use intermittent bursts of controlled pressure rather than sustained tension. Maintain just enough grip pressure to stay connected, then apply sharp bursts of force when executing specific techniques or grip changes. Between exchanges, relax your arms and shoulders while maintaining structural control through head position and hip alignment, which are far less energy-intensive than muscular gripping.
-
-**Q8**: Your opponent starts circling aggressively to your right while maintaining a collar tie - how do you recover and maintain clinch control?
-**A**: Match their footwork by stepping your right foot first to re-square your hips, maintaining your base relative to their centerline. Do not cross your feet or chase with your left foot first, as this narrows your base and creates a single leg entry for them. Use their collar tie grip momentum against them by swimming your inside hand to an underhook on the side they're circling toward, which disrupts their angle creation. If they've already gained a significant angle, address it immediately with a hard re-square by stepping and turning your hips to face them directly, then re-engage grip fighting from the neutral position. Allowing the angle to persist invites snap downs, go-behinds, and back takes.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

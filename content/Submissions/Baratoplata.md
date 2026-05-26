@@ -3,24 +3,30 @@
 
 
 ---
-title: "Baratoplata | BJJ Submission | BJJ Graph"
+title: "Baratoplata | BJJ Submission Family | BJJ Graph"
 description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission from rubber guard combining omoplata mechanics with arm weave isolation for devastating finishing pressure."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Baratoplata targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Baratoplata/Attacker|Play as Attacker]]
-[[Baratoplata/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Baratoplata/from Crackhead Control|Crackhead Control]] | 42% | Rotator cuff tear or strain |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -31,9 +37,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Rubber Guard]]
-**From Position**: [[Positions/Rubber Guard]] (Bottom)
-**Success Rate**: 42%
+**Success Rate**: 42% (average across variants)
 
 </section>
 
@@ -80,144 +84,10 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 42% |
-| Failure | [[Positions/Closed Guard]] | 28% |
-| Counter | [[Positions/Closed Guard]] | 18% |
-| Failure | [[Positions/Omoplata Control]] | 12% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Arm isolation must be established before attempting shoulder... | Posture recovery is the single most important defensive prio... |
-| **Options** | 6 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Baratoplata/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Arm isolation must be established before attempting shoulder rotation
-
-- High guard control prevents opponent from posturing and escaping
-
-- Hip angle determines the direction and effectiveness of shoulder pressure
-
-- The arm weave creates additional leverage and prevents defensive hand fighting
-
-- Maintaining connection throughout the transition is critical for control
-
-- Shoulder flexibility varies greatly between individuals, requiring sensitivity to resistance
-
-- The finish combines both rotational and linear pressure on the shoulder joint
-
-
-### Execution Steps
-
-
-- **Establish rubber guard control**: From closed guard, break opponent's posture and establish Mission Control by placing your foot behin...
-
-- **Transition to New York position**: Release your bottom leg from closed guard and bring your knee across opponent's back while maintaini...
-
-- **Thread your arm for the weave**: With your hand that's controlling their wrist, thread your arm over their trapped arm and under your...
-
-- **Secure the grip and adjust angle**: Once your arm is threaded, grip your own shin or knee to lock the position. Adjust your hip angle by...
-
-- **Extend hips and rotate opponent's shoulder**: Slowly extend your hips while maintaining the arm weave and high guard control. This extension creat...
-
-- **Fine-tune finishing pressure**: Make micro-adjustments to hip angle and leg pressure to maximize effectiveness while monitoring oppo...
-
-
-### Common Mistakes
-
-
-- **Attempting the finish without properly establishing the arm weave**
-  - Consequence: Opponent easily escapes as shoulder is not properly isolated, wasted energy and lost position
-  - Correction: Take time to thread arm completely and secure grip on own shin before attempting hip extension
-
-- **Releasing high guard pressure during the transition**
-  - Consequence: Opponent postures up and escapes, nullifying all control and setup work
-  - Correction: Maintain constant downward pressure with top leg throughout entire sequence, never allow opponent's head to rise
-
-- **Using explosive jerking motions to finish the submission**
-  - Consequence: High risk of serious shoulder injury including rotator cuff tears and dislocations
-  - Correction: Apply pressure slowly and progressively over 5-7 seconds minimum, allowing partner time to recognize and tap to the submission
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Baratoplata/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Posture recovery is the single most important defensive priority - the submission requires broken posture to function
-
-- Defend the arm weave before it locks - once fully threaded with grip secured, escape difficulty increases dramatically
-
-- Keep trapped elbow tight to your body to prevent the threading motion needed for the weave
-
-- Use your free hand aggressively for frames and grip fighting rather than passive defense
-
-- Recognize the transition from Mission Control to New York as the critical defensive window
-
-- Stack forward pressure can neutralize hip extension needed for the finish
-
-- Tap early to shoulder submissions - the Baratoplata can cause serious injury with very little additional pressure once locked
-
-
-### Recognition Cues
-
-
-- Opponent transitions from Mission Control to New York by bringing knee across your back while maintaining high guard
-
-- Opponent releases wrist control momentarily to begin threading their arm over your trapped arm and under their leg
-
-- You feel your trapped arm being isolated between opponent's leg and their threading arm, creating a closed loop around your shoulder
-
-- Opponent grips their own shin or knee after threading the weave, locking the arm isolation in place
-
-- Opponent begins scooting their hips away from you while maintaining high guard pressure on your head
-
-
-### Escape Paths
-
-
-- Posture recovery to standing base, breaking high guard control and returning to open guard passing position
-
-- Forward roll through the submission to relieve shoulder pressure, transitioning to scramble or turtle position
-
-- Strip arm weave grip on shin and extract trapped arm while maintaining forward pressure to prevent reestablishment
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Baratoplata from Triangle**: When opponent defends triangle by grabbing their own bicep, thread your arm through to establish arm weave while maintaining triangle control with legs (When to use: When triangle defense creates the necessary arm isolation, particularly effective in no-gi where arm grip defense is common)
@@ -254,15 +124,14 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ## Related Submissions
 
-- [[Transitions/Omoplata]]
-- [[Transitions/Gogoplata]]
-- [[Transitions/Triangle Choke]]
-- [[Submissions/Armbar from Guard]]
-- [[Transitions/Kimura]]
-- [[Submissions/Omoplata from Guard]]
-- [[Submissions/Triangle from Closed Guard]]
-- [[Submissions/Tarikoplata]]
-- [[Transitions/Williams Shoulder Lock]]
+- [[Submissions/Omoplata]] - Sister shoulder lock sharing rubber guard entries and rotational shoulder mechanics
+- [[Transitions/Gogoplata]] - Rubber guard chain submission available from same control positions
+- [[Transitions/Gogoplata]] - Advanced finishing variant within rubber guard submission chain
+- [[Submissions/Far Side Armbar]] - Arm attack transition when Baratoplata shoulder lock is defended
+- [[Submissions/Kimura]] - Complementary shoulder lock targeting same joint from different angle
+- [[Armbar Finish]] - Alternative arm submission when arm weave partially fails
+- [[Submissions/Americana]] - Related shoulder lock in same joint lock family with opposite rotation
+- [[Transitions/Arm Triangle]] - Counter submission opportunity arising from Baratoplata defense scrambles
 
 
 </section>
@@ -274,7 +143,6 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 - [[Positions/Rubber Guard]] - Primary starting position and control structure
 - [[Positions/Rubber Guard/Mission Control]] - Initial rubber guard position for Baratoplata setup
 - [[Positions/Rubber Guard/New York]] - Transition position that creates angle for arm weave
-- [[Transitions/Omoplata]] - Related shoulder lock sharing setup mechanics
 - [[Positions/Triangle Control]] - Alternative attack from same rubber guard control positions
 - [[Positions/Crucifix]] - Position that can result from opponent's forward roll defense
 - [[Positions/Back Control]] - Transition target when opponent defends Baratoplata aggressively

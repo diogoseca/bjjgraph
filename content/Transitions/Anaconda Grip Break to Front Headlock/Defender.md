@@ -154,6 +154,8 @@ As the top player maintaining anaconda control, defending against the bottom pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda Grip Break to Front Headlock?</p>
+
 - Bottom player's free hand reaches toward your choking wrist or the grip junction on the far side of their neck
 - Bottom player begins shifting hips away from your chest pressure, creating angular displacement that loosens the grip
 - Bottom player turns their head and chin toward their free shoulder, indicating preparation to extract through an opening
@@ -166,6 +168,8 @@ As the top player maintaining anaconda control, defending against the bottom pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda Grip Break to Front Headlock?</p>
 
 - Maintain continuous chest-to-shoulder pressure—the grip alone is insufficient without body weight reinforcement driving the choke
 - React to grip break attempts by squeezing elbows together to reinforce the loop rather than relying solely on hand grip strength
@@ -180,6 +184,8 @@ As the top player maintaining anaconda control, defending against the bottom pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda Grip Break to Front Headlock?</p>
 
 ### 1. Squeeze elbows together and drive chest deeper into trapped shoulder to counter-tighten
 
@@ -217,6 +223,8 @@ As the top player maintaining anaconda control, defending against the bottom pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda Grip Break to Front Headlock?</p>
+
 ### → [[Positions/Anaconda Control]]
 
 Immediately squeeze elbows together and drive chest deeper into opponent's trapped shoulder when you detect grip break initiation. Preemptive tightening before they create meaningful slack shuts down most grip break methods and increases submission pressure.
@@ -232,6 +240,8 @@ When the anaconda grip becomes untenable, release your bottom hand and immediate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda Grip Break to Front Headlock?</p>
 
 ### 1. Relaxing chest pressure while focused on maintaining grip with hands alone
 
@@ -261,6 +271,8 @@ When the anaconda grip becomes untenable, release your bottom hand and immediate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda Grip Break to Front Headlock?</p>
+
 **Phase 1: Recognition** - Detecting grip break initiation cues early
 Partner attempts grip breaks at various speeds while you practice recognizing the earliest tactile and visual cues. Focus on detecting the free hand's contact with your wrist or grip junction and implementing immediate counter-tightening response before slack develops.
 
@@ -277,26 +289,6 @@ Integrate grip defense into the full anaconda control offensive system including
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting an anaconda grip break?
-**A**: The earliest cue is feeling their free hand contact your choking wrist or the grip junction point on the far side of their neck. This tactile signal precedes any visible movement and indicates they are beginning the grip attack sequence. The moment you feel this contact, immediately squeeze your elbows together and drive your chest deeper into their trapped shoulder to preemptively tighten before meaningful slack is created.
-
-**Q2**: When should you abandon the anaconda grip and transition to an alternative attack?
-**A**: Transition when you feel your hands beginning to separate despite your counter-tightening efforts and the bottom player has created enough slack that your fingers are struggling to maintain contact. At this stage, continued grip fighting wastes energy and delays your transition. Immediately flow to darce by threading deeper across the neck, to guillotine by releasing one hand and securing the chin, or to back take by following their movement to their back before they establish defensive frames.
-
-**Q3**: Your opponent breaks your grip partially but you still have one hand on their neck—how do you recover?
-**A**: Do not attempt to re-establish the anaconda by re-gripping with your separated hand. Instead, use the remaining hand position to immediately transition to a guillotine grip by hooking under their chin with your forearm. Drive chest pressure to maintain head control while you secure the guillotine grip with your other hand. The partial grip break has actually created the opening for guillotine that was not available while the arm was trapped in anaconda configuration.
-
-**Q4**: How does the bottom player's hip movement affect your anaconda grip and what is your counter?
-**A**: Their hip movement away from your chest creates angular displacement that stretches the constricting loop, loosening your grip junction. Counter by following their hip movement with your own body—walk your hips in the same direction they are moving to maintain your perpendicular angle and chest pressure. If they hip escape right, step right. This negates the angular displacement and keeps your chest-to-shoulder connection tight against their escape attempts.
-
-
-
-</section>
 
 
 </main>

@@ -174,6 +174,8 @@ Successful defense demands awareness of where the attacker is in their follow se
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Follow to Back Control?</p>
+
 - Attacker releases figure-four leg configuration and pushes off your trapped leg—this signals they are abandoning the leg attack to follow
 - Attacker's hips begin driving forward and around rather than maintaining static leg entanglement position
 - You feel decreasing pressure on your trapped leg combined with increasing chest pressure approaching your upper back
@@ -185,6 +187,8 @@ Successful defense demands awareness of where the attacker is in their follow se
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Follow to Back Control?</p>
 
 - Complete your inversion escape with maximum speed and commitment—half-rotations invite the back take
 - Protect your upper back and neck with elbows tight and chin tucked as soon as rotation begins
@@ -200,6 +204,8 @@ Successful defense demands awareness of where the attacker is in their follow se
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Follow to Back Control?</p>
 
 ### 1. Accelerate rotation to consolidated turtle with elbows tight to knees and chin tucked
 
@@ -237,6 +243,8 @@ Successful defense demands awareness of where the attacker is in their follow se
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Follow to Back Control?</p>
+
 ### → [[Positions/Turtle]]
 
 Complete your rotation with maximum speed and immediately consolidate a tight turtle position with elbows glued to knees, chin tucked, and rounded back. The key is arriving in turtle before the attacker can establish seat belt control. A well-structured turtle forces the attacker into a separate attacking sequence with lower success rates than a free back take.
@@ -252,6 +260,8 @@ Reverse direction during the attacker's follow by shooting your hips back toward
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Follow to Back Control?</p>
 
 ### 1. Stopping rotation halfway and pausing in an exposed position between ashi-garami and turtle
 
@@ -286,6 +296,8 @@ Reverse direction during the attacker's follow by shooting your hips back toward
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Follow to Back Control?</p>
+
 **Week 1-2** - Recognition and rotation speed
 Partner slowly releases leg entanglement and follows. Practice recognizing the release cue and completing rotation to consolidated turtle before partner arrives. Focus on compact body position during rotation with chin tucked and elbows tight.
 
@@ -302,32 +314,6 @@ Positional sparring starting from Ushiro Ashi-Garami bottom where partner choose
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from leg attack to back take?
-**A**: The earliest cue is feeling the figure-four leg configuration release combined with a forward push off your trapped leg. The attacker actively pushes away from your leg to generate momentum toward your upper body. This release of leg pressure is the signal to immediately accelerate your rotation or prepare defensive frames.
-
-**Q2**: Your opponent has released their legs and is following your rotation—should you try to re-engage the leg entanglement or continue to turtle?
-**A**: In most cases, continue to turtle. Once the attacker has released and committed their hips to following, attempting to re-engage legs requires reversing your momentum entirely, which is slower than their forward drive. Complete your rotation to consolidated turtle where you have established defensive options. Only reverse direction if you detect the release very early and the attacker hesitates before committing to the follow.
-
-**Q3**: The attacker has established seat belt but no hooks—what is your immediate defensive priority?
-**A**: Your immediate priority is preventing hook insertion, specifically the bottom hook. Use your bottom leg to kick back and strip any hooking attempts while pinching your knees together. Simultaneously, fight the underhook arm of the seat belt by stripping it with two-on-one control. Without hooks, the attacker cannot consolidate back control even with seat belt, giving you time to create escape angles.
-
-**Q4**: What body position should you maintain during the inversion rotation to minimize back exposure?
-**A**: Maintain chin tucked tightly to chest, elbows driven into your knees creating a tight shell, and a rounded upper back. Your rotation should be compact and fast rather than extended and slow. Keep your arms connected to your torso throughout—never extend them behind you. This compact defensive ball minimizes the surface area the attacker can grip during the transition.
-
-**Q5**: How does the timing of your initial inversion affect your vulnerability to the back take?
-**A**: Slow, telegraphed inversions give the attacker time to read the rotation and prepare their release and follow. Fast, explosive inversions create separation between you and the attacker, making it harder for them to track your rotation and arrive at your back in time. The ideal inversion is committed, explosive, and completed in a single motion rather than a gradual rotation that the attacker can pace themselves against.
-
-**Q6**: Your opponent has one hook in and seat belt—what escape direction should you pursue?
-**A**: Escape toward the side of the inserted hook. By turning into the hook, you can use your hip movement to strip it by extending your leg and using knee pressure against their foot. Escaping away from the hook tightens it and makes removal harder. Simultaneously, fight the seat belt underhook with two-on-one grips to create upper body separation as you turn.
-
-
-
-</section>
 
 
 </main>

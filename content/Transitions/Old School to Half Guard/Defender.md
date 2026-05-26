@@ -154,6 +154,8 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Old School to Half Guard?</p>
+
 - Lockdown tension on your trapped leg begins to decrease as the bottom player starts unhooking their controlling foot
 - Bottom player releases head wrap grip and redirects that hand toward your shoulder or bicep to establish a frame
 - Bottom player begins hip escaping away from you, creating distance incompatible with the close-range Old School position
@@ -166,6 +168,8 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School to Half Guard?</p>
 
 - Monitor lockdown tension constantly—any decrease signals the beginning of a transition attempt that creates exploitable vulnerability
 - Increase forward pressure immediately when you feel lockdown releasing rather than waiting to see what the bottom player does
@@ -180,6 +184,8 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Old School to Half Guard?</p>
 
 ### 1. Drive heavy crossface and chest pressure forward when lockdown tension decreases
 
@@ -217,6 +223,8 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Old School to Half Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive heavy crossface and chest pressure forward the instant lockdown tension decreases, collapsing on the bottom player before they can insert knee shield. Use your chest weight to pin their shoulders flat while maintaining half guard top pressure that prevents any frame recovery.
@@ -232,6 +240,8 @@ Maintain deep whizzer control and increase forward sprawl pressure to prevent th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School to Half Guard?</p>
 
 ### 1. Failing to recognize lockdown tension changes and missing the transition window
 
@@ -261,6 +271,8 @@ Maintain deep whizzer control and increase forward sprawl pressure to prevent th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Old School to Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying transition cues
 From Old School top position, have your partner cycle between maintaining lockdown position and initiating the transition to half guard. Focus solely on recognizing the early cues—lockdown tension changes, head control releases, frame attempts—without attempting counters. Develop the sensitivity to distinguish between lockdown adjustments and genuine transition attempts through repeated exposure.
 
@@ -274,26 +286,6 @@ Full positional sparring starting from Old School top. Partner attempts both Old
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early cues indicate the bottom player is about to transition from Old School to Half Guard?
-**A**: The earliest cue is a decrease in lockdown tension on your trapped leg as the bottom player begins unhooking their controlling foot. Secondary cues include the bottom player releasing their head wrap grip and redirecting that hand toward your shoulder for a frame, and their underhook pressure shifting from a pulling motion to a pushing motion. These cues typically appear in sequence over 1-2 seconds before the full transition attempt.
-
-**Q2**: When you feel the lockdown releasing, what immediate action has the highest success rate for preventing the reset?
-**A**: Drive heavy crossface pressure forward through your shoulder while simultaneously dropping your chest weight onto their torso. The combination of crossface and chest pressure prevents the knee shield insertion that defines successful half guard recovery. This must happen immediately—within one second of feeling the lockdown release—because the transition window is brief and the bottom player is actively racing to establish frames.
-
-**Q3**: How should you adjust your pressure if the bottom player successfully inserts a knee shield during the transition?
-**A**: If the knee shield is established, you have missed the primary counter window and must transition to standard half guard top passing strategies. Apply shoulder pressure into the knee shield to flatten it while fighting for crossface control. Consider long step pass or smash pass approaches that work against established knee shield. Do not continue trying to flatten someone who has already established frames—adapt to the new positional reality.
-
-**Q4**: Why is it tactically important to prevent the bottom player from recovering standard half guard from Old School?
-**A**: Old School bottom with a stalled lockdown is a relatively contained threat—the attack options are limited to lockdown-specific sweeps that you've already proven you can defend. Standard half guard bottom opens access to an entirely different and much broader offensive toolkit: knee shield retention, deep half entries, underhook sweeps, butterfly half hooks, and back takes. Allowing the transition means you must now defend against multiple threat systems instead of one.
-
-
-
-</section>
 
 
 </main>

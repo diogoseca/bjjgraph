@@ -218,7 +218,7 @@ Counter Roll to Top represents a high-variance escape option within the Gift Wra
 
 - [[Transitions/Gift Wrap Arm Recovery]] - Primary alternative escape focusing on incremental arm recovery
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that creates timing windows for this counter
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that creates timing windows for this counter
 
 
 </section>

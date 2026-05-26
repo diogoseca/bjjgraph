@@ -166,6 +166,8 @@ From a strategic standpoint, awareness of this counter should inform how you att
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce from Lockdown Counter?</p>
+
 - Top player's nearside arm begins moving across your neck instead of defending the lockdown or maintaining crossface - this is the threading motion that initiates the Darce
 - You feel bicep pressure against the side of your neck combined with the top player driving their shoulder forward into your head rather than resisting the Electric Chair extension
 - Top player stops fighting the lockdown with their legs and instead shifts focus to upper body control, often abandoning leg extraction to shoot the choking arm through
@@ -177,6 +179,8 @@ From a strategic standpoint, awareness of this counter should inform how you att
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce from Lockdown Counter?</p>
 
 - Monitor the top player's arm position throughout your Electric Chair attack - early recognition is the single most important defensive factor
 - Maintain chin tuck discipline even while extending for the Electric Chair to deny the arm threading path across your neck
@@ -191,6 +195,8 @@ From a strategic standpoint, awareness of this counter should inform how you att
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce from Lockdown Counter?</p>
 
 ### 1. Immediately retract underhook and frame on opponent's bicep and neck to create distance, preventing the Darce grip from connecting
 
@@ -228,6 +234,8 @@ From a strategic standpoint, awareness of this counter should inform how you att
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce from Lockdown Counter?</p>
+
 ### → [[Positions/Half Guard/Electric Chair]]
 
 Recognize the Darce attempt early and retract your underhook before the grip connects. Frame on opponent's bicep and neck to push them away, then re-establish your deep underhook and lockdown pressure to resume your Electric Chair attacks. The key is speed of recognition - the earlier you detect the threading, the easier the recovery.
@@ -243,6 +251,8 @@ If the Darce is partially established, release the lockdown and hip escape away 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce from Lockdown Counter?</p>
 
 ### 1. Maintaining the deep underhook after recognizing the Darce threat, hoping to finish the Electric Chair before the choke is applied
 
@@ -272,6 +282,8 @@ If the Darce is partially established, release the lockdown and hip escape away 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce from Lockdown Counter?</p>
+
 **Week 1-2** - Recognition drilling
 Partner establishes Electric Chair top position and slowly initiates the Darce threading at quarter speed. Practice identifying the exact moment the arm begins crossing your neck and calling out the recognition cue verbally before defending. Build awareness of the threat without resistance.
 
@@ -288,29 +300,6 @@ Full-resistance positional sparring from Electric Chair position. Bottom player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Darce from Lockdown Counter?
-**A**: The earliest cue is the top player's nearside arm beginning to move across your neck instead of defending the lockdown or maintaining crossface control. You will feel bicep pressure against the side of your neck combined with their shoulder driving forward into your head. This threading motion is the initiation of the Darce and must be addressed immediately before the grip connects.
-
-**Q2**: Why is retracting the underhook the primary defensive response rather than continuing the Electric Chair attack?
-**A**: The deep underhook is the exact arm configuration that enables the Darce choke. Keeping it extended provides the top player with the trapped arm they need to complete the figure-four around your neck. The Darce choke can be finished faster than most Electric Chair sweeps, so the risk-reward calculation strongly favors immediate arm retraction. You can always re-establish the underhook once the choke threat passes.
-
-**Q3**: Your opponent has started threading the Darce arm but the grip is not yet connected - which defense should you prioritize?
-**A**: Prioritize retracting your underhook immediately while framing on their bicep and neck to create distance. This is the highest-percentage defense because removing the trapped arm eliminates the arm-in configuration entirely. Simultaneously tuck your chin to deny the arm full passage across your neck. Speed is critical here - every fraction of a second the grip remains unconnected is time you have to prevent the choke.
-
-**Q4**: How should awareness of the Darce counter change the way you attack with the Electric Chair?
-**A**: Awareness should make you more disciplined with underhook depth and chin positioning. Maintain your chin tucked even during extension, reach deep enough for effective sweeps but keep your arm retractable, and constantly monitor the top player's arm position. Develop the ability to threaten Electric Chair while keeping your neck angle closed to the Darce threading path. This measured approach reduces your exposure without abandoning the lockdown system.
-
-**Q5**: The Darce grip is locked and your opponent begins sprawling - what is your last-resort defense?
-**A**: With a locked grip and sprawl pressure, release the lockdown entirely and hip escape away to create maximum distance. Use your free hand to push on their hip to prevent them from following. Tuck your chin as tightly as possible and try to extract your trapped arm by walking your hand toward your own hip. If you can create enough distance to break the chest-to-chest connection, the choke loses much of its finishing power. Accept the positional loss to half guard bottom rather than allowing the choke to finish.
-
-
-
-</section>
 
 
 </main>

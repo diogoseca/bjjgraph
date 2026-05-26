@@ -146,6 +146,8 @@ As the defender against this transition, you are the bottom player who has estab
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ashi Garami to Leg Entanglement?</p>
+
 - Opponent drives their hips forward toward you rather than pulling backward to extract their trapped leg, indicating they are closing distance for counter-entry rather than escaping
 - Opponent's free leg steps over your body or begins threading between your legs instead of posting for base recovery
 - Opponent grips your entangling foot with both hands, which simultaneously freezes your advancement and stabilizes their base for the counter-thread
@@ -158,6 +160,8 @@ As the defender against this transition, you are the bottom player who has estab
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ashi Garami to Leg Entanglement?</p>
 
 - Monitor the opponent's free leg position constantly as it is the weapon they use to initiate counter-entanglement threading
 - Advance your own entanglement hierarchy proactively to close the threading window before they can exploit it
@@ -172,6 +176,8 @@ As the defender against this transition, you are the bottom player who has estab
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ashi Garami to Leg Entanglement?</p>
 
 ### 1. Accelerate advancement to Saddle or Cross Ashi before counter-entanglement completes
 
@@ -209,6 +215,8 @@ As the defender against this transition, you are the bottom player who has estab
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ashi Garami to Leg Entanglement?</p>
+
 ### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Advance your entanglement hierarchy to Inside Ashi or deeper before the opponent can complete their counter-thread. Use their forward driving motion against them by re-pummeling your inside hook deeper as their weight shifts forward, then transition to Cross Ashi or Saddle before the bilateral exchange can equalize.
@@ -224,6 +232,8 @@ Block the counter-entanglement attempt using knee shield positioning or hip esca
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ashi Garami to Leg Entanglement?</p>
 
 ### 1. Failing to monitor opponent's free leg position while focusing exclusively on heel exposure and finishing
 
@@ -253,6 +263,8 @@ Block the counter-entanglement attempt using knee shield positioning or hip esca
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ashi Garami to Leg Entanglement?</p>
+
 **Phase 1: Recognition Drilling** - Identifying counter-entanglement attempts versus standard escapes
 Partner alternates between standard leg extraction escapes and counter-entanglement attempts from your Outside Ashi. Call out which one they are doing before they complete it. Develops pattern recognition for hip direction, free leg positioning, and grip changes that signal counter-entry.
 
@@ -269,23 +281,6 @@ Start in freshly established bilateral entanglement (simulating successful count
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that distinguishes a counter-entanglement attempt from a standard leg extraction escape?
-**A**: The direction of the opponent's hip movement is the earliest distinguishing cue. During standard leg extraction, the opponent drives their hips backward to create distance and pull their trapped leg free. During counter-entanglement, the opponent drives their hips forward toward you to close distance and bring their free leg within threading range. This directional difference is detectable before the actual leg threading begins, providing a critical early warning window.
-
-**Q2**: Why does advancing to Inside Ashi or deeper positions make counter-entanglement significantly harder for the opponent?
-**A**: Inside Ashi and deeper positions like Cross Ashi and Saddle require your legs to be configured with superior inside space control, which means your knees are pinched inward and your hooks are threaded deeply behind the opponent's knee. This configuration physically narrows the gap between your legs and body that the opponent needs to thread their free leg through. Additionally, deeper positions expose the opponent's heel more directly, making the time investment of attempting a counter-thread increasingly dangerous as they risk submission during the attempt.
-
-**Q3**: If the counter-entanglement succeeds and you arrive in 50-50, what determines whether you or the opponent holds advantage in the resulting exchange?
-**A**: Inside space control determines the advantage in the resulting 50-50 exchange. The practitioner whose knee is positioned between both hips on the entangled side can advance to Inside Ashi and then Saddle, while the other is stuck in neutral or must fight uphill for position. As the original Ashi Garami holder, you should have a head start on inside space because your hooks were already threaded from the inside. Maintain this advantage by keeping your inside knee driving toward the centerline throughout the transition rather than abandoning it to address the counter-thread.
-
-
-
-</section>
 
 
 </main>

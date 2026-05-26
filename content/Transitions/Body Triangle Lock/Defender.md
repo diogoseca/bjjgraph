@@ -160,6 +160,8 @@ The defender must prioritize preventing the lock from completing while maintaini
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Triangle Lock?</p>
+
 - You feel one of the attacker's hooks disengage from inside your thigh while their upper body control (Gift Wrap) tightens - this signals the beginning of the body triangle threading sequence
 - The attacker's freed leg begins pressing across your midsection from one hip toward the opposite hip, with their shin driving diagonally across your abdomen in a threading motion
 - The attacker shifts their weight slightly and adjusts their hip angle while maintaining chest-to-back pressure - this weight redistribution precedes the leg thread and indicates they are positioning for the cross-body entry
@@ -170,6 +172,8 @@ The defender must prioritize preventing the lock from completing while maintaini
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Triangle Lock?</p>
 
 - React immediately when you feel the attacker release a hook - this is the primary defensive window before the body triangle completes
 - Prioritize neck protection with your free arm at all times, even while defending the leg thread - losing to a choke is worse than conceding the body triangle
@@ -183,6 +187,8 @@ The defender must prioritize preventing the lock from completing while maintaini
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Triangle Lock?</p>
 
 ### 1. Explosive bridge and hip escape the moment you feel the hook release, driving your hips away from the threading leg to create distance that prevents the leg from reaching across your midsection
 
@@ -213,6 +219,8 @@ The defender must prioritize preventing the lock from completing while maintaini
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Triangle Lock?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Disrupt the body triangle threading sequence through explosive hip escape or ankle blocking before the lock completes, forcing the attacker back to standard Gift Wrap with hooks where you have greater hip mobility and more escape pathways available
@@ -228,6 +236,8 @@ Turn sharply into the attacker during the leg transition phase, using the moment
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Triangle Lock?</p>
 
 ### 1. Freezing and failing to react when the hook is released, allowing the attacker to complete the entire threading and locking sequence uncontested
 
@@ -262,6 +272,8 @@ Turn sharply into the attacker during the leg transition phase, using the moment
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Triangle Lock?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner establishes Gift Wrap with hooks and slowly initiates the body triangle thread. Practice recognizing the hook release cue and immediately executing each defensive response (bridge, turn, hand block) in isolation. No resistance from attacker during the defensive response. Focus on speed of recognition and automatic reaction.
 
@@ -278,29 +290,6 @@ Start every round in Gift Wrap bottom position. Attacker attempts body triangle 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window for preventing the Body Triangle Lock?
-**A**: The primary defensive window is the moment the attacker releases one hook to begin threading their leg across your midsection. This hook release temporarily reduces their leg control from two points to one, creating instability that you can exploit with explosive hip movement, turning, or leg blocking before the body triangle is secured.
-
-**Q2**: Your opponent begins threading their leg across your stomach while maintaining Gift Wrap - should you use your free hand to block the leg or protect your neck?
-**A**: Protect your neck first unless your chin is already deeply tucked and your shoulder is raised to provide structural neck protection. Losing to a rear naked choke is worse than conceding the body triangle. Only commit the free hand to leg defense when the neck is structurally defended, as the attacker will immediately attack the throat if they see it exposed.
-
-**Q3**: The body triangle has already locked - what is your immediate priority?
-**A**: Shift strategy from preventing the lock to managing the position. Protect your neck as the immediate priority since the attacker will now aggressively hunt submissions. Then work to attack the figure-four lock by targeting the ankle behind their knee, using hip movement to create space rather than trying to pry the legs apart with arm strength.
-
-**Q4**: Why is staying on your side critical when defending the body triangle threading attempt?
-**A**: Side positioning creates a physical barrier that makes the leg thread more difficult to complete across your body, preserves your ability to shrimp and create lateral hip displacement, and prevents the attacker from establishing the flat back-mount control that maximizes their threading angle. Flattening out removes all these advantages and actually assists the attacker.
-
-**Q5**: What trade-off do you face when turning into the attacker as a defense against the body triangle thread?
-**A**: Turning into the attacker prevents the body triangle thread by closing the cross-body path, but the turn may lead to a transition to technical mount or mounted position where the attacker maintains the Gift Wrap arm control. While these positions offer different escape options, they are still dangerous. The turn is worthwhile because body triangle plus Gift Wrap is harder to escape than mount plus Gift Wrap.
-
-
-
-</section>
 
 
 </main>

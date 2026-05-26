@@ -192,6 +192,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Lockdown Defense?</p>
+
 - Recognize the timing window when opponent fully commits to Electric Chair extension and their hips are maximally elevated
 - Maintain constant pressure forward with your chest to prevent opponent from retracting hips and resetting position
 - Use the backstep motion to clear your trapped leg while simultaneously establishing first hook behind opponent
@@ -207,6 +209,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Lockdown Defense?</p>
+
 - Opponent has committed to Electric Chair from lockdown half guard bottom with hips extended
 - You maintain some upper body control through crossface, underhook, or head position
 - Your trapped leg has enough mobility to execute the backstep clearing motion
@@ -219,6 +223,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Lockdown Defense step by step?</p>
 
 1. **Establish upper body control**: Secure crossface with your nearside arm, driving your shoulder into opponent's jaw while your forearm controls their far shoulder. Your farside arm establishes whizzer or underhook depending on opponent's grip configuration.
 2. **Load weight forward**: Drive your chest weight forward onto opponent, flattening them toward the mat and limiting their ability to continue hip extension. This forward pressure is essential to prevent them from completing the Electric Chair sweep while you prepare the backstep.
@@ -248,6 +254,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Lockdown Defense?</p>
+
 - **Opponent releases lockdown early and recovers closed guard before backstep completes** (Effectiveness: High) - Your Response: If they release early, immediately pass to side control using your established upper body control. The lockdown release gives you a free pass opportunity. → Leads to [[Positions/Half Guard/Electric Chair]]
 - **Opponent turns into you during backstep and re-establishes half guard or full guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
 - **Opponent abandons Electric Chair and transitions to deep half guard under your backstep** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
@@ -259,6 +267,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Lockdown Defense?</p>
 
 ### 1. Attempting backstep before opponent commits fully to Electric Chair extension
 
@@ -293,6 +303,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Lockdown Defense (Attacker)?</p>
+
 **Week 1-2** - Backstep mechanics
 Practice the backstep motion without resistance. Partner maintains static lockdown position while you drill the circular leg clearing motion and hook insertion. Focus on the arc of the backstep and maintaining upper body connection. Perform 20 repetitions per side each session.
 
@@ -310,48 +322,12 @@ Positional sparring starting from Electric Chair position. Both partners work wi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the backstep?
-**A**: The optimal timing is when the opponent fully commits to the Electric Chair extension with their hips maximally elevated and extended. At this point, they are most focused on the sweep or submission and their back is most exposed. Attempting too early when they can still retract leads to failed transitions.
-
-**Q2**: Your opponent starts to release lockdown pressure mid-backstep - how do you adjust?
-**A**: Abandon the back take and immediately transition to passing their guard. Their lockdown release eliminates their leg control, giving you a free passing opportunity. Options include knee slice pass, smash pass, or leg weave depending on their defensive reactions and remaining grips.
-
-**Q3**: What is the most critical upper body control to maintain throughout the backstep?
-**A**: The crossface is the most critical control. Your nearside arm drives your shoulder into the opponent's jaw, controlling their head and preventing them from turning to face you during the backstep rotation. Losing the crossface allows the opponent to rotate and recover guard or establish defensive frames.
-
-**Q4**: Why must the backstep arc be wider than a standard backstep pass?
-**A**: The wider arc is necessary to clear the figure-four lockdown leg configuration. A standard backstep pass uses a tighter arc since no leg entanglement exists. The wide circular path allows your leg to trace around the lockdown while the opponent's hip extension creates the space needed for clearance.
-
-**Q5**: What grip configuration do you need before the backstep and what do you transition to after?
-**A**: Before the backstep, maintain crossface with your nearside arm controlling opponent's head and far shoulder, with your farside arm establishing whizzer or underhook. After clearing, transition to seatbelt with one arm over the shoulder and one under the armpit, hands clasped at their chest for full back control.
-
-**Q6**: Your opponent bridges hard during your backstep, nearly reversing you - what went wrong and how do you fix it?
-**A**: You likely initiated the backstep before the opponent fully committed to their extension, meaning they retained enough hip power and base to bridge. The fix is patience: wait for maximum hip extension before starting. If mid-backstep, drop your weight low, widen your base with the free leg, and ride the bridge before continuing.
-
-**Q7**: You clear the lockdown and insert your first hook, but the opponent begins turtling before seatbelt is established - what is your response?
-**A**: Maintain your first hook while immediately reaching over their back with both arms for harness control. If they turtle fully, transition to turtle back control attacks including rear naked choke setup or crucifix entry. The key is never losing the hook you have established while adapting your upper body control to their new posture.
-
-**Q8**: How does the direction of force change during the three phases of this technique?
-**A**: Phase one drives force forward and downward through the chest to flatten the opponent. Phase two redirects force laterally and backward in the circular backstep arc to clear the trapped leg. Phase three drives force forward again, this time into the opponent's back to establish chest-to-back connection for back control. Each phase flows into the next.
-
-**Q9**: If your backstep attempt fails and you end up back in Electric Chair, what options remain?
-**A**: Return to standard lockdown defenses: limp leg escape to reduce lockdown effectiveness, forward pressure to prevent further extension, and lockdown break sequence targeting the foot triangle. You can re-attempt the backstep on the next full extension cycle, or switch to Darce choke setup if the opponent exposes their neck during their next attack.
-
-**Q10**: What conditions must exist before you can safely attempt this technique?
-**A**: Four conditions are required: the opponent must have committed to Electric Chair extension with elevated hips, you must maintain some upper body control through crossface or underhook, your trapped leg must retain enough mobility for the backstep arc, and your free leg must have a stable posting position to serve as the pivot point for the circular motion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Lockdown Defense?</p>
 
 This technique is generally safe when practiced with control and awareness. The primary risk is to the practitioner performing the backstep if they attempt it while still tightly caught in the lockdown, which can cause knee strain from the rotational force. Always ensure adequate hip extension from the bottom player before attempting the backstep arc. For the bottom player, be aware that rapid release of the lockdown while your opponent is mid-backstep can cause them to land awkwardly. Practice with progressive resistance and communicate with training partners about comfort levels with the Electric Chair position before drilling live.
 

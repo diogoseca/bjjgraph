@@ -93,6 +93,14 @@ description: "Defend against Technical Mount to Mount consolidation in BJJ. Lear
         "@type": "Answer",
         "text": "If the top player aborts and re-posts their leg, immediately reset your defensive structure—re-establish forearm frames, return to your pre-escape positioning, and prepare for the next attempt. Do not continue your escape movement once the technical mount is re-established, as you will be moving into the tripod base rather than exploiting a transition gap. Stay patient and conserve energy for the next consolidation attempt, which will likely come soon since the top player clearly wanted to leave technical mount. Use the interim to improve your frame positioning for the next window."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should you hip escape away from the retracting leg rather than toward it during this transition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hip escaping toward the retracting leg moves your body directly into the path of the incoming knee as it slides to mount position, essentially helping the top player complete the consolidation over your body. Additionally, the top player's weight is shifting toward the retracting leg side during the transition, meaning you are fighting against their momentum. Escaping away from the retracting leg exploits the momentary gap on the opposite side where the inside knee bears the primary load, and your hip movement creates the angle needed for knee insertion on the side with less downward pressure and resistance."
+      }
     }
   ]
 }
@@ -164,6 +172,8 @@ The primary defensive strategy involves using the weight shift moment to execute
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Mount to Mount?</p>
+
 - Top player releases wrist or elbow grip used for arm isolation, transitioning to crossface or collar control—indicating they are abandoning the armbar pursuit
 - Posted leg begins sliding backward along the mat surface rather than maintaining its perpendicular position, signaling the start of consolidation
 - Weight shifts from the asymmetric tripod distribution toward centered pressure over your chest, indicating the transition from technical mount mechanics to mount mechanics
@@ -176,6 +186,8 @@ The primary defensive strategy involves using the weight shift moment to execute
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Mount to Mount?</p>
 
 - Anticipate the consolidation: Recognize that the top player will attempt to return to mount after failed submission attempts—prepare your defensive structure before they initiate
 - Time defense to the weight shift: The moment the posted leg begins moving is your highest-percentage escape window because the top player's base transitions from stable tripod to compromised bilateral
@@ -190,6 +202,8 @@ The primary defensive strategy involves using the weight shift moment to execute
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Mount to Mount?</p>
 
 ### 1. Hip escape during leg retraction—shrimp away from the retracting leg and insert your knee between your bodies as a shield
 
@@ -227,6 +241,8 @@ The primary defensive strategy involves using the weight shift moment to execute
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Mount to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the posted leg retraction. As the top player slides their leg back, the downward pressure on that side briefly lifts, creating a window to insert your knee between your bodies and establish half guard. Use forearm frames against their hip to maintain the space created, then immediately begin working your half guard offense to prevent being re-passed.
@@ -242,6 +258,8 @@ Bridge explosively during the moment of maximum weight transition to disrupt the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Mount to Mount?</p>
 
 ### 1. Waiting until mount is fully consolidated before attempting escape instead of acting during the transition window
 
@@ -271,6 +289,8 @@ Bridge explosively during the moment of maximum weight transition to disrupt the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Mount to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition cues in controlled drilling
 Partner slowly transitions from technical mount to mount while you practice identifying the recognition cues: grip release, leg movement initiation, weight shift. Do not attempt escapes in this phase—simply call out the cue when you recognize it. Build unconscious pattern recognition before adding defensive movement. Perform 20 repetitions per side.
 
@@ -287,29 +307,6 @@ Full resistance positional sparring starting from technical mount. Score points 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary visual cue that the top player is transitioning from technical mount to standard mount?
-**A**: The most reliable cue is the release of arm isolation grips—when the top player lets go of your wrist or elbow and transitions to crossface or collar control, they are abandoning the armbar pursuit and preparing to consolidate. This grip change typically precedes the leg movement by one to two seconds, giving you advance warning. The posted leg then begins sliding backward along the mat rather than maintaining its perpendicular position, confirming the consolidation is underway.
-
-**Q2**: Why is the moment of leg retraction the optimal time to attempt escape from technical mount?
-**A**: During leg retraction, the top player transitions from a stable three-point tripod base (posted leg, inside knee, upper body) to a less stable configuration as the posted leg slides back. Their weight must redistribute from the asymmetric technical mount structure to the symmetric mount base, creating a brief period where downward pressure is reduced and their ability to post for balance is compromised. This is the only moment in the mount offense cycle where the top player voluntarily reduces their own base stability, making it the highest-percentage escape window.
-
-**Q3**: What defensive structure should you maintain before the transition begins to capitalize on the escape window?
-**A**: Before the transition begins, you should have forearm frames established against the opponent's hips or lower chest with elbows bent and tight to your body. Your hips should be slightly angled rather than perfectly flat, with your escape-side leg coiled and ready to drive a hip escape. Your arms must be protected with elbows close to your ribs—never extended. This pre-positioned defensive structure allows you to react within the one-to-two second transition window rather than needing to build your escape from scratch when the cue appears.
-
-**Q4**: What is the most common mistake defenders make when attempting to counter this transition?
-**A**: The most common mistake is waiting too long to react—specifically, waiting until the posted leg has already reached mount position before attempting to escape. By this point, the transition window has closed and the top player has re-established full bilateral mount base with settled hip pressure. The defender must recognize the transition cues and initiate their hip escape or knee insertion during the leg movement, not after it. The second most common error is extending arms to push, which exposes them to submission attacks.
-
-**Q5**: How should you respond if the top player aborts the transition mid-way and returns to technical mount?
-**A**: If the top player aborts and re-posts their leg, immediately reset your defensive structure—re-establish forearm frames, return to your pre-escape positioning, and prepare for the next attempt. Do not continue your escape movement once the technical mount is re-established, as you will be moving into the tripod base rather than exploiting a transition gap. Stay patient and conserve energy for the next consolidation attempt, which will likely come soon since the top player clearly wanted to leave technical mount. Use the interim to improve your frame positioning for the next window.
-
-
-
-</section>
 
 
 </main>

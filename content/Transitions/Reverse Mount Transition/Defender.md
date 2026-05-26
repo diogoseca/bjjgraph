@@ -174,6 +174,8 @@ Defense against this transition relies on three pillars: maintaining active arm 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Mount Transition?</p>
+
 - Opponent's chest pressure shifts from your sternum toward your abdomen, indicating they are sliding their weight toward your hips
 - You feel the opponent's knees and legs beginning to move around your head and shoulder area as they initiate the rotation
 - The opponent releases or loosens their arm control from North-South, indicating they are preparing to use their hands for the spinning transition
@@ -185,6 +187,8 @@ Defense against this transition relies on three pillars: maintaining active arm 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Mount Transition?</p>
 
 - Maintain active arms with elbows tight to prevent isolation - free arms are your primary tool for frames during the transition window
 - Time your bridge and hip escape to coincide with the opponent's weight shift, when their pressure is lightest during the spin
@@ -199,6 +203,8 @@ Defense against this transition relies on three pillars: maintaining active arm 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Mount Transition?</p>
 
 ### 1. Bridge and hip escape during the weight transfer: As the opponent shifts from chest pressure toward your hips, bridge explosively and shrimp your hips away to create distance and prevent them from settling into the mounted position
 
@@ -236,6 +242,8 @@ Defense against this transition relies on three pillars: maintaining active arm 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Mount Transition?</p>
+
 ### → [[Positions/North-South]]
 
 Establish strong forearm frames against the opponent's hips as they initiate the transition, preventing them from completing the spin. Combined with active hip escape and continuous frame pressure, force the opponent to abandon the transition and return to North-South where you can continue your standard escape sequence.
@@ -251,6 +259,8 @@ Time a bridge and hip escape to coincide with the opponent's weight shift during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Mount Transition?</p>
 
 ### 1. Remaining passive and flat during North-South, allowing the opponent to initiate the transition unopposed
 
@@ -285,6 +295,8 @@ Time a bridge and hip escape to coincide with the opponent's weight shift during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Mount Transition?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner performs the Reverse Mount Transition at slow speed from North-South. Focus on identifying the recognition cues: pressure shift, arm release, and leg movement around your head. Practice calling out the transition before it completes without attempting defense yet.
 
@@ -301,32 +313,6 @@ Positional sparring starting from North-South bottom where the top player can ch
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window during the Reverse Mount Transition?
-**A**: The primary defensive window occurs during the opponent's weight transfer from North-South chest pressure to the spinning mount entry. This is when their pressure is lightest and most distributed across your body, creating brief opportunities for bridging, frame establishment, and hip escape before they complete the rotation and settle into reverse mount.
-
-**Q2**: What are the earliest recognition cues that indicate your opponent is attempting the Reverse Mount Transition?
-**A**: The earliest cues are a shift in chest pressure from your sternum toward your abdomen as the opponent slides their weight toward your hips, a loosening of their arm control from North-South as they prepare hands for the spin, and the feeling of their knees and legs beginning to move around your head and shoulder area as they initiate the rotation.
-
-**Q3**: Why is turning away from the opponent during the transition considered a critical error?
-**A**: Turning away exposes your back to the opponent, allowing them to potentially bypass reverse mount entirely and transition directly to back control with hooks inserted. Back control is an even more dangerous position than reverse mount, with higher submission probability. Instead, turn toward the opponent so any scramble results in guard recovery rather than back exposure.
-
-**Q4**: Your opponent has completed the spin and is seated in reverse mount - what is your immediate priority?
-**A**: Your immediate priority is arm protection. Bring your arms tight to your chest with elbows pinched to your ribs to deny the opponent easy armbar targets. Once arms are protected, begin working to turn and face the opponent by hip escaping and creating angles. Do not attempt explosive bridges from established reverse mount as they are easily absorbed by the seated opponent.
-
-**Q5**: How does knee insertion defense work during the Reverse Mount Transition?
-**A**: During the opponent's spinning motion, there is a momentary gap between your torso and their rotating body. Drive your near knee upward into this gap to catch their leg before they can fully seat in the mount. This converts the potential reverse mount into half guard bottom, a far more defensible position with established sweep and recovery systems. Timing is critical - too early and the knee gets cleared, too late and they seat over it.
-
-**Q6**: What continuous defensive habits in North-South bottom make the Reverse Mount Transition harder for your opponent to initiate?
-**A**: Maintaining active forearm frames against the opponent's chest, performing continuous small hip escapes to prevent them from settling comfortably, keeping elbows tight to deny arm isolation, and threatening escapes that force the opponent to focus on maintaining North-South rather than advancing. A defensive active bottom player creates an unstable platform that makes the precise weight transfer required for the spin much more difficult.
-
-
-
-</section>
 
 
 </main>

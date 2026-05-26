@@ -172,6 +172,8 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Saddle Entry from Top?</p>
+
 - Opponent grips your near ankle and knee simultaneously while in passing position, shifting focus from passing to leg control
 - Opponent's outside leg steps toward your hip line rather than continuing a passing trajectory, indicating angle creation for step-over
 - Opponent shifts their weight backward and begins lifting their inside leg over your controlled leg rather than driving forward to pass
@@ -184,6 +186,8 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Saddle Entry from Top?</p>
 
 - React early - defense effectiveness decreases dramatically at each stage of entry progression
 - Never allow both your ankle and knee to be controlled simultaneously without immediate response
@@ -198,6 +202,8 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Saddle Entry from Top?</p>
 
 ### 1. Immediately retract near leg by pulling knee to chest and turning hip away from attacker
 
@@ -242,6 +248,8 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Saddle Entry from Top?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 React at the earliest possible moment by retracting your near leg and stripping grips before the step-over begins. Use your far leg to frame on the opponent's hips to prevent them from following. Re-establish guard frames and return to standard guard retention against passing.
@@ -257,6 +265,8 @@ Exploit the opponent's commitment to leg control by sitting up aggressively with
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Saddle Entry from Top?</p>
 
 ### 1. Ignoring the initial leg grip and waiting until the step-over is in progress to react
 
@@ -291,6 +301,8 @@ Exploit the opponent's commitment to leg control by sitting up aggressively with
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Saddle Entry from Top?</p>
+
 **Phase 1: Recognition and Early Defense (Weeks 1-2)** - Learning to identify saddle entry setups and practicing immediate leg retraction
 Partner telegraphs saddle entry attempts from various top positions. Defender practices recognizing the two-handed leg grip and step-over cues, then executes immediate knee retraction and hip turning. No resistance from attacker beyond initial grip. Focus on reaction speed and correct defensive mechanics at the earliest stage of the entry.
 
@@ -307,29 +319,6 @@ Situational sparring starting from guard positions where top player actively hun
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most effective moment to defend the saddle entry, and what should you do at that moment?
-**A**: The most effective moment is when the attacker first establishes two-handed control on your near leg, before any step-over has begun. At this moment, immediately retract your knee to your chest while turning your hip away from the attacker and use your hands to strip the ankle grip. This denies the fundamental requirement for the entry. Every subsequent defensive opportunity is progressively harder because the attacker gains mechanical advantages with each phase of the entry they complete.
-
-**Q2**: Your opponent has stepped over your leg but has not yet locked their feet - what is your best defensive action?
-**A**: Bring your far leg over the attacker's body and head to clear your knee past their leg configuration. This prevents the saddle from locking because the attacker cannot create the triangle entanglement if your knee clears their hip line. Simultaneously, push on their hips with your far foot to create separation. This requires hip mobility and timing, but it is the highest-percentage defense at this specific stage of the entry because it addresses the mechanical requirement of the lock itself.
-
-**Q3**: Why is extending your leg to fight the step-over a common but dangerous defensive mistake?
-**A**: Extending the leg creates the exact space the attacker needs to thread their inside leg under yours for the entanglement. A straight leg provides a clear channel for the attacker's thigh to slide under, while also exposing the ankle to straight ankle lock attacks if the saddle entry fails. The correct response is the opposite: pull the knee to the chest and turn the hip away. A bent, retracted leg denies the threading space and the step-over angle simultaneously, addressing the root mechanics of the entry rather than fighting it linearly.
-
-**Q4**: How should you use your far leg throughout the saddle entry defense sequence?
-**A**: Your far leg is your most important defensive tool and should be actively framing on the attacker's hip throughout the entire defense sequence. The frame prevents the attacker from closing distance to complete the step-over and creates separation that enables your near leg retraction. If the entry progresses despite the frame, the far leg can be brought over the attacker's body to clear the knee line. At no point should the far leg be passive on the mat, as this removes your primary barrier against the entry's completion and allows the attacker to progress unimpeded.
-
-**Q5**: The saddle has fully locked and your opponent is beginning to control your heel - what is your priority sequence?
-**A**: Priority one: protect the heel by rotating your knee inward toward your centerline and keeping your foot flexed. This makes the heel inaccessible for hook attacks. Priority two: fight the opponent's grips on your ankle and foot with both hands using two-on-one grip breaks. Priority three: frame on their hips with your free leg to reduce their ability to tighten the position. Priority four: only after grips are addressed and hip pressure is reduced, begin moving your body toward the opponent to extract your leg. Never pull away explosively as this magnifies joint stress and submission effectiveness.
-
-
-
-</section>
 
 
 </main>

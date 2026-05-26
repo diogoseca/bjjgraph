@@ -209,7 +209,7 @@ The hook sweep is a cornerstone technique within the butterfly guard system and 
 
 - [[Transitions/Arm Drag to Back]] - Combination setup - arm drag creates entry angle and chains directly with hook sweep
 
-- [[Submissions/Kimura from Guard]] - Counter to defense - attacks posted arm when opponent defends sweep by posting
+- [[Submissions/Kimura]] - Counter to defense - attacks posted arm when opponent defends sweep by posting
 
 - [[Positions/Half Guard/Deep Half Guard]] - Transition option - entry when opponent sprawls hips back to defend hook sweep
 

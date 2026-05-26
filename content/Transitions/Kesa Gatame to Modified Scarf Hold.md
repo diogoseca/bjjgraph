@@ -206,9 +206,9 @@ This transition sits at the center of the scarf hold positional family, connecti
 
 - [[Transitions/Kesa Gatame to Reverse Kesa-Gatame]] - Alternative transition from the same starting position
 
-- [[Transitions/Americana]] - Primary submission threat during and after transition
+- [[Submissions/Americana]] - Primary submission threat during and after transition
 
-- [[Transitions/Kimura]] - High-percentage submission available from target position
+- [[Submissions/Kimura]] - High-percentage submission available from target position
 
 - [[Transitions/Arm Triangle]] - Choke option enabled by chest-to-chest pressure in target position
 

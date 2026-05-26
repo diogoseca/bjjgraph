@@ -154,6 +154,8 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Pass from X-Guard?</p>
+
 - Passer begins lowering their hips and center of gravity while maintaining forward-facing alignment rather than stepping laterally
 - Passer establishes crossface or head control with their lead arm before driving weight forward through the guard
 - Passer's base foot shifts from a wide lateral stance to a position directly behind their trapped leg, indicating they are loading weight for a forward drive
@@ -166,6 +168,8 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Pass from X-Guard?</p>
 
 - Maintain maximum hook depth behind the passer's knee to preserve the mechanical advantage needed for elevation-based sweeps and counters
 - Recognize the smash pass initiation early through tactile cues like forward weight shift and lowering hips, responding before the pressure becomes overwhelming
@@ -180,6 +184,8 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Pass from X-Guard?</p>
 
 ### 1. Maintain deep hooks and elevate for counter-sweep
 
@@ -217,6 +223,8 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Pass from X-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive hip elevation during the passer's weight commitment phase when their base is narrowest. Drive your inside hook upward while extending your outside leg across their hip to create rotational force. The passer's committed forward weight works against them, amplifying the sweep power and landing them in bottom half guard.
@@ -232,6 +240,8 @@ Recognize the smash pass early and immediately deepen your inside hook while cre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Pass from X-Guard?</p>
 
 ### 1. Allowing hips to drop flat on the mat when the passer begins applying downward pressure
 
@@ -261,6 +271,8 @@ Recognize the smash pass early and immediately deepen your inside hook while cre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Pass from X-Guard?</p>
+
 **Phase 1: Pressure Recognition** - Identifying the tactile and visual cues that distinguish a smash pass from other passing approaches
 Partner alternates between smash pass, knee slice, and long step attempts from X-Guard top. Defender calls out the pass type as soon as they recognize it. No defensive actions required, focus purely on early recognition of the incoming pass type through pressure direction and body position changes.
 
@@ -277,26 +289,6 @@ Partner applies full-speed smash pass. Defender must decide in real-time whether
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that indicates a smash pass attempt rather than a knee slice or long step pass?
-**A**: The earliest tactile cue is feeling the passer's hips beginning to drop and drive forward directly through your hooks rather than shifting laterally. In a knee slice, you feel lateral pressure across your thigh. In a long step, you feel the passer stepping wide. In the smash pass, the pressure comes straight down and forward through the hook structure, and you feel the passer's chest weight increasing against your legs. The passer also typically establishes crossface pressure before the drive, which is another distinguishing early indicator.
-
-**Q2**: Why is timing the counter-sweep during the early commitment phase critical rather than waiting for the pass to develop?
-**A**: During the early commitment phase, the passer's center of gravity is still above the hook line, meaning your legs can still generate effective upward elevation for sweeps. Additionally, the passer's base is in transition from a wide stable stance to a narrow committed position, making them most vulnerable to lateral sweeping forces. Once the passer fully commits and drops below the hook line, the mechanical advantage shifts entirely to them and counter-sweeps become nearly impossible. The window for effective counter-sweeps is narrow, typically lasting only one to two seconds during the initial weight shift.
-
-**Q3**: When should you abandon X-Guard and transition to an alternative guard rather than continuing to defend the smash pass?
-**A**: You should transition when you feel your inside hook beginning to flatten and losing depth behind the passer's knee despite your best efforts to maintain it. If the passer has successfully lowered their center of gravity below your hook line and you cannot re-elevate them, continuing to hold X-Guard is futile. The optimal transition point is when the inside hook still has some grip but is clearly losing the battle, giving you enough remaining control to execute a smooth transition to Single Leg X, butterfly, or deep half guard rather than a desperate scramble.
-
-**Q4**: How does frame placement against the smash pass differ from framing against a knee slice pass?
-**A**: Against the smash pass, frames must be placed to resist downward and forward pressure, positioning forearms against the passer's shoulders at an angle that redirects force laterally rather than absorbing it directly. Against a knee slice, frames are placed more laterally to prevent the passer from cutting their knee across your thigh. The smash pass requires frames that work like architectural buttresses against vertical load, while knee slice defense requires frames that work like barriers against horizontal movement. Using knee slice framing against a smash pass results in the frames being driven flat by the downward force.
-
-
-
-</section>
 
 
 </main>

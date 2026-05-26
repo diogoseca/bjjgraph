@@ -194,6 +194,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Cross Ashi to 50-50?</p>
+
 - Maintain at least one hand on the opponent's heel throughout the entire transition to prevent leg extraction during the vulnerable repositioning window
 - Time the transition during the opponent's defensive reactions to heel hook threats rather than initiating from a neutral position where they can focus entirely on countering
 - Execute the leg repositioning as a single smooth movement rather than a multi-step process that telegraphs intent and creates extended vulnerability windows
@@ -208,6 +210,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Cross Ashi to 50-50?</p>
+
 - Established cross ashi-garami top position with inside hook deep behind opponent's hip providing primary control anchor
 - At least one hand secured on opponent's heel or ankle in cup grip configuration before initiating any leg movement
 - Opponent's trapped leg extended and isolated between your legs, not retracted with bent knee that would prevent 50-50 threading
@@ -220,6 +224,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Cross Ashi to 50-50 step by step?</p>
 
 1. **Assess and commit**: Evaluate the opponent's defensive positioning in cross ashi-garami. Confirm they are actively hiding their heel or fighting your grips, indicating their defensive focus is on the current submission threat rather than leg extraction. Make the decision to transition based on recognizing that cross ashi attacks have been effectively neutralized and 50-50 offers better angles.
 2. **Lock heel control**: Secure your strongest possible cup grip on the opponent's heel with your primary hand, ensuring the thumb side wraps around the Achilles tendon and fingers cup beneath the heel bone. This grip must remain locked throughout the entire transition. Your secondary hand can release temporarily but the primary grip is non-negotiable for maintaining entanglement control.
@@ -250,6 +256,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Cross Ashi to 50-50?</p>
+
 - **Opponent retracts knee and pulls trapped leg toward their body during the uncrossing window** (Effectiveness: High) - Your Response: Abort the transition immediately and re-establish cross ashi by recrossing your outside leg. If knee retraction is too advanced, switch to straight ankle lock grip on the partially extracted foot or transition to inside ashi-garami by following the retracting leg inward. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **Opponent explosively sits up and establishes frames on your hips during the transitional moment** (Effectiveness: Medium) - Your Response: Use their upward momentum to accelerate through the transition by pulling their heel toward your chest while completing the 50-50 threading. Their sit-up actually creates space that makes the mirror leg positioning easier. If you cannot complete the transition, collapse them back down with heel pull and inside hook pressure. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **Opponent straightens trapped leg and kicks free during the reduced-control window when outside cross is removed** (Effectiveness: High) - Your Response: If the leg extracts past the point of recovery, immediately transition to a passing position by driving forward into their hips before they can establish guard. If partial control remains, redirect into single leg X-guard or standard ashi-garami rather than forcing the 50-50 entry. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Cross Ashi to 50-50?</p>
 
 ### 1. Releasing heel grip with both hands during the leg repositioning phase
 
@@ -300,6 +310,8 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Cross Ashi to 50-50 (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Leg repositioning pattern
 Practice the uncrossing and mirror threading movement pattern without a partner using a grappling dummy or rolled towel as the trapped leg. Focus on smooth, continuous leg movement while maintaining hand position on the dummy. Perform 30 repetitions per side, emphasizing the coordination between inside hook stability and outside leg repositioning.
 
@@ -320,42 +332,12 @@ Apply the transition in live positional sparring starting from cross ashi-garami
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to maintain throughout the Cross Ashi to 50-50 transition?
-**A**: The cup grip on the opponent's heel with your primary hand is the non-negotiable grip throughout the transition. This grip must remain locked from the moment you initiate the uncrossing through the completion of the 50-50 configuration. The thumb side wraps the Achilles tendon while fingers cup beneath the heel bone. Releasing this grip during the transition removes the only constant control point and allows the opponent to extract their leg freely through the repositioning window.
-
-**Q2**: Your opponent is hiding their heel effectively by rotating their knee inward in cross ashi - how does this defensive reaction create the optimal window for the 50-50 transition?
-**A**: When the opponent rotates their knee inward to hide the heel, their defensive focus and physical effort are directed toward preventing the heel hook finish rather than monitoring the overall entanglement structure. This single-threat focus creates a cognitive and physical window where they are less likely to recognize and react to the leg repositioning. Additionally, their inward knee rotation actually assists the transition mechanically because it reduces their ability to extend and kick their leg free during the uncrossing moment.
-
-**Q3**: What are the prerequisites that must exist before initiating this transition?
-**A**: Four conditions must be present: established cross ashi top position with deep inside hook behind the opponent's hip, at least one hand secured on the heel in cup grip, the opponent's trapped leg extended and isolated rather than retracted with bent knee, and the opponent actively defending heel hook rather than in a neutral defensive state. Attempting the transition without these prerequisites dramatically reduces success rates and increases the risk of losing the entanglement entirely.
-
-**Q4**: During the transition, your opponent explosively sits up and begins framing on your hips - how do you adjust your execution?
-**A**: Use the opponent's upward momentum to your advantage by pulling their heel toward your chest while accelerating through the 50-50 threading. Their sit-up creates space between your bodies that actually makes the mirror leg positioning easier to complete. The key adjustment is pulling the heel tighter rather than pushing them back down, which redirects their sit-up energy into assisting your transition rather than creating separation. Once the 50-50 is established, their elevated posture is neutralized by driving your hips downward.
-
-**Q5**: What is the critical hip movement that differentiates a successful transition from one that stalls midway?
-**A**: The lateral hip scoot is the critical differentiator. Your hips must slide laterally to change from the cross ashi perpendicular alignment to the 50-50 mirror alignment. Practitioners who stall mid-transition typically try to rotate their hips rather than slide them, which creates torque against the opponent's leg that they can feel and resist. The lateral slide maintains your inside hook contact while smoothly repositioning into the mirror angle. Think of it as shifting your body sideways rather than turning.
-
-**Q6**: You complete the transition to 50-50 but your opponent immediately begins fighting for inside position - what is your priority in the first three seconds?
-**A**: Your absolute priority is establishing downward hip pressure before addressing inside position. Drive your pelvis into the opponent's lower abdomen to flatten them and prevent them from sitting up to contest inside control from an equal base. Once hip pressure pins them flat, inside position fighting becomes much easier because you have gravity and weight assisting your leg positioning. Trying to win inside position without establishing top pressure first creates a scramble where the opponent has equal chances of gaining dominant inside control.
-
-**Q7**: What is the most common failure point during the leg repositioning phase of this transition?
-**A**: The most common failure occurs during the uncrossing of the outside leg, specifically when the practitioner lifts the outside leg too high or takes too long to clear the opponent's shin. This creates an extended window where the entanglement has minimal control, held only by the inside hook and heel grip. The opponent feels the reduced pressure and reacts by retracting their knee or kicking free. The correction is to uncross with minimal lift, sliding the leg over the opponent's shin rather than lifting high to clear it.
-
-**Q8**: Your opponent begins extracting their leg as you uncross your outside leg - what alternative transitions are available if you cannot complete the 50-50 entry?
-**A**: Three primary alternatives exist depending on the degree of extraction. If extraction is minimal, abort and re-establish cross ashi by recrossing immediately. If the leg is partially extracted but your inside hook remains engaged, redirect into inside ashi-garami by following the extracting leg inward and closing your legs on the inside. If extraction is advanced but you still have ankle grip, transition to straight ankle lock control by shifting your outside leg over the ankle and applying downward pressure. The key decision point is how much inside hook contact remains.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Cross Ashi to 50-50?</p>
 
 While the Cross Ashi to 50-50 transition itself does not directly apply submission force, it occurs within the leg entanglement system where knee and ankle injuries are common. Maintain awareness that your heel grip during the transition could inadvertently apply rotational force on the opponent's knee if combined with sudden hip movement. During training, execute the transition at controlled speed and communicate with your partner before initiating so they do not panic and attempt explosive escapes that could strain their own knee ligaments. If the opponent taps during the transition due to discomfort in the entanglement, release immediately regardless of whether you were applying intentional submission force.
 

@@ -188,6 +188,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gift Wrap from Back?</p>
+
 - Maintain fundamental back control throughout the entire threading sequence—hooks, chest connection, and hip alignment must never be sacrificed for the arm trap
 - Capture the wrist or forearm before initiating the threading motion to prevent the opponent from retracting their arm during the transition
 - Thread the arm in one smooth motion rather than incremental adjustments that give the opponent time to counter each micro-movement
@@ -202,6 +204,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gift Wrap from Back?</p>
+
 - Established back control with at least one deep hook inside the opponent's thigh or body triangle locked for reliable hip control
 - Seatbelt or harness grip with one arm over the opponent's shoulder and one under the armpit, hands connected
 - Clear identification of the target arm—the arm most accessible for capture based on opponent's current defensive posture
@@ -214,6 +218,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gift Wrap from Back step by step?</p>
 
 1. **Identify the target arm**: Assess which of the opponent's arms is most accessible for isolation. The ideal target is the arm defending your choking hand, as it is typically extended away from their body and its wrist is accessible. Alternatively, target the arm that the opponent has committed to a single defensive task, leaving it exposed and unable to quickly retract.
 2. **Secure wrist or forearm control**: With the hand that will thread the gift wrap, grip the target arm at the wrist or lower forearm. This grip must be firm and immediate—any delay allows the opponent to retract the arm. Use a C-grip or pistol grip depending on whether you are in gi or no-gi, ensuring the grip is deep enough to control the arm through the threading motion.
@@ -243,6 +249,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gift Wrap from Back?</p>
+
 - **Opponent pins elbow tight to ribs preventing arm isolation** (Effectiveness: High) - Your Response: Switch to attacking the opposite arm if it is more accessible, or use your free hand to pry the elbow away from the ribs by inserting your fingers behind the elbow and levering it outward. Alternatively, attack the neck to force them to raise the arm for defense. → Leads to [[Positions/Back Control]]
 - **Opponent strips wrist control with their free hand before threading completes** (Effectiveness: Medium) - Your Response: Immediately re-engage the seatbelt grip to prevent position loss, then reattempt the capture when the opponent's free hand returns to neck defense. Chain the gift wrap attempt with a choke feint to force the defending hand back to the neck. → Leads to [[Positions/Back Control]]
 - **Opponent explosively bridges and rotates during the arm threading moment** (Effectiveness: Medium) - Your Response: Abandon the gift wrap attempt immediately and prioritize re-securing hooks and seatbelt control. Drive your hips forward and chest down to absorb the bridge energy. If rotation continues, follow their movement and look to re-establish back control or transition to a mounted position. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gift Wrap from Back?</p>
 
 ### 1. Releasing hooks or body triangle during the arm threading to focus entirely on the upper body grip transition
 
@@ -293,6 +303,8 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gift Wrap from Back (Attacker)?</p>
+
 **Phase 1: Mechanics** - Threading motion and grip placement
 Practice the complete threading sequence from back control with a compliant partner. Focus on smooth wrist capture, arm threading under the armpit, and pulling the arm high across the chest. Perform 20 repetitions per side with zero resistance to build the motor pattern before adding any defensive pressure.
 
@@ -313,42 +325,12 @@ Partner specifically defends the gift wrap with known counters—elbow pinch, wr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Gift Wrap entry from back control?
-**A**: The optimal timing window occurs when the opponent commits one arm to a specific defensive task, such as defending the rear naked choke with their choking-side hand or reaching down to fight your hooks. This commitment extends the arm away from their body and prevents immediate retraction when you capture the wrist. Creating this commitment through choke feints or grip switches is often more reliable than waiting passively for the opening to appear.
-
-**Q2**: What entry requirements must be established before attempting the Gift Wrap from Back?
-**A**: You need established back control with at least one deep hook or body triangle for hip control, seatbelt or harness grip for upper body control, chest-to-back connection for stability, and clear access to one of the opponent's wrists or forearms. Attempting the gift wrap without these prerequisites creates excessive risk of losing the back position during the grip transition.
-
-**Q3**: What is the most critical mechanical detail during the arm threading phase?
-**A**: The threading arm must pass completely under the opponent's armpit and reach the far side of their body before pulling the arm across the chest. Incomplete threading—where the arm only partially passes under the armpit—creates a weak control point that the opponent can defeat through shoulder rotation. The full threading path creates a mechanical lock where the trapped arm is held against both your arm and the opponent's own torso.
-
-**Q4**: What is the most common failure point when attempting the Gift Wrap from Back?
-**A**: The most common failure point is losing back control fundamentals during the grip transition. When practitioners focus entirely on the arm capture and threading, they unconsciously relax their hooks, separate their chest from the opponent's back, or shift their hips out of alignment. This creates enough space for the opponent to begin escaping before the gift wrap is established. Maintaining back control structure during the transition is more important than speed of execution.
-
-**Q5**: What grip configuration provides the most reliable wrist capture for initiating the Gift Wrap?
-**A**: A C-grip on the opponent's wrist or lower forearm provides the most reliable capture because it wraps around the narrowest part of the arm and resists rotational grip breaks. In no-gi, a pistol grip on the wrist is equally effective. The grip should be secured before any seatbelt release occurs, ensuring you maintain control of the target arm throughout the transition. Gripping too high on the forearm reduces leverage and makes the capture easier to strip.
-
-**Q6**: What is the primary direction of force when pulling the opponent's arm into the Gift Wrap configuration?
-**A**: The primary force direction is diagonal—pulling the opponent's arm from their trapped-arm shoulder across their sternum toward the opposite shoulder. This diagonal path creates the longest control line across the opponent's chest and maximizes the mechanical advantage of the wrap. Pulling straight across horizontally or downward toward the waist creates a shorter, weaker control line that the opponent can defeat through shoulder rotation or arm extraction.
-
-**Q7**: Your opponent defends the Gift Wrap by grabbing their own wrist to anchor the arm—how do you respond?
-**A**: Attack the anchoring grip with two-on-one grip breaking, peeling their fingers from their own wrist or gi. Alternatively, switch to attacking the neck with the free hand, which forces them to release the anchor grip to defend the choke. The moment they release the anchor to fight the choke, immediately re-capture the now-freed wrist and complete the threading. This creates a dilemma between defending the gift wrap and defending the choke.
-
-**Q8**: If the Gift Wrap attempt is blocked, what chain attacks should you transition to from back control?
-**A**: If the gift wrap is denied, immediately re-secure the seatbelt and attack the rear naked choke, as the opponent's defensive effort against the gift wrap may have disrupted their neck protection. If the neck is still defended, attempt the gift wrap on the opposite arm, which may be less defended after the opponent focused on protecting the first arm. You can also transition to a crucifix entry if both arms become briefly exposed during the defensive scramble, or use the distraction to tighten your body triangle for improved positional control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gift Wrap from Back?</p>
 
 The Gift Wrap from Back involves pulling the opponent's arm across their body, which places stress on the shoulder joint, particularly the rotator cuff and anterior deltoid. Apply the arm threading and pulling motion progressively rather than jerking the arm into position. In training, communicate with partners about shoulder flexibility limitations before drilling. If a training partner indicates shoulder discomfort at any point, release the arm trap immediately and adjust the angle or tightness of the wrap. Avoid cranking the arm past the midline of the chest, as this can create a pain-compliance submission rather than a positional control. Monitor for signs of excessive shoulder rotation that could indicate impending injury.
 

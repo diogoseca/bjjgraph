@@ -166,6 +166,8 @@ Successful defense requires proactive control maintenance rather than reactive s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg X Recovery?</p>
+
 - Opponent's hands shift from heel defense to pushing against your inside knee, indicating they are prioritizing extraction over submission defense
 - Hip rotation toward your far leg begins, creating the diagonal threading angle that precedes leg extraction
 - Opponent's dorsiflexion becomes exaggerated and deliberate, suggesting they are preparing for a high-risk extraction where heel exposure is possible
@@ -177,6 +179,8 @@ Successful defense requires proactive control maintenance rather than reactive s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg X Recovery?</p>
 
 - Maintain deep inside leg control on opponent's thigh to deny the space needed for leg threading
 - Keep constant grip pressure toward the heel to exploit any dorsiflexion lapse during extraction
@@ -191,6 +195,8 @@ Successful defense requires proactive control maintenance rather than reactive s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg X Recovery?</p>
 
 ### 1. Drive inside leg deep to establish saddle position
 
@@ -228,6 +234,8 @@ Successful defense requires proactive control maintenance rather than reactive s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg X Recovery?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 When opponent creates space by pushing your inside knee away, use that momentum to step your inside leg through and deepen the entanglement to saddle. Their extraction attempt actually assists your transition to a superior control position with immediate submission threats.
@@ -243,6 +251,8 @@ Maintain deep inside leg control and constant heel-side grip pressure throughout
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg X Recovery?</p>
 
 ### 1. Allowing inside leg to become shallow by not actively driving knee into opponent's thigh
 
@@ -272,6 +282,8 @@ Maintain deep inside leg control and constant heel-side grip pressure throughout
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg X Recovery?</p>
+
 **Week 1-2** - Recognition and control maintenance
 Practice maintaining deep inside leg control while partner performs slow-speed recovery attempts. Focus on feeling when partner pushes your knee and responding with increased forward pressure rather than passive acceptance.
 
@@ -288,29 +300,6 @@ Start in Ushiro Ashi-Garami top with partner working genuine recovery attempts. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Single Leg X Recovery?
-**A**: The earliest cue is their hands shifting from heel defense to your inside knee. When the bottom player stops protecting their heel and begins pushing against your knee, they have committed to an extraction-based recovery rather than continued submission defense. This grip change precedes the hip rotation by one to two seconds.
-
-**Q2**: Your opponent starts pushing your inside knee away - what is your immediate priority?
-**A**: Drive your inside leg deeper into their thigh rather than allowing the space creation. If they are pushing your knee, they have stopped defending their heel—recognize this as both a recovery threat and a submission opportunity. Either deepen to saddle by stepping through, or attack the now-undefended heel, but never passively accept the space.
-
-**Q3**: When should you transition to saddle rather than trying to maintain Ushiro Ashi-Garami?
-**A**: Transition to saddle when opponent has successfully created threading space but has not yet completed extraction. Their knee push has created room for your inside leg to step deeper into a saddle configuration. This is superior to fighting to maintain ushiro because their space creation actually assists your saddle entry, converting their escape attempt into a positionally worse outcome.
-
-**Q4**: How do you exploit the moment when your opponent's dorsiflexion lapses during threading?
-**A**: The threading motion creates a brief window where the opponent's foot may extend or relax as they focus on navigating their leg through the entanglement. In this moment, quickly secure a two-on-one grip on their heel and begin rotational pressure. This converts their escape attempt into a submission opportunity, but you must be confident in the grip before committing.
-
-**Q5**: Your opponent has established foot on your hip but has not completed the full Single Leg X hooks - what options remain?
-**A**: You still have a viable defensive window. Circle away on your far leg to break their foot-on-hip connection before they can hook behind your knee with their inside leg. Simultaneously, work to re-establish control on their ankle to prevent them from completing the structure. If their foot is firmly planted, address it by cupping and redirecting rather than pulling straight away.
-
-
-
-</section>
 
 
 </main>

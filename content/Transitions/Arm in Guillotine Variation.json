@@ -14,7 +14,7 @@
   "from_position": "Guillotine Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Arm in Guillotine",
       "probability": 55,
       "result": "success"
     },
@@ -231,7 +231,7 @@
         "description": "Positional sparring starting from guillotine control top. When the arm-in configuration presents, execute the full finishing sequence against full resistance. Develop the decision tree for when to persist with the arm-in, when to transition to standard guillotine, and when to use the choke threat for positional advancement. Integrate into full rolling as part of the front headlock attack system."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What distinguishes the arm-in guillotine grip mechanics from a standard guillotine grip?",
         "answer": "The arm-in guillotine traps the opponent's near-side arm inside the choking loop, creating bilateral neck compression where the attacker's forearm pressures one side of the throat while the opponent's own trapped shoulder and bicep compress the opposite carotid artery. This is structurally different from the standard guillotine where both arms remain outside and the choking pressure comes primarily from the attacker's forearm across the throat. The arm-in configuration requires adjusting the grip angle to accommodate the trapped arm's volume and typically uses a higher elbow position to create the scissoring action needed for effective compression."
@@ -343,7 +343,7 @@
         "correction": "Tuck your chin tightly as the absolute first action, then work arm extraction. Chin protection buys the additional seconds needed to execute the escape sequence. Without chin protection, you may have an extremely narrow window before losing consciousness."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest signs that your arm has been trapped in an arm-in guillotine configuration?",
         "answer": "The earliest signs are feeling your near-side arm pinned between the attacker's forearm and the side of your own neck with restricted mobility, combined with pressure developing on both sides of your neck simultaneously rather than just the front. You will notice that your trapped-side hand cannot reach the attacker's grip to fight it, and you cannot turn your body toward the choking arm effectively. Recognizing these cues in the first one to two seconds is critical because defensive options narrow rapidly once the attacker secures their grip connection and begins finishing mechanics."

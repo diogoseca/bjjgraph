@@ -164,6 +164,8 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape to Guard?</p>
+
 - Bottom player's near-side elbow begins moving inward toward their own neck rather than maintaining turtle posture
 - Bottom player tucks chin aggressively and their shoulder rotates slightly as they prepare to insert the elbow wedge
 - Bottom player's hips begin shifting diagonally away from your pressure rather than remaining centered under your weight
@@ -175,6 +177,8 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape to Guard?</p>
 
 - Maintain perpendicular chest pressure and heavy hips to prevent the bottom player from creating space for the elbow wedge
 - Secure both grips with maximum depth before applying finishing pressure to eliminate the early escape window
@@ -189,6 +193,8 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape to Guard?</p>
 
 ### 1. Drive choking forearm deeper and increase chest pressure immediately when you feel elbow movement toward neck
 
@@ -226,6 +232,8 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape to Guard?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Shut down the escape in its early phase by increasing chest pressure and forearm depth before the elbow wedge can establish. Maintain heavy hips on their near hip and drive your head tight against their far shoulder to prevent any rotational movement. If you detect chin tuck, immediately apply finishing pressure to force the tap before they can begin the escape sequence.
@@ -241,6 +249,8 @@ When the escape has progressed too far for the choke to finish, release grips an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape to Guard?</p>
 
 ### 1. Allowing the bottom player to insert elbow wedge without immediately increasing pressure or stripping it
 
@@ -270,6 +280,8 @@ When the escape has progressed too far for the choke to finish, release grips an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape to Guard?</p>
+
 **Week 1-2** - Recognition and early intervention
 Practice identifying the chin tuck and elbow movement cues with a cooperative partner who telegraphs the escape. Focus on immediately increasing pressure upon recognition. Drill the forearm-deepening response and chest pressure increase as reflexive reactions to the early escape signals.
 
@@ -286,29 +298,6 @@ Full resistance positional rounds starting from established buggy choke. Top pla
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating the Elbow Escape to Guard?
-**A**: The earliest cue is the bottom player's aggressive chin tuck combined with their near-side elbow beginning to move inward toward their own neck. This elbow movement is the tell—standard turtle posture keeps elbows wide for base, so any inward elbow migration signals the wedge attempt. Responding at this initial phase before the wedge establishes gives you the highest probability of maintaining the buggy choke.
-
-**Q2**: Your choking pressure is being reduced by the elbow wedge but the bottom player has not yet hip escaped—what is your best response?
-**A**: Attempt to strip the wedge by driving your choking forearm deeper and rotating your wrist to slide past the elbow point. Simultaneously increase perpendicular chest pressure to pin them before they can begin the hip escape. If stripping fails within 2-3 seconds, immediately transition your strategy—either follow their anticipated hip escape direction or begin converting to back control before they create significant space.
-
-**Q3**: When should you abandon the choke and transition to back control instead?
-**A**: Transition when the elbow wedge is fully established with collar reinforcement and the bottom player has begun creating space through hip escape. At this point, choke completion probability drops significantly and continued grip fighting wastes energy against a structural barrier. The hip escape movement actually facilitates back take because the bottom player is creating the separation you need to insert hooks. Follow their hip movement and hook the near leg immediately.
-
-**Q4**: How do you prevent the bottom player from chaining multiple hip escapes to progressively create space?
-**A**: Follow each hip escape by walking your hips and chest with them, maintaining chest-to-back connection throughout. Keep your head glued to their far shoulder as an anchor point—if your head stays connected, your body follows. Use short lateral steps rather than jumping to follow, which could create momentary airspace. The goal is to deny any cumulative space creation by matching their movement step for step.
-
-**Q5**: What adjustment prevents the gi-reinforced elbow wedge variant where the bottom player grabs their own collar?
-**A**: You must prevent the collar grip by controlling their wedging hand before it reaches the collar. If you feel the elbow wedge insert, immediately grab their wrist or hand with your free hand and pull it away from their collar before they can establish the reinforcing grip. Once the collar grip locks in, the wedge becomes extremely difficult to strip because it's no longer dependent on arm strength alone—the gi material provides structural reinforcement.
-
-
-
-</section>
 
 
 </main>

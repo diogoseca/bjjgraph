@@ -162,6 +162,8 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Electric Chair?</p>
+
 - Opponent secures a deep underhook reaching across your back toward your far lat or belt region
 - Increasing splitting pressure felt through your groin, hip, and inner thigh as opponent extends their hips
 - Opponent's free hand reaches for and grips your near ankle, pulling it toward their hip to create the split
@@ -174,6 +176,8 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Electric Chair?</p>
 
 - Recognize the Electric Chair setup early before all three control points are fully established
 - Drive weight forward and maintain heavy chest pressure to limit opponent's hip extension and splitting angle
@@ -188,6 +192,8 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Electric Chair?</p>
 
 ### 1. Drive weight forward with heavy chest pressure while posting far hand on mat for tripod base
 
@@ -225,6 +231,8 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Electric Chair?</p>
+
 ### → [[Positions/Side Control]]
 
 Break the lockdown configuration by addressing the foot triangle with knee pressure and hand separation, then use your freed leg to immediately pass to side control. Time the pass during opponent's grip adjustments or when they momentarily reduce lockdown tension to re-grip.
@@ -240,6 +248,8 @@ Shut down the sweep by driving forward pressure with your chest and establishing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Electric Chair?</p>
 
 ### 1. Attempting explosive leg extraction without breaking the lockdown foot triangle first
 
@@ -269,6 +279,8 @@ Shut down the sweep by driving forward pressure with your chest and establishing
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Electric Chair?</p>
+
 **Phase 1: Recognition** - Identifying Electric Chair sweep setup cues
 Partner establishes Electric Chair from lockdown with progressive grip development. Practice recognizing each control point as it forms and identifying the moment the sweep threat becomes real. Focus purely on recognition without active defense to build pattern awareness.
 
@@ -285,29 +297,6 @@ Positional sparring starting in Electric Chair top against full resistance. Prac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first priority when you recognize the Electric Chair sweep setup developing?
-**A**: Your first priority is preventing the underhook from reaching full depth across your back. If the underhook is already established, immediately fight to establish crossface pressure to limit sweeping leverage. Simultaneously drive weight forward to prevent the hip extension that powers both the sweep and the submission. Addressing the most immediate threat first, then working toward lockdown breaking is the correct sequence.
-
-**Q2**: How do you distinguish between the opponent setting up the sweep versus the submission from Electric Chair?
-**A**: The sweep is characterized by the opponent beginning a rolling motion toward their underhook side with coordinated hip extension. The submission involves the opponent staying more stationary while increasing outward splitting pressure through sustained hip drive. However, both threats share the same setup controls, which is why early intervention before the position is fully established is the most effective defense against both threats simultaneously.
-
-**Q3**: What adjustments do you make when the sweep is already in motion and cannot be prevented?
-**A**: If the sweep is past the point of no return, do not fight the roll or you risk knee injury from the lockdown. Flow with the momentum and immediately fight for underhook or head control as you arrive on bottom. Your goal shifts from preventing the sweep to preventing consolidated mount. Frame immediately as you land, work to insert a knee shield before they settle their hips, and look for half guard recovery.
-
-**Q4**: When is it safe to attempt breaking the lockdown versus when should you prioritize base?
-**A**: Prioritize base and sweep prevention when the opponent is actively extending hips and generating splitting pressure. Only attempt lockdown breaks during pauses between attacks, when the opponent adjusts grips, or when they momentarily reduce lockdown tension to reach for the ankle. Breaking the lockdown while under active sweep pressure divides your attention and typically results in being swept mid-attempt.
-
-**Q5**: What body positioning minimizes both sweep and submission risk simultaneously?
-**A**: Keep your weight forward with chest pressure on opponent's upper body while your hips stay as low as possible. Post your free leg wide at approximately 45 degrees for maximum base stability. Use your nearside arm for crossface pressure and your farside arm to fight the underhook depth. Apply the limp leg concept to your trapped leg to reduce the lockdown's mechanical effectiveness. This posture limits hip extension while providing broad base against the roll.
-
-
-
-</section>
 
 
 </main>

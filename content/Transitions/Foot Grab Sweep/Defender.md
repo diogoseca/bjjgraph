@@ -166,6 +166,8 @@ Defensive success depends on disciplined base management, active grip fighting, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Foot Grab Sweep?</p>
+
 - Opponent's free hand reaches low toward your ankle or foot rather than fighting for upper body grips
 - Opponent uses their legs to push one of your knees or hips laterally, attempting to shift your weight onto one leg to expose the other foot
 - Opponent pulls sharply on your sleeve or collar while simultaneously scooting their hips closer, creating the angle needed for the foot grab
@@ -178,6 +180,8 @@ Defensive success depends on disciplined base management, active grip fighting, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Foot Grab Sweep?</p>
 
 - Maintain staggered stance with weight distributed across both legs to prevent isolation of a single base point
 - Keep feet active and mobile rather than flat-footed, making them difficult targets for the sweeper to grip
@@ -192,6 +196,8 @@ Defensive success depends on disciplined base management, active grip fighting, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Foot Grab Sweep?</p>
 
 ### 1. Retract the targeted foot and circle away from the sweep direction while maintaining your upper body posture
 
@@ -229,6 +235,8 @@ Defensive success depends on disciplined base management, active grip fighting, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Foot Grab Sweep?</p>
+
 ### → [[Positions/Seated Guard]]
 
 Defend the sweep by retracting the targeted foot early, breaking the upper body grip, or loading weight onto the grabbed foot to kill the sweep mechanics. Any of these actions returns the position to the starting state where you retain your passing initiative and the opponent must rebuild their attack from scratch.
@@ -244,6 +252,8 @@ Convert the sweep defense into a guard pass by timing a step-over or leg drag as
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Foot Grab Sweep?</p>
 
 ### 1. Standing with a square, even stance directly in front of the seated guard player
 
@@ -278,6 +288,8 @@ Convert the sweep defense into a guard pass by timing a step-over or leg drag as
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Foot Grab Sweep?</p>
+
 **Week 1-2: Recognition and stance discipline** - Identifying sweep setup cues and maintaining proper stance
 Partner drills the foot grab sweep at slow speed while you practice recognizing the setup sequence. Focus on maintaining a staggered stance and identifying the moment the hand drops toward your foot. No active defense yet, purely pattern recognition and base awareness.
 
@@ -294,29 +306,6 @@ Full resistance sparring from standing over seated guard. Partner uses foot grab
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a foot grab sweep is being set up, and why does early recognition matter?
-**A**: The earliest cue is the opponent's free hand dropping below your knee line while they maintain an upper body grip with the other hand. This two-grip coordination (high and low) is the signature setup for the foot grab sweep. Early recognition matters because the defensive window shrinks dramatically once both grips are secured. Defending during the reach phase (before the foot grip) has a much higher success rate than defending after both grips are locked in and the hip drive has begun.
-
-**Q2**: Why is a staggered stance more effective than a square stance when defending against foot grab sweeps?
-**A**: A staggered stance creates unequal distances to each foot, making it impossible for the sweeper to threaten both feet simultaneously. The lead foot is closer but carries less weight, so grabbing it has reduced sweeping effect. The rear foot is out of range entirely. A square stance presents both feet at equal distance with equal weight distribution, giving the sweeper their choice of target. The staggered stance also naturally biases your weight rearward, which makes you harder to pull forward into the sweep's rotational arc.
-
-**Q3**: Your opponent has gripped your right foot and your left sleeve - what should you address first and why?
-**A**: Address the left sleeve grip first. The upper body grip is the anchor that generates the off-balancing pull needed to make the foot grab effective. Without that anchor, the foot grip alone lacks the mechanical advantage to complete the sweep. By breaking the sleeve grip, you remove the opposing force that creates the scissoring effect. Once the sleeve grip is broken, you can retract your foot freely or simply load weight onto it to neutralize the remaining control. Trying to free the foot first while the sleeve grip remains intact often results in the opponent simply adjusting and re-gripping the foot.
-
-**Q4**: How can you convert a foot grab sweep defense into a guard passing opportunity?
-**A**: When the opponent reaches for your foot, their upper body opens and their hips commit to a specific angle. This creates a passing window. As you retract the targeted foot, immediately redirect your momentum into a toreando pass by gripping their knees and swinging their legs to the side. Alternatively, as they commit to the sweep angle, step over their lower body with the non-targeted foot and establish a leg drag position. The reach for your foot takes one of their hands away from guard retention, and their hip commitment to the sweep angle means they cannot quickly adjust to defend the pass.
-
-**Q5**: What is the correct response if the foot grab sweep is already in full motion and you feel yourself being elevated?
-**A**: Once the sweep is in full motion with hip elevation and rotational force, attempting to resist the sweep directly usually fails and can result in awkward landings. Instead, post your far hand on the mat in the direction you are falling, use that post to base out and prevent your shoulders from hitting the mat. Immediately work to establish a strong base from the posted hand, scramble your hips forward, and try to end up in a neutral position rather than flat on your back. If you cannot prevent the sweep, focus on landing in a way that allows immediate guard recovery rather than ending up in a consolidated side control.
-
-
-
-</section>
 
 
 </main>

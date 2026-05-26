@@ -154,6 +154,8 @@ As the top player in headquarters, defending against sweep attempts is essential
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Headquarters?</p>
+
 - Bottom player begins fighting for an underhook on the near side, swimming their arm inside your arm to access your waist or hip
 - Free leg becomes active with the bottom player inserting a butterfly hook under your thigh or establishing shin contact on your posting leg
 - Bottom player hip escapes to create an angle rather than lying flat, indicating they are loading a sweep direction for the reversal
@@ -166,6 +168,8 @@ As the top player in headquarters, defending against sweep attempts is essential
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Headquarters?</p>
 
 - Maintain triangulated base with wide posting leg positioning to resist directional sweep forces from any angle
 - Recognize underhook and hook insertion attempts early and deny them before the sweep setup is complete
@@ -180,6 +184,8 @@ As the top player in headquarters, defending against sweep attempts is essential
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Headquarters?</p>
 
 ### 1. Widen base and drop weight low to neutralize sweep angle
 
@@ -217,6 +223,8 @@ As the top player in headquarters, defending against sweep attempts is essential
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Headquarters?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 Recognize sweep setups early and deny the underhook or hook insertion before the sweep can be loaded. Widen base proactively and maintain centered weight distribution to make sweep completion mechanically impossible while preserving headquarters control.
@@ -232,6 +240,8 @@ Use the bottom player's sweep commitment against them by driving forward through
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Headquarters?</p>
 
 ### 1. Ignoring the bottom player's free leg and allowing hook insertion without immediate reaction
 
@@ -261,6 +271,8 @@ Use the bottom player's sweep commitment against them by driving forward through
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Headquarters?</p>
+
 **Phase 1: Recognition** - Identifying sweep setups from headquarters top
 Partner works sweep entries while you focus solely on recognizing the cues—underhook attempts, hook insertions, hip angle changes. Call out each setup element as you identify it without attempting to counter. Build the pattern recognition that enables early defensive responses.
 
@@ -277,26 +289,6 @@ Full resistance rounds starting from headquarters against a partner whose primar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a sweep from headquarters is being initiated?
-**A**: The earliest cues are the bottom player fighting for an underhook on the near side and their free leg becoming active with hook insertion attempts. Hip escape movement creating an angle is another early indicator. These setup actions must be addressed immediately, as the sweep becomes exponentially harder to defend once the underhook and hook are both established and the sweep angle is loaded.
-
-**Q2**: How should you adjust your base when you feel the bottom player inserting a butterfly hook?
-**A**: Immediately widen your posting leg and drop your hips lower to increase base stability against the hook's elevation force. Use your free hand to block or push down the hooking leg before it gets fully inserted under your thigh. If the hook is already in, backstep away from the hook's direction to remove your leg from the elevation angle rather than trying to muscle through the sweep with weight alone.
-
-**Q3**: What is the most dangerous moment for the top player during a sweep attempt from headquarters?
-**A**: The most dangerous moment is during your own passing transitions when weight shifts directionally to initiate a knee cut, toreando, or leg drag. At these moments your base is momentarily compromised and directionally committed, creating the exact vulnerability the sweep exploits. Maintaining awareness of sweep threats during transitions and keeping at least one stable base point throughout the movement is essential for safe headquarters passing.
-
-**Q4**: How can you turn a failed sweep attempt by the bottom player into a passing opportunity?
-**A**: When the bottom player commits to a sweep and fails, their hips are typically angled and their grips are extended for offense rather than guard retention, creating openings in their guard structure. Drive forward immediately through the failed sweep angle to exploit this gap. Their commitment to the sweep means their free leg and arms are positioned for offense rather than defense, making passes such as knee cuts or toreando significantly easier to complete before they can reorganize.
-
-
-
-</section>
 
 
 </main>

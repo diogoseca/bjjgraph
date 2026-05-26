@@ -186,6 +186,8 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Russian Tie to Back Take?</p>
+
 - Establish 2-on-1 control with proper hand positioning on opponent's wrist and tricep, pulling their arm across their centerline
 - Position your forehead on the bicep side of the controlled arm to prevent their rotation and establish the angle
 - Create angles by stepping laterally at 45 degrees rather than pulling straight back
@@ -201,6 +203,8 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Russian Tie to Back Take?</p>
+
 - Standing position established with both grapplers on feet and actively engaged
 - Clear access to opponent's lead arm or wrist through grip fighting or hand fighting exchanges
 - Opponent not already defending back exposure or in turtle defensive position
@@ -214,6 +218,8 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Russian Tie to Back Take step by step?</p>
 
 1. **Establish Russian Tie grip**: From standing, secure a 2-on-1 control on opponent's lead arm. Your lead hand grips their wrist with thumb on top, fingers wrapped underneath. Your trailing hand grips their tricep just above the elbow. Pull their arm slightly across their centerline while positioning your forehead against the outside of their bicep. This head position is critical - it prevents them from rotating toward you and establishes the angle needed for the entire sequence.
 2. **Create angle and apply pressure**: Drive your forehead into their bicep while simultaneously pulling their wrist down and across. This creates a bent-arm position that weakens their structure. Step your lead foot (same side as their controlled arm) laterally and slightly forward at a 45-degree angle. Your body should be angling toward their back rather than directly facing them. Maintain downward pressure on their wrist to prevent them from straightening their arm and recovering posture.
@@ -242,6 +248,8 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Russian Tie to Back Take?</p>
+
 - **Opponent pulls their controlled arm back explosively to strip the 2-on-1 grip** (Effectiveness: Medium) - Your Response: Follow their pull by stepping forward and converting to single leg or ankle pick on the near leg. Their backward pull creates forward momentum you can exploit for lower body attacks. Alternatively, use the momentum to accelerate your circle if grip is maintained. → Leads to [[Positions/Standing Position]]
 - **Opponent turns into you aggressively and establishes a body lock or underhook** (Effectiveness: High) - Your Response: Immediately limp arm out of their grip by rotating your shoulder internally and dropping weight. Use a whizzer on their underhook side to prevent them from consolidating control. Reset to neutral distance or switch to a snap down if they overcommit forward. → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls backward dropping their hips and making themselves heavy** (Effectiveness: Medium) - Your Response: Adjust angle to be more lateral rather than forward-driving. Their backward weight shift actually prevents them from rotating to track you. Maintain head pressure on their bicep and continue small lateral steps. Their heavy sprawl makes the back take more accessible if you keep proper angle. → Leads to [[Positions/Standing Position]]
@@ -253,6 +261,8 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Russian Tie to Back Take?</p>
 
 ### 1. Pulling straight back on opponent's arm instead of creating lateral angle
 
@@ -292,10 +302,12 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Russian Tie to Back Take (Attacker)?</p>
+
 **Week 1-2: Grip and Position Familiarization** - Learning proper Russian Tie grip structure and head position
 Practice establishing the 2-on-1 grip from various standing positions. Partner provides no resistance. Focus on correct hand placement (wrist and tricep grips) and proper head position on bicep. Drill the feeling of pulling arm across centerline. Repetitions: 20-30 per session on each side.
 
-**Week 3-4: Angle Creation and Basic Circle** - Developing lateral movement and angle generation
+**Week 3-4: Dominant Angles and Basic Circle** - Developing lateral movement and angle generation
 With Russian Tie established, practice taking lateral steps and creating 45-degree angle. Partner maintains neutral stance but does not defend. Focus on footwork patterns and maintaining constant pressure. Practice circling motion without rushing. Repetitions: 15-20 complete circles per session.
 
 **Week 5-8: Back Take Completion** - Smooth transition from Russian Tie to seat belt back control
@@ -315,48 +327,12 @@ Use Russian Tie to Back Take in live sparring rounds starting from standing. Pra
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct hand and head positioning for the Russian Tie control?
-**A**: The Russian Tie requires a 2-on-1 grip where your lead hand grips opponent's wrist with thumb on top and fingers underneath, while your trailing hand grips their tricep just above the elbow. Your forehead should be pressed firmly against the outside of their bicep on the same side as the controlled arm. This three-point structure (wrist, tricep, head) prevents their rotation and is the mechanical foundation of the entire technique.
-
-**Q2**: Why is lateral movement at 45-degree angles more effective than pulling straight backward?
-**A**: Lateral movement creates an angular relationship where the opponent cannot effectively square up to defend because their controlled arm acts as a tether preventing rotation in your direction. Pulling straight back allows them to simply face you and maintain neutral position. The lateral circle exploits the mechanical disadvantage of having one arm controlled while trying to track movement toward the back. Additionally, lateral steps maintain your base while backward pulling tends to compromise your posture.
-
-**Q3**: Your opponent explosively pulls their controlled arm back while you have the Russian Tie established - how do you respond?
-**A**: Follow their backward pull by stepping forward and converting immediately to a single leg or ankle pick on the near leg. Their backward arm pull creates forward momentum and weight shift onto their heels that you can exploit for lower body attacks. If you still have partial grip, use the momentum to accelerate your circle rather than fighting the pull. The key is reading the pull early and flowing with it into a chain attack rather than fighting to re-establish the original control.
-
-**Q4**: At what exact point in the sequence should you release the wrist grip, and what happens if you release too early or too late?
-**A**: Release the wrist grip only when your hip has cleared their near hip and you are at a perpendicular angle, ready to shoot your arm under their far armpit for the first seat belt hook. Releasing too early, before achieving the perpendicular angle, allows the opponent to turn and face you since you lose the primary rotational control. Releasing too late delays your seat belt establishment, giving them time to begin defensive rotations or counter-grips that prevent you from consolidating the back position.
-
-**Q5**: What grip fighting conditions must exist before you should commit to establishing the Russian Tie?
-**A**: You need either a grip fighting advantage (such as having already cleared their initial grips) or at minimum a neutral hand position where you can isolate one of their arms without them controlling both of yours. Common setups include winning an inside collar tie battle, stripping their sleeve grip to expose their wrist, or catching their arm during a failed grip attempt. Committing both hands to one arm without first winning the hand fight risks having the 2-on-1 stripped immediately while leaving you in a worse grip position.
-
-**Q6**: Your opponent turns hard into you during the circling phase and tries to establish a body lock - what is the critical defensive response?
-**A**: Immediately rotate your controlled-side shoulder internally and limp arm out of their grip attempt by dropping your weight and widening your base. Simultaneously insert a whizzer on their underhook side to prevent them from locking hands behind you. If they get the body lock before you can limp out, peel their hands apart using two-on-one grip breaks on the clasped hand. The critical timing window is recognizing the turn-in early and responding before they lock the body lock, because once locked it becomes a high-effectiveness counter.
-
-**Q7**: How does the direction of force change throughout the six execution steps?
-**A**: In step 1, force is directed inward pulling the arm across their centerline. In step 2, force shifts to a downward-and-across vector bending their arm. In steps 3-4, force becomes primarily lateral and slightly forward as you circle, with continuous head pressure driving into their bicep. In step 5, force transitions to a chest-forward drive as you shoot the seat belt and establish back contact. In step 6, force becomes compressive, squeezing chest-to-back and securing hooks. The transition from lateral circling force to forward compressive force at step 5 is the most technically demanding directional change.
-
-**Q8**: If the back take is blocked and the opponent squares back up to you, what are your best chain attack options from the retained Russian Tie?
-**A**: From a retained Russian Tie after a blocked back take attempt, the three highest-percentage chain attacks are: (1) snap down to front headlock by pulling their controlled arm down while driving your head pressure downward, capitalizing on their forward weight shift from resisting the circle; (2) low single leg by dropping your level and converting the wrist grip to a leg grip on their near thigh; (3) re-attempting the circle from the opposite direction by switching head position and circling the other way, which catches opponents who have committed their defense to one rotational direction.
-
-**Q9**: What is the most critical hip movement during the clearing phase, and why does it determine success or failure?
-**A**: The most critical hip movement is driving your lead hip past their near hip during step 4. This hip clearing action determines success because it establishes the perpendicular angle from which the back take becomes mechanically inevitable. If your hip stays in front of theirs, you remain in a frontal engagement where they can square up. Once your hip passes theirs, their ability to rotate toward you is blocked by your entire body being on the back side of their hip line. Accelerating through this clearing point with continuous small steps prevents them from adjusting their defense.
-
-**Q10**: Your opponent sprawls backward and drops their hips while you have the Russian Tie - why does this actually help your back take rather than hinder it?
-**A**: When the opponent sprawls backward and drops their hips, they commit their weight away from you in a direction that prevents rotational movement. Their heavy sprawl makes it biomechanically difficult for them to turn to face you because their hips are behind their shoulders and their weight is committed to the mat. This means your lateral circling meets less rotational resistance. Continue small lateral steps while maintaining head pressure on their bicep, and their inability to turn will allow you to reach the perpendicular angle more easily than against an upright, mobile opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Russian Tie to Back Take?</p>
 
 The Russian Tie to Back Take is generally a safe technique when practiced properly, but practitioners should be aware of several safety considerations. When applying the Russian Tie grip, avoid hyperextending the opponent's wrist or elbow by maintaining control without excessive torque on joints. During drilling with beginners, ensure your partner understands they can tap if they feel unsafe during the rotation to back control. When circling, be aware of mat boundaries and other training pairs to prevent accidental collisions. The most common injury risk occurs when practitioners take overly large steps and lose balance, potentially causing both partners to fall awkwardly on standing surfaces. Always maintain controlled movement rather than explosive rushing. In competition scenarios, be cautious of opponents attempting sacrifice throws or guard pulls while you have Russian Tie control - maintain a low base and be prepared to follow them to the ground safely. For training partners with shoulder or rotator cuff issues, communicate before drilling and apply lighter pressure on the controlled arm.
 

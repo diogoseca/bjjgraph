@@ -188,6 +188,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Shield from Quarter Guard?</p>
+
 - Create space before inserting the knee—never attempt to force the shield against settled chest-to-chest pressure without first establishing frames and hip angle
 - Hip escape timing must coordinate precisely with frame pressure to open the insertion window, as the space closes within one to two seconds
 - The knee must cross the opponent's centerline to create an effective barrier—a knee shield that stops short of center provides minimal defensive value
@@ -202,6 +204,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Shield from Quarter Guard?</p>
+
 - At least one arm is free for framing against opponent's chest, shoulder, or hip to create initial space
 - Hips retain enough mobility for at least a partial hip escape despite compromised quarter guard position
 - Opponent has not yet achieved full chest-to-chest flattening with crossface locked—some space remains between your bodies
@@ -214,6 +218,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Shield from Quarter Guard step by step?</p>
 
 1. **Recognize quarter guard predicament**: Identify that you are in quarter guard with minimal leg control remaining. Your hip has been passed but the guard is not yet fully completed. This recognition must happen within one second of arriving in quarter guard—delayed recognition means the window for recovery closes as opponent settles weight and eliminates space.
 2. **Establish initial frames**: Place your near-side forearm against opponent's chest or far shoulder and your far-side hand against their hip or bicep. These frames must create a structural barrier that arrests their forward momentum. Use bone-on-bone contact with your forearm perpendicular to their pressure direction for maximum frame strength with minimum energy expenditure.
@@ -243,6 +249,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Shield from Quarter Guard?</p>
+
 - **Heavy crossface pressure to flatten bottom player and prevent hip escape** (Effectiveness: High) - Your Response: Turn your head away from the crossface while driving frames into their chest before attempting the hip escape. If crossface is already locked, switch to deep half guard entry instead of fighting the crossface directly—go underneath their weight rather than against it. → Leads to [[Positions/Side Control]]
 - **Pinning the inserting knee with hand or shin pressure against the mat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your knee while simultaneously hip escaping to change the angle of insertion. If they commit a hand to control your knee, their upper body control weakens—exploit this by driving the underhook deeper or switching to a different recovery path. → Leads to [[Positions/Quarter Guard]]
 - **Accelerating hip advancement to close all space before knee can be inserted** (Effectiveness: High) - Your Response: If they drive forward explosively, redirect their momentum by pulling them over you with underhook while inserting a butterfly hook instead of knee shield. Their forward commitment makes them vulnerable to being loaded onto your structure for an elevation sweep. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Shield from Quarter Guard?</p>
 
 ### 1. Attempting knee insertion without first creating space through hip escape and frames
 
@@ -293,6 +303,8 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Shield from Quarter Guard (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Solo hip escape to knee insertion movement pattern
 Practice the frame-shrimp-insert sequence without a partner, focusing on the coordination of hip escape angle with knee insertion path. Perform fifty repetitions per side daily until the three-step sequence becomes a single fluid motion rather than three distinct movements.
 
@@ -313,42 +325,12 @@ Upon successful knee shield insertion, immediately chain into sweeps, submission
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for inserting the knee shield from quarter guard?
-**A**: The optimal window is within the first three to five seconds of entering quarter guard, before the top player can settle their weight and eliminate the space needed for knee insertion. The best specific moment is immediately after establishing frames and completing the hip escape, when the lateral distance is at its maximum. Delaying beyond five seconds typically results in the top player consolidating pressure that makes recovery exponentially harder with each passing second.
-
-**Q2**: Which leg should you use for the knee shield when recovering from quarter guard and why?
-**A**: Always use the near-side leg—the leg closest to the opponent's body. This leg has the shortest travel path to cross the opponent's centerline, requiring only a single knee drive from the hip escape angle. The far leg would need to travel twice the distance, taking longer and exposing your hips during the extended insertion. The near-side leg can be inserted in under one second with proper hip angle, while the far leg would take two to three seconds and telegraph the intention.
-
-**Q3**: What is the critical hip movement that creates space for knee insertion?
-**A**: The critical movement is a committed hip escape (shrimp) that moves your hips six to eight inches laterally away from the opponent's centerline while simultaneously turning you onto your side at a thirty to forty-five degree angle. This creates a diagonal corridor between your hip and the opponent's torso through which your knee can travel. The hip escape must be explosive and decisive—a partial or tentative shrimp creates insufficient space and wastes the brief window created by your frames.
-
-**Q4**: Your opponent drives heavy crossface pressure as you attempt the knee shield insertion—how do you adjust your approach?
-**A**: When facing heavy crossface, do not fight it head-on. Turn your head away from the crossface to reduce its effectiveness while driving your forearm frame into their chest to create separation. If the crossface is already deeply locked, abandon the knee shield attempt and instead enter deep half guard by scooping underneath their weight—their forward commitment to the crossface actually facilitates the deep half entry. The key decision point is whether your frames can create space despite the crossface: if yes, proceed with knee shield; if no, redirect to deep half.
-
-**Q5**: What grip should you establish immediately after successfully inserting the knee shield?
-**A**: In gi, the primary grip is a cross-collar grip with the hand on the shield side combined with a sleeve grip on the opposite side, creating a push-pull dynamic that reinforces the shield structure. In no-gi, establish an underhook on the non-shield side or a collar tie to anchor the upper body connection. The grip must be established within one second of knee insertion—without it, the shield is a temporary barrier that the opponent can pressure through or collapse within three to four seconds.
-
-**Q6**: How do you determine whether to attempt knee shield recovery versus transitioning to deep half guard from quarter guard?
-**A**: The decision depends on the opponent's weight distribution and your available space. If opponent's weight is distributed evenly or slightly back and your frames can create lateral space, attempt the knee shield—you have the room for your knee to travel across. If opponent has committed heavy forward pressure with deep crossface and chest-to-chest connection, redirect to deep half guard by scooping underneath their weight center instead. The dividing line is whether your forearm frames can push their chest away from yours by at least four inches—if yes, knee shield; if no, deep half.
-
-**Q7**: Your opponent pins your near-side knee with their hand as you begin the insertion—what is your immediate response?
-**A**: Use your free hand to strip their grip on your knee while simultaneously executing another hip escape to change the insertion angle. Their hand commitment to your knee means they have released either crossface or hip control, creating a different opening. If you cannot strip the grip quickly, redirect to an alternative recovery: use the free far-side leg to establish a butterfly hook instead of the knee shield, or transition the underhook into a back take attempt since their hand is occupied and not defending their back.
-
-**Q8**: What are the three sequential steps that must occur before the knee can be successfully inserted?
-**A**: The sequence is frame-shrimp-insert. First, establish forearm frames against the opponent's chest or shoulder to arrest their forward momentum and create initial space. Second, execute a committed hip escape to generate lateral distance and turn onto your side, opening the diagonal corridor for knee travel. Third, drive the near-side knee across the opponent's centerline toward their far shoulder. Skipping any step dramatically reduces success probability—inserting without frames fails against pressure, inserting without hip escape fails due to blocked path, and framing without follow-through wastes the created window.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Shield from Quarter Guard?</p>
 
 When drilling knee shield recovery from quarter guard, training partners should control the speed and intensity of passing pressure to prevent knee strain during the insertion phase. The inserting knee is vulnerable to lateral stress if the top player drives sideways against it before it is fully established across the centerline. Partners should avoid explosive sideways pressure against a partially inserted knee shield. Communicate clearly about intensity level before each round, and tap immediately if any knee discomfort occurs during insertion attempts. Gradually increase resistance over multiple training sessions rather than jumping to full intensity, particularly for practitioners returning from knee injuries.
 

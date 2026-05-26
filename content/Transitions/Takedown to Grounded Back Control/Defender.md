@@ -174,6 +174,8 @@ Timing is the critical variable in this defense. The three windows for successfu
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Takedown to Grounded Back Control?</p>
+
 - Attacker shifts their hips laterally to one side while pulling your upper body in the opposite direction, creating rotational force to disrupt your stance
 - Attacker drops their hips below yours and begins sitting down while maintaining chest-to-back pressure, indicating the hip-drop mat return
 - Attacker steps their foot behind your heel or ankle, setting up a trip while driving forward or lateral pressure through their chest connection
@@ -186,6 +188,8 @@ Timing is the critical variable in this defense. The three windows for successfu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Takedown to Grounded Back Control?</p>
 
 - Maintain active, unpredictable base movement to prevent the attacker from timing their takedown entry against a static stance
 - Fight the seatbelt grip aggressively with two-on-one technique, targeting the choking arm first to reduce both control and submission threat simultaneously
@@ -200,6 +204,8 @@ Timing is the critical variable in this defense. The three windows for successfu
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Takedown to Grounded Back Control?</p>
 
 ### 1. Widen base, sprawl hips back, and aggressively strip the seatbelt grip using two-on-one on the choking arm to prevent the takedown from initiating
 
@@ -237,6 +243,8 @@ Timing is the critical variable in this defense. The three windows for successfu
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Takedown to Grounded Back Control?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Maintain a wide, active stance with constant weight shifting and direction changes to prevent the attacker from timing their base break. Use two-on-one grip control to strip the seatbelt systematically, targeting the choking arm wrist with both hands. Sprawl your hips back aggressively when you feel the attacker begin to sit their weight, maintaining enough distance between your hips and theirs that they cannot generate the downward force needed for the mat return. This keeps the fight standing where escape probability is highest.
@@ -256,6 +264,8 @@ During the descent when the attacker's control is most compromised, commit to a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Takedown to Grounded Back Control?</p>
 
 ### 1. Remaining statically wide-based without actively fighting grips, hoping the stance alone will prevent the takedown
 
@@ -290,6 +300,8 @@ During the descent when the attacker's control is most compromised, commit to a 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Takedown to Grounded Back Control?</p>
+
 **Week 1-2** - Recognition and preemptive turtle defense
 Practice recognizing the five recognition cues with a cooperative partner who slowly demonstrates each mat return setup. Drill preemptive turtle drops with focus on arriving in defensive posture with elbows to knees and chin tucked. Perform 20-30 repetitions per side at slow speed, building the muscle memory to default to turtle when the takedown is initiated.
 
@@ -306,32 +318,6 @@ Full positional sparring starting from standing back control. Partner works mat 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three timing windows for defending the mat return, and which has the highest success rate?
-**A**: The three windows are: before the attacker commits their weight to the descent, during the fall when control is most compromised, and immediately upon landing before hooks consolidate. The first window - before commitment - has the highest success rate because you can still use standing escape mechanics, the attacker's weight has not yet created irresistible downward force, and you have maximum mobility to fight grips and shift your base. Each subsequent window narrows your options significantly.
-
-**Q2**: Your attacker begins shifting their hips laterally and you feel rotational pressure on your harness - what immediate action should you take?
-**A**: Immediately sprawl your hips back and away from the direction of their lateral shift while using two-on-one grip control on the choking arm wrist. The sprawl prevents them from dropping below your center of gravity, and the grip strip degrades their primary control mechanism. Simultaneously shift your weight toward the side they are pulling from, making their rotational force less effective. This combined defensive response addresses both the base break and the grip control that enable the mat return.
-
-**Q3**: Why is preemptive turtle often a better defensive outcome than being taken down at the attacker's chosen angle?
-**A**: Preemptive turtle gives you control over your own descent, landing with your defensive structural frame already intact: elbows to knees, chin tucked, rounded back. The attacker's preferred landing places you on your side with thighs exposed for immediate hook insertion. When you dictate the descent to turtle, you deny the side-landing angle, force the attacker to work from turtle top rather than immediate back control, and retain access to multiple escape pathways including granby rolls, sit-throughs, and technical standups that are unavailable from flat back control.
-
-**Q4**: Your attacker has locked the seatbelt and is beginning to sit their hips down - is it too late to prevent the takedown?
-**A**: It depends on how far they have committed. If their hips have not yet dropped below yours, aggressive sprawling and grip fighting can still prevent the descent. If their hips are already below yours and their weight is pulling you downward, preventing the takedown entirely is unlikely. At this point, shift your defensive focus to controlling the landing: drop to your knees into tight turtle before they can dictate the angle, clamp your thighs to prevent hook insertion during the fall, or commit to an explosive turn to recover facing position during the descent.
-
-**Q5**: What is the primary risk of using both hands to fight hook insertion after landing?
-**A**: Using both hands to fight hooks removes all neck defense, giving the attacker's choking arm unrestricted access to your throat. A skilled attacker will immediately slide their arm under your chin for a rear naked choke while your hands are occupied at thigh level. The hook defense is secondary to neck defense. Instead, use leg clamping and hip movement as primary hook defense while keeping at least one hand protecting the neck, only briefly using a hand to strip a hook before returning it to neck protection.
-
-**Q6**: How does the defender's choice between turning into the attacker versus dropping to turtle change based on the attacker's grip configuration?
-**A**: If the attacker has a loose or compromised seatbelt grip, turning is higher percentage because their reduced upper body control cannot follow your rotation effectively. If the attacker has a locked, deep seatbelt with the choking arm threatening the neck, dropping to turtle is safer because turning against a locked seatbelt often results in the choke tightening during rotation. The grip assessment must happen in real time: two-on-one grip test the seatbelt strength, and if it is loose, turn; if it is tight, turtle.
-
-
-
-</section>
 
 
 </main>

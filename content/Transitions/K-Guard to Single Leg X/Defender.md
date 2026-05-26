@@ -162,6 +162,8 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting K-Guard to Single Leg X?</p>
+
 - Bottom player's inverted hook begins releasing from its crossed position over your trapped leg, indicating the start of hook reconfiguration
 - Bottom player's hips begin scooting forward and underneath you rather than maintaining static K-Guard distance
 - Bottom player's inside leg starts threading around the outside of your ankle or calf rather than pulling across your trapped leg
@@ -174,6 +176,8 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending K-Guard to Single Leg X?</p>
 
 - Recognize the transition attempt in its earliest stages before hooks are fully reconfigured—prevention is far easier than escaping established SLX
 - Control the space between you and the bottom player to deny the hip scooting movement essential for SLX establishment
@@ -188,6 +192,8 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against K-Guard to Single Leg X?</p>
 
 ### 1. Backstep to clear trapped leg before SLX is established
 
@@ -225,6 +231,8 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending K-Guard to Single Leg X?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time a backstep to coincide with the bottom player's hook release phase when their leg connection is weakest. Step your trapped leg backward and clear it completely from their developing wrap before they can tighten. Immediately establish distance and begin passing from the superior open guard top position.
@@ -240,6 +248,8 @@ Maintain constant forward pressure with low hips to deny the space needed for ho
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending K-Guard to Single Leg X?</p>
 
 ### 1. Standing upright or stepping backward reflexively when feeling K-Guard hooks shift, providing exactly the space needed for SLX entry
 
@@ -269,6 +279,8 @@ Maintain constant forward pressure with low hips to deny the space needed for ho
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against K-Guard to Single Leg X?</p>
+
 **Phase 1: Recognition** - Identifying transition cues in real-time
 Partner repeatedly initiates the K-Guard to SLX transition at slow speed while you verbally identify each recognition cue as it occurs. Build pattern recognition for the hook release, hip scoot, and ankle threading movements. No defensive response at this stage—purely visual and tactile recognition training.
 
@@ -285,29 +297,6 @@ Start in K-Guard top with partner attempting all SLX entry variations at full re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating the K-Guard to SLX transition?
-**A**: The earliest cue is the inverted inside hook beginning to release from its crossed position over your trapped leg. In standard K-Guard, this hook maintains lateral pulling tension across your leg—when that tension changes or the hook begins unwinding, the bottom player is beginning the hook reconfiguration needed for SLX. Responding at this stage gives you the maximum prevention window before the transition gains momentum.
-
-**Q2**: Why is a half-committed backstep more dangerous than either staying put or fully committing to the backstep?
-**A**: A half-committed backstep creates the worst of both worlds: it provides the bottom player with the space they need for hook reconfiguration (which staying forward would deny) but does not clear your leg from their control range (which a full backstep would achieve). The half-step essentially gives them a wider workspace for threading the ankle wrap while keeping your leg within reach. Either commit fully to clear entirely, or drive forward to compress and deny.
-
-**Q3**: Your forward pressure successfully blocks the SLX transition—what should you do next?
-**A**: With the SLX transition blocked and the bottom player's hooks partially disorganized from the failed attempt, immediately capitalize by advancing your passing position. The bottom player's defensive structure is momentarily compromised during the failed transition—their hooks are not in optimal K-Guard configuration and their attention is split. Begin your passing sequence with a knee slice or smash pass while maintaining the forward pressure that blocked the transition.
-
-**Q4**: How do you defend against the SLX transition without opening yourself to K-Guard sweeps?
-**A**: Balance forward pressure with proper base management. Drive forward with your chest and hips rather than leaning over with your upper body, which maintains your center of gravity low and centered. Control the bottom player's far hip with one hand to prevent their hip movement while using shoulder pressure to compress hooks. This prevents SLX space creation without overcommitting your weight forward where it could be redirected into K-Guard sweeps.
-
-**Q5**: The bottom player has partially established SLX with the ankle wrap but no hip elevation yet—what is your response priority?
-**A**: Your immediate priority is preventing hip elevation. Lower your base by bending your knees deeply and widening your stance. Control the bottom player's outside hook by pushing their knee or foot toward the mat with your free hand. Without hip elevation, the SLX ankle wrap alone lacks the leverage for sweeps or leg attacks. Once you neutralize the elevation threat, systematically address the ankle wrap by pushing the wrapping leg toward the mat while maintaining your lowered base position.
-
-
-
-</section>
 
 
 </main>

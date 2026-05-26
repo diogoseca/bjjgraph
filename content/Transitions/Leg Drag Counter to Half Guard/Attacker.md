@@ -186,6 +186,8 @@ Strategically, this counter represents the middle path between complete guard re
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Drag Counter to Half Guard?</p>
+
 - Time your escape attempt to the opponent's weight shifts or grip adjustments
 - Create hip separation with frames before attempting leg recovery
 - Prioritize preventing back exposure over immediate leg extraction
@@ -201,6 +203,8 @@ Strategically, this counter represents the middle path between complete guard re
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Drag Counter to Half Guard?</p>
+
 - Opponent has established leg drag control with your near leg crossed over your body
 - You maintain frames at their shoulder and hip to prevent full consolidation
 - Your back is not yet fully exposed or hooked
@@ -212,6 +216,8 @@ Strategically, this counter represents the middle path between complete guard re
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Drag Counter to Half Guard step by step?</p>
 
 1. **Establish frames**: Create structural frames with your near-side elbow against their shoulder or bicep and your far arm controlling their head or crossfacing back. These frames generate the space needed for hip movement and prevent them from settling their full weight.
 2. **Hip escape away**: Execute a shrimping motion away from the opponent while keeping your shoulders relatively flat. This creates diagonal space between your hips and their pressure point. Do not turn onto your side—stay flat to prevent back exposure.
@@ -240,6 +246,8 @@ Strategically, this counter represents the middle path between complete guard re
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Drag Counter to Half Guard?</p>
+
 - **Opponent sprawls weight back and re-secures leg drag grip before you can lock half guard** (Effectiveness: High) - Your Response: If they sprawl early, abort the half guard attempt and reset frames. Wait for the next weight shift. Do not force the technique against a sprawled opponent. → Leads to [[Positions/Leg Drag Control]]
 - **Opponent switches to knee slice pass as you attempt to insert your leg** (Effectiveness: Medium) - Your Response: Accept the transition and immediately establish knee shield half guard. Your leg insertion motion sets up the shield naturally. Fight the crossface and build your frames. → Leads to [[Positions/Half Guard]]
 - **Opponent drives forward and flattens you to prevent hip escape** (Effectiveness: Medium) - Your Response: Use bridge and frame combination to create momentary space. Time your hip escape to the moment after the bridge when they are adjusting to your movement. → Leads to [[Positions/Leg Drag Control]]
@@ -251,6 +259,8 @@ Strategically, this counter represents the middle path between complete guard re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Drag Counter to Half Guard?</p>
 
 ### 1. Turning onto your side to escape rather than staying flat
 
@@ -285,6 +295,8 @@ Strategically, this counter represents the middle path between complete guard re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Drag Counter to Half Guard (Attacker)?</p>
+
 **Week 1-2** - Mechanics isolation
 Partner holds static leg drag control. Practice hip escape motion while maintaining flat shoulders, then drill circular knee extraction and leg threading in isolation. No resistance—focus on correct movement pattern.
 
@@ -302,48 +314,12 @@ Positional sparring starting from leg drag control. Rotate partners with varying
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to attempt this escape from leg drag bottom?
-**A**: The optimal window is when the opponent shifts weight or adjusts grips—typically when transitioning from leg drag to side control, reaching for the back, or resetting their leg control. Static pressure makes escape nearly impossible; movement creates opportunity. You must train sensitivity to feel these micro-adjustments.
-
-**Q2**: Why is staying flat on your back important during the hip escape phase?
-**A**: Staying flat prevents back exposure that occurs when you turn onto your side. Turning away from the opponent is their primary path to back control—flat shoulders limit their angle while still allowing hip movement for escape. Your hips move diagonally while your shoulders remain square.
-
-**Q3**: What are the critical frames needed before attempting leg recovery?
-**A**: The primary frame is against the opponent's shoulder or bicep with your near-side elbow, preventing them from settling weight. The secondary frame controls their head or crossfaces back with your far arm. Both frames must be structural—using bone alignment rather than muscular effort—to generate space for the hip escape that precedes leg extraction.
-
-**Q4**: Why should you use circular knee motion rather than pulling your leg straight back?
-**A**: Circular motion (knee to chest, then out) bypasses the opponent's grip mechanics. Pulling straight back fights directly against their control and leverage. The circular path exploits the gap in their grip line created by your hip escape angle, requiring less force and creating a better insertion angle for the outside leg.
-
-**Q5**: Your opponent sprawls back and re-secures their grip when you attempt the counter—what do you do?
-**A**: Abort the attempt immediately and reset your frames. Do not force the technique against a sprawled opponent—the mechanical advantage shifts entirely to them. Maintain defensive frames, protect your back, control your breathing, and wait for the next weight shift opportunity. Patience is essential; one well-timed attempt beats three forced ones.
-
-**Q6**: What grip must your outside leg establish on their near leg, and why is speed critical?
-**A**: Your outside leg must hook behind their knee or thigh with your instep or heel, then immediately triangle with your other leg to lock the half guard configuration. Speed is critical because any delay allows the opponent to clear the loose leg and re-establish their passing position or advance to side control. The lock must happen within a fraction of a second of insertion.
-
-**Q7**: Your opponent drives forward and flattens you during the escape attempt—how do you adjust?
-**A**: Use a bridge-and-frame combination to create momentary space. Bridge explosively to displace their weight, then immediately hip escape during the split second they are adjusting to your movement. The bridge alone does not create the escape—it creates the opening for the hip escape that follows. Do not bridge and pause; the sequence must be continuous.
-
-**Q8**: What determines the quality of the half guard you recover into?
-**A**: The upper body battle determines half guard quality. Securing an underhook on the trapped-leg side gives you immediate access to sweeps and back takes. If the underhook is denied, establishing a knee shield creates distance and prevents flattening. Without either control, the opponent crossfaces and flattens you, making the recovered half guard nearly as bad as the original leg drag. The leg lock is necessary but insufficient—upper body control is what makes the position offensive.
-
-**Q9**: How does this counter chain into offensive half guard attacks after successful execution?
-**A**: Upon securing half guard with an underhook, immediately threaten the back take by driving into their far hip and coming up to dogfight. If underhook is denied, establish knee shield and look for collar drags or arm drags. The lockdown is available for controlling their posture and setting up electric chair sweeps or whip-up entries. Each follow-up creates a dilemma that prevents the opponent from simply re-passing.
-
-**Q10**: How does body type affect execution of this escape?
-**A**: Shorter or stockier practitioners may find the deep half variant more accessible, diving underneath the opponent's center of gravity. Longer limbs facilitate the traditional half guard lock at distance because the outside leg reaches further. Against heavier opponents, timing becomes more critical as forcing the escape against settled weight is ineffective regardless of body type—you must wait for movement windows rather than relying on strength.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Drag Counter to Half Guard?</p>
 
 This technique is relatively low-risk compared to other escapes as it does not involve explosive bridging or inversion. The primary injury concern is knee strain from forcing the leg extraction against strong resistance—never yank your trapped leg straight back against a locked grip. If your leg feels torqued during the escape attempt, stop and reset. Training partners should allow controlled practice by providing graduated resistance rather than death-gripping the leg drag. Practitioners with existing knee or hip injuries should work the technique at reduced intensity and avoid forcing leg position against resistance. Ensure proper warm-up focusing on hip mobility before drilling leg drag defense sequences.
 

@@ -154,6 +154,8 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Boot Defense from Toe Hold?</p>
+
 - Opponent's foot suddenly becomes rigid with toes firmly pointed, creating palpable resistance to rotational force that was not present moments before
 - Opponent reaches for your wrists with both hands, indicating transition from passive defense to active grip fighting phase
 - Opponent's free leg begins pushing against your hips or hooking your far leg, signaling the framing phase of the escape sequence
@@ -166,6 +168,8 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Boot Defense from Toe Hold?</p>
 
 - Maintain grip pressure continuously—the boot defense requires the opponent to split attention between foot rigidity and grip fighting
 - Adjust hip angle perpendicular to the trapped leg to circumvent boot rigidity rather than fighting through it directly with force
@@ -180,6 +184,8 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Boot Defense from Toe Hold?</p>
 
 ### 1. Adjust hip angle perpendicular to opponent's leg and transition to kneebar attack
 
@@ -217,6 +223,8 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Boot Defense from Toe Hold?</p>
+
 ### → [[Positions/Toe Hold Control]]
 
 Maintain continuous grip pressure while adjusting angle incrementally. Use knee wedge or progressive rotation to break through boot rigidity before opponent completes their grip fighting sequence. The key is keeping constant pressure so the opponent cannot safely progress from boot defense to grip fighting.
@@ -232,6 +240,8 @@ Recognize that the boot straightens the opponent's leg, creating the extension n
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Boot Defense from Toe Hold?</p>
 
 ### 1. Attempting to power through the boot with explosive rotational force
 
@@ -261,6 +271,8 @@ Recognize that the boot straightens the opponent's leg, creating the extension n
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Boot Defense from Toe Hold?</p>
+
 **Recognition Training** - Identifying boot deployment cues
 Partner deploys boot defense at random intervals during toe hold positional drilling. Practice recognizing the rigidity change, wrist grab initiation, and free leg activation within one second of deployment. Build pattern recognition for immediate counter-strategy selection.
 
@@ -277,26 +289,6 @@ Timed rounds where you must complete submission or maintain dominant control aga
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent has deployed the boot defense against your toe hold?
-**A**: The immediate indicators are sudden rigidity in the foot with toes firmly pointed and the shin rotating inward. You will feel significant resistance to your rotational pressure that was absent before, and the opponent's hands will begin reaching for your wrists to initiate grip fighting. Recognizing these cues within the first second of deployment is critical for implementing effective counters before the defense stabilizes.
-
-**Q2**: Your opponent's boot is solid and you cannot complete the toe hold—what is your highest-percentage transition?
-**A**: The highest-percentage transition is to kneebar, because the boot defense straightens the opponent's leg—the exact extension needed for kneebar application. Reposition your hips perpendicular to their leg, shift control from their foot to above their knee, and apply downward pressure. This converts their defensive adaptation into your offensive advantage by exploiting the mechanical consequence of the boot structure.
-
-**Q3**: Why should you control the opponent's free leg during the boot defense exchange?
-**A**: The free leg is the opponent's primary tool for creating defensive space—they use it to push on your hips, hook your far leg, or establish frames that facilitate grip fighting and eventual leg extraction. Without free leg control, the opponent has full ability to manage distance and create the angles needed for escape. Pinning the free leg with your hip or knee eliminates their most effective defensive resource during the entire exchange.
-
-**Q4**: What is the risk of applying excessive force to break through a solid boot defense?
-**A**: Excessive force against the rigid boot structure creates serious injury risk to your training partner's ankle ligaments, particularly when combined with the internal rotation they are maintaining. The rigid structure can mask the actual stress being applied to the joint, meaning damage may occur before either party recognizes the danger. Additionally, explosive force telegraphs your intent and reduces your ability to maintain positional surprise for transitions.
-
-
-
-</section>
 
 
 </main>

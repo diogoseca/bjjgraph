@@ -186,6 +186,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inversion to Turtle?</p>
+
 - Commit fully to the rotation—partial inversions increase submission vulnerability dramatically
 - Maintain dorsiflexion throughout the entire escape to protect the heel from finishing grips
 - Use hands to control opponent's inside knee, preventing them from following your rotation
@@ -201,6 +203,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inversion to Turtle?</p>
+
 - Trapped in Ushiro Ashi-Garami with inverted hip position relative to opponent
 - Heel protection established through dorsiflexion before initiating escape
 - Free leg positioned to push against opponent's hip for rotational momentum
@@ -214,6 +218,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inversion to Turtle step by step?</p>
 
 1. **Establish heel protection**: Before any movement, flex your trapped foot toward your shin in maximum dorsiflexion. This pulls the heel tight against your lower leg, denying the opponent the slack needed for a finishing heel hook grip. Maintain this position throughout the entire escape sequence.
 2. **Control inside knee**: Use both hands to grip the opponent's inside leg at the knee, preventing them from stepping through to deepen the entanglement or transition to saddle. This grip also creates a frame that helps generate separation as you rotate.
@@ -242,6 +248,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inversion to Turtle?</p>
+
 - **Opponent follows rotation and takes back during inversion** (Effectiveness: High) - Your Response: Accelerate the rotation and immediately sit through to guard before they can establish hooks. Keep elbows tight to prevent seatbelt grip. → Leads to [[Positions/Turtle]]
 - **Opponent deepens leg control and transitions to saddle mid-escape** (Effectiveness: High) - Your Response: If you feel the inside leg deepening, abandon the turtle escape and transition to deep half guard entry instead, which is more viable from that control depth. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent maintains heel grip throughout rotation and finishes heel hook** (Effectiveness: Medium) - Your Response: Continue rotation even faster—the finishing mechanics become compromised as you complete the full inversion. The rotation actually helps strip heel hook grips if maintained throughout. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -253,6 +261,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inversion to Turtle?</p>
 
 ### 1. Stopping the rotation halfway, remaining inverted with leg still trapped
 
@@ -287,6 +297,8 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inversion to Turtle (Attacker)?</p>
+
 **Week 1-2** - Movement mechanics
 Practice the rotation in isolation without partner resistance. Focus on maintaining dorsiflexion throughout the movement arc, landing in proper turtle position, and building muscle memory for the full inversion. Use solo drilling to groove the motion pattern.
 
@@ -304,48 +316,12 @@ Full resistance positional sparring starting from Ushiro Ashi-Garami. Partner ac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Inversion to Turtle?
-**A**: The primary goal is to escape the Ushiro Ashi-Garami leg entanglement by committing to a full rotational movement that terminates in turtle position. This eliminates immediate heel hook threats and provides a stable platform for subsequent guard recovery. The escape trades leg attack danger for manageable back exposure defense.
-
-**Q2**: What foot position must you maintain throughout the entire escape and why?
-**A**: Maintain maximum dorsiflexion—foot flexed strongly toward your shin with toes pulled up—throughout the entire escape sequence. This position pulls the heel tight against your lower leg, eliminating the slack that attackers need to establish finishing heel hook grips. Even during successful rotation, a relaxed foot allows heel hook completion.
-
-**Q3**: Your opponent has deep inside leg control—should you attempt this escape?
-**A**: No. When the opponent's inside leg deeply controls your thigh, attempting turtle escape often results in them transitioning to saddle as you rotate. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning.
-
-**Q4**: What role do your hands play before initiating the rotation?
-**A**: Your hands must control the opponent's inside knee before any rotation begins. This grip prevents them from stepping through to saddle during your escape, creates a frame that generates separation, and provides leverage for the push-pull mechanics that drive rotational momentum. Without inside knee control, escape success drops dramatically.
-
-**Q5**: The opponent follows your rotation and is reaching for your back—what should you do?
-**A**: Accelerate your rotation and immediately sit through to guard rather than establishing turtle. The sit-through denies back control by keeping your hips mobile and facing the opponent. If their hands are reaching rather than secured, you have time to complete the sit-through before they establish seatbelt or hooks.
-
-**Q6**: Why is stopping halfway through the rotation worse than not attempting the escape at all?
-**A**: A halfway stop leaves you inverted with your leg still fully trapped—the worst possible configuration. Your inverted hips maximize heel exposure, your defensive hand position is compromised, and your opponent can easily adjust to finish the submission. Either commit fully to reach turtle or don't initiate at all.
-
-**Q7**: When is the optimal moment to initiate this escape?
-**A**: Initiate during the opponent's grip adjustment phase—when they release one hand to reposition for heel hook finishing, or when they shift their leg position to deepen control. These adjustment moments create brief control gaps where the rotation encounters minimal resistance. Attempting against fully consolidated control reduces success significantly.
-
-**Q8**: How does your free leg contribute to the escape mechanics?
-**A**: The free leg provides the primary driving force for rotation by pushing against the opponent's hip. Place your foot solidly on their near hip bone, then push forcefully while simultaneously pulling their inside knee. This push-pull coordination generates the rotational momentum needed to strip their leg control during the inversion.
-
-**Q9**: What turtle position attributes must you establish immediately upon completing rotation?
-**A**: Establish tight defensive turtle with elbows pinned to knees creating a shell, chin tucked to protect the neck, and hips held low to prevent opponent from inserting hooks. This compact position prevents easy back takes and gives you time to assess follow-up options. Extended arms or elevated hips invite immediate back control.
-
-**Q10**: If you feel the opponent's heel hook grip tightening during your rotation, should you stop?
-**A**: No—continue and even accelerate the rotation. The finishing mechanics for heel hooks become progressively compromised as your full inversion completes. The rotation actually helps strip heel hook grips by changing the angle and creating movement that disrupts their finishing position. Stopping leaves you in their optimal finishing configuration.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inversion to Turtle?</p>
 
 This escape involves rapid spinal rotation under load, requiring proper warm-up and flexibility development before training. Never attempt with a pre-existing lower back or neck injury. When drilling, partners should release leg control progressively rather than holding through forced rotation to prevent knee and ankle strain on the escaping practitioner. Maintain dorsiflexion religiously—a relaxed foot during live training can result in heel hook injury even during successful escapes. If you feel your heel becoming exposed mid-rotation, tap immediately rather than hoping to complete the escape. When landing in turtle, protect your neck by tucking your chin; extended neck positions combined with back take attempts can cause cervical strain.
 
